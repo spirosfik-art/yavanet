@@ -1,0 +1,52 @@
+{
+  "slug": "orange-rain-warning-east-sterea-evvoia",
+  "section": "breaking",
+  "publishedAt": "2026-09-26T22:47:15+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 38.5,
+    "lng": 23.8
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR003"
+    }
+  ],
+  "image": {
+    "type": "illustration",
+    "key": "storm"
+  },
+  "he": {
+    "title": "אזהרת גשם כתומה פורסמה למזרח סטראה ולאוויה",
+    "dek": "הרשויות המטאורולוגיות פרסמו אזהרת גשם ברמה כתומה עבור אזורי מזרח סטראה והאי אוויה.",
+    "tldr": [
+      "פורסמה אזהרת גשם ברמה כתומה ביוון.",
+      "האזהרה מכסה את אזורי מזרח סטראה ואת האי אוויה.",
+      "השוהים באזורים אלו מתבקשים לגלות ערנות ולעקוב אחר עדכוני מזג האוויר."
+    ],
+    "means": "אם אתם שוהים כעת או מתכננים נסיעה במזרח סטראה או באי אוויה, כדאי לקחת בחשבון היתכנות לעיכובים בכבישים עקב גשמים כבדים. מומלץ להתעדכן בתחזית המקומית ולנהוג במשנה זהירות.",
+    "body": "## התרעת מזג אוויר במרכז יוון\n\nאזהרת גשם בדרגת חומרה כתומה פורסמה עבור מזרח סטראה והאי אוויה (אובויה). ההתרעה הרשמית מצביעה על צפי למערכת גשם משמעותית באזורים אלה.\n\n## האזורים הרלוונטיים להתרעה\n\nההודעה שפורסמה מתמקדת בשני מוקדים גיאוגרפיים עיקריים:\n\n* מזרח סטראה (חלקו המזרחי של מרכז יוון היבשתית)\n* האי אוויה\n\n## המלצות להתנהלות בשטח\n\nאזהרה ברמה כתומה מהווה קריאה לתושבים ולמבקרים להיערך למשקעים ולעקוב באופן רציף אחר הנחיות הגורמים המוסמכים. יש לקחת בחשבון תנאי נהיגה מורכבים בכבישים בין-עירוניים והרריים באזורים הללו."
+  },
+  "en": {
+    "title": "Orange Rain Warning Issued for East Sterea and Evia",
+    "dek": "Meteorological authorities have issued an orange-level rain alert covering East Sterea and the island of Evia.",
+    "tldr": [
+      "An orange rain warning has been issued in Greece.",
+      "The alert applies to East Sterea and the island of Evia.",
+      "Travelers and residents in these regions are advised to stay alert."
+    ],
+    "means": "If you are currently staying in or travelling through East Sterea or Evia, be prepared for possible travel disruptions due to heavy rainfall. Drive carefully on regional routes and monitor official local weather updates.",
+    "body": "## Weather Warning in Central Greece\n\nAn official orange rain warning has been released for parts of central Greece, specifically covering East Sterea and the island of Evia (Evvoia). The alert indicates expectations of significant rainfall across these territories.\n\n## Areas Covered by the Warning\n\nThe warning applies to the following designated regions:\n\n* East Sterea (eastern mainland central Greece)\n* The island of Evia\n\n## Practical Precautions\n\nAn orange-level alert calls on residents and visitors in the affected areas to remain vigilant and stay informed. Motorists using local and regional road networks in East Sterea and Evia should exercise extra caution during wet conditions."
+  },
+  "meta": {
+    "itemId": "ca19cc47552b",
+    "sourceHash": "37616da10600",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-26T19:47:15.597Z",
+    "official": true
+  }
+}
