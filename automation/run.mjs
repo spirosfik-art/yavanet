@@ -174,16 +174,14 @@ async function write(item, pick, { instruction, neutral } = {}) {
 /* ================= 6. Δημοσίευση / έγκριση ================= */
 async function pickImage(draft) {
   const key = ART_KEYS.includes(draft.imageKey) ? draft.imageKey : null;
-  if (env.UNSPLASH_ACCESS_KEY && draft.imageQuery) {
+  // Φωτογραφίες από το Pexels (δωρεάν, επιτρέπει αυτόματη επιλογή, με αναφορά φωτογράφου)
+  if (env.PEXELS_API_KEY && draft.imageQuery) {
     try {
-      const r = await fetch(`https://api.unsplash.com/search/photos?per_page=1&orientation=landscape&content_filter=high&query=${encodeURIComponent(draft.imageQuery)}`, { headers: { Authorization: `Client-ID ${env.UNSPLASH_ACCESS_KEY}` } });
+      const r = await fetch(`https://api.pexels.com/v1/search?per_page=5&orientation=landscape&query=${encodeURIComponent(draft.imageQuery)}`, { headers: { Authorization: env.PEXELS_API_KEY } });
       const d = await r.json();
-      const p = d.results && d.results[0];
-      if (p) {
-        fetch(p.links.download_location, { headers: { Authorization: `Client-ID ${env.UNSPLASH_ACCESS_KEY}` } }).catch(() => {});
-        return { type: "photo", url: p.urls.regular, alt: p.alt_description || draft.en.title, credit: `Photo: ${p.user.name} / Unsplash`, creditUrl: `${p.links.html}?utm_source=yavanet&utm_medium=referral`, license: "Unsplash License", fallbackKey: key };
-      }
-    } catch (e) { log("unsplash", e.message); }
+      const p = (d.photos || [])[0];
+      if (p) return { type: "photo", url: p.src.large2x || p.src.large, alt: p.alt || draft.en.title, credit: `Photo: ${p.photographer} / Pexels`, creditUrl: p.url, license: "Pexels License", fallbackKey: key };
+    } catch (e) { log("pexels", e.message); }
   }
   return { type: "illustration", key: key || "sea" };
 }
@@ -327,9 +325,9 @@ async function updates() {
 }
 
 /* ================= Φωτογραφίες σε παλαιότερα άρθρα ================= */
-// Όταν υπάρχει κλειδί Unsplash, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
+// Όταν υπάρχει κλειδί Pexels, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
 async function backfillPhotos() {
-  if (!env.UNSPLASH_ACCESS_KEY) return;
+  if (!env.PEXELS_API_KEY) return;
   const list = loadArticles().filter((a) => !a.hidden && (!a.image || a.image.type !== "photo") && !(a.meta && a.meta.photoTried))
     .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")).slice(0, 4);
   for (const a of list) {

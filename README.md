@@ -40,7 +40,7 @@
 | AI: **Google Gemini, δωρεάν επίπεδο** (`GEMINI_API_KEY`) | AI: Claude API (`ANTHROPIC_API_KEY`), για καλύτερα εβραϊκά και πιο αυστηρούς ελέγχους |
 | Brevo δωρεάν: έως 300 email τη μέρα | Πληρωμένο πλάνο Brevo όταν οι συνδρομητές ξεπεράσουν τους ~300 |
 | Χωρίς Make.com, με ανάρτηση μόνο στο κανάλι Telegram | Make.com για Facebook / Instagram / X |
-| Εικονογραφήσεις του site + Unsplash (δωρεάν) | Ίδιο |
+| Εικονογραφήσεις του site + Pexels (δωρεάν) | Ίδιο |
 
 Η αλλαγή από Gemini σε Claude γίνεται χωρίς αλλαγή κώδικα: προσθέτεις το `ANTHROPIC_API_KEY` στα Secrets και βάζεις `AI_PROVIDER=claude`.
 
@@ -58,7 +58,7 @@
 | Brevo | newsletter, email, CRM | δωρεάν έως 300 email/μέρα |
 | Telegram | εγκρίσεις από κινητό, κανάλι | δωρεάν |
 | Google Analytics, Microsoft Clarity | στατιστικά, heatmaps | δωρεάν |
-| Unsplash (προαιρετικό) | φωτογραφίες με ελεύθερη άδεια | δωρεάν |
+| Pexels (προαιρετικό) | φωτογραφίες με ελεύθερη άδεια | δωρεάν |
 | *Αργότερα:* Claude API | καλύτερη ποιότητα άρθρων | ~€50–100/μήνα για 10–15 άρθρα/μέρα* |
 | *Αργότερα:* Make.com | Facebook / Instagram / X | δωρεάν έως ~€10/μήνα |
 | *Αργότερα:* ΑΠΕ-ΜΠΕ | ροή ειδήσεων πρακτορείου | κατόπιν προσφοράς |
@@ -123,7 +123,7 @@ Repository → **Settings → Secrets and variables → Actions**.
 - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_OWNER_CHAT_ID`, `TELEGRAM_CHANNEL_ID`
 - `BREVO_API_KEY`
 - `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
-- προαιρετικά: `UNSPLASH_ACCESS_KEY`, `MAKE_WEBHOOK_URL`
+- προαιρετικά: `PEXELS_API_KEY`, `MAKE_WEBHOOK_URL`
 
 **Variables**
 - `SITE_URL` = https://yavanet.pages.dev (αργότερα το δικό σου domain)
