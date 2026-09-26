@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   ROOT, STATE_FILE, env, DRY, log, sha, readJSON, writeJSON, athensNow, isoAthens, fetchText, parseFeed, mainText, extractLinks,
-  claude, provider, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio,
+  claude, provider, hasAI, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio,
 } from "./lib.mjs";
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
@@ -328,6 +328,7 @@ async function updates() {
 
 /* ================= Εκτέλεση ================= */
 (async () => {
+  if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
   try {
     await handleTelegram();
     if (state.paused) { log("σε παύση"); return; }

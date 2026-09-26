@@ -6,6 +6,7 @@ import { NEWSLETTER_SYSTEM } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
 
 const kind = process.argv[2] || "daily";
+if (!env.BREVO_API_KEY) { log("Το Brevo δεν έχει ρυθμιστεί ακόμα – παράλειψη."); process.exit(0); }
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const url = (a, lang) => SITE.url.replace(/\/$/, "") + (lang === "he" ? "" : "/en") + `/a/${a.slug}/?utm_source=newsletter&utm_medium=email&utm_campaign=${kind}`;
 
