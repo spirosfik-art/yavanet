@@ -95,7 +95,9 @@ export const provider = () => env.AI_PROVIDER || (env.ANTHROPIC_API_KEY ? "claud
 export const hasAI = () => !!(env.ANTHROPIC_API_KEY || env.GEMINI_API_KEY);
 let lastGemini = 0;
 let geminiAuto = null;
-// Βρίσκει μόνο του το νεότερο διαθέσιμο μοντέλο «flash» (η Google αλλάζει συχνά ονόματα)
+export let quotaHit = false;
+export const aiQuotaHit = () => quotaHit;
+// Βρίσκει μόνο του το νεότερο διαθέσιμο μοντέλο «flash-lite» (η Google αλλάζει συχνά ονόματα)
 async function pickGeminiModel() {
   if (geminiAuto) return geminiAuto;
   const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", { headers: { "x-goog-api-key": env.GEMINI_API_KEY } });
@@ -104,9 +106,11 @@ async function pickGeminiModel() {
   const cands = (d.models || [])
     .filter((m) => (m.supportedGenerationMethods || []).includes("generateContent"))
     .map((m) => m.name.replace(/^models\//, ""))
-    .filter((n) => /^gemini-[\d.]+-flash$/.test(n) || /^gemini-[\d.]+-flash-latest$/.test(n) || n === "gemini-flash-latest");
-  cands.sort((a, b) => (b === "gemini-flash-latest") - (a === "gemini-flash-latest") || ver(b) - ver(a));
-  geminiAuto = cands[0] || "gemini-flash-latest";
+    .filter((n) => /^gemini-[\d.]+-flash(-lite)?$/.test(n));
+  // Προτιμάμε «Flash Lite»: στο δωρεάν επίπεδο έχει ~500 αιτήματα/μέρα (το «Flash» μόνο ~20)
+  const lite = (n) => (n.endsWith("-lite") ? 1 : 0);
+  cands.sort((a, b) => lite(b) - lite(a) || ver(b) - ver(a));
+  geminiAuto = cands[0] || "gemini-flash-lite-latest";
   log("μοντέλο Gemini:", geminiAuto);
   return geminiAuto;
 }
@@ -114,8 +118,8 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
   if (!env.GEMINI_API_KEY) throw new Error("Λείπει το GEMINI_API_KEY");
   let model = (role === "select" && env.GEMINI_SELECT_MODEL) || env.GEMINI_MODEL || (await pickGeminiModel());
   for (let attempt = 1; attempt <= 4; attempt++) {
-    // Το δωρεάν επίπεδο επιτρέπει λίγα αιτήματα το λεπτό: κρατάμε απόσταση ~7 δευτερολέπτων
-    const wait = 7000 - (Date.now() - lastGemini); if (wait > 0) await new Promise((s) => setTimeout(s, wait));
+    // Το δωρεάν επίπεδο επιτρέπει ~15 αιτήματα το λεπτό: κρατάμε απόσταση ~4,5 δευτερολέπτων
+    const wait = 4500 - (Date.now() - lastGemini); if (wait > 0) await new Promise((s) => setTimeout(s, wait));
     lastGemini = Date.now();
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
       method: "POST",
@@ -126,7 +130,15 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
         generationConfig: { temperature, maxOutputTokens: Math.max(maxTokens, 8192), responseMimeType: "application/json" },
       }),
     });
-    if (r.status === 429 || r.status >= 500) { await new Promise((s) => setTimeout(s, 20000 * attempt)); continue; }
+    if (r.status === 429) {
+      // Αν τελείωσε το ημερήσιο όριο, σταματάμε αμέσως (ξαναδοκιμάζει στην επόμενη εκτέλεση)
+      const body = await r.text();
+      const m = body.match(/"retryDelay":\s*"(\d+)s"/);
+      const delay = m ? Number(m[1]) : 20;
+      if (/PerDay|per day/i.test(body) || delay > 60 || attempt >= 3) { quotaHit = true; throw new Error("Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει αργότερα"); }
+      await new Promise((s) => setTimeout(s, (delay + 2) * 1000)); continue;
+    }
+    if (r.status >= 500) { await new Promise((s) => setTimeout(s, 10000 * attempt)); continue; }
     const d = await r.json();
     if (r.status === 404 && attempt === 1) { geminiAuto = null; const m2 = await pickGeminiModel(); if (m2 !== model) { log(`το ${model} δεν είναι διαθέσιμο → ${m2}`); model = m2; continue; } }
     if (!r.ok) throw new Error("Gemini API: " + JSON.stringify(d).slice(0, 300));

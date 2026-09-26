@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   ROOT, STATE_FILE, env, DRY, log, sha, readJSON, writeJSON, athensNow, isoAthens, fetchText, parseFeed, mainText, extractLinks,
-  claude, provider, hasAI, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio,
+  claude, provider, hasAI, aiQuotaHit, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio,
 } from "./lib.mjs";
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
@@ -345,17 +345,19 @@ async function backfillPhotos() {
   try {
     await handleTelegram();
     if (state.paused) { log("σε παύση"); return; }
+    await backfillPhotos(); // χωρίς AI: τρέχει ακόμα κι αν τελείωσε το ημερήσιο όριο
     await timeouts();
     const items = await collect();
     log(`νέα θέματα: ${items.length}`);
     const picks = await select(items);
     log(`επιλέχθηκαν: ${picks.length}`);
     for (const p of picks) {
-      try { await handlePick(p); } catch (e) { reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
+      if (aiQuotaHit()) { state.seen[p.item.id] = 0; delete state.seen[p.item.id]; continue; } // θα ξαναδοκιμαστεί
+      try { await handlePick(p); } catch (e) { if (aiQuotaHit()) { delete state.seen[p.item.id]; continue; } reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
     }
     if (env.UPDATE_CHECK !== "0") await updates();
-    await backfillPhotos();
   } catch (e) {
+    if (aiQuotaHit()) { log("Τελείωσε το δωρεάν ημερήσιο όριο AI – συνέχεια στην επόμενη εκτέλεση."); return; }
     log("ΣΦΑΛΜΑ", e.stack || e.message);
     state.today.errors.push(String(e.message));
     if (state.today.errors.length === 3) await notifyOwner("⚠️ Η αυτόματη ροή έχει σφάλματα: " + e.message);
