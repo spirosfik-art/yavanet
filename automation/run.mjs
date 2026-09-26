@@ -205,7 +205,7 @@ async function publish(draft, item, pick, text) {
     image: await pickImage(draft),
     he: { title: draft.he.title, dek: draft.he.dek, tldr: draft.he.tldr.slice(0, 3), means: draft.he.means || "", body: draft.he.body },
     en: { title: draft.en.title, dek: draft.en.dek, tldr: draft.en.tldr.slice(0, 3), means: draft.en.means || "", body: draft.en.body },
-    meta: { itemId: item.id, sourceHash: sha(text), model: provider() === "gemini" ? (env.GEMINI_MODEL || "gemini-2.5-flash") : WRITE_MODEL, checkedAt: new Date().toISOString(), official: item.official },
+    meta: { itemId: item.id, imageQuery: draft.imageQuery || "", sourceHash: sha(text), model: provider() === "gemini" ? (env.GEMINI_MODEL || "gemini-2.5-flash") : WRITE_MODEL, checkedAt: new Date().toISOString(), official: item.official },
   };
   if (article.breaking) article.section = "breaking";
   saveArticle(article);
@@ -326,6 +326,21 @@ async function updates() {
   }
 }
 
+/* ================= Φωτογραφίες σε παλαιότερα άρθρα ================= */
+// Όταν υπάρχει κλειδί Unsplash, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
+async function backfillPhotos() {
+  if (!env.UNSPLASH_ACCESS_KEY) return;
+  const list = loadArticles().filter((a) => !a.hidden && (!a.image || a.image.type !== "photo") && !(a.meta && a.meta.photoTried))
+    .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")).slice(0, 4);
+  for (const a of list) {
+    const query = a.imageQuery || (a.meta && a.meta.imageQuery) || a.en.title.replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 3).slice(0, 4).join(" ") + " Greece";
+    const img = await pickImage({ imageKey: a.image && a.image.key, imageQuery: query, en: a.en });
+    a.meta = { ...(a.meta || {}), photoTried: true };
+    if (img.type === "photo") { a.image = img; log("📷 φωτογραφία:", a.slug); }
+    saveArticle(a);
+  }
+}
+
 /* ================= Εκτέλεση ================= */
 (async () => {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
@@ -341,6 +356,7 @@ async function updates() {
       try { await handlePick(p); } catch (e) { reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
     }
     if (env.UPDATE_CHECK !== "0") await updates();
+    await backfillPhotos();
   } catch (e) {
     log("ΣΦΑΛΜΑ", e.stack || e.message);
     state.today.errors.push(String(e.message));
