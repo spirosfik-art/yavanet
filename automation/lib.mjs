@@ -94,9 +94,25 @@ export function extractLinks(html, base, pattern) {
 export const provider = () => env.AI_PROVIDER || (env.ANTHROPIC_API_KEY ? "claude" : "gemini");
 export const hasAI = () => !!(env.ANTHROPIC_API_KEY || env.GEMINI_API_KEY);
 let lastGemini = 0;
+let geminiAuto = null;
+// Βρίσκει μόνο του το νεότερο διαθέσιμο μοντέλο «flash» (η Google αλλάζει συχνά ονόματα)
+async function pickGeminiModel() {
+  if (geminiAuto) return geminiAuto;
+  const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", { headers: { "x-goog-api-key": env.GEMINI_API_KEY } });
+  const d = await r.json().catch(() => ({}));
+  const ver = (n) => (n.match(/(\d+(?:\.\d+)?)/) || [0, 0])[1] * 1;
+  const cands = (d.models || [])
+    .filter((m) => (m.supportedGenerationMethods || []).includes("generateContent"))
+    .map((m) => m.name.replace(/^models\//, ""))
+    .filter((n) => /^gemini-[\d.]+-flash$/.test(n) || /^gemini-[\d.]+-flash-latest$/.test(n) || n === "gemini-flash-latest");
+  cands.sort((a, b) => (b === "gemini-flash-latest") - (a === "gemini-flash-latest") || ver(b) - ver(a));
+  geminiAuto = cands[0] || "gemini-flash-latest";
+  log("μοντέλο Gemini:", geminiAuto);
+  return geminiAuto;
+}
 async function gemini({ system, prompt, role, maxTokens, temperature }) {
   if (!env.GEMINI_API_KEY) throw new Error("Λείπει το GEMINI_API_KEY");
-  const model = (role === "select" && env.GEMINI_SELECT_MODEL) || env.GEMINI_MODEL || "gemini-2.5-flash";
+  let model = (role === "select" && env.GEMINI_SELECT_MODEL) || env.GEMINI_MODEL || (await pickGeminiModel());
   for (let attempt = 1; attempt <= 4; attempt++) {
     // Το δωρεάν επίπεδο επιτρέπει λίγα αιτήματα το λεπτό: κρατάμε απόσταση ~7 δευτερολέπτων
     const wait = 7000 - (Date.now() - lastGemini); if (wait > 0) await new Promise((s) => setTimeout(s, wait));
@@ -112,6 +128,7 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
     });
     if (r.status === 429 || r.status >= 500) { await new Promise((s) => setTimeout(s, 20000 * attempt)); continue; }
     const d = await r.json();
+    if (r.status === 404 && attempt === 1) { geminiAuto = null; const m2 = await pickGeminiModel(); if (m2 !== model) { log(`το ${model} δεν είναι διαθέσιμο → ${m2}`); model = m2; continue; } }
     if (!r.ok) throw new Error("Gemini API: " + JSON.stringify(d).slice(0, 300));
     const text = (d.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
     if (!text) throw new Error("Gemini: κενή απάντηση (" + (d.candidates?.[0]?.finishReason || d.promptFeedback?.blockReason || "?") + ")");

@@ -38,6 +38,7 @@ jobs:
         run: node automation/run.mjs
       - name: Save changes
         id: git
+        if: always()
         run: |
           git config user.name "yavanet-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -45,6 +46,7 @@ jobs:
           if git diff --cached --quiet -- content; then echo "content=0" >> $GITHUB_OUTPUT; else echo "content=1" >> $GITHUB_OUTPUT; fi
           git diff --cached --quiet || (git commit -m "auto: content $(date -u +%FT%TZ)" && git push)
       - name: Build
+        if: always()
         env:
           SITE_URL: ${{ vars.SITE_URL }}
           GA4_ID: ${{ vars.GA4_ID }}
@@ -55,7 +57,7 @@ jobs:
             node build.mjs && echo "DEPLOY=1" >> $GITHUB_ENV
           fi
       - name: Deploy to Cloudflare Pages
-        if: env.DEPLOY == '1'
+        if: always() && env.DEPLOY == '1'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
