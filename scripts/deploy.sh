@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 # Ανέβασμα του φακέλου dist/ στο Cloudflare Pages.
 set -e
+RAW_T="${CLOUDFLARE_API_TOKEN:-}"
 # Καθαρίζουμε κενά/επιπλέον γραμμές που μπορεί να μπήκαν με την επικόλληση
 export CLOUDFLARE_API_TOKEN="$(printf '%s' "${CLOUDFLARE_API_TOKEN:-}" | grep -oE '[A-Za-z0-9_-]{40,}' | head -1 || true)"
 export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID:-}" | tr -d '[:space:]')"
 PROJECT="${CF_PROJECT:-yavanet}"
+echo "token chars: ${#CLOUDFLARE_API_TOKEN} · account chars: ${#CLOUDFLARE_ACCOUNT_ID} · raw token chars: ${#RAW_T}"
 if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then echo "Cloudflare δεν έχει ρυθμιστεί ακόμα – παράλειψη."; exit 0; fi
 # Δημιουργία project την πρώτη φορά (αν υπάρχει ήδη, το Cloudflare απλώς απαντά ότι υπάρχει)
 curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects" \
