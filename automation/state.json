@@ -106,91 +106,71 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-26T20:47:18.736Z",
+      "at": "2026-09-26T21:00:50.643Z",
       "error": "HTTP 403",
-      "fails": 5
+      "fails": 6
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-26T20:47:21.073Z",
-      "items": 10
+      "at": "2026-09-26T21:00:51.046Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-26T20:47:21.843Z",
+      "at": "2026-09-26T21:00:51.539Z",
       "items": 5
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-26T20:47:21.955Z",
+      "at": "2026-09-26T21:00:51.649Z",
       "error": "HTTP 403",
-      "fails": 5
+      "fails": 6
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-26T20:47:23.236Z",
+      "at": "2026-09-26T21:00:52.794Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-26T20:47:23.622Z",
+      "at": "2026-09-26T21:00:52.927Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-26T20:47:24.877Z",
+      "at": "2026-09-26T21:00:54.602Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-26T20:47:25.788Z",
+      "at": "2026-09-26T21:00:55.223Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-26T20:47:26.555Z",
+      "at": "2026-09-26T21:00:55.559Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-26T20:47:26.640Z",
+      "at": "2026-09-26T21:00:55.617Z",
       "error": "HTTP 403",
-      "fails": 5
+      "fails": 6
     }
   },
   "tgOffset": 0,
   "today": {
-    "date": "2026-09-26",
-    "count": 1,
-    "published": [
-      {
-        "slug": "orange-rain-warning-crete",
-        "title": "Orange Rain Warning Issued for Crete",
-        "at": "2026-09-26T23:47:51+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-thessalia",
-        "title": "Orange Rain Warning Issued for the Thessaly Region in Greece",
-        "at": "2026-09-26T23:48:00+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-japan-discuss-direct-flights",
-        "title": "Greece and JAL Discuss Direct Flights in Tourism Talks",
-        "at": "2026-09-26T23:48:16+03:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "More Athens Bus Routes to Get High-Frequency Service from October",
-        "reason": "Σφάλμα: Expected ',' or '}' after property value in JSON at position 1318",
-        "at": "2026-09-26T20:48:24.893Z"
-      }
-    ],
-    "errors": [
-      "Expected ',' or '}' after property value in JSON at position 1318"
-    ]
-  }
+    "date": "2026-09-27",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
+  },
+  "history": [
+    {
+      "date": "2026-09-26",
+      "count": 1,
+      "rejected": 1
+    }
+  ]
 }
