@@ -1,1 +1,70 @@
-{"paused":false,"seen":{},"pending":{},"sourceStatus":{},"tgOffset":0}
+{
+  "paused": false,
+  "seen": {},
+  "pending": {},
+  "sourceStatus": {
+    "pm": {
+      "ok": false,
+      "at": "2026-09-26T20:08:58.114Z",
+      "error": "HTTP 403",
+      "fails": 1
+    },
+    "minfin": {
+      "ok": true,
+      "at": "2026-09-26T20:09:00.680Z",
+      "items": 10
+    },
+    "migration": {
+      "ok": true,
+      "at": "2026-09-26T20:09:01.604Z",
+      "items": 5
+    },
+    "civilprotection": {
+      "ok": false,
+      "at": "2026-09-26T20:09:01.827Z",
+      "error": "HTTP 403",
+      "fails": 1
+    },
+    "meteoalarm": {
+      "ok": true,
+      "at": "2026-09-26T20:09:03.382Z",
+      "items": 11
+    },
+    "usgs": {
+      "ok": true,
+      "at": "2026-09-26T20:09:03.457Z",
+      "items": 5
+    },
+    "il-embassy": {
+      "ok": true,
+      "at": "2026-09-26T20:09:04.727Z",
+      "items": 4
+    },
+    "ert": {
+      "ok": true,
+      "at": "2026-09-26T20:09:05.662Z",
+      "items": 3
+    },
+    "gtp": {
+      "ok": true,
+      "at": "2026-09-26T20:09:06.137Z",
+      "items": 10
+    },
+    "toi-greece": {
+      "ok": false,
+      "at": "2026-09-26T20:09:06.178Z",
+      "error": "HTTP 403",
+      "fails": 1
+    }
+  },
+  "tgOffset": 0,
+  "today": {
+    "date": "2026-09-26",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": [
+      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση"
+    ]
+  }
+}
