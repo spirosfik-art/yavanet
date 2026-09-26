@@ -1,0 +1,154 @@
+// Βασικές ρυθμίσεις του Yavanet. Άλλαξε εδώ τα στοιχεία της εταιρείας και του site.
+export const SITE = {
+  name: "Yavanet",
+  url: process.env.SITE_URL || "https://yavanet.pages.dev", // αργότερα: το δικό σας domain, π.χ. https://yavanet.com
+  // Στοιχεία εκδότη (εμφανίζονται στις νομικές σελίδες). Συμπληρώστε πριν βγει το site online.
+  publisher: {
+    he: "[שם החברה המפרסמת]",
+    en: "[Publisher company name]",
+    address: "[Διεύθυνση εταιρείας]",
+    email: "info@yavanet.com",
+  },
+  // Banner διαφήμισης της εταιρείας ακινήτων
+  ad: {
+    brandHe: "[שם החברה והלוגו]",
+    brandEn: "[Company name and logo]",
+  },
+  whatsappChannel: "", // π.χ. https://whatsapp.com/channel/XXXX
+  telegramChannel: "", // π.χ. https://t.me/yavanet
+  ga4Id: process.env.GA4_ID || "",          // π.χ. G-XXXXXXX
+  clarityId: process.env.CLARITY_ID || "",  // π.χ. abcd1234
+};
+
+// Ενότητες με τη σειρά του μενού
+export const SECTIONS = [
+  { slug: "israelis", he: "ישראלים ביוון", en: "Israelis in Greece", mark: "isr" },
+  { slug: "real-estate", he: "נדל״ן וממשלה", en: "Real estate & government", mark: "gov" },
+  { slug: "breaking", he: "מבזקים", en: "Breaking", mark: "brk" },
+  { slug: "politics", he: "פוליטיקה וכלכלה", en: "Politics & economy", mark: "pol" },
+  { slug: "travel", he: "טיולים וחופשות", en: "Travel", mark: "trv" },
+  { slug: "living", he: "לחיות ביוון", en: "Living in Greece", mark: "liv" },
+  { slug: "jewish-greece", he: "יוון היהודית", en: "Jewish Greece", mark: "jew" },
+];
+
+export const LEGAL_PAGES = ["about", "contact", "advertise", "privacy", "cookies", "terms", "corrections", "disclaimer"];
+
+export const T = {
+  he: {
+    dir: "rtl", locale: "he-IL", langName: "עברית",
+    tagline: "החדשות של יוון, בעברית",
+    breakingTag: "מבזק",
+    zoneGov: "חדשות מהממשלה על נדל״ן", zoneGovEye: "חוקים · מיסים · ויזת זהב",
+    zoneIsr: "ישראלים ביוון", zoneIsrEye: "קהילה · חיים · השקעות",
+    zoneMore: "עוד חדשות",
+    adLabel: "פרסומת", adTitle: "קונים נכס ביוון? ליווי מלא בעברית",
+    adText: "מחיפוש הנכס ועד מפתח ביד: עורך דין, נוטריון, ויזת זהב וניהול הנכס.", adCta: "דברו עם יועץ נדל״ן",
+    sponsored: "תוכן ממומן",
+    calcTitle: "מחשבון עלויות רכישת נכס", calcPrice: "מחיר הנכס (€)", calcRate: "שער אירו/שקל",
+    calcAgent: "כולל עמלת תיווך (2% + מע״מ)",
+    calcFine: "הערכה בלבד. הסכומים הם ממוצעים מקובלים ביוון ואינם ייעוץ משפטי או מיסויי.",
+    rows: { tax: "מס העברה (3.09%)", notary: "נוטריון (כ-1%)", lawyer: "עורך דין (1% + מע״מ)", reg: "רישום בטאבו/קדסטר (כ-0.6%)", agent: "תיווך (2% + מע״מ)", total: "סה״כ עלויות", grand: "סה״כ כולל מחיר", ils: "בשקלים" },
+    yieldTitle: "מחשבון הכנסה מ-Airbnb", yieldRegion: "אזור", yieldPrice: "מחיר הנכס (€)",
+    yieldNight: "מחיר ממוצע ללילה", yieldOcc: "תפוסה שנתית", yieldGross: "הכנסה שנתית ברוטו", yieldNet: "אחרי הוצאות (כ-35%)", yieldPct: "תשואה שנתית",
+    yieldFine: "הערכה גסה לפי ממוצעי שוק. במרכז אתונה ובמרכז סלוניקי אין כרגע רישום חדש להשכרה קצרה, ובנכס של ויזת זהב השכרה קצרה אסורה.",
+    nlTitle: "קלימרה מ-Yavanet", nlText: "5 החדשות החשובות מיוון, כל בוקר ב-8:00 לפי שעון ישראל. ובימי ראשון: נדל״ן השבוע.",
+    nlPh: "כתובת המייל שלכם", nlBtn: "הרשמה", nlConsent: "אני מסכים/ה לקבל את הניוזלטר. אפשר לבטל בכל רגע, בקישור בכל מייל.",
+    waJoin: "הצטרפו לערוץ הוואטסאפ", tgJoin: "ערוץ הטלגרם",
+    mostRead: "הכי נקראים", weather: "מזג האוויר עכשיו", fx: "שער האירו", shabbat: "זמני שבת",
+    cities: ["אתונה", "סלוניקי", "כרתים", "רודוס", "מיקונוס"],
+    shabIn: "כניסה", shabOut: "יציאה", athens: "אתונה", thess: "סלוניקי", loading: "טוען…", unavailable: "לא זמין כרגע",
+    nav: ["בית", "פיד", "נדל״ן", "כלים", "ניוזלטר"],
+    storyToday: "היום ביוון",
+    thirty: "ב-30 שניות", means: "מה זה אומר עבורך", source: "מקור:", listen: "הקשיבו לכתבה",
+    shareWa: "שתפו בוואטסאפ", copy: "העתקת קישור", report: "דווחו על טעות", feedback: "שלחו לנו את דעתכם",
+    back: "חזרה", next: "הכתבה הבאה", prev: "הכתבה הקודמת", swipe: "החליקו ימינה או שמאלה לכתבה הבאה",
+    closing: "Yavanet ימשיך לעדכן בחדשות ממקורות רשמיים.", caption: "איור: Yavanet", readMore: "לכתבה המלאה",
+    updated: "עודכן", published: "פורסם", related: "עוד כתבות",
+    aiNote: "הכתבות ב-Yavanet נכתבות בסיוע בינה מלאכותית, על בסיס מקורות רשמיים, ועוברות בדיקה אוטומטית של עובדות מול המקור.",
+    legal: { about: "אודות", contact: "צרו קשר", advertise: "פרסמו אצלנו", privacy: "מדיניות פרטיות", cookies: "מדיניות עוגיות", terms: "תנאי שימוש", corrections: "מדיניות מקורות ותיקונים", disclaimer: "הבהרה משפטית" },
+    cookieSettings: "הגדרות עוגיות",
+    ckTitle: "עוגיות באתר", ckText: "אנחנו משתמשים בעוגיות הכרחיות כדי שהאתר יעבוד. בהסכמתך נשתמש גם בעוגיות סטטיסטיקה ופרסום.",
+    ckNeed: "הכרחיות (תמיד פעילות)", ckStats: "סטטיסטיקה", ckAds: "פרסום", ckAll: "אישור הכול", ckNone: "דחיית הכול", ckSet: "הגדרות", ckSave: "שמירה",
+    formName: "שם מלא", formEmail: "אימייל", formPhone: "טלפון / וואטסאפ", formMsg: "ההודעה שלכם", formArea: "אזור מבוקש", formBudget: "תקציב (€)",
+    formConsent: "אני מסכים/ה שהפרטים ישמשו לחזרה אליי בנושא הפנייה, לפי מדיניות הפרטיות.",
+    formSend: "שליחה", formSent: "הפנייה נשלחה. נחזור אליכם בהקדם.", formErr: "השליחה נכשלה. נסו שוב בעוד רגע.", formBad: "יש למלא שם, אימייל תקין ולסמן הסכמה.",
+    leadTitle: "דברו עם יועץ נדל״ן דובר עברית", leadText: "ספרו לנו מה אתם מחפשים, ויועץ יחזור אליכם.",
+    askTitle: "שאלו את המומחה", askText: "שאלה על קניית נכס או מעבר ליוון? השאלות הטובות הופכות לכתבות.",
+    reportTitle: "דיווח על טעות בכתבה", feedbackTitle: "דעתכם חשובה לנו",
+    nlOk: "כמעט סיימנו: שלחנו לך מייל לאישור ההרשמה.", nlBad: "צריך כתובת מייל תקינה והסכמה לקבלת הניוזלטר.",
+    copied: "הקישור הועתק.", noVoice: "ההקראה לא זמינה בדפדפן הזה.", ckSaved: "ההעדפות נשמרו.",
+    liveTitle: "מבזקים בזמן אמת", liveText: "שריפות, רעידות אדמה, מזג אוויר קיצוני ושביתות. רק ממקורות רשמיים.",
+    officialLinks: "מקורות רשמיים", noBreaking: "אין כרגע מבזקים פעילים.",
+    dirTitle: "עסקים ישראליים ביוון", dirText: "מסעדות, שירותים, רופאים ועורכי דין דוברי עברית.", dirAdd: "הוסיפו את העסק שלכם", dirEmpty: "המדריך נבנה עכשיו. רוצים להופיע ראשונים?",
+    toolsTitle: "כלים למשקיעים", sectionEmpty: "עוד אין כתבות במדור הזה. הן יופיעו כאן אוטומטית.",
+    home: "בית", allSections: "כל המדורים", closeLbl: "סגירה", search: "חיפוש",
+  },
+  en: {
+    dir: "ltr", locale: "en-GB", langName: "English",
+    tagline: "Greece news for Israelis",
+    breakingTag: "BREAKING",
+    zoneGov: "Government news on real estate", zoneGovEye: "Laws · Taxes · Golden Visa",
+    zoneIsr: "Israelis in Greece", zoneIsrEye: "Community · Life · Investment",
+    zoneMore: "More news",
+    adLabel: "Ad", adTitle: "Buying property in Greece? Full support in Hebrew",
+    adText: "From the search to the keys: lawyer, notary, Golden Visa and property management.", adCta: "Talk to a property advisor",
+    sponsored: "Sponsored",
+    calcTitle: "Property purchase cost calculator", calcPrice: "Property price (€)", calcRate: "EUR/ILS rate",
+    calcAgent: "Include agent fee (2% + VAT)",
+    calcFine: "Estimate only. Figures are typical averages in Greece, not legal or tax advice.",
+    rows: { tax: "Transfer tax (3.09%)", notary: "Notary (about 1%)", lawyer: "Lawyer (1% + VAT)", reg: "Land registry / cadastre (about 0.6%)", agent: "Agent (2% + VAT)", total: "Total costs", grand: "Total incl. price", ils: "In shekels" },
+    yieldTitle: "Airbnb income calculator", yieldRegion: "Area", yieldPrice: "Property price (€)",
+    yieldNight: "Average nightly rate", yieldOcc: "Yearly occupancy", yieldGross: "Gross yearly income", yieldNet: "After costs (about 35%)", yieldPct: "Yearly yield",
+    yieldFine: "Rough estimate from market averages. Central Athens and central Thessaloniki currently allow no new short-term rental registrations, and Golden Visa properties may not be rented short-term.",
+    nlTitle: "Kalimera from Yavanet", nlText: "The 5 most important stories from Greece, every morning at 8:00 Israel time. On Sundays: Real estate this week.",
+    nlPh: "Your email", nlBtn: "Subscribe", nlConsent: "I agree to receive the newsletter. Unsubscribe any time from the link in every email.",
+    waJoin: "Join the WhatsApp channel", tgJoin: "Telegram channel",
+    mostRead: "Most read", weather: "Weather now", fx: "Euro rate", shabbat: "Shabbat times",
+    cities: ["Athens", "Thessaloniki", "Crete", "Rhodes", "Mykonos"],
+    shabIn: "starts", shabOut: "ends", athens: "Athens", thess: "Thessaloniki", loading: "Loading…", unavailable: "Unavailable right now",
+    nav: ["Home", "Feed", "Property", "Tools", "Newsletter"],
+    storyToday: "Today in Greece",
+    thirty: "In 30 seconds", means: "What it means for you", source: "Source:", listen: "Listen to the article",
+    shareWa: "Share on WhatsApp", copy: "Copy link", report: "Report an error", feedback: "Send us your view",
+    back: "Back", next: "Next story", prev: "Previous story", swipe: "Swipe left or right for the next story",
+    closing: "Yavanet will keep updating from official sources.", caption: "Illustration: Yavanet", readMore: "Read the full story",
+    updated: "Updated", published: "Published", related: "More stories",
+    aiNote: "Yavanet articles are written with the help of AI, based on official sources, and every figure is automatically checked against the source.",
+    legal: { about: "About", contact: "Contact", advertise: "Advertise", privacy: "Privacy policy", cookies: "Cookie policy", terms: "Terms of use", corrections: "Sources & corrections policy", disclaimer: "Legal disclaimer" },
+    cookieSettings: "Cookie settings",
+    ckTitle: "Cookies", ckText: "We use necessary cookies to make the site work. With your consent we also use statistics and advertising cookies.",
+    ckNeed: "Necessary (always on)", ckStats: "Statistics", ckAds: "Advertising", ckAll: "Accept all", ckNone: "Reject all", ckSet: "Settings", ckSave: "Save",
+    formName: "Full name", formEmail: "Email", formPhone: "Phone / WhatsApp", formMsg: "Your message", formArea: "Preferred area", formBudget: "Budget (€)",
+    formConsent: "I agree that my details are used to reply to this request, under the privacy policy.",
+    formSend: "Send", formSent: "Sent. We will get back to you soon.", formErr: "Sending failed. Please try again in a moment.", formBad: "Fill in your name, a valid email and tick the consent box.",
+    leadTitle: "Talk to a Hebrew-speaking property advisor", leadText: "Tell us what you are looking for and an advisor will get back to you.",
+    askTitle: "Ask the expert", askText: "A question about buying property or moving to Greece? The best questions become articles.",
+    reportTitle: "Report an error in this article", feedbackTitle: "We value your view",
+    nlOk: "Almost done: we sent you an email to confirm.", nlBad: "Enter a valid email and tick the consent box.",
+    copied: "Link copied.", noVoice: "Read-aloud is not available in this browser.", ckSaved: "Preferences saved.",
+    liveTitle: "Live alerts", liveText: "Fires, earthquakes, severe weather and strikes. Official sources only.",
+    officialLinks: "Official sources", noBreaking: "No active alerts right now.",
+    dirTitle: "Israeli businesses in Greece", dirText: "Restaurants, services, doctors and lawyers who speak Hebrew.", dirAdd: "Add your business", dirEmpty: "The directory is being built. Want to be listed first?",
+    toolsTitle: "Tools for investors", sectionEmpty: "No articles in this section yet. They will appear here automatically.",
+    home: "Home", allSections: "All sections", closeLbl: "Close", search: "Search",
+  },
+};
+
+// Εκτιμήσεις αγοράς για τον υπολογιστή Airbnb (επεξεργάσιμες)
+export const YIELD_REGIONS = [
+  { id: "athens-other", he: "אתונה (מחוץ למרכז)", en: "Athens (outside centre)", night: 85, occ: 0.62 },
+  { id: "thessaloniki", he: "סלוניקי (מחוץ למרכז)", en: "Thessaloniki (outside centre)", night: 70, occ: 0.55 },
+  { id: "crete", he: "כרתים", en: "Crete", night: 120, occ: 0.52 },
+  { id: "rhodes", he: "רודוס", en: "Rhodes", night: 110, occ: 0.48 },
+  { id: "corfu", he: "קורפו", en: "Corfu", night: 115, occ: 0.46 },
+  { id: "mykonos", he: "מיקונוס", en: "Mykonos", night: 280, occ: 0.42 },
+  { id: "peloponnese", he: "פלופונס", en: "Peloponnese", night: 90, occ: 0.40 },
+];
+
+export const OFFICIAL_LINKS = [
+  { he: "מכבי האש של יוון", en: "Hellenic Fire Service", url: "https://www.fireservice.gr" },
+  { he: "הגנה אזרחית ו-112", en: "Civil Protection & 112", url: "https://civilprotection.gov.gr" },
+  { he: "השירות המטאורולוגי (EMY)", en: "Hellenic National Meteorological Service", url: "https://www.emy.gr" },
+  { he: "המכון הגאודינמי (רעידות אדמה)", en: "Geodynamic Institute (earthquakes)", url: "https://www.gein.noa.gr" },
+  { he: "שגרירות ישראל באתונה", en: "Embassy of Israel in Athens", url: "https://embassies.gov.il/greece" },
+];

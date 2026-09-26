@@ -1,0 +1,39 @@
+# Newsletter: καθημερινά 8:00 ώρα Ισραήλ (το script ελέγχει θερινή/χειμερινή ώρα) και Κυριακή «Ακίνητα την εβδομάδα».
+name: Newsletter
+on:
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+    - cron: "30 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "daily ή weekly"
+        default: daily
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
+          SELECT_MODEL: ${{ vars.SELECT_MODEL }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_NL_LIST_HE: ${{ vars.BREVO_NL_LIST_HE }}
+          BREVO_NL_LIST_EN: ${{ vars.BREVO_NL_LIST_EN }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 6 * * 0" ]; then KIND=weekly; else KIND="${{ github.event.inputs.kind || 'daily' }}"; fi
+          node automation/newsletter.mjs $KIND

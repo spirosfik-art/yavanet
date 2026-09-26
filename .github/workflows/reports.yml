@@ -1,0 +1,30 @@
+# Αναφορές: ημερήσια στις ~20:00 Αθήνα, μηνιαία για τις επαφές την 1η κάθε μήνα.
+name: Reports
+on:
+  schedule:
+    - cron: "0 17 * * *"
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "daily ή monthly"
+        default: daily
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LEADS_LIST: ${{ vars.BREVO_LEADS_LIST }}
+          NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 7 1 * *" ]; then KIND=monthly; else KIND="${{ github.event.inputs.kind || 'daily' }}"; fi
+          node automation/report.mjs $KIND

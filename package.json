@@ -1,0 +1,19 @@
+{
+  "name": "yavanet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Yavanet – Greece news for Israelis (Hebrew/English), fully automated",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && node scripts/serve.mjs",
+    "pipeline": "node automation/run.mjs",
+    "pipeline:dry": "DRY_RUN=1 node automation/run.mjs",
+    "newsletter:daily": "node automation/newsletter.mjs daily",
+    "newsletter:weekly": "node automation/newsletter.mjs weekly",
+    "report:daily": "node automation/report.mjs daily",
+    "report:monthly": "node automation/report.mjs monthly",
+    "check-sources": "node automation/check-sources.mjs"
+  }
+}

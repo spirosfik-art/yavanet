@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: __SITE__/sitemap.xml
+Sitemap: __SITE__/news-sitemap.xml

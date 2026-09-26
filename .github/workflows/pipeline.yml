@@ -1,0 +1,62 @@
+# Αυτόματη ροή: κάθε 15 λεπτά συλλέγει πηγές, γράφει, ελέγχει, δημοσιεύει και ανεβάζει το site.
+name: Content pipeline
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: yavanet-content
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          SELECT_MODEL: ${{ vars.SELECT_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          MAX_PER_DAY: ${{ vars.MAX_PER_DAY }}
+          MIN_PER_DAY: ${{ vars.MIN_PER_DAY }}
+        run: node automation/run.mjs
+      - name: Save changes
+        id: git
+        run: |
+          git config user.name "yavanet-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content automation/state.json
+          if git diff --cached --quiet -- content; then echo "content=0" >> $GITHUB_OUTPUT; else echo "content=1" >> $GITHUB_OUTPUT; fi
+          git diff --cached --quiet || (git commit -m "auto: content $(date -u +%FT%TZ)" && git push)
+      - name: Build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          GA4_ID: ${{ vars.GA4_ID }}
+          CLARITY_ID: ${{ vars.CLARITY_ID }}
+        run: |
+          # ανεβάζουμε όταν υπάρχει νέο περιεχόμενο, αλλιώς μία φορά την ώρα (για να λήγει η μπάρα έκτακτων)
+          if [ "${{ steps.git.outputs.content }}" = "1" ] || [ "$(date -u +%M)" -lt 15 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node build.mjs && echo "DEPLOY=1" >> $GITHUB_ENV
+          fi
+      - name: Deploy to Cloudflare Pages
+        if: env.DEPLOY == '1'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@3 pages deploy dist --project-name=${{ vars.CF_PROJECT || 'yavanet' }} --branch=main --commit-dirty=true
