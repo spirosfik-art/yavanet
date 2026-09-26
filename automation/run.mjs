@@ -248,7 +248,7 @@ ${d.en.dek}
 ${p.item.url}
 ${p.issues && p.issues.length ? "\nΣημειώσεις ελέγχου: " + p.issues.join("; ") : ""}
 Αν δεν απαντήσεις σε ${APPROVAL_TIMEOUT_MIN} λεπτά, θα δημοσιευτεί μια σύντομη ουδέτερη εκδοχή μόνο με τα επίσημα γεγονότα.`;
-  await notifyOwner(msg, { reply_markup: { inline_keyboard: [[{ text: "✅ Δημοσίευση", callback_data: `approve:${id}` }, { text: "❌ Απόρριψη", callback_data: `reject:${id}` }], [{ text: "✏️ Αλλαγή", callback_data: `edit:${id}` }]] } });
+  return notifyOwner(msg, { reply_markup: { inline_keyboard: [[{ text: "✅ Δημοσίευση", callback_data: `approve:${id}` }, { text: "❌ Απόρριψη", callback_data: `reject:${id}` }], [{ text: "✏️ Αλλαγή", callback_data: `edit:${id}` }]] } });
 }
 async function approve(id) {
   const p = state.pending[id];
@@ -286,7 +286,7 @@ async function handlePick(pick, { manual = false } = {}) {
   if (sensitive && !breaking && !manual) {
     const id = sha(item.id).slice(0, 6);
     state.pending[id] = { createdAt: Date.now(), item, pick, draft: r.draft, text: r.text, issues: [] };
-    await askApproval(id);
+    if (await askApproval(id)) state.pending[id].notified = true;
     return;
   }
   const a = await publish(r.draft, item, { ...pick, breaking }, r.text);
@@ -352,6 +352,11 @@ async function backfillPhotos() {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
   try {
     await handleTelegram();
+    // Πρώτη σύνδεση με Telegram: μήνυμα καλωσορίσματος + αποστολή όσων περιμένουν έγκριση
+    if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_OWNER_CHAT_ID) {
+      if (!state.tgWelcomed) { const ok = await notifyOwner("✅ Το Yavanet συνδέθηκε με το Telegram σου!\nΕδώ θα σου έρχονται τα ευαίσθητα άρθρα για έγκριση και η ημερήσια αναφορά.\n\n" + HELP); if (ok) state.tgWelcomed = true; }
+      for (const [id, p] of Object.entries(state.pending)) if (!p.notified && state.tgWelcomed) { await askApproval(id); p.notified = true; }
+    }
     if (state.paused) { log("σε παύση"); return; }
     await backfillPhotos(); // χωρίς AI: τρέχει ακόμα κι αν τελείωσε το ημερήσιο όριο
     await timeouts();
