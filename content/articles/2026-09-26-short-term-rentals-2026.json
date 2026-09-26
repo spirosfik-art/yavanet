@@ -6,8 +6,21 @@
   "sensitive": true,
   "sponsored": false,
   "breaking": false,
-  "sources": [{ "name": "GTP Headlines, 26.01.2026", "url": "https://news.gtp.gr/2026/01/26/short-term-rentals-in-greece-new-restrictions-take-effect-in-2026/" }],
-  "image": { "type": "illustration", "key": "athens" },
+  "sources": [
+    {
+      "name": "GTP Headlines, 26.01.2026",
+      "url": "https://news.gtp.gr/2026/01/26/short-term-rentals-in-greece-new-restrictions-take-effect-in-2026/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15532704/pexels-photo-15532704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning view of Santorini's white architecture with the Aegean Sea in the background. Perfect for travel enthusiasts.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/city-buildings-overlooking-sea-15532704/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
+  },
   "he": {
     "title": "השכרה קצרת טווח ב-2026: ההקפאה במרכז אתונה נמשכת, וסלוניקי מצטרפת",
     "dek": "אין רישומי Airbnb חדשים בשלושת הרובעים המרכזיים של אתונה, ובמרכז סלוניקי ההגבלה בתוקף מ-1 במרץ 2026.",
@@ -29,5 +42,8 @@
     ],
     "means": "If you plan to buy in central Athens or Thessaloniki to rent on Airbnb, that is not possible right now, even if the flat already has a registration. In these areas, plan for long-term rental or your own use, or look at neighbourhoods and islands outside the restricted zones.",
     "body": "## What was decided\n\nThe Greek government kept the freeze on new short-term rental registrations in Athens districts 1, 2 and 3. In Thessaloniki the limit covers the First Municipal Community: the historic centre, Ladadika, the port area and the seafront up to the White Tower.\n\nFlats that are already registered and active may keep operating as long as the owner does not change. Once the flat is sold or inherited, the registration is deleted.\n\n## Safety rules for every short-term rental\n\n- Civil liability insurance\n- A certified electrical installation with a residual-current device\n- Fire extinguishers, smoke detectors and emergency exit signs\n- Pest-control certification and a first-aid kit\n\n## Fines\n\nFines start at €5,000, double for a second breach within 12 months and quadruple for a third. Owners get ten days' notice before an inspection."
+  },
+  "meta": {
+    "photoTried": true
   }
 }

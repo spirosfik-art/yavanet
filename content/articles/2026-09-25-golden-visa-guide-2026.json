@@ -7,10 +7,24 @@
   "sponsored": false,
   "breaking": false,
   "sources": [
-    { "name": "Law 5100/2024 · AVLA, 2026 threshold map", "url": "https://www.avlarealestate.com/en/post/greek-golden-visa-2026-regional-threshold-map" },
-    { "name": "migration.gov.gr", "url": "https://migration.gov.gr" }
+    {
+      "name": "Law 5100/2024 · AVLA, 2026 threshold map",
+      "url": "https://www.avlarealestate.com/en/post/greek-golden-visa-2026-regional-threshold-map"
+    },
+    {
+      "name": "migration.gov.gr",
+      "url": "https://migration.gov.gr"
+    }
   ],
-  "image": { "type": "illustration", "key": "key" },
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37094601/pexels-photo-37094601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning view of the Acropolis in Athens bathed in warm sunset light.",
+    "credit": "Photo: Margo Evardson / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/golden-hour-at-the-acropolis-of-athens-37094601/",
+    "license": "Pexels License",
+    "fallbackKey": "key"
+  },
   "he": {
     "title": "ויזת הזהב ביוון ב-2026: כמה צריך להשקיע, איפה, ומה אסור",
     "dek": "שלוש מדרגות השקעה, מינימום 120 מ״ר, נכס אחד בלבד ואיסור על Airbnb. כל מה שצריך לדעת לפני שמתחילים.",
@@ -32,5 +46,8 @@
     ],
     "means": "A Golden Visa gives you and your family a Greek residence permit and free movement in the Schengen area. Because short-term rentals are banned, plan for long-term rental income or your own use.",
     "body": "## Investment tiers\n\n- **€800,000:** Attica (Athens and surroundings), the Municipality of Thessaloniki, Mykonos, Santorini and islands with more than 3,100 residents.\n- **€400,000:** the rest of the country, including the Peloponnese, Evia, Halkidiki and small islands.\n- **€250,000:** only change-of-use projects from commercial to residential, or restoration of listed buildings.\n\n## Key rules\n\nThe full amount must be in a single property on one title deed, of at least 120 m². You cannot combine several small flats. Under Law 5100/2024, Golden Visa properties may not be used for short-term rentals, and converted buildings cannot return to commercial use for five years.\n\n## The steps, in order\n\n1. Choose an area and a property that meet the rules.\n2. Get a Greek tax number (AFM) and open a Greek bank account.\n3. Have a lawyer check the property: ownership, debts and permits.\n4. Sign the contract before a notary and pay.\n5. Apply for the residence permit at the Ministry of Migration.\n\nThis is general information, not legal or investment advice. Amounts and rules change, so check them with a lawyer before any decision."
+  },
+  "meta": {
+    "photoTried": true
   }
 }

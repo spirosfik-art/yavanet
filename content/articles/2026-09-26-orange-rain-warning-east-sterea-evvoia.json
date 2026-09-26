@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "illustration",
-    "key": "storm"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31362791/pexels-photo-31362791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Dramatic storm clouds forming in the sky, signaling impending rain.",
+    "credit": "Photo: Enrique / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dramatic-thunderstorm-clouds-gathering-31362791/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
   },
   "he": {
     "title": "אזהרת גשם כתומה פורסמה למזרח סטראה ולאוויה",
@@ -46,7 +51,8 @@
     "itemId": "ca19cc47552b",
     "sourceHash": "37616da10600",
     "model": "gemini-2.5-flash",
-    "checkedAt": "2026-09-26T19:47:15.597Z",
-    "official": true
+    "checkedAt": "2026-09-26T20:27:49.536Z",
+    "official": true,
+    "photoTried": true
   }
 }

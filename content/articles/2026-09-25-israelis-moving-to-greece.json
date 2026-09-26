@@ -6,8 +6,21 @@
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
-  "sources": [{ "name": "The Jerusalem Post", "url": "https://www.jpost.com/consumerism/article-852609" }],
-  "image": { "type": "illustration", "key": "sea" },
+  "sources": [
+    {
+      "name": "The Jerusalem Post",
+      "url": "https://www.jpost.com/consumerism/article-852609"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15060193/pexels-photo-15060193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Serene coastal scene in Pyrgos, Greece, featuring a tree and sandy beach at sunset.",
+    "credit": "Photo: Kostas Dimopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/tree-and-wall-on-sea-coast-15060193/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
+  },
   "he": {
     "title": "שעתיים מתל אביב: למה עוד ועוד משפחות ישראליות עוברות לאתונה ולסלוניקי",
     "dek": "יוקר מחיה נמוך יותר, שכירות זולה בהרבה ואקלים מוכר. וגם הבירוקרטיה, שעדיין מאתגרת.",
@@ -29,5 +42,8 @@
     ],
     "means": "If you are thinking of moving, there are several legal routes: a Golden Visa through property, a Digital Nomad visa for remote workers, or a work permit with a Greek employer. The right one depends on your budget and your work.",
     "body": "## What draws Israelis to Greece\n\nProximity comes first: under two hours by plane, so it is easy to fly back to family and work. The climate, food and Mediterranean character feel familiar, and relations between the two countries are good.\n\nAccording to the report, everyday costs are 25% to 30% lower than in Israel, and rent in the two largest cities can be around half of Tel Aviv.\n\n## What they work in\n\nMany work remotely for companies in Israel and abroad. Others have started businesses in tech, tourism and hospitality, real estate and finance.\n\n## The challenges\n\nLanguage and Greek bureaucracy are the difficulties mentioned most. It helps to work with Hebrew-speaking professionals in the first stages."
+  },
+  "meta": {
+    "photoTried": true
   }
 }
