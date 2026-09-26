@@ -204,9 +204,23 @@
   }
   var fx = $("#w-fx");
   if (fx) {
-    fetch("https://api.frankfurter.app/latest?from=EUR&to=ILS").then(function (r) { return r.json(); })
-      .then(function (d) { fx.textContent = "€1 = ₪" + d.rates.ILS.toFixed(2); $("#w-fx-d").textContent = "ECB · " + d.date; var cr = $("#c-rate"); if (cr) { cr.value = d.rates.ILS.toFixed(2); calcCost(); } })
-      .catch(function () { fx.textContent = L.unavailable; });
+    // Ισοτιμία: κύρια πηγή ExchangeRate-API (ενημέρωση κάθε μέρα), εναλλακτική Frankfurter (ΕΚΤ)
+    function showFx(rate, label) {
+      fx.textContent = "€1 = ₪" + rate.toFixed(2);
+      $("#w-fx-d").innerHTML = label;
+      var cr = $("#c-rate"); if (cr) { cr.value = rate.toFixed(2); calcCost(); }
+    }
+    fetch("https://open.er-api.com/v6/latest/EUR").then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d.result !== "success" || !d.rates || !d.rates.ILS) throw 0;
+        var day = new Date(d.time_last_update_unix * 1000).toLocaleDateString(C.lang === "he" ? "he-IL" : "en-GB");
+        showFx(d.rates.ILS, '<a href="https://www.exchangerate-api.com" target="_blank" rel="noopener">Rates By Exchange Rate API</a> · ' + day);
+      })
+      .catch(function () {
+        return fetch("https://api.frankfurter.dev/v1/latest?base=EUR&symbols=ILS").then(function (r) { return r.json(); })
+          .then(function (d) { showFx(d.rates.ILS, "ECB · Frankfurter · " + d.date); });
+      })
+      .catch(function () { fx.textContent = L.unavailable; fx.classList.add("small"); });
   }
   var sh = $("#w-shabbat");
   if (sh) {
