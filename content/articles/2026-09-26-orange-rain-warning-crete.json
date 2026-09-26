@@ -1,0 +1,58 @@
+{
+  "slug": "orange-rain-warning-crete",
+  "section": "breaking",
+  "publishedAt": "2026-09-26T23:47:51+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 35.2401,
+    "lng": 24.8093
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR016"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37293704/pexels-photo-37293704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of heavy rainfall splattering on outdoor pavement with green foliage in the background.",
+    "credit": "Photo: Александр Лич / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dramatic-rainfall-on-pavement-captured-outdoors-37293704/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "he": {
+    "title": "אזהרת גשם בצבע כתום פורסמה עבור כרתים",
+    "dek": "שירות מזג האוויר המקומי עדכן על תנאי מזג אוויר חריגים באזור האי.",
+    "tldr": [
+      "התראה כתומה מפני גשמים חזקים פורסמה לכרתים",
+      "התושבים והמבקרים באזור מתבקשים לנקוט משנה זהירות",
+      "מומלץ לעקוב אחר עדכוני הרשויות המקומיות"
+    ],
+    "means": "ישראלים הנמצאים כעת בכרתים או מתכננים נסיעה לאי בימים הקרובים מתבקשים להישמע להנחיות גורמי החירום המקומיים, להימנע מנסיעות לא חיוניות באזורים מוצפים ולהתעדכן במצב מזג האוויר טרם יציאה לדרך.",
+    "body": "## עדכון מזג אוויר בכרתים\n\nרשויות החירום והמטאורולוגיה פרסמו התראה ברמת חומרה כתומה עבור האי כרתים, בעקבות צפי למשקעים משמעותיים ותנאי מזג אוויר סוערים. ההנחיות נועדו להבטיח את שלומם של התושבים והשוהים באזור.\n\n## הנחיות והמלצות לציבור\n\n* יש להתרחק מאפיקי נחלים ואזורים המועדים להצפות.\n* מומלץ להימנע מפעילות מחוץ למבנים בזמן סופות חזקות.\n* יש להתעדכן באופן שוטף בכלי התקשורת ובאתרי החירום הרשמיים."
+  },
+  "en": {
+    "title": "Orange Rain Warning Issued for Crete",
+    "dek": "Local meteorological services have issued an alert regarding severe weather conditions on the island.",
+    "tldr": [
+      "An orange warning for heavy rain has been issued for Crete",
+      "Residents and visitors in the area are urged to exercise caution",
+      "It is recommended to monitor updates from local authorities"
+    ],
+    "means": "Israelis currently in Crete or planning travel to the island should follow instructions from local emergency services, avoid non-essential travel in flooded areas, and check weather conditions before setting out.",
+    "body": "## Weather Update for Crete\n\nEmergency and meteorological authorities have issued an orange-level weather warning for the island of Crete, following forecasts of significant precipitation and stormy conditions. The advisories are intended to ensure the safety of residents and visitors in the region.\n\n## Guidelines and Recommendations\n\n* Stay away from riverbeds and areas prone to flooding.\n* It is recommended to avoid outdoor activities during intense storms.\n* Check media channels and official emergency websites regularly for updates."
+  },
+  "meta": {
+    "itemId": "fbb120d78a03",
+    "imageQuery": "heavy rain storm greece",
+    "sourceHash": "af9b7503bcf6",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-26T20:48:37.395Z",
+    "official": true
+  }
+}

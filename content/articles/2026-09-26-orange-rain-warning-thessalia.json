@@ -1,0 +1,58 @@
+{
+  "slug": "orange-rain-warning-thessalia",
+  "section": "breaking",
+  "publishedAt": "2026-09-26T23:48:00+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 39.5255,
+    "lng": 22.4211
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR001"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37293704/pexels-photo-37293704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of heavy rainfall splattering on outdoor pavement with green foliage in the background.",
+    "credit": "Photo: Александр Лич / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dramatic-rainfall-on-pavement-captured-outdoors-37293704/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "he": {
+    "title": "אזהרת גשם חמורה בצבע כתום פורסמה לאזור תסליה ביוון",
+    "dek": "שירות מזג האוויר הלאומי והתראות אירופה פרסמו אזהרת מזג אוויר לחבל תסליה עקב צפי למשקעים משמעותיים.",
+    "tldr": [
+      "פורסמה אזהרת גשם בצבע כתום עבור חבל תסליה",
+      "המערכת כוללת צפי למשקעים חריגים באזור",
+      "מומלץ לעקוב אחר הנחיות הרשויות המקומיות"
+    ],
+    "means": "לנוסעים ולשוהים באזור תסליה מומלץ לבדוק את תחזית מזג האוויר טרם יציאה לדרכים, להימנע מנסיעות לא חיוניות באזורים מוצפים ולהישמע להנחיות כוחות ההצלה המקומיים.",
+    "body": "## פרטי האזהרה\n\nרשויות החיזוי וההתרעה באירופה וביוון פרסמו התראת מזג אוויר ברמת חומרה כתתומה עבור חבל תסליה. האזהרה מתייחסת לצפי למשקעים כבדים אשר עלולים להשפיע על התשתיות והתנועה האזורית.\n\n## הנחיות והיערכות\n\nהמקומיות והרשויות המוסמכות עוקבות אחר ההתפתחויות וממליצות לציבור לנקוט משנה זהירות. מומלץ לוודא את תקינות אמצעי החימום והניקוז, ולהתעדכן בעדכונים השוטפים שמפרסמים גורמי החירום ביוון.\n\n## דרכי התקשרות ועדכונים\n\nלמתכננים שהייה באזור מומלץ להתעדכן בערוצי החדשות המקומיים ובאתרי החירום הרשמיים לקבלת מידע עדכני על חסימות כבישים ומזג האוויר הצפוי בימים הקרובים."
+  },
+  "en": {
+    "title": "Orange Rain Warning Issued for the Thessaly Region in Greece",
+    "dek": "European and national meteorological authorities have issued an orange weather alert for heavy rainfall in Thessaly.",
+    "tldr": [
+      "An orange rain warning was issued for Thessaly",
+      "The alert indicates a risk of heavy precipitation",
+      "Local authorities advise caution during the weather event"
+    ],
+    "means": "If you are traveling or staying in the Thessaly region, it is advised to check local weather forecasts before traveling, avoid non-essential trips in flood-prone areas, and follow all instructions from local emergency services.",
+    "body": "## Weather Alert Details\n\nEuropean meteorological monitoring networks and Greek forecasting services have raised an orange-level weather warning for the Thessaly region. The alert highlights the expectation of significant rainfall that may impact local conditions.\n\n## Safety and Precautions\n\nOfficial bodies are monitoring the weather system closely. Residents and visitors in the affected areas are advised to stay informed through official channels and exercise caution when planning outdoor activities or travel.\n\n## Staying Updated\n\nAnyone currently in the region or planning a visit should check updates from local authorities regarding potential travel disruptions and weather developments."
+  },
+  "meta": {
+    "itemId": "cdbd88b1b7b3",
+    "imageQuery": "heavy rain storm greece weather",
+    "sourceHash": "fe60fdd16cbc",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-26T20:48:00.494Z",
+    "official": true
+  }
+}
