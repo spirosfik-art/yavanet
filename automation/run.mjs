@@ -30,6 +30,14 @@ const save = () => { for (const [k, v] of Object.entries(state.seen)) if (Date.n
 const articleUrl = (a, lang = "he") => SITE.url.replace(/\/$/, "") + (lang === "he" ? "" : "/en") + `/a/${a.slug}/`;
 const reject = (title, reason) => { log("✗", title, "→", reason); state.today.rejected.push({ title: String(title).slice(0, 140), reason: String(reason).slice(0, 300), at: new Date().toISOString() }); };
 
+// Κλήση AI που επιστρέφει JSON· αν η απάντηση βγει «χαλασμένη», ξαναδοκιμάζει μία φορά
+async function ask(opts) {
+  for (let i = 0; ; i++) {
+    const text = await claude(opts);
+    try { return parseJSON(text); } catch (e) { if (i >= 1) throw new Error("Μη έγκυρη απάντηση AI: " + e.message); log("μη έγκυρο JSON, νέα προσπάθεια"); }
+  }
+}
+
 /* ================= 1. Εντολές ιδιοκτήτη (Telegram) ================= */
 async function handleTelegram() {
   if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_OWNER_CHAT_ID) return;
@@ -119,7 +127,7 @@ async function select(items) {
   const remaining = Math.max(0, MAX_PER_DAY - state.today.count);
   let hint = "";
   if (now.hour >= 17 && state.today.count < MIN_PER_DAY) hint = `\nWe have published only ${state.today.count} today; our minimum is ${MIN_PER_DAY}. Be a bit more inclusive with relevant items.`;
-  const out = parseJSON(await claude({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));
+  const out = (await ask({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));
   for (const i of items) state.seen[i.id] = Date.now();
   const picks = (out.picks || []).map((p) => ({ ...p, item: items.find((i) => i.id === p.id) })).filter((p) => p.item);
   // Τα έκτακτα από επίσημες πηγές δεν μετράνε στο ημερήσιο όριο
@@ -152,7 +160,7 @@ async function checks(draft, text) {
   const ov = overlapRatio(all("en"), text);
   if (ov > 0.2) issues.push(`Μεγάλη ομοιότητα με την πηγή (${Math.round(ov * 100)}%)`);
   if (!issues.length) {
-    const v = parseJSON(await claude({ system: VERIFY_SYSTEM, prompt: verifyPrompt({ text, article: draft }), model: WRITE_MODEL, maxTokens: 1500, temperature: 0 }));
+    const v = (await ask({ system: VERIFY_SYSTEM, prompt: verifyPrompt({ text, article: draft }), model: WRITE_MODEL, maxTokens: 1500, temperature: 0 }));
     if (!v.ok) issues.push(...(v.issues || ["Ο έλεγχος γεγονότων απέρριψε το άρθρο"]));
   }
   return issues;
@@ -161,11 +169,11 @@ async function write(item, pick, { instruction, neutral } = {}) {
   const text = await sourceText(item);
   const source = { name: item.sourceName, url: item.url };
   const prompt = neutral ? neutralPrompt({ source, text, today: now.date }) : writePrompt({ source, text, section: pick.section || item.sectionHint, sensitive: pick.sensitive, breaking: pick.breaking, today: now.date, instruction });
-  let draft = parseJSON(await claude({ system: WRITE_SYSTEM, prompt, model: WRITE_MODEL, maxTokens: 7000 }));
+  let draft = (await ask({ system: WRITE_SYSTEM, prompt, model: WRITE_MODEL, maxTokens: 7000 }));
   let issues = await checks(draft, text);
   if (issues.length && !neutral) {
     // Μία προσπάθεια διόρθωσης
-    draft = parseJSON(await claude({ system: WRITE_SYSTEM, prompt: prompt + `\n\nA previous draft was rejected for: ${issues.join("; ")}. Fix these problems.`, model: WRITE_MODEL, maxTokens: 7000 }));
+    draft = (await ask({ system: WRITE_SYSTEM, prompt: prompt + `\n\nA previous draft was rejected for: ${issues.join("; ")}. Fix these problems.`, model: WRITE_MODEL, maxTokens: 7000 }));
     issues = await checks(draft, text);
   }
   return { draft, issues, text };
@@ -309,7 +317,7 @@ async function updates() {
       const text = mainText(await fetchText(a.sources[0].url));
       a.meta.checkedAt = new Date().toISOString();
       if (text.length < 300 || sha(text) === a.meta.sourceHash) { saveArticle(a); continue; }
-      const u = parseJSON(await claude({ system: WRITE_SYSTEM, prompt: updatePrompt({ article: a, text, today: now.date }), model: WRITE_MODEL, maxTokens: 7000 }));
+      const u = (await ask({ system: WRITE_SYSTEM, prompt: updatePrompt({ article: a, text, today: now.date }), model: WRITE_MODEL, maxTokens: 7000 }));
       a.meta.sourceHash = sha(text);
       if (u.changed && !shapeOk(u)) {
         const issues = await checks(u, text);
