@@ -1,0 +1,58 @@
+{
+  "slug": "plaka-building-explosion-investigation",
+  "section": "breaking",
+  "publishedAt": "2026-09-27T09:41:08+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9715,
+    "lng": 23.7266
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/09/27/plaka-explosion-lysikratous-second-floor-gas-six-victims/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20483001/pexels-photo-20483001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the historic ruins of Hadrian's Library in Athens under a clear blue sky.",
+    "credit": "Photo: Archelaos Bantalakis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ruins-of-hadrians-library-in-athens-20483001/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
+  },
+  "he": {
+    "title": "חקירה נמשכת בעקבות פיצוץ הבניין ברובע פלאקה באתונה",
+    "dek": "צוותי חקירה ממשיכים לבדוק את נסיבות קריסת הבניין ברחוב ליסיקראטוס, שבה נספו שישה בני אדם, ובוחנים פגיעה אפשרית במבנים סמוכים.",
+    "tldr": [
+      "זיהוי ששת הקורבנות מקרב האורחים והדיירים עדיין נמשך.",
+      "החוקרים בודקים כיווני חקירה שונים, בהם מעורבות מערכת גז בקומה השנייה.",
+      "מהנדסים צפויים לבדוק את מצבם המבני של הבניינים הסמוכים שניזוקו."
+    ],
+    "means": "האירוע התרחש באזור תיירותי מרכזי. עבור ישראלים השוהים באתונה או מתכננים ביקורים ורכישת נכסים, מומלץ לעקוב אחר הודעות הרשויות המקומיות ולהישמע להנחיות הביטחון באזורים הומי אדם.",
+    "body": "## תהליך הזיהוי והחקירה\n\nהרשויות באתונה פועלות לזיהוי מלא של ששת הקורבנות שחלצו מההריסות בבניין הדו-קומתי ברחוב ליסיקראטוס ברובע פלאקה. משפחות התבקשו למסור חומר גנטי לצורך השוואת DNA בהליך מנוהל.\n\nצוות מומחים מהיחידה לחקירות הצתות של שירות כיבוי האש אוסף ראיות פיזיות מהאתר כדי לקבוע את סיבת הקריסה. הבדיקה מתרכזת בקומה השנייה של המבנה, שבה היה חיבור פעיל לגז טבעי, לצד בחינת ציוד פרופן שהיה בדירת הזוג שהתגורר במקום.\n\n## בדיקות הנדסיות במבנים סמוכים\n\nרשויות התכנון העירוניות צפויות לערוך בדיקות ראשונות במבנים הסמוכים שניזוקו בעוצמת ההדף. צילומי רחפן מעידים על פגיעות נרחבות בסביבה, וחלק מהמבנים דורשים הערכה הנדסית בשל חשש ליציבותם.\n\nמומחים מתחום ניהול האסונות ציינו כי המבנה שנפגע היה עשוי בנייה מסורתית ישנה ללא מסגרת נושאת עומד רציפה. לדבריהם, מבנים סמוכים רבים באזור נמצאים באיזון עדין ודורשים בדיקות יסודיות כדי להבטיח את עמידותם."
+  },
+  "en": {
+    "title": "Investigation Continues Following Building Explosion in Plaka",
+    "dek": "Investigators are examining the cause of the blast on Lysikratous Street that claimed six lives, while structural checks of neighbouring buildings are planned.",
+    "tldr": [
+      "The identification process for the six victims recovered from the site is underway.",
+      "Investigators are focusing on the second floor and examining gas supply fittings.",
+      "Urban-planning officials will inspect nearby buildings for structural stability."
+    ],
+    "means": "The incident occurred in a central tourist district. Visitors and property owners in Athens should monitor local updates and follow instructions from emergency services regarding site access.",
+    "body": "## Identification and Investigation\n\nAuthorities in Athens are working to identify the six victims recovered from the rubble of the two-storey building on Lysikratous Street in Plaka. Families have been asked to provide genetic material to assist with DNA verification.\n\nA specialised team from the Fire Service’s Arson Crimes Division is surveying the site to determine the trigger for the collapse. The investigation centres on the second-floor apartment, which was connected to a natural gas supply, alongside an examination of propane equipment located in that unit.\n\n## Structural Inspections of Neighbouring Properties\n\nUrban-planning officials are scheduled to carry out initial inspections of adjacent buildings that sustained blast damage. Drone footage indicates extensive exterior impacts, prompting the need for professional engineering assessments to evaluate structural stability.\n\nExperts noted that the collapsed structure was an older masonry building lacking a continuous load-bearing frame. Neighbouring properties are described as resting in a marginal equilibrium, highlighting the importance of thorough engineering reviews following the incident."
+  },
+  "meta": {
+    "itemId": "7b0a35042039",
+    "imageQuery": "historic building ruins athens street",
+    "sourceHash": "c805b35de616",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-27T06:41:09.360Z",
+    "official": false
+  }
+}
