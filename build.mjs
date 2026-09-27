@@ -5,6 +5,16 @@ import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from ".
 import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
+const TI = {
+  strikes: '<svg viewBox="0 0 24 24"><path d="M12 3v2M4.2 6.2l1.4 1.4M19.8 6.2l-1.4 1.4M7 17v-4a5 5 0 0 1 10 0v4"/><path d="M5 17h14v3H5z"/></svg>',
+  emergency: '<svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M12 8v6M9 11h6"/></svg>',
+  cost: '<svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M16 15h2"/></svg>',
+  madad: '<svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
+  guides: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></svg>',
+  tools: '<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/></svg>',
+  dir: '<svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>',
+};
+const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const OUT = path.join(ROOT, "dist");
@@ -98,13 +108,13 @@ for (const lang of LANGS) {
   const more = take(articles, 6);
   const { art } = await import("./site/art.mjs");
   const tiles = [
-    ["/strikes/", "🚨", lang === "he" ? "שביתות" : "Strikes", lang === "he" ? "טיסות, מעבורות, מטרו" : "Flights, ferries, metro"],
-    ["/emergency/", "🆘", lang === "he" ? "חירום" : "Emergency", lang === "he" ? "מה עושים אם..." : "What to do if..."],
-    ["/cost-of-living/", "💶", lang === "he" ? "יוקר המחיה" : "Cost of living", lang === "he" ? "אתונה מול תל אביב" : "Athens vs Tel Aviv"],
-    ["/madad/", "📊", lang === "he" ? "מחירי דירות" : "Property prices", lang === "he" ? "מחיר למ״ר בכל שכונה" : "Price per m² by area"],
-    ["/guides/", "📘", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
+    ["/strikes/", "strikes", lang === "he" ? "שביתות" : "Strikes", lang === "he" ? "טיסות, מעבורות, מטרו" : "Flights, ferries, metro"],
+    ["/emergency/", "emergency", lang === "he" ? "חירום" : "Emergency", lang === "he" ? "מה עושים אם..." : "What to do if..."],
+    ["/cost-of-living/", "cost", lang === "he" ? "יוקר המחיה" : "Cost of living", lang === "he" ? "אתונה מול תל אביב" : "Athens vs Tel Aviv"],
+    ["/madad/", "madad", lang === "he" ? "מחירי דירות" : "Property prices", lang === "he" ? "מחיר למ״ר בכל שכונה" : "Price per m² by area"],
+    ["/guides/", "guides", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
   ];
-  const storiesHTML = tiles.map(([u, i, h, sub]) => `<a class="tile" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${i}</span><b>${esc(h)}</b><small>${esc(sub)}</small></a>`).join("");
+  const storiesHTML = tiles.map((x) => tileHTML(lang, x)).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
 <nav class="tiles" aria-label="${lang === "he" ? "גישה מהירה" : "Quick access"}">${storiesHTML}</nav>
 <div class="grid">
@@ -301,13 +311,13 @@ ${newsletterBox(lang, { id: "enter", source: "giveaway", title: he ? "להשתת
     const CATS = [["invest", "🏠 למשקיעים ולקוני דירות", "🏠 For investors & buyers"], ["live", "🧳 לעבור לגור ביוון", "🧳 Moving to Greece"], ["travel", "🏝️ טיולים ואיים", "🏝️ Travel & islands"], ["jewish", "✡️ יוון היהודית", "✡️ Jewish Greece"]];
     const guides = articles.filter(isGuide);
     const pinned = guides.filter((a) => a.pinned);
-    const tools = [["/strikes/", "🚨", he ? "שביתות" : "Strikes"], ["/emergency/", "🆘", he ? "חירום" : "Emergency"], ["/cost-of-living/", "💶", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "📊", he ? "מחירי דירות" : "Property prices"], ["/tools/", "🧮", he ? "מחשבונים" : "Calculators"], ["/directory/", "🗣️", he ? "יוון בעברית" : "Greece in Hebrew"]];
+    const tools = [["/strikes/", "strikes", he ? "שביתות" : "Strikes"], ["/emergency/", "emergency", he ? "חירום" : "Emergency"], ["/cost-of-living/", "cost", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "madad", he ? "מחירי דירות" : "Property prices"], ["/tools/", "tools", he ? "מחשבונים" : "Calculators"], ["/directory/", "dir", he ? "יוון בעברית" : "Greece in Hebrew"]];
     const title = he ? "מדריכים: כל מה שישראלי צריך לדעת על יוון" : "Guides: everything Israelis need to know about Greece";
     const intro = he ? "מדריכים מלאים בעברית על קניית דירה, השקעה, מעבר ליוון, טיולים ואיים. מתעדכן כל הזמן." : "Complete guides on buying property, investing, moving to Greece, travel and the islands. Always updated.";
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
 <div class="grid"><div class="col">
 ${pinned.length ? `<section><div class="cards">${pinned.map((a) => card(a, lang)).join("")}</div></section>` : ""}
-<nav class="tiles" aria-label="${he ? "כלים" : "Tools"}">${tools.map(([u, i, h]) => `<a class="tile" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${i}</span><b>${esc(h)}</b></a>`).join("")}</nav>
+<nav class="tiles" aria-label="${he ? "כלים" : "Tools"}">${tools.map((x) => tileHTML(lang, x)).join("")}</nav>
 ${CATS.map(([k, h1, h2]) => { const list = guides.filter((a) => !a.pinned && cat(a) === k); return list.length ? `<section><div class="zone-h"><h2>${esc(he ? h1 : h2)}</h2></div><div class="cards">${list.map((a) => card(a, lang)).join("")}</div></section>` : ""; }).join("")}
 </div>${widgets(lang, mostRead)}</div>`;
     write(P(lang, "/guides/"), layout({ lang, title, description: intro, path: P(lang, "/guides/"), altPath: P(he ? "en" : "he", "/guides/"), body, breaking: breakingNow, activeNav: "guides" }));
