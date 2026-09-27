@@ -4,6 +4,7 @@ import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
 import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
+import { tlvPage } from "./site/tlv.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 const TI = {
   strikes: '<svg viewBox="0 0 24 24"><path d="M12 3v2M4.2 6.2l1.4 1.4M19.8 6.2l-1.4 1.4M7 17v-4a5 5 0 0 1 10 0v4"/><path d="M5 17h14v3H5z"/></svg>',
@@ -12,6 +13,7 @@ const TI = {
   madad: '<svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
   guides: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></svg>',
   tools: '<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/></svg>',
+  tlv: '<svg viewBox="0 0 24 24"><path d="M3 21V9l5-3v15M8 21h13V12l-6-4v13M11 13h1M11 17h1M17 13h1M17 17h1"/></svg>',
   dir: '<svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>',
 };
 const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
@@ -112,6 +114,7 @@ for (const lang of LANGS) {
     ["/emergency/", "emergency", lang === "he" ? "חירום" : "Emergency", lang === "he" ? "מה עושים אם..." : "What to do if..."],
     ["/cost-of-living/", "cost", lang === "he" ? "יוקר המחיה" : "Cost of living", lang === "he" ? "אתונה מול תל אביב" : "Athens vs Tel Aviv"],
     ["/madad/", "madad", lang === "he" ? "מחירי דירות" : "Property prices", lang === "he" ? "מחיר למ״ר בכל שכונה" : "Price per m² by area"],
+    ["/tlv-vs-athens/", "tlv", lang === "he" ? "תל אביב מול אתונה" : "Tel Aviv vs Athens", lang === "he" ? "הדירה שלך = כמה דירות כאן?" : "Your flat = how many here?"],
     ["/guides/", "guides", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
   ];
   const storiesHTML = tiles.map((x) => tileHTML(lang, x)).join("");
@@ -284,6 +287,14 @@ ${adBox(lang)}
     write(P(lang, "/cost-of-living/"), layout({ lang, title, description: intro, path: P(lang, "/cost-of-living/"), altPath: P(he ? "en" : "he", "/cost-of-living/"), body, breaking: breakingNow, activeSection: "cost-of-living" }));
   }
 
+  /* Τελ Αβίβ = ; στην Αθήνα (viral εργαλείο) */
+  if (GLOBAL.madad) {
+    const he = lang === "he";
+    const fxC = JSON.parse(fs.readFileSync(path.join(ROOT, "content/costs.json"), "utf8")).eurIls;
+    const pg = tlvPage(lang, madad, fxC);
+    write(P(lang, "/tlv-vs-athens/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/tlv-vs-athens/"), altPath: P(he ? "en" : "he", "/tlv-vs-athens/"), body: pg.body.replace("__WIDGETS__", widgets(lang, mostRead)), breaking: breakingNow, activeSection: "tlv", activeNav: "tools", image: abs(he ? "/og-tlv.png" : "/og-tlv-en.png") }));
+  }
+
   /* Διαγωνισμός (content/giveaway.json · εμφανίζεται μόνο όταν active=true) */
   if (GIVE && GIVE.active) {
     const he = lang === "he";
@@ -311,7 +322,7 @@ ${newsletterBox(lang, { id: "enter", source: "giveaway", title: he ? "להשתת
     const CATS = [["invest", "🏠 למשקיעים ולקוני דירות", "🏠 For investors & buyers"], ["live", "🧳 לעבור לגור ביוון", "🧳 Moving to Greece"], ["travel", "🏝️ טיולים ואיים", "🏝️ Travel & islands"], ["jewish", "✡️ יוון היהודית", "✡️ Jewish Greece"]];
     const guides = articles.filter(isGuide);
     const pinned = guides.filter((a) => a.pinned);
-    const tools = [["/strikes/", "strikes", he ? "שביתות" : "Strikes"], ["/emergency/", "emergency", he ? "חירום" : "Emergency"], ["/cost-of-living/", "cost", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "madad", he ? "מחירי דירות" : "Property prices"], ["/tools/", "tools", he ? "מחשבונים" : "Calculators"], ["/directory/", "dir", he ? "יוון בעברית" : "Greece in Hebrew"]];
+    const tools = [["/strikes/", "strikes", he ? "שביתות" : "Strikes"], ["/emergency/", "emergency", he ? "חירום" : "Emergency"], ["/cost-of-living/", "cost", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "madad", he ? "מחירי דירות" : "Property prices"], ["/tlv-vs-athens/", "tlv", he ? "תל אביב מול אתונה" : "Tel Aviv vs Athens"], ["/tools/", "tools", he ? "מחשבונים" : "Calculators"], ["/directory/", "dir", he ? "יוון בעברית" : "Greece in Hebrew"]];
     const title = he ? "מדריכים: כל מה שישראלי צריך לדעת על יוון" : "Guides: everything Israelis need to know about Greece";
     const intro = he ? "מדריכים מלאים בעברית על קניית דירה, השקעה, מעבר ליוון, טיולים ואיים. מתעדכן כל הזמן." : "Complete guides on buying property, investing, moving to Greece, travel and the islands. Always updated.";
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
@@ -416,7 +427,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 const urls = [];
 for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
-  if (GLOBAL.madad) urls.push(P(lang, "/madad/"));
+  if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => urls.push(P(lang, `/a/${a.slug}/`)));
