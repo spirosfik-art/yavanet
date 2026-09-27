@@ -44,7 +44,11 @@
     "5607e1b0c358": 1790491282226,
     "95fc8507c301": 1790491282226,
     "1a4cf48b2870": 1790491282226,
-    "e4aa31c00218": 1790491282226
+    "e4aa31c00218": 1790491282226,
+    "31205808ec70": 1790491985859,
+    "5bb29eb45654": 1790491985859,
+    "2dee87d6fcd7": 1790491985859,
+    "64fae522147c": 1790491985859
   },
   "pending": {
     "3a691d": {
@@ -192,80 +196,80 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T06:41:09.880Z",
+      "at": "2026-09-27T06:52:56.467Z",
       "error": "HTTP 403",
-      "fails": 46
+      "fails": 47
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T06:41:12.463Z",
+      "at": "2026-09-27T06:52:58.512Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T06:41:13.447Z",
+      "at": "2026-09-27T06:52:59.062Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T06:41:13.622Z",
+      "at": "2026-09-27T06:52:59.287Z",
       "error": "HTTP 403",
-      "fails": 46
+      "fails": 47
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T06:41:15.334Z",
+      "at": "2026-09-27T06:53:00.594Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T06:41:15.407Z",
+      "at": "2026-09-27T06:53:00.946Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T06:41:16.628Z",
+      "at": "2026-09-27T06:53:01.777Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T06:41:17.608Z",
-      "items": 5
+      "at": "2026-09-27T06:53:02.440Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T06:41:18.459Z",
+      "at": "2026-09-27T06:53:02.939Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T06:41:18.517Z",
+      "at": "2026-09-27T06:53:02.984Z",
       "error": "HTTP 403",
-      "fails": 46
+      "fails": 47
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T06:41:19.106Z",
+      "at": "2026-09-27T06:53:03.410Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T06:41:19.178Z",
+      "at": "2026-09-27T06:53:03.685Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T06:41:19.383Z",
-      "items": 8
+      "at": "2026-09-27T06:53:03.932Z",
+      "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T06:41:20.077Z",
-      "items": 9
+      "at": "2026-09-27T06:53:04.482Z",
+      "items": 10
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T06:41:20.124Z",
+      "at": "2026-09-27T06:53:04.535Z",
       "items": 1
     }
   },
@@ -323,40 +327,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T06:41:22.226Z",
-    "considered": 38,
-    "picked": 6,
+    "at": "2026-09-27T06:53:05.859Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· naftemporiki | ΥΠΕΞ: Συλλυπητήρια στις οικογένειες των έξι θυμάτων στην Πλάκα",
-      "· ingr | Έκρηξη στην Πλάκα: Έγκυος ανάμεσα στα θύματα – Τα σενάρια για τα αίτια",
-      "· naftemporiki | Σφοδρή κακοκαιρία στις βορειοανατολικές ΗΠΑ – Σε κατάσταση έκτακτης ανάγκης Νέα Υόρκη και ",
-      "✓ ingr | Έρευνα: Στην «πρέσα» της ακρίβειας τα νοικοκυριά – Πόσο επιβαρύνθηκε το πορτοφόλι, ανά περ",
-      "✓ naftemporiki | Φόρος 49,5% στη ρευστοποίηση cryptos – Οι κίνδυνοι της «σκοτεινής» προέλευσης και διαδρομή",
-      "✓ ingr | Κακοκαιρία: Κόπηκε στα δύο η Εύβοια, «πνίγηκε» η Σκιάθος, ανεμοστρόβιλος έπληξε χωριά στην",
-      "· ingr | Μετακομίζετε στο εξωτερικό; Ποιες χώρες προσφέρουν τις καλύτερες φορολογικές συνθήκες",
-      "· naftemporiki | Κακοκαιρία: Ισχυρές βροχές, καταιγίδες και πιθανώς χαλαζοπτώσεις – Θυελλώδεις άνεμοι στο Α",
-      "· naftemporiki | Πλάκα: Στο μικροσκόπιο τα αίτια της φονικής έκρηξης – Τα σενάρια που αποκλείονται",
-      "✓ gct | Greece International Film Festival Returns to Athens",
-      "· gct | The Wiggles Launch Spanakopita Song At Adelaide School",
-      "✓ gct | Mykonos Cut Prices 50% After Arrivals Dropped",
-      "· gct | Plaka Explosion Investigation: Gas Leak Theory Emerges as Authorities Probe Second Floor",
-      "· ert | Εορτολόγιο: Ποιοι γιορτάζουν σήμερα, 27 Σεπτεμβρίου",
-      "· gct | Cold plunges are trending. The Greeks got there first",
-      "· gct | WSJ raises questions over Kimberly Guilfoyle’s role in Greek LNG deals and adviser’s ties ",
-      "· gct | Cunard’s Queen Anne Sets Sail for the Greek Islands on 19-Night Mediterranean Cruise",
-      "· gct | Greece Trade Council Marked at 2026 Manchester Glendi",
-      "· gct | The Sweet Taste of Victory: Wild Ionian Oregano Honey Crowned Greece’s Best Food Product",
-      "· ingr | The Atlantic: Η Αίγυπτος είχε προειδοποιήσει το Ισραήλ για την επίθεση της 7ης Οκτωβρίου 1",
-      "· gct | Orianthi and Anna Vissi Set OAKA Alight With Explosive Performance",
-      "· gct | Hellenic Women’s Club Sets 2026 Mistletoe Ball",
-      "· gct | Anna Vissi Breaks Silence on Giorgos Mazonakis at Emotional OAKA Tribute",
-      "· ingr | Η Χαμάς «δεν περιμένει τίποτα» από τις βουλευτικές εκλογές στο Ισραήλ, δηλώνει ο επικεφαλή",
-      "· ert | Η Χαμάς «δεν περιμένει τίποτα» από τις βουλευτικές εκλογές στο Ισραήλ",
-      "· ingr | Πλάκα: Φτάνουν στην Ελλάδα οι οικογένειες των θυμάτων για ταυτοποίηση μέσω DNA",
-      "· naftemporiki | ΗΠΑ: Ακυρώσεις πτήσεων και χιλιάδες νοικοκυριά χωρίς ρεύμα στα βορειοανατολικά λόγω σφοδρή",
-      "✓ naftemporiki | Πλάκα: Αναμένονται οι οικογένειες των θυμάτων για ταυτοποίηση μέσω DNA – Στο μικροσκόπιο τ",
-      "· ert | Σφοδρή καταιγίδα πλήττει τις βορειοανατολικές ΗΠΑ: Ακυρώσεις πτήσεων και εκτεταμένες διακο",
-      "· ert | Το Ιράκ ζητά από τις ΗΠΑ να εξαιρεθεί από την απαγόρευση υποδοχής ιρανικών πτήσεων «για αν"
+      "· naftemporiki | Εύβοια: Πλημμυρικά φαινόμενα έφερε η κακοκαιρία",
+      "· ingr | Πλάκα: Συλλυπητήρια του υπουργείου Εξωτερικών για τους νεκρούς",
+      "· naftemporiki | Φόρος 49,5% στη ρευστοποίηση cryptos – Οι κίνδυνοι της «σκοτεινής» προέλευσης και διαδρομή",
+      "· gct | Greece International Film Festival Returns to Athens"
     ]
   }
 }
