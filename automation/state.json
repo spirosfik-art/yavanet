@@ -97,93 +97,95 @@
     "17d55e691db3": 1790530413594,
     "7d81d8b3c118": 1790532068250,
     "c3bc164e5319": 1790532068250,
-    "08cfde653f24": 1790532068250
+    "08cfde653f24": 1790532068250,
+    "6707f718cf68": 1790533398494,
+    "acf28003c391": 1790533398494
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T18:00:58.612Z",
+      "at": "2026-09-27T18:23:07.316Z",
       "error": "HTTP 403",
-      "fails": 96
+      "fails": 97
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T18:01:00.461Z",
+      "at": "2026-09-27T18:23:09.698Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T18:01:01.030Z",
+      "at": "2026-09-27T18:23:10.602Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T18:01:01.250Z",
+      "at": "2026-09-27T18:23:10.822Z",
       "error": "HTTP 403",
-      "fails": 96
+      "fails": 97
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T18:01:02.195Z",
+      "at": "2026-09-27T18:23:12.383Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T18:01:02.601Z",
+      "at": "2026-09-27T18:23:12.460Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T18:01:03.550Z",
+      "at": "2026-09-27T18:23:13.492Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T18:01:04.301Z",
+      "at": "2026-09-27T18:23:14.652Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T18:01:04.687Z",
+      "at": "2026-09-27T18:23:15.643Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T18:01:04.759Z",
+      "at": "2026-09-27T18:23:15.757Z",
       "error": "HTTP 403",
-      "fails": 96
+      "fails": 97
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T18:01:06.248Z",
+      "at": "2026-09-27T18:23:16.359Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T18:01:06.547Z",
+      "at": "2026-09-27T18:23:16.448Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T18:01:06.758Z",
-      "items": 9
+      "at": "2026-09-27T18:23:16.717Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T18:01:07.231Z",
-      "items": 5
+      "at": "2026-09-27T18:23:17.505Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T18:01:07.301Z",
+      "at": "2026-09-27T18:23:17.629Z",
       "items": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-27",
-    "count": 15,
+    "count": 16,
     "published": [
       {
         "slug": "rent-subsidy-paid-regional-workers-greece",
@@ -274,6 +276,12 @@
         "title": "PASOK Leader Criticizes Government Fuel Prices",
         "at": "2026-09-27T13:27:19+03:00",
         "section": "politics"
+      },
+      {
+        "slug": "jewish-museum-of-greece-athens-guide",
+        "title": "The Jewish Museum of Greece in Athens: A Visitor Guide",
+        "at": "2026-09-27T21:23:33+03:00",
+        "section": "jewish-greece"
       }
     ],
     "rejected": [
@@ -307,17 +315,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T18:01:08.250Z",
-    "considered": 3,
+    "at": "2026-09-27T18:23:18.494Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ert | Λέσβος: Δασική φωτιά μεταξύ Παρακοίλων – Άγρας",
-      "· ingr | Γαλλία: Αεροσκάφος της Lufthansa προσγειώθηκε εκτάκτως στη Λιόν – Powerbank έπιασε φωτιά ε",
-      "· naftemporiki | Φωτιά τώρα στην Καλλονή Λέσβου"
+      "· ert | Το Ισραήλ ανακαλεί το διπλωματικό καθεστώς των Ολλανδών στη Ραμάλα",
+      "· naftemporiki | Γαλλία: Έκτακτη προσγείωση αεροσκάφους έπειτα από φωτιά σε powerbank"
     ]
   },
   "evergreenDone": [
-    "jews-thessaloniki"
+    "jews-thessaloniki",
+    "jewish-museum-greece"
   ],
-  "lastEvergreen": 1790503264450
+  "lastEvergreen": 1790533398496
 }
