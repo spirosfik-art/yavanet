@@ -92,6 +92,8 @@ function statusText() {
 }
 
 /* ================= 2. Συλλογή πηγών ================= */
+// Απεργίες στις μεταφορές: το πιο χρήσιμο νέο για Ισραηλινό τουρίστα – παρακάμπτουν τα όρια
+const STRIKE_RE = /απεργ|στάσ(η|εις) εργασίας|χειρόφρενο|ΠΝΟ(?![Α-Ωα-ωά-ώ])|ΟΣΥΠΑ|ελεγκτ(ές|ών) εναέριας|\bstrike|walkout/i;
 async function collect() {
   const { sources } = readJSON(path.join(ROOT, "automation/sources.json"), { sources: [] });
   const items = [];
@@ -115,7 +117,7 @@ async function collect() {
       for (const i of fresh) {
         const id = sha(i.url);
         if (state.seen[id]) continue;
-        items.push({ ...i, id, sourceId: s.id, sourceName: s.name, official: !!s.official, emergency: !!s.emergency, sectionHint: s.section });
+        items.push({ ...i, id, sourceId: s.id, sourceName: s.name, official: !!s.official, emergency: !!s.emergency, sectionHint: s.section, strike: STRIKE_RE.test(i.title + " " + (i.summary || "")) });
       }
       state.sourceStatus[s.id] = { ok: true, at: new Date().toISOString(), items: list.length };
     } catch (e) {
@@ -135,7 +137,7 @@ async function select(items) {
   const hourAgo = Date.now() - 3600e3;
   const lastHour = (state.today.published || []).filter((x) => Date.parse(x.at) > hourAgo).length;
   const remaining = Math.max(0, Math.min(MAX_PER_DAY - state.today.count, MAX_PER_HOUR - lastHour));
-  if (!remaining && !items.some((i) => i.official)) { log(`όριο (ημέρα ${state.today.count}/${MAX_PER_DAY}, ώρα ${lastHour}/${MAX_PER_HOUR}) – η επιλογή περιμένει`); return []; }
+  if (!remaining && !items.some((i) => i.official || i.strike)) { log(`όριο (ημέρα ${state.today.count}/${MAX_PER_DAY}, ώρα ${lastHour}/${MAX_PER_HOUR}) – η επιλογή περιμένει`); return []; }
   let hint = "";
   if (now.hour >= 17 && state.today.count < MIN_PER_DAY) hint = `\nWe have published only ${state.today.count} today; our minimum is ${MIN_PER_DAY}. Be a bit more inclusive with relevant items.`;
   const out = (await ask({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));
@@ -145,8 +147,8 @@ async function select(items) {
   const chosen = new Set(picks.map((p) => p.id));
   state.lastSelection = { at: new Date().toISOString(), considered: items.length, picked: picks.length, items: items.slice(0, 30).map((i) => `${chosen.has(i.id) ? "✓" : "·"} ${i.sourceId} | ${i.title.slice(0, 90)}`) };
   // Τα έκτακτα από επίσημες πηγές δεν μετράνε στο ημερήσιο όριο
-  const brk = picks.filter((p) => p.breaking && p.item.official);
-  const allNormal = picks.filter((p) => !(p.breaking && p.item.official));
+  const brk = picks.filter((p) => (p.breaking && p.item.official) || p.item.strike);
+  const allNormal = picks.filter((p) => !brk.includes(p));
   const normal = allNormal.slice(0, Math.min(MAX_PER_RUN, remaining));
   // Όσα επιλέχθηκαν αλλά δεν χωράνε τώρα, ξαναεξετάζονται στην επόμενη εκτέλεση
   for (const p of [...allNormal.slice(normal.length), ...brk.slice(3)]) delete state.seen[p.item.id];
@@ -171,13 +173,18 @@ function shapeOk(d) {
 // Το AI μερικές φορές «μπλέκει» ελληνικά/αραβικά γράμματα μέσα σε εβραϊκές λέξεις (π.χ. סקיאθος).
 // Μεταγράφουμε τα ξένα γράμματα σε εβραϊκά· ό,τι δεν διορθώνεται αναφέρεται ως πρόβλημα.
 const GR2HE = { α: "א", ά: "א", β: "ב", γ: "ג", δ: "ד", ε: "", έ: "", ζ: "ז", η: "י", ή: "י", θ: "ת", ι: "י", ί: "י", ϊ: "י", κ: "ק", λ: "ל", μ: "מ", ν: "נ", ξ: "קס", ο: "ו", ό: "ו", π: "פ", ρ: "ר", σ: "ס", ς: "ס", τ: "ט", υ: "י", ύ: "י", φ: "פ", χ: "ח", ψ: "פס", ω: "ו", ώ: "ו" };
+const GR2LAT = { Α: "A", Β: "V", Γ: "G", Δ: "D", Ε: "E", Ζ: "Z", Η: "I", Θ: "TH", Ι: "I", Κ: "K", Λ: "L", Μ: "M", Ν: "N", Ξ: "X", Ο: "O", Π: "P", Ρ: "R", Σ: "S", Τ: "T", Υ: "Y", Φ: "F", Χ: "CH", Ψ: "PS", Ω: "O" };
 const AR2HE = { "ا": "א", "أ": "א", "إ": "א", "آ": "א", "ب": "ב", "ت": "ת", "ث": "ת", "ج": "ג", "ح": "ח", "خ": "ח", "د": "ד", "ذ": "ד", "ر": "ר", "ز": "ז", "س": "ס", "ش": "ש", "ص": "צ", "ض": "ד", "ط": "ט", "ظ": "ז", "ع": "ע", "غ": "ג", "ف": "פ", "ق": "ק", "ك": "ק", "ک": "ק", "ل": "ל", "م": "מ", "ن": "נ", "ه": "ה", "و": "ו", "ي": "י", "ی": "י", "ى": "י", "ة": "ה", "ء": "" };
 const MIXED = /[\u0590-\u05FF]+[A-Za-z\u0370-\u03FF\u0600-\u06FF]+[\u0590-\u05FF]*|[\u0370-\u03FF\u0600-\u06FF]+[\u0590-\u05FF]+/g;
 function fixScripts(draft) {
   if (!draft || !draft.he) return draft;
   const fix = (t) => typeof t !== "string" ? t : t
     .replace(MIXED, (w) => [...w].map((c) => GR2HE[c.toLowerCase()] ?? AR2HE[c] ?? c).join(""))
-    .replace(/[\u0600-\u06FF]+/g, (w) => [...w].map((c) => AR2HE[c] ?? "").join(""));
+    .replace(/[\u0600-\u06FF]+/g, (w) => [...w].map((c) => AR2HE[c] ?? "").join(""))
+    // ελληνική λέξη μόνη της μέσα σε εβραϊκό κείμενο: ακρωνύμια → λατινικά (ΕΛΣΤΑΤ → ELSTAT), ονόματα → εβραϊκά (Λέσβος → לסבוס)
+    .replace(/[\u0370-\u03FF\u1F00-\u1FFF]+/g, (w) => w === w.toUpperCase() && w.length > 1
+      ? [...w.normalize("NFD").replace(/[\u0300-\u036f]/g, "")].map((c) => GR2LAT[c] ?? c).join("")
+      : [...w].map((c) => GR2HE[c.toLowerCase()] ?? c).join(""));
   for (const k of Object.keys(draft.he)) draft.he[k] = Array.isArray(draft.he[k]) ? draft.he[k].map(fix) : fix(draft.he[k]);
   return draft;
 }
@@ -231,6 +238,14 @@ async function pickImage(draft) {
   }
   return { type: "illustration", key: key || "sea" };
 }
+function normStrike(x) {
+  if (!x || typeof x !== "object") return null;
+  const dates = (Array.isArray(x.dates) ? x.dates : []).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
+  if (!dates.length) return null;
+  const OK = ["flights", "ferries", "metro", "buses", "trains", "taxis", "public-sector", "other"];
+  const sectors = (Array.isArray(x.sectors) ? x.sectors : []).filter((v) => OK.includes(v));
+  return { dates, sectors: sectors.length ? sectors : ["other"], hours: String(x.hours || "").slice(0, 80), he: String(x.he || "").slice(0, 160), en: String(x.en || "").slice(0, 160) };
+}
 function uniqueSlug(s) {
   const taken = new Set(loadArticles().map((a) => a.slug));
   let slug = slugify(s), n = 2;
@@ -247,13 +262,16 @@ async function publish(draft, item, pick, text) {
     geo: item.geo || draft.geo || null,
     sources: [{ name: item.sourceName, url: item.url }],
     image: await pickImage(draft),
+    strike: normStrike(draft.strike),
     he: { title: draft.he.title, dek: draft.he.dek, tldr: draft.he.tldr.slice(0, 3), means: draft.he.means || "", body: draft.he.body },
     en: { title: draft.en.title, dek: draft.en.dek, tldr: draft.en.tldr.slice(0, 3), means: draft.en.means || "", body: draft.en.body },
     meta: { itemId: item.id, imageQuery: draft.imageQuery || "", sourceHash: sha(text), model: provider() === "gemini" ? (env.GEMINI_MODEL || "gemini-2.5-flash") : WRITE_MODEL, checkedAt: new Date().toISOString(), official: item.official },
   };
   if (article.breaking) article.section = "breaking";
+  if (!article.strike) delete article.strike;
   saveArticle(article);
-  if (!article.breaking || !item.official) state.today.count++;
+  if (!(article.breaking && item.official) && !article.strike) state.today.count++;
+  if (article.strike) await notifyOwner(`🚨 Απεργία: ${article.strike.en}\n${(article.strike.dates || []).join(", ")}\n${articleUrl(article)}`);
   state.today.published.push({ slug: article.slug, title: article.en.title, at: article.publishedAt, section: article.section });
   log("✓ δημοσιεύθηκε", article.slug);
   await distribute(article);
@@ -331,6 +349,7 @@ async function findDuplicate(item) {
 function mergeInto(existing, draft, item) {
   for (const l of ["he", "en"]) existing[l] = { title: draft[l].title, dek: draft[l].dek, tldr: draft[l].tldr.slice(0, 3), means: draft[l].means || existing[l].means || "", body: draft[l].body };
   existing.updatedAt = isoAthens();
+  const st = normStrike(draft.strike); if (st) existing.strike = st; // π.χ. η απεργία αναβλήθηκε ή άλλαξαν οι ημέρες
   if (!existing.sources.some((x) => x.url === item.url)) existing.sources.unshift({ name: item.sourceName, url: item.url });
   existing.meta = { ...(existing.meta || {}), updatedFrom: item.id };
   saveArticle(existing);

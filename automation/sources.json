@@ -30,6 +30,15 @@
       "include": "golden|επενδυτ|άδει(α|ες) διαμονής|ψηφιακ|nomad"
     },
     {
+      "id": "strikes-naftemporiki",
+      "name": "Ναυτεμπορική – Απεργίες",
+      "type": "rss",
+      "url": "https://www.naftemporiki.gr/tag/apergia/feed/",
+      "lang": "el",
+      "official": false,
+      "section": "travel"
+    },
+    {
       "id": "civilprotection",
       "name": "Πολιτική Προστασία (civilprotection.gov.gr)",
       "type": "rss",

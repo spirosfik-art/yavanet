@@ -16,10 +16,12 @@ YAVANET EDITORIAL RULES (apply to every article, title, post and newsletter):
 10. Laws, taxes, visas: say this is general information, not legal advice, when giving amounts or rules.
 `;
 
-export const AUDIENCE = `Audience: Israelis who travel to, live in, or invest in Greece (especially real estate). Priorities, in order:
-1) Israelis in Greece (community, events, flights, safety, Greece–Israel relations, Israeli businesses);
-2) Greek government decisions on real estate (Golden Visa, short-term rentals/Airbnb, property taxes, permits, planning);
-3) everything else: breaking (fires, earthquakes, severe weather, strikes), politics & economy, travel, living in Greece, Jewish heritage in Greece.`;
+export const AUDIENCE = `Audience: Israelis connected to Greece. Four reader types, and what each needs:
+- TOURISTS (largest group): strikes and transport disruption (flights, airports, air-traffic control, ferries, ports, metro, buses, taxis), fires, severe weather, earthquakes, safety, prices, islands and travel tips, kosher food, Chabad, Shabbat, flights between Israel and Greece.
+- SAFETY: antisemitic incidents, protests (practical facts only), Israeli National Security Council travel guidance, Greece–Israel relations.
+- INVESTORS: Golden Visa, property prices by area, Airbnb / short-term rental rules, property taxes, permits, planning, the Greek property market.
+- RESIDENTS (Israelis living in Greece): bureaucracy (AFM tax number, AMKA, bank accounts, residence permits), schools, healthcare, jobs, Jewish community events.
+Every article must answer "why does this matter to an Israeli?". Generic Greek news with no angle for these readers is NOT for us.`;
 
 export const SECTION_LIST = SECTIONS.map((s) => `${s.slug} (${s.en})`).join(", ");
 
@@ -34,12 +36,15 @@ ${recentTitles.slice(0, 40).join("\n") || "(none)"}
 
 We can publish at most ${remaining} more articles now.
 For each item worth an article for our audience, return an object.
-Be generous: our readers want a full picture of what is happening in Greece. PUBLISH items about: public safety and accidents in tourist areas, weather warnings, fires, earthquakes, strikes and transport, flights and airports, tourism and culture/events, prices and cost of living, the economy, national politics and government decisions, property and housing, anything involving Israel, Israelis or Jews, and notable news about Greek islands and cities.
-SKIP only: sports results, celebrity gossip, lifestyle/health tips, horoscopes, minor local crime, foreign news not about Greece, and duplicates of stories we already published (same event).
+PUBLISH only items that matter to at least one of our four reader types (tourists, safety, investors, residents):
+- ALWAYS: strikes / work stoppages affecting flights, airports, ferries, ports, metro, buses, trains or taxis in Greece; fires, earthquakes, severe weather; anything about Israel, Israelis, Jews or antisemitism in Greece; real-estate, Golden Visa, Airbnb, property-tax and housing decisions; flights Israel–Greece.
+- YES: tourist safety, islands and travel news, prices and cost of living, bureaucracy rules for foreigners, major national politics or economy news that changes life, prices or investment in Greece.
+- SKIP: news with no angle for an Israeli reader (local administration, conferences and forums, statistics with no practical use, party politics squabbles), sports, celebrity gossip, lifestyle/health tips, horoscopes, minor local crime, foreign news not about Greece, strikes outside Greece, and duplicates of stories we already published (same event).
 If several items cover the same event, pick the most informative one only.
 Return JSON: {"picks":[{"id":"...","section":"one of: ${SECTIONS.map((s) => s.slug).join("|")}","priority":1-10,"sensitive":true|false,"breaking":true|false,"reason":"short"}]}
 - sensitive=true for: Israel and politics, protests, negative events involving Israelis, accusations against people, new laws/amounts/taxes/visa rules.
 - breaking=true only for fires, earthquakes, severe weather warnings, major strikes/transport disruption, public safety alerts.
+- A strike in Greek transport (flights, ferries, metro, buses, trains, taxis) gets priority 9–10 and section "travel" (or "breaking" if it is today or tomorrow).
 Order by priority, highest first.`;
 }
 
@@ -59,13 +64,15 @@ Write one original article in Hebrew AND English, in your own words. Structure:
 - title: calm, clear, max ~90 characters.
 - dek: one or two sentences.
 - tldr: exactly 3 short bullet points ("In 30 seconds").
-- means: 2–3 sentences "What it means for you" for an Israeli reader/investor. Practical. Empty string if not relevant.
+- means: 2–3 sentences "What it means for you" for an Israeli reader (tourist, investor or resident). Practical: what to do, whom to contact, what to check. For strikes: what travellers should do (check with the airline/ferry company, alternatives, leave extra time).
 - body: Markdown with "## " subheadings, short paragraphs, lists where useful. 200–450 words. No title inside the body. No source link inside the body.
 Both languages carry the same facts.
+In the Hebrew text write Greek place and person names in Hebrew letters (e.g. לסבוס, סקיאתוס, מיצוטאקיס) and Greek acronyms in Latin letters (e.g. ELSTAT). Never use Greek or Arabic letters in Hebrew text.
 
 Return JSON:
 {"slug":"english-kebab-case-max-8-words","section":"${SECTIONS.map((s) => s.slug).join("|")}","sensitive":true|false,"breaking":true|false,
 "geo":{"lat":number,"lng":number}|null  (only for breaking events with a clear location in Greece),
+"strike":null OR, only if the article is about a strike / work stoppage in Greece: {"dates":["YYYY-MM-DD", ...every day affected, from the source],"sectors":["flights"|"ferries"|"metro"|"buses"|"trains"|"taxis"|"public-sector"|"other"],"hours":"hours or 'all day', as in the source, in English","he":"one short Hebrew line: who strikes, when, what is affected","en":"the same line in English"},
 "imageKey":"one of: ${ART_KEYS.join(", ")}","imageQuery":"2-4 English words for a free stock photo, generic (no people's faces, no brands)",
 "he":{"title":"","dek":"","tldr":["","",""],"means":"","body":""},
 "en":{"title":"","dek":"","tldr":["","",""],"means":"","body":""}}`;

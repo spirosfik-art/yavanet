@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
-import { layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
+import { GLOBAL, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -36,6 +36,29 @@ if (breakingNow) breakingNow.fire = (breakingNow.image && breakingNow.image.key 
 let mostSlugs = [];
 try { mostSlugs = JSON.parse(fs.readFileSync(path.join(ROOT, "content/mostread.json"), "utf8")).slugs || []; } catch {}
 const mostRead = (mostSlugs.map((s) => articles.find((a) => a.slug === s)).filter(Boolean).concat(articles)).filter((a, i, arr) => arr.indexOf(a) === i).slice(0, 5);
+
+/* ---------- Απεργίες (από άρθρα με πεδίο strike) ---------- */
+const athensDay = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Athens" }).format(d);
+const TODAY = athensDay(new Date(NOW));
+const IN3 = athensDay(new Date(NOW + 3 * 86400e3));
+const strikeArts = articles.filter((a) => a.strike && Array.isArray(a.strike.dates) && a.strike.dates.length);
+const nextDate = (a) => a.strike.dates.find((d) => d >= TODAY);
+const upcomingStrikes = strikeArts.filter(nextDate).sort((x, y) => nextDate(x).localeCompare(nextDate(y)));
+const pastStrikes = strikeArts.filter((a) => !nextDate(a) && a.strike.dates[a.strike.dates.length - 1] >= athensDay(new Date(NOW - 30 * 86400e3)));
+const fmtDay = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "he" ? "he-IL" : "en-GB", { weekday: "short", day: "numeric", month: "numeric", timeZone: "UTC" });
+const soon = upcomingStrikes.find((a) => nextDate(a) <= IN3);
+if (soon) {
+  const d = nextDate(soon);
+  const when = (lang) => d === TODAY ? (lang === "he" ? "היום" : "Today") : d === athensDay(new Date(NOW + 86400e3)) ? (lang === "he" ? "מחר" : "Tomorrow") : fmtDay(d, lang);
+  GLOBAL.strike = { he: soon.strike.he || soon.he.title, en: soon.strike.en || soon.en.title, when: { he: when("he"), en: when("en") } };
+}
+const SECTOR = { flights: ["✈️ טיסות", "✈️ Flights"], ferries: ["⛴️ מעבורות", "⛴️ Ferries"], metro: ["🚇 מטרו", "🚇 Metro"], buses: ["🚌 אוטובוסים", "🚌 Buses"], trains: ["🚆 רכבות", "🚆 Trains"], taxis: ["🚕 מוניות", "🚕 Taxis"], "public-sector": ["🏛️ שירות ציבורי", "🏛️ Public sector"], other: ["⚠️ אחר", "⚠️ Other"] };
+
+/* ---------- Δείκτης Yavanet (content/madad/YYYY-MM.json) ---------- */
+const madadDir = path.join(ROOT, "content/madad");
+const madadFiles = fs.existsSync(madadDir) ? fs.readdirSync(madadDir).filter((f) => /^\d{4}-\d{2}\.json$/.test(f)).sort() : [];
+const madad = madadFiles.length ? JSON.parse(fs.readFileSync(path.join(madadDir, madadFiles[madadFiles.length - 1]), "utf8")) : null;
+GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
 
 const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
 
@@ -156,6 +179,58 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
 </div>${widgets(lang, mostRead)}</div>`;
   write(P(lang, "/live/"), layout({ lang, title: t.liveTitle, description: t.liveText, path: P(lang, "/live/"), altPath: P(lang === "he" ? "en" : "he", "/live/"), body: live, breaking: breakingNow, activeSection: "breaking" }));
 
+  /* Απεργίες */
+  {
+    const he = lang === "he";
+    const item = (a, past) => {
+      const d = past ? a.strike.dates[a.strike.dates.length - 1] : nextDate(a);
+      const dt = new Date(d + "T12:00:00Z"), loc = lang === "he" ? "he-IL" : "en-GB";
+      const wd = dt.toLocaleDateString(loc, { weekday: "short", timeZone: "UTC" }), dm = `${dt.getUTCDate()}.${dt.getUTCMonth() + 1}`;
+      const more = a.strike.dates.length > 1 ? (he ? ` · ${a.strike.dates.length} ימים` : ` · ${a.strike.dates.length} days`) : "";
+      return `<a class="strike${past ? " past" : ""}" href="${P(lang, "/a/" + a.slug + "/")}"><span class="when">${esc(wd || "")}<b>${esc(dm || "")}</b></span><span><h3>${esc(a[lang].title)}</h3><span class="small">${esc(a.strike[lang] || a[lang].dek)}${more}</span><span class="sec">${a.strike.sectors.map((x) => `<span>${esc((SECTOR[x] || SECTOR.other)[he ? 0 : 1])}</span>`).join("")}</span></span></a>`;
+    };
+    const title = he ? "שביתות ביוון: טיסות, מעבורות ותחבורה" : "Strikes in Greece: flights, ferries and transport";
+    const intro = he ? "כל השביתות שמשפיעות על מטיילים ביוון, במקום אחד ובעברית: טיסות, נמלים ומעבורות, מטרו, אוטובוסים ומוניות. מתעדכן אוטומטית." : "Every strike that affects travellers in Greece, in one place: flights, ports and ferries, metro, buses and taxis. Updated automatically.";
+    const tips = he ? `<section class="means"><h2>טסים או מפליגים ביום שביתה?</h2><ul><li>בדקו מול חברת התעופה או חברת המעבורות אם הטיסה/ההפלגה מתקיימת.</li><li>שביתה של פקחי טיסה או של עובדי נמל יכולה לבטל גם טיסות מישראל.</li><li>בשביתת מטרו או אוטובוסים, צאו לשדה התעופה מוקדם יותר או הזמינו מונית מראש.</li><li>שביתות ביוון מוכרזות בדרך כלל כמה ימים מראש, ולפעמים מבוטלות ברגע האחרון. שווה לבדוק כאן שוב יום קודם.</li></ul></section>` : `<section class="means"><h2>Flying or sailing on a strike day?</h2><ul><li>Check with your airline or ferry company whether your trip is running.</li><li>Air-traffic-control or port strikes can also cancel flights from Israel.</li><li>On metro or bus strike days, leave for the airport earlier or pre-book a taxi.</li><li>Greek strikes are usually announced days in advance and are sometimes called off at the last minute. Check here again the day before.</li></ul></section>`;
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+<section><div class="zone-h"><h2>${he ? "שביתות קרובות" : "Upcoming strikes"}</h2></div>
+${upcomingStrikes.length ? `<div class="strikes">${upcomingStrikes.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${he ? "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍" : "No announced strikes affecting travellers right now. 👍"}</div>`}
+</section>
+${tips}
+${pastStrikes.length ? `<section><div class="zone-h"><h2>${he ? "שביתות אחרונות" : "Recent strikes"}</h2></div><div class="strikes">${pastStrikes.map((a) => item(a, true)).join("")}</div></section>` : ""}
+${newsletterBox(lang)}
+</div>${widgets(lang, mostRead)}</div>`;
+    write(P(lang, "/strikes/"), layout({ lang, title, description: intro, path: P(lang, "/strikes/"), altPath: P(he ? "en" : "he", "/strikes/"), body, breaking: breakingNow, activeSection: "strikes" }));
+  }
+
+  /* Δείκτης Yavanet */
+  if (GLOBAL.madad) {
+    const he = lang === "he";
+    const [yy, mm] = madad.month.split("-");
+    const monthName = new Date(Date.UTC(+yy, +mm - 1, 15)).toLocaleDateString(he ? "he-IL" : "en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    const title = he ? `מדד יוונט: מחירי נדל״ן באתונה, ${monthName}` : `Yavanet Index: Athens property prices, ${monthName}`;
+    const intro = he ? "כמה עולה מטר רבוע למכירה ולהשכרה בשכונות אתונה, ומה התשואה הצפויה. מתעדכן כל חודש." : "What a square metre costs to buy and to rent in Athens neighbourhoods, and the expected yield. Updated monthly.";
+    const max = Math.max(...madad.areas.map((x) => +x.sale || 0));
+    const chg = (v) => v == null || v === "" ? "–" : `<span class="${+v >= 0 ? "up" : "down"}">${+v > 0 ? "+" : ""}${(+v).toFixed(1)}%</span>`;
+    const eur = (v) => "€" + Math.round(+v).toLocaleString("en-US");
+    const rows = madad.areas.slice().sort((a, b) => (+b.sale || 0) - (+a.sale || 0)).map((x) => {
+      const y = x.rent && x.sale ? (x.rent * 12 / x.sale * 100).toFixed(1) + "%" : "–";
+      return `<tr><td><strong>${esc(x[lang] || x.en)}</strong></td><td>${eur(x.sale)}</td><td>${chg(x.saleChg)}</td><td>€${(+x.rent).toFixed(1)}</td><td>${chg(x.rentChg)}</td><td>${y}</td><td class="bar"><i style="width:${Math.round((+x.sale || 0) / max * 100)}%"></i></td></tr>`;
+    }).join("");
+    const head = he ? ["שכונה", "מכירה ‏€/מ״ר", "שינוי", "שכירות ‏€/מ״ר לחודש", "שינוי", "תשואה ברוטו", ""] : ["Area", "Sale €/m²", "Change", "Rent €/m²/month", "Change", "Gross yield", ""];
+    const method = he ? `המדד מבוסס על נכסים, עסקאות והשכרות ש-${esc(SITE.ad.brand)} מנהלת ומשווקת באתונה, בשילוב מודעות פעילות בשוק. המחירים הם ממוצעים לנכסי מגורים ואינם שמאות. "שינוי" הוא לעומת החודש הקודם.` : `The index is based on properties, deals and rentals that ${esc(SITE.ad.brand)} manages and markets in Athens, combined with active market listings. Prices are averages for residential property and are not a valuation. "Change" is versus the previous month.`;
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+<div class="tablewrap"><table class="madad"><thead><tr>${head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+${madad.note && madad.note[lang] ? `<section class="means"><h2>${he ? "מה השתנה החודש" : "This month"}</h2><p>${esc(madad.note[lang])}</p></section>` : ""}
+<p class="small">${method}</p>
+${adBox(lang)}
+${newsletterBox(lang)}
+</div>${widgets(lang, mostRead)}</div>`;
+    write(P(lang, "/madad/"), layout({ lang, title, description: intro, path: P(lang, "/madad/"), altPath: P(he ? "en" : "he", "/madad/"), body, breaking: breakingNow, activeSection: "madad" }));
+  }
+
   /* Κατάλογος επιχειρήσεων */
   const biz = JSON.parse(fs.readFileSync(path.join(ROOT, "content/businesses.json"), "utf8"));
   const dir = `<div class="page-h"><h1>${esc(t.dirTitle)}</h1><p>${esc(t.dirText)}</p></div>
@@ -204,7 +279,8 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 /* Sitemaps */
 const urls = [];
 for (const lang of LANGS) {
-  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/directory/"), P(lang, "/advisor/"));
+  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/directory/"), P(lang, "/advisor/"));
+  if (GLOBAL.madad) urls.push(P(lang, "/madad/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => urls.push(P(lang, `/a/${a.slug}/`)));

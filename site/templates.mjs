@@ -34,6 +34,10 @@ const WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10
 const WAVE = (fill) => `<svg class="b" viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 14 Q75 2 150 14 T300 14 T450 14 T600 14 T750 14 T900 14 T1050 14 T1200 14 V26 H0Z"/></svg><svg viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 16 Q50 8 100 16 T200 16 T300 16 T400 16 T500 16 T600 16 T700 16 T800 16 T900 16 T1000 16 T1100 16 T1200 16 V26 H0Z"/></svg>`;
 export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 0 1200 22" preserveAspectRatio="none"><path d="M0 11 Q50 3 100 11 T200 11 T300 11 T400 11 T500 11 T600 11 T700 11 T800 11 T900 11 T1000 11 T1100 11 T1200 11"/></svg></div>';
 
+// Κοινά στοιχεία για όλες τις σελίδες (ορίζονται από το build): επερχόμενη απεργία, Δείκτης Yavanet
+export const GLOBAL = { strike: null, madad: false };
+const STRIKE_WORD = { he: "שביתה", en: "Strike" };
+
 export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null }) {
   const t = T[lang];
   const NAME = lang === "he" ? SITE.nameHe : SITE.name;
@@ -44,12 +48,18 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";
+  const st = GLOBAL.strike;
+  const strikeBar = st && !path.includes("/strikes/")
+    ? `<a class="strikebar" href="${P(lang, "/strikes/")}"><span class="tag">🚨 ${STRIKE_WORD[lang]} · ${esc(st.when[lang])}</span><span class="txt">${esc(st[lang])}</span></a>`
+    : "";
   const navKeys = ["home", "feed", "prop", "tools", "mail"];
   const navHref = { home: P(lang, "/"), prop: P(lang, "/s/real-estate/"), tools: P(lang, "/tools/"), mail: P(lang, "/") + "#newsletter" };
   const nav = navKeys.map((k, i) => k === "feed"
     ? `<button type="button" data-feed>${ICONS[k]}<span>${esc(t.nav[i])}</span></button>`
     : `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
   const chips = SECTIONS.map((s) => `<a href="${P(lang, "/s/" + s.slug + "/")}"${activeSection === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
+  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
+    .map(([k, label]) => `<a class="chip-x" href="${P(lang, "/" + k + "/")}"${activeSection === k ? ' aria-current="page"' : ""}>${label}</a>`).join("");
   const legal = LEGAL_PAGES.map((p) => `<a href="${P(lang, "/p/" + p + "/")}">${esc(t.legal[p])}</a>`).join("") + `<button type="button" data-cookie-settings>${esc(t.cookieSettings)}</button>`;
   const cfg = { lang, ga4: SITE.ga4Id, clarity: SITE.clarityId, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
   return `<!doctype html>
@@ -91,7 +101,7 @@ ${head}
 </head>
 <body>
 <a class="skip" href="#main">${lang === "he" ? "דלגו לתוכן" : "Skip to content"}</a>
-${brk}
+${strikeBar}${brk}
 <header class="sky" id="sky">
   <canvas id="stars" aria-hidden="true"></canvas>
   <div class="wrap inner">
@@ -107,7 +117,7 @@ ${brk}
   </div>
   <div class="waves" aria-hidden="true">${WAVE("var(--bg)")}</div>
 </header>
-<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)}">${chips}</nav></div>
+<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)}">${chips}${extraChips}</nav></div>
 <main class="wrap" id="main">
 ${body}
 <footer>
