@@ -34,7 +34,7 @@ const WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10
 const WAVE = (fill) => `<svg class="b" viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 14 Q75 2 150 14 T300 14 T450 14 T600 14 T750 14 T900 14 T1050 14 T1200 14 V26 H0Z"/></svg><svg viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 16 Q50 8 100 16 T200 16 T300 16 T400 16 T500 16 T600 16 T700 16 T800 16 T900 16 T1000 16 T1100 16 T1200 16 V26 H0Z"/></svg>`;
 export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 0 1200 22" preserveAspectRatio="none"><path d="M0 11 Q50 3 100 11 T200 11 T300 11 T400 11 T500 11 T600 11 T700 11 T800 11 T900 11 T1000 11 T1100 11 T1200 11"/></svg></div>';
 
-export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false }) {
+export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null }) {
   const t = T[lang];
   const NAME = lang === "he" ? SITE.nameHe : SITE.name;
   const other = lang === "he" ? "en" : "he";
@@ -69,7 +69,7 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <meta property="og:title" content="${esc(title || NAME)}">
 <meta property="og:description" content="${esc(description || t.tagline)}">
 <meta property="og:url" content="${abs(path)}">
-<meta property="og:image" content="${abs("/og.png")}">
+<meta property="og:image" content="${esc(image || abs("/og.png"))}">
 <meta property="og:locale" content="${lang === "he" ? "he_IL" : "en_GB"}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0B3A5B">
@@ -103,6 +103,7 @@ ${brk}
       </nav>
       <div class="skymeta" id="skymeta"></div>
     </div>
+    <nav class="tnav" aria-label="${lang === "he" ? "ניווט" : "Navigation"}">${nav}</nav>
   </div>
   <div class="waves" aria-hidden="true">${WAVE("var(--bg)")}</div>
 </header>

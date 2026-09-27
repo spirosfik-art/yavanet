@@ -163,9 +163,26 @@ function shapeOk(d) {
   if (!/[֐-׿]/.test(d.he.title + d.he.body)) return "το εβραϊκό κείμενο δεν είναι στα εβραϊκά";
   return null;
 }
+// Το AI μερικές φορές «μπλέκει» ελληνικά/αραβικά γράμματα μέσα σε εβραϊκές λέξεις (π.χ. סקיאθος).
+// Μεταγράφουμε τα ξένα γράμματα σε εβραϊκά· ό,τι δεν διορθώνεται αναφέρεται ως πρόβλημα.
+const GR2HE = { α: "א", ά: "א", β: "ב", γ: "ג", δ: "ד", ε: "", έ: "", ζ: "ז", η: "י", ή: "י", θ: "ת", ι: "י", ί: "י", ϊ: "י", κ: "ק", λ: "ל", μ: "מ", ν: "נ", ξ: "קס", ο: "ו", ό: "ו", π: "פ", ρ: "ר", σ: "ס", ς: "ס", τ: "ט", υ: "י", ύ: "י", φ: "פ", χ: "ח", ψ: "פס", ω: "ו", ώ: "ו" };
+const AR2HE = { "ا": "א", "أ": "א", "إ": "א", "آ": "א", "ب": "ב", "ت": "ת", "ث": "ת", "ج": "ג", "ح": "ח", "خ": "ח", "د": "ד", "ذ": "ד", "ر": "ר", "ز": "ז", "س": "ס", "ش": "ש", "ص": "צ", "ض": "ד", "ط": "ט", "ظ": "ז", "ع": "ע", "غ": "ג", "ف": "פ", "ق": "ק", "ك": "ק", "ک": "ק", "ل": "ל", "م": "מ", "ن": "נ", "ه": "ה", "و": "ו", "ي": "י", "ی": "י", "ى": "י", "ة": "ה", "ء": "" };
+const MIXED = /[\u0590-\u05FF]+[A-Za-z\u0370-\u03FF\u0600-\u06FF]+[\u0590-\u05FF]*|[\u0370-\u03FF\u0600-\u06FF]+[\u0590-\u05FF]+/g;
+function fixScripts(draft) {
+  if (!draft || !draft.he) return draft;
+  const fix = (t) => typeof t !== "string" ? t : t
+    .replace(MIXED, (w) => [...w].map((c) => GR2HE[c.toLowerCase()] ?? AR2HE[c] ?? c).join(""))
+    .replace(/[\u0600-\u06FF]+/g, (w) => [...w].map((c) => AR2HE[c] ?? "").join(""));
+  for (const k of Object.keys(draft.he)) draft.he[k] = Array.isArray(draft.he[k]) ? draft.he[k].map(fix) : fix(draft.he[k]);
+  return draft;
+}
+function mixedLeft(draft) { return (JSON.stringify(draft.he).replace(/\\n/g, " ").match(MIXED) || []); }
 async function checks(draft, text) {
   const shape = shapeOk(draft); if (shape) return [shape];
+  fixScripts(draft);
   const issues = [];
+  const mx = mixedLeft(draft);
+  if (mx.length) issues.push("Mixed-script (broken) Hebrew words: " + mx.slice(0, 5).join(", ") + ". Write every Hebrew word only in Hebrew letters.");
   const all = (l) => [draft[l].title, draft[l].dek, ...draft[l].tldr, draft[l].means || "", draft[l].body].join("\n");
   const miss = missingNumbers(all("en") + "\n" + all("he"), text);
   if (miss.length) issues.push("Αριθμοί που δεν υπάρχουν στην πηγή: " + miss.slice(0, 6).join(", "));
@@ -192,14 +209,18 @@ async function write(item, pick, { instruction, neutral } = {}) {
 }
 
 /* ================= 6. Δημοσίευση / έγκριση ================= */
+const photoId = (u) => (String(u || "").match(/photos\/(\d+)/) || [])[1] || u;
 async function pickImage(draft) {
   const key = ART_KEYS.includes(draft.imageKey) ? draft.imageKey : null;
   // Φωτογραφίες από το Pexels (δωρεάν, επιτρέπει αυτόματη επιλογή, με αναφορά φωτογράφου)
   if (env.PEXELS_API_KEY && draft.imageQuery) {
     try {
-      const r = await fetch(`https://api.pexels.com/v1/search?per_page=5&orientation=landscape&query=${encodeURIComponent(draft.imageQuery)}`, { headers: { Authorization: env.PEXELS_API_KEY } });
+      const r = await fetch(`https://api.pexels.com/v1/search?per_page=15&orientation=landscape&query=${encodeURIComponent(draft.imageQuery)}`, { headers: { Authorization: env.PEXELS_API_KEY } });
       const d = await r.json();
-      const p = (d.photos || [])[0];
+      // Όχι την ίδια φωτογραφία σε δύο άρθρα: παραλείπει όσες χρησιμοποιούνται ήδη
+      const used = new Set(loadArticles().filter((a) => a.image && a.image.type === "photo" && a.slug !== draft.slug).map((a) => photoId(a.image.url)));
+      const photos = d.photos || [];
+      const p = photos.find((x) => !used.has(String(x.id))) || photos[0];
       if (p) return { type: "photo", url: p.src.large2x || p.src.large, alt: p.alt || draft.en.title, credit: `Photo: ${p.photographer} / Pexels`, creditUrl: p.url, license: "Pexels License", fallbackKey: key };
     } catch (e) { log("pexels", e.message); }
   }
@@ -409,13 +430,17 @@ async function evergreen() {
 // Όταν υπάρχει κλειδί Pexels, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
 async function backfillPhotos() {
   if (!env.PEXELS_API_KEY) return;
-  const list = loadArticles().filter((a) => !a.hidden && (!a.image || a.image.type !== "photo") && !(a.meta && a.meta.photoTried))
-    .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")).slice(0, 4);
+  const all = loadArticles().filter((a) => !a.hidden).sort((a, b) => (a.publishedAt || "").localeCompare(b.publishedAt || ""));
+  // Διπλές φωτογραφίες: το νεότερο άρθρο παίρνει άλλη (μία προσπάθεια ανά άρθρο)
+  const seenIds = new Set(), dups = [];
+  for (const a of all) if (a.image && a.image.type === "photo") { const id = photoId(a.image.url); if (seenIds.has(id) && !(a.meta && a.meta.photoDedup)) dups.push(a); seenIds.add(id); }
+  const list = all.filter((a) => (!a.image || a.image.type !== "photo") && !(a.meta && a.meta.photoTried)).reverse().concat(dups.reverse()).slice(0, 6);
   for (const a of list) {
+    const wasDup = dups.includes(a);
     const query = a.imageQuery || (a.meta && a.meta.imageQuery) || a.en.title.replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 3).slice(0, 4).join(" ") + " Greece";
-    const img = await pickImage({ imageKey: a.image && a.image.key, imageQuery: query, en: a.en });
-    a.meta = { ...(a.meta || {}), photoTried: true };
-    if (img.type === "photo") { a.image = img; log("📷 φωτογραφία:", a.slug); }
+    const img = await pickImage({ slug: a.slug, imageKey: a.image && (a.image.key || a.image.fallbackKey), imageQuery: query, en: a.en });
+    a.meta = { ...(a.meta || {}), photoTried: true, ...(wasDup ? { photoDedup: true } : {}) };
+    if (img.type === "photo" && !(wasDup && photoId(img.url) === photoId(a.image.url))) { a.image = img; log("📷 φωτογραφία:", a.slug); }
     saveArticle(a);
   }
 }

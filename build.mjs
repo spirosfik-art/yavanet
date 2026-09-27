@@ -29,6 +29,7 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
   .filter(Boolean)
   .sort((x, y) => new Date(y.publishedAt) - new Date(x.publishedAt));
 
+const photoOf = (a) => (a.image && a.image.type === "photo" && a.image.url) || null;
 const bySection = (s) => articles.filter((a) => a.section === s);
 const breakingNow = articles.find((a) => a.breaking && NOW - new Date(a.updatedAt || a.publishedAt).getTime() < 12 * 3600e3) || null;
 if (breakingNow) breakingNow.fire = (breakingNow.image && breakingNow.image.key === "fire") || /fire|שריפ/i.test(breakingNow.en.title + breakingNow.he.title);
@@ -70,7 +71,7 @@ for (const lang of LANGS) {
   const more = take(articles, 6);
   const { art } = await import("./site/art.mjs");
   const storiesHTML = fd.stories.map((s, i) => `<button class="story" type="button" data-story="${i}"><span class="ring"><span>${art(s.art, s.title)}</span></span>${esc(s.title)}</button>`).join("");
-  const home = `
+  const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
 <div class="stories" aria-label="Stories">${storiesHTML}</div>
 <div class="grid">
   <div class="col">
@@ -120,10 +121,10 @@ ${related.length ? `<section><div class="zone-h"><h2>${esc(t.related)}</h2></div
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
     const url = P(lang, `/a/${a.slug}/`);
-    const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].dek, inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
+    const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].dek, inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: photoOf(a) ? [photoOf(a), abs("/og.png")] : [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
     const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: sec(a.section)[lang], item: abs(P(lang, `/s/${a.section}/`)) }, { "@type": "ListItem", position: 3, name: a[lang].title }] };
     write(url, layout({ lang, title: a[lang].title, description: a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs],
-      head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
+      image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
   });
 
   /* Εργαλεία */
@@ -164,9 +165,20 @@ ${formBox(lang, { id: "biz", title: t.dirAdd, kind: "business-listing", fields: 
 </div>${widgets(lang, mostRead)}</div>`;
   write(P(lang, "/directory/"), layout({ lang, title: t.dirTitle, description: t.dirText, path: P(lang, "/directory/"), altPath: P(lang === "he" ? "en" : "he", "/directory/"), body: dir, breaking: breakingNow }));
 
-  /* Νομικές σελίδες */
+  /* Νομικές σελίδες: τα στοιχεία εκδότη μπαίνουν από το config (ποτέ placeholders στο live site) */
+  function fillPub(pg, lang) {
+    const pub = SITE.publisher, d = pub.updated || "27.09.2026";
+    const f = (x) => x
+      .replace(/\[(שם החברה|Company name)\]/g, pub[lang])
+      .replace(/,? ?\[(כתובת|address|Address)\]/g, pub.address ? ", " + pub.address : "")
+      .replace(/,? ?\[(מספר רישום עסק \/ ΓΕΜΗ|Business registration \/ ΓΕΜΗ number)\]/g, pub.registration ? ", " + pub.registration : "")
+      .replace(/\[(אימייל|email)\]/g, pub.email)
+      .replace(/\[(תאריך|date)\]/g, d)
+      .replace(/ ?\[(לבדיקת עורך דין|for lawyer review)\]/g, "");
+    return { title: f(pg.title), body: f(pg.body) };
+  }
   for (const p of LEGAL_PAGES) {
-    const pg = PAGES[p][lang];
+    const pg = fillPub(PAGES[p][lang], lang);
     let extra = "";
     if (p === "contact") extra = formBox(lang, { id: "contact", title: t.legal.contact, kind: "contact", fields: ["name", "email", "msg"] });
     if (p === "advertise") extra = formBox(lang, { id: "adv", title: t.legal.advertise, kind: "advertiser", fields: ["name", "email", "phone", "msg"] });

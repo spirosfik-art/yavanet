@@ -5,10 +5,12 @@ export const SITE = {
   url: process.env.SITE_URL || "https://yavanet.pages.dev", // αργότερα: το δικό σας domain, π.χ. https://yavanet.com
   // Στοιχεία εκδότη (εμφανίζονται στις νομικές σελίδες). Συμπληρώστε πριν βγει το site online.
   publisher: {
-    he: "[שם החברה המפרסמת]",
-    en: "[Publisher company name]",
-    address: "[Διεύθυνση εταιρείας]",
-    email: "info@yavanet.com",
+    he: "S.F. Properties",
+    en: "S.F. Properties",
+    address: "", // π.χ. "Οδός 1, Αθήνα" — εμφανίζεται στις νομικές σελίδες αν συμπληρωθεί
+    registration: "", // π.χ. "ΓΕΜΗ 123456789000"
+    email: "info@sfproperties.gr",
+    updated: "27.09.2026",
   },
   // Banner διαφήμισης της εταιρείας ακινήτων
   ad: {
