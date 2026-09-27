@@ -41,35 +41,40 @@ async function ask(opts) {
 /* ================= 1. Εντολές ιδιοκτήτη (Telegram) ================= */
 async function handleTelegram() {
   if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_OWNER_CHAT_ID) return;
-  const updates = (await tg("getUpdates", { offset: state.tgOffset + 1, timeout: 0, allowed_updates: ["message", "callback_query"] })) || [];
-  for (const u of updates) {
-    state.tgOffset = Math.max(state.tgOffset, u.update_id);
-    const cq = u.callback_query, msg = u.message;
-    const chat = String((cq ? cq.message.chat.id : msg && msg.chat.id) || "");
-    if (chat !== String(env.TELEGRAM_OWNER_CHAT_ID)) continue; // μόνο ο ιδιοκτήτης
-    try {
-      if (cq) {
-        const [action, id] = String(cq.data || "").split(":");
-        await tg("answerCallbackQuery", { callback_query_id: cq.id });
-        if (action === "approve") await approve(id);
-        else if (action === "reject") { if (state.pending[id]) { reject(state.pending[id].draft.en.title, "Απορρίφθηκε από τον ιδιοκτήτη"); delete state.pending[id]; await notifyOwner("✓ Απορρίφθηκε."); } }
-        else if (action === "edit") await notifyOwner(`Στείλε: /edit ${id} <τι να αλλάξει>\nπ.χ. /edit ${id} πιο σύντομο, χωρίς το δεύτερο κομμάτι`);
-        continue;
-      }
-      const text = (msg.text || "").trim();
-      const [cmd, ...rest] = text.split(/\s+/);
-      const arg = rest.join(" ");
-      if (cmd === "/pause") { state.paused = true; await notifyOwner("⏸ Η αυτόματη δημοσίευση σταμάτησε. /resume για συνέχεια."); }
-      else if (cmd === "/resume") { state.paused = false; await notifyOwner("▶️ Η αυτόματη δημοσίευση συνεχίζει."); }
-      else if (cmd === "/status") await notifyOwner(statusText());
-      else if (cmd === "/approve") await approve(arg);
-      else if (cmd === "/reject") { delete state.pending[arg]; await notifyOwner("✓ Απορρίφθηκε."); }
-      else if (cmd === "/edit") { const [id, ...ins] = rest; await editPending(id, ins.join(" ")); }
-      else if (cmd === "/remove") await removeArticle(arg);
-      else if (cmd === "/story") await manualStory(arg);
-      else await notifyOwner(HELP);
-    } catch (e) { log("telegram cmd error", e.message); await notifyOwner("Σφάλμα: " + e.message); }
+  // Άμεση λειτουργία: το μήνυμα/κουμπί ήρθε από το site (webhook) μέσω GitHub
+  if (env.TG_UPDATE) {
+    try { await processUpdate(JSON.parse(env.TG_UPDATE)); } catch (e) { log("TG_UPDATE", e.message); }
+    return;
   }
+  const updates = (await tg("getUpdates", { offset: state.tgOffset + 1, timeout: 0, allowed_updates: ["message", "callback_query"] })) || [];
+  for (const u of updates) { state.tgOffset = Math.max(state.tgOffset, u.update_id); await processUpdate(u); }
+}
+async function processUpdate(u) {
+  const cq = u.callback_query, msg = u.message;
+  const chat = String((cq ? cq.message.chat.id : msg && msg.chat.id) || "");
+  if (chat !== String(env.TELEGRAM_OWNER_CHAT_ID)) return; // μόνο ο ιδιοκτήτης
+  try {
+    if (cq) {
+      const [action, id] = String(cq.data || "").split(":");
+      if (!env.TG_UPDATE) await tg("answerCallbackQuery", { callback_query_id: cq.id });
+      if (action === "approve") await approve(id);
+      else if (action === "reject") { if (state.pending[id]) { reject(state.pending[id].draft.en.title, "Απορρίφθηκε από τον ιδιοκτήτη"); delete state.pending[id]; await notifyOwner("✓ Απορρίφθηκε."); } }
+      else if (action === "edit") await notifyOwner(`Στείλε: /edit ${id} <τι να αλλάξει>\nπ.χ. /edit ${id} πιο σύντομο, χωρίς το δεύτερο κομμάτι`);
+      return;
+    }
+    const text = (msg.text || "").trim();
+    const [cmd, ...rest] = text.split(/\s+/);
+    const arg = rest.join(" ");
+    if (cmd === "/pause") { state.paused = true; await notifyOwner("⏸ Η αυτόματη δημοσίευση σταμάτησε. /resume για συνέχεια."); }
+    else if (cmd === "/resume") { state.paused = false; await notifyOwner("▶️ Η αυτόματη δημοσίευση συνεχίζει."); }
+    else if (cmd === "/status") await notifyOwner(statusText());
+    else if (cmd === "/approve") await approve(arg);
+    else if (cmd === "/reject") { delete state.pending[arg]; await notifyOwner("✓ Απορρίφθηκε."); }
+    else if (cmd === "/edit") { const [id, ...ins] = rest; await editPending(id, ins.join(" ")); }
+    else if (cmd === "/remove") await removeArticle(arg);
+    else if (cmd === "/story") await manualStory(arg);
+    else await notifyOwner(HELP);
+  } catch (e) { log("telegram cmd error", e.message); await notifyOwner("Σφάλμα: " + e.message); }
 }
 const HELP = `Εντολές Yavanet:
 /status – κατάσταση σήμερα
@@ -390,6 +395,7 @@ async function backfillPhotos() {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
   try {
     await handleTelegram();
+    if (env.TG_UPDATE) return; // γρήγορη εκτέλεση μόνο για την εντολή του ιδιοκτήτη
     // Πρώτη σύνδεση με Telegram: μήνυμα καλωσορίσματος + αποστολή όσων περιμένουν έγκριση
     if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_OWNER_CHAT_ID) {
       if (!state.tgWelcomed) { const ok = await notifyOwner("✅ Το Yavanet συνδέθηκε με το Telegram σου!\nΕδώ θα σου έρχονται τα ευαίσθητα άρθρα για έγκριση και η ημερήσια αναφορά.\n\n" + HELP); if (ok) state.tgWelcomed = true; }

@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      tg_update:
+        description: "Εντολή Telegram (τη στέλνει αυτόματα το site)"
+        required: false
+        default: ""
 concurrency:
   group: yavanet-content
   cancel-in-progress: false
@@ -20,6 +25,7 @@ jobs:
           node-version: 20
       - name: Pipeline
         env:
+          TG_UPDATE: ${{ github.event.inputs.tg_update }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}

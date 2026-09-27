@@ -30,6 +30,8 @@ jobs:
           SYNC_SECRETS: "1"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          GH_DISPATCH_TOKEN: ${{ secrets.GH_DISPATCH_TOKEN }}
+          SITE_URL: ${{ vars.SITE_URL }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
           SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
