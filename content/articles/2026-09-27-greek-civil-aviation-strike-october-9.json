@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "illustration",
-    "key": "strike"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34785947/pexels-photo-34785947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aegean Airlines airplane parked on airport tarmac, showcasing the aircraft's engine and fuselage.",
+    "credit": "Photo: Dawid Tkocz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aegean-airlines-airplane-on-tarmac-at-airport-34785947/",
+    "license": "Pexels License",
+    "fallbackKey": "strike"
   },
   "strike": {
     "dates": [
@@ -53,6 +58,7 @@
   "meta": {
     "manual": true,
     "checkedAt": "2026-09-27T20:05:00.000Z",
-    "official": false
+    "official": false,
+    "photoTried": true
   }
 }

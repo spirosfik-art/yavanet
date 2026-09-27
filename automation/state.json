@@ -104,87 +104,95 @@
     "924d265afa95": 1790534245285,
     "d03c7db57280": 1790535046713,
     "dd72236d115e": 1790536823383,
-    "d8290eedcfe7": 1790536823383
+    "d8290eedcfe7": 1790536823383,
+    "d42889429ced": 1790538397035,
+    "e9b7ec08713d": 1790538397035,
+    "69511045315f": 1790538397035
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T19:20:15.400Z",
+      "at": "2026-09-27T19:46:26.071Z",
       "error": "HTTP 403",
-      "fails": 102
+      "fails": 103
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T19:20:16.099Z",
-      "items": 0
+      "at": "2026-09-27T19:46:28.866Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T19:20:16.756Z",
+      "at": "2026-09-27T19:46:29.731Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T19:20:16.888Z",
+      "at": "2026-09-27T19:46:30.374Z",
       "error": "HTTP 403",
-      "fails": 102
+      "fails": 103
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T19:20:18.077Z",
+      "at": "2026-09-27T19:46:32.149Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T19:20:18.433Z",
+      "at": "2026-09-27T19:46:32.365Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T19:20:19.466Z",
+      "at": "2026-09-27T19:46:33.387Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T19:20:20.182Z",
+      "at": "2026-09-27T19:46:34.151Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T19:20:20.621Z",
+      "at": "2026-09-27T19:46:34.632Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T19:20:20.794Z",
+      "at": "2026-09-27T19:46:34.841Z",
       "error": "HTTP 403",
-      "fails": 102
+      "fails": 103
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T19:20:21.355Z",
-      "items": 5
+      "at": "2026-09-27T19:46:35.512Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T19:20:21.746Z",
+      "at": "2026-09-27T19:46:35.658Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T19:20:21.862Z",
-      "items": 9
+      "at": "2026-09-27T19:46:35.800Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T19:20:22.258Z",
+      "at": "2026-09-27T19:46:36.269Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T19:20:22.463Z",
+      "at": "2026-09-27T19:46:36.421Z",
       "items": 1
+    },
+    "strikes-naftemporiki": {
+      "ok": true,
+      "at": "2026-09-27T19:46:30.243Z",
+      "items": 30
     }
   },
   "tgOffset": 829774786,
@@ -326,12 +334,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T19:20:23.383Z",
-    "considered": 2,
+    "at": "2026-09-27T19:46:37.035Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Στα άκρα η σύγκρουση Ισραήλ – Τουρκίας: Προσφυγή κατά Ερντογάν στο ΔΠΔ για Κούρδους και Χα",
-      "· ingr | Ολυμπιακός – ΠΑΟΚ 101-96: Πέμπτο σερί Super Cup, με τριάδα «φωτιά» οι Πειραιώτες! (vids)"
+      "· ingr | Στα ΗΑΕ ο Νετανιάχου για συνάντηση με τον πρόεδρο μπιν Ζαγιέντ",
+      "· gct | Mazonakis Case: Defibrillator Had No Working Battery as New Evidence Emerges",
+      "· gct | Netanyahu Orders Preparation of Potential ICC Case Against Erdogan Over Kurds and Hamas"
     ]
   },
   "evergreenDone": [
