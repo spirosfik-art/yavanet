@@ -18,10 +18,10 @@
   ],
   "image": {
     "type": "photo",
-    "url": "https://images.pexels.com/photos/37293704/pexels-photo-37293704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Close-up of heavy rainfall splattering on outdoor pavement with green foliage in the background.",
-    "credit": "Photo: Александр Лич / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/dramatic-rainfall-on-pavement-captured-outdoors-37293704/",
+    "url": "https://images.pexels.com/photos/7100684/pexels-photo-7100684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A group of people ride in a truck at night during heavy rain, headlights glowing in the dark.",
+    "credit": "Photo: Denniz Futalan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/people-riding-on-mini-truck-during-night-time-7100684/",
     "license": "Pexels License",
     "fallbackKey": "storm"
   },
@@ -53,6 +53,8 @@
     "sourceHash": "a951195dcd35",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-09-27T10:47:31.271Z",
-    "official": false
+    "official": false,
+    "photoTried": true,
+    "photoDedup": true
   }
 }

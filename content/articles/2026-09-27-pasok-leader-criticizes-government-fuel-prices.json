@@ -15,10 +15,10 @@
   ],
   "image": {
     "type": "photo",
-    "url": "https://images.pexels.com/photos/33946504/pexels-photo-33946504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "View of the Hellenic Parliament in Athens with yellow taxis in the foreground.",
-    "credit": "Photo: Efrem  Efre / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/hellenic-parliament-building-in-athens-greece-33946504/",
+    "url": "https://images.pexels.com/photos/19689621/pexels-photo-19689621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic aerial view of Syntagma Square, Athens, Greece, illuminated at dusk with a Christmas tree.",
+    "credit": "Photo: Zois Fotis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/illuminated-fir-tree-on-city-square-on-sunset-19689621/",
     "license": "Pexels License",
     "fallbackKey": "politics"
   },
@@ -50,6 +50,8 @@
     "sourceHash": "ed853ee028a6",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-09-27T10:27:19.816Z",
-    "official": false
+    "official": false,
+    "photoTried": true,
+    "photoDedup": true
   }
 }

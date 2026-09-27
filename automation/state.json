@@ -78,80 +78,80 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T11:47:26.502Z",
+      "at": "2026-09-27T12:01:29.064Z",
       "error": "HTTP 403",
-      "fails": 66
+      "fails": 67
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T11:47:28.387Z",
-      "items": 0
+      "at": "2026-09-27T12:01:32.035Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T11:47:29.078Z",
+      "at": "2026-09-27T12:01:32.550Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T11:47:29.283Z",
+      "at": "2026-09-27T12:01:32.738Z",
       "error": "HTTP 403",
-      "fails": 66
+      "fails": 67
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T11:47:30.228Z",
+      "at": "2026-09-27T12:01:33.589Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T11:47:30.366Z",
+      "at": "2026-09-27T12:01:33.895Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T11:47:31.274Z",
+      "at": "2026-09-27T12:01:34.969Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T11:47:31.898Z",
+      "at": "2026-09-27T12:01:35.609Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T11:47:32.864Z",
+      "at": "2026-09-27T12:01:36.515Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T11:47:32.918Z",
+      "at": "2026-09-27T12:01:36.647Z",
       "error": "HTTP 403",
-      "fails": 66
+      "fails": 67
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T11:47:33.118Z",
+      "at": "2026-09-27T12:01:37.159Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T11:47:33.243Z",
+      "at": "2026-09-27T12:01:37.517Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T11:47:33.430Z",
+      "at": "2026-09-27T12:01:38.076Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T11:47:33.984Z",
+      "at": "2026-09-27T12:01:38.383Z",
       "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T11:47:34.063Z",
+      "at": "2026-09-27T12:01:38.506Z",
       "items": 1
     }
   },
@@ -282,11 +282,10 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T11:47:35.102Z",
-    "considered": 2,
+    "at": "2026-09-27T12:01:39.430Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "· gct | Mitsotakis: Greece wants to be a bridge, not part of the problem, amid global uncertainty",
       "✓ ert | Blue Carrier 2: Σε εφαρμογή έκτακτα μέτρα για την τροφοδοσία της Σάμου – Το Εργατικό Κέντρ"
     ]
   },

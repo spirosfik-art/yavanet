@@ -18,10 +18,10 @@
   ],
   "image": {
     "type": "photo",
-    "url": "https://images.pexels.com/photos/37293704/pexels-photo-37293704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Close-up of heavy rainfall splattering on outdoor pavement with green foliage in the background.",
-    "credit": "Photo: Александр Лич / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/dramatic-rainfall-on-pavement-captured-outdoors-37293704/",
+    "url": "https://images.pexels.com/photos/13306544/pexels-photo-13306544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A striking view of a thunderstorm illuminating the harbor and cityscape of Corfu, Greece.",
+    "credit": "Photo: Mosxonas_D A / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/lightnings-by-the-harbor-at-night-13306544/",
     "license": "Pexels License",
     "fallbackKey": "storm"
   },
@@ -52,7 +52,9 @@
     "imageQuery": "heavy rain storm greece weather",
     "sourceHash": "fe60fdd16cbc",
     "model": "gemini-2.5-flash",
-    "checkedAt": "2026-09-27T10:01:15.984Z",
-    "official": true
+    "checkedAt": "2026-09-27T12:01:41.328Z",
+    "official": true,
+    "photoTried": true,
+    "photoDedup": true
   }
 }
