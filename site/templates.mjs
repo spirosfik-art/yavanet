@@ -114,7 +114,7 @@ ${body}
   <nav aria-label="Legal">${legal}</nav>
   <div>${esc(t.aiNote)}</div>
   <div>${lang === "he" ? "תמונות" : "Photos"}: <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></div>
-  <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher[lang])}</div>
+  <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher.brand || SITE.publisher[lang])}</div>
 </footer>
 </main>
 <nav class="bnav" aria-label="Main">${nav}</nav>

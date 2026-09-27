@@ -5,10 +5,11 @@ export const SITE = {
   url: process.env.SITE_URL || "https://yavanet.gr",
   // Στοιχεία εκδότη (εμφανίζονται στις νομικές σελίδες). Συμπληρώστε πριν βγει το site online.
   publisher: {
-    he: "S.F. Properties",
-    en: "S.F. Properties",
-    address: "", // π.χ. "Οδός 1, Αθήνα" — εμφανίζεται στις νομικές σελίδες αν συμπληρωθεί
-    registration: "", // π.χ. "ΓΕΜΗ 123456789000"
+    brand: "S.F. Properties", // στο κάτω μέρος κάθε σελίδας
+    he: "ספירידון פיקיאס (S.F. Properties)",
+    en: "Spyridon Fikias (S.F. Properties)",
+    address: { he: "P. P. Germanou 77, Filothei 15237, יוון", en: "P. P. Germanou 77, Filothei 15237, Greece" },
+    registration: { he: "מספר עוסק (ΑΦΜ) 175679614, ΓΕΜΗ 172090403000", en: "Tax ID (ΑΦΜ) 175679614, GEMI (ΓΕΜΗ) 172090403000" },
     email: "info@sfproperties.gr",
     updated: "27.09.2026",
   },

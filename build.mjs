@@ -168,10 +168,11 @@ ${formBox(lang, { id: "biz", title: t.dirAdd, kind: "business-listing", fields: 
   /* Νομικές σελίδες: τα στοιχεία εκδότη μπαίνουν από το config (ποτέ placeholders στο live site) */
   function fillPub(pg, lang) {
     const pub = SITE.publisher, d = pub.updated || "27.09.2026";
+    const L = (v) => (v && typeof v === "object" ? v[lang] : v) || "";
     const f = (x) => x
       .replace(/\[(שם החברה|Company name)\]/g, pub[lang])
-      .replace(/,? ?\[(כתובת|address|Address)\]/g, pub.address ? ", " + pub.address : "")
-      .replace(/,? ?\[(מספר רישום עסק \/ ΓΕΜΗ|Business registration \/ ΓΕΜΗ number)\]/g, pub.registration ? ", " + pub.registration : "")
+      .replace(/,? ?\[(כתובת|address|Address)\]/g, L(pub.address) ? ", " + L(pub.address) : "")
+      .replace(/,? ?\[(מספר רישום עסק \/ ΓΕΜΗ|Business registration \/ ΓΕΜΗ number)\]/g, L(pub.registration) ? ", " + L(pub.registration) : "")
       .replace(/\[(אימייל|email)\]/g, pub.email)
       .replace(/\[(תאריך|date)\]/g, d)
       .replace(/ ?\[(לבדיקת עורך דין|for lawyer review)\]/g, "");
