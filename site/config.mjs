@@ -2,7 +2,7 @@
 export const SITE = {
   name: "Yavanet",
   nameHe: "יוונט", // το όνομα στις εβραϊκές σελίδες
-  url: process.env.SITE_URL || "https://yavanet.pages.dev", // αργότερα: το δικό σας domain, π.χ. https://yavanet.com
+  url: process.env.SITE_URL || "https://yavanet.gr",
   // Στοιχεία εκδότη (εμφανίζονται στις νομικές σελίδες). Συμπληρώστε πριν βγει το site online.
   publisher: {
     he: "S.F. Properties",

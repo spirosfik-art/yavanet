@@ -28,7 +28,7 @@ if [ "${SYNC_SECRETS:-0}" = "1" ] && [ -n "${TELEGRAM_BOT_TOKEN:-}" ]; then
   BOT="$(printf '%s' "$TELEGRAM_BOT_TOKEN" | tr -d '[:space:]')"
   if [ -n "$(printf '%s' "${GH_DISPATCH_TOKEN:-}" | tr -d '[:space:]')" ]; then
     SECRET="$(printf 'yavanet:%s' "$BOT" | sha256sum | cut -c1-48)"
-    URL="${SITE_URL:-https://yavanet.pages.dev}"; URL="${URL%/}/api/telegram"
+    URL="${SITE_URL:-https://yavanet.gr}"; URL="${URL%/}/api/telegram"
     curl -s "https://api.telegram.org/bot$BOT/setWebhook" -d "url=$URL" -d "secret_token=$SECRET" -d 'allowed_updates=["message","callback_query"]' | grep -o '"ok":[a-z]*' | sed 's/^/webhook /'
   else
     curl -s "https://api.telegram.org/bot$BOT/deleteWebhook" | grep -o '"ok":[a-z]*' | sed 's/^/no webhook /'

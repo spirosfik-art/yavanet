@@ -4,7 +4,7 @@
 // και, όπου γίνεται, αυτόματη επανεκκίνηση.
 const env = process.env;
 const REPO = env.GITHUB_REPOSITORY || "spirosfik-art/yavanet";
-const SITE = (env.SITE_URL || "https://yavanet.pages.dev").replace(/\/$/, "");
+const SITE = (env.SITE_URL || "https://yavanet.gr").replace(/\/$/, "");
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
 
 const athensHour = () => Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Athens", hour: "2-digit", hour12: false }).format(new Date())) % 24;

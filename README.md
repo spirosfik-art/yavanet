@@ -36,7 +36,7 @@
 
 | Τώρα (0€) | Αργότερα (όταν έχει κίνηση) |
 |---|---|
-| Διεύθυνση `yavanet.pages.dev` (δωρεάν από το Cloudflare) | Δικό σας domain, π.χ. yavanet.com (~€10–15/χρόνο). Απαραίτητο για AdSense και Google News |
+| Διεύθυνση `yavanet.gr` (δωρεάν από το Cloudflare) | Δικό σας domain, π.χ. yavanet.gr. Απαραίτητο για AdSense και Google News |
 | AI: **Google Gemini, δωρεάν επίπεδο** (`GEMINI_API_KEY`) | AI: Claude API (`ANTHROPIC_API_KEY`), για καλύτερα εβραϊκά και πιο αυστηρούς ελέγχους |
 | Brevo δωρεάν: έως 300 email τη μέρα | Πληρωμένο πλάνο Brevo όταν οι συνδρομητές ξεπεράσουν τους ~300 |
 | Χωρίς Make.com, με ανάρτηση μόνο στο κανάλι Telegram | Make.com για Facebook / Instagram / X |
@@ -126,7 +126,7 @@ Repository → **Settings → Secrets and variables → Actions**.
 - προαιρετικά: `PEXELS_API_KEY`, `MAKE_WEBHOOK_URL`
 
 **Variables**
-- `SITE_URL` = https://yavanet.pages.dev (αργότερα το δικό σου domain)
+- `SITE_URL` = https://yavanet.gr (αργότερα το δικό σου domain)
 - `AI_PROVIDER` = gemini
 - `CF_PROJECT` = yavanet
 - `GA4_ID`, `CLARITY_ID`
