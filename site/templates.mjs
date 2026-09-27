@@ -153,7 +153,7 @@ export function card(a, lang) {
 
 export function adBox(lang) {
   const t = T[lang];
-  return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span><b>${esc(SITE.ad.brand)}</b><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span></span><div class="adrow"><a href="${P(lang, "/advisor/")}">${esc(t.adCta)}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
+  return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><img src="/sf-logo-light.png" width="900" height="142" alt="${esc(SITE.ad.brand)}" loading="lazy"><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span><div class="adrow"><a href="${P(lang, "/advisor/")}">${esc(t.adCta)}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
 }
 
 export function newsletterBox(lang) {
