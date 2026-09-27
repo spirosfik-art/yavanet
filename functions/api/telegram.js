@@ -33,7 +33,11 @@ export async function onRequestPost({ request, env }) {
   });
   if (!r.ok) {
     console.error("dispatch", r.status, (await r.text()).slice(0, 200));
-    return json({ ok: false }, 502); // το Telegram θα ξαναστείλει την ενημέρωση
+    // Ασφάλεια: αν το GitHub δεν δέχεται το κλειδί (π.χ. έληξε), γυρνάμε το bot σε «αργή» λειτουργία
+    // (έλεγχος κάθε 15′) ώστε να μη χάνεται καμία εντολή, και ειδοποιούμε τον ιδιοκτήτη.
+    await tg(env, "deleteWebhook", { drop_pending_updates: false });
+    await tg(env, "sendMessage", { chat_id: env.TELEGRAM_OWNER_CHAT_ID, text: "⚠️ Το γρήγορο bot σταμάτησε (το κλειδί GH_DISPATCH_TOKEN δεν γίνεται δεκτό – ίσως έληξε). Συνεχίζω σε αργή λειτουργία: οι εντολές σου εφαρμόζονται μέσα σε 15–30′. Φτιάξε νέο κλειδί για να επανέλθει η γρήγορη λειτουργία." });
+    return json({ ok: false }, 503);
   }
 
   // Άμεση απάντηση στον ιδιοκτήτη
