@@ -114,91 +114,94 @@
     "e5296c9f4a45": 1790542071295,
     "b2b8302db116": 1790544843891,
     "2b5b358812cd": 1790544843891,
-    "14de66c96786": 1790545623400
+    "14de66c96786": 1790545623400,
+    "d41fdef42bcf": 1790548546034,
+    "3eb5562c33f0": 1790548546034,
+    "2d7e636471b3": 1790548546034
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T22:22:24.129Z",
+      "at": "2026-09-27T22:35:35.676Z",
       "error": "HTTP 403",
-      "fails": 113
+      "fails": 114
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T22:22:26.201Z",
+      "at": "2026-09-27T22:35:37.676Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T22:22:26.814Z",
+      "at": "2026-09-27T22:35:38.378Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T22:22:27.653Z",
+      "at": "2026-09-27T22:35:39.424Z",
       "error": "HTTP 403",
-      "fails": 113
+      "fails": 114
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T22:22:28.549Z",
+      "at": "2026-09-27T22:35:40.371Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T22:22:28.983Z",
+      "at": "2026-09-27T22:35:40.761Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T22:22:30.073Z",
+      "at": "2026-09-27T22:35:41.598Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T22:22:30.718Z",
+      "at": "2026-09-27T22:35:42.324Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T22:22:32.187Z",
+      "at": "2026-09-27T22:35:43.174Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T22:22:32.327Z",
+      "at": "2026-09-27T22:35:43.253Z",
       "error": "HTTP 403",
-      "fails": 113
+      "fails": 114
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T22:22:32.788Z",
+      "at": "2026-09-27T22:35:43.785Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T22:22:34.336Z",
+      "at": "2026-09-27T22:35:44.187Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T22:22:34.541Z",
-      "items": 4
+      "at": "2026-09-27T22:35:44.407Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T22:22:34.694Z",
+      "at": "2026-09-27T22:35:44.565Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T22:22:34.762Z",
+      "at": "2026-09-27T22:35:44.627Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T22:22:27.350Z",
+      "at": "2026-09-27T22:35:39.185Z",
       "items": 30
     }
   },
@@ -224,11 +227,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T21:47:03.400Z",
-    "considered": 1,
+    "at": "2026-09-27T22:35:46.034Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greece Make History: National Team Defeat Germany 1-0 for First Ever Win"
+      "· gct | Greece Make History With First-Ever Win Over Germany",
+      "· gct | Kourbelis Goal Leaves New Germany Coach Winless",
+      "· gct | Greek Museum of Contemporary Art Wins Top European Award"
     ]
   },
   "evergreenDone": [
