@@ -36,7 +36,7 @@ let mostSlugs = [];
 try { mostSlugs = JSON.parse(fs.readFileSync(path.join(ROOT, "content/mostread.json"), "utf8")).slugs || []; } catch {}
 const mostRead = (mostSlugs.map((s) => articles.find((a) => a.slug === s)).filter(Boolean).concat(articles)).filter((a, i, arr) => arr.indexOf(a) === i).slice(0, 5);
 
-const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
+const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
 
 /* ---------- Δεδομένα για stories & feed ---------- */
 function feedData(lang) {
@@ -93,7 +93,7 @@ for (const lang of LANGS) {
 </div>
 <script type="application/json" id="yv-data">${JSON.stringify(fd).replace(/</g, "\\u003c")}</script>`;
   write(P(lang, "/"), layout({ lang, title: "", description: t.tagline, path: P(lang, "/"), altPath: P(lang === "he" ? "en" : "he", "/"), body: home, breaking: breakingNow, activeNav: "home",
-    jsonld: [orgLd, { "@context": "https://schema.org", "@type": "WebSite", name: SITE.name, url: abs(P(lang, "/")), inLanguage: lang }] }));
+    jsonld: [orgLd, { "@context": "https://schema.org", "@type": "WebSite", name: lang === "he" ? SITE.nameHe : SITE.name, alternateName: lang === "he" ? SITE.name : SITE.nameHe, url: abs(P(lang, "/")), inLanguage: lang }] }));
 
   /* Ενότητες */
   for (const s of SECTIONS) {
@@ -177,7 +177,7 @@ ${formBox(lang, { id: "biz", title: t.dirAdd, kind: "business-listing", fields: 
   /* RSS */
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-<title>${SITE.name}</title><link>${abs(P(lang, "/"))}</link><description>${esc(t.tagline)}</description><language>${lang}</language>
+<title>${lang === "he" ? SITE.nameHe : SITE.name}</title><link>${abs(P(lang, "/"))}</link><description>${esc(t.tagline)}</description><language>${lang}</language>
 <atom:link href="${abs(P(lang, "/rss.xml"))}" rel="self" type="application/rss+xml"/>
 ${articles.slice(0, 40).map((a) => `<item><title>${esc(a[lang].title)}</title><link>${abs(P(lang, "/a/" + a.slug + "/"))}</link><guid>${abs(P(lang, "/a/" + a.slug + "/"))}</guid><pubDate>${new Date(a.publishedAt).toUTCString()}</pubDate><description>${esc(a[lang].dek)}</description><category>${esc(sec(a.section)[lang])}</category></item>`).join("\n")}
 </channel></rss>`;
@@ -199,7 +199,7 @@ write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="htt
 const recent = articles.filter((a) => NOW - new Date(a.publishedAt).getTime() < 2 * 86400e3);
 write("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${recent.flatMap((a) => LANGS.map((lang) => `<url><loc>${abs(P(lang, "/a/" + a.slug + "/"))}</loc><news:news><news:publication><news:name>${SITE.name}</news:name><news:language>${lang === "he" ? "he" : "en"}</news:language></news:publication><news:publication_date>${a.publishedAt}</news:publication_date><news:title>${esc(a[lang].title)}</news:title></news:news></url>`)).join("\n")}
+${recent.flatMap((a) => LANGS.map((lang) => `<url><loc>${abs(P(lang, "/a/" + a.slug + "/"))}</loc><news:news><news:publication><news:name>${lang === "he" ? SITE.nameHe : SITE.name}</news:name><news:language>${lang === "he" ? "he" : "en"}</news:language></news:publication><news:publication_date>${a.publishedAt}</news:publication_date><news:title>${esc(a[lang].title)}</news:title></news:news></url>`)).join("\n")}
 </urlset>`);
 
 /* Στατικά αρχεία */

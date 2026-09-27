@@ -36,10 +36,11 @@ export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 
 
 export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false }) {
   const t = T[lang];
+  const NAME = lang === "he" ? SITE.nameHe : SITE.name;
   const other = lang === "he" ? "en" : "he";
   const heUrl = lang === "he" ? path : altPath;
   const enUrl = lang === "en" ? path : altPath;
-  const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} · ${t.tagline}`;
+  const fullTitle = title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";
@@ -63,9 +64,9 @@ ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" cont
 ${heUrl ? `<link rel="alternate" hreflang="he" href="${abs(heUrl)}">` : ""}
 ${enUrl ? `<link rel="alternate" hreflang="en" href="${abs(enUrl)}">` : ""}
 ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : ""}
-<meta property="og:site_name" content="${SITE.name}">
+<meta property="og:site_name" content="${NAME}">
 <meta property="og:type" content="${ogType}">
-<meta property="og:title" content="${esc(title || SITE.name)}">
+<meta property="og:title" content="${esc(title || NAME)}">
 <meta property="og:description" content="${esc(description || t.tagline)}">
 <meta property="og:url" content="${abs(path)}">
 <meta property="og:image" content="${abs("/og.png")}">
@@ -75,7 +76,7 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="alternate" type="application/rss+xml" title="${SITE.name}" href="${P(lang, "/rss.xml")}">
+<link rel="alternate" type="application/rss+xml" title="${NAME}" href="${P(lang, "/rss.xml")}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700;800&display=swap">
@@ -94,7 +95,7 @@ ${brk}
 <header class="sky" id="sky">
   <canvas id="stars" aria-hidden="true"></canvas>
   <div class="wrap inner">
-    <a class="logo" href="${P(lang, "/")}"><b>Yavan<i>et</i></b><small>${esc(t.tagline)}</small></a>
+    <a class="logo" href="${P(lang, "/")}"><b>${lang === "he" ? "יוו<i>נט</i>" : "Yavan<i>et</i>"}</b><small>${esc(t.tagline)}</small></a>
     <div class="hside">
       <nav class="lang" aria-label="Language">
         <a href="${heUrl || "/"}" hreflang="he" lang="he" aria-current="${lang === "he"}">עב</a>
@@ -112,7 +113,7 @@ ${body}
   <nav aria-label="Legal">${legal}</nav>
   <div>${esc(t.aiNote)}</div>
   <div>${lang === "he" ? "תמונות" : "Photos"}: <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></div>
-  <div>© ${new Date().getFullYear()} ${SITE.name} · ${esc(SITE.publisher[lang])}</div>
+  <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher[lang])}</div>
 </footer>
 </main>
 <nav class="bnav" aria-label="Main">${nav}</nav>

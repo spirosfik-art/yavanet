@@ -2,7 +2,7 @@
 // ΣΗΜΑΝΤΙΚΟ: είναι σχέδια. Συμπληρώστε τα [ ] και δώστε τα σε δικηγόρο με γνώση GDPR πριν βγει το site online.
 export const PAGES = {
   about: {
-    he: { title: "אודות Yavanet", body: `Yavanet הוא אתר חדשות בעברית ובאנגלית על כל מה שקורה ביוון, עבור ישראלים שמטיילים, גרים או משקיעים ביוון.
+    he: { title: "אודות יוונט", body: `יוונט הוא אתר חדשות בעברית ובאנגלית על כל מה שקורה ביוון, עבור ישראלים שמטיילים, גרים או משקיעים ביוון.
 
 ## איך אנחנו עובדים
 
@@ -46,7 +46,7 @@ Ads are labelled "Ad" and sponsored content is labelled "Sponsored".` },
 To report an error in an article, use the "Report an error" button at the bottom of the article.` },
   },
   advertise: {
-    he: { title: "פרסמו אצלנו", body: `Yavanet מגיע לישראלים שמטיילים, גרים ומשקיעים ביוון.
+    he: { title: "פרסמו אצלנו", body: `יוונט מגיע לישראלים שמטיילים, גרים ומשקיעים ביוון.
 
 ## אפשרויות פרסום
 
@@ -198,7 +198,7 @@ We rely on official sources: the Greek government and ministries, the Government
 Found an error? Tap "Report an error" at the bottom of the article. We correct it quickly and mark the article "Updated" with the date.` },
   },
   disclaimer: {
-    he: { title: "הבהרה משפטית", body: `המידע ב-Yavanet, כולל כתבות על חוקים, מיסים, ויזת זהב ונדל״ן, והמחשבונים באתר, הוא למטרות מידע כללי בלבד. הוא אינו ייעוץ משפטי, מיסויי או השקעתי ואינו תחליף לייעוץ מקצועי. לפני כל החלטה, פנו לעורך דין, רואה חשבון או יועץ מוסמך.` },
+    he: { title: "הבהרה משפטית", body: `המידע ביוונט, כולל כתבות על חוקים, מיסים, ויזת זהב ונדל״ן, והמחשבונים באתר, הוא למטרות מידע כללי בלבד. הוא אינו ייעוץ משפטי, מיסויי או השקעתי ואינו תחליף לייעוץ מקצועי. לפני כל החלטה, פנו לעורך דין, רואה חשבון או יועץ מוסמך.` },
     en: { title: "Legal disclaimer", body: `Information on Yavanet, including articles on laws, taxes, the Golden Visa and real estate, and the calculators on the site, is general information only. It is not legal, tax or investment advice and does not replace professional advice. Before any decision, consult a qualified lawyer, accountant or advisor.` },
   },
 };
