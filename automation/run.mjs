@@ -103,6 +103,7 @@ async function collect() {
         }));
       }
       if (s.include) list = list.filter((i) => new RegExp(s.include, "i").test(i.title + " " + i.summary));
+      if (s.exclude) list = list.filter((i) => !new RegExp(s.exclude, "i").test(i.title + " " + i.summary));
       const fresh = list.filter((i) => { const t = Date.parse(i.published); return !t || Date.now() - t < 36 * 3600e3; });
       for (const i of fresh) {
         const id = sha(i.url);
@@ -130,6 +131,9 @@ async function select(items) {
   const out = (await ask({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));
   for (const i of items) state.seen[i.id] = Date.now();
   const picks = (out.picks || []).map((p) => ({ ...p, item: items.find((i) => i.id === p.id) })).filter((p) => p.item);
+  // Καταγραφή για έλεγχο: τι είδε η AI και τι διάλεξε
+  const chosen = new Set(picks.map((p) => p.id));
+  state.lastSelection = { at: new Date().toISOString(), considered: items.length, picked: picks.length, items: items.slice(0, 30).map((i) => `${chosen.has(i.id) ? "✓" : "·"} ${i.sourceId} | ${i.title.slice(0, 90)}`) };
   // Τα έκτακτα από επίσημες πηγές δεν μετράνε στο ημερήσιο όριο
   const brk = picks.filter((p) => p.breaking && p.item.official);
   const normal = picks.filter((p) => !(p.breaking && p.item.official)).slice(0, Math.min(MAX_PER_RUN, remaining));
@@ -332,6 +336,37 @@ async function updates() {
   }
 }
 
+/* ================= Μόνιμα άρθρα-οδηγοί ================= */
+// Όταν δεν βγαίνουν αρκετά νέα, γράφει έναν οδηγό (ταξίδια, ζωή στην Ελλάδα, εβραϊκή Ελλάδα) από τη Wikipedia.
+async function evergreen() {
+  if (env.EVERGREEN === "0" || aiQuotaHit()) return;
+  if (now.hour < 8 || now.hour > 21) return;
+  const target = Math.floor((MIN_PER_DAY * (now.hour - 7)) / 14); // σταδιακός στόχος μέσα στη μέρα
+  if (state.today.count >= target) return;
+  if (state.lastEvergreen && Date.now() - state.lastEvergreen < 50 * 60e3) return; // το πολύ ~1 την ώρα
+  state.evergreenDone ||= [];
+  const { topics = [] } = readJSON(path.join(ROOT, "automation/evergreen.json"), {});
+  const t = topics.find((x) => !state.evergreenDone.includes(x.id));
+  if (!t) return;
+  state.lastEvergreen = Date.now();
+  state.evergreenDone.push(t.id);
+  try {
+    const api = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(t.wiki)}`;
+    const d = JSON.parse(await fetchText(api));
+    const page = Object.values((d.query && d.query.pages) || {})[0] || {};
+    const text = (page.extract || "").slice(0, 14000);
+    if (text.length < 800) throw new Error("λίγο κείμενο στη Wikipedia");
+    const url = `https://en.wikipedia.org/wiki/${encodeURIComponent((page.title || t.wiki).replace(/ /g, "_"))}`;
+    const item = { id: "eg-" + t.id, url, title: page.title || t.wiki, summary: "", text, sourceName: `Wikipedia – ${page.title || t.wiki}`, official: false, sectionHint: t.section };
+    const pick = { section: t.section, sensitive: false, breaking: false };
+    const r = await write(item, pick, { instruction: `This is an EVERGREEN GUIDE, not breaking news. Angle: ${t.angle} Do not describe anything as happening "today" or "this week". Use only facts from the source. Section must be "${t.section}".` });
+    if (r.issues.length) { reject(item.title, "Οδηγός: " + r.issues.join("; ")); return; }
+    r.draft.section = t.section; r.draft.breaking = false;
+    await publish(r.draft, item, pick, r.text);
+    log("📘 οδηγός:", t.id);
+  } catch (e) { if (!aiQuotaHit()) reject(t.wiki, "Οδηγός: " + e.message); }
+}
+
 /* ================= Φωτογραφίες σε παλαιότερα άρθρα ================= */
 // Όταν υπάρχει κλειδί Pexels, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
 async function backfillPhotos() {
@@ -368,6 +403,7 @@ async function backfillPhotos() {
       if (aiQuotaHit()) { state.seen[p.item.id] = 0; delete state.seen[p.item.id]; continue; } // θα ξαναδοκιμαστεί
       try { await handlePick(p); } catch (e) { if (aiQuotaHit()) { delete state.seen[p.item.id]; continue; } reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
     }
+    await evergreen();
     if (env.UPDATE_CHECK !== "0") await updates();
   } catch (e) {
     if (aiQuotaHit()) { log("Τελείωσε το δωρεάν ημερήσιο όριο AI – συνέχεια στην επόμενη εκτέλεση."); return; }

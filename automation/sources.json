@@ -1,17 +1,172 @@
 {
-  "_note": "Λίστα πηγών. type: rss | html | usgs. official=true: επίσημη πηγή. emergency=true: έκτακτα (δημοσιεύονται αμέσως μόνο από επίσημη πηγή). include: λέξεις-κλειδιά (regex) για φιλτράρισμα. enabled=false: απενεργοποιημένη. Έλεγχος όλων: npm run check-sources",
+  "_note": "Λίστα πηγών. type: rss | html | usgs. official=true: επίσημη πηγή. emergency=true: έκτακτα (δημοσιεύονται αμέσως μόνο από επίσημη πηγή). include / exclude: λέξεις-κλειδιά (regex) για φιλτράρισμα. enabled=false: απενεργοποιημένη. Έλεγχος όλων: npm run check-sources",
   "sources": [
-    { "id": "pm", "name": "Πρωθυπουργός (primeminister.gr)", "type": "rss", "url": "https://www.primeminister.gr/feed", "lang": "el", "official": true, "section": "politics" },
-    { "id": "minfin", "name": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών", "type": "rss", "url": "https://www.minfin.gov.gr/feed/", "lang": "el", "official": true, "section": "real-estate" },
-    { "id": "migration", "name": "Υπουργείο Μετανάστευσης & Ασύλου", "type": "rss", "url": "https://migration.gov.gr/feed/", "lang": "el", "official": true, "section": "real-estate", "include": "golden|επενδυτ|άδει(α|ες) διαμονής|ψηφιακ|nomad" },
-    { "id": "civilprotection", "name": "Πολιτική Προστασία (civilprotection.gov.gr)", "type": "rss", "url": "https://civilprotection.gov.gr/rss.xml", "lang": "el", "official": true, "emergency": true, "section": "breaking" },
-    { "id": "meteoalarm", "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις", "type": "rss", "url": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-greece", "lang": "en", "official": true, "emergency": true, "section": "breaking", "include": "orange|red" },
-    { "id": "usgs", "name": "USGS – σεισμοί στην Ελλάδα (M4.5+)", "type": "usgs", "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=34&maxlatitude=42&minlongitude=19&maxlongitude=30&minmagnitude=4.5&orderby=time&limit=10", "lang": "en", "official": true, "emergency": true, "section": "breaking" },
-    { "id": "il-embassy", "name": "Πρεσβεία του Ισραήλ στην Αθήνα", "type": "html", "url": "https://embassies.gov.il/greece/en/announcements", "linkPattern": "/greece/", "lang": "en", "official": true, "section": "israelis" },
-    { "id": "kis", "name": "Κεντρικό Ισραηλιτικό Συμβούλιο Ελλάδος", "type": "html", "url": "https://kis.gr/", "linkPattern": "kis\\.gr/.+", "lang": "el", "official": true, "section": "jewish-greece", "enabled": false },
-    { "id": "ert", "name": "ΕΡΤ (ertnews.gr)", "type": "rss", "url": "https://www.ertnews.gr/feed/", "lang": "el", "official": false, "section": "politics", "include": "ισραήλ|ισραηλ|ακίνητ|golden|airbnb|βραχυχρόνι|ενοίκι|φωτιά|πυρκαγι|σεισμ|απεργ|ΦΕΚ|τουρισ|πτήσ" },
-    { "id": "gtp", "name": "GTP Headlines", "type": "rss", "url": "https://news.gtp.gr/feed/", "lang": "en", "official": false, "section": "travel" },
-    { "id": "toi-greece", "name": "The Times of Israel – Greece", "type": "rss", "url": "https://www.timesofisrael.com/topic/greece/feed/", "lang": "en", "official": false, "section": "israelis" },
-    { "id": "amna", "name": "ΑΠΕ-ΜΠΕ (συνδρομή)", "type": "rss", "url": "", "lang": "el", "official": true, "section": "politics", "enabled": false }
+    {
+      "id": "pm",
+      "name": "Πρωθυπουργός (primeminister.gr)",
+      "type": "rss",
+      "url": "https://www.primeminister.gr/feed",
+      "lang": "el",
+      "official": true,
+      "section": "politics"
+    },
+    {
+      "id": "minfin",
+      "name": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+      "type": "rss",
+      "url": "https://www.minfin.gov.gr/feed/",
+      "lang": "el",
+      "official": true,
+      "section": "real-estate"
+    },
+    {
+      "id": "migration",
+      "name": "Υπουργείο Μετανάστευσης & Ασύλου",
+      "type": "rss",
+      "url": "https://migration.gov.gr/feed/",
+      "lang": "el",
+      "official": true,
+      "section": "real-estate",
+      "include": "golden|επενδυτ|άδει(α|ες) διαμονής|ψηφιακ|nomad"
+    },
+    {
+      "id": "civilprotection",
+      "name": "Πολιτική Προστασία (civilprotection.gov.gr)",
+      "type": "rss",
+      "url": "https://civilprotection.gov.gr/rss.xml",
+      "lang": "el",
+      "official": true,
+      "emergency": true,
+      "section": "breaking"
+    },
+    {
+      "id": "meteoalarm",
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "type": "rss",
+      "url": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-greece",
+      "lang": "en",
+      "official": true,
+      "emergency": true,
+      "section": "breaking",
+      "include": "orange|red"
+    },
+    {
+      "id": "usgs",
+      "name": "USGS – σεισμοί στην Ελλάδα (M4.5+)",
+      "type": "usgs",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=34&maxlatitude=42&minlongitude=19&maxlongitude=30&minmagnitude=4.5&orderby=time&limit=10",
+      "lang": "en",
+      "official": true,
+      "emergency": true,
+      "section": "breaking"
+    },
+    {
+      "id": "il-embassy",
+      "name": "Πρεσβεία του Ισραήλ στην Αθήνα",
+      "type": "html",
+      "url": "https://embassies.gov.il/greece/en/announcements",
+      "linkPattern": "/greece/",
+      "lang": "en",
+      "official": true,
+      "section": "israelis"
+    },
+    {
+      "id": "kis",
+      "name": "Κεντρικό Ισραηλιτικό Συμβούλιο Ελλάδος",
+      "type": "html",
+      "url": "https://kis.gr/",
+      "linkPattern": "kis\\.gr/.+",
+      "lang": "el",
+      "official": true,
+      "section": "jewish-greece",
+      "enabled": false
+    },
+    {
+      "id": "ert",
+      "name": "ΕΡΤ (ertnews.gr)",
+      "type": "rss",
+      "url": "https://www.ertnews.gr/feed/",
+      "lang": "el",
+      "official": false,
+      "section": "politics",
+      "include": "ισραήλ|ισραηλ|ακίνητ|golden|airbnb|βραχυχρόνι|ενοίκι|φωτιά|πυρκαγι|σεισμ|απεργ|ΦΕΚ|τουρισ|πτήσ"
+    },
+    {
+      "id": "gtp",
+      "name": "GTP Headlines",
+      "type": "rss",
+      "url": "https://news.gtp.gr/feed/",
+      "lang": "en",
+      "official": false,
+      "section": "travel"
+    },
+    {
+      "id": "toi-greece",
+      "name": "The Times of Israel – Greece",
+      "type": "rss",
+      "url": "https://www.timesofisrael.com/topic/greece/feed/",
+      "lang": "en",
+      "official": false,
+      "section": "israelis"
+    },
+    {
+      "id": "amna",
+      "name": "ΑΠΕ-ΜΠΕ (συνδρομή)",
+      "type": "rss",
+      "url": "",
+      "lang": "el",
+      "official": true,
+      "section": "politics",
+      "enabled": false
+    },
+    {
+      "id": "ktg",
+      "name": "Keep Talking Greece",
+      "type": "rss",
+      "url": "https://www.keeptalkinggreece.com/feed/",
+      "lang": "en",
+      "official": false,
+      "section": "politics"
+    },
+    {
+      "id": "gct",
+      "name": "Greek City Times",
+      "type": "rss",
+      "url": "https://greekcitytimes.com/feed/",
+      "lang": "en",
+      "official": false,
+      "section": "politics",
+      "exclude": "football|soccer|basketball|eurovision|celebrity|horoscope|recipe"
+    },
+    {
+      "id": "ingr",
+      "name": "in.gr",
+      "type": "rss",
+      "url": "https://www.in.gr/feed/",
+      "lang": "el",
+      "official": false,
+      "section": "politics",
+      "include": "ισραήλ|ισραηλ|εβρα|ακίνητ|ενοίκ|golden|airbnb|βραχυχρόνι|στεγαστ|φωτιά|πυρκαγι|σεισμ|κακοκαιρ|έκρηξ|απεργ|στάση εργασίας|μετρό|πτήσ|αεροδρόμ|τουρισ|κρουαζ|ακρίβεια|ΦΕΚ|νομοσχέδι|φορολογ|ΕΝΦΙΑ|Πλάκα|Ακρόπολ"
+    },
+    {
+      "id": "naftemporiki",
+      "name": "Ναυτεμπορική",
+      "type": "rss",
+      "url": "https://www.naftemporiki.gr/feed/",
+      "lang": "el",
+      "official": false,
+      "section": "politics",
+      "include": "ισραήλ|ισραηλ|ακίνητ|ενοίκ|golden|airbnb|βραχυχρόνι|στεγαστ|φωτιά|πυρκαγι|σεισμ|κακοκαιρ|έκρηξ|απεργ|πτήσ|τουρισ|ΦΕΚ|νομοσχέδι|φορολογ|ΕΝΦΙΑ|επενδ"
+    },
+    {
+      "id": "ynet-greece",
+      "name": "Ynetnews",
+      "type": "rss",
+      "url": "https://www.ynetnews.com/Integration/StoryRss3082.xml",
+      "lang": "en",
+      "official": false,
+      "section": "israelis",
+      "include": "greece|greek|athens|crete|rhodes|thessaloniki|mykonos|santorini|corfu|cyprus"
+    }
   ]
 }

@@ -33,7 +33,10 @@ Articles we already published recently (avoid duplicates):
 ${recentTitles.slice(0, 40).join("\n") || "(none)"}
 
 We can publish at most ${remaining} more articles now.
-For each item worth an article for our audience, return an object. Skip minor, local-only, duplicate or irrelevant items.
+For each item worth an article for our audience, return an object.
+Be generous: our readers want a full picture of what is happening in Greece. PUBLISH items about: public safety and accidents in tourist areas, weather warnings, fires, earthquakes, strikes and transport, flights and airports, tourism and culture/events, prices and cost of living, the economy, national politics and government decisions, property and housing, anything involving Israel, Israelis or Jews, and notable news about Greek islands and cities.
+SKIP only: sports results, celebrity gossip, lifestyle/health tips, horoscopes, minor local crime, foreign news not about Greece, and duplicates of stories we already published (same event).
+If several items cover the same event, pick the most informative one only.
 Return JSON: {"picks":[{"id":"...","section":"one of: ${SECTIONS.map((s) => s.slug).join("|")}","priority":1-10,"sensitive":true|false,"breaking":true|false,"reason":"short"}]}
 - sensitive=true for: Israel and politics, protests, negative events involving Israelis, accusations against people, new laws/amounts/taxes/visa rules.
 - breaking=true only for fires, earthquakes, severe weather warnings, major strikes/transport disruption, public safety alerts.
