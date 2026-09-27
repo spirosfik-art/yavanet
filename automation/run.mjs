@@ -349,9 +349,12 @@ async function updates() {
 async function evergreen() {
   if (env.EVERGREEN === "0" || aiQuotaHit()) return;
   if (now.hour < 8 || now.hour > 21) return;
-  const target = Math.floor((MIN_PER_DAY * (now.hour - 7)) / 14); // σταδιακός στόχος μέσα στη μέρα
-  if (state.today.count >= target) return;
-  if (state.lastEvergreen && Date.now() - state.lastEvergreen < 50 * 60e3) return; // το πολύ ~1 την ώρα
+  if (state.today.count >= MAX_PER_DAY) return;
+  // Οδηγός μόνο όταν έχει περάσει πάνω από ~1 ώρα χωρίς νέο άρθρο
+  const lastPub = Math.max(0, ...loadArticles().filter((a) => !a.hidden).map((a) => Date.parse(a.publishedAt) || 0));
+  const GAP = Number(env.EVERGREEN_GAP_MIN || 60) * 60e3;
+  if (Date.now() - lastPub < GAP) return;
+  if (state.lastEvergreen && Date.now() - state.lastEvergreen < GAP) return;
   state.evergreenDone ||= [];
   const { topics = [] } = readJSON(path.join(ROOT, "automation/evergreen.json"), {});
   const t = topics.find((x) => !state.evergreenDone.includes(x.id));
