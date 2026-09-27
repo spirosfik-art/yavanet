@@ -240,6 +240,16 @@ export function pushBox(lang, big = false) {
   return `<div class="widget pushbox${big ? " big" : ""}"><h4>${he ? "🚨 התראות למטיילים" : "🚨 Traveller alerts"}</h4><p class="small">${he ? "שביתה בטיסות או במעבורות? שריפה או מזג אוויר קשה? נשלח התראה ישר לטלפון. בלי אפליקציה, בחינם." : "Flight or ferry strike? Fire or severe weather? We send an alert straight to your phone. No app, free."}</p><button type="button" class="btn gold" data-push>${he ? "🔔 קבלו התראה על שביתות ומבזקים" : "🔔 Get alerts for strikes and breaking news"}</button></div>`;
 }
 
+export function partners(lang) {
+  const he = lang === "he";
+  return `<div class="partners" aria-label="${he ? "שותפים" : "Partners"}">
+  <span class="plbl">${he ? "שותפים" : "Partners"}</span>
+  <a class="pcard p-sf" href="${P(lang, "/advisor/")}"><span class="pk">${he ? "נדל״ן ביוון" : "Property in Greece"}</span><b>${he ? "קונים דירה ביוון? מלווים אתכם בעברית" : "Buying in Greece? Guidance in Hebrew"}</b><small>${he ? "חיפוש, עורך דין, נוטריון, השכרה וניהול" : "Search, lawyer, notary, rental & management"}</small><img src="/sf-logo-light.png" width="900" height="142" alt="S.F. Properties" loading="lazy"><span class="pgo">${he ? "לשיחה עם יועץ ←" : "Talk to an adviser →"}</span></a>
+  <a class="pcard p-yana" href="https://yallayana.netlify.app" target="_blank" rel="noopener sponsored"><span class="pk">${he ? "טיולים באתונה" : "Athens tours"}</span><b>${he ? "מטיילים באתונה עם יאנה" : "Athens with Yana"}</b><small>${he ? "טיולי יום, טברנות, יאכטה, אוכל כשר והסעות. הכול בעברית." : "Day tours, tavernas, yacht, kosher food and transfers, in Hebrew."}</small><span class="pgo">${he ? "לפרטים והזמנה ←" : "Details & booking →"}</span></a>
+  <a class="pcard p-you" href="mailto:${SITE.ad.email}?subject=${encodeURIComponent(he ? "פרסום ביוונט" : "Advertising on Yavanet")}"><b>${he ? "העסק שלכם כאן?" : "Your business here?"}</b><small>${he ? "הגיעו לישראלים שמתכננים טיול, מעבר או השקעה ביוון." : "Reach Israelis planning a trip, move or investment in Greece."}</small><span class="pgo">${he ? "פרסמו ביוונט ←" : "Advertise on Yavanet →"}</span></a>
+</div>`;
+}
+
 export function widgets(lang, mostRead, noPush = false) {
   const t = T[lang];
   return `<div class="side">
@@ -248,6 +258,7 @@ export function widgets(lang, mostRead, noPush = false) {
   <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>
   <div class="widget"><h4>${esc(t.shabbat)}</h4><div class="rows" id="w-shabbat">${esc(t.loading)}</div><div class="small">Hebcal</div></div>
+  ${partners(lang)}
 </div>`;
 }
 
