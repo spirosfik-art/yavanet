@@ -122,91 +122,94 @@
     "4aaa79708599": 1790549304933,
     "84e8b8e9290f": 1790550057966,
     "e26ffdff9b56": 1790550057966,
-    "5dcaabf0523f": 1790550057966
+    "5dcaabf0523f": 1790550057966,
+    "e59743683d88": 1790551266191,
+    "ce19a9234fad": 1790551266191,
+    "aa57b604ca2b": 1790551266191
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T23:00:49.278Z",
+      "at": "2026-09-27T23:20:55.445Z",
       "error": "HTTP 403",
-      "fails": 116
+      "fails": 117
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T23:00:51.202Z",
-      "items": 10
+      "at": "2026-09-27T23:20:56.226Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T23:00:51.807Z",
+      "at": "2026-09-27T23:20:57.108Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T23:00:52.583Z",
+      "at": "2026-09-27T23:20:58.267Z",
       "error": "HTTP 403",
-      "fails": 116
+      "fails": 117
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T23:00:53.500Z",
+      "at": "2026-09-27T23:20:59.643Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T23:00:54.020Z",
+      "at": "2026-09-27T23:21:00.056Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T23:00:54.889Z",
+      "at": "2026-09-27T23:21:01.468Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T23:00:55.429Z",
+      "at": "2026-09-27T23:21:02.404Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T23:00:56.149Z",
+      "at": "2026-09-27T23:21:03.536Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T23:00:56.187Z",
+      "at": "2026-09-27T23:21:03.588Z",
       "error": "HTTP 403",
-      "fails": 116
+      "fails": 117
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T23:00:56.722Z",
+      "at": "2026-09-27T23:21:04.214Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T23:00:56.917Z",
+      "at": "2026-09-27T23:21:04.489Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T23:00:56.985Z",
+      "at": "2026-09-27T23:21:05.182Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T23:00:57.121Z",
+      "at": "2026-09-27T23:21:05.390Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T23:00:57.336Z",
+      "at": "2026-09-27T23:21:05.438Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T23:00:52.309Z",
+      "at": "2026-09-27T23:20:58.010Z",
       "items": 30
     }
   },
@@ -232,13 +235,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T23:00:57.966Z",
+    "at": "2026-09-27T23:21:06.191Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | New Chapter For Historic Friendship Between Greece and Algeria",
-      "· gct | Greece Prepares for First Space Mission with Greek Astronaut",
-      "· gct | Beloved Greek Actress Eleni Prokopiou Dies at 87"
+      "· gct | Thessaloniki Honours Greece’s First Governor Ioannis Kapodistrias",
+      "· gct | Greece Strengthens Journalist Safety with National Plan",
+      "· gct | What Would a Greek Pre-Emptive Strike Against Turkey Mean?"
     ]
   },
   "evergreenDone": [
