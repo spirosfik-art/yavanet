@@ -119,91 +119,94 @@
     "3eb5562c33f0": 1790548546034,
     "2d7e636471b3": 1790548546034,
     "70dfa9b2fef0": 1790549304933,
-    "4aaa79708599": 1790549304933
+    "4aaa79708599": 1790549304933,
+    "84e8b8e9290f": 1790550057966,
+    "e26ffdff9b56": 1790550057966,
+    "5dcaabf0523f": 1790550057966
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T22:48:15.616Z",
+      "at": "2026-09-27T23:00:49.278Z",
       "error": "HTTP 403",
-      "fails": 115
+      "fails": 116
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T22:48:17.670Z",
+      "at": "2026-09-27T23:00:51.202Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T22:48:18.322Z",
+      "at": "2026-09-27T23:00:51.807Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T22:48:19.287Z",
+      "at": "2026-09-27T23:00:52.583Z",
       "error": "HTTP 403",
-      "fails": 115
+      "fails": 116
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T22:48:20.193Z",
+      "at": "2026-09-27T23:00:53.500Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T22:48:20.440Z",
+      "at": "2026-09-27T23:00:54.020Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T22:48:21.225Z",
+      "at": "2026-09-27T23:00:54.889Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T22:48:21.872Z",
+      "at": "2026-09-27T23:00:55.429Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T22:48:22.725Z",
+      "at": "2026-09-27T23:00:56.149Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T22:48:22.798Z",
+      "at": "2026-09-27T23:00:56.187Z",
       "error": "HTTP 403",
-      "fails": 115
+      "fails": 116
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T22:48:23.228Z",
+      "at": "2026-09-27T23:00:56.722Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T22:48:23.301Z",
+      "at": "2026-09-27T23:00:56.917Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T22:48:23.884Z",
+      "at": "2026-09-27T23:00:56.985Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T22:48:24.022Z",
+      "at": "2026-09-27T23:00:57.121Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T22:48:24.108Z",
+      "at": "2026-09-27T23:00:57.336Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T22:48:19.082Z",
+      "at": "2026-09-27T23:00:52.309Z",
       "items": 30
     }
   },
@@ -229,12 +232,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T22:48:24.933Z",
-    "considered": 2,
+    "at": "2026-09-27T23:00:57.966Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | All Victims of Athens Apartment Explosion Identified",
-      "· gct | Thessaloniki and Bucharest Plan New Tourism Cooperation Deal"
+      "· gct | New Chapter For Historic Friendship Between Greece and Algeria",
+      "· gct | Greece Prepares for First Space Mission with Greek Astronaut",
+      "· gct | Beloved Greek Actress Eleni Prokopiou Dies at 87"
     ]
   },
   "evergreenDone": [
