@@ -42,12 +42,13 @@ const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganizatio
 function feedData(lang) {
   const k = (a) => sec(a.section)[lang];
   const url = (a) => P(lang, "/a/" + a.slug + "/");
+  const ph = (a) => (a.image && a.image.type === "photo" && a.image.url) ? { img: a.image.url, credit: a.image.credit || "" } : {};
   const re = bySection("real-estate"), isr = bySection("israelis"), brk = articles.filter((a) => a.breaking);
   const stories = [
-    { title: T[lang].storyToday, art: "sun", slides: articles.slice(0, 5).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a) })) },
-    { title: sec("real-estate")[lang], art: "house", slides: re.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].tldr[0], url: url(a) })) },
-    { title: sec("breaking")[lang], art: "fire", slides: brk.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a) })) },
-    { title: sec("israelis")[lang], art: "people", slides: isr.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a) })) },
+    { title: T[lang].storyToday, art: "sun", slides: articles.slice(0, 5).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
+    { title: sec("real-estate")[lang], art: "house", slides: re.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].tldr[0], url: url(a), ...ph(a) })) },
+    { title: sec("breaking")[lang], art: "fire", slides: brk.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
+    { title: sec("israelis")[lang], art: "people", slides: isr.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
   ].filter((s) => s.slides.length);
   return { stories, feed: articles.slice(0, 20).map((a) => ({ kicker: k(a), title: a[lang].title, dek: a[lang].dek, url: url(a), art: artHTML(a, lang) })) };
 }
