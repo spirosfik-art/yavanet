@@ -1,1 +1,78 @@
-[]
+[
+ {
+  "cat": "realestate",
+  "name": "S.F. Properties",
+  "featured": true,
+  "hebrew": true,
+  "city": {
+   "he": "אתונה",
+   "en": "Athens"
+  },
+  "he": "קנייה, השכרה וניהול נכסים ביוון, עם ליווי בעברית מהחיפוש ועד המפתח.",
+  "en": "Buying, renting and managing property in Greece, with Hebrew-speaking support from search to keys.",
+  "url": "mailto:info@sfproperties.gr",
+  "urlLabel": "info@sfproperties.gr",
+  "address": "P. P. Germanou 77, Filothei"
+ },
+ {
+  "cat": "jewish",
+  "name": "Chabad of Greece (חב״ד אתונה)",
+  "city": {
+   "he": "אתונה",
+   "en": "Athens"
+  },
+  "he": "בית חב״ד באתונה, ליד מונסטיראקי. תפילות, ארוחות שבת וחגים. בבניין גם מסעדה כשרה ומכולת כשרה.",
+  "en": "Chabad House in Athens, near Monastiraki. Prayers, Shabbat and holiday meals. The building also has a kosher restaurant and grocery.",
+  "address": "Aisopou 10, Psiri, Athens",
+  "phone": "+30 210 323 3825",
+  "url": "https://www.chabad.gr"
+ },
+ {
+  "cat": "kosher",
+  "name": "Gostijo",
+  "city": {
+   "he": "אתונה",
+   "en": "Athens"
+  },
+  "he": "מסעדה כשרה במרכז אתונה, בבניין של בית חב״ד.",
+  "en": "Kosher restaurant in central Athens, in the Chabad House building.",
+  "address": "Aisopou 10, Psiri, Athens",
+  "url": "https://www.chabad.gr"
+ },
+ {
+  "cat": "jewish",
+  "name": "Chabad of Rhodes (חב״ד רודוס)",
+  "city": {
+   "he": "רודוס",
+   "en": "Rhodes"
+  },
+  "he": "בית חב״ד ברודוס: ארוחות שבת בהרשמה מראש, קייטרינג לשבת ולחגים, תפילות. במקום גם מסעדה בשרית כשרה.",
+  "en": "Chabad House in Rhodes: Shabbat meals with advance registration, Shabbat and holiday catering, prayers. Kosher meat restaurant on site.",
+  "address": "Leof. Iraklidon 84, Ialysos, Rhodes",
+  "phone": "+30 694 848 8761",
+  "url": "https://chabadrhodes.com/en/"
+ },
+ {
+  "cat": "jewish",
+  "name": "Beth Shalom Synagogue",
+  "city": {
+   "he": "אתונה",
+   "en": "Athens"
+  },
+  "he": "בית הכנסת המרכזי של הקהילה היהודית באתונה.",
+  "en": "The main synagogue of the Jewish Community of Athens.",
+  "address": "Melidoni 5, Athens"
+ },
+ {
+  "cat": "culture",
+  "name": "Jewish Museum of Greece",
+  "city": {
+   "he": "אתונה",
+   "en": "Athens"
+  },
+  "he": "המוזיאון היהודי של יוון: תערוכות על ההיסטוריה והתרבות של יהודי יוון.",
+  "en": "The Jewish Museum of Greece: exhibitions on the history and culture of Greek Jews.",
+  "address": "Nikis 39, Athens",
+  "url": "https://www.jewishmuseum.gr"
+ }
+]

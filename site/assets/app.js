@@ -96,6 +96,7 @@
   /* ---------- Clicks ---------- */
   document.addEventListener("click", function (e) {
     var el = e.target.closest("button, a"); if (!el) return;
+    if (el.hasAttribute("data-push")) { e.preventDefault(); return togglePush(); }
     if (el.hasAttribute("data-feed")) { e.preventDefault(); return openFeed(); }
     if (el.hasAttribute("data-close-feed")) return closeFeed();
     if (el.hasAttribute("data-story")) return openStory(parseInt(el.getAttribute("data-story"), 10));
@@ -247,6 +248,41 @@
       pts.forEach(function (p) { window.L.circleMarker([p.lat, p.lng], { radius: 9, color: "#D7263D", fillOpacity: .7 }).addTo(m).bindPopup('<a href="' + p.url + '">' + esc(p.title) + "</a>"); });
     };
     document.body.appendChild(js);
+  }
+
+  /* ---------- Ειδοποιήσεις στο κινητό (Web Push) ---------- */
+  var PT = C.lang === "he"
+    ? { on: "🔔 קבלו התראה על שביתות ומבזקים", active: "✅ ההתראות פעילות", ok: "מעולה! נשלח התראה כשיש שביתה או מבזק חשוב.", off: "ההתראות בוטלו.", denied: "ההתראות חסומות בדפדפן. אפשר לאשר אותן בהגדרות האתר.", ios: "באייפון: לחצו על כפתור השיתוף ← «הוספה למסך הבית», פתחו את יוונט מהמסך הבית ואז הפעילו התראות.", fail: "לא הצלחנו להפעיל התראות כרגע. נסו שוב מאוחר יותר." }
+    : { on: "🔔 Get alerts for strikes and breaking news", active: "✅ Alerts are on", ok: "Done! We will alert you about strikes and important breaking news.", off: "Alerts turned off.", denied: "Notifications are blocked in your browser. You can allow them in the site settings.", ios: "On iPhone: tap Share → “Add to Home Screen”, open Yavanet from the home screen, then turn on alerts.", fail: "Could not turn on alerts right now. Please try again later." };
+  var pushOK = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var standalone = window.navigator.standalone || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+  function pushLabel(active) { document.querySelectorAll("[data-push]").forEach(function (b) { b.textContent = active ? PT.active : PT.on; b.classList.toggle("on", !!active); }); }
+  function b64ToU8(s) { s = s.replace(/-/g, "+").replace(/_/g, "/"); var raw = atob(s + "===".slice((s.length + 3) % 4)); var a = new Uint8Array(raw.length); for (var i = 0; i < raw.length; i++) a[i] = raw.charCodeAt(i); return a; }
+  function pushState() { if (!pushOK) return Promise.resolve(null); return navigator.serviceWorker.getRegistration().then(function (r) { return r ? r.pushManager.getSubscription() : null; }).catch(function () { return null; }); }
+  function togglePush() {
+    if (isIOS && !standalone && !pushOK) return toast(PT.ios);
+    if (!pushOK) return toast(PT.fail);
+    pushState().then(function (sub) {
+      if (sub) {
+        return fetch("/api/push", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "unsubscribe", subscription: sub.toJSON() }) })
+          .then(function () { return sub.unsubscribe(); }).then(function () { pushLabel(false); toast(PT.off); track("push_off"); });
+      }
+      return Notification.requestPermission().then(function (perm) {
+        if (perm !== "granted") { toast(PT.denied); return; }
+        return Promise.all([navigator.serviceWorker.register("/sw.js").then(function () { return navigator.serviceWorker.ready; }), fetch("/api/push?key=1").then(function (r) { return r.json(); })])
+          .then(function (res) {
+            if (!res[1] || !res[1].key) throw new Error("no key");
+            return res[0].pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToU8(res[1].key) });
+          })
+          .then(function (s) { return fetch("/api/push", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "subscribe", subscription: s.toJSON(), lang: C.lang }) }); })
+          .then(function (r) { if (!r.ok) throw new Error("save"); pushLabel(true); toast(PT.ok); track("push_on"); });
+      });
+    }).catch(function () { toast(PT.fail); });
+  }
+  if (document.querySelector("[data-push]")) {
+    if (!pushOK && !isIOS) document.querySelectorAll("[data-push]").forEach(function (b) { b.hidden = true; });
+    else pushState().then(function (s) { pushLabel(!!s); });
   }
 
   /* ---------- PWA ---------- */

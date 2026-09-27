@@ -273,3 +273,54 @@ export function overlapRatio(a, b) {
   let hit = 0; for (const x of A) if (B.has(x)) hit++;
   return hit / A.size;
 }
+
+/* ---------- Ειδοποιήσεις στο κινητό (Web Push, χωρίς περιεχόμενο + VAPID) ---------- */
+// Το ζεύγος κλειδιών VAPID παράγεται σταθερά από το TELEGRAM_BOT_TOKEN, ώστε να μη χρειάζεται νέο μυστικό.
+const b64u = (buf) => Buffer.from(buf).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+export function vapidKeys() {
+  const token = (env.TELEGRAM_BOT_TOKEN || "").trim();
+  if (!token) return null;
+  const d = crypto.createHash("sha256").update("yavanet:vapid:" + token).digest();
+  const ecdh = crypto.createECDH("prime256v1"); ecdh.setPrivateKey(d);
+  const pub = ecdh.getPublicKey(); // 65 bytes
+  const key = crypto.createPrivateKey({ key: { kty: "EC", crv: "P-256", d: b64u(d), x: b64u(pub.subarray(1, 33)), y: b64u(pub.subarray(33)) }, format: "jwk" });
+  return { key, publicKey: b64u(pub) };
+}
+function vapidAuth(endpoint, keys) {
+  const header = b64u(JSON.stringify({ typ: "JWT", alg: "ES256" }));
+  const claims = b64u(JSON.stringify({ aud: new URL(endpoint).origin, exp: Math.floor(Date.now() / 1000) + 12 * 3600, sub: "mailto:info@sfproperties.gr" }));
+  const sig = crypto.sign("sha256", Buffer.from(header + "." + claims), { key: keys.key, dsaEncoding: "ieee-p1363" });
+  return `vapid t=${header}.${claims}.${b64u(sig)}, k=${keys.publicKey}`;
+}
+async function pushApi(site, body) {
+  const secret = crypto.createHash("sha256").update("yavanet:push:" + env.TELEGRAM_BOT_TOKEN.trim()).digest("hex").slice(0, 48);
+  const r = await fetch(site.replace(/\/$/, "") + "/api/push", { method: "POST", headers: { "content-type": "application/json", "x-push-secret": secret }, body: JSON.stringify(body) });
+  return r.json().catch(() => ({ ok: false, status: r.status }));
+}
+// Δημοσιεύει το δημόσιο κλειδί (μία φορά) – το χρειάζεται ο browser για την εγγραφή
+export async function pushSetup(site) {
+  const k = vapidKeys(); if (!k || DRY) return null;
+  const r = await pushApi(site, { action: "set-key", key: k.publicKey });
+  return r.ok ? k.publicKey : null;
+}
+// message: { he:{title,body,url}, en:{title,body,url}, tag }
+export async function pushSend(site, message) {
+  const k = vapidKeys(); if (!k) return { sent: 0 };
+  if (DRY) { log("[dry] push", message.he.title); return { sent: 0 }; }
+  const set = await pushApi(site, { action: "set-latest", message });
+  if (!set.ok) { log("push: αποτυχία set-latest", JSON.stringify(set)); return { sent: 0 }; }
+  const list = await pushApi(site, { action: "list" });
+  const subs = list.subs || [], dead = [];
+  let sent = 0;
+  for (const s of subs) {
+    try {
+      const r = await fetch(s.endpoint, { method: "POST", headers: { TTL: "43200", Urgency: "high", Authorization: vapidAuth(s.endpoint, k), "Content-Length": "0" } });
+      if (r.status === 404 || r.status === 410) dead.push(s.id);
+      else if (r.ok) sent++;
+      else log("push", r.status, (await r.text()).slice(0, 120));
+    } catch (e) { log("push σφάλμα", e.message); }
+  }
+  if (dead.length) await pushApi(site, { action: "remove", ids: dead });
+  log(`🔔 push: ${sent}/${subs.length} (${dead.length} ληγμένα)`);
+  return { sent, total: subs.length };
+}

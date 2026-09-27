@@ -18,3 +18,28 @@ self.addEventListener("fetch", (e) => {
     return m || net;
   }));
 });
+
+// Ειδοποιήσεις (Web Push): η ειδοποίηση έρχεται χωρίς περιεχόμενο, το κείμενο το ζητάμε από το site
+self.addEventListener("push", (e) => {
+  e.waitUntil((async () => {
+    let m = null;
+    try {
+      const sub = await self.registration.pushManager.getSubscription();
+      const r = await fetch("/api/push?latest=1" + (sub ? "&ep=" + encodeURIComponent(sub.endpoint) : ""), { cache: "no-store" });
+      m = await r.json();
+    } catch (err) { }
+    const he = !m || /[֐-׿]/.test(m.title || "");
+    return self.registration.showNotification((m && m.title) || "יוונט", {
+      body: (m && m.body) || "", icon: "/icon-192.png", badge: "/icon-192.png", tag: (m && m.tag) || "yavanet",
+      dir: he ? "rtl" : "ltr", lang: he ? "he" : "en", data: { url: (m && m.url) || "/" },
+    });
+  })());
+});
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = (e.notification.data && e.notification.data.url) || "/";
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((ws) => {
+    for (const w of ws) if (w.url === url && "focus" in w) return w.focus();
+    return self.clients.openWindow(url);
+  }));
+});

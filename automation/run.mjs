@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   ROOT, STATE_FILE, env, DRY, log, sha, readJSON, writeJSON, athensNow, isoAthens, fetchText, parseFeed, mainText, extractLinks,
-  claude, provider, hasAI, aiQuotaHit, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio,
+  claude, provider, hasAI, aiQuotaHit, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio, pushSend, pushSetup,
 } from "./lib.mjs";
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
@@ -238,6 +238,20 @@ async function pickImage(draft) {
   }
   return { type: "illustration", key: key || "sea" };
 }
+// Ειδοποίηση στο κινητό: απεργίες πάντα, έκτακτα από επίσημη πηγή το πολύ 1 ανά 3 ώρες
+async function maybePush(a, item) {
+  const isStrike = !!a.strike, isEmergency = a.breaking && item.official;
+  if (!isStrike && !isEmergency) return;
+  if (!isStrike && state.lastPush && Date.now() - state.lastPush < 3 * 3600e3) return;
+  try {
+    const r = await pushSend(SITE.url, {
+      tag: a.slug,
+      he: { title: (isStrike ? "🚨 " : "🔴 ") + a.he.title, body: (a.strike && a.strike.he) || a.he.dek, url: articleUrl(a) },
+      en: { title: (isStrike ? "🚨 " : "🔴 ") + a.en.title, body: (a.strike && a.strike.en) || a.en.dek, url: articleUrl(a, "en") },
+    });
+    if (r.sent) state.lastPush = Date.now();
+  } catch (e) { log("push", e.message); }
+}
 function normStrike(x) {
   if (!x || typeof x !== "object") return null;
   const dates = (Array.isArray(x.dates) ? x.dates : []).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
@@ -272,6 +286,7 @@ async function publish(draft, item, pick, text) {
   saveArticle(article);
   if (!(article.breaking && item.official) && !article.strike) state.today.count++;
   if (article.strike) await notifyOwner(`🚨 Απεργία: ${article.strike.en}\n${(article.strike.dates || []).join(", ")}\n${articleUrl(article)}`);
+  await maybePush(article, item);
   state.today.published.push({ slug: article.slug, title: article.en.title, at: article.publishedAt, section: article.section });
   log("✓ δημοσιεύθηκε", article.slug);
   await distribute(article);
@@ -442,7 +457,7 @@ async function evergreen() {
     const url = `https://en.wikipedia.org/wiki/${encodeURIComponent((page.title || t.wiki).replace(/ /g, "_"))}`;
     const item = { id: "eg-" + t.id, url, title: page.title || t.wiki, summary: "", text, sourceName: `Wikipedia – ${page.title || t.wiki}`, official: false, sectionHint: t.section };
     const pick = { section: t.section, sensitive: false, breaking: false };
-    const r = await write(item, pick, { instruction: `This is an EVERGREEN GUIDE, not breaking news. Angle: ${t.angle} Do not describe anything as happening "today" or "this week". Use only facts from the source. Section must be "${t.section}".` });
+    const r = await write(item, pick, { instruction: `This is an EVERGREEN GUIDE, not breaking news. Angle: ${t.angle} Do not describe anything as happening "today" or "this week". Use only facts from the source. Section must be "${t.section}".${t.titleHe ? ` The Hebrew title MUST start with "${t.titleHe}" (this is what Israelis type into Google), e.g. "${t.titleHe}: ...". Make this guide longer and richer: 500–800 words per language, with "## " sections such as how to get around, what to see, beaches or neighbourhoods, and tips.` : ""}` });
     if (r.issues.length) { reject(item.title, "Οδηγός: " + r.issues.join("; ")); return; }
     r.draft.section = t.section; r.draft.breaking = false;
     await publish(r.draft, item, pick, r.text);
@@ -474,6 +489,7 @@ async function backfillPhotos() {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
   try {
     await handleTelegram();
+    if (!env.TG_UPDATE && state.pushKey !== "ok") { const k = await pushSetup(SITE.url).catch(() => null); if (k) state.pushKey = "ok"; }
     if (env.TG_UPDATE) return; // γρήγορη εκτέλεση μόνο για την εντολή του ιδιοκτήτη
     // Πρώτη σύνδεση με Telegram: μήνυμα καλωσορίσματος + αποστολή όσων περιμένουν έγκριση
     if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_OWNER_CHAT_ID) {

@@ -294,3 +294,20 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}
 .madad tr.grp th{background:var(--chip);color:var(--ink);font-size:13.5px;padding:8px 12px}
 @media (max-width:640px){.madad td.bar,.madad thead th:last-child,.madad td:nth-child(3),.madad td:nth-child(5),.madad thead th:nth-child(3),.madad thead th:nth-child(5){display:none}.madad th,.madad td{padding:8px 7px;font-size:13px}.madad th{font-size:11px;white-space:normal}}
+.pushbox{background:linear-gradient(135deg,#FFF4DC,#FFE7B3);border-color:#F0C66B}
+.pushbox h4{color:#5A3000}.pushbox .small{color:#6B4A12;margin:4px 0 10px}
+.pushbox .btn{width:100%;justify-content:center}
+.pushbox .btn.on{background:#1F8A4C;color:#fff}
+.pushbox.big{margin-bottom:16px}
+@media (prefers-color-scheme:dark){.pushbox{background:linear-gradient(135deg,#2E220D,#3A2A10);border-color:#6B4A12}.pushbox h4{color:#FFD27A}.pushbox .small{color:#E8D2A6}}
+:root.night .pushbox{background:linear-gradient(135deg,#2E220D,#3A2A10);border-color:#6B4A12}:root.night .pushbox h4{color:#FFD27A}:root.night .pushbox .small{color:#E8D2A6}
+.emnums{display:grid;gap:8px}
+.emnum{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;text-decoration:none;color:var(--ink)}
+.emnum b{font-size:20px;font-weight:900;color:var(--red);min-width:64px;text-align:center}
+.emcases{display:grid;gap:8px}
+.emcase{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.emcase summary{font-weight:800;cursor:pointer;font-size:16px}
+.emcase ul{margin:10px 0 2px;padding-inline-start:20px;display:grid;gap:6px}
+.biz .heb{display:inline-block;margin-top:6px;font-size:12.5px;font-weight:800;background:#E6F4EA;color:#1F6B3A;border-radius:999px;padding:2px 10px}
+.biz .meta a{color:inherit}
+@media (prefers-color-scheme:dark){.biz .heb{background:#16331F;color:#8FD9A8}}

@@ -58,7 +58,7 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
     ? `<button type="button" data-feed>${ICONS[k]}<span>${esc(t.nav[i])}</span></button>`
     : `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
   const chips = SECTIONS.map((s) => `<a href="${P(lang, "/s/" + s.slug + "/")}"${activeSection === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
-  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
+  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ["emergency", lang === "he" ? "🆘 חירום" : "🆘 Emergency"], ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
     .map(([k, label]) => `<a class="chip-x" href="${P(lang, "/" + k + "/")}"${activeSection === k ? ' aria-current="page"' : ""}>${label}</a>`).join("");
   const legal = LEGAL_PAGES.map((p) => `<a href="${P(lang, "/p/" + p + "/")}">${esc(t.legal[p])}</a>`).join("") + `<button type="button" data-cookie-settings>${esc(t.cookieSettings)}</button>`;
   const cfg = { lang, ga4: SITE.ga4Id, clarity: SITE.clarityId, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
@@ -236,9 +236,15 @@ export function yieldBox(lang, regions) {
 </div>`;
 }
 
-export function widgets(lang, mostRead) {
+export function pushBox(lang, big = false) {
+  const he = lang === "he";
+  return `<div class="widget pushbox${big ? " big" : ""}"><h4>${he ? "🚨 התראות למטיילים" : "🚨 Traveller alerts"}</h4><p class="small">${he ? "שביתה בטיסות או במעבורות? שריפה או מזג אוויר קשה? נשלח התראה ישר לטלפון. בלי אפליקציה, בחינם." : "Flight or ferry strike? Fire or severe weather? We send an alert straight to your phone. No app, free."}</p><button type="button" class="btn gold" data-push>${he ? "🔔 קבלו התראה על שביתות ומבזקים" : "🔔 Get alerts for strikes and breaking news"}</button></div>`;
+}
+
+export function widgets(lang, mostRead, noPush = false) {
   const t = T[lang];
   return `<div class="side">
+  ${noPush ? "" : pushBox(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
   <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>

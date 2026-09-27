@@ -2,8 +2,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
-import { GLOBAL, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
+import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
+import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const OUT = path.join(ROOT, "dist");
@@ -194,14 +195,33 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
     const tips = he ? `<section class="means"><h2>טסים או מפליגים ביום שביתה?</h2><ul><li>בדקו מול חברת התעופה או חברת המעבורות אם הטיסה/ההפלגה מתקיימת.</li><li>שביתה של פקחי טיסה או של עובדי נמל יכולה לבטל גם טיסות מישראל.</li><li>בשביתת מטרו או אוטובוסים, צאו לשדה התעופה מוקדם יותר או הזמינו מונית מראש.</li><li>שביתות ביוון מוכרזות בדרך כלל כמה ימים מראש, ולפעמים מבוטלות ברגע האחרון. שווה לבדוק כאן שוב יום קודם.</li></ul></section>` : `<section class="means"><h2>Flying or sailing on a strike day?</h2><ul><li>Check with your airline or ferry company whether your trip is running.</li><li>Air-traffic-control or port strikes can also cancel flights from Israel.</li><li>On metro or bus strike days, leave for the airport earlier or pre-book a taxi.</li><li>Greek strikes are usually announced days in advance and are sometimes called off at the last minute. Check here again the day before.</li></ul></section>`;
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
 <div class="grid"><div class="col">
+${pushBox(lang, true)}
 <section><div class="zone-h"><h2>${he ? "שביתות קרובות" : "Upcoming strikes"}</h2></div>
 ${upcomingStrikes.length ? `<div class="strikes">${upcomingStrikes.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${he ? "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍" : "No announced strikes affecting travellers right now. 👍"}</div>`}
 </section>
 ${tips}
 ${pastStrikes.length ? `<section><div class="zone-h"><h2>${he ? "שביתות אחרונות" : "Recent strikes"}</h2></div><div class="strikes">${pastStrikes.map((a) => item(a, true)).join("")}</div></section>` : ""}
 ${newsletterBox(lang)}
-</div>${widgets(lang, mostRead)}</div>`;
+</div>${widgets(lang, mostRead, true)}</div>`;
     write(P(lang, "/strikes/"), layout({ lang, title, description: intro, path: P(lang, "/strikes/"), altPath: P(he ? "en" : "he", "/strikes/"), body, breaking: breakingNow, activeSection: "strikes" }));
+  }
+
+  /* Έκτακτη ανάγκη: «Μου συνέβη στην Ελλάδα, τι κάνω;» */
+  {
+    const he = lang === "he";
+    const title = he ? "קרה לי משהו ביוון: מה עושים?" : "Something happened in Greece: what do I do?";
+    const intro = he ? "מספרי חירום, שגרירות ישראל ומה עושים כשהדרכון אבד, כשצריך רופא, אחרי תאונה או גניבה. שמרו את הדף בטלפון." : "Emergency numbers, the Israeli Embassy, and what to do if you lose your passport, need a doctor, have an accident or are robbed. Save this page on your phone.";
+    const nums = EM_NUM.map((x) => `<a class="emnum" href="tel:${x.n.replace(/[^+\d]/g, "")}"><b dir="ltr">${esc(x.n)}</b><span>${esc(x[lang])}</span></a>`).join("");
+    const cases = CASES.map((c) => `<details class="emcase"><summary>${c.icon} ${esc(c[lang].t)}</summary><ul>${c[lang].s.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>`).join("");
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+<section><div class="zone-h"><h2>${he ? "מספרי חירום ביוון" : "Emergency numbers in Greece"}</h2></div><div class="emnums">${nums}</div></section>
+<section class="means"><h2>🇮🇱 ${he ? "שגרירות ישראל" : "Israeli Embassy"}</h2><p>${esc(EMBASSY[lang])} <a href="${EMBASSY.url}" target="_blank" rel="noopener">${he ? "טלפונים ושעות פעילות" : "Phones and opening hours"} ↗</a></p></section>
+<section><div class="zone-h"><h2>${he ? "מה עושים אם..." : "What to do if..."}</h2></div><div class="emcases">${cases}</div></section>
+<p class="small">${he ? "מידע כללי שנבדק מול מקורות רשמיים. במצב חירום תמיד חייגו 112." : "General information checked against official sources. In an emergency always call 112."}</p>
+${pushBox(lang, true)}
+</div>${widgets(lang, mostRead, true)}</div>`;
+    write(P(lang, "/emergency/"), layout({ lang, title, description: intro, path: P(lang, "/emergency/"), altPath: P(he ? "en" : "he", "/emergency/"), body, breaking: breakingNow, activeSection: "emergency" }));
   }
 
   /* Δείκτης Yavanet */
@@ -245,7 +265,14 @@ ${newsletterBox(lang)}
   const biz = JSON.parse(fs.readFileSync(path.join(ROOT, "content/businesses.json"), "utf8"));
   const dir = `<div class="page-h"><h1>${esc(t.dirTitle)}</h1><p>${esc(t.dirText)}</p></div>
 <div class="grid"><div class="col">
-<div class="cards">${biz.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)).map((b) => `<div class="card" style="grid-template-columns:1fr"><div>${b.featured ? `<span class="spons">${esc(t.sponsored)}</span>` : ""}<h3>${esc(b.name)}</h3><p>${esc(b[lang] || "")}</p><div class="meta">${esc(b.city || "")}${b.url ? ` · <a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.url.replace(/^https?:\/\//, ""))}</a>` : ""}</div></div></div>`).join("") || `<div class="empty">${esc(t.dirEmpty)}</div>`}</div>
+${(() => {
+  const he = lang === "he";
+  const CAT = { realestate: ["🏠 נדל״ן", "🏠 Real estate"], jewish: ["✡️ קהילה ובתי חב״ד", "✡️ Community & Chabad"], kosher: ["🍽️ אוכל כשר", "🍽️ Kosher food"], culture: ["🏛️ תרבות", "🏛️ Culture"], services: ["🧾 שירותים", "🧾 Services"], health: ["🩺 בריאות", "🩺 Health"], tours: ["🧭 טיולים", "🧭 Tours"] };
+  const order = Object.keys(CAT);
+  const sorted = biz.slice().sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || order.indexOf(a.cat) - order.indexOf(b.cat));
+  const card = (b) => `<div class="card biz" style="grid-template-columns:1fr"><div>${b.featured ? `<span class="spons">${esc(t.sponsored)}</span>` : ""}<span class="kicker">${esc((CAT[b.cat] || CAT.services)[he ? 0 : 1])}${b.city ? " · " + esc(b.city[lang] || "") : ""}</span><h3>${esc(b.name)}</h3><p>${esc(b[lang] || "")}</p>${b.hebrew ? `<span class="heb">🗣️ ${he ? "שירות בעברית" : "Hebrew spoken"}</span>` : ""}<div class="meta">${b.address ? `📍 <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.address)}" target="_blank" rel="noopener">${esc(b.address)}</a>` : ""}${b.phone ? ` · 📞 <a dir="ltr" href="tel:${b.phone.replace(/[^+\d]/g, "")}">${esc(b.phone)}</a>` : ""}${b.url ? ` · <a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.urlLabel || b.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/.*$/, ""))}</a>` : ""}</div></div></div>`;
+  return sorted.length ? `<div class="cards">${sorted.map(card).join("")}</div>` : `<div class="empty">${esc(t.dirEmpty)}</div>`;
+})()}
 ${formBox(lang, { id: "biz", title: t.dirAdd, kind: "business-listing", fields: ["name", "email", "phone", "msg"] })}
 </div>${widgets(lang, mostRead)}</div>`;
   write(P(lang, "/directory/"), layout({ lang, title: t.dirTitle, description: t.dirText, path: P(lang, "/directory/"), altPath: P(lang === "he" ? "en" : "he", "/directory/"), body: dir, breaking: breakingNow }));
@@ -289,7 +316,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 /* Sitemaps */
 const urls = [];
 for (const lang of LANGS) {
-  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/directory/"), P(lang, "/advisor/"));
+  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));

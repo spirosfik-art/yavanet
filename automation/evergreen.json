@@ -1,35 +1,226 @@
 {
-  "_note": "Θέματα για «μόνιμα» άρθρα-οδηγούς όταν δεν υπάρχουν αρκετά νέα. wiki: τίτλος σελίδας στην αγγλική Wikipedia (η πηγή). Προσθέστε/αφαιρέστε ελεύθερα.",
-  "topics": [
-    { "id": "jews-thessaloniki", "section": "jewish-greece", "wiki": "History of the Jews in Thessaloniki", "angle": "A guide for Israeli visitors: the story of Jewish Thessaloniki and what to see today (museum, memorials, synagogues)." },
-    { "id": "jewish-museum-greece", "section": "jewish-greece", "wiki": "Jewish Museum of Greece", "angle": "Visitor guide to the Jewish Museum of Greece in Athens." },
-    { "id": "etz-hayyim", "section": "jewish-greece", "wiki": "Etz Hayyim Synagogue", "angle": "Visitor guide to the Etz Hayyim synagogue in Chania, Crete." },
-    { "id": "kahal-shalom", "section": "jewish-greece", "wiki": "Kahal Shalom Synagogue", "angle": "Visitor guide to Kahal Shalom, the synagogue of Rhodes, and the Jewish quarter." },
-    { "id": "romaniotes", "section": "jewish-greece", "wiki": "Romaniote Jews", "angle": "Who are the Romaniote Jews, the ancient Jewish community of Greece, and where to find their heritage (Ioannina)." },
-    { "id": "jews-corfu", "section": "jewish-greece", "wiki": "History of the Jews in Corfu", "angle": "Jewish heritage in Corfu: history and places to visit." },
-    { "id": "greece-israel", "section": "israelis", "wiki": "Greece–Israel relations", "angle": "An overview of Greece–Israel relations and what they mean for Israelis visiting, living or investing in Greece." },
-    { "id": "naxos", "section": "travel", "wiki": "Naxos", "angle": "Travel guide to Naxos for Israeli families: beaches, villages, food." },
-    { "id": "crete", "section": "travel", "wiki": "Crete", "angle": "Travel guide to Crete: regions, highlights and practical tips for Israeli travellers." },
-    { "id": "rhodes", "section": "travel", "wiki": "Rhodes", "angle": "Travel guide to Rhodes: the Old Town, beaches and practical tips." },
-    { "id": "corfu", "section": "travel", "wiki": "Corfu", "angle": "Travel guide to Corfu for Israeli visitors." },
-    { "id": "meteora", "section": "travel", "wiki": "Meteora", "angle": "A day trip guide to Meteora." },
-    { "id": "nafplio", "section": "travel", "wiki": "Nafplio", "angle": "Weekend guide to Nafplio, one of the prettiest towns in Greece." },
-    { "id": "delphi", "section": "travel", "wiki": "Delphi", "angle": "Day trip from Athens to Delphi: what to see and how to get there." },
-    { "id": "athens-riviera", "section": "travel", "wiki": "Athens Riviera", "angle": "The Athens Riviera: beaches, neighbourhoods and why Israelis like to live there." },
-    { "id": "thessaloniki", "section": "travel", "wiki": "Thessaloniki", "angle": "City guide to Thessaloniki for Israeli visitors." },
-    { "id": "halkidiki", "section": "travel", "wiki": "Chalkidiki", "angle": "Guide to Halkidiki: the three peninsulas and what each offers." },
-    { "id": "acropolis", "section": "travel", "wiki": "Acropolis of Athens", "angle": "Practical guide to visiting the Acropolis." },
-    { "id": "greek-cuisine", "section": "travel", "wiki": "Greek cuisine", "angle": "Greek food guide for Israelis: dishes to try, and tips for kosher-style and vegetarian eating." },
-    { "id": "healthcare-greece", "section": "living", "wiki": "Healthcare in Greece", "angle": "How the Greek healthcare system works for foreign residents." },
-    { "id": "education-greece", "section": "living", "wiki": "Education in Greece", "angle": "Schools in Greece: the system explained for Israeli families moving here." },
-    { "id": "public-holidays", "section": "living", "wiki": "Public holidays in Greece", "angle": "Public holidays in Greece: when shops and offices close." },
-    { "id": "athens-metro", "section": "living", "wiki": "Athens Metro", "angle": "Getting around Athens by metro: lines, tickets and the airport connection." },
-    { "id": "greek-economy", "section": "politics", "wiki": "Economy of Greece", "angle": "The Greek economy today: a short guide for Israeli investors." },
-    { "id": "greek-politics", "section": "politics", "wiki": "Politics of Greece", "angle": "How Greek politics works: parliament, government and elections, explained simply." },
-    { "id": "greek-islands", "section": "travel", "wiki": "Cyclades", "angle": "The Cyclades islands: which island suits which kind of traveller." },
-    { "id": "dodecanese", "section": "travel", "wiki": "Dodecanese", "angle": "The Dodecanese islands close to Israel's flight routes: a guide." },
-    { "id": "ionian-islands", "section": "travel", "wiki": "Ionian Islands", "angle": "The Ionian Islands: green islands and turquoise sea, a guide." },
-    { "id": "peloponnese", "section": "travel", "wiki": "Peloponnese", "angle": "Road trip guide to the Peloponnese." },
-    { "id": "greek-language", "section": "living", "wiki": "Greek language", "angle": "Basic Greek for Israelis: useful words, and Hebrew–Greek connections." }
-  ]
+ "_note": "Θέματα για «μόνιμα» άρθρα-οδηγούς όταν δεν υπάρχουν αρκετά νέα. wiki: τίτλος σελίδας στην αγγλική Wikipedia (η πηγή). Προσθέστε/αφαιρέστε ελεύθερα. Οι οδηγοί νησιών είναι πρώτοι (αναζητήσεις στα εβραϊκά πριν από ταξίδι). titleHe: με αυτό ξεκινά ο εβραϊκός τίτλος (για το Google).",
+ "topics": [
+  {
+   "id": "rhodes",
+   "section": "travel",
+   "wiki": "Rhodes",
+   "angle": "Complete Hebrew guide to Rhodes for Israeli travellers: old town, beaches, Lindos, areas to stay, the Jewish quarter, practical tips.",
+   "titleHe": "המדריך לרודוס"
+  },
+  {
+   "id": "crete",
+   "section": "travel",
+   "wiki": "Crete",
+   "angle": "Complete Hebrew guide to Crete for Israeli travellers and families: regions, cities (Chania, Heraklion, Rethymno), beaches, sights, practical tips.",
+   "titleHe": "המדריך לכרתים"
+  },
+  {
+   "id": "corfu",
+   "section": "travel",
+   "wiki": "Corfu",
+   "angle": "Complete Hebrew guide to Corfu for Israeli travellers: old town, beaches, villages, history, practical tips.",
+   "titleHe": "המדריך לקורפו"
+  },
+  {
+   "id": "santorini",
+   "section": "travel",
+   "wiki": "Santorini",
+   "titleHe": "המדריך לסנטוריני",
+   "angle": "Complete Hebrew guide to Santorini for Israeli travellers: villages (Fira, Oia), caldera views, beaches, sights, practical tips."
+  },
+  {
+   "id": "naxos",
+   "section": "travel",
+   "wiki": "Naxos",
+   "angle": "Complete Hebrew guide to Naxos for Israeli travellers and families: town, beaches, villages, sights, practical tips.",
+   "titleHe": "המדריך לנקסוס"
+  },
+  {
+   "id": "halkidiki",
+   "section": "travel",
+   "wiki": "Chalkidiki",
+   "angle": "Complete Hebrew guide to Chalkidiki for Israeli travellers: the three peninsulas, beaches, Mount Athos from the sea, getting there from Thessaloniki.",
+   "titleHe": "המדריך לחלקידיקי"
+  },
+  {
+   "id": "kos",
+   "section": "travel",
+   "wiki": "Kos",
+   "titleHe": "המדריך לקוס",
+   "angle": "Complete Hebrew guide to Kos for Israeli travellers: town, beaches, ancient sites, villages, practical tips."
+  },
+  {
+   "id": "zakynthos",
+   "section": "travel",
+   "wiki": "Zakynthos",
+   "titleHe": "המדריך לזקינתוס",
+   "angle": "Complete Hebrew guide to Zakynthos for Israeli travellers: Navagio beach, sea turtles, beaches, towns, practical tips."
+  },
+  {
+   "id": "mykonos",
+   "section": "travel",
+   "wiki": "Mykonos",
+   "titleHe": "המדריך למיקונוס",
+   "angle": "Complete Hebrew guide to Mykonos for Israeli travellers: town, beaches, Delos, practical tips."
+  },
+  {
+   "id": "paros",
+   "section": "travel",
+   "wiki": "Paros",
+   "titleHe": "המדריך לפארוס",
+   "angle": "Complete Hebrew guide to Paros for Israeli travellers and families: villages, beaches, Antiparos, practical tips."
+  },
+  {
+   "id": "thessaloniki",
+   "section": "travel",
+   "wiki": "Thessaloniki",
+   "angle": "Complete Hebrew guide to Thessaloniki for Israeli travellers: waterfront, sights, food, Jewish heritage, day trips.",
+   "titleHe": "המדריך לסלוניקי"
+  },
+  {
+   "id": "jews-thessaloniki",
+   "section": "jewish-greece",
+   "wiki": "History of the Jews in Thessaloniki",
+   "angle": "A guide for Israeli visitors: the story of Jewish Thessaloniki and what to see today (museum, memorials, synagogues)."
+  },
+  {
+   "id": "jewish-museum-greece",
+   "section": "jewish-greece",
+   "wiki": "Jewish Museum of Greece",
+   "angle": "Visitor guide to the Jewish Museum of Greece in Athens."
+  },
+  {
+   "id": "etz-hayyim",
+   "section": "jewish-greece",
+   "wiki": "Etz Hayyim Synagogue",
+   "angle": "Visitor guide to the Etz Hayyim synagogue in Chania, Crete."
+  },
+  {
+   "id": "kahal-shalom",
+   "section": "jewish-greece",
+   "wiki": "Kahal Shalom Synagogue",
+   "angle": "Visitor guide to Kahal Shalom, the synagogue of Rhodes, and the Jewish quarter."
+  },
+  {
+   "id": "romaniotes",
+   "section": "jewish-greece",
+   "wiki": "Romaniote Jews",
+   "angle": "Who are the Romaniote Jews, the ancient Jewish community of Greece, and where to find their heritage (Ioannina)."
+  },
+  {
+   "id": "jews-corfu",
+   "section": "jewish-greece",
+   "wiki": "History of the Jews in Corfu",
+   "angle": "Jewish heritage in Corfu: history and places to visit."
+  },
+  {
+   "id": "greece-israel",
+   "section": "israelis",
+   "wiki": "Greece–Israel relations",
+   "angle": "An overview of Greece–Israel relations and what they mean for Israelis visiting, living or investing in Greece."
+  },
+  {
+   "id": "meteora",
+   "section": "travel",
+   "wiki": "Meteora",
+   "angle": "A day trip guide to Meteora."
+  },
+  {
+   "id": "nafplio",
+   "section": "travel",
+   "wiki": "Nafplio",
+   "angle": "Weekend guide to Nafplio, one of the prettiest towns in Greece."
+  },
+  {
+   "id": "delphi",
+   "section": "travel",
+   "wiki": "Delphi",
+   "angle": "Day trip from Athens to Delphi: what to see and how to get there."
+  },
+  {
+   "id": "athens-riviera",
+   "section": "travel",
+   "wiki": "Athens Riviera",
+   "angle": "The Athens Riviera: beaches, neighbourhoods and why Israelis like to live there."
+  },
+  {
+   "id": "acropolis",
+   "section": "travel",
+   "wiki": "Acropolis of Athens",
+   "angle": "Practical guide to visiting the Acropolis."
+  },
+  {
+   "id": "greek-cuisine",
+   "section": "travel",
+   "wiki": "Greek cuisine",
+   "angle": "Greek food guide for Israelis: dishes to try, and tips for kosher-style and vegetarian eating."
+  },
+  {
+   "id": "healthcare-greece",
+   "section": "living",
+   "wiki": "Healthcare in Greece",
+   "angle": "How the Greek healthcare system works for foreign residents."
+  },
+  {
+   "id": "education-greece",
+   "section": "living",
+   "wiki": "Education in Greece",
+   "angle": "Schools in Greece: the system explained for Israeli families moving here."
+  },
+  {
+   "id": "public-holidays",
+   "section": "living",
+   "wiki": "Public holidays in Greece",
+   "angle": "Public holidays in Greece: when shops and offices close."
+  },
+  {
+   "id": "athens-metro",
+   "section": "living",
+   "wiki": "Athens Metro",
+   "angle": "Getting around Athens by metro: lines, tickets and the airport connection."
+  },
+  {
+   "id": "greek-economy",
+   "section": "politics",
+   "wiki": "Economy of Greece",
+   "angle": "The Greek economy today: a short guide for Israeli investors."
+  },
+  {
+   "id": "greek-politics",
+   "section": "politics",
+   "wiki": "Politics of Greece",
+   "angle": "How Greek politics works: parliament, government and elections, explained simply."
+  },
+  {
+   "id": "greek-islands",
+   "section": "travel",
+   "wiki": "Cyclades",
+   "angle": "The Cyclades islands: which island suits which kind of traveller."
+  },
+  {
+   "id": "dodecanese",
+   "section": "travel",
+   "wiki": "Dodecanese",
+   "angle": "The Dodecanese islands close to Israel's flight routes: a guide."
+  },
+  {
+   "id": "ionian-islands",
+   "section": "travel",
+   "wiki": "Ionian Islands",
+   "angle": "The Ionian Islands: green islands and turquoise sea, a guide."
+  },
+  {
+   "id": "peloponnese",
+   "section": "travel",
+   "wiki": "Peloponnese",
+   "angle": "Road trip guide to the Peloponnese."
+  },
+  {
+   "id": "greek-language",
+   "section": "living",
+   "wiki": "Greek language",
+   "angle": "Basic Greek for Israelis: useful words, and Hebrew–Greek connections."
+  }
+ ]
 }
