@@ -224,6 +224,46 @@ ${pushBox(lang, true)}
     write(P(lang, "/emergency/"), layout({ lang, title, description: intro, path: P(lang, "/emergency/"), altPath: P(he ? "en" : "he", "/emergency/"), body, breaking: breakingNow, activeSection: "emergency" }));
   }
 
+  /* Κόστος ζωής: Αθήνα vs Τελ Αβίβ */
+  {
+    const he = lang === "he";
+    const C = JSON.parse(fs.readFileSync(path.join(ROOT, "content/costs.json"), "utf8"));
+    const fx = C.eurIls;
+    const money = (v) => `€${v >= 100 ? Math.round(v).toLocaleString("en-US") : v.toFixed(2)}`;
+    const ils = (v) => `₪${v * fx >= 100 ? Math.round(v * fx).toLocaleString("en-US") : (v * fx).toFixed(1)}`;
+    const rentRow = C.groups[0].items[0];
+    const rentPct = Math.round((1 - rentRow.ath / rentRow.tlv) * 100);
+    const otherPct = Math.round((1 - 1 / (1 + C.summary.consumerNoRent / 100)) * 100);
+    const [cy, cm] = C.updated.split("-");
+    const upd = new Date(Date.UTC(+cy, +cm - 1, 15)).toLocaleDateString(he ? "he-IL" : "en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    const row = (x) => {
+      const cheaper = Math.round((1 - x.ath / x.tlv) * 100);
+      const max = Math.max(x.ath, x.tlv);
+      return `<div class="cmp"><div class="cmp-h"><strong>${esc(x[lang])}</strong>${cheaper > 0 ? `<span class="save" dir="ltr">-${cheaper}%</span>` : `<span class="more" dir="ltr">+${-cheaper}%</span>`}</div>
+<div class="cmp-b"><span class="lbl">${he ? "אתונה" : "Athens"}</span><i class="ath" style="width:${Math.round(x.ath / max * 100)}%"></i><span class="v" dir="ltr">${money(x.ath)} · ${ils(x.ath)}</span></div>
+<div class="cmp-b"><span class="lbl">${he ? "תל אביב" : "Tel Aviv"}</span><i class="tlv" style="width:${Math.round(x.tlv / max * 100)}%"></i><span class="v" dir="ltr">${money(x.tlv)} · ${ils(x.tlv)}</span></div></div>`;
+    };
+    const title = he ? "יוקר המחיה: אתונה מול תל אביב" : "Cost of living: Athens vs Tel Aviv";
+    const intro = he ? `כמה עולים שכר דירה, קפה, סופר ותחבורה באתונה לעומת תל אביב. בשורה התחתונה: שכר דירה באתונה זול בכ-${rentPct}%, ושאר המחירים זולים בכ-${otherPct}%.` : `What rent, coffee, groceries and transport cost in Athens compared with Tel Aviv. Bottom line: rent in Athens is about ${rentPct}% cheaper, and other prices about ${otherPct}% lower.`;
+    const stats = he
+      ? `<div class="stats"><div><b dir="ltr">-${rentPct}%</b><span>שכר דירה במרכז העיר</span></div><div><b dir="ltr">-${Math.round((1 - 1 / (1 + C.summary.consumerNoRent / 100)) * 100)}%</b><span>שאר המחירים (בלי שכר דירה)</span></div></div>`
+      : `<div class="stats"><div><b dir="ltr">-${rentPct}%</b><span>City-centre rent</span></div><div><b dir="ltr">-${Math.round((1 - 1 / (1 + C.summary.consumerNoRent / 100)) * 100)}%</b><span>Other prices (excluding rent)</span></div></div>`;
+    const groups = C.groups.map((g) => `<section><div class="zone-h"><h2>${esc(g[lang])}</h2></div><div class="cmps">${g.items.map(row).join("")}</div></section>`).join("");
+    const src = `<a href="${esc(C.source.url)}" target="_blank" rel="noopener">${esc(C.source.name)}</a>`;
+    const note = he ? `מחירים ממוצעים לפי ${src} (נתונים שמדווחים גולשים), ${esc(upd)}. ההמרה לשקלים לפי שער של ₪${fx} לאירו. המחירים משתנים לפי שכונה ועונה.` : `Average prices from ${src} (user-reported data), ${esc(upd)}. Shekel conversion at ₪${fx} per euro. Prices vary by neighbourhood and season.`;
+    const cta = he ? `<section class="means"><h2>חושבים לעבור לאתונה או לקנות דירה?</h2><p>ב<a href="${P(lang, "/madad/")}">מדד יוונט</a> תמצאו כמה עולה מ״ר בכל שכונה, ובמחשבון שלנו את כל עלויות הרכישה.</p></section>` : `<section class="means"><h2>Thinking of moving to Athens or buying a flat?</h2><p>See what a square metre costs in each neighbourhood in the <a href="${P(lang, "/madad/")}">Yavanet Index</a>, and all purchase costs in our calculator.</p></section>`;
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+${stats}
+${groups}
+<p class="small">${note}</p>
+${cta}
+${adBox(lang)}
+<div class="sharebar"><button type="button" class="btn ghost" data-share>${he ? "📤 שתפו עם חברים" : "📤 Share with friends"}</button></div>
+</div>${widgets(lang, mostRead)}</div>`;
+    write(P(lang, "/cost-of-living/"), layout({ lang, title, description: intro, path: P(lang, "/cost-of-living/"), altPath: P(he ? "en" : "he", "/cost-of-living/"), body, breaking: breakingNow, activeSection: "cost-of-living" }));
+  }
+
   /* Δείκτης Yavanet */
   if (GLOBAL.madad) {
     const he = lang === "he";
@@ -316,7 +356,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 /* Sitemaps */
 const urls = [];
 for (const lang of LANGS) {
-  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/directory/"), P(lang, "/advisor/"));
+  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));

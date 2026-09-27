@@ -1,0 +1,32 @@
+{
+ "source": {"name": "Numbeo", "url": "https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Greece&city1=Athens&country2=Israel&city2=Tel+Aviv-Yafo&displayCurrency=EUR"},
+ "updated": "2026-09",
+ "eurIls": 3.47,
+ "summary": {"consumerNoRent": 77.5, "rent": 161.6},
+ "groups": [
+  {"he": "🏠 שכר דירה (לחודש)", "en": "🏠 Rent (per month)", "items": [
+   {"he": "דירת חדר שינה אחד במרכז", "en": "1-bedroom flat, city centre", "ath": 653.18, "tlv": 1922.92},
+   {"he": "דירת חדר שינה אחד מחוץ למרכז", "en": "1-bedroom flat, outside centre", "ath": 575.97, "tlv": 1426.06},
+   {"he": "דירת 3 חדרי שינה במרכז", "en": "3-bedroom flat, city centre", "ath": 1166.87, "tlv": 3204.18},
+   {"he": "חשמל, מים, חימום/מיזוג (85 מ״ר)", "en": "Utilities for 85 m² (power, water, heating/cooling)", "ath": 190.03, "tlv": 394.24}
+  ]},
+  {"he": "☕ לצאת בעיר", "en": "☕ Eating out", "items": [
+   {"he": "קפוצ׳ינו", "en": "Cappuccino", "ath": 3.66, "tlv": 4.82},
+   {"he": "ארוחה במסעדה זולה", "en": "Meal, inexpensive restaurant", "ath": 15.00, "tlv": 22.97},
+   {"he": "ארוחה לשניים במסעדה בינונית", "en": "Meal for two, mid-range restaurant", "ath": 60.00, "tlv": 114.86},
+   {"he": "בירה מהחבית (0.5 ליטר)", "en": "Draught beer (0.5 L)", "ath": 5.00, "tlv": 9.76}
+  ]},
+  {"he": "🛒 סופר", "en": "🛒 Groceries", "items": [
+   {"he": "חלב (ליטר)", "en": "Milk (1 L)", "ath": 1.71, "tlv": 2.26},
+   {"he": "12 ביצים", "en": "12 eggs", "ath": 4.20, "tlv": 4.59},
+   {"he": "מים מינרליים (1.5 ליטר)", "en": "Bottled water (1.5 L)", "ath": 0.77, "tlv": 2.36}
+  ]},
+  {"he": "🚇 תחבורה ופנאי", "en": "🚇 Transport & leisure", "items": [
+   {"he": "כרטיס נסיעה בתחבורה ציבורית", "en": "Public transport, one way", "ath": 1.20, "tlv": 2.30},
+   {"he": "חופשי חודשי לתחבורה ציבורית", "en": "Monthly transport pass", "ath": 27.00, "tlv": 90.45},
+   {"he": "בנזין (ליטר)", "en": "Petrol (1 L)", "ath": 2.03, "tlv": 2.30},
+   {"he": "מנוי חודשי לחדר כושר", "en": "Gym, monthly", "ath": 48.59, "tlv": 98.71},
+   {"he": "כרטיס לקולנוע", "en": "Cinema ticket", "ath": 9.50, "tlv": 14.00}
+  ]}
+ ]
+}

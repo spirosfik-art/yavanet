@@ -107,6 +107,12 @@
     if (el.id === "ck-all") return ckSave({ stats: true, ads: true });
     if (el.id === "ck-none") return ckSave({ stats: false, ads: false });
     if (el.id === "ck-set") { var pr = $("#ck-prefs"); if (pr.hidden) { pr.hidden = false; el.textContent = L.ckSave; } else ckSave({ stats: $("#ck-stats").checked, ads: $("#ck-ads").checked }); return; }
+    if (el.hasAttribute("data-share")) {
+      var su = location.href.split("#")[0], st = document.title;
+      if (navigator.share) { navigator.share({ title: st, url: su }).catch(function () { }); }
+      else { window.open("https://wa.me/?text=" + encodeURIComponent(st + " " + su), "_blank", "noopener"); }
+      track("share", { method: navigator.share ? "native" : "whatsapp" }); return;
+    }
     if (el.hasAttribute("data-copy")) {
       var u = el.getAttribute("data-copy");
       try { navigator.clipboard.writeText(u).then(function () { toast(L.copied); }, function () { toast(u); }); } catch (e2) { toast(u); }
