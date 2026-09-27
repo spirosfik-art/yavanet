@@ -1,0 +1,58 @@
+{
+  "slug": "lesbos-wildfire-strong-winds",
+  "section": "breaking",
+  "publishedAt": "2026-09-27T21:59:14+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 39.2333,
+    "lng": 26.25
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/09/27/greece/fotia-sti-lesvo-oi-isxyroi-anemoi-enisxyoun-tis-floges/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38521771/pexels-photo-38521771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stark view of a forest after a wildfire, showing charred trees and barren land.",
+    "credit": "Photo: Christian Palau / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/post-wildfire-landscape-with-burnt-forest-38521771/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "he": {
+    "title": "שריפה פרצה באי Λέσβος, כוחות כיבוי פועלים בשטח",
+    "dek": "רוחות חזקות באזור האיצו את התפשטות האש באזור חשוך צמחייה. צוותי חירום רבים פועלים במקום.",
+    "tldr": [
+      "האש פרצה באזור קוקמוס שבין פראקוילה לאגרא.",
+      "רוחות חזקות מקשות על פעולות הכיבוי.",
+      "עשרות כבאים ומתנדבים פועלים במקום."
+    ],
+    "means": "אם אתם מטיילים כעת בלסבוס, מומלץ להימנע מהגעה לאזור השריפה, לעקוב אחר הודעות הרשויות המקומיות ולהישמע להנחיות כוחות הביטחון והחירום.",
+    "body": "## עדכון על השריפה בלסבוס\n\nשריפת חורס פרצה באי לסבוס, באזור קוקמוס השוכן בין היישובים פראקוילה ואגרא. האש החלה להתפשט בשעות הערב, כאשר תנאי מזג האוויר המקומיים כללו רוחות חזקות שהקשו על מאמצי הבלמתי של כוחות ההצלה.\n\n## פעולות כוחות ההצלה\n\nעל פי נתוני מכבי האש, צוותים גדולים הוזנקו לזירה במטרה להשתלט על הלהבות. הפעילות כוללת עשרות כבאים יחד עם יחידת רגלית ייעודית, כוחות מתנדבים ורכבי כיבוי שונים. בנוסף, רשויות מקומיות סייעו במאמצים באמצעות משאיות מים.\n\nהאש פוגעת בעיקר בשטח של צמחייה נמוכה. הרשויות ממשיכות במאמצי הבלימה במטרה למנוע את התפשטות האש לאזורים נוספים באי."
+  },
+  "en": {
+    "title": "Wildfire breaks out on Lesbos amid strong winds",
+    "dek": "Strong winds are fanning the flames in a low-vegetation area on the island. Emergency crews have been deployed to the scene.",
+    "tldr": [
+      "The fire started in the Kougmos area between Parakila and Agra.",
+      "Strong winds in the region are fueling the flames.",
+      "Dozens of firefighters and volunteers are currently deployed."
+    ],
+    "means": "If you are currently traveling on Lesbos, avoid the affected area, stay updated through local emergency announcements, and follow all instructions from local authorities.",
+    "body": "## Wildfire Update on Lesbos\n\nA brush fire broke out on the island of Lesbos, specifically in the Kougmos area located between Parakila and Agra. The incident began during the evening hours, with weather conditions in the area featuring strong winds that have accelerated the spread of the flames.\n\n## Emergency Response\n\nAccording to the Fire Service, dozens of firefighters along with a specialized ground team, volunteers, and multiple fire vehicles were mobilized to the location. Local authorities are also providing support with water tankers.\n\nThe fire is currently burning low vegetation. Emergency services remain active at the scene working to contain the fire and protect the surrounding areas."
+  },
+  "meta": {
+    "itemId": "d03c7db57280",
+    "imageQuery": "wildfire smoke forest greece",
+    "sourceHash": "eff09a25a68c",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-27T18:59:15.124Z",
+    "official": false
+  }
+}
