@@ -166,10 +166,11 @@
       var isNl = f.getAttribute("data-kind") === "newsletter";
       var okEmail = /^\S+@\S+\.\S+$/.test(data.email || "");
       if (!okEmail || !data.consent || (!isNl && !data.name)) return toast(isNl ? L.nlBad : L.formBad);
-      data.page = location.pathname; data.referrer = document.referrer || "";
+      data.page = location.pathname; data.referrer = document.referrer || ""; if (f.getAttribute("data-source")) data.source = f.getAttribute("data-source");
       var st = $(".status", f); var btn = $("button[type=submit]", f); btn.disabled = true;
       fetch(f.getAttribute("data-api"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) })
-        .then(function (r) { if (!r.ok) throw 0; f.reset(); var msg = isNl ? L.nlOk : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" }); })
+        .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
+        .then(function (res) { f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" }); })
         .catch(function () { if (st) st.textContent = L.formErr; toast(L.formErr); })
         .then(function () { btn.disabled = false; });
     });

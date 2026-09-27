@@ -35,7 +35,7 @@ const WAVE = (fill) => `<svg class="b" viewBox="0 0 1200 26" preserveAspectRatio
 export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 0 1200 22" preserveAspectRatio="none"><path d="M0 11 Q50 3 100 11 T200 11 T300 11 T400 11 T500 11 T600 11 T700 11 T800 11 T900 11 T1000 11 T1100 11 T1200 11"/></svg></div>';
 
 // Κοινά στοιχεία για όλες τις σελίδες (ορίζονται από το build): επερχόμενη απεργία, Δείκτης Yavanet
-export const GLOBAL = { strike: null, madad: false };
+export const GLOBAL = { strike: null, madad: false, win: false };
 const STRIKE_WORD = { he: "שביתה", en: "Strike" };
 
 export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null }) {
@@ -58,10 +58,10 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
     ? `<button type="button" data-feed>${ICONS[k]}<span>${esc(t.nav[i])}</span></button>`
     : `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
   const chips = SECTIONS.map((s) => `<a href="${P(lang, "/s/" + s.slug + "/")}"${activeSection === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
-  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ["emergency", lang === "he" ? "🆘 חירום" : "🆘 Emergency"], ["cost-of-living", lang === "he" ? "💶 יוקר המחיה" : "💶 Cost of living"], ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
+  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ["emergency", lang === "he" ? "🆘 חירום" : "🆘 Emergency"], ["cost-of-living", lang === "he" ? "💶 יוקר המחיה" : "💶 Cost of living"], ...(GLOBAL.win ? [["win", lang === "he" ? "🎁 הגרלה" : "🎁 Giveaway"]] : []), ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
     .map(([k, label]) => `<a class="chip-x" href="${P(lang, "/" + k + "/")}"${activeSection === k ? ' aria-current="page"' : ""}>${label}</a>`).join("");
   const legal = LEGAL_PAGES.map((p) => `<a href="${P(lang, "/p/" + p + "/")}">${esc(t.legal[p])}</a>`).join("") + `<button type="button" data-cookie-settings>${esc(t.cookieSettings)}</button>`;
-  const cfg = { lang, ga4: SITE.ga4Id, clarity: SITE.clarityId, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
+  const cfg = { lang, ga4: SITE.ga4Id, clarity: SITE.clarityId, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlOkDirect: t.nlOkDirect, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
   return `<!doctype html>
 <html lang="${lang}" dir="${t.dir}">
 <head>
@@ -167,12 +167,12 @@ export function adBox(lang) {
   return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><img src="/sf-logo-light.png" width="900" height="142" alt="${esc(SITE.ad.brand)}" loading="lazy"><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span><div class="adrow"><a href="${P(lang, "/advisor/")}">${esc(t.adCta)}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
 }
 
-export function newsletterBox(lang) {
+export function newsletterBox(lang, opt = {}) {
   const t = T[lang];
-  return `<section class="news" id="newsletter" aria-labelledby="nl-h">
-  <h3 id="nl-h">${esc(t.nlTitle)}</h3>
-  <p style="margin:0">${esc(t.nlText)}</p>
-  <form data-api="/api/subscribe" data-kind="newsletter" novalidate>
+  return `<section class="news" id="${opt.id || "newsletter"}" aria-labelledby="nl-h">
+  <h3 id="nl-h">${esc(opt.title || t.nlTitle)}</h3>
+  <p style="margin:0">${esc(opt.text || t.nlText)}</p>
+  <form data-api="/api/subscribe" data-kind="newsletter"${opt.source ? ` data-source="${esc(opt.source)}"` : ""} novalidate>
     <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
     <input type="hidden" name="lang" value="${lang}">
     <input id="nl-email" name="email" type="email" required autocomplete="email" placeholder="${esc(t.nlPh)}" aria-label="${esc(t.nlPh)}">

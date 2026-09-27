@@ -59,6 +59,9 @@ const SECTOR = { flights: ["✈️ טיסות", "✈️ Flights"], ferries: ["�
 const madadDir = path.join(ROOT, "content/madad");
 const madadFiles = fs.existsSync(madadDir) ? fs.readdirSync(madadDir).filter((f) => /^\d{4}-\d{2}\.json$/.test(f)).sort() : [];
 const madad = madadFiles.length ? JSON.parse(fs.readFileSync(path.join(madadDir, madadFiles[madadFiles.length - 1]), "utf8")) : null;
+let GIVE = null; try { GIVE = JSON.parse(fs.readFileSync(path.join(ROOT, "content/giveaway.json"), "utf8")); } catch {}
+if (GIVE && GIVE.active && GIVE.ends < TODAY) GIVE.active = false;
+GLOBAL.win = !!(GIVE && GIVE.active);
 GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
 
 const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
@@ -262,6 +265,25 @@ ${adBox(lang)}
 <div class="sharebar"><button type="button" class="btn ghost" data-share>${he ? "📤 שתפו עם חברים" : "📤 Share with friends"}</button></div>
 </div>${widgets(lang, mostRead)}</div>`;
     write(P(lang, "/cost-of-living/"), layout({ lang, title, description: intro, path: P(lang, "/cost-of-living/"), altPath: P(he ? "en" : "he", "/cost-of-living/"), body, breaking: breakingNow, activeSection: "cost-of-living" }));
+  }
+
+  /* Διαγωνισμός (content/giveaway.json · εμφανίζεται μόνο όταν active=true) */
+  if (GIVE && GIVE.active) {
+    const he = lang === "he";
+    const fmt = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+    const title = he ? `🎁 הגרלה: ${GIVE.prize.he}` : `🎁 Giveaway: ${GIVE.prize.en}`;
+    const intro = he ? `הירשמו לניוזלטר של יוונט עד ${fmt(GIVE.ends)} ותיכנסו להגרלה. ההגרלה תתקיים ב-${fmt(GIVE.draw)}.` : `Subscribe to the Yavanet newsletter by ${fmt(GIVE.ends)} to enter. The draw is on ${fmt(GIVE.draw)}.`;
+    const rules = he
+      ? `<ul><li>ההשתתפות חינם. כל כתובת מייל משתתפת פעם אחת.</li><li>גיל 18 ומעלה.</li><li>ההגרלה תתקיים ב-${fmt(GIVE.draw)} באופן אקראי מבין כל הנרשמים עד ${fmt(GIVE.ends)}. הזוכה יקבל הודעה במייל.</li><li>הפרס אינו ניתן להמרה בכסף. התאריכים לפי זמינות ובתיאום מראש.</li><li>המארגן: ${esc(SITE.publisher.he)}. אפשר לבטל את ההרשמה לניוזלטר בכל רגע.</li></ul>`
+      : `<ul><li>Free to enter. One entry per email address.</li><li>Ages 18+.</li><li>A random draw on ${fmt(GIVE.draw)} among everyone who subscribed by ${fmt(GIVE.ends)}. The winner is notified by email.</li><li>The prize cannot be exchanged for cash. Dates subject to availability, arranged in advance.</li><li>Organiser: ${esc(SITE.publisher.en)}. You can unsubscribe at any time.</li></ul>`;
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+${GIVE.details && GIVE.details[lang] ? `<section class="means"><p>${esc(GIVE.details[lang])}</p></section>` : ""}
+${newsletterBox(lang, { id: "enter", source: "giveaway", title: he ? "להשתתפות בהגרלה" : "Enter the draw", text: he ? "רק מייל, והסכמה לקבל את הניוזלטר." : "Just your email, and agreeing to receive the newsletter." })}
+<section><div class="zone-h"><h2>${he ? "תקנון" : "Rules"}</h2></div>${rules}</section>
+<div class="sharebar"><button type="button" class="btn ghost" data-share>${he ? "📤 שתפו עם חברים" : "📤 Share with friends"}</button></div>
+</div>${widgets(lang, mostRead)}</div>`;
+    write(P(lang, "/win/"), layout({ lang, title, description: intro, path: P(lang, "/win/"), altPath: P(he ? "en" : "he", "/win/"), body, breaking: breakingNow, activeSection: "win" }));
   }
 
   /* Δείκτης Yavanet */
