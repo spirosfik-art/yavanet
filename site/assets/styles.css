@@ -339,7 +339,7 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .tile b{font-size:15px;font-weight:800}
 .tile small{font-size:12.5px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tile:hover{border-color:var(--c);transform:translateY(-1px);background:color-mix(in srgb,var(--c) 6%,var(--surface))}
-.t-strikes{--c:#ef4444}.t-emergency{--c:#f97316}.t-cost{--c:#22c55e}.t-madad{--c:#3b9cf6}.t-guides{--c:#e0a93b}.t-tools{--c:#a78bfa}.t-dir{--c:#14b8a6}.t-tlv{--c:#ec4899}
+.t-strikes{--c:#ef4444}.t-emergency{--c:#f97316}.t-cost{--c:#22c55e}.t-madad{--c:#3b9cf6}.t-guides{--c:#e0a93b}.t-tools{--c:#a78bfa}.t-dir{--c:#14b8a6}.t-tlv{--c:#ec4899}.t-flights{--c:#38bdf8}
 @media (max-width:560px){.tiles{grid-template-columns:1fr 1fr;gap:8px}.tile{padding:10px;gap:10px}.tile .ti{width:34px;height:34px}.tile .ti svg{width:19px;height:19px}.tile b{font-size:14px}.tile small{font-size:11.5px}.tiles>.tile:last-child:nth-child(odd){grid-column:1/-1}}
 .toc{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:14px 0}
 .toc b{display:block;margin-bottom:6px}
@@ -388,3 +388,15 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .tlv-row i{height:10px;border-radius:6px;background:var(--sea);display:block}
 .tlv-row b{font-variant-numeric:tabular-nums;min-width:3.5em;text-align:end}
 @media (max-width:560px){.tlv{padding:14px}.tlv-row{grid-template-columns:minmax(0,8.5em) 1fr auto;font-size:13px}}
+/* Flights */
+.flights{display:grid;gap:10px}
+.fl{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink);transition:border-color .15s}
+.fl:hover{border-color:var(--sea)}
+.fl.top{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 8%,var(--surface))}
+.fl-d{display:grid;gap:3px;min-width:0}
+.fl-d b{font-size:17px}
+.fl-d small{color:var(--muted);font-size:13px}
+.fl-p{display:grid;justify-items:end;flex:none;line-height:1.15}
+.fl-p small{font-size:11px;color:var(--muted)}
+.fl-p b{font-size:24px;font-weight:900;color:var(--gold)}
+.fl-p i{font-style:normal;font-size:12px;color:var(--muted)}

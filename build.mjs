@@ -14,6 +14,7 @@ const TI = {
   guides: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></svg>',
   tools: '<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/></svg>',
   tlv: '<svg viewBox="0 0 24 24"><path d="M3 21V9l5-3v15M8 21h13V12l-6-4v13M11 13h1M11 17h1M17 13h1M17 17h1"/></svg>',
+  flights: '<svg viewBox="0 0 24 24"><path d="M2 16l20-6-3-3-7 3-5-4-2 1 3 5-4 2-2-1-1 1z"/><path d="M3 21h18"/></svg>',
   dir: '<svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>',
 };
 const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
@@ -74,6 +75,8 @@ const madad = madadFiles.length ? JSON.parse(fs.readFileSync(path.join(madadDir,
 let GIVE = null; try { GIVE = JSON.parse(fs.readFileSync(path.join(ROOT, "content/giveaway.json"), "utf8")); } catch {}
 if (GIVE && GIVE.active && GIVE.ends < TODAY) GIVE.active = false;
 GLOBAL.win = !!(GIVE && GIVE.active);
+let FLIGHTS = null; try { FLIGHTS = JSON.parse(fs.readFileSync(path.join(ROOT, "content/flights.json"), "utf8")); } catch {}
+GLOBAL.flights = !!(FLIGHTS && FLIGHTS.deals && FLIGHTS.deals.length);
 GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
 
 const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
@@ -287,6 +290,27 @@ ${adBox(lang)}
     write(P(lang, "/cost-of-living/"), layout({ lang, title, description: intro, path: P(lang, "/cost-of-living/"), altPath: P(he ? "en" : "he", "/cost-of-living/"), body, breaking: breakingNow, activeSection: "cost-of-living" }));
   }
 
+  /* Φτηνές πτήσεις (content/flights.json από automation/flights.mjs) */
+  if (GLOBAL.flights) {
+    const he = lang === "he";
+    const dm = (d) => new Date(d + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
+    const upd = new Date(FLIGHTS.updated).toLocaleString(he ? "he-IL" : "en-GB", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Athens" });
+    const title = he ? "טיסות זולות מתל אביב ליוון" : "Cheap flights from Tel Aviv to Greece";
+    const intro = he ? "המחיר הזול ביותר הלוך־חזור לכל יעד ביוון, בחודשיים הקרובים. מתעדכן כל יום." : "The lowest return fare to each Greek destination over the next two months. Updated daily.";
+    const cards = FLIGHTS.deals.map((d, i) => `<a class="fl${i === 0 ? " top" : ""}" href="${esc(d.link)}" target="_blank" rel="noopener sponsored nofollow">
+<span class="fl-d"><b>${esc(he ? d.he : d.en)}</b><small>${esc(dm(d.depart))}${d.ret ? " – " + esc(dm(d.ret)) : ""} · ${esc(d.airline)}${d.transfers ? (he ? " · עם עצירה" : " · with stop") : (he ? " · ישירה" : " · direct")}</small></span>
+<span class="fl-p"><small>${he ? "הלוך־חזור" : "return"}</small><b dir="ltr">€${d.price}</b><i dir="ltr">≈ ₪${Math.round(d.price * 3.47).toLocaleString("en-US")}</i></span></a>`).join("");
+    const note = he ? `המחירים נאספו מחיפושים אחרונים ב-<a href="https://www.aviasales.com" target="_blank" rel="noopener">Aviasales</a> ויכולים להשתנות. עודכן: ${esc(upd)}. הקישורים הם קישורי שותפים: אם תזמינו דרכם, יוונט עשוי לקבל עמלה קטנה, בלי עלות נוספת לכם.` : `Prices come from recent searches on <a href="https://www.aviasales.com" target="_blank" rel="noopener">Aviasales</a> and may change. Updated: ${esc(upd)}. These are affiliate links: if you book through them, Yavanet may earn a small commission at no extra cost to you.`;
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+<div class="flights">${cards}</div>
+<p class="small">${note}</p>
+${pushBox(lang, true)}
+<section class="means"><h2>${he ? "לפני שטסים" : "Before you fly"}</h2><p>${he ? `<a href="${P(lang, "/a/greece-travel-guide-israelis-2026/")}">המדריך המלא לטיסה ליוון</a> · <a href="${P(lang, "/strikes/")}">שביתות קרובות</a>` : `<a href="${P(lang, "/a/greece-travel-guide-israelis-2026/")}">Flying to Greece guide</a> · <a href="${P(lang, "/strikes/")}">Upcoming strikes</a>`}</p></section>
+</div>${widgets(lang, mostRead, true)}</div>`;
+    write(P(lang, "/flights/"), layout({ lang, title, description: intro, path: P(lang, "/flights/"), altPath: P(he ? "en" : "he", "/flights/"), body, breaking: breakingNow, activeSection: "flights", activeNav: "tools" }));
+  }
+
   /* Τελ Αβίβ = ; στην Αθήνα (viral εργαλείο) */
   if (GLOBAL.madad) {
     const he = lang === "he";
@@ -322,7 +346,7 @@ ${newsletterBox(lang, { id: "enter", source: "giveaway", title: he ? "להשתת
     const CATS = [["invest", "🏠 למשקיעים ולקוני דירות", "🏠 For investors & buyers"], ["live", "🧳 לעבור לגור ביוון", "🧳 Moving to Greece"], ["travel", "🏝️ טיולים ואיים", "🏝️ Travel & islands"], ["jewish", "✡️ יוון היהודית", "✡️ Jewish Greece"]];
     const guides = articles.filter(isGuide);
     const pinned = guides.filter((a) => a.pinned);
-    const tools = [["/strikes/", "strikes", he ? "שביתות" : "Strikes"], ["/emergency/", "emergency", he ? "חירום" : "Emergency"], ["/cost-of-living/", "cost", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "madad", he ? "מחירי דירות" : "Property prices"], ["/tlv-vs-athens/", "tlv", he ? "תל אביב מול אתונה" : "Tel Aviv vs Athens"], ["/tools/", "tools", he ? "מחשבונים" : "Calculators"], ["/directory/", "dir", he ? "יוון בעברית" : "Greece in Hebrew"]];
+    const tools = [["/strikes/", "strikes", he ? "שביתות" : "Strikes"], ["/emergency/", "emergency", he ? "חירום" : "Emergency"], ["/cost-of-living/", "cost", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "madad", he ? "מחירי דירות" : "Property prices"], ["/tlv-vs-athens/", "tlv", he ? "תל אביב מול אתונה" : "Tel Aviv vs Athens"], ...(GLOBAL.flights ? [["/flights/", "flights", he ? "טיסות זולות" : "Cheap flights"]] : []), ["/tools/", "tools", he ? "מחשבונים" : "Calculators"], ["/directory/", "dir", he ? "יוון בעברית" : "Greece in Hebrew"]];
     const title = he ? "מדריכים: כל מה שישראלי צריך לדעת על יוון" : "Guides: everything Israelis need to know about Greece";
     const intro = he ? "מדריכים מלאים בעברית על קניית דירה, השקעה, מעבר ליוון, טיולים ואיים. מתעדכן כל הזמן." : "Complete guides on buying property, investing, moving to Greece, travel and the islands. Always updated.";
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
@@ -428,6 +452,7 @@ const urls = [];
 for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
+  if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => urls.push(P(lang, `/a/${a.slug}/`)));
