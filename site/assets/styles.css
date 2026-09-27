@@ -292,3 +292,5 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .madad td.bar i{display:block;height:10px;border-radius:5px;background:var(--sea)}
 .madad .up{color:#1F8A4C;font-weight:700}.madad .down{color:#C0162B;font-weight:700}
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}
+.madad tr.grp th{background:var(--chip);color:var(--ink);font-size:13.5px;padding:8px 12px}
+@media (max-width:640px){.madad td.bar,.madad thead th:last-child,.madad td:nth-child(3),.madad td:nth-child(5),.madad thead th:nth-child(3),.madad thead th:nth-child(5){display:none}.madad th,.madad td{padding:8px 7px;font-size:13px}.madad th{font-size:11px;white-space:normal}}

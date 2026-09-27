@@ -212,14 +212,24 @@ ${newsletterBox(lang)}
     const title = he ? `מדד יוונט: מחירי נדל״ן באתונה, ${monthName}` : `Yavanet Index: Athens property prices, ${monthName}`;
     const intro = he ? "כמה עולה מטר רבוע למכירה ולהשכרה בשכונות אתונה, ומה התשואה הצפויה. מתעדכן כל חודש." : "What a square metre costs to buy and to rent in Athens neighbourhoods, and the expected yield. Updated monthly.";
     const max = Math.max(...madad.areas.map((x) => +x.sale || 0));
-    const chg = (v) => v == null || v === "" ? "–" : `<span class="${+v >= 0 ? "up" : "down"}">${+v > 0 ? "+" : ""}${(+v).toFixed(1)}%</span>`;
+    const chg = (v) => v == null || v === "" ? "–" : `<span dir="ltr" class="${+v >= 0 ? "up" : "down"}">${+v > 0 ? "+" : ""}${(+v).toFixed(1)}%</span>`;
     const eur = (v) => "€" + Math.round(+v).toLocaleString("en-US");
-    const rows = madad.areas.slice().sort((a, b) => (+b.sale || 0) - (+a.sale || 0)).map((x) => {
+    const groups = madad.groups ? Object.keys(madad.groups) : [null];
+    const row = (x) => {
       const y = x.rent && x.sale ? (x.rent * 12 / x.sale * 100).toFixed(1) + "%" : "–";
-      return `<tr><td><strong>${esc(x[lang] || x.en)}</strong></td><td>${eur(x.sale)}</td><td>${chg(x.saleChg)}</td><td>€${(+x.rent).toFixed(1)}</td><td>${chg(x.rentChg)}</td><td>${y}</td><td class="bar"><i style="width:${Math.round((+x.sale || 0) / max * 100)}%"></i></td></tr>`;
+      return `<tr><td><strong>${esc(x[lang] || x.en)}</strong></td><td>${eur(x.sale)}</td><td>${chg(x.saleChg)}</td><td>€${(+x.rent).toFixed(1)}</td><td>${chg(x.rentChg)}</td><td dir="ltr">${y}</td><td class="bar"><i style="width:${Math.round((+x.sale || 0) / max * 100)}%"></i></td></tr>`;
+    };
+    const rows = groups.map((g) => {
+      const list = madad.areas.filter((x) => !g || x.group === g).sort((a, b) => (+b.sale || 0) - (+a.sale || 0));
+      return (g ? `<tr class="grp"><th colspan="7">${esc(madad.groups[g][lang])}</th></tr>` : "") + list.map(row).join("");
     }).join("");
-    const head = he ? ["שכונה", "מכירה ‏€/מ״ר", "שינוי", "שכירות ‏€/מ״ר לחודש", "שינוי", "תשואה ברוטו", ""] : ["Area", "Sale €/m²", "Change", "Rent €/m²/month", "Change", "Gross yield", ""];
-    const method = he ? `המדד מבוסס על נכסים, עסקאות והשכרות ש-${esc(SITE.ad.brand)} מנהלת ומשווקת באתונה, בשילוב מודעות פעילות בשוק. המחירים הם ממוצעים לנכסי מגורים ואינם שמאות. "שינוי" הוא לעומת החודש הקודם.` : `The index is based on properties, deals and rentals that ${esc(SITE.ad.brand)} manages and markets in Athens, combined with active market listings. Prices are averages for residential property and are not a valuation. "Change" is versus the previous month.`;
+    const yr = madad.changeBasis === "year";
+    const cl = he ? (yr ? "שינוי בשנה" : "שינוי בחודש") : (yr ? "1-year change" : "1-month change");
+    const head = he ? ["שכונה", "מכירה ‏€/מ״ר", cl, "שכירות ‏€/מ״ר לחודש", cl, "תשואה ברוטו", ""] : ["Area", "Sale €/m²", cl, "Rent €/m²/month", cl, "Gross yield", ""];
+    const src = madad.source ? `<a href="${esc(madad.source.url)}" target="_blank" rel="noopener">${esc(madad.source.name)}</a>` : esc(SITE.ad.brand);
+    const method = he
+      ? `המחירים הם ממוצע מחירי המבוקש במודעות למגורים (לא מחירי עסקאות ולא שמאות), לפי ${src}, ${esc(monthName)}. תשואה ברוטו = שכירות שנתית חלקי מחיר, לפני הוצאות ומיסים. מידע כללי בלבד ואינו ייעוץ השקעות. לנתונים על נכס מסוים דברו עם ${esc(SITE.ad.brand)}.`
+      : `Prices are average asking prices in residential listings (not transaction prices or valuations), from ${src}, ${esc(monthName)}. Gross yield = annual rent divided by price, before costs and taxes. General information only, not investment advice. For a specific property, talk to ${esc(SITE.ad.brand)}.`;
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
 <div class="grid"><div class="col">
 <div class="tablewrap"><table class="madad"><thead><tr>${head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
@@ -228,7 +238,7 @@ ${madad.note && madad.note[lang] ? `<section class="means"><h2>${he ? "מה הש
 ${adBox(lang)}
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
-    write(P(lang, "/madad/"), layout({ lang, title, description: intro, path: P(lang, "/madad/"), altPath: P(he ? "en" : "he", "/madad/"), body, breaking: breakingNow, activeSection: "madad" }));
+    write(P(lang, "/madad/"), layout({ lang, title, description: intro, path: P(lang, "/madad/"), altPath: P(he ? "en" : "he", "/madad/"), body, breaking: breakingNow, activeSection: "madad", activeNav: "prop" }));
   }
 
   /* Κατάλογος επιχειρήσεων */

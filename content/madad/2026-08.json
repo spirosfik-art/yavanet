@@ -1,0 +1,257 @@
+{
+ "month": "2026-08",
+ "changeBasis": "year",
+ "source": {
+  "name": "Indomio.gr",
+  "url": "https://www.indomio.gr/en/agora-akiniton/attiki/"
+ },
+ "groups": {
+  "center": {
+   "he": "מרכז אתונה",
+   "en": "Central Athens"
+  },
+  "north": {
+   "he": "הפרברים הצפוניים",
+   "en": "Northern suburbs"
+  },
+  "south": {
+   "he": "הפרברים הדרומיים וחוף אתונה",
+   "en": "Southern suburbs & Athens Riviera"
+  },
+  "piraeus": {
+   "he": "פיראוס",
+   "en": "Piraeus"
+  }
+ },
+ "areas": [
+  {
+   "group": "center",
+   "he": "קולונקי - ליקביטוס",
+   "en": "Kolonaki - Lykavittos",
+   "sale": 5458,
+   "saleChg": 0.7,
+   "rent": 18.79,
+   "rentChg": 5.4
+  },
+  {
+   "group": "center",
+   "he": "המרכז ההיסטורי של אתונה",
+   "en": "Athens Historic Centre",
+   "sale": 5146,
+   "saleChg": 7.7,
+   "rent": 16.1,
+   "rentChg": 0.9
+  },
+  {
+   "group": "center",
+   "he": "מטס - קלימרמרו",
+   "en": "Mets - Kalimarmaro",
+   "sale": 4346,
+   "saleChg": 6.2,
+   "rent": 15.14,
+   "rentChg": 3.0
+  },
+  {
+   "group": "center",
+   "he": "קוקאקי - מקריאני",
+   "en": "Koukaki - Makrygianni",
+   "sale": 3914,
+   "saleChg": 0.8,
+   "rent": 14.89,
+   "rentChg": 8.3
+  },
+  {
+   "group": "center",
+   "he": "פנגרטי",
+   "en": "Pangrati",
+   "sale": 3531,
+   "saleChg": 4.7,
+   "rent": 12.33,
+   "rentChg": 4.8
+  },
+  {
+   "group": "center",
+   "he": "נאוס קוסמוס",
+   "en": "Neos Kosmos",
+   "sale": 3295,
+   "saleChg": 8.4,
+   "rent": 11.83,
+   "rentChg": 5.0
+  },
+  {
+   "group": "center",
+   "he": "אמפלוקיפי",
+   "en": "Ampelokipoi",
+   "sale": 3147,
+   "saleChg": 8.1,
+   "rent": 12.06,
+   "rentChg": 6.5
+  },
+  {
+   "group": "center",
+   "he": "אקסרכיה - ניאפולי",
+   "en": "Exarchia - Neapoli",
+   "sale": 2918,
+   "saleChg": 7.8,
+   "rent": 12.0,
+   "rentChg": 8.0
+  },
+  {
+   "group": "center",
+   "he": "גאזי - מטקסורגיו",
+   "en": "Gazi - Metaxourgio",
+   "sale": 2794,
+   "saleChg": 17.7,
+   "rent": 11.61,
+   "rentChg": 6.7
+  },
+  {
+   "group": "center",
+   "he": "קיפסלי",
+   "en": "Kypseli",
+   "sale": 2176,
+   "saleChg": 5.2,
+   "rent": 9.86,
+   "rentChg": 4.1
+  },
+  {
+   "group": "north",
+   "he": "פלאיו פסיכיקו",
+   "en": "Palaio Psychiko",
+   "sale": 5499,
+   "saleChg": 4.6,
+   "rent": 17.39,
+   "rentChg": 2.8
+  },
+  {
+   "group": "north",
+   "he": "פילותיאה",
+   "en": "Filothei",
+   "sale": 5004,
+   "saleChg": 0.9,
+   "rent": 16.68,
+   "rentChg": 11.9
+  },
+  {
+   "group": "north",
+   "he": "ניאו פסיכיקו",
+   "en": "Neo Psychiko",
+   "sale": 4200,
+   "saleChg": 14.1,
+   "rent": 13.92,
+   "rentChg": 9.3
+  },
+  {
+   "group": "north",
+   "he": "קיפיסיה",
+   "en": "Kifisia",
+   "sale": 4190,
+   "saleChg": 6.5,
+   "rent": 13.61,
+   "rentChg": 4.0
+  },
+  {
+   "group": "north",
+   "he": "מרוסי",
+   "en": "Marousi",
+   "sale": 3799,
+   "saleChg": 9.6,
+   "rent": 14.3,
+   "rentChg": 0.4
+  },
+  {
+   "group": "north",
+   "he": "חלנדרי",
+   "en": "Chalandri",
+   "sale": 3547,
+   "saleChg": 2.3,
+   "rent": 13.32,
+   "rentChg": 4.8
+  },
+  {
+   "group": "south",
+   "he": "בוליאגמני",
+   "en": "Vouliagmeni",
+   "sale": 7658,
+   "saleChg": 1.4,
+   "rent": 22.02,
+   "rentChg": 3.3
+  },
+  {
+   "group": "south",
+   "he": "וולה",
+   "en": "Voula",
+   "sale": 6150,
+   "saleChg": 3.5,
+   "rent": 17.31,
+   "rentChg": 2.7
+  },
+  {
+   "group": "south",
+   "he": "אליניקו",
+   "en": "Elliniko",
+   "sale": 5717,
+   "saleChg": 7.1,
+   "rent": 15.45,
+   "rentChg": 2.1
+  },
+  {
+   "group": "south",
+   "he": "גליפדה",
+   "en": "Glyfada",
+   "sale": 5362,
+   "saleChg": 3.3,
+   "rent": 17.16,
+   "rentChg": 3.9
+  },
+  {
+   "group": "south",
+   "he": "אלימוס",
+   "en": "Alimos",
+   "sale": 4818,
+   "saleChg": 2.0,
+   "rent": 13.67,
+   "rentChg": 3.8
+  },
+  {
+   "group": "south",
+   "he": "פליאו פלירו",
+   "en": "Palaio Faliro",
+   "sale": 4052,
+   "saleChg": 2.6,
+   "rent": 12.4,
+   "rentChg": 3.4
+  },
+  {
+   "group": "south",
+   "he": "ניאה סמירני",
+   "en": "Nea Smyrni",
+   "sale": 3505,
+   "saleChg": 5.5,
+   "rent": 11.07,
+   "rentChg": 2.0
+  },
+  {
+   "group": "south",
+   "he": "קליתאה",
+   "en": "Kallithea",
+   "sale": 2999,
+   "saleChg": 6.7,
+   "rent": 10.82,
+   "rentChg": 8.2
+  },
+  {
+   "group": "piraeus",
+   "he": "פיראוס (ממוצע)",
+   "en": "Piraeus (average)",
+   "sale": 2684,
+   "saleChg": null,
+   "rent": 10.91,
+   "rentChg": null
+  }
+ ],
+ "note": {
+  "he": "הכי יקר: בוליאגמני, כ-7,658 אירו למ״ר. הזינוק הגדול בשנה האחרונה: גאזי - מטקסורגיו (+17.7%) ו-ניאו פסיכיקו (+14.1%). התשואה הגבוהה ביותר משכירות: קיפסלי (כ-5.4% ברוטו), גאזי - מטקסורגיו (5.0%) ואקסרכיה (4.9%). בפרברים היוקרתיים התשואה נמוכה יותר, כ-3.4% עד 4%.",
+  "en": "Most expensive: Vouliagmeni, about €7,658/m². Biggest jumps over the past year: Gazi - Metaxourgio (+17.7%) and Neo Psychiko (+14.1%). Highest rental yields: Kypseli (about 5.4% gross), Gazi - Metaxourgio (5.0%) and Exarchia (4.9%). In the upmarket suburbs yields are lower, around 3.4–4%."
+ }
+}
