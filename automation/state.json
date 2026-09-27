@@ -59,86 +59,87 @@
     "bb605a452901": 1790498129436,
     "b085a3fdea90": 1790498935743,
     "5c97e4a01b0a": 1790498935743,
-    "00348c018d92": 1790498935743
+    "00348c018d92": 1790498935743,
+    "5099db305853": 1790499663459
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T08:48:48.248Z",
+      "at": "2026-09-27T09:00:53.304Z",
       "error": "HTTP 403",
-      "fails": 54
+      "fails": 55
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T08:48:48.791Z",
-      "items": 0
+      "at": "2026-09-27T09:00:55.479Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T08:48:49.450Z",
+      "at": "2026-09-27T09:00:56.252Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T08:48:49.527Z",
+      "at": "2026-09-27T09:00:56.341Z",
       "error": "HTTP 403",
-      "fails": 54
+      "fails": 55
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T08:48:50.785Z",
+      "at": "2026-09-27T09:00:57.572Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T08:48:51.128Z",
+      "at": "2026-09-27T09:00:57.931Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T08:48:52.192Z",
+      "at": "2026-09-27T09:00:58.841Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T08:48:52.791Z",
+      "at": "2026-09-27T09:00:59.541Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T08:48:53.621Z",
+      "at": "2026-09-27T09:01:00.691Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T08:48:53.736Z",
+      "at": "2026-09-27T09:01:00.762Z",
       "error": "HTTP 403",
-      "fails": 54
+      "fails": 55
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T08:48:54.164Z",
+      "at": "2026-09-27T09:01:01.303Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T08:48:54.204Z",
+      "at": "2026-09-27T09:01:01.672Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T08:48:54.272Z",
+      "at": "2026-09-27T09:01:02.119Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T08:48:54.639Z",
+      "at": "2026-09-27T09:01:02.610Z",
       "items": 8
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T08:48:54.751Z",
+      "at": "2026-09-27T09:01:02.788Z",
       "items": 1
     }
   },
@@ -245,13 +246,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T08:48:55.743Z",
-    "considered": 3,
-    "picked": 2,
+    "at": "2026-09-27T09:01:03.459Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· gct | Homes Evacuated and Men Arrested Near US Air Base in Britain",
-      "✓ gct | Giorgos Mazonakis Death Draws More International Attention",
-      "✓ gct | Rhodes Hosts Tourism and Climate Crisis and Sustainability Forum"
+      "· gct | Turkish Paratroopers Conduct Drills Opposite Greek Island"
     ]
   }
 }
