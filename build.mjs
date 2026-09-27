@@ -97,9 +97,16 @@ for (const lang of LANGS) {
   const isrCards = take(bySection("israelis"), 4);
   const more = take(articles, 6);
   const { art } = await import("./site/art.mjs");
-  const storiesHTML = fd.stories.map((s, i) => `<button class="story" type="button" data-story="${i}"><span class="ring"><span>${art(s.art, s.title)}</span></span>${esc(s.title)}</button>`).join("");
+  const tiles = [
+    ["/strikes/", "🚨", lang === "he" ? "שביתות" : "Strikes", lang === "he" ? "טיסות, מעבורות, מטרו" : "Flights, ferries, metro"],
+    ["/emergency/", "🆘", lang === "he" ? "חירום" : "Emergency", lang === "he" ? "מה עושים אם..." : "What to do if..."],
+    ["/cost-of-living/", "💶", lang === "he" ? "יוקר המחיה" : "Cost of living", lang === "he" ? "אתונה מול תל אביב" : "Athens vs Tel Aviv"],
+    ["/madad/", "📊", lang === "he" ? "מחירי דירות" : "Property prices", lang === "he" ? "מחיר למ״ר בכל שכונה" : "Price per m² by area"],
+    ["/guides/", "📘", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
+  ];
+  const storiesHTML = tiles.map(([u, i, h, sub]) => `<a class="tile" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${i}</span><b>${esc(h)}</b><small>${esc(sub)}</small></a>`).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
-<div class="stories" aria-label="Stories">${storiesHTML}</div>
+<nav class="tiles" aria-label="${lang === "he" ? "גישה מהירה" : "Quick access"}">${storiesHTML}</nav>
 <div class="grid">
   <div class="col">
     <section aria-labelledby="h-gov">
@@ -286,6 +293,26 @@ ${newsletterBox(lang, { id: "enter", source: "giveaway", title: he ? "להשתת
     write(P(lang, "/win/"), layout({ lang, title, description: intro, path: P(lang, "/win/"), altPath: P(he ? "en" : "he", "/win/"), body, breaking: breakingNow, activeSection: "win" }));
   }
 
+  /* Σελίδα οδηγών */
+  {
+    const he = lang === "he";
+    const isGuide = (a) => a.guide || (a.meta && String(a.meta.itemId || "").startsWith("eg-"));
+    const cat = (a) => a.guideCat || (a.section === "real-estate" ? "invest" : a.section === "living" ? "live" : a.section === "jewish-greece" ? "jewish" : "travel");
+    const CATS = [["invest", "🏠 למשקיעים ולקוני דירות", "🏠 For investors & buyers"], ["live", "🧳 לעבור לגור ביוון", "🧳 Moving to Greece"], ["travel", "🏝️ טיולים ואיים", "🏝️ Travel & islands"], ["jewish", "✡️ יוון היהודית", "✡️ Jewish Greece"]];
+    const guides = articles.filter(isGuide);
+    const pinned = guides.filter((a) => a.pinned);
+    const tools = [["/strikes/", "🚨", he ? "שביתות" : "Strikes"], ["/emergency/", "🆘", he ? "חירום" : "Emergency"], ["/cost-of-living/", "💶", he ? "יוקר המחיה" : "Cost of living"], ["/madad/", "📊", he ? "מחירי דירות" : "Property prices"], ["/tools/", "🧮", he ? "מחשבונים" : "Calculators"], ["/directory/", "🗣️", he ? "יוון בעברית" : "Greece in Hebrew"]];
+    const title = he ? "מדריכים: כל מה שישראלי צריך לדעת על יוון" : "Guides: everything Israelis need to know about Greece";
+    const intro = he ? "מדריכים מלאים בעברית על קניית דירה, השקעה, מעבר ליוון, טיולים ואיים. מתעדכן כל הזמן." : "Complete guides on buying property, investing, moving to Greece, travel and the islands. Always updated.";
+    const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
+<div class="grid"><div class="col">
+${pinned.length ? `<section><div class="cards">${pinned.map((a) => card(a, lang)).join("")}</div></section>` : ""}
+<nav class="tiles" aria-label="${he ? "כלים" : "Tools"}">${tools.map(([u, i, h]) => `<a class="tile" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${i}</span><b>${esc(h)}</b></a>`).join("")}</nav>
+${CATS.map(([k, h1, h2]) => { const list = guides.filter((a) => !a.pinned && cat(a) === k); return list.length ? `<section><div class="zone-h"><h2>${esc(he ? h1 : h2)}</h2></div><div class="cards">${list.map((a) => card(a, lang)).join("")}</div></section>` : ""; }).join("")}
+</div>${widgets(lang, mostRead)}</div>`;
+    write(P(lang, "/guides/"), layout({ lang, title, description: intro, path: P(lang, "/guides/"), altPath: P(he ? "en" : "he", "/guides/"), body, breaking: breakingNow, activeNav: "guides" }));
+  }
+
   /* Δείκτης Yavanet */
   if (GLOBAL.madad) {
     const he = lang === "he";
@@ -378,7 +405,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 /* Sitemaps */
 const urls = [];
 for (const lang of LANGS) {
-  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/directory/"), P(lang, "/advisor/"));
+  urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));

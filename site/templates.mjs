@@ -25,7 +25,7 @@ export function creditHTML(a, lang) {
 
 const ICONS = {
   home: '<svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>',
-  feed: '<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M10 9l5 3-5 3z"/></svg>',
+  guides: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M8 7h6M8 11h6"/></svg>',
   prop: '<svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg>',
   tools: '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 12h2M14 12h2M8 16h2M14 16h2"/></svg>',
   mail: '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',
@@ -52,11 +52,9 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const strikeBar = st && !path.includes("/strikes/")
     ? `<a class="strikebar" href="${P(lang, "/strikes/")}"><span class="tag">🚨 ${STRIKE_WORD[lang]} · ${esc(st.when[lang])}</span><span class="txt">${esc(st[lang])}</span></a>`
     : "";
-  const navKeys = ["home", "feed", "prop", "tools", "mail"];
-  const navHref = { home: P(lang, "/"), prop: P(lang, "/s/real-estate/"), tools: P(lang, "/tools/"), mail: P(lang, "/") + "#newsletter" };
-  const nav = navKeys.map((k, i) => k === "feed"
-    ? `<button type="button" data-feed>${ICONS[k]}<span>${esc(t.nav[i])}</span></button>`
-    : `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
+  const navKeys = ["home", "guides", "prop", "tools", "mail"];
+  const navHref = { home: P(lang, "/"), guides: P(lang, "/guides/"), prop: P(lang, "/s/real-estate/"), tools: P(lang, "/tools/"), mail: P(lang, "/") + "#newsletter" };
+  const nav = navKeys.map((k, i) => `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
   const chips = SECTIONS.map((s) => `<a href="${P(lang, "/s/" + s.slug + "/")}"${activeSection === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
   const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ["emergency", lang === "he" ? "🆘 חירום" : "🆘 Emergency"], ["cost-of-living", lang === "he" ? "💶 יוקר המחיה" : "💶 Cost of living"], ...(GLOBAL.win ? [["win", lang === "he" ? "🎁 הגרלה" : "🎁 Giveaway"]] : []), ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
     .map(([k, label]) => `<a class="chip-x" href="${P(lang, "/" + k + "/")}"${activeSection === k ? ' aria-current="page"' : ""}>${label}</a>`).join("");
@@ -253,7 +251,20 @@ export function widgets(lang, mostRead, noPush = false) {
 }
 
 export function articleBody(a, lang, prev, next) {
-  const t = T[lang], c = a[lang];
+  const t = T[lang], c = a[lang], he = lang === "he";
+  const url = abs(P(lang, "/a/" + a.slug + "/"));
+  const shareRow = (cls = "") => `<div class="share${cls}">
+    <a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(c.title + " " + url)}" target="_blank" rel="noopener">${esc(t.shareWa)}</a>
+    <a class="btn fb" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" rel="noopener">${he ? "שתפו בפייסבוק" : "Share on Facebook"}</a>
+    <button class="btn ghost" type="button" data-copy="${url}">${esc(t.copy)}</button>`;
+  // Οδηγοί: αρίθμηση ενοτήτων και πίνακας περιεχομένων
+  let prose = md(c.body), toc = "";
+  if (a.guide) {
+    let n = 0; const heads = [];
+    prose = prose.replace(/<h2>(.*?)<\/h2>/g, (m, h) => { n++; heads.push(h); return `<h2 id="s${n}">${h}</h2>`; });
+    if (heads.length > 2) toc = `<nav class="toc" aria-label="${he ? "תוכן העניינים" : "Contents"}"><b>${he ? "במדריך הזה" : "In this guide"}</b><ol>${heads.map((h, i) => `<li><a href="#s${i + 1}">${h}</a></li>`).join("")}</ol></nav>`;
+  }
+  const cta = a.guide && a.cta === "realestate" ? `<section class="guide-cta"><h2>${he ? "רוצים ליווי אישי, בעברית?" : "Want personal guidance?"}</h2><p>${he ? `${esc(SITE.ad.brand)} מלווה ישראלים בקנייה, בהשכרה ובניהול נכסים ביוון: מהחיפוש, דרך עורך הדין והנוטריון, ועד המפתח והניהול השוטף.` : `${esc(SITE.ad.brand)} helps Israelis buy, rent out and manage property in Greece: from the search, through the lawyer and notary, to the keys and day-to-day management.`}</p><a class="btn gold" href="${P(lang, "/advisor/")}">${he ? "דברו עם יועץ נדל״ן" : "Talk to a property adviser"}</a></section>` : "";
   const src = (a.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
   return `<article class="full" data-prev="${prev ? P(lang, "/a/" + prev.slug + "/") : ""}" data-next="${next ? P(lang, "/a/" + next.slug + "/") : ""}">
   <div class="art">${artHTML(a, lang)}</div>
@@ -263,14 +274,15 @@ export function articleBody(a, lang, prev, next) {
   <p class="dek">${esc(c.dek)}</p>
   <div class="meta">${esc(t.published)}: <time datetime="${a.publishedAt}">${fmtDate(a.publishedAt, lang)}</time>${a.updatedAt ? ` · ${esc(t.updated)}: <time datetime="${a.updatedAt}">${fmtDate(a.updatedAt, lang)}</time>` : ""}</div>
   <div style="margin-top:12px"><button class="btn ghost" type="button" data-listen>▶ ${esc(t.listen)}</button></div>
+  ${a.guide ? shareRow(" top") + "</div>" : ""}
   <div class="tldr"><b>${esc(t.thirty)}</b><ul>${c.tldr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
   ${c.means ? `<div class="means"><b>${esc(t.means)}</b><p>${esc(c.means)}</p></div>` : ""}
-  <div class="prose" data-speak>${md(c.body)}</div>
+  ${toc}
+  <div class="prose" data-speak>${prose}</div>
+  ${cta}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}
   <div class="src"><div>${esc(t.source)} ${src}</div></div>
-  <div class="share">
-    <a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(c.title + " " + abs(P(lang, "/a/" + a.slug + "/")))}" target="_blank" rel="noopener">${esc(t.shareWa)}</a>
-    <button class="btn ghost" type="button" data-copy="${abs(P(lang, "/a/" + a.slug + "/"))}">${esc(t.copy)}</button>
+  ${shareRow()}
     <button class="btn ghost" type="button" data-toggle="report-form">${esc(t.report)}</button>
     <button class="btn ghost" type="button" data-toggle="feedback-form">${esc(t.feedback)}</button>
   </div>
