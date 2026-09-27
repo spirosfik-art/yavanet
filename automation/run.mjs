@@ -11,7 +11,9 @@ import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, 
 import { SITE, SECTIONS } from "../site/config.mjs";
 import { ART_KEYS } from "../site/art.mjs";
 
-const MAX_PER_DAY = Number(env.MAX_PER_DAY || 15);
+// Όριο ανά μέρα ΚΑΙ ανά ώρα: έτσι δεν «καίγεται» όλο το όριο το πρωί και μένει το απόγευμα χωρίς άρθρα
+const MAX_PER_DAY = Number(env.MAX_PER_DAY || 36);
+const MAX_PER_HOUR = Number(env.MAX_PER_HOUR || 4);
 const MIN_PER_DAY = Number(env.MIN_PER_DAY || 8);
 const MAX_PER_RUN = Number(env.MAX_PER_RUN || 4);
 const APPROVAL_TIMEOUT_MIN = Number(env.APPROVAL_TIMEOUT_MIN || 120);
@@ -34,7 +36,7 @@ const reject = (title, reason) => { log("✗", title, "→", reason); state.toda
 async function ask(opts) {
   for (let i = 0; ; i++) {
     const text = await claude(opts);
-    try { return parseJSON(text); } catch (e) { if (i >= 1) throw new Error("Μη έγκυρη απάντηση AI: " + e.message); log("μη έγκυρο JSON, νέα προσπάθεια"); }
+    try { return parseJSON(text); } catch (e) { if (i >= 2) throw new Error("Μη έγκυρη απάντηση AI: " + e.message); log("μη έγκυρο JSON, νέα προσπάθεια"); }
   }
 }
 
@@ -130,7 +132,10 @@ async function collect() {
 async function select(items) {
   if (!items.length) return [];
   const recent = loadArticles().sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")).slice(0, 40).map((a) => a.en && a.en.title).filter(Boolean);
-  const remaining = Math.max(0, MAX_PER_DAY - state.today.count);
+  const hourAgo = Date.now() - 3600e3;
+  const lastHour = (state.today.published || []).filter((x) => Date.parse(x.at) > hourAgo).length;
+  const remaining = Math.max(0, Math.min(MAX_PER_DAY - state.today.count, MAX_PER_HOUR - lastHour));
+  if (!remaining && !items.some((i) => i.official)) { log(`όριο (ημέρα ${state.today.count}/${MAX_PER_DAY}, ώρα ${lastHour}/${MAX_PER_HOUR}) – η επιλογή περιμένει`); return []; }
   let hint = "";
   if (now.hour >= 17 && state.today.count < MIN_PER_DAY) hint = `\nWe have published only ${state.today.count} today; our minimum is ${MIN_PER_DAY}. Be a bit more inclusive with relevant items.`;
   const out = (await ask({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));

@@ -173,8 +173,47 @@ export function parseJSON(text) {
   try { return JSON.parse(raw); } catch (e) {
     // Συχνό λάθος: εβραϊκές συντομογραφίες με " (π.χ. נדל"ן, ארה"ב) → γερσάγιμ ״
     const fixed = raw.replace(/([\u0590-\u05FF])"([\u0590-\u05FF])/g, "$1״$2").replace(/([\u0590-\u05FF])'([\u0590-\u05FF])/g, "$1׳$2");
-    return JSON.parse(fixed);
+    try { return JSON.parse(fixed); } catch (e2) {
+      try { return JSON.parse(repairQuotes(fixed)); } catch (e3) {
+        // ίσως κόπηκε η απάντηση: από την αρχή του JSON μέχρι το τέλος του κειμένου
+        return JSON.parse(repairQuotes(s.slice(start).replace(/([\u0590-\u05FF])"([\u0590-\u05FF])/g, "$1״$2")));
+      }
+    }
   }
+}
+// Το AI συχνά βάζει εισαγωγικά μέσα σε κείμενο χωρίς escape (π.χ. ο "Μητσοτάκης" είπε) ή ξεχνά
+// μια γραμμή αλλαγής. Διαβάζουμε χαρακτήρα-χαρακτήρα: ένα " μέσα σε string που ΔΕΝ ακολουθείται από
+// , : } ] είναι μέρος του κειμένου → γίνεται \". Επίσης κλείνει ό,τι έμεινε ανοιχτό αν κόπηκε η απάντηση.
+function repairQuotes(t) {
+  let out = "", inStr = false, esc = false; const stack = [];
+  for (let i = 0; i < t.length; i++) {
+    const c = t[i];
+    if (inStr) {
+      if (esc) { out += c; esc = false; continue; }
+      if (c === "\\") { out += c; esc = true; continue; }
+      if (c === "\n") { out += "\\n"; continue; }
+      if (c === "\r" || c === "\t") { out += " "; continue; }
+      if (c === '"') {
+        let j = i + 1; while (j < t.length && /\s/.test(t[j])) j++;
+        let closes = j >= t.length || "}]".includes(t[j]);
+        if (!closes && ",:".includes(t[j])) {
+          let k = j + 1; while (k < t.length && /\s/.test(t[k])) k++;
+          closes = k >= t.length || /["{\[\-0-9]/.test(t[k]) || /^(true|false|null)\s*[,}\]]/.test(t.slice(k, k + 7));
+        }
+        if (closes) { inStr = false; out += c; } else out += '\\"';
+        continue;
+      }
+      out += c; continue;
+    }
+    if (c === '"') { inStr = true; out += c; continue; }
+    if (c === "{" || c === "[") stack.push(c === "{" ? "}" : "]");
+    else if (c === "}" || c === "]") stack.pop();
+    out += c;
+  }
+  if (inStr) out += '"';
+  out = out.replace(/,\s*$/, "");
+  while (stack.length) out += stack.pop();
+  return out.replace(/,(\s*[}\]])/g, "$1");
 }
 
 /* ---------- Telegram ---------- */
