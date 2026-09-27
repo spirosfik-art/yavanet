@@ -13,7 +13,7 @@ import { ART_KEYS } from "../site/art.mjs";
 
 const MAX_PER_DAY = Number(env.MAX_PER_DAY || 15);
 const MIN_PER_DAY = Number(env.MIN_PER_DAY || 8);
-const MAX_PER_RUN = Number(env.MAX_PER_RUN || 3);
+const MAX_PER_RUN = Number(env.MAX_PER_RUN || 4);
 const APPROVAL_TIMEOUT_MIN = Number(env.APPROVAL_TIMEOUT_MIN || 120);
 const SELECT_MODEL = env.SELECT_MODEL || "claude-haiku-4-5-20251001";
 const WRITE_MODEL = env.ANTHROPIC_MODEL || "claude-sonnet-5";
@@ -136,7 +136,10 @@ async function select(items) {
   state.lastSelection = { at: new Date().toISOString(), considered: items.length, picked: picks.length, items: items.slice(0, 30).map((i) => `${chosen.has(i.id) ? "✓" : "·"} ${i.sourceId} | ${i.title.slice(0, 90)}`) };
   // Τα έκτακτα από επίσημες πηγές δεν μετράνε στο ημερήσιο όριο
   const brk = picks.filter((p) => p.breaking && p.item.official);
-  const normal = picks.filter((p) => !(p.breaking && p.item.official)).slice(0, Math.min(MAX_PER_RUN, remaining));
+  const allNormal = picks.filter((p) => !(p.breaking && p.item.official));
+  const normal = allNormal.slice(0, Math.min(MAX_PER_RUN, remaining));
+  // Όσα επιλέχθηκαν αλλά δεν χωράνε τώρα, ξαναεξετάζονται στην επόμενη εκτέλεση
+  for (const p of [...allNormal.slice(normal.length), ...brk.slice(3)]) delete state.seen[p.item.id];
   return [...brk.slice(0, 3), ...normal];
 }
 
