@@ -70,87 +70,87 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T09:48:13.707Z",
+      "at": "2026-09-27T10:00:52.594Z",
       "error": "HTTP 403",
-      "fails": 58
+      "fails": 59
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T09:48:15.599Z",
+      "at": "2026-09-27T10:00:55.190Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T09:48:16.307Z",
+      "at": "2026-09-27T10:00:55.985Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T09:48:16.385Z",
+      "at": "2026-09-27T10:00:56.317Z",
       "error": "HTTP 403",
-      "fails": 58
+      "fails": 59
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T09:48:17.330Z",
+      "at": "2026-09-27T10:00:57.824Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T09:48:17.443Z",
+      "at": "2026-09-27T10:00:58.045Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T09:48:18.201Z",
+      "at": "2026-09-27T10:00:59.301Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T09:48:18.739Z",
+      "at": "2026-09-27T10:01:00.138Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T09:48:19.586Z",
+      "at": "2026-09-27T10:01:01.280Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T09:48:19.621Z",
+      "at": "2026-09-27T10:01:01.351Z",
       "error": "HTTP 403",
-      "fails": 58
+      "fails": 59
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T09:48:19.998Z",
+      "at": "2026-09-27T10:01:02.052Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T09:48:20.113Z",
+      "at": "2026-09-27T10:01:02.299Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T09:48:20.470Z",
+      "at": "2026-09-27T10:01:03.532Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T09:48:20.742Z",
-      "items": 7
+      "at": "2026-09-27T10:01:04.305Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T09:48:20.800Z",
+      "at": "2026-09-27T10:01:04.448Z",
       "items": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-27",
-    "count": 12,
+    "count": 13,
     "published": [
       {
         "slug": "rent-subsidy-paid-regional-workers-greece",
@@ -223,6 +223,12 @@
         "title": "Rhodes Hosts Forum on Tourism and Climate Crisis",
         "at": "2026-09-27T11:49:27+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "jewish-history-thessaloniki-guide",
+        "title": "The Jewish History and Heritage of Thessaloniki: A Visitor's Guide",
+        "at": "2026-09-27T13:01:11+03:00",
+        "section": "jewish-greece"
       }
     ],
     "rejected": [
@@ -263,5 +269,9 @@
       "· ingr | Γκίλφοϊλ για την τραγωδία στην Πλάκα – «Βαθιά θλίψη για τον θάνατο των τεσσάρων Αμερικανών",
       "· gct | September 27, 1831: The assassination of Greece’s First Governor Kapodistrias"
     ]
-  }
+  },
+  "evergreenDone": [
+    "jews-thessaloniki"
+  ],
+  "lastEvergreen": 1790503264450
 }
