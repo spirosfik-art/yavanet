@@ -1,70 +1,76 @@
 {
- "slug": "managing-property-in-greece-from-israel",
- "section": "real-estate",
- "guide": true,
- "guideCat": "invest",
- "cta": "realestate",
- "publishedAt": "2026-09-28T02:10:00+03:00",
- "updatedAt": null,
- "sensitive": false,
- "sponsored": false,
- "breaking": false,
- "geo": null,
- "image": {
-  "type": "illustration",
-  "key": "house"
- },
- "sources": [
-  {
-   "name": "Taxheaven – חוק 5246/2025, מס על הכנסה משכירות",
-   "url": "https://www.taxheaven.gr/law/5246/2025/arthro/8"
+  "slug": "managing-property-in-greece-from-israel",
+  "section": "real-estate",
+  "guide": true,
+  "guideCat": "invest",
+  "cta": "realestate",
+  "publishedAt": "2026-09-28T02:10:00+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33514378/pexels-photo-33514378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the classic architecture of Athens with charming vintage balconies against a bright blue sky.",
+    "credit": "Photo: Farzona Comnas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-vintage-balconies-in-athens-greece-33514378/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
-  {
-   "name": "stegasi.gov.gr – פטור של 3 שנים במעבר להשכרה ארוכה",
-   "url": "https://stegasi.gov.gr/programs/apallagi-forou-eisodimatos-apo-enoikio-gia-metatropi-chrisis-akinitou-se-makrochronia-misthosi/"
+  "sources": [
+    {
+      "name": "Taxheaven – חוק 5246/2025, מס על הכנסה משכירות",
+      "url": "https://www.taxheaven.gr/law/5246/2025/arthro/8"
+    },
+    {
+      "name": "stegasi.gov.gr – פטור של 3 שנים במעבר להשכרה ארוכה",
+      "url": "https://stegasi.gov.gr/programs/apallagi-forou-eisodimatos-apo-enoikio-gia-metatropi-chrisis-akinitou-se-makrochronia-misthosi/"
+    },
+    {
+      "name": "TaxRevenue – אגרת עמידות אקלימית 2026",
+      "url": "https://taxrevenue.gr/telos-anthektikotitas-klimatikis-krisis/"
+    },
+    {
+      "name": "in.gr – הקפאת רישום Airbnb במרכז אתונה עד 2027",
+      "url": "https://www.in.gr/2026/09/07/economy/oikonomikes-eidiseis/freno-sta-airbnb-kai-to-2027-oi-neoi-koftes/amp/"
+    },
+    {
+      "name": "GTP – כללי ההשכרה הקצרה ב-2026",
+      "url": "https://news.gtp.gr/2026/01/26/short-term-rentals-in-greece-new-restrictions-take-effect-in-2026/"
+    },
+    {
+      "name": "AADE – מספר מס למי שלא גר ביוון",
+      "url": "https://www.aade.gr/en/greeks-abroad-non-residents/registration-tax-register/issuance-tax-identification-number-and-authentication-key-and-appointment"
+    }
+  ],
+  "he": {
+    "title": "ניהול נכס ביוון מישראל: המדריך המלא (2026)",
+    "dek": "השכרה ארוכה או Airbnb, כמה מס משלמים על השכירות, מה חובה לדווח, ומי מטפל בדירה כשאתם בישראל.",
+    "tldr": [
+      "מס על שכירות ביוון: 15% עד 12,000 אירו בשנה, ועד 45% מעל 36,000.",
+      "בהשכרה קצרה חובה מספר רישום (ΑΜΑ), ובמרכז אתונה אי אפשר לרשום דירות חדשות.",
+      "דירה שעוברת להשכרה ארוכה עד סוף 2026 יכולה לקבל פטור ממס ל-3 שנים."
+    ],
+    "means": "לפני שמחליטים בין השכרה ארוכה לקצרה, כדאי לחשב את התשואה נטו: מס, ועד בית, ΕΝΦΙΑ ודמי ניהול. וצריך מישהו אמין בשטח.",
+    "body": "## למי המדריך הזה?\n\nלמי שכבר קנה דירה ביוון, או שוקל לקנות, וגר בישראל. ניהול נכס מרחוק אפשרי לגמרי, אבל צריך לדעת מה חובה לעשות, כמה זה עולה, ומי יעשה את העבודה בשטח.\n\n## שתי דרכים להשכיר: ארוכה או קצרה\n\n| | השכרה ארוכה | השכרה קצרה (Airbnb) |\n|---|---|---|\n| משך | חוזה מגורים, לפחות 3 שנים לפי החוק | לילות ושבועות |\n| הכנסה | יציבה, פחות גבוהה | גבוהה יותר בעונה, לא יציבה |\n| עבודה | מעט: שוכר אחד | הרבה: ניקיון, כביסה, צ׳ק־אין, תקלות |\n| רישום | הצהרת חוזה ברשות המסים | מספר רישום (ΑΜΑ) לפני כל פרסום |\n| הגבלות | כמעט אין | אסור לרשום דירות חדשות במרכז אתונה |\n\n## השכרה ארוכה: מה חובה\n\n- **הצהרה על החוזה** באתר רשות המסים (AADE). בעל הדירה מצהיר על כל חוזה שכירות, והשוכר מאשר.\n- **משך מינימלי:** חוזה מגורים ביוון הוא לפחות 3 שנים, גם אם כתוב פחות.\n- **תשלום:** כדאי לקבל את שכר הדירה רק להעברה בנקאית לחשבון יווני. כך יש תיעוד מלא.\n- **פטור ממס ל-3 שנים:** דירה שהייתה ריקה לפחות 3 שנים, או שהייתה בהשכרה קצרה, ועוברת להשכרה ארוכה, פטורה ממס על השכירות ל-3 שנים. התנאים: עד 120 מ״ר (ועוד 20 מ״ר לכל ילד), חוזה של לפחות 3 שנים שנחתם עד 31 בדצמבר 2026.\n\n## השכרה קצרה: מה חובה\n\n- **מספר רישום (ΑΜΑ)** מרשות המסים לכל דירה, לפני שמפרסמים ב-Airbnb או Booking. בלי מספר רישום יש קנס כבד.\n- **מרכז אתונה:** ברובעים 1, 2 ו-3 של עיריית אתונה אסור לרשום דירות חדשות להשכרה קצרה. לפי הודעת הממשלה, האיסור יימשך עד סוף 2027. כשדירה עם רישום נמכרת, הרישום נמחק.\n- **דרישות בטיחות:** מטף, גלאי עשן, ערכת עזרה ראשונה וביטוח אחריות. בדקו את הרשימה המעודכנת לפני הפתיחה.\n- **אגרת אקלים (ΤΑΚΚ):** משולמת על כל לילה, ובדרך כלל גובים אותה מהאורח.\n- **3 דירות ומעלה:** מי שמשכיר בהשכרה קצרה 3 דירות או יותר נחשב לעסק, עם חובות של עסק (מע״מ ועוד).\n\n| אגרת אקלים ללילה (2026) | אפריל–אוקטובר | נובמבר–מרץ |\n|---|---|---|\n| נכס עד 80 מ״ר | 8 אירו | 2 אירו |\n| נכס מעל 80 מ״ר | 15 אירו | 4 אירו |\n\n## מיסים: כמה משלמים על השכירות?\n\nמס על הכנסה משכירות לאנשים פרטיים (מ-2026), לפי ההכנסה השנתית:\n\n| הכנסה שנתית משכירות | שיעור המס |\n|---|---|\n| עד 12,000 אירו | 15% |\n| 12,001–24,000 אירו | 25% |\n| 24,001–36,000 אירו | 35% |\n| מעל 36,000 אירו | 45% |\n\n- **דוח שנתי:** מי שיש לו הכנסה משכירות ביוון מגיש דוח מס ביוון כל שנה (טופס Ε1, ופירוט הנכסים בטופס Ε2), גם אם הוא גר בישראל.\n- **ΕΝΦΙΑ:** מס רכוש שנתי שמשלם מי שהנכס בבעלותו ב-1 בינואר. משלמים בתשלומים במהלך השנה.\n- **כפל מס:** בין ישראל ליוון יש אמנה למניעת כפל מס. דווחו גם בישראל, והתייעצו עם רואה חשבון שמכיר את שתי המדינות.\n- **נציג מס:** מי שגר מחוץ לאיחוד האירופי עלול להידרש למנות נציג ביוון מול רשות המסים. רואה החשבון היווני יבדוק אם זה נדרש במקרה שלכם.\n\n## מה צריך בשטח, כשאתם בישראל?\n\n- **רואה חשבון יווני** לדוחות, ΕΝΦΙΑ והצהרות החוזים.\n- **חשבון בנק יווני** עם גישה דיגיטלית. [המדריך למספר מס וחשבון בנק](/a/greek-tax-number-and-bank-account-guide/).\n- **מנהל נכס:** מישהו שמחזיק מפתח, מטפל בתקלות, מראה את הדירה לשוכרים, ובהשכרה קצרה גם מנהל ניקיון וצ׳ק־אין. בהשכרה קצרה, חברות ניהול לוקחות בדרך כלל אחוז מההכנסה.\n- **ועד הבית (κοινόχρηστα):** בבניינים משלמים דמי ועד חודשיים לחימום, מעלית וניקיון. כדאי לסגור עם השוכר מי משלם מה.\n- **חשמל ומים:** בהשכרה ארוכה מעבירים את החשבונות לשם השוכר.\n\n## לוח שנה של בעל נכס\n\n1. **ינואר:** מי שבעלים ב-1 בינואר חייב ב-ΕΝΦΙΑ לאותה שנה.\n2. **אביב:** מקבלים את חיוב ה-ΕΝΦΙΑ ומתחילים לשלם בתשלומים.\n3. **אביב–קיץ:** מגישים דוח מס שנתי על ההכנסה מהשנה הקודמת.\n4. **כל חוזה חדש:** הצהרה ברשות המסים.\n5. **כל לילה בהשכרה קצרה:** אגרת אקלים והצהרה על השהייה.\n\n## הטעויות הנפוצות\n\n- לקנות במרכז אתונה כדי להשכיר ב-Airbnb, ולגלות שאי אפשר לרשום את הדירה.\n- להשכיר לחברים או למכרים \"בלי חוזה\", ולהישאר בלי הגנה ובלי תיעוד.\n- לא להגיש דוח ביוון כי \"אני גר בישראל\".\n- לא לחשב את המס, הוועד, ה-ΕΝΦΙΑ ודמי הניהול לפני שמחשבים תשואה.\n\n[המדריך המלא לקניית דירה ביוון](/a/buying-property-in-greece-israelis-guide/) · [מחירי הדירות לפי אזור](/madad/)\n\nהמידע כאן הוא מידע כללי ואינו ייעוץ משפטי או מיסויי. החוקים משתנים, והתייעצו עם רואה חשבון ועורך דין לפני כל החלטה."
   },
-  {
-   "name": "TaxRevenue – אגרת עמידות אקלימית 2026",
-   "url": "https://taxrevenue.gr/telos-anthektikotitas-klimatikis-krisis/"
+  "en": {
+    "title": "Managing property in Greece from Israel: the complete guide (2026)",
+    "dek": "Long-term or Airbnb, how much tax you pay on rent, what you must declare, and who looks after the flat while you are in Israel.",
+    "tldr": [
+      "Rental tax in Greece: 15% up to €12,000 a year, rising to 45% above €36,000.",
+      "Short lets need a registration number (ΑΜΑ), and new registrations are banned in central Athens.",
+      "A flat moved to a long-term lease by the end of 2026 can get a 3-year tax exemption."
+    ],
+    "means": "Before choosing between long-term and short-term letting, calculate the net yield: tax, building charges, ΕΝΦΙΑ and management fees. And you need someone reliable on the ground.",
+    "body": "## Who is this guide for?\n\nFor anyone who owns (or is considering) a flat in Greece and lives in Israel. Managing a property remotely is entirely possible, but you need to know what is mandatory, what it costs and who will do the work on the ground.\n\n## Two ways to rent: long-term or short-term\n\n| | Long-term | Short-term (Airbnb) |\n|---|---|---|\n| Length | Residential lease, at least 3 years by law | Nights and weeks |\n| Income | Stable, lower | Higher in season, irregular |\n| Work | Little: one tenant | A lot: cleaning, laundry, check-in, repairs |\n| Registration | Lease declaration with the tax authority | Registration number (ΑΜΑ) before any listing |\n| Restrictions | Almost none | No new registrations in central Athens |\n\n## Long-term renting: what is mandatory\n\n- **Lease declaration** on the tax authority (AADE) website. The landlord declares every lease and the tenant confirms it.\n- **Minimum term:** a residential lease in Greece is at least 3 years, even if the contract says less.\n- **Payment:** it is best to receive rent only by bank transfer to a Greek account, for a full record.\n- **3-year tax exemption:** a flat that was empty for at least 3 years, or was on short-term rental, and moves to a long-term lease is exempt from rental income tax for 3 years. Conditions: up to 120 m² (plus 20 m² per child), a lease of at least 3 years signed by 31 December 2026.\n\n## Short-term renting: what is mandatory\n\n- **Registration number (ΑΜΑ)** from the tax authority for each flat, before listing on Airbnb or Booking. Letting without one carries heavy fines.\n- **Central Athens:** in Athens municipal districts 1, 2 and 3, new short-term rental registrations are banned. According to the government announcement, the ban will last until the end of 2027. When a registered flat is sold, the registration is deleted.\n- **Safety requirements:** fire extinguisher, smoke detector, first-aid kit and liability insurance. Check the current list before opening.\n- **Climate fee (ΤΑΚΚ):** charged per night, usually collected from the guest.\n- **3 or more flats:** letting 3 or more properties short-term counts as a business, with business obligations (VAT and more).\n\n| Climate fee per night (2026) | April–October | November–March |\n|---|---|---|\n| Property up to 80 m² | €8 | €2 |\n| Property over 80 m² | €15 | €4 |\n\n## Taxes: how much on rental income?\n\nRental income tax for individuals (from 2026), by annual income:\n\n| Annual rental income | Tax rate |\n|---|---|\n| Up to €12,000 | 15% |\n| €12,001–24,000 | 25% |\n| €24,001–36,000 | 35% |\n| Over €36,000 | 45% |\n\n- **Annual return:** anyone with rental income in Greece files a Greek tax return every year (form Ε1, with property details on form Ε2), even if they live in Israel.\n- **ΕΝΦΙΑ:** annual property tax, paid by whoever owns the property on 1 January, in instalments during the year.\n- **Double taxation:** Israel and Greece have a double tax treaty. Report in Israel as well and consult an accountant who knows both countries.\n- **Tax representative:** owners living outside the EU may need to appoint a representative in Greece for the tax authority. A Greek accountant will check whether this applies to you.\n\n## What you need on the ground while you are in Israel\n\n- **A Greek accountant** for returns, ΕΝΦΙΑ and lease declarations.\n- **A Greek bank account** with online access. [Tax number and bank account guide](/en/a/greek-tax-number-and-bank-account-guide/).\n- **A property manager** who holds the keys, handles repairs, shows the flat to tenants and, for short lets, manages cleaning and check-in. For short lets, management companies usually take a percentage of income.\n- **Building charges (κοινόχρηστα):** monthly fees for heating, lift and cleaning. Agree with the tenant who pays what.\n- **Electricity and water:** for long-term lets, transfer the bills to the tenant's name.\n\n## A property owner's calendar\n\n1. **January:** whoever owns the property on 1 January owes that year's ΕΝΦΙΑ.\n2. **Spring:** the ΕΝΦΙΑ bill arrives and instalments begin.\n3. **Spring–summer:** file the annual tax return for the previous year's income.\n4. **Every new lease:** declaration with the tax authority.\n5. **Every short-let night:** climate fee and stay declaration.\n\n## Common mistakes\n\n- Buying in central Athens to run an Airbnb, then discovering the flat cannot be registered.\n- Renting to friends \"without a contract\" and being left without protection or records.\n- Not filing in Greece because \"I live in Israel\".\n- Not accounting for tax, building charges, ΕΝΦΙΑ and management fees when calculating yield.\n\n[Full guide to buying a flat in Greece](/en/a/buying-property-in-greece-israelis-guide/) · [Property prices by area](/en/madad/)\n\nThis is general information, not legal or tax advice. Laws change; consult an accountant and a lawyer before any decision."
   },
-  {
-   "name": "in.gr – הקפאת רישום Airbnb במרכז אתונה עד 2027",
-   "url": "https://www.in.gr/2026/09/07/economy/oikonomikes-eidiseis/freno-sta-airbnb-kai-to-2027-oi-neoi-koftes/amp/"
-  },
-  {
-   "name": "GTP – כללי ההשכרה הקצרה ב-2026",
-   "url": "https://news.gtp.gr/2026/01/26/short-term-rentals-in-greece-new-restrictions-take-effect-in-2026/"
-  },
-  {
-   "name": "AADE – מספר מס למי שלא גר ביוון",
-   "url": "https://www.aade.gr/en/greeks-abroad-non-residents/registration-tax-register/issuance-tax-identification-number-and-authentication-key-and-appointment"
+  "meta": {
+    "manual": true,
+    "imageQuery": "athens apartment balcony keys",
+    "checkedAt": "2026-09-28T02:10:00+03:00",
+    "photoTried": true
   }
- ],
- "he": {
-  "title": "ניהול נכס ביוון מישראל: המדריך המלא (2026)",
-  "dek": "השכרה ארוכה או Airbnb, כמה מס משלמים על השכירות, מה חובה לדווח, ומי מטפל בדירה כשאתם בישראל.",
-  "tldr": [
-   "מס על שכירות ביוון: 15% עד 12,000 אירו בשנה, ועד 45% מעל 36,000.",
-   "בהשכרה קצרה חובה מספר רישום (ΑΜΑ), ובמרכז אתונה אי אפשר לרשום דירות חדשות.",
-   "דירה שעוברת להשכרה ארוכה עד סוף 2026 יכולה לקבל פטור ממס ל-3 שנים."
-  ],
-  "means": "לפני שמחליטים בין השכרה ארוכה לקצרה, כדאי לחשב את התשואה נטו: מס, ועד בית, ΕΝΦΙΑ ודמי ניהול. וצריך מישהו אמין בשטח.",
-  "body": "## למי המדריך הזה?\n\nלמי שכבר קנה דירה ביוון, או שוקל לקנות, וגר בישראל. ניהול נכס מרחוק אפשרי לגמרי, אבל צריך לדעת מה חובה לעשות, כמה זה עולה, ומי יעשה את העבודה בשטח.\n\n## שתי דרכים להשכיר: ארוכה או קצרה\n\n| | השכרה ארוכה | השכרה קצרה (Airbnb) |\n|---|---|---|\n| משך | חוזה מגורים, לפחות 3 שנים לפי החוק | לילות ושבועות |\n| הכנסה | יציבה, פחות גבוהה | גבוהה יותר בעונה, לא יציבה |\n| עבודה | מעט: שוכר אחד | הרבה: ניקיון, כביסה, צ׳ק־אין, תקלות |\n| רישום | הצהרת חוזה ברשות המסים | מספר רישום (ΑΜΑ) לפני כל פרסום |\n| הגבלות | כמעט אין | אסור לרשום דירות חדשות במרכז אתונה |\n\n## השכרה ארוכה: מה חובה\n\n- **הצהרה על החוזה** באתר רשות המסים (AADE). בעל הדירה מצהיר על כל חוזה שכירות, והשוכר מאשר.\n- **משך מינימלי:** חוזה מגורים ביוון הוא לפחות 3 שנים, גם אם כתוב פחות.\n- **תשלום:** כדאי לקבל את שכר הדירה רק להעברה בנקאית לחשבון יווני. כך יש תיעוד מלא.\n- **פטור ממס ל-3 שנים:** דירה שהייתה ריקה לפחות 3 שנים, או שהייתה בהשכרה קצרה, ועוברת להשכרה ארוכה, פטורה ממס על השכירות ל-3 שנים. התנאים: עד 120 מ״ר (ועוד 20 מ״ר לכל ילד), חוזה של לפחות 3 שנים שנחתם עד 31 בדצמבר 2026.\n\n## השכרה קצרה: מה חובה\n\n- **מספר רישום (ΑΜΑ)** מרשות המסים לכל דירה, לפני שמפרסמים ב-Airbnb או Booking. בלי מספר רישום יש קנס כבד.\n- **מרכז אתונה:** ברובעים 1, 2 ו-3 של עיריית אתונה אסור לרשום דירות חדשות להשכרה קצרה. לפי הודעת הממשלה, האיסור יימשך עד סוף 2027. כשדירה עם רישום נמכרת, הרישום נמחק.\n- **דרישות בטיחות:** מטף, גלאי עשן, ערכת עזרה ראשונה וביטוח אחריות. בדקו את הרשימה המעודכנת לפני הפתיחה.\n- **אגרת אקלים (ΤΑΚΚ):** משולמת על כל לילה, ובדרך כלל גובים אותה מהאורח.\n- **3 דירות ומעלה:** מי שמשכיר בהשכרה קצרה 3 דירות או יותר נחשב לעסק, עם חובות של עסק (מע״מ ועוד).\n\n| אגרת אקלים ללילה (2026) | אפריל–אוקטובר | נובמבר–מרץ |\n|---|---|---|\n| נכס עד 80 מ״ר | 8 אירו | 2 אירו |\n| נכס מעל 80 מ״ר | 15 אירו | 4 אירו |\n\n## מיסים: כמה משלמים על השכירות?\n\nמס על הכנסה משכירות לאנשים פרטיים (מ-2026), לפי ההכנסה השנתית:\n\n| הכנסה שנתית משכירות | שיעור המס |\n|---|---|\n| עד 12,000 אירו | 15% |\n| 12,001–24,000 אירו | 25% |\n| 24,001–36,000 אירו | 35% |\n| מעל 36,000 אירו | 45% |\n\n- **דוח שנתי:** מי שיש לו הכנסה משכירות ביוון מגיש דוח מס ביוון כל שנה (טופס Ε1, ופירוט הנכסים בטופס Ε2), גם אם הוא גר בישראל.\n- **ΕΝΦΙΑ:** מס רכוש שנתי שמשלם מי שהנכס בבעלותו ב-1 בינואר. משלמים בתשלומים במהלך השנה.\n- **כפל מס:** בין ישראל ליוון יש אמנה למניעת כפל מס. דווחו גם בישראל, והתייעצו עם רואה חשבון שמכיר את שתי המדינות.\n- **נציג מס:** מי שגר מחוץ לאיחוד האירופי עלול להידרש למנות נציג ביוון מול רשות המסים. רואה החשבון היווני יבדוק אם זה נדרש במקרה שלכם.\n\n## מה צריך בשטח, כשאתם בישראל?\n\n- **רואה חשבון יווני** לדוחות, ΕΝΦΙΑ והצהרות החוזים.\n- **חשבון בנק יווני** עם גישה דיגיטלית. [המדריך למספר מס וחשבון בנק](/a/greek-tax-number-and-bank-account-guide/).\n- **מנהל נכס:** מישהו שמחזיק מפתח, מטפל בתקלות, מראה את הדירה לשוכרים, ובהשכרה קצרה גם מנהל ניקיון וצ׳ק־אין. בהשכרה קצרה, חברות ניהול לוקחות בדרך כלל אחוז מההכנסה.\n- **ועד הבית (κοινόχρηστα):** בבניינים משלמים דמי ועד חודשיים לחימום, מעלית וניקיון. כדאי לסגור עם השוכר מי משלם מה.\n- **חשמל ומים:** בהשכרה ארוכה מעבירים את החשבונות לשם השוכר.\n\n## לוח שנה של בעל נכס\n\n1. **ינואר:** מי שבעלים ב-1 בינואר חייב ב-ΕΝΦΙΑ לאותה שנה.\n2. **אביב:** מקבלים את חיוב ה-ΕΝΦΙΑ ומתחילים לשלם בתשלומים.\n3. **אביב–קיץ:** מגישים דוח מס שנתי על ההכנסה מהשנה הקודמת.\n4. **כל חוזה חדש:** הצהרה ברשות המסים.\n5. **כל לילה בהשכרה קצרה:** אגרת אקלים והצהרה על השהייה.\n\n## הטעויות הנפוצות\n\n- לקנות במרכז אתונה כדי להשכיר ב-Airbnb, ולגלות שאי אפשר לרשום את הדירה.\n- להשכיר לחברים או למכרים \"בלי חוזה\", ולהישאר בלי הגנה ובלי תיעוד.\n- לא להגיש דוח ביוון כי \"אני גר בישראל\".\n- לא לחשב את המס, הוועד, ה-ΕΝΦΙΑ ודמי הניהול לפני שמחשבים תשואה.\n\n[המדריך המלא לקניית דירה ביוון](/a/buying-property-in-greece-israelis-guide/) · [מחירי הדירות לפי אזור](/madad/)\n\nהמידע כאן הוא מידע כללי ואינו ייעוץ משפטי או מיסויי. החוקים משתנים, והתייעצו עם רואה חשבון ועורך דין לפני כל החלטה."
- },
- "en": {
-  "title": "Managing property in Greece from Israel: the complete guide (2026)",
-  "dek": "Long-term or Airbnb, how much tax you pay on rent, what you must declare, and who looks after the flat while you are in Israel.",
-  "tldr": [
-   "Rental tax in Greece: 15% up to €12,000 a year, rising to 45% above €36,000.",
-   "Short lets need a registration number (ΑΜΑ), and new registrations are banned in central Athens.",
-   "A flat moved to a long-term lease by the end of 2026 can get a 3-year tax exemption."
-  ],
-  "means": "Before choosing between long-term and short-term letting, calculate the net yield: tax, building charges, ΕΝΦΙΑ and management fees. And you need someone reliable on the ground.",
-  "body": "## Who is this guide for?\n\nFor anyone who owns (or is considering) a flat in Greece and lives in Israel. Managing a property remotely is entirely possible, but you need to know what is mandatory, what it costs and who will do the work on the ground.\n\n## Two ways to rent: long-term or short-term\n\n| | Long-term | Short-term (Airbnb) |\n|---|---|---|\n| Length | Residential lease, at least 3 years by law | Nights and weeks |\n| Income | Stable, lower | Higher in season, irregular |\n| Work | Little: one tenant | A lot: cleaning, laundry, check-in, repairs |\n| Registration | Lease declaration with the tax authority | Registration number (ΑΜΑ) before any listing |\n| Restrictions | Almost none | No new registrations in central Athens |\n\n## Long-term renting: what is mandatory\n\n- **Lease declaration** on the tax authority (AADE) website. The landlord declares every lease and the tenant confirms it.\n- **Minimum term:** a residential lease in Greece is at least 3 years, even if the contract says less.\n- **Payment:** it is best to receive rent only by bank transfer to a Greek account, for a full record.\n- **3-year tax exemption:** a flat that was empty for at least 3 years, or was on short-term rental, and moves to a long-term lease is exempt from rental income tax for 3 years. Conditions: up to 120 m² (plus 20 m² per child), a lease of at least 3 years signed by 31 December 2026.\n\n## Short-term renting: what is mandatory\n\n- **Registration number (ΑΜΑ)** from the tax authority for each flat, before listing on Airbnb or Booking. Letting without one carries heavy fines.\n- **Central Athens:** in Athens municipal districts 1, 2 and 3, new short-term rental registrations are banned. According to the government announcement, the ban will last until the end of 2027. When a registered flat is sold, the registration is deleted.\n- **Safety requirements:** fire extinguisher, smoke detector, first-aid kit and liability insurance. Check the current list before opening.\n- **Climate fee (ΤΑΚΚ):** charged per night, usually collected from the guest.\n- **3 or more flats:** letting 3 or more properties short-term counts as a business, with business obligations (VAT and more).\n\n| Climate fee per night (2026) | April–October | November–March |\n|---|---|---|\n| Property up to 80 m² | €8 | €2 |\n| Property over 80 m² | €15 | €4 |\n\n## Taxes: how much on rental income?\n\nRental income tax for individuals (from 2026), by annual income:\n\n| Annual rental income | Tax rate |\n|---|---|\n| Up to €12,000 | 15% |\n| €12,001–24,000 | 25% |\n| €24,001–36,000 | 35% |\n| Over €36,000 | 45% |\n\n- **Annual return:** anyone with rental income in Greece files a Greek tax return every year (form Ε1, with property details on form Ε2), even if they live in Israel.\n- **ΕΝΦΙΑ:** annual property tax, paid by whoever owns the property on 1 January, in instalments during the year.\n- **Double taxation:** Israel and Greece have a double tax treaty. Report in Israel as well and consult an accountant who knows both countries.\n- **Tax representative:** owners living outside the EU may need to appoint a representative in Greece for the tax authority. A Greek accountant will check whether this applies to you.\n\n## What you need on the ground while you are in Israel\n\n- **A Greek accountant** for returns, ΕΝΦΙΑ and lease declarations.\n- **A Greek bank account** with online access. [Tax number and bank account guide](/en/a/greek-tax-number-and-bank-account-guide/).\n- **A property manager** who holds the keys, handles repairs, shows the flat to tenants and, for short lets, manages cleaning and check-in. For short lets, management companies usually take a percentage of income.\n- **Building charges (κοινόχρηστα):** monthly fees for heating, lift and cleaning. Agree with the tenant who pays what.\n- **Electricity and water:** for long-term lets, transfer the bills to the tenant's name.\n\n## A property owner's calendar\n\n1. **January:** whoever owns the property on 1 January owes that year's ΕΝΦΙΑ.\n2. **Spring:** the ΕΝΦΙΑ bill arrives and instalments begin.\n3. **Spring–summer:** file the annual tax return for the previous year's income.\n4. **Every new lease:** declaration with the tax authority.\n5. **Every short-let night:** climate fee and stay declaration.\n\n## Common mistakes\n\n- Buying in central Athens to run an Airbnb, then discovering the flat cannot be registered.\n- Renting to friends \"without a contract\" and being left without protection or records.\n- Not filing in Greece because \"I live in Israel\".\n- Not accounting for tax, building charges, ΕΝΦΙΑ and management fees when calculating yield.\n\n[Full guide to buying a flat in Greece](/en/a/buying-property-in-greece-israelis-guide/) · [Property prices by area](/en/madad/)\n\nThis is general information, not legal or tax advice. Laws change; consult an accountant and a lawyer before any decision."
- },
- "meta": {
-  "manual": true,
-  "imageQuery": "athens apartment balcony keys",
-  "checkedAt": "2026-09-28T02:10:00+03:00"
- }
 }

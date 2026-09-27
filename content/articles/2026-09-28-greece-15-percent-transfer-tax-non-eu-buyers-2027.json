@@ -1,48 +1,54 @@
 {
- "slug": "greece-15-percent-transfer-tax-non-eu-buyers-2027",
- "section": "real-estate",
- "cta": "realestate",
- "publishedAt": "2026-09-28T02:20:00+03:00",
- "updatedAt": null,
- "sensitive": false,
- "sponsored": false,
- "breaking": false,
- "geo": null,
- "image": {
-  "type": "illustration",
-  "key": "house"
- },
- "sources": [
-  {
-   "name": "Protothema",
-   "url": "https://www.protothema.gr/economy/article/1875396/foros-metavivasis-15-gia-agorastes-apo-trites-hores-poioi-exairoudai-i-ekkremotita-me-tin-golden-visa/"
+  "slug": "greece-15-percent-transfer-tax-non-eu-buyers-2027",
+  "section": "real-estate",
+  "cta": "realestate",
+  "publishedAt": "2026-09-28T02:20:00+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14753999/pexels-photo-14753999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Expansive view of densely packed rooftops and buildings in Athens, Greece showcasing urban architecture.",
+    "credit": "Photo: Alex Does Pictures / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/residential-buildings-in-city-14753999/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
+  },
+  "sources": [
+    {
+      "name": "Protothema",
+      "url": "https://www.protothema.gr/economy/article/1875396/foros-metavivasis-15-gia-agorastes-apo-trites-hores-poioi-exairoudai-i-ekkremotita-me-tin-golden-visa/"
+    }
+  ],
+  "he": {
+    "title": "יוון מתכננת מס רכישה של 15% לישראלים שקונים דירה, מיולי 2027",
+    "dek": "הממשלה הודיעה שקונים פרטיים מחוץ לאיחוד האירופי ישלמו מס רכישה של 15% במקום 3%. החוק עוד לא עבר.",
+    "tldr": [
+      "מ-1 ביולי 2027 מס הרכישה לאזרחים מחוץ לאיחוד, כולל ישראלים, אמור לעלות מ-3.09% ל-15.45%.",
+      "פטורים: חברות, אזרחי האיחוד, תושבי קבע ותיקים, ונכסים שאינם למגורים.",
+      "זו הודעה של הממשלה בלבד. החוק והפרטים עוד יכולים להשתנות."
+    ],
+    "means": "מי שמתכנן לקנות דירה ביוון בשנה הקרובה, כדאי לו לבדוק את לוח הזמנים עכשיו. על דירה של 300,000 אירו ההפרש הוא בערך 37,000 אירו.",
+    "body": "ממשלת יוון הודיעה בספטמבר 2026 על העלאה חדה של מס הרכישה לקונים מחוץ לאיחוד האירופי.\n\n## מה ידוע עד עכשיו\n\n- **מתי:** מ-1 ביולי 2027.\n- **כמה:** מס הרכישה יעלה מ-3% ל-15%. עם התוספת העירונית: 15.45% במקום 3.09%.\n- **על מי:** אנשים פרטיים שאינם אזרחי האיחוד ואינם תושבי קבע ביוון, שקונים דירת מגורים. זה כולל ישראלים.\n- **מי פטור:** חברות, אזרחי האיחוד, תושבי קבע ותיקים, בני התפוצה היוונית, ונכסים שאינם למגורים (משרדים, חנויות, קרקעות).\n\n## מה עוד לא ברור\n\nהחוק עוד לא עבר בפרלמנט, והפרטים יכולים להשתנות. עוד לא ברור מה יקרה עם מסלול ויזת הזהב של 250,000 אירו (הסבה של מבנה מסחרי למגורים).\n\n## כמה זה בכסף?\n\n| מחיר הדירה | מס היום (3.09%) | מס מתוכנן (15.45%) |\n|---|---|---|\n| 150,000 אירו | כ-4,600 אירו | כ-23,200 אירו |\n| 300,000 אירו | כ-9,300 אירו | כ-46,400 אירו |\n| 500,000 אירו | כ-15,500 אירו | כ-77,300 אירו |\n\nהמס מחושב לפי הגבוה מבין המחיר בחוזה ל\"ערך האובייקטיבי\" של הנכס.\n\n[המדריך המלא לקניית דירה ביוון](/a/buying-property-in-greece-israelis-guide/)"
+  },
+  "en": {
+    "title": "Greece plans 15% transfer tax for Israeli home buyers from July 2027",
+    "dek": "The government announced that private buyers from outside the EU will pay 15% transfer tax instead of 3%. It is not law yet.",
+    "tldr": [
+      "From 1 July 2027, transfer tax for non-EU citizens, including Israelis, is set to rise from 3.09% to 15.45%.",
+      "Exempt: companies, EU citizens, long-term residents and non-residential property.",
+      "This is only a government announcement; the law and details may still change."
+    ],
+    "means": "Anyone planning to buy in Greece in the coming year should check the timing now. On a €300,000 flat the difference is about €37,000.",
+    "body": "The Greek government announced in September 2026 a sharp rise in transfer tax for buyers from outside the EU.\n\n## What we know so far\n\n- **When:** from 1 July 2027.\n- **How much:** transfer tax rises from 3% to 15%. With the municipal surcharge: 15.45% instead of 3.09%.\n- **Who:** private individuals who are not EU citizens or permanent residents of Greece, buying residential property. This includes Israelis.\n- **Exempt:** companies, EU citizens, long-term residents, the Greek diaspora, and non-residential property (offices, shops, land).\n\n## What is still unclear\n\nThe law has not yet passed parliament, and details may change. It is not yet clear what will happen to the €250,000 Golden Visa route (commercial-to-residential conversion).\n\n## What it means in money\n\n| Property price | Tax today (3.09%) | Planned tax (15.45%) |\n|---|---|---|\n| €150,000 | about €4,600 | about €23,200 |\n| €300,000 | about €9,300 | about €46,400 |\n| €500,000 | about €15,500 | about €77,300 |\n\nTax is calculated on the higher of the contract price and the property's \"objective value\".\n\n[Full guide to buying a flat in Greece](/en/a/buying-property-in-greece-israelis-guide/)"
+  },
+  "meta": {
+    "manual": true,
+    "imageQuery": "athens apartment buildings",
+    "checkedAt": "2026-09-28T02:20:00+03:00",
+    "photoTried": true
   }
- ],
- "he": {
-  "title": "יוון מתכננת מס רכישה של 15% לישראלים שקונים דירה, מיולי 2027",
-  "dek": "הממשלה הודיעה שקונים פרטיים מחוץ לאיחוד האירופי ישלמו מס רכישה של 15% במקום 3%. החוק עוד לא עבר.",
-  "tldr": [
-   "מ-1 ביולי 2027 מס הרכישה לאזרחים מחוץ לאיחוד, כולל ישראלים, אמור לעלות מ-3.09% ל-15.45%.",
-   "פטורים: חברות, אזרחי האיחוד, תושבי קבע ותיקים, ונכסים שאינם למגורים.",
-   "זו הודעה של הממשלה בלבד. החוק והפרטים עוד יכולים להשתנות."
-  ],
-  "means": "מי שמתכנן לקנות דירה ביוון בשנה הקרובה, כדאי לו לבדוק את לוח הזמנים עכשיו. על דירה של 300,000 אירו ההפרש הוא בערך 37,000 אירו.",
-  "body": "ממשלת יוון הודיעה בספטמבר 2026 על העלאה חדה של מס הרכישה לקונים מחוץ לאיחוד האירופי.\n\n## מה ידוע עד עכשיו\n\n- **מתי:** מ-1 ביולי 2027.\n- **כמה:** מס הרכישה יעלה מ-3% ל-15%. עם התוספת העירונית: 15.45% במקום 3.09%.\n- **על מי:** אנשים פרטיים שאינם אזרחי האיחוד ואינם תושבי קבע ביוון, שקונים דירת מגורים. זה כולל ישראלים.\n- **מי פטור:** חברות, אזרחי האיחוד, תושבי קבע ותיקים, בני התפוצה היוונית, ונכסים שאינם למגורים (משרדים, חנויות, קרקעות).\n\n## מה עוד לא ברור\n\nהחוק עוד לא עבר בפרלמנט, והפרטים יכולים להשתנות. עוד לא ברור מה יקרה עם מסלול ויזת הזהב של 250,000 אירו (הסבה של מבנה מסחרי למגורים).\n\n## כמה זה בכסף?\n\n| מחיר הדירה | מס היום (3.09%) | מס מתוכנן (15.45%) |\n|---|---|---|\n| 150,000 אירו | כ-4,600 אירו | כ-23,200 אירו |\n| 300,000 אירו | כ-9,300 אירו | כ-46,400 אירו |\n| 500,000 אירו | כ-15,500 אירו | כ-77,300 אירו |\n\nהמס מחושב לפי הגבוה מבין המחיר בחוזה ל\"ערך האובייקטיבי\" של הנכס.\n\n[המדריך המלא לקניית דירה ביוון](/a/buying-property-in-greece-israelis-guide/)"
- },
- "en": {
-  "title": "Greece plans 15% transfer tax for Israeli home buyers from July 2027",
-  "dek": "The government announced that private buyers from outside the EU will pay 15% transfer tax instead of 3%. It is not law yet.",
-  "tldr": [
-   "From 1 July 2027, transfer tax for non-EU citizens, including Israelis, is set to rise from 3.09% to 15.45%.",
-   "Exempt: companies, EU citizens, long-term residents and non-residential property.",
-   "This is only a government announcement; the law and details may still change."
-  ],
-  "means": "Anyone planning to buy in Greece in the coming year should check the timing now. On a €300,000 flat the difference is about €37,000.",
-  "body": "The Greek government announced in September 2026 a sharp rise in transfer tax for buyers from outside the EU.\n\n## What we know so far\n\n- **When:** from 1 July 2027.\n- **How much:** transfer tax rises from 3% to 15%. With the municipal surcharge: 15.45% instead of 3.09%.\n- **Who:** private individuals who are not EU citizens or permanent residents of Greece, buying residential property. This includes Israelis.\n- **Exempt:** companies, EU citizens, long-term residents, the Greek diaspora, and non-residential property (offices, shops, land).\n\n## What is still unclear\n\nThe law has not yet passed parliament, and details may change. It is not yet clear what will happen to the €250,000 Golden Visa route (commercial-to-residential conversion).\n\n## What it means in money\n\n| Property price | Tax today (3.09%) | Planned tax (15.45%) |\n|---|---|---|\n| €150,000 | about €4,600 | about €23,200 |\n| €300,000 | about €9,300 | about €46,400 |\n| €500,000 | about €15,500 | about €77,300 |\n\nTax is calculated on the higher of the contract price and the property's \"objective value\".\n\n[Full guide to buying a flat in Greece](/en/a/buying-property-in-greece-israelis-guide/)"
- },
- "meta": {
-  "manual": true,
-  "imageQuery": "athens apartment buildings",
-  "checkedAt": "2026-09-28T02:20:00+03:00"
- }
 }
