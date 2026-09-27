@@ -222,6 +222,24 @@ for (const f of fs.readdirSync(assets)) {
   if (f === "robots.txt") buf = Buffer.from(buf.toString().replace(/__SITE__/g, SITE.url.replace(/\/$/, "")));
   fs.writeFileSync(path.join(OUT, f), buf);
 }
+/* Εκδόσεις αρχείων (cache-busting): κάθε αλλαγή σε css/js αλλάζει τη διεύθυνση, ώστε
+   κανένας browser/service worker να μη δείξει νέα σελίδα με παλιό στυλ. */
+{
+  const crypto = await import("node:crypto");
+  const h = (f) => crypto.createHash("sha1").update(fs.readFileSync(path.join(OUT, f))).digest("hex").slice(0, 10);
+  const vCss = h("styles.css"), vJs = h("app.js");
+  const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
+    const f = path.join(d, e.name);
+    if (e.isDirectory()) return walk(f);
+    if (!f.endsWith(".html")) return;
+    const s = fs.readFileSync(f, "utf8");
+    const n = s.replace('href="/styles.css"', `href="/styles.css?v=${vCss}"`).replace('src="/app.js"', `src="/app.js?v=${vJs}"`);
+    if (n !== s) fs.writeFileSync(f, n);
+  });
+  walk(OUT);
+  const swf = path.join(OUT, "sw.js");
+  fs.writeFileSync(swf, fs.readFileSync(swf, "utf8").replace(/const V = "[^"]+";/, `const V = "yv-${vCss.slice(0, 5)}${vJs.slice(0, 5)}";`).replace('"/styles.css", "/app.js", ', `"/styles.css?v=${vCss}", "/app.js?v=${vJs}", `));
+}
 /* Ανακατευθύνσεις για άρθρα που συγχωνεύτηκαν (Cloudflare _redirects) */
 const redirects = fs.readdirSync(path.join(ROOT, "content/articles")).filter((f) => f.endsWith(".json"))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, "content/articles", f), "utf8")))

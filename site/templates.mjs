@@ -118,7 +118,7 @@ ${body}
 </footer>
 </main>
 <nav class="bnav" aria-label="Main">${nav}</nav>
-<a class="wafloat" href="${esc(SITE.whatsappChannel || P(lang, "/advisor/"))}" aria-label="WhatsApp"${SITE.whatsappChannel ? ' target="_blank" rel="noopener"' : ""}>${WA_SVG}</a>
+${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}" aria-label="WhatsApp" target="_blank" rel="noopener">${WA_SVG}</a>` : ""}
 <div class="feed" id="feed" hidden></div>
 <div class="sv" id="sv" hidden></div>
 <div class="cookie" id="cookie" hidden role="dialog" aria-labelledby="ck-t">
@@ -202,7 +202,7 @@ export function calcBox(lang) {
   return `<div class="calc" id="calc-cost">
   <div class="row2">
     <label for="c-price">${esc(t.calcPrice)}<input id="c-price" type="number" min="0" step="1000" value="250000" inputmode="numeric"></label>
-    <label for="c-rate">${esc(t.calcRate)}<input id="c-rate" type="number" min="0" step="0.01" value="3.85" inputmode="decimal"></label>
+    <label for="c-rate">${esc(t.calcRate)}<input id="c-rate" type="number" min="0" step="0.01" value="3.47" inputmode="decimal"></label>
   </div>
   <label class="chk" for="c-agent"><input id="c-agent" type="checkbox" checked><span>${esc(t.calcAgent)}</span></label>
   <table id="c-table"></table>
