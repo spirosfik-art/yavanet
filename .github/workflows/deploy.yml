@@ -27,3 +27,14 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CF_PROJECT: ${{ vars.CF_PROJECT }}
+          SYNC_SECRETS: "1"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
+          BREVO_LEADS_LIST: ${{ vars.BREVO_LEADS_LIST }}
+          BREVO_NL_LIST_HE: ${{ vars.BREVO_NL_LIST_HE }}
+          BREVO_NL_LIST_EN: ${{ vars.BREVO_NL_LIST_EN }}
+          BREVO_DOI_TEMPLATE_HE: ${{ vars.BREVO_DOI_TEMPLATE_HE }}
+          BREVO_DOI_TEMPLATE_EN: ${{ vars.BREVO_DOI_TEMPLATE_EN }}

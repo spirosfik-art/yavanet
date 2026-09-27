@@ -14,4 +14,11 @@ if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then echo 
 curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects" \
   -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
   --data "{\"name\":\"$PROJECT\",\"production_branch\":\"main\"}" | head -c 400; echo
+# Κλειδιά για τις φόρμες του site (επαφές πελατών → Telegram / Brevo), μόνο όταν ζητηθεί
+if [ "${SYNC_SECRETS:-0}" = "1" ]; then
+  for NAME in TELEGRAM_BOT_TOKEN TELEGRAM_OWNER_CHAT_ID BREVO_API_KEY NOTIFY_EMAIL SENDER_EMAIL BREVO_LEADS_LIST BREVO_NL_LIST_HE BREVO_NL_LIST_EN BREVO_DOI_TEMPLATE_HE BREVO_DOI_TEMPLATE_EN; do
+    VAL="$(printf '%s' "${!NAME:-}" | tr -d '[:space:]')"
+    if [ -n "$VAL" ]; then printf '%s' "$VAL" | npx --yes wrangler@3 pages secret put "$NAME" --project-name="$PROJECT" >/dev/null 2>&1 && echo "✓ $NAME" || echo "✗ $NAME"; fi
+  done
+fi
 npx --yes wrangler@3 pages deploy dist --project-name="$PROJECT" --branch=main --commit-dirty=true

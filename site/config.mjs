@@ -12,8 +12,10 @@ export const SITE = {
   },
   // Banner διαφήμισης της εταιρείας ακινήτων
   ad: {
-    brandHe: "[שם החברה והלוגו]",
-    brandEn: "[Company name and logo]",
+    brand: "S.F. Properties",
+    taglineHe: "נדל״ן וניהול נכסים ביוון",
+    taglineEn: "Real estate & property management in Greece",
+    email: "info@sfproperties.gr",
   },
   whatsappChannel: "", // π.χ. https://whatsapp.com/channel/XXXX
   telegramChannel: "", // π.χ. https://t.me/yavanet
@@ -42,8 +44,8 @@ export const T = {
     zoneGov: "חדשות מהממשלה על נדל״ן", zoneGovEye: "חוקים · מיסים · ויזת זהב",
     zoneIsr: "ישראלים ביוון", zoneIsrEye: "קהילה · חיים · השקעות",
     zoneMore: "עוד חדשות",
-    adLabel: "פרסומת", adTitle: "קונים נכס ביוון? ליווי מלא בעברית",
-    adText: "מחיפוש הנכס ועד מפתח ביד: עורך דין, נוטריון, ויזת זהב וניהול הנכס.", adCta: "דברו עם יועץ נדל״ן",
+    adLabel: "פרסומת", adTitle: "קונים או משכירים נכס ביוון? אנחנו איתכם",
+    adText: "קנייה, השכרה וניהול נכסים: מחיפוש הנכס ועד חוזה, מפתח וניהול שוטף. בעברית.", adCta: "דברו עם יועץ נדל״ן",
     sponsored: "תוכן ממומן",
     calcTitle: "מחשבון עלויות רכישת נכס", calcPrice: "מחיר הנכס (€)", calcRate: "שער אירו/שקל",
     calcAgent: "כולל עמלת תיווך (2% + מע״מ)",
@@ -91,8 +93,8 @@ export const T = {
     zoneGov: "Government news on real estate", zoneGovEye: "Laws · Taxes · Golden Visa",
     zoneIsr: "Israelis in Greece", zoneIsrEye: "Community · Life · Investment",
     zoneMore: "More news",
-    adLabel: "Ad", adTitle: "Buying property in Greece? Full support in Hebrew",
-    adText: "From the search to the keys: lawyer, notary, Golden Visa and property management.", adCta: "Talk to a property advisor",
+    adLabel: "Ad", adTitle: "Buying or renting property in Greece? We are with you",
+    adText: "Buying, renting and property management: from the search to the contract, the keys and day-to-day management. In Hebrew.", adCta: "Talk to a property advisor",
     sponsored: "Sponsored",
     calcTitle: "Property purchase cost calculator", calcPrice: "Property price (€)", calcRate: "EUR/ILS rate",
     calcAgent: "Include agent fee (2% + VAT)",
