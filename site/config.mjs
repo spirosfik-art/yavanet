@@ -22,7 +22,7 @@ export const SITE = {
   },
   whatsappChannel: "", // π.χ. https://whatsapp.com/channel/XXXX
   telegramChannel: "", // π.χ. https://t.me/yavanet
-  ga4Id: process.env.GA4_ID || "",          // π.χ. G-XXXXXXX
+  ga4Id: process.env.GA4_ID || "G-3S3LQ8DQ0H", // Google Analytics 4 (φορτώνει μόνο με συναίνεση)
   clarityId: process.env.CLARITY_ID || "",  // π.χ. abcd1234
 };
 
