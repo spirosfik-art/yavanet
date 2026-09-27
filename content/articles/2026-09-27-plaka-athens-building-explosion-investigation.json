@@ -1,0 +1,58 @@
+{
+  "slug": "plaka-athens-building-explosion-investigation",
+  "section": "breaking",
+  "publishedAt": "2026-09-27T10:01:39+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9715,
+    "lng": 23.7266
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2167077/plaka-anamenontai-oi-oikogeneies-ton-thymaton-gia-taytopoiisi-meso-dna-sto-mikroskopio-ta-aitia-tis-ekrixis/?utm_source=rss&utm_medium=rss&utm_campaign=plaka-anamenontai-oi-oikogeneies-ton-thymaton-gia-taytopoiisi-meso-dna-sto-mikroskopio-ta-aitia-tis-ekrixis"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11646266/pexels-photo-11646266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A weathered and shabby house with cracked walls on a deserted street.",
+    "credit": "Photo: Mustafa Akın / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/grayscale-photo-of-concrete-house-with-broken-windows-and-cracks-on-walls-11646266/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
+  },
+  "he": {
+    "title": "חקירת פיצוץ הבניין באתונה: זיהוי קרבנות ובדיקת תשתיות",
+    "dek": "כוחות ההצלה והרשויות באתונה ממשיכים בחקירת נסיבות הקריסה בשכונת פלאκα, לצד תהליך זיהוי ששת הקורבנות.",
+    "tldr": [
+      "ששת הקורבנות פונו מן ההריסות ברחוב ליסיקראטους בפלאקה.",
+      "משפחות הקורבנות נקראו למסור דגימות DNA לצורך זיהוי רשמי.",
+      "צוותי כיבוי אש ומומחים בודקים כיווני חקירה אפשריים ובהם תשתיות גז."
+    ],
+    "means": "מידע זה הוא כללי בלבד ואינו מהווה ייעוץ משפטי או מקצועי. עבור ישראלים השוהים או משקיעים בנכסים באתונה, האירוע מדגיש את החשיבות בבדיקות תקופתיות של מערכות גז ותשתיות במבנים ישנים.",
+    "body": "## תהליך זיהוי וחקירת האירוע\n\nהרשויות בבירת יוון פתחו בתהליך זיהוי של ששת בני האדם שאותרו ללא חיים בעקבות קריסת מבנה ברחוב ליסיקראטους שבשכונת פלאקה באתונה. בני משפחה נקראו לסייע בתהליך באמצעות מסירת חומר גנטי לבדיקות DNA, המתבצעות בשיתוף פעולה עם החטיבה המרכזית של משטרת יוון.\n\nבמקביל, יחידות מיוחדות של כיבוי האש ממשיכות לסרוק את הזירה ולאסוף ממצאים כגון צינורות ומכשירים נוספים, במטרה לבסס את התנאים והגורמים שהובילו לאירוע.\n\n## בדיקת תשתיות ואמצעי בטיחות\n\nגורמים מקצועיים ומפקחי בטיחות בחנו את נתוני המבנה, ובכלל זה מערכות חימום ובישול שפעלו במקום. מומחים בתחום ניהול אסונות ציינו כי מדובר במבנה היסטורי בעל מאפיינים מסורתיים, והדגישו את הצורך בבדיקות הנדסיות מקיפות של יציבות המבנים הסמוכים באזור.\n\nהפעולות בשטח מתבצעות תחת הנחיית רשויות התביעה ובתיאום עם גורמי החירום המקומיים."
+  },
+  "en": {
+    "title": "Athens Plaka Explosion: DNA Identification and Investigation",
+    "dek": "Greek authorities continue investigating the cause of the fatal building collapse in the Plaka district while identifying the six victims.",
+    "tldr": [
+      "Six victims were recovered from the debris of a building on Lysikratous Street in Plaka.",
+      "Families of the victims were asked to provide genetic material for DNA identification.",
+      "Fire department specialists are collecting evidence and evaluating potential infrastructure causes."
+    ],
+    "means": "This is general information and not legal or professional advice. For Israelis residing or investing in real estate in Athens, the incident highlights the importance of regular safety and gas infrastructure inspections in older properties.",
+    "body": "## Identification Process and Investigation\n\nAuthorities in the Greek capital have initiated the identification process for the six individuals found dead following the building collapse on Lysikratous Street in the Plaka neighborhood of Athens. Family members have been requested to provide genetic material for DNA comparison, a process carried out in cooperation with the Hellenic Police forensics division.\n\nSimultaneously, specialized fire department units continue to survey the scene and collect material evidence, including pipes and meters, to determine the exact conditions surrounding the incident.\n\n## Infrastructure and Safety Assessments\n\nProfessionals and safety inspectors have been examining the building's infrastructure, including heating and cooking utility systems. Disaster management experts noted that the structure was historic and traditional in construction, emphasizing the necessity for comprehensive engineering stability checks on neighboring structures in the area.\n\nOperations at the site are being conducted under the guidance of the prosecution authorities and in coordination with local emergency services."
+  },
+  "meta": {
+    "itemId": "719af3cae342",
+    "imageQuery": "damaged old stone building street",
+    "sourceHash": "e5ecfee4952c",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-27T07:01:39.506Z",
+    "official": false
+  }
+}
