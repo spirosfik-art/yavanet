@@ -49,93 +49,95 @@
     "5bb29eb45654": 1790491985859,
     "2dee87d6fcd7": 1790491985859,
     "64fae522147c": 1790491985859,
-    "9ac29fdeacc3": 1790493725155
+    "9ac29fdeacc3": 1790493725155,
+    "908e44082dba": 1790495304996,
+    "eb4a28bd2a4e": 1790495304996
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T07:21:55.888Z",
+      "at": "2026-09-27T07:48:15.024Z",
       "error": "HTTP 403",
-      "fails": 49
+      "fails": 50
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T07:21:57.954Z",
+      "at": "2026-09-27T07:48:17.196Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T07:21:58.565Z",
+      "at": "2026-09-27T07:48:17.767Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T07:21:58.773Z",
+      "at": "2026-09-27T07:48:17.866Z",
       "error": "HTTP 403",
-      "fails": 49
+      "fails": 50
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T07:22:00.064Z",
+      "at": "2026-09-27T07:48:19.077Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T07:22:00.541Z",
+      "at": "2026-09-27T07:48:19.208Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T07:22:01.467Z",
+      "at": "2026-09-27T07:48:20.216Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T07:22:02.104Z",
-      "items": 2
+      "at": "2026-09-27T07:48:20.866Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T07:22:02.906Z",
+      "at": "2026-09-27T07:48:21.701Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T07:22:03.040Z",
+      "at": "2026-09-27T07:48:21.781Z",
       "error": "HTTP 403",
-      "fails": 49
+      "fails": 50
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T07:22:03.420Z",
+      "at": "2026-09-27T07:48:22.280Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T07:22:03.712Z",
+      "at": "2026-09-27T07:48:22.572Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T07:22:03.760Z",
-      "items": 7
+      "at": "2026-09-27T07:48:23.078Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T07:22:04.233Z",
+      "at": "2026-09-27T07:48:23.616Z",
       "items": 10
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T07:22:04.367Z",
+      "at": "2026-09-27T07:48:23.661Z",
       "items": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-27",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "rent-subsidy-paid-regional-workers-greece",
@@ -184,6 +186,12 @@
         "title": "Greece Prepares Property Value and Tax Updates for 2027",
         "at": "2026-09-27T10:36:50+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "athens-metro-line-3-modifications-works",
+        "title": "Athens Metro Line 3 Night Modifications Due to Track Works",
+        "at": "2026-09-27T10:48:34+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [],
@@ -198,11 +206,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T07:22:05.155Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-27T07:48:24.996Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· ingr | Πλάκα: Συλλυπητήρια του υπουργείου Εξωτερικών για τους νεκρούς"
+      "✓ ingr | Μετρό: Τροποποιήσεις δρομολογίων λόγω έργων – Ποιοι σταθμοί κλείνουν και ποιες ώρες",
+      "· naftemporiki | Οι πρώτοι κόσμοι του ηλιακού μας συστήματος φτιάχτηκαν από φωτιά και όχι πάγο"
     ]
   }
 }
