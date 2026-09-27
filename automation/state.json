@@ -117,225 +117,102 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T20:47:41.748Z",
+      "at": "2026-09-27T21:01:07.101Z",
       "error": "HTTP 403",
-      "fails": 107
+      "fails": 108
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T20:47:42.552Z",
+      "at": "2026-09-27T21:01:07.605Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T20:47:43.282Z",
+      "at": "2026-09-27T21:01:08.087Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T20:47:44.044Z",
+      "at": "2026-09-27T21:01:08.776Z",
       "error": "HTTP 403",
-      "fails": 107
+      "fails": 108
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T20:47:45.362Z",
+      "at": "2026-09-27T21:01:09.769Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T20:47:45.745Z",
+      "at": "2026-09-27T21:01:09.910Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T20:47:47.028Z",
+      "at": "2026-09-27T21:01:10.808Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T20:47:47.947Z",
+      "at": "2026-09-27T21:01:11.355Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T20:47:48.735Z",
+      "at": "2026-09-27T21:01:11.694Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T20:47:48.770Z",
+      "at": "2026-09-27T21:01:11.741Z",
       "error": "HTTP 403",
-      "fails": 107
+      "fails": 108
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T20:47:49.540Z",
+      "at": "2026-09-27T21:01:12.183Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T20:47:49.623Z",
+      "at": "2026-09-27T21:01:12.264Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T20:47:50.319Z",
+      "at": "2026-09-27T21:01:12.534Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T20:47:50.514Z",
+      "at": "2026-09-27T21:01:12.643Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T20:47:50.573Z",
+      "at": "2026-09-27T21:01:12.764Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T20:47:43.870Z",
+      "at": "2026-09-27T21:01:08.706Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-09-27",
-    "count": 18,
-    "published": [
-      {
-        "slug": "rent-subsidy-paid-regional-workers-greece",
-        "title": "Greek Ministry Pays Two-Month Rent Refund to Regional Workers",
-        "at": "2026-09-27T00:17:37+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "varoufakis-criticism-israel-greece-relations",
-        "title": "Varoufakis Faces Backlash in Greece Over Remarks on Israel",
-        "at": "2026-09-27T09:41:08+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "plaka-building-explosion-investigation",
-        "title": "Investigation Continues Following Building Explosion in Plaka",
-        "at": "2026-09-27T09:41:08+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-hits-evia-skiathos-parga",
-        "title": "Severe Weather Causes Heavy Disruption in Evia, Skiathos and Parga",
-        "at": "2026-09-27T09:41:59+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "mykonos-season-discounts-and-state-scrutiny-2026",
-        "title": "Mykonos Season Ends With Discounts and Increased State Scrutiny",
-        "at": "2026-09-27T09:42:10+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "household-spending-greece-elstat-2025",
-        "title": "Household Spending in Greece: ELSTAT 2025 Data Released",
-        "at": "2026-09-27T09:42:20+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "plaka-athens-building-explosion-investigation",
-        "title": "Athens Plaka Explosion: DNA Identification and Investigation",
-        "at": "2026-09-27T10:01:39+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-property-tax-and-objective-values-update",
-        "title": "Greece Prepares Property Value and Tax Updates for 2027",
-        "at": "2026-09-27T10:36:50+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-metro-line-3-modifications-works",
-        "title": "Athens Metro Line 3 Night Modifications Due to Track Works",
-        "at": "2026-09-27T10:48:34+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greek-tourism-reaches-20-million-visitors-first-seven-months",
-        "title": "Greek Tourism Reaches Over 20 Million Visitors in Seven Months",
-        "at": "2026-09-27T11:23:40+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-explosion-six-fatalities-us-citizens",
-        "title": "Six Killed in Central Athens Explosion Including Four US Citizens",
-        "at": "2026-09-27T11:24:38+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "rhodes-hosts-tourism-and-climate-forum",
-        "title": "Rhodes Hosts Forum on Tourism and Climate Crisis",
-        "at": "2026-09-27T11:49:27+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "jewish-history-thessaloniki-guide",
-        "title": "The Jewish History and Heritage of Thessaloniki: A Visitor's Guide",
-        "at": "2026-09-27T13:01:11+03:00",
-        "section": "jewish-greece"
-      },
-      {
-        "slug": "severe-weather-warning-greece-september-2026",
-        "title": "Severe Weather Warning Issued for Parts of Greece",
-        "at": "2026-09-27T13:21:56+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "pasok-leader-criticizes-government-fuel-prices",
-        "title": "PASOK Leader Criticizes Government Fuel Prices",
-        "at": "2026-09-27T13:27:19+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "jewish-museum-of-greece-athens-guide",
-        "title": "The Jewish Museum of Greece in Athens: A Visitor Guide",
-        "at": "2026-09-27T21:23:33+03:00",
-        "section": "jewish-greece"
-      },
-      {
-        "slug": "lesbos-wildfire-strong-winds",
-        "title": "Wildfire breaks out on Lesbos amid strong winds",
-        "at": "2026-09-27T21:59:14+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "netanyahu-considers-legal-action-against-erdogan",
-        "title": "Israel weighs legal steps against Erdogan at the ICC",
-        "at": "2026-09-27T23:52:32+03:00",
-        "section": "israelis"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Greece Promotes Year-Round Tourism Strategy in Japan",
-        "reason": "Σφάλμα: Μη έγκυρη απάντηση AI: Expected ',' or '}' after property value in JSON at position 1496",
-        "at": "2026-09-27T08:35:44.107Z"
-      },
-      {
-        "title": "Giorgos Mazonakis Death Draws More International Attention",
-        "reason": "The Hebrew and English translations contain a slight translation or factual discrepancy regarding a person's role or title. In the Hebrew body, it mentions 'לפי שרת הבריאות' (according to the Health Minister, using feminine form 'שרת'), whereas the source text and English version correctly refer to ",
-        "at": "2026-09-27T08:49:18.367Z"
-      },
-      {
-        "title": "Βιολάντα: Καταγγελία πως απολύθηκαν όσοι κατέθεσαν πως υπήρχε οσμή αερίου πριν την έκρηξη στο εργοστάσιο",
-        "reason": "Σφάλμα: Μη έγκυρη απάντηση AI: Expected ',' or ']' after array element in JSON at position 1559",
-        "at": "2026-09-27T09:22:50.390Z"
-      }
-    ],
-    "errors": [
-      "Μη έγκυρη απάντηση AI: Expected ',' or '}' after property value in JSON at position 1496",
-      "Μη έγκυρη απάντηση AI: Expected ',' or ']' after array element in JSON at position 1559"
-    ]
+    "date": "2026-09-28",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-09-27",
+      "count": 18,
+      "rejected": 3
+    },
     {
       "date": "2026-09-26",
       "count": 1,
