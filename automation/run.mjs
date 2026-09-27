@@ -289,9 +289,36 @@ async function manualStory(url) {
   const pick = { section: null, sensitive: false, breaking: false };
   await handlePick({ ...pick, item }, { manual: true });
 }
+// Ελέγχει αν το θέμα είναι το ΙΔΙΟ γεγονός με άρθρο των τελευταίων 3 ημερών (π.χ. νέα εξέλιξη)
+async function findDuplicate(item) {
+  const recent = loadArticles().filter((a) => !a.hidden && a.en && Date.now() - Date.parse(a.publishedAt) < 72 * 3600e3);
+  if (!recent.length) return null;
+  try {
+    const out = await ask({
+      system: "You compare news items. Return JSON only.", role: "select", model: SELECT_MODEL, maxTokens: 300, temperature: 0,
+      prompt: `NEW ITEM (may be Greek or English):\n${item.title}\n${(item.summary || "").slice(0, 400)}\n\nRECENT ARTICLES (slug | title):\n${recent.map((a) => `${a.slug} | ${a.en.title}`).join("\n")}\n\nIs the new item about the SAME specific event/story as one of the recent articles (for example a new development of the same incident, the same weather warning for the same area, the same law)? Different events that are merely similar topics are NOT the same.\nReturn {"duplicateOf": "<slug>" or null}.`,
+    });
+    return recent.find((a) => a.slug === out.duplicateOf) || null;
+  } catch (e) { log("duplicate check", e.message); return null; }
+}
+// Νέα εξέλιξη ενός θέματος: ενημερώνει το υπάρχον άρθρο αντί να φτιάξει καινούργιο
+function mergeInto(existing, draft, item) {
+  for (const l of ["he", "en"]) existing[l] = { title: draft[l].title, dek: draft[l].dek, tldr: draft[l].tldr.slice(0, 3), means: draft[l].means || existing[l].means || "", body: draft[l].body };
+  existing.updatedAt = isoAthens();
+  if (!existing.sources.some((x) => x.url === item.url)) existing.sources.unshift({ name: item.sourceName, url: item.url });
+  existing.meta = { ...(existing.meta || {}), updatedFrom: item.id };
+  saveArticle(existing);
+  state.today.published.push({ slug: existing.slug, title: "↻ " + existing.en.title, at: existing.updatedAt, section: existing.section });
+  log("↻ ενημερώθηκε (νέα εξέλιξη)", existing.slug);
+}
+
 async function handlePick(pick, { manual = false } = {}) {
   const item = pick.item;
-  const r = await write(item, pick);
+  const dup = manual ? null : await findDuplicate(item);
+  if (dup && (pick.sensitive || dup.sensitive)) { reject(item.title, `Ίδιο θέμα με «${dup.en.title}» – δεν γράφτηκε ξανά`); return; }
+  const r = await write(item, pick, dup ? { instruction: `This is a NEW DEVELOPMENT of a story we already covered ("${dup.en.title}"). Write the complete, updated article with the latest facts from this source, so it can replace the old one.` } : {});
+  if (dup && !r.issues.length && !r.draft.sensitive) { mergeInto(dup, r.draft, item); return; }
+  if (dup) { reject(item.title, `Ίδιο θέμα με «${dup.en.title}»` + (r.issues.length ? ": " + r.issues.join("; ") : " (ευαίσθητο)")); return; }
   if (r.issues.length) { reject(item.title, r.issues.join("; ")); if (manual) await notifyOwner("Δεν πέρασε τους ελέγχους: " + r.issues.join("; ")); return; }
   const sensitive = !!(pick.sensitive || r.draft.sensitive);
   const breaking = !!((pick.breaking || r.draft.breaking) && item.official);
