@@ -75,80 +75,80 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T11:00:52.404Z",
+      "at": "2026-09-27T11:21:41.246Z",
       "error": "HTTP 403",
-      "fails": 63
+      "fails": 64
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T11:00:53.092Z",
-      "items": 0
+      "at": "2026-09-27T11:21:43.614Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T11:00:54.248Z",
+      "at": "2026-09-27T11:21:44.465Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T11:00:54.329Z",
+      "at": "2026-09-27T11:21:44.674Z",
       "error": "HTTP 403",
-      "fails": 63
+      "fails": 64
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T11:00:55.270Z",
+      "at": "2026-09-27T11:21:45.870Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T11:00:55.439Z",
+      "at": "2026-09-27T11:21:46.269Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T11:00:56.341Z",
+      "at": "2026-09-27T11:21:47.717Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T11:00:56.865Z",
+      "at": "2026-09-27T11:21:48.435Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T11:00:57.735Z",
+      "at": "2026-09-27T11:21:49.559Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T11:00:57.840Z",
+      "at": "2026-09-27T11:21:49.652Z",
       "error": "HTTP 403",
-      "fails": 63
+      "fails": 64
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T11:00:58.304Z",
-      "items": 5
+      "at": "2026-09-27T11:21:50.492Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T11:00:58.651Z",
+      "at": "2026-09-27T11:21:50.589Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T11:00:58.825Z",
-      "items": 9
+      "at": "2026-09-27T11:21:50.812Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T11:00:59.371Z",
-      "items": 5
+      "at": "2026-09-27T11:21:51.571Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T11:00:59.487Z",
+      "at": "2026-09-27T11:21:51.652Z",
       "items": 1
     }
   },
@@ -279,11 +279,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T10:47:30.631Z",
+    "at": "2026-09-27T11:21:52.608Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | BREAKING: Major Incident Near RAF Fairford as Homes Evacuated and Men Arrested Under Explo"
+      "✓ ingr | Σκληρή επίθεση ΚΚΕ σε Μητσοτάκη: Ευχολόγια και κοροϊδία για Διεθνές Δίκαιο και ακρίβεια"
     ]
   },
   "evergreenDone": [
