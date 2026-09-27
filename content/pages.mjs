@@ -90,7 +90,7 @@ Leave your details and we will send you an offer.` },
 
 ## עם מי אנחנו משתפים
 
-ספקים שעובדים בשבילנו: Cloudflare (אחסון ואבטחה), Brevo (ניוזלטר ופניות), Google Analytics ו-Microsoft Clarity (סטטיסטיקה, רק בהסכמה). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
+ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Google Analytics ו-Microsoft Clarity (סטטיסטיקה, רק בהסכמה). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
 
 ## כמה זמן שומרים
 
@@ -121,7 +121,7 @@ Leave your details and we will send you an offer.` },
 
 ## Who we share with
 
-Providers working for us: Cloudflare (hosting and security), Brevo (newsletter and requests), Google Analytics and Microsoft Clarity (statistics, only with consent). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
+Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Google Analytics and Microsoft Clarity (statistics, only with consent). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
 
 ## How long we keep it
 
