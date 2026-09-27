@@ -54,86 +54,88 @@
     "eb4a28bd2a4e": 1790495304996,
     "b2c00b38e0c6": 1790496063873,
     "5fef0d3a9039": 1790497385031,
-    "f86acc1017ea": 1790497385031
+    "f86acc1017ea": 1790497385031,
+    "30cffb5f5009": 1790498129436,
+    "bb605a452901": 1790498129436
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T08:22:55.458Z",
+      "at": "2026-09-27T08:35:19.138Z",
       "error": "HTTP 403",
-      "fails": 52
+      "fails": 53
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T08:22:57.682Z",
+      "at": "2026-09-27T08:35:21.464Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T08:22:58.336Z",
+      "at": "2026-09-27T08:35:22.236Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T08:22:58.470Z",
+      "at": "2026-09-27T08:35:22.350Z",
       "error": "HTTP 403",
-      "fails": 52
+      "fails": 53
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T08:22:59.672Z",
+      "at": "2026-09-27T08:35:23.506Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T08:23:00.062Z",
+      "at": "2026-09-27T08:35:23.902Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T08:23:00.920Z",
+      "at": "2026-09-27T08:35:24.805Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T08:23:01.618Z",
-      "items": 1
+      "at": "2026-09-27T08:35:25.665Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T08:23:02.051Z",
+      "at": "2026-09-27T08:35:26.844Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T08:23:02.227Z",
+      "at": "2026-09-27T08:35:27.044Z",
       "error": "HTTP 403",
-      "fails": 52
+      "fails": 53
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T08:23:02.710Z",
+      "at": "2026-09-27T08:35:27.560Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T08:23:03.097Z",
+      "at": "2026-09-27T08:35:27.881Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T08:23:03.196Z",
+      "at": "2026-09-27T08:35:27.983Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T08:23:03.705Z",
+      "at": "2026-09-27T08:35:28.458Z",
       "items": 8
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T08:23:03.878Z",
+      "at": "2026-09-27T08:35:28.591Z",
       "items": 1
     }
   },
@@ -209,8 +211,16 @@
         "section": "breaking"
       }
     ],
-    "rejected": [],
-    "errors": []
+    "rejected": [
+      {
+        "title": "Greece Promotes Year-Round Tourism Strategy in Japan",
+        "reason": "Σφάλμα: Μη έγκυρη απάντηση AI: Expected ',' or '}' after property value in JSON at position 1496",
+        "at": "2026-09-27T08:35:44.107Z"
+      }
+    ],
+    "errors": [
+      "Μη έγκυρη απάντηση AI: Expected ',' or '}' after property value in JSON at position 1496"
+    ]
   },
   "history": [
     {
@@ -221,12 +231,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T08:23:05.031Z",
+    "at": "2026-09-27T08:35:29.436Z",
     "considered": 2,
-    "picked": 2,
+    "picked": 1,
     "items": [
-      "✓ gct | US Ambassador Mourns Death of Americans in Athens Explosion",
-      "✓ gct | Greek Tourism Rockets Over 20 Million Visitors First Seven Months"
+      "· gct | Greece Targets Modern Farming and Higher Producer Incomes",
+      "✓ gct | Greece Promotes Year-Round Tourism Strategy in Japan"
     ]
   }
 }
