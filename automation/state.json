@@ -56,93 +56,96 @@
     "5fef0d3a9039": 1790497385031,
     "f86acc1017ea": 1790497385031,
     "30cffb5f5009": 1790498129436,
-    "bb605a452901": 1790498129436
+    "bb605a452901": 1790498129436,
+    "b085a3fdea90": 1790498935743,
+    "5c97e4a01b0a": 1790498935743,
+    "00348c018d92": 1790498935743
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T08:35:19.138Z",
+      "at": "2026-09-27T08:48:48.248Z",
       "error": "HTTP 403",
-      "fails": 53
+      "fails": 54
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T08:35:21.464Z",
-      "items": 10
+      "at": "2026-09-27T08:48:48.791Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T08:35:22.236Z",
+      "at": "2026-09-27T08:48:49.450Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T08:35:22.350Z",
+      "at": "2026-09-27T08:48:49.527Z",
       "error": "HTTP 403",
-      "fails": 53
+      "fails": 54
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T08:35:23.506Z",
+      "at": "2026-09-27T08:48:50.785Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T08:35:23.902Z",
+      "at": "2026-09-27T08:48:51.128Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T08:35:24.805Z",
+      "at": "2026-09-27T08:48:52.192Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T08:35:25.665Z",
+      "at": "2026-09-27T08:48:52.791Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T08:35:26.844Z",
+      "at": "2026-09-27T08:48:53.621Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T08:35:27.044Z",
+      "at": "2026-09-27T08:48:53.736Z",
       "error": "HTTP 403",
-      "fails": 53
+      "fails": 54
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T08:35:27.560Z",
+      "at": "2026-09-27T08:48:54.164Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T08:35:27.881Z",
-      "items": 14
+      "at": "2026-09-27T08:48:54.204Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T08:35:27.983Z",
+      "at": "2026-09-27T08:48:54.272Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T08:35:28.458Z",
+      "at": "2026-09-27T08:48:54.639Z",
       "items": 8
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T08:35:28.591Z",
+      "at": "2026-09-27T08:48:54.751Z",
       "items": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-27",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "rent-subsidy-paid-regional-workers-greece",
@@ -209,6 +212,12 @@
         "title": "Six Killed in Central Athens Explosion Including Four US Citizens",
         "at": "2026-09-27T11:24:38+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "rhodes-hosts-tourism-and-climate-forum",
+        "title": "Rhodes Hosts Forum on Tourism and Climate Crisis",
+        "at": "2026-09-27T11:49:27+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -216,6 +225,11 @@
         "title": "Greece Promotes Year-Round Tourism Strategy in Japan",
         "reason": "Σφάλμα: Μη έγκυρη απάντηση AI: Expected ',' or '}' after property value in JSON at position 1496",
         "at": "2026-09-27T08:35:44.107Z"
+      },
+      {
+        "title": "Giorgos Mazonakis Death Draws More International Attention",
+        "reason": "The Hebrew and English translations contain a slight translation or factual discrepancy regarding a person's role or title. In the Hebrew body, it mentions 'לפי שרת הבריאות' (according to the Health Minister, using feminine form 'שרת'), whereas the source text and English version correctly refer to ",
+        "at": "2026-09-27T08:49:18.367Z"
       }
     ],
     "errors": [
@@ -231,12 +245,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T08:35:29.436Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-09-27T08:48:55.743Z",
+    "considered": 3,
+    "picked": 2,
     "items": [
-      "· gct | Greece Targets Modern Farming and Higher Producer Incomes",
-      "✓ gct | Greece Promotes Year-Round Tourism Strategy in Japan"
+      "· gct | Homes Evacuated and Men Arrested Near US Air Base in Britain",
+      "✓ gct | Giorgos Mazonakis Death Draws More International Attention",
+      "✓ gct | Rhodes Hosts Tourism and Climate Crisis and Sustainability Forum"
     ]
   }
 }
