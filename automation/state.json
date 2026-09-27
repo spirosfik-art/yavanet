@@ -107,91 +107,92 @@
     "d8290eedcfe7": 1790536823383,
     "d42889429ced": 1790538397035,
     "e9b7ec08713d": 1790538397035,
-    "69511045315f": 1790538397035
+    "69511045315f": 1790538397035,
+    "0418f4940f1f": 1790539300343
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T19:46:26.071Z",
+      "at": "2026-09-27T20:01:30.364Z",
       "error": "HTTP 403",
-      "fails": 103
+      "fails": 104
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T19:46:28.866Z",
+      "at": "2026-09-27T20:01:32.510Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T19:46:29.731Z",
+      "at": "2026-09-27T20:01:33.159Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T19:46:30.374Z",
+      "at": "2026-09-27T20:01:34.102Z",
       "error": "HTTP 403",
-      "fails": 103
+      "fails": 104
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T19:46:32.149Z",
+      "at": "2026-09-27T20:01:35.257Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T19:46:32.365Z",
+      "at": "2026-09-27T20:01:35.591Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T19:46:33.387Z",
+      "at": "2026-09-27T20:01:36.375Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T19:46:34.151Z",
+      "at": "2026-09-27T20:01:37.071Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T19:46:34.632Z",
+      "at": "2026-09-27T20:01:37.868Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T19:46:34.841Z",
+      "at": "2026-09-27T20:01:37.937Z",
       "error": "HTTP 403",
-      "fails": 103
+      "fails": 104
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T19:46:35.512Z",
+      "at": "2026-09-27T20:01:38.446Z",
       "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T19:46:35.658Z",
+      "at": "2026-09-27T20:01:38.510Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T19:46:35.800Z",
+      "at": "2026-09-27T20:01:39.388Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T19:46:36.269Z",
+      "at": "2026-09-27T20:01:39.550Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T19:46:36.421Z",
+      "at": "2026-09-27T20:01:39.700Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T19:46:30.243Z",
+      "at": "2026-09-27T20:01:33.890Z",
       "items": 30
     }
   },
@@ -334,13 +335,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T19:46:37.035Z",
-    "considered": 3,
+    "at": "2026-09-27T20:01:40.343Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Στα ΗΑΕ ο Νετανιάχου για συνάντηση με τον πρόεδρο μπιν Ζαγιέντ",
-      "· gct | Mazonakis Case: Defibrillator Had No Working Battery as New Evidence Emerges",
-      "· gct | Netanyahu Orders Preparation of Potential ICC Case Against Erdogan Over Kurds and Hamas"
+      "· gct | 6,000 Greeks Unite in Augsburg as National Anthem Echoes Through Stadium"
     ]
   },
   "evergreenDone": [
