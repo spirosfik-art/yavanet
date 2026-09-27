@@ -169,7 +169,12 @@ export function parseJSON(text) {
   const s = String(text).replace(/^[\s\S]*?```(?:json)?\s*/i, (m) => (m.includes("```") ? "" : m)).replace(/```[\s\S]*$/, "");
   const start = Math.min(...["{", "["].map((c) => { const i = s.indexOf(c); return i < 0 ? Infinity : i; }));
   const end = Math.max(s.lastIndexOf("}"), s.lastIndexOf("]"));
-  return JSON.parse(s.slice(start, end + 1));
+  const raw = s.slice(start, end + 1);
+  try { return JSON.parse(raw); } catch (e) {
+    // Συχνό λάθος: εβραϊκές συντομογραφίες με " (π.χ. נדל"ן, ארה"ב) → γερσάγιμ ״
+    const fixed = raw.replace(/([\u0590-\u05FF])"([\u0590-\u05FF])/g, "$1״$2").replace(/([\u0590-\u05FF])'([\u0590-\u05FF])/g, "$1׳$2");
+    return JSON.parse(fixed);
+  }
 }
 
 /* ---------- Telegram ---------- */
