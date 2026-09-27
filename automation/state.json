@@ -101,86 +101,160 @@
     "6707f718cf68": 1790533398494,
     "acf28003c391": 1790533398494,
     "744cde68a332": 1790534245285,
-    "924d265afa95": 1790534245285
+    "924d265afa95": 1790534245285,
+    "d03c7db57280": 1790535046713
   },
-  "pending": {},
+  "pending": {
+    "41beaf": {
+      "createdAt": 1790535059837,
+      "item": {
+        "title": "Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες",
+        "url": "https://www.in.gr/2026/09/27/greece/fotia-sti-lesvo-oi-isxyroi-anemoi-enisxyoun-tis-floges/",
+        "summary": "Η φωτιά στη Λέσβο ξέσπασε περίπου στις 20:00 το βράδυ της Κυριακής\n The post Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες appeared first on in.gr .",
+        "published": "Sun, 27 Sep 2026 21:37:44 +0300",
+        "id": "d03c7db57280",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics"
+      },
+      "pick": {
+        "id": "d03c7db57280",
+        "section": "breaking",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Wildfire outbreak in Lesbos driven by strong winds requires safety awareness for travelers and residents.",
+        "item": {
+          "title": "Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες",
+          "url": "https://www.in.gr/2026/09/27/greece/fotia-sti-lesvo-oi-isxyroi-anemoi-enisxyoun-tis-floges/",
+          "summary": "Η φωτιά στη Λέσβο ξέσπασε περίπου στις 20:00 το βράδυ της Κυριακής\n The post Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες appeared first on in.gr .",
+          "published": "Sun, 27 Sep 2026 21:37:44 +0300",
+          "id": "d03c7db57280",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics"
+        }
+      },
+      "draft": {
+        "slug": "lesbos-wildfire-strong-winds",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 39.2333,
+          "lng": 26.25
+        },
+        "imageKey": "fire",
+        "imageQuery": "wildfire smoke forest greece",
+        "he": {
+          "title": "שריפה פרצה באי Λέσβος, כוחות כיבוי פועלים בשטח",
+          "dek": "רוחות חזקות באזור האיצו את התפשטות האש באזור חשוך צמחייה. צוותי חירום רבים פועלים במקום.",
+          "tldr": [
+            "האש פרצה באזור קוקמוס שבין פראקוילה לאגרא.",
+            "רוחות חזקות מקשות על פעולות הכיבוי.",
+            "עשרות כבאים ומתנדבים פועלים במקום."
+          ],
+          "means": "אם אתם מטיילים כעת בלסבוס, מומלץ להימנע מהגעה לאזור השריפה, לעקוב אחר הודעות הרשויות המקומיות ולהישמע להנחיות כוחות הביטחון והחירום.",
+          "body": "## עדכון על השריפה בלסבוס\n\nשריפת חורס פרצה באי לסבוס, באזור קוקמוס השוכן בין היישובים פראקוילה ואגרא. האש החלה להתפשט בשעות הערב, כאשר תנאי מזג האוויר המקומיים כללו רוחות חזקות שהקשו על מאמצי הבלמתי של כוחות ההצלה.\n\n## פעולות כוחות ההצלה\n\nעל פי נתוני מכבי האש, צוותים גדולים הוזנקו לזירה במטרה להשתלט על הלהבות. הפעילות כוללת עשרות כבאים יחד עם יחידת רגלית ייעודית, כוחות מתנדבים ורכבי כיבוי שונים. בנוסף, רשויות מקומיות סייעו במאמצים באמצעות משאיות מים.\n\nהאש פוגעת בעיקר בשטח של צמחייה נמוכה. הרשויות ממשיכות במאמצי הבלימה במטרה למנוע את התפשטות האש לאזורים נוספים באי."
+        },
+        "en": {
+          "title": "Wildfire breaks out on Lesbos amid strong winds",
+          "dek": "Strong winds are fanning the flames in a low-vegetation area on the island. Emergency crews have been deployed to the scene.",
+          "tldr": [
+            "The fire started in the Kougmos area between Parakila and Agra.",
+            "Strong winds in the region are fueling the flames.",
+            "Dozens of firefighters and volunteers are currently deployed."
+          ],
+          "means": "If you are currently traveling on Lesbos, avoid the affected area, stay updated through local emergency announcements, and follow all instructions from local authorities.",
+          "body": "## Wildfire Update on Lesbos\n\nA brush fire broke out on the island of Lesbos, specifically in the Kougmos area located between Parakila and Agra. The incident began during the evening hours, with weather conditions in the area featuring strong winds that have accelerated the spread of the flames.\n\n## Emergency Response\n\nAccording to the Fire Service, dozens of firefighters along with a specialized ground team, volunteers, and multiple fire vehicles were mobilized to the location. Local authorities are also providing support with water tankers.\n\nThe fire is currently burning low vegetation. Emergency services remain active at the scene working to contain the fire and protect the surrounding areas."
+        }
+      },
+      "text": "Vita.gr \n No drama, please: 3 συνήθειες που μας γλιτώνουν από τις περιττές εντάσεις\n Spotlight Ανήλικη έπεσε από μπαλκόνι στην Κατερίνη – Έρευνα από τις Αρχές για τις συνθήκες \n Επέστρεψαν οι αρνητές του… Προσωπικού Αριθμού \n Συνεχίζεται η κατάσβεση του Blue Carrier 2 – Σε υπήνεμο σημείο νοτιοδυτικά της Τήνου το πλοίο \n Πάπας για ευθανασία: «Είναι αδύνατο να θεωρείται φυσιολογικό το να προκαλείς τον θάνατο» \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Φωτιά έχει ξεσπάσει στη Λέσβο και συγκεκριμένα στην περιοχή Κούκμος, μεταξύ Παρακοίλων και Άγρας.\n Τις φλόγες ενισχύουν οι ισχυροί άνεμοι που επικρατούν στην περιοχή.\n Σύμφωνα με την ιστοσελίδα stonisi.gr, η φωτιά ξέσπασε περίπου στις 20:00 το βράδυ της Κυριακής.\n Δείτε βίντεο:\n Η πυρκαγιά καίει χαμηλή βλάστηση.\n Σύμφωνα με την Πυροσβεστική κινητοποιήθηκαν 25 πυροσβέστες με μια ομάδα πεζοπόρων της 12ης ΕΜΟΔΕ, εθελοντές και 8 οχήματα.\n Συνδρομή παρέχουν υδροφόρες ΟΤΑ.\n Δείτε σχετική ανάρτηση:\n #Πυρκαγιά σε χαμηλή βλάστηση στην Καλλονή Λέσβου.\n Κινητοποιήθηκαν 25 #πυροσβέστες με μια ομάδα πεζοπόρων της 12ης #ΕΜΟΔΕ , #Εθελοντές και 8 οχήματα.\n Συνδρομή από υδροφόρες ΟΤΑ.\n — Πυροσβεστικό Σώμα (@pyrosvestiki) September 27, 2026 \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Μωρό καρχαρίας βγήκε στους δρόμους του Ατλάντικ Σίτι με την παλίρροια \n LIVE: Νορβηγία – Πορτογαλία \n Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες \n LIVE: Γερμανία – Ελλάδα \n Ζάκυνθος: Βρέθηκε νεκρή σε χωράφι η 64χρονη που αγνοούνταν από τις 11 Σεπτεμβρίου \n Σερβία – Ολλανδία 1-2: Νικητές στο Βελιγράδι με δύο γκολ του Μέερντινκ οι «οράνιε» \n Κασέμ: Το Ισραήλ «δεν κατάφερε να σπάσει την αντίσταση» στον Λίβανο – Επέτειος του θανάτου του Νασράλα \n Πέντε χρόνια μετά τον σεισμό στο Αρκαλοχώρι: «Τελείωσε η ζωή μου πριν πεθάνω» – Το συγκλονιστικό μήνυμα του Συλλόγου «Ελπίδας» \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-27T18:37:12.810Z",
+      "at": "2026-09-27T18:50:37.885Z",
       "error": "HTTP 403",
-      "fails": 99
+      "fails": 100
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-27T18:37:16.055Z",
-      "items": 10
+      "at": "2026-09-27T18:50:38.445Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-27T18:37:16.768Z",
+      "at": "2026-09-27T18:50:39.167Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-27T18:37:16.982Z",
+      "at": "2026-09-27T18:50:39.296Z",
       "error": "HTTP 403",
-      "fails": 99
+      "fails": 100
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-27T18:37:18.160Z",
+      "at": "2026-09-27T18:50:40.366Z",
       "items": 11
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-27T18:37:19.205Z",
+      "at": "2026-09-27T18:50:40.784Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-27T18:37:20.280Z",
+      "at": "2026-09-27T18:50:41.746Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-27T18:37:21.172Z",
+      "at": "2026-09-27T18:50:42.486Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-27T18:37:22.093Z",
+      "at": "2026-09-27T18:50:43.444Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-27T18:37:22.213Z",
+      "at": "2026-09-27T18:50:43.579Z",
       "error": "HTTP 403",
-      "fails": 99
+      "fails": 100
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-27T18:37:22.479Z",
+      "at": "2026-09-27T18:50:44.120Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-27T18:37:22.749Z",
+      "at": "2026-09-27T18:50:44.261Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-27T18:37:23.516Z",
+      "at": "2026-09-27T18:50:44.943Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-27T18:37:24.265Z",
+      "at": "2026-09-27T18:50:45.468Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-27T18:37:24.351Z",
+      "at": "2026-09-27T18:50:45.627Z",
       "items": 1
     }
   },
@@ -317,12 +391,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T18:37:25.285Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-09-27T18:50:46.713Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· ingr | Κασέμ: Το Ισραήλ «δεν κατάφερε να σπάσει την αντίσταση» στον Λίβανο – Επέτειος του θανάτου",
-      "· ingr | Πέντε χρόνια μετά τον σεισμό στο Αρκαλοχώρι: «Τελείωσε η ζωή μου πριν πεθάνω» – Το συγκλον"
+      "✓ ingr | Φωτιά στη Λέσβο – Οι ισχυροί άνεμοι ενισχύουν τις φλόγες"
     ]
   },
   "evergreenDone": [
