@@ -330,7 +330,7 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 /* Κουμπιά γρήγορης πρόσβασης (αντί για stories) */
 .btn.fb{background:#1877F2;color:#fff}
 .share.top{margin-top:10px}
-.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;padding-block:6px 16px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding-block:6px 16px}
 .tile{--c:var(--sea);display:flex;align-items:center;gap:11px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s,background .15s;position:relative;overflow:hidden}
 .tile::before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:3px;background:var(--c);opacity:.9}
 .tile .ti{flex:none;width:40px;height:40px;border-radius:11px;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 16%,transparent);color:var(--c)}
