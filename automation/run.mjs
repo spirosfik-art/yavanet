@@ -323,7 +323,10 @@ ${p.issues && p.issues.length ? "\nΣημειώσεις ελέγχου: " + p.is
 }
 async function approve(id) {
   const p = state.pending[id];
-  if (!p) return notifyOwner("Δεν βρέθηκε: " + id);
+  if (!p) {
+    const done = state.today && state.today.published.find((x) => x.pendingId === id);
+    return notifyOwner(done ? "✅ Έχει ήδη δημοσιευθεί." : `Δεν βρέθηκε: ${id}\nΑν μόλις ήρθε, ξαναστείλε σε 1 λεπτό: /approve ${id}`);
+  }
   const a = await publish(p.draft, p.item, p.pick, p.text || "");
   delete state.pending[id];
   await notifyOwner("✅ Δημοσιεύθηκε: " + articleUrl(a));
