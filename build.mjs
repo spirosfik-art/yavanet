@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
-import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
+import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
@@ -67,6 +67,8 @@ if (GIVE && GIVE.active && GIVE.ends < TODAY) GIVE.active = false;
 GLOBAL.win = !!(GIVE && GIVE.active);
 let FLIGHTS = null; try { FLIGHTS = JSON.parse(fs.readFileSync(path.join(ROOT, "content/flights.json"), "utf8")); } catch {}
 GLOBAL.flights = !!(FLIGHTS && FLIGHTS.deals && FLIGHTS.deals.length);
+GLOBAL.flightTop = GLOBAL.flights ? FLIGHTS.deals[0] : null;
+GLOBAL.flightCount = GLOBAL.flights ? FLIGHTS.deals.length : 0;
 GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
 
 const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
@@ -110,11 +112,13 @@ for (const lang of LANGS) {
     ["/tlv-vs-athens/", "tlv", lang === "he" ? "תל אביב מול אתונה" : "Tel Aviv vs Athens", lang === "he" ? "הדירה שלך = כמה דירות כאן?" : "Your flat = how many here?"],
     ["/guides/", "guides", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
   ];
+  if (GLOBAL.flights) tiles.splice(1, 0, ["/flights/", "flights", lang === "he" ? "טיסות זולות" : "Cheap flights", ""]);
   const qtools = tiles.map(([u, k, h]) => `<a class="qt t-${k}" href="${P(lang, u)}">${TI[k]}<span>${esc(h)}</span></a>`).join("");
   const newsChips = SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}">${esc(x[lang])}</a>`).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
 ${doorsHTML(lang)}
 <nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
+${flightTeaser(lang)}
 <nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
   <div class="col">

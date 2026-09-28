@@ -338,6 +338,13 @@ export function widgets(lang, mostRead, noPush = false) {
 </div>`;
 }
 
+// Μικρό πλαίσιο «✈️ Αθήνα από €104» → /flights/ (ενημερώνεται με κάθε build από content/flights.json)
+export function flightTeaser(lang) {
+  const d = GLOBAL.flightTop; if (!d) return "";
+  const he = lang === "he";
+  return `<a class="fteaser" href="${P(lang, "/flights/")}"><span class="ft-ic" aria-hidden="true">✈️</span><span class="ft-t"><b>${he ? `טיסות ליוון מ-<bdi dir="ltr">€${d.price}</bdi> הלוך־חזור` : `Flights to Greece from <bdi dir="ltr">€${d.price}</bdi> return`}</b><small>${he ? `${esc(d.he)} · המחיר הזול היום מתל אביב · עוד ${GLOBAL.flightCount - 1} יעדים` : `${esc(d.en)} · today's lowest fare from Tel Aviv · ${GLOBAL.flightCount - 1} more destinations`}</small></span><span class="ft-go">${he ? "לכל המחירים ←" : "All prices →"}</span></a>`;
+}
+
 export function articleBody(a, lang, prev, next) {
   const t = T[lang], c = a[lang], he = lang === "he";
   const url = abs(P(lang, "/a/" + a.slug + "/"));
@@ -368,6 +375,7 @@ export function articleBody(a, lang, prev, next) {
   ${toc}
   <div class="prose" data-speak>${prose}</div>
   ${cta}
+  ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}
   <div class="src"><div>${esc(t.source)} ${src}</div></div>
   ${shareRow()}
