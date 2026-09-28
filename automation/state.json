@@ -126,91 +126,94 @@
     "e59743683d88": 1790551266191,
     "ce19a9234fad": 1790551266191,
     "aa57b604ca2b": 1790551266191,
-    "7bf4bb2ca82f": 1790552014997
+    "7bf4bb2ca82f": 1790552014997,
+    "cc8e978d5b3f": 1790555532303,
+    "f602774c7c77": 1790555532303,
+    "8d13ff03572c": 1790555532303
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T00:01:03.261Z",
+      "at": "2026-09-28T00:31:58.519Z",
       "error": "HTTP 403",
-      "fails": 120
+      "fails": 121
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T00:01:04.153Z",
+      "at": "2026-09-28T00:31:59.071Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T00:01:04.738Z",
+      "at": "2026-09-28T00:31:59.931Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T00:01:05.675Z",
+      "at": "2026-09-28T00:32:00.954Z",
       "error": "HTTP 403",
-      "fails": 120
+      "fails": 121
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T00:01:06.891Z",
+      "at": "2026-09-28T00:32:02.079Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T00:01:07.084Z",
+      "at": "2026-09-28T00:32:02.296Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T00:01:07.923Z",
+      "at": "2026-09-28T00:32:03.317Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T00:01:08.553Z",
+      "at": "2026-09-28T00:32:04.232Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T00:01:09.423Z",
+      "at": "2026-09-28T00:32:05.171Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T00:01:09.500Z",
+      "at": "2026-09-28T00:32:05.313Z",
       "error": "HTTP 403",
-      "fails": 120
+      "fails": 121
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T00:01:10.030Z",
-      "items": 0
+      "at": "2026-09-28T00:32:05.838Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T00:01:10.321Z",
+      "at": "2026-09-28T00:32:05.973Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T00:01:11.625Z",
+      "at": "2026-09-28T00:32:06.108Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T00:01:11.775Z",
+      "at": "2026-09-28T00:32:06.570Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T00:01:11.820Z",
+      "at": "2026-09-28T00:32:06.723Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T00:01:05.439Z",
+      "at": "2026-09-28T00:32:00.665Z",
       "items": 30
     }
   },
@@ -236,11 +239,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-27T23:33:34.997Z",
-    "considered": 1,
+    "at": "2026-09-28T00:32:12.303Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greece Records Around 10,000 New Lung Cancer Cases Each Year"
+      "· gct | Greece Marks 108th Anniversary of Macedonian Front Breakthrough",
+      "· gct | President Tasoulas Marks 205th Anniversary of Tripolitsa Liberation",
+      "· gct | Can Turkey’s Fund Crisis Threaten Its Economy?"
     ]
   },
   "evergreenDone": [
