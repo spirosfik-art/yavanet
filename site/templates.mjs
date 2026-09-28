@@ -160,6 +160,15 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 window.YV=${JSON.stringify(cfg)};
 </script>
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+(function () {
+var script = document.createElement("script");
+script.async = 1;
+script.setAttribute("data-cmp-ab","2");
+script.src = 'https://tpembars.com/NTc4ODk4.js?t=578898';
+document.head.appendChild(script);
+})();
+</script>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join("\n")}
 ${head}
 </head>
