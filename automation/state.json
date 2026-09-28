@@ -257,91 +257,93 @@
     "f55ffd93de0e": 1790630619120,
     "d8c5a974b447": 1790630619120,
     "b33041705ce1": 1790630619120,
-    "6124e92da850": 1790631295854
+    "6124e92da850": 1790631295854,
+    "9f667ae4c48e": 1790634136395,
+    "c73aa2ebf4eb": 1790634136395
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T22:00:59.667Z",
+      "at": "2026-09-28T22:22:07.388Z",
       "error": "HTTP 403",
-      "fails": 209
+      "fails": 210
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T22:01:02.248Z",
+      "at": "2026-09-28T22:22:09.428Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T22:01:02.961Z",
+      "at": "2026-09-28T22:22:10.114Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T22:01:03.978Z",
+      "at": "2026-09-28T22:22:11.018Z",
       "error": "HTTP 403",
-      "fails": 209
+      "fails": 210
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T22:01:05.167Z",
-      "items": 7
+      "at": "2026-09-28T22:22:11.558Z",
+      "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T22:01:05.584Z",
+      "at": "2026-09-28T22:22:11.990Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T22:01:06.810Z",
+      "at": "2026-09-28T22:22:12.939Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T22:01:07.559Z",
+      "at": "2026-09-28T22:22:13.562Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T22:01:08.392Z",
+      "at": "2026-09-28T22:22:14.209Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T22:01:08.539Z",
+      "at": "2026-09-28T22:22:14.352Z",
       "error": "HTTP 403",
-      "fails": 209
+      "fails": 210
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T22:01:09.106Z",
+      "at": "2026-09-28T22:22:14.745Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T22:01:09.352Z",
+      "at": "2026-09-28T22:22:15.089Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T22:01:09.975Z",
+      "at": "2026-09-28T22:22:15.275Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T22:01:10.515Z",
+      "at": "2026-09-28T22:22:15.614Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T22:01:10.640Z",
+      "at": "2026-09-28T22:22:15.757Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T22:01:03.904Z",
+      "at": "2026-09-28T22:22:10.834Z",
       "items": 30
     }
   },
@@ -372,11 +374,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T21:34:55.854Z",
-    "considered": 1,
+    "at": "2026-09-28T22:22:16.395Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ert | ΟΗΕ: Ο Γκουτέρες καλεί το Ισραήλ να σταματήσει την «ανεξέλεγκτη προσάρτηση» της Δυτικής Όχ"
+      "· gct | Greece Highlights Transformation of Ancient Nicopolis Site",
+      "· gct | Retired Turkish Police Officer Kills Himself at Pension Protest"
     ]
   },
   "evergreenDone": [
