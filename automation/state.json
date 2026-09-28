@@ -251,192 +251,110 @@
     "1b4f5d556e00": 1790626969793,
     "892472028a50": 1790626969793,
     "610c84713860": 1790627791361,
-    "7f21ed637975": 1790628717333
+    "7f21ed637975": 1790628717333,
+    "a6deb7382fbd": 1790629362415,
+    "014646afdd89": 1790629362415
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T20:51:28.110Z",
+      "at": "2026-09-28T21:02:12.735Z",
       "error": "HTTP 403",
-      "fails": 204
+      "fails": 205
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T20:51:28.715Z",
+      "at": "2026-09-28T21:02:13.533Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T20:51:29.345Z",
+      "at": "2026-09-28T21:02:14.484Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T20:51:30.069Z",
+      "at": "2026-09-28T21:02:15.182Z",
       "error": "HTTP 403",
-      "fails": 204
+      "fails": 205
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T20:51:30.972Z",
+      "at": "2026-09-28T21:02:16.329Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T20:51:31.309Z",
+      "at": "2026-09-28T21:02:16.407Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T20:51:32.181Z",
+      "at": "2026-09-28T21:02:17.659Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T20:51:32.886Z",
+      "at": "2026-09-28T21:02:18.580Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T20:51:33.334Z",
+      "at": "2026-09-28T21:02:19.586Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T20:51:33.380Z",
+      "at": "2026-09-28T21:02:19.717Z",
       "error": "HTTP 403",
-      "fails": 204
+      "fails": 205
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T20:51:33.787Z",
+      "at": "2026-09-28T21:02:20.319Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T20:51:33.837Z",
+      "at": "2026-09-28T21:02:20.395Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T20:51:34.008Z",
-      "items": 5
+      "at": "2026-09-28T21:02:20.589Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T20:51:34.331Z",
-      "items": 5
+      "at": "2026-09-28T21:02:20.790Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T20:51:34.392Z",
+      "at": "2026-09-28T21:02:20.845Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T20:51:29.863Z",
+      "at": "2026-09-28T21:02:14.938Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-09-28",
-    "count": 9,
-    "published": [
-      {
-        "slug": "neapirkaia20260928",
-        "title": "Fire breaks out at a cafe in Nea Ionia, Athens",
-        "at": "2026-09-28T07:25:01+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "rhodes-travel-guide-israeli-visitors",
-        "title": "The Rhodes Guide: History, Beaches and Travel Tips",
-        "at": "2026-09-28T08:36:51+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "crete-travel-guide-regions-sights",
-        "title": "The Guide to Crete: Regions, Major Cities and Beaches",
-        "at": "2026-09-28T09:57:54+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "complete-guide-to-corfu-island",
-        "title": "The Corfu Guide: History, Beaches, and Nature in the Ionian",
-        "at": "2026-09-28T12:40:30+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "rhodes-kos-supply-disruption-ferry-fire",
-        "title": "Supply chain disruptions in Rhodes and Kos after cargo ship fire",
-        "at": "2026-09-28T12:53:06+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "great-sea-interconnector-route-update",
-        "title": "Updates on the Maritime Electricity Interconnector Involving Israel",
-        "at": "2026-09-28T13:29:28+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "kouloglou-pegasus-lawsuit",
-        "title": "Official Lawsuit Filed in Athens Over Pegasus Spyware",
-        "at": "2026-09-28T14:01:57+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "santorini-travel-guide-history-and-villages",
-        "title": "Santorini Guide: History, Villages, and Key Sites",
-        "at": "2026-09-28T15:08:23+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "complete-guide-to-chalkidiki-for-israeli-travellers",
-        "title": "The Complete Guide to Chalkidiki: Greece's Three-Fingered Peninsula",
-        "at": "2026-09-28T20:57:18+03:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Λέσβος: Οριοθετήθηκε η πυρκαγιά στην Καλλονή",
-        "reason": "Ίδιο θέμα με «Wildfire breaks out on Lesbos amid strong winds» – δεν γράφτηκε ξανά",
-        "at": "2026-09-28T04:38:36.823Z"
-      },
-      {
-        "title": "Λέσβος: Καλύτερη η εικόνα της φωτιάς στην περιοχή μεταξύ Παρακοίλων – Άγρας",
-        "reason": "Ίδιο θέμα με «Wildfire breaks out on Lesbos amid strong winds» – δεν γράφτηκε ξανά",
-        "at": "2026-09-28T05:36:36.594Z"
-      },
-      {
-        "title": "Fire and Partial Building Collapse in Central Athens",
-        "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The article adds speculative commentary and facts not present in the source (e.g., 'האירוע אינו צפוי להשפיע מעבר לעומסי תנועה מקומיים' in Hebrew, and 'Authorities advise travelers to avoid the immediate vicinity while operations conclude' in English).",
-        "at": "2026-09-28T09:02:37.797Z"
-      },
-      {
-        "title": "Ρεκόρ επιβατικής κίνησης στο αεροδρόμιο «Μακεδονία» – Οι προκλήσεις για τις συνδέσεις της Βόρειας Ελλάδας",
-        "reason": "Rule 7 and 9 violation: The name Stefanos Chatzimmanolis (Στέφανος Χατζημανώλης), a private individual, is explicitly mentioned in the article, violating the rule against publishing personal details of private individuals.",
-        "at": "2026-09-28T17:55:41.452Z"
-      },
-      {
-        "title": "Έφεση του Ιδρύματος Χιντ Ρατζάμπ για την απόρριψη καταγγελίας εις βάρος Ισραηλινού στρατιώτη",
-        "reason": "Rule 8 and 1 violation: The source states the individual is an Israeli citizen and reserve military personnel ('Ισραηλινού υπηκόου και εφέδρου στρατιωτικού'), but the Hebrew article translated this incorrectly or awkwardly as 'אזרח זרה ואשת מילואים' (a foreign female citizen and a female reservist).",
-        "at": "2026-09-28T18:14:28.456Z"
-      }
-    ],
-    "errors": [
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "fetch failed",
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "Gemini API: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-s"
-    ]
+    "date": "2026-09-29",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-09-28",
+      "count": 9,
+      "rejected": 5
+    },
     {
       "date": "2026-09-27",
       "count": 18,
@@ -450,11 +368,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T20:51:57.333Z",
-    "considered": 1,
+    "at": "2026-09-28T21:02:42.415Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· naftemporiki | Φωτιά στη Νέα Ιωνία: Μία 10χρονη στο νοσοκομείο – Οι αρχές ερευνούν το ενδεχόμενο εμπρησμο"
+      "· naftemporiki | ΟΗΕ: Νέα έκκληση Γκουτέρες για τερματισμό της επέκτασης των ισραηλινών οικισμών στη Δυτική",
+      "· ingr | ΟΗΕ: Ο Γκουτέρες καλεί το Ισραήλ να σταματήσει την «ανεξέλεγκτη προσάρτηση» της Δυτικής Όχ"
     ]
   },
   "evergreenDone": [
