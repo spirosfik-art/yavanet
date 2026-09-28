@@ -259,8 +259,8 @@
 
   /* ---------- Ειδοποιήσεις στο κινητό (Web Push) ---------- */
   var PT = C.lang === "he"
-    ? { on: "🔔 קבלו התראה על שביתות ומבזקים", active: "✅ ההתראות פעילות", ok: "מעולה! נשלח התראה כשיש שביתה או מבזק חשוב.", off: "ההתראות בוטלו.", denied: "ההתראות חסומות בדפדפן. אפשר לאשר אותן בהגדרות האתר.", ios: "באייפון: לחצו על כפתור השיתוף ← «הוספה למסך הבית», פתחו את יוונט מהמסך הבית ואז הפעילו התראות.", fail: "לא הצלחנו להפעיל התראות כרגע. נסו שוב מאוחר יותר." }
-    : { on: "🔔 Get alerts for strikes and breaking news", active: "✅ Alerts are on", ok: "Done! We will alert you about strikes and important breaking news.", off: "Alerts turned off.", denied: "Notifications are blocked in your browser. You can allow them in the site settings.", ios: "On iPhone: tap Share → “Add to Home Screen”, open Yavanet from the home screen, then turn on alerts.", fail: "Could not turn on alerts right now. Please try again later." };
+    ? { on: "הפעלת התראות", active: "✓ ההתראות פעילות", ok: "מעולה! נשלח התראה כשיש שביתה או מבזק חשוב.", off: "ההתראות בוטלו.", denied: "ההתראות חסומות בדפדפן. אפשר לאשר אותן בהגדרות האתר.", ios: "באייפון: לחצו על כפתור השיתוף ← «הוספה למסך הבית», פתחו את יוונט מהמסך הבית ואז הפעילו התראות.", fail: "לא הצלחנו להפעיל התראות כרגע. נסו שוב מאוחר יותר." }
+    : { on: "Turn on alerts", active: "✓ Alerts are on", ok: "Done! We will alert you about strikes and important breaking news.", off: "Alerts turned off.", denied: "Notifications are blocked in your browser. You can allow them in the site settings.", ios: "On iPhone: tap Share → “Add to Home Screen”, open Yavanet from the home screen, then turn on alerts.", fail: "Could not turn on alerts right now. Please try again later." };
   var pushOK = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
   var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var standalone = window.navigator.standalone || (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);

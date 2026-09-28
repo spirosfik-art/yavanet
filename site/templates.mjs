@@ -313,7 +313,14 @@ export function yieldBox(lang, regions) {
 
 export function pushBox(lang, big = false) {
   const he = lang === "he";
-  return `<div class="widget pushbox${big ? " big" : ""}"><h4>${he ? "🚨 התראות למטיילים" : "🚨 Traveller alerts"}</h4><p class="small">${he ? "שביתה בטיסות או במעבורות? שריפה או מזג אוויר קשה? נשלח התראה ישר לטלפון. בלי אפליקציה, בחינם." : "Flight or ferry strike? Fire or severe weather? We send an alert straight to your phone. No app, free."}</p><button type="button" class="btn gold" data-push>${he ? "🔔 קבלו התראה על שביתות ומבזקים" : "🔔 Get alerts for strikes and breaking news"}</button></div>`;
+  const bell = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>';
+  const items = he ? ["שביתות בטיסות, מעבורות ומטרו", "שריפות ומזג אוויר קיצוני", "מבזקים חשובים לישראלים"] : ["Flight, ferry and metro strikes", "Wildfires and severe weather", "Breaking news for Israelis"];
+  return `<div class="widget pushbox${big ? " big" : ""}">
+<div class="pb-h"><span class="pb-ic">${bell}</span><div><h4>${he ? "התראות למטיילים" : "Traveller alerts"}</h4><span class="pb-sub">${he ? "ישר לטלפון, ברגע שזה קורה" : "Straight to your phone, as it happens"}</span></div></div>
+<ul class="pb-list">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+<button type="button" class="btn pb-btn" data-push>${he ? "הפעלת התראות" : "Turn on alerts"}</button>
+<p class="pb-note">${he ? "בחינם · בלי אפליקציה · ביטול בלחיצה" : "Free · No app · Turn off anytime"}</p>
+</div>`;
 }
 
 export function partners(lang) {
