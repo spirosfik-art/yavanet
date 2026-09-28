@@ -253,91 +253,94 @@
     "610c84713860": 1790627791361,
     "7f21ed637975": 1790628717333,
     "a6deb7382fbd": 1790629362415,
-    "014646afdd89": 1790629362415
+    "014646afdd89": 1790629362415,
+    "f55ffd93de0e": 1790630619120,
+    "d8c5a974b447": 1790630619120,
+    "b33041705ce1": 1790630619120
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T21:02:12.735Z",
+      "at": "2026-09-28T21:23:10.161Z",
       "error": "HTTP 403",
-      "fails": 205
+      "fails": 206
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T21:02:13.533Z",
-      "items": 0
+      "at": "2026-09-28T21:23:12.223Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T21:02:14.484Z",
+      "at": "2026-09-28T21:23:12.820Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T21:02:15.182Z",
+      "at": "2026-09-28T21:23:13.955Z",
       "error": "HTTP 403",
-      "fails": 205
+      "fails": 206
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T21:02:16.329Z",
+      "at": "2026-09-28T21:23:14.840Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T21:02:16.407Z",
+      "at": "2026-09-28T21:23:15.216Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T21:02:17.659Z",
+      "at": "2026-09-28T21:23:16.111Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T21:02:18.580Z",
+      "at": "2026-09-28T21:23:16.824Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T21:02:19.586Z",
+      "at": "2026-09-28T21:23:17.590Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T21:02:19.717Z",
+      "at": "2026-09-28T21:23:17.628Z",
       "error": "HTTP 403",
-      "fails": 205
+      "fails": 206
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T21:02:20.319Z",
+      "at": "2026-09-28T21:23:18.022Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T21:02:20.395Z",
+      "at": "2026-09-28T21:23:18.135Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T21:02:20.589Z",
+      "at": "2026-09-28T21:23:18.497Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T21:02:20.790Z",
-      "items": 6
+      "at": "2026-09-28T21:23:18.628Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T21:02:20.845Z",
+      "at": "2026-09-28T21:23:18.672Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T21:02:14.938Z",
+      "at": "2026-09-28T21:23:13.681Z",
       "items": 30
     }
   },
@@ -368,12 +371,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T21:02:42.415Z",
-    "considered": 2,
+    "at": "2026-09-28T21:23:39.120Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | ΟΗΕ: Νέα έκκληση Γκουτέρες για τερματισμό της επέκτασης των ισραηλινών οικισμών στη Δυτική",
-      "· ingr | ΟΗΕ: Ο Γκουτέρες καλεί το Ισραήλ να σταματήσει την «ανεξέλεγκτη προσάρτηση» της Δυτικής Όχ"
+      "· gct | Nea Ionia Cafe Fire: 10 Year Old Girl Hospitalised as Police Investigate Suspected Arson",
+      "· gct | Mazonakis Case: Lawyers Drop Doctor’s Defence as New Evidence Emerges",
+      "· gct | Thessaloniki Clinic to Be Sealed After Illegal Chemotherapy Unit Exposed"
     ]
   },
   "evergreenDone": [
