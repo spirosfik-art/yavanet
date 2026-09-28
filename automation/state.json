@@ -144,104 +144,113 @@
     "66daad553be3": 1790570312473,
     "9fd65e2e3e1d": 1790571132703,
     "e9756aed8d98": 1790571720143,
-    "e6bd84f39921": 1790573071607
+    "e6bd84f39921": 1790573071607,
+    "e8d491c99714": 1790573792316,
+    "6e5e786a26b4": 1790573792316,
+    "fa7f41a567ef": 1790573792316
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T05:24:02.784Z",
+      "at": "2026-09-28T05:36:23.463Z",
       "error": "HTTP 403",
-      "fails": 140
+      "fails": 141
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T05:24:05.397Z",
+      "at": "2026-09-28T05:36:25.514Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T05:24:06.813Z",
+      "at": "2026-09-28T05:36:26.038Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T05:24:08.087Z",
+      "at": "2026-09-28T05:36:26.647Z",
       "error": "HTTP 403",
-      "fails": 140
+      "fails": 141
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T05:24:09.386Z",
+      "at": "2026-09-28T05:36:27.560Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T05:24:10.186Z",
+      "at": "2026-09-28T05:36:27.883Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T05:24:11.259Z",
+      "at": "2026-09-28T05:36:28.690Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T05:24:12.256Z",
-      "items": 4
+      "at": "2026-09-28T05:36:29.376Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T05:24:13.107Z",
+      "at": "2026-09-28T05:36:30.158Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T05:24:13.195Z",
+      "at": "2026-09-28T05:36:30.189Z",
       "error": "HTTP 403",
-      "fails": 140
+      "fails": 141
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T05:24:13.866Z",
+      "at": "2026-09-28T05:36:30.738Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T05:24:14.108Z",
+      "at": "2026-09-28T05:36:30.781Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T05:24:14.559Z",
-      "items": 4
+      "at": "2026-09-28T05:36:31.142Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T05:24:15.080Z",
-      "items": 5
+      "at": "2026-09-28T05:36:31.270Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T05:24:15.237Z",
+      "at": "2026-09-28T05:36:31.462Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T05:24:07.799Z",
+      "at": "2026-09-28T05:36:26.433Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "neapirkaia20260928",
         "title": "Fire breaks out at a cafe in Nea Ionia, Athens",
         "at": "2026-09-28T07:25:01+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "rhodes-travel-guide-israeli-visitors",
+        "title": "The Rhodes Guide: History, Beaches and Travel Tips",
+        "at": "2026-09-28T08:36:51+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -249,6 +258,11 @@
         "title": "Λέσβος: Οριοθετήθηκε η πυρκαγιά στην Καλλονή",
         "reason": "Ίδιο θέμα με «Wildfire breaks out on Lesbos amid strong winds» – δεν γράφτηκε ξανά",
         "at": "2026-09-28T04:38:36.823Z"
+      },
+      {
+        "title": "Λέσβος: Καλύτερη η εικόνα της φωτιάς στην περιοχή μεταξύ Παρακοίλων – Άγρας",
+        "reason": "Ίδιο θέμα με «Wildfire breaks out on Lesbos amid strong winds» – δεν γράφτηκε ξανά",
+        "at": "2026-09-28T05:36:36.594Z"
       }
     ],
     "errors": []
@@ -267,17 +281,20 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T05:24:31.607Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-28T05:36:32.316Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Μεγάλη φωτιά σε καφετέρια στη Νέα Ιωνία: «Δεν μπορούσαμε να αναπνεύσουμε» – Συγκλονιστικές"
+      "· naftemporiki | Φονική έκρηξη στη «Βιολάντα»: Η εταιρεία διαψεύδει απολύσεις εργαζομένων επειδή κατέθεσαν ",
+      "✓ ert | Λέσβος: Καλύτερη η εικόνα της φωτιάς στην περιοχή μεταξύ Παρακοίλων – Άγρας",
+      "· ingr | Πυρκαγιά σε χώρο με απορρίμματα στον Ασπρόπυργο – Μεγάλη κινητοποίηση της Πυροσβεστικής"
     ]
   },
   "evergreenDone": [
     "jews-thessaloniki",
-    "jewish-museum-greece"
+    "jewish-museum-greece",
+    "rhodes"
   ],
-  "lastEvergreen": 1790533398496,
+  "lastEvergreen": 1790573796597,
   "pushKey": "ok"
 }
