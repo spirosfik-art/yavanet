@@ -498,7 +498,7 @@ async function backfillPhotos() {
 
 /* ================= Εκτέλεση ================= */
 // Προσωρινά προβλήματα (όριο AI, δίκτυο): δεν είναι «σφάλματα», ξαναδοκιμάζονται στην επόμενη εκτέλεση
-const transient = (e) => /όριο αιτημάτων|fetch failed|ECONNRESET|ETIMEDOUT|EAI_AGAIN|socket hang up|network|aborted|timeout|\b50[234]\b/i.test(String((e && e.message) || e) + " " + String((e && e.cause && e.cause.code) || ""));
+const transient = (e) => /όριο αιτημάτων|υπερφόρτωση|fetch failed|ECONNRESET|ETIMEDOUT|EAI_AGAIN|socket hang up|network|aborted|timeout|\b50[234]\b/i.test(String((e && e.message) || e) + " " + String((e && e.cause && e.cause.code) || ""));
 
 (async () => {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }

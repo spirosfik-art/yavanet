@@ -95,6 +95,7 @@ export const provider = () => env.AI_PROVIDER || (env.ANTHROPIC_API_KEY ? "claud
 export const hasAI = () => !!(env.ANTHROPIC_API_KEY || env.GEMINI_API_KEY);
 let lastGemini = 0;
 let geminiAuto = null;
+let geminiCands = [];
 export let quotaHit = false;
 export const aiQuotaHit = () => quotaHit;
 // Βρίσκει μόνο του το νεότερο διαθέσιμο μοντέλο «flash-lite» (η Google αλλάζει συχνά ονόματα)
@@ -110,6 +111,7 @@ async function pickGeminiModel() {
   // Προτιμάμε «Flash Lite»: στο δωρεάν επίπεδο έχει ~500 αιτήματα/μέρα (το «Flash» μόνο ~20)
   const lite = (n) => (n.endsWith("-lite") ? 1 : 0);
   cands.sort((a, b) => lite(b) - lite(a) || ver(b) - ver(a));
+  geminiCands = [...cands, "gemini-flash-lite-latest", "gemini-flash-latest"].filter((x, i, a) => a.indexOf(x) === i);
   geminiAuto = cands[0] || "gemini-flash-lite-latest";
   log("μοντέλο Gemini:", geminiAuto);
   return geminiAuto;
@@ -117,19 +119,21 @@ async function pickGeminiModel() {
 async function gemini({ system, prompt, role, maxTokens, temperature }) {
   if (!env.GEMINI_API_KEY) throw new Error("Λείπει το GEMINI_API_KEY");
   let model = (role === "select" && env.GEMINI_SELECT_MODEL) || env.GEMINI_MODEL || (await pickGeminiModel());
-  for (let attempt = 1; attempt <= 4; attempt++) {
+  if (!geminiCands.length && !env.GEMINI_MODEL) await pickGeminiModel();
+  for (let attempt = 1; attempt <= 6; attempt++) {
     // Το δωρεάν επίπεδο επιτρέπει ~15 αιτήματα το λεπτό: κρατάμε απόσταση ~4,5 δευτερολέπτων
     const wait = 4500 - (Date.now() - lastGemini); if (wait > 0) await new Promise((s) => setTimeout(s, wait));
     lastGemini = Date.now();
-    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-      method: "POST",
+    let r;
+    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      method: "POST", signal: AbortSignal.timeout(120000),
       headers: { "x-goog-api-key": env.GEMINI_API_KEY, "content-type": "application/json" },
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: system }] },
         contents: [{ role: "user", parts: [{ text: prompt }] }],
         generationConfig: { temperature, maxOutputTokens: Math.max(maxTokens, 8192), responseMimeType: "application/json" },
       }),
-    });
+    }); } catch (e) { log(`Gemini ${model}: ${e.name === "TimeoutError" ? "δεν απάντησε σε 2 λεπτά" : e.message}`); r = { status: 599 }; }
     if (r.status === 429) {
       // Αν τελείωσε το ημερήσιο όριο, σταματάμε αμέσως (ξαναδοκιμάζει στην επόμενη εκτέλεση)
       const body = await r.text();
@@ -138,7 +142,12 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
       if (/PerDay|per day/i.test(body) || delay > 60 || attempt >= 3) { quotaHit = true; throw new Error("Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει αργότερα"); }
       await new Promise((s) => setTimeout(s, (delay + 2) * 1000)); continue;
     }
-    if (r.status >= 500) { await new Promise((s) => setTimeout(s, 10000 * attempt)); continue; }
+    if (r.status >= 500) {
+      // Υπερφόρτωση του μοντέλου στη Google: μετά από 2 αποτυχίες δοκιμάζουμε το επόμενο διαθέσιμο μοντέλο
+      log(`Gemini ${model}: HTTP ${r.status} (προσπάθεια ${attempt})`);
+      if (attempt >= 2 && geminiCands.length) { const i = geminiCands.indexOf(model); const next = geminiCands[i + 1]; if (next) { log(`→ δοκιμή με ${next}`); model = next; geminiAuto = next; continue; } }
+      await new Promise((s) => setTimeout(s, 8000 * attempt)); continue;
+    }
     const d = await r.json();
     if (r.status === 404 && attempt === 1) { geminiAuto = null; const m2 = await pickGeminiModel(); if (m2 !== model) { log(`το ${model} δεν είναι διαθέσιμο → ${m2}`); model = m2; continue; } }
     if (!r.ok) throw new Error("Gemini API: " + JSON.stringify(d).slice(0, 300));
@@ -146,7 +155,7 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
     if (!text) throw new Error("Gemini: κενή απάντηση (" + (d.candidates?.[0]?.finishReason || d.promptFeedback?.blockReason || "?") + ")");
     return text;
   }
-  throw new Error("Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση");
+  throw new Error("Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση");
 }
 
 export async function claude({ system, prompt, model = env.ANTHROPIC_MODEL || "claude-sonnet-5", maxTokens = 6000, temperature = 0.3, role = "write" }) {
