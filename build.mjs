@@ -43,7 +43,7 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
   .filter(Boolean)
   .sort((x, y) => new Date(y.publishedAt) - new Date(x.publishedAt));
 
-const photoOf = (a) => (a.image && a.image.type === "photo" && a.image.url) || null;
+const photoOf = (a) => { const u = (a.image && (a.image.og || (a.image.type === "photo" && a.image.url))) || null; return u && u.startsWith("/") ? abs(u) : u; };
 const bySection = (s) => articles.filter((a) => a.section === s);
 const breakingNow = articles.find((a) => a.breaking && NOW - new Date(a.updatedAt || a.publishedAt).getTime() < 12 * 3600e3) || null;
 if (breakingNow) breakingNow.fire = (breakingNow.image && breakingNow.image.key === "fire") || /fire|שריפ/i.test(breakingNow.en.title + breakingNow.he.title);

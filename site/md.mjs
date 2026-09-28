@@ -16,7 +16,7 @@ function inline(s) {
 export function md(src) {
   const lines = String(src || "").replace(/\r/g, "").split("\n");
   const html = [];
-  let para = [], list = null, table = null;
+  let para = [], list = null, table = null, m0;
   const flushTable = () => {
     if (!table) return;
     const [head, ...rows] = table.filter((r) => !/^\|?\s*:?-{2,}/.test(r));
@@ -29,6 +29,7 @@ export function md(src) {
   for (const raw of lines) {
     const line = raw.trim();
     if (!line) { flushPara(); flushList(); flushTable(); continue; }
+    if ((m0 = line.match(/^!\[([^\]]*)\]\((\/[^\s)]+|https:\/\/[^\s)]+)\)$/))) { flushPara(); flushList(); flushTable(); html.push(`<figure class="mdimg"><img src="${esc(m0[2])}" alt="${esc(m0[1])}" loading="lazy">${m0[1] ? `<figcaption>${esc(m0[1])}</figcaption>` : ""}</figure>`); continue; }
     if (line.startsWith("|")) { flushPara(); flushList(); (table ||= []).push(line); continue; }
     flushTable();
     let m;
@@ -43,5 +44,5 @@ export function md(src) {
 
 // Καθαρό κείμενο (για περιγραφές, ανάγνωση φωναχτά κ.λπ.)
 export function plain(src) {
-  return String(src || "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\|/g, " ").replace(/-{3,}/g, " ").replace(/[#*_>`]/g, "").replace(/\s+/g, " ").trim();
+  return String(src || "").replace(/!\[[^\]]*\]\([^)]+\)/g, " ").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\|/g, " ").replace(/-{3,}/g, " ").replace(/[#*_>`]/g, "").replace(/\s+/g, " ").trim();
 }

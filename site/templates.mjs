@@ -152,7 +152,7 @@ ${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}"
 
 export function kickerHTML(a, lang) {
   const s = sec(a.section);
-  return `<span class="kicker ${s.mark}">${esc(s[lang])}</span>${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : ""}`;
+  return `<span class="kicker ${s.mark}">${esc(s[lang])}</span>${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "בשיתוף פעולה" : "In partnership"}</span>` : ""}`;
 }
 export function heroCard(a, lang) {
   return `<a class="hero" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang)}</div><div class="body">${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p class="dek">${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;

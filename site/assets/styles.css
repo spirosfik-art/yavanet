@@ -400,3 +400,6 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .fl-p small{font-size:11px;color:var(--muted)}
 .fl-p b{font-size:24px;font-weight:900;color:var(--gold)}
 .fl-p i{font-style:normal;font-size:12px;color:var(--muted)}
+.mdimg{margin:18px 0;display:grid;gap:6px}
+.mdimg img{width:100%;height:auto;border-radius:14px;display:block;max-height:560px;object-fit:cover}
+.mdimg figcaption{font-size:13px;color:var(--muted)}
