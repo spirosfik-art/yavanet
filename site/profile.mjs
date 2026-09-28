@@ -17,8 +17,8 @@ const icon = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true">${IC[k] || IC.c
 
 export function profileBody(a, lang) {
   const p = a[lang].profile, he = lang === "he";
-  const wa = `<a class="pf-btn wa" href="${esc(p.wa)}" target="_blank" rel="noopener">${icon("wa")}<span>${esc(p.waLabel)}</span></a>`;
-  return `<article class="pf" lang="${lang}">
+  const wa = p.wa ? `<a class="pf-btn wa" href="${esc(p.wa)}" target="_blank" rel="noopener">${icon("wa")}<span>${esc(p.waLabel)}</span></a>` : `<a class="pf-btn gold" href="${esc(p.cta.href)}" target="_blank" rel="noopener">${icon(p.cta.icon || "cal")}<span>${esc(p.cta.label)}</span></a>`;
+  return `<article class="pf${p.theme ? " pf-" + p.theme : ""}" lang="${lang}">
 <header class="pf-hero">
   <div class="pf-photo"><img src="${esc(p.photo)}" alt="${esc(p.name)}" width="640" height="800"></div>
   <div class="pf-intro">
@@ -39,20 +39,22 @@ export function profileBody(a, lang) {
 <section class="pf-sec"><h2>${esc(p.stepsTitle)}</h2>
 <ol class="pf-steps">${p.steps.map(([t, d]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join("")}</ol></section>
 
-<section class="pf-sec"><h2>${esc(p.galleryTitle)}</h2><p class="pf-lead">${esc(p.galleryText)}</p>
-<div class="pf-gal">${p.gallery.map(([src, alt], i) => `<a href="${esc(src)}" target="_blank" rel="noopener" class="${i === 0 ? "big" : ""}"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></a>`).join("")}</div></section>
+${p.gallery ? `<section class="pf-sec"><h2>${esc(p.galleryTitle)}</h2><p class="pf-lead">${esc(p.galleryText)}</p>
+<div class="pf-gal">${p.gallery.map(([src, alt], i) => `<a href="${esc(src)}" target="_blank" rel="noopener" class="${i === 0 ? "big" : ""}"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></a>`).join("")}</div></section>` : ""}
+${p.team ? `<section class="pf-sec"><h2>${esc(p.teamTitle)}</h2><div class="pf-team">${p.team.map((m) => `<div class="pf-tm">${m.img ? `<img src="${esc(m.img)}" alt="${esc(m.name)}" loading="lazy">` : `<span class="pf-ini">${esc(m.name.split(" ").map((w) => w[0]).join("").slice(0, 2))}</span>`}<div><b>${esc(m.name)}</b><span>${esc(m.role)}</span><p>${esc(m.text)}</p></div></div>`).join("")}</div></section>` : ""}
+${p.reviews ? `<section class="pf-sec"><h2>${esc(p.reviewsTitle)}</h2><div class="pf-reviews">${p.reviews.map(([q, n]) => `<figure><blockquote lang="en" dir="ltr">“${esc(q)}”</blockquote><figcaption>${esc(n)}</figcaption></figure>`).join("")}</div><p class="small">${esc(p.reviewsNote)}</p></section>` : ""}
 
 ${p.areas ? `<section class="pf-areas"><h3>${icon("area")}${esc(p.areasTitle)}</h3><div>${p.areas.map((x) => `<span>${esc(x)}</span>`).join("")}</div></section>` : ""}
 
 <section class="pf-sec"><h2>${esc(p.networkTitle)}</h2><p class="pf-lead">${esc(p.networkText)}</p>
 <div class="pf-chips">${p.network.map((x) => `<span>${esc(x)}</span>`).join("")}</div></section>
 
-<section class="pf-quote"><p>${esc(p.quote2)}</p><span>${esc(p.name)}</span></section>
+<section class="pf-quote"><p>${esc(p.quote2)}</p><span>${esc(p.quoteBy || p.name)}</span></section>
 
 <section class="pf-meet" id="pf-meet">
   <img src="${esc(p.avatar || p.photo)}" alt="" width="400" height="400">
   <div><h2>${esc(p.meetTitle)}</h2><p>${esc(p.meetText)}</p>
-  <div class="pf-ctas">${wa}<a class="pf-btn ghost" dir="ltr" href="tel:${esc(p.phone.replace(/[^+\d]/g, ""))}">${esc(p.phone)}</a></div></div>
+  <div class="pf-ctas">${wa}<a class="pf-btn ghost" dir="ltr" href="tel:${esc(p.phone.replace(/[^+\d]/g, ""))}">${esc(p.phone)}</a></div>${p.address ? `<p class="pf-addr">📍 ${esc(p.address)}</p>` : ""}</div>
 </section>
 
 <p class="pf-more">${p.links.map(([u, t]) => `<a href="${P(lang, u)}">${esc(t)}</a>`).join(" · ")}</p>

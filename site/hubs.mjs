@@ -44,6 +44,7 @@ export function people(lang, which) {
   const all = {
     asi: { img: "/asi-avatar.jpg", name: he ? "אסי דורון" : "Asi Doron", role: he ? "קנייה, שיפוץ, השכרה וניהול נכסים" : "Buying, renovating, renting, management", text: he ? "9 שנים ביוון, מלווה משקיעים ישראלים מהפגישה הראשונה ועד המפתח." : "9 years in Greece, guiding Israeli investors from the first meeting to the keys.", more: A(lang, "asi-doron-real-estate-greece-hebrew"), wa: WA_ASI },
     yana: { img: "/yana-portrait.jpg", name: he ? "יאנה" : "Yana", role: he ? "טיולים, טברנות, יאכטות והסעות באתונה" : "Tours, tavernas, yachts, transfers in Athens", text: he ? "מתאמת לכם את החוויות הכי שוות באתונה, בעברית, בהודעת וואטסאפ אחת." : "Arranges the best of Athens for you, in Hebrew, in one WhatsApp message.", more: A(lang, "athens-with-yana-hebrew-tours-athens"), wa: WA_YANA },
+    cremer: { img: "/cremer-marcel.jpg", name: "Marcel Cremer", role: he ? "עורך דין · Cremer & Partners, אתונה" : "Lawyer · Cremer & Partners, Athens", text: he ? "קניית נכסים, ויזת זהב, ירושות והקמת חברות. משרד משפחתי מאז 1974. השירות באנגלית." : "Property purchases, Golden Visa, inheritance and company setup. Family firm since 1974. Service in English.", more: A(lang, "lawyer-in-greece-cremer-partners-athens"), moreLabel: he ? "לפרטים" : "Details", wa: null },
     sf: { img: "/icon-192.png", logo: true, name: "S.F. Properties", role: he ? "נדל״ן וניהול נכסים ביוון" : "Real estate & property management", text: he ? "משרד בפילותיי, אתונה. השאירו פרטים ונחזור אליכם בעברית." : "Office in Filothei, Athens. Leave your details and we will get back to you.", more: P(lang, "/advisor/"), moreLabel: he ? "השאירו פרטים" : "Leave your details", wa: null },
   };
   return `<div class="people">${which.map((k) => { const p = all[k]; return `<div class="person">
@@ -125,7 +126,7 @@ export function hubPage(lang, kind, ctx) {
       start: "buying-property-in-greece-israelis-guide",
       tools: [["/madad/", "madad", H(lang, "מחירי דירות", "Property prices"), H(lang, "מחיר למ״ר בכל שכונה", "Price per m² by area")], ["/tlv-vs-athens/", "tlv", H(lang, "תל אביב מול אתונה", "Tel Aviv vs Athens"), H(lang, "הדירה שלך = כמה דירות כאן?", "Your flat = how many here?")], ["/tools/", "calc", H(lang, "מחשבונים", "Calculators"), H(lang, "עלויות קנייה ותשואה", "Buying costs & yield")], ["/advisor/", "people", H(lang, "ייעוץ אישי", "Personal advice"), H(lang, "השאירו פרטים", "Leave your details")]],
       guides: ["golden-visa-greece-2026-guide", "managing-property-in-greece-from-israel", "greek-tax-number-and-bank-account-guide"].map(bySlug),
-      people: ["asi", "sf"], newsSecs: ["real-estate"], newsLink: "/s/real-estate/",
+      people: ["asi", "cremer", "sf"], newsSecs: ["real-estate"], newsLink: "/s/real-estate/",
     },
     moving: {
       title: H(lang, "לעבור לגור ביוון", "Moving to Greece"), icon: "moving",
@@ -157,6 +158,7 @@ export function contactPage(lang) {
   const body = `<div class="hub">
 <header class="hub-hero"><span class="hub-ic">${TI.people}</span><div><h1>${esc(title)}</h1><p>${esc(intro)}</p></div></header>
 ${sec(H(lang, "נדל״ן והשקעות", "Property & investment"), people(lang, ["asi", "sf"]))}
+${sec(H(lang, "עורך דין", "Lawyer"), people(lang, ["cremer"]))}
 ${sec(H(lang, "טיולים וחוויות באתונה", "Tours & experiences in Athens"), people(lang, ["yana"]))}
 ${sec(H(lang, "יוונט", "Yavanet"), `<div class="hub-links"><a href="${P(lang, "/directory/")}">${H(lang, "מדריך עסקים בעברית", "Hebrew business directory")}</a><a href="${P(lang, "/p/advertise/")}">${H(lang, "פרסום ביוונט", "Advertise on Yavanet")}</a><a href="${P(lang, "/p/corrections/")}">${H(lang, "דיווח על טעות", "Report a mistake")}</a><a href="mailto:info@sfproperties.gr">info@sfproperties.gr</a></div>`)}
 ${newsletterBox(lang)}
