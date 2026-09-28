@@ -166,7 +166,7 @@ ${newsletterBox(lang)}
     const url = P(lang, `/a/${a.slug}/`);
     const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].dek, inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: photoOf(a) ? [photoOf(a), abs("/og.png")] : [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
     const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: sec(a.section)[lang], item: abs(P(lang, `/s/${a.section}/`)) }, { "@type": "ListItem", position: 3, name: a[lang].title }] };
-    write(url, layout({ lang, title: a[lang].title, description: a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs],
+    write(url, layout({ lang, title: a[lang].title, description: a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs, ...(a[lang].profile && a[lang].profile.phone ? [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: a[lang].profile.name, image: abs(a[lang].profile.photo), telephone: a[lang].profile.phone, url: abs(url), knowsLanguage: ["he", "en"], areaServed: (a[lang].profile.areas || []).map((x) => ({ "@type": "Place", name: x })), description: a[lang].dek }] : [])],
       image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
   });
 
@@ -307,11 +307,13 @@ ${pushBox(lang, true)}
   /* Σελίδες-κόμβοι: Διακοπές / Επένδυση / Μετακόμιση + Επικοινωνία */
   for (const kind of ["travel", "invest", "moving"]) {
     const pg = hubPage(lang, kind, { articles, GLOBAL });
-    write(P(lang, `/${kind}/`), layout({ lang, title: pg.title, description: pg.description, path: P(lang, `/${kind}/`), altPath: P(lang === "he" ? "en" : "he", `/${kind}/`), body: pg.body, breaking: breakingNow, activeNav: kind }));
+    write(P(lang, `/${kind}/`), layout({ lang, title: pg.title, description: pg.description, path: P(lang, `/${kind}/`), altPath: P(lang === "he" ? "en" : "he", `/${kind}/`), body: pg.body, breaking: breakingNow, activeNav: kind,
+      jsonld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: pg.faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }, { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: pg.title, item: abs(P(lang, `/${kind}/`)) }] }] }));
   }
   {
     const pg = contactPage(lang);
-    write(P(lang, "/contact/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/contact/"), altPath: P(lang === "he" ? "en" : "he", "/contact/"), body: pg.body, breaking: breakingNow, activeNav: "contact" }));
+    write(P(lang, "/contact/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/contact/"), altPath: P(lang === "he" ? "en" : "he", "/contact/"), body: pg.body, breaking: breakingNow, activeNav: "contact",
+      jsonld: [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: "S.F. Properties", url: abs(P(lang, "/contact/")), email: "info@sfproperties.gr", address: { "@type": "PostalAddress", streetAddress: "Π. Π. Γερμανού 77", addressLocality: "Φιλοθέη", postalCode: "15237", addressCountry: "GR" }, areaServed: "Athens, Greece", knowsLanguage: ["he", "en", "el"] }] }));
   }
   /* Ευρετήριο αναζήτησης */
   {
@@ -473,6 +475,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 
 /* Sitemaps */
 const urls = [];
+const LASTMOD = {};
 for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
@@ -480,9 +483,9 @@ for (const lang of LANGS) {
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
-  articles.forEach((a) => urls.push(P(lang, `/a/${a.slug}/`)));
+  articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });
 }
-write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${abs(u)}</loc></url>`).join("\n")}\n</urlset>`);
+write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${abs(u)}</loc>${LASTMOD[u] ? `<lastmod>${LASTMOD[u]}</lastmod>` : `<lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>`}</url>`).join("\n")}\n</urlset>`);
 const recent = articles.filter((a) => NOW - new Date(a.publishedAt).getTime() < 2 * 86400e3);
 write("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">

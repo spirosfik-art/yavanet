@@ -579,3 +579,10 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 body.noscroll{overflow:hidden}
 .pmono{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#0B3A5B,#1C6E9C);color:#f3c66b;font-family:var(--display);font-weight:900;font-size:22px;letter-spacing:.02em}
 @media (max-width:640px){.pmono{width:60px;height:60px;font-size:19px}}
+.faq{display:grid;gap:8px}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:0 16px}
+.faq summary{cursor:pointer;font-weight:800;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:20px;line-height:1;color:var(--sea)}
+.faq details[open] summary::after{content:"–"}
+.faq p{margin:0 0 14px;color:var(--muted);line-height:1.6}

@@ -52,6 +52,55 @@ ${p.logo ? `<span class="pmono" aria-hidden="true">S.F.</span>` : `<img src="${p
 <div class="pacts">${p.wa ? `<a class="pbtn wa" href="${esc(p.wa)}" target="_blank" rel="noopener">WhatsApp</a>` : ""}<a class="pbtn" href="${p.more}">${esc(p.moreLabel || (he ? "להכיר" : "Meet"))}</a></div></div></div>`; }).join("")}</div>`;
 }
 
+
+const FAQ = {
+  invest: {
+    he: [
+      ["האם ישראלי יכול לקנות דירה ביוון?", "כן. ישראלים יכולים לקנות נכסים ביוון. באזורי גבול מסוימים, למשל רודוס וחלק מאיי הדודקנס וצפון הים האגאי, צריך אישור של משרד ההגנה היווני, שבדרך כלל ניתן. באתונה ובאיי הקיקלדים אין הגבלה כזו."],
+      ["כמה עולה לקנות דירה ביוון מעבר למחיר הדירה?", "בערך 7%–9% ממחיר הדירה: מס רכישה של 3.09%, נוטריון, עורך דין, רישום בקדסטר ועמלת תיווך."],
+      ["מה זה ויזת זהב ביוון?", "אישור שהייה למשקיעים בנדל״ן: 800,000 אירו באטיקה (אתונה), סלוניקי, מיקונוס, סנטוריני ואיים גדולים, ו-400,000 אירו בשאר יוון, בנכס אחד של לפחות 120 מ״ר."],
+      ["האם מס הרכישה לישראלים עומד לעלות?", "ממשלת יוון הודיעה על מס רכישה של 15% לקונים פרטיים מחוץ לאיחוד האירופי מ-1 ביולי 2027. החוק עוד לא עבר, והפרטים יכולים להשתנות."],
+      ["אפשר להשכיר דירה ביוון ב-Airbnb?", "כן, עם מספר רישום (ΑΜΑ) מרשות המסים. ברובעים 1, 2 ו-3 של מרכז אתונה אסור לרשום דירות חדשות להשכרה קצרה, ולפי הודעת הממשלה האיסור יימשך עד סוף 2027."],
+    ],
+    en: [
+      ["Can an Israeli buy property in Greece?", "Yes. In some border areas, such as Rhodes and parts of the Dodecanese and North Aegean, approval from the Greek Ministry of Defence is needed and is usually granted. Athens and the Cyclades have no such restriction."],
+      ["What does buying a flat in Greece cost on top of the price?", "About 7–9% of the price: 3.09% transfer tax, notary, lawyer, land registry and agency fees."],
+      ["What is the Greek Golden Visa?", "A residence permit for property investors: €800,000 in Attica (Athens), Thessaloniki, Mykonos, Santorini and large islands, and €400,000 elsewhere, in one property of at least 120 m²."],
+      ["Is transfer tax for Israelis going up?", "The Greek government announced a 15% transfer tax for private non-EU buyers from 1 July 2027. The law has not passed yet and details may change."],
+      ["Can I rent out a flat in Greece on Airbnb?", "Yes, with a registration number (ΑΜΑ) from the tax authority. New short-let registrations are banned in Athens districts 1, 2 and 3, and according to the government the ban will last until the end of 2027."],
+    ],
+  },
+  travel: {
+    he: [
+      ["האם ישראלים צריכים ויזה ליוון?", "לא. ישראלים יכולים לשהות ביוון עד 90 יום בכל תקופה של 180 יום בלי ויזה."],
+      ["מה מספר החירום ביוון?", "מספר החירום האירופי הוא 112. בעמוד החירום שלנו יש גם את מספרי המשטרה, האמבולנס ושגרירות ישראל באתונה."],
+      ["איך יודעים אם יש שביתה ביוון?", "בעמוד השביתות שלנו, שמתעדכן אוטומטית ממקורות רשמיים. אפשר גם להירשם להתראה לטלפון על שביתות בטיסות ובמעבורות."],
+      ["יש אוכל כשר ובתי חב״ד ביוון?", "כן. באתונה, סלוניקי ורודוס יש בתי חב״ד ומקומות עם אוכל כשר. הרשימה נמצאת במדריך \"יוון בעברית\"."],
+    ],
+    en: [
+      ["Do Israelis need a visa for Greece?", "No. Israelis can stay in Greece for up to 90 days in any 180-day period without a visa."],
+      ["What is the emergency number in Greece?", "The European emergency number is 112. Our emergency page also lists police, ambulance and the Israeli embassy in Athens."],
+      ["How do I know if there is a strike in Greece?", "Check our strikes page, updated automatically from official sources, or sign up for phone alerts on flight and ferry strikes."],
+      ["Is there kosher food and Chabad in Greece?", "Yes. Athens, Thessaloniki and Rhodes have Chabad houses and kosher options. See the Greece in Hebrew directory."],
+    ],
+  },
+  moving: {
+    he: [
+      ["איך עוברים לגור ביוון מישראל?", "כתייר אפשר להישאר עד 90 יום. כדי לגור ביוון צריך אישור שהייה, למשל ויזה לעצמאים כלכלית, ויזת נוודים דיגיטליים או ויזת זהב."],
+      ["כמה עולה לחיות באתונה?", "לפי Numbeo, שכר דירה באתונה זול בכ-66% מתל אביב, ושאר המחירים זולים בכ-44%."],
+      ["איך מקבלים מספר מס יווני (ΑΦΜ)?", "אפשר לקבל אותו מרחוק, בשיחת וידאו עם רשות המסים היוונית, או דרך עורך דין עם ייפוי כוח."],
+      ["יש בתי ספר בינלאומיים באתונה?", "כן, למשל ACS Athens, Campion School, St Catherine's British School ו-Byron College. שכר הלימוד נע בערך בין 7,000 ל-24,500 אירו לשנה."],
+    ],
+    en: [
+      ["How do I move to Greece from Israel?", "As a tourist you can stay up to 90 days. To live in Greece you need a residence permit, such as the financially independent person visa, the digital nomad visa or the Golden Visa."],
+      ["What does it cost to live in Athens?", "According to Numbeo, rent in Athens is about 66% cheaper than in Tel Aviv, and other prices about 44% lower."],
+      ["How do I get a Greek tax number (ΑΦΜ)?", "Remotely, by video call with the Greek tax authority, or through a lawyer with power of attorney."],
+      ["Are there international schools in Athens?", "Yes, for example ACS Athens, Campion School, St Catherine's British School and Byron College. Fees range from about €7,000 to €24,500 a year."],
+    ],
+  },
+};
+export const faqOf = (kind, lang) => (FAQ[kind] || {})[lang] || [];
+
 const sec = (h, body, more) => `<section class="hub-sec"><div class="zone-h"><h2>${h}</h2>${more || ""}</div>${body}</section>`;
 
 export function hubPage(lang, kind, ctx) {
@@ -95,9 +144,10 @@ ${sec(H(lang, "כלים שימושיים", "Useful tools"), `<nav class="tiles">
 ${T.guides.filter(Boolean).length ? sec(H(lang, "עוד מדריכים", "More guides"), cards(T.guides)) : ""}
 ${sec(H(lang, "האנשים שלנו", "Our people"), people(lang, T.people), `<a class="zone-more" href="${P(lang, "/contact/")}">${H(lang, "כל אנשי הקשר", "All contacts")}</a>`)}
 ${sec(H(lang, "חדשות אחרונות", "Latest news"), cards(news(T.newsSecs)), `<a class="zone-more" href="${P(lang, T.newsLink)}">${H(lang, "לכל החדשות", "All news")}</a>`)}
+${sec(H(lang, "שאלות נפוצות", "Frequently asked questions"), `<div class="faq">${faqOf(kind, lang).map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>`)}
 ${pushBox(lang, true)}
 </div>`;
-  return { title: T.title, description: T.intro, body };
+  return { title: T.title, description: T.intro, body, faq: faqOf(kind, lang) };
 }
 
 export function contactPage(lang) {

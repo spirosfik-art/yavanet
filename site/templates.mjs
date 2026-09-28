@@ -67,13 +67,48 @@ export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 
 export const GLOBAL = { strike: null, madad: false, win: false };
 const STRIKE_WORD = { he: "שביתה", en: "Strike" };
 
+
+// SEO: τίτλοι/περιγραφές με τις λέξεις που ψάχνουν οι Ισραηλινοί στη Google
+const SEO = {
+  he: {
+    "/": ["יוונט: חדשות יוון בעברית, נדל״ן ביוון וחופשה ביוון לישראלים", "האתר של ישראלים ביוון: חדשות יוון בעברית, קניית דירה ביוון, מחירי נדל״ן באתונה, ויזת זהב, שביתות וטיסות, ומדריכים לרודוס, כרתים ואתונה."],
+    "/invest/": ["נדל״ן ביוון לישראלים: השקעה וקניית דירה ביוון", "כל מה שצריך לדעת על השקעה בנדל״ן ביוון: איך קונים דירה באתונה, כמה זה עולה, מחירים לפי שכונה, ויזת זהב, מיסים וליווי אישי בעברית."],
+    "/travel/": ["חופשה ביוון: המדריך לישראלים, טיסות, שביתות ואיים", "חופשה ביוון בלי הפתעות: מדריך טיסה ליוון, שביתות קרובות, מה עושים בחירום, מדריכים לרודוס וכרתים, וטיולים באתונה בעברית."],
+    "/moving/": ["לעבור לגור ביוון: רילוקיישן ליוון לישראלים", "רילוקיישן ליוון: איזו ויזה, מספר מס וחשבון בנק, בתי ספר, בריאות ויוקר המחיה באתונה לעומת תל אביב. הכול בעברית."],
+    "/contact/": ["יועץ נדל״ן דובר עברית ביוון וטיולים באתונה בעברית", "אנשי קשר דוברי עברית ביוון: ליווי בקניית דירה, שיפוץ, השכרה וניהול נכסים, וטיולים וחוויות באתונה."],
+    "/madad/": ["מחירי דירות באתונה לפי שכונה (2026)", "כמה עולה מ״ר באתונה? מחירי קנייה ושכירות בכל שכונה: קולונקי, קוקאקי, פנגרטי, גליפדה, קיפסלי ועוד. מתעדכן כל חודש."],
+    "/tlv-vs-athens/": ["דירה בתל אביב מול דירה באתונה: מחשבון השוואה", "הכניסו כמה שווה הדירה שלכם בתל אביב וגלו כמה דירות היא קונה באתונה, לפי מחירים אמיתיים לכל שכונה."],
+    "/cost-of-living/": ["יוקר המחיה ביוון: אתונה מול תל אביב (2026)", "כמה עולה לחיות ביוון? שכר דירה, סופר, קפה ותחבורה באתונה לעומת תל אביב, בשקלים ובאירו."],
+    "/strikes/": ["שביתות ביוון: טיסות, מעבורות ומטרו – עדכונים", "שביתה ביוון? כל השביתות הקרובות בטיסות, מעבורות, מטרו ואוטובוסים, עם תאריכים ומה זה אומר למטיילים."],
+    "/emergency/": ["חירום ביוון: מספרי טלפון ושגרירות ישראל באתונה", "מספרי חירום ביוון, שגרירות ישראל באתונה, ומה עושים אם נגנב דרכון, צריך רופא או נתקעים בשביתה."],
+    "/directory/": ["יוון בעברית: עסקים ושירותים דוברי עברית ביוון", "עסקים ושירותים בעברית ביוון: ליווי נדל״ן, טיולים באתונה, חב״ד, אוכל כשר, בתי כנסת ועוד."],
+    "/tools/": ["מחשבון עלויות קניית דירה ביוון ותשואה משכירות", "חשבו כמה עולה לקנות דירה ביוון (מס רכישה, נוטריון, עורך דין, רישום) ומה התשואה משכירות, בעברית."],
+    "/guides/": ["מדריכים לישראלים ביוון: נדל״ן, רילוקיישן וטיולים", "מדריכים מלאים בעברית: קניית דירה ביוון, ויזת זהב, מספר מס וחשבון בנק, מעבר ליוון עם המשפחה, רודוס, כרתים ואתונה."],
+  },
+  en: {
+    "/": ["Yavanet: Greece news for Israelis, property and travel", "Greece news for Israelis: buying property in Greece, Athens prices, Golden Visa, strikes and flights, and guides to Rhodes, Crete and Athens."],
+    "/invest/": ["Greek property for Israelis: investing and buying in Greece", "Everything about investing in Greek property: how to buy in Athens, costs, prices by area, Golden Visa, taxes and personal guidance in Hebrew."],
+    "/travel/": ["Holiday in Greece: the guide for Israelis", "Flying to Greece, upcoming strikes, emergencies, Rhodes and Crete guides, and tours of Athens in Hebrew."],
+    "/moving/": ["Moving to Greece from Israel: relocation guide", "Relocating to Greece: visas, tax number and bank account, schools, healthcare and the cost of living in Athens vs Tel Aviv."],
+    "/contact/": ["Hebrew-speaking property adviser and Athens tours", "Hebrew-speaking contacts in Greece: buying, renovating, renting and managing property, plus tours and experiences in Athens."],
+    "/madad/": ["Athens property prices by neighbourhood (2026)", "Price per m² to buy and rent in every Athens neighbourhood: Kolonaki, Koukaki, Pangrati, Glyfada, Kypseli and more."],
+    "/tlv-vs-athens/": ["Tel Aviv flat vs Athens flats: comparison calculator", "Enter what your Tel Aviv flat is worth and see how many flats it buys in Athens, using real prices by neighbourhood."],
+    "/cost-of-living/": ["Cost of living in Greece: Athens vs Tel Aviv (2026)", "Rent, groceries, coffee and transport in Athens compared with Tel Aviv, in euros and shekels."],
+    "/strikes/": ["Strikes in Greece: flights, ferries and metro updates", "All upcoming strikes in Greece affecting flights, ferries, metro and buses, with dates and what they mean for travellers."],
+    "/emergency/": ["Emergency in Greece: phone numbers and the Israeli embassy", "Emergency numbers in Greece, the Israeli embassy in Athens, and what to do if you lose a passport or need a doctor."],
+  },
+};
+export function seoFor(lang, path) { const k = lang === "en" ? path.replace(/^\/en/, "") || "/" : path; return (SEO[lang] || {})[k] || null; }
+
 export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null }) {
   const t = T[lang];
   const NAME = lang === "he" ? SITE.nameHe : SITE.name;
   const other = lang === "he" ? "en" : "he";
   const heUrl = lang === "he" ? path : altPath;
   const enUrl = lang === "en" ? path : altPath;
-  const fullTitle = title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
+  const sx = seoFor(lang, path);
+  if (sx) description = sx[1];
+  const fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";
