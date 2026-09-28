@@ -216,85 +216,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T16:02:43.608Z",
+      "at": "2026-09-28T16:08:58.095Z",
       "error": "HTTP 403",
-      "fails": 181
+      "fails": 182
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T16:02:45.615Z",
+      "at": "2026-09-28T16:09:00.488Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T16:02:46.254Z",
+      "at": "2026-09-28T16:09:01.123Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T16:02:47.054Z",
+      "at": "2026-09-28T16:09:01.991Z",
       "error": "HTTP 403",
-      "fails": 181
+      "fails": 182
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T16:02:47.948Z",
+      "at": "2026-09-28T16:09:02.912Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T16:02:48.261Z",
+      "at": "2026-09-28T16:09:03.241Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T16:02:49.158Z",
+      "at": "2026-09-28T16:09:04.475Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T16:02:51.725Z",
-      "items": 3
+      "at": "2026-09-28T16:09:05.188Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T16:02:52.176Z",
+      "at": "2026-09-28T16:09:06.057Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T16:02:52.388Z",
+      "at": "2026-09-28T16:09:06.100Z",
       "error": "HTTP 403",
-      "fails": 181
+      "fails": 182
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T16:02:52.786Z",
+      "at": "2026-09-28T16:09:06.496Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T16:02:52.844Z",
+      "at": "2026-09-28T16:09:06.546Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T16:02:53.192Z",
+      "at": "2026-09-28T16:09:07.062Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T16:02:53.335Z",
+      "at": "2026-09-28T16:09:07.210Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T16:02:53.413Z",
+      "at": "2026-09-28T16:09:07.254Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T16:02:46.859Z",
+      "at": "2026-09-28T16:09:01.613Z",
       "items": 30
     }
   },
@@ -375,7 +375,8 @@
       "fetch failed",
       "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
       "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση"
+      "Gemini API: όριο αιτημάτων – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
+      "Gemini API: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-s"
     ]
   },
   "history": [
