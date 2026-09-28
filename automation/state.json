@@ -239,91 +239,92 @@
     "b4683073a217": 1790617902182,
     "43aff9df2d28": 1790617902182,
     "9159f652398b": 1790617902182,
-    "080bdb96c51d": 1790617902182
+    "080bdb96c51d": 1790617902182,
+    "642ad1e64c6b": 1790618839333
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T17:50:36.934Z",
+      "at": "2026-09-28T18:03:51.158Z",
       "error": "HTTP 403",
-      "fails": 192
+      "fails": 193
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T17:50:37.660Z",
-      "items": 0
+      "at": "2026-09-28T18:03:53.319Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T17:50:38.532Z",
+      "at": "2026-09-28T18:03:53.906Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T17:50:39.205Z",
+      "at": "2026-09-28T18:03:55.006Z",
       "error": "HTTP 403",
-      "fails": 192
+      "fails": 193
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T17:50:40.370Z",
+      "at": "2026-09-28T18:03:55.909Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T17:50:40.652Z",
+      "at": "2026-09-28T18:03:56.113Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T17:50:41.781Z",
+      "at": "2026-09-28T18:03:56.982Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T17:50:42.551Z",
+      "at": "2026-09-28T18:03:57.770Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T17:50:43.492Z",
+      "at": "2026-09-28T18:03:58.280Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T17:50:43.664Z",
+      "at": "2026-09-28T18:03:58.433Z",
       "error": "HTTP 403",
-      "fails": 192
+      "fails": 193
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T17:50:44.223Z",
+      "at": "2026-09-28T18:03:59.023Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T17:50:44.572Z",
+      "at": "2026-09-28T18:03:59.106Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T17:50:44.717Z",
-      "items": 4
+      "at": "2026-09-28T18:03:59.628Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T17:50:45.212Z",
+      "at": "2026-09-28T18:03:59.776Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T17:50:45.375Z",
+      "at": "2026-09-28T18:03:59.904Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T17:50:39.046Z",
+      "at": "2026-09-28T18:03:54.750Z",
       "items": 30
     }
   },
@@ -407,6 +408,11 @@
         "title": "Ρεκόρ επιβατικής κίνησης στο αεροδρόμιο «Μακεδονία» – Οι προκλήσεις για τις συνδέσεις της Βόρειας Ελλάδας",
         "reason": "Rule 7 and 9 violation: The name Stefanos Chatzimmanolis (Στέφανος Χατζημανώλης), a private individual, is explicitly mentioned in the article, violating the rule against publishing personal details of private individuals.",
         "at": "2026-09-28T17:55:41.452Z"
+      },
+      {
+        "title": "Έφεση του Ιδρύματος Χιντ Ρατζάμπ για την απόρριψη καταγγελίας εις βάρος Ισραηλινού στρατιώτη",
+        "reason": "Rule 8 and 1 violation: The source states the individual is an Israeli citizen and reserve military personnel ('Ισραηλινού υπηκόου και εφέδρου στρατιωτικού'), but the Hebrew article translated this incorrectly or awkwardly as 'אזרח זרה ואשת מילואים' (a foreign female citizen and a female reservist).",
+        "at": "2026-09-28T18:14:28.456Z"
       }
     ],
     "errors": [
@@ -433,14 +439,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T17:51:42.182Z",
-    "considered": 4,
+    "at": "2026-09-28T18:07:19.333Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "· naftemporiki | ΗΠΑ: Εξετάζεται εξαίρεση για πτήσεις προς το Ιράκ παρά τις κυρώσεις στο Ιράν",
-      "✓ ert | Ρεκόρ επιβατικής κίνησης στο αεροδρόμιο «Μακεδονία» – Οι προκλήσεις για τις συνδέσεις της ",
-      "· ingr | ΗΠΑ: Ο πύραυλος Starship του Έλον Μασκ ολοκλήρωσε την πρώτη του πτήση σε τροχιά",
-      "· ert | Γεύσεις από Ελλάδα στο αεροδρόμιο «Μακεδονία»"
+      "✓ ingr | Έφεση του Ιδρύματος Χιντ Ρατζάμπ για την απόρριψη καταγγελίας εις βάρος Ισραηλινού στρατιώ"
     ]
   },
   "evergreenDone": [
