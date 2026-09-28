@@ -183,7 +183,9 @@
     "f6d0c0660165": 1790585536472,
     "c13c22d14bf3": 1790586168222,
     "8883277c599a": 1790587639279,
-    "eb3debdfa3bf": 1790587639279
+    "eb3debdfa3bf": 1790587639279,
+    "32982a278cb3": 1790589163021,
+    "9af45c17ad0b": 1790589163021
   },
   "pending": {
     "a7fdb8": {
@@ -262,92 +264,92 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T09:40:05.952Z",
+      "at": "2026-09-28T09:52:36.117Z",
       "error": "HTTP 403",
-      "fails": 155
+      "fails": 156
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T09:40:06.817Z",
+      "at": "2026-09-28T09:52:36.604Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T09:40:07.743Z",
+      "at": "2026-09-28T09:52:37.207Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T09:40:08.915Z",
+      "at": "2026-09-28T09:52:37.771Z",
       "error": "HTTP 403",
-      "fails": 155
+      "fails": 156
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T09:40:10.025Z",
+      "at": "2026-09-28T09:52:38.590Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T09:40:10.096Z",
+      "at": "2026-09-28T09:52:38.697Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T09:40:11.306Z",
+      "at": "2026-09-28T09:52:39.814Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T09:40:12.246Z",
-      "items": 2
+      "at": "2026-09-28T09:52:40.367Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T09:40:13.184Z",
+      "at": "2026-09-28T09:52:41.107Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T09:40:13.235Z",
+      "at": "2026-09-28T09:52:41.170Z",
       "error": "HTTP 403",
-      "fails": 155
+      "fails": 156
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T09:40:13.772Z",
+      "at": "2026-09-28T09:52:41.699Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T09:40:13.986Z",
+      "at": "2026-09-28T09:52:41.758Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T09:40:14.190Z",
+      "at": "2026-09-28T09:52:42.038Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T09:40:14.747Z",
-      "items": 3
+      "at": "2026-09-28T09:52:42.160Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T09:40:14.796Z",
+      "at": "2026-09-28T09:52:42.223Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T09:40:08.681Z",
+      "at": "2026-09-28T09:52:37.709Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "neapirkaia20260928",
@@ -371,6 +373,12 @@
         "slug": "complete-guide-to-corfu-island",
         "title": "The Corfu Guide: History, Beaches, and Nature in the Ionian",
         "at": "2026-09-28T12:40:30+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "rhodes-kos-supply-disruption-ferry-fire",
+        "title": "Supply chain disruptions in Rhodes and Kos after cargo ship fire",
+        "at": "2026-09-28T12:53:06+03:00",
         "section": "travel"
       }
     ],
@@ -407,12 +415,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T09:27:19.279Z",
+    "at": "2026-09-28T09:52:43.021Z",
     "considered": 2,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | Papadopoulou Waste Allegedly Dumped Into Athens’ Kifissos River",
-      "· ert | Ηγέτης Χεζμπολάχ: Το Ισραήλ δεν έκαμψε την αντίσταση στον Λίβανο"
+      "· naftemporiki | Κως: Συνελήφθη 22χρονος Πολωνός που άναψε τσιγάρο μέσα σε αεροσκάφος",
+      "✓ ert | «Αρρυθμίες» στην αγορά της Ρόδου μετά τη φωτιά στο «Blue Carrier 2»"
     ]
   },
   "evergreenDone": [
