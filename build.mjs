@@ -50,7 +50,7 @@ const breakingNow = articles.find((a) => a.breaking && NOW - new Date(a.updatedA
 if (breakingNow) breakingNow.fire = (breakingNow.image && breakingNow.image.key === "fire") || /fire|שריפ/i.test(breakingNow.en.title + breakingNow.he.title);
 let mostSlugs = [];
 try { mostSlugs = JSON.parse(fs.readFileSync(path.join(ROOT, "content/mostread.json"), "utf8")).slugs || []; } catch {}
-const mostRead = (mostSlugs.map((s) => articles.find((a) => a.slug === s)).filter(Boolean).concat(articles)).filter((a, i, arr) => arr.indexOf(a) === i).slice(0, 5);
+const mostRead = (mostSlugs.map((s) => articles.find((a) => a.slug === s)).filter(Boolean).concat(articles)).filter((a, i, arr) => arr.indexOf(a) === i && !a.partner).slice(0, 5);
 
 /* ---------- Απεργίες (από άρθρα με πεδίο strike) ---------- */
 const athensDay = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Athens" }).format(d);
@@ -105,8 +105,8 @@ for (const lang of LANGS) {
 
   /* Αρχική */
   const bigBreaking = breakingNow && NOW - new Date(breakingNow.publishedAt).getTime() < 6 * 3600e3 ? breakingNow : null;
-  const govPool = bySection("real-estate");
-  const heroA = bigBreaking || govPool[0] || bySection("israelis")[0] || articles[0];
+  const govPool = bySection("real-estate").filter((a) => !a.partner);
+  const heroA = bigBreaking || govPool.find((a) => !a.guide) || govPool[0] || bySection("israelis").find((a) => !a.partner) || articles[0];
   const used = new Set([heroA && heroA.slug]);
   const take = (list, n) => list.filter((a) => !used.has(a.slug)).slice(0, n).map((a) => (used.add(a.slug), a));
   const govCards = take(govPool, 3);
