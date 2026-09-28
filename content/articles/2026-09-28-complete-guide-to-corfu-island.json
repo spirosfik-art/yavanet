@@ -1,0 +1,55 @@
+{
+  "slug": "complete-guide-to-corfu-island",
+  "section": "travel",
+  "publishedAt": "2026-09-28T12:40:30+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "Wikipedia – Corfu",
+      "url": "https://en.wikipedia.org/wiki/Corfu"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17901735/pexels-photo-17901735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial shot of Corfu's historic old town and coastline, Greece.",
+    "credit": "Photo: Ollie Craig / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bird-view-on-corfu-17901735/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
+  },
+  "he": {
+    "title": "המדריך לקורפו: היסטוריה, חופים וטבע באי היוני",
+    "dek": "סקירה מקיפה על האי הצפוני ביותר באיים היוניים, המשלב עיר עתיקה מוכרזת אונסק\"ו, טבע עשיר וחופים מגוונים.",
+    "tldr": [
+      "האי שוכן בפינה הצפון-מערבית של יוון וגובל בים האיоני והאדריאטי.",
+      "העיר העתיקה מוקפת מבצרים מימי הביניים ומוכרת כאתר מורשת עולמית.",
+      "באזור ההררי ניצב הר פנטוקראטור, הנקודה הגבוהה ביותר באי."
+    ],
+    "means": "עבור המטייל הישראלי, קורפו מציעה יעד נגיש עם נופים מגוונים ומוקדי עניין היסטוריים. מומלץ לבדוק מראש את דרכי הגעה לאי ולהכיר את אזורי החוף והטבע המרכזיים בטרם יציאה לטיול.",
+    "body": "## מבוא גיאוגרפי ונוף\n\nקורפו, המוכרת גם כקשירה, היא אחד מהאיים היוניים המערביים של יוון. צורת האי מזכיר מגל, והוא מחולק לשלושה אזורים עיקריים: החלק הצפוני ההררי, המרכז הגלי, והדרום השטוח. הר פנטוקראטור הוא הפסגה הגבוהה ביותר באי, וממנו נשקיף נוף רחב ידיים. קו החוף הארוך משלב צוקים ומפרצים לצד רצועות חול מגוונות.\n\n## העיר העתיקה והיסטוריה\n\nהבירה של האי נקראת אף היא קורפו, והיא ייחודית בכך שהיא מוקפת בשני מבצרים עתיקים שנבנו כדי להגן עליה מפני פיראטים ואימפריות זרות. העיר העתיקה הוכרזה כאתר מורשת עולמית של אונסק\"ו בשנת 2007. לאורך ההיסטוריה נשלט האי בידי גורמים שונים, ביניהם הרפובליקה של ונציה והבריטים, מה שהותיר חותם ניכר בארכיטקטורה ובמבנים הציבוריים.\n\n## חופים וטבע\n\nהאי מציע שפע של חופים המפוזרים ברחבי האזור, בהם קסיאופי, סידארי, פלאיוקסטריצה ואגיוס גורדיס. הצמחייה המקומית כוללת עצי זית נרחבים, ברושים ומיני צמחים רבים, לצד בעלי חיים מגוונים כגון ציפורים נודדות ויונקים ימיים בסביבת החופים והלגונות."
+  },
+  "en": {
+    "title": "The Corfu Guide: History, Beaches, and Nature in the Ionian",
+    "dek": "A comprehensive overview of the northernmost Ionian island, combining a UNESCO-listed old town, rich nature, and diverse beaches.",
+    "tldr": [
+      "The island is located in northwestern Greece, bordering the Ionian and Adriatic Seas.",
+      "The old town is surrounded by medieval castles and is a recognized UNESCO World Heritage site.",
+      "Mount Pantokrator rises in the mountainous northern district as the highest peak."
+    ],
+    "means": "For Israeli travellers, Corfu provides an accessible destination featuring varied landscapes and historical landmarks. It is recommended to check transportation options in advance and explore the primary coastal and natural sites before setting out.",
+    "body": "## Geography and Landscape\n\nCorfu, also known as Kerkyra, is one of the western Ionian Islands of Greece. The island's shape resembles a sickle and is divided into three distinct districts: the mountainous north, the undulating center, and the low-lying south. Mount Pantokrator stands as the highest summit on the island, offering expansive views. The extensive coastline features capes, cliffs, and numerous sandy beaches.\n\n## The Old Town and History\n\nCapital of the regional unit, the city of Corfu is uniquely enclosed by two medieval fortresses built to defend against pirates and foreign powers. The old town was inscribed on the UNESCO World Heritage List in 2007. Throughout history, the island experienced rule by various powers, including the Republic of Venice and the British, leaving a distinct architectural legacy.\n\n## Beaches and Nature\n\nSporting a hot-summer Mediterranean climate, the island hosts diverse beaches such as Kassiopi, Sidari, Palaiokastritsa, and Agios Gordis. The local flora is dominated by olive groves and cypresses, while the fauna includes numerous bird species, mammals, and marine life inhabiting the surrounding waters and coastal lagoons."
+  },
+  "meta": {
+    "itemId": "eg-corfu",
+    "imageQuery": "Corfu old town coastline Greece",
+    "sourceHash": "0475b6ec80a9",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-28T09:40:31.464Z",
+    "official": false
+  }
+}

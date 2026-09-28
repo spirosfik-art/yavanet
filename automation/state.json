@@ -262,92 +262,92 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T09:27:11.164Z",
+      "at": "2026-09-28T09:40:05.952Z",
       "error": "HTTP 403",
-      "fails": 154
+      "fails": 155
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T09:27:12.958Z",
-      "items": 10
+      "at": "2026-09-28T09:40:06.817Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T09:27:13.435Z",
+      "at": "2026-09-28T09:40:07.743Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T09:27:14.119Z",
+      "at": "2026-09-28T09:40:08.915Z",
       "error": "HTTP 403",
-      "fails": 154
+      "fails": 155
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T09:27:15.142Z",
+      "at": "2026-09-28T09:40:10.025Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T09:27:15.288Z",
+      "at": "2026-09-28T09:40:10.096Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T09:27:16.257Z",
+      "at": "2026-09-28T09:40:11.306Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T09:27:16.850Z",
-      "items": 3
+      "at": "2026-09-28T09:40:12.246Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T09:27:17.584Z",
+      "at": "2026-09-28T09:40:13.184Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T09:27:17.642Z",
+      "at": "2026-09-28T09:40:13.235Z",
       "error": "HTTP 403",
-      "fails": 154
+      "fails": 155
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T09:27:18.170Z",
+      "at": "2026-09-28T09:40:13.772Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T09:27:18.232Z",
+      "at": "2026-09-28T09:40:13.986Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T09:27:18.386Z",
+      "at": "2026-09-28T09:40:14.190Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T09:27:18.523Z",
+      "at": "2026-09-28T09:40:14.747Z",
       "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T09:27:18.570Z",
+      "at": "2026-09-28T09:40:14.796Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T09:27:14.040Z",
+      "at": "2026-09-28T09:40:08.681Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "neapirkaia20260928",
@@ -365,6 +365,12 @@
         "slug": "crete-travel-guide-regions-sights",
         "title": "The Guide to Crete: Regions, Major Cities and Beaches",
         "at": "2026-09-28T09:57:54+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "complete-guide-to-corfu-island",
+        "title": "The Corfu Guide: History, Beaches, and Nature in the Ionian",
+        "at": "2026-09-28T12:40:30+03:00",
         "section": "travel"
       }
     ],
@@ -413,8 +419,9 @@
     "jews-thessaloniki",
     "jewish-museum-greece",
     "rhodes",
-    "crete"
+    "crete",
+    "corfu"
   ],
-  "lastEvergreen": 1790578634790,
+  "lastEvergreen": 1790588414800,
   "pushKey": "ok"
 }
