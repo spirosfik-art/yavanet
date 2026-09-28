@@ -259,91 +259,98 @@
     "b33041705ce1": 1790630619120,
     "6124e92da850": 1790631295854,
     "9f667ae4c48e": 1790634136395,
-    "c73aa2ebf4eb": 1790634136395
+    "c73aa2ebf4eb": 1790634136395,
+    "c7c39a658658": 1790634878760,
+    "8d5154641b35": 1790634878760,
+    "8f9b03e713fe": 1790634878760,
+    "a4244143d655": 1790634878760,
+    "c3c4e0173964": 1790634878760,
+    "65dcab8af5e8": 1790634878760,
+    "34f5d288dba0": 1790634878760
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T22:22:07.388Z",
+      "at": "2026-09-28T22:34:19.574Z",
       "error": "HTTP 403",
-      "fails": 210
+      "fails": 211
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T22:22:09.428Z",
+      "at": "2026-09-28T22:34:22.111Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T22:22:10.114Z",
+      "at": "2026-09-28T22:34:23.021Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T22:22:11.018Z",
+      "at": "2026-09-28T22:34:23.684Z",
       "error": "HTTP 403",
-      "fails": 210
+      "fails": 211
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T22:22:11.558Z",
+      "at": "2026-09-28T22:34:24.672Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T22:22:11.990Z",
+      "at": "2026-09-28T22:34:30.046Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T22:22:12.939Z",
+      "at": "2026-09-28T22:34:31.101Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T22:22:13.562Z",
+      "at": "2026-09-28T22:34:32.037Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T22:22:14.209Z",
+      "at": "2026-09-28T22:34:33.173Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T22:22:14.352Z",
+      "at": "2026-09-28T22:34:33.206Z",
       "error": "HTTP 403",
-      "fails": 210
+      "fails": 211
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T22:22:14.745Z",
+      "at": "2026-09-28T22:34:33.850Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T22:22:15.089Z",
+      "at": "2026-09-28T22:34:34.131Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T22:22:15.275Z",
+      "at": "2026-09-28T22:34:34.342Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T22:22:15.614Z",
+      "at": "2026-09-28T22:34:34.538Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T22:22:15.757Z",
+      "at": "2026-09-28T22:34:34.583Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T22:22:10.834Z",
+      "at": "2026-09-28T22:34:23.508Z",
       "items": 30
     }
   },
@@ -374,12 +381,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T22:22:16.395Z",
-    "considered": 2,
+    "at": "2026-09-28T22:34:38.760Z",
+    "considered": 7,
     "picked": 0,
     "items": [
-      "· gct | Greece Highlights Transformation of Ancient Nicopolis Site",
-      "· gct | Retired Turkish Police Officer Kills Himself at Pension Protest"
+      "· gct | Northern Greeks Cross Border Into Bulgaria for Cheaper Fuel",
+      "· gct | Greece and UK Join Forces Against Smuggling and Customs Fraud",
+      "· gct | Greek Economy Set to Outperform Much of Europe",
+      "· gtp | Greece Raises Strategic Investment Incentives to €82m for 2026",
+      "· gtp | Smart Solar Lighting Planned for Regional Roads Across Greece",
+      "· gtp | Nearly Half of Emirates Passengers in Greece Book Within 30 Days of Travel",
+      "· gtp | Thessaly Region Invests €2.34m to Upgrade Lake Plastiras Villages"
     ]
   },
   "evergreenDone": [
