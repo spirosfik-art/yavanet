@@ -18,7 +18,7 @@ export const TI = {
 };
 export const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
-import { esc, P, card, pushBox, newsletterBox } from "./templates.mjs";
+import { esc, P, card, pushBox, newsletterBox, GLOBAL } from "./templates.mjs";
 
 const A = (lang, slug) => P(lang, "/a/" + slug + "/");
 const H = (lang, he, en) => (lang === "he" ? he : en);
@@ -42,11 +42,12 @@ export function people(lang, which) {
   const WA_ASI = "https://wa.me/972546221414?text=" + encodeURIComponent(he ? "היי אסי, הגעתי מיוונט" : "Hi Asi, I found you on Yavanet");
   const WA_YANA = "https://wa.me/306983311161?text=" + encodeURIComponent(he ? "היי יאנה, הגעתי מיוונט" : "Hi Yana, I found you on Yavanet");
   const all = {
-    asi: { img: "/asi-avatar.jpg", name: he ? "אסי דורון" : "Asi Doron", role: he ? "קנייה, שיפוץ, השכרה וניהול נכסים" : "Buying, renovating, renting, management", text: he ? "9 שנים ביוון, מלווה משקיעים ישראלים מהפגישה הראשונה ועד המפתח." : "9 years in Greece, guiding Israeli investors from the first meeting to the keys.", more: A(lang, "asi-doron-real-estate-greece-hebrew"), wa: WA_ASI },
+    asi: { slug: "asi-doron-real-estate-greece-hebrew", img: "/asi-avatar.jpg", name: he ? "אסי דורון" : "Asi Doron", role: he ? "קנייה, שיפוץ, השכרה וניהול נכסים" : "Buying, renovating, renting, management", text: he ? "9 שנים ביוון, מלווה משקיעים ישראלים מהפגישה הראשונה ועד המפתח." : "9 years in Greece, guiding Israeli investors from the first meeting to the keys.", more: A(lang, "asi-doron-real-estate-greece-hebrew"), wa: WA_ASI },
     yana: { img: "/yana-portrait.jpg", name: he ? "יאנה" : "Yana", role: he ? "טיולים, טברנות, יאכטות והסעות באתונה" : "Tours, tavernas, yachts, transfers in Athens", text: he ? "מתאמת לכם את החוויות הכי שוות באתונה, בעברית, בהודעת וואטסאפ אחת." : "Arranges the best of Athens for you, in Hebrew, in one WhatsApp message.", more: A(lang, "athens-with-yana-hebrew-tours-athens"), wa: WA_YANA },
     cremer: { img: "/cremer-marcel.jpg", name: "Marcel Cremer", role: he ? "עורך דין · Cremer & Partners, אתונה" : "Lawyer · Cremer & Partners, Athens", text: he ? "קניית נכסים, ויזת זהב, ירושות והקמת חברות. משרד משפחתי מאז 1974. השירות באנגלית." : "Property purchases, Golden Visa, inheritance and company setup. Family firm since 1974. Service in English.", more: A(lang, "lawyer-in-greece-cremer-partners-athens"), moreLabel: he ? "לפרטים" : "Details", wa: null },
     sf: { img: "/icon-192.png", logo: true, name: "S.F. Properties", role: he ? "נדל״ן וניהול נכסים ביוון" : "Real estate & property management", text: he ? "משרד בפילותיי, אתונה. השאירו פרטים ונחזור אליכם בעברית." : "Office in Filothei, Athens. Leave your details and we will get back to you.", more: P(lang, "/advisor/"), moreLabel: he ? "השאירו פרטים" : "Leave your details", wa: null },
   };
+  which = which.filter((k) => !(all[k].slug && GLOBAL.hidden.has(all[k].slug))); // κρυμμένο προφίλ → χωρίς κάρτα
   return `<div class="people">${which.map((k) => { const p = all[k]; return `<div class="person">
 ${p.logo ? `<span class="pmono" aria-hidden="true">S.F.</span>` : `<img src="${p.img}" alt="${esc(p.name)}" loading="lazy">`}
 <div><b>${esc(p.name)}</b><span class="prole">${esc(p.role)}</span><p>${esc(p.text)}</p>

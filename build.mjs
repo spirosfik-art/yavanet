@@ -27,7 +27,7 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
     for (const k of REQUIRED) if (!a[k]) throw new Error(`${f}: λείπει το πεδίο ${k}`);
     for (const l of LANGS) for (const k of ["title", "dek", "tldr", "body"]) if (!a[l][k]) throw new Error(`${f}: λείπει ${l}.${k}`);
     if (!a.sources.length || !a.sources.every((s) => s.name && s.url)) throw new Error(`${f}: χρειάζεται πηγή με όνομα και σύνδεσμο`);
-    if (a.hidden) return null;
+    if (a.hidden) { GLOBAL.hidden.add(a.slug); return null; }
     return a;
   })
   .filter(Boolean)

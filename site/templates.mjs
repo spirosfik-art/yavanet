@@ -64,7 +64,7 @@ const WAVE = (fill) => `<svg class="b" viewBox="0 0 1200 26" preserveAspectRatio
 export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 0 1200 22" preserveAspectRatio="none"><path d="M0 11 Q50 3 100 11 T200 11 T300 11 T400 11 T500 11 T600 11 T700 11 T800 11 T900 11 T1000 11 T1100 11 T1200 11"/></svg></div>';
 
 // Κοινά στοιχεία για όλες τις σελίδες (ορίζονται από το build): επερχόμενη απεργία, Δείκτης Yavanet
-export const GLOBAL = { strike: null, madad: false, win: false };
+export const GLOBAL = { strike: null, madad: false, win: false, hidden: new Set() };
 const STRIKE_WORD = { he: "שביתה", en: "Strike" };
 
 
