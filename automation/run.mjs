@@ -285,7 +285,7 @@ async function publish(draft, item, pick, text) {
   if (!article.strike) delete article.strike;
   saveArticle(article);
   if (!(article.breaking && item.official) && !article.strike) state.today.count++;
-  if (article.strike) await notifyOwner(`🚨 Απεργία: ${article.strike.en}\n${(article.strike.dates || []).join(", ")}\n${articleUrl(article)}`);
+  if (article.strike) await notifyOwner(`🚨 Απεργία: ${(await toGreek({ t: article.strike.en })).t}\n${(article.strike.dates || []).join(", ")}\n${articleUrl(article)}`);
   await maybePush(article, item);
   state.today.published.push({ slug: article.slug, title: article.en.title, at: article.publishedAt, section: article.section });
   log("✓ δημοσιεύθηκε", article.slug);
@@ -304,17 +304,26 @@ async function distribute(a) {
     }) }).catch((e) => log("make webhook", e.message));
   }
 }
+// Μετάφραση στα ελληνικά για τον ιδιοκτήτη (μηνύματα Telegram)· αν αποτύχει, μένουν τα αγγλικά
+async function toGreek(x) {
+  try {
+    const r = await ask({ system: "Μεταφράζεις ειδησεογραφικά κείμενα από τα αγγλικά στα ελληνικά, με φυσικά, απλά ελληνικά. Επιστρέφεις ΜΟΝΟ JSON με τα ίδια κλειδιά.", prompt: JSON.stringify(x), maxTokens: 1200 });
+    return r && typeof r === "object" ? { ...x, ...r } : x;
+  } catch (e) { log("toGreek", e.message); return x; }
+}
 async function askApproval(id) {
   const p = state.pending[id];
   const d = p.draft;
+  const el = p.el || (p.el = await toGreek({ title: d.en.title, dek: d.en.dek, tldr: d.en.tldr }));
   const msg = `🟡 Ευαίσθητο θέμα – χρειάζεται έγκριση (ID ${id})
-${d.en.title}
-${d.he.title}
 
-${d.en.dek}
+📰 ${el.title}
 
-• ${d.en.tldr.join("\n• ")}
+${el.dek}
 
+• ${(Array.isArray(el.tldr) ? el.tldr : d.en.tldr).join("\n• ")}
+
+Εβραϊκός τίτλος: ${d.he.title}
 Πηγή: ${p.item.sourceName}
 ${p.item.url}
 ${p.issues && p.issues.length ? "\nΣημειώσεις ελέγχου: " + p.issues.join("; ") : ""}
