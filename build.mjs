@@ -6,19 +6,8 @@ import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox,
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
+import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
-const TI = {
-  strikes: '<svg viewBox="0 0 24 24"><path d="M12 3v2M4.2 6.2l1.4 1.4M19.8 6.2l-1.4 1.4M7 17v-4a5 5 0 0 1 10 0v4"/><path d="M5 17h14v3H5z"/></svg>',
-  emergency: '<svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M12 8v6M9 11h6"/></svg>',
-  cost: '<svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M16 15h2"/></svg>',
-  madad: '<svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
-  guides: '<svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></svg>',
-  tools: '<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/></svg>',
-  tlv: '<svg viewBox="0 0 24 24"><path d="M3 21V9l5-3v15M8 21h13V12l-6-4v13M11 13h1M11 17h1M17 13h1M17 17h1"/></svg>',
-  flights: '<svg viewBox="0 0 24 24"><path d="M2 16l20-6-3-3-7 3-5-4-2 1 3 5-4 2-2-1-1 1z"/><path d="M3 21h18"/></svg>',
-  dir: '<svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>',
-};
-const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const OUT = path.join(ROOT, "dist");
@@ -121,9 +110,12 @@ for (const lang of LANGS) {
     ["/tlv-vs-athens/", "tlv", lang === "he" ? "תל אביב מול אתונה" : "Tel Aviv vs Athens", lang === "he" ? "הדירה שלך = כמה דירות כאן?" : "Your flat = how many here?"],
     ["/guides/", "guides", lang === "he" ? "מדריכים" : "Guides", lang === "he" ? "נדל״ן, מעבר ואיים" : "Property, moving, islands"],
   ];
-  const storiesHTML = tiles.map((x) => tileHTML(lang, x)).join("");
+  const qtools = tiles.map(([u, k, h]) => `<a class="qt t-${k}" href="${P(lang, u)}">${TI[k]}<span>${esc(h)}</span></a>`).join("");
+  const newsChips = SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}">${esc(x[lang])}</a>`).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
-<nav class="tiles" aria-label="${lang === "he" ? "גישה מהירה" : "Quick access"}">${storiesHTML}</nav>
+${doorsHTML(lang)}
+<nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
+<nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
   <div class="col">
     <section aria-labelledby="h-gov">
@@ -312,6 +304,37 @@ ${pushBox(lang, true)}
     write(P(lang, "/flights/"), layout({ lang, title, description: intro, path: P(lang, "/flights/"), altPath: P(he ? "en" : "he", "/flights/"), body, breaking: breakingNow, activeSection: "flights", activeNav: "tools" }));
   }
 
+  /* Σελίδες-κόμβοι: Διακοπές / Επένδυση / Μετακόμιση + Επικοινωνία */
+  for (const kind of ["travel", "invest", "moving"]) {
+    const pg = hubPage(lang, kind, { articles, GLOBAL });
+    write(P(lang, `/${kind}/`), layout({ lang, title: pg.title, description: pg.description, path: P(lang, `/${kind}/`), altPath: P(lang === "he" ? "en" : "he", `/${kind}/`), body: pg.body, breaking: breakingNow, activeNav: kind }));
+  }
+  {
+    const pg = contactPage(lang);
+    write(P(lang, "/contact/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/contact/"), altPath: P(lang === "he" ? "en" : "he", "/contact/"), body: pg.body, breaking: breakingNow, activeNav: "contact" }));
+  }
+  /* Ευρετήριο αναζήτησης */
+  {
+    const he = lang === "he", L = (a, b) => (he ? a : b);
+    const pages = [
+      ["/travel/", L("חופשה ביוון", "Holiday in Greece"), L("טיסות שביתות איים טיולים מדריך תיירים", "flights strikes islands tours tourist guide"), L("עמוד", "Page")],
+      ["/invest/", L("השקעה בנדל״ן ביוון", "Investing in Greek property"), L("קניית דירה נדלן השקעה מחירים ויזת זהב מיסים", "buy flat real estate investment prices golden visa taxes"), L("עמוד", "Page")],
+      ["/moving/", L("לעבור לגור ביוון", "Moving to Greece"), L("רילוקיישן ויזה מספר מס בנק בית ספר יוקר מחיה", "relocation visa tax number bank school cost of living"), L("עמוד", "Page")],
+      ["/contact/", L("צרו קשר: האנשים שלנו", "Contact: our people"), L("אסי דורון יאנה S.F. Properties יועץ נדלן וואטסאפ טלפון", "Asi Doron Yana advisor WhatsApp phone"), L("עמוד", "Page")],
+      ["/strikes/", L("שביתות ביוון", "Strikes in Greece"), L("שביתה טיסות מעבורות מטרו אוטובוסים", "strike flights ferries metro buses"), L("כלי", "Tool")],
+      ["/emergency/", L("חירום ביוון", "Emergency in Greece"), L("משטרה אמבולנס שגרירות ישראל 112 רופא", "police ambulance Israeli embassy 112 doctor"), L("כלי", "Tool")],
+      ["/cost-of-living/", L("יוקר המחיה: אתונה מול תל אביב", "Cost of living: Athens vs Tel Aviv"), L("מחירים שכר דירה סופר קפה תחבורה", "prices rent groceries coffee transport"), L("כלי", "Tool")],
+      ["/madad/", L("מחירי דירות לפי שכונה", "Property prices by area"), L("מדד יוונט מחיר למטר שכונות אתונה שכירות", "Yavanet index price per m2 neighbourhoods rent"), L("כלי", "Tool")],
+      ["/tlv-vs-athens/", L("תל אביב מול אתונה", "Tel Aviv vs Athens"), L("הדירה שלי כמה דירות מחשבון השוואה", "my flat how many flats calculator compare"), L("כלי", "Tool")],
+      ["/tools/", L("מחשבונים", "Calculators"), L("עלויות קנייה תשואה מס רכישה נוטריון", "buying costs yield transfer tax notary"), L("כלי", "Tool")],
+      ["/directory/", L("יוון בעברית: עסקים ושירותים", "Greece in Hebrew: businesses"), L("עברית חבד כשר בית כנסת טיולים", "Hebrew Chabad kosher synagogue tours"), L("כלי", "Tool")],
+      ["/guides/", L("כל המדריכים", "All guides"), L("מדריך", "guide"), L("עמוד", "Page")],
+      ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
+    ].map(([u, tt, k, kind]) => ({ u: P(lang, u), t: tt, d: "", k, s: kind, p: 1 }));
+    const arts = articles.map((a) => ({ u: P(lang, "/a/" + a.slug + "/"), t: a[lang].title, d: a[lang].dek, k: (a[lang].tldr || []).join(" "), s: (a.guide ? L("מדריך", "Guide") : sec(a.section)[lang]), g: a.guide ? 1 : 0, at: a.publishedAt.slice(0, 10) }));
+    write(P(lang, "/search.json"), JSON.stringify(pages.concat(arts)));
+  }
+
   /* Τελ Αβίβ = ; στην Αθήνα (viral εργαλείο) */
   if (GLOBAL.madad) {
     const he = lang === "he";
@@ -454,6 +477,7 @@ for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
+  urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => urls.push(P(lang, `/a/${a.slug}/`)));

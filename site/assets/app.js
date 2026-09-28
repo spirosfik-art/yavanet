@@ -292,6 +292,54 @@
     else pushState().then(function (s) { pushLabel(!!s); });
   }
 
+
+  /* ---------- Μενού & αναζήτηση ---------- */
+  (function () {
+    var he = (window.YV && YV.lang) !== "en";
+    var ms = document.getElementById("msheet"), sr = document.getElementById("srch"), q = document.getElementById("srch-q"), out = document.getElementById("srch-res");
+    if (!ms || !sr) return;
+    var last = null;
+    function open(el) { closeAll(); last = document.activeElement; el.hidden = false; document.body.classList.add("noscroll"); }
+    function closeAll() { [ms, sr].forEach(function (e) { e.hidden = true; }); document.body.classList.remove("noscroll"); }
+    document.addEventListener("click", function (e) {
+      var t = e.target.closest && e.target.closest("[data-menu],[data-menu-close],[data-search],[data-search-close]");
+      if (t) {
+        e.preventDefault();
+        if (t.hasAttribute("data-menu")) { open(ms); ms.querySelector(".ms-x").focus(); }
+        else if (t.hasAttribute("data-search")) { open(sr); render(""); setTimeout(function () { q.focus(); }, 30); load(); }
+        else { closeAll(); if (last && last.focus) last.focus(); }
+        return;
+      }
+      if (e.target === ms || e.target === sr) closeAll();
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && (!ms.hidden || !sr.hidden)) closeAll(); });
+    var idx = null, loading = null;
+    function load() { if (idx || loading) return loading; loading = fetch((he ? "" : "/en") + "/search.json").then(function (r) { return r.json(); }).then(function (d) { idx = d; loading = null; if (q.value) render(q.value); }).catch(function () { loading = null; }); return loading; }
+    function norm(s) { return String(s || "").toLowerCase().replace(/[֑-ׇ]/g, "").replace(/[״׳"'`’‘.,:;!?()\[\]\-–—/]/g, " ").replace(/\s+/g, " ").trim(); }
+    function escH(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    function hl(s, toks) { var h = escH(s); toks.forEach(function (t) { if (t.length < 2) return; try { h = h.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark>$1</mark>"); } catch (e) { } }); return h; }
+    var SUG = he ? ["רודוס", "כרתים", "ויזת זהב", "מחירי דירות", "שביתה", "מספר מס", "חבד", "אסי דורון"] : ["Rhodes", "Crete", "Golden Visa", "property prices", "strike", "tax number", "Chabad", "Asi Doron"];
+    function render(v) {
+      var toks = norm(v).split(" ").filter(Boolean);
+      if (!toks.length) { out.innerHTML = '<div class="srch-sug"><span>' + (he ? "חיפושים פופולריים:" : "Popular:") + "</span>" + SUG.map(function (x) { return '<button type="button" data-sug="' + escH(x) + '">' + escH(x) + "</button>"; }).join("") + "</div>"; return; }
+      if (!idx) { out.innerHTML = '<div class="srch-empty">' + (he ? "טוען…" : "Loading…") + "</div>"; return; }
+      var res = [];
+      idx.forEach(function (it) {
+        var T = norm(it.t), D = norm(it.d + " " + it.k), all = T + " " + D, sc = 0;
+        for (var i = 0; i < toks.length; i++) { var tk = toks[i]; if (all.indexOf(tk) < 0) return; sc += T.indexOf(tk) >= 0 ? 10 : 3; }
+        if (it.p) sc += 6; if (it.g) sc += 4; if (it.at) sc += Math.max(0, 3 - (Date.now() - Date.parse(it.at)) / 864e5 / 10);
+        res.push([sc, it]);
+      });
+      res.sort(function (a, b) { return b[0] - a[0]; });
+      if (!res.length) { out.innerHTML = '<div class="srch-empty">' + (he ? "לא מצאנו תוצאות. נסו מילה אחרת." : "No results. Try another word.") + "</div>"; return; }
+      out.innerHTML = res.slice(0, 14).map(function (r) { var it = r[1]; return '<a class="sr" href="' + it.u + '"><span class="sk">' + escH(it.s) + "</span><b>" + hl(it.t, toks) + "</b>" + (it.d ? '<span class="sd">' + hl(it.d, toks) + "</span>" : "") + "</a>"; }).join("");
+      track("search", { search_term: v });
+    }
+    var tmr; q.addEventListener("input", function () { clearTimeout(tmr); tmr = setTimeout(function () { render(q.value); }, 120); });
+    out.addEventListener("click", function (e) { var b = e.target.closest("[data-sug]"); if (b) { q.value = b.getAttribute("data-sug"); render(q.value); q.focus(); } });
+    q.addEventListener("keydown", function (e) { if (e.key === "Enter") { var f = out.querySelector(".sr"); if (f) location.href = f.href; } });
+  })();
+
   /* ---------- PWA ---------- */
   if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () { }); });
 })();

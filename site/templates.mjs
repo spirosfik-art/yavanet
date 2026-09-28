@@ -29,7 +29,36 @@ const ICONS = {
   prop: '<svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg>',
   tools: '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 12h2M14 12h2M8 16h2M14 16h2"/></svg>',
   mail: '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',
+  travel: '<svg viewBox="0 0 24 24"><path d="M2 16l20-6-3-3-7 3-5-4-2 1 3 5-4 2-2-1-1 1z"/><path d="M3 21h18"/></svg>',
+  invest: '<svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/></svg>',
+  moving: '<svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg>',
+  contact: '<svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2A5 5 0 0 1 21.5 19"/></svg>',
+  menu: '<svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>',
+  search: '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>',
+  close: '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>',
 };
+const NAVL = {
+  he: { home: "בית", travel: "חופשה", invest: "השקעה", moving: "לגור ביוון", contact: "צרו קשר", menu: "תפריט", search: "חיפוש" },
+  en: { home: "Home", travel: "Holiday", invest: "Invest", moving: "Move", contact: "Contact", menu: "Menu", search: "Search" },
+};
+const NAV_OF = { strikes: "travel", emergency: "travel", flights: "travel", travel: "travel", "jewish-greece": "travel", madad: "invest", tlv: "invest", "real-estate": "invest", "cost-of-living": "moving", living: "moving" };
+function menuSheet(lang) {
+  const he = lang === "he", L = (a, b) => (he ? a : b), A = (s) => P(lang, "/a/" + s + "/");
+  const g = (title, href, links) => `<section><h3><a href="${href}">${title}</a></h3><ul>${links.filter(Boolean).map(([u, t]) => `<li><a href="${u}">${t}</a></li>`).join("")}</ul></section>`;
+  return `<div class="msheet" id="msheet" hidden role="dialog" aria-modal="true" aria-label="${L("תפריט", "Menu")}">
+<div class="ms-in">
+<div class="ms-top"><button type="button" class="ms-search" data-search>${ICONS.search}<span>${L("חיפוש באתר…", "Search the site…")}</span></button><button type="button" class="ms-x" data-menu-close aria-label="${L("סגירה", "Close")}">${ICONS.close}</button></div>
+<div class="ms-grid">
+${g("🏝️ " + L("חופשה ביוון", "Holiday in Greece"), P(lang, "/travel/"), [[A("greece-travel-guide-israelis-2026"), L("המדריך לטיסה ליוון", "Flying to Greece guide")], [P(lang, "/strikes/"), L("שביתות קרובות", "Upcoming strikes")], [P(lang, "/emergency/"), L("חירום", "Emergency")], GLOBAL.flights ? [P(lang, "/flights/"), L("טיסות זולות", "Cheap flights")] : null, [P(lang, "/directory/"), L("יוון בעברית: עסקים ושירותים", "Hebrew-speaking services")], [A("athens-with-yana-hebrew-tours-athens"), L("טיולים עם יאנה", "Tours with Yana")]])}
+${g("🏠 " + L("השקעה בנדל״ן", "Property investment"), P(lang, "/invest/"), [[A("buying-property-in-greece-israelis-guide"), L("המדריך לקניית דירה", "Buying guide")], [A("golden-visa-greece-2026-guide"), L("ויזת זהב", "Golden Visa")], [P(lang, "/madad/"), L("מחירי דירות לפי שכונה", "Prices by area")], [P(lang, "/tlv-vs-athens/"), L("תל אביב מול אתונה", "Tel Aviv vs Athens")], [P(lang, "/tools/"), L("מחשבונים", "Calculators")], [A("managing-property-in-greece-from-israel"), L("ניהול נכס מישראל", "Managing from Israel")]])}
+${g("🧳 " + L("לעבור לגור ביוון", "Moving to Greece"), P(lang, "/moving/"), [[A("moving-to-greece-with-family-israelis-guide"), L("המדריך למעבר עם המשפחה", "Moving with family")], [A("greek-tax-number-and-bank-account-guide"), L("מספר מס וחשבון בנק", "Tax number & bank account")], [P(lang, "/cost-of-living/"), L("יוקר המחיה", "Cost of living")]])}
+${g("📰 " + L("חדשות", "News"), P(lang, "/"), SECTIONS.map((x) => [P(lang, "/s/" + x.slug + "/"), esc(x[lang])]).concat([[P(lang, "/guides/"), L("כל המדריכים", "All guides")]]))}
+${g("💬 " + L("יוונט", "Yavanet"), P(lang, "/contact/"), [[P(lang, "/contact/"), L("צרו קשר: האנשים שלנו", "Contact: our people")], [P(lang, "/") + "#newsletter", L("ניוזלטר", "Newsletter")], [P(lang, "/p/about/"), L("אודות", "About")], [P(lang, "/p/advertise/"), L("פרסום ביוונט", "Advertise")]])}
+</div></div></div>
+<div class="srch" id="srch" hidden role="dialog" aria-modal="true" aria-label="${L("חיפוש", "Search")}">
+<div class="srch-in"><div class="srch-bar">${ICONS.search}<input id="srch-q" type="search" autocomplete="off" enterkeyhint="search" placeholder="${L("מה אתם מחפשים? למשל: רודוס, ויזת זהב, שביתה", "What are you looking for? e.g. Rhodes, Golden Visa, strike")}"><button type="button" class="ms-x" data-search-close aria-label="${L("סגירה", "Close")}">${ICONS.close}</button></div>
+<div class="srch-res" id="srch-res" aria-live="polite"></div></div></div>`;
+}
 const WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>';
 const WAVE = (fill) => `<svg class="b" viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 14 Q75 2 150 14 T300 14 T450 14 T600 14 T750 14 T900 14 T1050 14 T1200 14 V26 H0Z"/></svg><svg viewBox="0 0 1200 26" preserveAspectRatio="none"><path fill="${fill}" d="M0 16 Q50 8 100 16 T200 16 T300 16 T400 16 T500 16 T600 16 T700 16 T800 16 T900 16 T1000 16 T1100 16 T1200 16 V26 H0Z"/></svg>`;
 export const DIVIDER = '<div class="divider" aria-hidden="true"><svg viewBox="0 0 1200 22" preserveAspectRatio="none"><path d="M0 11 Q50 3 100 11 T200 11 T300 11 T400 11 T500 11 T600 11 T700 11 T800 11 T900 11 T1000 11 T1100 11 T1200 11"/></svg></div>';
@@ -52,13 +81,14 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const strikeBar = st && !path.includes("/strikes/")
     ? `<a class="strikebar" href="${P(lang, "/strikes/")}"><span class="tag">🚨 ${STRIKE_WORD[lang]} · ${esc(st.when[lang])}</span><span class="txt">${esc(st[lang])}</span></a>`
     : "";
-  const navKeys = ["home", "guides", "prop", "tools", "mail"];
-  const navHref = { home: P(lang, "/"), guides: P(lang, "/guides/"), prop: P(lang, "/s/real-estate/"), tools: P(lang, "/tools/"), mail: P(lang, "/") + "#newsletter" };
-  const nav = navKeys.map((k, i) => `<a href="${navHref[k]}"${activeNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(t.nav[i])}</span></a>`).join("");
-  const chips = SECTIONS.map((s) => `<a href="${P(lang, "/s/" + s.slug + "/")}"${activeSection === s.slug ? ' aria-current="page"' : ""}>${esc(s[lang])}</a>`).join("");
-  const extraChips = [["strikes", lang === "he" ? "🚨 שביתות" : "🚨 Strikes"], ["emergency", lang === "he" ? "🆘 חירום" : "🆘 Emergency"], ["cost-of-living", lang === "he" ? "💶 יוקר המחיה" : "💶 Cost of living"], ...(GLOBAL.win ? [["win", lang === "he" ? "🎁 הגרלה" : "🎁 Giveaway"]] : []), ...(GLOBAL.madad ? [["madad", lang === "he" ? "📊 מדד יוונט" : "📊 Yavanet Index"]] : [])]
-    .filter(([k]) => !(path === P(lang, "/") && k !== "win"))
-    .map(([k, label]) => `<a class="chip-x" href="${P(lang, "/" + k + "/")}"${activeSection === k ? ' aria-current="page"' : ""}>${label}</a>`).join("");
+  const NL = NAVL[lang];
+  const curNav = ["travel", "invest", "moving", "contact"].includes(activeNav) ? activeNav : activeNav === "prop" ? "invest" : NAV_OF[activeSection] || (path === P(lang, "/") ? "home" : null);
+  const href = { home: P(lang, "/"), travel: P(lang, "/travel/"), invest: P(lang, "/invest/"), moving: P(lang, "/moving/"), contact: P(lang, "/contact/") };
+  const navA = (k) => `<a href="${href[k]}"${curNav === k ? ' class="on" aria-current="page"' : ""}>${ICONS[k]}<span>${esc(NL[k])}</span></a>`;
+  const nav = ["home", "travel", "invest", "moving", "contact"].map(navA).join("") + `<button type="button" data-search aria-label="${esc(NL.search)}">${ICONS.search}<span>${esc(NL.search)}</span></button><button type="button" data-menu aria-label="${esc(NL.menu)}">${ICONS.menu}<span>${esc(NL.menu)}</span></button>`;
+  const bnav = ["home", "travel", "invest", "moving"].map(navA).join("") + `<button type="button" data-menu>${ICONS.menu}<span>${esc(NL.menu)}</span></button>`;
+  const showChips = SECTIONS.some((x) => x.slug === activeSection);
+  const chips = showChips ? SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}"${activeSection === x.slug ? ' aria-current="page"' : ""}>${esc(x[lang])}</a>`).join("") : "";
   const legal = LEGAL_PAGES.map((p) => `<a href="${P(lang, "/p/" + p + "/")}">${esc(t.legal[p])}</a>`).join("") + `<button type="button" data-cookie-settings>${esc(t.cookieSettings)}</button>`;
   const cfg = { lang, ga4: SITE.ga4Id, clarity: SITE.clarityId, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlOkDirect: t.nlOkDirect, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
   return `<!doctype html>
@@ -112,11 +142,12 @@ ${strikeBar}${brk}
       </nav>
       <div class="skymeta" id="skymeta"></div>
     </div>
+    <button type="button" class="hsearch" data-search aria-label="${esc(NL.search)}">${ICONS.search}</button>
     <nav class="tnav" aria-label="${lang === "he" ? "ניווט" : "Navigation"}">${nav}</nav>
   </div>
   <div class="waves" aria-hidden="true">${WAVE("var(--bg)")}</div>
 </header>
-<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)}">${chips}${extraChips}</nav></div>
+${chips ? `<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)}">${chips}</nav></div>` : ""}
 <main class="wrap" id="main">
 ${body}
 <footer>
@@ -126,7 +157,8 @@ ${body}
   <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher.brand || SITE.publisher[lang])}</div>
 </footer>
 </main>
-<nav class="bnav" aria-label="Main">${nav}</nav>
+<nav class="bnav" aria-label="Main">${bnav}</nav>
+${menuSheet(lang)}
 ${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}" aria-label="WhatsApp" target="_blank" rel="noopener">${WA_SVG}</a>` : ""}
 <div class="feed" id="feed" hidden></div>
 <div class="sv" id="sv" hidden></div>
