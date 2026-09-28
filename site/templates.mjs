@@ -12,9 +12,18 @@ export function fmtDate(iso, lang) {
   } catch { return iso; }
 }
 
-export function artHTML(a, lang) {
+// Φωτογραφίες Pexels στο σωστό μέγεθος (αντί για 1880px παντού) + srcset για οθόνες retina
+const pxl = (u, w) => { try { const x = new URL(u); if (x.host !== "images.pexels.com") return null; x.search = ""; x.searchParams.set("auto", "compress"); x.searchParams.set("cs", "tinysrgb"); x.searchParams.set("w", String(w)); return x.toString(); } catch { return null; } };
+const SIZES = { card: [[420, 840], "(max-width:700px) 100vw, 420px"], hero: [[800, 1300], "(max-width:900px) 100vw, 800px"], full: [[800, 1300], "(max-width:900px) 100vw, 800px"] };
+export function artHTML(a, lang, kind = "card") {
   const img = a.image;
-  if (img && img.type === "photo" && img.url) return `<img src="${esc(img.url)}" alt="${esc(img.alt || a[lang].title)}" loading="lazy">`;
+  if (img && img.type === "photo" && img.url) {
+    const alt = esc(img.alt || a[lang].title), eager = kind !== "card";
+    const load = eager ? ' fetchpriority="high"' : ' loading="lazy"';
+    const [ws, sizes] = SIZES[kind] || SIZES.card;
+    if (pxl(img.url, 100)) return `<img src="${esc(pxl(img.url, ws[0]))}" srcset="${ws.map((w) => esc(pxl(img.url, w)) + " " + w + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
+    return `<img src="${esc(img.url)}" alt="${alt}"${load} decoding="async">`;
+  }
   return art((img && img.key) || SECTION_ART[a.section] || "sea", a[lang].title);
 }
 export function creditHTML(a, lang) {
@@ -231,7 +240,7 @@ export function kickerHTML(a, lang) {
   return `<span class="kicker ${s.mark}">${esc(s[lang])}</span>${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "בשיתוף פעולה" : "In partnership"}</span>` : ""}`;
 }
 export function heroCard(a, lang) {
-  return `<a class="hero" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang)}</div><div class="body">${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p class="dek">${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;
+  return `<a class="hero" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang, "hero")}</div><div class="body">${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p class="dek">${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;
 }
 export function card(a, lang) {
   return `<a class="card" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang)}</div><div>${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p>${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;
@@ -369,7 +378,7 @@ export function articleBody(a, lang, prev, next) {
   const cta = a.guide && a.cta === "realestate" ? `<section class="guide-cta"><h2>${he ? "רוצים ליווי אישי, בעברית?" : "Want personal guidance?"}</h2><p>${he ? `${esc(SITE.ad.brand)} מלווה ישראלים בקנייה, בהשכרה ובניהול נכסים ביוון: מהחיפוש, דרך עורך הדין והנוטריון, ועד המפתח והניהול השוטף.` : `${esc(SITE.ad.brand)} helps Israelis buy, rent out and manage property in Greece: from the search, through the lawyer and notary, to the keys and day-to-day management.`}</p><a class="btn gold" href="${P(lang, "/advisor/")}">${he ? "דברו עם יועץ נדל״ן" : "Talk to a property adviser"}</a></section>` : "";
   const src = (a.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
   return `<article class="full" data-prev="${prev ? P(lang, "/a/" + prev.slug + "/") : ""}" data-next="${next ? P(lang, "/a/" + next.slug + "/") : ""}">
-  <div class="art">${artHTML(a, lang)}</div>
+  <div class="art">${artHTML(a, lang, "full")}</div>
   <div class="caption">${creditHTML(a, lang)}</div>
   ${kickerHTML(a, lang)}
   <h1>${esc(c.title)}</h1>
