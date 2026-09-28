@@ -497,6 +497,9 @@ async function backfillPhotos() {
 }
 
 /* ================= Εκτέλεση ================= */
+// Προσωρινά προβλήματα (όριο AI, δίκτυο): δεν είναι «σφάλματα», ξαναδοκιμάζονται στην επόμενη εκτέλεση
+const transient = (e) => /όριο αιτημάτων|fetch failed|ECONNRESET|ETIMEDOUT|EAI_AGAIN|socket hang up|network|aborted|timeout|\b50[234]\b/i.test(String((e && e.message) || e) + " " + String((e && e.cause && e.cause.code) || ""));
+
 (async () => {
   if (!hasAI()) { log("Δεν έχει οριστεί ακόμα κλειδί AI (GEMINI_API_KEY ή ANTHROPIC_API_KEY) – παράλειψη."); return; }
   try {
@@ -517,12 +520,13 @@ async function backfillPhotos() {
     log(`επιλέχθηκαν: ${picks.length}`);
     for (const p of picks) {
       if (aiQuotaHit()) { state.seen[p.item.id] = 0; delete state.seen[p.item.id]; continue; } // θα ξαναδοκιμαστεί
-      try { await handlePick(p); } catch (e) { if (aiQuotaHit()) { delete state.seen[p.item.id]; continue; } reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
+      try { await handlePick(p); } catch (e) { if (aiQuotaHit() || transient(e)) { delete state.seen[p.item.id]; log("προσωρινό πρόβλημα, ξανά στην επόμενη εκτέλεση:", e.message); continue; } reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
     }
     await evergreen();
     if (env.UPDATE_CHECK !== "0") await updates();
   } catch (e) {
     if (aiQuotaHit()) { log("Τελείωσε το δωρεάν ημερήσιο όριο AI – συνέχεια στην επόμενη εκτέλεση."); return; }
+    if (transient(e)) { log("Προσωρινό πρόβλημα δικτύου/ορίου – συνέχεια στην επόμενη εκτέλεση:", e.message); return; }
     log("ΣΦΑΛΜΑ", e.stack || e.message);
     state.today.errors.push(String(e.message));
     if (state.today.errors.length === 3) await notifyOwner("⚠️ Η αυτόματη ροή έχει σφάλματα: " + e.message);
