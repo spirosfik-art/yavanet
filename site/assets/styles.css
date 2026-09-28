@@ -45,7 +45,9 @@ a{color:var(--sea)}
 .sky{position:relative;color:#fff;overflow:hidden;background:linear-gradient(180deg,#0E5C8C 0%,#2A8BC4 55%,#7CC3E8 100%)}
 .sky canvas{position:absolute;inset:0;width:100%;height:100%}
 .sky .inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:18px 34px}
-.logo{display:flex;align-items:baseline;gap:10px;color:#fff;text-decoration:none;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}
+.logo .lmark{flex:none;width:clamp(40px,9vw,54px);height:auto;border-radius:22%;box-shadow:0 0 0 1.5px rgba(255,255,255,.35),0 6px 16px -6px rgba(0,0,0,.45)}
+.logo .ltxt{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .logo b{font-family:var(--display);font-weight:900;font-size:clamp(30px,7vw,44px);letter-spacing:-.01em;line-height:1}
 .logo b i{font-style:normal;color:#F0B650}
 .logo small{font-size:13px;opacity:.9}
