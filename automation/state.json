@@ -157,98 +157,178 @@
     "3c6d2e11cafd": 1790577108188,
     "d166c37f20e7": 1790577108188,
     "012984ba6a7f": 1790577108188,
-    "00962baaf05b": 1790577108188
+    "00962baaf05b": 1790577108188,
+    "d11d1805a626": 1790578589828,
+    "cb2b02840838": 1790578589828,
+    "ebf4eb6f7d11": 1790578589828,
+    "32e346a7b1d7": 1790578589828
   },
-  "pending": {},
+  "pending": {
+    "7ff8f2": {
+      "createdAt": 1790578634350,
+      "item": {
+        "title": "Φωτιά σε κτήριο στο κέντρο της Αθήνας – Το κτίσμα έχει μερικώς καταρρεύσει, πού υπάρχει διακοπή κυκλοφορίας",
+        "url": "https://www.ertnews.gr/eidiseis/ellada/fotia-se-ktirio-sto-kentro-tis-athinas-to-ktisma-exei-merikos-katarreysei-pou-yparxei-diakopi-kykloforias/",
+        "summary": "Σε κτήριο επί της οδού Κατακουζηνού 12 στο κέντρο της Αθήνας επιχειρούν 15 πυροσβέστες που έσπευσαν με πέντε οχήματα όταν ξέσπασε φωτιά, από άγνωστη μέχρι στιγμής αιτία. Το κτήριο φέρεται να είναι εγκαταλελειμμένο και να έχει μερικώς καταρρεύσει, λόγω του έντονου φορτίου θερμικού φορτίου. Υπάρχουν κυκλοφοριακές ρυθμίσεις στην οδό Θεμιστοκλέους από το ύψος της Ακαδημίας ... Περισσότερα \n www.ertnews.gr",
+        "published": "Mon, 28 Sep 2026 06:30:36 +0000",
+        "id": "ebf4eb6f7d11",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "ebf4eb6f7d11",
+        "section": "breaking",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Fire and partial collapse of a building in central Athens (Katakouzinou street), causing traffic disruptions. Relevant for tourists and visitors currently in central Athens.",
+        "item": {
+          "title": "Φωτιά σε κτήριο στο κέντρο της Αθήνας – Το κτίσμα έχει μερικώς καταρρεύσει, πού υπάρχει διακοπή κυκλοφορίας",
+          "url": "https://www.ertnews.gr/eidiseis/ellada/fotia-se-ktirio-sto-kentro-tis-athinas-to-ktisma-exei-merikos-katarreysei-pou-yparxei-diakopi-kykloforias/",
+          "summary": "Σε κτήριο επί της οδού Κατακουζηνού 12 στο κέντρο της Αθήνας επιχειρούν 15 πυροσβέστες που έσπευσαν με πέντε οχήματα όταν ξέσπασε φωτιά, από άγνωστη μέχρι στιγμής αιτία. Το κτήριο φέρεται να είναι εγκαταλελειμμένο και να έχει μερικώς καταρρεύσει, λόγω του έντονου φορτίου θερμικού φορτίου. Υπάρχουν κυκλοφοριακές ρυθμίσεις στην οδό Θεμιστοκλέους από το ύψος της Ακαδημίας ... Περισσότερα \n www.ertnews.gr",
+          "published": "Mon, 28 Sep 2026 06:30:36 +0000",
+          "id": "ebf4eb6f7d11",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "fire-partial-collapse-abandoned-building-athens",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": null,
+        "imageKey": "fire",
+        "imageQuery": "firefighters athens building urban",
+        "he": {
+          "title": "שריפה וקרסה חלקית בבניין מרכז האתינא",
+          "dek": "כוחות כיבוי אש פועלים בשריפה שפרצה בבניין נטוש במרכז האתינא. במקום חסימות תנועה.",
+          "tldr": [
+            "שריפה בבניין נטוש ברחוב קאטאקוזינו במרכז האתינא.",
+            "המבנה ספג קריסה חלקית עקב עומס חום גבוה.",
+            "הכבישים הסמוכים נסגרו לתנועה עקב האירוע."
+          ],
+          "means": "אם אתם מטיילים או שוהים כעת באזור מרכז האתינא, מומלץ להימנע מהגעה לרחוב תמיסטוקל.אוס, אקדמיאס וניקיטארא. בדקו מראש דרכים חלופיות והישמעו להנחיות כוחות הביטחון המקומיים.",
+          "body": "## פרטי האירוע\n\nצוותי כיבוי אש מוזעקו למבנה הנטוש הממוקם ברחוב קאטאקוזינו מספר 12 במרכז האתינא בעקבות שריפה שפרצה במקום. נסיבות פרוץ האש טרם התבררו במלואן. מהנתונים עולה כי בשל עוצמת החום הרב שהתפתחה בתוך המבנה, חלק ממנו התמוטט.\n\n## שיבושי תנועה\n\nבשל האירוע, משטרת התנועה המקומית יישמה הסדרי תנועה חריגים באזור. רחוב תמיסטוקל.אוס נסגרו לתנועה במקטע שבין צומת אקדמיאס ועד לרחוב ניקיטארא. הנהגים והולכי הרגל מתבקשים להתרחק מהאזור ולהשתמש בצירים חלופיים עד לסיום פעולות הכיבוי והבדיקה במקום."
+        },
+        "en": {
+          "title": "Fire and Partial Building Collapse in Central Athens",
+          "dek": "Firefighters are tackling a blaze at an abandoned building in central Athens, which has suffered a partial collapse.",
+          "tldr": [
+            "A fire broke out in an abandoned building on Katakouzinou Street in central Athens.",
+            "The structure partially collapsed due to intense heat load.",
+            "Traffic regulations and road closures are in effect nearby."
+          ],
+          "means": "For Israelis visiting or staying in central Athens, avoid the area surrounding Themistokleous Street, Akadimias, and Nikitaras. Check alternative routes and follow all instructions from local authorities.",
+          "body": "## Incident Details\n\nFifteen firefighters operating five vehicles rushed to a building located at 12 Katakouzinou Street in downtown Athens after a fire broke out for reasons yet unknown. Reports indicate that the structure is abandoned and has partially collapsed due to the intense thermal load generated by the fire.\n\n## Traffic Restrictions\n\nAuthorities have implemented traffic regulations in the surrounding area. Themistokleous Street has been closed to traffic from the intersection with Akadimias down to Nikitaras Street. Motorists and pedestrians are advised to steer clear of the vicinity while emergency services manage the site."
+        }
+      },
+      "text": "Σε κτήριο επί της οδού Κατακουζηνού 12 στο κέντρο της Αθήνας επιχειρούν 15 πυροσβέστες που έσπευσαν με πέντε οχήματα όταν ξέσπασε φωτιά, από άγνωστη μέχρι στιγμής αιτία. Το κτήριο φέρεται να είναι εγκαταλελειμμένο και να έχει μερικώς καταρρεύσει , λόγω του έντονου φορτίου θερμικού φορτίου.\n Υπάρχουν κυκλοφοριακές ρυθμίσεις στην οδό Θεμιστοκλέους από το ύψος της Ακαδημίας έως και το ύψος της οδού Νικηταρά.\n Ρεπορτάζ: Σπυριδούλα Κακλατζή\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T06:31:29.633Z",
+      "at": "2026-09-28T06:56:08.710Z",
       "error": "HTTP 403",
-      "fails": 144
+      "fails": 145
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T06:31:32.133Z",
+      "at": "2026-09-28T06:56:10.941Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T06:31:32.756Z",
+      "at": "2026-09-28T06:56:11.682Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T06:31:33.522Z",
+      "at": "2026-09-28T06:56:12.580Z",
       "error": "HTTP 403",
-      "fails": 144
+      "fails": 145
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T06:31:34.552Z",
+      "at": "2026-09-28T06:56:13.498Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T06:31:35.068Z",
+      "at": "2026-09-28T06:56:13.852Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T06:31:36.179Z",
+      "at": "2026-09-28T06:56:15.028Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T06:31:36.885Z",
-      "items": 6
+      "at": "2026-09-28T06:56:15.852Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T06:31:37.806Z",
+      "at": "2026-09-28T06:56:16.768Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T06:31:38.021Z",
+      "at": "2026-09-28T06:56:16.936Z",
       "error": "HTTP 403",
-      "fails": 144
+      "fails": 145
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T06:31:38.442Z",
+      "at": "2026-09-28T06:56:17.451Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T06:31:38.797Z",
+      "at": "2026-09-28T06:56:17.863Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T06:31:39.228Z",
-      "items": 7
+      "at": "2026-09-28T06:56:18.491Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T06:31:39.424Z",
-      "items": 6
+      "at": "2026-09-28T06:56:18.897Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T06:31:39.509Z",
+      "at": "2026-09-28T06:56:19.031Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T06:31:33.355Z",
+      "at": "2026-09-28T06:56:12.474Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "neapirkaia20260928",
@@ -260,6 +340,12 @@
         "slug": "rhodes-travel-guide-israeli-visitors",
         "title": "The Rhodes Guide: History, Beaches and Travel Tips",
         "at": "2026-09-28T08:36:51+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "crete-travel-guide-regions-sights",
+        "title": "The Guide to Crete: Regions, Major Cities and Beaches",
+        "at": "2026-09-28T09:57:54+03:00",
         "section": "travel"
       }
     ],
@@ -291,25 +377,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T06:31:48.188Z",
-    "considered": 8,
-    "picked": 0,
+    "at": "2026-09-28T06:56:29.828Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ert | Φωτιά σε κτήριο στο κέντρο της Αθήνας",
-      "· naftemporiki | Φωτιά τώρα σε κτίριο επί της οδού Κατακουζηνού, στο κέντρο της Αθήνας",
-      "· gct | Another Explosion Rocks Athens as Fire Engulfs Building",
-      "· ingr | Εξάρχεια: Φωτιά σε εγκαταλελειμμένο κτίριο",
-      "· naftemporiki | Χρηματιστήριο: Η πρώτη… διασταύρωση στον δρόμο των Αναπτυγμένων Αγορών",
-      "· ingr | Φονική έκρηξη στην Πλάκα: Ξεκινούν οι έλεγχοι στα κτίρια που υπέστησαν ζημιές – Πού επικεν",
-      "· gct | Greece Marks European Heritage Days With Free Museum Entry",
-      "· gct | German Media React to Greece’s Historic Win Over Germany"
+      "· naftemporiki | Σε ύφεση η φωτιά σε εγκαταλελειμμένο κτίριο επί της οδού Κατακουζηνού",
+      "· ert | Ισραήλ: Ο ΥΠΟΙΚ Σμότριτς, ζητά πόλεμο στη Δυτική όχθη και διάλυση της Παλαιστινιακής αρχής",
+      "✓ ert | Φωτιά σε κτήριο στο κέντρο της Αθήνας – Το κτίσμα έχει μερικώς καταρρεύσει, πού υπάρχει δι",
+      "· ert | Πρέβεζα: Έγκαιρη αντιμετώπιση των δύο πυρκαγιών σε Μύτικα και Αρχάγγελο"
     ]
   },
   "evergreenDone": [
     "jews-thessaloniki",
     "jewish-museum-greece",
-    "rhodes"
+    "rhodes",
+    "crete"
   ],
-  "lastEvergreen": 1790573796597,
+  "lastEvergreen": 1790578634790,
   "pushKey": "ok"
 }
