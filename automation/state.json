@@ -273,91 +273,93 @@
     "74d772f59523": 1790635741125,
     "4addbe03a4e1": 1790636466851,
     "6a1824eeae34": 1790636466851,
-    "62ff0cd47f38": 1790636466851
+    "62ff0cd47f38": 1790636466851,
+    "94569122f2df": 1790637739950,
+    "f5ae358979a1": 1790637739950
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T23:00:54.726Z",
+      "at": "2026-09-28T23:22:10.644Z",
       "error": "HTTP 403",
-      "fails": 213
+      "fails": 214
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T23:00:57.491Z",
+      "at": "2026-09-28T23:22:12.742Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T23:00:58.454Z",
+      "at": "2026-09-28T23:22:13.950Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T23:00:59.160Z",
+      "at": "2026-09-28T23:22:14.639Z",
       "error": "HTTP 403",
-      "fails": 213
+      "fails": 214
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T23:01:00.166Z",
+      "at": "2026-09-28T23:22:15.274Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T23:01:01.101Z",
+      "at": "2026-09-28T23:22:15.606Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T23:01:02.390Z",
+      "at": "2026-09-28T23:22:16.506Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T23:01:03.350Z",
-      "items": 6
+      "at": "2026-09-28T23:22:17.279Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T23:01:04.242Z",
+      "at": "2026-09-28T23:22:17.970Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T23:01:04.288Z",
+      "at": "2026-09-28T23:22:18.020Z",
       "error": "HTTP 403",
-      "fails": 213
+      "fails": 214
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T23:01:04.992Z",
+      "at": "2026-09-28T23:22:18.423Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T23:01:05.351Z",
+      "at": "2026-09-28T23:22:18.695Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T23:01:05.582Z",
+      "at": "2026-09-28T23:22:18.870Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T23:01:06.118Z",
+      "at": "2026-09-28T23:22:19.188Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T23:01:06.231Z",
+      "at": "2026-09-28T23:22:19.252Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T23:00:59.071Z",
+      "at": "2026-09-28T23:22:14.476Z",
       "items": 30
     }
   },
@@ -388,13 +390,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T23:01:06.851Z",
-    "considered": 3,
+    "at": "2026-09-28T23:22:19.950Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Illegal Oncology Unit Found Operating at Private Clinic",
-      "· gct | Xanthi Marks 107 Years Since Liberation as Military Parade Leads Commemorations",
-      "· gct | Greece Promotes Southern Aegean Islands to German Market"
+      "· gct | NATO Video Sparks Backlash Over Diversity and Combat Imagery",
+      "· gct | Piraeus Port Authority Offers €30,000 in Scholarships to Students"
     ]
   },
   "evergreenDone": [
