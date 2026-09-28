@@ -16,7 +16,9 @@ function inline(s) {
 export function md(src) {
   const lines = String(src || "").replace(/\r/g, "").split("\n");
   const html = [];
-  let para = [], list = null, table = null, m0;
+  let para = [], list = null, table = null, m0, imgs = [];
+  const fig = (x, cap) => `<figure class="mdimg"><img src="${esc(x[2])}" alt="${esc(x[1])}" loading="lazy">${cap && x[1] ? `<figcaption>${esc(x[1])}</figcaption>` : ""}</figure>`;
+  const flushImgs = () => { if (!imgs.length) return; html.push(imgs.length === 1 ? fig(imgs[0], true) : `<div class="mdgal">${imgs.map((x) => fig(x, false)).join("")}</div>`); imgs = []; };
   const flushTable = () => {
     if (!table) return;
     const [head, ...rows] = table.filter((r) => !/^\|?\s*:?-{2,}/.test(r));
@@ -29,7 +31,8 @@ export function md(src) {
   for (const raw of lines) {
     const line = raw.trim();
     if (!line) { flushPara(); flushList(); flushTable(); continue; }
-    if ((m0 = line.match(/^!\[([^\]]*)\]\((\/[^\s)]+|https:\/\/[^\s)]+)\)$/))) { flushPara(); flushList(); flushTable(); html.push(`<figure class="mdimg"><img src="${esc(m0[2])}" alt="${esc(m0[1])}" loading="lazy">${m0[1] ? `<figcaption>${esc(m0[1])}</figcaption>` : ""}</figure>`); continue; }
+    if ((m0 = line.match(/^!\[([^\]]*)\]\((\/[^\s)]+|https:\/\/[^\s)]+)\)$/))) { flushPara(); flushList(); flushTable(); imgs.push(m0); continue; }
+    flushImgs();
     if (line.startsWith("|")) { flushPara(); flushList(); (table ||= []).push(line); continue; }
     flushTable();
     let m;
@@ -38,7 +41,7 @@ export function md(src) {
     if ((m = line.match(/^\d+[.)]\s+(.*)$/))) { flushPara(); if (!list || list.type !== "ol") { flushList(); list = { type: "ol", items: [] }; } list.items.push(m[1]); continue; }
     flushList(); para.push(line);
   }
-  flushPara(); flushList(); flushTable();
+  flushImgs(); flushPara(); flushList(); flushTable();
   return html.join("\n");
 }
 

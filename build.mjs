@@ -5,6 +5,7 @@ import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from ".
 import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
+import { profileBody } from "./site/profile.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 const TI = {
   strikes: '<svg viewBox="0 0 24 24"><path d="M12 3v2M4.2 6.2l1.4 1.4M19.8 6.2l-1.4 1.4M7 17v-4a5 5 0 0 1 10 0v4"/><path d="M5 17h14v3H5z"/></svg>',
@@ -165,7 +166,7 @@ ${newsletterBox(lang)}
   articles.forEach((a, i) => {
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = articles.filter((x) => x !== a && x.section === a.section).slice(0, 3);
-    const body = `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+    const body = a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.section === "real-estate" ? adBox(lang) : ""}
 ${related.length ? `<section><div class="zone-h"><h2>${esc(t.related)}</h2></div><div class="cards">${related.map((x) => card(x, lang)).join("")}</div></section>` : ""}
 ${newsletterBox(lang)}
