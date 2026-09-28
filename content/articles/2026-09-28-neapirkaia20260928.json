@@ -1,0 +1,55 @@
+{
+  "slug": "neapirkaia20260928",
+  "section": "breaking",
+  "publishedAt": "2026-09-28T07:25:01+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Nea Ionia, Athens",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/09/28/greece/nea-ionia-synagermos-logo-pyrkagias-se-kafe-megali-kinitopoiisi-gia-ekkenosi-katastimatos-kai-diamerismaton/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12274597/pexels-photo-12274597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Front view of a red fire truck parked in front of Central Marin Fire Station on a sunny day.",
+    "credit": "Photo: Robert So / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-fire-truck-on-the-road-12274597/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "he": {
+    "title": "שריפה פרצה בבית קפה בנאה איוניה באתונה",
+    "dek": "כוחות כיבוי גדולים פעלו בשעות הבוקר המוקדמות בפינוי מבנה מגורים לאחר שאש פרצה בקומת הקרקע.",
+    "tldr": [
+      "השריפה פרצה סביב השעה 04:30 בבניין מגורים",
+      "18 כבאים ו-5 רכבים פעלו במקום",
+      "המשטרה סגרה רחובות סמוכים לתנועה"
+    ],
+    "means": "למה זה חשוב לישראלים: מדובר באירוע מקומי באזור מגורים באתונה. מי שנמצא באזור נדרש להתעדכן בהסדרי התנועה ולשמוע להנחיות כוחות הביטחון המקומיים.",
+    "body": "שריפה פרצה לפנות בוקר יום שני בבית קפה הממוקם בקומת קרקע של בניין בן שלוש קומות ברחוב קסטאמוני בנאה איוניה שבאתונה. למקום הוזעקו 18 אנשי צוות של שירות כיבוי האש עם חמישה כלי רכב, כולל מנוף ומסוצ ייעודיים. הכוחות פעלו להשתלטות על הלהבות וסייעו בפינוי דיירי הבניין מהדירות שמעל העסק. עקב האירוע, משטרת התנועה חסמה את התנועה במספר רחובות סמוכים ובהם רחוב רודון ורחוב קסטאמוני. הרשויות פתחו בחקירה לבדיקת נסיבות האירוע, כאשר בין הכיוונים הנבדקים נבחנת האפשרות לתקלה הקשורה בחומרים דליקים או במיכלי גז שהיו במקום."
+  },
+  "en": {
+    "title": "Fire breaks out at a cafe in Nea Ionia, Athens",
+    "dek": "Emergency services responded early Monday morning to extinguish a fire and evacuate a residential building.",
+    "tldr": [
+      "The fire started around 04:30 in a multi-story building",
+      "18 firefighters and 5 vehicles deployed to the scene",
+      "Local police closed nearby streets to traffic"
+    ],
+    "means": "Why this matters to Israelis: This is a local incident in an Athens residential neighborhood. Travelers and residents in the area should follow instructions from local authorities and check for road closures.",
+    "body": "A fire broke out early Monday morning at a ground-floor cafe located on Kastamonis Street in Nea Ionia, Athens. The fire department responded with 18 firefighters, five vehicles, and specialized ladder trucks to combat the blaze. Firefighters assisted in evacuating both the cafe and the apartments on the upper floors of the three-story building. Greek police implemented traffic restrictions, closing sections of Rodon Street and Kastamonis Street. Authorities are investigating the cause of the incident, examining potential factors including flammable materials or gas cylinders at the premises."
+  },
+  "meta": {
+    "itemId": "72421253a9a6",
+    "imageQuery": "fire department greece",
+    "sourceHash": "aa7ec2a9e9b5",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-28T04:25:02.413Z",
+    "official": false
+  }
+}
