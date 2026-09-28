@@ -235,98 +235,102 @@
     "11462e88dc57": 1790615030711,
     "56f9090a328b": 1790615030711,
     "318c08d84f77": 1790616352972,
-    "6c261f86c35e": 1790617016566
+    "6c261f86c35e": 1790617016566,
+    "b4683073a217": 1790617902182,
+    "43aff9df2d28": 1790617902182,
+    "9159f652398b": 1790617902182,
+    "080bdb96c51d": 1790617902182
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T17:35:21.364Z",
+      "at": "2026-09-28T17:50:36.934Z",
       "error": "HTTP 403",
-      "fails": 191
+      "fails": 192
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T17:35:23.713Z",
-      "items": 10
+      "at": "2026-09-28T17:50:37.660Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T17:35:24.355Z",
+      "at": "2026-09-28T17:50:38.532Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T17:35:25.176Z",
+      "at": "2026-09-28T17:50:39.205Z",
       "error": "HTTP 403",
-      "fails": 191
+      "fails": 192
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T17:35:25.934Z",
+      "at": "2026-09-28T17:50:40.370Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T17:35:26.132Z",
+      "at": "2026-09-28T17:50:40.652Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T17:35:27.038Z",
+      "at": "2026-09-28T17:50:41.781Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T17:35:27.662Z",
+      "at": "2026-09-28T17:50:42.551Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T17:35:28.590Z",
+      "at": "2026-09-28T17:50:43.492Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T17:35:28.739Z",
+      "at": "2026-09-28T17:50:43.664Z",
       "error": "HTTP 403",
-      "fails": 191
+      "fails": 192
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T17:35:29.141Z",
+      "at": "2026-09-28T17:50:44.223Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T17:35:29.228Z",
+      "at": "2026-09-28T17:50:44.572Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T17:35:29.450Z",
-      "items": 3
+      "at": "2026-09-28T17:50:44.717Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T17:35:29.590Z",
-      "items": 5
+      "at": "2026-09-28T17:50:45.212Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T17:35:29.748Z",
+      "at": "2026-09-28T17:50:45.375Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T17:35:24.905Z",
+      "at": "2026-09-28T17:50:39.046Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "neapirkaia20260928",
@@ -375,6 +379,12 @@
         "title": "Santorini Guide: History, Villages, and Key Sites",
         "at": "2026-09-28T15:08:23+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "complete-guide-to-chalkidiki-for-israeli-travellers",
+        "title": "The Complete Guide to Chalkidiki: Greece's Three-Fingered Peninsula",
+        "at": "2026-09-28T20:57:18+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -392,6 +402,11 @@
         "title": "Fire and Partial Building Collapse in Central Athens",
         "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The article adds speculative commentary and facts not present in the source (e.g., 'האירוע אינו צפוי להשפיע מעבר לעומסי תנועה מקומיים' in Hebrew, and 'Authorities advise travelers to avoid the immediate vicinity while operations conclude' in English).",
         "at": "2026-09-28T09:02:37.797Z"
+      },
+      {
+        "title": "Ρεκόρ επιβατικής κίνησης στο αεροδρόμιο «Μακεδονία» – Οι προκλήσεις για τις συνδέσεις της Βόρειας Ελλάδας",
+        "reason": "Rule 7 and 9 violation: The name Stefanos Chatzimmanolis (Στέφανος Χατζημανώλης), a private individual, is explicitly mentioned in the article, violating the rule against publishing personal details of private individuals.",
+        "at": "2026-09-28T17:55:41.452Z"
       }
     ],
     "errors": [
@@ -418,12 +433,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T17:36:56.566Z",
-    "considered": 2,
+    "at": "2026-09-28T17:51:42.182Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "· naftemporiki | Τραγωδία στη Ρωσία: 13 νεκροί από πυρκαγιά σε εργοστάσιο πυροτεχνημάτων",
-      "✓ ert | Γεύσεις από Ελλάδα στο αεροδρόμιο «Μακεδονία»"
+      "· naftemporiki | ΗΠΑ: Εξετάζεται εξαίρεση για πτήσεις προς το Ιράκ παρά τις κυρώσεις στο Ιράν",
+      "✓ ert | Ρεκόρ επιβατικής κίνησης στο αεροδρόμιο «Μακεδονία» – Οι προκλήσεις για τις συνδέσεις της ",
+      "· ingr | ΗΠΑ: Ο πύραυλος Starship του Έλον Μασκ ολοκλήρωσε την πρώτη του πτήση σε τροχιά",
+      "· ert | Γεύσεις από Ελλάδα στο αεροδρόμιο «Μακεδονία»"
     ]
   },
   "evergreenDone": [
@@ -433,8 +450,9 @@
     "crete",
     "corfu",
     "santorini",
-    "naxos"
+    "naxos",
+    "halkidiki"
   ],
-  "lastEvergreen": 1790613266015,
+  "lastEvergreen": 1790618141457,
   "pushKey": "ok"
 }
