@@ -12,7 +12,7 @@ export const DESTS = {
   ATH: ["אתונה", "Athens"], SKG: ["סלוניקי", "Thessaloniki"], HER: ["הרקליון, כרתים", "Heraklion, Crete"], CHQ: ["חאניה, כרתים", "Chania, Crete"],
   RHO: ["רודוס", "Rhodes"], JMK: ["מיקונוס", "Mykonos"], JTR: ["סנטוריני", "Santorini"], CFU: ["קורפו", "Corfu"], KGS: ["קוס", "Kos"], ZTH: ["זקינתוס", "Zakynthos"],
 };
-const AIRLINES = { LY: "El Al", IZ: "Arkia", "6H": "Israir", BZ: "Blue Bird", A3: "Aegean", OA: "Olympic Air", W6: "Wizz Air", W4: "Wizz Air", "5W": "Wizz Air", FR: "Ryanair", GQ: "Sky Express", U2: "easyJet", RK: "Ryanair UK", HV: "Transavia", VY: "Vueling", TK: "Turkish", PC: "Pegasus" };
+const AIRLINES = { LY: "El Al", IZ: "Arkia", "6H": "Israir", BZ: "Blue Bird", A3: "Aegean", OA: "Olympic Air", W6: "Wizz Air", W4: "Wizz Air", "5W": "Wizz Air", FR: "Ryanair", GQ: "Sky Express", U2: "easyJet", RK: "Ryanair UK", HV: "Transavia", VY: "Vueling", TK: "Turkish", PC: "Pegasus", U8: "TUS Airways", "3F": "FlyOne", EW: "Eurowings", LH: "Lufthansa", OS: "Austrian", SN: "Brussels", LX: "Swiss", AZ: "ITA" };
 
 const ym = (d) => d.toISOString().slice(0, 7);
 async function query(dest, month) {
