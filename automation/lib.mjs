@@ -149,7 +149,12 @@ async function gemini({ system, prompt, role, maxTokens, temperature }) {
       await new Promise((s) => setTimeout(s, 8000 * attempt)); continue;
     }
     const d = await r.json();
-    if (r.status === 404 && attempt === 1) { geminiAuto = null; const m2 = await pickGeminiModel(); if (m2 !== model) { log(`το ${model} δεν είναι διαθέσιμο → ${m2}`); model = m2; continue; } }
+    if (r.status === 404) {
+      // Μοντέλο που αποσύρθηκε: το βγάζουμε από τη λίστα και πάμε στο επόμενο (χωρίς να «χαλάμε» προσπάθεια)
+      const i = geminiCands.indexOf(model); const next = geminiCands[i + 1];
+      if (i >= 0) geminiCands.splice(i, 1);
+      if (next) { log(`το ${model} δεν είναι διαθέσιμο → ${next}`); model = next; geminiAuto = next; attempt--; continue; }
+    }
     if (!r.ok) throw new Error("Gemini API: " + JSON.stringify(d).slice(0, 300));
     const text = (d.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
     if (!text) throw new Error("Gemini: κενή απάντηση (" + (d.candidates?.[0]?.finishReason || d.promptFeedback?.blockReason || "?") + ")");
