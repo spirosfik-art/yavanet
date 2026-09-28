@@ -42,6 +42,8 @@ export function profileBody(a, lang) {
 <section class="pf-sec"><h2>${esc(p.galleryTitle)}</h2><p class="pf-lead">${esc(p.galleryText)}</p>
 <div class="pf-gal">${p.gallery.map(([src, alt], i) => `<a href="${esc(src)}" target="_blank" rel="noopener" class="${i === 0 ? "big" : ""}"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></a>`).join("")}</div></section>
 
+${p.areas ? `<section class="pf-areas"><h3>${icon("area")}${esc(p.areasTitle)}</h3><div>${p.areas.map((x) => `<span>${esc(x)}</span>`).join("")}</div></section>` : ""}
+
 <section class="pf-sec"><h2>${esc(p.networkTitle)}</h2><p class="pf-lead">${esc(p.networkText)}</p>
 <div class="pf-chips">${p.network.map((x) => `<span>${esc(x)}</span>`).join("")}</div></section>
 
