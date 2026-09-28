@@ -207,98 +207,100 @@
     "35ab339d9f42": 1790595498773,
     "512e32153da2": 1790595498773,
     "f650bd47a485": 1790596317215,
-    "e236c3bf33cb": 1790596317215
+    "e236c3bf33cb": 1790596317215,
+    "af2383516292": 1790597177145,
+    "843badc5dc33": 1790597177145
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-28T11:51:47.580Z",
+      "at": "2026-09-28T12:00:57.592Z",
       "error": "HTTP 403",
-      "fails": 164
+      "fails": 165
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-28T11:51:49.931Z",
-      "items": 10
+      "at": "2026-09-28T12:00:59.584Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-28T11:51:50.567Z",
+      "at": "2026-09-28T12:01:00.264Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-28T11:51:51.427Z",
+      "at": "2026-09-28T12:01:01.058Z",
       "error": "HTTP 403",
-      "fails": 164
+      "fails": 165
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-28T11:51:52.438Z",
+      "at": "2026-09-28T12:01:02.081Z",
       "items": 7
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-28T11:51:52.608Z",
+      "at": "2026-09-28T12:01:02.530Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-28T11:51:53.667Z",
+      "at": "2026-09-28T12:01:03.456Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-28T11:51:54.370Z",
+      "at": "2026-09-28T12:01:04.162Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-28T11:51:54.802Z",
+      "at": "2026-09-28T12:01:05.262Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-28T11:51:54.919Z",
+      "at": "2026-09-28T12:01:05.477Z",
       "error": "HTTP 403",
-      "fails": 164
+      "fails": 165
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-28T11:51:55.380Z",
+      "at": "2026-09-28T12:01:05.935Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-28T11:51:55.715Z",
+      "at": "2026-09-28T12:01:06.321Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-28T11:51:56.196Z",
+      "at": "2026-09-28T12:01:06.560Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T11:51:56.377Z",
-      "items": 5
+      "at": "2026-09-28T12:01:06.721Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-28T11:51:56.578Z",
+      "at": "2026-09-28T12:01:06.981Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-28T11:51:51.285Z",
+      "at": "2026-09-28T12:01:00.961Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-28",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "neapirkaia20260928",
@@ -341,6 +343,12 @@
         "title": "Official Lawsuit Filed in Athens Over Pegasus Spyware",
         "at": "2026-09-28T14:01:57+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "santorini-travel-guide-history-and-villages",
+        "title": "Santorini Guide: History, Villages, and Key Sites",
+        "at": "2026-09-28T15:08:23+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -376,12 +384,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T11:51:57.215Z",
+    "at": "2026-09-28T12:06:17.145Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· ert | Ιράν: Προσφυγή στον Διεθνή Οργανισμό Πολιτικής Αεροπορίας κατά των αμερικανικών κυρώσεων",
-      "· minfin | Η Κυβέρνηση ανέκαθεν είναι ανοιχτή σε κάθε έλεγχο σε ευρωπαϊκό και εθνικό επίπεδο"
+      "· naftemporiki | Για ναρκοθέτηση της αποστρατιωτικοποιημένης ζώνης κατηγορεί τον Κιμ η Νότια Κορέα",
+      "· naftemporiki | WSJ: Η Αίγυπτος είχε προειδοποιήσει τον Νετανιάχου για επίθεση της Χαμάς μια εβδομάδα πριν"
     ]
   },
   "evergreenDone": [
@@ -389,8 +397,9 @@
     "jewish-museum-greece",
     "rhodes",
     "crete",
-    "corfu"
+    "corfu",
+    "santorini"
   ],
-  "lastEvergreen": 1790588414800,
+  "lastEvergreen": 1790597177149,
   "pushKey": "ok"
 }
