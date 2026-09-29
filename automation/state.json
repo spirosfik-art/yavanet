@@ -340,91 +340,93 @@
     "cde67df3f4a8": 1790677566893,
     "7ec0fdce4d72": 1790677566893,
     "9fb6cedef502": 1790677566893,
-    "f5bd6cd0b05e": 1790677566893
+    "f5bd6cd0b05e": 1790677566893,
+    "3a9eac6dfbda": 1790678337446,
+    "d9abf89d813b": 1790678337446
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T10:25:57.516Z",
+      "at": "2026-09-29T10:38:45.472Z",
       "error": "HTTP 403",
-      "fails": 255
+      "fails": 256
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T10:25:58.159Z",
-      "items": 0
+      "at": "2026-09-29T10:38:48.195Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T10:25:58.918Z",
+      "at": "2026-09-29T10:38:49.080Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T10:25:59.878Z",
+      "at": "2026-09-29T10:38:50.154Z",
       "error": "HTTP 403",
-      "fails": 255
+      "fails": 256
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T10:26:00.669Z",
+      "at": "2026-09-29T10:38:51.063Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T10:26:01.073Z",
+      "at": "2026-09-29T10:38:51.510Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T10:26:02.165Z",
+      "at": "2026-09-29T10:38:52.847Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T10:26:03.023Z",
-      "items": 4
+      "at": "2026-09-29T10:38:54.046Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T10:26:03.950Z",
+      "at": "2026-09-29T10:38:54.662Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T10:26:04.049Z",
+      "at": "2026-09-29T10:38:54.797Z",
       "error": "HTTP 403",
-      "fails": 255
+      "fails": 256
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T10:26:04.589Z",
+      "at": "2026-09-29T10:38:55.438Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T10:26:04.981Z",
+      "at": "2026-09-29T10:38:55.765Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T10:26:05.198Z",
+      "at": "2026-09-29T10:38:56.539Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:26:05.581Z",
+      "at": "2026-09-29T10:38:56.758Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T10:26:05.717Z",
+      "at": "2026-09-29T10:38:56.921Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:25:59.654Z",
+      "at": "2026-09-29T10:38:49.860Z",
       "items": 30
     }
   },
@@ -498,14 +500,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T10:26:06.893Z",
-    "considered": 4,
+    "at": "2026-09-29T10:38:57.446Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Stefanos Tsitsipas storms into Tokyo Open main draw after straight sets win",
-      "· ert | Νέα Ιωνία: Εκτός σπιτιών οι ένοικοι μετά τη φωτιά σε καφετέρια – Μεγάλες ζημιές στην πολυκ",
-      "· gct | Bulgaria announces ‘historic’ deal to return Tsar Samuel’s remains from Greece",
-      "· ingr | Νότια Κορέα: Καταγγέλλει «παραβίαση της ανακωχής» από τη Βόρεια Κορέα"
+      "· ingr | Κικίλιας: Ναυτιλία, τουρισμός και ακτοπλοΐα να έχουν σημαντική συμβολή στο ΑΕΠ της χώρας",
+      "· naftemporiki | Αρκαδία: Φωτιά τώρα στη Ριζοσπηλιά"
     ]
   },
   "evergreenDone": [
