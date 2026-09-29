@@ -367,98 +367,101 @@
     "db801fe6faf9": 1790685043173,
     "06bd04c532bb": 1790685043173,
     "ee4dac5232bf": 1790686570906,
-    "c24eb02aceaf": 1790686570906
+    "c24eb02aceaf": 1790686570906,
+    "988af1fd01bd": 1790687214690,
+    "c4d24fe48f12": 1790687214690,
+    "bf59a8fee3ab": 1790687214690
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T12:56:02.041Z",
+      "at": "2026-09-29T13:06:42.603Z",
       "error": "HTTP 403",
-      "fails": 264
+      "fails": 265
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T12:56:04.044Z",
+      "at": "2026-09-29T13:06:45.084Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T12:56:04.650Z",
+      "at": "2026-09-29T13:06:45.747Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T12:56:05.673Z",
+      "at": "2026-09-29T13:06:46.708Z",
       "error": "HTTP 403",
-      "fails": 264
+      "fails": 265
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T12:56:06.481Z",
+      "at": "2026-09-29T13:06:47.328Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T12:56:06.794Z",
+      "at": "2026-09-29T13:06:47.640Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T12:56:07.679Z",
+      "at": "2026-09-29T13:06:48.957Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T12:56:08.318Z",
+      "at": "2026-09-29T13:06:49.589Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T12:56:08.752Z",
+      "at": "2026-09-29T13:06:50.423Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T12:56:08.863Z",
+      "at": "2026-09-29T13:06:50.465Z",
       "error": "HTTP 403",
-      "fails": 264
+      "fails": 265
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T12:56:09.272Z",
+      "at": "2026-09-29T13:06:50.913Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T12:56:09.397Z",
+      "at": "2026-09-29T13:06:51.069Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T12:56:09.573Z",
-      "items": 6
+      "at": "2026-09-29T13:06:51.249Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T12:56:09.703Z",
+      "at": "2026-09-29T13:06:51.578Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T12:56:09.783Z",
+      "at": "2026-09-29T13:06:51.635Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T12:56:05.190Z",
+      "at": "2026-09-29T13:06:46.469Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -513,6 +516,12 @@
         "title": "Thessaloniki Guide: History, Culture, and Travel in Northern Greece",
         "at": "2026-09-29T15:02:34+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "etz-hayyim-synagogue-chania-crete-guide",
+        "title": "Etz Hayyim Synagogue in Chania: A Visitor Guide",
+        "at": "2026-09-29T16:07:05+03:00",
+        "section": "jewish-greece"
       }
     ],
     "rejected": [
@@ -543,12 +552,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T12:56:10.906Z",
-    "considered": 2,
+    "at": "2026-09-29T13:06:54.690Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· minfin | Ειδοποίηση εκδίκασης της από 8-9-2026 και με γενικό αριθμό καταθ. 361/17-9-2026και ειδικό ",
-      "· ingr | Τσουκαλάς: Η ΝΔ έχει πάρει διαζύγιο με τον λαό – Η λύση για τη χώρα δεν είναι ούτε ο ελιτι"
+      "· gtp | ITA Airways Resumes Mauritius Service and Launches New Rome-Santo Domingo Route",
+      "· ingr | Από τα Πετράλωνα ως την Πλάκα: Το αόρατο νήμα που συνδέει τα κτίρια που καταρρέουν",
+      "· ingr | Ισπανία: «Διάταγμα Μαρικάρμεν» με αναστολή εξώσεων έως το 2030 – Τα μέτρα Σάντσεθ για την "
     ]
   },
   "evergreenDone": [
@@ -564,8 +574,9 @@
     "zakynthos",
     "mykonos",
     "paros",
-    "thessaloniki"
+    "thessaloniki",
+    "etz-hayyim"
   ],
-  "lastEvergreen": 1790683343995,
+  "lastEvergreen": 1790687214695,
   "pushKey": "ok"
 }
