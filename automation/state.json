@@ -301,98 +301,102 @@
     "444639ad2ad5": 1790661074712,
     "0fe82c3553f8": 1790661074712,
     "561eff916143": 1790661074712,
-    "3fdfdeaac9c9": 1790661727038
+    "3fdfdeaac9c9": 1790661727038,
+    "cb2cbd0f5d95": 1790663365037,
+    "4e047c788d1b": 1790663365037,
+    "6aee78e89fef": 1790663365037,
+    "490b2ce73fd7": 1790663365037
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T06:01:57.219Z",
+      "at": "2026-09-29T06:29:13.071Z",
       "error": "HTTP 403",
-      "fails": 240
+      "fails": 241
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T06:01:59.510Z",
+      "at": "2026-09-29T06:29:16.633Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T06:02:00.134Z",
+      "at": "2026-09-29T06:29:17.431Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T06:02:00.840Z",
+      "at": "2026-09-29T06:29:18.097Z",
       "error": "HTTP 403",
-      "fails": 240
+      "fails": 241
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T06:02:01.475Z",
+      "at": "2026-09-29T06:29:18.794Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T06:02:01.896Z",
+      "at": "2026-09-29T06:29:19.134Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T06:02:02.671Z",
+      "at": "2026-09-29T06:29:20.015Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T06:02:03.294Z",
-      "items": 3
+      "at": "2026-09-29T06:29:20.721Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T06:02:04.204Z",
+      "at": "2026-09-29T06:29:21.581Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T06:02:04.325Z",
+      "at": "2026-09-29T06:29:21.694Z",
       "error": "HTTP 403",
-      "fails": 240
+      "fails": 241
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T06:02:04.686Z",
+      "at": "2026-09-29T06:29:22.138Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T06:02:05.020Z",
+      "at": "2026-09-29T06:29:22.210Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T06:02:05.574Z",
-      "items": 7
+      "at": "2026-09-29T06:29:22.745Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T06:02:05.927Z",
-      "items": 4
+      "at": "2026-09-29T06:29:23.075Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T06:02:06.033Z",
+      "at": "2026-09-29T06:29:23.121Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T06:02:00.645Z",
+      "at": "2026-09-29T06:29:17.923Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -411,6 +415,12 @@
         "title": "Yavanet: Greece Expands Regional Relocation Subsidy up to €10,000",
         "at": "2026-09-29T09:14:34+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "thessaloniki-airport-record-passengers-winter-haifa-route",
+        "title": "Thessaloniki Airport Targets Record 8.2 Million Passengers",
+        "at": "2026-09-29T09:29:40+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [],
@@ -435,11 +445,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T06:02:07.038Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-29T06:29:25.037Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ingr | Ανδρουλάκης: Τα υπερέσοδα του ΦΠΑ μπορούν να μειώσουν τον ΕΦΚ"
+      "✓ gct | Thessaloniki Airport Eyes Record 8.2 Million Passengers",
+      "· ert | Συρία: Πυρκαγιά σε αγωγό φυσικού αερίου από πιθανή δολιοφθορά",
+      "· gct | Could Olive Oil Compounds Help People Sleep Better?",
+      "· gct | RBA Raises Rates Again Pushing Typical Mortgage Up $480 a Month"
     ]
   },
   "evergreenDone": [
