@@ -333,91 +333,94 @@
     "32e0274e1f2f": 1790673955637,
     "7edb074f3b9d": 1790674738312,
     "6ccc75ad848f": 1790674738312,
-    "451de23d29fc": 1790675600755
+    "451de23d29fc": 1790675600755,
+    "10cad14ad503": 1790676151589,
+    "f99a009a72a5": 1790676151589,
+    "028607b12393": 1790676151589
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T09:53:09.117Z",
+      "at": "2026-09-29T10:02:17.778Z",
       "error": "HTTP 403",
-      "fails": 253
+      "fails": 254
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T09:53:11.280Z",
+      "at": "2026-09-29T10:02:20.669Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T09:53:11.919Z",
+      "at": "2026-09-29T10:02:21.267Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T09:53:12.701Z",
+      "at": "2026-09-29T10:02:22.705Z",
       "error": "HTTP 403",
-      "fails": 253
+      "fails": 254
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T09:53:13.386Z",
+      "at": "2026-09-29T10:02:23.302Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T09:53:13.807Z",
+      "at": "2026-09-29T10:02:23.753Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T09:53:14.699Z",
+      "at": "2026-09-29T10:02:25.114Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T09:53:15.368Z",
+      "at": "2026-09-29T10:02:26.457Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T09:53:16.283Z",
+      "at": "2026-09-29T10:02:27.385Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T09:53:16.365Z",
+      "at": "2026-09-29T10:02:27.522Z",
       "error": "HTTP 403",
-      "fails": 253
+      "fails": 254
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T09:53:16.877Z",
+      "at": "2026-09-29T10:02:27.993Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T09:53:17.275Z",
+      "at": "2026-09-29T10:02:28.315Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T09:53:17.516Z",
+      "at": "2026-09-29T10:02:28.970Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T09:53:17.925Z",
-      "items": 4
+      "at": "2026-09-29T10:02:29.117Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T09:53:18.101Z",
+      "at": "2026-09-29T10:02:29.186Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T09:53:12.580Z",
+      "at": "2026-09-29T10:02:21.804Z",
       "items": 30
     }
   },
@@ -491,11 +494,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T09:53:20.755Z",
-    "considered": 1,
+    "at": "2026-09-29T10:02:31.589Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· ert | Γάζα: Εν μέσω επιδρομών το Ισραήλ ανακοινώνει τον θάνατο διοικητή της Χαμάς"
+      "· gct | Mazonakis death investigation: Prosecutor seeks phone data from six mobile phones",
+      "· gct | “The time has come”: Mareva Grabowski-Mitsotakis on Reuniting the Parthenon Sculptures",
+      "· naftemporiki | ΕΟΤ: Προβολή της Καστοριάς στη σλοβενική τουριστική αγορά"
     ]
   },
   "evergreenDone": [
