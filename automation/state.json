@@ -423,91 +423,92 @@
     "6ef7189a6ab4": 1790718596423,
     "19ed14bab0b5": 1790719272786,
     "cea612439d6c": 1790719272786,
-    "8d5bf32c9b92": 1790720624604
+    "8d5bf32c9b92": 1790720624604,
+    "4a8b903b0aac": 1790721334659
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T22:23:33.185Z",
+      "at": "2026-09-29T22:35:24.946Z",
       "error": "HTTP 403",
-      "fails": 301
+      "fails": 302
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T22:23:35.709Z",
+      "at": "2026-09-29T22:35:27.020Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T22:23:36.415Z",
+      "at": "2026-09-29T22:35:27.665Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T22:23:37.107Z",
+      "at": "2026-09-29T22:35:28.463Z",
       "error": "HTTP 403",
-      "fails": 301
+      "fails": 302
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T22:23:38.536Z",
+      "at": "2026-09-29T22:35:29.297Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T22:23:38.970Z",
+      "at": "2026-09-29T22:35:29.527Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T22:23:40.164Z",
+      "at": "2026-09-29T22:35:30.423Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T22:23:41.080Z",
+      "at": "2026-09-29T22:35:31.079Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T22:23:41.970Z",
+      "at": "2026-09-29T22:35:31.781Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T22:23:42.118Z",
+      "at": "2026-09-29T22:35:31.961Z",
       "error": "HTTP 403",
-      "fails": 301
+      "fails": 302
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T22:23:42.762Z",
+      "at": "2026-09-29T22:35:32.489Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T22:23:42.879Z",
+      "at": "2026-09-29T22:35:32.872Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T22:23:43.493Z",
+      "at": "2026-09-29T22:35:33.353Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T22:23:43.730Z",
+      "at": "2026-09-29T22:35:33.778Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T22:23:43.842Z",
+      "at": "2026-09-29T22:35:33.986Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T22:23:36.985Z",
+      "at": "2026-09-29T22:35:28.334Z",
       "items": 30
     }
   },
@@ -549,11 +550,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T22:23:44.604Z",
+    "at": "2026-09-29T22:35:34.659Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Georgiadis Launches Medwatch to Audit Clinic Ads"
+      "· gct | Westchester Mourns Bronx Lawyer Killed in Athens Blast"
     ]
   },
   "evergreenDone": [
