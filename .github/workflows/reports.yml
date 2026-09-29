@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       kind:
-        description: "daily ή monthly"
+        description: "daily, monthly ή stats (μόνο νούμερα, χωρίς μήνυμα)"
         default: daily
 jobs:
   report:

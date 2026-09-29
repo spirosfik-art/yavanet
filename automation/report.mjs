@@ -53,6 +53,12 @@ async function traffic() {
 
 (async () => {
   const s = readJSON(STATE_FILE, {});
+  if (kind === "stats") {
+    // Μόνο νούμερα επισκεψιμότητας στο log (χωρίς Telegram/email), για γρήγορο έλεγχο
+    const tr = await traffic();
+    log(JSON.stringify(tr, null, 1));
+    return;
+  }
   if (kind === "daily") {
     const t = s.today || { published: [], rejected: [], errors: [] };
     const leads = await leadsSince(Date.now() - 24 * 3600e3).catch(() => null);
