@@ -275,91 +275,92 @@
     "6a1824eeae34": 1790636466851,
     "62ff0cd47f38": 1790636466851,
     "94569122f2df": 1790637739950,
-    "f5ae358979a1": 1790637739950
+    "f5ae358979a1": 1790637739950,
+    "699633367811": 1790641809287
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T00:01:25.069Z",
+      "at": "2026-09-29T00:29:59.503Z",
       "error": "HTTP 403",
-      "fails": 217
+      "fails": 218
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T00:01:27.256Z",
+      "at": "2026-09-29T00:30:01.860Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T00:01:27.938Z",
+      "at": "2026-09-29T00:30:02.486Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T00:01:29.013Z",
+      "at": "2026-09-29T00:30:03.376Z",
       "error": "HTTP 403",
-      "fails": 217
+      "fails": 218
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T00:01:29.616Z",
+      "at": "2026-09-29T00:30:04.081Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T00:01:29.952Z",
+      "at": "2026-09-29T00:30:04.404Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T00:01:30.789Z",
+      "at": "2026-09-29T00:30:06.184Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T00:01:31.531Z",
+      "at": "2026-09-29T00:30:06.918Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T00:01:32.290Z",
+      "at": "2026-09-29T00:30:07.364Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T00:01:32.375Z",
+      "at": "2026-09-29T00:30:07.414Z",
       "error": "HTTP 403",
-      "fails": 217
+      "fails": 218
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T00:01:32.882Z",
+      "at": "2026-09-29T00:30:07.856Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T00:01:33.288Z",
+      "at": "2026-09-29T00:30:07.995Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T00:01:33.471Z",
-      "items": 6
+      "at": "2026-09-29T00:30:08.181Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T00:01:33.837Z",
+      "at": "2026-09-29T00:30:08.497Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T00:01:33.992Z",
+      "at": "2026-09-29T00:30:08.560Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T00:01:28.760Z",
+      "at": "2026-09-29T00:30:03.203Z",
       "items": 30
     }
   },
@@ -390,12 +391,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-28T23:22:19.950Z",
-    "considered": 2,
+    "at": "2026-09-29T00:30:09.287Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | NATO Video Sparks Backlash Over Diversity and Combat Imagery",
-      "· gct | Piraeus Port Authority Offers €30,000 in Scholarships to Students"
+      "· ingr | Τελεσίγραφο της Καταΐμπ Χεζμπολάχ στην Ιρακινή κυβέρνηση: Επανέναρξη των πτήσεων με το Ιρά"
     ]
   },
   "evergreenDone": [
