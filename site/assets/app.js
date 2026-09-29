@@ -303,6 +303,38 @@
     else pushState().then(function (s) { pushLabel(!!s); });
   }
 
+  /* Διακριτική υπενθύμιση για ειδοποιήσεις: μετά το 2ο άρθρο, αφού ο αναγνώστης κάνει scroll ή περάσουν 10".
+     Δεν ξαναεμφανίζεται για 14 μέρες αν πατήσει «Όχι τώρα», ούτε όταν είναι ήδη εγγεγραμμένος. */
+  (function () {
+    if (!/\/a\//.test(location.pathname)) return;
+    if (!pushOK && !isIOS) return;
+    if (typeof Notification !== "undefined" && Notification.permission === "denied") return;
+    var reads = (+store("yv-reads") || 0) + 1; store("yv-reads", String(reads));
+    var last = +store("yv-np-dismiss") || 0;
+    if (reads < 2 || Date.now() - last < 14 * 864e5) return;
+    var he = C.lang !== "en", shown = false;
+    function show() {
+      if (shown) return; shown = true;
+      var ck = $("#cookie"); if (ck && !ck.hidden) return;
+      pushState().then(function (sub) {
+        if (sub) return;
+        var d = document.createElement("div"); d.className = "npbar"; d.setAttribute("role", "dialog"); d.setAttribute("aria-label", he ? "התראות" : "Alerts");
+        d.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>' +
+          '<p><b>' + (he ? "רוצים לדעת על שביתות ושריפות?" : "Want to know about strikes and fires?") + '</b><span>' + (he ? "התראה לטלפון רק כשזה חשוב. בחינם." : "A phone alert only when it matters. Free.") + '</span></p>' +
+          '<button type="button" class="np-yes">' + (he ? "כן, עדכנו אותי" : "Yes, alert me") + '</button>' +
+          '<button type="button" class="np-no" aria-label="' + (he ? "לא עכשיו" : "Not now") + '">' + (he ? "לא עכשיו" : "Not now") + '</button>';
+        document.body.appendChild(d);
+        requestAnimationFrame(function () { d.classList.add("on"); });
+        track("push_prompt_shown");
+        function close() { d.classList.remove("on"); setTimeout(function () { d.remove(); }, 300); }
+        d.querySelector(".np-yes").onclick = function () { track("push_prompt_yes"); close(); togglePush(); };
+        d.querySelector(".np-no").onclick = function () { track("push_prompt_no"); store("yv-np-dismiss", String(Date.now())); close(); };
+      });
+    }
+    setTimeout(show, 10000);
+    window.addEventListener("scroll", function onS() { var h = document.documentElement; if ((h.scrollTop + innerHeight) / h.scrollHeight > 0.5) { window.removeEventListener("scroll", onS); show(); } }, { passive: true });
+  })();
+
 
   /* ---------- Μενού & αναζήτηση ---------- */
   (function () {

@@ -686,3 +686,15 @@ article.full .fteaser{margin:22px 0}
 .pushbox.big{margin-bottom:16px}
 @media (prefers-color-scheme:dark){:root:not(.day) .pushbox{border-top-color:#F0B650}:root:not(.day) .pushbox .pb-ic{background:#1d2b38}:root:not(.day) .pushbox .pb-ic svg{stroke:#F0B650}:root:not(.day) .pushbox .pb-btn{background:#F0B650;color:#0B3A5B}:root:not(.day) .pushbox .pb-btn.on{background:#173524;color:#9fe0b8}}
 :root.night .pushbox{border-top-color:#F0B650}:root.night .pushbox .pb-ic{background:#1d2b38}:root.night .pushbox .pb-ic svg{stroke:#F0B650}:root.night .pushbox .pb-btn{background:#F0B650;color:#0B3A5B}:root.night .pushbox .pb-btn.on{background:#173524;color:#9fe0b8}
+
+/* Υπενθύμιση ειδοποιήσεων (κάτω μέρος) */
+.npbar{position:fixed;z-index:60;left:50%;bottom:calc(76px + env(safe-area-inset-bottom));transform:translate(-50%,140%);width:min(560px,calc(100% - 24px));box-sizing:border-box;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-top:3px solid #0B3A5B;border-radius:14px;box-shadow:0 12px 32px -12px rgba(11,58,91,.45);transition:transform .3s ease}
+.npbar.on{transform:translate(-50%,0)}
+.npbar svg{flex:none;width:22px;height:22px;fill:none;stroke:#0B3A5B;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.npbar p{flex:1;min-width:180px;margin:0;display:flex;flex-direction:column;gap:2px;font-size:.9rem;line-height:1.3}
+.npbar p span{color:var(--muted);font-size:.8rem}
+.npbar .np-yes{background:#0B3A5B;color:#fff;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer;min-height:44px}
+.npbar .np-no{background:none;border:0;color:var(--muted);padding:10px 6px;cursor:pointer;font-size:.85rem;min-height:44px}
+@media (min-width:900px){.npbar{bottom:24px}}
+@media (prefers-color-scheme:dark){.npbar{border-top-color:#F0B650}.npbar svg{stroke:#F0B650}.npbar .np-yes{background:#F0B650;color:#0B3A5B}}
+:root.night .npbar{border-top-color:#F0B650}:root.night .npbar svg{stroke:#F0B650}:root.night .npbar .np-yes{background:#F0B650;color:#0B3A5B}
