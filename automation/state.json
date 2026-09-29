@@ -290,7 +290,9 @@
     "db0cd7f0f27b": 1790655853228,
     "3b28ba3a2e82": 1790656613050,
     "22ec6606ff3a": 1790656613050,
-    "7d1a9671c3ae": 1790656613050
+    "7d1a9671c3ae": 1790656613050,
+    "4670b02314f6": 1790657475652,
+    "2557f9c1368c": 1790657475652
   },
   "pending": {
     "62919b": {
@@ -378,85 +380,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T04:36:41.614Z",
+      "at": "2026-09-29T04:51:07.101Z",
       "error": "HTTP 403",
-      "fails": 234
+      "fails": 235
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T04:36:43.796Z",
-      "items": 10
+      "at": "2026-09-29T04:51:07.771Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T04:36:44.583Z",
+      "at": "2026-09-29T04:51:08.517Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T04:36:45.535Z",
+      "at": "2026-09-29T04:51:09.149Z",
       "error": "HTTP 403",
-      "fails": 234
+      "fails": 235
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T04:36:46.189Z",
+      "at": "2026-09-29T04:51:10.101Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T04:36:46.517Z",
+      "at": "2026-09-29T04:51:10.482Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T04:36:47.416Z",
+      "at": "2026-09-29T04:51:11.615Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T04:36:48.128Z",
-      "items": 4
+      "at": "2026-09-29T04:51:12.372Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T04:36:49.755Z",
+      "at": "2026-09-29T04:51:12.848Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T04:36:49.958Z",
+      "at": "2026-09-29T04:51:12.996Z",
       "error": "HTTP 403",
-      "fails": 234
+      "fails": 235
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T04:36:50.505Z",
+      "at": "2026-09-29T04:51:13.558Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T04:36:50.910Z",
+      "at": "2026-09-29T04:51:13.699Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T04:36:51.574Z",
-      "items": 5
+      "at": "2026-09-29T04:51:14.373Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T04:36:51.987Z",
+      "at": "2026-09-29T04:51:14.826Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T04:36:52.121Z",
+      "at": "2026-09-29T04:51:14.972Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T04:36:45.289Z",
+      "at": "2026-09-29T04:51:09.014Z",
       "items": 30
     }
   },
@@ -487,13 +489,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T04:36:53.050Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-09-29T04:51:15.652Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· naftemporiki | Ισπανία: Ο κοινωνικός σάλος στέλνει την 87χρονη Μαρικάρμεν Αμπασκάλ πίσω στο σπίτι της",
-      "✓ gct | Half the Cash Before You Relocate: €10,000 Regional Grant Grows",
-      "· gct | Stockholm Metropolis Thanks Outgoing Greek Ambassador"
+      "· ingr | Νέα Ιωνία: Τι εξετάζουν οι Αρχές για τη φωτιά στην καφετέρια – Εκτός κινδύνου το 10χρονο κ",
+      "· gct | Metis Loses Awaba Street Appeal, Pays $15,000 Costs"
     ]
   },
   "evergreenDone": [
