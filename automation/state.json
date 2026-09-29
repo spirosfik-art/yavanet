@@ -424,91 +424,92 @@
     "19ed14bab0b5": 1790719272786,
     "cea612439d6c": 1790719272786,
     "8d5bf32c9b92": 1790720624604,
-    "4a8b903b0aac": 1790721334659
+    "4a8b903b0aac": 1790721334659,
+    "f634a4e65c7c": 1790722870688
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T22:48:55.393Z",
+      "at": "2026-09-29T23:01:01.201Z",
       "error": "HTTP 403",
-      "fails": 303
+      "fails": 304
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T22:48:56.868Z",
+      "at": "2026-09-29T23:01:01.809Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T22:48:57.796Z",
+      "at": "2026-09-29T23:01:02.511Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T22:48:59.017Z",
+      "at": "2026-09-29T23:01:03.612Z",
       "error": "HTTP 403",
-      "fails": 303
+      "fails": 304
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T22:49:00.125Z",
+      "at": "2026-09-29T23:01:04.438Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T22:49:00.517Z",
+      "at": "2026-09-29T23:01:05.040Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T22:49:02.273Z",
+      "at": "2026-09-29T23:01:05.932Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T22:49:03.300Z",
+      "at": "2026-09-29T23:01:06.518Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T22:49:04.355Z",
+      "at": "2026-09-29T23:01:07.438Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T22:49:04.451Z",
+      "at": "2026-09-29T23:01:07.512Z",
       "error": "HTTP 403",
-      "fails": 303
+      "fails": 304
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T22:49:05.064Z",
+      "at": "2026-09-29T23:01:07.914Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T22:49:05.312Z",
+      "at": "2026-09-29T23:01:09.515Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T22:49:05.545Z",
+      "at": "2026-09-29T23:01:09.704Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T22:49:06.115Z",
+      "at": "2026-09-29T23:01:10.039Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T22:49:06.203Z",
+      "at": "2026-09-29T23:01:10.121Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T22:48:58.729Z",
+      "at": "2026-09-29T23:01:03.227Z",
       "items": 30
     }
   },
@@ -550,11 +551,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T22:35:34.659Z",
+    "at": "2026-09-29T23:01:10.688Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Westchester Mourns Bronx Lawyer Killed in Athens Blast"
+      "· gct | Iron Mike Zambidis Still in Floyd’s Plans"
     ]
   },
   "evergreenDone": [
