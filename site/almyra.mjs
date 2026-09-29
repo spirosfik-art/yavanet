@@ -43,7 +43,7 @@ const C = {
       ["deep", "ניקוי פנים עמוק", "60–90 דק׳"], ["diamond", "מיקרודרמבריישן יהלום", "30–45 דק׳"], ["green", "פילינג צמחי", "צמחים · אצות · אנזימים"], ["aha", "פילינג חומצות פירות (AHA)", "בעיקר בחורף"],
       ["chem", "פילינג כימי", "מרקם · גוון · זוהר"], ["microneedling", "מזותרפיה ללא מחטים · מיקרונידלינג", "45 דק׳"], ["acu2", "דיקור קוסמטי לפנים", "45–60 דק׳"], ["rejuvance", "Rejuvance: עיסוי פנים הוליסטי", "ידני לגמרי, בלי מכשירים"],
     ],
-    hours: "שני–שישי 10:00–20:00 · שבת 10:00–15:00 (שעון יוון)",
+    hours: 'שני–שישי <span dir="ltr">10:00–20:00</span> · שבת <span dir="ltr">10:00–15:00</span> (שעון יוון)',
     who: "כל הטיפולים ניתנים על ידי מדענית ביו־רפואית עם התמחות באסתטיקה וקוסמטולוגיה.",
     bodyT: "הריח של יוון, לגוף ולבית",
     bodyS: "סבונים מ-100% שמן זית, שמנים יבשים, בשמים טבעיים ונרות, בתווים של יסמין, סנדלווד, מסטיקה מתוקה ותאנה.",
@@ -167,7 +167,7 @@ export function almyraShowcase(a, lang) {
 <section class="alm-sec alm-treat">
   <h2>${esc(c.treatT)}</h2><p class="alm-sub">${esc(c.treatS)}</p>
   <div class="alm-tgrid">${c.treats.map(([im, t, d], i) => `<div class="alm-t${i === 7 ? " wide" : ""}">${img(im, t)}<div><b>${esc(t)}</b><span>${esc(d)}</span></div></div>`).join("")}</div>
-  <p class="alm-hours">🕙 ${esc(c.hours)}</p>
+  <p class="alm-hours">🕙 ${c.hours}</p>
   <p class="alm-who">👩‍🔬 ${esc(c.who)}</p>
   <div class="alm-ctas">${bookBtn("treat")}</div>
 </section>
