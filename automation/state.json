@@ -295,7 +295,8 @@
     "2557f9c1368c": 1790657475652,
     "61d647609cbb": 1790658102246,
     "8b4eebb5ed05": 1790659445365,
-    "231edee1e7fb": 1790659445365
+    "231edee1e7fb": 1790659445365,
+    "93851705c814": 1790660191075
   },
   "pending": {
     "62919b": {
@@ -383,85 +384,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T05:23:54.279Z",
+      "at": "2026-09-29T05:36:20.932Z",
       "error": "HTTP 403",
-      "fails": 237
+      "fails": 238
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T05:23:56.685Z",
+      "at": "2026-09-29T05:36:23.058Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T05:23:57.545Z",
+      "at": "2026-09-29T05:36:23.749Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T05:23:58.538Z",
+      "at": "2026-09-29T05:36:24.699Z",
       "error": "HTTP 403",
-      "fails": 237
+      "fails": 238
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T05:23:59.429Z",
+      "at": "2026-09-29T05:36:25.452Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T05:23:59.826Z",
+      "at": "2026-09-29T05:36:25.801Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T05:24:01.015Z",
+      "at": "2026-09-29T05:36:26.644Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T05:24:01.900Z",
+      "at": "2026-09-29T05:36:27.514Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T05:24:02.602Z",
+      "at": "2026-09-29T05:36:28.439Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T05:24:02.706Z",
+      "at": "2026-09-29T05:36:28.550Z",
       "error": "HTTP 403",
-      "fails": 237
+      "fails": 238
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T05:24:03.364Z",
+      "at": "2026-09-29T05:36:28.965Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T05:24:03.464Z",
+      "at": "2026-09-29T05:36:29.232Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T05:24:04.143Z",
+      "at": "2026-09-29T05:36:29.897Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T05:24:04.648Z",
-      "items": 2
+      "at": "2026-09-29T05:36:30.267Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T05:24:04.778Z",
+      "at": "2026-09-29T05:36:30.341Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T05:23:58.423Z",
+      "at": "2026-09-29T05:36:24.501Z",
       "items": 30
     }
   },
@@ -499,12 +500,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T05:24:05.365Z",
-    "considered": 2,
+    "at": "2026-09-29T05:36:31.075Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Fourth Rate Rise Pushes Typical Mortgage Up $480 a Month",
-      "· gct | Bouris Calls Chalmers’ Inflation Line “Greatest Lot of Crap”"
+      "· naftemporiki | Στη «Μεταλλευτική Θράκης» τα δικαιώματα έρευνας και εκμετάλλευσης στις Σάπες Έβρου"
     ]
   },
   "evergreenDone": [
