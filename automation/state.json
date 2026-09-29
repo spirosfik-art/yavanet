@@ -425,91 +425,93 @@
     "cea612439d6c": 1790719272786,
     "8d5bf32c9b92": 1790720624604,
     "4a8b903b0aac": 1790721334659,
-    "f634a4e65c7c": 1790722870688
+    "f634a4e65c7c": 1790722870688,
+    "a8a7a08bd0e2": 1790724104915,
+    "1eff35bdd4fc": 1790724104915
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T23:01:01.201Z",
+      "at": "2026-09-29T23:21:35.004Z",
       "error": "HTTP 403",
-      "fails": 304
+      "fails": 305
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T23:01:01.809Z",
-      "items": 0
+      "at": "2026-09-29T23:21:37.084Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T23:01:02.511Z",
+      "at": "2026-09-29T23:21:37.722Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T23:01:03.612Z",
+      "at": "2026-09-29T23:21:38.433Z",
       "error": "HTTP 403",
-      "fails": 304
+      "fails": 305
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T23:01:04.438Z",
+      "at": "2026-09-29T23:21:39.309Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T23:01:05.040Z",
+      "at": "2026-09-29T23:21:39.699Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T23:01:05.932Z",
+      "at": "2026-09-29T23:21:40.630Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T23:01:06.518Z",
-      "items": 2
+      "at": "2026-09-29T23:21:41.321Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T23:01:07.438Z",
+      "at": "2026-09-29T23:21:42.233Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T23:01:07.512Z",
+      "at": "2026-09-29T23:21:42.364Z",
       "error": "HTTP 403",
-      "fails": 304
+      "fails": 305
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T23:01:07.914Z",
+      "at": "2026-09-29T23:21:42.888Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T23:01:09.515Z",
+      "at": "2026-09-29T23:21:43.211Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T23:01:09.704Z",
-      "items": 3
+      "at": "2026-09-29T23:21:43.680Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T23:01:10.039Z",
+      "at": "2026-09-29T23:21:44.086Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T23:01:10.121Z",
+      "at": "2026-09-29T23:21:44.203Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T23:01:03.227Z",
+      "at": "2026-09-29T23:21:38.305Z",
       "items": 30
     }
   },
@@ -551,11 +553,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T23:01:10.688Z",
-    "considered": 1,
+    "at": "2026-09-29T23:21:44.915Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Iron Mike Zambidis Still in Floyd’s Plans"
+      "· ert | Η Σαουδική Αραβία διαψεύδει συνάντηση με Ισραηλινούς αξιωματούχους",
+      "· gct | 1,700-Year-Old Greek Poem Found in Egyptian Tomb"
     ]
   },
   "evergreenDone": [
