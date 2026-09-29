@@ -411,91 +411,95 @@
     "c5b317570ae6": 1790711428765,
     "70fe5ca26b87": 1790712192939,
     "f56d54116a53": 1790713529650,
-    "ce1b12793d54": 1790715733294
+    "ce1b12793d54": 1790715733294,
+    "79c14f879862": 1790717027074,
+    "fc32452b97f4": 1790717027074,
+    "9e91e04f6bcb": 1790717027074,
+    "d79365058499": 1790717027074
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T21:02:02.456Z",
+      "at": "2026-09-29T21:23:37.902Z",
       "error": "HTTP 403",
-      "fails": 296
+      "fails": 297
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T21:02:04.455Z",
-      "items": 10
+      "at": "2026-09-29T21:23:38.513Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T21:02:05.098Z",
+      "at": "2026-09-29T21:23:39.236Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T21:02:06.031Z",
+      "at": "2026-09-29T21:23:40.142Z",
       "error": "HTTP 403",
-      "fails": 296
+      "fails": 297
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T21:02:07.129Z",
+      "at": "2026-09-29T21:23:41.398Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T21:02:07.430Z",
+      "at": "2026-09-29T21:23:41.829Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T21:02:10.175Z",
+      "at": "2026-09-29T21:23:42.710Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T21:02:10.722Z",
+      "at": "2026-09-29T21:23:43.392Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T21:02:11.585Z",
+      "at": "2026-09-29T21:23:44.402Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T21:02:11.654Z",
+      "at": "2026-09-29T21:23:44.516Z",
       "error": "HTTP 403",
-      "fails": 296
+      "fails": 297
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T21:02:12.102Z",
+      "at": "2026-09-29T21:23:45.022Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T21:02:12.219Z",
+      "at": "2026-09-29T21:23:45.398Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T21:02:12.438Z",
+      "at": "2026-09-29T21:23:45.893Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:02:12.565Z",
+      "at": "2026-09-29T21:23:46.315Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T21:02:12.690Z",
+      "at": "2026-09-29T21:23:46.431Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:02:05.864Z",
+      "at": "2026-09-29T21:23:39.919Z",
       "items": 30
     }
   },
@@ -531,11 +535,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T21:02:13.294Z",
-    "considered": 1,
+    "at": "2026-09-29T21:23:47.074Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Shock Claim Over Fake Doctor and €6,000 Plasma Treatment"
+      "· gct | Karpathos Explores Direct Air Link with Switzerland",
+      "· gct | Greek Children Adopted in US After Cold War Gain Citizenship",
+      "· gct | Pontians Mourn Death of Folklorist Elsa Galanidou-Balfousia",
+      "· gct | Aris Launch EuroCup Campaign with Impressive Win in France"
     ]
   },
   "evergreenDone": [
