@@ -418,91 +418,93 @@
     "d79365058499": 1790717027074,
     "e1a27329c3b4": 1790717737852,
     "8abb4fda80f9": 1790717737852,
-    "289f3d866b03": 1790717737852
+    "289f3d866b03": 1790717737852,
+    "1ad0e9e81bfe": 1790718596423,
+    "6ef7189a6ab4": 1790718596423
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T21:35:28.276Z",
+      "at": "2026-09-29T21:49:46.647Z",
       "error": "HTTP 403",
-      "fails": 298
+      "fails": 299
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T21:35:30.094Z",
-      "items": 0
+      "at": "2026-09-29T21:49:48.760Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T21:35:30.718Z",
+      "at": "2026-09-29T21:49:49.483Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T21:35:31.600Z",
+      "at": "2026-09-29T21:49:50.579Z",
       "error": "HTTP 403",
-      "fails": 298
+      "fails": 299
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T21:35:32.356Z",
+      "at": "2026-09-29T21:49:51.420Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T21:35:32.670Z",
+      "at": "2026-09-29T21:49:51.730Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T21:35:33.566Z",
+      "at": "2026-09-29T21:49:52.713Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T21:35:34.299Z",
-      "items": 3
+      "at": "2026-09-29T21:49:53.473Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T21:35:34.735Z",
+      "at": "2026-09-29T21:49:53.976Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T21:35:34.792Z",
+      "at": "2026-09-29T21:49:54.112Z",
       "error": "HTTP 403",
-      "fails": 298
+      "fails": 299
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T21:35:35.255Z",
+      "at": "2026-09-29T21:49:54.627Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T21:35:35.351Z",
+      "at": "2026-09-29T21:49:54.922Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T21:35:36.490Z",
+      "at": "2026-09-29T21:49:55.431Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:35:36.639Z",
+      "at": "2026-09-29T21:49:55.793Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T21:35:36.759Z",
+      "at": "2026-09-29T21:49:55.862Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:35:31.425Z",
+      "at": "2026-09-29T21:49:50.258Z",
       "items": 30
     }
   },
@@ -544,13 +546,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T21:35:37.852Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-09-29T21:49:56.423Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "✓ gct | Mykonos Planning Office Shut Down After Anti-Corruption Raid",
-      "· gct | 8 Million-Year-Old Rhinoceros Fossil Discovered in Crete",
-      "· gct | Greece to Receive 48 Historic Relics Taken to Bulgaria in 1917"
+      "· gct | Six Inmates Hospitalised After Bloody Clash at Domokos Prison",
+      "· gct | Greece Leads EU in Energy and Environmental Tax Revenue"
     ]
   },
   "evergreenDone": [
