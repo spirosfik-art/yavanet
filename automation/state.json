@@ -387,98 +387,99 @@
     "f66987813ad8": 1790694306781,
     "41353186cdb2": 1790695643119,
     "d898fd134e7e": 1790695643119,
-    "82878895e43c": 1790695643119
+    "82878895e43c": 1790695643119,
+    "380e52dfb765": 1790696450503
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T15:27:13.710Z",
+      "at": "2026-09-29T15:40:39.755Z",
       "error": "HTTP 403",
-      "fails": 273
+      "fails": 274
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T15:27:14.514Z",
-      "items": 0
+      "at": "2026-09-29T15:40:42.069Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T15:27:15.478Z",
+      "at": "2026-09-29T15:40:42.861Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T15:27:16.165Z",
+      "at": "2026-09-29T15:40:44.017Z",
       "error": "HTTP 403",
-      "fails": 273
+      "fails": 274
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T15:27:17.382Z",
+      "at": "2026-09-29T15:40:44.913Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T15:27:17.848Z",
+      "at": "2026-09-29T15:40:45.110Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T15:27:18.906Z",
+      "at": "2026-09-29T15:40:46.267Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T15:27:19.710Z",
-      "items": 2
+      "at": "2026-09-29T15:40:47.102Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T15:27:20.892Z",
+      "at": "2026-09-29T15:40:47.535Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T15:27:20.939Z",
+      "at": "2026-09-29T15:40:47.639Z",
       "error": "HTTP 403",
-      "fails": 273
+      "fails": 274
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T15:27:21.503Z",
+      "at": "2026-09-29T15:40:48.161Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T15:27:21.618Z",
+      "at": "2026-09-29T15:40:48.603Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T15:27:22.034Z",
+      "at": "2026-09-29T15:40:48.996Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T15:27:22.259Z",
+      "at": "2026-09-29T15:40:49.259Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T15:27:22.316Z",
+      "at": "2026-09-29T15:40:49.372Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T15:27:15.944Z",
+      "at": "2026-09-29T15:40:43.730Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 12,
+    "count": 13,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -551,6 +552,12 @@
         "title": "Visiting Kahal Shalom Synagogue in Rhodes: A Guide",
         "at": "2026-09-29T17:39:30+03:00",
         "section": "jewish-greece"
+      },
+      {
+        "slug": "romaniote-jews-ancient-community-greece",
+        "title": "The Romaniote Jews: The Ancient Jewish Community of Greece",
+        "at": "2026-09-29T18:41:01+03:00",
+        "section": "jewish-greece"
       }
     ],
     "rejected": [
@@ -581,13 +588,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T15:27:23.120Z",
-    "considered": 3,
+    "at": "2026-09-29T15:40:50.503Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | Ιράν: Οι Φρουροί καλούν τους ψηφοφόρουν στις ΗΠΑ να απορρίψουν στις ενδιάμεσες εκλογές τις",
-      "· naftemporiki | Το Ισραήλ προειδοποιεί ότι τα στελέχη της Χαμάς θα χτυπηθούν όπου και αν βρίσκονται",
-      "· ingr | Αλέξης Τσίπρας στο Olympia Forum: Ο Μητσοτάκης έκανε τη χώρα τον καλύτερο πελάτη της Ευρ.Ε"
+      "· ert | Πυρκαγιά σε χαμηλή βλάστηση στη Σίνδο Θεσσαλονίκης"
     ]
   },
   "evergreenDone": [
@@ -605,8 +610,9 @@
     "paros",
     "thessaloniki",
     "etz-hayyim",
-    "kahal-shalom"
+    "kahal-shalom",
+    "romaniotes"
   ],
-  "lastEvergreen": 1790692762142,
+  "lastEvergreen": 1790696450508,
   "pushKey": "ok"
 }
