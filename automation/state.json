@@ -292,7 +292,8 @@
     "22ec6606ff3a": 1790656613050,
     "7d1a9671c3ae": 1790656613050,
     "4670b02314f6": 1790657475652,
-    "2557f9c1368c": 1790657475652
+    "2557f9c1368c": 1790657475652,
+    "61d647609cbb": 1790658102246
   },
   "pending": {
     "62919b": {
@@ -380,93 +381,100 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T04:51:07.101Z",
+      "at": "2026-09-29T05:01:33.689Z",
       "error": "HTTP 403",
-      "fails": 235
+      "fails": 236
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T04:51:07.771Z",
-      "items": 0
+      "at": "2026-09-29T05:01:35.737Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T04:51:08.517Z",
+      "at": "2026-09-29T05:01:36.322Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T04:51:09.149Z",
+      "at": "2026-09-29T05:01:37.107Z",
       "error": "HTTP 403",
-      "fails": 235
+      "fails": 236
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T04:51:10.101Z",
+      "at": "2026-09-29T05:01:37.747Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T04:51:10.482Z",
+      "at": "2026-09-29T05:01:38.072Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T04:51:11.615Z",
+      "at": "2026-09-29T05:01:38.975Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T04:51:12.372Z",
+      "at": "2026-09-29T05:01:39.622Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T04:51:12.848Z",
+      "at": "2026-09-29T05:01:40.356Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T04:51:12.996Z",
+      "at": "2026-09-29T05:01:40.466Z",
       "error": "HTTP 403",
-      "fails": 235
+      "fails": 236
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T04:51:13.558Z",
+      "at": "2026-09-29T05:01:40.907Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T04:51:13.699Z",
+      "at": "2026-09-29T05:01:41.029Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T04:51:14.373Z",
+      "at": "2026-09-29T05:01:41.299Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T04:51:14.826Z",
-      "items": 4
+      "at": "2026-09-29T05:01:41.421Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T04:51:14.972Z",
+      "at": "2026-09-29T05:01:41.540Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T04:51:09.014Z",
+      "at": "2026-09-29T05:01:36.832Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "complete-guide-to-kos-island",
+        "title": "Kos Guide: History, Beaches and Towns",
+        "at": "2026-09-29T08:01:52+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [],
     "errors": []
   },
@@ -489,12 +497,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T04:51:15.652Z",
-    "considered": 2,
+    "at": "2026-09-29T05:01:42.246Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Νέα Ιωνία: Τι εξετάζουν οι Αρχές για τη φωτιά στην καφετέρια – Εκτός κινδύνου το 10χρονο κ",
-      "· gct | Metis Loses Awaba Street Appeal, Pays $15,000 Costs"
+      "· gct | Giorgos Dalaras Turns 77: Voice of Modern Greek Song"
     ]
   },
   "evergreenDone": [
@@ -505,8 +512,9 @@
     "corfu",
     "santorini",
     "naxos",
-    "halkidiki"
+    "halkidiki",
+    "kos"
   ],
-  "lastEvergreen": 1790618141457,
+  "lastEvergreen": 1790658102252,
   "pushKey": "ok"
 }
