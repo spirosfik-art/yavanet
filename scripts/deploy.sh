@@ -34,3 +34,6 @@ if [ "${SYNC_SECRETS:-0}" = "1" ] && [ -n "${TELEGRAM_BOT_TOKEN:-}" ]; then
     curl -s "https://api.telegram.org/bot$BOT/deleteWebhook" | grep -o '"ok":[a-z]*' | sed 's/^/no webhook /'
   fi
 fi
+
+# IndexNow (Bing κ.ά.): ειδοποίηση για νέες σελίδες – ποτέ δεν σταματά το deploy
+node scripts/indexnow.mjs || true
