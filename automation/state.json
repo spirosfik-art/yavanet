@@ -336,91 +336,95 @@
     "451de23d29fc": 1790675600755,
     "10cad14ad503": 1790676151589,
     "f99a009a72a5": 1790676151589,
-    "028607b12393": 1790676151589
+    "028607b12393": 1790676151589,
+    "cde67df3f4a8": 1790677566893,
+    "7ec0fdce4d72": 1790677566893,
+    "9fb6cedef502": 1790677566893,
+    "f5bd6cd0b05e": 1790677566893
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T10:02:17.778Z",
+      "at": "2026-09-29T10:25:57.516Z",
       "error": "HTTP 403",
-      "fails": 254
+      "fails": 255
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T10:02:20.669Z",
-      "items": 10
+      "at": "2026-09-29T10:25:58.159Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T10:02:21.267Z",
+      "at": "2026-09-29T10:25:58.918Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T10:02:22.705Z",
+      "at": "2026-09-29T10:25:59.878Z",
       "error": "HTTP 403",
-      "fails": 254
+      "fails": 255
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T10:02:23.302Z",
+      "at": "2026-09-29T10:26:00.669Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T10:02:23.753Z",
+      "at": "2026-09-29T10:26:01.073Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T10:02:25.114Z",
+      "at": "2026-09-29T10:26:02.165Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T10:02:26.457Z",
+      "at": "2026-09-29T10:26:03.023Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T10:02:27.385Z",
+      "at": "2026-09-29T10:26:03.950Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T10:02:27.522Z",
+      "at": "2026-09-29T10:26:04.049Z",
       "error": "HTTP 403",
-      "fails": 254
+      "fails": 255
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T10:02:27.993Z",
+      "at": "2026-09-29T10:26:04.589Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T10:02:28.315Z",
+      "at": "2026-09-29T10:26:04.981Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T10:02:28.970Z",
-      "items": 4
+      "at": "2026-09-29T10:26:05.198Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:02:29.117Z",
+      "at": "2026-09-29T10:26:05.581Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T10:02:29.186Z",
+      "at": "2026-09-29T10:26:05.717Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:02:21.804Z",
+      "at": "2026-09-29T10:25:59.654Z",
       "items": 30
     }
   },
@@ -494,13 +498,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T10:02:31.589Z",
-    "considered": 3,
+    "at": "2026-09-29T10:26:06.893Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Mazonakis death investigation: Prosecutor seeks phone data from six mobile phones",
-      "· gct | “The time has come”: Mareva Grabowski-Mitsotakis on Reuniting the Parthenon Sculptures",
-      "· naftemporiki | ΕΟΤ: Προβολή της Καστοριάς στη σλοβενική τουριστική αγορά"
+      "· gct | Stefanos Tsitsipas storms into Tokyo Open main draw after straight sets win",
+      "· ert | Νέα Ιωνία: Εκτός σπιτιών οι ένοικοι μετά τη φωτιά σε καφετέρια – Μεγάλες ζημιές στην πολυκ",
+      "· gct | Bulgaria announces ‘historic’ deal to return Tsar Samuel’s remains from Greece",
+      "· ingr | Νότια Κορέα: Καταγγέλλει «παραβίαση της ανακωχής» από τη Βόρεια Κορέα"
     ]
   },
   "evergreenDone": [
