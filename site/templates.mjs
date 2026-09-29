@@ -1,6 +1,11 @@
 import { SITE, SECTIONS, T, LEGAL_PAGES } from "./config.mjs";
 import { esc, md, plain } from "./md.mjs";
 import { art, SECTION_ART } from "./art.mjs";
+import { readFileSync as _rf } from "node:fs";
+import { createHash as _ch } from "node:crypto";
+// Εκδόσεις αρχείων (cache busting): αλλάζουν μόνο όταν αλλάζει το περιεχόμενο
+const _h = (f) => { try { return _ch("sha1").update(_rf(new URL("./assets/" + f, import.meta.url))).digest("hex").slice(0, 8); } catch { return "1"; } };
+const AV = { css: _h("styles.css"), js: _h("app.js") };
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
 export const abs = (p) => SITE.url.replace(/\/$/, "") + p;
@@ -177,7 +182,7 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700;800&display=swap">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=${AV.css}">
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
@@ -244,7 +249,7 @@ ${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}"
   </div>
 </div>
 <div class="toast" id="toast" hidden role="status"></div>
-<script src="/app.js" defer></script>
+<script src="/app.js?v=${AV.js}" defer></script>
 </body>
 </html>`;
 }
@@ -262,7 +267,7 @@ export function card(a, lang) {
 
 export function adBox(lang) {
   const t = T[lang];
-  return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><img src="/sf-logo-light.png" width="900" height="142" alt="${esc(SITE.ad.brand)}" loading="lazy"><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span><div class="adrow"><a href="${P(lang, "/advisor/")}">${esc(t.adCta)}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
+  return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><img src="/sf-logo-light.png" width="900" height="142" alt="${esc(SITE.ad.brand)}" loading="lazy"><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span><div class="adrow"><a href="https://sfproperties.gr/en/?utm_source=yavanet&amp;utm_medium=ad_box&amp;utm_campaign=sf-ad" target="_blank" rel="noopener sponsored" data-ad="sf">${esc(t.adCta)} ↗</a><a class="admore" href="${P(lang, "/a/sf-properties-athens-real-estate/")}">${lang === "he" ? "להכיר אותנו" : "Meet us"}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
 }
 
 export function newsletterBox(lang, opt = {}) {
@@ -350,7 +355,7 @@ export function partners(lang) {
   const he = lang === "he";
   return `<div class="partners" aria-label="${he ? "שותפים" : "Partners"}">
   <span class="plbl">${he ? "שותפים" : "Partners"}</span>
-  <a class="pcard p-sf" href="${P(lang, "/advisor/")}"><span class="pk">${he ? "נדל״ן ביוון" : "Property in Greece"}</span><b>${he ? "קונים דירה ביוון? מלווים אתכם בעברית" : "Buying in Greece? Guidance in Hebrew"}</b><small>${he ? "חיפוש, עורך דין, נוטריון, השכרה וניהול" : "Search, lawyer, notary, rental & management"}</small><img src="/sf-logo-light.png" width="900" height="142" alt="S.F. Properties" loading="lazy"><span class="pgo">${he ? "לשיחה עם יועץ ←" : "Talk to an adviser →"}</span></a>
+  <a class="pcard p-sf" href="${P(lang, "/a/sf-properties-athens-real-estate/")}"><span class="pk">${he ? "נדל״ן ביוון" : "Property in Greece"}</span><b>${he ? "קונים דירה ביוון? מלווים אתכם בעברית" : "Buying in Greece? Guidance in Hebrew"}</b><small>${he ? "חיפוש, עורך דין, נוטריון, השכרה וניהול" : "Search, lawyer, notary, rental & management"}</small><img src="/sf-logo-light.png" width="900" height="142" alt="S.F. Properties" loading="lazy"><span class="pgo">${he ? "לשיחה עם יועץ ←" : "Talk to an adviser →"}</span></a>
   <a class="pcard p-yana" href="${P(lang, "/a/athens-with-yana-hebrew-tours-athens/")}"><span class="pk">${he ? "טיולים באתונה" : "Athens tours"}</span><b>${he ? "מטיילים באתונה עם יאנה" : "Athens with Yana"}</b><small>${he ? "טיולי יום, טברנות, יאכטה, אוכל כשר והסעות. הכול בעברית." : "Day tours, tavernas, yacht, kosher food and transfers, in Hebrew."}</small><span class="pgo">${he ? "לפרטים והזמנה ←" : "Details & booking →"}</span></a>
   <a class="pcard p-you" href="mailto:${SITE.ad.email}?subject=${encodeURIComponent(he ? "פרסום ביוונט" : "Advertising on Yavanet")}"><b>${he ? "העסק שלכם כאן?" : "Your business here?"}</b><small>${he ? "הגיעו לישראלים שמתכננים טיול, מעבר או השקעה ביוון." : "Reach Israelis planning a trip, move or investment in Greece."}</small><span class="pgo">${he ? "פרסמו ביוונט ←" : "Advertise on Yavanet →"}</span></a>
 </div>`;

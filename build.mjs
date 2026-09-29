@@ -6,6 +6,7 @@ import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox,
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
+import { sfShowcase } from "./site/sf.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
@@ -163,7 +164,7 @@ ${newsletterBox(lang)}
   articles.forEach((a, i) => {
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = articles.filter((x) => x !== a && x.section === a.section).slice(0, 3);
-    const body = a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+    const body = a.showcase === "sf" ? sfShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.section === "real-estate" ? adBox(lang) : ""}
 ${related.length ? `<section><div class="zone-h"><h2>${esc(t.related)}</h2></div><div class="cards">${related.map((x) => card(x, lang)).join("")}</div></section>` : ""}
 ${newsletterBox(lang)}

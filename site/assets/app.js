@@ -130,6 +130,7 @@
     if (el.closest(".lang")) track("language_switch", { to: el.getAttribute("hreflang") });
     if (el.closest(".fl")) track("flight_click", { destination: (el.querySelector(".fl-d b") || {}).textContent || "" });
     if (el.closest(".fteaser")) track("flight_teaser_click");
+    if (el.closest("[data-ad]")) track("ad_click", { ad: el.getAttribute("data-ad") });
     if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
     var href = el.getAttribute("href") || "";
     if (href.indexOf("tel:") === 0) track("phone_click");
@@ -414,6 +415,32 @@
     var tmr; q.addEventListener("input", function () { clearTimeout(tmr); tmr = setTimeout(function () { render(q.value); }, 120); });
     out.addEventListener("click", function (e) { var b = e.target.closest("[data-sug]"); if (b) { q.value = b.getAttribute("data-sug"); render(q.value); q.focus(); } });
     q.addEventListener("keydown", function (e) { if (e.key === "Enter") { var f = out.querySelector(".sr"); if (f) location.href = f.href; } });
+  })();
+
+
+  /* ---------- S.F. Properties showcase ---------- */
+  (function () {
+    var root = document.querySelector(".sfx"); if (!root) return;
+    var rw = root.querySelector(".sfx-rotw");
+    if (rw) { var words = []; try { words = JSON.parse(rw.getAttribute("data-words")); } catch (e) { }
+      var wi = 0; if (words.length > 1 && !matchMedia("(prefers-reduced-motion: reduce)").matches) setInterval(function () { rw.classList.add("out"); setTimeout(function () { wi = (wi + 1) % words.length; rw.textContent = words[wi]; rw.classList.remove("out"); }, 350); }, 2300); }
+    var nums = root.querySelectorAll(".sfx-num");
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (!e.isIntersecting) return; io.unobserve(e.target);
+        var el = e.target, to = parseFloat(el.getAttribute("data-n")), dec = (el.getAttribute("data-n").split(".")[1] || "").length, t0 = null;
+        function step(ts) { if (!t0) t0 = ts; var k = Math.min(1, (ts - t0) / 1400), v = to * (1 - Math.pow(1 - k, 3)); el.textContent = v.toFixed(dec); if (k < 1) requestAnimationFrame(step); }
+        requestAnimationFrame(step); setTimeout(function () { el.textContent = to.toFixed(dec); }, 1700); }); }, { threshold: .3 });
+      nums.forEach(function (n) { n.textContent = "0"; io.observe(n); });
+    }
+    var door = root.querySelector(".sfx-door");
+    if (door) door.addEventListener("click", function () { door.classList.toggle("shut"); track("sf_click", { target: "door" }); });
+    root.querySelectorAll(".sfx-flip").forEach(function (f) { f.addEventListener("click", function (ev) { if (ev.target.closest("a")) return; f.classList.toggle("on"); }); });
+    root.querySelectorAll(".sfx-tabs input").forEach(function (r) { r.addEventListener("change", function () { track("sf_pick", { option: r.value }); }); });
+    root.addEventListener("click", function (ev) { var a = ev.target.closest("[data-sf]"); if (a) track("sf_click", { target: a.getAttribute("data-sf") }); });
+    var sticky = root.querySelector(".sfx-sticky"), hero = root.querySelector(".sfx-hero"), end = root.querySelector(".sfx-end");
+    if (sticky && hero && "IntersectionObserver" in window) { var vis = { h: true, e: false };
+      var so = new IntersectionObserver(function (es) { es.forEach(function (e) { vis[e.target === hero ? "h" : "e"] = e.isIntersecting; }); sticky.classList.toggle("show", !vis.h && !vis.e); });
+      so.observe(hero); if (end) so.observe(end); }
   })();
 
   /* ---------- PWA ---------- */
