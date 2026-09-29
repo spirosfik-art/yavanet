@@ -45,7 +45,7 @@ async function traffic() {
   for (const x of a.refs || []) { const k = host(x.dimensions.refererHost); refs[k] = (refs[k] || 0) + x.sum.visits; }
   return {
     now: tot(a.now), before: tot(a.before),
-    countries: (a.countries || []).map((x) => `${x.dimensions.countryName || "–"} ${x.sum.visits}`),
+    countries: (a.countries || []).map((x) => { const c = x.dimensions.countryName || ""; const fl = /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(...[...c].map((ch) => 0x1f1a5 + ch.charCodeAt(0))) : ""; return `${fl}${c || "–"} ${x.sum.visits}`; }),
     pages: (a.pages || []).map((x) => `• ${dec(x.dimensions.requestPath).slice(0, 70)} (${x.count})`),
     refs: Object.entries(refs).sort((x, y) => y[1] - x[1]).map(([k, v]) => `${k} ${v}`),
   };
