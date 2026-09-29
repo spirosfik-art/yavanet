@@ -744,11 +744,11 @@ article.full .fteaser{margin:22px 0}
 .sfx-blob.b1{width:260px;height:260px;background:#2A8BC4;inset-block-start:-80px;inset-inline-start:30%}
 .sfx-blob.b2{width:200px;height:200px;background:var(--sf-terra);inset-block-end:-70px;inset-inline-end:10%;animation-delay:-5s}
 @keyframes sfxFloat{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(30px,20px) scale(1.12)}}
-.sfx-copy{position:relative;z-index:1}
+.sfx-copy{position:relative;z-index:2}
 .sfx-eye{display:inline-flex;align-items:center;gap:12px;flex-wrap:wrap;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:8px 14px;border-radius:999px;backdrop-filter:blur(6px)}
 .sfx-eye img{height:20px;width:auto}
 .sfx-eye em{font-style:normal;font-weight:800;font-size:13px;color:var(--sf-gold);letter-spacing:.03em}
-.sfx-hero h1{font-family:var(--display);font-size:clamp(36px,6.2vw,64px);line-height:1.04;margin:18px 0 10px;color:#fff}
+.sfx-hero h1{font-family:var(--display);font-size:clamp(34px,5.2vw,56px);line-height:1.04;margin:18px 0 10px;color:#fff}
 .sfx-hl{background:linear-gradient(90deg,var(--sf-gold),#FFD98E,var(--sf-terra),var(--sf-gold));background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sfxShine 6s linear infinite}
 @keyframes sfxShine{to{background-position:300% 0}}
 .sfx-rot{font-size:clamp(20px,3vw,26px);font-weight:700;margin:0 0 12px;color:#D8E6F1}
@@ -771,8 +771,8 @@ article.full .fteaser{margin:22px 0}
 .sfx-frame,.sfx-leaf{position:absolute;inset:0;border-radius:170px 170px 14px 14px;overflow:hidden}
 .sfx-frame{border:10px solid #F4EBDD;box-shadow:0 40px 70px -30px rgba(0,0,0,.8),inset 0 0 0 2px rgba(0,0,0,.08)}
 .sfx-frame img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.08);transition:transform 1.2s}
-.sfx-leaf{inset:10px;border-radius:160px 160px 6px 6px;background:linear-gradient(90deg,#1A5288,var(--sf-door) 40%,#2B72B3);transform-origin:left center;animation:sfxOpen 1.6s cubic-bezier(.6,.05,.3,1) .7s forwards;box-shadow:inset 0 0 0 6px rgba(255,255,255,.06)}
-[dir=rtl] .sfx-leaf{transform-origin:right center;animation-name:sfxOpenR}
+.sfx-leaf{inset:10px;border-radius:160px 160px 6px 6px;background:linear-gradient(90deg,#1A5288,var(--sf-door) 40%,#2B72B3);transform-origin:right center;animation:sfxOpenR 1.6s cubic-bezier(.6,.05,.3,1) .7s forwards;box-shadow:inset 0 0 0 6px rgba(255,255,255,.06)}
+[dir=rtl] .sfx-leaf{transform-origin:left center;animation-name:sfxOpen}
 .sfx-leaf .p1,.sfx-leaf .p2{position:absolute;inset-inline:18%;border:3px solid rgba(255,255,255,.18);border-radius:10px}
 .sfx-leaf .p1{inset-block:14% 52%;border-radius:120px 120px 10px 10px}
 .sfx-leaf .p2{inset-block:54% 8%}
@@ -891,4 +891,4 @@ article.full .fteaser{margin:22px 0}
   .sfx-tag.t1{inset-inline-start:-8%}.sfx-tag.t2{inset-inline-end:-6%}
 }
 @media (prefers-color-scheme:dark){.sfx-panel,.sfx-why{background:linear-gradient(135deg,#2A2112,#1D1810);border-color:#4A3A1E;color:var(--ink)}.sfx-why span{background:#2A2112;border-color:#4A3A1E}.sfx-btn.ink{background:var(--sf-gold);color:#241500}}
-@media (prefers-reduced-motion:reduce){.sfx *{animation:none!important;transition:none!important}.sfx-leaf{transform:rotateY(-108deg)}[dir=rtl] .sfx-leaf{transform:rotateY(108deg)}}
+@media (prefers-reduced-motion:reduce){.sfx *{animation:none!important;transition:none!important}.sfx-leaf{transform:rotateY(108deg)}[dir=rtl] .sfx-leaf{transform:rotateY(-108deg)}}
