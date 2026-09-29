@@ -293,7 +293,9 @@
     "7d1a9671c3ae": 1790656613050,
     "4670b02314f6": 1790657475652,
     "2557f9c1368c": 1790657475652,
-    "61d647609cbb": 1790658102246
+    "61d647609cbb": 1790658102246,
+    "8b4eebb5ed05": 1790659445365,
+    "231edee1e7fb": 1790659445365
   },
   "pending": {
     "62919b": {
@@ -381,85 +383,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T05:01:33.689Z",
+      "at": "2026-09-29T05:23:54.279Z",
       "error": "HTTP 403",
-      "fails": 236
+      "fails": 237
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T05:01:35.737Z",
+      "at": "2026-09-29T05:23:56.685Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T05:01:36.322Z",
+      "at": "2026-09-29T05:23:57.545Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T05:01:37.107Z",
+      "at": "2026-09-29T05:23:58.538Z",
       "error": "HTTP 403",
-      "fails": 236
+      "fails": 237
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T05:01:37.747Z",
+      "at": "2026-09-29T05:23:59.429Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T05:01:38.072Z",
+      "at": "2026-09-29T05:23:59.826Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T05:01:38.975Z",
+      "at": "2026-09-29T05:24:01.015Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T05:01:39.622Z",
+      "at": "2026-09-29T05:24:01.900Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T05:01:40.356Z",
+      "at": "2026-09-29T05:24:02.602Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T05:01:40.466Z",
+      "at": "2026-09-29T05:24:02.706Z",
       "error": "HTTP 403",
-      "fails": 236
+      "fails": 237
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T05:01:40.907Z",
+      "at": "2026-09-29T05:24:03.364Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T05:01:41.029Z",
+      "at": "2026-09-29T05:24:03.464Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T05:01:41.299Z",
-      "items": 6
+      "at": "2026-09-29T05:24:04.143Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T05:01:41.421Z",
+      "at": "2026-09-29T05:24:04.648Z",
       "items": 2
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T05:01:41.540Z",
+      "at": "2026-09-29T05:24:04.778Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T05:01:36.832Z",
+      "at": "2026-09-29T05:23:58.423Z",
       "items": 30
     }
   },
@@ -497,11 +499,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T05:01:42.246Z",
-    "considered": 1,
+    "at": "2026-09-29T05:24:05.365Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Giorgos Dalaras Turns 77: Voice of Modern Greek Song"
+      "· gct | Fourth Rate Rise Pushes Typical Mortgage Up $480 a Month",
+      "· gct | Bouris Calls Chalmers’ Inflation Line “Greatest Lot of Crap”"
     ]
   },
   "evergreenDone": [
