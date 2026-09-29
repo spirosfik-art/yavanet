@@ -324,91 +324,95 @@
     "bf2772e1a7ca": 1790671197256,
     "246670003a7e": 1790671953452,
     "5d0169ba0b4c": 1790671953452,
-    "82a2d3d05d64": 1790671953452
+    "82a2d3d05d64": 1790671953452,
+    "ae334bf3e668": 1790672571646,
+    "c370a0c45dd2": 1790672571646,
+    "cc374088c561": 1790672571646,
+    "3ce33db2b34b": 1790672571646
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T08:52:24.107Z",
+      "at": "2026-09-29T09:02:42.620Z",
       "error": "HTTP 403",
-      "fails": 249
+      "fails": 250
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T08:52:24.734Z",
+      "at": "2026-09-29T09:02:43.375Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T08:52:25.452Z",
+      "at": "2026-09-29T09:02:44.255Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T08:52:26.355Z",
+      "at": "2026-09-29T09:02:45.314Z",
       "error": "HTTP 403",
-      "fails": 249
+      "fails": 250
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T08:52:27.350Z",
+      "at": "2026-09-29T09:02:46.071Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T08:52:27.864Z",
+      "at": "2026-09-29T09:02:46.430Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T08:52:28.846Z",
+      "at": "2026-09-29T09:02:47.620Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T08:52:29.593Z",
-      "items": 4
+      "at": "2026-09-29T09:02:48.358Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T08:52:30.067Z",
+      "at": "2026-09-29T09:02:49.246Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T08:52:30.201Z",
+      "at": "2026-09-29T09:02:49.355Z",
       "error": "HTTP 403",
-      "fails": 249
+      "fails": 250
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T08:52:30.864Z",
+      "at": "2026-09-29T09:02:49.899Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T08:52:31.153Z",
+      "at": "2026-09-29T09:02:50.116Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T08:52:31.705Z",
+      "at": "2026-09-29T09:02:50.365Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:52:32.001Z",
-      "items": 3
+      "at": "2026-09-29T09:02:50.824Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T08:52:32.151Z",
+      "at": "2026-09-29T09:02:50.896Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:52:26.260Z",
+      "at": "2026-09-29T09:02:45.017Z",
       "items": 30
     }
   },
@@ -476,13 +480,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T08:52:33.452Z",
-    "considered": 3,
+    "at": "2026-09-29T09:02:51.646Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Mitsotakis in Aspropyrgos: PM takes government message directly to western Attica",
-      "· gct | Margaret Alexiou, influential Harvard scholar of Modern Greek, dies aged 87",
-      "· ert | Βρετανία: 17 συλλήψεις στο πλαίσιο έρευνας για ύποπτη ομάδα οργανωμένου εγκλήματος"
+      "· gct | Seychelles Beach in Ikaria: How to reach one of Greece’s most striking beaches",
+      "· ert | Πυρκαγιά στο Μάτι: Απορρίφθηκαν τα ελαφρυντικά για τους τρεις καταδικασθέντες – Υιοθετήθηκ",
+      "· naftemporiki | Νέα επίθεση σε πλοίο στα Στενά του Ορμούζ – Πυρκαγιά εν πλω",
+      "· ert | Σκιάθος: Πρόταση για δίκτυο πολιτιστικών προορισμών και διεκδίκηση ευρωπαϊκών πόρων"
     ]
   },
   "evergreenDone": [
