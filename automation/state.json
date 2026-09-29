@@ -415,91 +415,94 @@
     "79c14f879862": 1790717027074,
     "fc32452b97f4": 1790717027074,
     "9e91e04f6bcb": 1790717027074,
-    "d79365058499": 1790717027074
+    "d79365058499": 1790717027074,
+    "e1a27329c3b4": 1790717737852,
+    "8abb4fda80f9": 1790717737852,
+    "289f3d866b03": 1790717737852
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T21:23:37.902Z",
+      "at": "2026-09-29T21:35:28.276Z",
       "error": "HTTP 403",
-      "fails": 297
+      "fails": 298
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T21:23:38.513Z",
+      "at": "2026-09-29T21:35:30.094Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T21:23:39.236Z",
+      "at": "2026-09-29T21:35:30.718Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T21:23:40.142Z",
+      "at": "2026-09-29T21:35:31.600Z",
       "error": "HTTP 403",
-      "fails": 297
+      "fails": 298
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T21:23:41.398Z",
+      "at": "2026-09-29T21:35:32.356Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T21:23:41.829Z",
+      "at": "2026-09-29T21:35:32.670Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T21:23:42.710Z",
+      "at": "2026-09-29T21:35:33.566Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T21:23:43.392Z",
+      "at": "2026-09-29T21:35:34.299Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T21:23:44.402Z",
+      "at": "2026-09-29T21:35:34.735Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T21:23:44.516Z",
+      "at": "2026-09-29T21:35:34.792Z",
       "error": "HTTP 403",
-      "fails": 297
+      "fails": 298
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T21:23:45.022Z",
+      "at": "2026-09-29T21:35:35.255Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T21:23:45.398Z",
+      "at": "2026-09-29T21:35:35.351Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T21:23:45.893Z",
+      "at": "2026-09-29T21:35:36.490Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:23:46.315Z",
+      "at": "2026-09-29T21:35:36.639Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T21:23:46.431Z",
+      "at": "2026-09-29T21:35:36.759Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T21:23:39.919Z",
+      "at": "2026-09-29T21:35:31.425Z",
       "items": 30
     }
   },
@@ -508,7 +511,13 @@
     "date": "2026-09-30",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Mykonos Planning Office Shut Down After Anti-Corruption Raid",
+        "reason": "Ίδιο θέμα με «Mykonos Season Ends With Discounts and Increased State Scrutiny» – δεν γράφτηκε ξανά",
+        "at": "2026-09-29T21:35:41.955Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -535,14 +544,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T21:23:47.074Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-09-29T21:35:37.852Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Karpathos Explores Direct Air Link with Switzerland",
-      "· gct | Greek Children Adopted in US After Cold War Gain Citizenship",
-      "· gct | Pontians Mourn Death of Folklorist Elsa Galanidou-Balfousia",
-      "· gct | Aris Launch EuroCup Campaign with Impressive Win in France"
+      "✓ gct | Mykonos Planning Office Shut Down After Anti-Corruption Raid",
+      "· gct | 8 Million-Year-Old Rhinoceros Fossil Discovered in Crete",
+      "· gct | Greece to Receive 48 Historic Relics Taken to Bulgaria in 1917"
     ]
   },
   "evergreenDone": [
