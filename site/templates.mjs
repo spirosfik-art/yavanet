@@ -93,6 +93,13 @@ const SEO = {
     "/directory/": ["יוון בעברית: עסקים ושירותים דוברי עברית ביוון", "עסקים ושירותים בעברית ביוון: ליווי נדל״ן, טיולים באתונה, חב״ד, אוכל כשר, בתי כנסת ועוד."],
     "/tools/": ["מחשבון עלויות קניית דירה ביוון ותשואה משכירות", "חשבו כמה עולה לקנות דירה ביוון (מס רכישה, נוטריון, עורך דין, רישום) ומה התשואה משכירות, בעברית."],
     "/guides/": ["מדריכים לישראלים ביוון: נדל״ן, רילוקיישן וטיולים", "מדריכים מלאים בעברית: קניית דירה ביוון, ויזת זהב, מספר מס וחשבון בנק, מעבר ליוון עם המשפחה, רודוס, כרתים ואתונה."],
+    "/s/israelis/": ["ישראלים ביוון: חדשות, ביטחון ואזהרות מסע", "כל החדשות על ישראלים ביוון: ביטחון, אזהרות מסע של המל״ל, יחסי יוון–ישראל ואירועים שחשוב לדעת עליהם, בעברית."],
+    "/s/real-estate/": ["נדל״ן ביוון: חדשות, מיסים וגולדן ויזה", "חדשות נדל״ן ביוון בעברית: מחירי דירות, מיסים, גולדן ויזה, חוקי Airbnb והחלטות ממשלה שמשפיעות על משקיעים ישראלים."],
+    "/s/breaking/": ["מבזקים מיוון: שביתות, שריפות ומזג אוויר", "מבזקים מיוון בעברית: שביתות בטיסות ובמעבורות, שריפות, רעידות אדמה ואזהרות מזג אוויר – מה קורה עכשיו ומה לעשות."],
+    "/s/politics/": ["חדשות יוון בעברית: פוליטיקה וכלכלה", "חדשות פוליטיקה וכלכלה ביוון בעברית: החלטות ממשלה, מחירים ויוקר המחיה – ומה זה אומר לישראלים ביוון."],
+    "/s/travel/": ["חופשה ביוון: חדשות לתיירים, טיסות ואיים", "חדשות לתיירים ישראלים ביוון: טיסות ליוון, שביתות, מעבורות לאיים, מחירים וטיפים לחופשה ביוון."],
+    "/s/living/": ["לגור ביוון: חדשות לישראלים שחיים ביוון", "חדשות לישראלים שגרים ביוון: בירוקרטיה, מספר מס, בנקים, בתי ספר, בריאות ועבודה – בעברית."],
+    "/s/jewish-greece/": ["יוון היהודית: חב״ד, בתי כנסת ואוכל כשר ביוון", "הקהילה היהודית ביוון: בתי כנסת באתונה, סלוניקי, רודוס וכרתים, חב״ד, אוכל כשר ושבת ביוון."],
   },
   en: {
     "/": ["Yavanet: Greece news for Israelis, property and travel", "Greece news for Israelis: buying property in Greece, Athens prices, Golden Visa, strikes and flights, and guides to Rhodes, Crete and Athens."],
@@ -105,11 +112,18 @@ const SEO = {
     "/cost-of-living/": ["Cost of living in Greece: Athens vs Tel Aviv (2026)", "Rent, groceries, coffee and transport in Athens compared with Tel Aviv, in euros and shekels."],
     "/strikes/": ["Strikes in Greece: flights, ferries and metro updates", "All upcoming strikes in Greece affecting flights, ferries, metro and buses, with dates and what they mean for travellers."],
     "/emergency/": ["Emergency in Greece: phone numbers and the Israeli embassy", "Emergency numbers in Greece, the Israeli embassy in Athens, and what to do if you lose a passport or need a doctor."],
+    "/s/israelis/": ["Israelis in Greece: news, safety and travel warnings", "News about Israelis in Greece: safety, travel warnings, Greece–Israel relations and events worth knowing."],
+    "/s/real-estate/": ["Greece property news: taxes, Golden Visa, Airbnb", "Greek real-estate news: prices, taxes, Golden Visa, Airbnb rules and government decisions that affect foreign investors."],
+    "/s/breaking/": ["Greece breaking news: strikes, fires and weather", "Breaking news from Greece: flight and ferry strikes, wildfires, earthquakes and weather warnings, and what to do."],
+    "/s/politics/": ["Greece politics and economy news in English", "Greek politics and economy news: government decisions, prices and cost of living, and what they mean for visitors and residents."],
+    "/s/travel/": ["Greece travel news: flights, ferries and islands", "Travel news for Greece: flights, strikes, ferries to the islands, prices and holiday tips."],
+    "/s/living/": ["Living in Greece: news for expats from Israel", "News for Israelis living in Greece: bureaucracy, tax number, banks, schools, healthcare and work."],
+    "/s/jewish-greece/": ["Jewish Greece: Chabad, synagogues and kosher food", "The Jewish community in Greece: synagogues in Athens, Thessaloniki, Rhodes and Crete, Chabad, kosher food and Shabbat."],
   },
 };
 export function seoFor(lang, path) { const k = lang === "en" ? path.replace(/^\/en/, "") || "/" : path; return (SEO[lang] || {})[k] || null; }
 
-export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null }) {
+export function layout({ lang, title, description, path, altPath, body, jsonld = [], head = "", activeSection = null, activeNav = "home", breaking = null, ogType = "website", noindex = false, image = null, seoTitle = null }) {
   const t = T[lang];
   const NAME = lang === "he" ? SITE.nameHe : SITE.name;
   const other = lang === "he" ? "en" : "he";
@@ -117,7 +131,7 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const enUrl = lang === "en" ? path : altPath;
   const sx = seoFor(lang, path);
   if (sx) description = sx[1];
-  const fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
+  const fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : seoTitle ? `${seoTitle} | ${NAME}` : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";

@@ -23,6 +23,18 @@ export const AUDIENCE = `Audience: Israelis connected to Greece. Four reader typ
 - RESIDENTS (Israelis living in Greece): bureaucracy (AFM tax number, AMKA, bank accounts, residence permits), schools, healthcare, jobs, Jewish community events.
 Every article must answer "why does this matter to an Israeli?". Generic Greek news with no angle for these readers is NOT for us.`;
 
+// Κανόνες SEO: οι τίτλοι για τη Google γράφονται με τις λέξεις που πραγματικά ψάχνουν οι Ισραηλινοί.
+export const SEO_RULES = `SEARCH (SEO) RULES – Israelis find us on Google by searching in Hebrew:
+- Every Hebrew seoTitle MUST contain the word "יוון" (or "ביוון"/"ליוון") OR a well-known Greek destination in Hebrew (אתונה, סלוניקי, כרתים, רודוס, קורפו, סנטוריני, מיקונוס, פרוס, נקסוס, זקינתוס, חלקידיקי, פירֵאוס...), ideally both.
+- Use the plain words Israelis type, near the start: "שביתה ביוון", "שביתה בנמל פיראוס", "שביתת מעבורות", "טיסות ליוון", "טיסות לאתונה", "מזג אוויר ביוון", "שריפה ביוון", "רעידת אדמה ביוון", "נדל"ן ביוון", "דירה באתונה", "השקעה בנדל"ן ביוון", "גולדן ויזה יוון", "Airbnb ביוון", "מיסים ביוון", "לגור ביוון", "חב"ד ביוון", "אוכל כשר ביוון", "חופשה ביוון", "איים ביוון", "אזהרת מסע יוון".
+- Add a date word when it helps a time-sensitive search: "היום", "מחר", or the day and month in Hebrew (e.g. "ב-2 באוקטובר").
+- seoTitle: max 55 characters, natural Hebrew, no clickbait, no ALL-CAPS, no emojis, never the site name.
+- seoDesc: 120–155 characters, contains the main search phrase once, says the practical answer (what happened, when, what to do).
+- keywords: 4–6 short Hebrew search phrases a real Israeli would type for this story.
+- The visible title should also mention "יוון" or the place in Hebrew when it reads naturally.
+- English: seoTitle max 60 characters with "Greece" or the place name (e.g. "Greece ferry strike", "Athens metro strike today"); seoDesc 120–155 characters; keywords 4–6 English phrases.
+- HEBREW QUALITY: write correct, natural Israeli Hebrew. Check every word for spelling. Common news words: כיבוי אש, כבאים, מטוסי כיבוי, פינוי, תחבורה ציבורית, שביתה, נמל, מעבורת, רכבת תחתית, משטרה, רשויות.`;
+
 export const SECTION_LIST = SECTIONS.map((s) => `${s.slug} (${s.en})`).join(", ");
 
 export const SELECT_SYSTEM = `You are the news editor of Yavanet, a Hebrew/English news site about Greece for Israelis.\n${AUDIENCE}\nYou choose which new items deserve an article. Return JSON only.`;
@@ -48,7 +60,7 @@ Return JSON: {"picks":[{"id":"...","section":"one of: ${SECTIONS.map((s) => s.sl
 Order by priority, highest first.`;
 }
 
-export const WRITE_SYSTEM = `You are a senior journalist at Yavanet (in Hebrew: יוונט; always write the name as "יוונט" in Hebrew text), writing for Israelis about Greece. You write natural, everyday Israeli Hebrew and clear British English.\n${AUDIENCE}\n${EDITORIAL_RULES}\nReturn JSON only.`;
+export const WRITE_SYSTEM = `You are a senior journalist at Yavanet (in Hebrew: יוונט; always write the name as "יוונט" in Hebrew text), writing for Israelis about Greece. You write natural, everyday Israeli Hebrew and clear British English, and you know Hebrew SEO.\n${AUDIENCE}\n${EDITORIAL_RULES}\n${SEO_RULES}\nReturn JSON only.`;
 
 export function writePrompt({ source, text, section, sensitive, breaking, today, instruction }) {
   return `Today (Athens): ${today}.
@@ -74,8 +86,9 @@ Return JSON:
 "geo":{"lat":number,"lng":number}|null  (only for breaking events with a clear location in Greece),
 "strike":null OR, only if the article is about a strike / work stoppage in Greece: {"dates":["YYYY-MM-DD", ...every day affected, from the source],"sectors":["flights"|"ferries"|"metro"|"buses"|"trains"|"taxis"|"public-sector"|"other"],"hours":"hours or 'all day', as in the source, in English","he":"one short Hebrew line: who strikes, when, what is affected","en":"the same line in English"},
 "imageKey":"one of: ${ART_KEYS.join(", ")}","imageQuery":"2-4 English words for a free stock photo, generic (no people's faces, no brands)",
-"he":{"title":"","dek":"","tldr":["","",""],"means":"","body":""},
-"en":{"title":"","dek":"","tldr":["","",""],"means":"","body":""}}`;
+"he":{"title":"","seoTitle":"","seoDesc":"","keywords":["",""],"dek":"","tldr":["","",""],"means":"","body":""},
+"en":{"title":"","seoTitle":"","seoDesc":"","keywords":["",""],"dek":"","tldr":["","",""],"means":"","body":""}}
+Follow the SEARCH (SEO) RULES for seoTitle, seoDesc and keywords.`;
 }
 
 export const VERIFY_SYSTEM = `You are the fact-checker of Yavanet. You compare an article to its source and to the editorial rules. Be strict. Return JSON only.\n${EDITORIAL_RULES}`;
@@ -94,7 +107,16 @@ Check:
 2. Hebrew and English versions carry the same facts.
 3. No sentence is copied from the source (more than ~10 consecutive words).
 4. The editorial rules are respected (neutral, respectful, no names of private individuals in negative events, no clickbait).
-Return JSON: {"ok":true|false,"issues":["short description of each problem"]}`;
+5. HEBREW LANGUAGE: find every misspelled or wrong Hebrew word (typos, invented words, wrong letters, broken grammar) in the Hebrew version, including title, seoTitle, seoDesc and dek. Do NOT reject the article for these; list each as a fix instead.
+Return JSON: {"ok":true|false,"issues":["short description of each fact/rule problem (not Hebrew spelling)"],"fixes":[{"from":"exact wrong Hebrew text as it appears","to":"corrected Hebrew text"}]}`;
+}
+
+// Διόρθωση υπαρχόντων άρθρων: τίτλοι για τη Google + ορθογραφία στα εβραϊκά
+export function seoBackfillPrompt(list) {
+  return `For each published Yavanet article below, write Google search fields following the SEARCH (SEO) RULES, and correct Hebrew spelling mistakes in the Hebrew title and dek (keep the meaning and the facts exactly; change nothing else).
+ARTICLES:
+${JSON.stringify(list)}
+Return JSON: {"items":[{"slug":"","he":{"title":"corrected or same","dek":"corrected or same","seoTitle":"","seoDesc":"","keywords":["",""]},"en":{"seoTitle":"","seoDesc":"","keywords":["",""]}}]}`;
 }
 
 export function neutralPrompt({ source, text, today }) {

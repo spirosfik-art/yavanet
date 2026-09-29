@@ -6,6 +6,7 @@ import path from "node:path";
 import {
   ROOT, STATE_FILE, env, DRY, log, sha, readJSON, writeJSON, athensNow, isoAthens, fetchText, parseFeed, mainText, extractLinks,
   claude, provider, hasAI, aiQuotaHit, parseJSON, tg, notifyOwner, loadArticles, saveArticle, slugify, missingNumbers, overlapRatio, pushSend, pushSetup,
+  seoFields,
 } from "./lib.mjs";
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
@@ -189,6 +190,19 @@ function fixScripts(draft) {
   return draft;
 }
 function mixedLeft(draft) { return (JSON.stringify(draft.he).replace(/\\n/g, " ").match(MIXED) || []); }
+// Διορθώσεις ορθογραφίας στα εβραϊκά από τον ελεγκτή (μόνο σύντομες, μόνο αν το λάθος υπάρχει αυτούσιο)
+function applyHeFixes(draft, fixes) {
+  let n = 0;
+  for (const f of (Array.isArray(fixes) ? fixes : []).slice(0, 15)) {
+    if (!f || typeof f.from !== "string" || typeof f.to !== "string" || !f.from.trim() || f.from === f.to || f.from.length > 60 || f.to.length > 80) continue;
+    if (!/[\u0590-\u05FF]/.test(f.to) || /[A-Za-z\u0370-\u03FF]/.test(f.to.replace(/[A-Z]{2,}/g, ""))) continue;
+    for (const k of Object.keys(draft.he)) {
+      const rep = (x) => typeof x === "string" && x.includes(f.from) ? (n++, x.split(f.from).join(f.to)) : x;
+      draft.he[k] = Array.isArray(draft.he[k]) ? draft.he[k].map(rep) : rep(draft.he[k]);
+    }
+  }
+  if (n) log("hebrew fixes", n);
+}
 async function checks(draft, text) {
   const shape = shapeOk(draft); if (shape) return [shape];
   fixScripts(draft);
@@ -202,7 +216,9 @@ async function checks(draft, text) {
   if (ov > 0.2) issues.push(`Μεγάλη ομοιότητα με την πηγή (${Math.round(ov * 100)}%)`);
   if (!issues.length) {
     const v = (await ask({ system: VERIFY_SYSTEM, prompt: verifyPrompt({ text, article: draft }), model: WRITE_MODEL, maxTokens: 1500, temperature: 0 }));
-    if (!v.ok) issues.push(...(v.issues || ["Ο έλεγχος γεγονότων απέρριψε το άρθρο"]));
+    applyHeFixes(draft, v.fixes);
+    if (!v.ok && (v.issues || []).length) issues.push(...v.issues);
+    else if (!v.ok) issues.push("Ο έλεγχος γεγονότων απέρριψε το άρθρο");
   }
   return issues;
 }
@@ -277,8 +293,8 @@ async function publish(draft, item, pick, text) {
     sources: [{ name: item.sourceName, url: item.url }],
     image: await pickImage(draft),
     strike: normStrike(draft.strike),
-    he: { title: draft.he.title, dek: draft.he.dek, tldr: draft.he.tldr.slice(0, 3), means: draft.he.means || "", body: draft.he.body },
-    en: { title: draft.en.title, dek: draft.en.dek, tldr: draft.en.tldr.slice(0, 3), means: draft.en.means || "", body: draft.en.body },
+    he: { title: draft.he.title, ...seoFields(draft.he), dek: draft.he.dek, tldr: draft.he.tldr.slice(0, 3), means: draft.he.means || "", body: draft.he.body },
+    en: { title: draft.en.title, ...seoFields(draft.en), dek: draft.en.dek, tldr: draft.en.tldr.slice(0, 3), means: draft.en.means || "", body: draft.en.body },
     meta: { itemId: item.id, imageQuery: draft.imageQuery || "", sourceHash: sha(text), model: provider() === "gemini" ? (env.GEMINI_MODEL || "gemini-2.5-flash") : WRITE_MODEL, checkedAt: new Date().toISOString(), official: item.official },
   };
   if (article.breaking) article.section = "breaking";

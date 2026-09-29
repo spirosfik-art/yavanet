@@ -1,0 +1,52 @@
+# Χειροκίνητα: προσθέτει εβραϊκούς τίτλους/περιγραφές για τη Google στα παλιά άρθρα και διορθώνει ορθογραφία.
+name: SEO backfill
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "πόσα άρθρα το πολύ"
+        default: "200"
+concurrency:
+  group: yavanet-content
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate SEO fields
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node automation/seo-backfill.mjs "${{ github.event.inputs.max || '200' }}"
+      - name: Save, build, deploy
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          GA4_ID: ${{ vars.GA4_ID }}
+          CLARITY_ID: ${{ vars.CLARITY_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROJECT: ${{ vars.CF_PROJECT }}
+          INDEXNOW_ALL: "1"
+        run: |
+          git config user.name "yavanet-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "auto: seo backfill $(date -u +%FT%TZ)"
+          git pull --rebase && git push
+          node build.mjs && bash scripts/deploy.sh
