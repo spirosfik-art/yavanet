@@ -401,99 +401,99 @@
     "314099e24382": 1790703398530,
     "4491a199e791": 1790705014062,
     "dce4ab86b0f8": 1790706505972,
-    "9a4c1f45e77c": 1790707416928
+    "9a4c1f45e77c": 1790707416928,
+    "99bb1cdca018": 1790708168884
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T18:43:28.791Z",
+      "at": "2026-09-29T18:55:59.216Z",
       "error": "HTTP 403",
-      "fails": 286
+      "fails": 287
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T18:43:29.286Z",
+      "at": "2026-09-29T18:56:00.352Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T18:43:29.981Z",
+      "at": "2026-09-29T18:56:01.267Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T18:43:30.762Z",
+      "at": "2026-09-29T18:56:02.045Z",
       "error": "HTTP 403",
-      "fails": 286
+      "fails": 287
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T18:43:31.786Z",
+      "at": "2026-09-29T18:56:03.049Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T18:43:31.998Z",
+      "at": "2026-09-29T18:56:03.496Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T18:43:33.085Z",
+      "at": "2026-09-29T18:56:04.641Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T18:43:33.795Z",
+      "at": "2026-09-29T18:56:05.379Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T18:43:34.452Z",
+      "at": "2026-09-29T18:56:06.271Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T18:43:34.586Z",
+      "at": "2026-09-29T18:56:06.393Z",
       "error": "HTTP 403",
-      "fails": 286
+      "fails": 287
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T18:43:35.140Z",
+      "at": "2026-09-29T18:56:06.969Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T18:43:35.526Z",
+      "at": "2026-09-29T18:56:07.232Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T18:43:36.063Z",
+      "at": "2026-09-29T18:56:07.580Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T18:43:36.277Z",
+      "at": "2026-09-29T18:56:08.107Z",
       "items": 4
     },
     "ynet-greece": {
-      "ok": false,
-      "at": "2026-09-29T18:43:36.385Z",
-      "error": "fetch failed",
-      "fails": 1
+      "ok": true,
+      "at": "2026-09-29T18:56:08.225Z",
+      "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T18:43:30.498Z",
+      "at": "2026-09-29T18:56:01.986Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 14,
+    "count": 15,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -578,6 +578,12 @@
         "title": "Student Housing Rent Prices in Greece: Where It Is Most Expensive and Cheapest",
         "at": "2026-09-29T20:51:57+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "greece-israel-relations-overview",
+        "title": "Greece and Israel Relations: An Overview",
+        "at": "2026-09-29T21:56:18+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -613,11 +619,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T18:43:36.928Z",
+    "at": "2026-09-29T18:56:08.884Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | Αλιεία: Ευρωπαϊκή χρηματοδότηση για ανανέωση του στόλου και επενδύσεις σε υφιστάμενα σκάφη"
+      "· ert | Τζιτζικώστας και Δένδιας σε εκδήλωση για τη στρατιωτική κινητικότητα"
     ]
   },
   "evergreenDone": [
@@ -637,8 +643,9 @@
     "etz-hayyim",
     "kahal-shalom",
     "romaniotes",
-    "jews-corfu"
+    "jews-corfu",
+    "greece-israel"
   ],
-  "lastEvergreen": 1790700844345,
+  "lastEvergreen": 1790708168888,
   "pushKey": "ok"
 }
