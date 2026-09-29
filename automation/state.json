@@ -332,98 +332,99 @@
     "891afeb163fc": 1790673955637,
     "32e0274e1f2f": 1790673955637,
     "7edb074f3b9d": 1790674738312,
-    "6ccc75ad848f": 1790674738312
+    "6ccc75ad848f": 1790674738312,
+    "451de23d29fc": 1790675600755
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T09:38:47.687Z",
+      "at": "2026-09-29T09:53:09.117Z",
       "error": "HTTP 403",
-      "fails": 252
+      "fails": 253
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T09:38:49.764Z",
+      "at": "2026-09-29T09:53:11.280Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T09:38:50.413Z",
+      "at": "2026-09-29T09:53:11.919Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T09:38:51.094Z",
+      "at": "2026-09-29T09:53:12.701Z",
       "error": "HTTP 403",
-      "fails": 252
+      "fails": 253
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T09:38:51.728Z",
+      "at": "2026-09-29T09:53:13.386Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T09:38:52.083Z",
+      "at": "2026-09-29T09:53:13.807Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T09:38:53.003Z",
+      "at": "2026-09-29T09:53:14.699Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T09:38:53.673Z",
-      "items": 6
+      "at": "2026-09-29T09:53:15.368Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T09:38:54.566Z",
+      "at": "2026-09-29T09:53:16.283Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T09:38:54.696Z",
+      "at": "2026-09-29T09:53:16.365Z",
       "error": "HTTP 403",
-      "fails": 252
+      "fails": 253
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T09:38:55.145Z",
+      "at": "2026-09-29T09:53:16.877Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T09:38:55.273Z",
+      "at": "2026-09-29T09:53:17.275Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T09:38:55.654Z",
-      "items": 5
+      "at": "2026-09-29T09:53:17.516Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T09:38:55.784Z",
-      "items": 5
+      "at": "2026-09-29T09:53:17.925Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T09:38:55.879Z",
+      "at": "2026-09-29T09:53:18.101Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T09:38:50.913Z",
+      "at": "2026-09-29T09:53:12.580Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -453,6 +454,12 @@
         "slug": "the-comprehensive-guide-to-mykonos",
         "title": "The Mykonos Guide: Everything to Know About the Island of the Winds",
         "at": "2026-09-29T11:40:08+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "complete-guide-to-paros-island",
+        "title": "The Paros Guide: Villages, Beaches and Cycladic History",
+        "at": "2026-09-29T12:53:31+03:00",
         "section": "travel"
       }
     ],
@@ -484,12 +491,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T09:38:58.312Z",
-    "considered": 2,
+    "at": "2026-09-29T09:53:20.755Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Δήμος Ιωαννιτών: Επαφές στη Φρανκφούρτη για την αεροπορική σύνδεση και την εξωστρέφεια των",
-      "· naftemporiki | Πυρκαγιά στο Μάτι: Απορρίφθηκαν τα ελαφρυντικά για τρεις καταδικασθέντες"
+      "· ert | Γάζα: Εν μέσω επιδρομών το Ισραήλ ανακοινώνει τον θάνατο διοικητή της Χαμάς"
     ]
   },
   "evergreenDone": [
@@ -503,8 +509,9 @@
     "halkidiki",
     "kos",
     "zakynthos",
-    "mykonos"
+    "mykonos",
+    "paros"
   ],
-  "lastEvergreen": 1790671197261,
+  "lastEvergreen": 1790675600759,
   "pushKey": "ok"
 }
