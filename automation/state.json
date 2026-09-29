@@ -277,91 +277,92 @@
     "94569122f2df": 1790637739950,
     "f5ae358979a1": 1790637739950,
     "699633367811": 1790641809287,
-    "a0f88eb3210a": 1790643835019
+    "a0f88eb3210a": 1790643835019,
+    "61f3f66feb5d": 1790646628179
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T01:34:33.345Z",
+      "at": "2026-09-29T01:50:17.655Z",
       "error": "HTTP 403",
-      "fails": 222
+      "fails": 223
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T01:34:35.306Z",
+      "at": "2026-09-29T01:50:20.046Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T01:34:35.894Z",
+      "at": "2026-09-29T01:50:20.786Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T01:34:36.564Z",
+      "at": "2026-09-29T01:50:21.671Z",
       "error": "HTTP 403",
-      "fails": 222
+      "fails": 223
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T01:34:37.247Z",
+      "at": "2026-09-29T01:50:22.437Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T01:34:37.642Z",
+      "at": "2026-09-29T01:50:22.853Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T01:34:38.967Z",
+      "at": "2026-09-29T01:50:24.033Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T01:34:39.697Z",
+      "at": "2026-09-29T01:50:24.728Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T01:34:41.073Z",
+      "at": "2026-09-29T01:50:25.420Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T01:34:41.130Z",
+      "at": "2026-09-29T01:50:25.558Z",
       "error": "HTTP 403",
-      "fails": 222
+      "fails": 223
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T01:34:41.519Z",
+      "at": "2026-09-29T01:50:26.081Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T01:34:41.639Z",
+      "at": "2026-09-29T01:50:26.454Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T01:34:41.881Z",
+      "at": "2026-09-29T01:50:27.086Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T01:34:42.018Z",
+      "at": "2026-09-29T01:50:27.480Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T01:34:42.087Z",
+      "at": "2026-09-29T01:50:27.612Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T01:34:36.399Z",
+      "at": "2026-09-29T01:50:21.528Z",
       "items": 30
     }
   },
@@ -392,11 +393,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T01:03:55.019Z",
+    "at": "2026-09-29T01:50:28.179Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Dig at Mieza Brings Aristotle’s School for Alexander into View"
+      "· gct | British Tourist Rushed to Hospital After Suspected Pufferfish Bite"
     ]
   },
   "evergreenDone": [
