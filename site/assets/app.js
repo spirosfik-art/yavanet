@@ -130,6 +130,7 @@
     if (el.closest(".lang")) track("language_switch", { to: el.getAttribute("hreflang") });
     if (el.closest(".fl")) track("flight_click", { destination: (el.querySelector(".fl-d b") || {}).textContent || "" });
     if (el.closest(".fteaser")) track("flight_teaser_click");
+    if (el.closest(".sfteaser")) track("sf_teaser_click");
     if (el.closest("[data-ad]")) track("ad_click", { ad: el.getAttribute("data-ad") });
     if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
     var href = el.getAttribute("href") || "";

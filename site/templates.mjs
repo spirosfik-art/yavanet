@@ -266,6 +266,7 @@ export function card(a, lang) {
 }
 
 export function adBox(lang) {
+  return ""; // οι διαφημίσεις της εταιρείας αφαιρέθηκαν (29.09.2026)
   const t = T[lang];
   return `<aside class="ad" aria-label="${esc(t.adLabel)}"><span class="lbl">${esc(t.adLabel)}</span><strong>${esc(t.adTitle)}</strong><p>${esc(t.adText)}</p><span class="brand"><img src="/sf-logo-light.png" width="900" height="142" alt="${esc(SITE.ad.brand)}" loading="lazy"><small>${esc(lang === "he" ? SITE.ad.taglineHe : SITE.ad.taglineEn)}</small></span><div class="adrow"><a href="https://sfproperties.gr/en/?utm_source=yavanet&amp;utm_medium=ad_box&amp;utm_campaign=sf-ad" target="_blank" rel="noopener sponsored" data-ad="sf">${esc(t.adCta)} ↗</a><a class="admore" href="${P(lang, "/a/sf-properties-athens-real-estate/")}">${lang === "he" ? "להכיר אותנו" : "Meet us"}</a><span class="admail" dir="ltr">${esc(SITE.ad.email)}</span></div></aside>`;
 }
@@ -355,17 +356,26 @@ export function partners(lang) {
   const he = lang === "he";
   return `<div class="partners" aria-label="${he ? "שותפים" : "Partners"}">
   <span class="plbl">${he ? "שותפים" : "Partners"}</span>
-  <a class="pcard p-sf" href="${P(lang, "/a/sf-properties-athens-real-estate/")}"><span class="pk">${he ? "נדל״ן ביוון" : "Property in Greece"}</span><b>${he ? "קונים דירה ביוון? מלווים אתכם בעברית" : "Buying in Greece? Guidance in Hebrew"}</b><small>${he ? "חיפוש, עורך דין, נוטריון, השכרה וניהול" : "Search, lawyer, notary, rental & management"}</small><img src="/sf-logo-light.png" width="900" height="142" alt="S.F. Properties" loading="lazy"><span class="pgo">${he ? "לשיחה עם יועץ ←" : "Talk to an adviser →"}</span></a>
   <a class="pcard p-yana" href="${P(lang, "/a/athens-with-yana-hebrew-tours-athens/")}"><span class="pk">${he ? "טיולים באתונה" : "Athens tours"}</span><b>${he ? "מטיילים באתונה עם יאנה" : "Athens with Yana"}</b><small>${he ? "טיולי יום, טברנות, יאכטה, אוכל כשר והסעות. הכול בעברית." : "Day tours, tavernas, yacht, kosher food and transfers, in Hebrew."}</small><span class="pgo">${he ? "לפרטים והזמנה ←" : "Details & booking →"}</span></a>
-  <a class="pcard p-you" href="mailto:${SITE.ad.email}?subject=${encodeURIComponent(he ? "פרסום ביוונט" : "Advertising on Yavanet")}"><b>${he ? "העסק שלכם כאן?" : "Your business here?"}</b><small>${he ? "הגיעו לישראלים שמתכננים טיול, מעבר או השקעה ביוון." : "Reach Israelis planning a trip, move or investment in Greece."}</small><span class="pgo">${he ? "פרסמו ביוונט ←" : "Advertise on Yavanet →"}</span></a>
+  <a class="pcard p-you" href="${P(lang, "/advertise/")}"><b>${he ? "העסק שלכם כאן?" : "Your business here?"}</b><small>${he ? "הגיעו לישראלים שמתכננים טיול, מעבר או השקעה ביוון." : "Reach Israelis planning a trip, move or investment in Greece."}</small><span class="pgo">${he ? "פרסמו ביוונט ←" : "Advertise on Yavanet →"}</span></a>
 </div>`;
+}
+
+// Κάρτα-προεπισκόπηση του άρθρου για την S.F. Properties, στην κορυφή της πλαϊνής στήλης
+export function sfTeaser(lang) {
+  const he = lang === "he";
+  return `<a class="sfteaser" href="${P(lang, "/a/sf-properties-athens-real-estate/")}" data-sf="teaser">
+  <span class="sft-img"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1746972742935527010/original/b54e021c-cfc8-4fbc-b2eb-7ab3fae2b4cd.jpeg?im_w=720" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-door" aria-hidden="true"></span><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span></span>
+  <span class="sft-body"><small>S.F. Properties · ${he ? "נדל״ן באתונה" : "Athens real estate"}</small><b>${he ? "מאחורי כל דלת באתונה, התחלה חדשה" : "Behind every door in Athens, a new beginning"}</b><span>${he ? "קנייה, השכרה, Airbnb וניהול נכסים. בעברית." : "Buying, renting, Airbnb and property care. In Hebrew."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
+</a>`;
 }
 
 export function widgets(lang, mostRead, noPush = false) {
   const t = T[lang];
   return `<div class="side">
-  ${noPush ? "" : pushBox(lang)}
+  ${sfTeaser(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
+  ${noPush ? "" : pushBox(lang)}
   <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>
   <div class="widget"><h4>${esc(t.shabbat)}</h4><div class="rows" id="w-shabbat">${esc(t.loading)}</div><div class="small">Hebcal</div></div>

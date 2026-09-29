@@ -62,7 +62,7 @@ const C = {
     endT: "יש לכם נכס באתונה, או חולמים על אחד?",
     endS: "שלחו הודעה בוואטסאפ. עונים בעברית, ואומרים לכם בכנות מה הנכס יכול להכניס.",
     call: "להתקשר",
-    disc: "גילוי נאות: S.F. Properties היא החברה שמאחורי יוונט. זהו עמוד פרסומי. האתר של S.F. Properties זמין ביוונית ובאנגלית.",
+    disc: "תוכן בשיתוף S.F. Properties. האתר של S.F. Properties זמין ביוונית ובאנגלית.",
     back: [["/advisor/", "יועץ נדל״ן דובר עברית"], ["/madad/", "מחירי דירות באתונה"], ["/invest/", "נדל״ן ביוון"]],
   },
   en: {
@@ -107,7 +107,7 @@ const C = {
     endT: "Own a place in Athens, or dreaming of one?",
     endS: "Send us a WhatsApp message. We'll tell you honestly what your property can earn.",
     call: "Call",
-    disc: "Disclosure: S.F. Properties is the company behind Yavanet. This is a promotional page.",
+    disc: "Content in partnership with S.F. Properties.",
     back: [["/advisor/", "Hebrew-speaking property adviser"], ["/madad/", "Athens property prices"], ["/invest/", "Property in Greece"]],
   },
 };
