@@ -342,98 +342,101 @@
     "9fb6cedef502": 1790677566893,
     "f5bd6cd0b05e": 1790677566893,
     "3a9eac6dfbda": 1790678337446,
-    "d9abf89d813b": 1790678337446
+    "d9abf89d813b": 1790678337446,
+    "ee777d78b186": 1790679165490,
+    "e49d53dca698": 1790679165490,
+    "051e08b82dd8": 1790679165490
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T10:38:45.472Z",
+      "at": "2026-09-29T10:52:33.204Z",
       "error": "HTTP 403",
-      "fails": 256
+      "fails": 257
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T10:38:48.195Z",
-      "items": 10
+      "at": "2026-09-29T10:52:35.711Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T10:38:49.080Z",
+      "at": "2026-09-29T10:52:36.663Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T10:38:50.154Z",
+      "at": "2026-09-29T10:52:37.468Z",
       "error": "HTTP 403",
-      "fails": 256
+      "fails": 257
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T10:38:51.063Z",
+      "at": "2026-09-29T10:52:38.432Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T10:38:51.510Z",
+      "at": "2026-09-29T10:52:38.819Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T10:38:52.847Z",
+      "at": "2026-09-29T10:52:40.078Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T10:38:54.046Z",
+      "at": "2026-09-29T10:52:41.021Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T10:38:54.662Z",
+      "at": "2026-09-29T10:52:41.640Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T10:38:54.797Z",
+      "at": "2026-09-29T10:52:41.697Z",
       "error": "HTTP 403",
-      "fails": 256
+      "fails": 257
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T10:38:55.438Z",
+      "at": "2026-09-29T10:52:42.290Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T10:38:55.765Z",
+      "at": "2026-09-29T10:52:42.343Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T10:38:56.539Z",
+      "at": "2026-09-29T10:52:43.176Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:38:56.758Z",
+      "at": "2026-09-29T10:52:43.373Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T10:38:56.921Z",
+      "at": "2026-09-29T10:52:43.453Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T10:38:49.860Z",
+      "at": "2026-09-29T10:52:37.261Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 6,
+    "count": 8,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -470,6 +473,18 @@
         "title": "The Paros Guide: Villages, Beaches and Cycladic History",
         "at": "2026-09-29T12:53:31+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "arkadia-rizospilia-fire-greece",
+        "title": "Wildfire breaks out in the Arcadia region of Greece",
+        "at": "2026-09-29T13:53:06+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "skopelos-tourism-season-review",
+        "title": "Skopelos Tourism Season Review: Higher Traffic but Lower Profits",
+        "at": "2026-09-29T13:53:22+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -500,12 +515,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T10:38:57.446Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-09-29T10:52:45.490Z",
+    "considered": 3,
+    "picked": 2,
     "items": [
-      "· ingr | Κικίλιας: Ναυτιλία, τουρισμός και ακτοπλοΐα να έχουν σημαντική συμβολή στο ΑΕΠ της χώρας",
-      "· naftemporiki | Αρκαδία: Φωτιά τώρα στη Ριζοσπηλιά"
+      "✓ ert | Σκόπελος: Περισσότερος τουρισμός, αλλά μικρότερα κέρδη – Στο επίκεντρο και ο κινηματογραφι",
+      "· gct | Il Foglio: Saddam Haftar Secretly Met Netanyahu in Abu Dhabi",
+      "✓ ingr | Αρκαδία: Φωτιά τώρα στη Ριζοσπηλιά – Σηκώθηκαν δύο αεροσκάφη"
     ]
   },
   "evergreenDone": [
