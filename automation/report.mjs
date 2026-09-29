@@ -19,6 +19,38 @@ async function leadsSince(ms) {
   return out.filter((c) => Date.parse((c.attributes || {}).LEAD_AT || c.createdAt) >= ms);
 }
 
+// Επισκέπτες από το Cloudflare Web Analytics (μετράει όλους, χωρίς cookies). Χρειάζεται token μόνο-ανάγνωσης.
+async function traffic() {
+  const token = (env.CLOUDFLARE_ANALYTICS_TOKEN || "").trim();
+  const acc = (env.CLOUDFLARE_ACCOUNT_ID || "308ac8a2b91936b2e0985d38cddcb260").trim();
+  const site = (env.CF_WA_SITE_TAG || "b9ab4561444f463a8a3206f744e69799").trim();
+  if (!token) return null;
+  const to = new Date(), from = new Date(to - 24 * 3600e3), prev = new Date(from - 24 * 3600e3);
+  const f = (a, b) => `{siteTag: "${site}", datetime_geq: "${a.toISOString()}", datetime_lt: "${b.toISOString()}"}`;
+  const q = `{ viewer { accounts(filter: {accountTag: "${acc}"}) {
+    now: rumPageloadEventsAdaptiveGroups(limit: 1, filter: ${f(from, to)}) { count sum { visits } }
+    before: rumPageloadEventsAdaptiveGroups(limit: 1, filter: ${f(prev, from)}) { count sum { visits } }
+    countries: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { countryName } }
+    pages: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [count_DESC]) { count dimensions { requestPath } }
+    refs: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { refererHost } }
+  } } }`;
+  const r = await fetch("https://api.cloudflare.com/client/v4/graphql", { method: "POST", headers: { authorization: `Bearer ${token}`, "content-type": "application/json" }, body: JSON.stringify({ query: q }), signal: AbortSignal.timeout(30000) });
+  const d = await r.json();
+  if (d.errors?.length) throw new Error(d.errors.map((e) => e.message).join("; "));
+  const a = d.data.viewer.accounts[0] || {};
+  const tot = (x) => ({ views: x?.[0]?.count || 0, visits: x?.[0]?.sum?.visits || 0 });
+  const dec = (p) => { try { return decodeURIComponent(p); } catch { return p; } };
+  const host = (h) => !h || /yavanet/.test(h) ? "απευθείας / εσωτερικά" : h;
+  const refs = {};
+  for (const x of a.refs || []) { const k = host(x.dimensions.refererHost); refs[k] = (refs[k] || 0) + x.sum.visits; }
+  return {
+    now: tot(a.now), before: tot(a.before),
+    countries: (a.countries || []).map((x) => `${x.dimensions.countryName || "–"} ${x.sum.visits}`),
+    pages: (a.pages || []).map((x) => `• ${dec(x.dimensions.requestPath).slice(0, 70)} (${x.count})`),
+    refs: Object.entries(refs).sort((x, y) => y[1] - x[1]).map(([k, v]) => `${k} ${v}`),
+  };
+}
+
 (async () => {
   const s = readJSON(STATE_FILE, {});
   if (kind === "daily") {
@@ -26,6 +58,17 @@ async function leadsSince(ms) {
     const leads = await leadsSince(Date.now() - 24 * 3600e3).catch(() => null);
     const bad = Object.entries(s.sourceStatus || {}).filter(([, v]) => !v.ok);
     const pend = Object.entries(s.pending || {});
+    let tr = null, trErr = "";
+    try { tr = await traffic(); } catch (e) { trErr = e.message; log("traffic error", e.message); }
+    const diff = (a, b) => (b ? ` (${a >= b ? "+" : ""}${Math.round(((a - b) / b) * 100)}% από χθες)` : "");
+    const trTxt = tr
+      ? `👥 Επισκέψεις (24ω): ${tr.now.visits}${diff(tr.now.visits, tr.before.visits)}
+📄 Προβολές σελίδων: ${tr.now.views}
+🌍 Χώρες: ${tr.countries.join(" · ") || "–"}
+🔗 Από πού ήρθαν: ${tr.refs.join(" · ") || "–"}
+🔝 Κορυφαίες σελίδες:
+${tr.pages.join("\n") || "–"}`
+      : `👥 Επισκέψεις: ${trErr ? "σφάλμα Cloudflare – " + trErr.slice(0, 120) : "λείπει το CLOUDFLARE_ANALYTICS_TOKEN"}`;
     const txt = `📊 Yavanet – ${athensNow().date}
 Δημοσιεύθηκαν: ${t.published.length}
 ${t.published.map((p) => `• ${p.title}`).join("\n")}
@@ -34,7 +77,10 @@ ${t.rejected.slice(-10).map((r) => `• ${r.title} → ${r.reason}`).join("\n")}
 Σε αναμονή έγκρισης: ${pend.length}
 Νέες επαφές (24ω): ${leads ? leads.length : "–"}
 Πηγές με πρόβλημα: ${bad.map(([k]) => k).join(", ") || "καμία"}
-Επισκεψιμότητα: https://analytics.google.com · Heatmaps: https://clarity.microsoft.com`;
+
+${trTxt}
+
+Λεπτομέρειες: https://analytics.google.com · Heatmaps: https://clarity.microsoft.com`;
     await notifyOwner(txt);
     await sendEmail(`Yavanet – ημερήσια αναφορά ${athensNow().date}`, `<pre style="font-family:Arial;font-size:14px;white-space:pre-wrap">${esc(txt)}</pre>`);
     log(txt);
