@@ -400,85 +400,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T16:40:31.906Z",
+      "at": "2026-09-29T16:53:54.758Z",
       "error": "HTTP 403",
-      "fails": 278
+      "fails": 279
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T16:40:32.684Z",
-      "items": 0
+      "at": "2026-09-29T16:53:57.156Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T16:40:33.592Z",
+      "at": "2026-09-29T16:53:58.068Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T16:40:34.238Z",
+      "at": "2026-09-29T16:53:58.919Z",
       "error": "HTTP 403",
-      "fails": 278
+      "fails": 279
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T16:40:35.894Z",
+      "at": "2026-09-29T16:53:59.920Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T16:40:36.245Z",
+      "at": "2026-09-29T16:54:00.112Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T16:40:39.463Z",
+      "at": "2026-09-29T16:54:01.396Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T16:40:40.259Z",
-      "items": 5
+      "at": "2026-09-29T16:54:02.124Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T16:40:41.103Z",
+      "at": "2026-09-29T16:54:02.565Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T16:40:41.139Z",
+      "at": "2026-09-29T16:54:02.633Z",
       "error": "HTTP 403",
-      "fails": 278
+      "fails": 279
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T16:40:41.801Z",
+      "at": "2026-09-29T16:54:03.258Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T16:40:41.859Z",
+      "at": "2026-09-29T16:54:03.371Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T16:40:42.731Z",
-      "items": 7
+      "at": "2026-09-29T16:54:03.897Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T16:40:42.929Z",
+      "at": "2026-09-29T16:54:04.218Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T16:40:43.000Z",
+      "at": "2026-09-29T16:54:04.340Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T16:40:34.207Z",
+      "at": "2026-09-29T16:53:58.646Z",
       "items": 30
     }
   },
@@ -571,6 +571,11 @@
         "title": "Zakynthos",
         "reason": "Οδηγός: Mixed-script (broken) Hebrew words: לגאנas, לגאנas. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-09-29T07:38:03.479Z"
+      },
+      {
+        "title": "History of the Jews in Corfu",
+        "reason": "Οδηγός: λίγο κείμενο στη Wikipedia",
+        "at": "2026-09-29T16:54:04.836Z"
       }
     ],
     "errors": []
@@ -619,8 +624,9 @@
     "thessaloniki",
     "etz-hayyim",
     "kahal-shalom",
-    "romaniotes"
+    "romaniotes",
+    "jews-corfu"
   ],
-  "lastEvergreen": 1790696450508,
+  "lastEvergreen": 1790700844345,
   "pushKey": "ok"
 }
