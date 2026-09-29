@@ -321,91 +321,94 @@
     "0d4ed4058109": 1790670405140,
     "a9af0d0cc845": 1790671197256,
     "ef53cbe2616c": 1790671197256,
-    "bf2772e1a7ca": 1790671197256
+    "bf2772e1a7ca": 1790671197256,
+    "246670003a7e": 1790671953452,
+    "5d0169ba0b4c": 1790671953452,
+    "82a2d3d05d64": 1790671953452
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T08:39:46.659Z",
+      "at": "2026-09-29T08:52:24.107Z",
       "error": "HTTP 403",
-      "fails": 248
+      "fails": 249
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T08:39:48.924Z",
-      "items": 10
+      "at": "2026-09-29T08:52:24.734Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T08:39:49.656Z",
+      "at": "2026-09-29T08:52:25.452Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T08:39:50.518Z",
+      "at": "2026-09-29T08:52:26.355Z",
       "error": "HTTP 403",
-      "fails": 248
+      "fails": 249
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T08:39:51.301Z",
+      "at": "2026-09-29T08:52:27.350Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T08:39:51.658Z",
+      "at": "2026-09-29T08:52:27.864Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T08:39:52.612Z",
+      "at": "2026-09-29T08:52:28.846Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T08:39:53.402Z",
+      "at": "2026-09-29T08:52:29.593Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T08:39:54.227Z",
+      "at": "2026-09-29T08:52:30.067Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T08:39:54.297Z",
+      "at": "2026-09-29T08:52:30.201Z",
       "error": "HTTP 403",
-      "fails": 248
+      "fails": 249
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T08:39:54.766Z",
+      "at": "2026-09-29T08:52:30.864Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T08:39:55.107Z",
-      "items": 14
+      "at": "2026-09-29T08:52:31.153Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T08:39:55.143Z",
+      "at": "2026-09-29T08:52:31.705Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:39:55.522Z",
+      "at": "2026-09-29T08:52:32.001Z",
       "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T08:39:55.692Z",
+      "at": "2026-09-29T08:52:32.151Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:39:50.332Z",
+      "at": "2026-09-29T08:52:26.260Z",
       "items": 30
     }
   },
@@ -473,13 +476,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T08:39:57.256Z",
+    "at": "2026-09-29T08:52:33.452Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Athens Airport named Europe’s most efficient large airport",
-      "· gct | Jerusalem Post: Turkey Libya maritime deal raises Israeli concerns over Mediterranean ship",
-      "· naftemporiki | Δρέπανο Κοζάνης: Κατασβέθη η φωτιά σε φορτηγό με φωτοβολταϊκά πάνελ στην Εγνατία"
+      "· gct | Mitsotakis in Aspropyrgos: PM takes government message directly to western Attica",
+      "· gct | Margaret Alexiou, influential Harvard scholar of Modern Greek, dies aged 87",
+      "· ert | Βρετανία: 17 συλλήψεις στο πλαίσιο έρευνας για ύποπτη ομάδα οργανωμένου εγκλήματος"
     ]
   },
   "evergreenDone": [
