@@ -28,7 +28,8 @@ export const SEO_RULES = `SEARCH (SEO) RULES – Israelis find us on Google by s
 - Every Hebrew seoTitle MUST contain the word "יוון" (or "ביוון"/"ליוון") OR a well-known Greek destination in Hebrew (אתונה, סלוניקי, כרתים, רודוס, קורפו, סנטוריני, מיקונוס, פרוס, נקסוס, זקינתוס, חלקידיקי, פירֵאוס...), ideally both.
 - Use the plain words Israelis type, near the start: "שביתה ביוון", "שביתה בנמל פיראוס", "שביתת מעבורות", "טיסות ליוון", "טיסות לאתונה", "מזג אוויר ביוון", "שריפה ביוון", "רעידת אדמה ביוון", "נדל"ן ביוון", "דירה באתונה", "השקעה בנדל"ן ביוון", "גולדן ויזה יוון", "Airbnb ביוון", "מיסים ביוון", "לגור ביוון", "חב"ד ביוון", "אוכל כשר ביוון", "חופשה ביוון", "איים ביוון", "אזהרת מסע יוון".
 - Add a date word when it helps a time-sensitive search: "היום", "מחר", or the day and month in Hebrew (e.g. "ב-2 באוקטובר").
-- seoTitle: max 55 characters, natural Hebrew, no clickbait, no ALL-CAPS, no emojis, never the site name.
+- seoTitle: max 55 characters. It must read as a natural, grammatical Hebrew headline – NEVER a list of keywords glued together. Never repeat a word or a place name (not "לסבוס שריפה בלסבוס"; write "שריפה בלסבוס: ..."). Use a colon to join a topic and a detail. No clickbait, no ALL-CAPS, no emojis, never the site name. Only facts from the article – e.g. write "אזהרת מסע" only when the story is an official travel warning.
+- Every Hebrew field is only Hebrew letters (plus digits, Latin acronyms like ELSTAT, AFM, Airbnb). Never Arabic or Greek letters.
 - seoDesc: 120–155 characters, contains the main search phrase once, says the practical answer (what happened, when, what to do).
 - keywords: 4–6 short Hebrew search phrases a real Israeli would type for this story.
 - The visible title should also mention "יוון" or the place in Hebrew when it reads naturally.

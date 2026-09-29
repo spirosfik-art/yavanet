@@ -343,10 +343,15 @@ export async function pushSend(site, message) {
 export function seoFields(x = {}) {
   const o = {};
   const st = String(x.seoTitle || "").replace(/\s*[|·–-]\s*(יוונט|Yavanet)\s*$/i, "").trim();
-  if (st && st.length <= 70) o.seoTitle = st;
+  const foreign = (x) => /[\u0600-\u06FF\u0370-\u03FF]/.test(x);
+  const words = st.split(/\s+/).map((w) => w.replace(/[^\u0590-\u05FFA-Za-z0-9]/g, "")).filter((w) => w.length >= 3);
+  const set = new Set(words);
+  // «שביתה … שביתת» επιτρέπεται· όχι όμως η ίδια λέξη δύο φορές ή με πρόθεμα (לסבוס … בלסבוס)
+  const repeats = words.length !== set.size || words.some((w) => /^[בלהמוש]/.test(w) && w.length >= 4 && set.has(w.slice(1)));
+  if (st && st.length <= 70 && !foreign(st) && !repeats) o.seoTitle = st;
   const sd = String(x.seoDesc || "").trim();
-  if (sd.length >= 60) o.seoDesc = sd.length > 170 ? sd.slice(0, 167).replace(/\s+\S*$/, "") + "…" : sd;
-  const kw = (Array.isArray(x.keywords) ? x.keywords : []).map((k) => String(k).trim()).filter((k) => k && k.length <= 40).slice(0, 6);
+  if (sd.length >= 60 && !foreign(sd)) o.seoDesc = sd.length > 170 ? sd.slice(0, 167).replace(/\s+\S*$/, "") + "…" : sd;
+  const kw = (Array.isArray(x.keywords) ? x.keywords : []).map((k) => String(k).trim()).filter((k) => k && k.length <= 40 && !foreign(k)).slice(0, 6);
   if (kw.length) o.keywords = kw;
   return o;
 }
