@@ -408,91 +408,92 @@
     "705edfb3c9c4": 1790709899870,
     "a91dde90ba16": 1790709899870,
     "45567042af54": 1790710601234,
-    "c5b317570ae6": 1790711428765
+    "c5b317570ae6": 1790711428765,
+    "70fe5ca26b87": 1790712192939
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T19:50:19.309Z",
+      "at": "2026-09-29T20:03:01.202Z",
       "error": "HTTP 403",
-      "fails": 291
+      "fails": 292
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T19:50:21.683Z",
+      "at": "2026-09-29T20:03:03.713Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T19:50:22.273Z",
+      "at": "2026-09-29T20:03:04.733Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T19:50:22.909Z",
+      "at": "2026-09-29T20:03:05.759Z",
       "error": "HTTP 403",
-      "fails": 291
+      "fails": 292
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T19:50:23.538Z",
+      "at": "2026-09-29T20:03:06.885Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T19:50:23.850Z",
+      "at": "2026-09-29T20:03:06.957Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T19:50:24.654Z",
+      "at": "2026-09-29T20:03:08.033Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T19:50:25.353Z",
-      "items": 5
+      "at": "2026-09-29T20:03:08.833Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T19:50:26.330Z",
+      "at": "2026-09-29T20:03:09.905Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T19:50:26.395Z",
+      "at": "2026-09-29T20:03:09.954Z",
       "error": "HTTP 403",
-      "fails": 291
+      "fails": 292
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T19:50:26.837Z",
+      "at": "2026-09-29T20:03:10.520Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T19:50:26.914Z",
+      "at": "2026-09-29T20:03:10.809Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T19:50:27.129Z",
-      "items": 5
+      "at": "2026-09-29T20:03:11.483Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T19:50:27.263Z",
-      "items": 6
+      "at": "2026-09-29T20:03:12.049Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T19:50:27.383Z",
+      "at": "2026-09-29T20:03:12.097Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T19:50:22.693Z",
+      "at": "2026-09-29T20:03:05.462Z",
       "items": 30
     }
   },
@@ -625,11 +626,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T19:50:28.765Z",
+    "at": "2026-09-29T20:03:12.939Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | ΗΠΑ κατά Ισραήλ: Καταδικάζουμε «την εγκληματική βία» στη Δυτική Όχθη"
+      "· gct | Dendias warns Turkey poses threat to Greece as he calls for stronger European defence"
     ]
   },
   "evergreenDone": [
