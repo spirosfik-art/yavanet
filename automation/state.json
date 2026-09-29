@@ -283,91 +283,92 @@
     "3f801f378b53": 1790650908888,
     "17ea7454955b": 1790652275854,
     "c3f1df0b5622": 1790652275854,
-    "d7e9b191c9c1": 1790652275854
+    "d7e9b191c9c1": 1790652275854,
+    "82de0ab9efd2": 1790653903880
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T03:37:39.139Z",
+      "at": "2026-09-29T03:51:37.426Z",
       "error": "HTTP 403",
-      "fails": 230
+      "fails": 231
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T03:37:39.692Z",
+      "at": "2026-09-29T03:51:37.958Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T03:37:40.372Z",
+      "at": "2026-09-29T03:51:38.559Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T03:37:41.015Z",
+      "at": "2026-09-29T03:51:39.263Z",
       "error": "HTTP 403",
-      "fails": 230
+      "fails": 231
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T03:37:41.985Z",
+      "at": "2026-09-29T03:51:39.913Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T03:37:42.456Z",
+      "at": "2026-09-29T03:51:40.257Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T03:37:43.854Z",
+      "at": "2026-09-29T03:51:41.164Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T03:37:44.635Z",
+      "at": "2026-09-29T03:51:41.800Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T03:37:45.583Z",
+      "at": "2026-09-29T03:51:42.308Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T03:37:45.729Z",
+      "at": "2026-09-29T03:51:42.353Z",
       "error": "HTTP 403",
-      "fails": 230
+      "fails": 231
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T03:37:46.306Z",
+      "at": "2026-09-29T03:51:42.732Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T03:37:46.473Z",
+      "at": "2026-09-29T03:51:42.820Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T03:37:46.606Z",
+      "at": "2026-09-29T03:51:42.998Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T03:37:47.079Z",
+      "at": "2026-09-29T03:51:43.106Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T03:37:47.237Z",
+      "at": "2026-09-29T03:51:43.216Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T03:37:40.868Z",
+      "at": "2026-09-29T03:51:39.061Z",
       "items": 30
     }
   },
@@ -398,13 +399,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T03:24:35.854Z",
-    "considered": 3,
+    "at": "2026-09-29T03:51:43.880Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Singer Says Concerts Delayed the Meeting That Never Came",
-      "· ert | Γάζα: Ισραηλινή επίθεση με drone σε διαμέρισμα – Ένας νεκρός και τραυματίες",
-      "· ingr | Ελεύθεροι επαγγελματίες: Τρεις φοροανατροπές σε δύο δόσεις"
+      "· gct | Apon Leaves Empty Stool for Mazonakis at Alsos Concert"
     ]
   },
   "evergreenDone": [
