@@ -357,6 +357,7 @@ export function partners(lang) {
   return `<div class="partners" aria-label="${he ? "שותפים" : "Partners"}">
   <span class="plbl">${he ? "שותפים" : "Partners"}</span>
   <a class="pcard p-yana" href="${P(lang, "/a/athens-with-yana-hebrew-tours-athens/")}"><span class="pk">${he ? "טיולים באתונה" : "Athens tours"}</span><b>${he ? "מטיילים באתונה עם יאנה" : "Athens with Yana"}</b><small>${he ? "טיולי יום, טברנות, יאכטה, אוכל כשר והסעות. הכול בעברית." : "Day tours, tavernas, yacht, kosher food and transfers, in Hebrew."}</small><span class="pgo">${he ? "לפרטים והזמנה ←" : "Details & booking →"}</span></a>
+  <a class="pcard p-alm" href="${P(lang, "/a/almyra-natural-cosmetics-athens/")}"><span class="pk">${he ? "קוסמטיקה טבעית" : "Natural cosmetics"}</span><b>${he ? "Almyra: קוסמטיקה בעבודת יד מאתונה" : "Almyra: handmade cosmetics from Athens"}</b><small>${he ? "שגרת פנים ב-5 צעדים וטיפולי פנים הוליסטיים" : "A 5-step face routine and holistic facials"}</small><span class="pgo">${he ? "להכיר ←" : "Discover →"}</span></a>
   <a class="pcard p-you" href="${P(lang, "/advertise/")}"><b>${he ? "העסק שלכם כאן?" : "Your business here?"}</b><small>${he ? "הגיעו לישראלים שמתכננים טיול, מעבר או השקעה ביוון." : "Reach Israelis planning a trip, move or investment in Greece."}</small><span class="pgo">${he ? "פרסמו ביוונט ←" : "Advertise on Yavanet →"}</span></a>
 </div>`;
 }
