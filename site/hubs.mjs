@@ -19,6 +19,7 @@ export const TI = {
 export const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
 import { esc, P, card, pushBox, newsletterBox, GLOBAL } from "./templates.mjs";
+import { destNav } from "./dests.mjs";
 
 const A = (lang, slug) => P(lang, "/a/" + slug + "/");
 const H = (lang, he, en) => (lang === "he" ? he : en);
@@ -117,7 +118,7 @@ export function hubPage(lang, kind, ctx) {
       title: H(lang, "חופשה ביוון", "Holiday in Greece"), icon: "travel",
       intro: H(lang, "כל מה שצריך לפני ובזמן הטיול: טיסות, שביתות, מה עושים במקרה חירום, מדריכים לאיים, וטיולים בעברית.", "Everything you need before and during your trip: flights, strikes, emergencies, island guides and tours in Hebrew."),
       start: "greece-travel-guide-israelis-2026",
-      tools: [["/strikes/", "strikes", H(lang, "שביתות קרובות", "Upcoming strikes"), H(lang, "טיסות, מעבורות, מטרו", "Flights, ferries, metro")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים ושגרירות", "Numbers & embassy")], ...(GLOBAL.flights ? [["/flights/", "flights", H(lang, "טיסות זולות", "Cheap flights"), H(lang, "מתל אביב ליוון", "Tel Aviv to Greece")]] : []), ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")]],
+      tools: [["/strike-today/", "strikes", H(lang, "יש שביתה היום?", "Strike today?"), H(lang, "תשובה מהירה + יומן", "Quick answer + calendar")], ["/strikes/", "strikes", H(lang, "שביתות קרובות", "Upcoming strikes"), H(lang, "טיסות, מעבורות, מטרו", "Flights, ferries, metro")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים ושגרירות", "Numbers & embassy")], ...(GLOBAL.flights ? [["/flights/", "flights", H(lang, "טיסות זולות", "Cheap flights"), H(lang, "מתל אביב ליוון", "Tel Aviv to Greece")]] : []), ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")]],
       guides: articles.filter((a) => isGuide(a) && ["travel", "jewish-greece"].includes(a.section) && a.slug !== "greece-travel-guide-israelis-2026"),
       people: ["yana"], newsSecs: ["travel", "breaking"], newsLink: "/s/travel/",
     },
@@ -143,6 +144,7 @@ export function hubPage(lang, kind, ctx) {
 <header class="hub-hero"><span class="hub-ic">${TI[T.icon]}</span><div><h1>${esc(T.title)}</h1><p>${esc(T.intro)}</p></div></header>
 ${start ? sec(H(lang, "מתחילים כאן", "Start here"), `<a class="hub-start" href="${A(lang, start.slug)}"><span class="hs-k">${H(lang, "המדריך המלא", "The complete guide")}</span><b>${esc(start[lang].title)}</b><span class="hs-d">${esc(start[lang].dek)}</span><span class="hs-go">${H(lang, "לקריאה ←", "Read →")}</span></a>`) : ""}
 ${sec(H(lang, "כלים שימושיים", "Useful tools"), `<nav class="tiles">${T.tools.map((x) => tileHTML(lang, x)).join("")}</nav>`)}
+${kind === "travel" ? sec(H(lang, "לאן טסים?", "Where are you going?"), destNav(lang, "")) : ""}
 ${T.guides.filter(Boolean).length ? sec(H(lang, "עוד מדריכים", "More guides"), cards(T.guides)) : ""}
 ${sec(H(lang, "האנשים שלנו", "Our people"), people(lang, T.people), `<a class="zone-more" href="${P(lang, "/contact/")}">${H(lang, "כל אנשי הקשר", "All contacts")}</a>`)}
 ${sec(H(lang, "חדשות אחרונות", "Latest news"), cards(news(T.newsSecs)), `<a class="zone-more" href="${P(lang, T.newsLink)}">${H(lang, "לכל החדשות", "All news")}</a>`)}

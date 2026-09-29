@@ -698,3 +698,37 @@ article.full .fteaser{margin:22px 0}
 @media (min-width:900px){.npbar{bottom:24px}}
 @media (prefers-color-scheme:dark){.npbar{border-top-color:#F0B650}.npbar svg{stroke:#F0B650}.npbar .np-yes{background:#F0B650;color:#0B3A5B}}
 :root.night .npbar{border-top-color:#F0B650}:root.night .npbar svg{stroke:#F0B650}:root.night .npbar .np-yes{background:#F0B650;color:#0B3A5B}
+
+/* Σελίδες προορισμών */
+.dgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.dcard{display:flex;flex-direction:column;gap:6px;padding:16px;border-radius:16px;background:var(--surface);border:1px solid var(--line);color:var(--ink);text-decoration:none;min-width:0}
+.dcard .dk{font-size:.8rem;font-weight:700;color:var(--muted)}
+.dcard>b{font-size:1.9rem;line-height:1.1;font-family:var(--display)}
+.dcard small{color:var(--muted);font-size:.82rem}
+.dcard .dgo{margin-top:auto;font-weight:700;font-size:.85rem;color:#1C6E9C;text-decoration:none}
+.dflight>b{color:#B7791F}
+.dwx-days{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:4px}
+.dwx-days span{display:flex;flex-direction:column;align-items:center;gap:1px;font-size:.95rem;padding:6px 2px;border-radius:10px;background:var(--surface-2)}
+.dwx-days i{font-style:normal;font-size:.72rem;color:var(--muted)}
+.dwx-days b{font-size:.85rem}.dwx-days small{font-size:.72rem}
+.dsrc{font-size:.68rem!important;opacity:.7}
+.dstrike a:not(.dgo){display:block;font-size:.85rem;color:var(--ink);text-decoration:none;padding:6px 0;border-bottom:1px solid var(--line)}
+.dstrike a b{color:#C53030;font-size:.85rem}
+.dstrike.on{border-color:#F6AD55;background:linear-gradient(0deg,var(--surface),rgba(246,173,85,.08))}
+.dstrike .ok{font-size:1.05rem!important;font-family:inherit!important;color:#2F855A}
+.dnav{display:flex;flex-wrap:wrap;gap:8px}
+.dnav a{padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;font-weight:600;font-size:.9rem}
+.dnav a[aria-current]{background:#0B3A5B;color:#fff;border-color:#0B3A5B}
+@media (max-width:760px){.dgrid{grid-template-columns:1fr}}
+/* Απεργία σήμερα/αύριο */
+.st-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.st-ans{padding:22px;border-radius:18px;border:2px solid var(--line);background:var(--surface);display:flex;flex-direction:column;gap:6px}
+.st-ans .st-l{font-weight:700;color:var(--muted)}
+.st-ans .st-v{font-family:var(--display);font-size:clamp(24px,5vw,34px);line-height:1.1}
+.st-ans.no{border-color:#9AE6B4}.st-ans.no .st-v{color:#2F855A}
+.st-ans.yes{border-color:#FC8181;background:linear-gradient(0deg,var(--surface),rgba(252,129,129,.1))}.st-ans.yes .st-v{color:#C53030}
+.st-list a{display:block;color:var(--ink);font-size:.9rem;padding:4px 0}
+.st-cal{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:18px;border-radius:16px;background:var(--surface-2)}
+.st-cal h2{margin:0 0 4px;font-size:1.15rem}.st-cal p{margin:0;color:var(--muted);font-size:.9rem}
+.st-btns{display:flex;gap:8px;flex-wrap:wrap}
+@media (max-width:560px){.st-grid{grid-template-columns:1fr}}

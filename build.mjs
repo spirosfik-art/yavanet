@@ -7,6 +7,7 @@ import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
+import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -219,6 +220,7 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
 <div class="grid"><div class="col">
 ${pushBox(lang, true)}
+<a class="fteaser" href="${P(lang, "/strike-today/")}"><span class="ft-ic" aria-hidden="true">📅</span><span class="ft-t"><b>${he ? "יש שביתה היום או מחר?" : "Strike today or tomorrow?"}</b><small>${he ? "תשובה מהירה, והוספת כל השביתות ליומן בטלפון" : "The quick answer, plus every strike in your phone calendar"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
 <section><div class="zone-h"><h2>${he ? "שביתות קרובות" : "Upcoming strikes"}</h2></div>
 ${upcomingStrikes.length ? `<div class="strikes">${upcomingStrikes.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${he ? "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍" : "No announced strikes affecting travellers right now. 👍"}</div>`}
 </section>
@@ -319,6 +321,20 @@ ${pushBox(lang, true)}
     write(P(lang, "/contact/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/contact/"), altPath: P(lang === "he" ? "en" : "he", "/contact/"), body: pg.body, breaking: breakingNow, activeNav: "contact",
       jsonld: [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: "S.F. Properties", url: abs(P(lang, "/contact/")), email: "info@sfproperties.gr", address: { "@type": "PostalAddress", streetAddress: "Π. Π. Γερμανού 77", addressLocality: "Φιλοθέη", postalCode: "15237", addressCountry: "GR" }, areaServed: "Athens, Greece", knowsLanguage: ["he", "en", "el"] }] }));
   }
+  /* Σελίδες προορισμών + «απεργία σήμερα/αύριο;» */
+  {
+    const TOMORROW = athensDay(new Date(NOW + 86400e3));
+    const crumbs = (name, u) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: lang === "he" ? "חופשה ביוון" : "Holiday in Greece", item: abs(P(lang, "/travel/")) }, { "@type": "ListItem", position: 3, name, item: abs(u) }] });
+    const faqLd = (faq) => ({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) });
+    for (const d of DESTS) {
+      const pg = destPage(lang, d, { articles, FLIGHTS, strikes: upcomingStrikes, fmtDay, SECTOR, TODAY });
+      const u = P(lang, `/d/${d.id}/`);
+      write(u, layout({ lang, title: pg.title, description: pg.description, path: u, altPath: P(lang === "he" ? "en" : "he", `/d/${d.id}/`), body: pg.body, breaking: breakingNow, activeNav: "travel", jsonld: [crumbs(d[lang], u), faqLd(pg.faq)] }));
+    }
+    const sp = strikeTodayPage(lang, { strikeArts, TODAY, TOMORROW, SECTOR, fmtDay });
+    const su = P(lang, "/strike-today/");
+    write(su, layout({ lang, title: sp.title, description: sp.description, path: su, altPath: P(lang === "he" ? "en" : "he", "/strike-today/"), body: sp.body, breaking: breakingNow, activeNav: "travel", activeSection: "strikes", jsonld: [crumbs(sp.title, su), faqLd(sp.faq)] }));
+  }
   /* Ευρετήριο αναζήτησης */
   {
     const he = lang === "he", L = (a, b) => (he ? a : b);
@@ -335,6 +351,8 @@ ${pushBox(lang, true)}
       ["/tools/", L("מחשבונים", "Calculators"), L("עלויות קנייה תשואה מס רכישה נוטריון", "buying costs yield transfer tax notary"), L("כלי", "Tool")],
       ["/directory/", L("יוון בעברית: עסקים ושירותים", "Greece in Hebrew: businesses"), L("עברית חבד כשר בית כנסת טיולים", "Hebrew Chabad kosher synagogue tours"), L("כלי", "Tool")],
       ["/guides/", L("כל המדריכים", "All guides"), L("מדריך", "guide"), L("עמוד", "Page")],
+      ["/strike-today/", L("יש שביתה היום או מחר ביוון?", "Strike in Greece today or tomorrow?"), L("שביתה היום מחר טיסות מעבורות מטרו יומן", "strike today tomorrow flights ferries metro calendar"), L("כלי", "Tool")],
+      ...DESTS.map((d) => ["/d/" + d.id + "/", d[lang], L("חדשות מזג אוויר טיסות שביתות מדריך", "news weather flights strikes guide") + " " + d.he + " " + d.en, L("יעד", "Destination")]),
       ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
     ].map(([u, tt, k, kind]) => ({ u: P(lang, u), t: tt, d: "", k, s: kind, p: 1 }));
     const arts = articles.map((a) => ({ u: P(lang, "/a/" + a.slug + "/"), t: a[lang].title, d: a[lang].dek, k: (a[lang].tldr || []).join(" "), s: (a.guide ? L("מדריך", "Guide") : sec(a.section)[lang]), g: a.guide ? 1 : 0, at: a.publishedAt.slice(0, 10) }));
@@ -485,10 +503,12 @@ for (const lang of LANGS) {
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
+  urls.push(P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });
 }
+write("strikes.ics", strikesICS(strikeArts, SITE.url.replace(/\/$/, "")));
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${abs(u)}</loc>${LASTMOD[u] ? `<lastmod>${LASTMOD[u]}</lastmod>` : `<lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>`}</url>`).join("\n")}\n</urlset>`);
 const recent = articles.filter((a) => NOW - new Date(a.publishedAt).getTime() < 2 * 86400e3);
 write("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>

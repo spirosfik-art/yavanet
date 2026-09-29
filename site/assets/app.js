@@ -221,6 +221,39 @@
       .then(function (d) { var arr = Array.isArray(d) ? d : [d]; ww.innerHTML = arr.map(function (x, i) { return "<div><span>" + esc(L.cities[i]) + "</span><span>" + Math.round(x.current.temperature_2m) + "°</span></div>"; }).join(""); })
       .catch(function () { ww.textContent = L.unavailable; });
   }
+  /* Σελίδες προορισμών: ζωντανός καιρός + πρόγνωση 5 ημερών (Open-Meteo, χωρίς κλειδί) */
+  var dwx = $(".dwx");
+  if (dwx) {
+    var he = dwx.getAttribute("data-lang") !== "en";
+    var WX = function (c) { return c === 0 ? ["☀️", he ? "שמשי" : "Sunny"] : c <= 2 ? ["🌤️", he ? "מעונן חלקית" : "Partly cloudy"] : c === 3 ? ["☁️", he ? "מעונן" : "Cloudy"] : c <= 48 ? ["🌫️", he ? "ערפל" : "Fog"] : c <= 67 ? ["🌧️", he ? "גשם" : "Rain"] : c <= 77 ? ["🌨️", he ? "שלג" : "Snow"] : c <= 82 ? ["🌦️", he ? "ממטרים" : "Showers"] : ["⛈️", he ? "סופות רעמים" : "Thunderstorms"]; };
+    fetch("https://api.open-meteo.com/v1/forecast?latitude=" + dwx.getAttribute("data-lat") + "&longitude=" + dwx.getAttribute("data-lng") + "&current=temperature_2m,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min&forecast_days=5&timezone=Europe%2FAthens")
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        var w = WX(d.current.weather_code);
+        dwx.querySelector(".dwx-now").textContent = w[0] + " " + Math.round(d.current.temperature_2m) + "°";
+        dwx.querySelector(".dwx-d").textContent = w[1] + " · " + (he ? "רוח " : "Wind ") + Math.round(d.current.wind_speed_10m) + (he ? " קמ״ש" : " km/h");
+        dwx.querySelector(".dwx-days").innerHTML = d.daily.time.map(function (t, i) {
+          var day = new Date(t + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { weekday: "short", timeZone: "UTC" });
+          return "<span><i>" + esc(day) + "</i>" + WX(d.daily.weather_code[i])[0] + "<b>" + Math.round(d.daily.temperature_2m_max[i]) + "°</b><small>" + Math.round(d.daily.temperature_2m_min[i]) + "°</small></span>";
+        }).join("");
+      })
+      .catch(function () { dwx.querySelector(".dwx-now").textContent = "–"; });
+  }
+  /* «Απεργία σήμερα/αύριο;»: υπολογισμός με ώρα Αθήνας, ώστε η απάντηση να είναι σωστή και μετά τα μεσάνυχτα */
+  var sd = document.getElementById("st-data");
+  if (sd) {
+    try {
+      var list = JSON.parse(sd.textContent), heS = C.lang !== "en";
+      var aday = function (off) { return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Athens" }).format(new Date(Date.now() + off * 864e5)); };
+      [["today", aday(0)], ["tomorrow", aday(1)]].forEach(function (x) {
+        var box = document.querySelector('.st-ans[data-day="' + x[0] + '"]'); if (!box) return;
+        var hits = list.filter(function (s) { return s.d.indexOf(x[1]) >= 0; });
+        box.className = "st-ans " + (hits.length ? "yes" : "no");
+        box.querySelector(".st-v").textContent = hits.length ? (heS ? "כן, יש שביתה" : "Yes, there is a strike") : (heS ? "לא, אין שביתה" : "No strike");
+        box.querySelector(".st-list").innerHTML = hits.map(function (s) { return '<a href="' + s.u + '">' + esc(s.s.join(" · ")) + ": " + esc(s.t) + "</a>"; }).join("");
+      });
+    } catch (e) { }
+  }
   var fx = $("#w-fx");
   if (fx) {
     // Ισοτιμία: κύρια πηγή ExchangeRate-API (ενημέρωση κάθε μέρα), εναλλακτική Frankfurter (ΕΚΤ)
