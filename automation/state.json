@@ -389,92 +389,92 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T14:26:01.211Z",
+      "at": "2026-09-29T14:39:15.501Z",
       "error": "HTTP 403",
-      "fails": 270
+      "fails": 271
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T14:26:03.596Z",
-      "items": 10
+      "at": "2026-09-29T14:39:16.015Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T14:26:04.207Z",
+      "at": "2026-09-29T14:39:16.622Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T14:26:05.269Z",
+      "at": "2026-09-29T14:39:17.371Z",
       "error": "HTTP 403",
-      "fails": 270
+      "fails": 271
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T14:26:06.204Z",
+      "at": "2026-09-29T14:39:18.106Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T14:26:06.566Z",
+      "at": "2026-09-29T14:39:18.475Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T14:26:07.447Z",
+      "at": "2026-09-29T14:39:19.364Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T14:26:08.094Z",
+      "at": "2026-09-29T14:39:20.005Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T14:26:09.238Z",
+      "at": "2026-09-29T14:39:20.814Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T14:26:09.283Z",
+      "at": "2026-09-29T14:39:20.938Z",
       "error": "HTTP 403",
-      "fails": 270
+      "fails": 271
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T14:26:09.825Z",
-      "items": 0
+      "at": "2026-09-29T14:39:21.383Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T14:26:09.870Z",
+      "at": "2026-09-29T14:39:21.722Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T14:26:10.069Z",
-      "items": 9
+      "at": "2026-09-29T14:39:21.932Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T14:26:10.243Z",
+      "at": "2026-09-29T14:39:22.066Z",
       "items": 6
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T14:26:10.380Z",
+      "at": "2026-09-29T14:39:22.136Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T14:26:05.007Z",
+      "at": "2026-09-29T14:39:17.168Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -541,6 +541,12 @@
         "title": "Netanyahu warns adversaries may attempt attacks ahead of elections",
         "at": "2026-09-29T16:30:04+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "kahal-shalom-synagogue-rhodes-guide",
+        "title": "Visiting Kahal Shalom Synagogue in Rhodes: A Guide",
+        "at": "2026-09-29T17:39:30+03:00",
+        "section": "jewish-greece"
       }
     ],
     "rejected": [
@@ -592,8 +598,9 @@
     "mykonos",
     "paros",
     "thessaloniki",
-    "etz-hayyim"
+    "etz-hayyim",
+    "kahal-shalom"
   ],
-  "lastEvergreen": 1790687214695,
+  "lastEvergreen": 1790692762142,
   "pushKey": "ok"
 }
