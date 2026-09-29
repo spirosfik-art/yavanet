@@ -278,91 +278,92 @@
     "f5ae358979a1": 1790637739950,
     "699633367811": 1790641809287,
     "a0f88eb3210a": 1790643835019,
-    "61f3f66feb5d": 1790646628179
+    "61f3f66feb5d": 1790646628179,
+    "43b8620d6dee": 1790647332480
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T01:50:17.655Z",
+      "at": "2026-09-29T02:02:02.071Z",
       "error": "HTTP 403",
-      "fails": 223
+      "fails": 224
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T01:50:20.046Z",
+      "at": "2026-09-29T02:02:04.806Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T01:50:20.786Z",
+      "at": "2026-09-29T02:02:05.808Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T01:50:21.671Z",
+      "at": "2026-09-29T02:02:06.697Z",
       "error": "HTTP 403",
-      "fails": 223
+      "fails": 224
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T01:50:22.437Z",
+      "at": "2026-09-29T02:02:07.532Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T01:50:22.853Z",
+      "at": "2026-09-29T02:02:07.903Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T01:50:24.033Z",
+      "at": "2026-09-29T02:02:09.010Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T01:50:24.728Z",
+      "at": "2026-09-29T02:02:09.971Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T01:50:25.420Z",
+      "at": "2026-09-29T02:02:10.738Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T01:50:25.558Z",
+      "at": "2026-09-29T02:02:10.787Z",
       "error": "HTTP 403",
-      "fails": 223
+      "fails": 224
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T01:50:26.081Z",
+      "at": "2026-09-29T02:02:11.393Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T01:50:26.454Z",
+      "at": "2026-09-29T02:02:11.456Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T01:50:27.086Z",
+      "at": "2026-09-29T02:02:11.500Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T01:50:27.480Z",
+      "at": "2026-09-29T02:02:11.677Z",
       "items": 5
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T01:50:27.612Z",
+      "at": "2026-09-29T02:02:11.728Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T01:50:21.528Z",
+      "at": "2026-09-29T02:02:06.443Z",
       "items": 30
     }
   },
@@ -393,11 +394,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T01:50:28.179Z",
+    "at": "2026-09-29T02:02:12.480Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | British Tourist Rushed to Hospital After Suspected Pufferfish Bite"
+      "· gct | Academy of Athens to Screen Birth of Democracy Doco"
     ]
   },
   "evergreenDone": [
