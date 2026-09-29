@@ -318,98 +318,101 @@
     "8d8bc31ed4ea": 1790668992476,
     "ed0901c5f004": 1790670405140,
     "130235602179": 1790670405140,
-    "0d4ed4058109": 1790670405140
+    "0d4ed4058109": 1790670405140,
+    "a9af0d0cc845": 1790671197256,
+    "ef53cbe2616c": 1790671197256,
+    "bf2772e1a7ca": 1790671197256
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T08:26:34.103Z",
+      "at": "2026-09-29T08:39:46.659Z",
       "error": "HTTP 403",
-      "fails": 247
+      "fails": 248
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T08:26:36.256Z",
+      "at": "2026-09-29T08:39:48.924Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T08:26:37.232Z",
+      "at": "2026-09-29T08:39:49.656Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T08:26:38.095Z",
+      "at": "2026-09-29T08:39:50.518Z",
       "error": "HTTP 403",
-      "fails": 247
+      "fails": 248
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T08:26:38.821Z",
+      "at": "2026-09-29T08:39:51.301Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T08:26:39.209Z",
+      "at": "2026-09-29T08:39:51.658Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T08:26:41.037Z",
+      "at": "2026-09-29T08:39:52.612Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T08:26:41.683Z",
+      "at": "2026-09-29T08:39:53.402Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T08:26:42.373Z",
+      "at": "2026-09-29T08:39:54.227Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T08:26:42.508Z",
+      "at": "2026-09-29T08:39:54.297Z",
       "error": "HTTP 403",
-      "fails": 247
+      "fails": 248
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T08:26:42.987Z",
+      "at": "2026-09-29T08:39:54.766Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T08:26:43.258Z",
+      "at": "2026-09-29T08:39:55.107Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T08:26:43.882Z",
+      "at": "2026-09-29T08:39:55.143Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:26:44.243Z",
-      "items": 2
+      "at": "2026-09-29T08:39:55.522Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T08:26:44.295Z",
+      "at": "2026-09-29T08:39:55.692Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T08:26:38.005Z",
+      "at": "2026-09-29T08:39:50.332Z",
       "items": 30
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-29",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "complete-guide-to-kos-island",
@@ -433,6 +436,12 @@
         "slug": "thessaloniki-airport-record-passengers-winter-haifa-route",
         "title": "Thessaloniki Airport Targets Record 8.2 Million Passengers",
         "at": "2026-09-29T09:29:40+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "the-comprehensive-guide-to-mykonos",
+        "title": "The Mykonos Guide: Everything to Know About the Island of the Winds",
+        "at": "2026-09-29T11:40:08+03:00",
         "section": "travel"
       }
     ],
@@ -464,13 +473,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T08:26:45.140Z",
+    "at": "2026-09-29T08:39:57.256Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· ert | Δυτική Όχθη: Έποικοι πυρπόλησαν κτήρια, οχήματα και παλαιστινιακές περιουσίες στο χωριό Τζ",
-      "· ert | Έσβησε η φωτιά σε φορτηγό όχημα στο Δράπανο Κοζάνης – Αποκατάσταση της κυκλοφορίας",
-      "· ert | Έκρηξη στην Πλάκα: «Να απευθύνονται στο Τμήμα Επικινδύνων της Πολεοδομίας όσοι αισθάνονται"
+      "· gct | Athens Airport named Europe’s most efficient large airport",
+      "· gct | Jerusalem Post: Turkey Libya maritime deal raises Israeli concerns over Mediterranean ship",
+      "· naftemporiki | Δρέπανο Κοζάνης: Κατασβέθη η φωτιά σε φορτηγό με φωτοβολταϊκά πάνελ στην Εγνατία"
     ]
   },
   "evergreenDone": [
@@ -483,8 +492,9 @@
     "naxos",
     "halkidiki",
     "kos",
-    "zakynthos"
+    "zakynthos",
+    "mykonos"
   ],
-  "lastEvergreen": 1790667467272,
+  "lastEvergreen": 1790671197261,
   "pushKey": "ok"
 }
