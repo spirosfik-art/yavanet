@@ -66,15 +66,20 @@
   }
   function closeStory() { clearTimeout(sTimer); var sv = $("#sv"); if (sv) sv.hidden = true; lockScroll(false); }
 
-  /* ---------- Cookies & consent (GA4 / Clarity φορτώνουν μόνο μετά από συγκατάθεση) ---------- */
+  /* ---------- Cookies & consent ----------
+     GA4 σε «Consent Mode»: φορτώνει πάντα, αλλά ΧΩΡΙΣ cookies και αναγνωριστικά μέχρι να πατήσει κάποιος «Αποδοχή».
+     Χωρίς συγκατάθεση στέλνει μόνο ανώνυμα σήματα, ώστε το Analytics να εκτιμά σωστά την επισκεψιμότητα.
+     Το Clarity (καταγραφή συμπεριφοράς) φορτώνει ΜΟΝΟ μετά από συγκατάθεση. */
   var loaded = {};
+  function loadGA() {
+    if (!C.ga4 || loaded.ga) return; loaded.ga = true;
+    var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + C.ga4; document.head.appendChild(s);
+    gtag("js", new Date());
+    gtag("config", C.ga4, { anonymize_ip: true, content_group: C.grp || "", site_language: C.lang });
+  }
   function applyConsent(c) {
     gtag("consent", "update", { analytics_storage: c.stats ? "granted" : "denied", ad_storage: c.ads ? "granted" : "denied", ad_user_data: c.ads ? "granted" : "denied", ad_personalization: c.ads ? "granted" : "denied" });
-    if (c.stats && C.ga4 && !loaded.ga) {
-      loaded.ga = true;
-      var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + C.ga4; document.head.appendChild(s);
-      gtag("js", new Date()); gtag("config", C.ga4, { anonymize_ip: true });
-    }
+    loadGA();
     if (c.stats && C.clarity && !loaded.cl) {
       loaded.cl = true;
       (function (c2, l, a, r, i) { c2[a] = c2[a] || function () { (c2[a].q = c2[a].q || []).push(arguments); }; var t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; var y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", C.clarity);
@@ -88,7 +93,7 @@
     try { fetch("/api/consent", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(c), keepalive: true }); } catch (e) { }
   }
   var saved = null; try { saved = JSON.parse(store("yv-consent") || "null"); } catch (e) { }
-  if (saved) applyConsent(saved); else if ($("#cookie")) $("#cookie").hidden = false;
+  if (saved) applyConsent(saved); else { loadGA(); if ($("#cookie")) $("#cookie").hidden = false; }
 
   /* Μετρήσεις συμπεριφοράς: κλικ σε banner, φόρμες, κοινοποιήσεις, γλώσσα (στέλνονται μόνο αν υπάρχει συγκατάθεση) */
   function track(name, params) { try { if (loaded.ga) gtag("event", name, params || {}); } catch (e) { } }
@@ -123,6 +128,12 @@
     if (el.closest(".ad")) track("ad_click", { placement: "house" });
     if (el.classList.contains("wa") || el.classList.contains("wafloat")) track("whatsapp_click");
     if (el.closest(".lang")) track("language_switch", { to: el.getAttribute("hreflang") });
+    if (el.closest(".fl")) track("flight_click", { destination: (el.querySelector(".fl-d b") || {}).textContent || "" });
+    if (el.closest(".fteaser")) track("flight_teaser_click");
+    if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
+    var href = el.getAttribute("href") || "";
+    if (href.indexOf("tel:") === 0) track("phone_click");
+    if (href.indexOf("mailto:") === 0) track("email_click");
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") { if (!$("#sv").hidden) closeStory(); else if (!$("#feed").hidden) closeFeed(); } });
 
