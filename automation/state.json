@@ -305,91 +305,95 @@
     "cb2cbd0f5d95": 1790663365037,
     "4e047c788d1b": 1790663365037,
     "6aee78e89fef": 1790663365037,
-    "490b2ce73fd7": 1790663365037
+    "490b2ce73fd7": 1790663365037,
+    "e44340aafbd6": 1790664371379,
+    "2196cfe3d441": 1790664371379,
+    "e7c5bb52c1ff": 1790664371379,
+    "11c97a884de2": 1790664371379
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-29T06:29:13.071Z",
+      "at": "2026-09-29T06:45:59.124Z",
       "error": "HTTP 403",
-      "fails": 241
+      "fails": 242
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-29T06:29:16.633Z",
+      "at": "2026-09-29T06:46:01.418Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-29T06:29:17.431Z",
+      "at": "2026-09-29T06:46:02.192Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-29T06:29:18.097Z",
+      "at": "2026-09-29T06:46:02.973Z",
       "error": "HTTP 403",
-      "fails": 241
+      "fails": 242
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-29T06:29:18.794Z",
+      "at": "2026-09-29T06:46:03.657Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-29T06:29:19.134Z",
+      "at": "2026-09-29T06:46:04.039Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-29T06:29:20.015Z",
+      "at": "2026-09-29T06:46:04.940Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-29T06:29:20.721Z",
+      "at": "2026-09-29T06:46:05.633Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-29T06:29:21.581Z",
+      "at": "2026-09-29T06:46:06.749Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-29T06:29:21.694Z",
+      "at": "2026-09-29T06:46:06.882Z",
       "error": "HTTP 403",
-      "fails": 241
+      "fails": 242
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-29T06:29:22.138Z",
+      "at": "2026-09-29T06:46:07.333Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-29T06:29:22.210Z",
+      "at": "2026-09-29T06:46:07.733Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-29T06:29:22.745Z",
-      "items": 6
+      "at": "2026-09-29T06:46:08.325Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T06:29:23.075Z",
+      "at": "2026-09-29T06:46:08.745Z",
       "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-29T06:29:23.121Z",
+      "at": "2026-09-29T06:46:08.935Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-29T06:29:17.923Z",
+      "at": "2026-09-29T06:46:02.860Z",
       "items": 30
     }
   },
@@ -445,14 +449,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T06:29:25.037Z",
+    "at": "2026-09-29T06:46:11.379Z",
     "considered": 4,
-    "picked": 1,
+    "picked": 0,
     "items": [
-      "✓ gct | Thessaloniki Airport Eyes Record 8.2 Million Passengers",
-      "· ert | Συρία: Πυρκαγιά σε αγωγό φυσικού αερίου από πιθανή δολιοφθορά",
-      "· gct | Could Olive Oil Compounds Help People Sleep Better?",
-      "· gct | RBA Raises Rates Again Pushing Typical Mortgage Up $480 a Month"
+      "· gct | Greece Offers €10,000 Incentive to Move to Rural Areas",
+      "· gct | Greece Takes Helm Of UN Security Council At Critical Moment",
+      "· naftemporiki | Αλόννησος: Το ελληνικό νησί που ξεχωρίζει για βιώσιμο τουρισμό το 2027",
+      "· ingr | Ακρίβεια: Μέγγενη για την κυβέρνηση η λαϊκή δυσαρέσκεια και η έκδηλη δυσφορία γαλάζιων βου"
     ]
   },
   "evergreenDone": [
