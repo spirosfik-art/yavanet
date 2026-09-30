@@ -474,55 +474,56 @@
     "0a6282a59a07": 1790756863458,
     "ddbe2c19ea77": 1790756863458,
     "bccaf358859e": 1790756863458,
-    "8586045c782f": 1790756863458
+    "8586045c782f": 1790756863458,
+    "641016337429": 1790757701651
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T08:27:30.433Z",
+      "at": "2026-09-30T08:41:29.883Z",
       "error": "HTTP 403",
-      "fails": 338
+      "fails": 339
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T08:27:34.050Z",
+      "at": "2026-09-30T08:41:32.327Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T08:27:34.974Z",
+      "at": "2026-09-30T08:41:32.998Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T08:27:35.855Z",
+      "at": "2026-09-30T08:41:33.772Z",
       "error": "HTTP 403",
-      "fails": 338
+      "fails": 339
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T08:27:37.082Z",
+      "at": "2026-09-30T08:41:34.670Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T08:27:37.448Z",
+      "at": "2026-09-30T08:41:35.944Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T08:27:38.613Z",
+      "at": "2026-09-30T08:41:37.230Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T08:27:39.383Z",
+      "at": "2026-09-30T08:41:37.978Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T08:27:40.495Z",
+      "at": "2026-09-30T08:41:38.867Z",
       "items": 10
     },
     "toi-greece": {
@@ -533,23 +534,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T08:27:41.237Z",
+      "at": "2026-09-30T08:41:39.460Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T08:27:41.493Z",
+      "at": "2026-09-30T08:41:39.790Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T08:27:41.796Z",
-      "items": 3
+      "at": "2026-09-30T08:41:40.102Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:27:42.352Z",
-      "items": 3
+      "at": "2026-09-30T08:41:40.622Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -558,7 +559,7 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:27:35.648Z",
+      "at": "2026-09-30T08:41:33.630Z",
       "items": 30
     }
   },
@@ -629,15 +630,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T08:27:43.458Z",
-    "considered": 5,
-    "picked": 1,
+    "at": "2026-09-30T08:41:41.651Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "✓ ert | «Ακούσαμε ουρλιαχτά και είδαμε αίματα»: Συγκλονιστικές μαρτυρίες από την πτήση της FlyDuba",
-      "· gtp | Greece’s International Air Arrivals Reach 20.6 Million in January-August 2026",
-      "· gtp | Greece to Move Ahead with Cyprus Electricity Interconnection",
-      "· gtp | Lonely Planet Picks Greece’s Aegean for Wreck and Cave Diving in 2027",
-      "· gtp | Porto Carras Offers Accommodation to Teachers in Neos Marmaras"
+      "· naftemporiki | Πανικός στην πτήση Ντουμπάι – Τελ Αβίβ: Αναφορές ότι ο ένας πιλότος προσπάθησε να ρίξει το"
     ]
   },
   "evergreenDone": [
