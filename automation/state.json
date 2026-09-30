@@ -570,55 +570,57 @@
     "f0d369d74fb9": 1790801423118,
     "d8a05a705a09": 1790804277799,
     "e6cf557e92c7": 1790804277799,
-    "a9db155f8887": 1790804277799
+    "a9db155f8887": 1790804277799,
+    "a60f2101dacb": 1790805149136,
+    "a6075ecb9a84": 1790805149136
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T21:37:38.250Z",
+      "at": "2026-09-30T21:52:15.057Z",
       "error": "HTTP 403",
-      "fails": 390
+      "fails": 391
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T21:37:38.920Z",
-      "items": 0
+      "at": "2026-09-30T21:52:17.787Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T21:37:39.873Z",
+      "at": "2026-09-30T21:52:18.729Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T21:37:41.136Z",
+      "at": "2026-09-30T21:52:19.362Z",
       "error": "HTTP 403",
-      "fails": 390
+      "fails": 391
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T21:37:42.529Z",
+      "at": "2026-09-30T21:52:20.681Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T21:37:42.693Z",
+      "at": "2026-09-30T21:52:20.786Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T21:37:43.761Z",
+      "at": "2026-09-30T21:52:21.898Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T21:37:44.738Z",
+      "at": "2026-09-30T21:52:22.809Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T21:37:45.626Z",
+      "at": "2026-09-30T21:52:23.853Z",
       "items": 10
     },
     "toi-greece": {
@@ -629,22 +631,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T21:37:46.180Z",
+      "at": "2026-09-30T21:52:24.417Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T21:37:46.448Z",
+      "at": "2026-09-30T21:52:24.681Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T21:37:46.675Z",
+      "at": "2026-09-30T21:52:25.062Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T21:37:47.193Z",
+      "at": "2026-09-30T21:52:25.651Z",
       "items": 10
     },
     "ynet-greece": {
@@ -654,12 +656,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T21:37:40.881Z",
+      "at": "2026-09-30T21:52:19.038Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T21:37:48.074Z",
+      "at": "2026-09-30T21:52:26.461Z",
       "items": 0
     },
     "hcg": {
@@ -670,7 +672,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T21:37:50.416Z",
+      "at": "2026-09-30T21:52:28.271Z",
       "items": 2
     }
   },
@@ -679,7 +681,13 @@
     "date": "2026-10-01",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Israeli Ambassador To Greece Responds to Flydubai Incident",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T21:52:33.447Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -711,13 +719,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T21:37:57.799Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-09-30T21:52:29.136Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· gct | Hero Indian Pilot in Stable Condition After Flydubai Terror Attack",
-      "· ingr | Πλάκα: Δικαίωση ζητούν οι συγγενείς των Αμερικανών θυμάτων – «Μην αφήσετε την τραγωδία να ",
-      "· naftemporiki | Πτήση θρίλερ της flydubai: «Προσευχόταν υπερβολικά και δεν έδινε το χέρι στις γυναίκες» – "
+      "· gct | School Honours Jewish Students Murdered During Holocaust",
+      "✓ gct | Israeli Ambassador To Greece Responds to Flydubai Incident"
     ]
   },
   "evergreenDone": [
