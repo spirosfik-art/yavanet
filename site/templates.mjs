@@ -395,7 +395,7 @@ export function medTeaser(lang) {
   const he = lang === "he";
   return `<a class="sfteaser medteaser" href="${P(lang, "/a/airbnb-near-hospitals-athens-medical-tourism/")}" data-sf="teaser-medtour">
   <span class="sft-img"><img src="https://images.unsplash.com/photo-1751945965597-71171ec7a458?auto=format&fit=crop&w=720&q=70" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span><span class="mt-badge"><b>90%</b>${he ? "תפוסה" : "occupancy"}</span></span>
-  <span class="sft-body"><small>${he ? "פרויקט חדש · Airbnb באתונה" : "New project · Athens Airbnb"}</small><b>${he ? "90% תפוסה כל השנה: ה-Airbnb ליד בתי החולים" : "90% occupancy all year: the Airbnb next to the hospitals"}</b><span>${he ? "אסי דורון ו-S.F. Properties, באמפלוקיפי ובפסיכיקו." : "Asi Doron and S.F. Properties, in Ambelokipi and Psychiko."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
+  <span class="sft-body"><small>${he ? "פרויקט חדש · Airbnb באתונה" : "New project · Athens Airbnb"}</small><b>${he ? "90% תפוסה כל השנה: ה-Airbnb ליד בתי החולים" : "90% occupancy all year: the Airbnb next to the hospitals"}</b><span>${he ? "אסי דורון ו-S.F. Properties, באזורים נבחרים ליד בתי החולים." : "Asi Doron and S.F. Properties, in carefully chosen areas near the hospitals."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
 </a>`;
 }
 
