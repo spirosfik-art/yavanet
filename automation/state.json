@@ -492,55 +492,57 @@
     "2be0091382cc": 1790758943583,
     "7d85232ce914": 1790760332499,
     "8c01de659bf3": 1790760332499,
-    "94c96f717299": 1790760332499
+    "94c96f717299": 1790760332499,
+    "8df26111fb03": 1790762581328,
+    "211da393faae": 1790762581328
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T09:53:24.728Z",
+      "at": "2026-09-30T10:02:50.239Z",
       "error": "HTTP 403",
-      "fails": 344
+      "fails": 345
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T09:53:27.478Z",
+      "at": "2026-09-30T10:02:52.347Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T09:53:28.408Z",
+      "at": "2026-09-30T10:02:52.989Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T09:53:29.698Z",
+      "at": "2026-09-30T10:02:53.772Z",
       "error": "HTTP 403",
-      "fails": 344
+      "fails": 345
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T09:53:31.199Z",
+      "at": "2026-09-30T10:02:54.504Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T09:53:31.571Z",
+      "at": "2026-09-30T10:02:54.851Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T09:53:32.833Z",
+      "at": "2026-09-30T10:02:55.916Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T09:53:33.831Z",
-      "items": 2
+      "at": "2026-09-30T10:02:56.530Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T09:53:34.755Z",
+      "at": "2026-09-30T10:02:57.343Z",
       "items": 10
     },
     "toi-greece": {
@@ -551,22 +553,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T09:53:35.352Z",
+      "at": "2026-09-30T10:02:57.729Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T09:53:35.614Z",
+      "at": "2026-09-30T10:02:57.862Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T09:53:36.005Z",
-      "items": 2
+      "at": "2026-09-30T10:02:58.027Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T09:53:36.563Z",
+      "at": "2026-09-30T10:02:58.159Z",
       "items": 1
     },
     "ynet-greece": {
@@ -576,12 +578,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T09:53:29.410Z",
+      "at": "2026-09-30T10:02:53.589Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T09:53:37.382Z",
+      "at": "2026-09-30T10:02:59.001Z",
       "items": 0
     },
     "hcg": {
@@ -592,14 +594,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T09:53:38.950Z",
+      "at": "2026-09-30T10:03:00.284Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -623,6 +625,12 @@
         "slug": "nafplio-guide-peloponnese-greece",
         "title": "Nafplio: The Ultimate Guide to Greece's Prettiest Town",
         "at": "2026-09-30T11:54:17+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "delphi-day-trip-from-athens-guide",
+        "title": "Day Trip from Athens to Delphi: What to See and How to Get There",
+        "at": "2026-09-30T13:03:17+03:00",
         "section": "travel"
       }
     ],
@@ -651,6 +659,11 @@
         "title": "Israel now treats Flydubai cockpit drama as attempted terror attack",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T09:25:36.821Z"
+      },
+      {
+        "title": "Πτήση FlyDubai: Ο συγκυβερνήτης στο επίκεντρο του θρίλερ – Τι φέρεται να συνέβη στο πιλοτήριο",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T10:03:05.488Z"
       }
     ],
     "errors": []
@@ -679,13 +692,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T09:25:32.499Z",
-    "considered": 3,
+    "at": "2026-09-30T10:03:01.328Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· ingr | Πιλότος φέρεται να επιχείρησε να ρίξει επιβατικό Boeing – Yποψίες για τρομοκράτες",
-      "· ert | Εξαντλήθηκαν τα εισιτήρια και για τις δύο πιλοτικές πτήσεις Ιωαννίνων – Ηρακλείου",
-      "✓ gct | Israel now treats Flydubai cockpit drama as attempted terror attack"
+      "✓ ert | Πτήση FlyDubai: Ο συγκυβερνήτης στο επίκεντρο του θρίλερ – Τι φέρεται να συνέβη στο πιλοτή",
+      "· ingr | Αναβλήθηκε λόγω κακοκαιρίας η πρεμιέρα του Τσιτσιπά στο Τόκιο (pics)"
     ]
   },
   "evergreenDone": [
@@ -708,8 +720,9 @@
     "jews-corfu",
     "greece-israel",
     "meteora",
-    "nafplio"
+    "nafplio",
+    "delphi"
   ],
-  "lastEvergreen": 1790758438699,
+  "lastEvergreen": 1790762585494,
   "pushKey": "ok"
 }
