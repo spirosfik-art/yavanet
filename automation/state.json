@@ -541,55 +541,56 @@
     "1fb8e037a5f5": 1790781138445,
     "4a080995e490": 1790782234548,
     "f3a115bc6e6a": 1790782234548,
-    "32dd16331173": 1790784585501
+    "32dd16331173": 1790784585501,
+    "8e50b053c4a7": 1790786455349
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T16:27:58.626Z",
+      "at": "2026-09-30T16:40:38.344Z",
       "error": "HTTP 403",
-      "fails": 369
+      "fails": 370
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T16:27:59.948Z",
-      "items": 0
+      "at": "2026-09-30T16:40:41.346Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T16:28:00.742Z",
+      "at": "2026-09-30T16:40:42.302Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T16:28:02.027Z",
+      "at": "2026-09-30T16:40:43.149Z",
       "error": "HTTP 403",
-      "fails": 369
+      "fails": 370
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T16:28:03.352Z",
+      "at": "2026-09-30T16:40:44.510Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T16:28:03.756Z",
+      "at": "2026-09-30T16:40:45.251Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T16:28:04.825Z",
+      "at": "2026-09-30T16:40:46.552Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T16:28:05.604Z",
-      "items": 2
+      "at": "2026-09-30T16:40:47.571Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T16:28:06.565Z",
+      "at": "2026-09-30T16:40:48.447Z",
       "items": 10
     },
     "toi-greece": {
@@ -600,23 +601,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T16:28:07.136Z",
+      "at": "2026-09-30T16:40:49.012Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T16:28:07.513Z",
+      "at": "2026-09-30T16:40:49.261Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T16:28:08.213Z",
+      "at": "2026-09-30T16:40:49.369Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T16:28:08.534Z",
-      "items": 5
+      "at": "2026-09-30T16:40:49.923Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -625,12 +626,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T16:28:01.637Z",
+      "at": "2026-09-30T16:40:43.035Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T16:28:09.256Z",
+      "at": "2026-09-30T16:40:50.730Z",
       "items": 0
     },
     "hcg": {
@@ -641,14 +642,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T16:28:11.112Z",
+      "at": "2026-09-30T16:40:52.156Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -721,6 +722,12 @@
         "title": "Greek Food Guide: Traditional Dishes and Dining Tips",
         "at": "2026-09-30T18:31:12+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "healthcare-system-in-greece-guide",
+        "title": "Healthcare in Greece: A Guide for Residents",
+        "at": "2026-09-30T19:41:13+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -768,6 +775,11 @@
         "title": "Νετανιάχου: Ένας από τους πιλότους επιχείρησε να ρίξει το αεροσκάφος της FlyDubai",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T14:28:45.876Z"
+      },
+      {
+        "title": "Πτήση FlyDubai: Ως απόπειρα τρομοκρατικής ενέργειας αντιμετωπίζει το Ισραήλ τη συμπλοκή στο πιλοτήριο – «Ένιωσα ότι επαναλαμβάνεται η 11η Σε",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T16:41:00.231Z"
       }
     ],
     "errors": []
@@ -796,11 +808,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T16:09:45.501Z",
+    "at": "2026-09-30T16:40:55.349Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Στο Τελ Αβίβ προσγειώθηκε πτήση της flydubai μετά την εκτροπή στη Σαουδική Αραβία"
+      "✓ ert | Πτήση FlyDubai: Ως απόπειρα τρομοκρατικής ενέργειας αντιμετωπίζει το Ισραήλ τη συμπλοκή στ"
     ]
   },
   "evergreenDone": [
@@ -827,9 +839,10 @@
     "delphi",
     "athens-riviera",
     "acropolis",
-    "greek-cuisine"
+    "greek-cuisine",
+    "healthcare-greece"
   ],
-  "lastEvergreen": 1790782234555,
+  "lastEvergreen": 1790786460237,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
