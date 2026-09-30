@@ -371,10 +371,19 @@ export function sfTeaser(lang) {
 </a>`;
 }
 
+export function medTeaser(lang) {
+  const he = lang === "he";
+  return `<a class="sfteaser medteaser" href="${P(lang, "/a/airbnb-near-hospitals-athens-medical-tourism/")}" data-sf="teaser-medtour">
+  <span class="sft-img"><img src="https://images.unsplash.com/photo-1751945965597-71171ec7a458?auto=format&fit=crop&w=720&q=70" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span><span class="mt-badge"><b>90%</b>${he ? "תפוסה" : "occupancy"}</span></span>
+  <span class="sft-body"><small>${he ? "פרויקט חדש · Airbnb באתונה" : "New project · Athens Airbnb"}</small><b>${he ? "90% תפוסה כל השנה: ה-Airbnb ליד בתי החולים" : "90% occupancy all year: the Airbnb next to the hospitals"}</b><span>${he ? "אסי דורון ו-S.F. Properties, באמפלוקיפי ובפסיכיקו." : "Asi Doron and S.F. Properties, in Ambelokipi and Psychiko."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
+</a>`;
+}
+
 export function widgets(lang, mostRead, noPush = false) {
   const t = T[lang];
   return `<div class="side">
   ${sfTeaser(lang)}
+  ${medTeaser(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
   ${noPush ? "" : pushBox(lang)}
   <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>

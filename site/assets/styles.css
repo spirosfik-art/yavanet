@@ -1157,3 +1157,8 @@ button.pf-btn{cursor:pointer;font:inherit}
 }
 @media (prefers-color-scheme:dark){.mtx-big{color:#8FD0F0}.mtx-cmp .r:last-child .win,.mtx-tm span,.mtx-ic{color:#6FE3C4}}
 @media (prefers-reduced-motion:reduce){.mtx-ring circle.v{animation:none}.mtx-gal img{transition:none}}
+
+.medteaser{background:linear-gradient(160deg,#0B3A5B,#0E5A4A)}
+.medteaser .sft-body small,.medteaser .sft-body i{color:#8FF0D6}
+.mt-badge{position:absolute;bottom:10px;inset-inline-start:10px;display:grid;justify-items:center;line-height:1;background:#8FF0D6;color:#062d25;border-radius:14px;padding:8px 10px;font-size:11px;font-weight:800;box-shadow:0 8px 20px -8px rgba(0,0,0,.6)}
+.mt-badge b{font-family:var(--display);font-size:24px;margin-bottom:2px}
