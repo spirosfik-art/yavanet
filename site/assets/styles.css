@@ -1312,3 +1312,7 @@ article.full .art img,.mtx-gal img,.pf-gal img,.sfx-gal img,.pf-photo img,img.pf
 .zoom-x{position:absolute;top:12px;inset-inline-end:12px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.18);color:#fff;font-size:28px;line-height:1;cursor:pointer}
 @keyframes zin{from{opacity:0}to{opacity:1}}
 a.kicker{text-decoration:none}a.kicker:hover{filter:brightness(1.1);text-decoration:underline}
+/* Καιρός στο πλάι: κάθε πόλη ανοίγει τη σελίδα προορισμού με πρόγνωση */
+.rows a.wrow{display:flex;justify-content:space-between;gap:10px;font-size:14.5px;color:inherit;text-decoration:none;border-radius:6px;padding:2px 4px;margin:0 -4px}
+.rows a.wrow span:last-child{font-weight:700}
+.rows a.wrow:hover{background:rgba(0,0,0,.05)}

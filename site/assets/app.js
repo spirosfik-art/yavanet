@@ -330,7 +330,7 @@
     var lat = CITIES.map(function (c) { return c[0]; }).join(","), lon = CITIES.map(function (c) { return c[1]; }).join(",");
     fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=temperature_2m&timezone=Europe%2FAthens")
       .then(function (r) { return r.json(); })
-      .then(function (d) { var arr = Array.isArray(d) ? d : [d]; ww.innerHTML = arr.map(function (x, i) { return "<div><span>" + esc(L.cities[i]) + "</span><span>" + Math.round(x.current.temperature_2m) + "°</span></div>"; }).join(""); })
+      .then(function (d) { var arr = Array.isArray(d) ? d : [d]; var ids = ["athens", "thessaloniki", "crete", "rhodes", "mykonos"], pre = C.lang === "en" ? "/en" : ""; ww.innerHTML = arr.map(function (x, i) { return '<a class="wrow" href="' + pre + "/d/" + ids[i] + '/"><span>' + esc(L.cities[i]) + "</span><span>" + Math.round(x.current.temperature_2m) + "° ›</span></a>"; }).join(""); })
       .catch(function () { ww.textContent = L.unavailable; });
   }
   /* Σελίδες προορισμών: ζωντανός καιρός + πρόγνωση 5 ημερών (Open-Meteo, χωρίς κλειδί) */
