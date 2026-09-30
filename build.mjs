@@ -152,7 +152,7 @@ ${flightTeaser(lang)}
 </div>
 <script type="application/json" id="yv-data">${JSON.stringify(fd).replace(/</g, "\\u003c")}</script>`;
   write(P(lang, "/"), layout({ lang, title: "", description: t.tagline, path: P(lang, "/"), altPath: P(lang === "he" ? "en" : "he", "/"), body: home, breaking: breakingNow, activeNav: "home",
-    jsonld: [orgLd, { "@context": "https://schema.org", "@type": "WebSite", name: lang === "he" ? SITE.nameHe : SITE.name, alternateName: lang === "he" ? SITE.name : SITE.nameHe, url: abs(P(lang, "/")), inLanguage: lang }] }));
+    jsonld: [orgLd, { "@context": "https://schema.org", "@type": "WebSite", name: lang === "he" ? SITE.nameHe : SITE.name, alternateName: lang === "he" ? SITE.name : SITE.nameHe, url: abs(P(lang, "/")), inLanguage: lang, potentialAction: { "@type": "SearchAction", target: { "@type": "EntryPoint", urlTemplate: abs(P(lang, "/")) + "?q={search_term_string}" }, "query-input": "required name=search_term_string" } }] }));
 
   /* Ενότητες */
   for (const s of SECTIONS) {
@@ -182,7 +182,10 @@ ${newsletterBox(lang)}
     const url = P(lang, `/a/${a.slug}/`);
     const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].seoDesc || a[lang].dek, ...(a[lang].keywords?.length ? { keywords: a[lang].keywords.join(", ") } : {}), inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: photoOf(a) ? [photoOf(a), abs("/og.png")] : [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
     const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: sec(a.section)[lang], item: abs(P(lang, `/s/${a.section}/`)) }, { "@type": "ListItem", position: 3, name: a[lang].title }] };
-    write(url, layout({ lang, title: a[lang].title, seoTitle: a[lang].seoTitle || null, description: a[lang].seoDesc || a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs, ...(a[lang].profile && a[lang].profile.phone ? [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: a[lang].profile.name, alternateName: a.slug.startsWith("asi-doron") ? ["אסי דורון", "Asi Doron", "AS-IS by Asi Doron"] : undefined, ...(a[lang].profile.logo ? { logo: abs(a[lang].profile.logo) } : {}), image: abs(a[lang].profile.photo), telephone: a[lang].profile.phone, url: abs(url), knowsLanguage: ["he", "en"], areaServed: (a[lang].profile.areas || []).map((x) => ({ "@type": "Place", name: x })), description: a[lang].dek }] : [])],
+    // Οδηγοί: οι ενότητες-ερωτήσεις (τίτλος με «?») γίνονται FAQ για Google και για ChatGPT/Gemini
+    const faqItems = a.guide ? [...String(a[lang].body || "").matchAll(/^#{2,3} ([^\n]+\?)\s*\n+([\s\S]*?)(?=\n#{2,3} |$)/gm)].map((m) => [m[1].trim(), plain(m[2]).replace(/\s+/g, " ").trim().slice(0, 600)]).filter((x) => x[1].length > 30) : [];
+    const faqLdA = faqItems.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] : [];
+    write(url, layout({ lang, title: a[lang].title, seoTitle: a[lang].seoTitle || null, description: a[lang].seoDesc || a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs, ...faqLdA, ...(a[lang].profile && a[lang].profile.phone ? [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: a[lang].profile.name, alternateName: a.slug.startsWith("asi-doron") ? ["אסי דורון", "Asi Doron", "AS-IS by Asi Doron"] : undefined, ...(a[lang].profile.logo ? { logo: abs(a[lang].profile.logo) } : {}), image: abs(a[lang].profile.photo), telephone: a[lang].profile.phone, url: abs(url), knowsLanguage: ["he", "en"], areaServed: (a[lang].profile.areas || []).map((x) => ({ "@type": "Place", name: x })), description: a[lang].dek }] : [])],
       image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
   });
 
@@ -547,6 +550,35 @@ write("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 ${recent.flatMap((a) => LANGS.map((lang) => `<url><loc>${abs(P(lang, "/a/" + a.slug + "/"))}</loc><news:news><news:publication><news:name>${lang === "he" ? SITE.nameHe : SITE.name}</news:name><news:language>${lang === "he" ? "he" : "en"}</news:language></news:publication><news:publication_date>${a.publishedAt}</news:publication_date><news:title>${esc(a[lang].title)}</news:title></news:news></url>`)).join("\n")}
 </urlset>`);
+
+/* llms.txt: περίληψη του site για ChatGPT, Gemini, Perplexity, Claude (https://llmstxt.org) */
+{
+  const U = (p) => abs(p);
+  const guides = articles.filter((a) => a.guide || (a.meta && /^eg-/.test(String(a.meta.itemId || ""))));
+  const latest = newsOnly.slice(0, 20);
+  write("llms.txt", `# Yavanet (יוונט)
+
+> Yavanet is an independent news site about Greece for Israelis, in Hebrew (main) and English. It covers news that affects Israelis in Greece: strikes and flights, severe weather and wildfires, Greek property law and taxes, the Golden Visa, relocation, and Jewish Greece. Articles are based on official Greek sources (ministries, civil protection, courts, airports, transport operators), each with a link to the source. Publisher: Spyridon Fikias (S.F. Properties), Athens, Greece.
+
+- Hebrew home: ${U("/")}
+- English home: ${U("/en/")}
+- Strikes today/tomorrow in Greece: ${U("/en/strike-today/")}
+- Cheapest flights Tel Aviv to Greece today: ${U("/en/flights/")}
+- Greek property price index by neighbourhood: ${U("/en/madad/")}
+- Tools (purchase cost and rental yield calculators): ${U("/en/tools/")}
+- Emergency numbers and Israeli embassy in Greece: ${U("/en/emergency/")}
+- Sources & corrections policy: ${U("/en/p/corrections/")}
+
+## Guides
+${guides.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}): ${a.en.dek}`).join("\n")}
+
+## Destinations
+${DESTS.map((d) => `- [${d.en}: news, weather, flights and strikes](${U("/en/d/" + d.id + "/")})`).join("\n")}
+
+## Latest news
+${latest.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}) (${String(a.publishedAt).slice(0, 10)})`).join("\n")}
+`);
+}
 
 /* Στατικά αρχεία */
 const assets = path.join(ROOT, "site/assets");

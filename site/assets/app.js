@@ -173,8 +173,16 @@
      Χωρίς συγκατάθεση στέλνει μόνο ανώνυμα σήματα, ώστε το Analytics να εκτιμά σωστά την επισκεψιμότητα.
      Το Clarity (καταγραφή συμπεριφοράς) φορτώνει ΜΟΝΟ μετά από συγκατάθεση. */
   var loaded = {};
+  /* Συσκευές της ομάδας (ιδιοκτήτης, συνεργάτες): ?yvteam=1 → δεν μετράνε σε Analytics/Clarity. ?yvteam=0 → ξανά κανονικά */
+  var team = null; try { team = new URLSearchParams(location.search).get("yvteam"); } catch (e0) { }
+  if (team === "1" || team === "0") {
+    store("yv-internal", team);
+    try { var cu = new URL(location.href); cu.searchParams.delete("yvteam"); history.replaceState(null, "", cu.pathname + cu.search + cu.hash); } catch (e1) { }
+    setTimeout(function () { toast(team === "1" ? (C.lang === "en" ? "✓ This device is no longer counted in statistics" : "✓ המכשיר הזה לא נספר יותר בסטטיסטיקה") : (C.lang === "en" ? "This device is counted again" : "המכשיר נספר שוב")); }, 600);
+  }
+  var INTERNAL = store("yv-internal") === "1";
   function loadGA() {
-    if (!C.ga4 || loaded.ga) return; loaded.ga = true;
+    if (!C.ga4 || loaded.ga || INTERNAL) return; loaded.ga = true;
     var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + C.ga4; document.head.appendChild(s);
     gtag("js", new Date());
     gtag("config", C.ga4, { anonymize_ip: true, content_group: C.grp || "", site_language: C.lang });
@@ -182,7 +190,7 @@
   function applyConsent(c) {
     gtag("consent", "update", { analytics_storage: c.stats ? "granted" : "denied", ad_storage: c.ads ? "granted" : "denied", ad_user_data: c.ads ? "granted" : "denied", ad_personalization: c.ads ? "granted" : "denied" });
     loadGA();
-    if (c.stats && C.clarity && !loaded.cl) {
+    if (c.stats && C.clarity && !loaded.cl && !INTERNAL) {
       loaded.cl = true;
       (function (c2, l, a, r, i) { c2[a] = c2[a] || function () { (c2[a].q = c2[a].q || []).push(arguments); }; var t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; var y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", C.clarity);
       window.clarity && window.clarity("consent");
@@ -493,6 +501,9 @@
     var tmr; q.addEventListener("input", function () { clearTimeout(tmr); tmr = setTimeout(function () { render(q.value); }, 120); });
     out.addEventListener("click", function (e) { var b = e.target.closest("[data-sug]"); if (b) { q.value = b.getAttribute("data-sug"); render(q.value); q.focus(); } });
     q.addEventListener("keydown", function (e) { if (e.key === "Enter") { var f = out.querySelector(".sr"); if (f) location.href = f.href; } });
+    // Αναζήτηση από τη Google (SearchAction): /?q=λέξη ανοίγει την αναζήτηση με το αποτέλεσμα
+    var qs = null; try { qs = new URLSearchParams(location.search).get("q"); } catch (e2) { }
+    if (qs) { open(sr); q.value = qs; render(qs); load(); }
   })();
 
 

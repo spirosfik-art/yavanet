@@ -423,6 +423,33 @@ export function flightTeaser(lang) {
   return `<a class="fteaser" href="${P(lang, "/flights/")}"><span class="ft-ic" aria-hidden="true">✈️</span><span class="ft-t"><b>${he ? `טיסות ליוון מ-<bdi dir="ltr">€${d.price}</bdi> הלוך־חזור` : `Flights to Greece from <bdi dir="ltr">€${d.price}</bdi> return`}</b><small>${he ? `${esc(d.he)} · המחיר הזול היום מתל אביב · עוד ${GLOBAL.flightCount - 1} יעדים` : `${esc(d.en)} · today's lowest fare from Tel Aviv · ${GLOBAL.flightCount - 1} more destinations`}</small></span><span class="ft-go">${he ? "לכל המחירים ←" : "All prices →"}</span></a>`;
 }
 
+
+// Αυτόματα links: κάθε είδηση δείχνει προς τον σχετικό οδηγό και προς τη σελίδα του προορισμού που αναφέρει
+const GUIDES = {
+  buy: ["buying-property-in-greece-israelis-guide", "קניית דירה ביוון לישראלים: המדריך המלא", "Buying property in Greece as an Israeli: the complete guide"],
+  manage: ["managing-property-in-greece-from-israel", "ניהול נכס ביוון מישראל: המדריך המלא", "Managing property in Greece from Israel"],
+  golden: ["golden-visa-greece-2026-guide", "ויזת זהב ביוון 2026: כמה צריך להשקיע ואיפה", "Greece's Golden Visa in 2026: how much and where"],
+  move: ["moving-to-greece-with-family-israelis-guide", "מעבר ליוון עם המשפחה: המדריך לישראלים", "Moving to Greece with your family: a guide for Israelis"],
+  afm: ["greek-tax-number-and-bank-account-guide", "איך מוציאים מספר מס (AFM) ופותחים חשבון בנק ביוון", "How to get a Greek tax number (AFM) and open a bank account"],
+  travel: ["greece-travel-guide-israelis-2026", "טסים ליוון? כל מה שצריך לדעת לפני הטיסה", "Flying to Greece? Everything to know before you go"],
+};
+const DEST_LINKS = [["athens", "אתונה", "Athens", /athens|אתונה/i], ["thessaloniki", "סלוניקי", "Thessaloniki", /thessaloniki|סלוניקי/i], ["rhodes", "רודוס", "Rhodes", /rhodes|רודוס/i], ["crete", "כרתים", "Crete", /crete|כרתים|heraklion|chania/i], ["corfu", "קורפו", "Corfu", /corfu|קורפו/i], ["santorini", "סנטוריני", "Santorini", /santorini|סנטוריני/i], ["mykonos", "מיקונוס", "Mykonos", /mykonos|מיקונוס/i], ["kos", "קוס", "Kos", /\bkos\b|קוס/i], ["paros", "פארוס", "Paros", /paros|פארוס/i], ["chalkidiki", "חלקידיקי", "Chalkidiki", /chalkidiki|halkidiki|חלקידיקי/i]];
+export function relatedBox(a, lang) {
+  if (a.showcase || a.partner || a.sponsored) return "";
+  const he = lang === "he", txt = [a.en.title, a.en.dek, a.en.body || "", a.he.title].join(" ");
+  const picks = [];
+  const add = (k) => { const g = GUIDES[k]; if (g && g[0] !== a.slug && !picks.includes(g)) picks.push(g); };
+  if (/golden visa|residence permit|ויזת זהב/i.test(txt)) add("golden");
+  if (/tax number|AFM|bank account/i.test(txt)) add("afm");
+  if (["travel", "breaking"].includes(a.section) || /strike|flight|airport|ferry|weather|storm|wildfire|tourist/i.test(a.en.title + " " + a.en.dek)) add("travel");
+  if (a.section === "real-estate" || /property|apartment|real estate|rent|airbnb/i.test(a.en.title + " " + a.en.dek)) { add("buy"); add("manage"); }
+  if ((!picks.length && a.section === "living") || /relocat|moving to greece|digital nomad|visa/i.test(a.en.title + " " + a.en.dek)) add("move");
+  const dests = DEST_LINKS.filter((d) => d[3].test(a.en.title + " " + a.en.dek + " " + a.he.title)).slice(0, 3);
+  if (!picks.length && !dests.length) return "";
+  const pre = he ? "" : "/en";
+  return `<aside class="related"><b>${he ? "כדאי לקרוא גם" : "Useful next"}</b><ul>${picks.slice(0, 2).map((g) => `<li><a href="${pre}/a/${g[0]}/">📘 ${esc(he ? g[1] : g[2])}</a></li>`).join("")}${dests.map((d) => `<li><a href="${pre}/d/${d[0]}/">📍 ${esc(he ? `${d[1]}: חדשות, מזג אוויר, טיסות ושביתות` : `${d[2]}: news, weather, flights and strikes`)}</a></li>`).join("")}</ul></aside>`;
+}
+
 export function articleBody(a, lang, prev, next) {
   const t = T[lang], c = a[lang], he = lang === "he";
   const url = abs(P(lang, "/a/" + a.slug + "/"));
@@ -452,6 +479,7 @@ export function articleBody(a, lang, prev, next) {
   ${c.means ? `<div class="means"><b>${esc(t.means)}</b><p>${esc(c.means)}</p></div>` : ""}
   ${toc}
   <div class="prose" data-speak>${prose}</div>
+  ${a.guide ? "" : relatedBox(a, lang)}
   ${cta}
   ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}

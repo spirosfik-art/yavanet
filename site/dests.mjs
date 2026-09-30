@@ -34,6 +34,18 @@ export const DESTS = [
     re: /mykonos|מיקונוס/i,
     guides: ["the-comprehensive-guide-to-mykonos"],
     intro: ["אי המסיבות והחופים: חדשות ממיקונוס, מזג אוויר, מחיר הטיסה הזול מתל אביב ושביתות רלוונטיות.", "The island of parties and beaches: Mykonos news, weather, the cheapest flight from Tel Aviv and relevant strikes."] },
+  { id: "kos", he: "קוס", en: "Kos", lat: 36.89, lng: 27.29, air: ["KGS"], island: true,
+    re: /\bkos\b|קוס/i,
+    guides: ["complete-guide-to-kos-island"],
+    intro: ["אי החופים הארוכים בדודקנס: חדשות מקוס, מזג אוויר עכשיו, טיסות מתל אביב ושביתות במעבורות ובשדה התעופה.", "The Dodecanese island of long beaches: Kos news, live weather, flights from Tel Aviv and ferry and airport strikes."] },
+  { id: "paros", he: "פארוס", en: "Paros", lat: 37.08, lng: 25.15, air: ["PAS"], island: true,
+    re: /paros|antiparos|פארוס/i,
+    guides: ["complete-guide-to-paros-island"],
+    intro: ["הלב של הקיקלדים: חדשות מפארוס, מזג אוויר, מעבורות מפיראוס ושביתות שמשפיעות על הגעה לאי.", "The heart of the Cyclades: Paros news, weather, ferries from Piraeus and strikes affecting travel to the island."] },
+  { id: "chalkidiki", he: "חלקידיקי", en: "Chalkidiki", lat: 40.23, lng: 23.62, air: ["SKG"], island: false,
+    re: /chalkidiki|halkidiki|kassandra|sithonia|חלקידיקי/i,
+    guides: ["complete-guide-to-chalkidiki-for-israeli-travellers"],
+    intro: ["חצי האי של החופים ליד סלוניקי: חדשות מחלקידיקי, מזג אוויר, טיסות לסלוניקי ושביתות רלוונטיות.", "The beach peninsula near Thessaloniki: Chalkidiki news, weather, flights to Thessaloniki and relevant strikes."] },
 ];
 
 // Ποιες απεργίες επηρεάζουν ποιον προορισμό

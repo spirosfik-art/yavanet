@@ -1316,3 +1316,8 @@ a.kicker{text-decoration:none}a.kicker:hover{filter:brightness(1.1);text-decorat
 .rows a.wrow{display:flex;justify-content:space-between;gap:10px;font-size:14.5px;color:inherit;text-decoration:none;border-radius:6px;padding:2px 4px;margin:0 -4px}
 .rows a.wrow span:last-child{font-weight:700}
 .rows a.wrow:hover{background:rgba(0,0,0,.05)}
+/* «Κάντε να διαβάσετε επίσης»: αυτόματα links σε οδηγούς και προορισμούς */
+.related{margin:22px 0;padding:14px 16px;border-radius:12px;background:var(--soft,#f3f6fa);border-inline-start:4px solid var(--accent,#0e5c8c)}
+.related b{display:block;margin-bottom:6px;font-size:15px}
+.related ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.related a{font-weight:600;text-decoration:none}.related a:hover{text-decoration:underline}
