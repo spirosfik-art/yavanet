@@ -213,6 +213,8 @@ ${strikeBar}${brk}
         <a href="${enUrl || "/en/"}" hreflang="en" lang="en" aria-current="${lang === "en"}">EN</a>
       </nav>
       <div class="skymeta" id="skymeta"></div>
+      <div class="wxw"><button type="button" class="wxchip" id="wxchip" aria-expanded="false" aria-controls="wxpanel" hidden><span class="wxi" aria-hidden="true"></span><b></b><small>${lang === "he" ? "תחזית 5 ימים" : "5-day forecast"}</small><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="wxpanel" id="wxpanel" hidden><div class="wxp-h">${lang === "he" ? "תחזית לאתונה" : "Athens forecast"}</div><div class="wxdays"></div><div class="wxp-s">Open-Meteo</div></div></div>
     </div>
     <button type="button" class="hsearch" data-search aria-label="${esc(NL.search)}">${ICONS.search}</button>
     <nav class="tnav" aria-label="${lang === "he" ? "ניווט" : "Navigation"}">${nav}</nav>

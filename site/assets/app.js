@@ -32,6 +32,48 @@
   }
   paintSky(); window.addEventListener("resize", paintSky); setInterval(paintSky, 60000);
 
+  /* ---------- Καιρός Αθήνας στην κεφαλίδα + πρόγνωση 5 ημερών ---------- */
+  (function () {
+    var chip = $("#wxchip"), panel = $("#wxpanel"); if (!chip || !panel) return;
+    var he = C.lang !== "en";
+    function ico(c, day) { return c <= 1 ? (day === 0 ? "🌙" : "☀️") : c === 2 ? "⛅" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : "⛈️"; }
+    function kind(c) { return c <= 1 ? "sun" : c <= 3 ? "cloud" : c <= 48 ? "fog" : c <= 67 || (c >= 80 && c <= 82) ? "rain" : c <= 77 ? "snow" : "storm"; }
+    function render(d) {
+      chip.querySelector(".wxi").textContent = ico(d.code, d.day);
+      chip.className = "wxchip wx-" + kind(d.code);
+      chip.querySelector("b").textContent = Math.round(d.temp) + "°";
+      panel.querySelector(".wxdays").innerHTML = d.days.map(function (x, i) {
+        var name = i === 0 ? (he ? "היום" : "Today") : new Date(x.t + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { weekday: "short", timeZone: "UTC" });
+        return '<div class="wxd"><i>' + esc(name) + '</i><span>' + ico(x.c, 1) + '</span><b>' + Math.round(x.hi) + '°</b><small>' + Math.round(x.lo) + '°</small>' + (x.p >= 30 ? '<em>💧' + x.p + '%</em>' : '<em></em>') + '</div>';
+      }).join("");
+      chip.hidden = false;
+    }
+    var cached = null;
+    try { cached = JSON.parse(sessionStorage.getItem("yv-wx5") || "null"); } catch (e) { }
+    if (cached && Date.now() - cached.at < 30 * 60e3) render(cached);
+    else fetch("https://api.open-meteo.com/v1/forecast?latitude=37.98&longitude=23.73&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&forecast_days=5&timezone=Europe%2FAthens")
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var d = { code: j.current.weather_code, day: j.current.is_day, temp: j.current.temperature_2m, at: Date.now(),
+          days: j.daily.time.map(function (t, i) { return { t: t, c: j.daily.weather_code[i], hi: j.daily.temperature_2m_max[i], lo: j.daily.temperature_2m_min[i], p: (j.daily.precipitation_probability_max || [])[i] || 0 }; }) };
+        try { sessionStorage.setItem("yv-wx5", JSON.stringify(d)); } catch (e) { }
+        render(d);
+      }).catch(function () { });
+    document.body.appendChild(panel);
+    function place() {
+      var r = chip.getBoundingClientRect(), W = window.innerWidth, pw = Math.min(340, W - 32);
+      var left = he ? r.left : r.right - pw;
+      left = Math.max(16, Math.min(left, W - pw - 16));
+      panel.style.top = (r.bottom + 8) + "px"; panel.style.left = left + "px"; panel.style.width = pw + "px";
+    }
+    function openP(on) { if (on) place(); panel.hidden = !on; chip.setAttribute("aria-expanded", on ? "true" : "false"); if (on) track("weather_open"); }
+    window.addEventListener("scroll", function () { if (!panel.hidden) openP(false); }, { passive: true });
+    window.addEventListener("resize", function () { if (!panel.hidden) place(); });
+    chip.addEventListener("click", function (e) { e.stopPropagation(); openP(panel.hidden); });
+    document.addEventListener("click", function (e) { if (!panel.hidden && !panel.contains(e.target)) openP(false); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) openP(false); });
+  })();
+
   /* ---------- Feed & Stories (δεδομένα από τη σελίδα) ---------- */
   var DATA = null;
   try { var dj = $("#yv-data"); if (dj) DATA = JSON.parse(dj.textContent); } catch (e) { }

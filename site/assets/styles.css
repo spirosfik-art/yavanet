@@ -1162,3 +1162,32 @@ button.pf-btn{cursor:pointer;font:inherit}
 .medteaser .sft-body small,.medteaser .sft-body i{color:#8FF0D6}
 .mt-badge{position:absolute;bottom:10px;inset-inline-start:10px;display:grid;justify-items:center;line-height:1;background:#8FF0D6;color:#062d25;border-radius:14px;padding:8px 10px;font-size:11px;font-weight:800;box-shadow:0 8px 20px -8px rgba(0,0,0,.6)}
 .mt-badge b{font-family:var(--display);font-size:24px;margin-bottom:2px}
+
+/* ── Καιρός Αθήνας (chip) + πρόγνωση 5 ημερών ── */
+.wxw{position:relative}
+.wxchip{display:inline-flex;align-items:center;gap:6px;border:0;cursor:pointer;font:inherit;color:#fff;background:rgba(255,255,255,.16);border-radius:999px;padding:4px 10px 4px 8px;font-size:12.5px;line-height:1.2;transition:background .2s}
+.wxchip:hover,.wxchip[aria-expanded=true]{background:rgba(255,255,255,.28)}
+.wxchip b{font-size:14px}
+.wxchip small{opacity:.85;font-size:11.5px}
+.wxchip svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2.2;transition:transform .2s}
+.wxchip[aria-expanded=true] svg{transform:rotate(180deg)}
+.wxi{display:inline-block;font-size:16px;line-height:1}
+.wx-sun .wxi{animation:wxspin 14s linear infinite}
+.wx-cloud .wxi,.wx-fog .wxi{animation:wxbob 4s ease-in-out infinite}
+.wx-rain .wxi,.wx-snow .wxi,.wx-storm .wxi{animation:wxbob 1.6s ease-in-out infinite}
+@keyframes wxspin{to{transform:rotate(360deg)}}
+@keyframes wxbob{50%{transform:translateY(-2px)}}
+.wxpanel{position:fixed;z-index:90;background:var(--surface,#fff);color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 24px 50px -20px rgba(4,22,38,.55)}
+.wxp-h{font-weight:800;font-size:14px;margin-bottom:10px}
+.wxdays{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.wxd{display:grid;justify-items:center;gap:3px;padding:8px 2px;border-radius:12px;background:color-mix(in srgb,var(--ink) 5%,transparent);text-align:center}
+.wxd:first-child{background:color-mix(in srgb,#2A8BC4 16%,transparent)}
+.wxd i{font-style:normal;font-size:12px;font-weight:700;opacity:.8}
+.wxd span{font-size:22px;line-height:1.1}
+.wxd b{font-size:15px}
+.wxd small{font-size:12px;opacity:.65}
+.wxd em{font-style:normal;font-size:10.5px;color:#1C6E9C;min-height:13px}
+.wxp-s{margin-top:8px;font-size:10.5px;opacity:.55;text-align:end}
+@media (prefers-color-scheme:dark){.wxd em{color:#8FD0F0}}
+@media (max-width:720px){.wxchip small{display:none}}
+@media (prefers-reduced-motion:reduce){.wxi{animation:none!important}}
