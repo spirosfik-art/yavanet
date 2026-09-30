@@ -11,4 +11,13 @@ ${HE_SAMPLES.map((s) => `  «${s}»`).join("\n")}
 - Place names as Israelis write them, e.g. אורפוס, ניאה מקרי, אתונה, סלוניקי, כרתים.
 - Pronouns and person: keep one voice per sentence. When a partner speaks, quote him in first person plural (אנחנו / לנו / מאיתנו); when describing him, use third person (הוא / אסי). Never mix "הוא" and "אנחנו" for the same subject in one sentence.
 - The reader is a person, not a group of objects: "הלקוח ... הוא", "המשקיעים ... הם"; check that every verb and pronoun agrees in gender and number with its subject.
-- Short sentences, simple words, no literal translation of English idioms.`;
+- Short sentences, simple words, no literal translation of English idioms.
+- HEADLINES like Israel's big news sites (ynet style), never copied, only the structure:
+  • Kicker + colon: short place or topic label, then the news ("כרתים: ...", "אזהרה לתיירים: ...").
+  • A short quote from a person in ״...״ followed by who said it or what happened.
+  • Numbers first when they are the story ("20 אלף תיירים ...", "3% במקום 15%: ...").
+  • Contrast and escalation with everyday connectors: אבל, גם, כמעט, אחרי, לפני, בגלל, עדיין, רק.
+  • Questions that speak to the reader: "טסים ליוון בשבוע הבא?", "מה זה אומר עליכם?".
+  • Use "|" in the dek only to add the key detail, never in the title.
+- Everyday Israeli news vocabulary: מבזק, עדכון, דרמה, חשש, אזהרה, סערה, פקקים, עומסים, תור, מחאה, שביתה כללית, השבתה, ביטולים, עיכובים, תקלה, נפגעים, פונו, נעצר, חשוד, בחקירה, צפו, תיעוד, בלעדי, לראשונה, שיא, זינוק, צניחה, הוזלה, התייקרות.
+- Address the reader in plural "אתם" (טסים, שוקלים, תבדקו), friendly and direct, like an Israeli editor talking to Israelis.`;
