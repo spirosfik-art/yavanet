@@ -573,49 +573,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T20:50:12.742Z",
+      "at": "2026-09-30T21:01:23.294Z",
       "error": "HTTP 403",
-      "fails": 387
+      "fails": 388
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T20:50:13.326Z",
+      "at": "2026-09-30T21:01:23.841Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T20:50:14.025Z",
+      "at": "2026-09-30T21:01:24.469Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T20:50:14.816Z",
+      "at": "2026-09-30T21:01:25.200Z",
       "error": "HTTP 403",
-      "fails": 387
+      "fails": 388
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T20:50:15.657Z",
+      "at": "2026-09-30T21:01:25.904Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T20:50:16.171Z",
+      "at": "2026-09-30T21:01:26.081Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T20:50:17.360Z",
+      "at": "2026-09-30T21:01:27.666Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T20:50:18.122Z",
+      "at": "2026-09-30T21:01:28.343Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T20:50:18.624Z",
+      "at": "2026-09-30T21:01:29.178Z",
       "items": 10
     },
     "toi-greece": {
@@ -626,22 +626,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T20:50:19.163Z",
+      "at": "2026-09-30T21:01:29.590Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T20:50:19.533Z",
+      "at": "2026-09-30T21:01:29.741Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T20:50:19.731Z",
+      "at": "2026-09-30T21:01:29.962Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T20:50:20.105Z",
+      "at": "2026-09-30T21:01:30.109Z",
       "items": 9
     },
     "ynet-greece": {
@@ -651,12 +651,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T20:50:14.605Z",
+      "at": "2026-09-30T21:01:24.963Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T20:50:20.726Z",
+      "at": "2026-09-30T21:01:30.673Z",
       "items": 0
     },
     "hcg": {
@@ -667,183 +667,24 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T20:50:22.154Z",
+      "at": "2026-09-30T21:01:32.225Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-09-30",
-    "count": 14,
-    "published": [
-      {
-        "slug": "meteora-monasteries-travel-guide",
-        "title": "Meteora Greece: A Guide to the Hanging Monasteries",
-        "at": "2026-09-30T08:03:53+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-strict-new-highway-code-phone-fines",
-        "title": "Greece introduces strict new penalties for using mobile phones while driving",
-        "at": "2026-09-30T08:48:38+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "flydubai-dubai-tel-aviv-emergency-squawk",
-        "title": "Dubai to Tel Aviv flight squawks emergency over Saudi Arabia",
-        "at": "2026-09-30T09:48:42+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "nafplio-guide-peloponnese-greece",
-        "title": "Nafplio: The Ultimate Guide to Greece's Prettiest Town",
-        "at": "2026-09-30T11:54:17+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "delphi-day-trip-from-athens-guide",
-        "title": "Day Trip from Athens to Delphi: What to See and How to Get There",
-        "at": "2026-09-30T13:03:17+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-riviera-guide-beaches-neighbourhoods",
-        "title": "The Athens Riviera: Beaches, Neighbourhoods and Coastal Living",
-        "at": "2026-09-30T14:23:36+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "Red Code Issued for Crete Due to Severe Weather",
-        "at": "2026-09-30T14:36:14+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "fire-hybrid-car-parking-acropolis-athens",
-        "title": "Hybrid Car Fire and Explosions in Athens Parking Garage Near Acropolis",
-        "at": "2026-09-30T14:52:17+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "acropolis-of-athens-travel-guide",
-        "title": "A Visitor's Guide to the Acropolis of Athens",
-        "at": "2026-09-30T15:59:07+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "israel-ambassador-honors-greek-firefighters",
-        "title": "Israeli Embassy in Greece Honors Local Firefighters",
-        "at": "2026-09-30T16:29:33+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "orange-wind-warning-kyklades-greece",
-        "title": "Orange Wind Warning Issued for the Cyclades Islands",
-        "at": "2026-09-30T17:28:42+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greek-cuisine-guide-for-israelis",
-        "title": "Greek Food Guide: Traditional Dishes and Dining Tips",
-        "at": "2026-09-30T18:31:12+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "healthcare-system-in-greece-guide",
-        "title": "Healthcare in Greece: A Guide for Residents",
-        "at": "2026-09-30T19:41:13+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: All schools in Rethymno closed due to severe weather",
-        "at": "2026-09-30T20:25:13+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "Severe weather in Greece: Heavy rain and winds up to 9 Beaufort",
-        "at": "2026-09-30T20:25:30+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: All schools in Chania and Rethymno closed due to severe weather",
-        "at": "2026-09-30T21:27:55+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "education-system-in-greece-guide-for-israeli-families",
-        "title": "Education System in Greece: A Guide for Israeli Families Moving Here",
-        "at": "2026-09-30T21:30:39+03:00",
-        "section": "living"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Mykonos Planning Office Shut Down After Anti-Corruption Raid",
-        "reason": "Ίδιο θέμα με «Mykonos Season Ends With Discounts and Increased State Scrutiny» – δεν γράφτηκε ξανά",
-        "at": "2026-09-29T21:35:41.955Z"
-      },
-      {
-        "title": "Σεισμός 4 Ρίχτερ κοντά στη Θήβα – Ακολούθησε δόνηση 3,3 Ρίχτερ",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 42",
-        "at": "2026-09-30T05:37:09.369Z"
-      },
-      {
-        "title": "«Ακούσαμε ουρλιαχτά και είδαμε αίματα»: Συγκλονιστικές μαρτυρίες από την πτήση της FlyDubai – Ασφαλείς όλοι οι επιβάτες",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T08:27:47.701Z"
-      },
-      {
-        "title": "M 4.6 - 3 km W of Thívai, Greece",
-        "reason": "The Hebrew TLDR contains a syntax error with stray JSON/HTML characters (</ul>).; The Hebrew and English versions mention the Richter scale, which is not stated in the source text (Rule 8: Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts th",
-        "at": "2026-09-30T09:02:46.950Z"
-      },
-      {
-        "title": "Israel now treats Flydubai cockpit drama as attempted terror attack",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T09:25:36.821Z"
-      },
-      {
-        "title": "Πτήση FlyDubai: Ο συγκυβερνήτης στο επίκεντρο του θρίλερ – Τι φέρεται να συνέβη στο πιλοτήριο",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T10:03:05.488Z"
-      },
-      {
-        "title": "Και δεύτερη εκτροπή πτήσης της FlyDubai: Επιστρέφει στο Ντουμπάι",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T11:23:26.889Z"
-      },
-      {
-        "title": "Η Μοσάντ, η Σιν Μπετ, οι IDF και το ισραηλινό υπουργείο Μεταφορών εμπλέκονται στην έρευνα για την FlyDubai",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T12:33:40.766Z"
-      },
-      {
-        "title": "Νετανιάχου: Ένας από τους πιλότους επιχείρησε να ρίξει το αεροσκάφος της FlyDubai",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T14:28:45.876Z"
-      },
-      {
-        "title": "Πτήση FlyDubai: Ως απόπειρα τρομοκρατικής ενέργειας αντιμετωπίζει το Ισραήλ τη συμπλοκή στο πιλοτήριο – «Ένιωσα ότι επαναλαμβάνεται η 11η Σε",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T16:41:00.231Z"
-      },
-      {
-        "title": "Τρόμος εν πτήσει – Τι γνωρίζουμε για τη φερόμενη απόπειρα αεροπειρατείας στο αεροσκάφος της Flydubai",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T17:25:34.345Z"
-      },
-      {
-        "title": "Πτήση FlyDubai: Οι συγκλονιστικές μαρτυρίες των επιβατών που ακινητοποίησαν τον συγκυβερνήτη – Πώς έσωσαν το αεροσκάφος χάρη στη σειρά «Mayd",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T20:24:58.385Z"
-      }
-    ],
+    "date": "2026-10-01",
+    "count": 0,
+    "published": [],
+    "rejected": [],
     "errors": []
   },
   "history": [
+    {
+      "date": "2026-09-30",
+      "count": 14,
+      "rejected": 12
+    },
     {
       "date": "2026-09-29",
       "count": 15,
