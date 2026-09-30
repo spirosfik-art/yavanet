@@ -580,55 +580,58 @@
     "21df7e9ca549": 1790808665857,
     "8d18b750fb82": 1790808665857,
     "f3efe2e25abd": 1790809289761,
-    "efdfb09efe4f": 1790809289761
+    "efdfb09efe4f": 1790809289761,
+    "9e2a28909c07": 1790810538468,
+    "9313815875e8": 1790810538468,
+    "a6f2c6a3fd98": 1790810538468
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T23:01:16.699Z",
+      "at": "2026-09-30T23:22:05.305Z",
       "error": "HTTP 403",
-      "fails": 396
+      "fails": 397
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T23:01:19.170Z",
+      "at": "2026-09-30T23:22:07.603Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T23:01:19.933Z",
+      "at": "2026-09-30T23:22:08.290Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T23:01:20.654Z",
+      "at": "2026-09-30T23:22:09.264Z",
       "error": "HTTP 403",
-      "fails": 396
+      "fails": 397
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T23:01:21.789Z",
+      "at": "2026-09-30T23:22:10.895Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T23:01:22.334Z",
+      "at": "2026-09-30T23:22:11.172Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T23:01:23.545Z",
+      "at": "2026-09-30T23:22:12.340Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T23:01:24.314Z",
+      "at": "2026-09-30T23:22:13.153Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T23:01:25.206Z",
+      "at": "2026-09-30T23:22:13.914Z",
       "items": 10
     },
     "toi-greece": {
@@ -639,22 +642,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T23:01:25.731Z",
+      "at": "2026-09-30T23:22:14.428Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T23:01:26.111Z",
+      "at": "2026-09-30T23:22:14.828Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T23:01:26.684Z",
-      "items": 9
+      "at": "2026-09-30T23:22:15.133Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T23:01:26.898Z",
+      "at": "2026-09-30T23:22:15.589Z",
       "items": 10
     },
     "ynet-greece": {
@@ -664,12 +667,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T23:01:20.485Z",
+      "at": "2026-09-30T23:22:09.101Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T23:01:27.588Z",
+      "at": "2026-09-30T23:22:16.449Z",
       "items": 0
     },
     "hcg": {
@@ -680,7 +683,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T23:01:28.864Z",
+      "at": "2026-09-30T23:22:17.832Z",
       "items": 2
     }
   },
@@ -734,12 +737,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T23:01:29.762Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-09-30T23:22:18.468Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· gct | Greece Halted Cable Surveys After Turkish Warships Appeared",
-      "✓ gct | Queen Anne Cruise Ship Makes Emergency Stop in Crete"
+      "· gct | Giorgos Mazonakis Grieving Parents Break Their Silence",
+      "· gct | 119 Dental Practices Flagged Over Botox and Hyaluronic Acid Ads",
+      "· ingr | Συρία: 7 νεκροί εξαιτίας ένοπλης επίθεσης σε λεωφορείο – Εκρηξη σε αγωγό φυσικού αερίου"
     ]
   },
   "evergreenDone": [
