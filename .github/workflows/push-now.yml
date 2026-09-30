@@ -1,0 +1,37 @@
+# Χειροκίνητη ειδοποίηση στο κινητό: αλλάζετε το content/push-queue.json (χωρίς sentAt) και στέλνεται μία φορά.
+name: Push now
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["content/push-queue.json"]
+concurrency:
+  group: yavanet-push
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node automation/push-now.mjs
+      - name: Save result
+        run: |
+          git config user.name "yavanet-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content/push-queue.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "auto: push sent $(date -u +%FT%TZ)"
+          git pull --rebase && git push
