@@ -12,11 +12,11 @@
   "geo": null,
   "image": {
     "type": "photo",
-    "url": "https://images.pexels.com/photos/35748827/pexels-photo-35748827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Rustic wall art with an inspirational message 'NEXT YEAR WAS BETTER' stenciled on a textured surface.",
-    "credit": "Photo: Stephen Leonardi / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/inspirational-wall-art-with-textured-background-35748827/",
-    "license": "Pexels License",
+    "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1746972742935527010/original/b54e021c-cfc8-4fbc-b2eb-7ab3fae2b4cd.jpeg?im_w=960",
+    "alt": "דירת Airbnb של S.F. Properties בפסיכיקו, אתונה",
+    "credit": "צילום: S.F. Properties",
+    "creditUrl": "https://sfproperties.gr/en/management/airbnb/",
+    "license": "S.F. Properties",
     "fallbackKey": "house"
   },
   "sources": [
@@ -69,6 +69,7 @@
     "manual": true,
     "checkedAt": "2026-09-30T10:45:00+03:00",
     "photoTried": true,
-    "photoDedup": true
+    "photoDedup": true,
+    "lockImage": true
   }
 }

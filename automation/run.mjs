@@ -498,7 +498,8 @@ async function evergreen() {
 // Όταν υπάρχει κλειδί Pexels, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
 async function backfillPhotos() {
   if (!env.PEXELS_API_KEY) return;
-  const all = loadArticles().filter((a) => !a.hidden).sort((a, b) => (a.publishedAt || "").localeCompare(b.publishedAt || ""));
+  // Χειροκίνητα άρθρα / συνεργάτες: η φωτογραφία τους δεν αλλάζει ποτέ αυτόματα
+  const all = loadArticles().filter((a) => !a.hidden && !a.partner && !a.showcase && !(a.meta && (a.meta.lockImage || a.meta.manual && a.image && a.image.type === "photo"))).sort((a, b) => (a.publishedAt || "").localeCompare(b.publishedAt || ""));
   // Διπλές φωτογραφίες: το νεότερο άρθρο παίρνει άλλη (μία προσπάθεια ανά άρθρο)
   const seenIds = new Set(), dups = [];
   for (const a of all) if (a.image && a.image.type === "photo") { const id = photoId(a.image.url); if (seenIds.has(id) && !(a.meta && a.meta.photoDedup)) dups.push(a); seenIds.add(id); }
