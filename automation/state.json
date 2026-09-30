@@ -543,55 +543,59 @@
     "f3a115bc6e6a": 1790782234548,
     "32dd16331173": 1790784585501,
     "8e50b053c4a7": 1790786455349,
-    "e4d46bf100d0": 1790787766031
+    "e4d46bf100d0": 1790787766031,
+    "5d9eb16b1721": 1790789100951,
+    "4e31497526a2": 1790789100951,
+    "e609386cca45": 1790789100951,
+    "1ad1813943b0": 1790789100951
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T17:02:35.516Z",
+      "at": "2026-09-30T17:24:51.446Z",
       "error": "HTTP 403",
-      "fails": 372
+      "fails": 373
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T17:02:36.223Z",
+      "at": "2026-09-30T17:24:51.981Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T17:02:36.878Z",
+      "at": "2026-09-30T17:24:52.598Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T17:02:37.467Z",
+      "at": "2026-09-30T17:24:53.279Z",
       "error": "HTTP 403",
-      "fails": 372
+      "fails": 373
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T17:02:38.575Z",
+      "at": "2026-09-30T17:24:54.002Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T17:02:38.960Z",
+      "at": "2026-09-30T17:24:54.367Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T17:02:40.021Z",
+      "at": "2026-09-30T17:24:55.433Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T17:02:40.839Z",
+      "at": "2026-09-30T17:24:56.076Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T17:02:41.412Z",
+      "at": "2026-09-30T17:24:56.522Z",
       "items": 10
     },
     "toi-greece": {
@@ -602,22 +606,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T17:02:41.954Z",
+      "at": "2026-09-30T17:24:56.978Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T17:02:42.233Z",
+      "at": "2026-09-30T17:24:57.042Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T17:02:42.573Z",
-      "items": 4
+      "at": "2026-09-30T17:24:57.254Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T17:02:43.008Z",
+      "at": "2026-09-30T17:24:57.410Z",
       "items": 3
     },
     "ynet-greece": {
@@ -627,12 +631,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T17:02:37.329Z",
+      "at": "2026-09-30T17:24:53.088Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T17:02:43.688Z",
+      "at": "2026-09-30T17:24:58.041Z",
       "items": 0
     },
     "hcg": {
@@ -643,14 +647,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T17:02:45.331Z",
+      "at": "2026-09-30T17:24:59.486Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 12,
+    "count": 13,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -729,6 +733,18 @@
         "title": "Healthcare in Greece: A Guide for Residents",
         "at": "2026-09-30T19:41:13+03:00",
         "section": "living"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: All schools in Rethymno closed due to severe weather",
+        "at": "2026-09-30T20:25:13+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greece-weather-storm-crete-winds-9-beaufort",
+        "title": "Severe weather in Greece: Heavy rain and winds up to 9 Beaufort",
+        "at": "2026-09-30T20:25:30+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -781,6 +797,11 @@
         "title": "Πτήση FlyDubai: Ως απόπειρα τρομοκρατικής ενέργειας αντιμετωπίζει το Ισραήλ τη συμπλοκή στο πιλοτήριο – «Ένιωσα ότι επαναλαμβάνεται η 11η Σε",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T16:41:00.231Z"
+      },
+      {
+        "title": "Τρόμος εν πτήσει – Τι γνωρίζουμε για τη φερόμενη απόπειρα αεροπειρατείας στο αεροσκάφος της Flydubai",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T17:25:34.345Z"
       }
     ],
     "errors": []
@@ -809,11 +830,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T17:02:46.031Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-30T17:25:00.951Z",
+    "considered": 4,
+    "picked": 3,
     "items": [
-      "· ingr | Πυρά Κουφονικολάκου κατά της κυβέρνησης για την ακρίβεια: Λείπει η πολιτική βούληση για σύ"
+      "· ingr | Μπόνο: Πόλεμος με τον Μπεν-Γκβίρ – «Μιλάει σαν τον Ναζί Χίμλερ – Το Ισραήλ να διορθώσει όσ",
+      "✓ ingr | Κρήτη: Κλειστά αύριο όλα τα σχολεία στον Νομό Ρεθύμνου λόγω της κακοκαιρίας",
+      "✓ naftemporiki | Νέα επιδείνωση του καιρού με ισχυρές βροχές και ανέμους έως 9 μποφόρ",
+      "✓ ingr | Τρόμος εν πτήσει – Τι γνωρίζουμε για τη φερόμενη απόπειρα αεροπειρατείας στο αεροσκάφος τη"
     ]
   },
   "evergreenDone": [
