@@ -403,9 +403,9 @@ export function widgets(lang, mostRead, noPush = false) {
   const t = T[lang];
   return `<div class="side">
   ${sfTeaser(lang)}
+  ${noPush ? "" : pushBox(lang)}
   ${medTeaser(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
-  ${noPush ? "" : pushBox(lang)}
   <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>
   <div class="widget"><h4>${esc(t.shabbat)}</h4><div class="rows" id="w-shabbat">${esc(t.loading)}</div><div class="small">Hebcal</div></div>
