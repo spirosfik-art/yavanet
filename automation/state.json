@@ -538,55 +538,57 @@
     "1a87b93beef9": 1790779396552,
     "6ce6badbe5a0": 1790779396552,
     "3f857dbf4996": 1790779396552,
-    "1fb8e037a5f5": 1790781138445
+    "1fb8e037a5f5": 1790781138445,
+    "4a080995e490": 1790782234548,
+    "f3a115bc6e6a": 1790782234548
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T15:12:06.182Z",
+      "at": "2026-09-30T15:30:04.000Z",
       "error": "HTTP 403",
-      "fails": 364
+      "fails": 365
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T15:12:08.686Z",
+      "at": "2026-09-30T15:30:07.287Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T15:12:09.295Z",
+      "at": "2026-09-30T15:30:08.255Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T15:12:09.998Z",
+      "at": "2026-09-30T15:30:09.459Z",
       "error": "HTTP 403",
-      "fails": 364
+      "fails": 365
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T15:12:10.756Z",
+      "at": "2026-09-30T15:30:10.769Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T15:12:11.157Z",
+      "at": "2026-09-30T15:30:11.176Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T15:12:12.193Z",
+      "at": "2026-09-30T15:30:12.482Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T15:12:12.878Z",
-      "items": 3
+      "at": "2026-09-30T15:30:13.522Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T15:12:13.786Z",
+      "at": "2026-09-30T15:30:14.182Z",
       "items": 10
     },
     "toi-greece": {
@@ -597,23 +599,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T15:12:14.229Z",
+      "at": "2026-09-30T15:30:14.431Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T15:12:14.357Z",
+      "at": "2026-09-30T15:30:14.675Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T15:12:14.778Z",
+      "at": "2026-09-30T15:30:15.062Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T15:12:15.116Z",
-      "items": 6
+      "at": "2026-09-30T15:30:15.629Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -622,12 +624,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T15:12:09.615Z",
+      "at": "2026-09-30T15:30:09.189Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T15:12:15.608Z",
+      "at": "2026-09-30T15:30:16.436Z",
       "items": 0
     },
     "hcg": {
@@ -638,14 +640,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T15:12:17.592Z",
+      "at": "2026-09-30T15:30:20.205Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 10,
+    "count": 11,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -712,6 +714,12 @@
         "title": "Orange Wind Warning Issued for the Cyclades Islands",
         "at": "2026-09-30T17:28:42+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greek-cuisine-guide-for-israelis",
+        "title": "Greek Food Guide: Traditional Dishes and Dining Tips",
+        "at": "2026-09-30T18:31:12+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -787,11 +795,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T15:12:18.445Z",
-    "considered": 1,
+    "at": "2026-09-30T15:30:34.548Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· naftemporiki | Bloomberg: Ο Τραμπ ετοιμάζεται να ανακοινώσει επένδυση ύψους 200 δισ. δολαρίων από τη Νότι"
+      "· ingr | Καρέ-καρέ η μάχη μέσα στο αεροσκάφος της Flydubai – Ένας από τους πιλότους ήθελε να το ρίξ",
+      "· naftemporiki | Από τη Θεσσαλονίκη στον Όλυμπο: ένα ταξίδι με αφετηρία το Αεροδρόμιο Θεσσαλονίκης «Μακεδον"
     ]
   },
   "evergreenDone": [
@@ -817,9 +826,10 @@
     "nafplio",
     "delphi",
     "athens-riviera",
-    "acropolis"
+    "acropolis",
+    "greek-cuisine"
   ],
-  "lastEvergreen": 1790773122932,
+  "lastEvergreen": 1790782234555,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
