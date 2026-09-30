@@ -2,12 +2,16 @@
   "slug": "crete-travel-guide-regions-sights",
   "section": "travel",
   "publishedAt": "2026-09-28T09:57:54+03:00",
-  "updatedAt": null,
+  "updatedAt": "2026-10-01T02:01:48+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
   "geo": null,
   "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/01/queen-anne-cruise-ship-makes-emergency-stop-in-crete/"
+    },
     {
       "name": "Wikipedia – Crete",
       "url": "https://en.wikipedia.org/wiki/Crete"
@@ -23,42 +27,26 @@
     "fallbackKey": "island"
   },
   "he": {
-    "title": "המדריך לכרתים: אזורים, ערים מרכזיות וחופים",
-    "dek": "סקירה מקיפה על האי הגדול ביוון, כולל ערים מרכזיות, הרים, גנים ונתונים גיאוגרפיים.",
+    "title": "כרתים: ספינת קרוז עגנה בעקבות מזג אוויר סוער",
+    "dek": "ספינת הקרוז קווין אן נכנסה לנמל סודה שבכרתים כדי למצוא מחסה מפני תנאי מזג האוויר הקשים שהתפתחו באזור.",
     "tldr": [
-      "כרתים הוא האי הגדול ביותר ביוון והחמישי בים התיכון.",
-      "כולל ערים מרכזיות כמו הרקליון וחאניה.",
-      "מאופיין ברכסי הרים גבוהים וגיאוגרפיה מגוונת."
+      "ספינת הקרוז קווין אן נכנסה לעגינת חירום בנמל סודה.",
+      "על סיפון הספינה היו 2,841 נוסעים.",
+      "העגינה נועדה להגן על כלי השיט מפני מזג אוויר סוער."
     ],
-    "means": "מדריך זה מציג מידע כללי וסקירה גיאוגרפית בלבד ואינו מהווה ייעוץ נסיעות. מומלץ לבדוק פרטים עדכניים מול חברות התעופה ושירותי התיירות לפני כל נסיעה.",
-    "body": "## מבוא לכרתים\n\nכרתים הוא האי הגדול והמאוכלס ביותר ביוון, והאי החמישי בגודלו בים התיכון. הוא ממוקם מדרום לפלופונסוס ותחוום בין הים הגיאאי בצפון לים הלובי בדרום. האי משתרע לאורך של 260 קילומטרים ממערב למזרח, עם קו חוף באורך של למעלה מאלף קילומטרים.\n\n## ערים מרכזיות\n\nהבירה והעיר הגדולה ביותר באי היא הרקליון, השוכנת בחוף הצפוני. חאניה שימשה כבירה עד לשנת 1971. ערים מרכזיות נוספות כוללות את רתימנו, איראפטרה, אגיוס ניקולאווס וסיטיה. מרבית האוכלוסייה מתחלקת בין אזורים עירוניים לכפרים וליישובים כפריים.\n\n## גיאוגרפיה וטבע\n\nהאי מורכב ברובו משטח הררי, וחוצה אותו רכס הרים ממערב למזרח. בין הפסגות הגבוהות ניתן למצוא את הר אידה ורכס ההרים הלבנים. בנוסף, האי משופע בקניונים עמוקים כמו קניון סמריה, וכן באגמים פנימיים ובמערות בעלות חשיבות היסטורית ומיתולוגית.\n\n## אקלים ותחבורה\n\nהאקלים בכרתים הוא בעיקר ים תיכוני חם, כאשר האזורים הדרומיים נהנים משעות שמש רבות ומטמפרטורות גבוהות במיוחד לאורך כל השנה. מבחינת תחבורה אווירית, האי נגיש באמצעות נמל התעופה ניקוס קאזאנצאקיס בהרקליון ונמל התעופה דאסקאלוגיאניס בחאניה.",
-    "seoTitle": "כרתים: מדריך לאזורים, לאתרים ולטיולים",
-    "seoDesc": "מדריך מקיף על כרתים, האי הגדול ביוון: ערים מרכזיות, חופים, הרים וכל מה שצריך לדעת לחופשה מושלמת.",
-    "keywords": [
-      "איים ביוון",
-      "כרתים",
-      "חופשה ביוון",
-      "מלונות בכרתים"
-    ]
+    "means": "אם אתם מתכננים חופשה או שוהים בימים אלו בכרתים, כדאי לעקוב אחר תחזית מזג האוויר המקומית ועדכוני רשויות הנמל. צאו מראש לבדיקת תוכניות הפלגה אם אתם משלבים שיט באזור.",
+    "body": "## עגינת חירום בכרתים\n\nספינת הקרוז קווין אן, שעליה 2,841 נוסעים, נכנסה ביום רביעי בשעות הערב המאוחרות לעגינת חירום בנמל סודה שבחאניה. הכניסה לנמל נעשתה על רקע החמרה בתנאי מזג האוויר באזור כרתים.\n\nלפי הדיווחים מהמקום, הספינה נכנסה למרחב המוגן של הנמל במטרה לקבל מחסה מפני תנאי הים והסערה הצפויים. הספינה צפויה להעביר את הלילה בנמל סודה ותמשיך בדרכה ברגע שתנאי מזג האוויר יאפשרו זאת בבטחה.\n\n## פעילות ערה בנמל סודה\n\nגורמים מקומיים מציינים כי תנאי מזג האוויר הסוערים עלולים להביא לכך שספינות נוספות יבקשו מחסה בנמל סודה, המוכר כיעד מוגן לכלי שיט במצבים דומים. למרות האופי הבלתי מתוכנן של ההגעה, קווין אן הייתה ספינת הקרוז הרביעית שהגיעה לחאניה באותו יום, מה שיצר תנועה ערה במיוחד ברחבי הנמל ובאזור הסובב אותו."
   },
   "en": {
-    "title": "The Guide to Crete: Regions, Major Cities and Beaches",
-    "dek": "A comprehensive overview of Greece's largest island, featuring major cities, mountain ranges, and geography.",
+    "title": "Crete: Cruise Ship Makes Emergency Stop Due to Weather",
+    "dek": "The cruise ship Queen Anne entered Souda Port in Chania to find shelter from worsening weather conditions approaching Crete.",
     "tldr": [
-      "Crete is the largest island in Greece and the fifth largest in the Mediterranean.",
-      "Features major cities such as Heraklion and Chania.",
-      "Characterized by high mountain ranges and diverse geography."
+      "The cruise ship Queen Anne made an emergency call at Souda Port.",
+      "There were 2,841 passengers on board the vessel.",
+      "The ship anchored to wait out the severe weather safely."
     ],
-    "means": "This guide provides general geographic information only and does not constitute travel advice. Visitors should check current updates directly with airlines and transport providers before planning any trip.",
-    "body": "## Introduction to Crete\n\nCrete is the largest and most populous island in Greece, and the fifth largest in the Mediterranean Sea. It is located south of the Peloponnese, bounded by the Aegean Sea to the north and the Libyan Sea to the south. The island spans 260 kilometers from west to east, featuring a coastline of over a thousand kilometers.\n\n## Major Cities\n\nThe capital and largest city is Heraklion, situated on the northern shore. Chania served as the capital until 1971. Other principal cities include Rethymno, Ierapetra, Agios Nikolaos, and Sitia. The population is distributed between urban centers and rural communities.\n\n## Geography and Nature\n\nCrete is predominantly mountainous, characterized by a high range crossing from west to east. Notable geographic features include Mount Ida and the White Mountains. The island also contains deep gorges such as the Samaria Gorge, as well as freshwater lakes and caves of historical and mythological significance.\n\n## Climate and Transport\n\nThe climate is primarily hot-summer Mediterranean, with the southern coast enjoying high levels of annual sunshine and warm temperatures. For international travelers, the island is served by the Nikos Kazantzakis Airport in Heraklion and the Daskalogiannis Airport in Chania.",
-    "seoTitle": "Crete Travel Guide: Regions and Sights",
-    "seoDesc": "A complete guide to Crete, Greece's largest island, featuring major cities, beaches, mountain ranges and travel tips.",
-    "keywords": [
-      "Crete guide",
-      "Greece islands",
-      "Crete travel",
-      "visit Crete"
-    ]
+    "means": "If you are traveling in Crete or planning a trip to the island, check local weather updates and port authorities announcements. Keep an eye on any changes to ferry or cruise schedules.",
+    "body": "## Emergency Port Call in Crete\n\nThe cruise ship Queen Anne, carrying 2,841 passengers, made an emergency call at Souda Port in Chania late on Wednesday. The vessel entered the port area to seek shelter as worsening weather conditions approached the region of Crete.\n\nAccording to local reports, the ship will spend the night at Souda Port and is scheduled to resume its voyage once conditions improve and safe navigation is restored.\n\n## High Activity at Souda Port\n\nLocal authorities note that the adverse weather may prompt additional cruise ships to seek refuge in Souda, which provides secure shelter for vessels facing difficult conditions at sea. Despite the unscheduled stop, the Queen Anne marked the fourth cruise ship to arrive in Chania on Wednesday, significantly boosting activity across the port and surrounding area."
   },
   "meta": {
     "itemId": "eg-crete",
@@ -66,6 +54,7 @@
     "sourceHash": "1b6086a43d74",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-09-30T19:35:52.887Z",
-    "official": false
+    "official": false,
+    "updatedFrom": "efdfb09efe4f"
   }
 }

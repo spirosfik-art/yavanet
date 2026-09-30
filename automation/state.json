@@ -578,55 +578,57 @@
     "eaf37d7faba7": 1790807812303,
     "c556bcaf246c": 1790807812303,
     "21df7e9ca549": 1790808665857,
-    "8d18b750fb82": 1790808665857
+    "8d18b750fb82": 1790808665857,
+    "f3efe2e25abd": 1790809289761,
+    "efdfb09efe4f": 1790809289761
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T22:50:56.573Z",
+      "at": "2026-09-30T23:01:16.699Z",
       "error": "HTTP 403",
-      "fails": 395
+      "fails": 396
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T22:50:57.116Z",
-      "items": 0
+      "at": "2026-09-30T23:01:19.170Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T22:50:57.785Z",
+      "at": "2026-09-30T23:01:19.933Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T22:50:58.465Z",
+      "at": "2026-09-30T23:01:20.654Z",
       "error": "HTTP 403",
-      "fails": 395
+      "fails": 396
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T22:50:59.565Z",
+      "at": "2026-09-30T23:01:21.789Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T22:50:59.706Z",
+      "at": "2026-09-30T23:01:22.334Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T22:51:00.596Z",
+      "at": "2026-09-30T23:01:23.545Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T22:51:01.220Z",
+      "at": "2026-09-30T23:01:24.314Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T22:51:02.093Z",
+      "at": "2026-09-30T23:01:25.206Z",
       "items": 10
     },
     "toi-greece": {
@@ -637,22 +639,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T22:51:02.543Z",
+      "at": "2026-09-30T23:01:25.731Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T22:51:02.676Z",
+      "at": "2026-09-30T23:01:26.111Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T22:51:02.978Z",
+      "at": "2026-09-30T23:01:26.684Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T22:51:03.309Z",
+      "at": "2026-09-30T23:01:26.898Z",
       "items": 10
     },
     "ynet-greece": {
@@ -662,12 +664,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T22:50:58.282Z",
+      "at": "2026-09-30T23:01:20.485Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T22:51:03.852Z",
+      "at": "2026-09-30T23:01:27.588Z",
       "items": 0
     },
     "hcg": {
@@ -678,7 +680,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T22:51:05.175Z",
+      "at": "2026-09-30T23:01:28.864Z",
       "items": 2
     }
   },
@@ -686,7 +688,14 @@
   "today": {
     "date": "2026-10-01",
     "count": 0,
-    "published": [],
+    "published": [
+      {
+        "slug": "crete-travel-guide-regions-sights",
+        "title": "↻ Crete: Cruise Ship Makes Emergency Stop Due to Weather",
+        "at": "2026-10-01T02:01:48+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [
       {
         "title": "Israeli Ambassador To Greece Responds to Flydubai Incident",
@@ -725,12 +734,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T22:51:05.857Z",
+    "at": "2026-09-30T23:01:29.762Z",
     "considered": 2,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | Athens Honours Pedro Sánchez with 2026 Democracy Award",
-      "· gct | Patras-Pyrgos Motorway Named Greek Project of the Year"
+      "· gct | Greece Halted Cable Surveys After Turkish Warships Appeared",
+      "✓ gct | Queen Anne Cruise Ship Makes Emergency Stop in Crete"
     ]
   },
   "evergreenDone": [
