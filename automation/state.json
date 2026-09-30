@@ -427,91 +427,92 @@
     "4a8b903b0aac": 1790721334659,
     "f634a4e65c7c": 1790722870688,
     "a8a7a08bd0e2": 1790724104915,
-    "1eff35bdd4fc": 1790724104915
+    "1eff35bdd4fc": 1790724104915,
+    "b00d5493bf9b": 1790728342333
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T00:01:13.731Z",
+      "at": "2026-09-30T00:32:14.219Z",
       "error": "HTTP 403",
-      "fails": 308
+      "fails": 309
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T00:01:14.260Z",
+      "at": "2026-09-30T00:32:14.816Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T00:01:14.900Z",
+      "at": "2026-09-30T00:32:15.469Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T00:01:15.945Z",
+      "at": "2026-09-30T00:32:16.477Z",
       "error": "HTTP 403",
-      "fails": 308
+      "fails": 309
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T00:01:16.878Z",
+      "at": "2026-09-30T00:32:17.238Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T00:01:17.223Z",
+      "at": "2026-09-30T00:32:17.556Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T00:01:18.295Z",
+      "at": "2026-09-30T00:32:18.845Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T00:01:19.277Z",
+      "at": "2026-09-30T00:32:19.539Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T00:01:20.119Z",
+      "at": "2026-09-30T00:32:20.331Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T00:01:20.269Z",
+      "at": "2026-09-30T00:32:20.440Z",
       "error": "HTTP 403",
-      "fails": 308
+      "fails": 309
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T00:01:20.777Z",
-      "items": 5
+      "at": "2026-09-30T00:32:21.002Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T00:01:21.110Z",
+      "at": "2026-09-30T00:32:21.056Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T00:01:21.725Z",
+      "at": "2026-09-30T00:32:21.233Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T00:01:21.907Z",
+      "at": "2026-09-30T00:32:21.558Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T00:01:22.104Z",
+      "at": "2026-09-30T00:32:21.599Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T00:01:15.750Z",
+      "at": "2026-09-30T00:32:16.233Z",
       "items": 30
     }
   },
@@ -553,12 +554,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-29T23:21:44.915Z",
-    "considered": 2,
+    "at": "2026-09-30T00:32:22.333Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | Η Σαουδική Αραβία διαψεύδει συνάντηση με Ισραηλινούς αξιωματούχους",
-      "· gct | 1,700-Year-Old Greek Poem Found in Egyptian Tomb"
+      "· gct | Two Greek Australian women are on the 2026 Victorian Honour Roll of Women."
     ]
   },
   "evergreenDone": [
