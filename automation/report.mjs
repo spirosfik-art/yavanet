@@ -20,18 +20,18 @@ async function leadsSince(ms) {
 }
 
 // Επισκέπτες από το Cloudflare Web Analytics (μετράει όλους, χωρίς cookies). Χρειάζεται token μόνο-ανάγνωσης.
-async function traffic() {
+async function traffic(hours = 24) {
   const token = (env.CLOUDFLARE_ANALYTICS_TOKEN || "").trim();
   const acc = (env.CLOUDFLARE_ACCOUNT_ID || "308ac8a2b91936b2e0985d38cddcb260").trim();
   const site = (env.CF_WA_SITE_TAG || "b9ab4561444f463a8a3206f744e69799").trim();
   if (!token) return null;
-  const to = new Date(), from = new Date(to - 24 * 3600e3), prev = new Date(from - 24 * 3600e3);
+  const to = new Date(), from = new Date(to - hours * 3600e3), prev = new Date(from - hours * 3600e3);
   const f = (a, b) => `{siteTag: "${site}", datetime_geq: "${a.toISOString()}", datetime_lt: "${b.toISOString()}"}`;
   const q = `{ viewer { accounts(filter: {accountTag: "${acc}"}) {
     now: rumPageloadEventsAdaptiveGroups(limit: 1, filter: ${f(from, to)}) { count sum { visits } }
     before: rumPageloadEventsAdaptiveGroups(limit: 1, filter: ${f(prev, from)}) { count sum { visits } }
-    countries: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { countryName } }
-    pages: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [count_DESC]) { count dimensions { requestPath } }
+    countries: rumPageloadEventsAdaptiveGroups(limit: 8, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { countryName } }
+    pages: rumPageloadEventsAdaptiveGroups(limit: 10, filter: ${f(from, to)}, orderBy: [count_DESC]) { count dimensions { requestPath } }
     refs: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { refererHost } }
   } } }`;
   const r = await fetch("https://api.cloudflare.com/client/v4/graphql", { method: "POST", headers: { authorization: `Bearer ${token}`, "content-type": "application/json" }, body: JSON.stringify({ query: q }), signal: AbortSignal.timeout(30000) });
@@ -57,6 +57,34 @@ async function traffic() {
     // Μόνο νούμερα επισκεψιμότητας στο log (χωρίς Telegram/email), για γρήγορο έλεγχο
     const tr = await traffic();
     log(JSON.stringify(tr, null, 1));
+    return;
+  }
+  if (kind === "weekly") {
+    // Εβδομαδιαία σύνοψη (κάθε Δευτέρα): 7 ημέρες σε σύγκριση με τις προηγούμενες 7
+    let tr = null, trErr = "";
+    try { tr = await traffic(24 * 7); } catch (e) { trErr = e.message; }
+    const leads = await leadsSince(Date.now() - 7 * 86400e3).catch(() => null);
+    const pct = (a, b) => (b ? ` (${a >= b ? "+" : ""}${Math.round(((a - b) / b) * 100)}% από την προηγούμενη εβδομάδα)` : "");
+    const fs = await import("node:fs");
+    const since = Date.now() - 7 * 86400e3;
+    const pub = fs.readdirSync(new URL("../content/articles/", import.meta.url)).map((f) => { try { return JSON.parse(fs.readFileSync(new URL("../content/articles/" + f, import.meta.url))); } catch { return null; } }).filter((a) => a && Date.parse(a.publishedAt) >= since);
+    const byKind = (leads || []).reduce((m, c) => { const k = (c.attributes || {}).LEAD_KIND || "–"; m[k] = (m[k] || 0) + 1; return m; }, {});
+    const txt = `🗓️ Yavanet – εβδομαδιαία αναφορά (έως ${athensNow().date})
+
+${tr ? `👥 Επισκέψεις: ${tr.now.visits}${pct(tr.now.visits, tr.before.visits)}
+📄 Προβολές σελίδων: ${tr.now.views}${pct(tr.now.views, tr.before.views)}
+🌍 Χώρες: ${tr.countries.join(" · ") || "–"}
+🔗 Από πού ήρθαν: ${tr.refs.join(" · ") || "–"}
+🔝 Κορυφαίες σελίδες:
+${tr.pages.join("\n") || "–"}` : `👥 Επισκέψεις: ${trErr ? "σφάλμα Cloudflare – " + trErr.slice(0, 120) : "λείπει το CLOUDFLARE_ANALYTICS_TOKEN"}`}
+
+📨 Νέες επαφές: ${leads ? leads.length : "–"}${Object.keys(byKind).length ? "\n" + Object.entries(byKind).map(([k, v]) => `• ${k}: ${v}`).join("\n") : ""}
+📰 Νέα άρθρα: ${pub.length} (οδηγοί: ${pub.filter((a) => a.guide || /^eg-/.test(String(a.meta?.itemId || ""))).length})
+
+Λεπτομέρειες: https://analytics.google.com · https://search.google.com/search-console · https://clarity.microsoft.com`;
+    await notifyOwner(txt);
+    await sendEmail(`Yavanet – εβδομαδιαία αναφορά ${athensNow().date}`, `<pre style="font-family:Arial;font-size:14px;white-space:pre-wrap">${esc(txt)}</pre>`);
+    log(txt);
     return;
   }
   if (kind === "daily") {
