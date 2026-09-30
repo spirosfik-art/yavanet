@@ -583,55 +583,56 @@
     "efdfb09efe4f": 1790809289761,
     "9e2a28909c07": 1790810538468,
     "9313815875e8": 1790810538468,
-    "a6f2c6a3fd98": 1790810538468
+    "a6f2c6a3fd98": 1790810538468,
+    "317f8c92df34": 1790811293338
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T23:22:05.305Z",
+      "at": "2026-09-30T23:34:39.834Z",
       "error": "HTTP 403",
-      "fails": 397
+      "fails": 398
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T23:22:07.603Z",
+      "at": "2026-09-30T23:34:42.425Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T23:22:08.290Z",
+      "at": "2026-09-30T23:34:43.102Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T23:22:09.264Z",
+      "at": "2026-09-30T23:34:43.926Z",
       "error": "HTTP 403",
-      "fails": 397
+      "fails": 398
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T23:22:10.895Z",
+      "at": "2026-09-30T23:34:45.422Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T23:22:11.172Z",
+      "at": "2026-09-30T23:34:45.759Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T23:22:12.340Z",
+      "at": "2026-09-30T23:34:46.573Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T23:22:13.153Z",
+      "at": "2026-09-30T23:34:47.684Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T23:22:13.914Z",
+      "at": "2026-09-30T23:34:48.575Z",
       "items": 10
     },
     "toi-greece": {
@@ -642,22 +643,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T23:22:14.428Z",
+      "at": "2026-09-30T23:34:49.091Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T23:22:14.828Z",
+      "at": "2026-09-30T23:34:49.399Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T23:22:15.133Z",
+      "at": "2026-09-30T23:34:49.787Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T23:22:15.589Z",
+      "at": "2026-09-30T23:34:50.168Z",
       "items": 10
     },
     "ynet-greece": {
@@ -667,12 +668,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T23:22:09.101Z",
+      "at": "2026-09-30T23:34:43.644Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T23:22:16.449Z",
+      "at": "2026-09-30T23:34:50.766Z",
       "items": 0
     },
     "hcg": {
@@ -683,7 +684,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T23:22:17.832Z",
+      "at": "2026-09-30T23:34:52.706Z",
       "items": 2
     }
   },
@@ -737,13 +738,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T23:22:18.468Z",
-    "considered": 3,
+    "at": "2026-09-30T23:34:53.338Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Giorgos Mazonakis Grieving Parents Break Their Silence",
-      "· gct | 119 Dental Practices Flagged Over Botox and Hyaluronic Acid Ads",
-      "· ingr | Συρία: 7 νεκροί εξαιτίας ένοπλης επίθεσης σε λεωφορείο – Εκρηξη σε αγωγό φυσικού αερίου"
+      "· gct | Researchers Drill at Turkey’s Controversial Noah’s Ark Site"
     ]
   },
   "evergreenDone": [
