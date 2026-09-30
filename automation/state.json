@@ -489,55 +489,58 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "72f9ed65293b": 1790758438693,
-    "2be0091382cc": 1790758943583
+    "2be0091382cc": 1790758943583,
+    "7d85232ce914": 1790760332499,
+    "8c01de659bf3": 1790760332499,
+    "94c96f717299": 1790760332499
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T09:02:09.879Z",
+      "at": "2026-09-30T09:25:18.049Z",
       "error": "HTTP 403",
-      "fails": 341
+      "fails": 342
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T09:02:12.940Z",
+      "at": "2026-09-30T09:25:21.166Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T09:02:13.747Z",
+      "at": "2026-09-30T09:25:21.863Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T09:02:14.548Z",
+      "at": "2026-09-30T09:25:22.767Z",
       "error": "HTTP 403",
-      "fails": 341
+      "fails": 342
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T09:02:15.433Z",
+      "at": "2026-09-30T09:25:24.452Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T09:02:15.850Z",
+      "at": "2026-09-30T09:25:24.843Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T09:02:17.062Z",
+      "at": "2026-09-30T09:25:26.538Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T09:02:17.810Z",
-      "items": 1
+      "at": "2026-09-30T09:25:27.244Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T09:02:18.762Z",
+      "at": "2026-09-30T09:25:27.972Z",
       "items": 10
     },
     "toi-greece": {
@@ -548,22 +551,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T09:02:19.308Z",
+      "at": "2026-09-30T09:25:28.548Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T09:02:19.679Z",
+      "at": "2026-09-30T09:25:28.888Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T09:02:19.818Z",
+      "at": "2026-09-30T09:25:29.162Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T09:02:20.320Z",
+      "at": "2026-09-30T09:25:29.606Z",
       "items": 2
     },
     "ynet-greece": {
@@ -573,12 +576,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T09:02:14.270Z",
+      "at": "2026-09-30T09:25:22.629Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T09:02:20.992Z",
+      "at": "2026-09-30T09:25:30.360Z",
       "items": 0
     },
     "hcg": {
@@ -589,7 +592,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T09:02:22.397Z",
+      "at": "2026-09-30T09:25:31.562Z",
       "items": 2
     }
   },
@@ -643,6 +646,11 @@
         "title": "M 4.6 - 3 km W of Thívai, Greece",
         "reason": "The Hebrew TLDR contains a syntax error with stray JSON/HTML characters (</ul>).; The Hebrew and English versions mention the Richter scale, which is not stated in the source text (Rule 8: Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts th",
         "at": "2026-09-30T09:02:46.950Z"
+      },
+      {
+        "title": "Israel now treats Flydubai cockpit drama as attempted terror attack",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T09:25:36.821Z"
       }
     ],
     "errors": []
@@ -671,11 +679,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T09:02:23.584Z",
-    "considered": 1,
+    "at": "2026-09-30T09:25:32.499Z",
+    "considered": 3,
     "picked": 1,
     "items": [
-      "✓ usgs | M 4.6 - 3 km W of Thívai, Greece"
+      "· ingr | Πιλότος φέρεται να επιχείρησε να ρίξει επιβατικό Boeing – Yποψίες για τρομοκράτες",
+      "· ert | Εξαντλήθηκαν τα εισιτήρια και για τις δύο πιλοτικές πτήσεις Ιωαννίνων – Ηρακλείου",
+      "✓ gct | Israel now treats Flydubai cockpit drama as attempted terror attack"
     ]
   },
   "evergreenDone": [
