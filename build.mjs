@@ -8,6 +8,7 @@ import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
 import { sfShowcase } from "./site/sf.mjs";
 import { almyraShowcase } from "./site/almyra.mjs";
+import { medtourShowcase } from "./site/medtour.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
@@ -165,7 +166,7 @@ ${newsletterBox(lang)}
   articles.forEach((a, i) => {
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = articles.filter((x) => x !== a && x.section === a.section).slice(0, 3);
-    const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+    const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
   text: lang === "he" ? "השאירו פרטים ויועץ נדל״ן דובר עברית יחזור אליכם. בלי התחייבות ובחינם." : "Leave your details and a Hebrew-speaking property adviser will get back to you. Free, no obligation." }) : ""}

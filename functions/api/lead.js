@@ -4,6 +4,7 @@ import { json, clean, validEmail, readBody, sameOrigin, brevo, telegram, escHtml
 
 const KINDS = {
   "property-lead": "🏠 Νέα επαφή ακινήτων",
+  "medtour-lead": "🏥 Ενδιαφέρον για Airbnb δίπλα σε νοσοκομεία",
   "ask-expert": "❓ Ερώτηση «Ρωτήστε τον ειδικό»",
   "law-alerts": "🔔 Εγγραφή σε ειδοποιήσεις νόμων",
   "error-report": "⚠️ Αναφορά λάθους σε άρθρο",
@@ -14,7 +15,7 @@ const KINDS = {
   "contact": "✉️ Μήνυμα επικοινωνίας",
 };
 // Ποιες φόρμες είναι πιθανοί πελάτες (μπαίνουν στη λίστα CRM)
-const CRM_KINDS = new Set(["property-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
+const CRM_KINDS = new Set(["property-lead", "medtour-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
 
 export async function onRequestPost({ request, env }) {
   if (!sameOrigin(request)) return json({ ok: false }, 403);
