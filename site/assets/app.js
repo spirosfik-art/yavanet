@@ -447,44 +447,6 @@
     else pushState().then(function (s) { pushLabel(!!s); });
   }
 
-  /* Αναδυόμενο παράθυρο «Traveller alerts» σε κάθε επισκέπτη: λίγα δευτερόλεπτα μετά την είσοδο
-     (αφού κλείσει το banner των cookies). Δεν ξαναεμφανίζεται για 7 μέρες με «Όχι τώρα», ούτε σε εγγεγραμμένους. */
-  (function () {
-    if (!pushOK && !isIOS) return;
-    if (typeof Notification !== "undefined" && Notification.permission === "denied") return;
-    if (Date.now() - (+store("yv-np-dismiss") || 0) < 7 * 864e5) return;
-    var he = C.lang !== "en", shown = false;
-    var bell = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>';
-    var items = he ? ["שביתות בטיסות, מעבורות ומטרו", "שריפות ומזג אוויר קיצוני", "מבזקים חשובים לישראלים"] : ["Flight, ferry and metro strikes", "Wildfires and severe weather", "Breaking news for Israelis"];
-    function show() {
-      if (shown) return;
-      var ck = $("#cookie"); if (ck && !ck.hidden) return setTimeout(show, 2500);
-      if (document.body.classList.contains("noscroll")) return setTimeout(show, 4000);
-      shown = true;
-      pushState().then(function (sub) {
-        if (sub) return;
-        var d = document.createElement("div"); d.className = "npmodal"; d.setAttribute("role", "dialog"); d.setAttribute("aria-modal", "true"); d.setAttribute("aria-label", he ? "התראות למטיילים" : "Traveller alerts");
-        d.innerHTML = '<div class="np-card pushbox"><button type="button" class="np-x" aria-label="' + (he ? "סגירה" : "Close") + '">×</button>' +
-          '<div class="pb-h"><span class="pb-ic">' + bell + '</span><div><h4>' + (he ? "התראות למטיילים" : "Traveller alerts") + '</h4><span class="pb-sub">' + (he ? "ישר לטלפון, ברגע שזה קורה" : "Straight to your phone, as it happens") + '</span></div></div>' +
-          '<ul class="pb-list">' + items.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
-          '<button type="button" class="btn pb-btn np-yes">' + (he ? "הפעלת התראות" : "Turn on alerts") + "</button>" +
-          '<button type="button" class="np-no">' + (he ? "לא עכשיו" : "Not now") + "</button>" +
-          '<p class="pb-note">' + (he ? "בחינם · בלי אפליקציה · ביטול בלחיצה" : "Free · No app · Turn off anytime") + "</p></div>";
-        document.body.appendChild(d);
-        requestAnimationFrame(function () { d.classList.add("on"); });
-        track("push_prompt_shown");
-        function close(save) { if (save) store("yv-np-dismiss", String(Date.now())); d.classList.remove("on"); setTimeout(function () { d.remove(); }, 300); document.removeEventListener("keydown", esc_); }
-        function esc_(e) { if (e.key === "Escape") { track("push_prompt_no"); close(true); } }
-        document.addEventListener("keydown", esc_);
-        d.querySelector(".np-yes").onclick = function () { track("push_prompt_yes"); close(false); togglePush(); };
-        d.querySelector(".np-no").onclick = d.querySelector(".np-x").onclick = function () { track("push_prompt_no"); close(true); };
-        d.addEventListener("click", function (e) { if (e.target === d) { track("push_prompt_no"); close(true); } });
-        setTimeout(function () { var y = d.querySelector(".np-yes"); if (y) y.focus(); }, 60);
-      });
-    }
-    setTimeout(show, 6000);
-  })();
-
   /* ---------- Μενού & αναζήτηση ---------- */
   (function () {
     var he = (window.YV && YV.lang) !== "en";
