@@ -475,55 +475,68 @@
     "ddbe2c19ea77": 1790756863458,
     "bccaf358859e": 1790756863458,
     "8586045c782f": 1790756863458,
-    "641016337429": 1790757701651
+    "641016337429": 1790757701651,
+    "38a524154cbc": 1797324835203,
+    "df63fb6d419c": 1797324835203,
+    "c83384c853b8": 1797324835203,
+    "83c8177489bc": 1797324835203,
+    "8ed02f4c9239": 1797324835203,
+    "16e8891718c3": 1797324835203,
+    "3b747b4ef6e2": 1797324835203,
+    "3e14b612b21e": 1797324835203,
+    "dc6a944f870c": 1797324835203,
+    "a56574152099": 1797324835203,
+    "130679e312d6": 1797324835203,
+    "5323357044b4": 1797324835203,
+    "72f9ed65293b": 1790758438693
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T08:41:29.883Z",
+      "at": "2026-09-30T08:53:47.071Z",
       "error": "HTTP 403",
-      "fails": 339
+      "fails": 340
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T08:41:32.327Z",
+      "at": "2026-09-30T08:53:49.116Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T08:41:32.998Z",
+      "at": "2026-09-30T08:53:49.589Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T08:41:33.772Z",
+      "at": "2026-09-30T08:53:50.279Z",
       "error": "HTTP 403",
-      "fails": 339
+      "fails": 340
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T08:41:34.670Z",
+      "at": "2026-09-30T08:53:50.896Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T08:41:35.944Z",
+      "at": "2026-09-30T08:53:51.191Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T08:41:37.230Z",
+      "at": "2026-09-30T08:53:52.216Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T08:41:37.978Z",
-      "items": 2
+      "at": "2026-09-30T08:53:52.807Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T08:41:38.867Z",
+      "at": "2026-09-30T08:53:53.536Z",
       "items": 10
     },
     "toi-greece": {
@@ -534,23 +547,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T08:41:39.460Z",
+      "at": "2026-09-30T08:53:53.967Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T08:41:39.790Z",
+      "at": "2026-09-30T08:53:54.006Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T08:41:40.102Z",
+      "at": "2026-09-30T08:53:54.558Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:41:40.622Z",
-      "items": 4
+      "at": "2026-09-30T08:53:54.692Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -559,14 +572,31 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:41:33.630Z",
+      "at": "2026-09-30T08:53:50.090Z",
       "items": 30
+    },
+    "hcaa": {
+      "ok": true,
+      "at": "2026-09-30T08:53:55.203Z",
+      "items": 12,
+      "baseline": true
+    },
+    "hcg": {
+      "ok": false,
+      "at": "2026-09-30T08:53:55.829Z",
+      "error": "HTTP 403",
+      "fails": 1
+    },
+    "oasa": {
+      "ok": true,
+      "at": "2026-09-30T08:53:57.892Z",
+      "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -585,6 +615,12 @@
         "title": "Dubai to Tel Aviv flight squawks emergency over Saudi Arabia",
         "at": "2026-09-30T09:48:42+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "nafplio-guide-peloponnese-greece",
+        "title": "Nafplio: The Ultimate Guide to Greece's Prettiest Town",
+        "at": "2026-09-30T11:54:17+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -630,11 +666,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T08:41:41.651Z",
+    "at": "2026-09-30T08:53:58.693Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | Πανικός στην πτήση Ντουμπάι – Τελ Αβίβ: Αναφορές ότι ο ένας πιλότος προσπάθησε να ρίξει το"
+      "· oasa | Παράταση προσωρινής τροποποίησης της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙ"
     ]
   },
   "evergreenDone": [
@@ -656,8 +692,9 @@
     "romaniotes",
     "jews-corfu",
     "greece-israel",
-    "meteora"
+    "meteora",
+    "nafplio"
   ],
-  "lastEvergreen": 1790744621011,
+  "lastEvergreen": 1790758438699,
   "pushKey": "ok"
 }
