@@ -430,91 +430,92 @@
     "1eff35bdd4fc": 1790724104915,
     "b00d5493bf9b": 1790728342333,
     "a9b23719bf94": 1790729785969,
-    "78e8a61de993": 1790729785969
+    "78e8a61de993": 1790729785969,
+    "7341b4f4b0f2": 1790732139204
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T01:25:02.099Z",
+      "at": "2026-09-30T01:35:31.906Z",
       "error": "HTTP 403",
-      "fails": 312
+      "fails": 313
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T01:25:04.471Z",
-      "items": 10
+      "at": "2026-09-30T01:35:32.444Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T01:25:05.560Z",
+      "at": "2026-09-30T01:35:33.064Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T01:25:06.382Z",
+      "at": "2026-09-30T01:35:33.776Z",
       "error": "HTTP 403",
-      "fails": 312
+      "fails": 313
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T01:25:07.696Z",
+      "at": "2026-09-30T01:35:34.510Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T01:25:07.827Z",
+      "at": "2026-09-30T01:35:34.881Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T01:25:08.849Z",
+      "at": "2026-09-30T01:35:35.750Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T01:25:09.757Z",
+      "at": "2026-09-30T01:35:36.391Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T01:25:10.372Z",
+      "at": "2026-09-30T01:35:37.324Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T01:25:10.478Z",
+      "at": "2026-09-30T01:35:37.481Z",
       "error": "HTTP 403",
-      "fails": 312
+      "fails": 313
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T01:25:11.037Z",
+      "at": "2026-09-30T01:35:37.877Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T01:25:11.118Z",
+      "at": "2026-09-30T01:35:37.944Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T01:25:11.881Z",
+      "at": "2026-09-30T01:35:38.318Z",
       "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T01:25:12.198Z",
+      "at": "2026-09-30T01:35:38.466Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T01:25:12.333Z",
+      "at": "2026-09-30T01:35:38.544Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T01:25:06.276Z",
+      "at": "2026-09-30T01:35:33.578Z",
       "items": 30
     }
   },
@@ -556,12 +557,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T00:56:25.969Z",
-    "considered": 2,
+    "at": "2026-09-30T01:35:39.204Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | Ουκρανία: Ισχυρές εκρήξεις στο Κίεβο – Πυρκαγιά σε κατοικημένη περιοχή",
-      "· gct | Lost Tarpon Springs Icon Found in an Aegina Church"
+      "· gct | Patriarch Opens Restored Saint Haralambos in Bebek"
     ]
   },
   "evergreenDone": [
