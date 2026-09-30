@@ -37,6 +37,14 @@ export function profileBody(a, lang) {
 <section class="pf-sec"><h2>${esc(p.servicesTitle)}</h2>
 <div class="pf-services">${p.services.map(([k, t, d]) => `<div class="pf-svc"><span class="pf-ic">${icon(k)}</span><h3>${esc(t)}</h3><p>${esc(d)}</p></div>`).join("")}</div></section>
 
+${p.project ? `<a class="pf-proj" href="${P(lang, p.project.url)}" data-out="asi-project">
+  <span class="pp-bg" style="background-image:url('https://images.unsplash.com/photo-1751945965597-71171ec7a458?auto=format&fit=crop&w=1100&q=70')"></span>
+  <span class="pp-ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52"/><circle class="v" cx="60" cy="60" r="52" pathLength="100"/></svg><b>${esc(p.project.stat)}</b><small>${esc(p.project.statL)}</small></span>
+  <span class="pp-body"><span class="pp-eye">🏥 ${esc(p.project.eye)}</span><strong>${esc(p.project.title)}</strong><span class="pp-text">${esc(p.project.text)}</span>
+  <span class="pp-pts">${p.project.points.map((x) => `<span>✓ ${esc(x)}</span>`).join("")}</span>
+  <span class="pp-go">${esc(p.project.cta)} ${he ? "←" : "→"}</span></span>
+</a>` : ""}
+
 <section class="pf-sec"><h2>${esc(p.stepsTitle)}</h2>
 <ol class="pf-steps">${p.steps.map(([t, d]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join("")}</ol></section>
 

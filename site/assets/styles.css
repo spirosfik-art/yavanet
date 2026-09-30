@@ -1278,3 +1278,25 @@ button.pf-btn{cursor:pointer;font:inherit}
 @media (prefers-reduced-motion:reduce){.npmodal,.np-card{transition:none}}
 .sm-s{display:none}
 @media (max-width:440px){html[lang=en] .sm-l{display:none}html[lang=en] .sm-s{display:inline}}
+
+/* ── Κάρτα «νέο project» στη σελίδα-προφίλ ── */
+.pf-proj{position:relative;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;padding:26px;border-radius:24px;overflow:hidden;color:#fff;text-decoration:none;background:#0B3A5B;isolation:isolate;box-shadow:0 24px 50px -28px rgba(4,22,38,.8);transition:transform .25s}
+.pf-proj:hover{transform:translateY(-3px)}
+.pp-bg{position:absolute;inset:0;z-index:-1;background-size:cover;background-position:center;opacity:.28;transition:transform 1.2s}
+.pf-proj:hover .pp-bg{transform:scale(1.05)}
+.pf-proj::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(120deg,rgba(11,58,91,.96),rgba(14,90,74,.85))}
+.pp-ring{position:relative;display:grid;place-items:center;width:140px;text-align:center}
+.pp-ring svg{width:140px;height:140px;transform:rotate(-90deg)}
+.pp-ring circle{fill:none;stroke:rgba(255,255,255,.18);stroke-width:10}
+.pp-ring circle.v{stroke:#8FF0D6;stroke-linecap:round;stroke-dasharray:90 100;animation:mtxring 1.8s ease-out both}
+.pp-ring b{position:absolute;top:40px;font-family:var(--display);font-size:38px;line-height:1}
+.pp-ring small{position:absolute;top:82px;width:100px;font-size:11.5px;font-weight:700;opacity:.85;line-height:1.2}
+.pp-body{display:grid;gap:8px}
+.pp-eye{color:#8FF0D6;font-weight:800;font-size:13px;letter-spacing:.03em}
+.pp-body strong{font-family:var(--display);font-size:clamp(24px,3.6vw,32px);line-height:1.15}
+.pp-text{font-size:16px;line-height:1.6;opacity:.92}
+.pp-pts{display:flex;flex-wrap:wrap;gap:8px}
+.pp-pts span{font-size:13px;font-weight:700;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:5px 11px}
+.pp-go{justify-self:start;margin-top:4px;background:#8FF0D6;color:#062d25;font-weight:800;border-radius:999px;padding:10px 18px}
+@media (max-width:720px){.pf-proj{grid-template-columns:1fr;padding:20px}.pp-ring{justify-self:start;width:110px}.pp-ring svg{width:110px;height:110px}.pp-ring b{top:30px;font-size:30px}.pp-ring small{top:64px;width:80px;font-size:10px}}
+@media (prefers-reduced-motion:reduce){.pp-ring circle.v{animation:none}}
