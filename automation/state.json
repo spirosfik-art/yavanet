@@ -448,7 +448,9 @@
     "ed3556b12c26": 1790743077390,
     "c6b138dac512": 1790743937164,
     "d5161edd593d": 1790744553678,
-    "3a4f128ecaf1": 1790744553678
+    "3a4f128ecaf1": 1790744553678,
+    "9f4547f19821": 1790745902765,
+    "fe3b7e6f685f": 1790745902765
   },
   "pending": {
     "b30f71": {
@@ -553,85 +555,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T05:02:22.597Z",
+      "at": "2026-09-30T05:24:52.205Z",
       "error": "HTTP 403",
-      "fails": 327
+      "fails": 328
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T05:02:25.050Z",
+      "at": "2026-09-30T05:24:54.438Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T05:02:25.761Z",
+      "at": "2026-09-30T05:24:55.365Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T05:02:26.829Z",
+      "at": "2026-09-30T05:24:56.279Z",
       "error": "HTTP 403",
-      "fails": 327
+      "fails": 328
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T05:02:28.025Z",
+      "at": "2026-09-30T05:24:57.132Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T05:02:28.142Z",
+      "at": "2026-09-30T05:24:57.279Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T05:02:29.121Z",
+      "at": "2026-09-30T05:24:59.353Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T05:02:29.858Z",
+      "at": "2026-09-30T05:25:00.102Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T05:02:30.720Z",
+      "at": "2026-09-30T05:25:00.616Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T05:02:30.853Z",
+      "at": "2026-09-30T05:25:00.702Z",
       "error": "HTTP 403",
-      "fails": 327
+      "fails": 328
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T05:02:31.413Z",
+      "at": "2026-09-30T05:25:01.178Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T05:02:31.691Z",
+      "at": "2026-09-30T05:25:01.508Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T05:02:32.055Z",
+      "at": "2026-09-30T05:25:01.560Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T05:02:32.352Z",
+      "at": "2026-09-30T05:25:01.984Z",
       "items": 7
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T05:02:32.467Z",
+      "at": "2026-09-30T05:25:02.064Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T05:02:26.582Z",
+      "at": "2026-09-30T05:24:56.196Z",
       "items": 30
     }
   },
@@ -680,12 +682,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T05:02:33.678Z",
+    "at": "2026-09-30T05:25:02.765Z",
     "considered": 2,
-    "picked": 1,
+    "picked": 0,
     "items": [
-      "· ingr | ΠΑΣΟΚ: Από τα διλήμματα της κάλπης στη «θετική ατζέντα» – Στενό μαρκάρισμα στη ΝΔ για καύσ",
-      "✓ gct | New Greek Highway Code: €4,000 Fine, 8-Year Ban for Phone Use"
+      "· gct | Olivia Vasilopoulos Begins Her Journey Of Beauty, Ambition And Dreams",
+      "· gct | 8-Million-Year-Old Two-Horned Rhino Skull Unearthed in Crete"
     ]
   },
   "evergreenDone": [
