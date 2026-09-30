@@ -58,6 +58,15 @@ ${p.areas ? `<section class="pf-areas"><h3>${icon("area")}${esc(p.areasTitle)}</
   <div class="pf-ctas">${wa}<a class="pf-btn ghost" dir="ltr" href="tel:${esc(p.phone.replace(/[^+\d]/g, ""))}">${esc(p.phone)}</a></div>${p.address ? `<p class="pf-addr">📍 ${esc(p.address)}</p>` : ""}</div>
 </section>
 
+${p.fbPost ? (() => { const url = "https://yavanet.gr" + P(lang, "/a/" + a.slug + "/"), txt = p.fbPost + "\n" + url; return `<section class="pf-fb" id="pf-fb">
+  <h2>${he ? "פוסט מוכן לפייסבוק" : "Ready-made Facebook post"}</h2>
+  <p class="pf-lead">${he ? "לוחצים על הכפתור: הטקסט מועתק, ופייסבוק נפתח. מדביקים את הטקסט בפוסט ומפרסמים." : "Press the button: the text is copied and Facebook opens. Paste the text into the post and publish."}</p>
+  <pre class="pf-fbtext" dir="${he ? "rtl" : "ltr"}">${esc(p.fbPost)}
+<bdi dir="ltr">${esc(url)}</bdi></pre>
+  <div class="pf-ctas"><button type="button" class="pf-btn fb" data-fbpost="${esc(txt)}" data-fburl="${esc(url)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v6h4v-6h3l1-4h-4V8z"/></svg><span>${he ? "העתיקו ופרסמו בפייסבוק" : "Copy & post on Facebook"}</span></button>
+  <button type="button" class="pf-btn ghost" data-copy="${esc(txt)}"><span>${he ? "העתיקו את הטקסט בלבד" : "Copy the text only"}</span></button></div>
+</section>`; })() : ""}
+
 <p class="pf-more">${p.links.map(([u, t]) => `<a href="${P(lang, u)}">${esc(t)}</a>`).join(" · ")}</p>
 <p class="small pf-disc">${esc(p.disclosure)}</p>
 <div class="pf-sticky">${wa}</div>

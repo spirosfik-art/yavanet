@@ -118,6 +118,12 @@
       else { window.open("https://wa.me/?text=" + encodeURIComponent(st + " " + su), "_blank", "noopener"); }
       track("share", { method: navigator.share ? "native" : "whatsapp" }); return;
     }
+    if (el.hasAttribute("data-fbpost")) {
+      var ft = el.getAttribute("data-fbpost"), fu = el.getAttribute("data-fburl");
+      try { navigator.clipboard.writeText(ft).then(function () { toast(L.copied); }, function () { }); } catch (e3) { }
+      window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(fu), "_blank", "noopener");
+      track("share", { method: "facebook_post" }); return;
+    }
     if (el.hasAttribute("data-copy")) {
       var u = el.getAttribute("data-copy");
       try { navigator.clipboard.writeText(u).then(function () { toast(L.copied); }, function () { toast(u); }); } catch (e2) { toast(u); }
