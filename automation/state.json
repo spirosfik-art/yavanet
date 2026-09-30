@@ -450,7 +450,10 @@
     "d5161edd593d": 1790744553678,
     "3a4f128ecaf1": 1790744553678,
     "9f4547f19821": 1790745902765,
-    "fe3b7e6f685f": 1790745902765
+    "fe3b7e6f685f": 1790745902765,
+    "9b2532907ef8": 1790746609216,
+    "b6df7cc6a3cd": 1790746609216,
+    "e4a654f6dc3e": 1790746609216
   },
   "pending": {
     "b30f71": {
@@ -555,85 +558,85 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T05:24:52.205Z",
+      "at": "2026-09-30T05:36:38.263Z",
       "error": "HTTP 403",
-      "fails": 328
+      "fails": 329
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T05:24:54.438Z",
+      "at": "2026-09-30T05:36:40.733Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T05:24:55.365Z",
+      "at": "2026-09-30T05:36:41.620Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T05:24:56.279Z",
+      "at": "2026-09-30T05:36:42.518Z",
       "error": "HTTP 403",
-      "fails": 328
+      "fails": 329
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T05:24:57.132Z",
+      "at": "2026-09-30T05:36:43.424Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T05:24:57.279Z",
+      "at": "2026-09-30T05:36:43.561Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T05:24:59.353Z",
+      "at": "2026-09-30T05:36:44.715Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T05:25:00.102Z",
-      "items": 3
+      "at": "2026-09-30T05:36:45.459Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T05:25:00.616Z",
+      "at": "2026-09-30T05:36:45.916Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T05:25:00.702Z",
+      "at": "2026-09-30T05:36:46.008Z",
       "error": "HTTP 403",
-      "fails": 328
+      "fails": 329
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T05:25:01.178Z",
+      "at": "2026-09-30T05:36:46.646Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T05:25:01.508Z",
+      "at": "2026-09-30T05:36:46.780Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T05:25:01.560Z",
-      "items": 4
+      "at": "2026-09-30T05:36:47.509Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T05:25:01.984Z",
-      "items": 7
+      "at": "2026-09-30T05:36:47.797Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T05:25:02.064Z",
+      "at": "2026-09-30T05:36:47.915Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T05:24:56.196Z",
+      "at": "2026-09-30T05:36:42.424Z",
       "items": 30
     }
   },
@@ -654,6 +657,11 @@
         "title": "Mykonos Planning Office Shut Down After Anti-Corruption Raid",
         "reason": "Ίδιο θέμα με «Mykonos Season Ends With Discounts and Increased State Scrutiny» – δεν γράφτηκε ξανά",
         "at": "2026-09-29T21:35:41.955Z"
+      },
+      {
+        "title": "Σεισμός 4 Ρίχτερ κοντά στη Θήβα – Ακολούθησε δόνηση 3,3 Ρίχτερ",
+        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 42",
+        "at": "2026-09-30T05:37:09.369Z"
       }
     ],
     "errors": []
@@ -682,12 +690,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T05:25:02.765Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-09-30T05:36:49.216Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Olivia Vasilopoulos Begins Her Journey Of Beauty, Ambition And Dreams",
-      "· gct | 8-Million-Year-Old Two-Horned Rhino Skull Unearthed in Crete"
+      "· naftemporiki | Σεισμός τώρα 4 Ρίχτερ στην Βοιωτία",
+      "· ingr | Σεισμός 4 Ρίχτερ στη Θήβα",
+      "✓ ert | Σεισμός 4 Ρίχτερ κοντά στη Θήβα – Ακολούθησε δόνηση 3,3 Ρίχτερ"
     ]
   },
   "evergreenDone": [
