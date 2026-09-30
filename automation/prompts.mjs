@@ -1,3 +1,4 @@
+import { HE_STYLE } from "./he-style.mjs";
 // Οδηγίες για την τεχνητή νοημοσύνη. Αλλάξτε εδώ το ύφος και τους κανόνες του site.
 import { SECTIONS } from "../site/config.mjs";
 import { ART_KEYS } from "../site/art.mjs";
@@ -61,7 +62,7 @@ Return JSON: {"picks":[{"id":"...","section":"one of: ${SECTIONS.map((s) => s.sl
 Order by priority, highest first.`;
 }
 
-export const WRITE_SYSTEM = `You are a senior journalist at Yavanet (in Hebrew: יוונט; always write the name as "יוונט" in Hebrew text), writing for Israelis about Greece. You write natural, everyday Israeli Hebrew and clear British English, and you know Hebrew SEO.\n${AUDIENCE}\n${EDITORIAL_RULES}\n${SEO_RULES}\nReturn JSON only.`;
+export const WRITE_SYSTEM = `You are a senior journalist at Yavanet (in Hebrew: יוונט; always write the name as "יוונט" in Hebrew text), writing for Israelis about Greece. You write natural, everyday Israeli Hebrew and clear British English, and you know Hebrew SEO.\n${AUDIENCE}\n${EDITORIAL_RULES}\n${SEO_RULES}\n${HE_STYLE}\nReturn JSON only.`;
 
 export function writePrompt({ source, text, section, sensitive, breaking, today, instruction }) {
   return `Today (Athens): ${today}.
