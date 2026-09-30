@@ -32,49 +32,6 @@
   }
   paintSky(); window.addEventListener("resize", paintSky); setInterval(paintSky, 60000);
 
-  /* ---------- Ζωντανός καιρός Αθήνας πίσω από την κεφαλίδα (Open-Meteo) ---------- */
-  (function () {
-    var box = $("#wx"); if (!box) return;
-    var force = (location.search.match(/[?&]wx=(\w+)/) || [])[1];
-    function kind(c) {
-      if (c === 0 || c === 1) return "clear";
-      if (c === 2) return "partly";
-      if (c === 3) return "cloudy";
-      if (c === 45 || c === 48) return "fog";
-      if ((c >= 51 && c <= 67) || (c >= 80 && c <= 82)) return "rain";
-      if ((c >= 71 && c <= 77) || c === 85 || c === 86) return "snow";
-      if (c >= 95) return "storm";
-      return "partly";
-    }
-    function rep(n, f) { var h = ""; for (var i = 0; i < n; i++) h += f(i); return h; }
-    function rnd(a, b) { return (a + Math.random() * (b - a)).toFixed(2); }
-    function cloud(i, n, dark) { return '<span class="wx-cloud' + (dark ? " dark" : "") + '" style="top:' + rnd(4, 46) + '%;--s:' + rnd(0.7, 1.35) + ';animation-duration:' + rnd(55, 95) + 's;animation-delay:-' + rnd(0, 90) + 's"></span>'; }
-    function draw(d) {
-      var k = force || kind(d.code), day = force ? !/night/.test(location.search) : d.day, t = d.temp;
-      var h = '<div class="wx-scene wx-' + k + (day ? " is-day" : " is-night") + '">';
-      if (k === "clear" || k === "partly") h += day ? '<span class="wx-sun"><i></i></span>' : '<span class="wx-moon"></span>';
-      if (k === "partly") h += rep(3, function (i) { return cloud(i); });
-      if (k === "cloudy" || k === "fog") h += rep(6, function (i) { return cloud(i, 6, k === "cloudy"); });
-      if (k === "rain" || k === "storm") h += rep(5, function (i) { return cloud(i, 5, true); }) + rep(55, function () { return '<span class="wx-drop" style="left:' + rnd(0, 100) + '%;animation-duration:' + rnd(0.55, 0.95) + 's;animation-delay:-' + rnd(0, 1) + 's"></span>'; });
-      if (k === "storm") h += '<span class="wx-flash"></span>';
-      if (k === "snow") h += rep(4, function (i) { return cloud(i, 4); }) + rep(45, function () { return '<span class="wx-flake" style="left:' + rnd(0, 100) + '%;--sz:' + rnd(3, 7) + 'px;animation-duration:' + rnd(5, 11) + 's;animation-delay:-' + rnd(0, 11) + 's"></span>'; });
-      if (k === "fog") h += '<span class="wx-fog"></span><span class="wx-fog f2"></span>';
-      if (t != null) h += '<span class="wx-temp">' + Math.round(t) + '°</span>';
-      box.innerHTML = h + "</div>";
-    }
-    var cached = null;
-    try { cached = JSON.parse(sessionStorage.getItem("yv-wx") || "null"); } catch (e) { }
-    if (force) return draw({ code: 0, day: 1, temp: cached ? cached.temp : 24 });
-    if (cached && Date.now() - cached.at < 20 * 60e3) return draw(cached);
-    fetch("https://api.open-meteo.com/v1/forecast?latitude=37.98&longitude=23.73&current=temperature_2m,weather_code,is_day&timezone=Europe%2FAthens")
-      .then(function (r) { return r.json(); })
-      .then(function (j) {
-        var d = { code: j.current.weather_code, day: j.current.is_day, temp: j.current.temperature_2m, at: Date.now() };
-        try { sessionStorage.setItem("yv-wx", JSON.stringify(d)); } catch (e) { }
-        draw(d);
-      }).catch(function () { });
-  })();
-
   /* ---------- Feed & Stories (δεδομένα από τη σελίδα) ---------- */
   var DATA = null;
   try { var dj = $("#yv-data"); if (dj) DATA = JSON.parse(dj.textContent); } catch (e) { }

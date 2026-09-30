@@ -1162,34 +1162,3 @@ button.pf-btn{cursor:pointer;font:inherit}
 .medteaser .sft-body small,.medteaser .sft-body i{color:#8FF0D6}
 .mt-badge{position:absolute;bottom:10px;inset-inline-start:10px;display:grid;justify-items:center;line-height:1;background:#8FF0D6;color:#062d25;border-radius:14px;padding:8px 10px;font-size:11px;font-weight:800;box-shadow:0 8px 20px -8px rgba(0,0,0,.6)}
 .mt-badge b{font-family:var(--display);font-size:24px;margin-bottom:2px}
-
-/* ── Ζωντανός καιρός στην κεφαλίδα ── */
-.wx{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.wx-scene{position:absolute;inset:0}
-.wx-sun{position:absolute;top:-38px;left:52%;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,#FFE9A3 0 34%,#FFD15C 35% 46%,rgba(255,209,92,.28) 47% 60%,transparent 61%);filter:drop-shadow(0 0 30px rgba(255,214,110,.75));animation:wxpulse 5s ease-in-out infinite}
-.wx-sun i{position:absolute;inset:-34px;border-radius:50%;background:repeating-conic-gradient(rgba(255,226,140,.34) 0 6deg,transparent 6deg 22deg);-webkit-mask:radial-gradient(circle,transparent 42%,#000 44%,transparent 70%);mask:radial-gradient(circle,transparent 42%,#000 44%,transparent 70%);animation:wxspin 40s linear infinite}
-.wx-moon{position:absolute;top:14px;left:54%;width:54px;height:54px;border-radius:50%;box-shadow:-12px 6px 0 2px #F4EBC8;transform:rotate(-20deg);filter:drop-shadow(0 0 14px rgba(244,235,200,.55))}
-.wx-cloud{position:absolute;left:-220px;width:180px;height:54px;border-radius:60px;background:rgba(255,255,255,.3);transform:scale(var(--s,1));animation:wxdrift 70s linear infinite;filter:blur(1px)}
-.wx-cloud::before,.wx-cloud::after{content:"";position:absolute;background:inherit;border-radius:50%}
-.wx-cloud::before{width:84px;height:84px;top:-40px;left:30px}
-.wx-cloud::after{width:62px;height:62px;top:-26px;left:92px}
-.wx-cloud.dark{background:rgba(60,78,100,.45)}
-.is-night .wx-cloud{background:rgba(160,175,200,.22)}
-.wx-drop{position:absolute;top:-24px;width:1.5px;height:18px;border-radius:2px;background:linear-gradient(transparent,rgba(210,232,255,.85));animation:wxfall .8s linear infinite}
-.wx-flake{position:absolute;top:-10px;width:var(--sz,5px);height:var(--sz,5px);border-radius:50%;background:rgba(255,255,255,.9);animation:wxsnow 8s linear infinite}
-.wx-flash{position:absolute;inset:0;background:#fff;opacity:0;animation:wxflash 7s infinite}
-.wx-fog{position:absolute;left:-10%;right:-10%;height:40%;top:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);filter:blur(10px);animation:wxfog 18s ease-in-out infinite alternate}
-.wx-fog.f2{top:58%;animation-duration:26s;animation-direction:alternate-reverse}
-.wx-rain .wx-scene,.wx-scene.wx-rain,.wx-scene.wx-storm{background:linear-gradient(180deg,rgba(20,35,55,.35),transparent)}
-.wx-scene.wx-cloudy,.wx-scene.wx-fog{background:linear-gradient(180deg,rgba(60,75,95,.22),transparent)}
-.wx-temp{position:absolute;top:6px;left:calc(52% + 118px);font-family:var(--display);font-weight:800;font-size:clamp(38px,6vw,64px);line-height:1;color:#fff;opacity:.28;letter-spacing:-.02em}
-[dir=rtl] .wx-sun{left:auto;right:52%}[dir=rtl] .wx-moon{left:auto;right:54%}[dir=rtl] .wx-temp{left:auto;right:calc(52% + 118px)}
-@keyframes wxspin{to{transform:rotate(360deg)}}
-@keyframes wxpulse{50%{filter:drop-shadow(0 0 44px rgba(255,214,110,.95))}}
-@keyframes wxdrift{from{transform:translateX(0) scale(var(--s,1))}to{transform:translateX(calc(100vw + 460px)) scale(var(--s,1))}}
-@keyframes wxfall{to{transform:translate(-14px,260px)}}
-@keyframes wxsnow{to{transform:translate(30px,260px) rotate(180deg)}}
-@keyframes wxflash{0%,92%,96%,100%{opacity:0}93%{opacity:.55}95%{opacity:.25}}
-@keyframes wxfog{to{transform:translateX(12%)}}
-@media (max-width:720px){.wx-sun{width:80px;height:80px;top:-26px;left:40%}[dir=rtl] .wx-sun{right:40%}.wx-temp,[dir=rtl] .wx-temp{top:4px;left:40%;right:auto;width:80px;text-align:center;font-size:20px;opacity:.75}[dir=rtl] .wx-temp{left:auto;right:40%}.wx-clear.is-day .wx-temp,.wx-partly.is-day .wx-temp{color:#6B3F00;opacity:.85}.wx-moon{left:44%;width:40px;height:40px}[dir=rtl] .wx-moon{right:44%}.wx-cloud{width:130px;height:40px}}
-@media (prefers-reduced-motion:reduce){.wx *{animation:none!important}.wx-drop,.wx-flake,.wx-flash{display:none}}

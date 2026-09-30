@@ -205,7 +205,6 @@ ${head}
 ${strikeBar}${brk}
 <header class="sky" id="sky">
   <canvas id="stars" aria-hidden="true"></canvas>
-  <div class="wx" id="wx" aria-hidden="true"></div>
   <div class="wrap inner">
     <a class="logo" href="${P(lang, "/")}"><svg class="lmark" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="#0B3A5B"/><path d="M150 112H232Q262 112 262 142V392H206V168H150Q134 168 134 152V128Q134 112 150 112Z" fill="#fff"/><path d="M318 112H382Q414 112 414 144V168Q414 224 360 262L334 228Q358 210 364 188H318Q302 188 302 172V128Q302 112 318 112Z" fill="#F0B650"/><path d="M120 444Q170 416 220 444T320 444T410 444" fill="none" stroke="#2A8BC4" stroke-width="24" stroke-linecap="round"/></svg><span class="ltxt"><b>${lang === "he" ? "יוו<i>נט</i>" : "Yavan<i>et</i>"}</b><small>${esc(t.tagline)}</small></span></a>
     <div class="hside">
