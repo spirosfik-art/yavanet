@@ -495,6 +495,16 @@
   })();
 
 
+  /* ---------- Σελίδα-προφίλ: οι αριθμοί «μετράνε» μέχρι την τιμή τους όταν φανούν ---------- */
+  (function () {
+    var bs = document.querySelectorAll(".pf-stats b"); if (!bs.length || !("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (!e.isIntersecting) return; io.unobserve(e.target);
+      var el = e.target, m = el.getAttribute("data-full").match(/^(\D*)(\d+)(\D*)$/), to = +m[2], t0 = null;
+      function step(ts) { if (!t0) t0 = ts; var k = Math.min(1, (ts - t0) / 1800); el.textContent = m[1] + Math.round(to * (1 - Math.pow(1 - k, 3))) + m[3]; if (k < 1) requestAnimationFrame(step); }
+      requestAnimationFrame(step); setTimeout(function () { el.textContent = el.getAttribute("data-full"); }, 2100); }); }, { threshold: .4 });
+    bs.forEach(function (b) { var txt = b.textContent.trim(); if (!/^\D*\d+\D*$/.test(txt)) return; b.setAttribute("data-full", txt); b.textContent = txt.replace(/\d+/, "0"); io.observe(b); });
+  })();
+
   /* ---------- S.F. Properties showcase ---------- */
   (function () {
     var root = document.querySelector(".sfx"); if (!root) return;
