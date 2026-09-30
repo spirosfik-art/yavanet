@@ -506,55 +506,59 @@
     "0c19f7f8cd04": 1790768158840,
     "6cc156d496f8": 1790768158840,
     "8df6b92d8582": 1790768158840,
-    "17be3d396867": 1790768158840
+    "17be3d396867": 1790768158840,
+    "d3614a21a5db": 1790769122224,
+    "69fafe411ba2": 1790769122224,
+    "c6d1ac8210c9": 1790769122224,
+    "8d344fa443ab": 1790769122224
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T11:35:48.621Z",
+      "at": "2026-09-30T11:51:50.897Z",
       "error": "HTTP 403",
-      "fails": 351
+      "fails": 352
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T11:35:49.203Z",
-      "items": 0
+      "at": "2026-09-30T11:51:53.270Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T11:35:49.941Z",
+      "at": "2026-09-30T11:51:53.992Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T11:35:50.700Z",
+      "at": "2026-09-30T11:51:54.750Z",
       "error": "HTTP 403",
-      "fails": 351
+      "fails": 352
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T11:35:51.584Z",
+      "at": "2026-09-30T11:51:55.501Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T11:35:51.706Z",
+      "at": "2026-09-30T11:51:55.862Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T11:35:52.692Z",
+      "at": "2026-09-30T11:51:56.714Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T11:35:53.436Z",
+      "at": "2026-09-30T11:51:57.472Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T11:35:54.339Z",
+      "at": "2026-09-30T11:51:57.984Z",
       "items": 10
     },
     "toi-greece": {
@@ -565,22 +569,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T11:35:54.740Z",
-      "items": 5
+      "at": "2026-09-30T11:51:58.502Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T11:35:55.084Z",
+      "at": "2026-09-30T11:51:58.854Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T11:35:55.116Z",
-      "items": 6
+      "at": "2026-09-30T11:51:59.480Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T11:35:55.487Z",
+      "at": "2026-09-30T11:51:59.839Z",
       "items": 1
     },
     "ynet-greece": {
@@ -590,12 +594,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T11:35:50.497Z",
+      "at": "2026-09-30T11:51:54.555Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T11:35:56.125Z",
+      "at": "2026-09-30T11:52:00.469Z",
       "items": 0
     },
     "hcg": {
@@ -606,14 +610,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T11:35:57.953Z",
-      "items": 2
+      "at": "2026-09-30T11:52:01.355Z",
+      "items": 0
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -655,6 +659,12 @@
         "slug": "red-code-crete-severe-weather-storm",
         "title": "Red Code Issued for Crete Due to Severe Weather",
         "at": "2026-09-30T14:36:14+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "fire-hybrid-car-parking-acropolis-athens",
+        "title": "Hybrid Car Fire and Explosions in Athens Parking Garage Near Acropolis",
+        "at": "2026-09-30T14:52:17+03:00",
         "section": "breaking"
       }
     ],
@@ -721,15 +731,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T11:35:58.840Z",
-    "considered": 5,
+    "at": "2026-09-30T11:52:02.224Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "· ingr | ΕΛΑΣ: Πλαφόν μόνο στην αξιοπρεπή διαβίωση των πολιτών",
-      "✓ naftemporiki | Σε «Red Code» η Κρήτη για την επερχόμενη κακοκαιρία",
-      "· gct | Flydubai flight diverted to Saudi Arabia after cockpit altercation and hijack alert",
-      "· ert | Δεν επιβεβαιώνεται δεύτερη εκτροπή πτήσης της FlyDubai: Κατευθύνεται στο Τελ Αβίβ",
-      "· ert | Πτήση FlyDubai: Άγριος καβγάς μέσα στο πιλοτήριο – Σκηνές χάους στο αεροσκάφος με 180 επιβ"
+      "· strikes-naftemporiki | Γερμανία: Το συνδικάτο IG Metall απειλεί με αντίποινα, καθώς η Volkswagen σχεδιάζει την κα",
+      "✓ ingr | Αναστάτωση στην Ακρόπολη: Φωτιά με εκρήξεις σε υβριδικό όχημα μέσα σε πάρκινγκ",
+      "· ert | Δεν επιβεβαιώνεται δεύτερη εκτροπή πτήσης της FlyDubai: «H πορεία παραμένει προς το Τελ Αβ",
+      "· ert | Πτήση FlyDubai: Άγρια συμπλοκή μέσα στο πιλοτήριο – Σκηνές χάους στο αεροσκάφος με 180 επι"
     ]
   },
   "evergreenDone": [
