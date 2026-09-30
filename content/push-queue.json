@@ -1,33 +1,13 @@
 {
-  "tag": "medtour-launch-2",
+  "tag": "strike-2026-10-09-update",
   "he": {
-    "title": "🏥 90% תפוסה כל השנה: ה-Airbnb ליד בתי החולים",
-    "body": "פרויקט חדש של אסי דורון ו-S.F. Properties באמפלוקיפי ובפסיכיקו. כל הפרטים ביוונט.",
-    "url": "https://yavanet.gr/a/airbnb-near-hospitals-athens-medical-tourism/?utm_source=push&utm_medium=push&utm_campaign=medtour"
+    "title": "✈️ טסים ליוון ב-9 באוקטובר?",
+    "body": "השביתה ברשות התעופה האזרחית אולי תושעה. כל השביתות ביוון כאן.",
+    "url": "https://yavanet.gr/strikes/?utm_source=push&utm_medium=push&utm_campaign=strikes"
   },
   "en": {
-    "title": "🏥 90% occupancy all year: the Airbnb next to the hospitals",
-    "body": "A new project by Asi Doron and S.F. Properties in Ambelokipi and Psychiko. All the details on Yavanet.",
-    "url": "https://yavanet.gr/en/a/airbnb-near-hospitals-athens-medical-tourism/?utm_source=push&utm_medium=push&utm_campaign=medtour"
-  },
-  "onlySince": "2026-09-30T06:30:00Z",
-  "sentAt": "2026-09-30T07:55:13.403Z",
-  "result": {
-    "sent": 2,
-    "total": 2
-  },
-  "details": [
-    {
-      "host": "fcm.googleapis.com",
-      "at": "2026-09-30T07:45:19.545Z",
-      "lang": "he",
-      "status": 201
-    },
-    {
-      "host": "fcm.googleapis.com",
-      "at": "2026-09-30T07:43:24.948Z",
-      "lang": "en",
-      "status": 201
-    }
-  ]
+    "title": "✈️ Flying to Greece on 9 October?",
+    "body": "The civil aviation strike may be suspended. All strikes in Greece here.",
+    "url": "https://yavanet.gr/en/strikes/?utm_source=push&utm_medium=push&utm_campaign=strikes"
+  }
 }
