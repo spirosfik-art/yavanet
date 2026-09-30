@@ -428,91 +428,93 @@
     "f634a4e65c7c": 1790722870688,
     "a8a7a08bd0e2": 1790724104915,
     "1eff35bdd4fc": 1790724104915,
-    "b00d5493bf9b": 1790728342333
+    "b00d5493bf9b": 1790728342333,
+    "a9b23719bf94": 1790729785969,
+    "78e8a61de993": 1790729785969
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T00:32:14.219Z",
+      "at": "2026-09-30T00:56:15.121Z",
       "error": "HTTP 403",
-      "fails": 309
+      "fails": 310
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T00:32:14.816Z",
-      "items": 0
+      "at": "2026-09-30T00:56:17.870Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T00:32:15.469Z",
+      "at": "2026-09-30T00:56:18.575Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T00:32:16.477Z",
+      "at": "2026-09-30T00:56:19.376Z",
       "error": "HTTP 403",
-      "fails": 309
+      "fails": 310
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T00:32:17.238Z",
+      "at": "2026-09-30T00:56:20.385Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T00:32:17.556Z",
+      "at": "2026-09-30T00:56:20.521Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T00:32:18.845Z",
+      "at": "2026-09-30T00:56:21.946Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T00:32:19.539Z",
-      "items": 3
+      "at": "2026-09-30T00:56:22.688Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T00:32:20.331Z",
+      "at": "2026-09-30T00:56:23.149Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T00:32:20.440Z",
+      "at": "2026-09-30T00:56:23.235Z",
       "error": "HTTP 403",
-      "fails": 309
+      "fails": 310
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T00:32:21.002Z",
-      "items": 0
+      "at": "2026-09-30T00:56:23.841Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T00:32:21.056Z",
+      "at": "2026-09-30T00:56:24.092Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T00:32:21.233Z",
+      "at": "2026-09-30T00:56:24.840Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T00:32:21.558Z",
+      "at": "2026-09-30T00:56:25.149Z",
       "items": 4
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T00:32:21.599Z",
+      "at": "2026-09-30T00:56:25.249Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T00:32:16.233Z",
+      "at": "2026-09-30T00:56:19.285Z",
       "items": 30
     }
   },
@@ -554,11 +556,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T00:32:22.333Z",
-    "considered": 1,
+    "at": "2026-09-30T00:56:25.969Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Two Greek Australian women are on the 2026 Victorian Honour Roll of Women."
+      "· ert | Ουκρανία: Ισχυρές εκρήξεις στο Κίεβο – Πυρκαγιά σε κατοικημένη περιοχή",
+      "· gct | Lost Tarpon Springs Icon Found in an Aegina Church"
     ]
   },
   "evergreenDone": [
