@@ -98,6 +98,45 @@
   /* ---------- Feed & Stories (δεδομένα από τη σελίδα) ---------- */
   var DATA = null;
   try { var dj = $("#yv-data"); if (dj) DATA = JSON.parse(dj.textContent); } catch (e) { }
+
+  /* ---------- Ημερομηνία: κανονική + εβραϊκή (όπως στα ισραηλινά sites) ---------- */
+  (function () {
+    var el = $("#skydate"); if (!el) return;
+    function gem(n) {
+      var u = ["", "א", "ב", "ג", "ד", "ה", "ו", "ז", "ח", "ט"], t = ["", "י", "כ", "ל", "מ", "נ", "ס", "ע", "פ", "צ"], h = ["", "ק", "ר", "ש", "ת", "תק", "תר", "תש", "תת", "תתק"];
+      var s = h[Math.floor(n / 100)]; n %= 100;
+      s += n === 15 ? "טו" : n === 16 ? "טז" : t[Math.floor(n / 10)] + u[n % 10];
+      return s.length > 1 ? s.slice(0, -1) + "״" + s.slice(-1) : s + "׳";
+    }
+    try {
+      var now = new Date(), he = C.lang !== "en";
+      var g = new Intl.DateTimeFormat(he ? "he-IL" : "en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Athens" }).format(now);
+      var parts = {}; new Intl.DateTimeFormat(he ? "he-u-ca-hebrew" : "en-u-ca-hebrew", { day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Athens" }).formatToParts(now).forEach(function (p) { parts[p.type] = p.value; });
+      var d = parseInt(parts.day, 10), y = parseInt(parts.year || parts.relatedYear, 10), hd;
+      if (he) hd = gem(d) + " ב" + parts.month + " ה" + gem(y % 1000);
+      else hd = d + " " + parts.month + " " + y;
+      var sh = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "numeric", year: "numeric", timeZone: "Europe/Athens" }).format(now).replace(/\//g, ".");
+      el.innerHTML = '<span class="sd-g">' + esc(g) + '</span><span class="sd-s">' + esc(sh) + "</span> · " + esc(hd);
+    } catch (e) { }
+  })();
+
+  /* ---------- «Μήπως σας ξέφυγε»: άρθρα των τελευταίων ημερών που δεν έχει ανοίξει ο αναγνώστης ---------- */
+  (function () {
+    var seen = []; try { seen = JSON.parse(localStorage.getItem("yv-seen") || "[]"); } catch (e) { }
+    var m = location.pathname.match(/\/a\/([^\/]+)\/?$/);
+    if (m) { if (seen.indexOf(m[1]) < 0) { seen.unshift(m[1]); try { localStorage.setItem("yv-seen", JSON.stringify(seen.slice(0, 300))); } catch (e) { } } return; }
+    var box = $("#missed"); if (!box || !DATA || !DATA.feed) return;
+    var he = C.lang !== "en", now = Date.now();
+    var top = {}; document.querySelectorAll(".col .hero, .col .card").forEach(function (a, i) { if (i < 7) top[a.getAttribute("href")] = 1; });
+    var list = DATA.feed.filter(function (x) { return x.slug && x.t && now - new Date(x.t).getTime() < 7 * 864e5 && seen.indexOf(x.slug) < 0 && !top[x.url]; }).slice(0, 4);
+    if (!list.length) return;
+    function ago(t) { var h = Math.round((now - new Date(t).getTime()) / 36e5); if (h < 1) return he ? "עכשיו" : "just now"; if (h < 24) return he ? "לפני " + h + " שעות" : h + "h ago"; var d = Math.round(h / 24); return he ? (d === 1 ? "אתמול" : "לפני " + d + " ימים") : (d === 1 ? "yesterday" : d + " days ago"); }
+    box.querySelector(".missed-list").innerHTML = list.map(function (x) {
+      return '<a class="ms" href="' + esc(x.url) + '"><span class="ms-art">' + x.art + '</span><span class="ms-b"><small>' + esc(x.kicker) + " · " + esc(ago(x.t)) + "</small><b>" + esc(x.title) + "</b></span></a>";
+    }).join("");
+    box.hidden = false;
+  })();
+
   function lockScroll(on) { document.body.style.overflow = on ? "hidden" : ""; }
   function loadData(cb) {
     if (DATA) return cb(DATA);

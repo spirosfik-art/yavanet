@@ -87,6 +87,7 @@ Return JSON:
 {"slug":"english-kebab-case-max-8-words","section":"${SECTIONS.map((s) => s.slug).join("|")}","sensitive":true|false,"breaking":true|false,
 "geo":{"lat":number,"lng":number}|null  (only for breaking events with a clear location in Greece),
 "strike":null OR, only if the article is about a strike / work stoppage in Greece: {"dates":["YYYY-MM-DD", ...every day affected, from the source],"sectors":["flights"|"ferries"|"metro"|"buses"|"trains"|"taxis"|"public-sector"|"other"],"hours":"hours or 'all day', as in the source, in English","he":"one short Hebrew line: who strikes, when, what is affected","en":"the same line in English"},
+"alert":null OR, only when the story is urgent or important for Israelis in or travelling to Greece (a warning, strike, fire, storm, closure, record, first-time, exclusive): {"he":"1-3 Hebrew words for a red label above the title, like an Israeli news site (e.g. אזהרה לתיירים, שביתה, שריפה, סערה, שיא, לראשונה)","en":"the same label in English, 1-3 words"},
 "imageKey":"one of: ${ART_KEYS.join(", ")}","imageQuery":"2-4 English words for a free stock photo, generic (no people's faces, no brands)",
 "he":{"title":"","seoTitle":"","seoDesc":"","keywords":["",""],"dek":"","tldr":["","",""],"means":"","body":""},
 "en":{"title":"","seoTitle":"","seoDesc":"","keywords":["",""],"dek":"","tldr":["","",""],"means":"","body":""}}

@@ -293,6 +293,7 @@ async function publish(draft, item, pick, text) {
     sources: [{ name: item.sourceName, url: item.url }],
     image: await pickImage(draft),
     strike: normStrike(draft.strike),
+    alert: draft.alert && draft.alert.he && draft.alert.en ? { he: String(draft.alert.he).slice(0, 30), en: String(draft.alert.en).slice(0, 30) } : null,
     he: { title: draft.he.title, ...seoFields(draft.he), dek: draft.he.dek, tldr: draft.he.tldr.slice(0, 3), means: draft.he.means || "", body: draft.he.body },
     en: { title: draft.en.title, ...seoFields(draft.en), dek: draft.en.dek, tldr: draft.en.tldr.slice(0, 3), means: draft.en.means || "", body: draft.en.body },
     meta: { itemId: item.id, imageQuery: draft.imageQuery || "", sourceHash: sha(text), model: provider() === "gemini" ? (env.GEMINI_MODEL || "gemini-2.5-flash") : WRITE_MODEL, checkedAt: new Date().toISOString(), official: item.official },

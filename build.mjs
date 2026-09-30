@@ -37,6 +37,11 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
   .filter(Boolean)
   .sort((x, y) => new Date(y.publishedAt) - new Date(x.publishedAt));
 
+// «מבזקים»: οι πιο πρόσφατες ειδήσεις (όχι οδηγοί/συνεργάτες)
+const newsOnly = articles.filter((a) => !a.guide && !a.partner && !a.sponsored && !a.showcase && !a.pinned && !/^eg-/.test((a.meta && a.meta.itemId) || ""));
+GLOBAL.flash = newsOnly.filter((a) => NOW - new Date(a.publishedAt).getTime() < 72 * 3600e3);
+if (GLOBAL.flash.length < 4) GLOBAL.flash = newsOnly.slice(0, 6);
+
 const photoOf = (a) => { const u = (a.image && (a.image.og || (a.image.type === "photo" && a.image.url))) || null; return u && u.startsWith("/") ? abs(u) : u; };
 const bySection = (s) => articles.filter((a) => a.section === s);
 const breakingNow = articles.find((a) => a.breaking && NOW - new Date(a.updatedAt || a.publishedAt).getTime() < 12 * 3600e3) || null;
@@ -89,7 +94,7 @@ function feedData(lang) {
     { title: sec("breaking")[lang], art: "fire", slides: brk.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
     { title: sec("israelis")[lang], art: "people", slides: isr.slice(0, 4).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
   ].filter((s) => s.slides.length);
-  return { stories, feed: articles.slice(0, 20).map((a) => ({ kicker: k(a), title: a[lang].title, dek: a[lang].dek, url: url(a), art: artHTML(a, lang) })) };
+  return { stories, feed: articles.slice(0, 20).map((a) => ({ slug: a.slug, t: a.publishedAt, kicker: k(a), title: a[lang].title, dek: a[lang].dek, url: url(a), art: artHTML(a, lang) })) };
 }
 
 /* ---------- Σελίδες ---------- */
@@ -138,6 +143,7 @@ ${flightTeaser(lang)}
     </section>
     ${adBox(lang)}
     ${more.length ? `<section aria-labelledby="h-more"><div class="zone-h"><h2 id="h-more">${esc(t.zoneMore)}</h2></div><div class="cards two">${more.map((a) => card(a, lang)).join("")}</div></section>` : ""}
+    <section class="missed" id="missed" hidden aria-labelledby="h-missed"><div class="zone-h"><h2 id="h-missed">${lang === "he" ? "אולי פספסתם" : "You may have missed"}</h2></div><div class="missed-list"></div></section>
     ${DIVIDER}
     <section aria-labelledby="h-calc"><div class="zone-h"><h2 id="h-calc">${esc(t.calcTitle)}</h2></div>${calcBox(lang)}</section>
     ${newsletterBox(lang)}
@@ -497,6 +503,26 @@ ${articles.slice(0, 40).map((a) => `<item><title>${esc(a[lang].title)}</title><l
   write(P(lang, "/rss.xml"), rss);
 }
 
+/* «מבזקים» – όλα τα σύντομα νέα, με ώρα Αθήνας */
+for (const lang of LANGS) {
+  const he = lang === "he", path = P(lang, he ? "/mivzakim/" : "/flash/");
+  const list = newsOnly.filter((a) => NOW - new Date(a.publishedAt).getTime() < 7 * 864e5).slice(0, 80);
+  const dayOf = (iso) => new Intl.DateTimeFormat(he ? "he-IL" : "en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Athens" }).format(new Date(iso));
+  const hm = (iso) => new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Athens" }).format(new Date(iso));
+  let cur = "", rows = "";
+  for (const a of list) {
+    const d = dayOf(a.publishedAt);
+    if (d !== cur) { if (cur) rows += "</ol>"; rows += `<h2 class="fl-day">${esc(d)}</h2><ol class="fl-list">`; cur = d; }
+    const al = a.alert && a.alert[lang] ? a.alert[lang] : a.strike ? (he ? "שביתה" : "Strike") : a.breaking ? (he ? "מבזק" : "Breaking") : "";
+    rows += `<li><time>${esc(hm(a.publishedAt))}</time><div>${al ? `<span class="alert-tag">${esc(al)}</span>` : ""}<a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a><p>${esc(a[lang].tldr[0] || a[lang].dek)}</p></div></li>`;
+  }
+  if (cur) rows += "</ol>";
+  const title = he ? "מבזקים מיוון" : "Flash news from Greece";
+  const intro = he ? "כל החדשות האחרונות מיוון, לפי השעה באתונה. מתעדכן כל הזמן." : "All the latest news from Greece, by Athens time. Updated all the time.";
+  write(path, layout({ lang, title, description: intro, path, altPath: P(he ? "en" : "he", he ? "/flash/" : "/mivzakim/"), breaking: breakingNow,
+    body: `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div><div class="flashpage">${rows || `<div class="empty">${esc(T[lang].sectionEmpty)}</div>`}</div>` }));
+}
+
 /* 404 */
 write("404.html", layout({ lang: "he", title: "404", description: "", path: "/404.html", altPath: "/en/", noindex: true, body: `<div class="page-h"><h1>הדף לא נמצא</h1><p>Page not found. <a href="/">Yavanet</a> · <a href="/en/">English</a></p></div>` }));
 
@@ -507,6 +533,7 @@ for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
+  urls.push(P(lang, lang === "he" ? "/mivzakim/" : "/flash/"));
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   urls.push(P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));

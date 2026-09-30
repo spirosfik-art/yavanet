@@ -214,6 +214,7 @@ ${strikeBar}${brk}
         <a href="${enUrl || "/en/"}" hreflang="en" lang="en" aria-current="${lang === "en"}">EN</a>
       </nav>
       <div class="skymeta" id="skymeta"></div>
+      <div class="skydate" id="skydate"></div>
       <div class="wxw"><button type="button" class="wxchip" id="wxchip" aria-expanded="false" aria-controls="wxpanel" hidden><span class="wxi" aria-hidden="true"></span><b></b><small>${lang === "he" ? "תחזית 5 ימים" : "5-day forecast"}</small><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
       <div class="wxpanel" id="wxpanel" hidden><div class="wxp-h">${lang === "he" ? "תחזית לאתונה" : "Athens forecast"}</div><div class="wxdays"></div><div class="wxp-s">Open-Meteo</div></div></div>
     </div>
@@ -222,6 +223,7 @@ ${strikeBar}${brk}
   </div>
   <div class="waves" aria-hidden="true">${WAVE("var(--bg)")}</div>
 </header>
+${flashBar(lang, path)}
 ${chips ? `<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)}">${chips}</nav></div>` : ""}
 <main class="wrap" id="main">
 ${body}
@@ -257,9 +259,24 @@ ${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}"
 </html>`;
 }
 
+// Λωρίδα «מבזקים»: οι πιο πρόσφατες ειδήσεις (γεμίζει από το build.mjs στο GLOBAL.flash)
+export function flashBar(lang, path) {
+  const f = (GLOBAL.flash || []).slice(0, 6);
+  if (!f.length || path.includes("/mivzakim/") || path.includes("/flash/")) return "";
+  const he = lang === "he", page = P(lang, he ? "/mivzakim/" : "/flash/");
+  const items = f.map((a) => `<a href="${P(lang, "/a/" + a.slug + "/")}"><time>${esc(athensHM(a.publishedAt))}</time>${esc(a[lang].title)}</a>`).join("");
+  return `<div class="flashbar"><div class="wrap fb-in"><a class="fb-tag" href="${page}">${he ? "מבזקים" : "Flash"}</a><div class="fb-track"><div class="fb-move">${items}${items}</div></div><a class="fb-all" href="${page}">${he ? "לכל המבזקים" : "All flash news"}</a></div></div>`;
+}
+export const athensHM = (iso) => { try { return new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Athens" }).format(new Date(iso)); } catch { return ""; } };
+export function alertLabel(a, lang) {
+  if (a.alert && a.alert[lang]) return a.alert[lang];
+  if (a.strike) return lang === "he" ? "שביתה" : "Strike";
+  if (a.breaking) return lang === "he" ? "מבזק" : "Breaking";
+  return "";
+}
 export function kickerHTML(a, lang) {
-  const s = sec(a.section);
-  return `<span class="kicker ${s.mark}">${esc(s[lang])}</span>${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "בשיתוף פעולה" : "In partnership"}</span>` : ""}`;
+  const s = sec(a.section), al = alertLabel(a, lang);
+  return `${al ? `<span class="alert-tag">${esc(al)}</span>` : ""}<span class="kicker ${s.mark}">${esc(s[lang])}</span>${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "בשיתוף פעולה" : "In partnership"}</span>` : ""}`;
 }
 export function heroCard(a, lang) {
   return `<a class="hero" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang, "hero")}</div><div class="body">${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p class="dek">${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;
