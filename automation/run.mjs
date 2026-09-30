@@ -30,7 +30,7 @@ if (!state.today || state.today.date !== now.date) {
   state.today = { date: now.date, count: 0, published: [], rejected: [], errors: [] };
 }
 const save = () => { for (const [k, v] of Object.entries(state.seen)) if (Date.now() - v > 14 * 86400e3) delete state.seen[k]; if (!DRY) writeJSON(STATE_FILE, state); };
-const articleUrl = (a, lang = "he") => SITE.url.replace(/\/$/, "") + (lang === "he" ? "" : "/en") + `/a/${a.slug}/`;
+const articleUrl = (a, lang = "he", src) => SITE.url.replace(/\/$/, "") + (lang === "he" ? "" : "/en") + `/a/${a.slug}/` + (src ? `?utm_source=${src}&utm_medium=social&utm_campaign=auto-post` : "");
 const reject = (title, reason) => { log("✗", title, "→", reason); state.today.rejected.push({ title: String(title).slice(0, 140), reason: String(reason).slice(0, 300), at: new Date().toISOString() }); };
 
 // Κλήση AI που επιστρέφει JSON· αν η απάντηση βγει «χαλασμένη», ξαναδοκιμάζει μία φορά
@@ -312,14 +312,14 @@ async function publish(draft, item, pick, text) {
   return article;
 }
 async function distribute(a) {
-  const text = `${a.breaking ? "🔴 " : ""}${a.he.title}\n\n${a.he.dek}\n\n${articleUrl(a)}`;
+  const text = `${a.breaking ? "🔴 " : ""}${a.he.title}\n\n${a.he.dek}\n\n${articleUrl(a, "he", "telegram")}`;
   if (env.TELEGRAM_CHANNEL_ID) await tg("sendMessage", { chat_id: env.TELEGRAM_CHANNEL_ID, text });
   if (env.MAKE_WEBHOOK_URL && !DRY) {
     // Make.com / Zapier: ανάρτηση σε Facebook, Instagram, X κ.λπ.
     await fetch(env.MAKE_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({
-      url_he: articleUrl(a), url_en: articleUrl(a, "en"), title_he: a.he.title, title_en: a.en.title, dek_he: a.he.dek, dek_en: a.en.dek,
+      url_he: articleUrl(a, "he", "facebook"), url_en: articleUrl(a, "en", "facebook"), title_he: a.he.title, title_en: a.en.title, dek_he: a.he.dek, dek_en: a.en.dek,
       section: a.section, breaking: a.breaking, image: a.image.type === "photo" ? a.image.url : SITE.url + "/og.png",
-      post_he: text, post_en: `${a.en.title}\n\n${a.en.dek}\n\n${articleUrl(a, "en")}`,
+      post_he: text.replace("utm_source=telegram", "utm_source=facebook"), post_en: `${a.en.title}\n\n${a.en.dek}\n\n${articleUrl(a, "en", "facebook")}`,
     }) }).catch((e) => log("make webhook", e.message));
   }
 }

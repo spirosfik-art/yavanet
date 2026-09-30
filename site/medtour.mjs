@@ -156,7 +156,7 @@ const GAL = [HERO, U("photo-1751945965597-71171ec7a458"), U("photo-1599202937077
 
 export function medtourShowcase(a, lang) {
   const he = lang === "he", c = C[lang];
-  const url = "https://yavanet.gr" + P(lang, "/a/" + a.slug + "/"), fbTxt = c.fb + "\n" + url;
+  const url = "https://yavanet.gr" + P(lang, "/a/" + a.slug + "/"), link = url + "?utm_source=facebook&utm_medium=social&utm_campaign=fb-post-medtour", fbTxt = c.fb + "\n" + link;
   const waBtn = (cls = "") => `<a class="mtx-btn wa${cls}" href="${esc(wa(he))}" target="_blank" rel="noopener" data-out="wa-asi-medtour">${icon("wa")}<span>${esc(c.wa)}</span></a>`;
   return `<article class="mtx" lang="${lang}">
 <header class="mtx-hero" style="--bg:url('${esc(HERO)}')">
@@ -199,7 +199,7 @@ ${c.cmp.map(([k, x, y]) => `<div class="r" role="row"><b role="rowheader">${esc(
 
 <section class="pf-fb mtx-sec" id="pf-fb"><h2>${esc(c.fbT)}</h2><p class="pf-lead">${esc(c.fbX)}</p>
 <pre class="pf-fbtext" dir="${he ? "rtl" : "ltr"}">${esc(c.fb)}\n<bdi dir="ltr">${esc(url)}</bdi></pre>
-<div class="mtx-ctas"><button type="button" class="pf-btn fb" data-fbpost="${esc(fbTxt)}" data-fburl="${esc(url)}">${icon("fb")}<span>${esc(c.fbBtn)}</span></button><button type="button" class="pf-btn ghost" data-copy="${esc(fbTxt)}"><span>${esc(c.fbCopy)}</span></button></div></section>
+<div class="mtx-ctas"><button type="button" class="pf-btn fb" data-fbpost="${esc(fbTxt)}" data-fburl="${esc(link)}">${icon("fb")}<span>${esc(c.fbBtn)}</span></button><button type="button" class="pf-btn ghost" data-copy="${esc(fbTxt)}"><span>${esc(c.fbCopy)}</span></button></div></section>
 
 <p class="mtx-more">${esc(c.moreT)}: ${c.more.map(([u, t]) => `<a href="${P(lang, u)}">${esc(t)}</a>`).join(" · ")}</p>
 <p class="small mtx-disc">${esc(c.disc)}<br>${esc(c.credits)}</p>

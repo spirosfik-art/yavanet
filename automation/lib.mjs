@@ -321,6 +321,9 @@ export async function pushSetup(site) {
 export async function pushSend(site, message, opts = {}) {
   const k = vapidKeys(); if (!k) return { sent: 0 };
   if (DRY) { log("[dry] push", message.he.title); return { sent: 0 }; }
+  // Σήμανση UTM ώστε στο Analytics να φαίνονται όσοι ήρθαν από ειδοποίηση
+  const tagUrl = (u) => (!u || /utm_source=/.test(u)) ? u : u + (u.includes("?") ? "&" : "?") + "utm_source=web-push&utm_medium=push&utm_campaign=" + encodeURIComponent(message.tag || "alert");
+  message = { ...message, he: { ...message.he, url: tagUrl(message.he.url) }, en: { ...message.en, url: tagUrl(message.en.url) } };
   const set = await pushApi(site, { action: "set-latest", message });
   if (!set.ok) { log("push: αποτυχία set-latest", JSON.stringify(set)); return { sent: 0 }; }
   const list = await pushApi(site, { action: "list" });

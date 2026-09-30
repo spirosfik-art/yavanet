@@ -9,6 +9,8 @@ const AV = { css: _h("styles.css"), js: _h("app.js") };
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
 export const abs = (p) => SITE.url.replace(/\/$/, "") + p;
+// Σήμανση UTM: στο Analytics φαίνεται από πού ήρθε ο επισκέπτης (Facebook, WhatsApp, ειδοποίηση κ.λπ.)
+export const utm = (url, source, medium = "social", campaign = "share") => url + (url.includes("?") ? "&" : "?") + `utm_source=${source}&utm_medium=${medium}&utm_campaign=${campaign}`;
 export const sec = (slug) => SECTIONS.find((s) => s.slug === slug) || SECTIONS[0];
 
 export function fmtDate(iso, lang) {
@@ -424,9 +426,9 @@ export function articleBody(a, lang, prev, next) {
   const t = T[lang], c = a[lang], he = lang === "he";
   const url = abs(P(lang, "/a/" + a.slug + "/"));
   const shareRow = (cls = "") => `<div class="share${cls}">
-    <a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(c.title + " " + url)}" target="_blank" rel="noopener">${esc(t.shareWa)}</a>
-    <a class="btn fb" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" rel="noopener">${he ? "שתפו בפייסבוק" : "Share on Facebook"}</a>
-    <button class="btn ghost" type="button" data-copy="${url}">${esc(t.copy)}</button>`;
+    <a class="btn wa" href="https://wa.me/?text=${encodeURIComponent(c.title + " " + utm(url, "whatsapp"))}" target="_blank" rel="noopener">${esc(t.shareWa)}</a>
+    <a class="btn fb" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(utm(url, "facebook"))}" target="_blank" rel="noopener">${he ? "שתפו בפייסבוק" : "Share on Facebook"}</a>
+    <button class="btn ghost" type="button" data-copy="${utm(url, "copy-link", "referral")}">${esc(t.copy)}</button>`;
   // Οδηγοί: αρίθμηση ενοτήτων και πίνακας περιεχομένων
   let prose = md(c.body), toc = "";
   if (a.guide) {

@@ -215,9 +215,10 @@
     if (el.id === "ck-none") return ckSave({ stats: false, ads: false });
     if (el.id === "ck-set") { var pr = $("#ck-prefs"); if (pr.hidden) { pr.hidden = false; el.textContent = L.ckSave; } else ckSave({ stats: $("#ck-stats").checked, ads: $("#ck-ads").checked }); return; }
     if (el.hasAttribute("data-share")) {
-      var su = location.href.split("#")[0], st = document.title;
-      if (navigator.share) { navigator.share({ title: st, url: su }).catch(function () { }); }
-      else { window.open("https://wa.me/?text=" + encodeURIComponent(st + " " + su), "_blank", "noopener"); }
+      var su = location.href.split("#")[0].split("?")[0], st = document.title;
+      var tag = function (s) { return su + "?utm_source=" + s + "&utm_medium=" + (s === "whatsapp" ? "social" : "referral") + "&utm_campaign=share"; };
+      if (navigator.share) { navigator.share({ title: st, url: tag("native-share") }).catch(function () { }); }
+      else { window.open("https://wa.me/?text=" + encodeURIComponent(st + " " + tag("whatsapp")), "_blank", "noopener"); }
       track("share", { method: navigator.share ? "native" : "whatsapp" }); return;
     }
     if (el.hasAttribute("data-fbpost")) {
