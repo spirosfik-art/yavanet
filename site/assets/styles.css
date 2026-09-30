@@ -1126,7 +1126,7 @@ button.pf-btn{cursor:pointer;font:inherit}
 .mtx-team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .mtx-tm{display:grid;grid-template-columns:84px 1fr;gap:14px;align-items:start;border:1px solid var(--line);border-radius:18px;padding:16px}
 .mtx-tm img{width:84px;height:84px;border-radius:50%;object-fit:cover}
-.mtx-sflogo{display:grid;place-items:center;width:84px;height:84px;border-radius:50%;background:#0B3A5B}
+.mtx-tm .mtx-sflogo{margin:0;display:grid;place-items:center;width:84px;height:84px;border-radius:50%;background:#0B3A5B}
 .mtx-tm .mtx-sflogo img{width:66px;height:auto;border-radius:0;object-fit:contain}
 .mtx-tm b{display:block;font-size:17px}
 .mtx-tm span{display:block;font-size:13px;font-weight:700;color:#12876C;margin-bottom:6px}
