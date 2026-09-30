@@ -469,91 +469,96 @@
     "b2f5cbec094e": 1790754776025,
     "e7078ee4d21f": 1790754776025,
     "3a76366391fd": 1790754776025,
-    "54efcee6a237": 1790754776025
+    "54efcee6a237": 1790754776025,
+    "66070d38dc66": 1790756863458,
+    "0a6282a59a07": 1790756863458,
+    "ddbe2c19ea77": 1790756863458,
+    "bccaf358859e": 1790756863458,
+    "8586045c782f": 1790756863458
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T08:03:32.648Z",
+      "at": "2026-09-30T08:27:30.433Z",
       "error": "HTTP 403",
-      "fails": 337
+      "fails": 338
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T08:03:34.911Z",
+      "at": "2026-09-30T08:27:34.050Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T08:03:35.669Z",
+      "at": "2026-09-30T08:27:34.974Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T08:03:36.649Z",
+      "at": "2026-09-30T08:27:35.855Z",
       "error": "HTTP 403",
-      "fails": 337
+      "fails": 338
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T08:03:37.581Z",
+      "at": "2026-09-30T08:27:37.082Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T08:03:37.803Z",
+      "at": "2026-09-30T08:27:37.448Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T08:03:38.857Z",
+      "at": "2026-09-30T08:27:38.613Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T08:03:39.883Z",
+      "at": "2026-09-30T08:27:39.383Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T08:03:40.303Z",
+      "at": "2026-09-30T08:27:40.495Z",
       "items": 10
     },
     "toi-greece": {
       "ok": false,
-      "at": "2026-09-30T08:03:40.498Z",
+      "at": "2026-09-30T08:27:40.643Z",
       "error": "HTTP 403",
-      "fails": 337
+      "fails": 338
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T08:03:40.995Z",
+      "at": "2026-09-30T08:27:41.237Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T08:03:41.092Z",
+      "at": "2026-09-30T08:27:41.493Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T08:03:41.656Z",
+      "at": "2026-09-30T08:27:41.796Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:03:41.832Z",
+      "at": "2026-09-30T08:27:42.352Z",
       "items": 3
     },
     "ynet-greece": {
       "ok": true,
-      "at": "2026-09-30T08:03:41.958Z",
+      "at": "2026-09-30T08:27:42.437Z",
       "items": 1
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:03:36.371Z",
+      "at": "2026-09-30T08:27:35.648Z",
       "items": 30
     }
   },
@@ -591,6 +596,11 @@
         "title": "Σεισμός 4 Ρίχτερ κοντά στη Θήβα – Ακολούθησε δόνηση 3,3 Ρίχτερ",
         "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 42",
         "at": "2026-09-30T05:37:09.369Z"
+      },
+      {
+        "title": "«Ακούσαμε ουρλιαχτά και είδαμε αίματα»: Συγκλονιστικές μαρτυρίες από την πτήση της FlyDubai – Ασφαλείς όλοι οι επιβάτες",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T08:27:47.701Z"
       }
     ],
     "errors": []
@@ -619,14 +629,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T07:52:56.025Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-09-30T08:27:43.458Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· minfin | Ανακοίνωση για το Δελτίο Μηνιαίων Στοιχείων Γενικής Κυβέρνησης Αυγούστου 2026",
-      "· naftemporiki | Θρίλερ στον αέρα: Συναγερμός στην πτήση Ντουμπάι – Τελ Αβίβ επειδή… τσακώθηκαν οι πιλότοι",
-      "· gct | Flydubai Flight Diverted to Saudi Arabia After Hijacking Alert as Israeli Jets Scrambled",
-      "· ynet-greece | Israel on alert after Netanyahu attack warning, but IDF reports no specific threat"
+      "✓ ert | «Ακούσαμε ουρλιαχτά και είδαμε αίματα»: Συγκλονιστικές μαρτυρίες από την πτήση της FlyDuba",
+      "· gtp | Greece’s International Air Arrivals Reach 20.6 Million in January-August 2026",
+      "· gtp | Greece to Move Ahead with Cyprus Electricity Interconnection",
+      "· gtp | Lonely Planet Picks Greece’s Aegean for Wreck and Cave Diving in 2027",
+      "· gtp | Porto Carras Offers Accommodation to Teachers in Neos Marmaras"
     ]
   },
   "evergreenDone": [
