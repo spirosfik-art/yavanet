@@ -576,55 +576,57 @@
     "376f7656bd1b": 1790807078081,
     "09c49b9450c6": 1790807078081,
     "eaf37d7faba7": 1790807812303,
-    "c556bcaf246c": 1790807812303
+    "c556bcaf246c": 1790807812303,
+    "21df7e9ca549": 1790808665857,
+    "8d18b750fb82": 1790808665857
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T22:36:39.614Z",
+      "at": "2026-09-30T22:50:56.573Z",
       "error": "HTTP 403",
-      "fails": 394
+      "fails": 395
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T22:36:41.498Z",
+      "at": "2026-09-30T22:50:57.116Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T22:36:42.255Z",
+      "at": "2026-09-30T22:50:57.785Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T22:36:43.419Z",
+      "at": "2026-09-30T22:50:58.465Z",
       "error": "HTTP 403",
-      "fails": 394
+      "fails": 395
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T22:36:44.656Z",
+      "at": "2026-09-30T22:50:59.565Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T22:36:45.146Z",
+      "at": "2026-09-30T22:50:59.706Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T22:36:46.125Z",
+      "at": "2026-09-30T22:51:00.596Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T22:36:46.899Z",
+      "at": "2026-09-30T22:51:01.220Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T22:36:47.651Z",
+      "at": "2026-09-30T22:51:02.093Z",
       "items": 10
     },
     "toi-greece": {
@@ -635,22 +637,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T22:36:48.231Z",
+      "at": "2026-09-30T22:51:02.543Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T22:36:48.387Z",
+      "at": "2026-09-30T22:51:02.676Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T22:36:48.976Z",
+      "at": "2026-09-30T22:51:02.978Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T22:36:49.493Z",
+      "at": "2026-09-30T22:51:03.309Z",
       "items": 10
     },
     "ynet-greece": {
@@ -660,12 +662,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T22:36:43.051Z",
+      "at": "2026-09-30T22:50:58.282Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T22:36:50.145Z",
+      "at": "2026-09-30T22:51:03.852Z",
       "items": 0
     },
     "hcg": {
@@ -676,7 +678,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T22:36:51.548Z",
+      "at": "2026-09-30T22:51:05.175Z",
       "items": 2
     }
   },
@@ -723,12 +725,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T22:36:52.303Z",
+    "at": "2026-09-30T22:51:05.857Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greek Island of Rhodes Hosts 8th European Polyphony Festival",
-      "· ingr | Στα «ΝΕΑ» της Πέμπτης: Μια τριπλή ασπίδα αλλά με αστερίσκους…"
+      "· gct | Athens Honours Pedro Sánchez with 2026 Democracy Award",
+      "· gct | Patras-Pyrgos Motorway Named Greek Project of the Year"
     ]
   },
   "evergreenDone": [
