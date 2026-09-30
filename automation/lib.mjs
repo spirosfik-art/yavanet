@@ -318,22 +318,27 @@ export async function pushSetup(site) {
   return r.ok ? k.publicKey : null;
 }
 // message: { he:{title,body,url}, en:{title,body,url}, tag }
-export async function pushSend(site, message) {
+export async function pushSend(site, message, opts = {}) {
   const k = vapidKeys(); if (!k) return { sent: 0 };
   if (DRY) { log("[dry] push", message.he.title); return { sent: 0 }; }
   const set = await pushApi(site, { action: "set-latest", message });
   if (!set.ok) { log("push: αποτυχία set-latest", JSON.stringify(set)); return { sent: 0 }; }
   const list = await pushApi(site, { action: "list" });
-  const subs = list.subs || [], dead = [];
+  const all = list.subs || [], dead = [], details = [];
+  const subs = opts.since ? all.filter((s) => (s.at || "") >= opts.since) : all;
   let sent = 0;
   for (const s of subs) {
+    const d = { host: new URL(s.endpoint).host, at: s.at, lang: s.lang };
     try {
       const r = await fetch(s.endpoint, { method: "POST", headers: { TTL: "43200", Urgency: "high", Authorization: vapidAuth(s.endpoint, k), "Content-Length": "0" } });
+      d.status = r.status;
       if (r.status === 404 || r.status === 410) dead.push(s.id);
       else if (r.ok) sent++;
-      else log("push", r.status, (await r.text()).slice(0, 120));
-    } catch (e) { log("push σφάλμα", e.message); }
+      else { d.error = (await r.text()).slice(0, 120); log("push", r.status, d.error); }
+    } catch (e) { d.error = e.message; log("push σφάλμα", e.message); }
+    details.push(d);
   }
+  if (opts.details) opts.details.push(...details, ...all.filter((s) => !subs.includes(s)).map((s) => ({ host: new URL(s.endpoint).host, at: s.at, lang: s.lang, skipped: true })));
   if (dead.length) await pushApi(site, { action: "remove", ids: dead });
   log(`🔔 push: ${sent}/${subs.length} (${dead.length} ληγμένα)`);
   return { sent, total: subs.length };
