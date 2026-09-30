@@ -520,55 +520,59 @@
     "7004c5bb897b": 1790771619255,
     "955f15083ca7": 1790771619255,
     "7e1cb3470ea2": 1790771619255,
-    "d5991974d1ba": 1790771619255
+    "d5991974d1ba": 1790771619255,
+    "e9896eaf9fba": 1790773122926,
+    "406fdbbc4c86": 1790773122926,
+    "0c36c4c2bf8e": 1790773122926,
+    "eb7747f9f32d": 1790773122926
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T12:33:23.090Z",
+      "at": "2026-09-30T12:58:29.971Z",
       "error": "HTTP 403",
-      "fails": 354
+      "fails": 355
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T12:33:23.719Z",
-      "items": 0
+      "at": "2026-09-30T12:58:33.097Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T12:33:24.441Z",
+      "at": "2026-09-30T12:58:33.814Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T12:33:25.407Z",
+      "at": "2026-09-30T12:58:34.726Z",
       "error": "HTTP 403",
-      "fails": 354
+      "fails": 355
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T12:33:26.384Z",
+      "at": "2026-09-30T12:58:35.927Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T12:33:26.811Z",
+      "at": "2026-09-30T12:58:36.025Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T12:33:30.247Z",
+      "at": "2026-09-30T12:58:37.065Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T12:33:31.051Z",
+      "at": "2026-09-30T12:58:38.155Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T12:33:32.027Z",
+      "at": "2026-09-30T12:58:38.982Z",
       "items": 10
     },
     "toi-greece": {
@@ -579,23 +583,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T12:33:32.619Z",
+      "at": "2026-09-30T12:58:39.544Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T12:33:32.831Z",
+      "at": "2026-09-30T12:58:39.646Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T12:33:33.063Z",
-      "items": 9
+      "at": "2026-09-30T12:58:39.803Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T12:33:33.272Z",
-      "items": 5
+      "at": "2026-09-30T12:58:40.308Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -604,12 +608,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T12:33:25.159Z",
+      "at": "2026-09-30T12:58:34.630Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T12:33:33.911Z",
+      "at": "2026-09-30T12:58:40.983Z",
       "items": 0
     },
     "hcg": {
@@ -620,14 +624,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T12:33:35.425Z",
+      "at": "2026-09-30T12:58:42.126Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -676,6 +680,12 @@
         "title": "Hybrid Car Fire and Explosions in Athens Parking Garage Near Acropolis",
         "at": "2026-09-30T14:52:17+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "acropolis-of-athens-travel-guide",
+        "title": "A Visitor's Guide to the Acropolis of Athens",
+        "at": "2026-09-30T15:59:07+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -746,15 +756,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T12:33:39.255Z",
-    "considered": 5,
-    "picked": 1,
+    "at": "2026-09-30T12:58:42.926Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· gct | Turkey Says Greece-Cyprus Cable Crosses Its Continental Shelf",
-      "· gct | Turkey Advances Gas Pipeline Plan Linking Turkey to Occupied Territories of Cyprus",
-      "· gct | Greek American Constantine Condos to Represent Greece at 2026 Mister Universe",
-      "· ingr | Άλλη μία ισραηλινή επίθεση στη Γάζα αφήνει πίσω της τουλάχιστον 5 νεκρούς",
-      "✓ naftemporiki | Η Μοσάντ, η Σιν Μπετ, οι IDF και το ισραηλινό υπουργείο Μεταφορών εμπλέκονται στην έρευνα "
+      "· naftemporiki | Γερμανία: Η κυβέρνηση ενέκρινε τη μεταρρύθμιση της ασφάλισης μακροχρόνιας φροντίδας",
+      "· naftemporiki | Στις 18 Ιανουαρίου η φιλοεπενδυτική σύνοδος «Επιλέξτε τη Γαλλία», η τελευταία επί προεδρία",
+      "· gtp | Greece, Bulgaria and Romania Sign Black Sea-Aegean Connectivity Action Plan",
+      "· gtp | Athens Public Transport Upgrades Advance with More Buses, Metro Services"
     ]
   },
   "evergreenDone": [
@@ -779,8 +788,9 @@
     "meteora",
     "nafplio",
     "delphi",
-    "athens-riviera"
+    "athens-riviera",
+    "acropolis"
   ],
-  "lastEvergreen": 1790767406894,
+  "lastEvergreen": 1790773122932,
   "pushKey": "ok"
 }
