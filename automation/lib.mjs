@@ -34,7 +34,7 @@ export async function fetchText(url, { timeout = 20000, headers = {} } = {}) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), timeout);
   try {
-    const r = await fetch(url, { signal: ctl.signal, redirect: "follow", headers: { "user-agent": "YavanetBot/1.0 (+https://yavanet.com/p/corrections/)", accept: "*/*", ...headers } });
+    const r = await fetch(url, { signal: ctl.signal, redirect: "follow", headers: { "user-agent": "YavanetBot/1.0 (+https://yavanet.gr/p/corrections/)", accept: "*/*", ...headers } });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     return await r.text();
   } finally { clearTimeout(t); }
