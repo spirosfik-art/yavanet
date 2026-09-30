@@ -1191,3 +1191,34 @@ button.pf-btn{cursor:pointer;font:inherit}
 @media (prefers-color-scheme:dark){.wxd em{color:#8FD0F0}}
 @media (max-width:720px){.wxchip small{display:none}}
 @media (prefers-reduced-motion:reduce){.wxi{animation:none!important}}
+
+/* ── Διακριτικός ζωντανός καιρός πίσω από την κεφαλίδα ── */
+.wx{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.wxs{position:absolute;inset:0;animation:wxin 1.2s ease-out both}
+@keyframes wxin{from{opacity:0}}
+.wx-glow{position:absolute;top:-160px;left:58%;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(255,244,200,.95) 0 9%,rgba(255,222,140,.55) 16%,rgba(255,210,120,.18) 38%,transparent 66%);animation:wxbreath 7s ease-in-out infinite}
+.wx-rays{position:absolute;top:-300px;left:calc(58% - 140px);width:640px;height:640px;border-radius:50%;background:repeating-conic-gradient(rgba(255,236,180,.10) 0 4deg,transparent 4deg 16deg);-webkit-mask:radial-gradient(circle,#000 18%,transparent 60%);mask:radial-gradient(circle,#000 18%,transparent 60%);animation:wxspin 120s linear infinite}
+[dir=rtl] .wx-glow{left:auto;right:58%}[dir=rtl] .wx-rays{left:auto;right:calc(58% - 140px)}
+.wx-moon{position:absolute;top:18px;left:60%;width:46px;height:46px;border-radius:50%;box-shadow:-10px 5px 0 1px rgba(250,242,210,.9);transform:rotate(-18deg);filter:drop-shadow(0 0 16px rgba(250,242,210,.45))}
+[dir=rtl] .wx-moon{left:auto;right:60%}
+.wxc{position:absolute;left:-260px;width:220px;opacity:var(--o,.7);transform:scale(var(--s,1));filter:blur(1.5px);animation:wxdrift 180s linear infinite}
+.wxc svg{display:block;width:100%;height:auto}
+.wxs-sun .wxc{opacity:.35}
+.wxs-cloud .wxc,.wxs-fog .wxc,.wxs-snow .wxc{opacity:calc(var(--o,.7) * .6)}
+.wxc.dk{filter:blur(2px) brightness(.62) saturate(.6);opacity:calc(var(--o,.7) * .75)}
+.n .wxc{filter:blur(2px) brightness(.5);opacity:.3}
+.wxs-rain,.wxs-storm{background:linear-gradient(180deg,rgba(15,30,50,.32),rgba(15,30,50,.05))}
+.wxs-cloud:not(.d){background:none}
+.wx-drop{position:absolute;top:-30px;width:1px;height:22px;background:linear-gradient(transparent,rgba(220,238,255,.7));transform:rotate(12deg);animation:wxfall 1s linear infinite}
+.wx-flake{position:absolute;top:-10px;width:var(--z,4px);height:var(--z,4px);border-radius:50%;background:rgba(255,255,255,.85);filter:blur(.4px);animation:wxsnow 10s linear infinite}
+.wx-flash{position:absolute;inset:0;background:rgba(255,255,255,.9);opacity:0;animation:wxflash 9s infinite}
+.wx-fog{position:absolute;left:-15%;right:-15%;height:45%;top:25%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.22),transparent);filter:blur(14px);animation:wxfog 22s ease-in-out infinite alternate}
+.wx-fog.f2{top:55%;animation-duration:30s;animation-direction:alternate-reverse}
+@keyframes wxbreath{50%{transform:scale(1.06);opacity:.9}}
+@keyframes wxdrift{from{transform:translateX(0) scale(var(--s,1))}to{transform:translateX(calc(100vw + 560px)) scale(var(--s,1))}}
+@keyframes wxfall{to{transform:translate(-40px,280px) rotate(12deg)}}
+@keyframes wxsnow{to{transform:translate(40px,280px)}}
+@keyframes wxflash{0%,93%,97%,100%{opacity:0}94%{opacity:.35}96%{opacity:.15}}
+@keyframes wxfog{to{transform:translateX(10%)}}
+@media (max-width:720px){.wx-glow{width:220px;height:220px;top:-110px;left:36%}[dir=rtl] .wx-glow{right:36%}.wx-rays{width:400px;height:400px;top:-200px;left:calc(36% - 90px)}[dir=rtl] .wx-rays{right:calc(36% - 90px)}.wxc{width:150px}.wx-moon{left:42%;width:34px;height:34px}[dir=rtl] .wx-moon{right:42%}}
+@media (prefers-reduced-motion:reduce){.wx *{animation:none!important}.wx-drop,.wx-flake,.wx-flash{display:none}}

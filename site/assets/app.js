@@ -21,7 +21,7 @@
     var h = athensHour(), p = phase(h);
     sky.style.background = SKY[p];
     document.documentElement.classList.toggle("night", h >= 21 || h < 6);
-    var m = $("#skymeta"); if (m) m.textContent = PH[C.lang][p] + " · " + athensTime();
+    var m = $("#skymeta"); if (m) m.textContent = (C.lang === "en" ? "Current time in Athens" : "השעה עכשיו באתונה") + " · " + athensTime();
     var cv = $("#stars"); if (!cv || !cv.getContext) return;
     var ctx = cv.getContext("2d"), r = cv.getBoundingClientRect();
     cv.width = r.width; cv.height = r.height; ctx.clearRect(0, 0, cv.width, cv.height);
@@ -38,7 +38,27 @@
     var he = C.lang !== "en";
     function ico(c, day) { return c <= 1 ? (day === 0 ? "🌙" : "☀️") : c === 2 ? "⛅" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : "⛈️"; }
     function kind(c) { return c <= 1 ? "sun" : c <= 3 ? "cloud" : c <= 48 ? "fog" : c <= 67 || (c >= 80 && c <= 82) ? "rain" : c <= 77 ? "snow" : "storm"; }
+
+    function drawSky(d) {
+      var box = $("#wx"); if (!box) return;
+      var force = (location.search.match(/[?&]wx=(\w+)/) || [])[1];
+      var k = force || kind(d.code), day = force ? !/night/.test(location.search) : d.day;
+      function r(a, b) { return (a + Math.random() * (b - a)).toFixed(2); }
+      function rep(n, f) { var h = ""; for (var i = 0; i < n; i++) h += f(i); return h; }
+      var CL = '<svg viewBox="0 0 220 90"><defs><linearGradient id="wxg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity=".55"/></linearGradient></defs><path fill="url(#wxg)" d="M40 84C18 84 4 72 4 56s13-28 32-28c2-15 16-26 33-26 13 0 24 6 30 16 5-4 12-6 19-6 20 0 35 14 36 32 3-1 6-1 9-1 22 0 39 12 39 26S186 84 164 84z"/></svg>';
+      function cloud(dark, i, n) { return '<span class="wxc' + (dark ? " dk" : "") + '" style="top:' + r(-10, 42) + '%;--s:' + r(0.55, 1.25) + ';--o:' + r(0.45, 0.85) + ';animation-duration:' + r(140, 230) + 's;animation-delay:-' + r(0, 230) + 's">' + CL + '</span>'; }
+      var h = '<div class="wxs wxs-' + k + (day ? " d" : " n") + '">';
+      if (k === "sun" || (k === "cloud" && d.code === 2) || force === "partly") h += day ? '<span class="wx-glow"></span><span class="wx-rays"></span>' : '<span class="wx-moon"></span>';
+      if (k === "sun" && force !== "partly") h += rep(1, function () { return cloud(false); });
+      if (k === "cloud" || force === "partly") h += rep(d.code === 2 || force === "partly" ? 3 : 6, function () { return cloud(d.code === 3 && force !== "partly"); });
+      if (k === "rain" || k === "storm") h += rep(6, function () { return cloud(true); }) + rep(38, function () { return '<i class="wx-drop" style="left:' + r(0, 100) + '%;animation-duration:' + r(0.7, 1.1) + 's;animation-delay:-' + r(0, 1.1) + 's"></i>'; });
+      if (k === "storm") h += '<i class="wx-flash"></i>';
+      if (k === "snow") h += rep(4, function () { return cloud(false); }) + rep(36, function () { return '<i class="wx-flake" style="left:' + r(0, 100) + '%;--z:' + r(2, 5) + 'px;animation-duration:' + r(7, 13) + 's;animation-delay:-' + r(0, 13) + 's"></i>'; });
+      if (k === "fog") h += rep(3, function () { return cloud(false); }) + '<i class="wx-fog"></i><i class="wx-fog f2"></i>';
+      box.innerHTML = h + "</div>";
+    }
     function render(d) {
+      drawSky(d);
       chip.querySelector(".wxi").textContent = ico(d.code, d.day);
       chip.className = "wxchip wx-" + kind(d.code);
       chip.querySelector("b").textContent = Math.round(d.temp) + "°";
@@ -50,6 +70,7 @@
     }
     var cached = null;
     try { cached = JSON.parse(sessionStorage.getItem("yv-wx5") || "null"); } catch (e) { }
+    if (/[?&]wx=/.test(location.search)) drawSky({ code: 0, day: 1 });
     if (cached && Date.now() - cached.at < 30 * 60e3) render(cached);
     else fetch("https://api.open-meteo.com/v1/forecast?latitude=37.98&longitude=23.73&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&forecast_days=5&timezone=Europe%2FAthens")
       .then(function (r) { return r.json(); })
