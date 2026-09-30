@@ -549,55 +549,59 @@
     "e609386cca45": 1790789100951,
     "1ad1813943b0": 1790789100951,
     "a00459afdab3": 1790790676780,
-    "a1d5af29bb1d": 1790791358561
+    "a1d5af29bb1d": 1790791358561,
+    "457194e1e63e": 1790792826685,
+    "2a3c596442c9": 1790792826685,
+    "ec388b0c4d4f": 1790792826685,
+    "6c679a0443db": 1790792826685
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T18:02:22.129Z",
+      "at": "2026-09-30T18:26:47.889Z",
       "error": "HTTP 403",
-      "fails": 376
+      "fails": 377
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T18:02:24.886Z",
+      "at": "2026-09-30T18:26:50.964Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T18:02:25.676Z",
+      "at": "2026-09-30T18:26:52.012Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T18:02:26.026Z",
+      "at": "2026-09-30T18:26:52.727Z",
       "error": "HTTP 403",
-      "fails": 376
+      "fails": 377
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T18:02:27.332Z",
+      "at": "2026-09-30T18:26:54.208Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T18:02:27.451Z",
+      "at": "2026-09-30T18:26:54.636Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T18:02:28.584Z",
+      "at": "2026-09-30T18:26:55.908Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T18:02:29.458Z",
+      "at": "2026-09-30T18:26:56.911Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T18:02:30.365Z",
+      "at": "2026-09-30T18:26:57.982Z",
       "items": 10
     },
     "toi-greece": {
@@ -608,23 +612,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T18:02:30.966Z",
+      "at": "2026-09-30T18:26:58.618Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T18:02:31.209Z",
+      "at": "2026-09-30T18:26:58.884Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T18:02:31.953Z",
+      "at": "2026-09-30T18:26:59.135Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T18:02:32.164Z",
-      "items": 2
+      "at": "2026-09-30T18:26:59.341Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -633,12 +637,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T18:02:25.949Z",
+      "at": "2026-09-30T18:26:52.628Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T18:02:32.873Z",
+      "at": "2026-09-30T18:27:00.198Z",
       "items": 0
     },
     "hcg": {
@@ -649,14 +653,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T18:02:34.559Z",
+      "at": "2026-09-30T18:27:01.560Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 13,
+    "count": 14,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -747,6 +751,18 @@
         "title": "Severe weather in Greece: Heavy rain and winds up to 9 Beaufort",
         "at": "2026-09-30T20:25:30+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: All schools in Chania and Rethymno closed due to severe weather",
+        "at": "2026-09-30T21:27:55+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "education-system-in-greece-guide-for-israeli-families",
+        "title": "Education System in Greece: A Guide for Israeli Families Moving Here",
+        "at": "2026-09-30T21:30:39+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -832,11 +848,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T18:02:38.561Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-30T18:27:06.685Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ingr | Τροπολογία ΠΑΣΟΚ για «μεταβλητό κόφτη» στον ΕΦΚ καυσίμων όταν εκτοξεύεται η τιμή βενζίνης "
+      "· naftemporiki | Ισραήλ: Επικοινωνία του ΥΠΕΞ Σαάρ με τον ομόλογό του από τα ΗΑΕ – Συμφωνία για συνεργασία ",
+      "✓ naftemporiki | Κακοκαιρία – Κρήτη: Κλειστά αύριο όλα τα σχολεία στα Χανιά",
+      "· minfin | Συνέντευξη του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη στο κεντρικ",
+      "· ingr | Φ. Παρασύρης: Η κυβέρνηση «ξύπνησε», αφού άφησε την ακρίβεια να καλπάζει"
     ]
   },
   "evergreenDone": [
@@ -864,9 +883,10 @@
     "athens-riviera",
     "acropolis",
     "greek-cuisine",
-    "healthcare-greece"
+    "healthcare-greece",
+    "education-greece"
   ],
-  "lastEvergreen": 1790786460237,
+  "lastEvergreen": 1790792875882,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
