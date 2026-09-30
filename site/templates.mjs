@@ -299,12 +299,14 @@ export function newsletterBox(lang, opt = {}) {
   return `<section class="news" id="${opt.id || "newsletter"}" aria-labelledby="nl-h">
   <h3 id="nl-h">${esc(opt.title || t.nlTitle)}</h3>
   <p style="margin:0">${esc(opt.text || t.nlText)}</p>
+  <p class="nl-gift">🎁 ${lang === "he" ? "מתנה לנרשמים: <b>המדריך המלא לקניית דירה ביוון</b> כקובץ PDF להורדה" : "Free for subscribers: <b>the complete guide to buying property in Greece</b> as a PDF"}</p>
   <form data-api="/api/subscribe" data-kind="newsletter"${opt.source ? ` data-source="${esc(opt.source)}"` : ""} novalidate>
     <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
     <input type="hidden" name="lang" value="${lang}">
     <input id="nl-email" name="email" type="email" required autocomplete="email" placeholder="${esc(t.nlPh)}" aria-label="${esc(t.nlPh)}">
     <button class="btn" type="submit">${esc(t.nlBtn)}</button>
     <label class="consent" for="nl-consent" style="flex-basis:100%"><input id="nl-consent" name="consent" type="checkbox" required>${esc(t.nlConsent)}</label>
+    <p class="status" role="status" aria-live="polite" style="flex-basis:100%;margin:6px 0 0"></p>
   </form>
   <div class="btnrow">
     ${SITE.whatsappChannel ? `<a class="btn wa" href="${esc(SITE.whatsappChannel)}" target="_blank" rel="noopener">${esc(t.waJoin)}</a>` : ""}
@@ -334,6 +336,29 @@ export function formBox(lang, { id, title, text, kind, fields = [], extra = "" }
 </form>`;
 }
 
+// Υπολογιστής «Πόσο θα μου κοστίσει το ταξίδι στην Ελλάδα»: η τιμή πτήσης είναι η πραγματική φθηνότερη σημερινή (content/flights.json)
+export function tripBox(lang, deals) {
+  const he = lang === "he", L = (x, y) => (he ? x : y);
+  const opts = (deals || []).map((d) => `<option value="${d.price}" data-code="${esc(d.dest)}">${esc(he ? d.he : d.en)} · €${d.price}</option>`).join("") + `<option value="0" data-code="">${L("טיסה: אכניס מחיר בעצמי", "Flight: I'll enter it")}</option>`;
+  return `<div class="calc" id="calc-trip">
+  <label for="t-dest">${L("יעד (המחיר הזול היום מתל אביב, הלוך־חזור לאדם)", "Destination (today's cheapest return fare from Tel Aviv, per person)")}<select id="t-dest">${opts}</select></label>
+  <div class="row2">
+    <label for="t-fare">${L("מחיר טיסה לאדם (€)", "Flight per person (€)")}<input id="t-fare" type="number" min="0" step="1" inputmode="numeric"></label>
+    <label for="t-pax">${L("מספר נוסעים", "Travellers")}<input id="t-pax" type="number" min="1" max="12" value="2" inputmode="numeric"></label>
+  </div>
+  <div class="row2">
+    <label for="t-nights">${L("לילות", "Nights")}<input id="t-nights" type="number" min="1" max="60" value="4" inputmode="numeric"></label>
+    <label for="t-hotel">${L("לינה ללילה, לכל החדר (€) – ההערכה שלכם", "Accommodation per night, whole room (€) – your estimate")}<input id="t-hotel" type="number" min="0" step="5" value="120" inputmode="numeric"></label>
+  </div>
+  <div class="row2">
+    <label for="t-day">${L("הוצאות ליום לאדם: אוכל, תחבורה, כניסות (€) – ההערכה שלכם", "Daily spend per person: food, transport, tickets (€) – your estimate")}<input id="t-day" type="number" min="0" step="5" value="60" inputmode="numeric"></label>
+    <label for="t-rate">${L("שער האירו (₪)", "Euro rate (₪)")}<input id="t-rate" type="number" min="0" step="0.01" value="3.47" inputmode="decimal"></label>
+  </div>
+  <table class="ctable" id="t-table"></table>
+  <div class="share"><button class="btn wa" type="button" id="t-share">${L("שתפו את החישוב בוואטסאפ", "Share this budget on WhatsApp")}</button><button class="btn ghost" type="button" id="t-copy">${L("העתיקו קישור לחישוב", "Copy a link to this budget")}</button></div>
+  <p class="small">${L("מחיר הטיסה מתעדכן כל יום ממנוע ההשוואה Aviasales. לינה והוצאות הן ההערכה שלכם – שנו אותן לפי התוכנית שלכם.", "The fare updates daily from Aviasales. Accommodation and daily spend are your own estimates – change them to fit your plan.")}</p>
+</div>`;
+}
 export function calcBox(lang) {
   const t = T[lang];
   return `<div class="calc" id="calc-cost">

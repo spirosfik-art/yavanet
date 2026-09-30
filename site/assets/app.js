@@ -301,7 +301,8 @@
       var st = $(".status", f); var btn = $("button[type=submit]", f); btn.disabled = true;
       fetch(f.getAttribute("data-api"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
-        .then(function (res) { f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" }); })
+        .then(function (res) { f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" });
+          if (isNl && st) { var pdf = "/yavanet-guide-buying-property-" + (C.lang === "en" ? "en" : "he") + ".pdf"; st.innerHTML = esc(msg) + ' <a class="nl-dl" href="' + pdf + '" download>' + (C.lang === "en" ? "🎁 Download your PDF guide" : "🎁 להורדת המדריך (PDF)") + "</a>"; } })
         .catch(function () { if (st) st.textContent = L.formErr; toast(L.formErr); })
         .then(function () { btn.disabled = false; });
     });
@@ -329,6 +330,27 @@
     var gross = night * 365 * occ, net = gross * 0.65, pct = price ? (net / price) * 100 : 0;
     tb.innerHTML = "<tr><td>" + esc(tb.getAttribute("data-l-gross")) + "</td><td>" + money(gross, "EUR") + "</td></tr><tr><td>" + esc(tb.getAttribute("data-l-net")) + "</td><td>" + money(net, "EUR") + '</td></tr><tr class="total"><td>' + esc(tb.getAttribute("data-l-pct")) + "</td><td>" + pct.toFixed(1) + "%</td></tr>";
   }
+  /* Υπολογιστής ταξιδιού: διαβάζει/γράφει τις τιμές στο link ώστε το αποτέλεσμα να μοιράζεται */
+  (function () {
+    var box = $("#calc-trip"); if (!box) return;
+    var he = C.lang !== "en", F = { dest: $("#t-dest"), fare: $("#t-fare"), pax: $("#t-pax"), nights: $("#t-nights"), hotel: $("#t-hotel"), day: $("#t-day"), rate: $("#t-rate") };
+    var num = function (el) { return Math.max(0, parseFloat(el.value) || 0); };
+    try { var qp = new URLSearchParams(location.search); if (qp.get("to")) { $$("#t-dest option").forEach(function (o, i) { if (o.getAttribute("data-code") === qp.get("to")) F.dest.selectedIndex = i; }); } ["pax", "nights", "hotel", "day"].forEach(function (k) { if (qp.get(k)) F[k].value = qp.get(k); }); } catch (e) { }
+    function syncFare() { var v = F.dest.value; if (v !== "0") F.fare.value = v; }
+    function link() { var o = F.dest.options[F.dest.selectedIndex]; return location.origin + location.pathname + "?to=" + encodeURIComponent(o.getAttribute("data-code") || "") + "&pax=" + num(F.pax) + "&nights=" + num(F.nights) + "&hotel=" + num(F.hotel) + "&day=" + num(F.day) + "&utm_source=trip-calculator&utm_medium=referral&utm_campaign=share#trip"; }
+    var total = 0;
+    function calc() {
+      var pax = Math.max(1, num(F.pax)), n = num(F.nights), fl = num(F.fare) * pax, ho = num(F.hotel) * n, dy = num(F.day) * pax * (n + 1);
+      total = fl + ho + dy;
+      var R = he ? ["טיסות", "לינה", "הוצאות שוטפות", "סך הכול", "לאדם", "בשקלים"] : ["Flights", "Accommodation", "Daily spending", "Total", "Per person", "In shekels"];
+      $("#t-table").innerHTML = [[R[0], fl], [R[1], ho], [R[2], dy]].map(function (x) { return "<tr><td>" + esc(x[0]) + "</td><td>" + money(x[1], "EUR") + "</td></tr>"; }).join("") + '<tr class="total"><td>' + R[3] + "</td><td>" + money(total, "EUR") + "</td></tr><tr><td>" + R[4] + "</td><td>" + money(total / pax, "EUR") + "</td></tr><tr><td>" + R[5] + "</td><td>" + money(total * num(F.rate), "ILS") + "</td></tr>";
+    }
+    F.dest.addEventListener("change", function () { syncFare(); calc(); });
+    ["fare", "pax", "nights", "hotel", "day", "rate"].forEach(function (k) { F[k].addEventListener("input", calc); });
+    $("#t-share").addEventListener("click", function () { var o = F.dest.options[F.dest.selectedIndex].textContent.split(" · ")[0]; var msg = (he ? "תכננתי טיול ל" + o + ": בערך " : "Planning a trip to " + o + ": about ") + money(total, "EUR") + (he ? " לכולנו. תבדקו כמה יעלה לכם: " : " for all of us. Check yours: ") + link(); window.open("https://wa.me/?text=" + encodeURIComponent(msg), "_blank", "noopener"); track("share", { method: "trip_calculator" }); });
+    $("#t-copy").addEventListener("click", function () { var u = link(); try { navigator.clipboard.writeText(u).then(function () { toast(L.copied); }, function () { toast(u); }); } catch (e) { toast(u); } track("share", { method: "trip_calculator_copy" }); });
+    syncFare(); calc();
+  })();
   if ($("#y-region")) { $("#y-region").addEventListener("change", fillYield); ["y-price", "y-night", "y-occ"].forEach(function (id) { document.getElementById(id).addEventListener("input", calcYield); }); fillYield(); }
 
   /* ---------- Widgets: καιρός, ισοτιμία, Σάββατο ---------- */

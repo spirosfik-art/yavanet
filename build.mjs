@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
-import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
+import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, tripBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { profileBody } from "./site/profile.mjs";
@@ -194,6 +194,7 @@ ${newsletterBox(lang)}
 <div class="grid"><div class="col">
 <section><div class="zone-h"><h2>${esc(t.calcTitle)}</h2></div>${calcBox(lang)}</section>
 <section><div class="zone-h"><h2>${esc(t.yieldTitle)}</h2></div>${yieldBox(lang, YIELD_REGIONS)}</section>
+${GLOBAL.flights ? `<section id="trip"><div class="zone-h"><h2>${lang === "he" ? "כמה יעלה לנו הטיול ליוון?" : "How much will our trip to Greece cost?"}</h2></div>${tripBox(lang, FLIGHTS.deals)}</section>` : ""}
 ${formBox(lang, { id: "alerts", title: lang === "he" ? "התראה על חוקי נדל״ן חדשים" : "Alerts on new property laws", text: lang === "he" ? "נשלח לכם הודעה ברגע שיוצא חוק או החלטה חדשה על נדל״ן ביוון." : "We will message you as soon as a new property law or decision is published in Greece.", kind: "law-alerts", fields: ["name", "email", "phone"] })}
 ${adBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
