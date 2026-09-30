@@ -530,55 +530,59 @@
     "d2408aa5d363": 1790774914812,
     "45fdb3746baf": 1790774914812,
     "0f3b272d65dc": 1790775647714,
-    "fbda5eb1d7f1": 1790777121585
+    "fbda5eb1d7f1": 1790777121585,
+    "289b3b658972": 1790778501778,
+    "bd379847a90e": 1790778501778,
+    "ce6304316900": 1790778501778,
+    "82b3d87ee0fa": 1790778501778
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T14:05:07.836Z",
+      "at": "2026-09-30T14:28:07.690Z",
       "error": "HTTP 403",
-      "fails": 360
+      "fails": 361
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T14:05:08.424Z",
-      "items": 0
+      "at": "2026-09-30T14:28:10.090Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T14:05:09.039Z",
+      "at": "2026-09-30T14:28:10.883Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T14:05:09.311Z",
+      "at": "2026-09-30T14:28:11.897Z",
       "error": "HTTP 403",
-      "fails": 360
+      "fails": 361
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T14:05:09.940Z",
-      "items": 3
+      "at": "2026-09-30T14:28:12.950Z",
+      "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T14:05:10.341Z",
+      "at": "2026-09-30T14:28:13.136Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T14:05:14.979Z",
+      "at": "2026-09-30T14:28:14.542Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T14:05:15.686Z",
-      "items": 3
+      "at": "2026-09-30T14:28:16.023Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T14:05:16.547Z",
+      "at": "2026-09-30T14:28:16.700Z",
       "items": 10
     },
     "toi-greece": {
@@ -589,23 +593,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T14:05:17.001Z",
+      "at": "2026-09-30T14:28:17.301Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T14:05:17.056Z",
+      "at": "2026-09-30T14:28:17.698Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T14:05:17.246Z",
+      "at": "2026-09-30T14:28:18.105Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T14:05:17.377Z",
-      "items": 5
+      "at": "2026-09-30T14:28:18.288Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -614,12 +618,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T14:05:09.209Z",
+      "at": "2026-09-30T14:28:11.750Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T14:05:17.887Z",
+      "at": "2026-09-30T14:28:18.857Z",
       "items": 0
     },
     "hcg": {
@@ -630,7 +634,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T14:05:20.932Z",
+      "at": "2026-09-30T14:28:20.076Z",
       "items": 2
     }
   },
@@ -698,6 +702,12 @@
         "title": "Israeli Embassy in Greece Honors Local Firefighters",
         "at": "2026-09-30T16:29:33+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "orange-wind-warning-kyklades-greece",
+        "title": "Orange Wind Warning Issued for the Cyclades Islands",
+        "at": "2026-09-30T17:28:42+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -740,6 +750,11 @@
         "title": "Η Μοσάντ, η Σιν Μπετ, οι IDF και το ισραηλινό υπουργείο Μεταφορών εμπλέκονται στην έρευνα για την FlyDubai",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T12:33:40.766Z"
+      },
+      {
+        "title": "Νετανιάχου: Ένας από τους πιλότους επιχείρησε να ρίξει το αεροσκάφος της FlyDubai",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T14:28:45.876Z"
       }
     ],
     "errors": []
@@ -768,11 +783,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T14:05:21.586Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-09-30T14:28:21.778Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Ιταλία: Το κύριο κόμμα της αντιπολίτευσης, το Δημοκρατικό Κόμμα, μποϊκοτάρει το νομοσχέδιο"
+      "✓ ert | Νετανιάχου: Ένας από τους πιλότους επιχείρησε να ρίξει το αεροσκάφος της FlyDubai",
+      "· naftemporiki | Πτήση για Ντουμπάι: «Ήθελε μια νέα 11η Σεπτεμβρίου» – Από το Ομάν φέρεται να είναι ο συγκυ",
+      "· naftemporiki | Νετανιάχου: Ο ένας πιλότος μαχαίρωσε τον άλλον – Ήθελε να ρίξει το αεροπλάνο στο Ισραήλ",
+      "✓ meteoalarm | Orange Wind Warning issued for Greece - Kyklades"
     ]
   },
   "evergreenDone": [
@@ -801,5 +819,6 @@
     "acropolis"
   ],
   "lastEvergreen": 1790773122932,
-  "pushKey": "ok"
+  "pushKey": "ok",
+  "lastPush": 1790778523824
 }

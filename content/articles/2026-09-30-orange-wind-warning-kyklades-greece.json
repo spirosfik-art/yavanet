@@ -1,0 +1,78 @@
+{
+  "slug": "orange-wind-warning-kyklades-greece",
+  "section": "breaking",
+  "publishedAt": "2026-09-30T17:28:42+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 37.4467,
+    "lng": 25.3289
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR012"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/826388/pexels-photo-826388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Dramatic ocean waves crashing against a concrete structure in Pantanassa, capturing nature's raw power.",
+    "credit": "Photo: GEORGE DESIPRIS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/green-and-white-tidal-waves-826388/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת מזג אוויר",
+    "en": "Weather Warning"
+  },
+  "he": {
+    "title": "התראה כתומה: רוחות עזות באיים הקיקלדיים",
+    "seoTitle": "מזג אוויר ביוון: אזהרת רוחות חזקות באיים",
+    "seoDesc": "התראה כתומה על רוחות חזקות באזור הקיקלאדיים ביוון. בדקו את מצב הים והטיסות לפני הנסיעה.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "האיים הקיקלדיים",
+      "רוחות ביוון",
+      "אזהרת מזג אוויר יוון"
+    ],
+    "dek": "רשויות החיזוי ביוון פרסמו התראה כתומה מפני רוחות חזקות הצפויות באזור האיים הקיקלאדיים. המטיילים באזור מתבקשים לנקוט משנה זהירות.",
+    "tldr": [
+      "התראה כתומה לרוחות עזות באזור הקיקלאדיים.",
+      "השפעה אפשרית על תנועת השיט והמעבורות.",
+      "מומלץ לעקוב אחר עדכוני מזג האוויר המקומיים."
+    ],
+    "means": "אם אתם מתכננים חופשה או שוהים כעת באיים הקיקלאדיים, חשוב להתעדכן מול חברות המעבורות על שינויים או ביטולים בלוחות הזמנים של ההפלגות. צרו קשר עם סוכני הנסיעות או מקומות האירוח שלכם כדי לוודא שהפעילות באזור מתנהלת כסדרה, והימנעו מפעילות ימית לא חיונית.",
+    "body": "## אזהרת מזג אוויר באיים\n\nשירותי החיזוי והמטאורולוגיה הרשמיים ביוון הפיצו התראה ברמה כתומה, המצביעה על תנאי מזג אוויר קשים באזור האיים הקיקלאדיים. ההתראה מתרכזת ברוחות עזות שעלולות להגיע למהירויות גבוהות ולסכן את שלומם של המטיילים והתושבים באזור.\n\n## השפעה על התחבורה והשיט\n\nתנאי מזג האוויר הללו משפיעים ישירות על התחבורה הימית. מעבורות וכלי שיט קטנים עשויים לעכב יציאות או לבטל הפלגות בהתאם להנחיות משמר החופשת והרשויות המקומיות. מי שנמצא כעת באיים או מתכנן להגיע בימים הקרובים צריך לקחת בחשבון שינויים בלוחות הזמנים.\n\n## הנחיות לבאים בימים אלה\n\nהרשויות ממליצות לכל מי ששוהה באזור להישמע להנחיות הבטיחות, להימנע משהייה בחופים חשופים לרוחות חזקות ולעקוב באופן שוטף אחרי העדכונים הרשמיים באתרי החירום והמטאורולוגיה ביוון."
+  },
+  "en": {
+    "title": "Orange Wind Warning Issued for the Cyclades Islands",
+    "seoTitle": "Greece Weather: Orange Wind Warning for Cyclades",
+    "seoDesc": "An orange wind warning has been issued for the Cyclades in Greece. Check ferry schedules and local updates before traveling.",
+    "keywords": [
+      "greece weather",
+      "cyclades wind warning",
+      "greece islands storm",
+      "meteoalarm greece"
+    ],
+    "dek": "Greek meteorological authorities have issued an orange wind warning for the Cyclades region, urging travelers and residents to exercise caution.",
+    "tldr": [
+      "Orange level wind warning for the Cyclades.",
+      "Potential disruptions to ferry services and maritime transport.",
+      "Travelers advised to monitor local weather updates."
+    ],
+    "means": "If you are currently visiting or planning a trip to the Cyclades, check directly with ferry operators and transport providers regarding possible schedule changes or cancellations. Stay in touch with your accommodation providers and avoid non-essential coastal activities during peak wind conditions.",
+    "body": "## Weather Warning for the Islands\n\nOfficial forecasting services in Greece have raised an orange alert, pointing to severe weather conditions expected across the Cyclades island group. The warning highlights strong winds that could pose safety risks both on land and at sea.\n\n## Impact on Maritime Transport\n\nThese severe wind conditions commonly affect maritime routes in the Aegean. Ferries and smaller vessels may face delayed departures or outright cancellations in line with instructions from port authorities and the coast guard. Anyone traveling between the islands should factor potential delays into their itineraries.\n\n## Safety Recommendations\n\nAuthorities advise everyone in the affected areas to stay informed through official channels, avoid exposed coastal spots during peak gusts, and follow instructions issued by local emergency services."
+  },
+  "meta": {
+    "itemId": "82b3d87ee0fa",
+    "imageQuery": "strong wind sea greece waves",
+    "sourceHash": "a763a955e84a",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-09-30T14:28:42.568Z",
+    "official": true
+  }
+}
