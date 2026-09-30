@@ -488,55 +488,56 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "72f9ed65293b": 1790758438693
+    "72f9ed65293b": 1790758438693,
+    "2be0091382cc": 1790758943583
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T08:53:47.071Z",
+      "at": "2026-09-30T09:02:09.879Z",
       "error": "HTTP 403",
-      "fails": 340
+      "fails": 341
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T08:53:49.116Z",
+      "at": "2026-09-30T09:02:12.940Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T08:53:49.589Z",
+      "at": "2026-09-30T09:02:13.747Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T08:53:50.279Z",
+      "at": "2026-09-30T09:02:14.548Z",
       "error": "HTTP 403",
-      "fails": 340
+      "fails": 341
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T08:53:50.896Z",
+      "at": "2026-09-30T09:02:15.433Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T08:53:51.191Z",
-      "items": 2
+      "at": "2026-09-30T09:02:15.850Z",
+      "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T08:53:52.216Z",
+      "at": "2026-09-30T09:02:17.062Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T08:53:52.807Z",
+      "at": "2026-09-30T09:02:17.810Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T08:53:53.536Z",
+      "at": "2026-09-30T09:02:18.762Z",
       "items": 10
     },
     "toi-greece": {
@@ -547,23 +548,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T08:53:53.967Z",
+      "at": "2026-09-30T09:02:19.308Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T08:53:54.006Z",
+      "at": "2026-09-30T09:02:19.679Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T08:53:54.558Z",
+      "at": "2026-09-30T09:02:19.818Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:53:54.692Z",
-      "items": 3
+      "at": "2026-09-30T09:02:20.320Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -572,14 +573,13 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T08:53:50.090Z",
+      "at": "2026-09-30T09:02:14.270Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T08:53:55.203Z",
-      "items": 12,
-      "baseline": true
+      "at": "2026-09-30T09:02:20.992Z",
+      "items": 0
     },
     "hcg": {
       "ok": false,
@@ -589,7 +589,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T08:53:57.892Z",
+      "at": "2026-09-30T09:02:22.397Z",
       "items": 2
     }
   },
@@ -638,6 +638,11 @@
         "title": "«Ακούσαμε ουρλιαχτά και είδαμε αίματα»: Συγκλονιστικές μαρτυρίες από την πτήση της FlyDubai – Ασφαλείς όλοι οι επιβάτες",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T08:27:47.701Z"
+      },
+      {
+        "title": "M 4.6 - 3 km W of Thívai, Greece",
+        "reason": "The Hebrew TLDR contains a syntax error with stray JSON/HTML characters (</ul>).; The Hebrew and English versions mention the Richter scale, which is not stated in the source text (Rule 8: Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts th",
+        "at": "2026-09-30T09:02:46.950Z"
       }
     ],
     "errors": []
@@ -666,11 +671,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T08:53:58.693Z",
+    "at": "2026-09-30T09:02:23.584Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· oasa | Παράταση προσωρινής τροποποίησης της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙ"
+      "✓ usgs | M 4.6 - 3 km W of Thívai, Greece"
     ]
   },
   "evergreenDone": [
