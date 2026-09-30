@@ -1096,6 +1096,7 @@ button.pf-btn{cursor:pointer;font:inherit}
 .mtx-sec{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px}
 .mtx-sec p{font-size:17px;line-height:1.7;margin:0 0 12px}
 .mtx-scene{border-inline-start:5px solid #2EC4A0}
+.mtx-back{font-weight:700;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,#2EC4A0 12%,transparent)}
 .mtx-big{font-family:var(--display);font-size:clamp(20px,3vw,24px)!important;line-height:1.4!important;color:var(--aegean,#0B3A5B)}
 .mtx-gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
 .mtx-gal figure{margin:0;position:relative;border-radius:16px;overflow:hidden;aspect-ratio:4/3}

@@ -31,8 +31,9 @@ const C = {
     statL: "תפוסה",
     statS: "כמעט רק אורחים יוונים",
     sceneT: "זה מתחיל במשפחה אחת מכרתים",
-    scene: "אבא צריך ניתוח. הרופא הכי טוב נמצא בבית חולים פרטי באתונה, שעה טיסה מהבית. אחרי כמה ימים באשפוז צריך להישאר קרוב לרופא לעוד שבוע של החלמה. אמא והבת מגיעות איתו. הן לא מחפשות מלון יקר במרכז העיר, הן מחפשות דירה שקטה ונקייה, עם מטבח, חמש דקות מבית החולים.",
-    scene2: "וזה לא קורה פעם אחת. זה קורה כל יום, כל השנה, למשפחות מכל יוון.",
+    scene: "אבא צריך טיפול. הרופא הכי טוב נמצא בבית חולים פרטי באתונה, שעה טיסה מהבית. אמא והבת מגיעות איתו. הן לא מחפשות מלון יקר במרכז העיר, הן מחפשות דירה שקטה ונקייה, עם מטבח, חמש דקות מבית החולים.",
+    scene3: "והם לא באו רק פעם אחת. הם הזמינו את הדירה בפעם הראשונה, ומאז, בגלל שהטיפולים חוזרים לעיתים קרובות, הם מבקשים מאיתנו את אותה דירה בכל פעם שהם מגיעים לאתונה. הם כבר מרגישים בה בבית.",
+    scene2: "וזה לא קורה רק למשפחה אחת. זה קורה כל יום, כל השנה, למשפחות מכל יוון.",
     oppT: "ההזדמנות שהתיירים לא רואים",
     opp: "רוב הישראלים קונים דירות ל-Airbnb בפלאקה ובקוקאקי, בשביל התיירים. אבל באתונה יש ביקוש אחר, יווני ויציב: בתי החולים הפרטיים הגדולים של יוון נמצאים כאן. מי שגר בכפר, באי או בעיר קטנה, מגיע לאתונה לניתוחים, לבדיקות ולטיפולים, ותמיד עם בן משפחה שמלווה אותו.",
     areasT: "איפה הדירות נמצאות",
@@ -77,7 +78,7 @@ const C = {
     fbX: "לוחצים על הכפתור: הטקסט מועתק, ופייסבוק נפתח. מדביקים את הטקסט בפוסט ומפרסמים.",
     fbBtn: "העתיקו ופרסמו בפייסבוק",
     fbCopy: "העתיקו את הטקסט בלבד",
-    fb: "🏥 Airbnb באתונה עם 90% תפוסה, כל השנה, ובלי תיירים?\n\nאסי דורון ו-S.F. Properties פתחו דירות Airbnb באמפלוקיפי ובפסיכיקו, ליד בתי חולים פרטיים גדולים. האורחים הם יוונים מכל הארץ שמגיעים לאתונה לניתוחים ולטיפולים, עם בני המשפחה שלהם.\n\n✅ אין עונה, החורף מלא כמו הקיץ\n✅ לא תלוי בתיירות ובטיסות\n✅ אורחים שקטים בשכונות של משפחות\n✅ ליווי בעברית וניהול מלא\n\nכל הפרטים 👇",
+    fb: "🏥 Airbnb באתונה עם 90% תפוסה, כל השנה, ובלי תיירים?\n\nאסי דורון ו-S.F. Properties פתחו דירות Airbnb באמפלוקיפי ובפסיכיקו, ליד בתי חולים פרטיים גדולים. האורחים הם יוונים מכל הארץ שמגיעים לאתונה לניתוחים ולטיפולים, עם בני המשפחה שלהם.\n\n✅ אין עונה, החורף מלא כמו הקיץ\n✅ אורחים שחוזרים שוב ושוב לאותה דירה\n✅ לא תלוי בתיירות ובטיסות\n✅ אורחים שקטים בשכונות של משפחות\n✅ ליווי בעברית וניהול מלא\n\nכל הפרטים 👇",
     moreT: "עוד על השותפים",
     more: [["/a/asi-doron-real-estate-greece-hebrew/", "הכירו את אסי דורון"], ["/a/sf-properties-athens-real-estate/", "S.F. Properties"], ["/a/buying-property-in-greece-israelis-guide/", "המדריך לקניית דירה ביוון"]],
     disc: "תוכן בשיתוף AS-IS by Asi Doron ו-S.F. Properties. S.F. Properties היא גם המו״לית של יוונט. נתון התפוסה נמסר על ידי השותפים. אין בכתבה הבטחה לתשואה, וכל השקעה כרוכה בסיכון.",
@@ -95,8 +96,9 @@ const C = {
     statL: "occupancy",
     statS: "almost only Greek guests",
     sceneT: "It starts with one family from Crete",
-    scene: "Dad needs surgery. The best doctor is at a private hospital in Athens, an hour's flight from home. After a few days in hospital he has to stay close to the doctor for another week of recovery. Mum and their daughter come with him. They are not looking for an expensive hotel in the centre; they want a quiet, clean apartment with a kitchen, five minutes from the hospital.",
-    scene2: "And this does not happen once. It happens every day, all year, to families from all over Greece.",
+    scene: "Dad needs treatment. The best doctor is at a private hospital in Athens, an hour's flight from home. Mum and their daughter come with him. They are not looking for an expensive hotel in the centre; they want a quiet, clean apartment with a kitchen, five minutes from the hospital.",
+    scene3: "And they did not come just once. They booked the apartment for the first time, and since then, because the treatments come back often, they ask us for the same apartment every time they come to Athens. They already feel at home there.",
+    scene2: "And this does not happen to just one family. It happens every day, all year, to families from all over Greece.",
     oppT: "The opportunity tourists don't see",
     opp: "Most Israelis buy Airbnb apartments in Plaka and Koukaki, for the tourists. But Athens has a different kind of demand, Greek and steady: Greece's large private hospitals are here. People who live in villages, on islands or in small towns come to Athens for surgery, tests and treatment, always with a family member at their side.",
     areasT: "Where the apartments are",
@@ -141,7 +143,7 @@ const C = {
     fbX: "Press the button: the text is copied and Facebook opens. Paste the text into the post and publish.",
     fbBtn: "Copy & post on Facebook",
     fbCopy: "Copy the text only",
-    fb: "🏥 An Airbnb in Athens with 90% occupancy, all year, and no tourists?\n\nAsi Doron and S.F. Properties opened Airbnb apartments in Ambelokipi and Psychiko, near large private hospitals. The guests are Greeks from all over the country who come to Athens for surgery and treatment, with their families.\n\n✅ No season: winter is as full as summer\n✅ Not tied to tourism or flights\n✅ Quiet guests in family neighbourhoods\n✅ Guidance in Hebrew and full management\n\nAll the details 👇",
+    fb: "🏥 An Airbnb in Athens with 90% occupancy, all year, and no tourists?\n\nAsi Doron and S.F. Properties opened Airbnb apartments in Ambelokipi and Psychiko, near large private hospitals. The guests are Greeks from all over the country who come to Athens for surgery and treatment, with their families.\n\n✅ No season: winter is as full as summer\n✅ Guests who come back again and again to the same apartment\n✅ Not tied to tourism or flights\n✅ Quiet guests in family neighbourhoods\n✅ Guidance in Hebrew and full management\n\nAll the details 👇",
     moreT: "More about the partners",
     more: [["/a/asi-doron-real-estate-greece-hebrew/", "Meet Asi Doron"], ["/a/sf-properties-athens-real-estate/", "S.F. Properties"], ["/a/buying-property-in-greece-israelis-guide/", "Guide to buying a flat in Greece"]],
     disc: "Content in partnership with AS-IS by Asi Doron and S.F. Properties. S.F. Properties is also Yavanet's publisher. The occupancy figure was provided by the partners. Nothing here is a promise of returns, and every investment carries risk.",
@@ -168,7 +170,7 @@ export function medtourShowcase(a, lang) {
   <div class="mtx-ring" role="img" aria-label="90% ${esc(c.statL)}"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52"/><circle class="v" cx="60" cy="60" r="52" pathLength="100"/></svg><b>90%</b><span>${esc(c.statL)}</span><small>${esc(c.statS)}</small></div>
 </header>
 
-<section class="mtx-sec mtx-scene"><h2>${esc(c.sceneT)}</h2><p>${esc(c.scene)}</p><p class="mtx-big">${esc(c.scene2)}</p></section>
+<section class="mtx-sec mtx-scene"><h2>${esc(c.sceneT)}</h2><p>${esc(c.scene)}</p><p class="mtx-back">${esc(c.scene3)}</p><p class="mtx-big">${esc(c.scene2)}</p></section>
 
 <section class="mtx-sec"><h2>${esc(c.oppT)}</h2><p>${esc(c.opp)}</p>
 <div class="mtx-gal">${GAL.map((s, i) => `<figure class="${i === 0 ? "big" : ""}"><img src="${esc(s)}" alt="${esc(c.caps[i])}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><figcaption>${esc(c.caps[i])}</figcaption></figure>`).join("")}</div></section>
