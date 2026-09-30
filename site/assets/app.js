@@ -531,6 +531,22 @@
       so.observe(hero); if (end) so.observe(end); }
   })();
 
+  /* ---------- Μεγέθυνση φωτογραφιών (κλικ σε φωτογραφία άρθρου ή γκαλερί) ---------- */
+  (function () {
+    var SEL = "article.full .art img, .mtx-gal img, .pf-gal img, .sfx-gal img, .pf-photo img, img.pf-photo";
+    document.addEventListener("click", function (e) {
+      var img = e.target.closest && e.target.closest("img"); if (!img || !img.matches(SEL) || img.closest("a")) return;
+      var ov = document.createElement("div"); ov.className = "zoom"; ov.setAttribute("role", "dialog"); ov.setAttribute("aria-label", img.alt || "");
+      var big = document.createElement("img"); big.src = img.currentSrc || img.src; big.alt = img.alt || ""; big.referrerPolicy = "no-referrer";
+      var x = document.createElement("button"); x.type = "button"; x.className = "zoom-x"; x.setAttribute("aria-label", C.lang === "en" ? "Close" : "סגירה"); x.textContent = "×";
+      ov.appendChild(big); ov.appendChild(x); document.body.appendChild(ov); lockScroll(true);
+      var close = function () { ov.remove(); lockScroll(false); document.removeEventListener("keydown", esc); };
+      var esc = function (k) { if (k.key === "Escape") close(); };
+      ov.addEventListener("click", close); document.addEventListener("keydown", esc);
+      track("image_zoom");
+    });
+  })();
+
   /* ---------- PWA ---------- */
   if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () { }); });
 })();

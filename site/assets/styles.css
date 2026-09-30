@@ -1300,3 +1300,15 @@ button.pf-btn{cursor:pointer;font:inherit}
 .pp-go{justify-self:start;margin-top:4px;background:#8FF0D6;color:#062d25;font-weight:800;border-radius:999px;padding:10px 18px}
 @media (max-width:720px){.pf-proj{grid-template-columns:1fr;padding:20px}.pp-ring{justify-self:start;width:110px}.pp-ring svg{width:110px;height:110px}.pp-ring b{top:30px;font-size:30px}.pp-ring small{top:64px;width:80px;font-size:10px}}
 @media (prefers-reduced-motion:reduce){.pp-ring circle.v{animation:none}}
+/* Χωρίς «τρεμόπαιγμα» (CLS): κρατάμε από πριν τον χώρο για ώρα, ημερομηνία και καιρό, που τα γεμίζει το JS */
+.skymeta{min-height:20px}.skydate{min-height:18px}
+@media (max-width:720px){.skymeta{min-height:17px}.skydate{min-height:16px}}
+.wxchip[hidden]{display:inline-flex;visibility:hidden}
+.wxw{min-height:24px}
+/* Μεγέθυνση φωτογραφίας */
+article.full .art img,.mtx-gal img,.pf-gal img,.sfx-gal img,.pf-photo img,img.pf-photo{cursor:zoom-in}
+.zoom{position:fixed;inset:0;z-index:9999;background:rgba(8,12,24,.92);display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out;animation:zin .18s ease}
+.zoom img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+.zoom-x{position:absolute;top:12px;inset-inline-end:12px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.18);color:#fff;font-size:28px;line-height:1;cursor:pointer}
+@keyframes zin{from{opacity:0}to{opacity:1}}
+a.kicker{text-decoration:none}a.kicker:hover{filter:brightness(1.1);text-decoration:underline}
