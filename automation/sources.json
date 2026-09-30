@@ -180,6 +180,39 @@
    "include": "greece|greek|athens|crete|rhodes|thessaloniki|mykonos|santorini|corfu|cyprus",
    "enabled": false,
    "disabledReason": "Ιδιωτικό ισραηλινό ΜΜΕ: οι όροι των RSS τους επιτρέπουν μόνο προσωπική, μη εμπορική χρήση. Απενεργοποιήθηκε για νομική ασφάλεια (30.09.2026)."
+  },
+  {
+   "id": "hcaa",
+   "name": "Υπηρεσία Πολιτικής Αεροπορίας (ΥΠΑ/ΑΠΑ) – Δελτία Τύπου",
+   "type": "html",
+   "url": "https://hcaa.gov.gr/el/newsroom/press-releases",
+   "linkPattern": "/el/newsroom/press-releases/.+",
+   "lang": "el",
+   "official": true,
+   "section": "travel",
+   "include": "απεργ|στάση|αεροδρ|αερολιμ|πτήσ|εναέρι|ελεγκτ|κλείσιμο|NOTAM|drone|ΣμηΕΑ|επιβάτ"
+  },
+  {
+   "id": "hcg",
+   "name": "Λιμενικό Σώμα – Ελληνική Ακτοφυλακή",
+   "type": "html",
+   "url": "https://www.hcg.gr/el/epikairothta/",
+   "linkPattern": "/el/epikairothta/.+",
+   "lang": "el",
+   "official": true,
+   "section": "travel",
+   "include": "απαγορευτικ|απόπλου|πλοί|επιβατ|λιμ[άα]ν|ναυάγ|πυρκαγι|βλάβη|προσάραξ|σύγκρουσ|ferry",
+   "exclude": "αλλοδαπ|νηπιαγωγ|σχολε|εκδήλωσ|τελετ"
+  },
+  {
+   "id": "oasa",
+   "name": "ΟΑΣΑ – Συγκοινωνίες Αθήνας",
+   "type": "rss",
+   "url": "https://www.oasa.gr/feed/",
+   "lang": "el",
+   "official": true,
+   "section": "travel",
+   "include": "στάση εργασίας|στάσεις εργασίας|απεργ|μετρό|ηλεκτρικ|τραμ|αεροδρόμ|Χ95|X95|κλείσιμο|κλειστ|σταθμ|νυχτεριν|24ωρ"
   }
  ]
 }

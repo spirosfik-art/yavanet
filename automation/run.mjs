@@ -112,6 +112,8 @@ async function collect() {
           geo: { lat: f.geometry.coordinates[1], lng: f.geometry.coordinates[0] },
         }));
       }
+      // Νέα πηγή χωρίς ημερομηνίες (html): την πρώτη φορά σημειώνουμε ό,τι υπάρχει ως «ήδη γνωστό», για να μη δημοσιευτούν παλιά νέα
+      if (s.type === "html" && !state.sourceStatus[s.id]) { for (const i of list) state.seen[sha(i.url)] = Date.now() + 76 * 86400e3; state.sourceStatus[s.id] = { ok: true, at: new Date().toISOString(), items: list.length, baseline: true }; continue; }
       if (s.include) list = list.filter((i) => new RegExp(s.include, "i").test(i.title + " " + i.summary));
       if (s.exclude) list = list.filter((i) => !new RegExp(s.exclude, "i").test(i.title + " " + i.summary));
       const fresh = list.filter((i) => { const t = Date.parse(i.published); return !t || Date.now() - t < 36 * 3600e3; });
@@ -142,7 +144,7 @@ async function select(items) {
   let hint = "";
   if (now.hour >= 17 && state.today.count < MIN_PER_DAY) hint = `\nWe have published only ${state.today.count} today; our minimum is ${MIN_PER_DAY}. Be a bit more inclusive with relevant items.`;
   const out = (await ask({ system: SELECT_SYSTEM, prompt: selectPrompt(items, { remaining: Math.min(remaining, MAX_PER_RUN) + 2, recentTitles: recent }) + hint, model: SELECT_MODEL, maxTokens: 2000, temperature: 0, role: "select" }));
-  for (const i of items) state.seen[i.id] = Date.now();
+  for (const i of items) state.seen[i.id] = Date.now() + (i.published ? 0 : 76 * 86400e3); // σελίδες χωρίς ημερομηνία: μνήμη 90 ημερών
   const picks = (out.picks || []).map((p) => ({ ...p, item: items.find((i) => i.id === p.id) })).filter((p) => p.item);
   // Καταγραφή για έλεγχο: τι είδε η AI και τι διάλεξε
   const chosen = new Set(picks.map((p) => p.id));
