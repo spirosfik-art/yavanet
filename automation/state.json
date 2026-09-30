@@ -498,55 +498,58 @@
     "0c05f18d8dd7": 1790763959164,
     "154f8b8f5cc7": 1790765597206,
     "d993dbdeac5c": 1790766143300,
-    "1fbc5b0ccdbf": 1790766143300
+    "1fbc5b0ccdbf": 1790766143300,
+    "d4615dd9b7ab": 1790767399183,
+    "51b61c668d70": 1790767399183,
+    "b34bd42dcd6b": 1790767399183
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-09-30T11:02:12.839Z",
+      "at": "2026-09-30T11:23:06.103Z",
       "error": "HTTP 403",
-      "fails": 349
+      "fails": 350
     },
     "minfin": {
       "ok": true,
-      "at": "2026-09-30T11:02:14.928Z",
+      "at": "2026-09-30T11:23:09.071Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-09-30T11:02:15.575Z",
+      "at": "2026-09-30T11:23:09.698Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-09-30T11:02:16.093Z",
+      "at": "2026-09-30T11:23:10.532Z",
       "error": "HTTP 403",
-      "fails": 349
+      "fails": 350
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-09-30T11:02:16.760Z",
+      "at": "2026-09-30T11:23:11.438Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-09-30T11:02:17.102Z",
+      "at": "2026-09-30T11:23:12.407Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-09-30T11:02:18.118Z",
+      "at": "2026-09-30T11:23:13.294Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-09-30T11:02:18.814Z",
-      "items": 3
+      "at": "2026-09-30T11:23:13.963Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-09-30T11:02:19.671Z",
+      "at": "2026-09-30T11:23:14.497Z",
       "items": 10
     },
     "toi-greece": {
@@ -557,22 +560,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-09-30T11:02:20.117Z",
+      "at": "2026-09-30T11:23:14.932Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-09-30T11:02:20.194Z",
+      "at": "2026-09-30T11:23:15.318Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-09-30T11:02:20.378Z",
-      "items": 3
+      "at": "2026-09-30T11:23:15.545Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T11:02:20.510Z",
+      "at": "2026-09-30T11:23:15.935Z",
       "items": 0
     },
     "ynet-greece": {
@@ -582,12 +585,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-09-30T11:02:15.879Z",
+      "at": "2026-09-30T11:23:10.283Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-09-30T11:02:21.064Z",
+      "at": "2026-09-30T11:23:16.458Z",
       "items": 0
     },
     "hcg": {
@@ -598,14 +601,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-09-30T11:02:22.491Z",
+      "at": "2026-09-30T11:23:17.533Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -635,6 +638,12 @@
         "slug": "delphi-day-trip-from-athens-guide",
         "title": "Day Trip from Athens to Delphi: What to See and How to Get There",
         "at": "2026-09-30T13:03:17+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "athens-riviera-guide-beaches-neighbourhoods",
+        "title": "The Athens Riviera: Beaches, Neighbourhoods and Coastal Living",
+        "at": "2026-09-30T14:23:36+03:00",
         "section": "travel"
       }
     ],
@@ -668,6 +677,11 @@
         "title": "Πτήση FlyDubai: Ο συγκυβερνήτης στο επίκεντρο του θρίλερ – Τι φέρεται να συνέβη στο πιλοτήριο",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T10:03:05.488Z"
+      },
+      {
+        "title": "Και δεύτερη εκτροπή πτήσης της FlyDubai: Επιστρέφει στο Ντουμπάι",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-09-30T11:23:26.889Z"
       }
     ],
     "errors": []
@@ -696,12 +710,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T11:02:23.300Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-09-30T11:23:19.183Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ert | Γάζα: Τουλάχιστον πέντε νεκροί σε ισραηλινά πλήγματα",
-      "· minfin | Αύξηση της επιδότησης του πετρελαίου κίνησης σε 15 λεπτά – Ρύθμιση 120 δόσεων για σωρευμέν"
+      "· ingr | ΠΑΣΟΚ: Φορολάγνος πολιτικός ο Μητσοτάκης – Αρνείται εμμονικά να μειώσει τον ΕΦΚ, λεηλατεί ",
+      "✓ ert | Και δεύτερη εκτροπή πτήσης της FlyDubai: Επιστρέφει στο Ντουμπάι",
+      "· ingr | Ιωάννινα: Ολοκληρώθηκε το έργο προσβασιμότητας στη Βορειοανατολική Ακρόπολη του Κάστρου"
     ]
   },
   "evergreenDone": [
@@ -725,8 +740,9 @@
     "greece-israel",
     "meteora",
     "nafplio",
-    "delphi"
+    "delphi",
+    "athens-riviera"
   ],
-  "lastEvergreen": 1790762585494,
+  "lastEvergreen": 1790767406894,
   "pushKey": "ok"
 }
