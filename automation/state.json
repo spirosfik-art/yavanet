@@ -460,107 +460,7 @@
     "fde7ba306bf6": 1790750830505,
     "93bcdd192b22": 1790750830505
   },
-  "pending": {
-    "76db73": {
-      "createdAt": 1790750863381,
-      "item": {
-        "title": "Φόβοι για αεροπειρατεία σε πτήση από το Ντουμπάι στο Τελ Αβίβ",
-        "url": "https://www.ertnews.gr/eidiseis/fovoi-gia-aeropeirateia-se-ptisi-apo-to-ntoumpai-sto-tel-aviv/",
-        "summary": "Συναγερμός σήμανε σε εμπορικό αεροσκάφος της flydubai που εκτελούσε πτήση από το Ντουμπάι προς το Τελ Αβίβ, καθώς το αεροσκάφος έκανε αναστροφή ενώ βρισκόταν πάνω από τη Σαουδική Αραβία. Σύμφωνα με δεδομένα παρακολούθησης της πτήσης, το αεροσκάφος εξέπεμψε αρχικά τον κωδικό 7700 («squawk code»), ο οποίος αποτελεί διεθνές σήμα έκτακτης ανάγκης. Λίγο αργότερα, ωστόσο, εξέπεμψε ... Περισσότερα \n www.ertnews.gr",
-        "published": "Wed, 30 Sep 2026 06:43:26 +0000",
-        "id": "47a51c456d5e",
-        "sourceId": "ert",
-        "sourceName": "ΕΡΤ (ertnews.gr)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "47a51c456d5e",
-        "section": "israelis",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Involves a flight from Dubai to Tel Aviv issuing a squawk 7700 emergency code over Saudi Arabia, which is of direct safety concern to Israeli travelers and aviation.",
-        "item": {
-          "title": "Φόβοι για αεροπειρατεία σε πτήση από το Ντουμπάι στο Τελ Αβίβ",
-          "url": "https://www.ertnews.gr/eidiseis/fovoi-gia-aeropeirateia-se-ptisi-apo-to-ntoumpai-sto-tel-aviv/",
-          "summary": "Συναγερμός σήμανε σε εμπορικό αεροσκάφος της flydubai που εκτελούσε πτήση από το Ντουμπάι προς το Τελ Αβίβ, καθώς το αεροσκάφος έκανε αναστροφή ενώ βρισκόταν πάνω από τη Σαουδική Αραβία. Σύμφωνα με δεδομένα παρακολούθησης της πτήσης, το αεροσκάφος εξέπεμψε αρχικά τον κωδικό 7700 («squawk code»), ο οποίος αποτελεί διεθνές σήμα έκτακτης ανάγκης. Λίγο αργότερα, ωστόσο, εξέπεμψε ... Περισσότερα \n www.ertnews.gr",
-          "published": "Wed, 30 Sep 2026 06:43:26 +0000",
-          "id": "47a51c456d5e",
-          "sourceId": "ert",
-          "sourceName": "ΕΡΤ (ertnews.gr)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "flydubai-dubai-tel-aviv-emergency-squawk",
-        "section": "israelis",
-        "sensitive": true,
-        "breaking": true,
-        "geo": null,
-        "strike": null,
-        "imageKey": "plane",
-        "imageQuery": "commercial airplane in flight",
-        "he": {
-          "title": "טיסה מדובאי לתל אביב שידרה אות מצוקה מעל סעודיה",
-          "seoTitle": "טיסה מדובאי לתל אביב: אות מצוקה מעל סעודיה",
-          "seoDesc": "מטוס של פליי דובאי בדרך לתל אביב שידר קוד חירום ומספר חטיפה מעל סעודיה. מטוס קרב ישראלי הוזנק והנהגת המדינה מכונסת לדיונים.",
-          "keywords": [
-            "פליי דובאי",
-            "טיסה מתל אביב",
-            "אות מצוקה",
-            "נתבג",
-            "חדשות חוץ"
-          ],
-          "dek": "מטוס נוסעים של חברת פליי דובאי בדרכו לדובאי ולתל אביב הפנה את מסלולו מעל סעודיה ושידר קודי מצוקה חריגים.",
-          "tldr": [
-            "טיסת פליי דובאי מדובאי לתל אביב הפכה את מסלולה מעל שמי סעודיה.",
-            "המטוס שידר תחילה קוד 7700 ולאחר מכן את קוד 7500 המעיד על חטיפה.",
-            "מטוסי קרב של חיל האוויר הישראלי הוזנקו לעבר המטוס ומתקיימות התייעצויות ביטחוניות."
-          ],
-          "means": "האירוע נמצא תחת מעקב ביטחוני הדוק ומחייב מעקב אחר עדכונים רשמיים של רשויות התעופה בישראל. יש להתעדכן מול חברות התעופה על שינויים בלוח הטיסות באזור ולהישמע להנחיות גורמי הביטחון.",
-          "body": "## אירוע חריג בטיסה מתל אביב\n\nבשמי סעודיה אירעה תקרית חריגה בטיסה של חברת פליי דובאי אשר עשתה את דרכה מדובאי אל נמל התעופה בן גוריון בתל אביב. על פי נתוני מעקב הטיסות, צוות המטוס ביצע פניית פרסה בעודו טס מעל שטח סעודיה והפעיל מערכות התרעה חריגות.\n\nבתחילה שידר כלי הטיס את קוד 7700, המהווה קוד בינלאומי מוכר למצבי חירום באוויר. זמן קצר לאחר מכן הוחלף השידור לקוד 7500, קוד ייעודי המצביע על חשד לחטיפה או התערבות בלתי חוקית במהלך הטיסה.\n\n## תגובת מערכת הביטחון\n\nבעקבות הפעלת הקודים, מקורות ביטחוניים אישרו כי מטוסי קרב של חיל האוויר הישראלי הוזנקו לאוויר לכיוונו של המטוס במטרה ללוות אותו ולנטר את המצב מקרוב. במקביל, ראש הממשלה ושר הביטחון מכנסים דיונים והתייעצויות חירום כדי לעקוב אחר ההתפתחויות.\n\nעד כה לא נמסרו פרטים רשמיים נוספים באשר לגורם המדויק להפעלת קודי החירום, והאם נשקפה סכנה ממשית לנוסעים ולאנשי הצוות שהיו על סיפון המטוס. רשויות התעופה והביטחון ממשיכות לבדוק את נסיבות המקרה."
-        },
-        "en": {
-          "title": "Dubai to Tel Aviv flight squawks emergency over Saudi Arabia",
-          "seoTitle": "Dubai to Tel Aviv flight emergency over Saudi Arabia",
-          "seoDesc": "A Flydubai flight en route to Tel Aviv squawked emergency codes over Saudi Arabia. Israeli jets scrambled as officials hold consultations.",
-          "keywords": [
-            "Flydubai flight",
-            "Tel Aviv flight",
-            "squawk 7500",
-            "Saudi Arabia",
-            "aviation news"
-          ],
-          "dek": "A Flydubai passenger aircraft flying from Dubai to Tel Aviv turned around over Saudi Arabia and broadcast emergency codes.",
-          "tldr": [
-            "A Flydubai flight heading to Tel Aviv reversed course while flying over Saudi Arabia.",
-            "The aircraft first squawked code 7700 and then code 7500 indicating unlawful interference.",
-            "Israeli Air Force fighter jets were scrambled toward the plane as leaders hold security meetings."
-          ],
-          "means": "This is an evolving security event. Passengers with flights to or from Israel should check directly with airlines regarding schedule updates and follow instructions issued by official authorities.",
-          "body": "## Emergency Codes Broadcast Over Saudi Arabia\n\nA commercial passenger aircraft operated by Flydubai, performing a flight from Dubai to Tel Aviv, triggered an alert after making a sudden turnaround while flying over Saudi Arabia.\n\nAccording to flight tracking data, the plane initially transmitted squawk code 7700, which serves as an international emergency signal. Shortly afterward, the aircraft broadcast squawk code 7500, a specific code used by pilots to indicate hijacking or other unlawful interference.\n\n## Security Response and Interception\n\nSecurity sources confirmed that fighter jets belonging to the Israeli Air Force were scrambled and directed toward the aircraft to monitor the situation. Meanwhile, Israeli media reported that the prime minister and the defense minister are holding emergency consultations regarding the incident.\n\nNo further details have been officially released yet concerning what triggered the emergency codes or whether there was an actual threat to the aircraft and the people on board. Authorities continue to gather information as the situation develops."
-        }
-      },
-      "text": "Συναγερμός σήμανε σε εμπορικό αεροσκάφος της flydubai που εκτελούσε πτήση από το Ντουμπάι προς το Τελ Αβίβ, καθώς το αεροσκάφος έκανε αναστροφή ενώ βρισκόταν πάνω από τη Σαουδική Αραβία. \n Σύμφωνα με δεδομένα παρακολούθησης της πτήσης, το αεροσκάφος εξέπεμψε αρχικά τον κωδικό 7700 («squawk code») , ο οποίος αποτελεί διεθνές σήμα έκτακτης ανάγκης.\n Λίγο αργότερα, ωστόσο, εξέπεμψε τον κωδικό 7500 , ο οποίος χρησιμοποιείται για να δηλώσει αεροπειρατεία ή άλλη παράνομη παρέμβαση .\n Σύμφωνα με πηγές ασφαλείας, μαχητικά αεροσκάφη της ισραηλινής Πολεμικής Αεροπορίας απογειώθηκαν με κατεύθυνση προς το αεροσκάφος .\n Ισραηλινά μέσα ενημέρωσης μεταδίδουν ότι ο πρωθυπουργός και ο υπουργός Άμυνας πραγματοποιούν έκτακτες διαβουλεύσεις για το περιστατικό.\n Μέχρι στιγμής, δεν έχουν γίνει γνωστές περισσότερες λεπτομέρειες σχετικά με το τι προκάλεσε την ενεργοποίηση των κωδικών έκτακτης ανάγκης και εάν υπάρχει πραγματική απειλή για το αεροσκάφος ή τους επιβαίνοντες.\n #FZ1073 from Dubai to Tel Aviv squawking 7700 en route to Tel Aviv. https://t.co/BI5p7bTPrw pic.twitter.com/7fUP8XwwP3 \n&mdash; Flightradar24 (@flightradar24) September 30, 2026 \n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
-      "issues": [],
-      "el": {
-        "title": "Πτήση από Ντουμπάι προς Τελ Αβίβ εκπέμπει σήμα κινδύνου πάνω από τη Σαουδική Αραβία",
-        "dek": "Επιβατικό αεροσκάφος της Flydubai που εκτελούσε πτήση από το Ντουμπάι προς το Τελ Αβίβ αναγκάστηκε να κάνει αναστροφή πάνω από τη Σαουδική Αραβία και εξέπεμψε κωδικούς έκτακτης ανάγκης.",
-        "tldr": [
-          "Πτήση της Flydubai με κατεύθυνση το Τελ Αβίβ άλλαξε πορεία ενώ πετούσε πάνω από τη Σαουδική Αραβία.",
-          "Το αεροσκάφος εξέπεμψε αρχικά τον κωδικό 7700 και στη συνέχεια τον κωδικό 7500, υποδεικνύοντας παράνομη επέμβαση.",
-          "Μαχητικά αεροσκάφη της Ισραηλινής Πολεμικής Αεροπορίας απογειώθηκαν προς το μέρος του αεροσκάφους, την ίδια ώρα που ηγέτες πραγματοποιούν συσκέψεις ασφαλείας."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -649,7 +549,7 @@
   "tgOffset": 829774786,
   "today": {
     "date": "2026-09-30",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "meteora-monasteries-travel-guide",
@@ -662,6 +562,12 @@
         "title": "Greece introduces strict new penalties for using mobile phones while driving",
         "at": "2026-09-30T08:48:38+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "flydubai-dubai-tel-aviv-emergency-squawk",
+        "title": "Dubai to Tel Aviv flight squawks emergency over Saudi Arabia",
+        "at": "2026-09-30T09:48:42+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
