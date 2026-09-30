@@ -409,6 +409,7 @@ footer nav a,footer nav button{border:0;background:none;padding:0;color:var(--se
 .pf h2{font-family:var(--display);font-size:clamp(24px,4.4vw,32px);line-height:1.2;margin:0 0 14px}
 .pf-hero{position:relative;display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:28px;align-items:center;background:radial-gradient(600px 300px at 90% 0%,rgba(226,163,59,.22),transparent 60%),linear-gradient(135deg,#071a2c,#0B3A5B 55%,#1C6E9C);color:#fff;border-radius:26px;padding:28px;overflow:hidden}
 .pf-photo{aspect-ratio:4/5;border-radius:999px 999px 22px 22px;overflow:hidden;border:4px solid rgba(255,255,255,.18);box-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
+.pf-logo{display:block;width:150px;height:auto;border-radius:14px;margin:0 0 14px;box-shadow:0 14px 30px -18px rgba(0,0,0,.8);border:1px solid rgba(243,198,107,.35)}
 .pf-photo img{width:100%;height:100%;object-fit:cover;display:block}
 .pf-eye{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;font-weight:800;letter-spacing:.04em;color:#f3c66b}
 .pf-hero h1{font-family:var(--display);font-size:clamp(38px,7vw,60px);line-height:1.02;margin:8px 0 6px;color:#fff}
