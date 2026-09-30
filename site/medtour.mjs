@@ -187,7 +187,7 @@ ${c.cmp.map(([k, x, y]) => `<div class="r" role="row"><b role="rowheader">${esc(
 
 <section class="mtx-sec"><h2>${esc(c.teamT)}</h2>
 <div class="mtx-team">
-  <div class="mtx-tm"><img src="/asi-avatar-v2.jpg" alt="${he ? "אסי דורון" : "Asi Doron"}" width="400" height="400" loading="lazy"><div><b>${he ? "אסי דורון" : "Asi Doron"}</b><span>${esc(c.asiR)}</span><p>${esc(c.asiT)}</p><a href="${P(lang, "/a/asi-doron-real-estate-greece-hebrew/")}">${he ? "לעמוד של אסי ←" : "Asi's page →"}</a></div></div>
+  <div class="mtx-tm"><img src="/asi-avatar-v3.jpg" alt="${he ? "אסי דורון" : "Asi Doron"}" width="400" height="400" loading="lazy"><div><b>${he ? "אסי דורון" : "Asi Doron"}</b><span>${esc(c.asiR)}</span><p>${esc(c.asiT)}</p><a href="${P(lang, "/a/asi-doron-real-estate-greece-hebrew/")}">${he ? "לעמוד של אסי ←" : "Asi's page →"}</a></div></div>
   <div class="mtx-tm sf"><span class="mtx-sflogo"><img src="/sf-logo-light.png" alt="S.F. Properties" width="900" height="142" loading="lazy"></span><div><b>S.F. Properties</b><span>${he ? "ניהול נכסים ו-Airbnb באתונה" : "Property & Airbnb management in Athens"}</span><p>${esc(c.sfT)}</p><a href="${P(lang, "/a/sf-properties-athens-real-estate/")}">${he ? "לעמוד של S.F. Properties ←" : "S.F. Properties page →"}</a></div></div>
 </div><p class="mtx-note">${esc(c.teamNote)}</p></section>
 
