@@ -204,7 +204,7 @@ ${head}
 </head>
 <body>
 <a class="skip" href="#main">${lang === "he" ? "דלגו לתוכן" : "Skip to content"}</a>
-${strikeBar}${brk}
+<!-- μπάρες έκτακτων πάνω από την κεφαλίδα: αφαιρέθηκαν (01.10.2026) – οι έκτακτες φαίνονται στο «Φλας» κάτω από την κεφαλίδα -->
 <header class="sky" id="sky">
   <canvas id="stars" aria-hidden="true"></canvas>
   <div class="wx" id="wx" aria-hidden="true"></div>
