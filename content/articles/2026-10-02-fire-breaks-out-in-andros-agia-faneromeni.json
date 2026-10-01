@@ -1,0 +1,80 @@
+{
+  "slug": "fire-breaks-out-in-andros-agia-faneromeni",
+  "section": "breaking",
+  "publishedAt": "2026-10-02T01:02:19+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.8386,
+    "lng": 24.9428
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/02/greece/andros-ksespase-pyrkagia-se-xamili-vlastisi-stin-agia-faneromeni/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30805406/pexels-photo-30805406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Intense flames and smoke engulfing the Australian bush, highlighting the climate crisis.",
+    "credit": "Photo: Eclipse Chasers / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dramatic-australian-bushfire-landscape-30805406/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Greece fire"
+  },
+  "he": {
+    "title": "אנדרוס: שריפה פרצה באזור אייה פאנרומני",
+    "seoTitle": "שריפה באנדרוס: אש פרצה באזור אייה פאנרומני ביוון",
+    "seoDesc": "שריפה פרצה באזור אייה פאנרומני באי אנדרוס ביוון. כוחות כיבוי אש פועלים במקום, אין כרגע איום על אזורים מיושבים.",
+    "keywords": [
+      "שריפה ביוון",
+      "אנדרוס",
+      "שריפה באנדרוס",
+      "אייה פאנרומני",
+      "מזג אוויר ביוון"
+    ],
+    "dek": "כוחות כיבוי אש פועלים בשעה זו מול שריפה שפרצה בצמחייה נמוכה באי אנדרוס, תחת רוחות חזקות באזור.",
+    "tldr": [
+      "שריפה פרצה בצמחייה נמוכה באזור אייה פאנרומני באנדרוס.",
+      "רוחות חזקות נושבות באזור ומקשות על פעולות הכיבוי.",
+      "הרשויות מדווחת כי בשלב זה אין סכנה לבתי מגורים."
+    ],
+    "means": "טסים לאי אנדרוס או נמצאים באזור? שימו לב לתנאי מזג האוויר ולרוחות החזקות. בדקו את ההנחיות המעודכנות של הרשויות המקומיות והימנעו מהגעה לאזור האירוע כדי לאפשר לכוחות ההצלה לעבוד.",
+    "body": "## שריפה חדשה באנדרוס\n\nשריפה פרצה בשעות המאוחרות של הלילה באזור אייה פאנרומני שעל האי אנדרוס. האש החלה להתפשט בשטח של צמחייה נמוכה, כאשר במקום פועלים צוותי כיבוי אש רבים במאמץ להשתלט על הלהבות.\n\n## רוחות חזקות מקשות על הכיבוי\n\nעל פי דיווחים מרשויות הכיבוי, האתגר המרכזי שעמו מתמודדים הצוותים בשטח הוא רוחות חזקות המנשבות באזור. הרוחות החזקות דוחפות את האש ומקשות על פעולות הבלימה של הכבאים.\n\n## אין סכנה לבתי מגורים\n\nבשלב זה, גורמי ההצלה מעדכנים כי אין איום ישיר על אזורים מיושבים או בתים סמוכים. כוחות הכיבוי נשארים פרוסים בשטח במטרה להכיל את האש ולמנוע את התפשטותה."
+  },
+  "en": {
+    "title": "Andros: Fire breaks out in Agia Faneromeni area",
+    "seoTitle": "Andros fire: Blaze breaks out in Agia Faneromeni",
+    "seoDesc": "A brush fire broke out in the Agia Faneromeni area on Andros island, Greece. Firefighters are tackling the blaze amid strong winds.",
+    "keywords": [
+      "Andros fire",
+      "Greece wildfire",
+      "Agia Faneromeni Andros",
+      "Greece news",
+      "Andros island"
+    ],
+    "dek": "Firefighting forces are operating against a brush fire on the island of Andros, driven by strong winds in the area.",
+    "tldr": [
+      "A brush fire broke out in the Agia Faneromeni area on Andros.",
+      "Strong winds in the area are complicating firefighting efforts.",
+      "Authorities report that residential areas are not threatened."
+    ],
+    "means": "If you are visiting Andros, stay updated on local weather conditions and avoid the affected areas to allow emergency crews to operate safely.",
+    "body": "## Fire Outbreak in Andros\n\nA fire broke out late at night in the Agia Faneromeni location on the island of Andros. The blaze ignited in an area with low vegetation, prompting an immediate response from local firefighting teams.\n\n## Strong Winds Complicate Operations\n\nAccording to the Fire Service, firefighters are facing challenging conditions on the ground due to strong winds blowing across the region. These gusts make it difficult to contain the spread of the flames.\n\n## No Threat to Homes\n\nAt this stage, authorities confirm that residential areas and homes are not under threat from the fire. Crews remain deployed at the scene to bring the situation fully under control."
+  },
+  "meta": {
+    "itemId": "c67d98b4c07d",
+    "imageQuery": "bush fire greece smoke",
+    "sourceHash": "9f99e15d8c0c",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-01T22:02:20.392Z",
+    "official": false
+  }
+}
