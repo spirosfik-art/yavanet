@@ -314,7 +314,14 @@ async function publish(draft, item, pick, text) {
 async function distribute(a) {
   const text = `${a.breaking ? "🔴 " : ""}${a.he.title}\n\n${a.he.dek}\n\n${articleUrl(a, "he", "telegram")}`;
   if (env.TELEGRAM_CHANNEL_ID) await tg("sendMessage", { chat_id: env.TELEGRAM_CHANNEL_ID, text });
-  if (env.MAKE_WEBHOOK_URL && !DRY) {
+  // Facebook (μέσω Make): έως FB_MAX/ημέρα, με απόσταση ≥ FB_GAP_MIN λεπτά, 07:00–23:00· τα έκτακτα περνούν πάντα
+  const FB_MAX = Number(env.FB_MAX_PER_DAY || 4), FB_GAP_MIN = 120;
+  const fb = (state.today.fb ||= []);
+  const lastFb = fb.length ? Date.parse(fb[fb.length - 1].at) : 0;
+  const fbOk = a.breaking || (now.hour >= 7 && now.hour < 23 && fb.length < FB_MAX && Date.now() - lastFb >= FB_GAP_MIN * 60000);
+  if (env.MAKE_WEBHOOK_URL && !DRY && !fbOk) log("facebook: παράλειψη (όριο/ώρα)", a.slug);
+  if (env.MAKE_WEBHOOK_URL && !DRY && fbOk) {
+    fb.push({ slug: a.slug, at: new Date().toISOString() });
     // Make.com / Zapier: ανάρτηση σε Facebook, Instagram, X κ.λπ.
     await fetch(env.MAKE_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({
       url_he: articleUrl(a, "he", "facebook"), url_en: articleUrl(a, "en", "facebook"), title_he: a.he.title, title_en: a.en.title, dek_he: a.he.dek, dek_en: a.en.dek,
