@@ -586,55 +586,56 @@
     "a6f2c6a3fd98": 1790810538468,
     "317f8c92df34": 1790811293338,
     "56dea28d3d68": 1790816865198,
-    "f05d5656ab77": 1790816865198
+    "f05d5656ab77": 1790816865198,
+    "25ed692d5b9c": 1790817926232
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T01:07:35.943Z",
+      "at": "2026-10-01T01:25:13.750Z",
       "error": "HTTP 403",
-      "fails": 403
+      "fails": 404
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T01:07:36.585Z",
+      "at": "2026-10-01T01:25:15.670Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T01:07:37.182Z",
+      "at": "2026-10-01T01:25:16.582Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T01:07:37.782Z",
+      "at": "2026-10-01T01:25:17.398Z",
       "error": "HTTP 403",
-      "fails": 403
+      "fails": 404
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T01:07:38.791Z",
+      "at": "2026-10-01T01:25:19.726Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T01:07:38.992Z",
+      "at": "2026-10-01T01:25:20.099Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T01:07:39.816Z",
+      "at": "2026-10-01T01:25:21.015Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T01:07:40.416Z",
-      "items": 3
+      "at": "2026-10-01T01:25:21.832Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T01:07:41.310Z",
+      "at": "2026-10-01T01:25:22.240Z",
       "items": 10
     },
     "toi-greece": {
@@ -645,22 +646,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T01:07:41.704Z",
+      "at": "2026-10-01T01:25:22.756Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T01:07:41.821Z",
+      "at": "2026-10-01T01:25:23.109Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T01:07:41.992Z",
+      "at": "2026-10-01T01:25:23.202Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T01:07:42.125Z",
+      "at": "2026-10-01T01:25:23.586Z",
       "items": 10
     },
     "ynet-greece": {
@@ -670,12 +671,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T01:07:37.489Z",
+      "at": "2026-10-01T01:25:17.172Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T01:07:43.207Z",
+      "at": "2026-10-01T01:25:24.196Z",
       "items": 0
     },
     "hcg": {
@@ -686,7 +687,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T01:07:44.543Z",
+      "at": "2026-10-01T01:25:25.586Z",
       "items": 2
     }
   },
@@ -707,6 +708,11 @@
         "title": "Israeli Ambassador To Greece Responds to Flydubai Incident",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-09-30T21:52:33.447Z"
+      },
+      {
+        "title": "Πτήση FlyDubai: Συγκλονίζουν οι μαρτυρίες των επιβατών που ακινητοποίησαν τον συγκυβερνήτη – Πώς αποτράπηκε η τραγωδία",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-10-01T01:25:31.144Z"
       }
     ],
     "errors": []
@@ -740,12 +746,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T01:07:45.198Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-01T01:25:26.232Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· gct | Mad Max Director George Miller Honored With Cultural Center on Kythera",
-      "· gct | Resilience Tech unveils first Greek-made FPV drone flight controller"
+      "✓ ert | Πτήση FlyDubai: Συγκλονίζουν οι μαρτυρίες των επιβατών που ακινητοποίησαν τον συγκυβερνήτη"
     ]
   },
   "evergreenDone": [
