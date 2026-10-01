@@ -683,7 +683,8 @@
     "e92e4772930b": 1790863037942,
     "ea5c6164d50e": 1790864888239,
     "0de72dc7764c": 1790864888239,
-    "b3429b3aa228": 1790864888239
+    "b3429b3aa228": 1790864888239,
+    "93fe44986a98": 1790865760500
   },
   "pending": {
     "ae5f3e": {
@@ -791,49 +792,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T14:27:57.674Z",
+      "at": "2026-10-01T14:42:30.141Z",
       "error": "HTTP 403",
-      "fails": 454
+      "fails": 455
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T14:27:58.179Z",
-      "items": 0
+      "at": "2026-10-01T14:42:32.333Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T14:27:58.824Z",
+      "at": "2026-10-01T14:42:32.985Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T14:27:59.757Z",
+      "at": "2026-10-01T14:42:33.514Z",
       "error": "HTTP 403",
-      "fails": 454
+      "fails": 455
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T14:28:00.820Z",
+      "at": "2026-10-01T14:42:34.343Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T14:28:01.038Z",
+      "at": "2026-10-01T14:42:34.585Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T14:28:02.121Z",
+      "at": "2026-10-01T14:42:35.935Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T14:28:02.936Z",
+      "at": "2026-10-01T14:42:36.698Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T14:28:03.746Z",
+      "at": "2026-10-01T14:42:37.145Z",
       "items": 10
     },
     "toi-greece": {
@@ -844,22 +845,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T14:28:04.312Z",
+      "at": "2026-10-01T14:42:37.546Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T14:28:04.728Z",
+      "at": "2026-10-01T14:42:37.620Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T14:28:05.323Z",
+      "at": "2026-10-01T14:42:37.727Z",
       "items": 11
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T14:28:05.739Z",
+      "at": "2026-10-01T14:42:37.876Z",
       "items": 4
     },
     "ynet-greece": {
@@ -869,12 +870,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T14:27:59.528Z",
+      "at": "2026-10-01T14:42:33.264Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T14:28:06.348Z",
+      "at": "2026-10-01T14:42:38.490Z",
       "items": 0
     },
     "hcg": {
@@ -885,7 +886,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T14:28:07.545Z",
+      "at": "2026-10-01T14:42:39.740Z",
       "items": 2
     }
   },
@@ -983,6 +984,12 @@
         "title": "Calls in Greece to Abolish Golden Visa and Shift Focus",
         "at": "2026-10-01T15:34:49+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather",
+        "at": "2026-10-01T17:42:55+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1065,13 +1072,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T14:28:08.239Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-01T14:42:40.500Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· ingr | Νετανιάχου: Ο συγκυβερνήτης της πτήσης της Flydubai είχε περάσει από ισλαμιστική ριζοσπαστ",
-      "· gtp | MSC World Atlantic Floats Out Ahead of 2027 Caribbean Debut",
-      "· ert | Ουκρανία: Ρωσικό drone έπληξε σχολείο στο Κίεβο, οι μαθητές γλίτωσαν χωρίς να τραυματιστού"
+      "✓ naftemporiki | Ισχυρές βροχοπτώσεις στην Κρήτη: Πάνω από 250 κλήσεις στην Πυροσβεστική"
     ]
   },
   "evergreenDone": [

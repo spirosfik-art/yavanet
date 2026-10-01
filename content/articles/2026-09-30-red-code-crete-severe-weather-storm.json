@@ -2,7 +2,7 @@
   "slug": "red-code-crete-severe-weather-storm",
   "section": "breaking",
   "publishedAt": "2026-09-30T14:36:14+03:00",
-  "updatedAt": "2026-10-01T14:25:28+03:00",
+  "updatedAt": "2026-10-01T17:42:55+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2169391/ischyres-vrochoptoseis-stin-kriti-pano-apo-250-kliseis-stin-pyrosvestiki/?utm_source=rss&utm_medium=rss&utm_campaign=ischyres-vrochoptoseis-stin-kriti-pano-apo-250-kliseis-stin-pyrosvestiki"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2169247/irakleio-poy-echei-diakopei-i-kykloforia-logo-tis-kakokairias/?utm_source=rss&utm_medium=rss&utm_campaign=irakleio-poy-echei-diakopei-i-kykloforia-logo-tis-kakokairias"
@@ -58,26 +62,26 @@
     "en": "Severe Weather"
   },
   "he": {
-    "title": "כרתים: חסימות כבישים ושיבושי תנועה בהרקליון עקב מזג האוויר הסוער",
-    "dek": "משטרת כרתים הודיעה על הגבלות תנועה וסגירת צירים מרכזיים באזור הרקליון בעקבות מזג האוויר הסוער.",
+    "title": "כרתים: מעל 255 קריאות למוקד החירום ועשרות פינויים עקב מזג אוויר סוער",
+    "dek": "גשמים חזקים ממשיכים לפקוד את האי כרתים ומחייבים התערבות של כוחות ההצלה. מוקד החירום טיפל במאות פניות וחלצו תושבים ממקומות מוצפים.",
     "tldr": [
-      "הגבלות תנועה וסגירת כבישים בהרקליון שבכרתים בעקבות מזג האוויר.",
-      "נרשמו חסימות בכבישים ראשיים ואזורים נוספים עקב הצפות וגשמים.",
-      "הרשויות קוראות לציבור להימנע מנסיעות לא חיוניות ולהישמע להנחיות."
+      "מעל 255 פניות התקבלו במוקד החירום של כיבוי האש בכרתים עקב גשמים עזים.",
+      "כוחות ההצלה ביצעו עשרות חילוצים ושאיבות מים באזורים שונים ברחבי האי.",
+      "השלטונות הוציאו התרעות חירום דרך מספר 112 המגבילות את התנועה במספר אזורים."
     ],
-    "means": "אם אתם נמצאים כעת בכרתים או מתכננים הגעה לאי, עקבו אחר הודעות החירום והימנעו מנסיעות באזורים המוצפים. מומלץ להתעדכן מול השכירים או מקומות האירוח שלכם טרם היציאה לדרך, ולוודא את מצב הצירים מול הרשויות המקומיות.",
-    "body": "## שיבושים והגבלות תנועה בהרקליון\n\nמזג האוויר הסוער הפוקד בימים האחרונים את האי כרתים הוביל את הרשויות המקומיות לנקט צעדי חירום. ממשטרת כרתים נמסר כי נכנסו לתוקף הגבלות תנועה משמעותיות במספר צירים מרכזיים באזור הרקליון, במטרה לשמור על בטיחות הציבור ולמנוע תאונות עקב הגשמים העזים וההצפות.\n\n## הכבישים החסומים והדרכים החלופיות\n\nבמסגרת ההנחיות החדשות, נסגרה לתנועה הדרך המקשרת בין חרסוניסוס לקסטלי, והתנועה מופנית דרך נתיבים חלופיים. כמו כן, נחסם קטע כביש נוסף בהרקליון לכיוון מלאדס, ונרשמה סגירה של מעבר המים באזור קאטסאמבאס. גם ברחוב אוורסטו באזור טריס ואגייס הופסקה תנועת כלי הרכב והנהגים מופנים לדרכים עוקפות.\n\n## הנחיות לציבור הנהגים\n\nמשטרת כרתים קוראת לכלל הנהגים לנקוט משנה זהירות, להימנע מנסיעות שאינן הכרחיות ולהישמע להוראות השוטרים בשטח. באפשרותכם להתעדכן בזמן אמת דרך האתר הרשמי של משטרת יוון הכולל מידע שוטף על מצב התנועה, חסימות כבישים והנחיות בטיחות ברחבי המדינה."
+    "means": "אם אתם מטיילים כעת בכרתים או מתכננים להגיע לאי, שימו לב להתרעות החירום של ה-112 בטלפון הנייד שלכם והימנעו מנסיעות לא חיוניות באזורים המוצפים. מומלץ לעקוב אחר ההנחיות המקומיות, ליצור קשר עם מקום הלינה שלכם לפני כל יציאה, ולהתרחק מנחלים וממקומי מים עולים.",
+    "body": "## מזג אוויר קיצוני ממשיך להכות בכרתים\n\nמזג האוויר הסוער ממשיך להשפיע על האי כרתים, עם גשמים חזקים וסוערים המתרכזים באזורים הרתימנו, הרקליון ולסיתיוי. מרכז השליטה והבקרה של שירותי ההצלה והכיבוי בכרתים דיווח על עומס חריג בפניות לעזרה, כאשר מספר הפניות עבר את רף ה-255 קריאות מאז תחילת האירוע.\n\n## חילוצים ושאיבות מים באזורים המוצפים\n\nכוחות כיבוי האש וההצלה פועלים בכוחות מתוגברים ברחבי האי. עד כה בוצעו שורת העברות של אנשים לנקודות מבטחים ועשרות פעולות שאיבה של מים מבתים ומבנים. באזור הרקליון, נהר דרקוליאריס עלה על גדותיו והציף את הסביבה הקרובה ביישובים פויניקיה ומאלאדס. הרשויות המקומיות נרתמו למאמצים ומסייעות באמצעות כלים הנדסיים לפינוי חומרים שנסחפו וחסמו את צירי התנועה המרכזיים.\n\n## הגבלות תנועה והתרעות חירום\n\nבעקבות תנאי מזג האוויר הקשים, שירותי החירום הפיצו הודעות אזהרה באמצעות מערכת החירום 112 המחוזית. ההתרעות קראו לתושבים ולמבקרים באזורים כמו מינוס פדיאדה, איוס ניקולאוס ומאלאדס לצמצם את תנועותיהם למינימום ההכרחי עד שיפור במזג האוויר. כוחות ההצלה ממשיכים לעקוב מקרוב אחר ההתפתחויות ונמצאים בכוננות גבוהה בכל רחבי האי."
   },
   "en": {
-    "title": "Crete: Road Closures and Traffic Restrictions in Heraklion Due to Severe Weather",
-    "dek": "Greek police announce traffic restrictions and road closures in the Heraklion regional unit following severe weather conditions.",
+    "title": "Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather",
+    "dek": "Heavy downpours continue across Crete, prompting numerous rescue operations and flood responses as emergency services handle hundreds of calls.",
     "tldr": [
-      "Traffic restrictions and road closures implemented in Heraklion, Crete.",
-      "Key regional roads and crossings closed due to heavy rainfall and flooding.",
-      "Authorities urge the public to avoid non-essential travel and monitor updates."
+      "The fire department's operations center in Crete received over 255 calls due to severe rainfall.",
+      "Rescue teams carried out dozens of water pumpings and safely transferred stranded individuals.",
+      "Authorities issued emergency alerts via 112 restricting travel in several affected municipalities."
     ],
-    "means": "If you are currently visiting Crete or planning a trip to the island, check local road conditions before setting out and avoid unnecessary travel during heavy downpours. Stay in touch with your accommodation provider or car rental company for the latest updates on safe routes.",
-    "body": "## Traffic Restrictions in Heraklion\n\nSevere weather sweeping across Crete has prompted local authorities to implement emergency traffic measures. The General Regional Police Directorate of Crete announced that strict regulations are now in effect across several parts of the Heraklion regional unit to ensure public safety amid heavy rainfall.\n\n## Closed Roads and Detours\n\nAccording to official updates, traffic has been halted on the Hersonissos-Kasteli provincial road, with vehicles being diverted through alternative routes. Road closures also affect the Heraklion-Malades road, an Irish-style crossing at the Katsampas stream, and Evarestou Street in the Treis Vagies area, where police and traffic officials have set up mandatory detours.\n\n## Safety Advice for Drivers\n\nAuthorities advise drivers to stay informed about local weather conditions, avoid non-essential trips, exercise extreme caution behind the wheel, and strictly follow police instructions. Real-time updates regarding road closures and safety guidelines across the country are available on the official Hellenic Police website."
+    "means": "If you are currently traveling in Crete, pay close attention to 112 emergency alerts on your mobile phone and avoid non-essential travel in flooded areas. Check with your accommodation provider before heading out, and stay well away from swollen rivers and streams.",
+    "body": "## Severe Weather Continues Across Crete\n\nAdverse weather conditions persist on the island of Crete, bringing heavy rainfall across the regional units of Rethymno, Heraklion, and Lasithi. The Fire Department Operations Center reported a high volume of requests for assistance, with total calls surpassing 255 since the severe weather began.\n\n## Rescues and Flood Relief Operations\n\nFire and rescue units have been heavily deployed throughout the affected districts. Teams have performed multiple operations to transfer people to safe locations and pumped out accumulated water from flooded properties. In the Heraklion regional unit, the Drakouliaris River overflowed its banks near the settlements of Malades and Finikia. Local municipalities have also mobilized heavy machinery to clear debris blocking the regional road network.\n\n## Travel Restrictions and Emergency Alerts\n\nDue to the intensified weather phenomena, authorities activated the 112 emergency alert system. Residents and visitors in the municipalities of Minoa Pediadas, Agios Nikolaos, and the Malades-Finikia areas received warnings urging them to limit travel. Emergency crews remain on high alert as operations continue across the island."
   },
   "meta": {
     "itemId": "0c19f7f8cd04",
@@ -86,6 +90,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-01T11:52:51.886Z",
     "official": false,
-    "updatedFrom": "3d4a0f2b5a85"
+    "updatedFrom": "93fe44986a98"
   }
 }
