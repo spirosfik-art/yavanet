@@ -654,55 +654,57 @@
     "acfd57e0d120": 1790852596297,
     "ba2a55fa4ff6": 1790852596297,
     "29a702167c85": 1790852596297,
-    "cca0eb334574": 1790852596297
+    "cca0eb334574": 1790852596297,
+    "3d4a0f2b5a85": 1790853906815,
+    "1d5f7fd6ad1f": 1790853906815
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T11:03:04.214Z",
+      "at": "2026-10-01T11:24:49.873Z",
       "error": "HTTP 403",
-      "fails": 442
+      "fails": 443
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T11:03:06.684Z",
+      "at": "2026-10-01T11:24:52.289Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T11:03:07.327Z",
+      "at": "2026-10-01T11:24:52.903Z",
       "items": 5
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T11:03:08.020Z",
+      "at": "2026-10-01T11:24:53.564Z",
       "error": "HTTP 403",
-      "fails": 442
+      "fails": 443
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T11:03:09.098Z",
+      "at": "2026-10-01T11:24:54.471Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T11:03:09.293Z",
+      "at": "2026-10-01T11:24:54.612Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T11:03:10.555Z",
+      "at": "2026-10-01T11:24:55.561Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T11:03:11.284Z",
+      "at": "2026-10-01T11:24:56.260Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T11:03:12.264Z",
+      "at": "2026-10-01T11:24:57.043Z",
       "items": 10
     },
     "toi-greece": {
@@ -713,22 +715,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T11:03:12.736Z",
+      "at": "2026-10-01T11:24:57.495Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T11:03:13.154Z",
+      "at": "2026-10-01T11:24:57.556Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T11:03:13.272Z",
+      "at": "2026-10-01T11:24:57.728Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T11:03:13.668Z",
+      "at": "2026-10-01T11:24:57.855Z",
       "items": 7
     },
     "ynet-greece": {
@@ -738,12 +740,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T11:03:07.809Z",
+      "at": "2026-10-01T11:24:53.400Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T11:03:14.264Z",
+      "at": "2026-10-01T11:24:58.258Z",
       "items": 0
     },
     "hcg": {
@@ -754,14 +756,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T11:03:15.616Z",
+      "at": "2026-10-01T11:24:59.539Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -827,6 +829,18 @@
         "slug": "athens-epidavrou-festival-strike",
         "title": "Athens-Epidaurus Festival Strike: Workers Protest and Disruptions",
         "at": "2026-10-01T13:05:49+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Road Closures and Traffic Restrictions in Heraklion Due to Severe Weather",
+        "at": "2026-10-01T14:25:28+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "cyclades-islands-guide",
+        "title": "A Guide to the Cyclades: Exploring the Greek Archipelago",
+        "at": "2026-10-01T14:26:33+03:00",
         "section": "travel"
       }
     ],
@@ -900,14 +914,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T11:03:16.297Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-01T11:25:06.815Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Σμύρνη 1922: Έσωσε πρόσφυγες το ιαπωνικό πλοίο «Tokei Maru»; Τι λέει η Ιαπωνίδα ιστορικός ",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Τμ",
-      "· minfin | Κυριάκος Πιερρακάκης: «Ο νόμος για τις 120 δόσεις θα ψηφιστεί μέσα στον Οκτώβριο και θα εφ",
-      "· minfin | Ειδοποίηση εκδίκασης της από 21.09.2026, με αρ. κατ. 559/83/2026 ειδικής αίτησης του Ελλην"
+      "✓ naftemporiki | Ηράκλειο: Πού έχει διακοπεί η κυκλοφορία λόγω της κακοκαιρίας",
+      "· naftemporiki | Η παραγωγή φαρμάκων στο Διάστημα προσελκύει το ενδιαφέρον των επενδυτών"
     ]
   },
   "evergreenDone": [
@@ -940,9 +952,10 @@
     "public-holidays",
     "athens-metro",
     "greek-economy",
-    "greek-politics"
+    "greek-politics",
+    "greek-islands"
   ],
-  "lastEvergreen": 1790848420232,
+  "lastEvergreen": 1790853928787,
   "pushKey": "ok",
   "lastPush": 1790849153065
 }
