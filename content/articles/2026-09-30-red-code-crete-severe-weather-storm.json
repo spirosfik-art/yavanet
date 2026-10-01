@@ -2,7 +2,7 @@
   "slug": "red-code-crete-severe-weather-storm",
   "section": "breaking",
   "publishedAt": "2026-09-30T14:36:14+03:00",
-  "updatedAt": "2026-10-01T17:42:55+03:00",
+  "updatedAt": "2026-10-01T19:03:10+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/01/greece/epnikse-tin-kriti-i-kakokairia-sta-361-xiliosta-to-ypsos-vroxis-sta-anogeia/"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2169391/ischyres-vrochoptoseis-stin-kriti-pano-apo-250-kliseis-stin-pyrosvestiki/?utm_source=rss&utm_medium=rss&utm_campaign=ischyres-vrochoptoseis-stin-kriti-pano-apo-250-kliseis-stin-pyrosvestiki"
@@ -62,26 +66,26 @@
     "en": "Severe Weather"
   },
   "he": {
-    "title": "כרתים: מעל 255 קריאות למוקד החירום ועשרות פינויים עקב מזג אוויר סוער",
-    "dek": "גשמים חזקים ממשיכים לפקוד את האי כרתים ומחייבים התערבות של כוחות ההצלה. מוקד החירום טיפל במאות פניות וחלצו תושבים ממקומות מוצפים.",
+    "title": "כרתים: מעל 361 מיליเมตร גשם נמדדו באנוגיה",
+    "dek": "רשת המטאורולוגיה הלאומית מדווחת על כמויות גשמים חריגות באזורים ההרריים בכרתים, בזמן שהרשויות צופות גל נוסף של סערות לקראת סוף השבוע.",
     "tldr": [
-      "מעל 255 פניות התקבלו במוקד החירום של כיבוי האש בכרתים עקב גשמים עזים.",
-      "כוחות ההצלה ביצעו עשרות חילוצים ושאיבות מים באזורים שונים ברחבי האי.",
-      "השלטונות הוציאו התרעות חירום דרך מספר 112 המגבילות את התנועה במספר אזורים."
+      "כמויות גשם עצומות של מעל 361 מילימטרים ירדו באנוגיה שבכרתים תוך יומיים.",
+      "הגשמים החזקים התרכזו בעיקר באזורים ההרריים וההימו-הרריים באי.",
+      "גל פורה נוסף של גשמים וסערות צפוי להגיע מיום שישי בערב ועד יום ראשון."
     ],
-    "means": "אם אתם מטיילים כעת בכרתים או מתכננים להגיע לאי, שימו לב להתרעות החירום של ה-112 בטלפון הנייד שלכם והימנעו מנסיעות לא חיוניות באזורים המוצפים. מומלץ לעקוב אחר ההנחיות המקומיות, ליצור קשר עם מקום הלינה שלכם לפני כל יציאה, ולהתרחק מנחלים וממקומי מים עולים.",
-    "body": "## מזג אוויר קיצוני ממשיך להכות בכרתים\n\nמזג האוויר הסוער ממשיך להשפיע על האי כרתים, עם גשמים חזקים וסוערים המתרכזים באזורים הרתימנו, הרקליון ולסיתיוי. מרכז השליטה והבקרה של שירותי ההצלה והכיבוי בכרתים דיווח על עומס חריג בפניות לעזרה, כאשר מספר הפניות עבר את רף ה-255 קריאות מאז תחילת האירוע.\n\n## חילוצים ושאיבות מים באזורים המוצפים\n\nכוחות כיבוי האש וההצלה פועלים בכוחות מתוגברים ברחבי האי. עד כה בוצעו שורת העברות של אנשים לנקודות מבטחים ועשרות פעולות שאיבה של מים מבתים ומבנים. באזור הרקליון, נהר דרקוליאריס עלה על גדותיו והציף את הסביבה הקרובה ביישובים פויניקיה ומאלאדס. הרשויות המקומיות נרתמו למאמצים ומסייעות באמצעות כלים הנדסיים לפינוי חומרים שנסחפו וחסמו את צירי התנועה המרכזיים.\n\n## הגבלות תנועה והתרעות חירום\n\nבעקבות תנאי מזג האוויר הקשים, שירותי החירום הפיצו הודעות אזהרה באמצעות מערכת החירום 112 המחוזית. ההתרעות קראו לתושבים ולמבקרים באזורים כמו מינוס פדיאדה, איוס ניקולאוס ומאלאדס לצמצם את תנועותיהם למינימום ההכרחי עד שיפור במזג האוויר. כוחות ההצלה ממשיכים לעקוב מקרוב אחר ההתפתחויות ונמצאים בכוננות גבוהה בכל רחבי האי."
+    "means": "אם אתם מטיילים בכרתים בימים אלו, שימו לב לתנאי מזג האוויר המשתנים והימנעו מנסיעות לא חיוניות באזורים ההרריים והנחלים עקב סכנת הצפות. מומלץ לעקוב אחר ההנחיות המקומיות ולהתעדכן מול גורמי התיירות והמלונות שלכם.",
+    "body": "## כמויות גשם חריגות בכרתים\n\nמערכת מזג אוויר סוערה ממשיכה להשפיע על האי כרתים, ומביאה עמה כמויות משקעים יוצאות דופן. לפי נתוני רשת התחנות המטאורולוגיות האוטומטיות של המצפה האסטרונומי של אתונה, נמדדו כמויות אדירות של גשם בחלקים ההרריים והצפוניים של האי.\n\nהנתונים הבולטים ביותר נרשמו באנוגיה שברתימנו, שם עבר גובה המשקעים את רף ה-360 מילימטרים בתוך פרק זמן של יומיים בלבד, בין יום רביעי לצהרי יום חמישי.\n\n## תחזית למזג האוויר בימים הקרובים\n\nהמומחים מציינים כי הגשמים העזים התמקדו באופן צפוי באזורים ההרריים ולאורך החלקים הפנימיים, בעוד שבאזורים החופיים של חאניה, רתימנו והרקליון נרשמו כמויות מתונות יותר יחסית.\n\nהפוגה זמנית במזג האוויר הסוער צפויה להיכנס לתוקף החל משעות הערב של היום ועד למחרת אחר הצהריים. עם זאת, תחזיות המומחים מזהירות מפני גל חדש של גשמים חזקים וסערות רעמים שצפוי להתחיל כבר ביום שישי בערב ולהימשך עד ליום ראשון.\n\nהקרקע באזורים רבים כבר רוויה במים והנחלים זורמים בעוצמה, ולכן הרשויות ממליצות על משנה זהירות בדרכים ובאזורים המועדים להצפות."
   },
   "en": {
-    "title": "Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather",
-    "dek": "Heavy downpours continue across Crete, prompting numerous rescue operations and flood responses as emergency services handle hundreds of calls.",
+    "title": "Crete: Rainfall exceeds 361 millimeters in Anogia",
+    "dek": "The National Observatory reports exceptional rainfall amounts across mountainous regions in Crete, with a new wave of heavy storms expected ahead of the weekend.",
     "tldr": [
-      "The fire department's operations center in Crete received over 255 calls due to severe rainfall.",
-      "Rescue teams carried out dozens of water pumpings and safely transferred stranded individuals.",
-      "Authorities issued emergency alerts via 112 restricting travel in several affected municipalities."
+      "Rainfall totals surpassed 361 millimeters in Anogia over a two-day period.",
+      "The heaviest downpours concentrated mainly on the island's mountain and semi-mountainous sectors.",
+      "A fresh round of intense rain and storms is forecasted from Friday evening through Sunday."
     ],
-    "means": "If you are currently traveling in Crete, pay close attention to 112 emergency alerts on your mobile phone and avoid non-essential travel in flooded areas. Check with your accommodation provider before heading out, and stay well away from swollen rivers and streams.",
-    "body": "## Severe Weather Continues Across Crete\n\nAdverse weather conditions persist on the island of Crete, bringing heavy rainfall across the regional units of Rethymno, Heraklion, and Lasithi. The Fire Department Operations Center reported a high volume of requests for assistance, with total calls surpassing 255 since the severe weather began.\n\n## Rescues and Flood Relief Operations\n\nFire and rescue units have been heavily deployed throughout the affected districts. Teams have performed multiple operations to transfer people to safe locations and pumped out accumulated water from flooded properties. In the Heraklion regional unit, the Drakouliaris River overflowed its banks near the settlements of Malades and Finikia. Local municipalities have also mobilized heavy machinery to clear debris blocking the regional road network.\n\n## Travel Restrictions and Emergency Alerts\n\nDue to the intensified weather phenomena, authorities activated the 112 emergency alert system. Residents and visitors in the municipalities of Minoa Pediadas, Agios Nikolaos, and the Malades-Finikia areas received warnings urging them to limit travel. Emergency crews remain on high alert as operations continue across the island."
+    "means": "Travellers currently visiting Crete should monitor local weather updates closely, avoid non-essential travel in mountainous regions and near swollen streams, and check with local authorities or hotel staff for safety alerts.",
+    "body": "## Extreme Rainfall Recorded in Crete\n\nSevere weather conditions continue to impact the island of Crete, bringing unprecedented levels of precipitation to the region. Data from the automated weather station network of the National Observatory of Athens indicates exceptionally high rainfall amounts across northern and mountainous sections of the island.\n\nThe most significant totals were measured in Anogia, Rethymno, where precipitation levels exceeded 360 millimeters over a span of two days, starting Wednesday through Thursday midday.\n\n## Forecast and Upcoming Warnings\n\nMeteorological experts note that the heavy rainfall primarily affected elevated and inland areas rather than coastal zones in Chania, Rethymno, and Heraklion, which received relatively lower amounts.\n\nA temporary easing of the weather phenomena is expected from Thursday evening until Friday afternoon. However, current forecasting models indicate a new wave of strong rains and thunderstorms starting Friday evening and lasting through Sunday afternoon.\n\nWith soil saturation already high and streams carrying substantial water volumes, authorities advise increased caution across affected areas."
   },
   "meta": {
     "itemId": "0c19f7f8cd04",
@@ -90,6 +94,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-01T11:52:51.886Z",
     "official": false,
-    "updatedFrom": "93fe44986a98"
+    "updatedFrom": "24018ef04121"
   }
 }
