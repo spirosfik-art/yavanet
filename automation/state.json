@@ -618,55 +618,67 @@
     "1e7fa9c2277e": 1790841803999,
     "89955ec12cb4": 1790843291317,
     "f183802b5794": 1790843291317,
-    "b559799eeaa3": 1790843291317
+    "b559799eeaa3": 1790843291317,
+    "83dd4fc75742": 1790844150902,
+    "664a1418b2d6": 1790844150902,
+    "73dead999d01": 1790844150902,
+    "ea09195e0924": 1790844150902,
+    "b4bddfa484f0": 1790844150902,
+    "2d7cc72a148a": 1790844150902,
+    "fe3cdfc40cf5": 1790844150902,
+    "852e7cccdc8e": 1790844150902,
+    "d27e2c7741fa": 1790844150902,
+    "f586b91909d2": 1790844150902,
+    "a2f99dfaf841": 1790844150902,
+    "6ee1a4f7248e": 1790844150902
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T08:27:59.158Z",
+      "at": "2026-10-01T08:42:21.893Z",
       "error": "HTTP 403",
-      "fails": 431
+      "fails": 432
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T08:28:02.007Z",
-      "items": 10
+      "at": "2026-10-01T08:42:22.436Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T08:28:02.694Z",
-      "items": 3
+      "at": "2026-10-01T08:42:23.060Z",
+      "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T08:28:03.370Z",
+      "at": "2026-10-01T08:42:23.705Z",
       "error": "HTTP 403",
-      "fails": 431
+      "fails": 432
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T08:28:04.430Z",
+      "at": "2026-10-01T08:42:24.600Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T08:28:04.792Z",
+      "at": "2026-10-01T08:42:25.011Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T08:28:05.774Z",
+      "at": "2026-10-01T08:42:25.932Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T08:28:06.533Z",
-      "items": 2
+      "at": "2026-10-01T08:42:26.643Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T08:28:07.390Z",
+      "at": "2026-10-01T08:42:27.440Z",
       "items": 10
     },
     "toi-greece": {
@@ -677,23 +689,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T08:28:07.927Z",
+      "at": "2026-10-01T08:42:27.582Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T08:28:08.077Z",
+      "at": "2026-10-01T08:42:27.644Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T08:28:08.233Z",
+      "at": "2026-10-01T08:42:27.707Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T08:28:08.442Z",
-      "items": 4
+      "at": "2026-10-01T08:42:27.845Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -702,12 +714,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T08:28:03.243Z",
+      "at": "2026-10-01T08:42:23.541Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T08:28:09.054Z",
+      "at": "2026-10-01T08:42:28.351Z",
       "items": 0
     },
     "hcg": {
@@ -718,14 +730,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T08:28:10.521Z",
+      "at": "2026-10-01T08:42:29.818Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -762,6 +774,18 @@
         "title": "The Economy of Greece: A Short Guide for Israeli Investors",
         "at": "2026-10-01T11:03:38+03:00",
         "section": "politics"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: New 112 Emergency Alert Issued for Heraklion Amid Severe Weather",
+        "at": "2026-10-01T11:42:44+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "ita-airways-third-daily-rome-tel-aviv-flight",
+        "title": "ITA Airways to Resume Third Daily Rome-Tel Aviv Flight in October",
+        "at": "2026-10-01T11:42:58+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -829,13 +853,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T08:28:11.317Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-01T08:42:30.902Z",
+    "considered": 12,
+    "picked": 2,
     "items": [
-      "· ert | Γάζα: Το Google Earth δείχνει τη Γάζα σε ερείπια, τρία χρόνια μετά τις επιθέσεις του Ισραή",
-      "· naftemporiki | Άγνωστος φτερωτός δεινόσαυρος φωτίζει την εξέλιξη του μηχανισμού πτήσης",
-      "· gtp | European Airport Traffic Strengthens in Summer, Athens Up 3.7% in August"
+      "· migration | 08.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 07.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 06.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 05.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· ert | Πυρά Νετανιάχου στο Ηνωμένο Βασίλειο: Αγνόησαν προειδοποίηση ότι το Ιράν σχεδίαζε επίθεση",
+      "✓ naftemporiki | Στη δίνη της κακοκαιρίας το Ηράκλειο: Νέο μήνυμα από το 112 για τις περιοχές Μαλάδες και Φ",
+      "· gtp | IATA: Global Air Travel Demand Falls in August While Europe Maintains Growth",
+      "· gtp | Greece, Bulgaria Sign Memorandum on Return of Historic Relics",
+      "· gtp | Attica Region Allocates €2.83 Million for New Cultural Venue in Alimos",
+      "· gtp | Alonissos Gains Tourism Exposure During Baku Formula 1 Grand Prix",
+      "· gtp | Ancient Rhino Skull Unearthed in Crete’s Sitia Geopark",
+      "✓ gtp | ITA Airways to Resume Third Daily Rome-Tel Aviv Flight in October"
     ]
   },
   "evergreenDone": [
