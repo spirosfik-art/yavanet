@@ -614,55 +614,56 @@
     "1112b253f223": 1790839664735,
     "28d9dba25153": 1790839664735,
     "6810739a1915": 1790839664735,
-    "0c73466cbe74": 1790840463232
+    "0c73466cbe74": 1790840463232,
+    "1e7fa9c2277e": 1790841803999
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T07:52:12.994Z",
+      "at": "2026-10-01T08:03:15.124Z",
       "error": "HTTP 403",
-      "fails": 429
+      "fails": 430
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T07:52:15.092Z",
-      "items": 10
+      "at": "2026-10-01T08:03:15.684Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T07:52:15.696Z",
+      "at": "2026-10-01T08:03:16.303Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T07:52:16.378Z",
+      "at": "2026-10-01T08:03:16.792Z",
       "error": "HTTP 403",
-      "fails": 429
+      "fails": 430
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T07:52:17.300Z",
+      "at": "2026-10-01T08:03:17.539Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T07:52:17.711Z",
+      "at": "2026-10-01T08:03:17.724Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T07:52:18.620Z",
+      "at": "2026-10-01T08:03:18.625Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T07:52:19.327Z",
-      "items": 0
+      "at": "2026-10-01T08:03:19.326Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T07:52:20.109Z",
+      "at": "2026-10-01T08:03:19.788Z",
       "items": 10
     },
     "toi-greece": {
@@ -673,22 +674,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T07:52:20.473Z",
+      "at": "2026-10-01T08:03:20.204Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T07:52:20.582Z",
+      "at": "2026-10-01T08:03:20.605Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T07:52:21.034Z",
+      "at": "2026-10-01T08:03:20.800Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T07:52:21.363Z",
+      "at": "2026-10-01T08:03:20.933Z",
       "items": 4
     },
     "ynet-greece": {
@@ -698,12 +699,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T07:52:16.171Z",
+      "at": "2026-10-01T08:03:16.590Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T07:52:21.946Z",
+      "at": "2026-10-01T08:03:21.462Z",
       "items": 0
     },
     "hcg": {
@@ -714,14 +715,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T07:52:23.152Z",
+      "at": "2026-10-01T08:03:22.671Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -752,6 +753,12 @@
         "title": "↻ Crete: Emergency 112 Alert Issued for Minoa Pediadas Due to Severe Weather",
         "at": "2026-10-01T10:08:06+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "economy-of-greece-guide-for-israeli-investors",
+        "title": "The Economy of Greece: A Short Guide for Israeli Investors",
+        "at": "2026-10-01T11:03:38+03:00",
+        "section": "politics"
       }
     ],
     "rejected": [
@@ -779,6 +786,11 @@
         "title": "Στο έλεος της κακοκαιρίας η Κρήτη: Μπαράζ μηνυμάτων από το 112 – Υποχώρησε γέφυρα παρασύροντας Ι.Χ., στο νοσοκομείο οι 2 επιβαίνοντες",
         "reason": "Ίδιο θέμα με «Crete: Emergency 112 Alert Issued for Minoa Pediadas Due to Severe Weather» – δεν γράφτηκε ξανά",
         "at": "2026-10-01T07:41:07.569Z"
+      },
+      {
+        "title": "FlyDubai: Αγνώστου ταυτότητας παραμένει ο συλληφθείς συγκυβερνήτης – Γρίφος για Σαουδική Αραβία και Ηνωμένα Αραβικά Εμιράτα",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-10-01T08:03:27.797Z"
       }
     ],
     "errors": [
@@ -814,11 +826,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T07:41:03.232Z",
+    "at": "2026-10-01T08:03:23.999Z",
     "considered": 1,
     "picked": 1,
     "items": [
-      "✓ naftemporiki | Στο έλεος της κακοκαιρίας η Κρήτη: Μπαράζ μηνυμάτων από το 112 – Υποχώρησε γέφυρα παρασύρο"
+      "✓ ert | FlyDubai: Αγνώστου ταυτότητας παραμένει ο συλληφθείς συγκυβερνήτης – Γρίφος για Σαουδική Α"
     ]
   },
   "evergreenDone": [
@@ -849,9 +861,10 @@
     "healthcare-greece",
     "education-greece",
     "public-holidays",
-    "athens-metro"
+    "athens-metro",
+    "greek-economy"
   ],
-  "lastEvergreen": 1790837837826,
+  "lastEvergreen": 1790841807802,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
