@@ -696,55 +696,57 @@
     "b6130a875896": 1790869191066,
     "c3cbeb69b984": 1790869191066,
     "24018ef04121": 1790870574989,
-    "ec152900866e": 1790873497836
+    "ec152900866e": 1790873497836,
+    "d4decd06598a": 1790874247992,
+    "78df88129928": 1790874247992
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T16:51:24.814Z",
+      "at": "2026-10-01T17:03:58.488Z",
       "error": "HTTP 403",
-      "fails": 464
+      "fails": 465
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T16:51:27.028Z",
-      "items": 10
+      "at": "2026-10-01T17:03:59.029Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T16:51:27.718Z",
+      "at": "2026-10-01T17:03:59.653Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T16:51:28.611Z",
+      "at": "2026-10-01T17:04:00.356Z",
       "error": "HTTP 403",
-      "fails": 464
+      "fails": 465
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T16:51:29.752Z",
+      "at": "2026-10-01T17:04:01.644Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T16:51:29.948Z",
+      "at": "2026-10-01T17:04:01.980Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T16:51:30.972Z",
+      "at": "2026-10-01T17:04:02.787Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T16:51:31.656Z",
-      "items": 4
+      "at": "2026-10-01T17:04:03.459Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T16:51:32.610Z",
+      "at": "2026-10-01T17:04:04.259Z",
       "items": 10
     },
     "toi-greece": {
@@ -755,22 +757,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T16:51:33.154Z",
+      "at": "2026-10-01T17:04:04.748Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T16:51:33.552Z",
+      "at": "2026-10-01T17:04:04.883Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T16:51:34.425Z",
+      "at": "2026-10-01T17:04:05.684Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T16:51:34.832Z",
+      "at": "2026-10-01T17:04:05.829Z",
       "items": 3
     },
     "ynet-greece": {
@@ -780,12 +782,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T16:51:28.369Z",
+      "at": "2026-10-01T17:04:00.161Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T16:51:35.380Z",
+      "at": "2026-10-01T17:04:06.265Z",
       "items": 0
     },
     "hcg": {
@@ -796,14 +798,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T16:51:37.001Z",
+      "at": "2026-10-01T17:04:07.405Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -930,6 +932,12 @@
         "title": "↻ Crete and Dodecanese: Extended Storms and Agricultural Damage",
         "at": "2026-10-01T19:51:53+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "ionian-islands-guide-greece",
+        "title": "The Ionian Islands in Greece: A Complete Guide to the Green Archipelago",
+        "at": "2026-10-01T20:04:24+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1023,11 +1031,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T16:51:37.836Z",
-    "considered": 1,
-    "picked": 1,
+    "at": "2026-10-01T17:04:07.992Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "✓ ingr | Κακοκαιρία διαρκείας σε Κρήτη και Δωδεκάνησα – Σε απόγνωση οι αγρότες στο Λασίθι"
+      "· ert | Γαλλία: Εξαπλώνονται οι διαμαρτυρίες στα σχολεία – Η κυβέρνηση κατηγορεί την Ανυπότακτη Γα",
+      "· ert | Ζάκυνθος: Θάνατος επιβάτη σκάφους στο Λαγανά — Σύλληψη μεθυσμένου οδηγού στο λιμάνι"
     ]
   },
   "evergreenDone": [
@@ -1062,9 +1071,10 @@
     "greek-economy",
     "greek-politics",
     "greek-islands",
-    "dodecanese"
+    "dodecanese",
+    "ionian-islands"
   ],
-  "lastEvergreen": 1790868427726,
+  "lastEvergreen": 1790874248000,
   "pushKey": "ok",
   "lastPush": 1790849153065
 }
