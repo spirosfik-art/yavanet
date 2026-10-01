@@ -713,55 +713,57 @@
     "67361838d37f": 1790883401032,
     "922889351874": 1790886360005,
     "c95506638281": 1790887185467,
-    "a8f38be8fed8": 1790887185467
+    "a8f38be8fed8": 1790887185467,
+    "ac1d600af74e": 1790887891787,
+    "9bdad229cb3e": 1790887891787
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T20:39:35.847Z",
+      "at": "2026-10-01T20:51:19.623Z",
       "error": "HTTP 403",
-      "fails": 478
+      "fails": 479
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T20:39:37.966Z",
+      "at": "2026-10-01T20:51:22.176Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T20:39:38.543Z",
+      "at": "2026-10-01T20:51:22.801Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T20:39:38.926Z",
+      "at": "2026-10-01T20:51:23.496Z",
       "error": "HTTP 403",
-      "fails": 478
+      "fails": 479
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T20:39:39.930Z",
+      "at": "2026-10-01T20:51:24.428Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T20:39:40.299Z",
+      "at": "2026-10-01T20:51:24.810Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T20:39:41.209Z",
+      "at": "2026-10-01T20:51:25.721Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T20:39:41.745Z",
+      "at": "2026-10-01T20:51:27.443Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T20:39:42.556Z",
+      "at": "2026-10-01T20:51:28.173Z",
       "items": 10
     },
     "toi-greece": {
@@ -772,22 +774,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T20:39:42.754Z",
+      "at": "2026-10-01T20:51:28.640Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T20:39:42.827Z",
+      "at": "2026-10-01T20:51:28.709Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T20:39:43.118Z",
+      "at": "2026-10-01T20:51:29.311Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T20:39:43.290Z",
+      "at": "2026-10-01T20:51:29.456Z",
       "items": 5
     },
     "ynet-greece": {
@@ -797,12 +799,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T20:39:38.719Z",
+      "at": "2026-10-01T20:51:23.307Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T20:39:43.711Z",
+      "at": "2026-10-01T20:51:29.983Z",
       "items": 0
     },
     "hcg": {
@@ -813,7 +815,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T20:39:44.786Z",
+      "at": "2026-10-01T20:51:30.960Z",
       "items": 2
     }
   },
@@ -959,6 +961,12 @@
         "title": "Fuel Prices in Greece: Subsidy Increase and Pump Updates",
         "at": "2026-10-01T20:27:25+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete Hit by Severe Storms and Record Rainfall",
+        "at": "2026-10-01T23:51:47+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1066,12 +1074,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T20:39:45.467Z",
+    "at": "2026-10-01T20:51:31.787Z",
     "considered": 2,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Νέα απειλή Τραμπ στην Τεχεράνη: Προειδοποιεί με «κόλαση» αν προκύψει εμπλοκή της στην πτήσ",
-      "· gct | Turkish media float proposal for artificial islands in Aegean"
+      "✓ ingr | Κρήτη: Δοκιμάζεται από την κακοκαιρία – Σε μία ημέρα έβρεξε όσο σε έναν χρόνο στην Αθήνα",
+      "· gct | FROM THE STREETS OF NEW YORK TO PAPHOS CASTLE: JOANNA SOPHIA FOUNDATION FUN RUN/WALK 2026"
     ]
   },
   "evergreenDone": [
