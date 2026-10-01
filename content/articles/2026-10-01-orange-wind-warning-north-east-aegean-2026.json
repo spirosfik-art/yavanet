@@ -1,0 +1,80 @@
+{
+  "slug": "orange-wind-warning-north-east-aegean-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-01T15:32:54+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 39,
+    "lng": 26
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR014"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1455917/pexels-photo-1455917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Captivating view of turbulent waves against a historic fort in Iraklio, Greece under dramatic clouds.",
+    "credit": "Photo: GEORGE DESIPRIS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/raging-water-1455917/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת מזג אוויר",
+    "en": "Weather Warning"
+  },
+  "he": {
+    "title": "אזהרת רוחות חמורה: כתום בצפון-מזרח הים האגאי",
+    "seoTitle": "אזהרת מזג אוויר ביוון: רוחות חזקות באיים",
+    "seoDesc": "השירות המטאורולוגי הוציא אזהרת רוחות ברמה כתומה לאיים הצפון-מזרחיים בים האגאי. בדקו עדכונים טרם הנסיעה.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "אזהרת מזג אוויר",
+      "איי הים האגאי",
+      "רוחות חזקות ביוון",
+      "יוון עדכונים"
+    ],
+    "dek": "רשויות החיזוי ביוון פרסמו אזהרת רוחות ברמה כתומה לאזור איי הים האגאי הצפון-מזרחי.",
+    "tldr": [
+      "הוצאה אזהרת רוחות ברמה כתומה באזור צפון-מזרח הים האגאי.",
+      "התראה רשמית מטעם השירות המטאורולוגי וגופי החירום.",
+      "הציבור מתבקש לעקוב אחר ההנחיות המקומיות."
+    ],
+    "means": "אם אתם מתכננים ביקור באיים הצפון-מזרחיים בים האגאי או שוהים שם כרגע, תצטרכו לעקוב מקרוב אחר דיווחי מזג האוויר המקומיים. מומלץ לבדוק מראש עם חברות התעופה וחברות ההפלגה האם צפויים שינויים או עיכובים בלוחות הזמנים, ולהישמע להנחיות כוחות הביטחון והחירום באזור.",
+    "body": "## אזהרת מזג אוויר באיים האגאיים\n\nהשירות המטאורולוגי ביוון וגופי החירום הרשמיים עדכנו על מתן אזהרת רוחות ברמה כתומה, המעידה על תנאי מזג אוויר מאתגרים העלולים להשפיע על שגרת היומיום באזור צפון-מזרח הים האגאי.\n\n## השפעה אפשרית על התחבורה\n\nמזג אוויר סוער ורוחות עזות עשויים לגרום לשיבושים בפעילות הימית, לרבות עיכובים או ביטולים של קווי מעבורות סדירים אל האיים וממם. מומלץ לנוסעים השוהים ביעדים אלו או מתכננים להגיע לשם בקרוב לוודא את סטטוס ההפלגות והטיסות מול הספקים לפני היציאה לדרך.\n\n## הנחיות בטיחות לתושבים ולתיירים\n\nהרשויות ממליצות לכלל השוהים באזור לנקוט משנה זהירות, להימנע מפעילות לא חיונית בקרבת חופי הים בזמן רוחות חזקות, ולהתעדכן באופן שוטף דרך אמצעי התקשורת המקומיים והודעות החירום הרשמיות."
+  },
+  "en": {
+    "title": "Orange Wind Warning Issued for North East Aegean Islands",
+    "seoTitle": "Greece Weather: Orange Wind Warning Issued",
+    "seoDesc": "Authorities issued an orange wind warning for the North East Aegean islands in Greece. Check local updates before traveling.",
+    "keywords": [
+      "greece weather warning",
+      "aegean islands wind",
+      "greece storm alert",
+      "meteoalarm greece",
+      "greece travel safety"
+    ],
+    "dek": "Meteorological authorities in Greece have issued an orange wind warning for the North East Aegean islands.",
+    "tldr": [
+      "An orange wind warning is active for the North East Aegean islands.",
+      "The alert was issued by official meteorological services.",
+      "Visitors and residents are advised to monitor local safety updates."
+    ],
+    "means": "If you are currently visiting or planning a trip to the North East Aegean islands, you should monitor local weather forecasts closely. Check with your airline or ferry operator for any schedule changes or delays, and follow all safety instructions issued by local emergency authorities.",
+    "body": "## Weather Warning in the Aegean\n\nGreek meteorological authorities have raised an orange wind warning, indicating potentially hazardous weather conditions across the North East Aegean islands.\n\n## Potential Transport Disruptions\n\nStrong winds and severe gusts can impact maritime transport, leading to possible delays or cancellations of ferry services connecting the islands. Travelers heading to the region should verify their itinerary status with transport providers prior to departure.\n\n## Safety Recommendations\n\nAuthorities advise everyone in the affected areas to exercise caution, avoid unnecessary coastal activities during peak wind hours, and stay updated through official channels and local news reports."
+  },
+  "meta": {
+    "itemId": "9bf1ffd9c0e7",
+    "imageQuery": "strong wind storm greece aegean",
+    "sourceHash": "678ad1e91161",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-01T12:32:54.687Z",
+    "official": true
+  }
+}
