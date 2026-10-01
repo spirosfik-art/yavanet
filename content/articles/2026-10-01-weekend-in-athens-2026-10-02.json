@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7081216/pexels-photo-7081216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant outdoor concert scene with a lively crowd in Budapest during dusk.",
+    "credit": "Photo: Bence Szemerey / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-footage-of-live-concert-7081216/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -67,6 +72,7 @@
     "itemId": "weekend-2026-10-02",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-10-01T16:31:06+03:00"
+    "checkedAt": "2026-10-01T16:31:06+03:00",
+    "photoTried": true
   }
 }
