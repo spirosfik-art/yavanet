@@ -630,55 +630,57 @@
     "d27e2c7741fa": 1790844150902,
     "f586b91909d2": 1790844150902,
     "a2f99dfaf841": 1790844150902,
-    "6ee1a4f7248e": 1790844150902
+    "6ee1a4f7248e": 1790844150902,
+    "bdd147c0ee17": 1790844882593,
+    "293fe7d49f18": 1790844882593
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T08:42:21.893Z",
+      "at": "2026-10-01T08:54:31.223Z",
       "error": "HTTP 403",
-      "fails": 432
+      "fails": 433
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T08:42:22.436Z",
-      "items": 0
+      "at": "2026-10-01T08:54:33.805Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T08:42:23.060Z",
-      "items": 4
+      "at": "2026-10-01T08:54:34.716Z",
+      "items": 5
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T08:42:23.705Z",
+      "at": "2026-10-01T08:54:35.154Z",
       "error": "HTTP 403",
-      "fails": 432
+      "fails": 433
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T08:42:24.600Z",
+      "at": "2026-10-01T08:54:36.039Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T08:42:25.011Z",
+      "at": "2026-10-01T08:54:36.366Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T08:42:25.932Z",
+      "at": "2026-10-01T08:54:37.252Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T08:42:26.643Z",
+      "at": "2026-10-01T08:54:37.893Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T08:42:27.440Z",
+      "at": "2026-10-01T08:54:38.679Z",
       "items": 10
     },
     "toi-greece": {
@@ -689,22 +691,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T08:42:27.582Z",
+      "at": "2026-10-01T08:54:39.060Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T08:42:27.644Z",
+      "at": "2026-10-01T08:54:39.335Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T08:42:27.707Z",
-      "items": 3
+      "at": "2026-10-01T08:54:39.700Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T08:42:27.845Z",
+      "at": "2026-10-01T08:54:39.833Z",
       "items": 5
     },
     "ynet-greece": {
@@ -714,12 +716,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T08:42:23.541Z",
+      "at": "2026-10-01T08:54:34.987Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T08:42:28.351Z",
+      "at": "2026-10-01T08:54:40.335Z",
       "items": 0
     },
     "hcg": {
@@ -730,7 +732,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T08:42:29.818Z",
+      "at": "2026-10-01T08:54:41.559Z",
       "items": 2
     }
   },
@@ -786,6 +788,12 @@
         "title": "ITA Airways to Resume Third Daily Rome-Tel Aviv Flight in October",
         "at": "2026-10-01T11:42:58+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Ferry with 777 Passengers Stuck in Heraklion Port Due to Weather",
+        "at": "2026-10-01T11:55:07+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -853,22 +861,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T08:42:30.902Z",
-    "considered": 12,
+    "at": "2026-10-01T08:54:42.593Z",
+    "considered": 3,
     "picked": 2,
     "items": [
-      "· migration | 08.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 07.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 06.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 05.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· ert | Πυρά Νετανιάχου στο Ηνωμένο Βασίλειο: Αγνόησαν προειδοποίηση ότι το Ιράν σχεδίαζε επίθεση",
-      "✓ naftemporiki | Στη δίνη της κακοκαιρίας το Ηράκλειο: Νέο μήνυμα από το 112 για τις περιοχές Μαλάδες και Φ",
-      "· gtp | IATA: Global Air Travel Demand Falls in August While Europe Maintains Growth",
-      "· gtp | Greece, Bulgaria Sign Memorandum on Return of Historic Relics",
-      "· gtp | Attica Region Allocates €2.83 Million for New Cultural Venue in Alimos",
-      "· gtp | Alonissos Gains Tourism Exposure During Baku Formula 1 Grand Prix",
-      "· gtp | Ancient Rhino Skull Unearthed in Crete’s Sitia Geopark",
-      "✓ gtp | ITA Airways to Resume Third Daily Rome-Tel Aviv Flight in October"
+      "✓ naftemporiki | Σφυροκοπά την Κρήτη η κακοκαιρία: «Ποτάμια» λάσπης, απεγκλωβισμοί και μπαράζ μηνυμάτων από",
+      "✓ ingr | Ηράκλειο: Καθηλωμένο πλοίο με 777 επιβάτες στο λιμάνι λόγω κακοκαιρίας",
+      "· migration | 09.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο"
     ]
   },
   "evergreenDone": [
