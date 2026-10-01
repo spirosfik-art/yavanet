@@ -715,55 +715,56 @@
     "c95506638281": 1790887185467,
     "a8f38be8fed8": 1790887185467,
     "ac1d600af74e": 1790887891787,
-    "9bdad229cb3e": 1790887891787
+    "9bdad229cb3e": 1790887891787,
+    "9a10d46fa231": 1790888482751
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T20:51:19.623Z",
+      "at": "2026-10-01T21:01:09.730Z",
       "error": "HTTP 403",
-      "fails": 479
+      "fails": 480
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T20:51:22.176Z",
+      "at": "2026-10-01T21:01:12.373Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T20:51:22.801Z",
+      "at": "2026-10-01T21:01:13.160Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T20:51:23.496Z",
+      "at": "2026-10-01T21:01:13.780Z",
       "error": "HTTP 403",
-      "fails": 479
+      "fails": 480
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T20:51:24.428Z",
+      "at": "2026-10-01T21:01:15.244Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T20:51:24.810Z",
+      "at": "2026-10-01T21:01:15.599Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T20:51:25.721Z",
+      "at": "2026-10-01T21:01:16.739Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T20:51:27.443Z",
+      "at": "2026-10-01T21:01:17.534Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T20:51:28.173Z",
+      "at": "2026-10-01T21:01:18.397Z",
       "items": 10
     },
     "toi-greece": {
@@ -774,22 +775,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T20:51:28.640Z",
+      "at": "2026-10-01T21:01:18.956Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T20:51:28.709Z",
+      "at": "2026-10-01T21:01:19.044Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T20:51:29.311Z",
+      "at": "2026-10-01T21:01:19.604Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T20:51:29.456Z",
+      "at": "2026-10-01T21:01:19.807Z",
       "items": 5
     },
     "ynet-greece": {
@@ -799,12 +800,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T20:51:23.307Z",
+      "at": "2026-10-01T21:01:13.736Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T20:51:29.983Z",
+      "at": "2026-10-01T21:01:20.497Z",
       "items": 0
     },
     "hcg": {
@@ -815,237 +816,24 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T20:51:30.960Z",
+      "at": "2026-10-01T21:01:21.999Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-01",
-    "count": 11,
-    "published": [
-      {
-        "slug": "crete-travel-guide-regions-sights",
-        "title": "↻ Crete: Cruise Ship Makes Emergency Stop Due to Weather",
-        "at": "2026-10-01T02:01:48+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "public-holidays-in-greece-guide",
-        "title": "Public holidays in Greece: when shops and offices close",
-        "at": "2026-10-01T08:02:51+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete Faces Severe Flooding, Red Code Alert Issued",
-        "at": "2026-10-01T09:57:17+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-metro-guide-lines-tickets-airport",
-        "title": "Athens Metro Guide: Lines, Tickets and Airport Connections",
-        "at": "2026-10-01T09:57:28+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Emergency 112 Alert Issued for Minoa Pediadas Due to Severe Weather",
-        "at": "2026-10-01T10:08:06+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "economy-of-greece-guide-for-israeli-investors",
-        "title": "The Economy of Greece: A Short Guide for Israeli Investors",
-        "at": "2026-10-01T11:03:38+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: New 112 Emergency Alert Issued for Heraklion Amid Severe Weather",
-        "at": "2026-10-01T11:42:44+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "ita-airways-third-daily-rome-tel-aviv-flight",
-        "title": "ITA Airways to Resume Third Daily Rome-Tel Aviv Flight in October",
-        "at": "2026-10-01T11:42:58+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Ferry with 777 Passengers Stuck in Heraklion Port Due to Weather",
-        "at": "2026-10-01T11:55:07+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "how-greek-politics-works-guide",
-        "title": "How Greek Politics Works: Parliament, Government, and Elections Explained",
-        "at": "2026-10-01T12:54:02+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "athens-epidavrou-festival-strike",
-        "title": "Athens-Epidaurus Festival Strike: Workers Protest and Disruptions",
-        "at": "2026-10-01T13:05:49+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Road Closures and Traffic Restrictions in Heraklion Due to Severe Weather",
-        "at": "2026-10-01T14:25:28+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "cyclades-islands-guide",
-        "title": "A Guide to the Cyclades: Exploring the Greek Archipelago",
-        "at": "2026-10-01T14:26:33+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "orange-wind-warning-north-east-aegean-2026",
-        "title": "Orange Wind Warning Issued for North East Aegean Islands",
-        "at": "2026-10-01T15:32:54+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "pasok-calls-to-abolish-golden-visa",
-        "title": "Calls in Greece to Abolish Golden Visa and Shift Focus",
-        "at": "2026-10-01T15:34:49+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather",
-        "at": "2026-10-01T17:42:55+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-israel-relations-overview",
-        "title": "↻ Greece, Cyprus and Israel electricity interconnector moves forward",
-        "at": "2026-10-01T18:27:07+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "dodecanese-islands-guide-greece",
-        "title": "The Dodecanese Islands in Greece: A Guide to the Southern Archipelago",
-        "at": "2026-10-01T18:27:17+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "22-greek-airports-concession-tender-2026",
-        "title": "Three Investment Groups Enter Race for 22 Greek Airports",
-        "at": "2026-10-01T19:02:41+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Rainfall exceeds 361 millimeters in Anogia",
-        "at": "2026-10-01T19:03:10+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete and Dodecanese: Extended Storms and Agricultural Damage",
-        "at": "2026-10-01T19:51:53+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "ionian-islands-guide-greece",
-        "title": "The Ionian Islands in Greece: A Complete Guide to the Green Archipelago",
-        "at": "2026-10-01T20:04:24+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fuel-prices-subsidy-greece-october",
-        "title": "Fuel Prices in Greece: Subsidy Increase and Pump Updates",
-        "at": "2026-10-01T20:27:25+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete Hit by Severe Storms and Record Rainfall",
-        "at": "2026-10-01T23:51:47+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Israeli Ambassador To Greece Responds to Flydubai Incident",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-09-30T21:52:33.447Z"
-      },
-      {
-        "title": "Πτήση FlyDubai: Συγκλονίζουν οι μαρτυρίες των επιβατών που ακινητοποίησαν τον συγκυβερνήτη – Πώς αποτράπηκε η τραγωδία",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T01:25:31.144Z"
-      },
-      {
-        "title": "Νετανιάχου για Flydubai: Πολύ νωρίς για να πούμε ποιος βρίσκεται από πίσω",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T01:51:07.907Z"
-      },
-      {
-        "title": "FlyDubai: Στη δημοσιότητα τα στοιχεία του πιλότου που έσωσε 174 ζωές – «Ήρωας» λένε Ισραήλ και Ινδία",
-        "reason": "Rule 8 & 1 violation: The article and SEO tags mention flights to Greece ('טיסות ליוון'), but the source text is about a Flydubai flight from an unspecified origin to Tabuk, Saudi Arabia. Greece is nowhere mentioned in the source.",
-        "at": "2026-10-01T05:53:22.880Z"
-      },
-      {
-        "title": "Στο έλεος της κακοκαιρίας η Κρήτη: Μπαράζ μηνυμάτων από το 112 – Υποχώρησε γέφυρα παρασύροντας Ι.Χ., στο νοσοκομείο οι 2 επιβαίνοντες",
-        "reason": "Ίδιο θέμα με «Crete: Emergency 112 Alert Issued for Minoa Pediadas Due to Severe Weather» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T07:41:07.569Z"
-      },
-      {
-        "title": "FlyDubai: Αγνώστου ταυτότητας παραμένει ο συλληφθείς συγκυβερνήτης – Γρίφος για Σαουδική Αραβία και Ηνωμένα Αραβικά Εμιράτα",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T08:03:27.797Z"
-      },
-      {
-        "title": "Σφυροκοπά την Κρήτη η κακοκαιρία: «Ποτάμια» λάσπης, απεγκλωβισμοί και μπαράζ μηνυμάτων από το 112",
-        "reason": "Ίδιο θέμα με «Crete: Ferry with 777 Passengers Stuck in Heraklion Port Due to Weather» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T09:27:18.786Z"
-      },
-      {
-        "title": "Eurostat: Ενοίκια και κατοικίες συνέχισαν να γίνονται ακριβότερα το α΄ τρίμηνο 2026",
-        "reason": "Ίδιο θέμα με «Student Housing Rent Prices in Greece: Where It Is Most Expensive and Cheapest» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T12:33:13.107Z"
-      },
-      {
-        "title": "FlyDubai: Υπό «ισλαμιστική ριζοσπαστική κατήχηση» ο συλληφθείς δήλωσε ο Νετανιάχου – Αναστέλλει η Emirates τις πτήσεις προς Τελ Αβίβ",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T13:57:42.797Z"
-      },
-      {
-        "title": "Στο έλεος της κακοκαιρίας η Κρήτη – Σοβαρά προβλήματα από το ύψος της βροχής – Ένας νεκρός, τεράστιες καταστροφές",
-        "reason": "Ίδιο θέμα με «Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T14:55:13.564Z"
-      },
-      {
-        "title": "Rainstorm sweeps across Crete: One dead, floods, infrastructure damages (videos)",
-        "reason": "Ίδιο θέμα με «Crete and Dodecanese: Extended Storms and Agricultural Damage» – δεν γράφτηκε ξανά",
-        "at": "2026-10-01T17:52:57.147Z"
-      },
-      {
-        "title": "Peloponnese",
-        "reason": "Οδηγός: Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-        "at": "2026-10-01T18:30:47.230Z"
-      }
-    ],
-    "errors": [
-      "Gemini API: {\"error\":{\"code\":400,\"message\":\"User location is not supported for the API use.\",\"status\":\"FAILED_PRECONDITION\"}}"
-    ],
-    "fb": [
-      {
-        "slug": "dodecanese-islands-guide-greece",
-        "at": "2026-10-01T15:27:18.324Z"
-      },
-      {
-        "slug": "fuel-prices-subsidy-greece-october",
-        "at": "2026-10-01T17:27:26.315Z"
-      }
-    ]
+    "date": "2026-10-02",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-01",
+      "count": 11,
+      "rejected": 12
+    },
     {
       "date": "2026-09-30",
       "count": 14,
@@ -1074,12 +862,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T20:51:31.787Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-10-01T21:01:22.751Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "✓ ingr | Κρήτη: Δοκιμάζεται από την κακοκαιρία – Σε μία ημέρα έβρεξε όσο σε έναν χρόνο στην Αθήνα",
-      "· gct | FROM THE STREETS OF NEW YORK TO PAPHOS CASTLE: JOANNA SOPHIA FOUNDATION FUN RUN/WALK 2026"
+      "· gct | Greece 2-2 Netherlands: National Team surrender two-goal lead but remain unbeaten and top"
     ]
   },
   "evergreenDone": [
