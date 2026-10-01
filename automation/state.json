@@ -700,55 +700,56 @@
     "d4decd06598a": 1790874247992,
     "78df88129928": 1790874247992,
     "fba93bdea250": 1790875536533,
-    "9be65b2b7ad5": 1790875536533
+    "9be65b2b7ad5": 1790875536533,
+    "f25b8f461628": 1790877172855
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T17:37:19.113Z",
+      "at": "2026-10-01T17:52:40.636Z",
       "error": "HTTP 403",
-      "fails": 467
+      "fails": 468
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T17:37:21.704Z",
-      "items": 10
+      "at": "2026-10-01T17:52:41.319Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T17:37:22.375Z",
+      "at": "2026-10-01T17:52:42.102Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T17:37:23.357Z",
+      "at": "2026-10-01T17:52:42.930Z",
       "error": "HTTP 403",
-      "fails": 467
+      "fails": 468
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T17:37:25.298Z",
+      "at": "2026-10-01T17:52:44.419Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T17:37:25.668Z",
+      "at": "2026-10-01T17:52:44.779Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T17:37:26.894Z",
+      "at": "2026-10-01T17:52:45.927Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T17:37:27.633Z",
+      "at": "2026-10-01T17:52:46.749Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T17:37:28.544Z",
+      "at": "2026-10-01T17:52:47.711Z",
       "items": 10
     },
     "toi-greece": {
@@ -759,22 +760,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T17:37:29.010Z",
+      "at": "2026-10-01T17:52:48.956Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T17:37:29.296Z",
+      "at": "2026-10-01T17:52:49.033Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T17:37:29.893Z",
-      "items": 8
+      "at": "2026-10-01T17:52:49.785Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T17:37:30.046Z",
+      "at": "2026-10-01T17:52:49.985Z",
       "items": 1
     },
     "ynet-greece": {
@@ -784,12 +785,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T17:37:23.143Z",
+      "at": "2026-10-01T17:52:42.824Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T17:37:30.547Z",
+      "at": "2026-10-01T17:52:50.626Z",
       "items": 0
     },
     "hcg": {
@@ -800,7 +801,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T17:37:31.909Z",
+      "at": "2026-10-01T17:52:51.964Z",
       "items": 2
     }
   },
@@ -998,6 +999,11 @@
         "title": "Στο έλεος της κακοκαιρίας η Κρήτη – Σοβαρά προβλήματα από το ύψος της βροχής – Ένας νεκρός, τεράστιες καταστροφές",
         "reason": "Ίδιο θέμα με «Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather» – δεν γράφτηκε ξανά",
         "at": "2026-10-01T14:55:13.564Z"
+      },
+      {
+        "title": "Rainstorm sweeps across Crete: One dead, floods, infrastructure damages (videos)",
+        "reason": "Ίδιο θέμα με «Crete and Dodecanese: Extended Storms and Agricultural Damage» – δεν γράφτηκε ξανά",
+        "at": "2026-10-01T17:52:57.147Z"
       }
     ],
     "errors": [
@@ -1043,12 +1049,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T17:25:36.533Z",
-    "considered": 2,
+    "at": "2026-10-01T17:52:52.855Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "✓ ert | Θεσσαλονίκη: «Φωτιά» στις τσέπες των οδηγών τα καύσιμα",
-      "· gct | Virgin Mary of Gorgio Honoured on October 1 as Faithful Seek Her Blessings and Protection"
+      "✓ ktg | Rainstorm sweeps across Crete: One dead, floods, infrastructure damages (videos)"
     ]
   },
   "evergreenDone": [
