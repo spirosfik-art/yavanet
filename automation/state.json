@@ -601,49 +601,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T04:40:04.898Z",
+      "at": "2026-10-01T04:53:19.908Z",
       "error": "HTTP 403",
-      "fails": 417
+      "fails": 418
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T04:40:08.633Z",
-      "items": 10
+      "at": "2026-10-01T04:53:20.449Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T04:40:09.440Z",
+      "at": "2026-10-01T04:53:21.084Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T04:40:10.266Z",
+      "at": "2026-10-01T04:53:22.026Z",
       "error": "HTTP 403",
-      "fails": 417
+      "fails": 418
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T04:40:11.475Z",
+      "at": "2026-10-01T04:53:22.772Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T04:40:11.923Z",
+      "at": "2026-10-01T04:53:23.104Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T04:40:13.068Z",
+      "at": "2026-10-01T04:53:24.014Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T04:40:13.981Z",
+      "at": "2026-10-01T04:53:24.655Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T04:40:14.881Z",
+      "at": "2026-10-01T04:53:25.427Z",
       "items": 10
     },
     "toi-greece": {
@@ -654,23 +654,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T04:40:15.466Z",
-      "items": 5
+      "at": "2026-10-01T04:53:25.904Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T04:40:15.719Z",
+      "at": "2026-10-01T04:53:26.190Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T04:40:16.926Z",
+      "at": "2026-10-01T04:53:26.785Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T04:40:17.443Z",
-      "items": 6
+      "at": "2026-10-01T04:53:26.918Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -679,12 +679,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T04:40:10.076Z",
+      "at": "2026-10-01T04:53:21.946Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T04:40:18.216Z",
+      "at": "2026-10-01T04:53:27.439Z",
       "items": 0
     },
     "hcg": {
@@ -695,8 +695,8 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T04:40:20.217Z",
-      "items": 2
+      "at": "2026-10-01T04:53:28.212Z",
+      "items": 0
     }
   },
   "tgOffset": 829774786,
@@ -728,7 +728,9 @@
         "at": "2026-10-01T01:51:07.907Z"
       }
     ],
-    "errors": []
+    "errors": [
+      "Gemini API: {\"error\":{\"code\":400,\"message\":\"User location is not supported for the API use.\",\"status\":\"FAILED_PRECONDITION\"}}"
+    ]
   },
   "history": [
     {
