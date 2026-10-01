@@ -639,55 +639,56 @@
     "576ad0a49a7b": 1790846834475,
     "e8241e3fbfe8": 1790846834475,
     "71d254f49cd2": 1790846834475,
-    "7a3449058e72": 1790847601780
+    "7a3449058e72": 1790847601780,
+    "ac2067f178f3": 1790848420225
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T09:39:50.126Z",
+      "at": "2026-10-01T09:53:29.497Z",
       "error": "HTTP 403",
-      "fails": 436
+      "fails": 437
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T09:39:52.893Z",
-      "items": 10
+      "at": "2026-10-01T09:53:30.139Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T09:39:53.493Z",
+      "at": "2026-10-01T09:53:30.783Z",
       "items": 5
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T09:39:54.000Z",
+      "at": "2026-10-01T09:53:31.400Z",
       "error": "HTTP 403",
-      "fails": 436
+      "fails": 437
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T09:39:54.840Z",
+      "at": "2026-10-01T09:53:32.468Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T09:39:55.264Z",
+      "at": "2026-10-01T09:53:32.648Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T09:39:56.321Z",
+      "at": "2026-10-01T09:53:33.753Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T09:39:56.997Z",
-      "items": 4
+      "at": "2026-10-01T09:53:34.589Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T09:39:57.664Z",
+      "at": "2026-10-01T09:53:35.548Z",
       "items": 10
     },
     "toi-greece": {
@@ -698,23 +699,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T09:39:58.094Z",
+      "at": "2026-10-01T09:53:36.036Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T09:39:58.138Z",
+      "at": "2026-10-01T09:53:36.413Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T09:39:58.328Z",
-      "items": 6
+      "at": "2026-10-01T09:53:37.027Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T09:39:58.457Z",
-      "items": 4
+      "at": "2026-10-01T09:53:37.411Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -723,12 +724,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T09:39:53.774Z",
+      "at": "2026-10-01T09:53:31.222Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T09:39:59.045Z",
+      "at": "2026-10-01T09:53:38.034Z",
       "items": 0
     },
     "hcg": {
@@ -739,14 +740,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T09:40:00.415Z",
+      "at": "2026-10-01T09:53:39.355Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -801,6 +802,12 @@
         "title": "↻ Crete: Ferry with 777 Passengers Stuck in Heraklion Port Due to Weather",
         "at": "2026-10-01T11:55:07+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "how-greek-politics-works-guide",
+        "title": "How Greek Politics Works: Parliament, Government, and Elections Explained",
+        "at": "2026-10-01T12:54:02+03:00",
+        "section": "politics"
       }
     ],
     "rejected": [
@@ -873,11 +880,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T09:40:01.780Z",
+    "at": "2026-10-01T09:53:40.225Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | Flydubai: Η επίθεση στο πιλοτήριο και τα δύο βασικά ερωτήματα – Τι είπε στο ΕΡΤnews Radio "
+      "· naftemporiki | Συναγερμός για κτηνοτρόφο που αγνοείται στο Ρέθυμνο – Δυσχεραίνει τις έρευνες η κακοκαιρία"
     ]
   },
   "evergreenDone": [
@@ -909,9 +916,10 @@
     "education-greece",
     "public-holidays",
     "athens-metro",
-    "greek-economy"
+    "greek-economy",
+    "greek-politics"
   ],
-  "lastEvergreen": 1790841807802,
+  "lastEvergreen": 1790848420232,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
