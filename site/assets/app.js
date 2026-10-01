@@ -243,7 +243,6 @@
     if (el.hasAttribute("data-toggle")) { var tg = document.getElementById(el.getAttribute("data-toggle")); if (tg) tg.hidden = !tg.hidden; return; }
     if (el.hasAttribute("data-listen")) return speak();
     if (el.closest(".ad")) track("ad_click", { placement: "house" });
-    if (el.classList.contains("wa") || el.classList.contains("wafloat")) track("whatsapp_click");
     if (el.closest(".lang")) track("language_switch", { to: el.getAttribute("hreflang") });
     if (el.closest(".fl")) track("flight_click", { destination: (el.querySelector(".fl-d b") || {}).textContent || "" });
     if (el.closest(".fteaser")) track("flight_teaser_click");
@@ -251,9 +250,13 @@
     if (el.closest("[data-out]")) track("partner_out", { target: el.closest("[data-out]").getAttribute("data-out") });
     if (el.closest("[data-ad]")) track("ad_click", { ad: el.getAttribute("data-ad") });
     if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
+    // Επαφές με συνεργάτες (μετράνε ως «επαφή» στο Google Ads). Η κοινοποίηση άρθρου στο WhatsApp (wa.me/?text) ΔΕΝ είναι επαφή.
     var href = el.getAttribute("href") || "";
-    if (href.indexOf("tel:") === 0) track("phone_click");
-    if (href.indexOf("mailto:") === 0) track("email_click");
+    var WHO = { "306906723676": "S.F. Properties", "972546221414": "Asi Doron", "306983311161": "Yana", "302108232157": "Cremer & Partners" };
+    var waNum = (href.match(/wa\.me\/(\d{6,})/) || [])[1];
+    if (waNum) track("whatsapp_click", { to: WHO[waNum] || waNum });
+    if (href.indexOf("tel:") === 0) { var tn = href.replace(/\D/g, ""); track("phone_click", { to: WHO[tn] || tn }); }
+    if (href.indexOf("mailto:") === 0) track("email_click", { to: href.slice(7).split("?")[0] });
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") { if (!$("#sv").hidden) closeStory(); else if (!$("#feed").hidden) closeFeed(); } });
 

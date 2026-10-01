@@ -187,7 +187,7 @@ export function sfShowcase(a, lang) {
   <div class="sfx-blob b3" aria-hidden="true"></div>
   <h2>${esc(c.endT)}</h2><p>${esc(c.endS)}</p>
   <div class="sfx-ctas">${waBtn("end")}${siteBtn("end")}<a class="sfx-btn ghost" dir="ltr" href="tel:${PHONE.replace(/[^+\d]/g, "")}" data-sf="call">📞 ${esc(PHONE)}</a></div>
-  <p class="sfx-addr">📍 ${he ? "פ. פ. גרמנו 77, פילותיי, אתונה" : "P. P. Germanou 77, Filothei, Athens"} · <span dir="ltr">info@sfproperties.gr</span></p>
+  <p class="sfx-addr">📍 ${he ? "פ. פ. גרמנו 77, פילותיי, אתונה" : "P. P. Germanou 77, Filothei, Athens"} · <a dir="ltr" href="mailto:info@sfproperties.gr" data-sf="email">info@sfproperties.gr</a></p>
 </section>
 
 <p class="pf-more">${c.back.map(([u, t]) => `<a href="${P(lang, u)}">${esc(t)}</a>`).join(" · ")}</p>
