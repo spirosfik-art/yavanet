@@ -580,6 +580,33 @@
     });
   })();
 
+  /* ---------- Χρήσιμο για ψώνια: είναι ανοιχτά τα μαγαζιά σήμερα; (ώρα Αθήνας) ---------- */
+  (function () {
+    var dataEl = document.getElementById("hol-data"), strip = document.getElementById("hol-strip"), nowBox = document.getElementById("hol-now");
+    if (!strip && !nowBox) return;
+    var H = []; try { H = JSON.parse((dataEl || {}).textContent || "[]"); } catch (e) { }
+    if (!H.length && nowBox) { try { H = JSON.parse(nowBox.getAttribute("data-h") || "[]"); } catch (e) { } }
+    var he = C.lang !== "en";
+    var parts = {}; try { new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Athens", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hour12: false, weekday: "short" }).formatToParts(new Date()).forEach(function (p) { parts[p.type] = p.value; }); } catch (e) { return; }
+    var today = parts.year + "-" + parts.month + "-" + parts.day, hr = parseInt(parts.hour, 10) % 24, wd = parts.weekday;
+    var ev = H.filter(function (h) { return h.d === today && h.s !== "sales"; })[0];
+    var sale = H.filter(function (h) { return h.s === "sales" && h.d <= today && h.to >= today; })[0];
+    var st, cls;
+    if (ev && ev.s === "closed") { st = (he ? "היום רוב החנויות סגורות: " : "Most shops are closed today: ") + ev.t; cls = "c"; }
+    else if (ev && ev.s === "short") { st = (he ? "היום החנויות פתוחות בשעות מקוצרות: " : "Shops open with shorter hours today: ") + ev.t; cls = "s"; }
+    else if (ev && ev.s === "sunday") { st = he ? "היום יום ראשון, אבל החנויות רשאיות לפתוח 🛍️" : "It's Sunday, but shops may open today 🛍️"; cls = "o"; }
+    else if (ev && ev.s === "local") { st = ev.t; cls = "s"; }
+    else if (wd === "Sun") { st = he ? "היום יום ראשון: רוב החנויות סגורות (חוץ מאזורים תיירותיים)" : "It's Sunday: most shops are closed (except tourist areas)"; cls = "c"; }
+    else if (hr >= 21 || (wd === "Sat" && hr >= 20)) { st = he ? "החנויות כבר נסגרו להיום באתונה" : "Shops in Athens have closed for today"; cls = "s"; }
+    else { st = he ? (wd === "Sat" ? "היום החנויות פתוחות (רשתות וקניונים עד 20:00 בערך)" : "היום החנויות פתוחות (רשתות וקניונים עד 21:00 בערך)") : (wd === "Sat" ? "Shops are open today (chains and malls until about 20:00)" : "Shops are open today (chains and malls until about 21:00)"); cls = "o"; }
+    if (sale) st += he ? " · עונת הנחות!" : " · Sales season!";
+    var nx = H.filter(function (h) { return h.d > today && h.s !== "local"; })[0];
+    var fmtD = function (iso) { try { return new Date(iso + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); } catch (e) { return iso; } };
+    var nxt = nx ? ((he ? "הבא: " : "Next: ") + nx.t + " · " + fmtD(nx.d)) : "";
+    if (strip) { strip.classList.add("hs-" + cls); $("#hs-today").textContent = st; if (nxt) $("#hs-next").textContent = nxt; }
+    if (nowBox) { nowBox.className = "hol-now hs-" + cls; nowBox.innerHTML = "<b>" + esc(st) + "</b>" + (nxt ? "<span>" + esc(nxt) + "</span>" : ""); }
+  })();
+
   /* ---------- PWA ---------- */
   if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () { }); });
 })();

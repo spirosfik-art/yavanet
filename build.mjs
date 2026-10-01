@@ -11,6 +11,7 @@ import { almyraShowcase } from "./site/almyra.mjs";
 import { medtourShowcase } from "./site/medtour.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
+import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -125,6 +126,7 @@ for (const lang of LANGS) {
   const qtools = tiles.map(([u, k, h]) => `<a class="qt t-${k}" href="${P(lang, u)}">${TI[k]}<span>${esc(h)}</span></a>`).join("");
   const newsChips = SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}">${esc(x[lang])}</a>`).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
+${holidaysStrip(lang)}
 ${doorsHTML(lang)}
 <nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
 ${flightTeaser(lang)}
@@ -198,6 +200,10 @@ ${GLOBAL.flights ? `<section id="trip"><div class="zone-h"><h2>${lang === "he" ?
 ${formBox(lang, { id: "alerts", title: lang === "he" ? "התראה על חוקי נדל״ן חדשים" : "Alerts on new property laws", text: lang === "he" ? "נשלח לכם הודעה ברגע שיוצא חוק או החלטה חדשה על נדל״ן ביוון." : "We will message you as soon as a new property law or decision is published in Greece.", kind: "law-alerts", fields: ["name", "email", "phone"] })}
 ${adBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
+  {
+    const hp = holidaysPage(lang, TODAY);
+    write(P(lang, "/holidays/"), layout({ lang, title: hp.title, description: hp.description, path: P(lang, "/holidays/"), altPath: P(lang === "he" ? "en" : "he", "/holidays/"), body: hp.body, breaking: breakingNow, activeNav: "travel", jsonld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: hp.faq.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] }));
+  }
   write(P(lang, "/tools/"), layout({ lang, title: t.toolsTitle, description: t.calcTitle, path: P(lang, "/tools/"), altPath: P(lang === "he" ? "en" : "he", "/tools/"), body: tools, breaking: breakingNow, activeNav: "tools" }));
 
   /* Σύμβουλος ακινήτων & Ρωτήστε τον ειδικό */
@@ -366,6 +372,7 @@ ${pushBox(lang, true)}
       ["/tools/", L("מחשבונים", "Calculators"), L("עלויות קנייה תשואה מס רכישה נוטריון", "buying costs yield transfer tax notary"), L("כלי", "Tool")],
       ["/directory/", L("יוון בעברית: עסקים ושירותים", "Greece in Hebrew: businesses"), L("עברית חבד כשר בית כנסת טיולים", "Hebrew Chabad kosher synagogue tours"), L("כלי", "Tool")],
       ["/guides/", L("כל המדריכים", "All guides"), L("מדריך", "guide"), L("עמוד", "Page")],
+      ["/holidays/", L("חגים ושעות פתיחה של חנויות", "Holidays and shop opening hours"), L("חג חנויות פתוח סגור יום ראשון הנחות שופינג קניות", "holiday shops open closed sunday sales shopping"), L("כלי", "Tool")],
       ["/strike-today/", L("יש שביתה היום או מחר ביוון?", "Strike in Greece today or tomorrow?"), L("שביתה היום מחר טיסות מעבורות מטרו יומן", "strike today tomorrow flights ferries metro calendar"), L("כלי", "Tool")],
       ...DESTS.map((d) => ["/d/" + d.id + "/", d[lang], L("חדשות מזג אוויר טיסות שביתות מדריך", "news weather flights strikes guide") + " " + d.he + " " + d.en, L("יעד", "Destination")]),
       ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
@@ -539,7 +546,7 @@ for (const lang of LANGS) {
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
   urls.push(P(lang, lang === "he" ? "/mivzakim/" : "/flash/"));
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
-  urls.push(P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
+  urls.push(P(lang, "/holidays/"), P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });

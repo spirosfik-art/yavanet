@@ -1324,3 +1324,21 @@ a.kicker{text-decoration:none}a.kicker:hover{filter:brightness(1.1);text-decorat
 /* Δώρο εγγραφής στο newsletter */
 .nl-gift{margin:8px 0 0;padding:8px 12px;border-radius:10px;background:rgba(240,160,75,.16);font-size:14px}
 .nl-dl{display:inline-block;margin-top:6px;padding:6px 12px;border-radius:999px;background:#0E5C8C;color:#fff!important;text-decoration:none;font-weight:700}
+/* Χρήσιμο για ψώνια: λωρίδα στην αρχική + σελίδα αργιών */
+.hol-strip{display:flex;align-items:center;gap:12px;margin:14px 0 6px;padding:12px 16px;border-radius:14px;background:var(--card,#fff);border:1px solid rgba(14,92,140,.18);text-decoration:none;color:inherit;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.hol-strip:hover{border-color:rgba(14,92,140,.45)}
+.hs-ic{font-size:26px;line-height:1}
+.hs-t{flex:1;display:grid;gap:2px;min-width:0}.hs-t b{font-size:15.5px}.hs-t small{opacity:.75;font-size:13px}
+.hs-go{font-weight:700;font-size:13.5px;white-space:nowrap;color:var(--accent,#0e5c8c)}
+.hol-strip.hs-o,.hol-now.hs-o{border-inline-start:5px solid #1e9e5a}
+.hol-strip.hs-c,.hol-now.hs-c{border-inline-start:5px solid #d6293e}
+.hol-strip.hs-s,.hol-now.hs-s{border-inline-start:5px solid #e6a23c}
+@media (max-width:560px){.hs-go{display:none}.hs-t b{font-size:14.5px}}
+.hol-now{display:grid;gap:4px;padding:14px 16px;border-radius:12px;background:var(--card,#fff);border:1px solid rgba(0,0,0,.08);margin:10px 0 18px}
+.hol-now b{font-size:17px}.hol-now span{opacity:.8}
+.hol-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.hl{padding:12px 14px;border-radius:12px;background:var(--card,#fff);border:1px solid rgba(0,0,0,.08);display:grid;gap:4px}
+.hl time{font-size:13px;opacity:.75}.hl p{margin:0;font-size:14px;opacity:.9}
+.hl-tag{justify-self:start;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;background:#eef3f8;color:#0e5c8c}
+.hl-c .hl-tag{background:#fde7ea;color:#b3162b}.hl-o .hl-tag{background:#e3f6ec;color:#146c3e}.hl-s .hl-tag{background:#fdf1dc;color:#8a5a00}.hl-sale .hl-tag{background:#f3e8ff;color:#6b21a8}
+details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);border:1px solid rgba(0,0,0,.08);margin-bottom:8px}details.faq summary{font-weight:700;cursor:pointer}
