@@ -717,55 +717,163 @@
     "ac1d600af74e": 1790887891787,
     "9bdad229cb3e": 1790887891787,
     "9a10d46fa231": 1790888482751,
-    "1338f896819e": 1790891540502
+    "1338f896819e": 1790891540502,
+    "c67d98b4c07d": 1790892083973
   },
-  "pending": {},
+  "pending": {
+    "cd7812": {
+      "createdAt": 1790892097249,
+      "item": {
+        "title": "Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη",
+        "url": "https://www.in.gr/2026/10/02/greece/andros-ksespase-pyrkagia-se-xamili-vlastisi-stin-agia-faneromeni/",
+        "summary": "Χαμηλή βλάστηση καίει η πυρκαγιά που ξέσπασε στην Αγία Φανερωμένη της Ανδρου, ενώ δύναμη της Πυροσβεστικής επιχειρεί για την κατάσβεσή της, με τους ισχυρούς ανέμους να δυσκολεύουν το έργο της. \n The post Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη appeared first on in.gr .",
+        "published": "Fri, 02 Oct 2026 00:54:10 +0300",
+        "id": "c67d98b4c07d",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "c67d98b4c07d",
+        "section": "breaking",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Wildfire broke out in Agia Faneromeni, Andros, fueled by strong winds. Important safety news for Israeli tourists currently visiting the Cyclades.",
+        "item": {
+          "title": "Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη",
+          "url": "https://www.in.gr/2026/10/02/greece/andros-ksespase-pyrkagia-se-xamili-vlastisi-stin-agia-faneromeni/",
+          "summary": "Χαμηλή βλάστηση καίει η πυρκαγιά που ξέσπασε στην Αγία Φανερωμένη της Ανδρου, ενώ δύναμη της Πυροσβεστικής επιχειρεί για την κατάσβεσή της, με τους ισχυρούς ανέμους να δυσκολεύουν το έργο της. \n The post Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη appeared first on in.gr .",
+          "published": "Fri, 02 Oct 2026 00:54:10 +0300",
+          "id": "c67d98b4c07d",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "fire-breaks-out-in-andros-agia-faneromeni",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.8386,
+          "lng": 24.9428
+        },
+        "strike": null,
+        "alert": {
+          "he": "שריפה ביוון",
+          "en": "Greece fire"
+        },
+        "imageKey": "fire",
+        "imageQuery": "bush fire greece smoke",
+        "he": {
+          "title": "אנדרוס: שריפה פרצה באזור אייה פאנרומני",
+          "seoTitle": "שריפה באנדרוס: אש פרצה באזור אייה פאנרומני ביוון",
+          "seoDesc": "שריפה פרצה באזור אייה פאנרומני באי אנדרוס ביוון. כוחות כיבוי אש פועלים במקום, אין כרגע איום על אזורים מיושבים.",
+          "keywords": [
+            "שריפה ביוון",
+            "אנדרוס",
+            "שריפה באנדרוס",
+            "אייה פאנרומני",
+            "מזג אוויר ביוון"
+          ],
+          "dek": "כוחות כיבוי אש פועלים בשעה זו מול שריפה שפרצה בצמחייה נמוכה באי אנדרוס, תחת רוחות חזקות באזור.",
+          "tldr": [
+            "שריפה פרצה בצמחייה נמוכה באזור אייה פאנרומני באנדרוס.",
+            "רוחות חזקות נושבות באזור ומקשות על פעולות הכיבוי.",
+            "הרשויות מדווחת כי בשלב זה אין סכנה לבתי מגורים."
+          ],
+          "means": "טסים לאי אנדרוס או נמצאים באזור? שימו לב לתנאי מזג האוויר ולרוחות החזקות. בדקו את ההנחיות המעודכנות של הרשויות המקומיות והימנעו מהגעה לאזור האירוע כדי לאפשר לכוחות ההצלה לעבוד.",
+          "body": "## שריפה חדשה באנדרוס\n\nשריפה פרצה בשעות המאוחרות של הלילה באזור אייה פאנרומני שעל האי אנדרוס. האש החלה להתפשט בשטח של צמחייה נמוכה, כאשר במקום פועלים צוותי כיבוי אש רבים במאמץ להשתלט על הלהבות.\n\n## רוחות חזקות מקשות על הכיבוי\n\nעל פי דיווחים מרשויות הכיבוי, האתגר המרכזי שעמו מתמודדים הצוותים בשטח הוא רוחות חזקות המנשבות באזור. הרוחות החזקות דוחפות את האש ומקשות על פעולות הבלימה של הכבאים.\n\n## אין סכנה לבתי מגורים\n\nבשלב זה, גורמי ההצלה מעדכנים כי אין איום ישיר על אזורים מיושבים או בתים סמוכים. כוחות הכיבוי נשארים פרוסים בשטח במטרה להכיל את האש ולמנוע את התפשטותה."
+        },
+        "en": {
+          "title": "Andros: Fire breaks out in Agia Faneromeni area",
+          "seoTitle": "Andros fire: Blaze breaks out in Agia Faneromeni",
+          "seoDesc": "A brush fire broke out in the Agia Faneromeni area on Andros island, Greece. Firefighters are tackling the blaze amid strong winds.",
+          "keywords": [
+            "Andros fire",
+            "Greece wildfire",
+            "Agia Faneromeni Andros",
+            "Greece news",
+            "Andros island"
+          ],
+          "dek": "Firefighting forces are operating against a brush fire on the island of Andros, driven by strong winds in the area.",
+          "tldr": [
+            "A brush fire broke out in the Agia Faneromeni area on Andros.",
+            "Strong winds in the area are complicating firefighting efforts.",
+            "Authorities report that residential areas are not threatened."
+          ],
+          "means": "If you are visiting Andros, stay updated on local weather conditions and avoid the affected areas to allow emergency crews to operate safely.",
+          "body": "## Fire Outbreak in Andros\n\nA fire broke out late at night in the Agia Faneromeni location on the island of Andros. The blaze ignited in an area with low vegetation, prompting an immediate response from local firefighting teams.\n\n## Strong Winds Complicate Operations\n\nAccording to the Fire Service, firefighters are facing challenging conditions on the ground due to strong winds blowing across the region. These gusts make it difficult to contain the spread of the flames.\n\n## No Threat to Homes\n\nAt this stage, authorities confirm that residential areas and homes are not under threat from the fire. Crews remain deployed at the scene to bring the situation fully under control."
+        }
+      },
+      "text": "Vita.gr \n Τελειομανία: Κι αν μας κάνει καλό να μην είμαστε… καλοί σε όλα;\n Spotlight «Η Κρίστα είναι ζωντανή» – Τι λέει δικηγόρος της θανατοποινίτισσας \n Γιορτή σήμερα 2 Οκτωβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Άνω Λιόσια: Ολη η κατάθεση της 41χρονης νηπιαγωγού στους αστυνομικούς μετά τον ξυλοδαρμό της από γονείς \n Εκτοξεύτηκε ο πύραυλος της SpaceX – Μεταφέρει τέσσερις αστροναύτες στον Διεθνή Διαστημικό Σταθμό \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Πυρκαγιά ξέσπασε στην περιοχή Αγία Φανερωμένη στην Ανδρο , όπου πνέουν ισχυροί άνεμοι (φωτογραφία αρχείου, επάνω, του Σωτήρη Δημητρόπουλου/Eurokinissi).\n Σύμφωνα με την Πυροσβεστική, η φωτιά εκδηλώθηκε σχεδόν είκοσι λεπτά πριν από τα μεσάνυχτα χθες Πέμπτη σε τοποθεσία με χαμηλή βλάστηση.\n Στην περιοχή πνέουν ισχυροί άνεμοι που δυσκολεύουν το έργο των πυροσβεστών\n Στην επιχείρηση κατάσβεσης συμμετέχουν 9 πυροσβέστες με 4 οχήματα, το έργο των οποίων δυσκολεύουν οι ισχυροί άνεμοι.\n #Πυρκαγιά σε χαμηλή βλάστηση στην περιοχή Αγία Φανερωμένη στην Άνδρο. Επιχειρούν 9 #πυροσβέστες με 4 οχήματα και εθελοντές.\n — Πυροσβεστικό Σώμα (@pyrosvestiki) October 1, 2026 \n Δεν απειλεί κατοικίες\n Από την πυρκαγιά δεν απειλούνται κατοικημένες περιοχές.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη \n Γιοβάνοβιτς: «Θαυμάζω τους παίκτες μου για την αφοσίωσή τους – Υπάρχει πολύ μεγάλη στενοχώρια» (vid) \n Τσιμίκας: «Πιστεύω ότι στο τέλος αυτός ο βαθμός θα είναι σημαντικός» \n Η βαθμολογία της Euroleague μετά την ήττα του Ολυμπιακού (pic) \n Ολυμπιακός: Ρεκόρ καριέρας σε πόντους ο Εντζάι \n ΔΕΗ: Συγκράτηση στις αυξήσεις ρεύματος – Το ατού του φθηνού μπλέ τιμολογίου \n Μπαρτζώκας: «Βάλαμε 94 πόντους, αλλά η άμυνά μας δεν ήταν καλή» \n Nations League: Εύκολα η Γερμανία τη Σερβία (2-0) – «Τεσσάρα» χωρίς τον Ρονάλντο η Πορτογαλία στη Δανία (2-4) \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Άνδρος: Φωτιά ξέσπασε στην περιοχή Αγία Φανερωμένη",
+        "dek": "Πυροσβεστικές δυνάμεις επιχειρούν κατά χαμηλής βλάστησης πυρκαγιάς στο νησί της Άνδρου, η οποία τροφοδοτείται από ισχυρούς ανέμους που πνέουν στην περιοχή.",
+        "tldr": [
+          "Πυρκαγιά σε χαμηλή βλάστηση ξέσπασε στην περιοχή της Αγίας Φανερωμένης στην Άνδρο.",
+          "Οι ισχυροί άνεμοι που πνέουν στην περιοχή δυσχεραίνουν το έργο της πυρόσβεσης.",
+          "Σύμφωνα με τις αρχές, οι κατοικημένες περιοχές δεν διατρέχουν κίνδυνο."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T21:52:10.876Z",
+      "at": "2026-10-01T22:01:15.115Z",
       "error": "HTTP 403",
-      "fails": 483
+      "fails": 484
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T21:52:11.492Z",
+      "at": "2026-10-01T22:01:15.700Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T21:52:12.074Z",
+      "at": "2026-10-01T22:01:16.339Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T21:52:12.751Z",
+      "at": "2026-10-01T22:01:16.722Z",
       "error": "HTTP 403",
-      "fails": 483
+      "fails": 484
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T21:52:13.820Z",
+      "at": "2026-10-01T22:01:17.714Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T21:52:14.230Z",
+      "at": "2026-10-01T22:01:18.116Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T21:52:15.223Z",
+      "at": "2026-10-01T22:01:19.200Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T21:52:15.974Z",
+      "at": "2026-10-01T22:01:19.868Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T21:52:16.478Z",
+      "at": "2026-10-01T22:01:20.312Z",
       "items": 10
     },
     "toi-greece": {
@@ -776,22 +884,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T21:52:16.909Z",
+      "at": "2026-10-01T22:01:20.745Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T21:52:16.986Z",
+      "at": "2026-10-01T22:01:20.822Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T21:52:17.704Z",
-      "items": 4
+      "at": "2026-10-01T22:01:21.020Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T21:52:18.083Z",
+      "at": "2026-10-01T22:01:21.160Z",
       "items": 4
     },
     "ynet-greece": {
@@ -801,12 +909,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T21:52:12.654Z",
+      "at": "2026-10-01T22:01:16.520Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T21:52:18.689Z",
+      "at": "2026-10-01T22:01:21.703Z",
       "items": 0
     },
     "hcg": {
@@ -817,7 +925,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T21:52:19.882Z",
+      "at": "2026-10-01T22:01:22.942Z",
       "items": 2
     }
   },
@@ -863,11 +971,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T21:52:20.502Z",
+    "at": "2026-10-01T22:01:23.973Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· ert | Ιράν: Δεξαμενόπλοιο επλήγη από «άγνωστο βλήμα» στα Στενά του Ορμούζ"
+      "✓ ingr | Ανδρος: Ξέσπασε πυρκαγιά σε χαμηλή βλάστηση στην Αγία Φανερωμένη"
     ]
   },
   "evergreenDone": [
