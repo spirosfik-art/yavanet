@@ -595,55 +595,57 @@
     "a9f215cc4fae": 1790823741796,
     "6439fdab12a6": 1790827381137,
     "527b8ff35b07": 1790828773829,
-    "909ff1374759": 1790828773829
+    "909ff1374759": 1790828773829,
+    "a3e7708ef2c7": 1790830947101,
+    "f0dfd4fead0e": 1790830947101
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T04:53:19.908Z",
+      "at": "2026-10-01T05:02:16.379Z",
       "error": "HTTP 403",
-      "fails": 418
+      "fails": 419
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T04:53:20.449Z",
+      "at": "2026-10-01T05:02:17.046Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T04:53:21.084Z",
+      "at": "2026-10-01T05:02:17.843Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T04:53:22.026Z",
+      "at": "2026-10-01T05:02:18.258Z",
       "error": "HTTP 403",
-      "fails": 418
+      "fails": 419
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T04:53:22.772Z",
+      "at": "2026-10-01T05:02:19.156Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T04:53:23.104Z",
+      "at": "2026-10-01T05:02:19.364Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T04:53:24.014Z",
+      "at": "2026-10-01T05:02:20.329Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T04:53:24.655Z",
-      "items": 5
+      "at": "2026-10-01T05:02:21.155Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T04:53:25.427Z",
+      "at": "2026-10-01T05:02:21.948Z",
       "items": 10
     },
     "toi-greece": {
@@ -654,23 +656,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T04:53:25.904Z",
-      "items": 0
+      "at": "2026-10-01T05:02:22.448Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T04:53:26.190Z",
+      "at": "2026-10-01T05:02:22.734Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T04:53:26.785Z",
-      "items": 5
+      "at": "2026-10-01T05:02:23.412Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T04:53:26.918Z",
-      "items": 5
+      "at": "2026-10-01T05:02:23.815Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -679,12 +681,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T04:53:21.946Z",
+      "at": "2026-10-01T05:02:18.113Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T04:53:27.439Z",
+      "at": "2026-10-01T05:02:24.462Z",
       "items": 0
     },
     "hcg": {
@@ -695,20 +697,26 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T04:53:28.212Z",
-      "items": 0
+      "at": "2026-10-01T05:02:25.837Z",
+      "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 0,
+    "count": 1,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
         "title": "↻ Crete: Cruise Ship Makes Emergency Stop Due to Weather",
         "at": "2026-10-01T02:01:48+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "public-holidays-in-greece-guide",
+        "title": "Public holidays in Greece: when shops and offices close",
+        "at": "2026-10-01T08:02:51+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -761,12 +769,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T04:26:13.829Z",
+    "at": "2026-10-01T05:02:27.101Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· naftemporiki | Lidl Hellas: Επενδύσεις 200 εκατ. ευρώ στη διετία – 4 νέα καταστήματα έως το τέλος του 202",
-      "· naftemporiki | Ρέθυμνο: Μήνυμα του 112 για την κακοκαιρία – «Αποφύγετε τις μετακινήσεις»"
+      "· ingr | ΠΑΣΟΚ: «Μπαράζ» πράσινων παρεμβάσεων στη Βουλή – Μείωση ΕΦΚ, κατάργηση Golden Visa και πρό",
+      "· naftemporiki | Κακοκαιρία με καταιγίδες και θυελλώδεις ανέμους στο Αιγαίο – Οι περιοχές που βρίσκονται σή"
     ]
   },
   "evergreenDone": [
@@ -795,9 +803,10 @@
     "acropolis",
     "greek-cuisine",
     "healthcare-greece",
-    "education-greece"
+    "education-greece",
+    "public-holidays"
   ],
-  "lastEvergreen": 1790792875882,
+  "lastEvergreen": 1790830947106,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
