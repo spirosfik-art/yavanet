@@ -584,55 +584,57 @@
     "9e2a28909c07": 1790810538468,
     "9313815875e8": 1790810538468,
     "a6f2c6a3fd98": 1790810538468,
-    "317f8c92df34": 1790811293338
+    "317f8c92df34": 1790811293338,
+    "56dea28d3d68": 1790816865198,
+    "f05d5656ab77": 1790816865198
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T00:56:47.746Z",
+      "at": "2026-10-01T01:07:35.943Z",
       "error": "HTTP 403",
-      "fails": 402
+      "fails": 403
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T00:56:48.304Z",
+      "at": "2026-10-01T01:07:36.585Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T00:56:48.917Z",
+      "at": "2026-10-01T01:07:37.182Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T00:56:49.838Z",
+      "at": "2026-10-01T01:07:37.782Z",
       "error": "HTTP 403",
-      "fails": 402
+      "fails": 403
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T00:56:50.734Z",
+      "at": "2026-10-01T01:07:38.791Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T00:56:51.080Z",
+      "at": "2026-10-01T01:07:38.992Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T00:56:51.902Z",
+      "at": "2026-10-01T01:07:39.816Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T00:56:52.559Z",
+      "at": "2026-10-01T01:07:40.416Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T00:56:53.376Z",
+      "at": "2026-10-01T01:07:41.310Z",
       "items": 10
     },
     "toi-greece": {
@@ -643,22 +645,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T00:56:53.807Z",
+      "at": "2026-10-01T01:07:41.704Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T00:56:53.853Z",
+      "at": "2026-10-01T01:07:41.821Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T00:56:53.917Z",
+      "at": "2026-10-01T01:07:41.992Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T00:56:54.040Z",
+      "at": "2026-10-01T01:07:42.125Z",
       "items": 10
     },
     "ynet-greece": {
@@ -668,12 +670,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T00:56:49.640Z",
+      "at": "2026-10-01T01:07:37.489Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T00:56:54.626Z",
+      "at": "2026-10-01T01:07:43.207Z",
       "items": 0
     },
     "hcg": {
@@ -684,7 +686,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T00:56:55.824Z",
+      "at": "2026-10-01T01:07:44.543Z",
       "items": 2
     }
   },
@@ -738,11 +740,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-09-30T23:34:53.338Z",
-    "considered": 1,
+    "at": "2026-10-01T01:07:45.198Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Researchers Drill at Turkey’s Controversial Noah’s Ark Site"
+      "· gct | Mad Max Director George Miller Honored With Cultural Center on Kythera",
+      "· gct | Resilience Tech unveils first Greek-made FPV drone flight controller"
     ]
   },
   "evergreenDone": [
