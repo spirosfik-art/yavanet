@@ -598,55 +598,58 @@
     "909ff1374759": 1790828773829,
     "a3e7708ef2c7": 1790830947101,
     "f0dfd4fead0e": 1790830947101,
-    "6f34c91a990b": 1790832281109
+    "6f34c91a990b": 1790832281109,
+    "8a17c0e51b98": 1790833978400,
+    "a2b295adc76a": 1790833978400,
+    "2d00358a5850": 1790833978400
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T05:36:58.265Z",
+      "at": "2026-10-01T05:52:43.951Z",
       "error": "HTTP 403",
-      "fails": 421
+      "fails": 422
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T05:36:58.845Z",
-      "items": 0
+      "at": "2026-10-01T05:52:46.237Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T05:36:59.460Z",
+      "at": "2026-10-01T05:52:46.989Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T05:37:00.181Z",
+      "at": "2026-10-01T05:52:48.163Z",
       "error": "HTTP 403",
-      "fails": 421
+      "fails": 422
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T05:37:01.094Z",
+      "at": "2026-10-01T05:52:49.673Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T05:37:01.470Z",
+      "at": "2026-10-01T05:52:49.856Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T05:37:02.364Z",
+      "at": "2026-10-01T05:52:51.411Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T05:37:02.963Z",
+      "at": "2026-10-01T05:52:52.112Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T05:37:03.844Z",
+      "at": "2026-10-01T05:52:52.950Z",
       "items": 10
     },
     "toi-greece": {
@@ -657,22 +660,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T05:37:04.243Z",
+      "at": "2026-10-01T05:52:53.516Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T05:37:04.583Z",
+      "at": "2026-10-01T05:52:53.906Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T05:37:04.765Z",
+      "at": "2026-10-01T05:52:54.495Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T05:37:04.895Z",
+      "at": "2026-10-01T05:52:54.890Z",
       "items": 4
     },
     "ynet-greece": {
@@ -682,12 +685,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T05:36:59.978Z",
+      "at": "2026-10-01T05:52:47.981Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T05:37:05.435Z",
+      "at": "2026-10-01T05:52:55.527Z",
       "items": 0
     },
     "hcg": {
@@ -698,7 +701,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T05:37:06.937Z",
+      "at": "2026-10-01T05:52:57.401Z",
       "items": 2
     }
   },
@@ -735,6 +738,11 @@
         "title": "Νετανιάχου για Flydubai: Πολύ νωρίς για να πούμε ποιος βρίσκεται από πίσω",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-10-01T01:51:07.907Z"
+      },
+      {
+        "title": "FlyDubai: Στη δημοσιότητα τα στοιχεία του πιλότου που έσωσε 174 ζωές – «Ήρωας» λένε Ισραήλ και Ινδία",
+        "reason": "Rule 8 & 1 violation: The article and SEO tags mention flights to Greece ('טיסות ליוון'), but the source text is about a Flydubai flight from an unspecified origin to Tabuk, Saudi Arabia. Greece is nowhere mentioned in the source.",
+        "at": "2026-10-01T05:53:22.880Z"
       }
     ],
     "errors": [
@@ -770,11 +778,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T05:24:41.109Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-01T05:52:58.400Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Celebrating International Coffee Day with Elliniko Kafe, the world’s healthiest coffee"
+      "· naftemporiki | Νετανιάχου: «Πολύ νωρίς» για να προσδιοριστεί αν εμπλέκεται το Ιράν στην επίθεση κατά της ",
+      "· ingr | «Απέτρεψαν μια νέα 11η Σεπτεμβρίου»: Θρίλερ με την πτήση της Flydubai – Σε σταθερή κατάστα",
+      "✓ ert | FlyDubai: Στη δημοσιότητα τα στοιχεία του πιλότου που έσωσε 174 ζωές – «Ήρωας» λένε Ισραήλ"
     ]
   },
   "evergreenDone": [
