@@ -62,7 +62,7 @@ const SYSTEM = `You extract cultural events in Athens from official listing page
   const prompt = `Weekend: Friday ${fri}, Saturday ${sat}, Sunday ${sun}.
 From the listing pages below, pick up to 12 events in Athens that take place on at least one of these three days (single-day events on those dates, or exhibitions/festivals whose date range covers the weekend). Prefer variety (music, theatre, exhibitions, markets, family) and well-known venues. Skip anything whose dates are unclear.
 For each event return:
-{"url": exact URL from the text, "source": source id, "title_en": original title (English as shown), "title_he": short natural Hebrew title (keep proper names in Latin letters if no common Hebrew form), "when_en": e.g. "Sat 3 Oct, 20:30" or "until 18 Oct" exactly as supported by the text, "when_he": same in Hebrew, "venue_en": venue as in text, "venue_he": venue in Hebrew letters or Latin, "type": one of music|theatre|exhibition|market|festival|film|family|other, "free": true if the text says free admission, else false}
+{"url": exact URL from the text, "source": source id, "title_en": title in English (translate it if the text shows it only in Greek; keep the original proper names), "title_he": short natural Hebrew title (keep proper names in Latin letters if no common Hebrew form), "when_en": e.g. "Sat 3 Oct, 20:30" or "until 18 Oct" exactly as supported by the text, "when_he": same in Hebrew, "venue_en": venue in English (transliterate Greek names), "venue_he": venue in Hebrew letters or Latin, "type": one of music|theatre|exhibition|market|festival|film|family|other, "free": true if the text says free admission, else false}
 Return {"events":[...]}.
 
 ${pages.join("\n\n")}`;
@@ -78,6 +78,8 @@ ${pages.join("\n\n")}`;
 
   const ICON = { music: "🎵", theatre: "🎭", exhibition: "🖼️", market: "🛍️", festival: "🎉", film: "🎬", family: "👨‍👩‍👧", other: "📍" };
   const fmt = (iso, lang) => new Date(iso + "T12:00:00Z").toLocaleDateString(lang === "he" ? "he-IL" : "en-GB", { day: "numeric", month: "long", timeZone: "UTC" });
+  // «2–4 Οκτωβρίου» όταν είναι ίδιος μήνας
+  const range = (lang) => fri.slice(0, 7) === sun.slice(0, 7) ? `${+fri.slice(8)}–${fmt(sun, lang)}` : `${fmt(fri, lang)}–${fmt(sun, lang)}`;
   const tag = (u) => u + (u.includes("?") ? "&" : "?") + "utm_source=yavanet&utm_medium=referral&utm_campaign=weekend";
   const list = (lang) => events.map((e) => {
     const he = lang === "he", free = e.free ? (he ? " · **כניסה חופשית**" : " · **Free entry**") : "";
@@ -114,20 +116,20 @@ This list comes from the official event calendars of ${usedSources.map((s) => s.
     image: { type: "art", key: "people" },
     sources: usedSources.map((s) => ({ name: s.name, url: s.url })),
     he: {
-      title: `סוף השבוע באתונה: ${events.length} אירועים ל-${fmt(fri, "he")}–${fmt(sun, "he")}`,
+      title: `סוף השבוע באתונה: ${events.length} אירועים ל-${range("he")}`,
       dek: `הופעות, תערוכות ושווקים באתונה בסוף השבוע${nFree ? `, כולל ${nFree} בכניסה חופשית` : ""}. הכול מלוחות האירועים הרשמיים, עם קישור לכל אירוע.`,
       tldr: [`${events.length} אירועים באתונה מיום שישי עד ראשון.`, nFree ? `${nFree} מהם בכניסה חופשית.` : "יש קישור לכל אירוע עם שעות ומחירים.", "ביום ראשון רוב החנויות סגורות – תכננו קניות לשישי או שבת."],
       means: "", body: heBody,
-      seoTitle: `מה עושים באתונה בסוף השבוע (${fmt(fri, "he")}–${fmt(sun, "he")})`,
+      seoTitle: `מה עושים באתונה בסוף השבוע (${range("he")})`,
       seoDesc: `אירועים באתונה בסוף השבוע: הופעות, תערוכות, שווקים ואירועים בכניסה חופשית, עם קישורים לאתרים הרשמיים.`,
       keywords: ["מה עושים באתונה", "אירועים באתונה", "סוף שבוע באתונה", "הופעות באתונה"],
     },
     en: {
-      title: `This weekend in Athens: ${events.length} things to do, ${fmt(fri, "en")}–${fmt(sun, "en")}`,
+      title: `This weekend in Athens: ${events.length} things to do, ${range("en")}`,
       dek: `Concerts, exhibitions and markets in Athens this weekend${nFree ? `, including ${nFree} with free entry` : ""}. All from official event calendars, with a link to each event.`,
       tldr: [`${events.length} events in Athens from Friday to Sunday.`, nFree ? `${nFree} of them are free.` : "Each event links to its official page with times and prices.", "Most shops close on Sunday – plan shopping for Friday or Saturday."],
       means: "", body: enBody,
-      seoTitle: `What's on in Athens this weekend (${fmt(fri, "en")}–${fmt(sun, "en")})`,
+      seoTitle: `What's on in Athens this weekend (${range("en")})`,
       seoDesc: `Things to do in Athens this weekend: concerts, exhibitions, markets and free events, with links to the official pages.`,
       keywords: ["things to do in Athens this weekend", "Athens events", "what's on Athens"],
     },
