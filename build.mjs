@@ -60,7 +60,9 @@ const nextDate = (a) => a.strike.dates.find((d) => d >= TODAY);
 const upcomingStrikes = strikeArts.filter(nextDate).sort((x, y) => nextDate(x).localeCompare(nextDate(y)));
 const pastStrikes = strikeArts.filter((a) => !nextDate(a) && a.strike.dates[a.strike.dates.length - 1] >= athensDay(new Date(NOW - 30 * 86400e3)));
 const fmtDay = (d, lang) => new Date(d + "T12:00:00Z").toLocaleDateString(lang === "he" ? "he-IL" : "en-GB", { weekday: "short", day: "numeric", month: "numeric", timeZone: "UTC" });
-const soon = upcomingStrikes.find((a) => nextDate(a) <= IN3);
+// Η μπάρα στην κορυφή μόνο για απεργίες που επηρεάζουν τις μετακινήσεις (όχι π.χ. φεστιβάλ ή δημόσιο)
+const TRAVEL_SECTORS = ["flights", "ferries", "metro", "buses", "trains", "taxis"];
+const soon = upcomingStrikes.find((a) => nextDate(a) <= IN3 && (a.strike.sectors || []).some((s) => TRAVEL_SECTORS.includes(s)));
 if (soon) {
   const d = nextDate(soon);
   const when = (lang) => d === TODAY ? (lang === "he" ? "היום" : "Today") : d === athensDay(new Date(NOW + 86400e3)) ? (lang === "he" ? "מחר" : "Tomorrow") : fmtDay(d, lang);
