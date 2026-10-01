@@ -22,6 +22,8 @@ export const SITE = {
   },
   whatsappChannel: "", // π.χ. https://whatsapp.com/channel/XXXX
   telegramChannel: "", // π.χ. https://t.me/yavanet
+  facebookPage: "https://www.facebook.com/profile.php?id=61595065647057", // Σελίδα «יוונט - Yavanet»
+  instagram: "",
   ga4Id: process.env.GA4_ID || "G-3S3LQ8DQ0H", // Google Analytics 4 (φορτώνει μόνο με συναίνεση)
   clarityId: process.env.CLARITY_ID || "yp0858zixu", // Microsoft Clarity (φορτώνει μόνο με συναίνεση)
 };

@@ -83,7 +83,7 @@ GLOBAL.flightTop = GLOBAL.flights ? FLIGHTS.deals[0] : null;
 GLOBAL.flightCount = GLOBAL.flights ? FLIGHTS.deals.length : 0;
 GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
 
-const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") };
+const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") , sameAs: [SITE.facebookPage, SITE.instagram].filter(Boolean) };
 
 /* ---------- Δεδομένα για stories & feed ---------- */
 function feedData(lang) {

@@ -231,6 +231,7 @@ ${chips ? `<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)
 ${body}
 <footer>
   <nav aria-label="Legal">${legal}</nav>
+  ${SITE.facebookPage || SITE.instagram ? `<div class="social">${SITE.facebookPage ? `<a href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener me" data-out="facebook-page">📘 ${lang === "he" ? "עקבו אחרינו בפייסבוק" : "Follow us on Facebook"}</a>` : ""}${SITE.instagram ? ` · <a href="${esc(SITE.instagram)}" target="_blank" rel="noopener me" data-out="instagram">📸 Instagram</a>` : ""}</div>` : ""}
   <div>${esc(t.aiNote)}</div>
   <div>${lang === "he" ? "תמונות" : "Photos"}: <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></div>
   <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher.brand || SITE.publisher[lang])}</div>
@@ -311,6 +312,7 @@ export function newsletterBox(lang, opt = {}) {
   <div class="btnrow">
     ${SITE.whatsappChannel ? `<a class="btn wa" href="${esc(SITE.whatsappChannel)}" target="_blank" rel="noopener">${esc(t.waJoin)}</a>` : ""}
     ${SITE.telegramChannel ? `<a class="btn ghost" href="${esc(SITE.telegramChannel)}" target="_blank" rel="noopener">${esc(t.tgJoin)}</a>` : ""}
+    ${SITE.facebookPage ? `<a class="btn ghost" href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener" data-out="facebook-page">📘 ${lang === "he" ? "עקבו בפייסבוק" : "Follow on Facebook"}</a>` : ""}
   </div>
 </section>`;
 }
