@@ -685,7 +685,14 @@
     "0de72dc7764c": 1790864888239,
     "b3429b3aa228": 1790864888239,
     "93fe44986a98": 1790865760500,
-    "50ab8836640b": 1790866509030
+    "50ab8836640b": 1790866509030,
+    "2f2142f74571": 1790868412554,
+    "7ffe28e93abf": 1790868412554,
+    "90f1502ef3c0": 1790868412554,
+    "93c3615647fc": 1790868412554,
+    "4b94bc39a74c": 1790868412554,
+    "c33658b58df5": 1790868412554,
+    "2a1d83a06813": 1790868412554
   },
   "pending": {
     "ae5f3e": {
@@ -793,49 +800,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T15:02:33.224Z",
+      "at": "2026-10-01T15:26:38.407Z",
       "error": "HTTP 403",
-      "fails": 457
+      "fails": 458
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T15:02:35.508Z",
+      "at": "2026-10-01T15:26:41.063Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T15:02:36.251Z",
+      "at": "2026-10-01T15:26:41.997Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T15:02:36.641Z",
+      "at": "2026-10-01T15:26:43.022Z",
       "error": "HTTP 403",
-      "fails": 457
+      "fails": 458
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T15:02:37.762Z",
+      "at": "2026-10-01T15:26:44.361Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T15:02:38.001Z",
+      "at": "2026-10-01T15:26:44.755Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T15:02:38.906Z",
+      "at": "2026-10-01T15:26:46.055Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T15:02:39.742Z",
-      "items": 2
+      "at": "2026-10-01T15:26:47.158Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T15:02:40.638Z",
+      "at": "2026-10-01T15:26:48.003Z",
       "items": 10
     },
     "toi-greece": {
@@ -846,23 +853,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T15:02:41.167Z",
+      "at": "2026-10-01T15:26:48.573Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T15:02:41.368Z",
+      "at": "2026-10-01T15:26:48.642Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T15:02:41.516Z",
+      "at": "2026-10-01T15:26:48.872Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T15:02:41.911Z",
-      "items": 2
+      "at": "2026-10-01T15:26:49.407Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -871,12 +878,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T15:02:36.507Z",
+      "at": "2026-10-01T15:26:42.931Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T15:02:42.516Z",
+      "at": "2026-10-01T15:26:50.192Z",
       "items": 0
     },
     "hcg": {
@@ -887,14 +894,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T15:02:43.716Z",
+      "at": "2026-10-01T15:26:51.489Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -991,6 +998,18 @@
         "title": "↻ Crete: Over 255 Emergency Calls and Multiple Rescues Amid Severe Weather",
         "at": "2026-10-01T17:42:55+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-israel-relations-overview",
+        "title": "↻ Greece, Cyprus and Israel electricity interconnector moves forward",
+        "at": "2026-10-01T18:27:07+03:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "dodecanese-islands-guide-greece",
+        "title": "The Dodecanese Islands in Greece: A Guide to the Southern Archipelago",
+        "at": "2026-10-01T18:27:17+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1047,6 +1066,12 @@
     ],
     "errors": [
       "Gemini API: {\"error\":{\"code\":400,\"message\":\"User location is not supported for the API use.\",\"status\":\"FAILED_PRECONDITION\"}}"
+    ],
+    "fb": [
+      {
+        "slug": "dodecanese-islands-guide-greece",
+        "at": "2026-10-01T15:27:18.324Z"
+      }
     ]
   },
   "history": [
@@ -1078,11 +1103,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T14:55:09.030Z",
-    "considered": 1,
+    "at": "2026-10-01T15:26:52.554Z",
+    "considered": 7,
     "picked": 1,
     "items": [
-      "✓ ingr | Στο έλεος της κακοκαιρίας η Κρήτη – Σοβαρά προβλήματα από το ύψος της βροχής – Ένας νεκρός"
+      "· ingr | ΕΛΑΣ: Επιμένει σε παραίτηση ή παραπομπή Φλωρίδη – «Μνημείο θράσους» οι νέες δηλώσεις του υ",
+      "· naftemporiki | El Al: Ειδικές πτήσεις επαναπατρισμού Ισραηλινών από το Ντουμπάι",
+      "✓ naftemporiki | Μ. Μανουσάκης (ΑΔΜΗΕ): Εξαιρετικό παράδειγμα ελληνογαλλικής συνεργασίας ο Great Sea Interc",
+      "· ert | Αλεξανδρούπολη: Συμμετοχή των αλιέων στην πανελλαδική απεργία",
+      "· ert | 9η Πανελλήνια συνάντηση μονοπατιών στο Πολύκαστρο Κιλκίς",
+      "· ert | Σχολικές εκδρομές: Φόβοι για πλήγμα στην τουριστική αγορά από το νέο πλαίσιο",
+      "· gtp | Regency Casino Thessaloniki Marks 30 Years of Operation"
     ]
   },
   "evergreenDone": [
@@ -1116,9 +1147,10 @@
     "athens-metro",
     "greek-economy",
     "greek-politics",
-    "greek-islands"
+    "greek-islands",
+    "dodecanese"
   ],
-  "lastEvergreen": 1790853928787,
+  "lastEvergreen": 1790868427726,
   "pushKey": "ok",
   "lastPush": 1790849153065
 }
