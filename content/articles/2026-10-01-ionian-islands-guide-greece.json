@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "illustration",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15183540/pexels-photo-15183540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial view of the turquoise waters and white cliffs of Zakinthos, Greece.",
+    "credit": "Photo: Nektaria Kleopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/motorboats-near-bay-with-white-rock-15183540/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "alert": {
     "he": "מדריך לאיים",
@@ -66,6 +71,7 @@
     "sourceHash": "04e2b19fec34",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-01T17:04:26.807Z",
-    "official": false
+    "official": false,
+    "photoTried": true
   }
 }
