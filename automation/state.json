@@ -590,55 +590,56 @@
     "25ed692d5b9c": 1790817926232,
     "b2c644d26443": 1790819464054,
     "7faa3df14860": 1790820160350,
-    "96461d0f4a81": 1790821450906
+    "96461d0f4a81": 1790821450906,
+    "31d7e6d821cc": 1790822245255
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T02:23:58.654Z",
+      "at": "2026-10-01T02:37:13.867Z",
       "error": "HTTP 403",
-      "fails": 408
+      "fails": 409
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T02:24:01.013Z",
+      "at": "2026-10-01T02:37:16.012Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T02:24:01.743Z",
+      "at": "2026-10-01T02:37:16.922Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T02:24:02.484Z",
+      "at": "2026-10-01T02:37:17.741Z",
       "error": "HTTP 403",
-      "fails": 408
+      "fails": 409
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T02:24:03.575Z",
+      "at": "2026-10-01T02:37:18.678Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T02:24:04.201Z",
+      "at": "2026-10-01T02:37:19.031Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T02:24:05.259Z",
+      "at": "2026-10-01T02:37:20.208Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T02:24:06.025Z",
+      "at": "2026-10-01T02:37:20.949Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T02:24:06.528Z",
+      "at": "2026-10-01T02:37:21.461Z",
       "items": 10
     },
     "toi-greece": {
@@ -649,22 +650,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T02:24:07.119Z",
+      "at": "2026-10-01T02:37:21.965Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T02:24:07.460Z",
+      "at": "2026-10-01T02:37:22.318Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T02:24:07.750Z",
+      "at": "2026-10-01T02:37:22.411Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T02:24:08.284Z",
+      "at": "2026-10-01T02:37:22.596Z",
       "items": 10
     },
     "ynet-greece": {
@@ -674,12 +675,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T02:24:02.280Z",
+      "at": "2026-10-01T02:37:17.482Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T02:24:08.950Z",
+      "at": "2026-10-01T02:37:23.213Z",
       "items": 0
     },
     "hcg": {
@@ -690,7 +691,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T02:24:10.204Z",
+      "at": "2026-10-01T02:37:24.617Z",
       "items": 2
     }
   },
@@ -754,11 +755,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T02:24:10.906Z",
+    "at": "2026-10-01T02:37:25.255Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Prosecutors say ‘Jimmy the Greek’ should stay in jail"
+      "· gct | UPDATE: President Tasoulas opens restored Nicopolis as UNESCO file moves forward"
     ]
   },
   "evergreenDone": [
