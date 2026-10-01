@@ -10,8 +10,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5974852/pexels-photo-5974852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A person in tallit sits in a synagogue, capturing the serene and spiritual ambiance.",
+    "credit": "Photo: cottonbro studio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-person-wearing-a-tallit-while-sitting-in-a-synagogue-5974852/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "sources": [
     {
@@ -97,6 +102,7 @@
   "meta": {
     "manual": true,
     "imageQuery": "synagogue interior Greece",
-    "checkedAt": "2026-10-01T17:10:00+03:00"
+    "checkedAt": "2026-10-01T17:10:00+03:00",
+    "photoTried": true
   }
 }

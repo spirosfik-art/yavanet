@@ -10,8 +10,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15487450/pexels-photo-15487450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A busy street in Athens features a construction worker and passersby.",
+    "credit": "Photo: Airam Dato-on / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/construction-worker-in-a-yellow-hard-hat-walking-on-the-sidewalk-15487450/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "sources": [
     {
@@ -83,6 +88,7 @@
   "meta": {
     "manual": true,
     "imageQuery": "Ermou street Athens shopping",
-    "checkedAt": "2026-10-01T17:05:00+03:00"
+    "checkedAt": "2026-10-01T17:05:00+03:00",
+    "photoTried": true
   }
 }

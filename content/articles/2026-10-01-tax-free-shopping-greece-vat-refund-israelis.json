@@ -10,8 +10,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/914930/pexels-photo-914930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A fashionable woman with shopping bags in a charming urban street alleyway lined with shops.",
+    "credit": "Photo: Andrea Piacquadio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/woman-in-brown-full-zip-long-sleeved-coat-with-tote-bags-914930/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "sources": [
     {
@@ -73,6 +78,7 @@
   "meta": {
     "manual": true,
     "imageQuery": "shopping bags street Athens",
-    "checkedAt": "2026-10-01T17:00:00+03:00"
+    "checkedAt": "2026-10-01T17:00:00+03:00",
+    "photoTried": true
   }
 }
