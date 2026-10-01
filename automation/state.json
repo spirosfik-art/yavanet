@@ -608,55 +608,56 @@
     "4fd94cba55a6": 1790837821301,
     "115d15ae1d0a": 1790837821301,
     "b02903e5e6b5": 1790837821301,
-    "19d6b9b0f2da": 1790837821301
+    "19d6b9b0f2da": 1790837821301,
+    "e3573129ebfc": 1790838446221
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T06:56:47.510Z",
+      "at": "2026-10-01T07:07:15.427Z",
       "error": "HTTP 403",
-      "fails": 425
+      "fails": 426
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T06:56:50.657Z",
+      "at": "2026-10-01T07:07:17.789Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T06:56:51.619Z",
+      "at": "2026-10-01T07:07:18.310Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T06:56:52.186Z",
+      "at": "2026-10-01T07:07:19.121Z",
       "error": "HTTP 403",
-      "fails": 425
+      "fails": 426
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T06:56:53.998Z",
+      "at": "2026-10-01T07:07:20.142Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T06:56:54.066Z",
+      "at": "2026-10-01T07:07:20.324Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T06:56:55.117Z",
+      "at": "2026-10-01T07:07:21.210Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T06:56:55.960Z",
+      "at": "2026-10-01T07:07:21.856Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T06:56:56.716Z",
+      "at": "2026-10-01T07:07:22.728Z",
       "items": 10
     },
     "toi-greece": {
@@ -667,23 +668,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T06:56:57.257Z",
+      "at": "2026-10-01T07:07:23.168Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T06:56:57.483Z",
+      "at": "2026-10-01T07:07:23.233Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T06:56:57.577Z",
+      "at": "2026-10-01T07:07:23.485Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T06:56:58.105Z",
-      "items": 3
+      "at": "2026-10-01T07:07:23.613Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -692,12 +693,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T06:56:52.041Z",
+      "at": "2026-10-01T07:07:18.872Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T06:56:58.795Z",
+      "at": "2026-10-01T07:07:24.123Z",
       "items": 0
     },
     "hcg": {
@@ -708,7 +709,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T06:57:00.180Z",
+      "at": "2026-10-01T07:07:25.416Z",
       "items": 2
     }
   },
@@ -740,6 +741,12 @@
         "title": "Athens Metro Guide: Lines, Tickets and Airport Connections",
         "at": "2026-10-01T09:57:28+03:00",
         "section": "living"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Emergency 112 Alert Issued for Minoa Pediadas Due to Severe Weather",
+        "at": "2026-10-01T10:08:06+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -797,15 +804,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T06:57:01.301Z",
-    "considered": 5,
+    "at": "2026-10-01T07:07:26.221Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "✓ gct | Crete Faces Severe Flooding as Rivers Swell and Roads Turn to Rivers",
-      "· gct | Greece Pushes Emergency Migration Mechanism and Return Hubs",
-      "· gct | Greece Assumes UN Security Council Presidency As Of Today",
-      "· naftemporiki | Τουρκία: Το φιάσκο των μετοχών ανεβαίνει τα σκαλιά της εξουσίας – Το πρώτο κανόνι εκτός τω",
-      "· gct | Skopje Linked Clinic in Thessaloniki Investigated Over “Cancer Treatment”"
+      "✓ naftemporiki | Ηράκλειο: Ήχησε το 112 στον δήμο Μινώα Πεδιάδας λόγω της κακοκαιρίας – «Περιορίστε τις μετ"
     ]
   },
   "evergreenDone": [
