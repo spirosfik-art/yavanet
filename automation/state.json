@@ -603,55 +603,60 @@
     "a2b295adc76a": 1790833978400,
     "2d00358a5850": 1790833978400,
     "7549962f83d2": 1790834634102,
-    "f48516ddb61d": 1790836328858
+    "f48516ddb61d": 1790836328858,
+    "390cb0a97c42": 1790837821301,
+    "4fd94cba55a6": 1790837821301,
+    "115d15ae1d0a": 1790837821301,
+    "b02903e5e6b5": 1790837821301,
+    "19d6b9b0f2da": 1790837821301
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T06:31:56.528Z",
+      "at": "2026-10-01T06:56:47.510Z",
       "error": "HTTP 403",
-      "fails": 424
+      "fails": 425
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T06:31:58.702Z",
+      "at": "2026-10-01T06:56:50.657Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T06:31:59.394Z",
+      "at": "2026-10-01T06:56:51.619Z",
       "items": 3
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T06:32:00.198Z",
+      "at": "2026-10-01T06:56:52.186Z",
       "error": "HTTP 403",
-      "fails": 424
+      "fails": 425
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T06:32:01.150Z",
+      "at": "2026-10-01T06:56:53.998Z",
       "items": 6
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T06:32:01.264Z",
+      "at": "2026-10-01T06:56:54.066Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T06:32:02.585Z",
+      "at": "2026-10-01T06:56:55.117Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T06:32:03.337Z",
-      "items": 4
+      "at": "2026-10-01T06:56:55.960Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T06:32:04.273Z",
+      "at": "2026-10-01T06:56:56.716Z",
       "items": 10
     },
     "toi-greece": {
@@ -662,22 +667,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T06:32:04.756Z",
+      "at": "2026-10-01T06:56:57.257Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T06:32:05.023Z",
+      "at": "2026-10-01T06:56:57.483Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T06:32:05.872Z",
+      "at": "2026-10-01T06:56:57.577Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T06:32:06.016Z",
+      "at": "2026-10-01T06:56:58.105Z",
       "items": 3
     },
     "ynet-greece": {
@@ -687,12 +692,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T06:31:59.943Z",
+      "at": "2026-10-01T06:56:52.041Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T06:32:06.590Z",
+      "at": "2026-10-01T06:56:58.795Z",
       "items": 0
     },
     "hcg": {
@@ -703,14 +708,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T06:32:08.275Z",
+      "at": "2026-10-01T06:57:00.180Z",
       "items": 2
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-01",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "crete-travel-guide-regions-sights",
@@ -722,6 +727,18 @@
         "slug": "public-holidays-in-greece-guide",
         "title": "Public holidays in Greece: when shops and offices close",
         "at": "2026-10-01T08:02:51+03:00",
+        "section": "living"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete Faces Severe Flooding, Red Code Alert Issued",
+        "at": "2026-10-01T09:57:17+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "athens-metro-guide-lines-tickets-airport",
+        "title": "Athens Metro Guide: Lines, Tickets and Airport Connections",
+        "at": "2026-10-01T09:57:28+03:00",
         "section": "living"
       }
     ],
@@ -780,11 +797,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T06:32:08.858Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-01T06:57:01.301Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· gct | The Greek Newspaper That Launched Daily Journalism in 1873"
+      "✓ gct | Crete Faces Severe Flooding as Rivers Swell and Roads Turn to Rivers",
+      "· gct | Greece Pushes Emergency Migration Mechanism and Return Hubs",
+      "· gct | Greece Assumes UN Security Council Presidency As Of Today",
+      "· naftemporiki | Τουρκία: Το φιάσκο των μετοχών ανεβαίνει τα σκαλιά της εξουσίας – Το πρώτο κανόνι εκτός τω",
+      "· gct | Skopje Linked Clinic in Thessaloniki Investigated Over “Cancer Treatment”"
     ]
   },
   "evergreenDone": [
@@ -814,9 +835,10 @@
     "greek-cuisine",
     "healthcare-greece",
     "education-greece",
-    "public-holidays"
+    "public-holidays",
+    "athens-metro"
   ],
-  "lastEvergreen": 1790830947106,
+  "lastEvergreen": 1790837837826,
   "pushKey": "ok",
   "lastPush": 1790778523824
 }
