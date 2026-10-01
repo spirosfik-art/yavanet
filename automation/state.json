@@ -644,125 +644,7 @@
     "4dc1cf1785fd": 1790849051180,
     "9f157c04073b": 1790849051180
   },
-  "pending": {
-    "e266ef": {
-      "createdAt": 1790849090700,
-      "item": {
-        "title": "Απεργούν σήμερα Πέμπτη οι εργαζόμενοι στο Φεστιβάλ Αθηνών – Επιδαύρου",
-        "url": "https://www.ertnews.gr/eidiseis/apergoun-simera-pempti-oi-ergazomenoi-sto-festival-athinon-epidayrou/",
-        "summary": "Σε 24ωρη απεργία βρίσκονται σήμερα Πέμπτη 01/10/2026 οι εργαζόμενοι στο Φεστιβάλ Αθηνών – Επιδαύρου, με απόφαση το σωματείου τους, μετά από γενική συνέλευση, όπως έκανε γνωστό η Πανελλήνια Ομοσπονδία Θεάματος Ακροάματος (Π.Ο.Θ.Α.). Παράλληλα έχουν ανακοινώσει στάση εργασίας την Δευτέρα 05/10/2026, από ώρα 10:00 έως 14:00, και από ώρα 20:00 έως 24:00. Οι λόγοι των κινητοποιήσεων ... Περισσότερα \n www.ertnews.gr",
-        "published": "Thu, 01 Oct 2026 09:59:52 +0000",
-        "id": "9f157c04073b",
-        "sourceId": "ert",
-        "sourceName": "ΕΡΤ (ertnews.gr)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": true
-      },
-      "pick": {
-        "id": "9f157c04073b",
-        "section": "travel",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Strike at Athens and Epidaurus Festival may affect tourists visiting cultural sites.",
-        "item": {
-          "title": "Απεργούν σήμερα Πέμπτη οι εργαζόμενοι στο Φεστιβάλ Αθηνών – Επιδαύρου",
-          "url": "https://www.ertnews.gr/eidiseis/apergoun-simera-pempti-oi-ergazomenoi-sto-festival-athinon-epidayrou/",
-          "summary": "Σε 24ωρη απεργία βρίσκονται σήμερα Πέμπτη 01/10/2026 οι εργαζόμενοι στο Φεστιβάλ Αθηνών – Επιδαύρου, με απόφαση το σωματείου τους, μετά από γενική συνέλευση, όπως έκανε γνωστό η Πανελλήνια Ομοσπονδία Θεάματος Ακροάματος (Π.Ο.Θ.Α.). Παράλληλα έχουν ανακοινώσει στάση εργασίας την Δευτέρα 05/10/2026, από ώρα 10:00 έως 14:00, και από ώρα 20:00 έως 24:00. Οι λόγοι των κινητοποιήσεων ... Περισσότερα \n www.ertnews.gr",
-          "published": "Thu, 01 Oct 2026 09:59:52 +0000",
-          "id": "9f157c04073b",
-          "sourceId": "ert",
-          "sourceName": "ΕΡΤ (ertnews.gr)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": true
-        }
-      },
-      "draft": {
-        "slug": "athens-epidavrou-festival-strike",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9838,
-          "lng": 23.7275
-        },
-        "strike": {
-          "dates": [
-            "2026-10-01",
-            "2026-10-05"
-          ],
-          "sectors": [
-            "other"
-          ],
-          "hours": "all day on Oct 1; 10:00-14:00 and 20:00-14:00 on Oct 5",
-          "he": "שביתה בפסטיבל אתונה-אפידאורוס היום וב-5 באוקטובר",
-          "en": "Athens-Epidaurus Festival strike today and October 5"
-        },
-        "alert": {
-          "he": "שביתה באתונה",
-          "en": "Athens Strike"
-        },
-        "imageKey": "strike",
-        "imageQuery": "Athens protest strike banner",
-        "he": {
-          "title": "שביתה בפסטיבל אתונה-אפידאורוס: שיבושים בעקבות מחאת עובדים",
-          "seoTitle": "שביתה באתונה: שיבושים בפסטיבל אפידאורוס היום וב-5 באוקטובר",
-          "seoDesc": "שביתה יוונית בפסטיבל אתונה-אפידאורוס היום וב-5 באוקטובר עקב מחאת עובדים. כל הפרטים המעודכנים לתיירים וישראלים הנמצאים בעיר.",
-          "keywords": [
-            "שביתה באתונה",
-            "פסטיבל אתונה אפידאורוס",
-            "חדשות יוון",
-            "שביתה ביוון",
-            "תחבורה באתונה"
-          ],
-          "dek": "עובדי פסטיבל אתונה-אפידאורוס פתחו בשביתה של 24 שעות והכריזו על הפסקות עבודה נוספות השבוע על רקע אי חידוש חוזים והחלטות הנהלה.",
-          "tldr": [
-            "שביתה מלאה של עובדי הפסטיבל מתקיימת היום, 1 באוקטובר.",
-            "נקבעו שעות נוספות של הפסקת עבודה ביום שני, 5 באוקטובר.",
-            "האיגודים מוחים נגד אי חידוש חוזים המוני ומצב התקנים בארגון."
-          ],
-          "means": "אם אתם נמצאים כעת באתונה או מתכננים להגיע השבוע, כדאי להתעדכן בלוחות הזמנים של אירועי תרבות והופעות הקשורים לפסטיבל. מומלץ לבדוק מראש מול אתרי המופעים הרשמיים או סוכני הנסיעות האם חלו שינויים בלוח ההצגות והאירועים שנקבעו להיום או ליום שני הקרוב.",
-          "body": "## שביתה והפסקות עבודה בפסטיבל מרכזי\n\nעובדי פסטיבל אתונה-אפידאורוס פתחו היום (חמישי) בשביתה בת 24 שעות, בהתאם להחלטת איגוד העובדים ולאחר כינוס אסיפה כללית. כך דווח על ידי הפדרציה ההלנית של אמנויות הבמה.\n\nבנוסף לשביתה היום, הודיעו נציגי העובדים על שתי הפסקות עבודה ביום שני הקרובים, 5 באוקטובר, בין השעות 10:00 ל-14:00 וכן בין השעות 20:00 ל-24:00.\n\n## סיבות המחאה והכרזות האיגודים\n\nלפי הודעת הפדרציה, המהלך נובע מהחלטת הנהלת הפסטיבל שלא לחדש את החוזים לעובדים ותיקים המאיישים משרות חיוניות בארגון לאורך שנים.\n\nמצדם, איגוד השחקנים היווני הביע תמיכה מלאה במהלך ועורר קריאה ציבורית נגד המגמות האחרונות במוסדות התרבות במדינה, כולל מוסדות נוספים כמו האופרה הלאומית והתיאטרון הלאומי של צפון יוון. באיגוד דורשים לבטל מיד את הפיטורים ולהחזיר את העובדים למשרותיהם."
-        },
-        "en": {
-          "title": "Athens-Epidaurus Festival Strike: Workers Protest and Disruptions",
-          "seoTitle": "Athens Festival Strike: Protests and Closures Today and Oct 5",
-          "seoDesc": "Workers at the Athens-Epidaurus Festival launch a 24-hour strike and partial stoppages. Check updates for your trip to Greece.",
-          "keywords": [
-            "Athens strike",
-            "Athens Epidaurus Festival",
-            "Greece travel news",
-            "Athens events disruption",
-            "Greek culture strike"
-          ],
-          "dek": "Festival workers in Athens have initiated a 24-hour strike alongside planned work stoppages next week amid contract disputes.",
-          "tldr": [
-            "A full 24-hour strike takes place today, October 1.",
-            "Additional work stoppages are announced for Monday, October 5.",
-            "Unions protest against non-renewal of staff contracts."
-          ],
-          "means": "If you are visiting Athens or planning to attend cultural events linked to the festival, check the status of your tickets and scheduled performances directly with the venues or organizers. Keep extra time for travel in case of surrounding protests or area crowding.",
-          "body": "## Festival Strike Disruptions in Athens\n\nEmployees at the Athens-Epidaurus Festival launched a 24-hour strike today, following a decision by their union after a general assembly, as announced by the Panhellenic Federation of Entertainment Workers.\n\nIn addition to the full-day stoppage, the union announced work stoppages for Monday, October 5, running from 10:00 to 14:00 and again from 20:00 to 24:00.\n\n## Union Demands and Background\n\nThe mobilization stems from the festival management's decision not to renew contracts for experienced employees who have long supported the organization's needs, according to the federation's official statement.\n\nThe Greek Actors Union also expressed solidarity, calling on the public and industry professionals to oppose what they describe as widespread staff reductions across major state cultural institutions, demanding the immediate cancellation of the dismissals."
-        }
-      },
-      "text": "Σε 24ωρη απεργία βρίσκονται σήμερα Πέμπτη 01/10/2026 οι εργαζόμενοι στο Φεστιβάλ Αθηνών – Επιδαύρου , με απόφαση το σωματείου τους, μετά από γενική συνέλευση, όπως έκανε γνωστό η Πανελλήνια Ομοσπονδία Θεάματος Ακροάματος (Π.Ο.Θ.Α.).\n Παράλληλα έχουν ανακοινώσει στάση εργασίας την Δευτέρα 05/10/2026, από ώρα 10:00 έως 14:00, και από ώρα 20:00 έως 24:00. \n Οι λόγοι των κινητοποιήσεων σύμφωνα με την ανακοίνωση της ΠΟΘΑ, είναι «η απόφαση της διοίκησης του Φεστιβάλ Αθηνών Επιδαύρου, να μην ανανεώσει τις συμβάσεις σε εργαζόμενους που εδώ και χρόνια καλύπτουν τις ανάγκες του Οργανισμού».\n Επίσης, για το ίδιο θέμα, το Σωματείο Ελλήνων Ηθοποιών , αναφέρει ότι: «θα παλέψει στο πλευρό των συναδέλφων εργαζόμενων του Φεστιβάλ Αθηνών Επιδαύρου για να πάρουν πίσω τις απαράδεκτες απολύσεις.\n Καλούμε όλο τον κλάδο και το κοινό μας να ανατρέψουμε αυτή την πορεία που οδηγεί σε έναν πολιτισμό συμβιβασμένο στις απαιτήσεις της κερδοφορίας και της προπαγάνδας των λίγων.\n Εντείνονται όλο και περισσότερο τα κρούσματα απολύσεων σε εποπτευομενους και συναφείς χώρους του υπουργείου πολιτισμού. Μετά απο την Εθνική Λυρική Σκηνή και το Κρατικό Θέατρο Βορείου Ελλάδος, το σκηνικό έρχεται να συμπληρώσει το Φεστιβάλ Αθηνών Επιδαύρου με την απαράδεκτη μαζική απομάκρυνση – απόλυση εργαζομένων.\n Την ίδια στιγμή που βουιζει ο τόπος πως ο συγκεκριμένος οργανισμός λειτουργεί υποστελεχωμενος, με πολλαπλά προβλήματα διεκπεραίωσης, η διεύθυνση του Φεστιβάλ έρχεται να υλοποιήσει στο ακέραιο τις εξαγγελίες της κυβέρνησης στη ΔΕΘ, να ολοκληρώσει την βρώμικη δουλειά που συνεπάγεται το μισθολογικό κόστος, η φοροαπαλλαγές στους μεγαλοεπιχειρηματίες, η πολεμική οικονομία, η συμμετοχή της χώρας στον πόλεμο. Προφανώς αποκαλύπτεται όλο και περισσότερο το περιεχόμενο της συνάντησης της υπουργού πολιτισμού με την αμερικανική πρεσβεία, οι δεσμεύσεις και οι κατευθύνσεις που δίνονται στους φορείς πολιτισμού.\n Ζητάμε να παρθούν τώρα πίσω οι απολύσεις».\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Πανελλήνια Ομοσπονδία Θεάματος Ακροάματος Σωματείο Ελλήνων Ηθοποιών φεστιβάλ Αθηνών – Επιδαύρου \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
-      "issues": [],
-      "el": {
-        "title": "Απεργία στο Φεστιάνι Αθηνών-Επιδաύρου: Διαμαρτυρίες εργαζομένων και ανατροπές",
-        "dek": "Οι εργαζόμενοι στο Φεστιβάλ στην Αθήνα ξεκίνησαν 24ωρη απεργία μαζί με προγραμματισμένες στάσεις εργασίας την επόμενη εβδομάδα εν μέσω διαφωνιών για τις συμβάσεις.",
-        "tldr": [
-          "Σήμερα, 1 Οκτωβρίου, πραγματοποιείται ολόκληρη 24ωρη απεργία.",
-          "Έχουν ανακοινωθεί επιπλέον στάσεις εργασίας για τη Δευτέρα, 5 Οκτωβρίου.",
-          "Τα συνδικάτα διαμαρτύρονται για τη μη ανανέωση των συμβάσεων του προσωπικού."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -928,6 +810,12 @@
         "title": "How Greek Politics Works: Parliament, Government, and Elections Explained",
         "at": "2026-10-01T12:54:02+03:00",
         "section": "politics"
+      },
+      {
+        "slug": "athens-epidavrou-festival-strike",
+        "title": "Athens-Epidaurus Festival Strike: Workers Protest and Disruptions",
+        "at": "2026-10-01T13:05:49+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1042,5 +930,5 @@
   ],
   "lastEvergreen": 1790848420232,
   "pushKey": "ok",
-  "lastPush": 1790778523824
+  "lastPush": 1790849153065
 }
