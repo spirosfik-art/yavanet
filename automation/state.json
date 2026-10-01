@@ -665,55 +665,58 @@
     "cc0e340fa247": 1790857940008,
     "4525696642f8": 1790857940008,
     "212fed7705bb": 1790857940008,
-    "9bf1ffd9c0e7": 1790857940008
+    "9bf1ffd9c0e7": 1790857940008,
+    "dc6cfae39b05": 1790859427614,
+    "3f58d20f2016": 1790859427614,
+    "f17552e74673": 1790859427614
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-01T12:31:53.354Z",
+      "at": "2026-10-01T12:56:54.566Z",
       "error": "HTTP 403",
-      "fails": 447
+      "fails": 448
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-01T12:31:56.565Z",
+      "at": "2026-10-01T12:56:57.282Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-01T12:31:57.594Z",
+      "at": "2026-10-01T12:56:58.240Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-01T12:31:58.408Z",
+      "at": "2026-10-01T12:56:58.535Z",
       "error": "HTTP 403",
-      "fails": 447
+      "fails": 448
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-01T12:31:59.540Z",
-      "items": 7
+      "at": "2026-10-01T12:56:59.707Z",
+      "items": 10
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-01T12:31:59.668Z",
+      "at": "2026-10-01T12:56:59.775Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-01T12:32:04.104Z",
+      "at": "2026-10-01T12:57:00.919Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-01T12:32:04.821Z",
+      "at": "2026-10-01T12:57:01.876Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-01T12:32:05.821Z",
+      "at": "2026-10-01T12:57:02.778Z",
       "items": 10
     },
     "toi-greece": {
@@ -724,23 +727,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-01T12:32:06.398Z",
+      "at": "2026-10-01T12:57:03.342Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-01T12:32:06.501Z",
+      "at": "2026-10-01T12:57:03.398Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-01T12:32:07.217Z",
-      "items": 11
+      "at": "2026-10-01T12:57:03.946Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T12:32:07.416Z",
-      "items": 6
+      "at": "2026-10-01T12:57:04.162Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -749,12 +752,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-01T12:31:58.332Z",
+      "at": "2026-10-01T12:56:58.459Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-01T12:32:08.283Z",
+      "at": "2026-10-01T12:57:04.991Z",
       "items": 0
     },
     "hcg": {
@@ -765,7 +768,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-01T12:32:09.491Z",
+      "at": "2026-10-01T12:57:06.352Z",
       "items": 2
     }
   },
@@ -940,15 +943,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T12:32:20.008Z",
-    "considered": 5,
-    "picked": 3,
+    "at": "2026-10-01T12:57:07.614Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· gct | Sia sells 50% of music catalogue for $180 million",
-      "· gct | Mazonakis personal doctor says singer was in excellent health before death",
-      "✓ ingr | Τσουκαλάς: Ο Μητσοτάκης περιμένει να ξεπαγιάσουν οι Έλληνες για να πάρει μέτρα – Να καταργ",
-      "✓ ingr | Eurostat: Ενοίκια και κατοικίες συνέχισαν να γίνονται ακριβότερα το α΄ τρίμηνο 2026",
-      "✓ meteoalarm | Orange Wind Warning issued for Greece - North East Aegean Islands"
+      "· naftemporiki | Ίδρυμα Ευγενίδου: Συνυπογράφει τους 9 ευρωπαϊκούς Τεχνολογικούς Χάρτες Πορείας για το μέλλ",
+      "· gct | Marco Rubio heads to Athens with defence, energy and Eastern Mediterranean agenda",
+      "· meteoalarm | Orange Wind Warning issued for Greece - Attiki"
     ]
   },
   "evergreenDone": [
