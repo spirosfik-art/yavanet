@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T08:34:29+03:00",
+  "updated": "2026-10-02T07:31:07+03:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,23 +9,23 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 100,
-      "depart": "2026-10-25",
-      "ret": "2026-10-29",
+      "price": 99,
+      "depart": "2026-10-26",
+      "ret": "2026-10-30",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2510ATH29101?t=GQ17929098001792917900000135TLVATH17932353001793242500000120ATHTLV_1831de2a872f3f852172816496d9d4a4_9486&search_date=30092026&expected_price_uuid=01a0f45e-1a77-8030-6b1c-9a6624ccfcb0&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UN7LJ3unAkY1IswckdfU8w&expected_price_source=share&expected_price_currency=eur&expected_price=100&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9249&search_date=01102026&expected_price_uuid=01a0f983-ea82-8030-661b-f63adb9bed01&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=99&marker=782936"
     },
     {
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 123,
+      "price": 114,
       "depart": "2026-10-02",
       "ret": "2026-10-08",
       "airline": "Israir",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0210RHO08101?t=6H17909493001790955300000100TLVRHO17914596001791465000000090RHOTLV_8cb884b291cefda34ef8d1f1e923a494_11590&search_date=01102026&expected_price_uuid=01a0f5e7-12d3-8030-e1db-ddededb3b787&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=K5ZPXTp5gAxp8LEKSE1jmQ&expected_price_source=share&expected_price_currency=eur&expected_price=123&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0210RHO08101?t=6H17909550001790961000000100TLVRHO17914596001791465300000095RHOTLV_cd7f437f4de0f87e16073bdac8f81e5b_10672&search_date=01102026&expected_price_uuid=01a0f99a-b2a8-8030-e3cd-0da4f9feaf9c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=iRobVuVFbh1VK0syM5hzqw&expected_price_source=share&expected_price_currency=eur&expected_price=114&marker=782936"
     },
     {
       "dest": "HER",
@@ -61,28 +61,6 @@
       "link": "https://www.aviasales.com/search/TLV1010CHQ14101?t=W617916657001791716700000850TLVBUDCHQ17919660001792008000000700CHQPFOTLV_0a1349d7e8379326ed2526ff7a90a2ca_19280&search_date=26092026&expected_price_uuid=01a0dd94-d8cf-8030-e7ab-754002106cb7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Mn28td9KW0nyjLFq99BCEA&expected_price_source=share&expected_price_currency=eur&expected_price=201&marker=782936"
     },
     {
-      "dest": "JMK",
-      "he": "מיקונוס",
-      "en": "Mykonos",
-      "price": 204,
-      "depart": "2026-10-18",
-      "ret": "2026-10-21",
-      "airline": "Wizz Air",
-      "transfers": 3,
-      "link": "https://www.aviasales.com/search/TLV1810JMK21101?t=W617923632001792448400001420TLVBTSJMK17926047001792653000000805JMKATHLCATLV_15b03ff004d18bf98049ea86c12c1b85_19719&search_date=24092026&expected_price_uuid=01a0d499-f9d5-8030-ea51-94be864c804a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jvnnEef4HpBz7AMTve-qbw&expected_price_source=share&expected_price_currency=eur&expected_price=204&marker=782936"
-    },
-    {
-      "dest": "JTR",
-      "he": "סנטוריני",
-      "en": "Santorini",
-      "price": 210,
-      "depart": "2026-10-06",
-      "ret": "2026-10-08",
-      "airline": "El Al",
-      "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0610JTR08101?t=LY17912976001791304800000120TLVJTR17914758001791482100000105JTRTLV_8809f9e8e4199f68f3c56a54a97df094_20308&search_date=24092026&expected_price_uuid=01a0d493-743f-8030-2869-dc8efdb696ad&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EJYmfBI4mUGdPbWZsz_LsQ&expected_price_source=share&expected_price_currency=eur&expected_price=210&marker=782936"
-    },
-    {
       "dest": "CFU",
       "he": "קורפו",
       "en": "Corfu",
@@ -92,6 +70,28 @@
       "airline": "Israir",
       "transfers": 1,
       "link": "https://www.aviasales.com/search/TLV0910CFU14101?t=6H17915442001791553800000160TLVCFU17919570001791993000000600CFUOTPTLV_6952771d7949803070ddef99f688f96f_21914&search_date=25092026&expected_price_uuid=01a0d862-43d8-8030-a58c-2bc94aae8cf3&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=k7989BpqzGQLJsS65v-9xw&expected_price_source=share&expected_price_currency=eur&expected_price=228&marker=782936"
+    },
+    {
+      "dest": "JTR",
+      "he": "סנטוריני",
+      "en": "Santorini",
+      "price": 236,
+      "depart": "2026-10-15",
+      "ret": "2026-10-19",
+      "airline": "Sky Express",
+      "transfers": 3,
+      "link": "https://www.aviasales.com/search/TLV1510JTR19101?t=GQ17921070001792136700000495TLVATHJTR17924397001792479900000670JTRATHLCATLV_89e8754159966cb4e8ba3a62bc91f923_22637&search_date=27092026&expected_price_uuid=01a0e1d9-1178-8030-6ac9-4d1d51cad051&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0G7DDGs8Iy382x7qjxpMwA&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
+    },
+    {
+      "dest": "JMK",
+      "he": "מיקונוס",
+      "en": "Mykonos",
+      "price": 248,
+      "depart": "2026-11-19",
+      "ret": "2026-11-24",
+      "airline": "Aegean",
+      "transfers": 2,
+      "link": "https://www.aviasales.com/search/TLV1911JMK24111?t=A317950908001795108800000300TLVATHJMK17955426001795661700001985JMKATHTLV_02b8671ce3fd3a11fe101210bc5f5e60_23855&search_date=27092026&expected_price_uuid=01a0e1b3-8a76-8030-26d4-b4809d93920f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=8OcxMko3vte9ctHCT0pfyA&expected_price_source=share&expected_price_currency=eur&expected_price=248&marker=782936"
     },
     {
       "dest": "KGS",
