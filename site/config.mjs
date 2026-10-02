@@ -26,7 +26,7 @@ export const SITE = {
   instagram: "",
   ga4Id: process.env.GA4_ID || "G-3S3LQ8DQ0H", // Google Analytics 4 (φορτώνει μόνο με συναίνεση)
   clarityId: process.env.CLARITY_ID || "yp0858zixu", // Microsoft Clarity (φορτώνει μόνο με συναίνεση)
-  adNetworkSrc: "https://tpembars.com/NTc4ODk4.js?t=578898", // script δικτύου διαφημίσεων (προστέθηκε 28/9) – φορτώνει ΜΟΝΟ με συναίνεση για cookies διαφήμισης. Κενό = ανενεργό
+  adNetworkSrc: "", // script δικτύου διαφημίσεων (προστέθηκε 28/9) – φορτώνει ΜΟΝΟ με συναίνεση για cookies διαφήμισης. Κενό = ανενεργό
   metaPixelId: process.env.META_PIXEL_ID || "1416456499847406", // Meta Pixel (φορτώνει μόνο με συναίνεση για cookies διαφήμισης). Κενό = ανενεργό
 };
 

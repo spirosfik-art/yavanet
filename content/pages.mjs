@@ -140,7 +140,7 @@ Access, correction, deletion, restriction, objection, and withdrawing consent at
 
 - **הכרחיות** · yv-consent (שמירת הבחירה שלכם, 12 חודשים, אחסון מקומי בדפדפן).
 - **סטטיסטיקה** · _ga, _ga_* (Google Analytics, עד 14 חודשים) · _clck, _clsk, CLID (Microsoft Clarity, עד 12 חודשים).
-- **פרסום** · _fbp, fr (Meta Pixel של פייסבוק, עד 90 יום): מדידת הביקורים והפניות שמגיעים מהמודעות שלנו והצגת מודעות רלוונטיות בפייסבוק · עוגיות של רשת פרסום חיצונית (tpembars.com) להצגת מודעות באתר.` },
+- **פרסום** · _fbp, fr (Meta Pixel של פייסבוק, עד 90 יום): מדידת הביקורים והפניות שמגיעים מהמודעות שלנו והצגת מודעות רלוונטיות בפייסבוק.` },
     en: { title: "Cookie policy", body: `## What cookies are
 
 Small files stored in your browser. Non-essential cookies load only after you consent, and you can change your choice any time via "Cookie settings" at the bottom of every page.
@@ -149,7 +149,7 @@ Small files stored in your browser. Non-essential cookies load only after you co
 
 - **Necessary** · yv-consent (stores your choice, 12 months, local browser storage).
 - **Statistics** · _ga, _ga_* (Google Analytics, up to 14 months) · _clck, _clsk, CLID (Microsoft Clarity, up to 12 months).
-- **Advertising** · _fbp, fr (Meta/Facebook Pixel, up to 90 days): measuring visits and enquiries from our ads and showing relevant ads on Facebook · cookies of an external ad network (tpembars.com) that shows ads on this site.` },
+- **Advertising** · _fbp, fr (Meta/Facebook Pixel, up to 90 days): measuring visits and enquiries from our ads and showing relevant ads on Facebook.` },
   },
   terms: {
     he: { title: "תנאי שימוש", body: `השימוש באתר מהווה הסכמה לתנאים האלה.
