@@ -23,7 +23,7 @@ export function profileBody(a, lang) {
   <div class="pf-photo"><img src="${esc(p.photo)}" alt="${esc(p.name)}" width="640" height="800"></div>
   <div class="pf-intro">
     ${p.logo ? `<img class="pf-logo" src="${esc(p.logo)}" alt="${esc(p.logoAlt || p.name)}" width="1000" height="797">` : ""}
-    <span class="pf-eye">${esc(p.eyebrow)} <span class="spons">${he ? "בשיתוף פעולה" : "In partnership"}</span></span>
+    <span class="pf-eye">${esc(p.eyebrow)} <span class="spons">${he ? "תוכן ממומן · בשיתוף פעולה" : "Sponsored · In partnership"}</span></span>
     <h1>${esc(p.name)}</h1>
     <p class="pf-role">${esc(p.role)}</p>
     <blockquote>${esc(p.quote)}</blockquote>

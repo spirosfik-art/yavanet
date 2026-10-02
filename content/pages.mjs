@@ -79,6 +79,7 @@ Leave your details and we will send you an offer.` },
 - **ניוזלטר:** כתובת אימייל, שפה, תאריך הרשמה ואישור.
 - **טפסי פנייה:** שם, אימייל, טלפון, אזור ותקציב, וההודעה שלכם.
 - **סטטיסטיקה (רק בהסכמה):** עמודים שנצפו, משך הביקור, מדינה ועיר משוערות, סוג מכשיר, מקור ההגעה ולחיצות. המידע נאסף באופן סטטיסטי, בלי שמכם.
+- **התראות לנייד (רק אם הפעלתם אותן):** כתובת ההרשמה הטכנית של הדפדפן, בלי שם ובלי אימייל. אפשר לבטל בכל רגע בהגדרות הדפדפן.
 - **לוגים טכניים:** כתובת IP וסוג דפדפן, לצורכי אבטחה בלבד.
 
 ## למה ועל איזה בסיס
@@ -90,7 +91,7 @@ Leave your details and we will send you an offer.` },
 
 ## עם מי אנחנו משתפים
 
-ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) Microsoft Clarity (רק בהסכמה) ו-Meta Pixel של פייסבוק (מדידת ביקורים ופניות מהמודעות שלנו ויצירת קהלים לפרסום, רק בהסכמה לעוגיות פרסום). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
+ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Telegram (התראה פנימית לצוות שלנו כשמגיעה פנייה), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) Microsoft Clarity (רק בהסכמה) ו-Meta Pixel של פייסבוק (מדידת ביקורים ופניות מהמודעות שלנו ויצירת קהלים לפרסום, רק בהסכמה לעוגיות פרסום). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
 
 ## כמה זמן שומרים
 
@@ -110,6 +111,7 @@ Leave your details and we will send you an offer.` },
 - **Newsletter:** email address, language, sign-up date and confirmation.
 - **Contact forms:** name, email, phone, area and budget, and your message.
 - **Statistics (only with consent):** pages viewed, visit length, approximate country and city, device type, referral source and clicks. Collected statistically, without your name.
+- **Mobile notifications (only if you turn them on):** your browser's technical subscription address, with no name or email. You can turn them off any time in your browser settings.
 - **Technical logs:** IP address and browser type, for security only.
 
 ## Why, and on what basis
@@ -121,7 +123,7 @@ Leave your details and we will send you an offer.` },
 
 ## Who we share with
 
-Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) Microsoft Clarity (only with consent) and the Meta (Facebook) Pixel (measuring visits and enquiries from our ads and building advertising audiences, only with consent to advertising cookies). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
+Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Telegram (internal alert to our team when a request arrives), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) Microsoft Clarity (only with consent) and the Meta (Facebook) Pixel (measuring visits and enquiries from our ads and building advertising audiences, only with consent to advertising cookies). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
 
 ## How long we keep it
 

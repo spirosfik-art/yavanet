@@ -179,7 +179,7 @@ ${newsletterBox(lang)}
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
-  text: lang === "he" ? "השאירו פרטים ויועץ נדל״ן דובר עברית יחזור אליכם. בלי התחייבות ובחינם." : "Leave your details and a Hebrew-speaking property adviser will get back to you. Free, no obligation." }) : ""}
+  text: lang === "he" ? "השאירו פרטים ויועץ נדל״ן דובר עברית יחזור אליכם. בלי התחייבות ובחינם. גילוי נאות: הפנייה מגיעה ל-S.F. Properties (ספירידון פיקיאס, מתווך נדל״ן, ΓΕΜΗ 172090403000), המו״ל של יוונט." : "Leave your details and a Hebrew-speaking property adviser will get back to you. Free, no obligation. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, GEMI 172090403000), Yavanet's publisher." }) : ""}
 ${related.length ? `<section><div class="zone-h"><h2>${esc(t.related)}</h2></div><div class="cards">${related.map((x) => card(x, lang)).join("")}</div></section>` : ""}
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;

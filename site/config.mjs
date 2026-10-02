@@ -11,7 +11,7 @@ export const SITE = {
     address: { he: "P. P. Germanou 77, Filothei 15237, יוון", en: "P. P. Germanou 77, Filothei 15237, Greece" },
     registration: { he: "מספר עוסק (ΑΦΜ) 175679614, ΓΕΜΗ 172090403000", en: "Tax ID (ΑΦΜ) 175679614, GEMI (ΓΕΜΗ) 172090403000" },
     email: "info@sfproperties.gr",
-    updated: "27.09.2026",
+    updated: "02.10.2026",
   },
   // Banner διαφήμισης της εταιρείας ακινήτων
   ad: {
@@ -82,7 +82,7 @@ export const T = {
     formName: "שם מלא", formEmail: "אימייל", formPhone: "טלפון / וואטסאפ", formMsg: "ההודעה שלכם", formArea: "אזור מבוקש", formBudget: "תקציב (€)",
     formConsent: "אני מסכים/ה שהפרטים ישמשו לחזרה אליי בנושא הפנייה, לפי מדיניות הפרטיות.",
     formSend: "שליחה", formSent: "הפנייה נשלחה. נחזור אליכם בהקדם.", formErr: "השליחה נכשלה. נסו שוב בעוד רגע.", formBad: "יש למלא שם, אימייל תקין ולסמן הסכמה.",
-    leadTitle: "דברו עם יועץ נדל״ן דובר עברית", leadText: "ספרו לנו מה אתם מחפשים, ויועץ יחזור אליכם.",
+    leadTitle: "דברו עם יועץ נדל״ן דובר עברית", leadText: "ספרו לנו מה אתם מחפשים, ויועץ יחזור אליכם. גילוי נאות: הפנייה מגיעה ל-S.F. Properties (ספירידון פיקיאס, מתווך נדל״ן, ΓΕΜΗ 172090403000), המו״ל של יוונט.",
     askTitle: "שאלו את המומחה", askText: "שאלה על קניית נכס או מעבר ליוון? השאלות הטובות הופכות לכתבות.",
     reportTitle: "דיווח על טעות בכתבה", feedbackTitle: "דעתכם חשובה לנו",
     nlOk: "כמעט סיימנו: שלחנו לך מייל לאישור ההרשמה.", nlOkDirect: "נרשמת! תודה 🙏", nlBad: "צריך כתובת מייל תקינה והסכמה לקבלת הניוזלטר.",
@@ -131,7 +131,7 @@ export const T = {
     formName: "Full name", formEmail: "Email", formPhone: "Phone / WhatsApp", formMsg: "Your message", formArea: "Preferred area", formBudget: "Budget (€)",
     formConsent: "I agree that my details are used to reply to this request, under the privacy policy.",
     formSend: "Send", formSent: "Sent. We will get back to you soon.", formErr: "Sending failed. Please try again in a moment.", formBad: "Fill in your name, a valid email and tick the consent box.",
-    leadTitle: "Talk to a Hebrew-speaking property advisor", leadText: "Tell us what you are looking for and an advisor will get back to you.",
+    leadTitle: "Talk to a Hebrew-speaking property advisor", leadText: "Tell us what you are looking for and an advisor will get back to you. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, GEMI 172090403000), Yavanet's publisher.",
     askTitle: "Ask the expert", askText: "A question about buying property or moving to Greece? The best questions become articles.",
     reportTitle: "Report an error in this article", feedbackTitle: "We value your view",
     nlOk: "Almost done: we sent you an email to confirm.", nlOkDirect: "You are subscribed! Thank you 🙏", nlBad: "Enter a valid email and tick the consent box.",

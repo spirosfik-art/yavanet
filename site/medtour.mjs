@@ -22,7 +22,7 @@ const icon = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true">${IC[k]}</svg>`
 const C = {
   he: {
     eye: "פרויקט חדש · נדל״ן באתונה",
-    spons: "בשיתוף פעולה",
+    spons: "תוכן ממומן · בשיתוף פעולה",
     h1a: "90% תפוסה, כל השנה.",
     h1b: "גם בחורף.",
     dek: "אסי דורון ו-S.F. Properties פתחו דירות Airbnb באזורים נבחרים ומאוד ממוקדים, ליד בתי חולים פרטיים גדולים. רוב האורחים הם יוונים מכל הארץ שמגיעים לאתונה לניתוחים ולטיפולים, ולכן הדירות מלאות גם בחורף.",
@@ -87,7 +87,7 @@ const C = {
   },
   en: {
     eye: "New project · Athens real estate",
-    spons: "In partnership",
+    spons: "Sponsored · In partnership",
     h1a: "90% occupancy, all year.",
     h1b: "Even in winter.",
     dek: "Asi Doron and S.F. Properties opened Airbnb apartments in very specialised, carefully chosen areas, near large private hospitals. Most guests are Greeks from all over the country who come to Athens for surgery and treatment, so the apartments stay full in winter too.",

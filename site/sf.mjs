@@ -62,7 +62,7 @@ const C = {
     endT: "יש לכם נכס באתונה, או חולמים על אחד?",
     endS: "שלחו הודעה בוואטסאפ. עונים בעברית, ואומרים לכם בכנות מה הנכס יכול להכניס.",
     call: "להתקשר",
-    disc: "תוכן בשיתוף S.F. Properties. האתר של S.F. Properties זמין ביוונית ובאנגלית.",
+    disc: "תוכן ממומן: S.F. Properties היא המו״לית של יוונט. האתר של S.F. Properties זמין ביוונית ובאנגלית.",
     back: [["/advisor/", "יועץ נדל״ן דובר עברית"], ["/madad/", "מחירי דירות באתונה"], ["/invest/", "נדל״ן ביוון"]],
   },
   en: {
@@ -107,7 +107,7 @@ const C = {
     endT: "Own a place in Athens, or dreaming of one?",
     endS: "Send us a WhatsApp message. We'll tell you honestly what your property can earn.",
     call: "Call",
-    disc: "Content in partnership with S.F. Properties.",
+    disc: "Sponsored content: S.F. Properties is Yavanet's publisher.",
     back: [["/advisor/", "Hebrew-speaking property adviser"], ["/madad/", "Athens property prices"], ["/invest/", "Property in Greece"]],
   },
 };
@@ -133,7 +133,7 @@ export function sfShowcase(a, lang) {
 <header class="sfx-hero">
   <div class="sfx-blob b1" aria-hidden="true"></div><div class="sfx-blob b2" aria-hidden="true"></div>
   <div class="sfx-copy">
-    <span class="sfx-eye"><img src="/sf-logo-light.png" alt="S.F. Properties" width="900" height="142"><em>${esc(c.eye)}</em></span>
+    <span class="sfx-eye"><img src="/sf-logo-light.png" alt="S.F. Properties" width="900" height="142"><em>${esc(c.eye)}</em> <span class="spons">${he ? "תוכן ממומן" : "Sponsored"}</span></span>
     <h1>${esc(c.h1a)}<br><span class="sfx-hl">${esc(c.h1b)}</span></h1>
     <p class="sfx-rot">${esc(c.rotPre)} <span class="sfx-rotw" data-words="${esc(JSON.stringify(c.rot))}">${esc(c.rot[0])}</span></p>
     <p class="sfx-lead">${esc(c.lead)}</p>
