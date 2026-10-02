@@ -778,55 +778,56 @@
     "4268462f802d": 1790926048034,
     "95a9d0929123": 1790926048034,
     "4b48947f482f": 1790926048034,
-    "fc1292c180f6": 1790926048034
+    "fc1292c180f6": 1790926048034,
+    "6adc0efa0f9c": 1790926770924
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T07:27:17.588Z",
+      "at": "2026-10-02T07:39:20.378Z",
       "error": "HTTP 403",
-      "fails": 519
+      "fails": 520
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T07:27:19.682Z",
-      "items": 0
+      "at": "2026-10-02T07:39:22.840Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T07:27:20.365Z",
+      "at": "2026-10-02T07:39:23.384Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T07:27:20.947Z",
+      "at": "2026-10-02T07:39:23.744Z",
       "error": "HTTP 403",
-      "fails": 519
+      "fails": 520
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T07:27:21.968Z",
+      "at": "2026-10-02T07:39:24.763Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T07:27:22.307Z",
+      "at": "2026-10-02T07:39:25.124Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T07:27:23.335Z",
+      "at": "2026-10-02T07:39:26.010Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T07:27:23.958Z",
+      "at": "2026-10-02T07:39:26.649Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T07:27:24.675Z",
+      "at": "2026-10-02T07:39:27.517Z",
       "items": 10
     },
     "toi-greece": {
@@ -837,22 +838,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T07:27:25.062Z",
+      "at": "2026-10-02T07:39:27.879Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T07:27:25.412Z",
+      "at": "2026-10-02T07:39:28.220Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T07:27:25.581Z",
+      "at": "2026-10-02T07:39:28.391Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T07:27:25.699Z",
+      "at": "2026-10-02T07:39:28.521Z",
       "items": 6
     },
     "ynet-greece": {
@@ -862,12 +863,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T07:27:20.748Z",
+      "at": "2026-10-02T07:39:23.554Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T07:27:26.111Z",
+      "at": "2026-10-02T07:39:29.024Z",
       "items": 0
     },
     "hcg": {
@@ -878,7 +879,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T07:27:27.163Z",
+      "at": "2026-10-02T07:39:30.206Z",
       "items": 1
     }
   },
@@ -994,14 +995,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T07:27:28.034Z",
-    "considered": 4,
-    "picked": 1,
+    "at": "2026-10-02T07:39:30.924Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "✓ naftemporiki | ΑΑΔΕ: Νέα διαδικασία για τις φορολογικές δεσμευτικές απαντήσεις",
-      "· gct | Kythera unveils cultural centre honouring Greek-Australian filmmaker George Miller",
-      "· naftemporiki | Ορμούζ: Πλήγμα σε πλήρως φορτωμένο VLCC – Φωτιά στο πλοίο, ασφαλές το πλήρωμα",
-      "· gtp | Minister Gives Update on Motorways, Metro and Airport Projects Across Greece"
+      "· naftemporiki | Ισαάκ Χέρτζογκ: Ο Τραμπ είναι ο νούμερο 1 φίλος του Ισραήλ"
     ]
   },
   "evergreenDone": [
