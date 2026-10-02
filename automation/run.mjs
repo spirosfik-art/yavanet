@@ -313,7 +313,11 @@ async function publish(draft, item, pick, text) {
 }
 async function distribute(a) {
   const text = `${a.breaking ? "🔴 " : ""}${a.he.title}\n\n${a.he.dek}\n\n${articleUrl(a, "he", "telegram")}`;
-  if (env.TELEGRAM_CHANNEL_ID) await tg("sendMessage", { chat_id: env.TELEGRAM_CHANNEL_ID, text });
+  // Τα social δεν στέλνονται εδώ: μπαίνουν σε ουρά και τα στέλνει το automation/post-social.mjs ΜΕΤΑ το deploy,
+  // αλλιώς το Facebook/Telegram διαβάζουν τη σελίδα πριν υπάρξει και κρατούν προεπισκόπηση «404».
+  const q = (state.socialQueue ||= []);
+  const job = { slug: a.slug, url: articleUrl(a), at: new Date().toISOString() };
+  if (env.TELEGRAM_CHANNEL_ID) job.telegram = { chat_id: env.TELEGRAM_CHANNEL_ID, text };
   // Facebook (μέσω Make): έως FB_MAX/ημέρα, με απόσταση ≥ FB_GAP_MIN λεπτά, 07:00–23:00· τα έκτακτα περνούν πάντα
   const FB_MAX = Number(env.FB_MAX_PER_DAY || 4), FB_GAP_MIN = 120;
   const fb = (state.today.fb ||= []);
@@ -323,12 +327,13 @@ async function distribute(a) {
   if (env.MAKE_WEBHOOK_URL && !DRY && fbOk) {
     fb.push({ slug: a.slug, at: new Date().toISOString() });
     // Make.com / Zapier: ανάρτηση σε Facebook, Instagram, X κ.λπ.
-    await fetch(env.MAKE_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({
+    job.make = {
       url_he: articleUrl(a, "he", "facebook"), url_en: articleUrl(a, "en", "facebook"), title_he: a.he.title, title_en: a.en.title, dek_he: a.he.dek, dek_en: a.en.dek,
       section: a.section, breaking: a.breaking, image: a.image.type === "photo" ? a.image.url : SITE.url + "/og.png",
       post_he: text.replace("utm_source=telegram", "utm_source=facebook"), post_en: `${a.en.title}\n\n${a.en.dek}\n\n${articleUrl(a, "en", "facebook")}`,
-    }) }).catch((e) => log("make webhook", e.message));
+    };
   }
+  if (!DRY && (job.telegram || job.make)) { q.push(job); log("social: σε ουρά μέχρι το deploy", a.slug); }
 }
 // Μετάφραση στα ελληνικά για τον ιδιοκτήτη (μηνύματα Telegram)· αν αποτύχει, μένουν τα αγγλικά
 async function toGreek(x) {

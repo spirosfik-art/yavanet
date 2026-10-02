@@ -71,3 +71,13 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CF_PROJECT: ${{ vars.CF_PROJECT }}
         run: bash scripts/deploy.sh
+      - name: Social posts (after deploy)
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          node automation/post-social.mjs
+          git add automation/state.json
+          git diff --cached --quiet || (git commit -m "auto: social queue $(date -u +%FT%TZ)" && (git push || (git pull --rebase -X theirs && git push)))
