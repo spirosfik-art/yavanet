@@ -734,55 +734,158 @@
     "4c6328b4bc5e": 1790904990484,
     "956354e1505b": 1790904990484,
     "1fa762f79b5c": 1790905878985,
-    "c277a682c2c2": 1790906567816
+    "c277a682c2c2": 1790906567816,
+    "6ab7983e5a2e": 1790909462079
   },
-  "pending": {},
+  "pending": {
+    "e2ffa9": {
+      "createdAt": 1790909486795,
+      "item": {
+        "title": "Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβούλιο Ειρήνης",
+        "url": "https://www.in.gr/2026/10/02/world/tourkia-israil-agrio-frastiko-epeisodio-tou-fintan-me-ton-israilino-ekprosopo-sto-symvoulio-eirinis/",
+        "summary": "Χρειάστηκε η παρέμβαση του Κούσνερ για να ηρεμήσουν τα πνεύματα σε συνεδρίαση του Συμβουλίου Ειρήνης, μετά τον διαπληκτισμό ανάμεσα στον Φιντάν και τον ισραηλινό εκπρόσωπο Αϊζενμπεργκ. \n The post Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβούλιο Ειρήνης appeared first on in.gr .",
+        "published": "Fri, 02 Oct 2026 05:45:48 +0300",
+        "id": "6ab7983e5a2e",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "6ab7983e5a2e",
+        "section": "israelis",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "A heated verbal altercation between Turkish Foreign Minister Hakan Fidan and Israeli representative Eisenberg at the Peace Council requires intervention by Kushner, directly connecting to Israel's diplomatic standing and security interests relevant to our readers.",
+        "item": {
+          "title": "Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβούλιο Ειρήνης",
+          "url": "https://www.in.gr/2026/10/02/world/tourkia-israil-agrio-frastiko-epeisodio-tou-fintan-me-ton-israilino-ekprosopo-sto-symvoulio-eirinis/",
+          "summary": "Χρειάστηκε η παρέμβαση του Κούσνερ για να ηρεμήσουν τα πνεύματα σε συνεδρίαση του Συμβουλίου Ειρήνης, μετά τον διαπληκτισμό ανάμεσα στον Φιντάν και τον ισραηλινό εκπρόσωπο Αϊζενμπεργκ. \n The post Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβούλιο Ειρήνης appeared first on in.gr .",
+          "published": "Fri, 02 Oct 2026 05:45:48 +0300",
+          "id": "6ab7983e5a2e",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "israel-turkey-verbal-clash-peace-council",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עימות דיפלומטי",
+          "en": "Diplomatic clash"
+        },
+        "imageKey": "politics",
+        "imageQuery": "diplomatic meeting politicians conference",
+        "he": {
+          "title": "עימות חריג: חילופי דברים קשים בין נציג ישראל ובכיר טורקי",
+          "seoTitle": "עימות דיפלומטי: חילופי דברים בין נציג ישראל ובכיר טורקי",
+          "seoDesc": "עימות קולני נרשם בישיבה סגורה של מועצת השלום בניו יורק בין שר החוץ הטורקי חקאן פידאן לבין נציג ישראל במפגש שכלל בכירים אמריקאים.",
+          "keywords": [
+            "ישראל טורקיה",
+            "מועצת השלום",
+            "חדשות חוץ",
+            "דיפלומטיה"
+          ],
+          "dek": "חילופי דברים סוערים התרחשו בישיבה סגורה של מועצת השלום בניו יורק בין שר החוץ הטורקי לנציג הישראלי, לעיני בכירים אמריקאים.",
+          "tldr": [
+            "העימות התרחש בישיבה סגורה בניו יורק לפני כשבוע.",
+            "שר החוץ הטורקי תקף את מדיניות ישראל בעזה.",
+            "האירוע הסתיים בעקבות התערבותו של גורם אמריקאי בכיר."
+          ],
+          "means": "אירוע זה משקף את המתיחות הדיפלומטית הבין-לאומית סביב המצב באזור. עבור ישראלים השוהים בחוץ לאלף או מתכננים נסיעות, אין השפעה ישירה על בטיחות יומיומית, אך מומלץ תמיד להתעדכן בהנחיות המטה לביטחון לאומי ובעדכונים רשמיים טרם כל טיסה.",
+          "body": "## עימות קולני בישיבה סגורה\n\nבמהלך ישיבה סגורה של מועצת השלום שהתקיימה בניו יורק, נרשם עימות מילולי חריג בין שר החוץ של טורקיה, חקאן פידאן, לבין נציג ישראל בארגון. על פי דיווחים שהתפרסמו בתקשורת, הדיון הפך סוער כאשר השר הטורקי העלה ביקורת חריפה נגד ישראל ופעילותה ברצועת עזה.\n\nהאירוע התרחש בנוכחות בכירים נוספים המשתתפים בדיוני המועצה, בהם שליחים אמריקאים מרכזיים. הנוכחים בחדר תיארו אווירה מתוחה ביותר במהלך חילופי הדברים הישירים בין הצדדים.\n\n## מעורבות אמריקאית להרגעת הרוחות\n\nהתקרית נמשכה דקות אחדות וכללה קולות רמים משני הצדדים, עד אשר הופסקה בעקבות התערבותו של גורם אמריקאי בכיר שנכח בפגישה. המועצה, שהוקמה בתחילת שנה זו כדי לסייע בניהול המעבר והשיקום ברצועת עזה ולהתמודד עם משברים בין-לאומיים, מצאה את עצמה בלב המחלוקת הדיפלומטית.\n\nהדיווח על אודות התקרית פורסם לראשונה בתקשורת הישראלית, ומשך תשומת לב רבה בזירה הבין-לאומית לאור המתיחות המתמשכת ביחסים האזוריים והדיפלומטיים."
+        },
+        "en": {
+          "title": "Tense diplomatic exchange between Turkish minister and Israeli representative",
+          "seoTitle": "Israel Turkey diplomatic clash at Peace Council meeting",
+          "seoDesc": "A heated verbal exchange took place in New York between Turkish Foreign Minister Hakan Fidan and the Israeli representative during a closed-door meeting.",
+          "keywords": [
+            "Israel Turkey",
+            "Peace Council",
+            "diplomatic news",
+            "foreign relations"
+          ],
+          "dek": "A fiery verbal confrontation occurred during a closed-door meeting of the Peace Council in New York between the Turkish Foreign Minister and the Israeli representative.",
+          "tldr": [
+            "The clash took place during a closed-door session in New York.",
+            "The Turkish Foreign Minister criticized Israeli actions in Gaza.",
+            "The dispute ended following intervention by a senior U.S. envoy."
+          ],
+          "means": "This diplomatic development highlights ongoing international tensions. For travelers and Israelis abroad, there is no direct impact on daily safety, but it remains prudent to check official travel advisories and stay informed of local conditions.",
+          "body": "## A Heated Closed-Door Session\n\nA sharp verbal confrontation was recorded between Turkey's Foreign Minister, Hakan Fidan, and the Israeli representative during a closed-door session of the Peace Council in New York.\n\nAccording to reports, the dispute erupted when the Turkish official addressed the assembly and criticized Israel's actions in Gaza. The Israeli representative responded sharply, leading to a heated exchange in the presence of senior international delegates, including American envoys.\n\n## U.S. Intervention Ends the Clash\n\nThe tense exchange was brought to a halt only after a senior American envoy intervened to calm the room. The Peace Council, an international body established earlier this year to manage transitional issues and reconstruction in Gaza as well as broader international crises, found itself at the center of this diplomatic flare-up.\n\nThe incident was initially reported by international correspondents and highlights the persistent friction within multilateral forums regarding regional developments."
+        }
+      },
+      "text": "Vita.gr \n Τελειομανία: Κι αν μας κάνει καλό να μην είμαστε… καλοί σε όλα;\n Spotlight «Η Κρίστα είναι ζωντανή» – Τι λέει δικηγόρος της θανατοποινίτισσας \n Γιορτή σήμερα 2 Οκτωβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Άνω Λιόσια: Ολη η κατάθεση της 41χρονης νηπιαγωγού στους αστυνομικούς μετά τον ξυλοδαρμό της από γονείς \n Εκτοξεύτηκε ο πύραυλος της SpaceX – Μεταφέρει τέσσερις αστροναύτες στον Διεθνή Διαστημικό Σταθμό \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Μια ασυνήθιστη και έντονη αντιπαράθεση με φωνές και από τις δύο πλευρές καταγράφηκε μεταξύ του υπουργού Εξωτερικών της Τουρκίας Χακάν Φιντάν και του Μάικλ Αϊζενμπεργκ, εκπροσώπου του Ισραήλ στο Συμβούλιο Ειρήνης και έμπιστου προσώπου του ισραηλινού πρωθυπουργού Μπενιαμίν Νετανιάχου (στη φωτογραφία από τη yenisafak.com, επάνω, ο Χακάν Φιντάν, δεξιά, και ο Μάικλ Αϊζενμπεργκ).\n Η άγρια λεκτική αντιπαράθεση σημειώθηκε κατά τη διάρκεια συνεδρίασης κεκλεισμένων των θυρών του Συμβουλίου, η οποία πραγματοποιήθηκε στη Νέα Υόρκη πριν από περίπου μια εβδομάδα.\n Η άγρια λεκτική αντιπαράθεση Φιντάν – Αϊζενμπεργκ σημειώθηκε κατά τη διάρκεια συνεδρίασης κεκλεισμένων των θυρών του Συμβουλίου Ειρήνης\n Σε αυτήν παρευρέθηκαν όλοι οι ανώτεροι εκπρόσωποι στο Συμβούλιο Ειρήνης, συμπεριλαμβανομένων των αμερικανών απεσταλμένων Στιβ Γουίτκοφ και Τζάρεντ Κούσνερ.\n Την είδηση μετέδωσε ως πρώτη δημοσίευση ο Σουλεϊμάν Μασουάντε, ανώτερος ανταποκριτής του ισραηλινού 13tv.co.il στις Ηνωμένες Πολιτείες.\n Σύμφωνα με το ρεπορτάζ, ο διαπληκτισμός ξέσπασε όταν ο Φιντάν πήρε τον λόγο και, ενώπιον των παρισταμένων, επιτέθηκε στο Ισραήλ, χαρακτηρίζοντας τις ενέργειές του στη Γάζα «γενοκτονία», και κατηγορώντας το ότι προκάλεσε λιμό στον θύλακα.\n Παρέμβαση Κούσνερ\n Ο Αϊζενμπεργκ, αντέδρασε με οξεία λεκτική αντιπαράθεση. Οταν ο Φιντάν επιχείρησε να τον διακόψει, ο Αϊζενμπεργκ είπε: «Θα με αφήσεις να ολοκληρώσω».\n Η σύγκρουση σταμάτησε μόνο μετά την παρέμβαση του Κούσνερ, γαμπρού και απεσταλμένου του προέδρου Ντόναλντ Τραμπ.\n https://t.co/VXvBSOAo7Y \n — Suleiman Maswadeh (@SuleimanMas1) October 1, 2026 \n Το Συμβούλιο Ειρήνης (Board of Peace) είναι ένας διεθνής οργανισμός που προτάθηκε από τον Ντόναλντ Τραμπ και επισημοποιήθηκε τον Ιανουάριο του 2026, με αρχικό σκοπό τη διαχείριση της μετάβασης και την ανοικοδόμηση στη Λωρίδα της Γάζας, ο οποίος στη συνέχεια επεκτάθηκε στην επίλυση διεθνών κρίσεων.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβούλιο Ειρήνης \n Βραζιλία: Προς οριακή νίκη του προέδρου Λούλα στον πιθανό β’ γύρο με αντίπαλο τον Μπολσονάρο \n Flydubai: Ο Τραμπ απειλεί να πλήξει πολύ σκληρά το Ιράν εάν αποδειχθεί εμπλοκή του \n Νιγηρία: Φερόμενοι τζιχαντιστές σκότωσαν 15 ανθρώπους που είχαν πάει να μαζέψουν ξύλα \n Γαλλία: Χιλιάδες συλλήψεις μαθητών, αλλά οι κινητοποιήσεις εξαπλώνονται και στα πανεπιστήμια \n Η Σαουδική Αραβία καταγγέλλει απόπειρα επίθεσης στη Μέκκα και την Μεδίνα \n Κύπρος: Στα κυπριακά χρώματα ο ουρανοξύστης Burj Khalifa στο Ντουμπάι (δείτε βίντεο) \n Κακοκαιρία – Ρέθυμνο: Κλειστοί δρόμοι στον Μυλοπόταμο \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Ένταση σε διπλωματικό επίπεδο μεταξύ Τούρκου υπουργού και Ισραηλινού εκπροσώπου",
+        "dek": "Μια θυελλώδης λεκτική αντιπαράθεση σημειώθηκε κατά τη διάρκεια κεκλεισμένων των θυρών συνάντησης του Συμβουλίου Ειρήνης στη Νέα Υόρκη μεταξύ του Τούρκου Υπουργού Εξωτερικών και του Ισραηλινού εκπροσώπου.",
+        "tldr": [
+          "Η σύγκρουση έλαβε χώρα κατά τη διάρκεια μιας κεκλεισμένων των θυρών συνεδρίασης στη Νέα Υόρκη.",
+          "Ο Τούρκος Υπουργός Εξωτερικών άσκησε κριτική στις ισραηλινές ενέργειες στη Γάζα.",
+          "Η διαμάχη έληξε μετά από παρέμβαση υψηλόβαθμου Αμερικανού απεσταλμένου."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T02:35:55.454Z",
+      "at": "2026-10-02T02:50:51.747Z",
       "error": "HTTP 403",
-      "fails": 501
+      "fails": 502
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T02:35:55.960Z",
-      "items": 0
+      "at": "2026-10-02T02:50:53.778Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T02:35:56.705Z",
+      "at": "2026-10-02T02:50:54.381Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T02:35:57.732Z",
+      "at": "2026-10-02T02:50:54.774Z",
       "error": "HTTP 403",
-      "fails": 501
+      "fails": 502
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T02:35:58.732Z",
+      "at": "2026-10-02T02:50:55.781Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T02:35:58.967Z",
+      "at": "2026-10-02T02:50:56.070Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T02:35:59.963Z",
+      "at": "2026-10-02T02:50:56.987Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T02:36:00.538Z",
+      "at": "2026-10-02T02:50:57.530Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T02:36:01.312Z",
+      "at": "2026-10-02T02:50:58.208Z",
       "items": 10
     },
     "toi-greece": {
@@ -793,22 +896,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T02:36:01.778Z",
+      "at": "2026-10-02T02:50:58.605Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T02:36:02.131Z",
+      "at": "2026-10-02T02:50:58.682Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T02:36:02.601Z",
-      "items": 7
+      "at": "2026-10-02T02:50:58.849Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T02:36:02.994Z",
+      "at": "2026-10-02T02:50:58.987Z",
       "items": 4
     },
     "ynet-greece": {
@@ -818,12 +921,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T02:35:57.577Z",
+      "at": "2026-10-02T02:50:54.706Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T02:36:03.704Z",
+      "at": "2026-10-02T02:50:59.615Z",
       "items": 0
     },
     "hcg": {
@@ -834,7 +937,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T02:36:04.873Z",
+      "at": "2026-10-02T02:51:01.191Z",
       "items": 2
     }
   },
@@ -894,11 +997,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T02:02:47.816Z",
+    "at": "2026-10-02T02:51:02.079Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | France’s Nuclear Umbrella: What It Means for Greece"
+      "✓ ingr | Τουρκία – Ισραήλ: Αγριο φραστικό επεισόδιο του Φιντάν με τον ισραηλινό εκπρόσωπο στο Συμβο"
     ]
   },
   "evergreenDone": [
