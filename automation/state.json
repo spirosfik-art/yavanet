@@ -859,7 +859,12 @@
     "33d4002aa0ca": 1790942540834,
     "dcaf2aab8f0e": 1790942540834,
     "98012e5bf89d": 1790942540834,
-    "70780b5c156c": 1790942540834
+    "70780b5c156c": 1790942540834,
+    "9529053df525": 1790944228216,
+    "6a3378ad0a34": 1790944228216,
+    "be71618534bf": 1790944228216,
+    "3a0a4932b91e": 1790944228216,
+    "79b1743e9eb6": 1790944228216
   },
   "pending": {},
   "sourceStatus": {
@@ -871,12 +876,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T12:02:08.319Z",
-      "items": 0
+      "at": "2026-10-02T12:30:17.698Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T12:02:09.144Z",
+      "at": "2026-10-02T12:30:18.351Z",
       "items": 5
     },
     "civilprotection": {
@@ -887,27 +892,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T12:02:11.312Z",
+      "at": "2026-10-02T12:30:20.118Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T12:02:11.703Z",
+      "at": "2026-10-02T12:30:20.271Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T12:02:12.803Z",
+      "at": "2026-10-02T12:30:21.061Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T12:02:13.950Z",
-      "items": 6
+      "at": "2026-10-02T12:30:21.612Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T12:02:14.863Z",
+      "at": "2026-10-02T12:30:22.054Z",
       "items": 10
     },
     "toi-greece": {
@@ -918,22 +923,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T12:02:15.446Z",
-      "items": 5
+      "at": "2026-10-02T12:30:22.205Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T12:02:15.722Z",
+      "at": "2026-10-02T12:30:22.515Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T12:02:16.048Z",
+      "at": "2026-10-02T12:30:23.192Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T12:02:16.266Z",
+      "at": "2026-10-02T12:30:23.313Z",
       "items": 4
     },
     "ynet-greece": {
@@ -943,12 +948,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T12:02:09.729Z",
+      "at": "2026-10-02T12:30:19.116Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T12:02:17.015Z",
+      "at": "2026-10-02T12:30:23.867Z",
       "items": 0
     },
     "hcg": {
@@ -959,39 +964,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T12:02:18.485Z",
-      "items": 1
+      "at": "2026-10-02T12:30:24.598Z",
+      "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T12:02:18.683Z",
+      "at": "2026-10-02T12:30:24.790Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T12:02:18.818Z",
+      "at": "2026-10-02T12:30:24.963Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T12:02:19.023Z",
-      "items": 11
+      "at": "2026-10-02T12:30:25.162Z",
+      "items": 10
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T12:02:19.330Z",
+      "at": "2026-10-02T12:30:25.544Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T12:02:19.686Z",
+      "at": "2026-10-02T12:30:26.011Z",
       "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-02",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "fire-breaks-out-in-andros-agia-faneromeni",
@@ -1076,6 +1081,18 @@
         "title": "↻ Crete: Why the recent severe storm caused widespread flooding and damage",
         "at": "2026-10-02T14:38:25+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Storm in Greece: Crete on high alert for new weather wave",
+        "at": "2026-10-02T15:30:43+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "crediabank-acquires-pantelakis-securities",
+        "title": "CrediaBank Completes Acquisition of 70 Percent Stake in Pantelakis",
+        "at": "2026-10-02T15:30:58+03:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -1170,16 +1187,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T12:02:20.834Z",
+    "at": "2026-10-02T12:30:28.216Z",
     "considered": 6,
-    "picked": 0,
+    "picked": 3,
     "items": [
-      "· gct | Greece, Bulgaria and Romania sign €22.8 billion plan to link the Aegean with Moldova and U",
-      "· ingr | ΟΕΝΓΕ: «Δεν θα πληρώσουμε εμείς τα ‘σπασμένα’ της πολεμικής οικονομίας» – Απεργία στις 21 ",
-      "· ert | Δήμος Βόλου: Επαφές στη Νάπολη για τουριστικά πακέτα και επισκέπτες εκτός θερινής περιόδου",
-      "· ingr | Έκρηξη στην Πλάκα: «Έχασα τη μισή μου οικογένεια» – Ραγίζει καρδιές ο 31χρονος για τα αγαπ",
-      "· gtp | Celestyal Adds Thessaloniki and Volos to 2027 Cruise Program",
-      "· gct | Is Greece’s Property Market Becoming a Bubble?"
+      "✓ naftemporiki | Κακοκαιρία στην Κρήτη: Προετοιμασία της Πολιτικής Προστασίας για το νέο κύμα",
+      "✓ naftemporiki | CrediaBank: Ολοκλήρωσε την απόκτηση του 70% της Παντελάκης Χρηματιστηριακή",
+      "✓ ingr | Φωτιά σε δασική έκταση στην Καστοριά – Σηκώθηκε ένα ελικόπτερο",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Αστυνομικού Τμ",
+      "· minfin | Διακήρυξη Α’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Αστυνομικού Τμ",
+      "· minfin | ΔΗΜΟΠΡΑΣΙΑ ΕΝΤΟΚΩΝ ΓΡΑΜΜΑΤΙΩΝ 13 ΕΒΔΟΜΑΔΩΝ"
     ]
   },
   "evergreenDone": [
