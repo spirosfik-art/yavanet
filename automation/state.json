@@ -935,7 +935,8 @@
     "06500b45fb0b": 1790973424159,
     "456d39a5a20a": 1790973424159,
     "9e0e0f705473": 1790973424159,
-    "ecb48fc8cfd7": 1790974327816
+    "ecb48fc8cfd7": 1790974327816,
+    "abc054a8c35b": 1790974949059
   },
   "pending": {},
   "sourceStatus": {
@@ -947,12 +948,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T20:51:55.173Z",
-      "items": 10
+      "at": "2026-10-02T21:02:15.680Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T20:51:56.007Z",
+      "at": "2026-10-02T21:02:16.533Z",
       "items": 5
     },
     "civilprotection": {
@@ -963,27 +964,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T20:51:58.110Z",
+      "at": "2026-10-02T21:02:19.548Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T20:51:58.294Z",
+      "at": "2026-10-02T21:02:19.994Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T20:51:59.381Z",
+      "at": "2026-10-02T21:02:21.413Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T20:52:00.197Z",
+      "at": "2026-10-02T21:02:22.593Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T20:52:01.418Z",
+      "at": "2026-10-02T21:02:23.262Z",
       "items": 10
     },
     "toi-greece": {
@@ -994,22 +995,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T20:52:01.957Z",
+      "at": "2026-10-02T21:02:23.867Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T20:52:02.076Z",
+      "at": "2026-10-02T21:02:24.125Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T20:52:02.842Z",
+      "at": "2026-10-02T21:02:24.220Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T20:52:03.044Z",
+      "at": "2026-10-02T21:02:24.728Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1019,12 +1020,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T20:51:56.663Z",
+      "at": "2026-10-02T21:02:17.157Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T20:52:03.633Z",
+      "at": "2026-10-02T21:02:25.431Z",
       "items": 0
     },
     "hcg": {
@@ -1035,261 +1036,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T20:52:05.158Z",
+      "at": "2026-10-02T21:02:26.734Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T20:52:05.402Z",
+      "at": "2026-10-02T21:02:26.947Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T20:52:05.600Z",
-      "items": 6
+      "at": "2026-10-02T21:02:27.093Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T20:52:05.779Z",
-      "items": 11
+      "at": "2026-10-02T21:02:27.477Z",
+      "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T20:52:06.141Z",
+      "at": "2026-10-02T21:02:27.793Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T20:52:06.608Z",
-      "items": 10
+      "at": "2026-10-02T21:02:28.257Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-02",
-    "count": 10,
-    "published": [
-      {
-        "slug": "fire-breaks-out-in-andros-agia-faneromeni",
-        "title": "Andros: Fire breaks out in Agia Faneromeni area",
-        "at": "2026-10-02T01:02:19+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Severe Storms in Crete: Heavy Damage and Warnings for a Second Wave",
-        "at": "2026-10-02T06:53:10+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Severe Weather in Greece: Heavy Rain and 9 Beaufort Winds in Crete and the Aegean",
-        "at": "2026-10-02T07:02:31+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "turkey-israel-board-of-peace-clash-2026",
-        "title": "Tense Verbal Clash Between Turkish and Israeli Officials",
-        "at": "2026-10-02T07:52:07+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "food-price-increases-greece-2026",
-        "title": "Food Price Rises in Greece Outpace EU Averages",
-        "at": "2026-10-02T08:35:24+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "euro-drops-17-month-low-greece-october-2026",
-        "title": "Euro hits 17-month low amid market shifts in Greece",
-        "at": "2026-10-02T09:30:30+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Storm in Crete: Heavy Damage and New Weather Warning",
-        "at": "2026-10-02T09:31:15+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-tax-binding-answers-procedure",
-        "title": "Greece Tax Authority Introduces New Binding Ruling Procedure",
-        "at": "2026-10-02T10:28:25+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Karpathos: Road closed and landslides following heavy rainfall",
-        "at": "2026-10-02T11:40:00+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greek-language-guide-for-israelis",
-        "title": "Greek Language Essentials: History, Roots and Modern Usage",
-        "at": "2026-10-02T11:40:09+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "ste-declares-tax-evasion-statute-of-limitations-unconstitutional",
-        "title": "Greek Supreme Court Rules Extended Tax Evasion Statute of Limitations Unconstitutional",
-        "at": "2026-10-02T13:53:29+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "marc-rubio-visit-athens-october-6",
-        "title": "US Secretary of State Marco Rubio to Visit Athens Next Week",
-        "at": "2026-10-02T14:03:11+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "orange-wind-warning-north-east-aegean-2026",
-        "title": "↻ Greece Storm: Sailing Ban in the Aegean Sea and Port Disruptions",
-        "at": "2026-10-02T14:38:13+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Why the recent severe storm caused widespread flooding and damage",
-        "at": "2026-10-02T14:38:25+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Storm in Greece: Crete on high alert for new weather wave",
-        "at": "2026-10-02T15:30:43+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "crediabank-acquires-pantelakis-securities",
-        "title": "CrediaBank Completes Acquisition of 70 Percent Stake in Pantelakis",
-        "at": "2026-10-02T15:30:58+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Severe Storms Cause Major Flooding and Damage",
-        "at": "2026-10-02T16:27:29+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-dodecanese",
-        "title": "Orange Thunderstorm Warning Issued for the Dodecanese Islands",
-        "at": "2026-10-02T16:53:58+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "kastoria-forest-fire-giannoxori",
-        "title": "Forest fire breaks out in remote mountainous area of Kastoria",
-        "at": "2026-10-02T16:54:28+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "orange-wind-warning-east-peloponnisos",
-        "title": "Orange Wind Warning Issued for East Peloponnisos",
-        "at": "2026-10-02T17:04:59+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Flight Disruptions Caused by Severe Storms",
-        "at": "2026-10-02T21:56:50+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Flight disruptions reported due to severe weather",
-        "at": "2026-10-02T23:02:05+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Crete: Roads closed following severe weather conditions",
-        "at": "2026-10-02T23:37:18+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Dendias in Nicosia: Greece will not leave Cyprus as Turkey blocks a power cable",
-        "reason": "Ίδιο θέμα με «Greece, Cyprus and Israel electricity interconnector moves forward» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T01:36:34.635Z"
-      },
-      {
-        "title": "Εξοργισμένα τα ΗΑΕ με τα βιαστικά ισραηλινά συμπεράσματα για τη FlyDubai – Δοκιμάζονται οι διακρατικές σχέσεις",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T07:04:33.675Z"
-      },
-      {
-        "title": "Πτήση FlyDubai: Στο πιλοτήριο η «Αχίλλειος πτέρνα» της ασφάλειας στις πτήσεις – Το κρίσιμο παράδοξο με την ενισχυμένη πόρτα",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T08:39:32.257Z"
-      },
-      {
-        "title": "Μυλοπόταμος: Απαγορεύτηκε προληπτικά η κατανάλωση νερού σε χωριά λόγω ζημιών στο δίκτυο",
-        "reason": "Ίδιο θέμα με «Storm in Crete: Heavy Damage and New Weather Warning» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T09:03:53.790Z"
-      },
-      {
-        "title": "Κακοκαιρία στην Κρήτη: Νεκρός 80χρονος κτηνοτρόφος – Πλημμύρες και κατολισθήσεις - Kathimerini",
-        "reason": "Ίδιο θέμα με «Storm in Crete: Heavy Damage and New Weather Warning»: Rule 8 & Source check: The source does not mention that he was a 'κτηνοτρόφος' (shepherd/farmer/herdsman), but the source title explicitly contains 'κτηνοτρόφος' which was omitted in the article, or conversely, the article introduc",
-        "at": "2026-10-02T10:24:59.185Z"
-      },
-      {
-        "title": "Εκτοξεύτηκε στο 5,1% o πληθωρισμός στην Ελλάδα τον Σεπτέμβριο",
-        "reason": "Ίδιο θέμα με «The Economy of Greece: A Short Guide for Israeli Investors» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T10:25:02.938Z"
-      },
-      {
-        "title": "Ισραηλινός αξιωματούχος: Ο συγκυβερνήτης της flydubai έγραφε για «δολοφονίες Εβραίων» - Kathimerini",
-        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T10:25:07.600Z"
-      },
-      {
-        "title": "Greece Weather Warning: RED ALERT for Crete and Dodecanese (MAPs)",
-        "reason": "Ίδιο θέμα με «Storm in Crete: Heavy Damage and New Weather Warning» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T10:36:54.613Z"
-      },
-      {
-        "title": "Κρήτη: Μήνυμα από το 112 στον Μυλοπόταμο λόγω του νέου κύματος κακοκαιρίας – Φούσκωσε χείμαρρος στα Ζωνιανά",
-        "reason": "Ίδιο θέμα με «Crete: Severe Storms Cause Major Flooding and Damage» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T14:05:03.613Z"
-      },
-      {
-        "title": "Σε συναγερμό όλη η Κρήτη για το νέο κύμα άγριας κακοκαιρίας – Μήνυμα 112 για περιορισμό μετακινήσεων, φόβοι για πλημμύρες στον αστικό ιστό",
-        "reason": "Ίδιο θέμα με «Crete: Severe Storms Turn Deadly and Cause Major Flooding» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T15:54:25.691Z"
-      },
-      {
-        "title": "Ευ. Τουρνάς: «Προετοιμαζόμαστε για το νέο κύμα κακοκαιρίας– Πάνω απ’ όλα η ανθρώπινη ζωή - Civilprotection.gov.gr",
-        "reason": "Ίδιο θέμα με «Crete: Severe Storms Turn Deadly and Cause Major Flooding» – δεν γράφτηκε ξανά",
-        "at": "2026-10-02T17:23:13.668Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "turkey-israel-board-of-peace-clash-2026",
-        "at": "2026-10-02T04:52:07.596Z"
-      },
-      {
-        "slug": "greece-tax-binding-answers-procedure",
-        "at": "2026-10-02T07:28:25.624Z"
-      },
-      {
-        "slug": "ste-declares-tax-evasion-statute-of-limitations-unconstitutional",
-        "at": "2026-10-02T10:53:29.517Z"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-dodecanese",
-        "at": "2026-10-02T13:53:59.981Z"
-      },
-      {
-        "slug": "orange-wind-warning-east-peloponnisos",
-        "at": "2026-10-02T14:04:59.635Z"
-      }
-    ]
+    "date": "2026-10-03",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-02",
+      "count": 10,
+      "rejected": 11
+    },
     {
       "date": "2026-10-01",
       "count": 11,
@@ -1323,11 +1112,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T20:52:07.816Z",
+    "at": "2026-10-02T21:02:29.059Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Πτήση Flydubai: Πώς ξεκίνησε η έρευνα από τα Ηνωμένα Αραβικά Εμιράτα – Η συμμετοχή του Ισρ"
+      "· gn-iefimerida | Kρήτη: Κυκλοφοριακές ρυθμίσεις στο Ηράκλειο λόγω της κακοκαιρίας - iefimerida.gr"
     ]
   },
   "evergreenDone": [
