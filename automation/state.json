@@ -937,7 +937,10 @@
     "9e0e0f705473": 1790973424159,
     "ecb48fc8cfd7": 1790974327816,
     "abc054a8c35b": 1790974949059,
-    "dd5d3c63b207": 1790976348610
+    "dd5d3c63b207": 1790976348610,
+    "642fb05f772d": 1790977013189,
+    "8a2113b7b301": 1790977013189,
+    "b820b572b02c": 1790977013189
   },
   "pending": {},
   "sourceStatus": {
@@ -949,12 +952,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T21:23:57.376Z",
+      "at": "2026-10-02T21:36:41.996Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T21:23:58.234Z",
+      "at": "2026-10-02T21:36:42.678Z",
       "items": 5
     },
     "civilprotection": {
@@ -965,27 +968,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T21:24:00.481Z",
+      "at": "2026-10-02T21:36:44.535Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T21:24:00.933Z",
+      "at": "2026-10-02T21:36:44.758Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T21:24:02.049Z",
+      "at": "2026-10-02T21:36:45.615Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T21:24:02.895Z",
+      "at": "2026-10-02T21:36:46.324Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T21:24:03.833Z",
+      "at": "2026-10-02T21:36:47.222Z",
       "items": 10
     },
     "toi-greece": {
@@ -996,22 +999,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T21:24:04.395Z",
+      "at": "2026-10-02T21:36:47.757Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T21:24:04.643Z",
+      "at": "2026-10-02T21:36:48.081Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T21:24:04.758Z",
+      "at": "2026-10-02T21:36:48.581Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:24:04.957Z",
+      "at": "2026-10-02T21:36:49.012Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1021,12 +1024,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:23:58.808Z",
+      "at": "2026-10-02T21:36:43.379Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T21:24:05.620Z",
+      "at": "2026-10-02T21:36:49.670Z",
       "items": 0
     },
     "hcg": {
@@ -1037,32 +1040,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T21:24:07.609Z",
+      "at": "2026-10-02T21:36:50.823Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T21:24:07.788Z",
+      "at": "2026-10-02T21:36:51.252Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T21:24:07.934Z",
-      "items": 5
+      "at": "2026-10-02T21:36:51.420Z",
+      "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T21:24:08.082Z",
-      "items": 12
+      "at": "2026-10-02T21:36:51.724Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T21:24:08.396Z",
+      "at": "2026-10-02T21:36:52.084Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T21:24:08.781Z",
+      "at": "2026-10-02T21:36:52.535Z",
       "items": 11
     }
   },
@@ -1113,11 +1116,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T21:25:48.610Z",
-    "considered": 1,
+    "at": "2026-10-02T21:36:53.189Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Κακοκαιρία στην Κρήτη: Δύσκολες ώρες στον Μυλοπόταμο – Έσπασε ανάχωμα, πλημμύρισαν σπίτια "
+      "· gct | Greece to Protect Historic Methoni Castle from Wave Damage",
+      "· gct | Olympic Athletic Centre Hosts McLaren Formula 1 Spectacle",
+      "· gct | Ringo Starr’s Greek-Cypriot Granddaughter Opens Art Exhibition"
     ]
   },
   "evergreenDone": [
