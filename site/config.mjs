@@ -10,7 +10,7 @@ export const SITE = {
     en: "Spyridon Fikias (S.F. Properties)",
     address: { he: "P. P. Germanou 77, Filothei 15237, יוון", en: "P. P. Germanou 77, Filothei 15237, Greece" },
     registration: { he: "מספר עוסק (ΑΦΜ) 175679614, ΓΕΜΗ 172090403000", en: "Tax ID (ΑΦΜ) 175679614, GEMI (ΓΕΜΗ) 172090403000" },
-    email: "info@sfproperties.gr",
+    email: "info@yavanet.gr",
     updated: "02.10.2026",
   },
   // Banner διαφήμισης της εταιρείας ακινήτων
