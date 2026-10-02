@@ -168,7 +168,7 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const showChips = SECTIONS.some((x) => x.slug === activeSection);
   const chips = showChips ? SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}"${activeSection === x.slug ? ' aria-current="page"' : ""}>${esc(x[lang])}</a>`).join("") : "";
   const legal = LEGAL_PAGES.map((p) => `<a href="${P(lang, "/p/" + p + "/")}">${esc(t.legal[p])}</a>`).join("") + `<button type="button" data-cookie-settings>${esc(t.cookieSettings)}</button>`;
-  const cfg = { lang, grp: (ogType === "article" ? "Άρθρα / " : "Σελίδες / ") + (activeSection || activeNav || "home"), ga4: SITE.ga4Id, clarity: SITE.clarityId, fbp: SITE.metaPixelId || "", art: ogType === "article" ? 1 : 0, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlOkDirect: t.nlOkDirect, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
+  const cfg = { lang, grp: (ogType === "article" ? "Άρθρα / " : "Σελίδες / ") + (activeSection || activeNav || "home"), ga4: SITE.ga4Id, clarity: SITE.clarityId, fbp: SITE.metaPixelId || "", adn: SITE.adNetworkSrc || "", art: ogType === "article" ? 1 : 0, wa: SITE.whatsappChannel, t: { copied: t.copied, noVoice: t.noVoice, ckSaved: t.ckSaved, ckSave: t.ckSave, nlOk: t.nlOk, nlOkDirect: t.nlOkDirect, nlBad: t.nlBad, formSent: t.formSent, formErr: t.formErr, formBad: t.formBad, loading: t.loading, unavailable: t.unavailable, shabIn: t.shabIn, shabOut: t.shabOut, athens: t.athens, thess: t.thess, readMore: t.readMore, closeLbl: t.closeLbl, next: t.next, prev: t.prev, cities: t.cities, rows: t.rows, yieldGross: t.yieldGross } };
   return `<!doctype html>
 <html lang="${lang}" dir="${t.dir}">
 <head>
@@ -202,15 +202,6 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 window.YV=${JSON.stringify(cfg)};
-</script>
-<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
-(function () {
-var script = document.createElement("script");
-script.async = 1;
-script.setAttribute("data-cmp-ab","2");
-script.src = 'https://tpembars.com/NTc4ODk4.js?t=578898';
-document.head.appendChild(script);
-})();
 </script>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join("\n")}
 ${head}

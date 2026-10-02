@@ -195,7 +195,12 @@
       (function (c2, l, a, r, i) { c2[a] = c2[a] || function () { (c2[a].q = c2[a].q || []).push(arguments); }; var t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; var y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", C.clarity);
       window.clarity && window.clarity("consent");
     }
-    if (c.ads) loadPixel();
+    if (c.ads) { loadPixel(); loadAdNetwork(); }
+  }
+  /* Δίκτυο διαφημίσεων (tpembars): μόνο με συγκατάθεση για cookies διαφήμισης, όχι σε συσκευές της ομάδας */
+  function loadAdNetwork() {
+    if (!C.adn || loaded.adn || INTERNAL) return; loaded.adn = true;
+    var s = document.createElement("script"); s.async = true; s.setAttribute("data-cmp-ab", "2"); s.src = C.adn; document.head.appendChild(s);
   }
   /* Meta Pixel: ΜΟΝΟ με συγκατάθεση για cookies διαφήμισης. Μετράει επισκέψεις, ανάγνωση άρθρων και επαφές,
      ώστε να φτιάχνουμε κοινά retargeting (π.χ. όσοι διάβασαν τον οδηγό ακινήτων) και να μετράμε επαφές από τις διαφημίσεις. */
