@@ -733,55 +733,56 @@
     "d9835f48c333": 1790904990484,
     "4c6328b4bc5e": 1790904990484,
     "956354e1505b": 1790904990484,
-    "1fa762f79b5c": 1790905878985
+    "1fa762f79b5c": 1790905878985,
+    "c277a682c2c2": 1790906567816
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T01:51:08.676Z",
+      "at": "2026-10-02T02:02:36.736Z",
       "error": "HTTP 403",
-      "fails": 498
+      "fails": 499
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T01:51:09.377Z",
-      "items": 0
+      "at": "2026-10-02T02:02:39.168Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T01:51:10.085Z",
+      "at": "2026-10-02T02:02:39.771Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T01:51:11.164Z",
+      "at": "2026-10-02T02:02:40.482Z",
       "error": "HTTP 403",
-      "fails": 498
+      "fails": 499
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T01:51:12.352Z",
+      "at": "2026-10-02T02:02:42.048Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T01:51:12.562Z",
+      "at": "2026-10-02T02:02:42.166Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T01:51:13.540Z",
+      "at": "2026-10-02T02:02:43.044Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T01:51:14.311Z",
+      "at": "2026-10-02T02:02:43.610Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T01:51:14.828Z",
+      "at": "2026-10-02T02:02:44.493Z",
       "items": 10
     },
     "toi-greece": {
@@ -792,22 +793,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T01:51:15.336Z",
+      "at": "2026-10-02T02:02:44.919Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T01:51:15.595Z",
+      "at": "2026-10-02T02:02:45.087Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T01:51:15.972Z",
+      "at": "2026-10-02T02:02:45.278Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:51:16.394Z",
+      "at": "2026-10-02T02:02:45.406Z",
       "items": 4
     },
     "ynet-greece": {
@@ -817,12 +818,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:51:10.878Z",
+      "at": "2026-10-02T02:02:40.067Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T01:51:17.010Z",
+      "at": "2026-10-02T02:02:45.859Z",
       "items": 0
     },
     "hcg": {
@@ -833,7 +834,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T01:51:18.374Z",
+      "at": "2026-10-02T02:02:47.184Z",
       "items": 2
     }
   },
@@ -893,11 +894,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T01:51:18.985Z",
+    "at": "2026-10-02T02:02:47.816Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greece is keeping its Patriot missiles in Saudi Arabia for one more month"
+      "· gct | France’s Nuclear Umbrella: What It Means for Greece"
     ]
   },
   "evergreenDone": [
