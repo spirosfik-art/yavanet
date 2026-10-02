@@ -393,7 +393,7 @@ async function manualStory(url) {
 }
 // Ελέγχει αν το θέμα είναι το ΙΔΙΟ γεγονός με άρθρο των τελευταίων 3 ημερών (π.χ. νέα εξέλιξη)
 async function findDuplicate(item) {
-  const recent = loadArticles().filter((a) => !a.hidden && a.en && Date.now() - Date.parse(a.publishedAt) < 72 * 3600e3);
+  const recent = loadArticles().filter((a) => !a.hidden && a.en && !a.guide && !/^eg-/.test(String(a.meta?.itemId || "")) && Date.now() - Date.parse(a.publishedAt) < 72 * 3600e3); // οι οδηγοί δεν αντικαθίστανται ποτέ από ειδήσεις
   if (!recent.length) return null;
   try {
     const out = await ask({
