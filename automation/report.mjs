@@ -1,7 +1,8 @@
 // Αναφορές: node automation/report.mjs daily|monthly
 // daily: τι δημοσιεύτηκε, τι απορρίφθηκε και γιατί, τι περιμένει έγκριση, πηγές με πρόβλημα, νέες επαφές (Telegram + email)
 // monthly: πόσες επαφές ήρθαν από το site, από ποια άρθρα, και πόσες έγιναν πελάτες (από το CRM του Brevo)
-import { env, log, readJSON, STATE_FILE, brevo, sendEmail, notifyOwner, athensNow } from "./lib.mjs";
+import path from "node:path";
+import { env, log, readJSON, STATE_FILE, ROOT, brevo, sendEmail, notifyOwner, athensNow } from "./lib.mjs";
 import { SITE } from "../site/config.mjs";
 
 const kind = process.argv[2] || "daily";
@@ -90,7 +91,8 @@ ${tr.pages.join("\n") || "–"}` : `👥 Επισκέψεις: ${trErr ? "σφά
   if (kind === "daily") {
     const t = s.today || { published: [], rejected: [], errors: [] };
     const leads = await leadsSince(Date.now() - 24 * 3600e3).catch(() => null);
-    const bad = Object.entries(s.sourceStatus || {}).filter(([, v]) => !v.ok);
+    const live = new Set((readJSON(path.join(ROOT, "automation/sources.json"), { sources: [] }).sources || []).filter((x) => x.enabled !== false).map((x) => x.id));
+    const bad = Object.entries(s.sourceStatus || {}).filter(([k, v]) => !v.ok && live.has(k));
     const pend = Object.entries(s.pending || {});
     let tr = null, trErr = "";
     try { tr = await traffic(); } catch (e) { trErr = e.message; log("traffic error", e.message); }
