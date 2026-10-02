@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-crete-winds-9-beaufort",
   "section": "breaking",
   "publishedAt": "2026-09-30T20:25:30+03:00",
-  "updatedAt": "2026-10-02T07:02:31+03:00",
+  "updatedAt": "2026-10-02T11:40:00+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2169698/karpathos-katolisthiseis-logo-tis-entonis-vrochoptosis-kleistos-o-dromos-apo-spoa-pros-olympo/?utm_source=rss&utm_medium=rss&utm_campaign=karpathos-katolisthiseis-logo-tis-entonis-vrochoptosis-kleistos-o-dromos-apo-spoa-pros-olympo"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2169601/kairos-pote-kai-poy-tha-entathoyn-ta-fainomena-stin-kriti-9-mpofor-sto-aigaio-prognosi-gia-oli-ti-chora/?utm_source=rss&utm_medium=rss&utm_campaign=kairos-pote-kai-poy-tha-entathoyn-ta-fainomena-stin-kriti-9-mpofor-sto-aigaio-prognosi-gia-oli-ti-chora"
@@ -34,26 +38,26 @@
     "en": "Storm in Greece"
   },
   "he": {
-    "title": "סערה ביוון: גשמים חזקים ורוחות של עד 9 בופור בכרתים ובאמצע הים",
-    "dek": "רשויות החיזוי ביוון מעדכנות על התחזקות מזג האוויר הסוער בכרתים ובאזורים נוספים, לצד רוחות חזקות מאוד בים האגאי.",
+    "title": "קרפאתוס: כביש סגור ומפולות אבנים עקב גשמים כבדים",
+    "dek": "גשמים עזים שירדו באי קרפאתוס גרמו למפולות סלעים ולחסימת כביש מרכזי. הרשויות ממליצות להימנע מנסיעות לא הכרחיות.",
     "tldr": [
-      "גשמים חזקים וסופות רעדיות צפויים בכרתים ובעובויה.",
-      "רוחות עזות ינשבו בים האגאי ויגיעו עד ל-9 בופור.",
-      "תחזית מזג האוויר נותרת בלתי יציבה עד ליום ראשון הקרוב."
+      "הכביש המרכזי בין ספואה לאולימפוס בקרפאתוס נסגר לחלוטין לתנועה.",
+      "מפולות סלעים אירעו בעקבות מזג אוויר סוער וגשמים חזקים באזור.",
+      "צוותי חירום פועלים בפינוי הצירים ומתריעים מפני המשך גשמים."
     ],
-    "means": "אם אתם מתכננים חופשה בכרתים או באיים נוספים ביוון בימים הקרובים, תבדקו מראש את מצב הטיסות והמעבורות מול החברות המפעילות. מומלץ לעקוב אחר הודעות הרשויות המקומיות, להתרחק מאזורים מוצפים או חופים פתוחים בזמן רוחות חזקות, ולהיערך לשינויים בלוחות הזמנים.",
-    "body": "## תחזית מעודכנת למזג האוויר הסוער\n\nמערכת מזג אוויר סוערת ממשיכה להשפיע על חלקים נרחבים ביוון, כאשר מוקד הסערה מתרכז באי כרתים. על פי נתוני השירות המטאורולוגי הלאומי, משקעים כבדים וסופות רעמים צפויים להכות בצפון ובאזורים ההרריים של האי החל משעות הצהריים או אחר הצהריים של יום שישי ולוות את סוף השבוע.\n\nבמקביל, רוחות צפון-מזרחיות חזקות מאוד צפויות לנשב בים האגאי ולהגיע מקומית לדרגה של 8 עד 9 בופור. הרוחות העזות צפויות להימשך עד לשעות הערב של יום שבת, והן עשויות להשפיע על תנועת כלי השיט והמעבורות באזור.\n\n## השפעה על אזורים נוספים\n\nמלבד כרתים, תנאי מזג האוויר הקיצוניים צפויים להשפיע גם על האי עובויה, שם ייתכנו גשמים חזקים בשעות הצהריים. באזורים דרומיים נוספים ובאיים הקיקלאדיים צפויים מטחים מקומיים, בעוד שבשאר חלקי המדינה מזג האוויר יישאר נוח יחסית עם שמש חלקית.\n\nהטמפרטורות ברחבי המדינה צפויים לנוע סביב 22 עד 24 מעלות במזרח ובאיים הדרומיים, ועד 26 מעלות באזורים המערביים. באזור אטיקה ואתונה ייתכנו גשמים קלים בשעות לאחר הצהריים לצד רוחות שיגיעו למהירויות גבוהות."
+    "means": "אם אתם מתכננים הגעה או נמצאים כעת בקרפאתוס, עקבו אחר הודעות החירום המקומיות והימנעו מנסיעה באזור הכביש הסגור. מומלץ להישאר מעודכנים בתחזית מזג האוויר ולהישמע להנחיות הרשויות המקומיות לגבי נסיעות לא חיוניות.",
+    "body": "## חסימת צירים בקרפאתוס עקב מזג אוויר סוער\n\nמזג האוויר הסוער ביוון ממשיך לייצר שיבושים, כאשר הפעם מוקד האירועים הוא באי קרפאתוס. גשמים חזקים שהתחוללו באזור גרמו למפולות סלעים משמעותיות, שהובילו לסגירתו המוחלטת של הכביש המרכזי המחבר בין ספואה לאולימפוס.\n\nלפי הודעת הרשויות המקומיות, תנועת כלי רכב מכל הסוגים מנועה לחלוטין בציר זה. צוותים מקצועיים מטעם פריפריאס נוטיוי איגאיוי נמצאים בשטח ומבצעים פעולות מתמשכות לפינוי הסלעים ולחידוש התנועה בצורה בטוחה בהקדם האפשרי.\n\n## הנחיות לנהגים ולתושבים באזור\n\nבעקבות תנאי מזג האוויר הקשים והחשש מהמשך ההתיישנות בקרקע, הרשויות בקרפאתוס מפרסמות אזהרה ומבקשות מכלל התושבים והמבקרים באי לצמצם נסיעות שאינן הכרחיות לחלוטין בימים הקרובים.\n\nתחזית מזג האוויר מצביעה על אפשרות להמשך גשמים עזים גם בפרק הזמן הקרוב, ולכן הודגשה החשיבות של שמירת זהירות מרבית בדרכים והישמעות להנחיות גופי החירום והביטחון במקום."
   },
   "en": {
-    "title": "Severe Weather in Greece: Heavy Rain and 9 Beaufort Winds in Crete and the Aegean",
-    "dek": "Greek meteorological authorities have issued an updated severe weather bulletin, warning of intense rain in Crete and powerful winds across the Aegean Sea.",
+    "title": "Karpathos: Road closed and landslides following heavy rainfall",
+    "dek": "Heavy downpours on the island of Karpathos triggered rockfalls and a major road closure. Authorities urge residents and visitors to avoid unnecessary travel.",
     "tldr": [
-      "Heavy rain and thunderstorms are forecast for Crete and Evia through the weekend.",
-      "Gale-force winds reaching up to 9 Beaufort will affect the Aegean Sea.",
-      "Conditions are expected to gradually improve by Sunday afternoon."
+      "The provincial road between Spoa and Olympos in Karpathos is completely closed to traffic.",
+      "Rockfalls occurred following intense heavy rainfall across the area.",
+      "Regional crews are working to clear debris while more rain is forecasted."
     ],
-    "means": "If you are traveling to Crete or the Greek islands, check with your airline or ferry operator for any schedule changes due to high winds and rough seas. Stay updated with local authorities, avoid coastal areas during peak storm hours, and allow extra travel time.",
-    "body": "## Updated Severe Weather Forecast\n\nSevere weather continues to affect parts of Greece, with Crete remaining at the center of the disturbance. According to meteorological reports, heavy rain and thunderstorms are intensifying across the northern and mountainous parts of the island, a pattern expected to persist through Saturday.\n\nAt the same time, strong northeast winds in the Aegean Sea are locally reaching 8 to 9 Beaufort. These powerful winds are projected to maintain their intensity until Saturday evening, potentially causing disruptions to maritime transport and ferry services.\n\n## Impact on Other Regions\n\nAside from Crete, adverse weather conditions are also affecting Evia, where heavy downpours are expected during midday hours. Localized rain is anticipated in parts of the Cyclades and the Dodecanese, while the rest of the country experiences generally clearer skies with occasional clouds.\n\nTemperatures remain steady, ranging between 22 and 24 degrees Celsius in eastern mainland areas and southern islands, and reaching up to 26 degrees in western regions. In the Attica region, skies will alternate with clouds and potential afternoon showers alongside brisk northern winds."
+    "means": "If you are visiting Karpathos, check local safety updates, avoid non-essential trips, and stay away from closed mountain roads. Keep track of weather forecasts and follow instructions from local authorities.",
+    "body": "## Road Closures in Karpathos Due to Severe Weather\n\nSevere weather conditions in Greece have caused disruptions on the island of Karpathos, where heavy downpours led to significant rockfalls and the complete closure of a major regional transport route.\n\nAccording to an update from the regional authorities, vehicle traffic along the Spoa to Olympos provincial road is entirely blocked in both directions. Regional work crews are currently deployed at the site, carrying out continuous operations to remove fallen rocks and clear the roadway as quickly as possible.\n\n## Travel Recommendations and Safety Advice\n\nIn light of the ongoing stormy conditions, the local administration has issued recommendations advising drivers and travelers to avoid non-essential journeys. \n\nForecasts indicate that heavy rainfall is expected to continue over the coming days, meaning the road network remains vulnerable. Authorities emphasize the need for heightened caution and strict adherence to safety guidelines."
   },
   "meta": {
     "itemId": "e609386cca45",
@@ -62,6 +66,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-02T05:24:03.835Z",
     "official": false,
-    "updatedFrom": "0fd66ba14614"
+    "updatedFrom": "f2b8390e8f7c"
   }
 }

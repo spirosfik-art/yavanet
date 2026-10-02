@@ -784,55 +784,59 @@
     "51d3ab8930f8": 1790927543035,
     "3b3d71d59449": 1790927543035,
     "386b468fb7b8": 1790928180348,
-    "0a0e91112954": 1790928180348
+    "0a0e91112954": 1790928180348,
+    "af3c6c3418c9": 1790930367939,
+    "f2b8390e8f7c": 1790930367939,
+    "b6ac7699e65d": 1790930367939,
+    "fe49ef981170": 1790930367939
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T08:02:50.560Z",
+      "at": "2026-10-02T08:39:15.035Z",
       "error": "HTTP 403",
-      "fails": 522
+      "fails": 523
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T08:02:51.428Z",
-      "items": 0
+      "at": "2026-10-02T08:39:17.628Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T08:02:52.086Z",
+      "at": "2026-10-02T08:39:18.384Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T08:02:52.421Z",
+      "at": "2026-10-02T08:39:18.781Z",
       "error": "HTTP 403",
-      "fails": 522
+      "fails": 523
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T08:02:53.737Z",
+      "at": "2026-10-02T08:39:20.207Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T08:02:54.054Z",
+      "at": "2026-10-02T08:39:20.330Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T08:02:55.129Z",
+      "at": "2026-10-02T08:39:21.558Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T08:02:55.947Z",
-      "items": 3
+      "at": "2026-10-02T08:39:22.261Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T08:02:56.376Z",
+      "at": "2026-10-02T08:39:23.026Z",
       "items": 10
     },
     "toi-greece": {
@@ -843,22 +847,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T08:02:56.845Z",
+      "at": "2026-10-02T08:39:23.712Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T08:02:57.192Z",
+      "at": "2026-10-02T08:39:23.809Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T08:02:57.299Z",
-      "items": 6
+      "at": "2026-10-02T08:39:24.355Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T08:02:57.461Z",
+      "at": "2026-10-02T08:39:24.865Z",
       "items": 9
     },
     "ynet-greece": {
@@ -868,12 +872,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T08:02:52.299Z",
+      "at": "2026-10-02T08:39:18.700Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T08:02:58.023Z",
+      "at": "2026-10-02T08:39:25.519Z",
       "items": 0
     },
     "hcg": {
@@ -884,14 +888,14 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T08:02:59.484Z",
+      "at": "2026-10-02T08:39:26.658Z",
       "items": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-02",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "fire-breaks-out-in-andros-agia-faneromeni",
@@ -940,6 +944,18 @@
         "title": "Greece Tax Authority Introduces New Binding Ruling Procedure",
         "at": "2026-10-02T10:28:25+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "greece-weather-storm-crete-winds-9-beaufort",
+        "title": "↻ Karpathos: Road closed and landslides following heavy rainfall",
+        "at": "2026-10-02T11:40:00+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greek-language-guide-for-israelis",
+        "title": "Greek Language Essentials: History, Roots and Modern Usage",
+        "at": "2026-10-02T11:40:09+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -952,6 +968,11 @@
         "title": "Εξοργισμένα τα ΗΑΕ με τα βιαστικά ισραηλινά συμπεράσματα για τη FlyDubai – Δοκιμάζονται οι διακρατικές σχέσεις",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-10-02T07:04:33.675Z"
+      },
+      {
+        "title": "Πτήση FlyDubai: Στο πιλοτήριο η «Αχίλλειος πτέρνα» της ασφάλειας στις πτήσεις – Το κρίσιμο παράδοξο με την ενισχυμένη πόρτα",
+        "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
+        "at": "2026-10-02T08:39:32.257Z"
       }
     ],
     "errors": [],
@@ -1000,12 +1021,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T08:03:00.348Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-02T08:39:27.939Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Η νέα οικονομία της Τεχνητής Νοημοσύνης χτίζεται με δανεικά. Και «χτυπά» τις κυβερνήσεις",
-      "· gtp | Greece Discusses Tourism, Air Links with Brazil and Egypt"
+      "· ingr | Ανατίναξαν ΑΤΜ στις Θεσπιές – Ζημιές σε παρακείμενα σπίτια",
+      "✓ naftemporiki | Κάρπαθος: Κατολισθήσεις λόγω της έντονης βροχόπτωσης – Κλειστός ο δρόμος από Σπόα προς Όλυ",
+      "✓ ert | Πτήση FlyDubai: Στο πιλοτήριο η «Αχίλλειος πτέρνα» της ασφάλειας στις πτήσεις – Το κρίσιμο",
+      "· ingr | Ο Νέιθαν Φίλντερ για τις 34 μέρες που πέρασε μαζί με την Ελίζαμπεθ Χολμς"
     ]
   },
   "evergreenDone": [
@@ -1042,9 +1065,10 @@
     "greek-islands",
     "dodecanese",
     "ionian-islands",
-    "peloponnese"
+    "peloponnese",
+    "greek-language"
   ],
-  "lastEvergreen": 1790879404748,
+  "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790849153065,
   "socialQueue": []
