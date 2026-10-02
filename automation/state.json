@@ -740,7 +740,10 @@
     "ea95e5235006": 1790910159437,
     "9b7d414faa03": 1790911508034,
     "2c7a0769543b": 1790911508034,
-    "e49faeab31dd": 1790912297793
+    "e49faeab31dd": 1790912297793,
+    "960bbdd8ce53": 1790913140942,
+    "3d6f6fe137a7": 1790913140942,
+    "fcc7aea4ffd3": 1790913140942
   },
   "pending": {
     "e2ffa9": {
@@ -848,49 +851,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T03:38:06.450Z",
+      "at": "2026-10-02T03:52:05.485Z",
       "error": "HTTP 403",
-      "fails": 505
+      "fails": 506
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T03:38:07.269Z",
-      "items": 0
+      "at": "2026-10-02T03:52:08.180Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T03:38:08.016Z",
+      "at": "2026-10-02T03:52:08.958Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T03:38:09.073Z",
+      "at": "2026-10-02T03:52:10.015Z",
       "error": "HTTP 403",
-      "fails": 505
+      "fails": 506
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T03:38:10.923Z",
+      "at": "2026-10-02T03:52:11.521Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T03:38:11.154Z",
+      "at": "2026-10-02T03:52:11.929Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T03:38:12.779Z",
+      "at": "2026-10-02T03:52:13.062Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T03:38:13.533Z",
+      "at": "2026-10-02T03:52:14.093Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T03:38:14.144Z",
+      "at": "2026-10-02T03:52:15.054Z",
       "items": 10
     },
     "toi-greece": {
@@ -901,23 +904,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T03:38:14.670Z",
+      "at": "2026-10-02T03:52:15.675Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T03:38:14.998Z",
+      "at": "2026-10-02T03:52:16.737Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T03:38:15.277Z",
+      "at": "2026-10-02T03:52:17.142Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T03:38:15.489Z",
-      "items": 5
+      "at": "2026-10-02T03:52:17.644Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -926,12 +929,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T03:38:08.788Z",
+      "at": "2026-10-02T03:52:09.760Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T03:38:16.146Z",
+      "at": "2026-10-02T03:52:18.332Z",
       "items": 0
     },
     "hcg": {
@@ -942,7 +945,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T03:38:17.145Z",
+      "at": "2026-10-02T03:52:19.853Z",
       "items": 2
     }
   },
@@ -955,6 +958,12 @@
         "slug": "fire-breaks-out-in-andros-agia-faneromeni",
         "title": "Andros: Fire breaks out in Agia Faneromeni area",
         "at": "2026-10-02T01:02:19+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Severe Storms in Crete: Heavy Damage and Warnings for a Second Wave",
+        "at": "2026-10-02T06:53:10+03:00",
         "section": "breaking"
       }
     ],
@@ -1002,11 +1011,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T03:38:17.793Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-02T03:52:20.942Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Σέρρες: 85χρονη ανασύρθηκε χωρίς τις αισθήσεις της μετά από πυρκαγιά σε μονοκατοικία"
+      "· gct | Benson Boone Says He Was Visiting a ‘Very Good Friend’ in Wollongong. (But Who Is It?)",
+      "✓ naftemporiki | Κρήτη: Ένας χρόνος βροχής σε λίγες ώρες – Τεράστιες καταστροφές και φόβοι για το δεύτερο κ",
+      "· ert | Ουκρανία: Νέα ρωσική επίθεση σε σημαντική γέφυρα του Κιέβου"
     ]
   },
   "evergreenDone": [
