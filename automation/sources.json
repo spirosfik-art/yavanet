@@ -8,7 +8,9 @@
    "url": "https://www.primeminister.gr/feed",
    "lang": "el",
    "official": true,
-   "section": "politics"
+   "section": "politics",
+   "enabled": false,
+   "disabledReason": "Απαντά 403 στους servers του GitHub (02.10.2026). Αντικαταστάθηκε από τη ροή Google News με id gn-pm."
   },
   {
    "id": "minfin",
@@ -46,7 +48,9 @@
    "lang": "el",
    "official": true,
    "emergency": true,
-   "section": "breaking"
+   "section": "breaking",
+   "enabled": false,
+   "disabledReason": "Απαντά 403 στους servers του GitHub (02.10.2026). Αντικαταστάθηκε από τη ροή Google News με id gn-civilprotection."
   },
   {
    "id": "meteoalarm",
@@ -204,7 +208,7 @@
    "include": "απαγορευτικ|απόπλου|πλοί|επιβατ|λιμ[άα]ν|ναυάγ|πυρκαγι|βλάβη|προσάραξ|σύγκρουσ|ferry",
    "exclude": "αλλοδαπ|νηπιαγωγ|σχολε|εκδήλωσ|τελετ",
    "enabled": false,
-   "disabledReason": "Το site του Λιμενικού μπλοκάρει την αυτόματη ανάγνωση (HTTP 403). Δεν το παρακάμπτουμε. 30.09.2026"
+   "disabledReason": "Απαντά 403 στους servers του GitHub (02.10.2026). Αντικαταστάθηκε από τη ροή Google News με id gn-hcg."
   },
   {
    "id": "oasa",
@@ -215,6 +219,55 @@
    "official": true,
    "section": "travel",
    "include": "στάση εργασίας|στάσεις εργασίας|απεργ|μετρό|ηλεκτρικ|τραμ|αεροδρόμ|Χ95|X95|κλείσιμο|κλειστ|σταθμ|νυχτεριν|24ωρ"
+  },
+  {
+   "id": "gn-civilprotection",
+   "name": "Πολιτική Προστασία (μέσω Google News)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=site:civilprotection.gov.gr+when:2d&hl=el&gl=GR&ceid=GR:el",
+   "lang": "el",
+   "official": true,
+   "emergency": true,
+   "section": "breaking"
+  },
+  {
+   "id": "gn-pm",
+   "name": "Πρωθυπουργός (μέσω Google News)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=site:primeminister.gr+when:2d&hl=el&gl=GR&ceid=GR:el",
+   "lang": "el",
+   "official": true,
+   "section": "politics"
+  },
+  {
+   "id": "gn-hcg",
+   "name": "Λιμενικό Σώμα (μέσω Google News)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=site:hcg.gr+when:2d&hl=el&gl=GR&ceid=GR:el",
+   "lang": "el",
+   "official": true,
+   "section": "travel",
+   "include": "απαγορευτικ|απόπλου|πλοί|επιβατ|λιμ[άα]ν|ναυάγ|πυρκαγι|βλάβη|προσάραξ|σύγκρουσ|ferry"
+  },
+  {
+   "id": "gn-kathimerini",
+   "name": "Καθημερινή (μέσω Google News)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=site:kathimerini.gr+when:1d&hl=el&gl=GR&ceid=GR:el",
+   "lang": "el",
+   "official": false,
+   "section": "politics",
+   "include": "ισραήλ|ισραηλ|εβρα|ακίνητ|ενοίκ|golden|airbnb|βραχυχρόνι|στεγαστ|φωτιά|πυρκαγι|σεισμ|κακοκαιρ|έκρηξ|απεργ|στάση εργασίας|μετρό|πτήσ|αεροδρόμ|τουρισ|κρουαζ|ακρίβεια|ΦΕΚ|νομοσχέδι|φορολογ|ΕΝΦΙΑ|Πλάκα|Ακρόπολ"
+  },
+  {
+   "id": "gn-iefimerida",
+   "name": "iefimerida (μέσω Google News)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=site:iefimerida.gr+when:1d&hl=el&gl=GR&ceid=GR:el",
+   "lang": "el",
+   "official": false,
+   "section": "politics",
+   "include": "ισραήλ|ισραηλ|εβρα|ακίνητ|ενοίκ|golden|airbnb|βραχυχρόνι|στεγαστ|φωτιά|πυρκαγι|σεισμ|κακοκαιρ|έκρηξ|απεργ|στάση εργασίας|μετρό|πτήσ|αεροδρόμ|τουρισ|κρουαζ|ακρίβεια|ΦΕΚ|νομοσχέδι|φορολογ|ΕΝΦΙΑ|Πλάκα|Ακρόπολ"
   }
  ]
 }
