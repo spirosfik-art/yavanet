@@ -25,7 +25,7 @@ const SIZES = { card: [[420, 840], "(max-width:700px) 100vw, 420px"], hero: [[80
 export function artHTML(a, lang, kind = "card") {
   const img = a.image;
   if (img && img.type === "photo" && img.url) {
-    const alt = esc(img.alt || a[lang].title), eager = kind !== "card";
+    const alt = esc(a[lang].title || img.alt || ""), eager = kind !== "card";
     const load = eager ? ' fetchpriority="high"' : ' loading="lazy"';
     const [ws, sizes] = SIZES[kind] || SIZES.card;
     if (pxl(img.url, 100)) return `<img src="${esc(pxl(img.url, ws[0]))}" srcset="${ws.map((w) => esc(pxl(img.url, w)) + " " + w + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
@@ -107,6 +107,11 @@ const SEO = {
     "/s/travel/": ["חופשה ביוון: חדשות לתיירים, טיסות ואיים", "חדשות לתיירים ישראלים ביוון: טיסות ליוון, שביתות, מעבורות לאיים, מחירים וטיפים לחופשה ביוון."],
     "/s/living/": ["לגור ביוון: חדשות לישראלים שחיים ביוון", "חדשות לישראלים שגרים ביוון: בירוקרטיה, מספר מס, בנקים, בתי ספר, בריאות ועבודה – בעברית."],
     "/s/jewish-greece/": ["יוון היהודית: חב״ד, בתי כנסת ואוכל כשר ביוון", "הקהילה היהודית ביוון: בתי כנסת באתונה, סלוניקי, רודוס וכרתים, חב״ד, אוכל כשר ושבת ביוון."],
+    "/advisor/": ["יועץ נדל״ן דובר עברית ביוון: ליווי בקניית דירה", "דברו עם יועץ נדל״ן דובר עברית ביוון: חיפוש דירה באתונה, עורך דין ונוטריון, השכרה וניהול נכס – ליווי אישי מישראל."],
+    "/live/": ["יוון עכשיו: מזג אוויר, שביתות ומבזקים בזמן אמת", "מה קורה ביוון עכשיו: מזג אוויר באתונה ובאיים, שביתות בטיסות ובמעבורות, שריפות ומבזקים – מתעדכן כל הזמן, בעברית."],
+    "/p/about/": ["אודות יוונט: חדשות יוון בעברית מאתונה", "מי אנחנו: יוונט הוא אתר חדשות בעברית שנכתב מאתונה, על סמך מקורות רשמיים יווניים, לישראלים שמטיילים, גרים או משקיעים ביוון."],
+    "/p/contact/": ["צרו קשר עם יוונט: מערכת, תיקונים ופרסום", "צרו קשר עם מערכת יוונט: הצעות לכתבות, בקשות לתיקון, שאלות על יוון ופרסום באתר החדשות של יוון בעברית."],
+    "/p/advertise/": ["פרסום ביוונט: להגיע לישראלים שמתעניינים ביוון", "פרסמו את העסק שלכם מול ישראלים שמתכננים חופשה, מעבר או השקעה בנדל״ן ביוון: באנרים, כתבות שיווקיות ושיתופי פעולה."],
   },
   en: {
     "/": ["Yavanet: Greece news for Israelis, property and travel", "Greece news for Israelis: buying property in Greece, Athens prices, Golden Visa, strikes and flights, and guides to Rhodes, Crete and Athens."],
@@ -126,6 +131,12 @@ const SEO = {
     "/s/travel/": ["Greece travel news: flights, ferries and islands", "Travel news for Greece: flights, strikes, ferries to the islands, prices and holiday tips."],
     "/s/living/": ["Living in Greece: news for expats from Israel", "News for Israelis living in Greece: bureaucracy, tax number, banks, schools, healthcare and work."],
     "/s/jewish-greece/": ["Jewish Greece: Chabad, synagogues and kosher food", "The Jewish community in Greece: synagogues in Athens, Thessaloniki, Rhodes and Crete, Chabad, kosher food and Shabbat."],
+    "/advisor/": ["Hebrew-speaking property adviser in Greece", "Talk to a Hebrew-speaking property adviser in Greece: finding a flat in Athens, lawyer and notary, renting out and managing your property from Israel."],
+    "/live/": ["Greece now: live weather, strikes and breaking news", "What is happening in Greece right now: weather in Athens and the islands, flight and ferry strikes, wildfires and breaking news, updated all day."],
+    "/tools/": ["Greece property cost and rental yield calculator", "Work out what it really costs to buy a flat in Greece (transfer tax, notary, lawyer, land registry) and the rental yield you can expect."],
+    "/p/about/": ["About Yavanet: Greece news in Hebrew from Athens", "Who we are: Yavanet is a Hebrew and English news site written in Athens from official Greek sources, for Israelis who travel, live or invest in Greece."],
+    "/p/contact/": ["Contact Yavanet: newsroom, corrections and ads", "Contact the Yavanet newsroom: story tips, correction requests, questions about Greece and advertising on the Greece news site for Israelis."],
+    "/p/advertise/": ["Advertise on Yavanet: reach Israelis interested in Greece", "Advertise to Israelis planning a holiday, a move or a property investment in Greece: banners, sponsored articles and partnerships."],
   },
 };
 export function seoFor(lang, path) { const k = lang === "en" ? path.replace(/^\/en/, "") || "/" : path; return (SEO[lang] || {})[k] || null; }
@@ -138,7 +149,9 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   const enUrl = lang === "en" ? path : altPath;
   const sx = seoFor(lang, path);
   if (sx) description = sx[1];
-  const fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : seoTitle ? `${seoTitle} | ${NAME}` : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
+  if (description && description.length > 165) description = description.slice(0, 162).replace(/\s+\S*$/, "") + "…";
+  let fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : seoTitle ? `${seoTitle} | ${NAME}` : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
+  if (fullTitle.length > 70) fullTitle = fullTitle.replace(new RegExp(` \\| ${NAME}$`), "");
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";
