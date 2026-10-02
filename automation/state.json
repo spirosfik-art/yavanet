@@ -725,55 +725,56 @@
     "21384c3715c1": 1790901148144,
     "abcdd238287b": 1790901148144,
     "ebab0e713473": 1790902516664,
-    "b93a847d7068": 1790902516664
+    "b93a847d7068": 1790902516664,
+    "af5f617b2b34": 1790903045736
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T00:55:03.670Z",
+      "at": "2026-10-02T01:03:54.284Z",
       "error": "HTTP 403",
-      "fails": 494
+      "fails": 495
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T00:55:06.236Z",
+      "at": "2026-10-02T01:03:56.726Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T00:55:06.813Z",
+      "at": "2026-10-02T01:03:57.862Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T00:55:08.290Z",
+      "at": "2026-10-02T01:03:58.476Z",
       "error": "HTTP 403",
-      "fails": 494
+      "fails": 495
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T00:55:09.209Z",
+      "at": "2026-10-02T01:03:59.435Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T00:55:09.560Z",
+      "at": "2026-10-02T01:03:59.632Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T00:55:10.460Z",
+      "at": "2026-10-02T01:04:00.381Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T00:55:10.978Z",
+      "at": "2026-10-02T01:04:01.018Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T00:55:12.381Z",
+      "at": "2026-10-02T01:04:01.952Z",
       "items": 10
     },
     "toi-greece": {
@@ -784,22 +785,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T00:55:12.832Z",
+      "at": "2026-10-02T01:04:02.369Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T00:55:12.956Z",
+      "at": "2026-10-02T01:04:02.490Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T00:55:13.019Z",
+      "at": "2026-10-02T01:04:02.952Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T00:55:13.154Z",
+      "at": "2026-10-02T01:04:03.306Z",
       "items": 4
     },
     "ynet-greece": {
@@ -809,12 +810,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T00:55:07.939Z",
+      "at": "2026-10-02T01:03:58.159Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T00:55:13.669Z",
+      "at": "2026-10-02T01:04:03.845Z",
       "items": 0
     },
     "hcg": {
@@ -825,7 +826,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T00:55:15.995Z",
+      "at": "2026-10-02T01:04:05.038Z",
       "items": 2
     }
   },
@@ -879,12 +880,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T00:55:16.664Z",
-    "considered": 2,
+    "at": "2026-10-02T01:04:05.736Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | A 190-year-old Greek church in Turkey is about to reopen — as a museum",
-      "· gct | Bayside to Fly Easter and Greek Independence Day Flags in 2027"
+      "· gct | Ioanna Touni and Dimitris Spyridonidis Leave Thessaloniki for Mystery Trip"
     ]
   },
   "evergreenDone": [
