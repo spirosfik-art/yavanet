@@ -726,55 +726,57 @@
     "abcdd238287b": 1790901148144,
     "ebab0e713473": 1790902516664,
     "b93a847d7068": 1790902516664,
-    "af5f617b2b34": 1790903045736
+    "af5f617b2b34": 1790903045736,
+    "4454321b5d57": 1790904289485,
+    "54513b96643a": 1790904289485
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T01:03:54.284Z",
+      "at": "2026-10-02T01:24:36.703Z",
       "error": "HTTP 403",
-      "fails": 495
+      "fails": 496
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T01:03:56.726Z",
+      "at": "2026-10-02T01:24:39.283Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T01:03:57.862Z",
+      "at": "2026-10-02T01:24:40.113Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T01:03:58.476Z",
+      "at": "2026-10-02T01:24:40.800Z",
       "error": "HTTP 403",
-      "fails": 495
+      "fails": 496
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T01:03:59.435Z",
+      "at": "2026-10-02T01:24:42.223Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T01:03:59.632Z",
+      "at": "2026-10-02T01:24:42.630Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T01:04:00.381Z",
+      "at": "2026-10-02T01:24:43.986Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T01:04:01.018Z",
-      "items": 3
+      "at": "2026-10-02T01:24:44.849Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T01:04:01.952Z",
+      "at": "2026-10-02T01:24:45.857Z",
       "items": 10
     },
     "toi-greece": {
@@ -785,22 +787,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T01:04:02.369Z",
+      "at": "2026-10-02T01:24:46.396Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T01:04:02.490Z",
+      "at": "2026-10-02T01:24:46.611Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T01:04:02.952Z",
+      "at": "2026-10-02T01:24:46.655Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:04:03.306Z",
+      "at": "2026-10-02T01:24:46.862Z",
       "items": 4
     },
     "ynet-greece": {
@@ -810,12 +812,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:03:58.159Z",
+      "at": "2026-10-02T01:24:40.682Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T01:04:03.845Z",
+      "at": "2026-10-02T01:24:47.507Z",
       "items": 0
     },
     "hcg": {
@@ -826,7 +828,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T01:04:05.038Z",
+      "at": "2026-10-02T01:24:48.803Z",
       "items": 2
     }
   },
@@ -880,11 +882,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T01:04:05.736Z",
-    "considered": 1,
+    "at": "2026-10-02T01:24:49.485Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Ioanna Touni and Dimitris Spyridonidis Leave Thessaloniki for Mystery Trip"
+      "· gct | How the Greek Diaspora Took Root in Australia",
+      "· ert | Ρωσία: Ουκρανική επίθεση με drones στο Βόλγκογκραντ – Ένας τραυματίας"
     ]
   },
   "evergreenDone": [
