@@ -946,7 +946,9 @@
     "356dabdbad55": 1790977865203,
     "6443bf351e2f": 1790978492411,
     "c15a040eec76": 1790979807366,
-    "cb50a2f60df1": 1790979807366
+    "cb50a2f60df1": 1790979807366,
+    "9c09e738ae6a": 1790980566230,
+    "ab5f907ecfda": 1790980566230
   },
   "pending": {},
   "sourceStatus": {
@@ -958,12 +960,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T22:23:14.411Z",
+      "at": "2026-10-02T22:35:54.828Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T22:23:15.342Z",
+      "at": "2026-10-02T22:35:55.645Z",
       "items": 5
     },
     "civilprotection": {
@@ -974,27 +976,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T22:23:17.711Z",
+      "at": "2026-10-02T22:35:57.509Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T22:23:18.104Z",
+      "at": "2026-10-02T22:35:57.892Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T22:23:19.124Z",
+      "at": "2026-10-02T22:35:58.807Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T22:23:19.907Z",
+      "at": "2026-10-02T22:35:59.496Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T22:23:20.844Z",
+      "at": "2026-10-02T22:36:00.334Z",
       "items": 10
     },
     "toi-greece": {
@@ -1005,22 +1007,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T22:23:21.488Z",
+      "at": "2026-10-02T22:36:00.866Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T22:23:21.751Z",
+      "at": "2026-10-02T22:36:01.243Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T22:23:22.014Z",
+      "at": "2026-10-02T22:36:01.842Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T22:23:22.238Z",
+      "at": "2026-10-02T22:36:02.044Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1030,12 +1032,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T22:23:15.962Z",
+      "at": "2026-10-02T22:35:56.334Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T22:23:22.906Z",
+      "at": "2026-10-02T22:36:02.570Z",
       "items": 0
     },
     "hcg": {
@@ -1046,32 +1048,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T22:23:25.226Z",
+      "at": "2026-10-02T22:36:04.042Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T22:23:25.468Z",
+      "at": "2026-10-02T22:36:04.285Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T22:23:25.648Z",
-      "items": 5
+      "at": "2026-10-02T22:36:04.504Z",
+      "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T22:23:25.845Z",
-      "items": 12
+      "at": "2026-10-02T22:36:04.679Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T22:23:26.180Z",
+      "at": "2026-10-02T22:36:05.067Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T22:23:26.658Z",
+      "at": "2026-10-02T22:36:05.527Z",
       "items": 11
     }
   },
@@ -1122,12 +1124,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T22:23:27.366Z",
+    "at": "2026-10-02T22:36:06.230Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Stefanos Tsitsipas Explains Why He Removed His Father From His Coaching Team",
-      "· gct | Flydubai Flight 1073: A security warning may have been missed before the plane even took o"
+      "· gct | Sport FM TV launches free GBL streams on sportfmtv.gr",
+      "· gn-pm | Ενημερωτικό σημείωμα για την επίσκεψη του Πρωθυπουργού Κυριάκου Μητσοτάκη στο Μουσικό Γυμν"
     ]
   },
   "evergreenDone": [
