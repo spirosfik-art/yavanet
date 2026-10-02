@@ -743,7 +743,9 @@
     "e49faeab31dd": 1790912297793,
     "960bbdd8ce53": 1790913140942,
     "3d6f6fe137a7": 1790913140942,
-    "fcc7aea4ffd3": 1790913140942
+    "fcc7aea4ffd3": 1790913140942,
+    "195206f2a828": 1790913736521,
+    "0fd66ba14614": 1790913736521
   },
   "pending": {
     "e2ffa9": {
@@ -846,54 +848,155 @@
         ]
       },
       "notified": true
+    },
+    "02f38e": {
+      "createdAt": 1790913832506,
+      "item": {
+        "title": "Σε ναδίρ 17 μηνών το ευρώ",
+        "url": "https://www.naftemporiki.gr/finance/markets/2169579/se-nadir-17-minon-to-eyro/?utm_source=rss&utm_medium=rss&utm_campaign=se-nadir-17-minon-to-eyro",
+        "summary": "Το χαμηλότερο επίπεδο σε διάρκεια 17 μηνών άγγιξε χθες το ευρώ, καθώς οι επενδυτές απομακρύνθηκαν από το ευρωπαϊκό ενεργητικό, εν μέσω του αντίκτυπου που έχουν στην οικονομία και στον πληθωρισμό…\n Σε ναδίρ 17 μηνών το ευρώ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Fri, 02 Oct 2026 04:00:36 +0000",
+        "id": "195206f2a828",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "195206f2a828",
+        "section": "real-estate",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The euro dropping to a 17-month low impacts Israeli investors purchasing property in Greece or managing Euro-denominated assets.",
+        "item": {
+          "title": "Σε ναδίρ 17 μηνών το ευρώ",
+          "url": "https://www.naftemporiki.gr/finance/markets/2169579/se-nadir-17-minon-to-eyro/?utm_source=rss&utm_medium=rss&utm_campaign=se-nadir-17-minon-to-eyro",
+          "summary": "Το χαμηλότερο επίπεδο σε διάρκεια 17 μηνών άγγιξε χθες το ευρώ, καθώς οι επενδυτές απομακρύνθηκαν από το ευρωπαϊκό ενεργητικό, εν μέσω του αντίκτυπου που έχουν στην οικονομία και στον πληθωρισμό…\n Σε ναδίρ 17 μηνών το ευρώ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Fri, 02 Oct 2026 04:00:36 +0000",
+          "id": "195206f2a828",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "euro-drops-17-month-low-greece",
+        "section": "real-estate",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "שער היורו",
+          "en": "Euro Exchange"
+        },
+        "imageKey": "key",
+        "imageQuery": "euro currency finance stock",
+        "he": {
+          "title": "היורו בשפל של 17 חודשים: מה זה אומר על נדל\"ן ביוון",
+          "seoTitle": "שער היורו ביוון: ירידה חדה ומשמעותית לשפל",
+          "seoDesc": "היורו ירד לשפל של 17 חודשים מול הדולר. מה זה אומר על שער החליפין ועל רכישת נדל\"ן והשקעות ביוון? כל הפרטים למשקיעים הישראלים.",
+          "keywords": [
+            "שער היורו ביוון",
+            "נדל\"ן ביוון",
+            "השקעות ביוון",
+            "כלכלה ביוון"
+          ],
+          "dek": "המטבע האירופי ירד לרמתו הנמוכה ביותר מזה 17 חודשים בעקבות חששות מאינפלציה ומחירי האנרגיה, ונסחר מתחת לרף 1.13 הדולרים.",
+          "tldr": [
+            "היורו איבד מערכו והגיע לשפל שלא נראה מאז חודש מאי אשתקד.",
+            "הירידה מיוחסת לעליית מחירי הנפט ולחוסר יציבות פוליטית באירופה.",
+            "מדד הדולר רשם את הרבעון השישי ברציפות של עליות."
+          ],
+          "means": "אם אתם שוקלים רכישת נדל\"ן או ביצוע העברות כספיות ליוון, חשוב לזכור שמדובר במידע כללי בלבד ואינו מהווה ייעוץ פיננסי. כדאי להתייעץ עם אנשי מקצוע מוסמכים כדי לבחון את השפעות שערי החליפין על התקציב שלכם.",
+          "body": "## ירידה חדה בשער המטבע האירופי\n\nהיורו רשם אתמול את אחד הנתונים החלשים ביותר שלו בשנה וחצי האחרונות, כאשר נגע ברמה של 1.1292 מול הדולר. מדובר בירידה של כ-0.32% שהביאה את המטבע מתחת לרף של 1.13 דולרים לראשונה מאז חודש מאי בשנה שעברה.\n\nהתנועה כלפי מטה הורגשה היטב גם מול מטבעות מרכזיים נוספים, ובהם הין היפני והפרנק השוויצרי, בעוד שמול הלירה השטרלינג התקשה המטבע לשמור על טריטוריה חיובית. בסך הכל, במהלך חודש ספטמבר איבד היורו כ-2.5 מערכו.\n\n## הגורמים המרכזיים לתנודות\n\nהמשקיעים הפחיתו את האחזקות שלהם בנכסים אירופיים על רקע ההשפעה של מחירי הנפט הגבוהים על הכלכלה והאינפלציה. לכך התלוותה אי-ודאות פוליטית בכמה מדינות באזור היורו, שהפעילה לחץ נוסף על המטבע המשותף.\n\nבמקביל, מדד הדולר האמריקאי המשיך את רצף העליות הממושך ביותר שלו מאז שנת 2022, והגיע לשיא חדש מאז אמצע מאי 2025, בעיקר בשל קצב עליית תשואות מהיר בארצות הברית."
+        },
+        "en": {
+          "title": "Euro Hits 17-Month Low: What It Means for Greece Investments",
+          "seoTitle": "Euro Drops to 17-Month Low in Global Markets",
+          "seoDesc": "The euro dropped to a 17-month low against the dollar amid energy and political concerns. What this means for property and investments in Greece.",
+          "keywords": [
+            "euro exchange rate greece",
+            "greece real estate",
+            "invest in greece",
+            "greek economy"
+          ],
+          "dek": "The European single currency reached its lowest level in 17 months, trading below 1.13 against the dollar due to oil prices and political uncertainty.",
+          "tldr": [
+            "The euro hit its lowest level since last May, dropping to 1.1292.",
+            "Investors pulled away from European assets amid inflation and energy pressures.",
+            "The US dollar index extended its winning streak for a sixth consecutive quarter."
+          ],
+          "means": "If you are planning property transactions or financial transfers in Greece, please note this is general information only and not financial advice. Consult qualified professionals to understand how currency fluctuations may affect your plans.",
+          "body": "## The Euro Reaches a Multi-Month Low\n\nThe euro touched a 17-month low yesterday as investors moved away from European assets. The single currency declined to 1.1292 against the dollar, a drop of 0.32%, sliding below the 1.13 threshold for the first time since last May.\n\nThe currency also fell against the yen and the Swiss franc, while barely holding positive ground against the British pound. Throughout September, the euro dropped by approximately 2.5%, marking its largest monthly decline since July of last year.\n\n## Market Drivers and Dollar Strength\n\nAnalysts point to the economic and inflationary impact of higher oil prices, alongside political uncertainty across several eurozone nations, as the main drivers behind the euro's pullback.\n\nMeanwhile, the US dollar index completed its sixth consecutive quarter of gains, the longest upward streak since 2022, as American yields climbed at a much faster pace than elsewhere."
+        }
+      },
+      "text": "Από την έντυπη έκδοση \n Έφη Τριήρη \n &bull; \n [email protected] \n Το χαμηλότερο επίπεδο σε διάρκεια 17 μηνών άγγιξε χθες το ευρώ, καθώς οι επενδυτές απομακρύνθηκαν από το ευρωπαϊκό ενεργητικό, εν μέσω του αντίκτυπου που έχουν στην οικονομία και στον πληθωρισμό οι υψηλότερες τιμές πετρελαίου, αλλά και λόγω της πολιτικής αβεβαιότητας που επικρατεί σε πολλές χώρες του ευρώ. Το ευρωπαϊκό ενιαίο νόμισμα υποχώρησε στο 1,1292 έναντι του δολαρίου, με πτώση 0,32%, διολισθαίνοντας κάτω από το επίπεδο του 1,13 για πρώτη φορά από πέρυσι τον Μάιο. Το ευρώ βούλιαξε επίσης και έναντι του γιεν και του ελβετικού φράγκου, ενώ μετά δυσκολίας κρατήθηκε σε θετικό έδαφος έναντι της στερλίνας, καθώς η απόδοση του γαλλικού χρέους εκτινάχθηκε σε νέο υψηλό 14 ετών. Στη διάρκεια του Σεπτεμβρίου, το ευρώ υποχώρησε περίπου κατά 2,5%, στη μεγαλύτερη μηνιαία πτώση από πέρυσι τον Ιούλιο. Από την άλλη, ο δείκτης δολαρίου ολοκλήρωσε το έκτο διαδοχικό τρίμηνο κερδών, στο πιο παρατεταμένο ανοδικό σερί από το 2022, καθώς οι αμερικανικές αποδόσεις αυξάνονται με πολύ πιο γρήγορο ρυθμό συγκριτικά με τις υπόλοιπες αποδόσεις. Ο δείκτης δολαρίου ενισχύθηκε κατά 0,23%, στις 101,73 μονάδες, στο υψηλότερο επίπεδο από τα μέσα Μαΐου του 2025.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 02/10/2026 - 7:00 \n Χρηματιστήριο: Αγγίζει τα 400 εκατ. ευρώ η Alter Ego\n 02/10/2026 - 6:40 \n Χρηματιστήριο: Ξανά κάτω του placement η μετοχή της Coca Cola\n 02/10/2026 - 6:20 \n Χρηματιστήριο: Γιατί η Medicon βρίσκεται σε υψηλό 3μήνου\n 02/10/2026 - 6:00 \n Χρηματιστήριο: Τι κρύβεται πίσω από τα μεγέθη της Unibios\n 01/10/2026 - 9:42 \n Πετρέλαιο: Άλμα άνω του 4% για το Brent – Οι ΗΠΑ στέλνουν τρίτο αεροπλανοφόρο στη Μέση Ανατολή\n 01/10/2026 - 5:20 \n Χρηματιστήριο: «Άτσαλη» προσγείωση με απώλειες -2,5%\n 01/10/2026 - 4:09 \n Βρετανία: Δανείζεται με το «απαγορευτικό» 6% και νοσταλγεί την ΕΕ – Μπορεί το Breturn να σβήσει την κρίση;\n 01/10/2026 - 2:40 \n Χρυσός: Γιατί έπαψε αγάπη να θυμίζει – Η μεγάλη ανατροπή\n 01/10/2026 - 1:02 \n Χρηματιστήριο: Ούριος άνεμος για τις εισηγμένες – Άλμα 33% στα καθαρά κέρδη του 6μήνου (πίνακας)\n 01/10/2026 - 11:43 \n Γιατί η τιμή του ντίζελ θα εκτοξευτεί σε δυσθεώρητα ύψη\n 01/10/2026 - 11:18 \n Σοκ διαρκείας στα ομόλογα: Νέο ρεκόρ απόδοσης για το αμερικανικό 10ετές – Εκτινάχθηκε σε υψηλά 24 ετών\n 01/10/2026 - 10:42 \n Χρηματιστήριο: Διόρθωση με το… καλημέρα – Οριζόντιες απώλειες στο ταμπλό\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Το ευρώ σε χαμηλό 17 μηνών: Τι σημαίνει για τις επενδύσεις στην Ελλάδα",
+        "dek": "Το ευρωπαϊκό ενιαίο νόμισμα έφτασε στο χαμηλότερο επίπεδό του εδώ και 17 μήνες, υποχωρώντας κάτω από το 1,13 έναντι του δολαρίου, λόγω των τιμών του πετρελαίου και της πολιτικής αβεβαιότητας.",
+        "tldr": [
+          "Το ευρώ έφτασε στο χαμηλότερο επίπεδό του από τον περασμένο Μάιο, πέφτοντας στο 1,1292.",
+          "Οι επενδυτές απομακρύνθηκαν από τα ευρωπαϊκά περιουσιακά στοιχεία εν μέσω πληθωριστικών και ενεργειακών πιέσεων.",
+          "Ο δείκτης του αμερικανικού δολαρίου διεύρυνε το σερί ανόδου του για έκτο συνεχόμενο τρίμηνο."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T03:52:05.485Z",
+      "at": "2026-10-02T04:02:05.208Z",
       "error": "HTTP 403",
-      "fails": 506
+      "fails": 507
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T03:52:08.180Z",
+      "at": "2026-10-02T04:02:07.494Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T03:52:08.958Z",
+      "at": "2026-10-02T04:02:08.177Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T03:52:10.015Z",
+      "at": "2026-10-02T04:02:08.976Z",
       "error": "HTTP 403",
-      "fails": 506
+      "fails": 507
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T03:52:11.521Z",
+      "at": "2026-10-02T04:02:10.002Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T03:52:11.929Z",
+      "at": "2026-10-02T04:02:10.418Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T03:52:13.062Z",
+      "at": "2026-10-02T04:02:11.272Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T03:52:14.093Z",
+      "at": "2026-10-02T04:02:12.003Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T03:52:15.054Z",
+      "at": "2026-10-02T04:02:12.809Z",
       "items": 10
     },
     "toi-greece": {
@@ -904,23 +1007,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T03:52:15.675Z",
+      "at": "2026-10-02T04:02:13.305Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T03:52:16.737Z",
+      "at": "2026-10-02T04:02:13.585Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T03:52:17.142Z",
+      "at": "2026-10-02T04:02:13.629Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T03:52:17.644Z",
-      "items": 6
+      "at": "2026-10-02T04:02:14.021Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -929,12 +1032,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T03:52:09.760Z",
+      "at": "2026-10-02T04:02:08.747Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T03:52:18.332Z",
+      "at": "2026-10-02T04:02:14.517Z",
       "items": 0
     },
     "hcg": {
@@ -945,7 +1048,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T03:52:19.853Z",
+      "at": "2026-10-02T04:02:15.491Z",
       "items": 2
     }
   },
@@ -964,6 +1067,12 @@
         "slug": "red-code-crete-severe-weather-storm",
         "title": "↻ Severe Storms in Crete: Heavy Damage and Warnings for a Second Wave",
         "at": "2026-10-02T06:53:10+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greece-weather-storm-crete-winds-9-beaufort",
+        "title": "↻ Severe Weather in Greece: Heavy Rain and 9 Beaufort Winds in Crete and the Aegean",
+        "at": "2026-10-02T07:02:31+03:00",
         "section": "breaking"
       }
     ],
@@ -1011,13 +1120,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T03:52:20.942Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-10-02T04:02:16.521Z",
+    "considered": 2,
+    "picked": 2,
     "items": [
-      "· gct | Benson Boone Says He Was Visiting a ‘Very Good Friend’ in Wollongong. (But Who Is It?)",
-      "✓ naftemporiki | Κρήτη: Ένας χρόνος βροχής σε λίγες ώρες – Τεράστιες καταστροφές και φόβοι για το δεύτερο κ",
-      "· ert | Ουκρανία: Νέα ρωσική επίθεση σε σημαντική γέφυρα του Κιέβου"
+      "✓ naftemporiki | Σε ναδίρ 17 μηνών το ευρώ",
+      "✓ naftemporiki | Καιρός: Πότε και πού θα ενταθούν τα φαινόμενα στην Κρήτη – 9 μποφόρ στο Αιγαίο, πρόγνωση γ"
     ]
   },
   "evergreenDone": [
