@@ -1,0 +1,80 @@
+{
+  "slug": "orange-thunderstorm-warning-dodecanese",
+  "section": "breaking",
+  "publishedAt": "2026-10-02T16:53:58+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 36.4343,
+    "lng": 28.2176
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR013"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7452437/pexels-photo-7452437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Intense lightning flashes illuminate a dark sky during a powerful thunderstorm.",
+    "credit": "Photo: kristi knight / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/lightning-on-a-cloudy-dark-sky-7452437/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת סערה",
+    "en": "Storm Warning"
+  },
+  "he": {
+    "title": "אזהרת כתום לסערות רעמים: מזג אוויר קיצוני באיים הדודקאנסיים",
+    "seoTitle": "מזג אוויר ביוון: אזהרת סערה באיים הדודקאנסיים היום",
+    "seoDesc": "אזהרת סערה ברמה כתומה פורסמה עבור האיים הדודקאנסיים ביוון. בדקו את מצב הטיסות וההפלגות אם אתם באזור והישארו מעודכנים ברשויות.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "אזהרת סערה ביוון",
+      "האיים הדודקאנסיים",
+      "סערה ביוון",
+      "תחזית ביוון"
+    ],
+    "dek": "הרשויות פרסמו אזהרת מזג אוויר חמורה ברמה כתומה לקראת סערות רעמים באזור האיים הדודקאנסיים.",
+    "tldr": [
+      "פורסמה אזהרת סערה ברמה כתומה לאיים הדודקאנסיים ביוון.",
+      "האזהרה מתייחסת לסערות רעמים חזקות וצפי למשקעים משמעותיים.",
+      "התחזית מחייבת מעקב צמוד אחרי תנאי מזג האוויר המקומיים."
+    ],
+    "means": "אם אתם מטיילים או שוהים כעת באיים הדודקאנסיים, הישארו בבתים או במלונות בזמן הסערה ותאמו מחדש תוכניות נסיעה. מומלץ לבדוק את מצב הטיסות והמעבורות מול חברות התעופה וההפלגה טרם היציאה, ולהישמע להנחיות הרשויות המקומיות ביוון.",
+    "body": "## אזהרת מזג אוויר חריג\n\nשירותי החיזוי והחירום פרסמו אזהרת כתום מפני מזג אוויר סוער באזור האיים הדודקאנסיים. האזהרה מצביעה על אפשרות לסערות רעמים חזקות שעשויות להשפיע על השגרה באזור.\n\n## הנחיות לבאים ולאזור\n\nהתושבים והמבקרים באיים מתבקשים לנקוט משנה זהירות. מומלץ להימנע מנסיעות לא חיוניות בזמן השיא של הסערה, להתרחק מאזורים מועדים להצפות ולעקוב אחרי עדכונים שוטפים מהרשויות המוסמכות.\n\n## השפעה על התחבורה\n\nתנאי מזג האוויר הקשים עלולים לגרום לשיבושים זמניים בפעילות התחבורתית, כולל טיסות והפלגות אל האיים וממם. כדאי להתעדכן באופן קבוע מול הספקים."
+  },
+  "en": {
+    "title": "Orange Thunderstorm Warning Issued for the Dodecanese Islands",
+    "seoTitle": "Storm Warning Greece: Orange Alert for Dodecanese Today",
+    "seoDesc": "An orange thunderstorm warning is issued for the Dodecanese islands in Greece. Check travel conditions and stay updated with local authorities.",
+    "keywords": [
+      "greece weather",
+      "storm warning greece",
+      "dodecanese islands",
+      "greece thunderstorms",
+      "meteoalarm greece"
+    ],
+    "dek": "Authorities issued an orange-level weather warning for severe thunderstorms affecting the Dodecanese island group.",
+    "tldr": [
+      "An orange thunderstorm warning was issued for the Dodecanese islands.",
+      "Severe weather conditions and heavy rainfall are expected in the region.",
+      "Travelers and residents are advised to monitor local updates closely."
+    ],
+    "means": "If you are traveling in the Dodecanese region, stay indoors during peak storm hours and check with your airline or ferry operator for any schedule changes. Follow all safety guidelines issued by local Greek authorities.",
+    "body": "## Severe Weather Alert\n\nMeteorological authorities have raised an orange-level alert for thunderstorms across the Dodecanese islands. The warning highlights the potential for intense weather activity that could disrupt daily routines.\n\n## Safety Recommendations\n\nResidents and visitors in the affected islands are urged to exercise caution. It is advisable to avoid non-essential travel during the worst of the storm, stay clear of flood-prone areas, and follow official updates.\n\n## Transport and Travel Impact\n\nThe harsh weather conditions may lead to temporary disruptions in local transportation services, including flights and ferry connections. Passengers should verify their travel status before heading out."
+  },
+  "meta": {
+    "itemId": "8f30657469a6",
+    "imageQuery": "severe storm greece lightning",
+    "sourceHash": "e343cbddb6be",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-02T13:53:58.640Z",
+    "official": true
+  }
+}

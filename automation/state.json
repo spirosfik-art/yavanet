@@ -882,7 +882,9 @@
     "880784a29be2": 1790947625377,
     "4ce938dc4031": 1790947625377,
     "e40809c8da68": 1790948446441,
-    "8eccb1204eac": 1790948446441
+    "8eccb1204eac": 1790948446441,
+    "ace3230bfc5d": 1790949224339,
+    "8f30657469a6": 1790949224339
   },
   "pending": {},
   "sourceStatus": {
@@ -894,12 +896,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T13:40:36.545Z",
-      "items": 10
+      "at": "2026-10-02T13:53:29.297Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T13:40:37.241Z",
+      "at": "2026-10-02T13:53:30.086Z",
       "items": 5
     },
     "civilprotection": {
@@ -910,27 +912,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T13:40:38.515Z",
-      "items": 13
+      "at": "2026-10-02T13:53:32.623Z",
+      "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T13:40:38.880Z",
+      "at": "2026-10-02T13:53:32.750Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T13:40:39.961Z",
+      "at": "2026-10-02T13:53:36.461Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T13:40:40.513Z",
-      "items": 4
+      "at": "2026-10-02T13:53:37.368Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T13:40:41.295Z",
+      "at": "2026-10-02T13:53:38.260Z",
       "items": 10
     },
     "toi-greece": {
@@ -941,22 +943,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T13:40:41.858Z",
-      "items": 0
+      "at": "2026-10-02T13:53:38.869Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T13:40:42.213Z",
+      "at": "2026-10-02T13:53:38.969Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T13:40:42.805Z",
+      "at": "2026-10-02T13:53:39.694Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:40:42.939Z",
+      "at": "2026-10-02T13:53:39.909Z",
       "items": 3
     },
     "ynet-greece": {
@@ -966,12 +968,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:40:37.538Z",
+      "at": "2026-10-02T13:53:30.470Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T13:40:43.378Z",
+      "at": "2026-10-02T13:53:40.575Z",
       "items": 0
     },
     "hcg": {
@@ -982,39 +984,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T13:40:44.028Z",
-      "items": 0
+      "at": "2026-10-02T13:53:41.745Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T13:40:44.243Z",
-      "items": 3
+      "at": "2026-10-02T13:53:41.960Z",
+      "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T13:40:44.430Z",
+      "at": "2026-10-02T13:53:42.168Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T13:40:44.818Z",
-      "items": 10
+      "at": "2026-10-02T13:53:42.421Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T13:40:45.303Z",
-      "items": 7
+      "at": "2026-10-02T13:53:42.808Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T13:40:45.783Z",
+      "at": "2026-10-02T13:53:43.217Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-02",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "fire-breaks-out-in-andros-agia-faneromeni",
@@ -1117,6 +1119,18 @@
         "title": "↻ Crete: Severe Storms Cause Major Flooding and Damage",
         "at": "2026-10-02T16:27:29+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "orange-thunderstorm-warning-dodecanese",
+        "title": "Orange Thunderstorm Warning Issued for the Dodecanese Islands",
+        "at": "2026-10-02T16:53:58+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "kastoria-forest-fire-giannoxori",
+        "title": "Forest fire breaks out in remote mountainous area of Kastoria",
+        "at": "2026-10-02T16:54:28+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1174,6 +1188,10 @@
       {
         "slug": "ste-declares-tax-evasion-statute-of-limitations-unconstitutional",
         "at": "2026-10-02T10:53:29.517Z"
+      },
+      {
+        "slug": "orange-thunderstorm-warning-dodecanese",
+        "at": "2026-10-02T13:53:59.981Z"
       }
     ]
   },
@@ -1211,12 +1229,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T13:40:46.441Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-02T13:53:44.339Z",
+    "considered": 5,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Η Αργεντινή ανακοίνωσε πρόγραμμα χορήγησης υπηκοότητας μέσω επενδύσεων",
-      "· minfin | Νέες προθεσμίες προσαρμογής για το σύστημα εισροών-εκροών και την απογραφή στο Μητρώο Δεξα"
+      "✓ ert | Καστοριά: Δασική πυρκαγιά σε δύσβατη περιοχή στο Γιαννοχώρι – Επιχειρούν επίγειες δυνάμεις",
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Dodekanisa Islands",
+      "✓ meteoalarm | Red Thunderstorm Warning issued for Greece - Dodekanisa Islands",
+      "✓ meteoalarm | Red Rain Warning issued for Greece - Dodekanisa Islands",
+      "✓ meteoalarm | Orange Rain Warning issued for Greece - Dodekanisa Islands"
     ]
   },
   "evergreenDone": [
@@ -1258,6 +1279,25 @@
   ],
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
-  "lastPush": 1790849153065,
-  "socialQueue": []
+  "lastPush": 1790949239981,
+  "socialQueue": [
+    {
+      "slug": "orange-thunderstorm-warning-dodecanese",
+      "url": "https://yavanet.gr/a/orange-thunderstorm-warning-dodecanese/",
+      "at": "2026-10-02T13:53:59.981Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/orange-thunderstorm-warning-dodecanese/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/orange-thunderstorm-warning-dodecanese/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אזהרת כתום לסערות רעמים: מזג אוויר קיצוני באיים הדודקאנסיים",
+        "title_en": "Orange Thunderstorm Warning Issued for the Dodecanese Islands",
+        "dek_he": "הרשויות פרסמו אזהרת מזג אוויר חמורה ברמה כתומה לקראת סערות רעמים באזור האיים הדודקאנסיים.",
+        "dek_en": "Authorities issued an orange-level weather warning for severe thunderstorms affecting the Dodecanese island group.",
+        "section": "breaking",
+        "breaking": true,
+        "image": "https://images.pexels.com/photos/7452437/pexels-photo-7452437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "🔴 אזהרת כתום לסערות רעמים: מזג אוויר קיצוני באיים הדודקאנסיים\n\nהרשויות פרסמו אזהרת מזג אוויר חמורה ברמה כתומה לקראת סערות רעמים באזור האיים הדודקאנסיים.\n\nhttps://yavanet.gr/a/orange-thunderstorm-warning-dodecanese/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Orange Thunderstorm Warning Issued for the Dodecanese Islands\n\nAuthorities issued an orange-level weather warning for severe thunderstorms affecting the Dodecanese island group.\n\nhttps://yavanet.gr/en/a/orange-thunderstorm-warning-dodecanese/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
