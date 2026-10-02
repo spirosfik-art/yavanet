@@ -847,7 +847,13 @@
     "ad3c8886cfa5": 1790938318546,
     "b6133684096e": 1790938318546,
     "411649a95f21": 1790938907046,
-    "f172c4fddaf8": 1790938907046
+    "f172c4fddaf8": 1790938907046,
+    "9caff830afdf": 1790941039242,
+    "18e54d9a2c6d": 1790941039242,
+    "5c05c29944c6": 1790941039242,
+    "03174076f623": 1790941039242,
+    "54ee624b8274": 1790941039242,
+    "68b37cff6125": 1790941039242
   },
   "pending": {},
   "sourceStatus": {
@@ -859,12 +865,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T11:01:36.300Z",
+      "at": "2026-10-02T11:37:07.334Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T11:01:36.993Z",
+      "at": "2026-10-02T11:37:08.087Z",
       "items": 5
     },
     "civilprotection": {
@@ -875,27 +881,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T11:01:38.428Z",
+      "at": "2026-10-02T11:37:09.546Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T11:01:38.834Z",
+      "at": "2026-10-02T11:37:09.917Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T11:01:39.727Z",
+      "at": "2026-10-02T11:37:10.892Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T11:01:40.447Z",
-      "items": 6
+      "at": "2026-10-02T11:37:11.539Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T11:01:41.120Z",
+      "at": "2026-10-02T11:37:12.502Z",
       "items": 10
     },
     "toi-greece": {
@@ -906,22 +912,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T11:01:41.665Z",
+      "at": "2026-10-02T11:37:12.983Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T11:01:41.961Z",
+      "at": "2026-10-02T11:37:13.251Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T11:01:42.662Z",
+      "at": "2026-10-02T11:37:13.910Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T11:01:43.090Z",
+      "at": "2026-10-02T11:37:14.276Z",
       "items": 4
     },
     "ynet-greece": {
@@ -931,12 +937,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T11:01:37.435Z",
+      "at": "2026-10-02T11:37:08.612Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T11:01:43.664Z",
+      "at": "2026-10-02T11:37:14.778Z",
       "items": 0
     },
     "hcg": {
@@ -947,32 +953,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T11:01:44.829Z",
+      "at": "2026-10-02T11:37:16.168Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T11:01:45.045Z",
+      "at": "2026-10-02T11:37:16.341Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T11:01:45.207Z",
+      "at": "2026-10-02T11:37:16.528Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T11:01:45.409Z",
+      "at": "2026-10-02T11:37:16.741Z",
       "items": 9
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T11:01:45.753Z",
-      "items": 9
+      "at": "2026-10-02T11:37:17.230Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T11:01:46.186Z",
+      "at": "2026-10-02T11:37:17.663Z",
       "items": 11
     }
   },
@@ -1052,6 +1058,18 @@
         "title": "US Secretary of State Marco Rubio to Visit Athens Next Week",
         "at": "2026-10-02T14:03:11+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "orange-wind-warning-north-east-aegean-2026",
+        "title": "↻ Greece Storm: Sailing Ban in the Aegean Sea and Port Disruptions",
+        "at": "2026-10-02T14:38:13+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Why the recent severe storm caused widespread flooding and damage",
+        "at": "2026-10-02T14:38:25+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1146,12 +1164,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T11:01:47.046Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-10-02T11:37:19.242Z",
+    "considered": 7,
+    "picked": 3,
     "items": [
-      "✓ ktg | US Secretary of State Marc Rubio in Athens next week",
-      "· ert | Παπασταύρου από Μέγαρα: Κάνουμε πράξη τη δέσμευσή μας για την προστασία της Δυτικής Αττική"
+      "✓ ingr | Κρήτη: Ποιοι παράγοντες συνέβαλαν στα πλημμυρικά φαινόμενα από την κακοκαιρία που σάρωσε τ",
+      "· ingr | Δημοκρατικοί ζητούν έλεγχο της Γκίλφοϊλ για την προώθηση ενεργειακών συμφωνιών",
+      "✓ ktg | Sailing ban for ferries due to gale-force winds in the Aegean Sea",
+      "· naftemporiki | Οροπέδιο Λασιθίου: «Έπεσαν τεράστιες ποσότητες νερού» – Μεγάλες καταστροφές στις καλλιέργε",
+      "· naftemporiki | Καστοριά: Φωτιά τώρα στο Γιαννοχώρι Νεστορίου",
+      "✓ gct | Is Greece’s Property Market Becoming a Bubble?",
+      "· gn-iefimerida | Φονική έκρηξη στην οικία της οικογένειας Νέστορα: Προθεσμία ενόψει συμπληρωτικής απολογίας"
     ]
   },
   "evergreenDone": [
