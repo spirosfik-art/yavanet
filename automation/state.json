@@ -922,7 +922,8 @@
     "58d8d94e5c48": 1790965607463,
     "2d239e3be448": 1790965607463,
     "d060c5fc45ce": 1790965607463,
-    "16e502ddc2b1": 1790965607463
+    "16e502ddc2b1": 1790965607463,
+    "a31eb2a54b11": 1790967395818
   },
   "pending": {},
   "sourceStatus": {
@@ -934,12 +935,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T18:43:42.210Z",
-      "items": 0
+      "at": "2026-10-02T18:56:21.164Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T18:43:43.139Z",
+      "at": "2026-10-02T18:56:22.140Z",
       "items": 5
     },
     "civilprotection": {
@@ -950,27 +951,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T18:43:45.438Z",
+      "at": "2026-10-02T18:56:24.427Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T18:43:45.889Z",
+      "at": "2026-10-02T18:56:24.802Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T18:43:47.056Z",
+      "at": "2026-10-02T18:56:26.069Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T18:43:47.937Z",
+      "at": "2026-10-02T18:56:26.877Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T18:43:48.557Z",
+      "at": "2026-10-02T18:56:27.779Z",
       "items": 10
     },
     "toi-greece": {
@@ -981,22 +982,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T18:43:49.135Z",
+      "at": "2026-10-02T18:56:28.346Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T18:43:49.288Z",
+      "at": "2026-10-02T18:56:29.185Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T18:43:49.557Z",
-      "items": 6
+      "at": "2026-10-02T18:56:29.922Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T18:43:50.033Z",
+      "at": "2026-10-02T18:56:30.135Z",
       "items": 6
     },
     "ynet-greece": {
@@ -1006,12 +1007,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T18:43:43.834Z",
+      "at": "2026-10-02T18:56:22.604Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T18:43:50.714Z",
+      "at": "2026-10-02T18:56:30.984Z",
       "items": 0
     },
     "hcg": {
@@ -1022,32 +1023,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T18:43:52.300Z",
+      "at": "2026-10-02T18:56:32.037Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T18:43:52.518Z",
+      "at": "2026-10-02T18:56:32.259Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T18:43:52.709Z",
+      "at": "2026-10-02T18:56:32.448Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T18:43:53.002Z",
-      "items": 10
+      "at": "2026-10-02T18:56:32.761Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T18:43:53.395Z",
-      "items": 6
+      "at": "2026-10-02T18:56:33.086Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T18:43:53.838Z",
+      "at": "2026-10-02T18:56:33.526Z",
       "items": 8
     }
   },
@@ -1175,6 +1176,12 @@
         "title": "Orange Wind Warning Issued for East Peloponnisos",
         "at": "2026-10-02T17:04:59+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Flight Disruptions Caused by Severe Storms",
+        "at": "2026-10-02T21:56:50+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1292,15 +1299,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T18:26:47.463Z",
-    "considered": 5,
-    "picked": 0,
+    "at": "2026-10-02T18:56:35.818Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· gct | Magnitude 4.1 Earthquake Rattles Patras in Western Greece",
-      "· naftemporiki | Haaretz: «Από τους Εβραίους που δηλητηρίαζαν πηγάδια στους Άραβες γιατρούς που δηλητηριάζο",
-      "· naftemporiki | Channel 12: Ο δράστης-πιλότος της flydubai είχε υποστεί διαδικασία κατήχησης στην «ιδεολογ",
-      "· gct | Mazonakis Death Case: Doctors Give Accounts of Resuscitation Efforts",
-      "· gct | Magnitude 4.8 Earthquake Jolts Melbourne and Much of Victoria"
+      "✓ ingr | Προβλήματα με τις πτήσεις στην Κρήτη λόγω της κακοκαιρίας"
     ]
   },
   "evergreenDone": [
