@@ -943,7 +943,8 @@
     "b820b572b02c": 1790977013189,
     "0d812d543b20": 1790977865203,
     "2369e99c9901": 1790977865203,
-    "356dabdbad55": 1790977865203
+    "356dabdbad55": 1790977865203,
+    "6443bf351e2f": 1790978492411
   },
   "pending": {},
   "sourceStatus": {
@@ -955,12 +956,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T21:50:55.829Z",
-      "items": 10
+      "at": "2026-10-02T22:01:22.187Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T21:50:56.599Z",
+      "at": "2026-10-02T22:01:22.880Z",
       "items": 5
     },
     "civilprotection": {
@@ -971,27 +972,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T21:50:58.319Z",
+      "at": "2026-10-02T22:01:24.320Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T21:50:58.431Z",
+      "at": "2026-10-02T22:01:24.598Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T21:50:59.312Z",
+      "at": "2026-10-02T22:01:25.568Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T21:50:59.928Z",
+      "at": "2026-10-02T22:01:26.229Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T21:51:00.881Z",
+      "at": "2026-10-02T22:01:27.038Z",
       "items": 10
     },
     "toi-greece": {
@@ -1002,22 +1003,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T21:51:01.166Z",
+      "at": "2026-10-02T22:01:27.523Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T21:51:01.423Z",
+      "at": "2026-10-02T22:01:27.657Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T21:51:01.523Z",
+      "at": "2026-10-02T22:01:27.880Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:51:01.670Z",
+      "at": "2026-10-02T22:01:28.024Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1027,12 +1028,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:50:56.978Z",
+      "at": "2026-10-02T22:01:23.240Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T21:51:02.163Z",
+      "at": "2026-10-02T22:01:28.583Z",
       "items": 0
     },
     "hcg": {
@@ -1043,32 +1044,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T21:51:03.382Z",
+      "at": "2026-10-02T22:01:29.773Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T21:51:03.563Z",
+      "at": "2026-10-02T22:01:30.012Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T21:51:03.708Z",
+      "at": "2026-10-02T22:01:30.201Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T21:51:03.879Z",
-      "items": 11
+      "at": "2026-10-02T22:01:30.455Z",
+      "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T21:51:04.207Z",
-      "items": 5
+      "at": "2026-10-02T22:01:30.815Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T21:51:04.622Z",
+      "at": "2026-10-02T22:01:31.311Z",
       "items": 11
     }
   },
@@ -1119,13 +1120,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T21:51:05.203Z",
-    "considered": 3,
+    "at": "2026-10-02T22:01:32.411Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greece Celebrates UNESCO Recognition for Mount Olympus",
-      "· gct | Chinese City Seeks Greek Expertise for UNESCO Heritage Bid",
-      "· gct | Greece Plans Meteora Geopark 1.5 times Size of Greater London"
+      "· gct | Greece Strengthens Samos Defences Amid Turkish Military Activity"
     ]
   },
   "evergreenDone": [
