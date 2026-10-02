@@ -793,55 +793,60 @@
     "88886007741e": 1790931070794,
     "68666e0d1230": 1790931070794,
     "f29842558b2d": 1790931070794,
-    "2fcb10492500": 1790931070794
+    "2fcb10492500": 1790931070794,
+    "b55b169b8c79": 1790931796188,
+    "1d8b50f59e7d": 1790931796188,
+    "3a6196df230d": 1790931796188,
+    "1d9cb1cbff35": 1790931796188,
+    "5e23e9c78cbd": 1790931796188
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T08:50:57.924Z",
+      "at": "2026-10-02T09:03:02.039Z",
       "error": "HTTP 403",
-      "fails": 524
+      "fails": 525
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T08:51:00.544Z",
+      "at": "2026-10-02T09:03:04.813Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T08:51:01.334Z",
+      "at": "2026-10-02T09:03:05.694Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T08:51:02.015Z",
+      "at": "2026-10-02T09:03:06.433Z",
       "error": "HTTP 403",
-      "fails": 524
+      "fails": 525
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T08:51:03.724Z",
+      "at": "2026-10-02T09:03:07.878Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T08:51:04.155Z",
+      "at": "2026-10-02T09:03:08.263Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T08:51:05.194Z",
+      "at": "2026-10-02T09:03:09.492Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T08:51:05.915Z",
-      "items": 4
+      "at": "2026-10-02T09:03:10.286Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T08:51:06.751Z",
+      "at": "2026-10-02T09:03:11.151Z",
       "items": 10
     },
     "toi-greece": {
@@ -852,22 +857,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T08:51:07.025Z",
+      "at": "2026-10-02T09:03:11.729Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T08:51:07.125Z",
+      "at": "2026-10-02T09:03:11.994Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T08:51:07.659Z",
-      "items": 6
+      "at": "2026-10-02T09:03:12.877Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T08:51:07.874Z",
+      "at": "2026-10-02T09:03:13.071Z",
       "items": 9
     },
     "ynet-greece": {
@@ -877,12 +882,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T08:51:01.921Z",
+      "at": "2026-10-02T09:03:06.235Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T08:51:08.511Z",
+      "at": "2026-10-02T09:03:13.700Z",
       "items": 0
     },
     "hcg": {
@@ -893,7 +898,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T08:51:09.682Z",
+      "at": "2026-10-02T09:03:15.136Z",
       "items": 1
     }
   },
@@ -978,6 +983,11 @@
         "title": "Πτήση FlyDubai: Στο πιλοτήριο η «Αχίλλειος πτέρνα» της ασφάλειας στις πτήσεις – Το κρίσιμο παράδοξο με την ενισχυμένη πόρτα",
         "reason": "Ίδιο θέμα με «Dubai to Tel Aviv flight squawks emergency over Saudi Arabia» – δεν γράφτηκε ξανά",
         "at": "2026-10-02T08:39:32.257Z"
+      },
+      {
+        "title": "Μυλοπόταμος: Απαγορεύτηκε προληπτικά η κατανάλωση νερού σε χωριά λόγω ζημιών στο δίκτυο",
+        "reason": "Ίδιο θέμα με «Storm in Crete: Heavy Damage and New Weather Warning» – δεν γράφτηκε ξανά",
+        "at": "2026-10-02T09:03:53.790Z"
       }
     ],
     "errors": [],
@@ -1026,15 +1036,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T08:51:10.794Z",
+    "at": "2026-10-02T09:03:16.188Z",
     "considered": 5,
-    "picked": 0,
+    "picked": 1,
     "items": [
+      "✓ ingr | Μυλοπόταμος: Απαγορεύτηκε προληπτικά η κατανάλωση νερού σε χωριά λόγω ζημιών στο δίκτυο",
+      "· minfin | Ειδοποίηση εκδίκασης της με ΓΑΚ 545/2026 και ΕΑΚ 534/2026 αίτησης για την παροχή άδειας γι",
+      "· ingr | Κρήτη: Συγκλονίζει ο ανιψιός του κτηνοτρόφου που έχασε τη ζωή του από την κακοκαιρία στο Ρ",
       "· naftemporiki | Κακοκαιρία: «Ανυπολόγιστες οι ζημιές» στον δήμο Μυλοποτάμου – Δεκάδες χωριά χωρίς ρεύμα",
-      "· gtp | Ancient Nikopolis Unveils Major Upgrades as UNESCO Bid Moves Forward",
-      "· gtp | Archaeological Sites in Larissa Set for €310,000 Upgrade",
-      "· gtp | SKY express Adds More Athens–Paris Flights From December",
-      "· gtp | Greece’s First Municipality-Run EV Charging Network Launches in Athens"
+      "· gtp | Ancient Nikopolis: Major Upgrades as UNESCO Bid Moves Forward"
     ]
   },
   "evergreenDone": [
