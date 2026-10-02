@@ -721,55 +721,57 @@
     "c67d98b4c07d": 1790892083973,
     "d7c619978c4c": 1790893352453,
     "02c1d515be10": 1790895670801,
-    "5b08e6c38cb4": 1790898582241
+    "5b08e6c38cb4": 1790898582241,
+    "21384c3715c1": 1790901148144,
+    "abcdd238287b": 1790901148144
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T00:01:13.482Z",
+      "at": "2026-10-02T00:32:04.179Z",
       "error": "HTTP 403",
-      "fails": 492
+      "fails": 493
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T00:01:14.012Z",
+      "at": "2026-10-02T00:32:04.820Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T00:01:14.639Z",
+      "at": "2026-10-02T00:32:05.577Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T00:01:15.376Z",
+      "at": "2026-10-02T00:32:06.393Z",
       "error": "HTTP 403",
-      "fails": 492
+      "fails": 493
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T00:01:16.428Z",
+      "at": "2026-10-02T00:32:07.597Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T00:01:16.805Z",
+      "at": "2026-10-02T00:32:07.939Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T00:01:17.683Z",
+      "at": "2026-10-02T00:32:08.826Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T00:01:18.226Z",
+      "at": "2026-10-02T00:32:09.657Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T00:01:18.880Z",
+      "at": "2026-10-02T00:32:10.214Z",
       "items": 10
     },
     "toi-greece": {
@@ -780,22 +782,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T00:01:19.260Z",
+      "at": "2026-10-02T00:32:10.739Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T00:01:19.359Z",
+      "at": "2026-10-02T00:32:11.077Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T00:01:19.633Z",
+      "at": "2026-10-02T00:32:11.586Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T00:01:19.790Z",
+      "at": "2026-10-02T00:32:12.040Z",
       "items": 4
     },
     "ynet-greece": {
@@ -805,12 +807,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T00:01:15.168Z",
+      "at": "2026-10-02T00:32:06.205Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T00:01:20.312Z",
+      "at": "2026-10-02T00:32:12.621Z",
       "items": 0
     },
     "hcg": {
@@ -821,7 +823,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T00:01:21.704Z",
+      "at": "2026-10-02T00:32:13.856Z",
       "items": 2
     }
   },
@@ -875,11 +877,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-01T23:49:42.241Z",
-    "considered": 1,
+    "at": "2026-10-02T00:32:28.144Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | 2 October Orthodox Gospel Challenges What It Means to Be Blessed"
+      "· gct | Tatoi: former royal estate set to open as public cultural site in 2026",
+      "· gct | Connect to Protect: Athens Welcomes Leading International Experts on Child Protection from"
     ]
   },
   "evergreenDone": [
