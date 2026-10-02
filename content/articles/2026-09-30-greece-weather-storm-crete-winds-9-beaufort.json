@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-crete-winds-9-beaufort",
   "section": "breaking",
   "publishedAt": "2026-09-30T20:25:30+03:00",
-  "updatedAt": "2026-10-02T11:40:00+03:00",
+  "updatedAt": "2026-10-02T23:37:18+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2170081/kriti-poioi-dromoi-einai-kleistoi-logo-tis-kakokairias/?utm_source=rss&utm_medium=rss&utm_campaign=kriti-poioi-dromoi-einai-kleistoi-logo-tis-kakokairias"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2169698/karpathos-katolisthiseis-logo-tis-entonis-vrochoptosis-kleistos-o-dromos-apo-spoa-pros-olympo/?utm_source=rss&utm_medium=rss&utm_campaign=karpathos-katolisthiseis-logo-tis-entonis-vrochoptosis-kleistos-o-dromos-apo-spoa-pros-olympo"
@@ -38,26 +42,26 @@
     "en": "Storm in Greece"
   },
   "he": {
-    "title": "קרפאתוס: כביש סגור ומפולות אבנים עקב גשמים כבדים",
-    "dek": "גשמים עזים שירדו באי קרפאתוס גרמו למפולות סלעים ולחסימת כביש מרכזי. הרשויות ממליצות להימנע מנסיעות לא הכרחיות.",
+    "title": "כרתים: אלו הכבישים שנסגרו עקב מזג האוויר הסוער",
+    "dek": "מערכת חורפית קשה פוקדת את האי כרתים ומביאה להצפות ולחסימות תנועה במספר צירים מרכזיים בהרקליון ובפאתיה.",
     "tldr": [
-      "הכביש המרכזי בין ספואה לאולימפוס בקרפאתוס נסגר לחלוטין לתנועה.",
-      "מפולות סלעים אירעו בעקבות מזג אוויר סוער וגשמים חזקים באזור.",
-      "צוותי חירום פועלים בפינוי הצירים ומתריעים מפני המשך גשמים."
+      "גשמים חזקים גרמו להצפות ולחסימות כבישים בכרתים.",
+      "התנועה הופסקה בכמה צירים בהרקליון וברתימנו.",
+      "משטרת כרתים ממליצה להימנע מנסיעות לא חיוניות."
     ],
-    "means": "אם אתם מתכננים הגעה או נמצאים כעת בקרפאתוס, עקבו אחר הודעות החירום המקומיות והימנעו מנסיעה באזור הכביש הסגור. מומלץ להישאר מעודכנים בתחזית מזג האוויר ולהישמע להנחיות הרשויות המקומיות לגבי נסיעות לא חיוניות.",
-    "body": "## חסימת צירים בקרפאתוס עקב מזג אוויר סוער\n\nמזג האוויר הסוער ביוון ממשיך לייצר שיבושים, כאשר הפעם מוקד האירועים הוא באי קרפאתוס. גשמים חזקים שהתחוללו באזור גרמו למפולות סלעים משמעותיות, שהובילו לסגירתו המוחלטת של הכביש המרכזי המחבר בין ספואה לאולימפוס.\n\nלפי הודעת הרשויות המקומיות, תנועת כלי רכב מכל הסוגים מנועה לחלוטין בציר זה. צוותים מקצועיים מטעם פריפריאס נוטיוי איגאיוי נמצאים בשטח ומבצעים פעולות מתמשכות לפינוי הסלעים ולחידוש התנועה בצורה בטוחה בהקדם האפשרי.\n\n## הנחיות לנהגים ולתושבים באזור\n\nבעקבות תנאי מזג האוויר הקשים והחשש מהמשך ההתיישנות בקרקע, הרשויות בקרפאתוס מפרסמות אזהרה ומבקשות מכלל התושבים והמבקרים באי לצמצם נסיעות שאינן הכרחיות לחלוטין בימים הקרובים.\n\nתחזית מזג האוויר מצביעה על אפשרות להמשך גשמים עזים גם בפרק הזמן הקרוב, ולכן הודגשה החשיבות של שמירת זהירות מרבית בדרכים והישמעות להנחיות גופי החירום והביטחון במקום."
+    "means": "אם אתם נמצאים כעת בכרתים או מתכננים הגעה לאי בימים הקרובים, חשוב לעקוב אחר תחזית מזג האוויר המקומית ולהימנע מנסיעות באזורים מוצפים. מומלץ להתעדכן בהנחיות משטרת התנועה המקומית ולהישמע להוראות כוחות ההצלה בשטח.",
+    "body": "## שיבושים בתנועה עקב מזג האוויר בכרתים\n\nמזג אוויר סוער וגשמים עזים פוקדים בימים האחרונים את האי כרתים, וגרמו להפעלת הגבלות תנועה במספר אזורים מרכזיים. הרשויות המקומיות וכוחות הבטחון עוקבים אחר ההתפתחויות ומעדכנים את הציבור באופן שוטף.\n\n## באילו אזורים נחסמו כבישים?\n\nבאזור הרקליון נרשמו שיבושים משמעותיים והפסקת תנועה בכמה צירים מרכזיים, בהם מעבר המים באזור קסטוריאס בקטסאמבא, מעבר המים ברחוב ליקי באזור קורוני מגארה, ובדרך המוצא מדמניה למלידוכורי ברחובות ארחאנן אסטרוסיו. בנוסף, באזור רתימנו נסגרה לתנועה הדרך המחוזית המקשרת בין קראנה לזוניאנה, וכן הדרך המקשרת בין אקסוס לזוניאנה.\n\n## הנחיות והמלצות לנהגים\n\nהמנהלת האזורית של משטרת כרתים פרסמה הודעה רשמית המזכירה לכלל הנהגים להתעדכן תדיר בתנאי מזג האוויר באזור מגוריהם ונסיעתם. המשטרה ממליצה להימנע מכל נסיעה שאינה הכרחית, לנקוט משנה זהירות בעת הנהיגה בכבישים הרטובים, ולהישמע באופן מלא להוראות השוטרים ופקחי התנועה בשטח."
   },
   "en": {
-    "title": "Karpathos: Road closed and landslides following heavy rainfall",
-    "dek": "Heavy downpours on the island of Karpathos triggered rockfalls and a major road closure. Authorities urge residents and visitors to avoid unnecessary travel.",
+    "title": "Crete: Roads closed following severe weather conditions",
+    "dek": "Heavy rainfall and severe weather systems have led to emergency traffic restrictions and road closures across parts of Crete.",
     "tldr": [
-      "The provincial road between Spoa and Olympos in Karpathos is completely closed to traffic.",
-      "Rockfalls occurred following intense heavy rainfall across the area.",
-      "Regional crews are working to clear debris while more rain is forecasted."
+      "Heavy rain causes road closures across parts of Crete.",
+      "Traffic suspended on specific routes in Heraklion and Rethymno.",
+      "Police urge drivers to avoid non-essential travel."
     ],
-    "means": "If you are visiting Karpathos, check local safety updates, avoid non-essential trips, and stay away from closed mountain roads. Keep track of weather forecasts and follow instructions from local authorities.",
-    "body": "## Road Closures in Karpathos Due to Severe Weather\n\nSevere weather conditions in Greece have caused disruptions on the island of Karpathos, where heavy downpours led to significant rockfalls and the complete closure of a major regional transport route.\n\nAccording to an update from the regional authorities, vehicle traffic along the Spoa to Olympos provincial road is entirely blocked in both directions. Regional work crews are currently deployed at the site, carrying out continuous operations to remove fallen rocks and clear the roadway as quickly as possible.\n\n## Travel Recommendations and Safety Advice\n\nIn light of the ongoing stormy conditions, the local administration has issued recommendations advising drivers and travelers to avoid non-essential journeys. \n\nForecasts indicate that heavy rainfall is expected to continue over the coming days, meaning the road network remains vulnerable. Authorities emphasize the need for heightened caution and strict adherence to safety guidelines."
+    "means": "If you are currently in Crete or traveling to the island, monitor local weather updates closely and avoid driving through flooded or restricted areas. Follow all instructions issued by local authorities and traffic police.",
+    "body": "## Severe Weather Disruptions in Crete\n\nSevere weather conditions have hit the island of Crete, prompting emergency traffic regulations in multiple regional units due to heavy rainfall and potential flooding risks.\n\n## Affected Roadways\n\nIn the Heraklion Regional Unit, vehicle traffic has been suspended at several specific points, including the Irish crossing on Kastorias Street in Katsabas, the Irish crossing on Lykiou Street in the Koroni Magara area, and the Irish crossing from Damania to Melidochori in the Municipality of Archanes-Asterousia. Meanwhile, in the Rethymno Regional Unit, closures affect the provincial road from Krana to Zoniana and the road from Axos to Zoniana.\n\n## Guidance for Drivers\n\nThe General Regional Police Directorate of Crete issued an advisory reminding drivers to regularly check prevailing weather conditions in their areas. Authorities strongly advise avoiding non-essential journeys, exercising extreme caution while driving, and strictly obeying the signals and instructions of traffic police officers."
   },
   "meta": {
     "itemId": "e609386cca45",
@@ -66,6 +70,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-02T16:53:30.202Z",
     "official": false,
-    "updatedFrom": "f2b8390e8f7c"
+    "updatedFrom": "9e0e0f705473"
   }
 }
