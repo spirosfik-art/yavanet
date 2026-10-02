@@ -940,7 +940,10 @@
     "dd5d3c63b207": 1790976348610,
     "642fb05f772d": 1790977013189,
     "8a2113b7b301": 1790977013189,
-    "b820b572b02c": 1790977013189
+    "b820b572b02c": 1790977013189,
+    "0d812d543b20": 1790977865203,
+    "2369e99c9901": 1790977865203,
+    "356dabdbad55": 1790977865203
   },
   "pending": {},
   "sourceStatus": {
@@ -952,12 +955,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T21:36:41.996Z",
+      "at": "2026-10-02T21:50:55.829Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T21:36:42.678Z",
+      "at": "2026-10-02T21:50:56.599Z",
       "items": 5
     },
     "civilprotection": {
@@ -968,27 +971,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T21:36:44.535Z",
+      "at": "2026-10-02T21:50:58.319Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T21:36:44.758Z",
+      "at": "2026-10-02T21:50:58.431Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T21:36:45.615Z",
+      "at": "2026-10-02T21:50:59.312Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T21:36:46.324Z",
+      "at": "2026-10-02T21:50:59.928Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T21:36:47.222Z",
+      "at": "2026-10-02T21:51:00.881Z",
       "items": 10
     },
     "toi-greece": {
@@ -999,22 +1002,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T21:36:47.757Z",
+      "at": "2026-10-02T21:51:01.166Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T21:36:48.081Z",
+      "at": "2026-10-02T21:51:01.423Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T21:36:48.581Z",
-      "items": 5
+      "at": "2026-10-02T21:51:01.523Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:36:49.012Z",
+      "at": "2026-10-02T21:51:01.670Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1024,12 +1027,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T21:36:43.379Z",
+      "at": "2026-10-02T21:50:56.978Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T21:36:49.670Z",
+      "at": "2026-10-02T21:51:02.163Z",
       "items": 0
     },
     "hcg": {
@@ -1040,32 +1043,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T21:36:50.823Z",
+      "at": "2026-10-02T21:51:03.382Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T21:36:51.252Z",
+      "at": "2026-10-02T21:51:03.563Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T21:36:51.420Z",
+      "at": "2026-10-02T21:51:03.708Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T21:36:51.724Z",
+      "at": "2026-10-02T21:51:03.879Z",
       "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T21:36:52.084Z",
+      "at": "2026-10-02T21:51:04.207Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T21:36:52.535Z",
+      "at": "2026-10-02T21:51:04.622Z",
       "items": 11
     }
   },
@@ -1116,13 +1119,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T21:36:53.189Z",
+    "at": "2026-10-02T21:51:05.203Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greece to Protect Historic Methoni Castle from Wave Damage",
-      "· gct | Olympic Athletic Centre Hosts McLaren Formula 1 Spectacle",
-      "· gct | Ringo Starr’s Greek-Cypriot Granddaughter Opens Art Exhibition"
+      "· gct | Greece Celebrates UNESCO Recognition for Mount Olympus",
+      "· gct | Chinese City Seeks Greek Expertise for UNESCO Heritage Bid",
+      "· gct | Greece Plans Meteora Geopark 1.5 times Size of Greater London"
     ]
   },
   "evergreenDone": [
