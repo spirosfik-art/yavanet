@@ -728,55 +728,59 @@
     "b93a847d7068": 1790902516664,
     "af5f617b2b34": 1790903045736,
     "4454321b5d57": 1790904289485,
-    "54513b96643a": 1790904289485
+    "54513b96643a": 1790904289485,
+    "03dbe3ebbf7e": 1790904990484,
+    "d9835f48c333": 1790904990484,
+    "4c6328b4bc5e": 1790904990484,
+    "956354e1505b": 1790904990484
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T01:24:36.703Z",
+      "at": "2026-10-02T01:36:18.592Z",
       "error": "HTTP 403",
-      "fails": 496
+      "fails": 497
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T01:24:39.283Z",
-      "items": 10
+      "at": "2026-10-02T01:36:19.112Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T01:24:40.113Z",
+      "at": "2026-10-02T01:36:20.064Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T01:24:40.800Z",
+      "at": "2026-10-02T01:36:21.179Z",
       "error": "HTTP 403",
-      "fails": 496
+      "fails": 497
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T01:24:42.223Z",
+      "at": "2026-10-02T01:36:22.454Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T01:24:42.630Z",
+      "at": "2026-10-02T01:36:22.653Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T01:24:43.986Z",
+      "at": "2026-10-02T01:36:23.764Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T01:24:44.849Z",
+      "at": "2026-10-02T01:36:24.610Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T01:24:45.857Z",
+      "at": "2026-10-02T01:36:25.549Z",
       "items": 10
     },
     "toi-greece": {
@@ -787,22 +791,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T01:24:46.396Z",
+      "at": "2026-10-02T01:36:26.106Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T01:24:46.611Z",
+      "at": "2026-10-02T01:36:26.498Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T01:24:46.655Z",
-      "items": 6
+      "at": "2026-10-02T01:36:27.246Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:24:46.862Z",
+      "at": "2026-10-02T01:36:27.451Z",
       "items": 4
     },
     "ynet-greece": {
@@ -812,12 +816,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:24:40.682Z",
+      "at": "2026-10-02T01:36:21.042Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T01:24:47.507Z",
+      "at": "2026-10-02T01:36:28.009Z",
       "items": 0
     },
     "hcg": {
@@ -828,7 +832,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T01:24:48.803Z",
+      "at": "2026-10-02T01:36:29.403Z",
       "items": 2
     }
   },
@@ -844,7 +848,13 @@
         "section": "breaking"
       }
     ],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Dendias in Nicosia: Greece will not leave Cyprus as Turkey blocks a power cable",
+        "reason": "Ίδιο θέμα με «Greece, Cyprus and Israel electricity interconnector moves forward» – δεν γράφτηκε ξανά",
+        "at": "2026-10-02T01:36:34.635Z"
+      }
+    ],
     "errors": [],
     "fb": []
   },
@@ -882,12 +892,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T01:24:49.485Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-02T01:36:30.484Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· gct | How the Greek Diaspora Took Root in Australia",
-      "· ert | Ρωσία: Ουκρανική επίθεση με drones στο Βόλγκογκραντ – Ένας τραυματίας"
+      "· gct | Former Connecticut official Kosta Diamantis sentenced to 7 years while in Greece",
+      "· gct | Hellenic Presidential Guard (Evzones) 2026 Sydney / Canberra Visit",
+      "· ingr | Flydubai: Ο Τραμπ απειλεί να πλήξει πολύ σκληρά το Ιράν εάν αποδειχθεί εμπλοκή του",
+      "✓ gct | Dendias in Nicosia: Greece will not leave Cyprus as Turkey blocks a power cable"
     ]
   },
   "evergreenDone": [
