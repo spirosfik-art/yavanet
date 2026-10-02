@@ -944,7 +944,9 @@
     "0d812d543b20": 1790977865203,
     "2369e99c9901": 1790977865203,
     "356dabdbad55": 1790977865203,
-    "6443bf351e2f": 1790978492411
+    "6443bf351e2f": 1790978492411,
+    "c15a040eec76": 1790979807366,
+    "cb50a2f60df1": 1790979807366
   },
   "pending": {},
   "sourceStatus": {
@@ -956,12 +958,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T22:01:22.187Z",
-      "items": 0
+      "at": "2026-10-02T22:23:14.411Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T22:01:22.880Z",
+      "at": "2026-10-02T22:23:15.342Z",
       "items": 5
     },
     "civilprotection": {
@@ -972,27 +974,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T22:01:24.320Z",
-      "items": 30
+      "at": "2026-10-02T22:23:17.711Z",
+      "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T22:01:24.598Z",
+      "at": "2026-10-02T22:23:18.104Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T22:01:25.568Z",
+      "at": "2026-10-02T22:23:19.124Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T22:01:26.229Z",
+      "at": "2026-10-02T22:23:19.907Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T22:01:27.038Z",
+      "at": "2026-10-02T22:23:20.844Z",
       "items": 10
     },
     "toi-greece": {
@@ -1003,22 +1005,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T22:01:27.523Z",
+      "at": "2026-10-02T22:23:21.488Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T22:01:27.657Z",
+      "at": "2026-10-02T22:23:21.751Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T22:01:27.880Z",
+      "at": "2026-10-02T22:23:22.014Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T22:01:28.024Z",
+      "at": "2026-10-02T22:23:22.238Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1028,12 +1030,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T22:01:23.240Z",
+      "at": "2026-10-02T22:23:15.962Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T22:01:28.583Z",
+      "at": "2026-10-02T22:23:22.906Z",
       "items": 0
     },
     "hcg": {
@@ -1044,32 +1046,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T22:01:29.773Z",
+      "at": "2026-10-02T22:23:25.226Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T22:01:30.012Z",
+      "at": "2026-10-02T22:23:25.468Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T22:01:30.201Z",
-      "items": 6
+      "at": "2026-10-02T22:23:25.648Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T22:01:30.455Z",
+      "at": "2026-10-02T22:23:25.845Z",
       "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T22:01:30.815Z",
+      "at": "2026-10-02T22:23:26.180Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T22:01:31.311Z",
+      "at": "2026-10-02T22:23:26.658Z",
       "items": 11
     }
   },
@@ -1120,11 +1122,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T22:01:32.411Z",
-    "considered": 1,
+    "at": "2026-10-02T22:23:27.366Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Strengthens Samos Defences Amid Turkish Military Activity"
+      "· gct | Stefanos Tsitsipas Explains Why He Removed His Father From His Coaching Team",
+      "· gct | Flydubai Flight 1073: A security warning may have been missed before the plane even took o"
     ]
   },
   "evergreenDone": [
