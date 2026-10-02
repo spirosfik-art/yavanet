@@ -90,7 +90,7 @@ Leave your details and we will send you an offer.` },
 
 ## עם מי אנחנו משתפים
 
-ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) ו-Microsoft Clarity (רק בהסכמה). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
+ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) Microsoft Clarity (רק בהסכמה) ו-Meta Pixel של פייסבוק (מדידת ביקורים ופניות מהמודעות שלנו ויצירת קהלים לפרסום, רק בהסכמה לעוגיות פרסום). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
 
 ## כמה זמן שומרים
 
@@ -121,7 +121,7 @@ Leave your details and we will send you an offer.` },
 
 ## Who we share with
 
-Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) and Microsoft Clarity (only with consent). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
+Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) Microsoft Clarity (only with consent) and the Meta (Facebook) Pixel (measuring visits and enquiries from our ads and building advertising audiences, only with consent to advertising cookies). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
 
 ## How long we keep it
 
@@ -140,7 +140,7 @@ Access, correction, deletion, restriction, objection, and withdrawing consent at
 
 - **הכרחיות** · yv-consent (שמירת הבחירה שלכם, 12 חודשים, אחסון מקומי בדפדפן).
 - **סטטיסטיקה** · _ga, _ga_* (Google Analytics, עד 14 חודשים) · _clck, _clsk, CLID (Microsoft Clarity, עד 12 חודשים).
-- **פרסום** · עוגיות של רשתות פרסום, אם יופעלו בעתיד. הרשימה תעודכן כאן.` },
+- **פרסום** · _fbp, fr (Meta Pixel של פייסבוק, עד 90 יום): מדידת הביקורים והפניות שמגיעים מהמודעות שלנו והצגת מודעות רלוונטיות בפייסבוק.` },
     en: { title: "Cookie policy", body: `## What cookies are
 
 Small files stored in your browser. Non-essential cookies load only after you consent, and you can change your choice any time via "Cookie settings" at the bottom of every page.
@@ -149,7 +149,7 @@ Small files stored in your browser. Non-essential cookies load only after you co
 
 - **Necessary** · yv-consent (stores your choice, 12 months, local browser storage).
 - **Statistics** · _ga, _ga_* (Google Analytics, up to 14 months) · _clck, _clsk, CLID (Microsoft Clarity, up to 12 months).
-- **Advertising** · ad network cookies, if enabled in the future. This list will be updated here.` },
+- **Advertising** · _fbp, fr (Meta/Facebook Pixel, up to 90 days): measuring visits and enquiries from our ads and showing relevant ads on Facebook.` },
   },
   terms: {
     he: { title: "תנאי שימוש", body: `השימוש באתר מהווה הסכמה לתנאים האלה.

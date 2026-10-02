@@ -195,7 +195,18 @@
       (function (c2, l, a, r, i) { c2[a] = c2[a] || function () { (c2[a].q = c2[a].q || []).push(arguments); }; var t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; var y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", C.clarity);
       window.clarity && window.clarity("consent");
     }
+    if (c.ads) loadPixel();
   }
+  /* Meta Pixel: ΜΟΝΟ με συγκατάθεση για cookies διαφήμισης. Μετράει επισκέψεις, ανάγνωση άρθρων και επαφές,
+     ώστε να φτιάχνουμε κοινά retargeting (π.χ. όσοι διάβασαν τον οδηγό ακινήτων) και να μετράμε επαφές από τις διαφημίσεις. */
+  function loadPixel() {
+    if (!C.fbp || loaded.fb || INTERNAL) return; loaded.fb = true;
+    (function (f, b, e, v, n, t, s2) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = "2.0"; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s2 = b.getElementsByTagName(e)[0]; s2.parentNode.insertBefore(t, s2); })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+    fbq("init", C.fbp);
+    fbq("track", "PageView");
+    if (C.art) fbq("track", "ViewContent", { content_type: "article", content_category: C.grp || "", content_name: location.pathname, language: C.lang });
+  }
+  var FB_EVENTS = { generate_lead: "Lead", newsletter_signup: "CompleteRegistration", whatsapp_click: "Contact", phone_click: "Contact", email_click: "Contact" };
   function ckSave(c) {
     c.ts = new Date().toISOString(); c.v = 1;
     store("yv-consent", JSON.stringify(c));
@@ -206,7 +217,10 @@
   if (saved) applyConsent(saved); else { loadGA(); if ($("#cookie")) $("#cookie").hidden = false; }
 
   /* Μετρήσεις συμπεριφοράς: κλικ σε banner, φόρμες, κοινοποιήσεις, γλώσσα (στέλνονται μόνο αν υπάρχει συγκατάθεση) */
-  function track(name, params) { try { if (loaded.ga) gtag("event", name, params || {}); } catch (e) { } }
+  function track(name, params) {
+    try { if (loaded.ga) gtag("event", name, params || {}); } catch (e) { }
+    try { if (loaded.fb && window.fbq && FB_EVENTS[name]) fbq("track", FB_EVENTS[name], Object.assign({ content_category: C.grp || "", content_name: location.pathname }, params || {})); } catch (e2) { }
+  }
 
   /* ---------- Clicks ---------- */
   document.addEventListener("click", function (e) {
