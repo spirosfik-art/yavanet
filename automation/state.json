@@ -872,7 +872,15 @@
     "a9ec39d8f971": 1790945736350,
     "ce346ae925df": 1790946354550,
     "9af67d25c097": 1790946354550,
-    "88888310f14c": 1790946354550
+    "88888310f14c": 1790946354550,
+    "36857b1eb5a0": 1790947625377,
+    "1800d7c8ca70": 1790947625377,
+    "fca3e9105a44": 1790947625377,
+    "a0f4f58dca25": 1790947625377,
+    "75c63886b84f": 1790947625377,
+    "f9de4e6b7deb": 1790947625377,
+    "880784a29be2": 1790947625377,
+    "4ce938dc4031": 1790947625377
   },
   "pending": {},
   "sourceStatus": {
@@ -884,12 +892,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T13:05:02.307Z",
+      "at": "2026-10-02T13:26:53.145Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T13:05:03.049Z",
+      "at": "2026-10-02T13:26:53.978Z",
       "items": 5
     },
     "civilprotection": {
@@ -900,27 +908,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T13:05:04.699Z",
+      "at": "2026-10-02T13:26:56.046Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T13:05:04.827Z",
+      "at": "2026-10-02T13:26:56.251Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T13:05:05.816Z",
+      "at": "2026-10-02T13:26:57.316Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T13:05:06.611Z",
+      "at": "2026-10-02T13:26:58.014Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T13:05:07.357Z",
+      "at": "2026-10-02T13:26:58.827Z",
       "items": 10
     },
     "toi-greece": {
@@ -931,22 +939,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T13:05:07.801Z",
+      "at": "2026-10-02T13:26:59.398Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T13:05:08.153Z",
+      "at": "2026-10-02T13:26:59.604Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T13:05:08.241Z",
-      "items": 7
+      "at": "2026-10-02T13:27:00.341Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:05:08.647Z",
+      "at": "2026-10-02T13:27:00.508Z",
       "items": 2
     },
     "ynet-greece": {
@@ -956,12 +964,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:05:03.609Z",
+      "at": "2026-10-02T13:26:54.732Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T13:05:09.169Z",
+      "at": "2026-10-02T13:27:01.152Z",
       "items": 0
     },
     "hcg": {
@@ -972,32 +980,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T13:05:11.924Z",
+      "at": "2026-10-02T13:27:02.951Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T13:05:12.093Z",
+      "at": "2026-10-02T13:27:03.205Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T13:05:12.304Z",
+      "at": "2026-10-02T13:27:03.361Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T13:05:12.532Z",
-      "items": 10
+      "at": "2026-10-02T13:27:03.564Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T13:05:12.879Z",
+      "at": "2026-10-02T13:27:03.932Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T13:05:13.330Z",
+      "at": "2026-10-02T13:27:04.388Z",
       "items": 12
     }
   },
@@ -1101,6 +1109,12 @@
         "title": "CrediaBank Completes Acquisition of 70 Percent Stake in Pantelakis",
         "at": "2026-10-02T15:30:58+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Severe Storms Cause Major Flooding and Damage",
+        "at": "2026-10-02T16:27:29+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1195,13 +1209,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T13:05:54.550Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-02T13:27:05.377Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· ktg | Greece renews mandate for Patriot missiles in Saudi Arabia",
-      "· gn-kathimerini | Ισπανία: «Μάχη» για τη στεγαστική κρίση στη Βουλή – Εντείνεται η οργή για τις εξώσεις - Ka",
-      "· gn-iefimerida | Ταχιάος για μετρό στην Κυψέλη: Δεν υπάρχει κίνδυνος για τους κατοίκους, δεν θα πληρώσουν ο"
+      "✓ ingr | Κρήτη: «Σαν να ήμουν στον Τιτανικό, αλλά μέσα σε λάσπη» – Μετρούν τις πληγές τους οι κάτοι",
+      "· ert | Νέα Ιωνία: Προσπάθειες για επίλυση του στεγαστικού των κατοίκων της πολυκατοικίας που πήρε",
+      "· gtp | AI Adoption by Greek Businesses Hits 47%, Fourth-fastest Growth in Europe",
+      "· gct | Pantelis Pantelidis case: Witness sentenced to one year for false testimony",
+      "· ingr | Επιμένει ο Τσουκαλάς ότι ο Μητσοτάκης είναι «φορολολάγνος»: Η κυβέρνηση έχει αυξήσει τη φο",
+      "· gtp | Mount Olympus National Park Set to Expand to 37,544 Hectares",
+      "· gtp | Θεσσαλονίκη: Το Olympic Day Run επιστρέφει στις 22 Νοεμβρίου",
+      "· gtp | «Το Νήμα του Κόσμου»: Η αρχαία υφαντική αναβιώνει στη Μύκονο"
     ]
   },
   "evergreenDone": [
