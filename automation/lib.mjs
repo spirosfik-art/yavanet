@@ -7,6 +7,8 @@ export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname)
 export const ARTICLES_DIR = path.join(ROOT, "content/articles");
 export const STATE_FILE = path.join(ROOT, "automation/state.json");
 export const env = process.env;
+// Προεπιλογές Brevo (μη μυστικές) – οι μεταβλητές του GitHub, αν οριστούν, έχουν προτεραιότητα
+for (const [k, v] of Object.entries({ BREVO_NL_LIST_HE: "3", BREVO_NL_LIST_EN: "4", BREVO_LEADS_LIST: "5", SENDER_EMAIL: "info@yavanet.gr", NOTIFY_EMAIL: "info@yavanet.gr" })) if (!env[k]) env[k] = v;
 export const DRY = env.DRY_RUN === "1";
 
 export const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);

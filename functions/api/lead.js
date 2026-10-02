@@ -1,6 +1,6 @@
 // Φόρμες επαφής: σύμβουλος ακινήτων, «Ρωτήστε τον ειδικό», αναφορά λάθους, γνώμη, διαφημιστές, επιχειρήσεις, GDPR.
 // Κάθε επαφή μπαίνει στο CRM (λίστα επαφών Brevo) και ειδοποιεί αμέσως την εταιρεία με email και Telegram.
-import { json, clean, validEmail, readBody, sameOrigin, brevo, telegram, escHtml } from "../../lib/forms.js";
+import { json, clean, validEmail, readBody, sameOrigin, brevo, telegram, escHtml, withDefaults } from "../../lib/forms.js";
 
 const KINDS = {
   "property-lead": "🏠 Νέα επαφή ακινήτων",
@@ -17,7 +17,8 @@ const KINDS = {
 // Ποιες φόρμες είναι πιθανοί πελάτες (μπαίνουν στη λίστα CRM)
 const CRM_KINDS = new Set(["property-lead", "medtour-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost({ request, env: rawEnv }) {
+  const env = withDefaults(rawEnv);
   if (!sameOrigin(request)) return json({ ok: false }, 403);
   const b = await readBody(request);
   if (!b) return json({ ok: false }, 400);
@@ -37,13 +38,13 @@ export async function onRequestPost({ request, env }) {
   ].filter(([, v]) => v);
 
   const jobs = [];
-  if (CRM_KINDS.has(kind) && env.BREVO_LEADS_LIST) {
+  if (CRM_KINDS.has(kind) && env.BREVO_API_KEY && env.BREVO_LEADS_LIST) {
     jobs.push(brevo(env, "/contacts", {
       email: d.email, updateEnabled: true, listIds: [Number(env.BREVO_LEADS_LIST)],
       attributes: { FIRSTNAME: d.name, SMS_TEXT: d.phone, LEAD_KIND: kind, LEAD_SOURCE: d.article || d.page, AREA: d.area, BUDGET: d.budget, LEAD_STATUS: "Νέα", LANG: d.lang, COUNTRY: d.country, LEAD_AT: d.at },
     }));
   }
-  if (env.NOTIFY_EMAIL && env.SENDER_EMAIL) {
+  if (env.BREVO_API_KEY && env.NOTIFY_EMAIL && env.SENDER_EMAIL) {
     jobs.push(brevo(env, "/smtp/email", {
       sender: { email: env.SENDER_EMAIL, name: "Yavanet" }, to: [{ email: env.NOTIFY_EMAIL }], replyTo: { email: d.email, name: d.name },
       subject: `${KINDS[kind]} · ${d.name}`,

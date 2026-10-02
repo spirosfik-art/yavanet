@@ -41,3 +41,10 @@ jobs:
           BREVO_NL_LIST_EN: ${{ vars.BREVO_NL_LIST_EN }}
           BREVO_DOI_TEMPLATE_HE: ${{ vars.BREVO_DOI_TEMPLATE_HE }}
           BREVO_DOI_TEMPLATE_EN: ${{ vars.BREVO_DOI_TEMPLATE_EN }}
+      - name: Brevo setup (templates, attributes, subscriber migration)
+        run: node automation/brevo-setup.mjs || true
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
