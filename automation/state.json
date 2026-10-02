@@ -753,7 +753,9 @@
     "d697f36b7465": 1790915896747,
     "5d583edaaf89": 1790916743381,
     "9f61b05a856a": 1790916743381,
-    "071f4605e828": 1790916743381
+    "071f4605e828": 1790916743381,
+    "5d427bad6801": 1790918643720,
+    "6b2142fb3995": 1790918643720
   },
   "pending": {
     "02f38e": {
@@ -964,49 +966,49 @@
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T05:01:55.607Z",
+      "at": "2026-10-02T05:23:43.057Z",
       "error": "HTTP 403",
-      "fails": 511
+      "fails": 512
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T05:01:56.206Z",
+      "at": "2026-10-02T05:23:43.685Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T05:01:56.929Z",
+      "at": "2026-10-02T05:23:44.511Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T05:01:57.734Z",
+      "at": "2026-10-02T05:23:45.004Z",
       "error": "HTTP 403",
-      "fails": 511
+      "fails": 512
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T05:02:00.461Z",
+      "at": "2026-10-02T05:23:46.814Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T05:02:00.588Z",
+      "at": "2026-10-02T05:23:46.906Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T05:02:01.551Z",
+      "at": "2026-10-02T05:23:48.051Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T05:02:02.338Z",
+      "at": "2026-10-02T05:23:48.846Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T05:02:03.294Z",
+      "at": "2026-10-02T05:23:49.697Z",
       "items": 10
     },
     "toi-greece": {
@@ -1017,23 +1019,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T05:02:03.739Z",
+      "at": "2026-10-02T05:23:50.331Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T05:02:03.877Z",
+      "at": "2026-10-02T05:23:50.548Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T05:02:03.947Z",
+      "at": "2026-10-02T05:23:51.237Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T05:02:04.948Z",
-      "items": 6
+      "at": "2026-10-02T05:23:51.446Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1042,12 +1044,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T05:01:57.538Z",
+      "at": "2026-10-02T05:23:44.733Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T05:02:05.432Z",
+      "at": "2026-10-02T05:23:52.075Z",
       "items": 0
     },
     "hcg": {
@@ -1058,7 +1060,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T05:02:06.775Z",
+      "at": "2026-10-02T05:23:53.513Z",
       "items": 1
     }
   },
@@ -1141,13 +1143,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T04:52:23.381Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-10-02T05:24:03.720Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· gct | Greece Still a Top Marble Exporter as Gulf Sales Cool",
-      "✓ ingr | Ακρίβεια: Υπερδιπλάσιες αυξήσεις σε βασικά τρόφιμα στην Ελλάδα σε σύγκριση με χώρες της ΕΕ",
-      "· gct | Fasolakia ladera: Greek green beans and potatoes in olive oil"
+      "· gct | What to Do in Athens in October 2026",
+      "· gct | Accor Says AI Can Save Hotels Up to 1,200 Hours a Year"
     ]
   },
   "evergreenDone": [
