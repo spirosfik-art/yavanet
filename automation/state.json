@@ -884,7 +884,12 @@
     "e40809c8da68": 1790948446441,
     "8eccb1204eac": 1790948446441,
     "ace3230bfc5d": 1790949224339,
-    "8f30657469a6": 1790949224339
+    "8f30657469a6": 1790949224339,
+    "4336b4f277b5": 1790949878546,
+    "10630408209c": 1790949878546,
+    "c0511c863d2a": 1790949878546,
+    "6904c8885659": 1790949878546,
+    "73495ae969be": 1790949878546
   },
   "pending": {},
   "sourceStatus": {
@@ -896,12 +901,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T13:53:29.297Z",
-      "items": 0
+      "at": "2026-10-02T14:03:44.925Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T13:53:30.086Z",
+      "at": "2026-10-02T14:03:45.576Z",
       "items": 5
     },
     "civilprotection": {
@@ -912,27 +917,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T13:53:32.623Z",
-      "items": 22
+      "at": "2026-10-02T14:03:46.944Z",
+      "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T13:53:32.750Z",
+      "at": "2026-10-02T14:03:47.321Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T13:53:36.461Z",
+      "at": "2026-10-02T14:03:48.340Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T13:53:37.368Z",
+      "at": "2026-10-02T14:03:49.062Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T13:53:38.260Z",
+      "at": "2026-10-02T14:03:49.738Z",
       "items": 10
     },
     "toi-greece": {
@@ -943,22 +948,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T13:53:38.869Z",
+      "at": "2026-10-02T14:03:50.110Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T13:53:38.969Z",
+      "at": "2026-10-02T14:03:50.229Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T13:53:39.694Z",
+      "at": "2026-10-02T14:03:50.598Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:53:39.909Z",
+      "at": "2026-10-02T14:03:50.729Z",
       "items": 3
     },
     "ynet-greece": {
@@ -968,12 +973,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T13:53:30.470Z",
+      "at": "2026-10-02T14:03:45.891Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T13:53:40.575Z",
+      "at": "2026-10-02T14:03:51.247Z",
       "items": 0
     },
     "hcg": {
@@ -984,33 +989,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T13:53:41.745Z",
+      "at": "2026-10-02T14:03:52.681Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T13:53:41.960Z",
-      "items": 2
+      "at": "2026-10-02T14:03:52.863Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T13:53:42.168Z",
-      "items": 4
+      "at": "2026-10-02T14:03:53.068Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T13:53:42.421Z",
+      "at": "2026-10-02T14:03:53.314Z",
       "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T13:53:42.808Z",
+      "at": "2026-10-02T14:03:53.728Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T13:53:43.217Z",
-      "items": 12
+      "at": "2026-10-02T14:03:54.228Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -1131,6 +1136,12 @@
         "title": "Forest fire breaks out in remote mountainous area of Kastoria",
         "at": "2026-10-02T16:54:28+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "orange-wind-warning-east-peloponnisos",
+        "title": "Orange Wind Warning Issued for East Peloponnisos",
+        "at": "2026-10-02T17:04:59+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1173,6 +1184,11 @@
         "title": "Greece Weather Warning: RED ALERT for Crete and Dodecanese (MAPs)",
         "reason": "Ίδιο θέμα με «Storm in Crete: Heavy Damage and New Weather Warning» – δεν γράφτηκε ξανά",
         "at": "2026-10-02T10:36:54.613Z"
+      },
+      {
+        "title": "Κρήτη: Μήνυμα από το 112 στον Μυλοπόταμο λόγω του νέου κύματος κακοκαιρίας – Φούσκωσε χείμαρρος στα Ζωνιανά",
+        "reason": "Ίδιο θέμα με «Crete: Severe Storms Cause Major Flooding and Damage» – δεν γράφτηκε ξανά",
+        "at": "2026-10-02T14:05:03.613Z"
       }
     ],
     "errors": [],
@@ -1192,6 +1208,10 @@
       {
         "slug": "orange-thunderstorm-warning-dodecanese",
         "at": "2026-10-02T13:53:59.981Z"
+      },
+      {
+        "slug": "orange-wind-warning-east-peloponnisos",
+        "at": "2026-10-02T14:04:59.635Z"
       }
     ]
   },
@@ -1229,15 +1249,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T13:53:44.339Z",
+    "at": "2026-10-02T14:04:38.546Z",
     "considered": 5,
     "picked": 2,
     "items": [
-      "✓ ert | Καστοριά: Δασική πυρκαγιά σε δύσβατη περιοχή στο Γιαννοχώρι – Επιχειρούν επίγειες δυνάμεις",
-      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Dodekanisa Islands",
-      "✓ meteoalarm | Red Thunderstorm Warning issued for Greece - Dodekanisa Islands",
-      "✓ meteoalarm | Red Rain Warning issued for Greece - Dodekanisa Islands",
-      "✓ meteoalarm | Orange Rain Warning issued for Greece - Dodekanisa Islands"
+      "· naftemporiki | Ισπανία: Η Βουλή καταψήφισε την πρώτη πράξη νομοθετικού περιεχομένου της κυβέρνησης Σάντσε",
+      "✓ naftemporiki | Κρήτη: Μήνυμα από το 112 στον Μυλοπόταμο λόγω του νέου κύματος κακοκαιρίας – Φούσκωσε χείμ",
+      "· gn-pm | Ενημερωτικό σημείωμα για την επίσκεψη του Πρωθυπουργού Κυριάκου Μητσοτάκη στον Όλυμπο και ",
+      "✓ meteoalarm | Orange Wind Warning issued for Greece - East Peloponnisos",
+      "· gn-civilprotection | ΑΔΑ: Ψ5ΜΔ46ΝΠΙΘ-ΧΨΚ - Civilprotection.gov.gr"
     ]
   },
   "evergreenDone": [
@@ -1280,5 +1300,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790949239981,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "orange-wind-warning-east-peloponnisos",
+      "url": "https://yavanet.gr/a/orange-wind-warning-east-peloponnisos/",
+      "at": "2026-10-02T14:04:59.635Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/orange-wind-warning-east-peloponnisos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/orange-wind-warning-east-peloponnisos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אזהרת רוחות חמורות: כתום לפלופונס המזרחי",
+        "title_en": "Orange Wind Warning Issued for East Peloponnisos",
+        "dek_he": "רשויות החירום ביוון פרסמו אזהרת רוחות ברמה כתומה לאזור מזרח הפלופונס, בעקבות תנאי מזג אוויר קיצוניים.",
+        "dek_en": "Greek meteorological authorities have issued an orange-level wind warning for the eastern region of the Peloponnisos.",
+        "section": "breaking",
+        "breaking": true,
+        "image": "https://images.pexels.com/photos/39199106/pexels-photo-39199106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "🔴 אזהרת רוחות חמורות: כתום לפלופונס המזרחי\n\nרשויות החירום ביוון פרסמו אזהרת רוחות ברמה כתומה לאזור מזרח הפלופונס, בעקבות תנאי מזג אוויר קיצוניים.\n\nhttps://yavanet.gr/a/orange-wind-warning-east-peloponnisos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Orange Wind Warning Issued for East Peloponnisos\n\nGreek meteorological authorities have issued an orange-level wind warning for the eastern region of the Peloponnisos.\n\nhttps://yavanet.gr/en/a/orange-wind-warning-east-peloponnisos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
