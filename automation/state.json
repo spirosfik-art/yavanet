@@ -917,7 +917,12 @@
     "b9b591b59df0": 1790962603122,
     "a9f173f9fb3a": 1790962603122,
     "20ac70c2d06f": 1790964171477,
-    "2276afaffcfc": 1790964171477
+    "2276afaffcfc": 1790964171477,
+    "356406f64c9c": 1790965607463,
+    "58d8d94e5c48": 1790965607463,
+    "2d239e3be448": 1790965607463,
+    "d060c5fc45ce": 1790965607463,
+    "16e502ddc2b1": 1790965607463
   },
   "pending": {},
   "sourceStatus": {
@@ -929,12 +934,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T18:02:36.382Z",
-      "items": 0
+      "at": "2026-10-02T18:26:36.398Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T18:02:37.009Z",
+      "at": "2026-10-02T18:26:37.088Z",
       "items": 5
     },
     "civilprotection": {
@@ -945,27 +950,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T18:02:38.113Z",
+      "at": "2026-10-02T18:26:38.842Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T18:02:38.549Z",
+      "at": "2026-10-02T18:26:39.025Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T18:02:39.597Z",
+      "at": "2026-10-02T18:26:40.249Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T18:02:40.218Z",
+      "at": "2026-10-02T18:26:40.906Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T18:02:41.001Z",
+      "at": "2026-10-02T18:26:41.842Z",
       "items": 10
     },
     "toi-greece": {
@@ -976,23 +981,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T18:02:46.397Z",
+      "at": "2026-10-02T18:26:42.337Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T18:02:46.485Z",
+      "at": "2026-10-02T18:26:42.486Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T18:02:47.071Z",
-      "items": 8
+      "at": "2026-10-02T18:26:42.978Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T18:02:47.208Z",
-      "items": 7
+      "at": "2026-10-02T18:26:43.107Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
@@ -1001,12 +1006,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T18:02:37.191Z",
+      "at": "2026-10-02T18:26:37.620Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T18:02:47.844Z",
+      "at": "2026-10-02T18:26:43.638Z",
       "items": 0
     },
     "hcg": {
@@ -1017,32 +1022,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T18:02:48.976Z",
+      "at": "2026-10-02T18:26:45.184Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T18:02:49.222Z",
+      "at": "2026-10-02T18:26:45.400Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T18:02:49.379Z",
-      "items": 6
+      "at": "2026-10-02T18:26:45.555Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T18:02:49.619Z",
-      "items": 11
+      "at": "2026-10-02T18:26:45.856Z",
+      "items": 10
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T18:02:50.075Z",
+      "at": "2026-10-02T18:26:46.227Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T18:02:50.544Z",
+      "at": "2026-10-02T18:26:46.749Z",
       "items": 9
     }
   },
@@ -1287,12 +1292,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T18:02:51.477Z",
-    "considered": 2,
+    "at": "2026-10-02T18:26:47.463Z",
+    "considered": 5,
     "picked": 0,
     "items": [
-      "· ingr | Κάρολιν Ροντρίγκες: H γυναίκα που δεν θέλει το Ισραήλ να κάτσει στο τιμόνι του ΟΗΕ",
-      "· gct | North Macedonia’s EU Path Remains Frozen as Von der Leyen Calls for Constitutional Change"
+      "· gct | Magnitude 4.1 Earthquake Rattles Patras in Western Greece",
+      "· naftemporiki | Haaretz: «Από τους Εβραίους που δηλητηρίαζαν πηγάδια στους Άραβες γιατρούς που δηλητηριάζο",
+      "· naftemporiki | Channel 12: Ο δράστης-πιλότος της flydubai είχε υποστεί διαδικασία κατήχησης στην «ιδεολογ",
+      "· gct | Mazonakis Death Case: Doctors Give Accounts of Resuscitation Efforts",
+      "· gct | Magnitude 4.8 Earthquake Jolts Melbourne and Much of Victoria"
     ]
   },
   "evergreenDone": [
