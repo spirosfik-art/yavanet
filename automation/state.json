@@ -732,55 +732,56 @@
     "03dbe3ebbf7e": 1790904990484,
     "d9835f48c333": 1790904990484,
     "4c6328b4bc5e": 1790904990484,
-    "956354e1505b": 1790904990484
+    "956354e1505b": 1790904990484,
+    "1fa762f79b5c": 1790905878985
   },
   "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
-      "at": "2026-10-02T01:36:18.592Z",
+      "at": "2026-10-02T01:51:08.676Z",
       "error": "HTTP 403",
-      "fails": 497
+      "fails": 498
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T01:36:19.112Z",
+      "at": "2026-10-02T01:51:09.377Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T01:36:20.064Z",
+      "at": "2026-10-02T01:51:10.085Z",
       "items": 4
     },
     "civilprotection": {
       "ok": false,
-      "at": "2026-10-02T01:36:21.179Z",
+      "at": "2026-10-02T01:51:11.164Z",
       "error": "HTTP 403",
-      "fails": 497
+      "fails": 498
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T01:36:22.454Z",
+      "at": "2026-10-02T01:51:12.352Z",
       "items": 13
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T01:36:22.653Z",
+      "at": "2026-10-02T01:51:12.562Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T01:36:23.764Z",
+      "at": "2026-10-02T01:51:13.540Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T01:36:24.610Z",
+      "at": "2026-10-02T01:51:14.311Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T01:36:25.549Z",
+      "at": "2026-10-02T01:51:14.828Z",
       "items": 10
     },
     "toi-greece": {
@@ -791,22 +792,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T01:36:26.106Z",
+      "at": "2026-10-02T01:51:15.336Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T01:36:26.498Z",
+      "at": "2026-10-02T01:51:15.595Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T01:36:27.246Z",
+      "at": "2026-10-02T01:51:15.972Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:36:27.451Z",
+      "at": "2026-10-02T01:51:16.394Z",
       "items": 4
     },
     "ynet-greece": {
@@ -816,12 +817,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T01:36:21.042Z",
+      "at": "2026-10-02T01:51:10.878Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T01:36:28.009Z",
+      "at": "2026-10-02T01:51:17.010Z",
       "items": 0
     },
     "hcg": {
@@ -832,7 +833,7 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T01:36:29.403Z",
+      "at": "2026-10-02T01:51:18.374Z",
       "items": 2
     }
   },
@@ -892,14 +893,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T01:36:30.484Z",
-    "considered": 4,
-    "picked": 1,
+    "at": "2026-10-02T01:51:18.985Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· gct | Former Connecticut official Kosta Diamantis sentenced to 7 years while in Greece",
-      "· gct | Hellenic Presidential Guard (Evzones) 2026 Sydney / Canberra Visit",
-      "· ingr | Flydubai: Ο Τραμπ απειλεί να πλήξει πολύ σκληρά το Ιράν εάν αποδειχθεί εμπλοκή του",
-      "✓ gct | Dendias in Nicosia: Greece will not leave Cyprus as Turkey blocks a power cable"
+      "· gct | Greece is keeping its Patriot missiles in Saudi Arabia for one more month"
     ]
   },
   "evergreenDone": [
