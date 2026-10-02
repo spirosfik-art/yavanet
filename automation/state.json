@@ -927,7 +927,8 @@
     "ca28e046b7e6": 1790967910071,
     "56fc7f8046e5": 1790968986427,
     "751eb0acc964": 1790969858467,
-    "f67f263acbaa": 1790969858467
+    "f67f263acbaa": 1790969858467,
+    "f49425424061": 1790970719822
   },
   "pending": {},
   "sourceStatus": {
@@ -939,12 +940,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-02T19:37:28.541Z",
-      "items": 0
+      "at": "2026-10-02T19:51:47.668Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-02T19:37:29.232Z",
+      "at": "2026-10-02T19:51:48.465Z",
       "items": 5
     },
     "civilprotection": {
@@ -955,27 +956,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-02T19:37:30.782Z",
+      "at": "2026-10-02T19:51:50.913Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-02T19:37:30.954Z",
+      "at": "2026-10-02T19:51:51.304Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-02T19:37:31.748Z",
+      "at": "2026-10-02T19:51:52.379Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-02T19:37:32.369Z",
+      "at": "2026-10-02T19:51:53.214Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-02T19:37:33.165Z",
+      "at": "2026-10-02T19:51:54.238Z",
       "items": 10
     },
     "toi-greece": {
@@ -986,23 +987,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-02T19:37:33.593Z",
+      "at": "2026-10-02T19:51:54.823Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-02T19:37:33.922Z",
+      "at": "2026-10-02T19:51:54.885Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-02T19:37:34.414Z",
+      "at": "2026-10-02T19:51:55.406Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T19:37:34.557Z",
-      "items": 4
+      "at": "2026-10-02T19:51:55.600Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1011,12 +1012,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-02T19:37:29.764Z",
+      "at": "2026-10-02T19:51:49.243Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-02T19:37:35.088Z",
+      "at": "2026-10-02T19:51:56.258Z",
       "items": 0
     },
     "hcg": {
@@ -1027,33 +1028,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-02T19:37:36.222Z",
+      "at": "2026-10-02T19:51:57.576Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-02T19:37:36.483Z",
-      "items": 5
+      "at": "2026-10-02T19:51:57.773Z",
+      "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-02T19:37:36.646Z",
+      "at": "2026-10-02T19:51:57.925Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-02T19:37:36.973Z",
+      "at": "2026-10-02T19:51:58.085Z",
       "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-02T19:37:37.325Z",
+      "at": "2026-10-02T19:51:58.422Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-02T19:37:37.773Z",
-      "items": 7
+      "at": "2026-10-02T19:51:58.829Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -1303,12 +1304,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-02T19:37:38.467Z",
-    "considered": 2,
+    "at": "2026-10-02T19:51:59.822Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gtp | Greek Aviation: Airport Investments and Air Navigation Upgrades Enter New Phase",
-      "· gtp | OASA Aims for Public Transport to Cover 40% of Attica Journeys"
+      "· gn-iefimerida | Προβλήματα με τις πτήσεις στο αεροδρόμιο Ηρακλείου λόγω της κακοκαιρίας - iefimerida.gr"
     ]
   },
   "evergreenDone": [
