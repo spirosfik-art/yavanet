@@ -12,7 +12,7 @@ process.on("unhandledRejection", async (e) => { await Promise.resolve().then(() 
 if (!env.BREVO_API_KEY) { log("Brevo: δεν υπάρχει BREVO_API_KEY – παράλειψη."); process.exit(0); }
 
 // 1) Χαρακτηριστικά επαφών (αν υπάρχουν ήδη, το Brevo απαντά σφάλμα που αγνοούμε)
-for (const name of ["LANG", "SIGNUP_PAGE", "CONSENT_AT", "LEAD_KIND", "LEAD_SOURCE", "AREA", "BUDGET", "LEAD_STATUS", "COUNTRY", "LEAD_AT"]) {
+for (const name of ["LANG", "SIGNUP_PAGE", "CONSENT_AT", "LEAD_KIND", "LEAD_SOURCE", "AREA", "BUDGET", "LEAD_STATUS", "COUNTRY", "LEAD_AT", "DOI_SENT"]) {
   try { await brevo(`/contacts/attributes/normal/${name}`, { type: "text" }); log("Brevo: χαρακτηριστικό", name); } catch (e) { }
 }
 
@@ -48,4 +48,21 @@ if (env.TELEGRAM_BOT_TOKEN) {
     const r = await fetch(base + "/api/nl-migrate", { method: "POST", headers: { "x-admin-secret": key } });
     log("Brevo: μεταφορά εγγραφών", r.status, (await r.text()).slice(0, 200));
   } catch (e) { log("Brevo: μεταφορά εγγραφών απέτυχε", e.message); }
+}
+
+// 4) Επανεπιβεβαίωση (double opt-in) για εγγραφές που μεταφέρθηκαν χωρίς επιβεβαίωση. Στέλνεται μία φορά (DOI_SENT).
+const RECONFIRM = [{ email: "ondropship@gmail.com", lang: "he" }];
+const SITE = (env.SITE_URL || "https://yavanet.gr").replace(/\/$/, "");
+for (const { email, lang } of RECONFIRM) {
+  try {
+    const c = await brevo(`/contacts/${encodeURIComponent(email)}`, null, "GET").catch(() => null);
+    if (c && c.attributes && c.attributes.DOI_SENT) continue;
+    const list = Number(lang === "he" ? env.BREVO_NL_LIST_HE : env.BREVO_NL_LIST_EN);
+    const tpl = (((await brevo("/smtp/templates?limit=100&offset=0", null, "GET")).templates) || []).find((t) => t.name === (lang === "he" ? "Yavanet DOI HE" : "Yavanet DOI EN"));
+    if (!tpl) { log("Brevo: επανεπιβεβαίωση – δεν βρέθηκε πρότυπο"); continue; }
+    if (c) await brevo(`/contacts/lists/${list}/contacts/remove`, { emails: [email] }).catch(() => {});
+    await brevo("/contacts/doubleOptinConfirmation", { email, includeListIds: [list], templateId: tpl.id, redirectionUrl: SITE + (lang === "he" ? "/?subscribed=1" : "/en/?subscribed=1"), attributes: { LANG: lang } });
+    await brevo(`/contacts/${encodeURIComponent(email)}`, { attributes: { DOI_SENT: new Date().toISOString() } }, "PUT").catch(() => {});
+    log(`Brevo: στάλθηκε email επιβεβαίωσης στο ${email} (βγήκε από τη λίστα μέχρι να επιβεβαιώσει)`);
+  } catch (e) { log(`Brevo: επανεπιβεβαίωση ${email} απέτυχε –`, e.message); }
 }
