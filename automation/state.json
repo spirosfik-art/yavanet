@@ -957,7 +957,11 @@
     "d24fc8a27c11": 1790992857665,
     "b5d5214e3c26": 1790994313910,
     "b7d1ec5ba1fd": 1790997147349,
-    "e1f8ed78ad8a": 1790997147349
+    "e1f8ed78ad8a": 1790997147349,
+    "c8007dfdd02f": 1790998296609,
+    "46decb1fb42d": 1790998296609,
+    "28212fdbb927": 1790998296609,
+    "0a857defe221": 1790998296609
   },
   "pending": {},
   "sourceStatus": {
@@ -969,12 +973,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T03:12:15.569Z",
+      "at": "2026-10-03T03:31:25.915Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T03:12:16.408Z",
+      "at": "2026-10-03T03:31:26.718Z",
       "items": 5
     },
     "civilprotection": {
@@ -985,27 +989,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T03:12:18.624Z",
+      "at": "2026-10-03T03:31:28.241Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T03:12:18.751Z",
+      "at": "2026-10-03T03:31:28.650Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T03:12:20.150Z",
+      "at": "2026-10-03T03:31:29.596Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T03:12:21.041Z",
-      "items": 2
+      "at": "2026-10-03T03:31:30.374Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T03:12:21.979Z",
+      "at": "2026-10-03T03:31:31.163Z",
       "items": 10
     },
     "toi-greece": {
@@ -1016,22 +1020,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T03:12:22.560Z",
+      "at": "2026-10-03T03:31:31.658Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T03:12:22.830Z",
+      "at": "2026-10-03T03:31:32.055Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T03:12:22.914Z",
-      "items": 5
+      "at": "2026-10-03T03:31:32.202Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T03:12:23.114Z",
+      "at": "2026-10-03T03:31:32.379Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1041,12 +1045,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T03:12:17.002Z",
+      "at": "2026-10-03T03:31:27.073Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T03:12:23.815Z",
+      "at": "2026-10-03T03:31:32.890Z",
       "items": 0
     },
     "hcg": {
@@ -1057,33 +1061,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T03:12:25.204Z",
+      "at": "2026-10-03T03:31:34.284Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T03:12:25.389Z",
+      "at": "2026-10-03T03:31:34.553Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T03:12:25.609Z",
+      "at": "2026-10-03T03:31:34.729Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T03:12:25.870Z",
+      "at": "2026-10-03T03:31:35.175Z",
       "items": 13
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T03:12:26.150Z",
-      "items": 6
+      "at": "2026-10-03T03:31:35.524Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T03:12:26.588Z",
-      "items": 12
+      "at": "2026-10-03T03:31:35.928Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -1139,12 +1143,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T03:12:27.349Z",
-    "considered": 2,
+    "at": "2026-10-03T03:31:36.609Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Car crashes into crowd of Newcastle Knights fans, injuring multiple people",
-      "· gct | Feast Day of Agios Dionysios Areopagitis, Patron Saint of Athens"
+      "· ert | Βενεζουέλα: Συγκίνηση στην εκδήλωση μνήμης για τα θύματα του διπλού σεισμού",
+      "· gct | How Greek Settlers Turned Libya’s Natural Coast into a Major Port for Ancient Cyrene",
+      "· ingr | Ισπανία: Νέες δυναμικές κινητοποιήσεις για τη στεγαστική κρίση προανήγγειλε το σωματείο εν",
+      "· gn-kathimerini | Ο Λίβανος έχει ανάγκη «σημαντικής χρηματοδότησης» για ανοικοδόμηση μετά τον πόλεμο του Ισρ"
     ]
   },
   "evergreenDone": [
