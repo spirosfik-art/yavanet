@@ -1,0 +1,106 @@
+{
+ "slug": "athens-airport-to-city-centre-guide",
+ "section": "travel",
+ "publishedAt": "2026-10-03T20:10:00+03:00",
+ "updatedAt": null,
+ "sensitive": false,
+ "sponsored": false,
+ "breaking": false,
+ "geo": null,
+ "sources": [
+  {
+   "name": "OASA – Prices of products (tickets)",
+   "url": "https://www.oasa.gr/en/tickets/prices-of-products/"
+  },
+  {
+   "name": "OASA – Airport Express Bus Lines",
+   "url": "https://www.oasa.gr/en/visit-athens/airport-express-bus-lines/"
+  },
+  {
+   "name": "STASY – Line 3 timetable",
+   "url": "https://www.stasy.gr/en/timetables/line-3/"
+  },
+  {
+   "name": "Wikipedia – Athens Airport station",
+   "url": "https://en.wikipedia.org/wiki/Athens_Airport_station"
+  },
+  {
+   "name": "Wikipedia – Line 3 (Athens Metro)",
+   "url": "https://en.wikipedia.org/wiki/Line_3_(Athens_Metro)"
+  },
+  {
+   "name": "Newsbomb – New airport taxi fares (Sept 2026)",
+   "url": "https://www.newsbomb.gr/ellada/story/1763895/afksiseis-sta-komistra-ton-taksi-pos-diamorfonontai-oi-times-sta-aerodromia-athinas-kai-thessalonikis"
+  },
+  {
+   "name": "Keep Talking Greece – New taxi fares from airports (17.9.2026)",
+   "url": "https://www.keeptalkinggreece.com/2026/09/17/new-taxi-fares-from-airports-in-athens-and-thessaloniki/"
+  },
+  {
+   "name": "Wikipedia – Freenow",
+   "url": "https://en.wikipedia.org/wiki/Freenow"
+  },
+  {
+   "name": "GTP – Greek taxis must display card payment signage",
+   "url": "https://news.gtp.gr/2024/07/31/greek-taxis-now-required-to-display-credit-card-payment-signage/"
+  }
+ ],
+ "image": {
+  "type": "photo",
+  "url": "https://images.pexels.com/photos/34785947/pexels-photo-34785947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "alt": "Aegean Airlines airplane parked on airport tarmac, showcasing the aircraft's engine and fuselage.",
+  "credit": "Photo: Dawid Tkocz / Pexels",
+  "creditUrl": "https://www.pexels.com/photo/aegean-airlines-airplane-on-tarmac-at-airport-34785947/",
+  "license": "Pexels License",
+  "fallbackKey": "strike"
+ },
+ "alert": null,
+ "meta": {
+  "manual": true,
+  "checkedAt": "2026-10-03T20:10:00+03:00"
+ },
+ "guide": true,
+ "guideCat": "travel",
+ "he": {
+  "title": "איך מגיעים משדה התעופה באתונה למרכז העיר",
+  "dek": "מטרו, אוטובוס אקספרס, רכבת פרברים או מונית? כל הדרכים משדה התעופה אלפתריוס וניזלוס למרכז אתונה ולנמל פיראוס, עם מחירים רשמיים, זמני נסיעה וטבלת השוואה.",
+  "tldr": [
+   "מטרו קו 3 (הכחול): 9 אירו לכיוון, 16 אירו הלוך-חזור, רכבת לשדה בערך כל 36 דקות.",
+   "אוטובוס X95 לכיכר סינטגמה: 5.50 אירו, פועל 24 שעות. אפשר לשלם בכרטיס אשראי באוטובוס.",
+   "מונית למרכז: מחיר קבוע של 50 אירו ביום ו-65 אירו בלילה (00:00–05:00), לפי התעריף החדש מספטמבר 2026."
+  ],
+  "means": "נוחתים באתונה? ביום המטרו הוא הכי מהיר וצפוי. בלילה, או עם הרבה מזוודות, מונית או X95.",
+  "body": "## בקצרה\n\nשדה התעופה הבינלאומי של אתונה (אלפתריוס וניזלוס, ATH) נמצא במזרח אטיקה, מחוץ לעיר. יש ארבע דרכים להגיע למרכז: מטרו, אוטובוס אקספרס, רכבת פרברים ומונית. המחירים כאן נבדקו ב-3 באוקטובר 2026 באתר הרשמי של OASA, חברת התחבורה הציבורית של אתונה.\n\n## טבלת השוואה\n\n| אפשרות | לאן | מחיר | תדירות | זמן נסיעה משוער | שעות |\n|---|---|---|---|---|---|\n| מטרו קו 3 | סינטגמה, מונסטיראקי, פיראוס | 9 אירו (הלוך-חזור 16) | בערך כל 36 דקות | עד 59 דקות לפיראוס | עד קצת לפני חצות |\n| אוטובוס X95 | כיכר סינטגמה | 5.50 אירו | משתנה | כשעה | 24 שעות |\n| אוטובוס X96 | נמל פיראוס | 5.50 אירו | משתנה | כשעה וחצי | 24 שעות |\n| אוטובוס X97 | תחנת המטרו אליניקו | 5.50 אירו | משתנה | כ-45 דקות | 24 שעות |\n| אוטובוס X93 | תחנות האוטובוסים הבין-עירוניים (קיפיסוס, ליוסיון) | 5.50 אירו | משתנה | כ-65 דקות | 24 שעות |\n| רכבת פרברים | פיראוס (דרך מטמורפוסי) | כרטיס שדה תעופה | עד רכבת אחת בשעה | משתנה | לפי לוח זמנים |\n| מונית | מרכז אתונה | 50 אירו, 65 בלילה | כל הזמן | תלוי בתנועה | 24 שעות |\n\nזמני הנסיעה באוטובוס תלויים מאוד בפקקים.\n\n## מטרו: קו 3 (הכחול)\n\n- **מחיר:** כרטיס שדה תעופה עולה **9 אירו** לכיוון (מוזל 4.50 אירו לזכאים). **הלוך-חזור: 16 אירו**, והחזור תקף 30 יום.\n- **הכרטיס תקף 90 דקות** בכל התחבורה של OASA, כך שאפשר להחליף קו או לעלות לאוטובוס בהמשך.\n- **תדירות:** רכבות לשדה התעופה יוצאות בערך כל **36 דקות**. רכבות שלא ממשיכות לשדה נוסעות רק עד דוקיסיס פלקנטיאס, אז עלו לרכבת שכתוב עליה Airport.\n- **לאן:** הקו עובר בסינטגמה ובמונסטיראקי וממשיך עד **נמל פיראוס**. הנסיעה מהשדה לפיראוס לוקחת עד 59 דקות.\n- **שעות:** לפי STASY, הרכבות האחרונות יוצאות מהשדה בין 23:34 ל-23:58. אחרי זה נשארים האוטובוסים והמוניות.\n- **עבודות:** עד 8 באוקטובר 2026, בימים ראשון עד חמישי, תחנות אלאונאס, קרמיקוס ומונסטיראקי נסגרות ב-21:40. הקטע שדה תעופה–סינטגמה ממשיך לפעול. בדקו עדכונים ב-STASY.\n- עוד על המטרו: [המדריך למטרו של אתונה](/a/athens-metro-guide-lines-tickets-airport/).\n\n## אוטובוסי אקספרס\n\nכל קווי האקספרס לשדה התעופה פועלים **24 שעות** ועולים **5.50 אירו** לכיוון (מוזל 2.70 אירו). לפי OASA אפשר לשלם במחיר המלא גם בכרטיס אשראי ללא מגע או בטלפון (Apple Pay / Google Pay).\n\n- **X95 – סינטגמה:** הקו הכי שימושי לתיירים. מגיע לכיכר סינטגמה, ליד קווי המטרו 2 ו-3. כשעה נסיעה.\n- **X96 – נמל פיראוס:** למי שממשיך ישר למעבורת. כשעה וחצי.\n- **X97 – אליניקו:** לתחנת המטרו אליניקו (קו 2), בדרום. בלילה (00:00–04:55) הוא יוצא מתחנת המטרו דפני.\n- **X93 – תחנות האוטובוסים הבין-עירוניים:** קיפיסוס וליוסיון, למי שממשיך באוטובוס KTEL לעיר אחרת.\n\n## רכבת פרברים (Proastiakos)\n\nמתחנת שדה התעופה יוצאת גם רכבת הפרברים של Hellenic Train. קו A1 נוסע לפיראוס דרך מטמורפוסי, עד רכבת אחת בשעה. זו לא הדרך הכי ישירה למרכז אתונה, אבל היא שימושית לפרברים הצפוניים. בדקו לוח זמנים ומחיר באתר Hellenic Train לפני הנסיעה.\n\n## מונית\n\n- **מחיר קבוע למרכז אתונה: 50 אירו ביום, 65 אירו בלילה (00:00–05:00).** זה התעריף החדש שנקבע בהחלטת משרד התחבורה מספטמבר 2026. לפני כן המחיר היה 40 ו-55 אירו.\n- התור למוניות נמצא ביציאה מאולם ההגעה. סכמו עם הנהג לפני הנסיעה שמדובר במחיר הקבוע, ושאלו אם יש תוספות.\n- ביוון **מוניות חייבות לקבל תשלום בכרטיס** ולתת קבלה. על הדלת יש מדבקה שאומרת את זה.\n- לפיראוס ולמקומות שאינם המרכז הנסיעה היא לפי מונה.\n- **אפליקציות:** באתונה פועלות Uber ו-FreeNow. ב-Uber ביוון מגיעה מונית מורשית רגילה, לא רכב פרטי.\n\n## משדה התעופה לנמל פיראוס\n\n- **מטרו קו 3:** ישירות לתחנת פיראוס, עד 59 דקות. הכי צפוי.\n- **אוטובוס X96:** 5.50 אירו, כשעה וחצי, פועל גם בלילה.\n- **מונית:** לפי מונה.\n- טסים ישר למעבורת? השאירו מרווח זמן גדול, ובדקו [שביתות במעבורות ובתחבורה](/strike-check/).\n\n## איזה כרטיס כדאי לקנות?\n\n- **כרטיס תייר ל-3 ימים: 20 אירו.** כולל נסיעה אחת הלוך-חזור לשדה התעופה במטרו או באקספרס, ונסיעות בלי הגבלה בעיר. משתלם למי שנשאר 3 ימים.\n- **כרטיס יומי (4.10 אירו) וכרטיס ל-5 ימים (8.20 אירו)** לא כוללים את השדה ואת קווי האקספרס לשדה.\n- נוסעים חזרה לשדה בתוך 30 יום? כרטיס מטרו הלוך-חזור ב-16 אירו חוסך 2 אירו.\n\n## שאלות נפוצות\n\n### כמה עולה מונית משדה התעופה של אתונה למרכז?\n\nמחיר קבוע של 50 אירו ביום ו-65 אירו בין 00:00 ל-05:00, לפי התעריף שנקבע בספטמבר 2026. אפשר לשלם בכרטיס אשראי.\n\n### המטרו משדה התעופה פועל כל הלילה?\n\nלא. לפי STASY הרכבות האחרונות יוצאות מהשדה קצת לפני חצות. בלילה נוסעים באוטובוס X95 לסינטגמה, שפועל 24 שעות, או במונית.\n\n### איך מגיעים משדה התעופה לנמל פיראוס?\n\nהכי פשוט במטרו קו 3, שמגיע ישירות לתחנת פיראוס בתוך כשעה, או באוטובוס X96 שפועל 24 שעות.\n\n### יש Uber באתונה?\n\nכן, אבל ב-Uber ביוון מגיעה מונית מורשית רגילה. גם FreeNow פועלת באתונה.\n\nהמחירים נבדקו ב-3 באוקטובר 2026 באתרי OASA ו-STASY. מחירים ולוחות זמנים משתנים, אז כדאי לבדוק שוב לפני הטיסה. מתכננים טיסה? [טיסות מתל אביב ליוון](/flights/).",
+  "seoTitle": "משדה התעופה באתונה למרכז: מטרו, אוטובוס ומונית",
+  "seoDesc": "איך מגיעים משדה התעופה של אתונה למרכז ולפיראוס: מטרו ב-9 אירו, אוטובוס X95 ב-5.50 אירו, מונית במחיר קבוע. מחירים רשמיים וטבלת השוואה.",
+  "keywords": [
+   "משדה התעופה באתונה למרכז",
+   "מטרו משדה התעופה אתונה",
+   "אוטובוס X95 אתונה",
+   "מונית משדה התעופה אתונה מחיר",
+   "משדה התעופה אתונה לפיראוס",
+   "תחבורה ציבורית אתונה"
+  ]
+ },
+ "en": {
+  "title": "How to get from Athens airport to the city centre",
+  "dek": "Metro, express bus, suburban railway or taxi? Every way from Eleftherios Venizelos airport to central Athens and Piraeus port, with official prices, journey times and a comparison table.",
+  "tldr": [
+   "Metro line 3 (blue): €9 one way, €16 return, an airport train about every 36 minutes.",
+   "X95 bus to Syntagma Square: €5.50, runs 24 hours. You can pay by bank card on board.",
+   "Taxi to the centre: fixed fare of €50 by day and €65 at night (00:00–05:00), under the new tariff from September 2026."
+  ],
+  "means": "Landing in Athens? By day the metro is fastest and most predictable. At night, or with lots of luggage, take a taxi or the X95.",
+  "body": "## In short\n\nAthens International Airport (Eleftherios Venizelos, ATH) is in eastern Attica, outside the city. There are four ways to get to the centre: metro, express bus, suburban railway and taxi. Prices here were checked on 3 October 2026 on the official website of OASA, Athens' public transport authority.\n\n## Comparison table\n\n| Option | To | Price | Frequency | Approx. journey | Hours |\n|---|---|---|---|---|---|\n| Metro line 3 | Syntagma, Monastiraki, Piraeus | €9 (return €16) | About every 36 min | Up to 59 min to Piraeus | Until just before midnight |\n| X95 bus | Syntagma Square | €5.50 | Varies | About 1 hour | 24 hours |\n| X96 bus | Piraeus port | €5.50 | Varies | About 1.5 hours | 24 hours |\n| X97 bus | Elliniko metro station | €5.50 | Varies | About 45 min | 24 hours |\n| X93 bus | Intercity bus stations (Kifissos, Liosion) | €5.50 | Varies | About 65 min | 24 hours |\n| Suburban railway | Piraeus (via Metamorfosi) | Airport ticket | Up to 1 train per hour | Varies | Per timetable |\n| Taxi | Central Athens | €50, €65 at night | Any time | Depends on traffic | 24 hours |\n\nBus journey times depend heavily on traffic.\n\n## Metro: line 3 (blue)\n\n- **Price:** an airport ticket costs **€9** one way (€4.50 reduced for those eligible). **Return: €16**, with the return valid for 30 days.\n- **The ticket is valid for 90 minutes** on all OASA transport, so you can change lines or take a bus afterwards.\n- **Frequency:** trains to the airport leave about every **36 minutes**. Trains that don't continue to the airport terminate at Doukissis Plakentias, so board a train marked Airport.\n- **Where:** the line passes Syntagma and Monastiraki and continues to **Piraeus port**. The airport–Piraeus trip takes up to 59 minutes.\n- **Hours:** according to STASY, the last trains leave the airport between 23:34 and 23:58. After that, buses and taxis remain.\n- **Works:** until 8 October 2026, Sunday to Thursday, Eleonas, Kerameikos and Monastiraki stations close at 21:40. The airport–Syntagma section keeps running. Check STASY for updates.\n- More on the metro: [our Athens metro guide](/en/a/athens-metro-guide-lines-tickets-airport/).\n\n## Express buses\n\nAll airport express lines run **24 hours** and cost **€5.50** one way (€2.70 reduced). According to OASA you can pay the full fare with a contactless bank card or phone (Apple Pay / Google Pay).\n\n- **X95 – Syntagma:** the most useful line for tourists. Arrives at Syntagma Square, next to metro lines 2 and 3. About an hour.\n- **X96 – Piraeus port:** for those going straight to a ferry. About 1.5 hours.\n- **X97 – Elliniko:** to Elliniko metro station (line 2), in the south. At night (00:00–04:55) it starts from Dafni metro station.\n- **X93 – intercity bus stations:** Kifissos and Liosion, for those continuing by KTEL bus to another city.\n\n## Suburban railway (Proastiakos)\n\nHellenic Train's suburban railway also leaves from the airport station. Line A1 runs to Piraeus via Metamorfosi, up to one train an hour. It is not the most direct way to central Athens but is useful for the northern suburbs. Check the timetable and price on Hellenic Train's website before travelling.\n\n## Taxi\n\n- **Fixed fare to central Athens: €50 by day, €65 at night (00:00–05:00).** This is the new tariff set by a Transport Ministry decision in September 2026. It used to be €40 and €55.\n- The taxi rank is at the arrivals hall exit. Agree with the driver before setting off that it is the fixed fare, and ask about any extras.\n- In Greece **taxis must accept card payment** and give a receipt. A sticker on the door says so.\n- To Piraeus and destinations other than the centre, the meter applies.\n- **Apps:** Uber and FreeNow operate in Athens. Uber in Greece sends a regular licensed taxi, not a private car.\n\n## Airport to Piraeus port\n\n- **Metro line 3:** direct to Piraeus station, up to 59 minutes. The most predictable.\n- **X96 bus:** €5.50, about 1.5 hours, runs at night too.\n- **Taxi:** by meter.\n- Flying straight to a ferry? Leave plenty of time, and check [ferry and transport strikes](/en/strike-check/).\n\n## Which ticket should I buy?\n\n- **3-day tourist ticket: €20.** Includes one airport round trip by metro or express bus, plus unlimited travel in the city. Good value if you stay 3 days.\n- **The daily ticket (€4.10) and 5-day ticket (€8.20)** do not include the airport or the airport express lines.\n- Flying back within 30 days? The €16 metro return saves €2.\n\n## FAQ\n\n### How much is a taxi from Athens airport to the centre?\n\nA fixed fare of €50 by day and €65 between 00:00 and 05:00, under the tariff set in September 2026. You can pay by card.\n\n### Does the airport metro run all night?\n\nNo. According to STASY the last trains leave the airport shortly before midnight. At night take the X95 bus to Syntagma, which runs 24 hours, or a taxi.\n\n### How do I get from the airport to Piraeus port?\n\nThe simplest way is metro line 3, which goes directly to Piraeus station in about an hour, or the X96 bus, which runs 24 hours.\n\n### Is there Uber in Athens?\n\nYes, but Uber in Greece sends a regular licensed taxi. FreeNow also operates in Athens.\n\nPrices checked on 3 October 2026 on the OASA and STASY websites. Prices and timetables change, so check again before you fly. Planning a flight? [Flights from Tel Aviv to Greece](/en/flights/).",
+  "seoTitle": "Athens airport to city centre: metro, bus and taxi",
+  "seoDesc": "How to get from Athens airport to the centre and Piraeus: metro €9, X95 bus €5.50, fixed taxi fare. Official prices, journey times and a comparison table.",
+  "keywords": [
+   "Athens airport to city centre",
+   "Athens airport metro",
+   "X95 bus Athens",
+   "Athens airport taxi fare",
+   "Athens airport to Piraeus",
+   "Athens public transport"
+  ]
+ }
+}
