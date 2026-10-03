@@ -51,15 +51,23 @@ ${items.map((a) => `<tr><td style="padding:18px 24px;border-bottom:1px solid #D6
     he: { list: env.BREVO_NL_LIST_HE, subject: kind === "daily" ? `קלימרה מיוונט · ${items[0].he.title}` : "נדל״ן השבוע ביוון · יוונט", title: kind === "daily" ? "קלימרה! 5 החדשות החשובות מיוון היום" : "נדל״ן השבוע: חוקים, מחירים והזדמנויות" },
     en: { list: env.BREVO_NL_LIST_EN, subject: kind === "daily" ? `Kalimera from Yavanet · ${items[0].en.title}` : "Real estate this week in Greece · Yavanet", title: kind === "daily" ? "Kalimera! Today's 5 key stories from Greece" : "Real estate this week: laws, prices and opportunities" },
   };
+  const sent = [];
   for (const lang of ["he", "en"]) {
     if (!cfg[lang].list) continue;
+    // Άδεια λίστα (κανένας επιβεβαιωμένος συνδρομητής): δεν φτιάχνουμε καμπάνια
+    const info = await brevo(`/contacts/lists/${cfg[lang].list}`, null, "GET").catch(() => null);
+    const n = info ? (info.uniqueSubscribers ?? info.totalSubscribers ?? 0) : 0;
+    if (!n) { log("newsletter", lang, "άδεια λίστα – παράλειψη"); continue; }
+    try {
     const c = await brevo("/emailCampaigns", {
       name: `Yavanet ${kind} ${lang} ${date}`, subject: cfg[lang].subject.slice(0, 150), type: "classic",
       sender: { name: lang === "he" ? "יוונט" : "Yavanet", email: env.SENDER_EMAIL }, recipients: { listIds: [Number(cfg[lang].list)] },
       htmlContent: html(lang, items, cfg[lang].title),
     });
     if (!DRY && c.id) await brevo(`/emailCampaigns/${c.id}/sendNow`, null);
-    log("✓ newsletter", kind, lang);
+    log("✓ newsletter", kind, lang, n);
+    sent.push(`${lang === "he" ? "εβραϊκά" : "αγγλικά"}: ${n}`);
+    } catch (e) { log("newsletter", lang, e.message); await notifyOwner(`⚠️ Newsletter (${lang}) απέτυχε: ${e.message}`); process.exitCode = 1; }
   }
-  await notifyOwner(`📧 Στάλθηκε το newsletter (${kind}) με ${items.length} θέματα.`);
+  if (sent.length) await notifyOwner(`📧 Στάλθηκε το newsletter (${kind}) με ${items.length} θέματα · παραλήπτες ${sent.join(", ")}.`);
 })().catch(async (e) => { log("newsletter error", e.message); await notifyOwner("⚠️ Newsletter απέτυχε: " + e.message); process.exitCode = 1; });
