@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-crete-winds-9-beaufort",
   "section": "breaking",
   "publishedAt": "2026-09-30T20:25:30+03:00",
-  "updatedAt": "2026-10-03T16:39:37+03:00",
+  "updatedAt": "2026-10-03T17:32:50+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd28wWmlNUTR1OVJCS1M2SmFpWFRQc2Zpcnl3ZVlLcTZWcU42Q1pOS2JIeE5iNjB6RnJ6ODI2c3YxVjVsUEdVY2FwUGJjY2hXcTNRamRIcGhOQk5CQnp4NTQzbmhpTG1SZUhUOWR3S2UzYTY1dXM3VTVsRXZyRTQwOF8xanV4NHJQNGlmZE1MZnpTWno0QjhMTlhrYU5tV1d0SWZNRmI4cGVjV1pBQjE0eXVaWkhhaGVuZTI5V0htYjFIcnVU?oc=5"
+    },
     {
       "name": "in.gr",
       "url": "https://www.in.gr/2026/10/03/greece/kriti-vroxi-ta-minymata-apo-to-112-pou-xtypa-i-kakokairia-plimmyres-kai-megales-katastrofes/"
@@ -50,26 +54,26 @@
     "en": "Storm in Greece"
   },
   "he": {
-    "title": "כרתים: התרעות חירום ושיטפונות בעקבות מזג אוויר קיצוני",
-    "dek": "מערכת חורפית קשה פוקדת את כרתים והאזור הדרומי של הים האגאי. הרשויות הפעילו קוד אדום ושלחו שורת התרעות חירום לתושבים ולמטיילים.",
+    "title": "כרתים: הצפות, נזקים וחילוצים בעקבות מזג האוויר הקיצוני והודעות 112",
+    "dek": "מערכת חזקה פוקדת את האי וגורמת להצפות קשות, נזקים לתשתיות ופעולות חילוץ, לצד הפעלת מערכת החירום של פיקוד העורף היווני.",
     "tldr": [
-      "האי כרתים והדרום האגאי נמצאים תחת כוננות עליונה וקוד אדום עקב גשמים עזים ורוחות סוערות.",
-      "מוקדי חירום של 112 הופצו באזורים שונים, כולל אמארי, מילופוטאמוס והרפרטרה.",
-      "עובדים נותרו מצורפים בסמאריה, ורשויות הכיבוי חילצו נוסעים שרכבם נקלע לשיטפונות."
+      "הצפות נרחבות ונזקים כבדים נרשמו ברחבי כרתים.",
+      "כוחות הצלה מבצעים פעולות חילוץ של אזרחים לכודים.",
+      "התושבים והמבקרים באי קיבלו התראות חירום במספר 112."
     ],
-    "means": "אם אתם מתכננים חופשה בכרתים בימים הקרובים, תעקבו אחר הודעות חירום מקומיות ותמנעו מנסיעות לא חיוניות באזורים הרריים או סמוך לנחלים. בדקו מראש עם חברות התעופה ומקומות האירוח על שינויים אפשריים בדרכים ובפעילות.",
-    "body": "## מזג אוויר קיצוני וקוד אדום בכרתים\n\nמערכת מזג אוויר סוערת ממשיכה להכות בכרתים, עם דגש על חאניה, רתימנו ולסיתיו. הרשויות באזור הכריזו על מצב כוננות של קוד אדום, המלווה בגשמים כבדים ורוחות בלאות חזקות המגיעות לדרגות גבוהות בים האגאי.\n\n## סדרת הודעות 112 והגבלות תנועה\n\nמוקד החירום הלאומי 112 הפעיל התרעות חוזרות במהלך הימים האחרונים, וקרא לתושבים ולתיירים באזורים כמו הרפרטרה, אמארי ומילופוטאמוס להגביל את תנועותיהם למינימום ההכרחי עקב סכנת שיטפונות והצפות.\n\n## חילוצים ונזקים בתשתיות\n\nהגשמים הרבים שירדו בפרק זמן קצר יצרו זרימות מים אדירות שגרמו לחסימת צירים, להצפת בתים ועסקים ולפגיעה בתשתיות מקומיות. כוחות כיבוי האש נדרשו לחלץ נהגים ונוסעים שרכבם נלכד בבוץ ובמים העומדים בדרכים באזור החוף והכפרים.\n\n## מצב המטיילים באזורים ההרריים\n\nבמקביל, מספר עובדים המשיכו לשהות במקומות בטוחים בפארקים הלאומיים ובנקיקים עקב הצפות במחילות ההליכה. מטאורולוגים מציינים כי מדובר בכמויות משקעים חריגות ביותר עבור התקופה, וההתרעות נותרות בתוקף עד מחר."
+    "means": "אם אתם מטיילים כעת בכרתים, תעקבו אחרי הודעות החירום של הרשויות במספר 112 ותמנעו מנסיעות לא חיוניות באזורים מוצפים. תבדקו מול מקום הלינה שלכם או חברות ההשכרה על חסימות כבישים ומצב מזג האוויר המקומי.",
+    "body": "## מזג אוויר סוער בכרתים\n\nהאי כרתים מתמודד עם גל מזג אוויר קיצוני במיוחד, שהביא עמו כמייות של גשמים עזים, הצפות נרחבות ופגיעה משמעותית בתשתיות המקומיות.\n\n## חילוצים והתרעות חירום\n\nהרשויות ביוון הפעילו את מערכת ההתרעה הלאומית 112 ושלחו הודעות חירום לתושבים ולתיירים השוהים באזורים שנפגעו. כוחות כיבוי האש והצלה הוזעקו לשורה של קריאות, ובצעו פעולות חילוץ מורכבות של אנשים שנלכדו ברכבים ובמבנים מוצפים.\n\n## היערכות באי\n\nהשלטונות ממשיכים לקרוא לציבור לנקוט משנה זהירות, לצמצם תנועה למינימום ההכרחי ולהישמע להנחיות גורמי החירום והמשטרה בשטח עד לסיום האירוע המטאורולוגי."
   },
   "en": {
-    "title": "Crete: Emergency Alerts and Severe Flooding Amid Extreme Weather",
-    "dek": "A severe storm system is affecting Crete and the southern Aegean, prompting authorities to maintain a Red Code alert and issue multiple emergency messages.",
+    "title": "Crete: Floods, damage and rescues amid severe weather and 112 alerts",
+    "dek": "A powerful storm system strikes the island, triggering severe floods, infrastructure damage and rescue operations alongside emergency mobile alerts.",
     "tldr": [
-      "Crete and the southern Aegean remain under a Red Code weather alert due to torrential rain and gale-force winds.",
-      "Multiple 112 emergency alerts have been sent to residents and visitors urging them to limit non-essential travel.",
-      "Emergency services have carried out rescues of stranded motorists in flooded areas across the island."
+      "Widespread floods and heavy damage reported across Crete.",
+      "Rescue teams are actively extracting stranded individuals.",
+      "Emergency 112 alerts were issued to residents and visitors."
     ],
-    "means": "If you are currently traveling in Crete or planning a trip, monitor local emergency alerts closely and avoid driving in mountainous or coastal areas prone to flash floods. Check with your accommodation or tour operators regarding road conditions.",
-    "body": "## Red Code Weather Alert in Crete\n\nA powerful storm system continues to impact regions across Crete, with the heaviest downpours reported in Chania, Rethymno, and Lasithi. Authorities have maintained a Red Code civil protection status as relentless rain and strong norheasterly winds sweep across the southern Aegean.\n\n## Series of 112 Emergency Warnings\n\nThe national emergency system 112 has issued several urgent alerts urging citizens and visitors in areas such as Ierapetra, Amari, and Mylopotamos to restrict movement as water and debris accumulate heavily on roadways.\n\n## Infrastructure Damage and Rescues\n\nHeavy rainfall over the past 24 hours has turned roads into torrents, flooding homes and businesses while sweeping vehicles into mud and debris. Fire brigades intervened with heavy machinery to rescue motorists stranded in coastal and rural settlements.\n\n## Situation in Mountainous Areas and Gorges\n\nRecord-breaking rainfall totals have been logged by meteorological stations, causing difficult conditions in natural reserves and local road networks. Authorities advise caution as adverse weather conditions are expected to persist."
+    "means": "If you are currently visiting Crete, follow all emergency instructions sent via the 112 service and avoid non-essential travel in flooded areas. Check with your accommodation or tour operator regarding road closures and local conditions.",
+    "body": "## Severe Weather Hits Crete\n\nThe island of Crete is facing extreme weather conditions bringing torrential rainfall, extensive flooding, and significant disruption to local infrastructure.\n\n## Rescues and Emergency Alerts\n\nGreek authorities activated the 112 emergency notification system, sending urgent safety warnings to mobile phones across the affected regions. Fire and rescue crews responded to numerous calls, carrying out complex extractions of people trapped in flooded vehicles and buildings.\n\n## Local Guidance\n\nOfficials continue to urge the public to exercise extreme caution, limit movement to absolute necessities, and strictly follow instructions issued by emergency services and local police until the weather system clears."
   },
   "meta": {
     "itemId": "e609386cca45",
@@ -78,6 +82,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-03T08:36:33.128Z",
     "official": false,
-    "updatedFrom": "4f8e9084637b"
+    "updatedFrom": "5c774c3a14bd"
   }
 }
