@@ -141,4 +141,20 @@
     });
     q(); box.hidden = false;
   })();
+  /* ==================== Λίστα μετακόμισης ==================== */
+  (function () {
+    var prog = $("#ck-prog"); if (!prog) return;
+    var KEY = "yv-moving-checklist", st = {};
+    try { st = JSON.parse(lsGet(KEY) || "{}") || {}; } catch (e) { st = {}; }
+    var boxes = $$("[data-ck]"), total = boxes.length;
+    function upd() {
+      var n = 0; boxes.forEach(function (b) { if (b.checked) n++; b.closest(".ck").classList.toggle("done", b.checked); });
+      $("#ck-n").textContent = n; $("#ck-bar").style.width = Math.round(n / total * 100) + "%";
+      $$("[data-ckc]").forEach(function (el) { var id = el.getAttribute("data-ckc"), bs = boxes.filter(function (b) { return b.getAttribute("data-ck").indexOf(id + "-") === 0; }), d = bs.filter(function (b) { return b.checked; }).length; el.textContent = d + "/" + bs.length; });
+      return n;
+    }
+    boxes.forEach(function (b) { b.checked = !!st[b.getAttribute("data-ck")]; b.addEventListener("change", function () { if (b.checked) st[b.getAttribute("data-ck")] = 1; else delete st[b.getAttribute("data-ck")]; lsSet(KEY, JSON.stringify(st)); var n = upd(); track("checklist_tick", { item: b.getAttribute("data-ck"), checked: b.checked ? 1 : 0 }); if (n === total) track("checklist_complete"); }); });
+    $("#ck-reset").addEventListener("click", function () { if (!window.confirm(he ? "לאפס את כל הסימונים?" : "Reset all ticks?")) return; st = {}; lsSet(KEY, "{}"); boxes.forEach(function (b) { b.checked = false; }); upd(); });
+    upd();
+  })();
 })();

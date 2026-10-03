@@ -1397,3 +1397,20 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .qz-list li.bad{color:var(--red);font-weight:700;list-style:none;margin-inline-start:-20px}
 .qz-list li.ok{color:#1F8A4C;font-weight:700;list-style:none;margin-inline-start:-20px}
 .qz-cta{display:flex;flex-wrap:wrap;gap:8px}
+
+/* ===== Λίστα μετακόμισης ===== */
+.ckprog{position:sticky;top:8px;z-index:5;display:grid;grid-template-columns:1fr auto;gap:8px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow);margin-bottom:8px}
+.ckprog>div:first-child{font-weight:800;color:var(--aegean)}
+.ckprog .qz-bar{grid-column:1/-1;grid-row:2}
+.ckprog .btn{grid-column:2;grid-row:1;padding:6px 12px;font-size:14px}
+.ck-num{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--aegean);color:var(--bg);font-size:15px;font-family:var(--body);vertical-align:middle}
+.cklist{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ck{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.ck label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.ck input{flex:none;width:22px;height:22px;margin:2px 0 0;accent-color:#1F8A4C}
+.ck b{display:block;font-size:15.5px}
+.ck small{display:block;color:var(--muted);font-size:13.5px;line-height:1.5}
+.ck.done{border-color:color-mix(in srgb,#1F8A4C 45%,var(--line))}
+.ck.done b{text-decoration:line-through;color:var(--muted)}
+.ck-l{font-size:13.5px;font-weight:700;text-decoration:none;padding-inline-start:32px}
+.ckst{margin-top:12px}

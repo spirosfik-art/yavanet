@@ -138,7 +138,7 @@ export function hubPage(lang, kind, ctx) {
       title: H(lang, "לעבור לגור ביוון", "Moving to Greece"), icon: "moving",
       intro: H(lang, "ויזה, מספר מס וחשבון בנק, בתי ספר, בריאות, וכמה באמת עולה לחיות באתונה. הכול בעברית, במקום אחד.", "Visas, tax number and bank account, schools, healthcare, and what it really costs to live in Athens. All in one place."),
       start: "moving-to-greece-with-family-israelis-guide",
-      tools: [["/cost-of-living/", "cost", H(lang, "יוקר המחיה", "Cost of living"), H(lang, "אתונה מול תל אביב", "Athens vs Tel Aviv")], ["/madad/", "madad", H(lang, "שכר דירה ומחירים", "Rents & prices"), H(lang, "לפי שכונה", "By area")], ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים חשובים", "Key numbers")]],
+      tools: [["/moving-checklist/", "check", H(lang, "צ׳קליסט מעבר", "Moving checklist"), H(lang, "כל המשימות, שלב אחרי שלב", "Every task, step by step")], ["/cost-of-living/", "cost", H(lang, "יוקר המחיה", "Cost of living"), H(lang, "אתונה מול תל אביב", "Athens vs Tel Aviv")], ["/madad/", "madad", H(lang, "שכר דירה ומחירים", "Rents & prices"), H(lang, "לפי שכונה", "By area")], ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים חשובים", "Key numbers")]],
       guides: ["greek-tax-number-and-bank-account-guide", "golden-visa-greece-2026-guide", "why-israeli-families-move-to-athens-thessaloniki"].map(bySlug),
       people: ["asi", "sf"], newsSecs: ["living", "israelis"], newsLink: "/s/living/",
     },
