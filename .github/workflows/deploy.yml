@@ -46,5 +46,6 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
           SITE_URL: ${{ vars.SITE_URL }}
           SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
