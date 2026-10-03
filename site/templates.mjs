@@ -7,7 +7,7 @@ import { createHash as _ch } from "node:crypto";
 const _h = (f) => { try { return _ch("sha1").update(_rf(new URL("./assets/" + f, import.meta.url))).digest("hex").slice(0, 8); } catch { return "1"; } };
 const AV = { css: _h("styles.css"), js: _h("app.js") };
 // Γραμματοσειρές Google: φορτώνουν χωρίς να μπλοκάρουν την πρώτη εμφάνιση (display=swap → το κείμενο φαίνεται αμέσως)
-const FONTS = "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&amp;family=Assistant:wght@400;600;700;800&amp;display=swap";
+const FONTS = "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700;900&amp;family=Assistant:wght@400;600;700;800&amp;display=swap";
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
 export const abs = (p) => SITE.url.replace(/\/$/, "") + p;
@@ -22,15 +22,18 @@ export function fmtDate(iso, lang) {
 }
 
 // Φωτογραφίες Pexels στο σωστό μέγεθος (αντί για 1880px παντού) + srcset για οθόνες retina
-const pxl = (u, w) => { try { const x = new URL(u); if (x.host !== "images.pexels.com") return null; x.search = ""; x.searchParams.set("auto", "compress"); x.searchParams.set("cs", "tinysrgb"); x.searchParams.set("w", String(w)); return x.toString(); } catch { return null; } };
-const SIZES = { card: [[180, 340, 500, 840], "168px"], hero: [[600, 800, 1300], "(max-width:900px) 100vw, 800px"], full: [[600, 800, 1300], "(max-width:900px) 100vw, 800px"] };
+// Οι μικρογραφίες (112×112) ζητούνται τετράγωνες με fit=crop&h= (παράμετροι του CDN της Pexels, όπως στα src του Pexels API)
+const pxl = (u, w, sq) => { try { const x = new URL(u); if (x.host !== "images.pexels.com") return null; x.search = ""; x.searchParams.set("auto", "compress"); x.searchParams.set("cs", "tinysrgb"); if (sq) { x.searchParams.set("fit", "crop"); x.searchParams.set("h", String(w)); } x.searchParams.set("w", String(w)); return x.toString(); } catch { return null; } };
+const SIZES = { card: [[-120, -240, -360, 840], "112px"], hero: [[600, 700, 800, 1300], "(max-width:900px) calc(100vw - 32px), 800px"], full: [[600, 700, 800, 1300], "(max-width:900px) calc(100vw - 32px), 800px"] };
 export function artHTML(a, lang, kind = "card") {
   const img = a.image;
   if (img && img.type === "photo" && img.url) {
     const alt = esc(a[lang].title || img.alt || ""), eager = kind === "hero" || kind === "full";
     const load = eager ? ' fetchpriority="high"' : ' loading="lazy"';
     const [ws, sizes] = SIZES[kind] || SIZES.card;
-    if (pxl(img.url, 100)) return `<img src="${esc(pxl(img.url, ws[0]))}" srcset="${ws.map((w) => esc(pxl(img.url, w)) + " " + w + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
+    // αρνητικό πλάτος = τετράγωνη μικρογραφία
+    const U = (w) => pxl(img.url, Math.abs(w), w < 0);
+    if (pxl(img.url, 100)) return `<img src="${esc(U(ws.find((w) => Math.abs(w) >= 240) || ws[0]))}" srcset="${ws.map((w) => esc(U(w)) + " " + Math.abs(w) + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
     return `<img src="${esc(img.url)}" alt="${alt}"${load} decoding="async">`;
   }
   return art((img && img.key) || SECTION_ART[a.section] || "sea", a[lang].title);
@@ -213,6 +216,7 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="stylesheet" href="${FONTS}" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="${FONTS}"></noscript>
 <script>
+(function(){try{var h=parseInt(new Intl.DateTimeFormat("en-GB",{hour:"2-digit",hour12:false,timeZone:"Europe/Athens"}).format(new Date()),10)%24,d=document.documentElement;d.setAttribute("data-sky",h>=5&&h<8?"dawn":h>=8&&h<18?"day":h>=18&&h<21?"dusk":"night");if(h>=21||h<6)d.classList.add("night")}catch(e){}})();
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 window.YV=${JSON.stringify(cfg)};
@@ -235,6 +239,7 @@ ${head}
       </nav>
       <div class="skymeta" id="skymeta"></div>
       <div class="skydate" id="skydate"></div>
+      <script>/* ώρα και ημερομηνία πριν από την πρώτη εμφάνιση (χωρίς «πήδημα» της κεφαλίδας όταν φορτώσει το app.js· το app.js τα ανανεώνει) */(function(){try{var he=${lang === "he" ? "true" : "false"},z="Europe/Athens",now=new Date(),F=function(l,o){o.timeZone=z;return new Intl.DateTimeFormat(l,o)};document.getElementById("skymeta").innerHTML='<span class="sm-l">'+(he?"השעה עכשיו באתונה":"Current time in Athens")+'</span><span class="sm-s">'+(he?"אתונה":"Athens")+"</span> · "+F("en-GB",{hour:"2-digit",minute:"2-digit"}).format(now);var gem=function(n){var u=["","א","ב","ג","ד","ה","ו","ז","ח","ט"],t=["","י","כ","ל","מ","נ","ס","ע","פ","צ"],h=["","ק","ר","ש","ת","תק","תר","תש","תת","תתק"],s=h[Math.floor(n/100)];n%=100;s+=n===15?"טו":n===16?"טז":t[Math.floor(n/10)]+u[n%10];return s.length>1?s.slice(0,-1)+"״"+s.slice(-1):s+"׳"};var g=F(he?"he-IL":"en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(now),P={};F(he?"he-u-ca-hebrew":"en-u-ca-hebrew",{day:"numeric",month:"long",year:"numeric"}).formatToParts(now).forEach(function(x){P[x.type]=x.value});var d=parseInt(P.day,10),y=parseInt(P.year||P.relatedYear,10),hd=he?gem(d)+" ב"+P.month+" ה"+gem(y%1000):d+" "+P.month+" "+y,sh=F("en-GB",{day:"numeric",month:"numeric",year:"numeric"}).format(now).split("/").join("."),e=function(x){return String(x).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};document.getElementById("skydate").innerHTML='<span class="sd-g">'+e(g)+'</span><span class="sd-s">'+e(sh)+"</span> · "+e(hd)}catch(x){}})();</script>
       <div class="wxw"><button type="button" class="wxchip" id="wxchip" aria-expanded="false" aria-controls="wxpanel" hidden><span class="wxi" aria-hidden="true"></span><b></b><small>${lang === "he" ? "תחזית 5 ימים" : "5-day forecast"}</small><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
       <div class="wxpanel" id="wxpanel" hidden><div class="wxp-h">${lang === "he" ? "תחזית לאתונה" : "Athens forecast"}</div><div class="wxdays"></div><div class="wxp-s">Open-Meteo</div></div></div>
     </div>

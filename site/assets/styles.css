@@ -45,6 +45,10 @@ a{color:var(--sea)}
 
 /* Sky header */
 .sky{position:relative;color:#fff;overflow:hidden;background:linear-gradient(180deg,#0E5C8C 0%,#2A8BC4 55%,#7CC3E8 100%)}
+/* Χρώμα ουρανού από την ώρα Αθήνας: το βάζει inline script στο <head> πριν από την πρώτη εμφάνιση (ίδιες τιμές με το app.js) */
+[data-sky=dawn] .sky{background:linear-gradient(180deg,#3B4F7A 0%,#C77D8A 55%,#F2B880 100%)}
+[data-sky=dusk] .sky{background:linear-gradient(180deg,#2B2352 0%,#B5487A 50%,#F0A04B 100%)}
+[data-sky=night] .sky{background:linear-gradient(180deg,#040B1A 0%,#0B1E3A 60%,#16345C 100%)}
 .sky canvas{position:absolute;inset:0;width:100%;height:100%}
 .sky .inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:18px 34px}
 .logo{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}
@@ -214,6 +218,8 @@ footer nav a,footer nav button{border:0;background:none;padding:2px 0;min-height
 .bnav a,.bnav button{border:0;background:none;height:var(--nav-h);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11.5px;font-weight:700;color:var(--muted);text-decoration:none}
 .bnav .on{color:var(--aegean)}
 .bnav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* Όσο φαίνεται το παράθυρο cookies, το κουμπί WhatsApp κρύβεται (αλλιώς πέφτουν το ένα πάνω στο άλλο) */
+body:has(#cookie:not([hidden])) .wafloat{visibility:hidden}
 .wafloat{position:fixed;z-index:51;bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 14px);right:16px;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 20px -8px rgba(0,0,0,.5)}
 .wafloat svg{width:28px;height:28px;fill:#fff}
 
@@ -714,6 +720,7 @@ article.full .fteaser{margin:22px 0}
 .dcard .dgo{margin-top:auto;font-weight:700;font-size:.85rem;color:var(--sea);text-decoration:none}
 .dflight>b{color:#B7791F}
 .dwx-days{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:4px}
+.dwx-days:empty{min-height:95px} /* χώρος για την πρόγνωση που έρχεται από το Open-Meteo, χωρίς «πήδημα» */
 .dwx-days span{display:flex;flex-direction:column;align-items:center;gap:1px;font-size:.95rem;padding:6px 2px;border-radius:10px;background:var(--surface-2)}
 .dwx-days i{font-style:normal;font-size:.72rem;color:var(--muted)}
 .dwx-days b{font-size:.85rem}.dwx-days small{font-size:.72rem}

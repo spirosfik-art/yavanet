@@ -22,19 +22,25 @@
     sky.style.background = SKY[p];
     document.documentElement.classList.toggle("night", h >= 21 || h < 6);
     var m = $("#skymeta"); if (m) m.innerHTML = '<span class="sm-l">' + (C.lang === "en" ? "Current time in Athens" : "השעה עכשיו באתונה") + '</span><span class="sm-s">' + (C.lang === "en" ? "Athens" : "אתונה") + "</span> · " + athensTime();
-    var cv = $("#stars"); if (!cv || !cv.getContext) return;
-    // Τα αστέρια ζωγραφίζονται στο επόμενο frame: μέτρηση μετά το layout, χωρίς forced reflow
-    requestAnimationFrame(function () {
-      var ctx = cv.getContext("2d"), r = cv.getBoundingClientRect();
-      cv.width = r.width; cv.height = r.height; ctx.clearRect(0, 0, cv.width, cv.height);
-      if (p !== "night" && p !== "dusk") return;
-      var n = p === "night" ? 70 : 18, seed = 7;
-      function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
-      for (var i = 0; i < n; i++) { ctx.fillStyle = "rgba(255,255,255," + (0.35 + rnd() * 0.6) + ")"; ctx.beginPath(); ctx.arc(rnd() * cv.width, rnd() * cv.height * 0.8, rnd() * 1.4 + 0.3, 0, 6.3); ctx.fill(); }
-    });
+    skyPhase = p; drawStars();
   }
-  var skyRaf = 0;
-  paintSky(); window.addEventListener("resize", function () { if (skyRaf) return; skyRaf = requestAnimationFrame(function () { skyRaf = 0; paintSky(); }); }); setInterval(paintSky, 60000);
+  /* Αστέρια: το μέγεθος του canvas έρχεται από ResizeObserver (μετά το layout), ώστε να μη γίνεται forced reflow */
+  var skyPhase = null, starW = 0, starH = 0;
+  function drawStars() {
+    var cv = $("#stars"); if (!cv || !cv.getContext || !starW || !skyPhase) return;
+    var ctx = cv.getContext("2d");
+    cv.width = starW; cv.height = starH; ctx.clearRect(0, 0, cv.width, cv.height);
+    if (skyPhase !== "night" && skyPhase !== "dusk") return;
+    var n = skyPhase === "night" ? 70 : 18, seed = 7;
+    function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
+    for (var i = 0; i < n; i++) { ctx.fillStyle = "rgba(255,255,255," + (0.35 + rnd() * 0.6) + ")"; ctx.beginPath(); ctx.arc(rnd() * cv.width, rnd() * cv.height * 0.8, rnd() * 1.4 + 0.3, 0, 6.3); ctx.fill(); }
+  }
+  (function () {
+    var cv = $("#stars"); if (!cv) return;
+    if (window.ResizeObserver) new ResizeObserver(function (en) { var r = en[0].contentRect; starW = Math.round(r.width); starH = Math.round(r.height); drawStars(); }).observe(cv);
+    else window.addEventListener("load", function () { var r = cv.getBoundingClientRect(); starW = r.width; starH = r.height; drawStars(); });
+  })();
+  paintSky(); setInterval(paintSky, 60000);
 
   /* ---------- Καιρός Αθήνας στην κεφαλίδα + πρόγνωση 5 ημερών ---------- */
   (function () {
@@ -150,7 +156,7 @@
     loadData(function (d) {
       var f = $("#feed");
       f.innerHTML = '<button class="close" type="button" data-close-feed aria-label="' + esc(L.closeLbl) + '">✕</button>' + d.feed.map(function (a) {
-        return '<section class="slide"><div class="bg">' + String(a.art).replace('sizes="168px"', 'sizes="100vw"') + '</div><div class="shade"></div><div class="txt"><span class="kicker" style="color:#F0B650">' + esc(a.kicker) + '</span><h2>' + esc(a.title) + '</h2><p style="margin:0;opacity:.9">' + esc(a.dek) + '</p><a class="btn gold" style="justify-self:start" href="' + a.url + '">' + esc(L.readMore) + '</a></div></section>';
+        return '<section class="slide"><div class="bg">' + String(a.art).replace('sizes="112px"', 'sizes="100vw"') + '</div><div class="shade"></div><div class="txt"><span class="kicker" style="color:#F0B650">' + esc(a.kicker) + '</span><h2>' + esc(a.title) + '</h2><p style="margin:0;opacity:.9">' + esc(a.dek) + '</p><a class="btn gold" style="justify-self:start" href="' + a.url + '">' + esc(L.readMore) + '</a></div></section>';
       }).join("");
       f.hidden = false; f.scrollTop = 0; lockScroll(true);
     });
@@ -730,32 +736,7 @@
     });
   })();
 
-  /* ---------- Χρήσιμο για ψώνια: είναι ανοιχτά τα μαγαζιά σήμερα; (ώρα Αθήνας) ---------- */
-  (function () {
-    var dataEl = document.getElementById("hol-data"), strip = document.getElementById("hol-strip"), nowBox = document.getElementById("hol-now");
-    if (!strip && !nowBox) return;
-    var H = []; try { H = JSON.parse((dataEl || {}).textContent || "[]"); } catch (e) { }
-    if (!H.length && nowBox) { try { H = JSON.parse(nowBox.getAttribute("data-h") || "[]"); } catch (e) { } }
-    var he = C.lang !== "en";
-    var parts = {}; try { new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Athens", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hour12: false, weekday: "short" }).formatToParts(new Date()).forEach(function (p) { parts[p.type] = p.value; }); } catch (e) { return; }
-    var today = parts.year + "-" + parts.month + "-" + parts.day, hr = parseInt(parts.hour, 10) % 24, wd = parts.weekday;
-    var ev = H.filter(function (h) { return h.d === today && h.s !== "sales"; })[0];
-    var sale = H.filter(function (h) { return h.s === "sales" && h.d <= today && h.to >= today; })[0];
-    var st, cls;
-    if (ev && ev.s === "closed") { st = (he ? "היום רוב החנויות סגורות: " : "Most shops are closed today: ") + ev.t; cls = "c"; }
-    else if (ev && ev.s === "short") { st = (he ? "היום החנויות פתוחות בשעות מקוצרות: " : "Shops open with shorter hours today: ") + ev.t; cls = "s"; }
-    else if (ev && ev.s === "sunday") { st = he ? "היום יום ראשון, אבל החנויות רשאיות לפתוח 🛍️" : "It's Sunday, but shops may open today 🛍️"; cls = "o"; }
-    else if (ev && ev.s === "local") { st = ev.t; cls = "s"; }
-    else if (wd === "Sun") { st = he ? "היום יום ראשון: רוב החנויות סגורות (חוץ מאזורים תיירותיים)" : "It's Sunday: most shops are closed (except tourist areas)"; cls = "c"; }
-    else if (hr >= 21 || (wd === "Sat" && hr >= 20)) { st = he ? "החנויות כבר נסגרו להיום באתונה" : "Shops in Athens have closed for today"; cls = "s"; }
-    else { st = he ? (wd === "Sat" ? "היום החנויות פתוחות (רשתות וקניונים עד 20:00 בערך)" : "היום החנויות פתוחות (רשתות וקניונים עד 21:00 בערך)") : (wd === "Sat" ? "Shops are open today (chains and malls until about 20:00)" : "Shops are open today (chains and malls until about 21:00)"); cls = "o"; }
-    if (sale) st += he ? " · עונת הנחות!" : " · Sales season!";
-    var nx = H.filter(function (h) { return h.d > today && h.s !== "local"; })[0];
-    var fmtD = function (iso) { try { return new Date(iso + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); } catch (e) { return iso; } };
-    var nxt = nx ? ((he ? "הבא: " : "Next: ") + nx.t + " · " + fmtD(nx.d)) : "";
-    if (strip) { strip.classList.add("hs-" + cls); $("#hs-today").textContent = st; if (nxt) $("#hs-next").textContent = nxt; }
-    if (nowBox) { nowBox.className = "hol-now hs-" + cls; nowBox.innerHTML = "<b>" + esc(st) + "</b>" + (nxt ? "<span>" + esc(nxt) + "</span>" : ""); }
-  })();
+  /* «Χρήσιμο για ψώνια» (λωρίδα αρχικής, /holidays/): τρέχει inline αμέσως μετά το στοιχείο (site/holidays.mjs → HOL_JS), χωρίς «πήδημα» της σελίδας */
 
   /* ---------- PWA ---------- */
   if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () { }); });

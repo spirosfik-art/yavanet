@@ -1,4 +1,5 @@
 // Δημιουργία του site: node build.mjs  →  φάκελος dist/
+import { makeCritical } from "./site/critical.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
@@ -703,12 +704,21 @@ for (const f of fs.readdirSync(assets)) {
   const crypto = await import("node:crypto");
   const h = (f) => crypto.createHash("sha1").update(fs.readFileSync(path.join(OUT, f))).digest("hex").slice(0, 10);
   const vCss = h("styles.css"), vJs = h("app.js");
+  const critical = makeCritical(fs.readFileSync(path.join(OUT, "styles.css"), "utf8"), fs.readFileSync(path.join(OUT, "app.js"), "utf8"));
   const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
     const f = path.join(d, e.name);
     if (e.isDirectory()) return walk(f);
     if (!f.endsWith(".html")) return;
     const s = fs.readFileSync(f, "utf8");
-    const n = s.replace('href="/styles.css"', `href="/styles.css?v=${vCss}"`).replace('src="/app.js"', `src="/app.js?v=${vJs}"`);
+    let n = s.replace('href="/styles.css"', `href="/styles.css?v=${vCss}"`).replace('src="/app.js"', `src="/app.js?v=${vJs}"`);
+    // Critical CSS inline + πλήρες styles.css χωρίς μπλοκάρισμα (preload → stylesheet, noscript για χωρίς JS)
+    n = n.replace(/<link rel="stylesheet" href="(\/styles\.css\?v=[\w]+)">/, (m, href) =>
+      `<style>${critical(n).replace(/<\/style/gi, "<\\/style")}</style>\n<link rel="preload" href="${href}" as="style" onload="this.onload=null;this.rel='stylesheet'">\n<noscript><link rel="stylesheet" href="${href}"></noscript>`);
+    // Σελίδες άρθρων: η κεντρική φωτογραφία (LCP) ζητείται από το <head>, πριν διαβαστεί όλο το HTML
+    if (/[\\/]a[\\/][^\\/]+[\\/]index\.html$/.test(f)) {
+      const im = n.match(/<img src="[^"]*" srcset="([^"]*)" sizes="([^"]*)"[^>]*fetchpriority="high"/);
+      if (im) n = n.replace("</title>", `</title>\n<link rel="preload" as="image" imagesrcset="${im[1]}" imagesizes="${im[2]}" fetchpriority="high">`);
+    }
     if (n !== s) fs.writeFileSync(f, n);
   });
   walk(OUT);
