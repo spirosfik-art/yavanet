@@ -5,9 +5,9 @@ import { createHash } from "node:crypto";
 import { env, log as log0, brevo, notifyOwner } from "./lib.mjs";
 const report = [];
 const log = (...a) => { log0(...a); report.push(a.join(" ")); };
-process.on("beforeExit", async () => { if (report.length && !globalThis.__sent) { globalThis.__sent = 1; await notifyOwner("⚙️ Brevo setup\n" + report.filter((l) => !l.includes("χαρακτηριστικό")).join("\n")).catch(() => {}); } });
-process.on("uncaughtException", async (e) => { await notifyOwner("⚠️ Brevo setup σφάλμα: " + e.message).catch(() => {}); process.exit(1); });
-process.on("unhandledRejection", async (e) => { await notifyOwner("⚠️ Brevo setup σφάλμα: " + (e && e.message || e)).catch(() => {}); process.exit(1); });
+process.on("beforeExit", async () => { if (report.length && !globalThis.__sent) { globalThis.__sent = 1; await Promise.resolve().then(() => notifyOwner("⚙️ Brevo setup\n" + report.filter((l) => !l.includes("χαρακτηριστικό")).join("\n"))).catch(() => {}); } });
+process.on("uncaughtException", async (e) => { await Promise.resolve().then(() => notifyOwner("⚠️ Brevo setup σφάλμα: " + e.message)).catch(() => {}); process.exit(1); });
+process.on("unhandledRejection", async (e) => { await Promise.resolve().then(() => notifyOwner("⚠️ Brevo setup σφάλμα: " + (e && e.message || e))).catch(() => {}); process.exit(1); });
 
 if (!env.BREVO_API_KEY) { log("Brevo: δεν υπάρχει BREVO_API_KEY – παράλειψη."); process.exit(0); }
 
