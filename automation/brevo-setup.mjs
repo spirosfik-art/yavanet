@@ -30,6 +30,7 @@ const TPL = {
     html: shell("ltr", `<h1 style="font-size:22px;margin:0 0 12px;color:#0B3A5B">Almost done 👋</h1><p>We received a request to subscribe this address to the Yavanet newsletter: Greece news for Israelis, property and travel.</p><p>To complete your subscription, tap the button:</p><p style="margin:24px 0">${btn("{{ doubleoptin }}", "Confirm subscription")}</p><p style="font-size:13px;color:#5B6B78">Didn't sign up? Just ignore this email and you won't hear from us.</p><p style="font-size:13px;color:#5B6B78">Yavanet · yavanet.gr</p>`),
   },
 };
+try {
 const existing = (await brevo("/smtp/templates?limit=100&offset=0", null, "GET")).templates || [];
 for (const [lang, t] of Object.entries(TPL)) {
   const found = existing.find((x) => x.name === t.name);
@@ -37,6 +38,7 @@ for (const [lang, t] of Object.entries(TPL)) {
   if (found) { await brevo(`/smtp/templates/${found.id}`, body, "PUT"); log(`Brevo: πρότυπο ${t.name} = ${found.id} (ενημερώθηκε)`); }
   else { const r = await brevo("/smtp/templates", body); log(`Brevo: πρότυπο ${t.name} = ${r.id} (νέο)`); }
 }
+} catch (e) { log("Brevo: σφάλμα στα πρότυπα –", e.message); }
 
 // 3) Μεταφορά εγγραφών από το Cloudflare KV στο Brevo
 if (env.TELEGRAM_BOT_TOKEN) {
