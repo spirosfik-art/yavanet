@@ -15,6 +15,10 @@ export const TI = {
   tlv: '<svg viewBox="0 0 24 24"><path d="M3 21V9l5-3v15M8 21h13V12l-6-4v13M11 13h1M11 17h1M17 13h1M17 17h1"/></svg>',
   flights: '<svg viewBox="0 0 24 24"><path d="M2 16l20-6-3-3-7 3-5-4-2 1 3 5-4 2-2-1-1 1z"/><path d="M3 21h18"/></svg>',
   dir: '<svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>',
+  shabbat: '<svg viewBox="0 0 24 24"><path d="M8 21V11h3v10M13 21V11h3v10M6 21h12"/><path d="M9.5 8c-1 0-1.5-.8-1.5-1.6 0-1 1.5-2.4 1.5-2.4s1.5 1.4 1.5 2.4c0 .8-.5 1.6-1.5 1.6zM14.5 8c-1 0-1.5-.8-1.5-1.6 0-1 1.5-2.4 1.5-2.4s1.5 1.4 1.5 2.4c0 .8-.5 1.6-1.5 1.6z"/></svg>',
+  quiz: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5V14M12 17.5v.01"/></svg>',
+  check: '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8l1.5 1.5L12 7M8 14l1.5 1.5L12 13M14 8.5h3M14 14.5h3"/></svg>',
+  phrase: '<svg viewBox="0 0 24 24"><path d="M4 5h11v8H8l-4 3z"/><path d="M15 9h5v8l-3-2h-6v-2"/></svg>',
 };
 export const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
@@ -118,7 +122,7 @@ export function hubPage(lang, kind, ctx) {
       title: H(lang, "חופשה ביוון", "Holiday in Greece"), icon: "travel",
       intro: H(lang, "כל מה שצריך לפני ובזמן הטיול: טיסות, שביתות, מה עושים במקרה חירום, מדריכים לאיים, וטיולים בעברית.", "Everything you need before and during your trip: flights, strikes, emergencies, island guides and tours in Hebrew."),
       start: "greece-travel-guide-israelis-2026",
-      tools: [["/strike-today/", "strikes", H(lang, "יש שביתה היום?", "Strike today?"), H(lang, "תשובה מהירה + יומן", "Quick answer + calendar")], ["/strikes/", "strikes", H(lang, "שביתות קרובות", "Upcoming strikes"), H(lang, "טיסות, מעבורות, מטרו", "Flights, ferries, metro")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים ושגרירות", "Numbers & embassy")], ...(GLOBAL.flights ? [["/flights/", "flights", H(lang, "טיסות זולות", "Cheap flights"), H(lang, "מתל אביב ליוון", "Tel Aviv to Greece")]] : []), ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")]],
+      tools: [["/strike-today/", "strikes", H(lang, "יש שביתה היום?", "Strike today?"), H(lang, "תשובה מהירה + יומן", "Quick answer + calendar")], ["/strikes/", "strikes", H(lang, "שביתות קרובות", "Upcoming strikes"), H(lang, "טיסות, מעבורות, מטרו", "Flights, ferries, metro")], ["/emergency/", "emergency", H(lang, "חירום", "Emergency"), H(lang, "מספרים ושגרירות", "Numbers & embassy")], ...(GLOBAL.flights ? [["/flights/", "flights", H(lang, "טיסות זולות", "Cheap flights"), H(lang, "מתל אביב ליוון", "Tel Aviv to Greece")]] : []), ["/directory/", "dir", H(lang, "יוון בעברית", "Greece in Hebrew"), H(lang, "עסקים ושירותים בעברית", "Hebrew-speaking services")], ["/shabbat/", "shabbat", H(lang, "זמני שבת וכשרות", "Shabbat & kosher"), H(lang, "כניסת שבת, חב״ד ומסעדות", "Candle times, Chabad, food")]],
       guides: articles.filter((a) => isGuide(a) && ["travel", "jewish-greece"].includes(a.section) && a.slug !== "greece-travel-guide-israelis-2026"),
       people: ["yana"], newsSecs: ["travel", "breaking"], newsLink: "/s/travel/",
     },

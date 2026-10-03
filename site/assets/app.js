@@ -226,6 +226,7 @@
     try { if (loaded.ga) gtag("event", name, params || {}); } catch (e) { }
     try { if (loaded.fb && window.fbq && FB_EVENTS[name]) fbq("track", FB_EVENTS[name], Object.assign({ content_category: C.grp || "", content_name: location.pathname }, params || {})); } catch (e2) { }
   }
+  window.YVtrack = track; window.YVtoast = toast; // για το /tools.js (σελίδες εργαλείων)
 
   /* ---------- Clicks ---------- */
   document.addEventListener("click", function (e) {

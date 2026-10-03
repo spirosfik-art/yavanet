@@ -12,6 +12,7 @@ import { medtourShowcase } from "./site/medtour.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
+import { shabbatPage } from "./site/shabbat.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -95,6 +96,14 @@ if (soon) {
   GLOBAL.strike = { he: soon.strike.he || soon.he.title, en: soon.strike.en || soon.en.title, when: { he: when("he"), en: when("en") } };
 }
 const SECTOR = { flights: ["✈️ טיסות", "✈️ Flights"], ferries: ["⛴️ מעבורות", "⛴️ Ferries"], metro: ["🚇 מטרו", "🚇 Metro"], buses: ["🚌 אוטובוסים", "🚌 Buses"], trains: ["🚆 רכבות", "🚆 Trains"], taxis: ["🚕 מוניות", "🚕 Taxis"], "public-sector": ["🏛️ שירות ציבורי", "🏛️ Public sector"], other: ["⚠️ אחר", "⚠️ Other"] };
+
+/* ---------- Σελίδες εργαλείων (site/*.mjs): διαδρομή, σελίδα, πλακίδιο στο /tools/, λέξεις αναζήτησης ---------- */
+const TOOL_DEFS = [
+  { u: "/shabbat/", page: (lang) => shabbatPage(lang), nav: "travel", tile: ["shabbat", "זמני שבת וכשרות", "Shabbat & kosher", "כניסת ויציאת שבת, חב״ד ומסעדות", "Candle times, Chabad, restaurants"], k: ["זמני שבת כניסת שבת יציאת שבת הדלקת נרות כשר חבד בית כנסת מסעדה כשרה", "shabbat times candle lighting havdalah kosher chabad synagogue restaurant"] },
+];
+const TOOL_PAGES = (lang) => TOOL_DEFS.map((d) => [d.u, d.page(lang), { nav: d.nav, section: d.section }]);
+const TOOL_TILES = (lang) => TOOL_DEFS.map((d) => [d.u, d.tile[0], d.tile[lang === "he" ? 1 : 2], d.tile[lang === "he" ? 3 : 4]]);
+const TOOL_SEARCH = (lang) => TOOL_DEFS.map((d) => [d.u, d.tile[lang === "he" ? 1 : 2], d.k[lang === "he" ? 0 : 1], lang === "he" ? "כלי" : "Tool"]);
 
 /* ---------- Δείκτης Yavanet (content/madad/YYYY-MM.json) ---------- */
 const madadDir = path.join(ROOT, "content/madad");
@@ -222,6 +231,7 @@ ${newsletterBox(lang)}
   /* Εργαλεία */
   const tools = `<div class="page-h"><h1>${esc(t.toolsTitle)}</h1></div>
 <div class="grid"><div class="col">
+<nav class="tiles" aria-label="${lang === "he" ? "כלים" : "Tools"}">${TOOL_TILES(lang).map((x) => tileHTML(lang, x)).join("")}</nav>
 <section><div class="zone-h"><h2>${esc(t.calcTitle)}</h2></div>${calcBox(lang)}</section>
 <section><div class="zone-h"><h2>${esc(t.yieldTitle)}</h2></div>${yieldBox(lang, YIELD_REGIONS)}</section>
 ${GLOBAL.flights ? `<section id="trip"><div class="zone-h"><h2>${lang === "he" ? "כמה יעלה לנו הטיול ליוון?" : "How much will our trip to Greece cost?"}</h2></div>${tripBox(lang, FLIGHTS.deals)}</section>` : ""}
@@ -384,6 +394,11 @@ ${pushBox(lang, true)}
     const su = P(lang, "/strike-today/");
     write(su, layout({ lang, title: sp.title, description: sp.description, path: su, altPath: P(lang === "he" ? "en" : "he", "/strike-today/"), body: sp.body, breaking: breakingNow, activeNav: "travel", activeSection: "strikes", jsonld: [crumbs(sp.title, su), faqLd(sp.faq)] }));
   }
+  /* Νέα εργαλεία: ώρες Σαββάτου, κουίζ Golden Visa, λίστα μετακόμισης, φρασεολόγιο, έλεγχος απεργιών */
+  for (const [u, pg, extra] of TOOL_PAGES(lang)) {
+    write(P(lang, u), layout({ lang, title: pg.title, description: pg.description, path: P(lang, u), altPath: P(lang === "he" ? "en" : "he", u), body: pg.body.replace("__WIDGETS__", widgets(lang, mostRead, true)), breaking: breakingNow, activeNav: (extra && extra.nav) || "tools", activeSection: extra && extra.section,
+      jsonld: [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: pg.title, item: abs(P(lang, u)) }] }, ...(pg.faq && pg.faq.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: pg.faq.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] : [])] }));
+  }
   /* Ευρετήριο αναζήτησης */
   {
     const he = lang === "he", L = (a, b) => (he ? a : b);
@@ -402,6 +417,7 @@ ${pushBox(lang, true)}
       ["/guides/", L("כל המדריכים", "All guides"), L("מדריך", "guide"), L("עמוד", "Page")],
       ["/holidays/", L("חגים ושעות פתיחה של חנויות", "Holidays and shop opening hours"), L("חג חנויות פתוח סגור יום ראשון הנחות שופינג קניות", "holiday shops open closed sunday sales shopping"), L("כלי", "Tool")],
       ["/strike-today/", L("יש שביתה היום או מחר ביוון?", "Strike in Greece today or tomorrow?"), L("שביתה היום מחר טיסות מעבורות מטרו יומן", "strike today tomorrow flights ferries metro calendar"), L("כלי", "Tool")],
+      ...TOOL_SEARCH(lang),
       ...DESTS.map((d) => ["/d/" + d.id + "/", d[lang], L("חדשות מזג אוויר טיסות שביתות מדריך", "news weather flights strikes guide") + " " + d.he + " " + d.en, L("יעד", "Destination")]),
       ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
     ].map(([u, tt, k, kind]) => ({ u: P(lang, u), t: tt, d: "", k, s: kind, p: 1 }));
@@ -575,6 +591,7 @@ for (const lang of LANGS) {
   urls.push(P(lang, lang === "he" ? "/mivzakim/" : "/flash/"));
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   urls.push(P(lang, "/holidays/"), P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
+  TOOL_PAGES(lang).forEach(([u]) => urls.push(P(lang, u)));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });
