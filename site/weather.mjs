@@ -88,7 +88,7 @@ export function weatherPage(lang, ctx) {
   const upd = new Date(NOW).toLocaleString(loc, { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Athens" });
   const title = H(lang, "אזהרות מזג אוויר ביוון היום: גשם, סערות ורוחות", "Greece weather warnings today: rain, storms and wind");
   const description = H(lang,
-    "אזהרות מזג אוויר ביוון בעברית: אזהרות גשם, סופות רעמים ורוחות חזקות (צהוב, כתום, אדום), איפה ומתי, מה המשמעות למטיילים ומספרי חירום. מתעדכן אוטומטית.",
+    "אזהרות מזג אוויר ביוון בעברית: אזהרת גשם ברמה חמורה, סופות רעמים ורוחות חזקות (צהוב, כתום, אדום), איפה ומתי, מה עושים ומספרי חירום. מתעדכן אוטומטית.",
     "Weather warnings in Greece: rain, thunderstorm and wind warnings (yellow, orange, red), where and when, what they mean for travellers, and emergency numbers. Updated automatically.");
   const status = recent48.length
     ? `<div class="wx-status on"><b>⚠️ ${he ? `${recent48.length === 1 ? "אזהרה או דיווח אחד" : `${recent48.length} אזהרות ודיווחים`} על מזג אוויר קשה ב-48 השעות האחרונות` : `${recent48.length} severe-weather warning${recent48.length === 1 ? "" : "s"} or report${recent48.length === 1 ? "" : "s"} in the last 48 hours`}</b><span>${H(lang, "בדקו את האזור שלכם ברשימה, ואת המצב העדכני במפה הרשמית של MeteoAlarm.", "Check your area below, and the current status on the official MeteoAlarm map.")}</span></div>`
@@ -133,18 +133,25 @@ ${sec("wx-tips", H(lang, "מה עושים בגשם חזק, בהצפות ובסו
 ${sec("wx-sos", H(lang, "מספרי חירום ביוון", "Emergency numbers in Greece"), `<div class="emnums">${nums}</div><p><a href="${P(lang, "/emergency/")}">${H(lang, "כל מספרי החירום, שגרירות ישראל ומה עושים אם... ←", "All emergency numbers, the Israeli embassy and what to do if... →")}</a></p>`)}
 ${earlier.length ? sec("wx-earlier", H(lang, "אזהרות קודמות (30 הימים האחרונים)", "Earlier warnings (last 30 days)"), `<div class="wxlist">${earlier.map((a) => item(a, true)).join("")}</div>`) : ""}
 ${sec("wx-src", H(lang, "מקורות רשמיים", "Official sources"), `<div class="links">${OFFICIAL.map(([u, th, te, sh, se]) => `<a href="${u}" target="_blank" rel="noopener">${esc(he ? th : te)} <small>${esc(he ? sh : se)}</small><span aria-hidden="true">↗</span></a>`).join("")}</div>`)}
+__FAQ__
 ${pushBox(lang, true)}
 </div>__WIDGETS__</div>`;
   const faq = he ? [
+    ["מה פירוש אזהרה על גשם ברמה חמורה?", "אזהרת גשם ברמה חמורה היא בדרך כלל אזהרה כתומה: לפי ההגדרות של MeteoAlarm, כתום פירושו מזג אוויר חמור שעלול לגרום לנזקים או לתאונות, למשל הצפות. אדום הוא הרמה הגבוהה ביותר, מזג אוויר קיצוני ומסוכן מאוד. בזמן אזהרה כזו אל תחצו דרכים מוצפות, התרחקו ממרתפים והישמעו להוראות הרשויות."],
+    ["מה עושים בזמן אזהרה חמורה על סופת רעמים?", "חפשו מחסה בבניין או ברכב. אל תעמדו מתחת לעץ גבוה בשטח פתוח, והתרחקו מעמודי חשמל, כבלים, חפצי מתכת ומים. קבעו או הכניסו פנימה חפצים שהרוח יכולה להעיף, והישמעו להוראות הרשויות."],
     ["מה זה אזהרה כתומה ביוון?", "אזהרה כתומה (Orange) פירושה מזג אוויר חמור שעלול לגרום לנזקים או לתאונות, למשל גשם חזק, סופות רעמים או רוחות חזקות. ממליצים להיזהר, להתעדכן בתחזית ולהישמע להנחיות הרשויות. ביוון את האזהרות מפרסם השירות המטאורולוגי הלאומי (ΕΜΥ) דרך MeteoAlarm."],
     ["מה ההבדל בין אזהרה צהובה, כתומה ואדומה?", "צהוב: מזג אוויר שעלול להיות מסוכן, אבל כנראה לא קיצוני. כתום: מזג אוויר חמור שעלול לגרום לנזקים או לתאונות. אדום: מזג אוויר קיצוני ומסוכן מאוד, עם נזקים ותאונות בשטח נרחב ולעיתים סכנת חיים."],
     ["איפה בודקים אם יש היום אזהרת מזג אוויר ביוון?", "בעמוד הזה ביוונט מופיעות כל האזהרות שפרסמנו בעברית, לפי אזור ושעה. המצב הרשמי והעדכני ביותר נמצא באתר של ΕΜΥ (emy.gr) ובמפה של MeteoAlarm (meteoalarm.org)."],
     ["האם מקבלים התראה לטלפון על מזג אוויר קשה ביוון?", "כן. ביוון נשלחות הודעות חירום מ-112 לטלפונים, ביוונית ובאנגלית. אם קיבלתם הודעה כזו, פעלו לפי ההוראות שבה. במצב חירום חייגו 112."],
   ] : [
+    ["What does a severe rain warning mean in Greece?", "A severe rain warning is usually an orange warning: under the MeteoAlarm definitions, orange means severe weather that may cause damage or accidents, such as flooding. Red is the highest level, extremely severe and very dangerous weather. During such a warning do not cross flooded roads, avoid basements and follow the authorities' instructions."],
+    ["What should I do during a severe thunderstorm warning?", "Shelter in a building or a car. Never stand under a tall tree in open ground, and keep away from pylons, cables, metal objects and water. Secure or bring inside anything the wind can carry, and follow the authorities' instructions."],
     ["What is an orange weather warning in Greece?", "An orange warning means severe weather that may cause damage or accidents, such as heavy rain, thunderstorms or strong winds. Be careful, keep up with the forecast and follow the authorities' advice. In Greece warnings are issued by the national meteorological service (EMY) through MeteoAlarm."],
     ["What is the difference between yellow, orange and red warnings?", "Yellow: potentially dangerous weather, but unlikely to be extreme. Orange: severe weather that may cause damage or accidents. Red: extremely severe, very dangerous weather, with damage and accidents likely over a wide area and in many cases a threat to life."],
     ["Where can I check if there is a weather warning in Greece today?", "This Yavanet page lists every warning we have published, by area and time. The official, most up-to-date status is on the EMY website (emy.gr) and the MeteoAlarm map (meteoalarm.org)."],
     ["Will I get a phone alert about severe weather in Greece?", "Yes. Greece sends 112 emergency messages to phones, in Greek and English. If you receive one, follow its instructions. In an emergency call 112."],
   ];
-  return { title, description, body, faq, recent: recent48.length };
+  // Οι ερωτήσεις φαίνονται και στη σελίδα (το FAQPage πρέπει να αντιστοιχεί σε ορατό κείμενο)
+  const faqHTML = sec("wx-faq", H(lang, "שאלות נפוצות על אזהרות מזג אוויר", "Weather warnings: common questions"), `<div class="faq">${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>`);
+  return { title, description, body: body.replace("__FAQ__", faqHTML), faq, recent: recent48.length };
 }

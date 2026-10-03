@@ -69,6 +69,8 @@ const FAQ = {
       ["מה זה ויזת זהב ביוון?", "אישור שהייה למשקיעים בנדל״ן: 800,000 אירו באטיקה (אתונה), סלוניקי, מיקונוס, סנטוריני ואיים גדולים, ו-400,000 אירו בשאר יוון, בנכס אחד של לפחות 120 מ״ר."],
       ["האם מס הרכישה לישראלים עומד לעלות?", "ממשלת יוון הודיעה על מס רכישה של 15% לקונים פרטיים מחוץ לאיחוד האירופי מ-1 ביולי 2027. החוק עוד לא עבר, והפרטים יכולים להשתנות."],
       ["אפשר להשכיר דירה ביוון ב-Airbnb?", "כן, עם מספר רישום (ΑΜΑ) מרשות המסים. ברובעים 1, 2 ו-3 של מרכז אתונה אסור לרשום דירות חדשות להשכרה קצרה, ולפי הודעת הממשלה האיסור יימשך עד סוף 2027."],
+      ["כמה עולה מטר רבוע באתונה?", "המחירים משתנים מאוד בין שכונות. באוגוסט 2026 ממוצע המחירים המבוקשים במודעות היה בערך 2,200 אירו למ״ר בקיפסלי, 3,500 בפנגרטי, 5,500 בקולונקי ו-7,700 בבוליאגמני. כל השכונות מופיעות במדד יוונט."],
+      ["כמה מס משלמים על שכירות ביוון?", "לאנשים פרטיים, מ-2026: 15% עד 12,000 אירו בשנה, 25% עד 24,000, 35% עד 36,000 ו-45% מעל. מי שיש לו הכנסה משכירות ביוון מגיש דוח מס ביוון כל שנה, גם אם הוא גר בישראל."],
     ],
     en: [
       ["Can an Israeli buy property in Greece?", "Yes. In some border areas, such as Rhodes and parts of the Dodecanese and North Aegean, approval from the Greek Ministry of Defence is needed and is usually granted. Athens and the Cyclades have no such restriction."],
@@ -76,6 +78,8 @@ const FAQ = {
       ["What is the Greek Golden Visa?", "A residence permit for property investors: €800,000 in Attica (Athens), Thessaloniki, Mykonos, Santorini and large islands, and €400,000 elsewhere, in one property of at least 120 m²."],
       ["Is transfer tax for Israelis going up?", "The Greek government announced a 15% transfer tax for private non-EU buyers from 1 July 2027. The law has not passed yet and details may change."],
       ["Can I rent out a flat in Greece on Airbnb?", "Yes, with a registration number (ΑΜΑ) from the tax authority. New short-let registrations are banned in Athens districts 1, 2 and 3, and according to the government the ban will last until the end of 2027."],
+      ["What does a square metre cost in Athens?", "Prices vary widely by neighbourhood. In August 2026 average asking prices were about €2,200 per m² in Kypseli, €3,500 in Pangrati, €5,500 in Kolonaki and €7,700 in Vouliagmeni. Every area is in the Yavanet index."],
+      ["How much tax do you pay on rent in Greece?", "For individuals, from 2026: 15% up to €12,000 a year, 25% up to €24,000, 35% up to €36,000 and 45% above. Anyone with rental income in Greece files a Greek tax return every year, even if they live in Israel."],
     ],
   },
   travel: {
@@ -84,12 +88,16 @@ const FAQ = {
       ["מה מספר החירום ביוון?", "מספר החירום האירופי הוא 112. בעמוד החירום שלנו יש גם את מספרי המשטרה, האמבולנס ושגרירות ישראל באתונה."],
       ["איך יודעים אם יש שביתה ביוון?", "בעמוד השביתות שלנו, שמתעדכן אוטומטית ממקורות רשמיים. אפשר גם להירשם להתראה לטלפון על שביתות בטיסות ובמעבורות."],
       ["יש אוכל כשר ובתי חב״ד ביוון?", "כן. באתונה, סלוניקי ורודוס יש בתי חב״ד ומקומות עם אוכל כשר. הרשימה נמצאת במדריך \"יוון בעברית\"."],
+      ["כמה עולה להגיע משדה התעופה באתונה למרכז?", "מטרו (קו 3) ב-9 אירו, אוטובוס X95 לסינטגמה ב-5.50 אירו, או מונית במחיר קבוע של 50 אירו ביום ו-65 אירו בלילה (00:00–05:00)."],
+      ["כמה טיפ משאירים ביוון?", "אין חובה בחוק. בטברנה פשוטה מעגלים כלפי מעלה או משאירים 5%–10%, ובמסעדה טובה בערך 10%. במונית מקובל לעגל ליורו הקרוב."],
     ],
     en: [
       ["Do Israelis need a visa for Greece?", "No. Israelis can stay in Greece for up to 90 days in any 180-day period without a visa."],
       ["What is the emergency number in Greece?", "The European emergency number is 112. Our emergency page also lists police, ambulance and the Israeli embassy in Athens."],
       ["How do I know if there is a strike in Greece?", "Check our strikes page, updated automatically from official sources, or sign up for phone alerts on flight and ferry strikes."],
       ["Is there kosher food and Chabad in Greece?", "Yes. Athens, Thessaloniki and Rhodes have Chabad houses and kosher options. See the Greece in Hebrew directory."],
+      ["How much is it from Athens airport to the centre?", "Metro (line 3) €9, the X95 bus to Syntagma €5.50, or a taxi at a fixed fare of €50 by day and €65 at night (00:00–05:00)."],
+      ["How much should you tip in Greece?", "It is not required by law. At a simple taverna people round up or leave 5–10%, and about 10% at a good restaurant. In a taxi it is usual to round up to the nearest euro."],
     ],
   },
   moving: {
@@ -98,12 +106,14 @@ const FAQ = {
       ["כמה עולה לחיות באתונה?", "לפי Numbeo, שכר דירה באתונה זול בכ-66% מתל אביב, ושאר המחירים זולים בכ-44%."],
       ["איך מקבלים מספר מס יווני (ΑΦΜ)?", "אפשר לקבל אותו מרחוק, בשיחת וידאו עם רשות המסים היוונית, או דרך עורך דין עם ייפוי כוח."],
       ["יש בתי ספר בינלאומיים באתונה?", "כן, למשל ACS Athens, Campion School, St Catherine's British School ו-Byron College. שכר הלימוד נע בערך בין 7,000 ל-24,500 אירו לשנה."],
+      ["מה זה ויזת נוודים דיגיטליים ביוון?", "ויזה למי שעובד מרחוק לחברה או ללקוחות מחוץ ליוון, עם הכנסה נטו של 3,500 אירו בחודש. אסור לעבוד אצל מעסיק יווני. קודם מקבלים ויזה לשנה, ואחר כך אישור שהייה לשנתיים שמתחדש."],
     ],
     en: [
       ["How do I move to Greece from Israel?", "As a tourist you can stay up to 90 days. To live in Greece you need a residence permit, such as the financially independent person visa, the digital nomad visa or the Golden Visa."],
       ["What does it cost to live in Athens?", "According to Numbeo, rent in Athens is about 66% cheaper than in Tel Aviv, and other prices about 44% lower."],
       ["How do I get a Greek tax number (ΑΦΜ)?", "Remotely, by video call with the Greek tax authority, or through a lawyer with power of attorney."],
       ["Are there international schools in Athens?", "Yes, for example ACS Athens, Campion School, St Catherine's British School and Byron College. Fees range from about €7,000 to €24,500 a year."],
+      ["What is the Greek digital nomad visa?", "A visa for people working remotely for a company or clients outside Greece, with net income of €3,500 a month. You may not work for a Greek employer. You first get a one-year visa, then a renewable two-year residence permit."],
     ],
   },
 };
