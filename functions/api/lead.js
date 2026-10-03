@@ -14,6 +14,7 @@ const KINDS = {
   "gdpr-request": "🔒 Αίτημα GDPR (πρόσβαση/διαγραφή)",
   "contact": "✉️ Μήνυμα επικοινωνίας",
   "asi-contact": "📲 Επαφή για τον Άση (πριν από WhatsApp/τηλέφωνο)",
+  "strike-alert": "🚨 Ειδοποίηση απεργίας για ταξίδι (/strike-check/)",
 };
 const ASI = { wa: "972546221414", tel: "+972 54-622-1414" };
 const ASI_SERVICES = { "real-estate": "Real Estate", "management": "Management", "airbnb": "Airbnb", "renovation": "Renovation" };
@@ -39,6 +40,15 @@ export async function onRequestPost({ request, env: rawEnv }) {
     if (!d.name) d.name = d.email;
     d.message = `Υπηρεσία: ${d.service} · ${b.mode === "tel" ? "ζήτησε τηλέφωνο" : "πάει στο WhatsApp"}`;
   }
+  if (kind === "strike-alert") {
+    // Ημερομηνίες ταξιδιού: YYYY-MM-DD, λογική σειρά, έως 1 χρόνο μπροστά. Χωρίς όνομα (μόνο email).
+    const iso = (v) => (/^\d{4}-\d{2}-\d{2}$/.test(String(v || "")) ? String(v) : "");
+    d.tripFrom = iso(b.trip_from); d.tripTo = iso(b.trip_to);
+    const max = new Date(Date.now() + 400 * 864e5).toISOString().slice(0, 10), today = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+    if (!d.tripFrom || !d.tripTo || d.tripTo < d.tripFrom || d.tripTo < today || d.tripFrom > max) return json({ ok: false, error: "invalid" }, 400);
+    if (!d.name) d.name = d.email;
+    d.message = `Ταξίδι: ${d.tripFrom} → ${d.tripTo}`;
+  }
   if (!validEmail(d.email) || !b.consent || !d.name) return json({ ok: false, error: "invalid" }, 400);
 
   const lines = [
@@ -47,6 +57,13 @@ export async function onRequestPost({ request, env: rawEnv }) {
   ].filter(([, v]) => v);
 
   const jobs = [];
+  // Ειδοποίηση απεργίας: επαφή Brevo ΧΩΡΙΣ λίστα (όχι newsletter, όχι CRM). Το automation/strike-alerts.mjs στέλνει τα emails.
+  if (kind === "strike-alert" && env.BREVO_API_KEY) {
+    jobs.push(brevo(env, "/contacts", {
+      email: d.email, updateEnabled: true,
+      attributes: { STRIKE_ALERT: "1", TRIP_FROM: d.tripFrom, TRIP_TO: d.tripTo, LANG: d.lang, SIGNUP_PAGE: d.page, CONSENT_AT: d.at },
+    }));
+  }
   if (CRM_KINDS.has(kind) && env.BREVO_API_KEY && env.BREVO_LEADS_LIST) {
     jobs.push(brevo(env, "/contacts", {
       email: d.email, updateEnabled: true, listIds: [Number(env.BREVO_LEADS_LIST)],

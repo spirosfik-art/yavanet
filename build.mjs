@@ -16,6 +16,7 @@ import { shabbatPage } from "./site/shabbat.mjs";
 import { gvQuizPage } from "./site/gvquiz.mjs";
 import { movingPage } from "./site/moving.mjs";
 import { phrasebookPage } from "./site/phrasebook.mjs";
+import { strikeCheckPage } from "./site/strikecheck.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -106,6 +107,7 @@ const TOOL_DEFS = [
   { u: "/golden-visa-quiz/", page: (lang) => gvQuizPage(lang), nav: "invest", tile: ["quiz", "שאלון ויזת זהב", "Golden Visa quiz", "כמה צריך להשקיע? 5 שאלות", "How much? 5 questions"], k: ["ויזת זהב גולדן ויזה שאלון כמה להשקיע 250000 400000 800000 אישור שהייה", "golden visa quiz how much invest 250000 400000 800000 residence permit"] },
   { u: "/moving-checklist/", page: (lang) => movingPage(lang, (slug) => articles.some((a) => a.slug === slug)), nav: "moving", tile: ["check", "צ׳קליסט מעבר ליוון", "Moving checklist", "כל המשימות, שלב אחרי שלב", "Every task, step by step"], k: ["צקליסט רשימה מעבר רילוקיישן מספר מס בנק אמקה ויזה בית ספר", "checklist moving relocation tax number bank amka visa school"] },
   { u: "/phrasebook/", page: (lang) => phrasebookPage(lang), nav: "travel", tile: ["phrase", "שיחון יוונית", "Greek phrasebook", "משפטים שימושיים עם הגייה", "Useful phrases with audio"], k: ["שיחון יוונית מילים משפטים איך אומרים תודה בוקר טוב הגייה", "phrasebook greek words phrases how to say thank you good morning pronunciation"] },
+  { u: "/strike-check/", page: (lang) => strikeCheckPage(lang, { strikeArts, TODAY, SECTOR }), nav: "travel", section: "strikes", tile: ["strikes", "שביתה בזמן הטיול?", "Strike during my trip?", "בדיקה לפי תאריכים + התראה", "Check by dates + alert"], k: ["שביתה טיול תאריכים חופשה טיסה מעבורת התראה מייל", "strike trip dates holiday flight ferry alert email"] },
 ];
 const TOOL_PAGES = (lang) => TOOL_DEFS.map((d) => [d.u, d.page(lang), { nav: d.nav, section: d.section }]);
 const TOOL_TILES = (lang) => TOOL_DEFS.map((d) => [d.u, d.tile[0], d.tile[lang === "he" ? 1 : 2], d.tile[lang === "he" ? 3 : 4]]);
@@ -287,6 +289,7 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
 <div class="grid"><div class="col">
 ${pushBox(lang, true)}
 <a class="fteaser" href="${P(lang, "/strike-today/")}"><span class="ft-ic" aria-hidden="true">📅</span><span class="ft-t"><b>${he ? "יש שביתה היום או מחר?" : "Strike today or tomorrow?"}</b><small>${he ? "תשובה מהירה, והוספת כל השביתות ליומן בטלפון" : "The quick answer, plus every strike in your phone calendar"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
+<a class="fteaser" href="${P(lang, "/strike-check/")}"><span class="ft-ic" aria-hidden="true">🧳</span><span class="ft-t"><b>${he ? "יש שביתה בזמן הטיול שלי?" : "A strike during my trip?"}</b><small>${he ? "בחרו תאריכים וקבלו התראה במייל" : "Pick your dates and get an email alert"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
 <section><div class="zone-h"><h2>${he ? "שביתות קרובות" : "Upcoming strikes"}</h2></div>
 ${upcomingStrikes.length ? `<div class="strikes">${upcomingStrikes.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${he ? "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍" : "No announced strikes affecting travellers right now. 👍"}</div>`}
 </section>

@@ -1430,3 +1430,11 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .ph-play.on{background:var(--gold);color:#241500}
 [dir=rtl] .ph-g{text-align:right}
 .ph-key{margin:8px 0;line-height:1.7}.ph-key span{white-space:nowrap}
+
+/* ===== Απεργία στο ταξίδι μου; ===== */
+.calc input[type=date]{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;font-size:16px;width:100%;min-height:46px}
+.sc-form .btn{justify-self:start}
+.sc-h{font-weight:800;margin:0 0 8px;color:var(--red)}
+.sc-bad{color:var(--red);font-weight:700;margin:0}
+#sc-res:empty{display:none}
+.sc-form .row2{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.sc-form label{min-width:0}.calc input[type=date]{min-width:0;max-width:100%}

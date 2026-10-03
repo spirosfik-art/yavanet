@@ -187,4 +187,34 @@
     }
     document.addEventListener("click", function (e) { var b = e.target.closest("[data-say]"); if (b) say(b.getAttribute("data-say"), b); });
   })();
+  /* ==================== Απεργία στο ταξίδι μου; ==================== */
+  (function () {
+    var box = $("#sc"); if (!box) return;
+    var M = {}, D = []; try { M = JSON.parse(box.getAttribute("data-m")); D = JSON.parse($("#sc-data").textContent); } catch (e) { }
+    var f = $("#sc-from"), t = $("#sc-to"), res = $("#sc-res"), loc = he ? "he-IL" : "en-GB";
+    try { var qs = new URLSearchParams(location.search); if (/^\d{4}-\d{2}-\d{2}$/.test(qs.get("from") || "")) f.value = qs.get("from"); if (/^\d{4}-\d{2}-\d{2}$/.test(qs.get("to") || "")) t.value = qs.get("to"); } catch (e) { }
+    function fd(d) { return new Date(d + "T12:00:00Z").toLocaleDateString(loc, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); }
+    function ok() { return /^\d{4}-\d{2}-\d{2}$/.test(f.value) && /^\d{4}-\d{2}-\d{2}$/.test(t.value) && t.value >= f.value; }
+    function run(user) {
+      if (!ok()) { if (user) res.innerHTML = '<p class="sc-bad">' + esc(M.bad) + "</p>"; return; }
+      var hits = D.map(function (s) { return { s: s, in: s.d.filter(function (d) { return d >= f.value && d <= t.value; }) }; }).filter(function (x) { return x.in.length; });
+      res.innerHTML = hits.length ? '<p class="sc-h">' + esc(M.found) + '</p><div class="dstrike dcard on">' + hits.map(function (x) { return '<a href="' + x.s.u + '"><b>' + x.in.map(fd).map(esc).join(", ") + "</b> " + esc(x.s.s.join(" · ")) + ": " + esc(x.s.t) + "</a>"; }).join("") + "</div>" : '<div class="empty-note">' + esc(M.none) + "</div>";
+      if (user) track("strike_check", { found: hits.length });
+      try { history.replaceState(null, "", location.pathname + "?from=" + f.value + "&to=" + t.value); } catch (e) { }
+    }
+    f.addEventListener("change", function () { t.min = f.value; if (t.value && t.value < f.value) t.value = f.value; });
+    $("#sc-go").addEventListener("click", function () { run(true); });
+    run(false);
+    var form = $("#sc-alert"); if (!form) return;
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var st = $(".status", form), email = form.email.value.trim();
+      if (!/^\S+@\S+\.\S+$/.test(email) || !form.consent.checked || !ok()) { st.textContent = M.alertBad; return; }
+      var b = $("button[type=submit]", form); b.disabled = true;
+      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "strike-alert", email: email, consent: 1, trip_from: f.value, trip_to: t.value, lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", website: form.website.value }) })
+        .then(function (r) { if (!r.ok) throw 0; st.textContent = M.alertOk; toast(M.alertOk); form.reset(); track("generate_lead", { kind: "strike-alert" }); })
+        .catch(function () { st.textContent = M.alertErr; })
+        .then(function () { b.disabled = false; });
+    });
+  })();
 })();

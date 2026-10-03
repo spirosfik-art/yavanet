@@ -12,7 +12,7 @@ process.on("unhandledRejection", async (e) => { await Promise.resolve().then(() 
 if (!env.BREVO_API_KEY) { log("Brevo: δεν υπάρχει BREVO_API_KEY – παράλειψη."); process.exit(0); }
 
 // 1) Χαρακτηριστικά επαφών (αν υπάρχουν ήδη, το Brevo απαντά σφάλμα που αγνοούμε)
-for (const name of ["LANG", "SIGNUP_PAGE", "CONSENT_AT", "LEAD_KIND", "LEAD_SOURCE", "AREA", "BUDGET", "LEAD_STATUS", "COUNTRY", "LEAD_AT", "DOI_SENT"]) {
+for (const name of ["LANG", "SIGNUP_PAGE", "CONSENT_AT", "LEAD_KIND", "LEAD_SOURCE", "AREA", "BUDGET", "LEAD_STATUS", "COUNTRY", "LEAD_AT", "DOI_SENT", "STRIKE_ALERT", "TRIP_FROM", "TRIP_TO", "STRIKE_SENT"]) {
   try { await brevo(`/contacts/attributes/normal/${name}`, { type: "text" }); log("Brevo: χαρακτηριστικό", name); } catch (e) { }
 }
 
