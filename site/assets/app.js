@@ -623,7 +623,18 @@
     document.addEventListener("keydown", function (e) { if (e.key === "Escape" && (!ms.hidden || !sr.hidden)) closeAll(); });
     var idx = null, loading = null;
     function load() { if (idx || loading) return loading; loading = fetch((he ? "" : "/en") + "/search.json").then(function (r) { return r.json(); }).then(function (d) { idx = d; loading = null; if (q.value) render(q.value); }).catch(function () { loading = null; }); return loading; }
-    function norm(s) { return String(s || "").toLowerCase().replace(/[֑-ׇ]/g, "").replace(/[״׳"'`’‘.,:;!?()\[\]\-–—/]/g, " ").replace(/\s+/g, " ").trim(); }
+    // Γερές/γκερσαγιίμ μέσα στη λέξη ενώνονται (נדל"ן = נדלן, חב״ד = חבד, צ׳קליסט = צקליסט)
+    function norm(s) { return String(s || "").toLowerCase().replace(/[֑-ׇ]/g, "").replace(/([א-ת])[״׳"'`’‘]+(?=[א-ת])/g, "$1").replace(/[״׳"'`’‘.,:;!?()\[\]\-–—/]/g, " ").replace(/\s+/g, " ").trim(); }
+    // Παραλλαγές γραφής/συνώνυμα: αρκεί να βρεθεί μία από την ομάδα
+    var VAR = [["סנטוריני", "סאנטוריני"], ["סלוניקי", "תסלוניקי", "סלוניקה"], ["כרתים", "קרטה", "כרטים"], ["רודוס", "רודס"], ["מיקונוס", "מיקנוס"], ["קורפו", "קרקירה"], ["גולדן", "זהב"], ["השכרה", "שכירות", "להשכיר"], ["דירה", "דירות", "נכס", "נכסים", "בית"], ["טיסה", "טיסות"], ["airbnb", "איירבנב", "אירבנב", "השכרה קצרה"], ["מעמ", "tax free", "טקס פרי"], ["afm", "אפמי", "מספר מס"], ["רילוקיישן", "הגירה", "מעבר", "לגור"], ["thessaloniki", "salonica", "saloniki"], ["crete", "kriti"], ["corfu", "kerkyra"], ["flat", "apartment", "property"], ["rent", "rental", "renting"]];
+    function alts(tk) {
+      var out = [tk];
+      VAR.forEach(function (g) { if (g.indexOf(tk) >= 0) out = out.concat(g); });
+      // Προθέματα: ביוון → יוון, לאתונה → אתונה, והשכרה → השכרה
+      if (/^[בלהומש][א-ת]{3,}$/.test(tk)) out.push(tk.slice(1));
+      if (/^(וב|ול|וה|שב|של|מה|כש)[א-ת]{3,}$/.test(tk)) out.push(tk.slice(2));
+      return out;
+    }
     function escH(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
     function hl(s, toks) { var h = escH(s); toks.forEach(function (t) { if (t.length < 2) return; try { h = h.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark>$1</mark>"); } catch (e) { } }); return h; }
     var SUG = he ? ["רודוס", "כרתים", "ויזת זהב", "מחירי דירות", "שביתה", "מספר מס", "חבד", "אסי דורון"] : ["Rhodes", "Crete", "Golden Visa", "property prices", "strike", "tax number", "Chabad", "Asi Doron"];
@@ -634,7 +645,9 @@
       var res = [];
       idx.forEach(function (it) {
         var T = norm(it.t), D = norm(it.d + " " + it.k), all = T + " " + D, sc = 0;
-        for (var i = 0; i < toks.length; i++) { var tk = toks[i]; if (all.indexOf(tk) < 0) return; sc += T.indexOf(tk) >= 0 ? 10 : 3; }
+        for (var i = 0; i < toks.length; i++) { var tk = toks[i]; if (all.indexOf(tk) >= 0) { sc += T.indexOf(tk) >= 0 ? 10 : 3; continue; }
+          var al = alts(tk), hit = 0; for (var j = 1; j < al.length; j++) { if (T.indexOf(al[j]) >= 0) { hit = 8; break; } if (all.indexOf(al[j]) >= 0) hit = 2; }
+          if (!hit) return; sc += hit; }
         if (it.p) sc += 6; if (it.g) sc += 4; if (it.at) sc += Math.max(0, 3 - (Date.now() - Date.parse(it.at)) / 864e5 / 10);
         res.push([sc, it]);
       });

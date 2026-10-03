@@ -253,7 +253,13 @@ ${newsletterBox(lang)}
     const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].seoDesc || a[lang].dek, ...(a[lang].keywords?.length ? { keywords: a[lang].keywords.join(", ") } : {}), inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: photoOf(a) ? [photoOf(a), abs("/og.png")] : [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
     const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: sec(a.section)[lang], item: abs(P(lang, `/s/${a.section}/`)) }, { "@type": "ListItem", position: 3, name: a[lang].title }] };
     // Οδηγοί: οι ενότητες-ερωτήσεις (τίτλος με «?») γίνονται FAQ για Google και για ChatGPT/Gemini
-    const faqItems = a.guide ? [...String(a[lang].body || "").matchAll(/^#{2,3} ([^\n]+\?)\s*\n+([\s\S]*?)(?=\n#{2,3} |$)/gm)].map((m) => [m[1].trim(), plain(m[2]).replace(/\s+/g, " ").trim().slice(0, 600)]).filter((x) => x[1].length > 30) : [];
+    // + ενότητα «שאלות נפוצות»/FAQ με ερωτήσεις σε έντονα (**Ερώτηση?** και η απάντηση στην επόμενη παράγραφο)
+    const faqBody = String(a[lang].body || "");
+    const faqSec = (faqBody.match(/^## (?:שאלות נפוצות|FAQ|Frequently asked questions|Common questions)[^\n]*\n([\s\S]*?)(?=\n## |(?![\s\S]))/m) || [])[1] || "";
+    const faqItems = a.guide ? [
+      ...[...faqBody.matchAll(/^#{2,3} ([^\n]+\?)\s*\n+([\s\S]*?)(?=\n#{2,3} |$)/gm)].map((m) => [m[1].trim(), m[2]]),
+      ...[...faqSec.matchAll(/^\*\*([^*\n]+\?)\*\*[ \t]*\n([^\n]+(?:\n(?!\s*\n)[^\n]+)*)/gm)].map((m) => [m[1].trim(), m[2]]),
+    ].map(([q, an]) => [q, plain(an).replace(/\s+/g, " ").trim().slice(0, 600)]).filter((x, i, arr) => x[1].length > 30 && arr.findIndex((y) => y[0] === x[0]) === i) : [];
     const faqLdA = faqItems.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] : [];
     write(url, layout({ lang, title: a[lang].title, seoTitle: a[lang].seoTitle || null, description: a[lang].seoDesc || a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs, ...faqLdA, ...(a[lang].profile && a[lang].profile.phone ? [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: a[lang].profile.name, alternateName: a.slug.startsWith("asi-doron") ? ["אסי דורון", "Asi Doron", "AS-IS by Asi Doron"] : undefined, ...(a[lang].profile.logo ? { logo: abs(a[lang].profile.logo) } : {}), image: abs(a[lang].profile.photo), telephone: a[lang].profile.phone, url: abs(url), knowsLanguage: ["he", "en"], areaServed: (a[lang].profile.areas || []).map((x) => ({ "@type": "Place", name: x })), description: a[lang].dek }] : [])],
       image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
@@ -455,7 +461,7 @@ ${pushBox(lang, true)}
       ...DESTS.map((d) => ["/d/" + d.id + "/", d[lang], L("חדשות מזג אוויר טיסות שביתות מדריך", "news weather flights strikes guide") + " " + d.he + " " + d.en, L("יעד", "Destination")]),
       ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
     ].map(([u, tt, k, kind]) => ({ u: P(lang, u), t: tt, d: "", k, s: kind, p: 1 }));
-    const arts = articles.map((a) => ({ u: P(lang, "/a/" + a.slug + "/"), t: a[lang].title, d: a[lang].dek, k: (a[lang].tldr || []).join(" "), s: (a.guide ? L("מדריך", "Guide") : sec(a.section)[lang]), g: a.guide ? 1 : 0, at: a.publishedAt.slice(0, 10) }));
+    const arts = articles.map((a) => ({ u: P(lang, "/a/" + a.slug + "/"), t: a[lang].title, d: a[lang].dek, k: [...(a[lang].tldr || []), ...(a[lang].keywords || [])].join(" "), s: (a.guide ? L("מדריך", "Guide") : sec(a.section)[lang]), g: a.guide ? 1 : 0, at: a.publishedAt.slice(0, 10) }));
     write(P(lang, "/search.json"), JSON.stringify(pages.concat(arts)));
   }
 
