@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-crete-winds-9-beaufort",
   "section": "breaking",
   "publishedAt": "2026-09-30T20:25:30+03:00",
-  "updatedAt": "2026-10-02T23:37:18+03:00",
+  "updatedAt": "2026-10-03T11:25:48+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IZ2JQSjdKTTB6VFJhV0xFdHFJeWZONG11ZkhuLWlLd1ZrRzZLMXR2WmxzOFlxNGtWcVk0ZEF6SVhyQy1CcnpicDVzZ1RBVkdYLTE5SUlXZjZyX0FuZW9aeEVYVEVlVEZkYXd2NtIBckFVX3lxTE1EUTdLaFhyOUtHajdxV1dDdFRiQU1zWXZkUzRXb3paU1N2ZmpEeDFiOWw5Zzd5U25pUkJNdVBTSXZkazdOdDJlNXpaSEcwOXBFSUtFVVBfY1NNZzh6dlNpN1Q3NDNsajZiZFFYOTVFQjNMQQ?oc=5"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2170081/kriti-poioi-dromoi-einai-kleistoi-logo-tis-kakokairias/?utm_source=rss&utm_medium=rss&utm_campaign=kriti-poioi-dromoi-einai-kleistoi-logo-tis-kakokairias"
@@ -42,26 +46,26 @@
     "en": "Storm in Greece"
   },
   "he": {
-    "title": "כרתים: אלו הכבישים שנסגרו עקב מזג האוויר הסוער",
-    "dek": "מערכת חורפית קשה פוקדת את האי כרתים ומביאה להצפות ולחסימות תנועה במספר צירים מרכזיים בהרקליון ובפאתיה.",
+    "title": "כרתים: התראת חירום בכל האי בעקבות מזג אוויר סוער",
+    "dek": "תושבי כרתים ותיירים השוהים באי קיבלו התראת חירום במספר 112 בעקבות מזג אוויר סוער שגרם להצפות ולזרימת מים עזה.",
     "tldr": [
-      "גשמים חזקים גרמו להצפות ולחסימות כבישים בכרתים.",
-      "התנועה הופסקה בכמה צירים בהרקליון וברתימנו.",
-      "משטרת כרתים ממליצה להימנע מנסיעות לא חיוניות."
+      "הודעת חירום מוקדמת נשלחה לכל תושבי ותיירי כרתים.",
+      "כבישים רבים הוצפו ונחל זוניאנה עלה על גדותיו.",
+      "הרשויות באי ממשיכות לעקוב אחר התפתחות הסערה."
     ],
-    "means": "אם אתם נמצאים כעת בכרתים או מתכננים הגעה לאי בימים הקרובים, חשוב לעקוב אחר תחזית מזג האוויר המקומית ולהימנע מנסיעות באזורים מוצפים. מומלץ להתעדכן בהנחיות משטרת התנועה המקומית ולהישמע להוראות כוחות ההצלה בשטח.",
-    "body": "## שיבושים בתנועה עקב מזג האוויר בכרתים\n\nמזג אוויר סוער וגשמים עזים פוקדים בימים האחרונים את האי כרתים, וגרמו להפעלת הגבלות תנועה במספר אזורים מרכזיים. הרשויות המקומיות וכוחות הבטחון עוקבים אחר ההתפתחויות ומעדכנים את הציבור באופן שוטף.\n\n## באילו אזורים נחסמו כבישים?\n\nבאזור הרקליון נרשמו שיבושים משמעותיים והפסקת תנועה בכמה צירים מרכזיים, בהם מעבר המים באזור קסטוריאס בקטסאמבא, מעבר המים ברחוב ליקי באזור קורוני מגארה, ובדרך המוצא מדמניה למלידוכורי ברחובות ארחאנן אסטרוסיו. בנוסף, באזור רתימנו נסגרה לתנועה הדרך המחוזית המקשרת בין קראנה לזוניאנה, וכן הדרך המקשרת בין אקסוס לזוניאנה.\n\n## הנחיות והמלצות לנהגים\n\nהמנהלת האזורית של משטרת כרתים פרסמה הודעה רשמית המזכירה לכלל הנהגים להתעדכן תדיר בתנאי מזג האוויר באזור מגוריהם ונסיעתם. המשטרה ממליצה להימנע מכל נסיעה שאינה הכרחית, לנקוט משנה זהירות בעת הנהיגה בכבישים הרטובים, ולהישמע באופן מלא להוראות השוטרים ופקחי התנועה בשטח."
+    "means": "אם אתם מתכננים חופשה בכרתים בימים הקרובים או שוהים כעת באי, עקבו אחר הודעות החירום של הרשויות המקומיות, הימנעו מנסיעות לא חיוניות באזורים מוצפים וצרו קשר עם סוכני הנסיעות או חברות התעופה שלכם לעדכונים על טיסות.",
+    "body": "## התראת חירום בכל האי\n\nשירות החירום הלאומי ביוון הפעיל את מוקד 112 ושלח הודעות אזהרה לכל רחבי כרתים. המהלך נובע ממערכת מזג אוויר קשה המביאה עימה גשמים חזקים ורוחות סוערות לכל אזורי האי.\n\n## הצפות ונחלים שעלו על גדותיהם\n\nהגשמים העזים גרמו להצפות נרחבות בכבישים במקומות שונים ברחבי כרתים. באזור זוניאנה, נחל מקומי עלה על גדותיו והציף את הסביבה, כפי שעולה מתיעודים שהגיעו מהשטח.\n\n## הנחיות לבאים ולשוהים באי\n\nהרשויות ממשיכות לעקוב מקרוב אחר התפתחות מזג האוויר הסוער וקוראות לציבור לנקוט משנה זהירות. מומלץ להתעדכן בתחזית מזג האוויר המקומית, להישמע להנחיות כוחות הצלה ולמנוע כניסה לאזורים מועדים להצפות."
   },
   "en": {
-    "title": "Crete: Roads closed following severe weather conditions",
-    "dek": "Heavy rainfall and severe weather systems have led to emergency traffic restrictions and road closures across parts of Crete.",
+    "title": "Crete: Emergency 112 Alert Issued Across the Island",
+    "dek": "An emergency 112 alert was issued across Crete following severe weather conditions that caused flooded roads and an overflowing stream.",
     "tldr": [
-      "Heavy rain causes road closures across parts of Crete.",
-      "Traffic suspended on specific routes in Heraklion and Rethymno.",
-      "Police urge drivers to avoid non-essential travel."
+      "Emergency 112 messages reached all mobile phones across Crete.",
+      "Roads flooded and a stream overflowed in the Zonianon area.",
+      "Local authorities continue monitoring the severe weather system."
     ],
-    "means": "If you are currently in Crete or traveling to the island, monitor local weather updates closely and avoid driving through flooded or restricted areas. Follow all instructions issued by local authorities and traffic police.",
-    "body": "## Severe Weather Disruptions in Crete\n\nSevere weather conditions have hit the island of Crete, prompting emergency traffic regulations in multiple regional units due to heavy rainfall and potential flooding risks.\n\n## Affected Roadways\n\nIn the Heraklion Regional Unit, vehicle traffic has been suspended at several specific points, including the Irish crossing on Kastorias Street in Katsabas, the Irish crossing on Lykiou Street in the Koroni Magara area, and the Irish crossing from Damania to Melidochori in the Municipality of Archanes-Asterousia. Meanwhile, in the Rethymno Regional Unit, closures affect the provincial road from Krana to Zoniana and the road from Axos to Zoniana.\n\n## Guidance for Drivers\n\nThe General Regional Police Directorate of Crete issued an advisory reminding drivers to regularly check prevailing weather conditions in their areas. Authorities strongly advise avoiding non-essential journeys, exercising extreme caution while driving, and strictly obeying the signals and instructions of traffic police officers."
+    "means": "If you are currently visiting Crete or planning a trip to the island, monitor local emergency broadcasts closely, avoid non-essential travel through flooded areas, and check with your airline or tour operator for any updates.",
+    "body": "## Island-Wide Emergency Alert\n\nGreek authorities activated the 112 emergency messaging system for the entire island of Crete. The alert was issued in response to severe weather patterns bringing heavy rainfall and stormy conditions.\n\n## Flooded Roads and Overflowing Streams\n\nThe intense downpour led to flooded roadways across parts of the island. Footage from the Zonianon area showed a local stream overflowing its banks as water levels rose sharply.\n\n## Safety Guidance\n\nEmergency services remain on alert as the severe weather continues to affect the region. Visitors and residents are advised to follow official instructions, avoid hazardous travel zones, and stay informed on local updates."
   },
   "meta": {
     "itemId": "e609386cca45",
@@ -70,6 +74,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-03T02:45:31.063Z",
     "official": false,
-    "updatedFrom": "9e0e0f705473"
+    "updatedFrom": "a8a94553693a"
   }
 }
