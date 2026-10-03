@@ -1414,3 +1414,19 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .ck.done b{text-decoration:line-through;color:var(--muted)}
 .ck-l{font-size:13.5px;font-weight:700;text-decoration:none;padding-inline-start:32px}
 .ckst{margin-top:12px}
+
+/* ===== Φρασεολόγιο ===== */
+.phbar{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:6px 0}
+.phbar input{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px 14px;font-size:16px}
+.phbar .chips{padding-block:8px}
+.phsec{scroll-margin-top:110px}
+.phs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (max-width:700px){.phs{grid-template-columns:1fr}}
+.ph{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;padding-inline-end:58px;display:grid;gap:2px}
+.ph-m{font-size:13.5px;color:var(--muted);font-weight:700}
+.ph-g{font-size:19px;font-weight:800;color:var(--aegean);direction:ltr;text-align:start;unicode-bidi:plaintext}
+.ph-p{font-size:15px;color:var(--gold-ink);font-weight:700}
+.ph-play{position:absolute;inset-inline-end:10px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:var(--aegean);color:var(--bg);font-size:15px;display:grid;place-items:center}
+.ph-play.on{background:var(--gold);color:#241500}
+[dir=rtl] .ph-g{text-align:right}
+.ph-key{margin:8px 0;line-height:1.7}.ph-key span{white-space:nowrap}

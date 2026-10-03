@@ -157,4 +157,34 @@
     $("#ck-reset").addEventListener("click", function () { if (!window.confirm(he ? "לאפס את כל הסימונים?" : "Reset all ticks?")) return; st = {}; lsSet(KEY, "{}"); boxes.forEach(function (b) { b.checked = false; }); upd(); });
     upd();
   })();
+  /* ==================== Φρασεολόγιο ==================== */
+  (function () {
+    var q = $("#ph-q"); if (!q) return;
+    var M = {}; try { M = JSON.parse($("#ph-t").textContent); } catch (e) { }
+    var cards = $$(".ph"), secs = $$(".phsec"), none = $("#ph-none"), tm;
+    function norm(s) { return String(s || "").toLowerCase().replace(/[֑-ׇ]/g, "").replace(/[̀-ͯ]/g, "").replace(/[״׳"'?!.,;]/g, " "); }
+    cards.forEach(function (c) { c._s = norm(c.getAttribute("data-s").normalize ? c.getAttribute("data-s").normalize("NFD") : c.getAttribute("data-s")); });
+    function filter() {
+      var v = norm(q.value.normalize ? q.value.normalize("NFD") : q.value).trim(), toks = v.split(/\s+/).filter(Boolean), shown = 0;
+      cards.forEach(function (c) { var ok = toks.every(function (t) { return c._s.indexOf(t) >= 0; }); c.hidden = !ok; if (ok) shown++; });
+      secs.forEach(function (s) { s.hidden = !$$(".ph", s).some(function (c) { return !c.hidden; }); });
+      none.hidden = shown > 0;
+    }
+    q.addEventListener("input", function () { clearTimeout(tm); tm = setTimeout(function () { filter(); if (q.value.trim().length > 2) track("phrasebook_search", { search_term: q.value.trim() }); }, 200); });
+    var voice = null;
+    function pick() { try { var vs = speechSynthesis.getVoices() || []; voice = vs.filter(function (v) { return /^el([-_]|$)/i.test(v.lang); })[0] || null; } catch (e) { } return voice; }
+    if ("speechSynthesis" in window) { pick(); try { speechSynthesis.addEventListener("voiceschanged", pick); } catch (e) { } }
+    function say(txt, btn) {
+      if (!("speechSynthesis" in window)) return toast(M.noTts);
+      if (!voice) pick();
+      if (!voice) { toast(M.noVoice); track("phrasebook_play", { ok: 0 }); return; }
+      try {
+        speechSynthesis.cancel();
+        var u = new SpeechSynthesisUtterance(txt.replace(/\.\.\.$/, "")); u.lang = "el-GR"; u.voice = voice; u.rate = 0.85;
+        btn.classList.add("on"); u.onend = u.onerror = function () { btn.classList.remove("on"); };
+        speechSynthesis.speak(u); track("phrasebook_play", { ok: 1 });
+      } catch (e) { toast(M.noVoice); }
+    }
+    document.addEventListener("click", function (e) { var b = e.target.closest("[data-say]"); if (b) say(b.getAttribute("data-say"), b); });
+  })();
 })();

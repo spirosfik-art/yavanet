@@ -15,6 +15,7 @@ import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
 import { shabbatPage } from "./site/shabbat.mjs";
 import { gvQuizPage } from "./site/gvquiz.mjs";
 import { movingPage } from "./site/moving.mjs";
+import { phrasebookPage } from "./site/phrasebook.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -104,6 +105,7 @@ const TOOL_DEFS = [
   { u: "/shabbat/", page: (lang) => shabbatPage(lang), nav: "travel", tile: ["shabbat", "זמני שבת וכשרות", "Shabbat & kosher", "כניסת ויציאת שבת, חב״ד ומסעדות", "Candle times, Chabad, restaurants"], k: ["זמני שבת כניסת שבת יציאת שבת הדלקת נרות כשר חבד בית כנסת מסעדה כשרה", "shabbat times candle lighting havdalah kosher chabad synagogue restaurant"] },
   { u: "/golden-visa-quiz/", page: (lang) => gvQuizPage(lang), nav: "invest", tile: ["quiz", "שאלון ויזת זהב", "Golden Visa quiz", "כמה צריך להשקיע? 5 שאלות", "How much? 5 questions"], k: ["ויזת זהב גולדן ויזה שאלון כמה להשקיע 250000 400000 800000 אישור שהייה", "golden visa quiz how much invest 250000 400000 800000 residence permit"] },
   { u: "/moving-checklist/", page: (lang) => movingPage(lang, (slug) => articles.some((a) => a.slug === slug)), nav: "moving", tile: ["check", "צ׳קליסט מעבר ליוון", "Moving checklist", "כל המשימות, שלב אחרי שלב", "Every task, step by step"], k: ["צקליסט רשימה מעבר רילוקיישן מספר מס בנק אמקה ויזה בית ספר", "checklist moving relocation tax number bank amka visa school"] },
+  { u: "/phrasebook/", page: (lang) => phrasebookPage(lang), nav: "travel", tile: ["phrase", "שיחון יוונית", "Greek phrasebook", "משפטים שימושיים עם הגייה", "Useful phrases with audio"], k: ["שיחון יוונית מילים משפטים איך אומרים תודה בוקר טוב הגייה", "phrasebook greek words phrases how to say thank you good morning pronunciation"] },
 ];
 const TOOL_PAGES = (lang) => TOOL_DEFS.map((d) => [d.u, d.page(lang), { nav: d.nav, section: d.section }]);
 const TOOL_TILES = (lang) => TOOL_DEFS.map((d) => [d.u, d.tile[0], d.tile[lang === "he" ? 1 : 2], d.tile[lang === "he" ? 3 : 4]]);
