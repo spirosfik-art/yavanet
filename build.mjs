@@ -17,6 +17,7 @@ import { gvQuizPage } from "./site/gvquiz.mjs";
 import { movingPage } from "./site/moving.mjs";
 import { phrasebookPage } from "./site/phrasebook.mjs";
 import { strikeCheckPage } from "./site/strikecheck.mjs";
+import { isWeather, wxInfo, weatherPage } from "./site/weather.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -69,6 +70,24 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
   .filter(Boolean)
   .sort((x, y) => new Date(y.publishedAt) - new Date(x.publishedAt));
 
+/* ---------- Προειδοποιήσεις καιρού (/weather-warnings/): άρθρα Meteoalarm/ΕΜΥ και κακοκαιρίας ---------- */
+for (const a of articles) if (isWeather(a)) a.wx = wxInfo(a);
+const wxTs = (a) => new Date(a.updatedAt || a.publishedAt).getTime();
+const wxArts = articles.filter((a) => a.wx).sort((x, y) => wxTs(y) - wxTs(x));
+GLOBAL.wxRecent = wxArts.filter((a) => NOW - wxTs(a) < 48 * 3600e3).length;
+
+/* ---------- Σχετικά άρθρα: κοινές λέξεις-κλειδιά/προορισμοί + ίδια ενότητα + ίδιος τύπος (καιρός/απεργία), όχι μόνο τα 3 πιο πρόσφατα ---------- */
+const STOP = new Set("greece greek greeks with from that this have will after over into about their more than what when where your they them were been also new news 2025 2026 2027 israel israeli israelis athens".split(" "));
+const kwOf = (a) => new Set([...(a.en.keywords || []).flatMap((k) => k.toLowerCase().split(/[^a-z0-9]+/)), ...a.en.title.toLowerCase().split(/[^a-z0-9]+/), ...a.slug.split("-")].filter((w) => w.length > 3 && !STOP.has(w)));
+const KW = new Map(articles.map((a) => [a, kwOf(a)]));
+function relatedFor(a, n = 3) {
+  const k = KW.get(a), t = new Date(a.publishedAt).getTime();
+  return articles.filter((x) => x !== a && !x.partner && !x.sponsored && !x.showcase)
+    .map((x) => { let sh = 0; for (const w of KW.get(x)) if (k.has(w)) sh++; const days = Math.abs(new Date(x.publishedAt).getTime() - t) / 864e5;
+      return [x, sh * 2 + (x.section === a.section ? 1.5 : 0) + (a.wx && x.wx ? 3 : 0) + (a.strike && x.strike ? 3 : 0) + (a.guide && x.guide ? 1 : 0) - Math.min(days, 60) / 30]; })
+    .filter(([, s]) => s > 0.5).sort((p, q) => q[1] - p[1]).slice(0, n).map(([x]) => x);
+}
+
 // «מבזקים»: οι πιο πρόσφατες ειδήσεις (όχι οδηγοί/συνεργάτες)
 const newsOnly = articles.filter((a) => !a.guide && !a.partner && !a.sponsored && !a.showcase && !a.pinned && !/^eg-/.test((a.meta && a.meta.itemId) || ""));
 GLOBAL.flash = newsOnly.filter((a) => NOW - new Date(a.publishedAt).getTime() < 72 * 3600e3);
@@ -107,6 +126,7 @@ const TOOL_DEFS = [
   { u: "/golden-visa-quiz/", page: (lang) => gvQuizPage(lang), nav: "invest", tile: ["quiz", "שאלון ויזת זהב", "Golden Visa quiz", "כמה צריך להשקיע? 5 שאלות", "How much? 5 questions"], k: ["ויזת זהב גולדן ויזה שאלון כמה להשקיע 250000 400000 800000 אישור שהייה", "golden visa quiz how much invest 250000 400000 800000 residence permit"] },
   { u: "/moving-checklist/", page: (lang) => movingPage(lang, (slug) => articles.some((a) => a.slug === slug)), nav: "moving", tile: ["check", "צ׳קליסט מעבר ליוון", "Moving checklist", "כל המשימות, שלב אחרי שלב", "Every task, step by step"], k: ["צקליסט רשימה מעבר רילוקיישן מספר מס בנק אמקה ויזה בית ספר", "checklist moving relocation tax number bank amka visa school"] },
   { u: "/phrasebook/", page: (lang) => phrasebookPage(lang), nav: "travel", tile: ["phrase", "שיחון יוונית", "Greek phrasebook", "משפטים שימושיים עם הגייה", "Useful phrases with audio"], k: ["שיחון יוונית מילים משפטים איך אומרים תודה בוקר טוב הגייה", "phrasebook greek words phrases how to say thank you good morning pronunciation"] },
+  { u: "/weather-warnings/", page: (lang) => weatherPage(lang, { wxArts, NOW, EM_NUM, exists: (slug) => articles.some((a) => a.slug === slug) }), nav: "travel", section: "breaking", tile: ["weather", "אזהרות מזג אוויר", "Weather warnings", "גשם, סערות ורוחות: היום", "Rain, storms, wind: today"], k: ["אזהרת מזג אוויר אזהרה גשם סערה סופת רעמים רוחות כתום אדום צהוב הצפות שיטפון חום כבד מטאו", "weather warning alert rain storm thunderstorm wind orange red yellow flood heat meteoalarm"] },
   { u: "/strike-check/", page: (lang) => strikeCheckPage(lang, { strikeArts, TODAY, SECTOR }), nav: "travel", section: "strikes", tile: ["strikes", "שביתה בזמן הטיול?", "Strike during my trip?", "בדיקה לפי תאריכים + התראה", "Check by dates + alert"], k: ["שביתה טיול תאריכים חופשה טיסה מעבורת התראה מייל", "strike trip dates holiday flight ferry alert email"] },
 ];
 const TOOL_PAGES = (lang) => TOOL_DEFS.map((d) => [d.u, d.page(lang), { nav: d.nav, section: d.section }]);
@@ -174,6 +194,7 @@ for (const lang of LANGS) {
 ${holidaysStrip(lang)}
 ${doorsHTML(lang)}
 <nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
+${GLOBAL.wxRecent ? `<a class="fteaser wxteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⚠️</span><span class="ft-t"><b>${lang === "he" ? (GLOBAL.wxRecent === 1 ? "אזהרת מזג אוויר חדשה ביוון" : `${GLOBAL.wxRecent} אזהרות מזג אוויר ביוון ב-48 השעות האחרונות`) : (GLOBAL.wxRecent === 1 ? "New weather warning in Greece" : `${GLOBAL.wxRecent} weather warnings in Greece in the last 48 hours`)}</b><small>${lang === "he" ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>` : ""}
 ${flightTeaser(lang)}
 <nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
@@ -209,16 +230,17 @@ ${flightTeaser(lang)}
 ${list[0] ? heroCard(list[0], lang) : `<div class="empty">${esc(t.sectionEmpty)}</div>`}
 <div class="cards two">${list.slice(1).map((a) => card(a, lang)).join("")}</div>
 ${s.slug === "real-estate" ? adBox(lang) : ""}
-${s.slug === "breaking" ? `<a class="btn" href="${P(lang, "/live/")}">${esc(t.liveTitle)}</a>` : ""}
+${s.slug === "breaking" ? `<a class="btn" href="${P(lang, "/live/")}">${esc(t.liveTitle)}</a> <a class="btn ghost" href="${P(lang, "/weather-warnings/")}">⚠️ ${lang === "he" ? "אזהרות מזג אוויר" : "Weather warnings"}</a>` : ""}
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
-    write(P(lang, `/s/${s.slug}/`), layout({ lang, title: s[lang], description: `${s[lang]} · ${t.tagline}`, path: P(lang, `/s/${s.slug}/`), altPath: P(lang === "he" ? "en" : "he", `/s/${s.slug}/`), body, breaking: breakingNow, activeSection: s.slug, activeNav: s.slug === "real-estate" ? "prop" : "" }));
+    write(P(lang, `/s/${s.slug}/`), layout({ lang, title: s[lang], description: `${s[lang]} · ${t.tagline}`, path: P(lang, `/s/${s.slug}/`), altPath: P(lang === "he" ? "en" : "he", `/s/${s.slug}/`), body, breaking: breakingNow, activeSection: s.slug, activeNav: s.slug === "real-estate" ? "prop" : "",
+      jsonld: [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: s[lang], item: abs(P(lang, `/s/${s.slug}/`)) }] }] }));
   }
 
   /* Άρθρα */
   articles.forEach((a, i) => {
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
-    const related = articles.filter((x) => x !== a && x.section === a.section).slice(0, 3);
+    const related = relatedFor(a);
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">❓</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
@@ -268,6 +290,7 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
 <div class="grid"><div class="col">
 <div id="map" data-points="${esc(JSON.stringify(pts))}" role="region" aria-label="Map"></div>
 <section style="display:grid;gap:10px">${brkList.map((a) => `<a class="alert" href="${P(lang, "/a/" + a.slug + "/")}"><strong>${esc(a[lang].title)}</strong><span class="small">${new Date(a.updatedAt || a.publishedAt).toLocaleString(t.locale, { timeZone: "Europe/Athens" })} · ${esc(a.sources[0].name)}</span></a>`).join("") || `<div class="empty">${esc(t.noBreaking)}</div>`}</section>
+<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⛈️</span><span class="ft-t"><b>${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}</b><small>${lang === "he" ? "כל האזהרות במקום אחד" : "Every warning in one place"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>
 <section><div class="zone-h"><h2>${esc(t.officialLinks)}</h2></div><div class="links">${OFFICIAL_LINKS.map((o) => `<a href="${o.url}" target="_blank" rel="noopener">${esc(o[lang])}<span aria-hidden="true">↗</span></a>`).join("")}</div></section>
 </div>${widgets(lang, mostRead)}</div>`;
   write(P(lang, "/live/"), layout({ lang, title: t.liveTitle, description: t.liveText, path: P(lang, "/live/"), altPath: P(lang === "he" ? "en" : "he", "/live/"), body: live, breaking: breakingNow, activeSection: "breaking" }));
@@ -312,6 +335,7 @@ ${newsletterBox(lang)}
 <section><div class="zone-h"><h2>${he ? "מספרי חירום ביוון" : "Emergency numbers in Greece"}</h2></div><div class="emnums">${nums}</div></section>
 <section class="means"><h2>🇮🇱 ${he ? "שגרירות ישראל" : "Israeli Embassy"}</h2><p>${esc(EMBASSY[lang])} <a href="${EMBASSY.url}" target="_blank" rel="noopener">${he ? "טלפונים ושעות פעילות" : "Phones and opening hours"} ↗</a></p></section>
 <section><div class="zone-h"><h2>${he ? "מה עושים אם..." : "What to do if..."}</h2></div><div class="emcases">${cases}</div></section>
+<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⛈️</span><span class="ft-t"><b>${he ? "אזהרות מזג אוויר ביוון היום" : "Greece weather warnings today"}</b><small>${he ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
 <p class="small">${he ? "מידע כללי שנבדק מול מקורות רשמיים. במצב חירום תמיד חייגו 112." : "General information checked against official sources. In an emergency always call 112."}</p>
 ${pushBox(lang, true)}
 </div>${widgets(lang, mostRead, true)}</div>`;

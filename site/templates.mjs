@@ -65,7 +65,7 @@ function menuSheet(lang) {
 <div class="ms-in">
 <div class="ms-top"><button type="button" class="ms-search" data-search>${ICONS.search}<span>${L("חיפוש באתר…", "Search the site…")}</span></button><button type="button" class="ms-x" data-menu-close aria-label="${L("סגירה", "Close")}">${ICONS.close}</button></div>
 <div class="ms-grid">
-${g("🏝️ " + L("חופשה ביוון", "Holiday in Greece"), P(lang, "/travel/"), [[A("greece-travel-guide-israelis-2026"), L("המדריך לטיסה ליוון", "Flying to Greece guide")], [P(lang, "/strike-today/"), L("יש שביתה היום?", "Strike today?")], [P(lang, "/strikes/"), L("שביתות קרובות", "Upcoming strikes")], [P(lang, "/d/rhodes/"), L("רודוס", "Rhodes")], [P(lang, "/d/crete/"), L("כרתים", "Crete")], [P(lang, "/d/athens/"), L("אתונה", "Athens")], [P(lang, "/emergency/"), L("חירום", "Emergency")], GLOBAL.flights ? [P(lang, "/flights/"), L("טיסות זולות", "Cheap flights")] : null, [P(lang, "/directory/"), L("יוון בעברית: עסקים ושירותים", "Hebrew-speaking services")], [A("athens-with-yana-hebrew-tours-athens"), L("טיולים עם יאנה", "Tours with Yana")]])}
+${g("🏝️ " + L("חופשה ביוון", "Holiday in Greece"), P(lang, "/travel/"), [[A("greece-travel-guide-israelis-2026"), L("המדריך לטיסה ליוון", "Flying to Greece guide")], [P(lang, "/strike-today/"), L("יש שביתה היום?", "Strike today?")], [P(lang, "/strikes/"), L("שביתות קרובות", "Upcoming strikes")], [P(lang, "/weather-warnings/"), L("אזהרות מזג אוויר", "Weather warnings")], [P(lang, "/d/rhodes/"), L("רודוס", "Rhodes")], [P(lang, "/d/crete/"), L("כרתים", "Crete")], [P(lang, "/d/athens/"), L("אתונה", "Athens")], [P(lang, "/emergency/"), L("חירום", "Emergency")], GLOBAL.flights ? [P(lang, "/flights/"), L("טיסות זולות", "Cheap flights")] : null, [P(lang, "/directory/"), L("יוון בעברית: עסקים ושירותים", "Hebrew-speaking services")], [A("athens-with-yana-hebrew-tours-athens"), L("טיולים עם יאנה", "Tours with Yana")]])}
 ${g("🏠 " + L("השקעה בנדל״ן", "Property investment"), P(lang, "/invest/"), [[A("buying-property-in-greece-israelis-guide"), L("המדריך לקניית דירה", "Buying guide")], [A("golden-visa-greece-2026-guide"), L("ויזת זהב", "Golden Visa")], [P(lang, "/madad/"), L("מחירי דירות לפי שכונה", "Prices by area")], [P(lang, "/tlv-vs-athens/"), L("תל אביב מול אתונה", "Tel Aviv vs Athens")], [P(lang, "/tools/"), L("מחשבונים", "Calculators")], [A("managing-property-in-greece-from-israel"), L("ניהול נכס מישראל", "Managing from Israel")]])}
 ${g("🧳 " + L("לעבור לגור ביוון", "Moving to Greece"), P(lang, "/moving/"), [[A("moving-to-greece-with-family-israelis-guide"), L("המדריך למעבר עם המשפחה", "Moving with family")], [A("greek-tax-number-and-bank-account-guide"), L("מספר מס וחשבון בנק", "Tax number & bank account")], [P(lang, "/cost-of-living/"), L("יוקר המחיה", "Cost of living")]])}
 ${g("📰 " + L("חדשות", "News"), P(lang, "/"), SECTIONS.map((x) => [P(lang, "/s/" + x.slug + "/"), esc(x[lang])]).concat([[P(lang, "/guides/"), L("כל המדריכים", "All guides")]]))}
@@ -151,7 +151,7 @@ export function layout({ lang, title, description, path, altPath, body, jsonld =
   if (sx) description = sx[1];
   if (description && description.length > 165) description = description.slice(0, 162).replace(/\s+\S*$/, "") + "…";
   let fullTitle = sx ? (path === P(lang, "/") ? sx[0] : `${sx[0]} | ${NAME}`) : seoTitle ? `${seoTitle} | ${NAME}` : title ? `${title} | ${NAME}` : `${NAME} · ${t.tagline}`;
-  if (fullTitle.length > 70) fullTitle = fullTitle.replace(new RegExp(` \\| ${NAME}$`), "");
+  if (fullTitle.length > 60) fullTitle = fullTitle.replace(new RegExp(` \\| ${NAME}$`), "");
   const brk = breaking
     ? `<a class="breaking${breaking.fire ? " fire" : ""}" href="${P(lang, "/a/" + breaking.slug + "/")}"><span class="tag">${esc(t.breakingTag)}</span><span class="txt">${esc(breaking[lang].title)}</span></a>`
     : "";
@@ -441,7 +441,7 @@ export function widgets(lang, mostRead, noPush = false) {
   ${noPush ? "" : pushBox(lang)}
   ${medTeaser(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
-  <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div></div>
+  <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div><a class="wxlink" href="${P(lang, "/weather-warnings/")}">⚠️ ${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}${GLOBAL.wxRecent ? ` <b>${GLOBAL.wxRecent}</b>` : ""}</a></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>
   <div class="widget"><h4>${esc(t.shabbat)}</h4><div class="rows" id="w-shabbat">${esc(t.loading)}</div><div class="small">Hebcal</div></div>
   ${partners(lang)}
@@ -477,9 +477,17 @@ export function relatedBox(a, lang) {
   if (a.section === "real-estate" || /property|apartment|real estate|rent|airbnb/i.test(a.en.title + " " + a.en.dek)) { add("buy"); add("manage"); }
   if ((!picks.length && a.section === "living") || /relocat|moving to greece|digital nomad|visa/i.test(a.en.title + " " + a.en.dek)) add("move");
   const dests = DEST_LINKS.filter((d) => d[3].test(a.en.title + " " + a.en.dek + " " + a.he.title)).slice(0, 3);
-  if (!picks.length && !dests.length) return "";
+  // Εργαλεία του site που ταιριάζουν στο θέμα του άρθρου
+  const tools = [];
+  const head = a.en.title + " " + a.en.dek + " " + a.slug;
+  if (a.wx) tools.push(["/weather-warnings/", "⚠️ כל אזהרות מזג האוויר ביוון במקום אחד", "⚠️ All Greece weather warnings in one place"]);
+  if (a.strike || /\bstrikes?\b|work stoppage/i.test(head)) tools.push(["/strike-check/", "🧳 יש שביתה בזמן הטיול שלי? בדיקה לפי תאריכים", "🧳 A strike during my trip? Check by dates"]);
+  if (a.section === "real-estate" || /golden visa/i.test(head)) { tools.push(["/golden-visa-quiz/", "❓ שאלון ויזת זהב: כמה צריך להשקיע?", "❓ Golden Visa quiz: how much do you need to invest?"]); tools.push(["/tools/", "🧮 מחשבון עלויות קניית דירה ביוון", "🧮 Greek property purchase cost calculator"]); }
+  if (a.section === "jewish-greece" || /jewish|kosher|chabad|synagogue|shabbat|rosh hashanah|yom kippur|sukkot|hanukkah|passover/i.test(head)) tools.push(["/shabbat/", "🕯️ זמני שבת וכשרות ביוון", "🕯️ Shabbat times & kosher food in Greece"]);
+  if (a.section === "living" || /relocat|moving to greece/i.test(head)) tools.push(["/moving-checklist/", "✅ צ׳קליסט מעבר ליוון", "✅ Moving to Greece checklist"]);
+  if (!picks.length && !dests.length && !tools.length) return "";
   const pre = he ? "" : "/en";
-  return `<aside class="related"><b>${he ? "כדאי לקרוא גם" : "Useful next"}</b><ul>${picks.slice(0, 2).map((g) => `<li><a href="${pre}/a/${g[0]}/">📘 ${esc(he ? g[1] : g[2])}</a></li>`).join("")}${dests.map((d) => `<li><a href="${pre}/d/${d[0]}/">📍 ${esc(he ? `${d[1]}: חדשות, מזג אוויר, טיסות ושביתות` : `${d[2]}: news, weather, flights and strikes`)}</a></li>`).join("")}</ul></aside>`;
+  return `<aside class="related"><b>${he ? "כדאי לקרוא גם" : "Useful next"}</b><ul>${tools.slice(0, 3).map((x) => `<li><a href="${pre}${x[0]}">${esc(he ? x[1] : x[2])}</a></li>`).join("")}${picks.slice(0, 2).map((g) => `<li><a href="${pre}/a/${g[0]}/">📘 ${esc(he ? g[1] : g[2])}</a></li>`).join("")}${dests.map((d) => `<li><a href="${pre}/d/${d[0]}/">📍 ${esc(he ? `${d[1]}: חדשות, מזג אוויר, טיסות ושביתות` : `${d[2]}: news, weather, flights and strikes`)}</a></li>`).join("")}</ul></aside>`;
 }
 
 export function articleBody(a, lang, prev, next) {
@@ -509,6 +517,7 @@ export function articleBody(a, lang, prev, next) {
   ${a.guide ? shareRow(" top") + "</div>" : ""}
   <div class="tldr"><b>${esc(t.thirty)}</b><ul>${c.tldr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
   ${c.means ? `<div class="means"><b>${esc(t.means)}</b><p>${esc(c.means)}</p></div>` : ""}
+  ${a.wx ? `<a class="wxbox" href="${P(lang, "/weather-warnings/")}"><span aria-hidden="true">⚠️</span><span><b>${he ? "כל אזהרות מזג האוויר ביוון במקום אחד" : "All Greece weather warnings in one place"}</b><small>${he ? "איפה יש אזהרה, מה אומרים הצבעים ומה עושים" : "Where the warnings are, what the colours mean and what to do"}</small></span><i aria-hidden="true">${he ? "←" : "→"}</i></a>` : ""}
   ${toc}
   <div class="prose" data-speak>${prose}</div>
   ${a.guide ? "" : relatedBox(a, lang)}

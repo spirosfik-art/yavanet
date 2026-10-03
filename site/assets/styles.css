@@ -1443,3 +1443,44 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .dferry{margin-top:12px}
 .dfr{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0}
 .dfr .btn{padding:9px 14px;font-size:15px}
+/* /weather-warnings/ – προειδοποιήσεις καιρού */
+.wx-status{display:grid;gap:4px;border-radius:14px;padding:14px 16px;margin-block:12px 18px;border:1px solid var(--line);background:var(--surface)}
+.wx-status b{font-size:17px}
+.wx-status span{color:var(--muted);font-size:14.5px}
+.wx-status.on{background:#FFF1D6;border-color:#F0B650;color:#5A3000}
+.wx-status.on span{color:#7A4A00}
+.wxlist{display:grid;gap:10px}
+.wxa{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;background:var(--surface);border:1px solid var(--line);border-inline-start:6px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.wxa:hover{border-color:var(--sea)}
+.wxa.lv-orange{border-inline-start-color:#F08A24}.wxa.lv-red{border-inline-start-color:#D7263D}.wxa.lv-yellow{border-inline-start-color:#F2C230}
+.wxa.past{opacity:.82}
+.wxa .when{min-width:66px;text-align:center;background:var(--chip);border-radius:10px;padding:7px 6px;font-weight:800;line-height:1.2;font-size:13px}
+.wxa .when b{display:block;font-size:20px}
+.wxa .when small{display:block;font-weight:700;color:var(--muted)}
+.wxa-b{min-width:0;display:grid;gap:4px}
+.wxa h3{font-size:17px;margin:0}
+.wxa-tags{display:flex;flex-wrap:wrap;gap:6px}
+.wxa-tags span{font-size:12.5px;border-radius:999px;padding:2px 10px;font-weight:800;background:var(--chip)}
+.wxa .lv{color:#fff;background:#8899A6}
+.wxa.lv-orange .lv{background:#C2610C}.wxa.lv-red .lv{background:#C21D32}.wxa.lv-yellow .lv{background:#F2C230;color:#3A2A00}
+.wxa .nw{background:var(--red);color:#fff}
+.wxa .rg{font-size:14px;color:var(--muted);font-weight:600}
+.wx-levels{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.wx-levels li{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.wx-levels b{display:block;text-align:center;border-radius:8px;padding:6px 4px;font-weight:900;color:#fff}
+.wx-levels .lv-green b{background:#2F855A}.wx-levels .lv-yellow b{background:#F2C230;color:#3A2A00}.wx-levels .lv-orange b{background:#C2610C}.wx-levels .lv-red b{background:#C21D32}
+.wx-tips{margin:0;padding-inline-start:20px;display:grid;gap:6px}
+.links a small{font-weight:500;color:var(--muted);margin-inline-start:6px}
+.wxbox{display:flex;align-items:center;gap:12px;margin:14px 0;padding:12px 14px;border-radius:12px;background:#FFF1D6;border:1px solid #F0B650;color:#5A3000;text-decoration:none}
+.wxbox>span:first-child{font-size:24px;line-height:1}
+.wxbox>span:nth-child(2){display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}
+.wxbox>span:first-child{flex:none}
+.wxbox small{color:#7A4A00}
+.wxbox i{font-style:normal;font-weight:900}
+.wxlink{display:block;margin-top:8px;font-weight:700;font-size:14px;text-decoration:none}
+.wxlink b{background:var(--red);color:#fff;border-radius:999px;padding:0 7px;font-size:12px}
+.wxteaser{background:linear-gradient(135deg,#7A3A00,#C2610C)}
+@media (prefers-color-scheme:dark){.wx-status.on,.wxbox{background:#3A2A10;border-color:#8A5A0B;color:#FFD27A}.wx-status.on span,.wxbox small{color:#F0C36A}}
+:root.night .wx-status.on,:root.night .wxbox{background:#3A2A10;border-color:#8A5A0B;color:#FFD27A}
+:root.night .wx-status.on span,:root.night .wxbox small{color:#F0C36A}
+@media (max-width:520px){.wx-levels li{grid-template-columns:64px 1fr}.wxa{gap:10px;padding:10px 12px}.wxa .when{min-width:56px}}
