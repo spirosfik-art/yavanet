@@ -968,7 +968,9 @@
     "c14245a50aa4": 1791000800398,
     "959d6e14c48e": 1791002451071,
     "5a3d2800cf3c": 1791003098582,
-    "cc25ab93b7b6": 1791003098582
+    "cc25ab93b7b6": 1791003098582,
+    "51bddcdfb305": 1791003692233,
+    "3a47bbfab91e": 1791003692233
   },
   "pending": {
     "21853c": {
@@ -1084,12 +1086,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T04:51:25.941Z",
+      "at": "2026-10-03T05:01:22.931Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T04:51:26.750Z",
+      "at": "2026-10-03T05:01:23.643Z",
       "items": 5
     },
     "civilprotection": {
@@ -1100,27 +1102,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T04:51:29.240Z",
+      "at": "2026-10-03T05:01:24.962Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T04:51:29.435Z",
+      "at": "2026-10-03T05:01:25.336Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T04:51:30.888Z",
+      "at": "2026-10-03T05:01:26.248Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T04:51:32.369Z",
+      "at": "2026-10-03T05:01:26.954Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T04:51:33.317Z",
+      "at": "2026-10-03T05:01:27.749Z",
       "items": 10
     },
     "toi-greece": {
@@ -1131,23 +1133,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T04:51:33.878Z",
+      "at": "2026-10-03T05:01:28.117Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T04:51:33.936Z",
+      "at": "2026-10-03T05:01:28.181Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T04:51:34.480Z",
+      "at": "2026-10-03T05:01:28.348Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T04:51:34.664Z",
-      "items": 4
+      "at": "2026-10-03T05:01:28.466Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1156,12 +1158,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T04:51:26.970Z",
+      "at": "2026-10-03T05:01:23.910Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T04:51:35.348Z",
+      "at": "2026-10-03T05:01:28.913Z",
       "items": 0
     },
     "hcg": {
@@ -1172,32 +1174,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T04:51:36.583Z",
+      "at": "2026-10-03T05:01:30.319Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T04:51:36.767Z",
+      "at": "2026-10-03T05:01:30.493Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T04:51:36.930Z",
+      "at": "2026-10-03T05:01:30.696Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T04:51:37.078Z",
+      "at": "2026-10-03T05:01:30.907Z",
       "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T04:51:37.439Z",
+      "at": "2026-10-03T05:01:31.225Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T04:51:37.848Z",
+      "at": "2026-10-03T05:01:31.620Z",
       "items": 9
     }
   },
@@ -1267,12 +1269,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T04:51:38.582Z",
+    "at": "2026-10-03T05:01:32.233Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Locks In Aegean Exercise Zones As Turkey Protests",
-      "· gct | Greek and Italian Artists Explore Their Cultural Ties"
+      "· gct | Study Finds Lead, Arsenic and Mercury in Popular Cat Foods",
+      "· gct | US Congratulates Greece on Presidency of UN Security Council"
     ]
   },
   "evergreenDone": [
