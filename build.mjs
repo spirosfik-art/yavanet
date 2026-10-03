@@ -13,6 +13,7 @@ import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
 import { shabbatPage } from "./site/shabbat.mjs";
+import { gvQuizPage } from "./site/gvquiz.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -100,6 +101,7 @@ const SECTOR = { flights: ["✈️ טיסות", "✈️ Flights"], ferries: ["�
 /* ---------- Σελίδες εργαλείων (site/*.mjs): διαδρομή, σελίδα, πλακίδιο στο /tools/, λέξεις αναζήτησης ---------- */
 const TOOL_DEFS = [
   { u: "/shabbat/", page: (lang) => shabbatPage(lang), nav: "travel", tile: ["shabbat", "זמני שבת וכשרות", "Shabbat & kosher", "כניסת ויציאת שבת, חב״ד ומסעדות", "Candle times, Chabad, restaurants"], k: ["זמני שבת כניסת שבת יציאת שבת הדלקת נרות כשר חבד בית כנסת מסעדה כשרה", "shabbat times candle lighting havdalah kosher chabad synagogue restaurant"] },
+  { u: "/golden-visa-quiz/", page: (lang) => gvQuizPage(lang), nav: "invest", tile: ["quiz", "שאלון ויזת זהב", "Golden Visa quiz", "כמה צריך להשקיע? 5 שאלות", "How much? 5 questions"], k: ["ויזת זהב גולדן ויזה שאלון כמה להשקיע 250000 400000 800000 אישור שהייה", "golden visa quiz how much invest 250000 400000 800000 residence permit"] },
 ];
 const TOOL_PAGES = (lang) => TOOL_DEFS.map((d) => [d.u, d.page(lang), { nav: d.nav, section: d.section }]);
 const TOOL_TILES = (lang) => TOOL_DEFS.map((d) => [d.u, d.tile[0], d.tile[lang === "he" ? 1 : 2], d.tile[lang === "he" ? 3 : 4]]);
@@ -212,6 +214,7 @@ ${newsletterBox(lang)}
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = articles.filter((x) => x !== a && x.section === a.section).slice(0, 3);
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">❓</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
   text: lang === "he" ? "השאירו פרטים ויועץ נדל״ן דובר עברית יחזור אליכם. בלי התחייבות ובחינם. גילוי נאות: הפנייה מגיעה ל-S.F. Properties (ספירידון פיקיאס, מתווך נדל״ן, ΓΕΜΗ 172090403000), המו״ל של יוונט." : "Leave your details and a Hebrew-speaking property adviser will get back to you. Free, no obligation. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, GEMI 172090403000), Yavanet's publisher." }) : ""}

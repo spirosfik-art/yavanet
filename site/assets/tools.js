@@ -95,4 +95,50 @@
     draw();
     box.hidden = false; var nj = $("#shab-nojs"); if (nj) nj.hidden = true;
   })();
+  /* ==================== Κουίζ Golden Visa ==================== */
+  (function () {
+    var box = $("#gvq"); if (!box) return;
+    var D; try { D = JSON.parse(box.getAttribute("data-q")); } catch (e) { return; }
+    var Q = D.Q, T = D.T, ans = {}, i = 0, started = false;
+    function q() {
+      var x = Q[i];
+      box.innerHTML = '<div class="qz-top"><span>' + esc(T.q) + " " + (i + 1) + " " + esc(T.of) + " " + Q.length + '</span><div class="qz-bar"><i style="width:' + Math.round(i / Q.length * 100) + '%"></i></div></div>' +
+        '<h2 class="qz-q">' + esc(x.q) + '</h2><div class="qz-opts">' + x.o.map(function (o) { return '<button type="button" class="qz-o' + (ans[x.id] === o[0] ? " on" : "") + '" data-v="' + esc(o[0]) + '">' + esc(o[1]) + "</button>"; }).join("") + "</div>" +
+        (i > 0 ? '<button type="button" class="btn ghost qz-back">' + esc(T.back) + "</button>" : "");
+    }
+    function li(t, cls) { return "<li" + (cls ? ' class="' + cls + '"' : "") + ">" + esc(t) + "</li>"; }
+    function result() {
+      var conv = ans.type === "convert", tier, min, extra = [];
+      if (conv) { tier = T.tierConv; min = "€250,000"; extra.push(li(T.convTxt)); }
+      else if (ans.area === "unsure") { tier = T.unsure; min = "€400,000 – €800,000"; extra.push(li(T.unsureTxt)); }
+      else if (ans.area === "low") { tier = T.tierLow; min = "€400,000"; }
+      else { tier = T.tierHigh; min = "€800,000"; }
+      var warn = [];
+      if (!conv && (ans.size === "small" || ans.size === "multi")) warn.push(li(T.sizeBad, "bad"));
+      if (conv && ans.size === "multi") warn.push(li(T.multiConv, "bad"));
+      if (ans.use === "short") warn.push(li(T.short, "bad"));
+      if (ans.use === "long") warn.push(li(T.long, "ok"));
+      var key = conv ? "250k" : ans.area === "unsure" ? "unsure" : ans.area === "low" ? "400k" : "800k";
+      box.innerHTML = '<div class="qz-res"><span class="qz-k">' + esc(T.min) + '</span><b class="qz-min" dir="ltr">' + esc(min) + '</b><span class="qz-tier">' + esc(tier) + "</span></div>" +
+        (warn.length || extra.length ? '<ul class="qz-list">' + extra.join("") + warn.join("") + "</ul>" : "") +
+        '<h3 class="qz-h">' + esc(T.famH) + '</h3><ul class="qz-list">' + li(T.fam[ans.family] || T.fam.me) + li(T.fees) + "</ul>" +
+        '<h3 class="qz-h">' + esc(T.rulesH) + '</h3><ul class="qz-list">' + T.always.map(function (t) { return li(t); }).join("") + "</ul>" +
+        '<div class="qz-cta"><a class="btn gold" href="' + D.links.advisor + '" data-qz="advisor">' + esc(T.talk) + '</a><a class="btn wa" href="' + D.links.wa + '" target="_blank" rel="noopener">' + esc(T.wa) + '</a><a class="btn ghost" href="' + D.links.guide + '">' + esc(T.guide) + "</a></div>" +
+        '<button type="button" class="btn ghost qz-again">' + esc(T.again) + "</button>";
+      track("quiz_complete", { quiz: "golden_visa", result: key, warnings: warn.length });
+    }
+    box.addEventListener("click", function (e) {
+      var o = e.target.closest(".qz-o");
+      if (o) {
+        if (!started) { started = true; track("quiz_start", { quiz: "golden_visa" }); }
+        ans[Q[i].id] = o.getAttribute("data-v"); i++;
+        if (i >= Q.length) result(); else q();
+        try { box.scrollIntoView({ block: "nearest" }); } catch (e2) { }
+        return;
+      }
+      if (e.target.closest(".qz-back")) { i = Math.max(0, i - 1); q(); return; }
+      if (e.target.closest(".qz-again")) { ans = {}; i = 0; started = false; q(); }
+    });
+    q(); box.hidden = false;
+  })();
 })();

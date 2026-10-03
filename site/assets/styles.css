@@ -1377,3 +1377,23 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .kp p{margin:0;font-size:14.5px}
 .kp-l{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;font-weight:700}
 .kp-l a{text-decoration:none}
+
+/* ===== Κουίζ Golden Visa ===== */
+.quiz{gap:12px}
+.qz-top{display:grid;gap:6px;font-size:13px;font-weight:700;color:var(--muted)}
+.qz-bar{height:6px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.qz-bar i{display:block;height:100%;background:var(--gold);border-radius:99px;transition:width .25s}
+.qz-q{font-size:22px;font-weight:900;color:var(--aegean)}
+.qz-opts{display:grid;gap:8px}
+.qz-o{text-align:start;background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;font-weight:700;font-size:15.5px;color:var(--ink)}
+.qz-o:hover,.qz-o.on{border-color:var(--sea);background:color-mix(in srgb,var(--sea) 8%,var(--surface))}
+.qz-back,.qz-again{justify-self:start}
+.qz-res{display:grid;gap:2px;text-align:center;padding:16px;border-radius:14px;background:linear-gradient(135deg,#0B3A5B,#1C6E9C);color:#fff}
+.qz-k{font-size:13px;font-weight:700;opacity:.85}
+.qz-min{font-family:var(--display);font-size:clamp(30px,8vw,40px);font-weight:900;color:#F0B650;line-height:1.15}
+.qz-tier{font-weight:700}
+.qz-h{font-size:18px;font-weight:900;color:var(--aegean);margin-top:4px}
+.qz-list{margin:0;padding-inline-start:20px;display:grid;gap:7px;font-size:15px}
+.qz-list li.bad{color:var(--red);font-weight:700;list-style:none;margin-inline-start:-20px}
+.qz-list li.ok{color:#1F8A4C;font-weight:700;list-style:none;margin-inline-start:-20px}
+.qz-cta{display:flex;flex-wrap:wrap;gap:8px}
