@@ -1018,7 +1018,11 @@
     "df5fd66664e4": 1791021669433,
     "5a52978b490e": 1791022964206,
     "2cc715a66174": 1791022964206,
-    "30cedbadd756": 1791023981424
+    "30cedbadd756": 1791023981424,
+    "88dca5c6ca0c": 1791025671789,
+    "b4466ea54538": 1791025671789,
+    "c821630472d8": 1791025671789,
+    "e8cc6cdd2bfe": 1791025671789
   },
   "pending": {},
   "sourceStatus": {
@@ -1030,12 +1034,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T10:39:30.304Z",
-      "items": 0
+      "at": "2026-10-03T11:07:41.190Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T10:39:31.127Z",
+      "at": "2026-10-03T11:07:41.856Z",
       "items": 5
     },
     "civilprotection": {
@@ -1046,27 +1050,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T10:39:33.259Z",
+      "at": "2026-10-03T11:07:43.415Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T10:39:33.433Z",
+      "at": "2026-10-03T11:07:43.776Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T10:39:34.665Z",
+      "at": "2026-10-03T11:07:44.539Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T10:39:35.356Z",
-      "items": 4
+      "at": "2026-10-03T11:07:45.208Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T10:39:36.208Z",
+      "at": "2026-10-03T11:07:45.651Z",
       "items": 10
     },
     "toi-greece": {
@@ -1077,23 +1081,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T10:39:36.702Z",
+      "at": "2026-10-03T11:07:46.094Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T10:39:36.860Z",
+      "at": "2026-10-03T11:07:46.420Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T10:39:37.175Z",
-      "items": 6
+      "at": "2026-10-03T11:07:47.483Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T10:39:37.335Z",
-      "items": 9
+      "at": "2026-10-03T11:07:47.602Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
@@ -1102,12 +1106,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T10:39:31.830Z",
+      "at": "2026-10-03T11:07:42.458Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T10:39:38.080Z",
+      "at": "2026-10-03T11:07:48.027Z",
       "items": 0
     },
     "hcg": {
@@ -1118,39 +1122,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T10:39:39.308Z",
+      "at": "2026-10-03T11:07:49.484Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T10:39:39.530Z",
+      "at": "2026-10-03T11:07:49.688Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T10:39:39.716Z",
+      "at": "2026-10-03T11:07:49.868Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T10:39:39.962Z",
+      "at": "2026-10-03T11:07:50.052Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T10:39:40.319Z",
+      "at": "2026-10-03T11:07:50.390Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T10:39:40.728Z",
-      "items": 13
+      "at": "2026-10-03T11:07:50.845Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-03",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "athens-public-transport-changes-october-2026",
@@ -1217,6 +1221,12 @@
         "title": "↻ Crete Severe Weather: Floods, Resurgences and 112 Alerts",
         "at": "2026-10-03T12:51:10+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "fire-thesprotia-greece",
+        "title": "Forest Fire Breaks Out in Thesprotia, Greece",
+        "at": "2026-10-03T14:08:05+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1264,6 +1274,10 @@
       {
         "slug": "kefalonia-forest-fire-response",
         "at": "2026-10-03T09:04:27.221Z"
+      },
+      {
+        "slug": "fire-thesprotia-greece",
+        "at": "2026-10-03T11:08:05.790Z"
       }
     ]
   },
@@ -1306,11 +1320,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T10:39:41.424Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-03T11:07:51.789Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ert | Πυρκαγιά σε διαμέρισμα στη Σαλαμίνα – Απομακρύνθηκε ηλικιωμένη"
+      "· ingr | Αποκάλυψη in: Πρωτοφανής σύγκρουση στο Υπ. Πολιτικής Προστασίας που σχετίζεται και με τις ",
+      "✓ naftemporiki | Φωτιά τώρα στους Φιλιάτες Θεσπρωτίας – Επί ποδός η Πυροσβεστική",
+      "· gn-iefimerida | Κατασβέστηκε άμεσα φωτιά σε διαμέρισμα πρώτου ορόφου στη Σαλαμίνα, απεγκλωβίστηκε μία ηλικ",
+      "· ert | Κατασβέστηκε η πυρκαγιά σε διαμέρισμα στη Σαλαμίνα – Απεγκλωβίστηκε ηλικιωμένη"
     ]
   },
   "evergreenDone": [
@@ -1353,5 +1370,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790949239981,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fire-thesprotia-greece",
+      "url": "https://yavanet.gr/a/fire-thesprotia-greece/",
+      "at": "2026-10-03T11:08:05.790Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fire-thesprotia-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fire-thesprotia-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה ביוון: כוחות כיבוי פועלים באזור תספרוטיה",
+        "title_en": "Forest Fire Breaks Out in Thesprotia, Greece",
+        "dek_he": "שריפת יער פרצה באזור הררי בתספרוטיה שבצפון-מערב יוון. כוחות כיבוי גדולים ומסוק פועלים במקום לעצירת האש.",
+        "dek_en": "A forest fire has broken out in a remote and difficult-to-access area in Thesprotia, northwestern Greece, prompting a swift response from emergency services.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/27490580/pexels-photo-27490580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה ביוון: כוחות כיבוי פועלים באזור תספרוטיה\n\nשריפת יער פרצה באזור הררי בתספרוטיה שבצפון-מערב יוון. כוחות כיבוי גדולים ומסוק פועלים במקום לעצירת האש.\n\nhttps://yavanet.gr/a/fire-thesprotia-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Forest Fire Breaks Out in Thesprotia, Greece\n\nA forest fire has broken out in a remote and difficult-to-access area in Thesprotia, northwestern Greece, prompting a swift response from emergency services.\n\nhttps://yavanet.gr/en/a/fire-thesprotia-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
