@@ -36,7 +36,18 @@ const asiGate = (p, s) => {
   }
   return s;
 };
-const write = (p, s) => { const f = path.join(OUT, p.endsWith("/") ? p + "index.html" : p); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, asiGate(p, s)); };
+// Όπου εμφανίζεται το όνομα του εκδότη (Σπύρος) μέσα στο κείμενο της σελίδας, γίνεται σύνδεσμος WhatsApp.
+const SPIROS_WA = "306906723676";
+const spirosLinks = (p, s) => {
+  if (typeof s !== "string" || !(/\.html$|\/$/.test(p) || !/\.[a-z]+$/.test(p))) return s;
+  const i = s.indexOf("<body"); if (i < 0) return s;
+  const he = !/(^|\/)en\//.test(p);
+  const href = `https://wa.me/${SPIROS_WA}?text=${encodeURIComponent(he ? "שלום ספירוס, הגעתי מיוונט" : "Hi Spyros, I found you on Yavanet")}`;
+  const body = s.slice(i).replace(/(<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>|<a\b[\s\S]*?<\/a>|<[^>]+>|[^<]+)/g, (m) =>
+    m[0] === "<" ? m : m.replace(/ספירידון פיקיאס|Spyridon Fikias/g, (n) => `<a href="${href}" target="_blank" rel="noopener" data-out="wa-spiros" title="WhatsApp">${n} 💬</a>`));
+  return s.slice(0, i) + body;
+};
+const write = (p, s) => { const f = path.join(OUT, p.endsWith("/") ? p + "index.html" : p); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, spirosLinks(p, asiGate(p, s))); };
 
 /* ---------- Φόρτωση άρθρων ---------- */
 const REQUIRED = ["slug", "section", "publishedAt", "sources", "he", "en"];

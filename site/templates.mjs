@@ -239,6 +239,7 @@ ${body}
   <div>${esc(t.aiNote)}</div>
   <div>${lang === "he" ? "תמונות" : "Photos"}: <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></div>
   <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher.brand || SITE.publisher[lang])}</div>
+  <div><a href="https://wa.me/306906723676?text=${encodeURIComponent(lang === "he" ? "שלום, יש לי שאלה על יוון" : "Hi, I have a question about Greece")}" target="_blank" rel="noopener" data-out="wa-ask-footer">💬 ${lang === "he" ? "שאלה על יוון? כתבו לנו בוואטסאפ" : "A question about Greece? WhatsApp us"}</a></div>
 </footer>
 </main>
 <nav class="bnav" aria-label="Main">${bnav}</nav>
@@ -514,6 +515,7 @@ export function articleBody(a, lang, prev, next) {
   ${cta}
   ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}
+  <aside class="askwa" style="margin:22px 0;padding:16px 18px;border-radius:14px;background:var(--soft, #EEF5F0);border:1px solid rgba(37,211,102,.35)"><b style="display:block;font-size:17px;margin-bottom:4px">${he ? "יש לכם שאלה על יוון?" : "Got a question about Greece?"}</b><p style="margin:0 0 10px">${he ? "כתבו לנו בוואטסאפ, בעברית, ונענה אישית." : "Message us on WhatsApp and we will answer you personally."}</p><a class="btn wa" href="https://wa.me/306906723676?text=${encodeURIComponent((he ? "שלום, יש לי שאלה על יוון (מהכתבה: " : "Hi, I have a question about Greece (from the article: ") + c.title + ")")}" target="_blank" rel="noopener" data-out="wa-ask">${he ? "שאלו אותנו בוואטסאפ" : "Ask us on WhatsApp"}</a></aside>
   <div class="src"><div>${esc(t.source)} ${src}</div></div>
   ${shareRow()}
     <button class="btn ghost" type="button" data-toggle="report-form">${esc(t.report)}</button>
