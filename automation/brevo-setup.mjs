@@ -1,5 +1,6 @@
 // Ρύθμιση Brevo (τρέχει μετά από κάθε deploy, είναι ασφαλές να ξανατρέξει):
 // 1) χαρακτηριστικά επαφών, 2) πρότυπα email διπλής επιβεβαίωσης (HE/EN), 3) μεταφορά εγγραφών από το Cloudflare KV.
+// Ενεργό από 03.10.2026 (BREVO_API_KEY στο GitHub, συγχρονίζεται στο Cloudflare Pages με το deploy).
 import { createHash } from "node:crypto";
 import { env, log, brevo } from "./lib.mjs";
 
