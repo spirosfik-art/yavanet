@@ -29,6 +29,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
       redirectionUrl: new URL(lang === "he" ? "/?subscribed=1" : "/en/?subscribed=1", request.url).toString(),
       attributes: { LANG: lang, SIGNUP_PAGE: clean(b.page, 200), CONSENT_AT: new Date().toISOString() },
     });
+    try { await telegram(env, `📬 Νέα εγγραφή στο newsletter (${lang})${b.source ? " · " + clean(b.source, 40) : ""}: ${email}\n(στάλθηκε email επιβεβαίωσης – μπαίνει στη λίστα όταν το πατήσει)`); } catch (e) { }
     return json({ ok: true });
   } catch (e) {
     console.error(e.message);
