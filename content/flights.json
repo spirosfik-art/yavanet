@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T07:31:07+03:00",
+  "updated": "2026-10-03T07:31:16+03:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -14,29 +14,29 @@
       "ret": "2026-10-30",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9249&search_date=01102026&expected_price_uuid=01a0f983-ea82-8030-661b-f63adb9bed01&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=99&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9367&search_date=03102026&expected_price_uuid=01a0ff58-ad36-8030-63d6-894a4df3fc4c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=99&marker=782936"
     },
     {
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 114,
-      "depart": "2026-10-02",
-      "ret": "2026-10-08",
-      "airline": "Israir",
+      "price": 130,
+      "depart": "2026-10-05",
+      "ret": "2026-10-09",
+      "airline": "Blue Bird",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0210RHO08101?t=6H17909550001790961000000100TLVRHO17914596001791465300000095RHOTLV_cd7f437f4de0f87e16073bdac8f81e5b_10672&search_date=01102026&expected_price_uuid=01a0f99a-b2a8-8030-e3cd-0da4f9feaf9c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=iRobVuVFbh1VK0syM5hzqw&expected_price_source=share&expected_price_currency=eur&expected_price=114&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0510RHO09101?t=BZ17912130001791219000000100TLVRHO17915478001791553200000090RHOTLV_215d1d6c70d0a5302d9268295be0b5b4_12458&search_date=28092026&expected_price_uuid=01a0e971-5b8b-8030-a1c6-37db5d632e20&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=PoNErV2Id_qneZHS4qf3Ow&expected_price_source=share&expected_price_currency=eur&expected_price=130&marker=782936"
     },
     {
       "dest": "HER",
       "he": "הרקליון, כרתים",
       "en": "Heraklion, Crete",
-      "price": 150,
+      "price": 151,
       "depart": "2026-10-18",
       "ret": "2026-10-22",
       "airline": "El Al",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1810HER22101?t=LY17923014001792308600000120TLVHER17926590001792665000000100HERTLV_37bb87cef8a877d977dedb02108f47c5_14424&search_date=28092026&expected_price_uuid=01a0e640-d582-8030-208d-bc9df7acd530&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7AEpBfbIkIemu-s2Pt85EA&expected_price_source=share&expected_price_currency=eur&expected_price=150&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1810HER22101?t=LY17923014001792308600000120TLVHER17926590001792665000000100HERTLV_37bb87cef8a877d977dedb02108f47c5_14191&search_date=02102026&expected_price_uuid=01a0fc64-5363-8030-6c6a-886d858231f5&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7AEpBfbIkIemu-s2Pt85EA&expected_price_source=share&expected_price_currency=eur&expected_price=151&marker=782936"
     },
     {
       "dest": "SKG",
@@ -61,17 +61,6 @@
       "link": "https://www.aviasales.com/search/TLV1010CHQ14101?t=W617916657001791716700000850TLVBUDCHQ17919660001792008000000700CHQPFOTLV_0a1349d7e8379326ed2526ff7a90a2ca_19280&search_date=26092026&expected_price_uuid=01a0dd94-d8cf-8030-e7ab-754002106cb7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Mn28td9KW0nyjLFq99BCEA&expected_price_source=share&expected_price_currency=eur&expected_price=201&marker=782936"
     },
     {
-      "dest": "CFU",
-      "he": "קורפו",
-      "en": "Corfu",
-      "price": 228,
-      "depart": "2026-10-09",
-      "ret": "2026-10-14",
-      "airline": "Israir",
-      "transfers": 1,
-      "link": "https://www.aviasales.com/search/TLV0910CFU14101?t=6H17915442001791553800000160TLVCFU17919570001791993000000600CFUOTPTLV_6952771d7949803070ddef99f688f96f_21914&search_date=25092026&expected_price_uuid=01a0d862-43d8-8030-a58c-2bc94aae8cf3&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=k7989BpqzGQLJsS65v-9xw&expected_price_source=share&expected_price_currency=eur&expected_price=228&marker=782936"
-    },
-    {
       "dest": "JTR",
       "he": "סנטוריני",
       "en": "Santorini",
@@ -81,6 +70,17 @@
       "airline": "Sky Express",
       "transfers": 3,
       "link": "https://www.aviasales.com/search/TLV1510JTR19101?t=GQ17921070001792136700000495TLVATHJTR17924397001792479900000670JTRATHLCATLV_89e8754159966cb4e8ba3a62bc91f923_22637&search_date=27092026&expected_price_uuid=01a0e1d9-1178-8030-6ac9-4d1d51cad051&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0G7DDGs8Iy382x7qjxpMwA&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
+    },
+    {
+      "dest": "CFU",
+      "he": "קורפו",
+      "en": "Corfu",
+      "price": 236,
+      "depart": "2026-10-13",
+      "ret": "2026-10-17",
+      "airline": "Wizz Air",
+      "transfers": 2,
+      "link": "https://www.aviasales.com/search/TLV1310CFU17101?t=W617919306001791987900000955TLVBTSCFU17921967001792272900001270CFUBTSTLV_087699b6bad4a4d578626799a39f4ebc_22223&search_date=02102026&expected_price_uuid=01a0fdf2-edd1-8030-213c-b3f7e4263f96&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9SF0GY4uy9zaTIIZsD7xjg&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
     },
     {
       "dest": "JMK",
