@@ -1002,7 +1002,9 @@
     "3fdb2647219a": 1791015900941,
     "c8fcf63c94a3": 1791015900941,
     "57ccc323ffc2": 1791015900941,
-    "a8a94553693a": 1791015900941
+    "a8a94553693a": 1791015900941,
+    "f23802fcce81": 1791017768708,
+    "95f13edfe700": 1791017768708
   },
   "pending": {
     "50b287": {
@@ -1117,12 +1119,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T08:36:24.000Z",
+      "at": "2026-10-03T08:55:58.884Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T08:36:24.567Z",
+      "at": "2026-10-03T08:55:59.443Z",
       "items": 5
     },
     "civilprotection": {
@@ -1133,27 +1135,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T08:36:25.971Z",
+      "at": "2026-10-03T08:56:00.857Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T08:36:26.329Z",
+      "at": "2026-10-03T08:56:01.184Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T08:36:27.392Z",
+      "at": "2026-10-03T08:56:02.266Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T08:36:28.051Z",
+      "at": "2026-10-03T08:56:02.900Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T08:36:28.902Z",
+      "at": "2026-10-03T08:56:03.813Z",
       "items": 10
     },
     "toi-greece": {
@@ -1164,22 +1166,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T08:36:29.386Z",
+      "at": "2026-10-03T08:56:04.206Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T08:36:29.523Z",
+      "at": "2026-10-03T08:56:04.316Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T08:36:29.708Z",
+      "at": "2026-10-03T08:56:04.381Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T08:36:29.842Z",
+      "at": "2026-10-03T08:56:04.693Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1189,12 +1191,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T08:36:25.077Z",
+      "at": "2026-10-03T08:55:59.911Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T08:36:30.404Z",
+      "at": "2026-10-03T08:56:05.224Z",
       "items": 0
     },
     "hcg": {
@@ -1205,33 +1207,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T08:36:31.736Z",
+      "at": "2026-10-03T08:56:06.658Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T08:36:31.934Z",
+      "at": "2026-10-03T08:56:06.832Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T08:36:32.099Z",
+      "at": "2026-10-03T08:56:07.002Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T08:36:32.268Z",
+      "at": "2026-10-03T08:56:07.197Z",
       "items": 12
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T08:36:32.603Z",
-      "items": 7
+      "at": "2026-10-03T08:56:07.511Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T08:36:32.972Z",
-      "items": 13
+      "at": "2026-10-03T08:56:07.888Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
@@ -1279,6 +1281,12 @@
         "slug": "greece-weather-storm-crete-winds-9-beaufort",
         "title": "↻ Crete: Emergency 112 Alert Issued Across the Island",
         "at": "2026-10-03T11:25:48+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "red-code-crete-severe-weather-storm",
+        "title": "↻ Crete: Difficult night of floods, rescues and emergency warning",
+        "at": "2026-10-03T11:56:23+03:00",
         "section": "breaking"
       }
     ],
@@ -1355,21 +1363,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T08:25:00.941Z",
-    "considered": 11,
-    "picked": 2,
+    "at": "2026-10-03T08:56:08.708Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· ert | RFF & ZFF 2026: Νέο μεγάλο βραβείο για την Τζούλιαν Μουρ",
-      "· gct | Guardian columnist Simon Jenkins calls for Parthenon Sculptures to return to Athens",
-      "· ert | Λιθουανία: Έκλεισε το αεροδρόμιο του Βίλνιους – Σηκώθηκαν μαχητικά του ΝΑΤΟ μετά τον εντοπ",
-      "· ingr | Λιθουανία: Έκλεισε το αεροδρόμιο του Βίλνιους – Σηκώθηκαν μαχητικά του ΝΑΤΟ μετά τον εντοπ",
-      "· gct | ‘My Greek identity means nothing if it conflicts with Islam,’ says Muslim Spartan",
-      "✓ ert | FlyDubai: Με τσεκούρι επιτέθηκε στον πιλότο ο συγκυβερνήτης του αεροσκάφους σε μια «τρομοκ",
-      "· gct | Israel vows to get to the root of flydubai cockpit attack as UAE opens probe",
-      "· naftemporiki | Συναγερμός στη Λιθουανία: Έκλεισε το αεροδρόμιο του Βίλνιους μετά τον εντοπισμό drone – Ση",
-      "· naftemporiki | Κρήτη: Ποιοι δρόμοι είναι κλειστοί λόγω της κακοκαιρίας",
-      "· gn-iefimerida | «Τέτοιες ποσότητες νερού δεν τις έχουμε ξαναδεί»: Απεγκλωβισμοί και προβλήματα στο Λασίθι ",
-      "✓ gn-iefimerida | Κακοκαιρία στην Κρήτη: Μήνυμα από το 112 για όλο το νησί -Πλημμύρισαν δρόμοι, υπερχείλισε "
+      "· gn-iefimerida | Κακοκαιρία στην Κρήτη -Πού έχει διακοπεί η κυκλοφορία - iefimerida.gr",
+      "✓ gn-kathimerini | Κακοκαιρία: Νύχτα με προβλήματα και απεγκλωβισμούς στην Κρήτη – Εκτακτο δελτίο ΕΜΥ - Kathi"
     ]
   },
   "evergreenDone": [
