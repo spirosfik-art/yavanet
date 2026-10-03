@@ -352,6 +352,66 @@
     });
   }
 
+
+  /* ---------- Καλωσόρισμα: επιβεβαίωση εγγραφής + παράθυρο newsletter για νέους επισκέπτες ---------- */
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { } }
+  (function () {
+    var qs = new URLSearchParams(location.search);
+    if (qs.get("subscribed") === "1") {
+      lsSet("yv_nl", "1");
+      var w = qs.get("w");
+      toast(C.lang === "en" ? "Subscription confirmed! Check your inbox for a welcome gift 🎁" : "ההרשמה אושרה! שלחנו לכם מייל עם מתנה 🎁");
+      track("newsletter_confirmed");
+      if (w) fetch("/api/welcome", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ w: w }) }).catch(function () { });
+      try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) { }
+    }
+  })();
+  (function welcome() {
+    if (lsGet("yv_nl") || lsGet("yv_welcome")) return;
+    if (/^\/(en\/)?(p|contact)\//.test(location.pathname)) return;
+    var he = C.lang !== "en", shown = false, timer = null;
+    function ready() { var ck = $("#cookie"); return !ck || ck.hidden; }
+    function show() {
+      if (shown) return; if (!ready()) { setTimeout(show, 3000); return; }
+      if ($("#asi-gate")) { setTimeout(show, 5000); return; }
+      shown = true; lsSet("yv_welcome", String(Date.now())); window.removeEventListener("scroll", onScroll); clearTimeout(timer);
+      var items = he ? [["📰", "חדשות יוון בזמן אמת – שביתות, מזג אוויר, חוקים"], ["🏠", "נדל״ן: מחירים לפי שכונה, מחשבון עלויות ושאלון ויזת זהב"], ["✈️", "טיולים: טיסות זולות, מעבורות, אתונה עם ילדים"], ["🕍", "זמני שבת וכשרות בכל יוון"], ["💬", "שאלה? כתבו לנו בוואטסאפ ונענה אישית"]]
+        : [["📰", "Live Greece news – strikes, weather, new laws"], ["🏠", "Real estate: prices by area, cost calculator, Golden Visa quiz"], ["✈️", "Travel: cheap flights, ferries, Athens with kids"], ["🕍", "Shabbat times & kosher food across Greece"], ["💬", "A question? WhatsApp us and we answer personally"]];
+      var w = document.createElement("div"); w.id = "yv-welcome"; w.setAttribute("role", "dialog"); w.setAttribute("aria-label", he ? "ברוכים הבאים ליוונט" : "Welcome to Yavanet");
+      w.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:9998;display:flex;justify-content:center;padding:0 10px calc(var(--nav-h,0px) + env(safe-area-inset-bottom,0px) + 10px);pointer-events:none";
+      w.innerHTML = '<div dir="' + (he ? "rtl" : "ltr") + '" style="pointer-events:auto;position:relative;max-width:440px;width:100%;background:var(--surface,#fff);color:var(--ink,#1B2A36);border:1px solid var(--line,#D9E1E7);border-radius:18px;box-shadow:0 14px 40px -10px rgba(0,0,0,.45);padding:18px 18px 14px;max-height:78vh;overflow:auto;text-align:' + (he ? "right" : "left") + '">' +
+        '<button type="button" data-yw-close aria-label="' + (he ? "סגירה" : "Close") + '" style="position:absolute;top:8px;' + (he ? "left" : "right") + ':8px;border:0;background:none;font-size:22px;line-height:1;color:inherit;cursor:pointer;padding:6px">×</button>' +
+        '<b style="display:block;font-size:19px;margin:0 0 4px">👋 ' + (he ? "ברוכים הבאים ליוונט!" : "Welcome to Yavanet!") + '</b>' +
+        '<p style="margin:0 0 8px;font-size:14.5px">' + (he ? "כל מה שישראלים צריכים לדעת על יוון – בעברית, במקום אחד:" : "Everything Israelis need to know about Greece, in one place:") + '</p>' +
+        '<ul style="list-style:none;margin:0 0 10px;padding:0;font-size:14px;line-height:1.5">' + items.map(function (i) { return '<li style="margin:3px 0">' + i[0] + " " + esc(i[1]) + "</li>"; }).join("") + "</ul>" +
+        '<p style="margin:0 0 8px;font-weight:700;font-size:14.5px">📩 ' + (he ? "הצטרפו לניוזלטר וקבלו מתנה: מדריך PDF לקניית דירה ביוון" : "Join the newsletter and get a gift: our PDF guide to buying property in Greece") + "</p>" +
+        '<form novalidate style="display:flex;flex-wrap:wrap;gap:8px"><input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">' +
+        '<input id="yw-email" name="email" type="email" required autocomplete="email" dir="ltr" placeholder="' + (he ? "כתובת המייל שלכם" : "Your email") + '" style="flex:1;min-width:0;padding:11px;border:1px solid var(--line,#C9D3DB);border-radius:10px;font:inherit;background:var(--bg,#fff);color:inherit">' +
+        '<button type="submit" class="btn" style="white-space:nowrap">' + (he ? "הרשמה" : "Subscribe") + "</button>" +
+        '<label style="flex-basis:100%;display:flex;gap:6px;align-items:flex-start;font-size:12.5px;opacity:.85"><input id="yw-ok" type="checkbox" style="margin-top:3px">' + esc(L.nlConsent || (he ? "אני מסכים/ה לקבל את הניוזלטר." : "I agree to receive the newsletter.")) + "</label>" +
+        '<p class="yw-st" role="status" style="flex-basis:100%;margin:2px 0 0;font-size:13.5px"></p></form></div>';
+      document.body.appendChild(w); track("welcome_shown");
+      var close = function () { w.remove(); };
+      w.addEventListener("click", function (ev) { if (ev.target.closest("[data-yw-close]")) { track("welcome_close"); close(); } });
+      document.addEventListener("keydown", function k(ev) { if (ev.key === "Escape") { close(); document.removeEventListener("keydown", k); } });
+      var f = $("form", w), st = $(".yw-st", w);
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var email = $("#yw-email").value.trim();
+        if (!/^\S+@\S+\.\S+$/.test(email) || !$("#yw-ok").checked) { st.textContent = L.nlBad || (he ? "צריך מייל תקין והסכמה." : "Enter a valid email and tick the box."); return; }
+        var b = $("button[type=submit]", f); b.disabled = true;
+        fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: email, consent: "on", lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", source: "welcome-popup", website: f.website.value }) })
+          .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
+          .then(function (res) { lsSet("yv_nl", "1"); track("newsletter_signup", { kind: "welcome-popup" }); f.innerHTML = '<p style="margin:0;font-weight:700">' + esc(res && res.direct ? L.nlOkDirect : L.nlOk) + "</p>"; setTimeout(close, 6000); })
+          .catch(function () { st.textContent = L.formErr || "Error"; b.disabled = false; });
+      });
+    }
+    function onScroll() { var d = document.documentElement; if ((d.scrollTop + innerHeight) / d.scrollHeight > 0.5) show(); }
+    timer = setTimeout(show, 20000);
+    window.addEventListener("scroll", onScroll, { passive: true });
+  })();
+
   /* ---------- Φόρμες (newsletter, επαφές, αναφορές) ---------- */
   $$("form[data-api]").forEach(function (f) {
     f.addEventListener("submit", function (e) {
@@ -364,7 +424,7 @@
       var st = $(".status", f); var btn = $("button[type=submit]", f); btn.disabled = true;
       fetch(f.getAttribute("data-api"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
-        .then(function (res) { f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" });
+        .then(function (res) { if (isNl) lsSet("yv_nl", "1"); f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" });
           if (isNl && st) { var pdf = "/yavanet-guide-buying-property-" + (C.lang === "en" ? "en" : "he") + ".pdf"; st.innerHTML = esc(msg) + ' <a class="nl-dl" href="' + pdf + '" download>' + (C.lang === "en" ? "🎁 Download your PDF guide" : "🎁 להורדת המדריך (PDF)") + "</a>"; } })
         .catch(function () { if (st) st.textContent = L.formErr; toast(L.formErr); })
         .then(function () { btn.disabled = false; });

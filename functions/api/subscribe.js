@@ -1,5 +1,6 @@
 // Εγγραφή στο newsletter με διπλή επιβεβαίωση (Brevo double opt-in)
 import { json, clean, validEmail, readBody, sameOrigin, brevo, telegram, withDefaults, doiTemplate } from "../../lib/forms.js";
+import { welcomeToken } from "../../lib/welcome.js";
 
 export async function onRequestPost({ request, env: rawEnv }) {
   const env = withDefaults(rawEnv);
@@ -26,7 +27,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
       email,
       includeListIds: [list],
       templateId: await doiTemplate(env, lang),
-      redirectionUrl: new URL(lang === "he" ? "/?subscribed=1" : "/en/?subscribed=1", request.url).toString(),
+      redirectionUrl: new URL((lang === "he" ? "/?subscribed=1&w=" : "/en/?subscribed=1&w=") + encodeURIComponent(await welcomeToken(env, email, lang)), request.url).toString(),
       attributes: { LANG: lang, SIGNUP_PAGE: clean(b.page, 200), CONSENT_AT: new Date().toISOString() },
     });
     try { await telegram(env, `📬 Νέα εγγραφή στο newsletter (${lang})${b.source ? " · " + clean(b.source, 40) : ""}: ${email}\n(στάλθηκε email επιβεβαίωσης – μπαίνει στη λίστα όταν το πατήσει)`); } catch (e) { }
