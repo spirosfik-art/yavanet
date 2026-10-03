@@ -1242,8 +1242,8 @@ button.pf-btn{cursor:pointer;font:inherit}
 @media (max-width:720px){.skydate{font-size:10.5px}.sd-g{display:none}.sd-s{display:inline}}
 /* ── Λωρίδα «מבזקים» ── */
 .flashbar{background:var(--surface);border-bottom:1px solid var(--line)}
-.fb-in{display:flex;align-items:center;gap:12px;height:40px;overflow:hidden}
-.fb-tag{flex:none;background:#D7263D;color:#fff!important;font-weight:800;font-size:13px;padding:4px 10px;border-radius:4px;text-decoration:none}
+.fb-in{display:flex;align-items:center;gap:28px;height:40px;overflow:hidden}
+.fb-tag{flex:none;background:#D7263D;color:#fff!important;font-weight:800;font-size:13px;padding:5px 10px;min-height:26px;display:inline-flex;align-items:center;box-sizing:border-box;border-radius:4px;text-decoration:none}
 .fb-track{position:relative;flex:1;overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
 .fb-move{display:flex;gap:34px;width:max-content;animation:fbmove 60s linear infinite}
 [dir=rtl] .fb-move{animation-name:fbmove-rtl}
