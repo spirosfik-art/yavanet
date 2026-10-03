@@ -676,9 +676,25 @@ ${latest.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}) (${String(
 
 /* Στατικά αρχεία */
 const assets = path.join(ROOT, "site/assets");
+/* Ελαφριά ελαχιστοποίηση (minify) css/js χωρίς εξαρτήσεις: σχόλια, κενά και εσοχές.
+   Συντηρητική: στο JS αφαιρεί μόνο ολόκληρες γραμμές σχολίων και την εσοχή (οι αλλαγές γραμμής μένουν). */
+const minCss = (s) => s.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\s+/g, " ").replace(/\s*([{};])\s*/g, "$1").replace(/;}/g, "}").trim();
+const minJs = (s) => {
+  const out = []; let inBlock = false;
+  for (const raw of s.split("\n")) {
+    const l = raw.trim();
+    if (inBlock) { if (l.endsWith("*/")) inBlock = false; continue; }
+    if (!l || l.startsWith("//")) continue;
+    if (l.startsWith("/*") && !l.startsWith("/**/")) { if (!l.endsWith("*/")) inBlock = true; else if (l.indexOf("*/") !== l.length - 2) { out.push(l); continue; } continue; }
+    out.push(l);
+  }
+  return out.join("\n") + "\n";
+};
 for (const f of fs.readdirSync(assets)) {
   let buf = fs.readFileSync(path.join(assets, f));
   if (f === "robots.txt") buf = Buffer.from(buf.toString().replace(/__SITE__/g, SITE.url.replace(/\/$/, "")));
+  if (f === "styles.css") buf = Buffer.from(minCss(buf.toString()));
+  if (f === "app.js" || f === "tools.js") buf = Buffer.from(minJs(buf.toString()));
   fs.writeFileSync(path.join(OUT, f), buf);
 }
 /* Εκδόσεις αρχείων (cache-busting): κάθε αλλαγή σε css/js αλλάζει τη διεύθυνση, ώστε

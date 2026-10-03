@@ -6,6 +6,8 @@ import { createHash as _ch } from "node:crypto";
 // Εκδόσεις αρχείων (cache busting): αλλάζουν μόνο όταν αλλάζει το περιεχόμενο
 const _h = (f) => { try { return _ch("sha1").update(_rf(new URL("./assets/" + f, import.meta.url))).digest("hex").slice(0, 8); } catch { return "1"; } };
 const AV = { css: _h("styles.css"), js: _h("app.js") };
+// Γραμματοσειρές Google: φορτώνουν χωρίς να μπλοκάρουν την πρώτη εμφάνιση (display=swap → το κείμενο φαίνεται αμέσως)
+const FONTS = "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&amp;family=Assistant:wght@400;600;700;800&amp;display=swap";
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
 export const abs = (p) => SITE.url.replace(/\/$/, "") + p;
@@ -21,11 +23,11 @@ export function fmtDate(iso, lang) {
 
 // Φωτογραφίες Pexels στο σωστό μέγεθος (αντί για 1880px παντού) + srcset για οθόνες retina
 const pxl = (u, w) => { try { const x = new URL(u); if (x.host !== "images.pexels.com") return null; x.search = ""; x.searchParams.set("auto", "compress"); x.searchParams.set("cs", "tinysrgb"); x.searchParams.set("w", String(w)); return x.toString(); } catch { return null; } };
-const SIZES = { card: [[420, 840], "(max-width:700px) 100vw, 420px"], hero: [[800, 1300], "(max-width:900px) 100vw, 800px"], full: [[800, 1300], "(max-width:900px) 100vw, 800px"] };
+const SIZES = { card: [[180, 340, 500, 840], "168px"], hero: [[600, 800, 1300], "(max-width:900px) 100vw, 800px"], full: [[600, 800, 1300], "(max-width:900px) 100vw, 800px"] };
 export function artHTML(a, lang, kind = "card") {
   const img = a.image;
   if (img && img.type === "photo" && img.url) {
-    const alt = esc(a[lang].title || img.alt || ""), eager = kind !== "card";
+    const alt = esc(a[lang].title || img.alt || ""), eager = kind === "hero" || kind === "full";
     const load = eager ? ' fetchpriority="high"' : ' loading="lazy"';
     const [ws, sizes] = SIZES[kind] || SIZES.card;
     if (pxl(img.url, 100)) return `<img src="${esc(pxl(img.url, ws[0]))}" srcset="${ws.map((w) => esc(pxl(img.url, w)) + " " + w + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
@@ -205,8 +207,11 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="alternate" type="application/rss+xml" title="${NAME}" href="${P(lang, "/rss.xml")}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700;800&display=swap">
+<link rel="preconnect" href="https://images.pexels.com">
 <link rel="stylesheet" href="/styles.css?v=${AV.css}">
+<link rel="preload" as="style" href="${FONTS}">
+<link rel="stylesheet" href="${FONTS}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="${FONTS}"></noscript>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
@@ -270,6 +275,7 @@ ${menuSheet(lang)}
     <button type="button" id="ck-set">${esc(t.ckSet)}</button>
   </div>
 </div>
+<script>try{if(!JSON.parse(localStorage.getItem("yv-consent")||"null"))document.getElementById("cookie").hidden=false}catch(e){document.getElementById("cookie").hidden=false}</script>
 <div class="toast" id="toast" hidden role="status"></div>
 <script src="/app.js?v=${AV.js}" defer></script>
 </body>

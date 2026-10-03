@@ -23,14 +23,18 @@
     document.documentElement.classList.toggle("night", h >= 21 || h < 6);
     var m = $("#skymeta"); if (m) m.innerHTML = '<span class="sm-l">' + (C.lang === "en" ? "Current time in Athens" : "השעה עכשיו באתונה") + '</span><span class="sm-s">' + (C.lang === "en" ? "Athens" : "אתונה") + "</span> · " + athensTime();
     var cv = $("#stars"); if (!cv || !cv.getContext) return;
-    var ctx = cv.getContext("2d"), r = cv.getBoundingClientRect();
-    cv.width = r.width; cv.height = r.height; ctx.clearRect(0, 0, cv.width, cv.height);
-    if (p !== "night" && p !== "dusk") return;
-    var n = p === "night" ? 70 : 18, seed = 7;
-    function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
-    for (var i = 0; i < n; i++) { ctx.fillStyle = "rgba(255,255,255," + (0.35 + rnd() * 0.6) + ")"; ctx.beginPath(); ctx.arc(rnd() * cv.width, rnd() * cv.height * 0.8, rnd() * 1.4 + 0.3, 0, 6.3); ctx.fill(); }
+    // Τα αστέρια ζωγραφίζονται στο επόμενο frame: μέτρηση μετά το layout, χωρίς forced reflow
+    requestAnimationFrame(function () {
+      var ctx = cv.getContext("2d"), r = cv.getBoundingClientRect();
+      cv.width = r.width; cv.height = r.height; ctx.clearRect(0, 0, cv.width, cv.height);
+      if (p !== "night" && p !== "dusk") return;
+      var n = p === "night" ? 70 : 18, seed = 7;
+      function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
+      for (var i = 0; i < n; i++) { ctx.fillStyle = "rgba(255,255,255," + (0.35 + rnd() * 0.6) + ")"; ctx.beginPath(); ctx.arc(rnd() * cv.width, rnd() * cv.height * 0.8, rnd() * 1.4 + 0.3, 0, 6.3); ctx.fill(); }
+    });
   }
-  paintSky(); window.addEventListener("resize", paintSky); setInterval(paintSky, 60000);
+  var skyRaf = 0;
+  paintSky(); window.addEventListener("resize", function () { if (skyRaf) return; skyRaf = requestAnimationFrame(function () { skyRaf = 0; paintSky(); }); }); setInterval(paintSky, 60000);
 
   /* ---------- Καιρός Αθήνας στην κεφαλίδα + πρόγνωση 5 ημερών ---------- */
   (function () {
@@ -146,7 +150,7 @@
     loadData(function (d) {
       var f = $("#feed");
       f.innerHTML = '<button class="close" type="button" data-close-feed aria-label="' + esc(L.closeLbl) + '">✕</button>' + d.feed.map(function (a) {
-        return '<section class="slide"><div class="bg">' + a.art + '</div><div class="shade"></div><div class="txt"><span class="kicker" style="color:#F0B650">' + esc(a.kicker) + '</span><h2>' + esc(a.title) + '</h2><p style="margin:0;opacity:.9">' + esc(a.dek) + '</p><a class="btn gold" style="justify-self:start" href="' + a.url + '">' + esc(L.readMore) + '</a></div></section>';
+        return '<section class="slide"><div class="bg">' + String(a.art).replace('sizes="168px"', 'sizes="100vw"') + '</div><div class="shade"></div><div class="txt"><span class="kicker" style="color:#F0B650">' + esc(a.kicker) + '</span><h2>' + esc(a.title) + '</h2><p style="margin:0;opacity:.9">' + esc(a.dek) + '</p><a class="btn gold" style="justify-self:start" href="' + a.url + '">' + esc(L.readMore) + '</a></div></section>';
       }).join("");
       f.hidden = false; f.scrollTop = 0; lockScroll(true);
     });
@@ -173,6 +177,13 @@
      Χωρίς συγκατάθεση στέλνει μόνο ανώνυμα σήματα, ώστε το Analytics να εκτιμά σωστά την επισκεψιμότητα.
      Το Clarity (καταγραφή συμπεριφοράς) φορτώνει ΜΟΝΟ μετά από συγκατάθεση. */
   var loaded = {};
+  /* Scripts τρίτων (Analytics, Clarity, Pixel, διαφημίσεις): φορτώνουν μετά το load και όταν ο browser είναι ελεύθερος,
+     ώστε να μην καθυστερούν την πρώτη εμφάνιση της σελίδας. Οι κλήσεις gtag() μπαίνουν στην ουρά (dataLayer) και στέλνονται κανονικά. */
+  function later(fn) {
+    var go = function () { if (window.requestIdleCallback) requestIdleCallback(fn, { timeout: 2500 }); else setTimeout(fn, 1); };
+    if (document.readyState === "complete") setTimeout(go, 0); else window.addEventListener("load", go, { once: true });
+  }
+  function addScript(src, attrs) { later(function () { var s = document.createElement("script"); s.async = true; if (attrs) for (var k in attrs) s.setAttribute(k, attrs[k]); s.src = src; document.head.appendChild(s); }); }
   /* Συσκευές της ομάδας (ιδιοκτήτης, συνεργάτες): ?yvteam=1 → δεν μετράνε σε Analytics/Clarity. ?yvteam=0 → ξανά κανονικά */
   var team = null; try { team = new URLSearchParams(location.search).get("yvteam"); } catch (e0) { }
   if (team === "1" || team === "0") {
@@ -183,7 +194,7 @@
   var INTERNAL = store("yv-internal") === "1";
   function loadGA() {
     if (!C.ga4 || loaded.ga || INTERNAL) return; loaded.ga = true;
-    var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + C.ga4; document.head.appendChild(s);
+    addScript("https://www.googletagmanager.com/gtag/js?id=" + C.ga4);
     gtag("js", new Date());
     gtag("config", C.ga4, { anonymize_ip: true, content_group: C.grp || "", site_language: C.lang });
   }
@@ -192,7 +203,8 @@
     loadGA();
     if (c.stats && C.clarity && !loaded.cl && !INTERNAL) {
       loaded.cl = true;
-      (function (c2, l, a, r, i) { c2[a] = c2[a] || function () { (c2[a].q = c2[a].q || []).push(arguments); }; var t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; var y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", C.clarity);
+      window.clarity = window.clarity || function () { (window.clarity.q = window.clarity.q || []).push(arguments); };
+      addScript("https://www.clarity.ms/tag/" + C.clarity);
       window.clarity && window.clarity("consent");
     }
     if (c.ads) { loadPixel(); loadAdNetwork(); }
@@ -200,13 +212,14 @@
   /* Δίκτυο διαφημίσεων (tpembars): μόνο με συγκατάθεση για cookies διαφήμισης, όχι σε συσκευές της ομάδας */
   function loadAdNetwork() {
     if (!C.adn || loaded.adn || INTERNAL) return; loaded.adn = true;
-    var s = document.createElement("script"); s.async = true; s.setAttribute("data-cmp-ab", "2"); s.src = C.adn; document.head.appendChild(s);
+    addScript(C.adn, { "data-cmp-ab": "2" });
   }
   /* Meta Pixel: ΜΟΝΟ με συγκατάθεση για cookies διαφήμισης. Μετράει επισκέψεις, ανάγνωση άρθρων και επαφές,
      ώστε να φτιάχνουμε κοινά retargeting (π.χ. όσοι διάβασαν τον οδηγό ακινήτων) και να μετράμε επαφές από τις διαφημίσεις. */
   function loadPixel() {
     if (!C.fbp || loaded.fb || INTERNAL) return; loaded.fb = true;
-    (function (f, b, e, v, n, t, s2) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = "2.0"; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s2 = b.getElementsByTagName(e)[0]; s2.parentNode.insertBefore(t, s2); })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+    (function (f, n) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = "2.0"; n.queue = []; })(window);
+    addScript("https://connect.facebook.net/en_US/fbevents.js");
     fbq("init", C.fbp);
     fbq("track", "PageView");
     if (C.art) fbq("track", "ViewContent", { content_type: "article", content_category: C.grp || "", content_name: location.pathname, language: C.lang });
@@ -481,10 +494,11 @@
   var ww = $("#w-weather");
   if (ww) {
     var lat = CITIES.map(function (c) { return c[0]; }).join(","), lon = CITIES.map(function (c) { return c[1]; }).join(",");
-    fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=temperature_2m&timezone=Europe%2FAthens")
+    // Widgets της πλαϊνής στήλης: ζητούνται αφού φορτώσει η σελίδα, για να μην ανταγωνίζονται το κύριο περιεχόμενο
+    later(function () { fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=temperature_2m&timezone=Europe%2FAthens")
       .then(function (r) { return r.json(); })
       .then(function (d) { var arr = Array.isArray(d) ? d : [d]; var ids = ["athens", "thessaloniki", "crete", "rhodes", "mykonos"], pre = C.lang === "en" ? "/en" : ""; ww.innerHTML = arr.map(function (x, i) { return '<a class="wrow" href="' + pre + "/d/" + ids[i] + '/"><span>' + esc(L.cities[i]) + "</span><span>" + Math.round(x.current.temperature_2m) + "° ›</span></a>"; }).join(""); })
-      .catch(function () { ww.textContent = L.unavailable; });
+      .catch(function () { ww.textContent = L.unavailable; }); });
   }
   /* Σελίδες προορισμών: ζωντανός καιρός + πρόγνωση 5 ημερών (Open-Meteo, χωρίς κλειδί) */
   var dwx = $(".dwx");
@@ -527,7 +541,7 @@
       $("#w-fx-d").innerHTML = label;
       var cr = $("#c-rate"); if (cr) { cr.value = rate.toFixed(2); calcCost(); }
     }
-    fetch("https://open.er-api.com/v6/latest/EUR").then(function (r) { return r.json(); })
+    later(function () { fetch("https://open.er-api.com/v6/latest/EUR").then(function (r) { return r.json(); })
       .then(function (d) {
         if (d.result !== "success" || !d.rates || !d.rates.ILS) throw 0;
         var day = new Date(d.time_last_update_unix * 1000).toLocaleDateString(C.lang === "he" ? "he-IL" : "en-GB");
@@ -537,19 +551,19 @@
         return fetch("https://api.frankfurter.dev/v1/latest?base=EUR&symbols=ILS").then(function (r) { return r.json(); })
           .then(function (d) { showFx(d.rates.ILS, "ECB · Frankfurter · " + d.date); });
       })
-      .catch(function () { fx.textContent = L.unavailable; fx.classList.add("small"); });
+      .catch(function () { fx.textContent = L.unavailable; fx.classList.add("small"); }); });
   }
   var sh = $("#w-shabbat");
   if (sh) {
     var geo = [[264371, L.athens], [734077, L.thess]];
-    Promise.all(geo.map(function (g) { return fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=" + g[0] + "&M=on&lg=" + (C.lang === "he" ? "he" : "s")).then(function (r) { return r.json(); }); }))
+    later(function () { Promise.all(geo.map(function (g) { return fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=" + g[0] + "&M=on&lg=" + (C.lang === "he" ? "he" : "s")).then(function (r) { return r.json(); }); }))
       .then(function (res) {
         sh.innerHTML = res.map(function (d, i) {
           var cand = (d.items || []).find(function (x) { return x.category === "candles"; }), hav = (d.items || []).find(function (x) { return x.category === "havdalah"; });
           function hm(x) { return x ? new Date(x.date).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Athens" }) : "–"; }
           return "<div><span>" + esc(geo[i][1]) + " · " + esc(L.shabIn) + "</span><span>" + hm(cand) + "</span></div><div><span>" + esc(geo[i][1]) + " · " + esc(L.shabOut) + "</span><span>" + hm(hav) + "</span></div>";
         }).join("");
-      }).catch(function () { sh.textContent = L.unavailable; });
+      }).catch(function () { sh.textContent = L.unavailable; }); });
   }
 
   /* ---------- Χάρτης έκτακτων (Leaflet, μόνο στη σελίδα live) ---------- */
