@@ -452,7 +452,7 @@ async function timeouts() {
 
 /* ================= 8. Ενημερώσεις άρθρων ================= */
 async function updates() {
-  const recent = loadArticles().filter((a) => a.meta && a.meta.sourceHash && !a.hidden && Date.now() - Date.parse(a.publishedAt) < 72 * 3600e3)
+  const recent = loadArticles().filter((a) => a.meta && a.meta.sourceHash && !a.meta.manual && !a.guide && !a.hidden && Date.now() - Date.parse(a.publishedAt) < 72 * 3600e3)
     .sort((a, b) => (a.meta.checkedAt || "").localeCompare(b.meta.checkedAt || "")).slice(0, 2);
   for (const a of recent) {
     try {

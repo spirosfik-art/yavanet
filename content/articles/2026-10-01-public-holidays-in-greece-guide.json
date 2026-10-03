@@ -1,72 +1,80 @@
 {
-  "slug": "public-holidays-in-greece-guide",
-  "section": "living",
-  "publishedAt": "2026-10-01T08:02:51+03:00",
-  "updatedAt": null,
-  "sensitive": false,
-  "sponsored": false,
-  "breaking": false,
-  "geo": null,
-  "sources": [
-    {
-      "name": "Wikipedia – Public holidays in Greece",
-      "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Greece"
-    }
-  ],
-  "image": {
-    "type": "photo",
-    "url": "https://images.pexels.com/photos/29509531/pexels-photo-29509531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Simple minimalist calendar page for December with clean design.",
-    "credit": "Photo: Matheus Bertelli / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/minimalist-december-calendar-page-29509531/",
-    "license": "Pexels License",
-    "fallbackKey": "people"
+ "slug": "public-holidays-in-greece-guide",
+ "section": "living",
+ "publishedAt": "2026-10-01T08:02:51+03:00",
+ "updatedAt": "2026-10-03T17:20:00+03:00",
+ "sensitive": false,
+ "sponsored": false,
+ "breaking": false,
+ "geo": null,
+ "sources": [
+  {
+   "name": "timeanddate – Holidays in Greece 2027",
+   "url": "https://www.timeanddate.com/holidays/greece/2027"
   },
-  "alert": null,
-  "he": {
-    "title": "חגים רשמיים ביוון: מתי העסקים והמשרדים נסגרים",
-    "seoTitle": "חגים ומועדים ביוון: מתי משרדים ועסקים סגורים",
-    "seoDesc": "מדריך מלא לישראלים על חגים רשמיים ביוון, מתי חנויות ומשרדים סגורים, ומה חשוב לדעת כשמתכננים חופשה או סידורים.",
-    "keywords": [
-      "חגים ביוון",
-      "חופשה ביוון",
-      "עסקים ביוון",
-      "מתי סגור ביוון"
-    ],
-    "dek": "השבתון השבועי בימי ראשון, ימי חג מחייבים על פי חוק, ומועדים מקומיים שבהם בתי הספר והמוסדות נסגרים.",
-    "tldr": [
-      "כל יום ראשון בשנה הוא יום חופש רשמי ביוון לפי החוק.",
-      "ישנם תשעה חגים רשמיים מחייבים המוכרים על ידי המדינה בכל שנה.",
-      "בסך הכל נחוגים 12 חגים לאומיים, כולל מועדים נוספים שאינם מוגדרים כמחייבים."
-    ],
-    "means": "אם אתם מתכננים טיול, פתיחת חשבון בנק או סידורים מול הרשויות ביוון, כדאי לבדוק מראש מתי חלים החגים הרשמיים וימי השבתון. משרדים ממשלתיים, בנקים וחנויות רבות נוהגים להיות סגורים במועדים אלו, ולכן מומלץ להיערך בהתאם ולא להסתמך על מתן שירותים רגילים בימים אלו.",
-    "body": "## ימי שבתון קבועים וחגים רשמיים\n\nעל פי החוק ביוון, כל יום ראשון בשנה מוגדר כיון חופשה רשמי. נוסף על כך, קיימים תשעה חגים רשמיים מחייבים שנקבעו ברחבי המדינה, הכוללים בין היתר את ראש השנה האזרחית ב-1 בינואר, חג ההתגלות ב-6 בינואר, יום העצמאות היווני ב-25 במרץ, חג המולד ב-25 בדצמבר, ויום אספת תיאוטוקוס ב-26 בדצמבר. לצד חגים אלו, קיימים מועדים נוספים שאינם מוגדרים בחוק כמחייבים מטעם משרד העבודה, אך נחוגים בפועל כך שבסך הכל מציינים 12 חגים לאומיים מדי שנה.\n\n## חגים ניידים ואירועים מיוחדים\n\nרשימת החגים הלאומיים כוללת גם מועדים שמועדם משתנה משנה לשנה על פי לוח השנה, כמו יום שני הירוק, יום שישי הטוב האורתודอกס, שני של פסח, ויום חג הפנטקוסט האורתודוקסי. מבחינת מדיניות החגים הנופלים בימי ראשון, חג שחל ביום ראשון אינו עובר ליום אחר, למעט תאריך ה-1 במאי, שתושבים מקומיים רבים מתייחסים אליו יותר כאל שביתה כללית מאשר כיום חג רגיל.\n\n## חגים מקומיים ושל קבוצות מקצועיות\n\nמלבד החגים הלאומיים הכלל-ארציים, ישנם מועדים שאינם נחוגים בכל המדינה אלא רק במסגרת קבוצות מקצועיות מסוימות או בקהילות מקומיות ספציפיות. כך לדוגמה, עיריות רבות מציינות את הקדוש הפטרון המקומי הידוע גם כיום השם או את יום השחרור של האזור. ביום זה נהוג כי מוסדות החינוך והבתי ספר נשארים סגורים."
-  },
-  "en": {
-    "title": "Public holidays in Greece: when shops and offices close",
-    "seoTitle": "Public holidays in Greece: when shops and offices close",
-    "seoDesc": "A guide for Israelis on public holidays in Greece, when businesses close, and what to check for your trip or residency.",
-    "keywords": [
-      "public holidays greece",
-      "greece calendar",
-      "businesses closed greece",
-      "greece travel tips"
-    ],
-    "dek": "Weekly Sunday rest, mandatory official state holidays, and local celebrations when schools and offices take a day off.",
-    "tldr": [
-      "Every Sunday of the year is an official public holiday under Greek law.",
-      "There are nine mandatory official public holidays established nationwide each year.",
-      "A total of twelve national holidays are celebrated, including additional non-fixed dates."
-    ],
-    "means": "If you are planning a trip, opening a bank account, or handling bureaucracy in Greece, check the official holiday calendar in advance. Government offices, banks, and many shops remain closed on these dates, so it is best to plan your schedule accordingly and avoid relying on regular services during these days.",
-    "body": "## Weekly Rest and Mandatory Holidays\n\nUnder Greek law, every Sunday of the year is designated as an official public holiday. In addition, there are nine mandatory, official public holidays recognized nationwide. These include New Year's Day on January 1, Theophany on January 6, Greek Independence Day on March 25, Christmas Day on December 25, and the Synaxis of the Theotokos on December 26. Alongside these, there are further holidays celebrated that are not formally announced by the Ministry of Labour as mandatory each year, bringing the total to twelve national holidays annually.\n\n## Movable Feasts and Special Dates\n\nThe list of national holidays also includes movable dates that change each year according to the calendar, such as Clean Monday, Orthodox Good Friday, Orthodox Easter Monday, and Orthodox Pentecost Monday. Regarding holidays that fall on a Sunday, the day is generally not transferred to another date, with the sole exception of May 1st, which locals treat more as a general strike than a standard public holiday.\n\n## Local and Profession-Specific Holidays\n\nIn addition to nationwide holidays, certain public observances are celebrated exclusively by specific professional groups or local communities. For instance, many municipalities observe a patron saint day, commonly known as a Name Day, or a local Liberation Day. On these specific occasions, it is customary for local schools to take a day off."
-  },
-  "meta": {
-    "itemId": "eg-public-holidays",
-    "imageQuery": "greek calendar holidays office closed",
-    "sourceHash": "5aa122c006d4",
-    "model": "gemini-2.5-flash",
-    "checkedAt": "2026-10-03T09:51:10.543Z",
-    "official": false
+  {
+   "name": "Wikipedia – Public holidays in Greece",
+   "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Greece"
   }
+ ],
+ "image": {
+  "type": "photo",
+  "url": "https://images.pexels.com/photos/29509531/pexels-photo-29509531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "alt": "Simple minimalist calendar page for December with clean design.",
+  "credit": "Photo: Matheus Bertelli / Pexels",
+  "creditUrl": "https://www.pexels.com/photo/minimalist-december-calendar-page-29509531/",
+  "license": "Pexels License",
+  "fallbackKey": "people"
+ },
+ "alert": null,
+ "he": {
+  "title": "חגים רשמיים ביוון 2026–2027: מתי בנקים, משרדים וחנויות סגורים",
+  "dek": "כל ימי החג ביוון מאוקטובר 2026 ועד אוגוסט 2027, עם התאריך, היום בשבוע ומה סגור. חשוב לכל מי שמתכנן חתימה, פגישה בבנק או טיול.",
+  "tldr": [
+   "ביוון יש 13 ימי חג עד אוגוסט 2027, הקרוב שבהם ב-28 באוקטובר (יום ה\"אוחי\").",
+   "הפסחא האורתודוקסי 2027 יוצא ב-2 במאי, ו\"שני הנקי\" ב-15 במרץ.",
+   "בחגים בנקים, משרדי ממשלה ונוטריונים סגורים, ורוב החנויות גם."
+  ],
+  "means": "מתכננים לחתום על דירה או לפתוח חשבון בנק ביוון? תאמו את התאריך מראש, כי בימים האלה שום משרד לא יעבוד.",
+  "body": "## למה זה חשוב?\n\nבימי חג רשמיים ביוון הבנקים, משרדי הממשלה, רשות המסים והנוטריונים סגורים, ורוב החנויות סגורות גם הן. מי שמתכנן חתימה על דירה, פגישה בבנק או סידורים בעירייה, כדאי שיבדוק את הלוח לפני שהוא קובע.\n\n## לוח החגים 2026–2027\n\n| תאריך | יום | חג | מה סגור |\n|---|---|---|---|\n| 28.10.2026 | רביעי | יום ה\"אוחי\" (יום הלאום) | בנקים, משרדי ממשלה ורוב החנויות |\n| 25.12.2026 | שישי | חג המולד | כמעט הכל |\n| 26.12.2026 | שבת | היום השני של חג המולד | כמעט הכל |\n| 01.01.2027 | שישי | ראש השנה האזרחית | כמעט הכל |\n| 06.01.2027 | רביעי | חג ההתגלות (אפיפניה) | בנקים, משרדי ממשלה ורוב החנויות |\n| 15.03.2027 | שני | \"שני הנקי\" (קאתארי דפטרה), תחילת הצום לפני הפסחא | בנקים ומשרדי ממשלה, חלק גדול מהחנויות |\n| 25.03.2027 | חמישי | יום העצמאות של יוון | בנקים, משרדי ממשלה ורוב החנויות |\n| 30.04.2027 | שישי | יום שישי הגדול (לפני הפסחא) | בנקים ומשרדי ממשלה; חנויות בדרך כלל נפתחות רק מהצהריים |\n| 01.05.2027 | שבת | יום הפועלים | ראו הערה למטה |\n| 02.05.2027 | ראשון | חג הפסחא האורתודוקסי | כמעט הכל |\n| 03.05.2027 | שני | שני של פסחא | כמעט הכל |\n| 21.06.2027 | שני | שני של חג השבועות האורתודוקסי (אגיו פנבמטוס) | בנקים ומשרדי ממשלה; רוב החנויות פתוחות |\n| 15.08.2027 | ראשון | חג עליית מרים (דקפנדאבגוסטוס) | כמעט הכל; הרבה עסקים סגורים כל השבוע |\n\n## הערה על יום הפועלים 2027\n\nב-2027 ה-1 במאי יוצא בשבת של שבוע הפסחא. בשנים כאלה הממשלה היוונית בדרך כלל מעבירה את החג ליום אחר אחרי הפסחא (כך היה ב-2021 וב-2024). התאריך החדש מתפרסם רק לקראת המועד, ונעדכן כאן כשיפורסם.\n\n## עוד כמה דברים שכדאי לדעת\n\n- **ימי ראשון:** רוב החנויות ביוון סגורות בימי ראשון, חוץ מאזורים תיירותיים ומכמה ימי ראשון בשנה.\n- **אזורים תיירותיים:** באיים ובמרכזי תיירות חנויות, מסעדות וסופרמרקטים רבים פתוחים גם בחגים.\n- **חגים מקומיים:** לכל עיר יש גם יום של הקדוש הפטרון שלה, ובו בתי ספר ומשרדי העירייה המקומיים לרוב סגורים.\n- **תחבורה:** בחגים הגדולים התחבורה הציבורית עובדת לפי לוח זמנים מצומצם.",
+  "seoTitle": "חגים ביוון 2026–2027: מתי הכל סגור",
+  "seoDesc": "לוח החגים הרשמיים ביוון 2026–2027 בעברית: תאריכים, ימים בשבוע, ומתי בנקים, משרדי ממשלה וחנויות סגורים. כולל פסחא 2027.",
+  "keywords": [
+   "חגים ביוון",
+   "פסחא ביוון 2027",
+   "חגים רשמיים יוון",
+   "מתי סגור ביוון",
+   "יום האוחי"
+  ]
+ },
+ "en": {
+  "title": "Public holidays in Greece 2026–2027: when banks, offices and shops close",
+  "dek": "Every Greek public holiday from October 2026 to August 2027, with the date, weekday and what closes. Useful for anyone planning a signing, a bank visit or a trip.",
+  "tldr": [
+   "Greece has 13 holidays until August 2027; the next one is 28 October (Ochi Day).",
+   "Orthodox Easter 2027 is on 2 May, and Clean Monday on 15 March.",
+   "On holidays banks, public services and notaries are closed, and so are most shops."
+  ],
+  "means": "Planning a property signing or opening a bank account in Greece? Fix the date in advance, because no office works on these days.",
+  "body": "## Why it matters\n\nOn official public holidays in Greece, banks, government offices, the tax office and notaries are closed, and most shops close too. If you are planning a property signing, a bank appointment or paperwork at the municipality, check the calendar first.\n\n## Holiday calendar 2026–2027\n\n| Date | Day | Holiday | What closes |\n|---|---|---|---|\n| 28.10.2026 | Wednesday | Ochi Day (national day) | Banks, public services, most shops |\n| 25.12.2026 | Friday | Christmas Day | Almost everything |\n| 26.12.2026 | Saturday | Second day of Christmas | Almost everything |\n| 01.01.2027 | Friday | New Year's Day | Almost everything |\n| 06.01.2027 | Wednesday | Epiphany | Banks, public services, most shops |\n| 15.03.2027 | Monday | Clean Monday (start of Lent) | Banks, public services, many shops |\n| 25.03.2027 | Thursday | Independence Day | Banks, public services, most shops |\n| 30.04.2027 | Friday | Orthodox Good Friday | Banks and public services; shops usually open only from midday |\n| 01.05.2027 | Saturday | Labour Day | See note below |\n| 02.05.2027 | Sunday | Orthodox Easter Sunday | Almost everything |\n| 03.05.2027 | Monday | Easter Monday | Almost everything |\n| 21.06.2027 | Monday | Orthodox Whit Monday (Agiou Pnevmatos) | Banks and public services; most shops open |\n| 15.08.2027 | Sunday | Assumption of Mary (Dekapentavgoustos) | Almost everything; many businesses close the whole week |\n\n## Note on Labour Day 2027\n\nIn 2027, 1 May falls on the Saturday of Easter week. In such years the Greek government usually moves the holiday to a day after Easter (as in 2021 and 2024). The new date is announced close to the time, and we will update this page when it is.\n\n## Good to know\n\n- **Sundays:** most shops in Greece are closed on Sundays, except in tourist areas and on a few Sundays a year.\n- **Tourist areas:** on the islands and in tourist centres many shops, restaurants and supermarkets stay open on holidays.\n- **Local holidays:** every town also celebrates its patron saint's day, when schools and local municipal offices are usually closed.\n- **Transport:** on the major holidays public transport runs a reduced schedule.",
+  "seoTitle": "Greece public holidays 2026–2027: what closes",
+  "seoDesc": "Greek public holidays 2026–2027: dates, weekdays and when banks, public services and shops close, including Orthodox Easter 2027 and Clean Monday.",
+  "keywords": [
+   "Greece public holidays 2027",
+   "Greek Easter 2027",
+   "Clean Monday 2027",
+   "Ochi Day",
+   "bank holidays Greece"
+  ]
+ },
+ "meta": {
+  "itemId": "eg-public-holidays",
+  "imageQuery": "greek calendar holidays office closed",
+  "model": "gemini-2.5-flash",
+  "checkedAt": "2026-10-03T17:20:00+03:00",
+  "official": false,
+  "manual": true
+ },
+ "guide": true,
+ "guideCat": "live"
 }
