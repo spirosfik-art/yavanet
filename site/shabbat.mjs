@@ -28,7 +28,7 @@ const PLACES = [
   { city: ["סלוניקי", "Thessaloniki"], dest: "thessaloniki", items: [
     { name: "Chabad of Thessaloniki", t: ["בית חב״ד", "Chabad house"], addr: "Salaminou 9, Thessaloniki", url: "jewishthessaloniki.com", n: ["תפילות יומיות ובשבת, ארוחות שבת.", "Daily and Shabbat prayers, Shabbat meals."] },
     { name: "Shalom Kosher Restaurant (Astoria Hotel)", t: ["מסעדה כשרה", "Kosher restaurant"], addr: "Tsimiski & Salaminou 9, Thessaloniki", url: "kosherastoria.com", n: ["בהשגחת הרב יואל קפלן ו-Balkan Kosher. המקורות חלוקים לגבי החודשים שבהם היא פתוחה – בדקו לפני שמגיעים.", "Supervised by Rabbi Yoel Kaplan & Balkan Kosher. Sources differ on the months it is open – check before visiting."] },
-    { name: "Yad LeZikaron Synagogue", t: ["בית כנסת", "Synagogue"], addr: "Vasileos Irakleiou 24, Thessaloniki", n: ["תפילות קבועות.", "Regular services."] },
+    { name: "Yad LeZikaron Synagogue", t: ["בית כנסת", "Synagogue"], addr: "Vasileos Irakleiou 24, Thessaloniki", n: ["סגור זמנית — יש לברר מול הקהילה.", "Temporarily closed — check with the community."] },
     { name: "Jewish Museum of Thessaloniki", t: ["המוזיאון היהודי של סלוניקי", "Jewish Museum of Thessaloniki"], addr: "Agiou Mina 11, Thessaloniki", url: "jmth.gr", n: ["סגור בשבת.", "Closed on Saturday."] },
   ] },
   { city: ["רודוס", "Rhodes"], dest: "rhodes", items: [

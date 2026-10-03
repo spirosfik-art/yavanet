@@ -19,6 +19,8 @@ import { movingPage } from "./site/moving.mjs";
 import { phrasebookPage } from "./site/phrasebook.mjs";
 import { strikeCheckPage } from "./site/strikecheck.mjs";
 import { isWeather, wxInfo, weatherPage } from "./site/weather.mjs";
+import { WX_LEVEL_PAGES, wxLevelUrl, wxLevelPage, wxArticleBox } from "./site/wxlevels.mjs";
+import { MONTHS, monthUrl, climatePage, climateIndexPage } from "./site/climate.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
@@ -243,6 +245,7 @@ ${newsletterBox(lang)}
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = relatedFor(a);
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+${a.wx ? wxArticleBox(a, lang) : ""}
 ${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">❓</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
@@ -441,6 +444,16 @@ ${pushBox(lang, true)}
     write(P(lang, u), layout({ lang, title: pg.title, description: pg.description, path: P(lang, u), altPath: P(lang === "he" ? "en" : "he", u), body: pg.body.replace("__WIDGETS__", widgets(lang, mostRead, true)), breaking: breakingNow, activeNav: (extra && extra.nav) || "tools", activeSection: extra && extra.section,
       jsonld: [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: pg.title, item: abs(P(lang, u)) }] }, ...(pg.faq && pg.faq.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: pg.faq.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] : [])] }));
   }
+  /* Καιρός: σελίδες επιπέδων προειδοποίησης (/weather-warnings/<id>/) + ο καιρός ανά μήνα (/weather/…) */
+  {
+    const wxCtx = { wxArts, NOW, TODAY, exists: (slug) => articles.some((a) => a.slug === slug) };
+    const ld = (lvl2, lvl3, pg) => [{ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: lvl2[0], item: abs(P(lang, lvl2[1])) }, ...(lvl3 ? [{ "@type": "ListItem", position: 3, name: lvl3[0], item: abs(P(lang, lvl3[1])) }] : [])] }, { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: pg.faq.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }];
+    const wxPage = (u, pg, jsonld, section) => write(P(lang, u), layout({ lang, title: pg.title, description: pg.description, path: P(lang, u), altPath: P(lang === "he" ? "en" : "he", u), body: pg.body.replace("__WIDGETS__", widgets(lang, mostRead, true)), breaking: breakingNow, activeNav: "travel", activeSection: section, jsonld }));
+    const hubName = lang === "he" ? "אזהרות מזג אוויר" : "Weather warnings", climName = lang === "he" ? "מזג אוויר ביוון" : "Greece weather";
+    for (const p of WX_LEVEL_PAGES) { const u = wxLevelUrl(p.id), pg = wxLevelPage(lang, p, wxCtx); wxPage(u, pg, ld([hubName, "/weather-warnings/"], [pg.name, u], pg), "breaking"); }
+    { const pg = climateIndexPage(lang); wxPage("/weather/", pg, ld([climName, "/weather/"], null, pg)); }
+    MONTHS.forEach((m, i) => { const u = monthUrl(m), pg = climatePage(lang, i, wxCtx); wxPage(u, pg, ld([climName, "/weather/"], [pg.name, u], pg)); });
+  }
   /* Ευρετήριο αναζήτησης */
   {
     const he = lang === "he", L = (a, b) => (he ? a : b);
@@ -634,6 +647,7 @@ for (const lang of LANGS) {
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   urls.push(P(lang, "/holidays/"), P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
   TOOL_PAGES(lang).forEach(([u]) => urls.push(P(lang, u)));
+  urls.push(...WX_LEVEL_PAGES.map((p) => P(lang, wxLevelUrl(p.id))), P(lang, "/weather/"), ...MONTHS.map((m) => P(lang, monthUrl(m))));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
   articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });
