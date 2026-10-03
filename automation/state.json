@@ -955,7 +955,9 @@
     "0c406856e871": 1790988418446,
     "669fb824be6a": 1790990584820,
     "d24fc8a27c11": 1790992857665,
-    "b5d5214e3c26": 1790994313910
+    "b5d5214e3c26": 1790994313910,
+    "b7d1ec5ba1fd": 1790997147349,
+    "e1f8ed78ad8a": 1790997147349
   },
   "pending": {},
   "sourceStatus": {
@@ -967,12 +969,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T02:45:21.480Z",
+      "at": "2026-10-03T03:12:15.569Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T02:45:22.018Z",
+      "at": "2026-10-03T03:12:16.408Z",
       "items": 5
     },
     "civilprotection": {
@@ -983,27 +985,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T02:45:23.439Z",
+      "at": "2026-10-03T03:12:18.624Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T02:45:23.779Z",
+      "at": "2026-10-03T03:12:18.751Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T02:45:24.867Z",
+      "at": "2026-10-03T03:12:20.150Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T02:45:25.565Z",
+      "at": "2026-10-03T03:12:21.041Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T02:45:26.001Z",
+      "at": "2026-10-03T03:12:21.979Z",
       "items": 10
     },
     "toi-greece": {
@@ -1014,22 +1016,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T02:45:26.443Z",
+      "at": "2026-10-03T03:12:22.560Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T02:45:26.575Z",
+      "at": "2026-10-03T03:12:22.830Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T02:45:26.749Z",
+      "at": "2026-10-03T03:12:22.914Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T02:45:26.871Z",
+      "at": "2026-10-03T03:12:23.114Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1039,12 +1041,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T02:45:22.295Z",
+      "at": "2026-10-03T03:12:17.002Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T02:45:27.322Z",
+      "at": "2026-10-03T03:12:23.815Z",
       "items": 0
     },
     "hcg": {
@@ -1055,33 +1057,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T02:45:29.239Z",
+      "at": "2026-10-03T03:12:25.204Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T02:45:29.432Z",
+      "at": "2026-10-03T03:12:25.389Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T02:45:29.670Z",
+      "at": "2026-10-03T03:12:25.609Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T02:45:30.135Z",
+      "at": "2026-10-03T03:12:25.870Z",
       "items": 13
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T02:45:30.500Z",
+      "at": "2026-10-03T03:12:26.150Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T02:45:30.997Z",
-      "items": 11
+      "at": "2026-10-03T03:12:26.588Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -1137,11 +1139,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T02:25:13.910Z",
-    "considered": 1,
+    "at": "2026-10-03T03:12:27.349Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Police search Giorgos Mazonakis’ home in homicide investigation"
+      "· gct | Car crashes into crowd of Newcastle Knights fans, injuring multiple people",
+      "· gct | Feast Day of Agios Dionysios Areopagitis, Patron Saint of Athens"
     ]
   },
   "evergreenDone": [
