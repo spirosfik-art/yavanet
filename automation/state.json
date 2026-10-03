@@ -1004,7 +1004,8 @@
     "57ccc323ffc2": 1791015900941,
     "a8a94553693a": 1791015900941,
     "f23802fcce81": 1791017768708,
-    "95f13edfe700": 1791017768708
+    "95f13edfe700": 1791017768708,
+    "708a547bc02c": 1791018253199
   },
   "pending": {
     "50b287": {
@@ -1119,12 +1120,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T08:55:58.884Z",
+      "at": "2026-10-03T09:04:02.635Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T08:55:59.443Z",
+      "at": "2026-10-03T09:04:03.235Z",
       "items": 5
     },
     "civilprotection": {
@@ -1135,27 +1136,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T08:56:00.857Z",
+      "at": "2026-10-03T09:04:04.842Z",
       "items": 27
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T08:56:01.184Z",
+      "at": "2026-10-03T09:04:04.995Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T08:56:02.266Z",
+      "at": "2026-10-03T09:04:06.388Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T08:56:02.900Z",
+      "at": "2026-10-03T09:04:07.136Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T08:56:03.813Z",
+      "at": "2026-10-03T09:04:07.897Z",
       "items": 10
     },
     "toi-greece": {
@@ -1166,22 +1167,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T08:56:04.206Z",
+      "at": "2026-10-03T09:04:08.320Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T08:56:04.316Z",
+      "at": "2026-10-03T09:04:08.593Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T08:56:04.381Z",
+      "at": "2026-10-03T09:04:08.801Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T08:56:04.693Z",
+      "at": "2026-10-03T09:04:08.942Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1191,12 +1192,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T08:55:59.911Z",
+      "at": "2026-10-03T09:04:03.544Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T08:56:05.224Z",
+      "at": "2026-10-03T09:04:09.414Z",
       "items": 0
     },
     "hcg": {
@@ -1207,39 +1208,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T08:56:06.658Z",
+      "at": "2026-10-03T09:04:11.141Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T08:56:06.832Z",
+      "at": "2026-10-03T09:04:11.332Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T08:56:07.002Z",
+      "at": "2026-10-03T09:04:11.505Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T08:56:07.197Z",
-      "items": 12
+      "at": "2026-10-03T09:04:11.660Z",
+      "items": 11
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T08:56:07.511Z",
+      "at": "2026-10-03T09:04:12.020Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T08:56:07.888Z",
+      "at": "2026-10-03T09:04:12.396Z",
       "items": 14
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-03",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "athens-public-transport-changes-october-2026",
@@ -1288,6 +1289,12 @@
         "title": "↻ Crete: Difficult night of floods, rescues and emergency warning",
         "at": "2026-10-03T11:56:23+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "kefalonia-forest-fire-response",
+        "title": "Forest Fire Breaks Out on the Island of Kefalonia",
+        "at": "2026-10-03T12:04:26+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1321,6 +1328,10 @@
       {
         "slug": "tatoi-estate-open-december",
         "at": "2026-10-03T07:04:16.218Z"
+      },
+      {
+        "slug": "kefalonia-forest-fire-response",
+        "at": "2026-10-03T09:04:27.221Z"
       }
     ]
   },
@@ -1363,12 +1374,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T08:56:08.708Z",
-    "considered": 2,
+    "at": "2026-10-03T09:04:13.199Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "· gn-iefimerida | Κακοκαιρία στην Κρήτη -Πού έχει διακοπεί η κυκλοφορία - iefimerida.gr",
-      "✓ gn-kathimerini | Κακοκαιρία: Νύχτα με προβλήματα και απεγκλωβισμούς στην Κρήτη – Εκτακτο δελτίο ΕΜΥ - Kathi"
+      "✓ naftemporiki | Φωτιά τώρα στην Κεφαλονιά – Σηκώθηκαν και εναέρια μέσα"
     ]
   },
   "evergreenDone": [
@@ -1411,5 +1421,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790949239981,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "kefalonia-forest-fire-response",
+      "url": "https://yavanet.gr/a/kefalonia-forest-fire-response/",
+      "at": "2026-10-03T09:04:27.221Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/kefalonia-forest-fire-response/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/kefalonia-forest-fire-response/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "כרתים ואיים: שריפת יער פרצה בכეფאלוניה",
+        "title_en": "Forest Fire Breaks Out on the Island of Kefalonia",
+        "dek_he": "כוחות כיבוי אש יבשתיים ואוויריים מוזעקו לאזור אנוניאטא בעקבות שריפת יער שפרצה באי. הרשות המקמית מסייעת במקום.",
+        "dek_en": "Ground and aerial firefighting units were deployed to the Anniata area following a forest fire on the island, with local authorities providing assistance.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/33444584/pexels-photo-33444584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "כרתים ואיים: שריפת יער פרצה בכეფאלוניה\n\nכוחות כיבוי אש יבשתיים ואוויריים מוזעקו לאזור אנוניאטא בעקבות שריפת יער שפרצה באי. הרשות המקמית מסייעת במקום.\n\nhttps://yavanet.gr/a/kefalonia-forest-fire-response/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Forest Fire Breaks Out on the Island of Kefalonia\n\nGround and aerial firefighting units were deployed to the Anniata area following a forest fire on the island, with local authorities providing assistance.\n\nhttps://yavanet.gr/en/a/kefalonia-forest-fire-response/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
