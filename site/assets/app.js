@@ -230,6 +230,7 @@
   /* ---------- Clicks ---------- */
   document.addEventListener("click", function (e) {
     var el = e.target.closest("button, a"); if (!el) return;
+    if (el.hasAttribute("data-asi-gate")) { e.preventDefault(); return asiGate(el.getAttribute("data-asi-gate")); }
     if (el.hasAttribute("data-push")) { e.preventDefault(); return togglePush(); }
     if (el.hasAttribute("data-feed")) { e.preventDefault(); return openFeed(); }
     if (el.hasAttribute("data-close-feed")) return closeFeed();
@@ -271,7 +272,7 @@
     if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
     // Επαφές με συνεργάτες (μετράνε ως «επαφή» στο Google Ads). Η κοινοποίηση άρθρου στο WhatsApp (wa.me/?text) ΔΕΝ είναι επαφή.
     var href = el.getAttribute("href") || "";
-    var WHO = { "306906723676": "S.F. Properties", "972546221414": "Asi Doron", "306983311161": "Yana", "302108232157": "Cremer & Partners" };
+    var WHO = { "306906723676": "S.F. Properties", "306983311161": "Yana", "302108232157": "Cremer & Partners" };
     var waNum = (href.match(/wa\.me\/(\d{6,})/) || [])[1];
     if (waNum) track("whatsapp_click", { to: WHO[waNum] || waNum });
     if (href.indexOf("tel:") === 0) { var tn = href.replace(/\D/g, ""); track("phone_click", { to: WHO[tn] || tn }); }
@@ -309,6 +310,45 @@
     }, { passive: true });
     // χρόνος ανάγνωσης και βάθος scroll
     var maxS = 0; window.addEventListener("scroll", function () { var d = document.documentElement; var p = Math.round(100 * (d.scrollTop + innerHeight) / d.scrollHeight); if (p > maxS) { maxS = p; if (p >= 90) track("article_read_complete"); } }, { passive: true });
+  }
+
+
+  /* ---------- Επαφή με τον Άση: email + υπηρεσία πριν από WhatsApp/τηλέφωνο ---------- */
+  function asiGate(mode) {
+    var he = C.lang !== "en", old = $("#asi-gate"); if (old) old.remove();
+    var T = he ? { h: "יצירת קשר עם אסי דורון", p: "השאירו אימייל ובחרו במה אתם צריכים עזרה, ומיד נעביר אתכם " + (mode === "tel" ? "למספר הטלפון של אסי." : "לוואטסאפ של אסי."), em: "אימייל", sv: "במה אסי יכול לעזור?", pick: "בחרו שירות", ops: [["real-estate", "נדל״ן – קנייה או מכירה"], ["management", "ניהול נכסים"], ["airbnb", "Airbnb"], ["renovation", "שיפוץ"]], c: "אני מסכים/ה שהפרטים יועברו לאסי דורון ול-S.F. Properties (המו״לית של יוונט) לצורך יצירת קשר. ", pol: "מדיניות פרטיות", go: mode === "tel" ? "הצגת המספר" : "המשך לוואטסאפ", x: "סגירה", bad: "נא למלא אימייל תקין, לבחור שירות ולאשר.", err: "משהו השתבש, נסו שוב." }
+      : { h: "Contact Asi Doron", p: "Leave your email and choose what you need help with, and we will take you straight to " + (mode === "tel" ? "Asi's phone number." : "Asi's WhatsApp."), em: "Email", sv: "What can Asi help with?", pick: "Choose a service", ops: [["real-estate", "Real estate – buying or selling"], ["management", "Property management"], ["airbnb", "Airbnb"], ["renovation", "Renovation"]], c: "I agree that my details are passed to Asi Doron and S.F. Properties (Yavanet's publisher) so they can contact me. ", pol: "Privacy policy", go: mode === "tel" ? "Show the number" : "Continue to WhatsApp", x: "Close", bad: "Please enter a valid email, choose a service and tick the box.", err: "Something went wrong, please try again." };
+    var w = document.createElement("div"); w.id = "asi-gate"; w.setAttribute("role", "dialog"); w.setAttribute("aria-modal", "true"); w.setAttribute("aria-label", T.h);
+    w.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(10,20,30,.55);display:flex;align-items:center;justify-content:center;padding:16px";
+    w.innerHTML = '<form style="background:#fff;color:#1B2A36;max-width:420px;width:100%;border-radius:16px;padding:22px;box-shadow:0 10px 40px rgba(0,0,0,.3);font:15px/1.5 inherit;text-align:' + (he ? "right" : "left") + '" dir="' + (he ? "rtl" : "ltr") + '">' +
+      '<h3 style="margin:0 0 6px;font-size:19px;color:#0B3A5B">' + esc(T.h) + '</h3><p style="margin:0 0 14px;color:#4A5A66">' + esc(T.p) + '</p>' +
+      '<label style="display:block;font-weight:600;margin-bottom:4px" for="ag-em">' + esc(T.em) + '</label><input id="ag-em" name="email" type="email" required autocomplete="email" dir="ltr" style="width:100%;box-sizing:border-box;padding:11px;border:1px solid #C9D3DB;border-radius:10px;font:inherit;margin-bottom:12px">' +
+      '<label style="display:block;font-weight:600;margin-bottom:4px" for="ag-sv">' + esc(T.sv) + '</label><select id="ag-sv" name="service" required style="width:100%;box-sizing:border-box;padding:11px;border:1px solid #C9D3DB;border-radius:10px;font:inherit;margin-bottom:12px;background:#fff"><option value="">' + esc(T.pick) + '</option>' + T.ops.map(function (o) { return '<option value="' + o[0] + '">' + esc(o[1]) + '</option>'; }).join("") + '</select>' +
+      '<input name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
+      '<label style="display:flex;gap:8px;align-items:flex-start;font-size:13px;color:#4A5A66;margin-bottom:14px"><input id="ag-ok" name="consent" type="checkbox" value="1" required style="margin-top:3px"><span>' + esc(T.c) + '<a href="' + (he ? "/privacy/" : "/en/privacy/") + '" target="_blank" rel="noopener">' + esc(T.pol) + '</a></span></label>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap"><button type="submit" style="flex:1;min-width:160px;background:#25D366;color:#fff;border:0;border-radius:10px;padding:12px;font:inherit;font-weight:700;cursor:pointer">' + esc(T.go) + '</button><button type="button" data-ag-close style="background:#EEF2F5;color:#1B2A36;border:0;border-radius:10px;padding:12px 16px;font:inherit;cursor:pointer">' + esc(T.x) + '</button></div>' +
+      '<p class="ag-st" role="status" style="margin:10px 0 0;font-size:14px;color:#0B3A5B"></p></form>';
+    document.body.appendChild(w);
+    var f = $("form", w), st = $(".ag-st", w), close = function () { w.remove(); };
+    w.addEventListener("click", function (ev) { if (ev.target === w || ev.target.hasAttribute("data-ag-close")) close(); });
+    document.addEventListener("keydown", function k(ev) { if (ev.key === "Escape") { close(); document.removeEventListener("keydown", k); } });
+    setTimeout(function () { try { $("#ag-em").focus(); } catch (e) { } }, 50);
+    track("asi_gate_open", { mode: mode });
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var email = $("#ag-em").value.trim(), service = $("#ag-sv").value, ok = $("#ag-ok").checked;
+      if (!/^\S+@\S+\.\S+$/.test(email) || !service || !ok) { st.textContent = T.bad; return; }
+      var b = $("button[type=submit]", f); b.disabled = true;
+      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "asi-contact", email: email, service: service, consent: 1, mode: mode, lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", website: f.website.value }) })
+        .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+        .then(function (res) {
+          track("generate_lead", { kind: "asi-contact", service: service });
+          if (mode === "tel" && res.tel) { st.innerHTML = '<a dir="ltr" href="tel:' + esc(res.tel.replace(/[^+\d]/g, "")) + '" style="font-size:20px;font-weight:700">' + esc(res.tel) + '</a>'; track("phone_click", { to: "Asi Doron" }); b.disabled = false; return; }
+          if (res.wa) { track("whatsapp_click", { to: "Asi Doron" }); location.href = res.wa; setTimeout(close, 800); return; }
+          throw 0;
+        })
+        .catch(function () { st.textContent = T.err; b.disabled = false; });
+    });
   }
 
   /* ---------- Φόρμες (newsletter, επαφές, αναφορές) ---------- */

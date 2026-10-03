@@ -13,9 +13,12 @@ const KINDS = {
   "business-listing": "🏪 Αίτηση καταχώρησης επιχείρησης",
   "gdpr-request": "🔒 Αίτημα GDPR (πρόσβαση/διαγραφή)",
   "contact": "✉️ Μήνυμα επικοινωνίας",
+  "asi-contact": "📲 Επαφή για τον Άση (πριν από WhatsApp/τηλέφωνο)",
 };
+const ASI = { wa: "972546221414", tel: "+972 54-622-1414" };
+const ASI_SERVICES = { "real-estate": "Real Estate", "management": "Management", "airbnb": "Airbnb", "renovation": "Renovation" };
 // Ποιες φόρμες είναι πιθανοί πελάτες (μπαίνουν στη λίστα CRM)
-const CRM_KINDS = new Set(["property-lead", "medtour-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
+const CRM_KINDS = new Set(["asi-contact", "property-lead", "medtour-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
 
 export async function onRequestPost({ request, env: rawEnv }) {
   const env = withDefaults(rawEnv);
@@ -30,6 +33,12 @@ export async function onRequestPost({ request, env: rawEnv }) {
     article: clean(b.article, 200), page: clean(b.page, 300), referrer: clean(b.referrer, 300), lang: b.lang === "en" ? "en" : "he",
     country: request.cf?.country || "", city: request.cf?.city || "", at: new Date().toISOString(),
   };
+  if (kind === "asi-contact") {
+    d.service = ASI_SERVICES[b.service] || "";
+    if (!d.service) return json({ ok: false, error: "invalid" }, 400);
+    if (!d.name) d.name = d.email;
+    d.message = `Υπηρεσία: ${d.service} · ${b.mode === "tel" ? "ζήτησε τηλέφωνο" : "πάει στο WhatsApp"}`;
+  }
   if (!validEmail(d.email) || !b.consent || !d.name) return json({ ok: false, error: "invalid" }, 400);
 
   const lines = [
@@ -41,7 +50,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
   if (CRM_KINDS.has(kind) && env.BREVO_API_KEY && env.BREVO_LEADS_LIST) {
     jobs.push(brevo(env, "/contacts", {
       email: d.email, updateEnabled: true, listIds: [Number(env.BREVO_LEADS_LIST)],
-      attributes: { FIRSTNAME: d.name, SMS_TEXT: d.phone, LEAD_KIND: kind, LEAD_SOURCE: d.article || d.page, AREA: d.area, BUDGET: d.budget, LEAD_STATUS: "Νέα", LANG: d.lang, COUNTRY: d.country, LEAD_AT: d.at },
+      attributes: { FIRSTNAME: d.name === d.email ? "" : d.name, SMS_TEXT: d.phone, LEAD_KIND: kind + (d.service ? " · " + d.service : ""), LEAD_SOURCE: d.article || d.page, AREA: d.area, BUDGET: d.budget, LEAD_STATUS: "Νέα", LANG: d.lang, COUNTRY: d.country, LEAD_AT: d.at },
     }));
   }
   if (env.BREVO_API_KEY && env.NOTIFY_EMAIL && env.SENDER_EMAIL) {
@@ -56,5 +65,10 @@ export async function onRequestPost({ request, env: rawEnv }) {
   const res = await Promise.allSettled(jobs);
   const failed = res.filter((r) => r.status === "rejected");
   failed.forEach((f) => console.error(f.reason?.message));
+  if (kind === "asi-contact") {
+    // Ο αριθμός δίνεται ΜΟΝΟ αφού αφήσει email και υπηρεσία (δεν υπάρχει μέσα στις σελίδες).
+    const txt = d.lang === "he" ? `היי אסי, הגעתי מיוונט. אני מתעניין/ת ב: ${d.service}` : `Hi Asi, I found you on Yavanet. I'm interested in: ${d.service}`;
+    return json({ ok: true, wa: `https://wa.me/${ASI.wa}?text=${encodeURIComponent(txt)}`, tel: ASI.tel });
+  }
   return failed.length === res.length ? json({ ok: false }, 502) : json({ ok: true });
 }
