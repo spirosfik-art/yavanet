@@ -244,7 +244,7 @@ ${body}
 </main>
 <nav class="bnav" aria-label="Main">${bnav}</nav>
 ${menuSheet(lang)}
-${SITE.whatsappChannel ? `<a class="wafloat" href="${esc(SITE.whatsappChannel)}" aria-label="WhatsApp" target="_blank" rel="noopener">${WA_SVG}</a>` : ""}
+<a class="wafloat" href="https://wa.me/306906723676?text=${encodeURIComponent(lang === "he" ? "שלום, הגעתי מיוונט ויש לי שאלה" : "Hi, I came from Yavanet and have a question")}" aria-label="${lang === "he" ? "כתבו לנו בוואטסאפ" : "WhatsApp us"}" title="WhatsApp" target="_blank" rel="noopener" data-out="wa-float">${WA_SVG}</a>
 <div class="feed" id="feed" hidden></div>
 <div class="sv" id="sv" hidden></div>
 <div class="cookie" id="cookie" hidden role="dialog" aria-labelledby="ck-t">
