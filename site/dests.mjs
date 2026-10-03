@@ -1,6 +1,21 @@
 // Σελίδες προορισμών (/d/<id>/) + «Υπάρχει απεργία σήμερα/αύριο;» (/strike-today/) + ημερολόγιο απεργιών (/strikes.ics)
 // Όλα χτίζονται από δεδομένα που ήδη έχουμε: άρθρα, οδηγοί, πτήσεις, απεργίες. Ο καιρός φορτώνει ζωντανά στον browser.
 import { esc, P, card, pushBox } from "./templates.mjs";
+import { FERRYHOPPER_AFF } from "./config.mjs";
+
+// Ferryhopper: μόνο διευθύνσεις που επιβεβαιώθηκαν (03.10.2026) από τις σελίδες λιμανιών του ίδιου του Ferryhopper.
+const FH = "https://www.ferryhopper.com/en/";
+const fhUrl = (p) => FH + p + (FERRYHOPPER_AFF ? (p.includes("?") ? "&" : "?") + FERRYHOPPER_AFF : "");
+const FERRIES = {
+  athens: [["ferries/greece/piraeus", "כל המעבורות מנמל פיראוס", "All ferries from Piraeus port"]],
+  rhodes: [["ferry-routes/direct/piraeus-athens-rhodes", "פיראוס ← רודוס", "Piraeus → Rhodes"]],
+  crete: [["ferry-routes/direct/athens-to-heraklion", "פיראוס ← הרקליון", "Piraeus → Heraklion"], ["ferry-routes/direct/athens-to-chania", "פיראוס ← חאניה", "Piraeus → Chania"]],
+  corfu: [["ferry-routes/direct/igoumenitsa-corfu", "איגומניצה ← קורפו", "Igoumenitsa → Corfu"]],
+  santorini: [["ferry-routes/direct/athens-piraeus-to-santorini", "פיראוס ← סנטוריני", "Piraeus → Santorini"], ["ferry-routes/direct/rafina-santorini", "רפינה ← סנטוריני", "Rafina → Santorini"]],
+  mykonos: [["ferry-routes/direct/piraeus-athens-to-mykonos", "פיראוס ← מיקונוס", "Piraeus → Mykonos"], ["ferry-routes/direct/rafina-athens-to-mykonos", "רפינה ← מיקונוס", "Rafina → Mykonos"]],
+  kos: [["ferry-routes/direct/ferry-athens-kos", "פיראוס ← קוס", "Piraeus → Kos"]],
+  paros: [["ferry-routes/direct/athens-piraeus-to-paros", "פיראוס ← פארוס", "Piraeus → Paros"]],
+};
 
 const H = (lang, he, en) => (lang === "he" ? he : en);
 const A = (lang, slug) => P(lang, "/a/" + slug + "/");
@@ -75,12 +90,16 @@ export function destPage(lang, d, ctx) {
   const wxBox = `<div class="dcard dwx" data-lat="${d.lat}" data-lng="${d.lng}" data-lang="${lang}"><span class="dk">${H(lang, `מזג האוויר ב${name} עכשיו`, `Weather in ${name} now`)}</span><b class="dwx-now">…</b><small class="dwx-d"></small><div class="dwx-days"></div><small class="dsrc">Open-Meteo</small></div>`;
   const stBox = `<div class="dcard dstrike${st.length ? " on" : ""}"><span class="dk">${H(lang, "שביתות שמשפיעות על ההגעה", "Strikes affecting travel")}</span>${st.length ? st.slice(0, 3).map((a) => { const nx = a.strike.dates.find((x) => x >= ctx.TODAY); return `<a href="${A(lang, a.slug)}"><b>${esc(fmtDay(nx, lang))}</b> ${esc(a.strike[lang] || a[lang].title)}</a>`; }).join("") : `<b class="ok">${H(lang, "אין שביתות מתוכננות 👍", "No strikes announced 👍")}</b>`}<a class="dgo" href="${P(lang, "/strike-today/")}">${H(lang, "יש שביתה היום או מחר? ←", "Strike today or tomorrow? →")}</a></div>`;
 
+  const fr = FERRIES[d.id] || [];
+  const ferryBox = fr.length ? `<div class="dcard dferry"><span class="dk">⛴️ ${H(lang, "כרטיסים ולוחות זמנים למעבורות", "Ferry tickets & timetables")}</span><div class="dfr">${fr.map(([u, h, e]) => `<a class="btn ghost" href="${fhUrl(u)}" target="_blank" rel="noopener" data-out="ferryhopper-${d.id}">${esc(H(lang, h, e))} ↗</a>`).join("")}</div><small>${H(lang, "דרך Ferryhopper. לפני שמפליגים, בדקו אם יש שביתה במעבורות.", "Via Ferryhopper. Before you sail, check for ferry strikes.")} <a href="${P(lang, "/strike-check/")}">${H(lang, "בדיקת שביתות לפי תאריכים", "Check strikes by date")}</a></small></div>` : "";
   const title = H(lang, `${name}: חדשות, מזג אוויר, טיסות ושביתות`, `${name}: news, weather, flights and strikes`);
   const body = `<div class="hub hub-travel dest">
 <header class="hub-hero"><div><span class="hs-k" style="color:#F0B650;font-weight:700">${H(lang, "יעדים ביוון", "Greek destinations")}</span><h1>${esc(name)}</h1><p>${esc(d.intro[he ? 0 : 1])}</p></div></header>
 <div class="dgrid">${wxBox}${flightBox}${stBox}</div>
+${ferryBox}
 ${guides.length ? sec(H(lang, `המדריך ל${name}`, `${name} guide`), `<div class="cards">${guides.map((a) => card(a, lang)).join("")}</div>`) : ""}
 ${sec(H(lang, `חדשות מ${name}`, `${name} news`), news.length ? `<div class="cards">${news.map((a) => card(a, lang)).join("")}</div>` : `<div class="empty-note">${H(lang, "עוד אין חדשות מהיעד הזה. ברגע שיהיו, הן יופיעו כאן.", "No news from here yet. They will appear here as soon as there are.")}</div>`)}
+${["athens", "thessaloniki", "rhodes", "crete", "corfu", "mykonos", "santorini"].includes(d.id) ? `<a class="fteaser" href="${P(lang, "/shabbat/")}#k-${d.id}"><span class="ft-ic" aria-hidden="true">🕯️</span><span class="ft-t"><b>${H(lang, `זמני שבת וכשרות ב${name}`, `Shabbat times & kosher in ${name}`)}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
 ${sec(H(lang, "יעדים נוספים", "More destinations"), destNav(lang, d.id))}
 ${pushBox(lang, true)}
 </div>`;

@@ -1438,3 +1438,8 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .sc-bad{color:var(--red);font-weight:700;margin:0}
 #sc-res:empty{display:none}
 .sc-form .row2{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.sc-form label{min-width:0}.calc input[type=date]{min-width:0;max-width:100%}
+
+/* ===== Μεταφορικά στις σελίδες προορισμών ===== */
+.dferry{margin-top:12px}
+.dfr{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0}
+.dfr .btn{padding:9px 14px;font-size:15px}

@@ -41,6 +41,8 @@ export const SECTIONS = [
   { slug: "jewish-greece", he: "יוון היהודית", en: "Jewish Greece", mark: "jew" },
 ];
 
+// Ferryhopper: κωδικός affiliate (π.χ. "aff=XXXX") – όταν υπάρξει, προστίθεται ως query string σε όλα τα links μεταφορικών.
+export const FERRYHOPPER_AFF = "";
 export const LEGAL_PAGES = ["about", "contact", "advertise", "privacy", "cookies", "terms", "corrections", "disclaimer"];
 
 export const T = {
