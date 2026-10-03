@@ -2,6 +2,7 @@
 // Όλα χτίζονται από δεδομένα που ήδη έχουμε: άρθρα, οδηγοί, πτήσεις, απεργίες. Ο καιρός φορτώνει ζωντανά στον browser.
 import { esc, P, card, pushBox } from "./templates.mjs";
 import { FERRYHOPPER_AFF } from "./config.mjs";
+import { DEST_GUIDES } from "./dest-guides.mjs";
 
 // Ferryhopper: μόνο διευθύνσεις που επιβεβαιώθηκαν (03.10.2026) από τις σελίδες λιμανιών του ίδιου του Ferryhopper.
 const FH = "https://www.ferryhopper.com/en/";
@@ -15,6 +16,12 @@ const FERRIES = {
   mykonos: [["ferry-routes/direct/piraeus-athens-to-mykonos", "פיראוס ← מיקונוס", "Piraeus → Mykonos"], ["ferry-routes/direct/rafina-athens-to-mykonos", "רפינה ← מיקונוס", "Rafina → Mykonos"]],
   kos: [["ferry-routes/direct/ferry-athens-kos", "פיראוס ← קוס", "Piraeus → Kos"]],
   paros: [["ferry-routes/direct/athens-piraeus-to-paros", "פיראוס ← פארוס", "Piraeus → Paros"]],
+  naxos: [["ferry-routes/direct/piraeus-naxos", "פיראוס ← נקסוס", "Piraeus → Naxos"], ["ferry-routes/direct/rafina-naxos", "רפינה ← נקסוס", "Rafina → Naxos"]],
+  milos: [["ferry-routes/direct/athens-milos", "פיראוס ← מילוס", "Piraeus → Milos"]],
+  zakynthos: [["ferry-routes/direct/kyllini-zante", "קיליני ← זקינתוס", "Kyllini → Zakynthos"]],
+  kefalonia: [["ferry-routes/direct/kyllini-kefalonia", "קיליני ← קפלוניה (פורוס)", "Kyllini → Kefalonia (Poros)"], ["ferry-routes/direct/patras-kefalonia", "פטרס ← קפלוניה (סאמי)", "Patras → Kefalonia (Sami)"]],
+  skiathos: [["ferry-routes/direct/volos-skiathos", "וולוס ← סקיאתוס", "Volos → Skiathos"]],
+  thassos: [["ferry-routes/direct/kavala-thassos", "קוואלה / קרמוטי ← תאסוס", "Kavala / Keramoti → Thassos"]],
 };
 
 const H = (lang, he, en) => (lang === "he" ? he : en);
@@ -61,6 +68,40 @@ export const DESTS = [
     re: /chalkidiki|halkidiki|kassandra|sithonia|חלקידיקי/i,
     guides: ["complete-guide-to-chalkidiki-for-israeli-travellers"],
     intro: ["חצי האי של החופים ליד סלוניקי: חדשות מחלקידיקי, מזג אוויר, טיסות לסלוניקי ושביתות רלוונטיות.", "The beach peninsula near Thessaloniki: Chalkidiki news, weather, flights to Thessaloniki and relevant strikes."] },
+  // Νέοι προορισμοί με πλήρη οδηγό (κείμενο στο dest-guides.mjs)
+  { id: "naxos", he: "נקסוס", en: "Naxos", lat: 37.10, lng: 25.38, air: ["JNX"], island: true, group: "cyclades",
+    re: /\bnaxos\b|נקסוס|נאקסוס/i, guides: ["cyclades-islands-guide"],
+    intro: ["האי הגדול בקיקלדים: חופי חול ארוכים, כפרי הר ועיר נמל עם מבצר. כל מה שצריך לדעת – מעבורות, חופים, מה לעשות ומזג האוויר עכשיו.", "The largest Cycladic island: long sandy beaches, mountain villages and a castle-topped port town. Ferries, beaches, things to do and live weather."] },
+  { id: "milos", he: "מילוס", en: "Milos", lat: 36.73, lng: 24.43, air: ["MLO"], island: true, group: "cyclades",
+    re: /\bmilos\b|מילוס/i, guides: ["cyclades-islands-guide"],
+    intro: ["אי החופים הצבעוניים בקיקלדים: סרקיניקו, קלפטיקו וכפרי דייגים. מעבורות, חופים, מה לעשות ומזג האוויר עכשיו.", "The Cyclades' island of colourful beaches: Sarakiniko, Kleftiko and fishing villages. Ferries, beaches, things to do and live weather."] },
+  { id: "zakynthos", he: "זקינתוס", en: "Zakynthos", lat: 37.78, lng: 20.90, air: ["ZTH"], island: true, group: "ionian",
+    re: /zakynthos|zante|זקינתוס|זאקינתוס|זנטה/i, guides: ["ionian-islands-guide-greece"],
+    intro: ["האי של המערות הכחולות וצבי הים בים היוני, עם סיפור הצלה מרגש של הקהילה היהודית. טיסות, מעבורות, חופים ומזג האוויר עכשיו.", "The Ionian island of the Blue Caves and sea turtles, with a moving Jewish rescue story. Flights, ferries, beaches and live weather."] },
+  { id: "kefalonia", he: "קפלוניה", en: "Kefalonia", lat: 38.18, lng: 20.49, air: ["EFL"], island: true, group: "ionian",
+    re: /kefalonia|cephalonia|argostoli|קפלוניה|כפלוניה/i, guides: ["ionian-islands-guide-greece"],
+    intro: ["האי הגדול בים היוני: מירטוס, מערת מליסאני, אסוס ופיסקרדו. איך מגיעים, האם צריך רכב, חופים ומזג האוויר עכשיו.", "The largest Ionian island: Myrtos, Melissani cave, Assos and Fiskardo. Getting there, whether you need a car, beaches and live weather."] },
+  { id: "lefkada", he: "לפקדה", en: "Lefkada", lat: 38.83, lng: 20.70, air: ["PVK"], island: true, group: "ionian",
+    re: /lefkada|lefkas|לפקדה|לפקאדה/i, guides: ["ionian-islands-guide-greece"],
+    intro: ["האי היוני שמגיעים אליו ברכב: צוקים לבנים, מים טורקיז ופורטו קציקי. איך מגיעים, חופים, מה לעשות ומזג האוויר עכשיו.", "The Ionian island you can drive to: white cliffs, turquoise water and Porto Katsiki. Getting there, beaches, things to do and live weather."] },
+  { id: "skiathos", he: "סקיאתוס", en: "Skiathos", lat: 39.16, lng: 23.49, air: ["JSI"], island: true,
+    re: /skiathos|סקיאתוס/i, guides: [],
+    intro: ["האי הירוק בספורדים עם יותר מ-60 חופים: קוקונריס, לאלאריה ושייט לסקופלוס. מעבורות מוולוס, טיסות ומזג האוויר עכשיו.", "The green Sporades island with 60+ beaches: Koukounaries, Lalaria and trips to Skopelos. Ferries from Volos, flights and live weather."] },
+  { id: "thassos", he: "תאסוס", en: "Thassos", lat: 40.78, lng: 24.71, air: ["SKG"], airTo: ["לסלוניקי", "to Thessaloniki"], island: true,
+    re: /thassos|thasos|תאסוס/i, guides: [],
+    intro: ["האי הירוק בצפון יוון: ג׳יולה, חוף השיש וכפרי הר מאבן. איך מגיעים דרך קוואלה או סלוניקי, חופים ומזג האוויר עכשיו.", "Northern Greece's green island: Giola, Marble Beach and stone mountain villages. Getting there via Kavala or Thessaloniki, beaches and live weather."] },
+  { id: "meteora", he: "מטאורה", en: "Meteora", lat: 39.72, lng: 21.63, air: ["ATH"], airTo: ["לאתונה", "to Athens"], island: false,
+    re: /meteora|kalambaka|kalabaka|מטאורה|קלמבקה/i, guides: ["meteora-monasteries-travel-guide", "greece-in-winter-where-to-go-guide"],
+    intro: ["מנזרים על עמודי סלע, אתר מורשת עולמית של אונסק״ו: איך מגיעים מאתונה, קוד לבוש, מתי לבקר ומזג האוויר בקלמבקה עכשיו.", "Monasteries on rock pillars, a UNESCO World Heritage Site: getting there from Athens, dress code, when to visit and live weather in Kalambaka."] },
+  { id: "nafplio", he: "נפפליו", en: "Nafplio", lat: 37.57, lng: 22.80, air: ["ATH"], airTo: ["לאתונה", "to Athens"], island: false,
+    re: /nafplio|nauplio|nafplion|נפפליו|נאפליו|נאפפליו/i, guides: ["nafplio-guide-peloponnese-greece", "greece-in-winter-where-to-go-guide"],
+    intro: ["הבירה הראשונה של יוון המודרנית, כשעתיים מאתונה: פלמידי, בורצי, מיקנה ואפידאורוס. איך מגיעים, מה לעשות ומזג האוויר עכשיו.", "Modern Greece's first capital, about two hours from Athens: Palamidi, Bourtzi, Mycenae and Epidaurus. Getting there, things to do and live weather."] },
+  { id: "kalamata", he: "קלמטה ומסיניה", en: "Kalamata & Messinia", lat: 37.04, lng: 22.11, air: ["ATH"], airTo: ["לאתונה", "to Athens"], island: false,
+    re: /kalamata|messinia|messenia|pylos|voidokilia|קלמטה|קלאמאטה|מסיניה/i, guides: [],
+    intro: ["דרום־מערב הפלופונס: העיר קלמטה, מסיני העתיקה, פילוס, וואידוקיליה ומאני. איך מגיעים, מה לעשות ומזג האוויר עכשיו.", "The southwestern Peloponnese: Kalamata, Ancient Messene, Pylos, Voidokilia and Mani. Getting there, things to do and live weather."] },
+  { id: "zagori", he: "זגוריה ויואנינה", en: "Zagori & Ioannina", lat: 39.85, lng: 20.80, air: ["ATH"], airTo: ["לאתונה", "to Athens"], island: false,
+    re: /zagori|zagoria|ioannina|epirus|vikos|זגוריה|זאגורי|יואנינה|אפירוס/i, guides: ["romaniote-jews-ancient-community-greece", "greece-in-winter-where-to-go-guide"],
+    intro: ["כפרי אבן, גשרים ונקיק ויקוס בהרי אפירוס, ויואנינה עם בית הכנסת הרומניוטי העתיק. איך מגיעים, טיולים ומזג האוויר עכשיו.", "Stone villages, bridges and the Vikos Gorge in the Epirus mountains, plus Ioannina and its old Romaniote synagogue. Getting there, hikes and live weather."] },
 ];
 
 // Ποιες απεργίες επηρεάζουν ποιον προορισμό
@@ -86,19 +127,25 @@ export function destPage(lang, d, ctx) {
   const st = strikes.filter((a) => strikeHits(d, a.strike.sectors));
   const dm = (x) => new Date(x + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
 
-  const flightBox = deals.length ? `<a class="dcard dflight" href="${P(lang, "/flights/")}"><span class="dk">${H(lang, "טיסה זולה מתל אביב", "Cheapest flight from Tel Aviv")}</span><b dir="ltr">€${deals[0].price}</b><small>${H(lang, "הלוך־חזור", "return")} · ${esc(dm(deals[0].depart))}${deals[0].ret ? " – " + esc(dm(deals[0].ret)) : ""} · ${esc(deals[0].airline)}</small><span class="dgo">${H(lang, "לכל המחירים ←", "All prices →")}</span></a>` : "";
+  const flightBox = deals.length ? `<a class="dcard dflight" href="${P(lang, "/flights/")}"><span class="dk">${H(lang, "טיסה זולה מתל אביב", "Cheapest flight from Tel Aviv")}${d.airTo ? " " + d.airTo[he ? 0 : 1] : ""}</span><b dir="ltr">€${deals[0].price}</b><small>${H(lang, "הלוך־חזור", "return")} · ${esc(dm(deals[0].depart))}${deals[0].ret ? " – " + esc(dm(deals[0].ret)) : ""} · ${esc(deals[0].airline)}</small><span class="dgo">${H(lang, "לכל המחירים ←", "All prices →")}</span></a>` : "";
   const wxBox = `<div class="dcard dwx" data-lat="${d.lat}" data-lng="${d.lng}" data-lang="${lang}"><span class="dk">${H(lang, `מזג האוויר ב${name} עכשיו`, `Weather in ${name} now`)}</span><b class="dwx-now">…</b><small class="dwx-d"></small><div class="dwx-days"></div><small class="dsrc">Open-Meteo</small></div>`;
   const stBox = `<div class="dcard dstrike${st.length ? " on" : ""}"><span class="dk">${H(lang, "שביתות שמשפיעות על ההגעה", "Strikes affecting travel")}</span>${st.length ? st.slice(0, 3).map((a) => { const nx = a.strike.dates.find((x) => x >= ctx.TODAY); return `<a href="${A(lang, a.slug)}"><b>${esc(fmtDay(nx, lang))}</b> ${esc(a.strike[lang] || a[lang].title)}</a>`; }).join("") : `<b class="ok">${H(lang, "אין שביתות מתוכננות 👍", "No strikes announced 👍")}</b>`}<a class="dgo" href="${P(lang, "/strike-today/")}">${H(lang, "יש שביתה היום או מחר? ←", "Strike today or tomorrow? →")}</a></div>`;
 
   const fr = FERRIES[d.id] || [];
   const ferryBox = fr.length ? `<div class="dcard dferry"><span class="dk">⛴️ ${H(lang, "כרטיסים ולוחות זמנים למעבורות", "Ferry tickets & timetables")}</span><div class="dfr">${fr.map(([u, h, e]) => `<a class="btn ghost" href="${fhUrl(u)}" target="_blank" rel="noopener" data-out="ferryhopper-${d.id}">${esc(H(lang, h, e))} ↗</a>`).join("")}</div><small>${H(lang, "דרך Ferryhopper. לפני שמפליגים, בדקו אם יש שביתה במעבורות.", "Via Ferryhopper. Before you sail, check for ferry strikes.")} <a href="${P(lang, "/strike-check/")}">${H(lang, "בדיקת שביתות לפי תאריכים", "Check strikes by date")}</a></small></div>` : "";
-  const title = H(lang, `${name}: חדשות, מזג אוויר, טיסות ושביתות`, `${name}: news, weather, flights and strikes`);
+  const g = DEST_GUIDES[d.id];
+  const title = g ? g.title[he ? 0 : 1] : H(lang, `${name}: חדשות, מזג אוויר, טיסות ושביתות`, `${name}: news, weather, flights and strikes`);
+  const gfaq = g ? g.faq.map((f) => (he ? [f[0], f[1]] : [f[2], f[3]])) : [];
   const body = `<div class="hub hub-travel dest">
-<header class="hub-hero"><div><span class="hs-k" style="color:#F0B650;font-weight:700">${H(lang, "יעדים ביוון", "Greek destinations")}</span><h1>${esc(name)}</h1><p>${esc(d.intro[he ? 0 : 1])}</p></div></header>
+<header class="hub-hero"><div><span class="hs-k" style="color:#F0B650;font-weight:700">${H(lang, "יעדים ביוון", "Greek destinations")}</span><h1>${esc(name)}${g ? `<small class="dsub">${H(lang, "מדריך לישראלים", "travel guide")}</small>` : ""}</h1><p>${esc(d.intro[he ? 0 : 1])}</p></div></header>
 <div class="dgrid">${wxBox}${flightBox}${stBox}</div>
 ${ferryBox}
+${g ? guideHtml(lang, g) : ""}
 ${guides.length ? sec(H(lang, `המדריך ל${name}`, `${name} guide`), `<div class="cards">${guides.map((a) => card(a, lang)).join("")}</div>`) : ""}
 ${sec(H(lang, `חדשות מ${name}`, `${name} news`), news.length ? `<div class="cards">${news.map((a) => card(a, lang)).join("")}</div>` : `<div class="empty-note">${H(lang, "עוד אין חדשות מהיעד הזה. ברגע שיהיו, הן יופיעו כאן.", "No news from here yet. They will appear here as soon as there are.")}</div>`)}
+${gfaq.length ? sec(H(lang, `שאלות נפוצות על ${name}`, `${name}: frequently asked questions`), `<div class="faq">${gfaq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${md(lang, a)}</p></details>`).join("")}</div>`) : ""}
+${g ? `<a class="fteaser" href="${P(lang, "/shabbat/")}"><span class="ft-ic" aria-hidden="true">🕯️</span><span class="ft-t"><b>${H(lang, "זמני שבת וכשרות ביוון", "Shabbat times & kosher in Greece")}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
+${g && g.rel ? sec(H(lang, "כדאי לשלב בטיול", "Combine it with"), `<nav class="dnav">${g.rel.map(([u, h, e]) => `<a href="${P(lang, u)}">${esc(H(lang, h, e))}</a>`).join("")}</nav>`) : ""}
 ${["athens", "thessaloniki", "rhodes", "crete", "corfu", "mykonos", "santorini"].includes(d.id) ? `<a class="fteaser" href="${P(lang, "/shabbat/")}#k-${d.id}"><span class="ft-ic" aria-hidden="true">🕯️</span><span class="ft-t"><b>${H(lang, `זמני שבת וכשרות ב${name}`, `Shabbat times & kosher in ${name}`)}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
 ${sec(H(lang, "יעדים נוספים", "More destinations"), destNav(lang, d.id))}
 ${pushBox(lang, true)}
@@ -107,7 +154,20 @@ ${pushBox(lang, true)}
     [H(lang, `כמה עולה טיסה מתל אביב ל${name}?`, `How much is a flight from Tel Aviv to ${name}?`), deals.length ? H(lang, `המחיר הזול ביותר שמצאנו היום הוא €${deals[0].price} הלוך־חזור לאדם. המחירים מתעדכנים כל בוקר בעמוד הטיסות.`, `The cheapest fare we found today is €${deals[0].price} return per person. Prices update every morning on the flights page.`) : H(lang, "המחירים מתעדכנים כל בוקר בעמוד הטיסות של יוונט.", "Prices update every morning on Yavanet's flights page.")],
     [H(lang, `יש שביתות שמשפיעות על הגעה ל${name}?`, `Are there strikes affecting travel to ${name}?`), st.length ? H(lang, `כן, יש ${st.length} שביתות מתוכננות שעשויות להשפיע. הפרטים בעמוד.`, `Yes, ${st.length} announced strike(s) may affect travel. Details on this page.`) : H(lang, "כרגע לא הוכרזו שביתות שמשפיעות על מטיילים.", "No strikes affecting travellers are announced right now.")],
   ];
-  return { title, description: d.intro[he ? 0 : 1], body, faq };
+  if (g) faq.splice(0, 1, ...gfaq.map(([q, a]) => [q, plain(a)]));
+  return { title, description: g ? g.desc[he ? 0 : 1] : d.intro[he ? 0 : 1], body, faq };
+}
+
+// Μικρό markdown: [κείμενο](/path/) ή [κείμενο](https://...), παράγραφοι με κενή γραμμή
+const md = (lang, t) => esc(t).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, x, u) => /^https?:/.test(u) ? `<a href="${u}" target="_blank" rel="noopener">${x}</a>` : `<a href="${P(lang, u)}">${x}</a>`);
+const plain = (t) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+function guideHtml(lang, g) {
+  const he = lang === "he";
+  const body = (b) => Array.isArray(b) ? `<ul>${b.map((x) => `<li>${md(lang, x)}</li>`).join("")}</ul>` : b.split("\n\n").map((p) => `<p>${md(lang, p)}</p>`).join("");
+  const parts = g.s.map((x) => ({ t: he ? x[0] : x[1], b: he ? x[2] : x[3] }));
+  const toc = `<nav class="dtoc" aria-label="${H(lang, "תוכן העניינים", "Contents")}">${parts.map((x, i) => `<a href="#g${i}">${esc(x.t)}</a>`).join("")}</nav>`;
+  return `<style>.dsub{display:block;font-size:.5em;font-weight:600;opacity:.85;margin-top:4px}.dguide{margin:18px 0}.dguide h2{scroll-margin-top:80px}.dguide p,.dguide ul{max-width:72ch}.dtoc{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}.dtoc a{font-size:.85rem;padding:5px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--ink);text-decoration:none}</style>
+<article class="dguide prose">${toc}${parts.map((x, i) => `<h2 id="g${i}">${esc(x.t)}</h2>${body(x.b)}`).join("")}</article>`;
 }
 
 export function destNav(lang, current) {
