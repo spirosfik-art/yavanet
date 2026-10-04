@@ -1071,7 +1071,13 @@
     "4805c6148b98": 1791079511457,
     "e09261effd8e": 1791079511457,
     "0a0f707d0a2f": 1791079511457,
-    "ba933f003063": 1791079511457
+    "ba933f003063": 1791079511457,
+    "2839467cba87": 1791086928716,
+    "7a72314389e3": 1791086928716,
+    "76460b76c58e": 1791086928716,
+    "96f721ebd55e": 1791086928716,
+    "768114c8b3bf": 1791086928716,
+    "ae8431d52285": 1791086928716
   },
   "pending": {},
   "sourceStatus": {
@@ -1083,12 +1089,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-04T02:04:55.268Z",
-      "items": 10
+      "at": "2026-10-04T04:07:56.682Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-04T02:04:56.038Z",
+      "at": "2026-10-04T04:07:57.322Z",
       "items": 5
     },
     "civilprotection": {
@@ -1099,27 +1105,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-04T02:04:58.072Z",
+      "at": "2026-10-04T04:07:59.653Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-04T02:04:58.426Z",
+      "at": "2026-10-04T04:07:59.806Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-04T02:04:59.474Z",
+      "at": "2026-10-04T04:08:00.812Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-04T02:05:00.187Z",
-      "items": 6
+      "at": "2026-10-04T04:08:01.426Z",
+      "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-04T02:05:00.768Z",
+      "at": "2026-10-04T04:08:02.208Z",
       "items": 10
     },
     "toi-greece": {
@@ -1130,22 +1136,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-04T02:05:01.436Z",
+      "at": "2026-10-04T04:08:02.714Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-04T02:05:01.693Z",
+      "at": "2026-10-04T04:08:02.851Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-04T02:05:01.958Z",
-      "items": 5
+      "at": "2026-10-04T04:08:03.262Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T02:05:02.484Z",
+      "at": "2026-10-04T04:08:03.666Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1155,12 +1161,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T02:04:56.582Z",
+      "at": "2026-10-04T04:07:57.996Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-04T02:05:03.297Z",
+      "at": "2026-10-04T04:08:04.148Z",
       "items": 0
     },
     "hcg": {
@@ -1171,33 +1177,38 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-04T02:05:07.812Z",
+      "at": "2026-10-04T04:08:05.533Z",
       "items": 1
     },
     "gn-civilprotection": {
-      "ok": true,
-      "at": "2026-10-04T02:05:08.023Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-04T04:08:14.959Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-pm": {
-      "ok": true,
-      "at": "2026-10-04T02:05:08.193Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-04T04:08:22.772Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-10-04T02:05:08.469Z",
-      "items": 7
+      "ok": false,
+      "at": "2026-10-04T04:08:31.828Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-kathimerini": {
-      "ok": true,
-      "at": "2026-10-04T02:05:08.825Z",
-      "items": 7
+      "ok": false,
+      "at": "2026-10-04T04:08:39.902Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-iefimerida": {
-      "ok": true,
-      "at": "2026-10-04T02:05:09.260Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-04T04:08:48.024Z",
+      "error": "HTTP 503",
+      "fails": 1
     }
   },
   "tgOffset": 829774786,
@@ -1275,28 +1286,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-04T02:05:11.457Z",
-    "considered": 18,
-    "picked": 6,
+    "at": "2026-10-04T04:08:48.716Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "· ingr | Ινδονησία: Σεισμός 6,1 βαθμών ανοικτά της νήσου Σούμπα",
-      "✓ ert | Σεισμός 4,1 Ρίχτερ στο Ρέθυμνο",
-      "· ert | FlyDubai: Ποιοι είναι οι δύο μυστηριώδεις πιλότοι που έσωσαν το αεροπλάνο από την καταστρο",
-      "· gct | Turkey and France Sign Defence Roadmap as Greece Buys French Arms",
-      "✓ gct | Auto DraftGreece returns priceless relics to Bulgaria and points Britain to the Parthenon ",
-      "✓ gct | Storms and Floods Bring Chaos to Crete as Drivers and Tourists Are Rescued",
-      "· ingr | Δεκάδες χιλιάδες διαδηλώνουν σε όλη την Ισπανία ενάντια στην στεγαστική κρίση – Ακροδεξιοί",
-      "· ert | Ινδονησία: Σεισμός 6,1 Ρίχτερ στην περιοχή Σούμπα",
-      "· ert | ΗΠΑ: Αγνοείται αεροπλάνο με έξι επιβαίνοντες που πετούσε από τις Βερμούδες στη Βοστώνη",
-      "· ingr | Κρήτη: Αδιάκοπη η μάχη για την αποκατάσταση της κυκλοφορίας – Άρχισαν οι πρώτες καταγραφές",
-      "✓ gct | Greece Attracts Foreign Property Investors With 6.25% Yields",
-      "· gct | Sofia welcomes Tsar Samuil’s remains a thousand years after his death",
-      "✓ gct | Rubio Praises Guilfoyle Ahead of Greece Visit Amid Questions Over Energy Ties",
-      "✓ ert | O Νετανιάχου προσκαλεί τον Ινδό πιλότο της πτήσης της flydubai να επισκεφθεί το Ισραήλ",
-      "· naftemporiki | Νετανιάχου στον πιλότο της flydubai: «Είστε ένας πραγματικός ήρωας των γενναίων λαών της Ι",
-      "· ingr | Κρήτη: Τέσσερις τουρίστες απεγκλωβίστηκαν από τη θάλασσα λόγω των πλημμυρών στην Ιεράπετρα",
-      "· gn-iefimerida | Πύργος: Φωτιά σε χαμηλή βλάστηση στην περιοχή Τριανταφυλλιά - iefimerida.gr",
-      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
+      "· ert | Ιράν: Συνελήφθησαν 31 άτομα για «δίκτυα δολιοφθοράς» που υποστηρίζονται από ΗΠΑ και Ισραήλ",
+      "· gct | AFP Probes Australian Links of Flydubai Co-Pilot",
+      "· ert | Γάζα: Πέντε νεκροί από ισραηλινό πλήγμα σε κτίριο κατοικιών",
+      "· ingr | ΗΠΑ: «Απελάθηκαν» δύο μέλη της ιρανικής αντιπροσωπείας στον ΟΗΕ",
+      "· gct | Auto DraftGreece returns priceless relics to Bulgaria and points Britain to the Parthenon ",
+      "· gct | Rubio Praises Guilfoyle Ahead of Greece Visit Amid Questions Over Energy Ties"
     ]
   },
   "evergreenDone": [

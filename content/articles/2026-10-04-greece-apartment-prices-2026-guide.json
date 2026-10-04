@@ -11,8 +11,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33706232/pexels-photo-33706232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A dense urban skyline view of Athens, Greece showcasing architecture and buildings.",
+    "credit": "Photo: Cezar Bulat / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/urban-skyline-of-athens-greece-cityscape-33706232/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "sources": [
     {
@@ -96,6 +101,7 @@
   "meta": {
     "manual": true,
     "checkedAt": "2026-10-04T09:00:00+03:00",
-    "imageQuery": "Athens rooftops apartments"
+    "imageQuery": "Athens rooftops apartments",
+    "photoTried": true
   }
 }

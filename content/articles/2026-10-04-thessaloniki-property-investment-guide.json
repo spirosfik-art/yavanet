@@ -11,8 +11,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/3534080/pexels-photo-3534080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a bustling waterfront with high-rise buildings lining the street, showcasing urban life.",
+    "credit": "Photo: Ami Suhzu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-and-brown-concrete-buildings-near-body-of-water-3534080/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "sources": [
     {
@@ -110,6 +115,7 @@
   "meta": {
     "manual": true,
     "checkedAt": "2026-10-04T09:00:00+03:00",
-    "imageQuery": "Thessaloniki waterfront buildings"
+    "imageQuery": "Thessaloniki waterfront buildings",
+    "photoTried": true
   }
 }

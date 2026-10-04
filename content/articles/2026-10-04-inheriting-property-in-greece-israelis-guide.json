@@ -11,8 +11,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8293750/pexels-photo-8293750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Calculator with keys and real estate documents symbolizes home buying finances.",
+    "credit": "Photo: RDNE Stock project / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/gray-and-black-calculator-on-the-table-8293750/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "sources": [
     {
@@ -98,6 +103,7 @@
   "meta": {
     "manual": true,
     "checkedAt": "2026-10-04T09:00:00+03:00",
-    "imageQuery": "Greek house keys documents"
+    "imageQuery": "Greek house keys documents",
+    "photoTried": true
   }
 }

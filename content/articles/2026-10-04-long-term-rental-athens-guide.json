@@ -11,8 +11,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18762049/pexels-photo-18762049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Cityscape showing residential apartments with balconies and distinct urban architecture in warm light.",
+    "credit": "Photo: Alina Chernii / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/residential-building-with-balconies-in-city-18762049/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "sources": [
     {
@@ -98,6 +103,7 @@
   "meta": {
     "manual": true,
     "checkedAt": "2026-10-04T09:00:00+03:00",
-    "imageQuery": "Athens apartment balconies street"
+    "imageQuery": "Athens apartment balconies street",
+    "photoTried": true
   }
 }
