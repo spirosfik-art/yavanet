@@ -1,0 +1,79 @@
+{
+  "slug": "fire-cardamaina-kos-october-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-04T14:36:06+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 36.837,
+    "lng": 27.137
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2170378/fotia-tora-stin-ko-epi-podos-i-pyrosvestiki/?utm_source=rss&utm_medium=rss&utm_campaign=fotia-tora-stin-ko-epi-podos-i-pyrosvestiki"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27490578/pexels-photo-27490578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A post-wildfire forest scene with smoke rising from scorched earth and charred trees.",
+    "credit": "Photo: Engin Akyurt / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/forest-fire-and-environmental-disaster-27490578/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Greece fire"
+  },
+  "he": {
+    "title": "שריפה פרצה באזור קרדמאינה באי קוס",
+    "seoTitle": "שריפה בקוס: אש פרצה באזור קרדמאינה באי",
+    "seoDesc": "שריפה פרצה היום באזור קרדמאינה באי קוס ביוון. כוחות כיבוי אש, כלי רכב ומסוק פועלים במקום לעצירת האש לצד סיוע מקומי.",
+    "keywords": [
+      "קוס",
+      "שריפה ביוון",
+      "יוון",
+      "איים ביוון",
+      "שריפה בקוס"
+    ],
+    "dek": "כוחות גדולים של כיבוי אש פועלים בשעה זו באזור קרדמאינה באי קוס שביוון בעקבות שריפה שפרצה בצמחייה נמוכה.",
+    "tldr": [
+      "שריפה פרצה באזור קרדמאינה באי קוס.",
+      "צוותי כיבוי אש ומסוק פועלים בזירה.",
+      "המקומיים מעניקים סיוע עם מכליות מים."
+    ],
+    "means": "אם אתם מטיילים כעת באי קוס, הישארו מעודכנים דרך כלי התקשורת המקומיים, הימנעו מהגעה לאזור קרדמאינה והישמעו להוראות כוחות הביטחון והחירום בשטח.",
+    "body": "## כוחות כיבוי אש פועלים באי קוס\n\nשריפה פרצה בצמחייה נמוכה באזור קרדמאינה שבאי קוס ביוון. למקום הוזנקו כוחות גדולים הכוללים כבאיות וצוותי חירום מהאזור.\n\nעל פי דיווח של שירות כיבוי האש היווני, במקום פועלים 15 כבאים עם שישה רכבי כיבוי וכן מסוק אחד המבצע גיחות מהאוויר. במקביל, רשויות המקומיות מעניקות סיוע באמצעות משאיות מים עירוניות.\n\nהפעולות בשטח נמשכות במטרה להשתלט על האש ולמנוע את התפשטותה."
+  },
+  "en": {
+    "title": "Wildfire breaks out in Cardamaina area on Kos",
+    "seoTitle": "Kos wildfire: fire breaks out in Cardamaina",
+    "seoDesc": "A wildfire broke out in the Cardamaina area on the Greek island of Kos. Firefighters, vehicles and a helicopter are operating at the scene.",
+    "keywords": [
+      "Kos",
+      "Greece fire",
+      "Kos wildfire",
+      "Greece news"
+    ],
+    "dek": "Firefighting forces are currently deployed in the Cardamaina area on the Greek island of Kos following a brush fire.",
+    "tldr": [
+      "A wildfire broke out in Cardamaina on Kos.",
+      "Firefighters and a helicopter are operating at the scene.",
+      "Local municipal water tankers are assisting operations."
+    ],
+    "means": "If you are currently visiting Kos, stay informed through local updates, avoid the Cardamaina area, and follow all instructions from local emergency authorities.",
+    "body": "## Firefighters deployed in Kos\n\nA fire broke out in low vegetation in the Cardamaina area on the Greek island of Kos, triggering a response from emergency services.\n\nAccording to the Hellenic Fire Service, 15 firefighters with six vehicles and one helicopter are operating at the site. Additional support is being provided by municipal water tankers.\n\nOperations to contain the blaze are ongoing."
+  },
+  "meta": {
+    "itemId": "4cf3cca83927",
+    "imageQuery": "wildfire smoke forest greece",
+    "sourceHash": "57f65a619cbd",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-04T11:36:07.180Z",
+    "official": false
+  }
+}

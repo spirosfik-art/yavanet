@@ -1086,7 +1086,39 @@
     "a302327c772c": 1791090990525,
     "99f142078e47": 1791093732430,
     "10da294bf24a": 1791093732430,
-    "224116003aa6": 1791093732430
+    "224116003aa6": 1791093732430,
+    "cf7e1ca112ae": 1791113754244,
+    "9399fb663896": 1791113754244,
+    "73363666e9a2": 1791113754244,
+    "7b259d9ac291": 1791113754244,
+    "9c1c5b63391d": 1791113754244,
+    "bd4cd3ea88f0": 1791113754244,
+    "1fa956846c62": 1791113754244,
+    "bfa6336ad919": 1791113754244,
+    "cefc0da11c08": 1791113754244,
+    "8de5ae51ca05": 1791113754244,
+    "ba88dd31df34": 1791113754244,
+    "000244a564ed": 1791113754244,
+    "4953c16f3ab3": 1791113754244,
+    "40c3fdf90054": 1791113754244,
+    "6b0474e48961": 1791113754244,
+    "932897b7a6f9": 1791113754244,
+    "9a9e304970b4": 1791113754244,
+    "64fbc86968dc": 1791113754244,
+    "42b58c142dff": 1791113754244,
+    "a8d0a988117c": 1791113754244,
+    "8d229ed83617": 1791113754244,
+    "7370cc12c26b": 1791113754244,
+    "86107c088bac": 1791113754244,
+    "4cf3cca83927": 1791113754244,
+    "f4db1568006e": 1791113754244,
+    "75dfe8e7a899": 1791113754244,
+    "f44b8912c04a": 1791113754244,
+    "50fa7e80b12e": 1791113754244,
+    "f91b9467ac35": 1791113754244,
+    "2a1dac3fdaf6": 1791113754244,
+    "fa15576f23ef": 1791113754244,
+    "4b96d61c4b9b": 1797680154244
   },
   "pending": {},
   "sourceStatus": {
@@ -1098,12 +1130,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-04T06:02:00.929Z",
+      "at": "2026-10-04T11:35:42.315Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-04T06:02:01.740Z",
+      "at": "2026-10-04T11:35:43.089Z",
       "items": 5
     },
     "civilprotection": {
@@ -1114,27 +1146,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-04T06:02:03.318Z",
+      "at": "2026-10-04T11:35:44.901Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-04T06:02:03.718Z",
+      "at": "2026-10-04T11:35:45.086Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-04T06:02:04.861Z",
+      "at": "2026-10-04T11:35:45.994Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-04T06:02:05.654Z",
+      "at": "2026-10-04T11:35:46.727Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-04T06:02:06.530Z",
+      "at": "2026-10-04T11:35:47.459Z",
       "items": 10
     },
     "toi-greece": {
@@ -1145,23 +1177,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-04T06:02:07.105Z",
+      "at": "2026-10-04T11:35:48.030Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-04T06:02:07.367Z",
+      "at": "2026-10-04T11:35:48.416Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-04T06:02:07.416Z",
+      "at": "2026-10-04T11:35:49.019Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T06:02:07.610Z",
-      "items": 5
+      "at": "2026-10-04T11:35:49.194Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -1170,12 +1202,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T06:02:01.971Z",
+      "at": "2026-10-04T11:35:43.846Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-04T06:02:08.260Z",
+      "at": "2026-10-04T11:35:49.925Z",
       "items": 0
     },
     "hcg": {
@@ -1186,39 +1218,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-04T06:02:09.866Z",
+      "at": "2026-10-04T11:35:51.124Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-04T06:02:10.056Z",
+      "at": "2026-10-04T11:35:51.431Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-04T06:02:10.269Z",
-      "items": 7
+      "at": "2026-10-04T11:35:51.603Z",
+      "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-04T06:02:10.489Z",
-      "items": 8
+      "at": "2026-10-04T11:35:51.769Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-04T06:02:10.815Z",
-      "items": 4
+      "at": "2026-10-04T11:35:52.085Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-04T06:02:11.199Z",
-      "items": 8
+      "at": "2026-10-04T11:35:52.520Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-04",
-    "count": 2,
+    "count": 4,
     "published": [
       {
         "slug": "crete-water-supply-disruption-bad-weather",
@@ -1249,6 +1281,18 @@
         "title": "Europe's Housing Crisis: Could the Protests Spread to Greece?",
         "at": "2026-10-04T09:44:38+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "fire-cardamaina-kos-october-2026",
+        "title": "Wildfire breaks out in Cardamaina area on Kos",
+        "at": "2026-10-04T14:36:06+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "aspropyrgo-train-fire-disruption",
+        "title": "Aspropyrgos Fire: Suburban Train Disruptions Near Athens",
+        "at": "2026-10-04T14:36:51+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1276,6 +1320,16 @@
         "title": "Καμπανάκι Ντέιβιντ Τσίπερφιλντ για την Αθήνα: «Αν οι αξίες γης εκτοξευθούν, όλοι θα φύγουν» -Προειδοποιεί και για τον υπερτουρισμό - iefimer",
         "reason": "Ίδιο θέμα με «Calls in Greece to Abolish Golden Visa and Shift Focus» – δεν γράφτηκε ξανά",
         "at": "2026-10-04T05:17:11.055Z"
+      },
+      {
+        "title": "Κακοκαιρία στο Ρέθυμνο: Κλειστά τη Δευτέρα και Τρίτη τα σχολεία σε Κουλούκωνα και Ζωνιανά",
+        "reason": "Ίδιο θέμα με «Severe Storms and Floods Hit Crete: Rescues and Road Closures»: Rule 4/7 violation: The article mentions the name of a private individual involved in an event (Mayor Giorgos Klados / יורגוס קלאדוס). Editorial rule 4 and 7 state to never use names of private individuals.",
+        "at": "2026-10-04T11:36:27.756Z"
+      },
+      {
+        "title": "Greece and Brazil Move to Expand Tourism Cooperation",
+        "reason": "The Hebrew body mentions 'אתונה' (Athens) as the location of the meeting, but the source text does not mention Athens as the location.",
+        "at": "2026-10-04T11:37:13.038Z"
       }
     ],
     "errors": [],
@@ -1283,6 +1337,10 @@
       {
         "slug": "earthquake-magnitude-4-1-rethymno-crete",
         "at": "2026-10-04T06:02:54.198Z"
+      },
+      {
+        "slug": "fire-cardamaina-kos-october-2026",
+        "at": "2026-10-04T11:36:07.180Z"
       }
     ]
   },
@@ -1330,13 +1388,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-04T06:02:12.430Z",
-    "considered": 3,
-    "picked": 2,
+    "at": "2026-10-04T11:35:54.244Z",
+    "considered": 32,
+    "picked": 4,
     "items": [
-      "✓ ingr | Σεισμός 4,1 Ρίχτερ «ταρακούνησε» το Ρέθυμνο",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - mnsw.hcg.gr",
-      "✓ gn-civilprotection | Ισχυρές βροχές και καταιγίδες έως και το μεσημέρι της Κυριακής (04-10-2026) στο νότιο Αιγα"
+      "· ert | Αποκαταστάθηκε η σιδηροδρομική κυκλοφορία στο τμήμα Άνω Λιόσια – Ασπρόπυργος και η ηλεκτρο",
+      "· gn-iefimerida | Κως: Σε επιφυλακή η Πυροσβεστική μετά από φωτιά στην Καρδάμαινα - iefimerida.gr",
+      "✓ naftemporiki | Κακοκαιρία στο Ρέθυμνο: Κλειστά τη Δευτέρα και Τρίτη τα σχολεία σε Κουλούκωνα και Ζωνιανά",
+      "· ingr | Φωτιά στον Ασπρόπυργο: Διακοπή κυκλοφορίας στον Προαστιακό στο τμήμα Άνω Λιόσια – Νέα Πέρα",
+      "· naftemporiki | Φωτιά τώρα στον Ασπρόπυργο – Κινητοποίηση της Πυροσβεστικής",
+      "· ert | Έλληνες και Γερμανοί εθελοντές στηρίζουν την ελληνική πυρόσβεση",
+      "· naftemporiki | Κρήτη: Απέραντοι λασπότοποι και αποκαρδιωτικές εικόνες στις πληγείσες περιοχές (φωτογραφίε",
+      "· gn-kathimerini | Φωτιά στον Ασπρόπυργο: Διακοπή κυκλοφορίας στον Προαστιακό στο τμήμα Άνω Λιόσια – Νέα Πέρα",
+      "· ingr | Κακοκαιρία στην Κρήτη: Μετράνε τις πληγές τους στην Ιεράπετρα – Μετέφεραν 47 άτομα από κατ",
+      "· gct | Greek Researchers Develop Promising Drug for Alzheimers",
+      "✓ gct | Greece and Brazil Move to Expand Tourism Cooperation",
+      "✓ ert | Φωτιά στον Ασπρόπυργο: Διακοπή κυκλοφορίας στον Προαστιακό στο τμήμα Άνω Λιόσια – Νέα Πέρα",
+      "· ert | Συλλαλητήριο αλιέων στη Θεσσαλονίκη- Συμβολικός αποκλεισμός της Λεωφόρου Νίκης",
+      "· ingr | ΚΚΕ για Μητσοτάκη: Ανακούφιση για τον λαό δεν θα προκύψει με τις επιστολές Μητσοτάκη, αλλά",
+      "· ert | Λασίθι: Στρέμματα καλλιεργειών και δρόμοι «πνίγηκαν» στο νερό – Ο χάρτης των ζημιών μέσα α",
+      "· ingr | Νέα «καρφιά» Σαμαρά: Δε με νοιάζει ποιος θα χάσει την καρέκλα του, με νοιάζει να μη χάσει ",
+      "· naftemporiki | Κακοκαιρία: Σε πληγείσες περιοχές της Κρήτης την Τρίτη ο Νίκος Ανδρουλάκης",
+      "· gn-kathimerini | Κακοκαιρία στην Κρήτη: Τεράστια η έκταση της καταστροφής – Νέο 112 και αγωνία για εγκλωβισ",
+      "· ingr | Μητσοτάκης: Διαφημίζει τα μέτρα-ψίχουλα για την «εισαγόμενη» ακρίβεια και καμαρώνει για τη",
+      "· ingr | Φωτιά στην Κω – Σηκώθηκε ελικόπτερο",
+      "· gn-hcg | Απεγκλωβισμός αλλοδαπών στην Ιεράπετρα – Εντοπισμός και διάσωση 39 αλλοδαπών στους Καλούς ",
+      "· naftemporiki | Κακοκαιρία: Ήχησε το 112 στην Ιεράπετρα – Επίχειρηση της Πυροσβεστικής για την απομάκρυνση",
+      "· gn-civilprotection | Ευ. Τουρνάς στην «Βραδυνή της Κυριακής»: 600 νέες προσλήψεις Πυροσβεστών Επί Θητείας το 20",
+      "✓ naftemporiki | Φωτιά τώρα στην Κω – Επί ποδός η Πυροσβεστική",
+      "· gn-kathimerini | Κρήτη: Για τρίτη νύχτα στη δίνη της κακοκαιρίας – Συνεχίζονται οι βροχοπτώσεις - Kathimeri",
+      "· gn-iefimerida | Σεισμός 4,1 Ρίχτερ τα ξημερώματα στο Ρέθυμνο - iefimerida.gr",
+      "· gn-iefimerida | Συνεχίζεται η σφοδρή κακοκαιρία στην Κρήτη: Βρέχει ξανά σε Ανώγεια και Ζωνιανά, τεράστιες ",
+      "· gn-iefimerida | Νέο νομοσχέδιο για τις φυλακές: «Βραχιολάκι» υπό όρους, ένταξη των Εξωτερικών Φρουρών στα ",
+      "· gtp | Yannis Hatzis Re-elected President of Hellenic Hoteliers Federation",
+      "· gn-iefimerida | Πύργος: Φωτιά σε χαμηλή βλάστηση στην περιοχή Τριανταφυλλιά - iefimerida.gr"
     ]
   },
   "evergreenDone": [
@@ -1379,5 +1464,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790949239981,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fire-cardamaina-kos-october-2026",
+      "url": "https://yavanet.gr/a/fire-cardamaina-kos-october-2026/",
+      "at": "2026-10-04T11:36:07.180Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fire-cardamaina-kos-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fire-cardamaina-kos-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה פרצה באזור קרדמאינה באי קוס",
+        "title_en": "Wildfire breaks out in Cardamaina area on Kos",
+        "dek_he": "כוחות גדולים של כיבוי אש פועלים בשעה זו באזור קרדמאינה באי קוס שביוון בעקבות שריפה שפרצה בצמחייה נמוכה.",
+        "dek_en": "Firefighting forces are currently deployed in the Cardamaina area on the Greek island of Kos following a brush fire.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/27490578/pexels-photo-27490578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה פרצה באזור קרדמאינה באי קוס\n\nכוחות גדולים של כיבוי אש פועלים בשעה זו באזור קרדמאינה באי קוס שביוון בעקבות שריפה שפרצה בצמחייה נמוכה.\n\nhttps://yavanet.gr/a/fire-cardamaina-kos-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Wildfire breaks out in Cardamaina area on Kos\n\nFirefighting forces are currently deployed in the Cardamaina area on the Greek island of Kos following a brush fire.\n\nhttps://yavanet.gr/en/a/fire-cardamaina-kos-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
