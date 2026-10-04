@@ -34,6 +34,7 @@ function html(lang) {
 <h2 style="font-size:18px;color:#0B3A5B;margin:18px 0 6px">${escHtml(t.what)}</h2><ul style="padding-${al}:18px;margin:0">${t.plan.map((x) => `<li>${escHtml(x)}</li>`).join("")}</ul>
 <h2 style="font-size:18px;color:#0B3A5B;margin:18px 0 6px">${escHtml(t.best)}</h2>${t.links.map(([l, u]) => `<p style="margin:6px 0"><a href="${utm(u)}" style="color:#0B5A8C">${escHtml(l)}</a></p>`).join("")}
 <div style="background:#EAF8EF;border-radius:12px;padding:16px;margin:20px 0 6px"><b>${escHtml(t.q)}</b><p style="margin:10px 0 0">${btn(WA, t.qBtn, "#25D366")}</p></div>
+<p style="margin:18px 0 0">${btn("https://www.facebook.com/profile.php?id=61595065647057", lang === "he" ? "📘 עקבו אחרי יוונט בפייסבוק" : "📘 Follow Yavanet on Facebook", "#1877F2")}</p>
 <p style="font-size:13px;color:#5B6B78;margin-top:18px">${escHtml(t.sign)}</p></td></tr></table></td></tr></table></body></html>`;
 }
 

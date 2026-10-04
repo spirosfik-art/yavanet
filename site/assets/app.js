@@ -777,3 +777,20 @@
   /* ---------- PWA ---------- */
   if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () { }); });
 })();
+
+// Facebook follow bar: mobile visitors arriving from Facebook, once per 14 days
+(function(){try{
+  var fromFb=/facebook\.com|fb\.com|fb\.me/i.test(document.referrer||"")||/[?&](fbclid|utm_source=(facebook|fb))/i.test(location.search);
+  if(!fromFb||window.innerWidth>=760)return;
+  var k="yv_fbbar",v=null;try{v=localStorage.getItem(k)}catch(e){}
+  if(v&&Date.now()-(+v)<14*864e5)return;
+  var fbA=document.querySelector('a[data-out="facebook-page"]');if(!fbA)return;
+  var he=(document.documentElement.lang||"he").indexOf("he")===0;
+  setTimeout(function(){
+    var d=document.createElement("div");d.className="fbbar";d.setAttribute("role","dialog");
+    d.innerHTML='<span>'+(he?"הגעתם מפייסבוק? עקבו אחרי יוונט שם":"Came from Facebook? Follow Yavanet there")+'</span><a href="'+fbA.getAttribute("href")+'" target="_blank" rel="noopener" data-out="facebook-page-bar">'+(he?"עקבו":"Follow")+'</a><button type="button" aria-label="'+(he?"סגירה":"Close")+'">×</button>';
+    var close=function(){d.remove();try{localStorage.setItem(k,String(Date.now()))}catch(e){}};
+    d.querySelector("button").onclick=close;d.querySelector("a").addEventListener("click",function(){setTimeout(close,300)});
+    document.body.appendChild(d);
+  },12000);
+}catch(e){}})();

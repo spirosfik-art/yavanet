@@ -1551,3 +1551,15 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .nl-links .btn{font-size:15px}
 .nl-box{display:grid;gap:10px}
 .nl-box .small{margin:0}
+
+.fbfollow{display:flex;align-items:center;gap:12px;margin:0 0 22px;padding:14px 16px;border-radius:14px;background:#EEF3FE;border:1px solid rgba(24,119,242,.3)}
+.fbfollow>span:first-child{font-size:26px;line-height:1}
+.fbfollow>span:nth-child(2){flex:1;min-width:0}
+.fbfollow b{display:block;font-size:16px}
+.fbfollow small{display:block;color:#4A5A68;font-size:13px;margin-top:2px}
+.btn.fb{background:#1877F2;color:#fff;border-color:#1877F2;white-space:nowrap}
+.fbbar{position:fixed;left:12px;right:12px;bottom:84px;z-index:60;display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:14px;background:#1877F2;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:14px}
+.fbbar a{background:#fff;color:#1877F2;font-weight:700;padding:7px 14px;border-radius:999px;text-decoration:none;white-space:nowrap}
+.fbbar button{background:none;border:0;color:#fff;font-size:20px;line-height:1;padding:4px;cursor:pointer;min-width:32px;min-height:32px}
+.fbbar span{flex:1}
+@media (min-width:760px){.fbbar{display:none}}

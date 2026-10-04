@@ -40,6 +40,7 @@ ${items.map((a) => `<tr><td style="padding:18px 24px;border-bottom:1px solid #D6
 <div style="font-size:12px;font-weight:bold;color:#1C6E9C">${esc(sec(a.section))}</div>
 <a href="${url(a, lang)}" style="display:block;font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0B3A5B;text-decoration:none;margin:4px 0">${esc(a[lang].title)}</a>
 <div style="font-size:15px;color:#556777;line-height:1.5">${esc(a[lang].dek)}</div></td></tr>`).join("")}
+<tr><td style="padding:4px 24px 0"><p style="margin:18px 0 0;text-align:center"><a href="https://www.facebook.com/profile.php?id=61595065647057" style="display:inline-block;background:#1877F2;color:#fff;text-decoration:none;font-weight:700;padding:10px 18px;border-radius:999px;font-size:14px">📘 ${rtl ? "עקבו אחרי יוונט בפייסבוק" : "Follow Yavanet on Facebook"}</a></p></td></tr>
 <tr><td style="padding:18px 24px;font-size:12px;color:#556777;text-align:${rtl ? "right" : "left"}">${rtl ? "קיבלת את המייל כי נרשמת לניוזלטר של Yavanet." : "You receive this email because you subscribed to the Yavanet newsletter."} <a href="{{ unsubscribe }}" style="color:#1C6E9C">${rtl ? "ביטול הרשמה" : "Unsubscribe"}</a></td></tr>
 </table></td></tr></table></body></html>`;
 }
