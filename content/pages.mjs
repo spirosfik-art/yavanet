@@ -78,6 +78,7 @@ Leave your details and we will send you an offer.` },
 
 - **ניוזלטר:** כתובת אימייל, שפה, תאריך הרשמה ואישור.
 - **טפסי פנייה:** שם, אימייל, טלפון, אזור ותקציב, וההודעה שלכם.
+- **התראות במייל (מזג אוויר ושביתות):** כתובת אימייל, שפה, האזורים ורמת האזהרות שבחרתם (ובהתראת שביתה לטיול: תאריכי הטיול), תאריך הרשמה ואישור.
 - **סטטיסטיקה (רק בהסכמה):** עמודים שנצפו, משך הביקור, מדינה ועיר משוערות, סוג מכשיר, מקור ההגעה ולחיצות. המידע נאסף באופן סטטיסטי, בלי שמכם.
 - **התראות לנייד (רק אם הפעלתם אותן):** כתובת ההרשמה הטכנית של הדפדפן, בלי שם ובלי אימייל. אפשר לבטל בכל רגע בהגדרות הדפדפן.
 - **לוגים טכניים:** כתובת IP וסוג דפדפן, לצורכי אבטחה בלבד.
@@ -85,6 +86,7 @@ Leave your details and we will send you an offer.` },
 ## למה ועל איזה בסיס
 
 - שליחת הניוזלטר: על בסיס הסכמתכם.
+- שליחת התראות במייל על מזג אוויר ושביתות: על בסיס הסכמתכם (עם אישור במייל). בכל מייל יש קישור לביטול.
 - מענה לפניות: על בסיס הסכמתכם ובקשתכם.
 - סטטיסטיקה ופרסום: רק על בסיס הסכמה בבאנר העוגיות.
 - אבטחה: על בסיס אינטרס לגיטימי.
@@ -95,7 +97,7 @@ Leave your details and we will send you an offer.` },
 
 ## כמה זמן שומרים
 
-ניוזלטר: עד ביטול ההרשמה. פניות: עד 24 חודשים. סטטיסטיקה: עד 14 חודשים.
+ניוזלטר והתראות במייל: עד ביטול ההרשמה. פניות: עד 24 חודשים. סטטיסטיקה: עד 14 חודשים.
 
 ## הזכויות שלכם
 
@@ -110,6 +112,7 @@ Leave your details and we will send you an offer.` },
 
 - **Newsletter:** email address, language, sign-up date and confirmation.
 - **Contact forms:** name, email, phone, area and budget, and your message.
+- **Email alerts (weather and strikes):** email address, language, the areas and warning level you chose (and, for a trip strike alert, your trip dates), sign-up date and confirmation.
 - **Statistics (only with consent):** pages viewed, visit length, approximate country and city, device type, referral source and clicks. Collected statistically, without your name.
 - **Mobile notifications (only if you turn them on):** your browser's technical subscription address, with no name or email. You can turn them off any time in your browser settings.
 - **Technical logs:** IP address and browser type, for security only.
@@ -117,6 +120,7 @@ Leave your details and we will send you an offer.` },
 ## Why, and on what basis
 
 - Sending the newsletter: your consent.
+- Sending weather and strike email alerts: your consent (confirmed by email). Every email has an unsubscribe link.
 - Replying to requests: your consent and request.
 - Statistics and advertising: only with consent in the cookie banner.
 - Security: legitimate interest.
@@ -127,7 +131,7 @@ Providers working for us: Cloudflare (hosting, security and Web Analytics: anony
 
 ## How long we keep it
 
-Newsletter: until you unsubscribe. Requests: up to 24 months. Statistics: up to 14 months.
+Newsletter and email alerts: until you unsubscribe. Requests: up to 24 months. Statistics: up to 14 months.
 
 ## Your rights
 

@@ -212,7 +212,7 @@
       if (!/^\S+@\S+\.\S+$/.test(email) || !form.consent.checked || !ok()) { st.textContent = M.alertBad; return; }
       var b = $("button[type=submit]", form); b.disabled = true;
       fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "strike-alert", email: email, consent: 1, trip_from: f.value, trip_to: t.value, lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", website: form.website.value }) })
-        .then(function (r) { if (!r.ok) throw 0; st.textContent = M.alertOk; toast(M.alertOk); form.reset(); track("generate_lead", { kind: "strike-alert" }); })
+        .then(function (r) { if (!r.ok) throw 0; st.textContent = M.alertOk; toast(M.alertOk); form.reset(); track("generate_lead", { kind: "strike-alert" }); track("alert_signup", { type: "strike", source: "strike-check" }); })
         .catch(function () { st.textContent = M.alertErr; })
         .then(function () { b.disabled = false; });
     });

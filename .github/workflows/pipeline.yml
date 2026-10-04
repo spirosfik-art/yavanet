@@ -80,6 +80,18 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
         run: node automation/strike-alerts.mjs || true
+      - name: Weather warning email alerts (after deploy)
+        if: always() && (steps.git.outputs.content == '1' || env.DEPLOY == '1')
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+        run: |
+          node automation/weather-alerts.mjs || true
+          git add automation/wx-alerts.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "auto: weather alerts log $(date -u +%FT%TZ)" && (git push || (git pull --rebase -X theirs && git push))) || true
       - name: Social posts (after deploy)
         if: always()
         env:

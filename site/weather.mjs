@@ -5,6 +5,7 @@
 //  - 112 στα ελληνικά και αγγλικά: όπως στη σελίδα /emergency/ (content/emergency.mjs)
 import { esc, P, pushBox } from "./templates.mjs";
 import { wxLevelLinks } from "./wxlevels.mjs";
+import { wxAlertBox } from "./wxalert.mjs";
 
 const H = (lang, he, en) => (lang === "he" ? he : en);
 const A = (lang, slug) => P(lang, "/a/" + slug + "/");
@@ -135,6 +136,7 @@ ${lv(H(lang, "אדום", "Red"), "lv-red", "מזג אוויר קיצוני ומ�
 ${status}
 ${sec("wx-week", H(lang, "אזהרות ודיווחים מ-7 הימים האחרונים", "Warnings and reports from the last 7 days"), week.length ? `<div class="wxlist">${week.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${H(lang, "לא פורסמו אזהרות מזג אוויר ב-7 הימים האחרונים. 👍", "No weather warnings published in the last 7 days. 👍")}</div>`)}
 <p class="small">${H(lang, "הרשימה כוללת את הכתבות שלנו על אזהרות ומזג אוויר קשה. אזהרה יכולה להסתיים או להתעדכן: המצב העדכני תמיד באתר של <bdi dir='ltr'>ΕΜΥ</bdi> ובמפה של <bdi dir='ltr'>MeteoAlarm</bdi>.", "This list is our coverage of warnings and severe weather. A warning may end or be updated: the current status is always on the EMY website and the MeteoAlarm map.")}</p>
+${wxAlertBox(lang)}
 ${sec("wx-levels", H(lang, "מה אומרים הצבעים: צהוב, כתום, אדום", "What the colours mean: yellow, orange, red"), levels)}
 ${sec("wx-kinds", H(lang, "מה אומרת כל אזהרה? הסברים לפי סוג ורמה", "What does each warning mean? By type and level"), `<p class="small">${H(lang, "״ברמה בינונית״ = צהוב (Moderate), ״ברמה חמורה״ = כתום (Severe), ״ברמה קיצונית״ = אדום (Extreme).", "Moderate = yellow, Severe = orange, Extreme = red.")}</p>${wxLevelLinks(lang)}<p><a href="${P(lang, "/weather/")}">${H(lang, "🗓️ מזג האוויר ביוון לפי חודשים: טמפרטורות, ים וגשם ←", "🗓️ Greece weather month by month: temperatures, sea and rain →")}</a></p>`)}
 <section class="means"><h2>📱 ${H(lang, "הודעות 112 לטלפון", "112 alerts on your phone")}</h2><p>${H(lang, "ביוון נשלחות הודעות חירום מ-112 לטלפונים, ביוונית ובאנגלית. אם קיבלתם הודעה כזו, פעלו לפי ההוראות שבה (למשל להגביל תנועה או להתפנות).", "Greece sends 112 emergency messages to phones, in Greek and English. If you receive one, follow its instructions (for example, limit travel or evacuate).")}</p></section>

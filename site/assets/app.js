@@ -294,7 +294,10 @@
     var href = el.getAttribute("href") || "";
     var WHO = { "306906723676": "S.F. Properties", "306983311161": "Yana", "302108232157": "Cremer & Partners" };
     var waNum = (href.match(/wa\.me\/(\d{6,})/) || [])[1];
-    if (waNum) track("whatsapp_click", { to: WHO[waNum] || waNum });
+    // Αγγελίες /nadlan/: ο κωδικός ακινήτου ως παράμετρος (listing_id) σε κάθε κλικ (κάρτα, WhatsApp, πηγή, υπολογιστής)
+    var lst = el.closest("[data-listing]"), lid = lst ? lst.getAttribute("data-listing") : "";
+    if (lst && !waNum) track("listing_click", { listing_id: lid, action: lst.getAttribute("data-act") || "open" });
+    if (waNum) track("whatsapp_click", lid ? { to: WHO[waNum] || waNum, listing_id: lid } : { to: WHO[waNum] || waNum });
     if (href.indexOf("tel:") === 0) { var tn = href.replace(/\D/g, ""); track("phone_click", { to: WHO[tn] || tn }); }
     if (href.indexOf("mailto:") === 0) track("email_click", { to: href.slice(7).split("?")[0] });
   });
@@ -431,6 +434,37 @@
     window.addEventListener("scroll", onScroll, { passive: true });
   })();
 
+  /* ---------- Ειδοποιήσεις καιρού (+ απεργίες) με email: form[data-wxal] → /api/lead kind "weather-alert" (double opt-in) ---------- */
+  $$("form[data-wxal]").forEach(function (f) {
+    var M = {}; try { M = JSON.parse(f.getAttribute("data-m") || "{}"); } catch (e) { }
+    var boxes = $$("input[name=regions]", f), all = boxes.filter(function (x) { return x.value === "all"; })[0];
+    f.addEventListener("change", function (e) {
+      var el = e.target; if (el.name !== "regions" || !el.checked) return;
+      // «Όλη η Ελλάδα» και συγκεκριμένες περιοχές αλληλοαποκλείονται
+      if (el === all) boxes.forEach(function (x) { if (x !== all) x.checked = false; }); else if (all) all.checked = false;
+    });
+    f.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var st = $(".status", f), email = (f.email.value || "").trim();
+      var regions = boxes.filter(function (x) { return x.checked; }).map(function (x) { return x.value; });
+      var lv = $("input[name=level]:checked", f), strike = f.strike && f.strike.checked;
+      if (!/^\S+@\S+\.\S+$/.test(email) || !regions.length || !f.consent.checked) { st.textContent = M.bad; return; }
+      var b = $("button[type=submit]", f); b.disabled = true;
+      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "weather-alert", email: email, regions: regions, level: lv ? lv.value : "severe", strike: strike ? 1 : 0, consent: 1, lang: C.lang === "en" ? "en" : "he", page: location.pathname, referrer: document.referrer || "", website: f.website.value }) })
+        .then(function (r) { if (!r.ok) throw 0; st.textContent = M.ok; toast(M.ok); f.email.value = "";
+          track("alert_signup", { type: "weather", regions: regions.join(","), level: lv ? lv.value : "severe" });
+          if (strike) track("alert_signup", { type: "strike", source: "weather-form" }); })
+        .catch(function () { st.textContent = M.err; })
+        .then(function () { b.disabled = false; });
+    });
+  });
+  (function () {
+    var a = new URLSearchParams(location.search).get("alerts"); if (!a) return;
+    if (a === "confirmed") { toast(C.lang === "en" ? "Alerts confirmed! We'll email you when a warning is issued for your area. 🔔" : "ההתראות הופעלו! נשלח לכם מייל כשתצא אזהרה באזור שלכם. 🔔"); track("alert_confirmed", { type: "weather" }); }
+    if (a === "off") toast(C.lang === "en" ? "Done: you will no longer receive email alerts." : "בוצע: לא תקבלו יותר התראות במייל.");
+    try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) { }
+  })();
+
   /* ---------- Φόρμες (newsletter, επαφές, αναφορές) ---------- */
   $$("form[data-api]").forEach(function (f) {
     f.addEventListener("submit", function (e) {
@@ -462,6 +496,8 @@
       '<tr class="total"><td>' + esc(R.total) + "</td><td>" + money(tot, "EUR") + "</td></tr><tr><td>" + esc(R.grand) + "</td><td>" + money(p + tot, "EUR") + "</td></tr><tr><td>" + esc(R.ils) + "</td><td>" + money((p + tot) * r, "ILS") + "</td></tr>";
   }
   ["c-price", "c-rate", "c-agent"].forEach(function (id) { var el = document.getElementById(id); if (el) el.addEventListener("input", calcCost); });
+  // Προσυμπλήρωση από σύνδεσμο αγγελίας: /tools/?price=95000&rate=3.44#calc-cost
+  try { var qs = new URLSearchParams(location.search), qp = parseFloat(qs.get("price")), qr = parseFloat(qs.get("rate")); if ($("#c-price") && qp > 0) $("#c-price").value = Math.round(qp); if ($("#c-rate") && qr > 1 && qr < 10) $("#c-rate").value = qr; } catch (e) { }
   calcCost();
 
   /* ---------- Υπολογιστής Airbnb ---------- */

@@ -9,6 +9,7 @@
 // Νησιά εκτός σεζόν: santorinidave.com (Μύκονος, Σαντορίνη). Σκι Παρνασσού: GTP (άνοιγμα 23.12.2025).
 import { esc, P, GLOBAL } from "./templates.mjs";
 import { HOLIDAYS } from "./holidays.mjs";
+import { wxAlertBox } from "./wxalert.mjs";
 
 const H = (lang, he, en) => (lang === "he" ? he : en);
 
@@ -196,6 +197,7 @@ ${sec("cl-table", L(`טמפרטורות, ים וגשם ${m.in}`, `Temperatures, 
 ${sec("cl-sea", L(`ים ${m.in}: אפשר להתרחץ?`, `The sea in ${m.en}: can you swim?`), `<p>${esc(seaTxt)}</p>`)}
 ${sec("cl-open", L(`מה פתוח ומה קורה ${m.in}`, `What's open and on in ${m.en}`), `${seasHTML ? `<ul class="wx-tips">${seasHTML}</ul>` : ""}${holHTML.length ? `<h3>${L("חגים ואירועים", "Holidays and events")}</h3><ul class="wx-tips">${holHTML.join("")}</ul><p class="small">${L("חגים יווניים", "Greek holidays")}: <a href="${P(lang, "/holidays/")}">${L("לוח החגים המלא", "full calendar")}</a>${jew.length ? ` · ${L("חגים יהודיים", "Jewish holidays")}: ${[...new Set(jew.map((x) => x.src))].map((k) => `<a href="${SRC_J[k][0]}" target="_blank" rel="noopener">${esc(SRC_J[k][1])}</a>`).join(" · ")}` : ""}</p>` : `<p class="small">${L("אין חגים לאומיים ביוון בחודש הזה ברשימה שלנו.", "No Greek national holidays this month on our list.")} <a href="${P(lang, "/holidays/")}">${L("לוח החגים", "Holiday calendar")}</a></p>`}`)}
 ${sec("cl-pack", L(`מה לארוז ${m.in}`, `What to pack in ${m.en}`), `<ul class="wx-tips">${packing(lang, mi).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`)}
+${wxAlertBox(lang)}
 ${sec("cl-links", L("לתכנון הטיול", "Plan your trip"), `<div class="links">${links.map(([u, t]) => `<a href="${u}">${esc(t)}<span aria-hidden="true">${L("←", "→")}</span></a>`).join("")}</div>`)}
 ${sec("cl-faq", L("שאלות נפוצות", "Common questions"), `<div class="faq">${faq.map(([q, an]) => `<details><summary>${esc(q)}</summary><p>${esc(an)}</p></details>`).join("")}</div>`)}
 <p><a href="${P(lang, monthUrl(prev))}">${L("→ ", "← ")}${esc(L(`מזג אוויר ${prev.in}`, `Weather in ${prev.en}`))}</a> · <a href="${P(lang, "/weather/")}">${L("כל החודשים", "All months")}</a> · <a href="${P(lang, monthUrl(next))}">${esc(L(`מזג אוויר ${next.in}`, `Weather in ${next.en}`))}${L(" ←", " →")}</a></p>

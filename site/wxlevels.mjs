@@ -10,6 +10,8 @@
 //  - Πλοία: απαγορευτικό 3.10.2026 Πειραιάς/Ραφήνα/Λαύριο έως 9 μποφόρ (in.gr) · «συνήθως έως 8 μποφόρ», απόφαση πλοιάρχου με λιμεναρχείο (lifo.gr Μικροπράγματα)
 import { esc, P } from "./templates.mjs";
 import { wxItemHTML } from "./weather.mjs";
+import { wxAlertBox } from "./wxalert.mjs";
+import { articleRegions } from "../lib/alerts.js";
 
 const H = (lang, he, en) => (lang === "he" ? he : en);
 const ext = (u, t) => `<a href="${u}" target="_blank" rel="noopener">${t}</a>`;
@@ -81,7 +83,11 @@ export function wxLevelFor(a) {
   out.push(WX_LEVEL_PAGES.find((p) => !p.type && p.level === w.level));
   return out;
 }
+// Μέσα σε κάθε άρθρο καιρού: σύνδεσμος στη σελίδα επιπέδου (αν υπάρχει χρώμα) + φόρμα ειδοποίησης με email (προεπιλεγμένες οι περιοχές του άρθρου)
 export function wxArticleBox(a, lang) {
+  return wxLevelTeaser(a, lang) + wxAlertBox(lang, { id: "wxal-a", regions: articleRegions(a) });
+}
+function wxLevelTeaser(a, lang) {
   const pg = wxLevelFor(a);
   if (!pg.length) return "";
   const p = pg[0], lv = LV[p.level];
@@ -247,6 +253,7 @@ ${p.level !== "yellow" ? `<p>${he
 <div class="grid"><div class="col">
 ${meaning}
 ${sec("wl-latest", relH, latest + `<p><a href="${P(lang, "/weather-warnings/")}">${L("כל אזהרות מזג האוויר ביוון, לפי אזור ושעה ←", "All Greece weather warnings, by area and time →")}</a></p>`)}
+${wxAlertBox(lang, { level: p.level === "yellow" ? "all" : "severe" })}
 ${sec("wl-scale", L("צהוב, כתום, אדום: שלוש רמות האזהרה", "Yellow, orange, red: the three warning levels"), scale)}
 ${sec("wl-do", tipsH, `<section class="means"><p>${esc(levelNote)}</p></section><ul class="wx-tips">${tipsList.map((x) => `<li>${esc(x)}</li>`).join("")}</ul><p class="small">${L("לפי ההנחיות של משרד ההגנה האזרחית של יוון:", "Based on the Greek Civil Protection guidance:")} ${tipsSrc.map(([u]) => ext(u, u.includes("plimmyres") ? L("הצפות", "Floods") : L("סופות", "Storms"))).join(" · ")}</p>`)}
 ${sec("wl-travel", L("מה זה אומר למטיילים ולתושבים", "What it means for travellers and residents"), travel)}

@@ -20,6 +20,7 @@ export const TI = {
   check: '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8l1.5 1.5L12 7M8 14l1.5 1.5L12 13M14 8.5h3M14 14.5h3"/></svg>',
   weather: '<svg viewBox="0 0 24 24"><path d="M7 15a4 4 0 1 1 .9-7.9A5.5 5.5 0 0 1 18.5 9 3.5 3.5 0 0 1 18 16H8"/><path d="M13 13l-2 4h3l-2 4"/></svg>',
   phrase: '<svg viewBox="0 0 24 24"><path d="M4 5h11v8H8l-4 3z"/><path d="M15 9h5v8l-3-2h-6v-2"/></svg>',
+  nadlan: '<svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><circle cx="12" cy="14" r="2"/><path d="M12 16v4"/></svg>',
 };
 export const tileHTML = (lang, [u, k, h, sub]) => `<a class="tile t-${k}" href="${P(lang, u)}"><span class="ti" aria-hidden="true">${TI[k]}</span><span class="tt"><b>${esc(h)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</span></a>`;
 
@@ -141,7 +142,7 @@ export function hubPage(lang, kind, ctx) {
       title: H(lang, "השקעה בנדל״ן ביוון", "Investing in Greek property"), icon: "invest",
       intro: H(lang, "איך קונים, כמה זה עולה, איפה כדאי, ומי ילווה אתכם. מדריכים, מחירים לפי שכונה, מחשבונים וחדשות על מיסים וחוקים.", "How to buy, what it costs, where to buy and who will guide you. Guides, prices by area, calculators, and news on taxes and laws."),
       start: "buying-property-in-greece-israelis-guide",
-      tools: [["/madad/", "madad", H(lang, "מחירי דירות", "Property prices"), H(lang, "מחיר למ״ר בכל שכונה", "Price per m² by area")], ["/tlv-vs-athens/", "tlv", H(lang, "תל אביב מול אתונה", "Tel Aviv vs Athens"), H(lang, "הדירה שלך = כמה דירות כאן?", "Your flat = how many here?")], ["/tools/", "calc", H(lang, "מחשבונים", "Calculators"), H(lang, "עלויות קנייה ותשואה", "Buying costs & yield")], ["/advisor/", "people", H(lang, "ייעוץ אישי", "Personal advice"), H(lang, "השאירו פרטים", "Leave your details")], ["/golden-visa-quiz/", "quiz", H(lang, "שאלון ויזת זהב", "Golden Visa quiz"), H(lang, "כמה צריך להשקיע?", "How much to invest?")]],
+      tools: [...(GLOBAL.nadlan ? [["/nadlan/", "nadlan", H(lang, "דירות למכירה", "Property for sale"), H(lang, "נכסים זמינים עכשיו", "Available now")]] : []), ["/madad/", "madad", H(lang, "מחירי דירות", "Property prices"), H(lang, "מחיר למ״ר בכל שכונה", "Price per m² by area")], ["/tlv-vs-athens/", "tlv", H(lang, "תל אביב מול אתונה", "Tel Aviv vs Athens"), H(lang, "הדירה שלך = כמה דירות כאן?", "Your flat = how many here?")], ["/tools/", "calc", H(lang, "מחשבונים", "Calculators"), H(lang, "עלויות קנייה ותשואה", "Buying costs & yield")], ["/advisor/", "people", H(lang, "ייעוץ אישי", "Personal advice"), H(lang, "השאירו פרטים", "Leave your details")], ["/golden-visa-quiz/", "quiz", H(lang, "שאלון ויזת זהב", "Golden Visa quiz"), H(lang, "כמה צריך להשקיע?", "How much to invest?")]],
       guides: ["golden-visa-greece-2026-guide", "managing-property-in-greece-from-israel", "greek-tax-number-and-bank-account-guide"].map(bySlug),
       people: ["asi", "cremer", "sf"], newsSecs: ["real-estate"], newsLink: "/s/real-estate/",
     },
@@ -160,6 +161,7 @@ export function hubPage(lang, kind, ctx) {
 ${start ? sec(H(lang, "מתחילים כאן", "Start here"), `<a class="hub-start" href="${A(lang, start.slug)}"><span class="hs-k">${H(lang, "המדריך המלא", "The complete guide")}</span><b>${esc(start[lang].title)}</b><span class="hs-d">${esc(start[lang].dek)}</span><span class="hs-go">${H(lang, "לקריאה ←", "Read →")}</span></a>`) : ""}
 ${sec(H(lang, "כלים שימושיים", "Useful tools"), `<nav class="tiles">${T.tools.map((x) => tileHTML(lang, x)).join("")}</nav>`)}
 ${kind === "travel" ? sec(H(lang, "לאן טסים?", "Where are you going?"), destNav(lang, "")) : ""}
+${kind === "invest" && GLOBAL.nadlanBox ? GLOBAL.nadlanBox[lang] : ""}
 ${T.guides.filter(Boolean).length ? sec(H(lang, "עוד מדריכים", "More guides"), cards(T.guides)) : ""}
 ${sec(H(lang, "האנשים שלנו", "Our people"), people(lang, T.people), `<a class="zone-more" href="${P(lang, "/contact/")}">${H(lang, "כל אנשי הקשר", "All contacts")}</a>`)}
 ${sec(H(lang, "חדשות אחרונות", "Latest news"), cards(news(T.newsSecs)), `<a class="zone-more" href="${P(lang, T.newsLink)}">${H(lang, "לכל החדשות", "All news")}</a>`)}

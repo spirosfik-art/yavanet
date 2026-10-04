@@ -1494,3 +1494,60 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 :root.night .wx-status.on,:root.night .wxbox{background:#3A2A10;border-color:#8A5A0B;color:#FFD27A}
 :root.night .wx-status.on span,:root.night .wxbox small{color:#F0C36A}
 @media (max-width:520px){.wx-levels li{grid-template-columns:64px 1fr}.wxa{gap:10px;padding:10px 12px}.wxa .when{min-width:56px}}
+.wxal{margin:18px 0}
+.wxal-f{border:0;padding:0;margin:0;min-width:0;display:grid;gap:6px}
+.wxal-f legend{font-size:13px;font-weight:700;color:var(--muted);padding:0;margin-bottom:6px}
+.wxal-cs{display:flex;flex-wrap:wrap;gap:6px}
+.form .wxal-c{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600;color:var(--ink);cursor:pointer;min-height:36px}
+.form .wxal-c input{width:16px;height:16px;margin:0;padding:0;flex:none;accent-color:var(--sea)}
+.form .wxal-c:has(input:checked){border-color:var(--aegean);box-shadow:inset 0 0 0 1px var(--aegean)}
+.wxal .btn{justify-self:start}
+
+/* Αγγελίες /nadlan/ (site/nadlan.mjs): σταθερή αναλογία 4:3 στις φωτογραφίες → χωρίς μετατόπιση διάταξης */
+.t-nadlan{--c:#f59e0b}
+.nl-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.nl-mini{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.nl-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:var(--shadow)}
+.nl-card:hover .nl-t{color:var(--sea)}
+.nl-ph{position:relative;display:block;aspect-ratio:4/3;background:var(--surface-2);overflow:hidden}
+.nl-ph img{width:100%;height:100%;object-fit:cover;display:block}
+.nl-card.closed .nl-ph img{filter:grayscale(.7)}
+.nl-badge{display:inline-block;border-radius:999px;padding:3px 11px;font-size:12.5px;font-weight:800;background:var(--aegean);color:var(--bg)}
+.nl-ph .nl-badge{position:absolute;top:10px;inset-inline-start:10px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.nl-badge.sale{background:#0B3A5B;color:#fff}.nl-badge.rent{background:#1FAF5A;color:#fff}.nl-badge.closed{background:#6b7280;color:#fff}
+.nl-cb{display:grid;gap:3px;padding:12px 14px 14px}
+.nl-pr b{font-size:21px;font-weight:900;color:var(--aegean);font-family:var(--body)}
+.nl-pr i{font-style:normal;color:var(--muted);font-size:14px;margin-inline-start:8px}
+.nl-pr small{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.nl-t{font-size:16px;line-height:1.3}
+.nl-a,.nl-f{font-size:13.5px;color:var(--muted)}
+.nl-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.nl-tabs a{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;font-weight:800;text-decoration:none;color:var(--ink)}
+.nl-tabs b{background:var(--chip);border-radius:999px;padding:0 8px;font-size:13px}
+.nl-sec{scroll-margin-top:80px}
+.nl-disc{border:1px dashed var(--line);border-radius:12px;padding:10px 14px;font-size:13.5px;color:var(--muted);background:var(--surface);margin:4px 0;line-height:1.5}
+.nl-disc b{color:var(--ink)}
+.nl-crumbs{margin:12px 0 2px}
+.nl-crumbs a{color:var(--muted)}
+.nl-item{display:grid;gap:12px;min-width:0}
+.nl-head h1{font-size:clamp(24px,5vw,34px);font-weight:900;color:var(--aegean);margin:6px 0 2px}
+.nl-area{margin:0;color:var(--muted);font-weight:700}
+.nl-gal{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;scrollbar-width:thin;border-radius:16px}
+.nl-gal figure{margin:0;flex:0 0 100%;aspect-ratio:4/3;scroll-snap-align:start;background:var(--surface-2);border-radius:14px;overflow:hidden}
+.nl-gal img{width:100%;height:100%;object-fit:cover;display:block}
+@media (min-width:700px){.nl-gal figure{flex-basis:86%}}
+.nl-galn{margin:-4px 0 0}
+.nl-pbox{border:2px solid var(--gold);border-radius:16px;padding:14px 16px;background:var(--surface);display:grid;gap:8px}
+.nl-pbox .nl-pr b{font-size:30px}
+.nl-pbox .small{margin:0}
+.nl-wa{font-size:18px;text-align:center;padding:14px 18px;border-radius:12px}
+.nl-specs{width:100%;border-collapse:collapse;font-size:15px}
+.nl-specs th,.nl-specs td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:start}
+.nl-specs th{color:var(--muted);font-weight:700;width:42%}
+.nl-specs tr:last-child th,.nl-specs tr:last-child td{border-bottom:0}
+.nl-feat{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px}
+.nl-feat li{background:var(--chip);border-radius:999px;padding:5px 12px;font-size:14px}
+.nl-desc h2{margin-top:6px}
+.nl-links .btn{font-size:15px}
+.nl-box{display:grid;gap:10px}
+.nl-box .small{margin:0}

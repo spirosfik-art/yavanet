@@ -22,6 +22,7 @@ import { isWeather, wxInfo, weatherPage } from "./site/weather.mjs";
 import { WX_LEVEL_PAGES, wxLevelUrl, wxLevelPage, wxArticleBox } from "./site/wxlevels.mjs";
 import { MONTHS, monthUrl, climatePage, climateIndexPage } from "./site/climate.mjs";
 import { NUMBERS as EM_NUM, EMBASSY, CASES } from "./content/emergency.mjs";
+import { loadListings, nadlanIndexPage, listingPage, nadlanBox, nadlanSearch, listingUrl } from "./site/nadlan.mjs";
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const OUT = path.join(ROOT, "dist");
@@ -148,6 +149,11 @@ GLOBAL.flights = !!(FLIGHTS && FLIGHTS.deals && FLIGHTS.deals.length);
 GLOBAL.flightTop = GLOBAL.flights ? FLIGHTS.deals[0] : null;
 GLOBAL.flightCount = GLOBAL.flights ? FLIGHTS.deals.length : 0;
 GLOBAL.madad = !!(madad && Array.isArray(madad.areas) && madad.areas.length);
+/* Αγγελίες S.F. Properties (content/listings.json από automation/listings.mjs) → /nadlan/ */
+const NADLAN = loadListings(ROOT);
+GLOBAL.nadlan = !!(NADLAN && NADLAN.listings.length);
+GLOBAL.nadlanBox = GLOBAL.nadlan ? { he: nadlanBox("he", NADLAN), en: nadlanBox("en", NADLAN) } : null;
+const nadlanFor = (a) => GLOBAL.nadlan && !a.partner && !a.sponsored && (a.section === "real-estate" || ["invest", "real-estate"].includes(a.guideCat));
 
 const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: SITE.name, alternateName: SITE.nameHe, url: SITE.url, logo: abs("/icon-512.png"), publishingPrinciples: abs("/p/corrections/"), correctionsPolicy: abs("/p/corrections/") , sameAs: [SITE.facebookPage, SITE.instagram].filter(Boolean) };
 
@@ -246,6 +252,7 @@ ${newsletterBox(lang)}
     const related = relatedFor(a);
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.wx ? wxArticleBox(a, lang) : ""}
+${nadlanFor(a) ? GLOBAL.nadlanBox[lang] : ""}
 ${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">❓</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
@@ -473,6 +480,7 @@ ${pushBox(lang, true)}
       ["/holidays/", L("חגים ושעות פתיחה של חנויות", "Holidays and shop opening hours"), L("חג חנויות פתוח סגור יום ראשון הנחות שופינג קניות", "holiday shops open closed sunday sales shopping"), L("כלי", "Tool")],
       ["/strike-today/", L("יש שביתה היום או מחר ביוון?", "Strike in Greece today or tomorrow?"), L("שביתה היום מחר טיסות מעבורות מטרו יומן", "strike today tomorrow flights ferries metro calendar"), L("כלי", "Tool")],
       ...TOOL_SEARCH(lang),
+      ...nadlanSearch(lang, GLOBAL.nadlan ? NADLAN : null),
       ...DESTS.map((d) => ["/d/" + d.id + "/", d[lang], L("חדשות מזג אוויר טיסות שביתות מדריך", "news weather flights strikes guide") + " " + d.he + " " + d.en, L("יעד", "Destination")]),
       ...(GLOBAL.flights ? [["/flights/", L("טיסות זולות ליוון", "Cheap flights to Greece"), L("טיסה מחיר תל אביב אתונה", "flight price Tel Aviv Athens"), L("כלי", "Tool")]] : []),
     ].map(([u, tt, k, kind]) => ({ u: P(lang, u), t: tt, d: "", k, s: kind, p: 1 }));
@@ -558,10 +566,23 @@ ${CATS.map(([k, h1, h2]) => { const list = guides.filter((a) => !a.pinned && cat
 <div class="tablewrap"><table class="madad"><thead><tr>${head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
 ${madad.note && madad.note[lang] ? `<section class="means"><h2>${he ? "מה השתנה החודש" : "This month"}</h2><p>${esc(madad.note[lang])}</p></section>` : ""}
 <p class="small">${method}</p>
+${GLOBAL.nadlan ? GLOBAL.nadlanBox[lang] : ""}
 ${adBox(lang)}
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
     write(P(lang, "/madad/"), layout({ lang, title, description: intro, path: P(lang, "/madad/"), altPath: P(he ? "en" : "he", "/madad/"), body, breaking: breakingNow, activeSection: "madad", activeNav: "prop" }));
+  }
+
+  /* Αγγελίες ακινήτων: /nadlan/ + /nadlan/<id>/ (site/nadlan.mjs) */
+  if (GLOBAL.nadlan) {
+    const he = lang === "he", W = (b) => b.replace("__WIDGETS__", widgets(lang, mostRead, true));
+    const pg = nadlanIndexPage(lang, NADLAN), u = P(lang, "/nadlan/");
+    const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: pg.title, item: abs(u) }] };
+    write(u, layout({ lang, title: pg.title, description: pg.description, path: u, altPath: P(he ? "en" : "he", "/nadlan/"), body: W(pg.body), breaking: breakingNow, activeNav: "invest", jsonld: [...pg.jsonld, crumbs], image: NADLAN.sale[0] && NADLAN.sale[0].images[0] }));
+    for (const x of NADLAN.listings) {
+      const lp = listingPage(lang, x, NADLAN), lu = listingUrl(lang, x);
+      write(lu, layout({ lang, title: lp.title, description: lp.description, path: lu, altPath: listingUrl(he ? "en" : "he", x), body: W(lp.body), breaking: breakingNow, activeNav: "invest", jsonld: lp.jsonld, image: lp.image }));
+    }
   }
 
   /* Κατάλογος επιχειρήσεων */
@@ -643,6 +664,7 @@ for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
+  if (GLOBAL.nadlan) urls.push(P(lang, "/nadlan/"), ...NADLAN.listings.map((x) => listingUrl(lang, x)));
   urls.push(P(lang, lang === "he" ? "/mivzakim/" : "/flash/"));
   urls.push(P(lang, "/travel/"), P(lang, "/invest/"), P(lang, "/moving/"), P(lang, "/contact/"));
   urls.push(P(lang, "/holidays/"), P(lang, "/strike-today/"), ...DESTS.map((d) => P(lang, `/d/${d.id}/`)));
@@ -675,7 +697,7 @@ ${recent.flatMap((a) => LANGS.map((lang) => `<url><loc>${abs(P(lang, "/a/" + a.s
 - Cheapest flights Tel Aviv to Greece today: ${U("/en/flights/")}
 - Greek property price index by neighbourhood: ${U("/en/madad/")}
 - Tools (purchase cost and rental yield calculators): ${U("/en/tools/")}
-- Emergency numbers and Israeli embassy in Greece: ${U("/en/emergency/")}
+${GLOBAL.nadlan ? `- Property for sale and rent in Greece (listings of S.F. Properties, the publisher's brokerage): ${U("/en/nadlan/")}\n` : ""}- Emergency numbers and Israeli embassy in Greece: ${U("/en/emergency/")}
 - Sources & corrections policy: ${U("/en/p/corrections/")}
 
 ## Guides
