@@ -1124,7 +1124,46 @@
     "08e824006134": 1791116772953,
     "a461c100826d": 1791116772953,
     "44c2612c7668": 1791116772953,
-    "55236dd76858": 1791116772953
+    "55236dd76858": 1791116772953,
+    "0204af81899a": 1791137889997,
+    "6ee23c74c153": 1791137889997,
+    "a95b3b45f618": 1791137889997,
+    "41676305d5f3": 1791137889997,
+    "a7b9975beb1b": 1791137889997,
+    "b498cc7cf13f": 1791137889997,
+    "b40597b37b1e": 1791137889997,
+    "fb3a4a8c6783": 1791137889997,
+    "bdaee2739508": 1791137889997,
+    "33f6ec21a988": 1791137889997,
+    "703595054147": 1791137889997,
+    "a360d5b8a1fe": 1791137889997,
+    "2985d967c9c9": 1791137889997,
+    "c9561e82cb08": 1791137889997,
+    "2a06d8aa68de": 1791137889997,
+    "b90320f06923": 1791137889997,
+    "f58c383104d3": 1791137889997,
+    "68ab61e605dd": 1791137889997,
+    "d3da8b4c6323": 1791137889997,
+    "f0a1f7a03852": 1791137889997,
+    "0f20b1908f47": 1791137889997,
+    "1de1527037f5": 1791137889997,
+    "0148bf530763": 1791137889997,
+    "78371697cfb2": 1791137889997,
+    "a74f3d3b5167": 1791137889997,
+    "4459cb0ed200": 1791137889997,
+    "a74dc200cd2e": 1791137889997,
+    "0cf0efe09196": 1791137889997,
+    "23f72083fd59": 1791137889997,
+    "12652b972268": 1791137889997,
+    "7ea629d84a1a": 1791137889997,
+    "e590d2a0b958": 1791137889997,
+    "471d9f10d70e": 1791137889997,
+    "dc1b6ddd85f1": 1791137889997,
+    "438c9ef2b839": 1791137889997,
+    "53c93ff09553": 1791137889997,
+    "60710285bcbd": 1791137889997,
+    "8a38545f05f8": 1791137889997,
+    "e4bc09b8bd41": 1791137889997
   },
   "pending": {},
   "sourceStatus": {
@@ -1136,12 +1175,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-04T12:26:01.991Z",
+      "at": "2026-10-04T18:17:57.254Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-04T12:26:02.667Z",
+      "at": "2026-10-04T18:17:58.068Z",
       "items": 5
     },
     "civilprotection": {
@@ -1152,27 +1191,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-04T12:26:04.541Z",
+      "at": "2026-10-04T18:18:00.477Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-04T12:26:04.691Z",
+      "at": "2026-10-04T18:18:00.829Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-04T12:26:05.628Z",
+      "at": "2026-10-04T18:18:01.916Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-04T12:26:06.420Z",
+      "at": "2026-10-04T18:18:02.706Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-04T12:26:07.354Z",
+      "at": "2026-10-04T18:18:03.199Z",
       "items": 10
     },
     "toi-greece": {
@@ -1183,23 +1222,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-04T12:26:07.819Z",
+      "at": "2026-10-04T18:18:03.809Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-04T12:26:08.195Z",
+      "at": "2026-10-04T18:18:03.869Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-04T12:26:08.556Z",
-      "items": 8
+      "at": "2026-10-04T18:18:04.406Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T12:26:08.719Z",
-      "items": 6
+      "at": "2026-10-04T18:18:04.604Z",
+      "items": 9
     },
     "ynet-greece": {
       "ok": true,
@@ -1208,12 +1247,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T12:26:03.504Z",
+      "at": "2026-10-04T18:17:58.880Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-04T12:26:09.217Z",
+      "at": "2026-10-04T18:18:05.242Z",
       "items": 0
     },
     "hcg": {
@@ -1224,39 +1263,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-04T12:26:10.449Z",
+      "at": "2026-10-04T18:18:06.678Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-04T12:26:10.696Z",
+      "at": "2026-10-04T18:18:06.865Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-04T12:26:10.849Z",
-      "items": 6
+      "at": "2026-10-04T18:18:07.048Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-04T12:26:11.070Z",
-      "items": 7
+      "at": "2026-10-04T18:18:07.314Z",
+      "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-04T12:26:11.338Z",
-      "items": 4
+      "at": "2026-10-04T18:18:07.612Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-04T12:26:11.729Z",
-      "items": 7
+      "at": "2026-10-04T18:18:08.010Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-04",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "crete-water-supply-disruption-bad-weather",
@@ -1311,6 +1350,18 @@
         "title": "↻ Crete: 8 Workers Stranded in Samaria Gorge Amid Severe Weather",
         "at": "2026-10-04T15:26:50+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "leros-fishermen-strike-october-2025",
+        "title": "Leros: Fishermen strike and tie up boats in Lakki port",
+        "at": "2026-10-04T21:18:24+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "evros-forest-fire-soufli",
+        "title": "Forest fire in the Soufli area of Evros after crossing from Bulgaria",
+        "at": "2026-10-04T21:19:05+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1348,6 +1399,21 @@
         "title": "Greece and Brazil Move to Expand Tourism Cooperation",
         "reason": "The Hebrew body mentions 'אתונה' (Athens) as the location of the meeting, but the source text does not mention Athens as the location.",
         "at": "2026-10-04T11:37:13.038Z"
+      },
+      {
+        "title": "Μεγάλη φωτιά στα Μεταξάτα Κεφαλονιάς – 112 για εκκένωση - kathimerini.gr",
+        "reason": "Ίδιο θέμα με «Forest Fire Breaks Out on the Island of Kefalonia» – δεν γράφτηκε ξανά",
+        "at": "2026-10-04T18:18:33.077Z"
+      },
+      {
+        "title": "Κρήτη: Ενεργοποιήθηκε το Copernicus για την κακοκαιρία – Μεγάλα ύψη βροχής για πέμπτη συνεχόμενη ημέρα",
+        "reason": "Ίδιο θέμα με «Crete: 8 Workers Stranded in Samaria Gorge Amid Severe Weather» – δεν γράφτηκε ξανά",
+        "at": "2026-10-04T18:18:37.615Z"
+      },
+      {
+        "title": "Πτήση flydubai: Εντολή Νετανιάχου για ενδελεχή έλεγχο των μέτρων ασφαλείας στις διεθνείς πτήσεις",
+        "reason": "Ίδιο θέμα με «Security Incident on Israel Flight: Co-Pilot Attacks Captain» – δεν γράφτηκε ξανά",
+        "at": "2026-10-04T18:18:42.096Z"
       }
     ],
     "errors": [],
@@ -1359,6 +1425,10 @@
       {
         "slug": "fire-cardamaina-kos-october-2026",
         "at": "2026-10-04T11:36:07.180Z"
+      },
+      {
+        "slug": "leros-fishermen-strike-october-2025",
+        "at": "2026-10-04T18:18:30.178Z"
       }
     ]
   },
@@ -1406,16 +1476,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-04T12:26:12.953Z",
-    "considered": 6,
-    "picked": 2,
+    "at": "2026-10-04T18:18:09.997Z",
+    "considered": 40,
+    "picked": 6,
     "items": [
-      "· ingr | Κρήτη: Κλειστά σχολεία στον Δήμο Μυλοποτάμου Δευτέρα και Τρίτη λόγω της κακοκαιρίας",
-      "✓ gn-iefimerida | Κακοκαιρία στην Κρήτη: Ήχησε το 112 στην Ιεράπετρα Λασιθίου -Εκτεταμένες καταστροφές σε οδ",
-      "· ingr | ΕΛΑΣ για έρευνα ΙΟΒΕ: Το κυβερνητικό success story δεν βγάζει τον μήνα",
-      "· naftemporiki | Φωτιά τώρα στο Καταφύλλι Καρδίτσας – Επί ποδός η Πυροσβεστική",
-      "✓ ert | Χανιά: Παραμένουν οι 8 εργαζόμενοι εγκλωβισμένοι στο φαράγγι – Κλειστά σχολεία για δύο ημέ",
-      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
+      "✓ naftemporiki | Πτήση flydubai: Εντολή Νετανιάχου για ενδελεχή έλεγχο των μέτρων ασφαλείας στις διεθνείς π",
+      "· naftemporiki | Κακοκαιρία στα Χανιά: Μεγάλες ζημιές στον Δήμο Πλατανιά – Αίτημα να κηρυχθεί σε κατάσταση ",
+      "· ert | Ισραήλ: Εντολή Νετανιάχου να εξεταστούν τα μέτρα ασφαλείας για τις διεθνείς πτήσεις προς τ",
+      "· ingr | Πλειστηριασμοί: Πλήρωνε το δάνειο αλλά τον έστειλαν σε fund – «Είχαν πάρει απόφαση να βγει",
+      "· gn-kathimerini | Φωτιά σε δασική έκταση στο Σουφλί – Πέρασε σε ελληνικό έδαφος από τη Βουλγαρία - kathimeri",
+      "· gct | Starbucks Aerocano is the Greek freddo espresso, renamed",
+      "· naftemporiki | ΕΛ.Α.Σ.: «Αντί για αγκαλιές με τον Νετανιάχου, πρωτοβουλίες για τους αμάχους και τους Χρισ",
+      "· ingr | Ισραήλ: Διατάχθηκε το κλείσιμο όλων των σημείων διέλευσης στη Δυτική Όχθη και τη Γάζα",
+      "· gn-kathimerini | Η ατζέντα της ακρίβειας αλλάζει τα πολιτικά δεδομένα - kathimerini.gr",
+      "✓ ert | Έβρος: Πυρκαγιά σε δασική έκταση της Ρούσας Σουφλίου",
+      "· naftemporiki | Κακοκαιρία στην Κρήτη: Κλειστά τη Δευτέρα όλα τα σχολεία στον Δήμο Αμαρίου",
+      "· naftemporiki | Eurobank: Αύξηση της συνεισφοράς του τουρισμού στο ισοζύγιο υπηρεσιών",
+      "✓ ingr | Ακρίβεια: «Πονοκέφαλος» το κόστος του καθημερινού καλαθιού – Στα ύψη οι τιμές σε κρέας και",
+      "✓ gn-kathimerini | Μεγάλη φωτιά στα Μεταξάτα Κεφαλονιάς – 112 για εκκένωση - kathimerini.gr",
+      "· ingr | Φωτιά από τη Βουλγαρία πέρασε στο Σουφλί – Μεγάλη κινητοποίηση της Πυροσβεστικής",
+      "✓ ingr | Κρήτη: Ενεργοποιήθηκε το Copernicus για την κακοκαιρία – Μεγάλα ύψη βροχής για πέμπτη συνε",
+      "· gn-iefimerida | Πυρκαγιά σε δασική έκταση στο Σουφλί -Η φωτιά πέρασε από τη Βουλγαρία, σηκώθηκε και ένα ελ",
+      "· gn-kathimerini | Ανυπολόγιστη καταστροφή στην Κρήτη – Η κακοκαιρία σάρωσε σπίτια, δρόμους και καλλιέργειες ",
+      "· gn-civilprotection | Ενεργοποίηση της Υπηρεσίας Copernicus/Emergency Management Service – Mapping της ΕΕ για τη",
+      "· ingr | Τηλεφώνημα για βόμβα στη Βουλή",
+      "· naftemporiki | Φωτιά τώρα, σε δάσος στο Σουφλί – Πέρασε από την Βουλγαρία στην Ελλάδα",
+      "· ingr | Φωτιά σε αυτοκίνητο στον ΒΟΑΚ: Διερχόμενοι έσπευσαν να βοηθήσουν οικογένεια με δύο παιδιά",
+      "✓ ert | Λέρος: Δεμένα τα αλιευτικά στο Λακκί – Σε κινητοποιήσεις οι ψαράδες",
+      "· naftemporiki | Ρέθυμνο: Κλειστά τα σχολεία του Δήμου Αμαρίου τη Δευτέρα, λόγω της κακοκαιρίας",
+      "· ert | Πυρκαγιά σε ιστιοφόρο στη βόρεια Εύβοια – Σώοι οι δύο επιβαίνοντες",
+      "· gn-iefimerida | Φωτιά σε ιστιοφόρο στη βόρεια Εύβοια - Καλά στην υγεία τους οι δύο επιβαίνοντες, βγήκαν στ",
+      "· ert | Χωρίς ενεργό μέτωπο η φωτιά στα Μεταξάτα Κεφαλονιάς",
+      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Δευτέρα 5 Οκτωβρίου 2026 - primem",
+      "· naftemporiki | Φωτιά τώρα στην Κεφαλλονιά: «Εξαιρετικά επείγουσα ειδοποίηση» του 112 για απομάκρυνση κατο",
+      "· ingr | Κακοκαιρία: Ενεργοποιήθηκε η υπηρεσία Copernicus για τη καταγραφή των πληγεισών περιοχών σ"
     ]
   },
   "evergreenDone": [
@@ -1457,6 +1551,25 @@
   ],
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
-  "lastPush": 1790949239981,
-  "socialQueue": []
+  "lastPush": 1791137910178,
+  "socialQueue": [
+    {
+      "slug": "leros-fishermen-strike-october-2025",
+      "url": "https://yavanet.gr/a/leros-fishermen-strike-october-2025/",
+      "at": "2026-10-04T18:18:30.178Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/leros-fishermen-strike-october-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/leros-fishermen-strike-october-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "לרוס: דייגים השביתו את הפעילות בנמל בלאקי",
+        "title_en": "Leros: Fishermen strike and tie up boats in Lakki port",
+        "dek_he": "עובדי ענף הדיג בלרוס הצטרפו לשביתה הארצית והשביתו את סירותיהם בנמל לאקי בדרישה לסיוע ממשלתי בעלויות הדלק ובנזקי הטבע.",
+        "dek_en": "Professional fishermen in Leros joined the nationwide sector strike, gathering at Lakki port to demand government action.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15241915/pexels-photo-15241915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "לרוס: דייגים השביתו את הפעילות בנמל בלאקי\n\nעובדי ענף הדיג בלרוס הצטרפו לשביתה הארצית והשביתו את סירותיהם בנמל לאקי בדרישה לסיוע ממשלתי בעלויות הדלק ובנזקי הטבע.\n\nhttps://yavanet.gr/a/leros-fishermen-strike-october-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Leros: Fishermen strike and tie up boats in Lakki port\n\nProfessional fishermen in Leros joined the nationwide sector strike, gathering at Lakki port to demand government action.\n\nhttps://yavanet.gr/en/a/leros-fishermen-strike-october-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
