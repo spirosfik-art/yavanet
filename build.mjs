@@ -493,7 +493,7 @@ ${pushBox(lang, true)}
     const he = lang === "he";
     const fxC = JSON.parse(fs.readFileSync(path.join(ROOT, "content/costs.json"), "utf8")).eurIls;
     const pg = tlvPage(lang, madad, fxC);
-    write(P(lang, "/tlv-vs-athens/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/tlv-vs-athens/"), altPath: P(he ? "en" : "he", "/tlv-vs-athens/"), body: pg.body.replace("__WIDGETS__", widgets(lang, mostRead)), breaking: breakingNow, activeSection: "tlv", activeNav: "tools", image: abs(he ? "/og-tlv.png" : "/og-tlv-en.png") }));
+    write(P(lang, "/tlv-vs-athens/"), layout({ lang, title: pg.title, description: pg.description, path: P(lang, "/tlv-vs-athens/"), altPath: P(he ? "en" : "he", "/tlv-vs-athens/"), body: pg.body.replace('<section class="guide-cta">', `<section class="tlvwa"><h2>${he ? "רוצים לדעת מה באמת אפשר לקנות בתקציב שלכם?" : "Want to know what your budget really buys?"}</h2><p>${he ? "שלחו לנו את התקציב בוואטסאפ ונשלח לכם דירות אמיתיות שמתאימות, בעברית." : "Send us your budget on WhatsApp and we will send you real matching flats."}</p><a class="btn wa" href="https://wa.me/306906723676?text=${encodeURIComponent(he ? "שלום, ראיתי את ההשוואה תל אביב מול אתונה. התקציב שלי הוא: " : "Hi, I saw the Tel Aviv vs Athens comparison. My budget is: ")}" target="_blank" rel="noopener" data-out="wa-tlv">${he ? "שלחו לנו בוואטסאפ" : "Message us on WhatsApp"}</a></section>${GLOBAL.nadlanBox ? GLOBAL.nadlanBox[lang] : ""}<section class="guide-cta">`).replace("__WIDGETS__", widgets(lang, mostRead)), breaking: breakingNow, activeSection: "tlv", activeNav: "tools", image: abs(he ? "/og-tlv.png" : "/og-tlv-en.png") }));
   }
 
   /* Διαγωνισμός (content/giveaway.json · εμφανίζεται μόνο όταν active=true) */

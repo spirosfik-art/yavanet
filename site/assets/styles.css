@@ -1563,3 +1563,7 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .fbbar button{background:none;border:0;color:#fff;font-size:20px;line-height:1;padding:4px;cursor:pointer;min-width:32px;min-height:32px}
 .fbbar span{flex:1}
 @media (min-width:760px){.fbbar{display:none}}
+
+.tlvwa{margin:22px 0;padding:18px;border-radius:14px;background:#EEF8F1;border:1px solid rgba(37,211,102,.4)}
+.tlvwa h2{margin:0 0 6px;font-size:20px}
+.tlvwa p{margin:0 0 12px}
