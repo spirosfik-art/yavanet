@@ -1055,7 +1055,23 @@
     "43e31f6aa547": 1791052403002,
     "075b77b759f3": 1791052403002,
     "7e70e5eedcf3": 1791052403002,
-    "1101dc965a91": 1791052690129
+    "1101dc965a91": 1791052690129,
+    "bf0320ee2f74": 1791079511457,
+    "236bd5a087e8": 1791079511457,
+    "bb09248cba4c": 1791079511457,
+    "8aef907334c2": 1791079511457,
+    "fc0ab18afdbd": 1791079511457,
+    "0a32aa539ea7": 1791079511457,
+    "8d26947b6431": 1791079511457,
+    "a4dd518c4221": 1791079511457,
+    "f6f358d6fa52": 1791079511457,
+    "88cc0291e958": 1791079511457,
+    "eb5035f82d0f": 1791079511457,
+    "65e5ea832d9a": 1791079511457,
+    "4805c6148b98": 1791079511457,
+    "e09261effd8e": 1791079511457,
+    "0a0f707d0a2f": 1791079511457,
+    "ba933f003063": 1791079511457
   },
   "pending": {},
   "sourceStatus": {
@@ -1067,12 +1083,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-03T18:38:00.303Z",
+      "at": "2026-10-04T02:04:55.268Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-03T18:38:00.972Z",
+      "at": "2026-10-04T02:04:56.038Z",
       "items": 5
     },
     "civilprotection": {
@@ -1083,27 +1099,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-03T18:38:02.506Z",
-      "items": 31
+      "at": "2026-10-04T02:04:58.072Z",
+      "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-03T18:38:02.866Z",
+      "at": "2026-10-04T02:04:58.426Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-03T18:38:03.754Z",
+      "at": "2026-10-04T02:04:59.474Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-03T18:38:04.396Z",
-      "items": 2
+      "at": "2026-10-04T02:05:00.187Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-03T18:38:05.099Z",
+      "at": "2026-10-04T02:05:00.768Z",
       "items": 10
     },
     "toi-greece": {
@@ -1114,22 +1130,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-03T18:38:05.530Z",
+      "at": "2026-10-04T02:05:01.436Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-03T18:38:05.576Z",
+      "at": "2026-10-04T02:05:01.693Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-03T18:38:05.865Z",
+      "at": "2026-10-04T02:05:01.958Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T18:38:05.989Z",
+      "at": "2026-10-04T02:05:02.484Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1139,12 +1155,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-03T18:38:01.362Z",
+      "at": "2026-10-04T02:04:56.582Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-03T18:38:06.530Z",
+      "at": "2026-10-04T02:05:03.297Z",
       "items": 0
     },
     "hcg": {
@@ -1155,206 +1171,72 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-03T18:38:07.701Z",
+      "at": "2026-10-04T02:05:07.812Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-03T18:38:07.904Z",
-      "items": 3
+      "at": "2026-10-04T02:05:08.023Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-03T18:38:08.067Z",
+      "at": "2026-10-04T02:05:08.193Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-03T18:38:08.362Z",
-      "items": 6
+      "at": "2026-10-04T02:05:08.469Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-03T18:38:08.715Z",
+      "at": "2026-10-04T02:05:08.825Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-03T18:38:09.129Z",
-      "items": 10
+      "at": "2026-10-04T02:05:09.260Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-03",
-    "count": 11,
+    "date": "2026-10-04",
+    "count": 0,
     "published": [
       {
-        "slug": "athens-public-transport-changes-october-2026",
-        "title": "Athens: Temporary Public Transport Changes on Sunday",
-        "at": "2026-10-03T07:13:41+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Severe storms and floods cause major rescues",
-        "at": "2026-10-03T08:53:14+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "tatoi-estate-open-december",
-        "title": "Former Royal Estate of Tatoi in Athens Set to Open in December",
-        "at": "2026-10-03T10:04:15+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "rhodes-hosts-india-travel-convention",
-        "title": "Rhodes and Athens to Host Major Indian Travel Convention",
-        "at": "2026-10-03T10:04:29+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "turkish-press-spikes-nlos-israel-greece",
-        "title": "Turkish media focuses on Greek military posture and missile deployment",
-        "at": "2026-10-03T10:06:52+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-tax-fines-reduction-article-75",
-        "title": "Greek Tax Office Fines: How to Reduce Penalties by Up to 50 Percent",
-        "at": "2026-10-03T10:35:33+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Crete: Emergency 112 Alert Issued Across the Island",
-        "at": "2026-10-03T11:25:48+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete: Difficult night of floods, rescues and emergency warning",
-        "at": "2026-10-03T11:56:23+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "kefalonia-forest-fire-response",
-        "title": "Forest Fire Breaks Out on the Island of Kefalonia",
-        "at": "2026-10-03T12:04:26+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "flydubai-pilot-attack-israel-flight",
-        "title": "Security Incident on Israel Flight: Co-Pilot Attacks Captain",
-        "at": "2026-10-03T12:43:48+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "red-code-crete-severe-weather-storm",
-        "title": "↻ Crete Severe Weather: Floods, Resurgences and 112 Alerts",
-        "at": "2026-10-03T12:51:10+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "fire-thesprotia-greece",
-        "title": "Forest Fire Breaks Out in Thesprotia, Greece",
-        "at": "2026-10-03T14:08:05+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Crete: Emergency Alerts and Severe Flooding Amid Extreme Weather",
-        "at": "2026-10-03T16:39:37+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-crete-winds-9-beaufort",
-        "title": "↻ Crete: Floods, damage and rescues amid severe weather and 112 alerts",
-        "at": "2026-10-03T17:32:50+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "fire-in-abandoned-building-in-metaxourgeio-athens",
-        "title": "Fire in Metaxourgeio: Abandoned building burns in Athens with road closures",
-        "at": "2026-10-03T21:34:51+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-kypseli-metro-damage-protest",
-        "title": "Athens: Protest over metro construction damage in Kypseli",
-        "at": "2026-10-03T21:35:28+03:00",
-        "section": "living"
-      },
-      {
         "slug": "crete-water-supply-disruption-bad-weather",
-        "title": "Crete: Three settlements left without water after severe weather damage",
-        "at": "2026-10-03T21:38:23+03:00",
+        "title": "↻ Severe Storms and Floods Hit Crete: Rescues and Road Closures",
+        "at": "2026-10-04T05:05:29+03:00",
         "section": "travel"
       }
     ],
     "rejected": [
       {
-        "title": "Κακοκαιρία: Επικαιροποίηση έκτακτου δελτίου επικίνδυνων καιρικών φαινομένων",
-        "reason": "Ίδιο θέμα με «Greece Storm: Sailing Ban in the Aegean Sea and Port Disruptions»: The Hebrew title contains a stray English word 'Nonetheless' at the end.",
-        "at": "2026-10-02T23:49:02.063Z"
+        "title": "Greece Attracts Foreign Property Investors With 6.25% Yields",
+        "reason": "Ίδιο θέμα με «Calls in Greece to Abolish Golden Visa and Shift Focus» – δεν γράφτηκε ξανά",
+        "at": "2026-10-04T02:05:32.701Z"
       },
       {
-        "title": "Εφορία: 4 στάδια για κούρεμα προστίμων έως 50% – Και μία ακόμη οδός συμβιβασμού",
-        "reason": "The Hebrew title and TLDR mention 'property owners' (בעלי נכסים), but the source article discusses taxpayers, self-employed individuals, and small-to-medium enterprises facing tax audits, not property owners specifically.",
-        "at": "2026-10-03T05:53:38.561Z"
+        "title": "O Νετανιάχου προσκαλεί τον Ινδό πιλότο της πτήσης της flydubai να επισκεφθεί το Ισραήλ",
+        "reason": "Ίδιο θέμα με «Security Incident on Israel Flight: Co-Pilot Attacks Captain» – δεν γράφτηκε ξανά",
+        "at": "2026-10-04T02:05:37.262Z"
       },
       {
-        "title": "Correcting Forestry Map Errors for Property Owners in Greece",
-        "reason": "Ουδέτερη εκδοχή: λείπει en.dek",
-        "at": "2026-10-03T06:31:22.737Z"
-      },
-      {
-        "title": "Σφοδρό χτύπημα της κακοκαιρίας στην Ιεράπετρα: «Τέτοιες ποσότητες νερού δεν έχουμε ξαναδεί» – 20 επιχειρήσεις απεγκλωβισμού ατόμων",
-        "reason": "Ίδιο θέμα με «Crete: Severe storms and floods cause major rescues» – δεν γράφτηκε ξανά",
-        "at": "2026-10-03T07:03:14.935Z"
-      },
-      {
-        "title": "Κακοκαιρία: Ήχησε ξανά το 112 στον Μυλοπόταμο – «Περιορίστε τις μετακινήσεις»",
-        "reason": "Ίδιο θέμα με «Crete: Emergency 112 Alert Issued Across the Island» – δεν γράφτηκε ξανά",
-        "at": "2026-10-03T09:24:56.109Z"
-      },
-      {
-        "title": "Πυρκαγιά σε δασική έκταση στην Κεφαλονιά – Στη μάχη και εναέρια μέσα",
-        "reason": "Ίδιο θέμα με «Forest Fire Breaks Out on the Island of Kefalonia»: The Hebrew title contains a geographical error, stating the fire is in Lesbos (בלסבוס) instead of Kefalonia (כפלוניה).",
-        "at": "2026-10-03T09:37:16.518Z"
-      },
-      {
-        "title": "M 4.5 - 7 km NE of Chalandrítsa, Greece",
-        "reason": "Rule 8 violation: The date in the Hebrew body is given as 2 בדצמבר 2026 (December 2, 2026), but the source date is 2026-10-02, which is October 2, 2026.",
-        "at": "2026-10-03T18:33:44.647Z"
-      },
-      {
-        "title": "Πλημμύρες και μεγάλες καταστροφές στην Κρήτη – Συγκλονιστικές εικόνες – Πώς θα εξελιχθεί η κακοκαιρία",
-        "reason": "Mixed-script (broken) Hebrew words: לסייe. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-03T18:34:09.827Z"
+        "title": "Σεισμός 4,1 Ρίχτερ στο Ρέθυμνο",
+        "reason": "Mixed-script (broken) Hebrew words: הגיאodynamiko. Write every Hebrew word only in Hebrew letters.",
+        "at": "2026-10-04T02:06:00.671Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "athens-public-transport-changes-october-2026",
-        "at": "2026-10-03T04:13:41.773Z"
-      },
-      {
-        "slug": "tatoi-estate-open-december",
-        "at": "2026-10-03T07:04:16.218Z"
-      },
-      {
-        "slug": "kefalonia-forest-fire-response",
-        "at": "2026-10-03T09:04:27.221Z"
-      },
-      {
-        "slug": "fire-thesprotia-greece",
-        "at": "2026-10-03T11:08:05.790Z"
-      }
-    ]
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-03",
+      "count": 11,
+      "rejected": 8
+    },
     {
       "date": "2026-10-02",
       "count": 10,
@@ -1393,11 +1275,28 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-03T18:38:10.129Z",
-    "considered": 1,
-    "picked": 1,
+    "at": "2026-10-04T02:05:11.457Z",
+    "considered": 18,
+    "picked": 6,
     "items": [
-      "✓ ingr | Κρήτη: Χωρίς νερό Ζωνιανά, Κράνα και Λιβάδια μετά τις ζημιές από την κακοκαιρία"
+      "· ingr | Ινδονησία: Σεισμός 6,1 βαθμών ανοικτά της νήσου Σούμπα",
+      "✓ ert | Σεισμός 4,1 Ρίχτερ στο Ρέθυμνο",
+      "· ert | FlyDubai: Ποιοι είναι οι δύο μυστηριώδεις πιλότοι που έσωσαν το αεροπλάνο από την καταστρο",
+      "· gct | Turkey and France Sign Defence Roadmap as Greece Buys French Arms",
+      "✓ gct | Auto DraftGreece returns priceless relics to Bulgaria and points Britain to the Parthenon ",
+      "✓ gct | Storms and Floods Bring Chaos to Crete as Drivers and Tourists Are Rescued",
+      "· ingr | Δεκάδες χιλιάδες διαδηλώνουν σε όλη την Ισπανία ενάντια στην στεγαστική κρίση – Ακροδεξιοί",
+      "· ert | Ινδονησία: Σεισμός 6,1 Ρίχτερ στην περιοχή Σούμπα",
+      "· ert | ΗΠΑ: Αγνοείται αεροπλάνο με έξι επιβαίνοντες που πετούσε από τις Βερμούδες στη Βοστώνη",
+      "· ingr | Κρήτη: Αδιάκοπη η μάχη για την αποκατάσταση της κυκλοφορίας – Άρχισαν οι πρώτες καταγραφές",
+      "✓ gct | Greece Attracts Foreign Property Investors With 6.25% Yields",
+      "· gct | Sofia welcomes Tsar Samuil’s remains a thousand years after his death",
+      "✓ gct | Rubio Praises Guilfoyle Ahead of Greece Visit Amid Questions Over Energy Ties",
+      "✓ ert | O Νετανιάχου προσκαλεί τον Ινδό πιλότο της πτήσης της flydubai να επισκεφθεί το Ισραήλ",
+      "· naftemporiki | Νετανιάχου στον πιλότο της flydubai: «Είστε ένας πραγματικός ήρωας των γενναίων λαών της Ι",
+      "· ingr | Κρήτη: Τέσσερις τουρίστες απεγκλωβίστηκαν από τη θάλασσα λόγω των πλημμυρών στην Ιεράπετρα",
+      "· gn-iefimerida | Πύργος: Φωτιά σε χαμηλή βλάστηση στην περιοχή Τριανταφυλλιά - iefimerida.gr",
+      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
     ]
   },
   "evergreenDone": [
