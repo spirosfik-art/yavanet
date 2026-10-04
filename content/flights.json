@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T07:31:16+03:00",
+  "updated": "2026-10-04T09:08:48+03:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,12 +9,12 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 99,
+      "price": 103,
       "depart": "2026-10-26",
       "ret": "2026-10-30",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9367&search_date=03102026&expected_price_uuid=01a0ff58-ad36-8030-63d6-894a4df3fc4c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=99&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9702&search_date=04102026&expected_price_uuid=01a104b6-f18f-8030-23ef-400b74697dc8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=103&marker=782936"
     },
     {
       "dest": "RHO",
@@ -42,23 +42,23 @@
       "dest": "SKG",
       "he": "סלוניקי",
       "en": "Thessaloniki",
-      "price": 164,
-      "depart": "2026-11-23",
-      "ret": "2026-11-25",
-      "airline": "Wizz Air",
-      "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV2311SKG25111?t=W617954208001795508100001455TLVLCASKG17956113001795676700001090SKGLCATLV_965c0820a40ca5c9064d8df3cbfd1857_15758&search_date=26092026&expected_price_uuid=01a0dc7c-245f-8030-eb77-5190771bf131&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=chj6Ym9RKljl_5kAE2hlIg&expected_price_source=share&expected_price_currency=eur&expected_price=164&marker=782936"
+      "price": 175,
+      "depart": "2026-10-25",
+      "ret": "2026-10-29",
+      "airline": "Arkia",
+      "transfers": 0,
+      "link": "https://www.aviasales.com/search/TLV2510SKG29101?t=IZ17929242001792932900000145TLVSKG17932995001793307900000140SKGTLV_9297ec9a31f7c8cc24d0177a8ab5beab_16808&search_date=28092026&expected_price_uuid=01a0e85a-1c94-8030-af8d-f319b51849f5&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=HBS6iiYnlUj5VAEYbQMA3Q&expected_price_source=share&expected_price_currency=eur&expected_price=175&marker=782936"
     },
     {
-      "dest": "CHQ",
-      "he": "חאניה, כרתים",
-      "en": "Chania, Crete",
-      "price": 201,
-      "depart": "2026-10-10",
-      "ret": "2026-10-14",
-      "airline": "Wizz Air",
+      "dest": "JMK",
+      "he": "מיקונוס",
+      "en": "Mykonos",
+      "price": 236,
+      "depart": "2026-10-26",
+      "ret": "2026-10-30",
+      "airline": "Sky Express",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1010CHQ14101?t=W617916657001791716700000850TLVBUDCHQ17919660001792008000000700CHQPFOTLV_0a1349d7e8379326ed2526ff7a90a2ca_19280&search_date=26092026&expected_price_uuid=01a0dd94-d8cf-8030-e7ab-754002106cb7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Mn28td9KW0nyjLFq99BCEA&expected_price_source=share&expected_price_currency=eur&expected_price=201&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2610JMK30101?t=GQ17930574001793099700000705TLVATHJMK17933826001793447700001085JMKATHTLV_9c37f3e5e4530e40a2436cc4980f592e_22265&search_date=03102026&expected_price_uuid=01a100a0-2b60-8030-615e-6ceab40ecf3f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jaZ4mavIEmlCCgyXtrTbyA&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
     },
     {
       "dest": "JTR",
@@ -83,26 +83,15 @@
       "link": "https://www.aviasales.com/search/TLV1310CFU17101?t=W617919306001791987900000955TLVBTSCFU17921967001792272900001270CFUBTSTLV_087699b6bad4a4d578626799a39f4ebc_22223&search_date=02102026&expected_price_uuid=01a0fdf2-edd1-8030-213c-b3f7e4263f96&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9SF0GY4uy9zaTIIZsD7xjg&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
     },
     {
-      "dest": "JMK",
-      "he": "מיקונוס",
-      "en": "Mykonos",
-      "price": 248,
-      "depart": "2026-11-19",
-      "ret": "2026-11-24",
-      "airline": "Aegean",
-      "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1911JMK24111?t=A317950908001795108800000300TLVATHJMK17955426001795661700001985JMKATHTLV_02b8671ce3fd3a11fe101210bc5f5e60_23855&search_date=27092026&expected_price_uuid=01a0e1b3-8a76-8030-26d4-b4809d93920f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=8OcxMko3vte9ctHCT0pfyA&expected_price_source=share&expected_price_currency=eur&expected_price=248&marker=782936"
-    },
-    {
       "dest": "KGS",
       "he": "קוס",
       "en": "Kos",
-      "price": 274,
-      "depart": "2026-10-10",
-      "ret": "2026-10-15",
+      "price": 244,
+      "depart": "2026-11-09",
+      "ret": "2026-11-15",
       "airline": "Wizz Air",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1010KGS15101?t=W417916369001791705900001150TLVATHKGS17921031001792151700000810KGSATHTLV_a8c7edcad4f1e8f7a881acd66760bbd6_26302&search_date=29092026&expected_price_uuid=01a0ebcb-b405-8030-23cc-1870a80887a7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Hnm8DDWOfw1_oxijSJm_Iw&expected_price_source=share&expected_price_currency=eur&expected_price=274&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0911KGS15111?t=W417942286001794296700001135TLVATHKGS17947752001794797700000375KGSATHTLV_0b9824451da1a444cf07c87aed77b64c_22984&search_date=03102026&expected_price_uuid=01a10329-9d2e-8030-a319-f637cc32d681&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4MD5lv4gT-V54eUpnD3V0w&expected_price_source=share&expected_price_currency=eur&expected_price=244&marker=782936"
     }
   ]
 }
