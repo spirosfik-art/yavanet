@@ -1083,7 +1083,10 @@
     "ab0c3199b9f5": 1791090990525,
     "ff7b956d8fce": 1791090990525,
     "eed23e99520b": 1791090990525,
-    "a302327c772c": 1791090990525
+    "a302327c772c": 1791090990525,
+    "99f142078e47": 1791093732430,
+    "10da294bf24a": 1791093732430,
+    "224116003aa6": 1791093732430
   },
   "pending": {
     "2f7c61": {
@@ -1199,12 +1202,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-04T05:16:20.031Z",
-      "items": 0
+      "at": "2026-10-04T06:02:00.929Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-04T05:16:20.786Z",
+      "at": "2026-10-04T06:02:01.740Z",
       "items": 5
     },
     "civilprotection": {
@@ -1215,27 +1218,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-04T05:16:23.103Z",
+      "at": "2026-10-04T06:02:03.318Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-04T05:16:23.288Z",
+      "at": "2026-10-04T06:02:03.718Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-04T05:16:24.166Z",
+      "at": "2026-10-04T06:02:04.861Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-04T05:16:24.721Z",
-      "items": 6
+      "at": "2026-10-04T06:02:05.654Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-04T05:16:25.412Z",
+      "at": "2026-10-04T06:02:06.530Z",
       "items": 10
     },
     "toi-greece": {
@@ -1246,23 +1249,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-04T05:16:25.804Z",
+      "at": "2026-10-04T06:02:07.105Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-04T05:16:25.856Z",
+      "at": "2026-10-04T06:02:07.367Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-04T05:16:25.917Z",
+      "at": "2026-10-04T06:02:07.416Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T05:16:26.031Z",
-      "items": 6
+      "at": "2026-10-04T06:02:07.610Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1271,12 +1274,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-04T05:16:21.973Z",
+      "at": "2026-10-04T06:02:01.971Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-04T05:16:26.558Z",
+      "at": "2026-10-04T06:02:08.260Z",
       "items": 0
     },
     "hcg": {
@@ -1287,39 +1290,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-04T05:16:27.890Z",
+      "at": "2026-10-04T06:02:09.866Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-04T05:16:28.061Z",
+      "at": "2026-10-04T06:02:10.056Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-04T05:16:28.281Z",
-      "items": 6
+      "at": "2026-10-04T06:02:10.269Z",
+      "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-04T05:16:28.480Z",
-      "items": 6
+      "at": "2026-10-04T06:02:10.489Z",
+      "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-04T05:16:28.747Z",
-      "items": 6
+      "at": "2026-10-04T06:02:10.815Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-04T05:16:29.113Z",
+      "at": "2026-10-04T06:02:11.199Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-04",
-    "count": 0,
+    "count": 1,
     "published": [
       {
         "slug": "crete-water-supply-disruption-bad-weather",
@@ -1331,6 +1334,18 @@
         "slug": "orange-thunderstorm-warning-dodecanese",
         "title": "↻ Weather in Greece: Rains and Storms in Crete and Dodecanese",
         "at": "2026-10-04T08:16:44+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "orange-thunderstorm-warning-dodecanese",
+        "title": "↻ Severe Weather in Greece: Heavy Rains and Strong Winds in the Aegean",
+        "at": "2026-10-04T09:02:35+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "earthquake-magnitude-4-1-rethymno-crete",
+        "title": "Magnitude 4.1 Earthquake Shakes Rethymno in Crete",
+        "at": "2026-10-04T09:02:53+03:00",
         "section": "breaking"
       }
     ],
@@ -1361,7 +1376,13 @@
         "at": "2026-10-04T05:17:11.055Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "earthquake-magnitude-4-1-rethymno-crete",
+        "at": "2026-10-04T06:02:54.198Z"
+      }
+    ]
   },
   "history": [
     {
@@ -1407,16 +1428,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-04T05:16:30.525Z",
-    "considered": 6,
-    "picked": 4,
+    "at": "2026-10-04T06:02:12.430Z",
+    "considered": 3,
+    "picked": 2,
     "items": [
-      "✓ ingr | «Eίμαστε όλοι Μαρικάρμεν»: Δύο Ελληνίδες ακτιβίστριες στον ξεσηκωμό της Μαδρίτης για τη στ",
-      "✓ naftemporiki | Καιρός: Επιμένει η κακοκαιρία σε Κρήτη και Δωδεκάνησα – Άνοδος της θερμοκρασίας στην ηπειρ",
-      "✓ naftemporiki | Σεισμός 4,1 Ρίχτερ στο Ρέθυμνο",
-      "· gn-iefimerida | Συνεχίζεται το σφυροκόπημα της κακοκαιρίας στην Κρήτη -Προβλήματα σε όλο το νησί, πότε εξα",
-      "· gn-kathimerini | Πυρκαγιά σε κατοικία στη Σαλαμίνα – Απομακρύνθηκε ηλικιωμένη - Kathimerini",
-      "✓ gn-iefimerida | Καμπανάκι Ντέιβιντ Τσίπερφιλντ για την Αθήνα: «Αν οι αξίες γης εκτοξευθούν, όλοι θα φύγουν"
+      "✓ ingr | Σεισμός 4,1 Ρίχτερ «ταρακούνησε» το Ρέθυμνο",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - mnsw.hcg.gr",
+      "✓ gn-civilprotection | Ισχυρές βροχές και καταιγίδες έως και το μεσημέρι της Κυριακής (04-10-2026) στο νότιο Αιγα"
     ]
   },
   "evergreenDone": [
@@ -1459,5 +1477,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1790949239981,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "earthquake-magnitude-4-1-rethymno-crete",
+      "url": "https://yavanet.gr/a/earthquake-magnitude-4-1-rethymno-crete/",
+      "at": "2026-10-04T06:02:54.198Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/earthquake-magnitude-4-1-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/earthquake-magnitude-4-1-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה 4.1 הורגשה בכרתים",
+        "title_en": "Magnitude 4.1 Earthquake Shakes Rethymno in Crete",
+        "dek_he": "רעידת אדמה מורגשת פקדה את האי כרתים בשעות הבוקר. המכון הגיאודינמי עדכן על המיקום והעוצמה.",
+        "dek_en": "A moderate earthquake shook the island of Crete this morning, according to data from the Geodynamic Institute.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/13000017/pexels-photo-13000017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "רעידת אדמה בעוצמה 4.1 הורגשה בכרתים\n\nרעידת אדמה מורגשת פקדה את האי כרתים בשעות הבוקר. המכון הגיאודינמי עדכן על המיקום והעוצמה.\n\nhttps://yavanet.gr/a/earthquake-magnitude-4-1-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Magnitude 4.1 Earthquake Shakes Rethymno in Crete\n\nA moderate earthquake shook the island of Crete this morning, according to data from the Geodynamic Institute.\n\nhttps://yavanet.gr/en/a/earthquake-magnitude-4-1-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }

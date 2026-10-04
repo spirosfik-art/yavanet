@@ -1,0 +1,77 @@
+{
+  "slug": "earthquake-magnitude-4-1-rethymno-crete",
+  "section": "breaking",
+  "publishedAt": "2026-10-04T09:02:53+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 35.367,
+    "lng": 24.471
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/04/greece/seismos-41-rixter-tarakounise-to-rethymno/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13000017/pexels-photo-13000017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful rural landscape with cropland and majestic mountains under a clear blue sky.",
+    "credit": "Photo: Al Darby / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-cropland-near-the-mountains-13000017/",
+    "license": "Pexels License",
+    "fallbackKey": "quake"
+  },
+  "alert": {
+    "he": "רעידת אדמה",
+    "en": "Earthquake"
+  },
+  "he": {
+    "title": "רעידת אדמה בעוצמה 4.1 הורגשה בכרתים",
+    "seoDesc": "רעידת אדמה בעוצמה 4.1 הורגשה היום באזור רתִּימנוֹ שבכרתים. אין דיווחים על נזק או נפגעים לפי שעה.",
+    "keywords": [
+      "רעידת אדמה ביוון",
+      "כרתים",
+      "רעידת אדמה בכרתים",
+      "חדשות יוון"
+    ],
+    "dek": "רעידת אדמה מורגשת פקדה את האי כרתים בשעות הבוקר. המכון הגיאודינמי עדכן על המיקום והעוצמה.",
+    "tldr": [
+      "רעידת אדמה בעוצמה 4.1 התרחשה בכרתים ב-4 באוקטובר.",
+      "מוקד הרעש היה סמוך ליישוב ויסטאגי ברתימנו.",
+      "עומק הרעידה נמדד על 15 קילומטרים מתחת לפני הקרקע."
+    ],
+    "means": "אם אתם מטיילים כעת בכרתים, חשוב לדעת שמדובר ברעש מתון שלא דווחו בעקבותיו נזקים או נפגעים. אין הנחיות מיוחדות לתיירים, אך מומלץ להתעדכן בהודעות הרשמיות של רשויות החירום המקומיות במקרה של רעידות משנה.",
+    "body": "## פרטי הרעש בכרתים\n\nרעידת אדמה בעוצמה 4.1 בסולם ריכטר התרחשה היום (שבת) באי כרתים וורגשה היטב באזור רתימנו. האירוע הסתכם ברעידה קצרה שהורגשה על ידי התושבים והמטיילים באזור.\n\nעל פי הנתונים שנמסרו מהמכון הגיאודינמי, מוקד הרעידה המדויק אותר שבעה קילומטרים מזרחית ליישוב ויסטאגי שברתימנו. עומק המוקד הוגדר כ-15 קילומטרים.\n\n## מצב בשטח\n\nכוחות ההצלה והחירום באזור לא דיווחו על נפגעים בגוף או על נזק לרכוש כתוצאה מהרעש. הרשויות ממשיכות לעקוב אחר הפעילות הסייסמית באזור כבגרת שגרה, ולא ניתנו הנחיות חריגות לציבור הרחב או למבקרים השוהים באי."
+  },
+  "en": {
+    "title": "Magnitude 4.1 Earthquake Shakes Rethymno in Crete",
+    "seoTitle": "Earthquake in Crete: Magnitude 4.1 Shakes Rethymno",
+    "seoDesc": "A magnitude 4.1 earthquake was recorded in the Rethymno region of Crete. No damages or injuries reported.",
+    "keywords": [
+      "earthquake greece",
+      "crete earthquake",
+      "rethymno",
+      "greece news"
+    ],
+    "dek": "A moderate earthquake shook the island of Crete this morning, according to data from the Geodynamic Institute.",
+    "tldr": [
+      "A magnitude 4.1 earthquake struck Crete on October 4.",
+      "The epicenter was located near the village of Vistagi in Rethymno.",
+      "The focal depth was measured at 15 kilometers."
+    ],
+    "means": "If you are currently visiting Crete, be aware that this was a moderate tremor with no reported damages or injuries. No special precautions are necessary for travelers, but always follow local emergency updates.",
+    "body": "## Details of the Tremor in Crete\n\nA 4.1 magnitude earthquake shook the island of Crete today, being felt across parts of the Rethymno region. The brief tremor was noticed by residents and visitors in the area.\n\nAccording to the Geodynamic Institute, the epicenter of the seismic event was located seven kilometers east of Vistagi in Rethymno. The focal depth was recorded at 15 kilometers below the surface.\n\n## Current Status\n\nLocal authorities and emergency services have not received any reports of injuries or structural damage following the tremor. Monitoring of seismic activity in the region continues as a standard precaution, and no emergency measures have been issued for the public."
+  },
+  "meta": {
+    "itemId": "99f142078e47",
+    "imageQuery": "crete greece landscape mountains",
+    "sourceHash": "69ed3d6b1720",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-04T06:02:54.198Z",
+    "official": false
+  }
+}
