@@ -1363,7 +1363,9 @@
     "199448637fea": 1791241318386,
     "4098de5e6764": 1791242519625,
     "bc21d41a26c2": 1791242519625,
-    "e74452cbbd9a": 1791242519625
+    "e74452cbbd9a": 1791242519625,
+    "6a6cd2034362": 1791243264920,
+    "466b342e1713": 1791243264920
   },
   "pending": {
     "b5db31": {
@@ -1482,12 +1484,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T23:21:47.781Z",
+      "at": "2026-10-05T23:34:14.718Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T23:21:48.497Z",
+      "at": "2026-10-05T23:34:15.358Z",
       "items": 5
     },
     "civilprotection": {
@@ -1498,27 +1500,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T23:21:49.896Z",
+      "at": "2026-10-05T23:34:16.685Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T23:21:50.345Z",
+      "at": "2026-10-05T23:34:16.891Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T23:21:51.540Z",
+      "at": "2026-10-05T23:34:17.955Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T23:21:52.299Z",
+      "at": "2026-10-05T23:34:18.773Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T23:21:53.217Z",
+      "at": "2026-10-05T23:34:19.194Z",
       "items": 10
     },
     "toi-greece": {
@@ -1529,22 +1531,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T23:21:53.714Z",
+      "at": "2026-10-05T23:34:19.737Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T23:21:54.112Z",
+      "at": "2026-10-05T23:34:20.049Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T23:21:54.726Z",
+      "at": "2026-10-05T23:34:20.658Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T23:21:55.111Z",
+      "at": "2026-10-05T23:34:21.087Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1554,12 +1556,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T23:21:49.102Z",
+      "at": "2026-10-05T23:34:15.870Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T23:21:55.875Z",
+      "at": "2026-10-05T23:34:21.618Z",
       "items": 0
     },
     "hcg": {
@@ -1570,33 +1572,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T23:21:57.147Z",
+      "at": "2026-10-05T23:34:22.882Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T23:21:57.403Z",
+      "at": "2026-10-05T23:34:23.118Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T23:21:57.595Z",
+      "at": "2026-10-05T23:34:23.276Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T23:21:57.861Z",
+      "at": "2026-10-05T23:34:23.427Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T23:21:58.220Z",
+      "at": "2026-10-05T23:34:23.767Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T23:21:58.677Z",
-      "items": 7
+      "at": "2026-10-05T23:34:24.242Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -1693,13 +1695,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T23:21:59.625Z",
-    "considered": 3,
+    "at": "2026-10-05T23:34:24.920Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | 153 Livestock Farms To Be Tested For Sheep and Goat Pox",
-      "· gct | Mitsotakis says New Democracy can win a majority again in 2027",
-      "· gct | Two Greek Water Polo Players Among World’s Top Five"
+      "· gct | Sydney consulate explains how Greeks in Australia can register to vote",
+      "· gn-iefimerida | Τουρκία: Συναγερμός σε πτήση από την Άγκυρα -Προειδοποίηση για εκρηκτικά στο αεροσκάφος - "
     ]
   },
   "evergreenDone": [
