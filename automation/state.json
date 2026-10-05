@@ -1353,7 +1353,10 @@
     "4a2e52eefb1d": 1791237169462,
     "7bfa08bb34bc": 1791237771139,
     "5504fe08fb25": 1791237771139,
-    "ef1b01b19a9a": 1791237771139
+    "ef1b01b19a9a": 1791237771139,
+    "a898d6fd2e72": 1791239742493,
+    "d97fa9ee16b7": 1791239742493,
+    "34a122264cda": 1791239742493
   },
   "pending": {
     "b5db31": {
@@ -1472,12 +1475,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T22:23:37.264Z",
+      "at": "2026-10-05T22:35:30.873Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T22:23:37.842Z",
+      "at": "2026-10-05T22:35:31.594Z",
       "items": 5
     },
     "civilprotection": {
@@ -1488,27 +1491,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T22:23:39.039Z",
+      "at": "2026-10-05T22:35:32.946Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T22:23:39.168Z",
+      "at": "2026-10-05T22:35:33.343Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T22:23:39.969Z",
+      "at": "2026-10-05T22:35:34.691Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T22:23:40.597Z",
+      "at": "2026-10-05T22:35:35.410Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T22:23:41.343Z",
+      "at": "2026-10-05T22:35:36.271Z",
       "items": 10
     },
     "toi-greece": {
@@ -1519,22 +1522,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T22:23:41.834Z",
+      "at": "2026-10-05T22:35:36.872Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T22:23:41.911Z",
+      "at": "2026-10-05T22:35:36.979Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T22:23:42.104Z",
+      "at": "2026-10-05T22:35:37.549Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T22:23:42.221Z",
+      "at": "2026-10-05T22:35:38.107Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1544,12 +1547,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T22:23:38.320Z",
+      "at": "2026-10-05T22:35:31.840Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T22:23:42.663Z",
+      "at": "2026-10-05T22:35:38.837Z",
       "items": 0
     },
     "hcg": {
@@ -1560,32 +1563,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T22:23:44.016Z",
+      "at": "2026-10-05T22:35:40.386Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T22:23:44.253Z",
+      "at": "2026-10-05T22:35:40.608Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T22:23:44.454Z",
+      "at": "2026-10-05T22:35:40.761Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T22:23:44.692Z",
+      "at": "2026-10-05T22:35:40.937Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T22:23:45.092Z",
+      "at": "2026-10-05T22:35:41.281Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T22:23:45.507Z",
+      "at": "2026-10-05T22:35:41.730Z",
       "items": 7
     }
   },
@@ -1683,13 +1686,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T22:02:51.139Z",
+    "at": "2026-10-05T22:35:42.493Z",
     "considered": 3,
-    "picked": 1,
+    "picked": 0,
     "items": [
-      "· gct | Greece is One Win Away from European Championship Finals",
-      "· gct | Greece Seeks Two Minehunters From Italy To Boost Navy",
-      "✓ gct | Greece and Egypt Seek Stronger Tourism Cooperation and Air Links"
+      "· gct | Former Prince Andrew Takes Legal Action Over Epstein Arrest",
+      "· gct | Greek Muftis Present Thrace Model of Coexistence at International Conference",
+      "· gct | Two Greek Youngsters Make Finals for European Golden Boy 2026"
     ]
   },
   "evergreenDone": [
