@@ -1212,7 +1212,15 @@
     "3e0c3082c040": 1791178162917,
     "48442eb5d13a": 1791178162917,
     "fd554b749941": 1791178162917,
-    "798f579d4a85": 1791180278456
+    "798f579d4a85": 1791180278456,
+    "bce71ac05c9d": 1791181998451,
+    "cf1e48636121": 1791181998451,
+    "c92063d66c60": 1791181998451,
+    "33f1a47a406a": 1791181998451,
+    "f5023e1e85bc": 1791181998451,
+    "c18911c62a13": 1791181998451,
+    "2929c7101b93": 1791181998451,
+    "f4565c32b6e6": 1791181998451
   },
   "pending": {},
   "sourceStatus": {
@@ -1224,12 +1232,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T06:04:18.725Z",
+      "at": "2026-10-05T06:33:08.097Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T06:04:19.425Z",
+      "at": "2026-10-05T06:33:08.827Z",
       "items": 5
     },
     "civilprotection": {
@@ -1240,27 +1248,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T06:04:20.791Z",
+      "at": "2026-10-05T06:33:09.829Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T06:04:20.978Z",
+      "at": "2026-10-05T06:33:10.087Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T06:04:21.839Z",
+      "at": "2026-10-05T06:33:11.061Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T06:04:23.112Z",
+      "at": "2026-10-05T06:33:11.790Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T06:04:23.932Z",
+      "at": "2026-10-05T06:33:12.528Z",
       "items": 10
     },
     "toi-greece": {
@@ -1271,23 +1279,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T06:04:24.486Z",
+      "at": "2026-10-05T06:33:13.003Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T06:04:24.800Z",
+      "at": "2026-10-05T06:33:13.308Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T06:04:25.480Z",
-      "items": 7
+      "at": "2026-10-05T06:33:13.873Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T06:04:25.673Z",
-      "items": 2
+      "at": "2026-10-05T06:33:14.227Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1296,12 +1304,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T06:04:20.016Z",
+      "at": "2026-10-05T06:33:09.068Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T06:04:26.395Z",
+      "at": "2026-10-05T06:33:14.745Z",
       "items": 0
     },
     "hcg": {
@@ -1312,32 +1320,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T06:04:27.803Z",
+      "at": "2026-10-05T06:33:16.046Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T06:04:28.096Z",
+      "at": "2026-10-05T06:33:16.273Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T06:04:28.303Z",
+      "at": "2026-10-05T06:33:16.455Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T06:04:28.551Z",
-      "items": 5
+      "at": "2026-10-05T06:33:16.704Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T06:04:28.839Z",
+      "at": "2026-10-05T06:33:17.003Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T06:04:29.212Z",
+      "at": "2026-10-05T06:33:17.454Z",
       "items": 9
     }
   },
@@ -1380,6 +1388,11 @@
         "title": "UK Green Party Approves Resolution Denouncing Zionism",
         "reason": "Ουδέτερη εκδοχή: The article contains a negative event involving a named private individual (Zach Polanski), violating Yavanet editorial rule 4 ('No names of private individuals' in negative events / political controversies involving accusations).; The Hebrew version contains invented or misspelled ",
         "at": "2026-10-04T23:22:26.947Z"
+      },
+      {
+        "title": "Κρήτη: Πάνω από 500 κλήσεις στην Πυροσβεστική λόγω της κακοκαιρίας",
+        "reason": "Ίδιο θέμα με «Crete: Severe Floods and Heavy Damage Hit the Lasithi Plateau» – δεν γράφτηκε ξανά",
+        "at": "2026-10-05T06:33:22.640Z"
       }
     ],
     "errors": [],
@@ -1434,11 +1447,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T06:04:38.456Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-05T06:33:18.451Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· gct | Eight Trapped in Crete’s Samaria Gorge as Flooding Causes Major Damage"
+      "· naftemporiki | Μια παράσταση για τα νοικιασμένα σπίτια που στεγάζουν έρωτες για τρία συν ένα χρόνια",
+      "· gn-hcg | Εκδήλωση πυρκαγιάς σε Ι/Φ στους Ωρεούς - Εντοπισμός και διάσωση 44 αλλοδαπών και σύλληψη τ",
+      "· gct | Nikos Dendias Uses Alimos Rally to Signal His Place in New Democracy Ahead of 2027",
+      "· gn-kathimerini | Μαίνεται η φωτιά στο Σουφλί – Ενίσχυση των δυνάμεων - Kathimerini",
+      "· naftemporiki | ΗΠΑ: Νεκροί θεωρούνται οι έξι επιβαίνοντες στο αεροσκάφος-ασθενοφόρο που συνετρίβη – Σταμά",
+      "· ert | Ο ισραηλινός στρατός σκότωσε «ύποπτο» κοντά σε θέση του στα νότια της Συρίας",
+      "✓ naftemporiki | Κρήτη: Πάνω από 500 κλήσεις στην Πυροσβεστική λόγω της κακοκαιρίας",
+      "· gct | Greek Australian developers bring Novotel to Castle Hill"
     ]
   },
   "evergreenDone": [
