@@ -1251,7 +1251,11 @@
     "048c97b9959a": 1791193533188,
     "fa6c736dd249": 1791194708047,
     "5fae306a1783": 1791194708047,
-    "3774518c60bb": 1791194708047
+    "3774518c60bb": 1791194708047,
+    "a2a12657b6c9": 1791196085175,
+    "e9c38577a5a7": 1791196085175,
+    "bf80c0d0e506": 1791196085175,
+    "8b1e8ed0267b": 1791196085175
   },
   "pending": {},
   "sourceStatus": {
@@ -1263,12 +1267,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T10:04:56.850Z",
+      "at": "2026-10-05T10:27:52.898Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T10:04:57.658Z",
+      "at": "2026-10-05T10:27:53.675Z",
       "items": 5
     },
     "civilprotection": {
@@ -1279,27 +1283,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T10:04:58.911Z",
+      "at": "2026-10-05T10:27:55.599Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T10:04:59.289Z",
+      "at": "2026-10-05T10:27:55.988Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T10:05:00.305Z",
+      "at": "2026-10-05T10:27:56.873Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T10:05:01.124Z",
+      "at": "2026-10-05T10:27:57.671Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T10:05:02.089Z",
+      "at": "2026-10-05T10:27:58.493Z",
       "items": 10
     },
     "toi-greece": {
@@ -1310,23 +1314,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T10:05:02.638Z",
+      "at": "2026-10-05T10:27:59.005Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T10:05:03.023Z",
+      "at": "2026-10-05T10:27:59.317Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T10:05:03.620Z",
-      "items": 2
+      "at": "2026-10-05T10:27:59.899Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T10:05:03.776Z",
-      "items": 4
+      "at": "2026-10-05T10:28:00.332Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1335,12 +1339,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T10:04:58.016Z",
+      "at": "2026-10-05T10:27:54.551Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T10:05:04.428Z",
+      "at": "2026-10-05T10:28:00.829Z",
       "items": 0
     },
     "hcg": {
@@ -1351,33 +1355,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T10:05:05.742Z",
+      "at": "2026-10-05T10:28:02.562Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T10:05:06.013Z",
-      "items": 6
+      "at": "2026-10-05T10:28:02.831Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T10:05:06.166Z",
+      "at": "2026-10-05T10:28:02.991Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T10:05:06.323Z",
+      "at": "2026-10-05T10:28:03.222Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T10:05:06.665Z",
+      "at": "2026-10-05T10:28:03.565Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T10:05:07.052Z",
-      "items": 9
+      "at": "2026-10-05T10:28:04.027Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -1419,6 +1423,12 @@
         "slug": "messinia-forest-fire-militza",
         "title": "↻ Wildfire in Greece: Emergency alerts issued for Militsa in Messinia",
         "at": "2026-10-05T13:05:22+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "messinia-forest-fire-militza",
+        "title": "↻ Messinia: Wildfire situation in Militsa improves as crews battle flames",
+        "at": "2026-10-05T13:28:18+03:00",
         "section": "breaking"
       }
     ],
@@ -1511,13 +1521,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T10:05:08.047Z",
-    "considered": 3,
+    "at": "2026-10-05T10:28:05.176Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "· gn-kathimerini | Φωτιά στη Μηλίτσα Μεσσηνίας – Επιχειρούν τρία εναέρια μέσα - Kathimerini",
-      "✓ naftemporiki | Μεσσηνία: Μήνυμα του 112 για την πυρκαγιά στη Μηλίτσα",
-      "· gtp | «Μνήμη και ορίζοντας»: Η Ελλάδα μέσα από τις τουριστικές αφίσες του ΕΟΤ στο Radisson Blu P"
+      "· gct | Spain’s Pedro Sánchez calls snap election as housing crisis threatens his grip on power",
+      "✓ ert | Μεσσηνία: Βελτιωμένη η εικόνα από τη φωτιά στη Μηλίτσα – Ενημερωτικό μήνυμα του 112",
+      "· naftemporiki | Royal Caribbean και MSC Cruises επενδύουν σε νέο κόμβο κρουαζιέρας στην Ιαπωνία",
+      "· ingr | Φωτιά σε δασική έκταση στη Μηλίτσα Μεσσηνίας – Εστάλη μήνυμα 112 για ετοιμότητα"
     ]
   },
   "evergreenDone": [
