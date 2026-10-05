@@ -1291,9 +1291,117 @@
     "96fd9edcfe5e": 1791212126044,
     "91e4614f688c": 1791212126044,
     "f7b86f9bd1a8": 1791212810966,
-    "526ad0225b1f": 1791212810966
+    "526ad0225b1f": 1791212810966,
+    "75c941b07dbd": 1791214134902,
+    "3defdedc2e8a": 1791214134902,
+    "cffd50a5b45f": 1791214134902,
+    "605555e1b9d4": 1791214134902,
+    "ae8b9927adec": 1791214134902,
+    "93d431eafd00": 1791214134902
   },
-  "pending": {},
+  "pending": {
+    "a2b121": {
+      "createdAt": 1791214159832,
+      "item": {
+        "title": "Σοβαρό περιστατικό στο Αεροδρόμιο Λάρνακας σε πτήση για το Ισραήλ",
+        "url": "https://www.ertnews.gr/eidiseis/diethni/sovaro-peristatiko-sto-aerodromio-larnakas-se-ptisi-gia-to-israil/",
+        "summary": "Μια γυναίκα επιβάτης κατάφερε να παρακάμψει όλα τα σημεία ελέγχου ασφαλείας και τους συνοριακούς ελέγχους στο Διεθνές Αεροδρόμιο Λάρνακας και να επιβιβαστεί σε πτήση της TUS AIRWAYS με προορισμό το Τελ Αβίβ, παρότι ίσχυε εις βάρος της απαγόρευση εισόδου που είχαν επιβάλει οι ισραηλινές αρχές μετανάστευσης. Ανταπόκριση από τη Λευκωσία: Kωστής Κωνσταντίνου… Η παραβίαση εντοπίστηκε ... Περισσότερα \n www.ertnews.gr",
+        "published": "Mon, 05 Oct 2026 15:21:03 +0000",
+        "id": "3defdedc2e8a",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "3defdedc2e8a",
+        "section": "breaking",
+        "priority": 10,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "A serious security breach at Larnaca airport involving a passenger banned from Israel boarding a TUS Airways flight directly affects Israeli security and travelers heading to Israel.",
+        "item": {
+          "title": "Σοβαρό περιστατικό στο Αεροδρόμιο Λάρνακας σε πτήση για το Ισραήλ",
+          "url": "https://www.ertnews.gr/eidiseis/diethni/sovaro-peristatiko-sto-aerodromio-larnakas-se-ptisi-gia-to-israil/",
+          "summary": "Μια γυναίκα επιβάτης κατάφερε να παρακάμψει όλα τα σημεία ελέγχου ασφαλείας και τους συνοριακούς ελέγχους στο Διεθνές Αεροδρόμιο Λάρνακας και να επιβιβαστεί σε πτήση της TUS AIRWAYS με προορισμό το Τελ Αβίβ, παρότι ίσχυε εις βάρος της απαγόρευση εισόδου που είχαν επιβάλει οι ισραηλινές αρχές μετανάστευσης. Ανταπόκριση από τη Λευκωσία: Kωστής Κωνσταντίνου… Η παραβίαση εντοπίστηκε ... Περισσότερα \n www.ertnews.gr",
+          "published": "Mon, 05 Oct 2026 15:21:03 +0000",
+          "id": "3defdedc2e8a",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "larnaca-airport-security-breach-tel-aviv-flight",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון בטחוני",
+          "en": "Security Update"
+        },
+        "imageKey": "plane",
+        "imageQuery": "airplane at airport runway",
+        "he": {
+          "title": "חדשות נתב\"ג: מחדל אבטחה בלרנקה בטיסה לתל אביב",
+          "seoTitle": "מחדל אבטחה בלרנקה: טיסה לתל אביב והפרטים",
+          "seoDesc": "נוסעת עלתה לטיסה לתל אביב בלי לעבור ביקורת בנמל התעופה בלרנקה, למרות צו איסור כניסה. המחדל התגלה רגע לפני ההמראה.",
+          "keywords": [
+            "נתב\"ג",
+            "טיסות לתל אביב",
+            "אבטחה",
+            "לרנקה"
+          ],
+          "dek": "מחדל חמור בנמל התעופה בלרנקה: נוסעת הצליחה לעקוף את כל בדיקות האבטחה והגבול ועלתה למטוס בדרך לתל אביב.",
+          "tldr": [
+            "נוסעת עקפה את כל בדיקות הביטחון והגבול בלרנקה.",
+            "היא עלתה לטיסת TUS Airways לתל אביב למרות צו איסור כניסה.",
+            "הצוות גילה את התוספת ברגע האחרון והיא פונתה מהמטוס."
+          ],
+          "means": "מה זה אומר עליכם? האירוע גרם לחוסר נעימות ולביטולי נסיעה של נוסעים אחרים שדרשו לרדת מהמטוס. מומלץ להתעדכן מול חברת התעופה בכל שינוי ולעקוב אחר ההודעות הרשמיות בשדה.",
+          "body": "## מחדל אבטחה בטיסה לתל אביב\n\nאירוע חריג התרחש בנמל התעופה בלרנקה, כאשר נוסעת הצליחה להתחמק מכל עמדות ביקורת הגבולות והאבטחה. אותה נוסעת עלתה על טיסה של חברת TUS Airways שהייתה בדרכה לתל אביב, על אף שהתקיים נגדה צו איסור כניסה מטעם רשויות ההגירה בישראל.\n\n## גילוי רגע לפני ההמראה\n\nהפרשה נחשפה דקות ספורות לפני שהמטוס החל את דרכו, בעת שצוות הדיילים ביצע ספירה שגרתית של הנוסעים ואיתר נוסעת אחת מיותרת על סיפון המטוס. בדיקה מהירה העלתה ששמה אינו מופיע ברשימת הנוסעים הרשמית של הטיסה.\n\n## הורדה מהמטוס ותגובת הנוסעים\n\nאנשי הביטחון בשדה התעופה הורידו את הנוסעת מהמטוס באופן מיידי. עם זאת, התקרית עוררה סערה בקרב נוסעים אחרים בטיסה, שדרשו לרדת מהמטוס ולבטל את נסיעתם בעקבות המחדל. הפרשה דווחה בהרחבה גם בכלי התקשורת בישראל."
+        },
+        "en": {
+          "title": "Security breach at Larnaca Airport on Tel Aviv flight",
+          "seoTitle": "Larnaca Airport security breach on Tel Aviv flight",
+          "seoDesc": "A passenger bypassed all security checks at Larnaca Airport and boarded a Tel Aviv flight despite an entry ban. The breach was found before takeoff.",
+          "keywords": [
+            "Larnaca airport",
+            "Tel Aviv flight",
+            "security breach",
+            "TUS Airways"
+          ],
+          "dek": "A serious security breach at Larnaca Airport allowed a passenger to bypass controls and board a flight to Tel Aviv.",
+          "tldr": [
+            "A female passenger bypassed all security and border checks at Larnaca Airport.",
+            "She boarded a TUS Airways flight to Tel Aviv despite an active entry ban.",
+            "The cabin crew discovered the extra passenger just before takeoff."
+          ],
+          "means": "What this means for you: The incident caused distress among other passengers, some of whom chose to disembark and cancel their travel. Check with your airline for any updates regarding your flight schedule.",
+          "body": "## Security Breach on Tel Aviv Flight\n\nA female passenger managed to bypass all security checkpoints and border controls at Larnaca International Airport and board a TUS Airways flight bound for Tel Aviv, despite an entry ban issued against her by Israeli immigration authorities.\n\n## Discovery Just Before Takeoff\n\nThe violation was uncovered only a few minutes before departure, when the cabin crew conducted a routine headcount and discovered that there was one extra passenger on board the aircraft.\n\nA quick cross-check revealed that the woman was not included on the official passenger manifest. Airport authorities immediately removed her from the aircraft.\n\n## Passenger Reaction\n\nNevertheless, the incident caused distress among several passengers, who demanded to disembark and cancel their trip. The event was also covered by media outlets, including a broadcast featuring the captain informing passengers about the situation."
+        }
+      },
+      "text": "Μια γυναίκα επιβάτης κατάφερε να παρακάμψει όλα τα σημεία ελέγχου ασφαλείας και τους συνοριακούς ελέγχους στο Διεθνές Αεροδρόμιο Λάρνακας και να επιβιβαστεί σε πτήση της TUS AIRWAYS με προορισμό το Τελ Αβίβ, παρότι ίσχυε εις βάρος της απαγόρευση εισόδου που είχαν επιβάλει οι ισραηλινές αρχές μετανάστευσης.\n Α νταπόκριση από τη Λευκωσία: Kωστής Κωνσταντίνου… \n Η παραβίαση εντοπίστηκε μόλις λίγα λεπτά πριν από την απογείωση, όταν το πλήρωμα καμπίνας πραγματοποίησε τη συνήθη καταμέτρηση και διαπίστωσε ότι υπήρχε μία επιβάτης επιπλέον στο αεροσκάφος. \n Από μια γρήγορη διασταύρωση προέκυψε ότι η γυναίκα δεν περιλαμβανόταν στον επίσημο κατάλογο επιβατών. Οι αρχές του αεροδρομίου την απομάκρυναν αμέσως από το αεροσκάφος. \n Ωστόσο, το περιστατικό προκάλεσε αναστάτωση σε αρκετούς επιβάτες, οι οποίοι απαίτησαν να αποβιβαστούν και να ακυρώσουν το ταξίδι τους.\n Την είδηση μετέδωσε το Κανάλι 12 του Ισραήλ το οποίο ανάρτησε και βίντεο όπου ο καπετάνιος ενημερώνει τους επιβάτες για το συμβάν και εξηγεί ότι το πλήρωμα ήταν εκείνο που αντιλήφθηκε τι είχε συμβεί.\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Διεθνές Αεροδρόμιο Λάρνακας Ισραήλ Κύπρος \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Παραβίαση ασφαλείας στο Αεροδρόμιο Λάρνακας σε πτήση για Τελ Αβίβ",
+        "dek": "Σοβαρή παραβίαση ασφαλείας στο Αεροδρόμιο Λάρνακας επέτρεψε σε επιβάτη να παρακάμψει τους ελέγχους και να επιβιβαστεί σε πτήση με προορισμό το Τελ Αβίβ.",
+        "tldr": [
+          "Μια γυναίκα επιβάτης παρέκαμψε όλους τους ελέγχους ασφαλείας και διαβατηρίων στο Αεροδρόμιο Λάρνακας.",
+          "Επιβιβάστηκε σε πτήση της TUS Airways με προορισμό το Τελ Αβίβ παρά το γεγονός ότι υπήρχε ενεργή απαγόρευση εισόδου εις βάρος της.",
+          "Το πλήρωμα καμπίνας ανακάλυψε την επιπλέον επιβάτη λίγο πριν από την απογείωση."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1303,12 +1411,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T15:05:41.580Z",
+      "at": "2026-10-05T15:28:40.996Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T15:05:42.414Z",
+      "at": "2026-10-05T15:28:41.694Z",
       "items": 5
     },
     "civilprotection": {
@@ -1319,27 +1427,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T15:05:44.047Z",
+      "at": "2026-10-05T15:28:43.224Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T15:05:44.394Z",
+      "at": "2026-10-05T15:28:43.590Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T15:05:45.812Z",
+      "at": "2026-10-05T15:28:44.509Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T15:05:46.749Z",
-      "items": 4
+      "at": "2026-10-05T15:28:45.305Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T15:05:47.740Z",
+      "at": "2026-10-05T15:28:45.847Z",
       "items": 10
     },
     "toi-greece": {
@@ -1350,22 +1458,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T15:05:48.353Z",
+      "at": "2026-10-05T15:28:46.432Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T15:05:48.758Z",
+      "at": "2026-10-05T15:28:47.417Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T15:05:49.391Z",
-      "items": 6
+      "at": "2026-10-05T15:28:47.577Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T15:05:49.935Z",
+      "at": "2026-10-05T15:28:48.098Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1375,12 +1483,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T15:05:42.928Z",
+      "at": "2026-10-05T15:28:42.415Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T15:05:50.742Z",
+      "at": "2026-10-05T15:28:48.703Z",
       "items": 0
     },
     "hcg": {
@@ -1391,33 +1499,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T15:05:52.538Z",
+      "at": "2026-10-05T15:28:50.330Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T15:05:53.161Z",
+      "at": "2026-10-05T15:28:50.552Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T15:05:53.451Z",
-      "items": 3
+      "at": "2026-10-05T15:28:52.919Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T15:05:53.801Z",
+      "at": "2026-10-05T15:28:53.107Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T15:05:54.229Z",
+      "at": "2026-10-05T15:28:53.419Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T15:05:54.727Z",
-      "items": 11
+      "at": "2026-10-05T15:28:53.836Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -1489,6 +1597,12 @@
         "slug": "kerry-tourism-record-september-2026",
         "title": "Corfu Tourism Boom: Surge in Flights and Israeli Visitors",
         "at": "2026-10-05T17:55:54+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "crete-water-supply-disruption-bad-weather",
+        "title": "↻ Greek Government Begins Crete Damage Assessment After Severe Weather",
+        "at": "2026-10-05T18:29:41+03:00",
         "section": "travel"
       }
     ],
@@ -1585,12 +1699,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T15:06:50.966Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-05T15:28:54.902Z",
+    "considered": 6,
+    "picked": 2,
     "items": [
-      "· ingr | Ένας σκύλος την ημέρα τον γιατρό τον κάνει πέρα – Πως τα σκυλιά προστατεύουν την υγεία μας",
-      "· ingr | Κίεβο: «Ρωσικά drones έπληξαν το πλοίο στη Μαύρη Θάλασσα» – Ήταν τουρκικό και μετέφερε καλ"
+      "✓ gtp | Greek Government Begins Crete Damage Assessment After Severe Weather",
+      "✓ ert | Σοβαρό περιστατικό στο Αεροδρόμιο Λάρνακας σε πτήση για το Ισραήλ",
+      "· ingr | Πέντε ερωτήματα της ΕΛΑΣ μετά τη φονική κακοκαιρία στην Κρήτη – «Η κινητοποίηση δεν υποκαθ",
+      "· naftemporiki | 7η Οκτωβρίου: «Η Χαμάς δεν θα αποκτήσει ποτέ ξανά «καμία εξουσία» στη Λωρίδα της Γάζας» λέ",
+      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Τρίτη 6 Οκτωβρίου 2026 - primemin",
+      "· gn-iefimerida | Μαίνεται η φωτιά στο Σουφλί -Επιχειρούν 17 εναέρια μέσα, μεταβαίνουν 30 δασοκομάντος από τ"
     ]
   },
   "evergreenDone": [
