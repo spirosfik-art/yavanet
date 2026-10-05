@@ -1360,7 +1360,10 @@
     "aa461cf71989": 1791241318386,
     "b65c962052a7": 1791241318386,
     "ed2f4ecbde4b": 1791241318386,
-    "199448637fea": 1791241318386
+    "199448637fea": 1791241318386,
+    "4098de5e6764": 1791242519625,
+    "bc21d41a26c2": 1791242519625,
+    "e74452cbbd9a": 1791242519625
   },
   "pending": {
     "b5db31": {
@@ -1479,12 +1482,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T23:01:27.453Z",
+      "at": "2026-10-05T23:21:47.781Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T23:01:28.478Z",
+      "at": "2026-10-05T23:21:48.497Z",
       "items": 5
     },
     "civilprotection": {
@@ -1495,27 +1498,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T23:01:30.521Z",
+      "at": "2026-10-05T23:21:49.896Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T23:01:30.645Z",
+      "at": "2026-10-05T23:21:50.345Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T23:01:31.680Z",
+      "at": "2026-10-05T23:21:51.540Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T23:01:33.186Z",
+      "at": "2026-10-05T23:21:52.299Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T23:01:33.982Z",
+      "at": "2026-10-05T23:21:53.217Z",
       "items": 10
     },
     "toi-greece": {
@@ -1526,22 +1529,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T23:01:34.606Z",
+      "at": "2026-10-05T23:21:53.714Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T23:01:34.862Z",
+      "at": "2026-10-05T23:21:54.112Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T23:01:35.602Z",
-      "items": 6
+      "at": "2026-10-05T23:21:54.726Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T23:01:35.836Z",
+      "at": "2026-10-05T23:21:55.111Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1551,12 +1554,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T23:01:29.239Z",
+      "at": "2026-10-05T23:21:49.102Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T23:01:36.511Z",
+      "at": "2026-10-05T23:21:55.875Z",
       "items": 0
     },
     "hcg": {
@@ -1567,32 +1570,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T23:01:37.744Z",
+      "at": "2026-10-05T23:21:57.147Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T23:01:37.953Z",
+      "at": "2026-10-05T23:21:57.403Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T23:01:38.124Z",
+      "at": "2026-10-05T23:21:57.595Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T23:01:38.379Z",
+      "at": "2026-10-05T23:21:57.861Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T23:01:38.706Z",
+      "at": "2026-10-05T23:21:58.220Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T23:01:39.133Z",
+      "at": "2026-10-05T23:21:58.677Z",
       "items": 7
     }
   },
@@ -1690,14 +1693,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T23:01:58.386Z",
-    "considered": 4,
+    "at": "2026-10-05T23:21:59.625Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Schools See Sharp 14.5% Drop in Student Numbers",
-      "· gct | Schools See Sharp 14.5% Drop in Student Numbers",
-      "· gct | 58,000 Join Greece Race for the Cure 2026 in Athens",
-      "· ert | UKMTO: Πυρκαγιά σε δεξαμενόπλοιο μετά από πλήγμα στα Στενά του Ορμούζ"
+      "· gct | 153 Livestock Farms To Be Tested For Sheep and Goat Pox",
+      "· gct | Mitsotakis says New Democracy can win a majority again in 2027",
+      "· gct | Two Greek Water Polo Players Among World’s Top Five"
     ]
   },
   "evergreenDone": [
