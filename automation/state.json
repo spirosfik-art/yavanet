@@ -1356,7 +1356,11 @@
     "ef1b01b19a9a": 1791237771139,
     "a898d6fd2e72": 1791239742493,
     "d97fa9ee16b7": 1791239742493,
-    "34a122264cda": 1791239742493
+    "34a122264cda": 1791239742493,
+    "aa461cf71989": 1791241318386,
+    "b65c962052a7": 1791241318386,
+    "ed2f4ecbde4b": 1791241318386,
+    "199448637fea": 1791241318386
   },
   "pending": {
     "b5db31": {
@@ -1475,12 +1479,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T22:50:14.057Z",
+      "at": "2026-10-05T23:01:27.453Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T22:50:14.658Z",
+      "at": "2026-10-05T23:01:28.478Z",
       "items": 5
     },
     "civilprotection": {
@@ -1491,27 +1495,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T22:50:16.160Z",
+      "at": "2026-10-05T23:01:30.521Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T22:50:16.570Z",
+      "at": "2026-10-05T23:01:30.645Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T22:50:17.496Z",
+      "at": "2026-10-05T23:01:31.680Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T22:50:18.143Z",
-      "items": 5
+      "at": "2026-10-05T23:01:33.186Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T22:50:18.583Z",
+      "at": "2026-10-05T23:01:33.982Z",
       "items": 10
     },
     "toi-greece": {
@@ -1522,22 +1526,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T22:50:19.005Z",
+      "at": "2026-10-05T23:01:34.606Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T22:50:19.071Z",
+      "at": "2026-10-05T23:01:34.862Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T22:50:19.567Z",
+      "at": "2026-10-05T23:01:35.602Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T22:50:19.700Z",
+      "at": "2026-10-05T23:01:35.836Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1547,12 +1551,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T22:50:15.361Z",
+      "at": "2026-10-05T23:01:29.239Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T22:50:20.257Z",
+      "at": "2026-10-05T23:01:36.511Z",
       "items": 0
     },
     "hcg": {
@@ -1563,32 +1567,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T22:50:22.141Z",
+      "at": "2026-10-05T23:01:37.744Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T22:50:22.322Z",
+      "at": "2026-10-05T23:01:37.953Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T22:50:22.510Z",
+      "at": "2026-10-05T23:01:38.124Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T22:50:22.702Z",
+      "at": "2026-10-05T23:01:38.379Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T22:50:23.013Z",
+      "at": "2026-10-05T23:01:38.706Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T22:50:23.421Z",
+      "at": "2026-10-05T23:01:39.133Z",
       "items": 7
     }
   },
@@ -1686,13 +1690,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T22:35:42.493Z",
-    "considered": 3,
+    "at": "2026-10-05T23:01:58.386Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Former Prince Andrew Takes Legal Action Over Epstein Arrest",
-      "· gct | Greek Muftis Present Thrace Model of Coexistence at International Conference",
-      "· gct | Two Greek Youngsters Make Finals for European Golden Boy 2026"
+      "· gct | Schools See Sharp 14.5% Drop in Student Numbers",
+      "· gct | Schools See Sharp 14.5% Drop in Student Numbers",
+      "· gct | 58,000 Join Greece Race for the Cure 2026 in Athens",
+      "· ert | UKMTO: Πυρκαγιά σε δεξαμενόπλοιο μετά από πλήγμα στα Στενά του Ορμούζ"
     ]
   },
   "evergreenDone": [
