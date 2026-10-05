@@ -1,0 +1,79 @@
+{
+  "slug": "messinia-forest-fire-militza",
+  "section": "breaking",
+  "publishedAt": "2026-10-05T12:30:03+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.05,
+    "lng": 21.95
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2170760/messinia-fotia-tora-sti-militsa/?utm_source=rss&utm_medium=rss&utm_campaign=messinia-fotia-tora-sti-militsa"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32874808/pexels-photo-32874808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A dramatic view of a forest with burned trees after a destructive wildfire.",
+    "credit": "Photo: Engin Akyurt / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charred-forest-landscape-after-wildfire-32874808/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Greece wildfire"
+  },
+  "he": {
+    "title": "שריפה ביוון: כוחות כיבוי גדולים פועלים באזור מסיניה",
+    "seoTitle": "שריפה ביוון: אש פרצה באזור מסיניה שבפלופונס",
+    "seoDesc": "שריפת יער פרצה באזור מסיניה ביוון. כוחות כיבוי אש רבים, מטוסי ומסוק כיבוי פועלים במקום. כל הפרטים והעדכונים באתר יוונט.",
+    "keywords": [
+      "שריפה ביוון",
+      "יוון",
+      "חדשות יוון",
+      "מסיניה",
+      "שריפת יער"
+    ],
+    "dek": "שריפת יער פרצה באזור מילִיטְסָה שבחבל מסיניה. עשרות כבאים וכוחות אוויריים פועלים במקום כדי להשתלט על האש.",
+    "tldr": [
+      "שריפת יער פרצה במחוז מסיניה ביוון מוקדם ביום שני.",
+      "עשרות כבאים, רכבים וצוותים אוויריים פועלים במקום.",
+      "הרשות המקומית מסייעת באמצעות מכליות מים."
+    ],
+    "means": "אם אתם מטיילים באזור מסיניה או מתכננים להגיע לשם, מומלץ להתעדכן בהנחיות כוחות הביטחון והחירום המקומיים, להתרחק מאזורים עשנים ולבדוק מראש את מצב צירי התנועה.",
+    "body": "## שריפת יער במסיניה\n\nשריפת יער פרצה באזור מילִיטְסָה (Militsa) שבחבל מסיניה (Messinia). האש החלה להתפשט בשטח חורש ודשת, מה שהביא להקפצה מיידית של כוחות כיבוי גדולים לזירה.\n\n## כוחות ההצלה בשטח\n\nלמקום הוזנקו 39 כבאים יחד עם שתי קבוצות של כבאים רגליים מיחידת העילית של שירות הכבאות, לצד 12 רכבי כיבוי. המאמצים הקרקעיים מגובים גם בסיוע אווירי הכולל שני מטוסי כיבוי ומסוק אחד, הפועלים להטלת מים מהאוויר.\n\nבנוסף, רשות המקומית של מסיני מסייעת במאמצי הבלימה באמצעות משאיות מים וציוד הנדסי.\n\n## חקירת נסיבות הדליקה\n\nיחידת החקירות המיוחדת של שירות הכבאות למניעת הצתות באזור מסיניה החלה בבדיקת נסיבות פרוץ האש במקום."
+  },
+  "en": {
+    "title": "Wildfire in Greece: Firefighters battle forest blaze in Messinia",
+    "seoTitle": "Wildfire in Greece: Forest fire breaks out in Messinia",
+    "seoDesc": "A forest fire broke out in the Messinia region of Greece. Dozens of firefighters and aerial assets are operating at the scene.",
+    "keywords": [
+      "wildfire greece",
+      "greece fire",
+      "messinia fire",
+      "greece news"
+    ],
+    "dek": "A forest fire broke out in the Militsa area of Messinia. Numerous firefighters and aerial units are deployed at the site.",
+    "tldr": [
+      "A forest fire broke out in the Messinia region on Monday.",
+      "Dozens of firefighters, vehicles and aircraft are tackling the blaze.",
+      "Local municipal water tankers are assisting operations at the site."
+    ],
+    "means": "If you are traveling in or near the Messinia region, stay informed about local emergency updates, avoid smoky areas, and check road closures before setting out.",
+    "body": "## Forest Fire in Messinia\n\nA forest fire broke out in the Militsa area within the Messinia region. The blaze ignited in a wooded and shrubland area, prompting a swift response from emergency services.\n\n## Emergency Response at the Scene\n\nA total of 39 firefighters, including two specialized ground teams from the elite firefighting unit, along with 12 vehicles, were mobilized to combat the flames. Aerial firefighting efforts were reinforced by two airplanes and one helicopter dropping water on the active fronts.\n\nAdditionally, the local municipality of Messini is assisting the firefighting operations with water tanker trucks.\n\n## Investigation into the Cause\n\nThe Arson Crimes Investigation Department for Messinia has initiated an inquiry to determine the exact circumstances surrounding the outbreak of the fire."
+  },
+  "meta": {
+    "itemId": "3bd1f799d658",
+    "imageQuery": "forest fire greece smoke",
+    "sourceHash": "12feeaf91b94",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-05T09:30:04.258Z",
+    "official": false
+  }
+}
