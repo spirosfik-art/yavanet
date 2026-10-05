@@ -1220,7 +1220,10 @@
     "f5023e1e85bc": 1791181998451,
     "c18911c62a13": 1791181998451,
     "2929c7101b93": 1791181998451,
-    "f4565c32b6e6": 1791181998451
+    "f4565c32b6e6": 1791181998451,
+    "e81f215e2dc5": 1791183696614,
+    "b8cf057db33e": 1791183696614,
+    "8cfdd2e82aa0": 1791183696614
   },
   "pending": {},
   "sourceStatus": {
@@ -1232,12 +1235,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T06:35:44.622Z",
-      "items": 10
+      "at": "2026-10-05T07:01:25.845Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T06:35:45.262Z",
+      "at": "2026-10-05T07:01:26.602Z",
       "items": 5
     },
     "civilprotection": {
@@ -1248,27 +1251,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T06:35:46.866Z",
+      "at": "2026-10-05T07:01:28.189Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T06:35:47.170Z",
+      "at": "2026-10-05T07:01:28.643Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T06:35:48.008Z",
+      "at": "2026-10-05T07:01:29.852Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T06:35:48.795Z",
+      "at": "2026-10-05T07:01:30.457Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T06:35:49.534Z",
+      "at": "2026-10-05T07:01:31.215Z",
       "items": 10
     },
     "toi-greece": {
@@ -1279,22 +1282,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T06:35:50.013Z",
+      "at": "2026-10-05T07:01:31.619Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T06:35:50.281Z",
+      "at": "2026-10-05T07:01:31.852Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T06:35:50.352Z",
-      "items": 6
+      "at": "2026-10-05T07:01:32.365Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T06:35:50.514Z",
+      "at": "2026-10-05T07:01:32.514Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1304,12 +1307,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T06:35:45.682Z",
+      "at": "2026-10-05T07:01:27.179Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T06:35:50.987Z",
+      "at": "2026-10-05T07:01:33.156Z",
       "items": 0
     },
     "hcg": {
@@ -1320,32 +1323,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T06:35:52.368Z",
+      "at": "2026-10-05T07:01:34.727Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T06:35:52.540Z",
-      "items": 7
+      "at": "2026-10-05T07:01:34.905Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T06:35:52.672Z",
+      "at": "2026-10-05T07:01:35.110Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T06:35:52.810Z",
+      "at": "2026-10-05T07:01:35.255Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T06:35:53.104Z",
+      "at": "2026-10-05T07:01:35.523Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T06:35:53.473Z",
+      "at": "2026-10-05T07:01:35.943Z",
       "items": 9
     }
   },
@@ -1447,18 +1450,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T06:33:18.451Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-10-05T07:01:36.614Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· naftemporiki | Μια παράσταση για τα νοικιασμένα σπίτια που στεγάζουν έρωτες για τρία συν ένα χρόνια",
-      "· gn-hcg | Εκδήλωση πυρκαγιάς σε Ι/Φ στους Ωρεούς - Εντοπισμός και διάσωση 44 αλλοδαπών και σύλληψη τ",
-      "· gct | Nikos Dendias Uses Alimos Rally to Signal His Place in New Democracy Ahead of 2027",
-      "· gn-kathimerini | Μαίνεται η φωτιά στο Σουφλί – Ενίσχυση των δυνάμεων - Kathimerini",
-      "· naftemporiki | ΗΠΑ: Νεκροί θεωρούνται οι έξι επιβαίνοντες στο αεροσκάφος-ασθενοφόρο που συνετρίβη – Σταμά",
-      "· ert | Ο ισραηλινός στρατός σκότωσε «ύποπτο» κοντά σε θέση του στα νότια της Συρίας",
-      "✓ naftemporiki | Κρήτη: Πάνω από 500 κλήσεις στην Πυροσβεστική λόγω της κακοκαιρίας",
-      "· gct | Greek Australian developers bring Novotel to Castle Hill"
+      "· gct | Greece Bulgaria Artifact Deal Raises Hopes for Parthenon Sculptures Return",
+      "· gct | Greek Police Arrest 17 in $8 Million Crypto Pyramid Scheme",
+      "· gct | The Story Behind “Ores Mikres” & The Legacy of Giorgos Mazonakis"
     ]
   },
   "evergreenDone": [
