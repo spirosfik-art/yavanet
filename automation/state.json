@@ -1223,7 +1223,8 @@
     "f4565c32b6e6": 1791181998451,
     "e81f215e2dc5": 1791183696614,
     "b8cf057db33e": 1791183696614,
-    "8cfdd2e82aa0": 1791183696614
+    "8cfdd2e82aa0": 1791183696614,
+    "1294cf9710e4": 1791185156573
   },
   "pending": {},
   "sourceStatus": {
@@ -1235,12 +1236,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T07:01:25.845Z",
-      "items": 0
+      "at": "2026-10-05T07:25:44.503Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T07:01:26.602Z",
+      "at": "2026-10-05T07:25:45.207Z",
       "items": 5
     },
     "civilprotection": {
@@ -1251,27 +1252,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T07:01:28.189Z",
+      "at": "2026-10-05T07:25:46.841Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T07:01:28.643Z",
+      "at": "2026-10-05T07:25:47.765Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T07:01:29.852Z",
+      "at": "2026-10-05T07:25:48.699Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T07:01:30.457Z",
-      "items": 3
+      "at": "2026-10-05T07:25:49.494Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T07:01:31.215Z",
+      "at": "2026-10-05T07:25:50.281Z",
       "items": 10
     },
     "toi-greece": {
@@ -1282,22 +1283,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T07:01:31.619Z",
+      "at": "2026-10-05T07:25:50.801Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T07:01:31.852Z",
+      "at": "2026-10-05T07:25:51.132Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T07:01:32.365Z",
+      "at": "2026-10-05T07:25:51.858Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T07:01:32.514Z",
+      "at": "2026-10-05T07:25:52.276Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1307,12 +1308,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T07:01:27.179Z",
+      "at": "2026-10-05T07:25:45.915Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T07:01:33.156Z",
+      "at": "2026-10-05T07:25:52.936Z",
       "items": 0
     },
     "hcg": {
@@ -1323,32 +1324,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T07:01:34.727Z",
+      "at": "2026-10-05T07:25:54.433Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T07:01:34.905Z",
+      "at": "2026-10-05T07:25:54.710Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T07:01:35.110Z",
+      "at": "2026-10-05T07:25:54.948Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T07:01:35.255Z",
+      "at": "2026-10-05T07:25:55.160Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T07:01:35.523Z",
+      "at": "2026-10-05T07:25:55.441Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T07:01:35.943Z",
+      "at": "2026-10-05T07:25:55.871Z",
       "items": 9
     }
   },
@@ -1450,13 +1451,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T07:01:36.614Z",
-    "considered": 3,
+    "at": "2026-10-05T07:25:56.573Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greece Bulgaria Artifact Deal Raises Hopes for Parthenon Sculptures Return",
-      "· gct | Greek Police Arrest 17 in $8 Million Crypto Pyramid Scheme",
-      "· gct | The Story Behind “Ores Mikres” & The Legacy of Giorgos Mazonakis"
+      "· minfin | Νίκος Παπαθανάσης: Πρόσκληση για ενεργειακές αναβαθμίσεις δημοσίων κτιρίων με χρηματοδότησ"
     ]
   },
   "evergreenDone": [
