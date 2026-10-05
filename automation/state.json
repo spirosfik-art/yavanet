@@ -1350,7 +1350,10 @@
     "8b38f9477ec8": 1791237169462,
     "73cd612f5cbd": 1791237169462,
     "6b07729ddffc": 1791237169462,
-    "4a2e52eefb1d": 1791237169462
+    "4a2e52eefb1d": 1791237169462,
+    "7bfa08bb34bc": 1791237771139,
+    "5504fe08fb25": 1791237771139,
+    "ef1b01b19a9a": 1791237771139
   },
   "pending": {
     "b5db31": {
@@ -1469,12 +1472,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T21:52:39.607Z",
-      "items": 10
+      "at": "2026-10-05T22:02:39.848Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T21:52:40.190Z",
+      "at": "2026-10-05T22:02:40.746Z",
       "items": 5
     },
     "civilprotection": {
@@ -1485,27 +1488,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T21:52:41.260Z",
+      "at": "2026-10-05T22:02:41.990Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T21:52:41.555Z",
+      "at": "2026-10-05T22:02:42.349Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T21:52:42.467Z",
+      "at": "2026-10-05T22:02:43.442Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T21:52:43.175Z",
-      "items": 6
+      "at": "2026-10-05T22:02:44.234Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T21:52:43.992Z",
+      "at": "2026-10-05T22:02:45.217Z",
       "items": 10
     },
     "toi-greece": {
@@ -1516,22 +1519,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T21:52:44.443Z",
+      "at": "2026-10-05T22:02:45.810Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T21:52:44.710Z",
+      "at": "2026-10-05T22:02:46.056Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T21:52:44.788Z",
+      "at": "2026-10-05T22:02:46.301Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T21:52:44.922Z",
+      "at": "2026-10-05T22:02:46.510Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1541,12 +1544,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T21:52:40.521Z",
+      "at": "2026-10-05T22:02:41.010Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T21:52:45.516Z",
+      "at": "2026-10-05T22:02:47.197Z",
       "items": 0
     },
     "hcg": {
@@ -1557,39 +1560,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T21:52:46.993Z",
+      "at": "2026-10-05T22:02:48.643Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T21:52:47.197Z",
+      "at": "2026-10-05T22:02:48.821Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T21:52:47.409Z",
+      "at": "2026-10-05T22:02:48.971Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T21:52:47.744Z",
+      "at": "2026-10-05T22:02:49.129Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T21:52:48.128Z",
+      "at": "2026-10-05T22:02:49.515Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T21:52:48.592Z",
+      "at": "2026-10-05T22:02:49.980Z",
       "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-06",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "greece-turkey-cable-dispute-2026",
@@ -1607,6 +1610,12 @@
         "slug": "coast-guard-reports-patmos-rhodes-chios",
         "title": "Greek Coast Guard Reports Updates from Patmos and Rhodes",
         "at": "2026-10-06T00:32:24+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "greece-egypt-tourism-cooperation-air-links",
+        "title": "Greece and Egypt Seek Stronger Tourism Cooperation and Air Links",
+        "at": "2026-10-06T01:03:06+03:00",
         "section": "travel"
       }
     ],
@@ -1674,15 +1683,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T21:52:49.462Z",
-    "considered": 5,
+    "at": "2026-10-05T22:02:51.139Z",
+    "considered": 3,
     "picked": 1,
     "items": [
-      "✓ gct | Athens Imposes Public Restrictions Ahead of Marco Rubio Visit",
-      "· gct | Greek Military Personnel Jailed Over $8 million Crypto Pyramid Scheme",
-      "· gct | Greek Legend Nana Mouskouri Receives Germany’s Highest Honour",
-      "· gct | Mazonakis case: Doctor says she performed plasmapheresis on herself and her daughter",
-      "· gct | Transport Ship Neptune Runs Aground off Salamina"
+      "· gct | Greece is One Win Away from European Championship Finals",
+      "· gct | Greece Seeks Two Minehunters From Italy To Boost Navy",
+      "✓ gct | Greece and Egypt Seek Stronger Tourism Cooperation and Air Links"
     ]
   },
   "evergreenDone": [
