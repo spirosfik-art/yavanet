@@ -1204,7 +1204,11 @@
     "d47457912619": 1791171754443,
     "29cc53f666b0": 1791173505214,
     "d86c4002f378": 1791173505214,
-    "b85bb154742c": 1791174539644
+    "b85bb154742c": 1791174539644,
+    "77f907e65d2d": 1791176466942,
+    "2bd91f640bda": 1791176466942,
+    "dbec5e507754": 1791176466942,
+    "2149e7feaea4": 1791176466942
   },
   "pending": {},
   "sourceStatus": {
@@ -1216,12 +1220,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T04:28:49.179Z",
-      "items": 0
+      "at": "2026-10-05T05:00:54.518Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T04:28:49.876Z",
+      "at": "2026-10-05T05:00:55.325Z",
       "items": 5
     },
     "civilprotection": {
@@ -1232,27 +1236,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T04:28:51.309Z",
+      "at": "2026-10-05T05:00:57.239Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T04:28:51.648Z",
+      "at": "2026-10-05T05:00:57.685Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T04:28:53.348Z",
+      "at": "2026-10-05T05:00:59.023Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T04:28:54.076Z",
-      "items": 3
+      "at": "2026-10-05T05:00:59.687Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T04:28:54.879Z",
+      "at": "2026-10-05T05:01:00.640Z",
       "items": 10
     },
     "toi-greece": {
@@ -1263,23 +1267,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T04:28:55.052Z",
+      "at": "2026-10-05T05:01:01.155Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T04:28:55.166Z",
+      "at": "2026-10-05T05:01:01.533Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T04:28:55.227Z",
-      "items": 3
+      "at": "2026-10-05T05:01:01.636Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T04:28:55.354Z",
-      "items": 4
+      "at": "2026-10-05T05:01:02.072Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1288,12 +1292,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T04:28:50.582Z",
+      "at": "2026-10-05T05:00:55.910Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T04:28:55.865Z",
+      "at": "2026-10-05T05:01:02.814Z",
       "items": 0
     },
     "hcg": {
@@ -1304,33 +1308,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T04:28:57.208Z",
+      "at": "2026-10-05T05:01:04.446Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T04:28:57.379Z",
+      "at": "2026-10-05T05:01:04.693Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T04:28:57.563Z",
+      "at": "2026-10-05T05:01:04.932Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T04:28:57.803Z",
+      "at": "2026-10-05T05:01:05.137Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T04:28:58.113Z",
-      "items": 7
+      "at": "2026-10-05T05:01:05.445Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T04:28:59.078Z",
-      "items": 11
+      "at": "2026-10-05T05:01:05.876Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -1349,6 +1353,12 @@
         "title": "Foreign Investment in Greece Surges in First Seven Months of 2026",
         "at": "2026-10-05T03:34:19+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "crete-water-supply-disruption-bad-weather",
+        "title": "↻ Crete: Severe Weather Hits as Government Team Visits Affected Areas",
+        "at": "2026-10-05T08:01:35+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1420,11 +1430,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T04:28:59.644Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-05T05:01:06.942Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· gct | Greek Australian entrepreneur takes Adelaide swimwear brand to the US"
+      "· ert | FlyDubai: Στο μικροσκόπιο τα κενά ασφαλείας – Τα ΗΑΕ είχαν στείλει στο Ισραήλ τη λίστα επι",
+      "· ingr | Αρκάς: Η ακρίβεια «παγώνει» τα νοικοκυριά",
+      "✓ gn-kathimerini | Κακοκαιρία στην Κρήτη: Κυβερνητικό κλιμάκιο στις πληγείσες περιοχές – 8 εγκλωβισμένοι στη ",
+      "· ingr | Κακοκαιρία στην Κρήτη: Ανυπολόγιστες ζημιές σε καλλιέργειες και υποδομές – «Να δοθούν άμεσ"
     ]
   },
   "evergreenDone": [

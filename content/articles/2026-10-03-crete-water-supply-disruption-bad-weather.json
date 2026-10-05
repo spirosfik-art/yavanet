@@ -2,7 +2,7 @@
   "slug": "crete-water-supply-disruption-bad-weather",
   "section": "travel",
   "publishedAt": "2026-10-03T21:38:23+03:00",
-  "updatedAt": "2026-10-04T15:26:50+03:00",
+  "updatedAt": "2026-10-05T08:01:35+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.4833
   },
   "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcGtUVmtQMlEtVGRtVmFtWTNSMVUtZkVmeXh6RFJHd1JYWDVzS1gwc3F1VzUwQmo5c0syN1RWSm1qRUUwOENiMFVwaTE1VVRGUXBXSV9OREdOMDQzcGhxWkpZVjFTX2RzWWZsWWpUX3kxcEZ2N2hpdDBCeVdsWHRQU09LMkNQZDNVaUVoYjMyem5RX3l0RFppUVRieDFKcTVYWUtUOTNJUGd6SHoxekZpWU50QkxrV1RYN3Z1cG9qTVd0TEFyZTRWZllUMW95bjN5UzI4N1ZVTDc?oc=5"
+    },
     {
       "name": "ΕΡΤ (ertnews.gr)",
       "url": "https://www.ertnews.gr/eidiseis/xania-paramenoun-oi-8-ergazomenoi-egklovismenoi-sto-faraggi-kleista-sxoleia-gia-dyo-imeres-ston-mylopotamo/"
@@ -42,26 +46,26 @@
     "en": "Severe weather"
   },
   "he": {
-    "title": "כרתים: 8 עובדים מנועים לעזוב את קניון סמאריה עקב שיטפונות",
-    "dek": "מערכת חורפית קשה בכרתים פוגעת בשגרת החיים: שמונה עובדים מנועים לעזוב את קניון סמאריה, נזקים כבדים לנמלים ולדרכים, ומוסדות חינוך נותרים סגורים.",
+    "title": "כרתים: מזג אוויר סוער וצוות ממשלתי באזורים שנפגעו",
+    "dek": "משלחת ממשלתית יצאה לבדוק את האזורים שנפגעו ממזג האוויר הקשה בכרתים, בעוד שמונה אנשים נותרו תקועים בקניון סמריה.",
     "tldr": [
-      "שמונה עובדים שוהים במתקן בקניון סמאריה ובטוחים, אך מי הנהר הגבוהים מונעים מהם לצאת.",
-      "בתי ספר וגנים במוילופוטאמוס נסגרו בימים שני ושלישי בעקבות תנאי מזג האוויר.",
-      "הצפות נרחבות ופגיעות קשות בתשתיות המים והכבישים נרשמו במספר אזורים באי."
+      "מזג אוויר סוער פוקד בימים אלו את האי כרתים.",
+      "שמונה בני אדם נותרו סגורים ומנועים מלצאת מקניון סמריה.",
+      "צוות של נציגי ממשלה הגיע לבחון מקרוב את הנזקים בשטח."
     ],
-    "means": "אם אתם מתכננים חופשה בכרתים בימים אלה, בדקו היטב את תנאי מזג האוויר המקומיים והימנעו מנסיעות לא נחוצות באזורים הרריים או סמוך לערוצי מים. מומלץ להתעדכן מול בעלי מקום הלינה שלכם ולהישמע להנחיות הרשויות המקומיות.",
-    "body": "## מזג אוויר סוער בכרתים\n\nתנאי מזג האוויר הקשים ממשיכים להשפיע על האי כרתים, כאשר שמונה עובדים ממשיכים לשהות בתוך מבנה שמירה בקניון סמאריה. זרימת המים החזקה במסלול המטיילים הופכת את המעבר לבלתי אפשרי, והרשויות מעדכנות כי גם לאחר הפסקת המשקעים יידרשו שעות ארוכות עד לירידת מפלס המים. העובדים עצמם מצוידים במזון ובתרופות, נמצאים בקשר רציף עם גורמי ההצלה ומצב בריאותם טוב.\n\n## סגירת מוסדות חינוך ונזקים לתשתיות\n\nבעקבות ההחלטה של ראש עיריית מוילופוטאמוס, יורגוס קלאדוס, כל מוסדות החינוך והגן באזור יושביתו בימים שני ושלישי. במקביל, צוותים מקומיים פועלים לפנות סחף ואבנים בעקבות מקרי סחיפת קרקע באזורים שונים, ודרכים רבות המשמשות חקלאים ומגדלים הפכו לבלתי עבירות עקב הצפות רחבות היקף.\n\n## שיבושים באספקת המים והנמל בחאניה\n\nנזקים משמעותיים נגרמו לרשתות המים והביוב, והותירו יישובים שונים ללא זרימת מים סדירה. התקלות נובעות בין היתר מקריסת קטע דרך, מה שמקשה על גישת הטכנאים לתיקון התקלות. בנוסף, באזור חאניה, רוחות חזקות וגלי ענק פגעו קשות באזור הנמל הוונציאני, הציפו עסקים מקומיים וגרמו נזקים לרכוש לאורך קו החוף."
+    "means": "אם אתם מטיילים כעת בכרתים או מתכננים להגיע לאי, חשוב להימנע מהגעה לאזורי טיול הרריים ולקניונים דוגמת סמריה בזמן סערות. תבדקו מול הרשויות המקומיות או מקום הלינה שלכם את מצב הצירים והמסלולים טרם היציאה לדרך.",
+    "body": "## מזג אוויר סוער וצוותי חירום בכרתים\n\nמזג אוויר קשה פוקד בימים אלו את האי כרתים, ומחייב היערכות מיוחדת של הרשויות המקומיות והממשלתיות. בעקבות התנאים הקשים, משלחת מטעם הממשלה הגיעה לבקר באזורים שנפגעו בצורה הקשה ביותר כדי לעמוד מקרוב אחר המצב בשטח.\n\n## שמונה בני אדם מנועים מלצאת מקניון סמריה\n\nבמקביל לפעילות כוחות ההצלה, שמונה בני אדם נותרו תקועים ומנועים מלצאת מקניון סמריה המפורסם, בעקבות תנאי מזג האוויר הקשים שמקשים על תנועה בטוחה באזור. הרשויות פועלות לעקוב אחר מצבם ולספק את המענה הנדרש בהתאם להתפתחויות בשטח."
   },
   "en": {
-    "title": "Crete: 8 Workers Stranded in Samaria Gorge Amid Severe Weather",
-    "dek": "A severe storm system brings heavy rainfall and strong winds to Crete, stranding workers, disrupting water supplies, and closing schools.",
+    "title": "Crete: Severe Weather Hits as Government Team Visits Affected Areas",
+    "dek": "A government delegation has arrived in the disaster-hit areas of Crete following severe weather, while eight individuals remain stranded in the Samaria Gorge.",
     "tldr": [
-      "Eight workers remain safely sheltered in Samaria Gorge as rising floodwaters block their departure.",
-      "Schools in Mylopotamos are shut down for two days due to hazardous conditions.",
-      "Flooding, landslides, and damaged water infrastructure affect multiple communities across the island."
+      "Harsh weather conditions are affecting the island of Crete.",
+      "Eight people remain stranded inside the Samaria Gorge.",
+      "A government delegation has been dispatched to assess damages."
     ],
-    "means": "If you are currently traveling in Crete, monitor local weather updates closely and avoid non-essential travel to mountainous regions, ravines, and coastal zones. Check with your accommodation providers for safe route alternatives.",
-    "body": "## Severe Weather and Stranded Workers\n\nAdverse weather conditions continue to impact Crete, leaving eight workers stranded inside a shelter at the Samaria Gorge. High water levels along the trail prevent any safe movement, and authorities report that it will take hours for the swollen stream to subside even after the rain stops. The workers have food and medicine supplies, are in good health, and maintain continuous contact with emergency authorities.\n\n## School Closures and Infrastructure Impact\n\nFollowing a decision by the mayor of Mylopotamos, all primary and secondary schools as well as kindergartens in the area are suspended. Municipal crews are working to clear debris from landslides and restore road access where safe. Agricultural roads have suffered major damage, with vast plateaus flooded by heavy rainfall.\n\n## Water Disruptions and Port Damage\n\nSeveral settlements are currently facing water supply interruptions following heavy damage to local municipal water networks. The failures are linked to a road collapse that also hampers technicians trying to reach the damaged spots. Meanwhile, in Chania, strong winds and high waves have affected the Venetian Port and coastal businesses, causing material damage along the shoreline."
+    "means": "If you are currently traveling in Crete or planning a trip to the island, avoid mountain trails and gorges during severe weather alerts. Check local conditions and travel advisories with your accommodation or tour operators before setting out.",
+    "body": "## Severe Weather Impacts Crete\n\nAdverse weather conditions are impacting the island of Crete, prompting an official response from state authorities. A governmental delegation has been dispatched to tour the regions most affected by the severe meteorological phenomena and evaluate the extent of the damage.\n\n## Stranded Individuals in Samaria Gorge\n\nAmid the ongoing rough weather, eight people are reported stranded within the Samaria Gorge. Local authorities and response teams are monitoring the situation closely as conditions in the area remain challenging for travelers and hikers."
   },
   "meta": {
     "itemId": "1101dc965a91",
@@ -70,6 +74,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-05T02:25:05.719Z",
     "official": false,
-    "updatedFrom": "44c2612c7668"
+    "updatedFrom": "dbec5e507754"
   }
 }
