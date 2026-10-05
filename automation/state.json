@@ -1198,7 +1198,8 @@
     "1bcf05279c63": 1791165099390,
     "a970878e4522": 1791165099390,
     "8052345c47ad": 1791165741103,
-    "f775e8c219bb": 1791165741103
+    "f775e8c219bb": 1791165741103,
+    "7a706176f941": 1791167931306
   },
   "pending": {},
   "sourceStatus": {
@@ -1210,12 +1211,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-05T02:24:52.925Z",
-      "items": 0
+      "at": "2026-10-05T02:38:41.904Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-05T02:24:53.478Z",
+      "at": "2026-10-05T02:38:42.461Z",
       "items": 5
     },
     "civilprotection": {
@@ -1226,27 +1227,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-05T02:24:55.014Z",
+      "at": "2026-10-05T02:38:43.719Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-05T02:24:55.315Z",
+      "at": "2026-10-05T02:38:44.098Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-05T02:24:56.371Z",
+      "at": "2026-10-05T02:38:45.278Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-05T02:24:57.028Z",
+      "at": "2026-10-05T02:38:45.891Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-05T02:24:57.901Z",
+      "at": "2026-10-05T02:38:46.208Z",
       "items": 10
     },
     "toi-greece": {
@@ -1257,22 +1258,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-05T02:24:58.298Z",
+      "at": "2026-10-05T02:38:46.652Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-05T02:24:58.411Z",
+      "at": "2026-10-05T02:38:46.964Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-05T02:24:58.680Z",
+      "at": "2026-10-05T02:38:47.150Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T02:24:59.018Z",
+      "at": "2026-10-05T02:38:47.283Z",
       "items": 9
     },
     "ynet-greece": {
@@ -1282,12 +1283,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-05T02:24:53.981Z",
+      "at": "2026-10-05T02:38:42.972Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-05T02:24:59.557Z",
+      "at": "2026-10-05T02:38:47.731Z",
       "items": 0
     },
     "hcg": {
@@ -1298,32 +1299,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-05T02:25:01.409Z",
+      "at": "2026-10-05T02:38:48.856Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-05T02:25:01.610Z",
+      "at": "2026-10-05T02:38:49.116Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-05T02:25:01.802Z",
+      "at": "2026-10-05T02:38:49.318Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-05T02:25:02.027Z",
+      "at": "2026-10-05T02:38:49.540Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-05T02:25:02.341Z",
+      "at": "2026-10-05T02:38:49.846Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-05T02:25:02.812Z",
+      "at": "2026-10-05T02:38:50.232Z",
       "items": 12
     }
   },
@@ -1414,12 +1415,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-05T02:02:21.103Z",
-    "considered": 2,
+    "at": "2026-10-05T02:38:51.306Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Public Map in Istanbul Shows Cyprus and Rhodes As Turkish",
-      "· gct | Greece Showcases Two Acts At Worldwide Music Expo"
+      "· gct | Teenager Suspected of Running KillSec Ransomware Group as Police Seize Servers in Internat"
     ]
   },
   "evergreenDone": [
