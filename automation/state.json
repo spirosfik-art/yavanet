@@ -1564,7 +1564,8 @@
     "44d282b53382": 1791322610339,
     "4d88a10b56de": 1791323438188,
     "f241aa70d0a9": 1791323438188,
-    "6f0e1cf7c2b8": 1791323438188
+    "6f0e1cf7c2b8": 1791323438188,
+    "8c9dfdaf71b9": 1791324067103
   },
   "pending": {
     "9ff324": {
@@ -1680,12 +1681,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T21:50:26.289Z",
+      "at": "2026-10-06T22:00:56.494Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T21:50:27.030Z",
+      "at": "2026-10-06T22:00:57.150Z",
       "items": 5
     },
     "civilprotection": {
@@ -1696,27 +1697,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T21:50:28.796Z",
+      "at": "2026-10-06T22:00:58.583Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T21:50:29.247Z",
+      "at": "2026-10-06T22:00:59.014Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T21:50:30.190Z",
+      "at": "2026-10-06T22:01:00.029Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T21:50:30.975Z",
+      "at": "2026-10-06T22:01:00.680Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T21:50:32.058Z",
+      "at": "2026-10-06T22:01:01.107Z",
       "items": 10
     },
     "toi-greece": {
@@ -1727,22 +1728,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T21:50:32.675Z",
+      "at": "2026-10-06T22:01:01.636Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T21:50:32.795Z",
+      "at": "2026-10-06T22:01:01.749Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T21:50:32.882Z",
+      "at": "2026-10-06T22:01:02.374Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T21:50:33.506Z",
+      "at": "2026-10-06T22:01:02.835Z",
       "items": 1
     },
     "ynet-greece": {
@@ -1752,12 +1753,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T21:50:27.615Z",
+      "at": "2026-10-06T22:00:57.897Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T21:50:34.216Z",
+      "at": "2026-10-06T22:01:03.592Z",
       "items": 0
     },
     "hcg": {
@@ -1768,33 +1769,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T21:50:35.498Z",
+      "at": "2026-10-06T22:01:05.089Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T21:50:35.870Z",
+      "at": "2026-10-06T22:01:05.301Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T21:50:36.043Z",
+      "at": "2026-10-06T22:01:05.451Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T21:50:36.233Z",
-      "items": 5
+      "at": "2026-10-06T22:01:05.695Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T21:50:36.644Z",
+      "at": "2026-10-06T22:01:05.999Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T21:50:37.119Z",
-      "items": 12
+      "at": "2026-10-06T22:01:06.398Z",
+      "items": 13
     }
   },
   "tgOffset": 829774786,
@@ -1864,13 +1865,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T21:50:38.188Z",
-    "considered": 3,
+    "at": "2026-10-06T22:01:07.103Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greek Cinemas Suspend Naza Screenings At Directors’ Request",
-      "· gct | Turkey Records Highest Number of Airspace Violations in Two Months",
-      "· ingr | Παλαιστίνη: Φωτορεπόρτερ του Γαλλικού Πρακτορείου ξυλοκοπήθηκε από εποίκους στη Δυτική Όχθ"
+      "· gct | Top outdoor activities in Kefalonia"
     ]
   },
   "evergreenDone": [
