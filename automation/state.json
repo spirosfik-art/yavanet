@@ -1379,7 +1379,9 @@
     "bee73c5d420e": 1791257078486,
     "cf9fe3879b51": 1791257078486,
     "439ebbea36dc": 1791257078486,
-    "044b83bf6b77": 1791257078486
+    "044b83bf6b77": 1791257078486,
+    "ee5101fa44ec": 1791257933853,
+    "214de10ea48f": 1791257933853
   },
   "pending": {
     "69b326": {
@@ -1495,12 +1497,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T03:24:28.902Z",
+      "at": "2026-10-06T03:38:45.460Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T03:24:29.828Z",
+      "at": "2026-10-06T03:38:46.095Z",
       "items": 5
     },
     "civilprotection": {
@@ -1511,27 +1513,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T03:24:30.712Z",
+      "at": "2026-10-06T03:38:47.261Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T03:24:31.068Z",
+      "at": "2026-10-06T03:38:47.396Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T03:24:31.977Z",
+      "at": "2026-10-06T03:38:48.142Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T03:24:32.598Z",
+      "at": "2026-10-06T03:38:48.838Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T03:24:33.302Z",
+      "at": "2026-10-06T03:38:49.531Z",
       "items": 10
     },
     "toi-greece": {
@@ -1542,23 +1544,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T03:24:33.657Z",
+      "at": "2026-10-06T03:38:49.927Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T03:24:34.005Z",
+      "at": "2026-10-06T03:38:49.971Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T03:24:34.185Z",
+      "at": "2026-10-06T03:38:50.035Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T03:24:34.307Z",
-      "items": 6
+      "at": "2026-10-06T03:38:50.150Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -1567,12 +1569,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T03:24:30.075Z",
+      "at": "2026-10-06T03:38:46.572Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T03:24:34.811Z",
+      "at": "2026-10-06T03:38:50.549Z",
       "items": 0
     },
     "hcg": {
@@ -1583,32 +1585,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T03:24:36.221Z",
+      "at": "2026-10-06T03:38:51.741Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T03:24:36.402Z",
+      "at": "2026-10-06T03:38:51.966Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T03:24:36.605Z",
+      "at": "2026-10-06T03:38:52.109Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T03:24:36.835Z",
+      "at": "2026-10-06T03:38:52.344Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T03:24:37.154Z",
+      "at": "2026-10-06T03:38:52.719Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T03:24:37.610Z",
+      "at": "2026-10-06T03:38:53.113Z",
       "items": 6
     }
   },
@@ -1717,14 +1719,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T03:24:38.486Z",
-    "considered": 4,
-    "picked": 1,
+    "at": "2026-10-06T03:38:53.853Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· gct | Greek Authorities Uncover Money-Laundering Via Utility Companies",
-      "· gct | Greek influencer Effie Papamichali cries after Instagram suspends her 100,000-follower acc",
-      "· gct | Greek Elected President of European Ethical Banking Federation",
-      "✓ ingr | Μετατροπή επαγγελματικού ακινήτου σε κατοικία – Όλα τα βήματα"
+      "· gct | Empty Classrooms on Kalamos: The Silent Crisis Threatening the Future of Greece’s Small Is",
+      "· naftemporiki | ΗΠΑ: Ο Τραμπ στέλνει τον Νιντάλ Μαλίκ Χασάν στο εκτελεστικό απόσπασμα – Πρώτη στρατιωτική "
     ]
   },
   "evergreenDone": [
