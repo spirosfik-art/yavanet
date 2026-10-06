@@ -1408,7 +1408,11 @@
     "50e4ba032c02": 1791268239944,
     "3666ac90f3d0": 1791268239944,
     "ef637100a0c8": 1791268239944,
-    "b3e6a3bac2a4": 1791268239944
+    "b3e6a3bac2a4": 1791268239944,
+    "5ba9afb28918": 1791269843734,
+    "d6955c0d1696": 1791269843734,
+    "0d4588a13b40": 1791269843734,
+    "87f01bc798f3": 1791269843734
   },
   "pending": {
     "6967dd": {
@@ -1522,12 +1526,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T06:30:28.193Z",
-      "items": 10
+      "at": "2026-10-06T06:57:03.070Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T06:30:28.998Z",
+      "at": "2026-10-06T06:57:03.663Z",
       "items": 5
     },
     "civilprotection": {
@@ -1538,27 +1542,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T06:30:30.588Z",
+      "at": "2026-10-06T06:57:04.856Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T06:30:30.823Z",
+      "at": "2026-10-06T06:57:05.167Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T06:30:32.558Z",
+      "at": "2026-10-06T06:57:06.308Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T06:30:33.296Z",
-      "items": 5
+      "at": "2026-10-06T06:57:07.025Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T06:30:33.772Z",
+      "at": "2026-10-06T06:57:07.854Z",
       "items": 10
     },
     "toi-greece": {
@@ -1569,23 +1573,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T06:30:34.306Z",
+      "at": "2026-10-06T06:57:08.308Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T06:30:34.623Z",
+      "at": "2026-10-06T06:57:08.573Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T06:30:35.444Z",
+      "at": "2026-10-06T06:57:08.749Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T06:30:35.653Z",
-      "items": 4
+      "at": "2026-10-06T06:57:08.878Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1594,12 +1598,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T06:30:29.581Z",
+      "at": "2026-10-06T06:57:04.090Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T06:30:36.292Z",
+      "at": "2026-10-06T06:57:09.503Z",
       "items": 0
     },
     "hcg": {
@@ -1610,32 +1614,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T06:30:37.480Z",
-      "items": 1
+      "at": "2026-10-06T06:57:10.777Z",
+      "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T06:30:37.817Z",
-      "items": 6
+      "at": "2026-10-06T06:57:10.951Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T06:30:38.000Z",
+      "at": "2026-10-06T06:57:11.229Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T06:30:38.183Z",
+      "at": "2026-10-06T06:57:11.441Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T06:30:38.524Z",
+      "at": "2026-10-06T06:57:11.744Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T06:30:38.915Z",
+      "at": "2026-10-06T06:57:12.159Z",
       "items": 11
     }
   },
@@ -1702,6 +1706,11 @@
         "title": "Πυροσβεστική: Έξι συλλήψεις για πυρκαγιές από αμέλεια σε Ζάκυνθο, Φθιώτιδα, Τρίκαλα, Αργολίδα και Εύβοια - iefimerida.gr",
         "reason": "Rule 8 violation: The article adds facts not present in the source, specifically general safety reminders, dry conditions, and instructions for travelers ('בשל היובש ותנאי מזג האוויר', 'אם אתם מטיילים כעת...', 'In light of ongoing dry conditions...'). The source only contains the headline about the ",
         "at": "2026-10-06T05:52:52.611Z"
+      },
+      {
+        "title": "Το «reply all» σε ένα email που διέλυσε μια επιχείρηση μετά την 7η Οκτωβρίου",
+        "reason": "The Hebrew and English summaries include names of months and general dates (קיץ 2026, קיץ 2026) that were not present in the same way, but more importantly, the Hebrew dek contains a typo ('מראגע' instead of 'מסמכי'). Furthermore, rule 4 states: 'Negative events involving Israelis (e.g. an incident ",
+        "at": "2026-10-06T06:58:47.826Z"
       }
     ],
     "errors": [],
@@ -1766,16 +1775,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T06:30:39.944Z",
-    "considered": 6,
+    "at": "2026-10-06T06:57:23.734Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "· naftemporiki | Φωτιά τώρα σε αποθήκες εκκοκκιστηρίου στα Τρίκαλα – Μεγάλη κινητοποίηση της Πυροσβεστικής",
-      "· naftemporiki | Το κυνήγι του χαμένου μετεωρίτη: Η πλάνη που «ρούφηξε» περιουσίες",
-      "✓ naftemporiki | Πολυτελή ακίνητα: Γιατί ξεχωρίζει η αθηναϊκή αγορά – Πώς θα επηρεάσει η φορολογία των μετα",
-      "· ingr | Θεσσαλονίκη: Αναστάτωση σε πτήση – Επιβάτης έβαλε ερωτική ταινία στο κινητό και αυνανίστηκ",
-      "· ingr | Από τη Νέα Υόρκη και το Βερολίνο έως την Ισπανία – Η στεγαστική κρίση ως καταλύτης πολιτικ",
-      "· gn-iefimerida | Φωτιά σε εγκαταστάσεις βάμβακος στα Τρίκαλα -Καίγονται έξι αποθήκες [εικόνες] - iefimerida"
+      "· ert | Στην τελική ευθεία η αξιοποίηση ακινήτου του Δήμου Ιωαννιτών στον Ελαιώνα",
+      "✓ naftemporiki | Το «reply all» σε ένα email που διέλυσε μια επιχείρηση μετά την 7η Οκτωβρίου",
+      "· naftemporiki | 57χρονος επιβάτης σε πτήση για Θεσσαλονίκη έβαλε ερωτική ταινία στο κινητό – Συνελήφθη για",
+      "· gtp | Time Out: Athens Ranks 4th Among World’s Happiest Holiday Destinations"
     ]
   },
   "evergreenDone": [
