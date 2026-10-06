@@ -1546,7 +1546,9 @@
     "a642d339f699": 1791316280592,
     "b94d080b685f": 1791316280592,
     "6911046ee53c": 1791316280592,
-    "7bb35cad9e19": 1791316280592
+    "7bb35cad9e19": 1791316280592,
+    "1051066af7a4": 1791316886193,
+    "d26e6f265f3a": 1791316886193
   },
   "pending": {},
   "sourceStatus": {
@@ -1558,12 +1560,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T19:51:09.943Z",
-      "items": 0
+      "at": "2026-10-06T20:01:16.739Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T19:51:10.513Z",
+      "at": "2026-10-06T20:01:17.293Z",
       "items": 5
     },
     "civilprotection": {
@@ -1574,27 +1576,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T19:51:11.650Z",
+      "at": "2026-10-06T20:01:18.455Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T19:51:12.007Z",
+      "at": "2026-10-06T20:01:18.620Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T19:51:12.880Z",
+      "at": "2026-10-06T20:01:19.491Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T19:51:13.663Z",
-      "items": 2
+      "at": "2026-10-06T20:01:20.067Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T19:51:14.456Z",
+      "at": "2026-10-06T20:01:20.430Z",
       "items": 10
     },
     "toi-greece": {
@@ -1605,22 +1607,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T19:51:14.990Z",
+      "at": "2026-10-06T20:01:20.926Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T19:51:15.328Z",
+      "at": "2026-10-06T20:01:21.133Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T19:51:15.421Z",
+      "at": "2026-10-06T20:01:21.281Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T19:51:15.839Z",
+      "at": "2026-10-06T20:01:21.438Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1630,12 +1632,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T19:51:10.935Z",
+      "at": "2026-10-06T20:01:17.731Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T19:51:16.544Z",
+      "at": "2026-10-06T20:01:22.094Z",
       "items": 0
     },
     "hcg": {
@@ -1646,32 +1648,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T19:51:18.003Z",
+      "at": "2026-10-06T20:01:23.584Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T19:51:18.217Z",
-      "items": 8
+      "at": "2026-10-06T20:01:23.856Z",
+      "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T19:51:18.406Z",
+      "at": "2026-10-06T20:01:24.053Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T19:51:18.638Z",
-      "items": 7
+      "at": "2026-10-06T20:01:24.394Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T19:51:19.008Z",
-      "items": 7
+      "at": "2026-10-06T20:01:24.841Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T19:51:19.498Z",
+      "at": "2026-10-06T20:01:25.414Z",
       "items": 12
     }
   },
@@ -1918,17 +1920,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T19:51:20.592Z",
-    "considered": 7,
+    "at": "2026-10-06T20:01:26.193Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Advances €17.4 Million Halkidiki Fishing Port Upgrade",
-      "· gct | Greece Pushes New Gas and Oil Routes to Central Europe",
-      "· gct | Greece’s AEGEAN Launches Direct Athens-Damascus Flights",
-      "· gct | Marco Rubio Lands in Athens Ahead of Major Speech on the Future of the West",
-      "· gct | Bank of France Governor Praises Greece’s Economic Recovery",
-      "· gn-civilprotection | Κώστας Κατσαφάδος: «Προχωρούν με ταχύτητα οι αυτοψίες – Άμεση η καταγραφή των ζημιών και η",
-      "· gn-kathimerini | «Εχασα πολλά λεφτά και για αυτό το έκαψα» – Ταυτοποιήθηκε ο δράστης που έβαλε φωτιά σε κατ"
+      "· gct | Greece Promotes Santorini and Mykonos to Global Travel Markets",
+      "· gct | Olympiacos Begin Balkan Cup with Dominant 3-0 Victory"
     ]
   },
   "evergreenDone": [
