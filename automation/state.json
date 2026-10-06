@@ -1381,7 +1381,8 @@
     "439ebbea36dc": 1791257078486,
     "044b83bf6b77": 1791257078486,
     "ee5101fa44ec": 1791257933853,
-    "214de10ea48f": 1791257933853
+    "214de10ea48f": 1791257933853,
+    "6b7eeabb1220": 1791258809670
   },
   "pending": {
     "69b326": {
@@ -1497,12 +1498,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T03:38:45.460Z",
+      "at": "2026-10-06T03:53:20.319Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T03:38:46.095Z",
+      "at": "2026-10-06T03:53:20.837Z",
       "items": 5
     },
     "civilprotection": {
@@ -1513,27 +1514,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T03:38:47.261Z",
+      "at": "2026-10-06T03:53:22.111Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T03:38:47.396Z",
+      "at": "2026-10-06T03:53:22.361Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T03:38:48.142Z",
+      "at": "2026-10-06T03:53:23.146Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T03:38:48.838Z",
+      "at": "2026-10-06T03:53:23.814Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T03:38:49.531Z",
+      "at": "2026-10-06T03:53:24.575Z",
       "items": 10
     },
     "toi-greece": {
@@ -1544,23 +1545,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T03:38:49.927Z",
+      "at": "2026-10-06T03:53:24.808Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T03:38:49.971Z",
+      "at": "2026-10-06T03:53:25.109Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T03:38:50.035Z",
-      "items": 4
+      "at": "2026-10-06T03:53:25.583Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T03:38:50.150Z",
-      "items": 7
+      "at": "2026-10-06T03:53:25.713Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -1569,12 +1570,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T03:38:46.572Z",
+      "at": "2026-10-06T03:53:21.419Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T03:38:50.549Z",
+      "at": "2026-10-06T03:53:26.254Z",
       "items": 0
     },
     "hcg": {
@@ -1585,32 +1586,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T03:38:51.741Z",
+      "at": "2026-10-06T03:53:27.715Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T03:38:51.966Z",
+      "at": "2026-10-06T03:53:27.920Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T03:38:52.109Z",
+      "at": "2026-10-06T03:53:28.079Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T03:38:52.344Z",
+      "at": "2026-10-06T03:53:28.253Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T03:38:52.719Z",
+      "at": "2026-10-06T03:53:28.581Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T03:38:53.113Z",
+      "at": "2026-10-06T03:53:28.966Z",
       "items": 6
     }
   },
@@ -1719,12 +1720,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T03:38:53.853Z",
-    "considered": 2,
+    "at": "2026-10-06T03:53:29.670Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Empty Classrooms on Kalamos: The Silent Crisis Threatening the Future of Greece’s Small Is",
-      "· naftemporiki | ΗΠΑ: Ο Τραμπ στέλνει τον Νιντάλ Μαλίκ Χασάν στο εκτελεστικό απόσπασμα – Πρώτη στρατιωτική "
+      "· gct | Massive New Three-Storey Greek Eatery ‘Helios Hotel’ Now Open in Malvern"
     ]
   },
   "evergreenDone": [
