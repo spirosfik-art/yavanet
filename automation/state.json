@@ -1368,7 +1368,9 @@
     "466b342e1713": 1791243264920,
     "4032ead46546": 1791246903316,
     "034d3aa63b66": 1791246903316,
-    "979adb1d7367": 1791248246022
+    "979adb1d7367": 1791248246022,
+    "1968bcaa0e1a": 1791249940976,
+    "46a7116536a6": 1791249940976
   },
   "pending": {
     "36e4ac": {
@@ -1486,12 +1488,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T01:07:30.529Z",
-      "items": 10
+      "at": "2026-10-06T01:25:30.537Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T01:07:31.127Z",
+      "at": "2026-10-06T01:25:31.222Z",
       "items": 5
     },
     "civilprotection": {
@@ -1502,27 +1504,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T01:07:32.302Z",
+      "at": "2026-10-06T01:25:32.380Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T01:07:32.693Z",
+      "at": "2026-10-06T01:25:32.801Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T01:07:33.719Z",
+      "at": "2026-10-06T01:25:33.925Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T01:07:34.515Z",
-      "items": 7
+      "at": "2026-10-06T01:25:34.677Z",
+      "items": 8
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T01:07:35.580Z",
+      "at": "2026-10-06T01:25:35.689Z",
       "items": 10
     },
     "toi-greece": {
@@ -1533,22 +1535,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T01:07:36.126Z",
+      "at": "2026-10-06T01:25:36.234Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T01:07:36.508Z",
+      "at": "2026-10-06T01:25:36.580Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T01:07:37.017Z",
+      "at": "2026-10-06T01:25:36.710Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T01:07:37.223Z",
+      "at": "2026-10-06T01:25:36.912Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1558,12 +1560,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T01:07:31.630Z",
+      "at": "2026-10-06T01:25:31.530Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T01:07:37.788Z",
+      "at": "2026-10-06T01:25:37.544Z",
       "items": 0
     },
     "hcg": {
@@ -1574,32 +1576,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T01:07:39.227Z",
+      "at": "2026-10-06T01:25:38.861Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T01:07:39.494Z",
+      "at": "2026-10-06T01:25:39.177Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T01:07:39.674Z",
+      "at": "2026-10-06T01:25:39.351Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T01:07:39.939Z",
+      "at": "2026-10-06T01:25:39.562Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T01:07:40.321Z",
+      "at": "2026-10-06T01:25:39.965Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T01:07:40.780Z",
+      "at": "2026-10-06T01:25:40.372Z",
       "items": 8
     }
   },
@@ -1702,11 +1704,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T00:57:26.022Z",
-    "considered": 1,
+    "at": "2026-10-06T01:25:40.976Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greek-Panamanian entrepreneur Antonio “Toño” Androutsos opens Toño’s Factory in Panama Cit"
+      "· ert | ΟΗΕ: Έκκληση Γκουτέρες για μόνιμη εκεχειρία στη Γάζα",
+      "· gct | One-Armed Melbourne Jeweller Conned Greek Diaspora Out of Millions Before Sudden Death"
     ]
   },
   "evergreenDone": [
