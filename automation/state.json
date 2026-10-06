@@ -1468,39 +1468,45 @@
     "804222f3d25f": 1791286645439,
     "54bf9eb0d481": 1791286645439,
     "3475525e7acd": 1791286645439,
-    "94b9962ea0d1": 1791286645439
+    "94b9962ea0d1": 1791286645439,
+    "2d1628afd646": 1791287619846,
+    "b49d2f1726e2": 1791287619846,
+    "85a25e97284a": 1791287619846,
+    "f71768f8a566": 1791287619846,
+    "2ab4c6bdcd5c": 1791287619846,
+    "97efce34815f": 1791287619846
   },
   "pending": {
-    "a8b2ce": {
-      "createdAt": 1791279671050,
+    "ff1eb1": {
+      "createdAt": 1791287635303,
       "item": {
-        "title": "Κέρκυρα: Aξιοποιείται το ιστορικό κτήριο «Ασάνη» – Υπεγράφη 30ετής σύμβαση μίσθωσης",
-        "url": "https://www.ertnews.gr/perifereiakoi-stathmoi/kerkira/kerkyra-aksiopoieitai-to-istoriko-ktirio-asani-ypegrafi-30etis-symvasi-misthosis/",
-        "summary": "Σημαντική εξέλιξη για την αξιοποίηση ενός από τα ιστορικά ακίνητα της παλιάς πόλης της Κέρκυρας αποτελεί η υπογραφή της σύμβασης εκμίσθωσης του κτηρίου Ασάνη από την Εταιρεία Ακινήτων Δημοσίου. Η σύμβαση προβλέπει μίσθωση για 30 χρόνια, με δυνατότητα παράτασης για ακόμη 10. Ανάδοχος είναι η εταιρεία KONTOS CONCREATE A.T.E., η οποία είχε καταθέσει την υψηλότερη ... Περισσότερα \n www.ertnews.gr",
-        "published": "Tue, 06 Oct 2026 09:36:46 +0000",
-        "id": "c893d2cc7818",
-        "sourceId": "ert",
-        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "title": "Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security measures",
+        "url": "https://www.keeptalkinggreece.com/2026/10/06/rubio-athens-bans-metro-stations-draconian-security-measures/",
+        "summary": "Traffic bans, closed metro stations and a ban of gatherings and protest rallies are being imposed in the entire center of Greek capital Athens during the visit of US Secretary of State Marco Rubio on Wednesday, October 7, 2026. Following a decision of by the head of the Athens Police Directorate, all outdoor public gatherings […]\n The post Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security measures appeared first on Keep Talking Greece .",
+        "published": "Tue, 06 Oct 2026 11:48:14 +0000",
+        "id": "f71768f8a566",
+        "sourceId": "ktg",
+        "sourceName": "Keep Talking Greece",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "c893d2cc7818",
-        "section": "real-estate",
-        "priority": 7,
+        "id": "f71768f8a566",
+        "section": "breaking",
+        "priority": 9,
         "sensitive": true,
-        "breaking": false,
-        "reason": "Important commercial real estate development in Corfu (historic Asani building leased for 30 years), highly relevant for Israeli property investors looking at major Greek tourist islands.",
+        "breaking": true,
+        "reason": "Major security measures, road closures, and protest bans in central Athens due to the high-profile visit of the US Secretary of State, highly relevant for tourists and Israelis currently in the city center.",
         "item": {
-          "title": "Κέρκυρα: Aξιοποιείται το ιστορικό κτήριο «Ασάνη» – Υπεγράφη 30ετής σύμβαση μίσθωσης",
-          "url": "https://www.ertnews.gr/perifereiakoi-stathmoi/kerkira/kerkyra-aksiopoieitai-to-istoriko-ktirio-asani-ypegrafi-30etis-symvasi-misthosis/",
-          "summary": "Σημαντική εξέλιξη για την αξιοποίηση ενός από τα ιστορικά ακίνητα της παλιάς πόλης της Κέρκυρας αποτελεί η υπογραφή της σύμβασης εκμίσθωσης του κτηρίου Ασάνη από την Εταιρεία Ακινήτων Δημοσίου. Η σύμβαση προβλέπει μίσθωση για 30 χρόνια, με δυνατότητα παράτασης για ακόμη 10. Ανάδοχος είναι η εταιρεία KONTOS CONCREATE A.T.E., η οποία είχε καταθέσει την υψηλότερη ... Περισσότερα \n www.ertnews.gr",
-          "published": "Tue, 06 Oct 2026 09:36:46 +0000",
-          "id": "c893d2cc7818",
-          "sourceId": "ert",
-          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "title": "Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security measures",
+          "url": "https://www.keeptalkinggreece.com/2026/10/06/rubio-athens-bans-metro-stations-draconian-security-measures/",
+          "summary": "Traffic bans, closed metro stations and a ban of gatherings and protest rallies are being imposed in the entire center of Greek capital Athens during the visit of US Secretary of State Marco Rubio on Wednesday, October 7, 2026. Following a decision of by the head of the Athens Police Directorate, all outdoor public gatherings […]\n The post Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security measures appeared first on Keep Talking Greece .",
+          "published": "Tue, 06 Oct 2026 11:48:14 +0000",
+          "id": "f71768f8a566",
+          "sourceId": "ktg",
+          "sourceName": "Keep Talking Greece",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1508,68 +1514,71 @@
         }
       },
       "draft": {
-        "slug": "kerkyra-asani-building-30-year-lease",
-        "section": "real-estate",
-        "sensitive": false,
-        "breaking": false,
-        "geo": null,
+        "slug": "athens-security-measures-rubio-visit",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
         "strike": null,
         "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greece Real Estate"
+          "he": "אזהרה לתיירים",
+          "en": "Travel Warning"
         },
-        "imageKey": "house",
-        "imageQuery": "historic building restoration europe",
+        "imageKey": "politics",
+        "imageQuery": "Athens street police security",
         "he": {
-          "title": "קורפו: בניין אשאני ההיסטורי עובר שיפוץ במסגרת חכירה ל-30 שנה",
-          "seoTitle": "קורפו: בניין אשאני ההיסטורי ביוון עובר שיפוץ מלא",
-          "seoDesc": "חברת הנדל\"ן הציבורית ביוון חתמה על חוזה חכירה ל-30 שנה לפיתוח בניין אשאני ההיסטורי בקורפו, הכולל שיפוץ מקיף של המבנה לשימור באזור אונסק\"ו.",
+          "title": "אבטחה כבדה באתונה: סגירת רחובות ותחנות מטרו עקב ביקור בכיר אמריקאי",
+          "seoTitle": "אתונה: אבטחה כבדה, חסימות תנועה וסגירת תחנות מטרו",
+          "seoDesc": "מתכננים להגיע לאתונה? עקב ביקור מזכיר המדינה האמריקאי מרקו רוביו ב-7 באוקטובר 2026, המשטרה מטילה חסימות תנועה, איסור התקהלויות וסגירת תחנות מטרו במרכז העיר.",
           "keywords": [
-            "קורפו",
-            "יוון",
-            "נדל\"ן ביוון",
-            "השקעה בנדל\"ן ביוון",
-            "אזור אונסק\"ו"
+            "אתונה",
+            "מרקו רוביו",
+            "מטרו אתונה",
+            "אזהרת מסע יוון",
+            "יוון"
           ],
-          "dek": "אחד המבנים ההיסטוריים המרכזיים בלב העתיקה של קורפו יוצא לדרך חדשה, לאחר שנחתם הסכם חכירה ל-30 שנה שנועד לשקם ולהחזיר אותו לפעילות.",
+          "dek": "רשויות הביטחון ביוון נערכות לקראת ביקורו של מזכיר המדינה האמריקאי מרקו רוביו באתונה ביום רביעי. צפויים שיבושים משמעותיים בתנועה, איסור התקהלויות ושינויים בפעילות המטרו במרכז העיר.",
           "tldr": [
-            "חברת KONTOS CONCREATE A.T.E זכתה במכרז להשכרת בניין אשאני.",
-            "ההסכם כולל חכירה ל-30 שנים עם אופציה להארכה בעשר שנים נוספות.",
-            "התוכנית המלאה כוללת שיפוץ יסודי ושחזור המבנה ההיסטורי בן שש הקומות."
+            "איסור מוחלט על הפגנות והתקהלויות ציבוריות במרכז אתונה.",
+            "חסימות תנועה נרחבות ברחובות מרכזיים החל מיום רביעי בבוקר.",
+            "תחנות המטרו ייסגרו לפרקי זמן קצרים, מלבד תחנת אוונגליסמוס."
           ],
-          "means": "עבור משקיעים וישראלים המתעניינים בשוק הנדל\"ן ביוון, פרויקטים מסוג זה מדגישים את המאמצים לשקם מבנים היסטוריים באזורי תיירות מרכזיים. שימו לב כי מידע זה מובא כסקירה כללית בלבד ואינו מהווה ייעוץ משפטי או פיננסי.",
-          "body": "## פרויקט שיקום בלב העיר העתיקה\n\nהתפתחות משמעותית בשוק הנדל\"ן והתשתיות של קורפו: חברת האנשים והנכסים הציבוריים ביוון חתמה על חוזה חכירה ארוך טווח לפיתוח ושחזור של בניין אשאני ההיסטורי. המבנה ממוקם בכיכר העירייה, ממש בלב העיר העתיקה של קורפו המוכרת כאתר מורשת עולמית של אונסק\"ו.\n\nהחוזה החדש נחתם לתקופה של 30 שנים, עם אפשרות להארכה בעשר שנים נוספות. החברה הזוכה במכרז, KONTOS CONCREATE A.T.E, הציעה את ההצעה הגבוהה ביותר בהליך המקוון שהסתיים בחודש יוני 2025 ומעתה היא לוקחת על עצמה את ניהול הפרויקט.\n\n## תוכנית השקעה נרחבת למבנה מוזנח\n\nבמסגרת ההסכם, היזם מתחייב להפעיל תוכנית השקעות נרחבת שנועדה להביא לחידוש מלא של המבנה, לשדרגו מבחינה הנדסית ולהחזיר אותו לשימוש פעיל במסגרת המרקם העירוני. הבניין הינו בן שש קומות ומשתרע על פני שטח כולל של 867 מ\"ר.\n\nבמשך שנים ארוכות עמד הנכס במצב של הזנחה ואף הוגדר כמסוכן לציבור באחד האזורים המרכזיים ביותר באי. הניסיונות הקודמים להעביר את האחריות על המבנה לרשות המקומית ב-2023 לא צלחו בשל קשיים בשילובו במסגרת תקציבית מתאימה, מה שהוביל לביטול ההעברה בשנה לאחר מכן.\n\nכעת, לאחר תקופה ארוכה של קיפאון, הפרויקט יוצא לדרך חדשה במטרה לשלב מחדש את הנכס ההיסטורי בפעילות הכלכלית והחברתית של העיר, תוך שמירה קפדנית על האופי האדריכלי המקורי שלו."
+          "means": "אם אתם נמצאים כעת באתונה או מתכננים להגיע לשם בימים הקרובים, הימנעו מהגעה לאזור מרכז העיר ולצירים המרכזיים שנסגרו לתנועה. מומלץ להתעדכן בזמן אמת בשינויים בתחבורה הציבורית, לעקוב אחר הודעות הרשויות המקומיות, ולקחת בחשבון זמני הגעה ארוכים יותר לכל יעד במרכז הבירה.",
+          "body": "## צעדי אבטחה חסרי תקדים באתונה\n\nרשויות האכיפה ביוון הודיעו על שורה של צעדי אבטחה דרקוניים במרכז הבירה אתונה לקראת הגעתו של מזכיר המדינה האמריקאי, מרקו רוביו. הצעדים נובעים מחשש לפגיעה בבטחון הציבור ובסדר הפעילות הכלכלית באזור.\n\nמשטרת אתונה אסרה באופן גורף על כל ההתקהלויות הציבוריות, התהלוכות ותנועת כלי רכב באזור מרכז העיר. האיסור ייכנס לתוקף ביום רביעי בשעה 06:00 בבוקר ויימשך עד ליום חמישי באותה השעה.\n\n## רחובות חסומים ואזורי האבטחה\n\nהגבלות התנועה חלות על שטח נרחב במרכז אתונה המוקף בשורת רחובות מרכזיים, בהם שדרות ואסיליסיס סופיאס, רחוב ריזארי, מיכאלאקופולו ורחוב פלוטארכו. אלפי שוטרים מכלל היחידות גויסו למבצע האבטחה, לצד שימוש ברחפנים שיסיירו באוויר לאורך כל שעות הביקור.\n\n## השפעה על התחבורה הציבורית ומטרו אתונה\n\nבכל הנוגע לנסיעות של אזרחים במרכז העיר, המשטרה מנסה לצמצם ככל הניתן את משך הזמן שבו תחנות המטרו יישארו סגורות. תחנת המטרו אוונגליסמוס (Evangelismos) תישאר פתוחה לכל אורך האירועים כדי לאפשר גישה שוטפת אל בית החולים הסמוך."
         },
         "en": {
-          "title": "Corquor: Historic Asani Building to Be Restored Under 30-Year Lease",
-          "seoTitle": "Corfu: Historic Asani Building Set for Major Renovation",
-          "seoDesc": "Greece's public real estate company signs a 30-year lease for the historic Asani building in Corfu, featuring a comprehensive restoration in a UNESCO zone.",
+          "title": "Athens Security Measures: Traffic Bans and Closed Metro Stations for US Official",
+          "seoTitle": "Athens Security: Traffic Bans and Metro Closures",
+          "seoDesc": "Visiting Athens? Strict security measures, traffic bans, gathering restrictions, and metro station closures will be enforced due to US Secretary of State Marco Rubio's visit.",
           "keywords": [
-            "Corfu",
-            "Greece",
-            "Greece real estate",
-            "historic building",
-            "UNESCO Corfu"
+            "Athens",
+            "Marco Rubio",
+            "Athens metro",
+            "Greece travel",
+            "Athens security"
           ],
-          "dek": "A key historic property in the heart of Corfu's old town is entering a new chapter following the signing of a long-term lease agreement for its restoration.",
+          "dek": "Greek authorities are implementing strict security measures in central Athens for the visit of US Secretary of State Marco Rubio on Wednesday, including traffic bans, gathering restrictions, and metro adjustments.",
           "tldr": [
-            "KONTOS CONCREATE A.T.E won the public tender to lease the Asani building.",
-            "The agreement spans 30 years with a possible 10-year extension.",
-            "The project involves a full structural renovation and architectural upgrade."
+            "A complete ban on public gatherings and protests in central Athens.",
+            "Extensive street closures starting Wednesday morning until Thursday morning.",
+            "Metro stations in the center will face temporary shutdowns, except Evangelismos."
           ],
-          "means": "For Israelis following the Greek property market, such regeneration projects highlight municipal efforts to restore heritage assets in prime tourist locations. Please note that this information is general and does not constitute legal or financial advice.",
-          "body": "## Restoration of a Historic Landmark\n\nSignificant developments are underway regarding one of the historic properties in the old town of Corfu. The Hellenic Public Properties Company has signed a lease agreement for the Asani building, marking an important step in urban regeneration.\n\nThe contract provides for a 30-year lease, with the option for an additional 10-year extension. The winning bidder, KONTOS CONCREATE A.T.E, submitted the highest offer in the electronic tender process that concluded in June 2025, taking over the responsibility for the site's future.\n\n## Comprehensive Investment and Upgrades\n\nThe lessee is committed to implementing an extensive investment program aimed at the complete renovation and structural upgrade of the property, paving the way for its restoration and reopening.\n\nThe Asani building is a six-story structure with a total surface area of 867 square meters, situated in Town Hall Square right in the heart of Corfu's UNESCO-listed old town. The property holds special historical and architectural significance but had remained abandoned for years, designated as hazardous within a prominent sector of the historic center.\n\nEfforts to transfer the building to the municipality in previous years did not succeed due to funding constraints, leading to the cancellation of that transfer. Now, after a prolonged period of inactivity, the property is moving forward into the restoration phase, aiming to reintegrate the historic landmark back into the economic and social life of the city while preserving its architectural character."
+          "means": "If you are currently in Athens or visiting the city center, expect major travel disruptions and road closures. Avoid the restricted zones, allow extra time for travel, check public transport updates regularly, and stay in touch with local authorities for real-time safety instructions.",
+          "body": "## Strict Security Measures in Central Athens\n\nGreek law enforcement authorities have announced stringent security protocols across the center of Athens ahead of the official visit by US Secretary of State Marco Rubio. The measures are implemented to prevent potential threats to public safety and social order.\n\nThe Athens Police Directorate issued an order banning all outdoor public gatherings, marches, and vehicle processions across the entire city center. The restrictions apply from 06:00 on Wednesday until 06:00 on Thursday.\n\n## Affected Streets and Areas\n\nThe traffic bans encompass a large zone bordered by major roads, including Vassilissis Sofias Avenue, Rizari, Ploutarchou, Michalakopoulou, and surrounding streets. Thousands of police officers from various departments have been deployed for the operation, accompanied by aerial surveillance drones.\n\n## Impact on Public Transport and Metro Stations\n\nFor citizens needing to access the city center, authorities stated they will attempt to keep Athens Metro station closures as brief as possible. Notably, the Evangelismos metro station will remain open throughout the visit to ensure continuous access to the nearby Evangelismos Hospital."
         }
       },
-      "text": "Σημαντική εξέλιξη για την αξιοποίηση ενός από τα ιστορικά ακίνητα της παλιάς πόλης της Κέρκυρας αποτελεί η υπογραφή της σύμβασης εκμίσθωσης του κτηρίου Ασάνη από την Εταιρεία Ακινήτων Δημοσίου.\n Η σύμβαση προβλέπει μίσθωση για 30 χρόνια, με δυνατότητα παράτασης για ακόμη 10. Ανάδοχος είναι η εταιρεία KONTOS CONCREATE A.T.E., η οποία είχε καταθέσει την υψηλότερη προσφορά στον ηλεκτρονικό διαγωνισμό που ολοκληρώθηκε τον Ιούνιο του 2025.\n Ο μισθωτής αναλαμβάνει ένα εκτεταμένο επενδυτικό πρόγραμμα για την πλήρη ανακαίνιση και κτηριακή αναβάθμιση του ακινήτου, με στόχο την αποκατάσταση και την επαναλειτουργία του.\n Το κτήριο Ασάνη είναι εξαώροφο, συνολικής επιφάνειας 867 τετραγωνικών μέτρων, και βρίσκεται στην πλατεία Δημαρχείου, στην καρδιά της παλιάς πόλης της Κέρκυρας που έχει ενταχθεί στον κατάλογο της UNESCO.\n Πρόκειται για ένα ακίνητο με ιδιαίτερη ιστορική και αρχιτεκτονική σημασία, το οποίο παρέμενε για χρόνια σε κατάσταση εγκατάλειψης και είχε χαρακτηριστεί επικίνδυνο, σε έναν από τους πλέον χαρακτηριστικούς χώρους του ιστορικού κέντρου.\n Η αξιοποίησή του συνδέεται ευρύτερα με την προσπάθεια επανένταξης ιστορικών ακινήτων στην οικονομική και κοινωνική ζωή της πόλης, με την ΕΤΑΔ να θέτει ως προτεραιότητα τη διατήρηση του αρχιτεκτονικού χαρακτήρα του κτηρίου.\n Αξίζει να σημειωθεί ότι το ακίνητο είχε παραχωρηθεί το 2023 στον Δήμο Κεντρικής Κέρκυρας, ωστόσο η παραχώρηση ανακλήθηκε από το Δημοτικό Συμβούλιο το 2024, καθώς δεν κατέστη δυνατή η ένταξή του σε χρηματοδοτικό εργαλείο για την αποκατάστασή του.\n Έτσι, μετά από χρόνια αδράνειας, το κτήριο Ασάνη περνά πλέον στη φάση της αποκατάστασης, με το ενδιαφέρον να στρέφεται στο νέο ρόλο που θα αποκτήσει στο ιστορικό κέντρο της Κέρκυρας.\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n ΕΤΑΔ Κέρκυρα Κτήριο Ασάνη \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "text": "Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security measures\n FEATURED Society Very Mix \n October 6, 2026 \n 1 min. read \n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n Traffic bans, closed metro stations and a ban of gatherings and protest rallies are being imposed in the entire center of Greek capital Athens during the visit of US Secretary of State Marco Rubio on Wednesday, October 7, 2026.\n Following a decision of by the head of the Athens Police Directorate, all outdoor public gatherings and marches including vehicles are banned from 06:00 on Wednesday to 06:00 on Thursday due to the US secretary of state’s visit to Athens, the police statement said.\n The bans affect the area enclosed by the following streets:\nRizari, Ploutarchou, Kleomenous, Melina Mercouri, Koniari, Anastassiou Tsocha, Vassilissis Sofias Avenue, Kessarias, Michalakopoulou, Alkmanos, Ionos Dragoumi, Vassileos Alexandrou Avenue, Efroniou, and Rizari.\n Police said the measures will avert “a significant threat to public safety due to the possibility of serious crimes, especially against life, physical health, and property, and a threat to disturbance of social and economic life in the specific area as well as the greater area of the City of Athens.”\n Thousands of police officers from several services are expected to be placed on duty, while drones will be patrolling by air.\n In terms of citizens who need to visit the centre of Athens, efforts will be expended so that Athens Metro stations shut down as briefly as possible, while the Evangelismos station will remain open, due to access to the Evangelismos Hospital.\n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n Tags \n Athens \n bans \n Rubio \n security measures \n visit \n LEAVE A REPLY Cancel reply \n Popular News\n UPDATE Tourist killed by lightning on the island of Rhodes \n FEATURED \n October 2, 2026 \n Sailing ban for ferries due to gale-force winds in the Aegean Sea \n FEATURED \n October 2, 2026 \n US Secretary of State Marc Rubio in Athens next week \n FEATURED \n October 2, 2026 \n Greece Weather Warning: RED ALERT for Crete and Dodecanese (MAPs) \n FEATURED \n October 2, 2026 \n Rainstorm sweeps across Crete: One dead, floods, infrastructure damages (videos) \n FEATURED \n October 1, 2026 \n We want your opinion\n Polls \n &nbsp;Loading ...\n Weather Greece Live\n Find us\n Facebook \n RSS \n Twitter \n Latest News\n Inflation in Greece surged to 5.1% in September 2026 \n October 2, 2026 \n Greece renews mandate for Patriot missiles in Saudi Arabia \n October 2, 2026 \n UPDATE Tourist killed by lightning on the island of Rhodes \n October 2, 2026 \n Sailing ban for ferries due to gale-force winds in the Aegean Sea \n October 2, 2026 \n US Secretary of State Marc Rubio in Athens next week \n October 2, 2026 \n Greece Weather Warning: RED ALERT for Crete and Dodecanese (MAPs) \n October 2, 2026",
       "issues": [],
       "el": {
-        "title": "Κέρκυρα: Αποκατάσταση του ιστορικού κτιρίου Ασάνη με 30ετή μίσθωση",
-        "dek": "Ένα σημαντικό ιστορικό ακίνητο στην καρδιά της παλιάς πόλης της Κέρκυρας περνάει σε νέα εποχή, μετά την υπογραφή σύμβασης μακροχρόνιας μίσθωσης για την αποκατάστασή του.",
+        "title": "Μέτρα ασφαλείας στην Αθήνα: Κυκλοφοριακές ρυθμίσεις και κλειστοί σταθμοί του μετρό για την επίσκεψη Αμερικανού αξιωματούχου",
+        "dek": "Οι ελληνικές αρχές εφαρμόζουν αυστηρά μέτρα ασφαλείας στο κέντρο της Αθήνας για την επίσκεψη του Υπουργού Εξωτερικών των ΗΠΑ Μάρκο Ρούμπιο την Τετάρτη, τα οποία περιλαμβάνουν απαγορεύσεις κυκλοφορίας, περιορισμούς στις συναθροίσεις και αλλαγές στη λειτουργία του μετρό.",
         "tldr": [
-          "Η εταιρεία KONTOS CONCREATE A.T.E κέρδισε τον δημόσιο διαγωνισμό για τη μίσθωση του κτιρίου Ασάνη.",
-          "Η συμφωνία έχει διάρκεια 30 χρόνια, με δυνατότητα παράτασης για άλλα 10.",
-          "Το έργο περιλαμβάνει ρίζικη στατική ανακαίνιση και αρχιτεκτονική αναβάθμιση."
+          "Πλήρης απαγόρευση δημοσίων συναθροίσεων και διαδηλώσεων στο κέντρο της Αθήνας.",
+          "Εκτεταμένα κλεισίματα δρόμων από το πρωί της Τετάρτης έως το πρωί της Πέμπτης.",
+          "Οι σταθμοί του μετρό στο κέντρο θα κλείσουν προσωρινά, με εξαίρεση τον Ευαγγελισμό."
         ]
       },
       "notified": true
@@ -1584,12 +1593,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T11:37:15.140Z",
-      "items": 10
+      "at": "2026-10-06T11:53:27.781Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T11:37:15.783Z",
+      "at": "2026-10-06T11:53:28.568Z",
       "items": 5
     },
     "civilprotection": {
@@ -1600,27 +1609,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T11:37:17.369Z",
+      "at": "2026-10-06T11:53:30.273Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T11:37:17.566Z",
+      "at": "2026-10-06T11:53:30.628Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T11:37:18.453Z",
+      "at": "2026-10-06T11:53:31.814Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T11:37:19.099Z",
-      "items": 2
+      "at": "2026-10-06T11:53:32.632Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T11:37:19.896Z",
+      "at": "2026-10-06T11:53:33.525Z",
       "items": 10
     },
     "toi-greece": {
@@ -1631,23 +1640,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T11:37:20.267Z",
+      "at": "2026-10-06T11:53:34.118Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T11:37:20.320Z",
+      "at": "2026-10-06T11:53:34.338Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T11:37:20.616Z",
+      "at": "2026-10-06T11:53:35.164Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T11:37:20.743Z",
-      "items": 6
+      "at": "2026-10-06T11:53:35.681Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -1656,12 +1665,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T11:37:16.543Z",
+      "at": "2026-10-06T11:53:29.287Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T11:37:21.192Z",
+      "at": "2026-10-06T11:53:36.316Z",
       "items": 0
     },
     "hcg": {
@@ -1672,39 +1681,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T11:37:23.305Z",
+      "at": "2026-10-06T11:53:37.603Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T11:37:23.533Z",
-      "items": 6
+      "at": "2026-10-06T11:53:37.792Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T11:37:23.707Z",
+      "at": "2026-10-06T11:53:37.937Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T11:37:23.993Z",
+      "at": "2026-10-06T11:53:38.187Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T11:37:24.346Z",
+      "at": "2026-10-06T11:53:38.526Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T11:37:24.752Z",
-      "items": 12
+      "at": "2026-10-06T11:53:38.897Z",
+      "items": 13
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-06",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "greece-turkey-cable-dispute-2026",
@@ -1777,6 +1786,12 @@
         "title": "Documentary film by Israeli creators on Gaza screened in Athens",
         "at": "2026-10-06T13:06:17+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "kerry-asani-building-lease-2025",
+        "title": "Corfu: Historic Asani building in the old town leased for 30 years",
+        "at": "2026-10-06T14:53:26+03:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -1820,6 +1835,10 @@
       {
         "slug": "greece-short-term-rental-growth-2026",
         "at": "2026-10-06T08:29:17.724Z"
+      },
+      {
+        "slug": "kerry-asani-building-lease-2025",
+        "at": "2026-10-06T11:53:26.491Z"
       }
     ]
   },
@@ -1877,14 +1896,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T11:37:25.439Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-06T11:53:39.847Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· ert | Διαμαρτυρία ψαράδων στο λιμάνι της Μυτιλήνης",
-      "· ingr | Αρχαία Νεμέα: Φωτιά σε μεταγωγικό λεωφορείο με κρατούμενους",
-      "· naftemporiki | Ν. Ανδρουλάκης μετά την αυτοψία στο Οροπέδιο Λασιθίου: Η κυβέρνηση πρέπει να παραμερίσει τ",
-      "· naftemporiki | Κρήτη: Η πρόσφατη κακοκαιρία έφερε περισσότερες βροχές από τη «Χιόνη» και την «Ωκεανίδα» τ"
+      "· naftemporiki | Πάνω από 50 δισ. ο «πήχης» των επενδύσεων για το 2027",
+      "· ert | Κλειστές οι ιχθυόσκαλες – Με αλιεύματα ιχθυοτροφείου ή κατεψυγμένα εξυπηρετείται η αγορά",
+      "· ert | Ένα σύγχρονο και ασφαλέστερο λιμάνι αποκτά ο Νέος Μαρμαράς μετά την υπογραφή νέας σύμβασης",
+      "✓ ktg | Rubio in Athens: Traffic and gathering bans, closed metro stations, draconian security mea",
+      "· gct | Rubio demands answers from Russia after plague death report as he heads to Greece",
+      "· gn-civilprotection | Χρηματοδότηση ACHAIA PASS 2026-2027 από το Εθνικό Πρόγραμμα Ανάπτυξης 2026-2030 - Civilpro"
     ]
   },
   "evergreenDone": [
@@ -1927,5 +1948,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "kerry-asani-building-lease-2025",
+      "url": "https://yavanet.gr/a/kerry-asani-building-lease-2025/",
+      "at": "2026-10-06T11:53:26.491Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/kerry-asani-building-lease-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/kerry-asani-building-lease-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "קורפו: בניין אסאני ההיסטורי בלב העיר העתיקה יושכר ל-30 שנים",
+        "title_en": "Corfu: Historic Asani building in the old town leased for 30 years",
+        "dek_he": "חברת נכסי המדינה חתמה על חוזה שכירות ארוך טווח עם חברה פרטית לשיפוץ מלא של הבניין בן שש הקומות שפעל בעבר בכיכר העירייה.",
+        "dek_en": "The Hellenic Public Properties Company signed a long-term lease agreement with a private firm for the complete renovation of the six-story historic property.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/33958981/pexels-photo-33958981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "קורפו: בניין אסאני ההיסטורי בלב העיר העתיקה יושכר ל-30 שנים\n\nחברת נכסי המדינה חתמה על חוזה שכירות ארוך טווח עם חברה פרטית לשיפוץ מלא של הבניין בן שש הקומות שפעל בעבר בכיכר העירייה.\n\nhttps://yavanet.gr/a/kerry-asani-building-lease-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Corfu: Historic Asani building in the old town leased for 30 years\n\nThe Hellenic Public Properties Company signed a long-term lease agreement with a private firm for the complete renovation of the six-story historic property.\n\nhttps://yavanet.gr/en/a/kerry-asani-building-lease-2025/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
