@@ -1539,7 +1539,14 @@
     "3a4aef6693df": 1791315462351,
     "1e1c2fad585a": 1791315462351,
     "b6745f0f0dd4": 1791315462351,
-    "d2dd14da5589": 1791315462351
+    "d2dd14da5589": 1791315462351,
+    "da5f4ddd0c72": 1791316280592,
+    "43441bc30905": 1791316280592,
+    "ec13537404e4": 1791316280592,
+    "a642d339f699": 1791316280592,
+    "b94d080b685f": 1791316280592,
+    "6911046ee53c": 1791316280592,
+    "7bb35cad9e19": 1791316280592
   },
   "pending": {},
   "sourceStatus": {
@@ -1551,12 +1558,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T19:37:28.678Z",
-      "items": 10
+      "at": "2026-10-06T19:51:09.943Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T19:37:29.610Z",
+      "at": "2026-10-06T19:51:10.513Z",
       "items": 5
     },
     "civilprotection": {
@@ -1567,27 +1574,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T19:37:31.402Z",
+      "at": "2026-10-06T19:51:11.650Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T19:37:31.902Z",
+      "at": "2026-10-06T19:51:12.007Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T19:37:32.981Z",
+      "at": "2026-10-06T19:51:12.880Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T19:37:33.784Z",
+      "at": "2026-10-06T19:51:13.663Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T19:37:34.624Z",
+      "at": "2026-10-06T19:51:14.456Z",
       "items": 10
     },
     "toi-greece": {
@@ -1598,23 +1605,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T19:37:35.225Z",
+      "at": "2026-10-06T19:51:14.990Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T19:37:35.617Z",
+      "at": "2026-10-06T19:51:15.328Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T19:37:36.076Z",
+      "at": "2026-10-06T19:51:15.421Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T19:37:36.569Z",
-      "items": 3
+      "at": "2026-10-06T19:51:15.839Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1623,12 +1630,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T19:37:30.603Z",
+      "at": "2026-10-06T19:51:10.935Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T19:37:37.281Z",
+      "at": "2026-10-06T19:51:16.544Z",
       "items": 0
     },
     "hcg": {
@@ -1639,32 +1646,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T19:37:38.731Z",
+      "at": "2026-10-06T19:51:18.003Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T19:37:39.273Z",
+      "at": "2026-10-06T19:51:18.217Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T19:37:39.617Z",
+      "at": "2026-10-06T19:51:18.406Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T19:37:39.854Z",
-      "items": 6
+      "at": "2026-10-06T19:51:18.638Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T19:37:40.261Z",
+      "at": "2026-10-06T19:51:19.008Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T19:37:40.819Z",
+      "at": "2026-10-06T19:51:19.498Z",
       "items": 12
     }
   },
@@ -1911,14 +1918,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T19:37:42.351Z",
-    "considered": 4,
-    "picked": 1,
+    "at": "2026-10-06T19:51:20.592Z",
+    "considered": 7,
+    "picked": 0,
     "items": [
-      "✓ naftemporiki | Κρήτη: Από τα 800 χιλιοστά βροχής, στη «βαμμένη» θάλασσα και στα πρώτα χιόνια – Τι κατέγρα",
-      "· gct | Greek Literature Takes Centre Stage at Frankfurt Book Fair",
-      "· gct | Ancient Greek Tragedies Return To The Stage In South Korea",
-      "· gn-pm | Ομιλία του Πρωθυπουργού Κυριάκου Μητσοτάκη στην ανοιχτή εκδήλωση της Ετήσιας Γενικής Συνέλ"
+      "· gct | Greece Advances €17.4 Million Halkidiki Fishing Port Upgrade",
+      "· gct | Greece Pushes New Gas and Oil Routes to Central Europe",
+      "· gct | Greece’s AEGEAN Launches Direct Athens-Damascus Flights",
+      "· gct | Marco Rubio Lands in Athens Ahead of Major Speech on the Future of the West",
+      "· gct | Bank of France Governor Praises Greece’s Economic Recovery",
+      "· gn-civilprotection | Κώστας Κατσαφάδος: «Προχωρούν με ταχύτητα οι αυτοψίες – Άμεση η καταγραφή των ζημιών και η",
+      "· gn-kathimerini | «Εχασα πολλά λεφτά και για αυτό το έκαψα» – Ταυτοποιήθηκε ο δράστης που έβαλε φωτιά σε κατ"
     ]
   },
   "evergreenDone": [
