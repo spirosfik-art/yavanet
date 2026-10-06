@@ -1373,115 +1373,10 @@
     "46a7116536a6": 1791249940976,
     "82a43ac12a96": 1791250587985,
     "3debb573312f": 1791253488064,
-    "4e6962fb42ae": 1791253488064
+    "4e6962fb42ae": 1791253488064,
+    "d24665d38f46": 1791254310484
   },
-  "pending": {
-    "36e4ac": {
-      "createdAt": 1791246919170,
-      "item": {
-        "title": "Crete fertility clinic trial opens with Australian families among the victims",
-        "url": "https://greekcitytimes.com/2026/10/06/crete-fertility-clinic-trial-opens-with-australian-families-among-the-victims/",
-        "summary": "A year-long trial into the Mediterranean Fertility Centre in Chania starts in mid-October. Prosecutors allege fake IVF, stolen eggs and trafficking. Australians are among those affected.\n The post Crete fertility clinic trial opens with Australian families among the victims appeared first on Greek City Times .",
-        "published": "Tue, 06 Oct 2026 00:03:26 +0000",
-        "id": "034d3aa63b66",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "034d3aa63b66",
-        "section": "travel",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "The trial regarding fake IVF and stolen eggs at a Chania fertility clinic in Crete directly concerns international patients, including Australians and potentially others seeking fertility treatments in Greece.",
-        "item": {
-          "title": "Crete fertility clinic trial opens with Australian families among the victims",
-          "url": "https://greekcitytimes.com/2026/10/06/crete-fertility-clinic-trial-opens-with-australian-families-among-the-victims/",
-          "summary": "A year-long trial into the Mediterranean Fertility Centre in Chania starts in mid-October. Prosecutors allege fake IVF, stolen eggs and trafficking. Australians are among those affected.\n The post Crete fertility clinic trial opens with Australian families among the victims appeared first on Greek City Times .",
-          "published": "Tue, 06 Oct 2026 00:03:26 +0000",
-          "id": "034d3aa63b66",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "crete-fertility-clinic-trial-chania",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 35.5138,
-          "lng": 24.018
-        },
-        "strike": null,
-        "alert": {
-          "he": "תחקיר פלילי",
-          "en": "Criminal Trial"
-        },
-        "imageKey": "people",
-        "imageQuery": "medical clinic building exterior",
-        "he": {
-          "title": "משפט מרכז הפוריות בכרתים יוצא לדרך: 26 נאשמים",
-          "seoTitle": "כרתים: משפט מרכז הפוריות בחאניה נפתח בהשתתפות קורבנות",
-          "seoDesc": "משפט בגין הונאה וסחר בבני אדם במרכז פוריות בכרתים נפתח החודש. פרטים על הפרשה ועל המעורבים.",
-          "keywords": [
-            "כרתים",
-            "יוון",
-            "חאניה",
-            "טיפולי פוריות",
-            "חדשות יוון"
-          ],
-          "dek": "משפט בן שנה החל בחאניה שבכרתים נגד 26 נאשמים בפרשת מרכז הפוריות, הכוללת אישומים בהונאה, מזיופים ועד סחר בבני אדם.",
-          "tldr": [
-            "המשפט על מרכז הפוריות בחאניה שבכרתים מתחיל באמצע חודש אוקטובר.",
-            "26 נאשמים עומדים למשפט בשל אישומים הכוללים הונאה, מזיופים וסחר בבני אדם.",
-            "למעלה מ-400 נשים נפגעו לפי כתב האישום מטיפולי IVF מדומים בין השנים 2021 ל-2023."
-          ],
-          "means": "מה זה אומר עליכם? עבור ישראלים הפונים לשירותי רפואה פרטיים או פוריות ביוון ובאיים, חשוב להקפיד על בחירת מוסדות רפואיים מוכרים ומפוקחים היטב. אם אתם זקוקים למידע נוסף או לייעוץ משפטי בנושאים רפואיים בינלאומיים, מומלץ להתייעץ עם גורמי מקצוע מוסמכים.",
-          "body": "## פתיחת משפט מרכז הפוריות בכרתים\n\nמשפט רחב היקף סביב פעילותו של מרכז הפוריות הים תיכוני בעיר חאניה שבכרתים צפוי להתחיל באמצע חודש אוקטובר. בתיק המרכזי עומדים 26 נאשמים המואשמים בשורה של עבירות חמורות, בהן הונאה, זיוף, סחר בבני אדם ומכירת חומר גנטי.\n\nהדיונים המשפטיים מתקיימים תחת מעטפת של אבטחה קפדנית וסודיות במכון האגרונומי הים תיכוני בחאניה. הקליניקה המדוברת נוסדה לפני יותר משלושה עשורים על ידי רופא הנשים יואניס ג'אקומאקיס, ומשטרת יוון פשטה עליה באוגוסט 2023 בעקבות חשדות כבדים.\n\n## ממצאי החקירה והיקף ההונאה\n\nעל פי כתב האישום והחקירה המשטרתית, המרכז הפעיל מערך הונאה שכלל ביצוע טיפולי פוריות מזויפים. מטופלות רבות הובאו להליך IVF, אך בפועל עברו פרוצדורות מבוימות בעוד הביציות והזרע שנלקחו מהן הועברו למטופלים אחרים תמורת סכומי עתק, שהגיעו בחלק מהמקרים ליותר מ-100 אלף אירו.\n\nבדיקות העלו כי בין השנים 2018 ל-2023 פקדו את המרכז מאות נשים, רבות מהן טענו כי הוטעו לחשוב שעוברות שאיבות ביציות והחזרות עוברים ממשיות. הרשויות חשפו גם מקרים של שימוש באימהות פונדקאיות והליכים בלתי חוקיים נוספים. מטופלים רבים ממדינות שונות בעולם, בהן אוסטרליה ואירופה, מצאו עצמם מעורבים בפרשה המורכבת.\n\n## מצב הנאשמים וההליך המשפטי\n\nבמקביל להליך הפלילי המתנהל נגד הנאשמים, חלקם משוחררים תחת תנאים מגבילים וממשיכים לטענת גורמים מקומיים בפעילותם המקצועית. עורכי הדין המייצגים את קורבנות הפרשה מציינים כי הדרך למיצוי הדין עוד ארוכה, וכי עבור המשפחות הרבות שנפגעו, הפגיעה הנפשית והכלכלית ממשיכה להשפיע עמוקות."
-        },
-        "en": {
-          "title": "Crete fertility clinic trial opens with dozens of defendants",
-          "seoTitle": "Crete Fertility Clinic Trial Opens in Chania",
-          "seoDesc": "A year-long trial regarding the Mediterranean Fertility Centre in Chania opens in mid-October with 26 defendants facing serious charges.",
-          "keywords": [
-            "Crete fertility clinic",
-            "Chania trial",
-            "Greece IVF case",
-            "Mediterranean Fertility Centre"
-          ],
-          "dek": "A year-long hearing into the Mediterranean Fertility Centre in Chania begins with 26 defendants facing charges ranging from fraud to human trafficking.",
-          "tldr": [
-            "The trial concerning the Chania fertility clinic starts in mid-October.",
-            "26 defendants face charges including fraud, forgery, and human trafficking.",
-            "Investigations revealed hundreds of women underwent staged IVF procedures."
-          ],
-          "means": "What it means for you: For Israelis considering medical treatments abroad, it is essential to thoroughly verify the credentials and official regulatory approval of any fertility or medical clinic. Always consult certified professionals and legal advisors when dealing with cross-border medical procedures.",
-          "body": "## Fertility Clinic Trial Begins in Chania\n\nA year-long legal proceeding concerning the Mediterranean Fertility Centre in Chania, Crete, is set to commence in mid-October. A total of 26 defendants are facing a wide range of criminal charges, including fraud, forgery, human trafficking, and the illicit sale of genetic material.\n\nThe hearings are being conducted under strict anonymity measures at the Mediterranean Agronomic Institute of Chania. The clinic, established over three decades ago, became the target of a major police raid in August 2023 following a detailed investigation into its operations.\n\n## Details of the Alleged Deception\n\nProsecutors state that the clinic operated a dual scheme where patients seeking in-vitro fertilization were subjected to staged and fake medical procedures. Genetic material collected from unsuspecting clients was reportedly redirected to other recipients who paid substantial fees, sometimes exceeding 100,000 euros, which often included payments for fabricated cohabitation documents intended to bypass legal restrictions.\n\nRecords indicate that hundreds of women attended the facility between 2018 and 2023, many of whom were misled about egg retrievals and embryo transfers. International patients, including couples and individuals from Australia, were among those caught up in the fallout following the police intervention.\n\n## Current Status and Legal Proceedings\n\nWhile civil claims and damages are being pursued by some affected individuals, legal representatives note that the ongoing criminal proceedings face numerous hurdles. Most of the defendants remain out on bail as the court works through the complex web of evidence and testimonies from victims across multiple countries."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n A year-long hearing into the Mediterranean Fertility Centre in Chania begins in mid-October, with 26 defendants facing charges that run from fraud and forgery to human trafficking and the sale of genetic material.\nThe Three-Member Court of Appeal of Crete will sit at the Mediterranean Agronomic Institute of Chania. Proceedings are under strict anonymity. The clinic was founded more than 30 years ago by obstetrician Ioannis Giakoumakis. Police raided it in August 2023.\n Prosecutors say the fraud had two sides. Patients who came for IVF were put through fake procedures. Eggs and sperm taken from them were then used to make embryos for other clients, who paid large sums, in some cases more than €100,000, including for false cohabitation papers meant to skirt Greek law.\n Signs for the Mediterranean Fertility Centre in Chania \n Between 2018 and 2023, 298 women attended the clinic. Prosecutors say 272 were misled about egg retrievals and operations later judged to have been staged. Some were medicated as if an embryo had been transferred when no transfer had taken place. The chance of pregnancy was zero. The bills ran into millions of euros.\n In the nine months before the raid, the case file lists 71 women used for eggs, 98 women exploited as surrogates, 13 illegal child purchases in the surrogacy programme and four illegal adoptions. Across 2021 to 2023, more than 400 women are said to have undergone intrusive fake IVF. Over five years, 173 donors went through 333 retrievals, and those eggs were sent to 1,226 recipients.\n Recruiters in Georgia and Romania were paid more than €5,000 a woman, prosecutors say. The women were offered a few hundred euros a month to carry a pregnancy. Not all knew egg donation was part of the arrangement. One woman in her early twenties had 13 retrievals, with eggs going to 63 recipients. A Chania patient known as Maria believed her eggs were for her own treatment. Police later told her at least half a dozen had been used for others.\n The women were held, the prosecution says, in 14 houses around Chania under an alleged trafficker. Those concerns brought the authorities in. A doctor’s secret diary of the real procedures showed how wide the deception went.\n Two girls about to turn six are in the file as Baby A and Baby B. A person familiar with the case told The Australian that their biological parents went to the clinic for infertility help and later learned eggs and sperm taken from them had made at least two more embryos, implanted in two surrogates and sold. The parents, the person said, are still horrified.\n At least 37 Australian couples and single people were caught up in the raid. Three couples were waiting to register newborns born to surrogates. They had gone to Crete because commercial surrogacy is banned in Australia.\n Sam Everingham of Growing Families said some clients had babies during the shutdown, some had failed implants, and some had embryos in storage. At least two couples found no genetic link to their child and did not know the source of the egg or sperm. Others chose not to test. Getting embryos out was slow and expensive. Those who managed it sent them first to another EU country, then on again. He called it traumatic, and still unfinished.\n One civil court has already awarded a Greek couple undisclosed damages after seven fake IVF cycles from 2014, plus compensation for moral harm. Dozens of other civil claims are in. In a separate case, a man’s sperm was used without his knowledge on a second egg from the same donor. The children are biological siblings.\n A lawyer in the criminal case said many victims will not appear. Court costs are about €2,000, and a year of representation is more than most can pay. In Chania, she said, people expect little to change. Most defendants are on bail. Some are still practising. For the families, she said, the betrayal has not stopped.\n Source: Jacquelin Magnay, The Australian \n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on Google News and Apple News .\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Sydney consulate explains how Greeks in Australia can register to vote\n No Newer Articles \n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Ξεκινά η δίκη για την κλινική γονιμότητας στην Κρήτη με δεκάδες κατηγορουμένους",
-        "dek": "Μια δίκη διάρκειας ενός έτους για το Μεσογειακό Κέντρο Γονιμότητας στα Χανιά ξεκινά με 26 κατηγορουμένους να αντιμετωπίζουν κατηγορίες από απάτη έως εμπορία ανθρώπων.",
-        "tldr": [
-          "Η δίκη που αφορά την κλινική γονιμότητας των Χανίων ξεκινά στα μέσα Οκτωβρίου.",
-          "26 κατηγορούμενοι αντιμετωπίζουν κατηγορίες όπως απάτη, πλαστογραφία και εμπορία ανθρώπων.",
-          "Οι έρευνες αποκάλυψαν ότι εκατοντάδες γυναίκες υποβλήθηκαν σε εικονικές διαδικασίες εξωσωματικής γονιμοποίησης."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1491,12 +1386,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T02:24:15.448Z",
+      "at": "2026-10-06T02:38:17.136Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T02:24:16.424Z",
+      "at": "2026-10-06T02:38:18.047Z",
       "items": 5
     },
     "civilprotection": {
@@ -1507,27 +1402,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T02:24:17.607Z",
+      "at": "2026-10-06T02:38:20.478Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T02:24:17.948Z",
+      "at": "2026-10-06T02:38:20.577Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T02:24:18.962Z",
+      "at": "2026-10-06T02:38:22.486Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T02:24:19.820Z",
+      "at": "2026-10-06T02:38:23.348Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T02:24:20.742Z",
+      "at": "2026-10-06T02:38:24.345Z",
       "items": 10
     },
     "toi-greece": {
@@ -1538,22 +1433,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T02:24:21.295Z",
+      "at": "2026-10-06T02:38:24.964Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T02:24:21.585Z",
+      "at": "2026-10-06T02:38:25.051Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T02:24:22.193Z",
+      "at": "2026-10-06T02:38:25.624Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T02:24:22.601Z",
+      "at": "2026-10-06T02:38:26.153Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1563,12 +1458,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T02:24:16.795Z",
+      "at": "2026-10-06T02:38:19.023Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T02:24:23.217Z",
+      "at": "2026-10-06T02:38:26.896Z",
       "items": 0
     },
     "hcg": {
@@ -1579,39 +1474,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T02:24:24.503Z",
+      "at": "2026-10-06T02:38:28.492Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T02:24:24.723Z",
+      "at": "2026-10-06T02:38:28.710Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T02:24:24.935Z",
+      "at": "2026-10-06T02:38:28.832Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T02:24:25.092Z",
+      "at": "2026-10-06T02:38:29.066Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T02:24:25.429Z",
+      "at": "2026-10-06T02:38:29.384Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T02:24:25.851Z",
-      "items": 8
+      "at": "2026-10-06T02:38:29.794Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-06",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "greece-turkey-cable-dispute-2026",
@@ -1635,6 +1530,12 @@
         "slug": "greece-egypt-tourism-cooperation-air-links",
         "title": "Greece and Egypt Seek Stronger Tourism Cooperation and Air Links",
         "at": "2026-10-06T01:03:06+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "crete-fertility-clinic-trial",
+        "title": "Crete fertility clinic trial opens with dozens of defendants",
+        "at": "2026-10-06T05:38:15+03:00",
         "section": "travel"
       }
     ],
@@ -1707,12 +1608,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T02:24:48.064Z",
-    "considered": 2,
+    "at": "2026-10-06T02:38:30.484Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Renowned Greek Philosopher Ioanna Koutsouradi Dies at 89",
-      "· gct | Historic Astoria Greek Bakery ‘Lefkos Pirgos’ Sold After 58 Years"
+      "· gct | End of the Line: Greek-Australian Driver Vince Vassiliou Retires Sydney’s Iconic K-Set ‘Si"
     ]
   },
   "evergreenDone": [
