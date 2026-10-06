@@ -1561,7 +1561,10 @@
     "69c7e90c7af8": 1791321842017,
     "f6a197229e84": 1791321842017,
     "5be5a2aaaefe": 1791322610339,
-    "44d282b53382": 1791322610339
+    "44d282b53382": 1791322610339,
+    "4d88a10b56de": 1791323438188,
+    "f241aa70d0a9": 1791323438188,
+    "6f0e1cf7c2b8": 1791323438188
   },
   "pending": {
     "9ff324": {
@@ -1677,12 +1680,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T21:36:38.024Z",
+      "at": "2026-10-06T21:50:26.289Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T21:36:39.040Z",
+      "at": "2026-10-06T21:50:27.030Z",
       "items": 5
     },
     "civilprotection": {
@@ -1693,27 +1696,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T21:36:41.193Z",
+      "at": "2026-10-06T21:50:28.796Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T21:36:41.617Z",
+      "at": "2026-10-06T21:50:29.247Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T21:36:42.831Z",
+      "at": "2026-10-06T21:50:30.190Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T21:36:43.697Z",
+      "at": "2026-10-06T21:50:30.975Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T21:36:44.606Z",
+      "at": "2026-10-06T21:50:32.058Z",
       "items": 10
     },
     "toi-greece": {
@@ -1724,22 +1727,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T21:36:45.244Z",
+      "at": "2026-10-06T21:50:32.675Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T21:36:45.560Z",
+      "at": "2026-10-06T21:50:32.795Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T21:36:45.809Z",
+      "at": "2026-10-06T21:50:32.882Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T21:36:46.014Z",
+      "at": "2026-10-06T21:50:33.506Z",
       "items": 1
     },
     "ynet-greece": {
@@ -1749,12 +1752,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T21:36:39.909Z",
+      "at": "2026-10-06T21:50:27.615Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T21:36:46.837Z",
+      "at": "2026-10-06T21:50:34.216Z",
       "items": 0
     },
     "hcg": {
@@ -1765,33 +1768,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T21:36:48.093Z",
+      "at": "2026-10-06T21:50:35.498Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T21:36:48.285Z",
+      "at": "2026-10-06T21:50:35.870Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T21:36:48.441Z",
+      "at": "2026-10-06T21:50:36.043Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T21:36:48.672Z",
+      "at": "2026-10-06T21:50:36.233Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T21:36:49.001Z",
+      "at": "2026-10-06T21:50:36.644Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T21:36:49.483Z",
-      "items": 13
+      "at": "2026-10-06T21:50:37.119Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -1861,12 +1864,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T21:36:50.339Z",
-    "considered": 2,
+    "at": "2026-10-06T21:50:38.188Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Archbishop Makarios: do not rush God’s time because we fear our own",
-      "· gct | Hellenic Film Society screens four Michael Cacoyannis films at the 2026 New York Greek Fil"
+      "· gct | Greek Cinemas Suspend Naza Screenings At Directors’ Request",
+      "· gct | Turkey Records Highest Number of Airspace Violations in Two Months",
+      "· ingr | Παλαιστίνη: Φωτορεπόρτερ του Γαλλικού Πρακτορείου ξυλοκοπήθηκε από εποίκους στη Δυτική Όχθ"
     ]
   },
   "evergreenDone": [
