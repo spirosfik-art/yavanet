@@ -1548,7 +1548,10 @@
     "6911046ee53c": 1791316280592,
     "7bb35cad9e19": 1791316280592,
     "1051066af7a4": 1791316886193,
-    "d26e6f265f3a": 1791316886193
+    "d26e6f265f3a": 1791316886193,
+    "fbade1373f4b": 1791318358436,
+    "40b87ef80e3e": 1791318358436,
+    "079388f16cbf": 1791318358436
   },
   "pending": {},
   "sourceStatus": {
@@ -1560,12 +1563,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T20:01:16.739Z",
+      "at": "2026-10-06T20:25:44.532Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T20:01:17.293Z",
+      "at": "2026-10-06T20:25:45.256Z",
       "items": 5
     },
     "civilprotection": {
@@ -1576,27 +1579,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T20:01:18.455Z",
+      "at": "2026-10-06T20:25:46.898Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T20:01:18.620Z",
+      "at": "2026-10-06T20:25:47.172Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T20:01:19.491Z",
+      "at": "2026-10-06T20:25:50.438Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T20:01:20.067Z",
-      "items": 1
+      "at": "2026-10-06T20:25:51.312Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T20:01:20.430Z",
+      "at": "2026-10-06T20:25:52.214Z",
       "items": 10
     },
     "toi-greece": {
@@ -1607,22 +1610,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T20:01:20.926Z",
+      "at": "2026-10-06T20:25:52.748Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T20:01:21.133Z",
+      "at": "2026-10-06T20:25:53.097Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T20:01:21.281Z",
-      "items": 6
+      "at": "2026-10-06T20:25:53.809Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T20:01:21.438Z",
+      "at": "2026-10-06T20:25:54.028Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1632,12 +1635,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T20:01:17.731Z",
+      "at": "2026-10-06T20:25:46.152Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T20:01:22.094Z",
+      "at": "2026-10-06T20:25:54.671Z",
       "items": 0
     },
     "hcg": {
@@ -1648,33 +1651,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T20:01:23.584Z",
+      "at": "2026-10-06T20:25:55.928Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T20:01:23.856Z",
-      "items": 9
+      "at": "2026-10-06T20:25:56.212Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T20:01:24.053Z",
+      "at": "2026-10-06T20:25:56.433Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T20:01:24.394Z",
+      "at": "2026-10-06T20:25:56.680Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T20:01:24.841Z",
-      "items": 6
+      "at": "2026-10-06T20:25:57.066Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T20:01:25.414Z",
-      "items": 12
+      "at": "2026-10-06T20:25:57.517Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -1920,12 +1923,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T20:01:26.193Z",
-    "considered": 2,
+    "at": "2026-10-06T20:25:58.436Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greece Promotes Santorini and Mykonos to Global Travel Markets",
-      "· gct | Olympiacos Begin Balkan Cup with Dominant 3-0 Victory"
+      "· gct | Marco Rubio To Call For A Cultural Renaissance From Acropolis",
+      "· gct | US and Greece to Tackle Defence, Energy and Regional Security",
+      "· gct | Rhodes Eyes Major Tourism Opportunity in Indian Travel Market"
     ]
   },
   "evergreenDone": [
