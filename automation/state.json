@@ -1551,7 +1551,9 @@
     "d26e6f265f3a": 1791316886193,
     "fbade1373f4b": 1791318358436,
     "40b87ef80e3e": 1791318358436,
-    "079388f16cbf": 1791318358436
+    "079388f16cbf": 1791318358436,
+    "10b7e0911384": 1791319174940,
+    "3e594f6871ee": 1791319174940
   },
   "pending": {},
   "sourceStatus": {
@@ -1563,12 +1565,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T20:25:44.532Z",
+      "at": "2026-10-06T20:39:25.999Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T20:25:45.256Z",
+      "at": "2026-10-06T20:39:26.540Z",
       "items": 5
     },
     "civilprotection": {
@@ -1579,27 +1581,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T20:25:46.898Z",
+      "at": "2026-10-06T20:39:27.528Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T20:25:47.172Z",
+      "at": "2026-10-06T20:39:27.723Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T20:25:50.438Z",
+      "at": "2026-10-06T20:39:28.543Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T20:25:51.312Z",
+      "at": "2026-10-06T20:39:29.185Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T20:25:52.214Z",
+      "at": "2026-10-06T20:39:29.876Z",
       "items": 10
     },
     "toi-greece": {
@@ -1610,23 +1612,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T20:25:52.748Z",
+      "at": "2026-10-06T20:39:30.289Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T20:25:53.097Z",
+      "at": "2026-10-06T20:39:30.370Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T20:25:53.809Z",
-      "items": 5
+      "at": "2026-10-06T20:39:30.467Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T20:25:54.028Z",
-      "items": 2
+      "at": "2026-10-06T20:39:30.587Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -1635,12 +1637,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T20:25:46.152Z",
+      "at": "2026-10-06T20:39:26.838Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T20:25:54.671Z",
+      "at": "2026-10-06T20:39:31.197Z",
       "items": 0
     },
     "hcg": {
@@ -1651,32 +1653,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T20:25:55.928Z",
+      "at": "2026-10-06T20:39:32.540Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T20:25:56.212Z",
-      "items": 7
+      "at": "2026-10-06T20:39:32.785Z",
+      "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T20:25:56.433Z",
+      "at": "2026-10-06T20:39:32.978Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T20:25:56.680Z",
-      "items": 6
+      "at": "2026-10-06T20:39:33.181Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T20:25:57.066Z",
+      "at": "2026-10-06T20:39:33.609Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T20:25:57.517Z",
+      "at": "2026-10-06T20:39:34.161Z",
       "items": 11
     }
   },
@@ -1923,13 +1925,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T20:25:58.436Z",
-    "considered": 3,
+    "at": "2026-10-06T20:39:34.940Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Marco Rubio To Call For A Cultural Renaissance From Acropolis",
-      "· gct | US and Greece to Tackle Defence, Energy and Regional Security",
-      "· gct | Rhodes Eyes Major Tourism Opportunity in Indian Travel Market"
+      "· ingr | Κρήτη: Φερτές ύλες και τα πρώτα χιόνια – Το αποτύπωμα της πρόσφατης κακοκαιρίας",
+      "· gn-iefimerida | «Ο Μάρκο Ρούμπιο θα μιλήσει για την αναγέννηση του δυτικού πνεύματος με φόντο την Ακρόπολη"
     ]
   },
   "evergreenDone": [
