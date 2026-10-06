@@ -1510,7 +1510,8 @@
     "6f5a3f4ed147": 1791300214760,
     "5587870b4c4b": 1791300214760,
     "2964be121219": 1791300214760,
-    "60e30e980307": 1791300214760
+    "60e30e980307": 1791300214760,
+    "0f9a83ea9723": 1791301127696
   },
   "pending": {
     "a6dbb8": {
@@ -1626,12 +1627,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T15:25:52.146Z",
-      "items": 0
+      "at": "2026-10-06T15:38:36.982Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T15:25:52.850Z",
+      "at": "2026-10-06T15:38:37.704Z",
       "items": 5
     },
     "civilprotection": {
@@ -1642,27 +1643,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T15:25:54.022Z",
+      "at": "2026-10-06T15:38:38.730Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T15:25:54.440Z",
+      "at": "2026-10-06T15:38:39.176Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T15:25:55.255Z",
+      "at": "2026-10-06T15:38:39.933Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T15:25:55.897Z",
+      "at": "2026-10-06T15:38:40.930Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T15:25:56.671Z",
+      "at": "2026-10-06T15:38:41.532Z",
       "items": 10
     },
     "toi-greece": {
@@ -1673,22 +1674,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T15:25:57.077Z",
+      "at": "2026-10-06T15:38:41.924Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T15:25:57.217Z",
+      "at": "2026-10-06T15:38:42.064Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T15:25:57.738Z",
-      "items": 7
+      "at": "2026-10-06T15:38:43.309Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T15:25:57.881Z",
+      "at": "2026-10-06T15:38:43.433Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1698,12 +1699,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T15:25:53.456Z",
+      "at": "2026-10-06T15:38:37.876Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T15:25:58.651Z",
+      "at": "2026-10-06T15:38:43.965Z",
       "items": 0
     },
     "hcg": {
@@ -1714,32 +1715,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T15:25:59.929Z",
+      "at": "2026-10-06T15:38:45.634Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T15:26:00.177Z",
+      "at": "2026-10-06T15:38:45.861Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T15:26:00.779Z",
-      "items": 4
+      "at": "2026-10-06T15:38:46.019Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T15:26:01.020Z",
+      "at": "2026-10-06T15:38:46.253Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T15:26:01.415Z",
+      "at": "2026-10-06T15:38:46.627Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T15:26:01.837Z",
+      "at": "2026-10-06T15:38:47.104Z",
       "items": 12
     }
   },
@@ -1959,14 +1960,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T15:23:34.760Z",
-    "considered": 4,
+    "at": "2026-10-06T15:38:47.696Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gtp | IATA Sets Priorities for Next Advances in Aviation Safety",
-      "· gn-kathimerini | Το αθέατο μουσείο της Ακρόπολης - Kathimerini",
-      "· gtp | Storm Daniel: First-priority Road Repairs Completed in Thessaly",
-      "· gtp | Kavala: Tourism Facilities at Kalamitsa Beach Set for Revival"
+      "· gn-pm | Τοποθετήσεις του Πρωθυπουργού Κυριάκου Μητσοτάκη κατά τη συζήτησή του με τον συγγραφέα Dan"
     ]
   },
   "evergreenDone": [
