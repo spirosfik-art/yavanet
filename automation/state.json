@@ -1370,7 +1370,8 @@
     "034d3aa63b66": 1791246903316,
     "979adb1d7367": 1791248246022,
     "1968bcaa0e1a": 1791249940976,
-    "46a7116536a6": 1791249940976
+    "46a7116536a6": 1791249940976,
+    "82a43ac12a96": 1791250587985
   },
   "pending": {
     "36e4ac": {
@@ -1488,12 +1489,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T01:25:30.537Z",
+      "at": "2026-10-06T01:36:17.547Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T01:25:31.222Z",
+      "at": "2026-10-06T01:36:18.155Z",
       "items": 5
     },
     "civilprotection": {
@@ -1504,27 +1505,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T01:25:32.380Z",
+      "at": "2026-10-06T01:36:19.866Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T01:25:32.801Z",
+      "at": "2026-10-06T01:36:20.236Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T01:25:33.925Z",
+      "at": "2026-10-06T01:36:21.278Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T01:25:34.677Z",
-      "items": 8
+      "at": "2026-10-06T01:36:22.008Z",
+      "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T01:25:35.689Z",
+      "at": "2026-10-06T01:36:22.825Z",
       "items": 10
     },
     "toi-greece": {
@@ -1535,22 +1536,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T01:25:36.234Z",
+      "at": "2026-10-06T01:36:23.317Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T01:25:36.580Z",
+      "at": "2026-10-06T01:36:23.636Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T01:25:36.710Z",
+      "at": "2026-10-06T01:36:23.787Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T01:25:36.912Z",
+      "at": "2026-10-06T01:36:23.976Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1560,12 +1561,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T01:25:31.530Z",
+      "at": "2026-10-06T01:36:18.959Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T01:25:37.544Z",
+      "at": "2026-10-06T01:36:24.482Z",
       "items": 0
     },
     "hcg": {
@@ -1576,32 +1577,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T01:25:38.861Z",
+      "at": "2026-10-06T01:36:25.812Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T01:25:39.177Z",
+      "at": "2026-10-06T01:36:26.051Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T01:25:39.351Z",
+      "at": "2026-10-06T01:36:26.222Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T01:25:39.562Z",
+      "at": "2026-10-06T01:36:26.459Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T01:25:39.965Z",
+      "at": "2026-10-06T01:36:26.830Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T01:25:40.372Z",
+      "at": "2026-10-06T01:36:27.253Z",
       "items": 8
     }
   },
@@ -1704,12 +1705,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T01:25:40.976Z",
-    "considered": 2,
+    "at": "2026-10-06T01:36:27.985Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | ΟΗΕ: Έκκληση Γκουτέρες για μόνιμη εκεχειρία στη Γάζα",
-      "· gct | One-Armed Melbourne Jeweller Conned Greek Diaspora Out of Millions Before Sudden Death"
+      "· gct | Greek Legal Pioneer Eugenia Mitrakas OAM Honoured with Law Institute of Victoria Life Memb"
     ]
   },
   "evergreenDone": [
