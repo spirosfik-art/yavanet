@@ -1567,7 +1567,8 @@
     "6f0e1cf7c2b8": 1791323438188,
     "8c9dfdaf71b9": 1791324067103,
     "c040729a60b7": 1791327014427,
-    "d2fe281cc75e": 1791329026889
+    "d2fe281cc75e": 1791329026889,
+    "faa1373948f6": 1791330642598
   },
   "pending": {},
   "sourceStatus": {
@@ -1578,13 +1579,14 @@
       "fails": 529
     },
     "minfin": {
-      "ok": true,
-      "at": "2026-10-06T23:36:27.190Z",
-      "items": 10
+      "ok": false,
+      "at": "2026-10-06T23:50:30.324Z",
+      "error": "fetch failed",
+      "fails": 1
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T23:36:27.987Z",
+      "at": "2026-10-06T23:50:31.126Z",
       "items": 5
     },
     "civilprotection": {
@@ -1595,27 +1597,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T23:36:29.674Z",
+      "at": "2026-10-06T23:50:32.685Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T23:36:29.902Z",
+      "at": "2026-10-06T23:50:32.873Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T23:36:30.980Z",
+      "at": "2026-10-06T23:50:33.762Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T23:36:31.706Z",
+      "at": "2026-10-06T23:50:34.454Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T23:36:32.509Z",
+      "at": "2026-10-06T23:50:35.393Z",
       "items": 10
     },
     "toi-greece": {
@@ -1626,22 +1628,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T23:36:33.052Z",
+      "at": "2026-10-06T23:50:35.955Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T23:36:33.252Z",
+      "at": "2026-10-06T23:50:36.929Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T23:36:33.869Z",
+      "at": "2026-10-06T23:50:37.643Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T23:36:34.288Z",
+      "at": "2026-10-06T23:50:38.077Z",
       "items": 1
     },
     "ynet-greece": {
@@ -1651,12 +1653,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T23:36:28.769Z",
+      "at": "2026-10-06T23:50:32.025Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T23:36:34.866Z",
+      "at": "2026-10-06T23:50:38.673Z",
       "items": 0
     },
     "hcg": {
@@ -1667,32 +1669,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T23:36:36.783Z",
+      "at": "2026-10-06T23:50:40.211Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T23:36:37.101Z",
+      "at": "2026-10-06T23:50:40.468Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T23:36:37.255Z",
+      "at": "2026-10-06T23:50:40.685Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T23:36:37.423Z",
+      "at": "2026-10-06T23:50:40.913Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T23:36:37.751Z",
+      "at": "2026-10-06T23:50:41.257Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T23:36:38.209Z",
+      "at": "2026-10-06T23:50:41.737Z",
       "items": 13
     }
   },
@@ -1769,11 +1771,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T23:23:46.889Z",
+    "at": "2026-10-06T23:50:42.598Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Italy Now Serves the Iced Espresso Greece Invented in 1991"
+      "· gct | Church Denies Russian Troops Lost Dmitry Donskoy Relic"
     ]
   },
   "evergreenDone": [
