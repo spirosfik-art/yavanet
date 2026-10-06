@@ -1371,7 +1371,9 @@
     "979adb1d7367": 1791248246022,
     "1968bcaa0e1a": 1791249940976,
     "46a7116536a6": 1791249940976,
-    "82a43ac12a96": 1791250587985
+    "82a43ac12a96": 1791250587985,
+    "3debb573312f": 1791253488064,
+    "4e6962fb42ae": 1791253488064
   },
   "pending": {
     "36e4ac": {
@@ -1489,12 +1491,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T02:01:54.617Z",
-      "items": 10
+      "at": "2026-10-06T02:24:15.448Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T02:01:55.231Z",
+      "at": "2026-10-06T02:24:16.424Z",
       "items": 5
     },
     "civilprotection": {
@@ -1505,27 +1507,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T02:01:56.358Z",
+      "at": "2026-10-06T02:24:17.607Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T02:01:56.772Z",
+      "at": "2026-10-06T02:24:17.948Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T02:01:57.686Z",
+      "at": "2026-10-06T02:24:18.962Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T02:01:58.445Z",
-      "items": 7
+      "at": "2026-10-06T02:24:19.820Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T02:01:58.876Z",
+      "at": "2026-10-06T02:24:20.742Z",
       "items": 10
     },
     "toi-greece": {
@@ -1536,22 +1538,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T02:01:59.326Z",
+      "at": "2026-10-06T02:24:21.295Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T02:01:59.699Z",
+      "at": "2026-10-06T02:24:21.585Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T02:01:59.889Z",
+      "at": "2026-10-06T02:24:22.193Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T02:02:00.226Z",
+      "at": "2026-10-06T02:24:22.601Z",
       "items": 7
     },
     "ynet-greece": {
@@ -1561,12 +1563,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T02:01:55.527Z",
+      "at": "2026-10-06T02:24:16.795Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T02:02:01.830Z",
+      "at": "2026-10-06T02:24:23.217Z",
       "items": 0
     },
     "hcg": {
@@ -1577,32 +1579,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T02:02:03.688Z",
+      "at": "2026-10-06T02:24:24.503Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T02:02:03.956Z",
+      "at": "2026-10-06T02:24:24.723Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T02:02:04.193Z",
+      "at": "2026-10-06T02:24:24.935Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T02:02:04.456Z",
+      "at": "2026-10-06T02:24:25.092Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T02:02:04.829Z",
+      "at": "2026-10-06T02:24:25.429Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T02:02:05.324Z",
+      "at": "2026-10-06T02:24:25.851Z",
       "items": 8
     }
   },
@@ -1705,11 +1707,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T01:36:27.985Z",
-    "considered": 1,
+    "at": "2026-10-06T02:24:48.064Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greek Legal Pioneer Eugenia Mitrakas OAM Honoured with Law Institute of Victoria Life Memb"
+      "· gct | Renowned Greek Philosopher Ioanna Koutsouradi Dies at 89",
+      "· gct | Historic Astoria Greek Bakery ‘Lefkos Pirgos’ Sold After 58 Years"
     ]
   },
   "evergreenDone": [
