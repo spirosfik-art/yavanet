@@ -1,0 +1,78 @@
+{
+  "slug": "crete-heavy-rains-snow-sentinel-2",
+  "section": "breaking",
+  "publishedAt": "2026-10-06T22:38:03+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 35.2401,
+    "lng": 24.8093
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2171639/kriti-apo-ta-800-chiliosta-vrochis-sti-vammeni-thalassa-sta-prota-chionia-ti-kategrapse-o-sentinel-2/?utm_source=rss&utm_medium=rss&utm_campaign=kriti-apo-ta-800-chiliosta-vrochis-sti-vammeni-thalassa-sta-prota-chionia-ti-kategrapse-o-sentinel-2"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1095126/pexels-photo-1095126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Long highway stretches under dramatic clouds in Patra, Greece, showcasing a blend of nature and travel.",
+    "credit": "Photo: Theodore K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-road-near-green-leaf-trees-under-dark-clouds-at-daytime-1095126/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "מזג אוויר קיצוני",
+    "en": "Extreme Weather"
+  },
+  "he": {
+    "title": "כרתים: מעל 800 מ\"מ גשם, סערה ושלג ראשון בפסגות",
+    "seoTitle": "כרתים: סערה חזקה, מעל 800 מ\"מ גשם ושלג ראשון בפסגות",
+    "seoDesc": "הלוויין Sentinel-2 תיעד את נזקי מזג האוויר הקיצוני בכרתים: כמויות אדירות של גשם ובוץ בים, לצד שלג ראשון בפסגות ההרים.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "כרתים",
+      "סערה ביוון",
+      "שלג בכרתים"
+    ],
+    "dek": "מערכת מזג אוויר סוערת במיוחד הכתה באי כרתים והותירה אחוריה כמויות משקעים עצומות ושלג ראשון בפסגות.",
+    "tldr": [
+      "כמויות גשם עצומות של מעל 800 מ\"מ נמדדו באזורים שונים.",
+      "הלוויין Sentinel-2 תיעד את זרימת הסחף לים ואת השלג בהרים.",
+      "התופעה נרשמה בהרי הלבנים ובפסגות הפסיליטי."
+    ],
+    "means": "אם אתם מתכננים חופשה או נמצאים כעת בכרתים, כדאי להתעדכן בתחזית מזג האוויר המקומית ולעקוב אחר הודעות הרשויות באזור. בדקו את מצב הדרכים באזורים ההרריים לפני הנסיעה.",
+    "body": "## תיעוד מהחלל של מזג האוויר הקיצוני\n\nהסערה העזה שפקדה לאחרונה את כרתים תועדה במלוא עוצמתה מחלל על ידי לוויין המחקר האירופי Sentinel-2. התמונות החדשות מציגות תמונת מצב דרמטית של האי, המאופיינת בשילוב בין כמויות אדירות של משקעים ששטפו את הקרקע אל תוך מי הים לבין שכבת שלג ראשונה שהופיעה בפסגות ההרים הגבוהות.\n\n## כמויות גשם חריגות\n\nלפי נתוני יחידת המטאורולוגיה של המצפה האסטרונומי באתונה, נרשמו כמויות גשם יוצאות דופן בחלקים שונים של האי. באזורים מסוימים בהרי הלבנים ובהפסילייטרה עברו כמויות המשקעים את רף 800 המיליเมตร. הגשמים העזים גרמו לסחף רב של חומרים ואדמה, שנשאו על ידי הנחלים וזרמו ישירות אל תוך הים הלִיבי.\n\n## שלג ראשון בפסגות\n\nלצד ההצפות וזרימות הסחף בחופים, הלוויין קלט גם מראה חורפי מובהק בנקודות הגבוהות של האי. בעקבות הצניחה החדה בטמפרטורות שליוותה את מערכת הגשם, כיסה שלג לבן את הפסגות הגבוהות של הרים אלו, ומציג את השפעת המערכת הסוערת על הנוף המקומי."
+  },
+  "en": {
+    "title": "Crete: Heavy rains, massive runoff and first snow on peaks",
+    "seoTitle": "Crete weather: heavy rains, runoff and first snow",
+    "seoDesc": "European satellite Sentinel-2 captures the impact of severe storms in Crete, showing massive sediment runoff and the first snow on mountain peaks.",
+    "keywords": [
+      "Crete weather",
+      "Greece storm",
+      "Sentinel 2 Crete",
+      "snow in Greece"
+    ],
+    "dek": "A powerful storm system in Crete has left behind massive rainfall amounts, sediment flowing into the sea, and the season's first mountain snow.",
+    "tldr": [
+      "Rainfall totals exceeded 800 millimeters in parts of the White Mountains and Psiloritis.",
+      "The Sentinel-2 satellite captured runoff washing into the Libyan Sea.",
+      "The first snow of the season has covered the highest peaks."
+    ],
+    "means": "If you are traveling in or planning a trip to Crete, check local weather updates before heading into mountainous areas and follow guidance from local authorities regarding road conditions.",
+    "body": "## Satellite views of severe weather\n\nThe strong storm system that recently affected Crete was captured from space by the European Sentinel-2 satellite. High-resolution imagery highlights both the heavy sediment carried into the surrounding waters and the early snowfall blanketing the island's higher elevations.\n\n## Exceptional rainfall measurements\n\nAccording to data from the National Observatory of Athens meteorological unit, rainfall totals surpassed 800 millimeters in locations across the White Mountains and Mount Psiloritis. The intense downpours washed large quantities of debris and soil toward the southern coasts and into the sea.\n\n## First snow on the peaks\n\nAlongside the muddy runoff along the coast, the satellite also recorded a winter scene at higher altitudes. Following the temperature drop that accompanied the storm, snow has settled on the summits of the island's prominent mountain ranges."
+  },
+  "meta": {
+    "itemId": "3a4aef6693df",
+    "imageQuery": "storm clouds mountains greece",
+    "sourceHash": "d86ec7c47186",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-06T19:38:03.896Z",
+    "official": false
+  }
+}
