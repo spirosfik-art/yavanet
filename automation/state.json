@@ -1396,7 +1396,11 @@
     "7b74e3b88500": 1791262961100,
     "5ee6be240a1f": 1791264300711,
     "c97b60ee19fd": 1791264300711,
-    "e7eb31bbf7cb": 1791264300711
+    "e7eb31bbf7cb": 1791264300711,
+    "06b605e9c31e": 1791265939368,
+    "6dd081b25475": 1791265939368,
+    "815caa8b8146": 1791265939368,
+    "fa89486952ed": 1791265939368
   },
   "pending": {},
   "sourceStatus": {
@@ -1408,12 +1412,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T05:37:38.237Z",
-      "items": 0
+      "at": "2026-10-06T05:52:09.963Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T05:37:38.866Z",
+      "at": "2026-10-06T05:52:10.446Z",
       "items": 5
     },
     "civilprotection": {
@@ -1424,27 +1428,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T05:37:40.237Z",
+      "at": "2026-10-06T05:52:11.593Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T05:37:40.541Z",
+      "at": "2026-10-06T05:52:11.765Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T05:37:41.449Z",
+      "at": "2026-10-06T05:52:12.625Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T05:37:42.999Z",
-      "items": 5
+      "at": "2026-10-06T05:52:13.330Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T05:37:43.732Z",
+      "at": "2026-10-06T05:52:14.031Z",
       "items": 10
     },
     "toi-greece": {
@@ -1455,22 +1459,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T05:37:44.131Z",
+      "at": "2026-10-06T05:52:14.415Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T05:37:44.260Z",
+      "at": "2026-10-06T05:52:14.546Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T05:37:44.587Z",
+      "at": "2026-10-06T05:52:14.604Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T05:37:44.927Z",
+      "at": "2026-10-06T05:52:14.717Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1480,12 +1484,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T05:37:39.612Z",
+      "at": "2026-10-06T05:52:10.717Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T05:37:45.429Z",
+      "at": "2026-10-06T05:52:15.113Z",
       "items": 0
     },
     "hcg": {
@@ -1496,33 +1500,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T05:37:46.518Z",
+      "at": "2026-10-06T05:52:16.874Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T05:37:46.686Z",
+      "at": "2026-10-06T05:52:17.087Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T05:37:46.832Z",
+      "at": "2026-10-06T05:52:17.243Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T05:37:46.992Z",
+      "at": "2026-10-06T05:52:17.434Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T05:37:47.331Z",
+      "at": "2026-10-06T05:52:17.806Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T05:37:47.724Z",
-      "items": 8
+      "at": "2026-10-06T05:52:18.212Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -1565,6 +1569,12 @@
         "title": "Greece Real Estate: New Rules for Office Conversions",
         "at": "2026-10-06T08:37:37+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "blue-carrier-2-fire-eleusina",
+        "title": "↻ Blue Carrier 2 Moves to Eleusina Shipyards After Fire",
+        "at": "2026-10-06T08:52:33+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1577,6 +1587,11 @@
         "title": "Athens Imposes Traffic Restrictions and Security Measures for US Official Visit",
         "reason": "Ουδέτερη εκδοχή: λείπει en.dek",
         "at": "2026-10-06T00:01:00.911Z"
+      },
+      {
+        "title": "Πυροσβεστική: Έξι συλλήψεις για πυρκαγιές από αμέλεια σε Ζάκυνθο, Φθιώτιδα, Τρίκαλα, Αργολίδα και Εύβοια - iefimerida.gr",
+        "reason": "Rule 8 violation: The article adds facts not present in the source, specifically general safety reminders, dry conditions, and instructions for travelers ('בשל היובש ותנאי מזג האוויר', 'אם אתם מטיילים כעת...', 'In light of ongoing dry conditions...'). The source only contains the headline about the ",
+        "at": "2026-10-06T05:52:52.611Z"
       }
     ],
     "errors": [],
@@ -1641,13 +1656,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T05:25:00.711Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-06T05:52:19.368Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· gct | Giorgos Mazonakis Death: Forensic Leak Reveals Groin Punctures",
-      "· ert | Ημαθία: Εκτεταμένες υλικές ζημιές από πυρκαγιά σε εκκοκκιστήριο βαμβακιού",
-      "· ingr | Τσίπρας: Σε διάταξη μάχης η ΕΛΑΣ -Γράφεται το εκλογικό πρόγραμμα, μήνας περιοδειών ο Οκτώβ"
+      "· ert | Θεσσαλονίκη: Αλιεύματα αλλάζουν χέρια εκτός ιχθυόσκαλας λόγω της απεργίας – Βίντεο ντοκουμ",
+      "· ert | «Israel Hayom»: Ο ισραηλινός στρατός προετοιμάζεται για ανεξάρτητο πλήγμα κατά του Ιράν, ε",
+      "✓ gn-iefimerida | Στα ναυπηγεία της Ελευσίνας μεταφέρεται το «Blue Carrier 2» μετά την πυρκαγιά - iefimerida",
+      "✓ gn-iefimerida | Πυροσβεστική: Έξι συλλήψεις για πυρκαγιές από αμέλεια σε Ζάκυνθο, Φθιώτιδα, Τρίκαλα, Αργολ"
     ]
   },
   "evergreenDone": [
