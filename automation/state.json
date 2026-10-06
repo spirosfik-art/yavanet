@@ -1430,7 +1430,13 @@
     "81ca16d81b6e": 1791276055549,
     "a46fc212165e": 1791276055549,
     "49f393dfee1c": 1791276864908,
-    "f301338c0939": 1791277401036
+    "f301338c0939": 1791277401036,
+    "64fc27d6705a": 1791278814527,
+    "2dea935b25c3": 1791278814527,
+    "f0b1ffd719b5": 1791278814527,
+    "da9c56f982fb": 1791278814527,
+    "27602e42898a": 1791278814527,
+    "b6a299c6656e": 1791278814527
   },
   "pending": {},
   "sourceStatus": {
@@ -1442,12 +1448,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-06T09:03:09.890Z",
-      "items": 0
+      "at": "2026-10-06T09:26:44.968Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-06T09:03:10.781Z",
+      "at": "2026-10-06T09:26:45.646Z",
       "items": 5
     },
     "civilprotection": {
@@ -1458,27 +1464,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-06T09:03:11.965Z",
+      "at": "2026-10-06T09:26:46.848Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-06T09:03:12.079Z",
+      "at": "2026-10-06T09:26:47.153Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-06T09:03:13.381Z",
+      "at": "2026-10-06T09:26:48.177Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-06T09:03:14.119Z",
-      "items": 2
+      "at": "2026-10-06T09:26:48.839Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-06T09:03:15.122Z",
+      "at": "2026-10-06T09:26:49.649Z",
       "items": 10
     },
     "toi-greece": {
@@ -1489,23 +1495,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-06T09:03:15.741Z",
+      "at": "2026-10-06T09:26:49.887Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-06T09:03:16.000Z",
+      "at": "2026-10-06T09:26:49.935Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-06T09:03:16.085Z",
+      "at": "2026-10-06T09:26:49.996Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T09:03:16.613Z",
-      "items": 3
+      "at": "2026-10-06T09:26:50.105Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1514,12 +1520,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-06T09:03:11.032Z",
+      "at": "2026-10-06T09:26:46.145Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-06T09:03:17.342Z",
+      "at": "2026-10-06T09:26:50.734Z",
       "items": 0
     },
     "hcg": {
@@ -1530,39 +1536,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-06T09:03:18.936Z",
+      "at": "2026-10-06T09:26:51.980Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-06T09:03:19.315Z",
+      "at": "2026-10-06T09:26:52.315Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-06T09:03:19.471Z",
+      "at": "2026-10-06T09:26:52.479Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-06T09:03:19.634Z",
+      "at": "2026-10-06T09:26:52.731Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-06T09:03:19.994Z",
-      "items": 3
+      "at": "2026-10-06T09:26:53.057Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-06T09:03:20.466Z",
+      "at": "2026-10-06T09:26:53.468Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-06",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "greece-turkey-cable-dispute-2026",
@@ -1623,6 +1629,12 @@
         "title": "Athens real estate: proposed property tax hike for non-EU buyers",
         "at": "2026-10-06T11:40:42+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "greece-tourism-record-revenue-arrivals",
+        "title": "Greece Tourism Set for New Record in Revenue and Arrivals",
+        "at": "2026-10-06T12:27:07+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1713,11 +1725,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-06T09:03:21.036Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-06T09:26:54.527Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Κρήτη: Αυτοψία Ευ. Τουρνά στο Μυλοπόταμο – Στόχος να καταγραφούν οι ζημιές και να προχωρήσ"
+      "· ert | Πόρτο Γερμενό: Μετά τις πυρκαγιές έναρξη δενδροφυτεύσεων στην πληγείσα περιοχή",
+      "✓ gn-kathimerini | Ελληνικός τουρισμός: Προς νέο ρεκόρ εσόδων και αφίξεων - Kathimerini",
+      "· ert | OΛME – ΔΟΕ – ΑΔΕΔΥ: Κινητοποιήσεις για άρση πειθαρχικών και δικαστικών διώξεων σε εκπαιδευ",
+      "· gct | Drone Strikes Hit Two Ships 80 Nautical Miles Off Bulgarian Coast",
+      "· ert | Προς τα ναυπηγεία της Ελευσίνας ρυμουλκείται το «Blue Carrier 2»",
+      "· gn-kathimerini | Χούθι: Ανακοίνωσαν πλήγματα σε αεροδρόμιο του Ριάντ και διυλιστήριο της ARAMCO - Kathimeri"
     ]
   },
   "evergreenDone": [
