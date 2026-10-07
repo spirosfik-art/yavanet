@@ -1669,7 +1669,8 @@
     "22c28d791f0d": 1791373981167,
     "f15393dcd59d": 1791374637111,
     "a0caed535820": 1791374637111,
-    "73c49d5efafe": 1791374637111
+    "73c49d5efafe": 1791374637111,
+    "2fd48de0e22a": 1791376426808
   },
   "pending": {},
   "sourceStatus": {
@@ -1681,12 +1682,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T12:03:47.125Z",
+      "at": "2026-10-07T12:33:06.065Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T12:03:48.372Z",
+      "at": "2026-10-07T12:33:06.609Z",
       "items": 5
     },
     "civilprotection": {
@@ -1697,27 +1698,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T12:03:49.608Z",
+      "at": "2026-10-07T12:33:07.489Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T12:03:49.855Z",
+      "at": "2026-10-07T12:33:07.629Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T12:03:50.624Z",
+      "at": "2026-10-07T12:33:08.584Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T12:03:51.255Z",
-      "items": 6
+      "at": "2026-10-07T12:33:09.119Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T12:03:52.080Z",
+      "at": "2026-10-07T12:33:09.966Z",
       "items": 10
     },
     "toi-greece": {
@@ -1728,23 +1729,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T12:03:52.470Z",
+      "at": "2026-10-07T12:33:10.417Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T12:03:52.515Z",
+      "at": "2026-10-07T12:33:10.718Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T12:03:52.677Z",
-      "items": 6
+      "at": "2026-10-07T12:33:11.221Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T12:03:53.075Z",
-      "items": 5
+      "at": "2026-10-07T12:33:11.351Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1753,12 +1754,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T12:03:48.647Z",
+      "at": "2026-10-07T12:33:06.823Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T12:03:53.667Z",
+      "at": "2026-10-07T12:33:11.914Z",
       "items": 0
     },
     "hcg": {
@@ -1769,33 +1770,38 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T12:03:54.809Z",
+      "at": "2026-10-07T12:33:12.956Z",
       "items": 0
     },
     "gn-civilprotection": {
-      "ok": true,
-      "at": "2026-10-07T12:03:55.011Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-07T12:33:18.471Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-pm": {
-      "ok": true,
-      "at": "2026-10-07T12:03:55.190Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-07T12:33:27.520Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-10-07T12:03:55.427Z",
-      "items": 5
+      "ok": false,
+      "at": "2026-10-07T12:33:33.896Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-kathimerini": {
-      "ok": true,
-      "at": "2026-10-07T12:03:55.825Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-07T12:33:41.047Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-iefimerida": {
-      "ok": true,
-      "at": "2026-10-07T12:03:56.278Z",
-      "items": 10
+      "ok": false,
+      "at": "2026-10-07T12:33:46.138Z",
+      "error": "HTTP 503",
+      "fails": 1
     }
   },
   "tgOffset": 829774786,
@@ -1986,13 +1992,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T12:03:57.111Z",
-    "considered": 3,
+    "at": "2026-10-07T12:33:46.808Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | Ιράν για 7η Οκτωβρίου: Η επίθεση της Χαμάς «επιτάχυνε την παρακμή» του Ισραήλ",
-      "· ert | Δορυφορικές εικόνες καταγράφουν «ανανεωμένη δραστηριότητα» σε ιρανική πυρηνική εγκατάσταση",
-      "· gct | Rubio in Athens: US Secretary of State to Call for Western Renewal From the Birthplace of "
+      "· gct | Greece Offers Naval Support to US in Strait of Hormuz, Gerapetritis Says"
     ]
   },
   "evergreenDone": [
