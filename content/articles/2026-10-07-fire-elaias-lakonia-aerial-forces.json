@@ -1,0 +1,78 @@
+{
+  "slug": "fire-elaias-lakonia-aerial-forces",
+  "section": "breaking",
+  "publishedAt": "2026-10-07T14:53:14+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 36.8167,
+    "lng": 22.8
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/07/greece/fotia-sti-lakonia-sikothikan-tria-enaeria-mesa/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38521772/pexels-photo-38521772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A path through a forest burned by wildfire, showing charred trees and regrowth.",
+    "credit": "Photo: Christian Palau / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/burned-forest-path-after-a-wildfire-38521772/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה",
+    "en": "Fire"
+  },
+  "he": {
+    "title": "שריפה בלקוניה: כוחות כיבוי אש ומטוסי הקפצה פעלו באזור",
+    "seoTitle": "שריפה בלקוניה: כוחות כיבוי אש פועלים באזור",
+    "seoDesc": "שריפה פרצה באזור חקלאי-יערני בלקוניה. צוותי כיבוי רבים ומטוסים פועלים במקום לעצירת הלהבות.",
+    "keywords": [
+      "שריפה ביוון",
+      "שריפה בלקוניה",
+      "מזג אוויר ביוון",
+      "חדשות יוון"
+    ],
+    "dek": "שריפה פרצה בשטח חקלאי-יערני באזור אלאיה שבחבל לקוניה. צוותי כיבוי רבים קרקעיים ואוויריים הוזעקו לטפל באירוע.",
+    "tldr": [
+      "שריפה פרצה בשעות הצהריים באזור אלאיה בלקוניה.",
+      "עשרות כבאים ומטוסים הוזנקו למקום.",
+      "נסיבות הדליקה נמצאות בבדיקת הרשויות."
+    ],
+    "means": "אם אתם מטיילים באזור לקוניה או מתכננים להגיע לשם, מומלץ להתעדכן בהנחיות כוחות הביטחון והרשויות המקומיות, ולהימנע מהתקרבות לאזורי השריפה.",
+    "body": "## פרטי האירוע בלקוניה\n\nשריפה פרצה בשטח חקלאי-יערני באזור אלאיה, הממוקם במונימבסיה שבחבל לקוניה. לפי דיווחים מרשויות הכיבוי ביוון, האש החלה להתפשט בשעות הצהריים המוקדמות, סביב השעה 13:45.\n\n## פעולות החירום והכיבוי\n\nלמקום הוקפצו כוחות גדולים במטרה בלום את התפשטות האש טרם תפגע באזורים נוספים. צוותי הכיבוי כוללים 45 כבאים, בגיבוי של שתי קבוצות כבאים רגליות מיחידת המבצעים המיוחדות ו-13 רכבי כיבוי.\n\nבנוסף לכוחות הקרקע, בגזרת האוויר פועלים שלושה אמצעים אוויריים – מסוק אחד ושני מטוסי כיבוי. רשויות מקומיות סייעו גם הן למאמצי הבלימה באמצעות משאיות מים.\n\n## חקירת נסיבות השריפה\n\nיחידת החקירות של משטרת האש בלקוניה פתחה בחקירה רשמית במטרה לברר את הגורמים לפרוץ הדליקה באזור."
+  },
+  "en": {
+    "title": "Fire in Laconia: Aerial and Ground Forces Deployed",
+    "seoTitle": "Fire in Laconia: Aerial and Ground Forces Deployed",
+    "seoDesc": "A wildfire broke out in the Elaia area of Laconia. Firefighters and aerial assets are operating at the scene.",
+    "keywords": [
+      "greece fire",
+      "lakonia wildfire",
+      "greece news",
+      "elaias fire"
+    ],
+    "dek": "A wildfire erupted in an agricultural-forest area in Elaia, Laconia. Ground crews and aerial firefighting units were immediately dispatched.",
+    "tldr": [
+      "A fire broke out around noon in the Elaia area of Laconia.",
+      "Numerous firefighters and aerial units are deployed.",
+      "Authorities are investigating the cause of the fire."
+    ],
+    "means": "If you are traveling in the Laconia region, stay informed via local authorities, avoid affected zones, and follow safety instructions from emergency services.",
+    "body": "## Wildfire Outbreak in Laconia\n\nA wildfire broke out in an agricultural and forest area in Elaia, located within the municipality of Monemvasia in Laconia. According to the Hellenic Fire Service, the flames ignited in the early afternoon, around 13:45.\n\n## Emergency Response\n\nA substantial force was deployed to contain the blaze quickly. The operation involves 45 firefighters supported by two specialized ground teams and 13 fire vehicles.\n\nAerial firefighting resources are also actively assisting, with three aircraft deployed—one helicopter and two airplanes. Local municipality water tankers are providing additional supply to ground crews.\n\n## Investigation\n\nThe Arson Crimes Investigation Department of Laconia has initiated an inquiry to determine the exact cause of the fire."
+  },
+  "meta": {
+    "itemId": "72b8b122d225",
+    "imageQuery": "wildfire forest greece",
+    "sourceHash": "41fbd7a94926",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-07T11:53:15.344Z",
+    "official": false
+  }
+}

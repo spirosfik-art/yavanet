@@ -1662,7 +1662,11 @@
     "8b7f7f32e1e1": 1791372346781,
     "cacc0eae2ebb": 1791373132385,
     "8efb350173d9": 1791373132385,
-    "8e756b1085a5": 1791373132385
+    "8e756b1085a5": 1791373132385,
+    "72b8b122d225": 1791373981167,
+    "7f603a29153c": 1791373981167,
+    "83142d5fc2b4": 1791373981167,
+    "22c28d791f0d": 1791373981167
   },
   "pending": {},
   "sourceStatus": {
@@ -1674,12 +1678,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T11:38:28.384Z",
+      "at": "2026-10-07T11:52:50.062Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T11:38:29.224Z",
+      "at": "2026-10-07T11:52:50.813Z",
       "items": 5
     },
     "civilprotection": {
@@ -1690,27 +1694,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T11:38:31.097Z",
+      "at": "2026-10-07T11:52:52.236Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T11:38:31.468Z",
+      "at": "2026-10-07T11:52:52.366Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T11:38:33.587Z",
+      "at": "2026-10-07T11:52:53.377Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T11:38:34.398Z",
+      "at": "2026-10-07T11:52:54.290Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T11:38:35.353Z",
+      "at": "2026-10-07T11:52:54.775Z",
       "items": 10
     },
     "toi-greece": {
@@ -1721,22 +1725,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T11:38:35.977Z",
+      "at": "2026-10-07T11:52:55.436Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T11:38:36.075Z",
+      "at": "2026-10-07T11:52:55.509Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T11:38:36.148Z",
-      "items": 6
+      "at": "2026-10-07T11:52:55.760Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T11:38:36.692Z",
+      "at": "2026-10-07T11:52:55.989Z",
       "items": 6
     },
     "ynet-greece": {
@@ -1746,12 +1750,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T11:38:30.028Z",
+      "at": "2026-10-07T11:52:51.251Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T11:38:37.545Z",
+      "at": "2026-10-07T11:52:56.941Z",
       "items": 0
     },
     "hcg": {
@@ -1762,39 +1766,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T11:38:40.052Z",
+      "at": "2026-10-07T11:52:58.434Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T11:38:40.266Z",
-      "items": 6
+      "at": "2026-10-07T11:52:58.643Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T11:38:40.477Z",
+      "at": "2026-10-07T11:52:58.796Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T11:38:40.712Z",
+      "at": "2026-10-07T11:52:59.031Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T11:38:41.087Z",
-      "items": 8
+      "at": "2026-10-07T11:52:59.367Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T11:38:41.509Z",
+      "at": "2026-10-07T11:52:59.769Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1842,6 +1846,12 @@
         "slug": "fire-voskina-kynourias-greece",
         "title": "Fire in Greece: Emergency crews battle blaze in Voskina Kynourias",
         "at": "2026-10-07T13:40:49+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "fire-elaias-lakonia-aerial-forces",
+        "title": "Fire in Laconia: Aerial and Ground Forces Deployed",
+        "at": "2026-10-07T14:53:14+03:00",
         "section": "breaking"
       }
     ],
@@ -1973,13 +1983,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T11:38:52.385Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-07T11:53:01.167Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ert | Ρούσσα Έβρου: Χωρίς ενεργό μέτωπο σήμερα η δασική πυρκαγιά",
-      "· naftemporiki | Φωτιά τώρα στην Κόνιτσα – Πυρκαγιά και στην Ελαία Λακωνίας",
-      "· gn-kathimerini | Η Ελλάδα πρωταγωνιστεί στον πολυτελή τουρισμό - Kathimerini"
+      "✓ ingr | Φωτιά στη Λακωνία – Σηκώθηκαν τρία εναέρια μέσα",
+      "· gct | Mazonakis Case: Detained Doctor Seeks Cellphone Search as He Distances Himself From Wife",
+      "· ert | Ρούσσα Έβρου: Χωρίς ενεργό μέτωπο η δασική πυρκαγιά",
+      "· gn-civilprotection | 97,8 εκατ. ευρώ από το Εθνικό Πρόγραμμα Ανάπτυξης 2026-2030 για τη στήριξη Περιφερειών και"
     ]
   },
   "evergreenDone": [
