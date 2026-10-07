@@ -486,6 +486,23 @@ const GUIDES = {
   travel: ["greece-travel-guide-israelis-2026", "טסים ליוון? כל מה שצריך לדעת לפני הטיסה", "Flying to Greece? Everything to know before you go"],
 };
 const DEST_LINKS = [["athens", "אתונה", "Athens", /athens|אתונה/i], ["thessaloniki", "סלוניקי", "Thessaloniki", /thessaloniki|סלוניקי/i], ["rhodes", "רודוס", "Rhodes", /rhodes|רודוס/i], ["crete", "כרתים", "Crete", /crete|כרתים|heraklion|chania/i], ["corfu", "קורפו", "Corfu", /corfu|קורפו/i], ["santorini", "סנטוריני", "Santorini", /santorini|סנטוריני/i], ["mykonos", "מיקונוס", "Mykonos", /mykonos|מיקונוס/i], ["kos", "קוס", "Kos", /\bkos\b|קוס/i], ["paros", "פארוס", "Paros", /paros|פארוס/i], ["chalkidiki", "חלקידיקי", "Chalkidiki", /chalkidiki|halkidiki|חלקידיקי/i], ["naxos", "נקסוס", "Naxos", /\bnaxos\b|נקסוס/i], ["milos", "מילוס", "Milos", /\bmilos\b|מילוס/i], ["zakynthos", "זקינתוס", "Zakynthos", /zakynthos|zante|זקינתוס/i], ["kefalonia", "קפלוניה", "Kefalonia", /kefalonia|cephalonia|קפלוניה|כפלוניה/i], ["lefkada", "לפקדה", "Lefkada", /lefkada|לפקדה/i], ["skiathos", "סקיאתוס", "Skiathos", /skiathos|סקיאתוס/i], ["thassos", "תאסוס", "Thassos", /thassos|תאסוס/i], ["meteora", "מטאורה", "Meteora", /meteora|מטאורה/i], ["nafplio", "נפפליו", "Nafplio", /nafplio|נפפליו|נאפפליו|נאפליו/i], ["kalamata", "קלמטה ומסיניה", "Kalamata & Messinia", /kalamata|messinia|קלמטה/i], ["zagori", "זגוריה ויואנינה", "Zagori & Ioannina", /zagori|ioannina|זגוריה|יואנינה/i]];
+// Εσωτερικοί σύνδεσμοι από τα άρθρα που φέρνουν κίνηση (καιρός, απεργίες, ταξίδι) προς τις σελίδες ακινήτων
+export function homeBox(a, lang) {
+  if (a.section === "real-estate" || a.partner || a.sponsored || a.showcase || a.sensitive) return "";
+  const he = lang === "he";
+  const L = he ? [
+    ["/a/buying-property-in-greece-israelis-guide/", "קניית דירה ביוון: המדריך המלא"],
+    ["/a/greece-apartment-prices-2026-guide/", "מחירי דירות ביוון 2026"],
+    ["/a/what-can-you-buy-in-athens-under-260k-shekels/", "מה קונים באתונה בפחות מ-₪260 אלף"],
+    ["/nadlan/", "דירות למכירה באתונה עכשיו"],
+  ] : [
+    ["/a/buying-property-in-greece-israelis-guide/", "Buying property in Greece: the full guide"],
+    ["/a/greece-apartment-prices-2026-guide/", "Greece property prices 2026"],
+    ["/a/what-can-you-buy-in-athens-under-260k-shekels/", "What you can buy in Athens for under ₪260k"],
+    ["/nadlan/", "Flats for sale in Athens now"],
+  ];
+  return `<aside class="homebox"><b>${he ? "חולמים על דירה ביוון?" : "Dreaming of a home in Greece?"}</b><ul>${L.map(([u, t]) => `<li><a href="${P(lang, u)}">${esc(t)}</a></li>`).join("")}</ul></aside>`;
+}
 export function relatedBox(a, lang) {
   if (a.showcase || a.partner || a.sponsored) return "";
   const he = lang === "he", txt = [a.en.title, a.en.dek, a.en.body || "", a.he.title].join(" ");
@@ -541,6 +558,7 @@ export function articleBody(a, lang, prev, next) {
   ${toc}
   <div class="prose" data-speak>${prose}</div>
   ${a.guide ? "" : relatedBox(a, lang)}
+  ${homeBox(a, lang)}
   ${cta}
   ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}

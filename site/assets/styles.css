@@ -1567,3 +1567,8 @@ details.faq{padding:10px 14px;border-radius:10px;background:var(--card,#fff);bor
 .tlvwa{margin:22px 0;padding:18px;border-radius:14px;background:#EEF8F1;border:1px solid rgba(37,211,102,.4)}
 .tlvwa h2{margin:0 0 6px;font-size:20px}
 .tlvwa p{margin:0 0 12px}
+
+.homebox{margin:22px 0;padding:14px 18px;border-radius:14px;background:#FFF6E5;border:1px solid rgba(201,134,43,.35)}
+.homebox b{display:block;font-size:17px;margin-bottom:6px}
+.homebox ul{margin:0;padding-inline-start:20px}
+.homebox li{margin:4px 0}
