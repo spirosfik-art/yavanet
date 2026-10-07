@@ -1,0 +1,78 @@
+{
+  "slug": "earthquake-kasos-magnitude-4-2",
+  "section": "breaking",
+  "publishedAt": "2026-10-07T06:54:26+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 35.4167,
+    "lng": 26.9167
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2171657/seismos-42-richter-anoichta-tis-kasoy-to-epikentro-tis-donisis/?utm_source=rss&utm_medium=rss&utm_campaign=seismos-42-richter-anoichta-tis-kasoy-to-epikentro-tis-donisis"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33962519/pexels-photo-33962519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Waves crashing against unique pancake rock formations in New Zealand. A scenic coastal view.",
+    "credit": "Photo: Mikael Dubarry / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/spectacular-waves-at-pancake-rocks-new-zealand-33962519/",
+    "license": "Pexels License",
+    "fallbackKey": "quake"
+  },
+  "alert": {
+    "he": "רעידת אדמה",
+    "en": "Earthquake"
+  },
+  "he": {
+    "title": "רעידת אדמה ביוון: רעש בעוצמה 4.2 אותר סמוך לאי קאסוס",
+    "seoTitle": "רעידת אדמה ביוון: רעש בעוצמה 4.2 אותר סמוך לקאסוס",
+    "seoDesc": "רעידת אדמה בעוצמה 4.2 הורגשה ביום רביעי לפנות בוקר באזור האי קאסוס ביוון. כל הפרטים על המיקום והעוצמה.",
+    "keywords": [
+      "רעידת אדמה ביוון",
+      "קאסוס",
+      "רעש אדמה יוון",
+      "חדשות יוון"
+    ],
+    "dek": "המכון הגאודינמי באתונה דיווח על רעידת אדמה קלה שהתרחשה לפנות בוקר במיקום ימי מול חופי לאי קאסוס.",
+    "tldr": [
+      "רעידת אדמה בעוצמה 4.2 הורגשה ביום רביעי, 7 באוקטובר.",
+      "האירוע התרחש בשעה 02:43 לפנות בוקר.",
+      "המוקד היה 28 קילומטרים מערבית לאי קאסוס."
+    ],
+    "means": "אם אתם נמצאים באזור קאסוס או באיים הקרובים, כדאי להתעדכן בהודעות הרשמיות של הרשויות ביוון ולעקוב אחר דיווחים נוספים במידת הצורך.",
+    "body": "## רעידת אדמה ימית סמוך לקאסוס\n\nרעידת אדמה בעוצמה של 4.2 דרגות בסולם ריכטר (ריחתר) התרחשה בשעות המוקדמות של יום רביעי, 7 באוקטובר. על פי הנתונים שפורסמו, הרעש תועד בשעה 02:43 שעון מקומי.\n\nהמכון הגאודינמי של המצפה האסטרונומי הלאומי באתונה ציין כי מוקד הרעידה היה במרחב הימי שמול חופי קאסוס. המרחק המדויק שנמדד היה 28 קילומטרים מערבית לאי קאסוס, ובסך הכל כ-387 קילומטרים מעיר הבירה אתונה.\n\nהגורמים המקצועיים במכון הגדירו את הפעילות הסייסמית הזו כרעידת אדמה \"חלשה\" בממדיה."
+  },
+  "en": {
+    "title": "Earthquake in Greece: Magnitude 4.2 tremor recorded near Kasos",
+    "seoTitle": "Earthquake in Greece: Magnitude 4.2 tremor near Kasos",
+    "seoDesc": "A magnitude 4.2 earthquake was recorded early Wednesday morning near the Greek island of Kasos. Details on location and depth.",
+    "keywords": [
+      "earthquake in Greece",
+      "Kasos earthquake",
+      "Greece tremor",
+      "breaking news Greece"
+    ],
+    "dek": "The Geodynamic Institute in Athens reported a weak seismic tremor that occurred early in the morning in the sea area off Kasos.",
+    "tldr": [
+      "A magnitude 4.2 earthquake occurred on Wednesday, October 7.",
+      "The event was recorded at 02:43 in the early morning hours.",
+      "The epicenter was located 28 kilometers west of Kasos island."
+    ],
+    "means": "If you are currently in the area of Kasos or nearby islands, check official local authorities updates and stay informed through reliable channels.",
+    "body": "## Seismic Activity Near Kasos\n\nA minor earthquake measuring 4.2 on the Richter scale was registered during the early morning hours of Wednesday, October 7, in the sea area surrounding the island of Kasos.\n\nAccording to the Geodynamic Institute of the National Observatory of Athens, the tremor was captured at 02:43. Its epicenter was calculated at 28 kilometers west of Kasos, positioned approximately 387 kilometers away from Athens.\n\nThe Institute officially characterized the seismic event as a \"weak\" tremor."
+  },
+  "meta": {
+    "itemId": "1ebbb1f2ab53",
+    "imageQuery": "seismic wave geological activity",
+    "sourceHash": "3f46db881d3a",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-07T03:54:26.619Z",
+    "official": false
+  }
+}

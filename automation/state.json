@@ -1580,7 +1580,10 @@
     "2f57745d6745": 1791342189754,
     "379f77e2ac83": 1791343571376,
     "d0afea135acf": 1791343571376,
-    "20dec5e34e62": 1791344441109
+    "20dec5e34e62": 1791344441109,
+    "07daf5362141": 1791345243524,
+    "c9076a5fda3d": 1791345243524,
+    "1ebbb1f2ab53": 1791345243524
   },
   "pending": {},
   "sourceStatus": {
@@ -1592,12 +1595,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T03:40:30.719Z",
+      "at": "2026-10-07T03:53:51.988Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T03:40:31.395Z",
+      "at": "2026-10-07T03:53:52.775Z",
       "items": 5
     },
     "civilprotection": {
@@ -1608,27 +1611,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T03:40:32.631Z",
+      "at": "2026-10-07T03:53:54.228Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T03:40:32.825Z",
+      "at": "2026-10-07T03:53:54.372Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T03:40:33.771Z",
+      "at": "2026-10-07T03:53:55.443Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T03:40:34.572Z",
+      "at": "2026-10-07T03:53:56.263Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T03:40:35.351Z",
+      "at": "2026-10-07T03:53:57.166Z",
       "items": 10
     },
     "toi-greece": {
@@ -1639,23 +1642,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T03:40:35.802Z",
+      "at": "2026-10-07T03:53:57.626Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T03:40:36.173Z",
+      "at": "2026-10-07T03:53:57.948Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T03:40:36.440Z",
-      "items": 10
+      "at": "2026-10-07T03:53:58.694Z",
+      "items": 12
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T03:40:36.834Z",
-      "items": 1
+      "at": "2026-10-07T03:53:59.095Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1664,12 +1667,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T03:40:31.935Z",
+      "at": "2026-10-07T03:53:53.427Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T03:40:37.372Z",
+      "at": "2026-10-07T03:53:59.680Z",
       "items": 0
     },
     "hcg": {
@@ -1680,39 +1683,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T03:40:38.956Z",
+      "at": "2026-10-07T03:54:01.063Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T03:40:39.193Z",
+      "at": "2026-10-07T03:54:01.304Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T03:40:39.406Z",
+      "at": "2026-10-07T03:54:01.480Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T03:40:39.584Z",
+      "at": "2026-10-07T03:54:01.738Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T03:40:39.911Z",
-      "items": 5
+      "at": "2026-10-07T03:54:02.082Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T03:40:40.325Z",
-      "items": 10
+      "at": "2026-10-07T03:54:02.515Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1725,6 +1728,12 @@
         "title": "Achaia Pass: New Tourism Support Program Approved",
         "at": "2026-10-07T05:03:47+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "earthquake-kasos-magnitude-4-2",
+        "title": "Earthquake in Greece: Magnitude 4.2 tremor recorded near Kasos",
+        "at": "2026-10-07T06:54:26+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -1796,11 +1805,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T03:40:41.109Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-07T03:54:03.524Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Greece takes command of Operation Irini from Italy"
+      "· ingr | Σεισμός 4,1 Ρίχτερ στον θαλάσσιο χώρο ανοικτά της Κάσσου",
+      "· ingr | Αναχαιτίστηκε βαλλιστικός πύραυλος των Χούθι βόρεια του Ριάντ – Επιθέσεις και στο αεροδρόμ",
+      "✓ naftemporiki | Σεισμός 4,2 Ρίχτερ ανοιχτά της Κάσου – Το επίκεντρο της δόνησης"
     ]
   },
   "evergreenDone": [
