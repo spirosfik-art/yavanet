@@ -1743,7 +1743,8 @@
     "9d3351af2db4": 1791410543868,
     "b3427e9493a8": 1791410543868,
     "02018c9770d9": 1791411778012,
-    "e0e8577b89d8": 1791411778012
+    "e0e8577b89d8": 1791411778012,
+    "f0c3d0359941": 1791412638448
   },
   "pending": {},
   "sourceStatus": {
@@ -1755,12 +1756,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T22:22:45.938Z",
+      "at": "2026-10-07T22:37:03.615Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T22:22:46.700Z",
+      "at": "2026-10-07T22:37:04.424Z",
       "items": 5
     },
     "civilprotection": {
@@ -1771,27 +1772,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T22:22:48.384Z",
+      "at": "2026-10-07T22:37:06.306Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T22:22:48.753Z",
+      "at": "2026-10-07T22:37:06.660Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T22:22:50.184Z",
+      "at": "2026-10-07T22:37:07.964Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T22:22:51.048Z",
+      "at": "2026-10-07T22:37:08.901Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T22:22:51.495Z",
+      "at": "2026-10-07T22:37:09.770Z",
       "items": 10
     },
     "toi-greece": {
@@ -1802,22 +1803,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T22:22:52.363Z",
-      "items": 0
+      "at": "2026-10-07T22:37:10.382Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T22:22:52.642Z",
+      "at": "2026-10-07T22:37:10.653Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T22:22:52.719Z",
+      "at": "2026-10-07T22:37:10.894Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T22:22:52.933Z",
+      "at": "2026-10-07T22:37:11.421Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1827,12 +1828,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T22:22:47.423Z",
+      "at": "2026-10-07T22:37:05.131Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T22:22:53.637Z",
+      "at": "2026-10-07T22:37:12.080Z",
       "items": 0
     },
     "hcg": {
@@ -1843,32 +1844,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T22:22:54.677Z",
+      "at": "2026-10-07T22:37:13.329Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T22:22:54.998Z",
+      "at": "2026-10-07T22:37:13.608Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T22:22:55.180Z",
+      "at": "2026-10-07T22:37:13.819Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T22:22:55.359Z",
+      "at": "2026-10-07T22:37:14.014Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T22:22:55.765Z",
+      "at": "2026-10-07T22:37:14.430Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T22:22:56.399Z",
+      "at": "2026-10-07T22:37:14.947Z",
       "items": 12
     }
   },
@@ -1958,12 +1959,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T22:22:58.012Z",
-    "considered": 2,
+    "at": "2026-10-07T22:37:18.448Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greek-Americans Call on Rubio to Back Greece Against Turkish Claims",
-      "· gct | Marco Rubio’s Landmark Speech From Historic Athens Pnyx (FULL TEXT)"
+      "· gct | Greece Sets Heating Oil Subsidy Scheme for October 15"
     ]
   },
   "evergreenDone": [
