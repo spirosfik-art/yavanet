@@ -1571,7 +1571,8 @@
     "faa1373948f6": 1791330642598,
     "55dbf527c0cc": 1791331278176,
     "e20c95b46c9d": 1791333369629,
-    "dc21640e45b6": 1791335592016
+    "dc21640e45b6": 1791335592016,
+    "26148913a45c": 1791338605423
   },
   "pending": {},
   "sourceStatus": {
@@ -1583,12 +1584,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T01:53:38.622Z",
+      "at": "2026-10-07T02:03:12.144Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T01:53:39.392Z",
+      "at": "2026-10-07T02:03:13.093Z",
       "items": 5
     },
     "civilprotection": {
@@ -1599,27 +1600,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T01:53:40.550Z",
+      "at": "2026-10-07T02:03:14.478Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T01:53:40.743Z",
+      "at": "2026-10-07T02:03:14.847Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T01:53:41.632Z",
+      "at": "2026-10-07T02:03:15.899Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T01:53:43.094Z",
+      "at": "2026-10-07T02:03:16.925Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T01:53:43.884Z",
+      "at": "2026-10-07T02:03:17.945Z",
       "items": 10
     },
     "toi-greece": {
@@ -1630,22 +1631,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T01:53:44.474Z",
+      "at": "2026-10-07T02:03:18.564Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T01:53:44.814Z",
+      "at": "2026-10-07T02:03:18.803Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T01:53:45.344Z",
+      "at": "2026-10-07T02:03:19.466Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T01:53:45.520Z",
+      "at": "2026-10-07T02:03:20.073Z",
       "items": 1
     },
     "ynet-greece": {
@@ -1655,12 +1656,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T01:53:39.874Z",
+      "at": "2026-10-07T02:03:13.487Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T01:53:46.194Z",
+      "at": "2026-10-07T02:03:20.730Z",
       "items": 0
     },
     "hcg": {
@@ -1671,44 +1672,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T01:53:47.503Z",
+      "at": "2026-10-07T02:03:22.957Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T01:53:47.739Z",
+      "at": "2026-10-07T02:03:23.143Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T01:53:47.912Z",
+      "at": "2026-10-07T02:03:23.318Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T01:53:48.116Z",
+      "at": "2026-10-07T02:03:23.558Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T01:53:48.495Z",
+      "at": "2026-10-07T02:03:23.893Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T01:53:48.925Z",
-      "items": 11
+      "at": "2026-10-07T02:03:24.360Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
         "title": "Deep Purple to Perform in Athens in October 2026",
         "at": "2026-10-07T03:02:04+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "achaia-pass-tourism-support-program",
+        "title": "Achaia Pass: New Tourism Support Program Approved",
+        "at": "2026-10-07T05:03:47+03:00",
         "section": "travel"
       }
     ],
@@ -1781,11 +1788,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T01:13:12.016Z",
+    "at": "2026-10-07T02:03:25.423Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | Greek ambassador in Australia welcomes Cyprus’s new deputy minister"
+      "✓ gn-iefimerida | Έρχεται το Achaia Pass -Εγκρίθηκε το πρόγραμμα στήριξης του τουρισμού για την Αχαΐα μετά τ"
     ]
   },
   "evergreenDone": [
