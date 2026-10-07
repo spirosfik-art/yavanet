@@ -1615,7 +1615,8 @@
     "2c7577d88dc1": 1791358978360,
     "40b13e52f63b": 1791358978360,
     "27b103088f07": 1791358978360,
-    "7b9a2a6713c4": 1791358978360
+    "7b9a2a6713c4": 1791358978360,
+    "e83e19a156ff": 1791359722000
   },
   "pending": {},
   "sourceStatus": {
@@ -1627,12 +1628,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T07:42:47.517Z",
+      "at": "2026-10-07T07:55:02.410Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T07:42:48.234Z",
+      "at": "2026-10-07T07:55:03.534Z",
       "items": 5
     },
     "civilprotection": {
@@ -1643,27 +1644,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T07:42:49.284Z",
+      "at": "2026-10-07T07:55:05.816Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T07:42:49.479Z",
+      "at": "2026-10-07T07:55:06.487Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T07:42:50.438Z",
+      "at": "2026-10-07T07:55:08.144Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T07:42:51.231Z",
-      "items": 0
+      "at": "2026-10-07T07:55:09.338Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T07:42:52.080Z",
+      "at": "2026-10-07T07:55:10.556Z",
       "items": 10
     },
     "toi-greece": {
@@ -1674,22 +1675,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T07:42:52.628Z",
+      "at": "2026-10-07T07:55:11.336Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T07:42:52.955Z",
+      "at": "2026-10-07T07:55:11.787Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T07:42:53.094Z",
-      "items": 5
+      "at": "2026-10-07T07:55:12.048Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:42:53.536Z",
+      "at": "2026-10-07T07:55:12.717Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1699,12 +1700,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:42:48.509Z",
+      "at": "2026-10-07T07:55:04.331Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T07:42:54.150Z",
+      "at": "2026-10-07T07:55:13.813Z",
       "items": 0
     },
     "hcg": {
@@ -1715,32 +1716,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T07:42:55.626Z",
+      "at": "2026-10-07T07:55:17.397Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T07:42:55.983Z",
+      "at": "2026-10-07T07:55:17.724Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T07:42:56.171Z",
+      "at": "2026-10-07T07:55:18.028Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T07:42:56.409Z",
+      "at": "2026-10-07T07:55:19.689Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T07:42:56.762Z",
-      "items": 6
+      "at": "2026-10-07T07:55:19.950Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T07:42:57.199Z",
+      "at": "2026-10-07T07:55:20.279Z",
       "items": 8
     }
   },
@@ -1811,6 +1812,11 @@
         "title": "Greek PM: Greater Building Heights Could Help Boost Housing Supply",
         "reason": "Ίδιο θέμα με «Greece Real Estate: Office Conversions and Airbnb Ban» – δεν γράφτηκε ξανά",
         "at": "2026-10-07T07:43:02.521Z"
+      },
+      {
+        "title": "7η Οκτωβρίου: Ο Μακρόν δεσμεύεται να «καταπολεμήσει τον αντισημιτισμό, παντού και πάντα»",
+        "reason": "Ίδιο θέμα με «Greek Jewish Community Marks Three Years Since October 7» – δεν γράφτηκε ξανά",
+        "at": "2026-10-07T07:55:26.484Z"
       }
     ],
     "errors": [],
@@ -1880,17 +1886,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T07:42:58.360Z",
-    "considered": 7,
+    "at": "2026-10-07T07:55:22.000Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "· naftemporiki | Φορολογικά έσοδα: +5,5 δισ. ευρώ σε δύο χρόνια – Ακρίβεια, «κρυφή» φορολόγηση και τεκμήρια",
-      "· naftemporiki | Σουφλί: Χωρίς ενεργό μέτωπο η «εισαγόμενη» φωτιά από τη Βουλγαρία",
-      "· naftemporiki | Χρηματιστήριο: Ελεγχόμενες απώλειες με profit taking",
-      "· gn-iefimerida | Ενός λεπτού σιγή στο Ισραήλ σε τοποθεσίες όπου επιτέθηκε η Χαμάς - iefimerida.gr",
-      "✓ gtp | Greek PM: Greater Building Heights Could Help Boost Housing Supply",
-      "· gtp | Halkidiki: €6.3m Contract Restarts Neos Marmaras Fishing Port Project",
-      "· gtp | AEGEAN Launches Athens–Damascus Flights, Plans Libya Routes for 2027"
+      "✓ ert | 7η Οκτωβρίου: Ο Μακρόν δεσμεύεται να «καταπολεμήσει τον αντισημιτισμό, παντού και πάντα»"
     ]
   },
   "evergreenDone": [
