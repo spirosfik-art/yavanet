@@ -1597,7 +1597,8 @@
     "44e089a2bb45": 1791349561356,
     "54d9ea3d2ab8": 1791350784378,
     "202f7e73e0bb": 1791350784378,
-    "4c505b1e4384": 1791350784378
+    "4c505b1e4384": 1791350784378,
+    "37989c984b09": 1791352937554
   },
   "pending": {
     "5dc821": {
@@ -1702,6 +1703,112 @@
         ]
       },
       "notified": true
+    },
+    "e357bd": {
+      "createdAt": 1791352969375,
+      "item": {
+        "title": "«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWlfVXgyWW9jUU1oVHJoR1hIUlY1X3Zacnd5OG9ZZVpwMEhuNUI4aE5aamduNEdUOUlKb0JsUHpVbEc0Qk1oRGliNllQQVJTSGZiU25KTHBuMnhXR1VCWXN0WS1LOVpXX1RKZWFhMWpUTzRPYzFTWE1zazV4U1lUZEtnXy1STThwNzRZTlFzZEPSAZYBQVVfeXFMTVFkODd2cnVuNjhLU0VtRjZXbWg0TjY0M2F1SXdyOXVDbTN6T2dvbVcxRmYzczJ6MnhMREJYc2w4YjdVUXdTUXBXOTExc3NkWlo1SnVMQkFTLVdRRnZaRzNpRWlPWU1HS003emJlYXRZOUxhQlRPLTV6R1FkeHNCelNUOGxPUkdtR2E3RzNZUjFvLXpDeG9n?oc=5",
+        "summary": "«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις &nbsp;&nbsp; iefimerida.gr",
+        "published": "Wed, 07 Oct 2026 03:43:00 GMT",
+        "id": "37989c984b09",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "37989c984b09",
+        "section": "breaking",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "High-security visit by US official Rubio in Athens with major road closures and metro disruptions, vital for tourists and residents currently in the city.",
+        "item": {
+          "title": "«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWlfVXgyWW9jUU1oVHJoR1hIUlY1X3Zacnd5OG9ZZVpwMEhuNUI4aE5aamduNEdUOUlKb0JsUHpVbEc0Qk1oRGliNllQQVJTSGZiU25KTHBuMnhXR1VCWXN0WS1LOVpXX1RKZWFhMWpUTzRPYzFTWE1zazV4U1lUZEtnXy1STThwNzRZTlFzZEPSAZYBQVVfeXFMTVFkODd2cnVuNjhLU0VtRjZXbWg0TjY0M2F1SXdyOXVDbTN6T2dvbVcxRmYzczJ6MnhMREJYc2w4YjdVUXdTUXBXOTExc3NkWlo1SnVMQkFTLVdRRnZaRzNpRWlPWU1HS003emJlYXRZOUxhQlRPLTV6R1FkeHNCelNUOGxPUkdtR2E3RzNZUjFvLXpDeG9n?oc=5",
+          "summary": "«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις &nbsp;&nbsp; iefimerida.gr",
+          "published": "Wed, 07 Oct 2026 03:43:00 GMT",
+          "id": "37989c984b09",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "athens-security-visit-rubio-traffic",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": null,
+        "alert": {
+          "he": "אזהרת תנועה",
+          "en": "Traffic Warning"
+        },
+        "imageKey": "politics",
+        "imageQuery": "Athens streets police security",
+        "he": {
+          "title": "אתונה נערכת לביקור רוביו: חסימות כבישים ושינויים במטרו",
+          "seoTitle": "אתונה: חסימות כבישים ושינויים בתחבורה עקב ביקורי בכירים",
+          "seoDesc": "מבזק יוונט: אילו רחובות נסגרים באתונה ומה השינויים במטרו עקב ביקור רוביו. כל הפרטים המעודכנים לתיירים ולישראלים ביוון.",
+          "keywords": [
+            "אתונה",
+            "ביקור רוביו",
+            "חסימות כבישים באתונה",
+            "מטרו אתונה",
+            "יוון"
+          ],
+          "dek": "המשטרה באתונה נערכת בכוחות מתוגברים לביקורו של רוביו, עם חסימות צירים מרכזיות ושינויים בפעילות הרכבת התחתית.",
+          "tldr": [
+            "כבישים מרכזיים באתונה ייסגרו לסירוגין עקב סידורי האבטחה.",
+            "חלים שינויים בלוחות הזמנים ובכניסות לתחנות המטרו.",
+            "מומלץ להתעדכן בזמן אמת ולהימנע מהגעה לאזור המרכז ברכב פרטי."
+          ],
+          "means": "אם אתם נמצאים כעת באתונה או מתכננים להגיע לעיר, כדאי להיערך לעומסי תנועה ולשינויים בתחבורה הציבורית. מומלץ להשתמש ברגל או להסתמך על עדכוני המשטרה המקומית, להשאיר זמן נוסף לכל הגעה ליעד ולהימנע מנסיעה ברכב פרטי באזורים המאובטחים.",
+          "body": "## היערכות ביטחונית מחמירה באתונה\n\nהעיר אתונה הפכה למעין מבצר לקראת ביקורו של רוביו, כאשר הרשויות המקומיות וכוחות המשטרה מיישמים שורת צעדי אבטחה חריגים. הביקור מביא עמו הגבלות תנועה משמעותיות, פריסת כוחות נרחבת ברחובות המרכזיים וחסימות צירים יזומות לאורך היום.\n\n## אילו רחובות נסגרים ומה מצב המטרו?\n\nלפי הודעת משטרת יוון, חסימות כבישים מבוצעות בתיאום עם הגורמים המאבטחים את האירוע, והן צפויות להשתנות בהתאם להתפתחויות וללוח הזמנים של הביקור. בנוסף לכך, במערכת המטרו של אתונה חלים שינויים נקודתיים, הכוללים סגירה זמנית של תחנות מסוימות או הגבלת גישה לרציפים בהתאם להנחיות הביטחוניות הנוקשות.\n\n## הנחיות להתנהלות בעיר\n\nהציבור המתנייד באזור הבירה מתבקש לגלות ערנות, להתעדכן בהודעות הרשמיות של הרשויות ולהישמע להנחיות השוטרים בשטח. מומלץ לתכנן את מסלולי הנסיעה מראש, להעדיף הליכה רגלית איפה שניתן, ולהימנע מהגעה עם רכבים שכורים לאזורים המרכזיים שבהם חלות ההגבלות."
+        },
+        "en": {
+          "title": "Athens prepares for Rubio visit with road closures and metro changes",
+          "seoTitle": "Athens visit Rubio: Road closures and metro changes today",
+          "seoDesc": "Yavanet update: Athens security measures for Rubio visit, including street closures and metro schedule changes. Essential info for travelers.",
+          "keywords": [
+            "Athens",
+            "Rubio visit Athens",
+            "Athens traffic closures",
+            "Athens metro",
+            "Greece news"
+          ],
+          "dek": "Athens implements strict security measures for Rubio's visit, featuring major road closures and adjustments to the metro system.",
+          "tldr": [
+            "Key streets in central Athens will experience rolling closures.",
+            "The metro system is operating with temporary station adjustments.",
+            "Travelers are advised to avoid driving and check real-time updates."
+          ],
+          "means": "If you are visiting Athens during this period, expect heavy traffic disruptions and public transport changes. Leave extra time for travel, avoid private or rented cars in the city center, and follow local police instructions for alternative routes.",
+          "body": "## Heightened Security in Athens\n\nAthens has implemented high-security measures for the visit of Rubio, deploying heavy police presence across the capital and enforcing strict traffic regulations in key zones.\n\n## Road Closures and Metro Adjustments\n\nAccording to Hellenic Police announcements, central streets are subject to rolling closures depending on the official schedule. The Athens metro is also affected, with specific stations experiencing temporary closures or restricted access as part of the security protocol.\n\n## Travel Recommendations\n\nAnyone moving around the city center should stay informed through official updates and follow instructions from officers on the ground. Walking is recommended where possible, and drivers should steer clear of restricted areas."
+        }
+      },
+      "text": "«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις - iefimerida.gr\n«Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -Όλες οι κυκλοφοριακές ρυθμίσεις &nbsp;&nbsp; iefimerida.gr",
+      "issues": [],
+      "el": {
+        "title": "Η Αθήνα ετοιμάζεται για την επίσκεψη Ρούμπιο με κλειστούς δρόμους και αλλαγές στο μετρό",
+        "dek": "Η Αθήνα εφαρμόζει αυστηρά μέτρα ασφαλείας για την επίσκεψη Ρούμπιο, με μεγάλες κυκλοφοριακές ρυθμίσεις και τροποποιήσεις στο μετρό.",
+        "tldr": [
+          "Βασικοί δρόμοι στο κέντρο της Αθήνας θα κλείνουν τμηματικά.",
+          "Το σύστημα του μετρό λειτουργεί με προσωρινές τροποποιήσεις σε σταθμούς.",
+          "Συνιστάται στους ταξιδιώτες να αποφεύγουν την οδήγηση και να ελέγχουν τις ενημερώσεις σε πραγματικό χρόνο."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -1713,12 +1820,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T05:53:56.964Z",
+      "at": "2026-10-07T06:02:05.074Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T05:53:57.639Z",
+      "at": "2026-10-07T06:02:05.887Z",
       "items": 5
     },
     "civilprotection": {
@@ -1729,27 +1836,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T05:53:59.028Z",
+      "at": "2026-10-07T06:02:07.614Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T05:53:59.235Z",
+      "at": "2026-10-07T06:02:07.758Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T05:54:00.268Z",
+      "at": "2026-10-07T06:02:09.051Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T05:54:00.906Z",
+      "at": "2026-10-07T06:02:09.769Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T05:54:01.817Z",
+      "at": "2026-10-07T06:02:10.458Z",
       "items": 10
     },
     "toi-greece": {
@@ -1760,22 +1867,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T05:54:02.325Z",
+      "at": "2026-10-07T06:02:10.907Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T05:54:02.384Z",
+      "at": "2026-10-07T06:02:11.029Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T05:54:02.460Z",
-      "items": 8
+      "at": "2026-10-07T06:02:11.638Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T05:54:02.605Z",
+      "at": "2026-10-07T06:02:12.035Z",
       "items": 6
     },
     "ynet-greece": {
@@ -1785,12 +1892,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T05:53:58.188Z",
+      "at": "2026-10-07T06:02:06.505Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T05:54:03.138Z",
+      "at": "2026-10-07T06:02:12.607Z",
       "items": 0
     },
     "hcg": {
@@ -1801,33 +1908,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T05:54:06.344Z",
+      "at": "2026-10-07T06:02:13.990Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T05:54:06.528Z",
+      "at": "2026-10-07T06:02:14.210Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T05:54:06.737Z",
+      "at": "2026-10-07T06:02:14.361Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T05:54:06.938Z",
+      "at": "2026-10-07T06:02:14.559Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T05:54:07.288Z",
+      "at": "2026-10-07T06:02:14.892Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T05:54:07.650Z",
-      "items": 8
+      "at": "2026-10-07T06:02:15.303Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -1933,13 +2040,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T05:26:24.378Z",
-    "considered": 3,
+    "at": "2026-10-07T06:02:17.554Z",
+    "considered": 1,
     "picked": 1,
     "items": [
-      "· gct | Vissi to Karvelas: He Demanded €1.5 Million and Threatened Me",
-      "✓ gct | Greece marks three years since the Hamas attack on Israel",
-      "· ert | Γάζα: Δύο νεκροί σε πλήγματα του Ισραήλ την ημέρα της 3ης επετείου της επίθεσης της 7ης Οκ"
+      "✓ gn-iefimerida | «Φρούριο» η Αθήνα για την επίσκεψη Ρούμπιο: Ποιοι δρόμοι κλείνουν, τι ισχύει με το Μετρό -"
     ]
   },
   "evergreenDone": [
