@@ -1606,7 +1606,9 @@
     "f4f07aec2042": 1791356780944,
     "fe8fdab12b38": 1791356780944,
     "1f78a422da92": 1791356780944,
-    "6ff574c38c07": 1791356780944
+    "6ff574c38c07": 1791356780944,
+    "70c656980ebd": 1791358113473,
+    "1e4f979571e2": 1791358113473
   },
   "pending": {},
   "sourceStatus": {
@@ -1618,12 +1620,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T07:06:07.965Z",
+      "at": "2026-10-07T07:28:23.148Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T07:06:08.823Z",
+      "at": "2026-10-07T07:28:23.729Z",
       "items": 5
     },
     "civilprotection": {
@@ -1634,27 +1636,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T07:06:10.378Z",
+      "at": "2026-10-07T07:28:24.813Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T07:06:10.542Z",
+      "at": "2026-10-07T07:28:25.146Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T07:06:11.479Z",
+      "at": "2026-10-07T07:28:25.915Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T07:06:12.328Z",
-      "items": 4
+      "at": "2026-10-07T07:28:26.667Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T07:06:13.233Z",
+      "at": "2026-10-07T07:28:27.664Z",
       "items": 10
     },
     "toi-greece": {
@@ -1665,23 +1667,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T07:06:13.728Z",
+      "at": "2026-10-07T07:28:28.090Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T07:06:13.801Z",
+      "at": "2026-10-07T07:28:28.125Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T07:06:13.872Z",
-      "items": 7
+      "at": "2026-10-07T07:28:28.550Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:06:14.283Z",
-      "items": 3
+      "at": "2026-10-07T07:28:28.674Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1690,12 +1692,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:06:09.671Z",
+      "at": "2026-10-07T07:28:24.259Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T07:06:14.837Z",
+      "at": "2026-10-07T07:28:29.197Z",
       "items": 0
     },
     "hcg": {
@@ -1706,39 +1708,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T07:06:16.802Z",
+      "at": "2026-10-07T07:28:30.845Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T07:06:17.043Z",
+      "at": "2026-10-07T07:28:31.001Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T07:06:17.221Z",
+      "at": "2026-10-07T07:28:31.164Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T07:06:17.437Z",
+      "at": "2026-10-07T07:28:31.359Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T07:06:17.781Z",
+      "at": "2026-10-07T07:28:32.144Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T07:06:18.217Z",
-      "items": 8
+      "at": "2026-10-07T07:28:32.537Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1769,6 +1771,12 @@
         "title": "Greece Announces New Housing and Relocation Grants",
         "at": "2026-10-07T10:06:04+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "grecotel-hotels-conde-nast-traveller-top-10",
+        "title": "Four Grecotel Hotels Make Condé Nast Traveller’s Top 10 in Greece",
+        "at": "2026-10-07T10:28:58+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1860,14 +1868,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T07:06:20.944Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-07T07:28:33.473Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Σπίτι μου 3 ή στεγαστικό δάνειο σήμερα; Τι συμφέρει αν έχεις ήδη βρει σπίτι;",
-      "· gn-iefimerida | Στην Αθήνα ο Ρούμπιο: Τι θα συζητήσει με Μητσοτάκη -Άμυνα, F-35, Ενέργεια και Ανατολική Με",
-      "· gtp | Attica Travel Receipts Surge 125% as Athens Faces Growth Pressures",
-      "· gtp | Greece to Put Parthenon Marbles on UK-EU Agenda, Mitsotakis Says"
+      "· minfin | Δεύτερη διακήρυξη ενοικίασης του αποκλειστικού δικαιώματος έκτακτης καρπώσεως υλοτομίας δα",
+      "✓ gtp | Four Grecotel Hotels Make Condé Nast Traveller’s Top 10 in Greece"
     ]
   },
   "evergreenDone": [
