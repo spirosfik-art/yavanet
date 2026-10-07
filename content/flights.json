@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T07:31:46+03:00",
+  "updated": "2026-10-07T07:32:53+03:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -20,12 +20,12 @@
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 139,
-      "depart": "2026-10-09",
-      "ret": "2026-10-12",
-      "airline": "Israir",
+      "price": 132,
+      "depart": "2026-10-11",
+      "ret": "2026-10-15",
+      "airline": "Blue Bird",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0910RHO12101?t=6H17915598001791565800000100TLVRHO17918058001791811200000090RHOTLV_b487dbf19d97864be10971044b5c3857_13233&search_date=06102026&expected_price_uuid=01a10f78-7517-8030-e2b9-d94d2628c7da&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=d4azeP4PDEU80PaLLYtMsg&expected_price_source=share&expected_price_currency=eur&expected_price=139&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1110RHO15101?t=BZ17917272001791733200000100TLVRHO17920644001792069800000090RHOTLV_2e3480de6d2389c3d6378e3f5f979221_12642&search_date=06102026&expected_price_uuid=01a11351-392d-8030-6015-564b009f4113&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EscRMsmYLfrPTf9B2QhcSw&expected_price_source=share&expected_price_currency=eur&expected_price=132&marker=782936"
     },
     {
       "dest": "HER",
@@ -42,12 +42,12 @@
       "dest": "SKG",
       "he": "סלוניקי",
       "en": "Thessaloniki",
-      "price": 178,
-      "depart": "2026-10-15",
-      "ret": "2026-10-18",
-      "airline": "El Al",
+      "price": 166,
+      "depart": "2026-10-08",
+      "ret": "2026-10-11",
+      "airline": "Aegean",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1510SKG18101?t=LY17920977001792107300000160TLVSKG17923140001792322700000145SKGTLV_89d92c007fae60613fb1a6d1a4576e80_16761&search_date=05102026&expected_price_uuid=01a10abd-ed21-8030-e040-b42dacd06824&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=A8RzNLdxJg6tuILjeXS1bg&expected_price_source=share&expected_price_currency=eur&expected_price=178&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0810SKG11101?t=A317915013001791510000000145TLVSKG17917020001791709800000130SKGTLV_118119cb4300a728c83d8855a7ce2928_15834&search_date=06102026&expected_price_uuid=01a11005-3624-8030-2541-dd12c103b5fb&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=_eCe8z8BK1Y2hw-m9g67_A&expected_price_source=share&expected_price_currency=eur&expected_price=166&marker=782936"
     },
     {
       "dest": "CFU",
