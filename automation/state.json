@@ -1735,7 +1735,10 @@
     "8318d0378696": 1791403327947,
     "40e34f41fe9d": 1791403327947,
     "8d2d7754d64b": 1791406369785,
-    "8001596ef856": 1791409133702
+    "8001596ef856": 1791409133702,
+    "fc8b3265a182": 1791409974569,
+    "4bf8f0a3996f": 1791409974569,
+    "d0dbb4e182c4": 1791409974569
   },
   "pending": {},
   "sourceStatus": {
@@ -1747,12 +1750,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T21:38:41.266Z",
+      "at": "2026-10-07T21:52:43.913Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T21:38:42.022Z",
+      "at": "2026-10-07T21:52:44.590Z",
       "items": 5
     },
     "civilprotection": {
@@ -1763,27 +1766,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T21:38:43.942Z",
+      "at": "2026-10-07T21:52:46.042Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T21:38:44.353Z",
+      "at": "2026-10-07T21:52:46.229Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T21:38:45.545Z",
+      "at": "2026-10-07T21:52:47.128Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T21:38:46.289Z",
-      "items": 2
+      "at": "2026-10-07T21:52:48.082Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T21:38:46.878Z",
+      "at": "2026-10-07T21:52:48.728Z",
       "items": 10
     },
     "toi-greece": {
@@ -1794,22 +1797,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T21:38:47.593Z",
+      "at": "2026-10-07T21:52:49.282Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T21:38:47.693Z",
+      "at": "2026-10-07T21:52:49.641Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T21:38:47.950Z",
+      "at": "2026-10-07T21:52:50.131Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T21:38:48.517Z",
+      "at": "2026-10-07T21:52:50.366Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1819,12 +1822,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T21:38:42.867Z",
+      "at": "2026-10-07T21:52:45.125Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T21:38:49.353Z",
+      "at": "2026-10-07T21:52:50.982Z",
       "items": 0
     },
     "hcg": {
@@ -1835,42 +1838,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T21:38:50.544Z",
+      "at": "2026-10-07T21:52:52.202Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T21:38:50.760Z",
-      "items": 5
+      "at": "2026-10-07T21:52:52.446Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T21:38:50.929Z",
+      "at": "2026-10-07T21:52:52.628Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T21:38:51.172Z",
+      "at": "2026-10-07T21:52:52.838Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T21:38:51.549Z",
+      "at": "2026-10-07T21:52:53.211Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T21:38:52.024Z",
+      "at": "2026-10-07T21:52:53.644Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-08",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "santorini-mykonos-tourism-strategy-2026",
+        "title": "Santorini and Mykonos Expand Tourism Experiences",
+        "at": "2026-10-08T00:53:08+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [],
-    "errors": []
+    "errors": [],
+    "fb": []
   },
   "history": [
     {
@@ -1936,11 +1947,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T21:38:53.702Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-07T21:52:54.569Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Cyprus Gas Set for First Export to Europe via Egypt and Greece"
+      "✓ gct | Santorini Targets New Travellers With Richer Tourism Experiences",
+      "· gct | Greek Space Technology Sends Kazakh School Into Space",
+      "· gct | Greece and US Renew Cultural Heritage Protection Agreement"
     ]
   },
   "evergreenDone": [
