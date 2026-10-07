@@ -1643,7 +1643,10 @@
     "c09653529776": 1791368823461,
     "1c113a5b3368": 1791368823461,
     "4a77cdf11c4c": 1791368823461,
-    "760c7caaad29": 1791368823461
+    "760c7caaad29": 1791368823461,
+    "40183a41e5fc": 1791369635473,
+    "abd6101e5ea8": 1791369635473,
+    "d175bf5aa66f": 1791369635473
   },
   "pending": {},
   "sourceStatus": {
@@ -1655,12 +1658,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T10:26:53.939Z",
+      "at": "2026-10-07T10:40:23.536Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T10:26:54.586Z",
+      "at": "2026-10-07T10:40:24.287Z",
       "items": 5
     },
     "civilprotection": {
@@ -1671,27 +1674,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T10:26:55.821Z",
+      "at": "2026-10-07T10:40:26.707Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T10:26:55.993Z",
+      "at": "2026-10-07T10:40:26.807Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T10:26:56.945Z",
+      "at": "2026-10-07T10:40:28.023Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T10:26:57.720Z",
+      "at": "2026-10-07T10:40:28.743Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T10:26:58.576Z",
+      "at": "2026-10-07T10:40:29.188Z",
       "items": 10
     },
     "toi-greece": {
@@ -1702,23 +1705,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T10:26:58.931Z",
+      "at": "2026-10-07T10:40:29.788Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T10:26:58.993Z",
+      "at": "2026-10-07T10:40:29.909Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T10:26:59.386Z",
-      "items": 6
+      "at": "2026-10-07T10:40:29.979Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T10:26:59.508Z",
-      "items": 7
+      "at": "2026-10-07T10:40:30.184Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1727,12 +1730,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T10:26:55.122Z",
+      "at": "2026-10-07T10:40:25.802Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T10:26:59.994Z",
+      "at": "2026-10-07T10:40:30.850Z",
       "items": 0
     },
     "hcg": {
@@ -1743,39 +1746,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T10:27:01.315Z",
+      "at": "2026-10-07T10:40:32.397Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T10:27:01.535Z",
+      "at": "2026-10-07T10:40:32.716Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T10:27:01.709Z",
+      "at": "2026-10-07T10:40:32.876Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T10:27:01.961Z",
+      "at": "2026-10-07T10:40:33.275Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T10:27:02.298Z",
+      "at": "2026-10-07T10:40:33.641Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T10:27:02.706Z",
+      "at": "2026-10-07T10:40:34.094Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 6,
+    "count": 7,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1817,6 +1820,12 @@
         "slug": "earthquake-kasos-magnitude-4-2",
         "title": "↻ Earthquake in Kasos: Series of Tremors Reaches Magnitude 4.1",
         "at": "2026-10-07T11:57:38+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "fire-voskina-kynourias-greece",
+        "title": "Fire in Greece: Emergency crews battle blaze in Voskina Kynourias",
+        "at": "2026-10-07T13:40:49+03:00",
         "section": "breaking"
       }
     ],
@@ -1877,6 +1886,10 @@
       {
         "slug": "athens-security-visit-rubio-traffic",
         "at": "2026-10-07T06:04:01.213Z"
+      },
+      {
+        "slug": "fire-voskina-kynourias-greece",
+        "at": "2026-10-07T10:40:49.560Z"
       }
     ]
   },
@@ -1939,14 +1952,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T10:27:03.461Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-07T10:40:35.473Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Ιάσων Κεπαπτσόγλου (Alpha Bank) στη «Ν»: Πλέον αποκτούμε πρόσβαση σε πολλαπλάσια δεξαμενή ",
-      "· minfin | ΑΠΟΤΕΛΕΣΜΑΤΑ ΔΗΜΟΠΡΑΣΙΑΣ ΕΝΤΟΚΩΝ 13 ΕΒΔΟΜΑΔΩΝ",
-      "· minfin | ΕΙΔΟΠΟΙΗΣΗ ΕΚΔΙΚΑΣΗΣ της από 02/09/2026, με Γενικό Αριθμό Κατάθεσης 360/17-09-2026 και Ειδ",
-      "· minfin | Στήριξη 95 εκατ. ευρώ στην ελληνική βιομηχανία- Ανάχωμα στο αυξημένο ενεργειακό κόστος_Κοι"
+      "· minfin | 97,8 εκατ. ευρώ από το Εθνικό Πρόγραμμα Ανάπτυξης 2026-2030 για τη στήριξη Περιφερειών και",
+      "✓ naftemporiki | Φωτιά τώρα στη Βοσκίνα Κυνουρίας",
+      "· ert | Τρία χρόνια μετά την 7η Οκτωβρίου, η ισραηλινή κοινωνία παραμένει βαθιά πληγωμένη – Τι λέε"
     ]
   },
   "evergreenDone": [
@@ -1989,5 +2001,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fire-voskina-kynourias-greece",
+      "url": "https://yavanet.gr/a/fire-voskina-kynourias-greece/",
+      "at": "2026-10-07T10:40:49.560Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fire-voskina-kynourias-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fire-voskina-kynourias-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה ביוון: כוחות כיבוי אש פועלים באזור נוטיאס קינויריאס",
+        "title_en": "Fire in Greece: Emergency crews battle blaze in Voskina Kynourias",
+        "dek_he": "שריפה פרצה בשטח חקלאי-יערני באזור בווסקינה שבדרום קינוריה ביוון. כוחות כיבוי אש רבים, יחד עם מטוסי כיבוי, הוזעקו לטפל בדליקה.",
+        "dek_en": "A wildfire broke out in a rural-forested area in Voskina, within the municipality of southern Kynourias in Greece. Firefighting forces and aircraft were deployed to the scene.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/33239443/pexels-photo-33239443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה ביוון: כוחות כיבוי אש פועלים באזור נוטיאס קינויריאס\n\nשריפה פרצה בשטח חקלאי-יערני באזור בווסקינה שבדרום קינוריה ביוון. כוחות כיבוי אש רבים, יחד עם מטוסי כיבוי, הוזעקו לטפל בדליקה.\n\nhttps://yavanet.gr/a/fire-voskina-kynourias-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Fire in Greece: Emergency crews battle blaze in Voskina Kynourias\n\nA wildfire broke out in a rural-forested area in Voskina, within the municipality of southern Kynourias in Greece. Firefighting forces and aircraft were deployed to the scene.\n\nhttps://yavanet.gr/en/a/fire-voskina-kynourias-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
