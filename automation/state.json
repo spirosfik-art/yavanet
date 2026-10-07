@@ -1715,7 +1715,9 @@
     "ae47a2c9ecb4": 1791394036684,
     "0c01afa7c8bb": 1791394036684,
     "9b5d7702715f": 1791394036684,
-    "5f3e3530ade8": 1791394036684
+    "5f3e3530ade8": 1791394036684,
+    "33a607e6a7b5": 1791394898631,
+    "5fe7f72173e7": 1791394898631
   },
   "pending": {},
   "sourceStatus": {
@@ -1727,12 +1729,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T17:27:06.856Z",
-      "items": 0
+      "at": "2026-10-07T17:41:26.257Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T17:27:07.486Z",
+      "at": "2026-10-07T17:41:27.066Z",
       "items": 5
     },
     "civilprotection": {
@@ -1743,27 +1745,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T17:27:08.657Z",
+      "at": "2026-10-07T17:41:28.503Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T17:27:08.972Z",
+      "at": "2026-10-07T17:41:28.897Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T17:27:09.728Z",
+      "at": "2026-10-07T17:41:30.005Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T17:27:10.323Z",
+      "at": "2026-10-07T17:41:30.876Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T17:27:11.161Z",
+      "at": "2026-10-07T17:41:31.841Z",
       "items": 10
     },
     "toi-greece": {
@@ -1774,22 +1776,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T17:27:11.577Z",
+      "at": "2026-10-07T17:41:32.422Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T17:27:11.665Z",
-      "items": 15
+      "at": "2026-10-07T17:41:32.682Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T17:27:11.846Z",
+      "at": "2026-10-07T17:41:33.239Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T17:27:11.963Z",
+      "at": "2026-10-07T17:41:33.753Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1799,12 +1801,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T17:27:08.029Z",
+      "at": "2026-10-07T17:41:27.341Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T17:27:12.519Z",
+      "at": "2026-10-07T17:41:34.627Z",
       "items": 0
     },
     "hcg": {
@@ -1815,32 +1817,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T17:27:13.673Z",
+      "at": "2026-10-07T17:41:36.373Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T17:27:13.860Z",
+      "at": "2026-10-07T17:41:36.581Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T17:27:14.050Z",
-      "items": 7
+      "at": "2026-10-07T17:41:36.748Z",
+      "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T17:27:14.203Z",
+      "at": "2026-10-07T17:41:36.963Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T17:27:14.612Z",
+      "at": "2026-10-07T17:41:37.326Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T17:27:15.068Z",
+      "at": "2026-10-07T17:41:37.731Z",
       "items": 12
     }
   },
@@ -2068,15 +2070,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T17:27:16.684Z",
-    "considered": 5,
+    "at": "2026-10-07T17:41:38.631Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Tsipras puts ELAS on election footing as he targets government power",
-      "· gct | Battle of Lepanto: The Bloody 1571 Clash That Shattered Ottoman Naval Power in Greek Water",
-      "· ert | Συνεχίζουν την απεργία οι αλιείς, ζητούν αύξηση της επιδότησης στο πετρέλαιο – Ελλείψεις σ",
-      "· gn-kathimerini | Επιθέσεις Χαμάς: Μαύρη επέτειος στο Ισραήλ, σε κλίμα έντασης - Kathimerini",
-      "· gn-kathimerini | Ανδρουλάκης: Το στεγαστικό δεν λύνεται με περισσότερο μπετόν στην Αθήνα - Kathimerini"
+      "· gn-pm | Ενημερωτικό σημείωμα για τη συνάντηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον Υπουργό Ε",
+      "· gct | Mitsotakis Welcomes Rubio at Maximos Mansion as Greece-US Strategic Ties Take Centre Stage"
     ]
   },
   "evergreenDone": [
