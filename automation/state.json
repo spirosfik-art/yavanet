@@ -1670,7 +1670,13 @@
     "f15393dcd59d": 1791374637111,
     "a0caed535820": 1791374637111,
     "73c49d5efafe": 1791374637111,
-    "2fd48de0e22a": 1791376426808
+    "2fd48de0e22a": 1791376426808,
+    "55575c145c82": 1791378042990,
+    "324f83038c3b": 1791378042990,
+    "ee85faeb9587": 1791378042990,
+    "a989e5d971f6": 1791378042990,
+    "a70b98199048": 1791378042990,
+    "ff22a177a5f9": 1791378042990
   },
   "pending": {},
   "sourceStatus": {
@@ -1682,12 +1688,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T12:33:06.065Z",
-      "items": 10
+      "at": "2026-10-07T13:00:08.735Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T12:33:06.609Z",
+      "at": "2026-10-07T13:00:09.507Z",
       "items": 5
     },
     "civilprotection": {
@@ -1698,27 +1704,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T12:33:07.489Z",
+      "at": "2026-10-07T13:00:11.398Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T12:33:07.629Z",
+      "at": "2026-10-07T13:00:11.826Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T12:33:08.584Z",
+      "at": "2026-10-07T13:00:12.750Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T12:33:09.119Z",
+      "at": "2026-10-07T13:00:13.497Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T12:33:09.966Z",
+      "at": "2026-10-07T13:00:14.110Z",
       "items": 10
     },
     "toi-greece": {
@@ -1729,23 +1735,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T12:33:10.417Z",
+      "at": "2026-10-07T13:00:14.659Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T12:33:10.718Z",
+      "at": "2026-10-07T13:00:14.843Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T12:33:11.221Z",
-      "items": 3
+      "at": "2026-10-07T13:00:15.126Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T12:33:11.351Z",
-      "items": 4
+      "at": "2026-10-07T13:00:15.654Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1754,12 +1760,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T12:33:06.823Z",
+      "at": "2026-10-07T13:00:10.381Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T12:33:11.914Z",
+      "at": "2026-10-07T13:00:16.478Z",
       "items": 0
     },
     "hcg": {
@@ -1770,44 +1776,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T12:33:12.956Z",
+      "at": "2026-10-07T13:00:18.097Z",
       "items": 0
     },
     "gn-civilprotection": {
-      "ok": false,
-      "at": "2026-10-07T12:33:18.471Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-07T13:00:18.384Z",
+      "items": 7
     },
     "gn-pm": {
-      "ok": false,
-      "at": "2026-10-07T12:33:27.520Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-07T13:00:18.555Z",
+      "items": 7
     },
     "gn-hcg": {
-      "ok": false,
-      "at": "2026-10-07T12:33:33.896Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-07T13:00:18.889Z",
+      "items": 5
     },
     "gn-kathimerini": {
-      "ok": false,
-      "at": "2026-10-07T12:33:41.047Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-07T13:00:19.321Z",
+      "items": 7
     },
     "gn-iefimerida": {
-      "ok": false,
-      "at": "2026-10-07T12:33:46.138Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-07T13:00:19.774Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1862,6 +1863,12 @@
         "title": "Fire in Laconia: Aerial and Ground Forces Deployed",
         "at": "2026-10-07T14:53:14+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "bridge-podcast-connecting-israel-and-greece",
+        "title": "New Podcast Bridges Israel and Greece",
+        "at": "2026-10-07T16:03:03+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -1930,6 +1937,10 @@
       {
         "slug": "fire-voskina-kynourias-greece",
         "at": "2026-10-07T10:40:49.560Z"
+      },
+      {
+        "slug": "bridge-podcast-connecting-israel-and-greece",
+        "at": "2026-10-07T13:03:04.054Z"
       }
     ]
   },
@@ -1992,11 +2003,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T12:33:46.808Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-07T13:00:42.990Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· gct | Greece Offers Naval Support to US in Strait of Hormuz, Gerapetritis Says"
+      "· naftemporiki | Ν. Ανδρουλάκης: Η φαεινή ιδέα του Πρωθυπουργού ήταν να μετατρέψει το στεγαστικό αδιέξοδο σ",
+      "✓ gn-iefimerida | BRIDGE: Το podcast που συνδέει το Ισραήλ και την Ελλάδα - iefimerida.gr",
+      "· ert | Τρία χρόνια από την 7η Οκτωβρίου: Μήνυμα Μπέρναμ κατά του αντισημιτισμού και διαδηλώσεις σ",
+      "· ingr | Τέμπη – Ρούτσι: Δεν μετάνιωσα στιγμή την απεργία πείνας, στις εκταφές κρύβεται όλη η αλήθε",
+      "· gn-pm | Ενημερωτικό σημείωμα για τη συμμετοχή του Πρωθυπουργού Κυριάκου Μητσοτάκη στη Σύνοδο Κορυφ",
+      "· gn-kathimerini | 7η Οκτωβρίου: Στο Ισραήλ ο επικεφαλής της γαλλικής διπλωματίας για να αποτίσει φόρο τιμής "
     ]
   },
   "evergreenDone": [
@@ -2039,5 +2055,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "bridge-podcast-connecting-israel-and-greece",
+      "url": "https://yavanet.gr/a/bridge-podcast-connecting-israel-and-greece/",
+      "at": "2026-10-07T13:03:04.054Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/bridge-podcast-connecting-israel-and-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/bridge-podcast-connecting-israel-and-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "פודקאסט חדש יוצר גשר בין ישראל ליוון",
+        "title_en": "New Podcast Bridges Israel and Greece",
+        "dek_he": "פודקאסט חדש בשם Bridge עולה לאוויר ומציע מבט מעמיק על הקשרים התרבותיים, הכלכליים והחברתיים שבין ישראל ליוון.",
+        "dek_en": "A new podcast named Bridge launches to explore the deep connections, culture, and shared stories between Israel and Greece.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/270288/pexels-photo-270288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "פודקאסט חדש יוצר גשר בין ישראל ליוון\n\nפודקאסט חדש בשם Bridge עולה לאוויר ומציע מבט מעמיק על הקשרים התרבותיים, הכלכליים והחברתיים שבין ישראל ליוון.\n\nhttps://yavanet.gr/a/bridge-podcast-connecting-israel-and-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "New Podcast Bridges Israel and Greece\n\nA new podcast named Bridge launches to explore the deep connections, culture, and shared stories between Israel and Greece.\n\nhttps://yavanet.gr/en/a/bridge-podcast-connecting-israel-and-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
