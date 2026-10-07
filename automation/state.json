@@ -1608,7 +1608,14 @@
     "1f78a422da92": 1791356780944,
     "6ff574c38c07": 1791356780944,
     "70c656980ebd": 1791358113473,
-    "1e4f979571e2": 1791358113473
+    "1e4f979571e2": 1791358113473,
+    "71e4420971bb": 1791358978360,
+    "24512535b832": 1791358978360,
+    "d3100afd0606": 1791358978360,
+    "2c7577d88dc1": 1791358978360,
+    "40b13e52f63b": 1791358978360,
+    "27b103088f07": 1791358978360,
+    "7b9a2a6713c4": 1791358978360
   },
   "pending": {},
   "sourceStatus": {
@@ -1620,12 +1627,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T07:28:23.148Z",
-      "items": 10
+      "at": "2026-10-07T07:42:47.517Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T07:28:23.729Z",
+      "at": "2026-10-07T07:42:48.234Z",
       "items": 5
     },
     "civilprotection": {
@@ -1636,27 +1643,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T07:28:24.813Z",
+      "at": "2026-10-07T07:42:49.284Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T07:28:25.146Z",
+      "at": "2026-10-07T07:42:49.479Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T07:28:25.915Z",
+      "at": "2026-10-07T07:42:50.438Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T07:28:26.667Z",
-      "items": 2
+      "at": "2026-10-07T07:42:51.231Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T07:28:27.664Z",
+      "at": "2026-10-07T07:42:52.080Z",
       "items": 10
     },
     "toi-greece": {
@@ -1667,23 +1674,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T07:28:28.090Z",
+      "at": "2026-10-07T07:42:52.628Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T07:28:28.125Z",
+      "at": "2026-10-07T07:42:52.955Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T07:28:28.550Z",
-      "items": 6
+      "at": "2026-10-07T07:42:53.094Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:28:28.674Z",
-      "items": 2
+      "at": "2026-10-07T07:42:53.536Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1692,12 +1699,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T07:28:24.259Z",
+      "at": "2026-10-07T07:42:48.509Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T07:28:29.197Z",
+      "at": "2026-10-07T07:42:54.150Z",
       "items": 0
     },
     "hcg": {
@@ -1708,33 +1715,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T07:28:30.845Z",
+      "at": "2026-10-07T07:42:55.626Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T07:28:31.001Z",
+      "at": "2026-10-07T07:42:55.983Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T07:28:31.164Z",
+      "at": "2026-10-07T07:42:56.171Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T07:28:31.359Z",
+      "at": "2026-10-07T07:42:56.409Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T07:28:32.144Z",
+      "at": "2026-10-07T07:42:56.762Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T07:28:32.537Z",
-      "items": 7
+      "at": "2026-10-07T07:42:57.199Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -1799,6 +1806,11 @@
         "title": "Στεγαστικό: Από την αντιπαροχή στους έξτρα ορόφους – Τι είναι το «build to rent»",
         "reason": "Ίδιο θέμα με «Europe's Housing Crisis: Could the Protests Spread to Greece?» – δεν γράφτηκε ξανά",
         "at": "2026-10-07T06:30:04.207Z"
+      },
+      {
+        "title": "Greek PM: Greater Building Heights Could Help Boost Housing Supply",
+        "reason": "Ίδιο θέμα με «Greece Real Estate: Office Conversions and Airbnb Ban» – δεν γράφτηκε ξανά",
+        "at": "2026-10-07T07:43:02.521Z"
       }
     ],
     "errors": [],
@@ -1868,12 +1880,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T07:28:33.473Z",
-    "considered": 2,
+    "at": "2026-10-07T07:42:58.360Z",
+    "considered": 7,
     "picked": 1,
     "items": [
-      "· minfin | Δεύτερη διακήρυξη ενοικίασης του αποκλειστικού δικαιώματος έκτακτης καρπώσεως υλοτομίας δα",
-      "✓ gtp | Four Grecotel Hotels Make Condé Nast Traveller’s Top 10 in Greece"
+      "· naftemporiki | Φορολογικά έσοδα: +5,5 δισ. ευρώ σε δύο χρόνια – Ακρίβεια, «κρυφή» φορολόγηση και τεκμήρια",
+      "· naftemporiki | Σουφλί: Χωρίς ενεργό μέτωπο η «εισαγόμενη» φωτιά από τη Βουλγαρία",
+      "· naftemporiki | Χρηματιστήριο: Ελεγχόμενες απώλειες με profit taking",
+      "· gn-iefimerida | Ενός λεπτού σιγή στο Ισραήλ σε τοποθεσίες όπου επιτέθηκε η Χαμάς - iefimerida.gr",
+      "✓ gtp | Greek PM: Greater Building Heights Could Help Boost Housing Supply",
+      "· gtp | Halkidiki: €6.3m Contract Restarts Neos Marmaras Fishing Port Project",
+      "· gtp | AEGEAN Launches Athens–Damascus Flights, Plans Libya Routes for 2027"
     ]
   },
   "evergreenDone": [
