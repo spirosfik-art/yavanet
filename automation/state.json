@@ -1726,7 +1726,10 @@
     "a84e9175eccb": 1791397796415,
     "b45d850b74e7": 1791398882969,
     "d33b856b21c1": 1791398882969,
-    "18ff64d2d8c8": 1791399935691
+    "18ff64d2d8c8": 1791399935691,
+    "6c1a0c3f453e": 1791401183522,
+    "cc9fa8ad67c6": 1791401183522,
+    "779b551300b9": 1791401183522
   },
   "pending": {},
   "sourceStatus": {
@@ -1738,12 +1741,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T19:05:25.367Z",
+      "at": "2026-10-07T19:26:11.995Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T19:05:26.175Z",
+      "at": "2026-10-07T19:26:12.776Z",
       "items": 5
     },
     "civilprotection": {
@@ -1754,27 +1757,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T19:05:27.539Z",
+      "at": "2026-10-07T19:26:14.663Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T19:05:27.723Z",
+      "at": "2026-10-07T19:26:15.033Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T19:05:28.728Z",
+      "at": "2026-10-07T19:26:15.951Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T19:05:29.424Z",
-      "items": 4
+      "at": "2026-10-07T19:26:16.672Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T19:05:30.205Z",
+      "at": "2026-10-07T19:26:17.441Z",
       "items": 10
     },
     "toi-greece": {
@@ -1785,23 +1788,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T19:05:30.761Z",
-      "items": 0
+      "at": "2026-10-07T19:26:17.997Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T19:05:31.201Z",
+      "at": "2026-10-07T19:26:18.387Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T19:05:31.491Z",
+      "at": "2026-10-07T19:26:19.186Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T19:05:31.983Z",
-      "items": 5
+      "at": "2026-10-07T19:26:19.392Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1810,12 +1813,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T19:05:26.595Z",
+      "at": "2026-10-07T19:26:13.611Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T19:05:32.773Z",
+      "at": "2026-10-07T19:26:20.111Z",
       "items": 0
     },
     "hcg": {
@@ -1826,33 +1829,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T19:05:33.462Z",
+      "at": "2026-10-07T19:26:21.147Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T19:05:33.727Z",
+      "at": "2026-10-07T19:26:21.411Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T19:05:33.919Z",
+      "at": "2026-10-07T19:26:21.603Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T19:05:34.201Z",
+      "at": "2026-10-07T19:26:21.773Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T19:05:34.617Z",
+      "at": "2026-10-07T19:26:22.166Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T19:05:35.039Z",
-      "items": 13
+      "at": "2026-10-07T19:26:22.625Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -1998,6 +2001,11 @@
         "title": "«Έκρηξη» γαστρεντερίτιδας στο Ρέθυμνο – Εξετάζεται σύνδεση με τις πρόσφατες πλημμύρες - iefimerida.gr",
         "reason": "Ίδιο θέμα με «Crete: Heavy rains, massive runoff and first snow on peaks» – δεν γράφτηκε ξανά",
         "at": "2026-10-07T16:10:35.113Z"
+      },
+      {
+        "title": "Turkish media on Rubio’s Athens visit: Greece is trying to lock in Aegean superiority",
+        "reason": "Ίδιο θέμα με «Athens prepares for Rubio visit with road closures and metro changes» – δεν γράφτηκε ξανά",
+        "at": "2026-10-07T19:26:27.872Z"
       }
     ],
     "errors": [],
@@ -2079,11 +2087,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T19:05:35.691Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-07T19:26:23.522Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Πέθανε η Μαρικάρμεν: Η 87χρονη συνταξιούχος που πυροδότησε τις πανεθνικές διαδηλώσεις για "
+      "· naftemporiki | Πέδρο Σάντσεθ για τον θάνατο της 87χρονης Μαρικάμερν: Μια αγκαλιά σε όσους βιώνουν τη σημε",
+      "✓ gct | Turkish media on Rubio’s Athens visit: Greece is trying to lock in Aegean superiority",
+      "· gn-civilprotection | 97,8 εκατ. ευρώ από το Εθνικό Πρόγραμμα Ανάπτυξης 2026-2030 για τη στήριξη Περιφερειών και"
     ]
   },
   "evergreenDone": [
