@@ -1592,7 +1592,9 @@
     "f6bc12cd9a70": 1791348195097,
     "0a6eb8f2fa47": 1791349005784,
     "1c98d68cc305": 1791349005785,
-    "030bd1d122dc": 1791349005785
+    "030bd1d122dc": 1791349005785,
+    "db15e61ae34e": 1791349561356,
+    "44e089a2bb45": 1791349561356
   },
   "pending": {
     "5dc821": {
@@ -1708,12 +1710,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T04:56:31.229Z",
+      "at": "2026-10-07T05:05:46.417Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T04:56:32.047Z",
+      "at": "2026-10-07T05:05:47.268Z",
       "items": 5
     },
     "civilprotection": {
@@ -1724,27 +1726,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T04:56:33.771Z",
+      "at": "2026-10-07T05:05:48.213Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T04:56:34.179Z",
+      "at": "2026-10-07T05:05:48.608Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T04:56:36.044Z",
+      "at": "2026-10-07T05:05:50.135Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T04:56:36.820Z",
+      "at": "2026-10-07T05:05:50.708Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T04:56:37.496Z",
+      "at": "2026-10-07T05:05:51.650Z",
       "items": 10
     },
     "toi-greece": {
@@ -1755,23 +1757,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T04:56:38.095Z",
+      "at": "2026-10-07T05:05:52.132Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T04:56:38.353Z",
+      "at": "2026-10-07T05:05:52.458Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T04:56:38.930Z",
+      "at": "2026-10-07T05:05:52.667Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T04:56:39.482Z",
-      "items": 6
+      "at": "2026-10-07T05:05:53.024Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -1780,12 +1782,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T04:56:32.974Z",
+      "at": "2026-10-07T05:05:47.683Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T04:56:40.174Z",
+      "at": "2026-10-07T05:05:53.696Z",
       "items": 0
     },
     "hcg": {
@@ -1796,32 +1798,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T04:56:43.308Z",
+      "at": "2026-10-07T05:05:58.663Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T04:56:43.570Z",
+      "at": "2026-10-07T05:05:58.893Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T04:56:43.745Z",
+      "at": "2026-10-07T05:05:59.141Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T04:56:43.932Z",
+      "at": "2026-10-07T05:05:59.393Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T04:56:44.275Z",
+      "at": "2026-10-07T05:05:59.833Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T04:56:44.676Z",
+      "at": "2026-10-07T05:06:00.276Z",
       "items": 9
     }
   },
@@ -1854,6 +1856,11 @@
         "title": "EU Parliament incident: MEP tosses flags",
         "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The article adds facts and details not present in the source text, such as the mention of 'official sources at the parliament emphasized the importance of maintaining institutional decorum', 'widespread coverage in Greek and European media outlets', and details abo",
         "at": "2026-10-06T23:23:34.688Z"
+      },
+      {
+        "title": "ΥΠΕΞ για 7η Οκτωβρίου: Υπέρ της επανεκκίνησης της πολιτικής διαδικασίας με στόχο την προώθηση της λύσης των δύο κρατών",
+        "reason": "Ίδιο θέμα με «Greek Jewish Community Marks Three Years Since October 7» – δεν γράφτηκε ξανά",
+        "at": "2026-10-07T05:06:05.833Z"
       }
     ],
     "errors": [],
@@ -1918,13 +1925,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T04:56:45.785Z",
-    "considered": 3,
+    "at": "2026-10-07T05:06:01.356Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· ert | ΥΠΕΞ για την 7η Οκτωβρίου: Επιτακτική η εδραίωση μόνιμης εκεχειρίας στη Γάζα",
-      "✓ gct | €10,000 border relocation grants open on 14 October",
-      "· naftemporiki | Τρία χρόνια από τη σφαγή της 7ης Οκτωβρίου στο Ισραήλ – Τελετές μνήμης και ενός λεπτού σιγ"
+      "✓ naftemporiki | ΥΠΕΞ για 7η Οκτωβρίου: Υπέρ της επανεκκίνησης της πολιτικής διαδικασίας με στόχο την προώθ",
+      "· ert | Skydance: Η συγχώνευση-«σεισμός» Paramount-Warner Bros που αλλάζει το Χόλιγουντ – Τι σημαί"
     ]
   },
   "evergreenDone": [
