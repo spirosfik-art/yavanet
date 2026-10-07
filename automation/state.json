@@ -1690,7 +1690,12 @@
     "12459be663e6": 1791383271201,
     "9fde89630170": 1791383271201,
     "ca9f0bd88580": 1791383271201,
-    "78bac903b665": 1791383271201
+    "78bac903b665": 1791383271201,
+    "fd5ad45de247": 1791384994925,
+    "b07921290831": 1791384994925,
+    "9c37ba71b044": 1791384994925,
+    "3aa6ab613736": 1791384994925,
+    "347e714c7c4d": 1791384994925
   },
   "pending": {},
   "sourceStatus": {
@@ -1702,12 +1707,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-07T14:27:38.556Z",
-      "items": 10
+      "at": "2026-10-07T14:54:45.526Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-07T14:27:39.330Z",
+      "at": "2026-10-07T14:54:46.564Z",
       "items": 5
     },
     "civilprotection": {
@@ -1718,27 +1723,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-07T14:27:41.284Z",
+      "at": "2026-10-07T14:54:47.978Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-07T14:27:41.524Z",
+      "at": "2026-10-07T14:54:48.066Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-07T14:27:43.351Z",
+      "at": "2026-10-07T14:54:49.420Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-07T14:27:44.118Z",
-      "items": 3
+      "at": "2026-10-07T14:54:50.403Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-07T14:27:45.084Z",
+      "at": "2026-10-07T14:54:51.264Z",
       "items": 10
     },
     "toi-greece": {
@@ -1749,23 +1754,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-07T14:27:45.631Z",
+      "at": "2026-10-07T14:54:51.869Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-07T14:27:46.006Z",
+      "at": "2026-10-07T14:54:52.098Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-07T14:27:46.663Z",
-      "items": 5
+      "at": "2026-10-07T14:54:52.648Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T14:27:47.130Z",
-      "items": 3
+      "at": "2026-10-07T14:54:52.850Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1774,12 +1779,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-07T14:27:40.165Z",
+      "at": "2026-10-07T14:54:46.839Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-07T14:27:47.746Z",
+      "at": "2026-10-07T14:54:53.697Z",
       "items": 0
     },
     "hcg": {
@@ -1790,39 +1795,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-07T14:27:48.939Z",
+      "at": "2026-10-07T14:54:54.936Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-07T14:27:49.202Z",
+      "at": "2026-10-07T14:54:55.134Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-07T14:27:49.418Z",
-      "items": 7
+      "at": "2026-10-07T14:54:55.370Z",
+      "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-07T14:27:49.658Z",
-      "items": 6
+      "at": "2026-10-07T14:54:55.608Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-07T14:27:50.035Z",
-      "items": 7
+      "at": "2026-10-07T14:54:55.944Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-07T14:27:50.471Z",
+      "at": "2026-10-07T14:54:56.363Z",
       "items": 14
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-07",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "deep-purple-concert-athens-october-2026",
@@ -1883,6 +1888,12 @@
         "title": "New Podcast Bridges Israel and Greece",
         "at": "2026-10-07T16:03:03+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "athens-metro-line-4-tunnel-discrepancy",
+        "title": "Athens Metro Line 4: A 100-Meter Underground Discrepancy",
+        "at": "2026-10-07T18:04:49+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1940,6 +1951,11 @@
         "title": "Τρία χρόνια από την 7η Οκτωβρίου: «Τίποτα δεν μπορεί να δικαιολογήσει μια τέτοια τρομοκρατία», λέει η ΕΕ",
         "reason": "Ίδιο θέμα με «Greek Jewish Community Marks Three Years Since October 7» – δεν γράφτηκε ξανά",
         "at": "2026-10-07T11:25:51.054Z"
+      },
+      {
+        "title": "Πυρκαγιά σε αγροτοδασική έκταση στην Ελαία Λακωνίας - Kathimerini",
+        "reason": "Ίδιο θέμα με «Fire in Laconia: Aerial and Ground Forces Deployed» – δεν γράφτηκε ξανά",
+        "at": "2026-10-07T14:58:25.816Z"
       }
     ],
     "errors": [],
@@ -1955,6 +1971,10 @@
       {
         "slug": "bridge-podcast-connecting-israel-and-greece",
         "at": "2026-10-07T13:03:04.054Z"
+      },
+      {
+        "slug": "athens-metro-line-4-tunnel-discrepancy",
+        "at": "2026-10-07T15:04:49.706Z"
       }
     ]
   },
@@ -2017,15 +2037,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-07T14:27:51.201Z",
+    "at": "2026-10-07T14:56:34.925Z",
     "considered": 5,
-    "picked": 0,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Φωτιά τώρα σε αποθηκευτικό χώρο στον Μαραθώνα",
-      "· minfin | Κυριάκος Πιερρακάκης: «Πρέπει να συνδέσουμε τις αποταμιεύσεις της Ευρώπης με τις ευκαιρίες",
-      "· ingr | Φωτιά σε αποθήκη ανταλλακτικών στο Κοτρώνι Μαραθώνα",
-      "· naftemporiki | Μαμντάνι: «Φρικτά τα εγκλήματα» της Χαμάς την 7η Οκτωβρίου – «Γενοκτονία» και «απαρτχάιντ»",
-      "· gn-kathimerini | Κυρ. Μητσοτάκης στο MED9: Στήριξη πολιτών και επιχειρήσεων απέναντι στην ενεργειακή ακρίβε"
+      "· ert | Θεσσαλονίκη: Αθωώθηκε 48χρονος που καταγγέλθηκε ότι έκοψε τα φρένα κι έκαψε το σπίτι της π",
+      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Πέμπτη 8 Οκτωβρίου 2026 - www.pri",
+      "✓ gn-kathimerini | Πυρκαγιά σε αγροτοδασική έκταση στην Ελαία Λακωνίας - Kathimerini",
+      "· gn-iefimerida | Προσέφυγαν στο Πρωτοδικείο οι κάτοικοι της Κυψέλης για τις ζημιές που αποδίδονται στο Μετρ",
+      "✓ gn-kathimerini | Γραμμή 4 του μετρό: Τα 100 μέτρα υπεδάφους που «ξέφυγαν» από τους υπολογισμούς - Kathimeri"
     ]
   },
   "evergreenDone": [
@@ -2068,5 +2088,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-metro-line-4-tunnel-discrepancy",
+      "url": "https://yavanet.gr/a/athens-metro-line-4-tunnel-discrepancy/",
+      "at": "2026-10-07T15:04:49.706Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-metro-line-4-tunnel-discrepancy/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-metro-line-4-tunnel-discrepancy/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "קו 4 של הרכבת התחתית באתונה: פער של 100 מטרים בעבודות תת-הקרקע",
+        "title_en": "Athens Metro Line 4: A 100-Meter Underground Discrepancy",
+        "dek_he": "בניית קו 4 של הרכבת התחתית באתונה חושפת אתגר הנדסי: פער של 100 מטרים בתת-הקרקע שלא הודגש בחישובים המקוריים.",
+        "dek_en": "The construction of Athens Metro Line 4 encounters an engineering challenge with a 100-meter underground calculation gap.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/30310429/pexels-photo-30310429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "קו 4 של הרכבת התחתית באתונה: פער של 100 מטרים בעבודות תת-הקרקע\n\nבניית קו 4 של הרכבת התחתית באתונה חושפת אתגר הנדסי: פער של 100 מטרים בתת-הקרקע שלא הודגש בחישובים המקוריים.\n\nhttps://yavanet.gr/a/athens-metro-line-4-tunnel-discrepancy/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens Metro Line 4: A 100-Meter Underground Discrepancy\n\nThe construction of Athens Metro Line 4 encounters an engineering challenge with a 100-meter underground calculation gap.\n\nhttps://yavanet.gr/en/a/athens-metro-line-4-tunnel-discrepancy/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
