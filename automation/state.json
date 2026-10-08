@@ -1803,7 +1803,11 @@
     "f7058c2f4f51": 1791449042781,
     "025a7260b4d2": 1791449042781,
     "5aee32ffb2f9": 1791449901234,
-    "3167f66893c4": 1791449901234
+    "3167f66893c4": 1791449901234,
+    "014bfd33348b": 1791450597616,
+    "e554467e116c": 1791450597616,
+    "1d1ee66ce615": 1791450597616,
+    "b70d84a702de": 1791450597616
   },
   "pending": {},
   "sourceStatus": {
@@ -1815,12 +1819,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T08:58:09.908Z",
+      "at": "2026-10-08T09:09:47.248Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T08:58:10.547Z",
+      "at": "2026-10-08T09:09:47.830Z",
       "items": 4
     },
     "civilprotection": {
@@ -1831,27 +1835,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T08:58:12.482Z",
+      "at": "2026-10-08T09:09:48.816Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T08:58:12.860Z",
+      "at": "2026-10-08T09:09:48.944Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T08:58:13.915Z",
+      "at": "2026-10-08T09:09:49.682Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T08:58:14.734Z",
+      "at": "2026-10-08T09:09:50.552Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T08:58:15.722Z",
+      "at": "2026-10-08T09:09:51.713Z",
       "items": 10
     },
     "toi-greece": {
@@ -1862,23 +1866,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T08:58:16.239Z",
+      "at": "2026-10-08T09:09:52.100Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T08:58:16.623Z",
+      "at": "2026-10-08T09:09:52.168Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T08:58:17.104Z",
-      "items": 6
+      "at": "2026-10-08T09:09:52.413Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:58:17.262Z",
-      "items": 2
+      "at": "2026-10-08T09:09:52.544Z",
+      "items": 0
     },
     "ynet-greece": {
       "ok": true,
@@ -1887,12 +1891,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:58:11.440Z",
+      "at": "2026-10-08T09:09:48.085Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T08:58:17.972Z",
+      "at": "2026-10-08T09:09:53.144Z",
       "items": 0
     },
     "hcg": {
@@ -1903,33 +1907,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T08:58:19.066Z",
+      "at": "2026-10-08T09:09:55.140Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T08:58:19.319Z",
+      "at": "2026-10-08T09:09:55.349Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T08:58:19.513Z",
+      "at": "2026-10-08T09:09:55.589Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T08:58:19.797Z",
+      "at": "2026-10-08T09:09:56.113Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T08:58:20.170Z",
-      "items": 7
+      "at": "2026-10-08T09:09:56.438Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T08:58:20.559Z",
-      "items": 10
+      "at": "2026-10-08T09:09:56.859Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2024,12 +2028,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T08:58:21.234Z",
-    "considered": 2,
+    "at": "2026-10-08T09:09:57.616Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Stefanos Tsitsipas Advances at Shanghai Masters With Straight-Sets Win",
-      "· gct | BREAKING: Three Children Rescued as Istanbul Building Collapses"
+      "· ert | Βρετανία: Αμφισβητεί το δικαίωμα του Ισραήλ να κλείσει το προξενείο της στην ανατολική Ιερ",
+      "· gct | Karvelas moves to ban Vissi from singing his songs",
+      "· gtp | Survey: Culture Tops Athens’ Strengths, 53% See Tourism Pressure",
+      "· gtp | Greece, US Expand Cooperation on Energy, Security and Culture"
     ]
   },
   "evergreenDone": [
