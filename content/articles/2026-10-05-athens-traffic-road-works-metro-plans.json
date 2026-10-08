@@ -2,7 +2,7 @@
   "slug": "athens-traffic-road-works-metro-plans",
   "section": "travel",
   "publishedAt": "2026-10-05T15:59:52+03:00",
-  "updatedAt": null,
+  "updatedAt": "2026-10-08T12:27:52+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 23.7275
   },
   "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/10/07/athens-metro-line-1-welcomes-first-refurbished-train/"
+    },
     {
       "name": "GTP Headlines",
       "url": "https://news.gtp.gr/2026/10/05/attica-traffic-road-works-metro-target-congestion/"
@@ -30,44 +34,26 @@
     "en": "Traffic Update"
   },
   "he": {
-    "title": "תוכניות התחבורה באתונה: עבודות כביש ופרויקטים חדשים במטרו",
-    "seoTitle": "עומסי תנועה באתונה: עבודות בכבישים וקווי מטרו חדשים",
-    "seoDesc": "משרד התשתית והתחבורה ביוון מקדם עבודות בכבישים ופרויקטים במטרו של אתונה כדי להקל על עומסי התנועה באזור אטיקה.",
-    "keywords": [
-      "אתונה",
-      "יוון",
-      "מטרו אתונה",
-      "תחבורה באתונה",
-      "פקקים באתונה"
-    ],
-    "dek": "רשויות התחבורה ביוון מקדמות שורה של פרויקטים חדשים במטרו ושינויים במחלפים המרכזיים באתונה כדי להילחם בעומסי התנועה באזור אטיקה.",
+    "title": "הרכבת המשופצת הראשונה עלתה על הפסים בקו 1 באתונה",
+    "dek": "קו 1 ההיסטורי של הרכבת התחתית באתונה מתחדש עם הרכבת הראשונה מתוך 14 שעוברות שדרוג מקיף.",
     "tldr": [
-      "עבודות במחלף מטמורפוסי צפויות להסתיים בסוף שנת 2026.",
-      "קו 4 של המטרו צפוי להוריד כ-53 אלף כלי רכב מהכבישים.",
-      "נשקלות חלופות נוספות להקלת הפקקים והרחבת הרשת."
+      "הרכבת המשופצת הראשונה החלה לפעול בקו 1 ב-7 באוקטובר.",
+      "הפרויקט כולל 14 רכבות ותיקות שיעברו חידוש מלא עד 2027.",
+      "השדרוג נועד לשפר את תדירות הנסיעות, האמינות והנוחות לנוסעים."
     ],
-    "means": "אם אתם נוחתים באתונה או מתכננים נסיעה לעיר, צפו לעבודות תשתית בכבישים המרכזיים. כדאי להתעדכן בזמן אמת באפליקציות הניווט ולהיעזר ברכבת התחתית כדי להימנע מעיכובים בשעות העומס.",
-    "body": "## פרויקטים להקלת העומסים באתונה\n\nממשלת יוון מקדמת צעדים שונים להתמודדות עם עומסי התנועה הכבדים באזור אטיקה. בדיונים שנערכו בכנס התשתיות והתחבורה באתונה, הדגישו בכירים במשרד התשתית כי אין פתרון יחיד לבעיית הפקקים ושנדרש שילוב של פרויקטים גדולים יחד עם אלטרנטיבות תחבורה אמינות.\n\nבמסגרת התוכניות, העבודות במחלף מטמורפוסי צפויות להסתיים עד סוף שנת 2026 עם תקציב של כ-3 מיליון אירו. המטרה היא ליצור הפרדה בין זרמי התנועה המגיעים מנמל התעופה הבינלאומי של אתונה ומאלאפסינה לכיוון הכביש המהיר הלאומי, במטרה להכפיל את קיבולת התנועה ולהפחית עיכובים בשעות השיא.\n\n## הרחבת רשת המטרו\n\nחברת המטרו של אתונה ממשיכה לקדם את פרויקטי הפיתוח, ובראשם קו 4 החדש. על פי ההערכות, השלב הראשון של הקו יחבר בין אלסוס וייקודי לגודי וישרת מאות אלפי נוסעים ביום, לצד הוצאת עשרות אלפי מכוניות מהכבישים.\n\nבמקביל, נמשכות ההכנות להארכת קו 2 לאיליון, ונבחנות חלופות שונות להמשך פיתוח הרשת לכיוון גליפדה ומרכזים תרבותיים נוספים. עם זאת, בחלק מאתרי העבודה של קו 4, כמו בקיפסלי, העבודות הופסקו זמנית בעקבות בדיקות הנדסיות שנדרשו באזור, וטרם נקבע מועד מדויק לחידוש החפירות שם."
+    "means": "אם אתם מתכננים חופשה באתונה ונוסעים במטרו, תיהנו מעתה מקרונות נוחים יותר, מסכי מידע מתקדמים ומיזוג משופר. מומלץ להתעדכן בלוחות הזמנים בתחנות ולהיעזר בתחבורה הציבורית בעיר בקלות.",
+    "body": "## עידן חדש לקו הוותיק של המטרו באתונה\n\nקו 1 של הרכבת התחתית באתונה (ISAP) חנך את הרכבת המשופצת הראשונה שלו. מדובר בציון דרך משמעותי במסגרת תוכנית רחבה לחידוש הצי של הקו ההיסטורי, הפועל מאז שנות השמונים של המאה ה-20.\n\nלפי רשויות התחבורה, הרכבת החדשה החלה לפעול לאחר שהשלימה את כל בדיקות הבטיחות וההסמכה הנדרשות. זהו הצעד הראשון מתוך תוכנית כוללת לשדרוג של 14 רכבות ותיקות, לראשונה מזה 22 שנים שבהן לא נוספו קרונות חדשים לקו.\n\n## מה משתנה בתוך הקרונות?\n\nהנוסעים שיעלו על הרכבות המשופצות יבחינו בשינויים ניכרים. הפרויקט כולל התקנת מערכות מיזוג אוויר מתקדמות, תאורת LED חסכונית, מסכי מידע דיגיטליים המציגים את התחנות, השעה והטמפרטורה, וכן מצלמות אבטחה מעודכנות.\n\nמבחינה טכנית, המבנה המקורי של הקרונות נשמר, אך המנועים הישנים הוחלפו במנועי זרם חילופין מודרניים ובמערכות בלימה ובטיחות חדישות. השינויים נועדו להאריך את תוחלת החיים של הרכבות בלפחות 25 שנים נוספות.\n\n## צפי לשיפור התדירות והשירות\n\nמנכ\"ל חברת STASY ציין כי המטרה המרכזית היא להעניק לנוסעים שירות אמין ומודרני יותר, שיאפשר להפחית את זמני ההמתנה בין הרכבות. במקביל לרכבת שכבר החלה לפעול באתונה, ארבע רכבות נוספות עוברות תהליך שדרוג במקביל בעיר וולוס על ידי חברת CAF הספרדית, במימון האיחוד האירופי במסגרת תוכנית NSRF.\n\nהתוכנית כולה צפויה להסתיים במהלך שנת 2027, והיא משתלבת בשורת השקעות רחבות היקף שמבצעת חברה התחבורה הציבורית במערך הרכבות העירוני באתונה עד שנת 2030."
   },
   "en": {
-    "title": "Athens Traffic: Road Works and New Metro Plans Target Congestion",
-    "seoTitle": "Athens Traffic: Road Works and New Metro Plans Target",
-    "seoDesc": "Greek authorities are advancing road works and metro expansion projects across the Attica region to tackle chronic traffic congestion.",
-    "keywords": [
-      "Athens traffic",
-      "Athens metro",
-      "Attica transport",
-      "Greece infrastructure",
-      "Athens roads"
-    ],
-    "dek": "Greek infrastructure officials are moving forward with targeted road improvements and major metro line expansions to ease traffic bottlenecks across the Attica capital region.",
+    "title": "Athens Metro Line 1 Welcomes First Refurbished Train",
+    "dek": "Athens Metro Line 1 has welcomed its first fully refurbished train as part of a major fleet renewal program for the historic route.",
     "tldr": [
-      "Metamorfosi interchange works are scheduled for completion by the end of 2026.",
-      "Athens Metro Line 4 aims to remove tens of thousands of cars from roads.",
-      "Additional extensions and smart traffic measures are under evaluation."
+      "The first refurbished train entered passenger service on Line 1 on October 7.",
+      "A total of 14 older trains are undergoing complete modernization through 2027.",
+      "Upgrades include new air conditioning, LED lighting, CCTV, and modern passenger screens."
     ],
-    "means": "If you are visiting Athens, expect road construction in key areas and allow extra travel time. Relying on the city's metro system remains a reliable way to bypass surface traffic bottlenecks during your stay.",
-    "body": "## Addressing Attica Traffic Bottlenecks\n\nGreek infrastructure authorities are pursuing a combination of targeted road adjustments and major transit projects to alleviate traffic congestion in the greater Athens area. Speaking at a recent infrastructure conference in the capital, officials noted that increasing road capacity alone is not enough and requires a multifaceted approach.\n\nWork at the Metamorfosi interchange is progressing with a budget of around 3 million euros. The project aims to separate traffic streams merging from Athens International Airport and Elefsina toward the national highway, which is expected to significantly increase capacity and reduce peak-hour delays upon completion by the end of 2026.\n\n## Expanding the Metro Network\n\nPublic transit expansion remains a core pillar of the strategy to reduce private vehicle use. Elliniko Metro is advancing the first phase of Line 4, which is projected to handle hundreds of thousands of daily passengers and take a substantial number of cars off the road.\n\nAt the same time, planning continues for extensions to Line 2 and other suburban connections. While certain tunneling sites, such as in Kypseli, have undergone temporary holds for structural inspections and technical reviews, authorities are evaluating all necessary reports before moving forward with excavation schedules."
+    "means": "Visitors and travelers using public transport in Athens will benefit from improved comfort, modern passenger information displays, and greater reliability on Line 1 as the rollout continues towards 2027.",
+    "body": "## A Modernized Fleet for a Historic Route\n\nAthens Metro Line 1 (ISAP) has officially introduced its first fully refurbished train into passenger service, marking the beginning of a comprehensive fleet renewal initiative for the historic urban railway line.\n\nThe newly upgraded train is the first of 14 older units scheduled for a complete technical overhaul, 22 years after the last rolling stock addition to the line. According to transport officials, the vehicle successfully completed all required technical and operational certifications before entering regular service.\n\n## Passenger Comfort and Upgraded Technology\n\nCommuters traveling on the refurbished train will experience a significantly updated interior environment. Improvements feature modern seating, new flooring, windows, side panels, and energy-efficient LED lighting.\n\nIn addition to aesthetic enhancements, the trains have received vital technical upgrades. While retaining their original structural framework, the older motors have been replaced with modern alternating-current propulsion systems alongside updated electrical, pneumatic, and safety equipment. Enhanced air conditioning, CCTV surveillance, and digital passenger information displays indicating upcoming stations and time have also been installed, alongside improved accessibility features for wheelchair users.\n\n## Expanded Improvements and Timeline\n\nWork on the broader project is being carried out by Spanish manufacturer CAF on behalf of STASY, with backing from Greece's EU-funded NSRF program. A second train is currently undergoing static testing in Volos, where four units are being processed simultaneously.\n\nTransport executives noted that the modernization effort aims to increase service reliability and enable more frequent schedules with shorter waiting intervals. The entire 14-train program is on track for completion throughout 2027, forming part of wider ongoing investments in the Athens urban rail network extending toward 2030."
   },
   "meta": {
     "itemId": "2092e449f5cd",
@@ -75,6 +61,7 @@
     "sourceHash": "b493ad9a9f94",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-08T05:39:56.041Z",
-    "official": false
+    "official": false,
+    "updatedFrom": "1a8546f1561a"
   }
 }

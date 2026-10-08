@@ -1807,7 +1807,12 @@
     "014bfd33348b": 1791450597616,
     "e554467e116c": 1791450597616,
     "1d1ee66ce615": 1791450597616,
-    "b70d84a702de": 1791450597616
+    "b70d84a702de": 1791450597616,
+    "c44e98778a29": 1791451657403,
+    "93c28df7af15": 1791451657403,
+    "1a8546f1561a": 1791451657403,
+    "656a28907796": 1791451657403,
+    "3874596d1993": 1791451657403
   },
   "pending": {},
   "sourceStatus": {
@@ -1819,12 +1824,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T09:09:47.248Z",
+      "at": "2026-10-08T09:27:23.755Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T09:09:47.830Z",
+      "at": "2026-10-08T09:27:24.523Z",
       "items": 4
     },
     "civilprotection": {
@@ -1835,27 +1840,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T09:09:48.816Z",
+      "at": "2026-10-08T09:27:26.144Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T09:09:48.944Z",
+      "at": "2026-10-08T09:27:26.323Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T09:09:49.682Z",
+      "at": "2026-10-08T09:27:27.745Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T09:09:50.552Z",
+      "at": "2026-10-08T09:27:28.373Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T09:09:51.713Z",
+      "at": "2026-10-08T09:27:31.223Z",
       "items": 10
     },
     "toi-greece": {
@@ -1866,22 +1871,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T09:09:52.100Z",
+      "at": "2026-10-08T09:27:31.645Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T09:09:52.168Z",
+      "at": "2026-10-08T09:27:31.916Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T09:09:52.413Z",
+      "at": "2026-10-08T09:27:32.299Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T09:09:52.544Z",
+      "at": "2026-10-08T09:27:32.694Z",
       "items": 0
     },
     "ynet-greece": {
@@ -1891,12 +1896,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T09:09:48.085Z",
+      "at": "2026-10-08T09:27:25.146Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T09:09:53.144Z",
+      "at": "2026-10-08T09:27:33.338Z",
       "items": 0
     },
     "hcg": {
@@ -1907,32 +1912,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T09:09:55.140Z",
+      "at": "2026-10-08T09:27:35.151Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T09:09:55.349Z",
+      "at": "2026-10-08T09:27:35.318Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T09:09:55.589Z",
+      "at": "2026-10-08T09:27:35.486Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T09:09:56.113Z",
+      "at": "2026-10-08T09:27:35.643Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T09:09:56.438Z",
-      "items": 8
+      "at": "2026-10-08T09:27:36.025Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T09:09:56.859Z",
+      "at": "2026-10-08T09:27:36.472Z",
       "items": 9
     }
   },
@@ -1958,6 +1963,12 @@
         "title": "↻ Series of Earthquakes Near Kasos Island Reaches Magnitude 4.1",
         "at": "2026-10-08T07:03:57+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "athens-traffic-road-works-metro-plans",
+        "title": "↻ Athens Metro Line 1 Welcomes First Refurbished Train",
+        "at": "2026-10-08T12:27:52+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [],
@@ -2028,14 +2039,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T09:09:57.616Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-08T09:27:37.403Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· ert | Βρετανία: Αμφισβητεί το δικαίωμα του Ισραήλ να κλείσει το προξενείο της στην ανατολική Ιερ",
-      "· gct | Karvelas moves to ban Vissi from singing his songs",
-      "· gtp | Survey: Culture Tops Athens’ Strengths, 53% See Tourism Pressure",
-      "· gtp | Greece, US Expand Cooperation on Energy, Security and Culture"
+      "· gtp | webhotelier | primalres Rebrands as Revplus and Enters the Era of the Unified Ecosystem",
+      "· gtp | Greece Crowned World’s Best Country in Condé Nast Traveller Awards 2026",
+      "✓ gtp | Athens Metro Line 1 Welcomes First Refurbished Train",
+      "· gtp | Three Costa Navarino Resorts Make Condé Nast Traveler’s Top 10 in Greece",
+      "· gtp | Peloponnese Gains European Recognition for Cultural and Adventure Tourism"
     ]
   },
   "evergreenDone": [
