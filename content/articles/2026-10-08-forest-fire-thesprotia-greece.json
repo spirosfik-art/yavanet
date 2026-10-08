@@ -1,0 +1,78 @@
+{
+  "slug": "forest-fire-thesprotia-greece",
+  "section": "breaking",
+  "publishedAt": "2026-10-08T21:04:23+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 39.5167,
+    "lng": 20.5333
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2172622/fotia-tora-se-dasos-toy-dimoy-soylioy/?utm_source=rss&utm_medium=rss&utm_campaign=fotia-tora-se-dasos-toy-dimoy-soylioy"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12519051/pexels-photo-12519051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Misty atmosphere over Carpathian mountains in Ukraine with lush green pine trees.",
+    "credit": "Photo: Jane Blaze / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/green-trees-near-mountain-12519051/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Fire in Greece"
+  },
+  "he": {
+    "title": "שריפת יער פרצה באזור תספרוטיה שבצפון-מערב יוון",
+    "seoTitle": "שריפה ביוון: שריפת יער פרצה בתספרוטיה",
+    "seoDesc": "שריפת יער פרצה בקהילת פרוסיני שבתספרוטיה. כוחות כיבוי פועלים במקום. עדכונים שוטפים לישראלים ביוון.",
+    "keywords": [
+      "שריפה ביוון",
+      "תספרוטיה",
+      "חדשות יוון",
+      "עדכונים מיוון"
+    ],
+    "dek": "כוחות כיבוי גדולים פועלים לכיבוי דליקה שפרצה אמש ביער באזור עיריית סוליו. אין דיווחים על נפגעים.",
+    "tldr": [
+      "שריפת יער פרצה בקהילת פרוסיני שבתספרוטיה סמוך לשעה 20:00.",
+      "20 כבאים, שתי יחידות רגליות וצוותי סיוע מהעירייה פועלים בשטח.",
+      "יחידת חקירות מיוחדת הוקמה כדי לבדוק את נסיבות פרוץ האש."
+    ],
+    "means": "אם אתם מטיילים באזור צפון-מערב יוון, הימנעו מהתקרבות לאזור השריפה והישמעו להנחיות כוחות הביטחון והכיבוי המקומיים. מומלץ לעקוב אחר דיווחי הרשויות ולהתעדכן בשינויים בדרכי הגישה באזור.",
+    "body": "## פרטי האירוע\nאמש, סמוך לשעה 20:00, פרצה שריפת יער בקהילת פרוסיני (Frosyni) השייכת לעיריית סוליו (Souli) שבמחוז תספרוטיה. האש התפשטה באזור מיוער, מה שהוביל להקפצה מיידית של כוחות הכיבוי.\n\n## פעולות הכיבוי\nלמקום הוזעקו 20 כבאים, בליווי שתי יחידות רגליות של יחידת הכבאות המיוחדת (EMODE) ושני רכבי כיבוי. בנוסף, עיריית סוליו נרתמה למאמצים ושלחה מכליות מים כדי לסייע לכוחות בשטח בבלימת הלהבות.\n\n## חקירת נסיבות השריפה\nהרשויות ביוון מתייחסות לאירוע ברצינות רבה. יחידת החקירות המיוחדת של תספרוטיה למניעת הצתות הגיעה למקום כדי לבחון את נסיבות פרוץ הדליקה. נכון לעכשיו, לא נמסרו פרטים נוספים על הגורמים שהובילו לאש."
+  },
+  "en": {
+    "title": "Forest fire breaks out in Thesprotia, Greece",
+    "seoTitle": "Forest fire in Thesprotia, Greece",
+    "seoDesc": "A forest fire has broken out in the Frosyni community of Thesprotia. Firefighting forces are currently on the scene.",
+    "keywords": [
+      "Greece fire",
+      "Thesprotia",
+      "Greece news",
+      "forest fire"
+    ],
+    "dek": "Emergency services are working to contain a blaze that started yesterday evening in the Souli municipality.",
+    "tldr": [
+      "A forest fire began in the Frosyni community around 8:00 PM.",
+      "20 firefighters and specialized units are currently battling the blaze.",
+      "A special investigative unit has been deployed to determine the cause."
+    ],
+    "means": "If you are traveling in the Thesprotia region, please avoid the area and follow all instructions from local authorities. Stay updated on road closures and local safety alerts.",
+    "body": "## Incident Overview\nA forest fire broke out yesterday evening, around 8:00 PM, in the local community of Frosyni, within the municipality of Souli in Thesprotia. The fire ignited in a forested area, triggering an immediate response from emergency services.\n\n## Firefighting Efforts\nTwenty firefighters, supported by two specialized hiking teams from the 5th EMODE unit and two fire vehicles, were dispatched to the scene. The municipality of Souli is also assisting the firefighting efforts by providing water tankers to help contain the spread of the fire.\n\n## Investigation\nThe Arson Crimes Investigation Unit of Thesprotia has been mobilized to investigate the causes of the fire. Authorities are currently working to determine what triggered the blaze."
+  },
+  "meta": {
+    "itemId": "61a96d5f1912",
+    "imageQuery": "forest fire smoke",
+    "sourceHash": "1321e3459c5a",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-08T18:04:24.221Z",
+    "official": false
+  }
+}
