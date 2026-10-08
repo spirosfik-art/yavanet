@@ -1883,7 +1883,9 @@
     "5eb9f41302ee": 1791485258440,
     "a8ad28f59af4": 1791485258440,
     "ce916cba0978": 1791486351225,
-    "ec0e0d876fc8": 1791486351225
+    "ec0e0d876fc8": 1791486351225,
+    "7ba104b50260": 1791488427244,
+    "2d3cf029449c": 1791488427244
   },
   "pending": {},
   "sourceStatus": {
@@ -1895,12 +1897,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T19:26:33.872Z",
-      "items": 0
+      "at": "2026-10-08T19:40:04.852Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T19:26:34.461Z",
+      "at": "2026-10-08T19:40:05.451Z",
       "items": 3
     },
     "civilprotection": {
@@ -1911,27 +1913,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T19:26:35.672Z",
+      "at": "2026-10-08T19:40:06.534Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T19:26:36.425Z",
+      "at": "2026-10-08T19:40:06.662Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T19:26:37.288Z",
+      "at": "2026-10-08T19:40:07.477Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T19:26:38.004Z",
+      "at": "2026-10-08T19:40:08.181Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T19:26:38.742Z",
+      "at": "2026-10-08T19:40:08.914Z",
       "items": 10
     },
     "toi-greece": {
@@ -1942,22 +1944,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T19:26:39.244Z",
+      "at": "2026-10-08T19:40:09.368Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T19:26:39.364Z",
+      "at": "2026-10-08T19:40:09.453Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T19:26:39.477Z",
+      "at": "2026-10-08T19:40:09.885Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T19:26:39.601Z",
+      "at": "2026-10-08T19:40:10.012Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1967,12 +1969,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T19:26:35.037Z",
+      "at": "2026-10-08T19:40:05.750Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T19:26:40.231Z",
+      "at": "2026-10-08T19:40:10.649Z",
       "items": 0
     },
     "hcg": {
@@ -1983,32 +1985,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T19:26:41.525Z",
+      "at": "2026-10-08T19:40:12.608Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T19:26:41.703Z",
-      "items": 6
+      "at": "2026-10-08T19:40:12.842Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T19:26:42.012Z",
+      "at": "2026-10-08T19:40:13.071Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T19:26:42.285Z",
-      "items": 4
+      "at": "2026-10-08T19:40:13.277Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T19:26:42.692Z",
-      "items": 2
+      "at": "2026-10-08T19:40:13.634Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T19:26:43.193Z",
+      "at": "2026-10-08T19:40:14.114Z",
       "items": 4
     }
   },
@@ -2107,6 +2109,11 @@
         "title": "«Η σχέση Ισραήλ-Ελλάδας βασίζεται στην εμπιστοσύνη και τις κοινές αξίες», δήλωσε η πρέσβης του Ισραήλ μετά τη συνάντηση με τον Χρυσοχοΐδη",
         "reason": "Mixed-script (broken) Hebrew words: חוΐדיס, חוΐדיס, חוΐדיס. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-10-08T12:33:44.664Z"
+      },
+      {
+        "title": "Μακάμπι Τελ Αβίβ – Αρμάνι Μιλάνο 97-79: Έκαναν «σεφτε» στη Euroleague οι Ισραηλινοί (vid)",
+        "reason": "The Hebrew seoTitle contains a factual error: it states the match took place in Greece ('ביוון'), while the source text explicitly states it took place in Belgrade ('Βελιγραδίου').; The Hebrew 'means' section incorrectly mentions the game is a milestone for fans in Greece, which is not supported by ",
+        "at": "2026-10-08T19:41:10.417Z"
       }
     ],
     "errors": [],
@@ -2189,12 +2196,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T19:05:51.225Z",
+    "at": "2026-10-08T19:40:27.244Z",
     "considered": 2,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· ingr | Ακρίβεια: «Ηλεκτροσόκ» σε μικρές και πολύ μικρές επιχειρήσεις – Κραυγή αγωνίας από την αγο",
-      "· ingr | Το Ισραήλ μείωσε δραστικά τη βρετανική διπλωματική παρουσία στην Ιερουσαλήμ σε αντίποινα γ"
+      "✓ ingr | Μακάμπι Τελ Αβίβ – Αρμάνι Μιλάνο 97-79: Έκαναν «σεφτε» στη Euroleague οι Ισραηλινοί (vid)",
+      "· gn-civilprotection | Σε εξέλιξη η διαδικασία αυτοψιών και καταγραφής των ζημιών στην Κρήτη - Civilprotection.go"
     ]
   },
   "evergreenDone": [
