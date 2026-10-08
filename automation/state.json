@@ -1798,7 +1798,10 @@
     "b67a01413e59": 1791448137153,
     "661353c1b406": 1791448137153,
     "8ce40823bc10": 1791448137153,
-    "98910c70c80a": 1791448137153
+    "98910c70c80a": 1791448137153,
+    "9d9dd5f691a2": 1791449042781,
+    "f7058c2f4f51": 1791449042781,
+    "025a7260b4d2": 1791449042781
   },
   "pending": {},
   "sourceStatus": {
@@ -1810,12 +1813,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T08:28:44.982Z",
+      "at": "2026-10-08T08:43:50.772Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T08:28:45.900Z",
+      "at": "2026-10-08T08:43:51.775Z",
       "items": 5
     },
     "civilprotection": {
@@ -1826,27 +1829,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T08:28:47.625Z",
+      "at": "2026-10-08T08:43:53.254Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T08:28:47.691Z",
+      "at": "2026-10-08T08:43:53.623Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T08:28:48.843Z",
+      "at": "2026-10-08T08:43:54.827Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T08:28:49.782Z",
-      "items": 3
+      "at": "2026-10-08T08:43:55.763Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T08:28:50.844Z",
+      "at": "2026-10-08T08:43:56.226Z",
       "items": 10
     },
     "toi-greece": {
@@ -1857,22 +1860,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T08:28:51.439Z",
+      "at": "2026-10-08T08:43:56.832Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T08:28:51.699Z",
+      "at": "2026-10-08T08:43:56.962Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T08:28:52.416Z",
+      "at": "2026-10-08T08:43:57.842Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:28:53.022Z",
+      "at": "2026-10-08T08:43:58.365Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1882,12 +1885,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:28:46.614Z",
+      "at": "2026-10-08T08:43:52.012Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T08:28:53.677Z",
+      "at": "2026-10-08T08:43:59.241Z",
       "items": 0
     },
     "hcg": {
@@ -1898,32 +1901,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T08:28:54.873Z",
+      "at": "2026-10-08T08:44:00.548Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T08:28:55.058Z",
+      "at": "2026-10-08T08:44:00.747Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T08:28:55.199Z",
+      "at": "2026-10-08T08:44:00.914Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T08:28:55.360Z",
+      "at": "2026-10-08T08:44:01.126Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T08:28:55.692Z",
+      "at": "2026-10-08T08:44:01.453Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T08:28:56.104Z",
+      "at": "2026-10-08T08:44:01.877Z",
       "items": 10
     }
   },
@@ -2019,20 +2022,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T08:28:57.153Z",
-    "considered": 10,
+    "at": "2026-10-08T08:44:02.781Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greek Hospital Performs First Leadless Pacemaker Implant",
-      "· minfin | Διακήρυξη Δ’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Πε",
-      "· gct | Greece Expands Its Michelin Guide Footprint Beyond Athens",
-      "· ingr | Δικαστική δικαίωση για τους κατοίκους της Κυψέλης: «Πράσινο φως» για την πρόσβαση στα έγγρ",
-      "· gct | Greece Sets New Rules on Equal Pay and Salary Transparency",
-      "· gct | Greek Scientists Join Global Hunt for Cosmic Neutrinos",
-      "· migration | 16.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 15.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· gct | Aegean Airlines Ranked Europe’s Safest Airline in New 10-Year Safety Index",
-      "· gct | Greece Could Become Gas-Sufficient After Ionian Drilling"
+      "· gct | Athens Concert Revives Rebetiko Songs of Occupation and Resistance",
+      "· ingr | Ο Κωνσταντίνος Τσάτσος στην Πνύκα: «Το μόνιμον εγώ μας, το αμετάβλητον διά μέσου όλων των ",
+      "· gct | 140 Companies Offer Over 3,500 Jobs at Athens Career Day"
     ]
   },
   "evergreenDone": [
