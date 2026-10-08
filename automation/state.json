@@ -1818,7 +1818,9 @@
     "06acf64cbfa8": 1791453399820,
     "00f88919c5ce": 1791454004171,
     "1543571eb927": 1791454004171,
-    "213922159eb2": 1791455132778
+    "213922159eb2": 1791455132778,
+    "266b11ce3db8": 1791456196880,
+    "b39aca87599a": 1791456196880
   },
   "pending": {
     "4abed7": {
@@ -1934,12 +1936,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T10:28:29.450Z",
+      "at": "2026-10-08T10:43:02.976Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T10:28:30.213Z",
+      "at": "2026-10-08T10:43:03.993Z",
       "items": 4
     },
     "civilprotection": {
@@ -1950,27 +1952,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T10:28:31.543Z",
+      "at": "2026-10-08T10:43:06.769Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T10:28:31.907Z",
+      "at": "2026-10-08T10:43:07.159Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T10:28:32.784Z",
+      "at": "2026-10-08T10:43:08.745Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T10:28:33.498Z",
+      "at": "2026-10-08T10:43:09.582Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T10:28:34.462Z",
+      "at": "2026-10-08T10:43:10.272Z",
       "items": 10
     },
     "toi-greece": {
@@ -1981,22 +1983,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T10:28:35.049Z",
+      "at": "2026-10-08T10:43:10.506Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T10:28:35.368Z",
+      "at": "2026-10-08T10:43:12.110Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T10:28:36.039Z",
+      "at": "2026-10-08T10:43:12.341Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T10:28:36.448Z",
+      "at": "2026-10-08T10:43:12.560Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2006,12 +2008,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T10:28:30.569Z",
+      "at": "2026-10-08T10:43:04.757Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T10:28:37.139Z",
+      "at": "2026-10-08T10:43:13.412Z",
       "items": 0
     },
     "hcg": {
@@ -2022,39 +2024,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T10:28:38.719Z",
+      "at": "2026-10-08T10:43:14.646Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T10:28:38.942Z",
+      "at": "2026-10-08T10:43:14.815Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T10:28:39.082Z",
+      "at": "2026-10-08T10:43:14.945Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T10:28:39.291Z",
-      "items": 6
+      "at": "2026-10-08T10:43:15.184Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T10:28:39.651Z",
+      "at": "2026-10-08T10:43:15.538Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T10:28:40.077Z",
+      "at": "2026-10-08T10:43:15.941Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-08",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "santorini-mykonos-tourism-strategy-2026",
@@ -2079,11 +2081,22 @@
         "title": "↻ Athens Metro Line 1 Welcomes First Refurbished Train",
         "at": "2026-10-08T12:27:52+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "greece-best-country-condenast-2026",
+        "title": "Greece Named Best Country in the World for Travel in 2026",
+        "at": "2026-10-08T13:43:39+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "greece-best-country-condenast-2026",
+        "at": "2026-10-08T10:43:40.512Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2149,11 +2162,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T10:25:32.778Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-08T10:43:16.880Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· gct | Condé Nast Traveller readers have named Greece the world’s best country for tourism in 202"
+      "· gct | Plevris: First Agreement on African Return Hub Expected After Christmas",
+      "✓ gn-iefimerida | Condé Nast Traveller: Καλύτερη τουριστική χώρα στον κόσμο η Ελλάδα για το 2026! Θαυμασμός "
     ]
   },
   "evergreenDone": [
@@ -2196,5 +2210,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greece-best-country-condenast-2026",
+      "url": "https://yavanet.gr/a/greece-best-country-condenast-2026/",
+      "at": "2026-10-08T10:43:40.512Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-best-country-condenast-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-best-country-condenast-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "יוון נבחרה למדינה התיירותית הטובה בעולם לשנת 2026",
+        "title_en": "Greece Named Best Country in the World for Travel in 2026",
+        "dek_he": "מגזין הנסיעות העולמי קונדה נסט טראבלר דירג את יוון במקום הראשון בעולם לשנת 2026, עם דגש מיוחד על האיים והתחזקותה של אתונה.",
+        "dek_en": "The travel magazine Condé Nast Traveller has placed Greece at the top of its global ranking for 2026, praising the islands and Athens.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/10610779/pexels-photo-10610779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "יוון נבחרה למדינה התיירותית הטובה בעולם לשנת 2026\n\nמגזין הנסיעות העולמי קונדה נסט טראבלר דירג את יוון במקום הראשון בעולם לשנת 2026, עם דגש מיוחד על האיים והתחזקותה של אתונה.\n\nhttps://yavanet.gr/a/greece-best-country-condenast-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece Named Best Country in the World for Travel in 2026\n\nThe travel magazine Condé Nast Traveller has placed Greece at the top of its global ranking for 2026, praising the islands and Athens.\n\nhttps://yavanet.gr/en/a/greece-best-country-condenast-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
