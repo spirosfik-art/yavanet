@@ -2,7 +2,7 @@
   "slug": "crete-heavy-rains-snow-sentinel-2",
   "section": "breaking",
   "publishedAt": "2026-10-06T22:38:03+03:00",
-  "updatedAt": "2026-10-08T19:56:33+03:00",
+  "updatedAt": "2026-10-08T21:49:18+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 24.8093
   },
   "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/08/greece/kriti-ti-edeiksan-oi-aytopsies-meta-tin-kakokairia-i-eikona-pou-exei-diamorfothei-stis-pligeises-perioxes/"
+    },
     {
       "name": "Πολιτική Προστασία (μέσω Google News)",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQemRVeVEwbG1Lb09zMjFCOGlLUy1OakRwaVBxLWVzemU3ZFNPNTR3T01NQ216RVRKM3d5THVhcWVYZE4tUkVRQ3RwcFBwcDRKeWZ0Uy1oLTUtRVNIRVVWYU0tdHk2eHJLUzdscXBGNWZPYS13RzVLSDhLVEVjMzVRU1VXV0RoVzZ0eUpFcHB0REc?oc=5"
@@ -34,26 +38,26 @@
     "en": "Extreme Weather"
   },
   "he": {
-    "title": "עדכון מכרתים: הצפות נרחבות ברחבי האי",
-    "dek": "הרשויות ביוון מדווחות על הצפות נרחבות באזור כרתים בעקבות מזג אוויר קיצוני. המצב בשטח מחייב זהירות רבה.",
+    "title": "נזקי הסערה בכרתים: צוותי חירום בדקו 137 מבנים באי",
+    "dek": "משרד האקלים וההגנה האזרחית ממשיך בבדיקות וברישום נזקי מזג האוויר בכרתים. רוב המבנים שנבדקו עד כה סווגו כירוקים.",
     "tldr": [
-      "הצפות משמעותיות מדווחות ברחבי האי כרתים.",
-      "הגנת העורף היוונית מנהלת את אירועי החירום.",
-      "יש לעקוב אחר הנחיות הרשויות המקומיות בזמן אמת."
+      "נמשכות הבדיקות בשטח בכרתים לאומדן נזקי הסערה.",
+      "עד כה נבדקו 137 מבנים בסך הכל ברחבי האי.",
+      "127 מבנים קיבלו סיווג ירוק ו-10 מבנים סווגו כצהובים."
     ],
-    "means": "אם אתם נמצאים בכרתים, הימנעו מנסיעות לא חיוניות באזורים מוצפים והישמעו להוראות כוחות הביטחון. תיירים המתוכננים לטוס לאי או ממנו צריכים לבדוק מול חברות התעופה והמעבורות אם ישנם שינויים בלוחות הזמנים עקב תנאי השטח.",
-    "body": "## המצב בכרתים\nהרשויות ביוון פרסמו עדכון רשמי בנוגע להצפות נרחבות המתרחשות באזור כרתים. האירוע, המוגדר תחת קוד החירום EMSR933, נמצא תחת מעקב צמוד של הגנת העורף היוונית (Civil Protection).\n\n## הנחיות לציבור\nההצפות משפיעות על תשתיות מקומיות ועלולות לגרום לשיבושים בתנועה ובשירותים השונים באי. מומלץ לכל מי שנמצא באזור לנקוט משנה זהירות, להימנע מקרבה לאפיקי נחלים או לאזורים המועדים להצפות, ולהתעדכן באופן שוטף דרך כלי התקשורת המקומיים והודעות הרשויות.\n\n## טיפים למטיילים ולתושבים\nעבור ישראלים השוהים באי, חשוב לשמור על קשר עם גורמי התיירות או המארחים שלכם, שכן הם מכירים את המצב הספציפי בכל אזור. במידה ואתם מתכננים נסיעה לאי בימים הקרובים, מומלץ לוודא את תקינות המסלולים המתוכננים שלכם ולוודא כי שירותי התחבורה פועלים כסדרם."
+    "means": "אם אתם מתכננים חופשה בכרתים או נמצאים באי, מומלץ להתעדכן בתחזית מזג האוויר ולוודא מול מקום הלינה או חברות ההשכרה אם ישנם שינויים באזורים שבהם אתם שוהים. במקרה של מזג אוויר סוער, יש להישמע להנחיות הרשויות המקומיות.",
+    "body": "## עדכונים שוטפים מהשטח\n\nהרשויות ביוון ממשיכות בעבודת התיעוד והבדיקה של הנזקים שהותירה הסערה האחרונה בכרתים. צוותים מטעם המנהל הכללי לשיקום מפגעי אסונות טבע פוקדים את האזורים שנפגעו כדי לבצע הערכות הנדסיות מדויקות.\n\nסגן שר האקלים וההגנה האזרחית, קוסטאס קאתסאפאדוס (Katsafados), ציין כי התהליך מתבצע ביעילות ובמהירות, תוך יצירת קשר ישיר עם ראשי הרשויות המקומיות בכל האזורים הנגועים כדי לוודא את הנתונים ולטפל בכל נושא שעולה בשטח.\n\n## נתוני הבדיקות והמבנים שנפגעו\n\nמתוך סך של 137 מבנים שנבדקו עד כה ברחבי כרתים, הנתונים מתפלגים כך:\n\n- 127 מבנים הוגדרו כירוקים (ללא נזק משמעותי או עם נזק קל בלבד).\n- 10 מבנים סווגו כצהובים (דורשים תיקונים לפני שימוש נוסף).\n- 0 מבנים הוגדרו כאדומים.\n\nמבחינת חלוקת סוגי הנכסים, הבדיקות כללו 75 בתי מגורים, 36 עסקים ו-26 מבנים נוספים כמו מחסנים ואסמים. הסקירות מתקיימות בין היתר במועצות מקומיות ברחבי האי, והנתונים מתעדכנים על ידי הרשויות באופן שוטף."
   },
   "en": {
-    "title": "Crete update: Widespread flooding across the island",
-    "dek": "Greek authorities report widespread flooding in the Crete region due to severe weather conditions. Exercise caution and follow local guidance.",
+    "title": "Crete Storm Damage: Authorities Complete 137 Building Inspections",
+    "dek": "The Ministry of Climate Crisis and Civil Protection continues assessing storm damage across Crete, with daily updates from the inspection teams.",
     "tldr": [
-      "Significant flooding reported across the island of Crete.",
-      "Greek Civil Protection is managing the emergency response.",
-      "Monitor local authorities for real-time safety instructions."
+      "Engineers continue assessing damage across storm-hit areas in Crete.",
+      "A total of 137 buildings have been inspected so far.",
+      "127 structures received green tags and 10 received yellow tags."
     ],
-    "means": "If you are currently in Crete, avoid non-essential travel in flooded areas and follow all instructions from local security forces. Travelers with upcoming flights or ferry bookings should check with their operators for any schedule changes due to the weather.",
-    "body": "## Situation in Crete\nGreek authorities have issued an official update regarding widespread flooding currently affecting the Crete region. The event, designated under emergency code EMSR933, is being closely monitored by the Greek Civil Protection agency.\n\n## Public Safety Guidelines\nThese floods are impacting local infrastructure and may cause disruptions to transport and essential services across the island. It is strongly advised that anyone in the area exercises extreme caution, avoids proximity to riverbeds or flood-prone zones, and stays updated through local media and official government channels.\n\n## Advice for Travelers and Residents\nFor those currently on the island, maintain contact with your travel providers or hosts, as they are best positioned to provide information on the specific situation in your area. If you are planning to travel to the island in the coming days, please verify that your planned routes are accessible and confirm that transport services are operating as scheduled."
+    "means": "If you are traveling to Crete or planning a trip, check local weather conditions and stay in touch with your accommodation provider or tour operator regarding any local disruptions.",
+    "body": "## Ongoing Damage Assessments\n\nGreek authorities are pressing ahead with technical inspections in areas affected by recent severe weather in Crete. Teams from the Directorate for the Restoration of Natural Disaster Effects are systematically recording damages to ensure accurate data.\n\nDeputy Minister for Climate Crisis and Civil Protection, Kostas Katsafados, noted that the process is moving quickly and efficiently. Authorities are coordinating directly with local mayors to review the data and address any pending issues.\n\n## Inspection Breakdown\n\nOut of 137 buildings inspected across various communities in Crete so far:\n\n- 127 buildings have been classified as green (safe for use).\n- 10 buildings received yellow tags (requiring repairs).\n- 0 buildings were marked red.\n\nThe inspected properties include 75 residences, 36 commercial spaces, and 26 auxiliary structures such as storage facilities and stables. Inspections continue to be updated daily by the competent services."
   },
   "meta": {
     "itemId": "3a4aef6693df",
@@ -62,6 +66,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-08T14:46:47.266Z",
     "official": false,
-    "updatedFrom": "a11ccc797aa6"
+    "updatedFrom": "5eb9f41302ee"
   }
 }
