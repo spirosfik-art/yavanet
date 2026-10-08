@@ -1,0 +1,56 @@
+{
+  "slug": "athens-tourism-pressure-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-10-08T19:56:06+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Athens",
+  "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/10/08/athens-mayor-warns-of-tourism-pressure-housing-shortage-and-revenue-gap/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13748598/pexels-photo-13748598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking aerial view of Athens cityscape showcasing dense architecture and historic buildings.",
+    "credit": "Photo: Maksim Romashkin / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/drone-shot-of-city-13748598/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אתונה: ראש העיר מזהיר מעומס תיירותי ומחסור בדיור",
+    "dek": "ראש העיר האריס דוקאס מציג נתונים על זינוק במספר המבקרים בעיר ומצביע על הצורך בפתרונות למצוקת הדיור ולתשתיות העירוניות.",
+    "tldr": [
+      "מספר התיירים באתונה צפוי להגיע ל-10 מיליון בשנת 2026.",
+      "ראש העיר קורא לשינוי במדיניות המיסוי והקצאת המשאבים מהתיירות.",
+      "העירייה הגבילה רישום דירות חדשות לטווח קצר בשלושה מחוזות מרכזיים."
+    ],
+    "means": "המידע חשוב לישראלים המתכננים חופשה באתונה או שוקלים השקעות נדל\"ן בעיר, שכן הוא משקף שינויים רגולטוריים והגבלות על השכרות לטווח קצר.",
+    "body": "בכנס שנערך באתונה, התייחס ראש העיר האריס דוקאס לאתגרים הנובעים מהעלייה החדה במספר התיירים בעיר. על פי נתוני העירייה, מספר המבקרים צפוי לזנק לכ-10 מיליון בשנת 2026, לעומת כ-1.5 עד 2 מיליון בלבד בתחילת כהונת הממשל הנוכחי. ראש העיר ציין כי ההכנסות הישירות מהתיירות אינן מספיקות לכיסוי עלויות התחזוקה והשירותים העירוניים המוגברים.\n\nבמסגרת המאמצים לשמור על אופי השכונות ולטפל במחסור בדיור, העירייה ביצעה מחקר קיבולת שהוביל להטלת הגבלות על רישום דירות חדשות להשכרה לטווח קצר בשלושה מחוזות מרכזיים. בנוסף, העירייה פועלת להגביל פתיחת מלונות חדשים באזורים עמוסים וצמצום הסבת נכסי מגורים לעסקי בילוי. דוקאס הדגיש כי המטרה היא לשמר את המרקם הקהילתי של העיר ולאפשר לתושבים להמשיך להתגורר במרכז אתונה."
+  },
+  "en": {
+    "title": "Athens Mayor warns of tourism pressure and housing shortage",
+    "dek": "Mayor Haris Doukas highlights the impact of rising visitor numbers on municipal infrastructure and residential availability in Athens.",
+    "tldr": [
+      "Visitor numbers in Athens are expected to reach 10 million in 2026.",
+      "The municipality has restricted new short-term rental registrations in three districts.",
+      "Concerns raised over the balance between tourism growth and residential needs."
+    ],
+    "means": "This update is relevant for Israeli travelers and investors as it outlines current municipal policies regarding short-term rentals and urban development in Athens.",
+    "body": "Athens Mayor Haris Doukas has addressed the challenges posed by the significant increase in tourism within the Greek capital. During a recent conference, it was noted that visitor numbers are projected to approach 10 million in 2026, a substantial rise from previous years. The mayor emphasized that current municipal revenues from tourism are insufficient to cover the increased demand on local infrastructure and city services.\n\nTo manage the pressure on residential neighborhoods and address the housing crisis, the city has implemented restrictions on new short-term rental registrations in three central municipal districts. The administration is also working to limit the conversion of residential properties into hotels or entertainment venues in heavily burdened areas. These measures aim to preserve the residential character of the city center while balancing the needs of the tourism sector with the quality of life for permanent residents."
+  },
+  "meta": {
+    "itemId": "c91737a27633",
+    "imageQuery": "Athens city center",
+    "sourceHash": "a457432a2383",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-08T16:56:07.168Z",
+    "official": false
+  }
+}
