@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29527897/pexels-photo-29527897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "An elderly man sits among a crowd, captivated by an outdoor concert at twilight in Bratislava.",
+    "credit": "Photo: William Gevorg Urban / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/elderly-man-enjoying-outdoor-concert-at-twilight-29527897/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -71,6 +76,7 @@
     "itemId": "weekend-2026-10-09",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-10-08T10:13:23+03:00"
+    "checkedAt": "2026-10-08T10:13:23+03:00",
+    "photoTried": true
   }
 }
