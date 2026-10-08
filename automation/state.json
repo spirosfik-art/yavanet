@@ -1801,7 +1801,9 @@
     "98910c70c80a": 1791448137153,
     "9d9dd5f691a2": 1791449042781,
     "f7058c2f4f51": 1791449042781,
-    "025a7260b4d2": 1791449042781
+    "025a7260b4d2": 1791449042781,
+    "5aee32ffb2f9": 1791449901234,
+    "3167f66893c4": 1791449901234
   },
   "pending": {},
   "sourceStatus": {
@@ -1813,13 +1815,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T08:43:50.772Z",
+      "at": "2026-10-08T08:58:09.908Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T08:43:51.775Z",
-      "items": 5
+      "at": "2026-10-08T08:58:10.547Z",
+      "items": 4
     },
     "civilprotection": {
       "ok": false,
@@ -1829,27 +1831,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T08:43:53.254Z",
+      "at": "2026-10-08T08:58:12.482Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T08:43:53.623Z",
+      "at": "2026-10-08T08:58:12.860Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T08:43:54.827Z",
+      "at": "2026-10-08T08:58:13.915Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T08:43:55.763Z",
+      "at": "2026-10-08T08:58:14.734Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T08:43:56.226Z",
+      "at": "2026-10-08T08:58:15.722Z",
       "items": 10
     },
     "toi-greece": {
@@ -1860,22 +1862,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T08:43:56.832Z",
+      "at": "2026-10-08T08:58:16.239Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T08:43:56.962Z",
+      "at": "2026-10-08T08:58:16.623Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T08:43:57.842Z",
+      "at": "2026-10-08T08:58:17.104Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:43:58.365Z",
+      "at": "2026-10-08T08:58:17.262Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1885,12 +1887,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T08:43:52.012Z",
+      "at": "2026-10-08T08:58:11.440Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T08:43:59.241Z",
+      "at": "2026-10-08T08:58:17.972Z",
       "items": 0
     },
     "hcg": {
@@ -1901,32 +1903,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T08:44:00.548Z",
+      "at": "2026-10-08T08:58:19.066Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T08:44:00.747Z",
+      "at": "2026-10-08T08:58:19.319Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T08:44:00.914Z",
+      "at": "2026-10-08T08:58:19.513Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T08:44:01.126Z",
-      "items": 7
+      "at": "2026-10-08T08:58:19.797Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T08:44:01.453Z",
-      "items": 8
+      "at": "2026-10-08T08:58:20.170Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T08:44:01.877Z",
+      "at": "2026-10-08T08:58:20.559Z",
       "items": 10
     }
   },
@@ -2022,13 +2024,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-08T08:44:02.781Z",
-    "considered": 3,
+    "at": "2026-10-08T08:58:21.234Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Athens Concert Revives Rebetiko Songs of Occupation and Resistance",
-      "· ingr | Ο Κωνσταντίνος Τσάτσος στην Πνύκα: «Το μόνιμον εγώ μας, το αμετάβλητον διά μέσου όλων των ",
-      "· gct | 140 Companies Offer Over 3,500 Jobs at Athens Career Day"
+      "· gct | Stefanos Tsitsipas Advances at Shanghai Masters With Straight-Sets Win",
+      "· gct | BREAKING: Three Children Rescued as Istanbul Building Collapses"
     ]
   },
   "evergreenDone": [
