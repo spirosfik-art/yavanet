@@ -1898,12 +1898,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-08T20:56:18.088Z",
-      "items": 10
+      "at": "2026-10-08T21:05:06.606Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-08T20:56:18.880Z",
+      "at": "2026-10-08T21:05:07.195Z",
       "items": 3
     },
     "civilprotection": {
@@ -1914,27 +1914,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-08T20:56:20.545Z",
+      "at": "2026-10-08T21:05:08.473Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-08T20:56:20.780Z",
+      "at": "2026-10-08T21:05:08.974Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-08T20:56:21.784Z",
+      "at": "2026-10-08T21:05:09.733Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-08T20:56:22.598Z",
+      "at": "2026-10-08T21:05:10.367Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-08T20:56:23.542Z",
+      "at": "2026-10-08T21:05:11.205Z",
       "items": 10
     },
     "toi-greece": {
@@ -1945,22 +1945,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-08T20:56:24.136Z",
+      "at": "2026-10-08T21:05:11.712Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-08T20:56:24.333Z",
+      "at": "2026-10-08T21:05:11.989Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-08T20:56:24.686Z",
+      "at": "2026-10-08T21:05:12.435Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T20:56:24.880Z",
+      "at": "2026-10-08T21:05:12.587Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1970,12 +1970,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-08T20:56:19.745Z",
+      "at": "2026-10-08T21:05:07.745Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-08T20:56:25.462Z",
+      "at": "2026-10-08T21:05:13.111Z",
       "items": 0
     },
     "hcg": {
@@ -1986,154 +1986,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-08T20:56:26.898Z",
+      "at": "2026-10-08T21:05:14.413Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-08T20:56:27.157Z",
+      "at": "2026-10-08T21:05:14.639Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-08T20:56:27.374Z",
+      "at": "2026-10-08T21:05:14.853Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-08T20:56:27.601Z",
+      "at": "2026-10-08T21:05:15.083Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-08T20:56:28.067Z",
+      "at": "2026-10-08T21:05:15.454Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-08T20:56:28.550Z",
+      "at": "2026-10-08T21:05:16.087Z",
       "items": 4
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-08",
-    "count": 9,
-    "published": [
-      {
-        "slug": "santorini-mykonos-tourism-strategy-2026",
-        "title": "Santorini and Mykonos Expand Tourism Experiences",
-        "at": "2026-10-08T00:53:08+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-metro-line-4-tunnel-discrepancy",
-        "title": "↻ Athens Metro Line 4: Kypseli Works Proceed as Planned",
-        "at": "2026-10-08T01:02:46+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "earthquake-kasos-magnitude-4-2",
-        "title": "↻ Series of Earthquakes Near Kasos Island Reaches Magnitude 4.1",
-        "at": "2026-10-08T07:03:57+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-traffic-road-works-metro-plans",
-        "title": "↻ Athens Metro Line 1 Welcomes First Refurbished Train",
-        "at": "2026-10-08T12:27:52+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-best-country-condenast-2026",
-        "title": "Greece Named Best Country in the World for Travel in 2026",
-        "at": "2026-10-08T13:43:39+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "operation-thunderbolt-athens-1976",
-        "title": "Operation Thunderbolt 1976: The Athens hijacking",
-        "at": "2026-10-08T14:27:48+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "alexandrou-chora-northern-greece-investment",
-        "title": "Major one billion euro investment project launched in northern Greece",
-        "at": "2026-10-08T14:53:36+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "michelin-guide-greece-2027-october-20",
-        "title": "MICHELIN Guide to Unveil 2027 Greece Selection on October 20",
-        "at": "2026-10-08T17:46:46+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-tourism-pressure-2026",
-        "title": "Athens Mayor warns of tourism pressure and housing shortage",
-        "at": "2026-10-08T19:56:06+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "crete-heavy-rains-snow-sentinel-2",
-        "title": "↻ Crete update: Widespread flooding across the island",
-        "at": "2026-10-08T19:56:33+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "fire-in-deskati-grevena",
-        "title": "Fire reported in the Deskati area of Grevena",
-        "at": "2026-10-08T19:57:13+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "forest-fire-thesprotia-greece",
-        "title": "Forest fire breaks out in Thesprotia, Greece",
-        "at": "2026-10-08T21:04:23+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "colombia-embassy-jerusalem",
-        "title": "Colombia to move embassy to Jerusalem on Wednesday",
-        "at": "2026-10-08T21:29:35+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "crete-heavy-rains-snow-sentinel-2",
-        "title": "↻ Crete Storm Damage: Authorities Complete 137 Building Inspections",
-        "at": "2026-10-08T21:49:18+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "«Η σχέση Ισραήλ-Ελλάδας βασίζεται στην εμπιστοσύνη και τις κοινές αξίες», δήλωσε η πρέσβης του Ισραήλ μετά τη συνάντηση με τον Χρυσοχοΐδη",
-        "reason": "Mixed-script (broken) Hebrew words: חוΐדיס, חוΐדיס, חוΐדיס. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-08T12:33:44.664Z"
-      },
-      {
-        "title": "Μακάμπι Τελ Αβίβ – Αρμάνι Μιλάνο 97-79: Έκαναν «σεφτε» στη Euroleague οι Ισραηλινοί (vid)",
-        "reason": "The Hebrew seoTitle contains a factual error: it states the match took place in Greece ('ביוון'), while the source text explicitly states it took place in Belgrade ('Βελιγραδίου').; The Hebrew 'means' section incorrectly mentions the game is a milestone for fans in Greece, which is not supported by ",
-        "at": "2026-10-08T19:41:10.417Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greece-best-country-condenast-2026",
-        "at": "2026-10-08T10:43:40.512Z"
-      },
-      {
-        "slug": "michelin-guide-greece-2027-october-20",
-        "at": "2026-10-08T14:46:46.985Z"
-      },
-      {
-        "slug": "athens-tourism-pressure-2026",
-        "at": "2026-10-08T16:56:07.169Z"
-      }
-    ]
+    "date": "2026-10-09",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-08",
+      "count": 9,
+      "rejected": 2
+    },
     {
       "date": "2026-10-07",
       "count": 11,
