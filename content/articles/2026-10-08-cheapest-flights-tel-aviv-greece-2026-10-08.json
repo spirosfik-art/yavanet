@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32328795/pexels-photo-32328795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up view of an Aegean Airlines Airbus A321 plane in flight against a bright sky.",
+    "credit": "Photo: mdworks / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aegean-airlines-airbus-a321-in-flight-close-up-32328795/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-10-08T08:36:03+03:00"
+    "checkedAt": "2026-10-08T08:36:03+03:00",
+    "photoTried": true
   }
 }
