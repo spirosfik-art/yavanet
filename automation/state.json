@@ -2039,7 +2039,8 @@
     "a10459b1fdc2": 1791571513038,
     "9544a530885b": 1791571513038,
     "8ecf5270c52f": 1791572353661,
-    "f0eddc115f2d": 1791572942321
+    "f0eddc115f2d": 1791572942321,
+    "ec9c321df1cd": 1791573895410
   },
   "pending": {},
   "sourceStatus": {
@@ -2051,12 +2052,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T19:08:46.278Z",
+      "at": "2026-10-09T19:24:39.596Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T19:08:47.045Z",
+      "at": "2026-10-09T19:24:40.373Z",
       "items": 6
     },
     "civilprotection": {
@@ -2067,27 +2068,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T19:08:49.155Z",
+      "at": "2026-10-09T19:24:41.751Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T19:08:49.217Z",
+      "at": "2026-10-09T19:24:42.189Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T19:08:50.303Z",
+      "at": "2026-10-09T19:24:43.802Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T19:08:51.085Z",
+      "at": "2026-10-09T19:24:44.601Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T19:08:51.922Z",
+      "at": "2026-10-09T19:24:45.489Z",
       "items": 10
     },
     "toi-greece": {
@@ -2098,22 +2099,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T19:08:52.535Z",
+      "at": "2026-10-09T19:24:46.129Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T19:08:52.813Z",
+      "at": "2026-10-09T19:24:46.398Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T19:08:53.529Z",
-      "items": 6
+      "at": "2026-10-09T19:24:47.097Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T19:08:53.722Z",
+      "at": "2026-10-09T19:24:47.679Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2123,12 +2124,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T19:08:47.270Z",
+      "at": "2026-10-09T19:24:40.594Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T19:08:54.569Z",
+      "at": "2026-10-09T19:24:48.328Z",
       "items": 0
     },
     "hcg": {
@@ -2139,39 +2140,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T19:08:56.151Z",
+      "at": "2026-10-09T19:24:49.549Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T19:08:56.346Z",
+      "at": "2026-10-09T19:24:53.360Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T19:08:56.519Z",
+      "at": "2026-10-09T19:24:53.536Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T19:09:00.590Z",
-      "items": 0
+      "at": "2026-10-09T19:24:53.709Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T19:09:00.972Z",
+      "at": "2026-10-09T19:24:54.070Z",
       "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T19:09:01.411Z",
-      "items": 8
+      "at": "2026-10-09T19:24:54.489Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-09",
-    "count": 10,
+    "count": 11,
     "published": [
       {
         "slug": "athens-housing-prices-800k-2026",
@@ -2232,6 +2233,12 @@
         "title": "Greece updates property transfer rules for tax debtors",
         "at": "2026-10-09T20:53:09+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "greece-weather-storm-snow-marousakis",
+        "title": "Severe weather system heading to Greece with snow on the mainland",
+        "at": "2026-10-09T22:25:09+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2355,11 +2362,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T19:09:02.321Z",
+    "at": "2026-10-09T19:24:55.410Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | Telegraph Targets Greece Over Patriot Missiles for Ukraine as Greek Crews Defend Saudi Ara"
+      "✓ gn-iefimerida | Καιρός: Έρχεται οργανωμένο κύμα κακοκαιρίας, ακόμη και με χιόνια στα ηπειρωτικά -Η πρόγνωσ"
     ]
   },
   "evergreenDone": [
