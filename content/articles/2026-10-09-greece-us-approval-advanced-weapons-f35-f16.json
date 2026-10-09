@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9888685/pexels-photo-9888685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A Greek police car parked on a street in Rodos, Greece, showcasing local architecture.",
+    "credit": "Photo: Matti Karstedt / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-police-car-on-the-road-9888685/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "alert": {
     "he": "ביטחון ביוון",
@@ -67,6 +72,7 @@
     "sourceHash": "0f05cdcd35fd",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-09T05:29:55.289Z",
-    "official": false
+    "official": false,
+    "photoTried": true
   }
 }
