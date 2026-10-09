@@ -1921,7 +1921,8 @@
     "bb4960f4185d": 1791520043478,
     "52f83540f479": 1791520043478,
     "ffef1e89033a": 1791520043478,
-    "078dd7e9353c": 1791520043478
+    "078dd7e9353c": 1791520043478,
+    "79d602977e31": 1791522225377
   },
   "pending": {
     "316045": {
@@ -2037,12 +2038,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T04:55:51.488Z",
+      "at": "2026-10-09T05:03:32.780Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T04:55:52.020Z",
+      "at": "2026-10-09T05:03:33.560Z",
       "items": 3
     },
     "civilprotection": {
@@ -2053,27 +2054,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T04:55:53.384Z",
+      "at": "2026-10-09T05:03:35.383Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T04:55:53.631Z",
+      "at": "2026-10-09T05:03:35.769Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T04:55:54.387Z",
+      "at": "2026-10-09T05:03:36.677Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T04:55:55.034Z",
+      "at": "2026-10-09T05:03:37.503Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T04:55:55.362Z",
+      "at": "2026-10-09T05:03:38.450Z",
       "items": 10
     },
     "toi-greece": {
@@ -2084,22 +2085,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T04:55:55.753Z",
+      "at": "2026-10-09T05:03:39.026Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T04:55:55.889Z",
+      "at": "2026-10-09T05:03:39.159Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T04:55:56.073Z",
-      "items": 7
+      "at": "2026-10-09T05:03:39.907Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T04:55:56.186Z",
+      "at": "2026-10-09T05:03:40.290Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2109,12 +2110,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T04:55:52.574Z",
+      "at": "2026-10-09T05:03:34.554Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T04:55:56.736Z",
+      "at": "2026-10-09T05:03:40.981Z",
       "items": 0
     },
     "hcg": {
@@ -2125,32 +2126,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T04:55:58.100Z",
+      "at": "2026-10-09T05:03:42.262Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T04:55:58.300Z",
+      "at": "2026-10-09T05:03:42.461Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T04:55:58.486Z",
+      "at": "2026-10-09T05:03:42.662Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T04:55:58.720Z",
-      "items": 4
+      "at": "2026-10-09T05:03:42.866Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T04:55:59.066Z",
+      "at": "2026-10-09T05:03:43.223Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T04:55:59.532Z",
+      "at": "2026-10-09T05:03:43.642Z",
       "items": 6
     }
   },
@@ -2245,15 +2246,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T04:27:23.478Z",
-    "considered": 5,
-    "picked": 1,
+    "at": "2026-10-09T05:03:45.377Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· naftemporiki | ΗΠΑ: Εκτέλεση διά τυφεκισμού σε ζωντανή μετάδοση – Ποιος είναι ο Νιντάλ Μαλίκ Χασάν που οδ",
-      "· gct | US says the Fort Hood gunman’s execution will be shown live",
-      "· gct | Fidan says a defence pact with Saudi Arabia is not a licence to attack",
-      "· gct | Chalmers delays the ATO’s credit-card ban until the end of June 2027",
-      "✓ gct | Greece Wins Initial US Approval for F-35 and F-16 Weapons"
+      "· ingr | Από τον Μάη του ΄68 και τα Κίτρινα Γιλέκα στον μαθητικό ξεσηκωμό – Δρόμοι οργής στη Γαλλία"
     ]
   },
   "evergreenDone": [
