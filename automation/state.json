@@ -1985,7 +1985,10 @@
     "71f2ff56dda9": 1791545831466,
     "43b20c466701": 1791545831466,
     "ea102dd93378": 1791546800097,
-    "02a26dfb16c4": 1791546800097
+    "02a26dfb16c4": 1791546800097,
+    "5eec517b80b2": 1791547405648,
+    "06e275b85e17": 1791547405648,
+    "5be60d712d19": 1791547405648
   },
   "pending": {
     "7cf266": {
@@ -2205,12 +2208,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T11:53:10.880Z",
+      "at": "2026-10-09T12:03:12.755Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T11:53:11.478Z",
+      "at": "2026-10-09T12:03:13.557Z",
       "items": 6
     },
     "civilprotection": {
@@ -2221,27 +2224,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T11:53:12.866Z",
+      "at": "2026-10-09T12:03:15.452Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T11:53:13.285Z",
+      "at": "2026-10-09T12:03:15.547Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T11:53:14.058Z",
+      "at": "2026-10-09T12:03:16.784Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T11:53:14.587Z",
+      "at": "2026-10-09T12:03:17.633Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T11:53:15.271Z",
+      "at": "2026-10-09T12:03:18.588Z",
       "items": 10
     },
     "toi-greece": {
@@ -2252,23 +2255,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T11:53:16.068Z",
+      "at": "2026-10-09T12:03:19.207Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T11:53:16.185Z",
+      "at": "2026-10-09T12:03:19.305Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T11:53:16.250Z",
+      "at": "2026-10-09T12:03:19.547Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T11:53:16.388Z",
-      "items": 2
+      "at": "2026-10-09T12:03:20.115Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2277,12 +2280,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T11:53:11.936Z",
+      "at": "2026-10-09T12:03:14.146Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T11:53:16.818Z",
+      "at": "2026-10-09T12:03:20.929Z",
       "items": 0
     },
     "hcg": {
@@ -2293,33 +2296,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T11:53:17.937Z",
+      "at": "2026-10-09T12:03:23.321Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T11:53:18.148Z",
+      "at": "2026-10-09T12:03:23.551Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T11:53:18.307Z",
+      "at": "2026-10-09T12:03:23.712Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T11:53:18.543Z",
+      "at": "2026-10-09T12:03:23.985Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T11:53:18.931Z",
-      "items": 1
+      "at": "2026-10-09T12:03:24.327Z",
+      "items": 0
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T11:53:19.351Z",
-      "items": 6
+      "at": "2026-10-09T12:03:24.687Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2451,12 +2454,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T11:53:20.097Z",
-    "considered": 2,
+    "at": "2026-10-09T12:03:25.648Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· ktg | Powerful explosion at MOTOR OIL Refinery injures 2 very seriously",
-      "· gct | Melbourne Primary School Teacher Accused of Secretly Filming Children in Toilets"
+      "· naftemporiki | Οργισμένη αντίδραση του Ισραήλ για το Νόμπελ Ειρήνης στη Νάβι Πιλάι – Ύμνοι της Haaretz: «",
+      "· gct | Greece freezes assets of doctors held over Giorgos Mazonakis death",
+      "· gn-iefimerida | Θεσσαλονίκη: Το 25% των οδηγών που παλαιότερα πήγαιναν με το αυτοκίνητο στο κέντρο, πλέον "
     ]
   },
   "evergreenDone": [
