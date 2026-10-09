@@ -2060,7 +2060,11 @@
     "58cbc8b8190f": 1791584728541,
     "44c772b9c16a": 1791584728541,
     "3c78a88d9b31": 1791585511336,
-    "78d34e6af4d0": 1791585511336
+    "78d34e6af4d0": 1791585511336,
+    "3293455a1bb2": 1791586391291,
+    "89d763558213": 1791586391291,
+    "43c5ef607765": 1791586391291,
+    "4301932665fa": 1791586391291
   },
   "pending": {},
   "sourceStatus": {
@@ -2071,14 +2075,13 @@
       "fails": 529
     },
     "minfin": {
-      "ok": false,
-      "at": "2026-10-09T22:38:20.300Z",
-      "error": "fetch failed",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-09T22:52:59.198Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T22:38:21.094Z",
+      "at": "2026-10-09T22:52:59.934Z",
       "items": 6
     },
     "civilprotection": {
@@ -2089,27 +2092,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T22:38:22.838Z",
+      "at": "2026-10-09T22:53:02.380Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T22:38:23.067Z",
+      "at": "2026-10-09T22:53:02.843Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T22:38:24.139Z",
+      "at": "2026-10-09T22:53:04.478Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T22:38:24.814Z",
+      "at": "2026-10-09T22:53:05.186Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T22:38:25.645Z",
+      "at": "2026-10-09T22:53:06.048Z",
       "items": 10
     },
     "toi-greece": {
@@ -2120,22 +2123,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T22:38:26.170Z",
+      "at": "2026-10-09T22:53:06.646Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T22:38:26.367Z",
+      "at": "2026-10-09T22:53:06.919Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T22:38:26.994Z",
-      "items": 5
+      "at": "2026-10-09T22:53:07.018Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:38:27.437Z",
+      "at": "2026-10-09T22:53:07.588Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2145,12 +2148,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:38:21.988Z",
+      "at": "2026-10-09T22:53:00.792Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T22:38:28.046Z",
+      "at": "2026-10-09T22:53:08.251Z",
       "items": 0
     },
     "hcg": {
@@ -2161,32 +2164,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T22:38:29.235Z",
+      "at": "2026-10-09T22:53:09.374Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T22:38:29.521Z",
-      "items": 7
+      "at": "2026-10-09T22:53:09.590Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T22:38:29.696Z",
+      "at": "2026-10-09T22:53:09.752Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T22:38:29.916Z",
+      "at": "2026-10-09T22:53:09.929Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T22:38:30.306Z",
+      "at": "2026-10-09T22:53:10.299Z",
       "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T22:38:30.747Z",
+      "at": "2026-10-09T22:53:10.770Z",
       "items": 10
     }
   },
@@ -2272,12 +2275,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T22:38:31.336Z",
-    "considered": 2,
+    "at": "2026-10-09T22:53:11.291Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Greece Expands Mountain Tourism Beyond Experienced Climbers",
-      "· ert | Διακοπή κυκλοφορίας στο Αιγάλεω λόγω πυρκαγιάς σε εργοστάσιο υφασμάτων"
+      "· ingr | Διακοπή κυκλοφορίας λόγω φωτιάς στο Αιγάλεω",
+      "· gct | Greek Prime Minister Rules Out Early Elections",
+      "· gct | Greece, Albania and North Macedonia Launch UNESCO Bid",
+      "· gct | Olympiacos Crush Turkish Club Anadolu Efes 89-66 in EuroLeague"
     ]
   },
   "evergreenDone": [
