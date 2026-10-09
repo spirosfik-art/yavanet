@@ -1958,7 +1958,10 @@
     "cb3a422c3cab": 1791532487313,
     "703e1ad4c913": 1791533050470,
     "0533ffb0eefe": 1791537920067,
-    "83be732a752e": 1791537920067
+    "83be732a752e": 1791537920067,
+    "ea924ead97d0": 1791539006977,
+    "4b86fbf7916b": 1791539006977,
+    "0ed1b695624f": 1791539006977
   },
   "pending": {},
   "sourceStatus": {
@@ -1970,12 +1973,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T09:27:58.689Z",
-      "items": 0
+      "at": "2026-10-09T09:43:15.240Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T09:27:59.688Z",
+      "at": "2026-10-09T09:43:16.011Z",
       "items": 3
     },
     "civilprotection": {
@@ -1986,27 +1989,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T09:28:01.782Z",
+      "at": "2026-10-09T09:43:17.657Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T09:28:02.146Z",
+      "at": "2026-10-09T09:43:18.016Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T09:28:03.164Z",
+      "at": "2026-10-09T09:43:19.072Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T09:28:03.960Z",
+      "at": "2026-10-09T09:43:20.011Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T09:28:04.820Z",
+      "at": "2026-10-09T09:43:20.936Z",
       "items": 10
     },
     "toi-greece": {
@@ -2017,22 +2020,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T09:28:05.422Z",
+      "at": "2026-10-09T09:43:21.504Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T09:28:05.655Z",
+      "at": "2026-10-09T09:43:21.552Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T09:28:06.370Z",
-      "items": 7
+      "at": "2026-10-09T09:43:22.271Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T09:28:06.880Z",
+      "at": "2026-10-09T09:43:22.465Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2042,12 +2045,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T09:28:00.479Z",
+      "at": "2026-10-09T09:43:16.421Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T09:28:07.728Z",
+      "at": "2026-10-09T09:43:23.103Z",
       "items": 0
     },
     "hcg": {
@@ -2058,39 +2061,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T09:28:09.359Z",
+      "at": "2026-10-09T09:43:24.530Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T09:28:09.575Z",
+      "at": "2026-10-09T09:43:24.741Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T09:28:09.736Z",
+      "at": "2026-10-09T09:43:24.937Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T09:28:09.909Z",
-      "items": 5
+      "at": "2026-10-09T09:43:25.179Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T09:28:10.246Z",
+      "at": "2026-10-09T09:43:25.509Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T09:28:10.596Z",
+      "at": "2026-10-09T09:43:25.916Z",
       "items": 4
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-09",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "athens-housing-prices-800k-2026",
@@ -2109,6 +2112,12 @@
         "title": "Greece Establishes New Property Values Database",
         "at": "2026-10-09T12:29:20+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "greece-winter-time-october-2026",
+        "title": "Greece Winter Time 2026: When Clocks Go Back in October",
+        "at": "2026-10-09T12:43:41+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2204,12 +2213,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T09:25:20.067Z",
-    "considered": 2,
+    "at": "2026-10-09T09:43:26.977Z",
+    "considered": 3,
     "picked": 1,
     "items": [
-      "· ingr | Εκπαίδευση 80 εκπαιδευτικών με προσομοίωση σεισμού σε σχολικό περιβάλλον",
-      "✓ naftemporiki | Ψηφιακό «ραντάρ» για τις τιμές των ακινήτων"
+      "· gtp | Original Sacher-Torte Comes to Alelia Bar at One&Only Aesthesis",
+      "✓ gct | Clocks go back on 25 October as Greece returns to winter time",
+      "· ingr | Στη Νάβι Πίλαϊ, δικαστή και αγωνίστρια για το διεθνές δίκαιο, το φετινό Νόμπελ Ειρήνης"
     ]
   },
   "evergreenDone": [
