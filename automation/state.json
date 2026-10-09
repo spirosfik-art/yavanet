@@ -1988,7 +1988,13 @@
     "02a26dfb16c4": 1791546800097,
     "5eec517b80b2": 1791547405648,
     "06e275b85e17": 1791547405648,
-    "5be60d712d19": 1791547405648
+    "5be60d712d19": 1791547405648,
+    "b93b02a739b3": 1791549033022,
+    "c47c7b95436b": 1791549033022,
+    "2fa845b8e239": 1791549033022,
+    "1e60fce7d9a5": 1791549033022,
+    "00b347ce2525": 1791549033022,
+    "bbf31d9bfd5a": 1791549033022
   },
   "pending": {
     "7cf266": {
@@ -2197,6 +2203,109 @@
         ]
       },
       "notified": true
+    },
+    "0287d1": {
+      "createdAt": 1791549064226,
+      "item": {
+        "title": "Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής",
+        "url": "https://minfin.gov.gr/dilosi-tou-ypourgou-ethnikis-oikonomias-kai-oikonomikon-kyriakou-pierrakaki-gia-tin-energeiaki-ritra-diafygis/",
+        "summary": "«Η σημερινή απόφαση της Ευρωπαϊκής Επιτροπής για την έγκριση της ενεργειακής ρήτρας διαφυγής, που αφορά αποκλειστικά την Ελλάδα, έχει ιδιαίτερη πολιτική και οικονομική σημασία. Επιβεβαιώνει ότι η Ελλάδα είναι μια ισχυρή και αξιόπιστη χώρα, που θέτει στόχους, τους πετυχαίνει και πρωταγωνιστεί στη διαμόρφωση των ευρωπαϊκών αποφάσεων. Η ενεργειακή ρήτρα διαφυγής μάς επιτρέπει να […]\n Το άρθρο Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας και Οικονομικών .",
+        "published": "Fri, 09 Oct 2026 12:06:23 +0000",
+        "id": "1e60fce7d9a5",
+        "sourceId": "minfin",
+        "sourceName": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+        "official": true,
+        "emergency": false,
+        "sectionHint": "real-estate",
+        "strike": false
+      },
+      "pick": {
+        "id": "1e60fce7d9a5",
+        "section": "politics",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The European Commission approved Greece's energy escape clause request, impacting the Greek economy and investment climate.",
+        "item": {
+          "title": "Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής",
+          "url": "https://minfin.gov.gr/dilosi-tou-ypourgou-ethnikis-oikonomias-kai-oikonomikon-kyriakou-pierrakaki-gia-tin-energeiaki-ritra-diafygis/",
+          "summary": "«Η σημερινή απόφαση της Ευρωπαϊκής Επιτροπής για την έγκριση της ενεργειακής ρήτρας διαφυγής, που αφορά αποκλειστικά την Ελλάδα, έχει ιδιαίτερη πολιτική και οικονομική σημασία. Επιβεβαιώνει ότι η Ελλάδα είναι μια ισχυρή και αξιόπιστη χώρα, που θέτει στόχους, τους πετυχαίνει και πρωταγωνιστεί στη διαμόρφωση των ευρωπαϊκών αποφάσεων. Η ενεργειακή ρήτρα διαφυγής μάς επιτρέπει να […]\n Το άρθρο Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας και Οικονομικών .",
+          "published": "Fri, 09 Oct 2026 12:06:23 +0000",
+          "id": "1e60fce7d9a5",
+          "sourceId": "minfin",
+          "sourceName": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+          "official": true,
+          "emergency": false,
+          "sectionHint": "real-estate",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-energy-escape-clause-approved",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "כלכלה ביוון",
+          "en": "Greece Economy"
+        },
+        "imageKey": "politics",
+        "imageQuery": "greek ministry of finance athens",
+        "he": {
+          "title": "יוון קיבלה אישור אירופי מיוחד לסעיף החירום האנרגטי",
+          "seoTitle": "כלכלה ביוון: אישור אירופי לסעיף החירום האנרגטי",
+          "seoDesc": "הנציבות האירופית אישרה את מנגנון החירום האנרגטי המיועד ליוון בלבד. כל הפרטים על ההחלטה הכלכלית והפוליטית.",
+          "keywords": [
+            "כלכלה ביוון",
+            "חדשות יוון",
+            "משרד האוצר יוון",
+            "יוון",
+            "פוליטיקה ביוון"
+          ],
+          "dek": "הנציבות האירופית אישרה את הפעלת מנגנון החירום האנרגטי המיוחד עבור יוון בלבד. שר האוצר היווני מברך על ההחלטה.",
+          "tldr": [
+            "הנציבות האירופית אישרה רשמית את סעיף החירום האנרגטי עבור יוון.",
+            "המהלך מיועד באופן בלעדי למשק האנרגטי היווני ומכיל משמעות פוליטית וכלכלית.",
+            "בממשלה רואים בכך הוכחה למעמדה האיתן של המדינה באיחוד."
+          ],
+          "means": "עבור ישראלים המשקיעים בנדל\"ן ביוון או מתגוררים במדינה, ההתפתחויות הכלכליות והאנרגטיות ברמת המאקרו משפיעות לאורך זמן על עלויות המחיה, שוק השכירות והיציבות הכללית. כדאי לעקוב אחר עדכוני הרשויות בנושא מחירי האנרגיה ולהתייעץ עם אנשי מקצוע מקומיים לגבי השפעות עתידיות על נכסים ועסקים.",
+          "body": "## אישור מיוחד מהנציבות האירופית\n\nהנציבות האירופית נתנה את אישורה הרשמי להפעלת רשת ביטחון ומנגנון חירום אנרגטי, אשר מיועד ומותאם באופן בלעדי עבור יוון. מדובר בהחלטה שקיבלה תשומת לב רבה מצד ראשי הכלכלה במדינה, המדגישים את חשיבותה למרחב הפיסקלי והאנרגטי המקומי.\n\n## תגובת משרד הכלכלה הלאומית והאוצר\n\nשר הכלכלה הלאומית והאוצר, קיריאקוס פירראקאקיס (קיריאקוס פיאראקאקיס), התייחס להחלטה והדגיש את משמעותה הרחבה. לדבריו, מדובר במהלך בעל חשיבות פוליטית וכלכלית יוצאת דופן המוכיח את חוסנה ואמינותה של המדינה בזירה האירופית.\n\n## חיזוק המעמד הכלכלי\n\nבממשלה מציינים כי אישור המנגנון ממחיש את יכולתה של יוון להציב יעדים כלכליים מוגדרים, לעמוד בהם ואף להוביל ולקחת חלק משמעותי בעיצוב מדיניות רחבה ברחבי האיחוד האירופי."
+        },
+        "en": {
+          "title": "European Commission Approves Greece-Specific Energy Escape Clause",
+          "seoTitle": "Greece Economy: European Approval for Energy Clause",
+          "seoDesc": "The European Commission approved the energy escape clause intended exclusively for Greece. Read the details on this economic decision.",
+          "keywords": [
+            "Greece economy",
+            "Greece news",
+            "Greek ministry of finance",
+            "Greece",
+            "Greek politics"
+          ],
+          "dek": "The European Commission has officially approved the energy escape clause designed exclusively for Greece, marking a significant economic development.",
+          "tldr": [
+            "The European Commission greenlit the energy escape clause specifically for Greece.",
+            "The mechanism applies exclusively to the Greek energy market and carries political weight.",
+            "Greek officials view this as proof of the country's strong and reliable standing."
+          ],
+          "means": "For Israelis investing in Greek real estate or living in the country, macroeconomic energy and economic updates ultimately impact living costs, the rental market, and overall stability. It is recommended to monitor official updates regarding energy policies and consult local professionals regarding potential impacts on properties and businesses.",
+          "body": "## Special Approval from the European Commission\n\nThe European Commission has granted formal approval for an energy escape clause mechanism that applies exclusively to Greece. This decision has drawn significant attention from the country's economic leadership, who emphasize its importance for the local fiscal and energy landscape.\n\n## Response from the Ministry of National Economy and Finance\n\nMinister of National Economy and Finance Kyriakos Pierrakakis addressed the decision, highlighting its broad significance. He stated that the development holds exceptional political and economic weight, confirming the country's strength and reliability within the European arena.\n\n## Strengthening Economic Standing\n\nGovernment officials noted that the approval of the mechanism demonstrates Greece's ability to set clear economic targets, achieve them, and play a leading role in shaping broader policies across the European Union."
+        }
+      },
+      "text": "Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής\n«Η σημερινή απόφαση της Ευρωπαϊκής Επιτροπής για την έγκριση της ενεργειακής ρήτρας διαφυγής, που αφορά αποκλειστικά την Ελλάδα, έχει ιδιαίτερη πολιτική και οικονομική σημασία. Επιβεβαιώνει ότι η Ελλάδα είναι μια ισχυρή και αξιόπιστη χώρα, που θέτει στόχους, τους πετυχαίνει και πρωταγωνιστεί στη διαμόρφωση των ευρωπαϊκών αποφάσεων. Η ενεργειακή ρήτρα διαφυγής μάς επιτρέπει να […]\n Το άρθρο Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργειακή ρήτρα διαφυγής εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας και Οικονομικών .",
+      "issues": [],
+      "el": {
+        "title": "Η Ευρωπαϊκή Επιτροπή ενέκρινε την ειδική ρήτρα διαφυγής ενέργειας για την Ελλάδα",
+        "dek": "Η Ευρωπαϊκή Επιτροπή ενέκρινε επίσημα τη ρήτρα διαφυγής ενέργειας που σχεδιάστηκε αποκλειστικά για την Ελλάδα, σηματοδοτώντας μια σημαντική οικονομική εξέλιξη.",
+        "tldr": [
+          "Η Ευρωπαϊκή Επιτροπή άναψε το πράσινο φως για τη ρήτρα διαφυγής ενέργειας ειδικά για την Ελλάδα.",
+          "Ο μηχανισμός εφαρμόζεται αποκλειστικά στην ελληνική αγορά ενέργειας και φέρει πολιτικό βάρος.",
+          "Οι Έλληνες αξιωματούχοι το βλέπουν αυτό ως απόδειξη της ισχυρής και αξιόπιστης θέσης της χώρας."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2208,12 +2317,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T12:03:12.755Z",
+      "at": "2026-10-09T12:30:21.989Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T12:03:13.557Z",
+      "at": "2026-10-09T12:30:22.755Z",
       "items": 6
     },
     "civilprotection": {
@@ -2224,27 +2333,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T12:03:15.452Z",
+      "at": "2026-10-09T12:30:24.565Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T12:03:15.547Z",
+      "at": "2026-10-09T12:30:24.643Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T12:03:16.784Z",
+      "at": "2026-10-09T12:30:25.683Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T12:03:17.633Z",
+      "at": "2026-10-09T12:30:26.472Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T12:03:18.588Z",
+      "at": "2026-10-09T12:30:27.348Z",
       "items": 10
     },
     "toi-greece": {
@@ -2255,23 +2364,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T12:03:19.207Z",
+      "at": "2026-10-09T12:30:27.945Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T12:03:19.305Z",
+      "at": "2026-10-09T12:30:28.028Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T12:03:19.547Z",
+      "at": "2026-10-09T12:30:28.073Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T12:03:20.115Z",
-      "items": 3
+      "at": "2026-10-09T12:30:28.270Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2280,12 +2389,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T12:03:14.146Z",
+      "at": "2026-10-09T12:30:23.404Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T12:03:20.929Z",
+      "at": "2026-10-09T12:30:28.925Z",
       "items": 0
     },
     "hcg": {
@@ -2296,32 +2405,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T12:03:23.321Z",
+      "at": "2026-10-09T12:30:30.257Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T12:03:23.551Z",
+      "at": "2026-10-09T12:30:30.463Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T12:03:23.712Z",
+      "at": "2026-10-09T12:30:30.698Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T12:03:23.985Z",
+      "at": "2026-10-09T12:30:30.922Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T12:03:24.327Z",
-      "items": 0
+      "at": "2026-10-09T12:30:31.281Z",
+      "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T12:03:24.687Z",
+      "at": "2026-10-09T12:30:31.675Z",
       "items": 7
     }
   },
@@ -2371,6 +2480,16 @@
         "title": "Lebanon accuses Israel of violating framework agreement",
         "reason": "Ουδέτερη εκδοχή: Rule 1 & 2: The article presents unilateral political accusations by a foreign leader regarding active geopolitical disputes and violations ('ישראל מפרה את הסכם המסגרת') without maintaining neutral framing or balance, which violates the strict neutrality and non-taking-sides rules r",
         "at": "2026-10-09T09:25:05.788Z"
+      },
+      {
+        "title": "Αγνοούμενος Ισραηλινός πεζοπόρος στον Όλυμπο εντοπίστηκε νεκρός, σε υψόμετρο περίπου 1.800 μέτρων - iefimerida.gr",
+        "reason": "The article mentions rescue teams, local authorities, and managing the operation, which are not present in the brief source text. Rule 8: Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts that are not in the source.",
+        "at": "2026-10-09T12:30:50.772Z"
+      },
+      {
+        "title": "Ακίνητα: Τι συμφέρει περισσότερο – Αγορά με δάνειο ή ενοίκιο; - Kathimerini",
+        "reason": "Ίδιο θέμα με «Greece Announces New Housing and Relocation Grants» – δεν γράφτηκε ξανά",
+        "at": "2026-10-09T12:31:13.015Z"
       }
     ],
     "errors": [],
@@ -2454,13 +2573,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T12:03:25.648Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-09T12:30:33.022Z",
+    "considered": 6,
+    "picked": 3,
     "items": [
-      "· naftemporiki | Οργισμένη αντίδραση του Ισραήλ για το Νόμπελ Ειρήνης στη Νάβι Πιλάι – Ύμνοι της Haaretz: «",
-      "· gct | Greece freezes assets of doctors held over Giorgos Mazonakis death",
-      "· gn-iefimerida | Θεσσαλονίκη: Το 25% των οδηγών που παλαιότερα πήγαιναν με το αυτοκίνητο στο κέντρο, πλέον "
+      "· naftemporiki | ΕΕ: «Πράσινο φως» στο ελληνικό αίτημα για ενεργειακή ρήτρα διαφυγής",
+      "· gct | Adidas sues Greek Australian brand White Fox over four-stripe designs",
+      "· naftemporiki | Β. Παϊτέρης: Στην Ευελπίδων μετά τη σύλληψή του – Και με τραγούδι για τη Λατινοπούλου",
+      "✓ minfin | Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργει",
+      "✓ gn-kathimerini | Ακίνητα: Τι συμφέρει περισσότερο – Αγορά με δάνειο ή ενοίκιο; - Kathimerini",
+      "✓ gn-iefimerida | Αγνοούμενος Ισραηλινός πεζοπόρος στον Όλυμπο εντοπίστηκε νεκρός, σε υψόμετρο περίπου 1.800"
     ]
   },
   "evergreenDone": [
