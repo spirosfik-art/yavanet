@@ -1901,7 +1901,10 @@
     "ee9c05a98d89": 1791506292814,
     "1d8c6d44323b": 1791506292814,
     "12cc2242cb48": 1791506292814,
-    "cb4b4f94490c": 1791506292814
+    "cb4b4f94490c": 1791506292814,
+    "99aeb8e14919": 1791507730857,
+    "494f88410f40": 1791507730857,
+    "02e389e9951a": 1791507730857
   },
   "pending": {},
   "sourceStatus": {
@@ -1913,12 +1916,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T00:38:01.401Z",
-      "items": 0
+      "at": "2026-10-09T01:01:59.117Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T00:38:02.150Z",
+      "at": "2026-10-09T01:02:00.013Z",
       "items": 3
     },
     "civilprotection": {
@@ -1929,27 +1932,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T00:38:03.776Z",
+      "at": "2026-10-09T01:02:01.881Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T00:38:03.935Z",
+      "at": "2026-10-09T01:02:02.916Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T00:38:05.350Z",
+      "at": "2026-10-09T01:02:03.883Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T00:38:06.288Z",
+      "at": "2026-10-09T01:02:04.587Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T00:38:07.103Z",
+      "at": "2026-10-09T01:02:05.048Z",
       "items": 10
     },
     "toi-greece": {
@@ -1960,22 +1963,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T00:38:07.545Z",
+      "at": "2026-10-09T01:02:05.773Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T00:38:07.782Z",
+      "at": "2026-10-09T01:02:05.884Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T00:38:08.197Z",
+      "at": "2026-10-09T01:02:06.187Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T00:38:08.576Z",
+      "at": "2026-10-09T01:02:06.516Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1985,12 +1988,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T00:38:02.673Z",
+      "at": "2026-10-09T01:02:01.009Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T00:38:09.058Z",
+      "at": "2026-10-09T01:02:07.182Z",
       "items": 0
     },
     "hcg": {
@@ -2001,33 +2004,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T00:38:10.330Z",
+      "at": "2026-10-09T01:02:08.486Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T00:38:10.661Z",
-      "items": 7
+      "at": "2026-10-09T01:02:08.713Z",
+      "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T00:38:10.896Z",
+      "at": "2026-10-09T01:02:08.881Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T00:38:11.230Z",
-      "items": 4
+      "at": "2026-10-09T01:02:09.099Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T00:38:11.646Z",
+      "at": "2026-10-09T01:02:09.534Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T00:38:12.206Z",
-      "items": 5
+      "at": "2026-10-09T01:02:10.033Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
@@ -2115,15 +2118,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T00:38:12.814Z",
-    "considered": 5,
+    "at": "2026-10-09T01:02:10.857Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· ert | Χέγκσεθ: Η εκτέλεση διά τυφεκισμού του δράστη που είχε σκοτώσει 13 ανθρώπους σε στρατιωτικ",
-      "· gct | Archaeologists find the theatre ancient Agrigento was missing",
-      "· gct | Scammers take €15,000 from a 90-year-old in Heraklion, and her blood-pressure monitor",
-      "· gct | Greek-Australian teacher accused of abusing a student at a Sydney school and on a reef tri",
-      "· gct | Hellenic Initiative Canada marks 10 years with Toronto gala and Delphi forum"
+      "· gct | Vance says he does not like officials selling access, but will not judge the Guilfoyle tex",
+      "· gct | Agrinio mourns Maria Efthymiou, mother of 18",
+      "· gn-iefimerida | Γάζα: Ισραηλινά drones χτύπησαν αυτοκίνητο και σκηνή -Επτά νεκροί - iefimerida.gr"
     ]
   },
   "evergreenDone": [
