@@ -1914,7 +1914,9 @@
     "dbeaff209bd3": 1791514990740,
     "93b1a63394b1": 1791514990740,
     "b99cd4e152aa": 1791514990740,
-    "36086b054bc9": 1791516399614
+    "36086b054bc9": 1791516399614,
+    "0af94d025305": 1791518664415,
+    "3d331a0018cf": 1791518664415
   },
   "pending": {},
   "sourceStatus": {
@@ -1926,12 +1928,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T03:55:26.304Z",
+      "at": "2026-10-09T04:03:50.047Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T03:55:27.067Z",
+      "at": "2026-10-09T04:03:50.813Z",
       "items": 3
     },
     "civilprotection": {
@@ -1942,27 +1944,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T03:55:28.622Z",
+      "at": "2026-10-09T04:03:52.407Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T03:55:28.985Z",
+      "at": "2026-10-09T04:03:52.502Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T03:55:30.270Z",
+      "at": "2026-10-09T04:03:53.786Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T03:55:31.053Z",
+      "at": "2026-10-09T04:03:54.625Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T03:55:31.784Z",
+      "at": "2026-10-09T04:03:55.490Z",
       "items": 10
     },
     "toi-greece": {
@@ -1973,23 +1975,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T03:55:32.358Z",
+      "at": "2026-10-09T04:03:56.124Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T03:55:32.601Z",
+      "at": "2026-10-09T04:03:56.483Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T03:55:32.648Z",
+      "at": "2026-10-09T04:03:57.244Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T03:55:32.848Z",
-      "items": 4
+      "at": "2026-10-09T04:03:57.751Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1998,12 +2000,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T03:55:27.611Z",
+      "at": "2026-10-09T04:03:51.408Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T03:55:33.509Z",
+      "at": "2026-10-09T04:03:58.437Z",
       "items": 0
     },
     "hcg": {
@@ -2014,33 +2016,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T03:55:34.773Z",
+      "at": "2026-10-09T04:03:59.586Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T03:55:34.968Z",
+      "at": "2026-10-09T04:03:59.759Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T03:55:35.145Z",
+      "at": "2026-10-09T04:03:59.901Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T03:55:35.375Z",
+      "at": "2026-10-09T04:04:00.056Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T03:55:35.704Z",
+      "at": "2026-10-09T04:04:00.402Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T03:55:36.101Z",
-      "items": 6
+      "at": "2026-10-09T04:04:00.778Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2055,7 +2057,13 @@
         "section": "real-estate"
       }
     ],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Θεσσαλονίκη: Tροποποιείται η ώρα έναρξης λειτουργίας του Μετρό την Κυριακή 11/10 - iefimerida.gr",
+        "reason": "Rule 8 violation: The source text states the date as '11/10', but does not mention the month name 'October'. The article adds 'October' (אוקטובר) which is not in the source text.",
+        "at": "2026-10-09T04:05:35.034Z"
+      }
+    ],
     "errors": [],
     "fb": []
   },
@@ -2128,11 +2136,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T03:26:39.614Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-09T04:04:24.415Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· gct | The Hellenic Initiative Australia Launches New Leaders in Victoria"
+      "· naftemporiki | Σηκώνει μπόι το στεγαστικό",
+      "✓ gn-iefimerida | Θεσσαλονίκη: Tροποποιείται η ώρα έναρξης λειτουργίας του Μετρό την Κυριακή 11/10 - iefimer"
     ]
   },
   "evergreenDone": [
