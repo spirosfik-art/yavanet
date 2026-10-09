@@ -1941,9 +1941,118 @@
     "48effcbb7e1d": 1791529235802,
     "2a53984b8129": 1791529235802,
     "897a292a4024": 1791529235802,
-    "c1a2e8684e14": 1791529235802
+    "c1a2e8684e14": 1791529235802,
+    "5958d20b96c4": 1791530068920,
+    "3184ce9e966e": 1791530068920,
+    "8412880d508c": 1791530068920,
+    "eab114ccea60": 1791530068920,
+    "e181b1a97915": 1791530068920
   },
-  "pending": {},
+  "pending": {
+    "58ec1c": {
+      "createdAt": 1791530081929,
+      "item": {
+        "title": "Λίβανος: Το Ισραήλ παραβιάζει τη συμφωνία – πλαίσιο και συνεχίζει τις επιθέσεις στον νότιο Λίβανο",
+        "url": "https://www.ertnews.gr/eidiseis/livanos-to-israil-paraviazei-ti-symfonia-plaisio-kai-synexizei-tis-epitheseis-ston-notio-livano/",
+        "summary": "Ο πρόεδρος του Λιβάνου Ζοζέφ Αούν δήλωσε ότι το Ισραήλ παραβιάζει το περιεχόμενο της «Συμφωνίας-Πλαίσιο» που έχει υπογραφεί μεταξύ των δύο χωρών με αμερικανική διαμεσολάβηση και συνεχίζει τις εχθρικές ενέργειές του στα χωριά και τις κωμοπόλεις του νοτίου Λιβάνου. Κατά τη συνάντησή του με τον Αμερικανό γερουσιαστή της Οκλαχόμα, Τζέιμς Λάνκφορντ, παρουσία του πρέσβη των ... Περισσότερα \n www.ertnews.gr",
+        "published": "Fri, 09 Oct 2026 07:01:47 +0000",
+        "id": "eab114ccea60",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "eab114ccea60",
+        "section": "israelis",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Reports statements regarding the Israel-Lebanon framework agreement, relevant for regional developments and security context monitored by Israelis in Greece.",
+        "item": {
+          "title": "Λίβανος: Το Ισραήλ παραβιάζει τη συμφωνία – πλαίσιο και συνεχίζει τις επιθέσεις στον νότιο Λίβανο",
+          "url": "https://www.ertnews.gr/eidiseis/livanos-to-israil-paraviazei-ti-symfonia-plaisio-kai-synexizei-tis-epitheseis-ston-notio-livano/",
+          "summary": "Ο πρόεδρος του Λιβάνου Ζοζέφ Αούν δήλωσε ότι το Ισραήλ παραβιάζει το περιεχόμενο της «Συμφωνίας-Πλαίσιο» που έχει υπογραφεί μεταξύ των δύο χωρών με αμερικανική διαμεσολάβηση και συνεχίζει τις εχθρικές ενέργειές του στα χωριά και τις κωμοπόλεις του νοτίου Λιβάνου. Κατά τη συνάντησή του με τον Αμερικανό γερουσιαστή της Οκλαχόμα, Τζέιμς Λάνκφορντ, παρουσία του πρέσβη των ... Περισσότερα \n www.ertnews.gr",
+          "published": "Fri, 09 Oct 2026 07:01:47 +0000",
+          "id": "eab114ccea60",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "lebanon-president-israel-framework-agreement",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון מדיני",
+          "en": "Political Update"
+        },
+        "imageKey": "politics",
+        "imageQuery": "diplomacy meeting politicians flags",
+        "he": {
+          "title": "לבנון: ישראל מפרה את הסכם המסגרת בדרום המדינה",
+          "seoTitle": "לבנון: נשיא לבנון מאשים את ישראל בהפרת ההסכם",
+          "seoDesc": "נשיא לבנון ז'וזף עאון טוען כי ישראל ממשיכה בפעילותה בדרום המדינה ומפרה את הסכם המסגרת בתיווך אמריקאי. כל הפרטים באתר יוונט.",
+          "keywords": [
+            "לבנון",
+            "ישראל",
+            "ז'וזף עאון",
+            "הסכם מסגרת",
+            "דרום לבנון"
+          ],
+          "dek": "נשיא לבנון ז'וזף עאון נפגש עם סנאטור אמריקאי וטع כי ישראל ממשיכה בפעילותה הצבאית בדרום המדינה בניגוד להסכם המסגרת.",
+          "tldr": [
+            "נשיא לבנון פגש סנאטור אמריקאי בביירות.",
+            "הטענה המרכזית: ישראל מפרה את הסכם המסגרת.",
+            "לבנון דורשת הפסקת פגיעה בתשתיות והרחבת פריסת הצבא."
+          ],
+          "means": "האירועים באזור ממשיכים להשפיע על המצב הביטחוני והמדיני. אתם שמתכננים נסיעות לאזור או עוקבים אחר ההתפתחויות מוכרים להקפיד ולעקוב אחר הנחיות גורמי הביטחון המוסמכים.",
+          "body": "## פגישה דיפלומטית בביירות\n\nנשיא לבנון, ז'וזף עאון, הצהיר בפגישה עם הסנאטור האמריקאי מאוקלההמה, ג'יימס לאנקפורד, כי ישראל ממשיכה להפר את הסכמות הסכם המסגרת שנחתם בין הצדדים בתיווך ארצות הברית. הפגישה התקיימה בנוכחות שגריר ארצות הברית בביירות, מישל איסה, ודנה בהתפתחויות הביטחוניות והמדיניות באזור.\n\n## דרישות לבנוניות והיערכות הצבא\n\nבמהלך הפגישה הדגיש עאון כי לבנון ממלאת את חובותיה לפי ההסכם ומפעילה לחץ דיפלומטי לאכיפתו. לדבריו, יש לעצור את הפגיעה במבנים וב תשתיות אזרחיות בדרום לבנון, ולהשלים את שחרור העצורים. עוד ציין כי צבא לבנון פועל בכל רחבי המדינה אך זקוק לציוד ולסיוע נוסף כדי למלא את משימותיו במלואן.\n\n## נושאים נוספים על הפרק\n\nבנוסף למצב בדרום לבנון, הצדדים דנו בהתקדמות הרפורמות הכלכליות במדינה, במצבם של הפליטים הסורים, וכן בחיזוק הקשרים המדיניים והביטחוניים בין לבנון לארצות הברית."
+        },
+        "en": {
+          "title": "Lebanon accuses Israel of violating framework agreement",
+          "seoTitle": "Lebanon President Accuses Israel of Agreement Violations",
+          "seoDesc": "Lebanese President Joseph Aoun claims Israel continues military actions in southern Lebanon, violating the US-brokered framework agreement.",
+          "keywords": [
+            "Lebanon",
+            "Israel",
+            "Joseph Aoun",
+            "framework agreement",
+            "southern Lebanon"
+          ],
+          "dek": "Lebanese President Joseph Aoun stated that Israel is violating the US-brokered framework agreement during a meeting with a US senator.",
+          "tldr": [
+            "Lebanese President met with a US senator in Beirut.",
+            "Aoun claims Israel continues actions in southern Lebanon.",
+            "Lebanon calls for full implementation of state authority."
+          ],
+          "means": "Regional developments continue to affect security and political dynamics. Stay informed through official guidelines and local updates if you are monitoring the situation.",
+          "body": "## Diplomatic Meeting in Beirut\n\nLebanese President Joseph Aoun stated during a meeting with US Senator James Lankford from Oklahoma that Israel is violating the contents of the framework agreement signed between the two countries with US mediation. The meeting took place in the presence of US Ambassador to Beirut, Michel Issa, and focused on regional security developments.\n\n## Lebanese Demands and Military Role\n\nAoun emphasized that Lebanon is fulfilling its commitments under the agreement and is working to ensure compliance. The Lebanese president stressed the need to halt the destruction of homes and civilian infrastructure in southern Lebanon, as well as to complete the release of detainees.\n\nHe added that the Lebanese army is carrying out its duties across the country but requires additional equipment and support to fulfill its mission effectively. The discussions also covered economic reforms, relations with Syria, the Syrian refugee issue, and strengthening bilateral ties with the United States."
+        }
+      },
+      "text": "Ο πρόεδρος του Λιβάνου Ζοζέφ Αούν δήλωσε ότι το Ισραήλ παραβιάζει το περιεχόμενο της «Συμφωνίας-Πλαίσιο» που έχει υπογραφεί μεταξύ των δύο χωρών με αμερικανική διαμεσολάβηση και συνεχίζει τις εχθρικές ενέργειές του στα χωριά και τις κωμοπόλεις του νοτίου Λιβάνου.\n Κατά τη συνάντησή του με τον Αμερικανό γερουσιαστή της Οκλαχόμα, Τζέιμς Λάνκφορντ, παρουσία του πρέσβη των Ηνωμένων Πολιτειών στη Βηρυτό, Μισέλ Ίσα, ο Αούν τόνισε ότι ο Λίβανος τηρεί τις δεσμεύσεις του που απορρέουν από τη συμφωνία και καταβάλλει προσπάθειες ώστε να ασκηθεί πίεση στο Ισραήλ για να συμμορφωθεί με τους όρους της.\n Ο Λιβανέζος πρόεδρος υπογράμμισε την ανάγκη να σταματήσει η καταστροφή κατοικιών και πολιτικών υποδομών στις κατεχόμενες περιοχές του νοτίου Λιβάνου , καθώς και να ολοκληρωθεί η διαδικασία απελευθέρωσης των κρατουμένων .\n Παράλληλα, επισήμανε ότι οι κάτοικοι του νότου επιθυμούν την πλήρη αποκατάσταση της κρατικής εξουσίας και την ανάπτυξη του λιβανικού στρατού έως τα διεθνώς αναγνωρισμένα σύνορα .\n Ο Αούν ανέφερε επίσης ότι ο λιβανικός στρατός εκτελεί τα καθήκοντά του στον νότο, όπως και σε ολόκληρη τη χώρα, αλλά χρειάζεται πρόσθετη στήριξη σε εξοπλισμό και μέσα προκειμένου να ανταποκριθεί αποτελεσματικά στην αποστολή του.\n Κατά τη διάρκεια της συνάντησης συζητήθηκαν ακόμη η υλοποίηση των οικονομικών μεταρρυθμίσεων στον Λίβανο, οι σχέσεις Λιβάνου-Συρίας, το ζήτημα των Σύρων προσφύγων, καθώς και η σημασία της περαιτέρω ενίσχυσης των λιβανοαμερικανικών σχέσεων σε όλους τους τομείς.\n Μετάφραση: Ουαλίντ Ελίας\n Πηγή: skynewsarabia\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Ζόζεφ Αούν Ισραήλ Λίβανος \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Ο Λίβανος κατηγορεί το Ισραήλ για παραβίαση της συμφωνίας-πλαισίου",
+        "dek": "Ο Λιβανέζος Πρόεδρος Τζόζεφ Αούν δήλωσε ότι το Ισραήλ παραβιάζει τη συμφωνία-πλαίσιο που μεσολάβησαν οι ΗΠΑ, κατά τη διάρκεια συνάντησης με γερουσιαστή των ΗΠΑ.",
+        "tldr": [
+          "Ο Λιβανέζος Πρόεδρος συναντήθηκε με Αμερικανό γερουσιαστή στη Βηρυτό.",
+          "Ο Αούν υποστηρίζει ότι το Ισραήλ συνεχίζει τις ενέργειες στο νότιο Λίβανο.",
+          "Ο Λίβανος ζητά την πλήρη εφαρμογή της κρατικής εξουσίας."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1953,12 +2062,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T07:00:01.413Z",
+      "at": "2026-10-09T07:14:13.734Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T07:00:02.218Z",
+      "at": "2026-10-09T07:14:14.442Z",
       "items": 3
     },
     "civilprotection": {
@@ -1969,27 +2078,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T07:00:04.940Z",
+      "at": "2026-10-09T07:14:16.109Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T07:00:05.278Z",
+      "at": "2026-10-09T07:14:16.526Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T07:00:06.601Z",
+      "at": "2026-10-09T07:14:17.527Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T07:00:07.387Z",
-      "items": 3
+      "at": "2026-10-09T07:14:18.606Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T07:00:08.118Z",
+      "at": "2026-10-09T07:14:19.428Z",
       "items": 10
     },
     "toi-greece": {
@@ -2000,22 +2109,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T07:00:08.808Z",
+      "at": "2026-10-09T07:14:20.127Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T07:00:09.084Z",
+      "at": "2026-10-09T07:14:20.388Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T07:00:09.126Z",
-      "items": 9
+      "at": "2026-10-09T07:14:21.303Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T07:00:09.707Z",
+      "at": "2026-10-09T07:14:21.878Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2025,12 +2134,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T07:00:03.020Z",
+      "at": "2026-10-09T07:14:15.007Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T07:00:10.366Z",
+      "at": "2026-10-09T07:14:22.861Z",
       "items": 0
     },
     "hcg": {
@@ -2041,33 +2150,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T07:00:18.716Z",
+      "at": "2026-10-09T07:14:26.268Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T07:00:18.899Z",
+      "at": "2026-10-09T07:14:26.509Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T07:00:19.037Z",
+      "at": "2026-10-09T07:14:26.669Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T07:00:19.295Z",
+      "at": "2026-10-09T07:14:26.837Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T07:00:19.603Z",
+      "at": "2026-10-09T07:14:27.195Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T07:00:19.987Z",
-      "items": 6
+      "at": "2026-10-09T07:14:27.617Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2172,16 +2281,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T07:00:35.802Z",
-    "considered": 6,
-    "picked": 0,
+    "at": "2026-10-09T07:14:28.920Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· gct | Mitsotakis says Rubio visit confirmed Greece as a strategic partner",
-      "· gct | Government Spokesman Calls Rally Outside Israeli Embassy a “Hideous Initiative”",
-      "· ingr | Για μπουνάτσες και μελτέμια στα ελληνοτουρκικά κάνει λόγο ο Μητσοτάκης, ζητώντας τρίτη τετ",
-      "· gtp | Greece, United States Renew Cultural Heritage Pact Through 2031",
-      "· gtp | Athens Marathon 2026 Set for Record 85,000 Runners in November",
-      "· gtp | Hyatt Regency Thessaloniki Enters Condé Nast Traveler’s Top 10 Greek Resorts"
+      "· ingr | Κυψέλη: «Μπαίνουμε στον όγδοο μήνα και περιμένουμε» – Τι ζητούν οι κάτοικοι για τις ρωγμές",
+      "· gct | Why Most Ancient Greeks Did Not Wear Tattoos",
+      "· gct | Antetokounmpo Scores 18 in First Home Game for Miami Heat",
+      "✓ ert | Λίβανος: Το Ισραήλ παραβιάζει τη συμφωνία – πλαίσιο και συνεχίζει τις επιθέσεις στον νότιο",
+      "· ert | Θεσσαλονίκη: Φωτιά σε διαμέρισμα, μία γυναίκα στο νοσοκομείο – Βίντεο ντοκουμέντο"
     ]
   },
   "evergreenDone": [
