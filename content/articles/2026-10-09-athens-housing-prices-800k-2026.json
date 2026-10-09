@@ -1,0 +1,56 @@
+{
+  "slug": "athens-housing-prices-800k-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-10-09T03:38:00+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "athens",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/09/800000-euro-greece-house-not-apartment-greca-house/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15241692/pexels-photo-15241692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic aerial shot of densely packed residential buildings in Athens, Greece during daytime.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-athens-greece-15241692/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "דירות ובתים באתונה: מה מציע תקציב של 800 אלף אירו",
+    "dek": "נתוני שוק חדשים מאתונה מציגים את ההבדלים בין דירות לבתים פרטיים לפי טווחי מחירים ושנת בנייה.",
+    "tldr": [
+      "נתונים מסוכנות נדל״ן באתונה מציגים את התפלגות הנכסים לפי תקציב.",
+      "בטווח המחירים סביב 800 אלף אירו מרבית הנכסים הם בתים פרטיים חדשים יחסית.",
+      "בטווחי מחירים נמוכים יותר נמצאו יותר דירות ישנות."
+    ],
+    "means": "למה זה חשוב למשקיעים ישראלים: הנתונים מספקים תמונת מצב על היצע הנכסים והגיל הממוצע שלהם בטווחי תקציב שונים בשוק הדיור באתונה.",
+    "body": "נתונים שפורסמו לאחרונה על ידי סוכנות הנדל״ן Greca House באתונה מציגים את מאפייני הנכסים המוצעים למכירה לפי תקציבים שונים, נכון לתחילת אוקטובר 2026. לפי הנתונים, בטווח המחירים סביב 800 אלף אירו (680 עד 920 אלף אירו), רוב הנכסים המוצעים הם בתים פרטיים ועירוניים ולא דירות. השטח החציוני של הבתים בטווח זה עומד על כ-260 מטרים רבועים, ושנת הבנייה החציונית היא 2006. לעומת זאת, בטווח המחירים נמוך יותר של כ-250 אלף אירו, שנת הבנייה החציונית של הנכסים היא 1981. הנתונים מתבססים על המחירים המבוקשים ברשימות הפומביות של הסוכנות באותו יום ואינם מהווים מדד ארצי רשמי. מידע זה מוצג כסקירת שוק כללית ואינו מהווה ייעוץ משפטי או פיננסי."
+  },
+  "en": {
+    "title": "Athens Property Market: Analysis of Homes Around €800,000",
+    "dek": "New property data from Athens compares the size, type, and age of homes across different budget ranges.",
+    "tldr": [
+      "Real estate data from Athens outlines property types available at various budget levels.",
+      "Listings around €800,000 predominantly feature houses rather than apartments.",
+      "Properties in lower budget brackets show an older median year of construction."
+    ],
+    "means": "Why this matters to Israeli investors: The figures offer insight into property inventory, sizes, and construction years across different price points in the Athens housing market.",
+    "body": "Data published by Athens-based real estate agency Greca House outlines the characteristics of properties listed for sale as of 1 October 2026. According to the figures, within the price range around €800,000 (€680,000 to €920,000), the majority of listed properties were houses rather than apartments, with a median floor area of approximately 260 square metres and a median construction year of 2006. By comparison, listings in a lower budget window around €250,000 showed a median construction year of 1981. These figures are based on asking prices from the agency's public listings on that date and do not represent a national real estate index. This information serves as general market data and does not constitute legal or financial advice."
+  },
+  "meta": {
+    "itemId": "6a9f70c097d9",
+    "imageQuery": "Athens real estate houses apartments",
+    "sourceHash": "5ab6a3876d70",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-09T00:38:00.605Z",
+    "official": false
+  }
+}
