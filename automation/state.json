@@ -1904,7 +1904,10 @@
     "cb4b4f94490c": 1791506292814,
     "99aeb8e14919": 1791507730857,
     "494f88410f40": 1791507730857,
-    "02e389e9951a": 1791507730857
+    "02e389e9951a": 1791507730857,
+    "b032f1280ef7": 1791509227749,
+    "64eda9c7486a": 1791509227749,
+    "5282f25ef8cf": 1791509227749
   },
   "pending": {},
   "sourceStatus": {
@@ -1916,12 +1919,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T01:01:59.117Z",
+      "at": "2026-10-09T01:26:56.314Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T01:02:00.013Z",
+      "at": "2026-10-09T01:26:57.137Z",
       "items": 3
     },
     "civilprotection": {
@@ -1932,27 +1935,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T01:02:01.881Z",
+      "at": "2026-10-09T01:26:59.224Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T01:02:02.916Z",
+      "at": "2026-10-09T01:26:59.614Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T01:02:03.883Z",
+      "at": "2026-10-09T01:27:00.908Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T01:02:04.587Z",
-      "items": 2
+      "at": "2026-10-09T01:27:01.880Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T01:02:05.048Z",
+      "at": "2026-10-09T01:27:02.605Z",
       "items": 10
     },
     "toi-greece": {
@@ -1963,22 +1966,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T01:02:05.773Z",
+      "at": "2026-10-09T01:27:03.189Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T01:02:05.884Z",
+      "at": "2026-10-09T01:27:03.519Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T01:02:06.187Z",
+      "at": "2026-10-09T01:27:03.600Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T01:02:06.516Z",
+      "at": "2026-10-09T01:27:03.896Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1988,12 +1991,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T01:02:01.009Z",
+      "at": "2026-10-09T01:26:58.168Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T01:02:07.182Z",
+      "at": "2026-10-09T01:27:04.576Z",
       "items": 0
     },
     "hcg": {
@@ -2004,32 +2007,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T01:02:08.486Z",
+      "at": "2026-10-09T01:27:05.718Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T01:02:08.713Z",
+      "at": "2026-10-09T01:27:05.916Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T01:02:08.881Z",
+      "at": "2026-10-09T01:27:06.052Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T01:02:09.099Z",
+      "at": "2026-10-09T01:27:06.212Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T01:02:09.534Z",
-      "items": 3
+      "at": "2026-10-09T01:27:06.565Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T01:02:10.033Z",
+      "at": "2026-10-09T01:27:06.996Z",
       "items": 6
     }
   },
@@ -2118,13 +2121,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T01:02:10.857Z",
+    "at": "2026-10-09T01:27:07.749Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Vance says he does not like officials selling access, but will not judge the Guilfoyle tex",
-      "· gct | Agrinio mourns Maria Efthymiou, mother of 18",
-      "· gn-iefimerida | Γάζα: Ισραηλινά drones χτύπησαν αυτοκίνητο και σκηνή -Επτά νεκροί - iefimerida.gr"
+      "· ert | Νέες ισραηλινές επιθέσεις στη Γάζα – Επτά νεκροί μεταξύ των οποίων ένα παιδί και μία γυναί",
+      "· gct | Condé Nast’s Best Hotels in Greece: US and UK Lists for 2026",
+      "· gct | Konstantinos Argiros Releases Explosive New Single ‘Revma’"
     ]
   },
   "evergreenDone": [
