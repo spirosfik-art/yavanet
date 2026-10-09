@@ -2054,7 +2054,11 @@
     "3936da125c66": 1791579233682,
     "1b849123090b": 1791582791240,
     "033ffc8300a8": 1791582791240,
-    "bc4d9474882d": 1791583370236
+    "bc4d9474882d": 1791583370236,
+    "dfeaecdf6cd8": 1791584728541,
+    "c8e39cb9679f": 1791584728541,
+    "58cbc8b8190f": 1791584728541,
+    "44c772b9c16a": 1791584728541
   },
   "pending": {},
   "sourceStatus": {
@@ -2066,12 +2070,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T22:02:37.806Z",
-      "items": 0
+      "at": "2026-10-09T22:25:15.357Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T22:02:38.617Z",
+      "at": "2026-10-09T22:25:16.304Z",
       "items": 6
     },
     "civilprotection": {
@@ -2082,27 +2086,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T22:02:40.584Z",
+      "at": "2026-10-09T22:25:18.233Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T22:02:40.713Z",
+      "at": "2026-10-09T22:25:18.774Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T22:02:42.013Z",
+      "at": "2026-10-09T22:25:20.481Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T22:02:42.967Z",
+      "at": "2026-10-09T22:25:21.497Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T22:02:43.646Z",
+      "at": "2026-10-09T22:25:22.017Z",
       "items": 10
     },
     "toi-greece": {
@@ -2113,22 +2117,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T22:02:44.231Z",
+      "at": "2026-10-09T22:25:22.592Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T22:02:44.541Z",
+      "at": "2026-10-09T22:25:22.864Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T22:02:44.952Z",
-      "items": 6
+      "at": "2026-10-09T22:25:23.365Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:02:45.531Z",
+      "at": "2026-10-09T22:25:23.891Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2138,12 +2142,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:02:39.206Z",
+      "at": "2026-10-09T22:25:17.049Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T22:02:46.241Z",
+      "at": "2026-10-09T22:25:24.626Z",
       "items": 0
     },
     "hcg": {
@@ -2154,32 +2158,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T22:02:48.008Z",
+      "at": "2026-10-09T22:25:26.420Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T22:02:48.249Z",
+      "at": "2026-10-09T22:25:26.623Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T22:02:48.385Z",
+      "at": "2026-10-09T22:25:26.772Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T22:02:48.687Z",
+      "at": "2026-10-09T22:25:27.018Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T22:02:49.020Z",
+      "at": "2026-10-09T22:25:27.352Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T22:02:49.451Z",
+      "at": "2026-10-09T22:25:27.783Z",
       "items": 10
     }
   },
@@ -2265,11 +2269,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T22:02:50.236Z",
-    "considered": 1,
+    "at": "2026-10-09T22:25:28.541Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Greece Presents Major Scholarly Work Of Nicopolis Victory Monument"
+      "· gct | Greece Voted World’s Best Country by Condé Nast Traveller",
+      "· gct | Greek Tax Authority Seizes 9,100 Litres of Fuel and 4 Tankers",
+      "· gct | Anne Carson: How Ancient Greek Literature Illuminates the Present",
+      "· gct | Greek Classicist Anne Carson Wins Nobel Prize in Literature"
     ]
   },
   "evergreenDone": [
