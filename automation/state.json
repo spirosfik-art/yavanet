@@ -2058,7 +2058,9 @@
     "dfeaecdf6cd8": 1791584728541,
     "c8e39cb9679f": 1791584728541,
     "58cbc8b8190f": 1791584728541,
-    "44c772b9c16a": 1791584728541
+    "44c772b9c16a": 1791584728541,
+    "3c78a88d9b31": 1791585511336,
+    "78d34e6af4d0": 1791585511336
   },
   "pending": {},
   "sourceStatus": {
@@ -2069,13 +2071,14 @@
       "fails": 529
     },
     "minfin": {
-      "ok": true,
-      "at": "2026-10-09T22:25:15.357Z",
-      "items": 10
+      "ok": false,
+      "at": "2026-10-09T22:38:20.300Z",
+      "error": "fetch failed",
+      "fails": 1
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T22:25:16.304Z",
+      "at": "2026-10-09T22:38:21.094Z",
       "items": 6
     },
     "civilprotection": {
@@ -2086,27 +2089,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T22:25:18.233Z",
+      "at": "2026-10-09T22:38:22.838Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T22:25:18.774Z",
+      "at": "2026-10-09T22:38:23.067Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T22:25:20.481Z",
+      "at": "2026-10-09T22:38:24.139Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T22:25:21.497Z",
+      "at": "2026-10-09T22:38:24.814Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T22:25:22.017Z",
+      "at": "2026-10-09T22:38:25.645Z",
       "items": 10
     },
     "toi-greece": {
@@ -2117,22 +2120,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T22:25:22.592Z",
+      "at": "2026-10-09T22:38:26.170Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T22:25:22.864Z",
+      "at": "2026-10-09T22:38:26.367Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T22:25:23.365Z",
+      "at": "2026-10-09T22:38:26.994Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:25:23.891Z",
+      "at": "2026-10-09T22:38:27.437Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2142,12 +2145,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T22:25:17.049Z",
+      "at": "2026-10-09T22:38:21.988Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T22:25:24.626Z",
+      "at": "2026-10-09T22:38:28.046Z",
       "items": 0
     },
     "hcg": {
@@ -2158,32 +2161,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T22:25:26.420Z",
+      "at": "2026-10-09T22:38:29.235Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T22:25:26.623Z",
-      "items": 6
+      "at": "2026-10-09T22:38:29.521Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T22:25:26.772Z",
+      "at": "2026-10-09T22:38:29.696Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T22:25:27.018Z",
+      "at": "2026-10-09T22:38:29.916Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T22:25:27.352Z",
-      "items": 2
+      "at": "2026-10-09T22:38:30.306Z",
+      "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T22:25:27.783Z",
+      "at": "2026-10-09T22:38:30.747Z",
       "items": 10
     }
   },
@@ -2269,14 +2272,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T22:25:28.541Z",
-    "considered": 4,
+    "at": "2026-10-09T22:38:31.336Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Voted World’s Best Country by Condé Nast Traveller",
-      "· gct | Greek Tax Authority Seizes 9,100 Litres of Fuel and 4 Tankers",
-      "· gct | Anne Carson: How Ancient Greek Literature Illuminates the Present",
-      "· gct | Greek Classicist Anne Carson Wins Nobel Prize in Literature"
+      "· gct | Greece Expands Mountain Tourism Beyond Experienced Climbers",
+      "· ert | Διακοπή κυκλοφορίας στο Αιγάλεω λόγω πυρκαγιάς σε εργοστάσιο υφασμάτων"
     ]
   },
   "evergreenDone": [
