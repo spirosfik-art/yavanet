@@ -1977,7 +1977,11 @@
     "dfaccb4986e3": 1791542575957,
     "dc68f61efef5": 1791543841353,
     "f5dcd2df2e60": 1791543841353,
-    "0198471aad81": 1791543841353
+    "0198471aad81": 1791543841353,
+    "691f112e3faa": 1791545132207,
+    "fc52d5af0cd0": 1791545132207,
+    "2ced17b16e7c": 1791545132207,
+    "ccc6aa0e55f7": 1791545132207
   },
   "pending": {
     "7cf266": {
@@ -2197,12 +2201,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T11:03:50.130Z",
-      "items": 0
+      "at": "2026-10-09T11:25:13.056Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T11:03:50.762Z",
+      "at": "2026-10-09T11:25:13.891Z",
       "items": 6
     },
     "civilprotection": {
@@ -2213,27 +2217,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T11:03:52.729Z",
+      "at": "2026-10-09T11:25:15.635Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T11:03:53.096Z",
+      "at": "2026-10-09T11:25:16.035Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T11:03:53.920Z",
+      "at": "2026-10-09T11:25:17.094Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T11:03:54.552Z",
+      "at": "2026-10-09T11:25:17.898Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T11:03:55.230Z",
+      "at": "2026-10-09T11:25:18.536Z",
       "items": 10
     },
     "toi-greece": {
@@ -2244,22 +2248,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T11:03:55.694Z",
+      "at": "2026-10-09T11:25:19.146Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T11:03:56.031Z",
+      "at": "2026-10-09T11:25:19.380Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T11:03:56.411Z",
-      "items": 4
+      "at": "2026-10-09T11:25:20.125Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T11:03:56.549Z",
+      "at": "2026-10-09T11:25:20.335Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2269,12 +2273,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T11:03:51.455Z",
+      "at": "2026-10-09T11:25:14.637Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T11:03:57.031Z",
+      "at": "2026-10-09T11:25:21.148Z",
       "items": 0
     },
     "hcg": {
@@ -2285,32 +2289,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T11:03:58.848Z",
+      "at": "2026-10-09T11:25:28.684Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T11:03:59.027Z",
+      "at": "2026-10-09T11:25:28.882Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T11:03:59.195Z",
-      "items": 7
+      "at": "2026-10-09T11:25:29.120Z",
+      "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T11:03:59.352Z",
+      "at": "2026-10-09T11:25:29.748Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T11:03:59.670Z",
+      "at": "2026-10-09T11:25:30.111Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T11:04:00.105Z",
+      "at": "2026-10-09T11:25:30.533Z",
       "items": 6
     }
   },
@@ -2443,13 +2447,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T11:04:01.353Z",
-    "considered": 3,
-    "picked": 2,
+    "at": "2026-10-09T11:25:32.207Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "✓ gtp | AirDNA: Athens Short-term Rental Demand Outpaces Summer in September",
-      "· gtp | Thessaloniki: Contract Signed for Kalamaria Road Project to Improve Metro Access",
-      "✓ gtp | Greece Among World’s Top 10 Retirement Destinations in 2026 Index"
+      "· gct | Four Greek Australians Stand for Pauline Hanson’s One Nation in Victoria",
+      "· gn-pm | Ενημερωτικό σημείωμα για την παρουσία του Πρωθυπουργού Κυριάκου Μητσοτάκη στην ονοματοδοσί",
+      "· minfin | Επανακαθορισμός οριογραμμών αιγιαλού και παραλίας σε τμήμα ακτογραμμής της περιοχής «Σκοπά",
+      "· minfin | Καθορισμός οριογραμμής παραλίας στην Τ.Κ. Σκουταρίου, Δ.Ε. Γυθείου, Δήμου Ανατολικής Μάνης"
     ]
   },
   "evergreenDone": [
