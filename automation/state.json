@@ -1909,7 +1909,8 @@
     "64eda9c7486a": 1791509227749,
     "5282f25ef8cf": 1791509227749,
     "473312b06ea3": 1791510885031,
-    "8fb5980824b5": 1791512713647
+    "8fb5980824b5": 1791512713647,
+    "bb46b82f35f7": 1791514390198
   },
   "pending": {},
   "sourceStatus": {
@@ -1921,12 +1922,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T02:38:16.416Z",
-      "items": 0
+      "at": "2026-10-09T02:52:56.284Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T02:38:17.062Z",
+      "at": "2026-10-09T02:52:57.112Z",
       "items": 3
     },
     "civilprotection": {
@@ -1937,27 +1938,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T02:38:18.797Z",
+      "at": "2026-10-09T02:52:59.380Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T02:38:19.217Z",
+      "at": "2026-10-09T02:52:59.811Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T02:38:20.130Z",
+      "at": "2026-10-09T02:53:01.111Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T02:38:20.842Z",
+      "at": "2026-10-09T02:53:02.116Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T02:38:21.823Z",
+      "at": "2026-10-09T02:53:02.983Z",
       "items": 10
     },
     "toi-greece": {
@@ -1968,22 +1969,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T02:38:22.380Z",
+      "at": "2026-10-09T02:53:03.604Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T02:38:22.597Z",
-      "items": 14
+      "at": "2026-10-09T02:53:05.579Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T02:38:23.196Z",
+      "at": "2026-10-09T02:53:05.839Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T02:38:23.678Z",
+      "at": "2026-10-09T02:53:06.368Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1993,12 +1994,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T02:38:17.882Z",
+      "at": "2026-10-09T02:52:58.172Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T02:38:24.193Z",
+      "at": "2026-10-09T02:53:07.060Z",
       "items": 0
     },
     "hcg": {
@@ -2009,32 +2010,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T02:38:25.509Z",
+      "at": "2026-10-09T02:53:08.221Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T02:38:25.758Z",
-      "items": 7
+      "at": "2026-10-09T02:53:08.404Z",
+      "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T02:38:26.005Z",
+      "at": "2026-10-09T02:53:08.531Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T02:38:26.231Z",
+      "at": "2026-10-09T02:53:08.763Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T02:38:26.621Z",
+      "at": "2026-10-09T02:53:09.108Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T02:38:27.010Z",
+      "at": "2026-10-09T02:53:09.518Z",
       "items": 6
     }
   },
@@ -2123,11 +2124,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T02:25:13.647Z",
+    "at": "2026-10-09T02:53:10.198Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Houthi Missiles Strike Two Aircraft at Riyadh Airport as Falling Debris Hits Kindergarten"
+      "· gct | Peggy Zina Celebrates Daughter Electra’s 15th Birthday"
     ]
   },
   "evergreenDone": [
