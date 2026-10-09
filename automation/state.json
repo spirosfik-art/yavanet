@@ -1994,113 +1994,12 @@
     "2fa845b8e239": 1791549033022,
     "1e60fce7d9a5": 1791549033022,
     "00b347ce2525": 1791549033022,
-    "bbf31d9bfd5a": 1791549033022
+    "bbf31d9bfd5a": 1791549033022,
+    "22eb3c675124": 1791550736124,
+    "5f7b8d60e890": 1791550736124,
+    "5cf35a6638db": 1791550736124
   },
   "pending": {
-    "7cf266": {
-      "createdAt": 1791542589393,
-      "item": {
-        "title": "Έκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEx5OWVBWmxOelY1ODU5WTdvblVNTjFFNDl6VW54VDRqd2g5TjkxRjl0ZXZsOU1jMnhmcmtKalJZNHdWRmtCNXJTR0M4c2ptV0JabnMtOWZFZHZtMGsyUVVMczlKcGVQa0FfazEyWnRXVnpMaEs0Z3ZINWRUanlvTkhXczNUWXBJVlHSAY8BQVVfeXFMUFlNVFd1bE9WOWJ2bHhta1prUXNRc0FFMG92Um1Fc053UElXNzBGaHJFaUg1V09Oem54Um1DMFJaTE1EZ1E4b0RKT1R3ZzlNTWsyaTZuOEZVcjh1NkowOG1wSFdFZTNBdHRLczR5c0hZZjhkTkFySjN3UmpQaTA0NjFSQm9NZXExT1EzaExmdmM?oc=5",
-        "summary": "Έκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες &nbsp;&nbsp; iefimerida.gr",
-        "published": "Fri, 09 Oct 2026 09:42:59 GMT",
-        "id": "dfaccb4986e3",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "dfaccb4986e3",
-        "section": "breaking",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Explosion at Motor Oil refinery with serious injuries poses an immediate safety alert for anyone in the area, relevant to tourists and residents.",
-        "item": {
-          "title": "Έκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEx5OWVBWmxOelY1ODU5WTdvblVNTjFFNDl6VW54VDRqd2g5TjkxRjl0ZXZsOU1jMnhmcmtKalJZNHdWRmtCNXJTR0M4c2ptV0JabnMtOWZFZHZtMGsyUVVMczlKcGVQa0FfazEyWnRXVnpMaEs0Z3ZINWRUanlvTkhXczNUWXBJVlHSAY8BQVVfeXFMUFlNVFd1bE9WOWJ2bHhta1prUXNRc0FFMG92Um1Fc053UElXNzBGaHJFaUg1V09Oem54Um1DMFJaTE1EZ1E4b0RKT1R3ZzlNTWsyaTZuOEZVcjh1NkowOG1wSFdFZTNBdHRLczR5c0hZZjhkTkFySjN3UmpQaTA0NjFSQm9NZXExT1EzaExmdmM?oc=5",
-          "summary": "Έκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες &nbsp;&nbsp; iefimerida.gr",
-          "published": "Fri, 09 Oct 2026 09:42:59 GMT",
-          "id": "dfaccb4986e3",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "explosion-at-motor-oil-refinery-greece",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9372,
-          "lng": 23.0883
-        },
-        "strike": null,
-        "alert": {
-          "he": "עדכון מבזק",
-          "en": "Breaking News"
-        },
-        "imageKey": "fire",
-        "imageQuery": "industrial fire smoke explosion",
-        "he": {
-          "title": "פיצוץ במתקן זיקוק ביוון: שני פצועים קשה",
-          "seoTitle": "פיצוץ ביוון: אירוע חמור במתקן זיקוק ושני פצועים",
-          "seoDesc": "פיצוץ אירע במתקן הזיקוק של חברת מוטור אויל ביוון. שני בני אדם פונו לבית החולים במצב קשה. כל הפרטים המעודכנים לטסים ולשהים באזור.",
-          "keywords": [
-            "פיצוץ ביוון",
-            "מוטור אויל יוון",
-            "חדשות יוון",
-            "תאונה ביוון"
-          ],
-          "dek": "אירוע חמור בבתי הזיקוק של מוטור אויל ביוון הסתיים בפיצוץ שהותיר שני פצועים באורח קשה. כוחות הצלה הוזעקו למקום.",
-          "tldr": [
-            "פיצוץ אירע במתקן הזיקוק של חברת מוטור אויל.",
-            "שני בני אדם נפצעו באורח קשה ופונו לקבלת טיפול רפואי.",
-            "כוחות ההצלה פועלים בשטח ומנהלים את האירוע."
-          ],
-          "means": "מתכננים להגיע לאזור או נמצאים ביוון? האירוע מרוכז כרגע במתקן התעשייתי עצמו. אין הנחיות מיוחדות לתיירים או לישראלים השוהים במדינה, אך מומלץ לעקוב אחר ההודעות הרשמיות ולהתרחק ממוקדי תעשייה במידת הצורך.",
-          "body": "## פרטי האירוע במתקן הזיקוק\n\nבמתקן הזיקוק של חברת מוטור אויל (Motor Oil) ביוון התרחש פיצוץ עז שהוביל לפציעתם הקשה של שני בני אדם. למקום הוזעקו מיד צוותי חירום והצלה רבים שטיפלו בנפגעים ואבטחו את המתחם.\n\n## מצב הפצועים ופעילות כוחות ההצלה\n\nגורמי הרפואה אישרו כי שני פצועים באורח קשה פונו לקבלת טיפול רפואי בבית החולים. כוחות הכיבוי והביטחון פועלים במקום כדי לוודא שאין סכנה נוספת להתלקחות או לדליפה חומרית במתחם התעשייתי הענק.\n\n## השפעה על האזור\n\nהאירוע מרוכז כולו בתוך מתחם החברה. הרשויות המקומיות ממשיכות בחקירת נסיבות התאונה ובבדיקת הבטיחות במקום. אין בשלב זה דיווחים על שיבושים בתנועה האווירית או בפעילות השוטפת מחוץ לשטח המתקן."
-        },
-        "en": {
-          "title": "Explosion at Motor Oil refinery in Greece leaves two seriously injured",
-          "seoTitle": "Explosion at Motor Oil refinery in Greece: Two injured",
-          "seoDesc": "An explosion occurred at the Motor Oil refinery in Greece, leaving two people seriously injured. Emergency teams are responding at the scene.",
-          "keywords": [
-            "Motor Oil refinery Greece",
-            "explosion in Greece",
-            "Greece news",
-            "Corinthia explosion"
-          ],
-          "dek": "A powerful explosion struck the Motor Oil refinery facilities in Greece, resulting in two serious injuries. Emergency responders rushed to the scene.",
-          "tldr": [
-            "An explosion took place at the Motor Oil refinery.",
-            "Two individuals sustained serious injuries and were hospitalized.",
-            "Emergency crews and medical teams secured the industrial site."
-          ],
-          "means": "For Israeli travelers and residents in Greece: The incident is strictly contained within the industrial refinery facility. There are no travel restrictions or safety warnings issued for visitors at this time. Stay informed through local authorities if you are traveling near industrial areas.",
-          "body": "## Refinery Incident Details\n\nA major explosion occurred at the Motor Oil refinery facilities in Greece, causing serious injuries to two people. Emergency services, including firefighting units and ambulances, were dispatched immediately to manage the unfolding situation.\n\n## Response and Casualties\n\nMedical authorities confirmed that two victims were severely injured and transferred to a hospital for urgent medical care. Response teams worked to secure the area and ensure no further hazards remained within the industrial compound.\n\n## Current Status\n\nThe situation is contained within the private refinery grounds. Local authorities are investigating the exact cause of the incident. Normal operations and travel routes outside the immediate industrial zone remain unaffected."
-        }
-      },
-      "text": "Έκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες - iefimerida.gr\nΈκρηξη στη Motor Oil -Δύο σοβαρά τραυματίες &nbsp;&nbsp; iefimerida.gr",
-      "issues": [],
-      "el": {
-        "title": "Έκρηξη στο διυλιστήριο της Motor Oil στην Ελλάδα με δύο σοβαρά τραυματίες",
-        "dek": "Ισχυρή έκρηξη σημειώθηκε στις εγκαταστάσεις του διυλιστηρίου της Motor Oil, προκαλώντας τον σοβαρό τραυματισμό δύο ατόμων. Δυνάμεις έκτακτης ανάγκης έσπευσαν στο σημείο.",
-        "tldr": [
-          "Σημειώθηκε έκρηξη στο διυλιστήριο της Motor Oil.",
-          "Δύο άτομα τραυματίστηκαν σοβαρά και διακομίστηκαν στο νοσοκομείο.",
-          "Συνεργεία έκτακτης ανάγκης και ιατρικές ομάδες ασφάλισαν τον βιομηχανικό χώρο."
-        ]
-      },
-      "notified": true
-    },
     "d4a978": {
       "createdAt": 1791543895569,
       "item": {
@@ -2317,12 +2216,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T12:30:21.989Z",
+      "at": "2026-10-09T12:58:45.934Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T12:30:22.755Z",
+      "at": "2026-10-09T12:58:46.669Z",
       "items": 6
     },
     "civilprotection": {
@@ -2333,27 +2232,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T12:30:24.565Z",
+      "at": "2026-10-09T12:58:48.208Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T12:30:24.643Z",
+      "at": "2026-10-09T12:58:48.520Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T12:30:25.683Z",
+      "at": "2026-10-09T12:58:49.479Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T12:30:26.472Z",
+      "at": "2026-10-09T12:58:50.145Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T12:30:27.348Z",
+      "at": "2026-10-09T12:58:51.074Z",
       "items": 10
     },
     "toi-greece": {
@@ -2364,22 +2263,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T12:30:27.945Z",
+      "at": "2026-10-09T12:58:51.592Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T12:30:28.028Z",
+      "at": "2026-10-09T12:58:51.760Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T12:30:28.073Z",
+      "at": "2026-10-09T12:58:51.881Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T12:30:28.270Z",
+      "at": "2026-10-09T12:58:52.271Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2389,12 +2288,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T12:30:23.404Z",
+      "at": "2026-10-09T12:58:47.113Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T12:30:28.925Z",
+      "at": "2026-10-09T12:58:52.801Z",
       "items": 0
     },
     "hcg": {
@@ -2405,39 +2304,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T12:30:30.257Z",
+      "at": "2026-10-09T12:58:54.183Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T12:30:30.463Z",
+      "at": "2026-10-09T12:58:54.416Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T12:30:30.698Z",
-      "items": 8
+      "at": "2026-10-09T12:58:54.561Z",
+      "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T12:30:30.922Z",
+      "at": "2026-10-09T12:58:54.739Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T12:30:31.281Z",
+      "at": "2026-10-09T12:58:55.057Z",
       "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T12:30:31.675Z",
+      "at": "2026-10-09T12:58:55.484Z",
       "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-09",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "athens-housing-prices-800k-2026",
@@ -2468,6 +2367,12 @@
         "title": "Athens: Short-Term Rental Demand Outpaces Summer in September",
         "at": "2026-10-09T14:05:44+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "motor-oil-explosion-oct-2026",
+        "title": "Motor Oil refinery explosion: Two seriously injured in Greece",
+        "at": "2026-10-09T15:58:42+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2501,6 +2406,10 @@
       {
         "slug": "greece-real-estate-property-values-bank",
         "at": "2026-10-09T09:29:21.548Z"
+      },
+      {
+        "slug": "motor-oil-explosion-oct-2026",
+        "at": "2026-10-09T12:58:43.391Z"
       }
     ]
   },
@@ -2573,16 +2482,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T12:30:33.022Z",
-    "considered": 6,
-    "picked": 3,
+    "at": "2026-10-09T12:58:56.124Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· naftemporiki | ΕΕ: «Πράσινο φως» στο ελληνικό αίτημα για ενεργειακή ρήτρα διαφυγής",
-      "· gct | Adidas sues Greek Australian brand White Fox over four-stripe designs",
-      "· naftemporiki | Β. Παϊτέρης: Στην Ευελπίδων μετά τη σύλληψή του – Και με τραγούδι για τη Λατινοπούλου",
-      "✓ minfin | Δήλωση του Υπουργού Εθνικής Οικονομίας και Οικονομικών Κυριάκου Πιερρακάκη για την ενεργει",
-      "✓ gn-kathimerini | Ακίνητα: Τι συμφέρει περισσότερο – Αγορά με δάνειο ή ενοίκιο; - Kathimerini",
-      "✓ gn-iefimerida | Αγνοούμενος Ισραηλινός πεζοπόρος στον Όλυμπο εντοπίστηκε νεκρός, σε υψόμετρο περίπου 1.800"
+      "· minfin | ΑΝΑΚΟΙΝΩΣΗ ΠΕΡΙ ΜΗ ΔΙΕΝΕΡΓΕΙΑΣ ΔΗΜΟΠΡΑΣΙΑΣ ΟΜΟΛΟΓΩΝ",
+      "· naftemporiki | Αλιείς: Αναστέλλουν τις κινητοποιήσεις με το βλέμμα στις κυβερνητικές δεσμεύσεις",
+      "· gct | Battle of Sarantaporo: The 1912 Greek Victory That Opened the Road to Macedonia"
     ]
   },
   "evergreenDone": [
@@ -2625,5 +2531,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "motor-oil-explosion-oct-2026",
+      "url": "https://yavanet.gr/a/motor-oil-explosion-oct-2026/",
+      "at": "2026-10-09T12:58:43.391Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/motor-oil-explosion-oct-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/motor-oil-explosion-oct-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "פיצוץ בבית הזיקוק מוטור אויל: שני פצועים קשה ביוון",
+        "title_en": "Motor Oil refinery explosion: Two seriously injured in Greece",
+        "dek_he": "שני בני אדם נפצעו באורח קשה בעקבות פיצוץ שאירע במתקן של חברת מוטור אויל ביוון. הרשויות מדווחים על האירוע.",
+        "dek_en": "Two people sustained serious injuries following an explosion at a Motor Oil facility in Greece. Authorities are handling the incident.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/31403876/pexels-photo-31403876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "פיצוץ בבית הזיקוק מוטור אויל: שני פצועים קשה ביוון\n\nשני בני אדם נפצעו באורח קשה בעקבות פיצוץ שאירע במתקן של חברת מוטור אויל ביוון. הרשויות מדווחים על האירוע.\n\nhttps://yavanet.gr/a/motor-oil-explosion-oct-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Motor Oil refinery explosion: Two seriously injured in Greece\n\nTwo people sustained serious injuries following an explosion at a Motor Oil facility in Greece. Authorities are handling the incident.\n\nhttps://yavanet.gr/en/a/motor-oil-explosion-oct-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
