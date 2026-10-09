@@ -2062,14 +2062,13 @@
       "fails": 529
     },
     "minfin": {
-      "ok": false,
-      "at": "2026-10-09T20:53:42.477Z",
-      "error": "fetch failed",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-09T21:03:16.442Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T20:53:43.154Z",
+      "at": "2026-10-09T21:03:17.407Z",
       "items": 6
     },
     "civilprotection": {
@@ -2080,27 +2079,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T20:53:44.834Z",
+      "at": "2026-10-09T21:03:19.295Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T20:53:45.275Z",
+      "at": "2026-10-09T21:03:19.546Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T20:53:46.211Z",
+      "at": "2026-10-09T21:03:20.637Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T20:53:47.002Z",
+      "at": "2026-10-09T21:03:21.430Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T20:53:47.552Z",
+      "at": "2026-10-09T21:03:22.310Z",
       "items": 10
     },
     "toi-greece": {
@@ -2111,22 +2110,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T20:53:48.047Z",
+      "at": "2026-10-09T21:03:22.887Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T20:53:48.387Z",
+      "at": "2026-10-09T21:03:23.127Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T20:53:49.144Z",
+      "at": "2026-10-09T21:03:23.203Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T20:53:49.351Z",
+      "at": "2026-10-09T21:03:23.778Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2136,12 +2135,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T20:53:43.925Z",
+      "at": "2026-10-09T21:03:17.968Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T20:53:50.124Z",
+      "at": "2026-10-09T21:03:24.592Z",
       "items": 0
     },
     "hcg": {
@@ -2152,160 +2151,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T20:53:51.318Z",
+      "at": "2026-10-09T21:03:25.726Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T20:53:51.557Z",
-      "items": 7
+      "at": "2026-10-09T21:03:25.909Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T20:53:51.739Z",
+      "at": "2026-10-09T21:03:26.083Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T20:53:51.929Z",
+      "at": "2026-10-09T21:03:26.336Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T20:53:52.313Z",
+      "at": "2026-10-09T21:03:26.694Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T20:53:52.799Z",
+      "at": "2026-10-09T21:03:27.177Z",
       "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-09",
-    "count": 11,
-    "published": [
-      {
-        "slug": "athens-housing-prices-800k-2026",
-        "title": "Athens Property Market: Analysis of Homes Around €800,000",
-        "at": "2026-10-09T03:38:00+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-us-approval-advanced-weapons-f35-f16",
-        "title": "Greece Secures Initial US Approval for Advanced F-35 and F-16 Weapons",
-        "at": "2026-10-09T08:29:55+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "greece-real-estate-property-values-bank",
-        "title": "Greece Establishes New Property Values Database",
-        "at": "2026-10-09T12:29:20+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-winter-time-october-2026",
-        "title": "Greece Winter Time 2026: When Clocks Go Back in October",
-        "at": "2026-10-09T12:43:41+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-short-term-rental-demand-september",
-        "title": "Athens: Short-Term Rental Demand Outpaces Summer in September",
-        "at": "2026-10-09T14:05:44+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "motor-oil-explosion-oct-2026",
-        "title": "Motor Oil refinery explosion: Two seriously injured in Greece",
-        "at": "2026-10-09T15:58:42+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-retirement-destination-2026",
-        "title": "Greece Ranks Among World's Top 10 Retirement Destinations in 2026 Index",
-        "at": "2026-10-09T16:12:53+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-energy-escape-clause-2026",
-        "title": "Greece: European Commission approves energy escape clause",
-        "at": "2026-10-09T17:56:11+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "thessaloniki-metro-closure-oct-2026",
-        "title": "Thessaloniki: Metro suspended due to technical fault",
-        "at": "2026-10-09T20:04:36+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "property-transfer-tax-changes-greece",
-        "title": "Greece updates property transfer rules for tax debtors",
-        "at": "2026-10-09T20:53:09+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-weather-storm-snow-marousakis",
-        "title": "Severe weather system heading to Greece with snow on the mainland",
-        "at": "2026-10-09T22:25:09+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Θεσσαλονίκη: Tροποποιείται η ώρα έναρξης λειτουργίας του Μετρό την Κυριακή 11/10 - iefimerida.gr",
-        "reason": "Rule 8 violation: The source text states the date as '11/10', but does not mention the month name 'October'. The article adds 'October' (אוקטובר) which is not in the source text.",
-        "at": "2026-10-09T04:05:35.034Z"
-      },
-      {
-        "title": "Lebanon accuses Israel of violating framework agreement",
-        "reason": "Ουδέτερη εκδοχή: Rule 1 & 2: The article presents unilateral political accusations by a foreign leader regarding active geopolitical disputes and violations ('ישראל מפרה את הסכם המסגרת') without maintaining neutral framing or balance, which violates the strict neutrality and non-taking-sides rules r",
-        "at": "2026-10-09T09:25:05.788Z"
-      },
-      {
-        "title": "Αγνοούμενος Ισραηλινός πεζοπόρος στον Όλυμπο εντοπίστηκε νεκρός, σε υψόμετρο περίπου 1.800 μέτρων - iefimerida.gr",
-        "reason": "The article mentions rescue teams, local authorities, and managing the operation, which are not present in the brief source text. Rule 8: Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts that are not in the source.",
-        "at": "2026-10-09T12:30:50.772Z"
-      },
-      {
-        "title": "Ακίνητα: Τι συμφέρει περισσότερο – Αγορά με δάνειο ή ενοίκιο; - Kathimerini",
-        "reason": "Ίδιο θέμα με «Greece Announces New Housing and Relocation Grants» – δεν γράφτηκε ξανά",
-        "at": "2026-10-09T12:31:13.015Z"
-      },
-      {
-        "title": "Έκρηξη στη Motor Oil: Πέθανε ο ένας από τους δύο τραυματίες – Σε κρίσιμη κατάσταση ο δεύτερος",
-        "reason": "Ίδιο θέμα με «Motor Oil refinery explosion: Two seriously injured in Greece» – δεν γράφτηκε ξανά",
-        "at": "2026-10-09T14:30:37.364Z"
-      },
-      {
-        "title": "Νεκρός ορειβάτης που ήταν αγνοούμενος στον Όλυμπο από τις 21 Σεπτεμβρίου",
-        "reason": "The Hebrew version consistently misspells 'Mount Olympus' as 'הר אופמוס' (Har Opumus) instead of 'הר אוליμπος' or 'הר אולימπος'.",
-        "at": "2026-10-09T17:53:45.752Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greece-us-approval-advanced-weapons-f35-f16",
-        "at": "2026-10-09T05:29:55.293Z"
-      },
-      {
-        "slug": "greece-real-estate-property-values-bank",
-        "at": "2026-10-09T09:29:21.548Z"
-      },
-      {
-        "slug": "motor-oil-explosion-oct-2026",
-        "at": "2026-10-09T12:58:43.391Z"
-      },
-      {
-        "slug": "thessaloniki-metro-closure-oct-2026",
-        "at": "2026-10-09T17:04:36.387Z"
-      }
-    ]
+    "date": "2026-10-10",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-09",
+      "count": 11,
+      "rejected": 6
+    },
     {
       "date": "2026-10-08",
       "count": 9,
