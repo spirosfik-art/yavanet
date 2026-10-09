@@ -1908,7 +1908,8 @@
     "b032f1280ef7": 1791509227749,
     "64eda9c7486a": 1791509227749,
     "5282f25ef8cf": 1791509227749,
-    "473312b06ea3": 1791510885031
+    "473312b06ea3": 1791510885031,
+    "8fb5980824b5": 1791512713647
   },
   "pending": {},
   "sourceStatus": {
@@ -1920,12 +1921,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-09T02:03:46.573Z",
-      "items": 0
+      "at": "2026-10-09T02:25:00.013Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-09T02:03:47.127Z",
+      "at": "2026-10-09T02:25:00.699Z",
       "items": 3
     },
     "civilprotection": {
@@ -1936,27 +1937,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-09T02:03:48.560Z",
+      "at": "2026-10-09T02:25:05.371Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-09T02:03:48.763Z",
+      "at": "2026-10-09T02:25:05.566Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-09T02:03:49.541Z",
+      "at": "2026-10-09T02:25:06.651Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-09T02:03:50.158Z",
+      "at": "2026-10-09T02:25:07.319Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-09T02:03:51.008Z",
+      "at": "2026-10-09T02:25:08.107Z",
       "items": 10
     },
     "toi-greece": {
@@ -1967,22 +1968,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-09T02:03:51.245Z",
+      "at": "2026-10-09T02:25:08.618Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-09T02:03:51.621Z",
+      "at": "2026-10-09T02:25:08.928Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-09T02:03:52.117Z",
+      "at": "2026-10-09T02:25:09.427Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T02:03:52.459Z",
+      "at": "2026-10-09T02:25:09.624Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1992,12 +1993,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-09T02:03:47.638Z",
+      "at": "2026-10-09T02:25:01.200Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-09T02:03:52.999Z",
+      "at": "2026-10-09T02:25:10.292Z",
       "items": 0
     },
     "hcg": {
@@ -2008,32 +2009,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-09T02:03:55.155Z",
+      "at": "2026-10-09T02:25:11.483Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-09T02:03:55.381Z",
+      "at": "2026-10-09T02:25:11.778Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-09T02:03:55.626Z",
+      "at": "2026-10-09T02:25:11.982Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-09T02:03:55.986Z",
+      "at": "2026-10-09T02:25:12.229Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-09T02:03:56.407Z",
+      "at": "2026-10-09T02:25:12.533Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-09T02:03:56.901Z",
+      "at": "2026-10-09T02:25:13.054Z",
       "items": 6
     }
   },
@@ -2122,11 +2123,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-09T01:54:45.031Z",
+    "at": "2026-10-09T02:25:13.647Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Alan Davidson owes Hellas his life. On Saturday his son captains the other side."
+      "· gct | Houthi Missiles Strike Two Aircraft at Riyadh Airport as Falling Debris Hits Kindergarten"
     ]
   },
   "evergreenDone": [
