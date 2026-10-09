@@ -1,0 +1,56 @@
+{
+  "slug": "thessaloniki-metro-closure-oct-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-09T20:04:36+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Thessaloniki",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/09/greece/ektos-leitourgias-to-metro-thessalonikis-logo-texnikou-provlimatos/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34712903/pexels-photo-34712903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "View of an escalator setup in a Thessaloniki metro station showcasing modern design.",
+    "credit": "Photo: Dimitris Mourousiadis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/modern-escalator-system-in-thessaloniki-metro-34712903/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "סלוניקי: הרכבת התחתית הושבתה עקב תקלה טכנית",
+    "dek": "מאות נוסעים הושפעו מהפסקת הפעילות בסלוניקי | חברת ההפעלה מסרה כי צוותים מקצועיים פועלים במקום לבדיקה ולתיקון.",
+    "tldr": [
+      "הרכבת התחתית בסלוניקי הושבתה בשעות הצהריים עקב תקלה טכנית.",
+      "חברת ההפעלה Thema הודיעה כי מבוצעות כל הבדיקות והתיקונים הנדרשים.",
+      "שוטרים הוצבו בכניסות לתחנות כדי לעדכן את הציבור על הפסקת השירות."
+    ],
+    "means": "לנוסעים ולמבקרים בסלוניקי צפויים שיבושים בהתנהלות עם תחבורה ציבורית בעיר עקב השבתת המטרו.",
+    "body": "החל מהשעה ארבע אחר הצהריים הופסקה פעילות הרכבת התחתית בסלוניקי עקב תקלה טכנית שהתגלתה במערכת, מה שיצר עומסים וקשיים למאות נוסעים שניסו להתנייד בעיר. חברת ההפעלה Thema פרסמה הודעה רשמית שבה צוין כי הצוותים המקצועיים מבצעים את כל הבדיקות הנדרשות ופועלים לפי הנהלים המקובלים כדי לתקן את התקלה בהקדם האפשרי. במקביל, כוחות משטרה הועמדו מחוץ לשערי התחנות הסגורות כדי לכוון את העוברים ושבים ולמסור מידע מעודכן על מצב הפעילות. החברה מסרה התנצלות בפני הציבור על עוגמת הנפש והבטיחה לעדכן בהמשך ברגע שיתקבלו פרטים חדשים על חידוש השירות."
+  },
+  "en": {
+    "title": "Thessaloniki: Metro suspended due to technical fault",
+    "dek": "Hundreds of passengers affected in Thessaloniki | Operating company states that technical checks and restoration protocols are underway.",
+    "tldr": [
+      "The Thessaloniki metro was suspended in the afternoon due to a technical issue.",
+      "Operating company Thema announced that all required safety checks and repairs are taking place.",
+      "Police officers were deployed outside station entrances to inform the public about the closure."
+    ],
+    "means": "Visitors and residents in Thessaloniki should expect public transport disruptions following the sudden metro shutdown.",
+    "body": "The Thessaloniki metro was taken out of service at around four in the afternoon due to an unexpected technical problem, causing significant inconvenience for hundreds of passengers. According to an official announcement by the operating company Thema, all mandatory technical inspections and restoration procedures are currently being implemented in accordance with safety protocols. Police officers have been stationed outside the station gates to provide information to the public regarding the suspension. The company apologized for the disruption and stated that further updates will be provided to inform passengers as soon as possible."
+  },
+  "meta": {
+    "itemId": "9690402b1c4d",
+    "imageQuery": "Thessaloniki metro station",
+    "sourceHash": "b977c0574b74",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-09T17:04:36.387Z",
+    "official": false
+  }
+}
