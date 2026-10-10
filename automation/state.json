@@ -2184,7 +2184,8 @@
     "48fe5b20b0a5": 1791663816419,
     "42b78dd9fd36": 1791665485065,
     "bfe94de8b4c6": 1791665485065,
-    "4da83176c3e5": 1791665485065
+    "4da83176c3e5": 1791665485065,
+    "c016c632aa40": 1791666105646
   },
   "pending": {},
   "sourceStatus": {
@@ -2196,12 +2197,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T20:51:13.915Z",
+      "at": "2026-10-10T21:01:35.886Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T20:51:14.556Z",
+      "at": "2026-10-10T21:01:36.511Z",
       "items": 6
     },
     "civilprotection": {
@@ -2212,27 +2213,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T20:51:16.387Z",
+      "at": "2026-10-10T21:01:37.862Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T20:51:16.594Z",
+      "at": "2026-10-10T21:01:38.095Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T20:51:17.510Z",
+      "at": "2026-10-10T21:01:39.018Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T20:51:18.354Z",
+      "at": "2026-10-10T21:01:39.665Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T20:51:19.350Z",
+      "at": "2026-10-10T21:01:40.397Z",
       "items": 10
     },
     "toi-greece": {
@@ -2243,22 +2244,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T20:51:19.980Z",
-      "items": 0
+      "at": "2026-10-10T21:01:40.856Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T20:51:20.327Z",
+      "at": "2026-10-10T21:01:40.936Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T20:51:21.007Z",
+      "at": "2026-10-10T21:01:41.237Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T20:51:21.190Z",
+      "at": "2026-10-10T21:01:41.372Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2268,12 +2269,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T20:51:15.350Z",
+      "at": "2026-10-10T21:01:36.823Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T20:51:21.864Z",
+      "at": "2026-10-10T21:01:41.887Z",
       "items": 0
     },
     "hcg": {
@@ -2284,179 +2285,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T20:51:22.710Z",
-      "items": 0
+      "at": "2026-10-10T21:01:43.506Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T20:51:22.976Z",
+      "at": "2026-10-10T21:01:43.736Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T20:51:23.234Z",
+      "at": "2026-10-10T21:01:43.935Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T20:51:23.469Z",
+      "at": "2026-10-10T21:01:44.236Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T20:51:23.828Z",
-      "items": 10
+      "at": "2026-10-10T21:01:44.615Z",
+      "items": 11
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T20:51:24.399Z",
+      "at": "2026-10-10T21:01:45.065Z",
       "items": 15
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-10",
-    "count": 4,
-    "published": [
-      {
-        "slug": "athens-metro-line-3-evening-closures",
-        "title": "Athens Metro Line 3 Evening Closures Due to Track Works",
-        "at": "2026-10-10T10:22:57+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "aigaleo-athens-clothing-factory-fire",
-        "title": "Athens fire: Blaze breaks out at two textile workshops in Aigaleo",
-        "at": "2026-10-10T10:38:34+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-snow-marousakis",
-        "title": "↻ Severe weather system brings heavy rain and mountain snow to Greece",
-        "at": "2026-10-10T12:24:18+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-metro-line-3-evening-closures",
-        "title": "↻ Athens Metro Blue Line Stations Closing Earlier Starting Sunday",
-        "at": "2026-10-10T13:24:03+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "thessaloniki-delta-fire-10-10",
-        "title": "Fire breaks out in the Thessaloniki area with firefighters active",
-        "at": "2026-10-10T13:24:26+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-epirus-greece",
-        "title": "Orange Thunderstorm Warning Issued for Greece - Epirus",
-        "at": "2026-10-10T15:01:50+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "thessaloniki-delta-fire-10-10",
-        "title": "↻ Fire update: Firefighters deployed to the Diavata area in Thessaloniki",
-        "at": "2026-10-10T16:05:02+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-fire-statistics-and-crete-aid-2026",
-        "title": "Decline in Greek Wildfires and Rapid Aid for Crete",
-        "at": "2026-10-10T16:25:30+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "greece-weather-storm-snow-marousakis",
-        "title": "↻ Severe weather in Greece: storms, cold and mountain snow",
-        "at": "2026-10-10T22:50:23+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Body of Missing Israeli Hiker Found on Mount Olympus After More Than Two Weeks",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 112",
-        "at": "2026-10-09T23:37:01.457Z"
-      },
-      {
-        "title": "Το Νομπέλ που εξόργισε το Ισραήλ - Kathimerini",
-        "reason": "Rule 7 violation: The article mentions unverified social media claims ('גררה תגובות נרחבות ברשתות' / 'public backlash').; Rule 1 & 5 violation: Use of emotive and provocative language ('הציתה ביקורת קשה', 'זעם רב', 'סערת פרס נובל', 'סوערות' / 'controversy', 'anger', 'sparked severe criticism') based",
-        "at": "2026-10-10T03:39:59.104Z"
-      },
-      {
-        "title": "Historic Hamza Bey Mosque Reopens to Public After Restoration",
-        "reason": "The Hebrew meta description adds external targeting towards Israeli tourists ('מה מחכה למטיילים הישראלים בעיר') which is not present in the source.",
-        "at": "2026-10-10T04:25:25.989Z"
-      },
-      {
-        "title": "Μετρό Θεσσαλονίκης: Εκτός λειτουργίας όλη η γραμμή - Kathimerini",
-        "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T11:01:27.933Z"
-      },
-      {
-        "title": "Orange Thunderstorm Warning issued for Greece - West Sterea",
-        "reason": "Ίδιο θέμα με «Severe weather system brings heavy rain and mountain snow to Greece» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T11:51:48.968Z"
-      },
-      {
-        "title": "Θεσσαλονίκη: Αποκαταστάθηκε η λειτουργία του μετρό μετά το μπλακ άουτ των 2,5 ωρών - Kathimerini",
-        "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T12:01:54.950Z"
-      },
-      {
-        "title": "Φωτιά σε βιοτεχνίες στον Ελαιώνα – Προληπτική εκκένωση σε ακτίνα 400 μέτρων - Kathimerini",
-        "reason": "Ίδιο θέμα με «Athens fire: Blaze breaks out at two textile workshops in Aigaleo» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T12:28:36.594Z"
-      },
-      {
-        "title": "Έκρηξη στη Motor Oil: Τρεις νέες συλλήψεις και αναζητείται ακόμη ένας - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Motor Oil refinery explosion: Two seriously injured in Greece» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T12:28:41.264Z"
-      },
-      {
-        "title": "Τρεις νέες συλλήψεις για την έκρηξη στη Motor Oil",
-        "reason": "Ίδιο θέμα με «Motor Oil refinery explosion: Two seriously injured in Greece» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T13:37:16.687Z"
-      },
-      {
-        "title": "Υπό έλεγχο η φωτιά σε δύο βιοτεχνίες στον Ελαιώνα – Εκτεταμένες ζημιές - Kathimerini",
-        "reason": "Ίδιο θέμα με «Athens fire: Blaze breaks out at two textile workshops in Aigaleo»: Mixed-script (broken) Hebrew words: אלאונas, באלאונas, אלאונas, אלאונas, אלאונas. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-10T14:23:50.731Z"
-      },
-      {
-        "title": "Φωτιά σε δύο βιοτεχνίες στον Ελαιώνα -Προληπτική απομάκρυνση όσων βρίσκονται σε απόσταση 400 μέτρων [βίντεο] - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Athens fire: Blaze breaks out at two textile workshops in Aigaleo» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T17:50:06.524Z"
-      },
-      {
-        "title": "Mass Protests in Athens and Worldwide Marking Three Years of Gaza War",
-        "reason": "Απορρίφθηκε από τον ιδιοκτήτη",
-        "at": "2026-10-10T20:02:51.840Z"
-      },
-      {
-        "title": "Μετρό Θεσσαλονίκης: Αλλαγή ώρας έναρξης λειτουργίας την Κυριακή - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
-        "at": "2026-10-10T20:23:40.695Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "athens-metro-line-3-evening-closures",
-        "at": "2026-10-10T07:22:57.582Z"
-      },
-      {
-        "slug": "thessaloniki-delta-fire-10-10",
-        "at": "2026-10-10T10:24:26.819Z"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-epirus-greece",
-        "at": "2026-10-10T12:01:52.604Z"
-      }
-    ]
+    "date": "2026-10-11",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-10",
+      "count": 4,
+      "rejected": 13
+    },
     {
       "date": "2026-10-09",
       "count": 11,
@@ -2530,13 +2401,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T20:51:25.065Z",
-    "considered": 3,
+    "at": "2026-10-10T21:01:45.646Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gn-kathimerini | Τουλάχιστον 12 νεκροί από την επίθεση των Χούθι στο αεροδρόμιο του Ριάντ - Kathimerini",
-      "· gn-hcg | Εκδήλωση πυρκαγιάς και βύθιση Ι/Φ σκάφους στη Μυτιλήνη – Απαγόρευση απόπλου και άρση απαγό",
-      "· ingr | Μειώνονται οι χρεώσεις ΥΚΩ στο ρεύμα, υποχρεωτικά τα σταθερά τιμολόγια"
+      "· gn-kathimerini | Γάζα: Χιλιάδες διαδηλωτές σε Λονδίνο και Βερολίνο κατά των ισραηλινών επιθέσεων - Kathimer"
     ]
   },
   "evergreenDone": [
