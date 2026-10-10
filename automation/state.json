@@ -2134,7 +2134,10 @@
     "ed7b060414fc": 1791629496132,
     "2d27dc19a721": 1791629496132,
     "f9b313bcb217": 1791629496132,
-    "b531c98563cb": 1791629496132
+    "b531c98563cb": 1791629496132,
+    "fc0c6d349eb9": 1791630083899,
+    "1a0df8354140": 1791630083899,
+    "2d3cbeafd7bd": 1791630083899
   },
   "pending": {},
   "sourceStatus": {
@@ -2146,12 +2149,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T10:51:01.355Z",
+      "at": "2026-10-10T11:01:12.771Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T10:51:02.133Z",
+      "at": "2026-10-10T11:01:13.366Z",
       "items": 6
     },
     "civilprotection": {
@@ -2162,27 +2165,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T10:51:04.374Z",
+      "at": "2026-10-10T11:01:14.660Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T10:51:04.794Z",
+      "at": "2026-10-10T11:01:14.839Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T10:51:05.901Z",
+      "at": "2026-10-10T11:01:15.696Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T10:51:06.822Z",
+      "at": "2026-10-10T11:01:16.372Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T10:51:07.883Z",
+      "at": "2026-10-10T11:01:17.170Z",
       "items": 10
     },
     "toi-greece": {
@@ -2193,22 +2196,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T10:51:08.471Z",
+      "at": "2026-10-10T11:01:17.695Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T10:51:08.677Z",
+      "at": "2026-10-10T11:01:18.032Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T10:51:09.412Z",
-      "items": 11
+      "at": "2026-10-10T11:01:18.549Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T10:51:09.623Z",
+      "at": "2026-10-10T11:01:18.971Z",
       "items": 8
     },
     "ynet-greece": {
@@ -2218,12 +2221,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T10:51:02.921Z",
+      "at": "2026-10-10T11:01:13.678Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T10:51:10.287Z",
+      "at": "2026-10-10T11:01:19.598Z",
       "items": 0
     },
     "hcg": {
@@ -2234,33 +2237,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T10:51:12.037Z",
+      "at": "2026-10-10T11:01:21.349Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T10:51:12.207Z",
+      "at": "2026-10-10T11:01:21.586Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T10:51:12.356Z",
+      "at": "2026-10-10T11:01:21.765Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T10:51:12.506Z",
+      "at": "2026-10-10T11:01:22.002Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T10:51:12.848Z",
-      "items": 4
+      "at": "2026-10-10T11:01:22.264Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T10:51:13.238Z",
-      "items": 11
+      "at": "2026-10-10T11:01:22.730Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -2314,6 +2317,11 @@
         "title": "Historic Hamza Bey Mosque Reopens to Public After Restoration",
         "reason": "The Hebrew meta description adds external targeting towards Israeli tourists ('מה מחכה למטיילים הישראלים בעיר') which is not present in the source.",
         "at": "2026-10-10T04:25:25.989Z"
+      },
+      {
+        "title": "Μετρό Θεσσαλονίκης: Εκτός λειτουργίας όλη η γραμμή - Kathimerini",
+        "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
+        "at": "2026-10-10T11:01:27.933Z"
       }
     ],
     "errors": [],
@@ -2402,14 +2410,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T10:51:36.132Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-10T11:01:23.899Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Αιγάλεω: Συνεχίζεται η προσπάθεια κατάσβεσης – Μειώθηκε το πυροθερμικο φορτίο",
-      "· ingr | Δράμα: Χωρίς τις αισθήσεις του εντοπίστηκε άνδρας σε διαμέρισμα, μετά την κατάσβεση φωτιάς",
-      "· gn-hcg | Εντοπισμός και διάσωση 33 αλλοδαπών και σύλληψη των διακινητών τους μετά από καταδίωξη στη",
-      "· gct | Alpha Omega Anniversary Weekend Celebrates 50 Years in Boston"
+      "· gct | In ancient Athens, gossip was how the powerless hit back",
+      "· gn-iefimerida | Σεισμός 7,7 Ρίχτερ στον Παναμά -Προειδοποίηση για τσουνάμι σε εννέα χώρες - iefimerida.gr",
+      "✓ gn-kathimerini | Μετρό Θεσσαλονίκης: Εκτός λειτουργίας όλη η γραμμή - Kathimerini"
     ]
   },
   "evergreenDone": [
