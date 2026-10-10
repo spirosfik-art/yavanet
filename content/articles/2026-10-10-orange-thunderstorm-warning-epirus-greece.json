@@ -1,0 +1,77 @@
+{
+  "slug": "orange-thunderstorm-warning-epirus-greece",
+  "section": "breaking",
+  "publishedAt": "2026-10-10T15:01:50+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 39.6667,
+    "lng": 20.85
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR008"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15938542/pexels-photo-15938542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Moody overcast sky featuring layers of dark, dramatic clouds suggesting an impending storm.",
+    "credit": "Photo: Enrique / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/view-of-the-sky-with-dark-clouds-15938542/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת סערה",
+    "en": "Storm Warning"
+  },
+  "he": {
+    "title": "אזהרת סערה ביוון: אזהרת סופות רعد כתומות באפירוס",
+    "seoTitle": "מזג אוויר ביוון: אזהרת סופות באפירוס היום",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "אפירוס יוון",
+      "אזהרת סערה ביוון",
+      "תחזית מזג אוויר יוון"
+    ],
+    "dek": "רשויות החירום פרסמו אזהרת סופות רעד ברמת חומרה כתומות לאזור אפירוס ביוון.",
+    "tldr": [
+      "אזהרת סופות רعد כתומות פורסמה עבור יוון - אפירוס.",
+      "האזהרה מגיעה ממערכות ניטור מזג האוויר הרשמיות.",
+      "מומלץ לעקוב אחר העדכונים המקומיים."
+    ],
+    "means": "אם אתם מטיילים או שוהים באזור אפירוס ביוון, תבדקו את תחזית מזג האוויר ותכננו את הפעילויות שלכם בזהירות. תעקבו אחר ההנחיות המקומיות ותשמרו על קשר עם הגורמים הרלוונטיים באזור.",
+    "body": "## אזהרת מזג אוויר באפירוס\n\nהודעה רשמית פורסמה בנוגע למזג האוויר באזור אפירוס ביוון, הכוללת אזהרת סופות רעד ברמת חומרה כתומות. המערכות המקצועיות עוקבות אחר התפתחות התנאים המטאורולוגיים באזור.\n\n## הנחיות למטיילים ולשוהים באזור\n\nמי שנמצא כעת ביוון, ובמיוחד באזור אפירוס, מתבקש לשים לב לעדכונים השוטפים ממקורות מוסמכים. חשוב להישאר מעודכנים בשינויים ולהימנע משהייה באזורים חשופים או מועדים לסיכון בזמן סערה."
+  },
+  "en": {
+    "title": "Orange Thunderstorm Warning Issued for Greece - Epirus",
+    "seoTitle": "Greece Weather: Orange Thunderstorm Warning Epirus",
+    "seoDesc": "An orange thunderstorm warning has been issued for the Epirus region in Greece. Check local updates before traveling.",
+    "keywords": [
+      "weather in greece",
+      "epirus greece",
+      "storm warning greece",
+      "greece travel safety"
+    ],
+    "dek": "An official orange level thunderstorm warning has been issued for the Epirus region in Greece.",
+    "tldr": [
+      "An orange thunderstorm warning was issued for Greece - Epirus.",
+      "The alert originates from official weather monitoring bodies.",
+      "Visitors and residents should monitor local conditions."
+    ],
+    "means": "If you are traveling or staying in the Epirus region of Greece, check local weather forecasts and adjust your plans accordingly. Follow safety guidance from local authorities and stay informed.",
+    "body": "## Weather Alert in Epirus\n\nAn official weather notification has been released for the Epirus region in Greece, highlighting an orange-level thunderstorm warning. Authorities and forecasting services continue to monitor the meteorological conditions in the area.\n\n## Guidance for Visitors and Residents\n\nAnyone currently located in or planning to visit Epirus should stay tuned to official updates. It is important to remain cautious and heed any practical safety advice issued by local emergency services during active weather events."
+  },
+  "meta": {
+    "itemId": "52c661542d4c",
+    "imageQuery": "storm clouds greece heavy weather",
+    "sourceHash": "f4f1b2921864",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-10T12:01:50.894Z",
+    "official": true
+  }
+}

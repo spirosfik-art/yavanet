@@ -2142,7 +2142,12 @@
     "81819e0df3b0": 1791632212310,
     "6ce3555e30d6": 1791632212310,
     "7e07927976bb": 1791632212310,
-    "4cef313811ac": 1791633104813
+    "4cef313811ac": 1791633104813,
+    "c24cdd38602b": 1791633688233,
+    "b336b2eeae29": 1791633688233,
+    "52c661542d4c": 1791633688233,
+    "debd9ae7c862": 1791633688233,
+    "93dae049d245": 1791633688233
   },
   "pending": {},
   "sourceStatus": {
@@ -2154,12 +2159,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T11:51:33.019Z",
-      "items": 10
+      "at": "2026-10-10T12:01:17.202Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T11:51:33.961Z",
+      "at": "2026-10-10T12:01:18.081Z",
       "items": 6
     },
     "civilprotection": {
@@ -2170,27 +2175,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T11:51:35.788Z",
-      "items": 2
+      "at": "2026-10-10T12:01:20.193Z",
+      "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T11:51:35.863Z",
+      "at": "2026-10-10T12:01:20.323Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T11:51:36.930Z",
+      "at": "2026-10-10T12:01:21.381Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T11:51:37.908Z",
-      "items": 4
+      "at": "2026-10-10T12:01:22.124Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T11:51:38.917Z",
+      "at": "2026-10-10T12:01:22.575Z",
       "items": 10
     },
     "toi-greece": {
@@ -2201,22 +2206,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T11:51:39.562Z",
+      "at": "2026-10-10T12:01:23.152Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T11:51:39.772Z",
+      "at": "2026-10-10T12:01:23.237Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T11:51:39.823Z",
-      "items": 11
+      "at": "2026-10-10T12:01:23.985Z",
+      "items": 12
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T11:51:40.323Z",
+      "at": "2026-10-10T12:01:24.207Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2226,12 +2231,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T11:51:34.450Z",
+      "at": "2026-10-10T12:01:18.943Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T11:51:41.003Z",
+      "at": "2026-10-10T12:01:24.575Z",
       "items": 0
     },
     "hcg": {
@@ -2242,33 +2247,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T11:51:42.614Z",
+      "at": "2026-10-10T12:01:25.850Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T11:51:42.796Z",
-      "items": 6
+      "at": "2026-10-10T12:01:26.103Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T11:51:42.936Z",
+      "at": "2026-10-10T12:01:26.283Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T11:51:43.099Z",
+      "at": "2026-10-10T12:01:26.448Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T11:51:43.390Z",
-      "items": 5
+      "at": "2026-10-10T12:01:26.761Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T11:51:43.785Z",
-      "items": 10
+      "at": "2026-10-10T12:01:27.221Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2305,6 +2310,12 @@
         "title": "Fire breaks out in the Thessaloniki area with firefighters active",
         "at": "2026-10-10T13:24:26+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "orange-thunderstorm-warning-epirus-greece",
+        "title": "Orange Thunderstorm Warning Issued for Greece - Epirus",
+        "at": "2026-10-10T15:01:50+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2332,6 +2343,11 @@
         "title": "Orange Thunderstorm Warning issued for Greece - West Sterea",
         "reason": "Ίδιο θέμα με «Severe weather system brings heavy rain and mountain snow to Greece» – δεν γράφτηκε ξανά",
         "at": "2026-10-10T11:51:48.968Z"
+      },
+      {
+        "title": "Θεσσαλονίκη: Αποκαταστάθηκε η λειτουργία του μετρό μετά το μπλακ άουτ των 2,5 ωρών - Kathimerini",
+        "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
+        "at": "2026-10-10T12:01:54.950Z"
       }
     ],
     "errors": [],
@@ -2343,6 +2359,10 @@
       {
         "slug": "thessaloniki-delta-fire-10-10",
         "at": "2026-10-10T10:24:26.819Z"
+      },
+      {
+        "slug": "orange-thunderstorm-warning-epirus-greece",
+        "at": "2026-10-10T12:01:52.604Z"
       }
     ]
   },
@@ -2420,11 +2440,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T11:51:44.813Z",
-    "considered": 1,
-    "picked": 1,
+    "at": "2026-10-10T12:01:28.233Z",
+    "considered": 5,
+    "picked": 2,
     "items": [
-      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - West Sterea"
+      "· ingr | Παναμάς: Συστάσεις από τις προξενικές αρχές για τους Έλληνες πολίτες, μετά τον σεισμό των ",
+      "· gct | HBBU Summer Send-Off Brings More Than 50 Professionals to Kaia in Boston",
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Epirus",
+      "· gn-iefimerida | Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από Κυριακή στο τμήμα Αμπελόκηποι-Χαλάνδρι ",
+      "✓ gn-kathimerini | Θεσσαλονίκη: Αποκαταστάθηκε η λειτουργία του μετρό μετά το μπλακ άουτ των 2,5 ωρών - Kathi"
     ]
   },
   "evergreenDone": [
@@ -2466,6 +2490,25 @@
   ],
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
-  "lastPush": 1791137910178,
-  "socialQueue": []
+  "lastPush": 1791633712603,
+  "socialQueue": [
+    {
+      "slug": "orange-thunderstorm-warning-epirus-greece",
+      "url": "https://yavanet.gr/a/orange-thunderstorm-warning-epirus-greece/",
+      "at": "2026-10-10T12:01:52.604Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/orange-thunderstorm-warning-epirus-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/orange-thunderstorm-warning-epirus-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אזהרת סערה ביוון: אזהרת סופות רعد כתומות באפירוס",
+        "title_en": "Orange Thunderstorm Warning Issued for Greece - Epirus",
+        "dek_he": "רשויות החירום פרסמו אזהרת סופות רעד ברמת חומרה כתומות לאזור אפירוס ביוון.",
+        "dek_en": "An official orange level thunderstorm warning has been issued for the Epirus region in Greece.",
+        "section": "breaking",
+        "breaking": true,
+        "image": "https://images.pexels.com/photos/15938542/pexels-photo-15938542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "🔴 אזהרת סערה ביוון: אזהרת סופות רعد כתומות באפירוס\n\nרשויות החירום פרסמו אזהרת סופות רעד ברמת חומרה כתומות לאזור אפירוס ביוון.\n\nhttps://yavanet.gr/a/orange-thunderstorm-warning-epirus-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Orange Thunderstorm Warning Issued for Greece - Epirus\n\nAn official orange level thunderstorm warning has been issued for the Epirus region in Greece.\n\nhttps://yavanet.gr/en/a/orange-thunderstorm-warning-epirus-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
