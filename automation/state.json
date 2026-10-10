@@ -2100,7 +2100,11 @@
     "2344e32712b5": 1791613655276,
     "5f5dfd96cdb2": 1791613655276,
     "0e24ce31a329": 1791613655276,
-    "f2d8cc445f81": 1791615851938
+    "f2d8cc445f81": 1791615851938,
+    "99cf513ebe89": 1791616955765,
+    "ee8723352bfc": 1791616955765,
+    "60afab3269bd": 1791616955765,
+    "687cd3535f75": 1791616955765
   },
   "pending": {},
   "sourceStatus": {
@@ -2112,12 +2116,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T07:04:03.474Z",
-      "items": 10
+      "at": "2026-10-10T07:22:23.611Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T07:04:04.098Z",
+      "at": "2026-10-10T07:22:24.383Z",
       "items": 6
     },
     "civilprotection": {
@@ -2128,27 +2132,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T07:04:05.178Z",
+      "at": "2026-10-10T07:22:26.014Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T07:04:05.430Z",
+      "at": "2026-10-10T07:22:26.406Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T07:04:06.213Z",
+      "at": "2026-10-10T07:22:27.741Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T07:04:06.850Z",
-      "items": 7
+      "at": "2026-10-10T07:22:28.534Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T07:04:07.539Z",
+      "at": "2026-10-10T07:22:29.460Z",
       "items": 10
     },
     "toi-greece": {
@@ -2159,23 +2163,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T07:04:08.030Z",
-      "items": 0
+      "at": "2026-10-10T07:22:30.165Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T07:04:08.374Z",
+      "at": "2026-10-10T07:22:30.215Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T07:04:08.422Z",
-      "items": 9
+      "at": "2026-10-10T07:22:30.796Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T07:04:08.561Z",
-      "items": 6
+      "at": "2026-10-10T07:22:31.018Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2184,12 +2188,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T07:04:04.377Z",
+      "at": "2026-10-10T07:22:24.818Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T07:04:09.131Z",
+      "at": "2026-10-10T07:22:31.655Z",
       "items": 0
     },
     "hcg": {
@@ -2200,40 +2204,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T07:04:09.696Z",
-      "items": 0
+      "at": "2026-10-10T07:22:33.544Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T07:04:09.930Z",
+      "at": "2026-10-10T07:22:33.749Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T07:04:10.095Z",
+      "at": "2026-10-10T07:22:33.892Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T07:04:10.379Z",
+      "at": "2026-10-10T07:22:34.138Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T07:04:10.740Z",
+      "at": "2026-10-10T07:22:34.520Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T07:04:11.183Z",
-      "items": 9
+      "at": "2026-10-10T07:22:34.931Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-10",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "athens-metro-line-3-evening-closures",
+        "title": "Athens Metro Line 3 Evening Closures Due to Track Works",
+        "at": "2026-10-10T10:22:57+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [
       {
         "title": "Body of Missing Israeli Hiker Found on Mount Olympus After More Than Two Weeks",
@@ -2251,7 +2262,13 @@
         "at": "2026-10-10T04:25:25.989Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "athens-metro-line-3-evening-closures",
+        "at": "2026-10-10T07:22:57.582Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2327,11 +2344,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T07:04:11.938Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-10T07:22:35.765Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· ert | Αιγάλεω: Δύσκολη μάχη με τη φωτιά σε δύο βιοτεχνίες ρούχων και υφασμάτων – Πυκνός καπνός σ"
+      "· naftemporiki | Αιγάλεω: Βαρύ πυροθερμικό φορτίο από τις πυρκαγιές σε 2 βιοτεχνίες- Απομακρύνουν τους κατο",
+      "✓ ingr | Μετρό: Κυκλοφοριακές ρυθμίσεις λόγω έργων – Ποιοι σταθμοί θα κλείνουν νωρίτερα",
+      "· gn-iefimerida | Κατατέθηκε στη Βουλή το νομοσχέδιο για την απαγόρευση χρήσης κοινωνικών δικτύων από ανηλίκ",
+      "· gn-iefimerida | Φωτιά σε βιοτεχνία με υφάσματα στον Ελαιώνα -«Ακούσαμε ένα μπαμ, σκάγανε μπουκάλες», δείτε"
     ]
   },
   "evergreenDone": [
@@ -2374,5 +2394,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-metro-line-3-evening-closures",
+      "url": "https://yavanet.gr/a/athens-metro-line-3-evening-closures/",
+      "at": "2026-10-10T07:22:57.582Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-metro-line-3-evening-closures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-metro-line-3-evening-closures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אתונה: שינויים בשעות הפעילות בקו 3 של המטרו עקב עבודות",
+        "title_en": "Athens Metro Line 3 Evening Closures Due to Track Works",
+        "dek_he": "עבודות החלפת מסילות בקו 3 של המטרו באתונה יגרמו לסגירה מוקדמת של מספר תחנות בשעות הערב, לצד הפעלת קו אוטובוס חלופי.",
+        "dek_en": "Track replacement works on Athens Metro Line 3 will cause early evening closures at several stations, with replacement bus services in operation.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/28588993/pexels-photo-28588993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אתונה: שינויים בשעות הפעילות בקו 3 של המטרו עקב עבודות\n\nעבודות החלפת מסילות בקו 3 של המטרו באתונה יגרמו לסגירה מוקדמת של מספר תחנות בשעות הערב, לצד הפעלת קו אוטובוס חלופי.\n\nhttps://yavanet.gr/a/athens-metro-line-3-evening-closures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens Metro Line 3 Evening Closures Due to Track Works\n\nTrack replacement works on Athens Metro Line 3 will cause early evening closures at several stations, with replacement bus services in operation.\n\nhttps://yavanet.gr/en/a/athens-metro-line-3-evening-closures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
