@@ -2195,7 +2195,10 @@
     "30d3dcec881e": 1791670996574,
     "24e688ca3af1": 1791670996574,
     "0cb3a0e7faad": 1791670996574,
-    "d370d772ae28": 1791672649604
+    "d370d772ae28": 1791672649604,
+    "a27a2c083d79": 1791673303695,
+    "57b21103dbd2": 1791673303695,
+    "7cc9a6304ff3": 1791673303695
   },
   "pending": {},
   "sourceStatus": {
@@ -2207,12 +2210,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T22:50:35.176Z",
-      "items": 0
+      "at": "2026-10-10T23:01:32.974Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T22:50:36.120Z",
+      "at": "2026-10-10T23:01:33.771Z",
       "items": 6
     },
     "civilprotection": {
@@ -2223,27 +2226,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T22:50:38.672Z",
+      "at": "2026-10-10T23:01:35.541Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T22:50:39.182Z",
+      "at": "2026-10-10T23:01:35.973Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T22:50:40.338Z",
+      "at": "2026-10-10T23:01:37.021Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T22:50:42.169Z",
+      "at": "2026-10-10T23:01:37.745Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T22:50:43.084Z",
+      "at": "2026-10-10T23:01:38.436Z",
       "items": 10
     },
     "toi-greece": {
@@ -2254,22 +2257,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T22:50:43.644Z",
+      "at": "2026-10-10T23:01:39.035Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T22:50:43.749Z",
+      "at": "2026-10-10T23:01:39.298Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T22:50:44.273Z",
-      "items": 8
+      "at": "2026-10-10T23:01:39.373Z",
+      "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T22:50:44.857Z",
+      "at": "2026-10-10T23:01:39.582Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2279,12 +2282,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T22:50:37.120Z",
+      "at": "2026-10-10T23:01:34.505Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T22:50:45.760Z",
+      "at": "2026-10-10T23:01:40.241Z",
       "items": 0
     },
     "hcg": {
@@ -2295,32 +2298,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T22:50:47.442Z",
+      "at": "2026-10-10T23:01:41.542Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T22:50:47.638Z",
+      "at": "2026-10-10T23:01:41.741Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T22:50:47.776Z",
+      "at": "2026-10-10T23:01:41.899Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T22:50:47.917Z",
+      "at": "2026-10-10T23:01:42.065Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T22:50:48.278Z",
-      "items": 10
+      "at": "2026-10-10T23:01:42.413Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T22:50:48.684Z",
+      "at": "2026-10-10T23:01:42.868Z",
       "items": 15
     }
   },
@@ -2329,7 +2332,13 @@
     "date": "2026-10-11",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "The Bar in Front of the Bar jumps 28 places",
+        "reason": "Rule 2 violation in Hebrew version: Used the word 'Nachtleben' (German word for nightlife) inside a Hebrew text, and the Hebrew text mentions 'ישראלים' (Israelis) in the 'means' section which is an added generalization/demographic not present in the source text.; Rule 8 violation: Added specific tra",
+        "at": "2026-10-10T23:02:08.243Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -2411,11 +2420,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T22:50:49.604Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-10T23:01:43.695Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ert | UKMTO: Δεξαμενόπλοιο χτυπήθηκε από πύραυλο στα Στενά του Ορμούζ"
+      "✓ gct | The Bar in Front of the Bar jumps 28 places",
+      "· gct | The Bar in Front of the Bar jumps 28 places",
+      "· ingr | Επιβεβαιώνονται οι 12 νεκροί στη Σαουδική Αραβία, 309 οι τραυματίες"
     ]
   },
   "evergreenDone": [
