@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-snow-marousakis",
   "section": "breaking",
   "publishedAt": "2026-10-09T22:25:09+03:00",
-  "updatedAt": "2026-10-10T12:24:18+03:00",
+  "updatedAt": "2026-10-10T22:50:23+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 23.7275
   },
   "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMllIM2pQQk9xcGtkM0lzRUZIekFpY0YxUWkxN3pOTm1HbERnMVY3QTk2RWRFZng1cm5SWHAyYmVqbDBZZDhudC1SYS1LNHJXT0tXZlhkc0xrcmFySzdrNTNtMm1xRWlVQkJRMjVjNW16Y1NiSzhMdFBjcjlKby10MkZlS1A0UlJldE4weF9mQnFkR1FOX3cyQnhoLU9IMDNzZFZNNzZkcElEMGxwc3AtSHYteHQwVGJMazBVN0w0MFlGb0Flb29XY0x4UUNYQQ?oc=5"
+    },
     {
       "name": "in.gr",
       "url": "https://www.in.gr/2026/10/10/greece/erxetai-psyxri-eisvoli-entoni-metavoli-ston-kairo-enisxyetai-i-astatheia/"
@@ -34,26 +38,26 @@
     "en": "Storm"
   },
   "he": {
-    "title": "סערה ביוון: מזג אוויר קיצוני, גשמים חזקים ושלג בהרים",
-    "dek": "מערכת חורפית משמעותית מגיעה ליוון ומביאה עמה גשמים חזקים, רוחות עזות, ירידה בטמפרטורות ושלג בפסגות ההרים.",
+    "title": "מערכת חורפית ביוון: סערות חזקות, קור ושלגים בדרך",
+    "dek": "מערכת מזג אוויר סוערת פוקדת את יוון ומביאה עמה מטחי גשמים כבדים, רוחות עזות, התקררות ניכרת ושלגים בפסגות ההרים.",
     "tldr": [
-      "מערכת חורפית החלה להשפיע על מערב המדינה עם גשמים וסופות רעמים.",
-      "החל מיום ראשון מזג האוויר הסוער יורגש גם באזור אטיקה ובמוקדים נוספים.",
-      "לקראת יום שלישי צפויה כניסת מערכת קרה נוספת שתוריד את הטמפרטורות ותביא שלג בהרים."
+      "מערכת חורפית כפולה פוגעת באזורים שונים ביוון.",
+      "צפויות סופות רעמים חזקות ומשקעים מרובים.",
+      "הטמפרטורות צפויות לרדת ושלגים יירדו בהרים."
     ],
-    "means": "אם אתם מתכננים חופשה ביוון או שהייה באתונה וביתר האזורים המושפעים, כדאי לעקוב אחר עדכוני מזג האוויר המקומיים ולהתאים את תוכניות הנסיעה שלכם. מומלץ לבדוק מראש את זמני הטיסות והמעבר, ולהימנע משהייה באזורים מועדים להצפות בזמן גשמים חזקים.",
-    "body": "## מזג אוויר סוער ומשתנה ביוון\n\nמערכת חורפית בולטת מתחילה להשפיע על יוון, כאשר באזורים שונים במדינה מורגשים כבר גשמים חזקים וסופות רעמים. המערכת המרכזית נעה מאזור איטליה ומשפיעה תחילה על מערב המדינה, תוך יצירת פערים משמעותיים בטמפרטורות בין מזרח יוון למערבה.\n\n## התפשטות הגשמים וההשפעה על אטיקה\n\nביום ראשון צפויים מזג אוויר סוער וגשמים להתרחב לרוב חלקי המדינה, כאשר גם אזור אטיקה צפוי להיות במרכז המערכת עם גשמים וסופות רעמים במהלך שעות היום והערב. ביום שני המערכת תמשיך לנוע מזרחה ותשפיע בעיקר על צפון-מזרח המדינה ועל איי הים האגאי.\n\n## ירידה בטמפרטורות ושלג ראשון\n\nבהמשך השבוע, החל מיום שלישי, צפויה הגעה של מערכת קרה נוספת שתגרום לצניחה משמעותית בטמפרטורות מתחת לממוצע העונתי. התפתחות זו צפויה להביא עמה את השלגים הראשונים בפסגות ההרים במרכז ובצפון המדינה, לצד תנאי מזג אוויר חורפיים במיוחד."
+    "means": "אם אתם מתכננים חופשה או נמצאים כעת ביוון, כדאי לעקוב אחר תחזית מזג האוויר המקומית ולהתאים את תוכניות הנסיעה שלכם. תנאי מזג האוויר עלולים להשפיע על התחבורה והטיולים באזורים ההרריים, ולכן מומלץ לוודא זמני הגעה ולהתעדכן מול חברות התעופה והרשויות המקומיות לפני כל יציאה לדרך.",
+    "body": "## גל קור וסערה ברחבי המדינה\n\nהרשויות ביוון מעדכנות על הגעתה של מערכת חורפית משמעותית המביאה עמה תנאי מזג אוויר קשים ובלתי יציבים. המערכת כוללת גשמים חזקים, סופות רעמים וירידה חדה בטמפרטורות, לצד סיכוי משמעותי לשלגים באזורים הגבוהים ובהרים.\n\n## היערכות הרשויות והתחזית\n\nהחזאים מדווחים על פגיעה כפולה של מזג האוויר הסוער, המשפיע על אזורים נרחבים במדינה. התושבים והמטיילים מתבקשים לנקוט משנה זהירות בדרכים, להימנע משהייה באזורים מועדים להצפות, ולהישמע להנחיות גורמי החירום המקומיים.\n\n## השפעה על מטיילים ותיירים\n\nעבור ישראלים השוהים ביעדים השונים ביוון או מתכננים להגיע בימים הקרובים, מומלץ להתעדכן באופן שוטף בשינויים הצפויים בתחבורה הציבורית ובפעילות האוויר והים. תנאי הראות והרוחות העזות עלולים ליצור שיבושים זמניים."
   },
   "en": {
-    "title": "Severe weather system brings heavy rain and mountain snow to Greece",
-    "dek": "A strong weather front is sweeping across Greece, bringing heavy rainfall, thunderstorms, a sharp drop in temperatures, and snow on the mountains.",
+    "title": "Severe weather in Greece: storms, cold and mountain snow",
+    "dek": "A powerful weather system hits Greece with heavy rain, strong thunderstorms, significant cooling, and snow expected in mountainous areas.",
     "tldr": [
-      "A winter weather system has started affecting western Greece with heavy rain and storms.",
-      "The unsettled weather will spread to wider regions, including Attica, starting Sunday.",
-      "A colder system is expected from Tuesday, bringing significant temperature drops and mountain snow."
+      "A double weather front is impacting various regions across Greece.",
+      "Heavy downpours, thunderstorms, and strong winds are expected.",
+      "Temperatures will drop sharply with snow in the mountains."
     ],
-    "means": "If you are traveling to Greece or currently staying in the affected areas, monitor local forecasts closely and adjust your outdoor plans. It is recommended to check travel arrangements in advance and avoid flood-prone areas during heavy downpours.",
-    "body": "## Changing weather and active storms\n\nA significant weather shift is underway in Greece, as a low-pressure system moves across the region, bringing heavy rain and thunderstorms primarily to western parts of the country. Noticeable temperature differences remain between the eastern and western regions.\n\n## Spread of rainfall to Attica\n\nOn Sunday, the weather disturbance is expected to reach a broader geographic spread, affecting central and eastern mainland areas, including the Attica region with afternoon showers and storms. By Monday, the system will shift further east toward the northeastern parts and the eastern Aegean islands.\n\n## Temperature drop and mountain snow\n\nStarting Tuesday, a subsequent cold wave is anticipated to push temperatures well below seasonal norms. This dramatic shift creates the conditions for the season's first snowfall across the mountains of central and northern Greece, alongside cooler conditions nationwide."
+    "means": "If you are traveling to or currently in Greece, keep a close eye on local weather forecasts and adjust your travel plans accordingly. Adverse conditions may affect transportation and outdoor activities, so check with local authorities and service providers before heading out.",
+    "body": "## A Cold Snap and Storms Nationwide\n\n Greek authorities report the arrival of a significant winter weather system bringing severe and unstable conditions. The system features heavy rainfall, intense thunderstorms, and a sharp drop in temperatures, along with snowfall expected in higher elevations and mountainous regions.\n\n## Authorities and Forecast\n\nForecasters note a dual impact from the stormy weather affecting wide areas of the country. Residents and visitors are advised to exercise caution on the roads, avoid areas prone to flooding, and follow guidelines issued by local emergency services.\n\n## Impact on Travelers\n\nFor Israelis currently in Greece or planning a trip in the coming days, it is recommended to stay updated on potential disruptions to public transportation and outdoor schedules. Reduced visibility and strong winds may cause temporary changes."
   },
   "meta": {
     "itemId": "ec9c321df1cd",
@@ -62,6 +66,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-10T19:20:31.397Z",
     "official": false,
-    "updatedFrom": "a2391b0e982d"
+    "updatedFrom": "53da02e7dba8"
   }
 }
