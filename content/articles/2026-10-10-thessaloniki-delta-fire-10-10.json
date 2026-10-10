@@ -1,0 +1,78 @@
+{
+  "slug": "thessaloniki-delta-fire-10-10",
+  "section": "breaking",
+  "publishedAt": "2026-10-10T13:24:26+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 40.6667,
+    "lng": 22.9
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/ert3/thessaloniki-se-ekseliksi-pyrkagia-se-ektasi-me-ksera-xorta-ston-dimo-delta/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4271909/pexels-photo-4271909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Firefighters managing smoke and flames in grassy hillside meadow during a wildfire.",
+    "credit": "Photo: Gasper Pogacar / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/firefighters-against-grass-fire-4271909/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה",
+    "en": "Fire"
+  },
+  "he": {
+    "title": "שריפה פרצה באזור סלוניקי: כוחות כיבוי פועלים במקום",
+    "seoTitle": "שריפה בסלוניקי: שריפת קוצים פרצה בעיר ב-10/10",
+    "seoDesc": "שריפת קוצים ופסולת פרצה באזור סלוניקי ב-10 באוקטובר בשעות הצהריים. כוחות כיבוי אש רבים פועלים במקום להשתלטות על האש.",
+    "keywords": [
+      "שריפה ביוון",
+      "סלוניקי",
+      "שריפה בסלוניקי",
+      "חדשות יוון"
+    ],
+    "dek": "שריפת קוצים פרצה באזור סלוניקי בשעות הצהריים ב-10/10, וכוחות גדולים של כיבוי אש מוצבים במקום לפעולות כיבוי.",
+    "tldr": [
+      "השריפה פרצה בשעות הצהריים של ה-10 באוקטובר.",
+      "האש החלה בקוצים ופסולת באזור דיאבטאטה.",
+      "18 כבאים עם שבעה רכבי כיבוי פועלים בשטח."
+    ],
+    "means": "אם אתם נמצאים באזור סלוניקי, מומלץ לעקוב אחר הודעות הרשויות המקומיות ולהתרחק ממוקדי האירוע. למידע נוסף ניתן להתעדכן בערוצי החדשות המקומיים.",
+    "body": "## שריפת קוצים באזור סלוניקי\n\nבשעות הצהריים של ה-10 באוקטובר פרצה שריפה באזור העיר סלוניקי. האש החלה באזור גבעות דיאבטאטה, והיא מתרכזת בצמחייה יבשה ובפסולת.\n\n## כוחות כיבוי אש בשטח\n\nלמקום האירוע הוזעקו כוחות גדולים של שירות הכיבוי המקומי. נכון לעכשיו, פועלים במקום 18 כבאים הנעזרים בשבעה רכבי כיבוי במטרה להשתלט על הלהבות ולמנוע את התפשטות האש."
+  },
+  "en": {
+    "title": "Fire breaks out in the Thessaloniki area with firefighters active",
+    "seoTitle": "Fire in Thessaloniki: Vegetation fire breaks out on Oct 10",
+    "seoDesc": "A vegetation and waste fire broke out in the Thessaloniki area on October 10. Firefighting forces are operating at the scene.",
+    "keywords": [
+      "fire in greece",
+      "thessaloniki fire",
+      "thessaloniki news",
+      "greece news"
+    ],
+    "dek": "A fire broke out in dry grass and waste in the Thessaloniki area on October 10, with firefighting units deployed at the scene.",
+    "tldr": [
+      "The fire started in the early afternoon of October 10.",
+      "The flames ignited in dry vegetation and waste near Diabata.",
+      "Seven firefighting vehicles and 18 firefighters are operating."
+    ],
+    "means": "If you are currently in the Thessaloniki area, stay updated through local authorities and avoid the affected zone.",
+    "body": "## Vegetation Fire Near Thessaloniki\n\nA fire broke out during the early afternoon hours on October 10 in the Thessaloniki area, specifically affecting dry grass and waste.\n\n## Firefighting Operations\n\nThe local fire service dispatched units to the location. A total of 18 firefighters operating with seven vehicles are currently working at the scene to extinguish the fire."
+  },
+  "meta": {
+    "itemId": "de86fc81cdd4",
+    "imageQuery": "wildfire smoke firefighter greece",
+    "sourceHash": "957e91a9c6e4",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-10T10:24:26.818Z",
+    "official": false
+  }
+}

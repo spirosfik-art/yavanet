@@ -2125,7 +2125,11 @@
     "16f6f7da980d": 1791624244651,
     "08ceb82ff07c": 1791625102021,
     "639d24e8c2bb": 1791625912227,
-    "2e2dbaef004d": 1791626526744
+    "2e2dbaef004d": 1791626526744,
+    "de86fc81cdd4": 1791627821785,
+    "4fd7be5a4f34": 1791627821785,
+    "56cc46412619": 1791627821785,
+    "31bae9451d36": 1791627821785
   },
   "pending": {},
   "sourceStatus": {
@@ -2137,12 +2141,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T10:01:55.897Z",
+      "at": "2026-10-10T10:23:29.792Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T10:01:56.605Z",
+      "at": "2026-10-10T10:23:30.434Z",
       "items": 6
     },
     "civilprotection": {
@@ -2153,27 +2157,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T10:01:58.386Z",
+      "at": "2026-10-10T10:23:32.004Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T10:01:58.803Z",
+      "at": "2026-10-10T10:23:32.417Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T10:01:59.847Z",
+      "at": "2026-10-10T10:23:33.505Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T10:02:00.588Z",
-      "items": 4
+      "at": "2026-10-10T10:23:34.319Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T10:02:01.379Z",
+      "at": "2026-10-10T10:23:35.046Z",
       "items": 10
     },
     "toi-greece": {
@@ -2184,23 +2188,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T10:02:01.964Z",
+      "at": "2026-10-10T10:23:35.598Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T10:02:02.230Z",
+      "at": "2026-10-10T10:23:36.009Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T10:02:02.378Z",
+      "at": "2026-10-10T10:23:36.618Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T10:02:02.587Z",
-      "items": 6
+      "at": "2026-10-10T10:23:36.780Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2209,12 +2213,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T10:01:57.152Z",
+      "at": "2026-10-10T10:23:31.079Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T10:02:03.256Z",
+      "at": "2026-10-10T10:23:37.454Z",
       "items": 0
     },
     "hcg": {
@@ -2225,39 +2229,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T10:02:04.512Z",
+      "at": "2026-10-10T10:23:39.321Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T10:02:04.722Z",
+      "at": "2026-10-10T10:23:39.603Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T10:02:04.899Z",
+      "at": "2026-10-10T10:23:39.761Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T10:02:05.160Z",
-      "items": 1
+      "at": "2026-10-10T10:23:39.919Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T10:02:05.491Z",
-      "items": 4
+      "at": "2026-10-10T10:23:40.254Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T10:02:05.900Z",
+      "at": "2026-10-10T10:23:40.635Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-10",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "athens-metro-line-3-evening-closures",
@@ -2275,6 +2279,18 @@
         "slug": "greece-weather-storm-snow-marousakis",
         "title": "↻ Severe weather system brings heavy rain and mountain snow to Greece",
         "at": "2026-10-10T12:24:18+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "athens-metro-line-3-evening-closures",
+        "title": "↻ Athens Metro Blue Line Stations Closing Earlier Starting Sunday",
+        "at": "2026-10-10T13:24:03+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "thessaloniki-delta-fire-10-10",
+        "title": "Fire breaks out in the Thessaloniki area with firefighters active",
+        "at": "2026-10-10T13:24:26+03:00",
         "section": "breaking"
       }
     ],
@@ -2300,6 +2316,10 @@
       {
         "slug": "athens-metro-line-3-evening-closures",
         "at": "2026-10-10T07:22:57.582Z"
+      },
+      {
+        "slug": "thessaloniki-delta-fire-10-10",
+        "at": "2026-10-10T10:24:26.819Z"
       }
     ]
   },
@@ -2377,11 +2397,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T10:02:06.744Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-10T10:23:41.785Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· gn-iefimerida | Σεισμός 8 Ρίχτερ στον Παναμά -Προειδοποίηση για τσουνάμι - iefimerida.gr"
+      "✓ ert | Θεσσαλονίκη: Σε εξέλιξη πυρκαγιά σε έκταση με ξερά χόρτα στον Δήμο Δέλτα",
+      "· ert | Αιγάλεω: Περιορίστηκε η πυρκαγιά σε επιχειρήσεις – Συνεχίζεται η προσπάθεια κατάσβεσης – Π",
+      "· naftemporiki | Πυρκαγιά σε έκταση με ξερά χόρτα στον δήμο Δέλτα",
+      "✓ gn-kathimerini | Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή - Kathi"
     ]
   },
   "evergreenDone": [
@@ -2424,5 +2447,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791137910178,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "thessaloniki-delta-fire-10-10",
+      "url": "https://yavanet.gr/a/thessaloniki-delta-fire-10-10/",
+      "at": "2026-10-10T10:24:26.819Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/thessaloniki-delta-fire-10-10/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/thessaloniki-delta-fire-10-10/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה פרצה באזור סלוניקי: כוחות כיבוי פועלים במקום",
+        "title_en": "Fire breaks out in the Thessaloniki area with firefighters active",
+        "dek_he": "שריפת קוצים פרצה באזור סלוניקי בשעות הצהריים ב-10/10, וכוחות גדולים של כיבוי אש מוצבים במקום לפעולות כיבוי.",
+        "dek_en": "A fire broke out in dry grass and waste in the Thessaloniki area on October 10, with firefighting units deployed at the scene.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/4271909/pexels-photo-4271909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה פרצה באזור סלוניקי: כוחות כיבוי פועלים במקום\n\nשריפת קוצים פרצה באזור סלוניקי בשעות הצהריים ב-10/10, וכוחות גדולים של כיבוי אש מוצבים במקום לפעולות כיבוי.\n\nhttps://yavanet.gr/a/thessaloniki-delta-fire-10-10/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Fire breaks out in the Thessaloniki area with firefighters active\n\nA fire broke out in dry grass and waste in the Thessaloniki area on October 10, with firefighting units deployed at the scene.\n\nhttps://yavanet.gr/en/a/thessaloniki-delta-fire-10-10/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
