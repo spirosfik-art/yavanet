@@ -2150,7 +2150,10 @@
     "93dae049d245": 1791633688233,
     "ab4874e3a98b": 1791635312839,
     "009e5d7c612a": 1791635312839,
-    "7e23be2f4d2d": 1791635312839
+    "7e23be2f4d2d": 1791635312839,
+    "f089e6c12c46": 1791637484141,
+    "e2a2637e6ab5": 1791637484141,
+    "801ed97152ab": 1791637484141
   },
   "pending": {
     "f7b45a": {
@@ -2266,12 +2269,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T12:46:49.748Z",
-      "items": 10
+      "at": "2026-10-10T13:04:21.857Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T12:46:50.687Z",
+      "at": "2026-10-10T13:04:22.768Z",
       "items": 6
     },
     "civilprotection": {
@@ -2282,27 +2285,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T12:46:52.869Z",
-      "items": 3
+      "at": "2026-10-10T13:04:28.384Z",
+      "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T12:46:53.344Z",
+      "at": "2026-10-10T13:04:28.962Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T12:46:54.463Z",
+      "at": "2026-10-10T13:04:30.239Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T12:46:55.465Z",
-      "items": 3
+      "at": "2026-10-10T13:04:31.172Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T12:46:56.675Z",
+      "at": "2026-10-10T13:04:31.854Z",
       "items": 10
     },
     "toi-greece": {
@@ -2313,22 +2316,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T12:46:57.246Z",
+      "at": "2026-10-10T13:04:32.489Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T12:46:57.349Z",
+      "at": "2026-10-10T13:04:32.714Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T12:46:57.605Z",
-      "items": 11
+      "at": "2026-10-10T13:04:33.046Z",
+      "items": 12
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T12:46:58.090Z",
+      "at": "2026-10-10T13:04:33.292Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2338,12 +2341,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T12:46:51.347Z",
+      "at": "2026-10-10T13:04:23.364Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T12:46:58.943Z",
+      "at": "2026-10-10T13:04:33.968Z",
       "items": 0
     },
     "hcg": {
@@ -2354,32 +2357,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T12:47:00.590Z",
+      "at": "2026-10-10T13:04:35.601Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T12:47:00.763Z",
-      "items": 6
+      "at": "2026-10-10T13:04:35.994Z",
+      "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T12:47:00.899Z",
+      "at": "2026-10-10T13:04:36.282Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T12:47:01.130Z",
+      "at": "2026-10-10T13:04:36.637Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T12:47:01.456Z",
-      "items": 7
+      "at": "2026-10-10T13:04:37.090Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T12:47:01.816Z",
+      "at": "2026-10-10T13:04:37.572Z",
       "items": 12
     }
   },
@@ -2422,6 +2425,12 @@
         "slug": "orange-thunderstorm-warning-epirus-greece",
         "title": "Orange Thunderstorm Warning Issued for Greece - Epirus",
         "at": "2026-10-10T15:01:50+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "thessaloniki-delta-fire-10-10",
+        "title": "↻ Fire update: Firefighters deployed to the Diavata area in Thessaloniki",
+        "at": "2026-10-10T16:05:02+03:00",
         "section": "breaking"
       }
     ],
@@ -2557,13 +2566,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T12:28:32.839Z",
+    "at": "2026-10-10T13:04:44.141Z",
     "considered": 3,
-    "picked": 3,
+    "picked": 1,
     "items": [
-      "✓ gn-civilprotection | Ευ. Τουρνάς στον Real FM: Μείωση 25% στις πυρκαγιές, 36% στις καμένες εκτάσεις και 75% στι",
-      "✓ gn-iefimerida | Έκρηξη στη Motor Oil: Τρεις νέες συλλήψεις και αναζητείται ακόμη ένας - iefimerida.gr",
-      "✓ gn-kathimerini | Φωτιά σε βιοτεχνίες στον Ελαιώνα – Προληπτική εκκένωση σε ακτίνα 400 μέτρων - Kathimerini"
+      "✓ ingr | Θεσσαλονίκη: Συναγερμός για φωτιά στα Υψώματα των Διαβατών",
+      "· gn-kathimerini | Οι Έλληνες Εβραίοι και η Ιστορία - Kathimerini",
+      "· gn-civilprotection | Ευ. Τουρνάς στον Real FM: Μείωση 25% στις πυρκαγιές, 36% στις καμένες εκτάσεις και 75% στι"
     ]
   },
   "evergreenDone": [
