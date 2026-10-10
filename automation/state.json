@@ -2079,7 +2079,12 @@
     "261e917b8704": 1791602714226,
     "afe5569b22ca": 1791602714226,
     "4227a234fcbb": 1791603574488,
-    "3805761c547f": 1791604978964
+    "3805761c547f": 1791604978964,
+    "e73f718388ce": 1791606305064,
+    "03b474032a01": 1791606305064,
+    "bf681eefcd36": 1791606305064,
+    "b2b779cd655c": 1791606305064,
+    "19dd2d194c0b": 1791606305064
   },
   "pending": {},
   "sourceStatus": {
@@ -2091,12 +2096,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T04:02:48.944Z",
+      "at": "2026-10-10T04:24:52.681Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T04:02:49.590Z",
+      "at": "2026-10-10T04:24:53.465Z",
       "items": 6
     },
     "civilprotection": {
@@ -2107,27 +2112,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T04:02:50.949Z",
+      "at": "2026-10-10T04:24:54.653Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T04:02:51.527Z",
+      "at": "2026-10-10T04:24:55.023Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T04:02:52.631Z",
+      "at": "2026-10-10T04:24:56.059Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T04:02:53.341Z",
+      "at": "2026-10-10T04:24:56.740Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T04:02:53.795Z",
+      "at": "2026-10-10T04:24:57.598Z",
       "items": 10
     },
     "toi-greece": {
@@ -2138,23 +2143,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T04:02:54.262Z",
+      "at": "2026-10-10T04:24:58.087Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T04:02:54.461Z",
+      "at": "2026-10-10T04:24:58.464Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T04:02:54.705Z",
+      "at": "2026-10-10T04:24:58.847Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T04:02:54.913Z",
-      "items": 3
+      "at": "2026-10-10T04:24:59.031Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2163,12 +2168,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T04:02:50.062Z",
+      "at": "2026-10-10T04:24:53.702Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T04:02:55.426Z",
+      "at": "2026-10-10T04:24:59.584Z",
       "items": 0
     },
     "hcg": {
@@ -2179,32 +2184,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T04:02:57.043Z",
+      "at": "2026-10-10T04:25:01.313Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T04:02:57.250Z",
+      "at": "2026-10-10T04:25:03.207Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T04:02:57.445Z",
+      "at": "2026-10-10T04:25:03.357Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T04:02:57.619Z",
+      "at": "2026-10-10T04:25:03.537Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T04:02:57.988Z",
-      "items": 1
+      "at": "2026-10-10T04:25:03.891Z",
+      "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T04:02:58.408Z",
+      "at": "2026-10-10T04:25:04.298Z",
       "items": 10
     }
   },
@@ -2223,6 +2228,11 @@
         "title": "Το Νομπέλ που εξόργισε το Ισραήλ - Kathimerini",
         "reason": "Rule 7 violation: The article mentions unverified social media claims ('גררה תגובות נרחבות ברשתות' / 'public backlash').; Rule 1 & 5 violation: Use of emotive and provocative language ('הציתה ביקורת קשה', 'זעם רב', 'סערת פרס נובל', 'סوערות' / 'controversy', 'anger', 'sparked severe criticism') based",
         "at": "2026-10-10T03:39:59.104Z"
+      },
+      {
+        "title": "Historic Hamza Bey Mosque Reopens to Public After Restoration",
+        "reason": "The Hebrew meta description adds external targeting towards Israeli tourists ('מה מחכה למטיילים הישראלים בעיר') which is not present in the source.",
+        "at": "2026-10-10T04:25:25.989Z"
       }
     ],
     "errors": []
@@ -2301,11 +2311,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T04:02:58.964Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-10T04:25:05.064Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· ingr | Πολυκατοικίες: Τα επτά πεδία σύγκρουσης μεταξύ των ενοίκων"
+      "· gct | Greek Police Dismantle Antiquities Smuggling Network",
+      "✓ gct | Historic Hamza Bey Mosque Reopens to Public After Restoration",
+      "· naftemporiki | Τουρκία: Υπό κράτηση δύο δημοσιογράφοι για το σκάνδαλο των funds",
+      "· naftemporiki | Αιγάλεω: Πυρκαγιά κατέστρεψε βαφείο ρούχων – Ακούστηκαν εκρήξεις",
+      "· gct | Greece Secures EU Approval for €1 Billion Worth Energy Projects"
     ]
   },
   "evergreenDone": [
