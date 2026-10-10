@@ -2141,7 +2141,8 @@
     "6f546897efb9": 1791631442963,
     "81819e0df3b0": 1791632212310,
     "6ce3555e30d6": 1791632212310,
-    "7e07927976bb": 1791632212310
+    "7e07927976bb": 1791632212310,
+    "4cef313811ac": 1791633104813
   },
   "pending": {},
   "sourceStatus": {
@@ -2153,12 +2154,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T11:36:40.867Z",
-      "items": 0
+      "at": "2026-10-10T11:51:33.019Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T11:36:41.816Z",
+      "at": "2026-10-10T11:51:33.961Z",
       "items": 6
     },
     "civilprotection": {
@@ -2169,27 +2170,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T11:36:43.432Z",
-      "items": 1
+      "at": "2026-10-10T11:51:35.788Z",
+      "items": 2
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T11:36:43.568Z",
+      "at": "2026-10-10T11:51:35.863Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T11:36:44.537Z",
+      "at": "2026-10-10T11:51:36.930Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T11:36:45.287Z",
-      "items": 5
+      "at": "2026-10-10T11:51:37.908Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T11:36:45.728Z",
+      "at": "2026-10-10T11:51:38.917Z",
       "items": 10
     },
     "toi-greece": {
@@ -2200,23 +2201,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T11:36:46.302Z",
+      "at": "2026-10-10T11:51:39.562Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T11:36:46.394Z",
+      "at": "2026-10-10T11:51:39.772Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T11:36:47.247Z",
+      "at": "2026-10-10T11:51:39.823Z",
       "items": 11
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T11:36:47.454Z",
-      "items": 7
+      "at": "2026-10-10T11:51:40.323Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2225,12 +2226,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T11:36:42.373Z",
+      "at": "2026-10-10T11:51:34.450Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T11:36:48.117Z",
+      "at": "2026-10-10T11:51:41.003Z",
       "items": 0
     },
     "hcg": {
@@ -2241,33 +2242,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T11:36:49.860Z",
+      "at": "2026-10-10T11:51:42.614Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T11:36:50.080Z",
+      "at": "2026-10-10T11:51:42.796Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T11:36:50.241Z",
+      "at": "2026-10-10T11:51:42.936Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T11:36:50.483Z",
+      "at": "2026-10-10T11:51:43.099Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T11:36:50.778Z",
+      "at": "2026-10-10T11:51:43.390Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T11:36:51.163Z",
-      "items": 11
+      "at": "2026-10-10T11:51:43.785Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2326,6 +2327,11 @@
         "title": "Μετρό Θεσσαλονίκης: Εκτός λειτουργίας όλη η γραμμή - Kathimerini",
         "reason": "Ίδιο θέμα με «Thessaloniki: Metro suspended due to technical fault» – δεν γράφτηκε ξανά",
         "at": "2026-10-10T11:01:27.933Z"
+      },
+      {
+        "title": "Orange Thunderstorm Warning issued for Greece - West Sterea",
+        "reason": "Ίδιο θέμα με «Severe weather system brings heavy rain and mountain snow to Greece» – δεν γράφτηκε ξανά",
+        "at": "2026-10-10T11:51:48.968Z"
       }
     ],
     "errors": [],
@@ -2414,13 +2420,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T11:36:52.310Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-10T11:51:44.813Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· ert | Λωρίδα της Γάζας: Τουλάχιστον πέντε Παλαιστίνιοι νεκροί από πλήγματα των Ισραηλινών",
-      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Ionion Islands",
-      "· gn-iefimerida | Σε εξέλιξη φωτιά στον Δήμο Δέλτα, καίγονται ξερά χόρτα - iefimerida.gr"
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - West Sterea"
     ]
   },
   "evergreenDone": [
