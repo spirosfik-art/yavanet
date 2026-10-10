@@ -2194,7 +2194,8 @@
     "907d7ea89741": 1791670996574,
     "30d3dcec881e": 1791670996574,
     "24e688ca3af1": 1791670996574,
-    "0cb3a0e7faad": 1791670996574
+    "0cb3a0e7faad": 1791670996574,
+    "d370d772ae28": 1791672649604
   },
   "pending": {},
   "sourceStatus": {
@@ -2206,12 +2207,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-10T22:37:04.325Z",
-      "items": 10
+      "at": "2026-10-10T22:50:35.176Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T22:37:05.106Z",
+      "at": "2026-10-10T22:50:36.120Z",
       "items": 6
     },
     "civilprotection": {
@@ -2222,27 +2223,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T22:37:07.872Z",
+      "at": "2026-10-10T22:50:38.672Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T22:37:08.427Z",
+      "at": "2026-10-10T22:50:39.182Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T22:37:09.469Z",
+      "at": "2026-10-10T22:50:40.338Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T22:37:10.435Z",
+      "at": "2026-10-10T22:50:42.169Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T22:37:11.098Z",
+      "at": "2026-10-10T22:50:43.084Z",
       "items": 10
     },
     "toi-greece": {
@@ -2253,22 +2254,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T22:37:11.650Z",
+      "at": "2026-10-10T22:50:43.644Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T22:37:11.864Z",
+      "at": "2026-10-10T22:50:43.749Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T22:37:12.310Z",
+      "at": "2026-10-10T22:50:44.273Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T22:37:12.863Z",
+      "at": "2026-10-10T22:50:44.857Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2278,12 +2279,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T22:37:05.919Z",
+      "at": "2026-10-10T22:50:37.120Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T22:37:13.501Z",
+      "at": "2026-10-10T22:50:45.760Z",
       "items": 0
     },
     "hcg": {
@@ -2294,32 +2295,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T22:37:15.359Z",
+      "at": "2026-10-10T22:50:47.442Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T22:37:15.517Z",
+      "at": "2026-10-10T22:50:47.638Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T22:37:15.669Z",
+      "at": "2026-10-10T22:50:47.776Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T22:37:15.829Z",
+      "at": "2026-10-10T22:50:47.917Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T22:37:16.151Z",
+      "at": "2026-10-10T22:50:48.278Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T22:37:16.554Z",
+      "at": "2026-10-10T22:50:48.684Z",
       "items": 15
     }
   },
@@ -2410,15 +2411,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T22:23:16.574Z",
-    "considered": 5,
+    "at": "2026-10-10T22:50:49.604Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | Σαουδική Αραβία: Τουλάχιστον 12 νεκροί και 309 τραυματίες από την επίθεση στο αεροδρόμιο τ",
-      "· gct | German Tourist Rescued After Boat Catches Fire and Sinks Off Lesvos",
-      "· gct | Aegean Cup: Rhodes Win Inaugural Brisbane Final as More Than 2,000 Attend",
-      "· ert | Ισραηλινοί βομβαρδισμοί και ρίψεις φωτοβολίδων στον νότιο Λίβανο",
-      "· gct | Rose Bay BBQ 2026: Fathers, Kids and Mates Feast in Sydney Backs WA Anzac Chapel"
+      "· ert | UKMTO: Δεξαμενόπλοιο χτυπήθηκε από πύραυλο στα Στενά του Ορμούζ"
     ]
   },
   "evergreenDone": [
