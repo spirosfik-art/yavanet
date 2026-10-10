@@ -2077,7 +2077,8 @@
     "d2dd00422dc8": 1791597185474,
     "dd526c0fdd0d": 1791599923439,
     "261e917b8704": 1791602714226,
-    "afe5569b22ca": 1791602714226
+    "afe5569b22ca": 1791602714226,
+    "4227a234fcbb": 1791603574488
   },
   "pending": {},
   "sourceStatus": {
@@ -2088,14 +2089,13 @@
       "fails": 529
     },
     "minfin": {
-      "ok": false,
-      "at": "2026-10-10T03:25:03.970Z",
-      "error": "fetch failed",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-10T03:39:22.701Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-10T03:25:04.592Z",
+      "at": "2026-10-10T03:39:24.133Z",
       "items": 6
     },
     "civilprotection": {
@@ -2106,27 +2106,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-10T03:25:05.778Z",
+      "at": "2026-10-10T03:39:25.591Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-10T03:25:06.267Z",
+      "at": "2026-10-10T03:39:25.792Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-10T03:25:07.335Z",
+      "at": "2026-10-10T03:39:26.855Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-10T03:25:07.956Z",
+      "at": "2026-10-10T03:39:27.546Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-10T03:25:08.789Z",
+      "at": "2026-10-10T03:39:28.367Z",
       "items": 10
     },
     "toi-greece": {
@@ -2137,22 +2137,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-10T03:25:09.197Z",
+      "at": "2026-10-10T03:39:28.914Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-10T03:25:09.339Z",
+      "at": "2026-10-10T03:39:29.069Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-10T03:25:09.533Z",
+      "at": "2026-10-10T03:39:29.766Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T03:25:09.673Z",
+      "at": "2026-10-10T03:39:30.193Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2162,12 +2162,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-10T03:25:04.973Z",
+      "at": "2026-10-10T03:39:24.696Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-10T03:25:10.222Z",
+      "at": "2026-10-10T03:39:30.837Z",
       "items": 0
     },
     "hcg": {
@@ -2178,32 +2178,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-10T03:25:11.751Z",
+      "at": "2026-10-10T03:39:32.136Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-10T03:25:11.996Z",
+      "at": "2026-10-10T03:39:32.464Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-10T03:25:12.226Z",
+      "at": "2026-10-10T03:39:32.636Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-10T03:25:12.500Z",
+      "at": "2026-10-10T03:39:32.858Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-10T03:25:12.913Z",
-      "items": 1
+      "at": "2026-10-10T03:39:33.215Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-10T03:25:13.341Z",
+      "at": "2026-10-10T03:39:33.613Z",
       "items": 10
     }
   },
@@ -2217,6 +2217,11 @@
         "title": "Body of Missing Israeli Hiker Found on Mount Olympus After More Than Two Weeks",
         "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 112",
         "at": "2026-10-09T23:37:01.457Z"
+      },
+      {
+        "title": "Το Νομπέλ που εξόργισε το Ισραήλ - Kathimerini",
+        "reason": "Rule 7 violation: The article mentions unverified social media claims ('גררה תגובות נרחבות ברשתות' / 'public backlash').; Rule 1 & 5 violation: Use of emotive and provocative language ('הציתה ביקורת קשה', 'זעם רב', 'סערת פרס נובל', 'סوערות' / 'controversy', 'anger', 'sparked severe criticism') based",
+        "at": "2026-10-10T03:39:59.104Z"
       }
     ],
     "errors": []
@@ -2295,12 +2300,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-10T03:25:14.226Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-10T03:39:34.488Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· ert | Σεισμός 7,7 Ρίχτερ στον Παναμά: Μεγάλες καταστροφές σε κτίρια και υποδομές – Τι δήλωσε στο",
-      "· ingr | Πως αλλάζουν οι καιροί: Η Ανσάρ Αλλάχ του Χούθι, θα επιτρέπει ανθρωπιστική βοήθεια στην Σα"
+      "✓ gn-kathimerini | Το Νομπέλ που εξόργισε το Ισραήλ - Kathimerini"
     ]
   },
   "evergreenDone": [
