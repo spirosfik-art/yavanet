@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "7bf4bb2ca82f": 1790552014997,
     "cc8e978d5b3f": 1790555532303,
     "f602774c7c77": 1790555532303,
     "8d13ff03572c": 1790555532303,
@@ -2185,7 +2184,10 @@
     "5a0509823213": 1791758299598,
     "f7bff8053b4b": 1791758299598,
     "656cb00af407": 1791759145682,
-    "4eb391e1ee74": 1791759740807
+    "4eb391e1ee74": 1791759740807,
+    "d94202db2a01": 1791761837952,
+    "885927c362c4": 1791761837952,
+    "3b92711c6be3": 1791761837952
   },
   "pending": {},
   "sourceStatus": {
@@ -2197,12 +2199,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T23:23:45.844Z",
-      "items": 10
+      "at": "2026-10-11T23:37:04.865Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T23:23:46.723Z",
+      "at": "2026-10-11T23:37:05.747Z",
       "items": 6
     },
     "civilprotection": {
@@ -2213,27 +2215,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T23:23:48.515Z",
+      "at": "2026-10-11T23:37:08.424Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T23:23:48.775Z",
+      "at": "2026-10-11T23:37:08.841Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T23:23:49.707Z",
+      "at": "2026-10-11T23:37:09.848Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T23:23:50.639Z",
+      "at": "2026-10-11T23:37:10.587Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T23:23:51.585Z",
+      "at": "2026-10-11T23:37:11.456Z",
       "items": 10
     },
     "toi-greece": {
@@ -2244,22 +2246,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T23:23:52.141Z",
+      "at": "2026-10-11T23:37:12.021Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T23:23:52.508Z",
+      "at": "2026-10-11T23:37:12.160Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T23:23:52.784Z",
-      "items": 5
+      "at": "2026-10-11T23:37:12.708Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T23:23:53.025Z",
+      "at": "2026-10-11T23:37:13.241Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2269,12 +2271,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T23:23:47.242Z",
+      "at": "2026-10-11T23:37:07.056Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T23:23:53.802Z",
+      "at": "2026-10-11T23:37:14.064Z",
       "items": 0
     },
     "hcg": {
@@ -2285,42 +2287,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T23:23:55.198Z",
+      "at": "2026-10-11T23:37:15.794Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T23:23:55.549Z",
+      "at": "2026-10-11T23:37:15.981Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T23:23:55.720Z",
+      "at": "2026-10-11T23:37:16.141Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T23:23:55.953Z",
+      "at": "2026-10-11T23:37:16.298Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T23:23:56.294Z",
+      "at": "2026-10-11T23:37:16.645Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T23:23:56.670Z",
-      "items": 13
+      "at": "2026-10-11T23:37:17.111Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-12",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "gkrava-schools-closed-athens-gas-odour",
+        "title": "Athens Schools Stay Closed for Online Learning Due to Gas Odour",
+        "at": "2026-10-12T02:37:31+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [],
-    "errors": []
+    "errors": [],
+    "fb": []
   },
   "history": [
     {
@@ -2406,11 +2416,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T23:02:20.807Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-11T23:37:17.952Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Ένας νεκρός και 11 τραυματίες στην επίθεση της Κυριακής στο αεροδρόμιο «Βασιλιάς Χαλίντ» σ"
+      "· ingr | Μάχη στη Βραζιλία δύο εβδομάδες πριν τον δεύτερο γύρο των εκλογών",
+      "✓ gct | Gkrava Schools Stay Closed as Doukas Demands State Gas Inspection",
+      "· gct | Cyprus Showcases Halloumi and Zivania at London Food & Drink Festival 2026"
     ]
   },
   "evergreenDone": [
