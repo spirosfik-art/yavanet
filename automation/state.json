@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "9ac29fdeacc3": 1790493725155,
     "908e44082dba": 1790495304996,
     "eb4a28bd2a4e": 1790495304996,
     "b2c00b38e0c6": 1790496063873,
@@ -2177,7 +2176,8 @@
     "ab1c22f144d2": 1791702338798,
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
-    "e4aa31c00218": 1798268738798
+    "e4aa31c00218": 1798268738798,
+    "8678a73d0072": 1791703407300
   },
   "pending": {},
   "sourceStatus": {
@@ -2189,12 +2189,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T07:05:27.714Z",
+      "at": "2026-10-11T07:23:14.641Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T07:05:28.308Z",
+      "at": "2026-10-11T07:23:15.599Z",
       "items": 6
     },
     "civilprotection": {
@@ -2205,27 +2205,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T07:05:29.938Z",
+      "at": "2026-10-11T07:23:17.925Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T07:05:30.149Z",
+      "at": "2026-10-11T07:23:18.013Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T07:05:31.091Z",
+      "at": "2026-10-11T07:23:19.151Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T07:05:31.930Z",
+      "at": "2026-10-11T07:23:20.156Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T07:05:32.710Z",
+      "at": "2026-10-11T07:23:21.171Z",
       "items": 10
     },
     "toi-greece": {
@@ -2236,22 +2236,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T07:05:33.226Z",
+      "at": "2026-10-11T07:23:21.764Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T07:05:33.645Z",
+      "at": "2026-10-11T07:23:21.891Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T07:05:34.092Z",
+      "at": "2026-10-11T07:23:22.110Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T07:05:34.282Z",
+      "at": "2026-10-11T07:23:22.625Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2261,12 +2261,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T07:05:28.881Z",
+      "at": "2026-10-11T07:23:16.298Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T07:05:35.009Z",
+      "at": "2026-10-11T07:23:23.485Z",
       "items": 0
     },
     "hcg": {
@@ -2277,32 +2277,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T07:05:36.578Z",
+      "at": "2026-10-11T07:23:25.306Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T07:05:36.813Z",
+      "at": "2026-10-11T07:23:25.463Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T07:05:36.985Z",
+      "at": "2026-10-11T07:23:25.677Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T07:05:37.170Z",
-      "items": 5
+      "at": "2026-10-11T07:23:25.907Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T07:05:37.502Z",
-      "items": 9
+      "at": "2026-10-11T07:23:26.173Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T07:05:37.936Z",
+      "at": "2026-10-11T07:23:26.534Z",
       "items": 15
     }
   },
@@ -2409,15 +2409,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T07:05:38.798Z",
-    "considered": 5,
+    "at": "2026-10-11T07:23:27.300Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gn-iefimerida | Διεθνές ενδιαφέρον για σεισμικές έρευνες σε Δυτική και Νότια Ελλάδα -Παπασταύρου: Αξιοποιο",
-      "· gn-kathimerini | Διεθνής καταδίκη για την πολύνεκρη επίθεση στο αεροδρόμιο του Ριάντ - Kathimerini",
-      "· il-embassy | Embassy of Israel Athens",
-      "· il-embassy | ETA Travellers Entry Visa . 27/02/2025 Read More",
-      "· il-embassy | Important Information for Travelers to Israel: ETA-IL Requirement Please be informed that "
+      "· gct | Australian Open 2027 Ticket Sales Up More Than 20% at Record Early Pace"
     ]
   },
   "evergreenDone": [
