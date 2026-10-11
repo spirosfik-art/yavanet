@@ -2211,7 +2211,9 @@
     "e79a41d08381": 1791694983210,
     "dcfca0e22592": 1791696290416,
     "a288c8ed73ce": 1791696290416,
-    "e3d9e3b802f2": 1791696290416
+    "e3d9e3b802f2": 1791696290416,
+    "0a1f116960df": 1791697936699,
+    "2c0a659614ac": 1791697936699
   },
   "pending": {},
   "sourceStatus": {
@@ -2223,12 +2225,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T05:37:55.265Z",
-      "items": 10
+      "at": "2026-10-11T05:52:05.355Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T05:37:55.855Z",
+      "at": "2026-10-11T05:52:06.108Z",
       "items": 6
     },
     "civilprotection": {
@@ -2239,27 +2241,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T05:37:57.658Z",
+      "at": "2026-10-11T05:52:07.742Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T05:37:58.048Z",
+      "at": "2026-10-11T05:52:08.124Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T05:37:59.184Z",
+      "at": "2026-10-11T05:52:09.029Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T05:37:59.922Z",
+      "at": "2026-10-11T05:52:09.794Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T05:38:00.698Z",
+      "at": "2026-10-11T05:52:10.620Z",
       "items": 10
     },
     "toi-greece": {
@@ -2270,22 +2272,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T05:38:01.178Z",
+      "at": "2026-10-11T05:52:11.213Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T05:38:01.338Z",
+      "at": "2026-10-11T05:52:11.558Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T05:38:01.387Z",
-      "items": 9
+      "at": "2026-10-11T05:52:12.310Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T05:38:01.775Z",
+      "at": "2026-10-11T05:52:12.514Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2295,12 +2297,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T05:37:56.554Z",
+      "at": "2026-10-11T05:52:06.864Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T05:38:02.257Z",
+      "at": "2026-10-11T05:52:13.062Z",
       "items": 0
     },
     "hcg": {
@@ -2311,33 +2313,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T05:38:03.513Z",
+      "at": "2026-10-11T05:52:14.584Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T05:38:03.760Z",
+      "at": "2026-10-11T05:52:14.798Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T05:38:03.898Z",
+      "at": "2026-10-11T05:52:14.994Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T05:38:04.114Z",
+      "at": "2026-10-11T05:52:15.153Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T05:38:04.411Z",
-      "items": 10
+      "at": "2026-10-11T05:52:15.452Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T05:38:04.782Z",
-      "items": 15
+      "at": "2026-10-11T05:52:15.828Z",
+      "items": 16
     }
   },
   "tgOffset": 829774786,
@@ -2355,6 +2357,11 @@
         "title": "Σεισμός 4 Ρίχτερ ανοιχτά της Κάσου",
         "reason": "Typo and transliteration errors in Hebrew text: 'הגодинаמיקונ' contains Cyrillic letters and wrong suffixes, 'אנויחטא טיס קאסוי' is corrupted Greek written in Hebrew letters instead of translating the source fact.",
         "at": "2026-10-11T05:25:30.169Z"
+      },
+      {
+        "title": "Σεισμός 4 Ρίχτερ τα ξημερώματα στην Κάσο - iefimerida.gr",
+        "reason": "Mixed-script (broken) Hebrew words: קאסos. Write every Hebrew word only in Hebrew letters.",
+        "at": "2026-10-11T05:52:37.015Z"
       }
     ],
     "errors": []
@@ -2438,13 +2445,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T05:24:50.416Z",
-    "considered": 3,
+    "at": "2026-10-11T05:52:16.699Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· naftemporiki | «Αντάρτικο» κατά Τραμπ στο όνομα του Ρίγκαν: Ρεπουμπλικανός βουλευτής ετοιμάζει νομοσχέδιο",
-      "· gn-kathimerini | Πυρκαγιά σε δεξαμενόπλοιο από πλήγμα στα Στενά του Ορμούζ - Kathimerini",
-      "✓ ingr | Σεισμός 4 Ρίχτερ ανοιχτά της Κάσου"
+      "· ingr | Μέση Ανατολή: Πύραυλος των Χούθι μετέτρεψε σε κόλαση το αεροδρόμιο του Ριάντ – 12 νεκροί",
+      "✓ gn-iefimerida | Σεισμός 4 Ρίχτερ τα ξημερώματα στην Κάσο - iefimerida.gr"
     ]
   },
   "evergreenDone": [
