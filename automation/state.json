@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "7d81d8b3c118": 1790532068250,
-    "c3bc164e5319": 1790532068250,
-    "08cfde653f24": 1790532068250,
     "6707f718cf68": 1790533398494,
     "acf28003c391": 1790533398494,
     "744cde68a332": 1790534245285,
@@ -2187,7 +2184,9 @@
     "cf95f34e5cf4": 1791739297382,
     "67f2df8d7391": 1791740236117,
     "38d0e69dcd28": 1791741077282,
-    "66a68f2329e4": 1791741077282
+    "66a68f2329e4": 1791741077282,
+    "25f58f57802e": 1791741696273,
+    "b7f0030ac706": 1791741696273
   },
   "pending": {},
   "sourceStatus": {
@@ -2199,12 +2198,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T17:51:08.192Z",
-      "items": 0
+      "at": "2026-10-11T18:01:24.052Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T17:51:08.790Z",
+      "at": "2026-10-11T18:01:24.820Z",
       "items": 6
     },
     "civilprotection": {
@@ -2215,27 +2214,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T17:51:10.005Z",
+      "at": "2026-10-11T18:01:26.497Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T17:51:10.260Z",
+      "at": "2026-10-11T18:01:26.922Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T17:51:11.155Z",
+      "at": "2026-10-11T18:01:27.868Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T17:51:11.809Z",
+      "at": "2026-10-11T18:01:28.529Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T17:51:12.253Z",
+      "at": "2026-10-11T18:01:29.420Z",
       "items": 10
     },
     "toi-greece": {
@@ -2246,22 +2245,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T17:51:12.647Z",
+      "at": "2026-10-11T18:01:30.039Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T17:51:12.768Z",
+      "at": "2026-10-11T18:01:30.436Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T17:51:12.944Z",
+      "at": "2026-10-11T18:01:31.611Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T17:51:13.053Z",
+      "at": "2026-10-11T18:01:31.807Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2271,12 +2270,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T17:51:09.064Z",
+      "at": "2026-10-11T18:01:25.344Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T17:51:13.572Z",
+      "at": "2026-10-11T18:01:32.510Z",
       "items": 0
     },
     "hcg": {
@@ -2287,33 +2286,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T17:51:15.060Z",
+      "at": "2026-10-11T18:01:34.152Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T17:51:15.270Z",
+      "at": "2026-10-11T18:01:34.407Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T17:51:15.447Z",
+      "at": "2026-10-11T18:01:34.581Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T17:51:15.715Z",
+      "at": "2026-10-11T18:01:34.752Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T17:51:16.081Z",
+      "at": "2026-10-11T18:01:35.107Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T17:51:16.575Z",
-      "items": 13
+      "at": "2026-10-11T18:01:35.567Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -2443,12 +2442,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T17:51:17.282Z",
+    "at": "2026-10-11T18:01:36.273Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· ingr | Αλέξης Τσίπρας: Το πρόγραμμα της περιοδείας του στην Κρήτη",
-      "· gct | Man Found Shot Dead in Glyfada as Greek Police Investigate Suspected Homicide"
+      "· gct | Alexander Onassis: The Plane Crash and CIA Conspiracy Theories",
+      "· gct | EU Prepares More Funding for Ukrainian Drones and Missiles as Zelensky Calls for Energy Ce"
     ]
   },
   "evergreenDone": [
