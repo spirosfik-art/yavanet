@@ -2184,7 +2184,8 @@
     "0b211a9bb7c6": 1791728671375,
     "74def23c43a8": 1791728671375,
     "297527b402cf": 1791728671375,
-    "7f4be8490965": 1791728671375
+    "7f4be8490965": 1791728671375,
+    "d1aada109b10": 1791729492042
   },
   "pending": {},
   "sourceStatus": {
@@ -2196,12 +2197,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T14:24:19.393Z",
+      "at": "2026-10-11T14:38:00.088Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T14:24:20.081Z",
+      "at": "2026-10-11T14:38:00.872Z",
       "items": 6
     },
     "civilprotection": {
@@ -2212,27 +2213,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T14:24:22.009Z",
+      "at": "2026-10-11T14:38:03.051Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T14:24:22.236Z",
+      "at": "2026-10-11T14:38:03.456Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T14:24:23.201Z",
+      "at": "2026-10-11T14:38:04.503Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T14:24:23.980Z",
+      "at": "2026-10-11T14:38:05.342Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T14:24:24.877Z",
+      "at": "2026-10-11T14:38:05.888Z",
       "items": 10
     },
     "toi-greece": {
@@ -2243,22 +2244,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T14:24:25.455Z",
+      "at": "2026-10-11T14:38:06.469Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T14:24:25.784Z",
+      "at": "2026-10-11T14:38:06.863Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T14:24:26.429Z",
+      "at": "2026-10-11T14:38:07.103Z",
       "items": 12
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T14:24:26.652Z",
+      "at": "2026-10-11T14:38:07.556Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2268,12 +2269,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T14:24:20.746Z",
+      "at": "2026-10-11T14:38:01.615Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T14:24:27.425Z",
+      "at": "2026-10-11T14:38:08.256Z",
       "items": 0
     },
     "hcg": {
@@ -2284,33 +2285,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T14:24:28.704Z",
+      "at": "2026-10-11T14:38:09.778Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T14:24:29.043Z",
+      "at": "2026-10-11T14:38:10.084Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T14:24:29.201Z",
+      "at": "2026-10-11T14:38:10.302Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T14:24:29.408Z",
-      "items": 4
+      "at": "2026-10-11T14:38:10.491Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T14:24:29.774Z",
-      "items": 9
+      "at": "2026-10-11T14:38:10.844Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T14:24:30.209Z",
-      "items": 14
+      "at": "2026-10-11T14:38:11.211Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
@@ -2440,18 +2441,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T14:24:31.375Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-10-11T14:38:12.042Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· ert | Η ΕΕ αυστηροποιεί τους ταξιδιωτικούς περιορισμούς για Ρώσους πολίτες στο έδαφός της",
-      "· ingr | Τι ζητά η ΕΛΑΣ μετά την πυρκαγιά στον Ελαιώνα – Τα σοβαρά ερωτήματα για την επάρκεια των ε",
-      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - East Makedonia",
-      "✓ meteoalarm | Orange Rain Warning issued for Greece - East Makedonia",
-      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Central Makedonia",
-      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Thraki",
-      "· meteoalarm | Orange Rain Warning issued for Greece - Central Makedonia",
-      "· meteoalarm | Orange Rain Warning issued for Greece - Thraki"
+      "· gn-iefimerida | Κατέληξε και ο δεύτερος τραυματίας από την έκρηξη στη Motor Oil - iefimerida.gr"
     ]
   },
   "evergreenDone": [
