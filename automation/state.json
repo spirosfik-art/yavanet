@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "30cffb5f5009": 1790498129436,
-    "bb605a452901": 1790498129436,
     "b085a3fdea90": 1790498935743,
     "5c97e4a01b0a": 1790498935743,
     "00348c018d92": 1790498935743,
@@ -2175,7 +2173,8 @@
     "8678a73d0072": 1791703407300,
     "e08e09d5d7c8": 1791705744016,
     "68402f8ca109": 1791707031664,
-    "8f413102c09f": 1791707031664
+    "8f413102c09f": 1791707031664,
+    "c10ec3b8647f": 1791707991595
   },
   "pending": {},
   "sourceStatus": {
@@ -2187,12 +2186,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T08:25:37.697Z",
+      "at": "2026-10-11T08:39:40.057Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T08:25:38.198Z",
+      "at": "2026-10-11T08:39:40.687Z",
       "items": 6
     },
     "civilprotection": {
@@ -2203,27 +2202,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T08:25:39.633Z",
+      "at": "2026-10-11T08:39:42.487Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T08:25:39.813Z",
+      "at": "2026-10-11T08:39:42.685Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T08:25:40.717Z",
+      "at": "2026-10-11T08:39:43.565Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T08:25:41.474Z",
+      "at": "2026-10-11T08:39:44.217Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T08:25:42.011Z",
+      "at": "2026-10-11T08:39:45.155Z",
       "items": 10
     },
     "toi-greece": {
@@ -2234,22 +2233,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T08:25:42.397Z",
+      "at": "2026-10-11T08:39:45.725Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T08:25:42.463Z",
+      "at": "2026-10-11T08:39:46.046Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T08:25:42.734Z",
+      "at": "2026-10-11T08:39:46.755Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T08:25:42.852Z",
+      "at": "2026-10-11T08:39:46.925Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2259,12 +2258,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T08:25:38.728Z",
+      "at": "2026-10-11T08:39:41.297Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T08:25:43.104Z",
+      "at": "2026-10-11T08:39:47.612Z",
       "items": 0
     },
     "hcg": {
@@ -2275,32 +2274,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T08:25:44.155Z",
+      "at": "2026-10-11T08:39:49.489Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T08:25:44.363Z",
+      "at": "2026-10-11T08:39:49.777Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T08:25:44.548Z",
+      "at": "2026-10-11T08:39:49.922Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T08:25:44.702Z",
+      "at": "2026-10-11T08:39:50.133Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T08:25:45.019Z",
+      "at": "2026-10-11T08:39:50.483Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T08:25:45.419Z",
+      "at": "2026-10-11T08:39:50.899Z",
       "items": 13
     }
   },
@@ -2407,12 +2406,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T08:23:51.664Z",
-    "considered": 2,
+    "at": "2026-10-11T08:39:51.595Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greece Opens Consultation on Karaiskakis Stadium Expansion to 52,000 Seats",
-      "· gct | Tsitsipas Beats Darderi to Reach 400 Career Wins and Shanghai Third Round"
+      "· gct | Greek Embassy Protests to Skopje Over Fans’ Banner Claiming Thessaloniki and Halkidiki"
     ]
   },
   "evergreenDone": [
