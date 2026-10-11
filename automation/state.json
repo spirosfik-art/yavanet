@@ -2208,7 +2208,10 @@
     "b95531410b2e": 1791692758342,
     "cfcf012ed9b1": 1791692758342,
     "8c6c9b097ed0": 1791694983210,
-    "e79a41d08381": 1791694983210
+    "e79a41d08381": 1791694983210,
+    "dcfca0e22592": 1791696290416,
+    "a288c8ed73ce": 1791696290416,
+    "e3d9e3b802f2": 1791696290416
   },
   "pending": {},
   "sourceStatus": {
@@ -2220,12 +2223,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T05:02:51.098Z",
+      "at": "2026-10-11T05:24:35.793Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T05:02:51.956Z",
+      "at": "2026-10-11T05:24:36.452Z",
       "items": 6
     },
     "civilprotection": {
@@ -2236,27 +2239,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T05:02:53.518Z",
+      "at": "2026-10-11T05:24:38.212Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T05:02:53.638Z",
+      "at": "2026-10-11T05:24:38.659Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T05:02:54.824Z",
+      "at": "2026-10-11T05:24:39.728Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T05:02:55.695Z",
+      "at": "2026-10-11T05:24:40.413Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T05:02:56.641Z",
+      "at": "2026-10-11T05:24:40.829Z",
       "items": 10
     },
     "toi-greece": {
@@ -2267,23 +2270,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T05:02:57.266Z",
+      "at": "2026-10-11T05:24:41.276Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T05:02:57.543Z",
+      "at": "2026-10-11T05:24:41.653Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T05:02:58.301Z",
-      "items": 8
+      "at": "2026-10-11T05:24:41.774Z",
+      "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T05:02:58.547Z",
-      "items": 4
+      "at": "2026-10-11T05:24:41.949Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2292,12 +2295,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T05:02:52.196Z",
+      "at": "2026-10-11T05:24:36.961Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T05:02:59.220Z",
+      "at": "2026-10-11T05:24:42.491Z",
       "items": 0
     },
     "hcg": {
@@ -2308,32 +2311,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T05:03:01.094Z",
+      "at": "2026-10-11T05:24:43.725Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T05:03:01.323Z",
+      "at": "2026-10-11T05:24:43.972Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T05:03:01.588Z",
+      "at": "2026-10-11T05:24:44.171Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T05:03:01.743Z",
-      "items": 4
+      "at": "2026-10-11T05:24:44.442Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T05:03:02.057Z",
-      "items": 9
+      "at": "2026-10-11T05:24:44.741Z",
+      "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T05:03:02.469Z",
+      "at": "2026-10-11T05:24:45.128Z",
       "items": 15
     }
   },
@@ -2347,6 +2350,11 @@
         "title": "The Bar in Front of the Bar jumps 28 places",
         "reason": "Rule 2 violation in Hebrew version: Used the word 'Nachtleben' (German word for nightlife) inside a Hebrew text, and the Hebrew text mentions 'ישראלים' (Israelis) in the 'means' section which is an added generalization/demographic not present in the source text.; Rule 8 violation: Added specific tra",
         "at": "2026-10-10T23:02:08.243Z"
+      },
+      {
+        "title": "Σεισμός 4 Ρίχτερ ανοιχτά της Κάσου",
+        "reason": "Typo and transliteration errors in Hebrew text: 'הגодинаמיקונ' contains Cyrillic letters and wrong suffixes, 'אנויחטא טיס קאסוי' is corrupted Greek written in Hebrew letters instead of translating the source fact.",
+        "at": "2026-10-11T05:25:30.169Z"
       }
     ],
     "errors": []
@@ -2430,12 +2438,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T05:03:03.210Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-11T05:24:50.416Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Τα έσοδα από τους δασμούς ενισχύουν το προφίλ του Τραμπ, ενώ η Ευρώπη πληρώνει σιωπηλά το ",
-      "· ingr | Ενέργεια: Ζεστός αλλά ακριβός ο φετινός χειμώνας"
+      "· naftemporiki | «Αντάρτικο» κατά Τραμπ στο όνομα του Ρίγκαν: Ρεπουμπλικανός βουλευτής ετοιμάζει νομοσχέδιο",
+      "· gn-kathimerini | Πυρκαγιά σε δεξαμενόπλοιο από πλήγμα στα Στενά του Ορμούζ - Kathimerini",
+      "✓ ingr | Σεισμός 4 Ρίχτερ ανοιχτά της Κάσου"
     ]
   },
   "evergreenDone": [
