@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "0262c8d25dd4": 1790518784277,
-    "9ac708c34e1b": 1790518784277,
     "ad856ee9f8eb": 1790520446558,
     "d4b05a36e30b": 1790520446558,
     "cc55e7fb1a44": 1790520446558,
@@ -2181,7 +2179,12 @@
     "adbfcdb2bd01": 1791725903595,
     "575cdc4088f0": 1791725903595,
     "99074962c7dd": 1791726737193,
-    "25a9e2b6effd": 1791727339034
+    "25a9e2b6effd": 1791727339034,
+    "dd6dcdc8e99e": 1791728671375,
+    "0b211a9bb7c6": 1791728671375,
+    "74def23c43a8": 1791728671375,
+    "297527b402cf": 1791728671375,
+    "7f4be8490965": 1791728671375
   },
   "pending": {},
   "sourceStatus": {
@@ -2193,12 +2196,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T14:02:08.839Z",
+      "at": "2026-10-11T14:24:19.393Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T14:02:09.488Z",
+      "at": "2026-10-11T14:24:20.081Z",
       "items": 6
     },
     "civilprotection": {
@@ -2209,27 +2212,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T14:02:10.595Z",
-      "items": 4
+      "at": "2026-10-11T14:24:22.009Z",
+      "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T14:02:10.775Z",
+      "at": "2026-10-11T14:24:22.236Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T14:02:11.796Z",
+      "at": "2026-10-11T14:24:23.201Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T14:02:12.468Z",
-      "items": 1
+      "at": "2026-10-11T14:24:23.980Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T14:02:13.164Z",
+      "at": "2026-10-11T14:24:24.877Z",
       "items": 10
     },
     "toi-greece": {
@@ -2240,22 +2243,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T14:02:13.617Z",
+      "at": "2026-10-11T14:24:25.455Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T14:02:13.904Z",
+      "at": "2026-10-11T14:24:25.784Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T14:02:14.096Z",
-      "items": 13
+      "at": "2026-10-11T14:24:26.429Z",
+      "items": 12
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T14:02:14.240Z",
+      "at": "2026-10-11T14:24:26.652Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2265,12 +2268,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T14:02:09.779Z",
+      "at": "2026-10-11T14:24:20.746Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T14:02:14.765Z",
+      "at": "2026-10-11T14:24:27.425Z",
       "items": 0
     },
     "hcg": {
@@ -2281,33 +2284,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T14:02:16.839Z",
+      "at": "2026-10-11T14:24:28.704Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T14:02:17.033Z",
+      "at": "2026-10-11T14:24:29.043Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T14:02:17.265Z",
+      "at": "2026-10-11T14:24:29.201Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T14:02:17.493Z",
+      "at": "2026-10-11T14:24:29.408Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T14:02:17.892Z",
-      "items": 10
+      "at": "2026-10-11T14:24:29.774Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T14:02:18.330Z",
-      "items": 15
+      "at": "2026-10-11T14:24:30.209Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
@@ -2343,6 +2346,11 @@
         "title": "Σεισμός 4 Ρίχτερ τα ξημερώματα στην Κάσο - iefimerida.gr",
         "reason": "Mixed-script (broken) Hebrew words: קאסos. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-10-11T05:52:37.015Z"
+      },
+      {
+        "title": "Orange Thunderstorm Warning issued for Greece - East Makedonia",
+        "reason": "Rule 8 violation: The source text only mentions 'Orange Thunderstorm Warning issued for Greece - East Makedonia'. The article adds details such as 'סופות רעדיות חזקות' / 'strong thunderstorms' which are not explicitly in the source text.",
+        "at": "2026-10-11T14:24:54.000Z"
       }
     ],
     "errors": [],
@@ -2432,11 +2440,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T14:02:19.034Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-11T14:24:31.375Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· ingr | Κλιμακώνεται η σύγκρουση στην Υεμένη – Οι Χούθι απειλούν με πλήγματα όλα τα αεροδρόμια στη"
+      "· ert | Η ΕΕ αυστηροποιεί τους ταξιδιωτικούς περιορισμούς για Ρώσους πολίτες στο έδαφός της",
+      "· ingr | Τι ζητά η ΕΛΑΣ μετά την πυρκαγιά στον Ελαιώνα – Τα σοβαρά ερωτήματα για την επάρκεια των ε",
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - East Makedonia",
+      "✓ meteoalarm | Orange Rain Warning issued for Greece - East Makedonia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Central Makedonia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Thraki",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Central Makedonia",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Thraki"
     ]
   },
   "evergreenDone": [
