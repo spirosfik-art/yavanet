@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "6707f718cf68": 1790533398494,
-    "acf28003c391": 1790533398494,
     "744cde68a332": 1790534245285,
     "924d265afa95": 1790534245285,
     "d03c7db57280": 1790535046713,
@@ -2186,7 +2184,8 @@
     "38d0e69dcd28": 1791741077282,
     "66a68f2329e4": 1791741077282,
     "25f58f57802e": 1791741696273,
-    "b7f0030ac706": 1791741696273
+    "b7f0030ac706": 1791741696273,
+    "13e6ccdaa718": 1791743127924
   },
   "pending": {},
   "sourceStatus": {
@@ -2198,12 +2197,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T18:01:24.052Z",
+      "at": "2026-10-11T18:24:57.670Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T18:01:24.820Z",
+      "at": "2026-10-11T18:24:58.393Z",
       "items": 6
     },
     "civilprotection": {
@@ -2214,27 +2213,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T18:01:26.497Z",
+      "at": "2026-10-11T18:24:59.927Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T18:01:26.922Z",
+      "at": "2026-10-11T18:25:00.138Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T18:01:27.868Z",
+      "at": "2026-10-11T18:25:01.066Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T18:01:28.529Z",
+      "at": "2026-10-11T18:25:01.739Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T18:01:29.420Z",
+      "at": "2026-10-11T18:25:02.792Z",
       "items": 10
     },
     "toi-greece": {
@@ -2245,23 +2244,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T18:01:30.039Z",
+      "at": "2026-10-11T18:25:03.392Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T18:01:30.436Z",
+      "at": "2026-10-11T18:25:03.843Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T18:01:31.611Z",
+      "at": "2026-10-11T18:25:04.609Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T18:01:31.807Z",
-      "items": 2
+      "at": "2026-10-11T18:25:05.068Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2270,12 +2269,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T18:01:25.344Z",
+      "at": "2026-10-11T18:24:58.752Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T18:01:32.510Z",
+      "at": "2026-10-11T18:25:05.818Z",
       "items": 0
     },
     "hcg": {
@@ -2285,34 +2284,35 @@
       "fails": 1
     },
     "oasa": {
-      "ok": true,
-      "at": "2026-10-11T18:01:34.152Z",
-      "items": 1
+      "ok": false,
+      "at": "2026-10-11T18:25:25.819Z",
+      "error": "This operation was aborted",
+      "fails": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T18:01:34.407Z",
+      "at": "2026-10-11T18:25:26.072Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T18:01:34.581Z",
+      "at": "2026-10-11T18:25:26.295Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T18:01:34.752Z",
+      "at": "2026-10-11T18:25:26.473Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T18:01:35.107Z",
-      "items": 9
+      "at": "2026-10-11T18:25:26.815Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T18:01:35.567Z",
-      "items": 12
+      "at": "2026-10-11T18:25:27.237Z",
+      "items": 13
     }
   },
   "tgOffset": 829774786,
@@ -2442,12 +2442,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T18:01:36.273Z",
-    "considered": 2,
+    "at": "2026-10-11T18:25:27.924Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Alexander Onassis: The Plane Crash and CIA Conspiracy Theories",
-      "· gct | EU Prepares More Funding for Ukrainian Drones and Missiles as Zelensky Calls for Energy Ce"
+      "· ingr | Υπερτουρισμός: Η Βαρκελώνη αυξάνει έως και 150% τον φόρο ακίνητης περιουσίας στα τουριστικ"
     ]
   },
   "evergreenDone": [
