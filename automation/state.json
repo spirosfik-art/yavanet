@@ -2202,7 +2202,8 @@
     "15debb206b73": 1791674573966,
     "2cb640d10441": 1791675357113,
     "9a0c31e23498": 1791678899441,
-    "fc97a2830c4a": 1791678899441
+    "fc97a2830c4a": 1791678899441,
+    "d5c3acb75293": 1791680382634
   },
   "pending": {},
   "sourceStatus": {
@@ -2214,12 +2215,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T00:34:44.716Z",
-      "items": 10
+      "at": "2026-10-11T00:59:33.557Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T00:34:45.518Z",
+      "at": "2026-10-11T00:59:34.199Z",
       "items": 6
     },
     "civilprotection": {
@@ -2230,27 +2231,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T00:34:50.951Z",
+      "at": "2026-10-11T00:59:35.437Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T00:34:51.200Z",
+      "at": "2026-10-11T00:59:35.644Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T00:34:52.155Z",
+      "at": "2026-10-11T00:59:36.438Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T00:34:52.826Z",
+      "at": "2026-10-11T00:59:36.961Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T00:34:53.639Z",
+      "at": "2026-10-11T00:59:37.738Z",
       "items": 10
     },
     "toi-greece": {
@@ -2261,22 +2262,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T00:34:54.162Z",
+      "at": "2026-10-11T00:59:38.201Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T00:34:54.479Z",
+      "at": "2026-10-11T00:59:38.349Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T00:34:55.142Z",
-      "items": 9
+      "at": "2026-10-11T00:59:38.531Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T00:34:55.654Z",
+      "at": "2026-10-11T00:59:38.646Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2286,12 +2287,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T00:34:46.224Z",
+      "at": "2026-10-11T00:59:34.677Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T00:34:56.253Z",
+      "at": "2026-10-11T00:59:39.206Z",
       "items": 0
     },
     "hcg": {
@@ -2302,32 +2303,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T00:34:57.344Z",
+      "at": "2026-10-11T00:59:40.291Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T00:34:57.549Z",
+      "at": "2026-10-11T00:59:40.568Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T00:34:57.776Z",
+      "at": "2026-10-11T00:59:40.750Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T00:34:58.022Z",
+      "at": "2026-10-11T00:59:41.000Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T00:34:58.307Z",
+      "at": "2026-10-11T00:59:41.370Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T00:34:58.747Z",
+      "at": "2026-10-11T00:59:41.841Z",
       "items": 16
     }
   },
@@ -2424,12 +2425,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T00:34:59.441Z",
-    "considered": 2,
+    "at": "2026-10-11T00:59:42.634Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Police Arrest Gynaecologist Over Child Sexual Abuse Files",
-      "· gct | “Welcome to Country” Ceremony Booed at Australia Cup Final"
+      "· gct | BREAKING: Missile Attack On Saudi Arabia Airport Kills 12, Injures 309"
     ]
   },
   "evergreenDone": [
