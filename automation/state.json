@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "14de66c96786": 1790545623400,
     "d41fdef42bcf": 1790548546034,
     "3eb5562c33f0": 1790548546034,
     "2d7e636471b3": 1790548546034,
@@ -2184,7 +2183,9 @@
     "eb3d40ad2f01": 1791751936721,
     "9f4bf4267532": 1791752565092,
     "a1c272b54406": 1791754701139,
-    "c042995dd149": 1791754701139
+    "c042995dd149": 1791754701139,
+    "703ca005d9f2": 1791755557152,
+    "c39469dac43f": 1791755557152
   },
   "pending": {},
   "sourceStatus": {
@@ -2196,12 +2197,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T21:38:07.131Z",
+      "at": "2026-10-11T21:52:25.182Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T21:38:08.088Z",
+      "at": "2026-10-11T21:52:26.044Z",
       "items": 6
     },
     "civilprotection": {
@@ -2212,27 +2213,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T21:38:10.635Z",
+      "at": "2026-10-11T21:52:28.119Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T21:38:10.748Z",
+      "at": "2026-10-11T21:52:28.257Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T21:38:11.791Z",
+      "at": "2026-10-11T21:52:29.454Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T21:38:12.803Z",
+      "at": "2026-10-11T21:52:30.194Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T21:38:13.846Z",
+      "at": "2026-10-11T21:52:30.979Z",
       "items": 10
     },
     "toi-greece": {
@@ -2243,22 +2244,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T21:38:14.418Z",
+      "at": "2026-10-11T21:52:31.620Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T21:38:15.513Z",
+      "at": "2026-10-11T21:52:32.232Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T21:38:16.226Z",
+      "at": "2026-10-11T21:52:32.336Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T21:38:16.430Z",
+      "at": "2026-10-11T21:52:32.546Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2268,12 +2269,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T21:38:09.117Z",
+      "at": "2026-10-11T21:52:26.905Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T21:38:17.305Z",
+      "at": "2026-10-11T21:52:33.206Z",
       "items": 0
     },
     "hcg": {
@@ -2284,32 +2285,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T21:38:19.041Z",
+      "at": "2026-10-11T21:52:34.961Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T21:38:19.208Z",
+      "at": "2026-10-11T21:52:35.313Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T21:38:19.362Z",
+      "at": "2026-10-11T21:52:35.476Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T21:38:19.590Z",
+      "at": "2026-10-11T21:52:35.661Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T21:38:19.881Z",
-      "items": 5
+      "at": "2026-10-11T21:52:35.995Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T21:38:20.364Z",
+      "at": "2026-10-11T21:52:36.416Z",
       "items": 13
     }
   },
@@ -2405,12 +2406,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T21:38:21.139Z",
+    "at": "2026-10-11T21:52:37.152Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Thessaloniki: Father’s Heartbreaking Farewell After Daughter’s MDMA Death",
-      "· gct | Greece Issues Saudi Travel Advice Urging Citizens to Avoid Non-Essential Trips"
+      "· gct | Trump Considers Firing Kimberly Guilfoyle as US Ambassador to Greece",
+      "· gct | Fake Passport Workshop Uncovered in Athens as Police Arrest Suspected People-Smuggling Gan"
     ]
   },
   "evergreenDone": [
