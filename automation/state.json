@@ -2183,7 +2183,8 @@
     "56dddfccef93": 1791750261699,
     "f21bb240764b": 1791750261699,
     "32c6dc6bd8ec": 1791751936721,
-    "eb3d40ad2f01": 1791751936721
+    "eb3d40ad2f01": 1791751936721,
+    "9f4bf4267532": 1791752565092
   },
   "pending": {},
   "sourceStatus": {
@@ -2195,12 +2196,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-11T20:52:02.526Z",
+      "at": "2026-10-11T21:02:32.885Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-11T20:52:03.399Z",
+      "at": "2026-10-11T21:02:33.504Z",
       "items": 6
     },
     "civilprotection": {
@@ -2211,27 +2212,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-11T20:52:05.539Z",
+      "at": "2026-10-11T21:02:35.511Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-11T20:52:07.614Z",
+      "at": "2026-10-11T21:02:35.709Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-11T20:52:08.705Z",
+      "at": "2026-10-11T21:02:36.633Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-11T20:52:09.465Z",
+      "at": "2026-10-11T21:02:37.443Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-11T20:52:10.430Z",
+      "at": "2026-10-11T21:02:38.445Z",
       "items": 10
     },
     "toi-greece": {
@@ -2242,22 +2243,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-11T20:52:10.992Z",
+      "at": "2026-10-11T21:02:39.074Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-11T20:52:11.338Z",
+      "at": "2026-10-11T21:02:39.491Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-11T20:52:12.059Z",
-      "items": 5
+      "at": "2026-10-11T21:02:39.899Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T20:52:12.507Z",
+      "at": "2026-10-11T21:02:40.088Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2267,12 +2268,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-11T20:52:04.242Z",
+      "at": "2026-10-11T21:02:34.134Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-11T20:52:13.125Z",
+      "at": "2026-10-11T21:02:40.733Z",
       "items": 0
     },
     "hcg": {
@@ -2283,84 +2284,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-11T20:52:14.450Z",
+      "at": "2026-10-11T21:02:41.985Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-11T20:52:14.825Z",
+      "at": "2026-10-11T21:02:42.223Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-11T20:52:15.007Z",
+      "at": "2026-10-11T21:02:42.394Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-11T20:52:15.230Z",
+      "at": "2026-10-11T21:02:42.585Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-11T20:52:15.561Z",
-      "items": 6
+      "at": "2026-10-11T21:02:42.896Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-11T20:52:16.096Z",
-      "items": 14
+      "at": "2026-10-11T21:02:43.275Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-11",
-    "count": 1,
-    "published": [
-      {
-        "slug": "lesbos-antissa-fire-response",
-        "title": "Lesbos Fire: Low Vegetation Catches Fire in Antissa",
-        "at": "2026-10-11T15:27:47+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "lesbos-antissa-fire-response",
-        "title": "↻ Lesbos Fire: Fire Department Responding in Antissa",
-        "at": "2026-10-11T16:38:37+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "The Bar in Front of the Bar jumps 28 places",
-        "reason": "Rule 2 violation in Hebrew version: Used the word 'Nachtleben' (German word for nightlife) inside a Hebrew text, and the Hebrew text mentions 'ישראלים' (Israelis) in the 'means' section which is an added generalization/demographic not present in the source text.; Rule 8 violation: Added specific tra",
-        "at": "2026-10-10T23:02:08.243Z"
-      },
-      {
-        "title": "Σεισμός 4 Ρίχτερ ανοιχτά της Κάσου",
-        "reason": "Typo and transliteration errors in Hebrew text: 'הגодинаמיקונ' contains Cyrillic letters and wrong suffixes, 'אנויחטא טיס קאסוי' is corrupted Greek written in Hebrew letters instead of translating the source fact.",
-        "at": "2026-10-11T05:25:30.169Z"
-      },
-      {
-        "title": "Σεισμός 4 Ρίχτερ τα ξημερώματα στην Κάσο - iefimerida.gr",
-        "reason": "Mixed-script (broken) Hebrew words: קאסos. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-11T05:52:37.015Z"
-      },
-      {
-        "title": "Orange Thunderstorm Warning issued for Greece - East Makedonia",
-        "reason": "Rule 8 violation: The source text only mentions 'Orange Thunderstorm Warning issued for Greece - East Makedonia'. The article adds details such as 'סופות רעדיות חזקות' / 'strong thunderstorms' which are not explicitly in the source text.",
-        "at": "2026-10-11T14:24:54.000Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "lesbos-antissa-fire-response",
-        "at": "2026-10-11T12:27:48.291Z"
-      }
-    ]
+    "date": "2026-10-12",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-11",
+      "count": 1,
+      "rejected": 4
+    },
     {
       "date": "2026-10-10",
       "count": 4,
@@ -2439,12 +2405,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-11T20:52:16.721Z",
-    "considered": 2,
+    "at": "2026-10-11T21:02:45.092Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· naftemporiki | Ισραήλ: Ο Νετανιάχου ζητά έρευνα για τις καταγγελίες στρατιωτικών στο ντοκιμαντέρ «NAZA»",
-      "· ingr | Η στιγμή που πέφτει ο βαλλιστικός πύραυλος των «Χούθι» στο αεροδρόμιο της Σαουδικής Αραβία"
+      "· ingr | Διαμαρτυρία στο Οροπέδιο Λασιθίου από παραγωγούς που είδαν τις καλλιέργειές τους να καταστ"
     ]
   },
   "evergreenDone": [
