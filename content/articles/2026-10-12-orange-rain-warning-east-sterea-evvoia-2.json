@@ -1,0 +1,78 @@
+{
+  "slug": "orange-rain-warning-east-sterea-evvoia-2",
+  "section": "breaking",
+  "publishedAt": "2026-10-12T16:24:51+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 38.5,
+    "lng": 23.5
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR003"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39457988/pexels-photo-39457988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A muddy river flowing rapidly through a natural landscape after heavy rain, showcasing erosion and flooding.",
+    "credit": "Photo: Engin Akyurt / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/turbulent-brown-river-flowing-after-heavy-rainfall-39457988/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת גשם",
+    "en": "Rain Warning"
+  },
+  "he": {
+    "title": "אזהרת גשם כתומה ביוון: התראה במרכז המדינה ובאביה",
+    "seoTitle": "מזג אוויר ביוון: אזהרת גשם באביה ובמזרח סטריאה",
+    "seoDesc": "שירות החירום פרסם אזהרת גשם ברמת חומרה כתומה למזרח סטריאה ולאביה. בדקו את התחזית לפני יציאה.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "אזהרת גשם ביוון",
+      "אביה",
+      "סטריאה"
+    ],
+    "dek": "רשויות החירום פרסמו אזהרת גשם ברמת חומרה כתומה עבור אזור מזרח סטריאה ואביה.",
+    "tldr": [
+      "הוצאה אזהרת גשם ברמה כתומה ביוון.",
+      "האזורים הכלולים הם מזרח סטריאה ואביה.",
+      "מומלץ לעקוב אחר העדכונים הרשמיים."
+    ],
+    "means": "אם אתם מטיילים או שוהים כרגע באזורים מזרח סטריאה או אביה, אתם צריכים לבדוק היטב את התחזית המקומית ולהישמע להנחיות הרשויות. הימנעו מנסיעות לא חיוניות באזורים מוצפים ועקבו אחר העדכונים של השירות המטאורולוגי המקומי.",
+    "body": "## אזהרת מזג אוויר ביוון\n\nרשויות החירום והמטאורולוגיה פרסמו אזהרת גשם ברמת חומרה כתומה.\n\nהאזורים המושפעים מההתראה הם מזרח סטריאה ואביה. ההתרעות נועדו ליידע את הציבור על תנאי מזג אוויר מאתגרים הצפויים באזורים אלו.\n\nמומלץ לכל מי שנמצא באזורים אלו או מתכנן להגיע לשם להישאר מעודכן בשינויים ולהתאים את תוכניות הנסיעה בהתאם להנחיות גורמי החירום המקומיים."
+  },
+  "en": {
+    "title": "Orange Rain Warning Issued for East Sterea and Evvoia",
+    "seoTitle": "Orange Rain Warning Issued for East Sterea and Evvoia",
+    "seoDesc": "An orange rain warning has been issued for East Sterea and Evvoia in Greece. Check local updates before traveling.",
+    "keywords": [
+      "greece rain warning",
+      "evvoia weather",
+      "sterea weather",
+      "greece meteoalarm"
+    ],
+    "dek": "Emergency services have issued an orange rain warning for the regions of East Sterea and Evvoia.",
+    "tldr": [
+      "An orange rain warning is in effect for parts of Greece.",
+      "The affected areas are East Sterea and Evvoia.",
+      "Check local weather updates before heading out."
+    ],
+    "means": "If you are traveling or currently staying in East Sterea or Evvoia, check local weather forecasts and follow instructions from the local authorities. Avoid non-essential travel in affected areas and stay tuned to official updates.",
+    "body": "## Weather Warning in Greece\n\nEmergency weather services have issued an orange-level rain warning for specific regions.\n\nThe areas currently under the warning are East Sterea and Evvoia. The alert is intended to inform the public about upcoming severe weather conditions in these locations.\n\nAnyone located in or planning to travel to these regions should monitor local forecasts and adjust travel plans according to official guidance."
+  },
+  "meta": {
+    "itemId": "ca19cc47552b",
+    "imageQuery": "heavy rain storm greece",
+    "sourceHash": "37616da10600",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-12T13:24:52.224Z",
+    "official": true
+  }
+}

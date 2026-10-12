@@ -1,0 +1,80 @@
+{
+  "slug": "orange-thunderstorm-warning-west-peloponnese",
+  "section": "breaking",
+  "publishedAt": "2026-10-12T16:25:45+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 37.656,
+    "lng": 21.431
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR009"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4116183/pexels-photo-4116183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Intense night thunderstorm in Athens with striking lightning illuminating the cityscape.",
+    "credit": "Photo: Aladdin Qattouri / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/storm-with-lightnings-over-city-street-at-night-4116183/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת סערה",
+    "en": "Storm Warning"
+  },
+  "he": {
+    "title": "אזהרת סערה ביוון: כוננות כתומה מפני סופות רעמים בפלופונס המערבי",
+    "seoTitle": "מזג אוויר ביוון: אזהרת סערה בפלופונס המערבי היום",
+    "seoDesc": "עדכון מזג אוויר ביוון: רשויות החירום פרסמו אזהרת סערה ברמת חומרה כתומה לאזור פלופונס המערבי עקב סופות רעמים. בדקו את התחזית לפני יציאה לדרך.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "סערה ביוון",
+      "פלופונס",
+      "אזהרת מזג אוויר יוון",
+      "תחזית ביוון"
+    ],
+    "dek": "רשויות החירום פרסמו אזהרת מזג אוויר ברמת חומרה כתומה המעידה על סופות רעמים צפויות באזור פלופונס המערבי.",
+    "tldr": [
+      "הוצאה אזהרת סערה ברמה כתומה ביוון.",
+      "האזור המושפע הוא פלופונס המערבי.",
+      "האזהרה מתייחסת לסופות רעמים חזקות."
+    ],
+    "means": "אם אתם נמצאים באזור פלופונס המערבי או מתכננים להגיע לשם, הישארו מעודכנים בתחזית המקומית, הימנעו מנסיעות לא חיוניות בזמן הגשמים החזקים ועקבו אחר הנחיות רשויות החירום המקומיות.",
+    "body": "## כוננות מזג אוויר בפלופונס המערבי\n\nשירותי החירום ומטאורולוגיה ביוון פרסמו אזהרת מזג אוויר ברמה כתומה עבור אזור פלופונס המערבי. האזהרה המוקדמת מגיעה בעקבות צפי למערכת מזג אוויר סוערת הכוללת סופות רעמים משמעותיות באזור זה.\n\n## הנחיות והיערכות\n\nרשויות החירום ממשיכות לעקוב אחר התפתחות המערכת. מומלץ לכל מי שנמצא באזור הנגוע לנקוט משנה זהירות, להתרחק ממקומי מים ומאזורים מועדים להצפות, ולהישמע להוראות גורמי הביטחון וההצלה המקומיים כל עוד האזהרה בתוקף."
+  },
+  "en": {
+    "title": "Orange Thunderstorm Warning Issued for Western Peloponnese in Greece",
+    "seoTitle": "Greece Weather: Orange Thunderstorm Warning West Peloponnese",
+    "seoDesc": "Greece weather update: An orange thunderstorm warning has been issued for the West Peloponnese region. Check local forecasts before traveling.",
+    "keywords": [
+      "greece weather",
+      "thunderstorm warning greece",
+      "west peloponnese",
+      "meteoalarm greece",
+      "greece storm"
+    ],
+    "dek": "Authorities have issued an orange-level weather warning for severe thunderstorms affecting the West Peloponnese region.",
+    "tldr": [
+      "An orange thunderstorm warning is active in Greece.",
+      "The affected area is the West Peloponnese.",
+      "The alert warns of severe storm conditions."
+    ],
+    "means": "If you are visiting or staying in the West Peloponnese, monitor local weather updates closely, avoid unnecessary travel during peak storm hours, and follow instructions from local emergency services.",
+    "body": "## Weather Alert for West Peloponnese\n\nWeather authorities in Greece have raised an orange alert for the West Peloponnese due to incoming severe weather conditions. The warning highlights the risk of heavy thunderstorms developing across the area.\n\n## Safety Precautions\n\nLocal authorities advise individuals in the affected zones to stay informed through official channels, exercise caution during outdoor movements, and adhere strictly to safety guidance issued by emergency response teams."
+  },
+  "meta": {
+    "itemId": "63d0414c276b",
+    "imageQuery": "orange thunderstorm stormy sky greece",
+    "sourceHash": "8257a9169bb4",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-12T13:25:46.270Z",
+    "official": true
+  }
+}
