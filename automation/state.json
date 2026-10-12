@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "e6bd84f39921": 1790573071607,
     "e8d491c99714": 1790573792316,
     "6e5e786a26b4": 1790573792316,
     "fa7f41a567ef": 1790573792316,
@@ -2191,7 +2190,11 @@
     "9a677644717c": 1791780410814,
     "60f4b55e56fa": 1791780410814,
     "19ea6124a8d7": 1791781562611,
-    "a4ea22c0d6aa": 1791781562611
+    "a4ea22c0d6aa": 1791781562611,
+    "aedb49758973": 1791782868820,
+    "1c33b5bafb32": 1791782868820,
+    "d0258ce55c4d": 1791782868820,
+    "ca9b5a153919": 1791782868820
   },
   "pending": {},
   "sourceStatus": {
@@ -2203,12 +2206,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T05:05:43.126Z",
+      "at": "2026-10-12T05:27:29.158Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T05:05:44.055Z",
+      "at": "2026-10-12T05:27:29.912Z",
       "items": 6
     },
     "civilprotection": {
@@ -2219,27 +2222,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T05:05:47.015Z",
+      "at": "2026-10-12T05:27:31.540Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T05:05:52.430Z",
+      "at": "2026-10-12T05:27:31.717Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T05:05:53.560Z",
+      "at": "2026-10-12T05:27:32.606Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T05:05:54.543Z",
-      "items": 3
+      "at": "2026-10-12T05:27:33.430Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T05:05:55.598Z",
+      "at": "2026-10-12T05:27:33.875Z",
       "items": 10
     },
     "toi-greece": {
@@ -2250,22 +2253,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T05:05:56.233Z",
+      "at": "2026-10-12T05:27:34.458Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T05:05:56.482Z",
+      "at": "2026-10-12T05:27:34.845Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T05:05:56.863Z",
-      "items": 4
+      "at": "2026-10-12T05:27:35.443Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T05:05:57.375Z",
+      "at": "2026-10-12T05:27:35.890Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2275,12 +2278,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T05:05:45.457Z",
+      "at": "2026-10-12T05:27:30.504Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T05:05:58.271Z",
+      "at": "2026-10-12T05:27:36.535Z",
       "items": 0
     },
     "hcg": {
@@ -2291,32 +2294,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T05:06:00.302Z",
+      "at": "2026-10-12T05:27:38.670Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T05:06:00.485Z",
+      "at": "2026-10-12T05:27:38.925Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T05:06:00.616Z",
+      "at": "2026-10-12T05:27:39.095Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T05:06:00.770Z",
+      "at": "2026-10-12T05:27:39.368Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T05:06:01.195Z",
-      "items": 6
+      "at": "2026-10-12T05:27:39.690Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T05:06:01.594Z",
+      "at": "2026-10-12T05:27:40.077Z",
       "items": 14
     }
   },
@@ -2335,6 +2338,12 @@
         "slug": "woman-rescued-after-20-hours-mediterranean",
         "title": "Woman rescued alive after nearly 20 hours in the Mediterranean sea near Greece",
         "at": "2026-10-12T04:44:44+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "athens-metro-line-3-evening-closures",
+        "title": "↻ Athens Metro Line 3: Evening Station Closures Announced",
+        "at": "2026-10-12T08:29:13+03:00",
         "section": "travel"
       }
     ],
@@ -2432,12 +2441,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T05:06:02.611Z",
-    "considered": 2,
+    "at": "2026-10-12T05:27:48.820Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "✓ ingr | Η στεγαστική κρίση μπορεί να οδηγήσει σε κοινωνική έκρηξη",
-      "· naftemporiki | Κύπρος–Ιταλία: Ενίσχυση ναυτιλιακής συνεργασίας και επενδύσεων"
+      "· gct | KUD Good Design Award 2026: Billy Kavellaris’ 161 Eastern Wins",
+      "· minfin | Νίκος Παπαθανάσης: 2,48 εκατ. ευρώ για την ανέγερση Στέγης Υποστηριζόμενης Διαβίωσης (ΣΥΔ)",
+      "✓ ingr | Γραμμή 3 του Μετρό: Ποιοι σταθμοί θα κλείνουν νωρίτερα έως και την Πέμπτη",
+      "· gct | Kyle Sandilands Sued Over Alleged $240,000 Renovation Debt at Sydney Mansion"
     ]
   },
   "evergreenDone": [
