@@ -2251,7 +2251,10 @@
     "e26213c1ad33": 1791817429820,
     "10cf6234fd52": 1791817429820,
     "c0cbaaf783b1": 1791818880080,
-    "793ca79aa037": 1791818880080
+    "793ca79aa037": 1791818880080,
+    "9b83893b3e18": 1791819925979,
+    "8387dd33ae78": 1791819925979,
+    "e3b7d08a21df": 1791819925979
   },
   "pending": {},
   "sourceStatus": {
@@ -2263,12 +2266,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T15:27:50.595Z",
+      "at": "2026-10-12T15:45:16.694Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T15:27:51.212Z",
+      "at": "2026-10-12T15:45:17.195Z",
       "items": 3
     },
     "civilprotection": {
@@ -2279,27 +2282,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T15:27:52.825Z",
+      "at": "2026-10-12T15:45:18.529Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T15:27:52.947Z",
+      "at": "2026-10-12T15:45:18.734Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T15:27:53.856Z",
+      "at": "2026-10-12T15:45:19.765Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T15:27:54.455Z",
+      "at": "2026-10-12T15:45:20.402Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T15:27:54.894Z",
+      "at": "2026-10-12T15:45:20.722Z",
       "items": 10
     },
     "toi-greece": {
@@ -2310,22 +2313,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T15:27:55.091Z",
+      "at": "2026-10-12T15:45:20.982Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T15:27:55.213Z",
+      "at": "2026-10-12T15:45:21.126Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T15:27:55.463Z",
-      "items": 11
+      "at": "2026-10-12T15:45:21.426Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T15:27:55.583Z",
+      "at": "2026-10-12T15:45:21.549Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2335,12 +2338,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T15:27:51.796Z",
+      "at": "2026-10-12T15:45:17.585Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T15:27:56.118Z",
+      "at": "2026-10-12T15:45:22.093Z",
       "items": 0
     },
     "hcg": {
@@ -2351,32 +2354,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T15:27:57.744Z",
+      "at": "2026-10-12T15:45:23.575Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T15:27:57.912Z",
-      "items": 0
+      "at": "2026-10-12T15:45:23.779Z",
+      "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T15:27:58.131Z",
+      "at": "2026-10-12T15:45:23.971Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T15:27:58.382Z",
+      "at": "2026-10-12T15:45:24.131Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T15:27:58.775Z",
+      "at": "2026-10-12T15:45:24.548Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T15:27:59.240Z",
+      "at": "2026-10-12T15:45:25.047Z",
       "items": 11
     }
   },
@@ -2474,6 +2477,12 @@
         "title": "Greece Records Fewer Road Deaths in First Eight Months of 2026",
         "at": "2026-10-12T18:04:05+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "severe-weather-greece-october-2026",
+        "title": "Severe weather in Greece: Storms and heavy rain forecast",
+        "at": "2026-10-12T18:45:39+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2516,6 +2525,10 @@
       {
         "slug": "orange-thunderstorm-warning-west-peloponnese",
         "at": "2026-10-12T13:25:46.271Z"
+      },
+      {
+        "slug": "severe-weather-greece-october-2026",
+        "at": "2026-10-12T15:45:40.016Z"
       }
     ]
   },
@@ -2603,12 +2616,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T15:28:00.080Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-12T15:45:25.980Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ktg | Mitsotakis on elections: 25% for ND could mean serious questions for party leadership",
-      "· ingr | Μετακόμιση με κατοικίδιο: Πώς θα νιώσει ο σκύλος σας σαν στο σπίτι του"
+      "· ingr | Έφη Αχτσιόγλου: Οι δύο παράγοντες που καθιστούν αναγκαία την πολιτική αλλαγή – Οι λόγοι έν",
+      "· gn-iefimerida | Φωτιά στο Πανόραμα Θεσσαλονίκης -Γυναίκα εντοπίστηκε αναίσθητη μέσα στις φλόγες - iefimeri",
+      "✓ gn-civilprotection | Επιδείνωση του καιρού την Τρίτη (13-10-2026) και την Τετάρτη (14-10-2026) με ισχυρές βροχέ"
     ]
   },
   "evergreenDone": [
@@ -2651,5 +2665,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791811494211,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "severe-weather-greece-october-2026",
+      "url": "https://yavanet.gr/a/severe-weather-greece-october-2026/",
+      "at": "2026-10-12T15:45:40.016Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/severe-weather-greece-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/severe-weather-greece-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "סערה ביוון: תחזית למזג אוויר סוער וגשמים חזקים",
+        "title_en": "Severe weather in Greece: Storms and heavy rain forecast",
+        "dek_he": "רשויות החירום ביוון מזהירות מפני הידרדרות משמעותית במזג האוויר ביום שלישי ורביעי, עם גשמים עזים ורוחות חזקות באזור הים הגיאים.",
+        "dek_en": "Civil Protection in Greece issues a severe weather warning for Tuesday and Wednesday, bringing heavy rain, thunderstorms, and gale-force winds.",
+        "section": "breaking",
+        "breaking": true,
+        "image": "https://images.pexels.com/photos/38021369/pexels-photo-38021369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "🔴 סערה ביוון: תחזית למזג אוויר סוער וגשמים חזקים\n\nרשויות החירום ביוון מזהירות מפני הידרדרות משמעותית במזג האוויר ביום שלישי ורביעי, עם גשמים עזים ורוחות חזקות באזור הים הגיאים.\n\nhttps://yavanet.gr/a/severe-weather-greece-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Severe weather in Greece: Storms and heavy rain forecast\n\nCivil Protection in Greece issues a severe weather warning for Tuesday and Wednesday, bringing heavy rain, thunderstorms, and gale-force winds.\n\nhttps://yavanet.gr/en/a/severe-weather-greece-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
