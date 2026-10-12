@@ -1,10 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "a1d998c28ab7": 1790635741125,
-    "99f618a33798": 1790635741125,
-    "07aa68a69217": 1790635741125,
-    "74d772f59523": 1790635741125,
     "4addbe03a4e1": 1790636466851,
     "6a1824eeae34": 1790636466851,
     "62ff0cd47f38": 1790636466851,
@@ -2236,7 +2232,10 @@
     "482d81250632": 1791842585840,
     "17f86709a425": 1791842585840,
     "ffe6b24727ee": 1791843918513,
-    "6289cf9a2cb8": 1791843918513
+    "6289cf9a2cb8": 1791843918513,
+    "3575a7ec6970": 1791845642989,
+    "420932bc04d1": 1791845642989,
+    "95215981d6b2": 1791845642989
   },
   "pending": {},
   "sourceStatus": {
@@ -2248,12 +2247,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T22:38:48.106Z",
+      "at": "2026-10-12T22:53:50.384Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T22:38:48.990Z",
+      "at": "2026-10-12T22:53:51.202Z",
       "items": 3
     },
     "civilprotection": {
@@ -2264,27 +2263,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T22:38:51.257Z",
+      "at": "2026-10-12T22:53:53.388Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T22:38:51.671Z",
+      "at": "2026-10-12T22:53:53.867Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T22:38:52.856Z",
+      "at": "2026-10-12T22:53:54.950Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T22:38:53.825Z",
+      "at": "2026-10-12T22:53:55.730Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T22:38:54.674Z",
+      "at": "2026-10-12T22:53:56.778Z",
       "items": 10
     },
     "toi-greece": {
@@ -2295,22 +2294,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T22:38:55.314Z",
+      "at": "2026-10-12T22:53:57.386Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T22:38:55.431Z",
+      "at": "2026-10-12T22:53:57.614Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T22:38:55.802Z",
+      "at": "2026-10-12T22:53:58.233Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:38:56.384Z",
+      "at": "2026-10-12T22:53:58.754Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2320,12 +2319,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:38:49.713Z",
+      "at": "2026-10-12T22:53:51.846Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T22:38:56.961Z",
+      "at": "2026-10-12T22:53:59.587Z",
       "items": 0
     },
     "hcg": {
@@ -2336,33 +2335,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T22:38:58.480Z",
+      "at": "2026-10-12T22:54:01.082Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T22:38:58.655Z",
+      "at": "2026-10-12T22:54:01.338Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T22:38:58.853Z",
+      "at": "2026-10-12T22:54:01.473Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T22:38:59.065Z",
+      "at": "2026-10-12T22:54:01.643Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T22:38:59.422Z",
+      "at": "2026-10-12T22:54:01.977Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T22:38:59.865Z",
-      "items": 10
+      "at": "2026-10-12T22:54:02.404Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2468,12 +2467,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T22:25:18.513Z",
-    "considered": 2,
+    "at": "2026-10-12T22:54:02.989Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Lefteris Pantazis Sparks Social Media Reactions Over New Video",
-      "· gct | Scottish Tourist Seriously Injured in Balcony Fall in Rhodes as Family Raises £12,000 for "
+      "· gct | US NATO Envoy Calls for Faster Military Movements to Eastern Europe",
+      "· gct | Greece, Albania and North Macedonia Plan New Cultural Initiatives",
+      "· gct | Teenager Shoots Headmaster and Teacher at French School"
     ]
   },
   "evergreenDone": [
