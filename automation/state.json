@@ -2236,7 +2236,11 @@
     "6ac331dbc592": 1791841180357,
     "43165fb2f661": 1791841180357,
     "d18d64ea5245": 1791841180357,
-    "1d58bb818c74": 1791841180357
+    "1d58bb818c74": 1791841180357,
+    "c75163c9d331": 1791842006215,
+    "dfad48733669": 1791842006215,
+    "171011540b46": 1791842006215,
+    "de8d3c3bd424": 1791842006215
   },
   "pending": {},
   "sourceStatus": {
@@ -2248,12 +2252,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T21:39:16.835Z",
+      "at": "2026-10-12T21:52:58.172Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T21:39:17.615Z",
+      "at": "2026-10-12T21:52:59.098Z",
       "items": 3
     },
     "civilprotection": {
@@ -2264,27 +2268,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T21:39:20.298Z",
+      "at": "2026-10-12T21:53:01.232Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T21:39:31.512Z",
+      "at": "2026-10-12T21:53:17.168Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T21:39:32.577Z",
+      "at": "2026-10-12T21:53:18.282Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T21:39:33.411Z",
+      "at": "2026-10-12T21:53:19.007Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T21:39:34.325Z",
+      "at": "2026-10-12T21:53:19.837Z",
       "items": 10
     },
     "toi-greece": {
@@ -2295,22 +2299,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T21:39:34.676Z",
+      "at": "2026-10-12T21:53:20.398Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T21:39:35.087Z",
+      "at": "2026-10-12T21:53:20.764Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T21:39:35.736Z",
+      "at": "2026-10-12T21:53:21.286Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:39:35.909Z",
+      "at": "2026-10-12T21:53:21.553Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2320,12 +2324,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:39:18.521Z",
+      "at": "2026-10-12T21:52:59.382Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T21:39:36.690Z",
+      "at": "2026-10-12T21:53:22.137Z",
       "items": 0
     },
     "hcg": {
@@ -2336,32 +2340,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T21:39:38.275Z",
+      "at": "2026-10-12T21:53:24.027Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T21:39:38.524Z",
+      "at": "2026-10-12T21:53:24.290Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T21:39:38.740Z",
+      "at": "2026-10-12T21:53:24.497Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T21:39:38.904Z",
+      "at": "2026-10-12T21:53:24.696Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T21:39:39.236Z",
-      "items": 7
+      "at": "2026-10-12T21:53:25.060Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T21:39:39.646Z",
+      "at": "2026-10-12T21:53:25.511Z",
       "items": 8
     }
   },
@@ -2462,14 +2466,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T21:39:40.357Z",
+    "at": "2026-10-12T21:53:26.215Z",
     "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Greek Food Spending Reaches €25.7 Billion as Habits Shift",
-      "· gct | Greece and Germany Exhibition Examines Wartime Archaeology",
-      "· gct | Cavo Paradiso Mykonos Documentary to Make US Premiere at New York Greek Film Expo",
-      "· gct | Nazi Flag In Acropolis Poster Triggers Greek Outrage"
+      "· gct | Greece Shifts From ‘Return’ to ‘Reunification’ of Parthenon Sculptures",
+      "· gct | Greece Plans Social Media Ban for Under-15s from January 2027",
+      "· ingr | Παρίσι: Πυρκαγιά κατέστρεψε ιστορική στεγασμένη αγορά τροφίμων από την εποχή του Λουδοβίκο",
+      "· gct | South Melbourne Boss Sinisa Cohadzic Joins Rivals Avondale Less Than 48 Hours After Austra"
     ]
   },
   "evergreenDone": [
