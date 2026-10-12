@@ -2193,7 +2193,9 @@
     "d5b981fca683": 1791768487264,
     "3469da7f8c85": 1791769470136,
     "0973be8a3e80": 1791769470136,
-    "5f8db2a2de29": 1791769470136
+    "5f8db2a2de29": 1791769470136,
+    "cc1de7d735a9": 1791770947158,
+    "6de144a1adec": 1791770947158
   },
   "pending": {},
   "sourceStatus": {
@@ -2205,12 +2207,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T01:57:48.513Z",
-      "items": 10
+      "at": "2026-10-12T02:08:56.312Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T01:57:49.278Z",
+      "at": "2026-10-12T02:08:57.022Z",
       "items": 6
     },
     "civilprotection": {
@@ -2221,27 +2223,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T01:57:51.146Z",
+      "at": "2026-10-12T02:08:58.626Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T01:57:51.550Z",
+      "at": "2026-10-12T02:08:58.789Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T01:57:52.624Z",
+      "at": "2026-10-12T02:08:59.838Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T01:57:53.455Z",
+      "at": "2026-10-12T02:09:00.507Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T01:57:54.381Z",
+      "at": "2026-10-12T02:09:01.260Z",
       "items": 10
     },
     "toi-greece": {
@@ -2252,22 +2254,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T01:57:54.988Z",
+      "at": "2026-10-12T02:09:01.819Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T01:57:55.122Z",
+      "at": "2026-10-12T02:09:02.085Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T01:57:55.773Z",
+      "at": "2026-10-12T02:09:02.637Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T01:57:56.193Z",
+      "at": "2026-10-12T02:09:03.088Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2277,12 +2279,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T01:57:50.042Z",
+      "at": "2026-10-12T02:08:57.572Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T01:57:56.952Z",
+      "at": "2026-10-12T02:09:03.926Z",
       "items": 0
     },
     "hcg": {
@@ -2293,33 +2295,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T01:57:58.483Z",
+      "at": "2026-10-12T02:09:05.223Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T01:57:58.785Z",
+      "at": "2026-10-12T02:09:05.395Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T01:57:58.990Z",
+      "at": "2026-10-12T02:09:05.553Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T01:57:59.220Z",
+      "at": "2026-10-12T02:09:05.736Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T01:57:59.538Z",
+      "at": "2026-10-12T02:09:06.015Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T01:57:59.965Z",
-      "items": 14
+      "at": "2026-10-12T02:09:06.459Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
@@ -2428,13 +2430,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T01:44:30.136Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-10-12T02:09:07.158Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· gct | RACK vs LILA: Red Bull SoundClash Brings a Unique Music Battle to Athens",
-      "✓ gct | Woman Rescued After Nearly 20 Hours at Sea Following Cruise Ship Overboard Incident Near G",
-      "· gct | Greek Paralympic Taekwondo Star Elena Papastamatopoulou Wins Silver in Paris"
+      "· gct | The Liberation of Athens: October 12, 1944, the Day Nazi Forces Withdrew",
+      "· gn-iefimerida | Σαουδική Αραβία: 14 νεκροί από τις επιθέσεις των Χούθι στο αεροδρόμιο του Ριάντ -Απειλούν "
     ]
   },
   "evergreenDone": [
