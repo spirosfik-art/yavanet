@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "f6d0c0660165": 1790585536472,
     "c13c22d14bf3": 1790586168222,
     "8883277c599a": 1790587639279,
     "eb3debdfa3bf": 1790587639279,
@@ -2191,7 +2190,13 @@
     "13ebad70e314": 1791793705540,
     "14b817cd76dc": 1791793705540,
     "8dd813260a20": 1791793705540,
-    "df1ea1ed9035": 1791793972374
+    "df1ea1ed9035": 1791793972374,
+    "d5e4e9e87671": 1791795474351,
+    "291f6cb08925": 1791795474351,
+    "ddeef869431a": 1791795474351,
+    "72c94b2b97f2": 1791795474351,
+    "650232380bad": 1791795474351,
+    "c4141a38f545": 1791795474351
   },
   "pending": {},
   "sourceStatus": {
@@ -2203,12 +2208,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T08:32:43.886Z",
-      "items": 10
+      "at": "2026-10-12T08:57:43.731Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T08:32:44.488Z",
+      "at": "2026-10-12T08:57:44.299Z",
       "items": 4
     },
     "civilprotection": {
@@ -2219,27 +2224,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T08:32:45.471Z",
+      "at": "2026-10-12T08:57:46.501Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T08:32:45.578Z",
+      "at": "2026-10-12T08:57:46.881Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T08:32:46.493Z",
+      "at": "2026-10-12T08:57:47.717Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T08:32:47.133Z",
-      "items": 1
+      "at": "2026-10-12T08:57:48.388Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T08:32:47.576Z",
+      "at": "2026-10-12T08:57:48.990Z",
       "items": 10
     },
     "toi-greece": {
@@ -2250,23 +2255,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T08:32:48.016Z",
+      "at": "2026-10-12T08:57:49.406Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T08:32:48.284Z",
+      "at": "2026-10-12T08:57:49.477Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T08:32:48.354Z",
-      "items": 7
+      "at": "2026-10-12T08:57:49.544Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T08:32:48.477Z",
-      "items": 4
+      "at": "2026-10-12T08:57:49.686Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2275,12 +2280,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T08:32:44.653Z",
+      "at": "2026-10-12T08:57:45.087Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T08:32:49.003Z",
+      "at": "2026-10-12T08:57:50.169Z",
       "items": 0
     },
     "hcg": {
@@ -2291,39 +2296,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T08:32:50.344Z",
+      "at": "2026-10-12T08:57:51.510Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T08:32:50.516Z",
+      "at": "2026-10-12T08:57:51.768Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T08:32:50.707Z",
+      "at": "2026-10-12T08:57:51.979Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T08:32:50.921Z",
+      "at": "2026-10-12T08:57:52.241Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T08:32:51.252Z",
-      "items": 4
+      "at": "2026-10-12T08:57:52.519Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T08:32:51.712Z",
+      "at": "2026-10-12T08:57:52.990Z",
       "items": 13
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-12",
-    "count": 2,
+    "count": 4,
     "published": [
       {
         "slug": "gkrava-schools-closed-athens-gas-odour",
@@ -2342,6 +2347,18 @@
         "title": "↻ Athens Metro Line 3: Evening Station Closures Announced",
         "at": "2026-10-12T08:29:13+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "thessaloniki-industrial-real-estate-projects",
+        "title": "New Real Estate Projects Transform Thessaloniki's Industrial Sites",
+        "at": "2026-10-12T11:58:33+03:00",
+        "section": "real-estate"
+      },
+      {
+        "slug": "greek-investment-surges-real-estate-leads",
+        "title": "Greek Investment Surges as Real Estate Leads Growth",
+        "at": "2026-10-12T11:58:48+03:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -2349,10 +2366,20 @@
         "title": "Η στεγαστική κρίση μπορεί να οδηγήσει σε κοινωνική έκρηξη",
         "reason": "Rule 8 violation: The article mistranslated '29% των νοικοκυριών' (29% of households) as 'כ-29% מהמשקיעים והתושבים' (around 29% of investors and residents) in the Hebrew tldr, and 'about 29% of urban households' in English. The source does not mention investors here.",
         "at": "2026-10-12T05:06:33.214Z"
+      },
+      {
+        "title": "Real estate: Οι ιδιώτες μπαίνουν, οι θεσμικοί δυσκολεύονται – Πώς αλλάζει το επενδυτικό παιχνίδι",
+        "reason": "The Hebrew version includes a typo in the body text: 'פיнансові' contains Cyrillic characters ('финансови' in a mix of scripts) instead of proper Hebrew letters.",
+        "at": "2026-10-12T08:58:18.446Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "thessaloniki-industrial-real-estate-projects",
+        "at": "2026-10-12T08:58:33.942Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2438,11 +2465,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T08:32:52.374Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-12T08:57:54.351Z",
+    "considered": 6,
+    "picked": 3,
     "items": [
-      "· gct | Greece Expands Digital Work Card to 500,000 More Workers"
+      "✓ naftemporiki | Real estate: Οι ιδιώτες μπαίνουν, οι θεσμικοί δυσκολεύονται – Πώς αλλάζει το επενδυτικό πα",
+      "· ert | Ομιλία του Παύλου Γερουλάνου στη National Hellenic Society στην Ουάσιγκτον",
+      "· naftemporiki | Παρίσι: Κάηκε ολοσχερώς η Μarché des Enfants Rouges, η παλαιότερη σκεπαστή αγορά της πόλης",
+      "· gct | Greek Coast Guard Locates 25 Foreign Nationals on Andros",
+      "✓ naftemporiki | Θεσσαλονίκη: Νέα ζωή στα βιομηχανικά ακίνητα – Τα 8 projects που αλλάζουν την πόλη",
+      "✓ gct | Greek Investment Surges as Real Estate Leads Growth"
     ]
   },
   "evergreenDone": [
@@ -2485,5 +2517,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791633712603,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "thessaloniki-industrial-real-estate-projects",
+      "url": "https://yavanet.gr/a/thessaloniki-industrial-real-estate-projects/",
+      "at": "2026-10-12T08:58:33.942Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/thessaloniki-industrial-real-estate-projects/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/thessaloniki-industrial-real-estate-projects/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "פרויקטים חדשים משנים את פני הנדל\"ן בסלוניקי",
+        "title_en": "New Real Estate Projects Transform Thessaloniki's Industrial Sites",
+        "dek_he": "גל של השקעות בנדל\"ן הופך מתחמים תעשייתיים היסטוריים בסלוניקי למוקדי מסחר, מגורים ומלונאות מתקדמים.",
+        "dek_en": "A wave of real estate investments is converting historic industrial complexes in Thessaloniki into modern mixed-use, residential, and commercial developments.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/34582418/pexels-photo-34582418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "פרויקטים חדשים משנים את פני הנדל\"ן בסלוניקי\n\nגל של השקעות בנדל\"ן הופך מתחמים תעשייתיים היסטוריים בסלוניקי למוקדי מסחר, מגורים ומלונאות מתקדמים.\n\nhttps://yavanet.gr/a/thessaloniki-industrial-real-estate-projects/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "New Real Estate Projects Transform Thessaloniki's Industrial Sites\n\nA wave of real estate investments is converting historic industrial complexes in Thessaloniki into modern mixed-use, residential, and commercial developments.\n\nhttps://yavanet.gr/en/a/thessaloniki-industrial-real-estate-projects/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
