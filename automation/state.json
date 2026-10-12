@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "b4a51d5565b5": 1790582582138,
-    "7c785f599387": 1790582582138,
     "6d75165a7c69": 1790584054943,
     "061d4b7611c1": 1790584054943,
     "6352c7030288": 1790584054943,
@@ -2191,7 +2189,9 @@
     "a632c68a9934": 1791791910030,
     "4ef6cefe9914": 1791791910030,
     "c333043d05e8": 1791791910030,
-    "a705a778cef4": 1791791910030
+    "a705a778cef4": 1791791910030,
+    "77eb10e12e2b": 1791792718059,
+    "7463dd17e5e2": 1791792718059
   },
   "pending": {},
   "sourceStatus": {
@@ -2203,12 +2203,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T07:58:17.567Z",
+      "at": "2026-10-12T08:11:40.795Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T07:58:18.181Z",
+      "at": "2026-10-12T08:11:41.581Z",
       "items": 4
     },
     "civilprotection": {
@@ -2219,27 +2219,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T07:58:19.586Z",
+      "at": "2026-10-12T08:11:43.237Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T07:58:19.940Z",
+      "at": "2026-10-12T08:11:43.631Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T07:58:20.929Z",
+      "at": "2026-10-12T08:11:45.088Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T07:58:21.562Z",
-      "items": 1
+      "at": "2026-10-12T08:11:45.920Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T07:58:22.549Z",
+      "at": "2026-10-12T08:11:46.874Z",
       "items": 10
     },
     "toi-greece": {
@@ -2250,22 +2250,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T07:58:22.742Z",
+      "at": "2026-10-12T08:11:47.446Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T07:58:23.020Z",
+      "at": "2026-10-12T08:11:47.770Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T07:58:23.190Z",
-      "items": 5
+      "at": "2026-10-12T08:11:48.378Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T07:58:23.309Z",
+      "at": "2026-10-12T08:11:48.591Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2275,12 +2275,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T07:58:18.613Z",
+      "at": "2026-10-12T08:11:42.097Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T07:58:23.729Z",
+      "at": "2026-10-12T08:11:49.173Z",
       "items": 0
     },
     "hcg": {
@@ -2291,32 +2291,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T07:58:24.971Z",
+      "at": "2026-10-12T08:11:50.660Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T07:58:25.189Z",
+      "at": "2026-10-12T08:11:50.950Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T07:58:25.486Z",
+      "at": "2026-10-12T08:11:51.125Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T07:58:25.708Z",
+      "at": "2026-10-12T08:11:51.499Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T07:58:26.017Z",
-      "items": 5
+      "at": "2026-10-12T08:11:51.820Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T07:58:26.436Z",
+      "at": "2026-10-12T08:11:52.210Z",
       "items": 15
     }
   },
@@ -2438,15 +2438,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T07:58:30.030Z",
-    "considered": 5,
+    "at": "2026-10-12T08:11:58.059Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Tempi Trial Testimony From Victims’ Relatives Resumes With 25 Witnesses",
-      "· gct | Bank of Cyprus Acquisitions Target Greek Insurers 13 Years After Crisis Exit",
-      "· gct | Greece Sets Social Media Age Limit of 15 as Ministers Present Bill",
-      "· naftemporiki | ΔΝΤ: «Τσουνάμι που κινείται αργά» η τεχνητή νοημοσύνη για την αγορά εργασίας και τη φορολο",
-      "· gct | Athens Rental Shortage Deepens as Listings Fall up to 26.9% in a Year"
+      "· ingr | Όταν η γήρανση συναντά τη φτώχεια: Αποκαλυπτική έρευνα για τη Δυτική Ελλάδα",
+      "· gn-iefimerida | Διαδοχικά κύματα κακοκαιρίας με βροχές και καταιγίδες όλη την εβδομάδα -«Βουτιά» της θερμο"
     ]
   },
   "evergreenDone": [
