@@ -1,6 +1,7 @@
 // Φόρμες επαφής: σύμβουλος ακινήτων, «Ρωτήστε τον ειδικό», αναφορά λάθους, γνώμη, διαφημιστές, επιχειρήσεις, GDPR.
 // Κάθε επαφή μπαίνει στο CRM (λίστα επαφών Brevo) και ειδοποιεί αμέσως την εταιρεία με email και Telegram.
 import { json, clean, validEmail, readBody, sameOrigin, brevo, telegram, escHtml, withDefaults } from "../../lib/forms.js";
+import { srcText } from "./click.js";
 import { cleanRegions, signToken, ALERT_REGIONS } from "../../lib/alerts.js";
 
 const KINDS = {
@@ -66,7 +67,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
 
   const lines = [
     ["Είδος", KINDS[kind]], ["Όνομα", d.name], ["Email", d.email], ["Τηλέφωνο", d.phone], ["Περιοχή", d.area], ["Προϋπολογισμός", d.budget],
-    ["Μήνυμα", d.message], ["Άρθρο", d.article], ["Σελίδα", d.page], ["Ήρθε από", d.referrer], ["Χώρα / πόλη", [d.country, d.city].filter(Boolean).join(" / ")], ["Γλώσσα", d.lang], ["Ώρα", d.at],
+    ["Μήνυμα", d.message], ["Άρθρο", d.article], ["Σελίδα", d.page], ["Πηγή επισκέπτη", b.src ? srcText(b.src) : ""], ["Πρώτη σελίδα", b.src && b.src.l ? clean(b.src.l, 200) : ""], ["Σελίδες που είδε", b.src && b.src.pv ? String(Math.min(+b.src.pv || 0, 999)) : ""], ["Ήρθε από", d.referrer], ["Χώρα / πόλη", [d.country, d.city].filter(Boolean).join(" / ")], ["Γλώσσα", d.lang], ["Ώρα", d.at],
   ].filter(([, v]) => v);
 
   const jobs = [];

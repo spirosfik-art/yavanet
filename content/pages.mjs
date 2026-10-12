@@ -93,7 +93,7 @@ Leave your details and we will send you an offer.` },
 
 ## עם מי אנחנו משתפים
 
-ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Telegram (התראה פנימית לצוות שלנו כשמגיעה פנייה), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) Microsoft Clarity (רק בהסכמה) ו-Meta Pixel של פייסבוק (מדידת ביקורים ופניות מהמודעות שלנו ויצירת קהלים לפרסום, רק בהסכמה לעוגיות פרסום). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
+ספקים שעובדים בשבילנו: Cloudflare (אחסון, אבטחה ו-Web Analytics: ספירת ביקורים אנונימית בלי עוגיות ובלי מידע מזהה), Brevo (ניוזלטר ופניות), Telegram (התראה פנימית לצוות שלנו כשמגיעה פנייה או כשלוחצים על כפתור וואטסאפ: העמוד, מאיפה הגעתם לאתר, מדינה וסוג מכשיר, בלי שם, בלי מספר טלפון ובלי כתובת IP. לשם כך הדפדפן שומר את מקור ההגעה רק לזמן הגלישה, ב-sessionStorage, והוא נמחק כשסוגרים את הלשונית), Google Analytics (מדידה סטטיסטית: בלי הסכמה נשלחים רק אותות אנונימיים בלי עוגיות ובלי מזהים; עוגיות רק בהסכמה) Microsoft Clarity (רק בהסכמה) ו-Meta Pixel של פייסבוק (מדידת ביקורים ופניות מהמודעות שלנו ויצירת קהלים לפרסום, רק בהסכמה לעוגיות פרסום). חלקם עשויים לעבד מידע מחוץ לאיחוד האירופי, עם אמצעי הגנה מתאימים. איננו מוכרים מידע אישי.
 
 ## כמה זמן שומרים
 
@@ -127,7 +127,7 @@ Leave your details and we will send you an offer.` },
 
 ## Who we share with
 
-Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Telegram (internal alert to our team when a request arrives), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) Microsoft Clarity (only with consent) and the Meta (Facebook) Pixel (measuring visits and enquiries from our ads and building advertising audiences, only with consent to advertising cookies). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
+Providers working for us: Cloudflare (hosting, security and Web Analytics: anonymous visit counts without cookies or identifying data), Brevo (newsletter and requests), Telegram (internal alert to our team when a request arrives or a WhatsApp button is tapped: the page, how you reached the site, country and device type, with no name, phone number or IP address. For this your browser keeps the traffic source only for the browsing session, in sessionStorage, and it is deleted when you close the tab), Google Analytics (statistics: without consent only anonymous signals are sent, with no cookies or identifiers; cookies only with consent) Microsoft Clarity (only with consent) and the Meta (Facebook) Pixel (measuring visits and enquiries from our ads and building advertising audiences, only with consent to advertising cookies). Some may process data outside the EU, with appropriate safeguards. We never sell personal data.
 
 ## How long we keep it
 

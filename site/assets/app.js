@@ -1,3 +1,13 @@
+
+/* ---------- Πηγή επισκέπτη (πρώτη επαφή στη συνεδρία) για τις ειδοποιήσεις WhatsApp/φορμών ---------- */
+(function(){try{
+  var q=new URLSearchParams(location.search),k="yv_src",cur=null;try{cur=JSON.parse(sessionStorage.getItem(k)||"null")}catch(e){}
+  var ext=document.referrer&&document.referrer.indexOf(location.host)<0;
+  if(!cur||q.get("utm_source")){cur={s:q.get("utm_source")||(q.get("fbclid")?"facebook":""),m:q.get("utm_medium")||"",c:q.get("utm_campaign")||"",r:ext?document.referrer.slice(0,120):"",l:location.pathname,pv:0}}
+  cur.pv=(cur.pv||0)+1;sessionStorage.setItem(k,JSON.stringify(cur));
+}catch(e){}})();
+window.yvSrc=function(){try{return JSON.parse(sessionStorage.getItem("yv_src")||"null")}catch(e){return null}};
+window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=JSON.stringify({to:to,btn:btn||"",listing:listing||"",page:location.pathname,title:document.title.slice(0,120),lang:(document.documentElement.lang||"he").slice(0,2),src:src,pv:src.pv||0});var bl=new Blob([body],{type:"application/json"});if(!(navigator.sendBeacon&&navigator.sendBeacon("/api/click",bl)))fetch("/api/click",{method:"POST",headers:{"content-type":"application/json"},body:body,keepalive:true})}catch(e){}};
 /* Yavanet – client script: ουρανός, stories, feed, cookies, φόρμες, εργαλεία, widgets */
 (function () {
   "use strict";
@@ -298,6 +308,7 @@
     var lst = el.closest("[data-listing]"), lid = lst ? lst.getAttribute("data-listing") : "";
     if (lst && !waNum) track("listing_click", { listing_id: lid, action: lst.getAttribute("data-act") || "open" });
     if (waNum) track("whatsapp_click", lid ? { to: WHO[waNum] || waNum, listing_id: lid } : { to: WHO[waNum] || waNum });
+    if (waNum) { var bEl = el.closest("[data-out],.wafloat,.askwa,.tlvwa,.btn,a"); var bName = (bEl && (bEl.getAttribute("data-out") || (bEl.className && String(bEl.className).split(" ")[0]))) || "link"; var bTxt = ((el.textContent || "").trim()).slice(0, 40); window.yvClick(WHO[waNum] || waNum, bName + (bTxt ? " «" + bTxt + "»" : ""), lid); }
     if (href.indexOf("tel:") === 0) { var tn = href.replace(/\D/g, ""); track("phone_click", { to: WHO[tn] || tn }); }
     if (href.indexOf("mailto:") === 0) track("email_click", { to: href.slice(7).split("?")[0] });
   });
@@ -362,12 +373,12 @@
       var email = $("#ag-em").value.trim(), service = $("#ag-sv").value, ok = $("#ag-ok").checked;
       if (!/^\S+@\S+\.\S+$/.test(email) || !service || !ok) { st.textContent = T.bad; return; }
       var b = $("button[type=submit]", f); b.disabled = true;
-      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "asi-contact", email: email, service: service, consent: 1, mode: mode, lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", website: f.website.value }) })
+      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "asi-contact", email: email, service: service, consent: 1, mode: mode, lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", src: window.yvSrc(), website: f.website.value }) })
         .then(function (r) { if (!r.ok) throw 0; return r.json(); })
         .then(function (res) {
           track("generate_lead", { kind: "asi-contact", service: service });
           if (mode === "tel" && res.tel) { st.innerHTML = '<a dir="ltr" href="tel:' + esc(res.tel.replace(/[^+\d]/g, "")) + '" style="font-size:20px;font-weight:700">' + esc(res.tel) + '</a>'; track("phone_click", { to: "Asi Doron" }); b.disabled = false; return; }
-          if (res.wa) { track("whatsapp_click", { to: "Asi Doron" }); location.href = res.wa; setTimeout(close, 800); return; }
+          if (res.wa) { track("whatsapp_click", { to: "Asi Doron" }); window.yvClick("Asi Doron", "πύλη Άσι (" + service + ")"); location.href = res.wa; setTimeout(close, 800); return; }
           throw 0;
         })
         .catch(function () { st.textContent = T.err; b.disabled = false; });
@@ -423,7 +434,7 @@
         var email = $("#yw-email").value.trim();
         if (!/^\S+@\S+\.\S+$/.test(email) || !$("#yw-ok").checked) { st.textContent = L.nlBad || (he ? "צריך מייל תקין והסכמה." : "Enter a valid email and tick the box."); return; }
         var b = $("button[type=submit]", f); b.disabled = true;
-        fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: email, consent: "on", lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", source: "welcome-popup", website: f.website.value }) })
+        fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: email, consent: "on", lang: he ? "he" : "en", page: location.pathname, referrer: document.referrer || "", src: window.yvSrc(), source: "welcome-popup", website: f.website.value }) })
           .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
           .then(function (res) { lsSet("yv_nl", "1"); track("newsletter_signup", { kind: "welcome-popup" }); f.innerHTML = '<p style="margin:0;font-weight:700">' + esc(res && res.direct ? L.nlOkDirect : L.nlOk) + "</p>"; setTimeout(close, 6000); })
           .catch(function () { st.textContent = L.formErr || "Error"; b.disabled = false; });
@@ -450,7 +461,7 @@
       var lv = $("input[name=level]:checked", f), strike = f.strike && f.strike.checked;
       if (!/^\S+@\S+\.\S+$/.test(email) || !regions.length || !f.consent.checked) { st.textContent = M.bad; return; }
       var b = $("button[type=submit]", f); b.disabled = true;
-      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "weather-alert", email: email, regions: regions, level: lv ? lv.value : "severe", strike: strike ? 1 : 0, consent: 1, lang: C.lang === "en" ? "en" : "he", page: location.pathname, referrer: document.referrer || "", website: f.website.value }) })
+      fetch("/api/lead", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ kind: "weather-alert", email: email, regions: regions, level: lv ? lv.value : "severe", strike: strike ? 1 : 0, consent: 1, lang: C.lang === "en" ? "en" : "he", page: location.pathname, referrer: document.referrer || "", src: window.yvSrc(), website: f.website.value }) })
         .then(function (r) { if (!r.ok) throw 0; st.textContent = M.ok; toast(M.ok); f.email.value = "";
           track("alert_signup", { type: "weather", regions: regions.join(","), level: lv ? lv.value : "severe" });
           if (strike) track("alert_signup", { type: "strike", source: "weather-form" }); })
@@ -473,7 +484,7 @@
       var isNl = f.getAttribute("data-kind") === "newsletter";
       var okEmail = /^\S+@\S+\.\S+$/.test(data.email || "");
       if (!okEmail || !data.consent || (!isNl && !data.name)) return toast(isNl ? L.nlBad : L.formBad);
-      data.page = location.pathname; data.referrer = document.referrer || ""; if (f.getAttribute("data-source")) data.source = f.getAttribute("data-source");
+      data.page = location.pathname; data.referrer = document.referrer || ""; data.src = window.yvSrc(); if (f.getAttribute("data-source")) data.source = f.getAttribute("data-source");
       var st = $(".status", f); var btn = $("button[type=submit]", f); btn.disabled = true;
       fetch(f.getAttribute("data-api"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
