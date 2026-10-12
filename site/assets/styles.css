@@ -1629,3 +1629,8 @@ a{text-underline-offset:.18em;text-decoration-thickness:from-font}
 }
 @media (prefers-reduced-motion:reduce){.door,.door .dgo{transition:none}}
 .wxi .ic,.wxd .ic{margin:0;width:1.25em;height:1.25em;vertical-align:-.25em}
+/* Κόκκινη ετικέτα μόνο για επείγοντα· οι άλλες ήρεμες, για να ξεχωρίζει το επείγον */
+.alert-tag.soft{background:var(--chip);color:var(--aegean)}
+/* Λωρίδα καταστημάτων: η κατάσταση στο εικονίδιο, όχι σε χρωματιστή πλαϊνή μπάρα */
+.hol-strip.hs-o,.hol-now.hs-o,.hol-strip.hs-c,.hol-now.hs-c,.hol-strip.hs-s,.hol-now.hs-s{border-inline-start:1px solid rgba(14,92,140,.18)}
+.hol-strip.hs-o .hs-ic{color:#1e9e5a}.hol-strip.hs-c .hs-ic{color:#d6293e}.hol-strip.hs-s .hs-ic{color:#B9771A}
