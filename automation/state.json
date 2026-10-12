@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "4addbe03a4e1": 1790636466851,
-    "6a1824eeae34": 1790636466851,
-    "62ff0cd47f38": 1790636466851,
     "94569122f2df": 1790637739950,
     "f5ae358979a1": 1790637739950,
     "699633367811": 1790641809287,
@@ -2235,7 +2232,8 @@
     "6289cf9a2cb8": 1791843918513,
     "3575a7ec6970": 1791845642989,
     "420932bc04d1": 1791845642989,
-    "95215981d6b2": 1791845642989
+    "95215981d6b2": 1791845642989,
+    "62a9ce7e9e2c": 1791846216360
   },
   "pending": {},
   "sourceStatus": {
@@ -2247,12 +2245,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T22:53:50.384Z",
-      "items": 10
+      "at": "2026-10-12T23:03:24.039Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T22:53:51.202Z",
+      "at": "2026-10-12T23:03:24.853Z",
       "items": 3
     },
     "civilprotection": {
@@ -2263,27 +2261,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T22:53:53.388Z",
+      "at": "2026-10-12T23:03:27.071Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T22:53:53.867Z",
+      "at": "2026-10-12T23:03:27.502Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T22:53:54.950Z",
+      "at": "2026-10-12T23:03:28.618Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T22:53:55.730Z",
+      "at": "2026-10-12T23:03:29.662Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T22:53:56.778Z",
+      "at": "2026-10-12T23:03:30.319Z",
       "items": 10
     },
     "toi-greece": {
@@ -2294,22 +2292,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T22:53:57.386Z",
+      "at": "2026-10-12T23:03:30.871Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T22:53:57.614Z",
+      "at": "2026-10-12T23:03:31.026Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T22:53:58.233Z",
-      "items": 4
+      "at": "2026-10-12T23:03:31.657Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:53:58.754Z",
+      "at": "2026-10-12T23:03:32.207Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2319,12 +2317,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:53:51.846Z",
+      "at": "2026-10-12T23:03:25.275Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T22:53:59.587Z",
+      "at": "2026-10-12T23:03:32.870Z",
       "items": 0
     },
     "hcg": {
@@ -2335,33 +2333,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T22:54:01.082Z",
+      "at": "2026-10-12T23:03:34.141Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T22:54:01.338Z",
+      "at": "2026-10-12T23:03:34.330Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T22:54:01.473Z",
+      "at": "2026-10-12T23:03:34.516Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T22:54:01.643Z",
+      "at": "2026-10-12T23:03:34.742Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T22:54:01.977Z",
+      "at": "2026-10-12T23:03:35.067Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T22:54:02.404Z",
-      "items": 8
+      "at": "2026-10-12T23:03:35.499Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2467,13 +2465,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T22:54:02.989Z",
-    "considered": 3,
+    "at": "2026-10-12T23:03:36.360Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | US NATO Envoy Calls for Faster Military Movements to Eastern Europe",
-      "· gct | Greece, Albania and North Macedonia Plan New Cultural Initiatives",
-      "· gct | Teenager Shoots Headmaster and Teacher at French School"
+      "· gct | Anna Vissi Camp Accuses Nikos Karvelas of Blackmail"
     ]
   },
   "evergreenDone": [
