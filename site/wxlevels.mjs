@@ -119,13 +119,16 @@ export function wxLevelPage(lang, p, ctx) {
 
   /* ---- Τίτλοι ---- */
   const title = isColour
-    ? L(`${p.he.name}: מה זה אומר ומה עושים`, `${p.en.name}: what it means and what to do`)
-    : L(`${p.he.name} ביוון: מה זה אומר ומה עושים`, `${p.en.name} in Greece: what it means`);
-  const description = isColour
+    ? L(`${p.he.name}: האזהרות האחרונות ומה עושים`, `${p.en.name}: latest warnings and what to do`)
+    : L(`${p.he.name} ביוון: האזהרות האחרונות ומה עושים`, `${p.en.name} in Greece: latest warnings`);
+  // Η πιο πρόσφατη σχετική προειδοποίηση μπαίνει στην αρχή της περιγραφής (φαίνεται στη Google και αλλάζει με κάθε νέα)
+  const top = related(p, wxArts)[0];
+  const upd = top ? (() => { const d = new Date(top.updatedAt || top.publishedAt); const t = (top[lang] && top[lang].title) || ""; return L(`עדכון ${d.getUTCDate()}.${d.getUTCMonth() + 1}: ${t.slice(0, 70)}. `, `Update ${d.getUTCDate()}/${d.getUTCMonth() + 1}: ${t.slice(0, 70)}. `); })() : "";
+  const description = upd + (isColour
     ? L(`מה זו אזהרה ${lv.heF} (${lv.sev}) של שירות המטאורולוגיה היווני ו-MeteoAlarm, מה עושים בגשם, סערה או רוח, מה קורה למעבורות, לטיסות ולבתי הספר, והאזהרות האחרונות.`,
         `What a ${lv.en.toLowerCase()} (${lv.sev}) weather warning from Greece's met service and MeteoAlarm means, what to do, what happens to ferries, flights and schools, plus the latest warnings.`)
     : L(`${p.he.name} ביוון היא אזהרה ${lv.heF} (${lv.sev}). מה זה אומר, מה עושים, מה קורה למעבורות ולטיסות, הודעות 112 והאזהרות האחרונות על ${phHe}.`,
-        `A ${p.en.name.toLowerCase()} in Greece is a ${lv.en.toLowerCase()} (${lv.sev}) warning. What it means, what to do, ferries, flights, 112 alerts and the latest ${phEn} warnings.`);
+        `A ${p.en.name.toLowerCase()} in Greece is a ${lv.en.toLowerCase()} (${lv.sev}) warning. What it means, what to do, ferries, flights, 112 alerts and the latest ${phEn} warnings.`));
 
   /* ---- Τι σημαίνει ---- */
   const meaning = `<div class="wx-status${p.level === "yellow" ? "" : " on"}"><b>${p.icon} ${esc(isColour ? L(`אזהרה ${lv.heF} = רמה ${lv.sevHe} (${lv.sev})`, `${lv.en} warning = ${lv.sev} level`) : L(`${p.he.name} = אזהרה ${lv.heF}`, `${p.en.name} = ${lv.en.toLowerCase()} warning`))}</b><span>${esc(he ? lv.defHe : lv.defEn)}</span></div>
