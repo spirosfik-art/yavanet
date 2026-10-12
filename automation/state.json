@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "9f667ae4c48e": 1790634136395,
-    "c73aa2ebf4eb": 1790634136395,
     "c7c39a658658": 1790634878760,
     "8d5154641b35": 1790634878760,
     "8f9b03e713fe": 1790634878760,
@@ -2243,7 +2241,9 @@
     "de8d3c3bd424": 1791842006215,
     "aefc861767b7": 1791842585840,
     "482d81250632": 1791842585840,
-    "17f86709a425": 1791842585840
+    "17f86709a425": 1791842585840,
+    "ffe6b24727ee": 1791843918513,
+    "6289cf9a2cb8": 1791843918513
   },
   "pending": {},
   "sourceStatus": {
@@ -2255,12 +2255,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T22:02:42.725Z",
-      "items": 10
+      "at": "2026-10-12T22:25:07.354Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T22:02:43.709Z",
+      "at": "2026-10-12T22:25:08.351Z",
       "items": 3
     },
     "civilprotection": {
@@ -2271,27 +2271,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T22:02:46.251Z",
-      "items": 34
+      "at": "2026-10-12T22:25:10.499Z",
+      "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T22:02:56.181Z",
+      "at": "2026-10-12T22:25:10.765Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T22:02:57.218Z",
+      "at": "2026-10-12T22:25:11.544Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T22:02:58.206Z",
-      "items": 2
+      "at": "2026-10-12T22:25:12.274Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T22:02:59.090Z",
+      "at": "2026-10-12T22:25:12.731Z",
       "items": 10
     },
     "toi-greece": {
@@ -2302,22 +2302,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T22:02:59.724Z",
+      "at": "2026-10-12T22:25:13.163Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T22:02:59.989Z",
+      "at": "2026-10-12T22:25:13.258Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T22:03:00.438Z",
+      "at": "2026-10-12T22:25:13.359Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:03:00.977Z",
+      "at": "2026-10-12T22:25:13.495Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2327,12 +2327,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T22:02:44.267Z",
+      "at": "2026-10-12T22:25:09.295Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T22:03:01.591Z",
+      "at": "2026-10-12T22:25:13.932Z",
       "items": 0
     },
     "hcg": {
@@ -2343,32 +2343,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T22:03:03.535Z",
+      "at": "2026-10-12T22:25:16.042Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T22:03:03.736Z",
+      "at": "2026-10-12T22:25:16.281Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T22:03:03.871Z",
+      "at": "2026-10-12T22:25:16.550Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T22:03:04.082Z",
+      "at": "2026-10-12T22:25:16.844Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T22:03:04.421Z",
-      "items": 8
+      "at": "2026-10-12T22:25:17.328Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T22:03:04.828Z",
+      "at": "2026-10-12T22:25:17.780Z",
       "items": 8
     }
   },
@@ -2475,13 +2475,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T22:03:05.840Z",
-    "considered": 3,
-    "picked": 1,
+    "at": "2026-10-12T22:25:18.513Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "✓ gct | Greece Seeks Tighter Controls to Address Medicine Shortages",
-      "· gct | Greek Alphabet May Be Older Than Previously Thought",
-      "· gct | US Vice President JD Vance Expected in Athens for Breitbart Summit"
+      "· gct | Lefteris Pantazis Sparks Social Media Reactions Over New Video",
+      "· gct | Scottish Tourist Seriously Injured in Balcony Fall in Rhodes as Family Raises £12,000 for "
     ]
   },
   "evergreenDone": [
