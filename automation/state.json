@@ -1,10 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "e32b3ab226b0": 1790591181735,
-    "357cfe4e31aa": 1790591181735,
-    "359117f2aeeb": 1790591181735,
-    "b76d826ca829": 1790591181735,
     "191175fced99": 1790591849122,
     "a517736add3f": 1790592707118,
     "38ddbc27299c": 1790592707118,
@@ -2223,7 +2219,10 @@
     "1db4f5d7dbab": 1791799819260,
     "85654282d83a": 1791799819260,
     "39249fa8d0bd": 1791799819260,
-    "21a0da9a08e7": 1791799819260
+    "21a0da9a08e7": 1791799819260,
+    "d1a19ea442b6": 1791800949809,
+    "e5c4c4b26447": 1791800949809,
+    "013c8a36605f": 1791800949809
   },
   "pending": {},
   "sourceStatus": {
@@ -2235,12 +2234,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T10:10:04.692Z",
-      "items": 10
+      "at": "2026-10-12T10:28:57.393Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T10:10:05.483Z",
+      "at": "2026-10-12T10:28:58.463Z",
       "items": 4
     },
     "civilprotection": {
@@ -2251,27 +2250,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T10:10:07.656Z",
+      "at": "2026-10-12T10:29:00.280Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T10:10:07.862Z",
+      "at": "2026-10-12T10:29:00.639Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T10:10:09.099Z",
+      "at": "2026-10-12T10:29:01.809Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T10:10:09.910Z",
+      "at": "2026-10-12T10:29:02.625Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T10:10:10.826Z",
+      "at": "2026-10-12T10:29:03.551Z",
       "items": 10
     },
     "toi-greece": {
@@ -2282,23 +2281,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T10:10:11.400Z",
+      "at": "2026-10-12T10:29:04.074Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T10:10:11.803Z",
-      "items": 14
+      "at": "2026-10-12T10:29:04.258Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T10:10:12.739Z",
+      "at": "2026-10-12T10:29:04.977Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T10:10:12.931Z",
-      "items": 10
+      "at": "2026-10-12T10:29:05.142Z",
+      "items": 9
     },
     "ynet-greece": {
       "ok": true,
@@ -2307,12 +2306,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T10:10:06.402Z",
+      "at": "2026-10-12T10:28:59.084Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T10:10:13.621Z",
+      "at": "2026-10-12T10:29:05.872Z",
       "items": 0
     },
     "hcg": {
@@ -2323,33 +2322,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T10:10:16.969Z",
-      "items": 1
+      "at": "2026-10-12T10:29:07.588Z",
+      "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T10:10:17.208Z",
+      "at": "2026-10-12T10:29:07.832Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T10:10:17.375Z",
+      "at": "2026-10-12T10:29:08.041Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T10:10:17.608Z",
+      "at": "2026-10-12T10:29:08.294Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T10:10:17.924Z",
-      "items": 7
+      "at": "2026-10-12T10:29:08.622Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T10:10:18.327Z",
-      "items": 14
+      "at": "2026-10-12T10:29:09.121Z",
+      "items": 13
     }
   },
   "tgOffset": 829774786,
@@ -2510,18 +2509,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T10:10:19.261Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-10-12T10:29:09.809Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· gct | Sakkari Gets the Better of a Friend",
-      "· ktg | Foreign ministry urges Greek citizens to avoid traveling to Saudi Arabia",
-      "· naftemporiki | Πώς και πού θα δοθούν τα 11 δισ. ευρώ του Προγράμματος Δημοσίων Επενδύσεων το 2027",
-      "· naftemporiki | Μετά τη Γαλλία, ποιος; Οι τιμωροί των ομολόγων ετοιμάζουν το επόμενο χτύπημα",
-      "✓ strikes-naftemporiki | ΑΔΕΔΥ: 24ωρη πανελλαδική απεργία στις 25 Νοεμβρίου",
-      "✓ naftemporiki | ΑΔΕΔΥ: 24ωρη πανελλαδική απεργία στις 25 Νοεμβρίου",
-      "· gn-kathimerini | Βέλγιο: Απεργία παραλύει τον δημόσιο τομέα - Kathimerini",
-      "· gn-kathimerini | ΑΔΕΔΥ: 24ωρη πανελλαδική απεργία στις 25 Νοεμβρίου - Kathimerini"
+      "· ktg | Athens marks 82. anniversary of Liberation from Nazi occupation",
+      "· gct | Kypseli Subsidence Gives No Reason to Evacuate Buildings, Minister Says",
+      "· gn-kathimerini | Δίκη για τα Τέμπη: Απαντήσεις για τη φωτιά ζητεί η οικογένεια του Ιορδάνη Αδαμάκη - Kathim"
     ]
   },
   "evergreenDone": [
