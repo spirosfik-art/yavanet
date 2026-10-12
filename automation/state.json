@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "6124e92da850": 1790631295854,
     "9f667ae4c48e": 1790634136395,
     "c73aa2ebf4eb": 1790634136395,
     "c7c39a658658": 1790634878760,
@@ -2233,7 +2232,11 @@
     "e29ee525670c": 1791839389787,
     "053a960dd57e": 1791840299831,
     "4a9667557118": 1791840299831,
-    "7765fa78bfbc": 1791840299831
+    "7765fa78bfbc": 1791840299831,
+    "6ac331dbc592": 1791841180357,
+    "43165fb2f661": 1791841180357,
+    "d18d64ea5245": 1791841180357,
+    "1d58bb818c74": 1791841180357
   },
   "pending": {},
   "sourceStatus": {
@@ -2245,12 +2248,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T21:24:45.528Z",
-      "items": 0
+      "at": "2026-10-12T21:39:16.835Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T21:24:46.292Z",
+      "at": "2026-10-12T21:39:17.615Z",
       "items": 3
     },
     "civilprotection": {
@@ -2261,27 +2264,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T21:24:48.089Z",
+      "at": "2026-10-12T21:39:20.298Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T21:24:48.289Z",
+      "at": "2026-10-12T21:39:31.512Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T21:24:49.559Z",
+      "at": "2026-10-12T21:39:32.577Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T21:24:50.402Z",
+      "at": "2026-10-12T21:39:33.411Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T21:24:51.304Z",
+      "at": "2026-10-12T21:39:34.325Z",
       "items": 10
     },
     "toi-greece": {
@@ -2292,22 +2295,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T21:24:51.907Z",
+      "at": "2026-10-12T21:39:34.676Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T21:24:53.020Z",
+      "at": "2026-10-12T21:39:35.087Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T21:24:53.557Z",
-      "items": 5
+      "at": "2026-10-12T21:39:35.736Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:24:53.739Z",
+      "at": "2026-10-12T21:39:35.909Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2317,12 +2320,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:24:46.684Z",
+      "at": "2026-10-12T21:39:18.521Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T21:24:54.529Z",
+      "at": "2026-10-12T21:39:36.690Z",
       "items": 0
     },
     "hcg": {
@@ -2333,32 +2336,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T21:24:57.505Z",
+      "at": "2026-10-12T21:39:38.275Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T21:24:57.797Z",
+      "at": "2026-10-12T21:39:38.524Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T21:24:57.999Z",
+      "at": "2026-10-12T21:39:38.740Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T21:24:58.209Z",
+      "at": "2026-10-12T21:39:38.904Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T21:24:58.598Z",
+      "at": "2026-10-12T21:39:39.236Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T21:24:59.097Z",
+      "at": "2026-10-12T21:39:39.646Z",
       "items": 8
     }
   },
@@ -2459,13 +2462,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T21:24:59.831Z",
-    "considered": 3,
+    "at": "2026-10-12T21:39:40.357Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Kimberly Guilfoyle Rejects Misconduct Allegations as Scrutiny Grows",
-      "· ingr | ΕΕ: Αναθεωρεί τη λίστα των φορολογικών παραδείσων",
-      "· gct | Mykonos and Five Other Islands Tackle a Costly Old Problem"
+      "· gct | Greek Food Spending Reaches €25.7 Billion as Habits Shift",
+      "· gct | Greece and Germany Exhibition Examines Wartime Archaeology",
+      "· gct | Cavo Paradiso Mykonos Documentary to Make US Premiere at New York Greek Film Expo",
+      "· gct | Nazi Flag In Acropolis Poster Triggers Greek Outrage"
     ]
   },
   "evergreenDone": [
