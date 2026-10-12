@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "a6deb7382fbd": 1790629362415,
-    "014646afdd89": 1790629362415,
     "f55ffd93de0e": 1790630619120,
     "d8c5a974b447": 1790630619120,
     "b33041705ce1": 1790630619120,
@@ -2234,7 +2232,8 @@
     "c19faf83ff1b": 1791836875989,
     "ddab8c988f39": 1791837848177,
     "db5acfa30a1b": 1791837848177,
-    "20c84a4c7625": 1791838753799
+    "20c84a4c7625": 1791838753799,
+    "e29ee525670c": 1791839389787
   },
   "pending": {},
   "sourceStatus": {
@@ -2246,12 +2245,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T20:59:01.439Z",
+      "at": "2026-10-12T21:09:35.926Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T20:59:02.388Z",
+      "at": "2026-10-12T21:09:36.898Z",
       "items": 3
     },
     "civilprotection": {
@@ -2262,27 +2261,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T20:59:04.806Z",
+      "at": "2026-10-12T21:09:39.732Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T20:59:05.262Z",
+      "at": "2026-10-12T21:09:40.404Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T20:59:06.284Z",
+      "at": "2026-10-12T21:09:41.750Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T20:59:07.051Z",
+      "at": "2026-10-12T21:09:42.568Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T20:59:08.019Z",
+      "at": "2026-10-12T21:09:43.500Z",
       "items": 10
     },
     "toi-greece": {
@@ -2293,22 +2292,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T20:59:08.626Z",
+      "at": "2026-10-12T21:09:44.132Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-10-12T20:59:08.847Z",
-      "items": 15
+      "ok": false,
+      "at": "2026-10-12T21:09:44.548Z",
+      "error": "HTTP 520",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T20:59:09.157Z",
+      "at": "2026-10-12T21:09:44.919Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T20:59:09.623Z",
+      "at": "2026-10-12T21:09:45.195Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2318,12 +2318,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T20:59:03.350Z",
+      "at": "2026-10-12T21:09:37.436Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T20:59:10.300Z",
+      "at": "2026-10-12T21:09:45.864Z",
       "items": 0
     },
     "hcg": {
@@ -2334,203 +2334,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T20:59:11.611Z",
+      "at": "2026-10-12T21:09:47.092Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T20:59:11.804Z",
+      "at": "2026-10-12T21:09:47.488Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T20:59:11.946Z",
+      "at": "2026-10-12T21:09:47.788Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T20:59:12.212Z",
+      "at": "2026-10-12T21:09:48.100Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T20:59:12.530Z",
+      "at": "2026-10-12T21:09:48.529Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T20:59:12.919Z",
+      "at": "2026-10-12T21:09:49.019Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-12",
-    "count": 9,
-    "published": [
-      {
-        "slug": "gkrava-schools-closed-athens-gas-odour",
-        "title": "Athens Schools Stay Closed for Online Learning Due to Gas Odour",
-        "at": "2026-10-12T02:37:31+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "woman-rescued-after-20-hours-mediterranean",
-        "title": "Woman rescued alive after nearly 20 hours in the Mediterranean sea near Greece",
-        "at": "2026-10-12T04:44:44+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-metro-line-3-evening-closures",
-        "title": "↻ Athens Metro Line 3: Evening Station Closures Announced",
-        "at": "2026-10-12T08:29:13+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "thessaloniki-industrial-real-estate-projects",
-        "title": "New Real Estate Projects Transform Thessaloniki's Industrial Sites",
-        "at": "2026-10-12T11:58:33+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greek-investment-surges-real-estate-leads",
-        "title": "Greek Investment Surges as Real Estate Leads Growth",
-        "at": "2026-10-12T11:58:48+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greek-investment-surges-real-estate-leads",
-        "title": "↻ Greek Real Estate Boom: Athens Exchange Property Firms Report Strong Growth",
-        "at": "2026-10-12T12:11:15+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "bank-of-greece-housing-market-2026",
-        "title": "Why Greek house prices continue to rise despite market slowdown",
-        "at": "2026-10-12T12:41:45+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "adedy-24-hour-general-strike-november-25",
-        "title": "General Strike in Greece: Public Sector to Stop Work on November 25",
-        "at": "2026-10-12T13:11:14+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-weather-storm-snow-marousakis",
-        "title": "↻ Severe weather in Greece: Flooding in Lesbos and heavy rain in Rhodes",
-        "at": "2026-10-12T14:47:03+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-storm-snow-marousakis",
-        "title": "↻ Mykonos: Impressive waterspout spotted at sea as bad weather approaches",
-        "at": "2026-10-12T15:44:00+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "Orange Rain Warning Issued for East Sterea and Evvoia",
-        "at": "2026-10-12T16:24:51+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-west-peloponnese",
-        "title": "Orange Thunderstorm Warning Issued for Western Peloponnese in Greece",
-        "at": "2026-10-12T16:25:45+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "thessaloniki-brush-fire-panorama",
-        "title": "Brush fire near Thessaloniki: Woman found unconscious and hospitalized",
-        "at": "2026-10-12T16:27:58+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "michalis-kouveliotis-new-ceo-aegean",
-        "title": "Michalis Kouveliotis Takes Over as AEGEAN's New CEO",
-        "at": "2026-10-12T17:34:17+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-records-fewer-road-deaths-2026",
-        "title": "Greece Records Fewer Road Deaths in First Eight Months of 2026",
-        "at": "2026-10-12T18:04:05+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "Severe weather in Greece: Storms and heavy rain forecast",
-        "at": "2026-10-12T18:45:39+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe weather worsens in Greece with heavy rain and high winds",
-        "at": "2026-10-12T20:27:54+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe weather hits Rhodes and Lesbos with heavy rain and floods",
-        "at": "2026-10-12T20:28:09+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "cvc-investment-fibrotex-israel",
-        "title": "Private equity giant CVC quietly invests in Israeli defense firm Fibrotex",
-        "at": "2026-10-12T20:36:04+03:00",
-        "section": "israelis"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Η στεγαστική κρίση μπορεί να οδηγήσει σε κοινωνική έκρηξη",
-        "reason": "Rule 8 violation: The article mistranslated '29% των νοικοκυριών' (29% of households) as 'כ-29% מהמשקיעים והתושבים' (around 29% of investors and residents) in the Hebrew tldr, and 'about 29% of urban households' in English. The source does not mention investors here.",
-        "at": "2026-10-12T05:06:33.214Z"
-      },
-      {
-        "title": "Real estate: Οι ιδιώτες μπαίνουν, οι θεσμικοί δυσκολεύονται – Πώς αλλάζει το επενδυτικό παιχνίδι",
-        "reason": "The Hebrew version includes a typo in the body text: 'פיнансові' contains Cyrillic characters ('финансови' in a mix of scripts) instead of proper Hebrew letters.",
-        "at": "2026-10-12T08:58:18.446Z"
-      },
-      {
-        "title": "Κακοκαιρία: Συστάσεις της Πολιτικής Προστασίας στους πολίτες ενόψει της επιδείνωσης του καιρού",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Flooding in Lesbos and heavy rain in Rhodes»: Mixed-script (broken) Hebrew words: תanחו. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-12T11:47:28.371Z"
-      },
-      {
-        "title": "Orange Thunderstorm Warning issued for Greece - Thessalia",
-        "reason": "The Hebrew version contains a severe typo in the word 'כתתומה' (which should be 'כתתומה' or rather 'כתום' - orange, but is misspelled repeatedly as 'כתתומה' / 'כתתומה' which is not a proper Hebrew word and contains gibberish letters).; Rule 8: The source text specifies 'Orange Thunderstorm Warning',",
-        "at": "2026-10-12T13:25:24.879Z"
-      },
-      {
-        "title": "Explosion Near Israel Lebanon Border Leaves One Dead and 19 Injured",
-        "reason": "Ουδέτερη εκδοχή: Mixed-script (broken) Hebrew words: נפafel. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-12T15:27:48.529Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "thessaloniki-industrial-real-estate-projects",
-        "at": "2026-10-12T08:58:33.942Z"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "at": "2026-10-12T13:24:54.211Z"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-west-peloponnese",
-        "at": "2026-10-12T13:25:46.271Z"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "at": "2026-10-12T15:45:40.016Z"
-      }
-    ]
+    "date": "2026-10-13",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-12",
+      "count": 9,
+      "rejected": 5
+    },
     {
       "date": "2026-10-11",
       "count": 1,
@@ -2614,11 +2460,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T20:59:13.799Z",
+    "at": "2026-10-12T21:09:49.787Z",
     "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Τσίπρας: Ζούμε ένα αόρατο μνημόνιο με το κόστος ζωής να έχει αυξηθεί έως και 100% και ο μέ"
+      "· naftemporiki | Συνελήφθη η γνωστή ηθοποιός Σέλμα Μπλερ μετά από επικίνδυνο επεισόδιο σε αεροπλάνο"
     ]
   },
   "evergreenDone": [
