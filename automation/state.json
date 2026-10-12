@@ -2190,7 +2190,10 @@
     "518cb4f78393": 1791763335577,
     "ad0bd2ca491d": 1791766997616,
     "f83a3b7d68de": 1791766997616,
-    "d5b981fca683": 1791768487264
+    "d5b981fca683": 1791768487264,
+    "3469da7f8c85": 1791769470136,
+    "0973be8a3e80": 1791769470136,
+    "5f8db2a2de29": 1791769470136
   },
   "pending": {},
   "sourceStatus": {
@@ -2202,12 +2205,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T01:27:52.036Z",
+      "at": "2026-10-12T01:44:14.056Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T01:27:53.063Z",
+      "at": "2026-10-12T01:44:14.887Z",
       "items": 6
     },
     "civilprotection": {
@@ -2218,27 +2221,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T01:27:55.890Z",
+      "at": "2026-10-12T01:44:20.255Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T01:27:56.023Z",
+      "at": "2026-10-12T01:44:20.497Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T01:27:57.656Z",
+      "at": "2026-10-12T01:44:21.572Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T01:27:58.654Z",
+      "at": "2026-10-12T01:44:22.381Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T01:27:59.318Z",
+      "at": "2026-10-12T01:44:23.431Z",
       "items": 10
     },
     "toi-greece": {
@@ -2249,22 +2252,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T01:27:59.916Z",
+      "at": "2026-10-12T01:44:24.028Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T01:28:00.206Z",
+      "at": "2026-10-12T01:44:25.144Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T01:28:01.091Z",
+      "at": "2026-10-12T01:44:25.528Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T01:28:01.613Z",
+      "at": "2026-10-12T01:44:25.721Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2274,12 +2277,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T01:27:54.068Z",
+      "at": "2026-10-12T01:44:15.544Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T01:28:02.476Z",
+      "at": "2026-10-12T01:44:26.519Z",
       "items": 0
     },
     "hcg": {
@@ -2290,44 +2293,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T01:28:04.281Z",
+      "at": "2026-10-12T01:44:28.145Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T01:28:04.470Z",
+      "at": "2026-10-12T01:44:28.341Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T01:28:04.803Z",
+      "at": "2026-10-12T01:44:28.488Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T01:28:04.936Z",
+      "at": "2026-10-12T01:44:28.639Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T01:28:05.250Z",
+      "at": "2026-10-12T01:44:28.911Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T01:28:06.474Z",
+      "at": "2026-10-12T01:44:29.288Z",
       "items": 14
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-12",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "gkrava-schools-closed-athens-gas-odour",
         "title": "Athens Schools Stay Closed for Online Learning Due to Gas Odour",
         "at": "2026-10-12T02:37:31+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "woman-rescued-after-20-hours-mediterranean",
+        "title": "Woman rescued alive after nearly 20 hours in the Mediterranean sea near Greece",
+        "at": "2026-10-12T04:44:44+03:00",
         "section": "travel"
       }
     ],
@@ -2419,11 +2428,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T01:28:07.264Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-12T01:44:30.136Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ert | Παναμάς: Πάνω από 200 μετασεισμοί μετά τα 7,7 Ρίχτερ – Ζημιές σε 900 κατοικίες και υποδομέ"
+      "· gct | RACK vs LILA: Red Bull SoundClash Brings a Unique Music Battle to Athens",
+      "✓ gct | Woman Rescued After Nearly 20 Hours at Sea Following Cruise Ship Overboard Incident Near G",
+      "· gct | Greek Paralympic Taekwondo Star Elena Papastamatopoulou Wins Silver in Paris"
     ]
   },
   "evergreenDone": [
