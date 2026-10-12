@@ -18,5 +18,19 @@
     "at": "2026-10-10T12:02:21.173Z",
     "regions": [],
     "sent": 0
+  },
+  "orange-rain-warning-east-sterea-evvoia-2": {
+    "level": "orange",
+    "at": "2026-10-12T13:26:57.775Z",
+    "regions": [],
+    "sent": 1
+  },
+  "orange-thunderstorm-warning-west-peloponnese": {
+    "level": "orange",
+    "at": "2026-10-12T13:26:58.409Z",
+    "regions": [
+      "peloponnese"
+    ],
+    "sent": 1
   }
 }
