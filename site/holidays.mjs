@@ -3,6 +3,7 @@
 // Κυριακές 2026 με ανοιχτά καταστήματα (ΕΣΕΕ / Τύπος: parapolitika.gr, amyna.news), εκπτώσεις (ν. 4177/2013).
 // shops: "closed" = τα περισσότερα καταστήματα κλειστά, "open" = ανοιχτά, "short" = ανοιχτά με μειωμένο ωράριο, "sunday" = Κυριακή με ανοιχτά καταστήματα, "sales" = περίοδος εκπτώσεων
 import { esc, P } from "./templates.mjs";
+import { ic } from "./icons.mjs";
 
 export const HOLIDAYS = [
   { d: "2026-10-26", shops: "local", he: "אגיוס דימיטריוס – חג העיר סלוניקי", en: "Agios Dimitrios – Thessaloniki city holiday", nhe: "רק בסלוניקי: שירותים ציבוריים סגורים וחלק מהחנויות סגורות. באתונה יום רגיל.", nen: "Thessaloniki only: public services closed and some shops shut. A normal day in Athens." },
@@ -44,7 +45,7 @@ const HOL_JS = "(function () { var esc = function (x) { return String(x == null 
 export function holidaysStrip(lang) {
   const he = lang === "he";
   return `<a class="hol-strip" href="${P(lang, "/holidays/")}" id="hol-strip" data-lang="${lang}">
-  <span class="hs-ic" aria-hidden="true">🛍️</span>
+  <span class="hs-ic" aria-hidden="true">${ic("bag")}</span>
   <span class="hs-t"><b id="hs-today">${he ? "חנויות ביוון: פתוח או סגור?" : "Shops in Greece: open or closed?"}</b><small id="hs-next">${he ? "חגים, ימי ראשון פתוחים ועונות הנחות" : "Holidays, open Sundays and sales seasons"}</small></span>
   <span class="hs-go">${he ? "ללוח המלא ←" : "Full calendar →"}</span>
 </a>

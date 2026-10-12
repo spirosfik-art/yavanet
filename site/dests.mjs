@@ -1,6 +1,7 @@
 // Σελίδες προορισμών (/d/<id>/) + «Υπάρχει απεργία σήμερα/αύριο;» (/strike-today/) + ημερολόγιο απεργιών (/strikes.ics)
 // Όλα χτίζονται από δεδομένα που ήδη έχουμε: άρθρα, οδηγοί, πτήσεις, απεργίες. Ο καιρός φορτώνει ζωντανά στον browser.
 import { esc, P, card, pushBox } from "./templates.mjs";
+import { ic } from "./icons.mjs";
 import { FERRYHOPPER_AFF } from "./config.mjs";
 import { DEST_GUIDES } from "./dest-guides.mjs";
 
@@ -144,9 +145,9 @@ ${g ? guideHtml(lang, g) : ""}
 ${guides.length ? sec(H(lang, `המדריך ל${name}`, `${name} guide`), `<div class="cards">${guides.map((a) => card(a, lang)).join("")}</div>`) : ""}
 ${sec(H(lang, `חדשות מ${name}`, `${name} news`), news.length ? `<div class="cards">${news.map((a) => card(a, lang)).join("")}</div>` : `<div class="empty-note">${H(lang, "עוד אין חדשות מהיעד הזה. ברגע שיהיו, הן יופיעו כאן.", "No news from here yet. They will appear here as soon as there are.")}</div>`)}
 ${gfaq.length ? sec(H(lang, `שאלות נפוצות על ${name}`, `${name}: frequently asked questions`), `<div class="faq">${gfaq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${md(lang, a)}</p></details>`).join("")}</div>`) : ""}
-${g ? `<a class="fteaser" href="${P(lang, "/shabbat/")}"><span class="ft-ic" aria-hidden="true">🕯️</span><span class="ft-t"><b>${H(lang, "זמני שבת וכשרות ביוון", "Shabbat times & kosher in Greece")}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
+${g ? `<a class="fteaser" href="${P(lang, "/shabbat/")}"><span class="ft-ic" aria-hidden="true">${ic("candle")}</span><span class="ft-t"><b>${H(lang, "זמני שבת וכשרות ביוון", "Shabbat times & kosher in Greece")}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
 ${g && g.rel ? sec(H(lang, "כדאי לשלב בטיול", "Combine it with"), `<nav class="dnav">${g.rel.map(([u, h, e]) => `<a href="${P(lang, u)}">${esc(H(lang, h, e))}</a>`).join("")}</nav>`) : ""}
-${["athens", "thessaloniki", "rhodes", "crete", "corfu", "mykonos", "santorini"].includes(d.id) ? `<a class="fteaser" href="${P(lang, "/shabbat/")}#k-${d.id}"><span class="ft-ic" aria-hidden="true">🕯️</span><span class="ft-t"><b>${H(lang, `זמני שבת וכשרות ב${name}`, `Shabbat times & kosher in ${name}`)}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
+${["athens", "thessaloniki", "rhodes", "crete", "corfu", "mykonos", "santorini"].includes(d.id) ? `<a class="fteaser" href="${P(lang, "/shabbat/")}#k-${d.id}"><span class="ft-ic" aria-hidden="true">${ic("candle")}</span><span class="ft-t"><b>${H(lang, `זמני שבת וכשרות ב${name}`, `Shabbat times & kosher in ${name}`)}</b><small>${H(lang, "כניסת ויציאת שבת, חב״ד ואוכל כשר", "Candle lighting, Chabad and kosher food")}</small></span><span class="ft-go">${H(lang, "לפרטים ←", "Details →")}</span></a>` : ""}
 ${sec(H(lang, "יעדים נוספים", "More destinations"), destNav(lang, d.id))}
 ${pushBox(lang, true)}
 </div>`;
@@ -191,7 +192,7 @@ export function strikeTodayPage(lang, ctx) {
 <script type="application/json" id="st-data">${JSON.stringify(data).replace(/</g, "\\u003c")}</script>
 <section class="st-cal"><div><h2>${H(lang, "📅 כל השביתות ביומן שלכם", "📅 Every strike in your calendar")}</h2><p>${H(lang, "הוסיפו פעם אחת, וכל שביתה חדשה תופיע אוטומטית ביומן בטלפון.", "Add it once and every new strike appears in your phone calendar automatically.")}</p></div>
 <div class="st-btns"><a class="btn" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">Google Calendar</a><a class="btn" href="${webcal}">${H(lang, "אייפון / Outlook", "iPhone / Outlook")}</a></div></section>
-<a class="fteaser" href="${P(lang, "/strike-check/")}"><span class="ft-ic" aria-hidden="true">🧳</span><span class="ft-t"><b>${H(lang, "יש שביתה בזמן הטיול שלי?", "A strike during my trip?")}</b><small>${H(lang, "בחרו תאריכים וקבלו התראה במייל", "Pick your dates and get an email alert")}</small></span><span class="ft-go">${H(lang, "לבדיקה ←", "Check →")}</span></a>
+<a class="fteaser" href="${P(lang, "/strike-check/")}"><span class="ft-ic" aria-hidden="true">${ic("luggage")}</span><span class="ft-t"><b>${H(lang, "יש שביתה בזמן הטיול שלי?", "A strike during my trip?")}</b><small>${H(lang, "בחרו תאריכים וקבלו התראה במייל", "Pick your dates and get an email alert")}</small></span><span class="ft-go">${H(lang, "לבדיקה ←", "Check →")}</span></a>
 ${sec(H(lang, "השביתות הקרובות", "Upcoming strikes"), up.length ? `<div class="dstrike dcard on">${up.map((x) => `<a href="${x.u}"><b>${esc(fmtDay(x.n, lang))}</b> ${esc(x.s.join(" · "))}: ${esc(x.t)}</a>`).join("")}</div>` : `<div class="empty-note">${H(lang, "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍", "No announced strikes affecting travellers right now. 👍")}</div>`, `<a class="zone-more" href="${P(lang, "/strikes/")}">${H(lang, "לכל השביתות", "All strikes")}</a>`)}
 ${pushBox(lang, true)}
 </div>`;

@@ -15,6 +15,8 @@ YAVANET EDITORIAL RULES (apply to every article, title, post and newsletter):
 8. Every number, amount, date and name must come from the source text. Do not add numbers, conversions or facts that are not in the source.
 9. Write entirely in your own words. Never copy sentences from the source. No quotes longer than 10 words.
 10. Laws, taxes, visas: say this is general information, not legal advice, when giving amounts or rules.
+11. Names stay literal. Never call a Greek company, city or place by an Israeli nickname or comparison: no "El Al of Greece" (write אייג'אן / Aegean), no "Haifa of Greece" (write סלוניקי), no "the Eilat of Greece". The headline names the real company or place.
+12. "Israelis in Greece" (section israelis) is only for stories that happen in Greece or directly involve Greece: Israelis in Greece, Greece–Israel relations, flights between the two, Jewish life in Greece. Israel's diplomacy with other countries (e.g. another country moving its embassy) is NOT for us. History stories (e.g. 1976) go to jewish-greece or are skipped, never presented as news.
 `;
 
 export const AUDIENCE = `Audience: Israelis connected to Greece. Four reader types, and what each needs:
@@ -111,6 +113,7 @@ Check:
 3. No sentence is copied from the source (more than ~10 consecutive words).
 4. The editorial rules are respected (neutral, respectful, no names of private individuals in negative events, no clickbait).
 5. HEBREW LANGUAGE: find every misspelled or wrong Hebrew word (typos, invented words, wrong letters, broken grammar) in the Hebrew version, including title, seoTitle, seoDesc and dek. Do NOT reject the article for these; list each as a fix instead.
+6. NAMES IN THE HEBREW TITLE: if the Hebrew title calls a company or place by a nickname or comparison instead of its real name (e.g. "אל על היוונית" for Aegean, "חיפה של יוון" for Thessaloniki), add a fix that replaces it with the real name, as the English version names it.
 Return JSON: {"ok":true|false,"issues":["short description of each fact/rule problem (not Hebrew spelling)"],"fixes":[{"from":"exact wrong Hebrew text as it appears","to":"corrected Hebrew text"}]}`;
 }
 

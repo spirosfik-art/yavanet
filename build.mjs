@@ -1,5 +1,6 @@
 // Δημιουργία του site: node build.mjs  →  φάκελος dist/
 import { makeCritical } from "./site/critical.mjs";
+import { ic } from "./site/icons.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
@@ -183,7 +184,9 @@ for (const lang of LANGS) {
   const govPool = bySection("real-estate").filter((a) => !a.partner);
   const heroA = bigBreaking || govPool.find((a) => !a.guide) || govPool[0] || bySection("israelis").find((a) => !a.partner) || articles[0];
   const used = new Set([heroA && heroA.slug]);
-  const take = (list, n) => list.filter((a) => !used.has(a.slug)).slice(0, n).map((a) => (used.add(a.slug), a));
+  // Μόνο ένα άρθρο καιρού στην αρχική: οι υπόλοιπες προειδοποιήσεις είναι στο /weather-warnings/
+  let wxOn = !!(heroA && heroA.wx);
+  const take = (list, n) => { const out = []; for (const a of list) { if (out.length >= n) break; if (used.has(a.slug) || (a.wx && wxOn)) continue; used.add(a.slug); if (a.wx) wxOn = true; out.push(a); } return out; };
   const govCards = take(govPool, 3);
   const isrCards = take(bySection("israelis"), 4);
   const more = take(articles, 6);
@@ -203,7 +206,7 @@ for (const lang of LANGS) {
 ${holidaysStrip(lang)}
 ${doorsHTML(lang)}
 <nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
-${GLOBAL.wxRecent ? `<a class="fteaser wxteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⚠️</span><span class="ft-t"><b>${lang === "he" ? (GLOBAL.wxRecent === 1 ? "אזהרת מזג אוויר חדשה ביוון" : `${GLOBAL.wxRecent} אזהרות מזג אוויר ביוון ב-48 השעות האחרונות`) : (GLOBAL.wxRecent === 1 ? "New weather warning in Greece" : `${GLOBAL.wxRecent} weather warnings in Greece in the last 48 hours`)}</b><small>${lang === "he" ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>` : ""}
+${GLOBAL.wxRecent ? `<a class="fteaser wxteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">${ic("alert")}</span><span class="ft-t"><b>${lang === "he" ? (GLOBAL.wxRecent === 1 ? "אזהרת מזג אוויר חדשה ביוון" : `${GLOBAL.wxRecent} אזהרות מזג אוויר ביוון ב-48 השעות האחרונות`) : (GLOBAL.wxRecent === 1 ? "New weather warning in Greece" : `${GLOBAL.wxRecent} weather warnings in Greece in the last 48 hours`)}</b><small>${lang === "he" ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>` : ""}
 ${flightTeaser(lang)}
 <nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
@@ -253,7 +256,7 @@ ${newsletterBox(lang)}
     const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.wx ? wxArticleBox(a, lang) : ""}
 ${nadlanFor(a) ? GLOBAL.nadlanBox[lang] : ""}
-${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">❓</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
+${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">${ic("quiz")}</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
 ${a.section === "real-estate" && !a.partner ? formBox(lang, { id: "lead-a", kind: "property-lead", fields: ["name", "phone", "email", "msg"],
   title: lang === "he" ? (/15-percent/.test(a.slug) ? "שוקלים לקנות דירה ביוון לפני שהמס משתנה?" : "שוקלים לקנות דירה ביוון?") : (/15-percent/.test(a.slug) ? "Thinking of buying in Greece before the tax changes?" : "Thinking of buying property in Greece?"),
   text: lang === "he" ? "השאירו פרטים ויועץ נדל״ן דובר עברית יחזור אליכם. בלי התחייבות ובחינם. גילוי נאות: הפנייה מגיעה ל-S.F. Properties (ספירידון פיקיאס, מתווך נדל״ן, ΓΕΜΗ 172090403000), המו״ל של יוונט." : "Leave your details and a Hebrew-speaking property adviser will get back to you. Free, no obligation. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, GEMI 172090403000), Yavanet's publisher." }) : ""}
@@ -308,7 +311,7 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
 <div class="grid"><div class="col">
 <div id="map" data-points="${esc(JSON.stringify(pts))}" role="region" aria-label="Map"></div>
 <section style="display:grid;gap:10px">${brkList.map((a) => `<a class="alert" href="${P(lang, "/a/" + a.slug + "/")}"><strong>${esc(a[lang].title)}</strong><span class="small">${new Date(a.updatedAt || a.publishedAt).toLocaleString(t.locale, { timeZone: "Europe/Athens" })} · ${esc(a.sources[0].name)}</span></a>`).join("") || `<div class="empty">${esc(t.noBreaking)}</div>`}</section>
-<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⛈️</span><span class="ft-t"><b>${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}</b><small>${lang === "he" ? "כל האזהרות במקום אחד" : "Every warning in one place"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>
+<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">${ic("storm")}</span><span class="ft-t"><b>${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}</b><small>${lang === "he" ? "כל האזהרות במקום אחד" : "Every warning in one place"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>
 <section><div class="zone-h"><h2>${esc(t.officialLinks)}</h2></div><div class="links">${OFFICIAL_LINKS.map((o) => `<a href="${o.url}" target="_blank" rel="noopener">${esc(o[lang])}<span aria-hidden="true">↗</span></a>`).join("")}</div></section>
 </div>${widgets(lang, mostRead)}</div>`;
   write(P(lang, "/live/"), layout({ lang, title: t.liveTitle, description: t.liveText, path: P(lang, "/live/"), altPath: P(lang === "he" ? "en" : "he", "/live/"), body: live, breaking: breakingNow, activeSection: "breaking" }));
@@ -329,8 +332,8 @@ ${formBox(lang, { id: "ask", title: t.askTitle, text: t.askText, kind: "ask-expe
     const body = `<div class="page-h"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>
 <div class="grid"><div class="col">
 ${pushBox(lang, true)}
-<a class="fteaser" href="${P(lang, "/strike-today/")}"><span class="ft-ic" aria-hidden="true">📅</span><span class="ft-t"><b>${he ? "יש שביתה היום או מחר?" : "Strike today or tomorrow?"}</b><small>${he ? "תשובה מהירה, והוספת כל השביתות ליומן בטלפון" : "The quick answer, plus every strike in your phone calendar"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
-<a class="fteaser" href="${P(lang, "/strike-check/")}"><span class="ft-ic" aria-hidden="true">🧳</span><span class="ft-t"><b>${he ? "יש שביתה בזמן הטיול שלי?" : "A strike during my trip?"}</b><small>${he ? "בחרו תאריכים וקבלו התראה במייל" : "Pick your dates and get an email alert"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
+<a class="fteaser" href="${P(lang, "/strike-today/")}"><span class="ft-ic" aria-hidden="true">${ic("calendar")}</span><span class="ft-t"><b>${he ? "יש שביתה היום או מחר?" : "Strike today or tomorrow?"}</b><small>${he ? "תשובה מהירה, והוספת כל השביתות ליומן בטלפון" : "The quick answer, plus every strike in your phone calendar"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
+<a class="fteaser" href="${P(lang, "/strike-check/")}"><span class="ft-ic" aria-hidden="true">${ic("luggage")}</span><span class="ft-t"><b>${he ? "יש שביתה בזמן הטיול שלי?" : "A strike during my trip?"}</b><small>${he ? "בחרו תאריכים וקבלו התראה במייל" : "Pick your dates and get an email alert"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
 <section><div class="zone-h"><h2>${he ? "שביתות קרובות" : "Upcoming strikes"}</h2></div>
 ${upcomingStrikes.length ? `<div class="strikes">${upcomingStrikes.map((a) => item(a, false)).join("")}</div>` : `<div class="empty-note">${he ? "אין כרגע שביתות מתוכננות שמשפיעות על מטיילים. 👍" : "No announced strikes affecting travellers right now. 👍"}</div>`}
 </section>
@@ -353,7 +356,7 @@ ${newsletterBox(lang)}
 <section><div class="zone-h"><h2>${he ? "מספרי חירום ביוון" : "Emergency numbers in Greece"}</h2></div><div class="emnums">${nums}</div></section>
 <section class="means"><h2>🇮🇱 ${he ? "שגרירות ישראל" : "Israeli Embassy"}</h2><p>${esc(EMBASSY[lang])} <a href="${EMBASSY.url}" target="_blank" rel="noopener">${he ? "טלפונים ושעות פעילות" : "Phones and opening hours"} ↗</a></p></section>
 <section><div class="zone-h"><h2>${he ? "מה עושים אם..." : "What to do if..."}</h2></div><div class="emcases">${cases}</div></section>
-<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">⛈️</span><span class="ft-t"><b>${he ? "אזהרות מזג אוויר ביוון היום" : "Greece weather warnings today"}</b><small>${he ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
+<a class="fteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">${ic("storm")}</span><span class="ft-t"><b>${he ? "אזהרות מזג אוויר ביוון היום" : "Greece weather warnings today"}</b><small>${he ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${he ? "לבדיקה ←" : "Check →"}</span></a>
 <p class="small">${he ? "מידע כללי שנבדק מול מקורות רשמיים. במצב חירום תמיד חייגו 112." : "General information checked against official sources. In an emergency always call 112."}</p>
 ${pushBox(lang, true)}
 </div>${widgets(lang, mostRead, true)}</div>`;

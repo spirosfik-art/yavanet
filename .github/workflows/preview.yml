@@ -1,0 +1,28 @@
+# Δοκιμαστική έκδοση: κάθε κλάδος εκτός του main ανεβαίνει σε <κλάδος>.yavanet.pages.dev
+# για έλεγχο πριν δημοσιευτεί. Το yavanet.gr δεν αλλάζει, και η Google δεν το ευρετηριάζει.
+name: Preview
+on:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node build.mjs
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Upload preview
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROJECT: ${{ vars.CF_PROJECT }}
+        run: |
+          export CLOUDFLARE_API_TOKEN="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | grep -oE '[A-Za-z0-9_-]{40,}' | head -1)"
+          export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID:-}" | tr -d '[:space:]')"
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then export CLOUDFLARE_ACCOUNT_ID="$(curl -s https://api.cloudflare.com/client/v4/accounts -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -oE '"id":"[0-9a-f]{32}"' | head -1 | cut -d'"' -f4)"; fi
+          npx --yes wrangler@3 pages deploy dist --project-name="${CF_PROJECT:-yavanet}" --branch="${GITHUB_REF_NAME}" --commit-dirty=true

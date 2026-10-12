@@ -56,7 +56,10 @@ window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=
   (function () {
     var chip = $("#wxchip"), panel = $("#wxpanel"); if (!chip || !panel) return;
     var he = C.lang !== "en";
-    function ico(c, day) { return c <= 1 ? (day === 0 ? "🌙" : "☀️") : c === 2 ? "⛅" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : "⛈️"; }
+    var WXP = { sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>', moon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>', part: '<path d="M8 4.5v1M3.5 9h1M4.8 5.8l.7.7M11.2 5.8l-.7.7"/><path d="M5.5 11a3 3 0 0 1 5.6-1.4"/><path d="M8 19a3.5 3.5 0 0 1 .4-7 5 5 0 0 1 9.6 1.5A3 3 0 0 1 18 19z"/>', cloud: '<path d="M7 19a4.5 4.5 0 0 1 .5-9 6 6 0 0 1 11.5 2A3.5 3.5 0 0 1 18.5 19z"/>', fog: '<path d="M7 14a4.5 4.5 0 0 1 .5-9 6 6 0 0 1 11.5 2"/><path d="M3 15h18M5 19h14"/>', rain: '<path d="M7 15a4.5 4.5 0 0 1 .5-9 6 6 0 0 1 11.5 2A3.5 3.5 0 0 1 18.5 15z"/><path d="M8 18l-1 3M12 18l-1 3M16 18l-1 3"/>', snow: '<path d="M7 15a4.5 4.5 0 0 1 .5-9 6 6 0 0 1 11.5 2A3.5 3.5 0 0 1 18.5 15z"/><path d="M8 19v.01M12 18v.01M16 19v.01M10 21.5v.01M14 21.5v.01"/>', storm: '<path d="M7 15a4.5 4.5 0 0 1 .5-9 6 6 0 0 1 11.5 2A3.5 3.5 0 0 1 18.5 15z"/><path d="M13 13l-2 4h3l-2 4"/>' };
+    function svgI(k) { return '<svg class="ic wx-ic" viewBox="0 0 24 24" aria-hidden="true">' + WXP[k] + '</svg>'; }
+    function icoK(c, day) { return c <= 1 ? (day === 0 ? "moon" : "sun") : c === 2 ? "part" : c === 3 ? "cloud" : c <= 48 ? "fog" : c <= 67 ? "rain" : c <= 77 ? "snow" : c <= 82 ? "rain" : "storm"; }
+    function ico(c, day) { return svgI(icoK(c, day)); }
     function kind(c) { return c <= 1 ? "sun" : c <= 3 ? "cloud" : c <= 48 ? "fog" : c <= 67 || (c >= 80 && c <= 82) ? "rain" : c <= 77 ? "snow" : "storm"; }
 
     function drawSky(d) {
@@ -79,12 +82,12 @@ window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=
     }
     function render(d) {
       drawSky(d);
-      chip.querySelector(".wxi").textContent = ico(d.code, d.day);
+      chip.querySelector(".wxi").innerHTML = ico(d.code, d.day);
       chip.className = "wxchip wx-" + kind(d.code);
       chip.querySelector("b").textContent = Math.round(d.temp) + "°";
       panel.querySelector(".wxdays").innerHTML = d.days.map(function (x, i) {
         var name = i === 0 ? (he ? "היום" : "Today") : new Date(x.t + "T12:00:00Z").toLocaleDateString(he ? "he-IL" : "en-GB", { weekday: "short", timeZone: "UTC" });
-        return '<div class="wxd"><i>' + esc(name) + '</i><span>' + ico(x.c, 1) + '</span><b>' + Math.round(x.hi) + '°</b><small>' + Math.round(x.lo) + '°</small>' + (x.p >= 30 ? '<em>💧' + x.p + '%</em>' : '<em></em>') + '</div>';
+        return '<div class="wxd"><i>' + esc(name) + '</i><span>' + ico(x.c, 1) + '</span><b>' + Math.round(x.hi) + '°</b><small>' + Math.round(x.lo) + '°</small>' + (x.p >= 30 ? '<em>' + x.p + '%</em>' : '<em></em>') + '</div>';
       }).join("");
       chip.hidden = false;
     }

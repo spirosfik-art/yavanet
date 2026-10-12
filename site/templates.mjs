@@ -1,4 +1,5 @@
 import { SITE, SECTIONS, T, LEGAL_PAGES } from "./config.mjs";
+import { ic } from "./icons.mjs";
 import { esc, md, plain } from "./md.mjs";
 import { art, SECTION_ART } from "./art.mjs";
 import { readFileSync as _rf } from "node:fs";
@@ -33,8 +34,8 @@ export function artHTML(a, lang, kind = "card") {
     const [ws, sizes] = SIZES[kind] || SIZES.card;
     // αρνητικό πλάτος = τετράγωνη μικρογραφία
     const U = (w) => pxl(img.url, Math.abs(w), w < 0);
-    if (pxl(img.url, 100)) return `<img src="${esc(U(ws.find((w) => Math.abs(w) >= 240) || ws[0]))}" srcset="${ws.map((w) => esc(U(w)) + " " + Math.abs(w) + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async">`;
-    return `<img src="${esc(img.url)}" alt="${alt}"${load} decoding="async">`;
+    if (pxl(img.url, 100)) return `<img src="${esc(U(ws.find((w) => Math.abs(w) >= 240) || ws[0]))}" srcset="${ws.map((w) => esc(U(w)) + " " + Math.abs(w) + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
+    return `<img src="${esc(img.url)}" alt="${alt}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
   }
   return art((img && img.key) || SECTION_ART[a.section] || "sea", a[lang].title);
 }
@@ -70,11 +71,11 @@ function menuSheet(lang) {
 <div class="ms-in">
 <div class="ms-top"><button type="button" class="ms-search" data-search>${ICONS.search}<span>${L("חיפוש באתר…", "Search the site…")}</span></button><button type="button" class="ms-x" data-menu-close aria-label="${L("סגירה", "Close")}">${ICONS.close}</button></div>
 <div class="ms-grid">
-${g("🏝️ " + L("חופשה ביוון", "Holiday in Greece"), P(lang, "/travel/"), [[A("greece-travel-guide-israelis-2026"), L("המדריך לטיסה ליוון", "Flying to Greece guide")], [P(lang, "/strike-today/"), L("יש שביתה היום?", "Strike today?")], [P(lang, "/strikes/"), L("שביתות קרובות", "Upcoming strikes")], [P(lang, "/weather-warnings/"), L("אזהרות מזג אוויר", "Weather warnings")], [P(lang, "/d/rhodes/"), L("רודוס", "Rhodes")], [P(lang, "/d/crete/"), L("כרתים", "Crete")], [P(lang, "/d/athens/"), L("אתונה", "Athens")], [P(lang, "/emergency/"), L("חירום", "Emergency")], GLOBAL.flights ? [P(lang, "/flights/"), L("טיסות זולות", "Cheap flights")] : null, [P(lang, "/directory/"), L("יוון בעברית: עסקים ושירותים", "Hebrew-speaking services")], [A("athens-with-yana-hebrew-tours-athens"), L("טיולים עם יאנה", "Tours with Yana")]])}
-${g("🏠 " + L("השקעה בנדל״ן", "Property investment"), P(lang, "/invest/"), [[A("buying-property-in-greece-israelis-guide"), L("המדריך לקניית דירה", "Buying guide")], [A("golden-visa-greece-2026-guide"), L("ויזת זהב", "Golden Visa")], GLOBAL.nadlan ? [P(lang, "/nadlan/"), L("דירות למכירה ולהשכרה", "Property for sale & rent")] : null, [P(lang, "/madad/"), L("מחירי דירות לפי שכונה", "Prices by area")], [P(lang, "/tlv-vs-athens/"), L("תל אביב מול אתונה", "Tel Aviv vs Athens")], [P(lang, "/tools/"), L("מחשבונים", "Calculators")], [A("managing-property-in-greece-from-israel"), L("ניהול נכס מישראל", "Managing from Israel")]])}
-${g("🧳 " + L("לעבור לגור ביוון", "Moving to Greece"), P(lang, "/moving/"), [[A("moving-to-greece-with-family-israelis-guide"), L("המדריך למעבר עם המשפחה", "Moving with family")], [A("greek-tax-number-and-bank-account-guide"), L("מספר מס וחשבון בנק", "Tax number & bank account")], [P(lang, "/cost-of-living/"), L("יוקר המחיה", "Cost of living")]])}
-${g("📰 " + L("חדשות", "News"), P(lang, "/"), SECTIONS.map((x) => [P(lang, "/s/" + x.slug + "/"), esc(x[lang])]).concat([[P(lang, "/guides/"), L("כל המדריכים", "All guides")]]))}
-${g("💬 " + L("יוונט", "Yavanet"), P(lang, "/contact/"), [[P(lang, "/contact/"), L("צרו קשר: האנשים שלנו", "Contact: our people")], [P(lang, "/") + "#newsletter", L("ניוזלטר", "Newsletter")], [P(lang, "/p/about/"), L("אודות", "About")], [P(lang, "/p/advertise/"), L("פרסום ביוונט", "Advertise")]])}
+${g(ic("island") + L("חופשה ביוון", "Holiday in Greece"), P(lang, "/travel/"), [[A("greece-travel-guide-israelis-2026"), L("המדריך לטיסה ליוון", "Flying to Greece guide")], [P(lang, "/strike-today/"), L("יש שביתה היום?", "Strike today?")], [P(lang, "/strikes/"), L("שביתות קרובות", "Upcoming strikes")], [P(lang, "/weather-warnings/"), L("אזהרות מזג אוויר", "Weather warnings")], [P(lang, "/d/rhodes/"), L("רודוס", "Rhodes")], [P(lang, "/d/crete/"), L("כרתים", "Crete")], [P(lang, "/d/athens/"), L("אתונה", "Athens")], [P(lang, "/emergency/"), L("חירום", "Emergency")], GLOBAL.flights ? [P(lang, "/flights/"), L("טיסות זולות", "Cheap flights")] : null, [P(lang, "/directory/"), L("יוון בעברית: עסקים ושירותים", "Hebrew-speaking services")], [A("athens-with-yana-hebrew-tours-athens"), L("טיולים עם יאנה", "Tours with Yana")]])}
+${g(ic("home") + L("השקעה בנדל״ן", "Property investment"), P(lang, "/invest/"), [[A("buying-property-in-greece-israelis-guide"), L("המדריך לקניית דירה", "Buying guide")], [A("golden-visa-greece-2026-guide"), L("ויזת זהב", "Golden Visa")], GLOBAL.nadlan ? [P(lang, "/nadlan/"), L("דירות למכירה ולהשכרה", "Property for sale & rent")] : null, [P(lang, "/madad/"), L("מחירי דירות לפי שכונה", "Prices by area")], [P(lang, "/tlv-vs-athens/"), L("תל אביב מול אתונה", "Tel Aviv vs Athens")], [P(lang, "/tools/"), L("מחשבונים", "Calculators")], [A("managing-property-in-greece-from-israel"), L("ניהול נכס מישראל", "Managing from Israel")]])}
+${g(ic("luggage") + L("לעבור לגור ביוון", "Moving to Greece"), P(lang, "/moving/"), [[A("moving-to-greece-with-family-israelis-guide"), L("המדריך למעבר עם המשפחה", "Moving with family")], [A("greek-tax-number-and-bank-account-guide"), L("מספר מס וחשבון בנק", "Tax number & bank account")], [P(lang, "/cost-of-living/"), L("יוקר המחיה", "Cost of living")]])}
+${g(ic("news") + L("חדשות", "News"), P(lang, "/"), SECTIONS.map((x) => [P(lang, "/s/" + x.slug + "/"), esc(x[lang])]).concat([[P(lang, "/guides/"), L("כל המדריכים", "All guides")]]))}
+${g(ic("chat") + L("יוונט", "Yavanet"), P(lang, "/contact/"), [[P(lang, "/contact/"), L("צרו קשר: האנשים שלנו", "Contact: our people")], [P(lang, "/") + "#newsletter", L("ניוזלטר", "Newsletter")], [P(lang, "/p/about/"), L("אודות", "About")], [P(lang, "/p/advertise/"), L("פרסום ביוונט", "Advertise")]])}
 </div></div></div>
 <div class="srch" id="srch" hidden role="dialog" aria-modal="true" aria-label="${L("חיפוש", "Search")}">
 <div class="srch-in"><div class="srch-bar">${ICONS.search}<input id="srch-q" type="search" autocomplete="off" enterkeyhint="search" placeholder="${L("מה אתם מחפשים? למשל: רודוס, ויזת זהב, שביתה", "What are you looking for? e.g. Rhodes, Golden Visa, strike")}"><button type="button" class="ms-x" data-search-close aria-label="${L("סגירה", "Close")}">${ICONS.close}</button></div>
@@ -254,11 +255,11 @@ ${chips ? `<div class="wrap"><nav class="chips" aria-label="${esc(t.allSections)
 ${body}
 <footer>
   <nav aria-label="Legal">${legal}</nav>
-  ${SITE.facebookPage || SITE.instagram ? `<div class="social">${SITE.facebookPage ? `<a href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener me" data-out="facebook-page">📘 ${lang === "he" ? "עקבו אחרינו בפייסבוק" : "Follow us on Facebook"}</a>` : ""}${SITE.instagram ? ` · <a href="${esc(SITE.instagram)}" target="_blank" rel="noopener me" data-out="instagram">📸 Instagram</a>` : ""}</div>` : ""}
+  ${SITE.facebookPage || SITE.instagram ? `<div class="social">${SITE.facebookPage ? `<a href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener me" data-out="facebook-page">${ic("facebook")}${lang === "he" ? "עקבו אחרינו בפייסבוק" : "Follow us on Facebook"}</a>` : ""}${SITE.instagram ? ` · <a href="${esc(SITE.instagram)}" target="_blank" rel="noopener me" data-out="instagram">${ic("instagram")}Instagram</a>` : ""}</div>` : ""}
   <div>${esc(t.aiNote)}</div>
   <div>${lang === "he" ? "תמונות" : "Photos"}: <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></div>
   <div>© ${new Date().getFullYear()} ${NAME} · ${esc(SITE.publisher.brand || SITE.publisher[lang])}</div>
-  <div><a href="https://wa.me/306906723676?text=${encodeURIComponent(lang === "he" ? "שלום, יש לי שאלה על יוון" : "Hi, I have a question about Greece")}" target="_blank" rel="noopener" data-out="wa-ask-footer">💬 ${lang === "he" ? "שאלה על יוון? כתבו לנו בוואטסאפ" : "A question about Greece? WhatsApp us"}</a></div>
+  <div><a href="https://wa.me/306906723676?text=${encodeURIComponent(lang === "he" ? "שלום, יש לי שאלה על יוון" : "Hi, I have a question about Greece")}" target="_blank" rel="noopener" data-out="wa-ask-footer">${ic("whatsapp")}${lang === "he" ? "שאלה על יוון? כתבו לנו בוואטסאפ" : "A question about Greece? WhatsApp us"}</a></div>
 </footer>
 </main>
 <nav class="bnav" aria-label="Main">${bnav}</nav>
@@ -305,7 +306,8 @@ export function alertLabel(a, lang) {
 export function kickerHTML(a, lang, linked = false) {
   const s = sec(a.section), al = alertLabel(a, lang);
   const k = linked ? `<a class="kicker ${s.mark}" href="${P(lang, "/s/" + s.slug + "/")}">${esc(s[lang])}</a>` : `<span class="kicker ${s.mark}">${esc(s[lang])}</span>`;
-  return `${al ? `<span class="alert-tag">${esc(al)}</span>` : ""}${k}${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "תוכן ממומן · בשיתוף פעולה" : "Sponsored · In partnership"}</span>` : ""}`;
+  // Σε κάρτες: μία ετικέτα μόνο (η κόκκινη αν υπάρχει, αλλιώς η ενότητα). Στη σελίδα του άρθρου: και οι δύο.
+  return `${al ? `<span class="alert-tag">${esc(al)}</span>` : ""}${al && !linked ? "" : k}${a.sponsored ? `<span class="spons">${esc(T[lang].sponsored)}</span>` : a.partner ? `<span class="spons">${lang === "he" ? "תוכן ממומן · בשיתוף פעולה" : "Sponsored · In partnership"}</span>` : ""}`;
 }
 export function heroCard(a, lang) {
   return `<a class="hero" href="${P(lang, "/a/" + a.slug + "/")}"><div class="art">${artHTML(a, lang, "hero")}</div><div class="body">${kickerHTML(a, lang)}<h3>${esc(a[lang].title)}</h3><p class="dek">${esc(a[lang].dek)}</p><div class="meta">${fmtDate(a.publishedAt, lang)}</div></div></a>`;
@@ -325,7 +327,7 @@ export function newsletterBox(lang, opt = {}) {
   return `<section class="news" id="${opt.id || "newsletter"}" aria-labelledby="nl-h">
   <h3 id="nl-h">${esc(opt.title || t.nlTitle)}</h3>
   <p style="margin:0">${esc(opt.text || t.nlText)}</p>
-  <p class="nl-gift">🎁 ${lang === "he" ? "מתנה לנרשמים: <b>המדריך המלא לקניית דירה ביוון</b> כקובץ PDF להורדה" : "Free for subscribers: <b>the complete guide to buying property in Greece</b> as a PDF"}</p>
+  <p class="nl-gift">${ic("gift")}${lang === "he" ? "מתנה לנרשמים: <b>המדריך המלא לקניית דירה ביוון</b> כקובץ PDF להורדה" : "Free for subscribers: <b>the complete guide to buying property in Greece</b> as a PDF"}</p>
   <form data-api="/api/subscribe" data-kind="newsletter"${opt.source ? ` data-source="${esc(opt.source)}"` : ""} novalidate>
     <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
     <input type="hidden" name="lang" value="${lang}">
@@ -337,7 +339,7 @@ export function newsletterBox(lang, opt = {}) {
   <div class="btnrow">
     ${SITE.whatsappChannel ? `<a class="btn wa" href="${esc(SITE.whatsappChannel)}" target="_blank" rel="noopener">${esc(t.waJoin)}</a>` : ""}
     ${SITE.telegramChannel ? `<a class="btn ghost" href="${esc(SITE.telegramChannel)}" target="_blank" rel="noopener">${esc(t.tgJoin)}</a>` : ""}
-    ${SITE.facebookPage ? `<a class="btn ghost" href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener" data-out="facebook-page">📘 ${lang === "he" ? "עקבו בפייסבוק" : "Follow on Facebook"}</a>` : ""}
+    ${SITE.facebookPage ? `<a class="btn ghost" href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener" data-out="facebook-page">${ic("facebook")}${lang === "he" ? "עקבו בפייסבוק" : "Follow on Facebook"}</a>` : ""}
   </div>
 </section>`;
 }
@@ -461,7 +463,7 @@ export function widgets(lang, mostRead, noPush = false) {
   ${noPush ? "" : pushBox(lang)}
   ${medTeaser(lang)}
   <div class="widget most"><h4>${esc(t.mostRead)}</h4><ol>${mostRead.map((a) => `<li><a href="${P(lang, "/a/" + a.slug + "/")}">${esc(a[lang].title)}</a></li>`).join("")}</ol></div>
-  <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div><a class="wxlink" href="${P(lang, "/weather-warnings/")}">⚠️ ${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}${GLOBAL.wxRecent ? ` <b>${GLOBAL.wxRecent}</b>` : ""}</a></div>
+  <div class="widget"><h4>${esc(t.weather)}</h4><div class="rows" id="w-weather">${esc(t.loading)}</div><div class="small">Open-Meteo</div><a class="wxlink" href="${P(lang, "/weather-warnings/")}">${ic("alert")}${lang === "he" ? "אזהרות מזג אוויר ביוון" : "Greece weather warnings"}${GLOBAL.wxRecent ? ` <b>${GLOBAL.wxRecent}</b>` : ""}</a></div>
   <div class="widget"><h4>${esc(t.fx)}</h4><div class="rate" id="w-fx">…</div><div class="small" id="w-fx-d">ECB · Frankfurter</div></div>
   <div class="widget"><h4>${esc(t.shabbat)}</h4><div class="rows" id="w-shabbat">${esc(t.loading)}</div><div class="small">Hebcal</div></div>
   ${partners(lang)}
@@ -472,7 +474,7 @@ export function widgets(lang, mostRead, noPush = false) {
 export function flightTeaser(lang) {
   const d = GLOBAL.flightTop; if (!d) return "";
   const he = lang === "he";
-  return `<a class="fteaser" href="${P(lang, "/flights/")}"><span class="ft-ic" aria-hidden="true">✈️</span><span class="ft-t"><b>${he ? `טיסות ליוון מ-<bdi dir="ltr">€${d.price}</bdi> הלוך־חזור` : `Flights to Greece from <bdi dir="ltr">€${d.price}</bdi> return`}</b><small>${he ? `${esc(d.he)} · המחיר הזול היום מתל אביב · עוד ${GLOBAL.flightCount - 1} יעדים` : `${esc(d.en)} · today's lowest fare from Tel Aviv · ${GLOBAL.flightCount - 1} more destinations`}</small></span><span class="ft-go">${he ? "לכל המחירים ←" : "All prices →"}</span></a>`;
+  return `<a class="fteaser" href="${P(lang, "/flights/")}"><span class="ft-ic" aria-hidden="true">${ic("plane")}</span><span class="ft-t"><b>${he ? `טיסות ליוון מ-<bdi dir="ltr">€${d.price}</bdi> הלוך־חזור` : `Flights to Greece from <bdi dir="ltr">€${d.price}</bdi> return`}</b><small>${he ? `${esc(d.he)} · המחיר הזול היום מתל אביב · עוד ${GLOBAL.flightCount - 1} יעדים` : `${esc(d.en)} · today's lowest fare from Tel Aviv · ${GLOBAL.flightCount - 1} more destinations`}</small></span><span class="ft-go">${he ? "לכל המחירים ←" : "All prices →"}</span></a>`;
 }
 
 
@@ -517,14 +519,14 @@ export function relatedBox(a, lang) {
   // Εργαλεία του site που ταιριάζουν στο θέμα του άρθρου
   const tools = [];
   const head = a.en.title + " " + a.en.dek + " " + a.slug;
-  if (a.wx) tools.push(["/weather-warnings/", "⚠️ כל אזהרות מזג האוויר ביוון במקום אחד", "⚠️ All Greece weather warnings in one place"]);
-  if (a.strike || /\bstrikes?\b|work stoppage/i.test(head)) tools.push(["/strike-check/", "🧳 יש שביתה בזמן הטיול שלי? בדיקה לפי תאריכים", "🧳 A strike during my trip? Check by dates"]);
+  if (a.wx) tools.push(["/weather-warnings/", "כל אזהרות מזג האוויר ביוון במקום אחד", "All Greece weather warnings in one place"]);
+  if (a.strike || /\bstrikes?\b|work stoppage/i.test(head)) tools.push(["/strike-check/", "יש שביתה בזמן הטיול שלי? בדיקה לפי תאריכים", "A strike during my trip? Check by dates"]);
   if (a.section === "real-estate" || /golden visa/i.test(head)) { tools.push(["/golden-visa-quiz/", "❓ שאלון ויזת זהב: כמה צריך להשקיע?", "❓ Golden Visa quiz: how much do you need to invest?"]); tools.push(["/tools/", "🧮 מחשבון עלויות קניית דירה ביוון", "🧮 Greek property purchase cost calculator"]); }
   if (a.section === "jewish-greece" || /jewish|kosher|chabad|synagogue|shabbat|rosh hashanah|yom kippur|sukkot|hanukkah|passover/i.test(head)) tools.push(["/shabbat/", "🕯️ זמני שבת וכשרות ביוון", "🕯️ Shabbat times & kosher food in Greece"]);
   if (a.section === "living" || /relocat|moving to greece/i.test(head)) tools.push(["/moving-checklist/", "✅ צ׳קליסט מעבר ליוון", "✅ Moving to Greece checklist"]);
   if (!picks.length && !dests.length && !tools.length) return "";
   const pre = he ? "" : "/en";
-  return `<aside class="related"><b>${he ? "כדאי לקרוא גם" : "Useful next"}</b><ul>${tools.slice(0, 3).map((x) => `<li><a href="${pre}${x[0]}">${esc(he ? x[1] : x[2])}</a></li>`).join("")}${picks.slice(0, 2).map((g) => `<li><a href="${pre}/a/${g[0]}/">📘 ${esc(he ? g[1] : g[2])}</a></li>`).join("")}${dests.map((d) => `<li><a href="${pre}/d/${d[0]}/">📍 ${esc(he ? `${d[1]}: חדשות, מזג אוויר, טיסות ושביתות` : `${d[2]}: news, weather, flights and strikes`)}</a></li>`).join("")}</ul></aside>`;
+  return `<aside class="related"><b>${he ? "כדאי לקרוא גם" : "Useful next"}</b><ul>${tools.slice(0, 3).map((x) => `<li><a href="${pre}${x[0]}">${esc(he ? x[1] : x[2])}</a></li>`).join("")}${picks.slice(0, 2).map((g) => `<li><a href="${pre}/a/${g[0]}/">${esc(he ? g[1] : g[2])}</a></li>`).join("")}${dests.map((d) => `<li><a href="${pre}/d/${d[0]}/">${esc(he ? `${d[1]}: חדשות, מזג אוויר, טיסות ושביתות` : `${d[2]}: news, weather, flights and strikes`)}</a></li>`).join("")}</ul></aside>`;
 }
 
 export function articleBody(a, lang, prev, next) {
@@ -554,7 +556,7 @@ export function articleBody(a, lang, prev, next) {
   ${a.guide ? shareRow(" top") + "</div>" : ""}
   <div class="tldr"><b>${esc(t.thirty)}</b><ul>${c.tldr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
   ${c.means ? `<div class="means"><b>${esc(t.means)}</b><p>${esc(c.means)}</p></div>` : ""}
-  ${a.wx ? `<a class="wxbox" href="${P(lang, "/weather-warnings/")}"><span aria-hidden="true">⚠️</span><span><b>${he ? "כל אזהרות מזג האוויר ביוון במקום אחד" : "All Greece weather warnings in one place"}</b><small>${he ? "איפה יש אזהרה, מה אומרים הצבעים ומה עושים" : "Where the warnings are, what the colours mean and what to do"}</small></span><i aria-hidden="true">${he ? "←" : "→"}</i></a>` : ""}
+  ${a.wx ? `<a class="wxbox" href="${P(lang, "/weather-warnings/")}"><span aria-hidden="true">${ic("alert")}</span><span><b>${he ? "כל אזהרות מזג האוויר ביוון במקום אחד" : "All Greece weather warnings in one place"}</b><small>${he ? "איפה יש אזהרה, מה אומרים הצבעים ומה עושים" : "Where the warnings are, what the colours mean and what to do"}</small></span><i aria-hidden="true">${he ? "←" : "→"}</i></a>` : ""}
   ${toc}
   <div class="prose" data-speak>${prose}</div>
   ${a.guide ? "" : relatedBox(a, lang)}
@@ -563,7 +565,7 @@ export function articleBody(a, lang, prev, next) {
   ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
   ${a.sensitive ? `<p class="closing">${esc(t.closing)}</p>` : ""}
   <aside class="askwa" style="margin:22px 0;padding:16px 18px;border-radius:14px;background:var(--soft, #EEF5F0);border:1px solid rgba(37,211,102,.35)"><b style="display:block;font-size:17px;margin-bottom:4px">${he ? "יש לכם שאלה על יוון?" : "Got a question about Greece?"}</b><p style="margin:0 0 10px">${he ? "כתבו לנו בוואטסאפ, בעברית, ונענה אישית." : "Message us on WhatsApp and we will answer you personally."}</p><a class="btn wa" href="https://wa.me/306906723676?text=${encodeURIComponent((he ? "שלום, יש לי שאלה על יוון (מהכתבה: " : "Hi, I have a question about Greece (from the article: ") + c.title + ")")}" target="_blank" rel="noopener" data-out="wa-ask">${he ? "שאלו אותנו בוואטסאפ" : "Ask us on WhatsApp"}</a></aside>
-  ${SITE.facebookPage ? `<aside class="fbfollow"><span aria-hidden="true">📘</span><span><b>${he ? "אהבתם? עקבו אחרי יוונט בפייסבוק" : "Liked it? Follow Yavanet on Facebook"}</b><small>${he ? "חדשות יוון בעברית, מבזקים ואזהרות, ישר לפיד." : "Greece news, alerts and guides in your feed."}</small></span><a class="btn fb" href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener" data-out="facebook-page">${he ? "עקבו" : "Follow"}</a></aside>` : ""}
+  ${SITE.facebookPage ? `<aside class="fbfollow"><span aria-hidden="true">${ic("facebook")}</span><span><b>${he ? "אהבתם? עקבו אחרי יוונט בפייסבוק" : "Liked it? Follow Yavanet on Facebook"}</b><small>${he ? "חדשות יוון בעברית, מבזקים ואזהרות, ישר לפיד." : "Greece news, alerts and guides in your feed."}</small></span><a class="btn fb" href="${esc(SITE.facebookPage)}" target="_blank" rel="noopener" data-out="facebook-page">${he ? "עקבו" : "Follow"}</a></aside>` : ""}
   <div class="src"><div>${esc(t.source)} ${src}</div></div>
   ${shareRow()}
     <button class="btn ghost" type="button" data-toggle="report-form">${esc(t.report)}</button>
