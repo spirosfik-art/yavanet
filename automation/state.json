@@ -2240,7 +2240,10 @@
     "c75163c9d331": 1791842006215,
     "dfad48733669": 1791842006215,
     "171011540b46": 1791842006215,
-    "de8d3c3bd424": 1791842006215
+    "de8d3c3bd424": 1791842006215,
+    "aefc861767b7": 1791842585840,
+    "482d81250632": 1791842585840,
+    "17f86709a425": 1791842585840
   },
   "pending": {},
   "sourceStatus": {
@@ -2252,12 +2255,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T21:52:58.172Z",
+      "at": "2026-10-12T22:02:42.725Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T21:52:59.098Z",
+      "at": "2026-10-12T22:02:43.709Z",
       "items": 3
     },
     "civilprotection": {
@@ -2268,27 +2271,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T21:53:01.232Z",
+      "at": "2026-10-12T22:02:46.251Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T21:53:17.168Z",
+      "at": "2026-10-12T22:02:56.181Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T21:53:18.282Z",
+      "at": "2026-10-12T22:02:57.218Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T21:53:19.007Z",
+      "at": "2026-10-12T22:02:58.206Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T21:53:19.837Z",
+      "at": "2026-10-12T22:02:59.090Z",
       "items": 10
     },
     "toi-greece": {
@@ -2299,22 +2302,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T21:53:20.398Z",
+      "at": "2026-10-12T22:02:59.724Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T21:53:20.764Z",
+      "at": "2026-10-12T22:02:59.989Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T21:53:21.286Z",
+      "at": "2026-10-12T22:03:00.438Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:53:21.553Z",
+      "at": "2026-10-12T22:03:00.977Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2324,12 +2327,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T21:52:59.382Z",
+      "at": "2026-10-12T22:02:44.267Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T21:53:22.137Z",
+      "at": "2026-10-12T22:03:01.591Z",
       "items": 0
     },
     "hcg": {
@@ -2340,32 +2343,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T21:53:24.027Z",
+      "at": "2026-10-12T22:03:03.535Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T21:53:24.290Z",
+      "at": "2026-10-12T22:03:03.736Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T21:53:24.497Z",
+      "at": "2026-10-12T22:03:03.871Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T21:53:24.696Z",
+      "at": "2026-10-12T22:03:04.082Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T21:53:25.060Z",
+      "at": "2026-10-12T22:03:04.421Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T21:53:25.511Z",
+      "at": "2026-10-12T22:03:04.828Z",
       "items": 8
     }
   },
@@ -2374,7 +2377,13 @@
     "date": "2026-10-13",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Greece Seeks Tighter Controls to Address Medicine Shortages",
+        "reason": "The Hebrew title contains a typo: 'כדי למצור' should be 'כדי למצוא'.",
+        "at": "2026-10-12T22:03:29.299Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -2466,14 +2475,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T21:53:26.215Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-12T22:03:05.840Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Greece Shifts From ‘Return’ to ‘Reunification’ of Parthenon Sculptures",
-      "· gct | Greece Plans Social Media Ban for Under-15s from January 2027",
-      "· ingr | Παρίσι: Πυρκαγιά κατέστρεψε ιστορική στεγασμένη αγορά τροφίμων από την εποχή του Λουδοβίκο",
-      "· gct | South Melbourne Boss Sinisa Cohadzic Joins Rivals Avondale Less Than 48 Hours After Austra"
+      "✓ gct | Greece Seeks Tighter Controls to Address Medicine Shortages",
+      "· gct | Greek Alphabet May Be Older Than Previously Thought",
+      "· gct | US Vice President JD Vance Expected in Athens for Breitbart Summit"
     ]
   },
   "evergreenDone": [
