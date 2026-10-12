@@ -1634,3 +1634,9 @@ a{text-underline-offset:.18em;text-decoration-thickness:from-font}
 /* Λωρίδα καταστημάτων: η κατάσταση στο εικονίδιο, όχι σε χρωματιστή πλαϊνή μπάρα */
 .hol-strip.hs-o,.hol-now.hs-o,.hol-strip.hs-c,.hol-now.hs-c,.hol-strip.hs-s,.hol-now.hs-s{border-inline-start:1px solid rgba(14,92,140,.18)}
 .hol-strip.hs-o .hs-ic{color:#1e9e5a}.hol-strip.hs-c .hs-ic{color:#d6293e}.hol-strip.hs-s .hs-ic{color:#B9771A}
+.midwa{display:flex;align-items:center;gap:12px;margin:20px 0;padding:14px 16px;border-radius:14px;background:#EEF8F1;border:1px solid rgba(37,211,102,.4)}
+.midwa>span:first-child{font-size:24px}
+.midwa b{display:block;font-size:16px}.midwa small{display:block;font-size:14px;line-height:1.45;opacity:.85}
+.midwa .btn{margin-inline-start:auto;white-space:nowrap}
+@media (max-width:520px){.midwa{flex-wrap:wrap}.midwa .btn{width:100%;text-align:center}}
+@media (prefers-color-scheme:dark){.midwa{background:rgba(37,211,102,.08)}}:root.night .midwa{background:rgba(37,211,102,.08)}

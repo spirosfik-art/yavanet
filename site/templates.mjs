@@ -490,6 +490,24 @@ const GUIDES = {
 };
 const DEST_LINKS = [["athens", "אתונה", "Athens", /athens|אתונה/i], ["thessaloniki", "סלוניקי", "Thessaloniki", /thessaloniki|סלוניקי/i], ["rhodes", "רודוס", "Rhodes", /rhodes|רודוס/i], ["crete", "כרתים", "Crete", /crete|כרתים|heraklion|chania/i], ["corfu", "קורפו", "Corfu", /corfu|קורפו/i], ["santorini", "סנטוריני", "Santorini", /santorini|סנטוריני/i], ["mykonos", "מיקונוס", "Mykonos", /mykonos|מיקונוס/i], ["kos", "קוס", "Kos", /\bkos\b|קוס/i], ["paros", "פארוס", "Paros", /paros|פארוס/i], ["chalkidiki", "חלקידיקי", "Chalkidiki", /chalkidiki|halkidiki|חלקידיקי/i], ["naxos", "נקסוס", "Naxos", /\bnaxos\b|נקסוס/i], ["milos", "מילוס", "Milos", /\bmilos\b|מילוס/i], ["zakynthos", "זקינתוס", "Zakynthos", /zakynthos|zante|זקינתוס/i], ["kefalonia", "קפלוניה", "Kefalonia", /kefalonia|cephalonia|קפלוניה|כפלוניה/i], ["lefkada", "לפקדה", "Lefkada", /lefkada|לפקדה/i], ["skiathos", "סקיאתוס", "Skiathos", /skiathos|סקיאתוס/i], ["thassos", "תאסוס", "Thassos", /thassos|תאסוס/i], ["meteora", "מטאורה", "Meteora", /meteora|מטאורה/i], ["nafplio", "נפפליו", "Nafplio", /nafplio|נפפליו|נאפפליו|נאפליו/i], ["kalamata", "קלמטה ומסיניה", "Kalamata & Messinia", /kalamata|messinia|קלמטה/i], ["zagori", "זגוריה ויואנינה", "Zagori & Ioannina", /zagori|ioannina|זגוריה|יואנינה/i]];
 // Εσωτερικοί σύνδεσμοι από τα άρθρα που φέρνουν κίνηση (καιρός, απεργίες, ταξίδι) προς τις σελίδες ακινήτων
+function midWa(a, lang, c) {
+  if (a.partner || a.sponsored || a.showcase || a.sensitive || a.section === "real-estate") return "";
+  const he = lang === "he", head = (a.en.title + " " + a.en.dek).toLowerCase();
+  const jew = a.section === "jewish-greece" || /jewish|kosher|chabad|synagogue|shabbat/.test(head);
+  const trav = !jew && (a.section === "travel" || /island|ferry|beach|hotel|trip|tour|flight/.test(head));
+  const [t, p, pre] = jew
+    ? (he ? ["מגיעים ליוון?", "שאלו אותנו בוואטסאפ על אוכל כשר, שבת ומקום לינה נוח. נענה אישית, בעברית.", "שלום, אני מגיע/ה ליוון ויש לי שאלה על כשרות/שבת (מהכתבה: "] : ["Coming to Greece?", "Ask us on WhatsApp about kosher food, Shabbat and a good place to stay. We answer personally.", "Hi, I'm coming to Greece and have a kosher/Shabbat question (from the article: "])
+    : trav
+    ? (he ? ["מתכננים טיול ליוון?", "שאלו אותנו בוואטסאפ: מעבורות, איפה לישון, מה שווה לראות. נענה אישית, בעברית.", "שלום, אני מתכנן/ת טיול ליוון ויש לי שאלה (מהכתבה: "] : ["Planning a trip to Greece?", "Ask us on WhatsApp: ferries, where to stay, what is worth seeing. We answer personally.", "Hi, I'm planning a trip to Greece and have a question (from the article: "])
+    : (he ? ["שאלה על החיים ביוון?", "מעבר, שכירות או קנייה של דירה: כתבו לנו בוואטסאפ ונענה אישית, בעברית.", "שלום, יש לי שאלה על יוון (מהכתבה: "] : ["A question about life in Greece?", "Moving, renting or buying a flat: message us on WhatsApp and we will answer personally.", "Hi, I have a question about Greece (from the article: "]);
+  return `<aside class="midwa"><span aria-hidden="true">💬</span><span><b>${t}</b><small>${p}</small></span><a class="btn wa" href="https://wa.me/306906723676?text=${encodeURIComponent(pre + c.title + ")")}" target="_blank" rel="noopener" data-out="wa-mid">${he ? "וואטסאפ" : "WhatsApp"}</a></aside>`;
+}
+function withMid(prose, box) {
+  if (!box) return prose;
+  let i = -1, n = 0, k = 0;
+  while ((k = prose.indexOf("</p>", k)) !== -1) { n++; k += 4; if (n === 3) { i = k; break; } }
+  return i === -1 ? prose : prose.slice(0, i) + box + prose.slice(i);
+}
 export function homeBox(a, lang) {
   if (a.section === "real-estate" || a.partner || a.sponsored || a.showcase || a.sensitive) return "";
   const he = lang === "he";
@@ -559,7 +577,7 @@ export function articleBody(a, lang, prev, next) {
   ${c.means ? `<div class="means"><b>${esc(t.means)}</b><p>${esc(c.means)}</p></div>` : ""}
   ${a.wx ? `<a class="wxbox" href="${P(lang, "/weather-warnings/")}"><span aria-hidden="true">${ic("alert")}</span><span><b>${he ? "כל אזהרות מזג האוויר ביוון במקום אחד" : "All Greece weather warnings in one place"}</b><small>${he ? "איפה יש אזהרה, מה אומרים הצבעים ומה עושים" : "Where the warnings are, what the colours mean and what to do"}</small></span><i aria-hidden="true">${he ? "←" : "→"}</i></a>` : ""}
   ${toc}
-  <div class="prose" data-speak>${prose}</div>
+  <div class="prose" data-speak>${withMid(prose, midWa(a, lang, c))}</div>
   ${a.guide ? "" : relatedBox(a, lang)}
   ${homeBox(a, lang)}
   ${cta}
