@@ -1,12 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "042c96f7ec4e": 1790595498773,
-    "500556c2b0e9": 1790595498773,
-    "c121044f6f4d": 1790595498773,
-    "772161dec124": 1790595498773,
-    "35ab339d9f42": 1790595498773,
-    "512e32153da2": 1790595498773,
     "f650bd47a485": 1790596317215,
     "e236c3bf33cb": 1790596317215,
     "af2383516292": 1790597177145,
@@ -2223,7 +2217,10 @@
     "ff44e3c3b71c": 1791804541392,
     "0240de204d9a": 1791804541392,
     "ae229d15fdef": 1791804541392,
-    "b11333fdac01": 1791804541392
+    "b11333fdac01": 1791804541392,
+    "54d0b3c4e226": 1791805608794,
+    "e9b905801019": 1791805608794,
+    "8934a51b3a63": 1791805608794
   },
   "pending": {},
   "sourceStatus": {
@@ -2235,12 +2232,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T11:28:40.517Z",
-      "items": 0
+      "at": "2026-10-12T11:46:37.512Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T11:28:41.295Z",
+      "at": "2026-10-12T11:46:38.101Z",
       "items": 4
     },
     "civilprotection": {
@@ -2251,27 +2248,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T11:28:43.203Z",
+      "at": "2026-10-12T11:46:39.764Z",
       "items": 14
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T11:28:43.601Z",
+      "at": "2026-10-12T11:46:40.151Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T11:28:44.656Z",
+      "at": "2026-10-12T11:46:41.250Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T11:28:45.474Z",
+      "at": "2026-10-12T11:46:41.886Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T11:28:46.413Z",
+      "at": "2026-10-12T11:46:42.694Z",
       "items": 10
     },
     "toi-greece": {
@@ -2282,22 +2279,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T11:28:46.704Z",
+      "at": "2026-10-12T11:46:43.143Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T11:28:47.043Z",
+      "at": "2026-10-12T11:46:43.430Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T11:28:47.293Z",
-      "items": 7
+      "at": "2026-10-12T11:46:43.608Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T11:28:47.699Z",
+      "at": "2026-10-12T11:46:43.964Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2307,12 +2304,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T11:28:41.639Z",
+      "at": "2026-10-12T11:46:38.748Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T11:28:48.241Z",
+      "at": "2026-10-12T11:46:44.398Z",
       "items": 0
     },
     "hcg": {
@@ -2323,33 +2320,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T11:28:49.682Z",
+      "at": "2026-10-12T11:46:46.280Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T11:28:49.951Z",
+      "at": "2026-10-12T11:46:46.490Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T11:28:50.198Z",
+      "at": "2026-10-12T11:46:46.697Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T11:28:50.466Z",
+      "at": "2026-10-12T11:46:46.899Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T11:28:50.802Z",
+      "at": "2026-10-12T11:46:47.235Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T11:28:51.260Z",
-      "items": 13
+      "at": "2026-10-12T11:46:47.642Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -2404,6 +2401,12 @@
         "title": "General Strike in Greece: Public Sector to Stop Work on November 25",
         "at": "2026-10-12T13:11:14+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "greece-weather-storm-snow-marousakis",
+        "title": "↻ Severe weather in Greece: Flooding in Lesbos and heavy rain in Rhodes",
+        "at": "2026-10-12T14:47:03+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2416,6 +2419,11 @@
         "title": "Real estate: Οι ιδιώτες μπαίνουν, οι θεσμικοί δυσκολεύονται – Πώς αλλάζει το επενδυτικό παιχνίδι",
         "reason": "The Hebrew version includes a typo in the body text: 'פיнансові' contains Cyrillic characters ('финансови' in a mix of scripts) instead of proper Hebrew letters.",
         "at": "2026-10-12T08:58:18.446Z"
+      },
+      {
+        "title": "Κακοκαιρία: Συστάσεις της Πολιτικής Προστασίας στους πολίτες ενόψει της επιδείνωσης του καιρού",
+        "reason": "Ίδιο θέμα με «Severe weather in Greece: Flooding in Lesbos and heavy rain in Rhodes»: Mixed-script (broken) Hebrew words: תanחו. Write every Hebrew word only in Hebrew letters.",
+        "at": "2026-10-12T11:47:28.371Z"
       }
     ],
     "errors": [],
@@ -2510,14 +2518,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T11:29:01.392Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-12T11:46:48.794Z",
+    "considered": 3,
+    "picked": 2,
     "items": [
-      "· ert | Στο Ευρωπαϊκό Δίκτυο Ιστορικών Κήπων το Πάρκο Κολοκοτρώνη στο Ναύπλιο",
-      "· gct | Cyprus Challenges Turkey’s Gas Pipeline Deal Over Occupied Territories",
-      "· naftemporiki | Τουρισμός: Κορυφαία διάκριση του ΕΟΤ στα Jet2 Marketing Awards 2026",
-      "· gn-iefimerida | Ανδρουλάκης: Το σχέδιο του ΠΑΣΟΚ για τις επιχειρήσεις -Παρεμβάσεις σε φορολογία, κόστος λε"
+      "✓ ingr | Κακοκαιρία: Συστάσεις της Πολιτικής Προστασίας στους πολίτες ενόψει της επιδείνωσης του κα",
+      "✓ ingr | Ξεκίνησε η κακοκαιρία: Υπερχείλισε ποτάμι στην Ερεσό της Λέσβου – Ισχυρή βροχόπτωση έπληξε",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Δημοπρασίας μίσθωσης ακινήτου για τη στέγαση της Διοίκησης Π.Υ."
     ]
   },
   "evergreenDone": [

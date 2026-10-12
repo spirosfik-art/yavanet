@@ -2,7 +2,7 @@
   "slug": "greece-weather-storm-snow-marousakis",
   "section": "breaking",
   "publishedAt": "2026-10-09T22:25:09+03:00",
-  "updatedAt": "2026-10-10T22:50:23+03:00",
+  "updatedAt": "2026-10-12T14:47:03+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 23.7275
   },
   "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/12/greece/ksekinise-i-kakokairia-yperxeilise-potami-stin-ereso-tis-lesvou-isxyri-vroxoptosi-eplikse-ti-rodo/"
+    },
     {
       "name": "Καθημερινή (μέσω Google News)",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMllIM2pQQk9xcGtkM0lzRUZIekFpY0YxUWkxN3pOTm1HbERnMVY3QTk2RWRFZng1cm5SWHAyYmVqbDBZZDhudC1SYS1LNHJXT0tXZlhkc0xrcmFySzdrNTNtMm1xRWlVQkJRMjVjNW16Y1NiSzhMdFBjcjlKby10MkZlS1A0UlJldE4weF9mQnFkR1FOX3cyQnhoLU9IMDNzZFZNNzZkcElEMGxwc3AtSHYteHQwVGJMazBVN0w0MFlGb0Flb29XY0x4UUNYQQ?oc=5"
@@ -38,26 +42,26 @@
     "en": "Storm"
   },
   "he": {
-    "title": "מערכת חורפית ביוון: סערות חזקות, קור ושלגים בדרך",
-    "dek": "מערכת מזג אוויר סוערת פוקדת את יוון ומביאה עמה מטחי גשמים כבדים, רוחות עזות, התקררות ניכרת ושלגים בפסגות ההרים.",
+    "title": "סערה ביוון: נחלים עלו על גדותיהם בלסבוס והצפות ברודוס",
+    "dek": "גשמים עזים וסערות פוקדים את איי יוון, עם הצפות מקומיות בלסבוס ושיבושים בחשמל ובעבודות בכבישים ברודוס.",
     "tldr": [
-      "מערכת חורפית כפולה פוגעת באזורים שונים ביוון.",
-      "צפויות סופות רעמים חזקות ומשקעים מרובים.",
-      "הטמפרטורות צפויות לרדת ושלגים יירדו בהרים."
+      "מערכת חורפית הביאה גשמים חזקים ללסבוס ולרודוס ביום שני.",
+      "בלסבוס נרשמה הצפה ונהג חולץ לאחר שמכוניתו נסחפה בזרם המים.",
+      "בשטחי רודוס הורגשו הפסקות חשמל נרחבות וראות לקויה בכבישים."
     ],
-    "means": "אם אתם מתכננים חופשה או נמצאים כעת ביוון, כדאי לעקוב אחר תחזית מזג האוויר המקומית ולהתאים את תוכניות הנסיעה שלכם. תנאי מזג האוויר עלולים להשפיע על התחבורה והטיולים באזורים ההרריים, ולכן מומלץ לוודא זמני הגעה ולהתעדכן מול חברות התעופה והרשויות המקומיות לפני כל יציאה לדרך.",
-    "body": "## גל קור וסערה ברחבי המדינה\n\nהרשויות ביוון מעדכנות על הגעתה של מערכת חורפית משמעותית המביאה עמה תנאי מזג אוויר קשים ובלתי יציבים. המערכת כוללת גשמים חזקים, סופות רעמים וירידה חדה בטמפרטורות, לצד סיכוי משמעותי לשלגים באזורים הגבוהים ובהרים.\n\n## היערכות הרשויות והתחזית\n\nהחזאים מדווחים על פגיעה כפולה של מזג האוויר הסוער, המשפיע על אזורים נרחבים במדינה. התושבים והמטיילים מתבקשים לנקוט משנה זהירות בדרכים, להימנע משהייה באזורים מועדים להצפות, ולהישמע להנחיות גורמי החירום המקומיים.\n\n## השפעה על מטיילים ותיירים\n\nעבור ישראלים השוהים ביעדים השונים ביוון או מתכננים להגיע בימים הקרובים, מומלץ להתעדכן באופן שוטף בשינויים הצפויים בתחבורה הציבורית ובפעילות האוויר והים. תנאי הראות והרוחות העזות עלולים ליצור שיבושים זמניים."
+    "means": "אם אתם מתכננים חופשה או נמצאים כעת באיים כדוגמת רודוס או לסבוס, תעקבו אחר תחזית מזג האוויר המקומית והימנעו מנסיעה באזורים מוצפים. תבדקו מול מקום הלינה שלכם על שיבושים אפשריים ותנהגו במשנה זהירות בדרכים עקב ראות לקויה וכבישים חלקלקים.",
+    "body": "## מזג אוויר סוער פוקד את האיים\n\nמערכת מזג אוויר קשה החלה להשפיע על מספר אזורים ביוון, והביאה עמה משקעים רבים בזמן קצר. המוקדים המרכזיים שסבלו מהתופעות הם האי לסבוס והאי רודוס, שם נרשמו הצפות ושיבושים בשגרת החיים.\n\nבלסבוס, האזור שנפגע בצורה הבולטת ביותר היה סקאלה אֶרֶסוּ. כמות המים הגדולה שירדה בזמן קצר גרמה לעליית מפלס הנהר המקומי ולגלישת מים אל עבר דרכים ואזורים מיושבים. באחד המקרים בקרבת גשר מקומי, כלי רכב נקלע לזרם חזק ונסחף, אך למרבה המזל נבלם בבטחה טרם הגיע אל הים. הרשויות המקומיות פעלו במהירות לפתיחת צינורות הניקוז ולפינוי חומרי סחף שהצטברו בדרכים, ומפלס המים החל לרדת.\n\n## הפסקות חשמל ושיבושים ברודוס\n\nגם האי רודוס חווה גשמים חזקים ואירועי ברד מלווים ברוחות ובברקים. הסערה הובילה להפסקות חשמל ממושכות באזורים נרחבים, כולל במרכז העיר רודוס ובשכונות סמוכות כמו יאליסוס.\n\nהרשויות ברודוס קראו לציבור המקומי ולמטיילים לנקוט משנה זהירות בעת תנועה בכבישים. הגשמים השוטפים מקשים על הראות ומותירים את משטחי האספלט חלקים במיוחד, ולכן מומלץ להקפיד על נסיעה איטית ובטוחה."
   },
   "en": {
-    "title": "Severe weather in Greece: storms, cold and mountain snow",
-    "dek": "A powerful weather system hits Greece with heavy rain, strong thunderstorms, significant cooling, and snow expected in mountainous areas.",
+    "title": "Severe weather in Greece: Flooding in Lesbos and heavy rain in Rhodes",
+    "dek": "Strong storms bring heavy downpours to Greek islands, leading to localized flooding in Lesbos and widespread power outages in Rhodes.",
     "tldr": [
-      "A double weather front is impacting various regions across Greece.",
-      "Heavy downpours, thunderstorms, and strong winds are expected.",
-      "Temperatures will drop sharply with snow in the mountains."
+      "A severe weather system brought heavy rain to Lesbos and Rhodes.",
+      "In Lesbos, a river overflowed its banks and a car was swept away before being stopped safely.",
+      "Rhodes experienced extensive power cuts and difficult driving conditions due to heavy rain."
     ],
-    "means": "If you are traveling to or currently in Greece, keep a close eye on local weather forecasts and adjust your travel plans accordingly. Adverse conditions may affect transportation and outdoor activities, so check with local authorities and service providers before heading out.",
-    "body": "## A Cold Snap and Storms Nationwide\n\n Greek authorities report the arrival of a significant winter weather system bringing severe and unstable conditions. The system features heavy rainfall, intense thunderstorms, and a sharp drop in temperatures, along with snowfall expected in higher elevations and mountainous regions.\n\n## Authorities and Forecast\n\nForecasters note a dual impact from the stormy weather affecting wide areas of the country. Residents and visitors are advised to exercise caution on the roads, avoid areas prone to flooding, and follow guidelines issued by local emergency services.\n\n## Impact on Travelers\n\nFor Israelis currently in Greece or planning a trip in the coming days, it is recommended to stay updated on potential disruptions to public transportation and outdoor schedules. Reduced visibility and strong winds may cause temporary changes."
+    "means": "If you are currently visiting the affected islands or planning a trip there soon, stay updated on local weather alerts and avoid low-lying or flooded areas. Exercise caution while driving due to reduced visibility and slippery roads, and check with your accommodation provider for any local service interruptions.",
+    "body": "## Severe storms hit the Greek islands\n\nA harsh weather front has moved across parts of Greece, bringing intense rainfall and localized disruptions. The primary areas impacted by the severe conditions are the islands of Lesbos and Rhodes.\n\nIn Lesbos, Skala Eresos was heavily affected by the sudden downpour. The large volume of water caused a local river to overflow, sending debris and mud toward residential courtyards and roadways. A vehicle parked near a local bridge was caught in the rushing water but was successfully stopped before reaching the sea. Local teams intervened quickly to clear blocked drainage paths, and water levels have since begun to recede.\n\n## Power cuts and road safety in Rhodes\n\nMeanwhile, Rhodes experienced heavy rainfall accompanied by localized hail. The storms triggered extensive power outages affecting the center of Rhodes town as well as outlying districts such as Ialysos.\n\nLocal authorities have issued safety reminders for drivers across the island. The heavy rain significantly reduces visibility and makes road surfaces slippery, requiring extra caution during all necessary travel."
   },
   "meta": {
     "itemId": "ec9c321df1cd",
@@ -66,6 +70,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-12T09:11:15.880Z",
     "official": false,
-    "updatedFrom": "53da02e7dba8"
+    "updatedFrom": "e9b905801019"
   }
 }
