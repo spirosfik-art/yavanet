@@ -2247,7 +2247,9 @@
     "d0cafa0d7c90": 1791815644078,
     "702bb17abf14": 1791815644078,
     "7d0eead77c55": 1791815644078,
-    "637b121d1b98": 1791815644078
+    "637b121d1b98": 1791815644078,
+    "e26213c1ad33": 1791817429820,
+    "10cf6234fd52": 1791817429820
   },
   "pending": {
     "7a4b8c": {
@@ -2361,12 +2363,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T14:33:48.454Z",
-      "items": 10
+      "at": "2026-10-12T15:03:35.848Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T14:33:49.261Z",
+      "at": "2026-10-12T15:03:36.815Z",
       "items": 3
     },
     "civilprotection": {
@@ -2377,27 +2379,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T14:33:54.990Z",
+      "at": "2026-10-12T15:03:39.437Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T14:33:55.205Z",
+      "at": "2026-10-12T15:03:39.843Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T14:33:56.308Z",
+      "at": "2026-10-12T15:03:41.032Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T14:33:57.122Z",
+      "at": "2026-10-12T15:03:42.021Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T14:33:58.087Z",
+      "at": "2026-10-12T15:03:43.166Z",
       "items": 10
     },
     "toi-greece": {
@@ -2408,22 +2410,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T14:33:58.621Z",
+      "at": "2026-10-12T15:03:43.570Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T14:33:58.999Z",
+      "at": "2026-10-12T15:03:43.852Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T14:33:59.249Z",
+      "at": "2026-10-12T15:03:44.304Z",
       "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T14:33:59.701Z",
+      "at": "2026-10-12T15:03:44.842Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2433,12 +2435,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T14:33:50.034Z",
+      "at": "2026-10-12T15:03:37.589Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T14:34:00.465Z",
+      "at": "2026-10-12T15:03:45.740Z",
       "items": 0
     },
     "hcg": {
@@ -2449,39 +2451,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T14:34:01.825Z",
+      "at": "2026-10-12T15:03:47.356Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T14:34:01.977Z",
+      "at": "2026-10-12T15:03:47.561Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T14:34:02.189Z",
+      "at": "2026-10-12T15:03:47.762Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T14:34:02.435Z",
+      "at": "2026-10-12T15:03:48.067Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T14:34:02.772Z",
+      "at": "2026-10-12T15:03:48.523Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T14:34:03.139Z",
+      "at": "2026-10-12T15:03:48.900Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-12",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "gkrava-schools-closed-athens-gas-odour",
@@ -2565,6 +2567,12 @@
         "slug": "michalis-kouveliotis-new-ceo-aegean",
         "title": "Michalis Kouveliotis Takes Over as AEGEAN's New CEO",
         "at": "2026-10-12T17:34:17+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "greece-records-fewer-road-deaths-2026",
+        "title": "Greece Records Fewer Road Deaths in First Eight Months of 2026",
+        "at": "2026-10-12T18:04:05+03:00",
         "section": "travel"
       }
     ],
@@ -2690,15 +2698,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T14:34:04.078Z",
-    "considered": 5,
+    "at": "2026-10-12T15:03:49.820Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· naftemporiki | Θεσσαλονίκη: Διασωληνωμένη με εκτεταμένα εγκαύματα γυναίκα μετά τη φωτιά στο Πανόραμα",
-      "· gtp | Eurostat: Domestic Travel Accounts for 85% of Trips by Greek Residents",
-      "· ert | Ισραήλ: Ένας νεκρός και περίπου 20 τραυματίες από έκρηξη κατά τη διάρκεια πεζοπορίας μαθητ",
-      "· ingr | Η ΕΛΑΣ για τα 82 χρόνια από την απελευθέρωση της Αθήνας – «Ο αγώνας ενάντια στον φασισμό π",
-      "✓ gtp | Michalis Kouveliotis Takes Over as AEGEAN’s New CEO"
+      "· ingr | ΚΚΕ: Προτάσεις για την ακρίβεια στην ενέργεια – Τι λέει για τη «ρήτρα διαφυγής»",
+      "✓ gtp | Greece Records 62 Fewer Road Deaths in First Eight Months of 2026"
     ]
   },
   "evergreenDone": [
