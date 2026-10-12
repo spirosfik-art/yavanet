@@ -2242,7 +2242,12 @@
     "28c7f80226b8": 1791814301910,
     "9a3c4484d396": 1791814301910,
     "3e30400bc080": 1791814301910,
-    "ac67953cdd6e": 1791814301910
+    "ac67953cdd6e": 1791814301910,
+    "c565e37990ba": 1791815644078,
+    "d0cafa0d7c90": 1791815644078,
+    "702bb17abf14": 1791815644078,
+    "7d0eead77c55": 1791815644078,
+    "637b121d1b98": 1791815644078
   },
   "pending": {
     "7a4b8c": {
@@ -2356,12 +2361,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-12T14:11:29.011Z",
+      "at": "2026-10-12T14:33:48.454Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-12T14:11:29.692Z",
+      "at": "2026-10-12T14:33:49.261Z",
       "items": 3
     },
     "civilprotection": {
@@ -2372,27 +2377,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-12T14:11:31.716Z",
+      "at": "2026-10-12T14:33:54.990Z",
       "items": 34
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-12T14:11:32.115Z",
+      "at": "2026-10-12T14:33:55.205Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-12T14:11:33.489Z",
+      "at": "2026-10-12T14:33:56.308Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-12T14:11:34.349Z",
-      "items": 1
+      "at": "2026-10-12T14:33:57.122Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-12T14:11:35.167Z",
+      "at": "2026-10-12T14:33:58.087Z",
       "items": 10
     },
     "toi-greece": {
@@ -2403,23 +2408,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-12T14:11:35.729Z",
+      "at": "2026-10-12T14:33:58.621Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-12T14:11:36.134Z",
+      "at": "2026-10-12T14:33:58.999Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-12T14:11:36.658Z",
-      "items": 9
+      "at": "2026-10-12T14:33:59.249Z",
+      "items": 10
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T14:11:36.853Z",
-      "items": 4
+      "at": "2026-10-12T14:33:59.701Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2428,12 +2433,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-12T14:11:30.316Z",
+      "at": "2026-10-12T14:33:50.034Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-12T14:11:37.628Z",
+      "at": "2026-10-12T14:34:00.465Z",
       "items": 0
     },
     "hcg": {
@@ -2444,39 +2449,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-12T14:11:39.380Z",
+      "at": "2026-10-12T14:34:01.825Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-12T14:11:39.631Z",
+      "at": "2026-10-12T14:34:01.977Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-12T14:11:39.809Z",
+      "at": "2026-10-12T14:34:02.189Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-12T14:11:40.042Z",
+      "at": "2026-10-12T14:34:02.435Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-12T14:11:40.395Z",
-      "items": 7
+      "at": "2026-10-12T14:34:02.772Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-12T14:11:40.892Z",
+      "at": "2026-10-12T14:34:03.139Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-12",
-    "count": 6,
+    "count": 7,
     "published": [
       {
         "slug": "gkrava-schools-closed-athens-gas-odour",
@@ -2554,6 +2559,12 @@
         "slug": "thessaloniki-brush-fire-panorama",
         "title": "Brush fire near Thessaloniki: Woman found unconscious and hospitalized",
         "at": "2026-10-12T16:27:58+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "michalis-kouveliotis-new-ceo-aegean",
+        "title": "Michalis Kouveliotis Takes Over as AEGEAN's New CEO",
+        "at": "2026-10-12T17:34:17+03:00",
         "section": "travel"
       }
     ],
@@ -2679,14 +2690,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-12T14:11:41.910Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-12T14:34:04.078Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Περιοδεία Τσίπρα στην Κρήτη: Αυτοψία στις πληγείσες περιοχές του Λασιθίου, ενημέρωση για τ",
-      "· naftemporiki | Η Σαουδική Αραβία στοχεύει να αυξήσει τη δυναμικότητα εξαγωγής πετρελαίου μέσω αγωγών στα ",
-      "· ingr | ΥΠΟΙΚ: Ολες οι οφειλές σε Δημόσιο και ΕΦΚΑ σε μία εφαρμογή – Πώς θα λειτουργεί",
-      "· gn-kathimerini | «Αδειασαν» οι ουρανοί μετά τις επιθέσεις των Χούθι στο αεροδρόμιο του Ριάντ - Kathimerini"
+      "· naftemporiki | Θεσσαλονίκη: Διασωληνωμένη με εκτεταμένα εγκαύματα γυναίκα μετά τη φωτιά στο Πανόραμα",
+      "· gtp | Eurostat: Domestic Travel Accounts for 85% of Trips by Greek Residents",
+      "· ert | Ισραήλ: Ένας νεκρός και περίπου 20 τραυματίες από έκρηξη κατά τη διάρκεια πεζοπορίας μαθητ",
+      "· ingr | Η ΕΛΑΣ για τα 82 χρόνια από την απελευθέρωση της Αθήνας – «Ο αγώνας ενάντια στον φασισμό π",
+      "✓ gtp | Michalis Kouveliotis Takes Over as AEGEAN’s New CEO"
     ]
   },
   "evergreenDone": [
