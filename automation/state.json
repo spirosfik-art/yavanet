@@ -2264,7 +2264,11 @@
     "1216867184e9": 1791907089107,
     "af61426a78d3": 1791907089107,
     "beb42ec13798": 1791907783327,
-    "7355d3d28c1f": 1791908875480
+    "7355d3d28c1f": 1791908875480,
+    "435750e62873": 1791910215180,
+    "f278c1307557": 1791910215180,
+    "abf8acf54ba4": 1791910215180,
+    "c2032613561d": 1791910215180
   },
   "pending": {
     "8e27ee": {
@@ -2380,12 +2384,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T16:26:32.594Z",
+      "at": "2026-10-13T16:47:43.463Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T16:26:33.538Z",
+      "at": "2026-10-13T16:47:44.461Z",
       "items": 2
     },
     "civilprotection": {
@@ -2396,27 +2400,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T16:26:35.932Z",
+      "at": "2026-10-13T16:47:47.201Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T16:26:49.550Z",
+      "at": "2026-10-13T16:47:58.847Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T16:26:50.844Z",
+      "at": "2026-10-13T16:48:00.326Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T16:26:51.801Z",
-      "items": 4
+      "at": "2026-10-13T16:48:01.296Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T16:26:52.853Z",
+      "at": "2026-10-13T16:48:02.352Z",
       "items": 10
     },
     "toi-greece": {
@@ -2427,22 +2431,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T16:26:53.496Z",
+      "at": "2026-10-13T16:48:03.045Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T16:26:53.771Z",
+      "at": "2026-10-13T16:48:03.166Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T16:26:54.201Z",
-      "items": 5
+      "at": "2026-10-13T16:48:03.903Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T16:26:54.397Z",
+      "at": "2026-10-13T16:48:04.105Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2452,13 +2456,14 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T16:26:34.096Z",
+      "at": "2026-10-13T16:47:45.012Z",
       "items": 30
     },
     "hcaa": {
-      "ok": true,
-      "at": "2026-10-13T16:26:55.218Z",
-      "items": 0
+      "ok": false,
+      "at": "2026-10-13T16:48:24.107Z",
+      "error": "This operation was aborted",
+      "fails": 1
     },
     "hcg": {
       "ok": false,
@@ -2468,39 +2473,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T16:26:56.907Z",
+      "at": "2026-10-13T16:48:25.677Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T16:26:57.111Z",
+      "at": "2026-10-13T16:48:25.963Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T16:26:57.272Z",
+      "at": "2026-10-13T16:48:26.221Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T16:26:57.428Z",
+      "at": "2026-10-13T16:48:26.453Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T16:26:57.800Z",
+      "at": "2026-10-13T16:48:26.844Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T16:26:58.220Z",
+      "at": "2026-10-13T16:48:27.314Z",
       "items": 13
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-13",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "greece-storm-october-2026",
@@ -2585,6 +2590,12 @@
         "title": "EU Entry-Exit System: Airports and Airlines Propose Six Measures to Cut Delays",
         "at": "2026-10-13T19:31:54+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "halkidiki-floods-heavy-rain-siviri",
+        "title": "Halkidiki: Roads turn to rivers in Siviri after heavy rainfall",
+        "at": "2026-10-13T19:54:32+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2708,11 +2719,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T16:27:55.480Z",
-    "considered": 1,
+    "at": "2026-10-13T16:50:15.180Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "✓ gtp | EU Entry/Exit System: Airports, Airlines Propose Six Measures to Cut Delays"
+      "· ert | Πέλλα: Δύσκολη χρονιά για το ρόδι – Μειωμένη κατά 60% η φετινή σοδειά",
+      "✓ ert | Σίβηρη Χαλκιδικής: Οι δρόμοι έγιναν ποτάμια από τις έντονες βροχοπτώσεις – Ανησυχία μετά τ",
+      "· gtp | WTTC Projects 27% Tourism Workforce Shortfall for Greece by 2035",
+      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
     ]
   },
   "evergreenDone": [

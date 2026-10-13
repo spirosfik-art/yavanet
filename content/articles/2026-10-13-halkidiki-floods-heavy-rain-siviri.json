@@ -1,0 +1,80 @@
+{
+  "slug": "halkidiki-floods-heavy-rain-siviri",
+  "section": "breaking",
+  "publishedAt": "2026-10-13T19:54:32+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 40.3392,
+    "lng": 23.3644
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/roi-idiseon/siviri-xalkidikis-oi-dromoi-eginan-potamia-apo-tis-entones-vroxoptoseis-anisyxia-meta-ti-fotia-tou-kalokairiou/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33438435/pexels-photo-33438435.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A black and white photo depicting flood cleanup efforts in an urban setting, showcasing resilience.",
+    "credit": "Photo: JESUS ADRIÁN SAAVEDRA / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/urban-flood-cleanup-efforts-in-black-and-white-33438435/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "מזג אוויר סוער",
+    "en": "Severe weather"
+  },
+  "he": {
+    "title": "חלקידיקי: הצפות ורחובות שהפכו לנהרות בעקבות גשמים עזים",
+    "seoTitle": "חלקידיקי: הצפות וגשמים עזים בכפר סיבירי ביוון",
+    "seoDesc": "גשמים חזקים בחלקידיקי הפכו רחובות לנהרות בסיבירי, חודשים אחרי ששריפת יער פגעה באזור. כל הפרטים על מזג האוויר ביוון.",
+    "keywords": [
+      "חלקידיקי",
+      "מזג אוויר ביוון",
+      "סערה ביוון",
+      "יוון",
+      "צפון יוון"
+    ],
+    "dek": "כמויות אדירות של מים ירדו מההרים וזרמו דרך אפיקי נחלים באזור השרוף בכפר סיבירי, והרשויות נערכות להמשך הגשמים.",
+    "tldr": [
+      "גשמים חזקים גרמו לזרימת מים חזקה מההר בסיבירי שבחלקידיקי.",
+      "המים עברו באפיקי נחלים באזור נפגע השריפה בקיץ האחרון.",
+      "הרשויות המקומיות מקדמות פרויקטים למניעת הצפות נוספות."
+    ],
+    "means": "אם אתם מטיילים בחלקידיקי או מתכננים להגיע לאזור קסנדרה, בדקו את תחזית מזג האוויר המעודכנת והימנעו מנסיעה באזורים מוצפים ליד נחלים. מומלץ להתעדכן בהנחיות הרשויות המקומיות בזמן אמת.",
+    "body": "## גשמים עזים בסיבירי שבחלקידיקי\n\nכבישים מרכזיים בכפר סיבירי שבחצי האי קסנדרה בחלקידיקי הפכו לנהרות של ממש בעקבות גשמים חזקים שירדו באזור. כמויות גדולות של מים ירדו מההרים וזרמו דרך שני אפיקי נחלים היישר אל הים, תוך שהם עוברים בשטח שנפגע משריפת יער במהלך הקיץ האחרון.\n\nהמערכת החורפית שהכתה באזור העלתה את מפלס הדאגה בקרב התושבים ובעלי דירות הנופש במקום, וזאת בשל מצבם של אפיקי הנחלים באזור השרוף.\n\n## פעולות מניעה והגנה\n\nבעקבות האירועים, הרשויות המקומיות מדגישות כי מתבצעות פעולות שיקום והגנה. בשלב קודם הוקצו משאבים בהיקף של 3.5 מיליון אירו לשיקום תשתיות בחבל קסנדרה, מתוכם 2.5 מיליון אירו הועברו לעירייה ומיליון אירו נוספים למחוז חלקידיקי.\n\nבמקביל, הרשויות מקדמות שלב נוסף בתוכנית להגנה מפני שיטפונות, הכולל הקמת מחסומים שונים באזורי הניקוז. השירותים המקצועיים נותרים בכוננות גבוהה לקראת אפשרות של אירועי מזג אוויר קיצוניים נוספים בחצי האי קסנדרה."
+  },
+  "en": {
+    "title": "Halkidiki: Roads turn to rivers in Siviri after heavy rainfall",
+    "seoTitle": "Halkidiki floods: heavy rain hits Siviri in Greece",
+    "seoDesc": "Heavy rain caused floods in Siviri, Halkidiki, as torrents rushed down from burnt mountain areas. Check weather updates in Greece.",
+    "keywords": [
+      "Halkidiki weather",
+      "Siviri floods",
+      "Greece storms",
+      "Halkidiki",
+      "North Greece"
+    ],
+    "dek": "Torrential rain turned central streets into rivers in the settlement of Siviri, raising concerns months after summer wildfires.",
+    "tldr": [
+      "Heavy downpours sent massive amounts of water rushing down mountain streams in Siviri.",
+      "The streams run through areas affected by summer wildfires in Kassandra.",
+      "Local authorities are advancing flood protection projects and remaining on alert."
+    ],
+    "means": "If you are traveling in Halkidiki or visiting the Kassandra peninsula, monitor local weather forecasts closely. Avoid driving through flooded streets or near stream beds during heavy storms, and follow instructions from local authorities.",
+    "body": "## Heavy rains hit Siviri in Halkidiki\n\nCentral roads in the settlement of Siviri, located in the Halkidiki region, turned into rivers following intense rainfall. Large volumes of water rushed down from the mountain, flowing through two stream beds located within the basin of the area burned by wildfires this past summer.\n\nStorms experienced over the weekend caused anxiety among residents and holiday home owners regarding the condition of local drainage systems in the wildfire-scarred landscape.\n\n## Flood prevention measures\n\nAuthorities noted that funding from a 3.5 million euro support package for Kassandra infrastructure rehabilitation has previously been allocated, with 2.5 million euros given to the municipality and 1 million euros to the regional unit of Halkidiki.\n\nMeanwhile, the next phase of anti-flood protection is underway, focusing on the construction of branch barriers and log barriers. Relevant services remain on high alert to respond to any further severe weather events across the Kassandra peninsula."
+  },
+  "meta": {
+    "itemId": "f278c1307557",
+    "imageQuery": "heavy rain flood street greece",
+    "sourceHash": "1f749e48c89a",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-13T16:54:33.201Z",
+    "official": false
+  }
+}
