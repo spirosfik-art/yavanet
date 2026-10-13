@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "b3b028c0fca4": 1790699277843,
-    "bc13400bd04c": 1790699277843,
-    "423c3c68df22": 1790699277843,
     "e4d388dd5041": 1790701345810,
     "7a4d950f8577": 1790703398530,
     "9b2e6e12fc01": 1790703398530,
@@ -2266,7 +2263,8 @@
     "dfd9b928fed0": 1791907089107,
     "1216867184e9": 1791907089107,
     "af61426a78d3": 1791907089107,
-    "beb42ec13798": 1791907783327
+    "beb42ec13798": 1791907783327,
+    "7355d3d28c1f": 1791908875480
   },
   "pending": {
     "8e27ee": {
@@ -2382,12 +2380,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T16:08:44.978Z",
+      "at": "2026-10-13T16:26:32.594Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T16:08:45.600Z",
+      "at": "2026-10-13T16:26:33.538Z",
       "items": 2
     },
     "civilprotection": {
@@ -2398,27 +2396,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T16:08:47.282Z",
+      "at": "2026-10-13T16:26:35.932Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T16:08:47.761Z",
+      "at": "2026-10-13T16:26:49.550Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T16:08:48.524Z",
+      "at": "2026-10-13T16:26:50.844Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T16:08:49.110Z",
+      "at": "2026-10-13T16:26:51.801Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T16:08:49.532Z",
+      "at": "2026-10-13T16:26:52.853Z",
       "items": 10
     },
     "toi-greece": {
@@ -2429,23 +2427,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T16:08:49.920Z",
+      "at": "2026-10-13T16:26:53.496Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T16:08:49.992Z",
+      "at": "2026-10-13T16:26:53.771Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T16:08:50.187Z",
-      "items": 6
+      "at": "2026-10-13T16:26:54.201Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T16:08:50.327Z",
-      "items": 4
+      "at": "2026-10-13T16:26:54.397Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2454,12 +2452,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T16:08:45.886Z",
+      "at": "2026-10-13T16:26:34.096Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T16:08:50.608Z",
+      "at": "2026-10-13T16:26:55.218Z",
       "items": 0
     },
     "hcg": {
@@ -2470,39 +2468,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T16:08:51.703Z",
+      "at": "2026-10-13T16:26:56.907Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T16:08:51.918Z",
+      "at": "2026-10-13T16:26:57.111Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T16:08:52.121Z",
+      "at": "2026-10-13T16:26:57.272Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T16:08:52.410Z",
-      "items": 8
+      "at": "2026-10-13T16:26:57.428Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T16:08:52.842Z",
+      "at": "2026-10-13T16:26:57.800Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T16:08:53.349Z",
+      "at": "2026-10-13T16:26:58.220Z",
       "items": 13
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-13",
-    "count": 6,
+    "count": 7,
     "published": [
       {
         "slug": "greece-storm-october-2026",
@@ -2581,6 +2579,12 @@
         "title": "Nuremberg airport closed due to emergency on flight from Corfu",
         "at": "2026-10-13T16:12:07+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "eu-entry-exit-system-airports-airlines-propose-six-measures",
+        "title": "EU Entry-Exit System: Airports and Airlines Propose Six Measures to Cut Delays",
+        "at": "2026-10-13T19:31:54+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2608,6 +2612,10 @@
       {
         "slug": "greek-antiquities-returned-from-israel",
         "at": "2026-10-13T11:46:16.981Z"
+      },
+      {
+        "slug": "eu-entry-exit-system-airports-airlines-propose-six-measures",
+        "at": "2026-10-13T16:31:54.644Z"
       }
     ]
   },
@@ -2700,11 +2708,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T16:09:43.327Z",
+    "at": "2026-10-13T16:27:55.480Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· ert | Πολιτική κόντρα για τα μέτρα κατά της ενεργειακής κρίσης – Προτάσεις από ΠΑΣΟΚ για ιδωτικό"
+      "✓ gtp | EU Entry/Exit System: Airports, Airlines Propose Six Measures to Cut Delays"
     ]
   },
   "evergreenDone": [
@@ -2747,5 +2755,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791811494211,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "eu-entry-exit-system-airports-airlines-propose-six-measures",
+      "url": "https://yavanet.gr/a/eu-entry-exit-system-airports-airlines-propose-six-measures/",
+      "at": "2026-10-13T16:31:54.644Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/eu-entry-exit-system-airports-airlines-propose-six-measures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/eu-entry-exit-system-airports-airlines-propose-six-measures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "בדיקות גבול באיחוד האירופי: חברות התעופה דורשות פתרונות לעיכובים",
+        "title_en": "EU Entry-Exit System: Airports and Airlines Propose Six Measures to Cut Delays",
+        "dek_he": "ארגוני התעופה והשדות באירופה קוראים לנקיטת צעדים מיידיים להפחתת העיכובים והתורים הארוכים במערכת כניסת הנוסעים החדשה.",
+        "dek_en": "European aviation associations call for immediate operational changes to tackle persistent queues and delays at Schengen borders.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/38248818/pexels-photo-38248818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "בדיקות גבול באיחוד האירופי: חברות התעופה דורשות פתרונות לעיכובים\n\nארגוני התעופה והשדות באירופה קוראים לנקיטת צעדים מיידיים להפחתת העיכובים והתורים הארוכים במערכת כניסת הנוסעים החדשה.\n\nhttps://yavanet.gr/a/eu-entry-exit-system-airports-airlines-propose-six-measures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "EU Entry-Exit System: Airports and Airlines Propose Six Measures to Cut Delays\n\nEuropean aviation associations call for immediate operational changes to tackle persistent queues and delays at Schengen borders.\n\nhttps://yavanet.gr/en/a/eu-entry-exit-system-airports-airlines-propose-six-measures/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
