@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "a8a7a08bd0e2": 1790724104915,
-    "1eff35bdd4fc": 1790724104915,
     "b00d5493bf9b": 1790728342333,
     "a9b23719bf94": 1790729785969,
     "78e8a61de993": 1790729785969,
@@ -2281,7 +2279,8 @@
     "2d3cbe363fa7": 1791932542769,
     "d752aa694efd": 1791932542769,
     "aa3a1ab11843": 1791932542769,
-    "ed3d2c176c30": 1791932542769
+    "ed3d2c176c30": 1791932542769,
+    "35dc5aec88c4": 1791934359606
   },
   "pending": {},
   "sourceStatus": {
@@ -2293,12 +2292,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T23:02:11.778Z",
+      "at": "2026-10-13T23:32:26.780Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T23:02:12.536Z",
+      "at": "2026-10-13T23:32:27.696Z",
       "items": 2
     },
     "civilprotection": {
@@ -2309,27 +2308,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T23:02:14.124Z",
+      "at": "2026-10-13T23:32:30.043Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T23:02:14.306Z",
+      "at": "2026-10-13T23:32:30.262Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T23:02:15.401Z",
+      "at": "2026-10-13T23:32:31.577Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T23:02:16.258Z",
+      "at": "2026-10-13T23:32:32.584Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T23:02:16.821Z",
+      "at": "2026-10-13T23:32:33.506Z",
       "items": 10
     },
     "toi-greece": {
@@ -2340,22 +2339,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T23:02:17.332Z",
+      "at": "2026-10-13T23:32:34.145Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T23:02:17.753Z",
+      "at": "2026-10-13T23:32:34.273Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T23:02:17.949Z",
+      "at": "2026-10-13T23:32:34.547Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T23:02:18.499Z",
+      "at": "2026-10-13T23:32:34.769Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2365,12 +2364,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T23:02:12.945Z",
+      "at": "2026-10-13T23:32:28.451Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T23:02:19.143Z",
+      "at": "2026-10-13T23:32:35.630Z",
       "items": 0
     },
     "hcg": {
@@ -2381,32 +2380,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T23:02:20.546Z",
+      "at": "2026-10-13T23:32:37.475Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T23:02:20.794Z",
+      "at": "2026-10-13T23:32:37.676Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T23:02:20.966Z",
+      "at": "2026-10-13T23:32:37.850Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T23:02:21.217Z",
-      "items": 7
+      "at": "2026-10-13T23:32:38.018Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T23:02:21.617Z",
-      "items": 9
+      "at": "2026-10-13T23:32:38.365Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T23:02:22.114Z",
+      "at": "2026-10-13T23:32:38.802Z",
       "items": 13
     }
   },
@@ -2518,14 +2517,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T23:02:22.769Z",
-    "considered": 4,
+    "at": "2026-10-13T23:32:39.606Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | England Crush Greece 5-0 to Advance in World Cup Play-Offs",
-      "· gct | Greek Deputy Minister Visits Orthodox Cathedral in Tirana",
-      "· gct | Greece Extends Free Obesity Medication to 43,500 Beneficiaries",
-      "· gct | Kimberly Guilfoyle Thanks Greek People for Their Hospitality"
+      "· gct | Grevena Liberated by the Greek Army on 14 October 1912"
     ]
   },
   "evergreenDone": [
