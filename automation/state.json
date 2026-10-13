@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "c5b317570ae6": 1790711428765,
-    "70fe5ca26b87": 1790712192939,
     "f56d54116a53": 1790713529650,
     "ce1b12793d54": 1790715733294,
     "79c14f879862": 1790717027074,
@@ -2275,7 +2273,11 @@
     "299a56f5da47": 1791920262310,
     "ebde0e021ef3": 1791920262310,
     "afc91bdf657a": 1791920262310,
-    "88dd289d023e": 1791920262310
+    "88dd289d023e": 1791920262310,
+    "fb425307926b": 1791921820809,
+    "9eb06f026786": 1791921820809,
+    "c49a4b5a53ab": 1791921820809,
+    "f4983145257b": 1791921820809
   },
   "pending": {},
   "sourceStatus": {
@@ -2287,12 +2289,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T19:37:31.654Z",
-      "items": 10
+      "at": "2026-10-13T20:03:28.104Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T19:37:32.167Z",
+      "at": "2026-10-13T20:03:28.730Z",
       "items": 2
     },
     "civilprotection": {
@@ -2303,27 +2305,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T19:37:34.003Z",
+      "at": "2026-10-13T20:03:30.732Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T19:37:34.179Z",
+      "at": "2026-10-13T20:03:31.113Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T19:37:35.040Z",
+      "at": "2026-10-13T20:03:31.859Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T19:37:35.680Z",
+      "at": "2026-10-13T20:03:32.504Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T19:37:36.570Z",
+      "at": "2026-10-13T20:03:34.851Z",
       "items": 10
     },
     "toi-greece": {
@@ -2334,22 +2336,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T19:37:36.955Z",
+      "at": "2026-10-13T20:03:35.302Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T19:37:37.105Z",
+      "at": "2026-10-13T20:03:35.661Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T19:37:37.361Z",
+      "at": "2026-10-13T20:03:35.869Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T19:37:37.495Z",
+      "at": "2026-10-13T20:03:36.203Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2359,12 +2361,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T19:37:32.633Z",
+      "at": "2026-10-13T20:03:29.256Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T19:37:38.095Z",
+      "at": "2026-10-13T20:03:36.872Z",
       "items": 0
     },
     "hcg": {
@@ -2375,33 +2377,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T19:37:39.526Z",
+      "at": "2026-10-13T20:03:38.043Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T19:37:39.772Z",
+      "at": "2026-10-13T20:03:38.237Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T19:37:40.041Z",
+      "at": "2026-10-13T20:03:38.439Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T19:37:40.289Z",
+      "at": "2026-10-13T20:03:38.694Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T19:37:40.708Z",
-      "items": 8
+      "at": "2026-10-13T20:03:39.126Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T19:37:41.220Z",
-      "items": 15
+      "at": "2026-10-13T20:03:39.669Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
@@ -2633,14 +2635,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T19:37:42.310Z",
+    "at": "2026-10-13T20:03:40.809Z",
     "considered": 4,
-    "picked": 1,
+    "picked": 0,
     "items": [
-      "· gct | Massive Ancient Monument Discovered Opposite Greek-Style Temple in Pakistan",
-      "· ingr | Ο Νετανιάχου πιέζει τον Τραμπ για πλήγμα κατά του Ιράν πριν τις εκλογές – Η Τεχεράνη εξετά",
-      "✓ gct | Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy",
-      "· gct | Diplomatic reshuffle: Josh Hack takes over as interim US chargé d’affaires in Athens"
+      "· gct | Greek Students Camp Outside Parliament as Rent Crisis Deepens",
+      "· gct | New Details Emerge About Giorgos Mazonakis’ Sealed Voula Home",
+      "· gct | Diplomatic reshuffle: Josh Huck takes over as interim US chargé d’affaires in Athens",
+      "· gn-kathimerini | Φοιτητές κατασκηνώνουν στο Σύνταγμα για τη στεγαστική κρίση (εικόνες) - Kathimerini"
     ]
   },
   "evergreenDone": [
