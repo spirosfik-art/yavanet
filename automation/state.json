@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "8d5bf32c9b92": 1790720624604,
-    "4a8b903b0aac": 1790721334659,
     "f634a4e65c7c": 1790722870688,
     "a8a7a08bd0e2": 1790724104915,
     "1eff35bdd4fc": 1790724104915,
@@ -2274,7 +2272,13 @@
     "a0bf73b8346a": 1791929045553,
     "82c752d48065": 1791929045553,
     "9697c6738f3a": 1791929045553,
-    "dc5ffb5eabcb": 1791929045553
+    "dc5ffb5eabcb": 1791929045553,
+    "7840590dcc85": 1791930942708,
+    "dcee139cf3be": 1791930942708,
+    "e1ea05cbfae3": 1791930942708,
+    "93f38382ec0c": 1791930942708,
+    "1532065221d7": 1791930942708,
+    "5814cba285cf": 1791930942708
   },
   "pending": {},
   "sourceStatus": {
@@ -2286,12 +2290,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T22:03:53.157Z",
+      "at": "2026-10-13T22:35:30.272Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T22:03:53.907Z",
+      "at": "2026-10-13T22:35:31.447Z",
       "items": 2
     },
     "civilprotection": {
@@ -2302,27 +2306,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T22:03:56.024Z",
-      "items": 56
+      "at": "2026-10-13T22:35:33.351Z",
+      "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T22:03:56.216Z",
+      "at": "2026-10-13T22:35:33.736Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T22:03:57.344Z",
+      "at": "2026-10-13T22:35:34.746Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T22:03:58.168Z",
+      "at": "2026-10-13T22:35:35.744Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T22:03:59.139Z",
+      "at": "2026-10-13T22:35:36.593Z",
       "items": 10
     },
     "toi-greece": {
@@ -2333,22 +2337,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T22:03:59.418Z",
+      "at": "2026-10-13T22:35:37.206Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T22:03:59.617Z",
+      "at": "2026-10-13T22:35:37.364Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T22:03:59.963Z",
+      "at": "2026-10-13T22:35:37.942Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T22:04:00.713Z",
+      "at": "2026-10-13T22:35:38.191Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2358,12 +2362,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T22:03:54.544Z",
+      "at": "2026-10-13T22:35:31.733Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T22:04:01.306Z",
+      "at": "2026-10-13T22:35:38.796Z",
       "items": 0
     },
     "hcg": {
@@ -2374,32 +2378,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T22:04:03.265Z",
+      "at": "2026-10-13T22:35:40.267Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T22:04:03.538Z",
+      "at": "2026-10-13T22:35:40.487Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T22:04:03.709Z",
+      "at": "2026-10-13T22:35:40.726Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T22:04:03.962Z",
-      "items": 7
+      "at": "2026-10-13T22:35:40.950Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T22:04:04.377Z",
-      "items": 8
+      "at": "2026-10-13T22:35:41.325Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T22:04:04.825Z",
+      "at": "2026-10-13T22:35:41.805Z",
       "items": 13
     }
   },
@@ -2408,7 +2412,13 @@
     "date": "2026-10-14",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Israel Returns 22 Ancient Artefacts to Greece in Historic First",
+        "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
+        "at": "2026-10-13T22:35:47.196Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -2505,14 +2515,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T22:04:05.553Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-13T22:35:42.708Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· ingr | Γαλλία: Καθιερώνονται τα κουπόνια στα σούπερ μάρκετ, υποχωρεί η τιμή του ντίζελ",
-      "· ert | Σαουδική Αραβία: Επίθεση σε κτίριο της Aramco στην Νταχράν – Τέσσερις τραυματίες από συντρ",
-      "· gct | US Ambassador Kimberly Guilfoyle Resigns Amid Allegations She Denies",
-      "· gct | Panathinaikos Crushes Partizan 72-55 to Make It Five Straight"
+      "· gct | Greece Plans Mass Production of Unmanned Naval Vessels",
+      "✓ gct | Israel Returns 22 Ancient Artefacts to Greece in Historic First",
+      "· gct | Greece Honours Team Hellas Athletes After Mediterranean Games",
+      "· gct | Greece Counts 2,100 Wolves and 760 Bears as Wildlife Conflicts Grow",
+      "· gct | Greek National Tourism Body Wins International Marketing Award",
+      "· ert | Σαουδική Αραβία: Τέσσερις τραυματίες από συντρίμμια πυραύλων στο Ριάντ – Επίθεση σε κτίριο"
     ]
   },
   "evergreenDone": [
