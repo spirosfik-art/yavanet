@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "93851705c814": 1790660191075,
     "008de46e3e8b": 1790661074712,
     "444639ad2ad5": 1790661074712,
     "0fe82c3553f8": 1790661074712,
@@ -2247,7 +2246,10 @@
     "befb75de1c8b": 1791869292201,
     "3cf26906bb9c": 1791869292201,
     "57274ab4b2e9": 1791869292201,
-    "d80e05880f86": 1791869292201
+    "d80e05880f86": 1791869292201,
+    "1976bae14f53": 1791870299322,
+    "42626e61549f": 1791870299322,
+    "3b57c85699d7": 1791870299322
   },
   "pending": {
     "1ac64b": {
@@ -2366,12 +2368,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T05:28:00.684Z",
+      "at": "2026-10-13T05:44:46.085Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T05:28:01.284Z",
+      "at": "2026-10-13T05:44:47.055Z",
       "items": 3
     },
     "civilprotection": {
@@ -2382,27 +2384,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T05:28:02.900Z",
+      "at": "2026-10-13T05:44:49.417Z",
       "items": 35
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T05:28:04.126Z",
+      "at": "2026-10-13T05:44:49.494Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T05:28:05.106Z",
+      "at": "2026-10-13T05:44:50.547Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T05:28:05.732Z",
+      "at": "2026-10-13T05:44:51.478Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T05:28:06.582Z",
+      "at": "2026-10-13T05:44:52.543Z",
       "items": 10
     },
     "toi-greece": {
@@ -2413,23 +2415,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T05:28:07.011Z",
+      "at": "2026-10-13T05:44:52.887Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T05:28:07.155Z",
+      "at": "2026-10-13T05:44:53.238Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T05:28:07.235Z",
+      "at": "2026-10-13T05:44:53.918Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T05:28:07.623Z",
-      "items": 8
+      "at": "2026-10-13T05:44:54.117Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2438,12 +2440,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T05:28:01.733Z",
+      "at": "2026-10-13T05:44:47.516Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T05:28:08.086Z",
+      "at": "2026-10-13T05:44:54.943Z",
       "items": 0
     },
     "hcg": {
@@ -2454,32 +2456,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T05:28:10.291Z",
+      "at": "2026-10-13T05:44:56.643Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T05:28:10.463Z",
+      "at": "2026-10-13T05:44:56.843Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T05:28:10.603Z",
+      "at": "2026-10-13T05:44:57.019Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T05:28:10.750Z",
+      "at": "2026-10-13T05:44:57.314Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T05:28:11.094Z",
+      "at": "2026-10-13T05:44:57.641Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T05:28:11.492Z",
+      "at": "2026-10-13T05:44:58.099Z",
       "items": 10
     }
   },
@@ -2605,15 +2607,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T05:28:12.201Z",
-    "considered": 5,
+    "at": "2026-10-13T05:44:59.322Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Latsco: Πράσινες επενδύσεις σχεδόν 14 εκατ. δολ. το 2025",
-      "· gct | Saudi Arabia: Etihad and Qatar Airways Cancel Flights",
-      "· gct | Ship Attacked Off Bulgaria: Second Strike Near Byala Hits Ukrainian-Managed Cargo Vessel",
-      "· gct | Serbian Orthodox Patriarch Porfirije Visits Australia",
-      "· ingr | Η ελληνική γλώσσα στο διάβα του χρόνου: Η έννοια του ελληνισμού (Μέρος ΙΑ’)"
+      "· gn-kathimerini | Πάνω από 12.000 τουρίστες στην Ακρόπολη κάθε μέρα - Kathimerini",
+      "· gct | Over 100 Women Raise Funds to Digitise Melbourne’s Greek Archives",
+      "· ingr | Δημοσκόπηση Metron Analysis – Τα πρώτα στοιχεία: Απαισιόδοξοι για το χειμώνα 7 στους 10 – "
     ]
   },
   "evergreenDone": [
