@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "ed0901c5f004": 1790670405140,
-    "130235602179": 1790670405140,
-    "0d4ed4058109": 1790670405140,
     "a9af0d0cc845": 1790671197256,
     "ef53cbe2616c": 1790671197256,
     "bf2772e1a7ca": 1790671197256,
@@ -2243,7 +2240,16 @@
     "736dce7fdb74": 1791876718723,
     "64026765524c": 1791878264675,
     "e46cd4e3d074": 1791878264675,
-    "da6fddf6fcf7": 1791878264675
+    "da6fddf6fcf7": 1791878264675,
+    "107252695e08": 1791880287085,
+    "bbd69a4f001b": 1791880287085,
+    "36eb2b8c1b4d": 1791880287085,
+    "bf3d3349b921": 1791880287085,
+    "bd7f560dfb47": 1791880287085,
+    "a58692326c7b": 1791880287085,
+    "8176aa6a48ad": 1791880287085,
+    "d0a646c9eb22": 1791880287085,
+    "d127bfc9ca77": 1791880287085
   },
   "pending": {},
   "sourceStatus": {
@@ -2255,12 +2261,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T08:09:41.671Z",
+      "at": "2026-10-13T08:31:10.617Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T08:09:42.378Z",
+      "at": "2026-10-13T08:31:11.404Z",
       "items": 3
     },
     "civilprotection": {
@@ -2271,27 +2277,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T08:09:45.273Z",
+      "at": "2026-10-13T08:31:16.890Z",
       "items": 35
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T08:09:45.492Z",
+      "at": "2026-10-13T08:31:17.463Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T08:09:46.693Z",
+      "at": "2026-10-13T08:31:18.582Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T08:09:47.555Z",
+      "at": "2026-10-13T08:31:19.385Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T08:09:48.144Z",
+      "at": "2026-10-13T08:31:20.360Z",
       "items": 10
     },
     "toi-greece": {
@@ -2302,23 +2308,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T08:09:48.805Z",
+      "at": "2026-10-13T08:31:20.897Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T08:09:49.094Z",
+      "at": "2026-10-13T08:31:20.998Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T08:09:49.739Z",
-      "items": 4
+      "at": "2026-10-13T08:31:21.766Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T08:09:49.980Z",
-      "items": 2
+      "at": "2026-10-13T08:31:21.950Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2327,12 +2333,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T08:09:43.160Z",
+      "at": "2026-10-13T08:31:11.801Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T08:09:50.532Z",
+      "at": "2026-10-13T08:31:22.652Z",
       "items": 0
     },
     "hcg": {
@@ -2343,33 +2349,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T08:09:51.932Z",
+      "at": "2026-10-13T08:31:24.242Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T08:09:52.161Z",
+      "at": "2026-10-13T08:31:24.480Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T08:09:52.436Z",
+      "at": "2026-10-13T08:31:24.644Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T08:09:52.715Z",
+      "at": "2026-10-13T08:31:24.881Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T08:09:53.088Z",
-      "items": 7
+      "at": "2026-10-13T08:31:25.202Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T08:09:53.541Z",
-      "items": 7
+      "at": "2026-10-13T08:31:25.580Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2400,6 +2406,12 @@
         "title": "↻ Storm in Greece: 48-Hour Severe Weather System Begins",
         "at": "2026-10-13T10:32:11+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-storm-october-2026",
+        "title": "↻ Severe weather in Greece: 48-hour storm system heads to Athens",
+        "at": "2026-10-13T11:31:44+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2407,6 +2419,11 @@
         "title": "Greece Seeks Tighter Controls to Address Medicine Shortages",
         "reason": "The Hebrew title contains a typo: 'כדי למצור' should be 'כדי למצוא'.",
         "at": "2026-10-12T22:03:29.299Z"
+      },
+      {
+        "title": "Ακίνητα: Αγοράζουν πριν από την αύξηση φόρου μεταβίβασης - Kathimerini",
+        "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
+        "at": "2026-10-13T08:31:30.766Z"
       }
     ],
     "errors": [],
@@ -2510,13 +2527,20 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T07:57:44.675Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-13T08:31:27.085Z",
+    "considered": 10,
+    "picked": 3,
     "items": [
-      "· ert | ΗΠΑ: Ανησυχία ότι η ζωντανή μετάδοση της εκτέλεσης του δράστη της επίθεσης στο Φορτ Χουντ ",
-      "· ert | Δίκη Τεμπών: Κατέθεσε η οικογένεια του Κύπριου φοιτητή Κυπριανού Παπαϊωάννου – «Του πλύναμ",
-      "· gn-kathimerini | Πτήση της Qantas καθηλώθηκε στη Ρώμη λόγω… κοριών - Kathimerini"
+      "· naftemporiki | Ο Όμιλος TITAN επενδύει στην Command Alkon: Επιτάχυνση του ψηφιακού μετασχηματισμού του κλ",
+      "✓ gn-kathimerini | Ακίνητα: Αγοράζουν πριν από την αύξηση φόρου μεταβίβασης - Kathimerini",
+      "· ert | Λήξη συναγερμού στο αεροδρόμιο του Τελ Αβίβ μετά από απειλή για ύποπτο αντικείμενο σε πτήσ",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Υπ",
+      "· gn-iefimerida | Συναγερμός σε πτήση της Qantas: Ακυρώθηκε δρομολόγιο λόγω κοριών στο αεροσκάφος -Επιβάτες ",
+      "✓ gn-iefimerida | Προ των πυλών η 48ωρη κακοκαιρία με βροχές, καταιγίδες και θυελλώδεις βοριάδες -Πότε θα χτ",
+      "· gn-kathimerini | Κακοκαιρία «Daniel»: Στο εδώλιο ο Κώστας Αγοραστός και άλλοι 17 κατηγορούμενοι - Kathimeri",
+      "· gtp | WTTC Sets Priorities to Keep Europe Competitive in Tourism",
+      "✓ gtp | Greece Sees 36% Drop in Burned Land During 2026 Fire Season",
+      "· gtp | Sani/Ikos Group Scores Top Rankings in Condé Nast Traveller Awards 2026"
     ]
   },
   "evergreenDone": [
