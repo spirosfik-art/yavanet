@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "891afeb163fc": 1790673955637,
-    "32e0274e1f2f": 1790673955637,
     "7edb074f3b9d": 1790674738312,
     "6ccc75ad848f": 1790674738312,
     "451de23d29fc": 1790675600755,
@@ -2245,7 +2243,10 @@
     "21424b62d305": 1791881822464,
     "6fcebbfd19e2": 1791881822464,
     "64b46f5aecb4": 1791881822464,
-    "61c4beabd08f": 1791881822464
+    "61c4beabd08f": 1791881822464,
+    "9ea4c8f5accf": 1791883774685,
+    "790e23b17c0c": 1791883774685,
+    "894b96b89a44": 1791883774685
   },
   "pending": {},
   "sourceStatus": {
@@ -2257,12 +2258,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T09:07:45.356Z",
+      "at": "2026-10-13T09:29:22.073Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T09:07:46.277Z",
+      "at": "2026-10-13T09:29:22.930Z",
       "items": 3
     },
     "civilprotection": {
@@ -2273,27 +2274,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T09:07:48.924Z",
+      "at": "2026-10-13T09:29:25.136Z",
       "items": 35
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T09:07:49.321Z",
+      "at": "2026-10-13T09:29:25.512Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T09:07:50.654Z",
+      "at": "2026-10-13T09:29:26.732Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T09:07:51.680Z",
-      "items": 3
+      "at": "2026-10-13T09:29:27.458Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T09:07:52.788Z",
+      "at": "2026-10-13T09:29:28.294Z",
       "items": 10
     },
     "toi-greece": {
@@ -2304,22 +2305,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T09:07:53.432Z",
+      "at": "2026-10-13T09:29:28.922Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T09:07:53.804Z",
+      "at": "2026-10-13T09:29:29.024Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T09:07:54.439Z",
+      "at": "2026-10-13T09:29:29.899Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T09:07:54.976Z",
+      "at": "2026-10-13T09:29:30.121Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2329,12 +2330,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T09:07:47.000Z",
+      "at": "2026-10-13T09:29:23.561Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T09:07:55.717Z",
+      "at": "2026-10-13T09:29:30.765Z",
       "items": 0
     },
     "hcg": {
@@ -2345,33 +2346,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T09:07:57.387Z",
+      "at": "2026-10-13T09:29:32.274Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T09:07:57.554Z",
+      "at": "2026-10-13T09:29:32.512Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T09:07:57.684Z",
+      "at": "2026-10-13T09:29:32.679Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T09:07:57.832Z",
+      "at": "2026-10-13T09:29:32.899Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T09:07:58.145Z",
-      "items": 9
+      "at": "2026-10-13T09:29:33.244Z",
+      "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T09:07:58.549Z",
-      "items": 8
+      "at": "2026-10-13T09:29:33.755Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2407,6 +2408,12 @@
         "slug": "greece-storm-october-2026",
         "title": "↻ Severe weather in Greece: 48-hour storm system heads to Athens",
         "at": "2026-10-13T11:31:44+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greece-storm-october-2026",
+        "title": "↻ Severe weather in Greece: Heavy rain and gale-force winds up to 10 Beaufort",
+        "at": "2026-10-13T12:29:48+03:00",
         "section": "breaking"
       }
     ],
@@ -2523,16 +2530,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T08:57:02.464Z",
-    "considered": 6,
-    "picked": 0,
+    "at": "2026-10-13T09:29:34.686Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | «Καμπανάκι» Αρναούτογλου για πλημμυρικά φαινόμενα – «Χρειάζεται αυξημένη προσοχή στην Αττι",
-      "· gct | Flaming Saganaki: The Fiery Greek Cheese You Can Make in 15 Minutes",
-      "· gct | Inside Syros’ 162-Year-Old Apollo Theatre, Inspired by La Scala",
-      "· naftemporiki | Τελ Αβίβ: Αναστάτωση σε πτήση της Delta Airlines μετά από απειλή για ύποπτο αντικείμενο",
-      "· gtp | Greece Sees 36% Drop in Burned Land During 2026 Fire Season",
-      "· gtp | GNTO Wins ‘Marketing Partnership of the Year’ Honor at Jet2 Awards"
+      "· ert | Αργεντινή: Έκλεισαν για τους τουρίστες οι καταρράκτες Ιγκουασού λόγω της θεαματικής ανόδου",
+      "· minfin | Ειδοποίηση εκδίκασης της από 30.04.2025 και με ΓΑΚ/ΕΑΚ: 185/36/2025 αίτησης του Ελληνικού ",
+      "✓ ingr | Κακοκαιρία: Έκτακτο δελτίο επικίνδυνων καιρικών φαινομένων: Πού θα χτυπήσουν ισχυρές καται"
     ]
   },
   "evergreenDone": [
