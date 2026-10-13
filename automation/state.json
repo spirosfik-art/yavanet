@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "705edfb3c9c4": 1790709899870,
-    "a91dde90ba16": 1790709899870,
-    "45567042af54": 1790710601234,
     "c5b317570ae6": 1790711428765,
     "70fe5ca26b87": 1790712192939,
     "f56d54116a53": 1790713529650,
@@ -2274,9 +2271,118 @@
     "c9a8dd208cf0": 1791916471213,
     "50bcf9dd2d2e": 1791918491544,
     "78ec549b6d78": 1791918491544,
-    "dd226189e029": 1791918491544
+    "dd226189e029": 1791918491544,
+    "299a56f5da47": 1791920262310,
+    "ebde0e021ef3": 1791920262310,
+    "afc91bdf657a": 1791920262310,
+    "88dd289d023e": 1791920262310
   },
-  "pending": {},
+  "pending": {
+    "13fe6d": {
+      "createdAt": 1791920276178,
+      "item": {
+        "title": "Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy",
+        "url": "https://greekcitytimes.com/2026/10/14/kimberly-guilfoyle-resigns-greek-businessmen/",
+        "summary": "Kimberly Guilfoyle resigns as US Ambassador to Greece following a White House request, as a Wall Street Journal investigation names Greek businessmen Alexandros Exarchou and Nikolas Tsakos in reports about luxury travel and alleged ethics concerns.\n The post Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy appeared first on Greek City Times .",
+        "published": "Tue, 13 Oct 2026 19:19:44 +0000",
+        "id": "afc91bdf657a",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "afc91bdf657a",
+        "section": "israelis",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The resignation of the US Ambassador to Greece following an investigation involving prominent Greek business figures has direct diplomatic relevance for Israeli readers tracking US-Greece-Israel regional alignments.",
+        "item": {
+          "title": "Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy",
+          "url": "https://greekcitytimes.com/2026/10/14/kimberly-guilfoyle-resigns-greek-businessmen/",
+          "summary": "Kimberly Guilfoyle resigns as US Ambassador to Greece following a White House request, as a Wall Street Journal investigation names Greek businessmen Alexandros Exarchou and Nikolas Tsakos in reports about luxury travel and alleged ethics concerns.\n The post Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy appeared first on Greek City Times .",
+          "published": "Tue, 13 Oct 2026 19:19:44 +0000",
+          "id": "afc91bdf657a",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "us-ambassador-greece-kimberly-guilfoyle-resigns",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": null,
+        "alert": {
+          "he": "עדכון דיפלומטי",
+          "en": "Diplomatic update"
+        },
+        "imageKey": "politics",
+        "imageQuery": "us embassy athens greece diplomacy",
+        "he": {
+          "title": "שגרירות ארה״ב ביוון: התפטרות שגרירת ארצות הברית באתונה",
+          "seoTitle": "שגרירת ארה״ב ביוון התפטרה מתפקידה באתונה",
+          "seoDesc": "שגרירת ארצות הברית ביוון קמברלי גוילפויל התפטרה מתפקידה לאחר בקשת הבית הלבן בעקבות חקירות עיתונאיות על קשריה עם אנשי עסקים.",
+          "keywords": [
+            "יוון",
+            "אתונה",
+            "ארצות הברית",
+            "דיפלומטיה"
+          ],
+          "dek": "הבית הלבן אישר כי ביקש מקמברלי גוילפויל לסיים את תפקידה כשגרירת ארה״ב ביוון על רקע בדיקות של התנהלות ואנשי עסקים מקומיים.",
+          "tldr": [
+            "קמברלי גוילפויל התפטרה מתפקידה כשגרירת ארה״ב ביוון לפי בקשת הבית הלבן.",
+            "החקירה העיתונאית התמקדה בטיסות יוקרה וקשרים עם אנשי עסקים ביוון.",
+            "שגרירות ארה״ב באתונה מסרה כי השגרירה פעלה בהתאם לכללי האתיקה."
+          ],
+          "means": "מה זה אומר עבורכם? עבור ישראלים השוהים או פועלים ביוון, השינויים בצמרת הדיפלומטית האמריקאית באתונה אינם צפויים להשפיע על שגרת הנסיעות, העסקים או הביקורים במדינה. מומלץ להמשיך לעקוב אחר הודעות רשמיות של השגרירות.",
+          "body": "## דרישה להתפטרות על רקע בדיקות אתיקה\n\nשגרירת ארצות הברית ביוון, קמברלי גוילפויל, הודיעה על סיום תפקידה באתונה בעקבות דרישה ישירה מצד הבית הלבן. ההחלטה הגיעה לאחר שסדרת חקירות עיתונאיות של ה«וול סטריט ג'ורנל» העלו שאלות לגבי הסדרי נסיעה וקשרים עם אנשי עסקים מקומיים ביוון.\n\nלפי הדיווחים, הבדיקות התמקדו בטיסות במטוסים פרטיים, שהות בבתי מלון יוקרתיים וקשרי עבודה וחברה עם דמויות בולטות במגזר העסקי והימי ביוון, כמו גם מעורבות לכאורה בקידום אינטרסים מסחריים באזור. גוילפויל דחתה מכל וכל את הטענות נגדה והצהירה כי בכוונתה להגן על שמה ועל היושרה המקצועית שלה.\n\n## תגובות במערכת הפוליטית והדיפלומטית\n\nמחלקת המדינה האמריקאית והבית הלבן נדרשו לסוגיה כאשר מחוקקים דמוקרטים בקונגרס דרשו לפתוח בחקירה רשמית בנושא. מנגד, שגרירות ארה״ב באתונה הדגישה בהצהרה רשמית כי השגרירה פעלה לאורך כל תקופת כהונתה בהתאם לכללים ולדרישות האתיקה הממשלתיות המקובלות, והביעה צער על כך שטענות שטרם הוכחו מסיחות את הדעת מהעבודה הדיפלומטית החשובה המבוצעת ביוון ובאזור מזרח הים התיכון.\n\nעד כה, הממשלה ביוון בחרה שלא להגיב באופן פומבי על הפרשה. בעקבות עזיבתה של גוילפויל, נכנס לתפקידו באתונה דיפלומט זמני שישמש כממלא מקום ראש הנציגות האמריקאית עד למינוי קבוע."
+        },
+        "en": {
+          "title": "US Ambassador to Greece resigns following White House request",
+          "seoTitle": "US Ambassador to Greece Resigns After Investigation Reports",
+          "seoDesc": "US Ambassador to Greece Kimberly Guilfoyle resigns after the White House requests her departure amid scrutiny over travel and local business ties.",
+          "keywords": [
+            "Greece",
+            "Athens",
+            "US Ambassador",
+            "Kimberly Guilfoyle"
+          ],
+          "dek": "The White House confirms it asked Kimberly Guilfoyle to step down from her post in Athens following media investigations into her travel arrangements.",
+          "tldr": [
+            "US Ambassador to Greece Kimberly Guilfoyle has resigned at the request of the White House.",
+            "Reports raised questions regarding luxury travel arrangements and relationships with local business figures.",
+            "The US Embassy in Athens maintains that the ambassador complied with applicable ethics requirements."
+          ],
+          "means": "What it means for you: For Israelis living in or traveling to Greece, diplomatic shifts at the US Embassy in Athens do not impact routine consular services, travel safety, or bilateral relations. No specific actions are required for visitors or residents.",
+          "body": "## Resignation Amid Ethics Scrutiny\n\nUnited States Ambassador to Greece Kimberly Guilfoyle has left her post after the White House requested her resignation. The decision follows a series of investigative reports regarding her luxury travel arrangements and alleged relationships with prominent business figures in Greece.\n\nAccording to the reports, questions were raised over private jet flights and accommodation expenses involving local business leaders. Guilfoyle has strongly denied any wrongdoing, stating through representatives that she intends to defend her reputation and integrity.\n\n## Official Response and Transition\n\nThe US Embassy in Athens issued a statement maintaining that the ambassador fully complied with federal ethics guidelines and gift declaration requirements throughout her tenure. Meanwhile, Democratic lawmakers in Washington have called for further reviews regarding government ethics compliance.\n\nThe Greek government has not issued public comments on the matter. Following her departure, an interim chargé d'affaires has taken over leadership of the US diplomatic mission in Athens until a permanent successor is appointed."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Kimberly Guilfoyle has resigned as US Ambassador to Greece after President Donald Trump asked her to leave the post, as a series of Wall Street Journal investigations intensifies scrutiny of her alleged relationships with wealthy business figures, luxury travel and possible ethics violations..\n Serving as the United States Ambassador to Greece has been the honor of a lifetime. I will forever be grateful to President Donald J. Trump and Secretary of State Marco Rubio for entrusting me with the extraordinary privilege of representing the greatest country in the history of…\n&mdash; Kimberly Guilfoyle (@kimguilfoyle) October 13, 2026 \n The White House confirms on Tuesday, October 13, that it has asked Guilfoyle to resign. Guilfoyle subsequently announces her departure on social media, denies wrongdoing and vows to defend her reputation. \n The latest Wall Street Journal investigation identifies two prominent Greek businessmen, Alexandros Exarchou, chief executive of AKTOR Group, and shipping magnate Nikolas Tsakos, in reporting about Guilfoyle’s alleged luxury travel arrangements.\n According to the newspaper, the report raises questions about private jet journeys, expensive hotel accommodation and the relationships between the ambassador and businessmen with commercial interests connected to Greece.\n The allegations have prompted Democratic lawmakers to call for investigations into potential breaches of federal bribery laws and government ethics requirements. Guilfoyle denies wrongdoing, while the US Embassy in Athens maintains that she has complied with applicable ethics rules.\n Private Jets, Luxury Hotels and Davos\n According to The Wall Street Journal , Guilfoyle discusses her connections with wealthy Greek businessmen during a recorded conversation in January 2026, while attending the World Economic Forum in Davos, Switzerland.\n The newspaper reports that she travelled to Davos on a private jet with Exarchou, who leads the Greek construction group AKTOR.\n During the conversation, Guilfoyle allegedly describes Exarchou as “my man” while discussing his business interests and her efforts to promote American energy exports across the region.\n The report alleges that Guilfoyle encouraged governments from Bulgaria to Albania to conduct business with Exarchou and purchase billions of dollars worth of American natural gas.\n These revelations raise questions about the intersection of diplomatic responsibilities, private relationships and the commercial interests of businesses connected to people in the ambassador’s social circle.\n AKTOR, through its lawyers, declines to comment on the latest allegations. The company’s lawyers have previously argued that Guilfoyle did not improperly promote its commercial interests.\n Shipping Magnate Linked to Paris Trip\n The investigation also names Nikolas Tsakos, chief executive of Tsakos Energy Navigation, in connection with Guilfoyle’s reported luxury travel.\n According to the newspaper, Guilfoyle discusses plans to travel to Paris on a private jet with Tsakos later in January to attend his wife’s fashion show.\n She also reportedly describes spending Christmas and New Year’s with Tsakos and his family at Gstaad, an exclusive Swiss resort.\n People familiar with the matter tell the newspaper that Tsakos covers Guilfoyle’s accommodation bill at the Four Seasons Hotel George V in Paris.\n Guilfoyle subsequently plans to publish photographs from the fashion event to her Instagram audience of approximately two million followers, according to the report. Some of the photographs feature Tsakos.\n The newspaper says the alleged financial support for her travel had not previously been publicly disclosed.\n Tsakos and his wife do not respond to the newspaper’s requests for comment.\n The reported arrangements raise questions about whether the travel and accommodation constitute gifts requiring disclosure under applicable US government ethics rules.\n Davos Dinner Dispute\n The investigation also details a dispute involving a dinner organised by Greek House Davos in honour of Eric Trump, the US president’s son.\n According to the newspaper, Guilfoyle is initially excluded from the guest list and expresses anger while attempting to secure an invitation.\n The report says she discusses her connections with wealthy Greek businessmen while seeking help from an American businessman who is invited to the event.\n Guilfoyle ultimately secures a place at the dinner.\n Irene Vantaraki, president of Greek House Davos, says the organisers have to manage a disruption involving several high-profile guests. She describes Guilfoyle as polite and discreet and says the ambassador leaves early.\n State Department Faces Questions\n The controversy extends beyond travel arrangements.\n According to The Wall Street Journal , the State Department’s inspector general is examining whether Guilfoyle received gifts or favours from private businesspeople.\n The newspaper also reports that text messages show Guilfoyle asking a Trump donor to deposit $100,000 into her American Express account.\n The donor reportedly offered assistance with reviewing personal tax and legal issues involving the Trump administration.\n Guilfoyle’s lawyer disputes the authenticity of the messages. Her legal representatives have also argued that the money sought related to unpaid speaking engagements and consulting services predating her ambassadorial appointment.\n Trump expresses concern about the reports before the White House announces its decision.\n “I just heard about it. It’s very bad,” he tells reporters, while also describing Guilfoyle as someone who had always been kind to him.\n Vice President JD Vance says the allegations must be examined and that people should face consequences if wrongdoing is established.\n Secretary of State Marco Rubio also faces questions about the controversy during his visit to Athens. He declines to discuss the reported messages at an airport press briefing.\n Guilfoyle Resigns but Denies Wrongdoing\n Following the White House announcement, Guilfoyle issues a statement on X confirming that her time as ambassador is coming to an end.\n She maintains that her support for Trump and Rubio remains unchanged and rejects the allegations against her.\n “These allegations are false, and I intend to vigorously defend my name, my reputation, and my integrity,” she writes.\n The departure ends her tenure as Washington’s representative in Athens amid mounting scrutiny of her conduct and relationships with private business interests.\n Democrats Demand Formal Investigation\n Democratic lawmakers intensify their calls for an investigation into Guilfoyle’s conduct.\n Representative Gregory Meeks, the leading Democrat on the House Foreign Affairs Committee, requests an immediate investigation into whether the ambassador violated federal laws governing bribery and corruption in public office.\n Meeks also asks the State Department’s inspector general to examine whether Guilfoyle breached federal laws, departmental regulations or government ethics requirements.\n Representative Robert Garcia, the leading Democrat on the House Oversight Committee, separately raises concerns about potential public corruption and national security implications.\n Garcia requests financial records and communications between Guilfoyle and specified government officials.\n The lawmakers’ demands add pressure on the State Department to establish whether the reported arrangements breached any applicable rules or laws.\n US Embassy Defends Guilfoyle’s Conduct\n The US Embassy in Athens maintains that Guilfoyle has complied with the relevant ethics requirements.\n An embassy spokesperson says the ambassador’s career, both in and outside public service, is guided by established values and that she has followed State Department guidelines concerning the declaration of gifts.\n “Unsubstantiated allegations simply distract from the important work it is doing in Greece and the wider Eastern Mediterranean,” the spokesperson says.\n The Greek government has not publicly commented on the allegations described in the reports.\n Guilfoyle’s resignation does not itself establish that a crime has occurred. The reported travel arrangements, financial requests and business relationships remain subject to scrutiny, while Guilfoyle denies wrongdoing.\n The case leaves questions about transparency, the declaration of gifts and the safeguards governing relationships between US diplomatic representatives and private business interests as Washington and Athens continue their strategic partnership.\n Source: Reuters: White House asks US ambassador to Greece to resign and The Wall Street Journal, as quoted in the supplied material.\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Diplomatic reshuffle: Josh Hack takes over as interim US chargé d’affaires in Athens\n Next Article \n Massive Ancient Monument Discovered Opposite Greek-Style Temple in Pakistan\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Ο Πρέσβης των ΗΠΑ στην Ελλάδα παραιτείται μετά από αίτημα του Λευκού Οίκου",
+        "dek": "Ο Λευκός Οίκος επιβεβαίωσε ότι ζήτησε από την Κίμπερλι Γκίλφοϊλ να αποχωρήσει από τη θέση της στην Αθήνα, μετά από δημοσιογραφικές έρευνες σχετικά με τα ταξιδιωτικά της έξοδα.",
+        "tldr": [
+          "Η Πρέσβης των ΗΠΑ στην Ελλάδα, Κίμπερλι Γκίλφοϊλ, υπέβαλε την παραίτησή της κατόπιν αιτήματος του Λευκού Οίκου.",
+          "Δημοσιεύματα έγειραν ερωτήματα σχετικά με πολυτελείς ταξιδιωτικές ρυθμίσεις και σχέσεις με τοπικούς επιχειρηματικούς κύκλους.",
+          "Η Πρεσβεία των ΗΠΑ στην Αθήνα υποστηρίζει ότι η πρέσβης συμμορφώθηκε με τις ισχύουσες απαιτήσεις δεοντολογίας."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2286,12 +2392,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T19:07:52.649Z",
+      "at": "2026-10-13T19:37:31.654Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T19:07:53.229Z",
+      "at": "2026-10-13T19:37:32.167Z",
       "items": 2
     },
     "civilprotection": {
@@ -2302,27 +2408,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T19:07:55.344Z",
+      "at": "2026-10-13T19:37:34.003Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T19:07:55.635Z",
+      "at": "2026-10-13T19:37:34.179Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T19:07:56.434Z",
+      "at": "2026-10-13T19:37:35.040Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T19:07:56.967Z",
+      "at": "2026-10-13T19:37:35.680Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T19:07:57.787Z",
+      "at": "2026-10-13T19:37:36.570Z",
       "items": 10
     },
     "toi-greece": {
@@ -2333,22 +2439,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T19:07:58.173Z",
+      "at": "2026-10-13T19:37:36.955Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T19:07:58.247Z",
+      "at": "2026-10-13T19:37:37.105Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T19:07:58.751Z",
-      "items": 5
+      "at": "2026-10-13T19:37:37.361Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T19:07:59.007Z",
+      "at": "2026-10-13T19:37:37.495Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2358,12 +2464,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T19:07:53.917Z",
+      "at": "2026-10-13T19:37:32.633Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T19:07:59.547Z",
+      "at": "2026-10-13T19:37:38.095Z",
       "items": 0
     },
     "hcg": {
@@ -2374,32 +2480,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T19:08:00.588Z",
+      "at": "2026-10-13T19:37:39.526Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T19:08:00.853Z",
+      "at": "2026-10-13T19:37:39.772Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T19:08:01.041Z",
+      "at": "2026-10-13T19:37:40.041Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T19:08:01.329Z",
-      "items": 7
+      "at": "2026-10-13T19:37:40.289Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T19:08:01.794Z",
+      "at": "2026-10-13T19:37:40.708Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T19:08:02.292Z",
+      "at": "2026-10-13T19:37:41.220Z",
       "items": 15
     }
   },
@@ -2626,13 +2732,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T19:08:11.544Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-13T19:37:42.310Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· gct | Kimberly Guilfoyle resigns as US Ambassador to Greece",
-      "· naftemporiki | Channel 12: Ο Νετανιάχου πίεσε τον Τραμπ να αναζωπυρώσει τη σύγκρουση με το Ιράν πριν από ",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για Τετάρτη 14, Πέμπτη 15 και Παρασκευή 16 Ο"
+      "· gct | Massive Ancient Monument Discovered Opposite Greek-Style Temple in Pakistan",
+      "· ingr | Ο Νετανιάχου πιέζει τον Τραμπ για πλήγμα κατά του Ιράν πριν τις εκλογές – Η Τεχεράνη εξετά",
+      "✓ gct | Guilfoyle Resigns as WSJ Names Two Greek Businessmen in Luxury Travel Controversy",
+      "· gct | Diplomatic reshuffle: Josh Hack takes over as interim US chargé d’affaires in Athens"
     ]
   },
   "evergreenDone": [
