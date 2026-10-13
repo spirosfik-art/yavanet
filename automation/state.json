@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "a0f88eb3210a": 1790643835019,
     "61f3f66feb5d": 1790646628179,
     "43b8620d6dee": 1790647332480,
     "3f801f378b53": 1790650908888,
@@ -2234,7 +2233,10 @@
     "1d7422a06da4": 1791849187769,
     "47d0722d59b7": 1791849187769,
     "062a6945f803": 1791851970320,
-    "c84eb1973e1d": 1791851970320
+    "c84eb1973e1d": 1791851970320,
+    "970c09b615a8": 1791853452869,
+    "ad5456e8afd1": 1791853452869,
+    "25761175b1d8": 1791853452869
   },
   "pending": {},
   "sourceStatus": {
@@ -2246,12 +2248,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T00:39:20.788Z",
+      "at": "2026-10-13T01:04:02.067Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T00:39:21.432Z",
+      "at": "2026-10-13T01:04:02.576Z",
       "items": 3
     },
     "civilprotection": {
@@ -2262,27 +2264,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T00:39:22.916Z",
+      "at": "2026-10-13T01:04:04.070Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T00:39:23.218Z",
+      "at": "2026-10-13T01:04:04.425Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T00:39:24.133Z",
+      "at": "2026-10-13T01:04:07.154Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T00:39:24.674Z",
-      "items": 2
+      "at": "2026-10-13T01:04:07.709Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T00:39:25.529Z",
+      "at": "2026-10-13T01:04:08.555Z",
       "items": 10
     },
     "toi-greece": {
@@ -2293,22 +2295,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T00:39:26.076Z",
-      "items": 5
+      "at": "2026-10-13T01:04:08.922Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T00:39:26.148Z",
+      "at": "2026-10-13T01:04:09.125Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T00:39:26.341Z",
-      "items": 3
+      "at": "2026-10-13T01:04:09.320Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T00:39:26.477Z",
+      "at": "2026-10-13T01:04:09.448Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2318,12 +2320,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T00:39:21.987Z",
+      "at": "2026-10-13T01:04:02.856Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T00:39:26.998Z",
+      "at": "2026-10-13T01:04:09.962Z",
       "items": 0
     },
     "hcg": {
@@ -2334,32 +2336,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T00:39:28.192Z",
+      "at": "2026-10-13T01:04:10.836Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T00:39:28.450Z",
+      "at": "2026-10-13T01:04:11.055Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T00:39:28.662Z",
+      "at": "2026-10-13T01:04:11.232Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T00:39:28.930Z",
+      "at": "2026-10-13T01:04:11.419Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T00:39:29.266Z",
+      "at": "2026-10-13T01:04:11.801Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T00:39:29.757Z",
+      "at": "2026-10-13T01:04:12.221Z",
       "items": 8
     }
   },
@@ -2466,12 +2468,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T00:39:30.320Z",
-    "considered": 2,
+    "at": "2026-10-13T01:04:12.869Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Hours From Death, a Young Greek Woman Beats the Odds",
-      "· gct | Tom Panos Blasts Albanese and Chalmers Over Australia’s Economy: ‘Nobody Gives a Stuff’"
+      "· gct | Agios Efstratios: How a Remote Greek Island Is Transforming Its Energy Supply With Wind an",
+      "· ingr | Νέος ισχυρός σεισμός στον Παναμά: 6,4 Ρίχτερ στα ανοικτά των νότιων ακτών της επαρχίας Βερ",
+      "· ert | Αναστολή πτήσεων από Qatar Airways και Etihad προς τη Σαουδική Αραβία λόγων επιθέσεων των "
     ]
   },
   "evergreenDone": [
