@@ -1,8 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "8b4eebb5ed05": 1790659445365,
-    "231edee1e7fb": 1790659445365,
     "93851705c814": 1790660191075,
     "008de46e3e8b": 1790661074712,
     "444639ad2ad5": 1790661074712,
@@ -2244,7 +2242,12 @@
     "50de44812ef6": 1791867975334,
     "e5a6786f0f5b": 1791867975334,
     "753066a15aa8": 1791867975334,
-    "016e8a12a3dc": 1791867975334
+    "016e8a12a3dc": 1791867975334,
+    "0e3263eb7463": 1791869292201,
+    "befb75de1c8b": 1791869292201,
+    "3cf26906bb9c": 1791869292201,
+    "57274ab4b2e9": 1791869292201,
+    "d80e05880f86": 1791869292201
   },
   "pending": {
     "1ac64b": {
@@ -2363,12 +2366,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T05:05:55.634Z",
+      "at": "2026-10-13T05:28:00.684Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T05:05:56.335Z",
+      "at": "2026-10-13T05:28:01.284Z",
       "items": 3
     },
     "civilprotection": {
@@ -2379,27 +2382,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T05:05:57.959Z",
+      "at": "2026-10-13T05:28:02.900Z",
       "items": 35
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T05:05:58.088Z",
+      "at": "2026-10-13T05:28:04.126Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T05:05:58.840Z",
+      "at": "2026-10-13T05:28:05.106Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T05:05:59.493Z",
+      "at": "2026-10-13T05:28:05.732Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T05:05:59.931Z",
+      "at": "2026-10-13T05:28:06.582Z",
       "items": 10
     },
     "toi-greece": {
@@ -2410,23 +2413,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T05:06:00.554Z",
+      "at": "2026-10-13T05:28:07.011Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T05:06:00.836Z",
+      "at": "2026-10-13T05:28:07.155Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T05:06:01.308Z",
-      "items": 6
+      "at": "2026-10-13T05:28:07.235Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T05:06:01.446Z",
-      "items": 7
+      "at": "2026-10-13T05:28:07.623Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
@@ -2435,12 +2438,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T05:05:56.776Z",
+      "at": "2026-10-13T05:28:01.733Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T05:06:01.943Z",
+      "at": "2026-10-13T05:28:08.086Z",
       "items": 0
     },
     "hcg": {
@@ -2451,33 +2454,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T05:06:12.944Z",
+      "at": "2026-10-13T05:28:10.291Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T05:06:13.107Z",
+      "at": "2026-10-13T05:28:10.463Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T05:06:13.262Z",
+      "at": "2026-10-13T05:28:10.603Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T05:06:13.416Z",
+      "at": "2026-10-13T05:28:10.750Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T05:06:13.785Z",
-      "items": 6
+      "at": "2026-10-13T05:28:11.094Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T05:06:14.202Z",
-      "items": 11
+      "at": "2026-10-13T05:28:11.492Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2602,18 +2605,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T05:06:15.334Z",
-    "considered": 8,
-    "picked": 2,
+    "at": "2026-10-13T05:28:12.201Z",
+    "considered": 5,
+    "picked": 0,
     "items": [
-      "· gct | Gillian Lant Receives Award Honouring Greek Australian Mersina Halvagis",
-      "✓ naftemporiki | Πώς μοιράστηκαν οι επενδύσεις 1,27 δισ. ευρώ στην αγορά επαγγελματικών ακινήτων",
-      "· ingr | Κίνημα καταναλωτών: Πανελλαδική καμπάνια ΓΣΕΕ για ακρίβεια-στέγαση-ανισότητες",
-      "· gct | Crete’s Disputed Footprints Draw Scientists Back to Trachilos",
-      "· gct | Homemade Phyllo Dough: How to Make Paper-Thin Greek Pastry at Home",
-      "· gct | Syria’s Trojan War Mosaic Names Amazons Unknown to History",
-      "✓ gct | Akrotiri, Santorini: The Bronze Age City Frozen in Ash",
-      "· gn-iefimerida | Καιρός: Ξεκινά η επέλαση της 48ωρης κακοκαιρίας με βροχές, καταιγίδες, κρύο και ισχυρούς α"
+      "· naftemporiki | Latsco: Πράσινες επενδύσεις σχεδόν 14 εκατ. δολ. το 2025",
+      "· gct | Saudi Arabia: Etihad and Qatar Airways Cancel Flights",
+      "· gct | Ship Attacked Off Bulgaria: Second Strike Near Byala Hits Ukrainian-Managed Cargo Vessel",
+      "· gct | Serbian Orthodox Patriarch Porfirije Visits Australia",
+      "· ingr | Η ελληνική γλώσσα στο διάβα του χρόνου: Η έννοια του ελληνισμού (Μέρος ΙΑ’)"
     ]
   },
   "evergreenDone": [
