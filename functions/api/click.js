@@ -3,7 +3,7 @@
 import { json, clean, readBody, sameOrigin, telegram, withDefaults } from "../../lib/forms.js";
 
 const SRC = { facebook: "Facebook", fb: "Facebook", google: "Google", instagram: "Instagram", whatsapp: "WhatsApp", newsletter: "Newsletter", alert: "Email ειδοποίησης", push: "Push ειδοποίηση", telegram: "Telegram" };
-const BTN = { "wa-ask": "«Ρωτήστε μας στο WhatsApp» στο τέλος άρθρου", "wa-ask-footer": "WhatsApp στο κάτω μέρος της σελίδας", "wa-float": "πράσινο κουμπί κάτω δεξιά", wafloat: "πράσινο κουμπί κάτω δεξιά", "wa-spiros": "το όνομα του Σπύρου μέσα σε άρθρο", "wa-tlv": "«Στείλτε μας τον προϋπολογισμό» στη σύγκριση Τελ Αβίβ–Αθήνα", "wa-mid": "κουτάκι WhatsApp στη μέση του άρθρου", "wa-asi-medtour": "Airbnb κοντά σε νοσοκομεία (Άσι)", btn: "κουμπί μέσα στη σελίδα" };
+const BTN = { "wa-ask": "«Ρωτήστε μας στο WhatsApp» στο τέλος άρθρου", "wa-ask-footer": "WhatsApp στο κάτω μέρος της σελίδας", "wa-float": "πράσινο κουμπί κάτω δεξιά", wafloat: "πράσινο κουμπί κάτω δεξιά", "wa-spiros": "το όνομα του Σπύρου μέσα σε άρθρο", "wa-tlv": "«Στείλτε μας τον προϋπολογισμό» στη σύγκριση Τελ Αβίβ–Αθήνα", "wa-mid": "κουτάκι WhatsApp στη μέση του άρθρου", "wa-asi-medtour": "Airbnb κοντά σε νοσοκομεία", btn: "κουμπί μέσα στη σελίδα" };
 function btnText(b) { const k = String(b || "").split(" ")[0]; return (BTN[k] ? BTN[k] + " · " : "") + String(b || "").replace(/^\S+\s*/, ""); }
 export function srcText(s) { return source(s); }
 function source(s) {

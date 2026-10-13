@@ -46,7 +46,7 @@ export function doorsHTML(lang) {
 // Κάρτες ανθρώπων (Άσι, Yana, S.F.)
 export function people(lang, which) {
   const he = lang === "he";
-  const WA_ASI = "https://wa.me/972546221414?text=" + encodeURIComponent(he ? "היי אסי, הגעתי מיוונט" : "Hi Asi, I found you on Yavanet");
+  const WA_ASI = "https://wa.me/306906723676?text=" + encodeURIComponent(he ? "שלום, הגעתי מיוונט ואשמח לפרטים על נדל״ן ביוון" : "Hi, I found you on Yavanet and would like details about property in Greece");
   const WA_YANA = "https://wa.me/306983311161?text=" + encodeURIComponent(he ? "היי יאנה, הגעתי מיוונט" : "Hi Yana, I found you on Yavanet");
   const all = {
     asi: { slug: "asi-doron-real-estate-greece-hebrew", img: "/asi-avatar-v3.jpg", name: he ? "אסי דורון" : "Asi Doron", role: he ? "קנייה, שיפוץ, השכרה וניהול נכסים" : "Buying, renovating, renting, management", text: he ? "9 שנים ביוון, מלווה משקיעים ישראלים מהפגישה הראשונה ועד המפתח." : "9 years in Greece, guiding Israeli investors from the first meeting to the keys.", more: A(lang, "asi-doron-real-estate-greece-hebrew"), wa: WA_ASI },

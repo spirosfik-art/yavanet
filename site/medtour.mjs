@@ -2,8 +2,8 @@
 // Ενεργοποιείται όταν το άρθρο έχει a.showcase === "medtour". Όλα τα κείμενα είναι εδώ, σε εβραϊκά και αγγλικά.
 import { esc, P, formBox } from "./templates.mjs";
 
-const WA_ASI = "972546221414";
-const wa = (he) => `https://wa.me/${WA_ASI}?text=${encodeURIComponent(he ? "היי אסי, קראתי ביוונט על הפרויקט של Airbnb ליד בתי החולים באתונה ואשמח לשמוע פרטים" : "Hi Asi, I read on Yavanet about the Airbnb project near the hospitals in Athens and would like to hear more")}`;
+const WA_ASI = "306906723676";
+const wa = (he) => `https://wa.me/${WA_ASI}?text=${encodeURIComponent(he ? "שלום, קראתי ביוונט על הפרויקט של Airbnb ליד בתי החולים באתונה ואשמח לשמוע פרטים" : "Hi, I read on Yavanet about the Airbnb project near the hospitals in Athens and would like to hear more")}`;
 const U = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1100&q=70`;
 const HERO = "https://a0.muscache.com/im/pictures/hosting/Hosting-1746972742935527010/original/b54e021c-cfc8-4fbc-b2eb-7ab3fae2b4cd.jpeg?im_w=1200";
 
@@ -26,7 +26,7 @@ const C = {
     h1a: "90% תפוסה, כל השנה.",
     h1b: "גם בחורף.",
     dek: "אסי דורון ו-S.F. Properties פתחו דירות Airbnb באזורים נבחרים ומאוד ממוקדים, ליד בתי חולים פרטיים גדולים. רוב האורחים הם יוונים מכל הארץ שמגיעים לאתונה לניתוחים ולטיפולים, ולכן הדירות מלאות גם בחורף.",
-    wa: "שלחו הודעה לאסי",
+    wa: "שלחו לנו הודעה",
     form: "אני רוצה לשמוע על הפרויקט",
     statL: "תפוסה",
     statS: "רוב האורחים יוונים",
@@ -67,7 +67,7 @@ const C = {
     teamNote: "ביחד זה אומר שהמשקיע לא קונה רק דירה. הוא נכנס למודל שכבר עובד.",
     stepsT: "איך נכנסים לפרויקט",
     steps: [
-      ["שיחה ראשונה", "מספרים לאסי מה התקציב ומה המטרה, בעברית."],
+      ["שיחה ראשונה", "מספרים לנו מה התקציב ומה המטרה, בעברית."],
       ["בוחרים דירה", "מוצאים יחד דירה באזור הנכון, קרוב לבתי החולים."],
       ["שיפוץ וריהוט", "מכינים את הדירה בדיוק לאורחים האלה: נוחה, נקייה ונגישה."],
       ["ניהול מלא", "S.F. Properties מפעילה את הדירה, ואתם מקבלים דוח עם המספרים האמיתיים."],
@@ -91,7 +91,7 @@ const C = {
     h1a: "90% occupancy, all year.",
     h1b: "Even in winter.",
     dek: "Asi Doron and S.F. Properties opened Airbnb apartments in very specialised, carefully chosen areas, near large private hospitals. Most guests are Greeks from all over the country who come to Athens for surgery and treatment, so the apartments stay full in winter too.",
-    wa: "Message Asi",
+    wa: "Message us",
     form: "Tell me about the project",
     statL: "occupancy",
     statS: "most guests are Greek",
@@ -132,7 +132,7 @@ const C = {
     teamNote: "Together, it means the investor is not just buying an apartment. They join a model that already works.",
     stepsT: "How to join the project",
     steps: [
-      ["First call", "Tell Asi your budget and your goal, in Hebrew."],
+      ["First call", "Tell us your budget and your goal, in Hebrew."],
       ["Choose an apartment", "Together we find an apartment in the right area, close to the hospitals."],
       ["Renovation and furnishing", "We prepare the apartment exactly for these guests: comfortable, clean and accessible."],
       ["Full management", "S.F. Properties runs the apartment, and you get a report with the real numbers."],

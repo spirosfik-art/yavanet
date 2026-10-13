@@ -32,20 +32,14 @@ const NOW = Date.now();
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
-// Ο αριθμός του Άση δεν εμφανίζεται πουθενά: τα κουμπιά ανοίγουν φόρμα (email + υπηρεσία) και ο αριθμός δίνεται από το /api/lead.
+// Όλα τα links του Άση (WhatsApp/τηλέφωνο) πάνε πλέον στον Σπύρο (S.F. Properties).
+const ASI_TO_SP = (he) => "https://wa.me/306906723676?text=" + encodeURIComponent(he ? "שלום, הגעתי מיוונט ואשמח לפרטים על נדל״ן ביוון" : "Hi, I found you on Yavanet and would like details about property in Greece");
 const asiGate = (p, s) => {
   if (typeof s !== "string" || !/972\s?-?54|54-622-1414/.test(s)) return s;
   const he = !/(^|\/)en\//.test(p);
-  if (/\.html$|\/$/.test(p) || !/\.[a-z]+$/.test(p)) {
-    s = s.replace(/href="https:\/\/wa\.me\/972546221414[^"]*"/g, 'href="#asi" data-asi-gate="wa"')
-      .replace(/href="tel:\+?972546221414"/g, 'href="#asi" data-asi-gate="tel"')
-      .replace(/"telephone"\s*:\s*"\+?972[^"]*",?/g, "")
-      .replace(/\+?972[\s-]?54[\s-]?622[\s-]?1414/g, he ? "הצגת המספר" : "Show number");
-  } else {
-    s = s.replace(/https:\/\/wa\.me\/972546221414[^\s"'\)\]<\\]*/g, "https://yavanet.gr/a/asi-doron-real-estate-greece-hebrew/")
-      .replace(/\+?972[\s-]?54[\s-]?622[\s-]?1414/g, "");
-  }
-  return s;
+  return s.replace(/https:\/\/wa\.me\/972546221414[^\s"'\)\]<\\]*/g, ASI_TO_SP(he).replace(/&/g, "&amp;"))
+    .replace(/tel:\+?972546221414/g, "tel:+306906723676")
+    .replace(/\+?972[\s-]?54[\s-]?622[\s-]?1414/g, "+30 690 672 3676");
 };
 // Όπου εμφανίζεται το όνομα του εκδότη (Σπύρος) μέσα στο κείμενο της σελίδας, γίνεται σύνδεσμος WhatsApp.
 const SPIROS_WA = "306906723676";

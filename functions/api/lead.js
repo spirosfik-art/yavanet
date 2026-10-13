@@ -19,7 +19,7 @@ const KINDS = {
   "strike-alert": "🚨 Ειδοποίηση απεργίας για ταξίδι (/strike-check/)",
   "weather-alert": "🌧️ Εγγραφή σε ειδοποιήσεις καιρού (email)",
 };
-const ASI = { wa: "972546221414", tel: "+972 54-622-1414" };
+const ASI = { wa: "306906723676", tel: "+30 690 672 3676" };
 const ASI_SERVICES = { "real-estate": "Real Estate", "management": "Management", "airbnb": "Airbnb", "renovation": "Renovation" };
 // Ποιες φόρμες είναι πιθανοί πελάτες (μπαίνουν στη λίστα CRM)
 const CRM_KINDS = new Set(["asi-contact", "property-lead", "medtour-lead", "ask-expert", "law-alerts", "advertiser", "business-listing"]);
