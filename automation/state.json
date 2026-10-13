@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "ce1b12793d54": 1790715733294,
     "79c14f879862": 1790717027074,
     "fc32452b97f4": 1790717027074,
     "9e91e04f6bcb": 1790717027074,
@@ -2291,12 +2290,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T20:38:48.500Z",
+      "at": "2026-10-13T21:06:35.829Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T20:38:49.701Z",
+      "at": "2026-10-13T21:06:36.609Z",
       "items": 2
     },
     "civilprotection": {
@@ -2307,27 +2306,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T20:38:52.627Z",
+      "at": "2026-10-13T21:06:38.759Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T20:38:52.694Z",
+      "at": "2026-10-13T21:06:39.167Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T20:38:53.980Z",
+      "at": "2026-10-13T21:06:40.898Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T20:38:54.902Z",
+      "at": "2026-10-13T21:06:42.346Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T20:38:55.926Z",
+      "at": "2026-10-13T21:06:43.254Z",
       "items": 10
     },
     "toi-greece": {
@@ -2338,22 +2337,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T20:38:56.569Z",
+      "at": "2026-10-13T21:06:43.778Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T20:38:56.818Z",
+      "at": "2026-10-13T21:06:44.182Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T20:38:57.264Z",
-      "items": 5
+      "at": "2026-10-13T21:06:44.482Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T20:38:57.785Z",
+      "at": "2026-10-13T21:06:44.711Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2363,12 +2362,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T20:38:50.826Z",
+      "at": "2026-10-13T21:06:37.322Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T20:38:58.607Z",
+      "at": "2026-10-13T21:06:45.348Z",
       "items": 0
     },
     "hcg": {
@@ -2379,176 +2378,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T20:39:00.500Z",
+      "at": "2026-10-13T21:06:46.963Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T20:39:00.716Z",
+      "at": "2026-10-13T21:06:47.243Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T20:39:01.005Z",
+      "at": "2026-10-13T21:06:47.600Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T20:39:01.760Z",
+      "at": "2026-10-13T21:06:47.826Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T20:39:02.117Z",
+      "at": "2026-10-13T21:06:48.242Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T20:39:02.565Z",
-      "items": 12
+      "at": "2026-10-13T21:06:48.667Z",
+      "items": 13
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-13",
-    "count": 10,
-    "published": [
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "Severe Storm Approaching Greece with Heavy Rains and Strong Winds",
-        "at": "2026-10-13T06:46:49+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "akrotiri-santorini-reopened-visitors",
-        "title": "Santorini: Ancient Akrotiri Reopens to Visitors",
-        "at": "2026-10-13T08:06:52+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "commercial-real-estate-greece-h1-2026",
-        "title": "Commercial real estate investment in Greece reaches 1.27 billion euros",
-        "at": "2026-10-13T10:31:42+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "↻ Storm in Greece: 48-Hour Severe Weather System Begins",
-        "at": "2026-10-13T10:32:11+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "↻ Severe weather in Greece: 48-hour storm system heads to Athens",
-        "at": "2026-10-13T11:31:44+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "↻ Severe weather in Greece: Heavy rain and gale-force winds up to 10 Beaufort",
-        "at": "2026-10-13T12:29:48+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Evia Red Alert and Attica Orange Warning Issued for Heavy Storms",
-        "at": "2026-10-13T13:06:05+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greek-antiquities-returned-from-israel",
-        "title": "Greek antiquities returned from Israel in official ceremony",
-        "at": "2026-10-13T14:46:16+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Greece Weather Alert: Severe Storms and Hail Forecast Nationwide",
-        "at": "2026-10-13T15:21:27+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "↻ Athens Storm Alert: Red Code Emergency Declared in Attica",
-        "at": "2026-10-13T16:05:43+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe weather alert issued for Evia and the Sporades",
-        "at": "2026-10-13T16:06:09+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "corfu-flight-emergency-landing-nuremberg",
-        "title": "Emergency landing for flight from Corfu in Germany",
-        "at": "2026-10-13T16:11:20+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "nuremberg-airport-emergency-corfu-flight",
-        "title": "Nuremberg airport closed due to emergency on flight from Corfu",
-        "at": "2026-10-13T16:12:07+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "eu-entry-exit-system-airports-airlines-propose-six-measures",
-        "title": "EU Entry-Exit System: Airports and Airlines Propose Six Measures to Cut Delays",
-        "at": "2026-10-13T19:31:54+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "halkidiki-floods-heavy-rain-siviri",
-        "title": "Halkidiki: Roads turn to rivers in Siviri after heavy rainfall",
-        "at": "2026-10-13T19:54:32+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-political-debate-economy-energy-october-2026",
-        "title": "Greek political parties clash over energy and economic measures in Athens",
-        "at": "2026-10-13T20:43:34+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "us-ambassador-greece-kimberly-guilfoyle-resigns",
-        "title": "US Ambassador to Greece resigns following White House request",
-        "at": "2026-10-13T22:38:46+03:00",
-        "section": "israelis"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Greece Seeks Tighter Controls to Address Medicine Shortages",
-        "reason": "The Hebrew title contains a typo: 'כדי למצור' should be 'כדי למצוא'.",
-        "at": "2026-10-12T22:03:29.299Z"
-      },
-      {
-        "title": "Ακίνητα: Αγοράζουν πριν από την αύξηση φόρου μεταβίβασης - Kathimerini",
-        "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
-        "at": "2026-10-13T08:31:30.766Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "akrotiri-santorini-reopened-visitors",
-        "at": "2026-10-13T05:06:53.408Z"
-      },
-      {
-        "slug": "commercial-real-estate-greece-h1-2026",
-        "at": "2026-10-13T07:31:43.099Z"
-      },
-      {
-        "slug": "greek-antiquities-returned-from-israel",
-        "at": "2026-10-13T11:46:16.981Z"
-      },
-      {
-        "slug": "eu-entry-exit-system-airports-airlines-propose-six-measures",
-        "at": "2026-10-13T16:31:54.644Z"
-      }
-    ]
+    "date": "2026-10-14",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-13",
+      "count": 10,
+      "rejected": 2
+    },
     {
       "date": "2026-10-12",
       "count": 9,
