@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "7a4d950f8577": 1790703398530,
-    "9b2e6e12fc01": 1790703398530,
-    "314099e24382": 1790703398530,
     "4491a199e791": 1790705014062,
     "dce4ab86b0f8": 1790706505972,
     "9a4c1f45e77c": 1790707416928,
@@ -2276,111 +2273,7 @@
     "cc8155b2a70c": 1791912494171,
     "75880e3e1c3e": 1791912494171
   },
-  "pending": {
-    "8e27ee": {
-      "createdAt": 1791905847262,
-      "item": {
-        "title": "Πολιτική κόντρα για τα μέτρα κατά της ενεργειακής κρίσης",
-        "url": "https://www.ertnews.gr/eidiseis/ellada/politiki/politiki-kontra-gia-ta-metra-kata-tis-energeiakis-krisis/",
-        "summary": "Τα μέτρα για τη θέρμανση και τα καύσιμα έχουν βάλει φωτιά μεταξύ κυβέρνησης και αντιπολίτευσης, με το Μέγαρο Μαξίμου να υπογραμμίζει ότι θα εξαντλήσει όλα τα περιθώρια στήριξης. Ο αντιπρόεδρος της κυβέρνησης Κωστής Χατζηδάκης, μιλώντας στο OPEN τόνισε: «Αν ξεπεραστούν κάποια όρια, μετά κινδυνεύουμε να μπλέξουμε σε κρίσεις τις οποίες τις πληρώνουν οι πολίτες και ... Περισσότερα \n www.ertnews.gr",
-        "published": "Tue, 13 Oct 2026 15:29:30 +0000",
-        "id": "1ddbf587f735",
-        "sourceId": "ert",
-        "sourceName": "ΕΡΤ (ertnews.gr)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "1ddbf587f735",
-        "section": "politics",
-        "priority": 6,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Energy crisis measures and heating subsidies in Greece affect the overall cost of living and utility expenses, which matters for property investors and residents.",
-        "item": {
-          "title": "Πολιτική κόντρα για τα μέτρα κατά της ενεργειακής κρίσης",
-          "url": "https://www.ertnews.gr/eidiseis/ellada/politiki/politiki-kontra-gia-ta-metra-kata-tis-energeiakis-krisis/",
-          "summary": "Τα μέτρα για τη θέρμανση και τα καύσιμα έχουν βάλει φωτιά μεταξύ κυβέρνησης και αντιπολίτευσης, με το Μέγαρο Μαξίμου να υπογραμμίζει ότι θα εξαντλήσει όλα τα περιθώρια στήριξης. Ο αντιπρόεδρος της κυβέρνησης Κωστής Χατζηδάκης, μιλώντας στο OPEN τόνισε: «Αν ξεπεραστούν κάποια όρια, μετά κινδυνεύουμε να μπλέξουμε σε κρίσεις τις οποίες τις πληρώνουν οι πολίτες και ... Περισσότερα \n www.ertnews.gr",
-          "published": "Tue, 13 Oct 2026 15:29:30 +0000",
-          "id": "1ddbf587f735",
-          "sourceId": "ert",
-          "sourceName": "ΕΡΤ (ertnews.gr)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "greece-political-clash-energy-economy-2026",
-        "section": "politics",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "מערכת פוליטית",
-          "en": "Political Clash"
-        },
-        "imageKey": "politics",
-        "imageQuery": "greek parliament athens greece",
-        "he": {
-          "title": "עימות פוליטי ביוון סביב צעדי תמיכה באנרגיה ובכלכלה לקראת הבחירות",
-          "seoTitle": "פוליטיקה ביוון: עימות על מחירי האנרגיה והכלכלה",
-          "seoDesc": "המערכת הפוליטית ביוון סוערת סביב מחירי האנרגיה, החימום והכלכלה. כל הפרטים על העימות בין הממשלה לאופוזיציה לקראת הבחירות הקרובות.",
-          "keywords": [
-            "פוליטיקה ביוון",
-            "כלכלה ביוון",
-            "חדשות יוון",
-            "ממשלת יוון",
-            "יוון"
-          ],
-          "dek": "חילופי אש בין הממשלה לאופוזיציה ביוון סביב יוקר המחיה, מחירי החימום והדלק לקראת מערכת הבחירות הקרובה.",
-          "tldr": [
-            "הממשלה והאופוזיציה ביוון מנהלות ויכוח חריף על מדיניות הכלכלה והאנרגיה.",
-            "נציגי המפלגות מציגים גישות שונות לגבי טיפול בחוב הפרטי ובתמיכה באזרחים.",
-            "המערכת הפוליטית מתחממת לקראת הבחירות הכלליות באופק."
-          ],
-          "means": "מה זה אומר עבורכם? הדיונים הכלכליים והפוליטיים ביוון משפיעים על האווירה הציבורית במדינה, אך אין להם השפעה מיידית או ישירה על תוכניותיהם של תיירים או משקיעים זרים בטווח הקצר. מומלץ להתעדכן בחדשות המקומיות לפני הגעה למדינה כדי להכיר את מצב הרוח הציבורי.",
-          "body": "## עימות חריף בין הקואליציה לאופוזיציה ביוון\n\nהמתיחות הפוליטית ביוון הגיעה לשיא חדש סביב הצעדים הממשלתיים לטיפול במשבר האנרגיה, עלויות החימום ומחירי הדלק. מצד אחד, גורמים בממשלה מדגישים כי נעשים כל המאמצים למצות את כל פוטנציאל התמיכה באזרחים, מבלי לפגוע ביציבות הפיסקלית של המדינה ומבלי להטיל מיסים חדשים.\n\nמנגד, מפלגות האופוזיציה השונות מעבירות ביקורת קשה על התנהלות הקואליציה ומציגות הצעות חלופיות. הנושאים המרכזיים שעומדים על הפרק כוללים את הטיפול בחוב הפרטי, הגנה על מגורים עיקריים ונכסים חקלאיים, ודרכים להתמודדות עם האינפלציה הממושכת.\n\n## עמדות המפלגות לקראת הבחירות\n\nנציגי המפלגות השונות הציגו בשורת ראיונות את התוכניות שלהם לציבור הרחב. הדיונים נוגעים ישירות לכיס של האזרח היווני, החל ממחירי האנרגיה וכלה ברגולציה על הבנקים והגנה על השכבות החלשות.\n\nהוויכוח הציבורי צפוי להמשיך ולהתגבר ככל שמתקרב מועד הבחירות הכלליות, כאשר כל צד מנסה לשכנע את הבוחרים ביכולתו לספק פתרונות אמיתיים ויציבים למשק היווני."
-        },
-        "en": {
-          "title": "Political clash in Greece over energy measures and economy ahead of elections",
-          "seoTitle": "Greece Politics: Clash Over Energy and Economy",
-          "seoDesc": "Greek government and opposition clash over energy prices, heating support, and economic policy as the country heads toward national elections.",
-          "keywords": [
-            "greece politics",
-            "greek economy",
-            "greece news",
-            "greek government",
-            "greece"
-          ],
-          "dek": "A fierce political debate unfolds in Greece between the government and opposition parties over energy costs, heating measures, and economic policy.",
-          "tldr": [
-            "The Greek government and opposition are trading barbs over economic and energy support.",
-            "Parties are presenting differing proposals regarding private debt and citizen welfare.",
-            "Political tensions are rising as the country moves closer to national elections."
-          ],
-          "means": "What it means for you: The ongoing political discussions reflect the domestic economic climate in Greece. They do not pose any immediate disruption or safety concern for tourists or foreign visitors, but staying informed on local developments is always recommended.",
-          "body": "## Political Friction Over Energy and Economic Policies\n\nPolitical friction has intensified in Greece regarding measures concerning heating, fuel, and overall energy costs. Government representatives emphasize that authorities are utilizing all available fiscal margins to support citizens without introducing new taxes, maintaining economic stability.\n\nMeanwhile, opposition parties have strongly criticized the administration's track record and put forward alternative proposals. Key issues debated include private debt management, the protection of primary residences and agricultural property, and addressing high costs of living.\n\n## Perspectives Ahead of National Elections\n\nRepresentatives from various political factions have outlined their distinct visions for the Greek economy and society. The debates center heavily on protecting vulnerable households, regulating banking charges, and providing long-term solutions for everyday citizens.\n\nThis economic and political confrontation is expected to escalate further as the country progresses toward upcoming national elections, shaping the central public discourse in Greece."
-        }
-      },
-      "text": "Τα μέτρα για τη θέρμανση και τα καύσιμα έχουν βάλει φωτιά μεταξύ κυβέρνησης και αντιπολίτευσης, με το Μέγαρο Μαξίμου να υπογραμμίζει ότι θα εξαντλήσει όλα τα περιθώρια στήριξης.\n Δείτε περισσότερα στο&nbsp; ertflix.gr | Ακούστε περισσότερα στο ertecho.gr \n Ο αντιπρόεδρος της κυβέρνησης Κωστής Χατζηδάκης , μιλώντας στο OPEN τόνισε: «Αν ξεπεραστούν κάποια όρια, μετά κινδυνεύουμε να μπλέξουμε σε κρίσεις τις οποίες τις πληρώνουν οι πολίτες και ιδιαίτερα οι ασθενέστεροι.\nΑν δεν ήταν καμιά σοβαρή κυβέρνηση στην Ελλάδα τα τελευταία χρόνια τα 7,5 χρόνια και ήταν λαϊκίστικες κυβερνήσεις και ό, τι να ναι υπουργοί, τότε φοβάμαι δεν θα συζητούσαμε ούτε καν αυτά».\n Την πρόταση νόμου του ΠΑΣΟΚ για το ιδιωτικό χρέος παρουσίασε ο Νίκος Ανδρουλάκης . Μεταξύ άλλων αφορά την προστασία της κύριας κατοικίας και της αγροτικής περιουσίας, τις πραγματικές όπως είπε 120 δόσεις, τον εξωδικαστικό μηχανισμό και τη λειτουργία των servicers, το δικαίωμα πρώτης προτίμησης του δανειολήπτη, τα δάνεια σε ελβετικό φράγκο, τους εγγυητές, τον ακατάσχετο επαγγελματικό λογαριασμό και τη κατάργηση των καταχρηστικών τραπεζικών χρεώσεων.\n Όπως τόνισε: «Να συνεχίσουμε στον ίδιο δρόμο που χάραξε εδώ και επτά χρόνια η Νέα Δημοκρατία ; Στον δρόμο της υποτίμησης των κοινωνικών προβλημάτων ή στο δρόμο της κοινωνικής ευαισθησίας και ενός άλλου σχεδίου για ισχυρή οικονομία, με λύσεις για τους πολίτες»;\n Ο κυβερνητικός εκπρόσωπος Παύλος Μαρινάκης , μιλώντας στη Ναυτεμπορική TV, δήλωσε: «Η αντιπολίτευση αντιμετωπίζει την Ελλάδα ως ένα γαλατικό χωριό. Η Ελλάδα, η ελληνική κυβέρνηση αντιλαμβανόμενη την πολύ μεγάλη ανάγκη στήριξης των πολιτών, έχοντας εφαρμόσει μία οικονομική πολιτική όπου αυξάνονται όσο παραπάνω μπορούμε τα έσοδα χωρίς νέους φόρους, με τους φόρους να μειώνονται, υπάρχουν αποθέματα».\n Την ενίσχυση του ΚΚΕ μέσα και έξω από τη Βουλή ζήτησε ο γ.γ του κόμματος, Δημήτρης Κουτσούμπας : «Για να νικήσει τελικά η πατρίδα των ανθρώπων του μόχθου, των εργατών, των εργατριών, όλων των εργαζομένων, των βιοπαλαιστών αγροτών των ελευθεροπαγγελματιών, αυτοαπασχολουμένων».\n Ο πρόεδρος της Ελληνικής Λύσης , Κυριάκος Βελόπουλος βάζει στο κάδρο της κριτικής του για τα ενεργειακά την κυβέρνηση αλλά και ΠΑΣΟΚ, ΣΥΡΙΖΑ: «Μετά τα λάθη και τα εγκλήματα που έκαναν και οι τρεις, την σφαλιάρα στις εκλογές θα την εισπράξουν και οι τρεις από τον ελληνικό λαό».\n Την πρόταση του ΣΥΡΙΖΑ για ένα ισχυρό ΕΦΚΑ που θα λειτουργεί ως εθνικός επενδυτής – όπως τονίστηκε – παρουσίασε ο γραμματέας του κόμματος Νίκος Παππάς : «Θεωρούμε ότι η πρότασή μας απαντάει σε μείζονα ζητήματα, δηλαδή εμπεριέχει και τη ρύθμιση του ιδιωτικού χρέους, το οποίο επιβαρύνεται, φτιάχνει κοινωνική κατοικία».\n Το κόμμα ΝΙΚΗ επισημαίνει: «Μόνο μια πατριωτική κυβέρνηση μπορεί να δώσει λύση με μόνιμα χαρακτηριστικά στο σύνθετο πρόβλημα της πολυεπίπεδης ακρίβειας».\n Η αντιπαράθεση για την οικονομία θα κλιμακώνεται στο δρόμο προς τις εθνικές κάλπες.\n Ρεπορτάζ: Γιάννης Μύττης\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Δημήτρης Κουτσούμπας Ελληνική Λύση καύσιμα ΚΚΕ Κυριάκος Βελόπουλος Κωστής Χατζηδάκης Νέα Δημοκρατία ΝΙΚΗ Νίκος Ανδρουλάκης Νίκος Παππάς ΠΑΣΟΚ-ΚΙΝΑΛ Παύλος Μαρινάκης ΣΥΡΙΖΑ-ΠΣ \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
-      "issues": [],
-      "el": {
-        "title": "Πολιτική σύγκρουση στην Ελλάδα για τα μέτρα ενέργειας και την οικονομία ενόψει εκλογών",
-        "dek": "Σφοδρή πολιτική αντιπαράθεση ξεδιπλώνεται στην Ελλάδα μεταξύ κυβέρνησης και κομμάτων της αντιπολίτευσης για το ενεργειακό κόστος, τα μέτρα θέρμανσης και την οικονομική πολιτική.",
-        "tldr": [
-          "Η ελληνική κυβέρνηση και η αντιπολίτευση ανταλλάσσουν πυρά για τη στήριξη της οικονομίας και της ενέργειας.",
-          "Τα κόμματα παρουσιάζουν διαφορετικές προτάσεις σχετικά με το ιδιωτικό χρέος και την ευημερία των πολιτών.",
-          "Οι πολιτικές εντάσεις κλιμακώνονται καθώς η χώρα οδεύει προς τις εθνικές εκλογές."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2390,12 +2283,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T17:26:58.667Z",
+      "at": "2026-10-13T17:43:36.859Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T17:26:59.373Z",
+      "at": "2026-10-13T17:43:37.793Z",
       "items": 2
     },
     "civilprotection": {
@@ -2406,27 +2299,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T17:27:01.305Z",
+      "at": "2026-10-13T17:43:39.921Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T17:27:01.651Z",
+      "at": "2026-10-13T17:43:40.309Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T17:27:02.387Z",
+      "at": "2026-10-13T17:43:41.380Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T17:27:03.042Z",
+      "at": "2026-10-13T17:43:42.342Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T17:27:03.898Z",
+      "at": "2026-10-13T17:43:43.379Z",
       "items": 10
     },
     "toi-greece": {
@@ -2437,22 +2330,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T17:27:04.308Z",
+      "at": "2026-10-13T17:43:43.971Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T17:27:05.583Z",
+      "at": "2026-10-13T17:43:44.070Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T17:27:05.782Z",
+      "at": "2026-10-13T17:43:44.326Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T17:27:05.940Z",
+      "at": "2026-10-13T17:43:44.885Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2462,12 +2355,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T17:26:59.887Z",
+      "at": "2026-10-13T17:43:38.016Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T17:27:06.474Z",
+      "at": "2026-10-13T17:43:45.715Z",
       "items": 0
     },
     "hcg": {
@@ -2478,39 +2371,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T17:27:07.898Z",
+      "at": "2026-10-13T17:43:47.458Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T17:27:08.153Z",
+      "at": "2026-10-13T17:43:47.698Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T17:27:08.442Z",
+      "at": "2026-10-13T17:43:47.887Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T17:27:08.745Z",
+      "at": "2026-10-13T17:43:48.134Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T17:27:09.256Z",
+      "at": "2026-10-13T17:43:48.579Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T17:27:09.686Z",
+      "at": "2026-10-13T17:43:49.057Z",
       "items": 15
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-13",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "greece-storm-october-2026",
@@ -2601,6 +2494,12 @@
         "title": "Halkidiki: Roads turn to rivers in Siviri after heavy rainfall",
         "at": "2026-10-13T19:54:32+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-political-debate-economy-energy-october-2026",
+        "title": "Greek political parties clash over energy and economic measures in Athens",
+        "at": "2026-10-13T20:43:34+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
