@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "988af1fd01bd": 1790687214690,
-    "c4d24fe48f12": 1790687214690,
-    "bf59a8fee3ab": 1790687214690,
     "ccdc3874263b": 1790688548998,
     "187aa7180c9b": 1790688548998,
     "f150d8da1482": 1790688548998,
@@ -2367,107 +2364,6 @@
         ]
       },
       "notified": true
-    },
-    "cd4fd9": {
-      "createdAt": 1791896797420,
-      "item": {
-        "title": "Λήξη συναγερμού στη Νυρεμβέργη: Επαναλειτουργεί το αεροδρόμιο – Για «τεχνικό λάθος» μιλά η εταιρεία",
-        "url": "https://www.naftemporiki.gr/kosmos/2174373/lixi-synagermoy-sti-nyremvergi-epanaleitoyrgei-to-aerodromio/?utm_source=rss&utm_medium=rss&utm_campaign=lixi-synagermoy-sti-nyremvergi-epanaleitoyrgei-to-aerodromio",
-        "summary": "Η λειτουργία του αεροδρομίου της Νυρεμβέργης έχει επιστρέψει στην κανονικότητα, αφότου η πτήση από την Κέρκυρα εξέπεμψε κωδικό έκτακτης ανάγκης, ενώ βρισκόταν στον εναέριο χώρο της Κροατίας, λόγω δυσλειτουργίας στο…\n Λήξη συναγερμού στη Νυρεμβέργη: Επαναλειτουργεί το αεροδρόμιο – Για «τεχνικό λάθος» μιλά η εταιρεία - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-        "published": "Tue, 13 Oct 2026 12:48:16 +0000",
-        "id": "b7794de529ca",
-        "sourceId": "naftemporiki",
-        "sourceName": "Ναυτεμπορική",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "b7794de529ca",
-        "section": "travel",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "A flight from Corfu to Nuremberg triggered a hijack security alert and airport closure before being resolved as a technical error, mattering to travelers and flight safety.",
-        "item": {
-          "title": "Λήξη συναγερμού στη Νυρεμβέργη: Επαναλειτουργεί το αεροδρόμιο – Για «τεχνικό λάθος» μιλά η εταιρεία",
-          "url": "https://www.naftemporiki.gr/kosmos/2174373/lixi-synagermoy-sti-nyremvergi-epanaleitoyrgei-to-aerodromio/?utm_source=rss&utm_medium=rss&utm_campaign=lixi-synagermoy-sti-nyremvergi-epanaleitoyrgei-to-aerodromio",
-          "summary": "Η λειτουργία του αεροδρομίου της Νυρεμβέργης έχει επιστρέψει στην κανονικότητα, αφότου η πτήση από την Κέρκυρα εξέπεμψε κωδικό έκτακτης ανάγκης, ενώ βρισκόταν στον εναέριο χώρο της Κροατίας, λόγω δυσλειτουργίας στο…\n Λήξη συναγερμού στη Νυρεμβέργη: Επαναλειτουργεί το αεροδρόμιο – Για «τεχνικό λάθος» μιλά η εταιρεία - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-          "published": "Tue, 13 Oct 2026 12:48:16 +0000",
-          "id": "b7794de529ca",
-          "sourceId": "naftemporiki",
-          "sourceName": "Ναυτεμπορική",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "corfu-flight-emergency-landing-nuremberg",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "דיווח מגרמניה",
-          "en": "Report from Germany"
-        },
-        "imageKey": "plane",
-        "imageQuery": "commercial airplane landing",
-        "he": {
-          "title": "נחיתת חירום למטוס שהמריא מקורפו בגרמניה",
-          "seoTitle": "נחיתת חירום למטוס שהמריא מקורפו: כל הפרטים",
-          "seoDesc": "מטוס של חברת Corendon Airlines שהמריא מקורפו נחת בבטחה בנמל התעופה בנירנברג לאחר תקלה טכנית. אין נפגעים.",
-          "keywords": [
-            "טיסות מקורפו",
-            "נחיתת חירום",
-            "טיסות ליוון",
-            "חדשות תעופה"
-          ],
-          "dek": "מטוס נוסעים שהמריא מהאי קורפו נחת נחיתת חירום בגרמניה בעקבות תקלה במערכת הקשר. האירוע הסתיים ללא נפגעים.",
-          "tldr": [
-            "מטוס של חברת Corendon Airlines שידר אות מצוקה עקב תקלה טכנית.",
-            "המטוס נחת בבטחה בנמל התעופה בנירנברג בליווי מטוסי קרב.",
-            "לא נשקפה סכנה לנוסעים או לצוות במהלך האירוע."
-          ],
-          "means": "עבור ישראלים הטסים מיוון, חשוב לזכור כי במקרה של תקלה טכנית, צוותי האוויר פועלים לפי פרוטוקולי בטיחות מחמירים. אם אתם חווים עיכובים או שינויים בלוח הטיסות בעקבות אירועים דומים, מומלץ להתעדכן מול חברת התעופה שלכם ולוודא שפרטי הקשר שלכם מעודכנים בהזמנה.",
-          "body": "## פרטי האירוע\nמטוס של חברת התעופה Corendon Airlines, שהמריא מהאי קורפו ביוון, נחת בבטחה בנמל התעופה בנירנברג שבגרמניה. הנחיתה בוצעה לאחר שהצוות שידר קוד מצוקה בזמן שהמטוס טס מעל המרחב האווירי של קרואטיה.\n\n## סיבת הנחיתה\nעל פי הדיווחים, הסיבה להכרזה על מצב חירום הייתה תקלה טכנית במערכת הקשר של המטוס. כחלק מהנוהל המקובל במקרים של אובדן קשר או תקלה מסוג זה, המטוס לווה על ידי מטוסי קרב מסוג יורופייטר עד לנחיתתו בנמל התעופה בגרמניה.\n\n## בטיחות הנוסעים\nהרשויות בגרמניה אישרו כי לא נשקפה סכנה לנוסעים, לצוות המטוס או לכלי הטיס עצמו בכל שלבי האירוע. המשטרה המקומית ציינה כי התקבלה התראה על אירוע תעופתי לא מוגדר, אך המטוס הצליח להשלים את הנחיתה ללא תקלות נוספות. פעילות נמל התעופה בנירנברג חזרה לשגרה מלאה מיד לאחר מכן."
-        },
-        "en": {
-          "title": "Emergency landing for flight from Corfu in Germany",
-          "seoTitle": "Emergency landing for flight from Corfu: All details",
-          "seoDesc": "A Corendon Airlines flight from Corfu landed safely in Nuremberg following a radio communication malfunction. No injuries reported.",
-          "keywords": [
-            "Corfu flights",
-            "emergency landing",
-            "flights to Greece",
-            "aviation news"
-          ],
-          "dek": "A passenger plane departing from Corfu made an emergency landing in Germany due to a communication system failure. The incident ended safely.",
-          "tldr": [
-            "A Corendon Airlines flight issued an emergency code due to a technical issue.",
-            "The aircraft landed safely in Nuremberg escorted by fighter jets.",
-            "No passengers or crew were at risk during the incident."
-          ],
-          "means": "For travelers flying from Greece, it is important to remember that flight crews follow strict safety protocols during technical issues. If you experience delays or flight changes due to similar incidents, always check with your airline and ensure your contact details are updated in your booking.",
-          "body": "## Incident Overview\nA Corendon Airlines flight that departed from the Greek island of Corfu has landed safely at Nuremberg Airport in Germany. The landing was carried out after the crew transmitted an emergency code while the aircraft was in Croatian airspace.\n\n## Reason for Landing\nAccording to reports, the emergency declaration was triggered by a technical malfunction in the aircraft's radio communication system. As part of standard procedure for such incidents, the plane was escorted by Eurofighter jets until it touched down at the German airport.\n\n## Passenger Safety\nGerman authorities confirmed that at no point were the passengers, crew, or the aircraft itself in danger. Local police stated they received a notification regarding an unspecified aviation emergency, but the aircraft landed safely without further issues. Operations at Nuremberg Airport returned to normal shortly after the event."
-        }
-      },
-      "text": "Η λειτουργία του αεροδρομίου της Νυρεμβέργης έχει επιστρέψει στην κανονικότητα, αφότου η πτήση από την Κέρκυρα εξέπεμψε κωδικό έκτακτης ανάγκης , ενώ βρισκόταν στον εναέριο χώρο της Κροατίας, λόγω δυσλειτουργίας στο σύστημα ραδιοεπικοινωνίας.\n Δεν υπήρξε κατάσταση έκτακτης ανάγκης και σε καμία στιγμή δεν τέθηκαν σε κίνδυνο οι επιβάτες, το πλήρωμα ή το αεροσκάφος, αναφέρει το Reuters.\n Στο περιστατικό εμπλεκόταν αεροπλάνο της Corendon Airlines το οποίο προερχόταν από την Κέρκυρα και προσγειώθηκε με ασφάλεια, συνοδευόμενο από αεροσκάφη Eurofighter.\n Σε ανάρτησή της στα μέσα κοινωνικής δικτύωσης, η περιφερειακή αστυνομία ανέφερε ότι έλαβε «ειδοποίηση σχετικά με ένα αδιευκρίνιστο αεροπορικό περιστατικό έκτακτης ανάγκης». «Στο μεταξύ, το αεροσκάφος προσγειώθηκε με ασφάλεια στη Νυρεμβέργη», ανέφερε η ανακοίνωση.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 13/10/2026 - 3:29 \n Βρετανικές μυστικές υπηρεσίες: Το Ιράν και η Ρωσία εντείνουν τις υβριδικές επιχειρήσεις στη χώρα\n 13/10/2026 - 3:25 \n Βουλγαρία: Κλήτευση της Ρωσίδας πρέσβειρας μετά τα drones στη Μαύρη Θάλασσα\n 13/10/2026 - 3:22 \n Αργεντινή: Προσφεύγει στο διεθνές δικαστήριο κατά της βρετανικής εκμετάλλευσης υδρογονανθράκων στα Φόκλαντ\n 13/10/2026 - 3:16 \n Βραζιλία: Σενάριο προσομοίωσης του β’ γύρου των προεδρικών εκλογών αναδεικνύει νικητή τον Μπολσονάρου\n 13/10/2026 - 3:15 \n Η Ρωσία ενσωματώνει τεχνολογία των πυραύλων κρουζ στα drones της – Τι είναι το σύστημα Susanin και γιατί αποτελεί πρόκληση για την Ουκρανία\n 13/10/2026 - 3:01 \n «Το ChatGPT βοήθησε την κόρη μου να γράψει το σημείωμα αυτοκτονίας της»: Η κραυγή μίας μητέρας και το αίτημα στην OpenAI\n 13/10/2026 - 2:57 \n Πάπας Λέων: Σήμερα το απόγευμα μπαίνει στο χειρουργείο για επέμβαση στον πνεύμονα\n 13/10/2026 - 2:35 \n «Στον αέρα» ο σχηματισμός κυβέρνησης στη Σουηδία ένα μήνα μετά τις εκλογές – Μαγκνταλένα Άντερσον: «Δεν εξασφάλισα συμφωνία με άλλα κόμματα»\n 13/10/2026 - 2:32 \n Εμίρης Κατάρ: Οι Ισραηλινοί αξιωματούχοι πρέπει να λογοδοτήσουν για τη «γενοκτονία» στη Γάζα\n 13/10/2026 - 2:24 \n Η βραβευμένη με το Νόμπελ Ειρήνης Νάβι Πιλάι καλεί τις ΗΠΑ να υπερασπιστούν τα ανθρώπινα δικαιώματα\n 13/10/2026 - 2:11 \n Η Ρωσία δεν έπληξε ενεργειακούς στόχους στην Ουκρανία για πρώτη φορά μετά την «εκεχειρία» του Τραμπ\n 13/10/2026 - 2:11 \n Ισραήλ: Γύρισε πίσω αεροσκάφος της Ethiopian Airlines λόγω της εθνικότητας του πιλότου\n Περισσότερα",
-      "issues": [],
-      "el": {
-        "title": "Αναγκαστική προσγείωση αεροσκάφους από την Κέρκυρα στη Γερμανία",
-        "dek": "Επιβατικό αεροσκάφος που αναχώρησε από την Κέρκυρα πραγματοποίησε αναγκαστική προσγείωση στη Γερμανία λόγω βλάβης στο σύστημα επικοινωνίας. Το περιστατικό έληξε χωρίς προβλήματα.",
-        "tldr": [
-          "Πτήση της Corendon Airlines εξέπεμψε σήμα κινδύνου λόγω τεχνικού προβλήματος.",
-          "Το αεροσκάφος προσγειώθηκε με ασφάλεια στη Νυρεμβέργη, συνοδευόμενο από μαχητικά αεροσκάφη.",
-          "Δεν υπήρξε κανένας κίνδυνος για τους επιβάτες ή το πλήρωμα κατά τη διάρκεια του συμβάντος."
-        ]
-      },
-      "notified": true
     }
   },
   "sourceStatus": {
@@ -2599,7 +2495,7 @@
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-13",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "greece-storm-october-2026",
@@ -2666,6 +2562,12 @@
         "title": "↻ Severe weather alert issued for Evia and the Sporades",
         "at": "2026-10-13T16:06:09+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "corfu-flight-emergency-landing-nuremberg",
+        "title": "Emergency landing for flight from Corfu in Germany",
+        "at": "2026-10-13T16:11:20+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
