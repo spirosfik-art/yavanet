@@ -2237,7 +2237,10 @@
     "5b6713ee3851": 1791860262029,
     "596c8578b736": 1791860262029,
     "9ca6acf021e1": 1791860941646,
-    "5588f65b712c": 1791862074275
+    "5588f65b712c": 1791862074275,
+    "16589972409d": 1791863190386,
+    "8c0425f471fe": 1791863190386,
+    "739a625c77be": 1791863190386
   },
   "pending": {},
   "sourceStatus": {
@@ -2249,12 +2252,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T03:27:41.781Z",
+      "at": "2026-10-13T03:46:16.284Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T03:27:42.732Z",
+      "at": "2026-10-13T03:46:17.239Z",
       "items": 3
     },
     "civilprotection": {
@@ -2265,27 +2268,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T03:27:44.671Z",
+      "at": "2026-10-13T03:46:19.663Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T03:27:45.127Z",
+      "at": "2026-10-13T03:46:20.049Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T03:27:46.187Z",
+      "at": "2026-10-13T03:46:21.497Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T03:27:46.971Z",
+      "at": "2026-10-13T03:46:22.431Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T03:27:47.893Z",
+      "at": "2026-10-13T03:46:23.327Z",
       "items": 10
     },
     "toi-greece": {
@@ -2296,22 +2299,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T03:27:48.428Z",
+      "at": "2026-10-13T03:46:24.004Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T03:27:48.766Z",
+      "at": "2026-10-13T03:46:24.094Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T03:27:49.156Z",
+      "at": "2026-10-13T03:46:24.757Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T03:27:49.638Z",
+      "at": "2026-10-13T03:46:25.346Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2321,12 +2324,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T03:27:43.362Z",
+      "at": "2026-10-13T03:46:17.994Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T03:27:50.412Z",
+      "at": "2026-10-13T03:46:25.938Z",
       "items": 0
     },
     "hcg": {
@@ -2337,40 +2340,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T03:27:52.146Z",
+      "at": "2026-10-13T03:46:27.808Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T03:27:52.417Z",
+      "at": "2026-10-13T03:46:27.990Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T03:27:52.635Z",
+      "at": "2026-10-13T03:46:28.224Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T03:27:52.860Z",
-      "items": 5
+      "at": "2026-10-13T03:46:28.449Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T03:27:53.172Z",
-      "items": 9
+      "at": "2026-10-13T03:46:28.884Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T03:27:53.547Z",
+      "at": "2026-10-13T03:46:29.417Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-13",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "greece-storm-october-2026",
+        "title": "Severe Storm Approaching Greece with Heavy Rains and Strong Winds",
+        "at": "2026-10-13T06:46:49+03:00",
+        "section": "breaking"
+      }
+    ],
     "rejected": [
       {
         "title": "Greece Seeks Tighter Controls to Address Medicine Shortages",
@@ -2378,7 +2388,8 @@
         "at": "2026-10-12T22:03:29.299Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": []
   },
   "history": [
     {
@@ -2469,11 +2480,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T03:27:54.275Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-13T03:46:30.386Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Gkrava Gas Odour Unexplained as Inspection Finds No Leak at Athens Schools"
+      "· gn-hcg | Συνέχεια ενημέρωσης αναφορικά με τον εντοπισμό και διάσωση 45 αλλοδαπών νότια της Γαύδου– ",
+      "· gct | Greece Attracts Britons Seeking a New Life Abroad",
+      "✓ naftemporiki | Καιρός: Νέα κακοκαιρία με ισχυρές καταιγίδες και 8 μποφόρ – Πότε φτάνει στην Αττική"
     ]
   },
   "evergreenDone": [
