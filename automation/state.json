@@ -1,13 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "e1a27329c3b4": 1790717737852,
-    "8abb4fda80f9": 1790717737852,
-    "289f3d866b03": 1790717737852,
-    "1ad0e9e81bfe": 1790718596423,
-    "6ef7189a6ab4": 1790718596423,
-    "19ed14bab0b5": 1790719272786,
-    "cea612439d6c": 1790719272786,
     "8d5bf32c9b92": 1790720624604,
     "4a8b903b0aac": 1790721334659,
     "f634a4e65c7c": 1790722870688,
@@ -2277,7 +2270,11 @@
     "2c824254b090": 1791923943286,
     "5522ad8e5022": 1791927275578,
     "2f24f70a0ce3": 1791927275578,
-    "10b0e3aa0c08": 1791927275578
+    "10b0e3aa0c08": 1791927275578,
+    "a0bf73b8346a": 1791929045553,
+    "82c752d48065": 1791929045553,
+    "9697c6738f3a": 1791929045553,
+    "dc5ffb5eabcb": 1791929045553
   },
   "pending": {},
   "sourceStatus": {
@@ -2289,12 +2286,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T21:34:25.461Z",
-      "items": 0
+      "at": "2026-10-13T22:03:53.157Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T21:34:26.076Z",
+      "at": "2026-10-13T22:03:53.907Z",
       "items": 2
     },
     "civilprotection": {
@@ -2305,27 +2302,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T21:34:27.620Z",
+      "at": "2026-10-13T22:03:56.024Z",
       "items": 56
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T21:34:27.915Z",
+      "at": "2026-10-13T22:03:56.216Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T21:34:28.683Z",
+      "at": "2026-10-13T22:03:57.344Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T21:34:29.324Z",
-      "items": 1
+      "at": "2026-10-13T22:03:58.168Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T21:34:30.088Z",
+      "at": "2026-10-13T22:03:59.139Z",
       "items": 10
     },
     "toi-greece": {
@@ -2336,22 +2333,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T21:34:30.490Z",
+      "at": "2026-10-13T22:03:59.418Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T21:34:30.766Z",
+      "at": "2026-10-13T22:03:59.617Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T21:34:31.049Z",
-      "items": 2
+      "at": "2026-10-13T22:03:59.963Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T21:34:31.178Z",
+      "at": "2026-10-13T22:04:00.713Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2361,12 +2358,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T21:34:26.265Z",
+      "at": "2026-10-13T22:03:54.544Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T21:34:31.719Z",
+      "at": "2026-10-13T22:04:01.306Z",
       "items": 0
     },
     "hcg": {
@@ -2377,32 +2374,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T21:34:32.996Z",
+      "at": "2026-10-13T22:04:03.265Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T21:34:33.226Z",
+      "at": "2026-10-13T22:04:03.538Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T21:34:33.446Z",
+      "at": "2026-10-13T22:04:03.709Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T21:34:33.755Z",
-      "items": 6
+      "at": "2026-10-13T22:04:03.962Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T21:34:34.150Z",
+      "at": "2026-10-13T22:04:04.377Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T21:34:34.637Z",
+      "at": "2026-10-13T22:04:04.825Z",
       "items": 13
     }
   },
@@ -2508,13 +2505,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T21:34:35.578Z",
-    "considered": 3,
+    "at": "2026-10-13T22:04:05.553Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Olympiacos Warns Fans to Leave Marseille Before Match",
-      "· gct | Libya Warns Greece Over Crete Energy Work",
-      "· gct | Athens Hosts Global Push Against Tax Evasion"
+      "· ingr | Γαλλία: Καθιερώνονται τα κουπόνια στα σούπερ μάρκετ, υποχωρεί η τιμή του ντίζελ",
+      "· ert | Σαουδική Αραβία: Επίθεση σε κτίριο της Aramco στην Νταχράν – Τέσσερις τραυματίες από συντρ",
+      "· gct | US Ambassador Kimberly Guilfoyle Resigns Amid Allegations She Denies",
+      "· gct | Panathinaikos Crushes Partizan 72-55 to Make It Five Straight"
     ]
   },
   "evergreenDone": [
