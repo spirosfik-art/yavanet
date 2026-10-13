@@ -2237,7 +2237,9 @@
     "25761175b1d8": 1791853452869,
     "5c8b9b8cb87d": 1791856693260,
     "00701514e1cb": 1791859423585,
-    "dd570d94079e": 1791859423585
+    "dd570d94079e": 1791859423585,
+    "5b6713ee3851": 1791860262029,
+    "596c8578b736": 1791860262029
   },
   "pending": {},
   "sourceStatus": {
@@ -2249,12 +2251,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T02:43:31.673Z",
-      "items": 10
+      "at": "2026-10-13T02:57:31.621Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T02:43:32.441Z",
+      "at": "2026-10-13T02:57:32.206Z",
       "items": 3
     },
     "civilprotection": {
@@ -2265,27 +2267,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T02:43:34.152Z",
+      "at": "2026-10-13T02:57:33.828Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T02:43:34.503Z",
+      "at": "2026-10-13T02:57:34.192Z",
       "items": 2
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T02:43:35.604Z",
+      "at": "2026-10-13T02:57:35.113Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T02:43:36.581Z",
+      "at": "2026-10-13T02:57:35.647Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T02:43:37.334Z",
+      "at": "2026-10-13T02:57:36.388Z",
       "items": 10
     },
     "toi-greece": {
@@ -2296,22 +2298,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T02:43:37.895Z",
+      "at": "2026-10-13T02:57:36.913Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T02:43:38.040Z",
+      "at": "2026-10-13T02:57:37.346Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T02:43:38.725Z",
+      "at": "2026-10-13T02:57:37.621Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T02:43:38.922Z",
+      "at": "2026-10-13T02:57:37.774Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2321,12 +2323,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T02:43:32.669Z",
+      "at": "2026-10-13T02:57:32.719Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T02:43:39.555Z",
+      "at": "2026-10-13T02:57:38.298Z",
       "items": 0
     },
     "hcg": {
@@ -2337,32 +2339,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T02:43:41.526Z",
+      "at": "2026-10-13T02:57:39.742Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T02:43:41.723Z",
+      "at": "2026-10-13T02:57:39.991Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T02:43:41.875Z",
+      "at": "2026-10-13T02:57:40.253Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T02:43:42.160Z",
+      "at": "2026-10-13T02:57:40.549Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T02:43:42.519Z",
-      "items": 9
+      "at": "2026-10-13T02:57:40.947Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T02:43:42.933Z",
+      "at": "2026-10-13T02:57:41.369Z",
       "items": 10
     }
   },
@@ -2469,12 +2471,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T02:43:43.585Z",
+    "at": "2026-10-13T02:57:42.029Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Urges Syria to Put Education and Community Protection First",
-      "· gn-iefimerida | Ισραήλ: Ένας νεκρός και τουλάχιστον 19 τραυματίες από έκρηξη κοντά στα σύνορα με τον Λίβαν"
+      "· gct | Kallimarmaro Targets UNESCO Status as Greece Makes Its Case",
+      "· gct | Albanese Govt Funding for Islamic Centre Comes Under Scrutiny"
     ]
   },
   "evergreenDone": [
