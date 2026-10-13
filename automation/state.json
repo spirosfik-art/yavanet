@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "f634a4e65c7c": 1790722870688,
     "a8a7a08bd0e2": 1790724104915,
     "1eff35bdd4fc": 1790724104915,
     "b00d5493bf9b": 1790728342333,
@@ -2278,7 +2277,11 @@
     "e1ea05cbfae3": 1791930942708,
     "93f38382ec0c": 1791930942708,
     "1532065221d7": 1791930942708,
-    "5814cba285cf": 1791930942708
+    "5814cba285cf": 1791930942708,
+    "2d3cbe363fa7": 1791932542769,
+    "d752aa694efd": 1791932542769,
+    "aa3a1ab11843": 1791932542769,
+    "ed3d2c176c30": 1791932542769
   },
   "pending": {},
   "sourceStatus": {
@@ -2290,12 +2293,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-13T22:35:30.272Z",
-      "items": 10
+      "at": "2026-10-13T23:02:11.778Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-13T22:35:31.447Z",
+      "at": "2026-10-13T23:02:12.536Z",
       "items": 2
     },
     "civilprotection": {
@@ -2306,27 +2309,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-13T22:35:33.351Z",
+      "at": "2026-10-13T23:02:14.124Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-13T22:35:33.736Z",
-      "items": 2
+      "at": "2026-10-13T23:02:14.306Z",
+      "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-13T22:35:34.746Z",
+      "at": "2026-10-13T23:02:15.401Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-13T22:35:35.744Z",
+      "at": "2026-10-13T23:02:16.258Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-13T22:35:36.593Z",
+      "at": "2026-10-13T23:02:16.821Z",
       "items": 10
     },
     "toi-greece": {
@@ -2337,22 +2340,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-13T22:35:37.206Z",
+      "at": "2026-10-13T23:02:17.332Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-13T22:35:37.364Z",
+      "at": "2026-10-13T23:02:17.753Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-13T22:35:37.942Z",
+      "at": "2026-10-13T23:02:17.949Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T22:35:38.191Z",
+      "at": "2026-10-13T23:02:18.499Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2362,12 +2365,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-13T22:35:31.733Z",
+      "at": "2026-10-13T23:02:12.945Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-13T22:35:38.796Z",
+      "at": "2026-10-13T23:02:19.143Z",
       "items": 0
     },
     "hcg": {
@@ -2378,32 +2381,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-13T22:35:40.267Z",
+      "at": "2026-10-13T23:02:20.546Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-13T22:35:40.487Z",
+      "at": "2026-10-13T23:02:20.794Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-13T22:35:40.726Z",
+      "at": "2026-10-13T23:02:20.966Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-13T22:35:40.950Z",
-      "items": 6
+      "at": "2026-10-13T23:02:21.217Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-13T22:35:41.325Z",
+      "at": "2026-10-13T23:02:21.617Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-13T22:35:41.805Z",
+      "at": "2026-10-13T23:02:22.114Z",
       "items": 13
     }
   },
@@ -2515,16 +2518,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-13T22:35:42.708Z",
-    "considered": 6,
-    "picked": 1,
+    "at": "2026-10-13T23:02:22.769Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· gct | Greece Plans Mass Production of Unmanned Naval Vessels",
-      "✓ gct | Israel Returns 22 Ancient Artefacts to Greece in Historic First",
-      "· gct | Greece Honours Team Hellas Athletes After Mediterranean Games",
-      "· gct | Greece Counts 2,100 Wolves and 760 Bears as Wildlife Conflicts Grow",
-      "· gct | Greek National Tourism Body Wins International Marketing Award",
-      "· ert | Σαουδική Αραβία: Τέσσερις τραυματίες από συντρίμμια πυραύλων στο Ριάντ – Επίθεση σε κτίριο"
+      "· gct | England Crush Greece 5-0 to Advance in World Cup Play-Offs",
+      "· gct | Greek Deputy Minister Visits Orthodox Cathedral in Tirana",
+      "· gct | Greece Extends Free Obesity Medication to 43,500 Beneficiaries",
+      "· gct | Kimberly Guilfoyle Thanks Greek People for Their Hospitality"
     ]
   },
   "evergreenDone": [
