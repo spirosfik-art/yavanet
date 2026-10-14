@@ -6,7 +6,7 @@ import { esc, P, formBox } from "./templates.mjs";
 import { SEA, ROAD } from "./voula-map.mjs";
 
 const LISTING = "20184685";
-const PRICE = 1210000;
+const PRICE = 1230000;
 const WA = (he) => `https://wa.me/306906723676?text=${encodeURIComponent(he ? "שלום, ראיתי ביוונט את הדופלקס עם הבריכה בוולה ואשמח לקבל פרטים" : "Hi, I saw the Voula maisonette with pool on Yavanet and would like details")}`;
 const FONTS = "https://fonts.googleapis.com/css2?family=GFS+Didot&family=Frank+Ruhl+Libre:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap";
 
@@ -35,7 +35,7 @@ const C = {
     eye: "הריביירה האתונאית · וולה",
     h1a: "בית גן עם",
     h1b: "בריכה משלו",
-    dek: "דופלקס חדש, פחות מ-400 מטר מהים. סלון בגובה כפול שנפתח אל הבריכה, שני חדרי שינה עם חדר רחצה צמוד וגינה פרטית של 152 מ\"ר.",
+    dek: "דופלקס חדש, פחות מ-400 מטר מהים. סלון בגובה כפול שנפתח אל הבריכה, שלושה חדרי שינה וגינה פרטית של 152 מ\"ר.",
     price: "מחיר",
     gv: "מתאים לוויזת זהב",
     badge: "ויזת זהב · GOLDEN VISA · ",
@@ -49,12 +49,12 @@ const C = {
     house: "הבית",
     list: [["הים", "<400", "מ׳"], ["תחנת החשמלית Asklipieio Voulas", "600", "מ׳"], ["חוף וולה", "700", "מ׳"], ["מרכז גליפדה", "1.6", "ק״מ"], ["מרינה גליפדה", "3.5", "ק״מ"], ["Astir Beach, ווליאגמני", "4.4", "ק״מ"], ["אגם ווליאגמני", "4.9", "ק״מ"], ["פארק אליניקו", "5.8", "ק״מ"], ["סינטגמה, מרכז אתונה", "14.5", "ק״מ"], ["נמל התעופה של אתונה", "20", "ק״מ"]],
     factsH: "במספרים",
-    facts: [["152", "מ\"ר", "גינה בשימוש בלעדי"], ["126.48", "מ\"ר", "שטח מגורים בשני מפלסים"], ["2", "", "חדרי שינה, לכל אחד חדר רחצה"], ["520", "מ\"ר", "מגרש עם שני בתים בלבד"]],
+    facts: [["152", "מ\"ר", "גינה בשימוש בלעדי"], ["126.48", "מ\"ר", "שטח מגורים בשני מפלסים"], ["3", "", "חדרי שינה, שניים מהם במפלס העליון"], ["520", "מ\"ר", "מגרש עם שני בתים בלבד"]],
     galH: "אחרי השקיעה",
     galP: "גררו הצידה",
     gal: [["voula-living", "סלון בגובה כפול"], ["voula-kitchen", "מטבח עם אי"], ["voula-lounge", "הסלון מול הבריכה"], ["voula-bedroom", "חדר השינה המאסטר, יציאה לגינה"], ["voula-bath", "חדר רחצה צמוד"], ["voula-lawn", "הגינה הצדדית"], ["voula-pergola", "פינת ישיבה מתחת לפרגולה"]],
     lvH: "שלושה מפלסים",
-    lv: [["+2.95", "50.58", "מפלס עליון", "חדר שינה נוסף עם ארון הליכה פתוח וחדר רחצה פרטי, המשקיף אל הסלון."], ["±0.00", "75.90", "קומת קרקע", "סלון בגובה כפול שנפתח אל הבריכה, מטבח עם אי, חדר שינה מאסטר עם חדר רחצה צמוד ויציאה לגינה."], ["מרתף", "32.56", "חלל עזר", "חדר משחקים, חדר כושר או חדר נוסף. חניה בחניון התת-קרקעי."]],
+    lv: [["+2.95", "50.58", "מפלס עליון", "שני חדרי שינה, אחד מהם עם ארון הליכה פתוח וחדר רחצה פרטי, המשקיפים אל הסלון."], ["±0.00", "75.90", "קומת קרקע", "סלון בגובה כפול שנפתח אל הבריכה, מטבח עם אי, חדר שינה מאסטר עם חדר רחצה צמוד ויציאה לגינה."], ["מרתף", "32.56", "חלל עזר", "חדר משחקים, חדר כושר או חדר נוסף. חניה בחניון התת-קרקעי."]],
     gvEye: "ויזת זהב",
     gvH: "עומד בשני התנאים",
     gvP: "באטיקה, ויזת זהב דרך נדל\"ן דורשת לפחות 800,000 אירו בנכס אחד ושטחים עיקריים של 120 מ\"ר לפחות. מחסן וחניה לא נספרים.",
@@ -78,7 +78,7 @@ const C = {
     eye: "Athenian Riviera · Voula",
     h1a: "A garden house",
     h1b: "with its own pool",
-    dek: "A new-build maisonette under 400 m from the sea. A double-height living room opening onto the pool, two en-suite bedrooms and a 152 m² private garden.",
+    dek: "A new-build maisonette under 400 m from the sea. A double-height living room opening onto the pool, three bedrooms and a 152 m² private garden.",
     price: "Price",
     gv: "Golden Visa eligible",
     badge: "GOLDEN VISA · ELIGIBLE · ",
@@ -92,12 +92,12 @@ const C = {
     house: "The house",
     list: [["The sea", "<400", "m"], ["Asklipieio Voulas tram stop", "600", "m"], ["Voula Beach", "700", "m"], ["Glyfada centre", "1.6", "km"], ["Glyfada Marina", "3.5", "km"], ["Astir Beach, Vouliagmeni", "4.4", "km"], ["Lake Vouliagmeni", "4.9", "km"], ["Ellinikon Park", "5.8", "km"], ["Syntagma, central Athens", "14.5", "km"], ["Athens International Airport", "20", "km"]],
     factsH: "By the numbers",
-    facts: [["152", "m²", "Exclusive-use garden"], ["126.48", "m²", "Living space on two levels"], ["2", "", "Bedrooms, both en-suite"], ["520", "m²", "Plot shared by only two homes"]],
+    facts: [["152", "m²", "Exclusive-use garden"], ["126.48", "m²", "Living space on two levels"], ["3", "", "Bedrooms, two on the upper level"], ["520", "m²", "Plot shared by only two homes"]],
     galH: "After dusk",
     galP: "Swipe sideways",
     gal: [["voula-living", "Double-height living room"], ["voula-kitchen", "Kitchen with island"], ["voula-lounge", "Living room toward the pool"], ["voula-bedroom", "Master bedroom, garden access"], ["voula-bath", "En-suite bathroom"], ["voula-lawn", "Side garden"], ["voula-pergola", "Lounge under the pergola"]],
     lvH: "Three levels",
-    lv: [["+2.95", "50.58", "Upper level", "A second bedroom with an open walk-in wardrobe and private bathroom, overlooking the living room."], ["±0.00", "75.90", "Ground floor", "Double-height living room opening onto the pool, kitchen with island, master bedroom with en-suite and garden door."], ["Basement", "32.56", "Auxiliary room", "Playroom, gym or extra room. Parking space in the basement garage."]],
+    lv: [["+2.95", "50.58", "Upper level", "Two bedrooms, one with an open walk-in wardrobe and private bathroom, overlooking the living room."], ["±0.00", "75.90", "Ground floor", "Double-height living room opening onto the pool, kitchen with island, master bedroom with en-suite and garden door."], ["Basement", "32.56", "Auxiliary room", "Playroom, gym or extra room. Parking space in the basement garage."]],
     gvEye: "Golden Visa",
     gvH: "It meets both conditions",
     gvP: "In Attica, the real estate route to the Golden Visa needs at least €800,000 in a single property and at least 120 m² of main areas. Storage and parking do not count.",
