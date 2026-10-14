@@ -354,6 +354,7 @@ export function voulaShowcase(a, lang) {
 <div class="vx-form">${formBox(lang === "tr" || lang === "zh" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
 <p class="vx-disc">${esc(c.disc)}</p>
 </article>
+<a class="vx-float" href="${esc(wa)}" target="_blank" rel="noopener" data-out="wa-voula-float" aria-label="${esc(c.wa)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3s1 2.7 1.1 2.9c.1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span>${esc(c.wa)}</span></a>
 <script>${JS}</script>`;
 }
 
@@ -525,6 +526,14 @@ const CSS = `
 .vx-form{padding:0 clamp(18px,5vw,64px) 24px}
 .vx-form .form{background:var(--n2);color:var(--ink);border-color:var(--line)}
 .vx-disc{padding:0 clamp(18px,5vw,64px) 28px;color:#7C8A90;font-size:13px;margin:0}
+
+/* πλωτό WhatsApp, πάντα ορατό (αντικαθιστά το γενικό του site σε αυτή τη σελίδα) */
+.wafloat{display:none!important}
+.vx-float{position:fixed;z-index:60;inset-inline-end:calc(18px + env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));display:inline-flex;align-items:center;gap:10px;padding:12px 18px 12px 14px;border-radius:999px;background:#25D366;color:#fff!important;font:700 15px/1 system-ui,-apple-system,sans-serif;text-decoration:none;box-shadow:0 14px 34px -10px rgba(0,0,0,.55),0 0 0 0 rgba(37,211,102,.55);animation:vxWa 2.6s ease-in-out infinite}
+.vx-float svg{width:26px;height:26px;flex:none}
+.vx-float:hover{transform:translateY(-2px)}
+@keyframes vxWa{0%,70%,100%{box-shadow:0 14px 34px -10px rgba(0,0,0,.55),0 0 0 0 rgba(37,211,102,.5)}35%{box-shadow:0 14px 34px -10px rgba(0,0,0,.55),0 0 0 14px rgba(37,211,102,0)}}
+@media (max-width:560px){.vx-float span{display:none}.vx-float{padding:14px}}
 
 /* reveal */
 .vx [data-rv]{opacity:1;transform:none;transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i,0) * 90ms)}
