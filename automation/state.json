@@ -13,10 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "376f7656bd1b": 1790807078081,
-    "09c49b9450c6": 1790807078081,
-    "eaf37d7faba7": 1790807812303,
-    "c556bcaf246c": 1790807812303,
     "21df7e9ca549": 1790808665857,
     "8d18b750fb82": 1790808665857,
     "f3efe2e25abd": 1790809289761,
@@ -2303,7 +2299,10 @@
     "6a4518ebdd46": 1792014846751,
     "c70893bac879": 1792016042317,
     "3e303eeb476c": 1792016042317,
-    "de24c72de6c2": 1792016042317
+    "de24c72de6c2": 1792016042317,
+    "3d7db48ac63c": 1792017593172,
+    "45144ca4487c": 1792017593172,
+    "8d0de510967c": 1792017593172
   },
   "pending": {},
   "sourceStatus": {
@@ -2315,12 +2314,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T22:13:48.220Z",
-      "items": 10
+      "at": "2026-10-14T22:39:31.164Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T22:13:49.038Z",
+      "at": "2026-10-14T22:39:31.968Z",
       "items": 1
     },
     "civilprotection": {
@@ -2331,27 +2330,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T22:13:50.752Z",
+      "at": "2026-10-14T22:39:33.877Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T22:13:51.178Z",
+      "at": "2026-10-14T22:39:34.404Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T22:13:52.231Z",
+      "at": "2026-10-14T22:39:35.493Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T22:13:52.989Z",
+      "at": "2026-10-14T22:39:36.160Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T22:13:53.928Z",
+      "at": "2026-10-14T22:39:37.238Z",
       "items": 10
     },
     "toi-greece": {
@@ -2362,22 +2361,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T22:13:54.522Z",
+      "at": "2026-10-14T22:39:37.755Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T22:13:54.804Z",
+      "at": "2026-10-14T22:39:38.053Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T22:13:55.828Z",
+      "at": "2026-10-14T22:39:38.334Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T22:13:56.368Z",
+      "at": "2026-10-14T22:39:38.510Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2387,12 +2386,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T22:13:49.607Z",
+      "at": "2026-10-14T22:39:32.853Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T22:13:57.029Z",
+      "at": "2026-10-14T22:39:39.223Z",
       "items": 0
     },
     "hcg": {
@@ -2403,32 +2402,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T22:13:58.227Z",
+      "at": "2026-10-14T22:39:40.795Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T22:13:58.447Z",
+      "at": "2026-10-14T22:39:41.047Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T22:13:58.617Z",
+      "at": "2026-10-14T22:39:41.191Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T22:13:58.894Z",
+      "at": "2026-10-14T22:39:41.440Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T22:13:59.273Z",
+      "at": "2026-10-14T22:39:41.800Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T22:13:59.741Z",
+      "at": "2026-10-14T22:39:42.160Z",
       "items": 9
     }
   },
@@ -2553,13 +2552,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T22:14:02.317Z",
+    "at": "2026-10-14T22:39:53.172Z",
     "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Greek Customs Seize 3,081 Weapons Hidden in Cargo Container",
-      "· gct | Chios Airport Closure Raises Concerns Over Medical Travel",
-      "· gct | Thessaloniki Courts Egyptian Travel Agencies to Boost Tourism"
+      "· gct | Greece Launches Eastern Europe’s Largest Energy Storage Facility",
+      "· gct | British Museum Chairman Optimistic on Parthenon Sculptures Deal",
+      "· gn-iefimerida | Έρχεται τρίτο κύμα κακοκαιρίας μέσα στην εβδομάδα -Πότε θα χτυπήσει, η πρόγνωση του Καντερ"
     ]
   },
   "evergreenDone": [
