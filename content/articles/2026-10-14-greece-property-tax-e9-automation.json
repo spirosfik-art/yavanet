@@ -1,0 +1,60 @@
+{
+  "slug": "greece-property-tax-e9-automation",
+  "section": "real-estate",
+  "publishedAt": "2026-10-14T08:07:13+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/14/economy/aytomata-sto-e9-o-kodikos-tou-ktimatologiou/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15241708/pexels-photo-15241708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial cityscape showcasing Athens' buildings, church, and greenery in downtown Greece.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-athens-greece-15241708/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "נדל״ן ביוון: עדכון טופס הדיווח על נכסים",
+    "dek": "רשות המסים ביוון מציגה מערכת אוטומטית לעדכון טופס הדיווח על נכסים במקרים של העברת בעלות, מתנה או העברה לילדים.",
+    "tldr": [
+      "הקוד המזהה של הרשות המרשם עובר אוטומטית לטופס הדיווח.",
+      "התהליך חל על רכישות, מתנות והעברות במשפחה.",
+      "מטרת המהלך היא לצמצם בירוקרטיה ושגיאות דיווח."
+    ],
+    "means": "למה זה חשוב למשקיעים וישראלים המחזיקים נכסים ביוון? השינוי מפשט את תהליכי הדיווח לרשויות המס ביוון בעת רכישה או העברה של נכס, ומפחית את הצורך בהזנה ידנית חוזרת של נתונים.",
+    "body": "רשות המסים הציגה תהליך אוטומטי לעדכון טופס הדיווח על נכסים (טופס E9) עבור עסקאות נדל\"ן הכוללות העברות בעלות, מתנות והעברות לילדים. לפי ההחלטה החדשה של מנהל רשות המסים, הקוד המזהה של המרשם מועבר ישירות מהיישום המקוון אל טופס הדיווח עם השלמת העסקה אצל הנוטריון. המערכת מעדכנת באופן אוטומטי את פרטי הנכס והצדדים המעורבים על בסיס הנתונים הקיימים במערכות הרשות. יודעים כי מדובר במידע כללי בלבד ואין לראות בו ייעוץ משפטי או פנייה פרטנית."
+  },
+  "en": {
+    "title": "Greece property tax: automated E9 form update",
+    "dek": "Greece introduces an automated process for updating property declaration forms during real estate transfers, gifts, and parental grants.",
+    "tldr": [
+      "Land registry codes are now transferred automatically to property declaration forms.",
+      "The procedure covers property sales, gifts, and family transfers.",
+      "The update aims to reduce paperwork and reporting errors."
+    ],
+    "means": "Why does this matter to property owners and investors in Greece? The update streamlines tax reporting procedures during real estate transactions, minimizing manual data entry.",
+    "body": "The Independent Authority for Public Revenue in Greece has introduced an automated procedure for updating property declaration forms (E9) during real estate transfers, gifts, and parental grants. Under the new decisions, land registry identification codes are transferred directly from online property transaction applications to the tax declaration form upon completion by the notary. The system automatically updates property details and ownership percentages based on existing data in the tax administration databases. This information is provided for general guidance only and does not constitute formal legal or tax advice."
+  },
+  "meta": {
+    "itemId": "f7f42e782331",
+    "imageQuery": "Athens real estate Greece",
+    "sourceHash": "c0af0c2b9904",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-14T05:07:13.845Z",
+    "official": false
+  }
+}

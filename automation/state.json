@@ -1,9 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "c6b138dac512": 1790743937164,
-    "d5161edd593d": 1790744553678,
-    "3a4f128ecaf1": 1790744553678,
     "9f4547f19821": 1790745902765,
     "fe3b7e6f685f": 1790745902765,
     "9b2532907ef8": 1790746609216,
@@ -2276,113 +2273,11 @@
     "60d3a3524e8f": 1791952747175,
     "ff3ed0754ffa": 1791952747175,
     "95483dc0d7d3": 1791952747175,
-    "d4193d3b0f87": 1791952747175
+    "d4193d3b0f87": 1791952747175,
+    "369cf9e909f6": 1791954459634,
+    "8857cad9bec6": 1791954459634
   },
-  "pending": {
-    "5d9279": {
-      "createdAt": 1791947127776,
-      "item": {
-        "title": "Αυτόματα στο Ε9 ο κωδικός του Κτηματολογίου",
-        "url": "https://www.in.gr/2026/10/14/economy/aytomata-sto-e9-o-kodikos-tou-ktimatologiou/",
-        "summary": "Θα αντλείται απευθείας από τη δήλωση που έχει ήδη υποβληθεί ηλεκτρονικά στο myPROPERTY χωρίς να απαιτείται νέα καταχώριση από τον φορολογούμενο\n The post Αυτόματα στο Ε9 ο κωδικός του Κτηματολογίου appeared first on in.gr .",
-        "published": "Wed, 14 Oct 2026 06:00:08 +0300",
-        "id": "f7f42e782331",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "f7f42e782331",
-        "section": "real-estate",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Automated E9 and Land Registry (Ktimatologio) updates directly from myPROPERTY affect property owners, including Israeli investors holding real estate in Greece.",
-        "item": {
-          "title": "Αυτόματα στο Ε9 ο κωδικός του Κτηματολογίου",
-          "url": "https://www.in.gr/2026/10/14/economy/aytomata-sto-e9-o-kodikos-tou-ktimatologiou/",
-          "summary": "Θα αντλείται απευθείας από τη δήλωση που έχει ήδη υποβληθεί ηλεκτρονικά στο myPROPERTY χωρίς να απαιτείται νέα καταχώριση από τον φορολογούμενο\n The post Αυτόματα στο Ε9 ο κωδικός του Κτηματολογίου appeared first on in.gr .",
-          "published": "Wed, 14 Oct 2026 06:00:08 +0300",
-          "id": "f7f42e782331",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "automatic-ktimatologio-code-e9-form",
-        "section": "real-estate",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greek Real Estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "greek property building documents",
-        "he": {
-          "title": "עדכון בנדל\"ן ביוון: קוד המרשם מתווסף אוטומטית לטופס E9",
-          "seoTitle": "נדל\"ן ביוון: עדכון אוטומטי לטופס E9",
-          "seoDesc": "שינוי ברגולציית הנדל\"ן ביוון: רשות המסים מעדכנת את קוד המרשם בטופס E9 באופן אוטומטי בעסקאות רכישה ומכירה דרך אפליקציית myPROPERTY.",
-          "keywords": [
-            "נדל\"ן ביוון",
-            "טופס E9",
-            "קניין ביוון",
-            "מיסים ביוון",
-            "רכישת דירה ביוון"
-          ],
-          "dek": "רשות המסים ביוון מייעלת את תהליך דיווח הנכסים ומבטלת את הצורך בהזנה ידנית של קוד המרשם בטופס E9 בעסקאות נדל\"ן.",
-          "tldr": [
-            "קוד המרשם (KAEK) יועבר אוטומטית לטופס E9 דרך myPROPERTY.",
-            "התהליך חל על עסקאות מכירה, מתנות והעברות לילדים.",
-            "המטרה היא לצמצם טעויות אנוש ולייעל את הרישום ברשויות המס."
-          ],
-          "means": "אם אתם משקיעים או בעלי נכסים ביוון, שינוי זה מקל על הבירוקרטיה בעסקאות רכישה ומכירה ומפחית את הסיכוי לטעויות בדיווח. מומלץ לוודא מראש שפרטי הנכס מעודכנים בתיק הנכסים הדיגיטלי שלכם, ומומלץ להתייעץ עם איש מקצוע מקומי כמו רואה חשבון או עורך דין לפני כל פעולה משפטית.",
-          "body": "## ייעול הליך הדיווח ברשויות המס ביוון\n\nרשות המסים העצמאית ביוון (AADE) הודיעה על הטמעת תהליך אוטומטי חדש המקל על בעלי נכסים ומשקיעים המבצעים העברות נדל\"ן, כגון רכישה, מכירה, מתנות או העברות לילדים. במסגרת המהלך, קוד המרשם המזהה את הנכס (KAEK) יעבור באופן אוטומטי אל טופס דיווח הנכסים השנתי (E9), מיד לאחר השלמת הדיווח דרך מערכת myPROPERTY.\n\nעד כה נדרשו הנישומים להזין נתונים ידנית פעם אחר פעם, דבר שיצר לעיתים עיכובים או סיכון לטעויות הקלדה. כעת, הודות לשתי החלטות חדשות עליהן חתם מנהל הרשות, הנתונים ייאספו ישירות מהמסמכים הקיימים במערכות המקוונות, ללא צורך בפעולה נוספת מצד האזרח.\n\n## כיצד פועלת המערכת החדשה\n\nהתהליך האוטומטי מתבסס על מספר שלבים מוגדרים מראש בעת ביצוע עסקה נוטריונית:\n\n* **עדכון מוקדם:** מוכרים ורוכשים המעורבים בעסקה חייבים לוודא כי פרטי הנכס מעודכנים כהלכה במערכת הרישום הממשלתית לפני הגשת הצהרת המס.\n* **הפקת הטופס:** עם העלאת החוזה על ידי הנוטריון למערכת myPROPERTY, נוצר טופס E9 מעודכן עבור כל צד מעורב.\n* **העברת נתונים:** פרטי הזיהוי של הנכס, סוג הזכות, אחוזי הבעלות ופרטי החוזה מתעדכנים מאליהם בשדות המתאימים במערכת המס.\n\nלפי נתוני הרשות, אחוז ניכר מהטפסים כבר מתמלא באופן אוטומטי בעזרת מספר זיהוי הנכס הייחודי (atak), המהווה את המפתח המרכזי לקידום כל הליך רישומי דיגיטלי מול הרשויות ביוון."
-        },
-        "en": {
-          "title": "Greece Real Estate Update: Ktimatologio Code Added Automatically to E9",
-          "seoTitle": "Greece Real Estate: Automatic KAEK Code in E9 Form",
-          "seoDesc": "Greece tax authority introduces automatic transfer of property registry codes into the E9 form via myPROPERTY for smoother real estate transactions.",
-          "keywords": [
-            "real estate in Greece",
-            "E9 form Greece",
-            "property registry Greece",
-            "Greek taxes",
-            "buying property in Athens"
-          ],
-          "dek": "The Independent Authority for Public Revenue in Greece streamlines property reporting by automating the inclusion of registry codes in E9 forms.",
-          "tldr": [
-            "The property registry code (KAEK) now transfers automatically to the E9 form via myPROPERTY.",
-            "The automation applies to property sales, gifts, and parental property transfers.",
-            "The system aims to reduce human error and simplify tax administration procedures."
-          ],
-          "means": "For Israeli investors and property owners in Greece, this update reduces bureaucratic friction and lowers the risk of filing mistakes during transactions. Always verify your current asset data before submitting forms, and consult a local Greek accountant or legal adviser for guidance.",
-          "body": "## Streamlining Tax Procedures in Greece\n\nThe Independent Authority for Public Revenue (AADE) in Greece has announced a new automated procedure designed to simplify property transfers, including sales, donations, and parental property grants. Under the updated regulations, the National Cadastre Registry Code (KAEK) will now populate automatically within the E9 property tax declaration form once a digital transaction is processed through the myPROPERTY application.\n\nPreviously, taxpayers had to manually enter matching data across multiple forms, increasing the risk of discrepancies or administrative delays. Under decisions signed by the head of AADE, relevant details are retrieved directly from submitted electronic declarations without requiring extra manual data entry from the citizen.\n\n## How the Automated Process Works\n\nThe new workflow integrates smoothly into standard notary-backed transactions:\n\n* **Prior Update:** Sellers and relevant buyers must ensure their property details are updated in the digital property registry before submitting transfer tax declarations.\n* **Contract Upload:** Once the notary uploads the contract via myPROPERTY, an updated E9 form is generated automatically for each involved party.\n* **Data Integration:** Property descriptions, ownership percentages, contract numbers, and notary details are filled in automatically based on the verified digital records.\n\nAccording to official data, a significant portion of E9 declarations are already filled automatically using the unique property identification number as a key element for digital tax processing in Greece."
-        }
-      },
-      "text": "Vita.gr \n Σάκχαρο: 8 υγιεινά σνακ για πριν τον ύπνο\n Spotlight Δραματικές εικόνες στην Ιεράπετρα: Ξυπόλυτοι μέσα στη βροχή δεκάδες μετανάστες – Εκτός ελέγχου η κατάσταση \n Χαλκιδική: Τι έδειξε η νεκροψία της 51χρονης που πήγε για αιμοκάθαρση σε κλινική και πέθανε \n Τους έπιασαν να πετάνε μπάζα στον Βοτανικό – Συνελήφθησαν δύο άτομα μετά από καταδίωξη \n Γιορτή σήμερα 14 Οκτωβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Λιγότερα «κλικ», λιγότερες επαναλαμβανόμενες καταχωρίσεις και μικρότερος κίνδυνος λαθών στη δήλωση στοιχείων ακινήτων, το γνωστό έντυπο Ε9, φέρνει η νέα αυτοματοποίηση της ΑΑΔΕ για τους φορολογούμενους που προχωρούν σε μεταβίβαση, δωρεά ή γονική παροχή ακινήτου.\n Ο Κωδικός Αριθμός Εθνικού Κτηματολογίου (ΚΑΕΚ), ο οποίος συνδέει το ακίνητο με τα στοιχεία του Κτηματολογίου, θα περνά πλέον αυτόματα στο Ε9, όταν έχει προηγηθεί σχετική δήλωση μέσω της εφαρμογής myPROPERTY. Με την αυτόματη συμπλήρωση του ΚΑΕΚ η ΑΑΔΕ θα αποκτά πιο ολοκληρωμένη εικόνα για το ακίνητο που μεταβιβάζεται, ενώ διευκολύνονται οι διαδικασίες ενημέρωσης της βάσης δεδομένων της φορολογικής διοίκησης.\n Με δύο νέες αποφάσεις του διοικητή της ΑΑΔΕ, Γιώργου Πιτσιλή, ο ΚΑΕΚ θα αντλείται απευθείας από τη δήλωση που έχει ήδη υποβληθεί ηλεκτρονικά στο myPROPERTY και συμπληρώνεται στο αντίστοιχο πεδίο του Ε9, χωρίς να απαιτείται νέα καταχώριση από τον φορολογούμενο.\n Η αυτοματοποιημένη διαδικασία αφορά όλους τους συμβαλλομένους και καλύπτει μεταβιβάσεις ακινήτων, δωρεές και γονικές παροχές. Στόχος της ΑΑΔΕ είναι κάθε πληροφορία που έχει ήδη δηλωθεί και βρίσκεται διαθέσιμη στα πληροφοριακά της συστήματα να επαναχρησιμοποιείται αυτόματα, όπου αυτό είναι τεχνικά εφικτό, χωρίς ο πολίτης να χρειάζεται να καταχωρίζει ξανά τα ίδια δεδομένα.\n Σύμφωνα με τα στοιχεία, περίπου 6 στις 10 δηλώσεις Ε9 συμπληρώνονται αυτόματα, με τον Αριθμό Ταυτότητας Ακινήτου (ΑΤΑΚ) να αποτελεί το «κλειδί», καθώς η διαδικασία δεν μπορεί να προχωρήσει στην περίπτωση που δεν έχει καταχωρισθεί ο ΑΤΑΚ του μεταβιβαζόμενου ακινήτου κατά την ψηφιακή υποβολή της δήλωσης φόρου μεταβίβασης ακινήτου στο myPROPERTY.\n Τρία βήματα\n Τα βήματα της αυτόματης υποβολής Ε9 είναι τα εξής:\n Πριν από την ψηφιακή υποβολή της δήλωσης φόρου μεταβίβασης ακινήτων, μέσω της εφαρμογής myPROPERTY, είναι απαραίτητη η επικαιροποίηση από τον πωλητή των στοιχείων του μεταβιβαζόμενου ακινήτου στην τρέχουσα περιουσιακή κατάσταση που εμφανίζεται στο Περιουσιολόγιο Ακινήτων. Την ίδια υποχρέωση έχει και ο αποκτών το ακίνητο, εφόσον έχει ήδη δικαίωμα επί του μεταβιβαζόμενου ακινήτου.\n Με την ανάρτηση του συμβολαίου από τον συμβολαιογράφο στην εφαρμογή myPROPERTY δημιουργείται αυτόματα Ε9 για κάθε συμβαλλόμενο (αγοραστή/στές και πωλητή/τές) με τις μεταβολές της ακίνητης περιουσίας που αφορούν είτε τον πίνακα 1 είτε τον πίνακα 2 αυτής. Αυτόματα συμπληρώνονται τα εξής στοιχεία:\n – Για τον μεταβιβάζοντα, τα πεδία που αφορούν την περιγραφή του ακινήτου συμπληρώνονται με τα στοιχεία που αντιστοιχούν στον ΑΤΑΚ του μεταβιβαζόμενου ακινήτου και αντλούνται από την τρέχουσα περιουσιακή κατάσταση της ακίνητης περιουσίας του στο Περιουσιολόγιο.\n – Για τον αποκτώντα, εφόσον δεν έχει δικαίωμα στο μεταβιβαζόμενο ακίνητο, τα πεδία που αφορούν την περιγραφή του ακινήτου συμπληρώνονται με τα στοιχεία που αντιστοιχούν στον ΑΤΑΚ του μεταβιβαζόμενου ακινήτου και αντλούνται από την τρέχουσα περιουσιακή κατάσταση της ακίνητης περιουσίας του μεταβιβάζοντα. Εάν έχει ήδη δικαίωμα στο ακίνητο και έχει συμπληρώσει τον σχετικό ΑΤΑΚ κατά την υποβολή της δήλωσης φόρου μεταβίβασης ακινήτων στο myPROPERTY, τα πεδία που αφορούν την περιγραφή του ακινήτου συμπληρώνονται με τα στοιχεία που αντιστοιχούν στο συγκεκριμένο ΑΤΑΚ και αντλούνται από την τρέχουσα περιουσιακή κατάσταση της ακίνητης περιουσίας του στο Περιουσιολόγιο Ακινήτων.\n – Για όλους τους συμβαλλόμενους, τα πεδία που αφορούν το είδος του εμπραγμάτου δικαιώματος, το ποσοστό συνιδιοκτησίας επί του ακινήτου, το έτος γέννησης και τον ΑΦΜ του επικαρπωτή συμπληρώνονται με τα στοιχεία που αντλούνται από τη δήλωση φόρου μεταβίβασης ακινήτων στο myPROPERTY.\n – Για όλους τους συμβαλλόμενους, τα πεδία «αριθμός συμβολαίου», «ΑΦΜ συμβολαιογράφου» και «Ημερομηνία Συμβολαίου» συμπληρώνονται με τα στοιχεία που αντλούνται από την εφαρμογή myPROPERTY.\n – Για όλους τους συμβαλλόμενους, η στήλη «Κωδικός Μεταβολής» της δήλωσης στοιχείων ακινήτων συμπληρώνεται με τον κωδικό 1, σε περίπτωση δήλωσης νέου ακινήτου/εμπράγματου δικαιώματος, με τον κωδικό 2, σε περίπτωση μεταβολής στοιχείων του ακινήτου/εμπράγματου δικαιώματος ή με τον κωδικό 3, σε περίπτωση διαγραφής του ακινήτου/εμπράγματου δικαιώματος. Στο πεδίο «σημειώσεις του φορολογούμενου» αναγράφεται η φράση «Αυτόματη δημιουργία δήλωσης Ε9 από το myPROPERTY».\n Οι φορολογούμενοι λαμβάνουν ηλεκτρονική ειδοποίηση και email και ενημερώνονται για τη δημιουργία του Ε9.\n Τι ισχύει για κληρονόμους\n Οι κληρονόμοι οφείλουν να υποβάλουν εμπρόθεσμα Δήλωση Στοιχείων Ακινήτων (έντυπο Ε9), όπου θα δηλώσουν τα ακίνητα που κληρονομούν στο όνομά τους μέχρι και την 31η Ιανουαρίου του επόμενου έτους από την ημερομηνία θανάτου σε περίπτωση εξ αδιαθέτου διαδοχής, από την ημερομηνία δημοσίευσης διαθήκης για τους εκ διαθήκης κληρονόμους και αν η πράξη αποδοχής κληρονομιάς έχει συνταχθεί πριν από την παρέλευση της ημερομηνίας αποποίησης και δεν έχει παρέλθει η 31η Ιανουαρίου του επόμενου έτους.\n Premium έκδοση ΤΑ ΝΕΑ \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Οι 3+1 αδικίες στις συντάξεις χηρείας \n Xάνει την ανθεκτικότητά της στις κρίσεις η Ελλάδα – Χωρίς προειδοποίηση το 45% των πληγέντων από καταστροφές \n Κρύος ιδρώτας στις τράπεζες – Φόβοι ότι η ΑΙ μπορεί να φέρει αιφνίδιο οικονομικό χάος \n «Σύνδρομο της Αβάνα»: Η μυστήρια πάθηση που χτυπά τους Αμερικάνους πράκτορες – Μυστικό όπλο ή «μαζική υστερία» \n ΕΛΑΣ – ΠΑΣΟΚ: Ο εμφύλιος των προοδευτικών και η πυροσβεστική παρέμβαση Τσίπρα \n «Avengers: Doomsday»: Χωρίς τον Τζέρεμι Ρένερ η νέα ταινία της Marvel \n Πώς η ακρίβεια στα καύσιμα μας έβαλε… σε φόρμα \n Αυτόματα στο Ε9 ο κωδικός του Κτηματολογίου \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
-      "issues": [],
-      "el": {
-        "title": "Ενημέρωση για τα Ακίνητα στην Ελλάδα: Αυτόματη προσθήκη του κωδικού Κτηματολογίου στο Ε9",
-        "dek": "Η Ανεξάρτητη Αρχή Δημοσίων Εσόδων απλοποιεί τη δήλωση ακινήτων, αυτοματοποιώντας την ένταξη των κωδικών κτηματογράφησης στα έντυπα Ε9.",
-        "tldr": [
-          "Ο Κωδικός Αριθμός Εθνικού Κτηματολογίου (ΚΑΕΚ) μεταφέρεται πλέον αυτόματα στο έντυπο Ε9 μέσω του myPROPERTY.",
-          "Η αυτοματοποίηση αφορά αγοραπωλησίες ακινήτων, γονικές παροχές και δωρεές.",
-          "Το σύστημα στοχεύει στη μείωση των ανθρώπινων λαθών και στην απλοποίηση των διαδικασιών της φορολογικής διοίκησης."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2392,12 +2287,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T04:38:57.658Z",
+      "at": "2026-10-14T05:07:16.782Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T04:38:58.256Z",
+      "at": "2026-10-14T05:07:17.512Z",
       "items": 2
     },
     "civilprotection": {
@@ -2408,27 +2303,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T04:38:59.822Z",
+      "at": "2026-10-14T05:07:20.117Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T04:39:00.021Z",
+      "at": "2026-10-14T05:07:31.686Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T04:39:00.810Z",
+      "at": "2026-10-14T05:07:32.740Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T04:39:01.445Z",
-      "items": 1
+      "at": "2026-10-14T05:07:33.569Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T04:39:01.874Z",
+      "at": "2026-10-14T05:07:34.266Z",
       "items": 10
     },
     "toi-greece": {
@@ -2439,23 +2334,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T04:39:02.240Z",
+      "at": "2026-10-14T05:07:34.803Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T04:39:02.311Z",
+      "at": "2026-10-14T05:07:35.089Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T04:39:02.493Z",
+      "at": "2026-10-14T05:07:35.579Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T04:39:02.603Z",
-      "items": 4
+      "at": "2026-10-14T05:07:35.822Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2464,12 +2359,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T04:38:58.779Z",
+      "at": "2026-10-14T05:07:18.231Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T04:39:03.014Z",
+      "at": "2026-10-14T05:07:36.415Z",
       "items": 0
     },
     "hcg": {
@@ -2480,40 +2375,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T04:39:04.455Z",
+      "at": "2026-10-14T05:07:37.549Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T04:39:04.629Z",
+      "at": "2026-10-14T05:07:37.740Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T04:39:04.923Z",
+      "at": "2026-10-14T05:07:37.882Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T04:39:05.244Z",
+      "at": "2026-10-14T05:07:38.167Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T04:39:05.624Z",
-      "items": 10
+      "at": "2026-10-14T05:07:38.492Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T04:39:06.028Z",
-      "items": 13
+      "at": "2026-10-14T05:07:38.864Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-14",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "greece-property-tax-e9-automation",
+        "title": "Greece property tax: automated E9 form update",
+        "at": "2026-10-14T08:07:13+03:00",
+        "section": "real-estate"
+      }
+    ],
     "rejected": [
       {
         "title": "Israel Returns 22 Ancient Artefacts to Greece in Historic First",
@@ -2521,7 +2423,13 @@
         "at": "2026-10-13T22:35:47.196Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "greece-property-tax-e9-automation",
+        "at": "2026-10-14T05:07:13.845Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2617,14 +2525,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T04:39:07.175Z",
-    "considered": 4,
+    "at": "2026-10-14T05:07:39.634Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gct | Greece Offers €10,000 to Move to Remote Areas – Applications Now Open",
-      "· gct | Greek Health Minister Rejects Anti-Israel Protests as Antisemitic Propaganda",
-      "· gct | Crete Fertility Clinic Loses Melbourne Woman’s Four Embryos Ahead of Major Trial",
-      "· naftemporiki | Κακοκαιρία: Ισχυρές καταιγίδες και άνεμοι 10 μποφόρ – Ποιες περιοχές θα βρεθούν στο επίκεν"
+      "· naftemporiki | Vodafone: Πρόγραμμα αναβάθμισης δικτύου με 15 εκατ.",
+      "· gn-iefimerida | Η κακοκαιρία δείχνει και σήμερα τα «δόντια» της -«Red Code» σε 8 περιοχές, ισχυροί άνεμοι "
     ]
   },
   "evergreenDone": [
@@ -2667,5 +2573,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1791811494211,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greece-property-tax-e9-automation",
+      "url": "https://yavanet.gr/a/greece-property-tax-e9-automation/",
+      "at": "2026-10-14T05:07:13.845Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-property-tax-e9-automation/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-property-tax-e9-automation/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "נדל״ן ביוון: עדכון טופס הדיווח על נכסים",
+        "title_en": "Greece property tax: automated E9 form update",
+        "dek_he": "רשות המסים ביוון מציגה מערכת אוטומטית לעדכון טופס הדיווח על נכסים במקרים של העברת בעלות, מתנה או העברה לילדים.",
+        "dek_en": "Greece introduces an automated process for updating property declaration forms during real estate transfers, gifts, and parental grants.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15241708/pexels-photo-15241708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "נדל״ן ביוון: עדכון טופס הדיווח על נכסים\n\nרשות המסים ביוון מציגה מערכת אוטומטית לעדכון טופס הדיווח על נכסים במקרים של העברת בעלות, מתנה או העברה לילדים.\n\nhttps://yavanet.gr/a/greece-property-tax-e9-automation/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece property tax: automated E9 form update\n\nGreece introduces an automated process for updating property declaration forms during real estate transfers, gifts, and parental grants.\n\nhttps://yavanet.gr/en/a/greece-property-tax-e9-automation/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
