@@ -13,8 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "01667e3192e5": 1790794586085,
-    "d4c16e13670c": 1790795168886,
     "c951061fb4c8": 1790796952818,
     "6595ed4535fe": 1790797821400,
     "77fde27ce9fe": 1790797821400,
@@ -2305,9 +2303,118 @@
     "16f7d434670c": 1792003472503,
     "6a82d0809d4a": 1792003472503,
     "4bc6a27bd4f1": 1792003472503,
-    "a7a4f67b29bf": 1792003472503
+    "a7a4f67b29bf": 1792003472503,
+    "5e48d7b590c2": 1792005346983,
+    "2fbdd8d9df51": 1792005346983
   },
-  "pending": {},
+  "pending": {
+    "9e2832": {
+      "createdAt": 1792005382167,
+      "item": {
+        "title": "Χίος: Κλείνει για τέσσερις μήνες το αεροδρόμιο λόγω εργασιών στο διάδρομο απογείωσης-προσγείωσης",
+        "url": "https://www.ertnews.gr/perifereiakoi-stathmoi/voreio_aigaio/xios-kleinei-gia-tesseris-mines-to-aerodromio-logo-ergasion-sto-diadromo-apogeiosis-prosgeiosis/",
+        "summary": "Την ώρα που είναι σε εξέλιξη το Δημοτικό Συμβούλιο του Δήμου Χίου με θέμα το χρονοδιάγραμμα των έργων στο διάδρομο προσγείωσης- απογείωσης του Αεροδρομίου της Χίου, ο Πρόεδρος του σώματος Κλέαρχος Χρύσης διάβασε την ανακοίνωση της Υπηρεσίας Πολιτικής Αεροπορίας προς τον Εθνικό Οργανισμό Συντονισμού Πτήσεων και προς τις αεροπορικές εταιρείες. Σύμφωνα με αυτήν το αεροδρόμιο ... Περισσότερα \n www.ertnews.gr",
+        "published": "Wed, 14 Oct 2026 18:45:00 +0000",
+        "id": "2fbdd8d9df51",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "2fbdd8d9df51",
+        "section": "travel",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Chios airport is closing for four months due to runway works. This is crucial travel disruption information for Israeli tourists visiting or planning trips to the islands.",
+        "item": {
+          "title": "Χίος: Κλείνει για τέσσερις μήνες το αεροδρόμιο λόγω εργασιών στο διάδρομο απογείωσης-προσγείωσης",
+          "url": "https://www.ertnews.gr/perifereiakoi-stathmoi/voreio_aigaio/xios-kleinei-gia-tesseris-mines-to-aerodromio-logo-ergasion-sto-diadromo-apogeiosis-prosgeiosis/",
+          "summary": "Την ώρα που είναι σε εξέλιξη το Δημοτικό Συμβούλιο του Δήμου Χίου με θέμα το χρονοδιάγραμμα των έργων στο διάδρομο προσγείωσης- απογείωσης του Αεροδρομίου της Χίου, ο Πρόεδρος του σώματος Κλέαρχος Χρύσης διάβασε την ανακοίνωση της Υπηρεσίας Πολιτικής Αεροπορίας προς τον Εθνικό Οργανισμό Συντονισμού Πτήσεων και προς τις αεροπορικές εταιρείες. Σύμφωνα με αυτήν το αεροδρόμιο ... Περισσότερα \n www.ertnews.gr",
+          "published": "Wed, 14 Oct 2026 18:45:00 +0000",
+          "id": "2fbdd8d9df51",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "chios-airport-closing-four-months",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 38.3692,
+          "lng": 26.1425
+        },
+        "strike": null,
+        "alert": {
+          "he": "סגירת שדה תעופה",
+          "en": "Airport Closure"
+        },
+        "imageKey": "plane",
+        "imageQuery": "airplane runway construction greece",
+        "he": {
+          "title": "יוון: שדה התעופה בחיוס ייסגר לארבעה חודשים עקב עבודות שדרוג",
+          "seoTitle": "שדה התעופה בחיוס ייסגר לארבעה חודשים לעבודות",
+          "seoDesc": "שדה התעופה באי חיוס ביוון ייסגור את שעריו מ-15 בנובמבר 2026 ועד 15 במרץ 2027 לצורך הרחבת המסלול. מה זה אומר על טיסות ודרכי הגעה?",
+          "keywords": [
+            "חיוס",
+            "שדה תעופה ביוון",
+            "טיסות לחיוס",
+            "איים ביוון",
+            "חופשה בחיוס"
+          ],
+          "dek": "רשות התעופה האזרחית ביוון הודיעה על סגירת נמל התעופה באי חיוס למשך ארבעה חודשים מלאים עקב פרויקט הרחבת מסלול ההמראת והנחיתות.",
+          "tldr": [
+            "נמל התעופה בחיוס ייסגור את שעריו בין התאריכים 15 בנובמבר 2026 ל-15 במרץ 2027.",
+            "הסגירה נועדה לאפשר את עבודות הרחבת המסלול ושיפור הבטיחות במקום.",
+            "מסוקי פינוי רפואי וטיסות חירום ממשלתיות יוכלו להמשיך לנחות במקום לפי הצורך."
+          ],
+          "means": "שוקלים להגיע לאי חיוס בחודשים הקרובים? שימו לב שהטיסות הישירות והסדירות לנמל התעופה יופסקו בתקופת העבודות. יש לעקוב אחר הודעות חברות התעופה, לבדוק נתיבי הגעה חלופיים באמצעות מעבורות דרך יבשת יוון או איים סמוכים, ולהיערך לשינויים בלוחות הזמנים מראש.",
+          "body": "## סגירה ממושכת במסלול הטיסה\n\nרשות התעופה האזרחית ביוון עדכנה את ארגון תיאום הטיסות הלאומי ואת חברות התעופה על הפסקת פעילות מלאה בנמל התעופה של האי חיוס. ההחלטה התקבלה במסגרת פרויקט רחב היקף להארכת ושדרוג מסלול ההמראת והנחיתות, במטרה להבטיח חיבור אווירי תקין ובטוח לעונת התיירות הבאה.\n\nלפי הודעת הרשויות, העבודות יתקיימו בתקופה שבין 15 בנובמבר 2026 ועד 15 במרץ 2027. תזמון זה נבחר במטרה לצמצם ככל הניתן את הפגיעה בפעילות התיירותית, לנצל את חודשי החורף לעבודות תשתית מורכבות באתרי הבנייה, ולשפר את בטיחות הנוסעים.\n\n## חריגים לפעילות חירום\n\nעל אף הפסקת הפעילות האזרחית והמסחרית, הבהירו הרשויות כי מסוקים המשמשים לפינוי רפואי וטיסות חירום של גופים ממשלתיים יוכלו להמשיך להשתמש בשטח נמל התעופה. מסוקים אלו יוכלו לנחות ולהמשיך ישירות מרחבת החניה המיועדת לכך לפי הצורך המבצעי.\n\n## תגובת התושבים המקומיים\n\nההודעה על מועד תחילת העבודות עוררה דיונים ציבוריים באי. נציגי התושבים והרשויות המקומיות קיימו דיונים דחופים בנושא, לאחר שמוקדם יותר השבוע הביעו חשש מפני הקדמת מועד הסגירה לחודש נובמבר במקום תחילת השנה האזרחית החדשה כפי שתוכנן בתחילה. מועצת העיר והגורמים המקומיים ממשיכים לבחון את ההשלכות על חיי היומיום ותנועת הנוסעים בתקופת החורף."
+        },
+        "en": {
+          "title": "Chios Airport to Close for Four Months for Runway Expansion Works",
+          "seoTitle": "Chios Airport Closing for Four Months for Works",
+          "seoDesc": "Chios Airport in Greece will close from November 15, 2026, to March 15, 2027, for runway extension works. Essential travel updates for visitors.",
+          "keywords": [
+            "Chios airport",
+            "Chios Greece",
+            "airport closure",
+            "Greek islands travel",
+            "Chios flights"
+          ],
+          "dek": "Civil Aviation Authority announces a four-month shutdown of Chios Airport to facilitate major runway extension and safety upgrade works.",
+          "tldr": [
+            "Chios Airport will close completely from November 15, 2026, through March 15, 2027.",
+            "The closure aims to optimize construction work and enhance runway safety for future seasons.",
+            "Medical evacuation helicopters and state-operated aircraft will still be permitted to land."
+          ],
+          "means": "Travelers planning a trip to Chios during the winter and early spring should note that commercial flights will be suspended. Check with airlines and ferry operators for alternative sea routes via mainland Greece or nearby islands, and allow extra time for travel planning.",
+          "body": "## Extended Runway Construction\n\nThe Greek Civil Aviation Authority has officially notified airlines and the national slot coordination body regarding a scheduled four-month closure of Chios Island's airport. The measure is designed to facilitate a major infrastructure project aimed at extending the runway and improving overall aviation safety.\n\nThe shutdown is scheduled to begin on November 15, 2026, and run through March 15, 2027. Authorities noted that executing the project during the winter season helps mitigate weather-related delays and ensures smoother preparation for the upcoming tourist seasons.\n\n## Emergency Exceptions\n\nDespite the suspension of regular commercial flights, provisions have been made for emergency services. Medical evacuation helicopters and official state flights will retain the ability to land and take off directly from the designated parking apron areas as needed.\n\n## Local Discussions\n\nThe announcement prompted urgent municipal council sessions on the island. Local stakeholders had previously voiced concerns regarding the exact shutdown schedule, advocating for adjustments to minimize disruption to the local community before finalizing the construction timeline."
+        }
+      },
+      "text": "Την ώρα που είναι σε εξέλιξη το Δημοτικό Συμβούλιο του Δήμου Χίου με θέμα το χρονοδιάγραμμα των έργων στο διάδρομο προσγείωσης- απογείωσης του Αεροδρομίου της Χίου, ο Πρόεδρος του σώματος Κλέαρχος Χρύσης διάβασε την ανακοίνωση της Υπηρεσίας Πολιτικής Αεροπορίας προς τον Εθνικό Οργανισμό Συντονισμού Πτήσεων και προς τις αεροπορικές εταιρείες.\nΣύμφωνα με αυτήν το αεροδρόμιο της Χίου θα κλείσει από τις 15 Νοεμβρίου 2026 μέχρι και τις 15 Μαρτίου 2027, «με γνώμονα τη διασφάλιση της ομαλής αεροπορικής σύνδεσης κατά την τουριστική περίοδο 2027».\nΕπίσης επισημαίνεται ότι η απόφαση αυτή λαμβάνεται για «Το μετριασμό των συνεπειών λόγων καιρικών συνθηκών χειμερινής περιόδου και της βελτιστοποίησης της ανάπτυξης του εργοταξίου και ασφαλέστερης εκτέλεσης του έργου της επέκτασης του διαδρόμου».\nΣε ότι αφορά τα ελικόπτερα αεροδιακομιδών και κρατικών φορέων, αυτά μπορούν, σημειώνεται στο ίδιο έγγραφο, να πραγματοποιούν προσγείωση και απογείωση απευθείας προς από το δάπεδο στάθμευσης.\nΤο επόμενο βήμα είναι η ΥΠΑ να προβεί και στη σχετική έκδοση αεροναυτικής πληροφορίας.\nΤο Δημοτικό Συμβούλιο του Δήμου Χίου, προχώρησε σε ολιγόλεπτη διακοπή, ώστε να τοποθετηθούν στη συνέχεια εκπρόσωποι φορέων και δημοτικοί σύμβουλοι για το ποια θα είναι η πρόταση του σώματος μετά από αυτή την εξέλιξη.\nΝα θυμίσουμε ότι μόλις το μεσημέρι της Δευτέρας, 12/10, οι φορείς του νησιού, σε κοινή συνέντευξη τύπου, έκαναν λόγο για κινητοποιήσεις σε περίπτωση που το αεροδρόμιο κλείσει από τις 15 Νοεμβρίου και όχι με το νέο έτος όπως ήταν ο αρχικός προγραμματισμός των εργασιών.\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Αεροδρόμιο Χίου ΟΜΗΡΟΣ Δημοτικό συμβούλιο Δήμου Χίου Εργοτάξιο αεροδρομίου Κλείσιμο αεροδρομίου \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Κλείνει για τέσσερις μήνες το Αεροδρόμιο Χίου για έργα επέκτασης του διαδρόμου",
+        "dek": "Η Υπηρεσία Πολιτικής Αεροπορίας ανακοινώνει τετράμηνο κλείσιμο του Αεροδρομίου Χίου για την υλοποίηση σημαντικών έργων επέκτασης του διαδρόμου και αναβάθμισης της ασφάλειας.",
+        "tldr": [
+          "Το Αεροδρόμιο Χίου θα κλείσει εντελώς από τις 15 Νοεμβρίου 2026 έως τις 15 Μαρτίου 2027.",
+          "Το κλείσιμο αποσκοπεί στη βελτιστοποίηση των κατασκευαστικών εργασιών και στην ενίσχυση της ασφάλειας του διαδρόμου για τις μελλοντικές σεζόν.",
+          "Τα ελικόπτερα αεροδιακομιδών και τα κρατικά αεροσκάφη θα εξακολουθούν να επιτρέπεται να προσγειώνονται."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2317,12 +2424,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T18:44:16.043Z",
+      "at": "2026-10-14T19:15:25.239Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T18:44:16.761Z",
+      "at": "2026-10-14T19:15:25.823Z",
       "items": 1
     },
     "civilprotection": {
@@ -2333,27 +2440,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T18:44:19.035Z",
+      "at": "2026-10-14T19:15:27.717Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T18:44:21.724Z",
+      "at": "2026-10-14T19:15:36.532Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T18:44:22.886Z",
+      "at": "2026-10-14T19:15:37.323Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T18:44:23.644Z",
-      "items": 1
+      "at": "2026-10-14T19:15:38.034Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T18:44:24.503Z",
+      "at": "2026-10-14T19:15:38.863Z",
       "items": 10
     },
     "toi-greece": {
@@ -2364,23 +2471,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T18:44:25.159Z",
+      "at": "2026-10-14T19:15:39.354Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T18:44:25.305Z",
+      "at": "2026-10-14T19:15:39.435Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T18:44:25.934Z",
+      "at": "2026-10-14T19:15:39.644Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T18:44:26.169Z",
-      "items": 4
+      "at": "2026-10-14T19:15:40.044Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2389,12 +2496,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T18:44:17.337Z",
+      "at": "2026-10-14T19:15:26.401Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T18:44:26.920Z",
+      "at": "2026-10-14T19:15:40.592Z",
       "items": 0
     },
     "hcg": {
@@ -2405,32 +2512,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T18:44:29.582Z",
+      "at": "2026-10-14T19:15:42.974Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T18:44:29.837Z",
-      "items": 7
+      "at": "2026-10-14T19:15:43.199Z",
+      "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T18:44:30.007Z",
+      "at": "2026-10-14T19:15:43.389Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T18:44:30.266Z",
+      "at": "2026-10-14T19:15:43.717Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T18:44:30.612Z",
+      "at": "2026-10-14T19:15:44.126Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T18:44:31.190Z",
+      "at": "2026-10-14T19:15:44.637Z",
       "items": 8
     }
   },
@@ -2589,6 +2696,11 @@
         "title": "15.000 ακίνητα υπό τη διαχείριση των servicers ή στην ιδιοκτησία των τραπεζών",
         "reason": "Ίδιο θέμα με «Greek Real Estate Boom: Athens Exchange Property Firms Report Strong Growth» – δεν γράφτηκε ξανά",
         "at": "2026-10-14T18:45:09.324Z"
+      },
+      {
+        "title": "Bραχυχρόνιες μισθώσεις: Μείωση της ζήτησης, αύξηση των εσόδων",
+        "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
+        "at": "2026-10-14T19:15:51.978Z"
       }
     ],
     "errors": [],
@@ -2705,14 +2817,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T18:44:32.504Z",
-    "considered": 4,
-    "picked": 3,
+    "at": "2026-10-14T19:15:46.984Z",
+    "considered": 2,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Ο Νετανιάχου απέφυγε να διευκρινίσει αν θα αποχωρήσει από την πολιτική σε περίπτωση ήττας ",
-      "✓ naftemporiki | Το τραυματικό αποτύπωμα της 7ης Οκτωβρίου: Εκδήλωση της Ισραηλινής Πρεσβείας για τα τρία χ",
-      "✓ naftemporiki | 15.000 ακίνητα υπό τη διαχείριση των servicers ή στην ιδιοκτησία των τραπεζών",
-      "✓ gn-civilprotection | Συνεδρίαση της Επιτροπής Εκτίμησης Κινδύνου: Ισχυρά φαινόμενα έως το βράδυ σε ανατολική κα"
+      "✓ ingr | Bραχυχρόνιες μισθώσεις: Μείωση της ζήτησης, αύξηση των εσόδων",
+      "✓ ert | Χίος: Κλείνει για τέσσερις μήνες το αεροδρόμιο λόγω εργασιών στο διάδρομο απογείωσης-προσγ"
     ]
   },
   "evergreenDone": [
