@@ -2418,12 +2418,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T20:54:32.925Z",
+      "at": "2026-10-14T21:15:27.908Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T20:54:33.701Z",
+      "at": "2026-10-14T21:15:28.702Z",
       "items": 1
     },
     "civilprotection": {
@@ -2434,27 +2434,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T20:54:35.044Z",
+      "at": "2026-10-14T21:15:30.863Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T20:54:35.490Z",
+      "at": "2026-10-14T21:15:31.353Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T20:54:36.455Z",
+      "at": "2026-10-14T21:15:32.659Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T20:54:37.096Z",
+      "at": "2026-10-14T21:15:33.499Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T20:54:37.544Z",
+      "at": "2026-10-14T21:15:34.460Z",
       "items": 10
     },
     "toi-greece": {
@@ -2465,22 +2465,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T20:54:37.964Z",
+      "at": "2026-10-14T21:15:35.088Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T20:54:38.111Z",
+      "at": "2026-10-14T21:15:35.305Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T20:54:38.222Z",
-      "items": 5
+      "at": "2026-10-14T21:15:36.086Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T20:54:38.564Z",
+      "at": "2026-10-14T21:15:36.280Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2490,12 +2490,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T20:54:33.930Z",
+      "at": "2026-10-14T21:15:29.418Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T20:54:39.091Z",
+      "at": "2026-10-14T21:15:37.078Z",
       "items": 0
     },
     "hcg": {
@@ -2506,218 +2506,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T20:54:40.360Z",
+      "at": "2026-10-14T21:15:38.634Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T20:54:40.595Z",
+      "at": "2026-10-14T21:15:38.880Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T20:54:40.798Z",
-      "items": 3
+      "at": "2026-10-14T21:15:39.051Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T20:54:41.068Z",
+      "at": "2026-10-14T21:15:39.306Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T20:54:41.475Z",
+      "at": "2026-10-14T21:15:39.698Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T20:54:42.287Z",
-      "items": 8
+      "at": "2026-10-14T21:15:40.096Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-14",
-    "count": 4,
-    "published": [
-      {
-        "slug": "greece-property-tax-e9-automation",
-        "title": "Greece property tax: automated E9 form update",
-        "at": "2026-10-14T08:07:13+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe weather in Rhodes: 112 alert, floods and road closures",
-        "at": "2026-10-14T11:37:39+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe weather hits Evia: Emergency 112 alert issued for evacuations",
-        "at": "2026-10-14T12:36:59+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Greece Weather Update: Orange Alert Issued for Heavy Storms",
-        "at": "2026-10-14T12:37:14+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-israel-lora-missile-co-production",
-        "title": "Greece and Israel Advance Talks on LORA Missile Co-Production",
-        "at": "2026-10-14T13:18:34+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe Weather in Greece: Risk Committee Meets as High Winds and Rains Continue",
-        "at": "2026-10-14T15:07:18+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe weather in Greece: One dead in Rhodes and evacuations in Evia",
-        "at": "2026-10-14T16:17:54+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe Storm in Rhodes: Roads Closed, Schools Shut and Ongoing Disruptions",
-        "at": "2026-10-14T17:19:38+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-kyklades",
-        "title": "Orange Rain Warning Issued for the Cyclades in Greece",
-        "at": "2026-10-14T17:56:53+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "mhv-acquires-moxy-athens-city",
-        "title": "MHV Group Acquires Moxy Athens City Hotel",
-        "at": "2026-10-14T17:58:23+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe Weather in Evia: Kireas River Overflows",
-        "at": "2026-10-14T18:21:26+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe weather in Greece: One dead in Rhodes, major disruptions in Evia and Attica",
-        "at": "2026-10-14T20:01:33+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Risk Assessment Committee in Greece: Severe Weather to Continue Until Evening",
-        "at": "2026-10-14T21:44:45+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "israeli-embassy-athens-october-7-event",
-        "title": "Athens Event Marks Three Years Since October 7 with Israeli Ambassador",
-        "at": "2026-10-14T21:46:01+03:00",
-        "section": "israelis"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Israel Returns 22 Ancient Artefacts to Greece in Historic First",
-        "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
-        "at": "2026-10-13T22:35:47.196Z"
-      },
-      {
-        "title": "Ban on Departures from Piraeus and Lavrio Due to Strong Aegean Winds",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 15; Μεγάλη ομοιότητα με την πηγή (23%)",
-        "at": "2026-10-14T05:37:09.893Z"
-      },
-      {
-        "title": "Severe Weather Across Greece: Storms and Winds Up to 10 Beaufort",
-        "reason": "Ίδιο θέμα με «Severe weather alert issued for Evia and the Sporades» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T06:06:10.419Z"
-      },
-      {
-        "title": "Θεσσαλονίκη: Ανοδική και τον Σεπτέμβριο η επιβατική κίνηση στο αεροδρόμιο «Μακεδονία» - iefimerida.gr",
-        "reason": "Rule 8 & Source Verification: The article adds facts not present in the source text, specifically mentioning direct flights from Israel (\"כולל טיסות ישירות מישראל\" / \"direct connections from Israel\"), city breaks, cultural tourism, business travel, and specific travel tips which do not appear in the",
-        "at": "2026-10-14T09:10:53.497Z"
-      },
-      {
-        "title": "Ρόδος: Δραματικές εικόνες από την κακοκαιρία – Αυτοκίνητα παρασύρθηκαν από τα νερά",
-        "reason": "Ίδιο θέμα με «Severe weather in Rhodes: 112 alert, floods and road closures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T10:38:49.620Z"
-      },
-      {
-        "title": "Authorities Find Young Man Dead at Stegna Beach in Rhodes",
-        "reason": "Ίδιο θέμα με «Severe weather in Rhodes: 112 alert, floods and road closures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T12:07:03.795Z"
-      },
-      {
-        "title": "Ισχυρές βροχές και καταιγίδες, με πιθανότητα τοπικών χαλαζοπτώσεων, αναμένονται στο μεγαλύτερο μέρος της χώρας, σήμερα Τρίτη και αύριο Τετάρ",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Risk Committee Meets as High Winds and Rains Continue» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T12:45:08.062Z"
-      },
-      {
-        "title": "Ενας νεκρός στη Ρόδο από την κακοκαιρία - Kathimerini",
-        "reason": "Ίδιο θέμα με «Severe weather in Rhodes: 112 alert, floods and road closures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T12:45:12.740Z"
-      },
-      {
-        "title": "Υπ. Εργασίας: Έκτακτα μέτρα για εργαζομένους στα Δωδεκάνησα λόγω κακοκαιρίας",
-        "reason": "Ίδιο θέμα με «Severe weather in Rhodes: 112 alert, floods and road closures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T12:45:17.111Z"
-      },
-      {
-        "title": "Δεύτερη συνεχόμενη κακοκαιρία με νεκρό – Λαγουβάρδος: «Η ένταση των φαινομένων είναι ανησυχητική»",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Risk Committee Meets as High Winds and Rains Continue» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T12:45:21.641Z"
-      },
-      {
-        "title": "Τσουκαλάς: Η κυβέρνηση καταδίκασε την κοινωνική πλειοψηφία σε έναν πλήρη παραλογισμό",
-        "reason": "Ίδιο θέμα με «Greek political parties clash over energy and economic measures in Athens» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T15:21:30.567Z"
-      },
-      {
-        "title": "Σε ύφεση η φονική κακοκαιρία με έναν νεκρό και μεγάλες ζημιές σε Ρόδο, Εύβοια και Σκιάθο – Ο καιρός τις επόμενες ημέρες",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: One dead in Rhodes, major disruptions in Evia and Attica» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T17:38:12.895Z"
-      },
-      {
-        "title": "15.000 ακίνητα υπό τη διαχείριση των servicers ή στην ιδιοκτησία των τραπεζών",
-        "reason": "Ίδιο θέμα με «Greek Real Estate Boom: Athens Exchange Property Firms Report Strong Growth» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T18:45:09.324Z"
-      },
-      {
-        "title": "Bραχυχρόνιες μισθώσεις: Μείωση της ζήτησης, αύξηση των εσόδων",
-        "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T19:15:51.978Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greece-property-tax-e9-automation",
-        "at": "2026-10-14T05:07:13.845Z"
-      },
-      {
-        "slug": "greece-israel-lora-missile-co-production",
-        "at": "2026-10-14T10:18:35.226Z"
-      },
-      {
-        "slug": "orange-rain-warning-kyklades",
-        "at": "2026-10-14T14:56:56.775Z"
-      },
-      {
-        "slug": "israeli-embassy-athens-october-7-event",
-        "at": "2026-10-14T18:46:01.985Z"
-      }
-    ]
+    "date": "2026-10-15",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-14",
+      "count": 4,
+      "rejected": 14
+    },
     {
       "date": "2026-10-13",
       "count": 10,
