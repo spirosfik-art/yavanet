@@ -11,6 +11,7 @@ import { profileBody } from "./site/profile.mjs";
 import { sfShowcase } from "./site/sf.mjs";
 import { almyraShowcase } from "./site/almyra.mjs";
 import { medtourShowcase } from "./site/medtour.mjs";
+import { voulaShowcase } from "./site/voula.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
@@ -247,7 +248,7 @@ ${newsletterBox(lang)}
   articles.forEach((a, i) => {
     const prev = articles[i - 1] || null, next = articles[i + 1] || null;
     const related = relatedFor(a);
-    const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
+    const body = a.showcase === "sf" ? sfShowcase(a, lang) : a.showcase === "almyra" ? almyraShowcase(a, lang) : a.showcase === "medtour" ? medtourShowcase(a, lang) : a.showcase === "voula" ? voulaShowcase(a, lang) : a[lang].profile ? profileBody(a, lang) : `<div class="grid"><div class="col">${articleBody(a, lang, prev, next)}
 ${a.wx ? wxArticleBox(a, lang) : ""}
 ${nadlanFor(a) ? GLOBAL.nadlanBox[lang] : ""}
 ${a.slug === "golden-visa-greece-2026-guide" ? `<a class="fteaser" href="${P(lang, "/golden-visa-quiz/")}"><span class="ft-ic" aria-hidden="true">${ic("quiz")}</span><span class="ft-t"><b>${lang === "he" ? "איזו ויזת זהב מתאימה לכם?" : "Which Golden Visa applies to you?"}</b><small>${lang === "he" ? "5 שאלות קצרות ותדעו כמה צריך להשקיע" : "5 short questions to see how much you need to invest"}</small></span><span class="ft-go">${lang === "he" ? "לשאלון ←" : "Take the quiz →"}</span></a>` : ""}
