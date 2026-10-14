@@ -278,8 +278,8 @@ ${newsletterBox(lang)}
   /* Τουρκική εκδοχή της βιτρίνας Βούλας (/tr/a/<slug>/) για τις διαφημίσεις στην Τουρκία.
      Χρησιμοποιεί τη διάταξη του αγγλικού (cookies, analytics, ειδοποιήσεις WhatsApp) αλλά κρύβει το μενού του Yavanet. */
   const VX_LANGS = {
-    tr: { title: "Voula'da özel havuzlu bahçeli dubleks, denize 400 m: Golden Visa'ya uygun", seo: "Voula'da havuzlu dubleks, Golden Visa'ya uygun | Yavanet", desc: "Atina Rivierası'nda yeni yapı dubleks: 1.230.000 €, 3 yatak odası, 152 m² bahçe ve özel havuz. Golden Visa'ya uygun.", locale: "tr_TR", html: "tr" },
-    zh: { title: "雅典武拉自带泳池的花园复式别墅，距海不到400米：符合希腊黄金签证条件", seo: "雅典武拉泳池花园别墅 · 希腊黄金签证 | Yavanet", desc: "雅典里维埃拉全新复式住宅：1,230,000欧元，三间卧室，152平方米花园及私人泳池，符合希腊黄金签证条件。", locale: "zh_CN", html: "zh-CN" },
+    tr: { title: "Voula'da özel havuzlu bahçeli dubleks, denize 400 m: Golden Visa'ya uygun", seo: "Voula'da havuzlu dubleks, Golden Visa'ya uygun", desc: "Atina Rivierası'nda yeni yapı dubleks: 1.230.000 €, 3 yatak odası, 152 m² bahçe ve özel havuz. Golden Visa'ya uygun.", locale: "tr_TR", html: "tr" },
+    zh: { title: "雅典武拉自带泳池的花园复式别墅，距海不到400米：符合希腊黄金签证条件", seo: "雅典武拉泳池花园别墅 · 希腊黄金签证", desc: "雅典里维埃拉全新复式住宅：1,230,000欧元，三间卧室，152平方米花园及私人泳池，符合希腊黄金签证条件。", locale: "zh_CN", html: "zh-CN" },
   };
   for (const a of articles.filter((x) => x.showcase === "voula")) {
     const alts = `<link rel="alternate" hreflang="en" href="${abs(`/en/a/${a.slug}/`)}"><link rel="alternate" hreflang="he" href="${abs(`/a/${a.slug}/`)}">` + Object.keys(VX_LANGS).map((k) => `<link rel="alternate" hreflang="${k}" href="${abs(`/${k}/a/${a.slug}/`)}">`).join("");
