@@ -11,7 +11,7 @@ import { profileBody } from "./site/profile.mjs";
 import { sfShowcase } from "./site/sf.mjs";
 import { almyraShowcase } from "./site/almyra.mjs";
 import { medtourShowcase } from "./site/medtour.mjs";
-import { voulaShowcase } from "./site/voula.mjs";
+import { voulaShowcase, voulaTopBar } from "./site/voula.mjs";
 import { TI, tileHTML, hubPage, contactPage, doorsHTML } from "./site/hubs.mjs";
 import { DESTS, destPage, strikeTodayPage, strikesICS } from "./site/dests.mjs";
 import { holidaysStrip, holidaysPage } from "./site/holidays.mjs";
@@ -286,7 +286,7 @@ ${newsletterBox(lang)}
     for (const [k, v] of Object.entries(VX_LANGS)) {
       const url = `/${k}/a/${a.slug}/`;
       const html = layout({ lang: "en", title: v.title, seoTitle: v.seo, description: v.desc, path: url, altPath: `/en/a/${a.slug}/`, ogType: "article", image: photoOf(a), head: `<meta property="og:locale" content="${v.locale}">${alts}`,
-        body: voulaShowcase(a, k) + `<style>.sky,.flashbar,.chips,.bnav,.wafloat,.skip{display:none!important}</style>` });
+        body: voulaTopBar(k) + voulaShowcase(a, k) + `<style>.sky,.flashbar,.chips,.bnav,.wafloat,.skip{display:none!important}</style>` });
       write(url, html.replace('<html lang="en"', `<html lang="${v.html}"`));
     }
   }

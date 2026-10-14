@@ -563,3 +563,31 @@ var ck=root.querySelector(".vx-clock");if(ck){var end=new Date(ck.getAttribute("
 function tick(){var s=Math.max(0,Math.floor((end-Date.now())/1000));B.d.textContent=Math.floor(s/86400);B.h.textContent=String(Math.floor(s%86400/3600)).padStart(2,"0");B.m.textContent=String(Math.floor(s%3600/60)).padStart(2,"0");B.s.textContent=String(s%60).padStart(2,"0")}tick();setInterval(tick,1000)}
 var strip=root.querySelector(".vx-strip");if(strip&&!reduce){var hint=true;var so=new IntersectionObserver(function(es){if(es[0].isIntersecting&&hint){hint=false;so.disconnect();strip.scrollBy({left:he?-120:120,behavior:"smooth"});setTimeout(function(){strip.scrollBy({left:he?120:-120,behavior:"smooth"})},700)}},{threshold:.6});so.observe(strip)}
 })();`;
+
+// Μπάρα ταυτότητας για τις σελίδες /tr/ και /zh/ (εκεί κρύβεται το μενού του Yavanet).
+const TOP = {
+  tr: { site: "Yavanet · Yunanistan'dan haberler ve gayrimenkul", firm: "S.F. Properties, Atina", about: "Hakkımızda", lines: ["S.F. Properties, Atina'da gayrimenkul satışı ve mülk yönetimi yapan bir şirkettir.", "Spyridon Fikias, emlak danışmanı · ΓΕΜΗ 172090403000", "Ofis: P. P. Germanou 77, Filothei 15237, Atina"] },
+  zh: { site: "Yavanet · 希腊新闻与房产", firm: "S.F. Properties，雅典", about: "关于我们", lines: ["S.F. Properties 是一家位于雅典的房地产销售与物业管理公司。", "Spyridon Fikias，房地产经纪人 · ΓΕΜΗ 172090403000", "办公室：P. P. Germanou 77, Filothei 15237, 雅典"] },
+};
+export function voulaTopBar(lang) {
+  const c = TOP[lang]; if (!c) return "";
+  return `<style>
+.vxt{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;margin:0 0 10px;background:rgba(11,22,32,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(236,229,216,.12);border-radius:16px;color:#ECE5D8}
+.vxt summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;cursor:pointer}
+.vxt summary::-webkit-details-marker{display:none}
+.vxt-l{display:flex;align-items:center;gap:12px;min-width:0}
+.vxt img{height:20px;width:auto;flex:none}
+.vxt-s{font:500 12px/1.3 "IBM Plex Mono",ui-monospace,monospace;letter-spacing:.04em;color:#A3ADAE;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vxt-a{font:600 13px/1 system-ui,sans-serif;color:#E9B56C;white-space:nowrap;border:1px solid rgba(233,181,108,.4);border-radius:999px;padding:6px 12px}
+.vxt[open] .vxt-a{background:#E9B56C;color:#0B1620}
+.vxt-b{padding:4px 16px 14px;display:grid;gap:6px;font-size:14px;line-height:1.5;color:#C9CFCF;border-top:1px solid rgba(236,229,216,.08)}
+.vxt-b b{color:#ECE5D8}
+.vxt-b a{color:#E9B56C}
+.vxt-c{font:500 13px "IBM Plex Mono",ui-monospace,monospace;direction:ltr;unicode-bidi:isolate}
+@media (max-width:560px){.vxt-s{display:none}}
+</style>
+<details class="vxt" lang="${lang}">
+  <summary><span class="vxt-l"><img src="/sf-logo-light.png" alt="S.F. Properties" width="900" height="142"><span class="vxt-s">${esc(c.site)}</span></span><span class="vxt-a">${esc(c.about)}</span></summary>
+  <div class="vxt-b"><b>${esc(c.firm)}</b>${c.lines.map((l) => `<span>${esc(l)}</span>`).join("")}<span class="vxt-c">info@sfproperties.gr · +30 690 672 3676 · <a href="https://sfproperties.gr/" target="_blank" rel="noopener">sfproperties.gr</a></span></div>
+</details>`;
+}
