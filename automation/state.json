@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "fbda5eb1d7f1": 1790777121585,
     "289b3b658972": 1790778501778,
     "bd379847a90e": 1790778501778,
     "ce6304316900": 1790778501778,
@@ -2304,7 +2303,8 @@
     "33c69bcd7391": 1791985201202,
     "0c1a3916f97c": 1791985201202,
     "ef8f119c1545": 1791986242517,
-    "64de0f519b03": 1791986242517
+    "64de0f519b03": 1791986242517,
+    "ddb4ff55d15e": 1791987563596
   },
   "pending": {},
   "sourceStatus": {
@@ -2316,13 +2316,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T13:57:06.409Z",
+      "at": "2026-10-14T14:19:10.988Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T13:57:07.378Z",
-      "items": 2
+      "at": "2026-10-14T14:19:11.776Z",
+      "items": 1
     },
     "civilprotection": {
       "ok": false,
@@ -2332,27 +2332,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T13:57:11.634Z",
+      "at": "2026-10-14T14:19:13.990Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T13:57:12.077Z",
+      "at": "2026-10-14T14:19:14.423Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T13:57:13.390Z",
+      "at": "2026-10-14T14:19:15.527Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T13:57:14.371Z",
+      "at": "2026-10-14T14:19:16.243Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T13:57:15.440Z",
+      "at": "2026-10-14T14:19:17.243Z",
       "items": 10
     },
     "toi-greece": {
@@ -2363,23 +2363,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T13:57:16.037Z",
+      "at": "2026-10-14T14:19:17.815Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T13:57:16.294Z",
+      "at": "2026-10-14T14:19:18.132Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T13:57:17.197Z",
+      "at": "2026-10-14T14:19:18.427Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T13:57:17.755Z",
-      "items": 5
+      "at": "2026-10-14T14:19:18.659Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2388,12 +2388,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T13:57:08.028Z",
+      "at": "2026-10-14T14:19:12.527Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T13:57:18.589Z",
+      "at": "2026-10-14T14:19:19.429Z",
       "items": 0
     },
     "hcg": {
@@ -2404,33 +2404,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T13:57:20.507Z",
+      "at": "2026-10-14T14:19:20.820Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T13:57:20.689Z",
+      "at": "2026-10-14T14:19:21.090Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T13:57:20.893Z",
+      "at": "2026-10-14T14:19:21.273Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T13:57:21.071Z",
+      "at": "2026-10-14T14:19:21.550Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T13:57:21.463Z",
+      "at": "2026-10-14T14:19:21.940Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T13:57:21.881Z",
-      "items": 8
+      "at": "2026-10-14T14:19:22.392Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2478,6 +2478,12 @@
         "slug": "severe-weather-greece-october-2026",
         "title": "↻ Severe weather in Greece: One dead in Rhodes and evacuations in Evia",
         "at": "2026-10-14T16:17:54+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "severe-weather-greece-october-2026",
+        "title": "↻ Severe Storm in Rhodes: Roads Closed, Schools Shut and Ongoing Disruptions",
+        "at": "2026-10-14T17:19:38+03:00",
         "section": "breaking"
       }
     ],
@@ -2639,12 +2645,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T13:57:22.517Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-14T14:19:23.596Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· gtp | EU’s First Tourism Strategy to be Presented in November",
-      "· gn-iefimerida | Σαρωτικό το πέρασμα της κακοκαιρίας: Ένας νεκρός στη Ρόδο, κόπηκε στα δύο η Εύβοια, προβλή"
+      "✓ naftemporiki | Ρόδος: Εικόνες καταστροφής μετά την κακοκαιρία – Πώς έχασε τη ζωή του ο 62χρονος"
     ]
   },
   "evergreenDone": [
