@@ -1,7 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "7fb55f4dd4a5": 1790748114825,
     "df7fa80d2367": 1790749795056,
     "47a51c456d5e": 1790750830505,
     "fde7ba306bf6": 1790750830505,
@@ -2276,7 +2275,9 @@
     "af91360b6df1": 1791956213941,
     "d1d64f8b866d": 1791956213941,
     "6471d110e777": 1791956213941,
-    "fda8a7873084": 1791956213941
+    "fda8a7873084": 1791956213941,
+    "18915284fe00": 1791957966492,
+    "6f300d0f1160": 1791957966492
   },
   "pending": {},
   "sourceStatus": {
@@ -2288,12 +2289,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T05:36:29.413Z",
-      "items": 10
+      "at": "2026-10-14T06:05:52.084Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T05:36:30.305Z",
+      "at": "2026-10-14T06:05:52.968Z",
       "items": 2
     },
     "civilprotection": {
@@ -2304,27 +2305,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T05:36:32.654Z",
+      "at": "2026-10-14T06:05:55.599Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T05:36:37.260Z",
+      "at": "2026-10-14T06:05:56.134Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T05:36:38.472Z",
+      "at": "2026-10-14T06:05:57.891Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T05:36:39.403Z",
+      "at": "2026-10-14T06:05:58.676Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T05:36:40.257Z",
+      "at": "2026-10-14T06:05:59.525Z",
       "items": 10
     },
     "toi-greece": {
@@ -2335,23 +2336,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T05:36:40.889Z",
+      "at": "2026-10-14T06:06:00.077Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T05:36:41.150Z",
+      "at": "2026-10-14T06:06:00.454Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T05:36:42.017Z",
-      "items": 4
+      "at": "2026-10-14T06:06:01.024Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T05:36:42.208Z",
-      "items": 7
+      "at": "2026-10-14T06:06:01.260Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2360,12 +2361,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T05:36:31.007Z",
+      "at": "2026-10-14T06:05:53.981Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T05:36:43.020Z",
+      "at": "2026-10-14T06:06:02.080Z",
       "items": 0
     },
     "hcg": {
@@ -2376,32 +2377,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T05:36:44.865Z",
+      "at": "2026-10-14T06:06:03.525Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T05:36:45.237Z",
+      "at": "2026-10-14T06:06:03.823Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T05:36:45.437Z",
+      "at": "2026-10-14T06:06:04.046Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T05:36:45.708Z",
-      "items": 6
+      "at": "2026-10-14T06:06:04.342Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T05:36:46.078Z",
+      "at": "2026-10-14T06:06:04.701Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T05:36:46.543Z",
+      "at": "2026-10-14T06:06:05.119Z",
       "items": 11
     }
   },
@@ -2427,6 +2428,11 @@
         "title": "Ban on Departures from Piraeus and Lavrio Due to Strong Aegean Winds",
         "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 15; Μεγάλη ομοιότητα με την πηγή (23%)",
         "at": "2026-10-14T05:37:09.893Z"
+      },
+      {
+        "title": "Severe Weather Across Greece: Storms and Winds Up to 10 Beaufort",
+        "reason": "Ίδιο θέμα με «Severe weather alert issued for Evia and the Sporades» – δεν γράφτηκε ξανά",
+        "at": "2026-10-14T06:06:10.419Z"
       }
     ],
     "errors": [],
@@ -2531,16 +2537,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T05:36:53.941Z",
-    "considered": 6,
+    "at": "2026-10-14T06:06:06.492Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· naftemporiki | Τα πρωτοσέλιδα των εφημερίδων σήμερα, Τετάρτη 14 Οκτωβρίου 2026",
-      "✓ gct | Ban on Departures from Piraeus and Lavrio Due to Strong Aegean Winds",
-      "· gct | Aegean Airlines CEO Dimitris Gerogiannis Steps Down; Michalis Kouveliotis Takes Over",
-      "· naftemporiki | Γιατί η Wall Street κινδυνεύει από την άνοδο των αμερικανικών ομολόγων",
-      "· gct | Greek Shipowners Order 12 Tankers from China’s Hengli Shipyard",
-      "· naftemporiki | Το «made by Πολεμικό Ναυτικό» drone καμικάζι «Πυρπολητής» και τα USV Corsair"
+      "· gct | Von der Leyen Outlines Five Priorities for EU Migration Policy",
+      "✓ gct | Severe Weather Across Greece: Storms and Winds Up to 10 Beaufort"
     ]
   },
   "evergreenDone": [
