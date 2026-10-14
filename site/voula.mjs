@@ -7,7 +7,7 @@ import { SEA, ROAD } from "./voula-map.mjs";
 
 const LISTING = "20184685";
 const PRICE = 1230000;
-const WA_TXT = { tr: "Merhaba, Yavanet'te Voula'daki havuzlu dubleksi gördüm, detayları öğrenmek isterim" };
+const WA_TXT = { zh: "您好，我在 Yavanet 上看到了武拉带泳池的复式住宅，想了解详情", tr: "Merhaba, Yavanet'te Voula'daki havuzlu dubleksi gördüm, detayları öğrenmek isterim" };
 const WA = (he, lang) => `https://wa.me/306906723676?text=${encodeURIComponent(WA_TXT[lang] || (he ? "שלום, ראיתי ביוונט את הדופלקס עם הבריכה בוולה ואשמח לקבל פרטים" : "Hi, I saw the Voula maisonette with pool on Yavanet and would like details"))}`;
 const FONTS = "https://fonts.googleapis.com/css2?family=GFS+Didot&family=Playfair+Display:ital,wght@0,400;1,400&family=Frank+Ruhl+Libre:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap";
 
@@ -15,11 +15,11 @@ const HOME = [467, 549];
 const SEA_PT = [442, 563];
 // Σημεία στον χάρτη (συντεταγμένες viewBox)
 const PTS = [
-  { k: "beach", x: 393, y: 497, km: 0.7, he: "חוף וולה", en: "Voula Beach", tr: "Voula Plajı", lx: -14, anchor: "end" },
-  { k: "glyfada", x: 436, y: 349, km: 1.6, he: "מרכז גליפדה", en: "Glyfada centre", tr: "Glyfada merkezi", lx: 16, anchor: "start" },
-  { k: "marina", x: 204, y: 199, km: 3.5, he: "מרינה גליפדה", en: "Glyfada Marina", tr: "Glyfada Marinası", lx: 16, anchor: "start" },
-  { k: "astir", x: 651, y: 1067, km: 4.4, he: "Astir Beach", en: "Astir Beach", tr: "Astir Beach", lx: -16, anchor: "end", ly: -34 },
-  { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", tr: "Vouliagmeni Gölü", lx: -16, anchor: "end", ly: 52 },
+  { k: "beach", x: 393, y: 497, km: 0.7, he: "חוף וולה", en: "Voula Beach", tr: "Voula Plajı", zh: "武拉海滩", lx: -14, anchor: "end" },
+  { k: "glyfada", x: 436, y: 349, km: 1.6, he: "מרכז גליפדה", en: "Glyfada centre", tr: "Glyfada merkezi", zh: "格利法达市中心", lx: 16, anchor: "start" },
+  { k: "marina", x: 204, y: 199, km: 3.5, he: "מרינה גליפדה", en: "Glyfada Marina", tr: "Glyfada Marinası", zh: "格利法达游艇码头", lx: 16, anchor: "start" },
+  { k: "astir", x: 651, y: 1067, km: 4.4, he: "Astir Beach", en: "Astir Beach", tr: "Astir Beach", zh: "Astir 海滩", lx: -16, anchor: "end", ly: -34 },
+  { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", tr: "Vouliagmeni Gölü", zh: "武利亚格梅尼湖", lx: -16, anchor: "end", ly: 52 },
 ];
 // Φωτογραφίες περιοχής: Wikimedia Commons (ελεύθερες άδειες, με αναφορά δημιουργού)
 const WM = (p) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${p}/1280px-${p.split("/").pop()}`;
@@ -132,6 +132,53 @@ const C = {
     formT: "Leave your details and we will get back to you. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, ΓΕΜΗ 172090403000), Yavanet's publisher.",
     disc: "Images are visualizations. Areas from the building permit drawings. Golden Visa and tax information is not legal advice. Map data © OpenStreetMap contributors.",
   },
+  zh: {
+    spons: "赞助内容 · S.F. Properties",
+    eye: "雅典里维埃拉 · 武拉 (Voula)",
+    h1a: "自带泳池的",
+    h1b: "花园别墅",
+    dek: "全新复式住宅，距海不到400米。挑高客厅直通泳池，三间卧室，152平方米私家花园。",
+    price: "价格",
+    gv: "符合黄金签证条件",
+    badge: "GOLDEN VISA · 黄金签证 · ",
+    wa: "WhatsApp 联系我们",
+    see: "查看位置",
+    areaEye: "周边生活",
+    areaH: "海滩、湖泊与游艇码头，近在咫尺",
+    area: [["v1", "武拉海滩", "700米"], ["v2", "武拉海岸线", "不到400米"], ["lake", "武利亚格梅尼湖", "4.9公里"], ["astir", "Astir 海滩日落", "4.4公里"], ["marina", "格利法达游艇码头", "3.5公里"]],
+    locEye: "位置",
+    locH: "大海就在街角",
+    locP: "雷达显示房子周边的一切。距离为从 Alyos 街起算的直线距离。",
+    sea: "大海",
+    seaKm: "不到400米",
+    house: "房子",
+    list: [["大海", "<400", "米"], ["Asklipieio Voulas 有轨电车站", "600", "米"], ["武拉海滩", "700", "米"], ["格利法达市中心", "1.6", "公里"], ["格利法达游艇码头", "3.5", "公里"], ["Astir 海滩，武利亚格梅尼", "4.4", "公里"], ["武利亚格梅尼湖", "4.9", "公里"], ["埃里尼孔公园", "5.8", "公里"], ["宪法广场，雅典市中心", "14.5", "公里"], ["雅典国际机场", "20", "公里"]],
+    factsH: "数字一览",
+    facts: [["152", "m²", "专属使用花园"], ["126.48", "m²", "两层居住面积"], ["3", "", "卧室，其中两间在上层"], ["520", "m²", "地块上仅有两栋住宅"]],
+    galH: "日落之后",
+    galP: "左右滑动",
+    gal: [["voula-living", "挑高客厅"], ["voula-kitchen", "岛台厨房"], ["voula-lounge", "面向泳池的客厅"], ["voula-bedroom", "主卧，直通花园"], ["voula-bath", "主卧卫浴"], ["voula-lawn", "侧花园"], ["voula-pergola", "凉棚下的休憩区"]],
+    lvEye: "房屋剖面",
+    lvH: "三个楼层",
+    lv: [["+2.95", "50.58", "上层", "两间卧室，其中一间带开放式衣帽间和独立卫浴，俯瞰客厅。"], ["±0.00", "75.90", "底层", "挑高客厅直通泳池，岛台厨房，主卧带独立卫浴并可直达花园。"], ["地下室", "32.56", "辅助空间", "可作游戏室、健身房或额外房间。地下车库内设专属车位。"]],
+    gvEye: "黄金签证",
+    gvH: "两项条件均符合",
+    gvP: "在阿提卡大区，通过购房申请黄金签证，需在单一房产投资至少80万欧元，且主要面积不少于120平方米。储藏室和车位不计入。",
+    g1: "价格", g1t: "门槛：800,000 €",
+    g2: "主要面积", g2t: "最低：120 m²",
+    gvNote: "面积依据建筑许可图纸（底层及上层）。签约前请由律师确认。",
+    gvGuide: "黄金签证指南（英文）",
+    taxEye: "时间紧迫",
+    taxH: "购房税可能上涨至五倍",
+    taxP: "希腊宣布计划自2027年1月1日起，将非欧盟买家的房产转让税从3%提高至15%。截至目前，这仍是政府公告，尚未成为法律。",
+    today: "目前 (3%)", from27: "2027年起 (15%)", diff: "差额",
+    days: "天", hrs: "小时", min: "分", sec: "秒", until: "距2027年1月1日",
+    ctaH: "黄昏时分，来亲眼看看",
+    ctaP: "联系我们获取完整图纸并预约看房。海外买家可安排视频看房。",
+    formH: "希望我们联系您？",
+    formT: "留下您的联系方式，我们将以英文回复。说明：您的请求将发送至 S.F. Properties（Spyridon Fikias，房地产经纪人，ΓΕΜΗ 172090403000）。",
+    disc: "图片为效果图。面积依据建筑许可图纸。黄金签证及税务信息不构成法律建议。地图数据 © OpenStreetMap 贡献者。",
+  },
   tr: {
     spons: "Sponsorlu içerik · S.F. Properties",
     eye: "Atina Rivierası · Voula",
@@ -212,7 +259,7 @@ ${dots}
 <circle cx="${HOME[0]}" cy="${HOME[1]}" r="46" fill="url(#vxGlow)"/>
 <circle cx="${HOME[0]}" cy="${HOME[1]}" r="12" fill="#E9B56C"/>
 <text class="vx-home-t" x="${HOME[0] + 26}" y="${HOME[1] - 18}">${esc(c.house)}</text>
-<text class="vx-gulf" x="190" y="760">${lang === "tr" ? "Saronik Körfezi" : he ? "המפרץ הסרוני" : "Saronic Gulf"}</text>
+<text class="vx-gulf" x="190" y="760">${lang === "zh" ? "萨罗尼克湾" : lang === "tr" ? "Saronik Körfezi" : he ? "המפרץ הסרוני" : "Saronic Gulf"}</text>
 </svg>`;
 }
 
@@ -221,7 +268,7 @@ export function voulaShowcase(a, lang) {
   const wa = WA(he, lang);
   const waBtn = (cls, where) => `<a class="vx-btn vx-wa${cls}" href="${esc(wa)}" target="_blank" rel="noopener" data-out="wa-voula-${where}">${icon("wa")}<span>${esc(c.wa)}</span></a>`;
   const tax3 = PRICE * 0.03, tax15 = PRICE * 0.15;
-  return `<link rel="stylesheet" href="${FONTS}">
+  return `<link rel="stylesheet" href="${FONTS}">${lang === "zh" ? `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap">` : ""}
 <style>${CSS}</style>
 <article class="vx" lang="${lang}" data-listing="${LISTING}">
 
@@ -304,7 +351,7 @@ export function voulaShowcase(a, lang) {
   <span class="vx-phone">+30 690 672 3676 · info@sfproperties.gr</span>
 </section>
 
-<div class="vx-form">${formBox(lang === "tr" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
+<div class="vx-form">${formBox(lang === "tr" || lang === "zh" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
 <p class="vx-disc">${esc(c.disc)}</p>
 </article>
 <script>${JS}</script>`;
@@ -316,6 +363,10 @@ const CSS = `
   background:var(--n);color:var(--ink);border-radius:28px;overflow:hidden;margin:8px 0 28px;position:relative;isolation:isolate}
 .vx:lang(he){--disp:"Frank Ruhl Libre","GFS Didot",serif}
 .vx:lang(tr){--disp:"Playfair Display",Georgia,serif}
+.vx:lang(zh){--disp:"Noto Serif SC","Songti SC","SimSun",serif}
+.vx:lang(zh) .vx-l2{font-style:normal;font-weight:600}
+.vx:lang(zh) .vx-kick,.vx:lang(zh) .vx-eye{letter-spacing:.08em}
+.vx:lang(zh) h1,.vx:lang(zh) h2{letter-spacing:.02em}
 .vx *{box-sizing:border-box}
 .vx h1,.vx h2,.vx h3{font-family:var(--disp);font-weight:400;color:var(--ink);letter-spacing:-.01em}
 .vx:lang(he) h1,.vx:lang(he) h2{font-weight:300}
@@ -491,6 +542,8 @@ const CSS = `
   .vx-slab{grid-template-columns:minmax(0,1fr);gap:8px}
   .vx-hero{min-height:620px}
   .vx-badge{width:116px}
+  .vx-hero-in{padding-top:120px}
+  .vx-eye{padding-inline-end:0}
 }
 @media (prefers-reduced-motion:reduce){.vx *{animation:none!important;transition:none!important}.vx.vx-js [data-rv]:not(.in){opacity:1;transform:none}.vx-bar i{width:var(--to)}}
 `;
