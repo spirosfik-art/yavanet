@@ -13,9 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "7d85232ce914": 1790760332499,
-    "8c01de659bf3": 1790760332499,
-    "94c96f717299": 1790760332499,
     "8df26111fb03": 1790762581328,
     "211da393faae": 1790762581328,
     "0c05f18d8dd7": 1790763959164,
@@ -2285,7 +2282,14 @@
     "ceecf3e4c156": 1791969035164,
     "7bd031e060c2": 1791969035164,
     "15f34e056f74": 1791969035164,
-    "c8fde161568d": 1791969035164
+    "c8fde161568d": 1791969035164,
+    "bd1580f559e5": 1791970605691,
+    "08dcb6a5b866": 1791970605691,
+    "80ec4efb0db7": 1791970605691,
+    "cdf534bb2cb6": 1791970605691,
+    "9f723b682873": 1791970605691,
+    "a24ca1f7ae47": 1791970605691,
+    "fa1bcc894e41": 1791970605691
   },
   "pending": {},
   "sourceStatus": {
@@ -2297,12 +2301,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T09:10:23.256Z",
-      "items": 10
+      "at": "2026-10-14T09:35:55.741Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T09:10:23.911Z",
+      "at": "2026-10-14T09:35:56.493Z",
       "items": 2
     },
     "civilprotection": {
@@ -2313,27 +2317,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T09:10:25.933Z",
+      "at": "2026-10-14T09:35:58.957Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T09:10:26.363Z",
+      "at": "2026-10-14T09:35:59.159Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T09:10:27.424Z",
+      "at": "2026-10-14T09:36:00.155Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T09:10:28.310Z",
+      "at": "2026-10-14T09:36:00.978Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T09:10:28.728Z",
+      "at": "2026-10-14T09:36:01.510Z",
       "items": 10
     },
     "toi-greece": {
@@ -2344,23 +2348,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T09:10:29.051Z",
+      "at": "2026-10-14T09:36:02.073Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T09:10:29.422Z",
+      "at": "2026-10-14T09:36:02.862Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T09:10:30.181Z",
-      "items": 4
+      "at": "2026-10-14T09:36:03.143Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T09:10:30.593Z",
-      "items": 3
+      "at": "2026-10-14T09:36:03.541Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2369,12 +2373,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T09:10:24.565Z",
+      "at": "2026-10-14T09:35:57.461Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T09:10:31.282Z",
+      "at": "2026-10-14T09:36:04.220Z",
       "items": 0
     },
     "hcg": {
@@ -2385,33 +2389,38 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T09:10:32.728Z",
+      "at": "2026-10-14T09:36:05.962Z",
       "items": 0
     },
     "gn-civilprotection": {
-      "ok": true,
-      "at": "2026-10-14T09:10:33.017Z",
-      "items": 5
+      "ok": false,
+      "at": "2026-10-14T09:36:14.045Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-pm": {
-      "ok": true,
-      "at": "2026-10-14T09:10:33.165Z",
-      "items": 2
+      "ok": false,
+      "at": "2026-10-14T09:36:19.642Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-10-14T09:10:33.416Z",
-      "items": 7
+      "ok": false,
+      "at": "2026-10-14T09:36:29.501Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-kathimerini": {
-      "ok": true,
-      "at": "2026-10-14T09:10:33.767Z",
-      "items": 7
+      "ok": false,
+      "at": "2026-10-14T09:36:38.415Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-iefimerida": {
-      "ok": true,
-      "at": "2026-10-14T09:10:34.188Z",
-      "items": 9
+      "ok": false,
+      "at": "2026-10-14T09:36:44.662Z",
+      "error": "HTTP 503",
+      "fails": 1
     }
   },
   "tgOffset": 829774786,
@@ -2429,6 +2438,18 @@
         "slug": "severe-weather-greece-october-2026",
         "title": "↻ Severe weather in Rhodes: 112 alert, floods and road closures",
         "at": "2026-10-14T11:37:39+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "orange-rain-warning-east-sterea-evvoia-2",
+        "title": "↻ Severe weather hits Evia: Emergency 112 alert issued for evacuations",
+        "at": "2026-10-14T12:36:59+03:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "orange-rain-warning-east-sterea-evvoia-2",
+        "title": "↻ Greece Weather Update: Orange Alert Issued for Heavy Storms",
+        "at": "2026-10-14T12:37:14+03:00",
         "section": "breaking"
       }
     ],
@@ -2556,15 +2577,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T09:10:35.164Z",
-    "considered": 5,
-    "picked": 1,
+    "at": "2026-10-14T09:36:45.691Z",
+    "considered": 7,
+    "picked": 2,
     "items": [
-      "· gn-hcg | Μηχανική βλάβη Ι/Φ σκάφους στην Πύλο – Εντοπισμός και διάσωση 60 αλλοδαπών στην Ιεράπετρα ",
-      "· minfin | ΕΙΔΟΠΟΙΗΣΗ – ΚΛΗΣΗ σχετικά με την κατάθεση και συζήτηση της με Γ.Α.Κ. 10420/2026 και Α.Κ.Δ",
-      "· gct | Greek Police Bust Network Smuggling Chinese Migrants via Albania and Athens Safehouses",
-      "· gct | Turkish Media Highlight Christodoulides’ First Turkey Visit in a Decade for COP31",
-      "✓ gn-iefimerida | Θεσσαλονίκη: Ανοδική και τον Σεπτέμβριο η επιβατική κίνηση στο αεροδρόμιο «Μακεδονία» - ie"
+      "✓ ingr | Σαρώνει η κακοκαιρία την Εύβοια: Ήχησε το 112 για απομάκρυνση κατοίκων λόγω της υπερχείλισ",
+      "· naftemporiki | Μακρυκάπα Εύβοιας: Μήνυμα του 112 για απομάκρυνση προς Ψαχνά",
+      "· gct | EU Accelerates Break from China with 46 Strategic Projects, Three in Greece",
+      "· naftemporiki | Καιρός: Πώς θα εξελιχθεί η κακοκαιρία – Επικαιροποιήθηκε το έκτακτο δελτίο της ΕΜΥ",
+      "· gct | India’s Defence Secretary Deepens Strategic Partnership During Cyprus Visit",
+      "✓ ingr | Νέο έκτακτο δελτίο επιδείνωσης του καιρού: Ισχυρές καταιγίδες τις επόμενες ώρες σε πέντε π",
+      "· ingr | Νυφούδης – ΕΛΑΣ: Η ΝΔ δεν μπορεί να συγκρατήσει την ακρίβεια – Όλα τα αφηγήματά της έχουν "
     ]
   },
   "evergreenDone": [
