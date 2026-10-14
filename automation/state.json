@@ -13,9 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "9e2a28909c07": 1790810538468,
-    "9313815875e8": 1790810538468,
-    "a6f2c6a3fd98": 1790810538468,
     "317f8c92df34": 1790811293338,
     "56dea28d3d68": 1790816865198,
     "f05d5656ab77": 1790816865198,
@@ -2302,7 +2299,16 @@
     "ff330b4e25bf": 1792018925248,
     "59e3613c62c5": 1792018925248,
     "6d94fd3d8522": 1792018925248,
-    "50fec1a2bf73": 1792018925248
+    "50fec1a2bf73": 1792018925248,
+    "521e5b8f43f4": 1792020737604,
+    "3b635714714e": 1792020737604,
+    "1598bbc74f26": 1792020737604,
+    "e0148d974a9a": 1792020737604,
+    "923fbdeb3a67": 1792020737604,
+    "c20b013530f0": 1792020737604,
+    "bd7a3fd5d401": 1792020737604,
+    "b5c539bfb9cc": 1792020737604,
+    "6a2464322ff7": 1792020737604
   },
   "pending": {},
   "sourceStatus": {
@@ -2314,12 +2320,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T23:01:53.591Z",
+      "at": "2026-10-14T23:32:01.953Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T23:01:54.262Z",
+      "at": "2026-10-14T23:32:02.861Z",
       "items": 1
     },
     "civilprotection": {
@@ -2330,27 +2336,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T23:01:55.920Z",
+      "at": "2026-10-14T23:32:04.526Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T23:01:56.538Z",
+      "at": "2026-10-14T23:32:04.930Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T23:01:57.816Z",
+      "at": "2026-10-14T23:32:05.949Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T23:01:58.449Z",
+      "at": "2026-10-14T23:32:06.653Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T23:01:59.087Z",
+      "at": "2026-10-14T23:32:07.683Z",
       "items": 10
     },
     "toi-greece": {
@@ -2361,22 +2367,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T23:01:59.632Z",
+      "at": "2026-10-14T23:32:08.318Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T23:01:59.932Z",
+      "at": "2026-10-14T23:32:08.565Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T23:02:00.405Z",
+      "at": "2026-10-14T23:32:08.657Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T23:02:00.546Z",
+      "at": "2026-10-14T23:32:08.872Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2386,12 +2392,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T23:01:54.810Z",
+      "at": "2026-10-14T23:32:03.150Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T23:02:01.258Z",
+      "at": "2026-10-14T23:32:09.712Z",
       "items": 0
     },
     "hcg": {
@@ -2402,39 +2408,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T23:02:03.018Z",
+      "at": "2026-10-14T23:32:14.435Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T23:02:03.276Z",
+      "at": "2026-10-14T23:32:14.651Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T23:02:03.424Z",
+      "at": "2026-10-14T23:32:14.810Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T23:02:03.675Z",
-      "items": 7
+      "at": "2026-10-14T23:32:15.077Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T23:02:04.114Z",
+      "at": "2026-10-14T23:32:15.491Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T23:02:04.562Z",
-      "items": 10
+      "at": "2026-10-14T23:32:15.963Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-15",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "chios-airport-closure-2026",
@@ -2447,9 +2453,21 @@
         "title": "↻ Severe weather in Greece: Third storm wave arrives this week",
         "at": "2026-10-15T00:54:21+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-draws-long-haul-interest-autumn-2026",
+        "title": "Greece Maintains Strong Long-Haul Appeal as Autumn Travel Shifts",
+        "at": "2026-10-15T02:32:35+03:00",
+        "section": "travel"
       }
     ],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Israel Returns 22 Antiquities to Greece for First Time",
+        "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
+        "at": "2026-10-14T23:32:21.237Z"
+      }
+    ],
     "errors": [],
     "fb": []
   },
@@ -2552,14 +2570,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T23:02:05.248Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-14T23:32:17.604Z",
+    "considered": 9,
+    "picked": 2,
     "items": [
-      "· gct | Violent Protests Rock Albania as Students Demand PM’s Resignation",
-      "· gct | Greek Star Kostas Tsimikas Captains Liverpool in 6-3 Win",
-      "· gct | Greece Considers French Research Vessel For Undersea Surveys",
-      "· gct | Greece Seeks 30 US Corsair Unmanned Surface Vessels"
+      "· gct | Greek Cypriot-Australian Activist Drew Pavlou Confronted at NYC Palestine Rally",
+      "· gct | Medvedev Powers into Shanghai Masters Quarterfinals with Win over Tsitsipas",
+      "✓ gtp | Greece Draws Long-Haul Interest as European Travel Plans Cool This Autumn",
+      "· gtp | Fraport Greece Airports Handle 5.7 Million Passengers in September",
+      "· gtp | Central Greece Region Signs Tourism Cooperation Deal with India’s TAFI",
+      "✓ gtp | Israel Returns 22 Antiquities to Greece for First Time",
+      "· gtp | Tilos Secures Green Fund Financing for Climate Resilience Plan",
+      "· gtp | Divani Collection Hotels Helps Raise Over €28,000 for Greek Stray Animals",
+      "· gtp | India to Host WTTC Global Summit 2027 in Delhi"
     ]
   },
   "evergreenDone": [
