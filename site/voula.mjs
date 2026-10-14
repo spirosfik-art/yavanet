@@ -20,6 +20,15 @@ const PTS = [
   { k: "astir", x: 651, y: 1067, km: 4.4, he: "Astir Beach", en: "Astir Beach", lx: -16, anchor: "end", ly: -34 },
   { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", lx: -16, anchor: "end", ly: 52 },
 ];
+// Φωτογραφίες περιοχής: Wikimedia Commons (ελεύθερες άδειες, με αναφορά δημιουργού)
+const WM = (p) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${p}/1280px-${p.split("/").pop()}`;
+const AREA = {
+  v1: { src: WM("7/77/Voula_-_panoramio_%289%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(9).jpg" },
+  v2: { src: WM("6/66/Voula_-_panoramio_%286%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(6).jpg" },
+  lake: { src: WM("2/21/Vouliagmeni_lake.jpg"), by: "GeorgeBRAINiac", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Vouliagmeni_lake.jpg" },
+  astir: { src: WM("5/5f/Sunset_at_Astir_Beach%2C_Vouliagmeni%2C_Athens%2C_Greece.jpg"), by: "Vouliagmeni", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Astir_Beach,_Vouliagmeni,_Athens,_Greece.jpg" },
+  marina: { src: WM("0/0e/Glyfada_Marina_-_panoramio_%286%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Glyfada_Marina_-_panoramio_(6).jpg" },
+};
 const SWEEP = 6; // δευτερόλεπτα για έναν γύρο του ραντάρ
 const angle = (p) => { const a = (Math.atan2(p.x - HOME[0], -(p.y - HOME[1])) * 180) / Math.PI; return (a + 360) % 360; };
 
@@ -40,7 +49,10 @@ const C = {
     gv: "מתאים לוויזת זהב",
     badge: "ויזת זהב · GOLDEN VISA · ",
     wa: "שלחו הודעה בוואטסאפ",
-    see: "לדף הנכס",
+    see: "לראות את המיקום",
+    areaEye: "החיים מסביב",
+    areaH: "הים, הלגונה והמרינה, כמה דקות מהבית",
+    area: [["v1","חוף וולה","700 מ׳"],["v2","קו החוף של וולה","פחות מ-400 מ׳"],["lake","אגם ווליאגמני","4.9 ק״מ"],["astir","שקיעה ב-Astir Beach","4.4 ק״מ"],["marina","מרינה גליפדה","3.5 ק״מ"]],
     locEye: "המיקום",
     locH: "הים ממש מעבר לפינה",
     locP: "הסורק מראה מה נמצא סביב הבית. המרחקים בקו אווירי מרחוב אליוס (Alyos).",
@@ -83,7 +95,10 @@ const C = {
     gv: "Golden Visa eligible",
     badge: "GOLDEN VISA · ELIGIBLE · ",
     wa: "Message us on WhatsApp",
-    see: "See the listing",
+    see: "See the location",
+    areaEye: "Life around the house",
+    areaH: "The sea, the lagoon and the marina, minutes away",
+    area: [["v1","Voula Beach","700 m"],["v2","The Voula coastline","under 400 m"],["lake","Lake Vouliagmeni","4.9 km"],["astir","Sunset at Astir Beach","4.4 km"],["marina","Glyfada Marina","3.5 km"]],
     locEye: "Location",
     locH: "The sea is just around the corner",
     locP: "The radar shows what surrounds the house. Straight-line distances from Alyos Street.",
@@ -169,7 +184,7 @@ export function voulaShowcase(a, lang) {
     <h1><span class="vx-l1">${esc(c.h1a)}</span><span class="vx-l2">${esc(c.h1b)}</span></h1>
     <p class="vx-dek">${esc(c.dek)}</p>
     <div class="vx-price"><small>${esc(c.price)}</small><b data-count="${PRICE}" data-fmt="eur">${eur(PRICE, he)}</b></div>
-    <div class="vx-ctas">${waBtn("", "hero")}<a class="vx-btn vx-ghost" href="${P(lang, `/nadlan/${LISTING}/`)}" data-act="open">${esc(c.see)}${icon("arrow")}</a></div>
+    <div class="vx-ctas">${waBtn("", "hero")}<a class="vx-btn vx-ghost" href="#vx-loc">${esc(c.see)}${icon("arrow")}</a></div>
   </div>
   <a class="vx-badge" href="#vx-gv" aria-label="${esc(c.gv)}">
     <svg viewBox="0 0 200 200" aria-hidden="true"><defs><path id="vxCirc" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs><text><textPath href="#vxCirc">${esc(c.badge.repeat(3))}</textPath></text></svg>
@@ -184,6 +199,13 @@ export function voulaShowcase(a, lang) {
     <h2>${esc(c.locH)}</h2>
     <p class="vx-muted">${esc(c.locP)}</p>
     <ol class="vx-dist">${c.list.map(([n, v, u], i) => `<li data-rv style="--i:${i}"><span>${esc(n)}</span><b>${v.startsWith("<") ? esc(v) : `<span data-count="${v}" data-dec="${v.includes(".") ? 1 : 0}">${v}</span>`} <small>${esc(u)}</small></b></li>`).join("")}</ol>
+  </div>
+</section>
+
+<section class="vx-area">
+  <div class="vx-head"><span class="vx-kick">${esc(c.areaEye)}</span><h2>${esc(c.areaH)}</h2></div>
+  <div class="vx-mosaic">
+    ${c.area.map(([k, t, km], i) => { const x = AREA[k]; return `<figure class="vx-tile vx-t${i}" data-rv style="--i:${i}"><img src="${x.src}" alt="${esc(t)}" loading="lazy" referrerpolicy="no-referrer"><figcaption><b>${esc(t)}</b><em>${esc(km)}</em></figcaption><a class="vx-cred" href="${x.url}" target="_blank" rel="noopener">© ${esc(x.by)} · ${esc(x.lic)}</a></figure>`; }).join("")}
   </div>
 </section>
 
@@ -230,7 +252,7 @@ export function voulaShowcase(a, lang) {
 <section class="vx-cta">
   <h2>${esc(c.ctaH)}</h2>
   <p>${esc(c.ctaP)}</p>
-  <div class="vx-ctas">${waBtn(" vx-big", "cta")}<a class="vx-btn vx-ghost" href="${P(lang, `/nadlan/${LISTING}/`)}" data-act="open">${esc(c.see)}${icon("arrow")}</a></div>
+  <div class="vx-ctas">${waBtn(" vx-big", "cta")}</div>
   <span class="vx-phone">+30 690 672 3676 · info@sfproperties.gr</span>
 </section>
 
@@ -320,6 +342,20 @@ const CSS = `
 .vx-dist b{font:500 18px var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}
 .vx-dist b small{color:var(--dim);font-size:13px}
 
+/* area photos */
+.vx-area{background:var(--n)}
+.vx-mosaic{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:clamp(150px,18vw,230px);gap:12px}
+.vx-tile{position:relative;margin:0;border-radius:18px;overflow:hidden;background:var(--n3)}
+.vx-t0{grid-column:span 4;grid-row:span 2}.vx-t1{grid-column:span 2}.vx-t2{grid-column:span 2}.vx-t3{grid-column:span 3}.vx-t4{grid-column:span 3}
+.vx-tile img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.08);transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
+.vx-tile.in img{transform:scale(1)}
+.vx-tile:hover img{transform:scale(1.06)}
+.vx-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(11,22,32,.85));pointer-events:none}
+.vx-tile figcaption{position:absolute;inset-inline:16px;bottom:14px;z-index:1;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.vx-tile figcaption b{font:400 clamp(20px,2.4vw,28px)/1.1 var(--disp);color:var(--ink)}
+.vx-tile figcaption em{font:500 13px var(--mono);font-style:normal;color:var(--pool);white-space:nowrap;direction:ltr;unicode-bidi:isolate}
+.vx-cred{position:absolute;top:10px;inset-inline-end:10px;z-index:1;font:500 10px var(--mono);color:rgba(236,229,216,.7)!important;background:rgba(11,22,32,.55);padding:3px 7px;border-radius:999px;text-decoration:none}
+
 /* facts */
 .vx-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line);padding-block:0!important}
 .vx-fact{padding:clamp(22px,4vw,40px) clamp(10px,2vw,22px);display:grid;gap:8px;border-inline-start:1px solid var(--line)}
@@ -401,6 +437,8 @@ const CSS = `
   .vx-fact:nth-child(3){border-inline-start:0}
   .vx-fact:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .vx-gauges,.vx-taxes{grid-template-columns:minmax(0,1fr)}
+  .vx-mosaic{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:170px}
+  .vx-t0{grid-column:span 2;grid-row:span 2}.vx-t1,.vx-t2{grid-column:span 1}.vx-t3,.vx-t4{grid-column:span 2}
   .vx-slab{grid-template-columns:minmax(0,1fr);gap:8px}
   .vx-hero{min-height:620px}
   .vx-badge{width:116px}
