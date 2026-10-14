@@ -1,0 +1,80 @@
+{
+  "slug": "orange-rain-warning-kyklades",
+  "section": "breaking",
+  "publishedAt": "2026-10-14T17:56:53+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": true,
+  "geo": {
+    "lat": 37,
+    "lng": 25
+  },
+  "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR012"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17264716/pexels-photo-17264716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A nighttime urban scene with heavy rain, people under umbrellas, and brightly lit storefronts.",
+    "credit": "Photo: tu nguyen / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/people-in-a-rain-17264716/",
+    "license": "Pexels License",
+    "fallbackKey": "storm"
+  },
+  "alert": {
+    "he": "אזהרת גשם",
+    "en": "Rain Warning"
+  },
+  "he": {
+    "title": "אזהרת גשם בצבע כתום פורסמה לקויקלאדס ביוון",
+    "seoTitle": "אזהרת גשם ביוון: תחזית מזג אוויר ועדכונים לקויקלאדס",
+    "seoDesc": "השירות המטאורולוגי ביוון פרסם אזהרת גשם ברמה כתומה לאזור קויקלאדות. בדקו את מזג האוויר, הימנעו מנסיעות מיותרות ועקבו אחר הנחיות החירום המקומיות.",
+    "keywords": [
+      "מזג אוויר ביוון",
+      "אזהרת גשם ביוון",
+      "קויקלאדות יוון",
+      "סערה ביוון",
+      "עדכוני מזג אוויר יוון"
+    ],
+    "dek": "רשויות החירום ביוון פרסמו אזהרת מזג אוויר ברמה כתומה לקויקלאדות עקב חשש למשקעים כבדים.",
+    "tldr": [
+      "אזהרת גשם ברמה כתומה פורסמה לאזור קויקלאדות.",
+      "הציבור מתבקש לעקוב אחר הנחיות הרשויות המקומיות.",
+      "מומלץ להימנע מפעילות מחוץ לבית בזמן הסערה."
+    ],
+    "means": "אם אתם נמצאים כרגע באזור קויקלאדות או מתכננים להגיע לשם, הישארו מעודכנים בתחזית מזג האוויר והימנעו מנסיעות לא חיוניות בזמן הגשמים החזקים. מומלץ לבדוק את מצב התחבורה המקומית ולוודא שאתם בקשר עם מקום הלינה שלכם לעדכונים שוטפים.",
+    "body": "## אזהרת מזג אוויר לקויקלאדות\n\nרשויות החירום והמטאורולוגיה ביוון פרסמו אזהרה חמורה ברמה כתומה עבור קויקלאדות. האזהרה מגיעה בעקבות צפי למשקעים כבדים ותנאי מזג אוויר מאתגרים באזור.\n\n## הנחיות לתושבים ולתיירים\n\nהגורמים המוסמכים ממליצים לכל מי שנמצא באזורים המושפעים לנקוט משנה זהירות. יש להקפיד על ההנחיות הבאות:\n\n* לצמצם נסיעות ותנועה בדרכים בזמן שהגשמים בשיאם.\n* להתרחק מאזורים המועדים להצפות או ממקומי מים עולים.\n* להתעדכן באופן שוטף דרך אמצעי התקשורת והרשויות המקומיות.\n\n## מעקב ושירותי חירום\n\nהצוותים המקצועיים ביוון עוקבים מקרוב אחר התפתחות המערכת המטאורולוגית ועומדים הכיון לספק סיוע במידת הצורך. מומלץ לשמור על ערנות ולהישמע להוראות כוחות הצלה והחירום בכל עת."
+  },
+  "en": {
+    "title": "Orange Rain Warning Issued for the Cyclades in Greece",
+    "seoTitle": "Orange Rain Warning Greece: Cyclades Weather Update",
+    "seoDesc": "Greek meteorological authorities issued an orange rain warning for the Cyclades. Check the weather, avoid non-essential travel and stay safe.",
+    "keywords": [
+      "greece rain warning",
+      "cyclades weather",
+      "greece storm alert",
+      "meteoalarm greece",
+      "greece weather update"
+    ],
+    "dek": "Greek weather authorities have issued an orange-level rain warning for the Cyclades region due to expected heavy precipitation.",
+    "tldr": [
+      "An orange rain warning is active for the Cyclades.",
+      "Authorities urge residents and visitors to follow local safety instructions.",
+      "Non-essential travel should be avoided during heavy downpours."
+    ],
+    "means": "If you are currently in the Cyclades or planning to visit, monitor local weather forecasts closely and avoid unnecessary travel during heavy rain. Check local transport updates and stay in touch with your accommodation provider for guidance.",
+    "body": "## Weather Warning for the Cyclades\n\nGreek meteorological authorities have issued a severe orange-level weather warning for the Cyclades. The alert comes as heavy precipitation and challenging weather conditions are expected to affect the area.\n\n## Safety Guidelines for Residents and Visitors\n\nOfficial bodies advise everyone in the affected areas to exercise caution. Recommended precautions include:\n\n* Limiting travel and movement on roads while heavy rain continues.\n* Staying away from flood-prone areas or rising water bodies.\n* Checking for regular updates from local authorities and news outlets.\n\n## Emergency Preparedness\n\nProfessional teams in Greece are closely monitoring the progression of the weather system and remain on standby to provide assistance if needed. Everyone is advised to stay alert and follow instructions from emergency services at all times."
+  },
+  "meta": {
+    "itemId": "82b3d87ee0fa",
+    "imageQuery": "heavy rain storm greece weather",
+    "sourceHash": "9a6137a22f53",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-14T14:56:54.630Z",
+    "official": true
+  }
+}
