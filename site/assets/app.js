@@ -216,6 +216,8 @@ window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=
     addScript("https://www.googletagmanager.com/gtag/js?id=" + C.ga4);
     gtag("js", new Date());
     gtag("config", C.ga4, { anonymize_ip: true, content_group: C.grp || "", site_language: C.lang });
+    // Google Ads (ίδιο gtag.js): κοινά επαναστόχευσης και σήματα για τις καμπάνιες. Σέβεται το Consent Mode (χωρίς cookies χωρίς «Αποδοχή»).
+    if (C.aw) gtag("config", C.aw);
   }
   function applyConsent(c) {
     gtag("consent", "update", { analytics_storage: c.stats ? "granted" : "denied", ad_storage: c.ads ? "granted" : "denied", ad_user_data: c.ads ? "granted" : "denied", ad_personalization: c.ads ? "granted" : "denied" });
