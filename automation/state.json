@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "0c05f18d8dd7": 1790763959164,
     "154f8b8f5cc7": 1790765597206,
     "d993dbdeac5c": 1790766143300,
     "1fbc5b0ccdbf": 1790766143300,
@@ -2295,7 +2294,11 @@
     "07dcc6880021": 1791972519088,
     "b8291ca056b5": 1791972519088,
     "e14345696913": 1791972519088,
-    "a1f7e03cafa0": 1791972519088
+    "a1f7e03cafa0": 1791972519088,
+    "59dea648a93b": 1791974325364,
+    "39eece8dd8b4": 1791974325364,
+    "52cf989095b7": 1791974325364,
+    "c3d359077b31": 1791974325364
   },
   "pending": {},
   "sourceStatus": {
@@ -2307,12 +2310,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T10:08:25.777Z",
+      "at": "2026-10-14T10:38:34.797Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T10:08:26.665Z",
+      "at": "2026-10-14T10:38:35.389Z",
       "items": 2
     },
     "civilprotection": {
@@ -2323,27 +2326,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T10:08:29.192Z",
+      "at": "2026-10-14T10:38:36.858Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T10:08:29.555Z",
+      "at": "2026-10-14T10:38:37.223Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T10:08:30.623Z",
+      "at": "2026-10-14T10:38:38.388Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T10:08:31.566Z",
-      "items": 1
+      "at": "2026-10-14T10:38:39.106Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T10:08:32.476Z",
+      "at": "2026-10-14T10:38:39.911Z",
       "items": 10
     },
     "toi-greece": {
@@ -2354,23 +2357,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T10:08:33.230Z",
-      "items": 0
+      "at": "2026-10-14T10:38:40.373Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T10:08:33.292Z",
+      "at": "2026-10-14T10:38:40.457Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T10:08:34.181Z",
-      "items": 7
+      "at": "2026-10-14T10:38:40.639Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T10:08:34.372Z",
-      "items": 4
+      "at": "2026-10-14T10:38:40.780Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2379,12 +2382,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T10:08:27.338Z",
+      "at": "2026-10-14T10:38:35.827Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T10:08:35.155Z",
+      "at": "2026-10-14T10:38:41.601Z",
       "items": 0
     },
     "hcg": {
@@ -2395,32 +2398,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T10:08:36.217Z",
+      "at": "2026-10-14T10:38:42.877Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T10:08:36.428Z",
+      "at": "2026-10-14T10:38:43.099Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T10:08:36.672Z",
+      "at": "2026-10-14T10:38:43.334Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T10:08:36.830Z",
-      "items": 7
+      "at": "2026-10-14T10:38:43.600Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T10:08:37.189Z",
+      "at": "2026-10-14T10:38:43.981Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T10:08:37.637Z",
+      "at": "2026-10-14T10:38:44.436Z",
       "items": 10
     }
   },
@@ -2480,6 +2483,11 @@
         "title": "Θεσσαλονίκη: Ανοδική και τον Σεπτέμβριο η επιβατική κίνηση στο αεροδρόμιο «Μακεδονία» - iefimerida.gr",
         "reason": "Rule 8 & Source Verification: The article adds facts not present in the source text, specifically mentioning direct flights from Israel (\"כולל טיסות ישירות מישראל\" / \"direct connections from Israel\"), city breaks, cultural tourism, business travel, and specific travel tips which do not appear in the",
         "at": "2026-10-14T09:10:53.497Z"
+      },
+      {
+        "title": "Ρόδος: Δραματικές εικόνες από την κακοκαιρία – Αυτοκίνητα παρασύρθηκαν από τα νερά",
+        "reason": "Ίδιο θέμα με «Severe weather in Rhodes: 112 alert, floods and road closures» – δεν γράφτηκε ξανά",
+        "at": "2026-10-14T10:38:49.620Z"
       }
     ],
     "errors": [],
@@ -2588,16 +2596,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T10:08:39.088Z",
-    "considered": 6,
+    "at": "2026-10-14T10:38:45.364Z",
+    "considered": 4,
     "picked": 1,
     "items": [
-      "✓ gct | Greece Advances Co-Production Talks on Israeli LORA Ballistic Missiles as Range Hits 500+ ",
-      "· naftemporiki | Συνάντηση Όλγας Κεφαλογιάννη με την ηγεσία της UNESCO στο Παρίσι",
-      "· minfin | Νίκος Παπαθανάσης: 9 εκ. ευρώ για την κατασκευή νέου κτιρίου Ογκολογικής Μονάδας-Κλινικών ",
-      "· minfin | Πρόσκληση για γνωστοποίηση στοιχείων",
-      "· gct | Ambassador Alison Duncan Receives Prestigious Orthodox Honour in Athens",
-      "· ert | Θεσσαλονίκη: Αιγύπτιοι τουριστικοί πράκτορες στην Κεντρική Μακεδονία για άνοιγμα σε νέες α"
+      "· ingr | Οι Χούθι απειλούν με περισσότερες επιθέσεις σε αεροδρόμια και πετρελαϊκές εγκαταστάσεις τη",
+      "✓ naftemporiki | Ρόδος: Δραματικές εικόνες από την κακοκαιρία – Αυτοκίνητα παρασύρθηκαν από τα νερά",
+      "· gct | India Defence Secretary Rajesh Kumar Singh Visits Greece and Cyprus to Boost IMEC and Mari",
+      "· ert | Τουρκία: Εντοπίστηκε το αρχαιότερο ναυάγιο στον κόσμο – Ευρήματα 4.700 ετών με πιθανό προο"
     ]
   },
   "evergreenDone": [
