@@ -327,14 +327,14 @@ export function voulaShowcase(a, lang) {
   ${c.facts.map(([n, u, l], i) => `<div class="vx-fact" data-rv style="--i:${i}"><b><span data-count="${n}" data-dec="${n.includes(".") ? 2 : 0}">${n}</span>${u ? `<small>${esc(u)}</small>` : ""}</b><span>${esc(l)}</span></div>`).join("")}
 </section>
 
-<section class="vx-gal">
+<section class="vx-gal" id="vx-photos">
   <div class="vx-head"><span class="vx-kick">${esc(c.galP)} →</span><h2>${esc(c.galH)}</h2></div>
   <div class="vx-strip" tabindex="0">
     ${c.gal.map(([f, cap], i) => `<figure data-rv style="--i:${i}"><img src="/${f}.jpg" alt="${esc(cap)}" loading="lazy" width="556" height="748"><figcaption><em>${String(i + 1).padStart(2, "0")}</em>${esc(cap)}</figcaption></figure>`).join("")}
   </div>
 </section>
 
-<section class="vx-lv">
+<section class="vx-lv" id="vx-plan">
   <div class="vx-head"><span class="vx-kick">${esc(c.lvEye || (he ? "חתך הבית" : "Section through the house"))}</span><h2>${esc(c.lvH)}</h2></div>
   <div class="vx-stack">
     ${c.lv.map(([el, ar, t, d], i) => `<div class="vx-slab vx-slab${i}" data-rv style="--i:${i}"><span class="vx-el">${esc(el)}</span><div><b><span data-count="${ar}" data-dec="2">${ar}</span><small>${he ? "מ\"ר" : "m²"}</small></b><h3>${esc(t)}</h3><p>${esc(d)}</p></div></div>`).join("")}
