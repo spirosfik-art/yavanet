@@ -13,10 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "21df7e9ca549": 1790808665857,
-    "8d18b750fb82": 1790808665857,
-    "f3efe2e25abd": 1790809289761,
-    "efdfb09efe4f": 1790809289761,
     "9e2a28909c07": 1790810538468,
     "9313815875e8": 1790810538468,
     "a6f2c6a3fd98": 1790810538468,
@@ -2302,7 +2298,11 @@
     "de24c72de6c2": 1792016042317,
     "3d7db48ac63c": 1792017593172,
     "45144ca4487c": 1792017593172,
-    "8d0de510967c": 1792017593172
+    "8d0de510967c": 1792017593172,
+    "ff330b4e25bf": 1792018925248,
+    "59e3613c62c5": 1792018925248,
+    "6d94fd3d8522": 1792018925248,
+    "50fec1a2bf73": 1792018925248
   },
   "pending": {},
   "sourceStatus": {
@@ -2314,12 +2314,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T22:39:31.164Z",
-      "items": 0
+      "at": "2026-10-14T23:01:53.591Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T22:39:31.968Z",
+      "at": "2026-10-14T23:01:54.262Z",
       "items": 1
     },
     "civilprotection": {
@@ -2330,27 +2330,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T22:39:33.877Z",
+      "at": "2026-10-14T23:01:55.920Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T22:39:34.404Z",
+      "at": "2026-10-14T23:01:56.538Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T22:39:35.493Z",
+      "at": "2026-10-14T23:01:57.816Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T22:39:36.160Z",
+      "at": "2026-10-14T23:01:58.449Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T22:39:37.238Z",
+      "at": "2026-10-14T23:01:59.087Z",
       "items": 10
     },
     "toi-greece": {
@@ -2361,22 +2361,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T22:39:37.755Z",
+      "at": "2026-10-14T23:01:59.632Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T22:39:38.053Z",
+      "at": "2026-10-14T23:01:59.932Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T22:39:38.334Z",
+      "at": "2026-10-14T23:02:00.405Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T22:39:38.510Z",
+      "at": "2026-10-14T23:02:00.546Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2386,12 +2386,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T22:39:32.853Z",
+      "at": "2026-10-14T23:01:54.810Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T22:39:39.223Z",
+      "at": "2026-10-14T23:02:01.258Z",
       "items": 0
     },
     "hcg": {
@@ -2402,33 +2402,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T22:39:40.795Z",
+      "at": "2026-10-14T23:02:03.018Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T22:39:41.047Z",
+      "at": "2026-10-14T23:02:03.276Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T22:39:41.191Z",
+      "at": "2026-10-14T23:02:03.424Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T22:39:41.440Z",
+      "at": "2026-10-14T23:02:03.675Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T22:39:41.800Z",
+      "at": "2026-10-14T23:02:04.114Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T22:39:42.160Z",
-      "items": 9
+      "at": "2026-10-14T23:02:04.562Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2552,13 +2552,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T22:39:53.172Z",
-    "considered": 3,
+    "at": "2026-10-14T23:02:05.248Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Greece Launches Eastern Europe’s Largest Energy Storage Facility",
-      "· gct | British Museum Chairman Optimistic on Parthenon Sculptures Deal",
-      "· gn-iefimerida | Έρχεται τρίτο κύμα κακοκαιρίας μέσα στην εβδομάδα -Πότε θα χτυπήσει, η πρόγνωση του Καντερ"
+      "· gct | Violent Protests Rock Albania as Students Demand PM’s Resignation",
+      "· gct | Greek Star Kostas Tsimikas Captains Liverpool in 6-3 Win",
+      "· gct | Greece Considers French Research Vessel For Undersea Surveys",
+      "· gct | Greece Seeks 30 US Corsair Unmanned Surface Vessels"
     ]
   },
   "evergreenDone": [
