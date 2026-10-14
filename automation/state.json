@@ -1,10 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "681d7969c108": 1790742333272,
-    "b37efe5c3d1e": 1790743077390,
-    "f55108151053": 1790743077390,
-    "ed3556b12c26": 1790743077390,
     "c6b138dac512": 1790743937164,
     "d5161edd593d": 1790744553678,
     "3a4f128ecaf1": 1790744553678,
@@ -2276,7 +2272,11 @@
     "a4bcb8539fa4": 1791950913907,
     "8c2d3bb988a1": 1791950913907,
     "436bf7a7886d": 1791950913907,
-    "940460598959": 1791950913907
+    "940460598959": 1791950913907,
+    "60d3a3524e8f": 1791952747175,
+    "ff3ed0754ffa": 1791952747175,
+    "95483dc0d7d3": 1791952747175,
+    "d4193d3b0f87": 1791952747175
   },
   "pending": {
     "5d9279": {
@@ -2392,12 +2392,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T04:08:22.906Z",
+      "at": "2026-10-14T04:38:57.658Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T04:08:23.628Z",
+      "at": "2026-10-14T04:38:58.256Z",
       "items": 2
     },
     "civilprotection": {
@@ -2408,27 +2408,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T04:08:25.540Z",
+      "at": "2026-10-14T04:38:59.822Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T04:08:25.769Z",
+      "at": "2026-10-14T04:39:00.021Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T04:08:26.773Z",
+      "at": "2026-10-14T04:39:00.810Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T04:08:27.618Z",
+      "at": "2026-10-14T04:39:01.445Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T04:08:28.378Z",
+      "at": "2026-10-14T04:39:01.874Z",
       "items": 10
     },
     "toi-greece": {
@@ -2439,23 +2439,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T04:08:28.968Z",
+      "at": "2026-10-14T04:39:02.240Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T04:08:29.114Z",
+      "at": "2026-10-14T04:39:02.311Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T04:08:29.621Z",
-      "items": 5
+      "at": "2026-10-14T04:39:02.493Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T04:08:29.811Z",
-      "items": 3
+      "at": "2026-10-14T04:39:02.603Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2464,12 +2464,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T04:08:24.172Z",
+      "at": "2026-10-14T04:38:58.779Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T04:08:30.489Z",
+      "at": "2026-10-14T04:39:03.014Z",
       "items": 0
     },
     "hcg": {
@@ -2480,32 +2480,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T04:08:31.857Z",
+      "at": "2026-10-14T04:39:04.455Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T04:08:32.078Z",
+      "at": "2026-10-14T04:39:04.629Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T04:08:32.227Z",
+      "at": "2026-10-14T04:39:04.923Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T04:08:32.420Z",
+      "at": "2026-10-14T04:39:05.244Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T04:08:32.759Z",
+      "at": "2026-10-14T04:39:05.624Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T04:08:33.196Z",
+      "at": "2026-10-14T04:39:06.028Z",
       "items": 13
     }
   },
@@ -2617,15 +2617,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T04:08:33.907Z",
-    "considered": 5,
+    "at": "2026-10-14T04:39:07.175Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· naftemporiki | Σε στάση αναμονής οι traders",
-      "· gct | Greece Issues Emergency Weather Alert for Aegean Islands",
-      "· gct | French Star Fanny Ardant Honours Messolonghi Exodus Anniversary",
-      "· gn-kathimerini | Σε αυξημένη επιφυλακή λόγω κακοκαιρίας - Kathimerini",
-      "· ingr | Σε εξέλιξη η κακοκαιρία με ισχυρές καταιγίδες, χαλάζι και χιόνια – 112 στη Σκιάθο, προβλήμ"
+      "· gct | Greece Offers €10,000 to Move to Remote Areas – Applications Now Open",
+      "· gct | Greek Health Minister Rejects Anti-Israel Protests as Antisemitic Propaganda",
+      "· gct | Crete Fertility Clinic Loses Melbourne Woman’s Four Embryos Ahead of Major Trial",
+      "· naftemporiki | Κακοκαιρία: Ισχυρές καταιγίδες και άνεμοι 10 μποφόρ – Ποιες περιοχές θα βρεθούν στο επίκεν"
     ]
   },
   "evergreenDone": [
