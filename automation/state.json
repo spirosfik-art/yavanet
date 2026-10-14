@@ -1,11 +1,6 @@
 {
   "paused": false,
   "seen": {
-    "9f4547f19821": 1790745902765,
-    "fe3b7e6f685f": 1790745902765,
-    "9b2532907ef8": 1790746609216,
-    "b6df7cc6a3cd": 1790746609216,
-    "e4a654f6dc3e": 1790746609216,
     "7fb55f4dd4a5": 1790748114825,
     "df7fa80d2367": 1790749795056,
     "47a51c456d5e": 1790750830505,
@@ -2275,7 +2270,13 @@
     "95483dc0d7d3": 1791952747175,
     "d4193d3b0f87": 1791952747175,
     "369cf9e909f6": 1791954459634,
-    "8857cad9bec6": 1791954459634
+    "8857cad9bec6": 1791954459634,
+    "8344e699a280": 1791956213941,
+    "067b189e0c02": 1791956213941,
+    "af91360b6df1": 1791956213941,
+    "d1d64f8b866d": 1791956213941,
+    "6471d110e777": 1791956213941,
+    "fda8a7873084": 1791956213941
   },
   "pending": {},
   "sourceStatus": {
@@ -2287,12 +2288,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T05:07:16.782Z",
+      "at": "2026-10-14T05:36:29.413Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T05:07:17.512Z",
+      "at": "2026-10-14T05:36:30.305Z",
       "items": 2
     },
     "civilprotection": {
@@ -2303,27 +2304,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T05:07:20.117Z",
+      "at": "2026-10-14T05:36:32.654Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T05:07:31.686Z",
+      "at": "2026-10-14T05:36:37.260Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T05:07:32.740Z",
+      "at": "2026-10-14T05:36:38.472Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T05:07:33.569Z",
+      "at": "2026-10-14T05:36:39.403Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T05:07:34.266Z",
+      "at": "2026-10-14T05:36:40.257Z",
       "items": 10
     },
     "toi-greece": {
@@ -2334,23 +2335,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T05:07:34.803Z",
+      "at": "2026-10-14T05:36:40.889Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T05:07:35.089Z",
+      "at": "2026-10-14T05:36:41.150Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T05:07:35.579Z",
+      "at": "2026-10-14T05:36:42.017Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T05:07:35.822Z",
-      "items": 5
+      "at": "2026-10-14T05:36:42.208Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2359,12 +2360,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T05:07:18.231Z",
+      "at": "2026-10-14T05:36:31.007Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T05:07:36.415Z",
+      "at": "2026-10-14T05:36:43.020Z",
       "items": 0
     },
     "hcg": {
@@ -2375,33 +2376,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T05:07:37.549Z",
+      "at": "2026-10-14T05:36:44.865Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T05:07:37.740Z",
+      "at": "2026-10-14T05:36:45.237Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T05:07:37.882Z",
+      "at": "2026-10-14T05:36:45.437Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T05:07:38.167Z",
-      "items": 7
+      "at": "2026-10-14T05:36:45.708Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T05:07:38.492Z",
+      "at": "2026-10-14T05:36:46.078Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T05:07:38.864Z",
-      "items": 12
+      "at": "2026-10-14T05:36:46.543Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2421,6 +2422,11 @@
         "title": "Israel Returns 22 Ancient Artefacts to Greece in Historic First",
         "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
         "at": "2026-10-13T22:35:47.196Z"
+      },
+      {
+        "title": "Ban on Departures from Piraeus and Lavrio Due to Strong Aegean Winds",
+        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 15; Μεγάλη ομοιότητα με την πηγή (23%)",
+        "at": "2026-10-14T05:37:09.893Z"
       }
     ],
     "errors": [],
@@ -2525,12 +2531,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T05:07:39.634Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-14T05:36:53.941Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Vodafone: Πρόγραμμα αναβάθμισης δικτύου με 15 εκατ.",
-      "· gn-iefimerida | Η κακοκαιρία δείχνει και σήμερα τα «δόντια» της -«Red Code» σε 8 περιοχές, ισχυροί άνεμοι "
+      "· naftemporiki | Τα πρωτοσέλιδα των εφημερίδων σήμερα, Τετάρτη 14 Οκτωβρίου 2026",
+      "✓ gct | Ban on Departures from Piraeus and Lavrio Due to Strong Aegean Winds",
+      "· gct | Aegean Airlines CEO Dimitris Gerogiannis Steps Down; Michalis Kouveliotis Takes Over",
+      "· naftemporiki | Γιατί η Wall Street κινδυνεύει από την άνοδο των αμερικανικών ομολόγων",
+      "· gct | Greek Shipowners Order 12 Tankers from China’s Hengli Shipyard",
+      "· naftemporiki | Το «made by Πολεμικό Ναυτικό» drone καμικάζι «Πυρπολητής» και τα USV Corsair"
     ]
   },
   "evergreenDone": [
