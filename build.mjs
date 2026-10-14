@@ -275,6 +275,18 @@ ${newsletterBox(lang)}
       image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
   });
 
+  /* Τουρκική εκδοχή της βιτρίνας Βούλας (/tr/a/<slug>/) για τις διαφημίσεις στην Τουρκία.
+     Χρησιμοποιεί τη διάταξη του αγγλικού (cookies, analytics, ειδοποιήσεις WhatsApp) αλλά κρύβει το μενού του Yavanet. */
+  for (const a of articles.filter((x) => x.showcase === "voula")) {
+    const url = `/tr/a/${a.slug}/`;
+    const trTitle = "Voula'da özel havuzlu bahçeli dubleks, denize 400 m: Golden Visa'ya uygun";
+    const trDesc = "Atina Rivierası'nda yeni yapı dubleks: 1.230.000 €, 3 yatak odası, 152 m² bahçe ve özel havuz. Golden Visa'ya uygun.";
+    const alt = `<meta property="og:locale" content="tr_TR"><link rel="alternate" hreflang="tr" href="${abs(url)}"><link rel="alternate" hreflang="en" href="${abs(`/en/a/${a.slug}/`)}"><link rel="alternate" hreflang="he" href="${abs(`/a/${a.slug}/`)}">`;
+    const html = layout({ lang: "en", title: trTitle, seoTitle: "Voula'da havuzlu dubleks, Golden Visa'ya uygun | Yavanet", description: trDesc, path: url, altPath: `/en/a/${a.slug}/`, ogType: "article", image: photoOf(a), head: alt,
+      body: voulaShowcase(a, "tr") + `<style>.sky,.flashbar,.chips,.bnav,.wafloat,.skip{display:none!important}</style>` });
+    write(url, html.replace('<html lang="en"', '<html lang="tr"'));
+  }
+
   /* Εργαλεία */
   const tools = `<div class="page-h"><h1>${esc(t.toolsTitle)}</h1></div>
 <div class="grid"><div class="col">

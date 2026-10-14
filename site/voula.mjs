@@ -7,18 +7,19 @@ import { SEA, ROAD } from "./voula-map.mjs";
 
 const LISTING = "20184685";
 const PRICE = 1230000;
-const WA = (he) => `https://wa.me/306906723676?text=${encodeURIComponent(he ? "שלום, ראיתי ביוונט את הדופלקס עם הבריכה בוולה ואשמח לקבל פרטים" : "Hi, I saw the Voula maisonette with pool on Yavanet and would like details")}`;
-const FONTS = "https://fonts.googleapis.com/css2?family=GFS+Didot&family=Frank+Ruhl+Libre:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap";
+const WA_TXT = { tr: "Merhaba, Yavanet'te Voula'daki havuzlu dubleksi gördüm, detayları öğrenmek isterim" };
+const WA = (he, lang) => `https://wa.me/306906723676?text=${encodeURIComponent(WA_TXT[lang] || (he ? "שלום, ראיתי ביוונט את הדופלקס עם הבריכה בוולה ואשמח לקבל פרטים" : "Hi, I saw the Voula maisonette with pool on Yavanet and would like details"))}`;
+const FONTS = "https://fonts.googleapis.com/css2?family=GFS+Didot&family=Playfair+Display:ital,wght@0,400;1,400&family=Frank+Ruhl+Libre:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap";
 
 const HOME = [467, 549];
 const SEA_PT = [442, 563];
 // Σημεία στον χάρτη (συντεταγμένες viewBox)
 const PTS = [
-  { k: "beach", x: 393, y: 497, km: 0.7, he: "חוף וולה", en: "Voula Beach", lx: -14, anchor: "end" },
-  { k: "glyfada", x: 436, y: 349, km: 1.6, he: "מרכז גליפדה", en: "Glyfada centre", lx: 16, anchor: "start" },
-  { k: "marina", x: 204, y: 199, km: 3.5, he: "מרינה גליפדה", en: "Glyfada Marina", lx: 16, anchor: "start" },
-  { k: "astir", x: 651, y: 1067, km: 4.4, he: "Astir Beach", en: "Astir Beach", lx: -16, anchor: "end", ly: -34 },
-  { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", lx: -16, anchor: "end", ly: 52 },
+  { k: "beach", x: 393, y: 497, km: 0.7, he: "חוף וולה", en: "Voula Beach", tr: "Voula Plajı", lx: -14, anchor: "end" },
+  { k: "glyfada", x: 436, y: 349, km: 1.6, he: "מרכז גליפדה", en: "Glyfada centre", tr: "Glyfada merkezi", lx: 16, anchor: "start" },
+  { k: "marina", x: 204, y: 199, km: 3.5, he: "מרינה גליפדה", en: "Glyfada Marina", tr: "Glyfada Marinası", lx: 16, anchor: "start" },
+  { k: "astir", x: 651, y: 1067, km: 4.4, he: "Astir Beach", en: "Astir Beach", tr: "Astir Beach", lx: -16, anchor: "end", ly: -34 },
+  { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", tr: "Vouliagmeni Gölü", lx: -16, anchor: "end", ly: 52 },
 ];
 // Φωτογραφίες περιοχής: Wikimedia Commons (ελεύθερες άδειες, με αναφορά δημιουργού)
 const WM = (p) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${p}/1280px-${p.split("/").pop()}`;
@@ -131,6 +132,53 @@ const C = {
     formT: "Leave your details and we will get back to you. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, ΓΕΜΗ 172090403000), Yavanet's publisher.",
     disc: "Images are visualizations. Areas from the building permit drawings. Golden Visa and tax information is not legal advice. Map data © OpenStreetMap contributors.",
   },
+  tr: {
+    spons: "Sponsorlu içerik · S.F. Properties",
+    eye: "Atina Rivierası · Voula",
+    h1a: "Kendi havuzu olan",
+    h1b: "bahçeli bir ev",
+    dek: "Denize 400 metreden kısa mesafede yeni yapı bir dubleks. Havuza açılan çift yükseklikte salon, üç yatak odası ve 152 m² özel bahçe.",
+    price: "Fiyat",
+    gv: "Golden Visa'ya uygun",
+    badge: "GOLDEN VISA · UYGUN · ",
+    wa: "WhatsApp'tan yazın",
+    see: "Konumu görün",
+    areaEye: "Evin çevresindeki hayat",
+    areaH: "Deniz, göl ve marina, birkaç dakika uzakta",
+    area: [["v1", "Voula Plajı", "700 m"], ["v2", "Voula sahili", "400 m'den az"], ["lake", "Vouliagmeni Gölü", "4,9 km"], ["astir", "Astir Beach'te gün batımı", "4,4 km"], ["marina", "Glyfada Marinası", "3,5 km"]],
+    locEye: "Konum",
+    locH: "Deniz hemen köşede",
+    locP: "Radar, evin çevresinde neler olduğunu gösteriyor. Mesafeler Alyos Sokağı'ndan kuş uçuşu.",
+    sea: "Deniz",
+    seaKm: "400 m'den az",
+    house: "Ev",
+    list: [["Deniz", "<400", "m"], ["Asklipieio Voulas tramvay durağı", "600", "m"], ["Voula Plajı", "700", "m"], ["Glyfada merkezi", "1.6", "km"], ["Glyfada Marinası", "3.5", "km"], ["Astir Beach, Vouliagmeni", "4.4", "km"], ["Vouliagmeni Gölü", "4.9", "km"], ["Ellinikon Parkı", "5.8", "km"], ["Sintagma, Atina merkezi", "14.5", "km"], ["Atina Uluslararası Havalimanı", "20", "km"]],
+    factsH: "Rakamlarla",
+    facts: [["152", "m²", "Özel kullanımlı bahçe"], ["126.48", "m²", "İki katta yaşam alanı"], ["3", "", "Yatak odası, ikisi üst katta"], ["520", "m²", "Yalnızca iki evin bulunduğu arsa"]],
+    galH: "Gün batımından sonra",
+    galP: "Yana kaydırın",
+    gal: [["voula-living", "Çift yükseklikte salon"], ["voula-kitchen", "Adalı mutfak"], ["voula-lounge", "Havuza bakan salon"], ["voula-bedroom", "Bahçeye çıkışlı ebeveyn yatak odası"], ["voula-bath", "Ebeveyn banyosu"], ["voula-lawn", "Yan bahçe"], ["voula-pergola", "Pergola altında oturma alanı"]],
+    lvEye: "Evin kesiti",
+    lvH: "Üç kat",
+    lv: [["+2.95", "50.58", "Üst kat", "İki yatak odası; biri açık giyinme odalı ve kendi banyolu, salona bakıyor."], ["±0.00", "75.90", "Zemin kat", "Havuza açılan çift yükseklikte salon, adalı mutfak, banyolu ve bahçeye çıkışlı ebeveyn yatak odası."], ["Bodrum", "32.56", "Yardımcı alan", "Oyun odası, spor salonu veya ek oda. Kapalı otoparkta park yeri."]],
+    gvEye: "Golden Visa",
+    gvH: "İki şartı da karşılıyor",
+    gvP: "Attika'da gayrimenkul yoluyla Golden Visa için tek bir mülke en az 800.000 € yatırım ve en az 120 m² ana alan gerekir. Depo ve otopark sayılmaz.",
+    g1: "Fiyat", g1t: "Eşik: 800.000 €",
+    g2: "Ana alanlar", g2t: "Asgari: 120 m²",
+    gvNote: "Alanlar ruhsat çizimlerine göredir (zemin kat ve üst kat). İmzadan önce bir avukata teyit ettirin.",
+    gvGuide: "Golden Visa rehberi (İngilizce)",
+    taxEye: "Zaman daralıyor",
+    taxH: "Tapu vergisi beş katına çıkabilir",
+    taxP: "Yunanistan, AB dışından alıcılar için tapu devir vergisini 1 Ocak 2027'den itibaren %3'ten %15'e çıkarmayı planladığını açıkladı. Bugün itibarıyla bu bir açıklamadır, henüz yasa değildir.",
+    today: "Bugün (%3)", from27: "2027'den itibaren (%15)", diff: "Fark",
+    days: "gün", hrs: "saat", min: "dk", sec: "sn", until: "1 Ocak 2027'ye kadar",
+    ctaH: "Gün batımında gelip görün",
+    ctaP: "Bize yazın; tam çizimleri gönderelim ve ziyaret ayarlayalım. Türkiye'den video ile uzaktan tur da mümkün.",
+    formH: "Sizi arayalım mı?",
+    formT: "Bilgilerinizi bırakın, size İngilizce dönüş yapalım. Bilgilendirme: talebiniz S.F. Properties'e (Spyridon Fikias, emlak danışmanı, ΓΕΜΗ 172090403000) iletilir.",
+    disc: "Görseller tasarım çalışmasıdır. Alanlar inşaat ruhsatı çizimlerine göredir. Golden Visa ve vergi bilgileri hukuki tavsiye değildir. Harita verileri © OpenStreetMap katkıda bulunanlar.",
+  },
 };
 
 const eur = (n, he) => (he ? n.toLocaleString("en-US") + " €" : "€" + n.toLocaleString("en-US"));
@@ -142,7 +190,7 @@ function radarMap(lang) {
     const tx = p.x + p.lx, ty = p.y + (p.ly || 6);
     return `<g class="vx-poi" style="--d:${d}s"><circle class="vx-poi-glow" cx="${p.x}" cy="${p.y}" r="22"/><circle class="vx-poi-dot" cx="${p.x}" cy="${p.y}" r="9"/><text x="${tx}" y="${ty}" text-anchor="${p.anchor}" class="vx-poi-t">${esc(p[lang])}</text><text x="${tx}" y="${ty + 36}" text-anchor="${p.anchor}" class="vx-poi-k">${p.km} ${he ? "ק״מ" : "km"}</text></g>`;
   }).join("");
-  return `<svg class="vx-map" viewBox="140 160 760 960" role="img" aria-label="${esc(c.locH)}">
+  return `<svg class="vx-map" viewBox="140 160 760 1030" role="img" aria-label="${esc(c.locH)}">
 <defs>
   <radialGradient id="vxGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E9B56C" stop-opacity=".55"/><stop offset="1" stop-color="#E9B56C" stop-opacity="0"/></radialGradient>
   <linearGradient id="vxSweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E9B56C" stop-opacity="0"/><stop offset="1" stop-color="#E9B56C" stop-opacity=".38"/></linearGradient>
@@ -164,13 +212,13 @@ ${dots}
 <circle cx="${HOME[0]}" cy="${HOME[1]}" r="46" fill="url(#vxGlow)"/>
 <circle cx="${HOME[0]}" cy="${HOME[1]}" r="12" fill="#E9B56C"/>
 <text class="vx-home-t" x="${HOME[0] + 26}" y="${HOME[1] - 18}">${esc(c.house)}</text>
-<text class="vx-gulf" x="190" y="760">${he ? "המפרץ הסרוני" : "Saronic Gulf"}</text>
+<text class="vx-gulf" x="190" y="760">${lang === "tr" ? "Saronik Körfezi" : he ? "המפרץ הסרוני" : "Saronic Gulf"}</text>
 </svg>`;
 }
 
 export function voulaShowcase(a, lang) {
   const he = lang === "he", c = C[lang];
-  const wa = WA(he);
+  const wa = WA(he, lang);
   const waBtn = (cls, where) => `<a class="vx-btn vx-wa${cls}" href="${esc(wa)}" target="_blank" rel="noopener" data-out="wa-voula-${where}">${icon("wa")}<span>${esc(c.wa)}</span></a>`;
   const tax3 = PRICE * 0.03, tax15 = PRICE * 0.15;
   return `<link rel="stylesheet" href="${FONTS}">
@@ -221,7 +269,7 @@ export function voulaShowcase(a, lang) {
 </section>
 
 <section class="vx-lv">
-  <div class="vx-head"><span class="vx-kick">${he ? "חתך הבית" : "Section through the house"}</span><h2>${esc(c.lvH)}</h2></div>
+  <div class="vx-head"><span class="vx-kick">${esc(c.lvEye || (he ? "חתך הבית" : "Section through the house"))}</span><h2>${esc(c.lvH)}</h2></div>
   <div class="vx-stack">
     ${c.lv.map(([el, ar, t, d], i) => `<div class="vx-slab vx-slab${i}" data-rv style="--i:${i}"><span class="vx-el">${esc(el)}</span><div><b><span data-count="${ar}" data-dec="2">${ar}</span><small>${he ? "מ\"ר" : "m²"}</small></b><h3>${esc(t)}</h3><p>${esc(d)}</p></div></div>`).join("")}
   </div>
@@ -256,7 +304,7 @@ export function voulaShowcase(a, lang) {
   <span class="vx-phone">+30 690 672 3676 · info@sfproperties.gr</span>
 </section>
 
-<div class="vx-form">${formBox(lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
+<div class="vx-form">${formBox(lang === "tr" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
 <p class="vx-disc">${esc(c.disc)}</p>
 </article>
 <script>${JS}</script>`;
@@ -267,6 +315,7 @@ const CSS = `
   --disp:"GFS Didot","Frank Ruhl Libre",Didot,"Times New Roman",serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   background:var(--n);color:var(--ink);border-radius:28px;overflow:hidden;margin:8px 0 28px;position:relative;isolation:isolate}
 .vx:lang(he){--disp:"Frank Ruhl Libre","GFS Didot",serif}
+.vx:lang(tr){--disp:"Playfair Display",Georgia,serif}
 .vx *{box-sizing:border-box}
 .vx h1,.vx h2,.vx h3{font-family:var(--disp);font-weight:400;color:var(--ink);letter-spacing:-.01em}
 .vx:lang(he) h1,.vx:lang(he) h2{font-weight:300}
