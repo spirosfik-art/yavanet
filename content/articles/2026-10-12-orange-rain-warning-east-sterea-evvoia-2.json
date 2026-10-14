@@ -2,7 +2,7 @@
   "slug": "orange-rain-warning-east-sterea-evvoia-2",
   "section": "breaking",
   "publishedAt": "2026-10-12T16:24:51+03:00",
-  "updatedAt": "2026-10-14T15:07:18+03:00",
+  "updatedAt": "2026-10-14T18:21:26+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": true,
@@ -11,6 +11,10 @@
     "lng": 23.5
   },
   "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaF9pNUxNcDdzUTlxNndvc3FLcGFjMGgtSHJTMHZzdmxBRGZpRmdfcExNbHI2MWFLOVU2Z2hsaVdUZ1FEYmpwOTJVQVVMT3ZyajhsZWtDQVVHUGZTRU1ZRWtyQUhwa2I3THRHeFV0WGtoU0ZVSmlEaTJlNS03OHlqVmtjT0ZWOEd1LXfSAY8BQVVfeXFMUC1TR25QQ01IZ2FnT3JHbTJMajBJcjBxNE1aeko5eEtINklkc1czdEdYaVluYkJWZkctam9vSTlvVThfRmlMYWhNdkpuT2tWM3Z1bWFYbG5FeWVhNGFHYmpPVHk5SldlZGJ2TG11Uk1QdmFIa3RDMzFSc2JyWmxyNXJnSmhBVmFYQWJ3dW1tQ28?oc=5"
+    },
     {
       "name": "in.gr",
       "url": "https://www.in.gr/2026/10/14/greece/kakokairia-synedriase-i-epitropi-ektimisis-kindynou-isxyra-fainomena-eos-to-vrady-ek-neou-systaseis-tis-politikis-prostasias/"
@@ -54,26 +58,26 @@
     "en": "Rain Warning"
   },
   "he": {
-    "title": "מזג אוויר סוער ביוון: נמשכת הכוננות באזורים נרחבים",
-    "dek": "ועדת הערכת הסיכון ביוון התכנסה תחת שר הკריסה האקלימית וההגנה האזרחית, ומעדכנת כי הסערה נחלשת אך עדיין מביאה עימה רוחות חזקות וגשמים.",
+    "title": "נזקים כבדים באווי아: נהר הקיריאס עלה על גדותיו",
+    "dek": "המערכת החורפית ממשיכה להכות באזורים שונים ביוון. באוויאה נרשמו הצפות נרחבות, נזקים לתשתיות הדרכים ובתי ספר יישארו סגורים.",
     "tldr": [
-      "הסערה ביוון נמצאת ברוב אזורי המדינה בנסיגה אך עדיין פעילה בדרום ובמזרח.",
-      "רוחות חזקות מאוד בעוצמה של 8 עד 9 בופור מנשבות בים הגיא.",
-      "רשויות ההגנה האזרחית ממשיכות להמליץ על משנה זהירות והימנעות ממעבר בנחלים."
+      "נהר הקיריאס באוויאה עלה על גדותיו וגרם להצפות.",
+      "נזקים נרחבים נגרמו למערכת הכבישים באזור.",
+      "הלימודים בשתי רשויות מקומיות באוויאה יושעו ביום חמישי."
     ],
-    "means": "אם אתם נמצאים כרגע ביוון או מתכננים נסיעה בימים הקרובים, עקבו אחר עדכוני מזג האוויר של המטאורולוגיה היוונית (EMY) והימנעו משהייה באזורים מוצפים או סמוך לעצים גדולים ונחלים. בדקו את מצב התחבורה והטיסות מול החברות טרם היציאה.",
-    "body": "## הערכת מצב של ועדת הסיכון\n\nבעקבות מזג האוויר הסוער שפוקד את המדינה, התכנסה ועדת הערכת הסיכון בראשות שר הკריסה האקלימית וההגנה האזרחית, אוונגלוס טורנאס. לפי נתוני הרשויות, במהלך הלילה טופלו אירועים שונים ובעיקר נפילות עצים כתוצאה מרוחות עזות, תוך הפעלת מוקד החירום 112 באזורים הנדרשים.\n\n## אזורים במוקד הסערה\n\nלמרות שהתנאים החלו להשתפר בחלק ניכר מהמדינה, המומחים מעריכים כי עד שעות הערב ימשיכו לרדת גשמים וסופות רעמים מקומיות חזקות באזורים כגון איוויה, הספוראדות, מגנסיה, כרתים והדודקאנס. במקביל, בים הגיא ממשיכות לנשוב רוחות צפוניות וצפון-מזרחיות חזקות מאוד שעשויות להגיע ל-8 עד 9 בופור.\n\n## הנחיות והמלצות לציבור\n\nמזכירות ההגנה האזרחית מזכירה לתושבים ולמבקרים לפעול במשנה זהירות, לאבטח חפצים העלולים לעוף ברוח, ולהתרחק באופן מוחלט מנחלים ופלגי מים במהלך גשמים חזקים וגם שעות רבות לאחר סיומם. כמו כן, מומלץ להימנע מפעילות ימית וחופית ומעבודה באזורים פתוחים בזמן סופות ברקים."
+    "means": "אם אתם מתכננים נסיעה לאזורים המושפעים באוויאה או נמצאים בהם, עקבו אחר הודעות החירום של הרשויות המקומיות והימנעו מנסיעות לא חיוניות בכבישים משובשים או סמוך למקורות מים זורמים. מומלץ להתעדכן בתחזית מזג האוויר המקומית טרם היציאה לדרך.",
+    "body": "## פגיעה קשה בתשתיות באוויאה\n\nמזג האוויר הסוער שפוקד את יוון ממשיך לייצר אירועים חריגים, כאשר הפעם מוקד הנזקים המרכזי ממוקם באי אוויאה. על פי דיווחים רשמיים, כמויות הגשם האדירות שהתחוללו באזור הביאו לעלייתו של נהר הקיריאס על גדותיו, והובילו להצפות נרחבות בשטחים סמוכים.\n\nהפגיעה בתשתיות התחבורה ניכרת היטב בשטח, עם דיווחים על נזקים משמעותיים ברשת הכבישים המקומית שמקשים על התנועה ומחייבים נקיטת משנה זהירות מצד הנהגים והרשויות.\n\n## סגירת מוסדות חינוך בהתראה קצרה\n\nבעקבות תנאי מזג האוויר הקשים והחשש לשלומם של תלמידים ותושבים, קיבלו הרשויות המקומיות החלטה על השעיית הלימודים. בתי ספר בשתי רשויות מקומיות באי יישארו סגורים ביום חמישי, כדי לאפשר לצוותים המקצועיים לבחון את מצב המבנים והדרכים ולטפל במוקדי התקלות.\n\nרשויות החירום וההצלה ביוון ממשיכות לעמוד בכוננות גבוהה לנוכח תנאי מזג האוויר המשתנים, וקוראות לציבור להישמע להנחיות הרשמיות ולדווח על כל מקרה חירום למוקדים הייעודיים."
   },
   "en": {
-    "title": "Severe Weather in Greece: Risk Committee Meets as High Winds and Rains Continue",
-    "dek": "The Greek Risk Committee convened under the Minister of Climate Crisis and Civil Protection to review severe weather conditions and ongoing safety alerts.",
+    "title": "Severe Weather in Evia: Kireas River Overflows",
+    "dek": "The severe weather system continues to impact regions across Greece, bringing heavy rainfall, overflowing rivers, and infrastructure damage to Evia.",
     "tldr": [
-      "Severe weather is subsiding in most parts of Greece but remains active in the east and south.",
-      "Gale-force winds reaching 8 to 9 Beaufort continue to affect the Aegean Sea.",
-      "Civil Protection authorities urge citizens and travelers to exercise extreme caution near waterways and coastal areas."
+      "The Kireas River in Evia overflowed its banks, causing widespread floods.",
+      "Significant damage was reported across the local road network.",
+      "Schools in two municipalities will remain closed on Thursday."
     ],
-    "means": "If you are currently traveling in Greece, monitor local weather updates from the Hellenic National Meteorological Service (EMY) and avoid coastal areas, rivers, and outdoor activities during active storms. Check with your transport providers for any changes.",
-    "body": "## Risk Committee Review\n\nGreece's Risk Committee met in the presence of Climate Crisis and Civil Protection Minister Evangelos Tournas to evaluate the ongoing severe weather operations. Authorities reported multiple overnight incidents involving fallen trees due to gale-force winds, which were managed through emergency coordination and municipal services.\n\n## Weather Forecast and Affected Areas\n\nWhile conditions are improving in most regions, scientists on the committee note that heavy rain and thunderstorms will persist through the evening in Evia, the Sporades, Magnesia, Crete, and the Dodecanese. Very strong northerly to north-easterly winds of 8 to 9 Beaufort will continue to blow across the Aegean Sea until late tonight.\n\n## Civil Protection Guidelines\n\nGeneral Secretariat for Civil Protection advises the public to secure outdoor items, clear gutters, and strictly avoid crossing streams or flooded roads on foot or in vehicles. Residents and visitors are encouraged to stay updated through official channels and follow instructions from local authorities."
+    "means": "If you are traveling to or currently staying in Evia, monitor local emergency alerts and avoid non-essential travel on rural roads or near swollen waterways. Check local weather updates before heading out.",
+    "body": "## Extensive Infrastructure Damage in Evia\n\nThe severe weather front affecting Greece has caused significant disruptions, with the island of Evia bearing the brunt of the latest downpours. According to official reports, persistent heavy rainfall caused the Kireas River to burst its banks, leading to widespread flooding in the surrounding areas.\n\nThe local road network has also sustained considerable damage, creating hazards for motorists and prompting local authorities to urge caution while traveling through the affected sectors.\n\n## School Closures and Precautionary Measures\n\nIn response to the deteriorating weather conditions and potential safety risks, local authorities have announced preventative measures. Schools across two municipalities on the island will remain closed on Thursday to allow inspection teams to assess facility safety and clear blocked routes.\n\nEmergency services across the region remain on high alert as unstable weather patterns persist, advising residents and visitors to follow official safety directives and stay updated on local developments."
   },
   "meta": {
     "itemId": "ca19cc47552b",
@@ -82,6 +86,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-14T14:57:23.844Z",
     "official": true,
-    "updatedFrom": "b82704c04e2b"
+    "updatedFrom": "9980eadfa112"
   }
 }

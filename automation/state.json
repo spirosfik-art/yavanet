@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "1fb8e037a5f5": 1790781138445,
     "4a080995e490": 1790782234548,
     "f3a115bc6e6a": 1790782234548,
     "32dd16331173": 1790784585501,
@@ -2301,7 +2300,11 @@
     "16a759e1c1bd": 1791989801760,
     "415a25869c3b": 1791989801760,
     "12632bf2415a": 1791989801760,
-    "82b3d87ee0fa": 1791989801760
+    "82b3d87ee0fa": 1791989801760,
+    "8b61895d0cdb": 1791991272465,
+    "35687aba6254": 1791991272465,
+    "d4ad480b3bd8": 1791991272465,
+    "9980eadfa112": 1791991272465
   },
   "pending": {},
   "sourceStatus": {
@@ -2313,12 +2316,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-14T14:56:29.905Z",
-      "items": 0
+      "at": "2026-10-14T15:20:52.615Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-14T14:56:30.501Z",
+      "at": "2026-10-14T15:20:53.174Z",
       "items": 1
     },
     "civilprotection": {
@@ -2329,27 +2332,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-14T14:56:32.945Z",
+      "at": "2026-10-14T15:20:54.970Z",
       "items": 46
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-14T14:56:33.056Z",
+      "at": "2026-10-14T15:21:04.014Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-14T14:56:34.004Z",
+      "at": "2026-10-14T15:21:04.966Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-14T14:56:34.600Z",
+      "at": "2026-10-14T15:21:05.646Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-14T14:56:35.341Z",
+      "at": "2026-10-14T15:21:06.095Z",
       "items": 10
     },
     "toi-greece": {
@@ -2360,23 +2363,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-14T14:56:35.748Z",
+      "at": "2026-10-14T15:21:06.582Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-14T14:56:36.141Z",
+      "at": "2026-10-14T15:21:06.738Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-14T14:56:36.369Z",
-      "items": 6
+      "at": "2026-10-14T15:21:07.510Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T14:56:36.509Z",
-      "items": 5
+      "at": "2026-10-14T15:21:07.648Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2385,12 +2388,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-14T14:56:31.411Z",
+      "at": "2026-10-14T15:20:53.558Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-14T14:56:37.070Z",
+      "at": "2026-10-14T15:21:08.198Z",
       "items": 0
     },
     "hcg": {
@@ -2401,33 +2404,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-14T14:56:38.258Z",
+      "at": "2026-10-14T15:21:09.610Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-14T14:56:38.481Z",
+      "at": "2026-10-14T15:21:09.834Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-14T14:56:38.721Z",
+      "at": "2026-10-14T15:21:10.060Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-14T14:56:38.915Z",
-      "items": 6
+      "at": "2026-10-14T15:21:10.304Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-14T14:56:39.324Z",
+      "at": "2026-10-14T15:21:10.716Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-14T14:56:39.795Z",
-      "items": 7
+      "at": "2026-10-14T15:21:11.191Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2494,6 +2497,12 @@
         "title": "MHV Group Acquires Moxy Athens City Hotel",
         "at": "2026-10-14T17:58:23+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "orange-rain-warning-east-sterea-evvoia-2",
+        "title": "↻ Severe Weather in Evia: Kireas River Overflows",
+        "at": "2026-10-14T18:21:26+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2546,6 +2555,11 @@
         "title": "Δεύτερη συνεχόμενη κακοκαιρία με νεκρό – Λαγουβάρδος: «Η ένταση των φαινομένων είναι ανησυχητική»",
         "reason": "Ίδιο θέμα με «Severe Weather in Greece: Risk Committee Meets as High Winds and Rains Continue» – δεν γράφτηκε ξανά",
         "at": "2026-10-14T12:45:21.641Z"
+      },
+      {
+        "title": "Τσουκαλάς: Η κυβέρνηση καταδίκασε την κοινωνική πλειοψηφία σε έναν πλήρη παραλογισμό",
+        "reason": "Ίδιο θέμα με «Greek political parties clash over energy and economic measures in Athens» – δεν γράφτηκε ξανά",
+        "at": "2026-10-14T15:21:30.567Z"
       }
     ],
     "errors": [],
@@ -2658,17 +2672,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-14T14:56:41.760Z",
-    "considered": 7,
+    "at": "2026-10-14T15:21:12.465Z",
+    "considered": 4,
     "picked": 2,
     "items": [
-      "· naftemporiki | Live – Ευ. Μυτιληναίος: Δεν υπάρχει ενεργειακή ασφάλεια, χωρίς επενδύσεις σε υποδομές",
-      "· gtp | Greece, UNESCO Discuss New Cultural Routes and Sustainable Tourism",
-      "✓ gtp | MHV Acquires Moxy Athens City, Expands Hotel Portfolio in Greece",
-      "✓ meteoalarm | Orange Rain Warning issued for Greece - Kyklades",
-      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Kyklades",
-      "✓ meteoalarm | Orange Wind Warning issued for Greece - Kyklades",
-      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Kyklades"
+      "✓ ingr | Τσουκαλάς: Η κυβέρνηση καταδίκασε την κοινωνική πλειοψηφία σε έναν πλήρη παραλογισμό",
+      "· gn-hcg | Εντοπισμός 44 αλλοδαπών στην Ιεράπετρα – Παροχή συνδρομής σε Ι/Φ σκάφος στα Ίσθμια – Προσά",
+      "· gn-iefimerida | Μεγάλη φωτιά σε κτίριο που ανακαινιζόταν στο Παρίσι -Πυκνοί καπνοί σκέπασαν τον ουρανό - i",
+      "✓ gn-iefimerida | Εκτεταμένες ζημιές από την κακοκαιρία στην Εύβοια: Υπερχείλισε ο Κηρέας, ζημιές στο οδικό "
     ]
   },
   "evergreenDone": [
