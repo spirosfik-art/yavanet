@@ -486,14 +486,17 @@ window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=
       var fd = new FormData(f), data = {}; fd.forEach(function (v, k) { data[k] = v; });
       var isNl = f.getAttribute("data-kind") === "newsletter";
       var okEmail = /^\S+@\S+\.\S+$/.test(data.email || "");
-      if (!okEmail || !data.consent || (!isNl && !data.name)) return toast(isNl ? L.nlBad : L.formBad);
+      if (!okEmail || !data.consent || (!isNl && !data.name)) return toast(isNl ? L.nlBad : (f.getAttribute("data-bad") || L.formBad));
       data.page = location.pathname; data.referrer = document.referrer || ""; data.src = window.yvSrc(); if (f.getAttribute("data-source")) data.source = f.getAttribute("data-source");
       var st = $(".status", f); var btn = $("button[type=submit]", f); btn.disabled = true;
       fetch(f.getAttribute("data-api"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { if (!r.ok) throw 0; return r.json().catch(function () { return {}; }); })
-        .then(function (res) { if (isNl) lsSet("yv_nl", "1"); f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : L.formSent; if (st) st.textContent = msg; toast(msg); track(isNl ? "newsletter_signup" : "generate_lead", { kind: data.kind || "newsletter" });
+        .then(function (res) { if (isNl) lsSet("yv_nl", "1"); f.reset(); var msg = isNl ? (res && res.direct ? L.nlOkDirect : L.nlOk) : (f.getAttribute("data-ok") || L.formSent); if (st) st.textContent = msg; toast(msg);
+          // Μόνο οι πραγματικές φόρμες πελατών μετράνε ως generate_lead (μετατροπή στο Google Ads). Αναφορές λαθών και σχόλια όχι.
+          var nonLead = data.kind === "error-report" || data.kind === "feedback";
+          track(isNl ? "newsletter_signup" : (nonLead ? "feedback_submit" : "generate_lead"), { kind: data.kind || "newsletter" });
           if (isNl && st) { var pdf = "/yavanet-guide-buying-property-" + (C.lang === "en" ? "en" : "he") + ".pdf"; st.innerHTML = esc(msg) + ' <a class="nl-dl" href="' + pdf + '" download>' + (C.lang === "en" ? "🎁 Download your PDF guide" : "🎁 להורדת המדריך (PDF)") + "</a>"; } })
-        .catch(function () { if (st) st.textContent = L.formErr; toast(L.formErr); })
+        .catch(function () { var em = f.getAttribute("data-err") || L.formErr; if (st) st.textContent = em; toast(em); })
         .then(function () { btn.disabled = false; });
     });
   });

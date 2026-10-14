@@ -263,6 +263,25 @@ ${dots}
 </svg>`;
 }
 
+// Φόρμα επικοινωνίας στη γλώσσα της σελίδας (tr/zh): το formBox έχει μόνο he/en, οπότε μεταφράζουμε τις ετικέτες
+// και δίνουμε στο app.js τα μηνύματα επιτυχίας/σφάλματος μέσω data-ok / data-bad / data-err.
+const FORM_L = {
+  tr: { "Full name<": "Ad Soyad<", "Email<": "E-posta<", "Your message<": "Mesajınız<",
+    "I agree that my details are used to reply to this request, under the privacy policy.": "Bilgilerimin bu talebe yanıt vermek için gizlilik politikası kapsamında kullanılmasını kabul ediyorum.",
+    ">Privacy policy<": ">Gizlilik politikası<", ">Send<": ">Gönder<",
+    ok: "Gönderildi. En kısa sürede size dönüş yapacağız.", bad: "Lütfen adınızı, geçerli bir e-posta adresi girin ve onay kutusunu işaretleyin.", err: "Gönderilemedi. Lütfen birazdan tekrar deneyin." },
+  zh: { "Full name<": "姓名<", "Email<": "电子邮箱<", "Phone / WhatsApp<": "电话 / WhatsApp<", "Your message<": "您的留言<",
+    "I agree that my details are used to reply to this request, under the privacy policy.": "我同意根据隐私政策使用我的信息回复此次咨询。",
+    ">Privacy policy<": ">隐私政策<", ">Send<": ">发送<",
+    ok: "已发送，我们会尽快与您联系。", bad: "请填写姓名和有效的电子邮箱，并勾选同意。", err: "发送失败，请稍后再试。" },
+};
+function localForm(lang, html) {
+  const m = FORM_L[lang]; if (!m) return html;
+  let out = html;
+  for (const [k, v] of Object.entries(m)) if (!["ok", "bad", "err"].includes(k)) out = out.split(k).join(v);
+  return out.replace('<form class="form"', `<form class="form" data-ok="${esc(m.ok)}" data-bad="${esc(m.bad)}" data-err="${esc(m.err)}"`);
+}
+
 export function voulaShowcase(a, lang) {
   const he = lang === "he", c = C[lang];
   const wa = WA(he, lang);
@@ -351,7 +370,7 @@ export function voulaShowcase(a, lang) {
   <span class="vx-phone">+30 690 672 3676 · info@sfproperties.gr</span>
 </section>
 
-<div class="vx-form">${formBox(lang === "tr" || lang === "zh" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT })}</div>
+<div class="vx-form">${localForm(lang, formBox(lang === "tr" || lang === "zh" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT }))}</div>
 <p class="vx-disc">${esc(c.disc)}</p>
 </article>
 <a class="vx-float" href="${esc(wa)}" target="_blank" rel="noopener" data-out="wa-voula-float" aria-label="${esc(c.wa)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3s1 2.7 1.1 2.9c.1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span>${esc(c.wa)}</span></a>
