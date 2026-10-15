@@ -13,11 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "09d95e4bc0f2": 1790857940008,
-    "cc0e340fa247": 1790857940008,
-    "4525696642f8": 1790857940008,
-    "212fed7705bb": 1790857940008,
-    "9bf1ffd9c0e7": 1790857940008,
     "dc6cfae39b05": 1790859427614,
     "3f58d20f2016": 1790859427614,
     "f17552e74673": 1790859427614,
@@ -2330,7 +2325,14 @@
     "5df29f5f49a6": 1792066025452,
     "387b6e379976": 1792066025452,
     "b5793bd2f6d8": 1792066025452,
-    "9f79984af348": 1792066025452
+    "9f79984af348": 1792066025452,
+    "fff07eff3aef": 1792068458701,
+    "06a0cd0c926f": 1792068458701,
+    "0115fb860892": 1792068458701,
+    "3e8ea9d81177": 1792068458701,
+    "4a9817b7e685": 1792068458701,
+    "4e0bcfcfcb12": 1792068458701,
+    "78d6c2dd612e": 1792068458701
   },
   "pending": {
     "086e97": {
@@ -2538,6 +2540,305 @@
         ]
       },
       "notified": true
+    },
+    "27005a": {
+      "createdAt": 1792068502447,
+      "item": {
+        "title": "Θ. Πλεύρης: Θα αφαιρείται η Golden Visa αν διαπιστώνονται συμφωνίες έκπτωσης και παραβίαση της απαγόρευσης βραχυχρόνιας μίσθωσης",
+        "url": "https://www.ertnews.gr/eidiseis/th-pleyris-tha-afaireitai-i-golden-visa-an-diapistonontai-symfonies-ekptosis-kai-paraviasi-tis-apagoreysis-vraxyxronias-misthosis/",
+        "summary": "Μήνυμα προς όσους επιχειρούν να παρακάμψουν τους όρους της Golden Visa, είτε μέσω συμφωνιών που μειώνουν εμμέσως το πραγματικό τίμημα αγοράς είτε μέσω βραχυχρόνιων μισθώσεων, έστειλε ο υπουργός Μετανάστευσης και Ασύλου, Θάνος Πλεύρης στο πλαίσιο της Prodexpo 2026, που πραγματοποιείται στο Ωδείο Αθηνών. Πότε θα αφαιρείται Ξεκαθάρισε, ότι οι σχετικές άδειες διαμονής θα αφαιρούνται, ενώ ... Περισσότερα \n www.ertnews.gr",
+        "published": "Thu, 15 Oct 2026 12:03:01 +0000",
+        "id": "78d6c2dd612e",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "78d6c2dd612e",
+        "section": "real-estate",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Immigration Minister Thanos Plevris warns that Golden Visas will be revoked for fake discount agreements and illegal short-term rentals, directly affecting Israeli investors in Greek real estate.",
+        "item": {
+          "title": "Θ. Πλεύρης: Θα αφαιρείται η Golden Visa αν διαπιστώνονται συμφωνίες έκπτωσης και παραβίαση της απαγόρευσης βραχυχρόνιας μίσθωσης",
+          "url": "https://www.ertnews.gr/eidiseis/th-pleyris-tha-afaireitai-i-golden-visa-an-diapistonontai-symfonies-ekptosis-kai-paraviasi-tis-apagoreysis-vraxyxronias-misthosis/",
+          "summary": "Μήνυμα προς όσους επιχειρούν να παρακάμψουν τους όρους της Golden Visa, είτε μέσω συμφωνιών που μειώνουν εμμέσως το πραγματικό τίμημα αγοράς είτε μέσω βραχυχρόνιων μισθώσεων, έστειλε ο υπουργός Μετανάστευσης και Ασύλου, Θάνος Πλεύρης στο πλαίσιο της Prodexpo 2026, που πραγματοποιείται στο Ωδείο Αθηνών. Πότε θα αφαιρείται Ξεκαθάρισε, ότι οι σχετικές άδειες διαμονής θα αφαιρούνται, ενώ ... Περισσότερα \n www.ertnews.gr",
+          "published": "Thu, 15 Oct 2026 12:03:01 +0000",
+          "id": "78d6c2dd612e",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "golden-visa-revocation-rules-greece",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון גולדן ויזה",
+          "en": "Golden Visa update"
+        },
+        "imageKey": "house",
+        "imageQuery": "modern apartment building Athens",
+        "he": {
+          "title": "יוון: רישיונות גולדן ויזה יבוטלו במקרה של עקיפת חוקי השכירות",
+          "seoTitle": "גולדן ויזה ביוון: אזהרה למשקיעים על ביטול רישיונות",
+          "seoDesc": "שר ההגירה היווני מבהיר: רישיונות גולדן ויזה יבוטלו אם יתגלו עסקאות פיקטיביות או השכרות לטווח קצר בניגוד לחוק.",
+          "keywords": [
+            "גולדן ויזה יוון",
+            "נדל\"ן ביוון",
+            "השקעה בנדל\"ן ביוון",
+            "דירה באתונה",
+            "מיסים ביוון"
+          ],
+          "dek": "ממשלת יוון מחמירה את האכיפה נגד משקיעים המנסים לעקוף את תנאי התוכנית באמצעות עסקאות פיקטיביות או השכרות Airbnb אסורות.",
+          "tldr": [
+            "רישיונות גולדן ויזה יבוטלו אם יתגלו עסקאות שנועדו להפחית את מחיר הרכישה מתחת לרף הנדרש.",
+            "חל איסור מוחלט על השכרת נכסי גולדן ויזה לטווח קצר (Airbnb) באמצעות תתי-השכרה.",
+            "המטרה הממשלתית היא לעודד השקעות בנכסים הדורשים שיפוץ ולהגדיל את היצע הדיור להשכרה ארוכת טווח."
+          ],
+          "means": "אם אתם מחזיקים או מתכננים לרכוש נכס במסגרת תוכנית הגולדן ויזה, עליכם לוודא שהעסקה מדווחת כחוק ושאינכם משכירים את הנכס לטווח קצר. מומלץ להתייעץ עם עורך דין מקומי המתמחה בנדל\"ן כדי לוודא שכל חוזי השכירות שלכם עומדים בכללי הממשלה החדשים ולמנוע סיכון של ביטול תושבות.",
+          "body": "## אכיפה מוגברת על תוכנית הגולדן ויזה\nשר ההגירה והמקלט של יוון, תאנוס פלבריס, הבהיר במהלך כנס הנדל\"ן Prodexpo 2026 באתונה כי הממשלה לא תגלה סובלנות כלפי מי שמנסה לעקוף את תנאי תוכנית ה'גולדן ויזה'. לדבריו, רישיונות תושבות שניתנו על בסיס השקעה בנדל\"ן יבוטלו אם יתברר כי המשקיע פעל בניגוד לכללים.\n\n## עסקאות פיקטיביות והשכרות אסורות\nהשר הדגיש שתי נקודות מרכזיות שיובילו לשלילת הרישיון:\n* **דיווח כוזב על מחיר הנכס:** עסקאות שבהן מדווח מחיר רכישה של 250,000 אירו ומעלה, אך בפועל מוחזרים כספים למשקיע בדרכים עקיפות כדי להפחית את המחיר האמיתי.\n* **השכרות לטווח קצר:** שימוש בנכסי גולדן ויזה להשכרות מסוג Airbnb, גם באמצעות תתי-השכרה, אסור בהחלט. המטרה היא להבטיח שהנכסים יופנו לשוק השכירות לטווח ארוך בלבד.\n\n## המטרה: הגדלת היצע הדיור\nהממשלה היוונית רואה בתוכנית הגולדן ויזה כלי למשיכת משקיעים רציניים שיכולים להשביח נכסים שאינם ראויים למגורים כרגע. השר ציין כי המדינה מעוניינת במשקיעים שישפצו מבנים ישנים ויחזירו אותם לשוק המגורים, בין אם לשימוש עצמי ובין אם להשכרה ארוכת טווח. \n\nישראלים מדורגים כיום בין המשקיעים הבולטים בתוכנית, לצד משקיעים מסין, טורקיה ובריטניה. השר קרא למשקיעים להסיט את המבט ממרכז אתונה לאזורים עם פוטנציאל פיתוח גבוה יותר, במטרה לפזר את ההשקעות ברחבי המדינה ולסייע בהתמודדות עם משבר הדיור המקומי."
+        },
+        "en": {
+          "title": "Greece: Golden Visa permits to be revoked for rental rule violations",
+          "seoTitle": "Greece Golden Visa: Revocation for rental rule violations",
+          "seoDesc": "The Greek Migration Minister warns that Golden Visa permits will be revoked if investors use fake deals or illegal short-term rentals.",
+          "keywords": [
+            "Greece Golden Visa",
+            "Greece real estate",
+            "invest in Greece",
+            "Athens property",
+            "Greece property taxes"
+          ],
+          "dek": "The Greek government is tightening enforcement against investors attempting to bypass Golden Visa rules through fraudulent transactions or prohibited short-term rentals.",
+          "tldr": [
+            "Golden Visa permits will be revoked if transactions are found to be artificially deflated below the required threshold.",
+            "Short-term rentals (Airbnb) of Golden Visa properties are strictly prohibited, including through sub-leasing.",
+            "The policy aims to encourage investment in property renovation and increase long-term housing supply."
+          ],
+          "means": "If you hold or are planning to acquire a Golden Visa property, ensure all transactions are transparent and strictly follow long-term rental regulations. Consult with a local real estate attorney to verify that your rental contracts comply with current government policies to avoid the risk of residency permit revocation.",
+          "body": "## Stricter enforcement on Golden Visa program\nGreek Minister of Migration and Asylum, Thanos Plevris, stated during the Prodexpo 2026 real estate conference in Athens that the government will not tolerate attempts to bypass the terms of the Golden Visa program. He clarified that residency permits granted based on real estate investment will be revoked if it is discovered that the investor has violated the rules.\n\n## Fraudulent deals and prohibited rentals\nThe Minister highlighted two main issues that will lead to permit revocation:\n* **Artificial price reporting:** Transactions where a purchase price of 250,000 euros or more is reported, but funds are returned to the investor through indirect methods to lower the actual cost.\n* **Short-term rentals:** Using Golden Visa properties for short-term rentals (like Airbnb), including through sub-leasing, is strictly prohibited. The government intends to ensure these properties are dedicated solely to the long-term rental market.\n\n## Goal: Increasing housing supply\nThe Greek government views the Golden Visa program as a tool to attract serious investors who can improve properties that are currently unsuitable for housing. The Minister noted that the state is looking for investors who will renovate old buildings and return them to the residential market, whether for personal use or long-term rental.\n\nIsraelis are currently among the top investors in the program, alongside investors from China, Turkey, and the UK. The Minister encouraged investors to look beyond the center of Athens toward areas with greater development potential, aiming to distribute investments across the country and help address the local housing crisis."
+        }
+      },
+      "text": "Μήνυμα προς όσους επιχειρούν να παρακάμψουν τους όρους της Golden Visa, είτε μέσω συμφωνιών που μειώνουν εμμέσως το πραγματικό τίμημα αγοράς είτε μέσω βραχυχρόνιων μισθώσεων, έστειλε ο υπουργός Μετανάστευσης και Ασύλου, Θάνος Πλεύρης στο πλαίσιο της Prodexpo 2026 , που πραγματοποιείται στο Ωδείο Αθηνών.\n Πότε θα αφαιρείται\n Ξεκαθάρισε, ότι οι σχετικές άδειες διαμονής θα αφαιρούνται, ενώ υπερασπίστηκε τη διατήρηση του προγράμματος ως εργαλείου προσέλκυσης επενδύσεων και αύξησης του διαθέσιμου στεγαστικού αποθέματος. «Εμάς δεν μας ενδιαφέρει να πουληθεί ένα ακίνητο σε έναν Κινέζο 250.000 ευρώ, να του διασφαλιστεί ότι θα πάρει 100.000 ευρώ πίσω με μίσθωση η οποία θα γίνει και να έχει μία άδεια διαμονής», ανέφερε, ενώ διευκρίνισε, ότι οι άδειες διαμονής που συνδέονται με περιπτώσεις στις οποίες έχει διαφημιστεί η δυνατότητα απόκτησης Golden Visa με ποσό χαμηλότερο των 250.000 ευρώ, ανεξαρτήτως του τρόπου με τον οποίο επιτυγχάνεται αυτό, θα ανακαλούνται. \n Αναφέρθηκε επίσης, στις περιπτώσεις στις οποίες επιχειρείται η παράκαμψη της απαγόρευσης της βραχυχρόνιας μίσθωσης μέσω υπομισθώσεων. «Ούτε μας ενδιαφέρει να δοθεί σε κάποιον Golden Visa και ενώ λέμε, ότι δεν θέλουμε βραχυχρόνια μίσθωση, με παράλληλες υπομισθώσεις να προσπαθεί να κάνει βραχυχρόνια και σε αυτή την περίπτωση η Golden Visa θα αφαιρεθεί».\n «Το νόημα δεν είναι ποιος έχει το ακίνητο, αλλά αν αυτό δίνεται για μακροχρόνια χρήση»\n Εξηγώντας τη φιλοσοφία των αλλαγών στο πρόγραμμα, επισήμανε ότι η Golden Visa δεν πρέπει να αντιμετωπίζεται ούτε ως αποκλειστικά θετικό εργαλείο, ούτε ως η βασική αιτία της στεγαστικής κρίσης. «Η Golden Visa είναι μία σχετικά φορτισμένη έννοια και από τη θετική της και από την αρνητική της πλευρά», σημείωσε, προσθέτοντας ότι «είναι ένα σημαντικό εργαλείο που μπορείς να το αξιοποιείς ανάλογα με τις ανάγκες τις οποίες έχεις».\n Όπως εξήγησε, αρχικός στόχος του προγράμματος ήταν η ενίσχυση της οικοδομικής δραστηριότητας, σε μια περίοδο που ο κλάδος αντιμετώπιζε σοβαρά προβλήματα. Σήμερα, όμως, η στεγαστική κρίση έχει αλλάξει τις προτεραιότητες της πολιτικής. Παράλληλα, εξέφρασε τη διαφωνία του με την άποψη, ότι η κατάργηση της Golden Visa θα οδηγούσε αυτομάτως σε αύξηση του διαθέσιμου στεγαστικού αποθέματος.\n Ιδιαίτερη έμφαση έδωσε στην απαγόρευση της βραχυχρόνιας μίσθωσης των ακινήτων που εντάσσονται στο πρόγραμμα. «Τι αφαιρέσαμε και ήταν πάρα πολύ σημαντικό; Αφαιρέσαμε τη βραχυχρόνια μίσθωση, διότι το νόημα δεν είναι ποιος έχει το ακίνητο ως ακίνητο, αλλά αν αυτό το ακίνητο δίνεται για μακροχρόνια χρήση». \n Το προφίλ των επενδυτών\n Ο κ. Πλεύρης περιέγραψε και το προφίλ των επενδυτών στους οποίους επιθυμεί να απευθύνεται το πρόγραμμα. «Αυτό το οποίο μας ενδιαφέρει είναι να έρχονται σοβαροί επενδυτές, να μπορούν να βρίσκουν χώρους, οι οποίοι δεν είναι κατάλληλοι για κατοικία αυτή τη στιγμή, να επενδύουν σε αυτούς τους χώρους, να τους τρέπουν αυτούς τους χώρους, να μπαίνουν περισσότερα ακίνητα μέσα στην αγορά», ανέφερε, διευκρινίζοντας ότι τα ακίνητα μπορούν στη συνέχεια είτε να χρησιμοποιούνται από τους ίδιους τους επενδυτές, είτε να διατίθενται για μακροχρόνια μίσθωση.\n Παράλληλα, υποστήριξε, ότι πρέπει να δοθούν κίνητρα για τη μετατόπιση του επενδυτικού ενδιαφέροντος πέρα από το κέντρο της Αθήνας, προς περιοχές όπου υπάρχουν μεγαλύτερα περιθώρια ανάπτυξης. Ως προς τη γεωγραφική κατανομή των επενδυτών, σημείωσε ότι οι Κινέζοι εξακολουθούν να κατέχουν την πρώτη θέση στο πρόγραμμα Golden Visa, ακολουθούμενοι από τους Τούρκους, ενώ στις υψηλότερες θέσεις βρίσκονται επίσης οι Ισραηλινοί και οι Βρετανοί.\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Ελλάδα: Ανάκληση αδειών Golden Visa για παραβιάσεις των κανόνων ενοικίασης",
+        "dek": "Η ελληνική κυβέρνηση εντείνει τους ελέγχους κατά των επενδυτών που προσπαθούν να παρακάμψουν τους κανόνες της Golden Visa μέσω εικονικών συναλλαγών ή απαγορευμένων βραχυχρόνιων μισθώσεων.",
+        "tldr": [
+          "Οι άδειες Golden Visa θα ανακαλούνται εάν διαπιστωθεί ότι οι συναλλαγές έχουν υποτιμηθεί τεχνητά κάτω από το απαιτούμενο όριο.",
+          "Οι βραχυχρόνιες μισθώσεις (τύπου Airbnb) σε ακίνητα της Golden Visa απαγορεύονται αυστηρά, συμπεριλαμβανομένης της υπεκμίσθωσης.",
+          "Η πολιτική αυτή στοχεύει στην ενθάρρυνση επενδύσεων για ανακαίνιση ακινήτων και στην αύξηση της προσφοράς κατοικιών για μακροχρόνια μίσθωση."
+        ]
+      },
+      "notified": true
+    },
+    "9b1d94": {
+      "createdAt": 1792068519580,
+      "item": {
+        "title": "Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις",
+        "url": "https://minfin.gov.gr/meiosi-tis-grafeiokratias-perissoteri-synepeia-se-leitourgia-to-neo-mitroo-gia-tis-anaklitheises-dioikitikes-praxeis/",
+        "summary": "Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις Κοινό Δελτίο Τύπου των Υπουργείων Εθνικής Οικονομίας και Οικονομικών, Εσωτερικών και Ψηφιακής Διακυβέρνησης και Τεχνητής Νοημοσύνης Με στόχο τη διασφάλιση της αξιοπιστίας των διαδικασιών και την ενίσχυση των μηχανισμών ελέγχου, τίθεται σε λειτουργία το Μητρώο Ανακληθεισών Διοικητικών Πράξεων, το […]\n Το άρθρο Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας ",
+        "published": "Thu, 15 Oct 2026 12:35:52 +0000",
+        "id": "fff07eff3aef",
+        "sourceId": "minfin",
+        "sourceName": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+        "official": true,
+        "emergency": false,
+        "sectionHint": "real-estate",
+        "strike": false
+      },
+      "pick": {
+        "id": "fff07eff3aef",
+        "section": "living",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The launch of the new registry for revoked administrative acts aims to cut bureaucracy, mattering for Israeli residents dealing with Greek state paperwork.",
+        "item": {
+          "title": "Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις",
+          "url": "https://minfin.gov.gr/meiosi-tis-grafeiokratias-perissoteri-synepeia-se-leitourgia-to-neo-mitroo-gia-tis-anaklitheises-dioikitikes-praxeis/",
+          "summary": "Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις Κοινό Δελτίο Τύπου των Υπουργείων Εθνικής Οικονομίας και Οικονομικών, Εσωτερικών και Ψηφιακής Διακυβέρνησης και Τεχνητής Νοημοσύνης Με στόχο τη διασφάλιση της αξιοπιστίας των διαδικασιών και την ενίσχυση των μηχανισμών ελέγχου, τίθεται σε λειτουργία το Μητρώο Ανακληθεισών Διοικητικών Πράξεων, το […]\n Το άρθρο Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας ",
+          "published": "Thu, 15 Oct 2026 12:35:52 +0000",
+          "id": "fff07eff3aef",
+          "sourceId": "minfin",
+          "sourceName": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+          "official": true,
+          "emergency": false,
+          "sectionHint": "real-estate",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "new-registry-for-administrative-acts-greece",
+        "section": "living",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": null,
+        "imageKey": "key",
+        "imageQuery": "greek government office building",
+        "he": {
+          "title": "יוון משיקה מרשם חדש לביטול החלטות מנהליות: מה זה אומר עבורכם?",
+          "seoTitle": "יוון משיקה מרשם חדש לביטול החלטות מנהליות",
+          "seoDesc": "ממשלת יוון השיקה מרשם דיגיטלי חדש לביטול החלטות מנהליות במטרה להפחית בירוקרטיה ולשפר את השקיפות והבקרה במערכת הציבורית.",
+          "keywords": [
+            "בירוקרטיה ביוון",
+            "ממשל זמין יוון",
+            "תושבים ביוון",
+            "חוקים ביוון"
+          ],
+          "dek": "משרדי הממשלה ביוון השיקו מערכת דיגיטלית חדשה לניהול החלטות מנהליות שבוטלו, כחלק ממהלך רחב להפחתת הבירוקרטיה וחיזוק השקיפות.",
+          "tldr": [
+            "הושק מרשם דיגיטלי חדש לריכוז החלטות מנהליות שבוטלו.",
+            "המטרה היא להגביר את השקיפות ולשפר את מנגנוני הבקרה הממשלתיים.",
+            "המהלך משותף למשרדי הכלכלה, הפנים והדיגיטציה."
+          ],
+          "means": "עבור ישראלים המתגוררים ביוון או בעלי עסקים, המהלך עשוי להוביל לתהליכים ברורים ושקופים יותר מול הרשויות. מומלץ לעקוב אחר עדכונים באתרים הממשלתיים הרשמיים כדי לראות כיצד המערכת החדשה משפיעה על הליכים בירוקרטיים ספציפיים שאתם מנהלים.",
+          "body": "## מהפכה דיגיטלית בשירות הציבורי\nממשלת יוון הודיעה על הפעלתו של מרשם חדש לביטול החלטות מנהליות (Registry of Revoked Administrative Acts). מדובר ביוזמה משותפת של משרד הכלכלה והאוצר, משרד הפנים ומשרד הדיגיטציה והבינה המלאכותית, שנועדה לייעל את עבודת הממשל.\n\n## מטרת המהלך\nהמרשם החדש נועד להבטיח את אמינות התהליכים המנהליים ולחזק את מנגנוני הבקרה הפנימיים. על ידי ריכוז כל ההחלטות שבוטלו במערכת אחת, המדינה שואפת להפחית את הבירוקרטיה המיותרת ולמנוע חוסר בהירות שעלול להיווצר כאשר החלטות משתנות או מבוטלות.\n\n## השפעה על האזרח והתושב\nעבור מי שמתנהל מול הרשויות ביוון, שקיפות היא מפתח חשוב. המערכת החדשה אמורה להפוך את המעקב אחר החלטות מנהליות לפשוט ונגיש יותר. הממשלה מדגישה כי המהלך הוא חלק ממאמץ מתמשך להפוך את המערכת הציבורית ליעילה ועקבית יותר, תוך שימוש בכלים דיגיטליים מתקדמים. \n\nככל שהמערכת תיכנס לשימוש מלא, היא צפויה להקל על תהליכים שונים שדורשים אישורים או ביטולים של החלטות קודמות, ובכך לחסוך זמן יקר לתושבים ולבעלי עסקים הפועלים במדינה."
+        },
+        "en": {
+          "title": "Greece launches new registry for revoked administrative acts",
+          "seoTitle": "Greece launches new registry for revoked administrative acts",
+          "seoDesc": "The Greek government has launched a new digital registry for revoked administrative acts to reduce bureaucracy and improve transparency.",
+          "keywords": [
+            "Greece bureaucracy",
+            "Greek government digital",
+            "living in Greece",
+            "Greek administration"
+          ],
+          "dek": "The Greek government has introduced a new digital registry for revoked administrative acts, aiming to streamline government processes and enhance transparency.",
+          "tldr": [
+            "A new digital registry for revoked administrative acts is now operational.",
+            "The initiative aims to improve transparency and strengthen control mechanisms.",
+            "The project is a collaboration between the Ministries of Economy, Interior, and Digital Governance."
+          ],
+          "means": "For residents and business owners in Greece, this move is intended to make administrative processes more transparent and consistent. It is advisable to monitor official government portals to see how this new system impacts specific bureaucratic procedures you may be involved in.",
+          "body": "## Streamlining the Public Sector\nThe Greek government has officially launched the Registry of Revoked Administrative Acts. This initiative, a joint effort by the Ministry of National Economy and Finance, the Ministry of the Interior, and the Ministry of Digital Governance and Artificial Intelligence, is part of a broader strategy to modernize the public sector.\n\n## Enhancing Transparency and Control\nThe primary goal of this new registry is to ensure the reliability of administrative procedures and to strengthen internal control mechanisms. By centralizing information regarding revoked administrative acts, the state aims to reduce unnecessary bureaucracy and eliminate the confusion that often arises when administrative decisions are modified or overturned.\n\n## What This Means for You\nFor those living or doing business in Greece, transparency is essential. The new system is designed to make the tracking of administrative decisions more accessible. The government emphasizes that this is part of an ongoing effort to make the public administration more efficient and consistent through the use of digital tools.\n\nAs the system becomes fully integrated, it is expected to simplify various procedures that require the verification or cancellation of previous administrative acts, ultimately saving time for residents and business owners operating within the country."
+        }
+      },
+      "text": "Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις\nΜείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις Κοινό Δελτίο Τύπου των Υπουργείων Εθνικής Οικονομίας και Οικονομικών, Εσωτερικών και Ψηφιακής Διακυβέρνησης και Τεχνητής Νοημοσύνης Με στόχο τη διασφάλιση της αξιοπιστίας των διαδικασιών και την ενίσχυση των μηχανισμών ελέγχου, τίθεται σε λειτουργία το Μητρώο Ανακληθεισών Διοικητικών Πράξεων, το […]\n Το άρθρο Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακληθείσες διοικητικές πράξεις εμφανίστηκε πρώτα στο Υπουργείο Εθνικής Οικονομίας ",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα εγκαινιάζει νέο μητρώο για τις ανακληθείσες διοικητικές πράξεις",
+        "dek": "Η ελληνική κυβέρνηση εισήγαγε ένα νέο ψηφιακό μητρώο για τις ανακληθείσες διοικητικές πράξεις, με στόχο τον εκσυγχρονισμό των κυβερνητικών διαδικασιών και την ενίσχυση της διαφάνειας.",
+        "tldr": [
+          "Ένα νέο ψηφιακό μητρώο για τις ανακληθείσες διοικητικές πράξεις είναι πλέον σε λειτουργία.",
+          "Η πρωτοβουλία στοχεύει στη βελτίωση της διαφάνειας και στην ενίσχυση των μηχανισμών ελέγχου.",
+          "Το έργο αποτελεί συνεργασία των Υπουργείων Εθνικής Οικονομίας, Εσωτερικών και Ψηφιακής Διακυβέρνησης."
+        ]
+      },
+      "notified": true
+    },
+    "a8b431": {
+      "createdAt": 1792068539079,
+      "item": {
+        "title": "How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know",
+        "url": "https://greekcitytimes.com/2026/10/15/greece-2027-income-changes/",
+        "summary": "Greece’s 2027 Budget outlines pension increases, wage rises, tax relief and housing support. See how the planned changes could affect households.\n The post How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know appeared first on Greek City Times .",
+        "published": "Thu, 15 Oct 2026 12:20:28 +0000",
+        "id": "0115fb860892",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "0115fb860892",
+        "section": "living",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greece's 2027 budget outlines income changes, pension and wage rises, and housing support, affecting Israelis living or working in Greece.",
+        "item": {
+          "title": "How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know",
+          "url": "https://greekcitytimes.com/2026/10/15/greece-2027-income-changes/",
+          "summary": "Greece’s 2027 Budget outlines pension increases, wage rises, tax relief and housing support. See how the planned changes could affect households.\n The post How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know appeared first on Greek City Times .",
+          "published": "Thu, 15 Oct 2026 12:20:28 +0000",
+          "id": "0115fb860892",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-2027-budget-income-changes",
+        "section": "living",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": null,
+        "imageKey": "house",
+        "imageQuery": "modern greek apartment building",
+        "he": {
+          "title": "שינויים בהכנסות ביוון: מה צפוי ב-2027?",
+          "seoTitle": "שינויים בהכנסות ביוון: מה צפוי ב-2027?",
+          "seoDesc": "ממשלת יוון מציגה תוכנית כלכלית ל-2027 הכוללת העלאות שכר ופנסיה, הקלות במס למשפחות ושינויים במיסוי לעצמאיים. כל הפרטים לישראלים ביוון.",
+          "keywords": [
+            "יוון",
+            "מיסים ביוון",
+            "לגור ביוון",
+            "כלכלה ביוון"
+          ],
+          "dek": "ממשלת יוון פרסמה את טיוטת התקציב לשנת 2027, הכוללת שורה של צעדים פיננסיים שישפיעו על שכירים, פנסיונרים ועצמאיים במדינה.",
+          "tldr": [
+            "העלאות שכר מינימום ופנסיה צפויות להיכנס לתוקף במהלך 2027.",
+            "הקלות במס למשפחות עם שלושה ילדים ושינויים במיסוי לעצמאיים.",
+            "הטבות נוספות כוללות מענקי חג לעובדי המגזר הציבורי והפחתת עלויות חשמל."
+          ],
+          "means": "עבור ישראלים המתגוררים ביוון או בעלי עסקים מקומיים, חשוב לעקוב אחר העדכונים מול רואה החשבון שלכם בנוגע לשינויי המיסוי והפרשות סוציאליות. אם אתם עצמאיים, בדקו את זכאותכם להקלות במס בהתאם לעמידה בתקנות הדיווח האלקטרוני.",
+          "body": "## שינויים בשכר ובפנסיה\nממשלת יוון מתכננת להעלות את שכר המינימום בשלבים, כאשר היעד הוא להגיע ל-1,000 אירו ברוטו עד ינואר 2028. במקביל, פנסיונרים צפויים לראות עלייה של כ-2.8% עד 2.9% בקצבאותיהם, בהתאם לנוסחה המבוססת על אינפלציה וצמיחה כלכלית. מנגנון ה\"הפרש האישי\" צפוי להתבטל, מה שיאפשר ליותר מ-600 אלף פנסיונרים ליהנות מהעלאות בפועל.\n\n## הקלות לעצמאיים ומשפחות\nעצמאיים עשויים ליהנות מהפחתת מקדמות מס הכנסה מ-55% ל-50% החל משנת המס 2027. הטבות נוספות מותנות בעמידה בכללי הדיווח האלקטרוני (myDATA) ושימוש בקופות רושמות תקינות. עבור משפחות עם שלושה ילדים, מתוכננת הטבת מס משמעותית עם פטור ממס הכנסה על הכנסות של עד 20,000 אירו.\n\n## דיור ועלויות מחיה\nהתקציב כולל צעדים להפחתת עלויות המחיה, ביניהם הפחתת היטלים בחשבונות החשמל הביתיים והרחבת תוכניות להחזר שכר דירה. כמו כן, מתוכנן מענק חג מיוחד של 500 אירו לעובדי המגזר הציבורי בדצמבר 2027. חשוב לזכור כי השפעת הצעדים על כוח הקנייה תלויה בשיעור האינפלציה בפועל במהלך השנה.\n\n*הערה: המידע המוצג הוא כללי בלבד ואינו מהווה ייעוץ משפטי או פיננסי. מומלץ להתייעץ עם גורמי מקצוע ביוון בנוגע למצבכם האישי.*"
+        },
+        "en": {
+          "title": "Greece 2027 Budget: Income and Tax Changes",
+          "seoTitle": "Greece 2027 Budget: Income and Tax Changes",
+          "seoDesc": "Greece's 2027 budget outlines pension increases, wage hikes, and tax relief for families and freelancers. Here is what you need to know.",
+          "keywords": [
+            "Greece",
+            "Greece economy",
+            "Greece taxes",
+            "living in Greece"
+          ],
+          "dek": "The Greek government has unveiled its 2027 budget draft, introducing financial measures that will impact employees, pensioners, and the self-employed.",
+          "tldr": [
+            "Minimum wage and pension increases are scheduled throughout 2027.",
+            "New tax relief measures for families with three children and self-employed professionals.",
+            "Additional benefits include public sector holiday bonuses and reduced electricity charges."
+          ],
+          "means": "For Israelis living or working in Greece, it is essential to review your tax obligations and social insurance contributions with your local accountant. If you are self-employed, verify your eligibility for tax relief based on your compliance with electronic accounting and payment terminal regulations.",
+          "body": "## Wage and Pension Adjustments\nThe Greek government plans to increase the minimum wage in phases, aiming for a gross monthly salary of €1,000 by January 2028. Pensioners are expected to see an increase of approximately 2.8% to 2.9% in their monthly payments, driven by inflation and economic growth. The abolition of the 'personal difference' mechanism will also allow more pensioners to receive actual increases in their benefits.\n\n## Support for Freelancers and Families\nSelf-employed individuals may benefit from a reduction in advance income tax payments from 55% to 50% starting in 2027. These benefits are tied to strict compliance with electronic reporting (myDATA) and payment terminal requirements. Families with three children are set to receive significant tax relief, with a zero-tax rate on income up to €20,000.\n\n## Housing and Living Costs\nTo address the cost of living, the government plans to halve specific public service charges on residential electricity bills and expand rent refund schemes. Public sector employees are also in line for a €500 gross Christmas payment in December 2027. The actual benefit of these measures will depend on individual circumstances and the broader economic environment throughout the year.\n\n*Note: This information is for general guidance only and does not constitute legal or financial advice. Please consult with a professional in Greece regarding your specific situation.*"
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Pension increases, higher wages, lower insurance contributions and new debt repayment arrangements are set to shape household finances in Greece in 2027, with millions of people facing changes to their income and expenses.\n Greece’s 2027 Budget outlines a mix of financial relief and additional costs for employees, pensioners, freelancers and people with outstanding debts. While some households stand to benefit from higher earnings and pension payments, others could face increased social insurance contributions as rates adjust to inflation.\n The impact will vary considerably depending on employment status, income level, pension entitlements and existing financial obligations.\n The central question is how the changes will affect household budgets in practice, including how much additional money people can expect to receive and whether higher living costs will erode those gains.\n Pensioners: Increases expected for millions\n Inflation and economic growth will play a central role in determining the pension increases expected to take effect in 2027, with approximately 2.5 million pensioners potentially affected.\n According to the draft Budget, consumer price inflation is forecast to reach 3.8% in 2026, while economic growth is projected at 2%.\n Under the formula used to calculate annual pension adjustments, which takes into account the average of inflation and economic growth, pensions are expected to increase by approximately 2.8% to 2.9%, subject to the final calculation.\n Using a 2.8% increase as an example, the average gross old-age pension would rise from €975 to approximately €1,002.30 per month in 2027.\n The potential increases would vary according to the amount of each pension:\n A monthly pension of €600 would increase by €16.80.\n A monthly pension of €975 would increase by €27.30.\n A monthly pension of €2,000 would increase by €56.\n A monthly pension of €2,500 would increase by €70.\n On an annual basis, a pensioner receiving €600 per month would gain an additional €201.60 before any applicable deductions, while someone receiving €2,500 would gain €840.\n The national pension would also increase for existing pensioners and people retiring in 2027. Under the 2.8% scenario, it would rise from €446 to approximately €458.48 per month.\n However, the final benefit for individual pensioners would depend on the applicable adjustment, deductions and any other provisions affecting their payments.\n Personal difference mechanism comes to an end\n Another significant change concerns the personal difference mechanism, which has prevented some pensioners from receiving the full benefit of annual pension increases.\n The complete abolition of the mechanism is expected to bring approximately 670,000 pensioners into the pension increase cycle, allowing them to receive actual increases in their payments rather than having adjustments offset by their personal difference.\n For those affected, the change could make a meaningful difference to disposable income, particularly as households continue to contend with the cost of food, housing, energy and other essential expenses.\n Nevertheless, the real value of any pension increase will depend on how inflation develops during 2027. Higher nominal payments do not necessarily translate into a corresponding improvement in purchasing power if everyday expenses continue to rise.\n Private-sector employees: Higher wages and lower contributions\n Private-sector employees are expected to benefit from a further reduction in social insurance contributions and an increase in the minimum wage, although the measures will take effect at different times.\n The government’s stated objective is to raise the minimum monthly gross wage from €920 to €1,000 by January 2028, through two increases scheduled for April 2027 and January 2028.\n Under the indicative scenario outlined by the government, the minimum wage would rise to €960 in April 2027 before reaching €1,000 the following January.\n From April 2027, employee social insurance contributions are also scheduled to fall by 0.5 percentage points, with the reduction applied to the employee contribution component.\n For a worker earning the minimum wage, the combined effect of the wage increase and lower contributions would mean higher take-home pay. The precise benefit would depend on individual circumstances, including tax obligations and employment terms.\n The government estimates that the minimum wage could reach €1,300 gross for employees entitled to three three-year seniority increments, known as triennia , once the €1,000 minimum is achieved.\n These measures form part of the broader effort to increase disposable income, although their impact on purchasing power will depend on the cost of living and the pace of price increases.\n Public-sector employees: €500 Christmas payment\n Public-sector employees are also in line for changes to their earnings.\n The government plans to introduce a Christmas payment of €500 gross for public-sector employees in December 2027. The payment would provide additional income at the end of the year, when many households face increased spending on food, heating, travel and family celebrations.\n Public-sector salaries are also scheduled to increase in line with the minimum wage adjustment, with the government projecting a cumulative gross monthly increase of €80 by January 2028.\n The timing and value of the benefit will depend on the implementation of the announced measures and the employee’s circumstances.\n For eligible public-sector workers, the proposed Christmas payment would be a separate addition to their regular salary rather than a permanent monthly wage increase.\n Freelancers and self-employed workers: Tax relief and lower advance payments\n Self-employed professionals and freelancers face a different set of changes, with the government proposing measures aimed at reducing tax pressure and supporting business activity.\n One of the key proposals is a reduction in the advance income tax payment for individual businesses from 55% to 50%, starting with the 2027 tax year. The change is expected to be reflected in tax assessments filed in 2028.\n The reduction would ease the amount businesses must pay in advance towards their next tax bill, improving cash flow for eligible professionals. However, it would not automatically reduce the final income tax liability by the same amount.\n Additional relief is planned for compliant self-employed professionals who meet specified requirements, including submitting the required electronic accounting data through myDATA, maintaining the necessary links between payment terminals and cash registers, and avoiding tax or labour violations during the preceding five years.\n Eligible professionals would be exempt from certain turnover- and payroll-related adjustments used in calculating the minimum taxable income. The proposal is intended to reward compliance and reduce the tax burden on qualifying businesses.\n The government also plans to begin abolishing the business levy in regional Greece and Thessaloniki, alongside further tax measures for eligible self-employed workers and farmers.\n However, freelancers should not assume that all costs will fall. Social insurance contributions, operating expenses and tax obligations will continue to depend on their individual circumstances and the measures ultimately enacted.\n Families with three children: Income tax relief\n Families with three children are among the groups targeted by the government’s planned tax changes.\n From January 2027, the income tax rate on income up to €20,000 is scheduled to fall to zero for eligible employees with three children. The measure is expected to benefit approximately 87,000 people out of the 152,000 eligible taxpayers identified by the government as being above the relevant tax-free threshold.\n The change is designed to increase take-home pay for qualifying households, although the actual saving will depend on taxable income and individual circumstances.\n Self-employed taxpayers who qualify under the relevant provisions may also benefit from the corresponding tax relief.\n The government is also planning a special investment account for children aged up to two years. Under the proposal, the state would match a parent’s annual contribution, up to €1,200 a year, until the child reaches the age of 18.\n The initiative is intended to encourage long-term savings and provide additional financial support for children as they enter adulthood.\n Renters and homeowners: Further housing measures\n Housing costs remain a major pressure point for Greek households, and the government’s plans include additional support for renters and selected homeowners.\n The rent refund scheme is set to operate with expanded income limits, potentially extending eligibility to approximately one million tenants. The government also plans a double rent refund for eligible teachers, doctors and nurses serving in regional areas.\n The expanded thresholds are intended to bring more households into the scheme, although eligibility will depend on income, family circumstances and the applicable rules.\n For homeowners, the government plans to abolish the Unified Property Ownership Tax, known as ENFIA, from 2027 for properties in settlements with up to 2,000 residents. The threshold is planned to rise to 2,200 residents in Western Macedonia.\n A further housing initiative, the proposed My Home III programme, is scheduled to begin in January 2027, with €2 billion in resources planned to support the scheme.\n These measures could provide relief for eligible households, but they will not remove the underlying pressures affecting Greece’s housing market, including rental affordability and the cost of purchasing a property.\n Electricity bills and disability benefits\n Other planned changes target essential household expenses and financial support for vulnerable groups.\n From January 2027, the government plans to halve the Public Service Obligations charge on residential electricity bills from €6.90 per megawatt-hour to €3.45 per megawatt-hour.\n The measure is intended to reduce part of the regulated cost included in household electricity bills. The final saving for each household will depend on electricity consumption and the structure of its bill.\n Disability benefits are also scheduled to be adjusted for inflation from January 2027, helping protect recipients against rising living costs.\n Separately, the government plans to increase the annual financial support payment for pensioners, people with disabilities and uninsured elderly people to €400 net from November 2026. The payment is intended to become permanent and extend to pensioners aged over 65, with eligibility provisions applying to other groups.\n This payment is separate from the proposed annual pension increases and should not be confused with the €500 gross Christmas payment planned for public-sector employees.\n What about people with outstanding debts?\n For households and businesses carrying outstanding debts, the overall impact of the 2027 measures will depend on whether they qualify for tax relief, lower advance payments or other applicable repayment arrangements.\n The proposed reduction in advance tax payments could improve cash flow for eligible self-employed professionals, while higher wages and pension payments could help some households meet existing financial commitments.\n However, these changes do not automatically reduce existing debts or guarantee access to a new repayment plan. Anyone with tax arrears, social insurance debts, bank loans or other outstanding obligations will need to check the specific rules governing their debt and any available settlement arrangements.\n The measures outlined in the government’s published Budget proposals should therefore be distinguished from any separate debt settlement provisions that may be announced or legislated.\n The bottom line: Who stands to benefit in 2027?\n Greece’s planned 2027 income measures cover a broad range of groups, from pensioners and salaried workers to freelancers, families and renters.\n Pensioners are expected to receive annual increases, with the removal of the personal difference mechanism potentially allowing more people to benefit fully. Private-sector employees are in line for lower insurance contributions, while public-sector workers could receive higher salaries and a €500 gross Christmas payment.\n Self-employed professionals may benefit from lower advance tax payments and targeted tax relief, while eligible families, renters and homeowners could gain from additional support measures.\n Nevertheless, the announced measures are not all in force, and some remain proposals awaiting implementation. The final outcome will depend on the legislation, eligibility requirements and economic conditions in 2027.\n For households across Greece, the key issue will be whether the additional income and tax relief translate into a meaningful improvement in purchasing power after housing, food, energy and other essential expenses are paid.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Greek Actress Betty Valassi Dies at 89\n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Προϋπολογισμός 2027: Αλλαγές σε εισοδήματα και φορολογία",
+        "dek": "Η ελληνική κυβέρνηση παρουσίασε το προσχέδιο του προϋπολογισμού για το 2027, εισάγοντας οικονομικά μέτρα που θα επηρεάσουν εργαζόμενους, συνταξιούχους και ελεύθερους επαγγελματίες.",
+        "tldr": [
+          "Προγραμματίζονται αυξήσεις στον κατώτατο μισθό και τις συντάξεις καθ' όλη τη διάρκεια του 2027.",
+          "Νέα φορολογικά μέτρα ελάφρυνσης για τρίτεκνες οικογένειες και ελεύθερους επαγγελματίες.",
+          "Πρόσθετες παροχές περιλαμβάνουν επιδόματα εορτών για τον δημόσιο τομέα και μειωμένες χρεώσεις ρεύματος."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2549,12 +2850,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T12:06:49.586Z",
+      "at": "2026-10-15T12:46:58.032Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T12:06:50.214Z",
+      "at": "2026-10-15T12:46:58.902Z",
       "items": 1
     },
     "civilprotection": {
@@ -2565,27 +2866,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T12:06:51.807Z",
+      "at": "2026-10-15T12:47:01.256Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T12:06:55.646Z",
+      "at": "2026-10-15T12:47:14.489Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T12:06:56.849Z",
+      "at": "2026-10-15T12:47:15.574Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T12:06:57.473Z",
-      "items": 5
+      "at": "2026-10-15T12:47:16.469Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T12:06:58.427Z",
+      "at": "2026-10-15T12:47:17.532Z",
       "items": 10
     },
     "toi-greece": {
@@ -2596,23 +2897,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T12:06:58.886Z",
+      "at": "2026-10-15T12:47:18.135Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T12:06:58.990Z",
+      "at": "2026-10-15T12:47:18.242Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T12:06:59.588Z",
+      "at": "2026-10-15T12:47:18.346Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T12:06:59.726Z",
-      "items": 4
+      "at": "2026-10-15T12:47:18.587Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2621,12 +2922,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T12:06:50.817Z",
+      "at": "2026-10-15T12:46:59.753Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T12:07:00.255Z",
+      "at": "2026-10-15T12:47:19.402Z",
       "items": 0
     },
     "hcg": {
@@ -2637,32 +2938,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T12:07:02.807Z",
+      "at": "2026-10-15T12:47:21.003Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T12:07:03.028Z",
+      "at": "2026-10-15T12:47:21.221Z",
       "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T12:07:03.261Z",
-      "items": 4
+      "at": "2026-10-15T12:47:21.385Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T12:07:03.556Z",
+      "at": "2026-10-15T12:47:21.689Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T12:07:03.943Z",
+      "at": "2026-10-15T12:47:22.090Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T12:07:04.392Z",
+      "at": "2026-10-15T12:47:22.555Z",
       "items": 11
     }
   },
@@ -2904,20 +3205,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T12:07:05.452Z",
-    "considered": 10,
-    "picked": 1,
+    "at": "2026-10-15T12:47:38.701Z",
+    "considered": 7,
+    "picked": 3,
     "items": [
-      "· minfin | Ευρωπαϊκές διακρίσεις για έργα ΕΣΠΑ. Στην πρώτη θέση του διαγωνισμού REGIOSTARS 2026 το Αν",
-      "✓ ert | Θ. Πλεύρης: Θα αφαιρούνται Golden Visa για εικονικές εκπτώσεις και παραβίαση της απαγόρευσ",
-      "· naftemporiki | Εκτέλεση σε live μετάδοση: Αρνητική -πλην MAGA- η συντριπτική πλειονότητα των Αμερικανών",
-      "· gct | Cretan Shepherd Giannis Papasifakis Goes Viral and Attracts BBC",
-      "· naftemporiki | Μαύρη Θάλασσα: Από επίθεση με drones η φωτιά στο τάνκερ με 8 αγνοούμενους – Ρουμανία και Β",
-      "· ert | Υπόθεση «Μαρικάρμεν» στη Φλωρεντία: Χήρα 94 ετών κινδυνεύει με έξωση λόγω τριπλασιασμού τη",
-      "· gct | Chrysochoidis Announces Ban on Overcrowded Immigrant Rentals in Athens",
-      "· minfin | Δημόσια πρόσκληση για γνωστοποίηση στοιχείων",
-      "· minfin | Δημόσια πρόσκληση για γνωστοποίηση στοιχείων",
-      "· minfin | Κατανομή πιστώσεων του κρατικού προϋπολογισμού σε αναλυτικό επίπεδο"
+      "✓ minfin | Μείωση της γραφειοκρατίας, περισσότερη συνέπεια – Σε λειτουργία το νέο Μητρώο για τις ανακ",
+      "· naftemporiki | Χρηματιστήρια: Αιμορραγία 1 τρισ. δολαρίων στις μετοχές Τεχνητής Νοημοσύνης – Γιατί η JPMo",
+      "✓ gct | How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need t",
+      "· gn-iefimerida | Σε τροχιά για ρεκόρ τριετίας ο πληθωρισμός στη Γαλλία, «φωτιά» στα καύσιμα -Το δημοσιονομι",
+      "· gct | Greek Actress Betty Valassi Dies at 89",
+      "· gct | Latinopoulou Rules Out Alliance with Mitsotakis or Samaras; Awaits Aslam Court Case",
+      "✓ ert | Θ. Πλεύρης: Θα αφαιρείται η Golden Visa αν διαπιστώνονται συμφωνίες έκπτωσης και παραβίαση"
     ]
   },
   "evergreenDone": [
