@@ -2307,7 +2307,10 @@
     "b33fe692dcc9": 1792028166285,
     "445c300a6b3b": 1792031787213,
     "fa9591ef1786": 1792031787213,
-    "471daf3dbbbb": 1792033565059
+    "471daf3dbbbb": 1792033565059,
+    "5a7e7995c718": 1792035379303,
+    "49651219605c": 1792035379303,
+    "1303a75d5ae8": 1792035379303
   },
   "pending": {},
   "sourceStatus": {
@@ -2319,12 +2322,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T03:05:49.006Z",
+      "at": "2026-10-15T03:35:59.123Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T03:05:49.699Z",
+      "at": "2026-10-15T03:36:00.016Z",
       "items": 1
     },
     "civilprotection": {
@@ -2335,27 +2338,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T03:05:51.875Z",
+      "at": "2026-10-15T03:36:02.376Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T03:05:53.908Z",
+      "at": "2026-10-15T03:36:10.543Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T03:05:54.865Z",
+      "at": "2026-10-15T03:36:11.776Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T03:05:55.634Z",
+      "at": "2026-10-15T03:36:12.488Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T03:05:56.505Z",
+      "at": "2026-10-15T03:36:13.202Z",
       "items": 10
     },
     "toi-greece": {
@@ -2366,22 +2369,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T03:05:57.046Z",
+      "at": "2026-10-15T03:36:13.874Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T03:05:57.226Z",
+      "at": "2026-10-15T03:36:13.990Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T03:05:57.993Z",
+      "at": "2026-10-15T03:36:14.107Z",
       "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T03:05:58.200Z",
+      "at": "2026-10-15T03:36:14.354Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2391,12 +2394,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T03:05:50.220Z",
+      "at": "2026-10-15T03:36:00.986Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T03:05:58.818Z",
+      "at": "2026-10-15T03:36:15.031Z",
       "items": 0
     },
     "hcg": {
@@ -2407,32 +2410,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T03:05:59.867Z",
+      "at": "2026-10-15T03:36:16.533Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T03:06:00.093Z",
+      "at": "2026-10-15T03:36:16.866Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T03:06:00.272Z",
-      "items": 3
+      "at": "2026-10-15T03:36:17.155Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T03:06:00.523Z",
+      "at": "2026-10-15T03:36:17.523Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T03:06:00.884Z",
-      "items": 5
+      "at": "2026-10-15T03:36:17.898Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T03:06:01.274Z",
+      "at": "2026-10-15T03:36:18.360Z",
       "items": 10
     }
   },
@@ -2569,11 +2572,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T03:06:05.059Z",
-    "considered": 1,
+    "at": "2026-10-15T03:36:19.303Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Cruise Passenger Rescued Alive After Going Overboard Near Zakynthos"
+      "· gct | Greek Lemon Rice: An Easy 6-Ingredient Pilafi for Any Dinner",
+      "· gct | Mitsotakis Brings a Hard Winter Warning to Europe",
+      "· gct | Greek Australian Activist Called a ‘White Colonialist’ at NY Palestine Rally"
     ]
   },
   "evergreenDone": [
