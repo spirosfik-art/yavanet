@@ -13,10 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "7a3449058e72": 1790847601780,
-    "ac2067f178f3": 1790848420225,
-    "4dc1cf1785fd": 1790849051180,
-    "9f157c04073b": 1790849051180,
     "a7b2571ed3cb": 1790850385409,
     "363c85b1794f": 1790850385409,
     "bbb1d73eb30a": 1790850385409,
@@ -2324,7 +2320,9 @@
     "ea49d25dfe22": 1792057156169,
     "ebb2def25362": 1792057156169,
     "89afd2e9c554": 1792057156169,
-    "ab8ad4557a3f": 1792057156169
+    "ab8ad4557a3f": 1792057156169,
+    "c64cd5871dbb": 1792058953189,
+    "2ee1d95ed29a": 1792058953189
   },
   "pending": {},
   "sourceStatus": {
@@ -2336,12 +2334,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T09:39:02.800Z",
-      "items": 10
+      "at": "2026-10-15T10:08:59.113Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T09:39:03.612Z",
+      "at": "2026-10-15T10:08:59.913Z",
       "items": 1
     },
     "civilprotection": {
@@ -2352,27 +2350,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T09:39:05.870Z",
+      "at": "2026-10-15T10:09:02.085Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T09:39:05.950Z",
+      "at": "2026-10-15T10:09:02.854Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T09:39:07.528Z",
+      "at": "2026-10-15T10:09:04.154Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T09:39:08.498Z",
-      "items": 3
+      "at": "2026-10-15T10:09:04.983Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T09:39:09.161Z",
+      "at": "2026-10-15T10:09:05.940Z",
       "items": 10
     },
     "toi-greece": {
@@ -2383,22 +2381,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T09:39:09.780Z",
+      "at": "2026-10-15T10:09:06.450Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T09:39:10.034Z",
+      "at": "2026-10-15T10:09:06.773Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T09:39:10.722Z",
+      "at": "2026-10-15T10:09:07.502Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T09:39:11.255Z",
+      "at": "2026-10-15T10:09:07.933Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2408,12 +2406,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T09:39:04.263Z",
+      "at": "2026-10-15T10:09:00.874Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T09:39:12.055Z",
+      "at": "2026-10-15T10:09:08.481Z",
       "items": 0
     },
     "hcg": {
@@ -2424,39 +2422,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T09:39:14.128Z",
+      "at": "2026-10-15T10:09:10.051Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T09:39:14.307Z",
+      "at": "2026-10-15T10:09:10.313Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T09:39:14.446Z",
-      "items": 3
+      "at": "2026-10-15T10:09:10.456Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T09:39:14.630Z",
+      "at": "2026-10-15T10:09:10.646Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T09:39:14.968Z",
-      "items": 4
+      "at": "2026-10-15T10:09:11.018Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T09:39:15.380Z",
-      "items": 10
+      "at": "2026-10-15T10:09:11.464Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-15",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "chios-airport-closure-2026",
@@ -2517,6 +2515,18 @@
         "title": "↻ Severe Storm in Rhodes: One Dead, Extensive Damage and State of Emergency Requested",
         "at": "2026-10-15T11:40:45+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "teachers-strike-athens-thessaloniki-october-21",
+        "title": "Teachers strike in Athens and Thessaloniki on October 21",
+        "at": "2026-10-15T13:09:26+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "klearchos-marousakis-weather-change-greece",
+        "title": "Weather forecast in Greece: Cold air mass approaching",
+        "at": "2026-10-15T13:09:44+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2556,6 +2566,10 @@
       {
         "slug": "high-cost-living-changes-travel-greece",
         "at": "2026-10-15T06:02:22.821Z"
+      },
+      {
+        "slug": "teachers-strike-athens-thessaloniki-october-21",
+        "at": "2026-10-15T10:09:32.992Z"
       }
     ]
   },
@@ -2658,17 +2672,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T09:39:16.169Z",
-    "considered": 7,
-    "picked": 0,
+    "at": "2026-10-15T10:09:13.189Z",
+    "considered": 2,
+    "picked": 2,
     "items": [
-      "· gct | Turkish Pressure on Haftar Risks Reviving Illegal 2019 Maritime Deal That Ignores Greek Is",
-      "· gn-hcg | Βύθιση ΕΠ/Κ-Α/Κ σκάφους στο Μαντούδι – Σύλληψη αλλοδαπής στη Ρόδο – Επακούμβηση πλοίων και",
-      "· gn-pm | Δήλωση του Πρωθυπουργού Κυριάκου Μητσοτάκη κατά την άφιξή του στη Σύνοδο του Ευρωπαϊκού Συ",
-      "· gct | Sykoutris Loukoumi: A Syros Family’s Sweet Legacy Since 1928",
-      "· naftemporiki | Από την αποκατάσταση στην πρόληψη: Πώς τα αντιδιαβρωτικά έργα προστατεύουν τις πυρόπληκτες",
-      "· naftemporiki | Έβρος: Νεκρός άνδρας σε πυρκαγιά στις Φέρες",
-      "· gct | Former Clinic Worker Recalls the Moment She Saw Mazonakis"
+      "✓ ert | Σε Αθήνα και Θεσσαλονίκη οι απεργιακές συγκεντρώσεις δασκάλων και νηπιαγωγών στις 21 Οκτωβ",
+      "✓ gn-iefimerida | Κλέαρχος Μαρουσάκης: Πότε έρχεται η νέα κακοκαιρία - Η προσωρινή βελτίωση και η «ψυχρή αέρ"
     ]
   },
   "evergreenDone": [
@@ -2710,6 +2719,25 @@
   ],
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
-  "lastPush": 1791989816775,
-  "socialQueue": []
+  "lastPush": 1792058972992,
+  "socialQueue": [
+    {
+      "slug": "teachers-strike-athens-thessaloniki-october-21",
+      "url": "https://yavanet.gr/a/teachers-strike-athens-thessaloniki-october-21/",
+      "at": "2026-10-15T10:09:32.992Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/teachers-strike-athens-thessaloniki-october-21/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/teachers-strike-athens-thessaloniki-october-21/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שביתת מורים באתונה ובסלוניקי: מה צפוי ב-21 באוקטובר",
+        "title_en": "Teachers strike in Athens and Thessaloniki on October 21",
+        "dek_he": "איגודי המורים והגננות ביוון הודיעו על שביתה כללית של 24 שעות שתתקיים ביום רביעי, 21 באוקטובר, לצד שיבושים נוספים במערכת החינוך.",
+        "dek_en": "The Hellenic Teachers Federation confirmed a 24-hour nationwide strike for Wednesday, October 21, accompanied by rallies in major cities.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/36795949/pexels-photo-36795949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שביתת מורים באתונה ובסלוניקי: מה צפוי ב-21 באוקטובר\n\nאיגודי המורים והגננות ביוון הודיעו על שביתה כללית של 24 שעות שתתקיים ביום רביעי, 21 באוקטובר, לצד שיבושים נוספים במערכת החינוך.\n\nhttps://yavanet.gr/a/teachers-strike-athens-thessaloniki-october-21/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Teachers strike in Athens and Thessaloniki on October 21\n\nThe Hellenic Teachers Federation confirmed a 24-hour nationwide strike for Wednesday, October 21, accompanied by rallies in major cities.\n\nhttps://yavanet.gr/en/a/teachers-strike-athens-thessaloniki-october-21/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
