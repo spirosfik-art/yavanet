@@ -22,13 +22,12 @@ const PTS = [
   { k: "lake", x: 786, y: 1087, km: 4.9, he: "אגם ווליאגמני", en: "Lake Vouliagmeni", tr: "Vouliagmeni Gölü", zh: "武利亚格梅尼湖", lx: -16, anchor: "end", ly: 52 },
 ];
 // Φωτογραφίες περιοχής: Wikimedia Commons (ελεύθερες άδειες, με αναφορά δημιουργού)
-const WM = (p) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${p}/1280px-${p.split("/").pop()}`;
 const AREA = {
-  v1: { src: WM("7/77/Voula_-_panoramio_%289%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(9).jpg" },
-  v2: { src: WM("6/66/Voula_-_panoramio_%286%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(6).jpg" },
-  lake: { src: WM("2/21/Vouliagmeni_lake.jpg"), by: "GeorgeBRAINiac", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Vouliagmeni_lake.jpg" },
-  astir: { src: WM("5/5f/Sunset_at_Astir_Beach%2C_Vouliagmeni%2C_Athens%2C_Greece.jpg"), by: "Vouliagmeni", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Astir_Beach,_Vouliagmeni,_Athens,_Greece.jpg" },
-  marina: { src: WM("0/0e/Glyfada_Marina_-_panoramio_%286%29.jpg"), by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Glyfada_Marina_-_panoramio_(6).jpg" },
+  v1: { src: "/voula-area-v1.jpg", by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(9).jpg" },
+  v2: { src: "/voula-area-v2.jpg", by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Voula_-_panoramio_(6).jpg" },
+  lake: { src: "/voula-area-lake.jpg", by: "GeorgeBRAINiac", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Vouliagmeni_lake.jpg" },
+  astir: { src: "/voula-area-astir.jpg", by: "Vouliagmeni", lic: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Astir_Beach,_Vouliagmeni,_Athens,_Greece.jpg" },
+  marina: { src: "/voula-area-marina.jpg", by: "Mister No", lic: "CC BY 3.0", url: "https://commons.wikimedia.org/wiki/File:Glyfada_Marina_-_panoramio_(6).jpg" },
 };
 const SWEEP = 6; // δευτερόλεπτα για έναν γύρο του ραντάρ
 const angle = (p) => { const a = (Math.atan2(p.x - HOME[0], -(p.y - HOME[1])) * 180) / Math.PI; return (a + 360) % 360; };
