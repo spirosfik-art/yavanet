@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7192878/pexels-photo-7192878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A lively outdoor concert scene at night with colorful lights and a large audience.",
+    "credit": "Photo: Bence Szemerey / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/crowd-of-people-at-a-concert-7192878/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -71,6 +76,7 @@
     "itemId": "weekend-2026-10-16",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-10-15T10:33:54+03:00"
+    "checkedAt": "2026-10-15T10:33:54+03:00",
+    "photoTried": true
   }
 }
