@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "02c1d515be10": 1790895670801,
     "5b08e6c38cb4": 1790898582241,
     "21384c3715c1": 1790901148144,
     "abcdd238287b": 1790901148144,
@@ -2344,7 +2343,8 @@
     "4990fb2088bc": 1792103757482,
     "950f1d15ba38": 1792103757482,
     "c358ac190657": 1792103757482,
-    "54e101fcb896": 1792103757482
+    "54e101fcb896": 1792103757482,
+    "8ac40000df83": 1792106150452
   },
   "pending": {},
   "sourceStatus": {
@@ -2356,12 +2356,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T22:59:32.135Z",
-      "items": 0
+      "at": "2026-10-15T23:15:38.534Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T22:59:32.861Z",
+      "at": "2026-10-15T23:15:39.292Z",
       "items": 1
     },
     "civilprotection": {
@@ -2372,27 +2372,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T22:59:34.718Z",
+      "at": "2026-10-15T23:15:41.171Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T22:59:35.114Z",
+      "at": "2026-10-15T23:15:41.359Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T22:59:36.258Z",
+      "at": "2026-10-15T23:15:42.304Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T22:59:37.134Z",
-      "items": 3
+      "at": "2026-10-15T23:15:43.143Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T22:59:37.994Z",
+      "at": "2026-10-15T23:15:43.821Z",
       "items": 10
     },
     "toi-greece": {
@@ -2403,22 +2403,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T22:59:38.608Z",
+      "at": "2026-10-15T23:15:44.429Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T22:59:38.878Z",
+      "at": "2026-10-15T23:15:44.729Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T22:59:39.491Z",
+      "at": "2026-10-15T23:15:45.470Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T22:59:39.730Z",
+      "at": "2026-10-15T23:15:45.930Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2428,12 +2428,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T22:59:33.572Z",
+      "at": "2026-10-15T23:15:40.248Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T22:59:40.412Z",
+      "at": "2026-10-15T23:15:46.708Z",
       "items": 0
     },
     "hcg": {
@@ -2444,32 +2444,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T22:59:41.862Z",
+      "at": "2026-10-15T23:15:48.214Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T22:59:42.229Z",
+      "at": "2026-10-15T23:15:48.501Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T22:59:42.442Z",
+      "at": "2026-10-15T23:15:48.661Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T22:59:42.762Z",
+      "at": "2026-10-15T23:15:48.884Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T22:59:43.157Z",
+      "at": "2026-10-15T23:15:49.247Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T22:59:43.648Z",
+      "at": "2026-10-15T23:15:49.639Z",
       "items": 12
     }
   },
@@ -2591,18 +2591,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T22:35:57.482Z",
-    "considered": 8,
+    "at": "2026-10-15T23:15:50.452Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | 16 October Orthodox Gospel Teaches Us to Look Beyond Appearances",
-      "· gct | The Trick Greek Drivers Use to Park Anywhere",
-      "· ert | Ρωσία: Ουκρανικά drones έπληξαν βιομηχανικές εγκαταστάσεις στην περιοχή του Ροστόφ",
-      "· gct | EU Budget and Energy Talks End in Deadlock in Brussels",
-      "· gct | Parthenon Sculptures Sharing Plan Rejected by Greece",
-      "· gct | Primary Surplus Beats Target Through September",
-      "· gct | Ceiling Falls on Pupil During Class in Korydallos",
-      "· gn-iefimerida | Όλγα Κεφαλογιάννη: Στρατηγική προτεραιότητα η αναβάθμιση του θαλάσσιου τουρισμού - iefimer"
+      "· gct | Ukraine Resumes Strikes on Russian Refineries After Ending Trump Energy Truce"
     ]
   },
   "evergreenDone": [
