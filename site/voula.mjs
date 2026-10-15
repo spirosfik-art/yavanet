@@ -65,7 +65,7 @@ const C = {
     facts: [["152", "מ\"ר", "גינה בשימוש בלעדי"], ["126.48", "מ\"ר", "שטח מגורים בשני מפלסים"], ["3", "", "חדרי שינה, שניים מהם במפלס העליון"], ["520", "מ\"ר", "מגרש עם שני בתים בלבד"]],
     galH: "אחרי השקיעה",
     galP: "גררו הצידה",
-    gal: [["voula-living", "סלון בגובה כפול"], ["voula-kitchen", "מטבח עם אי"], ["voula-lounge", "הסלון מול הבריכה"], ["voula-bedroom", "חדר השינה המאסטר, יציאה לגינה"], ["voula-bath", "חדר רחצה צמוד"], ["voula-lawn", "הגינה הצדדית"], ["voula-pergola", "פינת ישיבה מתחת לפרגולה"]],
+    gal: [["voula-facade", "הכניסה לבניין"], ["voula-facade-n", "הכניסה בערב"], ["voula-ext", "הבית והבריכה"], ["voula-ext-n", "הבית בערב"], ["voula-pool", "מרפסת הבריכה"], ["voula-pool-n", "הבריכה בערב"], ["voula-lounge", "סלון ומטבח פתוחים"], ["voula-lounge-n", "הסלון בערב"], ["voula-living", "סלון בגובה כפול"], ["voula-living-n", "הסלון בגובה כפול בערב"], ["voula-loft", "מבט מלמעלה על הסלון"], ["voula-kitchen", "מטבח עם אי"], ["voula-kitchen-n", "המטבח בערב"], ["voula-bedroom", "חדר השינה המאסטר, יציאה לגינה"], ["voula-bedroom-n", "חדר השינה המאסטר בערב"], ["voula-wardrobe", "חדר ארונות"], ["voula-bedroom2", "חדר שינה שני"], ["voula-bath", "חדר רחצה צמוד"], ["voula-bath2", "חדר רחצה שני"], ["voula-pergola", "פינת אוכל מתחת לפרגולה"], ["voula-pergola-n", "הפרגולה בערב"], ["voula-lawn", "הגינה הפרטית (הצעת שתילה)"], ["voula-lawn-n", "הגינה בערב (הצעת שתילה)"]],
     lvH: "שלושה מפלסים",
     lv: [["+2.95", "50.58", "מפלס עליון", "שני חדרי שינה, אחד מהם עם ארון הליכה פתוח וחדר רחצה פרטי, המשקיפים אל הסלון."], ["±0.00", "75.90", "קומת קרקע", "סלון בגובה כפול שנפתח אל הבריכה, מטבח עם אי, חדר שינה מאסטר עם חדר רחצה צמוד ויציאה לגינה."], ["מרתף", "32.56", "חלל עזר", "חדר משחקים, חדר כושר או חדר נוסף. חניה בחניון התת-קרקעי."]],
     gvEye: "ויזת זהב",
@@ -111,7 +111,7 @@ const C = {
     facts: [["152", "m²", "Exclusive-use garden"], ["126.48", "m²", "Living space on two levels"], ["3", "", "Bedrooms, two on the upper level"], ["520", "m²", "Plot shared by only two homes"]],
     galH: "After dusk",
     galP: "Swipe sideways",
-    gal: [["voula-living", "Double-height living room"], ["voula-kitchen", "Kitchen with island"], ["voula-lounge", "Living room toward the pool"], ["voula-bedroom", "Master bedroom, garden access"], ["voula-bath", "En-suite bathroom"], ["voula-lawn", "Side garden"], ["voula-pergola", "Lounge under the pergola"]],
+    gal: [["voula-facade", "Building entrance"], ["voula-facade-n", "Entrance at night"], ["voula-ext", "The house and pool"], ["voula-ext-n", "The house at night"], ["voula-pool", "Pool terrace"], ["voula-pool-n", "The pool at night"], ["voula-lounge", "Open-plan living and kitchen"], ["voula-lounge-n", "Living room in the evening"], ["voula-living", "Double-height living room"], ["voula-living-n", "Double-height living, evening"], ["voula-loft", "The living room from above"], ["voula-kitchen", "Kitchen with island"], ["voula-kitchen-n", "The kitchen in the evening"], ["voula-bedroom", "Master bedroom, garden access"], ["voula-bedroom-n", "Master bedroom, evening"], ["voula-wardrobe", "Walk-in wardrobe"], ["voula-bedroom2", "Second bedroom"], ["voula-bath", "En-suite bathroom"], ["voula-bath2", "Second bathroom"], ["voula-pergola", "Dining under the pergola"], ["voula-pergola-n", "The pergola at night"], ["voula-lawn", "Private garden (planting proposal)"], ["voula-lawn-n", "The garden at night (planting proposal)"]],
     lvH: "Three levels",
     lv: [["+2.95", "50.58", "Upper level", "Two bedrooms, one with an open walk-in wardrobe and private bathroom, overlooking the living room."], ["±0.00", "75.90", "Ground floor", "Double-height living room opening onto the pool, kitchen with island, master bedroom with en-suite and garden door."], ["Basement", "32.56", "Auxiliary room", "Playroom, gym or extra room. Parking space in the basement garage."]],
     gvEye: "Golden Visa",
@@ -157,7 +157,7 @@ const C = {
     facts: [["152", "m²", "专属使用花园"], ["126.48", "m²", "两层居住面积"], ["3", "", "卧室，其中两间在上层"], ["520", "m²", "地块上仅有两栋住宅"]],
     galH: "日落之后",
     galP: "左右滑动",
-    gal: [["voula-living", "挑高客厅"], ["voula-kitchen", "岛台厨房"], ["voula-lounge", "面向泳池的客厅"], ["voula-bedroom", "主卧，直通花园"], ["voula-bath", "主卧卫浴"], ["voula-lawn", "侧花园"], ["voula-pergola", "凉棚下的休憩区"]],
+    gal: [["voula-facade", "楼宇入口"], ["voula-facade-n", "夜间入口"], ["voula-ext", "住宅与泳池"], ["voula-ext-n", "夜色中的住宅"], ["voula-pool", "泳池露台"], ["voula-pool-n", "夜间泳池"], ["voula-lounge", "开放式客厅与厨房"], ["voula-lounge-n", "傍晚的客厅"], ["voula-living", "挑高客厅"], ["voula-living-n", "傍晚的挑高客厅"], ["voula-loft", "俯瞰客厅"], ["voula-kitchen", "岛台厨房"], ["voula-kitchen-n", "傍晚的厨房"], ["voula-bedroom", "主卧，直通花园"], ["voula-bedroom-n", "傍晚的主卧"], ["voula-wardrobe", "步入式衣帽间"], ["voula-bedroom2", "第二卧室"], ["voula-bath", "主卧卫浴"], ["voula-bath2", "第二卫浴"], ["voula-pergola", "凉棚下的餐区"], ["voula-pergola-n", "夜间凉棚"], ["voula-lawn", "私家花园（种植方案）"], ["voula-lawn-n", "夜间花园（种植方案）"]],
     lvEye: "房屋剖面",
     lvH: "三个楼层",
     lv: [["+2.95", "50.58", "上层", "两间卧室，其中一间带开放式衣帽间和独立卫浴，俯瞰客厅。"], ["±0.00", "75.90", "底层", "挑高客厅直通泳池，岛台厨房，主卧带独立卫浴并可直达花园。"], ["地下室", "32.56", "辅助空间", "可作游戏室、健身房或额外房间。地下车库内设专属车位。"]],
@@ -204,7 +204,7 @@ const C = {
     facts: [["152", "m²", "Özel kullanımlı bahçe"], ["126.48", "m²", "İki katta yaşam alanı"], ["3", "", "Yatak odası, ikisi üst katta"], ["520", "m²", "Yalnızca iki evin bulunduğu arsa"]],
     galH: "Gün batımından sonra",
     galP: "Yana kaydırın",
-    gal: [["voula-living", "Çift yükseklikte salon"], ["voula-kitchen", "Adalı mutfak"], ["voula-lounge", "Havuza bakan salon"], ["voula-bedroom", "Bahçeye çıkışlı ebeveyn yatak odası"], ["voula-bath", "Ebeveyn banyosu"], ["voula-lawn", "Yan bahçe"], ["voula-pergola", "Pergola altında oturma alanı"]],
+    gal: [["voula-facade", "Bina girişi"], ["voula-facade-n", "Gece giriş"], ["voula-ext", "Ev ve havuz"], ["voula-ext-n", "Gece ev"], ["voula-pool", "Havuz terası"], ["voula-pool-n", "Gece havuz"], ["voula-lounge", "Açık plan salon ve mutfak"], ["voula-lounge-n", "Akşam salon"], ["voula-living", "Çift yükseklikte salon"], ["voula-living-n", "Akşam çift yükseklikte salon"], ["voula-loft", "Yukarıdan salon"], ["voula-kitchen", "Adalı mutfak"], ["voula-kitchen-n", "Akşam mutfak"], ["voula-bedroom", "Bahçeye çıkışlı ebeveyn yatak odası"], ["voula-bedroom-n", "Akşam ebeveyn yatak odası"], ["voula-wardrobe", "Giyinme odası"], ["voula-bedroom2", "İkinci yatak odası"], ["voula-bath", "Ebeveyn banyosu"], ["voula-bath2", "İkinci banyo"], ["voula-pergola", "Pergola altında yemek alanı"], ["voula-pergola-n", "Gece pergola"], ["voula-lawn", "Özel bahçe (bitkilendirme önerisi)"], ["voula-lawn-n", "Gece bahçe (bitkilendirme önerisi)"]],
     lvEye: "Evin kesiti",
     lvH: "Üç kat",
     lv: [["+2.95", "50.58", "Üst kat", "İki yatak odası; biri açık giyinme odalı ve kendi banyolu, salona bakıyor."], ["±0.00", "75.90", "Zemin kat", "Havuza açılan çift yükseklikte salon, adalı mutfak, banyolu ve bahçeye çıkışlı ebeveyn yatak odası."], ["Bodrum", "32.56", "Yardımcı alan", "Oyun odası, spor salonu veya ek oda. Kapalı otoparkta park yeri."]],
@@ -282,6 +282,8 @@ function localForm(lang, html) {
   return out.replace('<form class="form"', `<form class="form" data-ok="${esc(m.ok)}" data-bad="${esc(m.bad)}" data-err="${esc(m.err)}"`);
 }
 
+const PORTRAIT = new Set(["voula-wardrobe", "voula-bath", "voula-bath2"]);
+
 export function voulaShowcase(a, lang) {
   const he = lang === "he", c = C[lang];
   const wa = WA(he, lang);
@@ -330,7 +332,7 @@ export function voulaShowcase(a, lang) {
 <section class="vx-gal" id="vx-photos">
   <div class="vx-head"><span class="vx-kick">${esc(c.galP)} →</span><h2>${esc(c.galH)}</h2></div>
   <div class="vx-strip" tabindex="0">
-    ${c.gal.map(([f, cap], i) => `<figure data-rv style="--i:${i}"><img src="/${f}.jpg" alt="${esc(cap)}" loading="lazy" width="556" height="748"><figcaption><em>${String(i + 1).padStart(2, "0")}</em>${esc(cap)}</figcaption></figure>`).join("")}
+    ${c.gal.map(([f, cap], i) => { const p = PORTRAIT.has(f); return `<figure data-rv${p ? ' class="vx-p"' : ""} style="--i:${i}"><img src="/${f}.jpg" alt="${esc(cap)}" loading="lazy" width="${p ? 900 : 1600}" height="${p ? 1200 : 1067}"><figcaption><em>${String(i + 1).padStart(2, "0")}</em>${esc(cap)}</figcaption></figure>`; }).join("")}
   </div>
 </section>
 
@@ -409,7 +411,7 @@ const CSS = `
 
 /* hero */
 .vx-hero{position:relative;min-height:clamp(560px,82vh,760px);display:flex;align-items:flex-end;padding:clamp(22px,5vw,64px);overflow:hidden}
-.vx-hero-bg{position:absolute;inset:-4%;background-size:cover;background-position:center;animation:vxKen 26s ease-in-out infinite alternate;z-index:-2}
+.vx-hero-bg{position:absolute;inset:-4%;background-size:cover;background-position:center 78%;animation:vxKen 26s ease-in-out infinite alternate;z-index:-2}
 .vx-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(11,22,32,.25) 0%,rgba(11,22,32,.35) 35%,rgba(11,22,32,.96) 88%)}
 @keyframes vxKen{from{transform:scale(1) translate(0,0)}to{transform:scale(1.1) translate(-2%,-2%)}}
 .vx-hero-in{display:grid;gap:18px;max-width:760px}
@@ -484,11 +486,13 @@ const CSS = `
 .vx-fact b small{font:500 15px var(--mono);color:var(--dim);margin-inline-start:6px}
 .vx-fact>span{color:var(--dim);font-size:15px}
 
+@media (max-width:760px){.vx-hero-bg{background-position:74% 70%}}
 /* gallery */
 .vx-gal{background:linear-gradient(180deg,var(--n),var(--n2))}
 .vx-strip{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px;margin-inline:calc(-1 * clamp(18px,5vw,64px));padding-inline:clamp(18px,5vw,64px);scrollbar-width:thin;scrollbar-color:var(--n3) transparent}
-.vx-strip figure{margin:0;flex:0 0 clamp(240px,30vw,340px);scroll-snap-align:center;display:grid;gap:12px}
-.vx-strip img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:16px;display:block;transition:transform .6s cubic-bezier(.2,.8,.2,1),filter .6s}
+.vx-strip figure{margin:0;flex:0 0 auto;width:min(84vw,calc(clamp(230px,40vw,420px) * 1.5));scroll-snap-align:center;display:grid;gap:12px;align-content:start}
+.vx-strip figure.vx-p{width:calc(clamp(230px,40vw,420px) * .75)}
+.vx-strip img{width:100%;height:clamp(230px,40vw,420px);object-fit:cover;border-radius:16px;display:block;transition:transform .6s cubic-bezier(.2,.8,.2,1),filter .6s}
 .vx-strip figure:hover img{transform:scale(1.03) rotate(-.6deg);filter:brightness(1.1)}
 .vx-strip figcaption{display:flex;gap:10px;color:var(--dim);font-size:15px}
 .vx-strip figcaption em{font:500 13px var(--mono);font-style:normal;color:var(--gold)}
