@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "6439fdab12a6": 1790827381137,
     "527b8ff35b07": 1790828773829,
     "909ff1374759": 1790828773829,
     "a3e7708ef2c7": 1790830947101,
@@ -2310,7 +2309,11 @@
     "471daf3dbbbb": 1792033565059,
     "5a7e7995c718": 1792035379303,
     "49651219605c": 1792035379303,
-    "1303a75d5ae8": 1792035379303
+    "1303a75d5ae8": 1792035379303,
+    "0e4ea20ba431": 1792037348663,
+    "db37192aa683": 1792037348663,
+    "25ee5fd76c55": 1792037348663,
+    "80c23f24a9a3": 1792037348663
   },
   "pending": {},
   "sourceStatus": {
@@ -2322,12 +2325,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T03:35:59.123Z",
+      "at": "2026-10-15T04:08:34.993Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T03:36:00.016Z",
+      "at": "2026-10-15T04:08:35.759Z",
       "items": 1
     },
     "civilprotection": {
@@ -2338,27 +2341,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T03:36:02.376Z",
+      "at": "2026-10-15T04:08:38.547Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T03:36:10.543Z",
+      "at": "2026-10-15T04:08:38.942Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T03:36:11.776Z",
+      "at": "2026-10-15T04:08:40.404Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T03:36:12.488Z",
-      "items": 2
+      "at": "2026-10-15T04:08:41.374Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T03:36:13.202Z",
+      "at": "2026-10-15T04:08:42.390Z",
       "items": 10
     },
     "toi-greece": {
@@ -2369,22 +2372,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T03:36:13.874Z",
+      "at": "2026-10-15T04:08:43.002Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-10-15T03:36:13.990Z",
-      "items": 15
+      "ok": false,
+      "at": "2026-10-15T04:09:03.004Z",
+      "error": "This operation was aborted",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T03:36:14.107Z",
-      "items": 1
+      "at": "2026-10-15T04:09:03.754Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T03:36:14.354Z",
+      "at": "2026-10-15T04:09:03.952Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2394,12 +2398,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T03:36:00.986Z",
+      "at": "2026-10-15T04:08:36.801Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T03:36:15.031Z",
+      "at": "2026-10-15T04:09:04.798Z",
       "items": 0
     },
     "hcg": {
@@ -2410,32 +2414,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T03:36:16.533Z",
+      "at": "2026-10-15T04:09:06.145Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T03:36:16.866Z",
+      "at": "2026-10-15T04:09:06.446Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T03:36:17.155Z",
-      "items": 2
+      "at": "2026-10-15T04:09:06.631Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T03:36:17.523Z",
-      "items": 6
+      "at": "2026-10-15T04:09:06.873Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T03:36:17.898Z",
+      "at": "2026-10-15T04:09:07.238Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T03:36:18.360Z",
+      "at": "2026-10-15T04:09:07.741Z",
       "items": 10
     }
   },
@@ -2461,6 +2465,12 @@
         "title": "Greece Maintains Strong Long-Haul Appeal as Autumn Travel Shifts",
         "at": "2026-10-15T02:32:35+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "orange-rain-warning-east-sterea-evvoia-2",
+        "title": "↻ Storm update in Greece: Rodos and Evia assess damage",
+        "at": "2026-10-15T07:09:23+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2572,13 +2582,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T03:36:19.303Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-15T04:09:08.663Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· gct | Greek Lemon Rice: An Easy 6-Ingredient Pilafi for Any Dinner",
-      "· gct | Mitsotakis Brings a Hard Winter Warning to Europe",
-      "· gct | Greek Australian Activist Called a ‘White Colonialist’ at NY Palestine Rally"
+      "· naftemporiki | Τι έρχεται μετά την Γκιλφόιλ",
+      "· naftemporiki | Νέο μίγμα στρατηγικής για εταιρείες ακινήτων",
+      "· naftemporiki | Τραμπ: «Όσοι διαρρέουν πληροφορίες για στρατιωτικές επιχειρήσεις στα ΜΜΕ πρέπει να τουφεκί",
+      "✓ ingr | Μικρό διάλειμμα μετά τη φονική κακοκαιρία, νέα επιδείνωση από την Παρασκευή – Μετρούν πληγ"
     ]
   },
   "evergreenDone": [
