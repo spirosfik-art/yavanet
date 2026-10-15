@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "d7c619978c4c": 1790893352453,
     "02c1d515be10": 1790895670801,
     "5b08e6c38cb4": 1790898582241,
     "21384c3715c1": 1790901148144,
@@ -2337,7 +2336,15 @@
     "e4504b655b90": 1792101807116,
     "86ec9fba744c": 1792101807116,
     "3fed6286f710": 1792101807116,
-    "e7bf2cfcc597": 1792101807116
+    "e7bf2cfcc597": 1792101807116,
+    "90274a4b2796": 1792103757482,
+    "ef8fb0cc562a": 1792103757482,
+    "df607c857cd1": 1792103757482,
+    "f7e447eb3141": 1792103757482,
+    "4990fb2088bc": 1792103757482,
+    "950f1d15ba38": 1792103757482,
+    "c358ac190657": 1792103757482,
+    "54e101fcb896": 1792103757482
   },
   "pending": {},
   "sourceStatus": {
@@ -2349,12 +2356,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T22:03:13.238Z",
+      "at": "2026-10-15T22:35:45.190Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T22:03:14.201Z",
+      "at": "2026-10-15T22:35:45.951Z",
       "items": 1
     },
     "civilprotection": {
@@ -2365,27 +2372,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T22:03:16.363Z",
-      "items": 25
+      "at": "2026-10-15T22:35:47.731Z",
+      "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T22:03:16.624Z",
+      "at": "2026-10-15T22:35:48.148Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T22:03:17.913Z",
+      "at": "2026-10-15T22:35:49.168Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T22:03:18.936Z",
-      "items": 2
+      "at": "2026-10-15T22:35:49.979Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T22:03:19.572Z",
+      "at": "2026-10-15T22:35:50.755Z",
       "items": 10
     },
     "toi-greece": {
@@ -2396,23 +2403,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T22:03:20.202Z",
+      "at": "2026-10-15T22:35:51.298Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T22:03:20.328Z",
+      "at": "2026-10-15T22:35:51.637Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T22:03:21.938Z",
+      "at": "2026-10-15T22:35:52.149Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T22:03:22.485Z",
-      "items": 7
+      "at": "2026-10-15T22:35:52.937Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2421,12 +2428,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T22:03:14.873Z",
+      "at": "2026-10-15T22:35:46.757Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T22:03:23.273Z",
+      "at": "2026-10-15T22:35:53.689Z",
       "items": 0
     },
     "hcg": {
@@ -2437,32 +2444,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T22:03:24.778Z",
+      "at": "2026-10-15T22:35:55.185Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T22:03:25.061Z",
+      "at": "2026-10-15T22:35:55.480Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T22:03:25.284Z",
+      "at": "2026-10-15T22:35:55.657Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T22:03:25.601Z",
+      "at": "2026-10-15T22:35:55.847Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T22:03:25.941Z",
+      "at": "2026-10-15T22:35:56.215Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T22:03:26.386Z",
+      "at": "2026-10-15T22:35:56.785Z",
       "items": 12
     }
   },
@@ -2584,15 +2591,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T22:03:27.116Z",
-    "considered": 5,
+    "at": "2026-10-15T22:35:57.482Z",
+    "considered": 8,
     "picked": 0,
     "items": [
-      "· gct | Trump Donor Sues Ex-Greece Ambassador Kimberly Guilfoyle for Defamation",
-      "· gct | Court Blocks Tax Auctions of Family Homes",
-      "· gct | Four Hurt in Fresh Blast at Corinth Refinery",
-      "· gct | Rhodes Flood Defences Still Stuck After Deadly Storm",
-      "· ingr | «Τώρα μιλάμε για την ακρίβεια»: Η ΕΛΑΣ για το πρόβλημα στην Ελλάδα και πώς διαμορφώνεται η"
+      "· gct | 16 October Orthodox Gospel Teaches Us to Look Beyond Appearances",
+      "· gct | The Trick Greek Drivers Use to Park Anywhere",
+      "· ert | Ρωσία: Ουκρανικά drones έπληξαν βιομηχανικές εγκαταστάσεις στην περιοχή του Ροστόφ",
+      "· gct | EU Budget and Energy Talks End in Deadlock in Brussels",
+      "· gct | Parthenon Sculptures Sharing Plan Rejected by Greece",
+      "· gct | Primary Surplus Beats Target Through September",
+      "· gct | Ceiling Falls on Pupil During Class in Korydallos",
+      "· gn-iefimerida | Όλγα Κεφαλογιάννη: Στρατηγική προτεραιότητα η αναβάθμιση του θαλάσσιου τουρισμού - iefimer"
     ]
   },
   "evergreenDone": [
