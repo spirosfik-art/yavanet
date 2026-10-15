@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "f48516ddb61d": 1790836328858,
     "390cb0a97c42": 1790837821301,
     "4fd94cba55a6": 1790837821301,
     "115d15ae1d0a": 1790837821301,
@@ -2322,116 +2321,13 @@
     "8f03d799165d": 1792042560680,
     "76dcf35403d0": 1792042560680,
     "357594c5efd8": 1792044397010,
-    "2fda833e22f7": 1792044397010
+    "2fda833e22f7": 1792044397010,
+    "6c2947c6c7d0": 1792046753754,
+    "f259af1b52f6": 1792046753754,
+    "94d8b84a12b6": 1792046753754,
+    "1e427e7e2ec3": 1792046753754
   },
-  "pending": {
-    "d30d34": {
-      "createdAt": 1792038986746,
-      "item": {
-        "title": "Greek Authorities Order 500-Metre Security Zone for Israeli Cruise Ship Crown Iris in Kefalonia",
-        "url": "https://greekcitytimes.com/2026/10/15/crown-iris-500-metre-security-zone-argostoli-kefalonia/",
-        "summary": "Port authorities imposed a 500-metre security zone and road restrictions around the Crown Iris during its Argostoli call on 14 October amid past protests.\n The post Greek Authorities Order 500-Metre Security Zone for Israeli Cruise Ship Crown Iris in Kefalonia appeared first on Greek City Times .",
-        "published": "Thu, 15 Oct 2026 03:36:42 +0000",
-        "id": "a0872439420c",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "a0872439420c",
-        "section": "safety",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Greek authorities enforce a strict 500-metre security zone for the Israeli cruise ship Crown Iris in Kefalonia due to past protests, directly impacting Israeli travelers' safety and security.",
-        "item": {
-          "title": "Greek Authorities Order 500-Metre Security Zone for Israeli Cruise Ship Crown Iris in Kefalonia",
-          "url": "https://greekcitytimes.com/2026/10/15/crown-iris-500-metre-security-zone-argostoli-kefalonia/",
-          "summary": "Port authorities imposed a 500-metre security zone and road restrictions around the Crown Iris during its Argostoli call on 14 October amid past protests.\n The post Greek Authorities Order 500-Metre Security Zone for Israeli Cruise Ship Crown Iris in Kefalonia appeared first on Greek City Times .",
-          "published": "Thu, 15 Oct 2026 03:36:42 +0000",
-          "id": "a0872439420c",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "kefalonia-security-zone-crown-iris",
-        "section": "israelis",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 38.1789,
-          "lng": 20.4936
-        },
-        "strike": null,
-        "alert": {
-          "he": "אבטחה ביוון",
-          "en": "Greece Security"
-        },
-        "imageKey": "sea",
-        "imageQuery": "cruise ship sea port Greece",
-        "he": {
-          "title": "אזור אבטחה בנמל ארגוסטילי לקראת עגינת אוניית הקרוז קראון איריס",
-          "seoTitle": "אבטחה סביב קראון איריס ביוון: אזור בידוק ברודוס וסביבתה",
-          "seoDesc": "הרשויות ביוון הציבו אזור אבטחה ימי בארגוסטילי שבים לקראת הגעת אוניית הקרוז הישראלית קראון איריס, כולל מגבלות תנועה בנמל ובסביבתו.",
-          "keywords": [
-            "קראון איריס",
-            "קפלוניה",
-            "יוון",
-            "אוניית קרוז",
-            "מנו ספנות"
-          ],
-          "dek": "רשויות הנמל בקפלוניה הקימו מעטפת אבטחה ימית ויבשתית סביב אוניית הקרוז הישראלית שהגיעה לארגוסטילי, כחלק מצעדי שמירת הסדר הציבורי.",
-          "tldr": [
-            "הטלת אזור בידוק ימי ברדיוס של 500 מטר סביב האונייה.",
-            "מגבלות תנועה לכלי רכב באזור הרציף בנמל ארגוסטילי.",
-            "הפעולה נועדה לשמור על הביטחון והסדר הציבורי בעיר."
-          ],
-          "means": "אם אתם מתכננים הגעה לאזור נמל ארגוסטילי בקפלוניה או שאתם שוהים באי, כדאי להתעדכן בשינויים בהסדרי התנועה ברציף ובדרכי הגישה. מומלץ לעקוב אחר הודעות רשויות הנמל המקומיות ולהיערך לעיכובים קלים באזור החוף בשל מעטפת האבטחה הזמנית.",
-          "body": "## מעטפת אבטחה ימית ויבשתית בארגוסטילי\n\nרשויות הנמל ביוון קבעו אזור אבטחה ימי ברדיוס של 500 מטר סביב אוניית הקרוז קראון איריס, המופעלת על ידי חברת מנו ספנות הישראלית. הצעד ננקט לרגל עגינתה המתוכננת של האונייה בנמל ארגוסטילי שבאי קפלוניה.\n\nעל פי ההנחיות הרשמיות, נאסרה תנועת כלי שיט, ממונעים ושאינם ממונעים כאחד, במרחק של פחות מ-500 מטרים מרציף העגינה של האונייה בשעות היום. עם זאת, פעילות המעבורות בקו הסדיר המקשר בין ארגוסטילי לליקשורי המשיכה כמתוכנן וללא הגבלות.\n\n## מגבלות תנועה בקרבת הרציף\n\nמלבד ההגבלות הימיות, הרשויות הטילו גם פיקוח ומגבלות על תנועת כלי רכב בחלק מקו החוף של הנמל. חסימות הגישה לטובת כלי הרכב נכנסו לתוקף בשעות הלילה המאוחרות ונמשכו לאורך יום הביקור של האונייה.\n\nמהרשויות נמסר כי הצעדים הללו אושרו במטרה להבטיח את הסדר הציבורי, הביטחון והבטיחות במהלך שהות האונייה בנמל, מבלי לציין איום ספציפי או אירוע חריג שהוביל להחלטה."
-        },
-        "en": {
-          "title": "Security Zone Established in Kefalonia for Cruise Ship Crown Iris",
-          "seoTitle": "Greece Security Zone for Cruise Ship Crown Iris in Kefalonia",
-          "seoDesc": "Greek port authorities established a maritime security zone in Argostoli, Kefalonia, during the scheduled visit of the cruise ship Crown Iris.",
-          "keywords": [
-            "Crown Iris",
-            "Kefalonia",
-            "Greece",
-            "cruise ship",
-            "Argostoli"
-          ],
-          "dek": "Port authorities in Kefalonia implemented maritime and land security restrictions around the Israeli-operated cruise ship during its call at Argostoli.",
-          "tldr": [
-            "A 500-metre maritime security zone was enforced around the vessel.",
-            "Vehicle access along the port waterfront was temporarily restricted.",
-            "The measures were taken to maintain public order and safety during the visit."
-          ],
-          "means": "If you are travelling to Kefalonia or visiting the port area of Argostoli, check for local traffic updates near the waterfront. Keep in mind that temporary restrictions may affect movement around the port during similar cruise ship calls, and follow local instructions from port authorities.",
-          "body": "## Maritime and Land Security Measures in Argostoli\n\nGreek port authorities established a 500-metre maritime security zone surrounding the Israeli-operated cruise ship Crown Iris during its scheduled port of call in Argostoli, Kefalonia.\n\nUnder the restrictions published by local authorities, all motorised and non-motorised vessels were prohibited from entering the designated 500-metre zone around the ship's berth during daytime hours. Regular passenger ferries operating on the standard route between Argostoli and Lixouri were granted an exemption from these rules.\n\n## Waterfront Traffic Restrictions\n\nIn addition to the maritime buffer zone, vehicle access along a section of the port waterfront was restricted from late evening through the following day to manage local traffic and secure the area.\n\nOfficials stated that the protective orders were implemented solely to maintain security, safety, and public order throughout the vessel's stay. Authorities did not report any specific threats or distinct incidents linked directly to the implementation of the Argostoli security framework."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n Greek port authorities imposed a 500-metre maritime security zone around the Israeli-operated cruise ship Crown Iris during its scheduled call at Argostoli , Kefalonia, on 14 October.\n The restrictions, published by Kefalonia Focus on 13 October, banned all motorised and non-motorised vessels from approaching within 500 metres of the ship’s berth between 7 a.m. and 8 p.m. Ferries on the regular Argostoli–Lixouri service were exempt. Vehicle access along part of the port waterfront was also restricted from 11 p.m. on 13 October until 8 p.m. the following day.\n The orders were issued to maintain safety, security and public order during the ship’s visit. Authorities did not cite a specific threat or incident.\n Crown Iris, operated by Israel’s Mano Maritime, has faced repeated pro-Palestinian protests at Greek ports. In July 2025 the vessel left Syros early without passengers disembarking after demonstrators blocked the port. Similar protests and police interventions occurred in Rhodes, Crete and Piraeus. Separate investigations in Crete and Cyprus have involved arrests linked to possible threats against Israeli interests, although none has been publicly connected to the Argostoli measures.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Greek Lemon Rice: An Easy 6-Ingredient Pilafi for Any Dinner\n Next Article \n Greek PM Urges EU to Cut Energy Prices and Support Households\n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Ζώνη ασφαλείας στην Κεφαλονιά για το κρουαζιερόπλοιο Crown Iris",
-        "dek": "Οι λιμενικές αρχές στην Κεφαλονιά επέβαλαν ναυτικούς και χερσαίους περιορισμούς ασφαλείας γύρω από το ισραηλινής διαχείρισης κρουαζιερόπλοιο κατά τη διάρκεια της στάσης του στο Αργοστόλι.",
-        "tldr": [
-          "Μια θαλάσσια ζώνη ασφαλείας 500 μέτρων εφαρμόστηκε γύρω από το πλοίο.",
-          "Η πρόσβαση οχημάτων κατά μήκος της προκυμαίας του λιμανιού περιορίστηκε προσωρινά.",
-          "Τα μέτρα ελήφθησαν για τη διατήρηση της δημόσιας τάξης και ασφάλειας κατά τη διάρκεια της επίσκεψης."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2441,12 +2337,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T06:06:18.702Z",
+      "at": "2026-10-15T06:45:39.393Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T06:06:19.662Z",
+      "at": "2026-10-15T06:45:40.250Z",
       "items": 1
     },
     "civilprotection": {
@@ -2457,27 +2353,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T06:06:23.314Z",
+      "at": "2026-10-15T06:45:42.630Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T06:06:23.720Z",
+      "at": "2026-10-15T06:45:43.065Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T06:06:24.964Z",
+      "at": "2026-10-15T06:45:44.273Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T06:06:25.968Z",
+      "at": "2026-10-15T06:45:45.043Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T06:06:26.996Z",
+      "at": "2026-10-15T06:45:45.849Z",
       "items": 10
     },
     "toi-greece": {
@@ -2488,22 +2384,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T06:06:27.581Z",
+      "at": "2026-10-15T06:45:46.484Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T06:06:27.696Z",
+      "at": "2026-10-15T06:45:46.696Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T06:06:28.282Z",
+      "at": "2026-10-15T06:45:47.444Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T06:06:28.833Z",
+      "at": "2026-10-15T06:45:47.668Z",
       "items": 7
     },
     "ynet-greece": {
@@ -2513,12 +2409,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T06:06:21.573Z",
+      "at": "2026-10-15T06:45:41.280Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T06:06:29.565Z",
+      "at": "2026-10-15T06:45:48.478Z",
       "items": 0
     },
     "hcg": {
@@ -2529,39 +2425,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T06:06:31.237Z",
+      "at": "2026-10-15T06:45:50.112Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T06:06:31.411Z",
+      "at": "2026-10-15T06:45:50.343Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T06:06:31.559Z",
-      "items": 2
+      "at": "2026-10-15T06:45:50.569Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T06:06:31.715Z",
-      "items": 5
+      "at": "2026-10-15T06:45:50.817Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T06:06:32.074Z",
+      "at": "2026-10-15T06:45:51.209Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T06:06:32.466Z",
-      "items": 10
+      "at": "2026-10-15T06:45:51.647Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-15",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "chios-airport-closure-2026",
@@ -2604,6 +2500,12 @@
         "title": "Cost of living changes travel to Greece: Cheaper hotels and less dining out",
         "at": "2026-10-15T09:02:21+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "fire-in-piraeus-building",
+        "title": "Fire reported in a new residential building in Piraeus",
+        "at": "2026-10-15T09:46:41+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -2616,6 +2518,16 @@
         "title": "Ακίνητα: Δεν υπάρχει «φούσκα» στην εγχώρια κτηματαγορά, εκτιμά η ΤτΕ – Πού οφείλεται η άνοδος των τιμών",
         "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
         "at": "2026-10-15T05:36:04.498Z"
+      },
+      {
+        "title": "Security Zone Established in Kefalonia for Cruise Ship Crown Iris",
+        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 23",
+        "at": "2026-10-15T06:45:36.401Z"
+      },
+      {
+        "title": "Ρόδος: Ξεκίνησε η καταγραφή των ζημιών από την κακοκαιρία -Κλειστά και σήμερα τα σχολεία, επιθεωρούνται τα κτίρια - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Severe Storm in Rhodes: Roads Closed, Schools Shut and Ongoing Disruptions»: The article includes a date (October 15) in the seoTitle that is not present in the source text, violating rule 8.",
+        "at": "2026-10-15T06:46:19.724Z"
       }
     ],
     "errors": [],
@@ -2725,12 +2637,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T06:06:37.010Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-15T06:45:53.754Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· ert | Η Περιφέρεια Κεντρικής Μακεδονίας στο Πανελλήνιο Πρωτάθλημα Ορεινής Ποδηλασίας στην Κασσάν",
-      "· naftemporiki | Επενδυτικός «μαγνήτης» γίνεται η Ελλάδα"
+      "✓ naftemporiki | Υπό έλεγχο φωτιά σε νεοαναγειρόμενη πολυκατοικία στον Πειραιά",
+      "· naftemporiki | Έσοδα τριμήνου 17 δισ. δολάρια ανακοίνωσε η Anthropic καθοδόν προς την είσοδο της στο χρημ",
+      "· naftemporiki | Χρηματιστήριο: Το διεθνές περιβάλλον ρίχνει… μαύρες σκιές – Αυλαία στην IPO της Capital",
+      "✓ gn-iefimerida | Ρόδος: Ξεκίνησε η καταγραφή των ζημιών από την κακοκαιρία -Κλειστά και σήμερα τα σχολεία, "
     ]
   },
   "evergreenDone": [
