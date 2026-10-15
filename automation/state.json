@@ -13,8 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "fba93bdea250": 1790875536533,
-    "9be65b2b7ad5": 1790875536533,
     "f25b8f461628": 1790877172855,
     "3d481c950b8f": 1790877808107,
     "37bfb991ad42": 1790877808107,
@@ -2332,114 +2330,11 @@
     "43ca2ab46860": 1792084298132,
     "e966851196ce": 1792084298132,
     "64ac031fd1e3": 1792084298132,
-    "091790484cb3": 1792084298132
+    "091790484cb3": 1792084298132,
+    "22f47b8084a5": 1792085844853,
+    "056c3ae65d1d": 1792085844853
   },
-  "pending": {
-    "2c3139": {
-      "createdAt": 1792077142551,
-      "item": {
-        "title": "Νέα έκρηξη στα διυλιστήρια της «Motor Oil» – Αναφορές για δύο τραυματίες",
-        "url": "https://www.in.gr/2026/10/15/greece/nea-ekriksi-sta-diylistiria-tis-motor-oil-anafores-gia-dyo-traymaties/",
-        "summary": "Νέα έκρηξη σημειώθηκε το απόγευμα της Πέμπτης στις εγκαταστάσεις του διυλιστηρίου της Motor Oil στην Κόρινθο. \n The post Νέα έκρηξη στα διυλιστήρια της «Motor Oil» – Αναφορές για δύο τραυματίες appeared first on in.gr .",
-        "published": "Thu, 15 Oct 2026 17:45:54 +0300",
-        "id": "983c7e5025c4",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "983c7e5025c4",
-        "section": "breaking",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Explosion at Motor Oil refinery in Corinth (Agioi Theodoroi) involving contractors and injuries. Major industrial incident affecting a key infrastructure site near Athens, relevant to tourist safety and residents.",
-        "item": {
-          "title": "Νέα έκρηξη στα διυλιστήρια της «Motor Oil» – Αναφορές για δύο τραυματίες",
-          "url": "https://www.in.gr/2026/10/15/greece/nea-ekriksi-sta-diylistiria-tis-motor-oil-anafores-gia-dyo-traymaties/",
-          "summary": "Νέα έκρηξη σημειώθηκε το απόγευμα της Πέμπτης στις εγκαταστάσεις του διυλιστηρίου της Motor Oil στην Κόρινθο. \n The post Νέα έκρηξη στα διυλιστήρια της «Motor Oil» – Αναφορές για δύο τραυματίες appeared first on in.gr .",
-          "published": "Thu, 15 Oct 2026 17:45:54 +0300",
-          "id": "983c7e5025c4",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "motor-oil-refinery-explosion-korinthos",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9364,
-          "lng": 22.9436
-        },
-        "strike": null,
-        "alert": {
-          "he": "עדכון מיוון",
-          "en": "Breaking News"
-        },
-        "imageKey": "fire",
-        "imageQuery": "industrial refinery fire safety",
-        "he": {
-          "title": "פיצוץ נוסף במתקני הזיקוק של מוטור אויל בקורינתוס: שני נפגעים",
-          "seoTitle": "פיצוץ ביוון: אירוע בבתי הזיקוק בקורינתוס",
-          "seoDesc": "פיצוץ שני תוך ימים ספורים במתקני הזיקוק של מוטור אויל בקורינתוס. שני עובדים פונו לבית החולים עם כוויות.",
-          "keywords": [
-            "יוון",
-            "אקטואליה ביוון",
-            "חדשות יוון",
-            "קורינתוס"
-          ],
-          "dek": "שני עובדים נפצעו באורח קל עד קשה בפיצוץ נוסף שאירע במתקני חברת מוטור אויל בקורינתוס, ימים ספורים לאחר אירוע קטלני קודם באתרי החברה.",
-          "tldr": [
-            "פיצוץ אירע ביום חמישי במתקני חברת מוטור אויל בקורינתוס.",
-            "שני עובדי קבלן פונו לבית החולים המקומי כשהם סובלים מכוויות.",
-            "האירוע מגיע ימים ספורים לאחר אסון קודם במתקני הזיקוק שגבה את חיי בני אדם."
-          ],
-          "means": "האירוע מתרחש באתר תעשייתי מרוחק ואינו משפיע כרגע על תיירים או טיסות ליעדים ביוון. אין שינוי בהנחיות הבטיחות לנוסעים או למבקרים באזור אתונה והסביבה.",
-          "body": "## פיצוץ שני תוך שבוע באתרי מוטור אויל\n\nתאונה נוספת התרחשה ביום חמישי (15/10) בשעות אחר הצהריים במתקני הזיקוק של חברת מוטור אויל (Motor Oil) באזור קורינתוס (Corinth). על פי הדיווחים הראשונים מהשטח, מהפיצוץ נפצעו שני עובדי קבלן אשר סובלו מכוויות בגופם ופונו במהירות לבית החולים בקורינתוס לקבלת טיפול רפואי.\n\nהתקרית הנוכחית מגיעה ימים ספורים בלבד לאחר אסון קודם שהתרחש במתקן אחר של אותה חברה, שבו קיפחו את חיינם שני עובדי קבלן. מהחברה נמסר כי בעקבות העבודות במקום אירעה פיצוץ ללא התלקחות של שריפה, והצוותים המקצועיים הגישו עזרה ראשונה לנפגעים טרם פינויים למוסד הרפואי.\n\n## מצב החקירה והתגובות בשטח\n\nבשלב זה, שירותי הכבאות לא נדרשו להתערב באירוע הנוכחי. עם זאת, רשויות החוק ביוון ממשיכות לחקור את נסיבות התאונות החמורות באתר. בעקבות האסון הקודם שהתרחש ב-9 באוקטובר באגיוס תאודורוי (Agioi Theodoroi), משטרת יוון עצרה ארבעה אחראים, בהם מנהל עבודה, אחראי בריאות ובטיחות, מפעיל פרויקט וקבלן חיצוני, בגין גרימת פיצוץ וסיכון הציבור.\n\nביום רביעי (14/10) קיימו עובדי החברה שביתת מחאה בליווי איגודים מקצועיים על רקע תנאי הבטיחות באתרי התעשייה."
-        },
-        "en": {
-          "title": "New Explosion at Motor Oil Refinery in Corinth: Two Injured",
-          "seoTitle": "Greece Refinery Explosion: Motor Oil Incident in Corinth",
-          "seoDesc": "A second explosion in days occurred at the Motor Oil refinery in Corinth, leaving two contractor workers with burns.",
-          "keywords": [
-            "Greece news",
-            "Corinth refinery",
-            "Motor Oil explosion",
-            "Greece updates"
-          ],
-          "dek": "Two contractor workers were injured in a new explosion at the Motor Oil refinery facilities in Corinth, just days after a fatal incident at the same company.",
-          "tldr": [
-            "An explosion took place on Thursday at the Motor Oil refinery in Corinth.",
-            "Two contractor workers suffered burns and were transferred to Corinth hospital.",
-            "The incident follows a deadly industrial accident at the facilities earlier in October."
-          ],
-          "means": "This industrial incident is contained within a private facility and does not affect travel, flights, or tourism in Greece. No special safety precautions are required for visitors.",
-          "body": "## Second Incident at Refinery Facilities\n\nA new explosion occurred on Thursday afternoon (15/10) at the Motor Oil refinery facilities in Corinth. According to initial reports, two contractor workers suffered burns as a result of the blast and were immediately transferred to the hospital in Corinth for medical treatment.\n\nThe latest event comes just days after a previous explosion at another unit of the same refinery, which resulted in two fatalities among contractor workers. Company sources stated that the blast occurred during ongoing operations without triggering a fire, and first aid was provided on-site before the injured workers were transported to the hospital. Fire services were reportedly not called to intervene in this specific instance.\n\n## Investigation and Labor Actions\n\nFollowing the previous industrial accident on October 9 at the Motor Oil facilities in Agioi Theodoroi, Hellenic Police arrested four individuals, including a foreman, a health and safety officer, a project operator, and an external contractor, forming a case file for causing an explosion and public endangerment.\n\nIn response to safety concerns, workers at Motor Oil, supported by industry trade unions, had staged a strike on Wednesday (14/10)."
-        }
-      },
-      "text": "Vita.gr \n Αυχένας: Όταν το πιάσιμο γίνεται καθημερινό βάσανο\n Spotlight Ξεπέρασαν τα 100 χλμ/ώρα οι άνεμοι σε Κυκλάδες και Κρήτη \n Υπόθεση revenge porn στη Θεσσαλονίκη: Καταδίκη 39χρονου – Τι κατήγγειλε η πρώην σύντροφός του \n Ραλλού Μάνου: «Μάνο, πρέπει να με σώσεις» \n Συγκλονιστικά πλάνα από την τραγωδία στο Πακιστάν: 32 μαθητές νεκροί από κατάρρευση στέγης σχολείου \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Νέα έκρηξη σημειώθηκε το απόγευμα της Πέμπτης (15/10) στις εγκαταστάσεις του διυλιστηρίου της Motor Oil στην Κόρινθο .\n Με βάση τις πρώτες πληροφορίες από την έκρηξη έχουν τραυματιστεί δύο εργολαβικοί εργαζόμενοι, οι οποίοι έχουν υποστεί εγκαύματα και μεταφέρθηκαν στο νοσοκομείο Κορίνθου. Το νέο συμβάν έρχεται λίγες μόλις μέρες μετά την έκρηξη που έγινε πάλι σε μονάδα του διυλιστηρίου, με δύο νεκρούς εργολαβικούς εργαζόμενους.\n Κατά τη διάρκεια των εργασιών σημειώθηκε έκρηξη χωρίς να εκδηλωθεί πυρκαγιά ενώ πηγές της εταιρείας αναφέρουν ότι παρασχέθηκαν οι πρώτες βοήθειες στους τραυματίες και στη συνέχεια μεταφέρθηκαν στο νοσοκομείο Κορίνθου. Σύμφωνα με πληροφορίες η πυροσβεστική δεν κλήθηκε να συνδράμει στο περιστατικό.\n Το περιστατικό της 9ης Οκτωβρίου\n Η Ελληνική Αστυνομία, για το εργατικό δυστύχημα που σημειώθηκε το πρωί της Παρασκευής 9 Οκτωβρίου, στις εγκαταστάσεις της Motor Oil στους Αγίους Θεοδώρους, είχε προχωρήσει σε συλλήψεις. Σε βάρος των συλληφθέντων σχηματίστηκε δικογραφία για πρόκληση έκρηξης και κοινώς επικίνδυνης βλάβης.\n Πρόκειται για έναν 36χρονο υπάλληλο που εκτελούσε χρέη εργοδηγού, έναν 50χρονο υπεύθυνο του Τμήματος Υγείας και Ασφάλειας, έναν 34χρονο χειριστή έργου και έναν 59χρονο εργολάβο εξωτερικού συνεργείου.\n Υπενθυμίζεται ότι οι εργαζόμενοι στην Motor Oil, έχοντας στο πλευρό τους κλαδικά σωματεία, απήργησαν την Τετάρτη 14/10.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Lorenzo Conforti: Μια έκθεση στην Αθήνα όπου το ανθρώπινο, το ζωικό και το φυτικό γίνονται ένα \n Φωτονιάτα (ΕΛΑΣ): Όταν τα στοιχεία δεν βολεύουν την κυβέρνηση, φταίει η Eurostat; – Εργαζόμενοι σε χειρότερη θέση από το 2019 \n Ραλλού Μάνου: «Όχι δα, τι φιλία έχουμε;» \n Κόντρες στη Βουλή για νέα δομή μεταναστών στο Ηράκλειο: Προσπαθείτε να πιάσετε τις τοπικές αρχές στον ύπνο \n Εθνική ομάδα: Εξαντλήθηκαν τα εισιτήρια για το Ολλανδία – Ελλάδα \n Ζήσε τα απόλυτα cheap thrills τον μήνα που χτυπάει η καρδιά του Halloween \n «Μπλόκο» από το ΣτΕ για τις κατασχέσεις μοναδικής κατοικίας από χρέη στο Δημόσιο \n «Μεγάλο Μοντέλο Φυσικής» θα εκπαιδευτεί με δεδομένα του CERN για χάρη της επιστήμης \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
-      "issues": [],
-      "el": {
-        "title": "Νέα έκρηξη στο διυλιστήριο της Motor Oil στην Κόρινθο: Δύο τραυματίες",
-        "dek": "Δύο εργαζόμενοι εργoλαβίας τραυματίστηκαν σε νέα έκρηξη στις εγκαταστάσεις του διυλιστηρίου της Motor Oil στην Κόρινθο, λίγες μόλις ημέρες μετά από θανατηφόρο περιστατικό στην ίδια εταιρεία.",
-        "tldr": [
-          "Έκρηξη σημειώθηκε την Πέμπτη στο διυλιστήριο της Motor Oil στην Κόρινθο.",
-          "Δύο εργαζόμενοι εργολαβίας υπέστησαν εγκαύματα και μεταφέρθηκαν στο νοσοκομείο Κορίνθου.",
-          "Το συμβάν ακολουθεί ένα θανατηφόρο εργατικό ατύχημα στις εγκαταστάσεις νωρίτερα τον Οκτώβριο."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2449,12 +2344,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T17:11:26.676Z",
+      "at": "2026-10-15T17:37:11.577Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T17:11:27.162Z",
+      "at": "2026-10-15T17:37:12.362Z",
       "items": 1
     },
     "civilprotection": {
@@ -2465,27 +2360,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T17:11:28.418Z",
+      "at": "2026-10-15T17:37:14.683Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T17:11:29.139Z",
+      "at": "2026-10-15T17:37:14.757Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T17:11:30.311Z",
+      "at": "2026-10-15T17:37:16.415Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T17:11:31.040Z",
+      "at": "2026-10-15T17:37:17.271Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T17:11:31.843Z",
+      "at": "2026-10-15T17:37:18.203Z",
       "items": 10
     },
     "toi-greece": {
@@ -2496,23 +2391,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T17:11:32.203Z",
+      "at": "2026-10-15T17:37:18.905Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T17:11:32.470Z",
+      "at": "2026-10-15T17:37:19.131Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T17:11:32.881Z",
+      "at": "2026-10-15T17:37:19.226Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T17:11:33.054Z",
-      "items": 2
+      "at": "2026-10-15T17:37:19.822Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2521,12 +2416,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T17:11:27.400Z",
+      "at": "2026-10-15T17:37:13.204Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T17:11:33.480Z",
+      "at": "2026-10-15T17:37:20.621Z",
       "items": 0
     },
     "hcg": {
@@ -2537,39 +2432,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T17:11:34.809Z",
+      "at": "2026-10-15T17:37:22.317Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T17:11:35.042Z",
+      "at": "2026-10-15T17:37:22.584Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T17:11:35.264Z",
-      "items": 3
+      "at": "2026-10-15T17:37:22.849Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T17:11:35.533Z",
+      "at": "2026-10-15T17:37:23.174Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T17:11:35.928Z",
+      "at": "2026-10-15T17:37:23.586Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T17:11:36.416Z",
+      "at": "2026-10-15T17:37:24.058Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-15",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "chios-airport-closure-2026",
@@ -2684,6 +2579,12 @@
         "title": "↻ Severe Storms Trigger Red Code Mobilization Across Greece",
         "at": "2026-10-15T19:10:47+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "motor-oil-refinery-incident-corinth",
+        "title": "Corinth: Two injured in incident at Motor Oil refinery",
+        "at": "2026-10-15T20:37:08+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -2852,15 +2753,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T17:11:38.132Z",
-    "considered": 5,
+    "at": "2026-10-15T17:37:24.853Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ert | Η Χεζμπολάχ παραδέχτηκε ότι μισός τόνος εκρηκτικών που κατασχέθηκαν από την κυβέρνηση της ",
-      "· ert | Το Ισραήλ ανακοίνωσε διακοπή της εισόδου εμπορικών αγαθών στη Γάζα μετά την αναστολή συντο",
-      "· gn-iefimerida | Νέα έκρηξη με δύο τραυματίες στα διυλιστήρια της Motor Oil - iefimerida.gr",
-      "· gn-kathimerini | Ρόδος: Εως τις 23 Οκτωβρίου οι δηλώσεις ζημιών επιχειρήσεων από την κακοκαιρία - Kathimeri",
-      "· gn-kathimerini | Ισραηλινή εταιρεία φέρεται να χρησιμοποίησε διαδικτυακές διαφημίσεις για κατασκοπεία - Kat"
+      "· gct | Nikos Dendias Meets Saudi Crown Prince in Riyadh on Strategic Defense Ties",
+      "· naftemporiki | Ισραήλ: Ο Νετανιάχου αποκλείει εκ νέου τον διορισμό του ακροδεξιού Μπεν Γκβιρ στη θέση του"
     ]
   },
   "evergreenDone": [

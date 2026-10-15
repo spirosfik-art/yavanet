@@ -1,0 +1,56 @@
+{
+  "slug": "motor-oil-refinery-incident-corinth",
+  "section": "israelis",
+  "publishedAt": "2026-10-15T20:37:08+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Κόρινθος",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/15/greece/nea-ekriksi-sta-diylistiria-tis-motor-oil-anafores-gia-dyo-traymaties/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4883682/pexels-photo-4883682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A large industrial refinery with pipes and towers under a clear blue sky during the day.",
+    "credit": "Photo: Ali Mucci / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-photo-of-an-industrial-business-4883682/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "קורינתוס: שני פצועים בתקרית בבית הזיקוק מוטור אויל",
+    "dek": "תקרית במהלך עבודות תחזוקה בבית הזיקוק מוטור אויל בקורינתוס גרמה לפציעתם של שני עובדי קבלן שפונו לבית החולים. החברה הודיעה על השעיית העבודות עד יום שני.",
+    "tldr": [
+      "שני עובדי קבלן נפצעו באורח קל עד בינוני ופונו לבית חולים עם שברים.",
+      "החברה מסרה כי התקרית נגרמה כתוצאה מפליטת קיטור בזמן עבודות תחזוקה.",
+      "עבודות התחזוקה במקום הופסקו באופן מיידי עד ליום שני הקרוב."
+    ],
+    "means": "למה זה מעניין ישראלים ביוון: הדיווח נוגע לבטיחות ולתפעול של מתקני תשתית מרכזיים ביוון, באזור קורינתוס הסמוך לנתיבי נסיעה מרכזיים.",
+    "body": "שני עובדי קבלן נפצעו היום (חמישי) במהלך עבודות תחזוקה מונעת במתקני בית הזיקוק מוטור אויל בקורינתוס. השניים פונו לבית החולים המקומי כשהם סובלים משברים. על פי הודעת חברת מוטור אויל, האירוע אירע כתוצאה מפליטת קיטור ביחידה שלא הייתה פעילה בזמן ההתרחשות. החברה ציינה כי לא פרצה אש במקום, וכי צוותי כיבוי אש לא נדרשו להתערב. הרשויות וחברת מוטור אויל פתחו בבדיקה משותפת לברור הנסיבות המדויקות. בעקבות האירוע, הודיעה ההנהלה על עצירה מיידית של כל עבודות התחזוקה המונעת במתקן עד ליום שני הקרוב."
+  },
+  "en": {
+    "title": "Corinth: Two injured in incident at Motor Oil refinery",
+    "dek": "An incident during maintenance work at the Motor Oil refinery in Corinth resulted in two contractor injuries and a temporary halt in operations.",
+    "tldr": [
+      "Two contractor workers were injured and transferred to the Corinth hospital with fractures.",
+      "The company stated that the incident was caused by a steam release during maintenance.",
+      "Preventive maintenance work at the facility has been suspended until Monday."
+    ],
+    "means": "Why this matters to Israelis: It concerns industrial safety and major infrastructure operations in the Corinth region.",
+    "body": "Two contractor workers were injured on Thursday during preventive maintenance work at a non-operational unit of the Motor Oil refinery in Corinth. Both individuals were transferred to the Corinth hospital with fractures. According to the company's official announcement, the incident was caused by a steam release, while the exact causes and conditions are being investigated in cooperation with the authorities. No fire broke out, and the fire service was not called to the scene. The company announced the immediate suspension of preventive maintenance work at the refinery until Monday."
+  },
+  "meta": {
+    "itemId": "983c7e5025c4",
+    "imageQuery": "Motor Oil refinery Corinth",
+    "sourceHash": "c786c397a8e8",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-15T17:37:08.480Z",
+    "official": false
+  }
+}
