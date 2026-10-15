@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33350502/pexels-photo-33350502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Airplane on runway beside azure waters with Greek mountains in the background.",
+    "credit": "Photo: Nico Hartnauer / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/airplane-on-runway-with-greek-landscape-33350502/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-10-15T08:51:05+03:00"
+    "checkedAt": "2026-10-15T08:51:05+03:00",
+    "photoTried": true
   }
 }
