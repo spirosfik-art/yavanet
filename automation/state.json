@@ -13,11 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "c95506638281": 1790887185467,
-    "a8f38be8fed8": 1790887185467,
-    "ac1d600af74e": 1790887891787,
-    "9bdad229cb3e": 1790887891787,
-    "9a10d46fa231": 1790888482751,
     "1338f896819e": 1790891540502,
     "c67d98b4c07d": 1790892083973,
     "d7c619978c4c": 1790893352453,
@@ -2334,7 +2329,12 @@
     "37b42d10aca5": 1792094687451,
     "337463b23b17": 1792096560328,
     "555e0a4278a6": 1792096560328,
-    "c7a624f57e39": 1792096560328
+    "c7a624f57e39": 1792096560328,
+    "2f2182ae0c66": 1792098433380,
+    "2f6db5f2c411": 1792098433380,
+    "19f056a358b8": 1792098433380,
+    "36a906192a36": 1792098433380,
+    "17880dd3475c": 1792098433380
   },
   "pending": {},
   "sourceStatus": {
@@ -2346,12 +2346,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-15T20:35:42.125Z",
-      "items": 10
+      "at": "2026-10-15T21:07:01.011Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-15T20:35:42.801Z",
+      "at": "2026-10-15T21:07:01.740Z",
       "items": 1
     },
     "civilprotection": {
@@ -2362,27 +2362,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-15T20:35:49.391Z",
+      "at": "2026-10-15T21:07:03.723Z",
       "items": 25
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-15T20:35:49.801Z",
+      "at": "2026-10-15T21:07:04.154Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-15T20:35:50.869Z",
+      "at": "2026-10-15T21:07:05.334Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-15T20:35:51.670Z",
+      "at": "2026-10-15T21:07:06.255Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-15T20:35:52.242Z",
+      "at": "2026-10-15T21:07:07.116Z",
       "items": 10
     },
     "toi-greece": {
@@ -2393,23 +2393,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-15T20:35:52.777Z",
+      "at": "2026-10-15T21:07:07.723Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-15T20:35:53.229Z",
+      "at": "2026-10-15T21:07:08.007Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-15T20:35:53.484Z",
-      "items": 1
+      "at": "2026-10-15T21:07:08.108Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T20:35:53.968Z",
-      "items": 6
+      "at": "2026-10-15T21:07:08.323Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2418,12 +2418,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-15T20:35:43.954Z",
+      "at": "2026-10-15T21:07:02.407Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-15T20:35:54.715Z",
+      "at": "2026-10-15T21:07:09.009Z",
       "items": 0
     },
     "hcg": {
@@ -2434,234 +2434,55 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-15T20:35:56.204Z",
+      "at": "2026-10-15T21:07:10.358Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-15T20:35:56.395Z",
+      "at": "2026-10-15T21:07:10.562Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-15T20:35:56.614Z",
+      "at": "2026-10-15T21:07:10.760Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-15T20:35:56.817Z",
+      "at": "2026-10-15T21:07:11.024Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-15T20:35:57.162Z",
+      "at": "2026-10-15T21:07:11.410Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-15T20:35:57.577Z",
+      "at": "2026-10-15T21:07:11.825Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-15",
-    "count": 12,
-    "published": [
-      {
-        "slug": "chios-airport-closure-2026",
-        "title": "Chios Airport to Close for Four Months for Runway Works",
-        "at": "2026-10-15T00:53:51+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe weather in Greece: Third storm wave arrives this week",
-        "at": "2026-10-15T00:54:21+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-draws-long-haul-interest-autumn-2026",
-        "title": "Greece Maintains Strong Long-Haul Appeal as Autumn Travel Shifts",
-        "at": "2026-10-15T02:32:35+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Storm update in Greece: Rodos and Evia assess damage",
-        "at": "2026-10-15T07:09:23+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Severe Storm in Greece Leaves One Dead and Causes Major Damage",
-        "at": "2026-10-15T08:06:06+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "orange-rain-warning-east-sterea-evvoia-2",
-        "title": "↻ Ferry Disruptions in Greece: High Winds Affect Piraeus, Rafina and Lavrio Ports",
-        "at": "2026-10-15T08:36:18+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "high-cost-living-changes-travel-greece",
-        "title": "Cost of living changes travel to Greece: Cheaper hotels and less dining out",
-        "at": "2026-10-15T09:02:21+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fire-in-piraeus-building",
-        "title": "Fire reported in a new residential building in Piraeus",
-        "at": "2026-10-15T09:46:41+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "crown-iris-igoumenitsa-weather-diversion",
-        "title": "Crown Iris Cruise Ship Makes Emergency Stop in Igoumenitsa Due to Weather",
-        "at": "2026-10-15T10:28:32+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Severe Storm in Rhodes: One Dead, Extensive Damage and State of Emergency Requested",
-        "at": "2026-10-15T11:40:45+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "teachers-strike-athens-thessaloniki-october-21",
-        "title": "Teachers strike in Athens and Thessaloniki on October 21",
-        "at": "2026-10-15T13:09:26+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "klearchos-marousakis-weather-change-greece",
-        "title": "Weather forecast in Greece: Cold air mass approaching",
-        "at": "2026-10-15T13:09:44+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "severe-weather-greece-october-2026",
-        "title": "↻ Storm Damage in Rhodes, Evia and Skopelos: Tourists Evacuated",
-        "at": "2026-10-15T13:39:04+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "thessaloniki-metro-24-hour-service-october-17",
-        "title": "Thessaloniki: Metro to operate 24 hours on October 17",
-        "at": "2026-10-15T13:39:18+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "new-registry-for-administrative-acts-greece",
-        "title": "Greece launches new registry for revoked administrative acts",
-        "at": "2026-10-15T15:49:42+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "netanyahu-jordan-border-drones-security-2026",
-        "title": "Jordan Border: Plans in Place to Counter Drone Threats, Says PM",
-        "at": "2026-10-15T17:06:35+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "golden-visa-greece-revocation-rules-2026",
-        "title": "Greece Golden Visa: Permits revoked for fake discounts",
-        "at": "2026-10-15T17:40:27+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "golden-visa-greece-revocation-2026",
-        "title": "Greece Golden Visa: Permits to be revoked for rule breaches",
-        "at": "2026-10-15T18:11:39+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-storm-october-2026",
-        "title": "↻ Severe Storms Trigger Red Code Mobilization Across Greece",
-        "at": "2026-10-15T19:10:47+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "motor-oil-refinery-incident-corinth",
-        "title": "Corinth: Two injured in incident at Motor Oil refinery",
-        "at": "2026-10-15T20:37:08+03:00",
-        "section": "israelis"
-      }
-    ],
+    "date": "2026-10-16",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Israel Returns 22 Antiquities to Greece for First Time",
-        "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
-        "at": "2026-10-14T23:32:21.237Z"
-      },
-      {
-        "title": "Ακίνητα: Δεν υπάρχει «φούσκα» στην εγχώρια κτηματαγορά, εκτιμά η ΤτΕ – Πού οφείλεται η άνοδος των τιμών",
-        "reason": "Ίδιο θέμα με «Why Greek house prices continue to rise despite market slowdown» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T05:36:04.498Z"
-      },
-      {
-        "title": "Security Zone Established in Kefalonia for Cruise Ship Crown Iris",
-        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 23",
-        "at": "2026-10-15T06:45:36.401Z"
-      },
-      {
-        "title": "Ρόδος: Ξεκίνησε η καταγραφή των ζημιών από την κακοκαιρία -Κλειστά και σήμερα τα σχολεία, επιθεωρούνται τα κτίρια - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Severe Storm in Rhodes: Roads Closed, Schools Shut and Ongoing Disruptions»: The article includes a date (October 15) in the seoTitle that is not present in the source text, violating rule 8.",
-        "at": "2026-10-15T06:46:19.724Z"
-      },
-      {
-        "title": "Εικόνες καταστροφής στη Ρόδο μετά την κακοκαιρία -Πλημμύρες και κατολισθήσεις, θλίψη για τον 62χρονο που έχασε τραγικά τη ζωή του - iefimeri",
-        "reason": "Ίδιο θέμα με «Severe Storm in Rhodes: Roads Closed, Schools Shut and Ongoing Disruptions» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T08:00:58.449Z"
-      },
-      {
-        "title": "Ακίνητα: Οκταπλάσια η πίεση στις προσιτές κατοικίες – Το τρίπυχο των προκλήσεων",
-        "reason": "Ίδιο θέμα με «Greek Real Estate Boom: Athens Exchange Property Firms Report Strong Growth» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T08:01:03.292Z"
-      },
-      {
-        "title": "Αποτύπωμα της κακοκαιρίας και σε τουριστικές υποδομές στη Ρόδο: Οδοιπορικό του ΕΡΤnews – Αποκαρδιωτική εικόνα σε Εύβοια και Σκόπελο",
-        "reason": "Ίδιο θέμα με «Storm Damage in Rhodes, Evia and Skopelos: Tourists Evacuated» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T11:37:37.861Z"
-      },
-      {
-        "title": "Ρόδος: Έως 23/10 οι δηλώσεις ζημιών επιχειρήσεων από την κακοκαιρία",
-        "reason": "Ίδιο θέμα με «Storm Damage in Rhodes, Evia and Skopelos: Tourists Evacuated» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T14:08:12.375Z"
-      },
-      {
-        "title": "Greece 2027 Budget: Income and Tax Changes",
-        "reason": "Ουδέτερη εκδοχή: λείπει en.dek",
-        "at": "2026-10-15T15:11:47.515Z"
-      },
-      {
-        "title": "Θάνος Πλεύρης: «Αφαίρεση Golden Visa για εικονικές εκπτώσεις και παραβίαση της απαγόρευσης βραχυχρόνιας μίσθωσης» - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Greece Golden Visa: Permits revoked for fake discounts» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T19:15:25.143Z"
+        "title": "Μία προσαγωγή για την έκρηξη στη Motor Oil",
+        "reason": "Ίδιο θέμα με «Corinth: Two injured in incident at Motor Oil refinery» – δεν γράφτηκε ξανά",
+        "at": "2026-10-15T21:07:17.075Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "high-cost-living-changes-travel-greece",
-        "at": "2026-10-15T06:02:22.821Z"
-      },
-      {
-        "slug": "teachers-strike-athens-thessaloniki-october-21",
-        "at": "2026-10-15T10:09:32.992Z"
-      },
-      {
-        "slug": "new-registry-for-administrative-acts-greece",
-        "at": "2026-10-15T12:49:43.188Z"
-      },
-      {
-        "slug": "golden-visa-greece-revocation-2026",
-        "at": "2026-10-15T15:11:39.956Z"
-      }
-    ]
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-15",
+      "count": 12,
+      "rejected": 10
+    },
     {
       "date": "2026-10-14",
       "count": 4,
@@ -2760,13 +2581,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-15T20:36:00.328Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-15T21:07:13.380Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· ert | Μεξικό: Εντοπίστηκε επικίνδυνη «εγκεφαλοφάγα αμοιβάδα» – Έκλεισαν έξι τεχνητές λίμνες",
-      "· naftemporiki | Μεξικό: «Εγκεφαλοφάγα αμοιβάδα» σε έξι τεχνητές λίμνες – Θάνατος προπονητή θαλάσσιου σκι",
-      "· gn-iefimerida | Δημοσκόπηση Alco: Δέκα μονάδες διαφορά η ΝΔ από την ΕΛΑΣ, οριακά εντός Βουλής η Ελπίδα -Ακ"
+      "· naftemporiki | Capital Maritime Finance: Ζήτηση ρεκόρ €1,1 δισ. ανοίγει νέο κεφάλαιο για την ναυτιλία στη",
+      "· ingr | Πορτογαλία: Δεκάδες τραυματίες σε επιχείρηση της αστυνομίας εναντίον διαδηλωτών για τη στε",
+      "✓ ingr | Μία προσαγωγή για την έκρηξη στη Motor Oil",
+      "· gn-iefimerida | Έκρηξη στη Motor Oil: Προσήχθη ο εργολάβος του συνεργείου που έκανε εργασίες συγκόλλησης -",
+      "· gn-iefimerida | Τήνος: Βίντεο ντοκουμέντο από την έκρηξη σε χρωματοπωλείο -Καλά στην υγεία τους οι τραυματ"
     ]
   },
   "evergreenDone": [
