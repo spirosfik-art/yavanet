@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "abc054a8c35b": 1790974949059,
     "dd5d3c63b207": 1790976348610,
     "642fb05f772d": 1790977013189,
     "8a2113b7b301": 1790977013189,
@@ -2271,7 +2270,13 @@
     "8aba1cb8fa7c": 1792184026752,
     "13243d9d4cd6": 1792184026752,
     "d0548cb1e637": 1792184026752,
-    "ca36b98dfd97": 1792184026752
+    "ca36b98dfd97": 1792184026752,
+    "f8e2247c5f9c": 1792185284664,
+    "1be43eb12213": 1792185284664,
+    "f96c1b230154": 1792185284664,
+    "99bc16e5d490": 1792185284664,
+    "6e935c6a7aa9": 1792185284664,
+    "09cebb9958fa": 1792185284664
   },
   "pending": {},
   "sourceStatus": {
@@ -2283,12 +2288,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T20:53:23.452Z",
+      "at": "2026-10-16T21:14:32.818Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T20:53:24.125Z",
+      "at": "2026-10-16T21:14:33.802Z",
       "items": 5
     },
     "civilprotection": {
@@ -2299,27 +2304,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T20:53:25.224Z",
+      "at": "2026-10-16T21:14:35.397Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T20:53:25.422Z",
+      "at": "2026-10-16T21:14:35.757Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T20:53:26.229Z",
+      "at": "2026-10-16T21:14:36.757Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T20:53:26.865Z",
+      "at": "2026-10-16T21:14:37.692Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T20:53:27.461Z",
+      "at": "2026-10-16T21:14:38.555Z",
       "items": 10
     },
     "toi-greece": {
@@ -2330,23 +2335,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T20:53:27.873Z",
+      "at": "2026-10-16T21:14:39.232Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T20:53:27.973Z",
+      "at": "2026-10-16T21:14:39.462Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T20:53:28.060Z",
+      "at": "2026-10-16T21:14:39.679Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T20:53:28.223Z",
-      "items": 2
+      "at": "2026-10-16T21:14:39.881Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2355,12 +2360,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T20:53:24.343Z",
+      "at": "2026-10-16T21:14:34.197Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T20:53:29.300Z",
+      "at": "2026-10-16T21:14:40.683Z",
       "items": 0
     },
     "hcg": {
@@ -2371,147 +2376,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T20:53:32.523Z",
+      "at": "2026-10-16T21:14:42.067Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T20:53:32.762Z",
+      "at": "2026-10-16T21:14:42.411Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T20:53:33.002Z",
+      "at": "2026-10-16T21:14:42.585Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T20:53:33.204Z",
+      "at": "2026-10-16T21:14:42.817Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T20:53:33.579Z",
+      "at": "2026-10-16T21:14:43.191Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T20:53:34.050Z",
+      "at": "2026-10-16T21:14:43.665Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-16",
-    "count": 7,
-    "published": [
-      {
-        "slug": "athens-bus-trolley-route-changes-october-2026",
-        "title": "Temporary Route Changes for Athens Buses and Trolleys on Saturday",
-        "at": "2026-10-16T07:11:34+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "one-in-three-houses-empty-greece",
-        "title": "One in three homes in Greece is empty, yet finding housing remains a challenge",
-        "at": "2026-10-16T08:49:51+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-airbnb-tax-control-2023-2025",
-        "title": "Greece short-term rentals: Tax authority detects undeclared income",
-        "at": "2026-10-16T09:45:03+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "teachers-strike-athens-thessaloniki-october-21",
-        "title": "↻ Volos: Teachers Declare 24-Hour Strike on October 21",
-        "at": "2026-10-16T11:21:08+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-rent-crisis-2026",
-        "title": "Athens Rent Crisis: Housing Costs Match Average Salaries",
-        "at": "2026-10-16T13:36:38+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "volos-allocates-funds-for-school-seismic-checks",
-        "title": "Volos allocates funds for seismic checks in schools",
-        "at": "2026-10-16T17:02:28+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "rome-prosecutor-investigation-israel-ministers",
-        "title": "Rome prosecutor opens inquiry into Israeli ministers over flotilla",
-        "at": "2026-10-16T21:37:29+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "airbnb-remote-security-checks-greece",
-        "title": "Remote security checks introduced for Airbnb properties in Greece",
-        "at": "2026-10-16T23:58:31+03:00",
-        "section": "real-estate"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Μία προσαγωγή για την έκρηξη στη Motor Oil",
-        "reason": "Ίδιο θέμα με «Corinth: Two injured in incident at Motor Oil refinery» – δεν γράφτηκε ξανά",
-        "at": "2026-10-15T21:07:17.075Z"
-      },
-      {
-        "title": "Israel Returns Stolen Greek Artefacts as Athens Intensifies Parthenon Sculptures Campaign",
-        "reason": "Ίδιο θέμα με «Greek antiquities returned from Israel in official ceremony» – δεν γράφτηκε ξανά",
-        "at": "2026-10-16T00:46:32.069Z"
-      },
-      {
-        "title": "«Ψαλίδι» στις προσδοκίες για την πορεία της ελληνικής οικονομίας – Μεγάλο «αγκάθι» το υψηλό κόστος ζωής",
-        "reason": "Ίδιο θέμα με «Cost of living changes travel to Greece: Cheaper hotels and less dining out» – δεν γράφτηκε ξανά",
-        "at": "2026-10-16T03:15:07.246Z"
-      },
-      {
-        "title": "Motor Oil: Τρεις συλλήψεις μετά την έκρηξη – Το ιατρικό ανακοινωθέν",
-        "reason": "Ίδιο θέμα με «Corinth: Two injured in incident at Motor Oil refinery» – δεν γράφτηκε ξανά",
-        "at": "2026-10-16T08:22:00.448Z"
-      },
-      {
-        "title": "Έκρηξη στη Motor Oil: Στη ΜΕΘ ο ένας τραυματίας, έκαναν χειρουργεία και οι δύο -Δεν κινδυνεύει η ζωή τους - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Corinth: Two injured in incident at Motor Oil refinery» – δεν γράφτηκε ξανά",
-        "at": "2026-10-16T10:18:49.946Z"
-      },
-      {
-        "title": "Flight disruptions at Athens Airport due to Italian technical issue",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew title and article mention Ben Gurion Airport (נתב\"ג), which does not appear anywhere in the source text. Rule 8: Every number, amount, date and name must come from the source text.",
-        "at": "2026-10-16T15:08:56.037Z"
-      },
-      {
-        "title": "Athens Airport experiences flight delays due to Italian system glitch",
-        "reason": "Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-        "at": "2026-10-16T15:37:42.352Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "athens-bus-trolley-route-changes-october-2026",
-        "at": "2026-10-16T04:11:34.895Z"
-      },
-      {
-        "slug": "greece-airbnb-tax-control-2023-2025",
-        "at": "2026-10-16T06:45:04.028Z"
-      },
-      {
-        "slug": "athens-rent-crisis-2026",
-        "at": "2026-10-16T10:36:39.234Z"
-      },
-      {
-        "slug": "volos-allocates-funds-for-school-seismic-checks",
-        "at": "2026-10-16T14:02:28.618Z"
-      }
-    ]
+    "date": "2026-10-17",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-16",
+      "count": 7,
+      "rejected": 7
+    },
     {
       "date": "2026-10-15",
       "count": 12,
@@ -2615,17 +2522,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T20:53:46.752Z",
-    "considered": 7,
-    "picked": 1,
+    "at": "2026-10-16T21:14:44.664Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "· gct | Trump Fires New White House Press Secretary Katie Zacharia",
-      "· ingr | Χούθι: Νέα επίθεση στο Διεθνές Αεροδρόμιο του Άντεν με δύο πυραύλους",
-      "· ert | Euroleague: Η Χάποελ Τελ Αβίβ έβαλε φρένο στο αήττητο του Παναθηναϊκού με 91-81 στο ΟΑΚΑ",
-      "· gct | Greek and Chinese Archaeologists Dig Into Ancient Arsinoe at Angelokastro",
-      "· gn-kathimerini | Φον ντερ Λάιεν: Πέντε παρεμβάσεις για την ενεργειακή ακρίβεια – Εφεδρείες για τον χειμώνα ",
-      "· gn-kathimerini | Μουσείο Ακρόπολης: Επανεκτίθεται το άγαλμα του ιππέα του 500 π.Χ. - Kathimerini",
-      "✓ gn-kathimerini | Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb - Kathimerini"
+      "· gct | Swedish National Arrested Over Cocaine and Cannabis Shipment",
+      "· gct | Suicide Attempt by Priest Accused of Revenge Porn Delays Trial",
+      "· naftemporiki | Wall Street: Ισχυρές απώλειες με «βουτιά» στις τεχνολογικές μετοχές – Πάνω από 22 μονάδες ",
+      "· gct | Death Threats Made Against Planning Director Over Building Permits",
+      "· gct | Adoptees Return to Greece to Reconnect With Their Roots",
+      "· gn-iefimerida | Επιβάτης αεροπλάνου προκάλεσε «χάος» σε πτήση Ηράκλειο-Θεσσαλονίκη: Άναψε ηλεκτρονικό τσιγ"
     ]
   },
   "evergreenDone": [
