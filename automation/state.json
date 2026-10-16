@@ -13,9 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "9c09e738ae6a": 1790980566230,
-    "ab5f907ecfda": 1790980566230,
-    "8f2179a7abc0": 1790981442870,
     "7f10e2ab3272": 1790984916320,
     "2b461415e2b5": 1790984916320,
     "0c406856e871": 1790988418446,
@@ -2274,7 +2271,12 @@
     "3f91b80a1c6c": 1792188310986,
     "f0fceb465e65": 1792188310986,
     "1290adc5cd51": 1792188310986,
-    "5acc84dfb4dd": 1792190110379
+    "5acc84dfb4dd": 1792190110379,
+    "43555c5ca04f": 1792191704899,
+    "843f9cfea07a": 1792191704899,
+    "f7b357bed3fd": 1792191704899,
+    "8f9dc01f5467": 1792191704899,
+    "10d551e80e6b": 1792191704899
   },
   "pending": {},
   "sourceStatus": {
@@ -2286,12 +2288,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T22:35:00.076Z",
-      "items": 0
+      "at": "2026-10-16T23:01:28.648Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T22:35:00.706Z",
+      "at": "2026-10-16T23:01:30.080Z",
       "items": 5
     },
     "civilprotection": {
@@ -2302,27 +2304,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T22:35:01.895Z",
+      "at": "2026-10-16T23:01:33.508Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T22:35:02.283Z",
+      "at": "2026-10-16T23:01:34.552Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T22:35:03.007Z",
+      "at": "2026-10-16T23:01:35.695Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T22:35:03.561Z",
+      "at": "2026-10-16T23:01:36.617Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T22:35:03.999Z",
+      "at": "2026-10-16T23:01:37.611Z",
       "items": 10
     },
     "toi-greece": {
@@ -2333,22 +2335,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T22:35:04.424Z",
+      "at": "2026-10-16T23:01:38.147Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T22:35:04.742Z",
+      "at": "2026-10-16T23:01:38.287Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T22:35:05.214Z",
-      "items": 2
+      "at": "2026-10-16T23:01:38.586Z",
+      "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T22:35:05.375Z",
+      "at": "2026-10-16T23:01:39.042Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2358,12 +2360,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T22:35:00.998Z",
+      "at": "2026-10-16T23:01:30.770Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T22:35:05.931Z",
+      "at": "2026-10-16T23:01:39.700Z",
       "items": 0
     },
     "hcg": {
@@ -2374,49 +2376,56 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T22:35:08.068Z",
+      "at": "2026-10-16T23:01:42.607Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T22:35:08.310Z",
+      "at": "2026-10-16T23:01:42.830Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T22:35:08.499Z",
+      "at": "2026-10-16T23:01:43.014Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T22:35:08.824Z",
-      "items": 4
+      "at": "2026-10-16T23:01:43.204Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T22:35:09.193Z",
+      "at": "2026-10-16T23:01:43.543Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T22:35:09.725Z",
+      "at": "2026-10-16T23:01:43.960Z",
       "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-17",
-    "count": 0,
+    "count": 1,
     "published": [
       {
         "slug": "klearchos-marousakis-weather-change-greece",
         "title": "↻ Early Snowfall Hits Northern Greece as Temperatures Plunge",
         "at": "2026-10-17T00:40:58+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "tzoumerka-villages-mountains-arta-epirus",
+        "title": "Tzoumerka villages: Mountain nature and history in Arta",
+        "at": "2026-10-17T02:02:00+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [],
-    "errors": []
+    "errors": [],
+    "fb": []
   },
   "history": [
     {
@@ -2527,11 +2536,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T22:35:10.379Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-16T23:01:44.899Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· gct | Greece Wins Its First AirBadminton European Gold in Olympia"
+      "✓ gct | Tzoumerka Villages: 7 Peaceful Mountain Escapes in Arta",
+      "· gct | Vance Says White House Access Sellers Should Face Consequences",
+      "· gct | Debbie Matenopoulos Wants to Be America’s Ambassador to Greece",
+      "· gct | Marinakis Container Firm Raises €300m as Investors Pile In",
+      "· gct | Final Chipperfield Designs Approved for National Archaeological Museum Extension"
     ]
   },
   "evergreenDone": [
