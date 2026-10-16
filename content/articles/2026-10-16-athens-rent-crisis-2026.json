@@ -1,0 +1,56 @@
+{
+  "slug": "athens-rent-crisis-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-10-16T13:36:38+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "أתונה",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/16/economy/stegastiki-krisi-athina-i-poli-opou-to-enoikio-katapinei-enan-olokliro-mistho-i-mayri-lista-tis-eyropis/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15241689/pexels-photo-15241689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial perspective showing the dense urban landscape of Athens, Greece.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-athens-greece-15241689/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "משבר הדיור באתונה: השכירות בגובה המשכורת",
+    "dek": "נתונים חדשים מציגים את מצב שוק הדיור באתונה ובערים נוספות באירופה שבהן העלויות עולות על ההכנסה הממוצעת.",
+    "tldr": [
+      "מחיר השכירות הממוצע לדירת שלושה חדרים במרכז אתונה עומד על 1,164 אירו.",
+      "השכר החודשי הנקי הממוצע בעיר מגיע ל-1,156 אירו, לפי נתוני המחקר.",
+      "מצב דומה נרשם בערים נוספות כמו ליסבון, מילאנו, ברצלונה ומדריד."
+    ],
+    "means": "מה זה אומר עליכם? עבור ישראלים שמשקיעים בנדל״ן באתונה או שוקלים מגורים בעיר, הנתונים ממחישים את הלחץ הגובר בשוק השכירות ואת העלויות הגבוהות של אחזקת נכס למשפחות.",
+    "body": "שוק הדיור באתונה ממשיך להציב אתגרים משמעותיים למשקי הבית, כאשר העלויות השוטפות ממשיכות לטפס. על פי נתוני מכון המחקר של דויטשה בנק שפורסמו לאחרונה, השכר החודשי הנקי הממוצע באתונה עומד על 1,156 אירו, בעוד שעלות השכירות הממוצעת לדירת שלושה חדרים במרכז העיר מגיעה ל-1,164 אירו. פער זה מציב את הבירה היוונית בין הערים האירופיות שבהן הוצאות הדיור מגיעות לגובה משכורת חודשית מלאה. מגמה זו אינה ייחודית לאתונה בלבד; מחקרים מראים כי בערים נוספות כמו ליסבון, מילאנו, ברצלונה, מדריד ורומא, דמי השכירות הממוצעים גבוהים משמעותית מהשכר הממוצע, מה שמקשה על ההתנהלות הכלכלית של משפחות עובדות ברחבי אירופה."
+  },
+  "en": {
+    "title": "Athens Rent Crisis: Housing Costs Match Average Salaries",
+    "dek": "New data from Deutsche Bank Research highlights housing affordability challenges in Athens and major European cities.",
+    "tldr": [
+      "The average monthly net salary in Athens stands at 1,156 euros.",
+      "Average rent for a three-room apartment in the city center reaches 1,164 euros.",
+      "Similar housing cost pressures are reported in Lisbon, Milan, Barcelona, and Madrid."
+    ],
+    "means": "Why does this matter to you? For Israelis investing in Athens real estate or considering relocation, these figures reflect the ongoing tightness in the local rental market and shifting affordability trends.",
+    "body": "Housing affordability in Athens faces mounting pressure as rental costs continue to match or exceed average earnings. According to data from the Deutsche Bank Research Institute, the average net monthly salary in Athens is 1,156 euros, while the average rent for a three-room apartment in the city center reaches 1,164 euros. This places Athens among several European cities where housing expenses consume a significant portion of household income. Comparable conditions were recorded in cities such as Lisbon, Milan, Barcelona, Madrid, and Rome, where rental costs surpass standard local wages."
+  },
+  "meta": {
+    "itemId": "7c1b35d07c50",
+    "imageQuery": "Athens apartment buildings rent",
+    "sourceHash": "b372c2ac4360",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-16T10:36:39.233Z",
+    "official": false
+  }
+}
