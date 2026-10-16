@@ -13,11 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "5821e2106058": 1790972606603,
-    "06500b45fb0b": 1790973424159,
-    "456d39a5a20a": 1790973424159,
-    "9e0e0f705473": 1790973424159,
-    "ecb48fc8cfd7": 1790974327816,
     "abc054a8c35b": 1790974949059,
     "dd5d3c63b207": 1790976348610,
     "642fb05f772d": 1790977013189,
@@ -2269,9 +2264,120 @@
     "2650b95c5b94": 1792181967089,
     "c1f2f3e1210f": 1792181967089,
     "82d5fc7aa6f5": 1792181967089,
-    "f25f9afc1c15": 1792181967089
+    "f25f9afc1c15": 1792181967089,
+    "5eab4ffdc459": 1792184026752,
+    "440b64550cdf": 1792184026752,
+    "90af05cdb301": 1792184026752,
+    "8aba1cb8fa7c": 1792184026752,
+    "13243d9d4cd6": 1792184026752,
+    "d0548cb1e637": 1792184026752,
+    "ca36b98dfd97": 1792184026752
   },
-  "pending": {},
+  "pending": {
+    "01ec0e": {
+      "createdAt": 1792184049948,
+      "item": {
+        "title": "Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb - Kathimerini",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdGlxeTlSQTNyS3NCSHhxdjZIdGRESENIZkRsZmV5RG95ZmdZYTU3NWNQTkF4R2N1cUVodmlpbFd1VVF0ekNla3BJTmJpMm9mczdvQlg5ZF8xQzQxcU1MMldYREZpbWdIcklXUkNfMFZIeFktVVdRT1pGRFhWalpVMWFNUHJBVHhZZ1lmRWhXWVdFY3dnTFdiLWJ6ZzF0MGw3aDVn?oc=5",
+        "summary": "Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb &nbsp;&nbsp; Kathimerini",
+        "published": "Fri, 16 Oct 2026 10:38:37 GMT",
+        "id": "ca36b98dfd97",
+        "sourceId": "gn-kathimerini",
+        "sourceName": "Καθημερινή (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "ca36b98dfd97",
+        "section": "real-estate",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "New remote safety checks for Airbnb properties in Greece directly impact Israeli investors and property owners operating short-term rentals.",
+        "item": {
+          "title": "Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb - Kathimerini",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdGlxeTlSQTNyS3NCSHhxdjZIdGRESENIZkRsZmV5RG95ZmdZYTU3NWNQTkF4R2N1cUVodmlpbFd1VVF0ekNla3BJTmJpMm9mczdvQlg5ZF8xQzQxcU1MMldYREZpbWdIcklXUkNfMFZIeFktVVdRT1pGRFhWalpVMWFNUHJBVHhZZ1lmRWhXWVdFY3dnTFdiLWJ6ZzF0MGw3aDVn?oc=5",
+          "summary": "Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb &nbsp;&nbsp; Kathimerini",
+          "published": "Fri, 16 Oct 2026 10:38:37 GMT",
+          "id": "ca36b98dfd97",
+          "sourceId": "gn-kathimerini",
+          "sourceName": "Καθημερινή (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "airbnb-remote-security-checks-greece",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדלן ביוון",
+          "en": "Greece Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "apartment building modern architecture",
+        "he": {
+          "title": "בדיקות בטיחות מרחוק בדירות אירבינבי ביוון",
+          "seoTitle": "נדל\"ן ביוון: בדיקות בטיחות מרחוק לדירות Airbnb",
+          "seoDesc": "בדיקות בטיחות מרחוק לנכסי Airbnb ביוון: מה זה אומר עבור משקיעים ישראלים בשוק הנדל\"ן והשכרות נופש באתונה ובכל הארץ.",
+          "keywords": [
+            "נדל\"ן ביוון",
+            "Airbnb ביוון",
+            "השקעה בנדל\"ן ביוון",
+            "דירות באתונה",
+            "מיסים ביוון"
+          ],
+          "dek": "הרגולציה על השכרות נופש ביוון מתעדכנת: בדיקות בטיחות לנכסים יתבצעו מרחוק, כחלק מהמהלכים החדשים בשוק הנדל\"ן המקומי.",
+          "tldr": [
+            "הרגולציה מתעדכנת לגבי בטיחות נכסים.",
+            "הבדיקות יתבצעו מעתה מרחוק.",
+            "השינוי נוגע לכל בעלי הדירות באתרי ההשכרה."
+          ],
+          "means": "אם אתם משקיעים או מתכננים לרכוש דירה להשכרה קצרת טווח ביוון, חשוב להתעדכן בכל דרישות הבטיחות והתקנות החדשות. מומלץ לוודא מול חברת הניהול או אנשי המקצוע המקומיים שלכם באתונה או בערים אחרות שהנכס עומד בכל הכללים המעודכנים כדי להימנע מקנסות. מידע זה הינו לידיעה כללית ואינו מהווה ייעוץ משפטי.",
+          "body": "## שינויים בפיקוח על דירות להשכרה ביוון\n\nשוק השכרות הנופש ביוון ממשיך לעבור שינויים רגולטוריים, והפעם על הפרק עומדים נושאי הבטיחות בנכסים. על פי דיווחים בתקשורת המקומית, הרשויות ביוון מקדמות מתווה שבו בדיקות הבטיחות לנכסים המושכרים בפלטפורמות כמו Airbnb יתבצעו מרחוק.\n\nעבור משקיעים ישראלים רבים שרכשו דירות להשכרה באתונה ובאזורים תיירותיים נוספים, מדובר בעדכון משמעותי שמצריך מעקב צמוד אחרי ההנחיות החדשות של משרדי הממשלה הרלוונטיים.\n\n## מה המשמעות עבור בעלי הנכסים?\n\nהמעבר לבדיקות מרחוק נועד לייעל את תהליכי הפיקוח על הדירות המושכרות לטווח קצר, אך הוא אינו פוטר את בעלי הנכסים מחובת הציות לתקנות המחמירות. מי שמנהל דירות נופש ביוון חייב לוודא כי כל מערכות הבטיחות הנדרשות בנכס מותקנות ותקינות בהתאם לדרישות החוק המקומי.\n\nמומלץ לכל בעל נכס ישראלי ביוון להיות בקשר רציף עם צוות הניהול המקומי, חברות הפיקוח או עורכי הדין המלווים את ההשקעה, כדי לוודא עמידה מלאה בכל דרישות הבטיחות והרגולציה המשתנות."
+        },
+        "en": {
+          "title": "Remote security checks introduced for Airbnb properties in Greece",
+          "seoTitle": "Greece Real Estate: Remote Airbnb Security Checks",
+          "seoDesc": "Remote safety and security checks are being introduced for Airbnb properties in Greece. What this means for property investors and short-term rentals.",
+          "keywords": [
+            "Greece real estate",
+            "Airbnb Greece",
+            "property investment Greece",
+            "Athens apartments",
+            "Greek property market"
+          ],
+          "dek": "Greek authorities are implementing remote security and safety checks for short-term rental properties like Airbnb across the country.",
+          "tldr": [
+            "New remote safety checks for short-term rentals.",
+            "Regulations tightening for property owners.",
+            "Impacts the Greek holiday rental market."
+          ],
+          "means": "If you own or manage short-term rental property in Greece, ensure your asset complies with all updated safety regulations. Check with your local management team or Greek legal advisors to stay fully compliant. This information is general and does not constitute legal advice.",
+          "body": "## Changes in Safety Oversight for Greek Vacation Rentals\n\nThe regulatory landscape for short-term rentals in Greece continues to evolve, with authorities introducing remote safety and security checks for properties listed on platforms such as Airbnb.\n\nFor international property owners, including many Israelis investing in Athens and Greek islands, staying informed about these administrative updates is essential for smooth property management.\n\n## What Property Owners Should Know\n\nThe implementation of remote checks aims to streamline oversight of the burgeoning holiday rental market while maintaining strict adherence to safety standards. Property owners remain fully responsible for ensuring their apartments meet all local building, fire, and safety codes.\n\nInvestors are advised to maintain close communication with local property managers, administrative teams, and legal counsel in Greece to ensure all operational requirements are continuously met."
+        }
+      },
+      "text": "Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb - Kathimerini\nΕξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb &nbsp;&nbsp; Kathimerini",
+      "issues": [],
+      "el": {
+        "title": "Εισαγωγή εξ αποστάσεως ελέγχων ασφαλείας για τα ακίνητα Airbnb στην Ελλάδα",
+        "dek": "Οι ελληνικές αρχές εφαρμόζουν εξ αποστάσεως ελέγχους ασφαλείας και προστασίας για τα ακίνητα βραχυχρόνιας μίσθωσης, όπως το Airbnb, σε ολόκληρη τη χώρα.",
+        "tldr": [
+          "Νέοι εξ αποστάσεως έλεγχοι ασφαλείας για τις βραχυχρόνιες μισθώσεις.",
+          "Γίνονται πιο αυστηροί οι κανονισμοί για τους ιδιοκτήτες ακινήτων.",
+          "Επηρεάζεται η ελληνική αγορά ενοικίασης διακοπών."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2281,12 +2387,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T20:19:09.190Z",
-      "items": 0
+      "at": "2026-10-16T20:53:23.452Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T20:19:10.162Z",
+      "at": "2026-10-16T20:53:24.125Z",
       "items": 5
     },
     "civilprotection": {
@@ -2297,27 +2403,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T20:19:12.029Z",
+      "at": "2026-10-16T20:53:25.224Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T20:19:12.107Z",
+      "at": "2026-10-16T20:53:25.422Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T20:19:13.555Z",
+      "at": "2026-10-16T20:53:26.229Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T20:19:14.525Z",
-      "items": 0
+      "at": "2026-10-16T20:53:26.865Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T20:19:15.565Z",
+      "at": "2026-10-16T20:53:27.461Z",
       "items": 10
     },
     "toi-greece": {
@@ -2328,22 +2434,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T20:19:17.830Z",
+      "at": "2026-10-16T20:53:27.873Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T20:19:17.981Z",
+      "at": "2026-10-16T20:53:27.973Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T20:19:18.912Z",
+      "at": "2026-10-16T20:53:28.060Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T20:19:19.192Z",
+      "at": "2026-10-16T20:53:28.223Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2353,12 +2459,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T20:19:10.849Z",
+      "at": "2026-10-16T20:53:24.343Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T20:19:20.084Z",
+      "at": "2026-10-16T20:53:29.300Z",
       "items": 0
     },
     "hcg": {
@@ -2369,32 +2475,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T20:19:22.107Z",
+      "at": "2026-10-16T20:53:32.523Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T20:19:22.388Z",
-      "items": 3
+      "at": "2026-10-16T20:53:32.762Z",
+      "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T20:19:22.602Z",
+      "at": "2026-10-16T20:53:33.002Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T20:19:22.869Z",
+      "at": "2026-10-16T20:53:33.204Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T20:19:23.287Z",
-      "items": 8
+      "at": "2026-10-16T20:53:33.579Z",
+      "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T20:19:23.684Z",
+      "at": "2026-10-16T20:53:34.050Z",
       "items": 5
     }
   },
@@ -2607,14 +2713,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T20:19:27.089Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-16T20:53:46.752Z",
+    "considered": 7,
+    "picked": 1,
     "items": [
-      "· gct | Jennifer Lopez and Robbie Williams Eye Larnaca Next Summer",
-      "· gct | Panathinaikos’ “Captain” George Vardinogiannis Dies at 90",
-      "· gct | Turkey Eyes Early 2028 Vote That Could Keep Erdogan Running",
-      "· gtp | TUI Offers Free Kids’ Places for Summer 2028 Holidays in Greece"
+      "· gct | Trump Fires New White House Press Secretary Katie Zacharia",
+      "· ingr | Χούθι: Νέα επίθεση στο Διεθνές Αεροδρόμιο του Άντεν με δύο πυραύλους",
+      "· ert | Euroleague: Η Χάποελ Τελ Αβίβ έβαλε φρένο στο αήττητο του Παναθηναϊκού με 91-81 στο ΟΑΚΑ",
+      "· gct | Greek and Chinese Archaeologists Dig Into Ancient Arsinoe at Angelokastro",
+      "· gn-kathimerini | Φον ντερ Λάιεν: Πέντε παρεμβάσεις για την ενεργειακή ακρίβεια – Εφεδρείες για τον χειμώνα ",
+      "· gn-kathimerini | Μουσείο Ακρόπολης: Επανεκτίθεται το άγαλμα του ιππέα του 500 π.Χ. - Kathimerini",
+      "✓ gn-kathimerini | Εξ αποστάσεως οι έλεγχοι ασφαλείας στα Airbnb - Kathimerini"
     ]
   },
   "evergreenDone": [
