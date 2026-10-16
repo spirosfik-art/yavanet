@@ -2276,7 +2276,9 @@
     "843f9cfea07a": 1792191704899,
     "f7b357bed3fd": 1792191704899,
     "8f9dc01f5467": 1792191704899,
-    "10d551e80e6b": 1792191704899
+    "10d551e80e6b": 1792191704899,
+    "5219b586afc2": 1792193443932,
+    "da5895e32e66": 1792193443932
   },
   "pending": {},
   "sourceStatus": {
@@ -2288,12 +2290,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T23:01:28.648Z",
-      "items": 10
+      "at": "2026-10-16T23:30:31.392Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T23:01:30.080Z",
+      "at": "2026-10-16T23:30:32.259Z",
       "items": 5
     },
     "civilprotection": {
@@ -2304,27 +2306,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T23:01:33.508Z",
+      "at": "2026-10-16T23:30:33.570Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T23:01:34.552Z",
+      "at": "2026-10-16T23:30:34.098Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T23:01:35.695Z",
+      "at": "2026-10-16T23:30:35.329Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T23:01:36.617Z",
+      "at": "2026-10-16T23:30:36.048Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T23:01:37.611Z",
+      "at": "2026-10-16T23:30:36.721Z",
       "items": 10
     },
     "toi-greece": {
@@ -2335,22 +2337,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T23:01:38.147Z",
+      "at": "2026-10-16T23:30:37.319Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T23:01:38.287Z",
+      "at": "2026-10-16T23:30:37.581Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T23:01:38.586Z",
+      "at": "2026-10-16T23:30:38.321Z",
       "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T23:01:39.042Z",
+      "at": "2026-10-16T23:30:38.530Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2360,12 +2362,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T23:01:30.770Z",
+      "at": "2026-10-16T23:30:32.511Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T23:01:39.700Z",
+      "at": "2026-10-16T23:30:39.674Z",
       "items": 0
     },
     "hcg": {
@@ -2376,39 +2378,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T23:01:42.607Z",
+      "at": "2026-10-16T23:30:41.611Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T23:01:42.830Z",
+      "at": "2026-10-16T23:30:41.821Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T23:01:43.014Z",
+      "at": "2026-10-16T23:30:41.981Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T23:01:43.204Z",
+      "at": "2026-10-16T23:30:42.166Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T23:01:43.543Z",
+      "at": "2026-10-16T23:30:42.518Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T23:01:43.960Z",
+      "at": "2026-10-16T23:30:42.956Z",
       "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-17",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "klearchos-marousakis-weather-change-greece",
@@ -2421,6 +2423,12 @@
         "title": "Tzoumerka villages: Mountain nature and history in Arta",
         "at": "2026-10-17T02:02:00+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "hapoel-tel-aviv-beats-panathinaikos-athens-euroleague",
+        "title": "Hapoel Tel Aviv Defeats Panathinaikos in Athens EuroLeague Clash",
+        "at": "2026-10-17T02:30:57+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [],
@@ -2536,15 +2544,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T23:01:44.899Z",
-    "considered": 5,
+    "at": "2026-10-16T23:30:43.932Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "✓ gct | Tzoumerka Villages: 7 Peaceful Mountain Escapes in Arta",
-      "· gct | Vance Says White House Access Sellers Should Face Consequences",
-      "· gct | Debbie Matenopoulos Wants to Be America’s Ambassador to Greece",
-      "· gct | Marinakis Container Firm Raises €300m as Investors Pile In",
-      "· gct | Final Chipperfield Designs Approved for National Archaeological Museum Extension"
+      "✓ gct | Panathinaikos Suffer First EuroLeague Defeat Against Hapoel Tel Aviv",
+      "· gct | Olympiacos Fight Back to Beat Barcelona 105-100 in Overtime"
     ]
   },
   "evergreenDone": [
