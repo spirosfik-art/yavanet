@@ -13,15 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "e3ceb23c3d3e": 1790923691458,
-    "5eac43860ae4": 1790923691458,
-    "6f1bdfeb04a7": 1790923691458,
-    "73fb02b1a8e0": 1790923691458,
-    "b10971548cd4": 1790923691458,
-    "a084aa880d99": 1790923691458,
-    "0646437f89a9": 1790924669309,
-    "4d3fc89d8c34": 1790924669309,
-    "e13c69602717": 1790924669309,
     "4268462f802d": 1790926048034,
     "95a9d0929123": 1790926048034,
     "4b48947f482f": 1790926048034,
@@ -2335,7 +2326,19 @@
     "c46e5bb8659d": 1792133123619,
     "b557ed0f87bc": 1792133123619,
     "ee528e7eed06": 1792133123619,
-    "e1413652b42e": 1792133123619
+    "e1413652b42e": 1792133123619,
+    "bcc370a6d341": 1792135263860,
+    "2323a017b3ef": 1792135263860,
+    "e4f9dd72f816": 1792135263860,
+    "487336e5cf86": 1792135263860,
+    "63b1e9727204": 1792135263860,
+    "721be6e12de0": 1792135263860,
+    "c0875364c6c4": 1792135263860,
+    "88fa601a9c53": 1792135263860,
+    "0cf3738a2a7e": 1792135263860,
+    "7e2329f99dba": 1792135263860,
+    "e59705e9f036": 1792135263860,
+    "c9cead5f7aa7": 1792135263860
   },
   "pending": {},
   "sourceStatus": {
@@ -2347,12 +2350,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T06:45:04.960Z",
-      "items": 0
+      "at": "2026-10-16T07:20:50.200Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T06:45:05.910Z",
+      "at": "2026-10-16T07:20:51.117Z",
       "items": 5
     },
     "civilprotection": {
@@ -2363,27 +2366,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T06:45:07.159Z",
+      "at": "2026-10-16T07:20:52.874Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T06:45:07.383Z",
+      "at": "2026-10-16T07:20:52.947Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T06:45:08.416Z",
+      "at": "2026-10-16T07:20:54.593Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T06:45:09.099Z",
+      "at": "2026-10-16T07:20:55.567Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T06:45:09.961Z",
+      "at": "2026-10-16T07:20:56.503Z",
       "items": 10
     },
     "toi-greece": {
@@ -2394,23 +2397,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T06:45:10.471Z",
+      "at": "2026-10-16T07:20:57.126Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T06:45:10.806Z",
+      "at": "2026-10-16T07:20:57.238Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T06:45:11.551Z",
-      "items": 6
+      "at": "2026-10-16T07:20:57.437Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T06:45:11.725Z",
-      "items": 2
+      "at": "2026-10-16T07:20:57.666Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2419,12 +2422,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T06:45:06.116Z",
+      "at": "2026-10-16T07:20:51.505Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T06:45:12.402Z",
+      "at": "2026-10-16T07:20:58.756Z",
       "items": 0
     },
     "hcg": {
@@ -2435,32 +2438,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T06:45:19.589Z",
+      "at": "2026-10-16T07:21:01.383Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T06:45:19.825Z",
-      "items": 6
+      "at": "2026-10-16T07:21:01.572Z",
+      "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T06:45:20.021Z",
+      "at": "2026-10-16T07:21:01.731Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T06:45:20.241Z",
+      "at": "2026-10-16T07:21:01.959Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T06:45:20.601Z",
+      "at": "2026-10-16T07:21:02.360Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T06:45:21.019Z",
+      "at": "2026-10-16T07:21:02.826Z",
       "items": 10
     }
   },
@@ -2621,17 +2624,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T06:45:23.619Z",
-    "considered": 7,
+    "at": "2026-10-16T07:21:03.860Z",
+    "considered": 12,
     "picked": 0,
     "items": [
-      "· naftemporiki | Ινδονησία: Μαίνονται οι πυρκαγιές – 4 νεκροί, παγιδεύτηκαν στις φλόγες",
-      "· gct | The Long Goodbye: Why Greeks Take Forever to Leave",
-      "· gn-kathimerini | Ελεγχοι για αδήλωτα εισοδήματα από μισθώσεις Airbnb - Kathimerini",
-      "· migration | 23.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 22.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 21.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 20.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο"
+      "· gct | Alphington Grammar Dinner Dance Farewells Year 12 Class at Leonda in Hawthorn",
+      "· minfin | Άνοιξε η πλατφόρμα myBusinessSupport για τον α’ κύκλο του ειδικού σχήματος στήριξης για τι",
+      "· gct | Former Greek Army Officer Imprisoned for €300,000 Fuel Theft",
+      "· gct | Al Pacino to Receive Life Achievement Award",
+      "· minfin | Κυριάκος Πιερρακάκης στο CNN: «Η εποχή του φθηνού και άφθονου κεφαλαίου έχει παρέλθει – Η ",
+      "· ingr | Ινδονησία: Μαίνονται οι δασικές πυρκαγιές – Τέσσερις νεκροί σε επιχείρηση κατάσβεσης σε εθ",
+      "· gtp | Central Macedonia Funds €400,000 Tourism Promotion Campaign for Serres",
+      "· gtp | Thessaloniki Metro to Run 24 Hours on October 17 for Road Safety Campaign",
+      "· gtp | Nafplio, Santorini Rank Among Europe’s 10 Friendliest Destinations",
+      "· gtp | Thessaly Showcases Local Products and Recovery Plan at EU Regions Week 2026",
+      "· gtp | Kifissia Municipality Advances €1.3 Million Urban Regeneration Plan",
+      "· gtp | ITA Airways to Launch Direct Rome-Caracas Flights in March 2027"
     ]
   },
   "evergreenDone": [
