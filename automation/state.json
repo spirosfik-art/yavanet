@@ -13,11 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "960bbdd8ce53": 1790913140942,
-    "3d6f6fe137a7": 1790913140942,
-    "fcc7aea4ffd3": 1790913140942,
-    "195206f2a828": 1790913736521,
-    "0fd66ba14614": 1790913736521,
     "33396201e41f": 1790915122070,
     "110fbb09a7de": 1790915122070,
     "6a275ba86b20": 1790915122070,
@@ -2334,9 +2329,118 @@
     "74f3488dec2c": 1792120502915,
     "e30a42cc6660": 1792120502915,
     "04678dd580af": 1792120502915,
-    "d0970fd1dc96": 1792122207879
+    "d0970fd1dc96": 1792122207879,
+    "2842f8857b7e": 1792123859082,
+    "dfb2d8396e23": 1792123859082,
+    "f6dd74d23f6c": 1792123859082,
+    "446fd1dbfd9a": 1792123859082,
+    "f13ba4286aff": 1792123859082
   },
-  "pending": {},
+  "pending": {
+    "5c6b3e": {
+      "createdAt": 1792123875002,
+      "item": {
+        "title": "Βραχυχρόνια μίσθωση: 34.000 φορολογούμενοι είχαν «ξεχάσει» να δηλώσουν 105 εκατ. ευρώ – Τα λαβράκια που έπιασε η ΑΑΔΕ",
+        "url": "https://www.naftemporiki.gr/finance/economy/2175647/vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade/?utm_source=rss&utm_medium=rss&utm_campaign=vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade",
+        "summary": "Σημαντική αύξηση στα εισοδήματα που δηλώθηκαν από βραχυχρόνιες μισθώσεις αλλά και στην αποκάλυψη αδήλωτων εισοδημάτων ύψους 105 εκατ. ευρώ εντόπισε η Ανεξάρτητη Αρχή Δημοσίων Εσόδων (ΑΑΔΕ) μετά από διασταυρώσεις.\nΣύμφωνα…\n Βραχυχρόνια μίσθωση: 34.000 φορολογούμενοι είχαν «ξεχάσει» να δηλώσουν 105 εκατ. ευρώ – Τα λαβράκια που έπιασε η ΑΑΔΕ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Fri, 16 Oct 2026 03:22:22 +0000",
+        "id": "446fd1dbfd9a",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "446fd1dbfd9a",
+        "section": "real-estate",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "AADE audits reveal 34,000 taxpayers failed to declare 105 million euros in short-term rental (Airbnb) income, directly impacting property investors and hosts in Greece.",
+        "item": {
+          "title": "Βραχυχρόνια μίσθωση: 34.000 φορολογούμενοι είχαν «ξεχάσει» να δηλώσουν 105 εκατ. ευρώ – Τα λαβράκια που έπιασε η ΑΑΔΕ",
+          "url": "https://www.naftemporiki.gr/finance/economy/2175647/vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade/?utm_source=rss&utm_medium=rss&utm_campaign=vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade",
+          "summary": "Σημαντική αύξηση στα εισοδήματα που δηλώθηκαν από βραχυχρόνιες μισθώσεις αλλά και στην αποκάλυψη αδήλωτων εισοδημάτων ύψους 105 εκατ. ευρώ εντόπισε η Ανεξάρτητη Αρχή Δημοσίων Εσόδων (ΑΑΔΕ) μετά από διασταυρώσεις.\nΣύμφωνα…\n Βραχυχρόνια μίσθωση: 34.000 φορολογούμενοι είχαν «ξεχάσει» να δηλώσουν 105 εκατ. ευρώ – Τα λαβράκια που έπιασε η ΑΑΔΕ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Fri, 16 Oct 2026 03:22:22 +0000",
+          "id": "446fd1dbfd9a",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-airbnb-tax-checks-105-million-euros",
+        "section": "real-estate",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "דירות באתונה",
+          "en": "Athens apartments"
+        },
+        "imageKey": "house",
+        "imageQuery": "apartment key real estate greece",
+        "he": {
+          "title": "רשות המס ביוון חשפה מיליונים: 34 אלף בעלי דירות שכחו לדווח",
+          "seoTitle": "דירות באתונה וביוון: רשות המס חשפה אילוצים והכנסות",
+          "seoDesc": "רשות המס ביוון חשפה עשרות אלפי בעלי נכסים שלא דיווחו על הכנסות מהשכרת נופש. כל מה שמשקיעים וישראלים צריכים לדעת על בדיקות הנדל\"ן.",
+          "keywords": [
+            "דירה באתונה",
+            "נדל\"ן ביוון",
+            "מיסים ביוון",
+            "Airbnb ביוון",
+            "השקעה בנדל\"ן ביוון"
+          ],
+          "dek": "רשות המס ביוון איתרה עשרות אלפי מקרים של אי-דיווח על הכנסות מהשכרת נופש, לצד ירידה במספר ההפרות של רישום מספר המרשם לנכסים.",
+          "tldr": [
+            "רשות המס ביוון חשפה 34,000 בעלי נכסים שלא דיווחו על הכנסות מהשכרת נופש.",
+            "הבדיקות בוצעו בשיתוף פעולה עם פלטפורמות דיגיטליות כמו Airbnb ו-Booking.",
+            "שיעור ההפרות לגבי חובת הצגת מספר הרישום (AMA) ירד ל-5% בלבד."
+          ],
+          "means": "אם אתם מחזיקים בנדל\"ן מיועד להשכרה קצרת טווח באתונה או ברחבי יוון, חשוב לוודא שכל הדיווחים מול רשות המס מתנהלים כהלכה וכי מספר הרישום מוצג כחוק בכל הפלטפורמות. מומלץ להיעזר באנשי מקצוע מקומיים כדי לוודא עמידה מלאה בדרישות החוק.",
+          "body": "## זינוק בהכנסות המדווחות ופעילות רשות המס\n\nרשות המס ביוון (AADE) הגבירה את הפיקוח על שוק השכרת הנופש והשכרות לטווח קצר, וביצעה סדרת השוואות נתונים דיגיטליות מקיפות מול הפלטפורמות המרכזיות בשוק, בהן Airbnb, Booking ו-Expedia. בעקבות הפעילות, אותרו 34,000 אזרחים ותושבים שהחסירו דיווחים על הכנסותיהם מפעילות זו.\n\nהמבצע הוביל להגשת 37,000 הצהרות תיקון וטפסים ממוסדות, דרכם נוספו הכנסות בסך של 105 מיליון אירו עבור שנת 2023. ברשות המס מדגישים כי סכום זה משקף את ההכנסות הנוספות שעודכנו בדיווחים ולא בהכרח את סך המיסים שנגבו בפועל.\n\n## צמיחה עקבית בשוק ההשכרות\n\nבמקביל לבדיקות הרוחב, הנתונים העדכניים לשנת 2025 מראים זינוק משמעותי בהיקף ההכנסות המוצהרות מענף ההשכרות לטווח קצר, שהגיעו לסך של 973 מיליון אירו. מדובר בסכום גבוה פי עשרה לעומת תקופות קודמות שבהן דווחו סכומים נמוכים בהרבה.\n\nהנהלת רשות המס תלתה את ההצלחה באיתור הפערים באיכות עיבוד הנתונים הדיגיטליים וביכולת להצליב מידע פיננסי מרשתות שונות עם הרישומים הרשמיים במערכות המדינה.\n\n## ירידה במספר ההפרות של מספר הרישום (AMA)\n\nלצד הטיפול בהכנסות, חל שיפור ניכר במידת הציות של בעלי הנכסים להוראות החוק הנוגעות להצגת מספר המרשם של הנכס (AMA) במודעות הפרסום ברשת. שיעור אי-הציות ירד מ-11% ל-5% בלבד.\n\nעם זאת, ברשות מזכירים כי הצגת מספר הרישום בצורה תקינה במודעה היא רק שלב ראשוני באימות הנתונים. חובת הדיווח המלא על כלל ההכנסות וההתאמה המלאה מול רישומי המס נותרות בעינן כחלק בלתי נפרד מהבדיקות השוטפות המבוצעות לכלל בעלי הנכסים והמנהלים בשוק."
+        },
+        "en": {
+          "title": "Greek Tax Authority Uncovers Undisclosed Short-Term Rental Income",
+          "seoTitle": "Greece Airbnb Tax: 34000 Owners Found with Unreported Income",
+          "seoDesc": "The Greek tax authority uncovered 34,000 property owners who failed to report short-term rental income. Key updates for property investors.",
+          "keywords": [
+            "greece real estate",
+            "airbnb greece",
+            "greece property tax",
+            "athens apartments",
+            "greece property investment"
+          ],
+          "dek": "Greece's Independent Authority for Public Revenue identified thousands of property owners who missed declaring short-term rental earnings following digital audits.",
+          "tldr": [
+            "AADE identified 34,000 individuals who failed to declare short-term rental income.",
+            "Audits were conducted using digital data from platforms like Airbnb and Booking.",
+            "The non-compliance rate for displaying the property registry number dropped to 5%."
+          ],
+          "means": "If you own short-term rental property in Greece, ensure all earnings are fully declared and property registration numbers are correctly displayed on all listing platforms. Working with local tax professionals is recommended to maintain full compliance.",
+          "body": "## Increased Digital Audits and Compliance\n\nGreece's Independent Authority for Public Revenue (AADE) has stepped up monitoring of the short-term rental market by cross-referencing digital data with major platforms such as Airbnb, Booking, and Expedia. These automated checks revealed that 34,000 taxpayers omitted relevant rental income from their filings.\n\nThe intervention prompted 37,000 voluntary compliance submissions, adding 105 million euros in declared income for 2023. Tax officials noted that this figure represents newly declared revenue rather than the total tax revenue collected by the state.\n\n## Growth in Short-Term Rental Declarations\n\nOfficial data for 2025 highlights a substantial rise in declared short-term rental earnings, reaching 973 million euros—a tenfold increase compared to figures from earlier years. AADE leadership attributed this growth to advanced digital processing and the systematic matching of tax records with platform data.\n\n## Improvement in Registry Number Compliance\n\nCompliance regarding the mandatory display of the property registry number (AMA) on online listings has also improved, with the non-compliance rate falling from 11% to 5%.\n\nAuthorities emphasize that displaying a correct registry number fulfills platform identification requirements, but owners remain subject to independent audits verifying that all actual earnings have been fully and accurately reported on tax returns."
+        }
+      },
+      "text": "Ραλλού Αλεξοπούλου \n &bull; \n [email protected] \n Σημαντική αύξηση στα εισοδήματα που δηλώθηκαν από βραχυχρόνιες μισθώσεις αλλά και στην αποκάλυψη αδήλωτων εισοδημάτων ύψους 105 εκατ. ευρώ εντόπισε η Ανεξάρτητη Αρχή Δημοσίων Εσόδων (ΑΑΔΕ) μετά από διασταυρώσεις.\n Σύμφωνα με στοιχεία που παρουσίασε ο διοικητής της ΑΑΔΕ Γιώργος Πιτσιλής στο συνέδριο Prodexpo, η συνεργασία με τις πλατφόρμες Airbnb, Booking και Expedia αλλά και η αξιοποίηση των ψηφιακών δεδομένων για τον εντοπισμό αδήλωτων εισοδημάτων είχε ως αποτέλεσμα τον εντοπισμό 34.000 φορολογουμένων οι οποίοι είχαν «ξεχάσει» να δηλώσουν εισοδήματα που συνδέονταν με τη δραστηριότητα των βραχυχρόνιων μισθώσεων.\n Η παρέμβαση της ΑΑΔΕ οδήγησε, σύμφωνα με τον Γιώργο Πιτσιλή, στην υποβολή 37.000 δηλώσεων οικειοθελούς συμμόρφωσης και στην πρόσθετη δήλωση εισοδημάτων συνολικού ύψους 105 εκατ ευρώ για το 2023. Αυτά τα 105 εκατ. ευρώ αντιπροσωπεύουν πρόσθετα δηλωθέντα εισοδήματα και όχι ισόποσα φορολογικά έσοδα για το Δημόσιο.\n Όσον αφορά το 2025, με βάση τα στοιχεία της ΑΑΔΕ, τα εισοδήματα από βραχυχρόνιες μισθώσεις που δηλώθηκαν ανήλθαν σε 973 εκατ. ευρώ, ποσό υπερδεκαπλάσιο σε σχέση με τα περίπου 70 εκατ. ευρώ που είχαν δηλωθεί σε παλαιότερη χρονική περίοδο. Ο διοικητής της ΑΑΔΕ έδωσε έμφαση στη συστηματική επεξεργασία των ψηφιακών δεδομένων, στην ποιότητα των πληροφοριών και στη δυνατότητα συσχέτισής τους με τα υπόλοιπα στοιχεία που διαθέτει η φορολογική διοίκηση.\n Μείωση στο 5% των παραβάσεων για τον ΑΜΑ\n Σημαντική βελτίωση καταγράφεται και στον αριθμό συμμόρφωσης των ιδιοκτητών ακινήτων που διαθέτουν για βραχυχρόνια μίσθωση αναφορικά με τα στοιχεία της ΑΑΔΕ. Σύμφωνα με τον κ. Πιτσιλή, το ποσοστό μη συμμόρφωσης ως προς την υποχρεωτική αναγραφή του αριθμού μητρώου ακινήτου (ΑΜΑ) στις πλατφόρμες βραχυχρόνιας μίσθωσης μειώθηκε κατά 6 ποσοστιαίες μονάδες στο 5% από 11%.\n ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ \n Η Χεζμπολάχ επιβεβαιώνει ότι της ανήκαν τα κατασχεθέντα εκρηκτικά – Προορίζονταν για επίθεση κατά του Ισραήλ \n Η μείωση αυτή σημαίνει ότι περιορίστηκαν οι περιπτώσεις στις οποίες δεν αναγράφεται ο απαιτούμενος Αριθμός Μητρώου.\n Το 5% αφορά αποκλειστικά τις παραβάσεις στην αναγραφή του αριθμού μητρώου. Η πληρότητα των δηλωμένων εισοδημάτων αποτελεί ξεχωριστό αντικείμενο ελέγχου, καθώς ακόμη και μια αγγελία με σωστά στοιχεία ταυτοποίησης μπορεί να συνδέεται με εισπράξεις που δεν έχουν αποτυπωθεί στις φορολογικές δηλώσεις.\n Αξίζει να σημειωθεί ότι για τους ιδιοκτήτες και τους διαχειριστές, ο έλεγχος δεν σταματά στην ύπαρξη ενός αριθμού μητρώου στην αγγελία. Χρειάζεται να συμφωνούν τα στοιχεία της καταχώρισης, η εγγραφή στο μητρώο και οι δηλώσεις για τα έσοδα από τη δραστηριότητα. Η σωστή αναγραφή του Αριθμού Μητρώου Ακινήτου καλύπτει την υποχρέωση ταυτοποίησης της αγγελίας, χωρίς από μόνη της να πιστοποιεί ότι έχουν δηλωθεί σωστά όλες οι εισπράξεις.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 15/10/2026 - 8:44 \n Σε τροχιά καθολικού αποκλεισμού η Χίος: Ξεσπά θύελλα αντιδράσεων για το τετράμηνο λουκέτο στο αεροδρόμιο\n 15/10/2026 - 8:16 \n ΙΟΒΕ: Το εργαλείο των άμεσων και στοχευμένων μέτρων είναι συχνά αποτελεσματικότερο από επιδοτήσεις στην τελική τιμή\n 15/10/2026 - 6:58 \n Εύσημα Γκεοργκίεβα (ΔΝΤ) για την Ελλάδα: Η Ελλάδα είναι πλέον μέρος της λύσης και όχι μέρος του προβλήματος\n 15/10/2026 - 5:34 \n NielsenIQ: Καταναλωτές με σύνθετες και συχνά αντικρουόμενες προτεραιότητες οι Έλληνες\n 15/10/2026 - 4:49 \n Κατατέθηκε το ελληνικό Draft Budgetary Plan 2027 στην Ευρωπαϊκή Επιτροπή\n 15/10/2026 - 4:08 \n Ευρωπαϊκή διάκριση για το ΕΣΠΑ: Πρωτιά για το Ανεξάρτητο Σύστημα Φυσικού Αερίου Αλεξανδρούπολης στα REGIOSTARS 2026\n 15/10/2026 - 3:25 \n Στ. Παπασταύρου: Η Ελλάδα είναι η πρώτη χώρα για την οποία εγκρίθηκε η ρήτρα διαφυγής\n 15/10/2026 - 11:26 \n Ν. Παπαθανάσης: Άνω των 100 δισ. εξασφαλισμένη χρηματοδότηση αναπτυξιακών επενδύσεων για την επόμενη μέρα του Ταμείου Ανάκαμψης\n 15/10/2026 - 10:16 \n Πρωτογενές πλεόνασμα 7,59 δισ. στο 9μηνο – Πάνω από τον στόχο τα φορο-εσοδα\n 15/10/2026 - 8:51 \n Επενδυτικός «μαγνήτης» γίνεται η Ελλάδα\n 15/10/2026 - 6:01 \n Ενεργειακή κρίση: Η Αθήνα ζητεί δημοσιονομικό χώρο από την Ε.Ε. – Τα εμπόδια και το εναλλακτικό σχέδιο\n 14/10/2026 - 9:21 \n 15.000 ακίνητα υπό τη διαχείριση των servicers ή στην ιδιοκτησία των τραπεζών\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Η ελληνική φορολογική αρχή αποκαλύπτει αδήλωτα εισοδήματα από βραχυχρόνιες μισθώσεις",
+        "dek": "Η Ανεξάρτητη Αρχή Δημοσίων Εσόδων της Ελλάδας εντόπισε χιλιάδες ιδιοκτήτες ακινήτων που παρέλειψαν να δηλώσουν τα έσοδα από βραχυχρόνιες μισθώσεις, έπειτα από ψηφιακούς ελέγχους.",
+        "tldr": [
+          "Η ΑΑΔΕ εντόπισε 34.000 άτομα που δεν δήλωσαν εισοδήματα από βραχυχρόνιες μισθώσεις.",
+          "Οι έλεγχοι διεξήχθησαν με τη χρήση ψηφιακών δεδομένων από πλατφόρμες όπως η Airbnb και η Booking.",
+          "Το ποσοστό μη συμμόρφωσης για την αναγραφή του αριθμού μητρώου ακινήτου μειώθηκε στο 5%."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2346,12 +2450,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T03:43:15.760Z",
-      "items": 10
+      "at": "2026-10-16T04:10:46.328Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T03:43:16.482Z",
+      "at": "2026-10-16T04:10:47.062Z",
       "items": 1
     },
     "civilprotection": {
@@ -2362,27 +2466,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T03:43:18.416Z",
+      "at": "2026-10-16T04:10:48.573Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T03:43:19.008Z",
+      "at": "2026-10-16T04:10:49.039Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T03:43:20.040Z",
+      "at": "2026-10-16T04:10:50.707Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T03:43:20.780Z",
-      "items": 1
+      "at": "2026-10-16T04:10:51.435Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T03:43:21.302Z",
+      "at": "2026-10-16T04:10:52.089Z",
       "items": 10
     },
     "toi-greece": {
@@ -2393,23 +2497,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T03:43:21.912Z",
+      "at": "2026-10-16T04:10:52.767Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T03:43:22.201Z",
+      "at": "2026-10-16T04:10:53.065Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T03:43:22.818Z",
+      "at": "2026-10-16T04:10:53.149Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T03:43:23.741Z",
-      "items": 6
+      "at": "2026-10-16T04:10:53.705Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2418,12 +2522,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T03:43:17.236Z",
+      "at": "2026-10-16T04:10:47.334Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T03:43:24.437Z",
+      "at": "2026-10-16T04:10:54.588Z",
       "items": 0
     },
     "hcg": {
@@ -2434,40 +2538,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T03:43:25.625Z",
-      "items": 0
+      "at": "2026-10-16T04:10:56.291Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T03:43:25.884Z",
+      "at": "2026-10-16T04:10:56.665Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T03:43:26.077Z",
+      "at": "2026-10-16T04:10:56.824Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T03:43:26.356Z",
+      "at": "2026-10-16T04:10:57.093Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T03:43:26.692Z",
-      "items": 3
+      "at": "2026-10-16T04:10:57.472Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T03:43:27.079Z",
+      "at": "2026-10-16T04:10:57.958Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-16",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "athens-bus-trolley-route-changes-october-2026",
+        "title": "Temporary Route Changes for Athens Buses and Trolleys on Saturday",
+        "at": "2026-10-16T07:11:34+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [
       {
         "title": "Μία προσαγωγή για την έκρηξη στη Motor Oil",
@@ -2485,7 +2596,13 @@
         "at": "2026-10-16T03:15:07.246Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "athens-bus-trolley-route-changes-october-2026",
+        "at": "2026-10-16T04:11:34.895Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2591,11 +2708,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T03:43:27.880Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-16T04:10:59.082Z",
+    "considered": 5,
+    "picked": 2,
     "items": [
-      "· gct | Paul Frazis, Australia’s Commercial Broker of the Year: ‘Lending Is About People’"
+      "· naftemporiki | Ανοδικό γύρισμα για το ευρώ",
+      "✓ oasa | Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 040, 910 και των γραμμών τρόλεϊ 1,5,",
+      "· ert | Ινδονησία: Τέσσερις νεκροί κατά την κατάσβεση δασικής πυρκαγιάς σε εθνικό πάρκο",
+      "✓ naftemporiki | Βραχυχρόνια μίσθωση: 34.000 φορολογούμενοι είχαν «ξεχάσει» να δηλώσουν 105 εκατ. ευρώ – Τα",
+      "· gtp | ABTA: Greece Remains a Top Five Choice for UK Holidaymakers in 2026-27"
     ]
   },
   "evergreenDone": [
@@ -2638,5 +2759,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792058972992,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-bus-trolley-route-changes-october-2026",
+      "url": "https://yavanet.gr/a/athens-bus-trolley-route-changes-october-2026/",
+      "at": "2026-10-16T04:11:34.895Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-bus-trolley-route-changes-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-bus-trolley-route-changes-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שינויים זמניים במסלולי האוטובוסים והטრო‌ליי באתונה ביום שבת",
+        "title_en": "Temporary Route Changes for Athens Buses and Trolleys on Saturday",
+        "dek_he": "רשות התחבורה באתונה מעדכנה על שינויים זמניים במסלולים של שני קווי אוטובוס ושלושה קווי טרו‌ליי ביום שבת הקרוב.",
+        "dek_en": "Athens public transport authority announces temporary routing adjustments for select bus and trolley lines this coming Saturday evening.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/32742312/pexels-photo-32742312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שינויים זמניים במסלולי האוטובוסים והטრო‌ליי באתונה ביום שבת\n\nרשות התחבורה באתונה מעדכנה על שינויים זמניים במסלולים של שני קווי אוטובוס ושלושה קווי טרו‌ליי ביום שבת הקרוב.\n\nhttps://yavanet.gr/a/athens-bus-trolley-route-changes-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Temporary Route Changes for Athens Buses and Trolleys on Saturday\n\nAthens public transport authority announces temporary routing adjustments for select bus and trolley lines this coming Saturday evening.\n\nhttps://yavanet.gr/en/a/athens-bus-trolley-route-changes-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
