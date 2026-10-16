@@ -13,8 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "ace3230bfc5d": 1790949224339,
-    "8f30657469a6": 1790949224339,
     "4336b4f277b5": 1790949878546,
     "10630408209c": 1790949878546,
     "c0511c863d2a": 1790949878546,
@@ -2287,7 +2285,9 @@
     "7f6dea1b63ce": 1792157250459,
     "cb9cbf4a0c53": 1792158169060,
     "86f4bacbfd56": 1792158169060,
-    "ef355f9341cb": 1792158169060
+    "ef355f9341cb": 1792158169060,
+    "64efe789a492": 1792159328129,
+    "bdd03725b678": 1792159328129
   },
   "pending": {
     "dd1053": {
@@ -2510,12 +2510,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T13:42:34.883Z",
+      "at": "2026-10-16T14:01:50.693Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T13:42:35.451Z",
+      "at": "2026-10-16T14:01:51.996Z",
       "items": 5
     },
     "civilprotection": {
@@ -2526,27 +2526,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T13:42:37.053Z",
+      "at": "2026-10-16T14:01:53.876Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T13:42:37.385Z",
+      "at": "2026-10-16T14:01:54.002Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T13:42:38.211Z",
+      "at": "2026-10-16T14:01:55.248Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T13:42:38.978Z",
-      "items": 2
+      "at": "2026-10-16T14:01:55.997Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T13:42:39.896Z",
+      "at": "2026-10-16T14:01:56.670Z",
       "items": 10
     },
     "toi-greece": {
@@ -2557,22 +2557,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T13:42:40.377Z",
+      "at": "2026-10-16T14:01:57.298Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T13:42:40.510Z",
+      "at": "2026-10-16T14:01:57.462Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T13:42:40.608Z",
+      "at": "2026-10-16T14:01:58.581Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T13:42:40.993Z",
+      "at": "2026-10-16T14:01:59.122Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2582,12 +2582,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T13:42:36.040Z",
+      "at": "2026-10-16T14:01:52.559Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T13:42:41.574Z",
+      "at": "2026-10-16T14:01:59.947Z",
       "items": 0
     },
     "hcg": {
@@ -2598,39 +2598,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T13:42:43.185Z",
+      "at": "2026-10-16T14:02:01.592Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T13:42:43.420Z",
+      "at": "2026-10-16T14:02:01.794Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T13:42:43.604Z",
+      "at": "2026-10-16T14:02:01.956Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T13:42:43.806Z",
+      "at": "2026-10-16T14:02:02.174Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T13:42:44.164Z",
-      "items": 4
+      "at": "2026-10-16T14:02:02.599Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T13:42:44.683Z",
+      "at": "2026-10-16T14:02:03.121Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-16",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "athens-bus-trolley-route-changes-october-2026",
@@ -2661,6 +2661,12 @@
         "title": "Athens Rent Crisis: Housing Costs Match Average Salaries",
         "at": "2026-10-16T13:36:38+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "volos-allocates-funds-for-school-seismic-checks",
+        "title": "Volos allocates funds for seismic checks in schools",
+        "at": "2026-10-16T17:02:28+03:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -2703,6 +2709,10 @@
       {
         "slug": "athens-rent-crisis-2026",
         "at": "2026-10-16T10:36:39.234Z"
+      },
+      {
+        "slug": "volos-allocates-funds-for-school-seismic-checks",
+        "at": "2026-10-16T14:02:28.618Z"
       }
     ]
   },
@@ -2810,13 +2820,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T13:42:49.060Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-16T14:02:08.129Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· naftemporiki | «Η ζωή δεν έχει undo»: Ολυμπία Οδός και το «Πάνος Μυλωνάς» επενδύουν στην οδική ασφάλεια τ",
-      "· naftemporiki | Νετανιάχου προς Ομπάμα για την «κλεμμένη» γη: «Οι Εβραίοι δεν είναι ξένοι κατακτητές, αυτή",
-      "· gn-kathimerini | Ισχυρός σεισμός 7 Ρίχτερ στην Καμτσάτκα της Ρωσίας - Kathimerini"
+      "· ert | Ρωσία: Βομβαρδιστικά αεροσκάφη πραγματοποίησαν προγραμματισμένη πτήση πάνω από τη Βαλτική ",
+      "✓ ert | Βόλος: Προσεισμικός έλεγχος και έλεγχος οροφών σε 174 σχολικά κτίρια"
     ]
   },
   "evergreenDone": [
@@ -2859,5 +2868,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792058972992,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "volos-allocates-funds-for-school-seismic-checks",
+      "url": "https://yavanet.gr/a/volos-allocates-funds-for-school-seismic-checks/",
+      "at": "2026-10-16T14:02:28.618Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/volos-allocates-funds-for-school-seismic-checks/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/volos-allocates-funds-for-school-seismic-checks/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "וולוס: הקצאת תקציב לבדיקות רעידות אדמה בבתי ספר",
+        "title_en": "Volos allocates funds for seismic checks in schools",
+        "dek_he": "רשות המקומית בוולוס הקצתה סכום של 36,580 אירו לטובת בדיקה ראשונית של עמידות מבני חינוך בפני רעידות אדמה וכן בדיקת גגות.",
+        "dek_en": "The local authority in Volos has earmarked 36,580 euros for primary earthquake safety inspections and roof assessments in educational facilities.",
+        "section": "living",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15261241/pexels-photo-15261241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "וולוס: הקצאת תקציב לבדיקות רעידות אדמה בבתי ספר\n\nרשות המקומית בוולוס הקצתה סכום של 36,580 אירו לטובת בדיקה ראשונית של עמידות מבני חינוך בפני רעידות אדמה וכן בדיקת גגות.\n\nhttps://yavanet.gr/a/volos-allocates-funds-for-school-seismic-checks/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Volos allocates funds for seismic checks in schools\n\nThe local authority in Volos has earmarked 36,580 euros for primary earthquake safety inspections and roof assessments in educational facilities.\n\nhttps://yavanet.gr/en/a/volos-allocates-funds-for-school-seismic-checks/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
