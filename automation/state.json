@@ -13,10 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "dd5d3c63b207": 1790976348610,
-    "642fb05f772d": 1790977013189,
-    "8a2113b7b301": 1790977013189,
-    "b820b572b02c": 1790977013189,
     "0d812d543b20": 1790977865203,
     "2369e99c9901": 1790977865203,
     "356dabdbad55": 1790977865203,
@@ -2276,7 +2272,10 @@
     "f96c1b230154": 1792185284664,
     "99bc16e5d490": 1792185284664,
     "6e935c6a7aa9": 1792185284664,
-    "09cebb9958fa": 1792185284664
+    "09cebb9958fa": 1792185284664,
+    "fcd61f5176a3": 1792186845384,
+    "8a246be4ef90": 1792186845384,
+    "55237fadd9a4": 1792186845384
   },
   "pending": {},
   "sourceStatus": {
@@ -2288,12 +2287,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T21:14:32.818Z",
+      "at": "2026-10-16T21:40:33.586Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T21:14:33.802Z",
+      "at": "2026-10-16T21:40:34.292Z",
       "items": 5
     },
     "civilprotection": {
@@ -2304,27 +2303,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T21:14:35.397Z",
+      "at": "2026-10-16T21:40:36.450Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T21:14:35.757Z",
+      "at": "2026-10-16T21:40:36.609Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T21:14:36.757Z",
+      "at": "2026-10-16T21:40:37.841Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T21:14:37.692Z",
+      "at": "2026-10-16T21:40:38.584Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T21:14:38.555Z",
+      "at": "2026-10-16T21:40:39.307Z",
       "items": 10
     },
     "toi-greece": {
@@ -2335,22 +2334,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T21:14:39.232Z",
+      "at": "2026-10-16T21:40:39.934Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T21:14:39.462Z",
+      "at": "2026-10-16T21:40:40.055Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T21:14:39.679Z",
+      "at": "2026-10-16T21:40:40.135Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T21:14:39.881Z",
+      "at": "2026-10-16T21:40:40.675Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2360,12 +2359,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T21:14:34.197Z",
+      "at": "2026-10-16T21:40:35.008Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T21:14:40.683Z",
+      "at": "2026-10-16T21:40:41.487Z",
       "items": 0
     },
     "hcg": {
@@ -2376,40 +2375,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T21:14:42.067Z",
+      "at": "2026-10-16T21:40:42.909Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T21:14:42.411Z",
+      "at": "2026-10-16T21:40:43.129Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T21:14:42.585Z",
+      "at": "2026-10-16T21:40:43.392Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T21:14:42.817Z",
+      "at": "2026-10-16T21:40:43.657Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T21:14:43.191Z",
+      "at": "2026-10-16T21:40:44.034Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T21:14:43.665Z",
-      "items": 5
+      "at": "2026-10-16T21:40:44.482Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-17",
     "count": 0,
-    "published": [],
+    "published": [
+      {
+        "slug": "klearchos-marousakis-weather-change-greece",
+        "title": "↻ Early Snowfall Hits Northern Greece as Temperatures Plunge",
+        "at": "2026-10-17T00:40:58+03:00",
+        "section": "breaking"
+      }
+    ],
     "rejected": [],
     "errors": []
   },
@@ -2522,16 +2528,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T21:14:44.664Z",
-    "considered": 6,
-    "picked": 0,
+    "at": "2026-10-16T21:40:45.384Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | Swedish National Arrested Over Cocaine and Cannabis Shipment",
-      "· gct | Suicide Attempt by Priest Accused of Revenge Porn Delays Trial",
-      "· naftemporiki | Wall Street: Ισχυρές απώλειες με «βουτιά» στις τεχνολογικές μετοχές – Πάνω από 22 μονάδες ",
-      "· gct | Death Threats Made Against Planning Director Over Building Permits",
-      "· gct | Adoptees Return to Greece to Reconnect With Their Roots",
-      "· gn-iefimerida | Επιβάτης αεροπλάνου προκάλεσε «χάος» σε πτήση Ηράκλειο-Θεσσαλονίκη: Άναψε ηλεκτρονικό τσιγ"
+      "· gct | Greek and Chinese Archaeologists Make New Discovery at Ancient Arsinoe",
+      "✓ gct | Early Snowfall Hits Northern Greece as Temperatures Plunge",
+      "· gn-iefimerida | Ενώ επρόκειτο να προσγειωθεί, ο πιλότος της πτήσης Πόρτο-Νιμ έβαλε γκάζι και προσγειώθηκε "
     ]
   },
   "evergreenDone": [

@@ -2,7 +2,7 @@
   "slug": "klearchos-marousakis-weather-change-greece",
   "section": "breaking",
   "publishedAt": "2026-10-15T13:09:44+03:00",
-  "updatedAt": null,
+  "updatedAt": "2026-10-17T00:40:58+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 72.7275
   },
   "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/17/early-snowfall-hits-northern-greece-as-temperatures-plunge/"
+    },
     {
       "name": "iefimerida (μέσω Google News)",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNektHclRhc2JFRU8wLUZYTTZZZVI4V1ZhT1AwTjRtNExJdHU5ZnpsczhYS010VEtrN2Jxc3AyQk95b1FOdXNhbXZiS2IwTnB0UFpta1RTSjBDdDYzZmtkREh2Z3QzTGNkSTN1Y1pLMmRpYkdXREtrQWRfaF9Bc2R5X2NMc1lERWMyNEJuNWdn0gGTAUFVX3lxTE9CaWpWbkRsdFNrZFZoMVN0YXFLZXhDMmVxSUpkem9uYlVJUDZGcTBPaFh1R3g1Z1U3Z0lMNHFIYXExRTdQM2RYc1FBNjRXdmh2R2lZLTh2bV81U2dNaGZBMDZGQm9paUdyaWg1MXlnM240SFk2YjJTSkR2NWE2dVVQZGhfNGpMYVpOZENUd3FvYlppSQ?oc=5"
@@ -30,42 +34,26 @@
     "en": "Weather Greece"
   },
   "he": {
-    "title": "תחזית מזג האוויר ביוון: שינוי צפוי והגעת מסה קרה",
-    "seoTitle": "מזג אוויר ביוון: מה צפוי והגעת מערכת קרה",
-    "seoDesc": "מזג האוויר ביוון צפוי להשתנות עם הגעת מסה קרה אחרי שיפור זמני. כל הפרטים המעודכנים לתיירים ולשוהים במדינה.",
-    "keywords": [
-      "מזג אוויר ביוון",
-      "תחזית מזג אוויר יוון",
-      "מזג אוויר באתונה",
-      "חופשה ביוון"
-    ],
-    "dek": "אחרי תקופה של התייצבות זמנית, המטאורולוגים ביוון מזהירים מפני שינוי קרוב והגעתה של מסת אוויר קרה.",
+    "title": "שלג ראשון בצפון יוון: הטמפרטורות צנחו בפתאומיות",
+    "dek": "מערכת קרה מפתיעה הביאה איתה שלג ראשון באזורים ההרריים בצפון יוון ובאתרי הסקי, לצד ירידה ניכרת בטמפרטורות.",
     "tldr": [
-      "צפוי שינוי במזג האוויר ברחבי יוון בימים הקרובים.",
-      "אחרי הפוגה קצרה של שיפור, תורגש ירידה בטמפרטורות.",
-      "מומלץ לעקוב אחר תחזיות מעודכנות לפני פעילות בחוץ."
+      "שלג ראשון ירד ביום שישי באזורים ההרריים בצפון יוון.",
+      "אתרי סקי מרכזיים ויישובים גבוהים כבר התכסו בלבן.",
+      "הטמפרטורות באזור קסטוריה ירדו לרמה של 1 עד 11 מעלות."
     ],
-    "means": "אם אתם מתכננים חופשה או נמצאים כעת ביוון, כדאי להתעדכן בתחזית המקומית מראש. הישארו מחוברים לעדכונים של השירות המטאורולוגי היווני והיערכו לשינויים בטמפרטורות, במיוחד אם אתם מתכננים לשהות באזורים ההרים או בים.",
-    "body": "## שינוי מזג האוויר ביוון\n\nהמטאורולוג היווני קליירخוס מרוסאקיס מדווח על שינוי קרוב במערכת המטאורולוגית במדינה. אחרי מספר ימים של תנאים נוחים ושיפור זמני, המצב צפוי להתהפך עם כניסתה של מסת אוויר קרה.\n\n## השפעה על התיירים והמקומיים\n\nהשינוי יביא עמו תנאים קרים יותר, ויש להיערך בהתאם בכל אזורי הארץ. מומלץ לבדוק את התחזית המקומית באופן תכוף ולהתאים את תוכניות הטיול או הנסיעה שלכם למצב המשתטח בשטח.\n\n## היערכות קדימה\n\nהמערכת הקרה תורגש במיוחד בימים הקרובים, ולכן כדאי להצטייד בביגוד מתאים ולא להסתמך רק על החמימות היחסית שאפיינה את הימים האחרונים."
+    "means": "טסים לצפון יוון בימים הקרובים? אם אתם מתכננים נסיעה לאזורים ההרריים או לאתרי הסקי, כדאי להתעדכן בתחזית מזג האוויר המעודכנת ולהצטייד בביגוד חם מתאים. מומלץ לבדוק את מצב הצירים והדרכים לפני היציאה לנסיעה.",
+    "body": "## שלג ראשון באזורים הגבוהים\n\nמערכת מזג אוויר קרה הביאה עמה שלג מוקדם מהצפוי בצפון יוון. פתיתי השלג הראשונים החלו לרדת כבר ביום שישי אחר הצהריים ביישוב קוטילי שבחבל קסטוריה, בגובה של כ-1,200 מטרים מעל פני הים, וכן בסמארינה שבאזור גרבנה, בגובה של כ-1,450 מטרים.\n\n## כיסוי לבן באתרי הסקי\n\nעל פי תחזיות מזג האוויר המקומיות, שכבות משמעותיות של שלג כבר כיסו את אתר הסקי וסיליצה שבגרבנה ואת אתר הסקי אניליו הסמוך למצובו. בנוסף, שלג החל לרדת גם באתר הסקי הידוע בפרנסוס.\n\n## ירידה חדה בטמפרטורות\n\nהטמפרטורות ברחבי חבל קסטוריה נותרו נמוכות במיוחד, ונעות בין 1 ל-11 מעלות בלבד. נתונים אלו מאשרים את השינוי החד במזג האוויר ואת כניסתה של המערכת החורפית לאזורים השונים בצפון המדינה."
   },
   "en": {
-    "title": "Weather forecast in Greece: Cold air mass approaching",
-    "seoTitle": "Weather in Greece: Forecast and incoming cold air mass",
-    "seoDesc": "Weather in Greece is set to change with a temporary improvement followed by a cold air mass. Check the latest updates.",
-    "keywords": [
-      "weather greece",
-      "greece forecast",
-      "athens weather",
-      "greece travel"
-    ],
-    "dek": "Meteorologists in Greece report a temporary weather improvement followed by an incoming cold air mass across the country.",
+    "title": "Early Snowfall Hits Northern Greece as Temperatures Plunge",
+    "dek": "Winter weather arrives early across northern Greece, bringing the first snowfall to high-altitude villages and ski resorts alongside a sharp drop in temperatures.",
     "tldr": [
-      "Weather conditions in Greece are set to change soon.",
-      "A brief period of improvement will lead to a colder air mass.",
-      "Visitors and residents should monitor local forecasts closely."
+      "Snow fell on Friday in northern mountain locations including Kastoria and Grevena.",
+      "Ski resorts such as Vasilitsa and Anilio have received substantial snowfall.",
+      "Temperatures in the wider Kastoria region dropped to a range of 1°C to 11°C."
     ],
-    "means": "If you are planning a trip or currently staying in Greece, keep an eye on local meteorological updates. Pack appropriate clothing for dropping temperatures and stay informed through official weather channels.",
-    "body": "## Upcoming Weather Shift in Greece\n\nGreek meteorologist Klearchos Marousakis reports that the country is preparing for a shift in weather conditions. Following a brief period of temporary improvement, a distinct cold air mass is expected to move in.\n\n## What to Expect\n\nTemperatures will drop as the new system takes hold. Travelers and locals are advised to stay updated on daily forecasts, especially when planning outdoor activities or travel between regions.\n\n## Staying Prepared\n\nMake sure to check the latest local weather reports before heading out, as conditions can shift quickly with the arrival of the new cold front."
+    "means": "Planning a trip to northern Greece? If you are heading to the mountains or ski resorts, check local weather updates in advance, pack warm clothing, and verify road conditions before driving in high-altitude areas.",
+    "body": "## Early Snowfall in the Mountains\n\nSnow has arrived earlier than expected across northern Greece, accompanied by a noticeable temperature drop. The first snowflakes fell on Friday afternoon in Kotyli, Kastoria, at an altitude of around 1,200 metres, and in Samarina, Grevena, at approximately 1,450 metres.\n\n## Ski Resorts Covered in White\n\nSubstantial snowfall has already covered the Vasilitsa ski resort in Grevena and the Anilio ski resort near Metsovo. Snow has also started falling at the Parnassos ski resort, marking a swift transition into colder conditions.\n\n## Low Temperatures Across the Region\n\nTemperatures throughout the wider Kastoria region remained low, ranging from 1°C to 11°C, confirming the significant shift in weather patterns across the northern parts of the country."
   },
   "meta": {
     "itemId": "2ee1d95ed29a",
@@ -73,6 +61,7 @@
     "sourceHash": "5218f02cea61",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-16T19:09:36.003Z",
-    "official": false
+    "official": false,
+    "updatedFrom": "8a246be4ef90"
   }
 }
