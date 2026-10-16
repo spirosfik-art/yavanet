@@ -1,0 +1,56 @@
+{
+  "slug": "greece-airbnb-tax-control-2023-2025",
+  "section": "real-estate",
+  "publishedAt": "2026-10-16T09:45:03+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "יוון",
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/finance/economy/2175647/vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade/?utm_source=rss&utm_medium=rss&utm_campaign=vrachychronia-misthosi-34-000-forologoymenoi-eichan-xechasei-na-dilosoyn-105-ekat-eyro-ta-lavrakia-poy-epiase-i-aade"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11034758/pexels-photo-11034758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A dense arrangement of urban buildings captured from above, depicting city life.",
+    "credit": "Photo: Exarhos Nikolaos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-aerial-photography-of-city-buildings-11034758/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "נדל\"ן ביוון: רשות המסים איתרה הכנסות שלא דווחו",
+    "dek": "רשות המסים ביוון דיווחה על איתור עשרות אלפי בעלי נכסים שלא דיווחו על הכנסות מהשכרת נופש, לצד עלייה בהיקף ההכנסות המדווחות.",
+    "tldr": [
+      "רשות המסים ביוון זיהתה 34 אלף משכירים שלא דיווחו על הכנסות.",
+      "הבדיקות התבססו על שיתוף פעולה עם פלטפורמות כמו Airbnb ו-Booking.",
+      "שיעור הפרות חובת רישום מספר הנכס ירד ל-5%."
+    ],
+    "means": "הנתונים הללו מעידים על הידוק פיקוח מצד הרשויות ביוון על שוק השכרת הטווח הקצר, נתון שמשקיעים ובעלי נכסים חייבים לקחת בחשבון מבחינת דיווח מדויק.",
+    "body": "רשות המסים העצמאית ביוון (AADE) פרסמה נתונים על פעילות הפיקוח בשוק ההשכרות לטווח קצר, בעקבות שיתוף פעולה עם פלטפורמות דיגיטליות בהן Airbnb, Booking ו-Expedia. לפי הנתונים שהוצגו בכנס Prodexpo על ידי מנהל הרשות, גיורגוס פיציליס, אותרו 34,000 נישומים שלא כללו בדיווחיהם הכנסות מפעילות השכרת נופש לשנת 2023. פעולות אלו הובילו להגשת 37,000 הצהרות תיקון והוספת הכנסות בגובה 105 מיליון אירו. בנוסף, ההכנסות המדווחות מהשכרות מסוג זה הגיעו ל-973 מיליון אירו בשנת 2025, עלייה ניכרת לעומת שנים קודמות. שיעור בעלי הנכסים שלא ציינו את מספר רישום הנכס (AMA) במודעות ירד מ-11% ל-5%. הרשויות מבהירות כי קיומו של מספר רישום אינו מייתר את חובת הדיווח המלא על כלל ההכנסות בפועל."
+  },
+  "en": {
+    "title": "Greece short-term rentals: Tax authority detects undeclared income",
+    "dek": "The Greek tax authority identified thousands of property owners who failed to declare short-term rental income following platform data checks.",
+    "tldr": [
+      "Tax authorities identified 34,000 taxpayers with undeclared rental income.",
+      "Checks utilized digital data from platforms including Airbnb and Booking.",
+      "Non-compliance regarding property registration numbers dropped to 5%."
+    ],
+    "means": "This highlights the growing regulatory oversight on short-term rentals in Greece, which is crucial for property investors to monitor regarding accurate reporting.",
+    "body": "The Independent Authority for Public Revenue (AADE) in Greece has released findings from cross-checks involving digital data from platforms such as Airbnb, Booking, and Expedia. According to data presented by AADE Governor Georgios Pitsilis at the Prodexpo conference, authorities identified 34,000 taxpayers who omitted short-term rental earnings for 2023. This intervention resulted in 37,000 compliance declarations and an additional 105 million euros in declared income. Furthermore, declared short-term rental revenue reached 973 million euros in 2025. The non-compliance rate for displaying the mandatory property registration number (AMA) on listings decreased from 11% to 5%. Authorities note that displaying a registration number ensures listing identification but does not replace the requirement to fully report all actual earnings."
+  },
+  "meta": {
+    "itemId": "446fd1dbfd9a",
+    "imageQuery": "Greece real estate Athens apartment building",
+    "sourceHash": "fdcc1ed7e364",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-16T06:45:04.027Z",
+    "official": false
+  }
+}
