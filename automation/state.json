@@ -13,8 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "7f10e2ab3272": 1790984916320,
-    "2b461415e2b5": 1790984916320,
     "0c406856e871": 1790988418446,
     "669fb824be6a": 1790990584820,
     "d24fc8a27c11": 1790992857665,
@@ -2278,7 +2276,13 @@
     "8f9dc01f5467": 1792191704899,
     "10d551e80e6b": 1792191704899,
     "5219b586afc2": 1792193443932,
-    "da5895e32e66": 1792193443932
+    "da5895e32e66": 1792193443932,
+    "4ddd48c10e69": 1792194991974,
+    "fe7fa5f7f2a1": 1792194991974,
+    "bd556ce2837b": 1792194991974,
+    "6554ebbfae06": 1792194991974,
+    "12ff0e06efd2": 1792194991974,
+    "b2e9afd85c29": 1792194991974
   },
   "pending": {},
   "sourceStatus": {
@@ -2290,12 +2294,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T23:30:31.392Z",
-      "items": 0
+      "at": "2026-10-16T23:56:22.122Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T23:30:32.259Z",
+      "at": "2026-10-16T23:56:22.728Z",
       "items": 5
     },
     "civilprotection": {
@@ -2306,27 +2310,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T23:30:33.570Z",
+      "at": "2026-10-16T23:56:24.066Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T23:30:34.098Z",
+      "at": "2026-10-16T23:56:24.289Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T23:30:35.329Z",
+      "at": "2026-10-16T23:56:25.073Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T23:30:36.048Z",
+      "at": "2026-10-16T23:56:25.749Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T23:30:36.721Z",
+      "at": "2026-10-16T23:56:26.385Z",
       "items": 10
     },
     "toi-greece": {
@@ -2337,22 +2341,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T23:30:37.319Z",
+      "at": "2026-10-16T23:56:26.801Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T23:30:37.581Z",
-      "items": 15
+      "at": "2026-10-16T23:56:26.899Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T23:30:38.321Z",
+      "at": "2026-10-16T23:56:27.551Z",
       "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T23:30:38.530Z",
+      "at": "2026-10-16T23:56:27.716Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2362,12 +2366,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T23:30:32.511Z",
+      "at": "2026-10-16T23:56:23.307Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T23:30:39.674Z",
+      "at": "2026-10-16T23:56:28.278Z",
       "items": 0
     },
     "hcg": {
@@ -2378,32 +2382,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T23:30:41.611Z",
+      "at": "2026-10-16T23:56:29.462Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T23:30:41.821Z",
+      "at": "2026-10-16T23:56:29.721Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T23:30:41.981Z",
+      "at": "2026-10-16T23:56:29.894Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T23:30:42.166Z",
+      "at": "2026-10-16T23:56:30.122Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T23:30:42.518Z",
+      "at": "2026-10-16T23:56:30.550Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T23:30:42.956Z",
+      "at": "2026-10-16T23:56:31.108Z",
       "items": 7
     }
   },
@@ -2544,12 +2548,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T23:30:43.932Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-10-16T23:56:31.974Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "✓ gct | Panathinaikos Suffer First EuroLeague Defeat Against Hapoel Tel Aviv",
-      "· gct | Olympiacos Fight Back to Beat Barcelona 105-100 in Overtime"
+      "· gct | 88-Year-Old Hides in Her Bedroom as Her Gold Vanishes",
+      "· gct | Klio Mazonaki Says She Cries All the Time",
+      "· gct | Tiny Aegean Island With Three Beaches Seeks a Buyer",
+      "· gct | Northern Greece Gets a Rare Look at Its Navy",
+      "· gct | Athens Swaps Asphalt for Marble at a Sacred Site",
+      "· gct | George Liagas Defends Konstantinos Argyros Over Kimberly Guilfoyle Friendship"
     ]
   },
   "evergreenDone": [
