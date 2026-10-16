@@ -13,14 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "25605ef7bfd1": 1790955687925,
-    "788de4d1f1f8": 1790955687925,
-    "8e943303a9f3": 1790956461680,
-    "f677aacd5395": 1790956461680,
-    "f344901c814e": 1790956461680,
-    "632805c1f166": 1790956945695,
-    "25bfc98d7f5d": 1790956945695,
-    "b2256f924ae7": 1790956945695,
     "ed70e20c7d2a": 1790958313654,
     "cdd7ef7c0702": 1790958313654,
     "8e6ac2153f54": 1790959159425,
@@ -2279,9 +2271,117 @@
     "d52097a2253a": 1792161614467,
     "e522e69d4838": 1792163367654,
     "71cdacbc7d08": 1792163367654,
-    "6cc3b17bb258": 1792163367654
+    "6cc3b17bb258": 1792163367654,
+    "62c3e8edffb9": 1792166968632,
+    "46cee5f0bd00": 1792166968632,
+    "1d7eeb13570a": 1792166968632,
+    "8df2d5716b9c": 1792166968632,
+    "a4a850a36c2c": 1792166968632,
+    "a64247b8223e": 1792166968632
   },
-  "pending": {},
+  "pending": {
+    "4aad03": {
+      "createdAt": 1792166995175,
+      "item": {
+        "title": "Ιταλία: Έρευνα της Εισαγγελίας της Ρώμης κατά δύο Ισραηλινών υπουργών για την υπόθεση της Sumud Flottilla",
+        "url": "https://www.naftemporiki.gr/kosmos/2176083/italia-ereyna-tis-eisaggelias-tis-romis-kata-dyo-israilinon-ypoyrgon-gia-tin-ypothesi-tis-sumud-flottilla/?utm_source=rss&utm_medium=rss&utm_campaign=italia-ereyna-tis-eisaggelias-tis-romis-kata-dyo-israilinon-ypoyrgon-gia-tin-ypothesi-tis-sumud-flottilla",
+        "summary": "Την διεξαγωγή έρευνας σε βάρος του Ισραηλινού υπουργού εθνικής ασφάλειας Ιταμάρ Μπεν Γκβιρ και του υπουργού άμυνας Ισραέλ Κατς, για την υπόθεση των δυο αποστολών της Global Sumud Flottilla, ανακοίνωσε…\n Ιταλία: Έρευνα της Εισαγγελίας της Ρώμης κατά δύο Ισραηλινών υπουργών για την υπόθεση της Sumud Flottilla - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Fri, 16 Oct 2026 15:46:01 +0000",
+        "id": "62c3e8edffb9",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "62c3e8edffb9",
+        "section": "israelis",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Rome prosecutor opens investigation against Israeli ministers Itamar Ben-Gvir and Israel Katz regarding the Sumud Flottilla, relevant to Israeli readers following international legal developments.",
+        "item": {
+          "title": "Ιταλία: Έρευνα της Εισαγγελίας της Ρώμης κατά δύο Ισραηλινών υπουργών για την υπόθεση της Sumud Flottilla",
+          "url": "https://www.naftemporiki.gr/kosmos/2176083/italia-ereyna-tis-eisaggelias-tis-romis-kata-dyo-israilinon-ypoyrgon-gia-tin-ypothesi-tis-sumud-flottilla/?utm_source=rss&utm_medium=rss&utm_campaign=italia-ereyna-tis-eisaggelias-tis-romis-kata-dyo-israilinon-ypoyrgon-gia-tin-ypothesi-tis-sumud-flottilla",
+          "summary": "Την διεξαγωγή έρευνας σε βάρος του Ισραηλινού υπουργού εθνικής ασφάλειας Ιταμάρ Μπεν Γκβιρ και του υπουργού άμυνας Ισραέλ Κατς, για την υπόθεση των δυο αποστολών της Global Sumud Flottilla, ανακοίνωσε…\n Ιταλία: Έρευνα της Εισαγγελίας της Ρώμης κατά δύο Ισραηλινών υπουργών για την υπόθεση της Sumud Flottilla - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Fri, 16 Oct 2026 15:46:01 +0000",
+          "id": "62c3e8edffb9",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "rome-prosecutor-investigates-israeli-ministers",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "חקירה באיטליה",
+          "en": "Italy Investigation"
+        },
+        "imageKey": "politics",
+        "imageQuery": "rome courthouse law justice",
+        "he": {
+          "title": "רומא: חקירה נגד שרים בישראל בעקבות אירועי המשט",
+          "seoTitle": "רומא: חקירת תובע נגד שרים ישראלים בפרשת המשט",
+          "seoDesc": "התביעה ברומא פתחה בחקירה נגד השר לביטחון לאומי ובכירים בישראל בקשר לפעולות נגד המשטים, במקביל לבדיקות נוספות באירופה.",
+          "keywords": [
+            "ישראל",
+            "איטליה",
+            "רומא",
+            "משט"
+          ],
+          "dek": "תובעים בבירת איטליה הודיעו על פתיחת הליך נגד שרים ובכירים במערכת הביטחון הישראלית סביב פעילות כוחות הביטחון נגד ספינות המשט.",
+          "tldr": [
+            "התביעה ברומא פתחה בחקירה נגד השר לביטחון לאומי ושר הביטחון.",
+            "הבדיקה כוללת שנים עשר אנשי צבא ומשטרה שהיו מעורבים בתכנון המבצעים.",
+            "באירופה בודקים גם כן את נסיבות ההשתלטות והתנאים במעצר."
+          ],
+          "means": "הכתבה מציגה התפתחויות משפטיות באירופה הנוגעות לבכירים בישראל, אך אינה כוללת הנחיות חדשות למטיילים או למשקיעים ביוון. מומלץ להתעדכן בערוצי החדשות הרשמיים בכל שינוי או השפעה על נסיעות.",
+          "body": "## פתיחת החקירה באיטליה\n\nהתביעה ברומא הכריזה על פתיחת הליך בדיקה רשמי נגד שר הביטחון ושר נוסף בממשלת ישראל, סביב ניהול האירועים סביב שתי המשלחת של המשט הימי.\n\nלפי גורמי אכיפת החוק בבירה האיטלקית, הבדיקה מתמקדת בסך הכל בשנים עשר אישים המזוהים עם דרג הפיקוד של כוחות הביטחון והמשטרה בישראל, אשר לקחו חלק בתכנון וביצוע הפעולות נגד משתתפי המשט.\n\n## שיתוף פעולה אירופי\n\nרשויות המשפט ציינו כי מהלכים דומים מתקיימים גם במדינות נוספות ברחבי יבשת אירופה. במסגרת זו, מתבצעת החלפת מידע הדדית ושיתוף פעולה הדוק בין גורמי החקירה במדינות השונות.\n\nהחקירה באיטליה מתייחסת גם לטענות סביב פעולות ההשתלטות של כוחות הביטחון על כלי השיט של הפעילים, ומציינת כי המבצעים התקיימו מחוץ למים הטריטוריאליים של ישראל תוך טענות להפרת דיני הים.\n\n## תנאי מעצר וזכויות\n\nפרקליטי התביעה ברומא הוסיפו כי נאספו חומרים נוספים בנוגע לתנאי ההחזקה של המשתתפים שנעצרו, לרבות טענות על יחס שאינו מכובד והגבלת הגישה להליך משפטי מסודר בכל שלבי הפעילות."
+        },
+        "en": {
+          "title": "Rome Prosecutor Opens Investigation Into Israeli Ministers Over Flotilla",
+          "seoTitle": "Rome Prosecutor Investigates Israeli Ministers Over Flotilla",
+          "seoDesc": "Prosecutors in Rome announced an investigation into Israeli security officials and ministers regarding actions against the recent activist flotillas.",
+          "keywords": [
+            "Rome",
+            "Italy",
+            "Israel",
+            "flotilla"
+          ],
+          "dek": "The Rome public prosecutor's office announced an investigation targeting Israeli ministers and military officials over operations against activist vessels.",
+          "tldr": [
+            "Rome prosecutors opened an inquiry against Israel's security and defense ministers.",
+            "The investigation includes twelve individuals from the police and military hierarchy.",
+            "Similar inquiries and information sharing are underway in other European countries."
+          ],
+          "means": "This report details legal developments in Europe concerning Israeli officials and does not contain travel advisories or operational changes for visitors or residents in Greece.",
+          "body": "## Investigation Initiated in Rome\n\nThe public prosecutor's office in Rome has announced an investigation concerning Israeli security and defense officials in connection with operations involving activist flotillas.\n\nAccording to judicial authorities, the inquiry involves a total of twelve individuals from the Israeli police and military command who planned and executed operations against the participants.\n\n## European Cooperation\n\nAuthorities emphasized that parallel investigations are currently underway in other European nations, supported by close cooperation and information sharing among prosecutors.\n\nThe inquiry in the Italian capital incorporates findings regarding the boarding operations of security forces on the activist vessels, with prosecutors stating that the actions occurred outside of Israel's territorial waters.\n\n## Detention Conditions Reviewed\n\nRome prosecutors also noted that evidence has been gathered concerning the detention conditions of the participants, highlighting allegations regarding treatment during various stages of the missions."
+        }
+      },
+      "text": "Την διεξαγωγή έρευνας σε βάρος του Ισραηλινού υπουργού εθνικής ασφάλειας Ιταμάρ Μπεν Γκβιρ και του υπουργού άμυνας Ισραέλ Κατς, για την υπόθεση των δυο αποστολών της Global Sumud Flottilla, ανακοίνωσε η εισαγγελία της Ρώμης.\n H έρευνα αφορά συνολικά δώδεκα άτομα που θεωρούνται μέρος της ιεραρχίας της αστυνομίας και του στρατού του Ισραήλ, τα οποία σχεδίασαν και εφήρμοσαν τις επιχειρήσεις κατά των ακτιβιστών της Flottilla.\n Όπως υπογραμμίζεται, ανάλογες έρευνες βρίσκονται σε εξέλιξη και σε άλλες ευρωπαϊκές χώρες και στα πλαίσια αυτά εχει ξεκινήσει στενή συνεργασία και ανταλλαγή πληροφοριών.\n Η έρευνα της εισαγγελίας της ιταλικής πρωτεύουσας συμπεριλαμβάνει στοιχεία για το ρεσάλτο των ισραηλινών δυνάμεων ασφάλειας στα πλοιάρια των ακτιβιστών, για τις ταπεινωτικές συνθήκες κράτησης τους και την καταστρατήγηση του δικαιώματος υπεράσπιστης των συλληφθέντων.\n Σύμφωνα με τους εισαγγελείς, «το ρεσάλτο δεν σεβάστηκε το διεθνές δίκαιο της θάλασσας και πραγματοποιήθηκε έξω από τα χωρικά ύδατα του Ισραήλ».\n ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ \n Νέο ξέσπασμα Τραμπ κατά Ζελένσκι: «Ντροπή… Πιο δύσκολος στη συνεργασία από τον Πούτιν» \n Η εισαγγελία της Ρώμης, τέλος, αναφέρει πως «σε ότι αφορά τις συνθήκες κράτησης και την ταπείνωση των συμμετεχόντων στην δράση του στολίσκου, συγκεντρώθηκαν στοιχεία για τις αυθαιρεσίες σε βάρος των μελών του, σε κάθε φάση της αποστολής».\n Πηγή: ΑΜΠΕ \n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 16/10/2026 - 6:39 \n Ο Μπολσονάρου προηγείται οριακά του Λούλα σε δημοσκόπηση ενόψει του δεύτερου προεδρικού γύρου\n 16/10/2026 - 6:31 \n BBC: Οι απώλειες του ρωσικού στρατού στην Ουκρανία έφθασαν τους 281.753 νεκρούς\n 16/10/2026 - 6:25 \n Ο Τραμπ δεν διέταξε τον περιορισμό της υπηρεσίας Starshield στην Ουκρανία\n 16/10/2026 - 6:20 \n Ο σαουδαραβικός συνασπιμός ανακοίνωσε την αναχαίτιση πυραύλων και drones πάνω από το Ριάντ και άλλες περιοχές της χώρας\n 16/10/2026 - 6:11 \n Ρωσία και ΗΠΑ θα ανακοινώσουν σύντομα νέες κοινές πρωτοβουλίες\n 16/10/2026 - 6:00 \n Ο Μακρόν πίεσε τους ηγέτες της ΕΕ για συμφωνία για τον προϋπολογισμό μέχρι το τέλος του έτους ελέω εκλογών\n 16/10/2026 - 5:33 \n Το Κατάρ δεσμεύεται να συμβάλει στη χρηματοδότηση της ανοικοδόμησης του νότιου Λιβάνου\n 16/10/2026 - 5:13 \n «Δεν γίνεται να αξιοποιηθούν τα δεσμευμένα ρωσικά περιουσιακά στοιχεία», ξεκαθαρίζει ο Σουηδός πρωθυπουργός\n 16/10/2026 - 5:11 \n Αυστρία: Σοβαρή μείωση της συγκομιδής φρούτων και λαχανικών μετά την ξηρασία του καλοκαιριού\n 16/10/2026 - 4:58 \n Τουρκία: Άστεγος προσέβαλε τον Ερντογάν για να εξασφαλίσει φαγητό και κρεβάτι στη φυλακή\n 16/10/2026 - 4:33 \n Πάπας Λέων: Τέλεσε λειτουργία στο νοσοκομείο – Βελτιώνεται η κατάστασή του\n 16/10/2026 - 4:29 \n Νετανιάχου προς Ομπάμα για την «κλεμμένη» γη: «Οι Εβραίοι δεν είναι ξένοι κατακτητές, αυτή είναι η πατρίδα μας»\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Η Εισαγγελία της Ρώμης ξεκινά έρευνα κατά Ισραηλινών υπουργών για τον στολοβόλο",
+        "dek": "Η εισαγγελία της Ρώμης ανακοίνωσε την έναρξη έρευνας που στοχεύει Ισραηλίτες υπουργούς και στρατιωτικούς αξιωματικούς σχετικά με επιχειρήσεις κατά πλοίων ακτιβιστών.",
+        "tldr": [
+          "Οι εισαγγελείς της Ρώμης άνοιξαν φάκελο έρευνας κατά των υπουργών ασφαλείας και άμυνας του Ισραήλ.",
+          "Η έρευνα περιλαμβάνει δώδεκα άτομα από την ιεραρχία της αστυνομίας και του στρατού.",
+          "Παρόμοιες έρευνες και ανταλλαγή πληροφοριών βρίσκονται σε εξέλιξη σε άλλες ευρωπαϊκές χώρες."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2291,12 +2391,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T15:37:43.078Z",
+      "at": "2026-10-16T16:09:01.442Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T15:37:43.961Z",
+      "at": "2026-10-16T16:09:02.328Z",
       "items": 5
     },
     "civilprotection": {
@@ -2307,27 +2407,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T15:37:46.093Z",
+      "at": "2026-10-16T16:09:03.928Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T15:37:46.553Z",
+      "at": "2026-10-16T16:09:04.071Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T15:37:47.649Z",
+      "at": "2026-10-16T16:09:05.296Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T15:37:48.418Z",
+      "at": "2026-10-16T16:09:06.041Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T15:37:48.890Z",
+      "at": "2026-10-16T16:09:07.125Z",
       "items": 10
     },
     "toi-greece": {
@@ -2338,22 +2438,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T15:37:49.514Z",
+      "at": "2026-10-16T16:09:07.922Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T15:37:49.863Z",
+      "at": "2026-10-16T16:09:08.232Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T15:37:50.538Z",
-      "items": 6
+      "at": "2026-10-16T16:09:09.000Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T15:37:50.756Z",
+      "at": "2026-10-16T16:09:09.560Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2363,12 +2463,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T15:37:44.695Z",
+      "at": "2026-10-16T16:09:02.911Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T15:37:51.561Z",
+      "at": "2026-10-16T16:09:10.242Z",
       "items": 0
     },
     "hcg": {
@@ -2379,33 +2479,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T15:37:52.752Z",
+      "at": "2026-10-16T16:09:11.507Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T15:37:52.988Z",
+      "at": "2026-10-16T16:09:11.853Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T15:37:53.156Z",
+      "at": "2026-10-16T16:09:12.011Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T15:37:53.394Z",
+      "at": "2026-10-16T16:09:12.349Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T15:37:53.814Z",
-      "items": 6
+      "at": "2026-10-16T16:09:12.723Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T15:37:54.229Z",
-      "items": 7
+      "at": "2026-10-16T16:09:13.225Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2611,13 +2711,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T15:09:27.654Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-16T16:09:28.632Z",
+    "considered": 6,
+    "picked": 1,
     "items": [
-      "· ingr | Λαλιώτου-ΕΛΑΣ: Οι φοιτητές πληρώνουν τις πολιτικές της διακυβέρνησης ΝΔ, μένοντας εκτός ΑΕ",
-      "· ert | Νέο πλάισιο για τις σχολικές εκδρομές",
-      "· gn-kathimerini | Ο ενοχλητικός καθρέφτης του Ισραήλ - Kathimerini"
+      "✓ naftemporiki | Ιταλία: Έρευνα της Εισαγγελίας της Ρώμης κατά δύο Ισραηλινών υπουργών για την υπόθεση της ",
+      "· gn-hcg | Χορήγηση παράτασης εξαίρεσης για τη χρήση του καλωδιακού πλοίου “OCEAN LINK” (ΙΜΟ: 7715434",
+      "· ktg | Chios airport suspends operation for four months",
+      "· ingr | Μετρό στην Κυψέλη: Νέος κύκλος καταγραφής των ζημιών από τον μετροπόντικα στις πολυκατοικί",
+      "· ert | Φωτιά σε αυτοκίνητο σε επιβατηγό οχηματαγωγό πλοίο – Αντιμετωπίστηκε επιτυχώς από το πλήρω",
+      "· gn-kathimerini | Ισραηλινοί έποικοι πυρπόλησαν ελαιώνα και τραυμάτισαν δημοσιογράφο στη Δυτική Οχθη - Kathi"
     ]
   },
   "evergreenDone": [
