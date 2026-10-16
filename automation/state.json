@@ -13,22 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "e14747247c73": 1790945736350,
-    "d22ec1095108": 1790945736350,
-    "8348758ada7b": 1790945736350,
-    "906564e57e48": 1790945736350,
-    "a9ec39d8f971": 1790945736350,
-    "ce346ae925df": 1790946354550,
-    "9af67d25c097": 1790946354550,
-    "88888310f14c": 1790946354550,
-    "36857b1eb5a0": 1790947625377,
-    "1800d7c8ca70": 1790947625377,
-    "fca3e9105a44": 1790947625377,
-    "a0f4f58dca25": 1790947625377,
-    "75c63886b84f": 1790947625377,
-    "f9de4e6b7deb": 1790947625377,
-    "880784a29be2": 1790947625377,
-    "4ce938dc4031": 1790947625377,
     "e40809c8da68": 1790948446441,
     "8eccb1204eac": 1790948446441,
     "ace3230bfc5d": 1790949224339,
@@ -2298,7 +2282,11 @@
     "0e3c5d1d1b19": 1792155241374,
     "dc4842b73079": 1792155241374,
     "2729d64e9a4b": 1792155241374,
-    "aeede63b9c77": 1792155241374
+    "aeede63b9c77": 1792155241374,
+    "32d1795b0300": 1792157250459,
+    "bd33fdc9d668": 1792157250459,
+    "e9176813b05e": 1792157250459,
+    "7f6dea1b63ce": 1792157250459
   },
   "pending": {
     "dd1053": {
@@ -2404,6 +2392,112 @@
         ]
       },
       "notified": true
+    },
+    "ac880d": {
+      "createdAt": 1792157287098,
+      "item": {
+        "title": "Προβλήματα στο «Ελ. Βενιζέλος» λόγω του «μπλακ άουτ» σε ιταλικά αεροδρόμια – Καθυστερήσεις και ακυρώσεις πτήσεων",
+        "url": "https://www.naftemporiki.gr/society/2175988/provlimata-sto-el-venizelos-logo-toy-mplak-aoyt-se-italika-aerodromia-kathysteriseis-kai-akyroseis-ptiseon/?utm_source=rss&utm_medium=rss&utm_campaign=provlimata-sto-el-venizelos-logo-toy-mplak-aoyt-se-italika-aerodromia-kathysteriseis-kai-akyroseis-ptiseon",
+        "summary": "Το αεροδρόμιο «Ελευθέριος Βενιζέλος» επηρεάζεται από τα σοβαρά προβλήματα που καταγράφονται στις πτήσεις από και προς την Ιταλία, καθώς έχουν αναφερθεί καθυστερήσεις και τουλάχιστον τρεις ακυρώσεις πτήσεων από ιταλικά αεροδρόμια.…\n Προβλήματα στο «Ελ. Βενιζέλος» λόγω του «μπλακ άουτ» σε ιταλικά αεροδρόμια – Καθυστερήσεις και ακυρώσεις πτήσεων - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Fri, 16 Oct 2026 13:08:59 +0000",
+        "id": "e9176813b05e",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "e9176813b05e",
+        "section": "travel",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Italian airport blackout causes flight delays and cancellations at Athens International Airport (El. Venizelos), directly affecting tourists traveling between Italy and Greece.",
+        "item": {
+          "title": "Προβλήματα στο «Ελ. Βενιζέλος» λόγω του «μπλακ άουτ» σε ιταλικά αεροδρόμια – Καθυστερήσεις και ακυρώσεις πτήσεων",
+          "url": "https://www.naftemporiki.gr/society/2175988/provlimata-sto-el-venizelos-logo-toy-mplak-aoyt-se-italika-aerodromia-kathysteriseis-kai-akyroseis-ptiseon/?utm_source=rss&utm_medium=rss&utm_campaign=provlimata-sto-el-venizelos-logo-toy-mplak-aoyt-se-italika-aerodromia-kathysteriseis-kai-akyroseis-ptiseon",
+          "summary": "Το αεροδρόμιο «Ελευθέριος Βενιζέλος» επηρεάζεται από τα σοβαρά προβλήματα που καταγράφονται στις πτήσεις από και προς την Ιταλία, καθώς έχουν αναφερθεί καθυστερήσεις και τουλάχιστον τρεις ακυρώσεις πτήσεων από ιταλικά αεροδρόμια.…\n Προβλήματα στο «Ελ. Βενιζέλος» λόγω του «μπλακ άουτ» σε ιταλικά αεροδρόμια – Καθυστερήσεις και ακυρώσεις πτήσεων - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Fri, 16 Oct 2026 13:08:59 +0000",
+          "id": "e9176813b05e",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "athens-airport-delays-italian-air-traffic-control-glitch",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9364,
+          "lng": 23.9445
+        },
+        "strike": null,
+        "alert": {
+          "he": "עיכובים בטיסות יוון",
+          "en": "Greece flight delays"
+        },
+        "imageKey": "plane",
+        "imageQuery": "airplane runway airport tarmac",
+        "he": {
+          "title": "תקלות בנמל התעופה באתונה: עיכובים וביטולי טיסות מאיטליה",
+          "seoTitle": "עיכובים בטיסות באתונה עקב תקלת מערכת באיטליה",
+          "seoDesc": "שיבושים ועיכובים בטיסות בנמל התעופה באתונה בגלל תקלה במערכת בקרת הטיסה של איטליה. בדיקות חיוניות לטסים מיוון ומאיטליה.",
+          "keywords": [
+            "טיסות ליוון",
+            "נמל תעופה אתונה",
+            "עיכובים בטיסות",
+            "טיסות מאיטליה",
+            "אזהרת מסע יוון"
+          ],
+          "dek": "תקלה טכנולוגית במערכת בקרת הטיסה של איטליה גורמת לעיכובים ולביטולים בנמל התעופה אלפתריוס וניזלוס באתונה. הרשויות מבהירות שאין חשש לאירוע ביטחוני.",
+          "tldr": [
+            "החל משעות הבוקר מורגשים עיכובים בטיסות בין אתונה ליעדים באיטליה כמו רומא, מילאנו וטורינו.",
+            "לפחות שלוש טיסות מאיטליה כבר בוטלו לחלוטין במסגרת השיבושים.",
+            "הרשויות באיטליה ובאתונה הדגישו כי התקלה טכנית בלבד ואינה קשורה לפעילות חבלנית או סייבר."
+          ],
+          "means": "טסים בימים אלה בין אתונה לאיטליה? מומלץ להתעדכן מול חברות התעופה טרם ההגעה לשדה התעופה אלפתריוס וניזלוס. עקבו אחר לוח הטיסות המעודכן, היערכו לעיכובים אפשריים בלוחות הזמנים וצרו קשר עם סוכן הנסיעות או נציגות החברה לקבלת חלופות במקרה של ביטול.",
+          "body": "## תקלות במערכת בקרת התעופה באיטליה משפיעות על נמל התעופה באתונה\n\nנמל התעופה הבינלאומי באתונה «אלפתריוס וניזלוס» מושפע מבעיות חמורות במערך הטיסות מאיטליה ואליה, בעקבות תקלה טכנית במערכת בקרת התעופה המרכזית באיטליה. על פי דיווחים רשמיים, השיבושים החלו בשעות הבוקר המוקדמות באזורי רומא, מילאנו וטורינו, וגרמו לשרשרת של עיכובים וביטולים בנמלי התעופה.\n\n## ביטולים ועיכובים בלוח הטיסות\n\nבמסגרת ההשפעות על התעבורה האווירית, נרשמו עד כה לפחות שלוש ביטולים של טיסות המגיעות מאיטליה לאתונה, לצד עיכובים ניכרים בלוחות הזמנים של המראות ונחיתות בין נמל התעופה באתונה לבין המוקדים המרכזיים בארץ המגף. גורמי הרשויות מעדכנים כי העיכובים החלו סביב שעות הבוקר המוקדמות לפי שעון מקומי.\n\n## הרשויות שוללות חשש ביטחוני\n\nעם גילוי התקלה, הגורמים המוסמכים הבהירו באופן חד-משמעי כי האירוע אינו קשור בשום צורה למתקפת סייבר או לפעילות זדונית כלשהי. מדובר בתקלה טכנית נקודתית במערכות הבקרה, והצוותים המקצועיים פועלים להשבת הסדרה המלאה של תנועת המטוסים בהקדם האפשרי."
+        },
+        "en": {
+          "title": "Athens Airport experiences flight delays due to Italian system glitch",
+          "seoTitle": "Athens airport flight delays due to Italy system glitch",
+          "seoDesc": "Flights at Athens International Airport face delays and cancellations following an air traffic control system glitch in Italy. Check your status.",
+          "keywords": [
+            "Athens airport delays",
+            "flights to Greece",
+            "Italy flight glitch",
+            "El Venizelos airport",
+            "Athens travel update"
+          ],
+          "dek": "A technical issue within Italy's central air traffic control system has led to flight delays and cancellations at Athens International Airport.",
+          "tldr": [
+            "Delays and cancellations affect flights operating between Athens and major Italian airports including Rome, Milan, and Turin.",
+            "At least three incoming flights from Italy have been officially cancelled so far.",
+            "Authorities confirmed that the technical glitch is unrelated to any cyberattack or malicious activity."
+          ],
+          "means": "Passengers scheduled to fly between Athens and Italy should check their flight status directly with the airline before heading to El Venizelos Airport. Allow extra time for potential schedule adjustments, monitor airport departure boards, and contact your carrier for alternative routing options if disruptions affect your itinerary.",
+          "body": "## Athens Airport impacted by Italian air traffic control failure\n\nAthens International Airport «Eleftherios Venizelos» is currently experiencing operational impacts due to severe disruptions in flight schedules connecting Greece and Italy. The irregularities stem from an unexpected technical malfunction within Italy's primary air traffic control infrastructure.\n\n## Flight delays and cancellations reported\n\nAccording to official reports, the delays began during the early morning hours, affecting routes operating between Athens and major Italian aviation hubs such as Rome, Milan, and Turin. At least three inbound flights from Italy have been cancelled, while numerous other departures and arrivals face rolling delays as European aviation networks adjust to the technical shortfall.\n\n## Security concerns ruled out by authorities\n\nRelevant authorities have formally clarified that the technical disruption is entirely mechanical and non-malicious in nature. Officials confirmed there is no indication of a cyberattack or any other intentional interference affecting the air traffic management systems."
+        }
+      },
+      "text": "Το αεροδρόμιο «Ελευθέριος Βενιζέλος» επηρεάζεται από τα σοβαρά προβλήματα που καταγράφονται στις πτήσεις από και προς την Ιταλία, καθώς έχουν αναφερθεί καθυστερήσεις και τουλάχιστον τρεις ακυρώσεις πτήσεων από ιταλικά αεροδρόμια.\n Σύμφωνα με ρεπορτάζ της ΕΡΤ καταγράφονται καθυστερήσει από τον Αερολιμένα Αθηνών προς τα μεγάλα αεροδρόμια της Ιταλίας και αντίστροφα, εξαιτίας του τεχνικού προβλήματος στο κεντρικό σύστημα εναέριας κυκλοφορίας της Ιταλίας.\n Σύμφωνα με τις αρμόδιες Αρχές, το πρόβλημα δεν συνδέεται με κυβερνοεπίθεση ή άλλη κακόβουλη ενέργεια.\n Οι καθυστερήσεις άρχισαν γύρω στις 6 το πρωί, τοπική ώρα, στα αεροδρόμια της Ρώμης, του Μιλάνου και του Τορίνο.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 16/10/2026 - 3:49 \n Στον εισαγγελέα ο γυμναστής που κατηγορείται για προσβολή γενετήσιας αξιοπρέπειας ανηλίκων\n 16/10/2026 - 3:47 \n Πώς δρούσε κύκλωμα παράνομων τυχερών παιχνιδιών που εξαπατούσε παίκτες – 20 συλλήψεις\n 16/10/2026 - 3:26 \n Γιαννιτσά: Κάθειρξη 12 ετών σε μεθυσμένο οδηγό για δυστύχημα με θύμα 78χρονο τα Χριστούγεννα του 2023\n 16/10/2026 - 3:23 \n «Ελ. Βενιζέλος»: Τα κιβώτια από Βραζιλία και ΗΠΑ είχαν κοκαΐνη και skunk\n 16/10/2026 - 2:43 \n Ομόνοια: Διακινούσαν ταξιδιωτικά έγγραφα σε κατάστημα-«βιτρίνα» κινητών τηλεφώνων\n 16/10/2026 - 2:36 \n Reuters: Ο CEO της Naftogaz δηλώνει ότι τα αποθέματα φυσικού αερίου της Ουκρανίας έφτασαν σε υψηλό 6ετίας\n 16/10/2026 - 2:33 \n Θεσσαλονίκη: Προσωρινά κρατούμενος ο 22χρονος που συνελήφθη για τον θάνατο της 20χρονης μετά από χρήση ναρκωτικών\n 16/10/2026 - 1:53 \n Πειραιάς: Σοβαρός τραυματισμός γυναίκας που παρασύρθηκε από τραμ\n 16/10/2026 - 1:43 \n Λάρισα: Στο φως φυτεία 800 δενδρυλλίων κάνναβης σε βουνοπλαγιά\n 16/10/2026 - 1:35 \n Τι αλλάζει στις γονικές άδειες: Όλες οι αλλαγές που φέρνει το ν/σ του υπ. Εργασίας\n 16/10/2026 - 1:20 \n Καρπενήσι: Εξιχνιάστηκε κλοπή άνω των 25.000 ευρώ από κατάστημα υγειονομικού ενδιαφέροντος\n 16/10/2026 - 1:19 \n Δεσμεύονται περιουσιακά στοιχεία του Φ. Καμπούρη και του ΛΑΟΣ\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Καθυστερήσεις πτήσεων στο αεροδρόμιο της Αθήνας λόγω βλάβης στο ιταλικό σύστημα",
+        "dek": "Ένα τεχνικό πρόβλημα στο κεντρικό σύστημα ελέγχου εναέριας κυκλοφορίας της Ιταλίας προκαλεί καθυστερήσεις και ακυρώσεις πτήσεων στο Διεθνές Αεροδρόμιο Αθηνών.",
+        "tldr": [
+          "Οι καθυστερήσεις και οι ακυρώσεις επηρεάζουν τις πτήσεις μεταξύ Αθήνας και μεγάλων ιταλικών αεροδρομίων, όπως η Ρώμη, το Μιλάνο και το Τορίνο.",
+          "Τουλάχιστον τρεις αφικνούμενες πτήσεις από την Ιταλία έχουν ακυρωθεί επίσημα μέχρι στιγμής.",
+          "Οι αρχές επιβεβαίωσαν ότι η τεχνική βλάβη δεν σχετίζεται με κυβερνοεπίθεση ή κακόβουλη δραστηριότητα."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2415,12 +2509,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-16T12:53:41.743Z",
+      "at": "2026-10-16T13:27:12.323Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-16T12:53:42.538Z",
+      "at": "2026-10-16T13:27:12.942Z",
       "items": 5
     },
     "civilprotection": {
@@ -2431,27 +2525,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-16T12:53:44.107Z",
+      "at": "2026-10-16T13:27:14.433Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-16T12:53:44.721Z",
+      "at": "2026-10-16T13:27:14.644Z",
       "items": 3
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-16T12:53:45.791Z",
+      "at": "2026-10-16T13:27:15.572Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-16T12:53:46.718Z",
-      "items": 1
+      "at": "2026-10-16T13:27:16.297Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-16T12:53:47.339Z",
+      "at": "2026-10-16T13:27:16.740Z",
       "items": 10
     },
     "toi-greece": {
@@ -2462,22 +2556,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-16T12:53:47.953Z",
+      "at": "2026-10-16T13:27:17.154Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-16T12:53:48.054Z",
+      "at": "2026-10-16T13:27:17.433Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-16T12:53:48.493Z",
-      "items": 6
+      "at": "2026-10-16T13:27:17.652Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T12:53:49.022Z",
+      "at": "2026-10-16T13:27:17.797Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2487,12 +2581,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-16T12:53:42.925Z",
+      "at": "2026-10-16T13:27:13.521Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-16T12:53:49.856Z",
+      "at": "2026-10-16T13:27:18.347Z",
       "items": 0
     },
     "hcg": {
@@ -2503,32 +2597,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-16T12:53:51.411Z",
+      "at": "2026-10-16T13:27:19.545Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-16T12:53:51.643Z",
+      "at": "2026-10-16T13:27:19.807Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-16T12:53:51.851Z",
+      "at": "2026-10-16T13:27:20.007Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-16T12:53:52.078Z",
+      "at": "2026-10-16T13:27:20.317Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-16T12:53:52.419Z",
-      "items": 5
+      "at": "2026-10-16T13:27:20.696Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-16T12:53:52.821Z",
+      "at": "2026-10-16T13:27:21.157Z",
       "items": 9
     }
   },
@@ -2715,14 +2809,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-16T12:54:01.374Z",
+    "at": "2026-10-16T13:27:30.459Z",
     "considered": 4,
     "picked": 1,
     "items": [
-      "✓ ert | Προβλήματα στο «Ελευθέριος Βενιζέλος»: Ακυρώσεις πτήσεων και καθυστερήσεις λόγω τεχνικού π",
-      "· naftemporiki | ΔΝΤ για Βρετανία: Η αύξηση του τραπεζικού φόρου «δεν θα πρέπει να αποτελεί την πρώτη επιλο",
-      "· ingr | Αλέξης Τσίπρας: Μέρα με τη μέρα επιβεβαιώνεται ότι η ακρίβεια είναι ένα αόρατο μνημόνιο – ",
-      "· gn-civilprotection | Άνοιξε η πλατφόρμα myBusinessSupport για τον α’ κύκλο του ειδικού σχήματος στήριξης για τι"
+      "· gct | Greece and Germany Put Submarines at the Centre of Defence Talks",
+      "· ktg | Career diplomat Josh Huck assumes duties of temporary ambassador to US Embassy in Greece",
+      "✓ naftemporiki | Προβλήματα στο «Ελ. Βενιζέλος» λόγω του «μπλακ άουτ» σε ιταλικά αεροδρόμια – Καθυστερήσεις",
+      "· ert | Nέο πεζοπορικό μονοπάτι εγκαινιάζει ο Δήμος Τεμπών"
     ]
   },
   "evergreenDone": [
