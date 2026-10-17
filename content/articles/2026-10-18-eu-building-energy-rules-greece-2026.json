@@ -1,0 +1,60 @@
+{
+  "slug": "eu-building-energy-rules-greece-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-10-18T01:35:21+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "Athens"
+  },
+  "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/10/16/new-eu-building-energy-rules-bring-challenges-for-greece/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13356918/pexels-photo-13356918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Athens cityscape showcasing urban density with mountains in the background.",
+    "credit": "Photo: David Iglesias / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dense-architecture-of-city-13356918/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "תקנות האנרגיה החדשות של האיחוד האירופי לבניינים ביוון",
+    "dek": "ועידת הנדל\"ן באתונה דנה בהשלכות הנחיות היעילות האנרגית החדשות, הדורשות התאמה של בניינים ישנים ומבנים חדשים.",
+    "tldr": [
+      "האיחוד האירופי אימץ הנחיות חדשות ליעילות אנרגית בבניינים (EPBD).",
+      "האתגר המרכזי ביוון הוא שרוב המלאי הקיים נבנה לפני תקני בידוד מודרניים.",
+      "נדרשים שדרוגי מבנים, החלפת מערכות חימום ומיזוג, ומימון אירופי."
+    ],
+    "means": "למשקיעים בנדל\"ן ביוון: השינויים משפיעים על עלויות שיפוץ, הערכות שווי נכסים ותקני הבנייה הנדרשים בשוק המקומי.",
+    "body": "תקנות האנרגיה החדשות של האיחוד האירופי לבניינים מציבות אתגרים חדשים עבור שוק הנדל\"ן ביוון. הוועדה האירופית והדירקטיבה המתוקנת (EPBD) עמדו במרכז הדיונים בוועדת הנדל\"ן ה-27 שהתקיימה באתונה באוקטובר 2026. המסגרת החדשה מתמקדת בשדרוג הדרגתי של מבנים קיימים, דרישות מחמירות לבנייה חדשה והתאמת נכסים לשינויי אקלים.\n\nבסעיף המקומי, חלק ניכר ממלאי הבניינים ביוון נבנה לפני כניסתם לתוקף של תקני בידוד תרמי מתקדמים, מה שמקשה על יישום הכללים החדשים. עיקרי הדברים כוללים מעבר הדרגתי לבניינים אפסי פליטות, כאשר בנייני ציבור חדשים מחויבים לעמוד ביעדים מתחילת 2028, וכלל הבניינים החדשים עד שנת 2030.\n\nממצאי הדיונים מצביעים על חשיבות מימון השדרוגים באמצעות קרנות אירופיות ותוכניות התייעלות, במטרה לשמור על ערך הנכסים לצד עלויות שיפוץ סבירות."
+  },
+  "en": {
+    "title": "New EU building energy rules bring challenges for Greece",
+    "dek": "The 27th Prodexpo conference in Athens examined the impact of updated EU energy performance standards on Greek real estate.",
+    "tldr": [
+      "The EU's revised Energy Performance of Buildings Directive sets strict new standards.",
+      "Greece faces challenges due to an older building stock lacking modern insulation.",
+      "Financing renovations and maintaining property values remain key priorities."
+    ],
+    "means": "For investors in Greek real estate: The updated framework impacts renovation costs, property valuations, and compliance for future construction.",
+    "body": "New European Union energy performance requirements are impacting property assessments, construction standards, and building renovations across Greece. The revised Energy Performance of Buildings Directive (EPBD) was a central topic at the 27th Prodexpo real estate conference held in Athens.\n\nThe updated regulatory framework focuses on the gradual upgrade of existing structures, stricter rules for new construction, and climate change adaptation. Because a significant portion of Greece's building stock was constructed before modern insulation standards, implementing the new requirements presents distinct challenges.\n\nDiscussions highlighted that public buildings must meet zero-emission standards starting in 2028, with the requirement expanding to all new buildings by 2030. Securing financing through European funds and energy upgrade programs remains essential to balance environmental requirements with affordable renovation costs in the Greek property market."
+  },
+  "meta": {
+    "itemId": "96cca16ffb75",
+    "imageQuery": "Athens architecture building energy efficiency Greece",
+    "sourceHash": "9d36c3ede027",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-17T22:35:22.113Z",
+    "official": false
+  }
+}
