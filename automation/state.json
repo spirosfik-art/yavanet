@@ -2269,7 +2269,9 @@
     "9e43d755768e": 1792270871209,
     "7ac70a132664": 1792270871209,
     "1d4de6689faf": 1792270871209,
-    "d1ac2a9afe05": 1792272730876
+    "d1ac2a9afe05": 1792272730876,
+    "b82df86c80d2": 1792275246588,
+    "2fd0b5f72d72": 1792275246588
   },
   "pending": {
     "a35fbe": {
@@ -2386,12 +2388,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T21:59:04.275Z",
-      "items": 0
+      "at": "2026-10-17T22:13:53.869Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T21:59:04.768Z",
+      "at": "2026-10-17T22:13:54.674Z",
       "items": 5
     },
     "civilprotection": {
@@ -2402,27 +2404,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T21:59:05.953Z",
+      "at": "2026-10-17T22:13:56.699Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T21:59:06.269Z",
+      "at": "2026-10-17T22:13:57.107Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T21:59:07.178Z",
+      "at": "2026-10-17T22:13:58.244Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T21:59:07.717Z",
+      "at": "2026-10-17T22:13:59.101Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T21:59:08.052Z",
+      "at": "2026-10-17T22:13:59.990Z",
       "items": 10
     },
     "toi-greece": {
@@ -2433,22 +2435,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T21:59:08.430Z",
+      "at": "2026-10-17T22:14:00.582Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T21:59:08.522Z",
+      "at": "2026-10-17T22:14:00.843Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T21:59:08.695Z",
+      "at": "2026-10-17T22:14:01.416Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T21:59:08.824Z",
+      "at": "2026-10-17T22:14:01.945Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2458,12 +2460,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T21:59:05.241Z",
+      "at": "2026-10-17T22:13:55.297Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T21:59:09.257Z",
+      "at": "2026-10-17T22:14:02.691Z",
       "items": 0
     },
     "hcg": {
@@ -2474,40 +2476,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T21:59:10.871Z",
+      "at": "2026-10-17T22:14:04.290Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T21:59:11.047Z",
+      "at": "2026-10-17T22:14:04.454Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T21:59:11.222Z",
-      "items": 1
+      "at": "2026-10-17T22:14:04.642Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T21:59:11.515Z",
+      "at": "2026-10-17T22:14:04.780Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T21:59:11.824Z",
+      "at": "2026-10-17T22:14:05.077Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T21:59:12.169Z",
-      "items": 4
+      "at": "2026-10-17T22:14:05.470Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-18",
     "count": 0,
-    "published": [],
+    "published": [
+      {
+        "slug": "crown-iris-igoumenitsa-weather-diversion",
+        "title": "↻ Storm in Greece: Record Rainfall Recorded in Setta, Evia",
+        "at": "2026-10-18T01:14:19+03:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [
       {
         "title": "Crete: Search and rescue operation launched for two tourists lost on Mount Psiloritis",
@@ -2636,11 +2645,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T21:32:10.876Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-17T22:14:06.588Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· ert | Γαλλία προς Ισραήλ: Να συλληφθούν οι έποικοι που επιτέθηκαν σε Ευρωπαίους διπλωμάτες στη Δ"
+      "· gct | Feast Day of the Holy Apostle and Evangelist Loukas",
+      "✓ gn-iefimerida | Στη Σέττα Ευβοίας το ρεκόρ βροχής του διημέρου - Ποιες περιοχές βρέθηκαν στο επίκεντρο της"
     ]
   },
   "evergreenDone": [
