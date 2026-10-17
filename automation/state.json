@@ -2276,7 +2276,8 @@
     "647e46555c62": 1792276537788,
     "e745c805e101": 1792277826183,
     "b37bd7b21d95": 1792277826183,
-    "c40885b641f4": 1792277826183
+    "c40885b641f4": 1792277826183,
+    "fd04f3d410e5": 1792278502803
   },
   "pending": {},
   "sourceStatus": {
@@ -2288,12 +2289,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T22:56:54.573Z",
-      "items": 10
+      "at": "2026-10-17T23:08:13.084Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T22:56:55.380Z",
+      "at": "2026-10-17T23:08:13.584Z",
       "items": 5
     },
     "civilprotection": {
@@ -2304,27 +2305,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T22:56:57.233Z",
+      "at": "2026-10-17T23:08:14.590Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T22:56:57.684Z",
+      "at": "2026-10-17T23:08:15.019Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T22:56:58.741Z",
+      "at": "2026-10-17T23:08:15.798Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T22:56:59.581Z",
+      "at": "2026-10-17T23:08:16.476Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T22:57:00.348Z",
+      "at": "2026-10-17T23:08:17.199Z",
       "items": 10
     },
     "toi-greece": {
@@ -2335,22 +2336,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T22:57:00.850Z",
+      "at": "2026-10-17T23:08:17.618Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T22:57:01.164Z",
+      "at": "2026-10-17T23:08:17.714Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T22:57:01.757Z",
+      "at": "2026-10-17T23:08:18.100Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T22:57:02.169Z",
+      "at": "2026-10-17T23:08:18.236Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2360,12 +2361,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T22:56:56.167Z",
+      "at": "2026-10-17T23:08:13.937Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T22:57:02.817Z",
+      "at": "2026-10-17T23:08:18.683Z",
       "items": 0
     },
     "hcg": {
@@ -2376,32 +2377,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T22:57:04.100Z",
+      "at": "2026-10-17T23:08:19.946Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T22:57:04.345Z",
+      "at": "2026-10-17T23:08:20.244Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T22:57:04.500Z",
+      "at": "2026-10-17T23:08:20.666Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T22:57:04.788Z",
+      "at": "2026-10-17T23:08:21.015Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T22:57:05.168Z",
+      "at": "2026-10-17T23:08:21.522Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T22:57:05.677Z",
+      "at": "2026-10-17T23:08:22.033Z",
       "items": 4
     }
   },
@@ -2552,13 +2553,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T22:57:06.183Z",
-    "considered": 3,
+    "at": "2026-10-17T23:08:22.803Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greek Households Circle Seven Dates Before New Year",
-      "· gct | Greece Returns to the Desert Where 89 Soldiers Fell",
-      "· gct | Internet Café Players Never Stood a Chance, Police Say"
+      "· gct | A Serres Sheepfold Hides Far More Than Cannabis"
     ]
   },
   "evergreenDone": [
