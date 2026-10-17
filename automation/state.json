@@ -13,7 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "cde0d7ffb7d0": 1790999990405,
     "dd299b46e07a": 1791000800398,
     "13639b6dc7be": 1791000800398,
     "c14245a50aa4": 1791000800398,
@@ -2282,115 +2281,15 @@
     "78b200cb81a5": 1792200166906,
     "e45b8cc47e11": 1792201886006,
     "5620efea6db2": 1792201886006,
-    "2c87fe1ea515": 1792203274641
+    "2c87fe1ea515": 1792203274641,
+    "63a90d8dc127": 1792209943256,
+    "02ad9345a3bb": 1792209943256,
+    "f73ee9aef83c": 1792209943256,
+    "a7ac7a78b08d": 1792209943256,
+    "1f1a99650846": 1792209943256,
+    "256f82268842": 1792209943256
   },
   "pending": {
-    "ceba2e": {
-      "createdAt": 1792201903928,
-      "item": {
-        "title": "Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
-        "url": "https://www.in.gr/2026/10/17/greece/seismos-42-rixter-stin-kefalonia/",
-        "summary": "Το εστιακό βάθος υπολογίζεται σε περίπου 17 χιλιόμετρα.\n The post Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά appeared first on in.gr .",
-        "published": "Sat, 17 Oct 2026 04:28:20 +0300",
-        "id": "5620efea6db2",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "5620efea6db2",
-        "section": "breaking",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "A 4.2 magnitude earthquake struck Kefalonia, an island popular with Israeli tourists. Essential for tourist safety and awareness.",
-        "item": {
-          "title": "Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
-          "url": "https://www.in.gr/2026/10/17/greece/seismos-42-rixter-stin-kefalonia/",
-          "summary": "Το εστιακό βάθος υπολογίζεται σε περίπου 17 χιλιόμετρα.\n The post Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά appeared first on in.gr .",
-          "published": "Sat, 17 Oct 2026 04:28:20 +0300",
-          "id": "5620efea6db2",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "earthquake-magnitude-4-2-kefalonia",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 38.17,
-          "lng": 20.57
-        },
-        "strike": null,
-        "alert": {
-          "he": "רעידת אדמה ביוון",
-          "en": "Earthquake in Greece"
-        },
-        "imageKey": "quake",
-        "imageQuery": "seismic monitoring equipment greece",
-        "he": {
-          "title": "רעידת אדמה בעוצמה 4.2 ריכתר הורגשה בקפאלוניה",
-          "seoTitle": "רעידת אדמה ביוון: רעידה בעוצמה 4.2 הורגשה בקפלוניה",
-          "seoDesc": "רעידת אדמה קלה בעוצמה 4.2 הורגשה הלילה באי קפלוניה ביוון. אין דיווחים על נפגעים או נזק משמעותי ממכון הסייסמולוגיה באתונה.",
-          "keywords": [
-            "רעידת אדמה ביוון",
-            "רעידת אדמה בקפלוניה",
-            "חדשות יוון",
-            "רעידת אדמה",
-            "איים ביוון"
-          ],
-          "dek": "רעידת אדמה קלה בעוצמה 4.2 בסולם ריכטר התרחשה הלילה באזור קפלוניה. המכון הגיאודינאמי באתונה מסר כי האירוע הסתיים ללא נפגעים.",
-          "tldr": [
-            "רעידת אדמה בעוצמה 4.2 התרחשה בשעה 02:57 לפנות בוקר.",
-            "המוקד היה 4 קילומטרים מזרחית-צפון-מזרחית לסאמי.",
-            "עומק המוקד היה כ-17 קילומטרים מתחת לפני הים."
-          ],
-          "means": "אם אתם נמצאים כעת בקפלוניה או מתכננים חופשה באזור, חשוב לדעת שמדובר ברעידת אדמה שגרתית לאזור זה ביוון שלא גרמה לנזק. אין הנחיות מיוחדות מטעם הרשויות, אך תמיד מומלץ לוודא שאתם מכירים את נהלי החירום הבסיסיים במקום השהייה שלכם ולעקוב אחר עדכונים רשמיים במידת הצורך.",
-          "body": "## פרטי האירוע הסייסמי\n\nרעידת אדמה קלה בעוצמה של 4.2 דרגות בסולם ריכטר נרשמה בשעה 02:57 לפנות בוקר באזור האי קפלוניה. כך עולה מהודעה רשמית שפרסם המכון הגיאודינאמי של האצטרונומיה הלאומית באתונה, המייצג את ארבעת הגופים המרכיבים את רשת הסייסמולוגיה הלאומית המאוחדת.\n\n## מיקום ומוקד הרעידה\n\nעל פי הנתונים המדויקים שנאספו ברשת, מוקד הרעש זוהה במרחב הימי, במרחק של כ-4 קילומטרים בכיוון מזרח-צפון-מזרח מהעיירה סאמי שבאי קפלוניה. עוד עולה מן הנתונים כי עומק המוקד מוערך בכ-17 קילומטרים מתחת לקרקע הים.\n\n## מצב בשטח\n\nעד כה לא התקבלו דיווחים על נפגעים בגוף או על נזק משמעותי לרכוש כתוצאה מהרעש. הרשויות ביוון ממשיכות לעקוב אחר הפעילות הסייסמית באזור כבגרת שגרה, כמקובל באזורים מועדים לרעידות אדמה במדינה."
-        },
-        "en": {
-          "title": "Magnitude 4.2 Earthquake Recorded Near Kefalonia",
-          "seoTitle": "Magnitude 4.2 Earthquake Hits Kefalonia in Greece",
-          "seoDesc": "A mild 4.2 magnitude earthquake struck near Kefalonia island in Greece early Friday morning. No injuries or damage reported.",
-          "keywords": [
-            "earthquake in greece",
-            "kefalonia earthquake",
-            "greece news",
-            "aegean earthquake",
-            "travel greece"
-          ],
-          "dek": "A mild earthquake measuring 4.2 on the Richter scale occurred overnight near Kefalonia. Authorities report no damage or injuries.",
-          "tldr": [
-            "A 4.2 magnitude earthquake struck at 02:57.",
-            "The epicenter was located 4 km east-northeast of Sami.",
-            "The focal depth was measured at approximately 17 kilometers."
-          ],
-          "means": "For tourists and visitors currently in Kefalonia or planning a trip to the Ionian islands, this minor seismic event has caused no disruptions or damage. Normal routines continue across the area, and no special safety measures or travel changes are required by local authorities.",
-          "body": "## Seismic Activity Details\n\nA mild earthquake with a magnitude of 4.2 on the Richter scale was recorded at 02:57 in the morning off the coast of Kefalonia. The Geodynamic Institute of the National Observatory of Athens issued the official measurement on behalf of the Unified National Seismological Network.\n\n## Epicenter and Depth\n\nInstrumental data indicates that the epicenter of the tremor was situated in the marine area, specifically 4 kilometers east-northeast of Sami, Kefalonia. The focal depth of the seismic event was calculated to be approximately 17 kilometers beneath the seabed.\n\n## Current Status\n\nLocal authorities and emergency services have confirmed that no injuries or material damages have been reported following the tremor. Monitoring of the seismic activity in the region continues as a standard precaution by Greek scientific institutes."
-        }
-      },
-      "text": "Vita.gr \n Λίμπιντο: Κι όμως, το μυστικό της ερωτικής επιθυμίας μπορεί να κρύβεται στο έντερο\n Spotlight Περιστέρι: Πώς συνελήφθη η 41χρονη με την ατροπίνη – Κρυβόταν μέσα στο σπίτι για να μην την πιάσουν οι αστυνομικοί \n Μετρό στην Κυψέλη: Νέος κύκλος καταγραφής των ζημιών από τον μετροπόντικα στις πολυκατοικίες – Τι αποφασίστηκε σε σύσκεψη \n Γιορτή σήμερα 17 Οκτωβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Ιταλία: Σειρά διαδηλώσεων κατά της κυβέρνησης Μελόνι – Συγκρούσεις μεταξύ αστυνομίας και διαδηλωτών στο Τορίνο \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Ασθενής σεισμός μεγέθους 4,2 βαθμών στην κλίμακα Ρίχτερ σημειώθηκε στις 02:57 στην Κεφαλονιά , όπως ανακοίνωσε το Γεωδυναμικό Ινστιτούτο του Εθνικού Αστεροσκοπείου Αθηνών εκ μέρους των τεσσάρων φορέων συγκρότησης του Ενιαίου Εθνικού Σεισμολογικού Δικτύου.\n Το επίκεντρο του σεισμού εντοπίζεται στον θαλάσσιο χώρο 4 χιλιόμετρα ανατολικά-βορειοανατολικά της Σάμης Κεφαλληνίας και το εστιακό βάθος υπολογίζεται σε περίπου 17 χιλιόμετρα.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά \n Η Βόρεια Κορέα έκανε δοκιμή τορπίλης με τεχνολογία τεχνητής νοημοσύνης \n Νίκος Λεβέντης: Τι αποκαλύπτει το τάμπλετ του νεκρού στο πάρκινγκ του 251 ΓΝΑ \n Οι Δημοκρατικοί συγκεντρώνουν περισσότερα χρήματα από τους Ρεπουμπλικάνους, παρά τα εκατομμύρια του Μασκ \n Είκοσι εκατομμύρια Ουκρανοί θα καταφύγουν στην Ευρώπη εάν η Ρωσία κερδίσει τον πόλεμο \n «Θρίλερ» σε πάρκινγκ στρατιωτικού νοσοκομείου – Νεκρός υπεύθυνος ασφαλείας \n Τεχνητή νοημοσύνη: Τι θα συμβεί όταν η ΑΙ θα μπορεί να διαβάζει τη σκέψη μας; \n Telegraph: Ο Μασκ εισηγήθηκε στον Τραμπ τους περιορισμούς του Starshield για την Ουκρανία \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
-      "issues": [],
-      "el": {
-        "title": "Σεισμός 4,2 Ρίχτερ καταγράφηκε κοντά στην Κεφαλονιά",
-        "dek": "Μέτριος σεισμός μεγέθους 4,2 της κλίμακας Ρίχτερ σημειώθηκε τη νύχτα κοντά στην Κεφαλονιά. Οι αρχές αναφέρουν ότι δεν υπήρξαν ζημιές ή τραυματισμοί.",
-        "tldr": [
-          "Σεισμική δόνηση 4,2 Ρίχτερ σημειώθηκε στις 02:57.",
-          "Το επίκεντρο εντοπίστηκε 4 χιλιόμετρα ανατολικά-βορειοανατολικά της Σάμης.",
-          "Το εστιακό βάθος μετρήθηκε περίπου στα 17 χιλιόμετρα."
-        ]
-      },
-      "notified": true
-    },
     "bf5e73": {
       "createdAt": 1792203287967,
       "item": {
@@ -2507,12 +2406,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T03:33:50.604Z",
+      "at": "2026-10-17T04:05:32.860Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T03:33:51.114Z",
+      "at": "2026-10-17T04:05:33.655Z",
       "items": 5
     },
     "civilprotection": {
@@ -2523,27 +2422,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T03:33:52.174Z",
+      "at": "2026-10-17T04:05:35.105Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T03:33:52.507Z",
+      "at": "2026-10-17T04:05:35.543Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T03:33:53.271Z",
+      "at": "2026-10-17T04:05:36.644Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T03:33:53.934Z",
-      "items": 3
+      "at": "2026-10-17T04:05:37.442Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T03:33:54.627Z",
+      "at": "2026-10-17T04:05:37.859Z",
       "items": 10
     },
     "toi-greece": {
@@ -2554,22 +2453,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T03:33:55.015Z",
+      "at": "2026-10-17T04:05:38.378Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T03:33:55.143Z",
+      "at": "2026-10-17T04:05:38.491Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T03:33:55.215Z",
-      "items": 3
+      "at": "2026-10-17T04:05:38.955Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T03:33:55.329Z",
+      "at": "2026-10-17T04:05:39.178Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2579,12 +2478,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T03:33:51.284Z",
+      "at": "2026-10-17T04:05:34.168Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T03:33:55.740Z",
+      "at": "2026-10-17T04:05:39.903Z",
       "items": 0
     },
     "hcg": {
@@ -2595,39 +2494,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T03:33:56.954Z",
+      "at": "2026-10-17T04:05:41.233Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T03:33:57.175Z",
+      "at": "2026-10-17T04:05:41.418Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T03:33:57.327Z",
+      "at": "2026-10-17T04:05:41.614Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T03:33:57.591Z",
+      "at": "2026-10-17T04:05:41.908Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T03:33:57.963Z",
+      "at": "2026-10-17T04:05:42.234Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T03:33:58.332Z",
+      "at": "2026-10-17T04:05:42.595Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-17",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "klearchos-marousakis-weather-change-greece",
@@ -2652,6 +2551,12 @@
         "title": "Northern Greece Winter Destinations: Mountains, Lakes, and Traditional Villages",
         "at": "2026-10-17T03:10:57+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "kefalonia-earthquake-4-2-richter-october-2026",
+        "title": "4.2 magnitude earthquake recorded off the coast of Kefalonia",
+        "at": "2026-10-17T07:05:29+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2662,7 +2567,12 @@
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "kefalonia-earthquake-4-2-richter-october-2026",
+        "at": "2026-10-17T04:05:30.154Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2773,11 +2683,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T02:14:34.641Z",
-    "considered": 1,
-    "picked": 1,
+    "at": "2026-10-17T04:05:43.256Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "✓ gn-iefimerida | Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγ"
+      "· ingr | Όταν ο καφές έγινε… θερμός",
+      "· gct | Greek National Opera Brings Kazantzakis and Zorba to New York",
+      "· gct | Greek Navy’s Advanced Kimon Frigate Expected in Thessaloniki",
+      "· ert | Ιαπωνία: Ανακλήθηκε εσφαλμένη προειδοποίηση για σεισμό 9,9 Ρίχτερ",
+      "· gct | Olympiacos Beat Barcelona to Claim Dramatic EuroLeague Victory",
+      "· gct | International Conference on Hellenism and the World Opens"
     ]
   },
   "evergreenDone": [
@@ -2820,5 +2735,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792058972992,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "kefalonia-earthquake-4-2-richter-october-2026",
+      "url": "https://yavanet.gr/a/kefalonia-earthquake-4-2-richter-october-2026/",
+      "at": "2026-10-17T04:05:30.154Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/kefalonia-earthquake-4-2-richter-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/kefalonia-earthquake-4-2-richter-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה 4.2 בלבד בקפלוניה: אין דווח על נזקים",
+        "title_en": "4.2 magnitude earthquake recorded off the coast of Kefalonia",
+        "dek_he": "רעידת אדמה הורגשה בלילה בקפלוניה | המוקד היה בים סמוך לסאמי, והרשויות מדווחת כי לא התקבלו דיווחים על נפגעים או נזקים מיוחדים.",
+        "dek_en": "A mild earthquake struck near Kefalonia overnight | Authorities report no damages or injuries following the tremor.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/13584182/pexels-photo-13584182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "רעידת אדמה בעוצמה 4.2 בלבד בקפלוניה: אין דווח על נזקים\n\nרעידת אדמה הורגשה בלילה בקפלוניה | המוקד היה בים סמוך לסאמי, והרשויות מדווחת כי לא התקבלו דיווחים על נפגעים או נזקים מיוחדים.\n\nhttps://yavanet.gr/a/kefalonia-earthquake-4-2-richter-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "4.2 magnitude earthquake recorded off the coast of Kefalonia\n\nA mild earthquake struck near Kefalonia overnight | Authorities report no damages or injuries following the tremor.\n\nhttps://yavanet.gr/en/a/kefalonia-earthquake-4-2-richter-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }

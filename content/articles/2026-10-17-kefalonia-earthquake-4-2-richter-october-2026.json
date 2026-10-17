@@ -1,0 +1,60 @@
+{
+  "slug": "kefalonia-earthquake-4-2-richter-october-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-17T07:05:29+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 38.2527,
+    "lng": 20.6488,
+    "name": "Kefalonia"
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/17/greece/seismos-42-rixter-stin-kefalonia/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13584182/pexels-photo-13584182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque view of Asos village in Greece, featuring vibrant houses along the serene coastline.",
+    "credit": "Photo: Vasilis Spyrou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-on-a-coast-and-boats-on-water-13584182/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "רעידת אדמה בעוצמה 4.2 בלבד בקפלוניה: אין דווח על נזקים",
+    "dek": "רעידת אדמה הורגשה בלילה בקפלוניה | המוקד היה בים סמוך לסאמי, והרשויות מדווחת כי לא התקבלו דיווחים על נפגעים או נזקים מיוחדים.",
+    "tldr": [
+      "רעידת אדמה בעוצמה 4.2 התרחשה בלילה בקפלוניה.",
+      "מוקד הרעידה היה בים, 4 קילומטרים מסאמי.",
+      "לא דווח על נזקים או נפגעים ממוסדות המדינה."
+    ],
+    "means": "למה זה חשוב לישראלים המטיילים באיים? המידע נועד לעדכן על אירועים סייסמיים באזור יוון לצורך מודעות ובטיחות.",
+    "body": "המכון הגיאודינמי של הציבור והאקדמיה לאתונה עדכן כי רעידת אדמה בעוצמה 4.2 בסולם ריחטר התרחשה בשעה 02:57 לפנות בוקר בקפלוניה. המוקד של הרעידה אותר באזור הימי, מרחק של 4 קילומטרים מזרחה-צפון-מזרחה מהיישוב סאמי באי. עומק המוקד של הרעש נאמד בכ-17 קילומטרים מתחת לפני הקרקע. לפי שעה, רשויות החירום וההצלה ביוון לא דיווחו על נפגעים בגוף או על נזקים חומריים כתוצאה מהרעידה."
+  },
+  "en": {
+    "title": "4.2 magnitude earthquake recorded off the coast of Kefalonia",
+    "dek": "A mild earthquake struck near Kefalonia overnight | Authorities report no damages or injuries following the tremor.",
+    "tldr": [
+      "A 4.2 magnitude earthquake hit near Kefalonia.",
+      "The epicenter was located at sea near Sami.",
+      "No injuries or property damage have been reported."
+    ],
+    "means": "Why this matters to travelers: Provides timely safety updates regarding seismic activity in Greek tourist destinations.",
+    "body": "The Geodynamic Institute of the National Observatory of Athens reported that a mild earthquake measuring 4.2 on the Richter scale occurred at 02:57 near Kefalonia. The epicenter was located in the sea area, 4 kilometers east-northeast of Sami, with a focal depth of approximately 17 kilometers. Local authorities confirmed that there are no immediate reports of structural damage or injuries."
+  },
+  "meta": {
+    "itemId": "5620efea6db2",
+    "imageQuery": "Kefalonia Greece island sea",
+    "sourceHash": "bebe0396ba0c",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-17T04:05:30.153Z",
+    "official": false
+  }
+}
