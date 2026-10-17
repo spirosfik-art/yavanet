@@ -13,20 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "615cc03ad5f0": 1791052403002,
-    "61b3605401f4": 1791052403002,
-    "ace6e4d07ecc": 1791052403002,
-    "1e3cd2039bf3": 1791052403002,
-    "b93d7ad434c3": 1791052403002,
-    "e3e5345d7f98": 1791052403002,
-    "cdae4f7f631c": 1791052403002,
-    "cd26d8ed5fa4": 1791052403002,
-    "cd9640ff957d": 1791052403002,
-    "a34566fee56b": 1791052403002,
-    "73611f710626": 1791052403002,
-    "43e31f6aa547": 1791052403002,
-    "075b77b759f3": 1791052403002,
-    "7e70e5eedcf3": 1791052403002,
     "1101dc965a91": 1791052690129,
     "bf0320ee2f74": 1791079511457,
     "236bd5a087e8": 1791079511457,
@@ -2269,9 +2255,224 @@
     "4c2e9efa433d": 1792252066725,
     "86a608f64260": 1792256444339,
     "d258fe7dc8b5": 1792256444339,
-    "4ef7b2be40b9": 1792258274906
+    "4ef7b2be40b9": 1792258274906,
+    "a73b1cedb332": 1792262133231,
+    "f6b28146af07": 1792262133231,
+    "bfe8c33e448e": 1792262133231,
+    "752feae3e439": 1792262133231
   },
-  "pending": {},
+  "pending": {
+    "aef9bb": {
+      "createdAt": 1792262150820,
+      "item": {
+        "title": "Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη",
+        "url": "https://www.in.gr/2026/10/17/greece/kriti-se-ekseliksi-epixeirisi-entopismou-dyo-touriston-pou-xathikan-ston-psiloreiti/",
+        "summary": "Οι δύο νεαροί από τη Δανία έχασαν τον προσανατολισμό τους το απόγευμα του Σαββάτου, σε ορεινή περιοχή πάνω από τη Λοχριά. Στις έρευνες συμμετέχουν δέκα πυροσβέστες με τέσσερα οχήματα\n The post Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη appeared first on in.gr .",
+        "published": "Sat, 17 Oct 2026 21:27:09 +0300",
+        "id": "f6b28146af07",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "f6b28146af07",
+        "section": "travel",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Search and rescue operation for missing foreign tourists in Crete (Psiloritis mountain), relevant for tourist safety.",
+        "item": {
+          "title": "Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη",
+          "url": "https://www.in.gr/2026/10/17/greece/kriti-se-ekseliksi-epixeirisi-entopismou-dyo-touriston-pou-xathikan-ston-psiloreiti/",
+          "summary": "Οι δύο νεαροί από τη Δανία έχασαν τον προσανατολισμό τους το απόγευμα του Σαββάτου, σε ορεινή περιοχή πάνω από τη Λοχριά. Στις έρευνες συμμετέχουν δέκα πυροσβέστες με τέσσερα οχήματα\n The post Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη appeared first on in.gr .",
+          "published": "Sat, 17 Oct 2026 21:27:09 +0300",
+          "id": "f6b28146af07",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "tourists-lost-psiloritis-crete-search",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 35.23,
+          "lng": 24.77
+        },
+        "strike": null,
+        "alert": {
+          "he": "אזהרה לתיירים",
+          "en": "Tourist Warning"
+        },
+        "imageKey": "island",
+        "imageQuery": "mountain hiking greece landscape",
+        "he": {
+          "title": "כרתים: מבצע חיפוש אחר שני תיירים שאיבדו את דרכם בהר פסילוריטיס",
+          "seoTitle": "כרתים: חיפושים אחר שני תיירים שנסעו להר פסילוריטיס",
+          "seoDesc": "מבצע חיפוש והצלה נרחב מתנהל בכרתים אחר שני תיירים מדנמרק שאבדו באזור הר פסילוריטיס. כל הפרטים והעדכונים החשובים.",
+          "keywords": [
+            "כרתים",
+            "טיול בכרתים",
+            "איים ביוון",
+            "חופשה ביוון"
+          ],
+          "dek": "כוחות כיבוי אש רבים פועלים באזור ההררי בכרתים כדי לאתר שני צעירים מדנמרק שאיבדו את הכיוון.",
+          "tldr": [
+            "שני תיירים מדנמרק איבדו את דרכם באזור הר פסילוריטיס בכרתים.",
+            "כוחות ההצלה פתחו במבצע חיפוש הכולל אנשי צוות ורכבי שטח.",
+            "באזור שוררות טמפרטורות נמוכות ועננות ללא גשם."
+          ],
+          "means": "אם אתם מטיילים כעת בכרתים או מתכננים הגעה לאזורים ההריים, הקפידו לעדכן גורמים מקומיים על מסלולכם, בדקו היטב את תנאי מזג האוויר והצטיידו בלבוש חם. במקרה חירום ביוון, ניתן לפנות לכוחות ההצלה המקומיים ולעדכן את הקונסוליה במידת הצורך.",
+          "body": "## כוחות ההצלה הוזעקו להר פסילוריטיס\n\nשני תיירים צעירים מדנמרק איבדו את דרכם במהלך טיול באזור ההררי פסילוריטיס שבדרום-מרכז כרתים. האירוע התרחש בשעות אחר הצהריים של יום שבת, 17 באוקטובר, והביא להפעלת כוחות חירום והצלה רבים באזור.\n\nעם קבלת הדיווח על אובדן ההתמצאות של השניים, יצאה לשטח יחידה מיוחדת של שירות כיבוי האש המקומי הכוללת עשרה כבאים וארבעה רכבי מבצע.\n\n## תנאי מזג האוויר בשטח\n\nהחיפושים מתרכזים באזור ההררי הרחב שנמצא מעל הכפר לוחריה, שם על פי הערכות הרשויות שוהים התיירים. נכון לעכשיו, הפעילות נמצאת בעיצומה וממשיכה ללא הפסקה.\n\nעל פי הדיווחים מהשטח, באזור שוררות טמפרטורות נמוכות יחד עם עננות רבה, אך בשלב זה אין דיווחים על יורדים משקעים או גשם במקום, נתון המקל במעט על התקדמות הסריקות.\n\nהשלטונות ממשיכים במאמצים לאתר את שני הצעירים ולהבטיח את שלומם בהקדם האפשרי."
+        },
+        "en": {
+          "title": "Crete: Search and rescue operation launched for two tourists lost on Mount Psiloritis",
+          "seoTitle": "Crete: Search underway for two tourists lost on Mount Psiloritis",
+          "seoDesc": "Emergency services in Crete are searching for two young Danish tourists who lost their way in the Psiloritis mountain area.",
+          "keywords": [
+            "Crete",
+            "Greece travel",
+            "Psiloritis mountain",
+            "Greece tourists"
+          ],
+          "dek": "Firefighting crews and rescue vehicles have been deployed in the mountainous region of Crete to locate two missing travellers.",
+          "tldr": [
+            "Two young tourists from Denmark lost their orientation on Mount Psiloritis.",
+            "Rescue teams including firefighters and vehicles are searching the area.",
+            "Low temperatures and cloudy conditions prevail without rainfall."
+          ],
+          "means": "If you are currently traveling in Crete or planning mountain hikes, always check weather forecasts in advance, inform others of your itinerary, and carry proper clothing. In case of any emergency, contact local Greek authorities immediately.",
+          "body": "## Emergency deployment in Psiloritis\n\nA search and rescue operation was launched on the afternoon of Saturday, October 17, after two young tourists from Denmark lost their way while exploring the Psiloritis mountain area in Crete.\n\nFollowing the alert, local firefighting authorities mobilized a specialized team consisting of ten firefighters and four operational vehicles to scan the rugged terrain.\n\n## Ongoing search efforts\n\nThe search teams are focusing their efforts in the broader mountainous zone above the village of Lohria, where the missing individuals are believed to be located. The operation remains active and ongoing.\n\nAccording to weather updates from the location, low temperatures and cloudy skies characterize the area, though no rainfall is currently reported, allowing rescue crews to continue their work without weather interruptions.\n\nAuthorities maintain their efforts to trace the two tourists and bring the operation to a safe conclusion."
+        }
+      },
+      "text": "Vita.gr \n Sleep on it: Το δεκάλεπτο μέσα στη μέρα που μπορεί να αλλάξει τη νύχτα μας\n Spotlight Νίκαια: Το ΤΕΝΞ του Στρατού στο σημείο για την απομάκρυνση του οπλισμού από την πολυκατοικία \n Με σημαντικά ύψη βροχής πέρασε η τελευταία κακοκαιρία – Τι καιρό θα κάνει τις επόμενες ημέρες \n Κρήτη: Νέα τραγωδία στον ΒΟΑΚ – Σοκάρουν οι εικόνες από το θανατηφόρο τροχαίο με έναν νεκρό \n Πότε θα καταβληθούν οι συντάξεις Νοεμβρίου \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Συναγερμός σήμανε το απόγευμα του Σαββάτου 17 Οκτωβρίου στην Πυροσβεστική Υπηρεσία, έπειτα από περιστατικό αποπροσανατολισμού δύο νεαρών τουριστών από τη Δανία στον Ψηλορείτη.\n Σύμφωνα με το neakriti.gr οι δύο Δανοί τουρίστες έχασαν τον προσανατολισμό τους ενώ βρίσκονταν στον Ψηλορείτη, με αποτέλεσμα να κινητοποιηθεί η Πυροσβεστική Υπηρεσία.\n Για τον εντοπισμό των δύο νεαρών έχει οργανωθεί επιχείρηση στην οποία συμμετέχουν 10 πυροσβέστες με τέσσερα οχήματα.\n Οι πυροσβεστικές δυνάμεις πραγματοποιούν έρευνες στην ευρύτερη ορεινή περιοχή πάνω από τη Λοχριά, όπου εκτιμάται ότι βρίσκονται οι δύο τουρίστες.\n Μέχρι στιγμής, η επιχείρηση είναι σε εξέλιξη.\n Στην περιοχή του Ψηλορείτη επικρατούν χαμηλές θερμοκρασίες και συννεφιά, συνθήκες που λαμβάνονται υπόψη κατά τη διάρκεια των ερευνών.\n Πάντως, σύμφωνα με την ενημέρωση που υπάρχει για τις καιρικές συνθήκες στο σημείο, δεν σημειώνεται βροχόπτωση αυτή την ώρα.\n Οι πυροσβεστικές δυνάμεις συνεχίζουν την προσπάθεια εντοπισμού των δύο νεαρών τουριστών.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Μπάγερν-Λειψία 6-1: Σάκος του μποξ οι φιλοξενούμενοι, με χατ τρικ του Ολίσε \n Νιούκαστλ – Άστον Βίλα 0-1: Μεγάλο «διπλό» για την ομάδα του Μπέρμιγχαμ \n Πρόβλημα στην Σίτι με Χάαλαντ – «Πιθανό να μην παίξει κόντρα στην ΑΕΚ» (vid) \n Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη \n Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης \n Νύχτα οργής στη Γαλλία: Σοβαρά επεισόδια στις διαδηλώσεις, βίαιη καταστολή, ακρωτηριάστηκε διαδηλωτής – 800.000 στους δρόμους \n Μπολόνια-Ίντερ 1-3: Παραμένει πρώτη με ανατροπή και με «χρυσές αλλαγές» τους Αουγκούστο, Μπόνι \n Ντόρτμουντ: Τι είπε ο Κόβατς για τραυματισμό του Καρέτσα (pic) \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Κρήτη: Επιχείρηση έρευνας και διάσωσης για δύο τουρίστες που χάθηκαν στον Ψηλορείτη",
+        "dek": "Πυροσβεστικές δυνάμεις και οχήματα διάσωσης έχουν αναπτυχθεί στην ορεινή περιοχή της Κρήτης για τον εντοπισμό δύο αγνοούμενων ταξιδιωτών.",
+        "tldr": [
+          "Δύο νέοι τουρίστες από τη Δανία έχασαν τον προσανατολισμό τους στον Ψηλορείτη.",
+          "Ομάδες διάσωσης, που περιλαμβάνουν πυροσβέστες και οχήματα, «χτενίζουν» την περιοχή.",
+          "Στην περιοχή επικρατούν χαμηλές θερμοκρασίες και συννεφιά, χωρίς ωστόσο να βρέχει."
+        ]
+      },
+      "notified": true
+    },
+    "a24195": {
+      "createdAt": 1792262169128,
+      "item": {
+        "title": "Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης",
+        "url": "https://www.in.gr/2026/10/17/greece/thessaloniki-synelifthi-22xroni-sto-aerodromio-pou-metefere-185-kila-kannavis/",
+        "summary": "Η 22χρονη αλλοδαπή κατηγορείται ως μέλος διεθνικής εγκληματικής ομάδας που επιχείρησε να εισάγει στην ελληνική επικράτεια περισσότερα από -18,5- κιλά κάνναβης μέσω του αεροδρομίου «Μακεδονία» στη Θεσσαλονίκη \n The post Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης appeared first on in.gr .",
+        "published": "Sat, 17 Oct 2026 21:19:23 +0300",
+        "id": "752feae3e439",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "752feae3e439",
+        "section": "breaking",
+        "priority": 5,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Major drug bust (18.5 kg of cannabis) at Thessaloniki's Makedonia Airport, relevant to airport security and safety for travelers.",
+        "item": {
+          "title": "Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης",
+          "url": "https://www.in.gr/2026/10/17/greece/thessaloniki-synelifthi-22xroni-sto-aerodromio-pou-metefere-185-kila-kannavis/",
+          "summary": "Η 22χρονη αλλοδαπή κατηγορείται ως μέλος διεθνικής εγκληματικής ομάδας που επιχείρησε να εισάγει στην ελληνική επικράτεια περισσότερα από -18,5- κιλά κάνναβης μέσω του αεροδρομίου «Μακεδονία» στη Θεσσαλονίκη \n The post Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης appeared first on in.gr .",
+          "published": "Sat, 17 Oct 2026 21:19:23 +0300",
+          "id": "752feae3e439",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "thessaloniki-airport-drug-arrest-cannabis",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 40.5197,
+          "lng": 22.9709
+        },
+        "strike": null,
+        "alert": {
+          "he": "מעצר בסלוניקי",
+          "en": "Thessaloniki Arrest"
+        },
+        "imageKey": "people",
+        "imageQuery": "airport security police officers",
+        "he": {
+          "title": "שדה התעופה בסלוניקי: צעירה נעצרה עם 18.5 קילו קנאביס מזן סקאנק",
+          "seoTitle": "מעצר בסלוניקי: צעירה נעצרה בשדה התעופה עם 18.5 קילו קנאביס",
+          "seoDesc": "צעירה בת 22 נעצרה בשדה התעופה בסלוניקי לאחר שנחתה עם טיסה מברצלונה כשבכבודה 18.5 קילוגרם של קנאביס הידרופוני.",
+          "keywords": [
+            "סלוניקי",
+            "שדה התעופה בסלוניקי",
+            "יוון",
+            "חדשות יוון",
+            "מעצר ביוון"
+          ],
+          "dek": "רשויות האכיפה ביוון עצרו צעירה בת 22 בנמל התעופה הבינלאומי מקדוניה בסלוניקי, בחשד שניסתה להבריח כמות גדולה של סמים קשים בטיסה ספרד.",
+          "tldr": [
+            "האירוע התרחש בנמל התעופה מקדוניה בסלוניקי בשעות הערב של יום חמישי, 15 באוקטובר 2026.",
+            "החשודה, צעירה בת 22 המבקרת מחוץ למדינה, נחתה בטיסה שהגיעה מברצלונה שבספרד.",
+            "בבדיקת המזוודה התגלו 18.5 קילוגרם של קנאביס הידרופוני מסוג סקאנק וכן מכשיר סלולרי וסכום כסף."
+          ],
+          "means": "האירוע מעיד על פעילות מוגברת של משטרת גבולות והמכס בנמלי התעופה של יוון, כולל בסלוניקי, במסגרת מאבק בהברחות בינלאומיות. עבור ישראלים הנוחתים ביעדים השונים ביוון, מדובר בתזכורת לכך שהבדיקות הביטחוניות והמכסיות בשדות התעופה מחמירות וקפדניות מאוד.",
+          "body": "## מעצר בנמל התעופה בסלוניקי\n\nמשטרת יוון עצרה צעירה בת 22 בנמל התעופה הבינלאומי מקדוניה בסלוניקי (SKG), בחשד למעורבות בהברחת סמים בינלאומית. המעצר בוצע על ידי מחלקת סמים של המרכז למלחמה בפשיעה מאורגת, בשיתוף פעולה הדוק עם יחידות נוספות.\n\nהצעירה נעצרה לאחר שנחתה בטיסה שהגיעה מברצלונה שבספרד. במהלך פעילות של ניתוח פרופילים ובדיקות ממוקדות בנמל התעופה, אותרה החשודה על ידי השוטרים באזור הנוסעים המגיעים.\n\n## תפיסת החומרים האסורים\n\nבחיפוש שנערך בכבודה של הצעירה, איתרו השוטרים שקיות ניילון שהכילו קנאביס הידרופוני מסוג סקאנק (SKUNK). המשקל הכולל של החומר שנתפס עמד על 18.5 קילוגרם.\n\nלצד הסמים, השוטרים תפסו גם מכשיר טלפון נייד וסכום כספי של 150 אירו שהיו ברשותה. הצעירה הועברה לחקירה בפני הרשויות המשפטיות המוסמכות להמשך ההליכים."
+        },
+        "en": {
+          "title": "Thessaloniki Airport: 22-Year-Old Arrested with 18.5 Kg of Cannabis",
+          "seoTitle": "Thessaloniki Airport: Woman Arrested with 18.5 Kg of Cannabis",
+          "seoDesc": "A 22-year-old woman was arrested at Thessaloniki's Macedonia Airport carrying 18.5 kg of hydroponic cannabis arriving from Barcelona.",
+          "keywords": [
+            "Thessaloniki airport",
+            "Greece news",
+            "Thessaloniki arrest",
+            "Macedonia airport",
+            "Greece cannabis arrest"
+          ],
+          "dek": "Greek law enforcement authorities arrested a 22-year-old foreign national at Thessaloniki's Macedonia International Airport after she arrived on a flight carrying a large quantity of drugs.",
+          "tldr": [
+            "The arrest took place during the evening hours at Macedonia Airport in Thessaloniki.",
+            "The suspect arrived on a flight originating from Barcelona, Spain.",
+            "Authorities found 18.5 kilograms of hydroponic cannabis inside her luggage during security checks."
+          ],
+          "means": "This operation highlights strict customs and security profiling at Greek airports for incoming international flights. For travelers, it underscores the intense monitoring and checks conducted by authorities at entry points across the country.",
+          "body": "## Arrest at Thessaloniki Airport\n\nGreek police arrested a 22-year-old woman at Macedonia International Airport in Thessaloniki on suspicion of international drug smuggling. The operation was conducted by the Drug Enforcement Sub-Directorate in cooperation with specialized northern Greece units.\n\nThe suspect was intercepted following targeted checks and profiling of passengers arriving on a flight from Barcelona, Spain.\n\n## Seizure of Contraband\n\nDuring the baggage inspection in the arrivals area, officers discovered plastic packaging containing hydroponic cannabis known as SKUNK. The total weight of the confiscated drugs reached 18.5 kilograms.\n\nIn addition to the cannabis, police seized a mobile phone and 150 euros from the suspect. The detained individual was brought before the competent judicial authorities for further legal proceedings."
+        }
+      },
+      "text": "Vita.gr \n Sleep on it: Το δεκάλεπτο μέσα στη μέρα που μπορεί να αλλάξει τη νύχτα μας\n Spotlight Νίκαια: Το ΤΕΝΞ του Στρατού στο σημείο για την απομάκρυνση του οπλισμού από την πολυκατοικία \n Με σημαντικά ύψη βροχής πέρασε η τελευταία κακοκαιρία – Τι καιρό θα κάνει τις επόμενες ημέρες \n Κρήτη: Νέα τραγωδία στον ΒΟΑΚ – Σοκάρουν οι εικόνες από το θανατηφόρο τροχαίο με έναν νεκρό \n Πότε θα καταβληθούν οι συντάξεις Νοεμβρίου \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Για διακίνηση ναρκωτικών συνελήφθη 22χρονη στο Διεθνή Αερολιμένα Θεσσαλονίκης «Μακεδονία» από την Υποδιεύθυνση Δίωξης Ναρκωτικών της Διεύθυνσης Αντιμετώπισης Οργανωμένου Εγκλήματος, σε συνεργασία με το Τμήμα Δίωξης Ναρκωτικών της Υποδιεύθυνσης Αντιμετώπισης Οργανωμένου Εγκλήματος Βορείου Ελλάδος.\n Η νεαρή αλλοδαπή γυναίκα εντοπίστηκε βραδινές ώρες της Πέμπτης (15 Οκτωβρίου 2026) και κατηγορείται ως μέλος διεθνικής εγκληματικής ομάδας που δραστηριοποιούνταν στην εισαγωγή ακατέργαστης κάνναβης υδροπονικής καλλιέργειας (SKUNK) στην ελληνική επικράτεια, μέσω της αεροπορικής οδού, με σκοπό την περαιτέρω διακίνηση.\n Η βαλίτσα της 22χρονης\n Ειδικότερα, σύμφωνα με την Αστυνομία στο πλαίσιο στοχευμένων ελέγχων για την αποτροπή εισαγωγής ναρκωτικών ουσιών στη χώρα, έπειτα από κατάλληλη αξιοποίηση, εξακρίβωση, διασταύρωση και ανάλυση στοιχείων, καθώς και δημιουργία προφίλ ατόμων (profiling), εντοπίστηκε η κατηγορούμενη, η οποία αφίχθη στη Θεσσαλονίκη με πτήση προερχόμενη από τη Βαρκελώνη Ισπανίας.\n Από τον έλεγχο που πραγματοποιήθηκε, κατελήφθη στον χώρο των αφίξεων να μεταφέρει σε πλαστική αποσκευή -2- νάιλον συσκευασίες με ακατέργαστη κάνναβη υδροπονικής καλλιέργειας (SKUNK), συνολικού μικτού βάρους -18- κιλών και -650- γραμμαρίων, η οποία κατασχέθηκε.\n Επιπλέον, βρέθηκαν και κατασχέθηκαν -150- ευρώ και συσκευή κινητής τηλεφωνίας.\n Η συλληφθείσα οδηγήθηκε στην αρμόδια εισαγγελική Αρχή.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Μπάγερν-Λειψία 6-1: Σάκος του μποξ οι φιλοξενούμενοι, με χατ τρικ του Ολίσε \n Νιούκαστλ – Άστον Βίλα 0-1: Μεγάλο «διπλό» για την ομάδα του Μπέρμιγχαμ \n Πρόβλημα στην Σίτι με Χάαλαντ – «Πιθανό να μην παίξει κόντρα στην ΑΕΚ» (vid) \n Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη \n Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης \n Νύχτα οργής στη Γαλλία: Σοβαρά επεισόδια στις διαδηλώσεις, βίαιη καταστολή, ακρωτηριάστηκε διαδηλωτής – 800.000 στους δρόμους \n Μπολόνια-Ίντερ 1-3: Παραμένει πρώτη με ανατροπή και με «χρυσές αλλαγές» τους Αουγκούστο, Μπόνι \n Ντόρτμουντ: Τι είπε ο Κόβατς για τραυματισμό του Καρέτσα (pic) \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Αεροδρόμιο Θεσσαλονίκης: 22χρονη συνελήφθη με 18,5 κιλά κάνναβης",
+        "dek": "Οι ελληνικές αρχές ασφαλείας συνέλαβαν μια 22χρονη αλοδαπή στο Διεθνές Αεροδρόμιο «Μακεδονία» της Θεσσαλονίκης, αφότου έφτασε με πτήση μεταφέροντας μεγάλη ποσότητα ναρκωτικών.",
+        "tldr": [
+          "Η σύλληψη πραγματοποιήθηκε τις βραδινές ώρες στο αεροδρόμιο «Μακεδονία» στη Θεσσαλονίκη.",
+          "Η ύποπτη έφτασε με πτήση που προερχόταν από τη Βαρκελώνη της Ισπανίας.",
+          "Οι αρχές εντόπισαν 18,5 κιλά υδροπονικής κάνναβης μέσα στις αποσκευές της κατά τους ελέγχους ασφαλείας."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2281,12 +2482,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T18:08:54.276Z",
-      "items": 10
+      "at": "2026-10-17T18:35:22.463Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T18:08:55.047Z",
+      "at": "2026-10-17T18:35:23.120Z",
       "items": 5
     },
     "civilprotection": {
@@ -2297,27 +2498,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T18:08:56.878Z",
+      "at": "2026-10-17T18:35:24.307Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T18:08:57.224Z",
+      "at": "2026-10-17T18:35:24.605Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T18:08:58.282Z",
+      "at": "2026-10-17T18:35:25.357Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T18:08:59.072Z",
-      "items": 1
+      "at": "2026-10-17T18:35:26.066Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T18:08:59.790Z",
+      "at": "2026-10-17T18:35:26.505Z",
       "items": 10
     },
     "toi-greece": {
@@ -2328,23 +2529,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T18:09:00.373Z",
+      "at": "2026-10-17T18:35:26.923Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T18:09:00.515Z",
+      "at": "2026-10-17T18:35:26.978Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T18:09:01.407Z",
-      "items": 3
+      "at": "2026-10-17T18:35:27.221Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T18:09:01.966Z",
-      "items": 4
+      "at": "2026-10-17T18:35:27.333Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2353,12 +2554,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T18:08:55.743Z",
+      "at": "2026-10-17T18:35:23.474Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T18:09:02.345Z",
+      "at": "2026-10-17T18:35:27.526Z",
       "items": 0
     },
     "hcg": {
@@ -2369,32 +2570,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T18:09:03.731Z",
+      "at": "2026-10-17T18:35:30.364Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T18:09:04.060Z",
+      "at": "2026-10-17T18:35:30.597Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T18:09:04.258Z",
+      "at": "2026-10-17T18:35:30.767Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T18:09:04.518Z",
+      "at": "2026-10-17T18:35:31.047Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T18:09:04.879Z",
-      "items": 6
+      "at": "2026-10-17T18:35:31.409Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T18:09:05.339Z",
+      "at": "2026-10-17T18:35:31.871Z",
       "items": 8
     }
   },
@@ -2623,11 +2824,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T17:31:14.906Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-17T18:35:33.231Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Ιράκ: Έκρηξη σε βάση παραστρατιωτικής οργάνωσης – Ένας νεκρός (Βίντεο)"
+      "· ert | Επίθεση Ισραηλινών εποίκων στη Δυτική Όχθη, σε ευρωπαϊκή διπλωματική αποστολή",
+      "✓ ingr | Κρήτη: Σε εξέλιξη επιχείρηση εντοπισμού δύο τουριστών που χάθηκαν στον Ψηλορείτη",
+      "· naftemporiki | Ισραήλ: Ο Νετανιάχου προειδοποιεί ότι η εκλογική αναμέτρηση είναι στήθος με στήθος, κάλεσμ",
+      "✓ ingr | Θεσσαλονίκη: Συνελήφθη 22χρονη στο αεροδρόμιο που μετέφερε 18,5 κιλά κάνναβης"
     ]
   },
   "evergreenDone": [
