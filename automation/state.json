@@ -13,9 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "dd299b46e07a": 1791000800398,
-    "13639b6dc7be": 1791000800398,
-    "c14245a50aa4": 1791000800398,
     "959d6e14c48e": 1791002451071,
     "5a3d2800cf3c": 1791003098582,
     "cc25ab93b7b6": 1791003098582,
@@ -2287,116 +2284,10 @@
     "f73ee9aef83c": 1792209943256,
     "a7ac7a78b08d": 1792209943256,
     "1f1a99650846": 1792209943256,
-    "256f82268842": 1792209943256
+    "256f82268842": 1792209943256,
+    "064945607648": 1792211692776
   },
-  "pending": {
-    "bf5e73": {
-      "createdAt": 1792203287967,
-      "item": {
-        "title": "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1KNzhoQ0NMNnNMNmxJSFI4YlBpVEZtYWpYS0E1eTR2RXNYdE1BQ3Jyd1JhanNKNUVXQVJzN3ZZa0h2WVVMcFNtdGxrQ0tMaVRVYVUtbGRKRThqRkRyVVZ6cHVIUWc0UllYUnVWaWF2dDNfQjZENWFDdFozYTLSAYIBQVVfeXFMUFpLX0hUeEhIOTd1ZHlnVGVVWDgwbWg5WEJDaU9sTTZZT2pPMzVtUmRGSWsySzdkblVPS00zb0RZbEF2OVBiUE5fd2ZxYzRhNWpqOHlyRkJXSklNWXM2OU8xUjEzNmhsUnJBR2puaGdaSGx2RWwwck44SVB1enV0S0hGZw?oc=5",
-        "summary": "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο &nbsp;&nbsp; iefimerida.gr",
-        "published": "Fri, 16 Oct 2026 15:58:04 GMT",
-        "id": "2c87fe1ea515",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "2c87fe1ea515",
-        "section": "travel",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "A truck caught fire in the garage of a high-speed ferry carrying 370 passengers en route to Piraeus, with checks conducted in Syros. This is critical safety news for tourists and travelers using Greek ferry lines.",
-        "item": {
-          "title": "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1KNzhoQ0NMNnNMNmxJSFI4YlBpVEZtYWpYS0E1eTR2RXNYdE1BQ3Jyd1JhanNKNUVXQVJzN3ZZa0h2WVVMcFNtdGxrQ0tMaVRVYVUtbGRKRThqRkRyVVZ6cHVIUWc0UllYUnVWaWF2dDNfQjZENWFDdFozYTLSAYIBQVVfeXFMUFpLX0hUeEhIOTd1ZHlnVGVVWDgwbWg5WEJDaU9sTTZZT2pPMzVtUmRGSWsySzdkblVPS00zb0RZbEF2OVBiUE5fd2ZxYzRhNWpqOHlyRkJXSklNWXM2OU8xUjEzNmhsUnJBR2puaGdaSGx2RWwwck44SVB1enV0S0hGZw?oc=5",
-          "summary": "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο &nbsp;&nbsp; iefimerida.gr",
-          "published": "Fri, 16 Oct 2026 15:58:04 GMT",
-          "id": "2c87fe1ea515",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "truck-fire-highspeed-ferry-syros-piraeus",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.4415,
-          "lng": 24.9416
-        },
-        "strike": null,
-        "alert": {
-          "he": "תקלה ימית",
-          "en": "Marine Incident"
-        },
-        "imageKey": "sea",
-        "imageQuery": "ferry ship sea greece",
-        "he": {
-          "title": "שריפת משאית במעבורת בדרך לפיראוס: הנוסעים פונו ונבדקו",
-          "seoTitle": "שריפה במעבורת ביוון: משאית עלתה באש בדרך לפיראוס",
-          "seoDesc": "משאית עלתה באש בגראז' של מעבורת מהירה עם 370 נוסעים בדרך לפיראוס. האירוע הסתיים ללא נפגעים לאחר בדיקה בסירוס.",
-          "keywords": [
-            "מעבורת ביוון",
-            "פיראוס",
-            "סירוס",
-            "חופשה ביוון",
-            "תיירות ביוון"
-          ],
-          "dek": "משאית פרצה באש בבטן מעבורת מהירה שהובילה 370 נוסעים. לאחר ביקורת בסירוס, כלי השיט המשיך את דרכו לנמל פיראוס.",
-          "tldr": [
-            "משאית עלתה באש בסיפון המטען של מעבורת מהירה.",
-            "על הסיפון היו 370 נוסעים ששהו בים בזמן האירוע.",
-            "המעבורת עגנה בסירוס לבדיקות והמשיכה ליעדה בפיראוס."
-          ],
-          "means": "מתכננים שייט בין האיים או חזרה לפיראוס? מומלץ להתעדכן מול חברות הספנות על לוחות זמנים בעקבות אירועים חריגים בים, ולוודא דרכי התקשרות עם סוכני הנסיעות שלכם.",
-          "body": "## שריפה במפרץ: משאית עלתה באש במעבורת מהירה\n\nאירוע חריג התרחש בים כאשר משאית פרצה באש בתוך גראז' של מעבורת מהירה שהובילה 370 נוסעים. הצוותים נערכו מיד להתמודדות עם המצב בלב הים, תוך שמירה על בטיחות הנוסעים שהיו על סיפון כלי השיט.\n\n## עצירה לבדיקה בסירוס והמשך הפלגה\n\nבשל האירוע, המעבורת עצרה לעצירת חירום ובדיקות יסודיות באי סירוס. לאחר שהרשויות והצוות וידאו את תקינות המצב והשלמת הביקורת הנדרשת, כלי השיט קיבל אישור להמשיך את ההפלגה המקורית לעבר נמל פיראוס המרכזי."
-        },
-        "en": {
-          "title": "Truck fire in high-speed ferry's garage on the way to Piraeus",
-          "seoTitle": "Truck Fire on Ferry to Piraeus Handled Safely in Greece",
-          "seoDesc": "A truck caught fire in the garage of a high-speed ferry carrying 370 passengers. The vessel was checked in Syros and continued to Piraeus.",
-          "keywords": [
-            "ferry fire greece",
-            "syros",
-            "piraeus",
-            "greek ferries",
-            "travel greece"
-          ],
-          "dek": "A truck caught fire inside the garage of a high-speed ferry carrying 370 passengers, leading to safety checks in Syros before continuing to Piraeus.",
-          "tldr": [
-            "A truck caught fire in the garage deck of a high-speed ferry.",
-            "The vessel was carrying 370 passengers during the incident.",
-            "The ferry stopped in Syros for inspections before heading to Piraeus."
-          ],
-          "means": "If you are planning ferry travel in Greece, always keep updated with your ferry operator regarding schedules, safety updates, and customer service contacts in case of unexpected maritime delays.",
-          "body": "## Truck Fire Reported on High-Speed Ferry\n\nA dramatic incident occurred at sea when a truck caught fire inside the garage of a high-speed vessel transporting 370 passengers. Crew members and safety protocols were promptly activated to manage the situation and protect all travelers on board.\n\n## Inspection in Syros and Arrival in Piraeus\n\nFollowing the incident, the ferry docked on the island of Syros for necessary safety controls and technical assessments. Once authorities verified that the situation was fully under control and the vessel was safe, the ferry resumed its voyage toward the port of Piraeus."
-        }
-      },
-      "text": "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο - iefimerida.gr\nΦορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου με 370 επιβάτες -Αναχώρησε για Πειραιά με τον έλεγχο στη Σύρο &nbsp;&nbsp; iefimerida.gr",
-      "issues": [],
-      "el": {
-        "title": "Φωτιά σε φορτηγό στο γκαράζ ταχύπλοου πλοίου καθ' οδόν προς Πειραιά",
-        "dek": "Φορτηγό τυλίχθηκε στις φλόγες στο γκαράζ ταχύπλοου πλοίου που μετέφερε 370 επιβάτες, γεγονός που οδήγησε σε ελέγχους ασφαλείας στη Σύρο προτού συνεχίσει για τον Πειραιά.",
-        "tldr": [
-          "Φορτηγό πήρε φωτιά στο γκαράζ ταχύπλοου πλοίου.",
-          "Το πλοίο μετέφερε 370 επιβάτες κατά τη διάρκεια του συμβάντος.",
-          "Το πλοίο σταμάτησε στη Σύρο για επιθεωρήσεις πριν κατευθυνθεί προς τον Πειραιά."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2406,12 +2297,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T04:05:32.860Z",
-      "items": 10
+      "at": "2026-10-17T04:34:41.240Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T04:05:33.655Z",
+      "at": "2026-10-17T04:34:42.128Z",
       "items": 5
     },
     "civilprotection": {
@@ -2422,27 +2313,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T04:05:35.105Z",
+      "at": "2026-10-17T04:34:43.851Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T04:05:35.543Z",
+      "at": "2026-10-17T04:34:44.201Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T04:05:36.644Z",
+      "at": "2026-10-17T04:34:45.455Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T04:05:37.442Z",
+      "at": "2026-10-17T04:34:46.241Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T04:05:37.859Z",
+      "at": "2026-10-17T04:34:46.870Z",
       "items": 10
     },
     "toi-greece": {
@@ -2453,23 +2344,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T04:05:38.378Z",
+      "at": "2026-10-17T04:34:47.518Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T04:05:38.491Z",
+      "at": "2026-10-17T04:34:47.744Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T04:05:38.955Z",
+      "at": "2026-10-17T04:34:47.948Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T04:05:39.178Z",
-      "items": 3
+      "at": "2026-10-17T04:34:48.148Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2478,12 +2369,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T04:05:34.168Z",
+      "at": "2026-10-17T04:34:42.494Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T04:05:39.903Z",
+      "at": "2026-10-17T04:34:48.946Z",
       "items": 0
     },
     "hcg": {
@@ -2494,32 +2385,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T04:05:41.233Z",
+      "at": "2026-10-17T04:34:50.343Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T04:05:41.418Z",
-      "items": 2
+      "at": "2026-10-17T04:34:50.573Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T04:05:41.614Z",
+      "at": "2026-10-17T04:34:50.731Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T04:05:41.908Z",
+      "at": "2026-10-17T04:34:50.977Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T04:05:42.234Z",
-      "items": 10
+      "at": "2026-10-17T04:34:51.287Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T04:05:42.595Z",
+      "at": "2026-10-17T04:34:51.749Z",
       "items": 8
     }
   },
@@ -2564,6 +2455,11 @@
         "title": "Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
         "reason": "The Hebrew title contains a typo ('הדרב' instead of 'הד਼רב' or correct word like 'הכה' or 'פקד').; Rule 8 / Fact-check: The source does not mention the year (October 17). Although implied by the date combination, strictly speaking, adding years or details not explicitly in the source can be a minor ",
         "at": "2026-10-17T00:47:51.683Z"
+      },
+      {
+        "title": "Truck fire in high-speed ferry's garage on the way to Piraeus",
+        "reason": "Ουδέτερη εκδοχή: λείπει γλώσσα",
+        "at": "2026-10-17T04:34:40.601Z"
       }
     ],
     "errors": [],
@@ -2683,16 +2579,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T04:05:43.256Z",
-    "considered": 6,
+    "at": "2026-10-17T04:34:52.776Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ingr | Όταν ο καφές έγινε… θερμός",
-      "· gct | Greek National Opera Brings Kazantzakis and Zorba to New York",
-      "· gct | Greek Navy’s Advanced Kimon Frigate Expected in Thessaloniki",
-      "· ert | Ιαπωνία: Ανακλήθηκε εσφαλμένη προειδοποίηση για σεισμό 9,9 Ρίχτερ",
-      "· gct | Olympiacos Beat Barcelona to Claim Dramatic EuroLeague Victory",
-      "· gct | International Conference on Hellenism and the World Opens"
+      "· naftemporiki | Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά"
     ]
   },
   "evergreenDone": [
