@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T07:45:16+03:00",
+  "updated": "2026-10-17T07:43:37+03:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,56 +9,56 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 101,
-      "depart": "2026-10-26",
-      "ret": "2026-10-30",
+      "price": 97,
+      "depart": "2026-10-19",
+      "ret": "2026-10-29",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2610ATH30101?t=GQ17930574001793065500000135TLVATH17933310001793338200000120ATHTLV_189f298854f35673589af04459776cfa_9496&search_date=15102026&expected_price_uuid=01a141b9-fe47-8030-eee0-7033d8a4e534&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZbAASMAGDmE4zePc4vQPpA&expected_price_source=share&expected_price_currency=eur&expected_price=101&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1910ATH29101?t=GQ17924526001792460700000135TLVATH17933058001793313000000120ATHTLV_a49b5d899d0de94275dc29d3c97aad5e_9110&search_date=16102026&expected_price_uuid=01a1450a-b74c-8031-2f61-7b051cce1dd5&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pj-nfNBDHr16K8uX4EXgRQ&expected_price_source=share&expected_price_currency=eur&expected_price=97&marker=782936"
     },
     {
       "dest": "HER",
       "he": "הרקליון, כרתים",
       "en": "Heraklion, Crete",
-      "price": 143,
-      "depart": "2026-10-19",
+      "price": 139,
+      "depart": "2026-10-18",
       "ret": "2026-10-22",
       "airline": "El Al",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1910HER22101?t=LY17924220001792429200000120TLVHER17926590001792665000000100HERTLV_f9a2f2badeb9e01a9f127fb19013bee4_13436&search_date=16102026&expected_price_uuid=01a142d2-631a-8030-61e4-27287a9a0463&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3j_ZUvyKLeo66rb7SP4lLg&expected_price_source=share&expected_price_currency=eur&expected_price=143&marker=782936"
-    },
-    {
-      "dest": "RHO",
-      "he": "רודוס",
-      "en": "Rhodes",
-      "price": 149,
-      "depart": "2026-10-16",
-      "ret": "2026-10-18",
-      "airline": "Israir",
-      "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1610RHO18101?t=6H17921541001792160100000100TLVRHO17923185001792323900000090RHOTLV_175ab0b704e2b60fd2d44302496fdf9a_14007&search_date=15102026&expected_price_uuid=01a14044-0ffb-8040-a06a-12c97f69c544&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=McwUJtMO9gFqgiispRBpqg&expected_price_source=share&expected_price_currency=eur&expected_price=149&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1810HER22101?t=LY17923014001792308600000120TLVHER17926590001792665000000100HERTLV_37bb87cef8a877d977dedb02108f47c5_13015&search_date=16102026&expected_price_uuid=01a1442c-c92b-8040-2a87-a52e53031c73&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7AEpBfbIkIemu-s2Pt85EA&expected_price_source=share&expected_price_currency=eur&expected_price=139&marker=782936"
     },
     {
       "dest": "SKG",
       "he": "סלוניקי",
       "en": "Thessaloniki",
-      "price": 160,
-      "depart": "2026-10-26",
-      "ret": "2026-10-29",
-      "airline": "KR",
+      "price": 154,
+      "depart": "2026-10-18",
+      "ret": "2026-10-21",
+      "airline": "Arkia",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2610SKG29101?t=IZ17930013001793010300000150TLVSKG17932995001793307900000140SKGTLV_4f4f477a7b139139e5992cf59417af67_14927&search_date=14102026&expected_price_uuid=01a13b8f-b8d2-8030-a960-f0c23404beea&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xJXKhmuUkUFAM7Z2k5Z4dQ&expected_price_source=share&expected_price_currency=eur&expected_price=160&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1810SKG21101?t=U817923392001792347900000145TLVSKG17925819001792590900000150SKGTLV_b61fb10b0a9242bd5466a95f6143d67a_14466&search_date=16102026&expected_price_uuid=01a143f2-fad2-8030-6280-c1dfd286e78d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9v1CNLbtryf9DrvPrQJdmQ&expected_price_source=share&expected_price_currency=eur&expected_price=154&marker=782936"
+    },
+    {
+      "dest": "RHO",
+      "he": "רודוס",
+      "en": "Rhodes",
+      "price": 161,
+      "depart": "2026-10-18",
+      "ret": "2026-10-22",
+      "airline": "El Al",
+      "transfers": 0,
+      "link": "https://www.aviasales.com/search/TLV1810RHO22101?t=LY17923284001792334700000105TLVRHO17926818001792687500000095RHOTLV_7381f786074c2d6c4ff0ad573dca0a95_15375&search_date=11102026&expected_price_uuid=01a129fb-3d63-8031-6628-efc270b6f0f4&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0T9BnYHoo6blUCWHdK9DQw&expected_price_source=share&expected_price_currency=eur&expected_price=161&marker=782936"
     },
     {
       "dest": "CFU",
       "he": "קורפו",
       "en": "Corfu",
-      "price": 229,
-      "depart": "2026-10-19",
-      "ret": "2026-10-25",
-      "airline": "Wizz Air",
+      "price": 212,
+      "depart": "2026-11-07",
+      "ret": "2026-11-10",
+      "airline": "Sky Express",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1910CFU25101?t=W617924079001792452600000745TLVKRKCFU17929653001793015700000840CFUATHTLV_7bb471cce909ab97f6282bac38a2c039_21802&search_date=10102026&expected_price_uuid=01a12429-a9d6-8031-6af3-57b59db29bee&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=iRMOZ67auAxBGO8rwrwwGQ&expected_price_source=share&expected_price_currency=eur&expected_price=229&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0711CFU10111?t=GQ17940942001794124200000500TLVATHCFU17943477001794436200001475CFUATHTLV_68933d937a2d2c0b317c39d61db71452_20010&search_date=16102026&expected_price_uuid=01a143a4-883e-8030-2171-580938fd5113&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bL4TkK3k8_JY5crChQlVPA&expected_price_source=share&expected_price_currency=eur&expected_price=212&marker=782936"
     },
     {
       "dest": "JTR",
