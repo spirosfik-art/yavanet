@@ -13,11 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "959d6e14c48e": 1791002451071,
-    "5a3d2800cf3c": 1791003098582,
-    "cc25ab93b7b6": 1791003098582,
-    "51bddcdfb305": 1791003692233,
-    "3a47bbfab91e": 1791003692233,
     "3fd4320f2125": 1791005555712,
     "49c0032acc0d": 1791005555712,
     "6c32913c109a": 1791005555712,
@@ -2285,7 +2280,11 @@
     "a7ac7a78b08d": 1792209943256,
     "1f1a99650846": 1792209943256,
     "256f82268842": 1792209943256,
-    "064945607648": 1792211692776
+    "064945607648": 1792211692776,
+    "846df3e6f8f9": 1792213394346,
+    "31cbb080755e": 1792213394346,
+    "58b7f2de48b8": 1792213394346,
+    "1649c606ccea": 1792213394346
   },
   "pending": {},
   "sourceStatus": {
@@ -2297,12 +2296,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T04:34:41.240Z",
-      "items": 0
+      "at": "2026-10-17T05:03:01.677Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T04:34:42.128Z",
+      "at": "2026-10-17T05:03:02.467Z",
       "items": 5
     },
     "civilprotection": {
@@ -2313,27 +2312,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T04:34:43.851Z",
+      "at": "2026-10-17T05:03:04.267Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T04:34:44.201Z",
+      "at": "2026-10-17T05:03:04.413Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T04:34:45.455Z",
+      "at": "2026-10-17T05:03:05.871Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T04:34:46.241Z",
-      "items": 4
+      "at": "2026-10-17T05:03:06.735Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T04:34:46.870Z",
+      "at": "2026-10-17T05:03:07.600Z",
       "items": 10
     },
     "toi-greece": {
@@ -2344,22 +2343,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T04:34:47.518Z",
+      "at": "2026-10-17T05:03:08.249Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T04:34:47.744Z",
+      "at": "2026-10-17T05:03:09.220Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T04:34:47.948Z",
-      "items": 4
+      "at": "2026-10-17T05:03:09.777Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T04:34:48.148Z",
+      "at": "2026-10-17T05:03:10.309Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2369,12 +2368,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T04:34:42.494Z",
+      "at": "2026-10-17T05:03:03.119Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T04:34:48.946Z",
+      "at": "2026-10-17T05:03:10.983Z",
       "items": 0
     },
     "hcg": {
@@ -2385,39 +2384,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T04:34:50.343Z",
+      "at": "2026-10-17T05:03:12.350Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T04:34:50.573Z",
+      "at": "2026-10-17T05:03:12.565Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T04:34:50.731Z",
+      "at": "2026-10-17T05:03:12.717Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T04:34:50.977Z",
+      "at": "2026-10-17T05:03:12.911Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T04:34:51.287Z",
+      "at": "2026-10-17T05:03:13.242Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T04:34:51.749Z",
+      "at": "2026-10-17T05:03:13.626Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-17",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "klearchos-marousakis-weather-change-greece",
@@ -2448,6 +2447,12 @@
         "title": "4.2 magnitude earthquake recorded off the coast of Kefalonia",
         "at": "2026-10-17T07:05:29+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "aegean-winter-sale-30-percent-discount",
+        "title": "Aegean and Olympic Air Launch 30 Percent Winter Sale",
+        "at": "2026-10-17T08:03:29+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2579,11 +2584,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T04:34:52.776Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-17T05:03:14.346Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά"
+      "✓ gct | Aegean Airlines Cuts Winter Fares From Greece by 30%",
+      "· gct | Greek Hand Gestures: The Moutza and 5 Others to Avoid",
+      "· ingr | Τι αλλάζει με τη γονική άδεια",
+      "· naftemporiki | Ιαπωνία: Λανθασμένη προειδοποίηση για σεισμό 9,9 Ρίχτερ"
     ]
   },
   "evergreenDone": [
