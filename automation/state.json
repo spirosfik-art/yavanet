@@ -13,12 +13,6 @@
     "a56574152099": 1797324835203,
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
-    "615be26fa6e5": 1791037957257,
-    "dafef0661ec1": 1791037957257,
-    "8b0644cf5fcb": 1791037957257,
-    "5c774c3a14bd": 1791037957257,
-    "a2be51486cae": 1791037957257,
-    "f04ba23d8946": 1791037957257,
     "615cc03ad5f0": 1791052403002,
     "61b3605401f4": 1791052403002,
     "ace6e4d07ecc": 1791052403002,
@@ -2263,7 +2257,11 @@
     "e7b85464911b": 1792245669638,
     "488640cf70ed": 1792245669638,
     "75ea63fa287a": 1792245669638,
-    "c9f8ab8350a9": 1792245669638
+    "c9f8ab8350a9": 1792245669638,
+    "d2756e76da81": 1792249164488,
+    "14b1ae4b343f": 1792249164488,
+    "81a4f235ddc6": 1792249164488,
+    "574fb8e4181c": 1792249164488
   },
   "pending": {
     "cc514e": {
@@ -2379,12 +2377,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-17T14:31:39.482Z",
-      "items": 0
+      "at": "2026-10-17T14:59:12.015Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-17T14:31:40.114Z",
+      "at": "2026-10-17T14:59:12.799Z",
       "items": 5
     },
     "civilprotection": {
@@ -2395,27 +2393,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-17T14:31:41.310Z",
+      "at": "2026-10-17T14:59:15.358Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-17T14:31:41.590Z",
+      "at": "2026-10-17T14:59:15.495Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-17T14:31:42.501Z",
+      "at": "2026-10-17T14:59:16.613Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-17T14:31:43.097Z",
-      "items": 2
+      "at": "2026-10-17T14:59:17.620Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-17T14:31:43.902Z",
+      "at": "2026-10-17T14:59:18.143Z",
       "items": 10
     },
     "toi-greece": {
@@ -2426,23 +2424,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-17T14:31:44.294Z",
+      "at": "2026-10-17T14:59:18.713Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-17T14:31:44.595Z",
+      "at": "2026-10-17T14:59:18.814Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-17T14:31:44.776Z",
-      "items": 1
+      "at": "2026-10-17T14:59:19.512Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T14:31:44.899Z",
-      "items": 2
+      "at": "2026-10-17T14:59:20.046Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2451,12 +2449,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-17T14:31:40.417Z",
+      "at": "2026-10-17T14:59:14.034Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-17T14:31:45.333Z",
+      "at": "2026-10-17T14:59:20.780Z",
       "items": 0
     },
     "hcg": {
@@ -2467,32 +2465,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-17T14:31:46.277Z",
+      "at": "2026-10-17T14:59:22.253Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-17T14:31:46.489Z",
+      "at": "2026-10-17T14:59:22.420Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-17T14:31:46.670Z",
+      "at": "2026-10-17T14:59:22.557Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-17T14:31:46.860Z",
+      "at": "2026-10-17T14:59:22.888Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-17T14:31:47.221Z",
-      "items": 6
+      "at": "2026-10-17T14:59:23.188Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-17T14:31:47.613Z",
+      "at": "2026-10-17T14:59:23.579Z",
       "items": 10
     }
   },
@@ -2715,19 +2713,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-17T14:01:09.638Z",
-    "considered": 9,
-    "picked": 3,
+    "at": "2026-10-17T14:59:24.488Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· gct | Cypriot Engineer’s Engine Workshop Plans €120 Million Expansion",
-      "✓ gct | Ankara Challenges Who Issues Sea Warnings Off Kastellorizo",
-      "✓ gct | Greece’s €10,000 Relocation Grant Heads to Border Islands",
-      "· gct | Mazonakis Memorial Nears as Toxicology Tests Guide Investigation",
-      "✓ gct | Piraeus Mayor Cuts the Ribbon on Marina Zeas Residences",
-      "· gct | Why Australia’s Changing Tastes Open the Door to Greek Wine",
-      "· ert | Κατερίνη: Ο Τουριστικός Οργανισμός Πιερίας συμμετείχε στην «TTG Travel Experience» στο Ρίμ",
-      "· gct | Nefeli Livieratou Builds a New Life in New York With Shipowner’s Son",
-      "· gn-iefimerida | «Ζητούμε ειλικρινά συγγνώμη»: Λάθος συναγερμός για σεισμό 9,9 Ρίχτερ στην Ιαπωνία -Αναστάτ"
+      "· naftemporiki | Έκρηξη οργής στη Γαλλία για σχολεία και κόστος ζωής: Κτίρια στις φλόγες, συγκρούσεις και ε",
+      "· ert | Έδεσσα: Κατάσβεση πυρκαγιάς σε δύο οχήματα",
+      "· ingr | Κρήτη: Νέα τραγωδία στον ΒΟΑΚ – Σοκάρουν οι εικόνες από το θανατηφόρο τροχαίο με έναν νεκρ",
+      "· gn-kathimerini | Βίαιες συγκρούσεις στη Γαλλία: Εισέβαλαν στο δημαρχείο της Μασσαλίας, στις φλόγες το γραφε"
     ]
   },
   "evergreenDone": [
