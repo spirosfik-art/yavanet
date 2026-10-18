@@ -2260,7 +2260,8 @@
     "24ab264cf56f": 1792323989504,
     "48f335324385": 1792325316419,
     "818bf15af6e2": 1792326909590,
-    "a4ec124b1746": 1792326909590
+    "a4ec124b1746": 1792326909590,
+    "a374899dbb73": 1792329037389
   },
   "pending": {},
   "sourceStatus": {
@@ -2272,12 +2273,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-18T12:38:46.748Z",
-      "items": 10
+      "at": "2026-10-18T13:10:26.098Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-18T12:38:47.759Z",
+      "at": "2026-10-18T13:10:27.319Z",
       "items": 5
     },
     "civilprotection": {
@@ -2288,27 +2289,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-18T12:38:49.939Z",
+      "at": "2026-10-18T13:10:28.484Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-18T12:38:50.310Z",
+      "at": "2026-10-18T13:10:28.918Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-18T12:38:51.631Z",
+      "at": "2026-10-18T13:10:30.342Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-18T12:38:52.604Z",
-      "items": 2
+      "at": "2026-10-18T13:10:31.051Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-18T12:38:53.589Z",
+      "at": "2026-10-18T13:10:31.858Z",
       "items": 10
     },
     "toi-greece": {
@@ -2319,23 +2320,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-18T12:38:54.176Z",
+      "at": "2026-10-18T13:10:32.257Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-18T12:38:54.254Z",
+      "at": "2026-10-18T13:10:32.378Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-18T12:38:54.490Z",
-      "items": 6
+      "at": "2026-10-18T13:10:32.753Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T12:38:54.692Z",
-      "items": 4
+      "at": "2026-10-18T13:10:32.910Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2344,12 +2345,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T12:38:48.766Z",
+      "at": "2026-10-18T13:10:27.692Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-18T12:38:55.509Z",
+      "at": "2026-10-18T13:10:33.442Z",
       "items": 0
     },
     "hcg": {
@@ -2360,39 +2361,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-18T12:38:57.103Z",
+      "at": "2026-10-18T13:10:34.720Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-18T12:38:57.314Z",
+      "at": "2026-10-18T13:10:35.014Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-18T12:38:57.585Z",
+      "at": "2026-10-18T13:10:35.227Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-18T12:38:57.831Z",
-      "items": 7
+      "at": "2026-10-18T13:10:35.489Z",
+      "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-18T12:38:58.125Z",
+      "at": "2026-10-18T13:10:35.800Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-18T12:38:58.554Z",
+      "at": "2026-10-18T13:10:36.237Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-18",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "crown-iris-igoumenitsa-weather-diversion",
@@ -2417,6 +2418,12 @@
         "title": "Two Danish Tourists Rescued on Mount Psiloritis in Crete",
         "at": "2026-10-18T11:34:22+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "kifisos-vehicle-fire-traffic-disruption",
+        "title": "Vehicle Fire on Kifisos Avenue Causes Major Traffic Disruptions",
+        "at": "2026-10-18T16:10:59+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2436,6 +2443,10 @@
       {
         "slug": "poe-dou-strike-november-2026",
         "at": "2026-10-18T07:14:05.974Z"
+      },
+      {
+        "slug": "kifisos-vehicle-fire-traffic-disruption",
+        "at": "2026-10-18T13:11:00.137Z"
       }
     ]
   },
@@ -2553,12 +2564,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-18T12:35:09.590Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-18T13:10:37.389Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· naftemporiki | «Έχεις μήνυμα» από την εφορία: Σε ποιους στέλνει ραβασάκια η ΑΑΔΕ",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Δευτέρα 19 Οκτωβρίου 2026 - www.p"
+      "✓ naftemporiki | Κηφισός: Φωτιά σε όχημα στην Πέτρου Ράλλη – Κλειστές λωρίδες και στα δύο ρεύματα"
     ]
   },
   "evergreenDone": [
@@ -2601,5 +2611,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792058972992,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "kifisos-vehicle-fire-traffic-disruption",
+      "url": "https://yavanet.gr/a/kifisos-vehicle-fire-traffic-disruption/",
+      "at": "2026-10-18T13:11:00.137Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/kifisos-vehicle-fire-traffic-disruption/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/kifisos-vehicle-fire-traffic-disruption/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפת רכב בכפיסוס: עומסים כבדים בשני הכיוונים",
+        "title_en": "Vehicle Fire on Kifisos Avenue Causes Major Traffic Disruptions",
+        "dek_he": "רכב שהעלה אש סמוך למחלף פטרו ראלי בלופורוס קיפיסוי יוצר עומסי תנועה משמעותיים והגבלות נסיעה לשני הכיוונים.",
+        "dek_en": "A car caught fire on Kifisos Avenue near Petrou Ralli, restricting traffic in both directions and causing severe delays.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/14299428/pexels-photo-14299428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפת רכב בכפיסוס: עומסים כבדים בשני הכיוונים\n\nרכב שהעלה אש סמוך למחלף פטרו ראלי בלופורוס קיפיסוי יוצר עומסי תנועה משמעותיים והגבלות נסיעה לשני הכיוונים.\n\nhttps://yavanet.gr/a/kifisos-vehicle-fire-traffic-disruption/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Vehicle Fire on Kifisos Avenue Causes Major Traffic Disruptions\n\nA car caught fire on Kifisos Avenue near Petrou Ralli, restricting traffic in both directions and causing severe delays.\n\nhttps://yavanet.gr/en/a/kifisos-vehicle-fire-traffic-disruption/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
