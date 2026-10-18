@@ -2265,9 +2265,126 @@
     "dca400a12930": 1792298116347,
     "007ec74a11a2": 1792298116347,
     "09a9fd29860c": 1792298116347,
-    "0cef3eadcb88": 1792298116347
+    "0cef3eadcb88": 1792298116347,
+    "504f43480559": 1792299856287,
+    "741328f7170c": 1792299856287
   },
-  "pending": {},
+  "pending": {
+    "5a89c9": {
+      "createdAt": 1792299869675,
+      "item": {
+        "title": "Στάσεις εργασίας των εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες – Κυλιόμενο πανελλαδικό πρόγραμμα",
+        "url": "https://www.ertnews.gr/eidiseis/ellada/staseis-ergasias-ton-ergazomenon-stis-dimosies-oikonomikes-ypiresies-kyliomeno-panelladiko-programma/",
+        "summary": "Πρόγραμμα κυλιόμενων στάσεων εργασίας ανά περιοχή και γενικών συνελεύσεων των συλλόγων – μελών της, έχει ανακοινώσει η Πανελλήνια Ομοσπονδία Εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες (ΠΟΕ-ΔΟΥ) έως την πανελλαδική απεργία της 25ης Νοεμβρίου. Η κινητοποίηση αποτελεί συνέχεια της κλαδικής απεργίας της 19ης Μαρτίου και γίνεται ενάντια στη μείωση του μισθολογικού κόστους, καθώς και ενάντια στη μείωση ... Περισσότερα \n www.ertnews.gr",
+        "published": "Sun, 18 Oct 2026 04:47:44 +0000",
+        "id": "741328f7170c",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": true
+      },
+      "pick": {
+        "id": "741328f7170c",
+        "section": "travel",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Rolling strikes by Greek tax office and public service workers leading up to November 25 may affect bureaucratic processes for Israeli residents and property investors.",
+        "item": {
+          "title": "Στάσεις εργασίας των εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες – Κυλιόμενο πανελλαδικό πρόγραμμα",
+          "url": "https://www.ertnews.gr/eidiseis/ellada/staseis-ergasias-ton-ergazomenon-stis-dimosies-oikonomikes-ypiresies-kyliomeno-panelladiko-programma/",
+          "summary": "Πρόγραμμα κυλιόμενων στάσεων εργασίας ανά περιοχή και γενικών συνελεύσεων των συλλόγων – μελών της, έχει ανακοινώσει η Πανελλήνια Ομοσπονδία Εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες (ΠΟΕ-ΔΟΥ) έως την πανελλαδική απεργία της 25ης Νοεμβρίου. Η κινητοποίηση αποτελεί συνέχεια της κλαδικής απεργίας της 19ης Μαρτίου και γίνεται ενάντια στη μείωση του μισθολογικού κόστους, καθώς και ενάντια στη μείωση ... Περισσότερα \n www.ertnews.gr",
+          "published": "Sun, 18 Oct 2026 04:47:44 +0000",
+          "id": "741328f7170c",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": true
+        }
+      },
+      "draft": {
+        "slug": "greek-tax-office-rolling-strikes-until-november",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": {
+          "dates": [
+            "2025-11-25"
+          ],
+          "sectors": [
+            "public-sector",
+            "other"
+          ],
+          "hours": "rolling hours until November 25",
+          "he": "שביתת עובדי רשויות המס ביוון עד 25 בנובמבר",
+          "en": "Greek tax office workers strike until November 25"
+        },
+        "alert": {
+          "he": "שביתה",
+          "en": "Strike"
+        },
+        "imageKey": "strike",
+        "imageQuery": "protest strike workers greece",
+        "he": {
+          "title": "שביתה ביוון: עובדי רשויות המס החלו בצעדי מחאה עד סוף נובמבר",
+          "seoTitle": "שביתה ביוון: שיבושים ברשויות המס עד 25 בנובמבר",
+          "seoDesc": "עובדי רשויות המס ביוון הודיעו על שביתות חלקיות וצעדי מחאה שיימשכו עד תאריך 25 בנובמבר. מה זה אומר לכם ואיפה צפויים עיכובים?",
+          "keywords": [
+            "שביתה ביוון",
+            "רשויות המס ביוון",
+            "מיסים ביוון",
+            "חופשה ביוון",
+            "ביורוקרטיה ביוון"
+          ],
+          "dek": "הפדרציה של עובדי רשויות המס ביוון הכריזה על לוח זמנים של הפסקות עבודה אזוריות ואסיפות כלליות עד לשביתה הכללית ב-25 בנובמבר.",
+          "tldr": [
+            "הפדרציה של עובדי רשויות המס ביוון הכריזה על סדרת הפסקות עבודה.",
+            "הצעדים נמשכים לקראת שביתה ארצית מתוכננת ב-25 בנובמבר.",
+            "המחאה מגיעה על רקע קיצוצים בשכר וצמצום במספר העובדים."
+          ],
+          "means": "אם אתם מתגוררים ביוון או מטפלים בענייני נדל\"ן וביורוקרטיה מול הרשויות, שימו לב שייתכנו עיכובים או שיבושים בשירותי מס ההכנסה המקומיים. מומלץ לתאם פגישות מראש, לבדוק את זמני הפעילות של הסניפים הרלוונטיים טרם הגעה, ולהתאזר בסבלנות מול המשרדים הממשלתיים בתקופה זו.",
+          "body": "## הפסקות עבודה ברשויות המס ביוון\n\nהפדרציה הפאן-הלנייתית של עובדי רשויות המס ביוון (POE-DOY) פרסמה תוכנית של הפסקות עבודה מתגלגלות ואסיפות כלליות של איגודי העובדים בכל רחבי המדינה. הצעדים הללו יימשכו עד למועד שביתת העובדים הכללית שנקבעה ל-25 בנובמבר.\n\n## רקע למחאה והפחתת תקנים\n\nמההודעה הרשמית עולה כי צעדי המחאה הללו מהווים המשך לשביתה הענפית שהתקיימה ב-19 במרץ. האיגוד מוחה נגד הפחתת הוצאות השכר וצמצום כוח האדם, שלדברי העובדים יובילו להעמסת עבודה נוספת על הצוותים הנותרים. הפדרציה מדגישה כי היא דורשת נוכחות של שירותי מס חזקים בכל מחוז ובכל אזור עם מלוא סמכויותיהם ותחומי פעילותם."
+        },
+        "en": {
+          "title": "Greece Tax Office Strikes: Rolling Work Stoppages Until November 25",
+          "seoTitle": "Greece Tax Office Strike Until November 25",
+          "seoDesc": "Greek tax office employees announced rolling work stoppages and general assemblies leading up to a nationwide strike on November 25.",
+          "keywords": [
+            "greece strike",
+            "greek tax office",
+            "poe dou strike",
+            "greece public sector",
+            "athens news"
+          ],
+          "dek": "The Panhellenic Federation of Public Finance Services Employees has announced a schedule of rolling work stoppages leading to a nationwide strike on November 25.",
+          "tldr": [
+            "Greek tax office workers started rolling work stoppages across regions.",
+            "The protests lead up to a nationwide strike planned for November 25.",
+            "Workers oppose wage cost cuts and staffing reductions."
+          ],
+          "means": "If you live in Greece or manage property and administrative matters, expect potential delays or disruptions at local tax offices. It is recommended to check office hours in advance, reschedule appointments if necessary, and confirm operating times with the relevant local authorities before visiting.",
+          "body": "## Rolling Work Stoppages at Tax Offices\n\nThe Panhellenic Federation of Public Finance Services Employees (POEI-DOY) announced a schedule of rolling work stoppages by region and general assemblies of its member associations, running until the nationwide strike on November 25.\n\n## Reasons Behind the Mobilization\n\nThis mobilization follows the sectoral strike held on March 19. According to the union's announcement, the actions are directed against wage cost reductions and staff cuts, which they state will create greater work intensification.\n\nThe Federation emphasizes its demand for strong public finance services in every regional unit equipped with all necessary operational departments and functions."
+        }
+      },
+      "text": "Πρόγραμμα κυλιόμενων στάσεων εργασίας ανά περιοχή και γενικών συνελεύσεων των συλλόγων – μελών της, έχει ανακοινώσει η Πανελλήνια Ομοσπονδία Εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες ( ΠΟΕ-ΔΟΥ ) έως την πανελλαδική απεργία της 25ης Νοεμβρίου.\n Η κινητοποίηση αποτελεί συνέχεια της κλαδικής απεργίας της 19ης Μαρτίου και γίνεται ενάντια στη μείωση του μισθολογικού κόστους, καθώς και ενάντια στη μείωση προσωπικού που θα δημιουργήσει μεγαλύτερη εντατικοποίηση της εργασίας, όπως επισημαίνεταισ τη σχετική ανακοίνωση. \n «Απαιτούμε ισχυρές Δ.Ο.Υ. σε κάθε νομό της Περιφέρειας με όλα τα αντικείμενα», επισημαίνει η Ομοσπονδία.\n Σχετικές ειδήσεις \n Εργαζόμενοι στις Δημόσιες Οικονομικές Υπηρεσίες – Απεργούν στις 19 Μαρτίου για αυξήσεις μισθών \n Aπεργία των εφοριακών από τον προληπτικό έλεγχο από 17 έως και 26 Αυγούστου \n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Πανελλήνια Ομοσπονδία Εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες ΠΟΕ-ΔΟΥ στάσεις εργασίας \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Απεργίες στις εφορίες στην Ελλάδα: Κύμα στάσεων εργασίας έως τις 25 Νοεμβρίου",
+        "dek": "Η Πανελλήνια Ομοσπονδία Υπαλλήλων Υπουργείου Οικονομικών ανακοίνωσε πρόγραμμα κυλιόμενων στάσεων εργασίας, οι οποίες θα κορυφωθούν με πανελλαδική απεργία στις 25 Νοεμβρίου.",
+        "tldr": [
+          "Οι εργαζόμενοι στις ελληνικές εφορίες ξεκίνησαν κυλιόμενες στάσεις εργασίας ανά περιφέρειες.",
+          "Οι κινητοποιήσεις οδηγούν σε πανελλαδική απεργία που έχει προγραμματιστεί για τις 25 Νοεμβρίου.",
+          "Οι εργαζόμενοι αντιτίθενται στις περικοπές μισθών και στη μείωση του προσωπικού."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2277,12 +2394,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-18T04:34:59.956Z",
+      "at": "2026-10-18T05:04:04.305Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-18T04:35:00.633Z",
+      "at": "2026-10-18T05:04:05.016Z",
       "items": 5
     },
     "civilprotection": {
@@ -2293,27 +2410,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-18T04:35:06.885Z",
+      "at": "2026-10-18T05:04:06.698Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-18T04:35:07.363Z",
+      "at": "2026-10-18T05:04:06.987Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-18T04:35:08.345Z",
+      "at": "2026-10-18T05:04:08.006Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-18T04:35:09.132Z",
-      "items": 5
+      "at": "2026-10-18T05:04:08.767Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-18T04:35:10.093Z",
+      "at": "2026-10-18T05:04:09.618Z",
       "items": 10
     },
     "toi-greece": {
@@ -2324,22 +2441,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-18T04:35:10.647Z",
+      "at": "2026-10-18T05:04:10.150Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-18T04:35:10.992Z",
+      "at": "2026-10-18T05:04:10.473Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-18T04:35:11.233Z",
-      "items": 5
+      "at": "2026-10-18T05:04:10.634Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T04:35:11.410Z",
+      "at": "2026-10-18T05:04:10.862Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2349,12 +2466,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T04:35:01.125Z",
+      "at": "2026-10-18T05:04:05.722Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-18T04:35:12.007Z",
+      "at": "2026-10-18T05:04:11.469Z",
       "items": 0
     },
     "hcg": {
@@ -2365,32 +2482,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-18T04:35:14.576Z",
+      "at": "2026-10-18T05:04:13.692Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-18T04:35:14.812Z",
+      "at": "2026-10-18T05:04:13.946Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-18T04:35:14.943Z",
+      "at": "2026-10-18T05:04:14.126Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-18T04:35:15.189Z",
-      "items": 6
+      "at": "2026-10-18T05:04:14.390Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-18T04:35:15.473Z",
+      "at": "2026-10-18T05:04:14.752Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-18T04:35:15.804Z",
+      "at": "2026-10-18T05:04:15.234Z",
       "items": 4
     }
   },
@@ -2541,14 +2658,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-18T04:35:16.347Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-18T05:04:16.287Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· ingr | Χώρα των Βάσκων: 15 χρόνια χωρίς την ΕΤΑ",
-      "· naftemporiki | Καναδάς: Φωτιά σε στρατιωτική βάση – «Υπάρχουν νεκροί και τραυματίες»",
-      "· gct | Melitzanosalata: A Smoky Greek Eggplant Salad With Feta",
-      "· gn-kathimerini | Θεσσαλονίκη: Συνελήφθη στο αεροδρόμιο 22χρονη που επιχείρησε να εισάγει κάνναβη - Kathimer"
+      "· ingr | Υπόθεση Έπσταϊν: Στο στόχαστρο οι τράπεζες της Wall Street – Τι γνώριζαν για τα εγκλήματά ",
+      "✓ ert | Στάσεις εργασίας των εργαζομένων στις Δημόσιες Οικονομικές Υπηρεσίες – Κυλιόμενο πανελλαδι"
     ]
   },
   "evergreenDone": [
