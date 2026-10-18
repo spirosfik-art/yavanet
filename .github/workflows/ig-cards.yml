@@ -13,8 +13,9 @@ jobs:
           node-version: 20
       - name: Render test card (same code as the pipeline)
         run: |
-          node automation/ig-test.mjs ferries-in-greece-complete-guide
-          mkdir -p ig-out && cp content/ig/*.jpg ig-out/
+          mkdir -p ig-out
+          (which google-chrome chromium convert magick ffmpeg; google-chrome --version; node automation/ig-test.mjs ferries-in-greece-complete-guide) > ig-out/log.txt 2>&1 || true
+          cp content/ig/*.jpg ig-out/ 2>/dev/null || true
       - name: Push to ig-cards branch
         run: |
           cd ig-out

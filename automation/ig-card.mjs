@@ -72,6 +72,7 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-
     // Το Instagram δέχεται μόνο JPEG
     execFileSync("convert", [png, "-quality", "88", out], { stdio: "ignore", timeout: 30000 });
   } catch (e) {
+    console.log("ig-card error:", e.message);
     return null;
   } finally {
     fs.rmSync(tmp, { recursive: true, force: true });
