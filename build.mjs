@@ -725,6 +725,9 @@ ${latest.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}) (${String(
 `);
 }
 
+/* Κάρτες Instagram (φτιάχνονται από automation/ig-card.mjs) */
+{ const igSrc = path.join(ROOT, "content/ig");
+  if (fs.existsSync(igSrc)) { fs.mkdirSync(path.join(OUT, "igc"), { recursive: true }); for (const f of fs.readdirSync(igSrc)) if (f.endsWith(".jpg")) fs.copyFileSync(path.join(igSrc, f), path.join(OUT, "igc", f)); } }
 /* Στατικά αρχεία */
 const assets = path.join(ROOT, "site/assets");
 /* Ελαφριά ελαχιστοποίηση (minify) css/js χωρίς εξαρτήσεις: σχόλια, κενά και εσοχές.

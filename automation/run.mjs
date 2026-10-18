@@ -11,6 +11,7 @@ import {
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
 import { ART_KEYS } from "../site/art.mjs";
+import { igEligible, igCaption, renderIgCard } from "./ig-card.mjs";
 
 // Όριο ανά μέρα ΚΑΙ ανά ώρα: έτσι δεν «καίγεται» όλο το όριο το πρωί και μένει το απόγευμα χωρίς άρθρα
 const MAX_PER_DAY = Number(env.MAX_PER_DAY || 36);
@@ -332,6 +333,19 @@ async function distribute(a) {
       section: a.section, breaking: a.breaking, image: a.image.type === "photo" ? a.image.url : SITE.url + "/og.png",
       post_he: text.replace("utm_source=telegram", "utm_source=facebook"), post_en: `${a.en.title}\n\n${a.en.dek}\n\n${articleUrl(a, "en", "facebook")}`,
     };
+    // Instagram (μέσω του ίδιου σεναρίου Make, μόνο όταν υπάρχει το πεδίο instagram): έως IG_MAX/ημέρα,
+    // απόσταση ≥ 4 ώρες, 09:00–21:00, μόνο οδηγοί/ταξίδια/ακίνητα/ζωή. Η κάρτα 1080x1350 φτιάχνεται εδώ.
+    const IG_MAX = Number(env.IG_MAX_PER_DAY || 2);
+    const ig = (state.today.ig ||= []);
+    const lastIg = ig.length ? Date.parse(ig[ig.length - 1].at) : 0;
+    if (igEligible(a) && now.hour >= 9 && now.hour < 21 && ig.length < IG_MAX && Date.now() - lastIg >= 4 * 3600e3) {
+      const card = renderIgCard(a);
+      if (card) {
+        job.make.instagram = { image_url: SITE.url.replace(/\/$/, "") + card, caption: igCaption(a) };
+        ig.push({ slug: a.slug, at: new Date().toISOString() });
+        log("instagram: κάρτα έτοιμη", card);
+      } else log("instagram: η κάρτα δεν φτιάχτηκε", a.slug);
+    }
   }
   if (!DRY && (job.telegram || job.make)) { q.push(job); log("social: σε ουρά μέχρι το deploy", a.slug); }
 }

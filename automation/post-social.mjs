@@ -32,6 +32,8 @@ for (const job of q) {
   await sleep(5000);
   if (DRY) { log("social (dry):", job.slug); continue; }
   if (job.telegram) await tg("sendMessage", job.telegram).catch((e) => log("telegram", e.message));
+  // Η κάρτα Instagram πρέπει να είναι ήδη online, αλλιώς στέλνουμε μόνο το Facebook
+  if (job.make && job.make.instagram && !(await isLive(job.make.instagram.image_url))) { log("instagram: η κάρτα δεν είναι online, μόνο Facebook", job.slug); delete job.make.instagram; }
   if (job.make && env.MAKE_WEBHOOK_URL) {
     await fetch(env.MAKE_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(job.make) })
       .then(() => log("✓ facebook (Make)", job.slug)).catch((e) => log("make webhook", e.message));

@@ -11,9 +11,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Render cards
+      - name: Render test card (same code as the pipeline)
         run: |
-          node automation/ig-cards.mjs
+          node automation/ig-test.mjs ferries-in-greece-complete-guide
+          mkdir -p ig-out && cp content/ig/*.jpg ig-out/
       - name: Push to ig-cards branch
         run: |
           cd ig-out
@@ -21,5 +22,5 @@ jobs:
           git config user.name "yavanet-bot"
           git config user.email "bot@yavanet.gr"
           git add -A
-          git commit -qm "IG cards [skip ci]"
+          git commit -qm "IG test card [skip ci]"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ig-cards
