@@ -14,22 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "7abaa00f0de1": 1791148657321,
-    "7c032a7eb665": 1791148657321,
-    "32b8cc39131f": 1791148657321,
-    "0eaad3f527a9": 1791148657321,
-    "1b1129cb005d": 1791148657321,
-    "03477112022a": 1791148657321,
-    "0950a0570c9b": 1791148657321,
-    "85d96c2180a1": 1791148657321,
-    "7ca7bd6ed463": 1791148657321,
-    "72dce35bae93": 1791148657321,
-    "b61d031a6162": 1791148657321,
-    "a9b3d520b221": 1791148657321,
-    "1d1d3c99c3af": 1791148657321,
-    "13eb5d17a044": 1791148657321,
-    "830d6753fbf0": 1791150359418,
-    "13c62028126c": 1791150359418,
     "ffaa9f226a7a": 1791151346102,
     "f3409adbaad8": 1791151346102,
     "ebaaf251ec40": 1791151346102,
@@ -2257,7 +2241,10 @@
     "c46afbf1713d": 1792357218304,
     "f57c2aec290f": 1792357218304,
     "e35997311707": 1792358236739,
-    "63ec670a5a7d": 1792358236739
+    "63ec670a5a7d": 1792358236739,
+    "cfc1c9cbf97f": 1792360112910,
+    "c9c69d0177f4": 1792360112910,
+    "773c9c90599c": 1792360112910
   },
   "pending": {},
   "sourceStatus": {
@@ -2269,12 +2256,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-18T21:17:04.976Z",
+      "at": "2026-10-18T21:47:44.638Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-18T21:17:05.872Z",
+      "at": "2026-10-18T21:47:45.436Z",
       "items": 5
     },
     "civilprotection": {
@@ -2285,27 +2272,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-18T21:17:08.345Z",
+      "at": "2026-10-18T21:47:47.551Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-18T21:17:08.457Z",
+      "at": "2026-10-18T21:47:49.704Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-18T21:17:09.456Z",
+      "at": "2026-10-18T21:47:50.959Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-18T21:17:10.179Z",
+      "at": "2026-10-18T21:47:51.913Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-18T21:17:10.621Z",
+      "at": "2026-10-18T21:47:52.781Z",
       "items": 10
     },
     "toi-greece": {
@@ -2316,22 +2303,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-18T21:17:11.247Z",
+      "at": "2026-10-18T21:47:53.359Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-18T21:17:11.364Z",
+      "at": "2026-10-18T21:47:53.426Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-18T21:17:12.097Z",
-      "items": 5
+      "at": "2026-10-18T21:47:53.638Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T21:17:12.323Z",
+      "at": "2026-10-18T21:47:53.872Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2341,12 +2328,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T21:17:06.851Z",
+      "at": "2026-10-18T21:47:46.415Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-18T21:17:12.981Z",
+      "at": "2026-10-18T21:47:54.712Z",
       "items": 0
     },
     "hcg": {
@@ -2357,45 +2344,56 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-18T21:17:14.353Z",
+      "at": "2026-10-18T21:47:56.135Z",
       "items": 1
     },
     "gn-civilprotection": {
-      "ok": true,
-      "at": "2026-10-18T21:17:14.574Z",
-      "items": 1
+      "ok": false,
+      "at": "2026-10-18T21:48:05.390Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-pm": {
-      "ok": true,
-      "at": "2026-10-18T21:17:14.827Z",
-      "items": 1
+      "ok": false,
+      "at": "2026-10-18T21:48:14.293Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-10-18T21:17:15.150Z",
-      "items": 6
+      "ok": false,
+      "at": "2026-10-18T21:48:20.413Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-kathimerini": {
-      "ok": true,
-      "at": "2026-10-18T21:17:15.464Z",
-      "items": 5
+      "ok": false,
+      "at": "2026-10-18T21:48:25.896Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-iefimerida": {
-      "ok": true,
-      "at": "2026-10-18T21:17:15.919Z",
-      "items": 7
+      "ok": false,
+      "at": "2026-10-18T21:48:31.944Z",
+      "error": "HTTP 503",
+      "fails": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
         "title": "Austrian Airlines flight from Tel Aviv to Vienna diverts due to security threat",
         "at": "2026-10-19T00:01:30+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "aircraft-crash-pieria-greece",
+        "title": "Two People Killed After Aircraft Crashes in Northern Greece",
+        "at": "2026-10-19T00:48:55+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [],
@@ -2521,12 +2519,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-18T21:17:16.739Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-18T21:48:32.910Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | O Νετανιάχου παρουσίασε το αναθεωρημένο δόγμα ασφαλείας του Ισραήλ – Η θέσεις της Ελλάδας ",
-      "· gn-iefimerida | ΠΑΟΚ - Ηρακλής 2-1: «Φωτιά» στην Τούμπα, με VAR, ματς-ροντέο και λυτρωτή Μιχαηλίδη στις κα"
+      "· gct | French President Blames Far-Left Groups for Violent Riots",
+      "✓ gct | Two People Killed After Aircraft Crashes in Northern Greece",
+      "· gct | Greek Spirits Hold Steady as Three New Markets Surge"
     ]
   },
   "evergreenDone": [

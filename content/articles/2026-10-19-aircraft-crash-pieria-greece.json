@@ -1,0 +1,72 @@
+{
+  "slug": "aircraft-crash-pieria-greece",
+  "section": "travel",
+  "publishedAt": "2026-10-19T00:48:55+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/19/two-people-killed-after-aircraft-crashes-in-northern-greece/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32676358/pexels-photo-32676358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A light aircraft parked on a clear day near a hangar at an airport, showcasing aviation design.",
+    "credit": "Photo: Viliam Kudelka / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/small-aircraft-on-a-sunny-day-at-airport-32676358/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
+  },
+  "alert": null,
+  "he": {
+    "title": "תאונת מטוס קל בצפון יוון: שני בני אדם נהרגו",
+    "seoTitle": "תאונת מטוס קל ביוון: שני הרוגים במחוז פיאריה",
+    "seoDesc": "מטוס חד-מנועי התרסק בסמוך לקונטריוטיסה במחוז פיאריה ביוון. כוחות ההצלה איתרו את שני הנוסעים ללא רוח חיים.",
+    "keywords": [
+      "תאונת מטוס ביוון",
+      "טיסות ליוון",
+      "חדשות יוון",
+      "צפון יוון"
+    ],
+    "dek": "מטוס קל חד-מנועי התרסק באזור פיאריה שבצפון יוון. כוחות ההצלה שהוזעקו למקום נאלצו לקבוע את מותם של שני יושבי המטוס.",
+    "tldr": [
+      "המטוס התרסק באפיק נחל יבש סמוך למסלול טיסה בפיאריה.",
+      "שני גברים בני 41 ו-58 נהרגו בתאונה.",
+      "כוחות כיבוי והמשטרה הגיעו למקום בעקבות דיווח של עובד אורח."
+    ],
+    "means": "האירוע התרחש באזור טיסה פתוח ואינו קשור לתעופה המסחרית. אין השפעה על טיסות הנוסעים מישראל או על התחבורה האווירית הרגילה ליעדים השונים ביוון.",
+    "body": "## תאונת מטוס קל בצפון יוון\n\nשני בני אדם נהרגו בהתרסקות מטוס קל חד-מנועי שהתרחשה סמוך ליישוב קונטריוטיסה במחוז פיאריה שבצפון יוון.\n\n## פעולות החילוץ בשטח\n\nמשטרת יוון קיבלה דיווח מאזרח עובד אורח בשעה 1:40 בצהריים על אודות מטוס שהתרסק. למקום הוזעקו מיד שוטרים, צוותי כיבוי אש ואמבולנסים של שירות ההצלה.\n\nהכוחות איתרו את כלי הטיס בתוך אפיק נחל יבש, בסמוך למסלול הטיסה של מועדון התעופה של פיאריה. שני הגברים שהיו במטוס, בני 41 ו-58, הוצאו מן ההריסות כשהם ללא הכרה ופונים בניידת טיפול נמרץ לבית החולים בקטריני, שם נאלצו הרופאים לקבוע את מותם."
+  },
+  "en": {
+    "title": "Two People Killed After Aircraft Crashes in Northern Greece",
+    "seoTitle": "Two Killed in Light Aircraft Crash in Pieria Greece",
+    "seoDesc": "A single-engine aircraft crashed near Kontariotissa in Greece's Pieria region, resulting in the deaths of two men.",
+    "keywords": [
+      "aircraft crash greece",
+      "pieria greece news",
+      "northern greece",
+      "katerini hospital"
+    ],
+    "dek": "A single-engine aircraft crashed near Kontariotissa in the Pieria region of northern Greece, claiming the lives of two men.",
+    "tldr": [
+      "A light aircraft crashed in a dry riverbed near a flying club runway in Pieria.",
+      "Two men aged 41 and 58 were pronounced dead after being taken to Katerini Hospital.",
+      "Police responded following a report from a passing citizen at 1.40 pm."
+    ],
+    "means": "The incident involved a small private aircraft at a local flying club and does not affect commercial aviation, major Greek airports, or scheduled international flights.",
+    "body": "## Light Aircraft Crash in Northern Greece\n\nTwo men have died following the crash of a single-engine aircraft near the area of Kontariotissa in the Pieria region of Greece.\n\n## Emergency Response and Recovery\n\nGreek police received a report from a passing citizen at 1.40 pm stating that an aircraft had gone down. Police officers, firefighters, and ambulance crews were immediately dispatched to the scene.\n\nRescuers located the aircraft inside a dry riverbed situated near the runway of the Pieria Flying Club. Both men, aged 41 and 58, were recovered from the wreckage unconscious. They were transported by ambulance to Katerini Hospital, where attending doctors confirmed their deaths."
+  },
+  "meta": {
+    "itemId": "c9c69d0177f4",
+    "imageQuery": "small airplane airfield greece",
+    "sourceHash": "ce04c483316f",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-18T21:48:55.643Z",
+    "official": false
+  }
+}
