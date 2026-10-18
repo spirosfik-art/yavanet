@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "4a198d9120a8": 1791153355399,
-    "9b1ec4617055": 1791154222500,
     "ad7a823c0674": 1791156170509,
     "66ff1ed69ca2": 1791157794123,
     "9ddfbc678dad": 1791157794123,
@@ -2250,7 +2248,10 @@
     "5a8cfe800348": 1792362734112,
     "bea00daf50b5": 1792362734112,
     "ae34fe0802d6": 1792362734112,
-    "b3693b1f0186": 1792362734112
+    "b3693b1f0186": 1792362734112,
+    "faab120aca39": 1792364397849,
+    "9ec95695c1ad": 1792364397849,
+    "7f0824c545fa": 1792364397849
   },
   "pending": {},
   "sourceStatus": {
@@ -2262,12 +2263,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-18T22:32:05.220Z",
+      "at": "2026-10-18T22:58:38.987Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-18T22:32:05.713Z",
+      "at": "2026-10-18T22:58:39.518Z",
       "items": 5
     },
     "civilprotection": {
@@ -2278,27 +2279,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-18T22:32:06.436Z",
+      "at": "2026-10-18T22:58:40.787Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-18T22:32:06.549Z",
+      "at": "2026-10-18T22:58:41.000Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-18T22:32:07.409Z",
+      "at": "2026-10-18T22:58:41.913Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-18T22:32:07.942Z",
-      "items": 5
+      "at": "2026-10-18T22:58:42.599Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-18T22:32:08.446Z",
+      "at": "2026-10-18T22:58:43.405Z",
       "items": 10
     },
     "toi-greece": {
@@ -2309,22 +2310,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-18T22:32:08.854Z",
+      "at": "2026-10-18T22:58:43.823Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-18T22:32:09.176Z",
+      "at": "2026-10-18T22:58:43.916Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-18T22:32:09.755Z",
+      "at": "2026-10-18T22:58:44.117Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T22:32:09.871Z",
+      "at": "2026-10-18T22:58:44.464Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2334,12 +2335,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T22:32:05.917Z",
+      "at": "2026-10-18T22:58:39.967Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-18T22:32:10.395Z",
+      "at": "2026-10-18T22:58:44.906Z",
       "items": 0
     },
     "hcg": {
@@ -2350,32 +2351,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-18T22:32:11.756Z",
+      "at": "2026-10-18T22:58:46.288Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-18T22:32:12.003Z",
+      "at": "2026-10-18T22:58:46.490Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-18T22:32:12.209Z",
+      "at": "2026-10-18T22:58:46.664Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-18T22:32:12.474Z",
+      "at": "2026-10-18T22:58:46.893Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-18T22:32:12.783Z",
+      "at": "2026-10-18T22:58:47.237Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-18T22:32:13.211Z",
+      "at": "2026-10-18T22:58:47.734Z",
       "items": 7
     }
   },
@@ -2532,17 +2533,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-18T22:32:14.112Z",
-    "considered": 7,
+    "at": "2026-10-18T22:59:57.849Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Archbishop Ieronymos meets with Maronite Patriarch Bechara Boutros Raï",
-      "· ert | Αναγκαστική προσγείωση αεροσκάφους από Τελ Αβίβ προς Βιέννη μετά από απειλή για βόμβα",
-      "· gct | Greek Households Hold Back as Winter Heating Bills Loom",
-      "· gct | Turkey to Receive Russian Diesel Under Deal with Trump",
-      "· gct | Chania Rewards Residents Who Hand Over Their Frying Oil",
-      "· gct | Accessible Tourism Offers Greece a Major Opportunity for Growth",
-      "· gct | Ancient Clays Peek Through Dunes Near Mars’ Hellas Basin"
+      "· gct | SNF Hospitals Advance as Foundation Sets End-2027 Completion",
+      "· ert | Καναδάς: Τέσσερις νεκροί και 39 τραυματίες από την πυρκαγιά σε στρατιωτική βάση – 19 σε κρ",
+      "· gct | Zelensky: US siding with Putin would be a ‘historic mistake’"
     ]
   },
   "evergreenDone": [
