@@ -726,6 +726,19 @@ ${latest.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}) (${String(
 }
 
 /* Κάρτες Instagram (φτιάχνονται από automation/ig-card.mjs) */
+/* Σελίδα «link στο bio» του Instagram: οι αναρτήσεις του @yavanet, νεότερη πρώτη (content/ig/posted.json) */
+{ const listF = path.join(ROOT, "content/ig/posted.json");
+  const posted = fs.existsSync(listF) ? JSON.parse(fs.readFileSync(listF, "utf8")) : [];
+  const seen = new Set();
+  const items = posted.slice().reverse().map((x) => {
+    if (seen.has(x.slug)) return null; seen.add(x.slug);
+    const a = articles.find((y) => y.slug === x.slug && !y.hidden); if (!a) return null;
+    const card = fs.existsSync(path.join(ROOT, "content/ig", a.slug + ".jpg")) ? `/igc/${a.slug}.jpg` : (a.image && a.image.url) || "/og.png";
+    return `<a class="igl" href="/a/${a.slug}/?utm_source=instagram&utm_medium=bio&utm_campaign=ig-post"><img src="${esc(card)}" alt="" loading="lazy" width="1080" height="1350"><span>${esc(a.he.title)}</span></a>`;
+  }).filter(Boolean);
+  const body = `<section class="iglist"><h1>מהאינסטגרם של יוונט</h1><p class="igsub">לחצו על הפוסט שראיתם כדי לקרוא את הכתבה המלאה.</p><div class="iggrid">${items.join("")}</div><p class="igmore"><a class="btn" href="/?utm_source=instagram&utm_medium=bio">לכל החדשות באתר</a></p></section>`;
+  write("/instagram/", layout({ lang: "he", title: "יוונט באינסטגרם: כל הפוסטים", description: "הפוסטים האחרונים של @yavanet באינסטגרם, עם קישור לכתבה המלאה.", path: "/instagram/", altPath: "/en/", body, noindex: true, activeNav: "home" }));
+}
 { const igSrc = path.join(ROOT, "content/ig");
   if (fs.existsSync(igSrc)) { fs.mkdirSync(path.join(OUT, "igc"), { recursive: true }); for (const f of fs.readdirSync(igSrc)) if (f.endsWith(".jpg")) fs.copyFileSync(path.join(igSrc, f), path.join(OUT, "igc", f)); } }
 /* Στατικά αρχεία */
@@ -784,7 +797,7 @@ const redirects = fs.readdirSync(path.join(ROOT, "content/articles")).filter((f)
   .filter((a) => a.hidden && a.meta && a.meta.mergedInto)
   .flatMap((a) => [`/a/${a.slug}/ /a/${a.meta.mergedInto}/ 301`, `/en/a/${a.slug}/ /en/a/${a.meta.mergedInto}/ 301`]);
 // Σύντομα links με παρακολούθηση πηγής (π.χ. bio στο Instagram)
-redirects.unshift("/ig /?utm_source=instagram&utm_medium=bio 302", "/ig/ /?utm_source=instagram&utm_medium=bio 302");
+redirects.unshift("/ig /instagram/?utm_source=instagram&utm_medium=bio 302", "/ig/ /instagram/?utm_source=instagram&utm_medium=bio 302");
 fs.writeFileSync(path.join(OUT, "_redirects"), redirects.join("\n") + "\n");
 
 console.log(`✓ Yavanet: ${articles.length} άρθρα, ${urls.length} σελίδες → dist/`);

@@ -29,7 +29,7 @@ export function igEligible(a) {
 
 export function igCaption(a) {
   const tags = ["#יוון #יוונט", TAGS[a.section] || ""].join(" ").trim();
-  return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n💬 שאלה? שלחו לנו הודעה\n\n${tags}`;
+  return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n${tags}`;
 }
 
 function chromeBin() {
@@ -79,4 +79,13 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-
     fs.rmSync(tmp, { recursive: true, force: true });
   }
   return fs.existsSync(out) && fs.statSync(out).size > 20000 ? `/igc/${a.slug}.jpg` : null;
+}
+
+// Καταγράφει ότι το άρθρο πήγε στο Instagram, για τη σελίδα yavanet.gr/instagram/ (link στο bio)
+export function markIgPosted(slug) {
+  const f = path.join(IG_DIR, "posted.json");
+  const list = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : [];
+  list.push({ slug, at: new Date().toISOString() });
+  fs.mkdirSync(IG_DIR, { recursive: true });
+  fs.writeFileSync(f, JSON.stringify(list.slice(-60), null, 1));
 }

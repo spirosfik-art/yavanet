@@ -11,7 +11,7 @@ import {
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
 import { ART_KEYS } from "../site/art.mjs";
-import { igEligible, igCaption, renderIgCard } from "./ig-card.mjs";
+import { igEligible, igCaption, renderIgCard, markIgPosted } from "./ig-card.mjs";
 
 // Όριο ανά μέρα ΚΑΙ ανά ώρα: έτσι δεν «καίγεται» όλο το όριο το πρωί και μένει το απόγευμα χωρίς άρθρα
 const MAX_PER_DAY = Number(env.MAX_PER_DAY || 36);
@@ -343,6 +343,7 @@ async function distribute(a) {
       if (card) {
         job.make.instagram = { image_url: SITE.url.replace(/\/$/, "") + card, caption: igCaption(a) };
         ig.push({ slug: a.slug, at: new Date().toISOString() });
+        markIgPosted(a.slug);
         log("instagram: κάρτα έτοιμη", card);
       } else log("instagram: η κάρτα δεν φτιάχτηκε", a.slug);
     }
