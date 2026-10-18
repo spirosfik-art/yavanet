@@ -1,0 +1,25 @@
+name: IG cards
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Render cards
+        run: |
+          node automation/ig-cards.mjs
+      - name: Push to ig-cards branch
+        run: |
+          cd ig-out
+          git init -q -b ig-cards
+          git config user.name "yavanet-bot"
+          git config user.email "bot@yavanet.gr"
+          git add -A
+          git commit -qm "IG cards [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ig-cards
