@@ -780,6 +780,8 @@ const redirects = fs.readdirSync(path.join(ROOT, "content/articles")).filter((f)
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, "content/articles", f), "utf8")))
   .filter((a) => a.hidden && a.meta && a.meta.mergedInto)
   .flatMap((a) => [`/a/${a.slug}/ /a/${a.meta.mergedInto}/ 301`, `/en/a/${a.slug}/ /en/a/${a.meta.mergedInto}/ 301`]);
-if (redirects.length) fs.writeFileSync(path.join(OUT, "_redirects"), redirects.join("\n") + "\n");
+// Σύντομα links με παρακολούθηση πηγής (π.χ. bio στο Instagram)
+redirects.unshift("/ig /?utm_source=instagram&utm_medium=bio 302", "/ig/ /?utm_source=instagram&utm_medium=bio 302");
+fs.writeFileSync(path.join(OUT, "_redirects"), redirects.join("\n") + "\n");
 
 console.log(`✓ Yavanet: ${articles.length} άρθρα, ${urls.length} σελίδες → dist/`);
