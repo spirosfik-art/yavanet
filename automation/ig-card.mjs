@@ -63,14 +63,15 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-
 </style></head><body><div class="ph"></div><div class="box"><span class="k">${esc(kicker || KICKER[a.section] || "יוון")}</span><h1>${esc(title)}</h1></div>
 <div class="wv"></div><div class="ft"><span>yavanet.gr · יוון בעברית</span>${icon}</div></body></html>`;
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "igc-"));
-  const hf = path.join(tmp, "card.html"), png = path.join(tmp, "card.png");
+  const hf = path.join(tmp, "card.html");
   fs.writeFileSync(hf, html);
   fs.mkdirSync(IG_DIR, { recursive: true });
   const out = path.join(IG_DIR, `${a.slug}.jpg`);
   try {
-    execFileSync(chrome, ["--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--virtual-time-budget=8000", "--window-size=1080,1350", `--screenshot=${png}`, "file://" + hf], { stdio: "ignore", timeout: 60000 });
-    // Το Instagram δέχεται μόνο JPEG
-    execFileSync("convert", [png, "-quality", "88", out], { stdio: "ignore", timeout: 30000 });
+    // Το Chrome γράφει JPEG όταν το αρχείο τελειώνει σε .jpg (το Instagram δέχεται μόνο JPEG)
+    execFileSync(chrome, ["--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--virtual-time-budget=8000", "--window-size=1080,1350", `--screenshot=${out}`, "file://" + hf], { stdio: "ignore", timeout: 60000 });
+    const head = fs.readFileSync(out).subarray(0, 3);
+    if (!(head[0] === 0xff && head[1] === 0xd8)) throw new Error("not a JPEG");
   } catch (e) {
     console.log("ig-card error:", e.message);
     return null;
