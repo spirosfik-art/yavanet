@@ -1,0 +1,60 @@
+{
+  "slug": "rodopi-forest-fire-18-oct-2026",
+  "section": "israelis",
+  "publishedAt": "2026-10-18T19:34:36+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 41.13,
+    "lng": 25.56,
+    "name": "Kassitera, Rodopi"
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2176596/fotia-tora-stin-periochi-kassitera-rodopis/?utm_source=rss&utm_medium=rss&utm_campaign=fotia-tora-stin-periochi-kassitera-rodopis"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32046254/pexels-photo-32046254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Helicopter with water bucket fighting a wildfire under a clear blue sky.",
+    "credit": "Photo: Nima Mot / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-firefighting-helicopter-with-water-bucket-32046254/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": null,
+  "he": {
+    "title": "שריפה ביוון: אש פרצה באזור היער קאסיטרה ברודופי",
+    "dek": "כוחות כיבוי אש גדולים, מטוסי כיבוי ומסוק פועלים להשתלטות על שריפת יער שפרצה אחר הצהריים בצפון יוון.",
+    "tldr": [
+      "שריפת יער פרצה באזור קאסיטרה שברודופי ב-18 באוקטובר 2026.",
+      "30 כבאים, שבעה כלי רכב, שני מטוסי כיבוי ומסוק פועלים במקום.",
+      "הרשויות המקומיות מסייעות במשאית מים וצוותי חקירה בודקים את נסיבות האירוע."
+    ],
+    "means": "למה זה חשוב לישראלים: עבור ישראלים המטיילים או שוהים בצפון יוון, חשוב לעקוב אחר הודעות חירום ולהימנע מהגעה לאזורים שבהם מתנהל מאבק בשריפות.",
+    "body": "שריפת יער פרצה היום, 18 באוקטובר 2026, בסביבות השעה 16:00, באזור היער קאסיטרה שברודופי. מרכז ההפעלה של שירות הכיבוי הממלכתי עדכן על האירוע והזניק למקום כוחות מתוגברים. על פי נתוני הרשויות, בפעולות הכיבוי משתתפים 30 כבאים, שתי יחידות רגליות של ימּוֹדֶה השביעית ושבעה רכבי כיבוי. בנוסף, הופעלו מהאוויר מסוק אחד ושני מטוסי כיבוי כדי לסייע בבלימת האש. עיריית מרוניאה-סאפון תומכת במאמצי הכיבוי באמצעות כוחות של מכליות מים. יחידת החקירה של שירות הכיבוי וההצתות ברודופי פתחה בבדיקה לאיתור סיבות פרוץ השריפה."
+  },
+  "en": {
+    "title": "Greece wildfire: Forest fire breaks out in Rodopi",
+    "dek": "Firefighters, aircraft and a helicopter are deployed to tackle a forest fire in the Kassitera area of Rodopi.",
+    "tldr": [
+      "A forest fire broke out in the Kassitera area of Rodopi on October 18, 2026.",
+      "Thirty firefighters, seven vehicles, two aircraft and one helicopter were mobilized.",
+      "Local municipal water tankers are assisting, and an arson investigation unit is probing the cause."
+    ],
+    "means": "Why this matters to Israelis: Travelers and residents in northern Greece should monitor local emergency updates and avoid areas affected by firefighting operations.",
+    "body": "A forest fire broke out in a wooded area in Kassitera, Rodopi, on October 18, 2026, at approximately 16:00, according to the Fire Service. The operations center mobilized 30 firefighters with two specialized foot teams and seven vehicles. Aerial firefighting support was deployed, including one helicopter and two airplanes. The Municipality of Maroneia-Sapes also assisted by dispatching water tankers to support the firefighting operations. The Rodopi Arson Crimes Investigation Department has launched an inquiry to determine the cause of the fire."
+  },
+  "meta": {
+    "itemId": "1bf3e4bb8d95",
+    "imageQuery": "Greek forest fire firefighting helicopter",
+    "sourceHash": "8082ddd8bfe9",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-18T16:34:37.555Z",
+    "official": false
+  }
+}
