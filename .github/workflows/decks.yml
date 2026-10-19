@@ -15,6 +15,14 @@ jobs:
             n=$(basename "$f" .html)
             google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf="deck-out/$n.pdf" "file://$PWD/$f"
           done
+          # 8K έκδοση με τις AI-μεγεθυμένες φωτογραφίες από το branch deck-8k (αν υπάρχουν)
+          if git fetch -q --depth 1 origin deck-8k 2>/dev/null; then
+            git --work-tree=. checkout FETCH_HEAD -- hires 2>/dev/null || true
+          fi
+          if [ -d hires ]; then
+            sed 's#\.\./\.\./site/assets/voula-#../../hires/voula-#g' automation/decks/voula-en.html > automation/decks/voula-en-8k.html
+            google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=60000 --run-all-compositor-stages-before-draw --print-to-pdf="deck-out/voula-en-8k.pdf" "file://$PWD/automation/decks/voula-en-8k.html"
+          fi
           ls -la deck-out
       - name: Push to decks branch
         run: |
