@@ -2254,7 +2254,9 @@
     "bba6be8235ef": 1792366309277,
     "93ddbf1c6675": 1792366309277,
     "ba19dbad5322": 1792367781058,
-    "6f3bec7a9609": 1792367781058
+    "6f3bec7a9609": 1792367781058,
+    "9fdb82f6ba76": 1792368572494,
+    "cc008ff97859": 1792368572494
   },
   "pending": {},
   "sourceStatus": {
@@ -2266,12 +2268,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-18T23:56:10.050Z",
-      "items": 10
+      "at": "2026-10-19T00:09:21.835Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-18T23:56:10.765Z",
+      "at": "2026-10-19T00:09:22.525Z",
       "items": 5
     },
     "civilprotection": {
@@ -2282,27 +2284,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-18T23:56:12.295Z",
+      "at": "2026-10-19T00:09:23.693Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-18T23:56:12.699Z",
+      "at": "2026-10-19T00:09:24.037Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-18T23:56:13.926Z",
+      "at": "2026-10-19T00:09:25.394Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-18T23:56:14.633Z",
-      "items": 7
+      "at": "2026-10-19T00:09:26.134Z",
+      "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-18T23:56:15.312Z",
+      "at": "2026-10-19T00:09:26.739Z",
       "items": 10
     },
     "toi-greece": {
@@ -2313,22 +2315,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-18T23:56:15.934Z",
+      "at": "2026-10-19T00:09:27.220Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-18T23:56:16.083Z",
+      "at": "2026-10-19T00:09:27.509Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-18T23:56:16.160Z",
+      "at": "2026-10-19T00:09:28.061Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T23:56:16.364Z",
+      "at": "2026-10-19T00:09:28.432Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2338,12 +2340,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-18T23:56:11.566Z",
+      "at": "2026-10-19T00:09:23.080Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-18T23:56:17.013Z",
+      "at": "2026-10-19T00:09:28.948Z",
       "items": 0
     },
     "hcg": {
@@ -2354,32 +2356,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-18T23:56:18.153Z",
+      "at": "2026-10-19T00:09:30.306Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-18T23:56:18.470Z",
+      "at": "2026-10-19T00:09:30.457Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-18T23:56:18.624Z",
+      "at": "2026-10-19T00:09:30.611Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-18T23:56:19.393Z",
+      "at": "2026-10-19T00:09:30.777Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-18T23:56:19.741Z",
+      "at": "2026-10-19T00:09:31.076Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-18T23:56:20.180Z",
+      "at": "2026-10-19T00:09:31.647Z",
       "items": 7
     }
   },
@@ -2412,6 +2414,11 @@
         "title": "Athens Residents in Fear After Rise in Robberies and Assaults",
         "reason": "Mixed-script (broken) Hebrew words: פנטליימונas, פנטליימונas. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-10-18T22:08:50.101Z"
+      },
+      {
+        "title": "Ανησυχία σε πτήση της Austrian Air από το Τελ Αβίβ -Αναγκαστική προσγείωση στη Σόφια λόγω υποψίας απειλής - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Austrian Airlines flight from Tel Aviv to Vienna diverts due to security threat» – δεν γράφτηκε ξανά",
+        "at": "2026-10-19T00:09:36.884Z"
       }
     ],
     "errors": [],
@@ -2536,12 +2543,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-18T23:56:21.058Z",
+    "at": "2026-10-19T00:09:32.494Z",
     "considered": 2,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· gct | Greek monk missing in Turkey after leaving for ancestral homeland",
-      "· gct | Priest Killed After Giant Crucifix Falls on Him During Mass (WARNING: VIDEO)"
+      "· gct | IndiGo Carries Over 60,000 Round-Trip Passengers Between Greece and India",
+      "✓ gn-iefimerida | Ανησυχία σε πτήση της Austrian Air από το Τελ Αβίβ -Αναγκαστική προσγείωση στη Σόφια λόγω "
     ]
   },
   "evergreenDone": [
