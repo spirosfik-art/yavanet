@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "c45df30a5300": 1791203546573,
-    "445bd51483a3": 1791203546573,
-    "699500447bb9": 1791203546573,
     "2092e449f5cd": 1791205176678,
     "7508f16fc00e": 1791206125711,
     "3ad3c1e58f1b": 1791206125711,
@@ -2279,9 +2276,122 @@
     "152fd0f91622": 1792411894256,
     "30f4610e573d": 1792411894256,
     "e40bc4f82838": 1792411894256,
-    "8c56c3a24960": 1792411894256
+    "8c56c3a24960": 1792411894256,
+    "9157f7bd34ed": 1792414046269,
+    "4a97148ff9c1": 1792414046269,
+    "810b6259e44c": 1792414046269,
+    "2b7ecba3066c": 1792414046269,
+    "76de9bba8b3e": 1792414046269,
+    "36171302aa1a": 1792414046269
   },
-  "pending": {},
+  "pending": {
+    "457841": {
+      "createdAt": 1792414068357,
+      "item": {
+        "title": "Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη",
+        "url": "https://www.naftemporiki.gr/society/2176953/thesprotia-fotia-tora-sti-faneromeni/?utm_source=rss&utm_medium=rss&utm_campaign=thesprotia-fotia-tora-sti-faneromeni",
+        "summary": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\nΤην κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7…\n Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Mon, 19 Oct 2026 12:28:35 +0000",
+        "id": "9157f7bd34ed",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "9157f7bd34ed",
+        "section": "breaking",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Forest fire burning in Thesprotia near Faneromeni; requires monitoring for travelers in western Greece.",
+        "item": {
+          "title": "Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη",
+          "url": "https://www.naftemporiki.gr/society/2176953/thesprotia-fotia-tora-sti-faneromeni/?utm_source=rss&utm_medium=rss&utm_campaign=thesprotia-fotia-tora-sti-faneromeni",
+          "summary": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\nΤην κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7…\n Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Mon, 19 Oct 2026 12:28:35 +0000",
+          "id": "9157f7bd34ed",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "thesprotia-faneromeni-forest-fire-greece",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 39.4833,
+          "lng": 20.2333
+        },
+        "strike": null,
+        "alert": {
+          "he": "שריפה ביוון",
+          "en": "Fire in Greece"
+        },
+        "imageKey": "fire",
+        "imageQuery": "forest fire smoke greece",
+        "he": {
+          "title": "שריפה בלפרוותיה: אש פרצה בשטח יער בפאנרומני",
+          "seoTitle": "שריפה ביוון: שריפת יער פרצה באזור תספרוטיה",
+          "seoDesc": "שריפת יער פרצה באזור תספרוטיה ביוון. כוחות כיבוי אש ומטוסי כיבוי פועלים במקום להשתלטות על האש. כל הפרטים המעודכנים באתר יוונט.",
+          "keywords": [
+            "שריפה ביוון",
+            "שריפת יער ביוון",
+            "תספרוטיה יוון",
+            "מזג אוויר ביוון",
+            "חדשות יוון"
+          ],
+          "dek": "כוחות כיבוי אש רבים, מטוסי כיבוי וצוותים אוויריים וקרקעיים פועלים מאז הצהריים בבלימת שריפת יער באזור תספרוטיה.",
+          "tldr": [
+            "שריפת יער פרצה באזור פאנרומני שבתספרוטיה ביום שני בשעות הצהריים.",
+            "עשרות כבאים, רכבי כיבוי וארבעה מטוסי כיבוי הוקפצו לזירת האש.",
+            "צוות חקירת הצתות החל בבדיקת נסיבות פרוץ הדליקה."
+          ],
+          "means": "אם אתם מטיילים באזור תספרוטיה או מתכננים להגיע לשם, מומלץ לעקוב אחר הודעות החירום של הרשויות המקומיות, להתרחק ממוקדי האש ולהישמע להנחיות כוחות הביטחון והכיבוי בשטח.",
+          "body": "## שריפת יער בתספרוטיה\n\nשריפת יער פרצה בשטח צמחייה פתוח ביישוב פאנרומני שבאזור תספרוטיה. האש החלה להתפשט בשעות הצהריים המוקדמות של יום שני, והפעילה את כוחות ההצלה באזור.\n\n## כוחות כיבוי והצלה בשטח\n\nלמקום הוזנקו כוחות מתוגברים הכוללים כוח קרקעי של עשרות כבאים, צוותים רגליים מיוחדים ומספר רכבי כיבוי אש. במקביל, ארבעה מטוסי כיבוי החלו בבצוע גיחות הטלת מים מהאוויר כדי לבלום את התפשטות הלהבות לעבר צמחייה נוספת, בעוד הרשות המקומית מסייעת באמצעות מכליות מים.\n\n## חקירת נסיבות הדליקה\n\nעם תחילת פעולות הכיבוי, נכנס לפעולה צוות החקירה המיוחד של שירות הכיבוי המקומי שתפקידו לחקור את נסיבות פרוץ השריפות באזור, על מנת לבדוק את הגורם שהוביל להתלקחות האש."
+        },
+        "en": {
+          "title": "Wildfire breaks out in Faneromeni, Thesprotia",
+          "seoTitle": "Wildfire in Thesprotia Greece: Forest fire in Faneromeni",
+          "seoDesc": "A forest fire broke out in Faneromeni, Thesprotia. Firefighting forces and aircraft are operating at the scene. Get the latest updates on Yavanet.",
+          "keywords": [
+            "fire in greece",
+            "thesprotia wildfire",
+            "faneromeni fire",
+            "greece news",
+            "greece fires today"
+          ],
+          "dek": "Ground and aerial firefighting units are deployed to contain a forest fire that erupted in the Thesprotia region.",
+          "tldr": [
+            "A forest fire broke out in the Faneromeni area of Thesprotia on Monday afternoon.",
+            "Dozens of firefighters, ground teams, and four firefighting aircraft were deployed.",
+            "An arson investigation unit has been activated to look into the cause of the fire."
+          ],
+          "means": "If you are traveling in the Thesprotia region, stay updated on local emergency alerts, avoid the affected areas, and follow all instructions from Greek emergency authorities and firefighters.",
+          "body": "## Forest Fire in Thesprotia\n\nA forest and brush area in Faneromeni, Thesprotia, caught fire on Monday afternoon, prompting a swift response from emergency services in the region.\n\n## Firefighting Operations\n\nAuthorities deployed numerous firefighters alongside specialized ground teams and fire trucks to combat the blaze. In addition, four firefighting aircraft began aerial water drops to help contain the flames, while local municipal water tankers assisted ground crews.\n\n## Investigation into the Cause\n\nFollowing the outbreak, the specialized arson investigation unit of the fire service was activated to examine the circumstances and determine the exact cause of the fire."
+        }
+      },
+      "text": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\n Την κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7 οχήματα, για την αεροπυρόσβεση κινητοποιήθηκαν και 4 αεροσκάφη, ενώ και ο δήμος Φιλιατών συνδράμει με υδροφόρες.\n Για τη διερεύνηση των συνθηκών, ενεργοποιήθηκε το Ανακριτικό Κλιμάκιο Αντιμετώπισης Εγκλημάτων Εμπρησμού Θεσπρωτίας.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 19/10/2026 - 3:03 \n Χίος: Συγκέντρωση για το 4μηνο κλείσιμο του αεροδρομίου\n 19/10/2026 - 2:40 \n Γιαννιτσά 1912: Η κρισιμότερη σύγκρουση του Α’ Βαλκανικού Πολέμου που έκρινε την τύχη της Θεσσαλονίκης\n 19/10/2026 - 2:17 \n Γρεβενά: «Μαϊμού» υπάλληλοι της ΑΑΔΕ υπεξαίρεσαν 108.000 ευρώ από 25χρονη\n 19/10/2026 - 2:10 \n Θεσσαλονίκη: Συλλήψεις ανηλίκων και γονέων για τον ξυλοδαρμό 12χρονου στο γήπεδο «Άλκης Καμπανός»\n 19/10/2026 - 2:06 \n Συλλήψεις για όπλα σε Περιστέρι και Ηλιούπολη\n 19/10/2026 - 1:35 \n Έφεση στην υπόθεση θανάτου του Σήφη Βαλυράκη ασκήθηκε από την εισαγγελία\n 19/10/2026 - 1:35 \n Ελληνικό Ανοικτό Πανεπιστήμιο: Αύξηση 8,64% στις εγγραφές νέων φοιτητών\n 19/10/2026 - 12:55 \n Αχαΐα: Φωτιά τώρα στην Αιγιάλεια\n 19/10/2026 - 12:18 \n Δίκη για Τέμπη: «Ήταν ένα σκηνικό σαν ταινία πολεμική» – Επιβάτης κατέθεσε όσα έζησε\n 19/10/2026 - 11:34 \n ΕΚΠΑ: Νέα ψηφιακή πλατφόρμα δωρεών για υποτροφίες, έρευνα και υποδομές\n 19/10/2026 - 10:45 \n Σεισμός τώρα 3,9 Ρίχτερ στη Μεσσηνία\n 19/10/2026 - 10:45 \n Χ. Δούκας: Επιστολή για την περίφραξη του μετρό στην πλατεία Εξαρχείων\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Ξέσπασε δασική πυρκαγιά στη Φανερωμένη Θεσπρωτίας",
+        "dek": "Επίγειες και εναέριες πυροσβεστικές δυνάμεις έχουν κινητοποιηθεί για τον περιορισμό δασικής πυρκαγιάς που εκδηλώθηκε στην περιοχή της Θεσπρωτίας.",
+        "tldr": [
+          "Δασική πυρκαγιά ξέσπασε στην περιοχή της Φανερωμένης Θεσπρωτίας το απόγευμα της Δευτέρας.",
+          "Κινητοποιήθηκαν δεκάδες πυροσβέστες, πεζοπόρα τμήματα και τέσตราτα πυροσβεστικά αεροσκάφη.",
+          "Κλιμάκιο της Διεύθυνσης Αντιμετώπισης Εγκλημάτων Εμπρησμού έχει ενεργοποιηθεί για τη διερεύνηση των αιτιών της πυρκαγιάς."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2291,12 +2401,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T12:11:20.509Z",
+      "at": "2026-10-19T12:47:12.934Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T12:11:21.285Z",
+      "at": "2026-10-19T12:47:13.892Z",
       "items": 5
     },
     "civilprotection": {
@@ -2307,27 +2417,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T12:11:24.322Z",
+      "at": "2026-10-19T12:47:15.741Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T12:11:24.432Z",
+      "at": "2026-10-19T12:47:16.135Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T12:11:25.496Z",
+      "at": "2026-10-19T12:47:17.415Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T12:11:26.460Z",
+      "at": "2026-10-19T12:47:18.394Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T12:11:27.549Z",
+      "at": "2026-10-19T12:47:19.035Z",
       "items": 10
     },
     "toi-greece": {
@@ -2338,23 +2448,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T12:11:28.164Z",
+      "at": "2026-10-19T12:47:19.704Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T12:11:28.274Z",
+      "at": "2026-10-19T12:47:19.785Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T12:11:28.832Z",
+      "at": "2026-10-19T12:47:20.510Z",
       "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T12:11:29.049Z",
-      "items": 4
+      "at": "2026-10-19T12:47:20.699Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2363,12 +2473,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T12:11:21.851Z",
+      "at": "2026-10-19T12:47:14.887Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T12:11:29.695Z",
+      "at": "2026-10-19T12:47:21.496Z",
       "items": 0
     },
     "hcg": {
@@ -2379,32 +2489,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T12:11:32.163Z",
+      "at": "2026-10-19T12:47:23.681Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T12:11:32.373Z",
+      "at": "2026-10-19T12:47:23.834Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T12:11:32.518Z",
+      "at": "2026-10-19T12:47:24.043Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T12:11:32.745Z",
-      "items": 3
+      "at": "2026-10-19T12:47:24.324Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T12:11:33.119Z",
-      "items": 7
+      "at": "2026-10-19T12:47:24.655Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T12:11:33.639Z",
+      "at": "2026-10-19T12:47:25.110Z",
       "items": 9
     }
   },
@@ -2534,6 +2644,11 @@
         "title": "Χίος: Πρόστιμα για καύση υπολειμμάτων καλλιεργειών",
         "reason": "seoDesc contains incorrect fact: states the fire ban lasts until the end of September, whereas the source and article body state it lasts until the end of October.",
         "at": "2026-10-19T07:36:49.368Z"
+      },
+      {
+        "title": "Συναγερμός για φωτιά στο Αίγιο",
+        "reason": "Ίδιο θέμα με «Forest fire breaks out in Aigialeia, Greece: firefighting forces deployed» – δεν γράφτηκε ξανά",
+        "at": "2026-10-19T12:47:30.236Z"
       }
     ],
     "errors": [],
@@ -2668,16 +2783,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T12:11:34.256Z",
+    "at": "2026-10-19T12:47:26.269Z",
     "considered": 6,
-    "picked": 0,
+    "picked": 2,
     "items": [
-      "· ingr | Ευρώπη: Μισθοί πείνας, ενοίκια φωτιά και ακρίβεια στα ύψη – Κραχ και στις τσέπες των Ελλήν",
-      "· ert | Πυρκαγιά σε χαμηλή βλάστηση στη Ξηρόβρυση Κιλκίς",
-      "· ingr | Θεσσαλονίκη: Προφυλακίστηκε η 22χρονη που συνελήφθη στο αεροδρόμιο «Μακεδονία» με πάνω από",
-      "· naftemporiki | Αυτοματοποιημένα εργοστάσια και υπερηχητικοί πύραυλοι: Οι πρώτες επενδύσεις ύψους 5 δισ. δ",
-      "· minfin | Εγκύκλιοι παροχής οδηγιών στους ΦΓΚ – οικονομική ταξινόμηση",
-      "· gn-kathimerini | Εκλογές στο Ισραήλ: Ο Αϊζενκοτ χρειάζεται τις ψήφους των Αράβων για να εκτοπίσει τον Νεταν"
+      "✓ naftemporiki | Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη",
+      "· gtp | Costa Navarino Launches Guide to Help Hotels Cut Food Waste",
+      "· ingr | Πιερρακάκης για ακρίβεια και ενεργειακή κρίση: «Η αβεβαιότητα μόνιμο χαρακτηριστικό της οι",
+      "· ingr | ΠΑΣΟΚ για Μπεκίρη: Δεν μπορεί να παραμένει στη θέση του μετά τις αποκαλύψεις",
+      "· minfin | Κυριάκος Πιερρακάκης: «Φιλοδοξούμε η Ελλάδα να αποτελέσει ένα από τα σημαντικά ευρωπαϊκά κ",
+      "✓ ingr | Συναγερμός για φωτιά στο Αίγιο"
     ]
   },
   "evergreenDone": [
