@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "aa461cf71989": 1791241318386,
-    "b65c962052a7": 1791241318386,
-    "ed2f4ecbde4b": 1791241318386,
-    "199448637fea": 1791241318386,
     "4098de5e6764": 1791242519625,
     "bc21d41a26c2": 1791242519625,
     "e74452cbbd9a": 1791242519625,
@@ -2264,7 +2260,8 @@
     "9304f5cd7772": 1792447708500,
     "c07a5876239b": 1792449371395,
     "5c1e8d95f879": 1792449371395,
-    "81500aa7272e": 1792449371395
+    "81500aa7272e": 1792449371395,
+    "99a34862beb2": 1792451070084
   },
   "pending": {},
   "sourceStatus": {
@@ -2276,12 +2273,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T22:35:43.228Z",
-      "items": 10
+      "at": "2026-10-19T23:04:10.484Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T22:35:44.159Z",
+      "at": "2026-10-19T23:04:11.302Z",
       "items": 5
     },
     "civilprotection": {
@@ -2292,27 +2289,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T22:35:46.264Z",
+      "at": "2026-10-19T23:04:12.763Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T22:36:01.984Z",
+      "at": "2026-10-19T23:04:21.886Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T22:36:03.095Z",
+      "at": "2026-10-19T23:04:22.928Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T22:36:04.089Z",
+      "at": "2026-10-19T23:04:23.575Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T22:36:04.913Z",
+      "at": "2026-10-19T23:04:23.980Z",
       "items": 10
     },
     "toi-greece": {
@@ -2323,22 +2320,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T22:36:05.557Z",
+      "at": "2026-10-19T23:04:24.470Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T22:36:05.801Z",
+      "at": "2026-10-19T23:04:24.772Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T22:36:06.048Z",
+      "at": "2026-10-19T23:04:25.304Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T22:36:06.286Z",
+      "at": "2026-10-19T23:04:25.750Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2348,12 +2345,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T22:35:45.229Z",
+      "at": "2026-10-19T23:04:12.085Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T22:36:07.094Z",
+      "at": "2026-10-19T23:04:26.341Z",
       "items": 0
     },
     "hcg": {
@@ -2364,32 +2361,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T22:36:09.051Z",
+      "at": "2026-10-19T23:04:28.064Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T22:36:09.287Z",
+      "at": "2026-10-19T23:04:28.296Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T22:36:09.507Z",
+      "at": "2026-10-19T23:04:28.534Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T22:36:09.720Z",
+      "at": "2026-10-19T23:04:28.834Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T22:36:10.123Z",
+      "at": "2026-10-19T23:04:29.139Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T22:36:10.591Z",
+      "at": "2026-10-19T23:04:29.515Z",
       "items": 9
     }
   },
@@ -2534,13 +2531,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T22:36:11.395Z",
-    "considered": 3,
+    "at": "2026-10-19T23:04:30.084Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | Greek Embassy Hosts Event on Women’s Role in Peace and Security",
-      "· gct | Thessaloniki to Turn Aristotelous Square into Pop-Up Design Museum",
-      "· gct | Intracom Defense Targets Global Expansion Under New Leadership"
+      "· gct | Musk Pledges US$10 Billion in Shares to Every American Child"
     ]
   },
   "evergreenDone": [
