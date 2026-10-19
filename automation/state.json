@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "a898d6fd2e72": 1791239742493,
-    "d97fa9ee16b7": 1791239742493,
-    "34a122264cda": 1791239742493,
     "aa461cf71989": 1791241318386,
     "b65c962052a7": 1791241318386,
     "ed2f4ecbde4b": 1791241318386,
@@ -2264,7 +2261,10 @@
     "9453fe2dbc47": 1792446157193,
     "48c497a73df4": 1792446157193,
     "585b58c6a9f6": 1792447708500,
-    "9304f5cd7772": 1792447708500
+    "9304f5cd7772": 1792447708500,
+    "c07a5876239b": 1792449371395,
+    "5c1e8d95f879": 1792449371395,
+    "81500aa7272e": 1792449371395
   },
   "pending": {},
   "sourceStatus": {
@@ -2276,12 +2276,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T22:08:04.403Z",
+      "at": "2026-10-19T22:35:43.228Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T22:08:05.197Z",
+      "at": "2026-10-19T22:35:44.159Z",
       "items": 5
     },
     "civilprotection": {
@@ -2292,27 +2292,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T22:08:07.681Z",
+      "at": "2026-10-19T22:35:46.264Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T22:08:19.975Z",
+      "at": "2026-10-19T22:36:01.984Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T22:08:21.051Z",
+      "at": "2026-10-19T22:36:03.095Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T22:08:22.009Z",
+      "at": "2026-10-19T22:36:04.089Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T22:08:22.733Z",
+      "at": "2026-10-19T22:36:04.913Z",
       "items": 10
     },
     "toi-greece": {
@@ -2323,22 +2323,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T22:08:23.331Z",
+      "at": "2026-10-19T22:36:05.557Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T22:08:23.439Z",
+      "at": "2026-10-19T22:36:05.801Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T22:08:23.645Z",
+      "at": "2026-10-19T22:36:06.048Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T22:08:23.844Z",
+      "at": "2026-10-19T22:36:06.286Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2348,12 +2348,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T22:08:06.233Z",
+      "at": "2026-10-19T22:35:45.229Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T22:08:24.666Z",
+      "at": "2026-10-19T22:36:07.094Z",
       "items": 0
     },
     "hcg": {
@@ -2364,32 +2364,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T22:08:26.298Z",
+      "at": "2026-10-19T22:36:09.051Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T22:08:26.476Z",
+      "at": "2026-10-19T22:36:09.287Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T22:08:26.623Z",
+      "at": "2026-10-19T22:36:09.507Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T22:08:26.899Z",
-      "items": 3
+      "at": "2026-10-19T22:36:09.720Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T22:08:27.245Z",
+      "at": "2026-10-19T22:36:10.123Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T22:08:27.636Z",
+      "at": "2026-10-19T22:36:10.591Z",
       "items": 9
     }
   },
@@ -2534,12 +2534,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T22:08:28.500Z",
-    "considered": 2,
+    "at": "2026-10-19T22:36:11.395Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Mazonakis Death: Clinic Doctor Distances Himself from Wife Again",
-      "· gct | Intracom Defense Names Michalis Tsamaz Chairman and Lykourgos Antonopoulos CEO"
+      "· gct | Greek Embassy Hosts Event on Women’s Role in Peace and Security",
+      "· gct | Thessaloniki to Turn Aristotelous Square into Pop-Up Design Museum",
+      "· gct | Intracom Defense Targets Global Expansion Under New Leadership"
     ]
   },
   "evergreenDone": [
