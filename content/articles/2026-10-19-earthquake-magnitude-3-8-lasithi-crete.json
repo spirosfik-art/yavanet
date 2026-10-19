@@ -1,0 +1,78 @@
+{
+  "slug": "earthquake-magnitude-3-8-lasithi-crete",
+  "section": "breaking",
+  "publishedAt": "2026-10-19T21:05:38+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 35,
+    "lng": 25.7
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/eidiseis/seismos-3-8-rixter-notioanatolika-tis-xrysis-sto-lasithi/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/16105750/pexels-photo-16105750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A city scene showing extensive earthquake damage with debris and ruins.",
+    "credit": "Photo: Faruk Tokluoğlu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/urban-ruins-after-earthquake-16105750/",
+    "license": "Pexels License",
+    "fallbackKey": "quake"
+  },
+  "alert": {
+    "he": "רעידת אדמה ביוון",
+    "en": "Earthquake in Greece"
+  },
+  "he": {
+    "title": "רעידת אדמה בעוצמה 3.8 הורגשה בכרתים",
+    "seoTitle": "רעידת אדמה בכרתים: ר אלדמה בעוצמה 3.8 בלסיתי",
+    "seoDesc": "רעידת אדמה בעוצמה 3.8 הורגשה באזור לסיתי שבכרתים. המוקד היה בים, ללא דיווח על נזק או נפגעים. כל הפרטים באתר יוונט.",
+    "keywords": [
+      "רעידת אדמה ביוון",
+      "רעידת אדמה בכרתים",
+      "לסיתי",
+      "חדשות יוון"
+    ],
+    "dek": "רעידת אדמה קלה בעוצמה 3.8 מורגשת באזור לסיתי שבכרתים, ללא דיווח על נזק.",
+    "tldr": [
+      "רעידת אדמה בעוצמה 3.8 הכה בלסיתי שבכרתים",
+      "המכון הגיודינמי עדכן את נתוני המוקד בים",
+      "הרעידה הורגשה בקלות באירפטרה ללא נפגעים"
+    ],
+    "means": "אם אתם נמצאים כעת באזור כרתים, חשוב לדעת שמדובר ברעידת אדמה קלה בלבד שלא גרמה לנזק. אין הנחיות מיוחדות מטעם הרשויות, אך כדאי להמשיך לעקוב אחר עדכונים רשמיים במידת הצורך.",
+    "body": "רעידת אדמה בעוצמה של 3.8 בסולם ריחטר התרחשה בשעות אחר הצהריים באזור הימי שמדרום-מזרח לאי כרתים. לפי נתוני המכון הגיודינמי, המוקד המדויק של הרעידה אותר במרחק של 51 קילומטרים מדרום-מזרח לאי כרתים, בעומק של 4.7 קילומטרים מתחת לפני הים.\n\nהתושבים והמטיילים באזור העיר אירפטרה דיווחו כי הרעידה הורגשה באופן קל בלבד. הרשויות המקומיות לא קיבלו דיווחים על נזק ברכוש או על נפגעים כתוצאה מהאירוע הסייסמי."
+  },
+  "en": {
+    "title": "Magnitude 3.8 Earthquake Felt in Lasithi, Crete",
+    "seoTitle": "Earthquake in Crete: Magnitude 3.8 Tremor in Lasithi",
+    "seoDesc": "A magnitude 3.8 earthquake was recorded off the coast of Lasithi, Crete. The tremor was felt lightly with no reports of damage.",
+    "keywords": [
+      "earthquake greece",
+      "crete earthquake",
+      "lasithi earthquake",
+      "greece news"
+    ],
+    "dek": "A mild earthquake measuring 3.8 on the Richter scale was recorded off Lasithi in Crete, with no damage reported.",
+    "tldr": [
+      "A magnitude 3.8 earthquake struck near Lasithi, Crete",
+      "The epicenter was located offshore with a focal depth of 4.7 km",
+      "The tremor was felt lightly in Ierapetra without causing concern"
+    ],
+    "means": "If you are currently visiting Crete, please note this was a minor tremor that caused no disruptions. No special safety actions are required, but travelers should stay informed through official local channels.",
+    "body": "An earthquake measuring 3.8 on the Richter scale occurred in the sea area southeast of Chrysi, in the regional unit of Lasithi. According to the revised data from the Geodynamic Institute, the epicenter was located 51 kilometers southeast of Chrysi, at a focal depth of 4.7 kilometers.\n\nThe seismic activity was felt lightly in Ierapetra and did not cause concern among local residents. Authorities have not reported any damage or injuries resulting from the tremor."
+  },
+  "meta": {
+    "itemId": "d6dc08cdd21e",
+    "imageQuery": "seismograph earthquake greece",
+    "sourceHash": "d8b0f55d4c6f",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-19T18:05:39.217Z",
+    "official": false
+  }
+}
