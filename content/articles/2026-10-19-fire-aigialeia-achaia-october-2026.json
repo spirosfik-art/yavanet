@@ -1,0 +1,78 @@
+{
+  "slug": "fire-aigialeia-achaia-october-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-19T13:16:42+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 38.25,
+    "lng": 22.08
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2176851/achaia-fotia-tora-stin-aigialeia/?utm_source=rss&utm_medium=rss&utm_campaign=achaia-fotia-tora-stin-aigialeia"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40102365/pexels-photo-40102365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Dramatic image of a large forest fire with dense smoke in a mountainous landscape under a blue sky.",
+    "credit": "Photo: Frank van Dijk / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/large-forest-fire-rages-in-scenic-mountain-terrain-40102365/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Greece Fire"
+  },
+  "he": {
+    "title": "שריפה פרצה באזור אייה איהליה ביוון: כוחות כיבוי גדולים פועלים במקום",
+    "seoTitle": "שריפה ביוון: אש פרצה באזור אייה איהליה היום",
+    "seoDesc": "שריפת יער פרצה באזור אייה איהליה ביוון. כוחות כיבוי אש רבים פועלים במקום וצוותי חקירה הופעלו. כל העדכונים ביוונט.",
+    "keywords": [
+      "שריפה ביוון",
+      "חדשות יוון",
+      "שריפת יער יוון",
+      "אייה איהליה"
+    ],
+    "dek": "שריפת יער פרצה באזור אייה איהליה ביוון. כוחות כיבוי רחבים פועלים להשתלטות על הלהבות.",
+    "tldr": [
+      "שריפה פרצה באזור יער באייה איהליה ביום שני בשעה 12:00.",
+      "עשרות כבאים וצוותים מיוחדים פועלים במקום בכוחות מתוגברים.",
+      "צוות חקירה מיוחד הופעלו לבדיקת נסיבות האירוע."
+    ],
+    "means": "אם אתם מטיילים באזור אייה איהליה או מתוכננים להגיע לשם, מומלץ לעקוב אחר ההנחיות המקומיות, להימנע מהתקרבות למוקדי האש ולהישמע להוראות כוחות הביטחון והחירום. הישארו מעודכנים באמצעי התקשורת המקומיים.",
+    "body": "## שריפת יער חדשה ביוון\n\nשריפת יער פרצה בשטח חורש באזור אנארירוס-אנו פרוביטצה שבמועצה המקומית אייה איהליה. האש החלה להתפשט בשעות הצהריים של יום שני, והרשויות המקומיות הגיבו במהירות לקריאות החירום.\n\n## כוחות כיבוי והצלה במקום\n\nלמקום הוזנקו כוחות מתוגברים הכוללים עשרות לוחמי אש, יחידות חיגל רגליות וניידות כיבוי רבות. בנוסף, הרשות המקומית מסייעת במאמצי הבלימה באמצעותות מכליות מים. במקביל להפעלת כוחות הכיבוי, יחידת החקירות המיוחדת של מערך הכבאות במערב יוון פתחה בבדיקה לאיתור נסיבות פרוץ האש."
+  },
+  "en": {
+    "title": "Forest fire breaks out in Aigialeia, Greece: firefighting forces deployed",
+    "seoTitle": "Greece Fire: Forest blaze reported in Aigialeia",
+    "seoDesc": "A forest fire broke out in the Aigialeia region of Greece. Large firefighting teams are deployed at the scene. Read updates on Yavanet.",
+    "keywords": [
+      "greece fire",
+      "aigialeia fire",
+      "greece news",
+      "forest fire greece"
+    ],
+    "dek": "A forest fire erupted in the Aigialeia municipality in Greece, prompting a large response from local emergency and firefighting units.",
+    "tldr": [
+      "A forest fire started in the Anargyros-Ano Provitsa area on Monday at 12:00.",
+      "Dozens of firefighters, specialized teams, and multiple vehicles are battling the blaze.",
+      "An arson investigation unit has been activated to look into the causes."
+    ],
+    "means": "If you are traveling in or near the Aigialeia region, stay informed about local safety updates, avoid the affected zones, and follow all instructions issued by Greek emergency authorities.",
+    "body": "## Forest Fire Erupts in Aigialeia\n\nA forest fire broke out in a wooded area in the Anargyros-Ano Provitsa region within the municipality of Aigialeia. The flames were reported around noon on Monday, triggering an immediate response from local authorities.\n\n## Emergency Response and Investigation\n\nNumerous firefighters, specialized forest firefighting teams, and multiple vehicles were mobilized to combat the blaze, with local municipal water tankers assisting the operations. Meanwhile, the specialized arson investigation unit for Western Greece has launched an inquiry into the circumstances surrounding the incident."
+  },
+  "meta": {
+    "itemId": "b67c02a98c9e",
+    "imageQuery": "forest fire smoke greece",
+    "sourceHash": "ffc2bbb198fb",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-19T10:16:42.528Z",
+    "official": false
+  }
+}
