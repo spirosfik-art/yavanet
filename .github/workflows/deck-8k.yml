@@ -1,0 +1,49 @@
+name: Deck 8K
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        img: [voula-area-astir, voula-area-lake, voula-area-marina, voula-area-v1, voula-bath, voula-bedroom-n, voula-bedroom2, voula-ext-n, voula-facade-n, voula-kitchen-n, voula-lawn, voula-living, voula-loft, voula-pergola-n, voula-pool-n, voula-wardrobe]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q spandrel pillow numpy
+          curl -sSL -o w.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
+          mkdir -p hires
+          python automation/upscale.py w.pth site/assets/${{ matrix.img }}.jpg hires/${{ matrix.img }}.jpg 7680
+      - uses: actions/upload-artifact@v4
+        with: { name: "${{ matrix.img }}", path: "hires/${{ matrix.img }}.jpg" }
+  pdf:
+    needs: up
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: hires, merge-multiple: true }
+      - name: Render 8K PDF
+        run: |
+          ls -la hires
+          mkdir -p out
+          sed 's#\.\./\.\./site/assets/voula-#../../hires/voula-#g' automation/decks/voula-en.html > automation/decks/voula-en-8k.html
+          google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=60000 --run-all-compositor-stages-before-draw --print-to-pdf="out/voula-en-8k.pdf" "file://$PWD/automation/decks/voula-en-8k.html"
+          google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf="out/voula-en.pdf" "file://$PWD/automation/decks/voula-en.html"
+          cp -r hires out/
+          ls -la out
+      - name: Push to deck-8k branch
+        run: |
+          cd out
+          git init -q -b deck-8k
+          git config user.name "yavanet-bot"
+          git config user.email "bot@yavanet.gr"
+          git add -A
+          git commit -qm "Deck 8K [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" deck-8k
