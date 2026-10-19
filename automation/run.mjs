@@ -11,7 +11,7 @@ import {
 import { SELECT_SYSTEM, selectPrompt, WRITE_SYSTEM, writePrompt, VERIFY_SYSTEM, verifyPrompt, neutralPrompt, updatePrompt } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
 import { ART_KEYS } from "../site/art.mjs";
-import { igEligible, igCaption, renderIgCard, markIgPosted } from "./ig-card.mjs";
+import { igEligible, igEvergreen, igCaption, renderIgCard, markIgPosted } from "./ig-card.mjs";
 
 // Όριο ανά μέρα ΚΑΙ ανά ώρα: έτσι δεν «καίγεται» όλο το όριο το πρωί και μένει το απόγευμα χωρίς άρθρα
 const MAX_PER_DAY = Number(env.MAX_PER_DAY || 36);
@@ -312,12 +312,12 @@ async function publish(draft, item, pick, text) {
   await distribute(article);
   return article;
 }
-// Instagram: έως IG_MAX/ημέρα, απόσταση ≥ 4 ώρες, 09:00–21:00
-const IG_MAX = Number(env.IG_MAX_PER_DAY || 2);
+// Instagram: τουλάχιστον 1 και έως IG_MAX/ημέρα, απόσταση ≥ 3 ώρες, 09:00–22:00
+const IG_MAX = Number(env.IG_MAX_PER_DAY || 3);
 function igSlotOpen() {
   const ig = (state.today.ig ||= []);
   const lastIg = ig.length ? Date.parse(ig[ig.length - 1].at) : 0;
-  return now.hour >= 9 && now.hour < 21 && ig.length < IG_MAX && Date.now() - lastIg >= 4 * 3600e3;
+  return now.hour >= 9 && now.hour < 22 && ig.length < IG_MAX && Date.now() - lastIg >= 3 * 3600e3;
 }
 function igPostedSlugs() {
   try { return new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "content/ig/posted.json"), "utf8")).map((x) => x.slug)); } catch { return new Set(); }
@@ -545,9 +545,11 @@ async function igCatchUp() {
   const posted = igPostedSlugs();
   const onFb = new Set((state.today.fb || []).map((x) => x.slug));
   const cutoff = Date.now() - 48 * 3600e3;
-  const cand = loadArticles()
-    .filter((a) => igEligible(a) && !posted.has(a.slug) && !onFb.has(a.slug) && Date.parse(a.publishedAt || 0) >= cutoff)
+  const all = loadArticles().filter((a) => !posted.has(a.slug) && !onFb.has(a.slug))
     .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
+  // πρώτα πρόσφατα (και ειδήσεις)· αν δεν υπάρχει τίποτα και η μέρα είναι ακόμα χωρίς Instagram, ένας παλιότερος οδηγός
+  let cand = all.filter((a) => igEligible(a) && Date.parse(a.publishedAt || 0) >= cutoff);
+  if (!cand.length && !(state.today.ig || []).length && now.hour >= 14) cand = all.filter(igEvergreen);
   if (!cand.length) return;
   log("instagram: αναπλήρωση με", cand[0].slug);
   await distribute(cand[0], { catchUp: true });

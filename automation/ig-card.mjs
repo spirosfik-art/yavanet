@@ -9,7 +9,7 @@ import { execFileSync } from "node:child_process";
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 export const IG_DIR = path.join(ROOT, "content/ig");
 
-const KICKER = { travel: "טיולים", "real-estate": "נדל״ן", israelis: "ישראלים ביוון", living: "חיים ביוון", "jewish-greece": "יהדות", breaking: "חדשות" };
+const KICKER = { travel: "טיולים", "real-estate": "נדל״ן", israelis: "ישראלים ביוון", living: "חיים ביוון", "jewish-greece": "יהדות", breaking: "חדשות", news: "חדשות", greece: "חדשות", economy: "כלכלה", politics: "חדשות" };
 const TAGS = {
   travel: "#טיוליםביוון #חופשהביוון",
   "real-estate": "#נדלןביוון #דירהבאתונה #השקעהביוון",
@@ -20,11 +20,17 @@ const TAGS = {
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 // Ποια άρθρα αξίζουν ανάρτηση στο Instagram: οδηγοί/ταξίδια/ακίνητα/ζωή, όχι έκτακτα, ευαίσθητα, συνεργάτες, καιρός, απεργίες.
+// Ειδήσεις και έκτακτα περνούν κι αυτά (ο Σπύρος θέλει και ειδήσεις στο Instagram)· όχι ευαίσθητα, συνεργάτες, καιρός.
+export const IG_SECTIONS = ["travel", "real-estate", "israelis", "living", "jewish-greece", "breaking", "news", "greece", "economy", "politics"];
 export function igEligible(a) {
-  if (!a || a.hidden || a.sensitive || a.partner || a.sponsored || a.showcase || a.breaking || a.strike || a.wx) return false;
+  if (!a || a.hidden || a.sensitive || a.partner || a.sponsored || a.showcase || a.wx) return false;
   if (a.meta && a.meta.auto) return false;
   if (!a.image || a.image.type !== "photo" || !a.image.url) return false;
-  return ["travel", "real-estate", "israelis", "living", "jewish-greece"].includes(a.section);
+  return IG_SECTIONS.includes(a.section) || !!a.breaking || !!a.strike;
+}
+// Οδηγοί που δεν «λήγουν»: για αναπλήρωση όταν δεν υπάρχει πρόσφατο άρθρο
+export function igEvergreen(a) {
+  return igEligible(a) && !a.breaking && !a.strike && ["travel", "jewish-greece", "living", "real-estate"].includes(a.section);
 }
 
 export function igCaption(a) {
