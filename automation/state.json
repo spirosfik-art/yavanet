@@ -2284,114 +2284,7 @@
     "76de9bba8b3e": 1792414046269,
     "36171302aa1a": 1792414046269
   },
-  "pending": {
-    "457841": {
-      "createdAt": 1792414068357,
-      "item": {
-        "title": "Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη",
-        "url": "https://www.naftemporiki.gr/society/2176953/thesprotia-fotia-tora-sti-faneromeni/?utm_source=rss&utm_medium=rss&utm_campaign=thesprotia-fotia-tora-sti-faneromeni",
-        "summary": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\nΤην κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7…\n Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-        "published": "Mon, 19 Oct 2026 12:28:35 +0000",
-        "id": "9157f7bd34ed",
-        "sourceId": "naftemporiki",
-        "sourceName": "Ναυτεμπορική",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "9157f7bd34ed",
-        "section": "breaking",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Forest fire burning in Thesprotia near Faneromeni; requires monitoring for travelers in western Greece.",
-        "item": {
-          "title": "Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη",
-          "url": "https://www.naftemporiki.gr/society/2176953/thesprotia-fotia-tora-sti-faneromeni/?utm_source=rss&utm_medium=rss&utm_campaign=thesprotia-fotia-tora-sti-faneromeni",
-          "summary": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\nΤην κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7…\n Θεσπρωτία: Φωτιά τώρα στη Φανερωμένη - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-          "published": "Mon, 19 Oct 2026 12:28:35 +0000",
-          "id": "9157f7bd34ed",
-          "sourceId": "naftemporiki",
-          "sourceName": "Ναυτεμπορική",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "thesprotia-faneromeni-forest-fire-greece",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 39.4833,
-          "lng": 20.2333
-        },
-        "strike": null,
-        "alert": {
-          "he": "שריפה ביוון",
-          "en": "Fire in Greece"
-        },
-        "imageKey": "fire",
-        "imageQuery": "forest fire smoke greece",
-        "he": {
-          "title": "שריפה בלפרוותיה: אש פרצה בשטח יער בפאנרומני",
-          "seoTitle": "שריפה ביוון: שריפת יער פרצה באזור תספרוטיה",
-          "seoDesc": "שריפת יער פרצה באזור תספרוטיה ביוון. כוחות כיבוי אש ומטוסי כיבוי פועלים במקום להשתלטות על האש. כל הפרטים המעודכנים באתר יוונט.",
-          "keywords": [
-            "שריפה ביוון",
-            "שריפת יער ביוון",
-            "תספרוטיה יוון",
-            "מזג אוויר ביוון",
-            "חדשות יוון"
-          ],
-          "dek": "כוחות כיבוי אש רבים, מטוסי כיבוי וצוותים אוויריים וקרקעיים פועלים מאז הצהריים בבלימת שריפת יער באזור תספרוטיה.",
-          "tldr": [
-            "שריפת יער פרצה באזור פאנרומני שבתספרוטיה ביום שני בשעות הצהריים.",
-            "עשרות כבאים, רכבי כיבוי וארבעה מטוסי כיבוי הוקפצו לזירת האש.",
-            "צוות חקירת הצתות החל בבדיקת נסיבות פרוץ הדליקה."
-          ],
-          "means": "אם אתם מטיילים באזור תספרוטיה או מתכננים להגיע לשם, מומלץ לעקוב אחר הודעות החירום של הרשויות המקומיות, להתרחק ממוקדי האש ולהישמע להנחיות כוחות הביטחון והכיבוי בשטח.",
-          "body": "## שריפת יער בתספרוטיה\n\nשריפת יער פרצה בשטח צמחייה פתוח ביישוב פאנרומני שבאזור תספרוטיה. האש החלה להתפשט בשעות הצהריים המוקדמות של יום שני, והפעילה את כוחות ההצלה באזור.\n\n## כוחות כיבוי והצלה בשטח\n\nלמקום הוזנקו כוחות מתוגברים הכוללים כוח קרקעי של עשרות כבאים, צוותים רגליים מיוחדים ומספר רכבי כיבוי אש. במקביל, ארבעה מטוסי כיבוי החלו בבצוע גיחות הטלת מים מהאוויר כדי לבלום את התפשטות הלהבות לעבר צמחייה נוספת, בעוד הרשות המקומית מסייעת באמצעות מכליות מים.\n\n## חקירת נסיבות הדליקה\n\nעם תחילת פעולות הכיבוי, נכנס לפעולה צוות החקירה המיוחד של שירות הכיבוי המקומי שתפקידו לחקור את נסיבות פרוץ השריפות באזור, על מנת לבדוק את הגורם שהוביל להתלקחות האש."
-        },
-        "en": {
-          "title": "Wildfire breaks out in Faneromeni, Thesprotia",
-          "seoTitle": "Wildfire in Thesprotia Greece: Forest fire in Faneromeni",
-          "seoDesc": "A forest fire broke out in Faneromeni, Thesprotia. Firefighting forces and aircraft are operating at the scene. Get the latest updates on Yavanet.",
-          "keywords": [
-            "fire in greece",
-            "thesprotia wildfire",
-            "faneromeni fire",
-            "greece news",
-            "greece fires today"
-          ],
-          "dek": "Ground and aerial firefighting units are deployed to contain a forest fire that erupted in the Thesprotia region.",
-          "tldr": [
-            "A forest fire broke out in the Faneromeni area of Thesprotia on Monday afternoon.",
-            "Dozens of firefighters, ground teams, and four firefighting aircraft were deployed.",
-            "An arson investigation unit has been activated to look into the cause of the fire."
-          ],
-          "means": "If you are traveling in the Thesprotia region, stay updated on local emergency alerts, avoid the affected areas, and follow all instructions from Greek emergency authorities and firefighters.",
-          "body": "## Forest Fire in Thesprotia\n\nA forest and brush area in Faneromeni, Thesprotia, caught fire on Monday afternoon, prompting a swift response from emergency services in the region.\n\n## Firefighting Operations\n\nAuthorities deployed numerous firefighters alongside specialized ground teams and fire trucks to combat the blaze. In addition, four firefighting aircraft began aerial water drops to help contain the flames, while local municipal water tankers assisted ground crews.\n\n## Investigation into the Cause\n\nFollowing the outbreak, the specialized arson investigation unit of the fire service was activated to examine the circumstances and determine the exact cause of the fire."
-        }
-      },
-      "text": "Δασική έκταση στη Φανερωμένη τυλίχθηκε στις φλόγες στη Θεσπρωτία, από τις 14:10 της Δευτέρας.\n Την κατάσβεση της πυρκαγιάς ανέλαβαν 26 πυροσβέστες με δύο ομάδες πεζοπόρων της 5ης ΕΜΟΔΕ και 7 οχήματα, για την αεροπυρόσβεση κινητοποιήθηκαν και 4 αεροσκάφη, ενώ και ο δήμος Φιλιατών συνδράμει με υδροφόρες.\n Για τη διερεύνηση των συνθηκών, ενεργοποιήθηκε το Ανακριτικό Κλιμάκιο Αντιμετώπισης Εγκλημάτων Εμπρησμού Θεσπρωτίας.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 19/10/2026 - 3:03 \n Χίος: Συγκέντρωση για το 4μηνο κλείσιμο του αεροδρομίου\n 19/10/2026 - 2:40 \n Γιαννιτσά 1912: Η κρισιμότερη σύγκρουση του Α’ Βαλκανικού Πολέμου που έκρινε την τύχη της Θεσσαλονίκης\n 19/10/2026 - 2:17 \n Γρεβενά: «Μαϊμού» υπάλληλοι της ΑΑΔΕ υπεξαίρεσαν 108.000 ευρώ από 25χρονη\n 19/10/2026 - 2:10 \n Θεσσαλονίκη: Συλλήψεις ανηλίκων και γονέων για τον ξυλοδαρμό 12χρονου στο γήπεδο «Άλκης Καμπανός»\n 19/10/2026 - 2:06 \n Συλλήψεις για όπλα σε Περιστέρι και Ηλιούπολη\n 19/10/2026 - 1:35 \n Έφεση στην υπόθεση θανάτου του Σήφη Βαλυράκη ασκήθηκε από την εισαγγελία\n 19/10/2026 - 1:35 \n Ελληνικό Ανοικτό Πανεπιστήμιο: Αύξηση 8,64% στις εγγραφές νέων φοιτητών\n 19/10/2026 - 12:55 \n Αχαΐα: Φωτιά τώρα στην Αιγιάλεια\n 19/10/2026 - 12:18 \n Δίκη για Τέμπη: «Ήταν ένα σκηνικό σαν ταινία πολεμική» – Επιβάτης κατέθεσε όσα έζησε\n 19/10/2026 - 11:34 \n ΕΚΠΑ: Νέα ψηφιακή πλατφόρμα δωρεών για υποτροφίες, έρευνα και υποδομές\n 19/10/2026 - 10:45 \n Σεισμός τώρα 3,9 Ρίχτερ στη Μεσσηνία\n 19/10/2026 - 10:45 \n Χ. Δούκας: Επιστολή για την περίφραξη του μετρό στην πλατεία Εξαρχείων\n Περισσότερα",
-      "issues": [],
-      "el": {
-        "title": "Ξέσπασε δασική πυρκαγιά στη Φανερωμένη Θεσπρωτίας",
-        "dek": "Επίγειες και εναέριες πυροσβεστικές δυνάμεις έχουν κινητοποιηθεί για τον περιορισμό δασικής πυρκαγιάς που εκδηλώθηκε στην περιοχή της Θεσπρωτίας.",
-        "tldr": [
-          "Δασική πυρκαγιά ξέσπασε στην περιοχή της Φανερωμένης Θεσπρωτίας το απόγευμα της Δευτέρας.",
-          "Κινητοποιήθηκαν δεκάδες πυροσβέστες, πεζοπόρα τμήματα και τέσตราτα πυροσβεστικά αεροσκάφη.",
-          "Κλιμάκιο της Διεύθυνσης Αντιμετώπισης Εγκλημάτων Εμπρησμού έχει ενεργοποιηθεί για τη διερεύνηση των αιτιών της πυρκαγιάς."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2521,7 +2414,7 @@
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 13,
+    "count": 14,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2612,6 +2505,12 @@
         "title": "↻ Earthquake measuring 3.8 magnitude recorded near Petalidi in Messinia, Greece",
         "at": "2026-10-19T13:43:33+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "thesprotia-faneromeni-forest-fire-greece",
+        "title": "Wildfire breaks out in Faneromeni, Thesprotia",
+        "at": "2026-10-19T15:53:58+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2660,6 +2559,10 @@
       {
         "slug": "messinia-earthquake-pylos-kalamata",
         "at": "2026-10-19T08:19:52.238Z"
+      },
+      {
+        "slug": "thesprotia-faneromeni-forest-fire-greece",
+        "at": "2026-10-19T12:53:58.808Z"
       }
     ],
     "ig": []
@@ -2835,5 +2738,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "thesprotia-faneromeni-forest-fire-greece",
+      "url": "https://yavanet.gr/a/thesprotia-faneromeni-forest-fire-greece/",
+      "at": "2026-10-19T12:53:58.808Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/thesprotia-faneromeni-forest-fire-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/thesprotia-faneromeni-forest-fire-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה בלפרוותיה: אש פרצה בשטח יער בפאנרומני",
+        "title_en": "Wildfire breaks out in Faneromeni, Thesprotia",
+        "dek_he": "כוחות כיבוי אש רבים, מטוסי כיבוי וצוותים אוויריים וקרקעיים פועלים מאז הצהריים בבלימת שריפת יער באזור תספרוטיה.",
+        "dek_en": "Ground and aerial firefighting units are deployed to contain a forest fire that erupted in the Thesprotia region.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/32874851/pexels-photo-32874851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה בלפרוותיה: אש פרצה בשטח יער בפאנרומני\n\nכוחות כיבוי אש רבים, מטוסי כיבוי וצוותים אוויריים וקרקעיים פועלים מאז הצהריים בבלימת שריפת יער באזור תספרוטיה.\n\nhttps://yavanet.gr/a/thesprotia-faneromeni-forest-fire-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Wildfire breaks out in Faneromeni, Thesprotia\n\nGround and aerial firefighting units are deployed to contain a forest fire that erupted in the Thesprotia region.\n\nhttps://yavanet.gr/en/a/thesprotia-faneromeni-forest-fire-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
