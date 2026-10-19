@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "7a3a8f88ae61": 1791186257210,
-    "36e4442c7666": 1791187045504,
-    "82b03c16c6e0": 1791187045504,
-    "4655da2cfb28": 1791187045504,
-    "ed130e5c328e": 1791187695838,
-    "5dcedf641d83": 1791187695838,
     "b19dfc6544e1": 1791188777593,
     "30a4099ec589": 1791189930391,
     "629beeb6d443": 1791189930391,
@@ -2274,7 +2268,18 @@
     "1c7a19337f8e": 1792395366499,
     "15b4ad8c3fb3": 1792395366499,
     "879c4a5671b7": 1792395366499,
-    "e8729eab8ea3": 1792395366499
+    "e8729eab8ea3": 1792395366499,
+    "31d65a3f2a67": 1792397977623,
+    "5a818a2ee0e8": 1792397977623,
+    "6452d7e098db": 1792397977623,
+    "8ee362630385": 1792397977623,
+    "eb152479dec7": 1792397977623,
+    "9f2ead99c744": 1792397977623,
+    "c8c687eb47ba": 1792397977623,
+    "d83e89e5000b": 1792397977623,
+    "df0bd863ec0a": 1792397977623,
+    "f239b53a1958": 1792397977623,
+    "c4d3049dc8b6": 1792397977623
   },
   "pending": {},
   "sourceStatus": {
@@ -2286,12 +2291,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T07:35:53.866Z",
+      "at": "2026-10-19T08:19:24.445Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T07:35:54.787Z",
+      "at": "2026-10-19T08:19:25.432Z",
       "items": 5
     },
     "civilprotection": {
@@ -2302,27 +2307,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T07:35:56.403Z",
+      "at": "2026-10-19T08:19:27.136Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T07:35:56.639Z",
+      "at": "2026-10-19T08:19:27.514Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T07:35:58.030Z",
+      "at": "2026-10-19T08:19:28.760Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T07:35:58.792Z",
-      "items": 3
+      "at": "2026-10-19T08:19:29.706Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T07:35:59.607Z",
+      "at": "2026-10-19T08:19:30.765Z",
       "items": 10
     },
     "toi-greece": {
@@ -2333,23 +2338,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T07:36:00.065Z",
+      "at": "2026-10-19T08:19:31.409Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T07:36:00.436Z",
+      "at": "2026-10-19T08:19:31.505Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T07:36:01.278Z",
-      "items": 2
+      "at": "2026-10-19T08:19:31.912Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T07:36:01.446Z",
-      "items": 2
+      "at": "2026-10-19T08:19:32.437Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2358,12 +2363,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T07:35:55.681Z",
+      "at": "2026-10-19T08:19:26.085Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T07:36:02.135Z",
+      "at": "2026-10-19T08:19:33.269Z",
       "items": 0
     },
     "hcg": {
@@ -2374,39 +2379,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T07:36:03.877Z",
+      "at": "2026-10-19T08:19:35.340Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T07:36:04.121Z",
+      "at": "2026-10-19T08:19:35.516Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T07:36:04.314Z",
+      "at": "2026-10-19T08:19:35.650Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T07:36:04.525Z",
-      "items": 4
+      "at": "2026-10-19T08:19:35.884Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T07:36:04.833Z",
-      "items": 4
+      "at": "2026-10-19T08:19:36.205Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T07:36:05.309Z",
+      "at": "2026-10-19T08:19:36.644Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 10,
+    "count": 11,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2467,6 +2472,12 @@
         "title": "Greece prepares for critical weeks amid Eastern Mediterranean cable project",
         "at": "2026-10-19T09:49:14+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "messinia-earthquake-pylos-kalamata",
+        "title": "Magnitude 3.9 Earthquake Felt in Messinia and Kalamata",
+        "at": "2026-10-19T11:19:51+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2506,6 +2517,10 @@
       {
         "slug": "greek-import-prices-rise-august-2026",
         "at": "2026-10-19T05:01:58.716Z"
+      },
+      {
+        "slug": "messinia-earthquake-pylos-kalamata",
+        "at": "2026-10-19T08:19:52.238Z"
       }
     ],
     "ig": []
@@ -2629,14 +2644,21 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T07:36:06.499Z",
-    "considered": 4,
-    "picked": 2,
+    "at": "2026-10-19T08:19:37.623Z",
+    "considered": 11,
+    "picked": 1,
     "items": [
-      "· ert | Αμερικανοί διπλωμάτες επισκέφθηκαν τη χριστιανική κοινότητα της Ταϊμπέχ μετά τις επιθέσεις",
-      "✓ ert | Χίος: Πρόστιμα για καύση υπολειμμάτων καλλιεργειών",
-      "✓ gn-kathimerini | Ισραήλ: Οκτώ συλλήψεις για τις επιθέσεις εποίκων εναντίον Αμερικανίδας δημοσιογράφου και δ",
-      "· gn-kathimerini | Καναδάς: Τέσσερις νεκροί και σχεδόν 40 τραυματίες ο απολογισμός της φωτιάς σε στρατιωτική "
+      "· gct | Greek Researchers Develop Autonomous Boat to Collect Marine Waste",
+      "· ingr | Σεισμός 3,8 Ρίχτερ κοντά στο Πεταλίδι Μεσσηνίας",
+      "· naftemporiki | «Επενδύστε στη Γερμανία»: «Σύνοδος κορυφής» 200 μεγάλων επενδυτών στο Βερολίνο",
+      "· gct | Greece Launches COVID Vaccination Campaign as Hospital Admissions Rise",
+      "✓ ert | Μεσσηνία: Σεισμός 3,9 Ρίχτερ κοντά στην Πύλο – Αισθητός και στην Καλαμάτα",
+      "· gct | Historic Nafpaktos: A Family Escape on the Corinthian Gulf",
+      "· gct | Nikos Oikonomopoulos Holds No. 1 on Greek Airplay Chart",
+      "· naftemporiki | Σεισμός τώρα 3,9 Ρίχτερ στη Μεσσηνία",
+      "· ert | Αίγυπτος: Εγχώριο σύστημα αεράμυνας «κυνηγός drones» προκαλεί ερωτήματα στο Ισραήλ",
+      "· gn-kathimerini | Οι ξενοδόχοι που έχασαν το πάρτι του ελληνικού τουρισμού - Kathimerini",
+      "· gtp | Mercure Patras Astir Opens Following €10 Million Renovation"
     ]
   },
   "evergreenDone": [
@@ -2679,5 +2701,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792058972992,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "messinia-earthquake-pylos-kalamata",
+      "url": "https://yavanet.gr/a/messinia-earthquake-pylos-kalamata/",
+      "at": "2026-10-19T08:19:52.238Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/messinia-earthquake-pylos-kalamata/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/messinia-earthquake-pylos-kalamata/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה 3.9 הורגשה באזור מסיניה וקלאמאטה",
+        "title_en": "Magnitude 3.9 Earthquake Felt in Messinia and Kalamata",
+        "dek_he": "רעידת אדמה בעוצמה 3.9 הוגדרה באזור מסיניה בשעות הבוקר, והורגשה היטב גם בקלאמאטה הסמוכה. בשלב זה לא דווח על נפגעים או על נזקים.",
+        "dek_en": "A minor earthquake of 3.9 magnitude occurred in Messinia on Monday morning, shaking Pylos and Kalamata. No damages or injuries have been reported.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15861617/pexels-photo-15861617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "רעידת אדמה בעוצמה 3.9 הורגשה באזור מסיניה וקלאמאטה\n\nרעידת אדמה בעוצמה 3.9 הוגדרה באזור מסיניה בשעות הבוקר, והורגשה היטב גם בקלאמאטה הסמוכה. בשלב זה לא דווח על נפגעים או על נזקים.\n\nhttps://yavanet.gr/a/messinia-earthquake-pylos-kalamata/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Magnitude 3.9 Earthquake Felt in Messinia and Kalamata\n\nA minor earthquake of 3.9 magnitude occurred in Messinia on Monday morning, shaking Pylos and Kalamata. No damages or injuries have been reported.\n\nhttps://yavanet.gr/en/a/messinia-earthquake-pylos-kalamata/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
