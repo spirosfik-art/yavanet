@@ -20,8 +20,10 @@ jobs:
             git --work-tree=. checkout FETCH_HEAD -- hires 2>/dev/null || true
           fi
           if [ -d hires ]; then
-            sed 's#\.\./\.\./site/assets/voula-#../../hires/voula-#g' automation/decks/voula-en.html > automation/decks/voula-en-8k.html
-            google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=60000 --run-all-compositor-stages-before-draw --print-to-pdf="deck-out/voula-en-8k.pdf" "file://$PWD/automation/decks/voula-en-8k.html"
+            for v in voula-en voula-en-noprice; do
+              sed 's#\.\./\.\./site/assets/voula-#../../hires/voula-#g' automation/decks/$v.html > automation/decks/$v-8k.html
+              google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=60000 --run-all-compositor-stages-before-draw --print-to-pdf="deck-out/$v-8k.pdf" "file://$PWD/automation/decks/$v-8k.html"
+            done
           fi
           ls -la deck-out
       - name: Push to decks branch
