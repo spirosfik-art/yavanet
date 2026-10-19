@@ -312,18 +312,32 @@ async function publish(draft, item, pick, text) {
   await distribute(article);
   return article;
 }
-async function distribute(a) {
+// Instagram: έως IG_MAX/ημέρα, απόσταση ≥ 4 ώρες, 09:00–21:00
+const IG_MAX = Number(env.IG_MAX_PER_DAY || 2);
+function igSlotOpen() {
+  const ig = (state.today.ig ||= []);
+  const lastIg = ig.length ? Date.parse(ig[ig.length - 1].at) : 0;
+  return now.hour >= 9 && now.hour < 21 && ig.length < IG_MAX && Date.now() - lastIg >= 4 * 3600e3;
+}
+function igPostedSlugs() {
+  try { return new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "content/ig/posted.json"), "utf8")).map((x) => x.slug)); } catch { return new Set(); }
+}
+async function distribute(a, { catchUp = false } = {}) {
   const text = `${a.breaking ? "🔴 " : ""}${a.he.title}\n\n${a.he.dek}\n\n${articleUrl(a, "he", "telegram")}`;
   // Τα social δεν στέλνονται εδώ: μπαίνουν σε ουρά και τα στέλνει το automation/post-social.mjs ΜΕΤΑ το deploy,
   // αλλιώς το Facebook/Telegram διαβάζουν τη σελίδα πριν υπάρξει και κρατούν προεπισκόπηση «404».
   const q = (state.socialQueue ||= []);
   const job = { slug: a.slug, url: articleUrl(a), at: new Date().toISOString() };
-  if (env.TELEGRAM_CHANNEL_ID) job.telegram = { chat_id: env.TELEGRAM_CHANNEL_ID, text };
+  if (env.TELEGRAM_CHANNEL_ID && !catchUp) job.telegram = { chat_id: env.TELEGRAM_CHANNEL_ID, text };
   // Facebook (μέσω Make): έως FB_MAX/ημέρα, με απόσταση ≥ FB_GAP_MIN λεπτά, 07:00–23:00· τα έκτακτα περνούν πάντα
   const FB_MAX = Number(env.FB_MAX_PER_DAY || 4), FB_GAP_MIN = 120;
   const fb = (state.today.fb ||= []);
   const lastFb = fb.length ? Date.parse(fb[fb.length - 1].at) : 0;
-  const fbOk = a.breaking || (now.hour >= 7 && now.hour < 23 && fb.length < FB_MAX && Date.now() - lastFb >= FB_GAP_MIN * 60000);
+  // Ένα άρθρο κατάλληλο για Instagram προηγείται: περνά και πάνω από το όριο FB, με απόσταση ≥ 60' από το προηγούμενο
+  // (το Instagram ανεβαίνει μέσα από την ίδια ροή Make με το Facebook, άρα χωρίς Facebook δεν ανεβαίνει ούτε Instagram)
+  const igWant = igEligible(a) && igSlotOpen() && !igPostedSlugs().has(a.slug);
+  const gap = Date.now() - lastFb;
+  const fbOk = a.breaking || (now.hour >= 7 && now.hour < 23 && ((fb.length < FB_MAX && gap >= FB_GAP_MIN * 60000) || (igWant && gap >= 60 * 60000)));
   if (env.MAKE_WEBHOOK_URL && !DRY && !fbOk) log("facebook: παράλειψη (όριο/ώρα)", a.slug);
   if (env.MAKE_WEBHOOK_URL && !DRY && fbOk) {
     fb.push({ slug: a.slug, at: new Date().toISOString() });
@@ -335,10 +349,8 @@ async function distribute(a) {
     };
     // Instagram (μέσω του ίδιου σεναρίου Make, μόνο όταν υπάρχει το πεδίο instagram): έως IG_MAX/ημέρα,
     // απόσταση ≥ 4 ώρες, 09:00–21:00, μόνο οδηγοί/ταξίδια/ακίνητα/ζωή. Η κάρτα 1080x1350 φτιάχνεται εδώ.
-    const IG_MAX = Number(env.IG_MAX_PER_DAY || 2);
     const ig = (state.today.ig ||= []);
-    const lastIg = ig.length ? Date.parse(ig[ig.length - 1].at) : 0;
-    if (igEligible(a) && now.hour >= 9 && now.hour < 21 && ig.length < IG_MAX && Date.now() - lastIg >= 4 * 3600e3) {
+    if (igWant) {
       const card = renderIgCard(a);
       if (card) {
         job.make.instagram = { image_url: SITE.url.replace(/\/$/, "") + card, caption: igCaption(a) };
@@ -525,6 +537,21 @@ async function evergreen() {
 
 /* ================= Φωτογραφίες σε παλαιότερα άρθρα ================= */
 // Όταν υπάρχει κλειδί Pexels, βάζει φωτογραφία σε άρθρα που έχουν ακόμα εικονογράφηση (έως 4 ανά εκτέλεση)
+// Αν ένα κατάλληλο άρθρο έχασε το Instagram (π.χ. ήρθε πριν τις 09:00 ή όσο το Facebook ήταν σε αναμονή),
+// το ανεβάζουμε αργότερα (Facebook + Instagram), αρκεί να μην έχει πάει ήδη στο Facebook σήμερα. Άρθρα έως 48 ωρών.
+async function igCatchUp() {
+  if (!env.MAKE_WEBHOOK_URL || DRY || !igSlotOpen()) return;
+  if ((state.socialQueue || []).some((j) => j.make && j.make.instagram)) return; // υπάρχει ήδη ανάρτηση IG σε αναμονή
+  const posted = igPostedSlugs();
+  const onFb = new Set((state.today.fb || []).map((x) => x.slug));
+  const cutoff = Date.now() - 48 * 3600e3;
+  const cand = loadArticles()
+    .filter((a) => igEligible(a) && !posted.has(a.slug) && !onFb.has(a.slug) && Date.parse(a.publishedAt || 0) >= cutoff)
+    .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
+  if (!cand.length) return;
+  log("instagram: αναπλήρωση με", cand[0].slug);
+  await distribute(cand[0], { catchUp: true });
+}
 async function backfillPhotos() {
   if (!env.PEXELS_API_KEY) return;
   // Χειροκίνητα άρθρα / συνεργάτες: η φωτογραφία τους δεν αλλάζει ποτέ αυτόματα
@@ -570,6 +597,7 @@ const transient = (e) => /όριο αιτημάτων|υπερφόρτωση|fet
       try { await handlePick(p); } catch (e) { if (aiQuotaHit() || transient(e)) { delete state.seen[p.item.id]; log("προσωρινό πρόβλημα, ξανά στην επόμενη εκτέλεση:", e.message); continue; } reject(p.item.title, "Σφάλμα: " + e.message); state.today.errors.push(e.message); }
     }
     await evergreen();
+    await igCatchUp().catch((e) => log("igCatchUp", e.message));
     if (env.UPDATE_CHECK !== "0") await updates();
   } catch (e) {
     if (aiQuotaHit()) { log("Τελείωσε το δωρεάν ημερήσιο όριο AI – συνέχεια στην επόμενη εκτέλεση."); return; }
