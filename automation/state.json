@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "d47457912619": 1791171754443,
     "29cc53f666b0": 1791173505214,
     "d86c4002f378": 1791173505214,
     "b85bb154742c": 1791174539644,
@@ -2260,7 +2259,15 @@
     "fbaa768beaaa": 1792379802073,
     "cd864cfa5b21": 1792379802073,
     "d8ef03619bec": 1792379802073,
-    "06d4e8edbfbf": 1792379802073
+    "06d4e8edbfbf": 1792379802073,
+    "b84d075d7940": 1792382391921,
+    "f2c4552ac580": 1792382391921,
+    "e1a9283b5240": 1792382391921,
+    "b67da9c760f0": 1792382391921,
+    "94f7fcfdf570": 1792382391921,
+    "e7771f535b2e": 1792382391921,
+    "df44f4b8de84": 1792382391921,
+    "4e01837efa7c": 1792382391921
   },
   "pending": {
     "d767b6": {
@@ -2363,6 +2370,111 @@
         ]
       },
       "notified": true
+    },
+    "caab48": {
+      "createdAt": 1792382406271,
+      "item": {
+        "title": "Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά – Αποπνικτικός καπνός σκέπασε τη Θεσσαλονίκη",
+        "url": "https://www.ertnews.gr/roi-idiseon/fotia-se-etaireia-anakyklosis-sta-diavata-apopniktikos-kapnos-skepase-ti-thessaloniki/",
+        "summary": "Μεγάλη φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά της Θεσσαλονίκης καίει από τις 4 τα ξημερώματα της Δευτέρας (19/10), με τον καπνό να έχει απλωθεί σχεδόν σε ολόκληρη την πόλη και την ατμόσφαιρα να είναι αποπνικτική. Ισχυρές πυροσβεστικές δυνάμεις επιχειρούν στο σημείο, ενώ η κατάσβεση εκτιμάται ότι θα είναι δύσκολη και χρονοβόρα. Η πυρκαγιά ξέσπασε στη ... Περισσότερα \n www.ertnews.gr",
+        "published": "Mon, 19 Oct 2026 03:31:18 +0000",
+        "id": "b67da9c760f0",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "b67da9c760f0",
+        "section": "breaking",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Major recycling plant fire in Diavata creating heavy smoke and poor air quality in Thessaloniki, relevant to tourists and residents in the area.",
+        "item": {
+          "title": "Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά – Αποπνικτικός καπνός σκέπασε τη Θεσσαλονίκη",
+          "url": "https://www.ertnews.gr/roi-idiseon/fotia-se-etaireia-anakyklosis-sta-diavata-apopniktikos-kapnos-skepase-ti-thessaloniki/",
+          "summary": "Μεγάλη φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά της Θεσσαλονίκης καίει από τις 4 τα ξημερώματα της Δευτέρας (19/10), με τον καπνό να έχει απλωθεί σχεδόν σε ολόκληρη την πόλη και την ατμόσφαιρα να είναι αποπνικτική. Ισχυρές πυροσβεστικές δυνάμεις επιχειρούν στο σημείο, ενώ η κατάσβεση εκτιμάται ότι θα είναι δύσκολη και χρονοβόρα. Η πυρκαγιά ξέσπασε στη ... Περισσότερα \n www.ertnews.gr",
+          "published": "Mon, 19 Oct 2026 03:31:18 +0000",
+          "id": "b67da9c760f0",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "fire-recycling-plant-thessaloniki-diavata",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 40.675,
+          "lng": 22.812
+        },
+        "strike": null,
+        "alert": {
+          "he": "שריפה בסלוניקי",
+          "en": "Thessaloniki Fire"
+        },
+        "imageKey": "fire",
+        "imageQuery": "industrial fire smoke plant",
+        "he": {
+          "title": "שריפה במפעל מחזור בדיאבטה סמוך לסלוניקי: עשן כבד באזור",
+          "seoTitle": "שריפה בסלוניקי: עשן כבד בעקבות דליקה במפעל",
+          "seoDesc": "שריפה פרצה במפעל מחזור בדיאבטה ליד סלוניקי. עשן סמיך מכסה חלק נרחב מהעיר, כוחות כיבוי אש פועלים במקום.",
+          "keywords": [
+            "סלוניקי",
+            "שריפה ביוון",
+            "יוון",
+            "חדשות סלוניקי",
+            "שריפה בסלוניקי"
+          ],
+          "dek": "שריפה גדולה פרצה במפעל מחזור באזור התעשייה של דיאבטה בסלוניקי בשעות הבוקר המוקדמות. עשן סמיך וריח חריף מתפשטים ברחבי העיר.",
+          "tldr": [
+            "שריפה פרצה במפעל מחזור בדיאבטה סמוך לסלוניקי סביב השעה ארבע לפנות בוקר.",
+            "כמויות גדולות של פלסטיק וחפצים מגושמים מזינים את האש והכיבוי צפוי להיות ממושך.",
+            "אין חשש לפגיעה בבתים או בעסקים סמוכים מאחר שמדובר באזור תעשייתי מבודד יחסית."
+          ],
+          "means": "אם אתם נמצאים בסלוניקי או מתכננים הגעה לאזור צפון יוון, שימו לב כי עשן כבד מורגש בחלק ניכר מהעיר והאוויר באזור סבוך. מומלץ לסגור חלונות באזורים הקרובים ולהתעדכן בהנחיות כוחות הביטחון והרשויות המקומיות.",
+          "body": "## שריפת ענק במפעל מחזור ליד סלוניקי\n\nשריפה גדולה פרצה במפעל מחזור ברובע התעשייה דיאבטה, סמוך לסלוניקי, והיא פעילה מאז שעות הבוקר המוקדמות של יום שני. כוחות גדולים של כיבוי אש פועלים ללא הפסקה בניסיון להשתלט על הלהבות, אך לפי הערכות הכבאים, פעולות הכיבוי צפויות להיות קשות וממושכות עקב אופי החומרים הבוערים.\n\n## עשן סמיך מכסה את האזור\n\nהאש פרצה באזור התעשייה הממוקם בין הכביש הלאומי הישן, מתחם בתי הזיקוק והכביש המהיר אגנטיה. עשן כבד ואפוף ריח שרוף התפשט כמעט על פני כל העיר סלוניקי, ותושבים רבים מדווחים על ראות מושפעת ואוויר כבד מאוד.\n\n## חומרי בעירה מורכבים והיעדר סכנה למגורים\n\nהקושי המרכזי של כוחות הכיבוי נובע מהחומרים המאוחסנים במתקני המחזור, הכוללים כמויות עצומות של פלסטיק וחפצים מגושמים המזינים את האש. כדי לרסן את הלהבות נדרשות כמויות מים גדולות מאוד ופעולות כיסוי בעפר.\n\nלפי שעה, הרשויות מדווחות כי אין בבתים סמוכים או בעסקים אחרים סכנה מיידית, שכן מדובר באזור תעשייתי שבו המפעלים מרוחקים זה מזה, מה שמצמצם את האפשרות להתפשטות נוספת של האש."
+        },
+        "en": {
+          "title": "Fire at a recycling plant in Diavata near Thessaloniki",
+          "seoTitle": "Thessaloniki Fire: Heavy smoke from recycling plant",
+          "seoDesc": "A major fire broke out at a recycling plant in Diavata near Thessaloniki. Thick smoke covers much of the city as firefighters work on site.",
+          "keywords": [
+            "Thessaloniki fire",
+            "Greece fire",
+            "Diavata recycling plant",
+            "Thessaloniki news"
+          ],
+          "dek": "A large fire broke out early Monday morning at a recycling facility in the industrial zone of Diavata, Thessaloniki, filling the city with thick smoke.",
+          "tldr": [
+            "A major fire started at a recycling plant in Diavata near Thessaloniki at around 4:00 AM.",
+            "Large quantities of plastic and bulky items are fueling the fire, making firefighting operations difficult.",
+            "No homes or other businesses are located near the immediate ignition point in the industrial area."
+          ],
+          "means": "If you are currently in Thessaloniki or visiting northern Greece, be aware that heavy smoke and a strong odor are affecting large parts of the city. Keep windows closed if you are in nearby areas and follow local authorities' updates.",
+          "body": "## Major fire at a Thessaloniki industrial zone\n\nA large fire broke out at a recycling plant in the Diavata industrial area of Thessaloniki, burning actively since the early hours of Monday. Strong firefighting forces are operating at the site, though authorities estimate that extinguishing the blaze will be difficult and time-consuming.\n\n## Thick smoke blankets the city\n\nThe fire started in the industrial zone located between the old national road, the Hellenic Petroleum facilities, and the Egnatia Odos. Fire engines are working continuously, while thick smoke has spread across a large part of Thessaloniki, creating heavy air conditions felt throughout the city.\n\n## Material nature and safety status\n\nThe difficulty in putting out the fire stems from the materials burning inside the recycling facility. Large quantities of plastics and bulky items accumulate at such sites, requiring massive amounts of water and soil covering to subdue.\n\nAccording to initial reports, no homes or other businesses are located close to the seat of the fire. Because it is an industrial zone with units spaced apart, the risk of the fire spreading to residential structures remains limited."
+        }
+      },
+      "text": "Μεγάλη φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά της Θεσσαλονίκης καίει από τις 4 τα ξημερώματα της Δευτέρας (19/10), με τον καπνό να έχει απλωθεί σχεδόν σε ολόκληρη την πόλη και την ατμόσφαιρα να είναι αποπνικτική. Ισχυρές πυροσβεστικές δυνάμεις επιχειρούν στο σημείο, ενώ η κατάσβεση εκτιμάται ότι θα είναι δύσκολη και χρονοβόρα.\n Η πυρκαγιά ξέσπασε στη βιομηχανική περιοχή των Διαβατών, μεταξύ της παλιάς εθνικής οδού, των Ελληνικών Πετρελαίων και της Εγνατίας Οδού . Τα πυροσβεστικά οχήματα πηγαινοέρχονται ασταμάτητα, προσπαθώντας να περιορίσουν τη φωτιά, η οποία παραμένει ενεργή.\n Ο καπνός είναι αισθητός σε μεγάλο τμήμα της Θεσσαλονίκης. Όσοι κινούνται στην πόλη τον αντιλαμβάνονται σχεδόν από παντού, με την αποπνικτική μυρωδιά να καλύπτει την ατμόσφαιρα.\n Η δυσκολία της κατάσβεσης οφείλεται στη φύση των υλικών που καίγονται. Σε εγκαταστάσεις ανακύκλωσης συσσωρεύονται μεγάλες ποσότητες πλαστικών και ογκωδών αντικειμένων , που τροφοδοτούν τη φωτιά. Για την αντιμετώπισή της απαιτούνται μεγάλες ποσότητες νερού και επιχωματώσεις .\n Σύμφωνα με πληροφορίες, δεν υπάρχουν σπίτια ή άλλες επιχειρήσεις κοντά στην εστία της φωτιάς . Πρόκειται για βιομηχανική περιοχή, όπου οι μονάδες βρίσκονται σε απόσταση η μία από την άλλη, γεγονός που περιορίζει τον κίνδυνο εξάπλωσης. \n Ρεπορτάζ: Λία Χριστάρα \n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Διαβατά Θεσσαλονίκη πυρκαγιά φωτιά \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Φωτιά σε μονάδα ανακύκλωσης στα Διαβατά Θεσσαλονίκης",
+        "dek": "Μεγάλη πυρκαγιά ξέσπασε νωρίς το πρωί της Δευτέρας σε εγκατάσταση ανακύκλωσης στη βιομηχανική περιοχή των Διαβατών Θεσσαλονίκης, γεμίζοντας την πόλη με πυκνό καπνό.",
+        "tldr": [
+          "Μια μεγάλη πυρκαγιά ξέσπασε σε μονάδα ανακύκλωσης στα Διαβατά Θεσσαλονίκης γύρω στις 4:00 τα π.μ.",
+          "Μεγάλες ποσότητες πλαστικού και ογκωδών αντικειμένων τροφοδοτούν τη φωτιά, δυσκολεύοντας το έργο της πυρόσβεσης.",
+          "Δεν υπάρχουν σπίτια ή άλλες επιχειρήσεις κοντά στο ακριβές σημείο της εκδήλωσης της πυρκαγιάς στη βιομηχανική περιοχή."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2374,12 +2486,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T03:16:31.849Z",
+      "at": "2026-10-19T03:59:40.934Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T03:16:32.453Z",
+      "at": "2026-10-19T03:59:41.597Z",
       "items": 5
     },
     "civilprotection": {
@@ -2390,27 +2502,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T03:16:33.912Z",
+      "at": "2026-10-19T03:59:43.098Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T03:16:34.019Z",
+      "at": "2026-10-19T03:59:43.293Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T03:16:34.925Z",
+      "at": "2026-10-19T03:59:44.202Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T03:16:35.661Z",
+      "at": "2026-10-19T03:59:44.876Z",
       "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T03:16:36.342Z",
+      "at": "2026-10-19T03:59:45.710Z",
       "items": 10
     },
     "toi-greece": {
@@ -2421,23 +2533,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T03:16:36.740Z",
+      "at": "2026-10-19T03:59:46.194Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T03:16:37.317Z",
+      "at": "2026-10-19T03:59:46.514Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T03:16:37.562Z",
-      "items": 8
+      "at": "2026-10-19T03:59:47.178Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T03:16:37.686Z",
-      "items": 6
+      "at": "2026-10-19T03:59:47.363Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2446,12 +2558,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T03:16:33.227Z",
+      "at": "2026-10-19T03:59:42.420Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T03:16:38.311Z",
+      "at": "2026-10-19T03:59:48.003Z",
       "items": 0
     },
     "hcg": {
@@ -2462,39 +2574,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T03:16:39.464Z",
+      "at": "2026-10-19T03:59:49.427Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T03:16:39.649Z",
+      "at": "2026-10-19T03:59:49.671Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T03:16:39.822Z",
+      "at": "2026-10-19T03:59:49.821Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T03:16:40.057Z",
+      "at": "2026-10-19T03:59:50.084Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T03:16:40.401Z",
+      "at": "2026-10-19T03:59:50.411Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T03:16:40.840Z",
-      "items": 7
+      "at": "2026-10-19T03:59:50.791Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2519,6 +2631,12 @@
         "title": "Magnitude 3.4 earthquake felt in the Attica region near Rafina",
         "at": "2026-10-19T05:54:58+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "osios-loukas-monastery-central-greece",
+        "title": "The Historic Byzantine Monastery Worth Visiting in Central Greece",
+        "at": "2026-10-19T07:00:33+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2660,15 +2778,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T03:16:42.073Z",
-    "considered": 5,
+    "at": "2026-10-19T03:59:51.922Z",
+    "considered": 8,
     "picked": 2,
     "items": [
-      "✓ gct | Greek Import Prices Jump as One Cost Soars",
-      "✓ ingr | Eurostat: Ενοίκιο υψηλότερο από τον κατώτατο μισθό",
-      "· ingr | Αγορά ακινήτων: Είδος προς εξαφάνιση η προσιτή κατοικία – Εκρηκτικό κοκτέιλ στα ενοίκια",
-      "· ingr | Υποθαλάσσιος σεισμός 3,4 ρίχτερ ανοιχτά της Ραφήνας έγινε αισθητός στην Αθήνα",
-      "· gn-iefimerida | Σεισμική δόνηση 3,4 Ρίχτερ ανοιχτά της Ραφήνας - iefimerida.gr"
+      "· gct | Six Dead After Turkish Smuggling Vessel Capsizes Off Lesvos",
+      "✓ gct | Osios Loukas: The UNESCO-Listed Byzantine Monastery Hidden in Central Greece",
+      "· gn-iefimerida | Μεγάλη φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά -Αποπνικτική η ατμόσφαιρα στη Θεσσαλονίκη",
+      "✓ ert | Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά – Αποπνικτικός καπνός σκέπασε τη Θεσσαλονίκη",
+      "· gct | Bulgaria Scrambles MiG-29 After Bomb Threat Diverts Tel Aviv Flight",
+      "· naftemporiki | Χρηματιστήριο: Αγοράζουν το story της ΕΥΔΑΠ",
+      "· naftemporiki | Σεισμός 3,4 Ρίχτερ στη Ραφήνα",
+      "· ert | Σεισμός 3,5 Ρίχτερ στην Αττική"
     ]
   },
   "evergreenDone": [
