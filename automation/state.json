@@ -14,14 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "bce71ac05c9d": 1791181998451,
-    "cf1e48636121": 1791181998451,
-    "c92063d66c60": 1791181998451,
-    "33f1a47a406a": 1791181998451,
-    "f5023e1e85bc": 1791181998451,
-    "c18911c62a13": 1791181998451,
-    "2929c7101b93": 1791181998451,
-    "f4565c32b6e6": 1791181998451,
     "e81f215e2dc5": 1791183696614,
     "b8cf057db33e": 1791183696614,
     "8cfdd2e82aa0": 1791183696614,
@@ -2278,113 +2270,13 @@
     "e849384f6ab8": 1792388215322,
     "de454159e353": 1792388215322,
     "4b99286f11c4": 1792388215322,
-    "11ceea9de966": 1792390166705
+    "11ceea9de966": 1792390166705,
+    "90c3a427d5e6": 1792392613156,
+    "66ca6ad4689a": 1792392613156,
+    "91ebf3232dac": 1792392613156,
+    "831235e1f7f4": 1792392613156
   },
-  "pending": {
-    "9cd1fb": {
-      "createdAt": 1792384006100,
-      "item": {
-        "title": "Greece Watches Guilfoyle Fallout as Turkey Cable Dispute Looms",
-        "url": "https://greekcitytimes.com/2026/10/19/greece-watches-guilfoyle-fallout-as-turkey-cable-dispute-looms/",
-        "summary": "The Guilfoyle controversy could create political pressure in Greece as Athens prepares for possible tensions with Turkey over the Greece-Cyprus-Israel electricity interconnector.\n The post Greece Watches Guilfoyle Fallout as Turkey Cable Dispute Looms appeared first on Greek City Times .",
-        "published": "Mon, 19 Oct 2026 04:15:07 +0000",
-        "id": "50b784195d4a",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "50b784195d4a",
-        "section": "israelis",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Discusses potential geopolitical tensions over the Greece-Cyprus-Israel electricity interconnector, which directly affects Israel's strategic and energy interests in the region.",
-        "item": {
-          "title": "Greece Watches Guilfoyle Fallout as Turkey Cable Dispute Looms",
-          "url": "https://greekcitytimes.com/2026/10/19/greece-watches-guilfoyle-fallout-as-turkey-cable-dispute-looms/",
-          "summary": "The Guilfoyle controversy could create political pressure in Greece as Athens prepares for possible tensions with Turkey over the Greece-Cyprus-Israel electricity interconnector.\n The post Greece Watches Guilfoyle Fallout as Turkey Cable Dispute Looms appeared first on Greek City Times .",
-          "published": "Mon, 19 Oct 2026 04:15:07 +0000",
-          "id": "50b784195d4a",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "greece-turkey-cable-dispute-guilfoyle",
-        "section": "israelis",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "מתיחות ביוון",
-          "en": "Greece Tension"
-        },
-        "imageKey": "politics",
-        "imageQuery": "diplomacy meeting greece turkey",
-        "he": {
-          "title": "יוון עוקבת אחר ההתפתחויות סביב השגרירות והמתיחות האפשרית מול טורקיה",
-          "seoTitle": "יוון: מתיחות מדינית ופרויקט החשמל מול טורקיה",
-          "seoDesc": "באתונה עוקבים אחר ההשלכות של פרשת השגרירות לשעבר ובמקביל נערכים לחידוש עבודות כבל החשמל המחבר את ישראל, קפריסין ויוון על רקע מחלוקות אזוריות.",
-          "keywords": [
-            "יוון",
-            "כבל החשמל יוון קפריסין ישראל",
-            "יחסי יוון טורקיה",
-            "חדשות יוון",
-            "אתונה"
-          ],
-          "dek": "באתונה בוחנים את ההשלכות המדיניות של פרשת השגרירות האמריקאית לשעבר, בזמן שההכנות לחידוש פרויקט כבל החשמל האזורי מעלות את החשש מתגובה מצד אנקרה.",
-          "tldr": [
-            "באתונה חוששים מהשלכות פרשת השגרירות האמריקאית לשעבר על הפוליטיקה המקומית.",
-            "ההכנות לחידוש עבודות כבל החשמל המקשר בין ישראל, קפריסין ויוון צפויות לעמוד במבחן בשבועות הקרובים.",
-            "באנקרה נערכים לחקיקה חדשה בנושא הים האגאי, מה שמגביר את הדריכות הביטחונית והדיפלומטית."
-          ],
-          "means": "עבור ישראלים המעורבים בפרויקטים אזוריים או עוקבים אחר המצב המדיני, מדובר בהתפתחויות דיפלומטיות שעלולות להשפיע על פרויקט החיבור החשמלי האזורי. מומלץ לעקוב אחר הודעות רשמיות ולהישאר מעודכנים בפרטים המתפרסמים בתקשורת המקומית.",
-          "body": "## מעקב אחר ההתפתחויות הדיפלומטיות באתונה\n\nבמערכת הפוליטית באתונה עוקבים מקרוב אחר ההשלכות האפשריות של פרשת השגרירות האמריקאית לשעבר. בעוד שחלק מהגורמים הממשלתיים טוענים כי מדובר בעניין פנימי של ארצות הברית בלבד, אחרים מזהירים כי פעילותה של השגרירה לשעבר ביוון עלולה לגרור זימון של גורמים מקומיים למתן עדות בפני ועדות בארצות הברית.\n\nבמקביל להתמודדות עם האתגרים הדיפלומטיים מול וושינגטון, ממשלת יוון ממשיכה לעקוב אחר המתרחש במישור האזורי, ובראש ובראשונה אחר היחסים מול טורקיה והמצב במזרח הים התיכון.\n\n## חידוש עבודות כבל החשמל והדריכות באגאי\n\nההכנות לחידוש העבודות על פרויקט כבל החשמל המחבר את יוון, קפריסין וישראל צפויות לעמוד בפני מבחנים מעשיים בשבועות הקרובים. הפרויקט, הזוכה לגיבוי אירופי, נחשב לנדבך מרכזי בשיתוף הפעולה האזורי אך הוא גם מוקד רגישות מול אנקרה.\n\nבמקביל, באנקרה נערכים לקידום חקיקה חדשה הקשורה למדיניות הימית באזור, מה שעורר דריכות באתונה. למרות שראש הממשלה קיריאקוס מיצוטאקיס הגדיר לאחרונה את המצב בים האגאי כגל קל, במערכת הביטחונית והדיפלומטית נערכים לכל תרחיש אפשרי במטרה למנוע הסלימה באזור."
-        },
-        "en": {
-          "title": "Greece Monitors US Envoy Fallout and Potential Regional Tensions",
-          "seoTitle": "Greece Monitors Regional Tensions and Power Cable Project",
-          "seoDesc": "Athens watches the political fallout surrounding a former US ambassador while preparations resume for the electricity interconnector linking Greece, Cyprus and Israel.",
-          "keywords": [
-            "Greece",
-            "Greece Turkey relations",
-            "Great Sea Interconnector",
-            "Athens news",
-            "East Med energy"
-          ],
-          "dek": "Athens is assessing the domestic political fallout from the former US ambassador's activities while preparing for the resumption of the regional electricity interconnector project amid regional sensitivities.",
-          "tldr": [
-            "Greek officials are weighing the potential local fallout from the US diplomatic controversy.",
-            "Preparations are underway to resume work on the electricity interconnector linking Israel, Cyprus and Greece.",
-            "Ankara's upcoming legislative steps regarding maritime doctrines keep security and diplomatic readiness high in Athens."
-          ],
-          "means": "For Israelis following regional energy initiatives or diplomatic updates, these developments are key to the progression of the cross-border electricity grid. Stay informed through official updates and local news channels.",
-          "body": "## Diplomatic Developments in Athens\n\nPolitical circles in Athens are closely monitoring the potential ripple effects of the controversy surrounding the former US ambassador. While some officials maintain that the issue concerns Washington alone, others warn that local figures could face scrutiny from US authorities if the investigation expands.\n\nAlongside diplomatic concerns involving the United States, the Greek government remains focused on its strategic and security posture, particularly regarding its relations with Turkey in the Aegean Sea.\n\n## Interconnector Project Faces Practical Tests\n\nPreparations have begun to resume the laying of the electricity interconnector linking Greece, Cyprus, and eventually Israel. The project, backed by the European Union, represents a significant step in regional connectivity but also intersects with longstanding geopolitical disputes.\n\nAnkara's legislative preparations regarding maritime boundaries add another layer of complexity to the region. Although Greek Prime Minister Kyriakos Mitsotakis recently characterized the situation in the Aegean as manageable, officials remain vigilant to ensure that technical and diplomatic steps do not lead to unintended escalation."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n The controversy surrounding former US ambassador to Greece Kimberly Guilfoyle could spill into Greek domestic politics, as developments in the United States raise questions about what Greek officials knew about her activities, according to an analysis by Dionysis Nasopoulos in Ta Nea .\n With the US approaching crucial midterm elections, the Guilfoyle affair is becoming a major political issue in Washington. In Athens, however, officials are also considering whether the fallout could reach Greece and force government figures to answer questions before US congressional committees or other American authorities.\n One view, which broadly follows the Greek government’s position, holds that the affair concerns the United States alone and that Athens should simply monitor developments without commenting. Another view argues that Guilfoyle carried out at least some of her activities in Greece, potentially exposing local figures to scrutiny if the controversy escalates.\n A damaging turn in the affair could lead US authorities to summon people from Athens to provide evidence or explain what they knew or suspected. Such a scenario could put the Greek government under pressure to clarify its awareness of events.\n The controversy also highlights the unpredictable nature of diplomacy. As Athens awaits Guilfoyle’s successor at the US Embassy, the government hopes the affair will not create further complications and that its diplomatic concerns will remain focused on relations with Turkey.\n Nasopoulos warns that developments over the six weeks leading up to the end of November could change the political agenda if Turkish President Recep Tayyip Erdoğan takes steps that Athens considers unacceptable, deepening mutual mistrust.\n Greece and Turkey Face a Critical Period in the Aegean \n Prime Minister Kyriakos Mitsotakis recently described the situation in the Aegean as a “light swell”. According to the analysis, his remark reflects the hope that Turkey will remain committed to diplomacy rather than confidence that tensions will stay under control. A deterioration could push both countries into uncharted waters and trigger unpredictable developments.\n Preparations have begun to resume work on laying the electricity interconnector linking Greece with Cyprus and, eventually, Israel. Plans will face practical tests in the coming weeks as the project moves towards its next stage.\n At the same time, Ankara is preparing legislation on the so-called “Blue Homeland” doctrine. According to the article, the proposed law would give Erdoğan broad authority to decide how Turkey responds to disputes with Greece, potentially allowing Ankara to establish new facts on the ground.\n Sources in Ankara indicate that officials have already drafted the bill. Its submission to the Turkish Grand National Assembly now depends on Erdoğan’s decision about whether and when to proceed.\n The Turkish president has recently said that countries should resolve their differences through dialogue and diplomacy. He also described mutual respect for national sovereignty and territorial integrity as a principle for Turkey.\n Athens may interpret those remarks as a signal that Ankara intends to exercise restraint and avoid a new confrontation.\n Electricity Cable Could Trigger a New Aegean Standoff \n Ankara could accept an informal briefing on the electricity interconnector to demonstrate domestically that Greece and the other participants in the Great Sea Interconnector (GSI) project have not ignored Turkey’s concerns. Such a move could give diplomacy a greater role in managing the dispute.\n However, the article warns against assuming that Turkey will limit itself to diplomatic statements. It points to Ankara’s past actions and positions, including the 1974 invasion of Cyprus, its casus belli threat over the extension of Greek territorial waters, disputes over so-called grey zones in the Aegean and the Turkey-Libya maritime memorandum.\n Based on this record, the coming weeks could see frigates and submarines deployed in the sea area southeast of Kasos as the electricity cable project advances.\n Nasopoulos cautions that few would welcome a scenario of supposedly controlled tension, even if either side saw domestic political advantages in it, because military encounters always carry the risk of accidents and escalation.\n France, Europe and the United States Could Face Pressure to Respond \n The analysis identifies the response from France and the wider European Union as a key factor if tensions escalate. The GSI project carries European backing, making the reaction from European capitals particularly significant.\n Washington’s response will also attract attention, especially if the Guilfoyle controversy has not yet developed into a full-blown political crisis in the United States.\n The coming weeks could therefore test Greece’s diplomatic position on two fronts: the potential political fallout from the former US ambassador’s activities and the risk of renewed confrontation with Turkey over the electricity interconnector.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Marco Rubio Says Greece Deserves Strong US Ambassador\n No Newer Articles \n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Η Ελλάδα παρακολουθεί τις εξελίξεις γύρω από τον Αμερικανό πρέσβη και τις πιθανές περιφερειακές εντάσεις",
-        "dek": "Η Αθήνα αξιολογεί τις εσωτερικές πολιτικές επιπτώσεις από τις δραστηριότητες του πρώην πρέσβη των ΗΠΑ, ενώ προετοιμάζεται για την επανέναρξη του έργου της περιφερειακής ηλεκτρικής διασύνδεσης εν μέσω περιφερειακών ευαισθησιών.",
-        "tldr": [
-          "Οι Έλληνες αξιωματούχοι σταθμίζουν τις πιθανές εγχώριες επιπτώσεις από τη διπλωματική διαμάχη των ΗΠΑ.",
-          "Βρίσκονται σε εξέλιξη προετοιμασίες για την επανέναρξη των εργασιών για την ηλεκτρική διασύνδεση που συνδέει το Ισραήλ, την Κύπρο και την Ελλάδα.",
-          "Τα επερχόμενα νομοθετικά βήματα της Άγκυρας σχετικά με τα ναυτικά δόγματα διατηρούν υψηλή την ασφάλεια και τη διπλωματική ετοιμότητα στην Αθήνα."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2394,12 +2286,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T06:09:12.767Z",
+      "at": "2026-10-19T06:49:18.162Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T06:09:13.289Z",
+      "at": "2026-10-19T06:49:19.031Z",
       "items": 5
     },
     "civilprotection": {
@@ -2410,27 +2302,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T06:09:14.727Z",
+      "at": "2026-10-19T06:49:20.578Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T06:09:15.116Z",
+      "at": "2026-10-19T06:49:20.809Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T06:09:16.061Z",
+      "at": "2026-10-19T06:49:21.729Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T06:09:16.642Z",
+      "at": "2026-10-19T06:49:22.428Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T06:09:17.370Z",
+      "at": "2026-10-19T06:49:23.360Z",
       "items": 10
     },
     "toi-greece": {
@@ -2441,23 +2333,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T06:09:17.761Z",
+      "at": "2026-10-19T06:49:23.868Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T06:09:17.846Z",
+      "at": "2026-10-19T06:49:24.154Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T06:09:17.941Z",
-      "items": 6
+      "at": "2026-10-19T06:49:24.770Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T06:09:18.095Z",
-      "items": 7
+      "at": "2026-10-19T06:49:25.188Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2466,12 +2358,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T06:09:13.774Z",
+      "at": "2026-10-19T06:49:19.777Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T06:09:18.550Z",
+      "at": "2026-10-19T06:49:25.747Z",
       "items": 0
     },
     "hcg": {
@@ -2482,39 +2374,44 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T06:09:24.749Z",
+      "at": "2026-10-19T06:49:27.376Z",
       "items": 1
     },
     "gn-civilprotection": {
-      "ok": true,
-      "at": "2026-10-19T06:09:24.922Z",
-      "items": 0
+      "ok": false,
+      "at": "2026-10-19T06:49:36.761Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-pm": {
-      "ok": true,
-      "at": "2026-10-19T06:09:25.097Z",
-      "items": 1
+      "ok": false,
+      "at": "2026-10-19T06:49:46.815Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-10-19T06:09:25.309Z",
-      "items": 5
+      "ok": false,
+      "at": "2026-10-19T06:49:56.467Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-kathimerini": {
-      "ok": true,
-      "at": "2026-10-19T06:09:25.609Z",
-      "items": 4
+      "ok": false,
+      "at": "2026-10-19T06:50:03.639Z",
+      "error": "HTTP 503",
+      "fails": 1
     },
     "gn-iefimerida": {
-      "ok": true,
-      "at": "2026-10-19T06:09:26.017Z",
-      "items": 9
+      "ok": false,
+      "at": "2026-10-19T06:50:12.059Z",
+      "error": "HTTP 503",
+      "fails": 1
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2569,6 +2466,12 @@
         "title": "Greek Mountain Hotels Face High Energy Costs and Rising Prices Ahead of Winter",
         "at": "2026-10-19T08:37:34+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "greece-turkey-cable-tensions-oct-2026",
+        "title": "Greece prepares for critical weeks amid Eastern Mediterranean cable project",
+        "at": "2026-10-19T09:49:14+03:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -2721,11 +2624,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T06:09:26.705Z",
-    "considered": 1,
+    "at": "2026-10-19T06:50:13.156Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· ingr | Παίζει με την ακροδεξιά φωτιά η κυβέρνηση"
+      "· gct | Where to See the Evzones in Sydney and Canberra This OXI Day",
+      "· ert | Αυστρία: Αρνητικοί οι έλεγχοι μετά την απειλή για βόμβα σε πτήση της Austrian Airlines",
+      "· minfin | Νίκος Παπαθανάσης: 85,5 εκατ. ευρώ για την ανάπτυξη του Προαστιακού και του Λιμένος Θεσσαλ",
+      "· naftemporiki | Η γαλλική οικονομία καταρρέει και πυροδοτεί την κοινωνική έκρηξη"
     ]
   },
   "evergreenDone": [
