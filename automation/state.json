@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "3e0c3082c040": 1791178162917,
-    "48442eb5d13a": 1791178162917,
-    "fd554b749941": 1791178162917,
     "798f579d4a85": 1791180278456,
     "bce71ac05c9d": 1791181998451,
     "cf1e48636121": 1791181998451,
@@ -2273,7 +2270,15 @@
     "79d9abdbdeee": 1792386038984,
     "f142ba790b3a": 1792386038984,
     "013e1a22f563": 1792386038984,
-    "d0e51fe42ca3": 1792386038984
+    "d0e51fe42ca3": 1792386038984,
+    "6995f8dd3ffb": 1792388215322,
+    "1197de6904cf": 1792388215322,
+    "a3fc66f7ee60": 1792388215322,
+    "ef130904f7e6": 1792388215322,
+    "eaecc58ef76b": 1792388215322,
+    "e849384f6ab8": 1792388215322,
+    "de454159e353": 1792388215322,
+    "4b99286f11c4": 1792388215322
   },
   "pending": {
     "caab48": {
@@ -2494,12 +2499,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T05:00:26.664Z",
+      "at": "2026-10-19T05:36:42.457Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T05:00:27.341Z",
+      "at": "2026-10-19T05:36:43.366Z",
       "items": 5
     },
     "civilprotection": {
@@ -2510,27 +2515,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T05:00:28.399Z",
+      "at": "2026-10-19T05:36:45.010Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T05:00:32.246Z",
+      "at": "2026-10-19T05:36:45.462Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T05:00:33.182Z",
+      "at": "2026-10-19T05:36:46.557Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T05:00:33.806Z",
-      "items": 7
+      "at": "2026-10-19T05:36:47.413Z",
+      "items": 8
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T05:00:34.247Z",
+      "at": "2026-10-19T05:36:48.058Z",
       "items": 10
     },
     "toi-greece": {
@@ -2541,23 +2546,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T05:00:34.439Z",
+      "at": "2026-10-19T05:36:48.665Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T05:00:34.538Z",
-      "items": 14
+      "at": "2026-10-19T05:36:48.744Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T05:00:34.610Z",
-      "items": 7
+      "at": "2026-10-19T05:36:49.717Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T05:00:34.943Z",
-      "items": 9
+      "at": "2026-10-19T05:36:50.228Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
@@ -2566,12 +2571,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T05:00:27.768Z",
+      "at": "2026-10-19T05:36:44.205Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T05:00:35.396Z",
+      "at": "2026-10-19T05:36:51.083Z",
       "items": 0
     },
     "hcg": {
@@ -2582,39 +2587,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T05:00:36.754Z",
+      "at": "2026-10-19T05:36:52.743Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T05:00:36.909Z",
+      "at": "2026-10-19T05:36:53.008Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T05:00:37.061Z",
+      "at": "2026-10-19T05:36:53.128Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T05:00:37.284Z",
-      "items": 6
+      "at": "2026-10-19T05:36:53.312Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T05:00:37.575Z",
+      "at": "2026-10-19T05:36:53.653Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T05:00:37.956Z",
-      "items": 8
+      "at": "2026-10-19T05:36:54.034Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 7,
+    "count": 9,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2657,6 +2662,18 @@
         "title": "Major fire at a recycling plant in Thessaloniki brings heavy smoke",
         "at": "2026-10-19T08:02:47+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "one-million-euro-luxury-property-market-attica",
+        "title": "What One Million Euros Buys in the Attica Luxury Property Market",
+        "at": "2026-10-19T08:37:17+03:00",
+        "section": "real-estate"
+      },
+      {
+        "slug": "winter-tourism-greece-rising-costs-2026",
+        "title": "Greek Mountain Hotels Face High Energy Costs and Rising Prices Ahead of Winter",
+        "at": "2026-10-19T08:37:34+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2804,19 +2821,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T05:00:38.984Z",
-    "considered": 9,
-    "picked": 1,
+    "at": "2026-10-19T05:36:55.322Z",
+    "considered": 8,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Rubico: Άντληση 8,5 εκατ. δολ",
-      "· gct | Greece Launches Supercomputer Ranked 31st Worldwide",
-      "· gct | 🚨🇺🇸 US issues urgent security alerts across the Middle East",
-      "· gn-kathimerini | Θεσσαλονίκη: Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά - Kathimerini",
-      "· gct | Neanderthals on Naxos: The Ancient Site Rewriting Cycladic History",
-      "· naftemporiki | Blue Carrier 2: Διαβεβαιώσεις για αποζημιώσεις",
-      "· ingr | Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά – Αποπνικτικός καπνός σκέπασε τη Θεσσαλονίκη",
-      "· naftemporiki | Πρωτοσέλιδα εφημερίδων: Το κύμα διαδηλώσεων της Ευρώπης στο επίκεντρο του σημερινού Τύπου",
-      "✓ ert | Φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά – Αποπνικτικός καπνός αισθητός σχεδόν όλη τη Θεσ"
+      "· ert | Δυτική Όχθη: Οκτώ συλλήψεις για τα πρόσφατα επεισόδια βίας – Επιθέσεις σε Αμερικανίδα δημο",
+      "· ert | Θεσσαλονίκη: Υπό έλεγχο η φωτιά σε εταιρεία ανακύκλωσης στα Διαβατά",
+      "· ert | Τι βάζει «φωτιά» στην Ευρώπη: Γαλλία, Αλβανία, Ιταλία, Βέλγιο και Πορτογαλία σε κλοιό διαδ",
+      "✓ naftemporiki | «Βαρυχειμωνιά» για τον χειμερινό τουρισμό",
+      "✓ gct | What €1 Million Buys You In Attica Luxury Property Market",
+      "· gct | Athens War Museum Hosts International Conference on World War II",
+      "· naftemporiki | Grimaldi: Επενδύσεις στο λιμάνι της Βαρκελώνης",
+      "· gn-iefimerida | Σεισμός 3,5 Ρίχτερ ανοιχτά της Ραφήνας - iefimerida.gr"
     ]
   },
   "evergreenDone": [
