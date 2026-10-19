@@ -1,0 +1,60 @@
+{
+  "slug": "fire-on-ferry-mykonos-syros",
+  "section": "israelis",
+  "publishedAt": "2026-10-19T20:09:02+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.4467,
+    "lng": 25.3289,
+    "name": "מיקונוס"
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/deltia-typou/2177097/amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2/?utm_source=rss&utm_medium=rss&utm_campaign=amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18996121/pexels-photo-18996121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Hellenic Seaways ferry illuminated at sunset near Chios, Greece, showcasing maritime travel.",
+    "credit": "Photo: Eftychia Syrimi / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/hellenic-seaways-ferry-sailing-18996121/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "שריפה במכונית על מעבורת בדרך ממיקונוס לסורוס",
+    "dek": "שריפה פרצה ברכב פרטי על סיפון המעבורת יורוכמפיון ג'ט 2 במהלך הפלגה ממיקונוס לסורוס. הצוות כיבה את האש בסיוע מערכות כיבוי אוטומטיות וההפלגה נמשכה כמתוכנן.",
+    "tldr": [
+      "שריפה פרצה ברכב פרטי בבטן המעבורת יורוכמפיון ג'ט 2",
+      "הצוות והמערכות האוטומטיות כיבו את האש במהירות",
+      "המעבורת המשיכה ביעד המקורי לסורוס ללא נפגעים"
+    ],
+    "means": "למה זה חשוב לישראלים: תיירים רבים משתמשים במעבורות בין האיים ביוון בעונת הטיולים, וחשוב לדעת שאירועי חירום על סיפון האוניות מטופלים לפי נהלי הבטיחות.",
+    "body": "אירוע שריפה קצר התרחש במכונית פרטית שהייתה על סיפון המעבורת יורוכמפיון ג'ט 2, בזמן שהפליגה מהאי מיקונוס אל האי סורוס. מערכת גילוי האש המרכזית בחניון העליון של כלי השיט הופעלה באופן מיידי. צוות האוניה פעל על פי הנהלים המקובלים, הפעיל את מערכת הממטרות הקבועה של האוניה והשתמש במטפים ניידים כדי להשתלט על האש ברכב.\n\nלאחר השלמת כל הבדיקות והנהלים הנדרשים מטעם גורמי הים, המשיכה המעבורת במסלולה המתוכנן אל היעד. הרשויות מסרו כי ההתמודדות המהירה של אנשי הצוות ותפקוד מערכות הבטיחות מנעו פגיעה בבטיחות הנוסעים והצוות שהיו על הסיפון."
+  },
+  "en": {
+    "title": "Vehicle fire on ferry between Mykonos and Syros",
+    "dek": "A car fire on the Eurochampion Jet 2 ferry sailing from Mykonos to Syros was quickly extinguished by the crew using onboard fire suppression systems.",
+    "tldr": [
+      "A car caught fire in the upper garage of the Eurochampion Jet 2",
+      "The crew and automated systems extinguished the fire swiftly",
+      "The ferry resumed its scheduled route after safety checks"
+    ],
+    "means": "Why this matters to Israelis: Travelers island-hopping in Greece rely on ferry transport and safety protocols during their Aegean vacations.",
+    "body": "A vehicle fire broke out inside a private car aboard the Eurochampion Jet 2 ferry during its voyage from Mykonos to Syros. Following the activation of the fire alarm in the upper garage area, the crew acted immediately according to standard safety procedures. The vessel's fixed water spray system and portable extinguishers were deployed to put out the flames.\n\nAfter completing all required safety procedures, the ferry continued on its scheduled route. Authorities reported that the prompt response of the crew and the effective operation of the onboard safety systems successfully resolved the incident without any injuries to passengers or crew."
+  },
+  "meta": {
+    "itemId": "a6429874f1d7",
+    "imageQuery": "Greek ferry boat Aegean sea",
+    "sourceHash": "657846a50908",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-19T17:09:02.975Z",
+    "official": false
+  }
+}

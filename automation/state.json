@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "0329ec87f3a5": 1791219341369,
-    "2fb4d20610d7": 1791219788608,
     "dffda1d6876d": 1791221092255,
     "2f86368d7f92": 1791221092255,
     "2b1239c5fc62": 1791221092255,
@@ -2278,219 +2276,12 @@
     "1e796119284d": 1792426227751,
     "2a4c782e0613": 1792427881572,
     "5060ae16ee5b": 1792427881572,
-    "f527ad83dc06": 1792427881572
+    "f527ad83dc06": 1792427881572,
+    "e0027fa82b34": 1792429780704,
+    "414a9dc3bcb4": 1792429780704,
+    "583b9b4cc875": 1792429780704
   },
-  "pending": {
-    "efc75c": {
-      "createdAt": 1792422102546,
-      "item": {
-        "title": "Άμεση και αποτελεσματική αντιμετώπιση περιστατικού φωτιάς σε όχημα στο EUROCHAMPION JET 2",
-        "url": "https://www.naftemporiki.gr/deltia-typou/2177097/amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2/?utm_source=rss&utm_medium=rss&utm_campaign=amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2",
-        "summary": "Με απόλυτη επιτυχία και μέσα σε ελάχιστο χρόνο αντιμετωπίστηκε περιστατικό φωτιάς σε Ι.Χ. όχημα στο EUROCHAMPION JET 2, κατά τη διάρκεια του πλου από τη Μύκονο προς τη Σύρο.\nΕιδικότερα,…\n Άμεση και αποτελεσματική αντιμετώπιση περιστατικού φωτιάς σε όχημα στο EUROCHAMPION JET 2 - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-        "published": "Mon, 19 Oct 2026 14:47:23 +0000",
-        "id": "a6429874f1d7",
-        "sourceId": "naftemporiki",
-        "sourceName": "Ναυτεμπορική",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "a6429874f1d7",
-        "section": "travel",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Vehicle fire on the Eurochampion Jet 2 ferry from Mykonos to Syros handled quickly; important travel safety news for tourists island-hopping.",
-        "item": {
-          "title": "Άμεση και αποτελεσματική αντιμετώπιση περιστατικού φωτιάς σε όχημα στο EUROCHAMPION JET 2",
-          "url": "https://www.naftemporiki.gr/deltia-typou/2177097/amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2/?utm_source=rss&utm_medium=rss&utm_campaign=amesi-kai-apotelesmatiki-antimetopisi-peristatikoy-fotias-se-ochima-sto-eurochampion-jet-2",
-          "summary": "Με απόλυτη επιτυχία και μέσα σε ελάχιστο χρόνο αντιμετωπίστηκε περιστατικό φωτιάς σε Ι.Χ. όχημα στο EUROCHAMPION JET 2, κατά τη διάρκεια του πλου από τη Μύκονο προς τη Σύρο.\nΕιδικότερα,…\n Άμεση και αποτελεσματική αντιμετώπιση περιστατικού φωτιάς σε όχημα στο EUROCHAMPION JET 2 - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-          "published": "Mon, 19 Oct 2026 14:47:23 +0000",
-          "id": "a6429874f1d7",
-          "sourceId": "naftemporiki",
-          "sourceName": "Ναυτεμπορική",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "fire-on-ferry-mykonos-syros",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "אירוע בים",
-          "en": "Sea incident"
-        },
-        "imageKey": "sea",
-        "imageQuery": "ferry boat at sea greece",
-        "he": {
-          "title": "שריפה במכונית על מעבורת בדרך ממיקונוס לסירוס",
-          "seoTitle": "שריפה במעבורת ביוון: אירוע בדרך ממיקונוס לסירוס",
-          "seoDesc": "שריפה פרצה ברכב פרטי על מעבורת שעשתה דרכה ממיקונוס לסירוס. הצוות כיבה את האש והמעבורת המשיכה ביעדה.",
-          "keywords": [
-            "שריפה ביוון",
-            "מעבורת ביוון",
-            "מיקונוס",
-            "סירוס",
-            "הפלגה ביוון"
-          ],
-          "dek": "שריפה פרצה ברכב פרטי בתוך מעבורת הפלגה בדרך ממיקונוס לסירוס. הצוות השתלט על האש והמעבורת המשיכה במסלולה.",
-          "tldr": [
-            "האש פרצה ברכב פרטי במפלס החניה העליון של המעבורת.",
-            "הצוות הפעיל את מערכות כיבוי האש והשתמש במטפים ניידים.",
-            "המעבורת המשיכה ביעד המקורי שלה לאחר השלמת הנהלים."
-          ],
-          "means": "אם אתם מתכננים הפלגות באיים ביוון, חשוב לדעת שצוותי ההתרעה והכיבוי על האניות פועלים לפי נהלי חירום מחמירים. מומלץ תמיד להקשיב להנחיות הצוות בזמן ההפלגה.",
-          "body": "## אירוע אש על מעבורת ביוון\n\nאירוע חריג אירע על גבי מעבורת מסוג EUROCHAMPION JET 2 במהלך הפלגה ממיקונוס לסירוס. מערכת גילוי האש והתרעת העשן הופעלה במרחב החניה העליון של כלי השיט.\n\n## תגובת הצוות והמשך ההפלגה\n\nאנשי הצוות על המעבורת פעלו ללא דיחוי לפי הנהלים המקובלים. במקביל להפעלת מערכת ההמטרה האוטומטית של האנייה, נעשה שימוש באמצעי כיבוי ניידים והאש כבתה לחלוטין.\n\nלאחר שבוצעו כל הבדיקות והפעולות הנדרשות על פי הנהלים, המשיכה המעבורת את דרכה בהתאם ללוח הזמנים המתוכנן שלה אל עבר יעד הסיום."
-        },
-        "en": {
-          "title": "Vehicle fire on ferry travelling from Mykonos to Syros",
-          "seoTitle": "Ferry fire in Greece: vehicle incident on Mykonos route",
-          "seoDesc": "A vehicle fire broke out on a ferry travelling from Mykonos to Syros. The crew extinguished the blaze and the ship continued its journey.",
-          "keywords": [
-            "ferry fire greece",
-            "mykonos syros ferry",
-            "greece travel safety",
-            "eurochampion jet 2",
-            "greek islands ferry"
-          ],
-          "dek": "A vehicle fire broke out inside a ferry sailing from Mykonos to Syros. The crew contained the flames and the vessel proceeded on its scheduled route.",
-          "tldr": [
-            "The fire ignited in a private vehicle located on the upper garage deck.",
-            "The crew activated the fixed sprinkler system and used portable extinguishers.",
-            "The ferry continued its scheduled voyage after completing all required procedures."
-          ],
-          "means": "If you are taking ferry trips across the Greek islands, it is reassuring to know that onboard safety systems and crew protocols are in place to handle maritime emergencies effectively. Always follow the safety instructions provided onboard.",
-          "body": "## Incident on Board a Greek Ferry\n\nAn incident involving a vehicle fire occurred aboard the EUROCHAMPION JET 2 while it was navigating from Mykonos to Syros. The onboard fire safety alarm was triggered in the upper garage area.\n\n## Crew Response and Continuation of the Voyage\n\nUpon activation of the alarm, the crew mobilized immediately, applying standard safety procedures. The ship's fixed water sprinkler system was activated alongside portable fire extinguishers, successfully extinguishing the fire found in a private vehicle.\n\nFollowing the required safety protocols and checks, the vessel continued on its scheduled itinerary without further disruption."
-        }
-      },
-      "text": "Με απόλυτη επιτυχία και μέσα σε ελάχιστο χρόνο αντιμετωπίστηκε περιστατικό φωτιάς σε Ι.Χ. όχημα στο EUROCHAMPION JET 2, κατά τη διάρκεια του πλου από τη Μύκονο προς τη Σύρο.\n Ειδικότερα, μετά την ενεργοποίηση του συναγερμού πυρασφάλειας στον χώρο του άνω γκαράζ, το πλήρωμα κινητοποιήθηκε αμέσως, εφαρμόζοντας τις προβλεπόμενες διαδικασίες, ταυτόχρονα ενεργοποιήθηκε το μόνιμο σύστημα καταιονισμού του πλοίου και με την παράλληλη χρήση φορητών πυροσβεστήρων έσβησε η φωτιά που εντοπίστηκε σε Ι.Χ. όχημα.\n Το πλοίο μετά τις προβλεπόμενες διαδικασίες, συνέχισε το προγραμματισμένο δρομολόγιο του.\n Χάρη στην άμεση κινητοποίηση του πληρώματος, την πιστή εφαρμογή των προβλεπόμενων διαδικασιών ασφαλείας και την αποτελεσματική λειτουργία των συστημάτων πυρασφάλειας του πλοίου, η φωτιά αντιμετωπίστηκε άμεσα με απόλυτη επιτυχία.\n ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ \n Άδωνις Γεωργιάδης: «Και α και ου» – Το viral video που ανέβασε από τη συνάντηση με μέλη της ΟΝΝΕΔ στα Ιωάννινα \n Η ασφάλεια των επιβατών, του πληρώματος και του πλοίου παραμένει πάντοτε η απόλυτη προτεραιότητα μας.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 19/10/2026 - 5:38 \n Η Περιφέρεια Ιονίων Νήσων ενισχύει έμπρακτα τη Δημόσια Υγεία\n 15/10/2026 - 4:31 \n Τα Radisson Hotels αναλαμβάνουν την Ονομαστική Χορηγία του Μαραθωνίου Λάρνακας 2026, διευρύνοντας μια μακροχρόνια συνεργασία\n 15/10/2026 - 3:40 \n Διπλή Χρυσή Διάκριση για τη Novibet στo SBC Summit 2026 στη Λισαβόνα\n 15/10/2026 - 3:33 \n Το Kinsterna διακρίνεται με 2 Κλειδιά Michelin για δεύτερη συνεχόμενη χρονιά\n 15/10/2026 - 11:32 \n Εκδήλωση «Επενδύοντας στο μέλλον της ναυτιλίας»\n 13/10/2026 - 2:45 \n Στην τελική ευθεία το 9ο Compliance Conference «The Compliance Odyssey»\n 13/10/2026 - 12:07 \n 100 χρόνια Μπενάκειο Παιδικό Ίδρυμα Κηφισιάς: Ένας αιώνας παιδείας, φροντίδας και κοινωνικής προσφοράς\n 13/10/2026 - 11:49 \n 12ο Women in Business Forum: Future Leaders – Γίνε μέρος της ηγεσίας που διαμορφώνει το αύριο\n 09/10/2026 - 4:06 \n UNI-PHARMA & InterMed: Υπερήφανοι χορηγοί Δρομέων στο Greece Race for the Cure® – Ενωμένοι απέναντι στον καρκίνο του μαστού\n 07/10/2026 - 6:13 \n Νέα διεθνής συνεργασία της Kaizen Gaming με την UEFA για το UEFA EURO 2028&#x2122;\n 07/10/2026 - 6:01 \n 9ο Compliance Conference «The Compliance Odyssey» στο Μέγαρο Μουσικής Αθηνών\n 07/10/2026 - 5:37 \n Τρία ξενοδοχεία της Costa Navarino στο ελληνικό Top 10 των Readers’ Choice Awards του Condé Nast Traveler\n Περισσότερα",
-      "issues": [],
-      "el": {
-        "title": "Φωτιά σε όχημα σε πλοίο που εκτελούσε το δρομολόγιο Μύκονος - Σύρος",
-        "dek": "Φωτιά ξέσπασε σε όχημα στο εσωτερικό επιβατηγού οχηματαγωγού πλοίου που ταξίδευε από τη Μύκονο Σύρο. Το πλήρωμα έσβησε τις φλόγες και το πλοίο συνέχισε το προγραμματισμένο δρομολόγιό του.",
-        "tldr": [
-          "Η πυρκαγιά εκδηλώθηκε σε ιδιωτικής χρήσης όχημα που βρισκόταν στο επάνω γκαζόν.",
-          "Το πλήρωμα ενεργοποίησε το σταθερό σύστημα καταιονισμού και χρησιμοποίησε φορητούς πυροσβεστήρες.",
-          "Το πλοίο συνέχισε το προγραμματισμένο ταξίδι του αφού ολοκληρώθηκαν όλες οι προβλεπόμενες διαδικασίες."
-        ]
-      },
-      "notified": true
-    },
-    "75a8dc": {
-      "createdAt": 1792422220764,
-      "item": {
-        "title": "Greek Tourism Executives Highlight Licensing Challenges for Investment",
-        "url": "https://news.gtp.gr/2026/10/19/greek-tourism-executives-highlight-licensing-challenges-for-investment/",
-        "summary": "Greek tourism executives highlight licensing challenges, investment uncertainty and opportunities for higher-end hospitality development....\n Source",
-        "published": "Mon, 19 Oct 2026 14:35:00 +0000",
-        "id": "4e46049a40b2",
-        "sourceId": "gtp",
-        "sourceName": "GTP Headlines",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "travel",
-        "strike": false
-      },
-      "pick": {
-        "id": "4e46049a40b2",
-        "section": "real-estate",
-        "priority": 6,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Greek tourism executives highlight licensing and investment challenges, relevant for property and hospitality investors.",
-        "item": {
-          "title": "Greek Tourism Executives Highlight Licensing Challenges for Investment",
-          "url": "https://news.gtp.gr/2026/10/19/greek-tourism-executives-highlight-licensing-challenges-for-investment/",
-          "summary": "Greek tourism executives highlight licensing challenges, investment uncertainty and opportunities for higher-end hospitality development....\n Source",
-          "published": "Mon, 19 Oct 2026 14:35:00 +0000",
-          "id": "4e46049a40b2",
-          "sourceId": "gtp",
-          "sourceName": "GTP Headlines",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "travel",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "greek-tourism-executives-licensing-challenges-investment",
-        "section": "real-estate",
-        "sensitive": false,
-        "breaking": false,
-        "geo": {
-          "lat": 37.9838,
-          "lng": 23.7275
-        },
-        "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greece Real Estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "modern hotel building architecture greece",
-        "he": {
-          "title": "אתגרים ברישוי ורגולציה: בכירים בענף התיירות דנים בשוק הנדל\"ן ביוון",
-          "seoTitle": "נדל\"ן ביוון: אתגרי רישוי והשקעות מלונאיות באתונה",
-          "seoDesc": "בכירים בענף התיירות ביוון מזהירים מפני אי-ודאות ברישוי ושינויים בתכנון המרחבי שמשפיעים על השקעות מלונאיות ונדל\"ן באתונה ובאזורים נוספים.",
-          "keywords": [
-            "נדל\"ן ביוון",
-            "השקעה בנדל\"ן ביוון",
-            "מלונות ביוון",
-            "אתונה נדל\"ן",
-            "תיירות יוון"
-          ],
-          "dek": "בכירים בענף התיירות והמלונאות ביוון דנים בהשלכות של מסגרת התכנון המרחבי החדשה ובהשפעתה על השקעות עתידיות במהלך כנס פרודקספו באתונה.",
-          "tldr": [
-            "דיונים בכנס פרודקספו ה-27 באתונה התמקדו באתגרי רישוי ובתכנון מרחבי לתיירות.",
-            "משקיעים רבים מביעים חשש מעיכובים ומהפסקות בנייה גם לאחר קבלת ההיתרים הנדרשים.",
-            "חלק מהמשקיעים מעדיפים לרכוש מלונות פעילים בלבד כדי לצמצם את סיכוני הרישוי."
-          ],
-          "means": "אם אתם שוקלים השקעה בנדל\"ן מלונאי או פרויקטים ביוון, חשוב לבדוק היטב את סטטוס הרישוי והתב\"ע המקומית בעזרת צוות מקצועי ומקומי. מומלץ לקבל ליווי משפטי צמוד כדי לוודא שאין עיכובים בלתי צפויים בשל תקנות התכנון המרחבי החדשות.",
-          "body": "## אתגרי רישוי בשוק המלונאות והנדל\"ן\n\nבמהלך כנס פרודקספו (Prodexpo 2026) שהתקיים באתונה, דנו בכירים ממשלתיים ומומחים מענף התיירות והמלונאות במסגרת התכנון המרחבי החדש של המדינה ובהשפעותיו על פרויקטים עתידיים. המשתתפים הצביעו על כך שאי-ודאות ברישוי ותנאי פיתוח משתנים מהווים את אחד האתגרים המרכזיים עבור משקיעים בענף.\n\nפטרוס וארלידיס, מזכיר המדינה לסביבה טבעית ומים במשרד לאיכות הסביבה והאנרגיה, הדגיש כי יכולת הקיבולת של יעד תיירותי תלויה ישירות בזמינות תשתיות חיוניות, ובראשן משאבי המים. לדבריו, השלמת מסגרת התכנון המרחבי המיוחדת לתיירות נועדה להתאים את הכללים למציאות הנוכחית.\n\n## חששות המשקיעים והעדפת מלונות פעילים\n\nאנטוניס איליופולוס, מנכ\"ל קבוצת אמפיריה, הזהיר מפני מצבים שבהם פרויקטים נתקלים בהפסקות בנייה פתאומיות גם לאחר קבלת כל ההיתרים כחוק. לדבריו, קבלת רישיון אינה מבטיחה בהכרח את השלמת ההשקעה ללא הפרעות, והזכיר מגבלות בנייה באזורים כמו סנטוריני.\n\nמנגד, גיורגוס ספאנוס, מנכ\"ל דומס ריזורטס, ציין כי למרות סיכוני הרישוי, ישנו עניין גובר מצד משקיעים מוסדיים באזור הים התיכון. עם זאת, החששות הובילו לכך שחלק מהמשקיעים מעדיפים להתמקד אך ורק ברכישת בתי מלון שכבר פועלים בשטח.\n\n## הזדמנויות לפיתוח יוקרתי\n\nלמרות האתגרים, גורמים מקצועיים מעריכים כי הרגולציה החדשה עשויה לעודד מעבר לפרויקטים איכותיים יותר. לילי טסיצוציאנופולו מ-PwC ציינה כי הערך בנדל\"ן המלונאי נובע כיום מפיתוח מוקפד ולא בהכרח ממספר החדרים. סטיליו קוציביטיס מ-SWOT Hospitality הוסיף כי ההגבלות החדשות עשות ליצור הזדמנויות לבניית מתחמי תיירות משולבים ופרויקטים יוקרתיים ברמה גבוהה."
-        },
-        "en": {
-          "title": "Greek Tourism Executives Highlight Licensing Challenges for Investment",
-          "seoTitle": "Greece Real Estate: Licensing Challenges for Investment",
-          "seoDesc": "Greek tourism and real estate executives discuss licensing uncertainty, spatial planning rules, and investment challenges during Prodexpo in Athens.",
-          "keywords": [
-            "Greece real estate",
-            "hotel investment Greece",
-            "Athens property market",
-            "Greek tourism planning",
-            "Prodexpo 2026"
-          ],
-          "dek": "Government and tourism industry representatives examined Greece's new tourism spatial planning framework and investment challenges at Prodexpo 2026 in Athens.",
-          "tldr": [
-            "Industry leaders discussed tourism spatial planning and licensing uncertainty at the 27th Prodexpo conference in Athens.",
-            "Investors warn that obtaining construction permits does not always guarantee project completion due to sudden suspensions.",
-            "Licensing risks are pushing some institutional investors to focus exclusively on operating hotels."
-          ],
-          "means": "If you are considering real estate or hospitality investments in Greece, ensure you work with local professionals to thoroughly verify licensing status and spatial planning regulations. Legal guidance is essential to navigate potential regulatory changes and construction restrictions.",
-          "body": "## Licensing Uncertainty in Greek Tourism Investment\n\nGovernment officials and tourism industry leaders gathered at Prodexpo 2026 in Athens to discuss Greece’s new tourism spatial planning framework and its implications for future development. Industry executives pointed out that licensing uncertainty and shifting development conditions remain primary hurdles for hospitality investments.\n\nPetros Varelidis, Secretary General for Natural Environment and Water at the Ministry of Environment and Energy, emphasized that a destination's carrying capacity depends heavily on essential infrastructure, particularly water resources. He noted that the new Special Spatial Framework for Tourism aligns planning rules with modern conditions.\n\n## Investor Concerns and Operational Focus\n\nAntonis Iliopoulos, CEO of Empiria Group, expressed concern over regulatory uncertainty, warning that obtaining necessary construction permits does not always guarantee project completion. He noted that construction can face unexpected suspensions even when developers comply with all rules.\n\nConversely, Giorgos Spanos, CEO of Domes Resorts, pointed to strong institutional interest in the Mediterranean hospitality sector. However, he noted that licensing risks have altered investor preferences, with some buyers focusing strictly on hotels that are already fully operational.\n\n## Opportunities in High-End Hospitality\n\nDespite the hurdles, market experts believe the new restrictions could foster higher-quality developments. Lila Tsitsogiannopoulou of PwC noted that property value increasingly stems from development quality rather than sheer bed capacity. Stelios Koutsivitis of SWOT Hospitality added, the framework could encourage upscale, integrated tourism projects."
-        }
-      },
-      "text": "Greek Tourism Executives Highlight Licensing Challenges for Investment | GTP Headlines \n connect with us\r\nGreece's latest tourism industry news by Greek Travel Pages \n-->\r\n-->\n — Main Menu — Home \n Industry Sectors » - Hospitality \n - Aviation \n - Sea Tourism - - Ferries \n - Land Transportation \n - Travel Operators \n - Marketplace \n - Technology \n - MICE \n - Culture - - Top Archaeological Sites \n - Gastronomy \n - More… - - Brief News \n - - Tourism Education \n - - Niche Markets \n - - Laws, Regulations & Policy - - - Greek Laws \n - - Trade Associations – Gov – Org \n Covid-19 » - Timeline \n - Restart \n - Greek Hotels Reopening \n - Impact \n - Measures \n - Support \n - Guidance \n - Solidarity \n - The Day After \n - Local Actions \n - Τουρισμος \n Investments » - Investment News \n - Tenders \n People » - Interviews \n - Opinions - - Thought Leaders 2026 \n - - Thought Leaders 2024 \n - - Thought Leaders 2023 \n - - Thought Leaders 2022 \n - Business Talk \n - New faces \n - Recruitments \n - Women in Tourism - - 2024 – International Women’s Day \n - - 2021 – International Women’s Day \n - - 2018 – International Women’s Day \n Destinations » - Athens \n - Northern Greece \n Event News » - Events - - Sports \n - Calendar of events \n - Awards - - Greek Hospitality Awards \n - - Tourism Awards 2019 \n - Travel Exhibitions Specials - - ITB Berlin 2024 Special \n - - ITB Berlin 2023 Special \n - - ITB Berlin 2019 Special \n - - ITB Berlin 2018 Special \n - - ITB Berlin 2017 Special \n - - WTM London 2025 Special \n - - WTM London 2024 Special \n - - WTM London 2023 Special \n - - WTM London 2022 Special \n - - WTM London 2019 Special \n - - WTM London 2018 Special \n - - WTM London 2017 Special \n - - Philoxenia 2014 Special \n - - 100% Hotel Show \n Ενημερωση \n gtp Network » - gtp.gr \n - GTP Careers in Tourism \n - GTP Travel Offers - - in English \n - - in Greek \n - About GTP \n - GTP eBook \n - GTP Ferry Connections \n Home \n Industry Sectors » \n Hospitality \n Aviation \n Sea Tourism \n Ferries \n Land Transportation \n Travel Operators \n Marketplace \n Technology \n MICE \n Culture \n Top Archaeological Sites \n Gastronomy \n More… \n Brief News \n Tourism Education \n Niche Markets \n Laws, Regulations & Policy \n Greek Laws \n Trade Associations – Gov – Org \n Covid-19 » \n Timeline \n Restart \n Greek Hotels Reopening \n Impact \n Measures \n Support \n Guidance \n Solidarity \n The Day After \n Local Actions \n Τουρισμος \n Investments » \n Investment News \n Tenders \n People » \n Interviews \n Opinions \n Thought Leaders 2026 \n Thought Leaders 2024 \n Thought Leaders 2023 \n Thought Leaders 2022 \n Business Talk \n New faces \n Recruitments \n Women in Tourism \n 2024 – International Women’s Day \n 2021 – International Women’s Day \n 2018 – International Women’s Day \n Destinations » \n Athens \n Northern Greece \n Event News » \n Events \n Sports \n Calendar of events \n Awards \n Greek Hospitality Awards \n Tourism Awards 2019 \n Travel Exhibitions Specials \n ITB Berlin 2024 Special \n ITB Berlin 2023 Special \n ITB Berlin 2019 Special \n ITB Berlin 2018 Special \n ITB Berlin 2017 Special \n WTM London 2025 Special \n WTM London 2024 Special \n WTM London 2023 Special \n WTM London 2022 Special \n WTM London 2019 Special \n WTM London 2018 Special \n WTM London 2017 Special \n Philoxenia 2014 Special \n 100% Hotel Show \n Ενημερωση \n gtp Network » \n gtp.gr \n GTP Careers in Tourism \n GTP Travel Offers \n in English \n in Greek \n About GTP \n GTP eBook \n GTP Ferry Connections \n Greek Tourism Executives Highlight Licensing Challenges for Investment \n Posted On 19 Oct 2026 \n By : Nikos Krinis \n Comment: 0 \n Tag: c57918c , c83809c , c84780c , Domes Resorts , EMPIRIA Group , Greece tourism , hotel development , hotel investment , Licensing , Prodexpo 2026 , PwC , SWOT Hospitality , Tourism development , tourism investment , tourism spatial planning \n 0 shares \n Government and tourism industry representatives discuss Greece’s new tourism spatial planning framework and its implications for future development during Prodexpo 2026 in Athens.\n Licensing uncertainty and changing development conditions remain key challenges for tourism investment in Greece , even as industry executives identify opportunities for higher-end hospitality projects.\n The issues were discussed during Prodexpo 2026 in Athens , where government and tourism industry representatives examined the country’s investment environment, spatial planning rules and the importance of infrastructure in supporting sustainable development, during a panel titled “Greece’s New Tourism Zoning Plan: Reshaping the Country’s Heavy Industry”.\n Tourism planning and infrastructure capacity \n Petros Varelidis, Secretary General for Natural Environment and Water at the Ministry of Environment and Energy, highlighted that a destination’s capacity for tourism development depends heavily on the availability of essential infrastructure, particularly water resources.\n Petros Varelidis , Secretary General for Natural Environment and Water at the Ministry of Environment and Energy, highlighted the significance of completing Greece’s new Special Spatial Framework for Tourism .\n “I think this was an outstanding issue that needed to be resolved so that we could have a spatial planning framework much more closely aligned with today’s conditions,” he said.\n Varelidis also stressed the relationship between infrastructure and a destination’s carrying capacity, particularly the availability of water.\n “If you have more infrastructure, you have greater carrying capacity. If you don’t, you have less,” he said.\n Licensing uncertainty raises investor concerns \n Antonis Iliopoulos, President and CEO of Empiria Group, raised concerns over the uncertainty facing tourism investors, warning that even projects with the necessary permits can face unexpected interruptions during construction.\n Antonis Iliopoulos , President and CEO of Empiria Group , warned that obtaining the necessary permits does not always guarantee that an investment can proceed to completion.\n “Very often, obtaining a permit does not guarantee that you can complete the investment you have started,” he said.\n According to Iliopoulos, construction work can be suspended even when a project is already well underway and the investor or developer has committed no violation.\n Referring to construction suspensions on Santorini , he expressed the view that the restrictions could be extended beyond January 1, 2027. His remarks reflected his own assessment rather than an announced decision.\n Giorgos Spanos , Vice Chairman and CEO of Domes Resorts , offered a more positive assessment of the broader investment environment, pointing to increased institutional investor interest in the European Mediterranean following the pandemic.\n However, he said licensing risks have influenced investment preferences , with some investors focusing exclusively on hotels already in operation.\n “They invest only in hotels that are operating. Not even closed hotels – they have to be operating,” he said.\n Giorgos Spanos, Vice Chairman and CEO of Domes Resorts, discussing how licensing risks influence institutional investors’ decisions in Greece’s hospitality sector.\n Opportunities for higher-end hotel development \n Lila Tsitsogiannopoulou , Director of Real Estate Advisory at PwC, presented findings from the REPI index concerning the Greek property market.\n “In hotels, value comes from development and less from the number of beds,” she said, pointing to a shift toward smaller properties and higher-end hospitality products.\n Stelios Koutsivitis , President of SWOT Hospitality Management Company , also identified opportunities for integrated tourism developments and luxury residences.\n He suggested that the restrictions introduced under the new tourism spatial planning framework could encourage more upscale projects .\n “Through these restrictions, one could argue, there is also an opportunity for much higher-quality developments, much more luxurious developments,” he said.\n Stelios Koutsivitis, President of SWOT Hospitality Management Company, discussing the potential for luxury hospitality projects and integrated tourism developments under Greece’s new spatial planning framework.\n The discussion took place during the 27th Prodexpo conference, held October 14-15 at the Athens Conservatoire. The annual event brings together real estate professionals, investors and industry experts to examine developments, challenges and investment opportunities in Greece’s property market.\n Follow GTP Headlines on Google News to keep up to date with all the latest on tourism and travel in Greece. \n About the Author\nNikos is Greek-American born in New York, USA, and has lived in Greece for over 30 years. He is the managing editor of Greece's leading monthly travel and tourism guide, the Greek Travel Pages (GTP) since June 2008 and of news site GTP Headlines since its launch in September 2012. Nikos has also served as international press officer for the City of Athens and for the mayor. He has a degree in Mass Media and Communications, specializing in Journalism. Nikos is a native English speaker and speaks Greek fluently.\n Previous Story\n Greek Hotels and Destinations Stand Out at World Travel Awards 2026 \n Add your comment Cancel reply \n Join our Newsletter\n Join our GTP Headlines free daily newsletter\n 44.8k Followers \n Facebook \n 29.6k Followers \n X (formerly Twitter) \n 25.3k Followers \n LinkedIn \n 7.7k Followers \n Instagram \n 2.2k Followers \n Pinterest \n 110k Total \n Newsletter\n Signup to receive our daily travel-tourism industry newsletter.\n CLICK HERE TO SIGN UP \n SUBSCRIBE TO RSS\n https://news.gtp.gr/feed/ \n CONTRIBUTE\n Guest posts are welcome. Read the editorial guidelines here.\n Advertise\n GTP Headlines Media Kit \n Contact Details\n Greek Travel Pages,\n6, Psylla str. Athens GR 10557\nCall center: +30 210 324 7511\n CONTACT FORM \n Copyright Notice\n Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited . Excerpts of texts published in this page and links may be used, provided that full and clear credit is given to Greek Travel Pages – gtp.gr and / or GTP Headlines - news.gtp.gr with appropriate and specific direction (hyperlink) to the original content. All photographs appearing on this site are not to be downloaded or reproduced in any way, without the prior written permission of the copyright owner.\n About Us\n The team | About GTP Headlines \n ΤΑΥΤΟΤΗΤΑ \n Ιδιοκτήτρια Εταιρεία &\nΔικαιούχος Ονόματος:\nΔιεθνείς Εκδόσεις ΕΠΕ\nΑΦΜ: 095083253,\nΔΟΥ ΚΕΦΟΔΕ Αττικής\nΕταίρος (≥25%), Νόμιμος Εκπρόσωπος, Διευθύντρια & Διαχειρ. Ιστοσελίδας: Μαρία Θεοφανοπούλου\nΔιευθυντής Σύνταξης: Νίκος Κρινής\nΔικαιούχος Ονόματος: Διεθνείς Εκδόσεις ΕΠΕΑριθμός Πιστοποίησης Μ.Η.Τ.: 252115 \n Search\n Archives\n Archives \n Select Month \n October 2026 &nbsp;(130) \n September 2026 &nbsp;(222) \n August 2026 &nbsp;(155) \n July 2026 &nbsp;(228) \n June 2026 &nbsp;(219) \n May 2026 &nbsp;(197) \n April 2026 &nbsp;(191) \n March 2026 &nbsp;(229) \n February 2026 &nbsp;(187) \n January 2026 &nbsp;(174) \n December 2025 &nbsp;(184) \n November 2025 &nbsp;(220) \n October 2025 &nbsp;(215) \n September 2025 &nbsp;(206) \n August 2025 &nbsp;(129) \n July 2025 &nbsp;(212) \n June 2025 &nbsp;(203) \n May 2025 &nbsp;(205) \n April 2025 &nbsp;(208) \n March 2025 &nbsp;(195) \n February 2025 &nbsp;(209) \n January 2025 &nbsp;(180) \n December 2024 &nbsp;(186) \n November 2024 &nbsp;(241) \n October 2024 &nbsp;(221) \n September 2024 &nbsp;(211) \n August 2024 &nbsp;(154) \n July 2024 &nbsp;(227) \n June 2024 &nbsp;(201) \n May 2024 &nbsp;(200) \n April 2024 &nbsp;(226) \n March 2024 &nbsp;(204) \n February 2024 &nbsp;(204) \n January 2024 &nbsp;(195) \n December 2023 &nbsp;(167) \n November 2023 &nbsp;(221) \n October 2023 &nbsp;(256) \n September 2023 &nbsp;(214) \n August 2023 &nbsp;(158) \n July 2023 &nbsp;(197) \n June 2023 &nbsp;(204) \n May 2023 &nbsp;(220) \n April 2023 &nbsp;(169) \n March 2023 &nbsp;(243) \n February 2023 &nbsp;(199) \n January 2023 &nbsp;(201) \n December 2022 &nbsp;(179) \n November 2022 &nbsp;(231) \n October 2022 &nbsp;(202) \n September 2022 &nbsp;(191) \n August 2022 &nbsp;(172) \n July 2022 &nbsp;(199) \n June 2022 &nbsp;(250) \n May 2022 &nbsp;(225) \n April 2022 &nbsp;(211) \n March 2022 &nbsp;(249) \n February 2022 &nbsp;(215) \n January 2022 &nbsp;(199) \n December 2021 &nbsp;(229) \n November 2021 &nbsp;(267) \n October 2021 &nbsp;(244) \n September 2021 &nbsp;(255) \n August 2021 &nbsp;(214) \n July 2021 &nbsp;(251) \n June 2021 &nbsp;(249) \n May 2021 &nbsp;(257) \n April 2021 &nbsp;(257) \n March 2021 &nbsp;(304) \n February 2021 &nbsp;(246) \n January 2021 &nbsp;(218) \n December 2020 &nbsp;(245) \n November 2020 &nbsp;(264) \n October 2020 &nbsp;(291) \n September 2020 &nbsp;(274) \n August 2020 &nbsp;(215) \n July 2020 &nbsp;(279) \n June 2020 &nbsp;(305) \n May 2020 &nbsp;(299) \n April 2020 &nbsp;(280) \n March 2020 &nbsp;(305) \n February 2020 &nbsp;(243) \n January 2020 &nbsp;(215) \n December 2019 &nbsp;(195) \n November 2019 &nbsp;(289) \n October 2019 &nbsp;(241) \n September 2019 &nbsp;(222) \n August 2019 &nbsp;(183) \n July 2019 &nbsp;(224) \n June 2019 &nbsp;(209) \n May 2019 &nbsp;(236) \n April 2019 &nbsp;(226) \n March 2019 &nbsp;(233) \n February 2019 &nbsp;(242) \n January 2019 &nbsp;(214) \n December 2018 &nbsp;(186) \n November 2018 &nbsp;(297) \n October 2018 &nbsp;(276) \n September 2018 &nbsp;(216) \n August 2018 &nbsp;(214) \n July 2018 &nbsp;(240) \n June 2018 &nbsp;(251) \n May 2018 &nbsp;(262) \n April 2018 &nbsp;(234) \n March 2018 &nbsp;(277) \n February 2018 &nbsp;(245) \n January 2018 &nbsp;(220) \n December 2017 &nbsp;(197) \n November 2017 &nbsp;(300) \n October 2017 &nbsp;(264) \n September 2017 &nbsp;(271) \n August 2017 &nbsp;(216) \n July 2017 &nbsp;(224) \n June 2017 &nbsp;(268) \n May 2017 &nbsp;(263) \n April 2017 &nbsp;(200) \n March 2017 &nbsp;(232) \n February 2017 &nbsp;(194) \n January 2017 &nbsp;(191) \n December 2016 &nbsp;(194) \n November 2016 &nbsp;(285) \n October 2016 &nbsp;(203) \n September 2016 &nbsp;(226) \n August 2016 &nbsp;(175) \n July 2016 &nbsp;(191) \n June 2016 &nbsp;(211) \n May 2016 &nbsp;(202) \n April 2016 &nbsp;(204) \n March 2016 &nbsp;(224) \n February 2016 &nbsp;(195) \n January 2016 &nbsp;(164) \n December 2015 &nbsp;(190) \n November 2015 &nbsp;(203) \n October 2015 &nbsp;(224) \n September 2015 &nbsp;(186) \n August 2015 &nbsp;(137) \n July 2015 &nbsp;(234) \n June 2015 &nbsp;(213) \n May 2015 &nbsp;(212) \n April 2015 &nbsp;(183) \n March 2015 &nbsp;(199) \n February 2015 &nbsp;(162) \n January 2015 &nbsp;(177) \n December 2014 &nbsp;(183) \n November 2014 &nbsp;(206) \n October 2014 &nbsp;(160) \n September 2014 &nbsp;(155) \n August 2014 &nbsp;(137) \n July 2014 &nbsp;(197) \n June 2014 &nbsp;(174) \n May 2014 &nbsp;(205) \n April 2014 &nbsp;(151) \n March 2014 &nbsp;(154) \n February 2014 &nbsp;(161) \n January 2014 &nbsp;(173) \n December 2013 &nbsp;(134) \n November 2013 &nbsp;(174) \n October 2013 &nbsp;(178) \n September 2013 &nbsp;(182) \n August 2013 &nbsp;(113) \n July 2013 &nbsp;(19",
-      "issues": [],
-      "el": {
-        "title": "Στελέχη του ελληνικού τουρισμού επισημαίνουν τις προκλήσεις αδειοδότησης για επενδύσεις",
-        "dek": "Εκπρόσωποι της κυβέρνησης και του τουριστικού κλάδου εξέτασαν το νέο πλαίσιο χωροταξικού σχεδιασμού για τον τουρισμό στην Ελλάδα και τις επενδυτικές προκλήσεις στο συνέδριο Prodexpo 2026 στην Αθήνα.",
-        "tldr": [
-          "Ηγέτες του κλάδου συζήτησαν τον τουριστικό χωροταξικό σχεδιασμό και την αβεβαιότητα στις αδειοδοτήσεις στο 27ο συνέδριο Prodexpo στην Αθήνα.",
-          "Οι επενδυτές προειδοποιούν ότι η έκδοση οικοδομικών αδειών δεν εγγυάται πάντα την ολοκλήρωση των έργων λόγω ξαφνικών αναστολών.",
-          "Οι κίνδυνοι αδειοδότησης ωθούν ορισμένους θεσμικούς επενδυτές να επικεντρωθούν αποκλειστικά στη διαχείριση υφιστάμενων ξενοδοχείων."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2500,12 +2291,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T16:40:32.341Z",
+      "at": "2026-10-19T17:09:16.331Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T16:40:33.091Z",
+      "at": "2026-10-19T17:09:16.917Z",
       "items": 5
     },
     "civilprotection": {
@@ -2516,27 +2307,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T16:40:34.394Z",
+      "at": "2026-10-19T17:09:18.230Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T16:40:48.293Z",
+      "at": "2026-10-19T17:09:28.580Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T16:40:49.337Z",
+      "at": "2026-10-19T17:09:29.757Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T16:40:50.991Z",
+      "at": "2026-10-19T17:09:30.392Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T16:40:51.818Z",
+      "at": "2026-10-19T17:09:31.173Z",
       "items": 10
     },
     "toi-greece": {
@@ -2547,23 +2338,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T16:40:52.354Z",
+      "at": "2026-10-19T17:09:31.752Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T16:40:52.700Z",
+      "at": "2026-10-19T17:09:32.129Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T16:40:53.481Z",
-      "items": 7
+      "at": "2026-10-19T17:09:32.581Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T16:40:53.695Z",
-      "items": 2
+      "at": "2026-10-19T17:09:32.811Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2572,12 +2363,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T16:40:33.728Z",
+      "at": "2026-10-19T17:09:17.617Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T16:40:54.377Z",
+      "at": "2026-10-19T17:09:33.550Z",
       "items": 0
     },
     "hcg": {
@@ -2588,39 +2379,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T16:40:56.104Z",
+      "at": "2026-10-19T17:09:35.019Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T16:40:56.313Z",
+      "at": "2026-10-19T17:09:35.238Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T16:40:56.504Z",
+      "at": "2026-10-19T17:09:35.427Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T16:40:56.735Z",
+      "at": "2026-10-19T17:09:35.672Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T16:40:57.135Z",
-      "items": 6
+      "at": "2026-10-19T17:09:36.069Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T16:40:57.590Z",
+      "at": "2026-10-19T17:09:36.503Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 14,
+    "count": 16,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2717,6 +2508,18 @@
         "title": "Wildfire breaks out in Faneromeni, Thesprotia",
         "at": "2026-10-19T15:53:58+03:00",
         "section": "breaking"
+      },
+      {
+        "slug": "fire-on-ferry-mykonos-syros",
+        "title": "Vehicle fire on ferry between Mykonos and Syros",
+        "at": "2026-10-19T20:09:02+03:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "tourism-investment-licensing-challenges-prodexpo-2026",
+        "title": "Greece Property Market: Tourism Executives Highlight Licensing Challenges",
+        "at": "2026-10-19T20:09:13+03:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -2764,6 +2567,11 @@
         "title": "Ποιοι απεργούν στις 21 Οκτωβρίου, τι θα γίνει με το μετρό - iefimerida.gr",
         "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
         "at": "2026-10-19T15:00:58.408Z"
+      },
+      {
+        "title": "Teachers on strike across Greece, protests supported by students, Oct 21",
+        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
+        "at": "2026-10-19T17:09:41.640Z"
       }
     ],
     "errors": [],
@@ -2779,6 +2587,10 @@
       {
         "slug": "thesprotia-faneromeni-forest-fire-greece",
         "at": "2026-10-19T12:53:58.808Z"
+      },
+      {
+        "slug": "fire-on-ferry-mykonos-syros",
+        "at": "2026-10-19T17:09:02.975Z"
       }
     ],
     "ig": []
@@ -2902,13 +2714,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T16:38:01.572Z",
+    "at": "2026-10-19T17:09:40.705Z",
     "considered": 3,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· ingr | Πάει η Γαλλία προς νέα έκρηξη; – Γιατί κανείς δεν προτείνει λύσεις για τα βασικά προβλήματ",
-      "· gn-kathimerini | Σαμαράς: Μειώσεις φόρων για την αντιμετώπιση της ακρίβειας - Kathimerini",
-      "· gn-iefimerida | Τραγωδία στον Καναδά: Τέσσερις στρατιώτες νεκροί από μεγάλη πυρκαγιά σε στρατιωτική βάση -"
+      "✓ ktg | Teachers on strike across Greece, protests supported by students, Oct 21",
+      "· ingr | Σεισμός 3,7 Ρίχτερ στη Ζάκυνθο – Αισθητός σε Ηλεία, Αχαΐα",
+      "· ert | Πτώση μονοκινητήριου αεροσκάφους στην Πιερία: Στον τόπο της τραγωδίας στελέχη του ΕΟΔΑΣΑΑΜ"
     ]
   },
   "evergreenDone": [
@@ -2951,5 +2763,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fire-on-ferry-mykonos-syros",
+      "url": "https://yavanet.gr/a/fire-on-ferry-mykonos-syros/",
+      "at": "2026-10-19T17:09:02.975Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fire-on-ferry-mykonos-syros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fire-on-ferry-mykonos-syros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה במכונית על מעבורת בדרך ממיקונוס לסורוס",
+        "title_en": "Vehicle fire on ferry between Mykonos and Syros",
+        "dek_he": "שריפה פרצה ברכב פרטי על סיפון המעבורת יורוכמפיון ג'ט 2 במהלך הפלגה ממיקונוס לסורוס. הצוות כיבה את האש בסיוע מערכות כיבוי אוטומטיות וההפלגה נמשכה כמתוכנן.",
+        "dek_en": "A car fire on the Eurochampion Jet 2 ferry sailing from Mykonos to Syros was quickly extinguished by the crew using onboard fire suppression systems.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/18996121/pexels-photo-18996121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה במכונית על מעבורת בדרך ממיקונוס לסורוס\n\nשריפה פרצה ברכב פרטי על סיפון המעבורת יורוכמפיון ג'ט 2 במהלך הפלגה ממיקונוס לסורוס. הצוות כיבה את האש בסיוע מערכות כיבוי אוטומטיות וההפלגה נמשכה כמתוכנן.\n\nhttps://yavanet.gr/a/fire-on-ferry-mykonos-syros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Vehicle fire on ferry between Mykonos and Syros\n\nA car fire on the Eurochampion Jet 2 ferry sailing from Mykonos to Syros was quickly extinguished by the crew using onboard fire suppression systems.\n\nhttps://yavanet.gr/en/a/fire-on-ferry-mykonos-syros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
