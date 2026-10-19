@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "e81f215e2dc5": 1791183696614,
-    "b8cf057db33e": 1791183696614,
-    "8cfdd2e82aa0": 1791183696614,
-    "1294cf9710e4": 1791185156573,
     "7a3a8f88ae61": 1791186257210,
     "36e4442c7666": 1791187045504,
     "82b03c16c6e0": 1791187045504,
@@ -2274,7 +2270,11 @@
     "90c3a427d5e6": 1792392613156,
     "66ca6ad4689a": 1792392613156,
     "91ebf3232dac": 1792392613156,
-    "831235e1f7f4": 1792392613156
+    "831235e1f7f4": 1792392613156,
+    "1c7a19337f8e": 1792395366499,
+    "15b4ad8c3fb3": 1792395366499,
+    "879c4a5671b7": 1792395366499,
+    "e8729eab8ea3": 1792395366499
   },
   "pending": {},
   "sourceStatus": {
@@ -2286,12 +2286,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T06:49:18.162Z",
+      "at": "2026-10-19T07:35:53.866Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T06:49:19.031Z",
+      "at": "2026-10-19T07:35:54.787Z",
       "items": 5
     },
     "civilprotection": {
@@ -2302,27 +2302,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T06:49:20.578Z",
+      "at": "2026-10-19T07:35:56.403Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T06:49:20.809Z",
+      "at": "2026-10-19T07:35:56.639Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T06:49:21.729Z",
+      "at": "2026-10-19T07:35:58.030Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T06:49:22.428Z",
-      "items": 5
+      "at": "2026-10-19T07:35:58.792Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T06:49:23.360Z",
+      "at": "2026-10-19T07:35:59.607Z",
       "items": 10
     },
     "toi-greece": {
@@ -2333,23 +2333,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T06:49:23.868Z",
+      "at": "2026-10-19T07:36:00.065Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T06:49:24.154Z",
+      "at": "2026-10-19T07:36:00.436Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T06:49:24.770Z",
-      "items": 5
+      "at": "2026-10-19T07:36:01.278Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T06:49:25.188Z",
-      "items": 5
+      "at": "2026-10-19T07:36:01.446Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2358,12 +2358,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T06:49:19.777Z",
+      "at": "2026-10-19T07:35:55.681Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T06:49:25.747Z",
+      "at": "2026-10-19T07:36:02.135Z",
       "items": 0
     },
     "hcg": {
@@ -2374,38 +2374,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T06:49:27.376Z",
+      "at": "2026-10-19T07:36:03.877Z",
       "items": 1
     },
     "gn-civilprotection": {
-      "ok": false,
-      "at": "2026-10-19T06:49:36.761Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-19T07:36:04.121Z",
+      "items": 0
     },
     "gn-pm": {
-      "ok": false,
-      "at": "2026-10-19T06:49:46.815Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-19T07:36:04.314Z",
+      "items": 2
     },
     "gn-hcg": {
-      "ok": false,
-      "at": "2026-10-19T06:49:56.467Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-19T07:36:04.525Z",
+      "items": 4
     },
     "gn-kathimerini": {
-      "ok": false,
-      "at": "2026-10-19T06:50:03.639Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-19T07:36:04.833Z",
+      "items": 4
     },
     "gn-iefimerida": {
-      "ok": false,
-      "at": "2026-10-19T06:50:12.059Z",
-      "error": "HTTP 503",
-      "fails": 1
+      "ok": true,
+      "at": "2026-10-19T07:36:05.309Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2494,6 +2489,16 @@
         "title": "Fire at a recycling plant in Diavata near Thessaloniki",
         "reason": "Ουδέτερη εκδοχή: The Hebrew body text contains a minor Russian character typo in the 'means' section ('באטמוсפרה' contains the Cyrillic 'с' instead of the Hebrew 'ס').; Rule 12: General local news in Greece (like a recycling plant fire) does not belong in the 'israelis' section unless it directly co",
         "at": "2026-10-19T06:09:10.509Z"
+      },
+      {
+        "title": "Ισραήλ: Οκτώ συλλήψεις για τις επιθέσεις εποίκων εναντίον Αμερικανίδας δημοσιογράφου και διπλωματών - Kathimerini",
+        "reason": "Rule 12 violation: The story is entirely about an incident in Israel involving Israeli settlers, an American journalist, and diplomats. It has no connection to Greece, Greece-Israel relations, flights between the two, or Jewish life in Greece. Therefore, it should not be published according to rule ",
+        "at": "2026-10-19T07:36:28.778Z"
+      },
+      {
+        "title": "Χίος: Πρόστιμα για καύση υπολειμμάτων καλλιεργειών",
+        "reason": "seoDesc contains incorrect fact: states the fire ban lasts until the end of September, whereas the source and article body state it lasts until the end of October.",
+        "at": "2026-10-19T07:36:49.368Z"
       }
     ],
     "errors": [],
@@ -2624,14 +2629,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T06:50:13.156Z",
+    "at": "2026-10-19T07:36:06.499Z",
     "considered": 4,
-    "picked": 0,
+    "picked": 2,
     "items": [
-      "· gct | Where to See the Evzones in Sydney and Canberra This OXI Day",
-      "· ert | Αυστρία: Αρνητικοί οι έλεγχοι μετά την απειλή για βόμβα σε πτήση της Austrian Airlines",
-      "· minfin | Νίκος Παπαθανάσης: 85,5 εκατ. ευρώ για την ανάπτυξη του Προαστιακού και του Λιμένος Θεσσαλ",
-      "· naftemporiki | Η γαλλική οικονομία καταρρέει και πυροδοτεί την κοινωνική έκρηξη"
+      "· ert | Αμερικανοί διπλωμάτες επισκέφθηκαν τη χριστιανική κοινότητα της Ταϊμπέχ μετά τις επιθέσεις",
+      "✓ ert | Χίος: Πρόστιμα για καύση υπολειμμάτων καλλιεργειών",
+      "✓ gn-kathimerini | Ισραήλ: Οκτώ συλλήψεις για τις επιθέσεις εποίκων εναντίον Αμερικανίδας δημοσιογράφου και δ",
+      "· gn-kathimerini | Καναδάς: Τέσσερις νεκροί και σχεδόν 40 τραυματίες ο απολογισμός της φωτιάς σε στρατιωτική "
     ]
   },
   "evergreenDone": [
