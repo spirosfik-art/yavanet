@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "7a706176f941": 1791167931306,
     "f164cd0d7291": 1791169395604,
     "d47457912619": 1791171754443,
     "29cc53f666b0": 1791173505214,
@@ -2254,7 +2253,10 @@
     "f84e164bb091": 1792370887588,
     "2194c0dd262c": 1792373106263,
     "7f24bda3f68f": 1792374845373,
-    "5281dffd38c5": 1792376177032
+    "5281dffd38c5": 1792376177032,
+    "74552179b899": 1792378484426,
+    "3c8eb5f44d97": 1792378484426,
+    "43be6709ae9e": 1792378484426
   },
   "pending": {},
   "sourceStatus": {
@@ -2266,12 +2268,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T02:16:04.398Z",
+      "at": "2026-10-19T02:54:30.101Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T02:16:05.365Z",
+      "at": "2026-10-19T02:54:31.299Z",
       "items": 5
     },
     "civilprotection": {
@@ -2282,27 +2284,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T02:16:07.243Z",
+      "at": "2026-10-19T02:54:32.871Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T02:16:08.462Z",
+      "at": "2026-10-19T02:54:33.227Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T02:16:09.714Z",
+      "at": "2026-10-19T02:54:34.330Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T02:16:10.685Z",
-      "items": 6
+      "at": "2026-10-19T02:54:35.259Z",
+      "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T02:16:11.552Z",
+      "at": "2026-10-19T02:54:36.263Z",
       "items": 10
     },
     "toi-greece": {
@@ -2313,22 +2315,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T02:16:12.154Z",
+      "at": "2026-10-19T02:54:36.943Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T02:16:12.253Z",
+      "at": "2026-10-19T02:54:38.027Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T02:16:12.441Z",
+      "at": "2026-10-19T02:54:38.725Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T02:16:13.010Z",
+      "at": "2026-10-19T02:54:38.973Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2338,12 +2340,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T02:16:06.392Z",
+      "at": "2026-10-19T02:54:32.042Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T02:16:13.805Z",
+      "at": "2026-10-19T02:54:39.804Z",
       "items": 0
     },
     "hcg": {
@@ -2354,39 +2356,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T02:16:15.060Z",
+      "at": "2026-10-19T02:54:41.489Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T02:16:15.236Z",
+      "at": "2026-10-19T02:54:41.656Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T02:16:15.367Z",
+      "at": "2026-10-19T02:54:41.896Z",
       "items": 1
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T02:16:15.614Z",
+      "at": "2026-10-19T02:54:42.064Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T02:16:15.924Z",
+      "at": "2026-10-19T02:54:42.376Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T02:16:16.286Z",
+      "at": "2026-10-19T02:54:42.828Z",
       "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 3,
+    "count": 4,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2405,6 +2407,12 @@
         "title": "New Alzheimer’s Treatments and Dementia Centres Planned in Greece",
         "at": "2026-10-19T01:09:03+03:00",
         "section": "living"
+      },
+      {
+        "slug": "earthquake-magnitude-3-4-near-rafina-attica",
+        "title": "Magnitude 3.4 earthquake felt in the Attica region near Rafina",
+        "at": "2026-10-19T05:54:58+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2541,11 +2549,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T02:16:17.032Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-19T02:54:44.427Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | MBDA Pitches SPEAR Missiles for Greece’s Future F-35s"
+      "✓ ert | Σεισμός 3,4 Ρίχτερ στην Αττική",
+      "· gct | Rubio: Americans are ‘heirs’ of Western Civilization; America First is at the core of fore",
+      "· gct | Mykonos Hostess Says One Customer Offered Her €2,000"
     ]
   },
   "evergreenDone": [
