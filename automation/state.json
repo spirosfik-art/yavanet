@@ -2276,7 +2276,10 @@
     "f68c12557d6b": 1792439748245,
     "3e965015454d": 1792439748245,
     "8c030bffd5cd": 1792441103836,
-    "613a94af8fff": 1792441103836
+    "613a94af8fff": 1792441103836,
+    "8d88a7c6742b": 1792444527302,
+    "ca872ad83ffa": 1792444527302,
+    "c5efcdaf0cf9": 1792444527302
   },
   "pending": {},
   "sourceStatus": {
@@ -2288,12 +2291,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T20:55:16.305Z",
-      "items": 10
+      "at": "2026-10-19T21:14:46.582Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T20:55:17.031Z",
+      "at": "2026-10-19T21:14:47.117Z",
       "items": 5
     },
     "civilprotection": {
@@ -2304,27 +2307,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T20:55:18.011Z",
+      "at": "2026-10-19T21:14:48.004Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T20:55:18.157Z",
+      "at": "2026-10-19T21:15:02.605Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T20:55:18.948Z",
+      "at": "2026-10-19T21:15:03.594Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T20:55:19.517Z",
-      "items": 3
+      "at": "2026-10-19T21:15:04.299Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T20:55:20.015Z",
+      "at": "2026-10-19T21:15:04.751Z",
       "items": 10
     },
     "toi-greece": {
@@ -2335,22 +2338,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T20:55:20.482Z",
+      "at": "2026-10-19T21:15:05.194Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T20:55:20.584Z",
+      "at": "2026-10-19T21:15:05.563Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T20:55:20.762Z",
+      "at": "2026-10-19T21:15:06.128Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T20:55:20.891Z",
+      "at": "2026-10-19T21:15:06.293Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2360,12 +2363,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T20:55:17.334Z",
+      "at": "2026-10-19T21:14:47.314Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T20:55:21.321Z",
+      "at": "2026-10-19T21:15:06.871Z",
       "items": 0
     },
     "hcg": {
@@ -2376,249 +2379,58 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T20:55:22.605Z",
+      "at": "2026-10-19T21:15:12.062Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T20:55:22.767Z",
+      "at": "2026-10-19T21:15:12.251Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T20:55:22.995Z",
+      "at": "2026-10-19T21:15:12.425Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T20:55:23.185Z",
+      "at": "2026-10-19T21:15:12.637Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T20:55:23.542Z",
+      "at": "2026-10-19T21:15:12.999Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T20:55:24.077Z",
-      "items": 11
+      "at": "2026-10-19T21:15:13.512Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-19",
-    "count": 18,
+    "date": "2026-10-20",
+    "count": 1,
     "published": [
       {
-        "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
-        "title": "Austrian Airlines flight from Tel Aviv to Vienna diverts due to security threat",
-        "at": "2026-10-19T00:01:30+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "aircraft-crash-pieria-greece",
-        "title": "Two People Killed After Aircraft Crashes in Northern Greece",
-        "at": "2026-10-19T00:48:55+03:00",
+        "slug": "thessaloniki-traffic-restrictions-october-2026",
+        "title": "Thessaloniki: Traffic restrictions for October 28 celebrations",
+        "at": "2026-10-20T00:17:38+03:00",
         "section": "travel"
-      },
-      {
-        "slug": "new-alzheimer-treatments-greece-dementia-centres",
-        "title": "New Alzheimer’s Treatments and Dementia Centres Planned in Greece",
-        "at": "2026-10-19T01:09:03+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "earthquake-magnitude-3-4-near-rafina-attica",
-        "title": "Magnitude 3.4 earthquake felt in the Attica region near Rafina",
-        "at": "2026-10-19T05:54:58+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "osios-loukas-monastery-central-greece",
-        "title": "The Historic Byzantine Monastery Worth Visiting in Central Greece",
-        "at": "2026-10-19T07:00:33+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greek-import-prices-rise-august-2026",
-        "title": "Greek Import Prices Jump 13.8 Percent in August Led by Energy Costs",
-        "at": "2026-10-19T08:01:58+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "fire-recycling-plant-thessaloniki-diavata",
-        "title": "Major fire at a recycling plant in Thessaloniki brings heavy smoke",
-        "at": "2026-10-19T08:02:47+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "one-million-euro-luxury-property-market-attica",
-        "title": "What One Million Euros Buys in the Attica Luxury Property Market",
-        "at": "2026-10-19T08:37:17+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "winter-tourism-greece-rising-costs-2026",
-        "title": "Greek Mountain Hotels Face High Energy Costs and Rising Prices Ahead of Winter",
-        "at": "2026-10-19T08:37:34+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-turkey-cable-tensions-oct-2026",
-        "title": "Greece prepares for critical weeks amid Eastern Mediterranean cable project",
-        "at": "2026-10-19T09:49:14+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "messinia-earthquake-pylos-kalamata",
-        "title": "Magnitude 3.9 Earthquake Felt in Messinia and Kalamata",
-        "at": "2026-10-19T11:19:51+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-teachers-strike-october-21",
-        "title": "Greece teachers strike: School disruptions expected on October 21",
-        "at": "2026-10-19T12:04:24+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "thessaloniki-railway-and-port-project",
-        "title": "Thessaloniki: New Suburban Railway and Port Link",
-        "at": "2026-10-19T12:42:20+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fire-aigialeia-achaia-october-2026",
-        "title": "Forest fire breaks out in Aigialeia, Greece: firefighting forces deployed",
-        "at": "2026-10-19T13:16:42+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "messinia-earthquake-pylos-kalamata",
-        "title": "↻ Earthquake measuring 3.8 magnitude recorded near Petalidi in Messinia, Greece",
-        "at": "2026-10-19T13:43:33+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "thesprotia-faneromeni-forest-fire-greece",
-        "title": "Wildfire breaks out in Faneromeni, Thesprotia",
-        "at": "2026-10-19T15:53:58+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "fire-on-ferry-mykonos-syros",
-        "title": "Vehicle fire on ferry between Mykonos and Syros",
-        "at": "2026-10-19T20:09:02+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "tourism-investment-licensing-challenges-prodexpo-2026",
-        "title": "Greece Property Market: Tourism Executives Highlight Licensing Challenges",
-        "at": "2026-10-19T20:09:13+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "earthquake-magnitude-3-8-lasithi-crete",
-        "title": "Magnitude 3.8 Earthquake Felt in Lasithi, Crete",
-        "at": "2026-10-19T21:05:38+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "earthquake-between-ileia-and-zakynthos",
-        "title": "Magnitude 3.7 earthquake recorded between Ileia and Zakynthos",
-        "at": "2026-10-19T21:05:51+03:00",
-        "section": "breaking"
       }
     ],
-    "rejected": [
-      {
-        "title": "Athens Residents in Fear After Rise in Robberies and Assaults",
-        "reason": "Mixed-script (broken) Hebrew words: פנטליימונas, פנטליימונas. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-18T22:08:50.101Z"
-      },
-      {
-        "title": "Ανησυχία σε πτήση της Austrian Air από το Τελ Αβίβ -Αναγκαστική προσγείωση στη Σόφια λόγω υποψίας απειλής - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Austrian Airlines flight from Tel Aviv to Vienna diverts due to security threat» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T00:09:36.884Z"
-      },
-      {
-        "title": "Eurostat: Ενοίκιο υψηλότερο από τον κατώτατο μισθό",
-        "reason": "Ίδιο θέμα με «Athens Rent Crisis: Housing Costs Match Average Salaries» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T03:16:46.055Z"
-      },
-      {
-        "title": "Fire at a recycling plant in Diavata near Thessaloniki",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew body text contains a minor Russian character typo in the 'means' section ('באטמוсפרה' contains the Cyrillic 'с' instead of the Hebrew 'ס').; Rule 12: General local news in Greece (like a recycling plant fire) does not belong in the 'israelis' section unless it directly co",
-        "at": "2026-10-19T06:09:10.509Z"
-      },
-      {
-        "title": "Ισραήλ: Οκτώ συλλήψεις για τις επιθέσεις εποίκων εναντίον Αμερικανίδας δημοσιογράφου και διπλωματών - Kathimerini",
-        "reason": "Rule 12 violation: The story is entirely about an incident in Israel involving Israeli settlers, an American journalist, and diplomats. It has no connection to Greece, Greece-Israel relations, flights between the two, or Jewish life in Greece. Therefore, it should not be published according to rule ",
-        "at": "2026-10-19T07:36:28.778Z"
-      },
-      {
-        "title": "Χίος: Πρόστιμα για καύση υπολειμμάτων καλλιεργειών",
-        "reason": "seoDesc contains incorrect fact: states the fire ban lasts until the end of September, whereas the source and article body state it lasts until the end of October.",
-        "at": "2026-10-19T07:36:49.368Z"
-      },
-      {
-        "title": "Συναγερμός για φωτιά στο Αίγιο",
-        "reason": "Ίδιο θέμα με «Forest fire breaks out in Aigialeia, Greece: firefighting forces deployed» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T12:47:30.236Z"
-      },
-      {
-        "title": "Φωτιά σε δασική έκταση στη Θεσπρωτία",
-        "reason": "Ίδιο θέμα με «Wildfire breaks out in Faneromeni, Thesprotia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T13:31:07.916Z"
-      },
-      {
-        "title": "Ποιοι απεργούν στις 21 Οκτωβρίου, τι θα γίνει με το μετρό - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T15:00:58.408Z"
-      },
-      {
-        "title": "Teachers on strike across Greece, protests supported by students, Oct 21",
-        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T17:09:41.640Z"
-      },
-      {
-        "title": "Πυρκαγιά στη Θεσπρωτία – Καίει δασική έκταση - Kathimerini",
-        "reason": "Ίδιο θέμα με «Wildfire breaks out in Faneromeni, Thesprotia» – δεν γράφτηκε ξανά",
-        "at": "2026-10-19T18:44:24.811Z"
-      }
-    ],
+    "rejected": [],
     "errors": [],
-    "fb": [
-      {
-        "slug": "greek-import-prices-rise-august-2026",
-        "at": "2026-10-19T05:01:58.716Z"
-      },
-      {
-        "slug": "messinia-earthquake-pylos-kalamata",
-        "at": "2026-10-19T08:19:52.238Z"
-      },
-      {
-        "slug": "thesprotia-faneromeni-forest-fire-greece",
-        "at": "2026-10-19T12:53:58.808Z"
-      },
-      {
-        "slug": "fire-on-ferry-mykonos-syros",
-        "at": "2026-10-19T17:09:02.975Z"
-      },
-      {
-        "slug": "earthquake-between-ileia-and-zakynthos",
-        "at": "2026-10-19T18:15:06.523Z"
-      }
-    ],
-    "ig": [
-      {
-        "slug": "earthquake-between-ileia-and-zakynthos",
-        "at": "2026-10-19T18:15:08.551Z"
-      }
-    ]
+    "fb": [],
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-19",
+      "count": 18,
+      "rejected": 11
+    },
     {
       "date": "2026-10-18",
       "count": 7,
@@ -2737,12 +2549,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T20:18:23.836Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-19T21:15:27.302Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Τρόφιμα: Νέο κύμα ακρίβειας απειλεί τα φτωχότερα νοικοκυριά παγκοσμίως",
-      "· gct | Two Suspects Arrested Over Alleged Terror Plot Near Jerusalem"
+      "✓ gct | Thessaloniki Announces Traffic Restrictions For 28 October Parade",
+      "· gct | Greece Secures UN Resolution For Children in Armed Conflict",
+      "· gct | Greek Officials Promote Religious Tourism During New York Visit"
     ]
   },
   "evergreenDone": [
