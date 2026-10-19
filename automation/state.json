@@ -14,17 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "ee626ac176ab": 1791191082524,
-    "771da10ef900": 1791191082524,
-    "a8451ceb4cbc": 1791191082524,
-    "37e2bf70f9de": 1791191082524,
-    "c231e8d79138": 1791191082524,
-    "e7bb09354d90": 1791192590123,
-    "3bd1f799d658": 1791192590123,
-    "8907a5c6b6d4": 1791192590123,
-    "b8c1aad97ff2": 1791192590123,
-    "0d5844d44d7e": 1791192590123,
-    "82ebe3378fd7": 1791192590123,
     "46f9c303b204": 1791193533188,
     "048c97b9959a": 1791193533188,
     "fa6c736dd249": 1791194708047,
@@ -2278,7 +2267,16 @@
     "1bef2d949db4": 1792400587868,
     "be09ee9d4e96": 1792400587868,
     "65a44a23c4ca": 1792400587868,
-    "f2ef4a6c1a99": 1792400587868
+    "f2ef4a6c1a99": 1792400587868,
+    "a65c12c9ec5c": 1792402925963,
+    "70e3fc47c79a": 1792402925963,
+    "00b568bb708e": 1792402925963,
+    "faf179f88f79": 1792402925963,
+    "b2290a4344b8": 1792402925963,
+    "45a57b902950": 1792402925963,
+    "45871237b78c": 1792402925963,
+    "62f7b89dee62": 1792402925963,
+    "2ab7fee51d36": 1792402925963
   },
   "pending": {},
   "sourceStatus": {
@@ -2290,12 +2288,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T09:02:52.074Z",
-      "items": 0
+      "at": "2026-10-19T09:41:54.487Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T09:02:52.836Z",
+      "at": "2026-10-19T09:41:55.259Z",
       "items": 5
     },
     "civilprotection": {
@@ -2306,27 +2304,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T09:02:53.840Z",
+      "at": "2026-10-19T09:41:56.575Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T09:02:54.132Z",
+      "at": "2026-10-19T09:41:56.940Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T09:02:55.241Z",
+      "at": "2026-10-19T09:41:58.150Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T09:02:55.821Z",
-      "items": 3
+      "at": "2026-10-19T09:41:58.905Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T09:02:56.758Z",
+      "at": "2026-10-19T09:41:59.776Z",
       "items": 10
     },
     "toi-greece": {
@@ -2337,23 +2335,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T09:02:57.257Z",
-      "items": 0
+      "at": "2026-10-19T09:42:00.259Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T09:03:03.102Z",
+      "at": "2026-10-19T09:42:00.623Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T09:03:03.285Z",
-      "items": 4
+      "at": "2026-10-19T09:42:00.865Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T09:03:03.411Z",
-      "items": 3
+      "at": "2026-10-19T09:42:01.273Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2362,12 +2360,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T09:02:53.156Z",
+      "at": "2026-10-19T09:41:55.760Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T09:03:03.874Z",
+      "at": "2026-10-19T09:42:01.808Z",
       "items": 0
     },
     "hcg": {
@@ -2378,39 +2376,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T09:03:04.590Z",
-      "items": 0
+      "at": "2026-10-19T09:42:03.541Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T09:03:04.727Z",
+      "at": "2026-10-19T09:42:03.790Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T09:03:04.874Z",
+      "at": "2026-10-19T09:42:03.952Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T09:03:05.215Z",
+      "at": "2026-10-19T09:42:04.202Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T09:03:05.527Z",
-      "items": 5
+      "at": "2026-10-19T09:42:04.529Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T09:03:05.960Z",
+      "at": "2026-10-19T09:42:04.913Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-19",
-    "count": 11,
+    "count": 12,
     "published": [
       {
         "slug": "austrian-airlines-flight-from-tel-aviv-bomb-threat",
@@ -2483,6 +2481,12 @@
         "title": "Greece teachers strike: School disruptions expected on October 21",
         "at": "2026-10-19T12:04:24+03:00",
         "section": "living"
+      },
+      {
+        "slug": "thessaloniki-railway-and-port-project",
+        "title": "Thessaloniki: New Suburban Railway and Port Link",
+        "at": "2026-10-19T12:42:20+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2649,14 +2653,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T09:03:07.868Z",
-    "considered": 4,
+    "at": "2026-10-19T09:42:05.963Z",
+    "considered": 9,
     "picked": 1,
     "items": [
-      "· ert | Συρία: Ισραηλινή εισβολή στο νοτιοδυτικό τμήμα της χώρας και εκχερσώσεις ελαιώνων",
-      "· ingr | Επιστολή Δούκα στην «Ελληνικό Μετρό ΑΕ» για την περίφραξη του εργοταξίου στα Εξάρχεια",
-      "✓ ingr | Σε απεργιακό κλοιό τα σχολεία την Τετάρτη 21 Οκτωβρίου – Στους δρόμους οι εκπαιδευτικοί",
-      "· gct | Independent MP Helen Haines critically injured after being struck by vehicle in Wangaratta"
+      "· gct | Sharp Manoeuvre Ends in Six Deaths Off Samos",
+      "· gct | Ladolemono Sauce: The 5-Ingredient Greek Dressing for Fish and Chicken",
+      "· gct | Patras Landmark Hotel Returns After a Two-Year Makeover",
+      "✓ gct | Western Thessaloniki Moves a Step Closer to Its Own Trains",
+      "· ert | Όλα έτοιμα για τα «ΒορΟινά 2026» – Τα κορυφαία κρασιά του βορειοελλαδίτικου αμπελώνα και ό",
+      "· gn-kathimerini | Βουλγαρία: Τηλεφωνική απειλή στο αεροδρόμιο της Βιέννης οδήγησε στην εκτροπή πτήσης της Au",
+      "· gct | Professor Warns Hikers the Mountain Is No City Footpath",
+      "· gct | Turkish Cypriot Man Allegedly Attacked and Stabbed in Limassol",
+      "· ingr | Άρθρο Τσίπρα: Χρειαζόμαστε ένα σχέδιο για τον αγρότη που να παράγει και να δίνει εισόδημα "
     ]
   },
   "evergreenDone": [
