@@ -2290,12 +2290,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-19T18:04:47.063Z",
+      "at": "2026-10-19T18:14:38.808Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-19T18:04:48.075Z",
+      "at": "2026-10-19T18:14:39.578Z",
       "items": 5
     },
     "civilprotection": {
@@ -2306,27 +2306,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-19T18:04:49.320Z",
+      "at": "2026-10-19T18:14:42.476Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-19T18:05:04.581Z",
+      "at": "2026-10-19T18:14:55.201Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-19T18:05:05.652Z",
+      "at": "2026-10-19T18:14:56.157Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-19T18:05:06.514Z",
+      "at": "2026-10-19T18:14:56.865Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-19T18:05:07.316Z",
+      "at": "2026-10-19T18:14:57.308Z",
       "items": 10
     },
     "toi-greece": {
@@ -2337,22 +2337,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-19T18:05:07.861Z",
+      "at": "2026-10-19T18:14:57.951Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-19T18:05:08.306Z",
+      "at": "2026-10-19T18:14:58.626Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-19T18:05:08.653Z",
+      "at": "2026-10-19T18:14:59.375Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T18:05:09.024Z",
+      "at": "2026-10-19T18:14:59.766Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2362,12 +2362,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-19T18:04:48.636Z",
+      "at": "2026-10-19T18:14:40.187Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-19T18:05:09.796Z",
+      "at": "2026-10-19T18:15:00.452Z",
       "items": 0
     },
     "hcg": {
@@ -2378,32 +2378,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-19T18:05:11.879Z",
+      "at": "2026-10-19T18:15:04.978Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-19T18:05:12.097Z",
+      "at": "2026-10-19T18:15:05.211Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-19T18:05:12.266Z",
+      "at": "2026-10-19T18:15:05.421Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-19T18:05:12.483Z",
+      "at": "2026-10-19T18:15:05.660Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-19T18:05:12.843Z",
-      "items": 7
+      "at": "2026-10-19T18:15:06.049Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-19T18:05:13.278Z",
+      "at": "2026-10-19T18:15:06.486Z",
       "items": 12
     }
   },
@@ -2602,9 +2602,18 @@
       {
         "slug": "fire-on-ferry-mykonos-syros",
         "at": "2026-10-19T17:09:02.975Z"
+      },
+      {
+        "slug": "earthquake-between-ileia-and-zakynthos",
+        "at": "2026-10-19T18:15:06.523Z"
       }
     ],
-    "ig": []
+    "ig": [
+      {
+        "slug": "earthquake-between-ileia-and-zakynthos",
+        "at": "2026-10-19T18:15:08.551Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2775,5 +2784,28 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "earthquake-between-ileia-and-zakynthos",
+      "url": "https://yavanet.gr/a/earthquake-between-ileia-and-zakynthos/",
+      "at": "2026-10-19T18:15:06.523Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/earthquake-between-ileia-and-zakynthos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/earthquake-between-ileia-and-zakynthos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה של 3.7 הורגשה באזור אליה וזקינתוס",
+        "title_en": "Magnitude 3.7 earthquake recorded between Ileia and Zakynthos",
+        "dek_he": "רעידת אדמה קלה מעט לפני הצהריים באזור המערבי של יוון, בין חבל אליה לאי זקינתוס.",
+        "dek_en": "A mild tremor was registered earlier today in western Greece, in the marine area between Ileia and Zakynthos.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15861716/pexels-photo-15861716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "רעידת אדמה בעוצמה של 3.7 הורגשה באזור אליה וזקינתוס\n\nרעידת אדמה קלה מעט לפני הצהריים באזור המערבי של יוון, בין חבל אליה לאי זקינתוס.\n\nhttps://yavanet.gr/a/earthquake-between-ileia-and-zakynthos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Magnitude 3.7 earthquake recorded between Ileia and Zakynthos\n\nA mild tremor was registered earlier today in western Greece, in the marine area between Ileia and Zakynthos.\n\nhttps://yavanet.gr/en/a/earthquake-between-ileia-and-zakynthos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/earthquake-between-ileia-and-zakynthos.jpg",
+          "caption": "רעידת אדמה בעוצמה של 3.7 הורגשה באזור אליה וזקינתוס\n\nרעידת אדמה קלה מעט לפני הצהריים באזור המערבי של יוון, בין חבל אליה לאי זקינתוס.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט"
+        }
+      }
+    }
+  ]
 }
