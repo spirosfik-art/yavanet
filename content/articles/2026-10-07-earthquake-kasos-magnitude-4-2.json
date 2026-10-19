@@ -25,13 +25,8 @@
     }
   ],
   "image": {
-    "type": "photo",
-    "url": "https://images.pexels.com/photos/33962519/pexels-photo-33962519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Waves crashing against unique pancake rock formations in New Zealand. A scenic coastal view.",
-    "credit": "Photo: Mikael Dubarry / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/spectacular-waves-at-pancake-rocks-new-zealand-33962519/",
-    "license": "Pexels License",
-    "fallbackKey": "quake"
+    "type": "illustration",
+    "key": "quake"
   },
   "alert": {
     "he": "רעידת אדמה",
@@ -66,6 +61,8 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-10T00:02:19.072Z",
     "official": false,
-    "updatedFrom": "781df0a2082c"
+    "updatedFrom": "781df0a2082c",
+    "lockImage": true,
+    "photoTried": true
   }
 }

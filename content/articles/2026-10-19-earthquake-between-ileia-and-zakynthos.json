@@ -17,13 +17,8 @@
     }
   ],
   "image": {
-    "type": "photo",
-    "url": "https://images.pexels.com/photos/15861716/pexels-photo-15861716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Rescue team operates amidst earthquake rubble in Antakya, Hatay, Türkiye.",
-    "credit": "Photo: Doruk Aksel Anıl / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/destroyed-buildings-after-earthquake-15861716/",
-    "license": "Pexels License",
-    "fallbackKey": "quake"
+    "type": "illustration",
+    "key": "quake"
   },
   "alert": {
     "he": "רעידת אדמה ביוון",
@@ -75,6 +70,8 @@
     "sourceHash": "071c7f3bed45",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-19T18:05:51.537Z",
-    "official": false
+    "official": false,
+    "lockImage": true,
+    "photoTried": true
   }
 }

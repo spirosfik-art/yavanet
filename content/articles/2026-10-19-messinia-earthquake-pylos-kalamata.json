@@ -21,13 +21,8 @@
     }
   ],
   "image": {
-    "type": "photo",
-    "url": "https://images.pexels.com/photos/15861617/pexels-photo-15861617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "Destruction and recovery in Antakya, Türkiye, after a devastating earthquake.",
-    "credit": "Photo: Doruk Aksel Anıl / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/destroyed-buildings-after-earthquake-15861617/",
-    "license": "Pexels License",
-    "fallbackKey": "quake"
+    "type": "illustration",
+    "key": "quake"
   },
   "alert": {
     "he": "רעידת אדמה",
@@ -62,6 +57,8 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-19T17:09:41.990Z",
     "official": false,
-    "updatedFrom": "214169068c5d"
+    "updatedFrom": "214169068c5d",
+    "lockImage": true,
+    "photoTried": true
   }
 }

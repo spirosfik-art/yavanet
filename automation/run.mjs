@@ -243,6 +243,9 @@ async function write(item, pick, { instruction, neutral } = {}) {
 const photoId = (u) => (String(u || "").match(/photos\/(\d+)/) || [])[1] || u;
 async function pickImage(draft) {
   const key = ART_KEYS.includes(draft.imageKey) ? draft.imageKey : null;
+  // Σεισμοί: όχι φωτογραφίες Pexels (φέρνουν γκρεμισμένα κτίρια, παραπλανητικό για ασθενείς σεισμούς) → εικονογράφηση
+  const qText = `${draft.imageQuery || ""} ${(draft.en && draft.en.title) || ""} ${draft.slug || ""}`;
+  if (/quake|seism/i.test(qText)) return { type: "illustration", key: "quake" };
   // Φωτογραφίες από το Pexels (δωρεάν, επιτρέπει αυτόματη επιλογή, με αναφορά φωτογράφου)
   if (env.PEXELS_API_KEY && draft.imageQuery) {
     try {

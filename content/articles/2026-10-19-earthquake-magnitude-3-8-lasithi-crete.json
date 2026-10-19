@@ -17,13 +17,8 @@
     }
   ],
   "image": {
-    "type": "photo",
-    "url": "https://images.pexels.com/photos/16105750/pexels-photo-16105750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "A city scene showing extensive earthquake damage with debris and ruins.",
-    "credit": "Photo: Faruk Tokluoğlu / Pexels",
-    "creditUrl": "https://www.pexels.com/photo/urban-ruins-after-earthquake-16105750/",
-    "license": "Pexels License",
-    "fallbackKey": "quake"
+    "type": "illustration",
+    "key": "quake"
   },
   "alert": {
     "he": "רעידת אדמה ביוון",
@@ -73,6 +68,8 @@
     "sourceHash": "d8b0f55d4c6f",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-19T18:05:39.217Z",
-    "official": false
+    "official": false,
+    "lockImage": true,
+    "photoTried": true
   }
 }
