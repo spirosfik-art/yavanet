@@ -75,6 +75,15 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
 .vx-gulf{font:italic 30px "GFS Didot",Georgia,serif;fill:#4F6B80;letter-spacing:.08em}
 .vx-map{width:100%;height:100%;display:block}
 .vx-sweep,.vx-pulse{transform-origin:467px 549px;transform-box:view-box}
+.plans .pl{position:absolute}
+.plans .pl img{display:block;width:100%;height:auto}
+.plans .pl .lb{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.plans .pl .lb b{font:500 18px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.plans .pl .lb span{font:400 20px var(--mono);color:var(--pool)}
+.plans dl{margin-top:40px;display:grid;gap:0;border-top:1px solid var(--line)}
+.plans dl div{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.plans dt{font:400 30px var(--disp);color:var(--ink)} .plans dd{font:400 26px var(--mono);color:var(--gold);text-align:right}
+.plans dd.t{grid-column:1/3;text-align:left;font:300 20px/1.45 var(--body);color:#BFB8AB}
 </style></head><body>
 
 <!-- 1 COVER -->
@@ -177,6 +186,25 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
   <div class="foot"><span>Unit I2 · Alyos 3, Voula</span><span>07</span></div>
 </section>
 
+<!-- 7b FLOOR PLANS -->
+<section class="s plans">
+  <div style="position:absolute;left:96px;top:96px;width:540px">
+    <div class="eye">Floor plans · Unit I2</div>
+    <h2 style="margin-top:22px;font-size:66px">From the <em>building permit</em></h2>
+    <dl>
+      <div><dt>Ground floor</dt><dd>75.90 m²</dd><dd class="t">Living room, dining, kitchen with island, bedroom with bathroom and door to the garden</dd></div>
+      <div><dt>Upper level</dt><dd>50.58 m²</dd><dd class="t">Two bedrooms with a private bathroom, open gallery above the living room</dd></div>
+      <div><dt>Basement</dt><dd>32.56 m²</dd><dd class="t">Auxiliary room with its own internal staircase</dd></div>
+      <div><dt>Garden · pool</dt><dd>152.09 m²</dd><dd class="t">Exclusive-use garden; pool 5.50 × 3.50 m</dd></div>
+    </dl>
+  </div>
+  <div class="pl" style="left:700px;top:96px;width:321px"><div class="lb"><b>Ground</b><span>±0.00</span></div><img src="plans/plan-ground.png" alt="Ground floor plan, unit I2"></div>
+  <div class="pl" style="left:1061px;top:96px;width:321px"><div class="lb"><b>Upper</b><span>+2.95</span></div><img src="plans/plan-upper.png" alt="Upper level plan, unit I2"></div>
+  <div class="pl" style="left:1422px;top:96px;width:402px"><div class="lb"><b>Basement</b><span>Auxiliary</span></div><img src="plans/plan-basement.png" alt="Basement plan, unit I2"></div>
+  <div style="position:absolute;left:1422px;top:620px;width:402px;font:400 18px/1.6 var(--mono);color:var(--dim);letter-spacing:.04em">Street side (Alyos St.) at the bottom of each plan. Ground and upper level are shown at the same scale.</div>
+  <div class="foot"><span>Extracts from the permit drawings · unit I2 only</span><span>08</span></div>
+</section>
+
 <!-- 8 LOCATION -->
 <section class="s">
   <div style="position:absolute;left:0;top:0;bottom:0;width:860px;background:#1A2F3F"><svg class="vx-map" preserveAspectRatio="xMidYMid meet" viewBox="140 160 760 1030" role="img" aria-label="The sea is just around the corner">
@@ -218,7 +246,7 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
       <li>Athens International Airport<b>20<small>km</small></b></li>
     </ul>
   </div>
-  <div class="foot" style="left:960px"><span>Straight-line distances · map © OpenStreetMap contributors</span><span>08</span></div>
+  <div class="foot" style="left:960px"><span>Straight-line distances · map © OpenStreetMap contributors</span><span>09</span></div>
 </section>
 
 <!-- 9 AREA -->
@@ -254,7 +282,7 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
       <div class="gauge" style="margin-top:30px"><div class="gtop"><span>Main areas</span><b>126.48 m²</b></div><div class="bar"><i></i><em style="left:94.9%"><span style="left:auto;right:-6px;transform:none">Minimum 120 m²</span></em></div><span class="ok">✓ 6.48 m² above the minimum</span></div>
     </div>
   </div>
-  <div class="foot"><span>Areas from the permit drawings · have a lawyer confirm before signing · not legal advice</span><span>10</span></div>
+  <div class="foot"><span>Areas from the permit drawings · have a lawyer confirm before signing · not legal advice</span><span>11</span></div>
 </section>
 
 <!-- 11 TAX -->
@@ -269,7 +297,7 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
     <div><span>From 2027 · 15%</span><b>€184,500</b></div>
     <div><span>Difference</span><b class="gold">€147,600</b></div>
   </div>
-  <div class="foot"><span>Illustration on the €1,230,000 asking price</span><span>11</span></div>
+  <div class="foot"><span>Illustration on the €1,230,000 asking price</span><span>12</span></div>
 </section>
 
 <!-- 12 PROCESS -->
@@ -285,7 +313,7 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
     <div class="step"><div class="k">04</div><h3>Contract</h3><p>Signed before a notary. Payment by bank transfer.</p></div>
     <div class="step"><div class="k">05</div><h3>Golden Visa</h3><p>The application is filed with the purchase contract.</p></div>
   </div>
-  <div class="foot"><span>S.F. Properties coordinates the process with your lawyer</span><span>12</span></div>
+  <div class="foot"><span>S.F. Properties coordinates the process with your lawyer</span><span>13</span></div>
 </section>
 
 <!-- 13 CONTACT -->
@@ -301,6 +329,6 @@ p{font:300 30px/1.5 var(--body);color:#D7D1C5}
     </div>
     <p style="margin-top:56px;font-size:24px;line-height:1.6">Spyridon Fikias · S.F. Properties, real estate broker<br>77 P. P. Germanou St, 152 37 Filothei, Athens · GEMI reg. no. 172090403000</p>
   </div>
-  <div class="foot"><span>Images are visualizations · not legal advice</span><span>13</span></div>
+  <div class="foot"><span>Images are visualizations · not legal advice</span><span>14</span></div>
 </section>
 </body></html>
