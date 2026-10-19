@@ -1,0 +1,27 @@
+name: Decks
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render PDFs (Chrome, with web fonts)
+        run: |
+          mkdir -p deck-out
+          for f in automation/decks/*.html; do
+            n=$(basename "$f" .html)
+            google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf="deck-out/$n.pdf" "file://$PWD/$f"
+          done
+          ls -la deck-out
+      - name: Push to decks branch
+        run: |
+          cd deck-out
+          git init -q -b decks
+          git config user.name "yavanet-bot"
+          git config user.email "bot@yavanet.gr"
+          git add -A
+          git commit -qm "Decks [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" decks
