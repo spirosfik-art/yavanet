@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "4d88a10b56de": 1791323438188,
-    "f241aa70d0a9": 1791323438188,
-    "6f0e1cf7c2b8": 1791323438188,
-    "8c9dfdaf71b9": 1791324067103,
     "c040729a60b7": 1791327014427,
     "d2fe281cc75e": 1791329026889,
     "faa1373948f6": 1791330642598,
@@ -2231,7 +2227,12 @@
     "fb50e2d1e962": 1792532226535,
     "b4f9628ec227": 1792532226535,
     "b79c93b55ec4": 1792532226535,
-    "388d72e1de66": 1792532226535
+    "388d72e1de66": 1792532226535,
+    "b47d3b4d0318": 1792534015872,
+    "3482f963eb3d": 1792534015872,
+    "dea07227f406": 1792534015872,
+    "483f5661107b": 1792534015872,
+    "d18f8b989441": 1799100415872
   },
   "pending": {},
   "sourceStatus": {
@@ -2243,12 +2244,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T21:36:54.265Z",
-      "items": 10
+      "at": "2026-10-20T22:06:40.063Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T21:36:54.760Z",
+      "at": "2026-10-20T22:06:40.573Z",
       "items": 5
     },
     "civilprotection": {
@@ -2259,27 +2260,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T21:36:55.954Z",
+      "at": "2026-10-20T22:06:41.709Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T21:36:56.332Z",
+      "at": "2026-10-20T22:06:42.169Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T21:36:57.135Z",
+      "at": "2026-10-20T22:06:43.109Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T21:36:57.727Z",
+      "at": "2026-10-20T22:06:43.637Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T21:36:58.442Z",
+      "at": "2026-10-20T22:06:44.322Z",
       "items": 10
     },
     "toi-greece": {
@@ -2290,22 +2291,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T21:36:58.888Z",
+      "at": "2026-10-20T22:06:44.748Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T21:36:58.969Z",
-      "items": 15
+      "at": "2026-10-20T22:06:44.837Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T21:36:59.052Z",
+      "at": "2026-10-20T22:06:44.915Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T21:36:59.184Z",
+      "at": "2026-10-20T22:06:45.031Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2315,12 +2316,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T21:36:55.346Z",
+      "at": "2026-10-20T22:06:41.034Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T21:36:59.608Z",
+      "at": "2026-10-20T22:06:45.493Z",
       "items": 0
     },
     "hcg": {
@@ -2331,33 +2332,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T21:37:00.919Z",
+      "at": "2026-10-20T22:06:46.804Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T21:37:01.256Z",
+      "at": "2026-10-20T22:06:46.989Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T21:37:01.497Z",
+      "at": "2026-10-20T22:06:47.131Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T21:37:01.793Z",
+      "at": "2026-10-20T22:06:47.334Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T21:37:02.208Z",
+      "at": "2026-10-20T22:06:47.740Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T21:37:02.694Z",
-      "items": 10
+      "at": "2026-10-20T22:06:48.217Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2370,6 +2371,11 @@
         "title": "Ο Χέγκσεθ έκανε ταξίδι-αστραπή στο Ισραήλ – Συζήτησαν με τον Νετανιάχου την αντιμετώπιση «κοινών απειλών»",
         "reason": "The Hebrew title contains a severe typo/corruption ('ביקור הבזק של שיר ההגנה האמריקאי ביסראיל' instead of 'שר ההגנה' and 'בישראל'). Rule 12: The article is about US-Israel relations and does not involve Greece, so it should not be categorized under 'Israelis in Greece' (though the generated text inc",
         "at": "2026-10-20T21:38:04.062Z"
+      },
+      {
+        "title": "Greece Offers Housing Renovation Grants of Up to €36,000",
+        "reason": "Ίδιο θέμα με «New EU building energy rules bring challenges for Greece» – δεν γράφτηκε ξανά",
+        "at": "2026-10-20T22:06:56.514Z"
       }
     ],
     "errors": [],
@@ -2504,18 +2510,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T21:37:06.535Z",
-    "considered": 8,
+    "at": "2026-10-20T22:06:55.872Z",
+    "considered": 5,
     "picked": 1,
     "items": [
-      "· gct | UK Police Re-Arrest Two Men Over Suspected Iranian Links",
-      "· gct | Italy Expands Police Powers and Juvenile Detention After Riots",
-      "· gct | Archbishop Elpidophoros Prays for Pope Leo at Award Ceremony",
-      "✓ ingr | Ο Χέγκσεθ έκανε ταξίδι-αστραπή στο Ισραήλ – Συζήτησαν με τον Νετανιάχου την αντιμετώπιση «",
-      "· ert | Χέγκσεθ: Η Ουάσινγκτον δεν απέσυρε το Starlink από την Ουκρανία – Επιβεβαιώνει ότι επισκέφ",
-      "· gct | Paris Auction Showcases Two Centuries of Greek Artistic Achievement",
-      "· gct | Greece Seeks International Cooperation on AI and Cultural Heritage",
-      "· gn-iefimerida | Η Ουάσινγκτον δεν απέσυρε το Starlink από την Ουκρανία, δηλώνει ο υπουργός Άμυνας Χέγκσεθ "
+      "· gct | Consumers Prioritise Low Prices as Digital Shopping Transforms Retail",
+      "✓ gct | Greece Offers Housing Renovation Grants of Up to €36,000",
+      "· gct | Greece Calls for Stronger Cooperation Between Judges and Lawyers",
+      "· gct | Benjamin Netanyahu Accuses France of Surrendering to Extremist Islam",
+      "· gct | Kilkis Municipality to Pay €1,000 for Every Newborn"
     ]
   },
   "evergreenDone": [
