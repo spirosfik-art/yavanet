@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "69c7e90c7af8": 1791321842017,
-    "f6a197229e84": 1791321842017,
-    "5be5a2aaaefe": 1791322610339,
-    "44d282b53382": 1791322610339,
     "4d88a10b56de": 1791323438188,
     "f241aa70d0a9": 1791323438188,
     "6f0e1cf7c2b8": 1791323438188,
@@ -2227,7 +2223,15 @@
     "3901ed97634e": 1792530449543,
     "cc4a7d738b8e": 1792530449543,
     "397fb5ab9055": 1792530449543,
-    "7e99809b6df0": 1792530449543
+    "7e99809b6df0": 1792530449543,
+    "d76a4a71da78": 1792532226535,
+    "2f2bfdd8110f": 1792532226535,
+    "14bf9f461994": 1792532226535,
+    "74749e7f06d1": 1792532226535,
+    "fb50e2d1e962": 1792532226535,
+    "b4f9628ec227": 1792532226535,
+    "b79c93b55ec4": 1792532226535,
+    "388d72e1de66": 1792532226535
   },
   "pending": {},
   "sourceStatus": {
@@ -2239,12 +2243,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T21:07:17.947Z",
+      "at": "2026-10-20T21:36:54.265Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T21:07:18.873Z",
+      "at": "2026-10-20T21:36:54.760Z",
       "items": 5
     },
     "civilprotection": {
@@ -2255,27 +2259,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T21:07:20.213Z",
+      "at": "2026-10-20T21:36:55.954Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T21:07:20.294Z",
+      "at": "2026-10-20T21:36:56.332Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T21:07:21.607Z",
+      "at": "2026-10-20T21:36:57.135Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T21:07:22.604Z",
-      "items": 1
+      "at": "2026-10-20T21:36:57.727Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T21:07:23.622Z",
+      "at": "2026-10-20T21:36:58.442Z",
       "items": 10
     },
     "toi-greece": {
@@ -2286,22 +2290,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T21:07:23.894Z",
+      "at": "2026-10-20T21:36:58.888Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T21:07:24.171Z",
+      "at": "2026-10-20T21:36:58.969Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T21:07:24.243Z",
-      "items": 1
+      "at": "2026-10-20T21:36:59.052Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T21:07:24.431Z",
+      "at": "2026-10-20T21:36:59.184Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2311,12 +2315,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T21:07:19.367Z",
+      "at": "2026-10-20T21:36:55.346Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T21:07:25.241Z",
+      "at": "2026-10-20T21:36:59.608Z",
       "items": 0
     },
     "hcg": {
@@ -2327,33 +2331,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T21:07:27.289Z",
+      "at": "2026-10-20T21:37:00.919Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T21:07:27.500Z",
+      "at": "2026-10-20T21:37:01.256Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T21:07:27.635Z",
+      "at": "2026-10-20T21:37:01.497Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T21:07:27.924Z",
+      "at": "2026-10-20T21:37:01.793Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T21:07:28.264Z",
+      "at": "2026-10-20T21:37:02.208Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T21:07:28.670Z",
-      "items": 9
+      "at": "2026-10-20T21:37:02.694Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2361,7 +2365,13 @@
     "date": "2026-10-21",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Ο Χέγκσεθ έκανε ταξίδι-αστραπή στο Ισραήλ – Συζήτησαν με τον Νετανιάχου την αντιμετώπιση «κοινών απειλών»",
+        "reason": "The Hebrew title contains a severe typo/corruption ('ביקור הבזק של שיר ההגנה האמריקאי ביסראיל' instead of 'שר ההגנה' and 'בישראל'). Rule 12: The article is about US-Israel relations and does not involve Greece, so it should not be categorized under 'Israelis in Greece' (though the generated text inc",
+        "at": "2026-10-20T21:38:04.062Z"
+      }
+    ],
     "errors": [],
     "ig": []
   },
@@ -2494,14 +2504,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T21:07:29.543Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-20T21:37:06.535Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· gct | Greece and EU Reject Libyan Approval of Turkish-Libyan Maritime Deal",
-      "· gct | National Archaeological Museum Extends Mycenaean Kingdom Exhibition",
-      "· naftemporiki | Χέγκσεθ: Επιβεβαίωσε την πρόσφατη επίσκεψη στο Ισραήλ και την συνάντηση με τον Νετανιάχου",
-      "· ert | Νιγηρία: Πρώτο κρούσμα Έμπολα στη χώρα"
+      "· gct | UK Police Re-Arrest Two Men Over Suspected Iranian Links",
+      "· gct | Italy Expands Police Powers and Juvenile Detention After Riots",
+      "· gct | Archbishop Elpidophoros Prays for Pope Leo at Award Ceremony",
+      "✓ ingr | Ο Χέγκσεθ έκανε ταξίδι-αστραπή στο Ισραήλ – Συζήτησαν με τον Νετανιάχου την αντιμετώπιση «",
+      "· ert | Χέγκσεθ: Η Ουάσινγκτον δεν απέσυρε το Starlink από την Ουκρανία – Επιβεβαιώνει ότι επισκέφ",
+      "· gct | Paris Auction Showcases Two Centuries of Greek Artistic Achievement",
+      "· gct | Greece Seeks International Cooperation on AI and Cultural Heritage",
+      "· gn-iefimerida | Η Ουάσινγκτον δεν απέσυρε το Starlink από την Ουκρανία, δηλώνει ο υπουργός Άμυνας Χέγκσεθ "
     ]
   },
   "evergreenDone": [
