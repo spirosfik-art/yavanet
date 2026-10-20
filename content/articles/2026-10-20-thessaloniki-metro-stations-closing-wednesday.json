@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "illustration",
-    "key": "strike"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34712912/pexels-photo-34712912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Sleek escalator view inside Thessaloniki metro showcasing modern architecture.",
+    "credit": "Photo: Dimitris Mourousiadis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/modern-thessaloniki-metro-station-interior-34712912/",
+    "license": "Pexels License",
+    "fallbackKey": "strike"
   },
   "alert": {
     "he": "עדכון תחבורה",
@@ -69,6 +74,7 @@
     "sourceHash": "834aba6d917f",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-20T08:59:25.271Z",
-    "official": false
+    "official": false,
+    "photoTried": true
   }
 }
