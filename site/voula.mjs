@@ -83,6 +83,7 @@ const C = {
     ctaP: "שלחו לנו הודעה ונשלח מחיר, תוכניות מלאות ומועד לביקור. אפשר גם סיור בווידאו מישראל.",
     formH: "מעדיפים שנחזור אליכם?",
     formT: "השאירו פרטים ונחזור אליכם בעברית. גילוי נאות: הפנייה מגיעה ל-S.F. Properties (ספירידון פיקיאס, מתווך נדל״ן, ΓΕΜΗ 172090403000), המו״ל של יוונט.",
+    excl: "המחיר אינו כולל ריהוט ואת הגינה המרוהטת והמעוצבת שמופיעה בתמונות. התמונות הן הדמיות להמחשה בלבד.",
     disc: "התמונות הן הדמיות. השטחים לפי תוכניות היתר הבנייה. המידע על ויזת הזהב ועל המס אינו ייעוץ משפטי. נתוני מפה © OpenStreetMap contributors.",
   },
   en: {
@@ -129,6 +130,7 @@ const C = {
     ctaP: "Message us for the price, the full plans and a viewing. Video tours are available for buyers abroad.",
     formH: "Prefer that we call you?",
     formT: "Leave your details and we will get back to you. Disclosure: your request goes to S.F. Properties (Spyridon Fikias, real estate broker, ΓΕΜΗ 172090403000), Yavanet's publisher.",
+    excl: "The price does not include furniture or the furnished, landscaped garden shown in the images. Images are visualizations for illustration only.",
     disc: "Images are visualizations. Areas from the building permit drawings. Golden Visa and tax information is not legal advice. Map data © OpenStreetMap contributors.",
   },
   zh: {
@@ -176,6 +178,7 @@ const C = {
     ctaP: "联系我们获取完整图纸并预约看房。海外买家可安排视频看房。",
     formH: "希望我们联系您？",
     formT: "留下您的联系方式，我们将以英文回复。说明：您的请求将发送至 S.F. Properties（Spyridon Fikias，房地产经纪人，ΓΕΜΗ 172090403000）。",
+    excl: "价格不含家具，也不含图片中已布置家具和绿化的花园。图片仅为效果示意。",
     disc: "图片为效果图。面积依据建筑许可图纸。黄金签证及税务信息不构成法律建议。地图数据 © OpenStreetMap 贡献者。",
   },
   tr: {
@@ -223,6 +226,7 @@ const C = {
     ctaP: "Bize yazın; tam çizimleri gönderelim ve ziyaret ayarlayalım. Türkiye'den video ile uzaktan tur da mümkün.",
     formH: "Sizi arayalım mı?",
     formT: "Bilgilerinizi bırakın, size İngilizce dönüş yapalım. Bilgilendirme: talebiniz S.F. Properties'e (Spyridon Fikias, emlak danışmanı, ΓΕΜΗ 172090403000) iletilir.",
+    excl: "Fiyata mobilyalar ve görsellerdeki mobilyalı, peyzajı yapılmış bahçe dahil değildir. Görseller yalnızca temsilidir.",
     disc: "Görseller tasarım çalışmasıdır. Alanlar inşaat ruhsatı çizimlerine göredir. Golden Visa ve vergi bilgileri hukuki tavsiye değildir. Harita verileri © OpenStreetMap katkıda bulunanlar.",
   },
 };
@@ -298,7 +302,7 @@ export function voulaShowcase(a, lang) {
     <span class="vx-eye"><i></i>${esc(c.eye)} <em>${esc(c.spons)}</em></span>
     <h1><span class="vx-l1">${esc(c.h1a)}</span><span class="vx-l2">${esc(c.h1b)}</span></h1>
     <p class="vx-dek">${esc(c.dek)}</p>
-    <div class="vx-price"><small>${esc(c.price)}</small><b data-count="${PRICE}" data-fmt="eur">${eur(PRICE, he)}</b></div>
+    <div class="vx-price"><small>${esc(c.price)}</small><b data-count="${PRICE}" data-fmt="eur">${eur(PRICE, he)}</b><em class="vx-excl">${esc(c.excl)}</em></div>
     <div class="vx-ctas">${waBtn("", "hero")}<a class="vx-btn vx-ghost" href="#vx-loc">${esc(c.see)}${icon("arrow")}</a></div>
   </div>
   <a class="vx-badge" href="#vx-gv" aria-label="${esc(c.gv)}">
@@ -372,7 +376,7 @@ export function voulaShowcase(a, lang) {
 </section>
 
 <div class="vx-form">${localForm(lang, formBox(lang === "tr" || lang === "zh" ? "en" : lang, { id: "lead-voula", kind: "property-lead", fields: ["name", "phone", "email", "msg"], title: c.formH, text: c.formT }))}</div>
-<p class="vx-disc">${esc(c.disc)}</p>
+<p class="vx-disc">${esc(c.excl)} ${esc(c.disc.replace(/^[^.。]*[.。]\s*/, ""))}</p>
 </article>
 <a class="vx-float" href="${esc(wa)}" target="_blank" rel="noopener" data-out="wa-voula-float" aria-label="${esc(c.wa)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3s1 2.7 1.1 2.9c.1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span>${esc(c.wa)}</span></a>
 <script>${JS}</script>`;
@@ -425,6 +429,7 @@ const CSS = `
 @keyframes vxRise{from{opacity:.001;transform:translateY(40px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
 .vx-dek{font-size:clamp(17px,2.2vw,20px);line-height:1.55;color:#D3D6D2;max-width:56ch}
 .vx-price{display:grid;gap:4px}
+.vx-excl{font-size:13px;line-height:1.45;font-weight:400;font-style:normal;color:#C9B48F;max-width:34ch;margin-top:6px}
 .vx-price small{font:500 12px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
 .vx-price b{font:400 clamp(40px,7vw,72px)/1 var(--disp);color:var(--ink);font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate;justify-self:start}
 .vx-ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
