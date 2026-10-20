@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "0013eb95ea6c": 1791302623404,
-    "8e5e1edadda5": 1791302623404,
     "1701023cc7ba": 1791303948998,
     "434ee803d32e": 1791303948998,
     "16444704cbd4": 1791303948998,
@@ -2255,7 +2253,8 @@
     "7fad4db0b02d": 1792511882624,
     "61e0a9bb32c0": 1792511882624,
     "ff13a1126417": 1792511882624,
-    "c8a1c41baf30": 1792511882624
+    "c8a1c41baf30": 1792511882624,
+    "b7c248701270": 1792513351545
   },
   "pending": {},
   "sourceStatus": {
@@ -2267,12 +2266,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T15:57:24.143Z",
+      "at": "2026-10-20T16:21:58.563Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T15:57:24.809Z",
+      "at": "2026-10-20T16:21:59.469Z",
       "items": 5
     },
     "civilprotection": {
@@ -2283,27 +2282,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T15:57:30.458Z",
+      "at": "2026-10-20T16:22:00.917Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T15:57:30.889Z",
+      "at": "2026-10-20T16:22:01.287Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T15:57:31.980Z",
+      "at": "2026-10-20T16:22:02.625Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T15:57:32.623Z",
+      "at": "2026-10-20T16:22:03.609Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T15:57:33.496Z",
+      "at": "2026-10-20T16:22:04.274Z",
       "items": 10
     },
     "toi-greece": {
@@ -2314,23 +2313,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T15:57:34.008Z",
+      "at": "2026-10-20T16:22:04.901Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T15:57:34.117Z",
+      "at": "2026-10-20T16:22:05.015Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T15:57:34.892Z",
+      "at": "2026-10-20T16:22:05.255Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T15:57:35.377Z",
-      "items": 4
+      "at": "2026-10-20T16:22:05.785Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2339,12 +2338,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T15:57:25.682Z",
+      "at": "2026-10-20T16:21:59.833Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T15:57:35.973Z",
+      "at": "2026-10-20T16:22:06.610Z",
       "items": 0
     },
     "hcg": {
@@ -2355,32 +2354,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T15:57:37.179Z",
+      "at": "2026-10-20T16:22:08.336Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T15:57:37.401Z",
+      "at": "2026-10-20T16:22:08.605Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T15:57:37.610Z",
+      "at": "2026-10-20T16:22:08.792Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T15:57:37.928Z",
+      "at": "2026-10-20T16:22:09.038Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T15:57:38.303Z",
+      "at": "2026-10-20T16:22:09.454Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T15:57:38.741Z",
+      "at": "2026-10-20T16:22:09.852Z",
       "items": 11
     }
   },
@@ -2479,6 +2478,11 @@
         "title": "Civil Servants, Culture unions join Teachers’ strike, Students’ protests on Oct 21",
         "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
         "at": "2026-10-20T13:10:54.853Z"
+      },
+      {
+        "title": "Πιερρακάκης: Συνάντηση με την πρέσβη του Ισραήλ Πνινάτ Γιανάι -Στο επίκεντρο η συνεργασία Ελλάδας-Ισραήλ - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Greece and Israel: Ministerial Meeting in Athens» – δεν γράφτηκε ξανά",
+        "at": "2026-10-20T16:22:54.451Z"
       }
     ],
     "errors": [],
@@ -2639,18 +2643,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T15:58:02.624Z",
-    "considered": 8,
-    "picked": 0,
+    "at": "2026-10-20T16:22:31.545Z",
+    "considered": 1,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Capital Maritime Finance: Ιστορική εισαγωγή στη Euronext Athens, με πρωτόγνωρη συμμετοχή α",
-      "· naftemporiki | Τα «ξεχασμένα» δισεκατομμύρια της Ελβετίας – Και ελληνικοί λογαριασμοί του 1940 χωρίς… κλη",
-      "· ingr | Κριστίνα Άπλγκεϊτ: Ξεσπά σε κλάματα – «Λάθος η διάγνωση της Σκλήρυνσης κατά Πλάκας – Είμαι",
-      "· gct | Tsitsipas Saves Three Set Points to Win Almaty Open Thriller",
-      "· gn-iefimerida | Στήνουν ξανά σκηνές οι φοιτητές στο Σύνταγμα -Διαμαρτύρονται για στεγαστικό και ΑΕΙ, αύριο",
-      "· ktg | Greece plans to close 187 of its 831 military camps",
-      "· gtp | Michelin Guide 2027: Greece Gains New Stars as Thessaloniki and Santorini Debut",
-      "· gn-kathimerini | Κριστίνα Απλγκεϊτ: «Είχα διαγνωστεί λανθασμένα με σκλήρυνση κατά πλάκας» - Kathimerini"
+      "✓ gn-iefimerida | Πιερρακάκης: Συνάντηση με την πρέσβη του Ισραήλ Πνινάτ Γιανάι -Στο επίκεντρο η συνεργασία "
     ]
   },
   "evergreenDone": [
