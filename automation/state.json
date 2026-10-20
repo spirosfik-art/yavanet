@@ -2270,112 +2270,6 @@
     "34846b4e5124": 1792490165639
   },
   "pending": {
-    "e1c457": {
-      "createdAt": 1792490189350,
-      "item": {
-        "title": "Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη",
-        "url": "https://www.in.gr/2026/10/20/greece/fotia-stin-tzia-epixeiroun-dyo-aeroskafi/",
-        "summary": "Συναγερμός στην Πυροσβεστική\n The post Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη appeared first on in.gr .",
-        "published": "Tue, 20 Oct 2026 12:43:58 +0300",
-        "id": "0e708aeda576",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "0e708aeda576",
-        "section": "breaking",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Wildfire breaks out on the island of Kea (Tzia), requiring immediate firefighting aircraft response. Important safety update for tourists and property owners in the Cyclades.",
-        "item": {
-          "title": "Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη",
-          "url": "https://www.in.gr/2026/10/20/greece/fotia-stin-tzia-epixeiroun-dyo-aeroskafi/",
-          "summary": "Συναγερμός στην Πυροσβεστική\n The post Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη appeared first on in.gr .",
-          "published": "Tue, 20 Oct 2026 12:43:58 +0300",
-          "id": "0e708aeda576",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "fire-breaks-out-in-kea-tzia",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.625,
-          "lng": 24.333
-        },
-        "strike": null,
-        "alert": {
-          "he": "שריפה ביוון",
-          "en": "Fire in Greece"
-        },
-        "imageKey": "fire",
-        "imageQuery": "forest fire smoke greece",
-        "he": {
-          "title": "שריפה פרצה באי טזיאה: כוחות כיבוי אש פועלים במקום",
-          "seoTitle": "שריפה ביוון: אש פרצה באי טזיאה (קאה)",
-          "seoDesc": "שריפה פרצה בשטח חורש באי טזיאה ביוון. כוחות כיבוי אש גדולים מהיבשה ומהאוויר פועלים במקום בשעה זו.",
-          "keywords": [
-            "שריפה ביוון",
-            "טזיאה",
-            "קאה",
-            "איים ביוון",
-            "חדשות יוון"
-          ],
-          "dek": "שריפה פרצה בשטח מיוער באי טזיאה (קאה). כוחות כיבוי אש רבים הוזנקו למוקד האש.",
-          "tldr": [
-            "שריפה פרצה בשטח חורש באי טזיאה (קאה).",
-            "כוחות כיבוי אש מהאוויר ומהיבשה פועלים להשתלטות על הלהבות.",
-            "כוחות חיזוק צפויים להגיע למקום באמצעות מעבורות."
-          ],
-          "means": "אם אתם מתכננים ביקור באי טזיאה (קאה) בימים הקרובים, מומלץ להתעדכן בהנחיות הרשויות המקומיות ולהישמע להוראות כוחות ההצלה. השריפה מתנהלת בשטח מרוחק, אך חשוב לעקוב אחר עדכוני מזג האוויר והתחבורה הימית באזור.",
-          "body": "## שריפה בשטח חורש באי טזיאה\n\nשריפה פרצה בשטח מיוער באי טזיאה (קאה) ביוון. לפי דיווח של שירות כיבוי האש המקומי, צוותים ראשונים הכוללים כבאים וכלי רכב הגיעו במהירות לזירת האירוע כדי לבלום את התפשטות הלהבות.\n\n## פעולות הכיבוי מהאוויר ומהים\n\nאל המקום הוזנקו שני מטוסי כיבוי המסייעים בפעולות מהאוויר. בנוסף, רשויות הכיבוי הודיעו כי צפויות להגיע למקום שתי יחידות רגליות של כוחות מיוחדים דרך הים באמצעות מעבורות, על מנת לסייע בכיבוי מוקדי האש בשטח הסבוך.\n\n## חקירת נסיבות הדליקה\n\nיחידה מיוחדת לחקירת אירועי הצתה של אזור אטיקה המזרחית הופעלה במטרה לבדוק ולחקור את נסיבות פרוץ השריפה במקום."
-        },
-        "en": {
-          "title": "Wildfire breaks out on the island of Tzia with firefighting forces responding",
-          "seoTitle": "Wildfire in Greece: Fire breaks out on Tzia island",
-          "seoDesc": "A wildfire has broken out in a forest area on the Greek island of Tzia (Kea). Ground and aerial firefighting forces are currently operating at the scene.",
-          "keywords": [
-            "fire in Greece",
-            "Tzia island",
-            "Kea wildfire",
-            "Greek islands news",
-            "Greece emergency"
-          ],
-          "dek": "A wildfire broke out in a forested area on the island of Tzia (Kea), with ground and air assets deployed to the scene.",
-          "tldr": [
-            "A forest fire has started on the island of Tzia (Kea).",
-            "Aerial and ground firefighting teams are actively battling the flames.",
-            "Additional reinforcement teams are scheduled to arrive by ferry."
-          ],
-          "means": "If you are currently visiting or planning a trip to the island of Tzia (Kea), please stay informed through local emergency updates and follow all instructions from local authorities and rescue services.",
-          "body": "## Wildfire in Tzia Forest Area\n\nA wildfire broke out in a forested area on the Greek island of Tzia (Kea). According to the local fire service, initial response units including firefighters and vehicles were swiftly dispatched to the scene to contain the flames.\n\n## Aerial and Maritime Response\n\nTwo firefighting aircraft were deployed to assist with drops from the air. Furthermore, authorities announced that specialized ground units are scheduled to arrive on the island by ferry to reinforce the firefighting efforts on the ground.\n\n## Investigation into the Cause\n\nA specialized arson investigation unit from Eastern Attica has been mobilized to look into the causes of the fire."
-        }
-      },
-      "text": "Vita.gr \n Μικροί διατροφικοί «σύμμαχοι»: 7 φρούτα πλούσια σε αντιοξειδωτικά\n Spotlight Το ελληνικό νησί που μάγεψε τους Σουηδούς \n Μετρό Θεσσαλονίκης: Κλειστοί αύριο πέντε κεντρικοί σταθμοί, λόγω του πανεκπαιδευτικού συλλαλητηρίου \n Δύο συλλήψεις οδηγών στη Θεσσαλονίκη: Ο ένας ήταν μεθυσμένος, ο άλλος οδηγούσε παράνομα \n Μόσχα και Τεχεράνη πιο κοντά από ποτέ: Το νέο ισχυρό μέτωπο που αναδιαμορφώνει τη Μέση Ανατολή \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Φωτιά ξέσπασε σε δασική έκταση στην Τζιά.\n Στο σημείο έσπευσαν 4 πυροσβέστες με 2 οχήματα και 2 αεροσκάφη.\n #Πυρκαγιά σε δασική έκταση στη νήσο Κέα. Επιχειρούν 4 #πυροσβέστες με 2 #οχήματα και 2 Α/Φ. Επίσης, έχει προγραμματιστεί να μεταβούν ακτοπλοϊκώς 2 ομάδες #πεζοπόρων της 1ης #ΕΜΟΔΕ, με 16 #πυροσβέστες.\n — Πυροσβεστικό Σώμα (@pyrosvestiki) October 20, 2026 \n Σύμφωνα με την πυροσβεστική, έχει προγραμματιστεί να μεταβούν ακτοπλοϊκώς 2 ομάδες πεζοπόρων της 1ης ΕΜΟΔΕ, με 16 πυροσβέστες.\n Για τη διερεύνηση των αιτιών της πυρκαγιάς κινητοποιήθηκε το Ανακριτικό Κλιμάκιο Αντιμετώπισης Εγκλημάτων Εμπρησμού Ανατολικής Αττικής.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ο 5χρονος Γκρέγκορ με τη σπάνια νευρολογική πάθηση είναι ο Νεότερος Φιλάνθρωπος της Χρονιάς: Το στοίχημα που συγκίνησε τη Βρετανία \n Πώς να φοράς τζιν μπουφάν ανδρικά χωρίς να δείχνεις ότι προσπαθείς πολύ; \n Π. Μαρινάκης: Υπό πίεση ενόψει κινητοποιήσεων μιλά προκαταβολικά για μπάχαλα και επιχειρεί να σπιλώσει τον Τσίπρα \n Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη \n Ραντεβού με τον Φόβο – Τολμηρή αποστολή της Ιαπωνίας επιχειρεί να φέρει δείγμα από αρειανό φεγγάρι \n Δίκη για τα Τέμπη: «Η κόρη μου ταξίδευε με τρένο ωρολογιακή βόμβα» \n Από τα deepfakes στο ransomware: Χαρτογραφώντας το νέο τοπίο της κυβερνοασφάλειας \n ΑΑΔΕ: Από 1η Νοεμβρίου η νέα διαδικασία για την απαλλαγή ΕΦΚ στο αγροτικό πετρέλαιο \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
-      "issues": [],
-      "el": {
-        "title": "Φωτιά ξέσπασε στην Τζια με ισχυρές πυροσβεστικές δυνάμεις να επιχειρούν",
-        "dek": "Δασική πυρκαγιά ξέσπασε σε δασική έκταση στην Τζια (Κέα), ενώ επί τόπου έχουν κινητοποιηθεί επίγειες και εναέριες δυνάμεις.",
-        "tldr": [
-          "Δασική πυρκαγιά εκδηλώθηκε στο νησί της Τζιας (Κέας).",
-          "Εναέριες και επίγειες πυροσβεστικές δυνάμεις επιχειρούν ενεργά για την κατάσβεση.",
-          "Επιπλέον δυνάμεις ενίσχυσης αναμένεται να φτάσουν με φέρι μποτ."
-        ]
-      },
-      "notified": true
-    },
     "fc4a40": {
       "createdAt": 1792490213760,
       "item": {
@@ -2609,7 +2503,7 @@
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-20",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "thessaloniki-traffic-restrictions-october-2026",
@@ -2634,6 +2528,12 @@
         "title": "Thessaloniki: Five metro stations to close temporarily on Wednesday",
         "at": "2026-10-20T11:59:25+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "fire-breaks-out-in-kea-tzia",
+        "title": "Wildfire breaks out on the island of Tzia with firefighting forces responding",
+        "at": "2026-10-20T12:58:13+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
