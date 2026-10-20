@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "4032ead46546": 1791246903316,
-    "034d3aa63b66": 1791246903316,
     "979adb1d7367": 1791248246022,
     "1968bcaa0e1a": 1791249940976,
     "46a7116536a6": 1791249940976,
@@ -2258,7 +2256,13 @@
     "81500aa7272e": 1792449371395,
     "99a34862beb2": 1792451070084,
     "e709f526cf6b": 1792453002280,
-    "8cc48a12526c": 1792453002280
+    "8cc48a12526c": 1792453002280,
+    "e0e96e350040": 1792457319188,
+    "4f6957ed31fc": 1792457319188,
+    "756b289b3f38": 1792457319188,
+    "a3223d6f829d": 1792457319188,
+    "1d6d86b811a1": 1792457319188,
+    "685bf737763d": 1792457319188
   },
   "pending": {},
   "sourceStatus": {
@@ -2270,12 +2274,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T00:01:57.311Z",
-      "items": 10
+      "at": "2026-10-20T00:48:21.586Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T00:01:57.856Z",
+      "at": "2026-10-20T00:48:22.341Z",
       "items": 5
     },
     "civilprotection": {
@@ -2286,27 +2290,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T00:01:59.068Z",
+      "at": "2026-10-20T00:48:24.381Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T00:02:12.596Z",
+      "at": "2026-10-20T00:48:29.203Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T00:02:13.375Z",
+      "at": "2026-10-20T00:48:30.452Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T00:02:13.904Z",
+      "at": "2026-10-20T00:48:31.464Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T00:02:14.596Z",
+      "at": "2026-10-20T00:48:32.354Z",
       "items": 10
     },
     "toi-greece": {
@@ -2317,22 +2321,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T00:02:15.648Z",
+      "at": "2026-10-20T00:48:32.951Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T00:02:15.737Z",
-      "items": 14
+      "at": "2026-10-20T00:48:33.237Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T00:02:16.159Z",
-      "items": 3
+      "at": "2026-10-20T00:48:34.037Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T00:02:16.301Z",
+      "at": "2026-10-20T00:48:34.550Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2342,12 +2346,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T00:01:58.160Z",
+      "at": "2026-10-20T00:48:23.035Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T00:02:17.097Z",
+      "at": "2026-10-20T00:48:35.213Z",
       "items": 0
     },
     "hcg": {
@@ -2358,33 +2362,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T00:02:18.180Z",
+      "at": "2026-10-20T00:48:36.920Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T00:02:18.374Z",
+      "at": "2026-10-20T00:48:37.092Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T00:02:18.661Z",
+      "at": "2026-10-20T00:48:37.273Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T00:02:18.953Z",
-      "items": 2
+      "at": "2026-10-20T00:48:37.497Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T00:02:19.311Z",
+      "at": "2026-10-20T00:48:37.868Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T00:02:19.747Z",
-      "items": 8
+      "at": "2026-10-20T00:48:38.359Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2528,12 +2532,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-19T23:36:42.280Z",
-    "considered": 2,
+    "at": "2026-10-20T00:48:39.188Z",
+    "considered": 6,
     "picked": 0,
     "items": [
-      "· gct | Australian MP Helen Haines Critically Injured in Suspected Targeted Attack",
-      "· ert | Αιφνιδιαστική επίσκεψη Χέγκσεθ στο Ισραήλ – Συνάντηση με Νετανιάχου"
+      "· gct | Digital Platform Tracks Tourism and Sustainability On Ionian Islands",
+      "· gct | Greek Army Chief Visits War College to Address Reserve Officers",
+      "· gct | Italy Sends 500 Soldiers to Milan After Thugs Smash Up City",
+      "· ingr | Axios: Ο Χέγκσεθ συναντά τον Νετανιάχου σε απροειδοποίητη επίσκεψη στο Ισραήλ",
+      "· gct | US Defence Secretary Pete Hegseth Makes Surprise Visit to Israel",
+      "· gn-iefimerida | Σκέρτσος για νομοσχέδιο ηλικιακού περιορισμού παιδιών στα social: Δίνουμε λύση αναλογική, "
     ]
   },
   "evergreenDone": [
