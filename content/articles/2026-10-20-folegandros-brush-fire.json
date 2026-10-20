@@ -1,0 +1,78 @@
+{
+  "slug": "folegandros-brush-fire",
+  "section": "breaking",
+  "publishedAt": "2026-10-20T16:44:40+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 36.6275,
+    "lng": 24.9125
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/perifereiakoi-stathmoi/notio_aigaio/pyrkagia-se-perioxi-xamilis-vlastisis-sti-folegandro/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37320892/pexels-photo-37320892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A wildfire with smoke and flames engulfing brush in a woodland area in Poprad, Slovakia.",
+    "credit": "Photo: Michal Petráš / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/wildfire-spreads-through-poprad-woodlands-37320892/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": {
+    "he": "שריפה ביוון",
+    "en": "Greece Fire"
+  },
+  "he": {
+    "title": "שריפה פרצה בפולגנדרוס: כוחות כיבוי פועלים במקום",
+    "seoTitle": "שריפה בפולגנדרוס: אש פרצה באי",
+    "seoDesc": "שריפת צמחייה פרצה באי פולגנדרוס ביוון. אין חשש ליישובים סמוכים, אך הגישה לאזור קשה. כל הפרטים והעדכונים החשובים.",
+    "keywords": [
+      "שריפה ביוון",
+      "פולגנדרוס",
+      "שריפה באי פולגנדרוס",
+      "יוון",
+      "חדשות יוון"
+    ],
+    "dek": "שריפת צמחייה נמוכה פרצה באי פולגנדרוס. הרשויות מדווחות כי נכון לעכשיו אין סכנה ליישובים באזור, אך הגישה למוקד האש מורכבת.",
+    "tldr": [
+      "שריפת צמחייה פרצה באי פולגנדרוס סמוך לשעה 13:15.",
+      "כוחות כיבוי אש פועלים בשטח הקשה לגישה עם כוחות קרקעיים ואוויריים.",
+      "לפי שעה אין איום על יישובים באזור האי."
+    ],
+    "means": "אם אתם מתכננים לבקר בפולגנדרוס או נמצאים באי, מומלץ להתעדכן בהנחיות הרשויות המקומיות, להתרחק מאזורים מרוחקים וקשים לגישה, ולהישמע להוראות כוחות ההצלה במקום.",
+    "body": "## שריפת צמחייה באי פולגנדרוס\n\nשריפת צמחייה נמוכה פרצה באי פולגנדרוס ביוון זמן קצר לפני השעה 13:15. למקום הוזעקו כוחות כיבוי והצלה כדי להשתלט על הלהבות ולמנוע את התפשטות האש.\n\n## מצב הכוחות בשטח\n\nעל פי גורמי ההצלה הרשמיים, לפחות חמישה כבאים פועלים במוקד האש כשהם נעזרים בשני רכבי כיבוי ובשני אמצעים אוויריים. המשימה בשטח מורכבת במיוחד בשל תוואי השטח הקשה והמרוחק של האזור.\n\n## אין סכנה מיידית ליישובים\n\nהרשויות המקומיות מעדכנות כי נכון לעכשיו אין איום ישיר על יישובים או בתים באזור. עם זאת, הפעילות נמשכת כדי להבטיח את שליטת הצוותים באש ולמנוע הפתעות בשל תנאי השטח."
+  },
+  "en": {
+    "title": "Brush fire breaks out on Folegandros island",
+    "seoDesc": "A brush fire broke out on the Greek island of Folegandros. No settlements are currently threatened, and firefighting forces are operating on site.",
+    "keywords": [
+      "Folegandros fire",
+      "Greece wildfire",
+      "Folegandros island",
+      "Greece news"
+    ],
+    "dek": "A low-vegetation brush fire broke out on the island of Folegandros. Authorities report that no settlements are currently threatened, though access to the area is difficult.",
+    "tldr": [
+      "A brush fire broke out on Folegandros shortly before 13:15.",
+      "Firefighting crews and aerial means are deployed at the difficult terrain.",
+      "No settlements are currently threatened by the flames."
+    ],
+    "means": "If you are visiting or staying on Folegandros, stay updated with local authorities, avoid hard-to-reach areas, and follow all safety instructions given by emergency services.",
+    "body": "## Brush Fire on Folegandros\n\nA low-vegetation brush fire broke out on the Greek island of Folegandros shortly before 13:15. Emergency response teams were quickly dispatched to contain the flames and secure the area.\n\n## Response Operations\n\nAccording to official reports, five firefighters backed by two vehicles and two aerial units are operating at the scene. Firefighting efforts are challenged by the rugged and hard-to-reach nature of the terrain.\n\n## No Threat to Settlements\n\nLocal authorities have confirmed that no populated settlements are currently under threat. Fire crews remain deployed to fully control the situation and prevent any escalation."
+  },
+  "meta": {
+    "itemId": "e24173ca4895",
+    "imageQuery": "brush fire smoke greece",
+    "sourceHash": "d0e2e4a84c33",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-20T13:44:41.123Z",
+    "official": false
+  }
+}
