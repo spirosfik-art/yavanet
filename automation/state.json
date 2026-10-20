@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "3debb573312f": 1791253488064,
-    "4e6962fb42ae": 1791253488064,
-    "d24665d38f46": 1791254310484,
     "7b5c3a222563": 1791255743577,
     "bee73c5d420e": 1791257078486,
     "cf9fe3879b51": 1791257078486,
@@ -2264,7 +2261,10 @@
     "8c52e95909e8": 1792459481565,
     "2eaa1d280954": 1792459481565,
     "c6b22e818571": 1799025881565,
-    "482df943e6be": 1792461272909
+    "482df943e6be": 1792461272909,
+    "579ad8a7bffa": 1792464153131,
+    "2c8e0613233b": 1792464153131,
+    "926c94e6b134": 1792464153131
   },
   "pending": {},
   "sourceStatus": {
@@ -2276,12 +2276,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T02:14:23.131Z",
-      "items": 10
+      "at": "2026-10-20T02:42:05.886Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T02:14:23.654Z",
+      "at": "2026-10-20T02:42:06.647Z",
       "items": 5
     },
     "civilprotection": {
@@ -2292,27 +2292,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T02:14:24.383Z",
+      "at": "2026-10-20T02:42:07.703Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T02:14:37.044Z",
+      "at": "2026-10-20T02:42:23.914Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T02:14:37.810Z",
+      "at": "2026-10-20T02:42:25.141Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T02:14:38.366Z",
+      "at": "2026-10-20T02:42:25.899Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T02:14:38.701Z",
+      "at": "2026-10-20T02:42:26.592Z",
       "items": 10
     },
     "toi-greece": {
@@ -2323,22 +2323,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T02:14:39.130Z",
+      "at": "2026-10-20T02:42:27.328Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T02:14:39.212Z",
+      "at": "2026-10-20T02:42:27.584Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T02:14:39.405Z",
+      "at": "2026-10-20T02:42:28.273Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T02:14:39.545Z",
+      "at": "2026-10-20T02:42:28.768Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2348,12 +2348,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T02:14:23.856Z",
+      "at": "2026-10-20T02:42:06.933Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T02:14:39.968Z",
+      "at": "2026-10-20T02:42:29.567Z",
       "items": 0
     },
     "hcg": {
@@ -2364,32 +2364,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T02:14:41.097Z",
+      "at": "2026-10-20T02:42:30.859Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T02:14:41.340Z",
+      "at": "2026-10-20T02:42:31.060Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T02:14:41.550Z",
+      "at": "2026-10-20T02:42:31.239Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T02:14:41.810Z",
+      "at": "2026-10-20T02:42:31.505Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T02:14:42.135Z",
+      "at": "2026-10-20T02:42:31.851Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T02:14:42.576Z",
+      "at": "2026-10-20T02:42:32.356Z",
       "items": 8
     }
   },
@@ -2405,7 +2405,13 @@
         "section": "travel"
       }
     ],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Moving your tax residence to Greece: Conditions and benefits",
+        "reason": "Ίδιο θέμα με «Greece: Draft bill published for tax cuts announced in Thessaloniki» – δεν γράφτηκε ξανά",
+        "at": "2026-10-20T02:42:38.350Z"
+      }
+    ],
     "errors": [],
     "fb": [],
     "ig": []
@@ -2534,11 +2540,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T01:54:32.909Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-20T02:42:33.131Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· gct | GNTO Melbourne Office Marks Official Launch at Greek Consulate"
+      "✓ gct | Moving your tax residence to Greece: Conditions and benefits",
+      "· gct | Moscow Sends a Crisis Specialist to Athens",
+      "· gct | New documentary brings Pope Leo XIV and Chris Pratt together to explore St. Peter’s tomb"
     ]
   },
   "evergreenDone": [
