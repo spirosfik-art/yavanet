@@ -87,6 +87,50 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-
   return fs.existsSync(out) && fs.statSync(out).size > 20000 ? `/igc/${a.slug}.jpg` : null;
 }
 
+// Story 1080x1920 (JPEG): φωτογραφία πάνω, τίτλος, «link στο bio». Το Instagram δεν επιτρέπει αυτοκόλλητο link μέσω API.
+export function renderStoryCard(a, kicker) {
+  const chrome = chromeBin();
+  if (!chrome) return null;
+  let img = a.image.url;
+  if (img.startsWith("/")) img = "file://" + path.join(ROOT, "site/assets", img);
+  img = img.replace(/h=650&w=940/, "w=1400");
+  const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
+  const title = a.he.title;
+  const fs1 = title.length > 60 ? 76 : title.length > 42 ? 88 : 100;
+  const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
+<style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;background:#0B3A5B;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff}
+.ph{position:absolute;inset:0 0 760px 0;background:url("${img}") center/cover}
+.ph:after{content:"";position:absolute;inset:auto 0 0 0;height:420px;background:linear-gradient(transparent,#0B3A5B)}
+.top{position:absolute;top:150px;right:72px;left:72px;display:flex;justify-content:space-between;align-items:center}
+.top svg{width:96px;height:96px}.brand{font-size:40px;font-weight:800;background:rgba(11,58,91,.75);padding:10px 26px;border-radius:40px}
+.box{position:absolute;inset:auto 0 370px 0;padding:0 72px}
+.k{display:inline-block;background:#F0B650;color:#0B3A5B;font-weight:800;font-size:40px;padding:10px 30px;border-radius:44px;margin-bottom:34px}
+h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-height:1.12}
+.cta{position:absolute;bottom:200px;left:72px;right:72px;display:flex;justify-content:center}
+.cta span{background:#fff;color:#0B3A5B;font-weight:800;font-size:46px;padding:22px 44px;border-radius:60px}
+</style></head><body><div class="ph"></div>
+<div class="top"><span class="brand">יוונט · yavanet.gr</span>${icon}</div>
+<div class="box"><span class="k">${esc(kicker || KICKER[a.section] || "יוון")}</span><h1>${esc(title)}</h1></div>
+<div class="cta"><span>👆 הכתבה המלאה · הקישור בביו</span></div></body></html>`;
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "igs-"));
+  const hf = path.join(tmp, "story.html");
+  fs.writeFileSync(hf, html);
+  fs.mkdirSync(IG_DIR, { recursive: true });
+  const out = path.join(IG_DIR, `${a.slug}-story.jpg`);
+  try {
+    execFileSync(chrome, ["--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--virtual-time-budget=8000", "--window-size=1080,1920", `--screenshot=${out}`, "file://" + hf], { stdio: "ignore", timeout: 60000 });
+    const head = fs.readFileSync(out).subarray(0, 3);
+    if (!(head[0] === 0xff && head[1] === 0xd8)) throw new Error("not a JPEG");
+  } catch (e) {
+    console.log("story-card error:", e.message);
+    return null;
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+  return fs.existsSync(out) && fs.statSync(out).size > 20000 ? `/igc/${a.slug}-story.jpg` : null;
+}
+
 // Καταγράφει ότι το άρθρο πήγε στο Instagram, για τη σελίδα yavanet.gr/instagram/ (link στο bio)
 export function markIgPosted(slug) {
   const f = path.join(IG_DIR, "posted.json");
