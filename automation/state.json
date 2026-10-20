@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "1701023cc7ba": 1791303948998,
-    "434ee803d32e": 1791303948998,
-    "16444704cbd4": 1791303948998,
-    "2ad3cdf9b1d8": 1791303948998,
-    "b343e45f1cda": 1791303948998,
-    "96530ac7c6ce": 1791303948998,
     "e2b71eb69b59": 1791306205621,
     "52f79a306235": 1791307284597,
     "61b11925363b": 1791307284597,
@@ -2254,7 +2248,9 @@
     "61e0a9bb32c0": 1792511882624,
     "ff13a1126417": 1792511882624,
     "c8a1c41baf30": 1792511882624,
-    "b7c248701270": 1792513351545
+    "b7c248701270": 1792513351545,
+    "62088fd9e64f": 1792515418890,
+    "a4d1e973285f": 1792515418890
   },
   "pending": {},
   "sourceStatus": {
@@ -2266,12 +2262,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T16:21:58.563Z",
-      "items": 10
+      "at": "2026-10-20T16:56:31.671Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T16:21:59.469Z",
+      "at": "2026-10-20T16:56:32.265Z",
       "items": 5
     },
     "civilprotection": {
@@ -2282,27 +2278,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T16:22:00.917Z",
+      "at": "2026-10-20T16:56:33.412Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T16:22:01.287Z",
+      "at": "2026-10-20T16:56:33.831Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T16:22:02.625Z",
+      "at": "2026-10-20T16:56:34.870Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T16:22:03.609Z",
-      "items": 1
+      "at": "2026-10-20T16:56:35.419Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T16:22:04.274Z",
+      "at": "2026-10-20T16:56:36.243Z",
       "items": 10
     },
     "toi-greece": {
@@ -2313,22 +2309,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T16:22:04.901Z",
+      "at": "2026-10-20T16:56:36.686Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T16:22:05.015Z",
+      "at": "2026-10-20T16:56:36.795Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T16:22:05.255Z",
+      "at": "2026-10-20T16:56:36.957Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T16:22:05.785Z",
+      "at": "2026-10-20T16:56:37.081Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2338,12 +2334,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T16:21:59.833Z",
+      "at": "2026-10-20T16:56:32.726Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T16:22:06.610Z",
+      "at": "2026-10-20T16:56:37.551Z",
       "items": 0
     },
     "hcg": {
@@ -2354,39 +2350,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T16:22:08.336Z",
+      "at": "2026-10-20T16:56:38.639Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T16:22:08.605Z",
+      "at": "2026-10-20T16:56:38.842Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T16:22:08.792Z",
+      "at": "2026-10-20T16:56:39.035Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T16:22:09.038Z",
+      "at": "2026-10-20T16:56:39.329Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T16:22:09.454Z",
+      "at": "2026-10-20T16:56:39.748Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T16:22:09.852Z",
+      "at": "2026-10-20T16:56:40.211Z",
       "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-20",
-    "count": 9,
+    "count": 10,
     "published": [
       {
         "slug": "thessaloniki-traffic-restrictions-october-2026",
@@ -2441,6 +2437,12 @@
         "title": "Greece: Israeli Ambassador meets Finance Minister in Athens",
         "at": "2026-10-20T18:57:20+03:00",
         "section": "israelis"
+      },
+      {
+        "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
+        "title": "Michelin Guide Greece 2027: Thessaloniki and Santorini Join",
+        "at": "2026-10-20T19:58:15+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2643,11 +2645,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T16:22:31.545Z",
-    "considered": 1,
+    "at": "2026-10-20T16:56:58.890Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "✓ gn-iefimerida | Πιερρακάκης: Συνάντηση με την πρέσβη του Ισραήλ Πνινάτ Γιανάι -Στο επίκεντρο η συνεργασία "
+      "· ktg | Greece rejects as “Illegal” Libya’s decision to approve Memorandum with Turkey",
+      "✓ gct | Michelin Guide Expands Across Greece With Seven New Stars"
     ]
   },
   "evergreenDone": [
