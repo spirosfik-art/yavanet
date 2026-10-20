@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "06b605e9c31e": 1791265939368,
-    "6dd081b25475": 1791265939368,
-    "815caa8b8146": 1791265939368,
-    "fa89486952ed": 1791265939368,
-    "b43cd0d234a2": 1791266550679,
-    "f4716f7e3b54": 1791266550679,
     "aea326dab65f": 1791268239944,
     "498a4eb54f7e": 1791268239944,
     "50e4ba032c02": 1791268239944,
@@ -2265,7 +2259,8 @@
     "dab0441adbc8": 1792474636432,
     "cf6efa81f6cb": 1792474636432,
     "ae3f4fba9bf5": 1792474636432,
-    "c6c94cbd73b7": 1792474636432
+    "c6c94cbd73b7": 1792474636432,
+    "9918aa9cb717": 1792476490954
   },
   "pending": {
     "95a56e": {
@@ -2379,13 +2374,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T05:36:47.356Z",
-      "items": 0
+      "at": "2026-10-20T06:07:44.808Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T05:36:48.284Z",
-      "items": 8
+      "at": "2026-10-20T06:07:45.386Z",
+      "items": 5
     },
     "civilprotection": {
       "ok": false,
@@ -2395,27 +2390,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T05:36:50.018Z",
+      "at": "2026-10-20T06:07:46.817Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T05:37:03.745Z",
+      "at": "2026-10-20T06:07:59.998Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T05:37:04.869Z",
+      "at": "2026-10-20T06:08:01.755Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T05:37:05.767Z",
-      "items": 4
+      "at": "2026-10-20T06:08:02.418Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T05:37:06.691Z",
+      "at": "2026-10-20T06:08:03.338Z",
       "items": 10
     },
     "toi-greece": {
@@ -2426,23 +2421,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T05:37:07.312Z",
+      "at": "2026-10-20T06:08:03.743Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T05:37:07.569Z",
+      "at": "2026-10-20T06:08:03.818Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T05:37:07.675Z",
+      "at": "2026-10-20T06:08:03.863Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T05:37:07.890Z",
-      "items": 6
+      "at": "2026-10-20T06:08:04.007Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2451,12 +2446,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T05:36:48.957Z",
+      "at": "2026-10-20T06:07:46.099Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T05:37:08.557Z",
+      "at": "2026-10-20T06:08:04.501Z",
       "items": 0
     },
     "hcg": {
@@ -2467,32 +2462,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T05:37:10.414Z",
+      "at": "2026-10-20T06:08:05.803Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T05:37:10.609Z",
+      "at": "2026-10-20T06:08:05.954Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T05:37:10.769Z",
+      "at": "2026-10-20T06:08:06.092Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T05:37:10.929Z",
-      "items": 3
+      "at": "2026-10-20T06:08:06.294Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T05:37:11.216Z",
+      "at": "2026-10-20T06:08:06.578Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T05:37:11.618Z",
+      "at": "2026-10-20T06:08:06.986Z",
       "items": 11
     }
   },
@@ -2526,8 +2521,18 @@
       }
     ],
     "errors": [],
-    "fb": [],
-    "ig": []
+    "fb": [
+      {
+        "slug": "thessaloniki-traffic-restrictions-october-2026",
+        "at": "2026-10-20T06:08:11.001Z"
+      }
+    ],
+    "ig": [
+      {
+        "slug": "thessaloniki-traffic-restrictions-october-2026",
+        "at": "2026-10-20T06:08:22.499Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2653,18 +2658,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T05:37:16.432Z",
-    "considered": 8,
+    "at": "2026-10-20T06:08:10.954Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | ΟΗΕ: Ο ισραηλινός στρατός παρεμποδίζει το έργο της UNIFIL στον Λίβανο και συνεχίζει τις πα",
-      "· migration | 30.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 29.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 27.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· gct | Feast Day of Agios Gerasimos, Patron Saint of Kefalonia",
-      "· gct | White Fox Boutique buys $87m Alexandria warehouse",
-      "· naftemporiki | Αιφνιδιαστική επίσκεψη του Αμερικανού υπουργού Άμυνας στο Ισραήλ – Συνάντηση με Νετανιάχου",
-      "· gn-iefimerida | Ηλεκτρονικές αποδείξεις: Πώς θα αποφύγουν οι φορολογούμενοι έξτρα επιβάρυνση 22% - iefimer"
+      "· gn-iefimerida | Ο Χέγκσεθ πήγε στο Ισραήλ -«Προεκλογική» συνάντηση με τον Νετανιάχου εν μέσω σεναρίων για "
     ]
   },
   "evergreenDone": [
@@ -2707,5 +2705,28 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "thessaloniki-traffic-restrictions-october-2026",
+      "url": "https://yavanet.gr/a/thessaloniki-traffic-restrictions-october-2026/",
+      "at": "2026-10-20T06:08:11.001Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/thessaloniki-traffic-restrictions-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/thessaloniki-traffic-restrictions-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "סלוניקי: שינויים בהסדרי התנועה לרגל אירועי ה-28 באוקטובר",
+        "title_en": "Thessaloniki: Traffic restrictions for October 28 celebrations",
+        "dek_he": "העיר סלוניקי תקיים סדרת אירועים לציון יום השנה הלאומי וחג הפטרון סנט דמטריוס, מה שיוביל לחסימות כבישים ושינויים בנתיבי הנסיעה.",
+        "dek_en": "The city of Thessaloniki will host a series of events for the national anniversary and St. Demetrius feast, leading to road closures and traffic changes.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/29764492/pexels-photo-29764492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "סלוניקי: שינויים בהסדרי התנועה לרגל אירועי ה-28 באוקטובר\n\nהעיר סלוניקי תקיים סדרת אירועים לציון יום השנה הלאומי וחג הפטרון סנט דמטריוס, מה שיוביל לחסימות כבישים ושינויים בנתיבי הנסיעה.\n\nhttps://yavanet.gr/a/thessaloniki-traffic-restrictions-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Thessaloniki: Traffic restrictions for October 28 celebrations\n\nThe city of Thessaloniki will host a series of events for the national anniversary and St. Demetrius feast, leading to road closures and traffic changes.\n\nhttps://yavanet.gr/en/a/thessaloniki-traffic-restrictions-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/thessaloniki-traffic-restrictions-october-2026.jpg",
+          "caption": "סלוניקי: שינויים בהסדרי התנועה לרגל אירועי ה-28 באוקטובר\n\nהעיר סלוניקי תקיים סדרת אירועים לציון יום השנה הלאומי וחג הפטרון סנט דמטריוס, מה שיוביל לחסימות כבישים ושינויים בנתיבי הנסיעה.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון"
+        }
+      }
+    }
+  ]
 }
