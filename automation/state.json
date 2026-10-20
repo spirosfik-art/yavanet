@@ -14,19 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "64fc27d6705a": 1791278814527,
-    "2dea935b25c3": 1791278814527,
-    "f0b1ffd719b5": 1791278814527,
-    "da9c56f982fb": 1791278814527,
-    "27602e42898a": 1791278814527,
-    "b6a299c6656e": 1791278814527,
-    "61671926b082": 1791279644331,
-    "c893d2cc7818": 1791279644331,
-    "dc1bd972ff88": 1791279644331,
-    "2e5ebcd31812": 1791280421925,
-    "9e119f16ddeb": 1791280421925,
-    "9e8b58b04fbc": 1791280421925,
-    "189f063f2c42": 1791280421925,
     "3ff7153aceda": 1791280974867,
     "f3b2d4caf590": 1791280974867,
     "b393d4c79a84": 1791280974867,
@@ -2267,9 +2254,232 @@
     "2507c65fa5bd": 1792488258056,
     "647bbe5e1c1f": 1792488258056,
     "1a54366ff2e9": 1792488258056,
-    "ded7bda64c6f": 1792488258056
+    "ded7bda64c6f": 1792488258056,
+    "0106dccfb9cf": 1792490165639,
+    "0e708aeda576": 1792490165639,
+    "f3cd2c6ab6c6": 1792490165639,
+    "34d8b311f313": 1792490165639,
+    "c7874da7910f": 1792490165639,
+    "b6ae0ebaf1b3": 1792490165639,
+    "ae81c866fd61": 1792490165639,
+    "c6db4b4e00ac": 1792490165639,
+    "d11ab2dd4b1e": 1792490165639,
+    "caabe429d441": 1792490165639,
+    "ec1edc0e65bc": 1792490165639,
+    "3678d0f84565": 1792490165639,
+    "34846b4e5124": 1792490165639
   },
-  "pending": {},
+  "pending": {
+    "e1c457": {
+      "createdAt": 1792490189350,
+      "item": {
+        "title": "Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη",
+        "url": "https://www.in.gr/2026/10/20/greece/fotia-stin-tzia-epixeiroun-dyo-aeroskafi/",
+        "summary": "Συναγερμός στην Πυροσβεστική\n The post Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη appeared first on in.gr .",
+        "published": "Tue, 20 Oct 2026 12:43:58 +0300",
+        "id": "0e708aeda576",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "0e708aeda576",
+        "section": "breaking",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Wildfire breaks out on the island of Kea (Tzia), requiring immediate firefighting aircraft response. Important safety update for tourists and property owners in the Cyclades.",
+        "item": {
+          "title": "Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη",
+          "url": "https://www.in.gr/2026/10/20/greece/fotia-stin-tzia-epixeiroun-dyo-aeroskafi/",
+          "summary": "Συναγερμός στην Πυροσβεστική\n The post Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη appeared first on in.gr .",
+          "published": "Tue, 20 Oct 2026 12:43:58 +0300",
+          "id": "0e708aeda576",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "fire-breaks-out-in-kea-tzia",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.625,
+          "lng": 24.333
+        },
+        "strike": null,
+        "alert": {
+          "he": "שריפה ביוון",
+          "en": "Fire in Greece"
+        },
+        "imageKey": "fire",
+        "imageQuery": "forest fire smoke greece",
+        "he": {
+          "title": "שריפה פרצה באי טזיאה: כוחות כיבוי אש פועלים במקום",
+          "seoTitle": "שריפה ביוון: אש פרצה באי טזיאה (קאה)",
+          "seoDesc": "שריפה פרצה בשטח חורש באי טזיאה ביוון. כוחות כיבוי אש גדולים מהיבשה ומהאוויר פועלים במקום בשעה זו.",
+          "keywords": [
+            "שריפה ביוון",
+            "טזיאה",
+            "קאה",
+            "איים ביוון",
+            "חדשות יוון"
+          ],
+          "dek": "שריפה פרצה בשטח מיוער באי טזיאה (קאה). כוחות כיבוי אש רבים הוזנקו למוקד האש.",
+          "tldr": [
+            "שריפה פרצה בשטח חורש באי טזיאה (קאה).",
+            "כוחות כיבוי אש מהאוויר ומהיבשה פועלים להשתלטות על הלהבות.",
+            "כוחות חיזוק צפויים להגיע למקום באמצעות מעבורות."
+          ],
+          "means": "אם אתם מתכננים ביקור באי טזיאה (קאה) בימים הקרובים, מומלץ להתעדכן בהנחיות הרשויות המקומיות ולהישמע להוראות כוחות ההצלה. השריפה מתנהלת בשטח מרוחק, אך חשוב לעקוב אחר עדכוני מזג האוויר והתחבורה הימית באזור.",
+          "body": "## שריפה בשטח חורש באי טזיאה\n\nשריפה פרצה בשטח מיוער באי טזיאה (קאה) ביוון. לפי דיווח של שירות כיבוי האש המקומי, צוותים ראשונים הכוללים כבאים וכלי רכב הגיעו במהירות לזירת האירוע כדי לבלום את התפשטות הלהבות.\n\n## פעולות הכיבוי מהאוויר ומהים\n\nאל המקום הוזנקו שני מטוסי כיבוי המסייעים בפעולות מהאוויר. בנוסף, רשויות הכיבוי הודיעו כי צפויות להגיע למקום שתי יחידות רגליות של כוחות מיוחדים דרך הים באמצעות מעבורות, על מנת לסייע בכיבוי מוקדי האש בשטח הסבוך.\n\n## חקירת נסיבות הדליקה\n\nיחידה מיוחדת לחקירת אירועי הצתה של אזור אטיקה המזרחית הופעלה במטרה לבדוק ולחקור את נסיבות פרוץ השריפה במקום."
+        },
+        "en": {
+          "title": "Wildfire breaks out on the island of Tzia with firefighting forces responding",
+          "seoTitle": "Wildfire in Greece: Fire breaks out on Tzia island",
+          "seoDesc": "A wildfire has broken out in a forest area on the Greek island of Tzia (Kea). Ground and aerial firefighting forces are currently operating at the scene.",
+          "keywords": [
+            "fire in Greece",
+            "Tzia island",
+            "Kea wildfire",
+            "Greek islands news",
+            "Greece emergency"
+          ],
+          "dek": "A wildfire broke out in a forested area on the island of Tzia (Kea), with ground and air assets deployed to the scene.",
+          "tldr": [
+            "A forest fire has started on the island of Tzia (Kea).",
+            "Aerial and ground firefighting teams are actively battling the flames.",
+            "Additional reinforcement teams are scheduled to arrive by ferry."
+          ],
+          "means": "If you are currently visiting or planning a trip to the island of Tzia (Kea), please stay informed through local emergency updates and follow all instructions from local authorities and rescue services.",
+          "body": "## Wildfire in Tzia Forest Area\n\nA wildfire broke out in a forested area on the Greek island of Tzia (Kea). According to the local fire service, initial response units including firefighters and vehicles were swiftly dispatched to the scene to contain the flames.\n\n## Aerial and Maritime Response\n\nTwo firefighting aircraft were deployed to assist with drops from the air. Furthermore, authorities announced that specialized ground units are scheduled to arrive on the island by ferry to reinforce the firefighting efforts on the ground.\n\n## Investigation into the Cause\n\nA specialized arson investigation unit from Eastern Attica has been mobilized to look into the causes of the fire."
+        }
+      },
+      "text": "Vita.gr \n Μικροί διατροφικοί «σύμμαχοι»: 7 φρούτα πλούσια σε αντιοξειδωτικά\n Spotlight Το ελληνικό νησί που μάγεψε τους Σουηδούς \n Μετρό Θεσσαλονίκης: Κλειστοί αύριο πέντε κεντρικοί σταθμοί, λόγω του πανεκπαιδευτικού συλλαλητηρίου \n Δύο συλλήψεις οδηγών στη Θεσσαλονίκη: Ο ένας ήταν μεθυσμένος, ο άλλος οδηγούσε παράνομα \n Μόσχα και Τεχεράνη πιο κοντά από ποτέ: Το νέο ισχυρό μέτωπο που αναδιαμορφώνει τη Μέση Ανατολή \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Φωτιά ξέσπασε σε δασική έκταση στην Τζιά.\n Στο σημείο έσπευσαν 4 πυροσβέστες με 2 οχήματα και 2 αεροσκάφη.\n #Πυρκαγιά σε δασική έκταση στη νήσο Κέα. Επιχειρούν 4 #πυροσβέστες με 2 #οχήματα και 2 Α/Φ. Επίσης, έχει προγραμματιστεί να μεταβούν ακτοπλοϊκώς 2 ομάδες #πεζοπόρων της 1ης #ΕΜΟΔΕ, με 16 #πυροσβέστες.\n — Πυροσβεστικό Σώμα (@pyrosvestiki) October 20, 2026 \n Σύμφωνα με την πυροσβεστική, έχει προγραμματιστεί να μεταβούν ακτοπλοϊκώς 2 ομάδες πεζοπόρων της 1ης ΕΜΟΔΕ, με 16 πυροσβέστες.\n Για τη διερεύνηση των αιτιών της πυρκαγιάς κινητοποιήθηκε το Ανακριτικό Κλιμάκιο Αντιμετώπισης Εγκλημάτων Εμπρησμού Ανατολικής Αττικής.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ο 5χρονος Γκρέγκορ με τη σπάνια νευρολογική πάθηση είναι ο Νεότερος Φιλάνθρωπος της Χρονιάς: Το στοίχημα που συγκίνησε τη Βρετανία \n Πώς να φοράς τζιν μπουφάν ανδρικά χωρίς να δείχνεις ότι προσπαθείς πολύ; \n Π. Μαρινάκης: Υπό πίεση ενόψει κινητοποιήσεων μιλά προκαταβολικά για μπάχαλα και επιχειρεί να σπιλώσει τον Τσίπρα \n Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη \n Ραντεβού με τον Φόβο – Τολμηρή αποστολή της Ιαπωνίας επιχειρεί να φέρει δείγμα από αρειανό φεγγάρι \n Δίκη για τα Τέμπη: «Η κόρη μου ταξίδευε με τρένο ωρολογιακή βόμβα» \n Από τα deepfakes στο ransomware: Χαρτογραφώντας το νέο τοπίο της κυβερνοασφάλειας \n ΑΑΔΕ: Από 1η Νοεμβρίου η νέα διαδικασία για την απαλλαγή ΕΦΚ στο αγροτικό πετρέλαιο \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Φωτιά ξέσπασε στην Τζια με ισχυρές πυροσβεστικές δυνάμεις να επιχειρούν",
+        "dek": "Δασική πυρκαγιά ξέσπασε σε δασική έκταση στην Τζια (Κέα), ενώ επί τόπου έχουν κινητοποιηθεί επίγειες και εναέριες δυνάμεις.",
+        "tldr": [
+          "Δασική πυρκαγιά εκδηλώθηκε στο νησί της Τζιας (Κέας).",
+          "Εναέριες και επίγειες πυροσβεστικές δυνάμεις επιχειρούν ενεργά για την κατάσβεση.",
+          "Επιπλέον δυνάμεις ενίσχυσης αναμένεται να φτάσουν με φέρι μποτ."
+        ]
+      },
+      "notified": true
+    },
+    "fc4a40": {
+      "createdAt": 1792490213760,
+      "item": {
+        "title": "Greek Wholesale Electricity Price Hits a Level Unseen Since 2023",
+        "url": "https://greekcitytimes.com/2026/10/20/wholesale-electricity-price/",
+        "summary": "Greece’s wholesale electricity price jumped to €247.82/MWh in Monday’s day-ahead auction, its highest level since 2023.\n The post Greek Wholesale Electricity Price Hits a Level Unseen Since 2023 appeared first on Greek City Times .",
+        "published": "Tue, 20 Oct 2026 09:42:59 +0000",
+        "id": "f3cd2c6ab6c6",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "f3cd2c6ab6c6",
+        "section": "politics",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greek wholesale electricity prices hit their highest level since 2023, signaling upcoming cost-of-living increases impacting residents, property owners, and businesses.",
+        "item": {
+          "title": "Greek Wholesale Electricity Price Hits a Level Unseen Since 2023",
+          "url": "https://greekcitytimes.com/2026/10/20/wholesale-electricity-price/",
+          "summary": "Greece’s wholesale electricity price jumped to €247.82/MWh in Monday’s day-ahead auction, its highest level since 2023.\n The post Greek Wholesale Electricity Price Hits a Level Unseen Since 2023 appeared first on Greek City Times .",
+          "published": "Tue, 20 Oct 2026 09:42:59 +0000",
+          "id": "f3cd2c6ab6c6",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-electricity-prices-record-winter",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "שיא מחירים",
+          "en": "Price Record"
+        },
+        "imageKey": "politics",
+        "imageQuery": "electricity energy power plant greece",
+        "he": {
+          "title": "זינוק במחירי החשמל ביוון: שיא חדש מאז 2023 לקראת החורף",
+          "seoTitle": "מחיר החשמל ביוון בשיא: מה זה אומר לתושבים ולמשקיעים",
+          "seoDesc": "מחירי הסיטונאות של החשמל ביוון זינקו לשיא מאז 2023 עקב עליית מחירי הגז באירופה. כל הפרטים על השפעת משבר האנרגיה בחורף הקרוב.",
+          "keywords": [
+            "חשמל ביוון",
+            "משבר אנרגיה יוון",
+            "מחירים ביוון",
+            "יוון חורף",
+            "ממשלת יוון"
+          ],
+          "dek": "מחירי החשמל הסיטונאיים ביוון הגיעו לשיא שלא נראה מאז 2023 בעקבות גל התייקרות הגז באירופה, וממשלת מיצוטאקיס נערכת לבקש גמישות פיסקלית באירופה.",
+          "tldr": [
+            "מחיר החשמל הסיטונאי ביוון זינק ל-247.82 אירו למגה-וואט שעה.",
+            "העלייה נובעת מעליית מחירי הגז הטבעי באירופה ובשל שימוש נרחב בגז לצד אנרגיה מתחדשת.",
+            "הממשלה ביוון תפנה לאירופה בבקשה לסיוע ותמיכה ממוקדת לקראת החורף."
+          ],
+          "means": "עבור ישראלים המתגוררים ביוון או משקיעים בנדל״ן מקומי, עליית מחירי האנרגיה עשויה להשפיע על הוצאות ההחזקה השוטפות של נכסים ועל עלויות המחיה בחודשי החורף. מומלץ להתעדכן בהודעות הרשמיות לגבי סובסידיות ממשלתיות לאנרגיה, ולעקוב אחר הוצאות החשמל בניהול נכסים לטווח ארוך או קצר.",
+          "body": "## זינוק חד במחירי החשמל הסיטונאיים\n\nשוק האנרגיה ביוון רושם עליות חדות, כאשר מחירי החשמל הסיטונאיים הגיעו ל-247.82 אירו למגה-וואט שעה במכירה הפומבית היומית. מדובר ברמה הגבוהה ביותר שנרשמה במדינה מאז שנת 2023, על רקע גל עליות במחירי הגז בכל רחבי אירופה.\n\nנתוני השוק מראים כי מחירי השעה הבודדת הגיעו לשיא של 406.48 אירו למגה-וואט שעה בשעות הערב. מאז החלה המגמה העולה בחודש יולי, מחירי הסיטונאות רשמו טיפוס חד של למעלה מ-125 אחוזים, והם שוברים שיאים מדי חודש מאז ספטמבר.\n\n## השפעת הגז הטבעי והאנרגיות המתחדשות\n\nלמרות חלקה הגבוה של אנרגיה מתחדשת בייצור החשמל ביוון, גז טבעי עדיין מהווה כ-40 אחוזים ממערך הייצור במדינה. בשל תלות זו, מחירי הגז במוקד הטרייד ההולנדי שמשו את הבסיס להתייקרות. נתוני השוק הראו כי באחד הימים האחרונים כיסו האנרגיות המתחדשות כ-42.8 אחוזים מהתצרוכת, בעוד הגז סיפק כ-38.9 אחוזים.\n\nמומחים מציינים כי אם מחירי הגז ימשיכו במגמת העלייה, מחירי החשמל הסיטונאיים עלולים להישאר מעל רף ה-240 אירו למגה-וואט שעה לאורך כל חודשי החורף הקרובים, מצב שיקשה על משקי בית ועסקים ללא תמיכה ממשלתית.\n\n## היערכות ממשלתית ופנייה לאירופה\n\nנוכח האתגרים הצפויים, ממשלתו של ראש הממשלה קיריאקוס מיצוטאקיס נערכת לצעדים מדיניים וכלכליים. הממשלה צפויה לחדש את בקשתה לגמישות פיסקלית נוספת במהלך פגישת היורוגרופ, במטרה לקבל מרחב תמרון לתמיכה ממוקדת באזרחים.\n\nהתוצאות של דיונים אלו יהיו קריטיות לקביעת היקף הסיוע שתעניק אתונה לציבור הרחב במידה ומחירי האנרגיה יישארו ברמה גבוהה לאורך עונת החורף."
+        },
+        "en": {
+          "title": "Greece Wholesale Electricity Prices Hit Highest Level Since 2023",
+          "seoTitle": "Greece Electricity Prices Surge to 2023 Highs Ahead of Winter",
+          "seoDesc": "Greece average wholesale electricity price rises to €247.82 per megawatt-hour as European gas prices surge, raising winter cost concerns.",
+          "keywords": [
+            "greece electricity price",
+            "energy crisis greece",
+            "greek wholesale power",
+            "mitsotakis greece winter",
+            "eu energy market"
+          ],
+          "dek": "Greece wholesale electricity prices climbed to their highest level since 2023, driven by surging gas costs across Europe and raising concerns for the winter season.",
+          "tldr": [
+            "Average wholesale electricity price reached €247.82 per megawatt-hour.",
+            "Natural gas drives prices, accounting for nearly 39 percent of the generation mix.",
+            "The Greek government plans to request fiscal flexibility at the upcoming Eurogroup meeting."
+          ],
+          "means": "For Israelis living in Greece or investing in local real estate, rising energy prices can impact property maintenance expenses and utility bills during the winter months. It is advisable to monitor official announcements regarding potential government subsidies and factor energy costs into property management budgets.",
+          "body": "## Sharp Rise in Wholesale Power Costs\n\nGreece's average wholesale electricity price climbed to €247.82 per megawatt-hour in the day-ahead market auction, marking the highest level recorded since 2023. Market data shows hourly prices peaking at over €406 per megawatt-hour during evening hours, following an upward trend that began in July with a surge of more than 125 percent.\n\nThe increases mirror a broader European return to price levels last witnessed during the 2022–2023 energy crisis, driven largely by climbing natural gas prices across the continent.\n\n## Natural Gas and Renewable Generation\n\nDespite Greece maintaining a substantial share of renewable energy sources, natural gas continues to comprise nearly 40 percent of the country's power generation mix. With European gas prices fluctuating near high thresholds, the wholesale electricity market remains sensitive to external fuel costs.\n\nMarket reports indicate that without continuous renewable output or potential intervention, wholesale prices risk staying elevated throughout the winter season, presenting affordability challenges for households and businesses alike.\n\n## Government Response and Eurogroup Talks\n\nIn response to the mounting pressure, the Greek government is preparing to renew its request for fiscal flexibility at the upcoming Eurogroup talks. Athens aims to secure room for targeted support measures to assist consumers if wholesale electricity rates remain high through the colder months."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece’s average wholesale electricity price rose to €247.82 per megawatt-hour in Monday’s day-ahead auction, its highest level since 2023, as gas prices surged across Europe. \n The price applies to power delivered on Tuesday 20 October, according to day-ahead market data . Hourly prices peaked at €406.48/MWh in the evening, up from a daily average of €232.43/MWh a day earlier.\n The jump points to an expensive winter for households and businesses, Greek press reports said. Gas still sets the price paid to producers for many hours of the day.\n Since an upward trend began in July, the wholesale electricity price has climbed by 125.39 per cent, the reports said. It has broken consecutive records since September. Across Europe, wholesale prices are returning to levels last seen at the peak of the 2022–2023 energy crisis.\n Read more: Greek Import Prices Jump as One Cost Soars \n Gas drives the wholesale electricity price\n Natural gas still makes up as much as 40 per cent of Greece’s generation mix, despite the country’s high share of renewable energy. At the Dutch TTF hub, gas prices are flirting with €90/MWh.\n For Tuesday, renewables covered 42.84 per cent of the mix and gas supplied 38.91 per cent, market figures showed. In contrast, on days of strong renewable output, average prices fall far lower.\n Depending on a plant’s efficiency, it takes two to three megawatt-hours of gas to produce one megawatt-hour of power. So if the gas rally continues, the wholesale electricity price risks staying above €240/MWh over the winter, the reports said. Households would struggle to afford that level without subsidies.\n Greek City Times reported on 19 October that heating oil orders remain low despite a price cut. Earlier, Prime Minister Kyriakos Mitsotakis delivered a hard winter warning in Larissa .\n Eurogroup talks on 9 November\n The government is expected to renew its request for more fiscal flexibility at the Eurogroup on 9 November. It wants room for targeted support measures.\n The outcome will largely decide how much more help Athens can offer if the wholesale electricity price stays high, the reports said.\n By comparison, Greece ranked among Europe’s cheaper power markets in August, before the latest rise in gas prices took hold.\n Source: eKathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greek Households Circle Seven Dates Before New Year \n Mitsotakis: Greece Could Temporarily Cut Fuel Taxes if EU Allows Emergency Measures \n Europe on Alert as Gas Storage Levels Fall Ahead of Winter \n Kyriakos Pierrakakis: The Greek Who Wants to Wake Up Europe \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Gavdos Migrant Rescue Takes Day’s Total Off Crete Past 100\n Next Article \n Sifnos: Vagabond Hails ‘Greece in Its Authentic Form’\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Οι χονδρικές τιμές ηλεκτρικής ενέργειας στην Ελλάδα έφτασαν στο υψηλότερο επίπεδο από το 2023",
+        "dek": "Οι χονδρικές τιμές ηλεκτρικής ενέργειας στην Ελλάδα εκτινάχθηκαν στο υψηλότερο επίπεδο από το 2023, ωθούμενες από το κύμα αύξησης του κόστους του φυσικού αερίου σε ολόκληρη την Ευρώπη, προκαλώντας ανησυχίες για τη χειμερινή περίοδος.",
+        "tldr": [
+          "Η μέση χονδρική τιμή ηλεκτρικής ενέργειας έφτασε τα 247,82 ευρώ ανά megawatt-hour.",
+          "Το φυσικό αέριο οδηγεί τις τιμές, αντιπροσωπεύοντας σχεδόν το 39% του ενεργειακού μείγματος.",
+          "Η ελληνική κυβέρνηση σχεδιάζει να ζητήσει δημοσιονομική ευελιξία στην προσεχή συνεδρίαση του Eurogroup."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2279,12 +2489,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T09:23:56.041Z",
+      "at": "2026-10-20T09:55:52.119Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T09:23:56.710Z",
+      "at": "2026-10-20T09:55:53.126Z",
       "items": 5
     },
     "civilprotection": {
@@ -2295,27 +2505,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T09:23:57.857Z",
+      "at": "2026-10-20T09:55:55.495Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T09:24:09.123Z",
+      "at": "2026-10-20T09:55:55.629Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T09:24:09.908Z",
+      "at": "2026-10-20T09:55:57.361Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T09:24:10.702Z",
-      "items": 6
+      "at": "2026-10-20T09:55:58.261Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T09:24:11.478Z",
+      "at": "2026-10-20T09:55:58.944Z",
       "items": 10
     },
     "toi-greece": {
@@ -2326,23 +2536,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T09:24:11.908Z",
+      "at": "2026-10-20T09:55:59.553Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T09:24:12.226Z",
+      "at": "2026-10-20T09:55:59.680Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T09:24:12.309Z",
+      "at": "2026-10-20T09:55:59.755Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T09:24:12.472Z",
-      "items": 4
+      "at": "2026-10-20T09:56:00.259Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2351,12 +2561,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T09:23:57.002Z",
+      "at": "2026-10-20T09:55:54.506Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T09:24:13.213Z",
+      "at": "2026-10-20T09:56:01.087Z",
       "items": 0
     },
     "hcg": {
@@ -2367,33 +2577,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T09:24:15.885Z",
+      "at": "2026-10-20T09:56:02.689Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T09:24:16.064Z",
-      "items": 1
+      "at": "2026-10-20T09:56:02.854Z",
+      "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T09:24:16.293Z",
+      "at": "2026-10-20T09:56:03.020Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T09:24:16.556Z",
+      "at": "2026-10-20T09:56:03.228Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T09:24:16.934Z",
-      "items": 4
+      "at": "2026-10-20T09:56:03.605Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T09:24:17.353Z",
-      "items": 12
+      "at": "2026-10-20T09:56:04.006Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2446,6 +2656,11 @@
         "title": "Greece Extends 30% Tax Deduction on Service Payments into 2027",
         "reason": "Ίδιο θέμα με «Greece: Draft bill published for tax cuts announced in Thessaloniki» – δεν γράφτηκε ξανά",
         "at": "2026-10-20T06:41:17.266Z"
+      },
+      {
+        "title": "Greek Students and Teachers Rally: What They Want",
+        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
+        "at": "2026-10-20T09:56:09.414Z"
       }
     ],
     "errors": [],
@@ -2590,17 +2805,24 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T09:24:18.056Z",
-    "considered": 7,
-    "picked": 0,
+    "at": "2026-10-20T09:56:05.639Z",
+    "considered": 14,
+    "picked": 4,
     "items": [
-      "· ert | ΗΠΑ: Ο Βανς κράτησε αποστάσεις από τον Νετανιάχου, παρά την πλήρη στήριξη Τραμπ",
-      "· ert | ΣΥΡΙΖΑ: Στηρίζουμε τις κινητοποιήσεις εκπαιδευτικών και φοιτητών – Η κυβέρνηση Μητσοτάκη υ",
-      "· naftemporiki | ΕΟΤ: Προβολή του βιώσιμου ελληνικού τουρισμού σε Ηνωμένο Βασίλειο – Ιρλανδία",
-      "· gct | Netanyahu Refuses to Rule Out Pre-Emptive Strikes Against Turkey",
-      "· naftemporiki | Γαλλία: Οι «δρόμοι διαφυγής» μετά την έκρηξη – Τι βλέπουν Goldman Sachs, UBS, Capital Econ",
-      "· gtp | Ionian Islands Region Targets Chinese Travelers for Spring and Autumn Visits",
-      "· gtp | Athens National Archaeological Museum Expansion Gets Design Approval"
+      "· gct | Sifnos: Vagabond Hails ‘Greece in Its Authentic Form’",
+      "✓ ingr | Φωτιά στην Τζια – Επιχειρούν δύο αεροσκάφη",
+      "✓ gct | Greek Wholesale Electricity Price Hits a Level Unseen Since 2023",
+      "· gct | Gavdos Migrant Rescue Takes Day’s Total Off Crete Past 100",
+      "· gct | Greece Can Set Turkey’s SAFE Defence Fund Terms, Analyst Says",
+      "· gct | Greece Holds OECD Top Five Spot in Personal Tax Competitiveness",
+      "✓ gct | Greek Students and Teachers Rally: What They Want",
+      "· gct | Greek Municipal Police Gain Arrest Powers and Batons",
+      "· naftemporiki | Φωτιά τώρα στην Κέα",
+      "✓ gct | Revolut Outage Hits Users in Greece and Europe",
+      "· gct | Why Greece Keeps Flooding: The Regions Most at Risk After Deadly Storms",
+      "· gn-iefimerida | Σε 24ωρη απεργία την Τετάρτη τα σωματεία του πολιτισμού -Ποιοι συμμετέχουν - iefimerida.gr",
+      "· gn-kathimerini | Εκλογές στο Ισραήλ: Ο Τζέι Ντι Βανς αρνήθηκε να στηρίξει τον Νετανιάχου - Kathimerini",
+      "· gn-kathimerini | Διήμερο κινητοποιήσεων: Στο Σύνταγμα σήμερα φοιτητές, αύριο η πανεκπαιδευτική απεργία - Ka"
     ]
   },
   "evergreenDone": [
