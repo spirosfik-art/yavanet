@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "1968bcaa0e1a": 1791249940976,
-    "46a7116536a6": 1791249940976,
-    "82a43ac12a96": 1791250587985,
     "3debb573312f": 1791253488064,
     "4e6962fb42ae": 1791253488064,
     "d24665d38f46": 1791254310484,
@@ -2266,7 +2263,8 @@
     "f106c5f809ae": 1792459481565,
     "8c52e95909e8": 1792459481565,
     "2eaa1d280954": 1792459481565,
-    "c6b22e818571": 1799025881565
+    "c6b22e818571": 1799025881565,
+    "482df943e6be": 1792461272909
   },
   "pending": {},
   "sourceStatus": {
@@ -2278,12 +2276,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T01:24:23.980Z",
+      "at": "2026-10-20T01:54:20.073Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T01:24:24.742Z",
+      "at": "2026-10-20T01:54:20.806Z",
       "items": 5
     },
     "civilprotection": {
@@ -2294,27 +2292,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T01:24:25.557Z",
+      "at": "2026-10-20T01:54:22.361Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T01:24:34.645Z",
+      "at": "2026-10-20T01:54:23.088Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T01:24:35.413Z",
+      "at": "2026-10-20T01:54:24.061Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T01:24:35.950Z",
+      "at": "2026-10-20T01:54:24.816Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T01:24:36.276Z",
+      "at": "2026-10-20T01:54:25.769Z",
       "items": 10
     },
     "toi-greece": {
@@ -2325,22 +2323,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T01:24:36.693Z",
+      "at": "2026-10-20T01:54:26.395Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T01:24:36.740Z",
+      "at": "2026-10-20T01:54:26.530Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T01:24:36.927Z",
+      "at": "2026-10-20T01:54:26.778Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T01:24:37.069Z",
+      "at": "2026-10-20T01:54:27.275Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2350,12 +2348,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T01:24:24.911Z",
+      "at": "2026-10-20T01:54:21.559Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T01:24:37.501Z",
+      "at": "2026-10-20T01:54:27.978Z",
       "items": 0
     },
     "hcg": {
@@ -2366,32 +2364,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T01:24:38.668Z",
+      "at": "2026-10-20T01:54:29.479Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T01:24:38.898Z",
+      "at": "2026-10-20T01:54:29.884Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T01:24:39.069Z",
+      "at": "2026-10-20T01:54:30.160Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T01:24:39.396Z",
+      "at": "2026-10-20T01:54:30.415Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T01:24:39.747Z",
+      "at": "2026-10-20T01:54:30.772Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T01:24:40.196Z",
+      "at": "2026-10-20T01:54:31.210Z",
       "items": 8
     }
   },
@@ -2536,15 +2534,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T01:24:41.565Z",
-    "considered": 5,
+    "at": "2026-10-20T01:54:32.909Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | French Couple Calmly Smokes and Drinks as Paris Burns",
-      "· gct | Turkish Airlines Readies Crystal Business Class for November Debut",
-      "· gct | Israeli Analyst Says Greece Now Stands With Israel",
-      "· gct | Australian Ambassador Visits the Evzones’ Uniform Workshops",
-      "· gct | Exarchia Residents Map Israeli Property Buys as Rents Climb"
+      "· gct | GNTO Melbourne Office Marks Official Launch at Greek Consulate"
     ]
   },
   "evergreenDone": [
