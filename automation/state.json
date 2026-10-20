@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "c040729a60b7": 1791327014427,
     "d2fe281cc75e": 1791329026889,
     "faa1373948f6": 1791330642598,
     "55dbf527c0cc": 1791331278176,
@@ -2239,7 +2238,9 @@
     "13d0a15c9f33": 1792535708588,
     "758a389561c4": 1792535708588,
     "2dc4d00ad8fc": 1792535708588,
-    "87d1499b4963": 1792535708588
+    "87d1499b4963": 1792535708588,
+    "aed65cc7507f": 1792537467890,
+    "781feceb9544": 1792537467890
   },
   "pending": {},
   "sourceStatus": {
@@ -2251,12 +2252,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T22:34:53.927Z",
-      "items": 10
+      "at": "2026-10-20T23:04:18.642Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T22:34:54.681Z",
+      "at": "2026-10-20T23:04:19.145Z",
       "items": 5
     },
     "civilprotection": {
@@ -2267,27 +2268,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T22:34:56.038Z",
+      "at": "2026-10-20T23:04:20.121Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T22:34:56.234Z",
+      "at": "2026-10-20T23:04:20.470Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T22:34:57.289Z",
+      "at": "2026-10-20T23:04:21.501Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T22:34:58.114Z",
-      "items": 2
+      "at": "2026-10-20T23:04:22.031Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T22:34:58.981Z",
+      "at": "2026-10-20T23:04:22.580Z",
       "items": 10
     },
     "toi-greece": {
@@ -2298,22 +2299,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T22:34:59.533Z",
+      "at": "2026-10-20T23:04:22.995Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T22:34:59.906Z",
+      "at": "2026-10-20T23:04:23.075Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T22:35:00.772Z",
+      "at": "2026-10-20T23:04:23.240Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T22:35:01.120Z",
+      "at": "2026-10-20T23:04:23.356Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2323,12 +2324,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T22:34:55.376Z",
+      "at": "2026-10-20T23:04:19.335Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T22:35:01.935Z",
+      "at": "2026-10-20T23:04:23.811Z",
       "items": 0
     },
     "hcg": {
@@ -2339,33 +2340,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T22:35:05.733Z",
+      "at": "2026-10-20T23:04:25.270Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T22:35:06.001Z",
+      "at": "2026-10-20T23:04:25.536Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T22:35:06.216Z",
+      "at": "2026-10-20T23:04:25.749Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T22:35:06.703Z",
+      "at": "2026-10-20T23:04:26.054Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T22:35:07.113Z",
+      "at": "2026-10-20T23:04:26.463Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T22:35:07.578Z",
-      "items": 9
+      "at": "2026-10-20T23:04:26.906Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2522,17 +2523,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T22:35:08.588Z",
-    "considered": 7,
-    "picked": 1,
+    "at": "2026-10-20T23:04:27.890Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· gct | Qatar Airways Is Coming to Western Sydney, but Not Yet",
-      "✓ gct | Greece Consults Cyprus and Egypt Over Illegal Turkish-Libyan Deal",
-      "· gct | Greece to shut 187 military camps in sweeping armed forces overhaul, Dendias says savings ",
-      "· gct | Greece Fills 10,000 Medical Posts, Curbing Doctor Exodus",
-      "· gct | Kos Revives Hippocratic Oath Ceremony with Medical Graduates",
-      "· gct | Kilkis Municipality to Pay €1,000 for Every Newborn",
-      "· gn-iefimerida | Φοιτητές έστησαν σκηνές έξω από την Περιφέρεια Κρήτης -Ζήτησαν λύσεις για στεγαστικό και κ"
+      "· ert | Νετανιάχου: «Η Γαλλία υπέκυψε στην εισβολή του εξτρεμιστικού Ισλάμ»",
+      "· gn-iefimerida | Παραλύει το κέντρο της Αθήνας την Τετάρτη με το πανεκπαιδευτικό συλλαλητήριο -Ποιοι απεργο"
     ]
   },
   "evergreenDone": [
