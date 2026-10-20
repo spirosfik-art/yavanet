@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "979adb1d7367": 1791248246022,
     "1968bcaa0e1a": 1791249940976,
     "46a7116536a6": 1791249940976,
     "82a43ac12a96": 1791250587985,
@@ -2262,7 +2261,12 @@
     "756b289b3f38": 1792457319188,
     "a3223d6f829d": 1792457319188,
     "1d6d86b811a1": 1792457319188,
-    "685bf737763d": 1792457319188
+    "685bf737763d": 1792457319188,
+    "05bf73d05c46": 1792459481565,
+    "f106c5f809ae": 1792459481565,
+    "8c52e95909e8": 1792459481565,
+    "2eaa1d280954": 1792459481565,
+    "c6b22e818571": 1799025881565
   },
   "pending": {},
   "sourceStatus": {
@@ -2274,12 +2278,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T00:48:21.586Z",
-      "items": 0
+      "at": "2026-10-20T01:24:23.980Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T00:48:22.341Z",
+      "at": "2026-10-20T01:24:24.742Z",
       "items": 5
     },
     "civilprotection": {
@@ -2290,27 +2294,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T00:48:24.381Z",
+      "at": "2026-10-20T01:24:25.557Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T00:48:29.203Z",
+      "at": "2026-10-20T01:24:34.645Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T00:48:30.452Z",
+      "at": "2026-10-20T01:24:35.413Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T00:48:31.464Z",
+      "at": "2026-10-20T01:24:35.950Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T00:48:32.354Z",
+      "at": "2026-10-20T01:24:36.276Z",
       "items": 10
     },
     "toi-greece": {
@@ -2321,22 +2325,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T00:48:32.951Z",
+      "at": "2026-10-20T01:24:36.693Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T00:48:33.237Z",
+      "at": "2026-10-20T01:24:36.740Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T00:48:34.037Z",
+      "at": "2026-10-20T01:24:36.927Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T00:48:34.550Z",
+      "at": "2026-10-20T01:24:37.069Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2346,12 +2350,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T00:48:23.035Z",
+      "at": "2026-10-20T01:24:24.911Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T00:48:35.213Z",
+      "at": "2026-10-20T01:24:37.501Z",
       "items": 0
     },
     "hcg": {
@@ -2362,33 +2366,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T00:48:36.920Z",
+      "at": "2026-10-20T01:24:38.668Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T00:48:37.092Z",
+      "at": "2026-10-20T01:24:38.898Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T00:48:37.273Z",
+      "at": "2026-10-20T01:24:39.069Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T00:48:37.497Z",
-      "items": 3
+      "at": "2026-10-20T01:24:39.396Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T00:48:37.868Z",
+      "at": "2026-10-20T01:24:39.747Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T00:48:38.359Z",
-      "items": 9
+      "at": "2026-10-20T01:24:40.196Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2532,16 +2536,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T00:48:39.188Z",
-    "considered": 6,
+    "at": "2026-10-20T01:24:41.565Z",
+    "considered": 5,
     "picked": 0,
     "items": [
-      "· gct | Digital Platform Tracks Tourism and Sustainability On Ionian Islands",
-      "· gct | Greek Army Chief Visits War College to Address Reserve Officers",
-      "· gct | Italy Sends 500 Soldiers to Milan After Thugs Smash Up City",
-      "· ingr | Axios: Ο Χέγκσεθ συναντά τον Νετανιάχου σε απροειδοποίητη επίσκεψη στο Ισραήλ",
-      "· gct | US Defence Secretary Pete Hegseth Makes Surprise Visit to Israel",
-      "· gn-iefimerida | Σκέρτσος για νομοσχέδιο ηλικιακού περιορισμού παιδιών στα social: Δίνουμε λύση αναλογική, "
+      "· gct | French Couple Calmly Smokes and Drinks as Paris Burns",
+      "· gct | Turkish Airlines Readies Crystal Business Class for November Debut",
+      "· gct | Israeli Analyst Says Greece Now Stands With Israel",
+      "· gct | Australian Ambassador Visits the Evzones’ Uniform Workshops",
+      "· gct | Exarchia Residents Map Israeli Property Buys as Rents Climb"
     ]
   },
   "evergreenDone": [
