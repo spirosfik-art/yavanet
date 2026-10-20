@@ -2262,7 +2262,9 @@
     "6d5932a00c3e": 1792478472989,
     "fa08d5a7faa3": 1792478472989,
     "7a05955bb317": 1792478472989,
-    "0135ba834618": 1792478472989
+    "0135ba834618": 1792478472989,
+    "a3f9216c2d1a": 1792478628805,
+    "ca56d8e4038e": 1792478628805
   },
   "pending": {
     "95a56e": {
@@ -2365,6 +2367,109 @@
         ]
       },
       "notified": true
+    },
+    "2a8195": {
+      "createdAt": 1792478657189,
+      "item": {
+        "title": "Hellenic Navy Eyes Blue Whale Lease Instead of Buying",
+        "url": "https://greekcitytimes.com/2026/10/20/blue-whale-lease/",
+        "summary": "The Hellenic Navy plans a Blue Whale lease of three IAI autonomous underwater vehicles from Israel, rather than buying five, reports said.\n The post Hellenic Navy Eyes Blue Whale Lease Instead of Buying appeared first on Greek City Times .",
+        "published": "Tue, 20 Oct 2026 06:41:45 +0000",
+        "id": "a3f9216c2d1a",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "a3f9216c2d1a",
+        "section": "israelis",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The Hellenic Navy plans to lease Blue Whale autonomous underwater vehicles from Israeli defense firm IAI, highlighting ongoing military cooperation between Greece and Israel.",
+        "item": {
+          "title": "Hellenic Navy Eyes Blue Whale Lease Instead of Buying",
+          "url": "https://greekcitytimes.com/2026/10/20/blue-whale-lease/",
+          "summary": "The Hellenic Navy plans a Blue Whale lease of three IAI autonomous underwater vehicles from Israel, rather than buying five, reports said.\n The post Hellenic Navy Eyes Blue Whale Lease Instead of Buying appeared first on Greek City Times .",
+          "published": "Tue, 20 Oct 2026 06:41:45 +0000",
+          "id": "a3f9216c2d1a",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-israel-blue-whale-lease",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "ביטחון ביוון",
+          "en": "Greece Defense"
+        },
+        "imageKey": "sea",
+        "imageQuery": "autonomous underwater vehicle submarine sea",
+        "he": {
+          "title": "חיל הים היווני נערך לחכירת צוללות אוטונומיות תוצרת ישראל",
+          "seoTitle": "ביטחון ביוון: עסקת חכירת צוללות אוטונומיות מישראל",
+          "seoDesc": "הצבא ביוון מתכנן לחכור שלוש צוללות אוטונומיות מדגם בלו ווייל של התעשייה האווירית, לפי דיווחים שמגיעים מאתונה.",
+          "keywords": [
+            "ביטחון ביוון",
+            "ישראל יוון",
+            "התעשייה האווירית",
+            "צוללות אוטונומיות",
+            "אתונה"
+          ],
+          "dek": "חיל הים של יוון מתכנן הסכם בין-ממשלתי לחכירת שלוש צוללות אוטונומיות מתקדמות תוצרת ישראל, במסגרת שיתוף פעולה ביטחוני מתמשך.",
+          "tldr": [
+            "יוון מתכננת לחכור שלוש צוללות אוטונומיות מדגם בלו ווייל.",
+            "המערכות פותחו על ידי התעשייה האווירית לישראל.",
+            "המהלך נועד לסייע למשימות סיור וגילוי במימי הים התיכון."
+          ],
+          "means": "מה זה אומר עבורכם? עבור ישראלים העוקבים אחר היחסים המדיניים והביטחוניים בין ישראל ליוון, מדובר בעוד ביטוי להידוק הקשרים האסטרטגיים בין המדינות. אין השפעה ישירה על תיירים או תושבים באזור.",
+          "body": "## הידוק שיתוף הפעולה הביטחוני\n\nחיל הים ביוון נערך להשלמת הסכם בין-ממשלתי לחכירת שלוש צוללות אוטונומיות בלתי מאוישות, תוצרת חברת התעשייה האווירית של ישראל. הדיווחים על ההכנות לחתימת העסקה פורסמו לאחרונה בכלי התקשורת הביטחוניים באתונה ובישראל.\n\nהדגם שנבחר לחכירה הוא בלו ווייל ELI-3325. ההחלטה התקבלה בין היתר בשל שיקולי תקציב של רשויות הביטחון המקומיות, שבחנו בעבר חלופות נוספות לרכישת מספר רב יותר של כלים או הקמת קו ייצור מקומי בשיתוף מספנות סלמיס וחברת התעופה האווירית ההלנית.\n\n## יכולות טכנולוגיות מתקדמות\n\nהכלים האוטונומיים מיועדים למגוון רחב של משימות ימיות, בהן לוחמה נגד צוללות, איסוף מודיעין, סיור ופיקוח, וכן איתור מטרות בקרקעית הים. המערכות מסוגלות לפעול במים רדודים, במצרים צרים ובים פתוח לאורך תקופות ממושכות, תוך העברת נתונים בזמן אמת לתחנות פיקוד.\n\nנציגי הממשל באתונה טרם פרסמו אישור רשמי לפרטי ההסכם, אך שיתופי פעולה קודמים בין התעשיות הביטחוניות של שתי המדינות כבר יצאו לפועל בשנים האחרונות, כולל פרויקטים משותפים בתחום כלי הטיס הבלתי מאוישים."
+        },
+        "en": {
+          "title": "Hellenic Navy Prepares Lease of Israeli Autonomous Submarines",
+          "seoTitle": "Greece Plans Lease of Israeli Autonomous Submarines",
+          "seoDesc": "Greece is preparing a government-to-government agreement to lease three Blue Whale autonomous underwater vehicles from Israel.",
+          "keywords": [
+            "Greece defense",
+            "Israel Greece",
+            "Blue Whale submarine",
+            "Hellenic Navy",
+            "Athens news"
+          ],
+          "dek": "The Hellenic Navy is preparing a government-to-government agreement to rent three advanced autonomous underwater vehicles from Israel.",
+          "tldr": [
+            "Greece plans to lease three Blue Whale autonomous systems.",
+            "The unmanned underwater vehicles are made by Israel Aerospace Industries.",
+            "The deal aims to strengthen naval surveillance and reconnaissance capabilities."
+          ],
+          "means": "What it means for you: This ongoing defense cooperation highlights the close strategic ties between Israel and Greece. There is no direct impact on tourists, investors, or residents living in the country.",
+          "body": "## Strengthening Naval Capabilities\n\nThe Hellenic Navy is preparing a government-to-government agreement to lease three autonomous unmanned underwater vehicles from Israel, according to defense reports emerging from Athens.\n\nThe selected vehicles are the Blue Whale ELI-3325 model, manufactured by Israel Aerospace Industries. Reports indicate that Athens chose the leasing option due to limited budgetary resources, having previously utilized a similar leasing model for aerial drone systems.\n\n## Advanced Maritime Missions\n\nThe underwater systems are designed for a variety of critical missions, including anti-submarine warfare, intelligence collection, seabed warfare, and surveillance in both shallow waters and open seas. The vehicles can operate independently for extended periods and transmit real-time encrypted data to command stations.\n\nWhile Greek officials have not yet publicly confirmed the final details of the agreement, the two nations continue to maintain close industrial and defense ties through various joint memoranda and technological partnerships."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n The Hellenic Navy is preparing a Blue Whale lease, with Greece planning a government-to-government agreement to rent three Israeli autonomous unmanned underwater vehicles, Israel Defense reported on Monday 19 October. \n The vehicles are the Blue Whale ELI-3325, made by Israel Aerospace Industries (IAI). Israel Defense said it based its report on Greek defence media, which first described the framework on Saturday 17 October.\n Greek officials have not publicly confirmed the deal. According to the reports, however, Athens chose the Blue Whale lease because its available budget is limited.\n Greece used the same leasing model for its first Heron 1 unmanned aerial vehicle system, Israel Defense reported. Defence officials also considered buying five vehicles instead, the outlet said.\n Read more: Greece Sets Flag-Raising Date for Third Belharra Frigate Formion \n Blue Whale lease versus purchase\n Well-informed sources said the five-vehicle option could have created a local production line, according to the report. That line would have involved Salamis Shipyards and Hellenic Aerospace Industry (HAI).\n In May 2025, IAI and HAI signed a memorandum of understanding at the DEFEA 2025 exhibition in Athens to offer the system to the navy. At the time, IAI said HAI would take on a role in production, Reuters reported .\n Greek City Times reported on the signing of that underwater system deal in May 2025. In February, the paper reported that Greece was considering Israeli unmanned submarines after its frigate deal.\n ELTA Systems, the radar and electronics arm of IAI, developed the vehicle, EDR Magazine reported in 2025.\n Missions and specifications\n The vehicle measures 10.9 metres long and 1.12 metres in diameter, and it weighs 5.5 tonnes. It travels at 2 to 3 knots on the surface and up to 7 knots submerged, Israel Defense reported.\n Depending on the mission and battery setup, it can stay at sea for 10 to 30 days. As a result, it can work in shallow waters, narrow straits and open seas, the outlet said.\n Its listed missions include anti-submarine warfare, intelligence, surveillance and reconnaissance, seabed warfare and mine countermeasures. In addition, it can gather acoustic and signals intelligence and help detect piracy, terrorism and illegal migration.\n The vehicle also sends real-time data to command stations through an encrypted satellite link, according to the report. Unmanned vehicles could also fill gaps while the navy’s Type 214 Papanikolis-class submarines undergo mid-life upgrades, Israel Defense reported.\n The reports did not give a cost, a contract length or a signing date for the Blue Whale lease.\n Source: Israel Defense \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Salamis Shipyards Delivers Four More Blocks for French Navy’s Third FDI Frigate \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Aphrodite Gas Deals Expected to Be Signed in Egypt This Week\n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Το Ελληνικό Πολεμικό Ναυτικό προετοιμάζει τη μίσθωση ισραηλινών αυτόνομων υποβρυχίων",
+        "dek": "Το Πολεμικό Ναυτικό προετοιμάζει μια διακρατική συμφωνία για την ενοικίαση τριών προηγμένων αυτόνομων υποβρυχίων οχημάτων από το Ισραήλ.",
+        "tldr": [
+          "Η Ελλάδα σχεδιάζει να νοικιάσει τρία αυτόνομα συστήματα Blue Whale.",
+          "Τα μη επανδρωμένα υποβρύχια οχήματα κατασκευάζονται από την Israel Aerospace Industries.",
+          "Η συμφωνία στοχεύει στην ενίσχυση των δυνατοτήτων ναυτικής επιτήρησης και αναγνώρισης."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2376,12 +2481,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T06:40:46.668Z",
+      "at": "2026-10-20T06:43:31.118Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T06:40:47.382Z",
+      "at": "2026-10-20T06:43:32.059Z",
       "items": 5
     },
     "civilprotection": {
@@ -2392,27 +2497,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T06:40:50.506Z",
+      "at": "2026-10-20T06:43:34.032Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T06:41:04.583Z",
+      "at": "2026-10-20T06:43:39.667Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T06:41:05.815Z",
+      "at": "2026-10-20T06:43:40.682Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T06:41:06.577Z",
+      "at": "2026-10-20T06:43:41.579Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T06:41:07.600Z",
+      "at": "2026-10-20T06:43:42.452Z",
       "items": 10
     },
     "toi-greece": {
@@ -2423,22 +2528,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T06:41:07.934Z",
+      "at": "2026-10-20T06:43:43.084Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T06:41:08.088Z",
+      "at": "2026-10-20T06:43:43.364Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T06:41:08.195Z",
-      "items": 4
+      "at": "2026-10-20T06:43:43.945Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T06:41:08.418Z",
+      "at": "2026-10-20T06:43:44.161Z",
       "items": 0
     },
     "ynet-greece": {
@@ -2448,12 +2553,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T06:40:47.787Z",
+      "at": "2026-10-20T06:43:32.637Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T06:41:09.081Z",
+      "at": "2026-10-20T06:43:44.834Z",
       "items": 0
     },
     "hcg": {
@@ -2464,32 +2569,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-20T06:41:10.489Z",
+      "at": "2026-10-20T06:43:46.453Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T06:41:10.739Z",
-      "items": 1
+      "at": "2026-10-20T06:43:46.750Z",
+      "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T06:41:10.961Z",
+      "at": "2026-10-20T06:43:46.973Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T06:41:11.210Z",
+      "at": "2026-10-20T06:43:47.217Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T06:41:11.601Z",
+      "at": "2026-10-20T06:43:47.544Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T06:41:12.052Z",
+      "at": "2026-10-20T06:43:47.976Z",
       "items": 11
     }
   },
@@ -2665,18 +2770,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T06:41:12.989Z",
-    "considered": 8,
+    "at": "2026-10-20T06:43:48.805Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· gct | Aphrodite Gas Deals Expected to Be Signed in Egypt This Week",
-      "· gct | Ukraine in Talks with Turkey, Egypt and India on Black Sea Grain Corridor",
-      "✓ gct | Greece Extends 30% Tax Deduction on Service Payments into 2027",
-      "· ert | Προορισμός Θεσσαλονίκη: Η γερμανική αγορά στο επίκεντρο της δεύτερης αποστολής του δήμου",
-      "· ert | Κέρκυρα: Φωτιά ξέσπασε σε αποθήκη",
-      "· ert | Πανεκπαιδευτικό συλλαλητήριο την Τετάρτη στα Ιωάννινα",
-      "· gn-civilprotection | Κώστας Κατσαφάδος: Σε εξέλιξη οι διαδικασίες αποζημίωσης των πληγέντων σε Κρήτη και Εύβοια",
-      "· gtp | «Ζωγραφίζω τη Φιλοξενία»: Βραβεύτηκαν οι 18 νικητές του 2ου Πανελλήνιου Μαθητικού Διαγωνισ"
+      "✓ gct | Hellenic Navy Eyes Blue Whale Lease Instead of Buying",
+      "· ingr | Φωτιά σε αυτοκίνητο στην Αττική"
     ]
   },
   "evergreenDone": [
