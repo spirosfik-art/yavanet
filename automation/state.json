@@ -14,17 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "69bd8d8bd6b4": 1791289848524,
-    "92d5a701a0c3": 1791289848524,
-    "68c04ccc7c9f": 1791289848524,
-    "0a2013af55e7": 1791289848524,
-    "3ebedc9a95d3": 1791289848524,
-    "c57c6daff747": 1791289848524,
-    "e73276ff95d0": 1791289848524,
-    "b46cdfb4df8f": 1791291349519,
-    "ebe4282ccf14": 1791291349519,
-    "bfbd97311841": 1791291349519,
-    "85584d4789f1": 1791291938744,
     "edb122155fa9": 1791293273450,
     "4129dbf55e06": 1791293273450,
     "7f6f20c21b4f": 1791293273450,
@@ -2258,111 +2247,18 @@
     "01a756320c47": 1792498556759,
     "58126ab3d5a2": 1792498556759,
     "53489d7497d2": 1792498556759,
-    "d772da6a53ee": 1792498556759
+    "d772da6a53ee": 1792498556759,
+    "e5923da16ac8": 1792501846570,
+    "c2bdc9b12ad9": 1792501846570,
+    "b7abbce2c744": 1792501846570,
+    "b949496b4519": 1792501846570,
+    "c7e28d277034": 1792501846570,
+    "b67e3d42cd96": 1792501846570,
+    "64c3eafdf768": 1792501846570,
+    "4e2ce3abe12e": 1792501846570,
+    "6a32ca0acaf2": 1792501846570
   },
-  "pending": {
-    "a69f54": {
-      "createdAt": 1792491388494,
-      "item": {
-        "title": "Revolut Outage Hits Users in Greece and Europe",
-        "url": "https://greekcitytimes.com/2026/10/20/revolut-outage-greece-europe/",
-        "summary": "Revolut users in Greece, the UK, Ireland and elsewhere could not log in or pay by card on Tuesday. The bank says customers' money and data are safe.\n The post Revolut Outage Hits Users in Greece and Europe appeared first on Greek City Times .",
-        "published": "Tue, 20 Oct 2026 09:27:41 +0000",
-        "id": "212ae0e526cd",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "212ae0e526cd",
-        "section": "living",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Revolut outage affects Israelis and residents living or traveling in Greece who rely on digital banking for payments and account access.",
-        "item": {
-          "title": "Revolut Outage Hits Users in Greece and Europe",
-          "url": "https://greekcitytimes.com/2026/10/20/revolut-outage-greece-europe/",
-          "summary": "Revolut users in Greece, the UK, Ireland and elsewhere could not log in or pay by card on Tuesday. The bank says customers' money and data are safe.\n The post Revolut Outage Hits Users in Greece and Europe appeared first on Greek City Times .",
-          "published": "Tue, 20 Oct 2026 09:27:41 +0000",
-          "id": "212ae0e526cd",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "revolut-outage-greece-europe",
-        "section": "living",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "עדכון שירות",
-          "en": "Service Update"
-        },
-        "imageKey": "key",
-        "imageQuery": "digital banking app phone",
-        "he": {
-          "title": "תקלה בבנק הדיגיטלי רבולוט: משתמשים ביוון דיווחו על קשיי התחברות וסירוב בכרטיסי אשראי",
-          "seoTitle": "תקלה ביוון: משתמשים ברבולוט חוו שיבושים באפליקציה",
-          "seoDesc": "לקוחות הבנק הדיגיטלי רבולוט ביוון ובמדינות נוספות חוו ביום שלישי שיבושים נרחבים בהתחברות לאפליקציה ובתשלומים בכרטיסי אשראי. מה צריך לדעת.",
-          "keywords": [
-            "רבולוט יוון",
-            "תקלה ברבולוט",
-            "בנק דיגיטלי יוון",
-            "כרטיס אשראי רבולוט"
-          ],
-          "dek": "לקוחות הבנק הדיגיטלי ביוון ובאירופה נתקלו בהודעות שגיאה ובעיות בתשלומים בחנויות. החברה אישרה כי התגלתה תקלה והבטיחה כי כספי הלקוחות בטוחים.",
-          "tldr": [
-            "משתמשים רבים ביוון לא הצליחו להתחבר לאפליקציה ביום שלישי.",
-            "כרטיסי האשראי של הבנק הפסיקו לחלוטין את פעולתם בחנויות מסוימות.",
-            "ברבולוט מסרו כי צוותי ההנדסה פועלים לתיקון התקלה וכי הכספים מאובטחים."
-          ],
-          "means": "אם אתם שוהים ביוון או משתמשים בחשבון הרבולוט שלכם לתשלומים בחופשה או בשגרת החיים, מומלץ להחזיק אמצעי תשלום חלופי כמו כרטיס אשראי של בנק מסורתי או מזומן. ניתן לעקוב אחר עדכוני סטטוס המערכות בערוצים הרשמיים של החברה.",
-          "body": "## שיבושים נרחבים בפעילות הבנק הדיגיטלי\n\nלקוחות של הבנק הדיגיטלי רבולוט ביוון ובמספר מדינות נוספות באירופה חוו ביום שלישי, ה-20 באוקטובר, שיבושים משמעותיים בפעילות השוטפת. משתמשים ניסו להתחבר לאפליקציה ונתקלו בהודעת שגיאה המבקשת מהם לנסות שוב מאוחר יותר.\n\nהבעיות לא פסחו גם על השימוש בכרטיסי האשראי של הבנק. לקוחות דיווחו כי כרטיסיהם סורבו בקופה, מה שהקשה על ביצוע עסקאות יומיומיות בבתי עסק ובחנויות שונות.\n\n## תגובת החברה והבטחת אבטחת המידע\n\nמטעם חברת רבולוט נמסר ברשתות החברתיות כי היא חווה תקלת שירות המשפיעה על מספר שירותים ותכונות במקביל. החברה הדגישה בהודעתה כי כל כספי הלקוחות והנתונים האישיים נשארים בטוחים לחלוטין.\n\nצוותי ההנדסה של הבנק החלו לטפל בתקלה מרגע זיהוי הבעיה בשעות הבוקר, וההנהלה מסרה התנצלות בפני הלקוחות על אי-הנעימות שנוצרה.\n\n## רקע על החברה והאירועים האחרונים\n\nהתקלה הנוכחית מגיעה בתקופה לא פשוטה עבור הבנק הדיגיטלי, לאחר שבחודש ספטמבר האחרון דווח על שני אירועי אבטחת מידע שונים שבהם היו מעורבים חלק מלקוחות החברה בעולם, כולל חשיפת פרטים אישיים לגורמים לא מורשים.\n\nרבולוט פועלת כיום כישות בנקאית ביותר מ-30 מדינות, עם עשרות מיליוני לקוחות פרטיים ועסקיים ברחבי העולם."
-        },
-        "en": {
-          "title": "Revolut Outage in Greece: Users Report Login Issues and Declined Card Payments",
-          "seoTitle": "Revolut Outage Greece: App and Card Issues Reported",
-          "seoDesc": "Revolut digital bank customers in Greece and Europe experienced service disruptions on Tuesday, affecting app logins and card payments.",
-          "keywords": [
-            "Revolut Greece",
-            "Revolut outage",
-            "digital bank Greece",
-            "Revolut card payments"
-          ],
-          "dek": "Customers in Greece and several European countries were unable to log in or use their cards for purchases. Revolut confirmed the disruption and stated that funds remain secure.",
-          "tldr": [
-            "Users in Greece reported being unable to access the Revolut app on Tuesday.",
-            "Card payments failed at physical stores, disrupting everyday transactions.",
-            "Revolut confirmed an engineering team is working on a fix and assured customer funds are safe."
-          ],
-          "means": "If you are using Revolut while traveling or living in Greece, keep a backup traditional credit card or cash handy for essential purchases. Monitor Revolut's official status page for updates on service restoration.",
-          "body": "## Digital Bank Suffers Service Disruption\n\nRevolut customers in Greece and multiple other countries encountered significant service disruptions on Tuesday, October 20, leaving many unable to log into the application or complete standard card transactions.\n\nUsers attempting to access their accounts were met with an error message instructing them to try again later. The outage extended beyond the digital app, as card payments were also declined at various retail locations, creating inconvenience for daily purchases.\n\n## Company Response and Security Assurance\n\nIn a statement posted on social media, Revolut acknowledged the issue, confirming a service disruption affecting multiple features. The company explicitly assured customers that all personal data and funds remain safe and secure.\n\nEngineering teams began addressing the technical fault upon identification, and the company issued an apology to all affected users for the inconvenience caused.\n\n## Recent Background\n\nThe technical issue follows a challenging period for the digital financial platform, which faced security incidents involving third-party data access affecting a subset of its global customer base in September.\n\nRevolut operates as a licensed bank in more than 30 countries, serving tens of millions of personal and business customers worldwide."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n Revolut customers in Greece and several other countries were unable to log in to the app or complete card payments on Tuesday 20 October, after the digital bank was hit by a service disruption affecting multiple features.\n The company confirmed the problem on X and said customers’ money and data were safe.\n “Something went wrong”\n Users trying to log in were shown the message “Something went wrong” and asked to try again later, CNN Greece and Powergame reported.\n The problems were not limited to the app. Card payments were also declined, CNN Greece reported, causing disruption for customers trying to carry out everyday transactions.\n The Independent described the outage as “particularly widespread”, noting that, unlike many banking outages, users said their cards had also stopped working, leaving them unable to pay in shops. Complaints came from users in the UK, France and Spain, the newspaper reported, adding that it was unclear whether every Revolut user was affected.\n What Revolut said\n In a post on X, Revolut said: “We are currently experiencing a service disruption affecting multiple services. We can confirm that all our customers’ money and data are safe. We’ve been working to fix the issue since it was identified this morning and apologise to anyone affected and for any inconvenience caused.”\n Its support account posted separately: “We are currently experiencing a service disruption affecting multiple features, which may result in some services being inaccessible. Our engineering team is actively working to restore full service as quickly as possible.”\n As of CNN Greece’s report at 11.18am Athens time (7.18pm AEDT), Revolut had not announced a timeframe for full restoration or explained the cause of the fault.\n The Independent noted that Revolut’s online system status page said all systems were “operational” at the time of its report.\n Reports beyond Greece\n In Britain, more than 1,500 problem reports were logged on the Downdetector platform shortly after 8am local time, with reports also coming from other countries, CNN Greece reported.\n In Ireland, where Revolut has about 3.4 million customers, RTÃ‰ reported that the bank was experiencing a service disruption that could leave some services inaccessible.\n The reports from Greek, Irish and British media reviewed by Greek City Times did not say whether customers in Australia were affected.\n A difficult period for the digital bank\n The outage follows two data breaches affecting Revolut customers in September, according to RTÃ‰.\n On 14 September, the company told some customers that copies of their passports and driving licences, along with dates of birth, home addresses, email addresses and phone numbers, had been handed to criminals. Revolut said an “unauthorised third party” had used an email domain from a legitimate government agency to submit “fraudulent requests for information”. It did not say how many people were affected, though it was reported at the time that around 700 customers globally were impacted, RTÃ‰ said.\n On 24 September, some Revolut customers were also among those affected by a security incident at DriveWealth, a US broker that carries out US stock trades for Revolut customers. DriveWealth said the incident involved unauthorised access to historical personal data of some of its customers.\n About Revolut\n UK-based Revolut was originally marketed mainly as a way to make payments around the world without the high fees associated with traditional banks, The Independent reported. It now operates as a bank in more than 30 countries and says it has more than 80 million personal customers and more than 800,000 business customers worldwide. It reported revenue of Â£4.52 billion last year and profit of Â£1.3 billion.\n Customers affected by the disruption can follow updates on Revolut’s official X accounts and its system status page.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Why Greece Keeps Flooding: The Regions Most at Risk After Deadly Storms\n Next Article \n Greek Municipal Police Gain Arrest Powers and Batons\n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Πρόβλημα λειτουργίας της Revolut στην Ελλάδα: Χρήστες αναφέρουν δυσκολίες σύνδεσης και απορρίψεις πληρωμών με κάρτα",
-        "dek": "Πελάτες στην Ελλάδα και σε αρκετές ευρωπαϊκές χώρες δεν μπορούσαν να συνδεθούν ή να χρησιμοποιήσουν τις κάρτες τους για αγορές. Η Revolut επιβεβαίωσε τη διακοπή και δήλωσε ότι τα χρήματα παραμένουν ασφαλή.",
-        "tldr": [
-          "Χρήστες στην Ελλάδα ανέφεραν ότι δεν μπορούσαν να αποκτήσουν πρόσβαση στην εφαρμογή της Revolut την Τρίτη.",
-          "Οι πληρωμές με κάρτα απέτυχαν σε φυσικά καταστήματα, προκαλώντας προβλήματα στις καθημερινές συναλλαγές.",
-          "Η Revolut επιβεβαίωσε ότι τεχνική ομάδα εργάζεται για την αποκατάσταση του προβλήματος και διαβεβαίωσε ότι τα χρήματα των πελατών είναι ασφαλή."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2372,12 +2268,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-20T12:15:27.879Z",
+      "at": "2026-10-20T13:10:01.087Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-20T12:15:28.514Z",
+      "at": "2026-10-20T13:10:01.855Z",
       "items": 5
     },
     "civilprotection": {
@@ -2388,27 +2284,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-20T12:15:30.097Z",
+      "at": "2026-10-20T13:10:03.601Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-20T12:15:44.178Z",
+      "at": "2026-10-20T13:10:18.768Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-20T12:15:45.118Z",
+      "at": "2026-10-20T13:10:19.997Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-20T12:15:45.925Z",
-      "items": 2
+      "at": "2026-10-20T13:10:21.515Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-20T12:15:46.824Z",
+      "at": "2026-10-20T13:10:22.176Z",
       "items": 10
     },
     "toi-greece": {
@@ -2419,23 +2315,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-20T12:15:47.313Z",
+      "at": "2026-10-20T13:10:22.712Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-20T12:15:47.935Z",
+      "at": "2026-10-20T13:10:23.085Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-20T12:15:48.094Z",
-      "items": 2
+      "at": "2026-10-20T13:10:23.390Z",
+      "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T12:15:48.509Z",
-      "items": 6
+      "at": "2026-10-20T13:10:23.828Z",
+      "items": 8
     },
     "ynet-greece": {
       "ok": true,
@@ -2444,12 +2340,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-20T12:15:29.432Z",
+      "at": "2026-10-20T13:10:02.787Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-20T12:15:49.225Z",
+      "at": "2026-10-20T13:10:24.349Z",
       "items": 0
     },
     "hcg": {
@@ -2459,34 +2355,35 @@
       "fails": 1
     },
     "oasa": {
-      "ok": true,
-      "at": "2026-10-20T12:15:53.629Z",
-      "items": 0
+      "ok": false,
+      "at": "2026-10-20T13:10:44.350Z",
+      "error": "This operation was aborted",
+      "fails": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-20T12:15:53.873Z",
+      "at": "2026-10-20T13:10:44.565Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-20T12:15:54.044Z",
+      "at": "2026-10-20T13:10:44.741Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-20T12:15:54.281Z",
+      "at": "2026-10-20T13:10:44.948Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-20T12:15:54.679Z",
+      "at": "2026-10-20T13:10:45.294Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-20T12:15:55.118Z",
-      "items": 10
+      "at": "2026-10-20T13:10:45.680Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2556,6 +2453,16 @@
         "title": "Greek Students and Teachers Rally: What They Want",
         "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
         "at": "2026-10-20T09:56:09.414Z"
+      },
+      {
+        "title": "Revolut Outage in Greece: Users Report Login Issues and Declined Card Payments",
+        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 2026",
+        "at": "2026-10-20T13:09:58.562Z"
+      },
+      {
+        "title": "Civil Servants, Culture unions join Teachers’ strike, Students’ protests on Oct 21",
+        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
+        "at": "2026-10-20T13:10:54.853Z"
       }
     ],
     "errors": [],
@@ -2708,18 +2615,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-20T12:15:56.759Z",
-    "considered": 8,
-    "picked": 0,
+    "at": "2026-10-20T13:10:46.570Z",
+    "considered": 9,
+    "picked": 1,
     "items": [
-      "· naftemporiki | FT: Η αγορά ασφαλίζεται για το «σκάσιμο» της φούσκας – Συναγερμός για το χρέος των τεχνολο",
-      "· gtp | Greece Inaugurates DAEDALUS Supercomputer to Support AI and Research",
-      "· gct | Libyan Parliament Approves Controversial Turkey Maritime Deal",
-      "· strikes-naftemporiki | Απεργία Τετάρτη 21 Οκτωβρίου: Ποιοι κατεβαίνουν στους δρόμους, τι ισχύει για μετρό και μέσ",
-      "· naftemporiki | Απεργία Τετάρτη 21 Οκτωβρίου: Ποιοι κατεβαίνουν στους δρόμους, τι ισχύει για μετρό και μέσ",
-      "· ert | Χωρίς ζυμαρικά κινδυνεύει να μείνει η Ιταλία, λόγω των απεργιακών κινητοποιήσεων των οδηγώ",
-      "· gn-kathimerini | Μπακογιάννη κατά Σαμαρά: «Αυτά που λέει για την ακρίβεια στερούνται σοβαρότητας» - Kathime",
-      "· gn-kathimerini | Συρία: Η Δαμασκός φοβάται επίθεση των Δρούζων με ισραηλινή στήριξη - Kathimerini"
+      "· naftemporiki | Ισραήλ: Προβάδισμα Άιζενκοτ έναντι του Νετανιάχου σε νέα δημοσκόπηση – Χωρίς πλειοψηφία η ",
+      "· naftemporiki | Εκτιμήσεις ότι η Τράπεζα του Ισραήλ θα διατηρήσει αμετάβλητα τα επιτόκια λίγο πριν τις εκλ",
+      "· minfin | Τοποθέτηση του Υφυπουργού Εθνικής Οικονομίας και Οικονομικών Θάνου Πετραλιά στη Διαρκή Επι",
+      "· minfin | Ανακοίνωση Τύπου Υπουργείων Εθνικής Οικονομίας και Οικονομικών και Κοινωνικής Συνοχής και ",
+      "· ktg | Libya approves Maritime Memorandum with Turkey",
+      "· gct | Vasso Mazonakis and Dimitris Makryniotis Prepare to Leave Glyfada Business",
+      "· naftemporiki | Ειδικό φορολογικό καθεστώς θέρμανσης ζητούν τα 5 εργατικά κέντρα της Δυτικής Μακεδονίας",
+      "✓ ktg | Civil Servants, Culture unions join Teachers’ strike, Students’ protests on Oct 21",
+      "· naftemporiki | Τουρκία – Σκάνδαλο των funds: Δύο παραιτήσεις υψηλόβαθμων του υπουργείου οικονομικών"
     ]
   },
   "evergreenDone": [
