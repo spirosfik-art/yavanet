@@ -14,13 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "8001596ef856": 1791409133702,
-    "fc8b3265a182": 1791409974569,
-    "4bf8f0a3996f": 1791409974569,
-    "d0dbb4e182c4": 1791409974569,
-    "f3b7405389f0": 1791410543868,
-    "9d3351af2db4": 1791410543868,
-    "b3427e9493a8": 1791410543868,
     "02018c9770d9": 1791411778012,
     "e0e8577b89d8": 1791411778012,
     "f0c3d0359941": 1791412638448,
@@ -2219,7 +2212,14 @@
     "7e8e7715fe39": 1792616998894,
     "adb3c86c610e": 1792616998894,
     "aacf12450c57": 1792618661411,
-    "ca7e908ea6e3": 1792618661411
+    "ca7e908ea6e3": 1792618661411,
+    "08f65709f2ed": 1792620494550,
+    "bf8aa363455d": 1792620494550,
+    "6afd1268b22d": 1792620494550,
+    "8a75f9a1cd28": 1792620494550,
+    "aa3ee706e42e": 1792620494550,
+    "867d47b559f7": 1792620494550,
+    "c5d4a9620293": 1792620494550
   },
   "pending": {},
   "sourceStatus": {
@@ -2231,12 +2231,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T21:37:30.490Z",
+      "at": "2026-10-21T22:08:05.800Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T21:37:31.254Z",
+      "at": "2026-10-21T22:08:06.312Z",
       "items": 4
     },
     "civilprotection": {
@@ -2247,27 +2247,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T21:37:32.858Z",
+      "at": "2026-10-21T22:08:07.873Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T21:37:32.968Z",
+      "at": "2026-10-21T22:08:08.190Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T21:37:34.072Z",
+      "at": "2026-10-21T22:08:08.846Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T21:37:34.885Z",
+      "at": "2026-10-21T22:08:09.446Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T21:37:35.534Z",
+      "at": "2026-10-21T22:08:10.013Z",
       "items": 10
     },
     "toi-greece": {
@@ -2278,22 +2278,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T21:37:36.171Z",
+      "at": "2026-10-21T22:08:10.443Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T21:37:36.419Z",
+      "at": "2026-10-21T22:08:10.528Z",
       "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T21:37:37.115Z",
+      "at": "2026-10-21T22:08:10.625Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T21:37:37.318Z",
+      "at": "2026-10-21T22:08:10.738Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2303,12 +2303,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T21:37:31.887Z",
+      "at": "2026-10-21T22:08:07.074Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T21:37:37.701Z",
+      "at": "2026-10-21T22:08:11.161Z",
       "items": 0
     },
     "hcg": {
@@ -2319,32 +2319,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T21:37:39.005Z",
+      "at": "2026-10-21T22:08:12.134Z",
       "items": 3
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T21:37:39.199Z",
+      "at": "2026-10-21T22:08:12.359Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T21:37:39.395Z",
+      "at": "2026-10-21T22:08:12.693Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T21:37:39.597Z",
+      "at": "2026-10-21T22:08:12.928Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T21:37:39.967Z",
-      "items": 5
+      "at": "2026-10-21T22:08:13.266Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T21:37:40.365Z",
+      "at": "2026-10-21T22:08:13.709Z",
       "items": 10
     }
   },
@@ -2353,7 +2353,13 @@
     "date": "2026-10-22",
     "count": 0,
     "published": [],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Greece Raises Turkey-Libya Maritime Deal at UN Security Council",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T22:08:18.942Z"
+      }
+    ],
     "errors": [],
     "ig": []
   },
@@ -2491,12 +2497,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T21:37:41.411Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-21T22:08:14.550Z",
+    "considered": 7,
+    "picked": 1,
     "items": [
-      "· gct | Panathlitikos Loses to Spanish Side Jairis in Women’s EuroCup",
-      "· gct | EU Mediterranean Commissioner Calls Libya-Turkey Deal Invalid"
+      "✓ gct | Greece Raises Turkey-Libya Maritime Deal at UN Security Council",
+      "· gct | Greek MEPs Urge Action Over Crop Burning Pollution from Turkey",
+      "· gct | Greece Invites You to Name its First Astronaut Mission",
+      "· gct | Four Injured After Explosive Device Detonates in Athens Apartment",
+      "· gct | Greek Forestry Service Wins Silver at Environmental Awards",
+      "· gct | Greek Students Protest Over Education Funding and Housing",
+      "· gct | Greece Achieves First Successful Laser Link with Low-Earth-Orbit Satellite"
     ]
   },
   "evergreenDone": [
