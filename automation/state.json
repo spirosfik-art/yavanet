@@ -2217,7 +2217,9 @@
     "c79e74de824d": 1792611368559,
     "6cc9f9159c38": 1792615369599,
     "7e8e7715fe39": 1792616998894,
-    "adb3c86c610e": 1792616998894
+    "adb3c86c610e": 1792616998894,
+    "aacf12450c57": 1792618661411,
+    "ca7e908ea6e3": 1792618661411
   },
   "pending": {},
   "sourceStatus": {
@@ -2229,12 +2231,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T21:09:46.541Z",
-      "items": 10
+      "at": "2026-10-21T21:37:30.490Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T21:09:47.443Z",
+      "at": "2026-10-21T21:37:31.254Z",
       "items": 4
     },
     "civilprotection": {
@@ -2245,27 +2247,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T21:09:49.617Z",
+      "at": "2026-10-21T21:37:32.858Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T21:09:49.988Z",
+      "at": "2026-10-21T21:37:32.968Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T21:09:51.225Z",
+      "at": "2026-10-21T21:37:34.072Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T21:09:52.513Z",
+      "at": "2026-10-21T21:37:34.885Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T21:09:53.512Z",
+      "at": "2026-10-21T21:37:35.534Z",
       "items": 10
     },
     "toi-greece": {
@@ -2276,22 +2278,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T21:09:54.094Z",
+      "at": "2026-10-21T21:37:36.171Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T21:09:54.233Z",
+      "at": "2026-10-21T21:37:36.419Z",
       "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T21:09:54.478Z",
-      "items": 3
+      "at": "2026-10-21T21:37:37.115Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T21:09:55.011Z",
+      "at": "2026-10-21T21:37:37.318Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2301,12 +2303,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T21:09:48.500Z",
+      "at": "2026-10-21T21:37:31.887Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T21:09:55.653Z",
+      "at": "2026-10-21T21:37:37.701Z",
       "items": 0
     },
     "hcg": {
@@ -2317,33 +2319,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T21:09:56.874Z",
+      "at": "2026-10-21T21:37:39.005Z",
       "items": 3
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T21:09:57.041Z",
+      "at": "2026-10-21T21:37:39.199Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T21:09:57.255Z",
+      "at": "2026-10-21T21:37:39.395Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T21:09:57.469Z",
+      "at": "2026-10-21T21:37:39.597Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T21:09:57.818Z",
+      "at": "2026-10-21T21:37:39.967Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T21:09:58.233Z",
-      "items": 9
+      "at": "2026-10-21T21:37:40.365Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2489,12 +2491,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T21:09:58.894Z",
+    "at": "2026-10-21T21:37:41.411Z",
     "considered": 2,
     "picked": 0,
     "items": [
-      "· naftemporiki | Wall Street: Άνοδος για Nasdaq, S&P 500 και Dow Jones με «οδηγό» SpaceX και Tesla",
-      "· gtp | Το 100% Hotel Show ανοίγει αυτό το Σαββατοκύριακο με νέα μορφή Business Lounge"
+      "· gct | Panathlitikos Loses to Spanish Side Jairis in Women’s EuroCup",
+      "· gct | EU Mediterranean Commissioner Calls Libya-Turkey Deal Invalid"
     ]
   },
   "evergreenDone": [
