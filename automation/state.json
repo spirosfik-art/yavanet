@@ -14,15 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "9f8225cf0b15": 1791362639810,
-    "edadecf3979f": 1791362639810,
-    "01fb741ea81f": 1791362639810,
-    "a8468e0fadd4": 1791362639810,
-    "b23fb2c4ef46": 1791362639810,
-    "5cd4a9f0b0f4": 1791362639810,
-    "fc80bbf75390": 1791363438462,
-    "d11db047ef06": 1791363438462,
-    "85001499796c": 1791363438462,
     "f1da88e1d6c6": 1791365246186,
     "1139448f969e": 1791365246186,
     "41cc0adf3c71": 1791365246186,
@@ -2242,7 +2233,11 @@
     "ed6e66164180": 1792572102909,
     "594428901995": 1792572102909,
     "45b78b2de69f": 1792572102909,
-    "85ae7fe34977": 1792572102909
+    "85ae7fe34977": 1792572102909,
+    "47f5313afc15": 1792574096243,
+    "ff577fd2f26f": 1792574096243,
+    "1dcf94d337e6": 1792574096243,
+    "4e146c17a28f": 1792574096243
   },
   "pending": {},
   "sourceStatus": {
@@ -2254,12 +2249,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T08:41:33.626Z",
+      "at": "2026-10-21T09:14:45.533Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T08:41:34.124Z",
+      "at": "2026-10-21T09:14:46.268Z",
       "items": 5
     },
     "civilprotection": {
@@ -2270,27 +2265,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T08:41:35.010Z",
+      "at": "2026-10-21T09:14:47.388Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T08:41:35.200Z",
+      "at": "2026-10-21T09:14:47.597Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T08:41:35.915Z",
+      "at": "2026-10-21T09:14:48.571Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T08:41:36.516Z",
-      "items": 7
+      "at": "2026-10-21T09:14:49.275Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T08:41:37.325Z",
+      "at": "2026-10-21T09:14:50.206Z",
       "items": 10
     },
     "toi-greece": {
@@ -2301,23 +2296,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T08:41:37.730Z",
+      "at": "2026-10-21T09:14:50.677Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T08:41:37.817Z",
+      "at": "2026-10-21T09:14:50.794Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T08:41:37.974Z",
-      "items": 4
+      "at": "2026-10-21T09:14:51.290Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T08:41:38.095Z",
-      "items": 1
+      "at": "2026-10-21T09:14:51.738Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2326,12 +2321,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T08:41:34.302Z",
+      "at": "2026-10-21T09:14:46.714Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T08:41:38.620Z",
+      "at": "2026-10-21T09:14:52.395Z",
       "items": 0
     },
     "hcg": {
@@ -2342,33 +2337,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T08:41:40.596Z",
-      "items": 1
+      "at": "2026-10-21T09:14:53.603Z",
+      "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T08:41:40.819Z",
+      "at": "2026-10-21T09:14:53.866Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T08:41:41.006Z",
+      "at": "2026-10-21T09:14:54.038Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T08:41:41.298Z",
+      "at": "2026-10-21T09:14:54.310Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T08:41:41.658Z",
+      "at": "2026-10-21T09:14:54.641Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T08:41:42.078Z",
-      "items": 11
+      "at": "2026-10-21T09:14:55.024Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2442,6 +2437,10 @@
       {
         "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
         "at": "2026-10-21T06:10:17.155Z"
+      },
+      {
+        "slug": "pierrakakis-meets-israeli-ambassador-pinat-janai",
+        "at": "2026-10-21T09:15:06.524Z"
       }
     ],
     "fb": [
@@ -2452,6 +2451,10 @@
       {
         "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
         "at": "2026-10-21T06:09:56.189Z"
+      },
+      {
+        "slug": "pierrakakis-meets-israeli-ambassador-pinat-janai",
+        "at": "2026-10-21T09:14:56.290Z"
       }
     ]
   },
@@ -2584,24 +2587,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T08:41:42.909Z",
-    "considered": 14,
+    "at": "2026-10-21T09:14:56.243Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· minfin | Διακήρυξη του έργου «Βελτιώσεις και Αναβαθμίσεις λογισμικού του Πληροφοριακού Συστήματος “",
-      "· ert | Financial Times: Ο Νετανιάχου σχεδίαζε νέο μεγάλο χτύπημα στο Ιράν, αλλά ο Τραμπ φέρεται ν",
-      "· naftemporiki | ΑΣΕΠ: Η προκήρυξη για 3.262 θέσεις μονίμων στο Δημόσιο",
-      "· ert | Θεσσαλονίκη: Απεργιακή συγκέντρωση διαμαρτυρίας της ΕΝΙΘ με κύρια αιτήματα αυξήσεις των απ",
-      "· gn-iefimerida | To iefimerida στην Achaia Clauss: Τι κάηκε στη φωτιά, τι συνέβη στο αυτοκρατορικό κελάρι -",
-      "· ert | Αίγυπτος προς Σμότριτς: Η στρατιωτική μας ισχύς μπορεί να συντρίψει οποιαδήποτε επιθετική ",
-      "· minfin | Περίληψη Διακήρυξης Α΄ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης ακινήτου για τη στέγ",
-      "· minfin | Δημήτρης Μαρκόπουλος από το Τορόντο: «Η ελληνική οικονομία είναι σήμερα πιο ισχυρή και πιο",
-      "· ert | Γαλλία: Συνετρίβη μαχητικό αεροσκάφος Μιράζ – Νεκρός ο ένας πιλότος, σε εξέλιξη έρευνες κο",
-      "· gn-iefimerida | Απεργία: Ποιοι συμμετέχουν, ποια κόμματα στηρίζουν - iefimerida.gr",
-      "· gtp | Greece’s Tourist Accommodation Records 7.43 Million Arrivals in August",
-      "· gtp | Prodexpo 2026: Do International Brands Add Value for Greek Hotel Owners?",
-      "· gtp | Greece-Bulgaria Interreg Projects Include €9.6 Million for Sustainable Tourism",
-      "· gtp | MSC Cruises Career Day Connects Tourism Students with Industry"
+      "· gct | Critical PHP Flaws Put Websites at Risk as Security Patches Loom",
+      "· oasa | Κλειστός ο σταθμός “Πανεπιστήμιο” , Τετάρτη 21/10/2026",
+      "· naftemporiki | Τουριστικό boom με ταξιδιωτικές εισπράξεις 18,2 δισ. στο 8μηνο – «Άλμα» 10% στις αφίξεις",
+      "· naftemporiki | Γαλλία: Συντριβή μαχητικού αεροσκάφους – Τουλάχιστον ένας νεκρός"
     ]
   },
   "evergreenDone": [
@@ -2644,5 +2637,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "pierrakakis-meets-israeli-ambassador-pinat-janai",
+      "url": "https://yavanet.gr/a/pierrakakis-meets-israeli-ambassador-pinat-janai/",
+      "at": "2026-10-21T09:14:56.290Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/pierrakakis-meets-israeli-ambassador-pinat-janai/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/pierrakakis-meets-israeli-ambassador-pinat-janai/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שיתוף פעולה בין יוון לישראל: פגישת שרים באתונה",
+        "title_en": "Greece and Israel: Ministerial Meeting in Athens",
+        "dek_he": "שר בממשלת יוון נפגש באתונה עם שגרירת ישראל, פנינת ינאי, לשיחה על הידוק הקשרים המדיניים.",
+        "dek_en": "A Greek minister met with Israeli Ambassador Pinat Janai in Athens to discuss strengthening bilateral ties.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/40361260/pexels-photo-40361260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שיתוף פעולה בין יוון לישראל: פגישת שרים באתונה\n\nשר בממשלת יוון נפגש באתונה עם שגרירת ישראל, פנינת ינאי, לשיחה על הידוק הקשרים המדיניים.\n\nhttps://yavanet.gr/a/pierrakakis-meets-israeli-ambassador-pinat-janai/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece and Israel: Ministerial Meeting in Athens\n\nA Greek minister met with Israeli Ambassador Pinat Janai in Athens to discuss strengthening bilateral ties.\n\nhttps://yavanet.gr/en/a/pierrakakis-meets-israeli-ambassador-pinat-janai/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/pierrakakis-meets-israeli-ambassador-pinat-janai.jpg",
+          "caption": "שיתוף פעולה בין יוון לישראל: פגישת שרים באתונה\n\nשר בממשלת יוון נפגש באתונה עם שגרירת ישראל, פנינת ינאי, לשיחה על הידוק הקשרים המדיניים.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #ישראליםביוון",
+          "story_url": "https://yavanet.gr/igc/pierrakakis-meets-israeli-ambassador-pinat-janai-story.jpg"
+        }
+      }
+    }
+  ]
 }
