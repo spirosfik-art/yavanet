@@ -1,4 +1,5 @@
-// Σελίδα διαφήμισης: yavanet.gr/go/asi (εβραϊκά). Δείχνει τον Asi + δύο επιλογές:
+// Σύνδεσμος διαφήμισης: yavanet.gr/go/asi → κατευθείαν WhatsApp του Asi (GET). Το POST/σελίδα φόρμας μένει διαθέσιμο αλλά δεν χρησιμοποιείται.
+// (Παλιά περιγραφή:) Δείχνει τον Asi + δύο επιλογές:
 //  1) «Αφήστε το τηλέφωνό σας» → ειδοποίηση Telegram στον Σπύρο με όνομα/τηλέφωνο (ο Asi στέλνει τον οδηγό).
 //  2) Κουμπί WhatsApp → ειδοποίηση Telegram και άνοιγμα WhatsApp του Asi.
 // Απλές επισκέψεις της σελίδας δεν στέλνουν ειδοποίηση (μόνο μετριούνται), ώστε να μη γεμίζει το Telegram.
@@ -26,11 +27,38 @@ function from(p) {
   return `${s}${/paid|ads|cpc/i.test(med) ? " (διαφήμιση)" : med ? ` (${med})` : ""}${camp ? ` · ${camp}` : ""}`;
 }
 
-export async function onRequestGet({ request, env: rawEnv }) {
+export async function onRequestGet({ request, env: rawEnv, waitUntil }) {
+  // Κατευθείαν στο WhatsApp του Asi. Σε κινητό ανοίγει απευθείας η εφαρμογή (whatsapp://),
+  // χωρίς την ενδιάμεση σελίδα του WhatsApp· αν δεν ανοίξει σε 1,2″, πάει στο wa.me.
   const env = withDefaults(rawEnv);
+  const u = new URL(request.url);
   const ua = request.headers.get("user-agent") || "";
-  if (!BOT.test(ua)) await bump(env, "asi:view:" + day()).catch(() => {});
-  return new Response(page(), { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
+  if (!BOT.test(ua)) {
+    const ip = request.headers.get("cf-connecting-ip") || "";
+    const seenKey = "asi:seen:" + ip + ":" + new Date().toISOString().slice(0, 13);
+    const seen = ip && env.PUSH_KV ? await env.PUSH_KV.get(seenKey) : null;
+    if (!seen) {
+      if (ip && env.PUSH_KV) await env.PUSH_KV.put(seenKey, "1", { expirationTtl: 3600 }).catch(() => {});
+      const n = await bump(env, "asi:view:" + day()).catch(() => 0);
+      const p = Object.fromEntries(u.searchParams);
+      const geo = [request.cf?.country, request.cf?.city].filter(Boolean).join(" / ") || "—";
+      const t = telegram(env, [
+        "📲 Πάτησε τη διαφήμιση → WhatsApp του Asi (+972 54-622-1414)",
+        `Από πού: ${from(p)}`,
+        `Χώρα / πόλη: ${geo} · ${device(ua)}`,
+        `Σήμερα: ${n} άτομα`,
+      ].join("\n")).catch(() => {});
+      if (waitUntil) waitUntil(t); else await t;
+    }
+  }
+  const mobile = /iPhone|iPad|Android/i.test(ua);
+  if (!mobile) return new Response(null, { status: 302, headers: { location: WA, "cache-control": "no-store" } });
+  const app = `whatsapp://send?phone=${ASI_WA}&text=${encodeURIComponent(MSG)}`;
+  const html = `<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>WhatsApp · אסי דורון</title>
+<style>body{margin:0;background:#0d1726;color:#f4efe6;font-family:system-ui,-apple-system,Arial,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}a{display:inline-block;margin-top:18px;background:#25d366;color:#06260f;font-weight:700;font-size:18px;padding:15px 26px;border-radius:12px;text-decoration:none}img{width:84px;height:84px;border-radius:50%;border:2px solid #c9a45c;object-fit:cover}</style></head>
+<body><div><img src="/asi-avatar-v3.jpg" alt=""><div style="margin-top:12px">פותח וואטסאפ עם אסי דורון…</div><a href="${WA}">לחצו כאן לשליחת הודעה לאסי</a></div>
+<script>location.href=${JSON.stringify(app)};setTimeout(function(){if(!document.hidden)location.replace(${JSON.stringify(WA)})},1200);</script></body></html>`;
+  return new Response(html, { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
 }
 
 export async function onRequestPost({ request, env: rawEnv }) {
