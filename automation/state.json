@@ -14,17 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "55575c145c82": 1791378042990,
-    "324f83038c3b": 1791378042990,
-    "ee85faeb9587": 1791378042990,
-    "a989e5d971f6": 1791378042990,
-    "a70b98199048": 1791378042990,
-    "ff22a177a5f9": 1791378042990,
-    "143617235dbe": 1791378969670,
-    "2eeee1227010": 1791378969670,
-    "2de0c93b3ff4": 1791378969670,
-    "f9bb5efd2436": 1791378969670,
-    "4690bd9df601": 1791378969670,
     "4906acf7f1de": 1791380393854,
     "1274fa33fff2": 1791380393854,
     "96bae8f7491a": 1791380393854,
@@ -2220,9 +2209,124 @@
     "01938928990f": 1792586579929,
     "bcc2320896d8": 1792586579929,
     "763ef988c1eb": 1792586579929,
-    "ae08b2e0f6f7": 1792586787923
+    "ae08b2e0f6f7": 1792586787923,
+    "140e5a78a72a": 1792589338084,
+    "292f7facc09d": 1792589338084,
+    "3f6b8148e1fb": 1792589338084,
+    "aeb72622b07f": 1792589338084,
+    "763a06436b49": 1792589338084,
+    "cc41e0c2c035": 1792589338084,
+    "1aa1cd12c89f": 1792589338084,
+    "0e1d18163415": 1792589338084
   },
-  "pending": {},
+  "pending": {
+    "929eee": {
+      "createdAt": 1792589421849,
+      "item": {
+        "title": "Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο",
+        "url": "https://www.in.gr/2026/10/21/greece/ekriksi-se-ktirio-ston-kolono/",
+        "summary": "Ισχυρή δύναμη της Πυροσβεστικής στο σημείο - Δύο πολίτες και δύο αστυνομικοί έχουν μεταφερθεί σε νοσοκομεία για τις πρώτες βοήθειες. \n The post Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο appeared first on in.gr .",
+        "published": "Wed, 21 Oct 2026 15:56:41 +0300",
+        "id": "763a06436b49",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "763a06436b49",
+        "section": "breaking",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "A building explosion in the Kolonos area of Athens injured four people, including two police officers. Important local safety update for tourists and residents in Athens.",
+        "item": {
+          "title": "Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο",
+          "url": "https://www.in.gr/2026/10/21/greece/ekriksi-se-ktirio-ston-kolono/",
+          "summary": "Ισχυρή δύναμη της Πυροσβεστικής στο σημείο - Δύο πολίτες και δύο αστυνομικοί έχουν μεταφερθεί σε νοσοκομεία για τις πρώτες βοήθειες. \n The post Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο appeared first on in.gr .",
+          "published": "Wed, 21 Oct 2026 15:56:41 +0300",
+          "id": "763a06436b49",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "explosion-athens-kolonos-four-injured",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 38.0019,
+          "lng": 23.7156
+        },
+        "strike": null,
+        "alert": {
+          "he": "עדכון מבזק",
+          "en": "Breaking News"
+        },
+        "imageKey": "house",
+        "imageQuery": "damaged building city street",
+        "he": {
+          "title": "אתונה: ארבעה פצועים בהתפוצצות עזה בבניין מגורים",
+          "seoTitle": "פיצוץ באתונה: ארבעה פצועים באירוע בקולונוס",
+          "seoDesc": "פיצוץ חזק אירע בבניין מגורים בשכונת קולונוס באתונה. ארבעה פצועים, בהם שני שוטרים ושני אזרחים, פונו לבתי החולים בעיר. המחלקה ללוחמה בטרור מעורבת.",
+          "keywords": [
+            "פיצוץ באתונה",
+            "אתונה",
+            "חדשות יוון",
+            "קולונוס",
+            "פיצוץ ביוון"
+          ],
+          "dek": "שכונת קולונוס באתונה הושבתה חלקית לאחר פיצוץ עז בבניין מגורים. כוחות כיבוי אש והצלה הוזעקו לזירה, והרשויות פתחו בחקירה.",
+          "tldr": [
+            "פיצוץ חזק אירע בבניין מגורים ברחוב פלאטונוס בשכונת קולונוס באתונה.",
+            "ארבעה בני אדם נפצעו באירוע, ובהם שני שוטרים ושני אזרחים.",
+            "המשטרה איתרה חפץ חשוד בכניסה לבניין, ויחידת הטרור מעורבת בחקירה."
+          ],
+          "means": "אם אתם מטיילים כעת באתונה או מתכננים להגיע לבירה היוונית, שימו לב כי אזורים מסוימים עשויים להיות חסומים לתנועה עקב פעילות כוחות הביטחון. מומלץ להתרחק ממוקדי אירועים חריגים, לעקוב אחר ההנחיות המקומיות ולהישמע להוראות המשטרה והרשויות בשטח.",
+          "body": "## פיצוץ עז בקולונוס: ארבעה פצועים פונו לבתי החולים\n\nאירוע חריג התרחש בשכונת קולונוס שבאתונה, בעקבות פיצוץ חזק שאירע בבניין מגורים הממוקם ברחוב פלאטונוס. למקום הגיעו כוחות גדולים של שירות ההצלה והכיבוי, הכוללים 18 כבאים ו-8 צוותי רכב, אשר פעלו לאבטחת הזירה ולטיפול בנזקים.\n\nעל פי גורמי הרפואה וההצלה, ארבעה בני אדם נפצעו כתוצאה מהפיצוץ ופונו לקבלת טיפול רפואי. בין הפצועים נמצאים שני אזרחים שמצבם מוגדר קל ואשר פונו לבית החולים אוונגליסמוס, וכן שני שוטרים שנפצעו באורח קשה יותר ופונו לבית החולים הצבאי בעיר.\n\n## מעורבות יחידת הלוחמה בטרור\n\nמן החקירה הראשונית עולה כי האירוע החל בעקבות קריאה שהתקבלה במרכז החירום של המשטרה סביב דיווח על סמים. עם הגעתם של השוטרים הראשונים למקום, הם איתרו מזודה חשודה שהונחה בכניסה לבניין המגורים, וזמן קצר לאחר מכן אירעה ההתפוצצות.\n\nלאור הנסיבות, הרשויות ביוון עדכנו את המחלקה המיוחדת ללוחמה בטרור, והיא מעורבת כעת בבדיקת פרטי האירוע ובאיסוף ממצאים מהזירה כדי להבין את הרקע המלא להתרחשות."
+        },
+        "en": {
+          "title": "Athens: Four Injured in Powerful Explosion at Residential Building",
+          "seoTitle": "Athens Explosion: Four Injured in Kolonos Building Blast",
+          "seoDesc": "A powerful explosion struck a residential building in the Kolonos neighborhood of Athens. Four people were injured and anti-terrorism authorities are involved.",
+          "keywords": [
+            "Athens explosion",
+            "Kolonos Athens",
+            "Greece news",
+            "Athens incident",
+            "Greece security"
+          ],
+          "dek": "A strong blast shook the Kolonos area in Athens, leaving four injured including police officers. Emergency services and anti-terrorism units are on the scene.",
+          "tldr": [
+            "A powerful explosion occurred at a residential building on Platonos Street in Kolonos.",
+            "Four individuals were injured, including two civilians and two police officers.",
+            "Authorities found a suspicious suitcase at the entrance before the blast, and anti-terrorism units were notified."
+          ],
+          "means": "If you are currently visiting Athens or planning a trip to the Greek capital, be aware that police activity may cause temporary road closures and localized disruptions. Stay updated through local reports, avoid cordoned-off areas, and follow all instructions from local safety authorities.",
+          "body": "## Powerful Blast in Kolonos Leaves Four Injured\n\nA major incident shook the Kolonos neighborhood in Athens following a powerful explosion inside a residential building on Platonos Street. Emergency responders rushed to the location, deploying 18 firefighters and eight response vehicles to secure the area and manage the aftermath.\n\nAccording to official emergency services, four people sustained injuries in the blast. Two civilians with minor injuries were transported to Evangelismos Hospital, while two police officers who suffered more serious injuries were transferred to the 401 Military Hospital.\n\n## Anti-Terrorism Authorities Involved in Investigation\n\nPreliminary information from police sources indicates that the sequence of events began with an emergency call reporting a drug-related issue. When officers arrived at the scene, they discovered a suspicious suitcase placed at the apartment building's entrance shortly before the explosion occurred.\n\nGiven the nature of the find, the Hellenic Police's Counter-Terrorism Unit has been briefed and is actively involved in investigating the circumstances surrounding the blast."
+        }
+      },
+      "text": "Vita.gr \n Μετράμε θερμίδες αλλά το έντερο «κρατά» το δικό του λογαριασμό\n Spotlight Συνάντηση Λεκορνί με εκπροσώπους συνδικάτων εν όψει των νέων διαδηλώσεων στη Γαλλία \n Ελληνικός δορυφόρος στο πρώτο πείραμα επικοινωνίας με λέιζερ \n Αγροτικό πετρέλαιο: Πώς θα γίνεται η αγορά μέσω της ψηφιακής εφαρμογής \n Γεραπετρίτης για την κύρωση του τουρκολιβυκού μνημονίου από τη Λιβυκή Βουλή: Δεν πρόκειται να εφαρμοστεί \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Ισχυρή έκρηξη σημειώθηκε σε κτίριο στην οδό Πλάτωνος 107 στον Κολωνό.\n Στο σημείο βρίσκεται ισχυρή δύναμη της Πυροσβεστικής με 18 πυροσβέστες και 8 οχήματα.\n Δείτε βίντεο από το σημείο:\n Σύμφωνα με πληροφορίες από το ΕΚΑΒ, δύο πολίτες έχουν διακομιστεί ελαφρά τραυματισμένοι στο νοσοκομείο «Ευαγγελισμός», ενώ δύο αστυνομικοί -με πιο σοβαρά τραύματα- έχει μεταφερθεί στο 401 Στρατιωτικό Νοσοκομείο.\n Οι πρώτες πληροφορίες για την έκρηξη\n Σύμφωνα με τις πρώτες πληροφορίες από αστυνομικές πηγές, νωρίτερα έγινε κλήση στην Άμεση Δράση για καταγγελία υπόθεσης ναρκωτικών. Όταν πήγαν στο σημείο αστυνομικοί, εντόπισαν μια βαλίτσα στην είσοδο της πολυκατοικίας και στη συνέχεια έγινε η έκρηξη.\n Για το συμβάν ενημερώνεται η Αντιτρομοκρατική Υπηρεσία.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Δούρου: Στόχος της κυβέρνησης είναι να περάσουν λάθρα όλα όσα συμβαίνουν εντός της εκπαιδευτικής κοινότητας \n Η Μόσχα κατηγορεί το Τόκιο ότι χρησιμοποιεί Ιάπωνες δημοσιογράφους στη Ρωσία για κατασκοπεία \n Η διπλωματική ασάφεια της «ενημέρωσης» – Τι ζητάει η Τουρκία για το καλώδιο Ελλάδας – Κύπρου \n Νικητιάδης: Ο Μητσοτάκης δηλώνει από τον «Δημόκριτο» ότι συνομιλεί με το αύριο, αλλά έχει χάσει κάθε επαφή με το σήμερα \n Τουρκία, Κατάρ, Πακιστάν και Ινδονησία υπογράφουν συμφωνία αμυντικής συνεργασίας \n Μακρόν: Ανακοίνωσε σύσκεψη με τις υπηρεσίες πληροφοριών και υπουργούς για έναν «απολογισμό» της 17ης Οκτωβρίου \n Ποιοι είναι οι έξι για τους οποίους εκδόθηκαν εντάλματα – Ο πρόεδρος της ΕΟΚ, ο σύμβουλος, οι τρεις πρώην διαιτητές και η νυν \n Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Αθήνα: Τέσσερις τραυματίες από ισχυρή έκρηξη σε πολυκατοικία",
+        "dek": "Ισχυρή έκρηξη συγκλόνισε την περιοχή του Κολωνού στην Αθήνα, αφήνοντας πίσω της τέσσερις τραυματίες, μεταξύ των οποίων αστυνομικούς. Στο σημείο βρίσκονται υπηρεσίες έκτακτης ανάγκης και αντιτρομοκρατικές μονάδες.",
+        "tldr": [
+          "Ισχυρή έκρηξη σημειώθηκε σε κτίριο κατοικιών στην οδό Πλάτωνος στον Κολωνό.",
+          "Τέσσερα άτομα τραυματίστηκαν, ανάμεσά τους δύο πολίτες και δύο αστυνομικοί.",
+          "Οι αρχές εντόπισαν μια ύποπτη βαλίτσα στην είσοδο πριν από την έκρηξη και ειδοποιήθηκαν μονάδες της αντιτρομοκρατικής."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2232,12 +2336,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T12:46:14.613Z",
+      "at": "2026-10-21T13:28:29.455Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T12:46:15.601Z",
+      "at": "2026-10-21T13:28:30.105Z",
       "items": 4
     },
     "civilprotection": {
@@ -2248,27 +2352,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T12:46:17.693Z",
+      "at": "2026-10-21T13:28:31.563Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T12:46:18.118Z",
+      "at": "2026-10-21T13:28:31.760Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T12:46:19.144Z",
+      "at": "2026-10-21T13:28:32.804Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T12:46:20.131Z",
+      "at": "2026-10-21T13:28:33.526Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T12:46:21.245Z",
+      "at": "2026-10-21T13:28:34.092Z",
       "items": 10
     },
     "toi-greece": {
@@ -2279,22 +2383,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T12:46:21.854Z",
+      "at": "2026-10-21T13:28:34.758Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T12:46:22.096Z",
+      "at": "2026-10-21T13:28:35.119Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T12:46:22.891Z",
-      "items": 3
+      "at": "2026-10-21T13:28:35.808Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T12:46:23.505Z",
+      "at": "2026-10-21T13:28:36.274Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2304,12 +2408,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T12:46:16.731Z",
+      "at": "2026-10-21T13:28:30.745Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T12:46:24.342Z",
+      "at": "2026-10-21T13:28:37.028Z",
       "items": 0
     },
     "hcg": {
@@ -2320,32 +2424,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T12:46:25.790Z",
+      "at": "2026-10-21T13:28:38.339Z",
       "items": 3
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T12:46:25.965Z",
+      "at": "2026-10-21T13:28:38.598Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T12:46:26.101Z",
+      "at": "2026-10-21T13:28:38.835Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T12:46:26.354Z",
+      "at": "2026-10-21T13:28:39.047Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T12:46:26.730Z",
-      "items": 0
+      "at": "2026-10-21T13:28:39.411Z",
+      "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T12:46:27.116Z",
+      "at": "2026-10-21T13:28:39.854Z",
       "items": 8
     }
   },
@@ -2423,6 +2527,11 @@
         "title": "Ισραήλ κατά Άγκυρας για το τουρκολιβυκό μνημόνιο: Αποσταθεροποιεί την Ανατολική Μεσόγειο, παραβιάζει κυριαρχικά δικαιώματα στενών μας συμμάχ",
         "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
         "at": "2026-10-21T12:43:08.303Z"
+      },
+      {
+        "title": "Το Ισραήλ «καταδικάζει έντονα» την επικύρωση του τουρκολιβυκού μνημονίου - Kathimerini",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T13:29:17.604Z"
       }
     ],
     "errors": [],
@@ -2580,11 +2689,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T12:46:27.923Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-21T13:28:58.084Z",
+    "considered": 8,
+    "picked": 2,
     "items": [
-      "· ingr | Ομόνοια: Άνδρας των ΜΑΤ έριξε κρότου – λάμψης μέσα στο μετρό μετά το πανεκπαιδευτικό συλλα"
+      "· ingr | Νικητιάδης: Ο Μητσοτάκης δηλώνει από τον «Δημόκριτο» ότι συνομιλεί με το αύριο, αλλά έχει ",
+      "· naftemporiki | Ρωσία: Συντριβή μαχητικού στην περιφέρεια του Καλίνινγκραντ",
+      "· gct | Velouchi Villages: 5 Autumn Escapes Beneath Fir-Clad Peaks",
+      "· naftemporiki | Κολωνός: Έκρηξη σε κτίριο – Τραυματίστηκαν δύο αστυνομικοί και δύο πολίτες",
+      "✓ ingr | Έκρηξη σε κτίριο στον Κολωνό – Τέσσερις τραυματίες στο νοσοκομείο",
+      "· gn-hcg | Ημιβύθιση Α/Κ και θαλάσσια ρύπανση στο Βόλο – Εκδήλωση μικρής έκτασης πυρκαγιάς σε Ε/Γ –Τ/",
+      "· gct | Australian MP Helen Haines Loses Both Legs After Car Attack",
+      "✓ gn-kathimerini | Το Ισραήλ «καταδικάζει έντονα» την επικύρωση του τουρκολιβυκού μνημονίου - Kathimerini"
     ]
   },
   "evergreenDone": [
