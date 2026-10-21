@@ -1,0 +1,27 @@
+name: Social shots
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render (Chrome, web fonts)
+        run: |
+          mkdir -p shots
+          for f in automation/social/*.html; do
+            n=$(basename "$f" .html); sz=${n##*-}; w=${sz%x*}; h=${sz#*x}
+            google-chrome --headless=new --no-sandbox --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --virtual-time-budget=10000 --window-size=$w,$h --screenshot="$PWD/shots/$n.jpg" "file://$PWD/$f"
+          done
+          ls -la shots
+      - name: Push to social-shots branch
+        run: |
+          cd shots
+          git init -q -b social-shots
+          git config user.name "yavanet-bot"
+          git config user.email "bot@yavanet.gr"
+          git add -A
+          git commit -qm "Social shots [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" social-shots
