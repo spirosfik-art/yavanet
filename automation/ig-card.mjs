@@ -55,7 +55,7 @@ function nextVariant() {
   try { n = JSON.parse(fs.readFileSync(f, "utf8")).length; } catch {}
   return n;
 }
-function cardLayout(v, { img, kicker, title, dek, icon, breaking }) {
+function cardLayout(v, { img, kicker, title, dek, icon, breaking, alert }) {
   const fsz = (a, b, c) => (title.length > 60 ? a : title.length > 42 ? b : c);
   const base = `*{margin:0;box-sizing:border-box}body{width:1080px;height:1350px;font-family:Assistant,sans-serif;overflow:hidden;position:relative}h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}`;
   if (breaking) {
@@ -65,7 +65,7 @@ function cardLayout(v, { img, kicker, title, dek, icon, breaking }) {
 .bar i{font-style:normal;display:inline-block;width:22px;height:22px;border-radius:50%;background:#fff;margin-left:16px;box-shadow:0 0 0 8px rgba(255,255,255,.3)}
 .bar svg{width:76px;height:76px}.box{position:absolute;inset:auto 64px 140px 64px}
 h1{font-size:${fsz(66, 76, 88)}px;line-height:1.1}.ft{position:absolute;bottom:52px;right:64px;font:600 32px Assistant;color:#e9c9cf}`,
-      body: `<div class="ph"></div><div class="bar"><span><i></i>מבזק · ${esc(kicker)}</span>${icon}</div><div class="box"><h1>${esc(title)}</h1></div><div class="ft">yavanet.gr · יוון בעברית</div>` };
+      body: `<div class="ph"></div><div class="bar"><span><i></i>מבזק · ${esc(alert)}</span>${icon}</div><div class="box"><h1>${esc(title)}</h1></div><div class="ft">yavanet.gr · יוון בעברית</div>` };
   }
   const acc = ACCENTS[Math.floor(v / 4) % ACCENTS.length];
   switch (v % 4) {
@@ -114,7 +114,7 @@ export function renderIgCard(a, kicker, variant) {
   img = img.replace(/h=650&w=940/, "w=1400");
   const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
   const v = Number.isInteger(variant) ? variant : nextVariant();
-  const L = cardLayout(v, { img, kicker: kicker || KICKER[a.section] || "יוון", title: a.he.title, dek: a.he.dek, icon, breaking: !!(a.breaking || a.strike) });
+  const L = cardLayout(v, { img, kicker: kicker || KICKER[a.section] || "יוון", title: a.he.title, dek: a.he.dek, icon, breaking: !!(a.breaking || a.strike), alert: a.strike || /strike|שביתה/i.test(a.slug + a.he.title) ? "שביתה" : "חדשות" });
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
 <style>${L.css}</style></head><body>${L.body}</body></html>`;
