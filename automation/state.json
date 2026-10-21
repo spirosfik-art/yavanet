@@ -14,11 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "0a6eb8f2fa47": 1791349005784,
-    "1c98d68cc305": 1791349005785,
-    "030bd1d122dc": 1791349005785,
-    "db15e61ae34e": 1791349561356,
-    "44e089a2bb45": 1791349561356,
     "54d9ea3d2ab8": 1791350784378,
     "202f7e73e0bb": 1791350784378,
     "4c505b1e4384": 1791350784378,
@@ -2232,7 +2227,12 @@
     "220efa147e92": 1792555923965,
     "ac653e4f2719": 1792557523828,
     "873b65727cf4": 1792557523828,
-    "0eeea2de622d": 1792557523828
+    "0eeea2de622d": 1792557523828,
+    "73d13b3bf3f7": 1792559432832,
+    "d07df82be6bc": 1792559432832,
+    "92238017d1c6": 1792559432832,
+    "9a7b5c114653": 1792559432832,
+    "04696d7a38fb": 1792559432832
   },
   "pending": {},
   "sourceStatus": {
@@ -2244,12 +2244,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T04:38:34.310Z",
+      "at": "2026-10-21T05:10:02.313Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T04:38:34.787Z",
+      "at": "2026-10-21T05:10:03.058Z",
       "items": 5
     },
     "civilprotection": {
@@ -2260,27 +2260,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T04:38:36.186Z",
+      "at": "2026-10-21T05:10:05.253Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T04:38:36.551Z",
+      "at": "2026-10-21T05:10:05.683Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T04:38:37.444Z",
+      "at": "2026-10-21T05:10:06.730Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T04:38:37.993Z",
+      "at": "2026-10-21T05:10:07.597Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T04:38:38.696Z",
+      "at": "2026-10-21T05:10:08.519Z",
       "items": 10
     },
     "toi-greece": {
@@ -2291,23 +2291,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T04:38:39.101Z",
+      "at": "2026-10-21T05:10:09.009Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T04:38:39.400Z",
-      "items": 14
+      "at": "2026-10-21T05:10:09.377Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T04:38:39.822Z",
-      "items": 2
+      "at": "2026-10-21T05:10:09.514Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T04:38:39.966Z",
-      "items": 6
+      "at": "2026-10-21T05:10:09.976Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2316,12 +2316,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T04:38:35.502Z",
+      "at": "2026-10-21T05:10:03.928Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T04:38:40.400Z",
+      "at": "2026-10-21T05:10:10.681Z",
       "items": 0
     },
     "hcg": {
@@ -2332,32 +2332,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T04:38:41.758Z",
+      "at": "2026-10-21T05:10:13.158Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T04:38:41.986Z",
+      "at": "2026-10-21T05:10:13.408Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T04:38:42.163Z",
-      "items": 5
+      "at": "2026-10-21T05:10:13.558Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T04:38:42.391Z",
+      "at": "2026-10-21T05:10:13.835Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T04:38:42.724Z",
+      "at": "2026-10-21T05:10:14.225Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T04:38:43.143Z",
+      "at": "2026-10-21T05:10:14.675Z",
       "items": 7
     }
   },
@@ -2393,6 +2393,16 @@
         "title": "Απεργία σήμερα 21 Οκτωβρίου: Συλλαλητήριο στα Προπύλαια – Ποιοι συμμετέχουν, ποιοι σταθμοί μετρό κλείνουν, τι ισχύει με μέσα μεταφοράς",
         "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
         "at": "2026-10-21T03:37:10.905Z"
+      },
+      {
+        "title": "Teachers, students and doctors strike across Greece: How public transport will run today",
+        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T05:10:33.512Z"
+      },
+      {
+        "title": "Ανακαίνιση κατοικίας: Ποιοι δικαιούνται, πόσα παίρνουν και τι πρέπει να τηρήσουν – Όλα τα κριτήρια και οι όροι",
+        "reason": "Ίδιο θέμα με «Greece Advances Digital Hub for Real Estate and Property Records» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T05:10:38.103Z"
       }
     ],
     "errors": [],
@@ -2533,13 +2543,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T04:38:43.828Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-21T05:10:32.833Z",
+    "considered": 5,
+    "picked": 2,
     "items": [
-      "· gct | Police Consider Attempted Murder Charge For Man Who Attacked Politician",
-      "· naftemporiki | Τουρκολιβυκό μνημόνιο: Η Αθήνα επένδυσε στους Χαφτάρ – Το μέρισμα το πήρε η Τουρκία και ο ",
-      "· gct | Greek Project Wins EU Funding to Develop AI-Driven Treatments"
+      "· ert | Νετανιάχου: Η Ισραήλ ενδέχεται να δεχθεί επίθεση τις ημέρες πριν από τις εκλογές",
+      "· ingr | Ακρίβεια: Με «χαλασμένο θερμοστάτη» οι τιμές στην ενέργεια – Το ημερολόγιο δείχνει ξανά… «",
+      "✓ gct | Teachers, students and doctors strike across Greece: How public transport will run today",
+      "✓ ert | Ανακαίνιση κατοικίας: Ποιοι δικαιούνται, πόσα παίρνουν και τι πρέπει να τηρήσουν – Όλα τα ",
+      "· gct | Greek Airports Handle 71.7 Million Passengers in Nine Months"
     ]
   },
   "evergreenDone": [
