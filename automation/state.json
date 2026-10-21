@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "f066a2564475": 1791354599797,
-    "04a3e512d11e": 1791354599797,
-    "8447a6084c97": 1791354599797,
-    "49507cc6d14a": 1791354599797,
     "f4f07aec2042": 1791356780944,
     "fe8fdab12b38": 1791356780944,
     "1f78a422da92": 1791356780944,
@@ -2234,7 +2230,19 @@
     "1a20f61881e6": 1792561032069,
     "283d30329ca0": 1792561032069,
     "51aa8944e3a0": 1792562949160,
-    "aeb4449e3b07": 1792562949160
+    "aeb4449e3b07": 1792562949160,
+    "d78631c03829": 1792565133212,
+    "7ce4fa623d1d": 1792565133212,
+    "c936a4163e50": 1792565133212,
+    "be2cde3cc106": 1792565133212,
+    "a663b08bce6f": 1792565133212,
+    "2d6b5a4dba49": 1792565133212,
+    "e90524af1611": 1792565133212,
+    "d94cc74d571f": 1792565133212,
+    "dbbe0035bd5c": 1792565133212,
+    "5e1e076ff9fe": 1792565133212,
+    "33018f720104": 1792565133212,
+    "762c01b95942": 1792565133212
   },
   "pending": {},
   "sourceStatus": {
@@ -2246,12 +2254,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T06:08:51.566Z",
-      "items": 0
+      "at": "2026-10-21T06:45:12.320Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T06:08:52.268Z",
+      "at": "2026-10-21T06:45:12.981Z",
       "items": 5
     },
     "civilprotection": {
@@ -2262,27 +2270,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T06:08:54.328Z",
+      "at": "2026-10-21T06:45:14.129Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T06:08:54.429Z",
+      "at": "2026-10-21T06:45:24.540Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T06:08:55.477Z",
+      "at": "2026-10-21T06:45:25.246Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T06:08:56.194Z",
-      "items": 3
+      "at": "2026-10-21T06:45:26.068Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T06:08:56.886Z",
+      "at": "2026-10-21T06:45:26.639Z",
       "items": 10
     },
     "toi-greece": {
@@ -2293,23 +2301,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T06:08:57.510Z",
+      "at": "2026-10-21T06:45:27.094Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T06:08:57.633Z",
+      "at": "2026-10-21T06:45:27.425Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T06:08:58.219Z",
+      "at": "2026-10-21T06:45:28.187Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T06:08:58.740Z",
-      "items": 2
+      "at": "2026-10-21T06:45:28.374Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2318,12 +2326,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T06:08:53.319Z",
+      "at": "2026-10-21T06:45:13.474Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T06:08:59.675Z",
+      "at": "2026-10-21T06:45:29.032Z",
       "items": 0
     },
     "hcg": {
@@ -2334,33 +2342,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T06:09:06.174Z",
+      "at": "2026-10-21T06:45:30.492Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T06:09:06.557Z",
+      "at": "2026-10-21T06:45:30.723Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T06:09:06.746Z",
+      "at": "2026-10-21T06:45:30.971Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T06:09:07.033Z",
+      "at": "2026-10-21T06:45:31.225Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T06:09:07.418Z",
-      "items": 5
+      "at": "2026-10-21T06:45:31.615Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T06:09:07.870Z",
-      "items": 7
+      "at": "2026-10-21T06:45:32.039Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2417,6 +2425,16 @@
         "title": "Ανακαίνιση κατοικίας: Ποιοι δικαιούνται, πόσα παίρνουν και τι πρέπει να τηρήσουν – Όλα τα κριτήρια και οι όροι",
         "reason": "Ίδιο θέμα με «Greece Advances Digital Hub for Real Estate and Property Records» – δεν γράφτηκε ξανά",
         "at": "2026-10-21T05:10:38.103Z"
+      },
+      {
+        "title": "Απεργία: Σε κλοιό το κέντρο σήμερα -Ποιοι συμμετέχουν, πώς θα κινηθούν τα ΜΜΜ, στις 12 το πανεκπαιδευτικό συλλαλητήριο - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Athens and Thessaloniki: Metro Station Closures and Transport Updates» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T06:45:37.256Z"
+      },
+      {
+        "title": "Fidan Says Turkey Has No Objection to Greece-Cyprus Cable, Demands Written Notice for Surveys",
+        "reason": "Ίδιο θέμα με «Greece prepares for critical weeks amid Eastern Mediterranean cable project» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T06:45:41.694Z"
       }
     ],
     "errors": [],
@@ -2566,12 +2584,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T06:09:09.160Z",
-    "considered": 2,
+    "at": "2026-10-21T06:45:33.213Z",
+    "considered": 12,
     "picked": 2,
     "items": [
-      "✓ gct | Turkey Hails Libya Deal as Greece Faces New Maritime Tensions",
-      "✓ ingr | MMM: Ποιοι σταθμοί Μετρό κλείνουν σήμερα – Τι ισχύει για τα υπόλοιπα μέσα"
+      "· gct | Police Arrest 19 Over Missing 25km of Copper Cable",
+      "✓ gct | Fidan Says Turkey Has No Objection to Greece-Cyprus Cable, Demands Written Notice for Surv",
+      "· ert | Απεργία σήμερα αρχαιολόγων, συντηρητών και υπαλλήλων του υπουργείου Πολιτισμού – Τι ζητούν",
+      "· gct | Maroulosalata: The Simple Greek Lettuce Salad Ready in 15 Minutes",
+      "· ert | Εγκαινιάστηκε το νέο γραφείο του ΕΟΤ στη Μελβούρνη – Αποτελούσε επί σειρά ετών αίτημα της ",
+      "· minfin | Νίκος Παπαθανάσης: Στο ΕΣΠΑ η αποκατάσταση του διατηρητέου κυλινδρόμυλου Ματθαίου στη Νάου",
+      "· naftemporiki | FT: Το Ισραήλ ετοιμαζόταν να πλήξει το Ιράν στις 10 Οκτωβρίου, μπήκε στη μέση ο Τραμπ – «Δ",
+      "· gct | Kairidis Takes a South Melbourne Scarf Into Greek Parliament",
+      "· gct | Archbishop Apostolos Hails Oxi Day Freedom Message in Toronto",
+      "· gn-iefimerida | Κλείνει στις 10:00 ο σταθμός του Μετρό «Πανεπιστήμιο» λόγω του πανεκπαιδευτικού συλλαλητηρ",
+      "✓ gn-iefimerida | Απεργία: Σε κλοιό το κέντρο σήμερα -Ποιοι συμμετέχουν, πώς θα κινηθούν τα ΜΜΜ, στις 12 το ",
+      "· gn-iefimerida | Αλέξανδρος Βασιλικός: Αλλάζει τον τουρισμό της Πάτρας μετά την επένδυση του Αστέρα - Το στ"
     ]
   },
   "evergreenDone": [
