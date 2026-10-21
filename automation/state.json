@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "8d2d7754d64b": 1791406369785,
     "8001596ef856": 1791409133702,
     "fc8b3265a182": 1791409974569,
     "4bf8f0a3996f": 1791409974569,
@@ -2216,7 +2215,9 @@
     "1ad267537aca": 1792610186674,
     "2283570664c1": 1792611368559,
     "c79e74de824d": 1792611368559,
-    "6cc9f9159c38": 1792615369599
+    "6cc9f9159c38": 1792615369599,
+    "7e8e7715fe39": 1792616998894,
+    "adb3c86c610e": 1792616998894
   },
   "pending": {},
   "sourceStatus": {
@@ -2228,12 +2229,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T20:42:37.500Z",
-      "items": 0
+      "at": "2026-10-21T21:09:46.541Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T20:42:38.005Z",
+      "at": "2026-10-21T21:09:47.443Z",
       "items": 4
     },
     "civilprotection": {
@@ -2244,27 +2245,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T20:42:39.299Z",
+      "at": "2026-10-21T21:09:49.617Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T20:42:39.638Z",
+      "at": "2026-10-21T21:09:49.988Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T20:42:40.373Z",
+      "at": "2026-10-21T21:09:51.225Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T20:42:40.925Z",
-      "items": 1
+      "at": "2026-10-21T21:09:52.513Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T20:42:41.257Z",
+      "at": "2026-10-21T21:09:53.512Z",
       "items": 10
     },
     "toi-greece": {
@@ -2275,23 +2276,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T20:42:42.619Z",
+      "at": "2026-10-21T21:09:54.094Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T20:42:43.459Z",
+      "at": "2026-10-21T21:09:54.233Z",
       "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T20:42:44.181Z",
-      "items": 5
+      "at": "2026-10-21T21:09:54.478Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T20:42:44.527Z",
-      "items": 2
+      "at": "2026-10-21T21:09:55.011Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2300,12 +2301,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T20:42:38.384Z",
+      "at": "2026-10-21T21:09:48.500Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T20:42:46.322Z",
+      "at": "2026-10-21T21:09:55.653Z",
       "items": 0
     },
     "hcg": {
@@ -2316,164 +2317,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T20:42:47.294Z",
+      "at": "2026-10-21T21:09:56.874Z",
       "items": 3
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T20:42:47.564Z",
+      "at": "2026-10-21T21:09:57.041Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T20:42:47.758Z",
+      "at": "2026-10-21T21:09:57.255Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T20:42:48.074Z",
+      "at": "2026-10-21T21:09:57.469Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T20:42:48.455Z",
-      "items": 6
+      "at": "2026-10-21T21:09:57.818Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T20:42:48.895Z",
-      "items": 11
+      "at": "2026-10-21T21:09:58.233Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-21",
-    "count": 3,
-    "published": [
-      {
-        "slug": "greece-single-property-hub-digital-file",
-        "title": "Greece Advances Digital Hub for Real Estate and Property Records",
-        "at": "2026-10-21T07:52:43+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-strike-rallies-october-21-traffic-metro",
-        "title": "↻ Athens and Thessaloniki: Metro Station Closures and Transport Updates",
-        "at": "2026-10-21T09:09:23+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "turkey-libya-maritime-memorandum-greece-tensions",
-        "title": "Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection",
-        "at": "2026-10-21T09:11:08+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "explosion-kolonos-athens-october-2026",
-        "title": "Athens: Four injured in an explosion in Kolonos",
-        "at": "2026-10-21T18:37:38+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "one-million-euro-luxury-property-market-attica",
-        "title": "↻ The Housing Crisis in Athens as a Real Estate Opportunity",
-        "at": "2026-10-21T21:08:21+03:00",
-        "section": "real-estate"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Ο Χέγκσεθ έκανε ταξίδι-αστραπή στο Ισραήλ – Συζήτησαν με τον Νετανιάχου την αντιμετώπιση «κοινών απειλών»",
-        "reason": "The Hebrew title contains a severe typo/corruption ('ביקור הבזק של שיר ההגנה האמריקאי ביסראיל' instead of 'שר ההגנה' and 'בישראל'). Rule 12: The article is about US-Israel relations and does not involve Greece, so it should not be categorized under 'Israelis in Greece' (though the generated text inc",
-        "at": "2026-10-20T21:38:04.062Z"
-      },
-      {
-        "title": "Greece Offers Housing Renovation Grants of Up to €36,000",
-        "reason": "Ίδιο θέμα με «New EU building energy rules bring challenges for Greece» – δεν γράφτηκε ξανά",
-        "at": "2026-10-20T22:06:56.514Z"
-      },
-      {
-        "title": "Greece Consults Cyprus and Egypt Over Illegal Turkish-Libyan Deal",
-        "reason": "Ίδιο θέμα με «Greece prepares for critical weeks amid Eastern Mediterranean cable project» – δεν γράφτηκε ξανά",
-        "at": "2026-10-20T22:35:12.795Z"
-      },
-      {
-        "title": "Απεργία σήμερα 21 Οκτωβρίου: Συλλαλητήριο στα Προπύλαια – Ποιοι συμμετέχουν, ποιοι σταθμοί μετρό κλείνουν, τι ισχύει με μέσα μεταφοράς",
-        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T03:37:10.905Z"
-      },
-      {
-        "title": "Teachers, students and doctors strike across Greece: How public transport will run today",
-        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T05:10:33.512Z"
-      },
-      {
-        "title": "Ανακαίνιση κατοικίας: Ποιοι δικαιούνται, πόσα παίρνουν και τι πρέπει να τηρήσουν – Όλα τα κριτήρια και οι όροι",
-        "reason": "Ίδιο θέμα με «Greece Advances Digital Hub for Real Estate and Property Records» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T05:10:38.103Z"
-      },
-      {
-        "title": "Απεργία: Σε κλοιό το κέντρο σήμερα -Ποιοι συμμετέχουν, πώς θα κινηθούν τα ΜΜΜ, στις 12 το πανεκπαιδευτικό συλλαλητήριο - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Athens and Thessaloniki: Metro Station Closures and Transport Updates» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T06:45:37.256Z"
-      },
-      {
-        "title": "Fidan Says Turkey Has No Objection to Greece-Cyprus Cable, Demands Written Notice for Surveys",
-        "reason": "Ίδιο θέμα με «Greece prepares for critical weeks amid Eastern Mediterranean cable project» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T06:45:41.694Z"
-      },
-      {
-        "title": "Students in Greece protest high cost of living; solidarity with France",
-        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T12:43:03.879Z"
-      },
-      {
-        "title": "Ισραήλ κατά Άγκυρας για το τουρκολιβυκό μνημόνιο: Αποσταθεροποιεί την Ανατολική Μεσόγειο, παραβιάζει κυριαρχικά δικαιώματα στενών μας συμμάχ",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T12:43:08.303Z"
-      },
-      {
-        "title": "Το Ισραήλ «καταδικάζει έντονα» την επικύρωση του τουρκολιβυκού μνημονίου - Kathimerini",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T13:29:17.604Z"
-      },
-      {
-        "title": "EU Unites Against Turkish-Libyan Maritime Deal as Greece Raises Alarm at UN",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T19:36:12.804Z"
-      }
-    ],
+    "date": "2026-10-22",
+    "count": 0,
+    "published": [],
+    "rejected": [],
     "errors": [],
-    "ig": [
-      {
-        "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
-        "at": "2026-10-21T06:10:17.155Z"
-      },
-      {
-        "slug": "pierrakakis-meets-israeli-ambassador-pinat-janai",
-        "at": "2026-10-21T09:15:06.524Z"
-      }
-    ],
-    "fb": [
-      {
-        "slug": "greece-single-property-hub-digital-file",
-        "at": "2026-10-21T04:52:44.278Z"
-      },
-      {
-        "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
-        "at": "2026-10-21T06:09:56.189Z"
-      },
-      {
-        "slug": "pierrakakis-meets-israeli-ambassador-pinat-janai",
-        "at": "2026-10-21T09:14:56.290Z"
-      },
-      {
-        "slug": "explosion-kolonos-athens-october-2026",
-        "at": "2026-10-21T15:37:39.008Z"
-      }
-    ]
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-21",
+      "count": 3,
+      "rejected": 12
+    },
     {
       "date": "2026-10-20",
       "count": 10,
@@ -2602,11 +2489,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T20:42:49.599Z",
-    "considered": 1,
+    "at": "2026-10-21T21:09:58.894Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· gn-kathimerini | Απεργία εκπαιδευτικών: Στο 20,61% η συμμετοχή στην Πρωτοβάθμια και στο 11,16% στη Δευτεροβ"
+      "· naftemporiki | Wall Street: Άνοδος για Nasdaq, S&P 500 και Dow Jones με «οδηγό» SpaceX και Tesla",
+      "· gtp | Το 100% Hotel Show ανοίγει αυτό το Σαββατοκύριακο με νέα μορφή Business Lounge"
     ]
   },
   "evergreenDone": [
