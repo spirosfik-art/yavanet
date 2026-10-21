@@ -14,8 +14,7 @@ jobs:
       - name: Render test card (same code as the pipeline)
         run: |
           mkdir -p ig-out
-          (which google-chrome chromium convert magick ffmpeg; google-chrome --version; node automation/ig-test.mjs osios-loukas-monastery-central-greece) > ig-out/log.txt 2>&1 || true
-          cp content/ig/osios-loukas*.jpg ig-out/ 2>/dev/null || true
+          (which google-chrome chromium convert magick ffmpeg; google-chrome --version; node automation/ig-variants-test.mjs) > ig-out/log.txt 2>&1 || true
       - name: Push to ig-cards branch
         run: |
           cd ig-out
