@@ -2,7 +2,7 @@
   "slug": "athens-strike-rallies-october-21-traffic-metro",
   "section": "breaking",
   "publishedAt": "2026-10-21T08:35:00+03:00",
-  "updatedAt": null,
+  "updatedAt": "2026-10-21T09:09:23+03:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": true,
@@ -11,6 +11,10 @@
     "lng": 23.7333
   },
   "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/21/greece/mmm-poioi-stathmoi-metro-kleinoun-simera-ti-isxyei-gia-ta-ypoloipa-mesa/"
+    },
     {
       "name": "Documento",
       "url": "https://www.documentonews.gr/article/apergia-21-oktovriou-poioi-symmetechoun-ti-ischyei-me-scholeia-kai-mmm-analytika-oi-sygkentroseis/"
@@ -29,59 +33,44 @@
       "2026-10-21"
     ],
     "sectors": [
-      "public-sector",
-      "other"
+      "metro",
+      "public-sector"
     ],
-    "hours": "11:00 until end of shift (public sector); 24 hours (primary teachers)",
-    "he": "עצירת עבודה במגזר הציבורי ושביתת מורים ב־21 באוקטובר 2026, הפגנות במרכז אתונה",
-    "en": "Public-sector work stoppage and teachers' strike on 21 October 2026, rallies in central Athens"
+    "hours": "from 10:00 in Athens and 09:00 in Thessaloniki",
+    "he": "סגירת תחנות מטרו באתונה ובסלוניקי עקב הפגנות",
+    "en": "Closure of metro stations in Athens and Thessaloniki due to protests"
   },
   "alert": {
     "he": "הפגנות במרכז אתונה",
     "en": "Rallies in central Athens"
   },
   "he": {
-    "title": "שביתה והפגנות היום במרכז אתונה: מה פתוח ואיך זזים בעיר",
-    "seoTitle": "שביתה באתונה 21 באוקטובר: הפגנות, מטרו ותחבורה",
-    "seoDesc": "שביתת מורים ועצירת עבודה במגזר הציבורי ביוון ב־21 באוקטובר 2026. הפגנה ב־12:00 בפרופילאיה, המטרו באתונה פועל, תחנות סגורות בסלוניקי.",
-    "keywords": [
-      "שביתה ביוון",
-      "שביתה באתונה",
-      "הפגנה באתונה",
-      "מטרו אתונה"
-    ],
-    "dek": "עצירת עבודה במגזר הציבורי מ־11:00 ושביתת מורים. ההפגנה המרכזית ב־12:00 בפרופילאיה. המטרו והאוטובוסים באתונה פועלים, אבל צפויים עיכובים במרכז.",
+    "title": "עדכון באתונה: סגירת תחנות מטרו ושיבושים בתחבורה",
+    "dek": "רשויות האכיפה הורה על סגירת תחנות מרכזיות במטרו של אתונה וסלוניקי בשל הפגנות רחבות היקף.",
     "tldr": [
-      "המטרו, האוטובוסים והחשמלית באתונה אינם שובתים היום.",
-      "הפגנה מרכזית ב־12:00 בפרופילאיה: צפויים עיכובים וסגירות תנועה במרכז.",
-      "בסלוניקי חמש תחנות מטרו במרכז סגורות מ־09:00."
+      "תחנת המטרו פאניפיסטימיו באתונה סגורה בהנחיית המשטרה.",
+      "ארבע תחנות בסלוניקי אינן פועלות החל מהבוקר.",
+      "המשטרה ממליצה להימנע מהגעה למרכז אתונה ברכב פרטי."
     ],
-    "means": "אם אתם במרכז אתונה היום, תכננו זמן נוסף לנסיעות בין 10:00 ל־15:00 והימנעו מאזור פנפיסטימיו וסינטגמה בצהריים. סידורים במשרדים ממשלתיים כדאי לסיים לפני 11:00. בסלוניקי בדקו מראש אם התחנה שלכם סגורה.",
-    "body": "## מה קורה היום, רביעי 21 באוקטובר\n\n- **מורים:** שביתה של 24 שעות בבתי הספר היסודיים (DOE). בחטיבות ובתיכונים (OLME) עצירת עבודה בין 11:00 ל־14:00, ובחלק מהאזורים גם בין 08:00 ל־11:00.\n- **מגזר ציבורי (ADEDY):** עצירת עבודה ארצית מ־11:00 ועד סוף המשמרת. משרדים ושירותים ציבוריים עלולים לעבוד רק עד 11:00.\n- **רופאי בתי חולים (OENGE):** הפגנה ב־12:00 מול משרד האוצר.\n- **גמלאים:** התכנסות ב־10:00 בכיכר קוטזיה וצעדה לעבר משרד הבריאות.\n\n## הפגנות במרכז אתונה\n\n- **ההפגנה המרכזית:** ב־12:00 בפרופילאיה (רחוב פנפיסטימיו), עם צעדות ששיאן סביב הצהריים.\n- סטודנטים מקיימים לינת מחאה בכיכר סינטגמה מאז ערב ה־20 באוקטובר.\n- צפויים הסדרי תנועה ועיכובים במרכז העיר. המשטרה עשויה לסגור זמנית תחנות מטרו במרכז.\n\n## תחבורה ציבורית\n\n- **אתונה:** המטרו, האוטובוסים והחשמלית אינם שובתים. איגודי התחבורה אינם חלק מ־ADEDY.\n- **סלוניקי:** מ־09:00 הרכבות אינן עוצרות בחמש תחנות מטרו: Dimokratias, Venizelou, Agias Sofias, Syntrivani ו־Panepistimio. לא נמסר מתי ייפתחו. ההפגנה בעיר ב־11:30 ליד פסל ונִיזֶלוֹס."
+    "means": "אם אתם מטיילים כעת באתונה או מתכננים להגיע למרכז העיר, צאו מוקדם והשתמשו בתחבורה ציבורית אחרת כמו אוטובוסים וחשמלית הפועלת כסדרה. מומלץ לעקוב אחר הודעות הרשויות המקומיות ולהתעדכן בשינויים בזמן אמת.",
+    "body": "## סגירת תחנות המטרו באתונה ובסלוניקי\n\nבעקבות שורה של הפגנות וכינוסים ציבוריים במרכזי הערים, הורו הרשויות המוסמכות על סגירה זמנית של מספר תחנות מרכזיות ברשתות המטרו באתונה ובסלוניקי.\n\nבאתונה, תחנת \"פאניפיסטימיו\" בקו 2 סגורה להורדת ועליית נוסעים בהנחיית משטרת יוון. במקביל, בסלוניקי הופסקה זמנית פעילותן של תחנות \"דימוקראתיאס\", \"בניזלוס\", \"אגיה סופיה\" ו\"סינטריבאני\" החל משעות הבוקר המוקדמות.\n\n## עומסים והמלצות לנהגים במרכז אתונה\n\nהתנועה המוטורית במרכז אתונה צפויה להיות מורכבת במיוחד היום. רחובות מרכזיים סביב כיכר אומוניה וכיכר סינטגמה חסומים לתנועה או בלתי נגישים. משטרת התנועה קוראת לציבור הנהגים להימנע לחלוטין מכניסה לאזורים אלו עם כלי רכב פרטיים.\n\n## מצב האוטובוסים ושאר אמצעי התחבורה\n\nלמרות השיבושים במטרו, האוטובוסים, הטרולי, החשמלית ורכבת ה-ISAP ממשיכים לפעול במתכונת רגילה, שכן לא פורסמה שביתה רשמית של עובדים במגזרים אלו.\n\nעם זאת, בשל הצעדות וההתקהלויות במרכז העיר, ייתכנו עיכובים נקודתיים ושינויים במסלולי הנסיעה של קווים מסוימים העוברים במוקדי ההפגנות."
   },
   "en": {
-    "title": "Strike and rallies in central Athens today: what is open and how to get around",
-    "seoTitle": "Athens strike 21 October: rallies, metro and transport",
-    "seoDesc": "Teachers' strike and public-sector work stoppage in Greece on 21 October 2026. Rally at 12:00 at the Propylaia; Athens metro running; Thessaloniki stations closed.",
-    "keywords": [
-      "greece strike",
-      "athens strike",
-      "athens protest",
-      "athens metro"
-    ],
-    "dek": "A public-sector work stoppage from 11:00 and a teachers' strike. The main rally is at 12:00 at the Propylaia. Athens metro and buses are running, but expect delays in the centre.",
+    "title": "Athens and Thessaloniki: Metro Station Closures and Transport Updates",
+    "dek": "Authorities have ordered the temporary closure of key metro stations in central Athens and Thessaloniki as demonstrations take place.",
     "tldr": [
-      "Athens metro, buses and tram are not on strike today.",
-      "Main rally at 12:00 at the Propylaia: expect delays and road closures in the centre.",
-      "In Thessaloniki, five central metro stations are closed from 09:00."
+      "Panepistimio metro station in Athens is closed following police orders.",
+      "Four stations in Thessaloniki have suspended operations since the morning.",
+      "Police urge citizens to avoid driving private cars into downtown Athens."
     ],
-    "means": "If you are in central Athens today, allow extra travel time between 10:00 and 15:00 and avoid Panepistimiou and Syntagma around midday. Finish any errands at government offices before 11:00. In Thessaloniki, check in advance whether your station is closed.",
-    "body": "## What is happening today, Wednesday 21 October\n\n- **Teachers:** primary-school teachers (DOE) hold a 24-hour strike. Secondary teachers (OLME) stop work from 11:00 to 14:00, and in some areas also from 08:00 to 11:00.\n- **Public sector (ADEDY):** a nationwide work stoppage from 11:00 until the end of the shift. Public offices and services may only work until 11:00.\n- **Hospital doctors (OENGE):** a rally at 12:00 outside the Ministry of Finance.\n- **Pensioners:** gathering at 10:00 in Kotzia Square, then marching towards the Ministry of Health.\n\n## Rallies in central Athens\n\n- **Main rally:** 12:00 at the Propylaia (Panepistimiou Street), with marches peaking around midday.\n- University students have held an overnight sit-in in Syntagma Square since the evening of 20 October.\n- Expect traffic measures and delays in the centre. Police may temporarily close metro stations in the centre.\n\n## Public transport\n\n- **Athens:** the metro, buses and tram are not on strike. Transport unions are not part of ADEDY.\n- **Thessaloniki:** from 09:00, trains do not stop at five metro stations: Dimokratias, Venizelou, Agias Sofias, Syntrivani and Panepistimio. No reopening time has been announced. The city's rally is at 11:30 at the Venizelos statue."
+    "means": "If you are currently visiting Athens or heading to the city center, allow extra travel time and rely on buses or trams which are operating as scheduled. Check with local transit updates before setting out.",
+    "body": "## Metro Station Closures in Athens and Thessaloniki\n\nDue to widespread student, teacher, and public sector rallies, Greek authorities have implemented temporary closures at several key metro stations across Athens and Thessaloniki.\n\nIn Athens, Line 2 station \"Panepistimio\" at Propylaea is closed following orders from the Hellenic Police. In Thessaloniki, stations including \"Dimokratias\", \"Venizelou\", \"Agias Sofias\", and \"Syntrivani\" have temporarily suspended service.\n\n## Traffic Disruptions in Downtown Athens\n\nDriving conditions in central Athens are expected to be challenging throughout the day. Streets surrounding Omonia Square and Syntagma Square are heavily congested or impassable. Traffic police strongly advise the public not to drive personal vehicles into the city center.\n\n## Status of Buses and Other Transit Modes\n\nBuses, trolleybuses, trams, and the ISAP electric railway are operating normally as no formal strike action has been announced for these sectors.\n\nHowever, authorities warn that localized delays, route modifications, and temporary service disruptions may occur on specific lines due to marches passing through central avenues."
   },
   "meta": {
     "manual": true,
     "lockImage": true,
     "photoTried": true,
-    "checkedAt": "2026-10-21T05:26:48.543091Z"
+    "checkedAt": "2026-10-21T05:26:48.543091Z",
+    "updatedFrom": "aeb4449e3b07"
   }
 }

@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "37989c984b09": 1791352937554,
     "f066a2564475": 1791354599797,
     "04a3e512d11e": 1791354599797,
     "8447a6084c97": 1791354599797,
@@ -2233,9 +2232,115 @@
     "e5193079e30f": 1792561032069,
     "e55c202ac743": 1792561032069,
     "1a20f61881e6": 1792561032069,
-    "283d30329ca0": 1792561032069
+    "283d30329ca0": 1792561032069,
+    "51aa8944e3a0": 1792562949160,
+    "aeb4449e3b07": 1792562949160
   },
-  "pending": {},
+  "pending": {
+    "6df579": {
+      "createdAt": 1792562990595,
+      "item": {
+        "title": "Turkey Hails Libya Deal as Greece Faces New Maritime Tensions",
+        "url": "https://greekcitytimes.com/2026/10/21/turkey-libya-maritime-memorandum-greece-tensions/",
+        "summary": "Turkish media have celebrated Libya's ratification of the controversial maritime memorandum with Ankara, claiming it strengthens Turkey's position in the Eastern Mediterranean as Greece continues to challenge the agreement's legality.\n The post Turkey Hails Libya Deal as Greece Faces New Maritime Tensions appeared first on Greek City Times .",
+        "published": "Wed, 21 Oct 2026 06:06:56 +0000",
+        "id": "51aa8944e3a0",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "51aa8944e3a0",
+        "section": "politics",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "New maritime tensions between Turkey and Greece regarding the Libya deal, which impacts regional stability and security relevant to Israeli interests in the Eastern Mediterranean.",
+        "item": {
+          "title": "Turkey Hails Libya Deal as Greece Faces New Maritime Tensions",
+          "url": "https://greekcitytimes.com/2026/10/21/turkey-libya-maritime-memorandum-greece-tensions/",
+          "summary": "Turkish media have celebrated Libya's ratification of the controversial maritime memorandum with Ankara, claiming it strengthens Turkey's position in the Eastern Mediterranean as Greece continues to challenge the agreement's legality.\n The post Turkey Hails Libya Deal as Greece Faces New Maritime Tensions appeared first on Greek City Times .",
+          "published": "Wed, 21 Oct 2026 06:06:56 +0000",
+          "id": "51aa8944e3a0",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "turkey-libya-maritime-memorandum-greece-tensions",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "מתיחות ביוון",
+          "en": "Greece Tension"
+        },
+        "imageKey": "politics",
+        "imageQuery": "aegean sea map diplomacy",
+        "he": {
+          "title": "אישור הסכם הגבול הימי בלוב: התגובה ביוון והמשמעות באזור",
+          "seoTitle": "מתיחות ביוון: ההסכם הימי בין טורקיה ולוב",
+          "seoDesc": "פרלמנט בלוב אישר מחדש את ההסכם הימי עם טורקיה, ואתונה דוחה אותו בתוקף. כל הפרטים על המחלוקת והשלכותיה על מזרח הים התיכון.",
+          "keywords": [
+            "יוון",
+            "טורקיה",
+            "הסכם ימי",
+            "ים התיכון",
+            "מזרח הים התיכון"
+          ],
+          "dek": "אישור נוסף של ההסכם הימי בין טורקיה ללוב מעורר תגובות חריפות באתונה, על רקע המחלוקת הממושכת סביב גבולות ימיים ואזורים כלכליים בלעדיים.",
+          "tldr": [
+            "פרלמנט בלוב אישר את ההסכם מ-2019.",
+            "אתונה דוחה את ההסכם בטענה שהוא מתעלם מזכויות האיים היווניים.",
+            "ההתפתחויות מעוררות דיון אזורי על משפט הים והסכמות אנרגיה."
+          ],
+          "means": "האירועים הדיפלומטיים הללו מתנהלים במישור הבין-לאומי ואינם משפיעים ישירות על השוטף של תיירים, משקיעים או תושבים ביוון. מומלץ לעקוב אחר עדכונים רשמיים באתרי החדשות המקומיים בעת נסיעה.",
+          "body": "## אישור מחדש של ההסכם הימי\n\nהפרלמנט המזרחי בלוב אישר את ההסכם הימי שנחתם בשנת 2019 בין טורקיה ללוב, צעד שעורר הדים נרחבים בתקשורת הטורקית ובאתונה כאחד. בירת טורקיה הציגה את המהלך כהישג אסטרטגי המחזק את תפיסת המרחב הימי שלה במזרח הים התיכון.\n\n## עמדתה של יוון\n\nמנגד, ממשלת יוון דוחה את ההסכם באופן נחרץ. לדעת אתונה, המסמך מתעלם מהזכויות המוגנות של האיים היווניים, כולל כרתים, ואינו עולה בקנה אחד עם עקרונות המשפט הבין-לאומי וחוק הים.\n\n## השלכות אזוריות\n\nהמחלוקת נוגעת ישירות לשאלות של חיפושי אנרגיה, ביטחון ימי ושיתופי פעולה אזוריים בין יוון, קפריסין, מצרים וישראל. בעוד שבאנקרה מדגישים את שיתוף הפעולה המתפתח עם גורמים שונים בלוב, ביוון מבהירים כי ההסכם חסר תוקף משפטי מחייב כלפי צדדים שלישיים."
+        },
+        "en": {
+          "title": "Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection",
+          "seoTitle": "Greece Turkey Maritime Dispute: Libya Deal Ratification",
+          "seoDesc": "Libya's parliament ratifies the 2019 maritime agreement with Turkey, prompting firm rejection from Athens over Eastern Mediterranean boundaries.",
+          "keywords": [
+            "Greece",
+            "Turkey",
+            "Libya",
+            "maritime agreement",
+            "Eastern Mediterranean"
+          ],
+          "dek": "The ratification of the maritime memorandum by the Libyan parliament has drawn sharp reactions from Athens amid ongoing disputes over regional boundaries.",
+          "tldr": [
+            "Libya's eastern-based parliament approved the 2019 maritime deal with Turkey.",
+            "Athens firmly rejects the agreement, citing violations of Greek island rights under international law.",
+            "The development highlights ongoing regional tensions regarding energy and maritime zones."
+          ],
+          "means": "These diplomatic developments take place at an intergovernmental level and do not pose any immediate operational disruption for tourists, investors, or residents in Greece.",
+          "body": "## Ratification of the Maritime Deal\n\nThe eastern-based Libyan House of Representatives has approved the controversial 2019 maritime memorandum with Turkey, a development celebrated across Turkish media as a strategic advancement for Ankara's regional policies.\n\n## Athens Rejects the Agreement\n\nAthens continues to firmly reject the agreement, maintaining that it disregards the established maritime rights of Greek islands, including Crete, under international law. Greek officials emphasize that the pact lacks legal validity regarding third-party sovereign rights.\n\n## Broader Regional Implications\n\nThe ongoing dispute carries wider implications for energy exploration, maritime security, and multilateral cooperation involving Greece, Cyprus, Egypt, and Israel in the Eastern Mediterranean."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Turkish media has celebrated the ratification of a controversial maritime memorandum with Libya, claiming the agreement strengthens Ankara’s position in the Eastern Mediterranean and expands its maritime boundaries.\n The development follows the approval of the 2019 Turkish-Libyan maritime agreement by Libya’s eastern-based House of Representatives, prompting renewed concerns over the dispute between Greece and Turkey regarding maritime boundaries and exclusive economic zones (EEZs).\n In coverage published on Wednesday, October 21, Turkish newspapers portrayed the decision as a strategic victory for Ankara, with several outlets suggesting it strengthens Turkey’s claims across the region.\n Read more: Libyan Parliament Approves Controversial Turkey Maritime Deal \n Turkish Media Celebrates a Strategic Victory\n Turkey’s major newspapers have presented the Libyan parliament’s decision as a significant shift in the regional balance of power.\n Hurriyet described the development as a decision that could change the balance, while Yeni Safak declared that Turkey’s Blue Homeland doctrine had become stronger.\n Milliyet also argued that the doctrine had been further protected.\n The Blue Homeland, known in Turkish as Mavi Vatan , is a maritime doctrine underpinning Turkey’s claims to extensive areas of the Aegean and Eastern Mediterranean.\n Turkish broadcaster Haber Global went further, claiming the agreement had effectively expanded the maritime areas claimed by Turkey and Libya.\n Commentators on the network argued that the two countries had strengthened their overlapping strategic interests by formally reinforcing their maritime claims.\n One commentator claimed Greece could not pursue cooperation with Egypt, Israel or other Eastern Mediterranean countries without Turkish permission or cooperation.\n These statements reflect Turkish media commentary, not an internationally recognised determination of maritime boundaries. \n Greece rejects the 2019 agreement, arguing that it disregards the maritime rights of Greek islands, including Crete, and infringes upon Greece’s sovereign rights under international law.\n Turkish Analysts Acknowledge Legal Risks\n Despite the celebratory coverage, the agreement has also prompted discussion within Turkey about the legal vulnerabilities of Ankara’s position.\n Ahmet Kamil Erozan, vice president of Turkey’s opposition Good Party (IYI Party), warned that Turkey’s claims could face significant difficulties if the dispute were referred to international adjudication.\n Erozan pointed to Libya’s previous decisions to resolve maritime boundary disputes through international legal proceedings.\n He noted that Libya had accepted International Court of Justice rulings concerning maritime delimitation disputes with Tunisia and Malta.\n According to Erozan, a similar legal approach in the Turkish-Libyan dispute could expose weaknesses in Ankara’s position.\n He argued that the United Nations Convention on the Law of the Sea (UNCLOS) would become central to any proceedings before an international court.\n Turkey has not signed or ratified UNCLOS, unlike Greece and many other countries.\n The convention establishes a legal framework governing maritime zones, including territorial seas, exclusive economic zones and continental shelves.\n Erozan cautioned that the convention’s provisions do not necessarily support Turkey’s interpretation of maritime entitlements in the Eastern Mediterranean.\n He also criticised the Turkish government for occasionally advocating legal solutions to maritime disputes, including disagreements in the Aegean, despite what he described as longstanding Turkish preferences for political negotiations.\n His comments highlight a potential contradiction in Ankara’s approach: while Turkey promotes the maritime memorandum as a strategic achievement, international legal proceedings could expose its claims to further scrutiny.\n Turkish Intelligence Chief Visits Tripoli\n The ratification has also coincided with renewed diplomatic engagement between Ankara and Libya’s internationally recognised authorities in Tripoli.\n Ibrahim Kalin, head of Turkey’s National Intelligence Organisation (MIT), met Libyan Prime Minister Abdul Hamid Dbeibah in Tripoli, according to Turkey’s state-run Anadolu Agency.\n The discussions reportedly focused on maintaining stability in Libya and unifying the country’s competing administrations and military forces under a single authority.\n Dbeibah expressed appreciation for Turkey’s role in supporting Libya’s security, while Kalin conveyed messages concerning the maritime agreement to senior Libyan figures.\n These reportedly included the newly elected speaker of Libya’s House of Representatives, Salah Al-Din Al-Namroush, and Saddam Haftar, a senior figure associated with the eastern-based Libyan National Army.\n The outreach is significant because Libya remains divided between rival political and military power centres.\n Ankara has historically maintained close ties with authorities in western Libya, while the eastern-based House of Representatives has operated independently and is associated with forces led by Khalifa Haftar.\n The eastern parliament’s approval of the memorandum therefore represents an important political development for Turkey, potentially broadening support for an agreement that Ankara has long sought to advance.\n However, parliamentary ratification does not, by itself, settle the international legal dispute over the agreement’s validity or its effects on the maritime rights of third countries.\n Greece Rejects the Agreement\n Greece has consistently opposed the Turkish-Libyan maritime memorandum, arguing that it attempts to establish a maritime boundary that disregards the rights of Greek islands under international law.\n Athens maintains that islands can generate maritime zones in accordance with the applicable rules of international law, a principle central to its objections to the agreement.\n The dispute has broader implications for regional energy exploration, maritime security and cooperation between Greece, Cyprus, Egypt and Israel.\n The latest developments come as tensions continue over competing maritime claims and Turkey’s activities in the Eastern Mediterranean.\n For Athens, the ratification adds another political dimension to a longstanding dispute. For Ankara, it offers an opportunity to present the memorandum as having wider Libyan backing.\n The central question remains whether the agreement can withstand international legal scrutiny and whether its ratification will translate into any practical change in the region’s maritime boundaries. \n For now, the competing interpretations underscore the continuing struggle between Greece and Turkey over maritime rights, strategic influence and access to the resources of the Eastern Mediterranean.\n Source: SKAI.gr, reporting by Manolis Kostidis, and Anadolu Agency.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece and EU Reject Libyan Approval of Turkish-Libyan Maritime Deal \n Libya Ratifies Türkiye Maritime Deal; EU Calls It Null and Void \n Turkish Pressure on Haftar Risks Reviving Illegal 2019 Maritime Deal That Ignores Greek Islands \n Greece signals 12 nautical mile territorial waters option to Turkey as tensions rise \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Teachers, students and doctors strike across Greece: How public transport will run today\n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Το λυβικό κοινοβούλιο εγκρίνει τη συμφωνία με την Τουρκία για τα θαλάσσια σύνορα εν μέσω ελληνικής απόρριψης",
+        "dek": "Η επικύρωση του μνημονίου για τις θαλάσσιες ζώνες από το λυβικό κοινοβούλιο έχει προκαλέσει έντονες αντιδράσεις στην Αθήνα, εν μέσω συνεχιζόμενων διαφωνιών για τα περιφερειακά σύνορα.",
+        "tldr": [
+          "Το κοινοβούλιο της ανατολικής Λιβύης ενέκρινε τη θαλάσσια συμφωνία του 2019 με την Τουρκία.",
+          "Η Αθήνα απορρίπτει κατηγορηματικά τη συμφωνία, επικαλούμενη παραβιάσεις των δικαιωμάτων των ελληνικών νησιών βάσει του διεθνούς δικαίου.",
+          "Η εξέλιξη αυτή υπογραμμίζει τις συνεχιζόμενες περιφερειακές εντάσεις σχετικά με την ενέργεια και τις θαλάσσιες ζώνες."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2245,12 +2350,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T05:36:52.844Z",
-      "items": 10
+      "at": "2026-10-21T06:08:51.566Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T05:36:53.342Z",
+      "at": "2026-10-21T06:08:52.268Z",
       "items": 5
     },
     "civilprotection": {
@@ -2261,27 +2366,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T05:36:54.700Z",
+      "at": "2026-10-21T06:08:54.328Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T05:36:55.054Z",
+      "at": "2026-10-21T06:08:54.429Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T05:36:55.983Z",
+      "at": "2026-10-21T06:08:55.477Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T05:36:56.629Z",
+      "at": "2026-10-21T06:08:56.194Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T05:36:56.965Z",
+      "at": "2026-10-21T06:08:56.886Z",
       "items": 10
     },
     "toi-greece": {
@@ -2292,23 +2397,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T05:36:57.348Z",
+      "at": "2026-10-21T06:08:57.510Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T05:36:57.423Z",
+      "at": "2026-10-21T06:08:57.633Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T05:36:57.604Z",
-      "items": 4
+      "at": "2026-10-21T06:08:58.219Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T05:36:57.727Z",
-      "items": 4
+      "at": "2026-10-21T06:08:58.740Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2317,12 +2422,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T05:36:54.074Z",
+      "at": "2026-10-21T06:08:53.319Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T05:36:58.244Z",
+      "at": "2026-10-21T06:08:59.675Z",
       "items": 0
     },
     "hcg": {
@@ -2333,32 +2438,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T05:36:59.484Z",
+      "at": "2026-10-21T06:09:06.174Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T05:36:59.734Z",
+      "at": "2026-10-21T06:09:06.557Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T05:36:59.965Z",
+      "at": "2026-10-21T06:09:06.746Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T05:37:00.260Z",
+      "at": "2026-10-21T06:09:07.033Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T05:37:00.642Z",
-      "items": 6
+      "at": "2026-10-21T06:09:07.418Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T05:37:01.098Z",
+      "at": "2026-10-21T06:09:07.870Z",
       "items": 7
     }
   },
@@ -2372,6 +2477,12 @@
         "title": "Greece Advances Digital Hub for Real Estate and Property Records",
         "at": "2026-10-21T07:52:43+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "athens-strike-rallies-october-21-traffic-metro",
+        "title": "↻ Athens and Thessaloniki: Metro Station Closures and Transport Updates",
+        "at": "2026-10-21T09:09:23+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2407,11 +2518,20 @@
       }
     ],
     "errors": [],
-    "ig": [],
+    "ig": [
+      {
+        "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
+        "at": "2026-10-21T06:10:17.155Z"
+      }
+    ],
     "fb": [
       {
         "slug": "greece-single-property-hub-digital-file",
         "at": "2026-10-21T04:52:44.278Z"
+      },
+      {
+        "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
+        "at": "2026-10-21T06:09:56.189Z"
       }
     ]
   },
@@ -2544,14 +2664,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T05:37:12.069Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-21T06:09:09.160Z",
+    "considered": 2,
+    "picked": 2,
     "items": [
-      "· ert | Νετανιάχου: Δεν μπορεί να υπάρξει ειρήνη με τον Λίβανο πριν ολοκληρωθεί η αναμέτρηση με το",
-      "· ingr | Έρευνα: Η ακρίβεια αλλάζει τις καταναλωτικές συνήθειες – Σε ποιες κατηγορίες «κόβουν» δαπά",
-      "· ingr | Πανεκπαιδευτικά συλλαλητήρια σε Αθήνα, Θεσσαλονίκη γιατί «δεν πάει άλλο» – Απεργούν δάσκαλ",
-      "· ert | Νετανιάχου: Το Ισραήλ ενδέχεται να δεχθεί επίθεση τις ημέρες πριν από τις εκλογές"
+      "✓ gct | Turkey Hails Libya Deal as Greece Faces New Maritime Tensions",
+      "✓ ingr | MMM: Ποιοι σταθμοί Μετρό κλείνουν σήμερα – Τι ισχύει για τα υπόλοιπα μέσα"
     ]
   },
   "evergreenDone": [
@@ -2594,5 +2712,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "michelin-guide-greece-2027-thessaloniki-santorini",
+      "url": "https://yavanet.gr/a/michelin-guide-greece-2027-thessaloniki-santorini/",
+      "at": "2026-10-21T06:09:56.189Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/michelin-guide-greece-2027-thessaloniki-santorini/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/michelin-guide-greece-2027-thessaloniki-santorini/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "מדריך מישלן 2027 ביוון: סלוניקי וסנטוריני בפנים",
+        "title_en": "Michelin Guide Greece 2027: Thessaloniki and Santorini Join",
+        "dek_he": "המדריך היוקרתי מרחיב את הפעילות מעבר לאתונה וכולל 62 מסעדות בשלושה יעדים מובילים ברחבי המדינה, עם דגש על שפים צעירים ושילוב מסורת ומודרניזציה.",
+        "dek_en": "The prestigious culinary guide broadens its reach across three major Greek destinations, highlighting contemporary techniques alongside traditional recipes and regional ingredients.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/6251212/pexels-photo-6251212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "מדריך מישלן 2027 ביוון: סלוניקי וסנטוריני בפנים\n\nהמדריך היוקרתי מרחיב את הפעילות מעבר לאתונה וכולל 62 מסעדות בשלושה יעדים מובילים ברחבי המדינה, עם דגש על שפים צעירים ושילוב מסורת ומודרניזציה.\n\nhttps://yavanet.gr/a/michelin-guide-greece-2027-thessaloniki-santorini/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Michelin Guide Greece 2027: Thessaloniki and Santorini Join\n\nThe prestigious culinary guide broadens its reach across three major Greek destinations, highlighting contemporary techniques alongside traditional recipes and regional ingredients.\n\nhttps://yavanet.gr/en/a/michelin-guide-greece-2027-thessaloniki-santorini/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/michelin-guide-greece-2027-thessaloniki-santorini.jpg",
+          "caption": "מדריך מישלן 2027 ביוון: סלוניקי וסנטוריני בפנים\n\nהמדריך היוקרתי מרחיב את הפעילות מעבר לאתונה וכולל 62 מסעדות בשלושה יעדים מובילים ברחבי המדינה, עם דגש על שפים צעירים ושילוב מסורת ומודרניזציה.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/michelin-guide-greece-2027-thessaloniki-santorini-story.jpg"
+        }
+      }
+    }
+  ]
 }
