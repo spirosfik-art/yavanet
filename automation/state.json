@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "2fd48de0e22a": 1791376426808,
     "55575c145c82": 1791378042990,
     "324f83038c3b": 1791378042990,
     "ee85faeb9587": 1791378042990,
@@ -2217,7 +2216,10 @@
     "9fcb3b4cdb7e": 1792582942322,
     "8415831c269d": 1792582942322,
     "708b2f483ebb": 1792584689181,
-    "cb6960a3c805": 1792584689181
+    "cb6960a3c805": 1792584689181,
+    "01938928990f": 1792586579929,
+    "bcc2320896d8": 1792586579929,
+    "763ef988c1eb": 1792586579929
   },
   "pending": {},
   "sourceStatus": {
@@ -2229,12 +2231,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-21T12:10:43.922Z",
+      "at": "2026-10-21T12:42:48.060Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-21T12:10:44.586Z",
+      "at": "2026-10-21T12:42:48.846Z",
       "items": 4
     },
     "civilprotection": {
@@ -2245,27 +2247,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-21T12:10:45.536Z",
+      "at": "2026-10-21T12:42:50.194Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-21T12:10:45.733Z",
+      "at": "2026-10-21T12:42:50.645Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-21T12:10:46.590Z",
+      "at": "2026-10-21T12:42:51.407Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-21T12:10:47.285Z",
-      "items": 2
+      "at": "2026-10-21T12:42:52.242Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-21T12:10:48.210Z",
+      "at": "2026-10-21T12:42:53.088Z",
       "items": 10
     },
     "toi-greece": {
@@ -2276,23 +2278,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-21T12:10:48.746Z",
+      "at": "2026-10-21T12:42:53.610Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-21T12:10:49.092Z",
+      "at": "2026-10-21T12:42:54.019Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-21T12:10:49.590Z",
+      "at": "2026-10-21T12:42:54.821Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T12:10:49.774Z",
-      "items": 4
+      "at": "2026-10-21T12:42:55.281Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2301,12 +2303,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-21T12:10:44.831Z",
+      "at": "2026-10-21T12:42:49.380Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-21T12:10:50.512Z",
+      "at": "2026-10-21T12:42:56.117Z",
       "items": 0
     },
     "hcg": {
@@ -2317,33 +2319,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-21T12:10:52.006Z",
+      "at": "2026-10-21T12:42:57.165Z",
       "items": 3
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-21T12:10:52.253Z",
+      "at": "2026-10-21T12:42:57.401Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-21T12:10:52.438Z",
+      "at": "2026-10-21T12:42:57.597Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-21T12:10:52.745Z",
+      "at": "2026-10-21T12:42:57.810Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-21T12:10:53.089Z",
-      "items": 1
+      "at": "2026-10-21T12:42:58.171Z",
+      "items": 0
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-21T12:10:53.435Z",
-      "items": 7
+      "at": "2026-10-21T12:42:58.600Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2410,6 +2412,16 @@
         "title": "Fidan Says Turkey Has No Objection to Greece-Cyprus Cable, Demands Written Notice for Surveys",
         "reason": "Ίδιο θέμα με «Greece prepares for critical weeks amid Eastern Mediterranean cable project» – δεν γράφτηκε ξανά",
         "at": "2026-10-21T06:45:41.694Z"
+      },
+      {
+        "title": "Students in Greece protest high cost of living; solidarity with France",
+        "reason": "Ίδιο θέμα με «Greece teachers strike: School disruptions expected on October 21» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T12:43:03.879Z"
+      },
+      {
+        "title": "Ισραήλ κατά Άγκυρας για το τουρκολιβυκό μνημόνιο: Αποσταθεροποιεί την Ανατολική Μεσόγειο, παραβιάζει κυριαρχικά δικαιώματα στενών μας συμμάχ",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-21T12:43:08.303Z"
       }
     ],
     "errors": [],
@@ -2567,12 +2579,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-21T12:11:29.181Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-21T12:42:59.930Z",
+    "considered": 3,
+    "picked": 2,
     "items": [
-      "· oasa | Νεότερη ενημέρωση- Άνοιξε ο σταθμός “Πανεπιστήμιο” , Τετάρτη 21/10/2026",
-      "· gtp | Greece’s Travel Receipts Reach €18.2 Billion in January-August 2026"
+      "· gct | UK Lists 82 Countries Eligible for Visa-Free Travel With ETA",
+      "✓ naftemporiki | Ισραήλ κατά Άγκυρας για το τουρκολιβυκό μνημόνιο: Αποσταθεροποιεί την Ανατολική Μεσόγειο, ",
+      "✓ ktg | Students in Greece protest high cost of living; solidarity with France"
     ]
   },
   "evergreenDone": [
