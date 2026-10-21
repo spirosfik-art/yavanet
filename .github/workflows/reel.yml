@@ -1,0 +1,30 @@
+name: Reel test
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Frames
+        run: |
+          mkdir -p out
+          for f in automation/reel/s*.html; do n=$(basename $f .html); google-chrome --headless=new --no-sandbox --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --virtual-time-budget=10000 --window-size=1080,1920 --screenshot=$PWD/out/$n.png file://$PWD/$f; done
+          ls -la out
+      - name: Video (Ken Burns + crossfade)
+        run: |
+          cd out
+          i=0; for f in s1 s2 s3 s4 s5; do
+            ffmpeg -y -loglevel error -loop 1 -i $f.png -vf "scale=1296:2304,zoompan=z='min(zoom+0.0009,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=105:s=1080x1920:fps=30,format=yuv420p" -t 3.5 -c:v libx264 -preset medium -crf 20 c$i.mp4; i=$((i+1)); done
+          ffmpeg -y -loglevel error -i c0.mp4 -i c1.mp4 -i c2.mp4 -i c3.mp4 -i c4.mp4 -f lavfi -t 15.5 -i anullsrc=r=44100:cl=stereo -filter_complex "[0][1]xfade=transition=slideleft:duration=0.5:offset=3[a];[a][2]xfade=transition=slideleft:duration=0.5:offset=6[b];[b][3]xfade=transition=slideleft:duration=0.5:offset=9[c];[c][4]xfade=transition=fade:duration=0.5:offset=12,format=yuv420p[v]" -map "[v]" -map 5:a -c:v libx264 -crf 20 -preset medium -c:a aac -shortest -movflags +faststart reel.mp4
+          ffmpeg -y -loglevel error -i reel.mp4 -vf "select='eq(n\,45)+eq(n\,150)+eq(n\,250)+eq(n\,340)+eq(n\,430)',scale=270:480,tile=5x1" -frames:v 1 preview.jpg
+          rm c*.mp4; ls -la
+      - name: Push
+        run: |
+          cd out
+          git init -q -b reel-test
+          git config user.name "yavanet-bot"; git config user.email "bot@yavanet.gr"
+          git add -A; git commit -qm "reel test [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" reel-test
