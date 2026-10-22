@@ -2,6 +2,7 @@
 // ΜΟΝΟ αφού η σελίδα του άρθρου απαντά 200 στο live site (μετά το deploy).
 // Έτσι το Facebook φτιάχνει σωστή προεπισκόπηση (τίτλος + εικόνα) αντί για «404».
 import { STATE_FILE, env, DRY, log, readJSON, writeJSON, tg } from "./lib.mjs";
+import { postStory } from "./meta.mjs";
 
 const state = readJSON(STATE_FILE, {});
 const q = state.socialQueue || [];
@@ -38,6 +39,10 @@ for (const job of q) {
   if (job.make && env.MAKE_WEBHOOK_URL) {
     await fetch(env.MAKE_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(job.make) })
       .then(() => log("✓ facebook (Make)", job.slug)).catch((e) => log("make webhook", e.message));
+  }
+  // Story σε Instagram + Facebook απευθείας από το Graph API (το Make δεν κάνει stories)
+  if (env.META_TOKEN && job.make && job.make.instagram && job.make.instagram.story_url) {
+    await postStory(job.make.instagram.story_url).catch((e) => log("story", e.message));
   }
 }
 state.socialQueue = keep;

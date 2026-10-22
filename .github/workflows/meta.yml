@@ -1,0 +1,75 @@
+# Meta Graph API: ημερήσιο reel (20:00 ώρα Ισραήλ) + αυτόματες απαντήσεις σε σχόλια κάθε 30'.
+# Χρειάζεται το secret META_TOKEN· χωρίς αυτό απλώς δεν κάνει τίποτα.
+name: Meta (reel + comments)
+on:
+  schedule:
+    - cron: "7 17 * * *"          # reel
+    - cron: "*/30 5-21 * * *"     # σχόλια
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "reel | comments | check | scenes (μόνο προεπισκόπηση, χωρίς ανάρτηση)"
+        default: check
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-meta
+  cancel-in-progress: false
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      TASK: ${{ github.event.inputs.task || (github.event.schedule == '7 17 * * *' && 'reel' || 'comments') }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check / comments
+        if: env.TASK == 'check' || env.TASK == 'comments'
+        run: |
+          if [ -z "$META_TOKEN" ]; then echo "χωρίς META_TOKEN – παράλειψη"; exit 0; fi
+          node automation/meta.mjs $TASK
+      - name: Reel scenes
+        if: env.TASK == 'reel' || env.TASK == 'scenes'
+        run: |
+          if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "χωρίς META_TOKEN – παράλειψη"; echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
+          node automation/meta.mjs reel-scenes out
+          [ -f out/count.txt ] || echo "SKIP=1" >> $GITHUB_ENV
+      - name: Render video
+        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.SKIP != '1'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          cd out
+          N=$(cat count.txt); D=3.6; X=0.5
+          for i in $(seq 0 $((N-1))); do
+            google-chrome --headless=new --no-sandbox --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --virtual-time-budget=10000 --window-size=1080,1920 --screenshot=$PWD/s$i.png file://$PWD/s$i.html
+            ffmpeg -y -loglevel error -loop 1 -i s$i.png -vf "scale=1296:2304,zoompan=z='min(zoom+0.0009,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=108:s=1080x1920:fps=30,format=yuv420p" -t $D -c:v libx264 -preset medium -crf 20 c$i.mp4
+          done
+          IN=""; F=""; prev="0"; off=0
+          for i in $(seq 0 $((N-1))); do IN="$IN -i c$i.mp4"; done
+          for i in $(seq 1 $((N-1))); do
+            off=$(echo "$off + $D - $X" | bc); t=slideleft; [ $i -eq $((N-1)) ] && t=fade
+            F="$F[$prev][$i]xfade=transition=$t:duration=$X:offset=$off[v$i];"; prev="v$i"
+          done
+          TOT=$(echo "$off + $D" | bc)
+          ffmpeg -y -loglevel error $IN -f lavfi -t $TOT -i anullsrc=r=44100:cl=stereo -filter_complex "${F}[$prev]format=yuv420p[v]" -map "[v]" -map $N:a -c:v libx264 -crf 20 -preset medium -c:a aac -shortest -movflags +faststart reel.mp4
+          ffmpeg -y -loglevel error -i reel.mp4 -vf "fps=1/3,scale=270:480,tile=${N}x1" -frames:v 1 preview.jpg
+          ls -la reel.mp4 preview.jpg
+      - name: Publish reel
+        if: env.TASK == 'reel' && env.SKIP != '1'
+        run: node automation/meta.mjs reel-publish out/reel.mp4
+      - name: Keep copy (branch reels)
+        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.SKIP != '1'
+        run: |
+          mkdir keep && cp out/reel.mp4 out/preview.jpg out/caption.txt keep/ && cd keep
+          git init -q -b reels
+          git config user.name "yavanet-bot"; git config user.email "bot@yavanet.gr"
+          git add -A; git commit -qm "reel $(date -u +%F) [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" reels
