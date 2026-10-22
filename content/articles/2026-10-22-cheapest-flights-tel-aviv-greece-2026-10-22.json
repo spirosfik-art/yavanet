@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33366061/pexels-photo-33366061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "An airplane at Athens International Airport gate during a sunny day, featuring a jet bridge and terminal view.",
+    "credit": "Photo: Ernest   Ghazaryan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/airplane-docked-at-athens-international-airport-33366061/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-10-22T08:51:22+03:00"
+    "checkedAt": "2026-10-22T08:51:22+03:00",
+    "photoTried": true
   }
 }
