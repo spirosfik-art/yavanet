@@ -34,8 +34,9 @@ jobs:
       - name: Check / comments
         if: env.TASK == 'check' || env.TASK == 'comments'
         run: |
-          if [ -z "$META_TOKEN" ]; then echo "χωρίς META_TOKEN – παράλειψη"; exit 0; fi
-          node automation/meta.mjs $TASK
+          if [ -z "$META_TOKEN" ]; then echo "::warning::NO_META_TOKEN"; [ "$TASK" = "check" ] && exit 1; exit 0; fi
+          node automation/meta.mjs $TASK 2>&1 | tee meta.log
+          [ "$TASK" = "check" ] && echo "::notice::$(tail -c 900 meta.log | tr '\n' ' ')" || true
       - name: Reel scenes
         if: env.TASK == 'reel' || env.TASK == 'scenes'
         run: |
