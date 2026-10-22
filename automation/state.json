@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "cc60d5ae7119": 1791444777655,
-    "e88632386a40": 1791444777655,
-    "40aa60b3c106": 1791444777655,
     "0f5c983ac100": 1791446058942,
     "4c50a3da2fa5": 1791446058942,
     "1a97f5252f1f": 1791446058942,
@@ -2236,7 +2233,21 @@
     "e23ae04a7260": 1792653317816,
     "2cb1abd2d438": 1792653317816,
     "9aaf66803530": 1792653317816,
-    "7fe7600ef98e": 1792653317816
+    "7fe7600ef98e": 1792653317816,
+    "af62dd1a678a": 1792655585275,
+    "55d7d043cc67": 1792655585275,
+    "81ebfd1543db": 1792655585275,
+    "55c25a98e88f": 1792655585275,
+    "6c96825cfc7e": 1792655585275,
+    "3e0e1cf800be": 1792655585275,
+    "8bf70a7dce72": 1792655585275,
+    "5ec0311df2d5": 1792655585275,
+    "bd86e0788de9": 1792655585275,
+    "b4de6bce7b2b": 1792655585275,
+    "9948e98e49c4": 1792655585275,
+    "b97e6cc39afd": 1792655585275,
+    "afeb897423eb": 1792655585275,
+    "f84fb69663e0": 1792655585275
   },
   "pending": {},
   "sourceStatus": {
@@ -2248,12 +2259,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T07:15:06.257Z",
-      "items": 0
+      "at": "2026-10-22T07:52:55.857Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T07:15:06.956Z",
+      "at": "2026-10-22T07:52:56.470Z",
       "items": 4
     },
     "civilprotection": {
@@ -2264,27 +2275,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T07:15:08.125Z",
+      "at": "2026-10-22T07:52:57.452Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T07:15:08.266Z",
+      "at": "2026-10-22T07:52:57.653Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T07:15:09.500Z",
+      "at": "2026-10-22T07:52:58.786Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T07:15:10.316Z",
-      "items": 3
+      "at": "2026-10-22T07:52:59.373Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T07:15:10.829Z",
+      "at": "2026-10-22T07:53:00.131Z",
       "items": 10
     },
     "toi-greece": {
@@ -2295,23 +2306,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T07:15:11.273Z",
+      "at": "2026-10-22T07:53:00.511Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T07:15:12.045Z",
+      "at": "2026-10-22T07:53:00.594Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T07:15:12.575Z",
-      "items": 6
+      "at": "2026-10-22T07:53:01.060Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T07:15:12.966Z",
-      "items": 2
+      "at": "2026-10-22T07:53:01.178Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2320,12 +2331,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T07:15:07.291Z",
+      "at": "2026-10-22T07:52:56.823Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T07:15:13.615Z",
+      "at": "2026-10-22T07:53:01.683Z",
       "items": 0
     },
     "hcg": {
@@ -2336,33 +2347,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T07:15:15.343Z",
+      "at": "2026-10-22T07:53:03.068Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T07:15:15.507Z",
+      "at": "2026-10-22T07:53:03.233Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T07:15:15.685Z",
+      "at": "2026-10-22T07:53:03.402Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T07:15:15.903Z",
-      "items": 3
+      "at": "2026-10-22T07:53:03.637Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T07:15:16.291Z",
-      "items": 7
+      "at": "2026-10-22T07:53:03.972Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T07:15:16.694Z",
-      "items": 10
+      "at": "2026-10-22T07:53:04.365Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2538,30 +2549,24 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T07:15:17.816Z",
-    "considered": 20,
-    "picked": 2,
+    "at": "2026-10-22T07:53:05.275Z",
+    "considered": 14,
+    "picked": 0,
     "items": [
-      "· gct | Greece Challenges Turkish Survey Claims in Maritime Showdown",
-      "· gct | Meganisi Council Unanimously Rejects Floating Moorings",
-      "· ert | Νετανιάχου: Το Ιράν θα επιδιώξει ανασυγκρότηση πυρηνικού προγράμματος και βαλλιστικών δυνα",
-      "· gct | Greece Achieves First Successful Laser Link with Low-Earth-Orbit Satellite",
-      "· gct | US Declines to Take Position on Turkey-Libya Maritime Deal",
-      "· gct | Meta Sued in Australia Over Social Media Harm to Children",
-      "· ingr | Διανομείς: Τετράωρη στάση εργασίας και συγκέντρωση στο υπουργείο Εργασίας στις 12:00 – Τι ",
-      "· gct | Giorgos Tsalikis’ Car Vandalised Outside Athens Nightclub",
-      "· gct | Terrifying Virus Threatens the Global Internet with Cyberattacks",
-      "· ingr | ΕΛΑΣ: Τουρισμός με κανόνες, διαφάνεια και αξιοπιστία",
-      "✓ gct | Power Outage Hits Historic Centre of Thessaloniki",
-      "· naftemporiki | Κίνα: Βυθίστηκαν σε bear market και επισήμως οι μετοχές μετά από δέκα εβδομάδες πτώσης – Τ",
-      "· gn-kathimerini | Βαγγέλης Λιόλιος: Η πτήση προς την κορυφή του μπάσκετ και οι αναταράξεις - Kathimerini",
-      "· gtp | EU Investigates Booking.com Over Fraudulent Listings and Phishing Scams",
-      "· gtp | Crete’s New Kastelli Airport to Test Innovative Technologies",
-      "· gtp | Greece Aims to Export Tech Expertise and Innovative Applications, PM Mitsotakis Says",
-      "✓ gtp | Thessaloniki Suburban Rail and Port Link Projects Secure €85.5 Million",
-      "· gtp | West Achaia Flood Protection Works Reach 70% Completion",
-      "· gtp | West Attica: Mandra Park Revitalized With 4,500 New Plantings",
-      "· gtp | Loutraki Prepares to Welcome Over 500 Cyclists for UCI Gran Fondo"
+      "· minfin | Ειδοποίηση για τη συζήτηση αίτησης του Δημοσίου περί καθορισμού προσωρινής τιμής μονάδος α",
+      "· ingr | Βρέθηκαν 102.000 ευρώ σε σπίτι δεύτερου διαιτητή – Στον ανακριτή Λιόλιος και άλλοι πέντε κ",
+      "· minfin | Διακήρυξη μειοδοτικής δημοπρασίας μίσθωσης ακινήτου κατάλληλου για τη στέγαση της Διοίκηση",
+      "· ingr | Κολωνός: Βίντεο ντοκουμέντο από τη στιγμή της έκρηξης",
+      "· gct | Warnings Against Sharing Sensitive Information With AI Chatbots",
+      "· ert | AΔEΔY: Τετράωρη στάση εργασίας στις 30 Οκτωβρίου στα λιμάνια σε Aττική, Αχαΐα, Θεσπρωτία",
+      "· gct | Banks and Businesses Face Major Anti-Money Laundering Changes",
+      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση της Υπηρεσία",
+      "· minfin | «Έγκριση Κανονισμού της Γενικής Διεύθυνσης Δημοσιονομικών Ελέγχων (Γ.Δ.Δ.Ε.) περί Επιβολής",
+      "· gct | PASOK Demands EU Sanctions Over Turkish-Libyan Memorandum",
+      "· gn-iefimerida | Δεκάδες ισραηλινά μαχητικά και εναέριου εφοδιασμού πέταξαν προς το Ιράν, τελευταία στιγμή ",
+      "· minfin | Νίκος Παπαθανάσης: 7,71 εκατ. ευρώ για αγροτεχνολογία -αγροδιατροφή, ψηφιακή υδροπονία, κα",
+      "· minfin | Περίληψη διακήρυξης α΄ επαναληπτικής μειοδοτικής δημοπρασίας μίσθωσης ακίνητου για τη στέγ",
+      "· gn-kathimerini | NYT: ΗΠΑ και Ισραήλ σχεδιάζουν νέες επιθέσεις στο Ιράν μετά τις εκλογές - Kathimerini"
     ]
   },
   "evergreenDone": [

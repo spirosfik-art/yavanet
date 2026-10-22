@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5156686/pexels-photo-5156686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Energetic live concert at night with a vibrant crowd enjoying music and fireworks.",
+    "credit": "Photo: Maor Attias / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/crowd-of-people-at-a-concert-5156686/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -67,6 +72,7 @@
     "itemId": "weekend-2026-10-23",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-10-22T10:37:26+03:00"
+    "checkedAt": "2026-10-22T10:37:26+03:00",
+    "photoTried": true
   }
 }
