@@ -14,13 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "0f5c983ac100": 1791446058942,
-    "4c50a3da2fa5": 1791446058942,
-    "1a97f5252f1f": 1791446058942,
-    "2e930552eb87": 1791446058942,
-    "072001f7946c": 1791446660533,
-    "4876314e3043": 1791446660533,
-    "fcb2ab03d5d1": 1791446660533,
     "dbebfa0b5174": 1791448137153,
     "86baede9fd1a": 1791448137153,
     "e0ac4020d2b3": 1791448137153,
@@ -2247,7 +2240,10 @@
     "9948e98e49c4": 1792655585275,
     "b97e6cc39afd": 1792655585275,
     "afeb897423eb": 1792655585275,
-    "f84fb69663e0": 1792655585275
+    "f84fb69663e0": 1792655585275,
+    "d3586b1ab552": 1792657501547,
+    "894d6e8b57d5": 1792657501547,
+    "b643698058a3": 1792657501547
   },
   "pending": {},
   "sourceStatus": {
@@ -2259,12 +2255,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T07:52:55.857Z",
-      "items": 10
+      "at": "2026-10-22T08:24:49.310Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T07:52:56.470Z",
+      "at": "2026-10-22T08:24:50.046Z",
       "items": 4
     },
     "civilprotection": {
@@ -2275,27 +2271,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T07:52:57.452Z",
+      "at": "2026-10-22T08:24:51.723Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T07:52:57.653Z",
+      "at": "2026-10-22T08:24:52.459Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T07:52:58.786Z",
+      "at": "2026-10-22T08:24:53.529Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T07:52:59.373Z",
+      "at": "2026-10-22T08:24:54.324Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T07:53:00.131Z",
+      "at": "2026-10-22T08:24:55.260Z",
       "items": 10
     },
     "toi-greece": {
@@ -2306,23 +2302,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T07:53:00.511Z",
+      "at": "2026-10-22T08:24:55.776Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T07:53:00.594Z",
+      "at": "2026-10-22T08:24:56.131Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T07:53:01.060Z",
+      "at": "2026-10-22T08:24:56.799Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T07:53:01.178Z",
-      "items": 1
+      "at": "2026-10-22T08:24:57.281Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2331,12 +2327,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T07:52:56.823Z",
+      "at": "2026-10-22T08:24:50.710Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T07:53:01.683Z",
+      "at": "2026-10-22T08:24:57.891Z",
       "items": 0
     },
     "hcg": {
@@ -2347,32 +2343,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T07:53:03.068Z",
+      "at": "2026-10-22T08:24:59.167Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T07:53:03.233Z",
+      "at": "2026-10-22T08:24:59.422Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T07:53:03.402Z",
+      "at": "2026-10-22T08:24:59.619Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T07:53:03.637Z",
-      "items": 4
+      "at": "2026-10-22T08:25:00.073Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T07:53:03.972Z",
+      "at": "2026-10-22T08:25:00.420Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T07:53:04.365Z",
+      "at": "2026-10-22T08:25:00.796Z",
       "items": 11
     }
   },
@@ -2407,11 +2403,20 @@
       }
     ],
     "errors": [],
-    "ig": [],
+    "ig": [
+      {
+        "slug": "power-outage-historic-centre-thessaloniki",
+        "at": "2026-10-22T08:25:08.595Z"
+      }
+    ],
     "fb": [
       {
         "slug": "airbnb-checkout-cleaning-rules-2026",
         "at": "2026-10-22T07:15:05.181Z"
+      },
+      {
+        "slug": "power-outage-historic-centre-thessaloniki",
+        "at": "2026-10-22T08:25:01.586Z"
       }
     ]
   },
@@ -2549,24 +2554,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T07:53:05.275Z",
-    "considered": 14,
+    "at": "2026-10-22T08:25:01.547Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· minfin | Ειδοποίηση για τη συζήτηση αίτησης του Δημοσίου περί καθορισμού προσωρινής τιμής μονάδος α",
-      "· ingr | Βρέθηκαν 102.000 ευρώ σε σπίτι δεύτερου διαιτητή – Στον ανακριτή Λιόλιος και άλλοι πέντε κ",
-      "· minfin | Διακήρυξη μειοδοτικής δημοπρασίας μίσθωσης ακινήτου κατάλληλου για τη στέγαση της Διοίκηση",
-      "· ingr | Κολωνός: Βίντεο ντοκουμέντο από τη στιγμή της έκρηξης",
-      "· gct | Warnings Against Sharing Sensitive Information With AI Chatbots",
-      "· ert | AΔEΔY: Τετράωρη στάση εργασίας στις 30 Οκτωβρίου στα λιμάνια σε Aττική, Αχαΐα, Θεσπρωτία",
-      "· gct | Banks and Businesses Face Major Anti-Money Laundering Changes",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση της Υπηρεσία",
-      "· minfin | «Έγκριση Κανονισμού της Γενικής Διεύθυνσης Δημοσιονομικών Ελέγχων (Γ.Δ.Δ.Ε.) περί Επιβολής",
-      "· gct | PASOK Demands EU Sanctions Over Turkish-Libyan Memorandum",
-      "· gn-iefimerida | Δεκάδες ισραηλινά μαχητικά και εναέριου εφοδιασμού πέταξαν προς το Ιράν, τελευταία στιγμή ",
-      "· minfin | Νίκος Παπαθανάσης: 7,71 εκατ. ευρώ για αγροτεχνολογία -αγροδιατροφή, ψηφιακή υδροπονία, κα",
-      "· minfin | Περίληψη διακήρυξης α΄ επαναληπτικής μειοδοτικής δημοπρασίας μίσθωσης ακίνητου για τη στέγ",
-      "· gn-kathimerini | NYT: ΗΠΑ και Ισραήλ σχεδιάζουν νέες επιθέσεις στο Ιράν μετά τις εκλογές - Kathimerini"
+      "· ingr | Τροπολογία κατέθεσε το ΠΑΣΟΚ για την πρόσβαση των παιδιών στα social media – Τι προβλέπει",
+      "· ert | Ισραήλ: Σε κατ΄οίκον περιορισμό οι φερόμενοι ως δράστες επίθεσης εναντίον φωτοειδησεογράφο",
+      "· naftemporiki | Κολωνός: Βίντεο από τη στιγμή της έκρηξης – Τι γνωρίζουμε μέχρι στιγμής"
     ]
   },
   "evergreenDone": [
@@ -2609,5 +2603,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "power-outage-historic-centre-thessaloniki",
+      "url": "https://yavanet.gr/a/power-outage-historic-centre-thessaloniki/",
+      "at": "2026-10-22T08:25:01.585Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/power-outage-historic-centre-thessaloniki/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/power-outage-historic-centre-thessaloniki/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "הפסקת חשמל מרכזית בסלוניקי: הרחובות חשוכים והרמזורים כבויים",
+        "title_en": "Power Outage Hits Historic Centre of Thessaloniki",
+        "dek_he": "תקלה ברשת המתח הגבוה גרמה להפסקת חשמל במרכז ההיסטורי של סלוניקי. הרמזורים ותאורת הרחוב הפסיקו לעבוד, וצוותי התיקון נמצאים במקום.",
+        "dek_en": "A high-voltage network fault left the historic centre of Thessaloniki without power for nearly 90 minutes, affecting traffic lights and street lighting.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/34712943/pexels-photo-34712943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "הפסקת חשמל מרכזית בסלוניקי: הרחובות חשוכים והרמזורים כבויים\n\nתקלה ברשת המתח הגבוה גרמה להפסקת חשמל במרכז ההיסטורי של סלוניקי. הרמזורים ותאורת הרחוב הפסיקו לעבוד, וצוותי התיקון נמצאים במקום.\n\nhttps://yavanet.gr/a/power-outage-historic-centre-thessaloniki/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Power Outage Hits Historic Centre of Thessaloniki\n\nA high-voltage network fault left the historic centre of Thessaloniki without power for nearly 90 minutes, affecting traffic lights and street lighting.\n\nhttps://yavanet.gr/en/a/power-outage-historic-centre-thessaloniki/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/power-outage-historic-centre-thessaloniki.jpg",
+          "caption": "הפסקת חשמל מרכזית בסלוניקי: הרחובות חשוכים והרמזורים כבויים\n\nתקלה ברשת המתח הגבוה גרמה להפסקת חשמל במרכז ההיסטורי של סלוניקי. הרמזורים ותאורת הרחוב הפסיקו לעבוד, וצוותי התיקון נמצאים במקום.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/power-outage-historic-centre-thessaloniki-story.jpg"
+        }
+      }
+    }
+  ]
 }
