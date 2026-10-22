@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "6a9f70c097d9": 1791498366158,
-    "b22f56a4f990": 1791499143102,
-    "567581841090": 1791500002479,
     "6a835aa784f3": 1791500587443,
     "25892a07e438": 1791500587443,
     "baf3ae69a3c8": 1791501885979,
@@ -2237,7 +2234,13 @@
     "1a1ae7de7fd7": 1792706072456,
     "43a375394552": 1792706072456,
     "19b34be7b46c": 1792707365560,
-    "42fe7675ce14": 1792707365560
+    "42fe7675ce14": 1792707365560,
+    "2c3ee3fcca25": 1792709588329,
+    "4c664959dea1": 1792709588329,
+    "8179b2523cb9": 1792709588329,
+    "a2b8c4f8116e": 1792709588329,
+    "ccb5fc7fb0d1": 1792709588329,
+    "123deece76ce": 1792709588329
   },
   "pending": {
     "bf7689": {
@@ -2351,12 +2354,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T22:15:51.899Z",
+      "at": "2026-10-22T22:52:57.592Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T22:15:52.608Z",
+      "at": "2026-10-22T22:52:58.064Z",
       "items": 3
     },
     "civilprotection": {
@@ -2367,27 +2370,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T22:15:54.496Z",
+      "at": "2026-10-22T22:52:59.334Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T22:15:54.960Z",
+      "at": "2026-10-22T22:52:59.712Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T22:15:58.595Z",
+      "at": "2026-10-22T22:53:00.321Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T22:15:59.347Z",
-      "items": 3
+      "at": "2026-10-22T22:53:00.955Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T22:15:59.827Z",
+      "at": "2026-10-22T22:53:01.395Z",
       "items": 10
     },
     "toi-greece": {
@@ -2398,22 +2401,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T22:16:00.408Z",
+      "at": "2026-10-22T22:53:01.821Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T22:16:00.575Z",
+      "at": "2026-10-22T22:53:03.766Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T22:16:00.731Z",
-      "items": 3
+      "at": "2026-10-22T22:53:04.267Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T22:16:01.252Z",
+      "at": "2026-10-22T22:53:04.417Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2423,12 +2426,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T22:15:53.474Z",
+      "at": "2026-10-22T22:52:58.291Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T22:16:01.863Z",
+      "at": "2026-10-22T22:53:04.827Z",
       "items": 0
     },
     "hcg": {
@@ -2439,40 +2442,47 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T22:16:03.190Z",
+      "at": "2026-10-22T22:53:05.911Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T22:16:03.394Z",
+      "at": "2026-10-22T22:53:06.078Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T22:16:03.565Z",
+      "at": "2026-10-22T22:53:06.293Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T22:16:03.761Z",
-      "items": 6
+      "at": "2026-10-22T22:53:06.519Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T22:16:04.150Z",
+      "at": "2026-10-22T22:53:06.854Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T22:16:04.575Z",
+      "at": "2026-10-22T22:53:07.271Z",
       "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-23",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "greece-uae-economic-cooperation-12-billion",
+        "title": "Greece and UAE Target €12 Billion in New Economic Growth",
+        "at": "2026-10-23T01:53:27+03:00",
+        "section": "politics"
+      }
+    ],
     "rejected": [
       {
         "title": "Κόντρα Γεωργιάδη-Καζαμία για την Αθηναϊκή Λέσχη και το Ισραήλ -«Αίσχος» το «όχι» της αντιπολίτευσης στον «κόφτη» για τα social media - iefim",
@@ -2488,10 +2498,16 @@
         "title": "Βίντεο-ντοκουμέντο δευτερόλεπτα μετά την έκρηξη στην πολυκατοικία στον Κολωνό -Τα αναπάντητα ερωτήματα, ο ένοικος που βρέθηκε στο μικροσκόπι",
         "reason": "Ίδιο θέμα με «Athens: Four injured in an explosion in Kolonos» – δεν γράφτηκε ξανά",
         "at": "2026-10-22T22:16:09.909Z"
+      },
+      {
+        "title": "US Calls for Greece-Turkey Talks After Libya Backs Maritime Deal",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-22T22:53:12.445Z"
       }
     ],
     "errors": [],
-    "ig": []
+    "ig": [],
+    "fb": []
   },
   "history": [
     {
@@ -2632,12 +2648,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T22:16:05.560Z",
-    "considered": 2,
-    "picked": 1,
+    "at": "2026-10-22T22:53:08.329Z",
+    "considered": 6,
+    "picked": 2,
     "items": [
-      "· gct | Greek-Australian Jetstar Pilot Aglaya Papadokokolakis to Fly First Flight from Western Syd",
-      "✓ gn-iefimerida | Βίντεο-ντοκουμέντο δευτερόλεπτα μετά την έκρηξη στην πολυκατοικία στον Κολωνό -Τα αναπάντη"
+      "✓ gct | US Calls for Greece-Turkey Talks After Libya Backs Maritime Deal",
+      "· gct | 23 October Orthodox Gospel Warns Against Judging by What We Think We Know",
+      "· ingr | Τουλάχιστον 16 οι νεκροί από τον σεισμό 7 ρίχτερ στο Θιβέτ – Κατέρρευσαν 339 σπίτια",
+      "· gct | Personalised mRNA Cancer Vaccine Cuts Melanoma Recurrence",
+      "✓ gct | Greece and UAE Target €12 Billion in New Economic Opportunities",
+      "· gct | Greece Creates Jobs, but Productivity and Wages Keep Falling"
     ]
   },
   "evergreenDone": [
