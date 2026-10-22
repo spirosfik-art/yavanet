@@ -14,13 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "4abb830d79a2": 1791466897743,
-    "a3702137c806": 1791466897743,
-    "005d94050ce1": 1791466897743,
-    "1a2794456188": 1791467737192,
-    "109093d0c04c": 1791467737192,
-    "5ec96deb4b19": 1791468326340,
-    "ceded77362de": 1791468326340,
     "f30df8286cc2": 1791469781720,
     "aecfa0e3512c": 1791470772886,
     "c91737a27633": 1791470772886,
@@ -2230,9 +2223,116 @@
     "ef768e8cbf2d": 1792676075123,
     "10febd3c2380": 1792676075123,
     "0bc5bdc34127": 1792676075123,
-    "9fdc89a862aa": 1792676075123
+    "9fdc89a862aa": 1792676075123,
+    "c5602cbe5c64": 1792678530954,
+    "339bb1805576": 1792678530954,
+    "3a22485f5ff9": 1792678530954
   },
-  "pending": {},
+  "pending": {
+    "c02635": {
+      "createdAt": 1792678615075,
+      "item": {
+        "title": "Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ3ZiVTltVjJ0Z3NmZzhNTy1iSXc5SUJua212RXVhMnJ6ajlqSjVkYTZpeUdEOEE4N29vTThlZWZtMDJweWpMWmlCQ2hhSmhPQmt5STA2U0VVVjhRSHM4S3hYODhNQWJ5NFZGUHNPSFFzWUFQczZNcmhULUJ6bHgtTTN6c0hudlBQajU0aEJuMzVPSDl4N2VTOUdHU2ExZ9IBjwFBVV95cUxPNnZ0SHVjUkpoSWcwV05IdzFmTzM2LThla21lYWZwT1NWdWZtbnpyVGE5cHJWYWsxNGtJa3J1dzZWMTZWM1NjdVNlYW5DUFFrYmJwSXUtZlI4RkNsSUJkVkxicy1nbC1ZWGhKZ3I3NmVIcHk2eS1FVXFCUUFaZGJ1Q0xRTnJsS1RadUNtNFBmbw?oc=5",
+        "summary": "Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο &nbsp;&nbsp; iefimerida.gr",
+        "published": "Thu, 22 Oct 2026 06:21:56 GMT",
+        "id": "3a22485f5ff9",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "3a22485f5ff9",
+        "section": "living",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "New legislation regarding delivery workers' contracts affects the labor market and potential employment opportunities for Israeli residents in Greece.",
+        "item": {
+          "title": "Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ3ZiVTltVjJ0Z3NmZzhNTy1iSXc5SUJua212RXVhMnJ6ajlqSjVkYTZpeUdEOEE4N29vTThlZWZtMDJweWpMWmlCQ2hhSmhPQmt5STA2U0VVVjhRSHM4S3hYODhNQWJ5NFZGUHNPSFFzWUFQczZNcmhULUJ6bHgtTTN6c0hudlBQajU0aEJuMzVPSDl4N2VTOUdHU2ExZ9IBjwFBVV95cUxPNnZ0SHVjUkpoSWcwV05IdzFmTzM2LThla21lYWZwT1NWdWZtbnpyVGE5cHJWYWsxNGtJa3J1dzZWMTZWM1NjdVNlYW5DUFFrYmJwSXUtZlI4RkNsSUJkVkxicy1nbC1ZWGhKZ3I3NmVIcHk2eS1FVXFCUUFaZGJ1Q0xRTnJsS1RadUNtNFBmbw?oc=5",
+          "summary": "Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο &nbsp;&nbsp; iefimerida.gr",
+          "published": "Thu, 22 Oct 2026 06:21:56 GMT",
+          "id": "3a22485f5ff9",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "delivery-workers-payrolls-greece-bill",
+        "section": "living",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "חוק חדש ביוון",
+          "en": "New Greek Bill"
+        },
+        "imageKey": "people",
+        "imageQuery": "delivery workers city street",
+        "he": {
+          "title": "חוק חדש ביוון: מעבר מתשלום לפי חשבוניות למשכורות מסודרות בשליחויות",
+          "seoTitle": "חוק חדש ביוון: הסדרת תנאי השליחים ועבודה ביוון",
+          "seoDesc": "הפרטים על הצעת החוק החדשה ביוון שנועדה להסדיר את שוק השליחויות והעסקת העובדים, ומה זה אומר עבור ישראלים החיים ועובדים במדינה.",
+          "keywords": [
+            "חוק חדש ביוון",
+            "עבודה ביוון",
+            "שליחים ביוון",
+            "בירוקרטיה ביוון",
+            "מחיה ביוון"
+          ],
+          "dek": "הפרלמנט ביוון דן בהצעת חוק חדשה המבקשת לשנות את אופן העסקת השליחים, ממתן חשבוניות אישיות למסגרת של משכורות חודשיות.",
+          "tldr": [
+            "הצעת חוק חדשה ביוון מתמקדת בשוק השליחויות.",
+            "המטרה היא להפוך את צורת ההעסקה ממשכורת עצמאית למשכורת שכיר.",
+            "המהלך נועד לספק הגנה רבה יותר לזכויות העובדים בענף."
+          ],
+          "means": "עבור ישראלים החיים ביוון ועובדים בתחומים דומים או מנהלים עסקים, מדובר בשינוי משמעותי ברגולציה ובדיני העבודה המקומיים. מומלץ לעקוב אחר התפתחות החקיקה ולהתייעץ עם רואה חשבון או יועץ משפטי מקומי (כגון בעלי רישיון AFM) כדי להבין את ההשפעות על התנהלות שוטפת.",
+          "body": "## שינויים בשוק העבודה\n\nרשויות המדינה ביוון מקדמות הצעת חוק חדשה שנועדה לעשות סדר בשוק העבודה המקומי, ובפרט בענף השליחויות. המהלך המרכזי שמוביל הממשל נועד להתמודד עם התופעה שבה עובדים רבים מועסקים באמצעות חשבוניות עצמאיות, המכונות מקומית \"בלוקאקיה\", אף על פי שבפועל מדובר במתכונת עבודה הדומה ליחסי עובד-מעביד.\n\n## מעבר למשכורות מסודרות\n\nעל פי הפרטים הידועים על הצעת החוק, המטרה היא לעודד או לחייב מעבר למערכת שכר מסודרת הכוללת תלושי משכורת תקניים. השינוי צפוי להשפיע על אלפי עובדים בענף, והוא נועד להבטיח תנאים סוציאליים, זכויות פנסיה והגנה טובה יותר על בטחונם התעסוקתי של השליחים במדינה.\n\n## השלכות על העסקים המקומיים\n\nחברות השליחויות והעסקים המקומיים יידרשו להיערך למציאות המשפטית והחשבונאית החדשה לכשהחוק יאושר ויכנס לתוקף. עבור תושבים זרים וישראלים הפועלים בשוק המקומי, חשוב להכיר את הכללים החדשים ולהתעדכן בהנחיות רשויות המס והתעסוקה ביוון."
+        },
+        "en": {
+          "title": "New Bill in Greece Aims to Shift Delivery Workers to Payroll Contracts",
+          "seoTitle": "New Delivery Worker Regulations and Payroll Bill in Greece",
+          "seoDesc": "Discover the new Greek legislative bill aiming to transition delivery workers from freelance invoicing to formal payroll contracts.",
+          "keywords": [
+            "delivery workers greece",
+            "greek labor law",
+            "greece bill payroll",
+            "living in greece",
+            "athens news"
+          ],
+          "dek": "A new legislative bill in Greece proposes shifting delivery workers from individual service invoices to standard payroll contracts.",
+          "tldr": [
+            "A new bill in Greece focuses on the delivery sector.",
+            "The goal is to transition independent invoicing to standard employment contracts.",
+            "The move aims to enhance workers' rights and social protections."
+          ],
+          "means": "For Israelis living and working in Greece, or managing local ventures, this represents a notable shift in local labor regulations. It is advisable to monitor the legislative process and consult with local accountants or legal advisors regarding compliance and business operations.",
+          "body": "## Labor Market Reforms\n\nAuthorities in Greece are advancing a new legislative initiative aimed at reforming the local labor market, specifically targeting the delivery sector. The core objective is to address the widespread practice of workers issuing individual service invoices, commonly known locally as \"blockakia\", despite functioning under standard employment conditions.\n\n## Transition to Formal Salaries\n\nAccording to details surrounding the bill, the framework seeks to encourage or mandate a transition to regular payroll systems with standardized pay slips. The shift is expected to impact thousands of workers in the industry, ensuring better social security benefits, pension rights, and overall employment protection.\n\n## Impact on Local Businesses\n\nDelivery companies and local enterprises will need to adapt to the new legal and accounting reality once the bill is enacted. For foreign residents and Israelis operating in the local market, familiarizing with the upcoming regulations and staying updated through official tax and employment channels is essential."
+        }
+      },
+      "text": "Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο - iefimerida.gr\nΠώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο &nbsp;&nbsp; iefimerida.gr",
+      "issues": [],
+      "el": {
+        "title": "Νέο νομοσχέδιο στην Ελλάδα στοχεύει στη μετατροπή των διανομιστών σε συμβάσεις μισθωτής εργασίας",
+        "dek": "Ένα νέο νομοσχέδιο στην Ελλάδα προτείνει τη μετάβαση των διανομιστών από τα Δελτία Παροχής Υπηρεσιών σε κανονικές συμβάσεις μισθωτής εργασίας.",
+        "tldr": [
+          "Ένα νέο νομοσχέδιο στην Ελλάδα επικεντρώνεται στον τομέα των διανομών.",
+          "Ο στόχος είναι η μετάβαση από τα μπλοκάκια σε τυπικές συμβάσεις εργασίας.",
+          "Η κίνηση αυτή αποσκοπεί στην ενίσχυση των εργασιακών δικαιωμάτων και της κοινωνικής προστασίας."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2242,12 +2342,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T13:31:57.272Z",
+      "at": "2026-10-22T14:15:02.489Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T13:31:58.009Z",
+      "at": "2026-10-22T14:15:03.340Z",
       "items": 3
     },
     "civilprotection": {
@@ -2258,27 +2358,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T13:31:59.596Z",
+      "at": "2026-10-22T14:15:05.779Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T13:31:59.823Z",
+      "at": "2026-10-22T14:15:05.918Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T13:32:00.669Z",
+      "at": "2026-10-22T14:15:07.135Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T13:32:01.403Z",
+      "at": "2026-10-22T14:15:08.273Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T13:32:02.343Z",
+      "at": "2026-10-22T14:15:08.856Z",
       "items": 10
     },
     "toi-greece": {
@@ -2289,22 +2389,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T13:32:02.913Z",
-      "items": 5
+      "at": "2026-10-22T14:15:09.620Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T13:32:03.092Z",
+      "at": "2026-10-22T14:15:09.936Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T13:32:03.241Z",
-      "items": 3
+      "at": "2026-10-22T14:15:10.021Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T13:32:03.720Z",
+      "at": "2026-10-22T14:15:10.255Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2314,12 +2414,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T13:31:58.313Z",
+      "at": "2026-10-22T14:15:03.923Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T13:32:04.462Z",
+      "at": "2026-10-22T14:15:11.112Z",
       "items": 0
     },
     "hcg": {
@@ -2330,33 +2430,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T13:32:06.117Z",
-      "items": 2
+      "at": "2026-10-22T14:15:12.168Z",
+      "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T13:32:06.456Z",
+      "at": "2026-10-22T14:15:12.404Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T13:32:06.655Z",
+      "at": "2026-10-22T14:15:12.607Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T13:32:06.854Z",
+      "at": "2026-10-22T14:15:12.922Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T13:32:07.215Z",
-      "items": 7
+      "at": "2026-10-22T14:15:13.299Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T13:32:07.735Z",
-      "items": 9
+      "at": "2026-10-22T14:15:13.767Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
@@ -2580,19 +2680,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T13:34:35.123Z",
-    "considered": 9,
-    "picked": 1,
+    "at": "2026-10-22T14:15:30.954Z",
+    "considered": 4,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Η Μπάγερν ανοίγει την πόρτα στη Viessmann – Στα 3,75 δισ. ευρώ η αξία του συλλόγου",
-      "· naftemporiki | K. Πιερρακάκης: Μια ενεργειακή Ένωση θα μείωνε το κόστος για επιχειρήσεις και νοικοκυριά",
-      "· gn-pm | Χαιρετισμός του Πρωθυπουργού Κυριάκου Μητσοτάκη στο Στρατηγικό Φόρουμ Ελλάδας – ΗΑΕ που δι",
-      "✓ ert | Διεθνείς αντιδράσεις για το τουρκολιβυκό μνημόνιο – Δεν μεταβάλλεται ο παράνομος, και ανυπ",
-      "· gct | Pizza Fan Owner and Employees Arrested in €25 Million Greek VAT Probe",
-      "· minfin | Κυριάκος Πιερρακάκης: «Αν είχαμε μια ενιαία Ενεργειακή Ένωση, με περισσότερη αποθήκευση, π",
-      "· gct | Greek Military Helicopter Makes Hard Landing on Kalymnos",
-      "· ingr | Κόντρες στη Βουλή για την απαγόρευση των social media στα παιδιά – «Ατελέσφορο το μέτρο», ",
-      "· gn-kathimerini | Ισραήλ: Τι θα άλλαζε πραγματικά για τους Παλαιστινίους αν ο Νετανιάχου έχανε τις εκλογές -"
+      "✓ naftemporiki | Ρέθυμνο: Φωτιά τώρα στο Ροδάκινο Αγίου Βασιλείου",
+      "· naftemporiki | Ισραήλ: Το υπουργείο Ενέργειας παρουσίασε στρατηγικές για την ανάδειξη της χώρας στον τομέ",
+      "· gn-iefimerida | Χαρδαλιάς: Με τη νέα διεθνή τουριστική καμπάνια «Phenomenon» αναδεικνύουμε ολόκληρη την Ατ",
+      "✓ gn-iefimerida | Πώς τα μπλοκάκια στο ντελίβερι θα γίνουν μισθολόγια, το νέο νομοσχέδιο - iefimerida.gr"
     ]
   },
   "evergreenDone": [
