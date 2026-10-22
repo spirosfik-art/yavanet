@@ -7,6 +7,7 @@ import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from ".
 import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, tripBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
+import { areaPage, areaUrl } from "./site/areas.mjs";
 import { profileBody } from "./site/profile.mjs";
 import { sfShowcase } from "./site/sf.mjs";
 import { almyraShowcase } from "./site/almyra.mjs";
@@ -562,7 +563,7 @@ ${CATS.map(([k, h1, h2]) => { const list = guides.filter((a) => !a.pinned && cat
     const groups = madad.groups ? Object.keys(madad.groups) : [null];
     const row = (x) => {
       const y = x.rent && x.sale ? (x.rent * 12 / x.sale * 100).toFixed(1) + "%" : "–";
-      return `<tr><td><strong>${esc(x[lang] || x.en)}</strong></td><td>${eur(x.sale)}</td><td>${chg(x.saleChg)}</td><td>€${(+x.rent).toFixed(1)}</td><td>${chg(x.rentChg)}</td><td dir="ltr">${y}</td><td class="bar"><i style="width:${Math.round((+x.sale || 0) / max * 100)}%"></i></td></tr>`;
+      return `<tr><td><strong><a href="${areaUrl(lang, x)}">${esc(x[lang] || x.en)}</a></strong></td><td>${eur(x.sale)}</td><td>${chg(x.saleChg)}</td><td>€${(+x.rent).toFixed(1)}</td><td>${chg(x.rentChg)}</td><td dir="ltr">${y}</td><td class="bar"><i style="width:${Math.round((+x.sale || 0) / max * 100)}%"></i></td></tr>`;
     };
     const rows = groups.map((g) => {
       const list = madad.areas.filter((x) => !g || x.group === g).sort((a, b) => (+b.sale || 0) - (+a.sale || 0));
@@ -585,6 +586,11 @@ ${adBox(lang)}
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
     write(P(lang, "/madad/"), layout({ lang, title, description: intro, path: P(lang, "/madad/"), altPath: P(he ? "en" : "he", "/madad/"), body, breaking: breakingNow, activeSection: "madad", activeNav: "prop" }));
+    const fxA = JSON.parse(fs.readFileSync(path.join(ROOT, "content/costs.json"), "utf8")).eurIls;
+    for (const a of madad.areas.filter((x) => x.sale)) {
+      const pg = areaPage(lang, a, madad, fxA), u = areaUrl(lang, a);
+      write(u, layout({ lang, title: pg.title, seoTitle: pg.seoTitle, description: pg.description, path: u, altPath: areaUrl(he ? "en" : "he", a), body: pg.body.replace("__NADLAN__", GLOBAL.nadlan ? GLOBAL.nadlanBox[lang] : "").replace("__WIDGETS__", widgets(lang, mostRead)), jsonld: pg.jsonld, breaking: breakingNow, activeSection: "madad", activeNav: "prop" }));
+    }
   }
 
   /* Αγγελίες ακινήτων: /nadlan/ + /nadlan/<id>/ (site/nadlan.mjs) */
@@ -676,7 +682,7 @@ const urls = [];
 const LASTMOD = {};
 for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
-  if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"));
+  if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"), ...madad.areas.filter((x) => x.sale).map((x) => areaUrl(lang, x)));
   if (GLOBAL.flights) urls.push(P(lang, "/flights/"));
   if (GLOBAL.nadlan) urls.push(P(lang, "/nadlan/"), ...NADLAN.listings.map((x) => listingUrl(lang, x)));
   urls.push(P(lang, lang === "he" ? "/mivzakim/" : "/flash/"));
