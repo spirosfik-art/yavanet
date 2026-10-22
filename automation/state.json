@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "358381b4b677": 1791462801686,
-    "7e7513f71c40": 1791462801686,
-    "4eca9a6a4c07": 1791462801686,
     "e3e8744d3cca": 1791464436523,
     "ab94a82a47c0": 1791465438511,
     "eff129bb8e22": 1791465438511,
@@ -2225,7 +2222,12 @@
     "cf21295160c9": 1792671041064,
     "198ef0c6c8a6": 1792671041064,
     "196660ca6a12": 1792671041064,
-    "734a77893fd0": 1792671041064
+    "734a77893fd0": 1792671041064,
+    "012b43dc127d": 1792673192749,
+    "15f4e6e044f3": 1792673192749,
+    "3575ff2f30c1": 1792673192749,
+    "b2feb67440e9": 1792673192749,
+    "a8b24a6e598c": 1792673192749
   },
   "pending": {},
   "sourceStatus": {
@@ -2237,12 +2239,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T12:10:29.708Z",
+      "at": "2026-10-22T12:46:09.062Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T12:10:30.647Z",
+      "at": "2026-10-22T12:46:09.789Z",
       "items": 4
     },
     "civilprotection": {
@@ -2253,27 +2255,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T12:10:32.028Z",
+      "at": "2026-10-22T12:46:11.698Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T12:10:32.096Z",
+      "at": "2026-10-22T12:46:12.064Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T12:10:33.189Z",
+      "at": "2026-10-22T12:46:12.928Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T12:10:34.146Z",
+      "at": "2026-10-22T12:46:13.815Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T12:10:34.907Z",
+      "at": "2026-10-22T12:46:14.831Z",
       "items": 10
     },
     "toi-greece": {
@@ -2284,23 +2286,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T12:10:35.505Z",
+      "at": "2026-10-22T12:46:15.285Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T12:10:35.580Z",
+      "at": "2026-10-22T12:46:15.617Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T12:10:35.787Z",
+      "at": "2026-10-22T12:46:15.886Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T12:10:35.982Z",
-      "items": 6
+      "at": "2026-10-22T12:46:16.350Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2309,12 +2311,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T12:10:31.018Z",
+      "at": "2026-10-22T12:46:10.592Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T12:10:36.632Z",
+      "at": "2026-10-22T12:46:16.915Z",
       "items": 0
     },
     "hcg": {
@@ -2325,33 +2327,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T12:10:38.391Z",
+      "at": "2026-10-22T12:46:19.123Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T12:10:38.594Z",
+      "at": "2026-10-22T12:46:19.366Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T12:10:38.734Z",
+      "at": "2026-10-22T12:46:19.535Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T12:10:38.977Z",
-      "items": 4
+      "at": "2026-10-22T12:46:19.764Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T12:10:39.329Z",
-      "items": 8
+      "at": "2026-10-22T12:46:20.141Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T12:10:39.918Z",
-      "items": 12
+      "at": "2026-10-22T12:46:20.534Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2411,6 +2413,10 @@
       {
         "slug": "power-outage-historic-centre-thessaloniki",
         "at": "2026-10-22T08:25:08.595Z"
+      },
+      {
+        "slug": "greater-athens-phenomenon-tourism-campaign",
+        "at": "2026-10-22T12:46:45.273Z"
       }
     ],
     "fb": [
@@ -2425,6 +2431,10 @@
       {
         "slug": "athens-metro-omonia-flash-bang-investigation",
         "at": "2026-10-22T11:19:36.296Z"
+      },
+      {
+        "slug": "greater-athens-phenomenon-tourism-campaign",
+        "at": "2026-10-22T12:46:32.787Z"
       }
     ]
   },
@@ -2562,16 +2572,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T12:10:41.064Z",
-    "considered": 6,
-    "picked": 1,
+    "at": "2026-10-22T12:46:32.749Z",
+    "considered": 5,
+    "picked": 0,
     "items": [
-      "· minfin | Διακήρυξη Α’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Γραφείου Νομικ",
-      "· naftemporiki | Ο Νετανιάχου θέτει δίλημμα στους Ισραηλινούς: Είμαστε εγώ και ο Τραμπ ή ο Άιζενκοτ και ο Α",
-      "· ert | Χίος: Μνημόνιο συνεργασίας Πανεπιστημίου Αιγαίου και ΣΕΓΑΣ για την ενίσχυση του «Αυθεντικο",
-      "· naftemporiki | Το πετρέλαιο βυθίζει τις μετοχές – Φυγή των επενδυτών απο το ρίσκο",
-      "✓ naftemporiki | «Phenomenon»: Η νέα διεθνής τουριστική καμπάνια της Περιφέρεια Αττικής",
-      "· gn-kathimerini | Κολωνός: Τα σενάρια για την έκρηξη - Kathimerini"
+      "· ktg | Airbnb new rules: Hosts can no longer ask guests to clean before checking out",
+      "· gtp | Region of Attica Launches €17 Million Tourism Campaign for ‘Greater Athens’",
+      "· ktg | Bomb explosion in Athens “wasn’t a terrorist act”, says Minister",
+      "· minfin | Πρόσκληση για γνωστοποίηση στοιχείων",
+      "· minfin | Διακήρυξη Α’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για την στέγαση της Δ/"
     ]
   },
   "evergreenDone": [
@@ -2614,5 +2623,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greater-athens-phenomenon-tourism-campaign",
+      "url": "https://yavanet.gr/a/greater-athens-phenomenon-tourism-campaign/",
+      "at": "2026-10-22T12:46:32.787Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greater-athens-phenomenon-tourism-campaign/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greater-athens-phenomenon-tourism-campaign/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "קמפיין תיירות חדש לאתונה והסביבה: להכיר את כל אטיקה",
+        "title_en": "New Tourism Campaign Highlights Greater Athens and Attica",
+        "dek_he": "מחוז אטיקה חשף קמפיין בינלאומי חדש בשם Phenomenon, שנועד לקדם את האזור כיעד רב-עונתי המשלב בין העיר הגדולה, הריביירה והאיים.",
+        "dek_en": "The Attica region has unveiled a major international tourism campaign aimed at showcasing the area as a diverse, year-round destination.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15141440/pexels-photo-15141440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "קמפיין תיירות חדש לאתונה והסביבה: להכיר את כל אטיקה\n\nמחוז אטיקה חשף קמפיין בינלאומי חדש בשם Phenomenon, שנועד לקדם את האזור כיעד רב-עונתי המשלב בין העיר הגדולה, הריביירה והאיים.\n\nhttps://yavanet.gr/a/greater-athens-phenomenon-tourism-campaign/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "New Tourism Campaign Highlights Greater Athens and Attica\n\nThe Attica region has unveiled a major international tourism campaign aimed at showcasing the area as a diverse, year-round destination.\n\nhttps://yavanet.gr/en/a/greater-athens-phenomenon-tourism-campaign/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/greater-athens-phenomenon-tourism-campaign.jpg",
+          "caption": "קמפיין תיירות חדש לאתונה והסביבה: להכיר את כל אטיקה\n\nמחוז אטיקה חשף קמפיין בינלאומי חדש בשם Phenomenon, שנועד לקדם את האזור כיעד רב-עונתי המשלב בין העיר הגדולה, הריביירה והאיים.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/greater-athens-phenomenon-tourism-campaign-story.jpg"
+        }
+      }
+    }
+  ]
 }
