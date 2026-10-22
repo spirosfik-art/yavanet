@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "6a835aa784f3": 1791500587443,
-    "25892a07e438": 1791500587443,
     "baf3ae69a3c8": 1791501885979,
     "2dcb90830ae8": 1791501885979,
     "760f2208da0c": 1791501885979,
@@ -2240,7 +2238,9 @@
     "8179b2523cb9": 1792709588329,
     "a2b8c4f8116e": 1792709588329,
     "ccb5fc7fb0d1": 1792709588329,
-    "123deece76ce": 1792709588329
+    "123deece76ce": 1792709588329,
+    "08460fb51871": 1792710921743,
+    "5a2c2b66e3dd": 1792710921743
   },
   "pending": {
     "bf7689": {
@@ -2354,12 +2354,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T22:52:57.592Z",
+      "at": "2026-10-22T23:15:12.954Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T22:52:58.064Z",
+      "at": "2026-10-22T23:15:13.454Z",
       "items": 3
     },
     "civilprotection": {
@@ -2370,27 +2370,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T22:52:59.334Z",
+      "at": "2026-10-22T23:15:14.400Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T22:52:59.712Z",
+      "at": "2026-10-22T23:15:14.519Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T22:53:00.321Z",
+      "at": "2026-10-22T23:15:15.162Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T22:53:00.955Z",
+      "at": "2026-10-22T23:15:15.710Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T22:53:01.395Z",
+      "at": "2026-10-22T23:15:16.550Z",
       "items": 10
     },
     "toi-greece": {
@@ -2401,22 +2401,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T22:53:01.821Z",
+      "at": "2026-10-22T23:15:16.976Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T22:53:03.766Z",
+      "at": "2026-10-22T23:15:17.056Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T22:53:04.267Z",
+      "at": "2026-10-22T23:15:17.251Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T22:53:04.417Z",
+      "at": "2026-10-22T23:15:17.378Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2426,12 +2426,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T22:52:58.291Z",
+      "at": "2026-10-22T23:15:13.692Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T22:53:04.827Z",
+      "at": "2026-10-22T23:15:17.774Z",
       "items": 0
     },
     "hcg": {
@@ -2442,32 +2442,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T22:53:05.911Z",
+      "at": "2026-10-22T23:15:18.801Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T22:53:06.078Z",
+      "at": "2026-10-22T23:15:19.006Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T22:53:06.293Z",
+      "at": "2026-10-22T23:15:19.201Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T22:53:06.519Z",
+      "at": "2026-10-22T23:15:19.427Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T22:53:06.854Z",
+      "at": "2026-10-22T23:15:19.888Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T22:53:07.271Z",
+      "at": "2026-10-22T23:15:20.368Z",
       "items": 6
     }
   },
@@ -2648,16 +2648,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T22:53:08.329Z",
-    "considered": 6,
-    "picked": 2,
+    "at": "2026-10-22T23:15:21.743Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "✓ gct | US Calls for Greece-Turkey Talks After Libya Backs Maritime Deal",
-      "· gct | 23 October Orthodox Gospel Warns Against Judging by What We Think We Know",
-      "· ingr | Τουλάχιστον 16 οι νεκροί από τον σεισμό 7 ρίχτερ στο Θιβέτ – Κατέρρευσαν 339 σπίτια",
-      "· gct | Personalised mRNA Cancer Vaccine Cuts Melanoma Recurrence",
-      "✓ gct | Greece and UAE Target €12 Billion in New Economic Opportunities",
-      "· gct | Greece Creates Jobs, but Productivity and Wages Keep Falling"
+      "· gct | Greece Opens the Rulebook on Its 95% Home Renovation Grants",
+      "· gn-iefimerida | «Ανακαινίζω»: Τα επόμενα βήματα για τους ιδιοκτήτες, ποια ακίνητα έχουν προτεραιότητα -Ποι"
     ]
   },
   "evergreenDone": [
