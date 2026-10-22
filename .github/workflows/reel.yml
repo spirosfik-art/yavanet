@@ -18,10 +18,10 @@ jobs:
       - name: Video (Ken Burns + crossfade)
         run: |
           cd out
-          i=0; for f in s1 s2 s3 s4 s5; do
+          i=0; for f in s1 s2 s3 s4 s5 s6; do
             ffmpeg -y -loglevel error -loop 1 -i $f.png -vf "scale=1296:2304,zoompan=z='min(zoom+0.0009,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=105:s=1080x1920:fps=30,format=yuv420p" -t 3.5 -c:v libx264 -preset medium -crf 20 c$i.mp4; i=$((i+1)); done
-          ffmpeg -y -loglevel error -i c0.mp4 -i c1.mp4 -i c2.mp4 -i c3.mp4 -i c4.mp4 -f lavfi -t 15.5 -i anullsrc=r=44100:cl=stereo -filter_complex "[0][1]xfade=transition=slideleft:duration=0.5:offset=3[a];[a][2]xfade=transition=slideleft:duration=0.5:offset=6[b];[b][3]xfade=transition=slideleft:duration=0.5:offset=9[c];[c][4]xfade=transition=fade:duration=0.5:offset=12,format=yuv420p[v]" -map "[v]" -map 5:a -c:v libx264 -crf 20 -preset medium -c:a aac -shortest -movflags +faststart reel.mp4
-          ffmpeg -y -loglevel error -i reel.mp4 -vf "select='eq(n\,45)+eq(n\,150)+eq(n\,250)+eq(n\,340)+eq(n\,430)',scale=270:480,tile=5x1" -frames:v 1 preview.jpg
+          ffmpeg -y -loglevel error -i c0.mp4 -i c1.mp4 -i c2.mp4 -i c3.mp4 -i c4.mp4 -i c5.mp4 -f lavfi -t 18.5 -i anullsrc=r=44100:cl=stereo -filter_complex "[0][1]xfade=transition=slideleft:duration=0.5:offset=3[a];[a][2]xfade=transition=slideleft:duration=0.5:offset=6[b];[b][3]xfade=transition=slideleft:duration=0.5:offset=9[c];[c][4]xfade=transition=slideleft:duration=0.5:offset=12[d];[d][5]xfade=transition=fade:duration=0.5:offset=15,format=yuv420p[v]" -map "[v]" -map 6:a -c:v libx264 -crf 20 -preset medium -c:a aac -shortest -movflags +faststart reel.mp4
+          ffmpeg -y -loglevel error -i reel.mp4 -vf "select='eq(n\,45)+eq(n\,150)+eq(n\,250)+eq(n\,340)+eq(n\,430)+eq(n\,520)',scale=270:480,tile=6x1" -frames:v 1 preview.jpg
           rm c*.mp4; ls -la
       - name: Push
         run: |
