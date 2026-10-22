@@ -2235,7 +2235,9 @@
     "9d9d51f3d9cf": 1792706072456,
     "68d1e8f231d9": 1792706072456,
     "1a1ae7de7fd7": 1792706072456,
-    "43a375394552": 1792706072456
+    "43a375394552": 1792706072456,
+    "19b34be7b46c": 1792707365560,
+    "42fe7675ce14": 1792707365560
   },
   "pending": {
     "bf7689": {
@@ -2349,12 +2351,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T21:54:18.274Z",
-      "items": 0
+      "at": "2026-10-22T22:15:51.899Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T21:54:19.104Z",
+      "at": "2026-10-22T22:15:52.608Z",
       "items": 3
     },
     "civilprotection": {
@@ -2365,27 +2367,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T21:54:20.745Z",
+      "at": "2026-10-22T22:15:54.496Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T21:54:21.140Z",
+      "at": "2026-10-22T22:15:54.960Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T21:54:21.903Z",
+      "at": "2026-10-22T22:15:58.595Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T21:54:22.781Z",
+      "at": "2026-10-22T22:15:59.347Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T21:54:23.961Z",
+      "at": "2026-10-22T22:15:59.827Z",
       "items": 10
     },
     "toi-greece": {
@@ -2396,22 +2398,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T21:54:24.575Z",
+      "at": "2026-10-22T22:16:00.408Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T21:54:26.052Z",
+      "at": "2026-10-22T22:16:00.575Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T21:54:26.347Z",
+      "at": "2026-10-22T22:16:00.731Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T21:54:26.752Z",
+      "at": "2026-10-22T22:16:01.252Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2421,12 +2423,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T21:54:19.813Z",
+      "at": "2026-10-22T22:15:53.474Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T21:54:28.325Z",
+      "at": "2026-10-22T22:16:01.863Z",
       "items": 0
     },
     "hcg": {
@@ -2437,32 +2439,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T21:54:29.587Z",
+      "at": "2026-10-22T22:16:03.190Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T21:54:29.824Z",
+      "at": "2026-10-22T22:16:03.394Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T21:54:30.001Z",
+      "at": "2026-10-22T22:16:03.565Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T21:54:30.233Z",
-      "items": 7
+      "at": "2026-10-22T22:16:03.761Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T21:54:30.603Z",
+      "at": "2026-10-22T22:16:04.150Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T21:54:31.028Z",
+      "at": "2026-10-22T22:16:04.575Z",
       "items": 6
     }
   },
@@ -2481,6 +2483,11 @@
         "title": "Greece and Egypt Explore Maritime Extension Towards Cyprus",
         "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
         "at": "2026-10-22T21:54:54.985Z"
+      },
+      {
+        "title": "Βίντεο-ντοκουμέντο δευτερόλεπτα μετά την έκρηξη στην πολυκατοικία στον Κολωνό -Τα αναπάντητα ερωτήματα, ο ένοικος που βρέθηκε στο μικροσκόπι",
+        "reason": "Ίδιο θέμα με «Athens: Four injured in an explosion in Kolonos» – δεν γράφτηκε ξανά",
+        "at": "2026-10-22T22:16:09.909Z"
       }
     ],
     "errors": [],
@@ -2625,16 +2632,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T21:54:32.456Z",
-    "considered": 6,
-    "picked": 2,
+    "at": "2026-10-22T22:16:05.560Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· gct | Police Meet Jetstar Flight After Passenger’s Life Jacket Stunt",
-      "· ert | Θιβέτ: Τουλάχιστον 16 νεκροί από τον σεισμό των 7 Ρίχτερ – Πάνω από 300 σπίτια κατέρρευσαν",
-      "✓ gct | UAE Plans €15 Billion Investment Boost for Greece",
-      "· gct | US Targets Greek Law Firm in Iranian Oil Sanctions Probe",
-      "✓ gct | Greece and Egypt Explore Maritime Extension Towards Cyprus",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
+      "· gct | Greek-Australian Jetstar Pilot Aglaya Papadokokolakis to Fly First Flight from Western Syd",
+      "✓ gn-iefimerida | Βίντεο-ντοκουμέντο δευτερόλεπτα μετά την έκρηξη στην πολυκατοικία στον Κολωνό -Τα αναπάντη"
     ]
   },
   "evergreenDone": [
