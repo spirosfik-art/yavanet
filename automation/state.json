@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "56f1e9dfaf0f": 1791475928588,
     "a11ccc797aa6": 1791478579103,
     "06ef1fed6b9f": 1791478579103,
     "479eef5f2e3f": 1791479142554,
@@ -2229,7 +2228,10 @@
     "a43619184e5d": 1792684668309,
     "c2f1672ddc49": 1792684668309,
     "f4395245ae2a": 1792684668309,
-    "cd533b9c4f0b": 1792684668309
+    "cd533b9c4f0b": 1792684668309,
+    "cef923fa8d32": 1792686175832,
+    "b80838ee1af2": 1792686175832,
+    "1455f9c18b44": 1792686175832
   },
   "pending": {
     "dc8b32": {
@@ -2343,12 +2345,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T15:56:38.728Z",
+      "at": "2026-10-22T16:22:23.300Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T15:56:40.182Z",
+      "at": "2026-10-22T16:22:23.802Z",
       "items": 3
     },
     "civilprotection": {
@@ -2359,27 +2361,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T15:56:42.031Z",
+      "at": "2026-10-22T16:22:25.033Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T15:56:42.459Z",
+      "at": "2026-10-22T16:22:25.182Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T15:56:43.521Z",
+      "at": "2026-10-22T16:22:25.972Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T15:56:44.471Z",
-      "items": 2
+      "at": "2026-10-22T16:22:26.605Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T15:56:45.438Z",
+      "at": "2026-10-22T16:22:26.940Z",
       "items": 10
     },
     "toi-greece": {
@@ -2390,23 +2392,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T15:56:46.005Z",
+      "at": "2026-10-22T16:22:27.352Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T15:56:46.352Z",
+      "at": "2026-10-22T16:22:27.445Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T15:56:47.383Z",
+      "at": "2026-10-22T16:22:27.666Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T15:56:47.847Z",
-      "items": 5
+      "at": "2026-10-22T16:22:27.787Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2415,12 +2417,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T15:56:40.993Z",
+      "at": "2026-10-22T16:22:24.308Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T15:56:48.631Z",
+      "at": "2026-10-22T16:22:28.218Z",
       "items": 0
     },
     "hcg": {
@@ -2431,39 +2433,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T15:56:50.136Z",
+      "at": "2026-10-22T16:22:29.666Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T15:56:50.353Z",
+      "at": "2026-10-22T16:22:29.903Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T15:56:50.573Z",
+      "at": "2026-10-22T16:22:30.102Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T15:56:50.859Z",
-      "items": 5
+      "at": "2026-10-22T16:22:30.415Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T15:56:51.272Z",
+      "at": "2026-10-22T16:22:30.784Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T15:56:51.722Z",
-      "items": 11
+      "at": "2026-10-22T16:22:31.249Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-22",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "airbnb-checkout-cleaning-rules-2026",
@@ -2494,6 +2496,12 @@
         "title": "New Bill in Greece Aims to Shift Delivery Workers to Payroll Contracts",
         "at": "2026-10-22T17:25:56+03:00",
         "section": "living"
+      },
+      {
+        "slug": "fire-chania-rethymno-crete",
+        "title": "Wildfire breaks out at 1,100 meters on the Chania-Rethymno border in Crete",
+        "at": "2026-10-22T19:25:07+03:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2532,6 +2540,10 @@
       {
         "slug": "greater-athens-phenomenon-tourism-campaign",
         "at": "2026-10-22T12:46:45.273Z"
+      },
+      {
+        "slug": "fire-chania-rethymno-crete",
+        "at": "2026-10-22T16:25:11.216Z"
       }
     ],
     "fb": [
@@ -2550,6 +2562,10 @@
       {
         "slug": "greater-athens-phenomenon-tourism-campaign",
         "at": "2026-10-22T12:46:32.787Z"
+      },
+      {
+        "slug": "fire-chania-rethymno-crete",
+        "at": "2026-10-22T16:25:08.016Z"
       }
     ]
   },
@@ -2687,16 +2703,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T15:57:48.309Z",
-    "considered": 6,
+    "at": "2026-10-22T16:22:55.832Z",
+    "considered": 3,
     "picked": 1,
     "items": [
-      "· ingr | Ισχυρός σεισμός 7 Ρίχτερ έπληξε το Θιβέτ",
-      "✓ naftemporiki | Κόντρα Γεωργιάδη-Καζαμία: «Είμαι απολύτως υπέρ της σχέσης Ελλάδος-Ισραήλ» – Διέψευσε τα πε",
-      "· ingr | «Τρεις μέρες για να γονατίσει το Ιράν» – Τα σχέδια ΗΠΑ και Ισραήλ για νέο πόλεμο",
-      "· gn-iefimerida | Σεισμός 7 Ρίχτερ στο Θιβέτ, στη νοτιοδυτική Κίνα - iefimerida.gr",
-      "· gn-iefimerida | Όλγα Κεφαλογιάννη: Δυνατότητες ενίσχυσης των επενδυτικών σχέσεων Ελλάδας - ΗΑΕ στον Τουρισ",
-      "· gn-iefimerida | Αγροτικό πετρέλαιο: Φορολογική ελάφρυνση 50,84 λεπτών ανά λίτρο στην αντλία από την 1η Νοε"
+      "✓ ert | Πυρκαγιά στα 1100 μέτρα, στα σύνορα Χανίων – Ρεθύμνου",
+      "· naftemporiki | Ινδονησία: Μαθητές προσεύχονται για τη βροχή – «Γιατί να μην προσπαθήσουμε να αναζητήσουμε",
+      "· ert | Πυρκαγιά σε χορτολιβαδική έκταση, σε υψόμετρο 1100 μέτρων στα σύνορα Χανίων – Ρεθύμνου"
     ]
   },
   "evergreenDone": [
@@ -2739,5 +2752,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fire-chania-rethymno-crete",
+      "url": "https://yavanet.gr/a/fire-chania-rethymno-crete/",
+      "at": "2026-10-22T16:25:08.016Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fire-chania-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fire-chania-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שריפה בגובה 1,100 מטר באזור כרתים: כוחות כיבוי פועלים בשטח",
+        "title_en": "Wildfire breaks out at 1,100 meters on the Chania-Rethymno border in Crete",
+        "dek_he": "שריפת חורש פרצה באזור הררי בגובה 1,100 מטר בגבול המחוזות חאניה ורתימנו בכרתים. כוחות קרקעיים ואוויריים פועלים במקום.",
+        "dek_en": "A grass fire broke out at an altitude of about 1,100 meters on the border of Chania and Rethymno in Crete, with ground and aerial units responding.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/36623286/pexels-photo-36623286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שריפה בגובה 1,100 מטר באזור כרתים: כוחות כיבוי פועלים בשטח\n\nשריפת חורש פרצה באזור הררי בגובה 1,100 מטר בגבול המחוזות חאניה ורתימנו בכרתים. כוחות קרקעיים ואוויריים פועלים במקום.\n\nhttps://yavanet.gr/a/fire-chania-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Wildfire breaks out at 1,100 meters on the Chania-Rethymno border in Crete\n\nA grass fire broke out at an altitude of about 1,100 meters on the border of Chania and Rethymno in Crete, with ground and aerial units responding.\n\nhttps://yavanet.gr/en/a/fire-chania-rethymno-crete/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/fire-chania-rethymno-crete.jpg",
+          "caption": "שריפה בגובה 1,100 מטר באזור כרתים: כוחות כיבוי פועלים בשטח\n\nשריפת חורש פרצה באזור הררי בגובה 1,100 מטר בגבול המחוזות חאניה ורתימנו בכרתים. כוחות קרקעיים ואוויריים פועלים במקום.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט",
+          "story_url": "https://yavanet.gr/igc/fire-chania-rethymno-crete-story.jpg"
+        }
+      }
+    }
+  ]
 }
