@@ -2229,7 +2229,9 @@
     "d1d8dba992fb": 1792700175511,
     "70df86cd9182": 1792702560788,
     "1f75fe43c9e5": 1792702560788,
-    "50a5a2a34ece": 1792702560788
+    "50a5a2a34ece": 1792702560788,
+    "00ea84fee5a8": 1792703925972,
+    "0aa40c530e7d": 1792703925972
   },
   "pending": {},
   "sourceStatus": {
@@ -2241,12 +2243,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-22T20:55:39.306Z",
+      "at": "2026-10-22T21:18:27.577Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-22T20:55:40.121Z",
+      "at": "2026-10-22T21:18:28.179Z",
       "items": 3
     },
     "civilprotection": {
@@ -2257,27 +2259,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-22T20:55:41.808Z",
+      "at": "2026-10-22T21:18:29.635Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-22T20:55:42.068Z",
+      "at": "2026-10-22T21:18:30.029Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-22T20:55:43.140Z",
+      "at": "2026-10-22T21:18:31.756Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-22T20:55:43.945Z",
+      "at": "2026-10-22T21:18:32.400Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-22T20:55:44.506Z",
+      "at": "2026-10-22T21:18:32.734Z",
       "items": 10
     },
     "toi-greece": {
@@ -2288,23 +2290,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-22T20:55:44.779Z",
+      "at": "2026-10-22T21:18:33.168Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-22T20:55:45.098Z",
+      "at": "2026-10-22T21:18:33.254Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-22T20:55:45.369Z",
-      "items": 4
+      "at": "2026-10-22T21:18:33.541Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T20:55:45.590Z",
-      "items": 2
+      "at": "2026-10-22T21:18:33.687Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2313,12 +2315,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-22T20:55:40.847Z",
+      "at": "2026-10-22T21:18:28.752Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-22T20:55:46.315Z",
+      "at": "2026-10-22T21:18:34.392Z",
       "items": 0
     },
     "hcg": {
@@ -2329,165 +2331,56 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-22T20:55:47.770Z",
+      "at": "2026-10-22T21:18:35.690Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-22T20:55:47.978Z",
+      "at": "2026-10-22T21:18:35.868Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-22T20:55:48.187Z",
+      "at": "2026-10-22T21:18:36.085Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-22T20:55:48.417Z",
+      "at": "2026-10-22T21:18:36.370Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-22T20:55:48.731Z",
+      "at": "2026-10-22T21:18:36.870Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-22T20:55:49.126Z",
-      "items": 5
+      "at": "2026-10-22T21:18:37.277Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-22",
-    "count": 8,
-    "published": [
-      {
-        "slug": "airbnb-checkout-cleaning-rules-2026",
-        "title": "Airbnb updates checkout cleaning rules for hosts and guests",
-        "at": "2026-10-22T10:15:04+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "power-outage-historic-centre-thessaloniki",
-        "title": "Power Outage Hits Historic Centre of Thessaloniki",
-        "at": "2026-10-22T10:15:51+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-metro-omonia-flash-bang-investigation",
-        "title": "Athens: Investigation launched after riot police officer uses flash-bang in metro",
-        "at": "2026-10-22T14:19:35+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greater-athens-phenomenon-tourism-campaign",
-        "title": "New Tourism Campaign Highlights Greater Athens and Attica",
-        "at": "2026-10-22T15:10:58+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "delivery-workers-payrolls-greece-bill",
-        "title": "New Bill in Greece Aims to Shift Delivery Workers to Payroll Contracts",
-        "at": "2026-10-22T17:25:56+03:00",
-        "section": "living"
-      },
-      {
-        "slug": "fire-chania-rethymno-crete",
-        "title": "Wildfire breaks out at 1,100 meters on the Chania-Rethymno border in Crete",
-        "at": "2026-10-22T19:25:07+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "georgiadis-israel-relations-parliament",
-        "title": "Greece: Parliament debate over Israel relations",
-        "at": "2026-10-22T21:14:24+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "samos-tourism-growth-challenges-2027",
-        "title": "Samos Reports Tourism Record and Looks Ahead to 2027",
-        "at": "2026-10-22T22:23:22+03:00",
-        "section": "travel"
-      }
-    ],
+    "date": "2026-10-23",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Greece Raises Turkey-Libya Maritime Deal at UN Security Council",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-21T22:08:18.942Z"
-      },
-      {
-        "title": "Thessaloniki Suburban Rail and Port Link Projects Secure €85.5 Million",
-        "reason": "Ίδιο θέμα με «Thessaloniki: New Suburban Railway and Port Link»: Μεγάλη ομοιότητα με την πηγή (24%)",
-        "at": "2026-10-22T07:15:41.136Z"
-      },
-      {
-        "title": "Airbnb: Τέλος στο πλύσιμο πιάτων και στο στρώσιμο κρεβατιών – Τι αλλάζει από 20 Νοεμβρίου - Kathimerini",
-        "reason": "Ίδιο θέμα με «Airbnb updates checkout cleaning rules for hosts and guests» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T09:39:49.130Z"
-      },
-      {
-        "title": "Τέλος σε πλύσιμο πιάτων, μάζεμα σκουπιδιών, καθάρισμα στα Airbnb πριν το check-out -Μπαίνει επίσημα τέλος στις αγγαρείες, οι νέοι κανόνες - ",
-        "reason": "Ίδιο θέμα με «Airbnb updates checkout cleaning rules for hosts and guests» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T11:11:52.127Z"
-      },
-      {
-        "title": "Διεθνείς αντιδράσεις για το τουρκολιβυκό μνημόνιο – Δεν μεταβάλλεται ο παράνομος, και ανυπόστατος χαρακτήρας του, λέει η Αθήνα",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T13:34:58.320Z"
-      },
-      {
-        "title": "Αλλάζουν οι κανόνες της Airbnb – Οι επισκέπτες δεν χρειάζεται να πλένουν τα πιάτα",
-        "reason": "Ίδιο θέμα με «Airbnb updates checkout cleaning rules for hosts and guests» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T17:52:09.424Z"
-      },
-      {
-        "title": "Βουλή: Σύγκρουση Κωνσταντοπούλου – Χρηστίδη για τη «μυστική συνάντηση» και Ισραήλ",
+        "title": "Κόντρα Γεωργιάδη-Καζαμία για την Αθηναϊκή Λέσχη και το Ισραήλ -«Αίσχος» το «όχι» της αντιπολίτευσης στον «κόφτη» για τα social media - iefim",
         "reason": "Ίδιο θέμα με «Greece: Parliament debate over Israel relations» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T18:49:16.088Z"
+        "at": "2026-10-22T21:18:54.228Z"
       }
     ],
     "errors": [],
-    "ig": [
-      {
-        "slug": "power-outage-historic-centre-thessaloniki",
-        "at": "2026-10-22T08:25:08.595Z"
-      },
-      {
-        "slug": "greater-athens-phenomenon-tourism-campaign",
-        "at": "2026-10-22T12:46:45.273Z"
-      },
-      {
-        "slug": "fire-chania-rethymno-crete",
-        "at": "2026-10-22T16:25:11.216Z"
-      }
-    ],
-    "fb": [
-      {
-        "slug": "airbnb-checkout-cleaning-rules-2026",
-        "at": "2026-10-22T07:15:05.181Z"
-      },
-      {
-        "slug": "power-outage-historic-centre-thessaloniki",
-        "at": "2026-10-22T08:25:01.586Z"
-      },
-      {
-        "slug": "athens-metro-omonia-flash-bang-investigation",
-        "at": "2026-10-22T11:19:36.296Z"
-      },
-      {
-        "slug": "greater-athens-phenomenon-tourism-campaign",
-        "at": "2026-10-22T12:46:32.787Z"
-      },
-      {
-        "slug": "fire-chania-rethymno-crete",
-        "at": "2026-10-22T16:25:08.016Z"
-      }
-    ]
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-22",
+      "count": 8,
+      "rejected": 7
+    },
     {
       "date": "2026-10-21",
       "count": 3,
@@ -2621,13 +2514,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-22T20:56:00.788Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-22T21:18:45.972Z",
+    "considered": 2,
+    "picked": 1,
     "items": [
-      "· ingr | Συνεχίζονται οι ισραηλινές επιθέσεις στη Γάζα: Τουλάχιστον 4 νεκροί σε ξεχωριστά περιστατι",
-      "· gct | Evzones Arrive in Sydney for OXI Day Celebrations and Canberra Visit",
-      "· gn-iefimerida | Αλλάζει ο καιρός: Έρχεται οργανωμένη κακοκαιρία, πού θα βρέξει - Η πρόγνωση Μαρουσάκη - ie"
+      "· naftemporiki | Θιβέτ: 16 νεκροί και 32 τραυματίες από τον σεισμό των 7 ρίχτερ",
+      "✓ gn-iefimerida | Κόντρα Γεωργιάδη-Καζαμία για την Αθηναϊκή Λέσχη και το Ισραήλ -«Αίσχος» το «όχι» της αντιπ"
     ]
   },
   "evergreenDone": [
