@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "14c6ba4404ef": 1791559578834,
     "b1bcc946f58e": 1791560479678,
     "55ad4bafb736": 1791560479678,
     "dec98c68169a": 1791560479678,
@@ -2236,7 +2235,13 @@
     "e610c84c26fe": 1792766435759,
     "0508ac5bd8b6": 1792766435759,
     "6fe53e826b03": 1792766435759,
-    "d0980ee8f015": 1792766435759
+    "d0980ee8f015": 1792766435759,
+    "ac2e41b8b26d": 1792769904313,
+    "425d63911895": 1792769904313,
+    "d84b78e194f5": 1792769904313,
+    "a2c725bdb4d6": 1792769904313,
+    "9b441216dcc2": 1792769904313,
+    "2049a0ad4512": 1792769904313
   },
   "pending": {},
   "sourceStatus": {
@@ -2248,12 +2253,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T14:43:27.883Z",
-      "items": 0
+      "at": "2026-10-23T15:37:58.057Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T14:43:28.466Z",
+      "at": "2026-10-23T15:37:58.907Z",
       "items": 4
     },
     "civilprotection": {
@@ -2264,27 +2269,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T14:43:29.827Z",
+      "at": "2026-10-23T15:38:01.038Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T14:43:30.015Z",
+      "at": "2026-10-23T15:38:01.458Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T14:43:30.644Z",
+      "at": "2026-10-23T15:38:02.492Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T14:43:31.276Z",
+      "at": "2026-10-23T15:38:03.559Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T14:43:31.914Z",
+      "at": "2026-10-23T15:38:04.412Z",
       "items": 10
     },
     "toi-greece": {
@@ -2295,23 +2300,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T14:43:32.339Z",
+      "at": "2026-10-23T15:38:05.039Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T14:43:32.424Z",
+      "at": "2026-10-23T15:38:05.178Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T14:43:32.591Z",
-      "items": 5
+      "at": "2026-10-23T15:38:05.928Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T14:43:32.713Z",
-      "items": 6
+      "at": "2026-10-23T15:38:06.186Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2320,12 +2325,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T14:43:28.646Z",
+      "at": "2026-10-23T15:37:59.882Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T14:43:33.136Z",
+      "at": "2026-10-23T15:38:06.859Z",
       "items": 0
     },
     "hcg": {
@@ -2336,33 +2341,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T14:43:34.469Z",
+      "at": "2026-10-23T15:38:08.778Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T14:43:34.662Z",
+      "at": "2026-10-23T15:38:08.990Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T14:43:34.943Z",
-      "items": 5
+      "at": "2026-10-23T15:38:09.158Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T14:43:35.228Z",
+      "at": "2026-10-23T15:38:09.355Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T14:43:35.623Z",
-      "items": 7
+      "at": "2026-10-23T15:38:09.705Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T14:43:36.101Z",
-      "items": 5
+      "at": "2026-10-23T15:38:10.168Z",
+      "items": 4
     }
   },
   "tgOffset": 829774786,
@@ -2443,6 +2448,16 @@
         "title": "Greece Challenges Turkish-Libyan Memorandum at UN",
         "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
         "at": "2026-10-23T09:24:14.099Z"
+      },
+      {
+        "title": "Pizza Fan Scandal: Illegal Software, Criminal Hierarchy, and a Vault of Cash and Gold Watches",
+        "reason": "Ίδιο θέμα με «New Bill in Greece Aims to Shift Delivery Workers to Payroll Contracts» – δεν γράφτηκε ξανά",
+        "at": "2026-10-23T15:38:26.854Z"
+      },
+      {
+        "title": "Turkish Press: Libyan Ratification of Maritime MoU Undermines Greece’s Eastern Mediterranean Strategy",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-23T15:38:36.689Z"
       }
     ],
     "errors": [],
@@ -2618,15 +2633,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T14:40:35.759Z",
-    "considered": 5,
-    "picked": 0,
+    "at": "2026-10-23T15:38:24.313Z",
+    "considered": 6,
+    "picked": 2,
     "items": [
-      "· gtp | Greece, UAE See €12 Billion Potential in New Economic Agreements",
-      "· naftemporiki | Υπόθεση Pizza Fan: Στο φως το παράνομο λογισμικό, η ιεραρχία, οι ρόλοι και η κρύπτη με τα ",
-      "· naftemporiki | Νετανιάχου μετά την επίθεση στη Δυτική Όχθη: Ερευνα από σπίτι σε σπίτι, κατεδαφίσεις κατοι",
-      "· ingr | Pizza Fan: Πώς λειτουργούσε το κύκλωμα της απάτης – Βρέθηκαν 1,28 εκατ. ευρώ σε μετρητά – ",
-      "· gct | Salamis Shipyards Hosts Top Indian Defence Delegation to Advance Shipbuilding Ties"
+      "✓ gct | Pizza Fan Scandal: Illegal Software, Criminal Hierarchy, and a Vault of Cash and Gold Watc",
+      "· ingr | Γαλάζιο σκάνδαλο α λα ΟΠΕΚΕΠΕ στην αλιεία – Στους ευνοημένους και ο βουλευτής της ΝΔ Σπύρο",
+      "✓ gct | Turkish Press: Libyan Ratification of Maritime MoU Undermines Greece’s Eastern Mediterrane",
+      "· gct | Turkey forms new defense cooperation with Qatar, Pakistan and Indonesia",
+      "· gct | EPP Group Demands Faster EU Response to China’s Unfair Trade Practices Amid €360 Billion D",
+      "· ert | Διασφάλιση των δικαιωμάτων τους διεκδικούν οι εργαζόμενοι στην αλυσίδα εστίασης που απέκρυ"
     ]
   },
   "evergreenDone": [
