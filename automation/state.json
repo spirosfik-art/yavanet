@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "9898afd74a19": 1791578354123,
-    "1d8631a4caa6": 1791578354123,
-    "e53b526d1d1c": 1791579233682,
-    "3936da125c66": 1791579233682,
     "1b849123090b": 1791582791240,
     "033ffc8300a8": 1791582791240,
     "bc4d9474882d": 1791583370236,
@@ -2234,7 +2230,12 @@
     "005e8d12a90e": 1792785871303,
     "5f78b3a53518": 1792787848772,
     "1baaaa6ae119": 1792787848772,
-    "a95fd180d10b": 1792787848772
+    "a95fd180d10b": 1792787848772,
+    "ab19028773dc": 1792789672594,
+    "619f4a124a13": 1792789672594,
+    "31348593306e": 1792789672594,
+    "ecaa87a28e03": 1792789672594,
+    "99f7791a4995": 1792789672594
   },
   "pending": {},
   "sourceStatus": {
@@ -2246,12 +2247,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T20:37:18.711Z",
+      "at": "2026-10-23T21:07:41.090Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T20:37:19.315Z",
+      "at": "2026-10-23T21:07:41.819Z",
       "items": 4
     },
     "civilprotection": {
@@ -2262,27 +2263,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T20:37:20.694Z",
+      "at": "2026-10-23T21:07:44.063Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T20:37:20.997Z",
+      "at": "2026-10-23T21:07:44.256Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T20:37:21.868Z",
+      "at": "2026-10-23T21:07:45.511Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T20:37:22.399Z",
+      "at": "2026-10-23T21:07:46.196Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T20:37:23.212Z",
+      "at": "2026-10-23T21:07:47.122Z",
       "items": 10
     },
     "toi-greece": {
@@ -2293,23 +2294,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T20:37:23.654Z",
+      "at": "2026-10-23T21:07:47.430Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T20:37:23.758Z",
+      "at": "2026-10-23T21:07:47.846Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T20:37:23.966Z",
-      "items": 4
+      "at": "2026-10-23T21:07:48.237Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T20:37:24.124Z",
-      "items": 2
+      "at": "2026-10-23T21:07:48.537Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2318,12 +2319,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T20:37:19.886Z",
+      "at": "2026-10-23T21:07:42.704Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T20:37:24.589Z",
+      "at": "2026-10-23T21:07:49.174Z",
       "items": 0
     },
     "hcg": {
@@ -2334,183 +2335,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T20:37:26.308Z",
+      "at": "2026-10-23T21:07:50.486Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T20:37:26.500Z",
+      "at": "2026-10-23T21:07:50.733Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T20:37:26.797Z",
+      "at": "2026-10-23T21:07:50.927Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T20:37:27.102Z",
+      "at": "2026-10-23T21:07:51.133Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T20:37:27.455Z",
+      "at": "2026-10-23T21:07:51.502Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T20:37:27.891Z",
-      "items": 6
+      "at": "2026-10-23T21:07:51.921Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-23",
-    "count": 9,
-    "published": [
-      {
-        "slug": "greece-uae-economic-cooperation-12-billion",
-        "title": "Greece and UAE Target €12 Billion in New Economic Growth",
-        "at": "2026-10-23T01:53:27+03:00",
-        "section": "politics"
-      },
-      {
-        "slug": "hydra-named-best-island-europe-2026",
-        "title": "Hydra Voted Europe's Best Island in 2026",
-        "at": "2026-10-23T06:58:31+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-winter-time-october-2026-2",
-        "title": "Greece Winter Time: When Clocks Go Back This October",
-        "at": "2026-10-23T07:23:02+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-rent-crisis-average-salary",
-        "title": "Athens Housing Crisis: Average Monthly Salary No Longer Covers Rent",
-        "at": "2026-10-23T08:39:07+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "booking-com-eu-investigation-fraud-scams",
-        "title": "EU Launches Investigation Into Booking.com Over Scams and Fake Listings",
-        "at": "2026-10-23T08:55:43+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-tourism-28-million-travelers-2026",
-        "title": "Greece Welcomes 28.5 Million Travelers in First Eight Months of 2026",
-        "at": "2026-10-23T08:56:06+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-airport-flight-disruptions-fog",
-        "title": "Athens Airport Flight Disruptions Due to Heavy Fog",
-        "at": "2026-10-23T13:55:04+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "ren-olympiakos-match-date-change-france-strike",
-        "title": "Olympiakos match in France: Ren match date may change due to strike",
-        "at": "2026-10-23T19:28:39+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fuel-prices-fluctuate-greece",
-        "title": "Fuel Prices in Greece Fall This Week, But Increases Loom",
-        "at": "2026-10-23T20:03:39+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "Severe Weather in Greece: Heavy Storms and Temperature Drop Starting Sunday",
-        "at": "2026-10-23T22:42:36+03:00",
-        "section": "breaking"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Κόντρα Γεωργιάδη-Καζαμία για την Αθηναϊκή Λέσχη και το Ισραήλ -«Αίσχος» το «όχι» της αντιπολίτευσης στον «κόφτη» για τα social media - iefim",
-        "reason": "Ίδιο θέμα με «Greece: Parliament debate over Israel relations» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T21:18:54.228Z"
-      },
-      {
-        "title": "Greece and Egypt Explore Maritime Extension Towards Cyprus",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T21:54:54.985Z"
-      },
-      {
-        "title": "Βίντεο-ντοκουμέντο δευτερόλεπτα μετά την έκρηξη στην πολυκατοικία στον Κολωνό -Τα αναπάντητα ερωτήματα, ο ένοικος που βρέθηκε στο μικροσκόπι",
-        "reason": "Ίδιο θέμα με «Athens: Four injured in an explosion in Kolonos» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T22:16:09.909Z"
-      },
-      {
-        "title": "US Calls for Greece-Turkey Talks After Libya Backs Maritime Deal",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-22T22:53:12.445Z"
-      },
-      {
-        "title": "UAE Announces €15 Billion Investment Plan in Greece",
-        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (23%)",
-        "at": "2026-10-23T00:00:28.253Z"
-      },
-      {
-        "title": "Greece Challenges Turkish-Libyan Memorandum at UN",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-23T09:24:14.099Z"
-      },
-      {
-        "title": "Pizza Fan Scandal: Illegal Software, Criminal Hierarchy, and a Vault of Cash and Gold Watches",
-        "reason": "Ίδιο θέμα με «New Bill in Greece Aims to Shift Delivery Workers to Payroll Contracts» – δεν γράφτηκε ξανά",
-        "at": "2026-10-23T15:38:26.854Z"
-      },
-      {
-        "title": "Turkish Press: Libyan Ratification of Maritime MoU Undermines Greece’s Eastern Mediterranean Strategy",
-        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
-        "at": "2026-10-23T15:38:36.689Z"
-      },
-      {
-        "title": "Βολές του Πολεμικού Ναυτικού με τους νέους πυραύλους Spike Nlos",
-        "reason": "Ίδιο θέμα με «Greece: Parliament debate over Israel relations» – δεν γράφτηκε ξανά",
-        "at": "2026-10-23T16:28:48.480Z"
-      }
-    ],
+    "date": "2026-10-24",
+    "count": 0,
+    "published": [],
+    "rejected": [],
     "errors": [],
-    "ig": [
-      {
-        "slug": "greece-tourism-28-million-travelers-2026",
-        "at": "2026-10-23T06:18:31.151Z"
-      },
-      {
-        "slug": "booking-com-eu-investigation-fraud-scams",
-        "at": "2026-10-23T09:24:25.163Z"
-      },
-      {
-        "slug": "athens-airport-flight-disruptions-fog",
-        "at": "2026-10-23T12:52:42.941Z"
-      }
-    ],
-    "fb": [
-      {
-        "slug": "greece-winter-time-october-2026-2",
-        "at": "2026-10-23T04:23:03.437Z"
-      },
-      {
-        "slug": "greece-tourism-28-million-travelers-2026",
-        "at": "2026-10-23T06:18:19.533Z"
-      },
-      {
-        "slug": "booking-com-eu-investigation-fraud-scams",
-        "at": "2026-10-23T09:24:14.140Z"
-      },
-      {
-        "slug": "athens-airport-flight-disruptions-fog",
-        "at": "2026-10-23T12:52:39.681Z"
-      }
-    ]
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-23",
+      "count": 9,
+      "rejected": 9
+    },
     {
       "date": "2026-10-22",
       "count": 8,
@@ -2649,13 +2517,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T20:37:28.772Z",
-    "considered": 3,
+    "at": "2026-10-23T21:07:52.594Z",
+    "considered": 5,
     "picked": 0,
     "items": [
-      "· gct | Mitsotakis Meets Archbishop Makarios as Diaspora Voting Changes",
-      "· gct | Jordan Church Attack: Jerusalem Patriarchate Vows Christians Will Stay",
-      "· ert | Συρία: Εκατοντάδες άνθρωποι διαδηλώνουν κατά των ισραηλινών εισβολών"
+      "· gct | HBBU Christmas Glendi to Bring Bouzouki and Mezedes to Dedham",
+      "· gct | Former Newington College Teacher Faces Nine Sex Charges",
+      "· ingr | Ισραήλ: Παράκαμψη των διεθνών κυρώσεων μέσω εναλλακτικής οικονομίας σκέφτεται ο Νετανιάχου",
+      "· gct | Trump Dismisses Envoy Tom Barrack’s Claim of Possible US Strike on Iran This Weekend",
+      "· gn-iefimerida | Αδιανόητο περιστατικό σε πτήση προς Βοστώνη: 48χρονος παρενοχλούσε ανήλικη ενώ ήταν με τα "
     ]
   },
   "evergreenDone": [
