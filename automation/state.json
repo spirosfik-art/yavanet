@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "1b849123090b": 1791582791240,
-    "033ffc8300a8": 1791582791240,
-    "bc4d9474882d": 1791583370236,
     "dfeaecdf6cd8": 1791584728541,
     "c8e39cb9679f": 1791584728541,
     "58cbc8b8190f": 1791584728541,
@@ -2239,7 +2236,8 @@
     "ddcb2786157e": 1792791379781,
     "88f704923966": 1792791379781,
     "30f21ca11af7": 1792791379781,
-    "bec38704eb74": 1792791379781
+    "bec38704eb74": 1792791379781,
+    "dd6241338877": 1792793241288
   },
   "pending": {},
   "sourceStatus": {
@@ -2251,12 +2249,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T21:36:11.211Z",
+      "at": "2026-10-23T22:07:08.848Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T21:36:11.713Z",
+      "at": "2026-10-23T22:07:09.602Z",
       "items": 4
     },
     "civilprotection": {
@@ -2267,27 +2265,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T21:36:13.066Z",
+      "at": "2026-10-23T22:07:12.091Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T21:36:13.369Z",
+      "at": "2026-10-23T22:07:12.461Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T21:36:14.113Z",
+      "at": "2026-10-23T22:07:13.236Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T21:36:14.662Z",
-      "items": 4
+      "at": "2026-10-23T22:07:14.163Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T21:36:15.349Z",
+      "at": "2026-10-23T22:07:15.082Z",
       "items": 10
     },
     "toi-greece": {
@@ -2298,22 +2296,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T21:36:15.731Z",
+      "at": "2026-10-23T22:07:15.628Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T21:36:15.832Z",
+      "at": "2026-10-23T22:07:15.787Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T21:36:15.897Z",
+      "at": "2026-10-23T22:07:16.759Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T21:36:16.011Z",
+      "at": "2026-10-23T22:07:17.176Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2323,12 +2321,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T21:36:12.180Z",
+      "at": "2026-10-23T22:07:10.107Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T21:36:16.431Z",
+      "at": "2026-10-23T22:07:17.774Z",
       "items": 0
     },
     "hcg": {
@@ -2339,33 +2337,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T21:36:17.720Z",
+      "at": "2026-10-23T22:07:19.154Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T21:36:17.908Z",
+      "at": "2026-10-23T22:07:19.400Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T21:36:18.104Z",
+      "at": "2026-10-23T22:07:19.572Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T21:36:18.327Z",
+      "at": "2026-10-23T22:07:19.794Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T21:36:18.758Z",
+      "at": "2026-10-23T22:07:20.168Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T21:36:19.105Z",
-      "items": 3
+      "at": "2026-10-23T22:07:20.596Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2521,14 +2519,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T21:36:19.781Z",
-    "considered": 4,
+    "at": "2026-10-23T22:07:21.288Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· gct | S&P Keeps Greece at BBB as Debt Falls and Growth Holds",
-      "· gct | Oakleigh Grammar Farewell Honours Class of 2026 With Doxology and Sash Tradition",
-      "· gct | The Unknown Soldier: A Tomb Without a Body",
-      "· gct | George Calombaris Joins Chefs at Inaugural Gold Coast Greek Festival"
+      "· gct | Mitsotakis Condemns Terrorist Attack on Greek Orthodox Church in Jordan"
     ]
   },
   "evergreenDone": [
