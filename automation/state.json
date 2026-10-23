@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "b93b02a739b3": 1791549033022,
-    "c47c7b95436b": 1791549033022,
-    "2fa845b8e239": 1791549033022,
-    "1e60fce7d9a5": 1791549033022,
-    "00b347ce2525": 1791549033022,
-    "bbf31d9bfd5a": 1791549033022,
     "22eb3c675124": 1791550736124,
     "5f7b8d60e890": 1791550736124,
     "5cf35a6638db": 1791550736124,
@@ -2238,7 +2232,15 @@
     "78f573374d30": 1792757719061,
     "23ac63991c7d": 1792757719061,
     "fcef9f107aa9": 1792757719061,
-    "4fae0293e25c": 1792757719061
+    "4fae0293e25c": 1792757719061,
+    "dd302c4754c6": 1792759959625,
+    "9e0cbabcda6e": 1792759959625,
+    "3e6fce019304": 1792759959625,
+    "ecf02dd83fd6": 1792759959625,
+    "898916c53cdb": 1792759959625,
+    "755c6070706f": 1792759959625,
+    "08e6742db772": 1792759959625,
+    "01ec568ad306": 1792759959625
   },
   "pending": {},
   "sourceStatus": {
@@ -2250,12 +2252,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T12:15:07.063Z",
-      "items": 10
+      "at": "2026-10-23T12:52:24.049Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T12:15:07.846Z",
+      "at": "2026-10-23T12:52:24.552Z",
       "items": 4
     },
     "civilprotection": {
@@ -2266,27 +2268,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T12:15:10.171Z",
+      "at": "2026-10-23T12:52:25.743Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T12:15:10.361Z",
+      "at": "2026-10-23T12:52:25.899Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T12:15:11.084Z",
+      "at": "2026-10-23T12:52:26.539Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T12:15:11.784Z",
-      "items": 4
+      "at": "2026-10-23T12:52:27.081Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T12:15:12.630Z",
+      "at": "2026-10-23T12:52:27.769Z",
       "items": 10
     },
     "toi-greece": {
@@ -2297,23 +2299,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T12:15:13.134Z",
+      "at": "2026-10-23T12:52:28.179Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T12:15:13.464Z",
+      "at": "2026-10-23T12:52:29.544Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T12:15:14.208Z",
-      "items": 6
+      "at": "2026-10-23T12:52:29.732Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T12:15:14.381Z",
-      "items": 3
+      "at": "2026-10-23T12:52:29.860Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2322,12 +2324,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T12:15:08.385Z",
+      "at": "2026-10-23T12:52:24.743Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T12:15:14.991Z",
+      "at": "2026-10-23T12:52:30.306Z",
       "items": 0
     },
     "hcg": {
@@ -2338,32 +2340,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T12:15:16.654Z",
+      "at": "2026-10-23T12:52:32.179Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T12:15:16.900Z",
+      "at": "2026-10-23T12:52:32.356Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T12:15:17.131Z",
-      "items": 4
+      "at": "2026-10-23T12:52:32.521Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T12:15:17.372Z",
-      "items": 7
+      "at": "2026-10-23T12:52:32.767Z",
+      "items": 9
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T12:15:17.757Z",
-      "items": 5
+      "at": "2026-10-23T12:52:33.127Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T12:15:18.242Z",
+      "at": "2026-10-23T12:52:33.607Z",
       "items": 6
     }
   },
@@ -2456,6 +2458,10 @@
       {
         "slug": "booking-com-eu-investigation-fraud-scams",
         "at": "2026-10-23T09:24:25.163Z"
+      },
+      {
+        "slug": "athens-airport-flight-disruptions-fog",
+        "at": "2026-10-23T12:52:42.941Z"
       }
     ],
     "fb": [
@@ -2470,6 +2476,10 @@
       {
         "slug": "booking-com-eu-investigation-fraud-scams",
         "at": "2026-10-23T09:24:14.140Z"
+      },
+      {
+        "slug": "athens-airport-flight-disruptions-fog",
+        "at": "2026-10-23T12:52:39.681Z"
       }
     ]
   },
@@ -2612,17 +2622,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T12:15:19.061Z",
-    "considered": 7,
+    "at": "2026-10-23T12:52:39.625Z",
+    "considered": 8,
     "picked": 0,
     "items": [
-      "· gn-hcg | Αίτηση χορήγησης εξαίρεσης για τη χρήση του ερευνητικού πλοίου “URBANO MONTI” (IMO 9344215",
-      "· ert | «Έσκισαν» τον ουρανό της Θεσσαλονίκης μαχητικά αεροσκάφη: Δοκιμαστικές πτήσεις για την 28η",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση της Περιφερε",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για την στέγαση του Αστυνομ",
-      "· ktg | Greece briefs UN about Invalidity of Turkish-Libyan Memorandum",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση του Αστυνομι",
-      "· minfin | ΔΗΜΟΠΡΑΣΙΑ ΕΝΤΟΚΩΝ ΓΡΑΜΜΑΤΙΩΝ 13 ΕΒΔΟΜΑΔΩΝ"
+      "· gct | Sinai Monastery Deal Nears Breakthrough with Egypt",
+      "· naftemporiki | Ιταλία: Σειρά σεισμικών δονήσεων καταγράφηκε στ’ ανοικτά του Παλέρμο της Σικελίας (Βίντεο)",
+      "· naftemporiki | Πρώτη δοκιμή των SPIKE NLOS για το Πολεμικό Ναυτικό σε επιχειρησιακή συνεκπαίδευση με το Ι",
+      "· gn-pm | Συνάντηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον Αρχιεπίσκοπο Αυστραλίας κ.κ. Μακάριο ",
+      "· gtp | Andronis Group’s Lycabettus and Lauda Restaurants Earn Michelin Stars on Santorini",
+      "· gct | Greece’s New Frigate Kimon Opens to Public in Thessaloniki",
+      "· ert | Φωτιά σε εν κινήσει όχημα στην είσοδο του Άργους Ορεστικού – Άμεση κινητοποίηση της Πυροσβ",
+      "· gn-kathimerini | Εκκρεμότητες που μπλοκάρουν τη φορολογική ενημερότητα - Kathimerini"
     ]
   },
   "evergreenDone": [
@@ -2665,5 +2676,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-airport-flight-disruptions-fog",
+      "url": "https://yavanet.gr/a/athens-airport-flight-disruptions-fog/",
+      "at": "2026-10-23T12:52:39.681Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-airport-flight-disruptions-fog/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-airport-flight-disruptions-fog/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שיבושים בטיסות באתונה: ערפל כבד משפיע על נמל התעופה הבינלאומי",
+        "title_en": "Athens Airport Flight Disruptions Due to Heavy Fog",
+        "dek_he": "תנאי מזג אוויר קשים בנמל התעופה באתונה יוצרים עיכובים בלוח הטיסות. נוסעים מתבקשים להתעדכן מול חברות התעופה.",
+        "dek_en": "Heavy fog at Athens airport creates scheduling difficulties and flight delays. Passengers are advised to check directly with their airlines.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/29170959/pexels-photo-29170959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שיבושים בטיסות באתונה: ערפל כבד משפיע על נמל התעופה הבינלאומי\n\nתנאי מזג אוויר קשים בנמל התעופה באתונה יוצרים עיכובים בלוח הטיסות. נוסעים מתבקשים להתעדכן מול חברות התעופה.\n\nhttps://yavanet.gr/a/athens-airport-flight-disruptions-fog/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens Airport Flight Disruptions Due to Heavy Fog\n\nHeavy fog at Athens airport creates scheduling difficulties and flight delays. Passengers are advised to check directly with their airlines.\n\nhttps://yavanet.gr/en/a/athens-airport-flight-disruptions-fog/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/athens-airport-flight-disruptions-fog.jpg",
+          "caption": "שיבושים בטיסות באתונה: ערפל כבד משפיע על נמל התעופה הבינלאומי\n\nתנאי מזג אוויר קשים בנמל התעופה באתונה יוצרים עיכובים בלוח הטיסות. נוסעים מתבקשים להתעדכן מול חברות התעופה.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט",
+          "story_url": "https://yavanet.gr/igc/athens-airport-flight-disruptions-fog-story.jpg"
+        }
+      }
+    }
+  ]
 }
