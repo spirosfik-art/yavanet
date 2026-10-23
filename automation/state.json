@@ -2235,7 +2235,14 @@
     "bed3dcf1791d": 1792745920274,
     "5ebb7d173c98": 1792745920274,
     "4dc828e23625": 1792745920274,
-    "2117b272e5c6": 1792745920274
+    "2117b272e5c6": 1792745920274,
+    "c9f700c89aaf": 1792747449666,
+    "79a5fd9b375c": 1792747449666,
+    "25d3a58c2c15": 1792747449666,
+    "d71d89d1aae0": 1792747449666,
+    "781162d0bdb0": 1792747449666,
+    "0f21d1b74e60": 1792747449666,
+    "4cfb244b4dd3": 1792747449666
   },
   "pending": {},
   "sourceStatus": {
@@ -2247,13 +2254,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T08:58:28.421Z",
+      "at": "2026-10-23T09:23:56.859Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T08:58:29.065Z",
-      "items": 3
+      "at": "2026-10-23T09:23:57.657Z",
+      "items": 4
     },
     "civilprotection": {
       "ok": false,
@@ -2263,27 +2270,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T08:58:31.192Z",
+      "at": "2026-10-23T09:24:00.038Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T08:58:31.420Z",
+      "at": "2026-10-23T09:24:00.584Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T08:58:32.157Z",
+      "at": "2026-10-23T09:24:01.656Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T08:58:32.827Z",
+      "at": "2026-10-23T09:24:02.460Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T08:58:33.722Z",
+      "at": "2026-10-23T09:24:02.993Z",
       "items": 10
     },
     "toi-greece": {
@@ -2294,22 +2301,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T08:58:34.212Z",
+      "at": "2026-10-23T09:24:03.583Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T08:58:34.531Z",
+      "at": "2026-10-23T09:24:03.806Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T08:58:35.288Z",
+      "at": "2026-10-23T09:24:04.036Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T08:58:35.714Z",
+      "at": "2026-10-23T09:24:04.528Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2319,12 +2326,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T08:58:29.799Z",
+      "at": "2026-10-23T09:23:58.414Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T08:58:36.312Z",
+      "at": "2026-10-23T09:24:05.213Z",
       "items": 0
     },
     "hcg": {
@@ -2335,32 +2342,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T08:58:37.758Z",
+      "at": "2026-10-23T09:24:06.695Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T08:58:37.986Z",
+      "at": "2026-10-23T09:24:07.223Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T08:58:38.343Z",
+      "at": "2026-10-23T09:24:07.509Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T08:58:38.573Z",
-      "items": 9
+      "at": "2026-10-23T09:24:07.817Z",
+      "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T08:58:38.955Z",
+      "at": "2026-10-23T09:24:08.260Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T08:58:39.323Z",
+      "at": "2026-10-23T09:24:08.717Z",
       "items": 6
     }
   },
@@ -2431,6 +2438,11 @@
         "title": "UAE Announces €15 Billion Investment Plan in Greece",
         "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (23%)",
         "at": "2026-10-23T00:00:28.253Z"
+      },
+      {
+        "title": "Greece Challenges Turkish-Libyan Memorandum at UN",
+        "reason": "Ίδιο θέμα με «Libyan Parliament Approves Turkey Maritime Deal Amid Greek Rejection» – δεν γράφτηκε ξανά",
+        "at": "2026-10-23T09:24:14.099Z"
       }
     ],
     "errors": [],
@@ -2438,6 +2450,10 @@
       {
         "slug": "greece-tourism-28-million-travelers-2026",
         "at": "2026-10-23T06:18:31.151Z"
+      },
+      {
+        "slug": "booking-com-eu-investigation-fraud-scams",
+        "at": "2026-10-23T09:24:25.163Z"
       }
     ],
     "fb": [
@@ -2448,6 +2464,10 @@
       {
         "slug": "greece-tourism-28-million-travelers-2026",
         "at": "2026-10-23T06:18:19.533Z"
+      },
+      {
+        "slug": "booking-com-eu-investigation-fraud-scams",
+        "at": "2026-10-23T09:24:14.140Z"
       }
     ]
   },
@@ -2590,14 +2610,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T08:58:40.274Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-23T09:24:09.666Z",
+    "considered": 7,
+    "picked": 1,
     "items": [
-      "· ingr | Δυτική Όχθη: Ο Νετανιάχου ζήτησε τον «πλήρη αποκλεισμό» της μετά την επίθεση που σημειώθηκ",
-      "· ert | Σάμος: Στόχος η ανάκαμψη της γερμανικής αγοράς με ενίσχυση των αεροπορικών συνδέσεων",
-      "· ert | Tο μεσημέρι οι δοκιμαστικές διελεύσεις των αεροσκαφών πάνω από τη Θεσσαλονίκη – Τη Δευτέρα",
-      "· naftemporiki | Κίνα: Ο ποδηλατικός τουρισμός στο επίκεντρο της στρατηγικής"
+      "· naftemporiki | Το Ισραήλ που η Δύση δεν καταλαβαίνει: Ποιοι ψηφοφόροι κρατούν το κλειδί της εξουσίας",
+      "✓ gct | Greece Challenges Turkish-Libyan Memorandum at UN",
+      "· naftemporiki | Δυτική Όχθη: Προετοιμασίες Ισραήλ για «πλήρη αποκλεισμό» – Σε εξέλιξη «επιχειρήσεις αντιτρ",
+      "· migration | 30.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 29.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 27.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 26.10.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο"
     ]
   },
   "evergreenDone": [
@@ -2640,5 +2663,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "booking-com-eu-investigation-fraud-scams",
+      "url": "https://yavanet.gr/a/booking-com-eu-investigation-fraud-scams/",
+      "at": "2026-10-23T09:24:14.140Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/booking-com-eu-investigation-fraud-scams/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/booking-com-eu-investigation-fraud-scams/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "האיחוד האירופי חוקר את בוקינג: חשש להונאות ולמלונות פיקטיביים",
+        "title_en": "EU Launches Investigation Into Booking.com Over Scams and Fake Listings",
+        "dek_he": "הנציבות האירופית פתחה בחקירה רשמית נגד ענקית ההזמנות בוקינג.קום, בטענה שאינה עושה די כדי להגן על הצרכנים מפני הונאות לינה והודעות תשלום חשודות.",
+        "dek_en": "The European Commission has launched a formal investigation into Booking.com to examine whether the platform does enough to protect users from fake listings and phishing scams.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/3949098/pexels-photo-3949098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "האיחוד האירופי חוקר את בוקינג: חשש להונאות ולמלונות פיקטיביים\n\nהנציבות האירופית פתחה בחקירה רשמית נגד ענקית ההזמנות בוקינג.קום, בטענה שאינה עושה די כדי להגן על הצרכנים מפני הונאות לינה והודעות תשלום חשודות.\n\nhttps://yavanet.gr/a/booking-com-eu-investigation-fraud-scams/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "EU Launches Investigation Into Booking.com Over Scams and Fake Listings\n\nThe European Commission has launched a formal investigation into Booking.com to examine whether the platform does enough to protect users from fake listings and phishing scams.\n\nhttps://yavanet.gr/en/a/booking-com-eu-investigation-fraud-scams/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/booking-com-eu-investigation-fraud-scams.jpg",
+          "caption": "האיחוד האירופי חוקר את בוקינג: חשש להונאות ולמלונות פיקטיביים\n\nהנציבות האירופית פתחה בחקירה רשמית נגד ענקית ההזמנות בוקינג.קום, בטענה שאינה עושה די כדי להגן על הצרכנים מפני הונאות לינה והודעות תשלום חשודות.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/booking-com-eu-investigation-fraud-scams-story.jpg"
+        }
+      }
+    }
+  ]
 }
