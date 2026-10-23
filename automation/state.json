@@ -14,11 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "5ed4414f251b": 1791564060915,
-    "4eed3ffb537b": 1791564937093,
-    "188bbb7fed6e": 1791564937093,
-    "c65defd6c9ab": 1791564937093,
-    "b7e466eecf58": 1791564937093,
     "563a3f951ae8": 1791565490406,
     "83f26a003f12": 1791566654804,
     "3f9126c5f8ce": 1791566654804,
@@ -2240,9 +2235,117 @@
     "c10e741d0abc": 1792771206898,
     "b7d9cf6ceea4": 1792772905300,
     "5a3e8bf8ac2f": 1792772905300,
-    "3638e8064cee": 1792772905300
+    "3638e8064cee": 1792772905300,
+    "7fe2bb9540d9": 1792774893273,
+    "e5d3189e5e4e": 1792774893273,
+    "691c575368a0": 1792774893273,
+    "16b56f60311b": 1792774893273
   },
-  "pending": {},
+  "pending": {
+    "c9449c": {
+      "createdAt": 1792774942787,
+      "item": {
+        "title": "Καύσιμα κίνησης: Μικρή πτώση τιμών – Νέες αυξήσεις από την ερχομένη εβδομάδα",
+        "url": "https://www.ertnews.gr/ert3/kaysima-kinisis-mikri-ptosi-timon-nees-ayksiseis-apo-tin-erxomeni-evdomada/",
+        "summary": "Πτώση σημειώθηκε αυτή την εβδομάδα στην τιμή της βενζίνης, μετά την εφαρμογή της κρατικής επιδότησης ενώ η πτώση στις διεθνείς τιμές την περασμένη εβδομάδα πέρασε τώρα στην αντλία. Νέες αυξήσεις αναμένονται όμως από την επόμενη εβδομάδα και όπως προειδοποιεί ο Διεθνής Οργανισμός Ενέργειας, θα αργήσει η αποκλιμάκωση. Την ίδια ώρα σε χαμηλές πτήσεις σε σχέση ... Περισσότερα \n www.ertnews.gr",
+        "published": "Fri, 23 Oct 2026 16:56:33 +0000",
+        "id": "7fe2bb9540d9",
+        "sourceId": "ert",
+        "sourceName": "ΕΡΤ (ertnews.gr)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "7fe2bb9540d9",
+        "section": "travel",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Fuel prices in Greece are dropping slightly due to subsidies, but new hikes are expected next week, which matters for tourists renting cars and residents driving in Greece.",
+        "item": {
+          "title": "Καύσιμα κίνησης: Μικρή πτώση τιμών – Νέες αυξήσεις από την ερχομένη εβδομάδα",
+          "url": "https://www.ertnews.gr/ert3/kaysima-kinisis-mikri-ptosi-timon-nees-ayksiseis-apo-tin-erxomeni-evdomada/",
+          "summary": "Πτώση σημειώθηκε αυτή την εβδομάδα στην τιμή της βενζίνης, μετά την εφαρμογή της κρατικής επιδότησης ενώ η πτώση στις διεθνείς τιμές την περασμένη εβδομάδα πέρασε τώρα στην αντλία. Νέες αυξήσεις αναμένονται όμως από την επόμενη εβδομάδα και όπως προειδοποιεί ο Διεθνής Οργανισμός Ενέργειας, θα αργήσει η αποκλιμάκωση. Την ίδια ώρα σε χαμηλές πτήσεις σε σχέση ... Περισσότερα \n www.ertnews.gr",
+          "published": "Fri, 23 Oct 2026 16:56:33 +0000",
+          "id": "7fe2bb9540d9",
+          "sourceId": "ert",
+          "sourceName": "ΕΡΤ (ertnews.gr)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "fuel-prices-fluctuate-greece",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון דלק ביוון",
+          "en": "Fuel Update Greece"
+        },
+        "imageKey": "sea",
+        "imageQuery": "gas station fuel prices greece",
+        "he": {
+          "title": "מחירי הדלק ביוון ירדו השבוע, אך צפויה עלייה בקרוב",
+          "seoTitle": "מחירי הדלק ביוון: ירידה זמנית והתייקרות צפויה השבוע",
+          "seoDesc": "מחירי הבנזין ביוון ירדו השבוע בזכות סובסידיה ממשלתית, אך לפי ארגון האנרגיה צפויות עליות מחירים נוספות בשבוע הבא. כל מה שחשוב לדעת.",
+          "keywords": [
+            "מחירי הדלק ביוון",
+            "דלק ביוון",
+            "תדלוק ביוון",
+            "חופשה ביוון",
+            "עלויות ביוון"
+          ],
+          "dek": "הירידה הזמנית במחירי הבנזין בעקבות הסובסידיה הממשלתית עומדת להסתיים, ובשבוע הבא צפוי גל התייקרות חדש לפי אזהרת ארגון האנרגיה.",
+          "tldr": [
+            "מחירי הבנזין ביוון רשמו השבוע ירידה קלה בזכות סובסידיה ממשלתית וגלובלית.",
+            "ארגון האנרגיה הבינלאומי מזהיר כי צפויות עליות מחירים נוספות כבר בשבוע הבא.",
+            "הביקוש לנפט חימום נמוך לעומת השנה שעברה, והחל מה-1 בנובמבר תופעל אפליקציה חדשה לחקלאים."
+          ],
+          "means": "אם אתם מתכננים לשכור רכב בחופשה הקרובה ביוון ולנהוג ברחבי המדינה, כדאי לקחת בחשבון את תנודות המחירים הללו בתקציב הנסיעה שלכם. מומלץ להשוות מחירי דלק בין תחנות שונות ולעקוב אחר העדכונים בזמן אמת באמצעות אפליקציות ניווט ותדלוק מקומיות. יש לזכור כי מדובר במידע כללי בלבד ואינו מהווה ייעוץ פיננסי.",
+          "body": "## שינויים במחירי הדלק והבנזין\n\nהשבוע נרשמה הוזלה במחירי הבנזין ביוון, תולדה של שילוב בין סובסידיה מטעם המדינה לבין ירידה במחירי האנרגיה הבינלאומיים שנרשמה בשבוע שעבר והגיעה לבסוף אל משאבות התדלוק.\n\nעם זאת, המגמה הזו צפויה להתהפך בקרוב. על פי אזהרת ארגון האנרגיה הבינלאומי, ירידת המחירים לא תישמר לאורך זמן, ועליות מחירים חדשות צפויות להיכנס לתוקף כבר במהלך השבוע הבא.\n\n## נתונים נוספים משוק האנרגיה\n\nבמקביל לבנזין, נתוני הביקוש לנפט חימום מצביעים על פעילות נמוכה יחסית בהשוואה לתקופה המקבילה אשתקד.\n\nמפעילי תחנות הדלק ממתינים כעת להשקת האפליקציה החדשה mydiesel, שצפויה להיכנס לפעילות רשמית ב-1 בנובמבר. מערכת זו מיועדת לאפשר לחקלאים ביוון לרכוש דלק מבלי לשאת בעלויות של מס הבלו המיוחד."
+        },
+        "en": {
+          "title": "Fuel Prices in Greece Fall This Week, But Increases Loom",
+          "seoTitle": "Fuel Prices in Greece: Temporary Drop and Coming Increases",
+          "seoDesc": "Gasoline prices in Greece dropped this week due to subsidies, but international energy experts warn of new price hikes next week. What you need to know.",
+          "keywords": [
+            "fuel prices greece",
+            "gasoline greece",
+            "driving in greece",
+            "car rental greece",
+            "greece travel costs"
+          ],
+          "dek": "A temporary drop in Greek gasoline prices, driven by state subsidies, is set to end as international energy experts warn of upcoming price increases next week.",
+          "tldr": [
+            "Gasoline prices in Greece dipped this week following state subsidies and global trends.",
+            "The International Energy Agency warns that prices will soon rise again next week.",
+            "Heating oil demand remains low compared to last year, and a new agricultural fuel app launches November 1."
+          ],
+          "means": "If you are planning to rent a car and drive during your trip to Greece, keep these fuel price fluctuations in mind when budgeting. It is recommended to compare prices between local petrol stations and check real-time updates using navigation apps. Please note this is general information and not financial advice.",
+          "body": "## Recent Fluctuations at the Pump\n\nDrivers in Greece saw a slight decrease in gasoline prices this week. The drop followed the implementation of a state subsidy alongside the delayed effect of lower international oil prices from the previous week.\n\nHowever, this downward trend is expected to be short-lived. The International Energy Agency warns that market stabilization will take time, and new price increases are anticipated starting next week.\n\n## Heating Oil Demand and New Regulations\n\nMeanwhile, market demand for heating oil remains subdued compared to the figures recorded during the same period last year.\n\nPetrol station operators are also turning their attention toward the upcoming launch of the mydiesel application. Set to go live on November 1, the new system will allow farmers to obtain fuel exempt from the special consumption tax."
+        }
+      },
+      "text": "Πτώση σημειώθηκε αυτή την εβδομάδα στην τιμή της βενζίνης, μετά την εφαρμογή της κρατικής επιδότησης ενώ η πτώση στις διεθνείς τιμές την περασμένη εβδομάδα πέρασε τώρα στην αντλία. Νέες αυξήσεις αναμένονται όμως από την επόμενη εβδομάδα και όπως προειδοποιεί ο Διεθνής Οργανισμός Ενέργειας, θα αργήσει η αποκλιμάκωση.\n Δείτε περισσότερα στο&nbsp; ertflix.gr | Ακούστε περισσότερα στο ertecho.gr \n Την ίδια ώρα σε χαμηλές πτήσεις σε σχέση με πέρσι κινείται η ζήτηση για το πετρέλαιο θέρμανσης.\n Τα βλέμματα πάντως των πρατηριούχων είναι στραμμένα στη νέα εφαρμογή mydiesel μέσω της οποίας οι αγρότες θα λαμβάνουν πετρέλαιο χωρίς να πληρώνουν τον ειδικό φόρο κατανάλωσης.\n H εφαρμογή MY DIESEL θα τεθεί σε λειτουργία την 1η Νοεμβρίου.\n ΡΕΠΟΡΤΑΖ ΚΑΤΕΡΙΝΑ ΝΙΚΟΛΑΟΥ \n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n Θεσσαλονίκη καύσιμα \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
+      "issues": [],
+      "el": {
+        "title": "Υποχωρούν αυτή την εβδομάδα οι τιμές των καυσίμων στην Ελλάδα, αλλά έρχονται αυξήσεις",
+        "dek": "Η προσωρινή μείωση στις τιμές της ελληνικής βενζίνης, η οποία οφείλεται στις κρατικές επιδοτήσεις, αναμένεται να τελειώσει, καθώς διεθνείς εμπειρογνώμονες σε θέματα ενέργειας προειδοποιούν για επερχόμενες αυξήσεις τιμών την επόμενη εβδομάδα.",
+        "tldr": [
+          "Οι τιμές της βενζίνης στην Ελλάδα υποχώρησαν αυτή την εβδομάδα, ακολουθώντας τις κρατικές επιδοτήσεις και τις παγκόσμιες τάσεις.",
+          "Ο Διεθνής Οργανισμός Ενέργειας προειδοποιεί ότι οι τιμές θα αυξηθούν ξανά σύντομα την επόμενη εβδομάδα.",
+          "Η ζήτηση για πετρέλαιο θέρμανσης παραμένει χαμηλή σε σύγκριση με πέρυσι, ενώ μια νέα εφαρμογή για αγροτικό πετρέλαιο ξεκινά την 1η Νοεμβρίου."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2252,12 +2355,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T16:28:13.648Z",
-      "items": 10
+      "at": "2026-10-23T17:01:20.750Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T16:28:14.273Z",
+      "at": "2026-10-23T17:01:21.605Z",
       "items": 4
     },
     "civilprotection": {
@@ -2268,27 +2371,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T16:28:16.128Z",
+      "at": "2026-10-23T17:01:23.586Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T16:28:16.367Z",
+      "at": "2026-10-23T17:01:23.988Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T16:28:17.136Z",
+      "at": "2026-10-23T17:01:25.068Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T16:28:17.943Z",
+      "at": "2026-10-23T17:01:25.811Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T16:28:18.939Z",
+      "at": "2026-10-23T17:01:26.627Z",
       "items": 10
     },
     "toi-greece": {
@@ -2299,23 +2402,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T16:28:19.516Z",
+      "at": "2026-10-23T17:01:27.269Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T16:28:19.890Z",
+      "at": "2026-10-23T17:01:27.591Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T16:28:20.504Z",
-      "items": 6
+      "at": "2026-10-23T17:01:27.720Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T16:28:20.699Z",
-      "items": 3
+      "at": "2026-10-23T17:01:28.257Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2324,12 +2427,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T16:28:15.179Z",
+      "at": "2026-10-23T17:01:22.291Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T16:28:21.299Z",
+      "at": "2026-10-23T17:01:29.100Z",
       "items": 0
     },
     "hcg": {
@@ -2340,32 +2443,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T16:28:22.498Z",
+      "at": "2026-10-23T17:01:30.530Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T16:28:22.779Z",
+      "at": "2026-10-23T17:01:30.737Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T16:28:23.011Z",
+      "at": "2026-10-23T17:01:31.031Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T16:28:23.266Z",
+      "at": "2026-10-23T17:01:31.388Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T16:28:23.694Z",
-      "items": 6
+      "at": "2026-10-23T17:01:31.735Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T16:28:24.145Z",
+      "at": "2026-10-23T17:01:32.154Z",
       "items": 5
     }
   },
@@ -2643,13 +2746,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T16:28:25.300Z",
-    "considered": 3,
-    "picked": 2,
+    "at": "2026-10-23T17:01:33.273Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "✓ ingr | Ανοιχτό να αλλάξει η ημερομηνία του Ρεν-Ολυμπιακός: Η απεργία, η Αστυνομία και η… αναμονή",
-      "· naftemporiki | Η Τράπεζα της Ιταλίας ζητά από τα χρηματοπιστωτικά ιδρύματα να επενδύσουν σε ψηφιακά περιο",
-      "✓ ert | Βολές του Πολεμικού Ναυτικού με τους νέους πυραύλους Spike Nlos"
+      "✓ ert | Καύσιμα κίνησης: Μικρή πτώση τιμών – Νέες αυξήσεις από την ερχομένη εβδομάδα",
+      "· naftemporiki | Νετανιάχου: Το Ισραήλ πρέπει να προετοιμάσει μια «εναλλακτική οικονομία» για να παρακάμψει",
+      "· gn-kathimerini | Ιταλία: Συναγερμός για τσουνάμι μετά από 12 σεισμούς στη Σικελία - Kathimerini",
+      "· gn-iefimerida | Συναγερμός για τσουνάμι στην Ιταλία μετά τον σεισμό 5,7 Ρίχτερ στη Σικελία και τις 11 δονή"
     ]
   },
   "evergreenDone": [
