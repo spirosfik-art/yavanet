@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "36086b054bc9": 1791516399614,
     "0af94d025305": 1791518664415,
     "3d331a0018cf": 1791518664415,
     "ffb41efa6241": 1791520043478,
@@ -2234,7 +2233,12 @@
     "cdaacc43b846": 1792724261446,
     "6fca02ce717e": 1792725653182,
     "835db8e1586e": 1792725653182,
-    "b697c7ef04fc": 1792725653182
+    "b697c7ef04fc": 1792725653182,
+    "6e081f8553f6": 1792727897253,
+    "e7df2ede5a51": 1792727897253,
+    "3cd4eff85662": 1792727897253,
+    "505d39d49e2a": 1792727897253,
+    "0f8c23d2af72": 1792727897253
   },
   "pending": {},
   "sourceStatus": {
@@ -2246,12 +2250,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T03:20:43.069Z",
-      "items": 0
+      "at": "2026-10-23T03:58:05.342Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T03:20:43.598Z",
+      "at": "2026-10-23T03:58:06.040Z",
       "items": 3
     },
     "civilprotection": {
@@ -2262,27 +2266,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T03:20:44.774Z",
+      "at": "2026-10-23T03:58:07.972Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T03:20:44.985Z",
+      "at": "2026-10-23T03:58:08.182Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T03:20:45.771Z",
+      "at": "2026-10-23T03:58:09.238Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T03:20:46.282Z",
-      "items": 3
+      "at": "2026-10-23T03:58:10.006Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T03:20:46.599Z",
+      "at": "2026-10-23T03:58:10.921Z",
       "items": 10
     },
     "toi-greece": {
@@ -2293,22 +2297,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T03:20:47.002Z",
+      "at": "2026-10-23T03:58:11.405Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T03:20:48.644Z",
+      "at": "2026-10-23T03:58:11.929Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T03:20:48.745Z",
+      "at": "2026-10-23T03:58:12.563Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T03:20:48.909Z",
+      "at": "2026-10-23T03:58:12.791Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2318,12 +2322,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T03:20:43.908Z",
+      "at": "2026-10-23T03:58:06.886Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T03:20:49.325Z",
+      "at": "2026-10-23T03:58:13.501Z",
       "items": 0
     },
     "hcg": {
@@ -2334,45 +2338,51 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T03:20:50.520Z",
+      "at": "2026-10-23T03:58:14.938Z",
       "items": 2
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T03:20:50.748Z",
+      "at": "2026-10-23T03:58:15.160Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T03:20:50.924Z",
+      "at": "2026-10-23T03:58:15.419Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T03:20:51.087Z",
+      "at": "2026-10-23T03:58:15.696Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T03:20:51.460Z",
-      "items": 3
+      "at": "2026-10-23T03:58:16.137Z",
+      "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T03:20:51.977Z",
+      "at": "2026-10-23T03:58:16.538Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-23",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "greece-uae-economic-cooperation-12-billion",
         "title": "Greece and UAE Target €12 Billion in New Economic Growth",
         "at": "2026-10-23T01:53:27+03:00",
         "section": "politics"
+      },
+      {
+        "slug": "hydra-named-best-island-europe-2026",
+        "title": "Hydra Voted Europe's Best Island in 2026",
+        "at": "2026-10-23T06:58:31+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2545,13 +2555,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T03:20:53.182Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-23T03:58:17.253Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· gct | ‘Breast Is Best’? Ancient Greek Mothers Breastfed for Nearly Four Years",
-      "· naftemporiki | Social media: Ψηφίστηκε η απαγόρευση για παιδιά κάτω των 15 ετών – Σε ισχύ από την 1η Ιανο",
-      "· ingr | Φορολογική ασφάλεια με «ταρίφα»"
+      "· naftemporiki | Η μέρα πριν από το κραχ",
+      "✓ gct | Hydra Voted Europe’s Best Island by Condé Nast Traveller Readers",
+      "· ert | Σε κατάσταση συναγερμού η Ταϊβάν ενόψει του τυφώνα Τσάμπι – Ακυρώθηκαν εκατοντάδες πτήσεις",
+      "· naftemporiki | Στημένοι αγώνες στο μπάσκετ: Η ώρα των απολογιών – Οι εντολές για σφυρίγματα, οι μαρτυρίες",
+      "· gct | Konstantinos Argiros Brings Greek Music Back to Royal Albert Hall"
     ]
   },
   "evergreenDone": [
