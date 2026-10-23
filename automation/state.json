@@ -14,14 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "50589cf25caf": 1791527548674,
-    "dc87855171e7": 1791527548674,
-    "300835640fd8": 1791529235802,
-    "7651dd248551": 1791529235802,
-    "48effcbb7e1d": 1791529235802,
-    "2a53984b8129": 1791529235802,
-    "897a292a4024": 1791529235802,
-    "c1a2e8684e14": 1791529235802,
     "5958d20b96c4": 1791530068920,
     "3184ce9e966e": 1791530068920,
     "8412880d508c": 1791530068920,
@@ -2244,7 +2236,10 @@
     "56b5caa94e27": 1792736299489,
     "43d247726122": 1792736299489,
     "20f955555387": 1792736299489,
-    "806f953f7a8b": 1792736299489
+    "806f953f7a8b": 1792736299489,
+    "017e06f2460e": 1792739535708,
+    "ddf950caffa2": 1792739535708,
+    "fb798cea410c": 1792739535708
   },
   "pending": {},
   "sourceStatus": {
@@ -2256,12 +2251,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T06:18:08.560Z",
-      "items": 10
+      "at": "2026-10-23T07:12:03.865Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T06:18:09.294Z",
+      "at": "2026-10-23T07:12:04.786Z",
       "items": 3
     },
     "civilprotection": {
@@ -2272,27 +2267,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T06:18:10.939Z",
+      "at": "2026-10-23T07:12:06.636Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T06:18:11.329Z",
+      "at": "2026-10-23T07:12:06.727Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T06:18:12.327Z",
+      "at": "2026-10-23T07:12:07.980Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T06:18:13.031Z",
-      "items": 4
+      "at": "2026-10-23T07:12:08.800Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T06:18:13.925Z",
+      "at": "2026-10-23T07:12:09.794Z",
       "items": 10
     },
     "toi-greece": {
@@ -2303,23 +2298,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T06:18:14.546Z",
+      "at": "2026-10-23T07:12:10.421Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T06:18:14.653Z",
+      "at": "2026-10-23T07:12:10.642Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T06:18:14.847Z",
-      "items": 7
+      "at": "2026-10-23T07:12:11.230Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T06:18:15.392Z",
-      "items": 5
+      "at": "2026-10-23T07:12:11.425Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2328,12 +2323,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T06:18:09.845Z",
+      "at": "2026-10-23T07:12:05.172Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T06:18:16.042Z",
+      "at": "2026-10-23T07:12:12.192Z",
       "items": 0
     },
     "hcg": {
@@ -2344,32 +2339,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T06:18:17.365Z",
+      "at": "2026-10-23T07:12:13.438Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T06:18:17.677Z",
+      "at": "2026-10-23T07:12:13.610Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T06:18:17.881Z",
+      "at": "2026-10-23T07:12:13.855Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T06:18:18.111Z",
-      "items": 9
+      "at": "2026-10-23T07:12:14.029Z",
+      "items": 10
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T06:18:18.497Z",
+      "at": "2026-10-23T07:12:14.388Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T06:18:18.892Z",
+      "at": "2026-10-23T07:12:14.916Z",
       "items": 5
     }
   },
@@ -2599,18 +2594,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T06:18:19.489Z",
-    "considered": 8,
+    "at": "2026-10-23T07:12:15.708Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Θέμα ημερών ο νέος πόλεμος στον Κόλπο;",
-      "· gtp | Travel via Booking.com Supports €8.1 Billion in Greek GDP, Study Finds",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
-      "· gtp | WTM London 2026 Unveils Global Tourism Leaders for New Headliner Stage",
-      "· gtp | Ella Resorts Wins 13 Honors at World Luxury Hotel Awards 2026",
-      "· gtp | Meteora Secures €120,000 in EU Funding for Climate Resilience",
-      "· gtp | Ithaca’s School of Homer Gets Green Light for Archaeological Park",
-      "· gtp | Nisyros, Lavreotiki UNESCO Geoparks Partner on Environmental Education"
+      "· naftemporiki | Ο Μασκ βάζει 1 δισ. δολάρια στη Skydance – Νέα συμμαχία με την οικογένεια Έλισον στα media",
+      "· gn-hcg | Απαγόρευση απόπλου Ε/Γ-Ο/Γ πλοίου στο Λαύριο – Παροχή συνδρομής σε αλλοδαπή τραυματία στην",
+      "· ingr | Βουλευτές της ΝΔ «τρώνε ξύλο» στις περιφέρειές τους και δυσφορούν με το Μαξίμου"
     ]
   },
   "evergreenDone": [
