@@ -1,0 +1,78 @@
+{
+  "slug": "athens-airport-flight-disruptions-fog",
+  "section": "breaking",
+  "publishedAt": "2026-10-23T13:55:04+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9364,
+    "lng": 23.9445
+  },
+  "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTGtJQm1MQWNQeElHX3pnOFpNZG04LWwtM25MSlBmOUg3Q1UydVh3TnpYNVVydzhnemJlLWVNUmY2d3JsTl9CaVJaY0RsUzNfMHdOY2luZUtXaGIzT25FTzdQa1F2c1pjVUU5QkphdmJ2WmQ0dTVYX2NjODNJckluMWNFaGZhNVIxVDdveU1KcDBhMjZxNktVR21uY2JTZFhxajdDaUpWTFpRWk9Kbi1R?oc=5"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29170959/pexels-photo-29170959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A solitary small aircraft captured on a foggy airport runway, showcasing aviation serenity.",
+    "credit": "Photo: Felix / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/small-aircraft-on-foggy-runway-29170959/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
+  },
+  "alert": {
+    "he": "מזג אוויר ביוון",
+    "en": "Weather alert"
+  },
+  "he": {
+    "title": "שיבושים בטיסות באתונה: ערפל כבד משפיע על נמל התעופה הבינלאומי",
+    "seoTitle": "טיסות לאתונה: שיבושים ועכובים בנמל התעופה בגלל ערפל",
+    "seoDesc": "ערפל כבד בנמל התעופה באתונה גורם לשיבושים בטיסות. כל הפרטים וההנחיות לנוסעים הישראלים שטסים ליוון. בדקו לוחות זמנים מול חברות התעופה.",
+    "keywords": [
+      "טיסות לאתונה",
+      "שדה התעופה באתונה",
+      "מזג אוויר ביוון",
+      "טיסות ליוון"
+    ],
+    "dek": "תנאי מזג אוויר קשים בנמל התעופה באתונה יוצרים עיכובים בלוח הטיסות. נוסעים מתבקשים להתעדכן מול חברות התעופה.",
+    "tldr": [
+      "ערפל כבד פוקד את נמל התעופה באתונה",
+      "נרשמים שיבושים ועיכובים בלוח הטיסות המקומי",
+      "הנוסעים מתבקשים לבדוק את סטטוס הטיסה מול חברת התעופה"
+    ],
+    "means": "אם אתם טסים היום או בימים הקרובים לאתונה, חשוב שתעקבו אחר עדכוני לוח הטיסות של חברת התעופה שלכם לפני הגעה לשדה. מומלץ להשאיר זמן פנוי נוסף ולהיערך לשינויים אפשריים בלוחות הזמנים עקב תנאי מזג האוויר בנמל התעופה.",
+    "body": "## שיבושים בפעילות נמל התעופה באתונה\n\nערפל כבד ששרר בנמל התעופה באתונה יצר אתמול והיום קשיים תפעוליים וגרם לשיבושים משמעותיים בלוח הטיסות הנכנסות והיוצאות.\n\nהרשויות בנמל התעופה מדווחים על ראות לקויה שמחייבת נהלי בטיחות מיוחדים, דבר המשפיע ישירות על זמני ההמראה והנחיתה של המטוסים.\n\n## הנחיות לנוסעים הישראלים\n\nעבור ישראלים הנמצאים כעת באתונה או מתכננים לטוס ליעד בימים הקרובים, ההמלצה המרכזית היא להתעדכן באופן שוטף מול חברת התעופה שדרכה אתם טסים.\n\nיש לבדוק האם חלו שינויים, דחיות או ביטולים בטיסה שלכם טרם היציאה לשדה התעופה, כדי להימנע מעיכובים מיותרים בטרמינל."
+  },
+  "en": {
+    "title": "Athens Airport Flight Disruptions Due to Heavy Fog",
+    "seoTitle": "Athens Airport Flights Disrupted by Heavy Fog Today",
+    "seoDesc": "Heavy fog at Athens International Airport causes flight delays and disruptions. Check your flight status with your airline before heading to the airport.",
+    "keywords": [
+      "athens airport",
+      "flights to athens",
+      "greece weather",
+      "athens flights"
+    ],
+    "dek": "Heavy fog at Athens airport creates scheduling difficulties and flight delays. Passengers are advised to check directly with their airlines.",
+    "tldr": [
+      "Heavy fog affects Athens International Airport operations",
+      "Flight schedules experience delays and disruptions",
+      "Passengers should verify flight status directly with airlines"
+    ],
+    "means": "If you are traveling to Athens today or in the near future, check your flight status directly with your airline before heading to the airport. Allow extra time for potential schedule changes due to the weather conditions.",
+    "body": "## Flight Disruptions at Athens Airport\n\nThick fog rolling into Athens International Airport has caused operational challenges and led to notable disruptions in the flight schedule.\n\nVisibility issues at the airport require strict safety procedures, which directly impact aircraft takeoff and landing times.\n\n## Practical Information for Travelers\n\nPassengers traveling to or from Athens should monitor their flight status closely through their airline's official channels.\n\nIt is strongly recommended to check for any delays or schedule adjustments before leaving for the airport to ensure a smooth journey."
+  },
+  "meta": {
+    "itemId": "95c40fe07fc9",
+    "imageQuery": "airplane landing in fog at airport",
+    "sourceHash": "0e3ec2568308",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-23T10:55:05.350Z",
+    "official": false
+  }
+}
