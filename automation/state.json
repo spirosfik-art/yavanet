@@ -2235,7 +2235,11 @@
     "619f4a124a13": 1792789672594,
     "31348593306e": 1792789672594,
     "ecaa87a28e03": 1792789672594,
-    "99f7791a4995": 1792789672594
+    "99f7791a4995": 1792789672594,
+    "ddcb2786157e": 1792791379781,
+    "88f704923966": 1792791379781,
+    "30f21ca11af7": 1792791379781,
+    "bec38704eb74": 1792791379781
   },
   "pending": {},
   "sourceStatus": {
@@ -2247,12 +2251,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T21:07:41.090Z",
+      "at": "2026-10-23T21:36:11.211Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T21:07:41.819Z",
+      "at": "2026-10-23T21:36:11.713Z",
       "items": 4
     },
     "civilprotection": {
@@ -2263,27 +2267,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T21:07:44.063Z",
+      "at": "2026-10-23T21:36:13.066Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T21:07:44.256Z",
+      "at": "2026-10-23T21:36:13.369Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T21:07:45.511Z",
+      "at": "2026-10-23T21:36:14.113Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T21:07:46.196Z",
+      "at": "2026-10-23T21:36:14.662Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T21:07:47.122Z",
+      "at": "2026-10-23T21:36:15.349Z",
       "items": 10
     },
     "toi-greece": {
@@ -2294,22 +2298,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T21:07:47.430Z",
+      "at": "2026-10-23T21:36:15.731Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T21:07:47.846Z",
+      "at": "2026-10-23T21:36:15.832Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T21:07:48.237Z",
+      "at": "2026-10-23T21:36:15.897Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T21:07:48.537Z",
+      "at": "2026-10-23T21:36:16.011Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2319,12 +2323,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T21:07:42.704Z",
+      "at": "2026-10-23T21:36:12.180Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T21:07:49.174Z",
+      "at": "2026-10-23T21:36:16.431Z",
       "items": 0
     },
     "hcg": {
@@ -2335,33 +2339,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T21:07:50.486Z",
+      "at": "2026-10-23T21:36:17.720Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T21:07:50.733Z",
+      "at": "2026-10-23T21:36:17.908Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T21:07:50.927Z",
+      "at": "2026-10-23T21:36:18.104Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T21:07:51.133Z",
+      "at": "2026-10-23T21:36:18.327Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T21:07:51.502Z",
+      "at": "2026-10-23T21:36:18.758Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T21:07:51.921Z",
-      "items": 7
+      "at": "2026-10-23T21:36:19.105Z",
+      "items": 3
     }
   },
   "tgOffset": 829774786,
@@ -2517,15 +2521,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T21:07:52.594Z",
-    "considered": 5,
+    "at": "2026-10-23T21:36:19.781Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | HBBU Christmas Glendi to Bring Bouzouki and Mezedes to Dedham",
-      "· gct | Former Newington College Teacher Faces Nine Sex Charges",
-      "· ingr | Ισραήλ: Παράκαμψη των διεθνών κυρώσεων μέσω εναλλακτικής οικονομίας σκέφτεται ο Νετανιάχου",
-      "· gct | Trump Dismisses Envoy Tom Barrack’s Claim of Possible US Strike on Iran This Weekend",
-      "· gn-iefimerida | Αδιανόητο περιστατικό σε πτήση προς Βοστώνη: 48χρονος παρενοχλούσε ανήλικη ενώ ήταν με τα "
+      "· gct | S&P Keeps Greece at BBB as Debt Falls and Growth Holds",
+      "· gct | Oakleigh Grammar Farewell Honours Class of 2026 With Doxology and Sash Tradition",
+      "· gct | The Unknown Soldier: A Tomb Without a Body",
+      "· gct | George Calombaris Joins Chefs at Inaugural Gold Coast Greek Festival"
     ]
   },
   "evergreenDone": [
