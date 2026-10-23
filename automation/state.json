@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "3c78a88d9b31": 1791585511336,
-    "78d34e6af4d0": 1791585511336,
-    "3293455a1bb2": 1791586391291,
-    "89d763558213": 1791586391291,
-    "43c5ef607765": 1791586391291,
-    "4301932665fa": 1791586391291,
     "186f558c7189": 1791588227880,
     "d6e5f9b6c68f": 1791588227880,
     "d9197419bc5a": 1791588227880,
@@ -2239,7 +2233,13 @@
     "46564f0c5f61": 1792794942101,
     "2f42780e0a75": 1792794942101,
     "9fc3281e9c32": 1792794942101,
-    "88ad2ed66fcc": 1792794942101
+    "88ad2ed66fcc": 1792794942101,
+    "723a2334e298": 1792796682816,
+    "3a8c64bdea8b": 1792796682816,
+    "4fb6c9db63fa": 1792796682816,
+    "3fa935b0b16b": 1792796682816,
+    "1ddea8b53f83": 1792796682816,
+    "1e747bbfe720": 1792796682816
   },
   "pending": {
     "fc9338": {
@@ -2561,12 +2561,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T22:35:31.753Z",
+      "at": "2026-10-23T23:04:30.061Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T22:35:32.329Z",
+      "at": "2026-10-23T23:04:30.822Z",
       "items": 4
     },
     "civilprotection": {
@@ -2577,27 +2577,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T22:35:33.776Z",
+      "at": "2026-10-23T23:04:32.648Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T22:35:33.922Z",
+      "at": "2026-10-23T23:04:32.789Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T22:35:34.612Z",
+      "at": "2026-10-23T23:04:34.464Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T22:35:35.366Z",
+      "at": "2026-10-23T23:04:35.354Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T22:35:36.263Z",
+      "at": "2026-10-23T23:04:36.018Z",
       "items": 10
     },
     "toi-greece": {
@@ -2608,22 +2608,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T22:35:36.706Z",
+      "at": "2026-10-23T23:04:36.604Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T22:35:37.009Z",
+      "at": "2026-10-23T23:04:36.878Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T22:35:37.188Z",
+      "at": "2026-10-23T23:04:37.657Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T22:35:37.590Z",
+      "at": "2026-10-23T23:04:38.154Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2633,12 +2633,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T22:35:32.946Z",
+      "at": "2026-10-23T23:04:31.657Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T22:35:38.122Z",
+      "at": "2026-10-23T23:04:39.089Z",
       "items": 0
     },
     "hcg": {
@@ -2649,32 +2649,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T22:35:39.196Z",
+      "at": "2026-10-23T23:04:40.604Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T22:35:39.360Z",
+      "at": "2026-10-23T23:04:40.782Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T22:35:39.588Z",
+      "at": "2026-10-23T23:04:40.918Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T22:35:39.830Z",
+      "at": "2026-10-23T23:04:41.258Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T22:35:40.262Z",
+      "at": "2026-10-23T23:04:41.596Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T22:35:40.662Z",
+      "at": "2026-10-23T23:04:42.027Z",
       "items": 7
     }
   },
@@ -2838,16 +2838,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T22:35:42.101Z",
+    "at": "2026-10-23T23:04:42.816Z",
     "considered": 6,
-    "picked": 4,
+    "picked": 0,
     "items": [
-      "✓ gct | Greece Bans Social Media for Children Under 15 From 2027",
-      "✓ gct | Greek-Israeli Military Sinks Frigate in the Eastern Mediterranean",
-      "✓ gct | Greece Forecast to Outpace Eurozone Growth Despite Inflation",
-      "✓ gct | Greece Welcomes More Tourists but Visitors Spend Less",
-      "· gct | Greece Strengthens National Addiction Services with 243 Facilities",
-      "· gct | Broker Convicted Over Zak Kostopoulos Death Walks Free"
+      "· gct | Jordan Church Shooting Kills Seven, King Abdullah Vows Retaliation",
+      "· gct | Greece Approves Breakthrough Pancreatic Cancer Treatment",
+      "· gct | Ancient Greek Horseman Statue Returns to Acropolis Museum",
+      "· gct | Greece and Egypt Move To Expand Maritime Economic Zones",
+      "· gct | Protein Pudding Recalled Over Possible Glass Fragments",
+      "· gn-iefimerida | Αδιανόητο περιστατικό σε πτήση προς Βοστώνη: 48χρονος παρενοχλούσε ανήλικη ενώ ήταν με τα "
     ]
   },
   "evergreenDone": [
