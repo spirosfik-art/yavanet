@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "33eb13f41333": 1791525864940,
-    "ea73936e02ea": 1791525864940,
-    "de365d2bdce7": 1791525864940,
-    "61b050b35e91": 1791525864940,
     "50589cf25caf": 1791527548674,
     "dc87855171e7": 1791527548674,
     "300835640fd8": 1791529235802,
@@ -2240,7 +2236,15 @@
     "1e0848f635e0": 1792734927629,
     "7515ba440df3": 1792734927629,
     "4973f485ef0b": 1792734927629,
-    "5aca9d61e77c": 1792734927629
+    "5aca9d61e77c": 1792734927629,
+    "9f7c12924c2a": 1792736299489,
+    "d80f0f551b0a": 1792736299489,
+    "03fe2e7c4151": 1792736299489,
+    "a93841163b94": 1792736299489,
+    "56b5caa94e27": 1792736299489,
+    "43d247726122": 1792736299489,
+    "20f955555387": 1792736299489,
+    "806f953f7a8b": 1792736299489
   },
   "pending": {},
   "sourceStatus": {
@@ -2252,12 +2256,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T05:55:15.689Z",
-      "items": 0
+      "at": "2026-10-23T06:18:08.560Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T05:55:16.432Z",
+      "at": "2026-10-23T06:18:09.294Z",
       "items": 3
     },
     "civilprotection": {
@@ -2268,27 +2272,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T05:55:18.316Z",
+      "at": "2026-10-23T06:18:10.939Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T05:55:18.679Z",
+      "at": "2026-10-23T06:18:11.329Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T05:55:19.607Z",
+      "at": "2026-10-23T06:18:12.327Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T05:55:20.444Z",
+      "at": "2026-10-23T06:18:13.031Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T05:55:21.149Z",
+      "at": "2026-10-23T06:18:13.925Z",
       "items": 10
     },
     "toi-greece": {
@@ -2299,22 +2303,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T05:55:21.600Z",
+      "at": "2026-10-23T06:18:14.546Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T05:55:21.955Z",
+      "at": "2026-10-23T06:18:14.653Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T05:55:22.539Z",
-      "items": 8
+      "at": "2026-10-23T06:18:14.847Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T05:55:22.971Z",
+      "at": "2026-10-23T06:18:15.392Z",
       "items": 5
     },
     "ynet-greece": {
@@ -2324,12 +2328,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T05:55:17.040Z",
+      "at": "2026-10-23T06:18:09.845Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T05:55:23.651Z",
+      "at": "2026-10-23T06:18:16.042Z",
       "items": 0
     },
     "hcg": {
@@ -2340,32 +2344,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T05:55:25.336Z",
+      "at": "2026-10-23T06:18:17.365Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T05:55:25.529Z",
+      "at": "2026-10-23T06:18:17.677Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T05:55:25.669Z",
+      "at": "2026-10-23T06:18:17.881Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T05:55:25.853Z",
-      "items": 7
+      "at": "2026-10-23T06:18:18.111Z",
+      "items": 9
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T05:55:26.192Z",
+      "at": "2026-10-23T06:18:18.497Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T05:55:26.572Z",
+      "at": "2026-10-23T06:18:18.892Z",
       "items": 5
     }
   },
@@ -2439,11 +2443,20 @@
       }
     ],
     "errors": [],
-    "ig": [],
+    "ig": [
+      {
+        "slug": "greece-tourism-28-million-travelers-2026",
+        "at": "2026-10-23T06:18:31.151Z"
+      }
+    ],
     "fb": [
       {
         "slug": "greece-winter-time-october-2026-2",
         "at": "2026-10-23T04:23:03.437Z"
+      },
+      {
+        "slug": "greece-tourism-28-million-travelers-2026",
+        "at": "2026-10-23T06:18:19.533Z"
       }
     ]
   },
@@ -2586,15 +2599,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T05:55:27.629Z",
-    "considered": 5,
-    "picked": 2,
+    "at": "2026-10-23T06:18:19.489Z",
+    "considered": 8,
+    "picked": 0,
     "items": [
-      "· ingr | Τι Φωτιάς, τι Βεργέτης: Ορισμός-καρμπόν στον αγώνα ΟΦΗ-ΠΑΟΚ",
-      "· ert | Εκδηλώσεις εορτασμού της 30ής Οκτωβρίου, επετείου της απελευθέρωσης της Θεσσαλονίκης από τ",
-      "✓ gct | Booking.com Faces EU Investigation Over Fake Hotels and Payment Scams",
-      "✓ gtp | Greece Welcomes 28.5 Million Travelers in First Eight Months of 2026",
-      "· gtp | Greece Seeks Stronger UAE Tourism Investment Ties"
+      "· naftemporiki | Θέμα ημερών ο νέος πόλεμος στον Κόλπο;",
+      "· gtp | Travel via Booking.com Supports €8.1 Billion in Greek GDP, Study Finds",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
+      "· gtp | WTM London 2026 Unveils Global Tourism Leaders for New Headliner Stage",
+      "· gtp | Ella Resorts Wins 13 Honors at World Luxury Hotel Awards 2026",
+      "· gtp | Meteora Secures €120,000 in EU Funding for Climate Resilience",
+      "· gtp | Ithaca’s School of Homer Gets Green Light for Archaeological Park",
+      "· gtp | Nisyros, Lavreotiki UNESCO Geoparks Partner on Environmental Education"
     ]
   },
   "evergreenDone": [
@@ -2637,5 +2653,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792400668334,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greece-tourism-28-million-travelers-2026",
+      "url": "https://yavanet.gr/a/greece-tourism-28-million-travelers-2026/",
+      "at": "2026-10-23T06:18:19.532Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-tourism-28-million-travelers-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-tourism-28-million-travelers-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שיא ביוון: 28.5 מיליון תיירים בשמונה החודשים הראשונים של 2026",
+        "title_en": "Greece Welcomes 28.5 Million Travelers in First Eight Months of 2026",
+        "dek_he": "נתונים חדשים של בנק יוון מצביעים על גידול חד במספר המבקרים, כאשר השוק האיטלקי והתיירות היבשתית רושמים את הצמיחה הבולטת ביותר.",
+        "dek_en": "Provisional data from the Bank of Greece highlights robust growth in both visitor numbers and travel receipts, driven largely by European markets and road border crossings.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/8777286/pexels-photo-8777286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שיא ביוון: 28.5 מיליון תיירים בשמונה החודשים הראשונים של 2026\n\nנתונים חדשים של בנק יוון מצביעים על גידול חד במספר המבקרים, כאשר השוק האיטלקי והתיירות היבשתית רושמים את הצמיחה הבולטת ביותר.\n\nhttps://yavanet.gr/a/greece-tourism-28-million-travelers-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece Welcomes 28.5 Million Travelers in First Eight Months of 2026\n\nProvisional data from the Bank of Greece highlights robust growth in both visitor numbers and travel receipts, driven largely by European markets and road border crossings.\n\nhttps://yavanet.gr/en/a/greece-tourism-28-million-travelers-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/greece-tourism-28-million-travelers-2026.jpg",
+          "caption": "שיא ביוון: 28.5 מיליון תיירים בשמונה החודשים הראשונים של 2026\n\nנתונים חדשים של בנק יוון מצביעים על גידול חד במספר המבקרים, כאשר השוק האיטלקי והתיירות היבשתית רושמים את הצמיחה הבולטת ביותר.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/greece-tourism-28-million-travelers-2026-story.jpg"
+        }
+      }
+    }
+  ]
 }
