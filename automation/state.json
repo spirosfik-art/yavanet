@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "42b78dd9fd36": 1791665485065,
-    "bfe94de8b4c6": 1791665485065,
-    "4da83176c3e5": 1791665485065,
     "c016c632aa40": 1791666105646,
     "8c567683cbae": 1791667394343,
     "9d57dd9b9ef6": 1791667394343,
@@ -2216,12 +2213,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T20:33:08.122Z",
+      "at": "2026-10-24T21:01:26.536Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T20:33:09.290Z",
+      "at": "2026-10-24T21:01:27.171Z",
       "items": 4
     },
     "civilprotection": {
@@ -2232,27 +2229,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T20:33:11.486Z",
+      "at": "2026-10-24T21:01:28.788Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T20:33:11.620Z",
+      "at": "2026-10-24T21:01:29.153Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T20:33:12.704Z",
+      "at": "2026-10-24T21:01:29.919Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T20:33:13.545Z",
-      "items": 5
+      "at": "2026-10-24T21:01:30.643Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T20:33:14.667Z",
+      "at": "2026-10-24T21:01:31.331Z",
       "items": 10
     },
     "toi-greece": {
@@ -2263,22 +2260,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T20:33:15.302Z",
+      "at": "2026-10-24T21:01:31.837Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T20:33:15.400Z",
+      "at": "2026-10-24T21:01:32.152Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T20:33:15.485Z",
+      "at": "2026-10-24T21:01:32.919Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T20:33:15.742Z",
+      "at": "2026-10-24T21:01:33.094Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2288,12 +2285,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T20:33:10.078Z",
+      "at": "2026-10-24T21:01:27.653Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T20:33:16.575Z",
+      "at": "2026-10-24T21:01:33.709Z",
       "items": 0
     },
     "hcg": {
@@ -2304,163 +2301,50 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T20:33:17.710Z",
+      "at": "2026-10-24T21:01:34.996Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T20:33:17.879Z",
+      "at": "2026-10-24T21:01:35.202Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T20:33:18.049Z",
+      "at": "2026-10-24T21:01:35.359Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T20:33:18.223Z",
+      "at": "2026-10-24T21:01:35.630Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T20:33:18.550Z",
-      "items": 5
+      "at": "2026-10-24T21:01:35.940Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T20:33:19.006Z",
+      "at": "2026-10-24T21:01:36.366Z",
       "items": 3
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-24",
-    "count": 8,
-    "published": [
-      {
-        "slug": "greece-tourism-28-million-travelers-2026",
-        "title": "↻ Greece Sees More Tourists in August as Average Spending Declines",
-        "at": "2026-10-24T01:36:51+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "↻ Dangerous Storms Approaching Greece According to Forecasters",
-        "at": "2026-10-24T03:30:17+03:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-israel-naval-exercise-cretan-sea-2026",
-        "title": "Greece and Israel Conduct Joint Naval Exercise in Cretan Sea",
-        "at": "2026-10-24T04:18:11+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-social-media-ban-children-under-15",
-        "title": "Greece Bans Social Media for Children Under 15 From 2027",
-        "at": "2026-10-24T04:18:24+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-economy-growth-inflation-2026",
-        "title": "Greece Economy Forecast to Outpace Eurozone Growth Despite Inflation",
-        "at": "2026-10-24T04:18:37+03:00",
-        "section": "investors"
-      },
-      {
-        "slug": "greek-tourism-report-2025-challenges",
-        "title": "Greek Tourism Reaches Record Highs in 2025 Amid New Strategic Challenges",
-        "at": "2026-10-24T09:38:05+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-housing-tax-measures-2026-2027",
-        "title": "Greece unveils new housing measures to ease rental pressures",
-        "at": "2026-10-24T11:39:27+03:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "two-earthquakes-karpathos",
-        "title": "Two minor earthquakes recorded off Karpathos",
-        "at": "2026-10-24T13:34:53+03:00",
-        "section": "travel"
-      },
-      {
-        "slug": "sinai-monastery-agreement-egypt-greece",
-        "title": "New Agreement Secures the Future of Saint Catherine's Monastery",
-        "at": "2026-10-24T18:31:22+03:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "athens-ports-ferry-departures-updates",
-        "title": "Greek Ferry Schedules: Latest Updates From the Ports",
-        "at": "2026-10-24T18:31:59+03:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Στροφή σε μικρά και παλιά ακίνητα από τους ενοικιαστές: Έξι στις δέκα ενοικιάσεις σε σπίτια κάτω από 75 τ.μ. -Τι δείχνει πανελλαδική έρευνα ",
-        "reason": "Ίδιο θέμα με «Athens Housing Crisis: Average Monthly Salary No Longer Covers Rent» – δεν γράφτηκε ξανά",
-        "at": "2026-10-24T02:18:20.593Z"
-      },
-      {
-        "title": "Για να μην κολλάμε μόνο μπρίκια",
-        "reason": "Ίδιο θέμα με «Greece and UAE Target €12 Billion in New Economic Growth» – δεν γράφτηκε ξανά",
-        "at": "2026-10-24T07:53:54.338Z"
-      },
-      {
-        "title": "Greece Leads Southern Europe in Supermarket Cost of Living Pressures",
-        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 2026",
-        "at": "2026-10-24T13:39:15.602Z"
-      },
-      {
-        "title": "Athens Airport: Young Pickpocket Couple Arrested for Theft",
-        "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The Hebrew dek states they stole from 'hundreds of passengers' ('מאות נוסעים'), whereas the source states they committed 2 previous thefts and 1 current theft (total 3 cases), not hundreds.",
-        "at": "2026-10-24T16:35:24.477Z"
-      },
-      {
-        "title": "Κάρπαθος: Δύο σεισμικές δονήσεις μέσα σε τρία λεπτά - Kathimerini",
-        "reason": "Ίδιο θέμα με «Two minor earthquakes recorded off Karpathos»: The article adds information not found in the source text, such as 'No immediate reports of significant damage or injuries have been confirmed' and references to 'Seismological institutes', 'emergency services', and instructions on how to ",
-        "at": "2026-10-24T19:36:13.039Z"
-      }
-    ],
+    "date": "2026-10-25",
+    "count": 0,
+    "published": [],
+    "rejected": [],
     "errors": [],
-    "ig": [
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "at": "2026-10-24T06:05:55.439Z"
-      },
-      {
-        "slug": "greek-tourism-report-2025-challenges",
-        "at": "2026-10-24T10:04:59.392Z"
-      },
-      {
-        "slug": "ren-olympiakos-match-date-change-france-strike",
-        "at": "2026-10-24T13:14:49.787Z"
-      }
-    ],
-    "fb": [
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "at": "2026-10-24T06:05:43.699Z"
-      },
-      {
-        "slug": "greece-housing-tax-measures-2026-2027",
-        "at": "2026-10-24T08:39:27.451Z"
-      },
-      {
-        "slug": "greek-tourism-report-2025-challenges",
-        "at": "2026-10-24T10:04:49.543Z"
-      },
-      {
-        "slug": "ren-olympiakos-match-date-change-france-strike",
-        "at": "2026-10-24T13:14:34.862Z"
-      }
-    ]
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-24",
+      "count": 8,
+      "rejected": 5
+    },
     {
       "date": "2026-10-23",
       "count": 9,
