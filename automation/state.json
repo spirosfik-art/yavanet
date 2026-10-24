@@ -2206,7 +2206,10 @@
     "5711066de56b": 1792849170421,
     "1a5faafe82a7": 1792850585229,
     "0df6d06932e5": 1792850585229,
-    "71f9cc1c2a65": 1792850585229
+    "71f9cc1c2a65": 1792850585229,
+    "ed7af0d43c8c": 1792855844814,
+    "42a5e819fcfa": 1792855844814,
+    "d5262a6d1dde": 1792855844814
   },
   "pending": {
     "0f4bb6": {
@@ -2325,12 +2328,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T15:02:51.568Z",
-      "items": 10
+      "at": "2026-10-24T15:30:26.884Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T15:02:52.113Z",
+      "at": "2026-10-24T15:30:27.653Z",
       "items": 4
     },
     "civilprotection": {
@@ -2341,27 +2344,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T15:02:53.254Z",
+      "at": "2026-10-24T15:30:29.999Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T15:02:53.639Z",
+      "at": "2026-10-24T15:30:30.184Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T15:02:54.305Z",
+      "at": "2026-10-24T15:30:30.918Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T15:02:54.996Z",
+      "at": "2026-10-24T15:30:31.733Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T15:02:55.829Z",
+      "at": "2026-10-24T15:30:32.283Z",
       "items": 10
     },
     "toi-greece": {
@@ -2372,22 +2375,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T15:02:56.248Z",
+      "at": "2026-10-24T15:30:32.791Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T15:02:56.676Z",
+      "at": "2026-10-24T15:30:33.109Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T15:02:56.889Z",
+      "at": "2026-10-24T15:30:33.875Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T15:02:57.030Z",
+      "at": "2026-10-24T15:30:34.321Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2397,12 +2400,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T15:02:52.420Z",
+      "at": "2026-10-24T15:30:28.598Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T15:02:57.568Z",
+      "at": "2026-10-24T15:30:35.062Z",
       "items": 0
     },
     "hcg": {
@@ -2413,39 +2416,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T15:02:58.668Z",
+      "at": "2026-10-24T15:30:37.009Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T15:02:58.938Z",
+      "at": "2026-10-24T15:30:37.259Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T15:02:59.196Z",
+      "at": "2026-10-24T15:30:37.451Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T15:02:59.475Z",
+      "at": "2026-10-24T15:30:37.883Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T15:02:59.841Z",
-      "items": 5
+      "at": "2026-10-24T15:30:38.247Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T15:03:00.252Z",
+      "at": "2026-10-24T15:30:38.697Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-24",
-    "count": 6,
+    "count": 8,
     "published": [
       {
         "slug": "greece-tourism-28-million-travelers-2026",
@@ -2493,6 +2496,18 @@
         "slug": "two-earthquakes-karpathos",
         "title": "Two minor earthquakes recorded off Karpathos",
         "at": "2026-10-24T13:34:53+03:00",
+        "section": "travel"
+      },
+      {
+        "slug": "sinai-monastery-agreement-egypt-greece",
+        "title": "New Agreement Secures the Future of Saint Catherine's Monastery",
+        "at": "2026-10-24T18:31:22+03:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "athens-ports-ferry-departures-updates",
+        "title": "Greek Ferry Schedules: Latest Updates From the Ports",
+        "at": "2026-10-24T18:31:59+03:00",
         "section": "travel"
       }
     ],
@@ -2691,13 +2706,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T14:03:05.229Z",
+    "at": "2026-10-24T15:30:44.814Z",
     "considered": 3,
-    "picked": 1,
+    "picked": 2,
     "items": [
-      "✓ ingr | Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω",
-      "· ingr | Ψυχολόγοι κατά Άδωνι: Νομοθετείτε για εμάς χωρίς εμάς – Το νομοσχέδιο που διχάζει τον κλάδ",
-      "· ert | Σεούλ: Τουριστικό λεωφορείο μετατρέπεται σε εφιάλτη με επιθέσεις από… ζόμπι"
+      "· ingr | Θεώνη Κουφονικολάκου: Απόλυτος στόχος της ΕΛΑΣ η στρατηγική και εκλογική νίκη επί της ΝΔ",
+      "✓ gct | Gerapetritis: Sinai Monastery Agreement Secures Its Future After 1,500 Years",
+      "✓ gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
     ]
   },
   "evergreenDone": [
