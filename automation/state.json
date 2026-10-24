@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "a14e3c4ed975": 1791588999200,
-    "13e391930d7d": 1791589873911,
     "5564661a2e4b": 1791590538916,
     "415bd8d1ca7a": 1791592575066,
     "885dd7f4cd4f": 1791592575066,
@@ -2236,7 +2234,10 @@
     "4fb6c9db63fa": 1792796682816,
     "3fa935b0b16b": 1792796682816,
     "1ddea8b53f83": 1792796682816,
-    "1e747bbfe720": 1792796682816
+    "1e747bbfe720": 1792796682816,
+    "bbb338ebe48a": 1792800023162,
+    "067db93ebadb": 1792800023163,
+    "346b977a5370": 1792800023163
   },
   "pending": {
     "fc9338": {
@@ -2558,12 +2559,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-23T23:33:52.229Z",
+      "at": "2026-10-24T00:00:11.488Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-23T23:33:53.030Z",
+      "at": "2026-10-24T00:00:12.266Z",
       "items": 4
     },
     "civilprotection": {
@@ -2574,27 +2575,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-23T23:33:54.696Z",
+      "at": "2026-10-24T00:00:14.580Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-23T23:33:55.143Z",
+      "at": "2026-10-24T00:00:14.765Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-23T23:33:56.193Z",
+      "at": "2026-10-24T00:00:15.513Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-23T23:33:56.937Z",
+      "at": "2026-10-24T00:00:16.320Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-23T23:33:57.661Z",
+      "at": "2026-10-24T00:00:16.870Z",
       "items": 10
     },
     "toi-greece": {
@@ -2605,22 +2606,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-23T23:33:58.273Z",
+      "at": "2026-10-24T00:00:17.445Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-23T23:33:58.469Z",
+      "at": "2026-10-24T00:00:17.771Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-23T23:33:59.239Z",
+      "at": "2026-10-24T00:00:18.048Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T23:33:59.773Z",
+      "at": "2026-10-24T00:00:18.408Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2630,12 +2631,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-23T23:33:53.645Z",
+      "at": "2026-10-24T00:00:12.833Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-23T23:34:00.443Z",
+      "at": "2026-10-24T00:00:19.104Z",
       "items": 0
     },
     "hcg": {
@@ -2646,32 +2647,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-23T23:34:01.762Z",
+      "at": "2026-10-24T00:00:20.933Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-23T23:34:01.970Z",
+      "at": "2026-10-24T00:00:21.181Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-23T23:34:02.160Z",
+      "at": "2026-10-24T00:00:21.370Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-23T23:34:02.357Z",
+      "at": "2026-10-24T00:00:21.637Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-23T23:34:02.755Z",
+      "at": "2026-10-24T00:00:22.003Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-23T23:34:03.258Z",
+      "at": "2026-10-24T00:00:22.419Z",
       "items": 6
     }
   },
@@ -2835,16 +2836,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-23T23:04:42.816Z",
-    "considered": 6,
+    "at": "2026-10-24T00:00:23.163Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· gct | Jordan Church Shooting Kills Seven, King Abdullah Vows Retaliation",
-      "· gct | Greece Approves Breakthrough Pancreatic Cancer Treatment",
-      "· gct | Ancient Greek Horseman Statue Returns to Acropolis Museum",
-      "· gct | Greece and Egypt Move To Expand Maritime Economic Zones",
-      "· gct | Protein Pudding Recalled Over Possible Glass Fragments",
-      "· gn-iefimerida | Αδιανόητο περιστατικό σε πτήση προς Βοστώνη: 48χρονος παρενοχλούσε ανήλικη ενώ ήταν με τα "
+      "· ingr | O ισραηλινός στρατός κατοχής διεξάγει μεγάλης κλίμακας επιχειρήσεις στη Δυτική Όχθη",
+      "· gct | Rome Honours Ecumenical Patriarch Bartholomew With Honorary Doctorate",
+      "· gn-iefimerida | Γεωργιάδης για το ΝΠΔΔ των ψυχολόγων: Κανείς δεν χάνει τα επαγγελματικά του δικαιώματα -Ψυ"
     ]
   },
   "evergreenDone": [
