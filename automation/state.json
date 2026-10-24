@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "1f60aee90255": 1791611525521,
-    "18d74ee5d433": 1791612140739,
-    "b89fa317851c": 1791612140739,
     "2344e32712b5": 1791613655276,
     "5f5dfd96cdb2": 1791613655276,
     "0e24ce31a329": 1791613655276,
@@ -2231,7 +2228,13 @@
     "dfe8fb8422f1": 1792818872101,
     "38bec3dfea89": 1792818872101,
     "5b45471799d1": 1792818872101,
-    "9f2d552942e9": 1792820484606
+    "9f2d552942e9": 1792820484606,
+    "faa899bea63e": 1792821943642,
+    "a799a2ad8c9d": 1792821943642,
+    "1ad0438dc2d5": 1792821943642,
+    "bf24b8d4ca29": 1792821943642,
+    "fdd983b661e0": 1792821943642,
+    "d0d7d5fb8bae": 1792821943642
   },
   "pending": {},
   "sourceStatus": {
@@ -2243,12 +2246,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T05:41:12.640Z",
-      "items": 0
+      "at": "2026-10-24T06:05:31.439Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T05:41:13.513Z",
+      "at": "2026-10-24T06:05:32.230Z",
       "items": 4
     },
     "civilprotection": {
@@ -2259,27 +2262,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T05:41:15.204Z",
+      "at": "2026-10-24T06:05:34.112Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T05:41:15.367Z",
+      "at": "2026-10-24T06:05:34.528Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T05:41:16.375Z",
+      "at": "2026-10-24T06:05:35.620Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T05:41:17.204Z",
+      "at": "2026-10-24T06:05:36.481Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T05:41:17.803Z",
+      "at": "2026-10-24T06:05:37.240Z",
       "items": 10
     },
     "toi-greece": {
@@ -2290,22 +2293,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T05:41:18.406Z",
+      "at": "2026-10-24T06:05:37.857Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T05:41:18.696Z",
+      "at": "2026-10-24T06:05:38.103Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T05:41:19.407Z",
+      "at": "2026-10-24T06:05:38.517Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T05:41:19.614Z",
+      "at": "2026-10-24T06:05:39.061Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2315,12 +2318,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T05:41:13.938Z",
+      "at": "2026-10-24T06:05:32.808Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T05:41:20.410Z",
+      "at": "2026-10-24T06:05:39.835Z",
       "items": 0
     },
     "hcg": {
@@ -2331,33 +2334,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T05:41:21.944Z",
+      "at": "2026-10-24T06:05:41.155Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T05:41:22.285Z",
-      "items": 1
+      "at": "2026-10-24T06:05:41.340Z",
+      "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T05:41:22.525Z",
+      "at": "2026-10-24T06:05:41.484Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T05:41:22.763Z",
+      "at": "2026-10-24T06:05:41.627Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T05:41:23.188Z",
+      "at": "2026-10-24T06:05:41.992Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T05:41:23.611Z",
-      "items": 9
+      "at": "2026-10-24T06:05:42.358Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2404,8 +2407,18 @@
       }
     ],
     "errors": [],
-    "ig": [],
-    "fb": []
+    "ig": [
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "at": "2026-10-24T06:05:55.439Z"
+      }
+    ],
+    "fb": [
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "at": "2026-10-24T06:05:43.699Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2551,11 +2564,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T05:41:24.606Z",
-    "considered": 1,
+    "at": "2026-10-24T06:05:43.642Z",
+    "considered": 6,
     "picked": 0,
     "items": [
-      "· gct | Woman Rearrested After 212 Animals Found in Squalid Conditions in Thermi"
+      "· gct | Verdi’s Nabucco Opens a Big New Season in Heraklion",
+      "· ingr | Ανδρουλάκης: 40.000 νέες και ανακαινισμένες κατοικίες μέσω GenRent – Το πρόγραμμα του ΠΑΣΟ",
+      "· gct | Manos Loizos Legacy: 89 Years On, Greece Still Sings His Songs",
+      "· gct | Watchdog Finds Milos Hotel Should Never Have Got Permit",
+      "· gct | Maria Sakkari Chases One Last Ranking Boost in Tokyo",
+      "· gct | South Melbourne Win Bonus Point Shootout Against Sydney United 58 at Lakeside"
     ]
   },
   "evergreenDone": [
@@ -2598,5 +2616,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greece-severe-weather-storm-october-2026",
+      "url": "https://yavanet.gr/a/greece-severe-weather-storm-october-2026/",
+      "at": "2026-10-24T06:05:43.698Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-severe-weather-storm-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-severe-weather-storm-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "סערה ביוון: מזג אוויר קיצוני בדרך למדינה",
+        "title_en": "Dangerous Storms Approaching Greece According to Forecasters",
+        "dek_he": "מערכת מזג אוויר מסוכנת בדרך ליוון, עם התראות על גשמים חזקים וסערות באזורים שונים ברחבי המדינה.",
+        "dek_en": "A dangerous weather system is approaching Greece, bringing warnings of heavy rainfall and storms to various regions.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15938543/pexels-photo-15938543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "סערה ביוון: מזג אוויר קיצוני בדרך למדינה\n\nמערכת מזג אוויר מסוכנת בדרך ליוון, עם התראות על גשמים חזקים וסערות באזורים שונים ברחבי המדינה.\n\nhttps://yavanet.gr/a/greece-severe-weather-storm-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Dangerous Storms Approaching Greece According to Forecasters\n\nA dangerous weather system is approaching Greece, bringing warnings of heavy rainfall and storms to various regions.\n\nhttps://yavanet.gr/en/a/greece-severe-weather-storm-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/greece-severe-weather-storm-october-2026.jpg",
+          "caption": "סערה ביוון: מזג אוויר קיצוני בדרך למדינה\n\nמערכת מזג אוויר מסוכנת בדרך ליוון, עם התראות על גשמים חזקים וסערות באזורים שונים ברחבי המדינה.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט",
+          "story_url": "https://yavanet.gr/igc/greece-severe-weather-storm-october-2026-story.jpg"
+        }
+      }
+    }
+  ]
 }
