@@ -14,7 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "67f716a097c7": 1791640280284,
     "ced02e718a24": 1791642209696,
     "edcc04c7029a": 1791642209696,
     "a0d9ee6fa439": 1791643852237,
@@ -2209,9 +2208,119 @@
     "8570d4bc8d9f": 1792845643979,
     "349aacb4d1e2": 1792847674806,
     "f74ac2911669": 1792847674806,
-    "5711066de56b": 1792849170421
+    "5711066de56b": 1792849170421,
+    "1a5faafe82a7": 1792850585229,
+    "0df6d06932e5": 1792850585229,
+    "71f9cc1c2a65": 1792850585229
   },
-  "pending": {},
+  "pending": {
+    "0f4bb6": {
+      "createdAt": 1792850644089,
+      "item": {
+        "title": "Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω από 5.000 ευρώ σε δύο ημέρες",
+        "url": "https://www.in.gr/2026/10/24/greece/synelifthi-zeygari-nearon-portofoladon-sto-aerodromio-el-venizelos-eixan-ksafrisei-pano-apo-5-000-eyro-se-dyo-imeres/",
+        "summary": "Πρόκειται για αλλοδαπούς, 21χρονος και 24χρονη που συνελήφθησαν στο αεροδρόμιο κατηγορούμενοι για διακεκριμένες κλοπές κατά συναυτουργία και κατ’ εξακολούθηση.\n The post Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω από 5.000 ευρώ σε δύο ημέρες appeared first on in.gr .",
+        "published": "Sat, 24 Oct 2026 16:47:43 +0300",
+        "id": "1a5faafe82a7",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "1a5faafe82a7",
+        "section": "travel",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Young pickpocketing couple arrested at Athens Eleftherios Venizelos Airport after stealing over 5,000 euros in two days – crucial safety warning for Israeli tourists arriving at or departing from the main airport hub.",
+        "item": {
+          "title": "Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω από 5.000 ευρώ σε δύο ημέρες",
+          "url": "https://www.in.gr/2026/10/24/greece/synelifthi-zeygari-nearon-portofoladon-sto-aerodromio-el-venizelos-eixan-ksafrisei-pano-apo-5-000-eyro-se-dyo-imeres/",
+          "summary": "Πρόκειται για αλλοδαπούς, 21χρονος και 24χρονη που συνελήφθησαν στο αεροδρόμιο κατηγορούμενοι για διακεκριμένες κλοπές κατά συναυτουργία και κατ’ εξακολούθηση.\n The post Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω από 5.000 ευρώ σε δύο ημέρες appeared first on in.gr .",
+          "published": "Sat, 24 Oct 2026 16:47:43 +0300",
+          "id": "1a5faafe82a7",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "pickpockets-arrested-athens-airport",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 37.9364,
+          "lng": 23.9445
+        },
+        "strike": null,
+        "alert": {
+          "he": "אזהרה לתיירים",
+          "en": "Tourist warning"
+        },
+        "imageKey": "people",
+        "imageQuery": "athens airport terminal people",
+        "he": {
+          "title": "שדה התעופה באתונה: נעצרו צעירים שגנבו אלפי אירו",
+          "seoTitle": "טיסות לאתונה: מעצר כיוסים בשדה התעופה אל פניזלוס",
+          "seoDesc": "זוג צעירים נעצר בשדה התעופה באתונה לאחר שגנבו מאות נוסעים סכום של מעל 5,000 אירו ביומיים. כל הפרטים לתיירים הישראלים ביוון.",
+          "keywords": [
+            "טיסות לאתונה",
+            "שדה התעופה באתונה",
+            "חופשה ביוון",
+            "אזהרה לתיירים",
+            "יוון"
+          ],
+          "dek": "משטרת נמל התעופה הבינלאומי באתונה עצרה זוג צעירים בחשד לסדרת גניבות מכсים של נוסעים חסרי חשד.",
+          "tldr": [
+            "שני חשודים, בן 21 ובת 24, נעצרו במסוף הנוסעים.",
+            "השניים פעלו במשך יומיים וגנבו סכום העולה על 5,000 אירו.",
+            "התיקים והממצאים הועברו להמשך טיפול מערכת המשפט."
+          ],
+          "means": "מה זה אומר עליכם? אם אתם נוחתים בקרוב בשדה התעופה באתונה או ממריאים חזרה ישראל, שימו לב היטב לחפצים האישיים שלכם באזורים העמוסים כמו טרמינל הנוסעים, עמדות הצ'ק-אין ואזורי האיסוף. הקפידו לשמור על הארנקים והדרכונים קרוב לגוף.",
+          "body": "## מעצר בשדה התעופה של אתונה\n\nשוטרים ממחלקת האבטחה של משטרת נמל התעופה באתונה עצרו שני אזרחים זרים, צעיר בן 21 וצעירה בת 24, בחשד לביצוע עבירות של גניבה שיטתית וחוזרת בתוך מתחם הטרמינל.\n\nהמעצר התבצע בעקבות פעילות שוטפים של כוחות השיטור הסמויים והגלויים באזור התעופה, רגע לאחר שהשניים נתפסו בשעת מעשה לאחר שחטפו ארנק שהכיל כסף מזומן מידיו של נוסע תמים.\n\n## שלל של אלפי אירו ביומיים בלבד\n\nמחקירת המקרה שעברה לידי רשויות החקירה עולה כי השניים הספיקו לבצע לפחות שני מקרי גניבה דומים נוספים במהלך הימים הקודמים בתוך שטח הנמל. הסכום הכולל של הכספים והרכוש שהצליחו השניים לשלשל לכיסם בתוך יומיים בלבד עולה על 5,000 אירו.\n\nהחשודים הובאו בפני התובע המשפטי המוסמך להמשך הליכים משפטיים."
+        },
+        "en": {
+          "title": "Athens Airport: Young Pickpocket Couple Arrested for Theft",
+          "seoTitle": "Athens Airport Pickpockets Arrested After Stealing €5,000",
+          "seoDesc": "A young couple was arrested at Athens International Airport for stealing over €5,000 from passengers in two days. Essential safety tips for travelers.",
+          "keywords": [
+            "Athens airport",
+            "Greece tourists",
+            "Athens travel safety",
+            "pickpockets airport",
+            "Greece"
+          ],
+          "dek": "Athens airport police arrested a young couple suspected of a string of pickpocketing incidents targeting passengers at the terminal.",
+          "tldr": [
+            "A 21-year-old man and a 24-year-old woman were arrested at the airport.",
+            "The suspects stole over €5,000 from passengers in just two days.",
+            "The case has been handed over to the public prosecutor."
+          ],
+          "means": "What it means for you: If you are traveling through Athens airport, keep a close eye on your bags, wallets, and travel documents in crowded areas like check-in counters and arrival halls. Always stay alert.",
+          "body": "## Arrest at Athens International Airport\n\nOfficers from the airport security department in Athens arrested two foreign nationals, a 21-year-old man and a 24-year-old woman, on charges of coordinated and repeated grand theft inside the passenger terminal.\n\nThe arrest took place shortly after the suspects were spotted by patrolling officers lifting a wallet containing cash from an unsuspecting traveler's possession.\n\n## Over Five Thousand Euros Stolen in Two Days\n\nAccording to the preliminary investigation conducted by the airport security division, the two suspects were linked to at least two additional theft incidents targeting passengers over the preceding days. The total economic value of the stolen cash and items exceeds €5,000.\n\nThe suspects were led before the competent public prosecutor for further legal proceedings."
+        }
+      },
+      "text": "Vita.gr \n Οι αρθρώσεις «σκουριάζουν»; Το μυστικό για γερά γόνατα χωρίς πόνο\n Spotlight «Αν το θέλουμε, θα νικήσουμε το Ιράν» – Η εμμονή με την αχαλίνωτη βία γεννά αυταπάτες στην Ουάσιγκτον \n Εκπνέει η προθεσμία για το Πόθεν Έσχες 2026 - Περιθώριο ενός μήνα για τις διορθώσεις \n «Ο Αγών μου» του Χίτλερ βρέθηκε στο σπίτι του μακελάρη της Τραπ - «Εκδικήθηκα Άραβες για τα επεισόδια» είπε στην αστυνομία \n Η στιγμή που δύο εκπαιδευτικά αεροσκάφη συγκρούονται στον αέρα - Νεκροί τέσσερις πιλότοι \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Συνελήφθησαν από αστυνομικούς του Τμήματος Ασφαλείας της Διεύθυνσης Αστυνόμευσης Αερολιμένα Αθηνών/Γ.Α.Δ.Α., μεσημβρινές ώρες χθες (23-10-2026) -2- αλλοδαποί, 21χρονος και 24χρονη, κατηγορούμενοι για διακεκριμένες κλοπές κατά συναυτουργία και κατ’ εξακολούθηση.\n Ειδικότερα, σύμφωνα με την Αστυνομία περιπολούντες αστυνομικοί συνέλαβαν τους δύο δράστες λίγο μετά την αφαίρεση πορτοφολιού από επιβάτη, το οποίο περιείχε χρηματικό ποσό, στον χώρο του αεροδρομίου.\n 5.000 ευρώ σε δύο ημέρες\n Από την έως τώρα προανακριτική έρευνα του Τμήματος Ασφαλείας της Διεύθυνσης Αστυνόμευσης Αερολιμένα Αθηνών, έχουν εξιχνιαστεί ακόμα 2 περιπτώσεις κλοπών χρηματικών ποσών από επιβάτες που διέπραξαν οι 2 δράστες διαδοχικά την 22-10-2026, με το συνολικό οικονομικό όφελος να υπερβαίνει το χρηματικό ποσό των -5.000- ευρώ.\n Οι συλληφθέντες οδηγήθηκαν στον αρμόδιο Εισαγγελέα.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Χαλάνδρι: Συνελήφθη 78χρονος που έκλεβε σταθμευμένα αυτοκίνητα – Όπλα και σφαίρες βρέθηκαν στο σπίτι του \n LIVE: Άρσεναλ – Έβερτον \n Ο βασιλιάς της Ιορδανίας διατάζει αντίδραση με «σιδηρά πυγμή» μετά τη σφαγή στην Ελληνική Ορθόδοξη εκκλησία \n Γεραπετρίτης για Μονή Σινά: Σήμερα είναι μια ιστορική ημέρα για τον Ελληνισμό και την Ορθοδοξία \n Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω από 5.000 ευρώ σε δύο ημέρες \n Θεσσαλονίκη: Κοσμοσυρροή στο λιμάνι για τη φρεγάτα «Κίμων» – Το πρόγραμμα επισκέψεων \n Ψυχολόγοι κατά Άδωνι: Νομοθετείτε για εμάς χωρίς εμάς – Το νομοσχέδιο που διχάζει τον κλάδο \n Μετά την επίθεση στη Χεβρώνα, το Ισραήλ πολιορκεί Δυτική Όχθη – 2.200 Παλαιστίνιοι εκδιώκονται από τα σπίτια τους \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Αεροδρόμιο Αθήνας: Συνελήφθη νεαρό ζευγάρι πορτοφολάδων για κλοπές",
+        "dek": "Η αστυνομία του αεροδρομίου της Αθήνας συνέλαβε ένα νεαρό ζευγάρι που φέρεται να εμπλέκεται σε σειρά κλοπών σε βάρος επιβατών στον τερματικό σταθμό.",
+        "tldr": [
+          "Ένας 21χρονος και μια 24χρονη συνελήφθησαν στο αεροδρόμιο.",
+          "Οι ύποπτοι έκλεψαν περισσότερα από 5.000 ευρώ από επιβάτες σε μόλις δύο ημέρες.",
+          "Η υπόθεση διαβιβάστηκε στον εισαγγελέα."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2221,12 +2330,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T13:39:19.441Z",
+      "at": "2026-10-24T14:02:48.783Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T13:39:20.187Z",
+      "at": "2026-10-24T14:02:49.579Z",
       "items": 4
     },
     "civilprotection": {
@@ -2237,27 +2346,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T13:39:22.198Z",
+      "at": "2026-10-24T14:02:51.410Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T13:39:22.305Z",
+      "at": "2026-10-24T14:02:51.852Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T13:39:23.334Z",
+      "at": "2026-10-24T14:02:52.637Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T13:39:24.251Z",
-      "items": 3
+      "at": "2026-10-24T14:02:53.458Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T13:39:25.107Z",
+      "at": "2026-10-24T14:02:54.258Z",
       "items": 10
     },
     "toi-greece": {
@@ -2268,22 +2377,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T13:39:25.724Z",
+      "at": "2026-10-24T14:02:54.763Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T13:39:25.827Z",
+      "at": "2026-10-24T14:02:55.058Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T13:39:25.882Z",
-      "items": 5
+      "at": "2026-10-24T14:02:55.836Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T13:39:26.084Z",
+      "at": "2026-10-24T14:02:56.352Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2293,12 +2402,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T13:39:21.186Z",
+      "at": "2026-10-24T14:02:50.250Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T13:39:26.724Z",
+      "at": "2026-10-24T14:02:57.090Z",
       "items": 0
     },
     "hcg": {
@@ -2309,33 +2418,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T13:39:27.921Z",
+      "at": "2026-10-24T14:02:58.440Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T13:39:28.114Z",
+      "at": "2026-10-24T14:02:58.632Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T13:39:28.313Z",
+      "at": "2026-10-24T14:02:58.820Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T13:39:29.030Z",
+      "at": "2026-10-24T14:02:59.087Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T13:39:29.376Z",
+      "at": "2026-10-24T14:02:59.383Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T13:39:29.793Z",
-      "items": 6
+      "at": "2026-10-24T14:02:59.736Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2587,11 +2696,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T13:39:30.421Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-10-24T14:03:05.229Z",
+    "considered": 3,
+    "picked": 1,
     "items": [
-      "· ingr | Μετά την επίθεση στη Χεβρώνα, το Ισραήλ πολιορκεί Δυτική Όχθη – 2.200 Παλαιστίνιοι εκδιώκο"
+      "✓ ingr | Συνελήφθη ζευγάρι νεαρών πορτοφολάδων στο αεροδρόμιο «Ελ. Βενιζέλος» – Είχαν ξαφρίσει πάνω",
+      "· ingr | Ψυχολόγοι κατά Άδωνι: Νομοθετείτε για εμάς χωρίς εμάς – Το νομοσχέδιο που διχάζει τον κλάδ",
+      "· ert | Σεούλ: Τουριστικό λεωφορείο μετατρέπεται σε εφιάλτη με επιθέσεις από… ζόμπι"
     ]
   },
   "evergreenDone": [
