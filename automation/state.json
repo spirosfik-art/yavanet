@@ -14,14 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "33b8cd0f911b": 1791628640734,
-    "ed7b060414fc": 1791629496132,
-    "2d27dc19a721": 1791629496132,
-    "f9b313bcb217": 1791629496132,
-    "b531c98563cb": 1791629496132,
-    "fc0c6d349eb9": 1791630083899,
-    "1a0df8354140": 1791630083899,
-    "2d3cbeafd7bd": 1791630083899,
     "6f546897efb9": 1791631442963,
     "81819e0df3b0": 1791632212310,
     "6ce3555e30d6": 1791632212310,
@@ -2224,7 +2216,12 @@
     "008d935cdb68": 1792838075239,
     "a911a5e65ce6": 1792838075239,
     "5d204e94e749": 1792838075239,
-    "51bbe6f8b1d5": 1792838075239
+    "51bbe6f8b1d5": 1792838075239,
+    "9c6e4d8ffd00": 1792839774512,
+    "954d6da6b1ef": 1792839774512,
+    "9e70c801ed5c": 1792839774512,
+    "9acdc27971f1": 1792839774512,
+    "73b3c81d467e": 1792839774512
   },
   "pending": {},
   "sourceStatus": {
@@ -2236,12 +2233,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T10:34:22.113Z",
+      "at": "2026-10-24T11:02:45.123Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T10:34:22.620Z",
+      "at": "2026-10-24T11:02:45.677Z",
       "items": 4
     },
     "civilprotection": {
@@ -2252,27 +2249,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T10:34:24.301Z",
+      "at": "2026-10-24T11:02:47.115Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T10:34:24.430Z",
+      "at": "2026-10-24T11:02:47.492Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T10:34:25.079Z",
+      "at": "2026-10-24T11:02:48.170Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T10:34:25.782Z",
-      "items": 0
+      "at": "2026-10-24T11:02:48.868Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T10:34:26.625Z",
+      "at": "2026-10-24T11:02:49.314Z",
       "items": 10
     },
     "toi-greece": {
@@ -2283,22 +2280,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T10:34:27.035Z",
+      "at": "2026-10-24T11:02:49.734Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T10:34:27.124Z",
+      "at": "2026-10-24T11:02:49.990Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T10:34:27.188Z",
-      "items": 3
+      "at": "2026-10-24T11:02:50.549Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T10:34:27.316Z",
+      "at": "2026-10-24T11:02:50.948Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2308,12 +2305,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T10:34:23.519Z",
+      "at": "2026-10-24T11:02:46.275Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T10:34:27.744Z",
+      "at": "2026-10-24T11:02:51.443Z",
       "items": 0
     },
     "hcg": {
@@ -2324,33 +2321,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T10:34:29.036Z",
+      "at": "2026-10-24T11:02:52.467Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T10:34:29.222Z",
+      "at": "2026-10-24T11:02:52.634Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T10:34:29.416Z",
-      "items": 4
+      "at": "2026-10-24T11:02:52.849Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T10:34:29.654Z",
+      "at": "2026-10-24T11:02:53.080Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T10:34:29.989Z",
+      "at": "2026-10-24T11:02:53.409Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T10:34:30.279Z",
-      "items": 6
+      "at": "2026-10-24T11:02:53.821Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2589,14 +2586,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T10:34:35.239Z",
-    "considered": 4,
-    "picked": 1,
+    "at": "2026-10-24T11:02:54.512Z",
+    "considered": 5,
+    "picked": 0,
     "items": [
-      "✓ naftemporiki | Δύο μικροί σεισμοί στην Κάρπαθο σε διάστημα τριών λεπτών",
-      "· gct | Jordan Tightens Security After Deadly Attack on Greek Orthodox Church",
-      "· gct | Sinai Monastery Agreement Reached as Archbishop Symeon Prepares to Sign Deal with Egypt",
-      "· ingr | Γαλλία: Η αστυνομία απαγορεύει τη συγκέντρωση στη Βαστίλη ώρες πριν την έναρξή της – «Θα δ"
+      "· gct | Turkey Calls on Greece to Recognise Elected Muftis in Thrace",
+      "· ert | Ρεκόρ απασχόλησης στον τουρισμό εν μέσω ελλείψεων",
+      "· gct | Patras Historic Apollo Theatre Set for €20 Million Restoration",
+      "· gct | Greek MS Patient Launches Platform to Combat Misinformation",
+      "· ingr | Κάρπαθος: Δύο μικρές σεισμικές δονήσεις μέσα σε τρία λεπτά"
     ]
   },
   "evergreenDone": [
