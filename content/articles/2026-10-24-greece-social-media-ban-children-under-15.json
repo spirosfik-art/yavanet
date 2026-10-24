@@ -1,0 +1,60 @@
+{
+  "slug": "greece-social-media-ban-children-under-15",
+  "section": "israelis",
+  "publishedAt": "2026-10-24T04:18:24+03:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/24/greece-social-media-ban-children-under-15/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A person holding a smartphone with music streaming app in front of a laptop screen indoors.",
+    "credit": "Photo: John (Giannis) Tekeridis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/person-using-smartphone-340103/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון: איסור שימוש ברשתות חברתיות מתחת לגיל 15 החל מ-2027",
+    "dek": "הפרלמנט ביוון אישר חוק חדש המטיל הגבלה על קטינים. פלטפורמות דיגיטליות יידרשו לפתח מערכות לאימות גיל.",
+    "tldr": [
+      "החוק התקבל בפרלמנט ב-23 באוקטובר 2026.",
+      "האיסור ייכנס לתוקף ב-1 בינואר 2027.",
+      "חברות הטכנולוגיה מחויבות להיערך לאימות גיל."
+    ],
+    "means": "הצעד נוגע למשפחות החיות ביוון וכן לתיירים השוהים במדינה, ומחייב היערכות מצד חברות הטכנולוגיה וההורים.",
+    "body": "הפרלמנט ביוון אישר ביום שישי, 23 באוקטובר 2026, חקיקה חדשה האוסרת על ילדים מתחת לגיל 15 להשתמש ברשתות חברתיות. החוק צפוי להיכנס לתוקף ב-1 בינואר 2027. ראש הממשלה קיריאקוס מיצוטקיס ציין כי לחברות הטכנולוגיה יש כחודשיים וחצי לפתח מערכות לאימות גיל תוך שמירה על פרטיות המשתמשים. המהלך נועד להתמודד עם השפעות שליליות של שימוש מופרז במסכים על בריאות נפשית, שינה וריכוז של צעירים. יוון מצטרפת בכך למדינות נוספות בעולם הפועלות להגבלת גישה לרשתות חברתיות עבור קטינים, וכן לוקחת חלק במאמץ משותף של שבע מדינות באיחוד האירופי למציאת פתרון אחיד לאימות גיל."
+  },
+  "en": {
+    "title": "Greece Bans Social Media for Children Under 15 From 2027",
+    "dek": "The Greek Parliament passed legislation restricting minors' access to social media, with platforms required to implement age verification.",
+    "tldr": [
+      "The bill was passed on October 23, 2026.",
+      "The ban takes effect on January 1, 2027.",
+      "Social media platforms must develop age verification systems."
+    ],
+    "means": "This development affects families residing in Greece as well as visitors, establishing new digital regulations across the country.",
+    "body": "The Greek Parliament approved legislation on Friday, October 23, 2026, banning children under 15 from using social media, with the restriction scheduled to take effect on January 1, 2027. Prime Minister Kyriakos Mitsotakis stated that platforms have approximately two and a half months to develop systems that verify users' ages while protecting privacy. The measures aim to address concerns regarding screen time, mental health, sleep, and concentration among minors. Greece joins a growing international effort and cooperates with European Union member states to establish consistent age verification safeguards."
+  },
+  "meta": {
+    "itemId": "b850b1cd2d02",
+    "imageQuery": "smartphone digital screen greece",
+    "sourceHash": "50fbe9771f62",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-24T01:18:25.056Z",
+    "official": false
+  }
+}
