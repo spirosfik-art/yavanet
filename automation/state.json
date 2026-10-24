@@ -2237,7 +2237,8 @@
     "9058c709c5c8": 1792823841655,
     "8b667ed1fd29": 1792823841655,
     "37861bb7c887": 1792823841655,
-    "13873c95ad32": 1792823841655
+    "13873c95ad32": 1792823841655,
+    "16f6dcd35858": 1792824071894
   },
   "pending": {
     "98cb6e": {
@@ -2353,12 +2354,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T06:37:09.117Z",
+      "at": "2026-10-24T06:40:59.099Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T06:37:09.868Z",
+      "at": "2026-10-24T06:41:00.001Z",
       "items": 4
     },
     "civilprotection": {
@@ -2369,27 +2370,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T06:37:11.212Z",
+      "at": "2026-10-24T06:41:01.526Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T06:37:11.568Z",
+      "at": "2026-10-24T06:41:01.655Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T06:37:12.483Z",
+      "at": "2026-10-24T06:41:02.839Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T06:37:13.282Z",
+      "at": "2026-10-24T06:41:03.560Z",
       "items": 6
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T06:37:13.715Z",
+      "at": "2026-10-24T06:41:03.997Z",
       "items": 10
     },
     "toi-greece": {
@@ -2400,22 +2401,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T06:37:14.251Z",
+      "at": "2026-10-24T06:41:04.609Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T06:37:14.614Z",
+      "at": "2026-10-24T06:41:04.746Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T06:37:15.357Z",
+      "at": "2026-10-24T06:41:05.323Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T06:37:15.517Z",
+      "at": "2026-10-24T06:41:05.557Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2425,12 +2426,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T06:37:10.419Z",
+      "at": "2026-10-24T06:41:00.613Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T06:37:16.201Z",
+      "at": "2026-10-24T06:41:06.208Z",
       "items": 0
     },
     "hcg": {
@@ -2441,32 +2442,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T06:37:17.778Z",
+      "at": "2026-10-24T06:41:08.987Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T06:37:18.049Z",
-      "items": 1
+      "at": "2026-10-24T06:41:09.203Z",
+      "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T06:37:18.237Z",
+      "at": "2026-10-24T06:41:09.390Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T06:37:18.494Z",
+      "at": "2026-10-24T06:41:09.596Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T06:37:18.890Z",
+      "at": "2026-10-24T06:41:09.976Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T06:37:19.309Z",
+      "at": "2026-10-24T06:41:10.418Z",
       "items": 8
     }
   },
@@ -2677,16 +2678,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T06:37:21.655Z",
-    "considered": 6,
-    "picked": 2,
+    "at": "2026-10-24T06:41:11.894Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· gct | Amazon MGM Studios Nears Decision on Next James Bond",
-      "✓ gct | Greek Tourism Faces New Challenges After Record-Breaking 2025",
-      "· gct | Greece-Cyprus Cable Slips Again as Nexans Eyes 2028 Restart and 2031 Completion",
-      "· gct | Greece Electricity Exports Surge, Generating €475 Million Surplus",
-      "✓ gct | Greece Unveils New Housing Measures to Ease Rent Pressures",
-      "· ingr | Ακίνητα: Πώς θα ανοίξουν τα κλειστά σπίτια – Το σχέδιο για ενοίκια και ΕΝΦΙΑ"
+      "· gn-iefimerida | Στεγαστικό: 11 νέα μέτρα για προσιτή στέγη -500 εκατ. ευρώ για ανακαινίσεις, φοροαπαλλαγές"
     ]
   },
   "evergreenDone": [
