@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "08ceb82ff07c": 1791625102021,
-    "639d24e8c2bb": 1791625912227,
-    "2e2dbaef004d": 1791626526744,
     "de86fc81cdd4": 1791627821785,
     "4fd7be5a4f34": 1791627821785,
     "56cc46412619": 1791627821785,
@@ -2239,12 +2236,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T09:34:45.045Z",
-      "items": 10
+      "at": "2026-10-24T10:04:39.133Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T09:34:45.683Z",
+      "at": "2026-10-24T10:04:39.848Z",
       "items": 4
     },
     "civilprotection": {
@@ -2255,27 +2252,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T09:34:47.150Z",
+      "at": "2026-10-24T10:04:41.814Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T09:34:47.359Z",
+      "at": "2026-10-24T10:04:42.205Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T09:34:48.180Z",
+      "at": "2026-10-24T10:04:43.070Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T09:34:48.953Z",
+      "at": "2026-10-24T10:04:43.946Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T09:34:49.819Z",
+      "at": "2026-10-24T10:04:44.404Z",
       "items": 10
     },
     "toi-greece": {
@@ -2286,22 +2283,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T09:34:50.289Z",
+      "at": "2026-10-24T10:04:44.990Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T09:34:50.574Z",
+      "at": "2026-10-24T10:04:45.125Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T09:34:51.213Z",
+      "at": "2026-10-24T10:04:45.760Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T09:34:51.663Z",
+      "at": "2026-10-24T10:04:45.965Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2311,12 +2308,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T09:34:46.180Z",
+      "at": "2026-10-24T10:04:40.569Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T09:34:52.366Z",
+      "at": "2026-10-24T10:04:46.641Z",
       "items": 0
     },
     "hcg": {
@@ -2327,32 +2324,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T09:34:53.622Z",
+      "at": "2026-10-24T10:04:48.043Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T09:34:53.855Z",
+      "at": "2026-10-24T10:04:48.240Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T09:34:54.044Z",
+      "at": "2026-10-24T10:04:48.435Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T09:34:54.223Z",
+      "at": "2026-10-24T10:04:48.709Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T09:34:54.550Z",
-      "items": 7
+      "at": "2026-10-24T10:04:49.046Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T09:34:54.904Z",
+      "at": "2026-10-24T10:04:49.494Z",
       "items": 8
     }
   },
@@ -2421,6 +2418,10 @@
       {
         "slug": "greece-severe-weather-storm-october-2026",
         "at": "2026-10-24T06:05:55.439Z"
+      },
+      {
+        "slug": "greek-tourism-report-2025-challenges",
+        "at": "2026-10-24T10:04:59.392Z"
       }
     ],
     "fb": [
@@ -2431,6 +2432,10 @@
       {
         "slug": "greece-housing-tax-measures-2026-2027",
         "at": "2026-10-24T08:39:27.451Z"
+      },
+      {
+        "slug": "greek-tourism-report-2025-challenges",
+        "at": "2026-10-24T10:04:49.543Z"
       }
     ]
   },
@@ -2626,5 +2631,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greek-tourism-report-2025-challenges",
+      "url": "https://yavanet.gr/a/greek-tourism-report-2025-challenges/",
+      "at": "2026-10-24T10:04:49.543Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greek-tourism-report-2025-challenges/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greek-tourism-report-2025-challenges/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שיא של תיירים ביוון ב-2025: האתגרים החדשים של ענף התיירות",
+        "title_en": "Greek Tourism Reaches Record Highs in 2025 Amid New Strategic Challenges",
+        "dek_he": "שנת 2025 הביאה עמה מספר שיא של כ-43.3 מיליון מבקרים ליוון והכנסות של כ-22.6 מיליארד אירו, אך מחקר חדש מזהיר מפני עומסים וחוסר איזון בין האזורים.",
+        "dek_en": "Greece welcomed 43.3 million visitors in 2025 and generated €22.6 billion in revenue, but a new report warns of destination strain and uneven distribution.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/6475991/pexels-photo-6475991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שיא של תיירים ביוון ב-2025: האתגרים החדשים של ענף התיירות\n\nשנת 2025 הביאה עמה מספר שיא של כ-43.3 מיליון מבקרים ליוון והכנסות של כ-22.6 מיליארד אירו, אך מחקר חדש מזהיר מפני עומסים וחוסר איזון בין האזורים.\n\nhttps://yavanet.gr/a/greek-tourism-report-2025-challenges/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greek Tourism Reaches Record Highs in 2025 Amid New Strategic Challenges\n\nGreece welcomed 43.3 million visitors in 2025 and generated €22.6 billion in revenue, but a new report warns of destination strain and uneven distribution.\n\nhttps://yavanet.gr/en/a/greek-tourism-report-2025-challenges/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/greek-tourism-report-2025-challenges.jpg",
+          "caption": "שיא של תיירים ביוון ב-2025: האתגרים החדשים של ענף התיירות\n\nשנת 2025 הביאה עמה מספר שיא של כ-43.3 מיליון מבקרים ליוון והכנסות של כ-22.6 מיליארד אירו, אך מחקר חדש מזהיר מפני עומסים וחוסר איזון בין האזורים.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/greek-tourism-report-2025-challenges-story.jpg"
+        }
+      }
+    }
+  ]
 }
