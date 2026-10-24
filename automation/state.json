@@ -14,10 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "de86fc81cdd4": 1791627821785,
-    "4fd7be5a4f34": 1791627821785,
-    "56cc46412619": 1791627821785,
-    "31bae9451d36": 1791627821785,
     "33b8cd0f911b": 1791628640734,
     "ed7b060414fc": 1791629496132,
     "2d27dc19a721": 1791629496132,
@@ -2224,7 +2220,11 @@
     "ead412f573ae": 1792829587994,
     "4f48088503c7": 1792829587994,
     "f759d2e9116e": 1792831183776,
-    "002d03eb0761": 1792831183776
+    "002d03eb0761": 1792831183776,
+    "008d935cdb68": 1792838075239,
+    "a911a5e65ce6": 1792838075239,
+    "5d204e94e749": 1792838075239,
+    "51bbe6f8b1d5": 1792838075239
   },
   "pending": {},
   "sourceStatus": {
@@ -2236,12 +2236,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T10:04:39.133Z",
+      "at": "2026-10-24T10:34:22.113Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T10:04:39.848Z",
+      "at": "2026-10-24T10:34:22.620Z",
       "items": 4
     },
     "civilprotection": {
@@ -2252,27 +2252,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T10:04:41.814Z",
+      "at": "2026-10-24T10:34:24.301Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T10:04:42.205Z",
+      "at": "2026-10-24T10:34:24.430Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T10:04:43.070Z",
+      "at": "2026-10-24T10:34:25.079Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T10:04:43.946Z",
+      "at": "2026-10-24T10:34:25.782Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T10:04:44.404Z",
+      "at": "2026-10-24T10:34:26.625Z",
       "items": 10
     },
     "toi-greece": {
@@ -2283,23 +2283,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T10:04:44.990Z",
+      "at": "2026-10-24T10:34:27.035Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T10:04:45.125Z",
+      "at": "2026-10-24T10:34:27.124Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T10:04:45.760Z",
-      "items": 4
+      "at": "2026-10-24T10:34:27.188Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T10:04:45.965Z",
-      "items": 2
+      "at": "2026-10-24T10:34:27.316Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2308,12 +2308,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T10:04:40.569Z",
+      "at": "2026-10-24T10:34:23.519Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T10:04:46.641Z",
+      "at": "2026-10-24T10:34:27.744Z",
       "items": 0
     },
     "hcg": {
@@ -2324,39 +2324,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T10:04:48.043Z",
+      "at": "2026-10-24T10:34:29.036Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T10:04:48.240Z",
+      "at": "2026-10-24T10:34:29.222Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T10:04:48.435Z",
+      "at": "2026-10-24T10:34:29.416Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T10:04:48.709Z",
+      "at": "2026-10-24T10:34:29.654Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T10:04:49.046Z",
-      "items": 6
+      "at": "2026-10-24T10:34:29.989Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T10:04:49.494Z",
-      "items": 8
+      "at": "2026-10-24T10:34:30.279Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-24",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "greece-tourism-28-million-travelers-2026",
@@ -2399,6 +2399,12 @@
         "title": "Greece unveils new housing measures to ease rental pressures",
         "at": "2026-10-24T11:39:27+03:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "two-earthquakes-karpathos",
+        "title": "Two minor earthquakes recorded off Karpathos",
+        "at": "2026-10-24T13:34:53+03:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2583,12 +2589,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T08:39:43.776Z",
-    "considered": 2,
-    "picked": 0,
+    "at": "2026-10-24T10:34:35.239Z",
+    "considered": 4,
+    "picked": 1,
     "items": [
-      "· gn-kathimerini | Στεγαστικό: Τα 11 νέα μέτρα για προσιτή στέγη - Kathimerini",
-      "· gn-kathimerini | Βανουάτου: Προειδοποίηση για τσουνάμι μετά τις δύο σεισμικές δονήσεις 6,9 και 6,3 Ρίχτερ -"
+      "✓ naftemporiki | Δύο μικροί σεισμοί στην Κάρπαθο σε διάστημα τριών λεπτών",
+      "· gct | Jordan Tightens Security After Deadly Attack on Greek Orthodox Church",
+      "· gct | Sinai Monastery Agreement Reached as Archbishop Symeon Prepares to Sign Deal with Egypt",
+      "· ingr | Γαλλία: Η αστυνομία απαγορεύει τη συγκέντρωση στη Βαστίλη ώρες πριν την έναρξή της – «Θα δ"
     ]
   },
   "evergreenDone": [

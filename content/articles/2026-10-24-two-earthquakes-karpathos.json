@@ -1,0 +1,67 @@
+{
+  "slug": "two-earthquakes-karpathos",
+  "section": "travel",
+  "publishedAt": "2026-10-24T13:34:53+03:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2179526/dyo-mikroi-seismoi-stin-karpatho-se-diastima-trion-lepton/?utm_source=rss&utm_medium=rss&utm_campaign=dyo-mikroi-seismoi-stin-karpatho-se-diastima-trion-lepton"
+    }
+  ],
+  "image": {
+    "type": "illustration",
+    "key": "quake"
+  },
+  "alert": null,
+  "he": {
+    "title": "קרפתוס: שני רעידות אדמה קלות בים",
+    "seoTitle": "רעידת אדמה ביוון: שתי רעידות בקרפתוס היום",
+    "seoDesc": "שתי רעידות אדמה קלות בעוצמה של 2.9 ו-3.4 ריכטר הורגשו באזור קרפתוס. אין דווח על נזק או נפגעים בנפש לפי הרשויות.",
+    "keywords": [
+      "רעידת אדמה ביוון",
+      "קרפתוס",
+      "רעידת אדמה באיים",
+      "חדשות יוון"
+    ],
+    "dek": "שתי רעידות אדמה עוקבות במרחקים קצרים זה מזה תועדו באזור ימי מד שמאל לאולימפוס שבקרפתוס, בעוצמות של 2.9 ו-3.4 ריכטר.",
+    "tldr": [
+      "שתי רעידות אדמה קלות התרחשו בצהרי היום בצפון קרפתוס.",
+      "העוצמות נמדדו ב-2.9 וב-3.4 על סולם ריכטר.",
+      "עומק המוקד של שתי הרעידות חושב בכ-10 קילומטרים."
+    ],
+    "means": "אם אתם נמצאים כעת בקרפתוס או מתכננים חופשה באזור, אין סיבה לדאגה מיוחדת שכן מדובר ברעידות חלשות שלא גרמו לנזקים. עם זאת, תמיד מומלץ להכיר את ההנחיות הבסיסיות להתנהגות בזמן רעידת אדמה ולהתעדכן בהודעות הרשויות המקומיות.",
+    "body": "## תיעוד רעידות האדמה בקרפתוס\n\nשתי רעידות אדמה קלות בסולם ריכטר תועדו בשעות הצהריים באזור הימי שמצפון לאי קרפתוס. האירוע הסייסמי הראשון התרחש בדקות שבין השעות המוקדמות לצהריים, והשני הגיע מיד לאחר מכן בפרק זמן קצר של שלושה דקות בלבד.\n\nלפי נתוני הרישום הרשמיים, הרעידות התאפיינו בעוצמות מתונות של 2.9 ו-3.4 דרגות. המוקד של התנודות האדמתיות זוהה באזור שמצפון ליישוב אולימפוס באי, במרחקים של כ-27 עד 31 קילומטרים צפונה וצפון-מזרחה ממנו.\n\n## עומק ונתונים טכניים\n\nהמערכות לניטור סייסמי חישבו כי עומק המוקד עבור שתי הרעידות עמד על 10 קילומטרים מתחת לפני הים. עד כה לא התקבלו דיווחים על נזקים לחніונים, לתשתיות או על נפגעים בגוף כתוצאה מהפעילות הסייסמית הזו."
+  },
+  "en": {
+    "title": "Two minor earthquakes recorded off Karpathos",
+    "seoTitle": "Karpathos earthquakes: two minor tremors recorded",
+    "seoDesc": "Two minor earthquakes measuring 2.9 and 3.4 magnitude hit north of Karpathos with a depth of 10 kilometers. No damage or injuries reported.",
+    "keywords": [
+      "Karpathos earthquake",
+      "Greece earthquake",
+      "earthquake tremors",
+      "Greek islands news"
+    ],
+    "dek": "Two consecutive minor tremors of 2.9 and 3.4 magnitude were registered in the sea area north of Karpathos at noon.",
+    "tldr": [
+      "Two mild seismic tremors occurred north of Karpathos at midday.",
+      "Magnitudes were recorded at 2.9 and 3.4 on the Richter scale.",
+      "Focal depth for both events was calculated at 10 kilometers."
+    ],
+    "means": "For travelers currently visiting Karpathos, these minor tremors are low-magnitude events and typical for the region's active geology. No disruptions to travel or safety alerts have been issued by the authorities.",
+    "body": "## Minor Tremors North of Karpathos\n\nTwo small seismic shakes measuring 2.9 and 3.4 on the Richter scale were registered around noon in the maritime area north of the island of Karpathos. The sequence of events took place within a very short timeframe of just three minutes.\n\nThe initial tremor was logged in the early afternoon, with its epicenter located north-northeast of Olymbos. Just three minutes later, a second, slightly stronger vibration followed at a similar distance from the same reference point.\n\n## Depth and Impact\n\nAccording to official recording data, the focal depth for both seismic events was calculated at 10 kilometers. Local authorities have not reported any structural damage or injuries resulting from the recorded activity."
+  },
+  "meta": {
+    "itemId": "008d935cdb68",
+    "imageQuery": "seismic activity seismograph greece",
+    "sourceHash": "aa92fb0d2cb7",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-24T10:34:53.934Z",
+    "official": false
+  }
+}
