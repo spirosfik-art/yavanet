@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "ab850d9848ce": 1791620692440,
-    "1dd23253cd1c": 1791620692440,
-    "eb18d3f1e734": 1791620692440,
-    "1befb2f9f8b9": 1791620692440,
-    "b2b5ce9fce66": 1791621517691,
-    "ed232b767209": 1791621517691,
     "3082ab0b281d": 1791622321433,
     "fdfa9a986382": 1791622321433,
     "71d02cb7e6ae": 1791622321433,
@@ -2241,113 +2235,11 @@
     "598dcba55bda": 1792828429457,
     "898ed52951fb": 1792829587994,
     "ead412f573ae": 1792829587994,
-    "4f48088503c7": 1792829587994
+    "4f48088503c7": 1792829587994,
+    "f759d2e9116e": 1792831183776,
+    "002d03eb0761": 1792831183776
   },
-  "pending": {
-    "98cb6e": {
-      "createdAt": 1792823866851,
-      "item": {
-        "title": "Greece Unveils New Housing Measures to Ease Rent Pressures",
-        "url": "https://greekcitytimes.com/2026/10/24/greece-unveils-new-housing-measures-to-ease-rent-pressures/",
-        "summary": "Greece introduces renovation subsidies, rental tax breaks, Airbnb restrictions and a €2 billion housing programme to boost supply and ease rent pressures.\n The post Greece Unveils New Housing Measures to Ease Rent Pressures appeared first on Greek City Times .",
-        "published": "Sat, 24 Oct 2026 06:15:18 +0000",
-        "id": "37861bb7c887",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "37861bb7c887",
-        "section": "real-estate",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Greece unveils new housing measures including Airbnb restrictions, renovation subsidies, and rental tax breaks that directly impact Israeli investors and property owners.",
-        "item": {
-          "title": "Greece Unveils New Housing Measures to Ease Rent Pressures",
-          "url": "https://greekcitytimes.com/2026/10/24/greece-unveils-new-housing-measures-to-ease-rent-pressures/",
-          "summary": "Greece introduces renovation subsidies, rental tax breaks, Airbnb restrictions and a €2 billion housing programme to boost supply and ease rent pressures.\n The post Greece Unveils New Housing Measures to Ease Rent Pressures appeared first on Greek City Times .",
-          "published": "Sat, 24 Oct 2026 06:15:18 +0000",
-          "id": "37861bb7c887",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "greece-new-housing-measures-rent-2026",
-        "section": "real-estate",
-        "sensitive": true,
-        "breaking": false,
-        "geo": null,
-        "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greece real estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "apartment building athens greece",
-        "he": {
-          "title": "יוון מציגה צעדי דיור חדשים: מענקי שיפוץ והגבלות על Airbnb",
-          "seoTitle": "נדל\"ן ביוון: צעדי דיור חדשים באתונה ובסלוניקי",
-          "seoDesc": "יוון מקדמת צעדי דיור להקלה על שוק השכירות: מענקי שיפוץ עד 95%, פטור ממס הכנסה לשכירות ארוכת טווח והגבלות על Airbnb באזורים מבוקשים באתונה ובסלוניקי.",
-          "keywords": [
-            "נדל\"ן ביוון",
-            "דירה באתונה",
-            "השקעה בנדל\"ן ביוון",
-            "Airbnb ביוון",
-            "מיסים ביוון"
-          ],
-          "dek": "הממשלה ביוון מכריזה על שורה של צעדים להגדלת היצע הדירות, הכוללים מענקים לשיפוץ נכסים ריקים, הטבות מס ומגבלות על השכרות קצרות טווח באזורים מסוימים.",
-          "tldr": [
-            "מענקי שיפוץ של עד 95% לעידוד החזרת דירות ריקות לשוק.",
-            "פטור ממס הכנסה לשכירות ארוכת טווח למשך 36 חודשים.",
-            "הקפאת רישומים חדשים ל-Airbnb במספר מחוזות באתונה ובסלוניקי."
-          ],
-          "means": "למשקיעים ישראלים חשוב לעקוב אחר השינויים ברגולציה על דירות נופש באתונה ובסלוניקי, לצד ההטבות הניתנות על נכסים שיושכרו לטווח ארוך. מומלץ לבדוק היטב את תושבות המס שלכם, שכן מתוכנן מס רכישה מוגדל לרוכשים שאינם תושבי האיחוד האירופי החל מ-2027.",
-          "body": "## צעדים חדשים בשוק הדיור היווני\n\nממשלת יוון חשפה מערך של צעדים רגולטוריים וכלכליים שמטרתם להקל על מצוקת הדיור ולהוריד את מחירי השכירות במדינה. התוכנית כוללת שילוב של מענקים ממשלתיים, הטבות מס לבעלי נכסים והגבלות על דירות הנופש הפועלות במודל של Airbnb.\n\nבין הצעדים המרכזיים ניתן למצוא תוכנית לשיפוץ נכסים ישנים וריקים, המציעה מענקים המכסים עד 95% מהעלויות בהתאם למצבו הסוציו-אקונומי של המבקש ותקרת הוצאות מוגדרת. המטרה היא לאפשר לבעלי בתים להחזיר לשוק הדיור נכסים שלא היו בשימוש בשנים האחרונות.\n\n## הטבות מס ועידוד שכירות ארוכת טווח\n\nכדי להגדיל את היצע הדירות למגורים, הממשלה מתכננת להאריך עד סוף שנת 2027 את פטור ממס הכנסה על דמי שכירות עבור חוזים ארוכי טווח לתקופה של 36 חודשים. ההטבה חלה על נכסים בשטח של עד 120 מטר רבוע, בתנאי שהנכס עמד ריק או לא שימש למגורים בשלוש השנים הפיסקליות הקודמות.\n\nבמקביל, במסגרת הרפורמה המיסויית, ייקבע מדרגת מס ביניים של 25% על חלק ההכנסה משכירות שבין 12,000 אירו ל-24,000 אירו לשנת המס 2026, מה שעשוי לעודד בעלי נכסים להשכיר את הדירות לטווח ארוך.\n\n## הגבלות על Airbnb ומס רכישה לזרים\n\nהממשלה ממשיכה בהקפאה של רישומים חדשים לפעילות טווח קצר במחוזות עירוניים נבחרים באתונה ובסלוניקי לאורך שנת 2027. צעד זה נועד למנוע זליגת דירות נוספות מהשוק ארוך הטווח אל עבר ענף התיירות.\n\nנוסף על כך, החל מ-1 ביולי 2027, מתכננת יוון להעלות את מס הרכישה על נדל\"ן מגורים מ-3% ל-15% עבור קונים שאינם תושבי מס במדינות האיחוד האירופי או האזור הכלכלי האירופי, בהתאם לסטטוס תושבות המס של הרוכש ולא הלאום שלו."
-        },
-        "en": {
-          "title": "Greece Unveils New Housing Measures and Rental Rules",
-          "seoTitle": "Greece New Housing Measures and Rental Rules for 2027",
-          "seoDesc": "Greece introduces new housing measures including renovation subsidies up to 95%, tax incentives for long-term rentals, and Airbnb registration freezes.",
-          "keywords": [
-            "greece housing measures",
-            "athens real estate",
-            "greece rental market",
-            "airbnb greece",
-            "greece property tax"
-          ],
-          "dek": "Greece has announced a series of housing policies to ease rent pressures, featuring renovation grants, tax exemptions, and short-term rental curbs.",
-          "tldr": [
-            "Renovation subsidies covering up to 95% of costs for vacant homes.",
-            "Tax exemptions on rental income for new long-term leases until 2027.",
-            "Extension of short-term rental registration freezes in Athens and Thessaloniki."
-          ],
-          "means": "Investors and property owners should review the updated regulations regarding short-term rentals and long-term tax incentives. Buyers who are not tax residents of the EU or EEA should note the planned increase in property transfer tax scheduled for 2027.",
-          "body": "## New Housing Initiatives in Greece\n\nThe Greek government has rolled out a comprehensive package of housing measures designed to increase available residential inventory and moderate rental costs across the country. The initiative combines financial support for property upgrades, tax relief for landlords, and targeted restrictions on short-term rentals.\n\nA central pillar of the plan is a renovation subsidy program offering up to 95% coverage for energy efficiency upgrades and repairs in older, vacant properties. The scheme aims to bring dormant residential units back into active circulation.\n\n## Tax Incentives and Rental Market Rules\n\nTo encourage long-term leasing, the government plans to extend a rental income tax exemption for the first 36 months of qualifying long-term contracts through December 31, 2027. This applies to properties under 120 square meters that remained vacant during the preceding three tax years.\n\nAdditionally, a new intermediate tax rate of 25% will apply to rental income portions between €12,000 and €24,000 for the 2026 tax year, providing financial adjustments for property owners.\n\n## Restrictions on Short-Term Rentals and Foreign Buyers\n\nThe freeze on new short-term rental registrations will remain in effect throughout 2027 across designated municipal districts in Athens and Thessaloniki to protect the long-term rental supply.\n\nFurthermore, starting July 1, 2027, Greece plans to raise the property transfer tax from 3% to 15% for residential purchases made by individuals who do not hold tax residency within EU or European Economic Area member states."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n Greece is introducing a series of housing measures to increase the supply of available homes and ease pressure on rents, including subsidies for renovating vacant properties, tax incentives for long-term rentals and restrictions on new short-term rental registrations in areas facing housing shortages.\n The government also plans to launch a new €2 billion My Home III housing programme in January 2027 and expand social housing initiatives to help more households buy their own homes.\n Meanwhile, the government is expanding rent refunds due to reach thousands of eligible recipients on November 30. Further measures and special tax arrangements will follow next year through a comprehensive bill, which the government plans to submit to Parliament in November.\n Immediate measures to bring vacant homes back into use\n As the government rolls out the measures, tenants and property owners will need to assess which incentives best suit their circumstances.\n 1. Renovation subsidies covering up to 95% of costs \n Read more: Athens Rental Shortage Deepens as Listings Fall up to 26.9% in a Year \n A programme led by the Ministry of Social Cohesion and Family, with EU funding channelled through the Ministry of National Economy and Finance, will subsidise renovations and energy-efficiency improvements in older homes.\n On October 20, the government published the implementation guide for its Home Renovation initiative. The programme offers up to €36,000 for renovation work, with an additional €2,500 available for supporting services.\n Basic subsidy rates range from 70% to 80%, depending on the applicant’s income category. Eligible increases can raise the rates to 85% and 95%, respectively.\n Applications have not yet opened. Authorities will initially activate the platform for vacant properties before extending it to homes already used as primary residences. They will announce the application dates separately.\n Authorities have already issued 94,000 eligibility certificates, including 14,000 for vacant homes and 80,000 for owner-occupied properties. However, an eligibility certificate does not guarantee funding approval.\n Owners can either occupy renovated vacant homes themselves or rent them out as primary residences. The scheme aims to address long-term housing needs while easing pressure on the market.\n 2. Tax incentives for vacant homes returning to long-term rentals \n The government plans to extend until December 31, 2027, a tax exemption on rental income for the first 36 months of eligible long-term leases.\n The Ministry of National Economy and Finance measure covers eligible homes of up to 120 square metres, with an additional 20 square metres allowed for each dependent child of the tenant beyond the first two. Leases must run for at least three years.\n As a general rule, the property must have remained vacant or not served as a residence during the previous three tax years. Properties used exclusively for short-term rentals during the previous tax year can also qualify if their owners switch them to long-term rentals.\n A special provision allows leases of at least six consecutive months to doctors and nurses employed by the public sector, public-school teachers and uniformed personnel.\n The exemption does not automatically apply to every new lease and remains subject to specific eligibility and compliance requirements. The proposed extension forms part of the comprehensive tax bill awaiting parliamentary approval.\n 3. Restrictions on new Airbnb registrations in Athens and Thessaloniki \n The government will continue freezing new short-term rental registrations in designated areas of Athens and Thessaloniki throughout 2027.\n The restrictions cover three municipal districts in Athens and Thessaloniki’s First Municipal District. They aim to prevent more homes from shifting out of the long-term rental market and into short-term accommodation.\n The measure targets new registrations in these areas rather than imposing a blanket ban on existing short-term rental properties.\n New housing measures planned for 2027\n 4. New My Home III programme \n The government plans to launch the €2 billion My Home III programme in January 2027, offering low-interest housing loans through the Hellenic Development Bank.\n Announced eligibility limits include an upper age limit of 55 for applicants, a maximum property market value of €300,000 and loans of up to €230,000, covering as much as 90% of a property’s value.\n The programme will broaden income eligibility thresholds to accommodate more families with children. It will also allow larger homes for families with several children, helping more households purchase their own properties.\n 5. New social housing using public properties \n The government’s plans include 2,350 energy-efficient homes across four disused military camps, with a budget of €435 million. Authorities also aim to create approximately 450 homes by renovating public buildings.\n In parallel, the government is advancing a social housing partnership model and plans to make the first eight public properties available for development.\n These homes remain at the planning stage and have not yet been delivered.\n 6. Tax incentives for build-to-rent housing \n The government is planning tax incentives for build-to-rent developments, which involve constructing buildings specifically for long-term rental accommodation.\n Authorities have yet to specify the terms, the level of tax relief or the launch date. The initiative aims to add hundreds of homes to the long-term rental market.\n Further measures to support tenants and property owners\n 7. Rent refunds on November 30 \n The government will pay rent refunds on November 30 for eligible tenants who paid rent during the 2025 tax year.\n Doctors, nurses and teachers serving in regional areas will qualify for double the standard refund, providing additional financial relief to eligible households.\n 8. Lower rental income tax for property owners \n A new intermediate tax rate of 25% will apply to the portion of rental income between €12,000 and €24,000 for the 2026 tax year.\n The reduction aims to encourage owners to make more properties available for rent. Landlords may also pass some of their tax savings on to tenants by lowering the rents they charge.\n 9. Expanded ENFIA property tax exemptions from 2027 \n From 2027, the government will extend exemptions from Greece’s annual ENFIA property tax to more primary residences in small settlements.\n The measure covers settlements with up to 2,000 residents, rising to 2,200 residents in Western Macedonia. It excludes Attica, except for the Islands Regional Unit.\n Eligible applicants must be individuals with tax residence in Greece, and the full-ownership taxable value of their property must not exceed €400,000.\n The exemption does not automatically cover every property an owner holds.\n 10. Extended tax relief for renovations and construction \n The Finance Ministry’s proposed bill will extend several tax measures until the end of 2027.\n These include tax relief for eligible building improvement expenses, the suspension of VAT on new buildings and the suspension of capital gains tax on property transfers.\n While the VAT suspension remains in force, developers can apply for the relevant arrangements, and qualifying property transfers will attract a 3% transfer tax instead of VAT.\n 11. Higher property transfer tax for buyers from outside the EU and EEA \n From July 1, 2027, Greece plans to increase the property transfer tax from 3% to 15% for residential purchases by individuals who are not tax residents of EU or European Economic Area countries.\n The measure aims to curb large-scale property purchases by investors from regions including the Middle East and China.\n The key criterion is the buyer’s tax residence, not their nationality.\n (Source: AMNA) \n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Holds OECD Top Five Spot in Personal Tax Competitiveness \n Greek Investment Surges as Real Estate Leads Growth \n Greece Attracts Foreign Property Investors With 6.25% Yields \n Greece Unveils 17 Measures to Cut Taxes and Boost Incomes \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Verdi’s Nabucco Opens a Big New Season in Heraklion\n Next Article \n Greece Electricity Exports Surge, Generating €475 Million Surplus\n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Η Ελλάδα Αποκαλύπτει νέα Μέτρα Στέγασης και Κανονισμούς για τα Ενοίκια",
-        "dek": "Η Ελλάδα ανακοίνωσε μια σειρά πολιτικών στέγασης για την ελάφρυνση των πιέσεων στα ενοίκια, οι οποίες περιλαμβάνουν επιδοτήσεις ανακαίνισης, φοροαπαλλαγές και περιορισμούς στις βραχυχρόνιες μισθώσεις.",
-        "tldr": [
-          "Επιδοτήσεις ανακαίνισης που καλύπτουν έως και το 95% του κόστους για κενές κατοικίες.",
-          "Φοροαπαλλαγές στο εισόδημα από ενοίκια για νέες μακροχρόνιες μισθώσεις έως το 2027.",
-          "Παράταση του 'παγώματος' εγγραφής νέων βραχυχρόνιων μισθώσεων στην Αθήνα και τη Θεσσαλονίκη."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2357,12 +2249,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T08:12:56.827Z",
+      "at": "2026-10-24T08:39:30.596Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T08:12:57.683Z",
+      "at": "2026-10-24T08:39:31.236Z",
       "items": 4
     },
     "civilprotection": {
@@ -2373,27 +2265,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T08:12:59.106Z",
+      "at": "2026-10-24T08:39:33.043Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T08:12:59.497Z",
+      "at": "2026-10-24T08:39:33.415Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T08:13:00.336Z",
+      "at": "2026-10-24T08:39:34.169Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T08:13:01.213Z",
-      "items": 5
+      "at": "2026-10-24T08:39:34.841Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T08:13:02.082Z",
+      "at": "2026-10-24T08:39:35.642Z",
       "items": 10
     },
     "toi-greece": {
@@ -2404,22 +2296,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T08:13:02.687Z",
+      "at": "2026-10-24T08:39:36.109Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T08:13:02.789Z",
+      "at": "2026-10-24T08:39:36.380Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T08:13:02.859Z",
-      "items": 5
+      "at": "2026-10-24T08:39:36.995Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T08:13:03.376Z",
+      "at": "2026-10-24T08:39:37.160Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2429,12 +2321,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T08:12:57.945Z",
+      "at": "2026-10-24T08:39:32.052Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T08:13:04.184Z",
+      "at": "2026-10-24T08:39:37.836Z",
       "items": 0
     },
     "hcg": {
@@ -2445,39 +2337,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T08:13:05.447Z",
+      "at": "2026-10-24T08:39:39.399Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T08:13:05.633Z",
+      "at": "2026-10-24T08:39:39.605Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T08:13:05.817Z",
+      "at": "2026-10-24T08:39:39.792Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T08:13:06.074Z",
+      "at": "2026-10-24T08:39:40.004Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T08:13:06.405Z",
-      "items": 6
+      "at": "2026-10-24T08:39:40.334Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T08:13:06.835Z",
+      "at": "2026-10-24T08:39:40.690Z",
       "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-24",
-    "count": 4,
+    "count": 5,
     "published": [
       {
         "slug": "greece-tourism-28-million-travelers-2026",
@@ -2514,6 +2406,12 @@
         "title": "Greek Tourism Reaches Record Highs in 2025 Amid New Strategic Challenges",
         "at": "2026-10-24T09:38:05+03:00",
         "section": "travel"
+      },
+      {
+        "slug": "greece-housing-tax-measures-2026-2027",
+        "title": "Greece unveils new housing measures to ease rental pressures",
+        "at": "2026-10-24T11:39:27+03:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -2539,6 +2437,10 @@
       {
         "slug": "greece-severe-weather-storm-october-2026",
         "at": "2026-10-24T06:05:43.699Z"
+      },
+      {
+        "slug": "greece-housing-tax-measures-2026-2027",
+        "at": "2026-10-24T08:39:27.451Z"
       }
     ]
   },
@@ -2686,13 +2588,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T08:13:07.994Z",
-    "considered": 3,
+    "at": "2026-10-24T08:39:43.776Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ingr | Μεταφορά συντελεστή δόμησης: Τι αλλάζει για ακίνητα και ιδιοκτήτες",
-      "· gtp | Πάνω από 100 ταινίες από 33 χώρες στο 17ο Διεθνές Φεστιβάλ Τουριστικών Ταινιών Αμοργού",
-      "· gtp | Έκθεση «Αρχιτεκτονική στην Ελλάδα»: Από την προϊστορία έως σήμερα στο Καπνεργοστάσιο"
+      "· gn-kathimerini | Στεγαστικό: Τα 11 νέα μέτρα για προσιτή στέγη - Kathimerini",
+      "· gn-kathimerini | Βανουάτου: Προειδοποίηση για τσουνάμι μετά τις δύο σεισμικές δονήσεις 6,9 και 6,3 Ρίχτερ -"
     ]
   },
   "evergreenDone": [
@@ -2735,5 +2636,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greece-housing-tax-measures-2026-2027",
+      "url": "https://yavanet.gr/a/greece-housing-tax-measures-2026-2027/",
+      "at": "2026-10-24T08:39:27.451Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-housing-tax-measures-2026-2027/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-housing-tax-measures-2026-2027/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "יוון מציגה חבילת צעדים חדשה להקלה בשוק הדיור והשכירות",
+        "title_en": "Greece unveils new housing measures to ease rental pressures",
+        "dek_he": "תוכנית ממשלתית חדשה כוללת סובסידיות לשיפוץ נכסים ריקים, הטבות מס להשכרה לטווח ארוך, הקפאת רישומי דירות נופש באזורים מסוימים ושינויים במיסי מקרקעין.",
+        "dek_en": "The government introduces renovation subsidies, tax incentives for long-term rentals, short-term rental restrictions, and property tax updates.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/5043907/pexels-photo-5043907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "יוון מציגה חבילת צעדים חדשה להקלה בשוק הדיור והשכירות\n\nתוכנית ממשלתית חדשה כוללת סובסידיות לשיפוץ נכסים ריקים, הטבות מס להשכרה לטווח ארוך, הקפאת רישומי דירות נופש באזורים מסוימים ושינויים במיסי מקרקעין.\n\nhttps://yavanet.gr/a/greece-housing-tax-measures-2026-2027/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece unveils new housing measures to ease rental pressures\n\nThe government introduces renovation subsidies, tax incentives for long-term rentals, short-term rental restrictions, and property tax updates.\n\nhttps://yavanet.gr/en/a/greece-housing-tax-measures-2026-2027/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
