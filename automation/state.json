@@ -14,9 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "f089e6c12c46": 1791637484141,
-    "e2a2637e6ab5": 1791637484141,
-    "801ed97152ab": 1791637484141,
     "befdb4bad149": 1791639432343,
     "2b82bb95d947": 1791639432343,
     "d076526d84aa": 1791639432343,
@@ -2213,7 +2210,9 @@
     "ebf25a323b9b": 1792841673956,
     "6183c691c728": 1792841673956,
     "a7c1a333ccdd": 1792843427222,
-    "8570d4bc8d9f": 1792845643979
+    "8570d4bc8d9f": 1792845643979,
+    "349aacb4d1e2": 1792847674806,
+    "f74ac2911669": 1792847674806
   },
   "pending": {
     "70dd75": {
@@ -2332,12 +2331,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T12:40:28.019Z",
+      "at": "2026-10-24T13:14:19.189Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T12:40:28.748Z",
+      "at": "2026-10-24T13:14:20.085Z",
       "items": 4
     },
     "civilprotection": {
@@ -2348,27 +2347,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T12:40:30.659Z",
+      "at": "2026-10-24T13:14:21.762Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T12:40:30.798Z",
+      "at": "2026-10-24T13:14:22.254Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T12:40:31.621Z",
+      "at": "2026-10-24T13:14:23.323Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T12:40:32.465Z",
-      "items": 2
+      "at": "2026-10-24T13:14:24.262Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T12:40:33.294Z",
+      "at": "2026-10-24T13:14:25.277Z",
       "items": 10
     },
     "toi-greece": {
@@ -2379,23 +2378,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T12:40:33.898Z",
+      "at": "2026-10-24T13:14:25.883Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T12:40:34.160Z",
+      "at": "2026-10-24T13:14:26.150Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T12:40:35.036Z",
-      "items": 5
+      "at": "2026-10-24T13:14:26.849Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T12:40:35.560Z",
-      "items": 4
+      "at": "2026-10-24T13:14:27.046Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2404,12 +2403,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T12:40:29.287Z",
+      "at": "2026-10-24T13:14:20.451Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T12:40:36.216Z",
+      "at": "2026-10-24T13:14:27.714Z",
       "items": 0
     },
     "hcg": {
@@ -2420,33 +2419,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T12:40:37.528Z",
+      "at": "2026-10-24T13:14:29.212Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T12:40:37.733Z",
+      "at": "2026-10-24T13:14:29.367Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T12:40:37.897Z",
+      "at": "2026-10-24T13:14:29.571Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T12:40:38.098Z",
+      "at": "2026-10-24T13:14:29.814Z",
       "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T12:40:38.458Z",
+      "at": "2026-10-24T13:14:30.149Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T12:40:38.902Z",
-      "items": 6
+      "at": "2026-10-24T13:14:30.557Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2524,6 +2523,10 @@
       {
         "slug": "greek-tourism-report-2025-challenges",
         "at": "2026-10-24T10:04:59.392Z"
+      },
+      {
+        "slug": "ren-olympiakos-match-date-change-france-strike",
+        "at": "2026-10-24T13:14:49.787Z"
       }
     ],
     "fb": [
@@ -2538,6 +2541,10 @@
       {
         "slug": "greek-tourism-report-2025-challenges",
         "at": "2026-10-24T10:04:49.543Z"
+      },
+      {
+        "slug": "ren-olympiakos-match-date-change-france-strike",
+        "at": "2026-10-24T13:14:34.862Z"
       }
     ]
   },
@@ -2685,11 +2692,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T12:40:43.979Z",
-    "considered": 1,
+    "at": "2026-10-24T13:14:34.806Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ingr | Φιλιππίνες: Η στιγμή που δύο εκπαιδευτικά αεροσκάφη συγκρούονται στον αέρα – Νεκροί τέσσερ"
+      "· ert | Τίρανα: Ένταση έξω από το υπουργείο Παιδείας, σπασμένα πεζοδρόμια και φωτιά σε κάδους – Ξε",
+      "· gn-iefimerida | Δύο μικρές σεισμικές δονήσεις μέσα σε 3' στην Κάρπαθο - iefimerida.gr"
     ]
   },
   "evergreenDone": [
@@ -2732,5 +2740,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "ren-olympiakos-match-date-change-france-strike",
+      "url": "https://yavanet.gr/a/ren-olympiakos-match-date-change-france-strike/",
+      "at": "2026-10-24T13:14:34.862Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/ren-olympiakos-match-date-change-france-strike/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/ren-olympiakos-match-date-change-france-strike/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אולימפיאקוס בצרפת: ייתכן שינוי במועד המשחק מול רן עקב שביתה",
+        "title_en": "Olympiakos match in France: Ren match date may change due to strike",
+        "dek_he": "משחקה החוץ של קבוצת הכדורגל אולימפיאקוס נגד רן הצרפתית עשוי לשנות מועד בשל שביתה כללית מתוכננת.",
+        "dek_en": "Olympiakos' away match against French side Rennes might be rescheduled due to an upcoming general strike.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/38775131/pexels-photo-38775131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אולימפיאקוס בצרפת: ייתכן שינוי במועד המשחק מול רן עקב שביתה\n\nמשחקה החוץ של קבוצת הכדורגל אולימפיאקוס נגד רן הצרפתית עשוי לשנות מועד בשל שביתה כללית מתוכננת.\n\nhttps://yavanet.gr/a/ren-olympiakos-match-date-change-france-strike/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Olympiakos match in France: Ren match date may change due to strike\n\nOlympiakos' away match against French side Rennes might be rescheduled due to an upcoming general strike.\n\nhttps://yavanet.gr/en/a/ren-olympiakos-match-date-change-france-strike/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/ren-olympiakos-match-date-change-france-strike.jpg",
+          "caption": "אולימפיאקוס בצרפת: ייתכן שינוי במועד המשחק מול רן עקב שביתה\n\nמשחקה החוץ של קבוצת הכדורגל אולימפיאקוס נגד רן הצרפתית עשוי לשנות מועד בשל שביתה כללית מתוכננת.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/ren-olympiakos-match-date-change-france-strike-story.jpg"
+        }
+      }
+    }
+  ]
 }
