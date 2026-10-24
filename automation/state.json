@@ -14,8 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "0133831ed5ff": 1791660946834,
-    "0aa12a36ede3": 1791660946834,
     "b47f60c11100": 1791661810284,
     "53da02e7dba8": 1791661810284,
     "f23e91eb994c": 1791662507622,
@@ -2208,7 +2206,8 @@
     "6997bb437b0c": 1792868111548,
     "b0f8ae69efa9": 1792869264870,
     "2242c1fa6923": 1792869264870,
-    "eea1fd0c252c": 1792870147620
+    "eea1fd0c252c": 1792870147620,
+    "1121b28b30dc": 1792870542198
   },
   "pending": {},
   "sourceStatus": {
@@ -2220,12 +2219,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T19:28:56.606Z",
-      "items": 0
+      "at": "2026-10-24T19:35:31.412Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T19:28:57.356Z",
+      "at": "2026-10-24T19:35:32.174Z",
       "items": 4
     },
     "civilprotection": {
@@ -2236,27 +2235,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T19:28:59.198Z",
+      "at": "2026-10-24T19:35:33.678Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T19:28:59.396Z",
+      "at": "2026-10-24T19:35:34.085Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T19:29:00.163Z",
+      "at": "2026-10-24T19:35:34.964Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T19:29:00.893Z",
+      "at": "2026-10-24T19:35:35.785Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T19:29:01.953Z",
+      "at": "2026-10-24T19:35:36.613Z",
       "items": 10
     },
     "toi-greece": {
@@ -2267,22 +2266,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T19:29:02.455Z",
+      "at": "2026-10-24T19:35:37.071Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T19:29:02.797Z",
+      "at": "2026-10-24T19:35:37.391Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T19:29:03.418Z",
+      "at": "2026-10-24T19:35:38.099Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T19:29:03.829Z",
+      "at": "2026-10-24T19:35:38.312Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2292,12 +2291,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T19:28:58.271Z",
+      "at": "2026-10-24T19:35:32.736Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T19:29:04.409Z",
+      "at": "2026-10-24T19:35:38.873Z",
       "items": 0
     },
     "hcg": {
@@ -2308,33 +2307,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T19:29:05.580Z",
+      "at": "2026-10-24T19:35:40.112Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T19:29:05.826Z",
+      "at": "2026-10-24T19:35:40.343Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T19:29:05.978Z",
+      "at": "2026-10-24T19:35:40.490Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T19:29:06.216Z",
+      "at": "2026-10-24T19:35:40.662Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T19:29:06.565Z",
-      "items": 4
+      "at": "2026-10-24T19:35:40.962Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T19:29:06.912Z",
-      "items": 5
+      "at": "2026-10-24T19:35:41.367Z",
+      "items": 3
     }
   },
   "tgOffset": 829774786,
@@ -2423,6 +2422,11 @@
         "title": "Athens Airport: Young Pickpocket Couple Arrested for Theft",
         "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The Hebrew dek states they stole from 'hundreds of passengers' ('מאות נוסעים'), whereas the source states they committed 2 previous thefts and 1 current theft (total 3 cases), not hundreds.",
         "at": "2026-10-24T16:35:24.477Z"
+      },
+      {
+        "title": "Κάρπαθος: Δύο σεισμικές δονήσεις μέσα σε τρία λεπτά - Kathimerini",
+        "reason": "Ίδιο θέμα με «Two minor earthquakes recorded off Karpathos»: The article adds information not found in the source text, such as 'No immediate reports of significant damage or injuries have been confirmed' and references to 'Seismological institutes', 'emergency services', and instructions on how to ",
+        "at": "2026-10-24T19:36:13.039Z"
       }
     ],
     "errors": [],
@@ -2603,11 +2607,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T19:29:07.620Z",
+    "at": "2026-10-24T19:35:42.198Z",
     "considered": 1,
-    "picked": 0,
+    "picked": 1,
     "items": [
-      "· naftemporiki | Δυτική Όχθη: 1.200 Παλαιστίνιοι υποχρεώθηκαν από τον στρατό να εγκαταλείψουν τα σπίτια του"
+      "✓ gn-kathimerini | Κάρπαθος: Δύο σεισμικές δονήσεις μέσα σε τρία λεπτά - Kathimerini"
     ]
   },
   "evergreenDone": [
