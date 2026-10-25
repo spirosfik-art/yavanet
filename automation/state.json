@@ -14,14 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "9a0c31e23498": 1791678899441,
-    "fc97a2830c4a": 1791678899441,
-    "d5c3acb75293": 1791680382634,
-    "9de55b34044a": 1791692758342,
-    "b95531410b2e": 1791692758342,
-    "cfcf012ed9b1": 1791692758342,
-    "8c6c9b097ed0": 1791694983210,
-    "e79a41d08381": 1791694983210,
     "dcfca0e22592": 1791696290416,
     "a288c8ed73ce": 1791696290416,
     "e3d9e3b802f2": 1791696290416,
@@ -2191,7 +2183,15 @@
     "f0829e078f25": 1792888265201,
     "42e4734ca2ef": 1792888265201,
     "ebb10f198c1e": 1792888265201,
-    "b9fab4ce5c33": 1792888265201
+    "b9fab4ce5c33": 1792888265201,
+    "28ab8349127d": 1792905370003,
+    "c30402326f65": 1792905370003,
+    "17a8199ceeae": 1792905370003,
+    "d41c1925f8e3": 1792905370003,
+    "36dc0d7fff75": 1792905370003,
+    "5d72f60f2342": 1792905370003,
+    "270dae4453b4": 1792905370003,
+    "fc2bd4fe6135": 1792905370003
   },
   "pending": {},
   "sourceStatus": {
@@ -2203,12 +2203,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-25T00:30:53.545Z",
+      "at": "2026-10-25T05:15:57.717Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-25T00:30:54.337Z",
+      "at": "2026-10-25T05:15:58.386Z",
       "items": 4
     },
     "civilprotection": {
@@ -2219,27 +2219,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-25T00:30:56.103Z",
+      "at": "2026-10-25T05:16:00.397Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-25T00:30:56.285Z",
+      "at": "2026-10-25T05:16:00.575Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-25T00:30:57.198Z",
+      "at": "2026-10-25T05:16:02.006Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-25T00:30:57.918Z",
-      "items": 5
+      "at": "2026-10-25T05:16:02.813Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-25T00:30:58.865Z",
+      "at": "2026-10-25T05:16:03.740Z",
       "items": 10
     },
     "toi-greece": {
@@ -2250,22 +2250,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-25T00:30:59.341Z",
+      "at": "2026-10-25T05:16:04.271Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-25T00:30:59.714Z",
+      "at": "2026-10-25T05:16:04.588Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-25T00:31:00.240Z",
-      "items": 4
+      "at": "2026-10-25T05:16:05.314Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T00:31:00.426Z",
+      "at": "2026-10-25T05:16:05.468Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2275,12 +2275,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T00:30:55.102Z",
+      "at": "2026-10-25T05:15:59.252Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-25T00:31:01.109Z",
+      "at": "2026-10-25T05:16:06.119Z",
       "items": 0
     },
     "hcg": {
@@ -2291,43 +2291,56 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-25T00:31:03.056Z",
+      "at": "2026-10-25T05:16:07.555Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-25T00:31:03.339Z",
+      "at": "2026-10-25T05:16:07.750Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-25T00:31:03.540Z",
+      "at": "2026-10-25T05:16:07.949Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-25T00:31:03.783Z",
-      "items": 5
+      "at": "2026-10-25T05:16:08.208Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-25T00:31:04.154Z",
+      "at": "2026-10-25T05:16:08.543Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-25T00:31:04.499Z",
-      "items": 3
+      "at": "2026-10-25T05:16:08.862Z",
+      "items": 4
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-25",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "84-defibrillators-athens-metro",
+        "title": "Athens: 84 new defibrillators installed across the metro network",
+        "at": "2026-10-25T07:16:23+02:00",
+        "section": "travel"
+      }
+    ],
     "rejected": [],
     "errors": [],
-    "ig": []
+    "ig": [],
+    "fb": [
+      {
+        "slug": "84-defibrillators-athens-metro",
+        "at": "2026-10-25T05:16:24.040Z"
+      }
+    ]
   },
   "history": [
     {
@@ -2478,14 +2491,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-25T00:31:05.201Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-10-25T05:16:10.003Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· gct | Qatar Airways Eyes Premium Economy and Expands Australia Flights",
-      "· gct | Santorini Serves Lionfish to 300+ Diners in Guinness World Record Bid",
-      "· gct | Greek Tennis Star Lydia Panagiotidou Makes European Masters History",
-      "· ert | ΗΠΑ: Πυρκαγιά σε εργοστάσιο της Quaker Oats στην Αϊόβα"
+      "· ert | Εορτολόγιο: Ποιοι γιορτάζουν σήμερα 25 Οκτωβρίου",
+      "· ert | Ισχυρός σεισμός 6,1 Ρίχτερ στα νησιά Βανουάτου",
+      "· ert | Ισραήλ: Κλείνουν την Τρίτη όλες οι χερσαίες διελεύσεις από και προς τη Δυτική Όχθη λόγω τω",
+      "· ingr | Η οικονομία στο επίκεντρο της εκλογικής αναμέτρησης στη Βραζιλία",
+      "· gct | Hellenic Club Centenary Gala Draws Albanese and Venizelos in Sydney",
+      "· gct | Kimberly Guilfoyle Posting to Greece Tied to Alleged Trump Family Feud",
+      "· gct | Olympic Champion Eleftherios Petrounias Wins Fifth World Medal",
+      "✓ gn-kathimerini | 84 απινιδωτές ενισχύουν την ασφάλεια στο μετρό - Kathimerini"
     ]
   },
   "evergreenDone": [
@@ -2528,5 +2545,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "84-defibrillators-athens-metro",
+      "url": "https://yavanet.gr/a/84-defibrillators-athens-metro/",
+      "at": "2026-10-25T05:16:24.040Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/84-defibrillators-athens-metro/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/84-defibrillators-athens-metro/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אתונה: 84 מכשירי החיאה חדשים הותקנו בתחנות הרכבת התחתית",
+        "title_en": "Athens: 84 new defibrillators installed across the metro network",
+        "dek_he": "חברת ההפעלה של הרכבת התחתית באתונה הודיעה על פריסת עשרות מכשירי דפיברילטור חדשים לאורך כל הקווים.",
+        "dek_en": "The Athens metro operating company has deployed dozens of new life-saving devices across all lines to improve safety.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/4141082/pexels-photo-4141082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אתונה: 84 מכשירי החיאה חדשים הותקנו בתחנות הרכבת התחתית\n\nחברת ההפעלה של הרכבת התחתית באתונה הודיעה על פריסת עשרות מכשירי דפיברילטור חדשים לאורך כל הקווים.\n\nhttps://yavanet.gr/a/84-defibrillators-athens-metro/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens: 84 new defibrillators installed across the metro network\n\nThe Athens metro operating company has deployed dozens of new life-saving devices across all lines to improve safety.\n\nhttps://yavanet.gr/en/a/84-defibrillators-athens-metro/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
