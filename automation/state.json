@@ -14,29 +14,9 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "dcfca0e22592": 1791696290416,
-    "a288c8ed73ce": 1791696290416,
-    "e3d9e3b802f2": 1791696290416,
-    "0a1f116960df": 1791697936699,
-    "2c0a659614ac": 1791697936699,
-    "427d09b3c014": 1791700094670,
-    "0dc08e56b3a4": 1791700094670,
-    "da071d6c69a8": 1791702338798,
-    "ab1c22f144d2": 1791702338798,
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "8678a73d0072": 1791703407300,
-    "e08e09d5d7c8": 1791705744016,
-    "68402f8ca109": 1791707031664,
-    "8f413102c09f": 1791707031664,
-    "c10ec3b8647f": 1791707991595,
-    "9def48c1300b": 1791709359615,
-    "c01e0cba691d": 1791709359615,
-    "f208fdb8455e": 1791709359615,
-    "da187e937a25": 1791710570065,
-    "c91cbb7377a2": 1791710570065,
-    "e00809ce46d0": 1791712362734,
     "2e6ce9c3a098": 1791712949066,
     "9f471b687fd7": 1791715059741,
     "d01c07c33130": 1791716506530,
@@ -2191,7 +2171,23 @@
     "36dc0d7fff75": 1792905370003,
     "5d72f60f2342": 1792905370003,
     "270dae4453b4": 1792905370003,
-    "fc2bd4fe6135": 1792905370003
+    "fc2bd4fe6135": 1792905370003,
+    "4c5cfe248057": 1792922201738,
+    "8082c025ac68": 1792922201738,
+    "c6dfbe7203ab": 1792922201738,
+    "3e178ca9e33f": 1792922201738,
+    "a9361495f555": 1792922201738,
+    "4c937f46c11f": 1792922201738,
+    "5a528eb02951": 1792922201738,
+    "cdab5697c7ca": 1792922201738,
+    "b7e06374876e": 1792922201738,
+    "e61138b7785c": 1792922201738,
+    "6af566107bc1": 1792922201738,
+    "51b297550470": 1792922201738,
+    "c0bde4db5635": 1792922201738,
+    "bec1b761a410": 1792922201738,
+    "7a5eb5d7af3d": 1792922201738,
+    "59704eaf85ac": 1792922201738
   },
   "pending": {},
   "sourceStatus": {
@@ -2203,12 +2199,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-25T05:15:57.717Z",
+      "at": "2026-10-25T09:56:27.441Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-25T05:15:58.386Z",
+      "at": "2026-10-25T09:56:28.340Z",
       "items": 4
     },
     "civilprotection": {
@@ -2219,27 +2215,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-25T05:16:00.397Z",
+      "at": "2026-10-25T09:56:30.664Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-25T05:16:00.575Z",
-      "items": 4
+      "at": "2026-10-25T09:56:31.069Z",
+      "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-25T05:16:02.006Z",
+      "at": "2026-10-25T09:56:32.368Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-25T05:16:02.813Z",
-      "items": 4
+      "at": "2026-10-25T09:56:33.216Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-25T05:16:03.740Z",
+      "at": "2026-10-25T09:56:34.103Z",
       "items": 10
     },
     "toi-greece": {
@@ -2250,23 +2246,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-25T05:16:04.271Z",
+      "at": "2026-10-25T09:56:34.749Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-25T05:16:04.588Z",
+      "at": "2026-10-25T09:56:34.842Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-25T05:16:05.314Z",
-      "items": 3
+      "at": "2026-10-25T09:56:35.584Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T05:16:05.468Z",
-      "items": 1
+      "at": "2026-10-25T09:56:36.088Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2275,12 +2271,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T05:15:59.252Z",
+      "at": "2026-10-25T09:56:29.325Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-25T05:16:06.119Z",
+      "at": "2026-10-25T09:56:36.811Z",
       "items": 0
     },
     "hcg": {
@@ -2291,32 +2287,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-25T05:16:07.555Z",
+      "at": "2026-10-25T09:56:38.185Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-25T05:16:07.750Z",
+      "at": "2026-10-25T09:56:38.341Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-25T05:16:07.949Z",
+      "at": "2026-10-25T09:56:38.469Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-25T05:16:08.208Z",
-      "items": 6
+      "at": "2026-10-25T09:56:38.711Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-25T05:16:08.543Z",
-      "items": 5
+      "at": "2026-10-25T09:56:38.966Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-25T05:16:08.862Z",
+      "at": "2026-10-25T09:56:39.321Z",
       "items": 4
     }
   },
@@ -2334,11 +2330,20 @@
     ],
     "rejected": [],
     "errors": [],
-    "ig": [],
+    "ig": [
+      {
+        "slug": "athens-ports-ferry-departures-updates",
+        "at": "2026-10-25T09:56:50.073Z"
+      }
+    ],
     "fb": [
       {
         "slug": "84-defibrillators-athens-metro",
         "at": "2026-10-25T05:16:24.040Z"
+      },
+      {
+        "slug": "athens-ports-ferry-departures-updates",
+        "at": "2026-10-25T09:56:41.790Z"
       }
     ]
   },
@@ -2491,18 +2496,26 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-25T05:16:10.003Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-10-25T09:56:41.738Z",
+    "considered": 16,
+    "picked": 0,
     "items": [
-      "· ert | Εορτολόγιο: Ποιοι γιορτάζουν σήμερα 25 Οκτωβρίου",
-      "· ert | Ισχυρός σεισμός 6,1 Ρίχτερ στα νησιά Βανουάτου",
-      "· ert | Ισραήλ: Κλείνουν την Τρίτη όλες οι χερσαίες διελεύσεις από και προς τη Δυτική Όχθη λόγω τω",
-      "· ingr | Η οικονομία στο επίκεντρο της εκλογικής αναμέτρησης στη Βραζιλία",
-      "· gct | Hellenic Club Centenary Gala Draws Albanese and Venizelos in Sydney",
-      "· gct | Kimberly Guilfoyle Posting to Greece Tied to Alleged Trump Family Feud",
-      "· gct | Olympic Champion Eleftherios Petrounias Wins Fifth World Medal",
-      "✓ gn-kathimerini | 84 απινιδωτές ενισχύουν την ασφάλεια στο μετρό - Kathimerini"
+      "· gn-kathimerini | Στις 21:40 θα κλείνουν, λόγω εργασιών, πέντε σταθμοί του μετρό έως τις 29 Οκτωβρίου - Kath",
+      "· ert | Πρέβεζα: Πυρκαγιές σε δύο κατοικίες σε Βαλανιδοράχη και Ριζοβούνι",
+      "· naftemporiki | Εξάρχεια: Σκηνικό έντασης τα ξημερώματα – Συλλήψεις",
+      "· ingr | Μετρό: Κλείνουν πέντε σταθμοί της Γραμμής 3 λόγω αντικατάστασης σιδηροτροχιών",
+      "· ert | Εξάρχεια: Επεισόδια μετά από φωτιά σε κάδους – Συνελήφθησαν δύο νεαροί",
+      "· gn-kathimerini | Η Αγκυρα προωθεί το νομοσχέδιο για τη «Γαλάζια Πατρίδα» – Στο Κοινοβούλιο έως το τέλος του",
+      "· ingr | Σειρά παρεμβάσεων σε σταθμούς του Προαστιακού, του Μετρό και του ΗΣΑΠ – Πού γίνονται έργα",
+      "· gct | Evzones Raise Greek Flag at OXI Day ANZAC Memorial Ceremony in Sydney",
+      "· ingr | Ενοίκια: Νέα… υψηλά χτυπάνε τα επαγγελματικά ακίνητα – Αύξηση 12,7% στις καλές πιάτσες της",
+      "· naftemporiki | Σεισμός 4,5 Ρίχτερ ανοιχτά της Ζακύνθου",
+      "· gn-kathimerini | Το Ισραήλ κλείνει την Τρίτη τις χερσαίες διελεύσεις από και προς την κατεχόμενη Δυτική Οχθ",
+      "· gn-kathimerini | Σεισμική δόνηση 4,4 βαθμών έγινε αισθητή σε περιοχές της Ηλείας και της Αχαΐας - Kathimeri",
+      "· ert | Σεισμός 4,5 Ρίχτερ στη Ζάκυνθο",
+      "· gn-iefimerida | Σεισμός 4,5 Ρίχτερ μεταξύ Ζακύνθου και Ηλείας - iefimerida.gr",
+      "· usgs | M 4.9 - 17 km SE of Ambelókipoi, Greece",
+      "· ingr | Σεισμός 4,5 Ρίχτερ νοτιοανατολικά της Ζακύνθου"
     ]
   },
   "evergreenDone": [
@@ -2545,5 +2558,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-ports-ferry-departures-updates",
+      "url": "https://yavanet.gr/a/athens-ports-ferry-departures-updates/",
+      "at": "2026-10-25T09:56:41.790Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-ports-ferry-departures-updates/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-ports-ferry-departures-updates/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "לוחות הזמנים של המעבורות ביוון: עדכונים שוטפים מהנמלים",
+        "title_en": "Greek Ferry Schedules: Latest Updates From the Ports",
+        "dek_he": "משמר החופים ההלני מעדכן באופן שוטף על תנועת האוניות בנמלי המדינה, מידע חיוני לכל מי שמשלב שייט בחופשה הבאה שלו.",
+        "dek_en": "The Hellenic Coast Guard provides ongoing updates regarding vessel movements across the country's ports, offering essential information for travelers.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/36795943/pexels-photo-36795943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "לוחות הזמנים של המעבורות ביוון: עדכונים שוטפים מהנמלים\n\nמשמר החופים ההלני מעדכן באופן שוטף על תנועת האוניות בנמלי המדינה, מידע חיוני לכל מי שמשלב שייט בחופשה הבאה שלו.\n\nhttps://yavanet.gr/a/athens-ports-ferry-departures-updates/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greek Ferry Schedules: Latest Updates From the Ports\n\nThe Hellenic Coast Guard provides ongoing updates regarding vessel movements across the country's ports, offering essential information for travelers.\n\nhttps://yavanet.gr/en/a/athens-ports-ferry-departures-updates/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/athens-ports-ferry-departures-updates.jpg",
+          "caption": "לוחות הזמנים של המעבורות ביוון: עדכונים שוטפים מהנמלים\n\nמשמר החופים ההלני מעדכן באופן שוטף על תנועת האוניות בנמלי המדינה, מידע חיוני לכל מי שמשלב שייט בחופשה הבאה שלו.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #טיוליםביוון #חופשהביוון",
+          "story_url": "https://yavanet.gr/igc/athens-ports-ferry-departures-updates-story.jpg"
+        }
+      }
+    }
+  ]
 }
