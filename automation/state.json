@@ -14,12 +14,6 @@
     "130679e312d6": 1797324835203,
     "5323357044b4": 1797324835203,
     "4b96d61c4b9b": 1797680154244,
-    "d370d772ae28": 1791672649604,
-    "a27a2c083d79": 1791673303695,
-    "57b21103dbd2": 1791673303695,
-    "7cc9a6304ff3": 1791673303695,
-    "15debb206b73": 1791674573966,
-    "2cb640d10441": 1791675357113,
     "9a0c31e23498": 1791678899441,
     "fc97a2830c4a": 1791678899441,
     "d5c3acb75293": 1791680382634,
@@ -2193,7 +2187,11 @@
     "ab755d0dc045": 1792874000731,
     "4aa9558bbd76": 1792874000731,
     "8526fb7f1fbd": 1792881140970,
-    "6ac21037ac06": 1792881140970
+    "6ac21037ac06": 1792881140970,
+    "f0829e078f25": 1792888265201,
+    "42e4734ca2ef": 1792888265201,
+    "ebb10f198c1e": 1792888265201,
+    "b9fab4ce5c33": 1792888265201
   },
   "pending": {},
   "sourceStatus": {
@@ -2205,12 +2203,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-24T22:32:09.289Z",
+      "at": "2026-10-25T00:30:53.545Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-24T22:32:10.026Z",
+      "at": "2026-10-25T00:30:54.337Z",
       "items": 4
     },
     "civilprotection": {
@@ -2221,27 +2219,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-24T22:32:11.524Z",
+      "at": "2026-10-25T00:30:56.103Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-24T22:32:11.701Z",
+      "at": "2026-10-25T00:30:56.285Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-24T22:32:12.865Z",
+      "at": "2026-10-25T00:30:57.198Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-24T22:32:13.757Z",
-      "items": 4
+      "at": "2026-10-25T00:30:57.918Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-24T22:32:14.547Z",
+      "at": "2026-10-25T00:30:58.865Z",
       "items": 10
     },
     "toi-greece": {
@@ -2252,22 +2250,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-24T22:32:15.145Z",
+      "at": "2026-10-25T00:30:59.341Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-24T22:32:15.411Z",
+      "at": "2026-10-25T00:30:59.714Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-24T22:32:16.164Z",
-      "items": 5
+      "at": "2026-10-25T00:31:00.240Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T22:32:16.697Z",
+      "at": "2026-10-25T00:31:00.426Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2277,12 +2275,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-24T22:32:10.270Z",
+      "at": "2026-10-25T00:30:55.102Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-24T22:32:17.365Z",
+      "at": "2026-10-25T00:31:01.109Z",
       "items": 0
     },
     "hcg": {
@@ -2293,32 +2291,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-24T22:32:18.655Z",
+      "at": "2026-10-25T00:31:03.056Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-24T22:32:18.836Z",
+      "at": "2026-10-25T00:31:03.339Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-24T22:32:19.001Z",
+      "at": "2026-10-25T00:31:03.540Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-24T22:32:19.241Z",
-      "items": 6
+      "at": "2026-10-25T00:31:03.783Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-24T22:32:19.588Z",
-      "items": 6
+      "at": "2026-10-25T00:31:04.154Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-24T22:32:20.031Z",
+      "at": "2026-10-25T00:31:04.499Z",
       "items": 3
     }
   },
@@ -2480,12 +2478,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-24T22:32:20.970Z",
-    "considered": 2,
+    "at": "2026-10-25T00:31:05.201Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Greece and Turkey Explore Opportunities for Tourism Cooperation",
-      "· gct | Greece Hails Historic Agreement Over Saint Catherine Monastery (VID)"
+      "· gct | Qatar Airways Eyes Premium Economy and Expands Australia Flights",
+      "· gct | Santorini Serves Lionfish to 300+ Diners in Guinness World Record Bid",
+      "· gct | Greek Tennis Star Lydia Panagiotidou Makes European Masters History",
+      "· ert | ΗΠΑ: Πυρκαγιά σε εργοστάσιο της Quaker Oats στην Αϊόβα"
     ]
   },
   "evergreenDone": [
