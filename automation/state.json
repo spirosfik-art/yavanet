@@ -17,10 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "64bb98273d7f": 1791737619747,
-    "d33709d3e067": 1791738144083,
-    "c1e76a386bd4": 1791739297382,
-    "cf95f34e5cf4": 1791739297382,
     "67f2df8d7391": 1791740236117,
     "38d0e69dcd28": 1791741077282,
     "66a68f2329e4": 1791741077282,
@@ -2189,7 +2185,9 @@
     "3060d95e118e": 1792944286610,
     "25b725d271f8": 1792944286610,
     "744025829944": 1792944286610,
-    "5168213352ee": 1792944286610
+    "5168213352ee": 1792944286610,
+    "ff75c4bde6d5": 1792949170636,
+    "126c073b73b0": 1792949170636
   },
   "pending": {},
   "sourceStatus": {
@@ -2201,12 +2199,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-25T16:04:35.427Z",
+      "at": "2026-10-25T17:25:55.716Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-25T16:04:36.329Z",
+      "at": "2026-10-25T17:25:56.635Z",
       "items": 4
     },
     "civilprotection": {
@@ -2217,27 +2215,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-25T16:04:38.047Z",
+      "at": "2026-10-25T17:25:59.103Z",
       "items": 12
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-25T16:04:38.208Z",
+      "at": "2026-10-25T17:25:59.471Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-25T16:04:39.046Z",
+      "at": "2026-10-25T17:26:00.547Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-25T16:04:39.914Z",
-      "items": 6
+      "at": "2026-10-25T17:26:01.492Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-25T16:04:40.646Z",
+      "at": "2026-10-25T17:26:02.406Z",
       "items": 10
     },
     "toi-greece": {
@@ -2248,23 +2246,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-25T16:04:41.276Z",
+      "at": "2026-10-25T17:26:03.011Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-25T16:04:41.345Z",
+      "at": "2026-10-25T17:26:04.243Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-25T16:04:42.223Z",
-      "items": 3
+      "at": "2026-10-25T17:26:04.946Z",
+      "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T16:04:42.448Z",
-      "items": 5
+      "at": "2026-10-25T17:26:05.482Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2273,12 +2271,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T16:04:36.739Z",
+      "at": "2026-10-25T17:25:57.717Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-25T16:04:43.124Z",
+      "at": "2026-10-25T17:26:06.295Z",
       "items": 0
     },
     "hcg": {
@@ -2289,32 +2287,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-25T16:04:44.566Z",
+      "at": "2026-10-25T17:26:07.814Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-25T16:04:44.797Z",
+      "at": "2026-10-25T17:26:08.335Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-25T16:04:44.979Z",
-      "items": 2
+      "at": "2026-10-25T17:26:08.537Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-25T16:04:45.237Z",
+      "at": "2026-10-25T17:26:08.873Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-25T16:04:45.539Z",
-      "items": 11
+      "at": "2026-10-25T17:26:09.262Z",
+      "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-25T16:04:45.933Z",
+      "at": "2026-10-25T17:26:09.708Z",
       "items": 5
     }
   },
@@ -2364,6 +2362,12 @@
         "title": "↻ Severe Weather in Greece: Storms, Temp Drop and High Winds",
         "at": "2026-10-25T18:05:13+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "title": "↻ Greece Weather Warning: Heavy Rain and Thunderstorms Starting Monday",
+        "at": "2026-10-25T19:26:25+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [],
@@ -2372,6 +2376,10 @@
       {
         "slug": "athens-ports-ferry-departures-updates",
         "at": "2026-10-25T09:56:50.073Z"
+      },
+      {
+        "slug": "sinai-monastery-agreement-egypt-greece",
+        "at": "2026-10-25T17:26:35.132Z"
       }
     ],
     "fb": [
@@ -2390,6 +2398,10 @@
       {
         "slug": "turkey-blue-homeland-legislation-2026",
         "at": "2026-10-25T16:04:14.924Z"
+      },
+      {
+        "slug": "sinai-monastery-agreement-egypt-greece",
+        "at": "2026-10-25T17:26:25.168Z"
       }
     ]
   },
@@ -2542,21 +2554,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-25T16:04:46.611Z",
-    "considered": 11,
+    "at": "2026-10-25T17:26:10.636Z",
+    "considered": 2,
     "picked": 1,
     "items": [
-      "· ert | Μυτιλήνη: Νεκρός 48χρονος οδηγός δικύκλου σε σύγκρουση με τουριστικό βαν",
-      "✓ naftemporiki | Καιρός: Πώς θα κινηθεί η κακοκαιρία – Πτώση της θερμοκρασίας και ισχυροί βοριάδες",
-      "· gn-kathimerini | «Χωριάτικο»: 50 συλλήψεις για τη φορολογική απάτη των 100 εκατ. ευρώ - Kathimerini",
-      "· ert | Καταιγίδα Boelo: Πορτοκαλί συναγερμός για θυελλώδεις ανέμους σε Βρετανία και Ιρλανδία – Ακ",
-      "· gn-kathimerini | Τα ρεκόρ κρύβουν τις αδυναμίες του τουρισμού - Kathimerini",
-      "· ert | Ακύρωση δεκάδων πτήσεων στο Άμστερνταμ λόγω θυελλωδών ανέμων",
-      "· ert | Θεσσαλονίκη: Ο Επισμηναγός Χρ. – Π. Χαρίτος στην επίδειξη του «ΖΕΥΣ» την 28η Οκτωβρίου – Τ",
-      "· gn-kathimerini | Ολλανδία: Δεκάδες ακυρώσεις πτήσεων στο αεροδρόμιο Schiphol λόγω της καταιγίδας Boelo - Ka",
-      "· ingr | Ο Νετανιάχου προειδοποιεί ότι το Ισραήλ κινδυνεύει με πυρηνικό ολοκαύτωμα, αν χάσει τις εκ",
-      "· gn-civilprotection | Επιδείνωση του καιρού από τις πρώτες ώρες της Δευτέρας (26-10-2026) έως και την Τρίτη (27-",
-      "· gn-kathimerini | Συνελήφθη ο ιδιοκτήτης της αλυσίδας φούρνων «Χωριάτικο» – Ερευνα για φορολογική απάτη άνω "
+      "✓ ktg | Greece Weather Warning: Heavy rainfalls and thunderstorms",
+      "· gn-pm | Ενημερωτικό σημείωμα για τη συνάντηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον Πρίγκιπα "
     ]
   },
   "evergreenDone": [
@@ -2599,5 +2602,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "sinai-monastery-agreement-egypt-greece",
+      "url": "https://yavanet.gr/a/sinai-monastery-agreement-egypt-greece/",
+      "at": "2026-10-25T17:26:25.168Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/sinai-monastery-agreement-egypt-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/sinai-monastery-agreement-egypt-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "הסכם חדש מבטיח את עתיד מנזר סנטה קתרינה בסיני",
+        "title_en": "New Agreement Secures the Future of Saint Catherine's Monastery",
+        "dek_he": "ממשלת יוון מברכת על הבנות חדשות עם מצרים שמבטיחות את המשך הפעילות הדתית והמעמד המשפטי של מנזר סנטה קתרינה בסיני.",
+        "dek_en": "Greece welcomes a new arrangement with Egypt providing long-term legal protection and security for Saint Catherine's Monastery in Sinai.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/10356359/pexels-photo-10356359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "הסכם חדש מבטיח את עתיד מנזר סנטה קתרינה בסיני\n\nממשלת יוון מברכת על הבנות חדשות עם מצרים שמבטיחות את המשך הפעילות הדתית והמעמד המשפטי של מנזר סנטה קתרינה בסיני.\n\nhttps://yavanet.gr/a/sinai-monastery-agreement-egypt-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "New Agreement Secures the Future of Saint Catherine's Monastery\n\nGreece welcomes a new arrangement with Egypt providing long-term legal protection and security for Saint Catherine's Monastery in Sinai.\n\nhttps://yavanet.gr/en/a/sinai-monastery-agreement-egypt-greece/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/sinai-monastery-agreement-egypt-greece.jpg",
+          "caption": "הסכם חדש מבטיח את עתיד מנזר סנטה קתרינה בסיני\n\nממשלת יוון מברכת על הבנות חדשות עם מצרים שמבטיחות את המשך הפעילות הדתית והמעמד המשפטי של מנזר סנטה קתרינה בסיני.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #ישראליםביוון",
+          "story_url": "https://yavanet.gr/igc/sinai-monastery-agreement-egypt-greece-story.jpg"
+        }
+      }
+    }
+  ]
 }
