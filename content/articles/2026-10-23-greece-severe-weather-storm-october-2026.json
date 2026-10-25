@@ -2,7 +2,7 @@
   "slug": "greece-severe-weather-storm-october-2026",
   "section": "breaking",
   "publishedAt": "2026-10-23T22:42:36+03:00",
-  "updatedAt": "2026-10-24T03:30:17+03:00",
+  "updatedAt": "2026-10-25T16:00:40+02:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 23.7275
   },
   "sources": [
+    {
+      "name": "Meteoalarm / ΕΜΥ – προειδοποιήσεις",
+      "url": "https://meteoalarm.org?geocode=EMMA_ID:GR011"
+    },
     {
       "name": "iefimerida (μέσω Google News)",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWQ3eTVfQjRuSDltOGEwZ1JkY3NvX0dVOTVCc0dfZVdCZUVteVFkRVhmdllNbzNBZmVERW1fZjBJZ1RYemFMQ1ViMWhucktPbm9WUVY1MXVQTHFSYUpCRFkzVU0tc21uSEl3SmNVTTlDN3Q2U3BnaXhMRVBIRTQtalAyeVl3QQ?oc=5"
@@ -34,26 +38,26 @@
     "en": "Storm in Greece"
   },
   "he": {
-    "title": "סערה ביוון: מזג אוויר קיצוני בדרך למדינה",
-    "dek": "מערכת מזג אוויר מסוכנת בדרך ליוון, עם התראות על גשמים חזקים וסערות באזורים שונים ברחבי המדינה.",
+    "title": "אזהרת גשם בצבע כתום באזור אטיקה ביוון",
+    "dek": "רשויות החיזוי פרסמו אזהרת מזג אוויר חמורה עבור מחוז אטיקה הכולל את אתונה, בעקבות צפי למשקעים משמעותיים.",
     "tldr": [
-      "החזאי קלארכוס מרוסאקיס מזהיר מפני מזג אוויר קיצוני.",
-      "צפויים גשמים חזקים באזורים שונים ביוון.",
-      "המערכת צפויה להשפיע על חלקים נרחבים במדינה בימים הקרובים."
+      "הוצאה אזהרת גשם ברמה כתומים לאזור אטיקה ביוון.",
+      "ההתרעה כוללת חשש לתנאי מזג אוויר קשים באזור אתונה והסביבה.",
+      "נוסעים ושוהים באזור מתבקשים להתעדכן בתחזיות ולהישמע להנחיות המקומיות."
     ],
-    "means": "טסים ליוון או נמצאים בה כעת? הישארו מעודכנים בתחזית המקומית, עקבו אחר הודעות הרשויות ביוון, והימנעו משהייה באזורים מועדים להצפות בזמן הגשמים החזקים.",
-    "body": "## מערכת חורפית מתקרבת ליוון\n\nרשויות החיזוי ביוון מדווחת על התקרבות של מערכת מזג אוויר סוערת ומסוכנת. החזאי הידוע קלארכוס מרוסאקיס פרסם אזהרה מפני תנאי מזג אוויר קשים הצפויים לפקוד את המדינה.\n\n## אזורים בסיכון ומשקעים כבדים\n\nהתחזית מצביעה על כך שאזורים מסוימים ביוון יקבלו כמות משקעים גבוהה במיוחד. הגשמים העזים עלולים לגרום לשיבושים מקומיים, ולכן יש לעקוב אחר העדכונים הרשמיים של שירות החיזוי היווני.\n\n## הנחיות למטיילים ולתושבים\n\nמי שנמצא כעת ביוון מתבקש לנקוט משנה זהירות, להתרחק מאפיקי נחלים ואזורים נמוכים בזמן סערה, ולהתאים את תוכניות הטיול בהתאם לתנאי הדרך המשתנים."
+    "means": "אם אתם נמצאים כעת באתונה או מתכננים להגיע לאזור אטיקה בימים הקרובים, חשוב לעקוב אחר תחזית מזג האוויר המקומית. מומלץ להימנע מנסיעות לא חיוניות בזמן גשמים חזקים, להתעדכן בהודעות הרשויות ולהיערך לשיבושים אפשריים בהתנהלות השוטפת.",
+    "body": "## עדכון מזג אוויר באטיקה\n\nרשויות החיזוי הרשמיות עדכנו את הערכותיהן והוציאו אזהרת גשם ברמה כתתומה למחוז אטיקה, הכולל את עיר הבירה אתונה וסביבתה. ההתרעה המעודכנת מצביעה על אפשרות למשקעים כבדים ולתנאי מזג אוויר מאתגרים שעשויים להשפיע על שגרת היומיום באזור.\n\n## היערכות הרשויות והנחיות לציבור\n\nהמערכות המקצועיות ממשיכות לעקוב מקרוב אחר ההתפתחויות המטאורולוגיות. השוהים באזור מתבקשים לנקוט משנה זהירות, להימנע משהייה באזורים מועדים להצפות, ולהישמע להנחיות המעודכנות של כוחות ההצלה והרשויות המקומיות ביוון."
   },
   "en": {
-    "title": "Dangerous Storms Approaching Greece According to Forecasters",
-    "dek": "A dangerous weather system is approaching Greece, bringing warnings of heavy rainfall and storms to various regions.",
+    "title": "Orange Rain Warning Issued for Attica Region in Greece",
+    "dek": "Forecasters have issued an orange-level rain alert for the Attica region, covering Athens and surrounding areas.",
     "tldr": [
-      "Meteorologist Klearchos Marousakis warns of severe incoming weather.",
-      "Heavy rain is expected across specific regions in Greece.",
-      "Travelers and residents should monitor local forecasts closely."
+      "An orange rain warning is in effect for Attica, Greece.",
+      "The alert covers the greater Athens area due to forecast heavy precipitation.",
+      "Visitors and residents are advised to monitor local updates and exercise caution."
     ],
-    "means": "If you are traveling to or currently in Greece, check local weather updates frequently, follow guidance from local authorities, and avoid flood-prone areas during heavy downpours.",
-    "body": "## Storm System Approaching Greece\n\nMeteorological reports in Greece indicate the approach of a severe and hazardous weather system. Well-known meteorologist Klearchos Marousakis issued a warning regarding difficult weather conditions expected to impact parts of the country.\n\n## Regions Expected to See Heavy Rain\n\nThe forecast highlights specific regions where significant rainfall is expected over the coming period. The heavy downpours may lead to localized disruptions, requiring attention from anyone planning outdoor activities.\n\n## Safety Advice for Visitors and Residents\n\nAnyone currently in Greece should exercise caution, stay away from low-lying areas and stream beds during heavy rain, and adjust travel plans according to official updates."
+    "means": "If you are currently in Athens or heading to the Attica region, keep a close eye on local weather forecasts and official advisories. Plan extra travel time, avoid flood-prone areas during heavy downpours, and follow instructions from local authorities.",
+    "body": "## Weather Update for Attica\n\nOfficial forecasting agencies have updated their assessments, issuing an orange rain warning for the Attica region, which includes Athens. The advisory highlights the potential for significant rainfall and challenging weather conditions across the area.\n\n## Official Guidance\n\nLocal authorities remain on alert as the weather system progresses. Anyone in the affected region should stay informed through official updates, exercise caution during travel, and avoid areas susceptible to localized flooding."
   },
   "meta": {
     "itemId": "fb4b56e53d17",
@@ -62,6 +66,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-10-24T20:33:20.890Z",
     "official": false,
-    "updatedFrom": "f542209c97c2"
+    "updatedFrom": "f17552e74673"
   }
 }

@@ -17,29 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "2e1547a69171": 1791717694236,
-    "35da028c0f72": 1791717694236,
-    "91167c753b43": 1791717694236,
-    "df44797e5190": 1791717694236,
-    "48eddacf00c0": 1791718618610,
-    "1f06166537a9": 1791720133661,
-    "c421b020beed": 1791721649960,
-    "a06c0b833352": 1791721649960,
-    "f57c2d223bd6": 1791721649960,
-    "a0cd6f663a28": 1791721649960,
-    "009b21ed24db": 1791721649960,
-    "3f7670047859": 1791722938306,
-    "372308d67368": 1791722938306,
-    "70ca13873c16": 1791722938306,
-    "f83a6e8813d1": 1791722938306,
-    "7b69f77821b0": 1791722938306,
-    "680960043fb8": 1791725168001,
-    "3517bb76e7e7": 1791725168001,
-    "67392db8e43d": 1791725903595,
-    "6fdc2bc70684": 1791725903595,
-    "adbfcdb2bd01": 1791725903595,
-    "575cdc4088f0": 1791725903595,
-    "99074962c7dd": 1791726737193,
     "25a9e2b6effd": 1791727339034,
     "dd6dcdc8e99e": 1791728671375,
     "0b211a9bb7c6": 1791728671375,
@@ -2187,9 +2164,345 @@
     "59704eaf85ac": 1792922201738,
     "9914aff7ffa0": 1792926945814,
     "98a80d0bab38": 1792926945814,
-    "94bad4d91bcc": 1792926945814
+    "94bad4d91bcc": 1792926945814,
+    "f17552e74673": 1792936828275,
+    "912e1540874c": 1792936828275,
+    "3c73910d07fa": 1792936828275,
+    "0f91e70bfc41": 1792936828275,
+    "9bf1ffd9c0e7": 1792936828275,
+    "8f30657469a6": 1792936828275,
+    "6212e14a9289": 1792936828275,
+    "436199448fbd": 1792936828275,
+    "b9aad5f448e6": 1792936828275,
+    "4ac577540168": 1792936828275,
+    "b718f10df494": 1792936828275,
+    "e04d33b026cd": 1792936828275,
+    "40b10e9f9323": 1792936828275,
+    "65b6293d93f5": 1792936828275,
+    "e84b0b338c47": 1792936828275,
+    "fdd092d134e1": 1792936828275,
+    "672030f5ecb0": 1792936828275,
+    "69d4678d37ad": 1792936828275,
+    "899c8f8ed4c5": 1792936828275,
+    "05475d11e433": 1792936828275,
+    "b2c7a86e04e2": 1792936828275,
+    "5e1dbcd86511": 1792936828275,
+    "ddf53ffeadd7": 1792936828275,
+    "96c2c9cbfa9a": 1792936828275,
+    "36c77b5cb792": 1792936828275,
+    "5f4f2f86e509": 1792936828275
   },
-  "pending": {},
+  "pending": {
+    "e4591e": {
+      "createdAt": 1792936868045,
+      "item": {
+        "title": "Turkey Moves to Legislate ‘Blue Homeland’ Maritime Doctrine",
+        "url": "https://greekcitytimes.com/2026/10/25/turkey-blue-homeland-maritime-doctrine/",
+        "summary": "Turkey is preparing legislation to formalise its ‘Blue Homeland’ maritime doctrine, setting out proposed rules on territorial waters, maritime jurisdiction and disputed islets amid tensions with Greece and Cyprus.\n The post Turkey Moves to Legislate ‘Blue Homeland’ Maritime Doctrine appeared first on Greek City Times .",
+        "published": "Sun, 25 Oct 2026 11:32:34 +0000",
+        "id": "b2c7a86e04e2",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "b2c7a86e04e2",
+        "section": "politics",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Turkey moves to legislate its 'Blue Homeland' maritime doctrine, heightening tensions with Greece and Cyprus.",
+        "item": {
+          "title": "Turkey Moves to Legislate ‘Blue Homeland’ Maritime Doctrine",
+          "url": "https://greekcitytimes.com/2026/10/25/turkey-blue-homeland-maritime-doctrine/",
+          "summary": "Turkey is preparing legislation to formalise its ‘Blue Homeland’ maritime doctrine, setting out proposed rules on territorial waters, maritime jurisdiction and disputed islets amid tensions with Greece and Cyprus.\n The post Turkey Moves to Legislate ‘Blue Homeland’ Maritime Doctrine appeared first on Greek City Times .",
+          "published": "Sun, 25 Oct 2026 11:32:34 +0000",
+          "id": "b2c7a86e04e2",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "turkey-blue-homeland-maritime-doctrine-legislation",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "מתיחות ביוון",
+          "en": "Greece Tensions"
+        },
+        "imageKey": "politics",
+        "imageQuery": "sea map politics greece turkey",
+        "he": {
+          "title": "טורקיה מקדמת חקיקה לעיגון דוקטרינת המולדת הכחולה",
+          "seoTitle": "המתיחות ביוון: טורקיה מקדמת חקיקה ימית",
+          "seoDesc": "טורקיה נערכת להגיש לפרלמנט חקיקה לקידום דוקטרינת המולדת הכחולה. כל הפרטים על הצעד שעשוי להשפיע על המתיחות בים הגיאון.",
+          "keywords": [
+            "יוון",
+            "המולדת הכחולה",
+            "הים הגיאון",
+            "טורקיה יוון",
+            "פוליטיקה ביוון"
+          ],
+          "dek": "אנקרה מתכננת להגיש לפרלמנט חקיקה המעגנת את גבולותיה הימיים, מהלך שעשוי להשפיע על האזור.",
+          "tldr": [
+            "טורקיה מתכננת להגיש חקיקה עד סוף 2026.",
+            "הצעד מכוון לגבולות ימיים ואזורים כלכליים בלעדיים.",
+            "המהלך עשוי להשפיע על המתיחות מול יוון וקפריסין."
+          ],
+          "means": "מדובר בדיווח מדיני שאינו משפיע כרגע באופן ישיר על התיירים, המשקיעים או התושבים ביוון. אין צורך בשינוי תוכניות נסיעה או השקעה, אך מומלץ להתעדכן בחדשות המקומיות לגבי התפתחויות דיפלומטיות באזור.",
+          "body": "## הכנות לחקיקה בטורקיה\n\nשלטונות טורקיה נערכים להגיש בקרוב הצעת חוק חדשה המעגנת את דוקטרינת \"המולדת הכחולה\". לפי דיווחים בתקשורת הטורקית, מפלגת הצדק והפיתוח השלטת פועלת לניסוח הצעת החוק שתוצג לפרלמנט לפני סוף שנת 2026.\n\nהחקיקה המתוכננת צפויה לעסוק בכללים הנוגעים לסמכות שיפוט ימית, מים טריטוריאליים ואזורים כלכליים בלעדיים (EEZ). בין היתר, הצעד עשוי להתייחס לזכויות כלכליות, מדף יני ומעמדם של אזורים שונים בים הגיאון ובמזרח הים התיכון.\n\n## השפעה על המתיחות האזורית\n\nקידום החקיקה מגיע על רקע מחלוקות מתמשכות בין יוון לטורקיה סביב גבולות ימיים וזכויות במרחב הימי. באנקרה עקבו בתקופה האחרונה גם אחר פרויקטים אזוריים כמו חיבור החשמל התת-ימי בין יוון לקפריסין, אשר הפך למוקד תשומת לב בדיונים על פעילות ימית.\n\nמומחים מציינים כי ניסוח החוק ותרגומו לחקיקה פנימית עשויים להשפיע על הדינמיקה הדיפלומטית באזור, בזמן ששתי המדינות ממשיכות לעמוד על עמדותיהן בנוגע לפרשנות המשפט הבינלאומי בים הגיאון."
+        },
+        "en": {
+          "title": "Turkey Prepares Legislation for 'Blue Homeland' Doctrine",
+          "seoTitle": "Turkey Prepares Maritime Legislation for Blue Homeland",
+          "seoDesc": "Turkey is preparing legislation to formalize its Blue Homeland maritime doctrine, potentially impacting Aegean boundaries and regional tensions.",
+          "keywords": [
+            "Greece Turkey",
+            "Blue Homeland",
+            "Aegean Sea",
+            "Greece politics",
+            "EEZ"
+          ],
+          "dek": "Ankara is finalizing a bill to formalize its maritime doctrine, a move that could affect relations and boundaries in the Aegean and Eastern Mediterranean.",
+          "tldr": [
+            "Turkey plans to submit the bill before the end of 2026.",
+            "The legislation targets territorial waters and exclusive economic zones.",
+            "The move may intensify existing maritime disputes with Greece and Cyprus."
+          ],
+          "means": "This is a political development with no immediate impact on tourists, investors, or residents in Greece. No changes to travel or business plans are necessary, but monitoring local news for diplomatic updates is advised.",
+          "body": "## Legislative Preparations in Turkey\n\nTurkish authorities are preparing legislation to formalize the controversial 'Blue Homeland' maritime doctrine. According to reports from broadcaster Habertürk, the ruling Justice and Development Party is finalizing a bill designed to protect national interests and sovereign rights at sea.\n\nThe proposed framework is expected to be submitted to the Turkish parliament before the end of 2026. It aims to establish rules governing maritime jurisdiction, territorial waters, and exclusive economic zones (EEZ), including activities related to the seabed and subsoil.\n\n## Regional Implications\n\nAnkara had previously delayed the initiative while monitoring developments regarding regional projects, such as the Greece-Cyprus electricity interconnection. The upcoming legislation reflects Turkey's approach to maritime claims at a time when Athens and Ankara remain divided over boundaries and the interpretation of international law in the Aegean and Eastern Mediterranean."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Turkey is preparing legislation to formalise its controversial ‘Blue Homeland’ maritime doctrine, with potential implications for Greece, Cyprus and disputes over maritime rights in the Aegean and Eastern Mediterranean.\n According to Turkish broadcaster Habertürk, the ruling Justice and Development Party (AKP) is finalising a bill designed to protect what Ankara describes as Turkey’s sovereign rights and national interests at sea.\n The legislation is expected to be drafted in November and submitted to the Turkish parliament before the end of 2026.\n Read more: Turkey Accepts Greece-Cyprus Cable, but Demands Survey Notice \n Bill targets maritime boundaries and disputed islets\n Reports indicate the proposed framework would establish rules governing Turkey’s maritime jurisdiction, including its territorial waters and exclusive economic zone (EEZ).\n The legislation is expected to define Turkey’s territorial waters as extending six nautical miles in the Aegean Sea and 12 nautical miles in the Black Sea and Mediterranean.\n It would also reportedly require Ankara’s direct authorisation for economic, scientific and environmental activities within Turkey’s EEZ, including activities involving the seabed and subsoil.\n Another provision is expected to address the legal status of islets commonly described in Turkey as “grey zones”, invoking international maritime law.\n Such provisions could intensify existing tensions between Greece and Turkey over maritime boundaries, sovereignty and the interpretation of international law.\n Great Sea Interconnector adds to tensions\n Ankara had initially planned to introduce the legislation in the autumn but subsequently postponed the move.\n According to reports cited by Kathimerini, Turkey opted to monitor developments surrounding the Greece-Cyprus electricity interconnection project, the Great Sea Interconnector (GSI), before proceeding.\n The project has become a focal point in the wider dispute over maritime activities and jurisdiction in the Eastern Mediterranean.\n The proposed legislation would formalise Ankara’s approach to maritime claims at a time when Greece and Turkey remain at odds over the limits of their respective rights in the Aegean.\n The bill’s final wording and its eventual passage through parliament will determine how Turkey seeks to translate the ‘Blue Homeland’ doctrine into domestic law.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Advances Aegean Marine Park Plan Amid Turkish Disputes \n Turkey Issues Navtex for Live-Fire Exercise South of Kastellorizo \n Erdogan’s Son-in-Law Vows Turkey Will Never Give Up ‘Blue Homeland’ Maritime Claims \n Greece Challenges Turkish Survey Claims in Maritime Showdown \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Evzones Raise Greek Flag at OXI Day ANZAC Memorial Ceremony in Sydney\n Next Article \n Messolonghi Lagoons: Birds, Salt and History for Families\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Τουρκία προετοιμάζει νομοθεσία για το δόγμα της «Γαλάζιας Πατρίδας»",
+        "dek": "Η Άγκυρα οριστικοποιεί νομοσχέδιο για την κατοχύρωση του θαλάσσιου δόγματός της, μια κίνηση που θα μπορούσε να επηρεάσει τις σχέσεις και τα σύνορα στο Αιγαίο και την Ανατολική Mεσόγειο.",
+        "tldr": [
+          "Η Τουρκία σχεδιάζει να καταθέσει το νομοσχέδιο πριν από το τέλος του 2026.",
+          "Η νομοθεσία στοχεύει τα χωricτά ύδατα και τις αποκλειστικές οικονομικές ζώνες.",
+          "Η κίνηση ενδέχεται να εντείνει τις υφιστάμενες θαλάσσιες διαφορές με την Ελλάδα και την Κύπρο."
+        ]
+      },
+      "notified": true
+    },
+    "43e788": {
+      "createdAt": 1792936891521,
+      "item": {
+        "title": "Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion",
+        "url": "https://greekcitytimes.com/2026/10/25/greek-banks-profits-bad-loans-2026/",
+        "summary": "Greek banks profits reached €2.6 billion in the first half of 2026, yet bad loans on their books rose to €6.2 billion over the same period. Both figures come from the Bank of Greece’s latest Financial Stability Review, published on 22 October. Greek banks profits keep rising According to the Bank of Greece, Greek banking…\n The post Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion appeared first on Greek City Times .",
+        "published": "Sun, 25 Oct 2026 11:59:44 +0000",
+        "id": "e04d33b026cd",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "e04d33b026cd",
+        "section": "real-estate",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Bank of Greece Financial Stability Review shows Greek bank profits and rising bad loans, relevant for investors and the housing market.",
+        "item": {
+          "title": "Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion",
+          "url": "https://greekcitytimes.com/2026/10/25/greek-banks-profits-bad-loans-2026/",
+          "summary": "Greek banks profits reached €2.6 billion in the first half of 2026, yet bad loans on their books rose to €6.2 billion over the same period. Both figures come from the Bank of Greece’s latest Financial Stability Review, published on 22 October. Greek banks profits keep rising According to the Bank of Greece, Greek banking…\n The post Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion appeared first on Greek City Times .",
+          "published": "Sun, 25 Oct 2026 11:59:44 +0000",
+          "id": "e04d33b026cd",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greek-banks-profits-bad-loans-2026",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדל\"ן ביוון",
+          "en": "Greek Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "bank building athens architecture",
+        "he": {
+          "title": "רווחי הבנקים ביוון עלו ל-2.6 מיליארד אירו לצד זיכוי ההלוואות הבעייתיות",
+          "seoTitle": "נדל\"ן ביוון: רווחי הבנקים עלו ל-2.6 מיליארד אירו",
+          "seoDesc": "דוח בנק יוון לחציון הראשון של 2026 מציג עלייה ברווחי הבנקים לצד גידול בהלוואות הבעייתיות ועליית ריביות. מה זה אומר למשקיעים?",
+          "keywords": [
+            "נדל\"ן ביוון",
+            "השקעה בנדל\"ן ביוון",
+            "דירה באתונה",
+            "בנקים ביוון",
+            "כלכלה ביוון"
+          ],
+          "dek": "בנק יוון פרסם את דוח יציבות פיננסית לחציון הראשון של 2026, המצביע על רווחים נאים לצד אתגרים בהלוואות ובריביות.",
+          "tldr": [
+            "רווחי הבנקים ביוון הגיעו ל-2.6 מיליארד אירו בחציון הראשון של 2026.",
+            "ההלוואות הבעייתיות עלו ל-6.2 מיליארד אירו, בעיקר במשקי הבית.",
+            "הבנק המרכזי מזהיר מפני עליות ריבית ועליית מחירי דיור מהירות."
+          ],
+          "means": "המידע מיועד להתרשמות כללית ואינו מהווה ייעוץ משפטי או פיננסי. משקיעים ישראלים הרוכשים נדל\"ן או נוטלים משכנתאות ביוון צריכים לעקוב אחרי מדיניות הריבית של הבנק המרכזי האירופי ובדיקת היכולת הפיננסית שלהם מול הבנקים המקומיים.",
+          "body": "## זינוק ברווחים לצד עלייה בהלוואות הבעייתיות\n\nקבוצות הבנקאות ביוון רשמו רווחים לאחר מס בגובה 2.6 מיליארד אירו בין חודשים ינואר ליוני 2026, עלייה של 3.8% לעומת התקופה המקбіלה בשנת 2025. כך עולה מדוח היציבות הפיננסית האחרון שפרסם בנק יוון ב-22 באוקטובר.\n\nלצד הרווחים, המבוססים בעיקר על הכנסות מריבית ומעמלות, היקף ההלוואות שאינן מניבות תשואה (NPLs) במאזני הבנקים עלה ל-6.2 מיליארד אירו. מדובר בעלייה של 529 מיליון אירו, או 9.3%, בהשוואה לדצמבר 2025, המביאה את יחס ההלוואות הבעייתיות ל-3.4% מכלל ההלוואות.\n\n## השפעת הריבית ועומס על משקי הבית\n\nמשקי הבית ביוון מרגישים את הלחץ בצורה הבולטת ביותר. הלוואות הבעייתיות של משקי הבית רשמו עלייה של 14% מאז חודש דצמבר, בעיקר בתחום המשכנתאות וההלוואות הצרכניות. במקביל, הלוואות עסקיות גדלו ב-5.4% והגיעו לכ-3.2 מיליארד אירו, כאשר העלייה החדה ביותר נרשמה בקרב עצמאים ועסקים זעירים.\n\nעלויות ההלוואה נמצאות במגמת עלייה בעקבות החלטות הבנק המרכזי האירופי להעלות את הריביות פעמיים במהלך שנת 2026. הריבית הממוצעת על הלוואות חדשות לעסקים ביוון טיפסה ל-4.5% בחודש אוגוסט, לעומת 3.7% בסוף 2025.\n\n## סיכונים ואזהרות מהבנק המרכזי\n\nהבנק המרכזי ביוון מצביע על שני סיכונים מרכזיים שעשויים להשפיע על השוק: עליית שער הריבית וקצב עליית מחירי הנדל\"ן המהיר המשולב בהאצת מתן משכנתאות. למרות שנתונים אלו אינם מאיימים כרגע על יציבות המערכת הפיננסית, הם עלולים לדחוף מספר רב יותר של משקי בית ועסקים לקשיי החזר.\n\nעם זאת, בנק יוון מדגיש כי המערכת נותרת חסונה, וההלוואות הבעייתיות נמוכות משמעותית בהשוואה לשיא שנרשם במרץ 2016. הבנק קורא לגופים הפיננסיים להמשיך ולתמוך בהשקעות ובצמיחה באמצעות מתן אשראי חדש."
+        },
+        "en": {
+          "title": "Greek Banks Post €2.6 Billion Profit in First Half of 2026 Amid Rising Bad Loans",
+          "seoTitle": "Greek Banks 2026 Profits and Bad Loans Update",
+          "seoDesc": "Bank of Greece H1 2026 report shows €2.6 billion in profits alongside a rise in non-performing loans and higher borrowing costs. What it means for you.",
+          "keywords": [
+            "Greek banks 2026",
+            "Bank of Greece report",
+            "Greek real estate market",
+            "mortgages in Greece",
+            "investing in Greece"
+          ],
+          "dek": "The Bank of Greece released its Financial Stability Review for the first half of 2026, reporting solid profits alongside rising bad loans and climbing interest rates.",
+          "tldr": [
+            "Greek banking groups posted after-tax profits of €2.6 billion in H1 2026.",
+            "Non-performing loans on bank books rose to €2.6 billion, driven largely by households.",
+            "The central bank flagged rising interest rates and rapid property price growth as key risks."
+          ],
+          "means": "This is general information and not financial or legal advice. Israeli investors buying property or dealing with financing in Greece should closely monitor European Central Bank interest rate trends and consult local professionals regarding mortgage options.",
+          "body": "## Strong Profits Alongside Rising Non-Performing Loans\n\nGreek banking groups recorded after-tax profits of €2.6 billion between January and June 2026, marking a 3.8% increase compared to the first half of 2025. Both figures come from the Bank of Greece’s latest Financial Stability Review, published on October 22.\n\nWhile core revenues grew by 8.3% year on year, driven by net interest income and fee growth, the stock of non-performing loans (NPLs) held on Greek banks' own balance sheets rose to €6.2 billion. This represents an increase of €529 million, or 9.3%, from December 2025, bringing the NPL ratio up to 3.4%.\n\n## Household Strain and Higher Borrowing Costs\n\nHouseholds bore the brunt of the financial strain. Bad loans among households rose by 14% since December, primarily within mortgages and consumer loans, pushing the household NPL ratio to 8.6%. Business NPLs also increased by 5.4% to about €3.2 billion, with self-employed professionals and micro-businesses seeing the sharpest rise.\n\nBorrowing costs continue to climb following two key interest rate hikes by the European Central Bank in 2026. Consequently, the average rate on new loans to Greek businesses rose to 4.5% in August, up from 3.7% at the end of 2025.\n\n## Central Bank Outlook and Risks\n\nIn its report, the Bank of Greece highlights two specific risks: rising interest rates and fast-rising property prices combined with accelerating mortgage lending. Although these factors do not threaten overall financial stability at present, they could push more borrowers into arrears.\n\nNevertheless, the central bank concluded that the banking sector remains resilient and urged financial institutions to continue supporting investment and economic growth through new lending."
+        }
+      },
+      "text": "The Bank of Greece headquarters on Panepistimiou Street, Athens. Photo: George E. Koronaios / Wikimedia Commons, CC BY-SA 4.0 \n 0 \n 0 \n 0 \n Greek banks profits reached €2.6 billion in the first half of 2026, yet bad loans on their books rose to €6.2 billion over the same period. Both figures come from the Bank of Greece’s latest Financial Stability Review, published on 22 October.\n Greek banks profits keep rising\n According to the Bank of Greece , Greek banking groups posted after-tax profits of €2.6 billion between January and June, up 3.8% on the first half of 2025.\n Interest and fees drove the result. Net interest income rose 5.6%, helped by loan growth and larger holdings of foreign government bonds. At the same time, net fee and commission income jumped 18.5%. Together, these core revenues grew 8.3% year on year.\n Read more: Stournaras: Greece welcomes greater foreign investment in banks \n Banks also set aside far less money for bad debts, with loan-loss provisions down 27.8%. On the other hand, operating costs rose 9.3% and trading gains fell. Overall, the sector’s return on equity stood at 12.1%.\n Capital buffers eased slightly. The CET1 ratio fell to 14.8% in June from 15.4% in December 2025, while the total capital ratio slipped to 19.6% from 19.8%.\n What the €6.2 billion actually means\n The €6.2 billion figure is the stock of non-performing loans (NPLs) held on Greek banks’ own balance sheets, on a solo basis. Therefore, it excludes the legacy bad debts that banks have already sold or securitised, which loan servicers now manage.\n That stock rose by €529 million, or 9.3%, from €5.7 billion in December 2025. As a result, the NPL ratio edged up to 3.4% of all loans from 3.3%.\n According to the report’s detailed figures, reported by SKAI and Ta Nea, €1.7 billion of loans turned bad during the half-year. By contrast, only €388 million returned to performing status, and banks wrote off just €73 million.\n Households felt the strain most. Household bad loans rose 14% from December, mainly in mortgages and, to a lesser extent, consumer loans. The household NPL ratio reached 8.6%. Business NPLs rose 5.4% to about €3.2 billion, with the sharpest increase among self-employed professionals and micro-businesses (12.5%). Meanwhile, bad loans to shipping companies fell 7.3%.\n Even so, the central bank stresses that NPLs remain 94%, or €101 billion, below their March 2016 peak.\n Are high interest rates part of the problem?\n The Bank of Greece links part of the rise in bad mortgages to the recent legislative settlement for Swiss franc loans, as well as to bank initiatives targeting restructured mortgages of vulnerable households, Powergame reports.\n However, borrowing costs are clearly climbing. The European Central Bank raised its key rates twice in 2026, by 25 basis points in June and again in September. Consequently, the average rate on new loans to Greek businesses rose to 4.5% in August from 3.7% in December 2025.\n The report also points to sharply higher energy prices and inflation, which reached 3.8% in Greece in January–September. According to Powergame, the central bank flags two risks in particular: rising interest rates, and fast-rising property prices combined with accelerating mortgage lending. Neither threatens financial stability for now, but both could push more households and businesses into arrears.\n Still, with Greek banks profits holding up, the Bank of Greece concludes that the sector remains resilient. “Current challenges leave no room for complacency,” it said, urging banks to keep supporting investment and growth through new lending.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Bank of Cyprus Acquisitions Target Greek Insurers 13 Years After Crisis Exit \n Greece Forecast to Outpace Eurozone Growth Despite Inflation \n Greek Investment Surges as Real Estate Leads Growth \n Greek Banks Better Protected From Rising Bond Yields \n Advertising\n Stella Mazonakis \n Stella Mazonakis is a contributor at Greek City Times, covering Greek news, community stories, sport, culture, and current affairs for readers in Greece and the diaspora.\n Previous Article \n €400 for Pensioners on 30 November: Who Gets It and Who Misses Out\n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Κέρδη 2,6 δισεκατομμυρίων ευρώ για τις ελληνικές τράπεζες το πρώτο εξάμηνο του 2026 εν μέσω αύξησης των “κόκκινων” δανείων",
+        "dek": "Η Τράπεζα της Ελλάδος δημοσίευσε την Έκθεση Χρηματοπιστωτικής Σταθερότητας για το πρώτο εξάμηνο του 2026, καταγράφοντας ισχυρά κέρδη παράλληλα με την αύξηση των μη εξυπηρετούμενων δανείων και των επιτοκίων.",
+        "tldr": [
+          "Οι ελληνικοί τραπεζικοί όμιλοι κατέγραψαν καθαρά κέρδη 2,6 δισεκατομμυρίων ευρώ το πρώτο εξάμηνο του 2026.",
+          "Τα μη εξυπηρετούμενα δάνεια στους ισολογισμούς των τραπεζών αυξήθηκαν στα 2,6 δισεκατομμύρια ευρώ, ωθούμένα κυρίως από τα νοικοκυριά.",
+          "Η κεντρική τράπεζα επεσήμανε την άνοδο των επιτοκίων και την ταχεία αύξηση των τιμών των ακινήτων ως βασικούς κινδύνους."
+        ]
+      },
+      "notified": true
+    },
+    "2401b0": {
+      "createdAt": 1792936908729,
+      "item": {
+        "title": "€400 for Pensioners on 30 November: Who Gets It and Who Misses Out",
+        "url": "https://greekcitytimes.com/2026/10/25/400-euro-pensioner-payment-who-qualifies/",
+        "summary": "Greece’s €400 pensioner payment is set to land on 30 November, with about 2.2 million people expected to receive it. However, not every pensioner qualifies. Here is a simple guide to the new rules. A permanent annual boost, not a one-off The payment is an annual support that Greece now pays every November. Prime Minister…\n The post €400 for Pensioners on 30 November: Who Gets It and Who Misses Out appeared first on Greek City Times .",
+        "published": "Sun, 25 Oct 2026 11:56:52 +0000",
+        "id": "40b10e9f9323",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "40b10e9f9323",
+        "section": "living",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Details on Greece's upcoming 400 euro annual pensioner support payment affecting millions of residents.",
+        "item": {
+          "title": "€400 for Pensioners on 30 November: Who Gets It and Who Misses Out",
+          "url": "https://greekcitytimes.com/2026/10/25/400-euro-pensioner-payment-who-qualifies/",
+          "summary": "Greece’s €400 pensioner payment is set to land on 30 November, with about 2.2 million people expected to receive it. However, not every pensioner qualifies. Here is a simple guide to the new rules. A permanent annual boost, not a one-off The payment is an annual support that Greece now pays every November. Prime Minister…\n The post €400 for Pensioners on 30 November: Who Gets It and Who Misses Out appeared first on Greek City Times .",
+          "published": "Sun, 25 Oct 2026 11:56:52 +0000",
+          "id": "40b10e9f9323",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-pensioner-400-euro-payment-november",
+        "section": "living",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "קצבה ביוון",
+          "en": "Greece Pension"
+        },
+        "imageKey": "people",
+        "imageQuery": "senior greek pensioner couple resting",
+        "he": {
+          "title": "מענק של 400 אירו לגמלאים ביוון: מי זכאי ומה צריך לדעת",
+          "seoTitle": "מענק של 400 אירו לגמלאים ביוון: מי זכאי ומה הכללים",
+          "seoDesc": "ממשלת יוון תשלם מענק שנתי של 400 אירו ל-2.2 מיליון גמלאים ב-30 בנובמבר. כל הפרטים על תנאי הזכאות החדשים והתשלום האוטומטי.",
+          "keywords": [
+            "גמלאים ביוון",
+            "קצבה ביוון",
+            "יוון",
+            "ביטוח לאומי יוון",
+            "חדשות יוון"
+          ],
+          "dek": "ממשלת יוון תעביר בסוף נובמבר מענק שנתי בסך 400 אירו לכ-2.2 מיליון גמלאים. הנה כל מה שצריך לדעת על הכללים החדשים והתשלום האוטומטי.",
+          "tldr": [
+            "התשלום בסך 400 אירו יועבר אוטומטית לחשבונות הבנק ב-30 בנובמבר.",
+            "המענק מיועד לגמלאים מעל גיל 65, מקבלי קצבת שאירים ונכים.",
+            "אין יותר מבחני הכנסה או רכוש לקבלת המענק השנתי."
+          ],
+          "means": "אם אתם ישראלים תושבי יוון או בעלי זכויות לפנסיה מקומית, שימו לב שהתשלום מבוצע אוטומטי מבלי להגיש בקשה. מומלץ לעקוב אחר הודעות גוף הביטוח הלאומי היווני e-EFKA כדי לוודא זכאות ולבדוק את פרטי חשבון הבנק המעודכנים שלכם.",
+          "body": "## מועד התשלום וקהל היעד\n\nממשלת יוון מתכננת להפקיד אוטומטית מענק שנתי בסך 400 אירו לחשבונות הבנק של כ-2.2 מיליון זכאים ב-30 בנובמבר. מדובר בתמיכה קבועה שמשולמת מדי חודש נובמבר, בהודעה של ראש הממשלה קיריאקוס מיצוטאקיס. בשנה שעברה עמד הסכום על 250 אירו, ובאפריל תכננה הממשלה להעניק 300 אירו.\n\nהצעת החוק נידונה כעת במסגרת משרד הכלכלה והאוצר הלאומי, והיא צפויה לעבור בהצבעה רשמית במהלך חודש נובמבר, לפי דיווחים רשמיים.\n\n## מי זכאי לקבל את המענק?\n\nהכללים החדשים מגדירים כמה קבוצות עיקריות הזכאיות לסכום המלא:\n\n* גמלאים בני 65 ומעלה שקיבלו פנסיה ראשית בספטמבר, ובלבד שמלאו להם 65 עד סוף שנת 2025.\n* בני 60 ומעלה המקבלים אך ורק קצבת שאירים (אלמנות), ללא פנסיית זקנה משל עצמם.\n* אנשים עם מוגבלויות בכל גיל המקבלים קצבאות נכות או רווחה רלוונטיות.\n* קשישים עריריים שאינם מבוטחים המקבלים קצבאות דרך ארגון OPEKA.\n\nחידוש מרכזי הוא ביטול מבחני ההכנסה והרכוש שהיו נהוגים בעבר. כך למשל, זוג גמלאים ששניהם עומדים בתנאים יוכלו לקבל יחד סכום של 800 אירו.\n\n## מי אינו כלל ברשימת הזכאים?\n\nשתי קבוצות מרכזיות לא יקבלו את המענק השנה: פנסיונרים מתחת לגיל 65 שאינם שייכים לקבוצות המיוחדות, וכן אנשים שמלאו להם 65 במהלך שנת 2026 עצמה. גמלאים אלו צפויים לקבל את התשלום בשנה הבאה.\n\n## אופן ההעברה והגנת התשלום\n\nשרת העבודה ניקי קראמאוס ציינה כי הכסף ישולם בסוף נובמבר יחד עם קצבאות חודש דצמבר. אין צורך להגיש שום טופס או בקשה; הסכום נכנס ישירות לחשבון, וגוף e-EFKA יפעיל שירות מקוון לבדיקת זכאות.\n\nהסכום משולם נטו, ללא ניכויי מס או הפרשות, ואינו ניתנים לעיקול או לקיזוז בגין חובות לרשויות המס, לקרנות הביטוח או לבנקים. עלות המהלך הכוללת מוערכת בכ-879 מיליון אירו בשנה."
+        },
+        "en": {
+          "title": "Greece €400 Pensioner Payment: Who Qualifies and New Rules",
+          "seoTitle": "Greece €400 Pensioner Payment: Who Qualifies and Rules",
+          "seoDesc": "Greece will automatically credit a €400 annual payment to about 2.2 million pensioners on November 30. Check the new eligibility rules.",
+          "keywords": [
+            "greece pensioners",
+            "pension payment greece",
+            "greece 400 euro",
+            "efka greece",
+            "living in greece"
+          ],
+          "dek": "The Greek government is set to disburse an annual €400 support payment to roughly 2.2 million people on November 30. Here is how the new rules work.",
+          "tldr": [
+            "The €400 payment will be credited automatically to bank accounts on November 30.",
+            "Eligible groups include pensioners aged 65+, survivor pension recipients, and individuals with disabilities.",
+            "Income and property tests have been removed for this annual support."
+          ],
+          "means": "If you are an Israeli resident in Greece or entitled to local pensions, note that the payment is automatic with no application needed. Monitor official updates from e-EFKA to verify your eligibility and ensure your banking details are correct.",
+          "body": "## Payment Schedule and Overview\n\nGreece is preparing to automatically credit a €400 annual payment to approximately 2.2 million recipients on November 30. Prime Minister Kyriakos Mitsotakis announced this annual support mechanism, which follows previous payments of €250 last year.\n\nThe relevant legislation sits within a Ministry of National Economy and Finance bill currently undergoing public consultation, with parliamentary approval targeted for November.\n\n## Who Qualifies for the Payment?\n\nUnder the proposed framework, specific groups are eligible for the financial boost:\n\n* Pensioners aged 65 and over who received a main pension in September, provided they turned 65 by December 31, 2025.\n* Pensioners aged 60 and over who receive exclusively a survivor's pension without their own old-age pension.\n* Individuals with disabilities of any age receiving designated disability or welfare benefits.\n* Uninsured elderly individuals receiving relevant OPEKA benefits.\n\nSignificantly, previous income and property thresholds have been eliminated. Retired couples who both qualify will receive a combined total of €800.\n\n## Who Excluded From This Round?\n\nTwo main categories will not receive the funds this year: old-age pensioners under the age of 65 unless they fit special welfare categories, and those who turn 65 during 2026. These individuals are expected to receive the support in November 2027.\n\n## Disbursement and Protections\n\nLabour Minister Niki Kerameus confirmed the funds will arrive at the end of November alongside December pensions. Beneficiaries do not need to submit any application, as the money transfers directly to registered bank accounts, and e-EFKA will provide an online eligibility checker.\n\nThe payment is issued net of tax and deductions, and it cannot be seized or offset against state, social security, or bank debts. The total measure amounts to €879 million annually."
+        }
+      },
+      "text": "The €400 payment will be credited automatically to recipients' bank accounts (file photo, Athens, 2013). Photo: Cogiati / Wikimedia Commons, CC BY-SA 3.0 \n 0 \n 0 \n 0 \n Greece’s €400 pensioner payment is set to land on 30 November, with about 2.2 million people expected to receive it. However, not every pensioner qualifies. Here is a simple guide to the new rules.\n A permanent annual boost, not a one-off\n The payment is an annual support that Greece now pays every November. Prime Minister Kyriakos Mitsotakis announced the rise to €400 at the Thessaloniki International Fair (TIF) in September. By comparison, eligible pensioners received €250 last year, and in April 2026 the government had planned €300.\n The rules sit in Article 19 of a Ministry of National Economy and Finance bill containing the TIF support measures. The bill is in public consultation until 1 November, and the government aims to pass it in November, ERT reports . As a result, the details below reflect the draft law and could still change.\n Read more: Greece Unveils 17 Measures to Cut Taxes and Boost Incomes \n Who qualifies for the €400 pensioner payment\n Under the bill, the following groups qualify:\n Pensioners aged 65 and over who received a main pension in September. For this first payment, they must have turned 65 by 31 December 2025.\n Pensioners aged 60 and over who receive only a survivor’s (widow’s) pension , without their own old-age pension.\n People with disabilities of any age who receive the relevant disability pensions or welfare benefits.\n Uninsured elderly people who receive the relevant OPEKA benefits.\n Crucially, there are no longer any income or property tests. Previously, a single pensioner earning more than €25,000 a year, or a couple earning more than €35,000, could miss out, according to Capital.gr. Property limits of €300,000 and €400,000 also applied. Now a retired couple who both qualify will receive €800 between them.\n Who misses out\n Two main groups will not receive the money this year:\n Old-age pensioners under 65 , unless they fall into one of the special categories above.\n Pensioners who turn 65 during 2026. Even someone who turned 65 in January 2026 misses out this time. Instead, they should receive the payment in November 2027.\n Critics say the age-only test creates new unfairness. For example, Newsit points out that a 70-year-old with an income of €30,000 will get the €400, while a 64-year-old pensioner on just €8,000 a year will not.\n When and how it is paid\n Labour Minister Niki Kerameus has said the €400 will be paid at the end of November, together with December pensions. The date given is 30 November, although the money may appear in bank accounts a few days earlier, depending on the official payment schedule.\n Importantly, nobody needs to apply for the €400 pensioner payment. The money goes automatically into recipients’ bank accounts, and e-EFKA will offer an online service to check eligibility.\n The amount is paid net, without tax or deductions. It also cannot be seized or offset against debts to the state, social security funds or banks. Moreover, anyone who fits more than one category receives the payment only once.\n What it costs\n Overall, the measure costs €879 million a year, according to figures reported by SKAI. Most of that, €712 million, goes to about 1.78 million pensioners aged over 65.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greek Households Circle Seven Dates Before New Year \n How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know \n Greece Expands Digital Work Card to 500,000 More Workers \n Greek PM: €5.75B Investment, Metro Expansion, New Measures Across Greece \n Advertising\n Stella Mazonakis \n Stella Mazonakis is a contributor at Greek City Times, covering Greek news, community stories, sport, culture, and current affairs for readers in Greece and the diaspora.\n Previous Article \n Falakro Villages: Rivers, Lakes and Stone Lanes in Drama\n Next Article \n Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Επίδομα 400€ σε συνταξιούχους στην Ελλάδα: Ποιοι δικαιούνται και νέοι κανόνες",
+        "dek": "Η ελληνική κυβέρνηση ετοιμάζεται να καταβάλει μια ετήσια ενίσχυση ύψους 400 ευρώ σε περίπου 2,2 εκατομμύρια ανθρώπους στις 30 Νοεμβρίου. Δείτε πώς λειτουργούν οι νέοι κανόνες.",
+        "tldr": [
+          "Η πληρωμή των 400 ευρώ θα πιστωθεί αυτόματα στους τραπεζικούς λογαριασμούς στις 30 Νοεμβρίου.",
+          "Οι δικαιούχοι περιλαμβάνουν συνταξιούχους ηλικίας 65+, δικαιούχους συνταξιοδότησης λόγω επιζώντος και άτομα με αναπηρία.",
+          "Τα εισοδηματικά και περιουσιακά κριτήρια έχουν καταργηθεί για αυτή την ετήσια ενίσχυση."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2199,12 +2512,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-25T11:15:33.212Z",
+      "at": "2026-10-25T14:00:15.652Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-25T11:15:34.061Z",
+      "at": "2026-10-25T14:00:16.555Z",
       "items": 4
     },
     "civilprotection": {
@@ -2215,27 +2528,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-25T11:15:36.235Z",
-      "items": 0
+      "at": "2026-10-25T14:00:19.319Z",
+      "items": 12
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-25T11:15:36.621Z",
+      "at": "2026-10-25T14:00:19.406Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-25T11:15:38.356Z",
+      "at": "2026-10-25T14:00:20.293Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-25T11:15:39.062Z",
-      "items": 2
+      "at": "2026-10-25T14:00:21.231Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-25T11:15:39.886Z",
+      "at": "2026-10-25T14:00:21.721Z",
       "items": 10
     },
     "toi-greece": {
@@ -2246,23 +2559,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-25T11:15:40.491Z",
+      "at": "2026-10-25T14:00:22.333Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-25T11:15:40.627Z",
+      "at": "2026-10-25T14:00:22.425Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-25T11:15:41.337Z",
-      "items": 4
+      "at": "2026-10-25T14:00:22.994Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T11:15:41.535Z",
-      "items": 3
+      "at": "2026-10-25T14:00:23.181Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2271,12 +2584,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-25T11:15:35.198Z",
+      "at": "2026-10-25T14:00:17.505Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-25T11:15:42.362Z",
+      "at": "2026-10-25T14:00:23.842Z",
       "items": 0
     },
     "hcg": {
@@ -2287,45 +2600,57 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-25T11:15:43.401Z",
+      "at": "2026-10-25T14:00:25.152Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-25T11:15:43.564Z",
+      "at": "2026-10-25T14:00:25.320Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-25T11:15:43.744Z",
-      "items": 2
+      "at": "2026-10-25T14:00:25.472Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-25T11:15:44.007Z",
-      "items": 5
+      "at": "2026-10-25T14:00:25.693Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-25T11:15:44.342Z",
+      "at": "2026-10-25T14:00:25.994Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-25T11:15:44.706Z",
-      "items": 4
+      "at": "2026-10-25T14:00:26.424Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-25",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "84-defibrillators-athens-metro",
         "title": "Athens: 84 new defibrillators installed across the metro network",
         "at": "2026-10-25T07:16:23+02:00",
         "section": "travel"
+      },
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "title": "↻ Orange Rain Warning Issued for Attica Region in Greece",
+        "at": "2026-10-25T16:00:40+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "earthquake-magnitude-3-8-kefalonia",
+        "title": "Earthquake of Magnitude 3.8 Recorded in Kefalonia",
+        "at": "2026-10-25T16:00:54+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [],
@@ -2344,6 +2669,10 @@
       {
         "slug": "athens-ports-ferry-departures-updates",
         "at": "2026-10-25T09:56:41.790Z"
+      },
+      {
+        "slug": "earthquake-magnitude-3-8-kefalonia",
+        "at": "2026-10-25T14:00:54.319Z"
       }
     ]
   },
@@ -2496,13 +2825,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-25T11:15:45.814Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-10-25T14:00:28.275Z",
+    "considered": 31,
+    "picked": 5,
     "items": [
-      "· naftemporiki | Κακοκαιρία σε μεγάλο μέρος της χώρας για 48 ώρες – Έκτακτο της ΕΜΥ",
-      "· ingr | Φλέγεται η Ευρώπη από το κύμα διαδηλώσεων: 1.000 συλλήψεις στη Γαλλία – Αναβρασμός και επε",
-      "· gn-iefimerida | Μετρό: Οι σταθμοί που θα κλείνουν στις 21:40 έως τις 29 Οκτωβρίου, λόγω εργασιών στη Γραμμ"
+      "✓ meteoalarm | Orange Rain Warning issued for Greece - Attiki",
+      "· ert | Ισραήλ: Κινδυνολογική ανάρτηση από Νετανιάχου περί νέου Ολοκαυτώματος, ενόψει των κρίσιμων",
+      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για σήμερα, Κυριακή 25 Οκτωβρίου 2026 - πρωθ",
+      "✓ naftemporiki | Σεισμός 3,8 Ρίχτερ στην Κεφαλονιά",
+      "· meteoalarm | Orange Rain Warning issued for Greece - North East Aegean Islands",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Dodekanisa Islands",
+      "✓ meteoalarm | Orange Rain Warning issued for Greece - Attiki",
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Attiki",
+      "· gn-iefimerida | Ολλανδία: Δεκάδες πτήσεις ακυρώθηκαν στο αεροδρόμιο του Άμστερνταμ εξαιτίας των θυελλωδών ",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - North East Aegean Islands",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Dodekanisa Islands",
+      "✓ meteoalarm | Orange Thunderstorm Warning issued for Greece - Attiki",
+      "· ingr | Ολλανδία: Δεκάδες πτήσεις ακυρώθηκαν στο αεροδρόμιο του Άμστερνταμ εξαιτίας των θυελλωδών ",
+      "· naftemporiki | Φορολογική απάτη εκατομμυρίων ευρώ στην αλυσίδα φούρνων «Χωριάτικο» – Συνελήφθη ο ιδιοκτήτ",
+      "· ingr | Τραμπ: Νέα δημοσκόπηση – Οι ψηφοφόροι συνδέουν τη διαφθορά στην κυβέρνηση με την αύξηση το",
+      "· ert | Δυτική Όχθη: Επιχείρηση του ισραηλινού στρατού στη Χεβρώνα – Περισσότεροι από 2.000 Παλαισ",
+      "✓ gct | Greek Banks Earn €2.6 Billion in Six Months as Bad Loans Climb to €6.2 Billion",
+      "✓ gct | €400 for Pensioners on 30 November: Who Gets It and Who Misses Out",
+      "· gct | Falakro Villages: Rivers, Lakes and Stone Lanes in Drama",
+      "· gct | Alkinoos Ioannidis Sings Six Unreleased Manos Hadjidakis Songs",
+      "· naftemporiki | Γαλλία: Πάνω από 1.300 προσαγωγές, 53 τραυματίες αστυνομικοί στις χθεσινές διαδηλώσεις",
+      "· gct | Serres Father Bites Into Glass in His Toddler’s Koulouri",
+      "· gct | Lamb Souvlaki: Juicy Greek Skewers With a Lemon and Oregano Marinade",
+      "· gct | Messolonghi Lagoons: Birds, Salt and History for Families",
+      "· ert | Κεραυνός χτύπησε κατοικία στην Πρέβεζα – Βίντεο-ντοκουμέντο από την πυρκαγιά που ξέσπασε σ",
+      "✓ gct | Turkey Moves to Legislate ‘Blue Homeland’ Maritime Doctrine",
+      "· ingr | Συνελήφθη ιδιοκτήτης γνωστής αλυσίδας φούρνων για φορολογική απάτη εκατομμυρίων",
+      "· ingr | Mohammed El-Kurd: «Μπορούμε να συσχετίσουμε την οδύνη στη Γάζα με την οδύνη εκεί που ζούμε",
+      "· ingr | Τσουκαλάς: Πίσω από τους πανηγυρισμούς Μητσοτάκη για τη Μονή Σινά προκύπτουν ερωτήματα – Ν",
+      "· gn-iefimerida | Φωτιά σε σπίτι στην Πάργα μετά από κεραυνό - iefimerida.gr"
     ]
   },
   "evergreenDone": [
@@ -2545,5 +2901,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "earthquake-magnitude-3-8-kefalonia",
+      "url": "https://yavanet.gr/a/earthquake-magnitude-3-8-kefalonia/",
+      "at": "2026-10-25T14:00:54.319Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/earthquake-magnitude-3-8-kefalonia/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/earthquake-magnitude-3-8-kefalonia/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה עוצמתית ביוון: רגעים של חשש בכפלוניה",
+        "title_en": "Earthquake of Magnitude 3.8 Recorded in Kefalonia",
+        "dek_he": "תושבים ותיירים באזור כפלוניה הרגישו רעידת אדמה בעוצמה 3.8 בצהרי היום, זמן קצר לאחר פעילות סייסמית נוספת שנרשמה בזקינתוס.",
+        "dek_en": "Residents and travelers in Kefalonia experienced a midday earthquake measuring 3.8 on the Richter scale, following seismic activity near Zakynthos earlier in the day.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://yavanet.gr/og.png",
+        "post_he": "רעידת אדמה עוצמתית ביוון: רגעים של חשש בכפלוניה\n\nתושבים ותיירים באזור כפלוניה הרגישו רעידת אדמה בעוצמה 3.8 בצהרי היום, זמן קצר לאחר פעילות סייסמית נוספת שנרשמה בזקינתוס.\n\nhttps://yavanet.gr/a/earthquake-magnitude-3-8-kefalonia/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Earthquake of Magnitude 3.8 Recorded in Kefalonia\n\nResidents and travelers in Kefalonia experienced a midday earthquake measuring 3.8 on the Richter scale, following seismic activity near Zakynthos earlier in the day.\n\nhttps://yavanet.gr/en/a/earthquake-magnitude-3-8-kefalonia/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
