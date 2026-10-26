@@ -1,0 +1,75 @@
+{
+  "slug": "aspropyrgos-pallets-factory-fire",
+  "section": "breaking",
+  "publishedAt": "2026-10-26T07:02:55+02:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 38.0667,
+    "lng": 23.5833
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2179888/aspropyrgos-fotia-se-epicheirisi-me-paletes-sto-simeio-18-pyrosvestes/?utm_source=rss&utm_medium=rss&utm_campaign=aspropyrgos-fotia-se-epicheirisi-me-paletes-sto-simeio-18-pyrosvestes"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11574637/pexels-photo-11574637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial shot of firefighters tackling a large fire at a warehouse with heavy smoke.",
+    "credit": "Photo: Tom Fisk / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/top-view-of-fire-trucks-near-burning-warehouse-11574637/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
+  },
+  "alert": null,
+  "he": {
+    "title": "שריפה פרצה במפעל משטחים באספרופירגוס סמוך לאתונה",
+    "seoTitle": "שריפה ביוון: אש פרצה במפעל באספרופירגוס סמוך לאתונה",
+    "seoDesc": "שריפה פרצה בשטח פתוח של מפעל משטחים באזור אספרופירגוס ביוון. צוותי כיבוי אש פועלים במקום, והמשטרה החלה בחקירת נסיבות הדליקה.",
+    "keywords": [
+      "שריפה ביוון",
+      "אתונה",
+      "חדשות יוון",
+      "אספרופירגוס"
+    ],
+    "dek": "כוחות כיבוי גדולים הוזעקו לפנות בוקר לאזור תעשייה ממערב לאתונה בעקבות שריפה בשטח פתוח של מפעל לייצור משטחים.",
+    "tldr": [
+      "השריפה פרצה בשעה 01:45 בלילה באזור אספרופירגוס.",
+      "18 כבאים ו-7 רכבי כיבוי פועלים בשטח בניסיון להשתלט על האש.",
+      "יחידת חקירות מיוחדת פתחה בבדיקת נסיבות פרוץ הדליקה."
+    ],
+    "means": "האירוע מתרחש באזור תעשייה מרוחק ואינו משפיע על תנועת התיירים באתונה, טיסות לישראל או פעילות המטרו. אין הנחיות מיוחדות לישראלים השוהים באזור.",
+    "body": "## שריפה במפעל משטחים באזור אספרופירגוס\n\nשריפה פרצה סביב השעה 01:45 לפנות בוקר בשטח פתוח של עסק לייצור משטחים, הממוקם ברחוב מגרידוס באספרופירגוס (Aspropyrgos) שבמערב אטיקה, סמוך לאתונה.\n\nעל פי נתוני מכבי האש ביוון, למקום הוזעקו 18 כבאים המצוידים בשבעה רכבי כיבוי. בנוסף, צוותים של עיריית אספרופירגוס סייעו לפעולות ההשתלטות באמצעות מכליות מים.\n\n## חקירת נסיבות הדליקה\n\nלאחר שליטה ראשונית באש, יחידת החקירות המיוחדת לענייני הצתות של מערב אטיקה (אנאקריטיקו קלימאקיו אנטימטופיסיס גקלימאטונ מפריסמוי דיטיקיס אטטיקיס) פתחה בבדיקה לאיתור הסיבות שהביאו לפרוץ השריפה במקום."
+  },
+  "en": {
+    "title": "Fire breaks out at a pallet facility in Aspropyrgos near Athens",
+    "seoTitle": "Fire in Greece: Blaze at a pallet plant in Aspropyrgos",
+    "seoDesc": "A fire broke out at an outdoor pallet facility in Aspropyrgos near Athens. Firefighters are operating at the scene while an investigation begins.",
+    "keywords": [
+      "fire in greece",
+      "aspropyrgos fire",
+      "athens news",
+      "greece breaking news"
+    ],
+    "dek": "Emergency crews were called early Monday morning to an industrial zone west of Athens following a fire at an open-air pallet facility.",
+    "tldr": [
+      "The fire started at approximately 01:45 in the Aspropyrgos area.",
+      "18 firefighters with seven vehicles deployed to the scene.",
+      "Arson investigation units have opened an inquiry into the cause."
+    ],
+    "means": "The incident is confined to an industrial zone and does not impact tourist areas in Athens, flights to Israel, or local transportation. No special precautions are required for travellers.",
+    "body": "## Fire at a pallet facility in Aspropyrgos\n\nA fire broke out at approximately 01:45 on Monday at an outdoor pallet manufacturing and storage facility on Megaridos Street in Aspropyrgos, western Attica.\n\nAccording to the Fire Service, 18 firefighters with seven vehicles were mobilized to extinguish the blaze, with additional water tankers provided by the municipality of Aspropyrgos.\n\n## Investigation into the origin\n\nAuthorities from the Arson Crimes Investigation Unit of Western Attica have launched an inquiry to determine the exact cause of the fire."
+  },
+  "meta": {
+    "itemId": "38372eb3ccc4",
+    "imageQuery": "industrial fire smoke greece",
+    "sourceHash": "b8f23c3d84e1",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-26T05:02:55.541Z",
+    "official": false
+  }
+}
