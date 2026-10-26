@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T06:44:13+02:00",
+  "updated": "2026-10-26T12:08:40+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,34 +9,34 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 95,
+      "price": 96,
       "depart": "2026-11-02",
       "ret": "2026-12-25",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0211ATH25121?t=GQ17936622001793670300000135TLVATH17981694001798176600000120ATHTLV_9277463235bd1a07c2eb1e4565f54249_8522&search_date=25102026&expected_price_uuid=01a1707d-9c17-8030-a3b9-3cd9127bbaa4&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rpRYhvEnAJCBM6M4ZtoDng&expected_price_source=share&expected_price_currency=eur&expected_price=95&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0211ATH25121?t=GQ17936622001793670300000135TLVATH17981982001798205400000120ATHTLV_2642e3f2b54e4d3504526774a03e2b6d_8721&search_date=26102026&expected_price_uuid=01a176e0-de7e-8040-6dab-aa374d16ca79&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vkHP72L-o1h7KMqIf8SFUQ&expected_price_source=share&expected_price_currency=eur&expected_price=95&marker=782936"
     },
     {
       "dest": "SKG",
       "he": "סלוניקי",
       "en": "Thessaloniki",
-      "price": 166,
-      "depart": "2026-10-26",
-      "ret": "2026-11-02",
-      "airline": "KR",
+      "price": 157,
+      "depart": "2026-11-11",
+      "ret": "2026-11-18",
+      "airline": "Arkia",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2610SKG02111?t=IZ17930013001793010300000150TLVSKG17936196001793628000000140SKGTLV_b03ffbbd1bd5626e996db8d43f98c34f_15402&search_date=20102026&expected_price_uuid=01a15a2e-fc55-8031-638e-a5092474640a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yVzCYF3WyQazMq_uPy972g&expected_price_source=share&expected_price_currency=eur&expected_price=166&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1111SKG18111?t=IZ17944131001794421800000145TLVSKG17950320001795040400000140SKGTLV_ac26e69befc14e54a7d2b5fe690f7832_14149&search_date=26102026&expected_price_uuid=01a1762b-af17-8030-242c-4311a93eb761&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gOvx0xzh8iOHnEiEr-1SmQ&expected_price_source=share&expected_price_currency=eur&expected_price=157&marker=782936"
     },
     {
       "dest": "HER",
       "he": "הרקליון, כרתים",
       "en": "Heraklion, Crete",
-      "price": 193,
+      "price": 168,
       "depart": "2026-10-29",
       "ret": "2026-11-07",
       "airline": "Blue Bird",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2910HER07111?t=BZ17932626001793269200000110TLVHER17940780001794084000000100HERTLV_cb2f055c2e540fdd0984b3106a0eb961_18258&search_date=18102026&expected_price_uuid=01a14fa7-562c-8031-24c6-bec76a397bdb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=-pvGRlKsvq4-qMUO0l7i4Q&expected_price_source=share&expected_price_currency=eur&expected_price=193&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2910HER07111?t=BZ17932698001793276400000110TLVHER17940780001794084000000100HERTLV_34e8d39e926ba2836b0a15308b88441e_15450&search_date=21102026&expected_price_uuid=01a15e9a-3d65-8031-2250-98daf4fd8ab0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wmJpz_pz7qVSkcVZderPIw&expected_price_source=share&expected_price_currency=eur&expected_price=168&marker=782936"
     },
     {
       "dest": "JTR",
