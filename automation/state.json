@@ -17,13 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "e92f02815180": 1791826051539,
-    "289f1cbeeb6a": 1791826051539,
-    "c61b2b5d9a40": 1791826051539,
-    "f70575c23062": 1791826968123,
-    "0aae3499b4eb": 1791827712461,
-    "8395adfc7563": 1791829820275,
-    "552113e50b04": 1791829820275,
     "08d2dfad63ea": 1791833160522,
     "4bbacfa055c3": 1791833160522,
     "c19faf83ff1b": 1791836875989,
@@ -2142,7 +2135,28 @@
     "ea7200f0be9c": 1793035273188,
     "9d10fd21cc7e": 1793035273188,
     "28614f45c7df": 1793035273188,
-    "0cf192732bc5": 1793035273188
+    "0cf192732bc5": 1793035273188,
+    "9fee2e46259b": 1793041946800,
+    "6cab4caa2868": 1793041946800,
+    "9abd243fea10": 1793041946800,
+    "a864660bfe7f": 1793041946800,
+    "7264673e8235": 1793041946800,
+    "d20f5bd33a49": 1793041946800,
+    "664fb46b0591": 1793041946800,
+    "a2283ce6ec5e": 1793041946800,
+    "888bc771ff7e": 1793041946800,
+    "8dcbe3c15cf7": 1793041946800,
+    "bc6d8214ef07": 1793041946800,
+    "7a2d378ca8a1": 1793041946800,
+    "2660f3b67c9a": 1793041946800,
+    "d5cb065bbbc6": 1793041946800,
+    "23062a50696a": 1793041946800,
+    "52b2a8729aea": 1793041946800,
+    "191ab00b5848": 1793041946800,
+    "6da4a29d37c1": 1793041946800,
+    "ca19cc47552b": 1793041946800,
+    "cdbd88b1b7b3": 1793041946800,
+    "d747c16b7162": 1793041946800
   },
   "pending": {
     "c80dbd": {
@@ -2260,6 +2274,109 @@
         ]
       },
       "notified": true
+    },
+    "e0da0a": {
+      "createdAt": 1793042014758,
+      "item": {
+        "title": "Greece Leads Six Nations Against Turkish-Libyan Maritime Deal",
+        "url": "https://greekcitytimes.com/2026/10/27/greece-rejects-turkish-libyan-maritime-memorandum/",
+        "summary": "Greece has led a six-party statement at the United Nations rejecting the Turkish-Libyan maritime memorandum, with the EU, Cyprus, Egypt, Bahrain and the UAE declaring the agreement incompatible with international law.\n The post Greece Leads Six Nations Against Turkish-Libyan Maritime Deal appeared first on Greek City Times .",
+        "published": "Mon, 26 Oct 2026 18:44:53 +0000",
+        "id": "7264673e8235",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "7264673e8235",
+        "section": "politics",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greece leads a six-nation UN statement rejecting the Turkish-Libyan maritime memorandum, impacting regional geopolitics in the Eastern Mediterranean.",
+        "item": {
+          "title": "Greece Leads Six Nations Against Turkish-Libyan Maritime Deal",
+          "url": "https://greekcitytimes.com/2026/10/27/greece-rejects-turkish-libyan-maritime-memorandum/",
+          "summary": "Greece has led a six-party statement at the United Nations rejecting the Turkish-Libyan maritime memorandum, with the EU, Cyprus, Egypt, Bahrain and the UAE declaring the agreement incompatible with international law.\n The post Greece Leads Six Nations Against Turkish-Libyan Maritime Deal appeared first on Greek City Times .",
+          "published": "Mon, 26 Oct 2026 18:44:53 +0000",
+          "id": "7264673e8235",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-rejects-turkish-libyan-maritime-deal-at-un",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "מדיניות חוץ",
+          "en": "Foreign Policy"
+        },
+        "imageKey": "politics",
+        "imageQuery": "united nations building flags",
+        "he": {
+          "title": "יוון ושש מדינות דחו באו\"ם את ההסכם הימי בין טורקיה ללוב",
+          "seoTitle": "יוון דוחה באו\"ם את ההסכם הימי בין טורקיה ללוב",
+          "seoDesc": "יוון יחד עם שותפות אזוריות והונציגי האיחוד האירופי דחו באו\"ם את ההסכם הימי בין טורקיה ללוב והגדירו אותו כמנוגד לחוק הבינלאומי.",
+          "keywords": [
+            "יוון",
+            "הסכם ימי טורקיה לוב",
+            "יוון טורקיה",
+            "האו\"ם",
+            "המזרח התיכון"
+          ],
+          "dek": "שר החוץ של יוון הציג באו\"ם הצהרה משותפת של שש מדינות נגד מזכר ההבנות הימי, וטענו כי הוא מתעלם מזכויות האיים ומהמשפט הבינלאומי.",
+          "tldr": [
+            "יוון ועוד חמש מדינות דחו רשמית באו\"ם את ההסכם הימי.",
+            "שר החוץ היווני הדגיש שההסכם פוגע בזכויות האיים לפי חוק הים.",
+            "אתונה מבהירה כי היא פתוחה לדיאלוג עם לוב אך דורשת ציות לחוק הבינלאומי."
+          ],
+          "means": "האירוע הדיפלומטי מתנהל במישור הבינלאומי ואינו משפיע כרגע ישירות על התיירים או על הישראלים המבקרים ביוון. עם זאת, המתיחות במזרח הים התיכון נותרת נושא מרכזי באסטרטגיה האזורית של יוון וישראל כאחד.",
+          "body": "## הצהרה משותפת באו\"ם\n\nבמהלך דיון שנערך בארגון האומות המאוחדות, הציג שר החוץ של יוון, יורגוס יראפטריטיס, הצהרה משותפת המאגדת שש מדינות ובהן יוון, האיחוד האירופי, קפריסין, מצרים, בחריין ואיחוד האמירויות. ההצהרה יוצאת נגד מזכר ההבנות הימי שנחתם בשנת 2019 בין טורקיה לממשלת ההסכמה הלאומית של לוב בטריפולי, בעקבות אישורו לאחרונה בפרלמנט הלובי.\n\nלפי העמדה שהוצגה, ההסכם האמור אינו תקף ואינו יכול לשמש בסיס חוקי לקביעת גבולות ימיים, כיוון שהוא מתעלם מהעקרונות המקובלים של המשפט הבינלאומי ומהזכויות המוקנות לאיים על פי אמנת האו\"ם בדבר חוק הים (UNCLOS).\n\n## עמדת האיחוד האירופי ויוון\n\nשגריר האיחוד האירופי באו\"ם, סטברוס למברינידיס, חזר על עמדת הגוש לפיה ההסכם פוגע בזכויות הריבוניות של מדינות שלישיות. הוא הביע צער על החלטת הפרלמנט בלוב לאשר את ההסכם באוקטובר 2026, והדגיש כי האיחוד ממשיך לראות בו מסמך שאינו עולה בקנה אחד עם הדין הבינלאומי.\n\nמצדה, ממשלת יוון ציינה כי היא ממשיכה לדבוק בפתרון מחלוקות באמצעות דיאלוג והידברות בדרכי שלום. אתונה הדגישה את חשיבות היציבות והאחדות המוסדית בלוב, וציינה כי היא מוכנה להמשיך בשיחות דו-צדדיות עם הצד הלובי על בסיס כבוד הדדי לחוק הבינלאומי.\n\n## השלכות אזוריות\n\nהמחלוקת סביב גבולות הים וימי הכלכלה הבלעדיים במזרח הים התיכון נותרה סוגיה רגישה המשפיעה על שיתופי פעולה אזוריים ועל חיפושי אנרגיה באזור. בעוד טורקיה מגינה על ההסכם, יוון ושותפותיה ממשיכות לפעול במישור הדיפלומטי כדי להבטיח שכל הסכם ימי באזור יכבד את הריבונות של כלל המדינות השכנות והאיים שלהן."
+        },
+        "en": {
+          "title": "Greece and Six Nations Reject Turkish-Libyan Maritime Deal at UN",
+          "seoTitle": "Greece Rejects Turkey-Libya Maritime Deal at UN",
+          "seoDesc": "Greece, the EU, and regional partners jointly rejected the 2019 Turkish-Libyan maritime memorandum at the UN, citing violations of international law.",
+          "keywords": [
+            "Greece",
+            "Turkey Libya maritime deal",
+            "United Nations",
+            "Eastern Mediterranean",
+            "Greek foreign policy"
+          ],
+          "dek": "Greek Foreign Minister George Gerapetritis delivered a joint statement at the United Nations, declaring the Turkish-Libyan maritime memorandum invalid under international law.",
+          "tldr": [
+            "Six parties including Greece and the EU jointly rejected the maritime deal.",
+            "Athens stressed the agreement ignores the maritime rights of islands.",
+            "Greece remains committed to dialogue with Libya under international law."
+          ],
+          "means": "This diplomatic development is part of broader geopolitical dynamics in the Eastern Mediterranean and does not currently affect travel, safety, or daily life for visitors or residents in Greece.",
+          "body": "## Joint Statement at the United Nations\n\nGreek Foreign Minister George Gerapetritis delivered a joint statement at the United Nations on behalf of six parties, including Greece, the European Union, Cyprus, Egypt, Bahrain, and the United Arab Emirates. The coalition formally rejected the 2019 maritime memorandum signed between Turkey and Libya’s Tripoli-based administration, following its recent ratification by the Libyan parliament.\n\nThe statement emphasizes that bilateral arrangements cannot bypass established international legal standards, specifically the United Nations Convention on the Law of the Sea (UNCLOS). The signatories argue that the agreement disregards geographical realities and the rightful maritime entitlements of islands.\n\n## European Union Position\n\nEuropean Union Ambassador to the United Nations Stavros Lambrinidis reiterated the bloc's longstanding opposition to the memorandum. He expressed regret over the Libyan parliament's decision and reaffirmed that the EU considers the document incompatible with international maritime law, noting it infringes upon the sovereign rights of third states.\n\nDespite its firm stance against the agreement, Greece reaffirmed its readiness to continue good-faith bilateral discussions with Libya regarding maritime boundaries. Athens emphasized that a stable and institutionally unified Libya is crucial for regional peace and security.\n\n## Regional Implications\n\nThe dispute over maritime jurisdictions in the Eastern Mediterranean remains a key factor influencing regional stability, energy exploration, and diplomatic alignment. While Turkey defends the memorandum, Greece and its international partners continue efforts to reinforce legal boundaries based on multilateral consensus."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece, the European Union, Cyprus, Egypt, Bahrain and the United Arab Emirates have jointly rejected the 2019 Turkish-Libyan maritime memorandum, declaring it invalid under international law despite its ratification by Libya’s House of Representatives.\n Greece Leads Six Nations Against Turkish-Libyan Maritime Deal \n Greek Foreign Minister George Gerapetritis delivered the joint statement at the United Nations, warning that the agreement raises serious concerns about regional stability and the international legal order.\n The statement follows the Libyan parliament’s decision on October 20, 2026, to ratify the memorandum signed by Turkey and Libya’s Tripoli-based Government of National Accord in 2019.\n Read more: EU Unites Against Turkish-Libyan Maritime Deal as Greece Raises Alarm at UN \n The agreement seeks to delimit maritime jurisdictional areas in the Mediterranean, drawing objections from Greece and other countries over its implications for maritime boundaries and the rights of neighbouring coastal states.\n Six Parties Reject the Memorandum\n Speaking on behalf of the six parties, Gerapetritis argued that bilateral agreements cannot override established principles of international law or undermine the maritime rights of third countries.\n He specifically referred to the United Nations Convention on the Law of the Sea (UNCLOS), which provides the international legal framework for maritime zones and the delimitation of maritime boundaries.\n The joint statement declared that the Turkish-Libyan memorandum disregards geographical realities and the rights of coastal states, including the maritime entitlements of islands under international law.\n It also stressed that Libya’s parliamentary ratification does not alter the agreement’s legal status in the eyes of the six parties.\n “The memorandum remains invalid, contrary to international law and cannot constitute a legal basis for the delimitation of maritime zones nor produce legal effects for third states,” the statement said.\n Gerapetritis warned that accepting bilateral agreements that disregard international legal principles would establish a dangerous precedent and undermine efforts to resolve disputes peacefully.\n Greece Signals Willingness to Continue Talks With Libya\n Despite its opposition to the memorandum, Greece reaffirmed its commitment to resolving maritime disputes through dialogue and negotiations based on international law.\n Gerapetritis said Athens had conducted bilateral discussions with Libya over the delimitation of maritime zones in good faith and remained prepared to continue those efforts.\n He also emphasised the importance of Libya’s institutional reunification and the establishment of a stable, prosperous state capable of contributing to regional cooperation.\n “A stable Libya, actively participating in regional cooperation, is essential for peace and security throughout the Mediterranean,” the statement said.\n Greece maintains that respect for international law and good neighbourly relations must guide Libya’s political transition and its relations with neighbouring countries.\n European Union Reaffirms Its Position\n Following the joint statement, European Union Ambassador to the United Nations Stavros Lambrinidis reiterated the bloc’s longstanding opposition to the Turkish-Libyan memorandum.\n Lambrinidis said the EU regretted Libya’s parliamentary ratification of the agreement and reaffirmed that the bloc considers it incompatible with the law of the sea.\n He referred to the European Council’s December 2019 conclusions and its subsequent reaffirmation of the EU position in June 2025.\n According to Lambrinidis, the memorandum infringes on the sovereign rights of third countries and cannot produce legal effects for them.\n The EU also called on all countries to respect the sovereign rights of its member states in accordance with European and international law, including UNCLOS.\n Brussels has consistently maintained that the agreement cannot determine maritime boundaries in a way that disregards the rights of other states.\n Strategic Implications for the Eastern Mediterranean\n The dispute over the Turkish-Libyan memorandum remains a significant point of tension in the Eastern Mediterranean, where overlapping maritime claims affect territorial rights, energy exploration and regional cooperation.\n Greece argues that the agreement fails to account adequately for the maritime entitlements of Greek islands, including Crete, while Turkey has defended the memorandum and rejected objections raised by Greece and the European Union.\n Libya’s parliamentary ratification has added a new dimension to the dispute, prompting renewed diplomatic efforts by Athens and its partners to reinforce their legal position at the United Nations.\n The latest joint statement demonstrates a coordinated diplomatic response involving European, Mediterranean and Gulf partners.\n However, the dispute remains unresolved, with Greece continuing to advocate negotiations with Libya under international law while rejecting the 2019 memorandum as a valid basis for maritime delimitation.\n Source: SKAI.gr\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Challenges Turkish-Libyan Memorandum at UN \n Greece and Egypt Move To Expand Maritime Economic Zones \n Greece Raises Turkey-Libya Maritime Deal at UN Security Council \n Turkey Hails Libya Deal as Greece Faces New Maritime Tensions \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Magnitude 4.1 Earthquake Strikes Off Southeastern Crete\n Next Article \n Erdogan Dismisses EU Opposition to Turkish-Libyan Maritime Memorandum\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα και έξι χώρες απορρίπτουν τη συμφωνία Τουρκίας-Λιβύης για τις θαλάσσιες ζώνες στον ΟΗΕ",
+        "dek": "Ο υπουργός Εξωτερικών Γιώργος Γεραπετρίτης απηύθυνε κοινή δήλωση στα Ηνωμένα Έθνη, κηρύσσοντας το τουρκο-λιβυκό μνημόνιο για τις θαλάσσιες ζώνες άκυρο σύμφωνα με το διεθνές δίκαιο.",
+        "tldr": [
+          "Έξι πλευρές, συμπεριλαμβανομένης της Ελλάδας και της ΕΕ, απέρριψαν από κοινού τη συμφωνία για τις θαλάσσιες ζώνες.",
+          "Η Αθήνα τόνισε ότι η συμφωνία αγνοεί τα θαλάσσια δικαιώματα των νησιών.",
+          "Η Ελλάδα παραμένει προσηλωμένη στον διάλογο με τη Λιβύη βάσει του διεθνούς δικαίου."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2271,12 +2388,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-26T17:20:46.445Z",
+      "at": "2026-10-26T19:12:12.110Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-26T17:20:47.063Z",
+      "at": "2026-10-26T19:12:12.669Z",
       "items": 4
     },
     "civilprotection": {
@@ -2287,27 +2404,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-26T17:20:48.552Z",
+      "at": "2026-10-26T19:12:14.231Z",
       "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-26T17:20:49.106Z",
+      "at": "2026-10-26T19:12:14.609Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-26T17:20:49.753Z",
+      "at": "2026-10-26T19:12:15.343Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-26T17:20:50.449Z",
-      "items": 2
+      "at": "2026-10-26T19:12:18.421Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-26T17:20:51.409Z",
+      "at": "2026-10-26T19:12:19.166Z",
       "items": 10
     },
     "toi-greece": {
@@ -2318,22 +2435,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-26T17:20:51.888Z",
+      "at": "2026-10-26T19:12:19.651Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-26T17:20:51.967Z",
+      "at": "2026-10-26T19:12:20.061Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-26T17:20:52.107Z",
-      "items": 4
+      "at": "2026-10-26T19:12:20.791Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T17:20:52.247Z",
+      "at": "2026-10-26T19:12:20.990Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2343,12 +2460,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T17:20:47.206Z",
+      "at": "2026-10-26T19:12:12.921Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-26T17:20:52.836Z",
+      "at": "2026-10-26T19:12:21.365Z",
       "items": 0
     },
     "hcg": {
@@ -2359,32 +2476,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-26T17:20:54.638Z",
+      "at": "2026-10-26T19:12:23.077Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-26T17:20:54.863Z",
-      "items": 1
+      "at": "2026-10-26T19:12:23.351Z",
+      "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-26T17:20:55.053Z",
+      "at": "2026-10-26T19:12:23.587Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-26T17:20:55.368Z",
-      "items": 3
+      "at": "2026-10-26T19:12:23.901Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-26T17:20:55.738Z",
-      "items": 9
+      "at": "2026-10-26T19:12:24.294Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-26T17:20:56.171Z",
+      "at": "2026-10-26T19:12:24.725Z",
       "items": 12
     }
   },
@@ -2446,6 +2563,18 @@
         "title": "↻ Severe Weather in Greece: Red Code Alert Issued for Multiple Regions",
         "at": "2026-10-26T19:24:54+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "title": "↻ Civil Protection on Alert for Weather and Travel Ahead of October 28",
+        "at": "2026-10-26T21:12:39+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greece-severe-weather-storm-october-2026",
+        "title": "↻ Severe Weather in Greece: Red Code Alert and School Closures",
+        "at": "2026-10-26T21:13:09+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2490,6 +2619,10 @@
       {
         "slug": "athens-metro-early-closures-october",
         "at": "2026-10-26T11:02:21.066Z"
+      },
+      {
+        "slug": "greek-holiday-home-market-trends",
+        "at": "2026-10-26T19:13:43.648Z"
       }
     ],
     "fb": [
@@ -2504,6 +2637,10 @@
       {
         "slug": "netanyahu-trump-us-support-elections",
         "at": "2026-10-26T17:19:26.823Z"
+      },
+      {
+        "slug": "greek-holiday-home-market-trends",
+        "at": "2026-10-26T19:13:40.367Z"
       }
     ]
   },
@@ -2661,40 +2798,37 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-26T17:21:13.188Z",
-    "considered": 30,
-    "picked": 4,
+    "at": "2026-10-26T19:12:26.800Z",
+    "considered": 27,
+    "picked": 3,
     "items": [
-      "· gtp | ECTAA, GNTO Partner to Strengthen Greece’s European Tourism Ties",
-      "· naftemporiki | ΟΗΕ: Προειδοποιήσεις για «εθνοκάθαρση» στη Δυτική Όχθη από το Ισραήλ",
-      "· gn-iefimerida | ΕΥΔΑΠ για την επιβάρυνση του δικτύου στον Άλιμο μετά την κακοκαιρία και τα έργα ενίσχυσης ",
-      "· naftemporiki | Σύγκρουση Νετανιάχου με τον Αρχηγό των IDF για το σχέδιο επίθεσης στο Ιράν πριν τις ισραηλ",
-      "✓ naftemporiki | Κακοκαιρία: Σε κατάσταση κινητοποίησης Red Code περιοχές της χώρας",
-      "· minfin | Δήλωση του Κυριάκου Πιερρακάκη μετά τη συνάντησή του με τον Κώστα Καραμανλή και τον Αλέξαν",
-      "· ingr | Κακοκαιρία: Σε “Red Code” 9 περιοχές – Συναγερμός στην Πολιτική Προστασία λόγω και των εορ",
-      "· naftemporiki | Λίβανος: Η Χεζμπολάχ φέρεται να προετοιμάζεται για νέο περιφερειακό πόλεμο, με χρηματοδότη",
-      "· ert | WWF: «Ναι» σε δράσεις αντιμετώπισης της κλιματικής κρίσης από τη συντριπτική πλειοψηφία τω",
-      "✓ gct | Magnitude 4.1 Earthquake Strikes Off Southeastern Crete",
-      "· gn-iefimerida | Εκλογές στο Ισραήλ: Για «σφοδρή κόντρα» Νετανιάχου με τον αρχηγό του στρατού μιλούν τα ΜΜΕ",
-      "· gn-kathimerini | Κακοκαιρία διαρκείας με ισχυρές καταιγίδες – Κυκλοφοριακά προβλήματα στην Αττική - Kathime",
-      "✓ naftemporiki | Δηλώσεις βραχυχρόνιας διαμονής: Έως 13 Νοεμβρίου οι δηλώσεις Σεπτεμβρίου",
-      "· minfin | Κυριάκος Πιερρακάκης: «Ανταποκρινόμαστε σε ένα πάγιο αίτημα των πολιτών της Καβάλας: Το τε",
-      "· gct | Muslim Families Have Guarded Jerusalem’s Church of the Holy Sepulchre for Centuries",
-      "· ingr | Θεοχάρης για Αθηναϊκή Λέσχη και ομάδα φιλίας με Ισραήλ: «Εγώ με τον κ. Τσιάρα, βεβαίως βοη",
-      "· naftemporiki | Ιράν: Ο Πεζεσκιάν καλεί σε ενότητα τις μουσουλμανικές χώρες απέναντι στην «επιθετικότητα» ",
-      "· gct | Cyprus Moves Towards €150 Million Israeli Naval Deal",
-      "· ert | Σεισμός 4,1 Ρίχτερ στην Ιεράπετρα",
-      "· ingr | Ισχυρές βροχές στην Αττική, στο «κόκκινο» η κίνηση στους δρόμους – Πού εντοπίζονται προβλή",
-      "· gtp | Short-Term Rental Registrations in Greece Fall 2.1%, Says Report",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο και μεθαύριο, Τρίτη 27 και Τετάρτη",
-      "· ktg | Owner of well-known bakery-chains arrested for big scale tax fraud",
-      "✓ gn-iefimerida | Απεργιακές κινητοποιήσεις στα λιμάνια στις 30 Οκτωβρίου -Σε ποια λιμάνια θα είναι δεμένα τ",
-      "· gn-kathimerini | Σεισμός 4,1 Ρίχτερ στην ανατολική Κρήτη - Kathimerini",
-      "· minfin | Ειδοποίηση για τη συζήτηση της από 06-07-2026 με γενικό αριθμό κατάθεσης 282/2026 και ειδι",
-      "· ingr | Σεισμός 4,1 Ρίχτερ στο Λασίθι",
-      "· gn-kathimerini | Απεργιακές κινητοποιήσεις στα λιμάνια στις 30 Οκτωβρίου - Kathimerini",
-      "· gn-iefimerida | Σε Red Code η Ρόδος λόγω κακοκαιρίας, υψηλός κίνδυνος εκδήλωσης πλημμυρικών φαινομένων - i",
-      "· gn-iefimerida | Aλλάζει ο τουριστικός χάρτης της Ευρώπης: Οι νέες κατηγορίες ταξιδιωτών -Αναδυόμενοι προορ"
+      "· naftemporiki | Channel 12: Σκέψεις Νετανιάχου για απομάκρυση του αρχηγού του στρατού, εφόσον επανεκλεγεί ",
+      "· gct | More Than 60 Christians Killed in Ethiopia Attacks, Church Says",
+      "· gct | Erdogan Dismisses EU Opposition to Turkish-Libyan Maritime Memorandum",
+      "· naftemporiki | UKMTO: Αναφορές για πυρκαγιά σε πλοίο στα ανοιχτά του Ιράκ",
+      "✓ gct | Greece Leads Six Nations Against Turkish-Libyan Maritime Deal",
+      "· naftemporiki | Ισραήλ: Απορρίπτει ως «προπαγάνδα» έκθεση ερευνητών του ΟΗΕ για Γάζα και Δυτική Όχθη",
+      "· ert | Για κίνδυνο εθνοκάθαρσης προειδοποιεί ο ΟΗΕ στη Χεβρώνα",
+      "✓ gn-iefimerida | Σε επιφυλακή η Πολιτική Προστασία για κακοκαιρία και τις μετακινήσεις για 28η Οκτωβρίου -Τ",
+      "✓ ingr | Κακοκαιρία: Κλειστά τα σχολεία στην Κω την Τρίτη – Έκκληση στους πολίτες να περιορίσουν τι",
+      "· gn-kathimerini | Εντι Ράμα στην «Κ»: Δεν παραιτούμαι – Μια μειοψηφία βάζει φωτιά στη χώρα - Kathimerini",
+      "· ingr | ΠΑΣΟΚ: Θα βρει άλλον «εθελοντή» ο πρωθυπουργός για διευθυντή του γραφείου του;",
+      "· gtp | NYX Esperia Palace Athens Hosts First Art Exhibition by Alexandros Boulmagas",
+      "· naftemporiki | Haaretz: «Διχασμός» στη Μοσάντ για το σχέδιο Νετανιάχου για πλήγμα στο Ιράν πριν τις εκλογ",
+      "· ingr | Το Συμβούλιο Ανθρωπίνων Δικαιωμάτων του ΟΗΕ εξέδωσε έκθεση – «φωτιά» για την Παλαιστίνη",
+      "· gn-iefimerida | WWF: Το 85% των Ελλήνων ζητά μέτρα αντιμετώπισης της κλιματικής κρίσης -Ανησυχία για καύσω",
+      "· ingr | Αποχή ή συμμετοχή; Το δίλημμα των Παλαιστινίων στις εκλογές του Ισραήλ",
+      "· gn-iefimerida | Πιερρακάκης με Καραμανλή στη ΣΕΚΕ: Λελογισμένες οι αυξήσεις στη φορολογία των καπνικών προ",
+      "· gn-civilprotection | Ευ. Τουρνάς: Έγκαιρη προετοιμασία και αυξημένη ετοιμότητα ενόψει της κακοκαιρίας και των μ",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - East Sterea & Evvoia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Thessalia",
+      "· meteoalarm | Orange Rain Warning issued for Greece - East Sterea & Evvoia",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Thessalia",
+      "· gn-iefimerida | Aλλάζει ο τουριστικός χάρτης της Ευρώπης: Οι νέες κατηγορίες ταξιδιωτών -Αναδυόμενοι προορ",
+      "· meteoalarm | Orange Rain Warning issued for Greece - East Sterea & Evvoia",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Thessalia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - East Sterea & Evvoia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Thessalia"
     ]
   },
   "evergreenDone": [
@@ -2737,5 +2871,29 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1792772927263,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greek-holiday-home-market-trends",
+      "url": "https://yavanet.gr/a/greek-holiday-home-market-trends/",
+      "at": "2026-10-26T19:13:40.367Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greek-holiday-home-market-trends/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greek-holiday-home-market-trends/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שוק הנדל\"ן ביוון: שלוש המגמות החדשות בשוק דירות הנופש",
+        "title_en": "Greek Holiday Home Market: Three Major Trends Transforming Real Estate",
+        "dek_he": "חברת אלקסיס מציגה את התמורות המרכזיות בשוק הנדל\"ן ביוון: זינוק ברכישת דירות על נייר, עלייה בביקוש מצד ארצות הברית ורצון של קונים רבים לעבור לגור במדינה קבוע.",
+        "dek_en": "Elxis highlights key shifts in the Greek holiday home market, noting a surge in off-plan property sales, increased US buyer interest, and permanent relocation trends.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/15241800/pexels-photo-15241800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שוק הנדל\"ן ביוון: שלוש המגמות החדשות בשוק דירות הנופש\n\nחברת אלקסיס מציגה את התמורות המרכזיות בשוק הנדל\"ן ביוון: זינוק ברכישת דירות על נייר, עלייה בביקוש מצד ארצות הברית ורצון של קונים רבים לעבור לגור במדינה קבוע.\n\nhttps://yavanet.gr/a/greek-holiday-home-market-trends/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greek Holiday Home Market: Three Major Trends Transforming Real Estate\n\nElxis highlights key shifts in the Greek holiday home market, noting a surge in off-plan property sales, increased US buyer interest, and permanent relocation trends.\n\nhttps://yavanet.gr/en/a/greek-holiday-home-market-trends/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "instagram": {
+          "image_url": "https://yavanet.gr/igc/greek-holiday-home-market-trends.jpg",
+          "caption": "שוק הנדל\"ן ביוון: שלוש המגמות החדשות בשוק דירות הנופש\n\nחברת אלקסיס מציגה את התמורות המרכזיות בשוק הנדל\"ן ביוון: זינוק ברכישת דירות על נייר, עלייה בביקוש מצד ארצות הברית ורצון של קונים רבים לעבור לגור במדינה קבוע.\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n#יוון #יוונט #נדלןביוון #דירהבאתונה #השקעהביוון",
+          "story_url": "https://yavanet.gr/igc/greek-holiday-home-market-trends-story.jpg"
+        }
+      }
+    }
+  ]
 }
