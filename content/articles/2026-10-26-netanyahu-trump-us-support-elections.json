@@ -1,0 +1,56 @@
+{
+  "slug": "netanyahu-trump-us-support-elections",
+  "section": "israelis",
+  "publishedAt": "2026-10-26T19:19:26+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/eidiseis/axios-o-netaniaxou-piezei-ton-tramp-gia-perissoteri-stiriksi-enopsei-tis-amfirropis-eklogikis-anametrisis/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7017147/pexels-photo-7017147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "The White House, an iconic symbol of American history and politics in Washington, DC.",
+    "credit": "Photo: Ramaz Bluashvili / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-white-house-7017147/",
+    "license": "Pexels License",
+    "fallbackKey": "politics"
+  },
+  "alert": null,
+  "he": {
+    "title": "בחירות בישראל: נתניהו וקשריו עם הממשל האמריקאי",
+    "dek": "לקראת ההצבעה ביום שלישי, נשיא ארצות הברית דונלד טראמפ פרסם הודעת תמיכה בראש הממשלה בנימין נתניהו.",
+    "tldr": [
+      "נשיא ארצות הברית דונלד טראמפ הביע תמיכה בראש הממשלה בנימין נתניהו לקראת הבחירות בישראל.",
+      "הודעת התמיכה פורסמה ברשת החברתית Truth Social לקראת ההצבעה שנקבעה ליום שלישי.",
+      "מפלגת הליכוד דחתה דיווחים לפיהם ראש הממשלה ביקש גיבוי פומבי נוסף בימים האחרונים."
+    ],
+    "means": "היחסים המדיניים בין ישראל לארצות הברית והשפעתם על המערכת הפוליטית.",
+    "body": "לקראת הבחירות בישראל שצפויות להתקיים ביום שלישי, נשיא ארצות הברית דונלד טראמפ פרסם ביום ראשון הודעת תמיכה בראש הממשלה בנימין נתניהו ברשת החברתית Truth Social. בהודעתו קרא הנשיא האמריקאי לאזרחי ישראל להצביע לנתניהו. מנגד, ממפלגת הליכוד נמסר כי ראש הממשלה לא פנה בבקשה לקבלת תמיכה פומבית נוספת בימים האחרונים. הלבן הלבן והממשל האמריקאי לא הגיבו לבקשות להביע עמדה נוספת בנושא."
+  },
+  "en": {
+    "title": "US support and the Israeli elections",
+    "dek": "Ahead of the Tuesday vote, US President Donald Trump expressed support for Israeli Prime Minister Benjamin Netanyahu.",
+    "tldr": [
+      "US President Donald Trump voiced support for Israeli Prime Minister Benjamin Netanyahu ahead of the elections.",
+      "The statement was published on Truth Social prior to the scheduled Tuesday vote.",
+      "Likud representatives denied reports that the prime minister requested additional public backing."
+    ],
+    "means": "Diplomatic ties between Israel and the United States during the election period.",
+    "body": "Ahead of the elections in Israel scheduled for Tuesday, US President Donald Trump issued a statement of support on Sunday for Prime Minister Benjamin Netanyahu via the Truth Social platform. The American president called on Israeli voters to cast their ballots for Netanyahu. Meanwhile, Likud representatives denied reports that the prime minister had asked for further public endorsement in recent days. The White House has not responded to requests for additional comments."
+  },
+  "meta": {
+    "itemId": "3d3c83423de2",
+    "imageQuery": "White House US politics",
+    "sourceHash": "968a3ad032a5",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-26T17:19:26.822Z",
+    "official": false
+  }
+}
