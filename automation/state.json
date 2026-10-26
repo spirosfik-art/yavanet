@@ -17,15 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "19ea6124a8d7": 1791781562611,
-    "a4ea22c0d6aa": 1791781562611,
-    "aedb49758973": 1791782868820,
-    "1c33b5bafb32": 1791782868820,
-    "d0258ce55c4d": 1791782868820,
-    "ca9b5a153919": 1791782868820,
-    "f86bb62b7c3b": 1791783831016,
-    "dda416e68a59": 1791784654294,
-    "c0bcda2819ab": 1791784654294,
     "3f57c9840e1e": 1791786790867,
     "c1f33105d446": 1791787016852,
     "dd9a18783e28": 1791787016852,
@@ -2198,7 +2189,12 @@
     "3d6eda8845cc": 1792990926150,
     "b0f78446d755": 1792990926150,
     "42a9ad4884c6": 1792990926150,
-    "e78ddc307218": 1792990926150
+    "e78ddc307218": 1792990926150,
+    "ac9b4f90cd78": 1792994586433,
+    "1b1111cc37cf": 1792994586433,
+    "a8382ee3f0e3": 1792994586433,
+    "f5a37d37d89f": 1792994586433,
+    "9a464ef828a1": 1792994586433
   },
   "pending": {},
   "sourceStatus": {
@@ -2210,12 +2206,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-26T05:01:54.004Z",
+      "at": "2026-10-26T06:02:50.953Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-26T05:01:54.629Z",
+      "at": "2026-10-26T06:02:51.564Z",
       "items": 4
     },
     "civilprotection": {
@@ -2226,27 +2222,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-26T05:01:56.067Z",
+      "at": "2026-10-26T06:02:53.364Z",
       "items": 12
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-26T05:01:56.427Z",
+      "at": "2026-10-26T06:02:53.759Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-26T05:01:57.977Z",
+      "at": "2026-10-26T06:02:54.836Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-26T05:01:58.696Z",
-      "items": 4
+      "at": "2026-10-26T06:02:55.542Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-26T05:01:59.512Z",
+      "at": "2026-10-26T06:02:56.349Z",
       "items": 10
     },
     "toi-greece": {
@@ -2257,22 +2253,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-26T05:01:59.997Z",
+      "at": "2026-10-26T06:02:56.826Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-26T05:02:00.348Z",
+      "at": "2026-10-26T06:02:57.180Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-26T05:02:01.146Z",
+      "at": "2026-10-26T06:02:57.911Z",
       "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T05:02:01.581Z",
+      "at": "2026-10-26T06:02:58.085Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2282,12 +2278,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T05:01:54.868Z",
+      "at": "2026-10-26T06:02:52.191Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-26T05:02:02.318Z",
+      "at": "2026-10-26T06:02:58.771Z",
       "items": 0
     },
     "hcg": {
@@ -2298,33 +2294,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-26T05:02:03.600Z",
+      "at": "2026-10-26T06:03:01.216Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-26T05:02:03.836Z",
+      "at": "2026-10-26T06:03:01.490Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-26T05:02:03.998Z",
+      "at": "2026-10-26T06:03:01.689Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-26T05:02:04.233Z",
+      "at": "2026-10-26T06:03:01.925Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-26T05:02:04.562Z",
-      "items": 11
+      "at": "2026-10-26T06:03:02.233Z",
+      "items": 12
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-26T05:02:04.940Z",
-      "items": 7
+      "at": "2026-10-26T06:03:02.614Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2362,6 +2358,11 @@
         "title": "Greece Targets Golden Visa Abuse Over Hidden Rebates",
         "reason": "Μεγάλη ομοιότητα με την πηγή (27%)",
         "at": "2026-10-26T05:02:28.783Z"
+      },
+      {
+        "title": "Ακίνητα: Πού και πόσο αυξήθηκαν οι τιμές των ενοικίων – Αναλυτικά στοιχεία ανά περιοχή",
+        "reason": "Ίδιο θέμα με «Greece unveils new housing measures to ease rental pressures» – δεν γράφτηκε ξανά",
+        "at": "2026-10-26T06:03:11.473Z"
       }
     ],
     "errors": [],
@@ -2527,35 +2528,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-26T05:02:06.150Z",
-    "considered": 25,
-    "picked": 3,
+    "at": "2026-10-26T06:03:06.434Z",
+    "considered": 5,
+    "picked": 1,
     "items": [
-      "· gct | Nvidia Eyes AI Companies Founded By Greek Scientists",
-      "· gct | Jordan Arrests Suspects Over Deadly Attack on Greek Orthodox Church",
-      "✓ naftemporiki | Ασπρόπυργος: Φωτιά σε επιχείρηση με παλέτες – Στο σημείο 18 πυροσβέστες",
-      "✓ naftemporiki | Καιρός: Νέο έκτακτο δελτίο – Δύο κύματα καταιγίδων στην Αττική, πού επιμένει η κακοκαιρία ",
-      "· ert | Ασπρόπυργος: Πυρκαγιά σε υπαίθριο χώρο επιχείρησης με παλέτες – Μεγάλη κινητοποίηση της Πυ",
-      "· gct | Greek Australian Pilot Makes History on First Western Sydney Airport Flight",
-      "· gct | Vucic Concedes Defeat as Student List Wins Serbia Vote",
-      "· gct | Musk’s Grok Drops First AI ‘Odyssey’ Episode After Full-Film Promise",
-      "· gct | Trump: Libya Must End Illegal Migration Corridor Amid Turkey EEZ Dispute",
-      "· ingr | Γιατί οι Ισραηλινοί επιμένουν στον Νετανιάχου;",
-      "· ingr | Ισραήλ χωρίς τον Νετανιάχου; Ισραηλινοί ειδικοί εξηγούν τι μπορεί να αλλάξει για Ελλάδα, Τ",
-      "· ingr | Σούπερ μάρκετ: «Φωτιά» στο καλάθι του νοικοκυριού βάζουν τα τρόφιμα – Η ελληνική πραγματικ",
-      "· gct | Greece and Saudi Arabia Call for Secure Shipping Routes",
-      "· gct | Ecumenical Patriarch Bartholomew Celebrates 35 Years of Priesthood in Constantinople",
-      "· gct | Canberra Launches Hellenic Week With Evzones and Greek Film",
-      "· gct | Pontian Greek Groups Challenge Atatürk Opera in Germany",
-      "· gct | Carney Visits Former Greek Orthodox Church Turned Mosque",
-      "· gct | Turkish Flag Joke Sparks Online Meme War with China",
-      "· gct | Vicky Safra and Maria Angelicoussis Among the World’s 500 Richest People",
-      "· ingr | Ασπρόπυργος: Πυρκαγιά σε υπαίθριο χώρο επιχείρησης",
-      "· gct | Lydia Panagiotidou Becomes First Greek Girl to Win Tennis Europe Junior Masters",
-      "✓ gct | Greece Targets Golden Visa Abuse Over Hidden Rebates",
-      "· ert | Ισραήλ: Δύο 24ωρα πριν τις εκλογές, ο Άιζενκοτ υπόσχεται «ενότητα» και ο Νετανιάχου προτάσ",
-      "· ingr | Ισραήλ:Ο Τραμπ καλεί ξανά τους Ισραηλινούς να ψηφίσουν τον «εξαίρετο πολεμιστή» Νετανιάχου",
-      "· ingr | Ισραήλ: Ο Αϊζενκοτ υπόσχεται «ενότητα», ο Νετανιάχου δείχνει ιρανική πυρηνική βόμβα να πέφ"
+      "· gn-kathimerini | Ασπρόπυργος: Πυρκαγιά σε υπαίθριο χώρο επιχείρησης με παλέτες - Kathimerini",
+      "· gn-iefimerida | Φωτιά τα ξημερώματα στον Ασπρόπυργο, σε υπαίθριο χώρο επιχείρησης με παλέτες - iefimerida.",
+      "· gct | Six Productions Explore Nazi Occupation, Civil War and Historical Trauma",
+      "· gct | Physics Fest Brings Leading Scientists to University of Patras",
+      "✓ ingr | Ακίνητα: Πού και πόσο αυξήθηκαν οι τιμές των ενοικίων – Αναλυτικά στοιχεία ανά περιοχή"
     ]
   },
   "evergreenDone": [
