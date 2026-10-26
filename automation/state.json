@@ -17,19 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "c75163c9d331": 1791842006215,
-    "dfad48733669": 1791842006215,
-    "171011540b46": 1791842006215,
-    "de8d3c3bd424": 1791842006215,
-    "aefc861767b7": 1791842585840,
-    "482d81250632": 1791842585840,
-    "17f86709a425": 1791842585840,
-    "ffe6b24727ee": 1791843918513,
-    "6289cf9a2cb8": 1791843918513,
-    "3575a7ec6970": 1791845642989,
-    "420932bc04d1": 1791845642989,
-    "95215981d6b2": 1791845642989,
-    "62a9ce7e9e2c": 1791846216360,
     "1d7422a06da4": 1791849187769,
     "47d0722d59b7": 1791849187769,
     "062a6945f803": 1791851970320,
@@ -2157,39 +2144,56 @@
     "c5171dc7340e": 1793050966530,
     "43c1b79cae0e": 1793050966530,
     "cfcadc2818c1": 1793050966530,
-    "9ed5cc76f746": 1793050966530
+    "9ed5cc76f746": 1793050966530,
+    "652756522da4": 1793058465369,
+    "b7618e19d4e3": 1793058465369,
+    "8cbe9677e33d": 1793058465369,
+    "bdd9238a5d91": 1793058465369,
+    "d7c74bbac557": 1793058465369,
+    "f89b4c53cd30": 1793058465369,
+    "c9dfb0b25b10": 1793058465369,
+    "59a9208ff7e8": 1793058465369,
+    "5b9572f76e19": 1793058465369,
+    "c581fd909b11": 1793058465369,
+    "3183c7e86910": 1793058465369,
+    "7ff4704517c1": 1793058465369,
+    "c09bfe850b6c": 1793058465369,
+    "886ca0d2b2ae": 1793058465369,
+    "c4f0441815b4": 1793058465369,
+    "9ad494fb4fdb": 1793058465369,
+    "afa8e4c27761": 1793058465369
   },
   "pending": {
-    "c1a694": {
-      "createdAt": 1793050981293,
+    "37c7dc": {
+      "createdAt": 1793058480535,
       "item": {
-        "title": "Βουλή: Οι βαριές εκφράσεις που αντάλλαξαν Γεωργιάδης και Κωνσταντοπούλου για το Ισραήλ",
-        "url": "https://www.naftemporiki.gr/politics/2180545/voyli-oi-varies-ekfraseis-poy-antallaxan-georgiadis-kai-konstantopoyloy-gia-to-israil/?utm_source=rss&utm_medium=rss&utm_campaign=voyli-oi-varies-ekfraseis-poy-antallaxan-georgiadis-kai-konstantopoyloy-gia-to-israil",
-        "summary": "Στα άκρα έφτασε – για άλλη μία φορά- η αντιπαράθεση Άδωνι Γεωργιάδη και Ζωής Κωνσταντοπούλου στη Βουλή, με φόντο τη συμμετοχή του υπουργού Υγείας σε εκδήλωση του Israel Allies Foundation…\n Βουλή: Οι βαριές εκφράσεις που αντάλλαξαν Γεωργιάδης και Κωνσταντοπούλου για το Ισραήλ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-        "published": "Mon, 26 Oct 2026 19:26:37 +0000",
-        "id": "09a1e5204a02",
-        "sourceId": "naftemporiki",
-        "sourceName": "Ναυτεμπορική",
+        "title": "Red Warnings for 28 October as Storms Flood Attica Streets",
+        "url": "https://greekcitytimes.com/2026/10/27/greece-storms-emy-red-warning-28-october/",
+        "summary": "Greece’s weather service has issued red warnings for parts of the country on Wednesday 28 October, the national “Ochi Day” holiday, after storms turned streets into rivers in Attica and authorities put nine areas on full alert. The Hellenic National Meteorological Service (EMY) on Monday upgraded its weather bulletin to an emergency bulletin for dangerous…\n The post Red Warnings for 28 October as Storms Flood Attica Streets appeared first on Greek City Times .",
+        "published": "Mon, 26 Oct 2026 22:45:42 +0000",
+        "id": "5b9572f76e19",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "09a1e5204a02",
-        "section": "israelis",
-        "priority": 7,
+        "id": "5b9572f76e19",
+        "section": "breaking",
+        "priority": 10,
         "sensitive": true,
-        "breaking": false,
-        "reason": "Covers a heated parliamentary debate in Greece regarding relations with Israel and a government minister's participation in an Israel Allies Foundation event, relevant to safety and Israel-Greece relations readers.",
+        "breaking": true,
+        "reason": "Red weather warnings and severe storms flooding Attica streets on the Ochi Day national holiday directly impact tourists and residents.",
         "item": {
-          "title": "Βουλή: Οι βαριές εκφράσεις που αντάλλαξαν Γεωργιάδης και Κωνσταντοπούλου για το Ισραήλ",
-          "url": "https://www.naftemporiki.gr/politics/2180545/voyli-oi-varies-ekfraseis-poy-antallaxan-georgiadis-kai-konstantopoyloy-gia-to-israil/?utm_source=rss&utm_medium=rss&utm_campaign=voyli-oi-varies-ekfraseis-poy-antallaxan-georgiadis-kai-konstantopoyloy-gia-to-israil",
-          "summary": "Στα άκρα έφτασε – για άλλη μία φορά- η αντιπαράθεση Άδωνι Γεωργιάδη και Ζωής Κωνσταντοπούλου στη Βουλή, με φόντο τη συμμετοχή του υπουργού Υγείας σε εκδήλωση του Israel Allies Foundation…\n Βουλή: Οι βαριές εκφράσεις που αντάλλαξαν Γεωργιάδης και Κωνσταντοπούλου για το Ισραήλ - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-          "published": "Mon, 26 Oct 2026 19:26:37 +0000",
-          "id": "09a1e5204a02",
-          "sourceId": "naftemporiki",
-          "sourceName": "Ναυτεμπορική",
+          "title": "Red Warnings for 28 October as Storms Flood Attica Streets",
+          "url": "https://greekcitytimes.com/2026/10/27/greece-storms-emy-red-warning-28-october/",
+          "summary": "Greece’s weather service has issued red warnings for parts of the country on Wednesday 28 October, the national “Ochi Day” holiday, after storms turned streets into rivers in Attica and authorities put nine areas on full alert. The Hellenic National Meteorological Service (EMY) on Monday upgraded its weather bulletin to an emergency bulletin for dangerous…\n The post Red Warnings for 28 October as Storms Flood Attica Streets appeared first on Greek City Times .",
+          "published": "Mon, 26 Oct 2026 22:45:42 +0000",
+          "id": "5b9572f76e19",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -2197,66 +2201,170 @@
         }
       },
       "draft": {
-        "slug": "adonis-georgiadis-zoi-konstantopoulou-israel-debate",
-        "section": "israelis",
+        "slug": "greece-storms-red-warning-october-2026",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": null,
+        "alert": {
+          "he": "סערה ביוון",
+          "en": "Storm in Greece"
+        },
+        "imageKey": "storm",
+        "imageQuery": "heavy rain storm greece",
+        "he": {
+          "title": "סערה ביוון: אזהרות אדומות ושיבושים לקראת חג האוחי",
+          "seoTitle": "מזג אוויר סוער ביוון: אזהרות אדומות באתנה ובאיים",
+          "seoDesc": "מזג אוויר קיצוני ביוון לקראת חג האוחי ב-28 באוקטובר. התראות אדומות באזורים נרחבים, הצפות באתונה וביטול לימודים בקו. כל הפרטים.",
+          "keywords": [
+            "מזג אוויר ביוון",
+            "סערה ביוון",
+            "אזהרת מסע יוון",
+            "חופשה ביוון"
+          ],
+          "dek": "שירות החיזוי הלאומי ביוון פרסם אזהרות חמורות לקראת חג ה-28 באוקטובר, בעקבות מערכת גשמים עזה שהציפה רחובות באתונה והביאה להכרזת מצב חירום בתשעה אזורים.",
+          "tldr": [
+            "אזהרות אדומות הוכרזו במספר אזורים לקראת חג האוחי ב-28 באוקטובר.",
+            "רחובות באתונה ובאטיקה הוצפו וגרמו לשיבושי תנועה משמעותיים.",
+            "מוקדי חירום והשירות המטאורולוגי ממליצים לעקוב אחר ההנחיות ולהשתמש במספר 112 בשעת חירום."
+          ],
+          "means": "אם אתם שוהים כעת ביוון או מתכננים טיסה לימים הקרובים, בדקו היטב את תנאי מזג האוויר המקומיים ואת תחבורת הדרכים. הימנעו מנסיעות לא הכרחיות באזורים המוצפים, והקפידו להתעדכן בהודעות הרשויות המקומיות ובמספר החירום 112 בכל בעיה.",
+          "body": "## מזג אוויר קיצוני ודרגות כוננות גבוהות\n\nשירות החיזוי הלאומי של יוון (EMY) עדכן את תחזית מזג האוויר למצב חירום עקב גשמים כבדים וסופות רעמים המלוות בברד מקומי. האזהרות נכנסו לתוקף כבר בתחילת השבוע ונמשכות עד יום רביעי, ה-28 באוקטובר, המציין את חג ה\"אוחי\" הלאומי.\n\nועדת הערכת הסיכונים והמזכירות הגנרלית להגנה אזרחית הכריזו על כוננות \"קוד אדום\" בתשעה אזורים מרכזיים ברחבי המדינה, הכוללים בין היתר את אֶוְוִיָה, פְּתִיוֹטִידָה, בִּיאוֹטִיָה, הַסְפּוֹרָדוֹת, מַגְנֶסִיָה, לָארִיסָה, הדודקאנְס, וכן את כל מחוזות אָתִיקָה והצפון האגאי. הרשויות באטיקה ובצפון האגאי צורפו לרשימה משיקולי זהירות עקב הקרקע שכבר רוויה מגשמים קודמים.\n\n## הצפות באתונה ופגיעה בשגרת החיים\n\nהגשמים העזים כבר נתנו את אותותיהם בסוף השבוע האחרון ובמהלך יום שני. ברחובות במספר עיירות ושכונות באטיקה, בהן מַנְדְּרָה וגְלִיפָדָה, זרמו מים כנהרות. המשטרה נאלצה לחסום זמניתצירי תנועה מרכזיים, וכן נרשמו עומסי תנועה כבדים בצירים הראשיים עקב הצטברות מים. על פי נתוני תחנות התיעוד של מצפה הכוכבים הלאומי באתונה, כמויות הגשמים הגיעו לשיאים משמעותיים במספר מוקדים.\n\nבמקביל, באי קוֹס הורה ראש העיר על סגירת כל בתי הספר ומוסדות החינוך, בעוד שאר המדינה מצויה בחופשת חג רשמית הכוללת תהלוכות צבאיות ותלמידים מסורתיות. חזאים מקומיים ממליצים לציבור להסתמך אך ורק על הודעות רשמיות של הרשויות והשירות המטאורולוגי, ולהימנע מסיכונים מיותרים בדרכים בזמן הסערה."
+        },
+        "en": {
+          "title": "Greece Storms: Red Weather Warnings Issued for Ochi Day",
+          "seoTitle": "Greece Storms: Red Weather Warnings and Floods",
+          "seoDesc": "Greece issues red weather warnings for Ochi Day on October 28. Severe storms flood Athens streets and put nine regions on emergency alert.",
+          "keywords": [
+            "greece storms",
+            "weather greece",
+            "athens flood",
+            "greece travel warning"
+          ],
+          "dek": "Greece’s national weather service has issued red warnings ahead of Ochi Day as heavy storms flood streets in Attica and authorities place nine areas on full alert.",
+          "tldr": [
+            "Red weather warnings are in effect for multiple regions through October 28.",
+            "Heavy rains caused street flooding and traffic disruptions across Attica.",
+            "Authorities urge travelers and residents to follow official updates and use 112 in emergencies."
+          ],
+          "means": "If you are currently in Greece or traveling soon, check local weather updates and road conditions regularly. Avoid non-essential travel during severe downpours, follow instructions from local authorities, and keep the emergency number 112 handy.",
+          "body": "## Emergency Weather Bulletins Across Greece\n\nThe Hellenic National Meteorological Service (EMY) has upgraded its weather bulletin to an emergency status for dangerous weather, forecasting heavy rain, thunderstorms, and local hail across parts of the country through Wednesday, October 28, coinciding with the national \"Ochi Day\" holiday.\n\nFollowing risk assessment meetings, the General Secretariat for Civil Protection placed nine areas on \"Red Code\" mobilization. These include Evia, Fthiotida, Viotia, the Sporades, Magnesia, Larissa, the Dodecanese, and the entire regions of Attica and the North Aegean. Attica and the North Aegean were included preventively due to ground already soaked from previous precipitation.\n\n## Flooding and Travel Disruption in Attica\n\nSevere storms hit Attica hard, turning streets into rushing torrents in areas such as Mandra and Glyfada. Traffic police temporarily closed major roads due to water accumulation, and significant congestion was reported along key avenues. Meteorological stations recorded high rainfall totals across several observation points.\n\nMeanwhile, local authorities in places like Kos ordered schools to remain closed, while nationwide institutions observe holiday closures. Meteorologists advise the public to rely strictly on official EMY warnings and local civil protection instructions as the holiday parades approach."
+        }
+      },
+      "text": "A street flooded after heavy rain in a Greek town (file photo). Photo: Annatsach / Wikimedia Commons, CC BY-SA 4.0 \n 0 \n 0 \n 0 \n Greece’s weather service has issued red warnings for parts of the country on Wednesday 28 October, the national “Ochi Day” holiday, after storms turned streets into rivers in Attica and authorities put nine areas on full alert.\n The Hellenic National Meteorological Service (EMY) on Monday upgraded its weather bulletin to an emergency bulletin for dangerous weather. It forecasts heavy rain and thunderstorms, with local hail, mainly in eastern Greece, from Monday 26 October until at least Wednesday 28 October, according to the updated bulletin .\n Where the red warnings apply\n On Monday, the Dodecanese was under a red warning until late in the evening.\n Tuesday 27 October brings a lull in some areas, with orange warnings for Attica until the morning, Evia and the Sporades, the Dodecanese from midday, the eastern Aegean islands, and Magnesia and Larissa in Thessaly from the evening.\n Read more: Severe Weather Across Greece: Storms and Winds Up to 10 Beaufort \n The weather is forecast to worsen again on Wednesday. EMY has issued red warnings for:\n Magnesia and Larissa, until late at night\n the Sporades and Evia, until late in the evening\n the Dodecanese\n Attica is under an orange warning on Wednesday from the early hours until midday, as are the eastern Aegean islands and eastern Central Greece (mainly Fthiotida and Viotia), Kathimerini reported .\n Red Code until Thursday\n After meetings of the Risk Assessment Committee and the Civil Protection Coordinating Body, attended by Climate Crisis and Civil Protection Minister Evangelos Tournas, the General Secretariat for Civil Protection placed nine areas on “Red Code” mobilisation from Monday 26 to Thursday 29 October, the ministry announced .\n They are Evia, Fthiotida, Viotia, the Sporades, Magnesia, Larissa and the Dodecanese, plus the whole regions of Attica and the North Aegean. Attica and the North Aegean were included as a precaution because the ground was already soaked from earlier rain, the ministry said.\n The Fire Service has activated its flood response plan, while the armed forces, police and Coast Guard are on standby. Tournas stressed the need for readiness ahead of the heavy holiday traffic around 28 October.\n The Risk Assessment Committee expects the weather to ease on Tuesday, with rain and local storms in eastern and southern Greece, before a fresh deterioration on Wednesday, mainly in eastern Thessaly, the Northern Sporades, eastern Central Greece, Evia and Skyros. The committee is due to meet again on Tuesday.\n Flooded streets across Attica\n The storms hit Attica hard on Sunday night. Streets in Mandra and Glyfada turned into torrents and Traffic Police closed Karamanli Avenue in Voula towards Piraeus, between Vasileos Pavlou Street and Kritis Square, because of the build-up of water. The road later reopened.\n On Monday, flooding on Poseidonos Avenue in Palaio Faliro left traffic squeezed into one lane, and there were kilometres-long queues on Kifisou, Vouliagmenis and Alimou-Katechaki avenues citing Traffic Police. Roads also flooded in Koropi.\n Weather stations of the National Observatory of Athens and meteo.gr recorded 104 millimetres of rain at Lofos Chasani in Elliniko and 96mm in Koropi over Sunday and Monday, up to 5.50pm Monday. The highest total in the country was 133mm at Amoni Sofikou in Corinthia.\n On Sunday night, during the downpour, three members of one family died when their car went into the sea at the port of Piraeus. The cause is under investigation.\n Schools shut on Kos\n On Kos, Mayor Theodosis Nikitaras ordered all schools, kindergartens and childcare centres to stay shut on Tuesday 27 October, and the municipality urged residents to avoid unnecessary travel, Schools across Greece are closed on Wednesday for the national holiday.\n Wet weather for the parades\n Wednesday’s deterioration comes as towns across Greece prepare to hold student and military parades for the anniversary.\n Meteorologist Theodoros Kolydas noted that the main forecasting models differ widely on how much rain will fall in Thessaly on the day, with maximum totals of 249.8mm in ICON-EU, 102.8mm in ECMWF and 48.4mm in GFS. He urged the public to rely on EMY’s official warnings, Parapolitika reported .\n Anyone in the affected areas should follow updates from EMY and Civil Protection and the instructions of local authorities. In an emergency, call 112.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Storm Alert Turns Red for One Greek Island \n Heavy Rain, Thunderstorms and Gale Force Winds Forecast Across Greece \n Autumn Storms Cut Greek Temperatures by Up to 7°C \n Greece Braces for Prolonged Heatwave as Temperatures Approach 40°C \n Advertising\n Stella Mazonakis \n Stella Mazonakis is a contributor at Greek City Times, covering Greek news, community stories, sport, culture, and current affairs for readers in Greece and the diaspora.\n Previous Article \n Mazonakis Death Probe: Antidote Vials Traced to Athens Clinic, Reports Say\n Next Article \n Choriatiko Bakery Suspects Face Criminal Organisation Charges\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Καταιγίδες στην Ελλάδα: Κόκκινος συναγερμός για την 28η Οκτωβρίου",
+        "dek": "Η Εθνική Μετεωρολογική Υπηρεσία εξέδωσε κόκκινες προειδοποιήσεις ενόψει της 28ης Οκτωβρίου, καθώς ισχυρές καταιγίδες προκαλούν πλημμύρες σε δρόμους της Αττικής και οι αρχές θέτουν εννέα περιοχές σε πλήρη επιφυλακή.",
+        "tldr": [
+          "Κόκκινος καιρός σε ισχύ για πολλές περιοχές έως τις 28 Οκτωβρίου.",
+          "Οι ισχυρές βροχοπτώσεις προκαλούν πλημμύρες σε δρόμους και κυκλοφοριακά προβλήματα σε ολόκληρη την Αττική.",
+          "Οι αρχές προτρέπουν τους ταξιδιώτες και τους κατοίκους να ακολουθούν τις επίσημες ενημερώσεις και να καλούν το 112 σε περιπτώσεις έκτακτης ανάγκης."
+        ]
+      },
+      "notified": true
+    },
+    "f28aee": {
+      "createdAt": 1793058503899,
+      "item": {
+        "title": "Greece Raises Childcare Vouchers 10% as Income Limits Climb",
+        "url": "https://greekcitytimes.com/2026/10/27/greek-childcare-vouchers/",
+        "summary": "Greek childcare vouchers rise 10% for 2026–2027, with income limits up by €2,000 and a second call coming for newly eligible families.\n The post Greece Raises Childcare Vouchers 10% as Income Limits Climb appeared first on Greek City Times .",
+        "published": "Mon, 26 Oct 2026 22:00:51 +0000",
+        "id": "886ca0d2b2ae",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "886ca0d2b2ae",
+        "section": "living",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Increase in childcare vouchers and income limits is important practical news for Israeli residents living in Greece with families.",
+        "item": {
+          "title": "Greece Raises Childcare Vouchers 10% as Income Limits Climb",
+          "url": "https://greekcitytimes.com/2026/10/27/greek-childcare-vouchers/",
+          "summary": "Greek childcare vouchers rise 10% for 2026–2027, with income limits up by €2,000 and a second call coming for newly eligible families.\n The post Greece Raises Childcare Vouchers 10% as Income Limits Climb appeared first on Greek City Times .",
+          "published": "Mon, 26 Oct 2026 22:00:51 +0000",
+          "id": "886ca0d2b2ae",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greek-childcare-vouchers-rise-2026",
+        "section": "living",
         "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "עימות ביוון",
-          "en": "Greece Debate"
+          "he": "יוקר מחיה",
+          "en": "Cost of Living"
         },
-        "imageKey": "politics",
-        "imageQuery": "greek parliament athens greece",
+        "imageKey": "people",
+        "imageQuery": "greek family children kindergarten nursery",
         "he": {
-          "title": "עימות חריף בפרלמנט ביוון על הקשרים עם ישראל",
-          "seoTitle": "עימות בפרלמנט ביוון על היחסים עם ישראל",
-          "seoDesc": "עימות סוער בפרלמנט ביוון בין שեր הבריאות לאופוזיציה סביב היחסים המדיניים עם ישראל ואירוע של ה-Israel Allies Foundation באתונה.",
+          "title": "יוון: עלייה של 10% בשווי תווי סבסוד המעונות להורים",
+          "seoTitle": "תווי סבסוד מעונות ביוון: עלייה של 10% בערך השוברים",
+          "seoDesc": "משרד הלכידות החברתית ביוון הודיע על עלייה של 10% בשווי תווי סבסוד המעונות והרחבת תקרת ההכנסה למשפחות עם ילדים לשנת 2026–2027.",
           "keywords": [
-            "יוון",
-            "ישראל",
-            "אתונה",
-            "פוליטיקה ביוון"
+            "מעונות ביוון",
+            "יוקר מחיה ביוון",
+            "ילדים ביוון",
+            "תווי סבסוד יוון"
           ],
-          "dek": "שר הבריאות של יוון ויו tịchת מפלגת אופוזיציה התעמתו בחריפות בפרלמנט סביב קשרי המדינות והשתתפותו באירוע תמיכה בישראל באתונה.",
+          "dek": "משרד הלכידות החברתית והמשפחה ביוון פרסם החלטה המגדילה את ערך שוברי המעונות ב-10% ומעלה את ספי ההכנסה לזכאות לשנת 2026–2027.",
           "tldr": [
-            "העימות התרחש בפרלמנט היווני בין שר הבריאות אדוניס גאורגיאדיס לראש מפלגת פליסי אליתריאס זואי קונסטנטופולו.",
-            "הרקע לוויכוח הוא השתתפות השר באירוע של ה-Israel Allies Foundation שהתקיים באתונה באוקטובר 2026.",
-            "שני הצדדים חלוקים עמוקות על טיב היחסים המדיניים והאסטרטגיים בין יוון לישראל."
+            "שובר מעון מלא עם ארוחות לתינוק עלה מ-3,239 ל-3,563 אירו.",
+            "תקרת ההכנסה לזכאות לשוברים מלאים ולשוברים מופחתים עודכנה כלפי מעלה.",
+            "משפחות עם שלושה ילדים זכאיות לשובר מופחת ללא תלות בהכנסתן."
           ],
-          "means": "אין השפעה ישירה על התוכניות של תיירים או משקיעים ישראלים ביוון, אך המקרה משקף את השיח הציבורי המורכב סביב היחסים הבילטרליים במדינה. מומלץ להתעדכן בחדשות המקומיות במידת הצורך.",
-          "body": "## עימות פוליטי סביב היחסים עם ישראל בפרלמנט היווני\n\nעימות חריף נרשם בפרלמנט של יוון בין שר הבריאות אדוניס גאורגיאדיס לבין נשיאת מפלגת פליסי אליתריאס, זואי קונסטנטופולו. הוויכוח הסוער התמקד בהשתתפותו של השר באירוע של ארגון ה-Israel Allies Foundation, שהתקיים באתונה ב-12 באוקטובר 2026.\n\n## טענות על \"פגישה סודית\" מול הגנת השר\n\nחברת הפרלמנט קונסטנטופולו טענה כי האירוע, שנערך במועדון האתונאי (Athletic Club/Athens Club) בהשתתפות פוליטיקאים, אנשי עסקים ועיתונאים, התנהל במחשכים וכי מדובר בפגיעה באינטרסים הציבוריים. מנגד, השר גאורגיאדיס דחה את הטענות על הסתרת הדברים, וטען כי אירוע רב-משתתפים במרכז הבירה אינו יכול להיחשב סודי.\n\n## המחלוקת על הברית האסטרטגית\n\nבמהלך הדיון הסוער הדגיש שר הבריאות את חשיבות הברית האסטרטגית רבת-השנים בין שתי המדינות, הנוגעת לתחומי האנרגיה, הכלכלה והביטחון במזרח הים התיכון. לדבריו, שיתוף הפעולה האזורי נשמר בעקביות לאורך ממשלות שונות החל משנת 2010. מנגד, חברת האופוזיציה מחתה בחריפות כנגד עמדות הממשלה והביעה ביקורת קשה על מדיניות ישראל באזור."
+          "means": "ישראלים התושבים ביוון המגדלים ילדים בגיל הרך וזכאים לשירותי רווחה מקומיים צריכים לבדוק מול הסוכנות המקומית (EETAA) את תנאי הזכאות המעודכנים. השדרוג חל אוטומטית על שוברים קיימים, וסבב בקשות נוסף צפוי להיפתח בהמשך עבור משפחות זכאיות חדשות.",
+          "body": "## עדכונים בסבסוד מעונות היום ביוון\n\nמשרד הלכידות החברתית והמשפחה ביוון הודיע ביום שני על שורה של עדכונים חשובים במערך שוברי סבסוד המעונות לשנת 2026–2027. ההחלטה המשותפת כוללת עלייה רוחבית של 10% בערך השוברים עבור מרכזי תינוקות, פעוטות וילדים.\n\nלפי ההחלטה החדשה, שובר מעון מלא לתינוק הכולל ארוחות גדל מ-3,239 אירו ל-3,563 אירו. שובר עבור פעוטות טיפס מסכום של 2,612 אירו ל-2,873 אירו, ואילו השובר בערך מופחת עלה מ-2,178 אירו ל-2,396 אירו.\n\n## הרחבת ספי ההכנסה למשפחות\n\nבמקביל לעליית הערכים, תקרת ההכנסה השנתית המזכה בשוברים מלאים עלתה ב-2,000 אירו. סף הזכאות המעודכנת עומד על עד 29,000 אירו למשפחות עם עד שני ילדים, 32,000 אירו למשפחות עם שלושה ילדים, 35,000 אירו לארבעה ילדים, ו-38,000 אירו לחמישה ילדים ומעלה.\n\nבנוסף, עבור שוברים בערך מופחת, תקרת ההכנסה למשפחות עם עד שני ילדים עלתה מ-35,000 אירו ל-37,000 אירו. התקרה הקודמת שהוגבלה למשפחות עם שלושה ילדים בוטלה לחלוטין, וכעת משפחות אלו יכולות לקבל שובר מופחת ללא תלות בגובה ההכנסה שלהן.\n\n## יישום אוטומטי וסבב בקשות נוסף\n\nהסכומים המעודכנים מוחלים באופן אוטומטי על שוברים קיימים שכבר בידי ההורים, כך שאין צורך להגיש בקשה חדשה עבור שוברים קיימים. בנוסף, שוברים בערך מופחת יומרו אוטומטית לשווי מלא במידה שהמשפחה עומדת כעת בספי ההכנסה החדשים.\n\nהסוכנות המקומית לפיתוח ולשלטון מקומי (EETAA) צפויה לפרסם סבב בקשות שני עבור שנת הפעילות הנוכחית, המיועד למשפחות עומדות בקריטריונים שטרם קיבלו שובר. הסבב הקודם התקיים בחודשים יולי ואוגוסט עם תקציב כולל של 393 מיליון אירו."
         },
         "en": {
-          "title": "Sharp Clash in the Greek Parliament Over Relations with Israel",
-          "seoTitle": "Greece Parliament Clash Over Israel Relations",
-          "seoDesc": "Greek Health Minister and an opposition leader clashed in parliament over bilateral relations with Israel and an event held in Athens.",
+          "title": "Greece Raises Childcare Vouchers by 10% for Families",
+          "seoTitle": "Greece Childcare Vouchers: 10% Increase for 2026-2027",
+          "seoDesc": "Greece raises childcare voucher values by 10% and increases income limits for families with children for the 2026-2027 period.",
           "keywords": [
-            "Greece",
-            "Israel",
-            "Athens",
-            "Greek politics"
+            "greece childcare vouchers",
+            "greek family benefits",
+            "nursery subsidies greece",
+            "living in greece"
           ],
-          "dek": "The Greek Health Minister and an opposition leader engaged in a sharp verbal clash in parliament regarding bilateral ties and an event held in Athens.",
+          "dek": "The Ministry of Social Cohesion and Family announced a 10% increase in childcare voucher values and higher income limits for parents.",
           "tldr": [
-            "The confrontation took place in the Greek parliament between Health Minister Adonis Georgiadis and opposition leader Zoi Konstantopoulou.",
-            "The debate focused on the minister's participation in an Israel Allies Foundation event held in Athens in October 2026.",
-            "The two sides hold sharply contrasting views on the strategic relationship between Greece and Israel."
+            "Full infant vouchers with meals increased from €3,239 to €3,563.",
+            "Income limits for full and reduced value vouchers have been raised.",
+            "Three-child families can now claim reduced-value vouchers regardless of income."
           ],
-          "means": "There is no direct impact on travel or investments for Israelis in Greece, but the event highlights the ongoing public debate surrounding bilateral ties. Stay informed through local news updates if necessary.",
-          "body": "## Political Clash Over Relations with Israel in the Hellenic Parliament\n\nA sharp confrontation took place in the Greek parliament between Health Minister Adonis Georgiadis and the president of the Plefsi Eleftherias party, Zoi Konstantopoulou. The stormy debate centered around the minister's participation in an event organized by the Israel Allies Foundation, held in Athens on October 12, 2026.\n\n## Allegations of Secrecy Versus Minister's Defense\n\nOpposition leader Konstantopoulou claimed that the event, held at the Athens Club with politicians, business figures, and journalists in attendance, was conducted behind closed doors and criticized the government's foreign policy stance. In response, Minister Georgiadis strongly rejected the accusations of secrecy, emphasizing that a well-attended gathering in the heart of the capital could not possibly be considered hidden.\n\n## The Strategic Partnership Debate\n\nDuring the heated discussion, the Health Minister underscored the importance of the long-standing strategic relationship between the two countries, spanning areas such as energy, economy, and security in the Eastern Mediterranean. He noted that regional cooperation has been consistently maintained across successive governments since 2010. Conversely, the opposition representative strongly criticized government policies and voiced sharp disagreement regarding the regional situation."
+          "means": "Israeli residents living in Greece with young children should check updated eligibility criteria through EETAA. Existing voucher values are adjusted automatically, and a second application call will open soon for newly eligible families.",
+          "body": "## Childcare Voucher Values Increase in Greece\n\nThe Greek Ministry of Social Cohesion and Family announced a series of updates regarding childcare subsidies for the 2026–2027 period. A joint ministerial decision confirmed a 10% rise in the value of vouchers covering infant, toddler, and children's daycare centers.\n\nUnder the new framework, a full infant place with meals rose from €3,239 to €3,563. A toddler place with meals increased from €2,612 to €2,873, while the reduced-value voucher grew from €2,178 to €2,396.\n\n## Revised Income Limits for Families\n\nIncome thresholds for full-value vouchers have increased by €2,000. The updated caps reach up to €29,000 for families with up to two children, €32,000 for three children, €35,000 for four children, and €38,000 for five or more.\n\nFor reduced-value vouchers, the limit for families with up to two children rose from €35,000 to €37,000. The previous income cap for three-child families has been removed entirely, allowing them to claim reduced-value vouchers regardless of income level.\n\n## Automatic Updates and Next Steps\n\nThe higher amounts apply automatically to existing vouchers held by families, removing the need for a new application. Reduced-value vouchers also convert to full value if families meet the higher income limits.\n\nThe Hellenic Agency for Local Development and Local Government (EETAA) will launch a second call for applications for newly eligible families who do not currently hold a voucher."
         }
       },
-      "text": "Στα άκρα έφτασε – για άλλη μία φορά- η αντιπαράθεση Άδωνι Γεωργιάδη και Ζωής Κωνσταντοπούλου στη Βουλή, με φόντο τη συμμετοχή του υπουργού Υγείας σε εκδήλωση του Israel Allies Foundation στην Αθηναϊκή Λέσχη, που πραγματοποιήθηκε στην Αθηναϊκή Λέσχη στις 12 Οκτωβρίου 2026.\n «Δεν πήγα σε καμία μυστική συνάντηση. Στηρίζω τη στρατηγική σχέση της Ελλάδας με το Ισραήλ», απάντησε ο κ. Γεωργιάδης στην επίκαιρη ερώτηση της προέδρου της Πλεύσης Ελευθερίας. Ο υπουργός αντέκρουσε τα περί «μυστικότητας», τονίζοντας με αιχμηρό ύφος πως μια εκδήλωση στην καρδιά της Αθήνας με περισσότερους από 200 προσκεκλημένους (πολιτικούς, επιχειρηματίες και δημοσιογράφους) είναι αδύνατον να θεωρηθεί κρυφή.\n Ο υπουργός υπογράμμισε ότι «μυστική συνάντηση στο κέντρο της Αθήνας, με 200 προσκεκλημένους, μόνο σ’ ένα άρρωστο μυαλό μπορεί να υπάρχει». Προφανώς είπε «εάν θέλεις να κάνεις μια μυστική συνάντηση, δεν θα πας στο κέντρο της Αθήνας και με άλλους 200!»\n Ο κ. Γεωργιάδης μάλιστα ανέφερε ότι στην εκδήλωση αυτή ήταν προσκεκλημένοι «και δημοσιογράφοι και πολιτικοί και επιχειρηματίες όπως και πάρα πολλοί άλλοι».\n «Υποστηρίζω αναφανδόν την στρατηγική σχέση Ελλάδας- Ισραήλ» \n Ο υπουργός διευκρίνισε ότι «δεν αναρτώ όλα όσα κάνω στα social media, ούτε καν τα μισά…» και σημείωσε πως «δεν χρειάζεται να είχα αναρτήσει ότι πήγα σε αυτή την εκδήλωση για να καταλάβετε ότι υποστηρίζω αναφανδόν την στρατηγική σχέση Ελλάδας- Ισραήλ». Αντέτεινε δε, ότι ως βουλευτής «δεν χρειάζομαι να λάβω καμία άδεια από τον πρόεδρο της Βουλής ή τον πρωθυπουργό για να πάω σε μια εκδήλωση».\n ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ \n Βραζιλία: Αιμορραγία στις αγορές μετά τη νίκη Λούλα – Βυθίζονται μετοχές, σε κλοιό πιέσεων νόμισμα και εμπορεύματα \n Σχετικά με την στρατηγική σχέση Ελλάδας – Ισραήλ, είπε πως αυτή έχει βάθος χρόνου, καθώς «δεν οικοδομήθηκε με πρωθυπουργό τον Κυριάκο Μητσοτάκη, αλλά ξεκίνησε από το 2010 με πρωθυπουργό τον Γιώργο Παπανδρέου (με την πρώτη συνάντηση που είχε με το Νετανιάχου) συνεχίσθηκε με την τριμερή συγκυβέρνηση Σαμαρά – Βενιζέλου – Κουβέλη την περίοδο 2012- 2014, συνεχίσθηκε και επί κυβέρνησης Αλέξη Τσίπρα τα έτη 2015- 2019 και εξακολουθεί να συνεχίζεται και επί κυβέρνησης Κυριάκου Μητσοτάκη».\n «Στηρίζουν την Ελλάδα σε όλα τα εθνικά της δίκαια»\n Το κράτος του Ισραήλ και ο πρωθυπουργός του «επισήμως, στηρίζουν την Ελλάδα σε όλα τα εθνικά της δίκαια. Καταδικάζουν την παράνομη κατοχή της Κύπρου από την Τουρκία. Καταδικάζουν το παράνομο τουρκο-λιβυκό μνημόνιο. Οικοδομούν το περίφημο «καλώδιο» με την Κύπρο, που καταλήγει στο Ισραήλ για την ενεργειακή απεξάρτηση της Μεγαλονήσου. Υποστηρίζουν τις εξορύξεις των φυσικών μας πόρων, την ΑΟΖ της Ελλάδος με την Κύπρο, την Αίγυπτο και το Ισραήλ».\n Τα εθνικά συμφέροντα Ελλάδας – Ισραήλ, είπε ο κ. Γεωργιάδης, «ταυτίζονται πλήρως. Σήμερα, το Ισραήλ είναι ο μεγαλύτερος σύμμαχός μας στην ανατολική Μεσόγειο, όπως και σε όλα τα εκκρεμή μας ζητήματα» είπε και πρόσθεσε: «Εσείς με λέτε φασίστα. Εσείς που αντιστρατεύεστε την σχέση της χώρας με αυτό το κράτος, δεν είστε προδότης της Ελλάδος;».\n Ο κ. Γεωργιάδης κατηγόρησε την κ. Κωνσταντοπούλου, πως είναι εκείνη τελικά «που δεν σέβεται την Ιστορία του Ισραήλ, με έναν λαό που πλήρωσε στον Β Παγκόσμιο Πόλεμο με το Ολοκαύτωμα, την μεγαλύτερη γενοκτονία που υπήρξε ποτέ στην Ιστορία».\n «Με απειλήσατε μέσα στα ιερά έδρανα της Βουλής ότι θα με κλείσετε φυλακή;»\n Στην αναφορά της κυρίας Κωνσταντοπούλου ότι «σε αυτή την επίκαιρη ερώτηση σας αντιμετωπίζω ποινικά», ο κ. Γεωργιάδης απάντησε ότι «θα ήθελα να μου εξηγήσει τι σημαίνει αυτό. Με απειλήσατε ότι θα με κλείσετε φυλακή; Και νομίζετε ότι θα βάλω τα κλάματα; […] Με απειλήσατε μέσα στα ιερά έδρανα της Βουλής ότι θα με κλείσετε φυλακή; Ποια νομίζατε ότι είστε και με απειλείτε; Εθνική εισαγγελέας; Μα ποια νομίζετε ότι είστε κυρία μου;».\n Για το σύνθημα της ΔΑΠ-ΝΔΦΚ\n Σχετικά με την πρόσφατη εμφάνισή του σε εκδήλωση της ΔΑΠ-ΝΔΦΚ στα Γιάννενα, όπου έχει καταγραφεί να φωνάζει το σύνθημα της νεολαίας της ΝΔ, ο κ. Γεωργιάδης αναρωτήθηκε: «Εσείς δεν έχετε πάει σε διαδηλώσεις; Δεν έχετε φωνάξει αριστερά συνθήματα; Θα μου κάνετε έλεγχο και τι είδους συνθήματα θέλω να λέω; Ή πιστεύετε ότι εγώ δεν είμαι περήφανος για την ΔΑΠ- ΝΔΦΚ που διέλυσε την Αριστερά στα Πανεπιστήμια; […] Σας λέω λοιπόν, πως είμαι πολύ περήφανος που υπήρξα στην ΔΑΠ- ΝΔΦΚ και στην ΟΝΝΕΔ».\n «Προσβολή για τον ελληνικό λαό»\n Η πρόεδρος της Πλεύσης Ελευθερίας, Ζωή Κωνσταντοπούλου, από την δική της πλευρά κατά την πρωτολογία της, ανέφερε ότι «αποτελεί προσβολή για τον ελληνικό λαό, ένας εν ενεργεία υπουργός και αντιπρόεδρος του κυβερνώντος κόμματος να συναντιέται κρυφά μαζί με άλλα μέλη του κόμματός του, της ΝΔ, μαζί με άλλους υπουργούς, βουλευτές και άλλων κομμάτων όπως και πρώην Πρωθυπουργούς, με ομάδες και παράγοντες του διεθνή σιωνισμού. Με την οργάνωση ΙΑF, που ως σκοπό της έχει την προώθηση σιωνιστικών στόχων, δηλαδή της συνέχισης των παραβιάσεων του διεθνικούς δικαίου. Που προωθεί την εν εξελίξει γενοκτονία σε βάρος του παλαιστινιακού λαού και υποθάλπει έναν καταζητούμενο εγκληματία, παραβάτη του διεθνούς ποινικού δικαίου, τον πρωθυπουργό του Ισραήλ, Νετανιάχου».\n «Δεν είχατε πει λέξη μέχρι που αποκαλύφθηκε»\n Η κ. Κωνσταντοπούλου είπε, ότι η εκδήλωση αυτή που έγινε στην Αθηναϊκή Λέσχη «δεν έγινε γνωστή με δική σας πρωτοβουλία, δεν είχατε πει λέξη μέχρι που αποκαλύφθηκε στις 15 Οκτωβρίου από τους Reporters United».\n «Επειδή είστε εν ενεργεία υπουργός, θα πρέπει να μας πείτε εάν συμμετείχατε σε αυτή την εκδήλωση ως υπουργός. Ενημερώσατε πριν ή μετά, τον πρωθυπουργό ή τον πρόεδρο της Βουλής; Και τι σας είπαν;» ρώτησε στην πρωτολογία της η κ. Κωνσταντοπούλου.\n «Να είστε λίγο προσεκτικός, ως εγκωμιαστής αυτών των εγκλημάτων»\n Κατά την δευτερολογία της, είπε στον κ. Γεωργιάδη ότι «ξέρω πολύ καλά πως απευθύνομαι σε φασίστα και ακροδεξιό, αρνητή του Ολοκαυτώματος. ‘Αρα περιττεύει να μου λέτε τι έχει κάνει ο πρωθυπουργός του Ισραήλ, γιατί γνωρίζω πολύ καλά. Και θα φροντίσω προσωπικά να λογοδοτήσει ο φίλος σας Νετανιάχου, γιατί δεν πρόκειται για πρωθυπουργό αλλά για διεθνή εγκληματία, ο οποίος παραπέμπεται στο Διεθνές Ποινικό Δικαστήριο. Είναι καταζητούμενος με ένταλμα σύλληψης για εγκλήματα πολέμου, εγκλήματα κατά της ανθρωπότητας, και έχει κριθεί ότι το κράτος και η κυβέρνησή του διαπράττουν γενοκτονία. Οπότε και εσείς να είστε λίγο προσεκτικός, ως εγκωμιαστής αυτών των εγκλημάτων».\n Η πρόεδρος της Πλεύσης Ελευθερίας είπε τον κ. Γεωργιάδη ότι «σε αυτή την επίκαιρη ερώτηση σας αντιμετωπίζω ποινικά και αυτό να το λογαριάσετε, γιατί έχετε υποπέσει σε πάρα πολλές αντιφάσεις και με όσα εσείς έχετε πει, αλλά και οι συνδαιτημόνες σας». Μεταξύ άλλων, αμφισβήτησε, το ότι η συνάντηση αυτή του ΙΑF δεν ήταν μυστική και τον κάλεσε να πει ονόματα για το ποιοι συμμετείχαν.\n Υποστήριξε ότι «δεν δικαιούστε από την στιγμή που φέρετε την ιδιότητα του υπουργού και του βουλευτή, κατά το Σύνταγμα δεν δικαιούται να πραγματοποιεί μυστικές συναντήσεις με ξένους παράγοντες για τα συμφέροντα ξένου κράτους».\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 26/10/2026 - 7:47 \n Η κοινή δήλωση των «έξι» στον ΟΗΕ: «Άκυρο το τουρκολιβυκό μνημόνιο – Παραβιαζει την γεωγραφική πραγματικότητα»\n 26/10/2026 - 7:26 \n Κουφονικολάκου για Μπεκίρη: Ο «εθελοντής» φεύγει αλλά η υπόθεση τώρα ανοίγει\n 26/10/2026 - 6:48 \n ΠΑΣΟΚ για αποχώρηση Μπεκίρη: Θα βρει άλλον «εθελοντή» ο Πρωθυπουργός για Διευθυντή του Γραφείου του;\n 26/10/2026 - 5:57 \n Μιχάλης Μπεκίρης: Αποχωρώ προσωρινά από τα καθήκοντά μου – Δεν αποτελεί ούτε υποχώρηση, ούτε αποδοχή οποιασδήποτε κατηγορίας\n 26/10/2026 - 4:30 \n Ρ. Δούρου: Τα αποτελέσματα σε Σερβία και Βραζιλία δείχνουν ότι η ακροδεξιά δεν είναι ανίκητη\n 26/10/2026 - 3:51 \n SPIKE NLOS: Μετά το Πολεμικό Ναυτικό η «σκυτάλη» στα επιθετικά ελικόπτερα Apache\n 26/10/2026 - 2:36 \n Επικοινωνία Ν. Δένδια με τον Πρέσβη της Ιορδανίας στην Ελλάδα: Συλλυπητήρια για τα θύματα της επίθεσης στον ελληνορθόδοξο Ναό του Αγίου Γεωργίου στην Ιορδανίας\n 26/10/2026 - 2:31 \n Τσουκαλάς κατά Μαρινάκη για τουρκολιβυκό: Αντί να δώσει απαντήσεις, ψάχνει απλά να ρίξει ευθύνες για την αποτυχία\n 26/10/2026 - 2:18 \n Το ΠΑΣΟΚ διαψεύδει τα περί συνεργασίας με τον ΣΥΡΙΖΑ – Κ. Τσουκαλάς: Δεν έχει υπάρξει καμία συζήτηση, σε κανένα επίπεδο\n 26/10/2026 - 1:05 \n Ν. Ανδρουλάκης από Θεσσαλονίκη: Δεν θα γίνει ανεκτή καμία αναγνώριση δικαιωμάτων στην Τουρκία\n 26/10/2026 - 12:52 \n Επίσκεψη Κ. Μητσοτάκη στον Άγιο Δημήτριο Αττικής: Συγχαρητήρια από τον Αρχιεπίσκοπο Αυστραλίας για τη Μονή Σινά\n 26/10/2026 - 12:52 \n Πλησιάζει την Κρήτη το «ABEILLE MARENGO» – Τα βλέμματα στραμμένα στην ηλεκτρική διασύνδεση Ελλάδας-Κύπρου\n Περισσότερα",
+      "text": "File photo: Social Cohesion and Family Minister Domna Michailidou in 2024. Photo: Belgian Presidency of the Council of the EU 2024 (David Jacowbski) / Wikimedia Commons (CC BY 2.0) \n 0 \n 0 \n 0 \n Greek childcare vouchers will rise in value by 10% for 2026–2027, while higher income limits will let more families claim a subsidised place at nurseries and day-care centres. \n The Ministry of Social Cohesion and Family set out the changes in a new joint ministerial decision on Monday. Also, families with three children can now get a reduced-value voucher regardless of income.\n Under the decision, income limits for vouchers rise by €2,000. In addition, a second call for applications will follow, so more parents can join the scheme. The move adds to earlier incentives for families with children .\n “We managed to secure more support for families with children,” Social Cohesion and Family Minister Domna Minewschailidou said.\n Read more: Greece’s €10,000 Relocation Grant Heads to Border Islands \n In her words, the decision is “one more step so that more parents have access to preschool care, can work and can organise their daily lives better” .\n How much Greek childcare vouchers are worth\n The 10% rise covers Greek childcare vouchers for infant, infant-toddler and children’s centres. An infant place with meals rises from €3,239 to €3,563.\n Similarly, a toddler place with meals climbs from €2,612 to €2,873. In turn, the reduced-value voucher increases from €2,178 to €2,396.\n The higher amounts apply automatically to Greek childcare vouchers that families already hold, so parents do not need to apply again. Also, reduced-value vouchers convert to full value when families now meet the higher income limits.\n New income limits for families\n Full-value vouchers now cover families earning up to €29,000 with up to two children. The limit is €32,000 for three children, €35,000 for four and €38,000 for five or more.\n For reduced-value vouchers, the limit for families with up to two children climbs from €35,000 to €37,000. At the same time, the €38,000 cap for three-child families no longer applies.\n As a result, three-child families can claim Greek childcare vouchers at the reduced value regardless of income. Large families with four or more children already enjoy the same right.\n “We particularly support families raising three or more children, because we know their needs are greater,” Michailidou said.\n Next, the Hellenic Agency for Local Development and Local Government (EETAA) will issue a second call for Greek childcare vouchers for 2026–2027. It will open to newly eligible families that do not already hold a voucher.\n Earlier, the agency’s first call for applications ran from 18 July to 5 August 2026, with a budget of €393 million. Likewise, a second call last year approved vouchers for more than 6,000 children.\n Michailidou co-signed the decision with five ministers and deputy ministers, including Interior Minister Theodoros Livanios and Digital Governance Minister Dimitris Papastergiou.\n Source: ERT News \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Children in Institutions in Greece Fall Below 1,000 for First Time \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Cyprus’ First Gas Field Moves to Construction After $1.8bn Deals\n Next Article \n Three Family Members Die as Car Plunges Into Piraeus Port\n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Έντονη κόντρα στη Βουλή των Ελλήνων για τις σχέσεις με το Ισραήλ",
-        "dek": "Ο υπουργός Υγείας και η αρχηγός της αντιπολίτευσης ήρθαν σε έντονη λεκτική αντιπαράθεση στη Βουλή σχετικά με τις διμερείς σχέσεις και μια εκδήλωση που πραγματοποιήθηκε στην Αθήνα.",
+        "title": "Η Ελλάδα αυξάνει τα voucher παιδικών σταθμών κατά 10% για τις οικογένειες",
+        "dek": "Το Υπουργείο Κοινωνικής Συνοχής και Οικογένειας ανακοίνωσε αύξηση 10% στην αξία των voucher για τους παιδικούς σταθμούς και υψηλότερα εισοδηματικά όρια για τους γονείς.",
         "tldr": [
-          "Η αντιπαράθεση έλαβε χώρα στη Βουλή των Ελλήνων μεταξύ του υπουργού Υγείας 'Αδωνι Γεωργιάδη και της επικεφαλής της αντιπολίτευσης Ζωής Κωνστανtoπούλου.",
-          "Η συζήτηση επικεντρώθηκε στη συμμετοχή του υπουργού σε εκδήλωση του Ιδρύματος Συμμάχων του Ισραήλ που πραγματοποιήθηκε στην Αθήνα τον Οκτώβριο του 2026.",
-          "Οι δύο πλευρές έχουν εντελώς αντίθετες απόψεις για τη στρατηγική σχέση μεταξύ Ελλάδας και Ισραήλ."
+          "Τα πλήρη voucher για βρέφη με γεύματα αυξήθηκαν από 3.239€ σε 3.563€.",
+          "Τα εισοδηματικά όρια για τα πλήρη και τα μειωμένης αξίας voucher έχουν αυξηθεί.",
+          "Οι τρίτεκνες οικογένειες μπορούν πλέον να διεκδικήσουν voucher μειωμένης αξίας ανεξαρτήτως εισοδήματος."
         ]
       },
       "notified": true
@@ -2271,12 +2379,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-26T21:42:35.331Z",
+      "at": "2026-10-26T23:47:35.462Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-26T21:42:36.105Z",
+      "at": "2026-10-26T23:47:35.946Z",
       "items": 4
     },
     "civilprotection": {
@@ -2287,27 +2395,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-26T21:42:38.108Z",
+      "at": "2026-10-26T23:47:37.332Z",
       "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-26T21:42:38.185Z",
+      "at": "2026-10-26T23:47:37.513Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-26T21:42:39.272Z",
+      "at": "2026-10-26T23:47:38.241Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-26T21:42:40.097Z",
-      "items": 4
+      "at": "2026-10-26T23:47:38.965Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-26T21:42:40.742Z",
+      "at": "2026-10-26T23:47:39.651Z",
       "items": 10
     },
     "toi-greece": {
@@ -2318,22 +2426,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-26T21:42:41.334Z",
+      "at": "2026-10-26T23:47:40.089Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-26T21:42:41.548Z",
-      "items": 14
+      "at": "2026-10-26T23:47:40.185Z",
+      "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-26T21:42:42.310Z",
-      "items": 6
+      "at": "2026-10-26T23:47:40.358Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T21:42:42.534Z",
+      "at": "2026-10-26T23:47:40.618Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2343,12 +2451,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T21:42:36.470Z",
+      "at": "2026-10-26T23:47:36.393Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-26T21:42:43.160Z",
+      "at": "2026-10-26T23:47:41.178Z",
       "items": 0
     },
     "hcg": {
@@ -2359,186 +2467,64 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-26T21:42:44.490Z",
+      "at": "2026-10-26T23:47:42.617Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-26T21:42:44.708Z",
+      "at": "2026-10-26T23:47:42.813Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-26T21:42:44.878Z",
+      "at": "2026-10-26T23:47:42.997Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-26T21:42:45.150Z",
-      "items": 3
+      "at": "2026-10-26T23:47:43.341Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-26T21:42:45.450Z",
-      "items": 8
+      "at": "2026-10-26T23:47:43.676Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-26T21:42:45.825Z",
-      "items": 11
+      "at": "2026-10-26T23:47:44.107Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-26",
-    "count": 8,
+    "date": "2026-10-27",
+    "count": 1,
     "published": [
       {
-        "slug": "bakery-chain-owner-arrested-tax-fraud-greece",
-        "title": "Bakery chain owner arrested in Greece over €100m tax fraud",
-        "at": "2026-10-26T02:11:20+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-patriot-saudi-arabia-2026",
-        "title": "Greece Agrees to Keep Patriot Missile Deployment in Saudi Arabia",
-        "at": "2026-10-26T02:11:30+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "↻ Greece Weather Warning: Storms and Rain Continuing Ahead of October 28",
-        "at": "2026-10-26T07:02:41+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "aspropyrgos-pallets-factory-fire",
-        "title": "Fire breaks out at a pallet facility in Aspropyrgos near Athens",
-        "at": "2026-10-26T07:02:55+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-metro-early-closures-october",
-        "title": "Athens: Metro stations to close early due to works",
-        "at": "2026-10-26T13:02:08+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greek-holiday-home-market-trends",
-        "title": "Greek Holiday Home Market: Three Major Trends Transforming Real Estate",
-        "at": "2026-10-26T14:54:02+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "netanyahu-trump-us-support-elections",
-        "title": "US support and the Israeli elections",
-        "at": "2026-10-26T19:19:26+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "four-israelis-arrested-crete-drugs",
-        "title": "Crete: Four Israelis arrested at an Elounda hotel in drug case",
-        "at": "2026-10-26T19:20:43+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "↻ Severe Weather in Greece: Red Code Alert Issued for Multiple Regions",
-        "at": "2026-10-26T19:24:54+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "↻ Civil Protection on Alert for Weather and Travel Ahead of October 28",
-        "at": "2026-10-26T21:12:39+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-severe-weather-storm-october-2026",
-        "title": "↻ Severe Weather in Greece: Red Code Alert and School Closures",
-        "at": "2026-10-26T21:13:09+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "ports-strike-october-30",
-        "title": "Greece port strike: ferries to stay docked on October 30",
-        "at": "2026-10-26T23:42:25+02:00",
+        "slug": "georgiadis-konstantopoulou-parliament-israel",
+        "title": "Greek parliament debate: Health Minister and opposition leader clash over Israel ties",
+        "at": "2026-10-27T01:47:32+02:00",
         "section": "israelis"
       }
     ],
     "rejected": [
       {
-        "title": "Greece Targets Golden Visa Abuse Over Hidden Rebates",
-        "reason": "Μεγάλη ομοιότητα με την πηγή (27%)",
-        "at": "2026-10-26T05:02:28.783Z"
-      },
-      {
-        "title": "Ακίνητα: Πού και πόσο αυξήθηκαν οι τιμές των ενοικίων – Αναλυτικά στοιχεία ανά περιοχή",
-        "reason": "Ίδιο θέμα με «Greece unveils new housing measures to ease rental pressures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-26T06:03:11.473Z"
-      },
-      {
-        "title": "Κακοκαιρία: Αναβαθμίστηκε το έκτακτο δελτίο της ΕΜΥ – Κόκκινη προειδοποίηση για 4 περιοχές - Kathimerini",
-        "reason": "Ίδιο θέμα με «Greece Weather Warning: Storms and Rain Continuing Ahead of October 28» – δεν γράφτηκε ξανά",
-        "at": "2026-10-26T11:01:28.954Z"
-      },
-      {
-        "title": "Όλες οι αλλαγές που φέρνει το 2027 στη φορολογία ακινήτων",
-        "reason": "Ίδιο θέμα με «Greece unveils new housing measures to ease rental pressures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-26T11:01:52.367Z"
-      },
-      {
-        "title": "Greece ports and ferries strike on October 30",
-        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 13",
-        "at": "2026-10-26T17:19:46.533Z"
-      },
-      {
-        "title": "Magnitude 4.1 Earthquake Strikes Off Southeastern Crete",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 15",
-        "at": "2026-10-26T17:23:38.819Z"
-      },
-      {
-        "title": "Δηλώσεις βραχυχρόνιας διαμονής: Έως 13 Νοεμβρίου οι δηλώσεις Σεπτεμβρίου",
-        "reason": "Ίδιο θέμα με «Greece unveils new housing measures to ease rental pressures» – δεν γράφτηκε ξανά",
-        "at": "2026-10-26T17:25:02.094Z"
-      },
-      {
-        "title": "Greece and Six Nations Reject Turkish-Libyan Maritime Deal at UN",
-        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (32%)",
-        "at": "2026-10-26T21:42:32.552Z"
+        "title": "Georgiadis and Konstantopoulou Clash in Parliament Over Israel",
+        "reason": "Ίδιο θέμα με «Greek parliament debate: Health Minister and opposition leader clash over Israel ties» – δεν γράφτηκε ξανά",
+        "at": "2026-10-26T23:48:09.077Z"
       }
     ],
     "errors": [],
-    "ig": [
-      {
-        "slug": "athens-metro-early-closures-october",
-        "at": "2026-10-26T11:02:21.066Z"
-      },
-      {
-        "slug": "greek-holiday-home-market-trends",
-        "at": "2026-10-26T19:13:43.648Z"
-      }
-    ],
-    "fb": [
-      {
-        "slug": "aspropyrgos-pallets-factory-fire",
-        "at": "2026-10-26T05:02:55.541Z"
-      },
-      {
-        "slug": "athens-metro-early-closures-october",
-        "at": "2026-10-26T11:02:08.801Z"
-      },
-      {
-        "slug": "netanyahu-trump-us-support-elections",
-        "at": "2026-10-26T17:19:26.823Z"
-      },
-      {
-        "slug": "greek-holiday-home-market-trends",
-        "at": "2026-10-26T19:13:40.367Z"
-      }
-    ]
+    "fb": [],
+    "ig": []
   },
   "history": [
+    {
+      "date": "2026-10-26",
+      "count": 8,
+      "rejected": 8
+    },
     {
       "date": "2026-10-25",
       "count": 5,
@@ -2692,25 +2678,27 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-26T21:42:46.530Z",
-    "considered": 15,
-    "picked": 1,
+    "at": "2026-10-26T23:47:45.369Z",
+    "considered": 17,
+    "picked": 3,
     "items": [
-      "· ert | Ισραήλ: Οι βασικοί αντίπαλοι του Μπενιαμίν Νετανιάχου στις εκλογές",
-      "· gct | Two Foreign Nationals Arrested Over Fake Documents at Airport",
-      "· gct | Pizza Fan Case: First Five Defendants Released Under Restrictive Conditions",
-      "· gct | Greek Student Rocket Team Wins Two European Awards",
-      "· gct | Greek Fighter Pilot Stuns Thessaloniki Crowd With Air Manoeuvres",
-      "· gct | European Shipowners Seek €33 Billion to Fund Green Transition",
-      "· ert | Νέα Πέραμος: Χωρίς τις αισθήσεις του ανασύρθηκε 59χρονος μετά από πυρκαγιά σε φανοποιείο",
-      "· ingr | ΗΠΑ: Πτήση της United Airlines επέστρεψε στο αεροδρόμιο λόγω «τρομοκρατικής απειλής»",
-      "· naftemporiki | Η Ρουμανία εξάρθρωσε ρωσικό δίκτυο δολιοφθορών στρατιωτικών και βιομηχανικών στόχων",
-      "· naftemporiki | Ρίζος Ρίζος: Οι περιπέτειες ενός «Κούτβη»: Από τη ΓΕΝΟΠ Tours στο Χωριάτικο",
-      "✓ naftemporiki | Βουλή: Οι βαριές εκφράσεις που αντάλλαξαν Γεωργιάδης και Κωνσταντοπούλου για το Ισραήλ",
-      "· ert | Οι ρουμανικές υπηρεσίες ασφαλείας εξάρθρωσαν δίκτυο δολιοφθορών κρίσιμων υποδομών που συντ",
+      "✓ gct | Georgiadis and Konstantopoulou Clash in Parliament Over Israel",
+      "· gct | Greece Records €7.55 Billion Primary Surplus in First Nine Months",
+      "· gct | Tsitsipas Pulls Out of Basel Amid Shoulder Concerns",
+      "· gct | Greece Plans Facelift for Dozens of Athens Rail Stations",
+      "· gct | Greek FM Gerapetritis Faces Libya Criticism Over Haftar Policy",
+      "· gct | Mitsotakis Aide Michalis Bekiris Steps Aside, Vows Court Fight",
+      "· gct | Oikonomopoulos Holds Greek Airplay Chart No. 1 as Argiros Climbs",
+      "· gct | Choriatiko Bakery Suspects Face Criminal Organisation Charges",
+      "✓ gct | Red Warnings for 28 October as Storms Flood Attica Streets",
+      "· gct | Mazonakis Death Probe: Antidote Vials Traced to Athens Clinic, Reports Say",
+      "· gct | Work Advances on Road Cutting Ioannina–Albania Trip to 40 Minutes",
+      "· ert | Βενεζουέλα: Στήριξη Ρούμπιο στην Ματσάδο και προτροπή για διεξαγωγή αδιάβλητων εκλογών",
+      "· gct | Three Family Members Die as Car Plunges Into Piraeus Port",
+      "✓ gct | Greece Raises Childcare Vouchers 10% as Income Limits Climb",
+      "· naftemporiki | Κρίσιμες εκλογές στο Ισραήλ: Τα κύρια διακυβεύματα και οι πολιτικοί πρωταγωνιστές",
       "· gn-iefimerida | Πιερρακάκης με Καραμανλή στη ΣΕΚΕ: Λελογισμένες οι αυξήσεις στη φορολογία των καπνικών προ",
-      "· ingr | Στην Τεχεράνη η Συμμαχία της Μέκκας – Στόχος η εκτόνωση των εντάσεων και η αποφυγή επανένα",
-      "· ingr | Τραγωδία στη Νέα Πέραμο – Νεκρός 59χρονος μετά από φωτιά σε φανοποιείο"
+      "· gn-iefimerida | Πυρκαγιά σε φανοποιείο στη Νέα Πέραμο: Χωρίς τις αισθήσεις του ανασύρθηκε 59χρονος - iefim"
     ]
   },
   "evergreenDone": [
