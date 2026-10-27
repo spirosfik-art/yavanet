@@ -58,24 +58,27 @@ async function pexelsClip(query, i) {
 
 // ---------- Φωνή εκφωνητή (Gemini TTS, δωρεάν κλειδί GEMINI_API_KEY) ----------
 const GK = env.GEMINI_API_KEY;
-let ttsModel = null;
+let ttsModel = null, ttsList = [];
 async function pickTtsModel() {
   if (ttsModel) return ttsModel;
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${GK}`, { signal: AbortSignal.timeout(30000) });
   const j = await r.json();
   const names = (j.models || []).map((m) => m.name.replace("models/", "")).filter((n) => /tts/i.test(n));
-  ttsModel = names.find((n) => /flash/.test(n)) || names[0] || "gemini-2.5-flash-preview-tts";
-  log("tts model:", ttsModel, "· διαθέσιμα:", names.join(", "));
+  // σειρά προτίμησης· όταν ένα μοντέλο εξαντλήσει το δωρεάν όριο, περνάμε στο επόμενο (το καθένα έχει δικό του όριο)
+  ttsList = names.sort((a, b) => (/lite/.test(a) - /lite/.test(b)) || (/flash/.test(b) - /flash/.test(a)) || b.localeCompare(a, undefined, { numeric: true }));
+  if (!ttsList.length) ttsList = ["gemini-2.5-flash-preview-tts"];
+  ttsModel = ttsList[0];
+  log("tts μοντέλα:", ttsList.join(", "));
   return ttsModel;
 }
 function durOf(f) { return Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim()) || 0; }
 async function speak(text, i) {
-  const model = await pickTtsModel();
+  await pickTtsModel();
   const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor reading the headlines: clear, confident, energetic and brisk, like a fast news update.\n\n${text}`;
   for (let k = 0; k < 3; k++) {
     log("tts → σκηνή", i, "προσπάθεια", k + 1);
     let r;
-    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(90000),
+    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${ttsModel}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(90000),
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) }); }
     catch (e) { log("tts timeout", i, e.message); continue; }
     const j = await r.json().catch(() => ({}));
@@ -87,7 +90,8 @@ async function speak(text, i) {
       execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,atempo=1.1", wav]);
       const dur = durOf(wav); log("tts", i, dur.toFixed(1) + "s", text.length, "chars"); return { file: wav, dur };
     }
-    log("tts", i, r.status, JSON.stringify(j).slice(0, 300));
+    log("tts", i, ttsModel, r.status, JSON.stringify(j).slice(0, 160));
+    if (r.status === 429 || r.status === 404) { const n = ttsList[ttsList.indexOf(ttsModel) + 1]; if (n) { ttsModel = n; log("tts → αλλαγή μοντέλου:", n); k--; continue; } }
     await new Promise((s) => setTimeout(s, 8000 * (k + 1)));
   }
   return null;
