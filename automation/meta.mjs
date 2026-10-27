@@ -140,16 +140,24 @@ export async function postReel(mp4, caption) {
 const KEYWORDS = /מחיר|מחירים|כמה עול|כמה זה|פרטים|מעוניי|מתעניי|וואטסאפ|ווטסאפ|whatsapp|טלפון|לינק|קישור|איפה|דירה|דירות|להשקיע|price|info|details|interested|how much/i;
 const REPLY = (who) => `${who ? "@" + who + " " : ""}תודה על השאלה! 🙏 לתשובה מהירה ואישית כתבו לנו בוואטסאפ, בעברית: ${WA}`;
 const MAX_AGE_H = 72;
+// Spam: κρυπτο/«επενδύσεις», «στείλε DM», προώθηση λογαριασμών, followers, ξένα links
+const SPAM = /bitcoin|crypto|forex|binance|usdt|invest(ment|ing)? (with|in)|earn \$|\$\d+ (a|per) (day|week)|make money|passive income|dm (me|us)|send (me )?a dm|check (my|our) (bio|profile|page)|promot(e|ion)|ambassador|followers|giveaway|sugar ?daddy|onlyfans|telegram\.me|t\.me\/|wa\.me\/(?!306906723676)|bit\.ly|tinyurl|הרוויחו|הכנסה פסיבית|השקעה בקריפטו|שלחו לי הודעה פרטית|פרסום לעמוד|עוקבים בחינם/i;
+const ownLinks = /yavanet\.gr|306906723676/;
+const isSpam = (t) => !!t && SPAM.test(t) && !ownLinks.test(t);
 
 export async function replyComments() {
   const c = await ctx();
   let n = 0;
-  const alerts = [];
+  const alerts = [], hidden = [];
   const fresh = (t) => Date.now() - Date.parse(t) < MAX_AGE_H * 3600e3;
   if (c.igId) {
     const media = await api(`/${c.igId}/media`, { token: c.userToken, params: { fields: "id,permalink,comments_count,comments.limit(50){id,text,username,timestamp,replies{username}}", limit: "15" } });
     for (const m of media.data || []) {
       for (const cm of (m.comments && m.comments.data) || []) {
+        if (cm.username !== c.igUser && fresh(cm.timestamp) && isSpam(cm.text)) {
+          try { await api(`/${cm.id}`, { method: "POST", token: c.userToken, params: { hide: "true" } }); hidden.push(`IG @${cm.username}: «${(cm.text || "").slice(0, 120)}»`); } catch (e) { log("ig hide", e.message); }
+          continue;
+        }
         if (cm.username === c.igUser || !fresh(cm.timestamp) || !KEYWORDS.test(cm.text || "")) continue;
         if (((cm.replies && cm.replies.data) || []).some((r) => r.username === c.igUser)) continue;
         try {
@@ -162,6 +170,10 @@ export async function replyComments() {
   const feed = await api(`/${c.pageId}/feed`, { token: c.pageToken, params: { fields: "id,permalink_url,comments.limit(50){id,message,created_time,from,comments.limit(20){from}}", limit: "15" } });
   for (const p of feed.data || []) {
     for (const cm of (p.comments && p.comments.data) || []) {
+      if ((cm.from && cm.from.id) !== c.pageId && fresh(cm.created_time) && isSpam(cm.message)) {
+        try { await api(`/${cm.id}`, { method: "POST", token: c.pageToken, params: { is_hidden: "true" } }); hidden.push(`FB ${(cm.from && cm.from.name) || ""}: «${(cm.message || "").slice(0, 120)}»`); } catch (e) { log("fb hide", e.message); }
+        continue;
+      }
       if ((cm.from && cm.from.id) === c.pageId || !fresh(cm.created_time) || !KEYWORDS.test(cm.message || "")) continue;
       if (((cm.comments && cm.comments.data) || []).some((r) => r.from && r.from.id === c.pageId)) continue;
       try {
@@ -171,7 +183,8 @@ export async function replyComments() {
     }
   }
   if (alerts.length) await notifyOwner(`💬 Απάντησα αυτόματα σε ${alerts.length} σχόλια (με link WhatsApp):\n\n${alerts.join("\n\n")}`.slice(0, 3900)).catch(() => {});
-  log("comments: απαντήσεις", n);
+  if (hidden.length) await notifyOwner(`🧹 Έκρυψα ${hidden.length} spam σχόλια:\n\n${hidden.join("\n")}`.slice(0, 3900)).catch(() => {});
+  log("comments: απαντήσεις", n, "· spam κρυμμένα", hidden.length);
   return n;
 }
 
