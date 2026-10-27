@@ -179,6 +179,16 @@ export async function replyComments() {
 if (import.meta.url === `file://${process.argv[1]}`) {
   const [cmd, arg] = process.argv.slice(2);
   try {
+    if (cmd === "diag") {
+      const t = env.META_TOKEN || "";
+      log("token: μήκος", t.length, "αρχή", t.slice(0, 4));
+      for (const q of ["/me?fields=id,name", "/me/permissions", "/debug_token?input_token=" + encodeURIComponent(t), "/me/accounts?fields=id,name"]) {
+        const u = G + q + (q.includes("?") ? "&" : "?") + "access_token=" + encodeURIComponent(t);
+        const r = await fetch(u); const j = await r.json().catch(() => ({}));
+        log("DIAG", q.split("?")[0], r.status, JSON.stringify(j).replaceAll(t, "<T>").slice(0, 700));
+      }
+      process.exit(0);
+    }
     if (cmd === "check") { const c = await ctx(); log("σελίδα:", c.pageName, c.pageId, "· instagram:", c.igUser || "—", c.igId || ""); }
     else if (cmd === "story") await postStory(arg);
     else if (cmd === "reel-scenes") { const r = reelScenes(arg || "reel-out"); if (!r) { log("reel: λίγα άρθρα σήμερα"); process.exit(0); } log("reel scenes:", r.files.length, r.slugs.join(", ")); }

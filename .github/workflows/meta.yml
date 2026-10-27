@@ -32,11 +32,12 @@ jobs:
         with:
           node-version: 20
       - name: Check / comments
-        if: env.TASK == 'check' || env.TASK == 'comments'
+        if: env.TASK == 'check' || env.TASK == 'comments' || env.TASK == 'diag'
         run: |
           if [ -z "$META_TOKEN" ]; then echo "::warning::NO_META_TOKEN"; [ "$TASK" = "check" ] && exit 1; exit 0; fi
           node automation/meta.mjs $TASK 2>&1 | tee meta.log
           echo "::notice::$(tail -c 900 meta.log | tr '\n' ' ')" || true
+          grep DIAG meta.log | while read -r l; do echo "::notice::$l"; done || true
       - name: Reel scenes
         if: env.TASK == 'reel' || env.TASK == 'scenes'
         run: |
