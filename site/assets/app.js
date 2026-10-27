@@ -303,6 +303,7 @@ window.yvClick=function(to,btn,listing){try{var src=window.yvSrc()||{};var body=
     if (el.closest(".fteaser")) track("flight_teaser_click");
     if (el.closest(".sfteaser")) track("sf_teaser_click");
     if (el.closest("[data-out]")) track("partner_out", { target: el.closest("[data-out]").getAttribute("data-out") });
+    var igo = el.closest('[data-out="ig-follow"],[data-out="instagram"]'); if (igo) { track("instagram_follow_click", { place: igo.getAttribute("data-out") }); window.yvClick("Instagram", igo.getAttribute("data-out")); }
     if (el.closest("[data-ad]")) track("ad_click", { ad: el.getAttribute("data-ad") });
     if (el.closest(".pcard") || el.closest(".person")) track("partner_click", { partner: ((el.closest(".pcard,.person").querySelector("b") || {}).textContent || "").trim() });
     // Επαφές με συνεργάτες (μετράνε ως «επαφή» στο Google Ads). Η κοινοποίηση άρθρου στο WhatsApp (wa.me/?text) ΔΕΝ είναι επαφή.

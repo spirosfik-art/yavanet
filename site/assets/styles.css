@@ -1648,3 +1648,7 @@ a{text-underline-offset:.18em;text-decoration-thickness:from-font}
 .igl span{display:block;font-size:13px;line-height:1.35;margin-top:6px;font-weight:600}
 .igmore{text-align:center;margin-top:20px}
 @media (max-width:520px){.iggrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.igfollow{background:#FDF0F6;border-color:rgba(221,42,123,.3)}
+.igfollow>span:first-child{color:#DD2A7B}
+.btn.ig{background:linear-gradient(45deg,#F58529,#DD2A7B 55%,#8134AF);color:#fff;border-color:#DD2A7B;white-space:nowrap}

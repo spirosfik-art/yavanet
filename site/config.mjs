@@ -23,7 +23,7 @@ export const SITE = {
   whatsappChannel: "", // π.χ. https://whatsapp.com/channel/XXXX
   telegramChannel: "", // π.χ. https://t.me/yavanet
   facebookPage: "https://www.facebook.com/profile.php?id=61595065647057", // Σελίδα «יוונט - Yavanet»
-  instagram: "",
+  instagram: "https://www.instagram.com/yavanet/",
   ga4Id: process.env.GA4_ID || "G-3S3LQ8DQ0H", // Google Analytics 4 (φορτώνει μόνο με συναίνεση)
   googleAdsId: process.env.GOOGLE_ADS_ID || "AW-18484003812", // Google Ads: επαναστόχευση (κοινό επισκεπτών) και μετρήσεις, με Consent Mode
   clarityId: process.env.CLARITY_ID || "yp0858zixu", // Microsoft Clarity (φορτώνει μόνο με συναίνεση)

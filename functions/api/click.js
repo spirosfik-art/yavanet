@@ -3,7 +3,7 @@
 import { json, clean, readBody, sameOrigin, telegram, withDefaults } from "../../lib/forms.js";
 
 const SRC = { facebook: "Facebook", fb: "Facebook", google: "Google", instagram: "Instagram", whatsapp: "WhatsApp", newsletter: "Newsletter", alert: "Email ειδοποίησης", push: "Push ειδοποίηση", telegram: "Telegram" };
-const BTN = { "wa-ask": "«Ρωτήστε μας στο WhatsApp» στο τέλος άρθρου", "wa-ask-footer": "WhatsApp στο κάτω μέρος της σελίδας", "wa-float": "πράσινο κουμπί κάτω δεξιά", wafloat: "πράσινο κουμπί κάτω δεξιά", "wa-spiros": "το όνομα του Σπύρου μέσα σε άρθρο", "wa-tlv": "«Στείλτε μας τον προϋπολογισμό» στη σύγκριση Τελ Αβίβ–Αθήνα", "wa-mid": "κουτάκι WhatsApp στη μέση του άρθρου", "wa-asi-medtour": "Airbnb κοντά σε νοσοκομεία", btn: "κουμπί μέσα στη σελίδα", "wa-area": "«Ψάχνετε διαμέρισμα;» στη σελίδα τιμών γειτονιάς" };
+const BTN = { "wa-ask": "«Ρωτήστε μας στο WhatsApp» στο τέλος άρθρου", "wa-ask-footer": "WhatsApp στο κάτω μέρος της σελίδας", "wa-float": "πράσινο κουμπί κάτω δεξιά", wafloat: "πράσινο κουμπί κάτω δεξιά", "wa-spiros": "το όνομα του Σπύρου μέσα σε άρθρο", "wa-tlv": "«Στείλτε μας τον προϋπολογισμό» στη σύγκριση Τελ Αβίβ–Αθήνα", "wa-mid": "κουτάκι WhatsApp στη μέση του άρθρου", "wa-asi-medtour": "Airbnb κοντά σε νοσοκομεία", btn: "κουμπί μέσα στη σελίδα", "wa-area": "«Ψάχνετε διαμέρισμα;» στη σελίδα τιμών γειτονιάς", "ig-follow": "«Ακολουθήστε μας στο Instagram» στο τέλος άρθρου", instagram: "Instagram στο κάτω μέρος της σελίδας" };
 function btnText(b) { const k = String(b || "").split(" ")[0]; return (BTN[k] ? BTN[k] + " · " : "") + String(b || "").replace(/^\S+\s*/, ""); }
 export function srcText(s) { return source(s); }
 function source(s) {
@@ -38,7 +38,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
   const dev = /iPhone|iPad/.test(ua) ? "iPhone/iPad" : /Android/.test(ua) ? "Android" : /Mac OS/.test(ua) ? "Mac" : /Windows/.test(ua) ? "Windows" : "Άλλη";
   const s = b.src || {};
   const lines = [
-    `📲 Πάτησε WhatsApp → ${clean(b.to, 60) || "?"}`,
+    clean(b.to, 60) === "Instagram" ? "📸 Πάτησε «Ακολούθησε στο Instagram»" : `📲 Πάτησε WhatsApp → ${clean(b.to, 60) || "?"}`,
     `Κουμπί: ${btnText(clean(b.btn, 80)) || "—"}`,
     b.listing ? `Ακίνητο: ${clean(b.listing, 20)} (https://yavanet.gr/nadlan/${clean(b.listing, 20)}/)` : "",
     `Σελίδα: ${clean(b.title, 120)}\nhttps://yavanet.gr${clean(b.page, 200)}`,
@@ -46,7 +46,7 @@ export async function onRequestPost({ request, env: rawEnv }) {
     s.l ? `Πρώτη σελίδα που είδε: ${clean(s.l, 200)}` : "",
     b.pv ? `Σελίδες που είδε: ${Math.min(+b.pv || 0, 999)}` : "",
     `Χώρα / πόλη: ${[request.cf?.country, request.cf?.city].filter(Boolean).join(" / ") || "—"} · ${dev} · ${b.lang === "en" ? "αγγλικά" : "εβραϊκά"}`,
-    "Αν σου γράψει στο WhatsApp, θα έρθει σε λίγο.",
+    clean(b.to, 60) === "Instagram" ? "" : "Αν σου γράψει στο WhatsApp, θα έρθει σε λίγο.",
   ].filter(Boolean);
   try { await telegram(env, lines.join("\n")); } catch (e) { return json({ ok: false }, 502); }
   return json({ ok: true });
