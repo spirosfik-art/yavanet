@@ -174,15 +174,16 @@ async function topic() {
 }
 
 async function evening() {
-  const today = arts().filter((a) => athens(new Date(a.publishedAt)).date === NOW.date && !/נהרג|הרוג|נספ|מת |מתו |תאונ|התרסק|אסון/.test(a.he.title))
+  const EVE = process.env.STORY_DATE ? NOW.date : athens(new Date(Date.now() - 5 * 3600e3)).date; // αν το GitHub αργήσει μετά τα μεσάνυχτα: η βραδιά της προηγούμενης μέρας
+  const today = arts().filter((a) => athens(new Date(a.publishedAt)).date === EVE && !/נהרג|הרוג|נספ|מת |מתו |תאונ|התרסק|אסון/.test(a.he.title))
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, 3);
   if (today.length < 2) return null;
   let reel = false;
-  try { reel = JSON.parse(fs.readFileSync(path.join(ROOT, "content/ig/reel-last.json"), "utf8")).date === NOW.date; } catch {}
+  try { reel = JSON.parse(fs.readFileSync(path.join(ROOT, "content/ig/reel-last.json"), "utf8")).date === EVE; } catch {}
   const img = today.map((a) => a.image && a.image.type === "photo" && /^https?:/.test(a.image.url) && a.image.url).find(Boolean);
   const lines = today.map((a) => "• " + (a.he.title.length > 58 ? a.he.title.slice(0, 56).replace(/\s\S*$/, "") + "…" : a.he.title));
   if (reel) lines.push({ t: "🎬 רילס חדש בפרופיל" });
-  return [{ id: `evening-${NOW.date}`, html: page({ kick: "היום ביוונט 📰", title: "מה קרה היום ביוון", fs: 96, lt: 800, lines, bg: img, cta: "הכתבות המלאות 👆 הקישור בביו" }).replace(/\.li\{font:600 52px/, ".li{text-align:right;font:600 50px") }];
+  return [{ id: `evening-${EVE}`, html: page({ kick: "היום ביוונט 📰", title: "מה קרה היום ביוון", fs: 96, lt: 800, lines, bg: img, cta: "הכתבות המלאות 👆 הקישור בביו" }).replace(/\.li\{font:600 52px/, ".li{text-align:right;font:600 50px") }];
 }
 
 async function alerts(state) {
