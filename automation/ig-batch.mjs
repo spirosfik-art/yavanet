@@ -13,6 +13,9 @@ const ROWS = [[0, 1, 0], [2, 2, 2], [1, 0, 1], [2, 2, 2]];
 const postedFile = path.join(IG_DIR, "posted.json");
 const readPosted = () => { try { return JSON.parse(fs.readFileSync(postedFile, "utf8")); } catch { return []; } };
 const rowState = path.join(IG_DIR, "rows.json");
+const todayFile = path.join(IG_DIR, "today.json");
+const athensDate = () => new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Athens" });
+export const readToday = () => { try { return JSON.parse(fs.readFileSync(todayFile, "utf8")); } catch { return {}; } };
 const readRows = () => { try { return JSON.parse(fs.readFileSync(rowState, "utf8")).rows || 0; } catch { return 0; } };
 
 function pick(n) {
@@ -64,6 +67,8 @@ if (cmd === "render") {
     }
   }
   fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
+  // Για τις «κλιμακωτές» αναρτήσεις (μία κάθε ~1,5 ώρα) κρατάμε το σχέδιο της ημέρας
+  if (process.env.IG_SLOTS === "1") fs.writeFileSync(todayFile, JSON.stringify({ date: athensDate(), plan, done: [] }, null, 1));
   log("ig-batch: σχέδιο", plan.length, "καρτών");
 } else if (cmd === "rerender") {
   // ξαναφτιάχνει ακριβώς τις κάρτες ενός plan.json (ίδια άρθρα/σχέδια) με τον τρέχοντα κώδικα
@@ -75,7 +80,10 @@ if (cmd === "render") {
   log("rerendered", plan.length);
 } else if (cmd === "publish") {
   const out = a1, base = a2.replace(/\/$/, "");
-  const plan = JSON.parse(fs.readFileSync(path.join(out, "plan.json"), "utf8"));
+  const today = readToday();
+  const slots = process.env.IG_ONE === "1";
+  const plan = slots && today.plan ? today.plan : JSON.parse(fs.readFileSync(path.join(out, "plan.json"), "utf8"));
+  const done = slots ? (today.done || []) : [];
   const c = await ctx();
   if (!c.igId) throw new Error("δεν βρέθηκε λογαριασμός Instagram");
   const G = `https://graph.facebook.com/${process.env.META_GRAPH_VERSION || "v23.0"}`;
@@ -87,7 +95,10 @@ if (cmd === "render") {
   const rowsDone = Math.max(...plan.map((p) => p.row)) + 1;
   let ok = 0;
   // Στο πλέγμα η νεότερη μπαίνει πάνω αριστερά: ανεβάζουμε κάθε σειρά από το τέλος προς την αρχή
-  const order = [...plan].sort((x, y) => (y.row - x.row) || (y.col - x.col));
+  let order = [...plan].sort((x, y) => (y.row - x.row) || (y.col - x.col)).filter((p) => !done.includes(p.file));
+  if (slots) order = order.slice(0, 1);
+  if (!order.length) { log("ig-batch: τίποτα για ανάρτηση"); process.exit(0); }
+  const markDone = (p) => { if (slots) { done.push(p.file); fs.writeFileSync(todayFile, JSON.stringify({ ...today, done }, null, 1)); } };
   for (const p of order) {
     try {
       if (p.carousel) {
@@ -97,7 +108,7 @@ if (cmd === "render") {
         await wait(m.id);
         await call(`/${c.igId}/media_publish`, { creation_id: m.id });
         markCarousel(p.carousel);
-        ok++; log("✓ IG carousel", p.carousel);
+        ok++; markDone(p); log("✓ IG carousel", p.carousel);
         await new Promise((s) => setTimeout(s, 20000));
         continue;
       }
@@ -105,13 +116,15 @@ if (cmd === "render") {
       await wait(m.id);
       await call(`/${c.igId}/media_publish`, { creation_id: m.id });
       posted.push({ slug: p.slug, at: new Date().toISOString(), style: p.style });
-      ok++; log("✓ IG", p.slug);
+      ok++; markDone(p); log("✓ IG", p.slug);
       await new Promise((s) => setTimeout(s, 20000));
     } catch (e) { log("IG ✗", p.slug || p.carousel, e.message); await notifyOwner(`⚠️ Instagram σειρά: ${p.slug || p.carousel}: ${e.message}`).catch(() => {}); break; }
   }
   fs.writeFileSync(postedFile, JSON.stringify(posted.slice(-200), null, 1));
-  if (ok === plan.length) fs.writeFileSync(rowState, JSON.stringify({ rows: readRows() + rowsDone }));
-  if (ok) {
+  const complete = slots ? done.length === plan.length : ok === plan.length;
+  if (complete) fs.writeFileSync(rowState, JSON.stringify({ rows: readRows() + rowsDone }));
+  // story + ειδοποίηση μόλις ολοκληρωθεί η σειρά (στις κλιμακωτές: με την τελευταία ανάρτηση της ημέρας)
+  if (ok && (!slots || complete)) {
     const first = plan.find((p) => p.row === 0 && p.col === 0);
     await postStory(`${base}/${first.file}`).catch(() => {});
     await notifyOwner(`📸 Instagram: ανέβηκε νέα σειρά (${ok} αναρτήσεις)`).catch(() => {});

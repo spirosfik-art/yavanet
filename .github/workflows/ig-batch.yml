@@ -1,8 +1,19 @@
-# Instagram: μία ολόκληρη σειρά (3 αναρτήσεις) κάθε απόγευμα, για ενιαίο πλέγμα στο προφίλ.
+# Instagram: μία σειρά (3 αναρτήσεις) την ημέρα, για ενιαίο πλέγμα στο προφίλ — ΚΛΙΜΑΚΩΤΑ: μία ανάρτηση
+# κάθε ~1,5 ώρα στις ώρες που οι Ισραηλινοί κοιτάνε κινητό, ώστε η καθεμία να παίρνει τη δική της «πρώτη ώρα».
+# Ώρες UTC (χειμώνας: Αθήνα/Ισραήλ = UTC+2): Κυρ–Πέμ 18:17 / 19:47 / 21:17, Παρ 11:17 / 12:47 / 14:17 (πριν το Σάββατο),
+# Σάβ 19:17 / 20:17 / 21:17 (μετά τη λήξη του Σαββάτου).
 name: IG rows
 on:
   schedule:
-    - cron: "17 15 * * *"
+    - cron: "17 16 * * 0-4"
+    - cron: "47 17 * * 0-4"
+    - cron: "17 19 * * 0-4"
+    - cron: "17 9 * * 5"
+    - cron: "47 10 * * 5"
+    - cron: "17 12 * * 5"
+    - cron: "17 17 * * 6"
+    - cron: "17 18 * * 6"
+    - cron: "17 19 * * 6"
   workflow_dispatch:
     inputs:
       rows:
@@ -32,6 +43,8 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
       IG_CAROUSEL: ${{ github.event.inputs.carousel || '0' }}
+      IG_ONE: ${{ github.event_name == 'schedule' && '1' || '0' }}
+      IG_SLOTS: ${{ github.event_name == 'schedule' && '1' || '0' }}
     steps:
       - name: Pause (οι σειρές 28-30/10 είναι ήδη προγραμματισμένες στο Business Suite)
         if: github.event_name == 'schedule'
@@ -43,12 +56,16 @@ jobs:
         if: env.PAUSED != '1'
         with:
           node-version: 20
+      - name: Today's plan?
+        if: env.PAUSED != '1' && github.event_name == 'schedule'
+        run: |
+          node -e "const t=(()=>{try{return JSON.parse(require('fs').readFileSync('content/ig/today.json','utf8'))}catch{return {}}})();const d=new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Athens'});if(t.date===d&&t.plan&&(t.done||[]).length<t.plan.length)console.log('HAVE_PLAN=1');else if(t.date===d)console.log('DONE_TODAY=1')" >> $GITHUB_ENV
       - name: Render
-        if: env.PAUSED != '1'
+        if: env.PAUSED != '1' && env.HAVE_PLAN != '1' && env.DONE_TODAY != '1'
         run: |
           if [ -n "${{ github.event.inputs.plan }}" ]; then node automation/ig-batch.mjs rerender "${{ github.event.inputs.plan }}" ig-batch; else node automation/ig-batch.mjs render "${{ github.event.inputs.rows || '1' }}" ig-batch; fi
       - name: Upload images (branch ig-batch, public raw URLs)
-        if: env.PAUSED != '1'
+        if: env.PAUSED != '1' && env.HAVE_PLAN != '1' && env.DONE_TODAY != '1'
         run: |
           cp -r ig-batch /tmp/igb && cd /tmp/igb
           git init -q -b ig-batch && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
@@ -56,15 +73,15 @@ jobs:
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ig-batch
           sleep 20
       - name: Publish
-        if: env.PAUSED != '1' && (github.event.inputs.publish || 'yes') == 'yes'
+        if: env.PAUSED != '1' && env.DONE_TODAY != '1' && (github.event.inputs.publish || 'yes') == 'yes'
         run: |
           set +e
           node automation/ig-batch.mjs publish ig-batch "https://raw.githubusercontent.com/${{ github.repository }}/ig-batch" 2>&1 | tee pub.log; rc=${PIPESTATUS[0]}
           echo "::notice::$(tail -c 1500 pub.log | tr '\n' ' ')"
           exit $rc
       - name: Save state
-        if: env.PAUSED != '1' && (github.event.inputs.publish || 'yes') == 'yes'
+        if: env.PAUSED != '1' && env.DONE_TODAY != '1' && (github.event.inputs.publish || 'yes') == 'yes'
         run: |
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
-          git add content/ig/posted.json content/ig/rows.json content/ig/carousels.json 2>/dev/null || true
+          git add content/ig/posted.json content/ig/rows.json content/ig/carousels.json content/ig/today.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -qm "auto: IG row [skip ci]" && (git push || (git pull --rebase -X theirs && git push)))
