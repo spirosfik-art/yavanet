@@ -1,0 +1,61 @@
+{
+  "slug": "greece-storm-red-warning-october-2026",
+  "section": "israelis",
+  "publishedAt": "2026-10-27T06:53:35+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "zoom": 7,
+    "name": "Greece"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/27/greece-storms-emy-red-warning-28-october/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28447775/pexels-photo-28447775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Black and white image of a flooded home surrounded by rising water.",
+    "credit": "Photo: Helena Jankovičová Kováčová / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/flooded-residential-area-during-heavy-rain-28447775/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "מזג אוויר קיצוני ביוון: התראות אדומות לקראת החג",
+    "dek": "שירות החיזוי הלאומי ביוון פרסם אזהרות חמורות מפני סופות וגשמים חזקים ברחבי המדינה, כולל באזור אטיקה ותסליה, לקראת יום הזיכרון הלאומי.",
+    "tldr": [
+      "שירות החיזוי הלאומי הציב תשעה אזורים בכוננות אדומה.",
+      "הגשמים החזקים צפויים להימשך עד יום רביעי, יום החג הלאומי.",
+      "הרשויות ממליצות לעקוב אחר הודעות החירום ולחייג 112 במקרה הצורך."
+    ],
+    "means": "טסים ליוון או נמצאים ביעדים המושפעים מהסערה? תבדקו את תחזית מזג האוויר המעודכנת ותשמעו להנחיות הרשויות המקומיות.",
+    "body": "שירות החיזוי הלאומי של יוון (EMY) פרסם אזהרות חירום על מזג אוויר מסוכן, הכוללות גשמים כבדים וסופות רעמים שצפויים להימשך עד יום רביעי, 28 באוקטובר, חג \"אוחי\" הלאומי.\n\nמזג האוויר הסוער פוקד אזורים נרחבים ובהם אטיקה, איויה, מגנסיה, לאריסא והדודקאנס. הרשויות הגדירו תשעה אזורים במצב כוננות \"קוד אדם\" עד יום חמישי, וזאת מחשש להצפות נוספות באזורים שקרקעיותיהם רוויות מים.\n\nמשטרת התנועה ושירותי החירום נערכו לחסימות כבישים ולהצפות בעקבות מפלסי המים הגבוהים שנרשמו באזורים שונים, בין היתר באתונה ובסביבתה. הרשויות ביוון מזכירות לציבור להישמע להנחיות פיקוד העורף המקומי ולעדכונים שוטפים, ובמקרה חירום לחייג 112."
+  },
+  "en": {
+    "title": "Severe weather in Greece: Red warnings issued for storms",
+    "dek": "Greece's meteorological service issues emergency warnings for heavy rain and storms across multiple regions ahead of the national holiday.",
+    "tldr": [
+      "The National Meteorological Service placed nine areas on red alert.",
+      "Severe storms and heavy rain are forecast to persist through Wednesday.",
+      "Authorities urge travelers and residents to follow local emergency updates."
+    ],
+    "means": "If you are traveling in Greece during the stormy weather, check local forecasts and follow instructions from civil protection authorities.",
+    "body": "The Hellenic National Meteorological Service (EMY) has issued emergency weather bulletins forecasting heavy rain, thunderstorms, and local hail across parts of Greece through Wednesday, October 28, coinciding with the national \"Ochi Day\" holiday.\n\nAuthorities have placed nine areas, including Attica, Evia, Magnesia, Larissa, and the Dodecanese, under red and orange alerts due to the risk of severe flooding and saturated ground from previous rainfall. Emergency services, police, and coast guard units remain on standby as transport routes experience temporary disruptions and localized street flooding.\n\nTravelers and residents in the affected regions are advised to monitor official updates from the General Secretariat for Civil Protection and to call 112 in case of an emergency."
+  },
+  "meta": {
+    "itemId": "5b9572f76e19",
+    "imageQuery": "Greece heavy rain storm weather warning street flooding",
+    "sourceHash": "0b3e6d91313f",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-27T04:53:36.306Z",
+    "official": false
+  }
+}
