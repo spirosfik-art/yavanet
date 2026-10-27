@@ -65,13 +65,23 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .k.red{color:#fff;background:${RED};border:0;padding:8px 24px;border-radius:8px}
 .logo{position:absolute;top:64px;right:76px;width:84px;height:84px}.logo svg{width:84px;height:84px}
 .sig{position:absolute;bottom:58px;right:76px;left:76px;display:flex;justify-content:space-between;font:600 30px Assistant;color:rgba(255,255,255,.72);letter-spacing:.5px}`;
-  if (v % 2 === 0) {
+  if (v !== 2 && v % 2 === 0) {
     // Α · ΦΩΤΟΓΡΑΦΙΑ: εικόνα σε όλη την κάρτα, σκούρο μπλε από κάτω, τίτλος λευκός
     return { css: `${base}
 .ph{position:absolute;inset:0;background:url("${img}") center/cover}
 .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,42,67,.35) 0%,rgba(7,42,67,0) 20%,rgba(7,42,67,0) 38%,rgba(7,42,67,.92) 68%,${DEEP} 100%)}
 .box{position:absolute;right:76px;left:76px;bottom:150px}h1{font-size:${fsz(68, 80, 92)}px;line-height:1.08}`,
       body: `<div class="ph"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
+  }
+  if (v === 2) {
+    // Γ · ΠΕΡΙΟΔΙΚΟ (κρεμ): ανεβαίνει πάντα ως ολόκληρη σειρά των 3
+    return { css: `${base}body{background:#F5EFE4;color:#0B2A44}
+.top{position:absolute;top:54px;right:64px;left:64px;display:flex;justify-content:space-between;align-items:center;font:800 36px Assistant;color:#0B2A44}.top svg{width:76px;height:76px}
+.ph{position:absolute;top:170px;right:64px;left:64px;height:640px;border-radius:28px;background:url("${img}") center/cover;box-shadow:0 24px 50px rgba(11,42,68,.22)}
+.pill{position:absolute;top:140px;right:96px;z-index:2;background:${GOLD};color:#0B2A44;font:800 34px Assistant;padding:10px 28px;border-radius:34px}.pill.red{background:${RED};color:#fff}
+.box{position:absolute;top:860px;right:64px;left:64px}h1{color:#0B2A44;font-size:${fsz(62, 72, 82)}px;line-height:1.1}
+.ft{position:absolute;bottom:52px;right:64px;left:64px;border-top:2px solid rgba(11,42,68,.15);padding-top:22px;display:flex;justify-content:space-between;font:600 30px Assistant;color:#53697c}`,
+      body: `<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="ph"></div><span class="pill${breaking ? " red" : ""}">${esc(breaking ? alert : kicker)}</span><div class="box"><h1>${esc(title)}</h1></div><div class="ft"><span>yavanet.gr</span><span>יוונט</span></div>` };
   }
   // Β · ΜΠΛΕ: καθαρό μπλε, μεγάλος τίτλος, η φωτογραφία ως λεπτή λωρίδα πάνω
   return { css: `${base}

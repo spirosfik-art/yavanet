@@ -338,7 +338,7 @@ async function distribute(a, { catchUp = false } = {}) {
   const lastFb = fb.length ? Date.parse(fb[fb.length - 1].at) : 0;
   // Ένα άρθρο κατάλληλο για Instagram προηγείται: περνά και πάνω από το όριο FB, με απόσταση ≥ 60' από το προηγούμενο
   // (το Instagram ανεβαίνει μέσα από την ίδια ροή Make με το Facebook, άρα χωρίς Facebook δεν ανεβαίνει ούτε Instagram)
-  const igWant = igEligible(a) && igSlotOpen() && !igPostedSlugs().has(a.slug);
+  const igWant = env.IG_VIA_MAKE === "1" && igEligible(a) && igSlotOpen() && !igPostedSlugs().has(a.slug);
   const gap = Date.now() - lastFb;
   const fbOk = a.breaking || (now.hour >= 7 && now.hour < 23 && ((fb.length < FB_MAX && gap >= FB_GAP_MIN * 60000) || (igWant && gap >= 60 * 60000)));
   if (env.MAKE_WEBHOOK_URL && !DRY && !fbOk) log("facebook: παράλειψη (όριο/ώρα)", a.slug);
@@ -545,6 +545,8 @@ async function evergreen() {
 // Αν ένα κατάλληλο άρθρο έχασε το Instagram (π.χ. ήρθε πριν τις 09:00 ή όσο το Facebook ήταν σε αναμονή),
 // το ανεβάζουμε αργότερα (Facebook + Instagram), αρκεί να μην έχει πάει ήδη στο Facebook σήμερα. Άρθρα έως 48 ωρών.
 async function igCatchUp() {
+  // Το Instagram ανεβαίνει πλέον σε σειρές των 3 από το automation/ig-batch.mjs (Graph API)
+  if (env.IG_VIA_MAKE !== "1") return;
   if (!env.MAKE_WEBHOOK_URL || DRY || !igSlotOpen()) return;
   if ((state.socialQueue || []).some((j) => j.make && j.make.instagram)) return; // υπάρχει ήδη ανάρτηση IG σε αναμονή
   const posted = igPostedSlugs();

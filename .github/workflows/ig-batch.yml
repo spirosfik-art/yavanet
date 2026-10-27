@@ -1,0 +1,50 @@
+# Instagram: μία ολόκληρη σειρά (3 αναρτήσεις) κάθε απόγευμα, για ενιαίο πλέγμα στο προφίλ.
+name: IG rows
+on:
+  schedule:
+    - cron: "17 15 * * *"
+  workflow_dispatch:
+    inputs:
+      rows:
+        description: "πόσες σειρές των 3"
+        default: "1"
+      publish:
+        description: "yes = ανάρτηση, no = μόνο προεπισκόπηση"
+        default: "yes"
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-ig
+  cancel-in-progress: false
+jobs:
+  rows:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Render
+        run: node automation/ig-batch.mjs render "${{ github.event.inputs.rows || '1' }}" ig-batch
+      - name: Upload images (branch ig-batch, public raw URLs)
+        run: |
+          cp -r ig-batch /tmp/igb && cd /tmp/igb
+          git init -q -b ig-batch && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "ig batch [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ig-batch
+          sleep 20
+      - name: Publish
+        if: (github.event.inputs.publish || 'yes') == 'yes'
+        run: node automation/ig-batch.mjs publish ig-batch "https://raw.githubusercontent.com/${{ github.repository }}/ig-batch"
+      - name: Save state
+        if: (github.event.inputs.publish || 'yes') == 'yes'
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add content/ig/posted.json content/ig/rows.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "auto: IG row [skip ci]" && (git push || (git pull --rebase -X theirs && git push)))
