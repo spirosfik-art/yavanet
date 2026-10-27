@@ -49,6 +49,7 @@ jobs:
           git diff --cached --quiet || (git commit -qm "auto: DM state [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
       - name: Stock reel (πραγματικά πλάνα Pexels)
         if: (env.TASK == 'reel' || env.TASK == 'stock') && env.PEXELS_API_KEY != ''
+        timeout-minutes: 15
         run: |
           set +e
           if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
@@ -58,6 +59,10 @@ jobs:
           echo "::notice::$(tail -c 600 stock.log | tr '\n' ' ')"
           if [ -f out/reel.mp4 ]; then echo "STOCK=1" >> $GITHUB_ENV; elif [ "$TASK" = "stock" ]; then echo "SKIP=1" >> $GITHUB_ENV; fi
           exit 0
+      - name: Stock log (πάντα)
+        if: always() && (env.TASK == 'reel' || env.TASK == 'stock')
+        run: |
+          [ -f stock.log ] && tail -n 40 stock.log | while read -r l; do echo "::notice::$l"; done || echo "::notice::no stock.log"
       - name: Reel scenes
         if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.STOCK != '1'
         run: |
