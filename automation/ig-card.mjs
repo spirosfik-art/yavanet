@@ -30,7 +30,8 @@ export function igEligible(a) {
 }
 // Οδηγοί που δεν «λήγουν»: για αναπλήρωση όταν δεν υπάρχει πρόσφατο άρθρο
 export function igEvergreen(a) {
-  return igEligible(a) && !a.breaking && !a.strike && ["travel", "jewish-greece", "living", "real-estate"].includes(a.section);
+  // μόνο οδηγοί που δεν έχουν ημερομηνία λήξης (όχι ειδήσεις «αυτό το Σάββατο»)
+  return igEligible(a) && !a.breaking && !a.strike && ["travel", "jewish-greece", "living", "real-estate"].includes(a.section) && /guide|destinations|villages|monaster|where-to|tips|best-|islands|beaches|kosher|chabad/.test(a.slug) && !/20\d\d-\d\d|october|november|december/.test(a.slug);
 }
 
 export function igCaption(a) {

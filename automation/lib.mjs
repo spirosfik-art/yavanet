@@ -261,8 +261,17 @@ export function loadArticles() {
   if (!fs.existsSync(ARTICLES_DIR)) return [];
   return fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".json")).map((f) => ({ file: f, ...readJSON(path.join(ARTICLES_DIR, f), {}) }));
 }
+// Το μοντέλο καμιά φορά «γλιστράει» σε γεωργιανά γράμματα που μοιάζουν με εβραϊκά (π.χ. «טრო‌ליי»)
+const GEO = { "ტ": "ט", "რ": "ר", "ო": "ו", "ფ": "פ", "დ": "ד", "ლ": "ל", "ნ": "נ", "ს": "ס", "მ": "מ", "ი": "י", "ა": "א", "ბ": "ב", "გ": "ג", "ვ": "ו", "ზ": "ז", "ქ": "ק", "კ": "כ", "ხ": "ח", "შ": "ש", "ც": "צ", "ჰ": "ה" };
+function deGeo(v) {
+  if (typeof v === "string") return /[\u10A0-\u10FF]/.test(v) ? v.replace(/[\u10A0-\u10FF]/g, (c) => GEO[c] || "") : v;
+  if (Array.isArray(v)) return v.map(deGeo);
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deGeo(x)]));
+  return v;
+}
 export function saveArticle(a) {
-  const { file, ...data } = a;
+  const { file, ...raw } = a;
+  const data = deGeo(raw);
   const name = file || `${data.publishedAt.slice(0, 10)}-${data.slug}.json`;
   if (!DRY) writeJSON(path.join(ARTICLES_DIR, name), data);
   return name;
