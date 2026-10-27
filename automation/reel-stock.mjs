@@ -71,7 +71,7 @@ async function pickTtsModel() {
 function durOf(f) { return Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim()) || 0; }
 async function speak(text, i) {
   const model = await pickTtsModel();
-  const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor: clear, confident, measured pace.\n\n${text}`;
+  const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor reading the headlines: clear, confident, energetic and brisk, like a fast news update.\n\n${text}`;
   for (let k = 0; k < 3; k++) {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) });
@@ -81,7 +81,7 @@ async function speak(text, i) {
       const raw = path.join(out, `a${i}.pcm`), wav = path.join(out, `a${i}.wav`);
       fs.writeFileSync(raw, Buffer.from(part.inlineData.data, "base64"));
       const rate = (/rate=(\d+)/.exec(part.inlineData.mimeType || "") || [, "24000"])[1];
-      execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse", wav]);
+      execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,atempo=1.1", wav]);
       const dur = durOf(wav); log("tts", i, dur.toFixed(1) + "s", text.length, "chars"); return { file: wav, dur };
     }
     log("tts", i, r.status, JSON.stringify(j).slice(0, 300));
@@ -115,9 +115,9 @@ scenes.push({ q: "athens greece city", d: 2.6, say: `חדשות יוון, ${dayN
 arts.forEach((a, k) => {
   const t = a.he.title, fsz = t.length > 70 ? 72 : t.length > 45 ? 84 : 98;
   const dek = (a.he.dek || "").split(/(?<=[.!?])\s/)[0];
-  scenes.push({ q: queryFor(a), d: 3.4, say: `${a.he.title}. ${dek.length < 170 ? dek : ""}`.trim(), html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(a.breaking || a.strike ? "מבזק" : KICK[a.section] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
+  scenes.push({ q: queryFor(a), d: 3.4, say: a.he.title, html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(a.breaking || a.strike ? "מבזק" : KICK[a.section] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
 });
-scenes.push({ q: "greek island sea", d: 2.8, say: "זה היה יוונט, כל מה שקורה ביוון, בעברית. מכירים מישהו שטס ליוון? שלחו לו את הסרטון.", html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big">מכירים מישהו שטס ליוון?</div><div class="sm">שלחו לו את הסרטון 📲</div><div class="pill">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
+scenes.push({ q: "greek island sea", d: 2.8, say: "יוונט. כל מה שקורה ביוון, בעברית. שלחו למי שטס ליוון.", html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big">מכירים מישהו שטס ליוון?</div><div class="sm">שלחו לו את הסרטון 📲</div><div class="pill">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
 
 const credits = [];
 const X = 0.4;
