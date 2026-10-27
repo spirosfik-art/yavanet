@@ -71,7 +71,7 @@ async function pickTtsModel() {
 function durOf(f) { return Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim()) || 0; }
 async function speak(text, i) {
   const model = await pickTtsModel();
-  const prompt = `קרא בעברית, בטון של קריין חדשות מקצועי בטלוויזיה הישראלית: ברור, בטוח, בקצב ענייני ולא מהיר מדי.\n\n${text}`;
+  const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor: clear, confident, measured pace.\n\n${text}`;
   for (let k = 0; k < 3; k++) {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) });
@@ -82,7 +82,7 @@ async function speak(text, i) {
       fs.writeFileSync(raw, Buffer.from(part.inlineData.data, "base64"));
       const rate = (/rate=(\d+)/.exec(part.inlineData.mimeType || "") || [, "24000"])[1];
       execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse", wav]);
-      return { file: wav, dur: durOf(wav) };
+      const dur = durOf(wav); log("tts", i, dur.toFixed(1) + "s", text.length, "chars"); return { file: wav, dur };
     }
     log("tts", i, r.status, JSON.stringify(j).slice(0, 300));
     await new Promise((s) => setTimeout(s, 8000 * (k + 1)));
