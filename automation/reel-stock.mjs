@@ -39,7 +39,7 @@ const used = new Set();
 async function pexelsClip(query, i) {
   const tries = [query, "athens greece", "greece"];
   for (const q of tries) {
-    const r = await fetch(`https://api.pexels.com/videos/search?per_page=20&orientation=portrait&size=medium&query=${encodeURIComponent(q)}`, { headers: { Authorization: env.PEXELS_API_KEY } });
+    const r = await fetch(`https://api.pexels.com/videos/search?per_page=20&orientation=portrait&size=medium&query=${encodeURIComponent(q)}`, { headers: { Authorization: env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) });
     if (!r.ok) { log("pexels", r.status, q); continue; }
     const j = await r.json();
     for (const v of j.videos || []) {
@@ -48,7 +48,7 @@ async function pexelsClip(query, i) {
       if (!f) continue;
       used.add(v.id);
       const dst = path.join(out, `v${i}.mp4`);
-      const buf = Buffer.from(await (await fetch(f.link)).arrayBuffer());
+      const buf = Buffer.from(await (await fetch(f.link, { signal: AbortSignal.timeout(120000) })).arrayBuffer());
       fs.writeFileSync(dst, buf);
       return { file: dst, credit: v.user && v.user.name, q };
     }
@@ -61,7 +61,7 @@ const GK = env.GEMINI_API_KEY;
 let ttsModel = null;
 async function pickTtsModel() {
   if (ttsModel) return ttsModel;
-  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${GK}`);
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${GK}`, { signal: AbortSignal.timeout(30000) });
   const j = await r.json();
   const names = (j.models || []).map((m) => m.name.replace("models/", "")).filter((n) => /tts/i.test(n));
   ttsModel = names.find((n) => /flash/.test(n)) || names[0] || "gemini-2.5-flash-preview-tts";
@@ -73,8 +73,11 @@ async function speak(text, i) {
   const model = await pickTtsModel();
   const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor reading the headlines: clear, confident, energetic and brisk, like a fast news update.\n\n${text}`;
   for (let k = 0; k < 3; k++) {
-    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) });
+    log("tts → σκηνή", i, "προσπάθεια", k + 1);
+    let r;
+    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(90000),
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) }); }
+    catch (e) { log("tts timeout", i, e.message); continue; }
     const j = await r.json().catch(() => ({}));
     const part = j.candidates && j.candidates[0] && j.candidates[0].content && (j.candidates[0].content.parts || []).find((p) => p.inlineData);
     if (part) {

@@ -18,7 +18,7 @@ concurrency:
 jobs:
   meta:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     env:
       META_TOKEN: ${{ secrets.META_TOKEN }}
       FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
