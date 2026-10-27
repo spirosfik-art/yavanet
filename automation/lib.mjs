@@ -269,8 +269,25 @@ function deGeo(v) {
   if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deGeo(x)]));
   return v;
 }
+// Η μέρα της εβδομάδας πρέπει να ταιριάζει με την ημερομηνία (π.χ. «יום רביעי, 30 באוקטובר» → Παρασκευή)
+const HE_D = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"];
+const HE_M = { "בינואר": 0, "בפברואר": 1, "במרץ": 2, "באפריל": 3, "במאי": 4, "ביוני": 5, "ביולי": 6, "באוגוסט": 7, "בספטמבר": 8, "באוקטובר": 9, "בנובמבר": 10, "בדצמבר": 11 };
+const EN_D = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const EN_M = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+function fixWeekdays(v, pub) {
+  const base = Date.parse(pub || "") || Date.now();
+  const when = (d, m) => { let y = new Date(base).getUTCFullYear(); let t = Date.UTC(y, m, d); if (t < base - 60 * 86400e3) t = Date.UTC(y + 1, m, d); return new Date(t).getUTCDay(); };
+  const fix = (s) => s
+    .replace(/יום (ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת)(,?) (\d{1,2}) (ב[א-ת]+)/g, (all, wd, c, d, m) => (m in HE_M ? `יום ${HE_D[when(+d, HE_M[m])]}${c} ${d} ${m}` : all))
+    .replace(/\b(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)(,?) (\d{1,2}) (January|February|March|April|May|June|July|August|September|October|November|December)\b/g, (all, wd, c, d, m) => `${EN_D[when(+d, EN_M.indexOf(m))]}${c} ${d} ${m}`);
+  if (typeof v === "string") return fix(v);
+  if (Array.isArray(v)) return v.map((x) => fixWeekdays(x, pub));
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, fixWeekdays(x, pub)]));
+  return v;
+}
 export function saveArticle(a) {
-  const { file, ...raw } = a;
+  const { file, ...raw0 } = a;
+  const raw = { ...raw0, he: fixWeekdays(raw0.he, raw0.publishedAt), en: fixWeekdays(raw0.en, raw0.publishedAt) };
   const data = deGeo(raw);
   const name = file || `${data.publishedAt.slice(0, 10)}-${data.slug}.json`;
   if (!DRY) writeJSON(path.join(ARTICLES_DIR, name), data);

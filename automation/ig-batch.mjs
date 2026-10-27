@@ -7,7 +7,7 @@ import path from "node:path";
 import { loadArticles, log, notifyOwner } from "./lib.mjs";
 import { igEligible, igEvergreen, igCaption, renderIgCard, IG_DIR } from "./ig-card.mjs";
 import { ctx, postStory } from "./meta.mjs";
-import { nextCarousel, renderCarousel, carouselCaption, markCarousel } from "./ig-carousel.mjs";
+import { nextCarousel, renderCarousel, carouselCaption, markCarousel, readCarState } from "./ig-carousel.mjs";
 
 const ROWS = [[0, 1, 0], [2, 2, 2], [1, 0, 1], [2, 2, 2]];
 const postedFile = path.join(IG_DIR, "posted.json");
@@ -37,7 +37,12 @@ if (cmd === "render") {
   const plan = [];
   // Μία φορά την εβδομάδα (Τρίτη, ώρα Αθήνας) ή με IG_CAROUSEL=1: η μεσαία θέση της 1ης σειράς γίνεται carousel
   const dow = new Date().toLocaleDateString("en-US", { timeZone: "Europe/Athens", weekday: "short" });
-  const car = (process.env.IG_CAROUSEL === "1" || dow === "Tue") ? nextCarousel() : null;
+  // Το εξώφυλλο του carousel παίρνει το στυλ της θέσης του (μπλε ή κρεμ), οπότε μπαίνει μόνο όταν η μεσαία θέση
+  // της σειράς ΔΕΝ είναι «φωτογραφία» — έτσι το σχέδιο του πλέγματος μένει πάντα ίδιο. Μία φορά την εβδομάδα, όχι Σάββατο.
+  const mid = ROWS[startRow % ROWS.length][1];
+  const cst = readCarState();
+  const due = !cst.lastAt || Date.now() - Date.parse(cst.lastAt) > 6 * 86400e3;
+  const car = (process.env.IG_CAROUSEL === "1" || (due && dow !== "Sat" && ["Tue", "Wed", "Thu", "Fri", "Sun", "Mon"].includes(dow))) && mid !== 0 ? nextCarousel() : null;
   let k = 0;
   for (let r = 0; r < Math.floor(arts.length / 3); r++) {
     const pattern = ROWS[(startRow + r) % ROWS.length];

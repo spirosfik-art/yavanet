@@ -82,6 +82,7 @@ export function nextCarousel() {
 export function markCarousel(id) {
   const st = readCarState();
   if (!st.posted.includes(id)) st.posted.push(id);
+  st.lastAt = new Date().toISOString();
   fs.writeFileSync(statePath, JSON.stringify(st, null, 1));
 }
 export function carouselCaption(c) {
