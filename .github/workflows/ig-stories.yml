@@ -1,13 +1,8 @@
-# Αυτόματα stories (IG + FB). Ώρες UTC (χειμώνας: Αθήνα = UTC+2):
-#   πρωινό 06:23 (08:23 Αθήνα) · θέμα ημέρας 10:47 (12:47) · βραδινό 18:41 (20:41) · έκτακτα: κάθε ώρα 05:13–20:13
+# Αυτόματα stories (IG + FB). Τα ξεκινά το ρολόι Cloudflare (cron-worker/), σε ώρα Αθήνας:
+#   πρωινό 08:25 · θέμα ημέρας 12:50 · βραδινό 20:40 · έκτακτα: κάθε ώρα στις :15, 07:15–22:15
 # Σάββατο: τίποτα πριν τις 19:00 ώρα Αθήνας (το ελέγχει το script). Το «θέμα ημέρας» ξεκινά 4/11 (μέχρι 3/11 τρέχουν τα stories του Business Suite).
 name: IG stories
 on:
-  schedule:
-    - cron: "23 6 * * *"
-    - cron: "47 10 * * *"
-    - cron: "41 18 * * *"
-    - cron: "13 5-20 * * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -19,6 +14,9 @@ on:
       date:
         description: "προεπισκόπηση για άλλη ημερομηνία (YYYY-MM-DD, μόνο με publish=no)"
         default: ""
+      sched:
+        description: "1 = προγραμματισμένη εκτέλεση (yavanet-cron)"
+        default: "0"
 permissions:
   contents: write
 concurrency:
@@ -33,13 +31,13 @@ jobs:
       FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
-      KIND: ${{ github.event.inputs.kind || (github.event.schedule == '23 6 * * *' && 'morning' || github.event.schedule == '47 10 * * *' && 'topic' || github.event.schedule == '41 18 * * *' && 'evening' || 'alerts') }}
+      KIND: ${{ github.event.inputs.kind || 'alerts' }}
       PUBLISH: ${{ github.event.inputs.publish || 'yes' }}
       STORY_DATE: ${{ github.event.inputs.publish == 'no' && github.event.inputs.date || '' }}
       FORCE: ${{ github.event.inputs.publish == 'no' && '1' || '' }}
     steps:
       - name: Pause θέματος ημέρας μέχρι 3/11
-        if: github.event_name == 'schedule'
+        if: (github.event_name == 'schedule' || github.event.inputs.sched == '1')
         run: |
           if [ "$KIND" = "topic" ] && [ "$(date -u +%Y%m%d)" -lt 20261104 ]; then echo "PAUSED=1" >> $GITHUB_ENV; fi
       - uses: actions/checkout@v4
