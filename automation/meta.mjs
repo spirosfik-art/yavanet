@@ -188,6 +188,94 @@ export async function replyComments() {
   return n;
 }
 
+// ---------- Αυτόματη απάντηση σε μηνύματα (Instagram Direct + Messenger) ----------
+// Χρειάζεται δικαιώματα instagram_manage_messages + pages_messaging στο κλειδί.
+const DM_REPLY = "שלום! 👋 תודה שכתבתם ליוונט 🇬🇷\nלתשובה מהירה ואישית, בעברית, כתבו לנו בוואטסאפ:\n" + WA + "\n\nמתעניינים בדירה ביוון? ספרו לנו באיזה אזור ומה התקציב, ונחזור אליכם.";
+const ESTATE = /דיר|נדל|להשקיע|השקעה|לקנות|קניי|שכיר|להשכיר|גולדן|golden|apartment|property|real estate|invest|buy|rent|ακίνητ|διαμέρισ/i;
+export async function replyDMs() {
+  const c = await ctx();
+  const alerts = [];
+  let n = 0;
+  const DAY = 24 * 3600e3;
+  for (const platform of ["instagram", "messenger"]) {
+    let conv;
+    try { conv = await api(`/${c.pageId}/conversations`, { token: c.pageToken, params: { platform, fields: "id,updated_time,participants,messages.limit(10){id,message,from,created_time}", limit: "25" } }); }
+    catch (e) { log("dms", platform, e.message); continue; }
+    for (const cv of conv.data || []) {
+      if (Date.now() - Date.parse(cv.updated_time) > DAY) continue;
+      const msgs = (cv.messages && cv.messages.data) || [];
+      if (!msgs.length) continue;
+      const mine = (m) => m.from && (m.from.id === c.pageId || m.from.id === c.igId || (c.igUser && m.from.username === c.igUser));
+      const last = msgs[0];
+      if (mine(last)) continue;
+      // Έχουμε ήδη στείλει το αυτόματο μήνυμα τις τελευταίες 7 μέρες; τότε μόνο ειδοποίηση, όχι νέα απάντηση
+      const already = msgs.some((m) => mine(m) && /wa\.me\/306906723676/.test(m.message || "") && Date.now() - Date.parse(m.created_time) < 7 * DAY);
+      const who = last.from && (last.from.username || last.from.name) || "?";
+      const text = (last.message || "(συνημμένο)").slice(0, 300);
+      const lead = ESTATE.test(text) ? "🏠 Πιθανός πελάτης για S.F. Properties\n" : "";
+      if (!already) {
+        try {
+          await api(`/${c.pageId}/messages`, { method: "POST", token: c.pageToken, params: { recipient: JSON.stringify({ id: last.from.id }), messaging_type: "RESPONSE", message: JSON.stringify({ text: DM_REPLY }) } });
+          n++;
+        } catch (e) { log("dm reply", platform, e.message); }
+      }
+      const key = `${platform}:${last.id}`;
+      alerts.push({ key, txt: `${lead}${platform === "instagram" ? "📸 Instagram" : "💬 Messenger"} · ${who}:\n«${text}»${already ? "" : "\n↪️ στάλθηκε αυτόματα το WhatsApp"}` });
+    }
+  }
+  // ειδοποίηση μόνο για μηνύματα που δεν έχουμε αναφέρει ήδη (κρατάμε τα ids στο state)
+  const stFile = path.join(ROOT, "content/ig/dm-seen.json");
+  let seen = []; try { seen = JSON.parse(fs.readFileSync(stFile, "utf8")); } catch {}
+  const fresh = alerts.filter((a) => !seen.includes(a.key));
+  if (fresh.length) {
+    await notifyOwner(`📩 Νέα μηνύματα (${fresh.length}):\n\n${fresh.map((a) => a.txt).join("\n\n")}`.slice(0, 3900)).catch(() => {});
+    fs.writeFileSync(stFile, JSON.stringify([...seen, ...fresh.map((a) => a.key)].slice(-500)));
+  }
+  log("dms: απαντήσεις", n, "· νέες ειδοποιήσεις", fresh.length);
+  return n;
+}
+
+// ---------- Εβδομαδιαία σύνοψη Instagram/Facebook (για την αναφορά της Δευτέρας) ----------
+export async function socialWeekly() {
+  const c = await ctx();
+  const lines = [];
+  const stFile = path.join(ROOT, "content/ig/stats.json");
+  let prev = {}; try { prev = JSON.parse(fs.readFileSync(stFile, "utf8")); } catch {}
+  const cur = { at: new Date().toISOString() };
+  const delta = (a, b) => (typeof b === "number" ? ` (${a - b >= 0 ? "+" : ""}${a - b} σε μια εβδομάδα)` : "");
+  if (c.igId) {
+    const me = await api(`/${c.igId}`, { token: c.userToken, params: { fields: "followers_count,media_count" } });
+    cur.ig = me.followers_count;
+    lines.push(`📸 Instagram: ${me.followers_count} ακόλουθοι${delta(me.followers_count, prev.ig)}`);
+    const since = Date.now() - 7 * 86400e3;
+    const media = await api(`/${c.igId}/media`, { token: c.userToken, params: { fields: "id,caption,media_type,media_product_type,permalink,timestamp,like_count,comments_count", limit: "40" } });
+    const week = (media.data || []).filter((m) => Date.parse(m.timestamp) >= since);
+    for (const m of week) {
+      m.ins = {};
+      try {
+        const metrics = m.media_product_type === "REELS" ? "reach,saved,shares,views" : "reach,saved,shares,views";
+        const r = await api(`/${m.id}/insights`, { token: c.userToken, params: { metric: metrics } });
+        for (const x of r.data || []) m.ins[x.name] = (x.values && x.values[0] && x.values[0].value) || x.total_value?.value || 0;
+      } catch { m.noIns = true; }
+      m.score = (m.ins.saved || 0) * 4 + (m.ins.shares || 0) * 5 + (m.comments_count || 0) * 2 + (m.like_count || 0) + (m.ins.reach || 0) / 50;
+    }
+    const fmt = (m) => `«${(m.caption || "").split("\n")[0].slice(0, 70)}»\n   ${m.ins.views != null ? `👁 ${m.ins.views} · ` : ""}${m.ins.reach != null ? `reach ${m.ins.reach} · ` : ""}❤️ ${m.like_count || 0} · 💬 ${m.comments_count || 0}${m.ins.saved != null ? ` · 🔖 ${m.ins.saved} · 📤 ${m.ins.shares || 0}` : ""}\n   ${m.permalink}`;
+    const posts = week.filter((m) => m.media_product_type !== "REELS").sort((a, b) => b.score - a.score);
+    const reels = week.filter((m) => m.media_product_type === "REELS").sort((a, b) => b.score - a.score);
+    lines.push(`🗂 Αναρτήσεις της εβδομάδας: ${posts.length} · reels: ${reels.length}`);
+    if (posts[0]) lines.push(`🏆 Καλύτερη ανάρτηση:\n   ${fmt(posts[0])}`);
+    if (reels[0]) lines.push(`🎬 Καλύτερο reel:\n   ${fmt(reels[0])}`);
+    if (week.some((m) => m.noIns)) lines.push("ℹ️ Χωρίς στατιστικά προβολών/αποθηκεύσεων (λείπει το δικαίωμα instagram_manage_insights)");
+  }
+  try {
+    const pg = await api(`/${c.pageId}`, { token: c.pageToken, params: { fields: "followers_count,fan_count" } });
+    cur.fb = pg.followers_count || pg.fan_count;
+    lines.push(`📘 Facebook: ${cur.fb} ακόλουθοι${delta(cur.fb, prev.fb)}`);
+  } catch (e) { log("fb stats", e.message); }
+  fs.writeFileSync(stFile, JSON.stringify(cur, null, 1));
+  return lines.join("\n");
+}
+
 // ---------- CLI ----------
 if (import.meta.url === `file://${process.argv[1]}`) {
   const [cmd, arg] = process.argv.slice(2);
@@ -211,6 +299,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       await notifyOwner(`🎬 Ημερήσιο reel ανέβηκε\n${res.join("\n")}`).catch(() => {});
     }
     else if (cmd === "comments") await replyComments();
+    else if (cmd === "dms") await replyDMs();
+    else if (cmd === "social-weekly") log(await socialWeekly());
     else { console.log("χρήση: check | story <url> | reel-scenes <dir> | reel-publish <mp4> | comments"); }
   } catch (e) {
     log("meta:", e.message);

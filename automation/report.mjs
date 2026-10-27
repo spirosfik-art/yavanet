@@ -33,7 +33,7 @@ async function traffic(hours = 24) {
     before: rumPageloadEventsAdaptiveGroups(limit: 1, filter: ${f(prev, from)}) { count sum { visits } }
     countries: rumPageloadEventsAdaptiveGroups(limit: 8, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { countryName } }
     pages: rumPageloadEventsAdaptiveGroups(limit: 10, filter: ${f(from, to)}, orderBy: [count_DESC]) { count dimensions { requestPath } }
-    refs: rumPageloadEventsAdaptiveGroups(limit: 6, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { refererHost } }
+    refs: rumPageloadEventsAdaptiveGroups(limit: 15, filter: ${f(from, to)}, orderBy: [sum_visits_DESC]) { sum { visits } dimensions { refererHost } }
   } } }`;
   const r = await fetch("https://api.cloudflare.com/client/v4/graphql", { method: "POST", headers: { authorization: `Bearer ${token}`, "content-type": "application/json" }, body: JSON.stringify({ query: q }), signal: AbortSignal.timeout(30000) });
   const d = await r.json();
@@ -70,6 +70,10 @@ async function traffic(hours = 24) {
     const since = Date.now() - 7 * 86400e3;
     const pub = fs.readdirSync(new URL("../content/articles/", import.meta.url)).map((f) => { try { return JSON.parse(fs.readFileSync(new URL("../content/articles/" + f, import.meta.url))); } catch { return null; } }).filter((a) => a && Date.parse(a.publishedAt) >= since);
     const byKind = (leads || []).reduce((m, c) => { const k = (c.attributes || {}).LEAD_KIND || "–"; m[k] = (m[k] || 0) + 1; return m; }, {});
+    let social = "";
+    if (env.META_TOKEN) { try { const { socialWeekly } = await import("./meta.mjs"); social = await socialWeekly(); } catch (e) { social = "📱 Social: σφάλμα – " + e.message.slice(0, 120); } }
+    const ig = tr ? tr.refs.filter((r) => /instagram/i.test(r)).map((r) => Number(r.split(" ").pop()) || 0).reduce((a, b) => a + b, 0) : null;
+    const fbv = tr ? tr.refs.filter((r) => /facebook|fb\.com/i.test(r)).map((r) => Number(r.split(" ").pop()) || 0).reduce((a, b) => a + b, 0) : null;
     const txt = `🗓️ Yavanet – εβδομαδιαία αναφορά (έως ${athensNow().date})
 
 ${tr ? `👥 Επισκέψεις: ${tr.now.visits}${pct(tr.now.visits, tr.before.visits)}
@@ -82,7 +86,7 @@ ${tr.pages.join("\n") || "–"}` : `👥 Επισκέψεις: ${trErr ? "σφά
 📨 Νέες επαφές: ${leads ? leads.length : "–"}${Object.keys(byKind).length ? "\n" + Object.entries(byKind).map(([k, v]) => `• ${k}: ${v}`).join("\n") : ""}
 📰 Νέα άρθρα: ${pub.length} (οδηγοί: ${pub.filter((a) => a.guide || /^eg-/.test(String(a.meta?.itemId || ""))).length})
 
-Λεπτομέρειες: https://analytics.google.com · https://search.google.com/search-console · https://clarity.microsoft.com`;
+${social ? social + "\n" + (ig !== null ? `🔗 Επισκέψεις στο site από Instagram: ${ig} · από Facebook: ${fbv}\n` : "") + "\n" : ""}Λεπτομέρειες: https://analytics.google.com · https://search.google.com/search-console · https://clarity.microsoft.com`;
     await notifyOwner(txt);
     await sendEmail(`Yavanet – εβδομαδιαία αναφορά ${athensNow().date}`, `<pre style="font-family:Arial;font-size:14px;white-space:pre-wrap">${esc(txt)}</pre>`);
     log(txt);
