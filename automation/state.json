@@ -17,10 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "1d7422a06da4": 1791849187769,
-    "47d0722d59b7": 1791849187769,
-    "062a6945f803": 1791851970320,
-    "c84eb1973e1d": 1791851970320,
     "970c09b615a8": 1791853452869,
     "ad5456e8afd1": 1791853452869,
     "25761175b1d8": 1791853452869,
@@ -2161,7 +2157,12 @@
     "886ca0d2b2ae": 1793058465369,
     "c4f0441815b4": 1793058465369,
     "9ad494fb4fdb": 1793058465369,
-    "afa8e4c27761": 1793058465369
+    "afa8e4c27761": 1793058465369,
+    "302487339e48": 1793062143748,
+    "6cec2dcde1c6": 1793062143748,
+    "5704f57a8c5d": 1793062143748,
+    "6818fbd565c1": 1793062143748,
+    "ec77afcb566d": 1793062143748
   },
   "pending": {
     "37c7dc": {
@@ -2379,12 +2380,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-26T23:47:35.462Z",
+      "at": "2026-10-27T00:48:53.645Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-26T23:47:35.946Z",
+      "at": "2026-10-27T00:48:54.237Z",
       "items": 4
     },
     "civilprotection": {
@@ -2395,27 +2396,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-26T23:47:37.332Z",
+      "at": "2026-10-27T00:48:55.642Z",
       "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-26T23:47:37.513Z",
+      "at": "2026-10-27T00:48:56.018Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-26T23:47:38.241Z",
+      "at": "2026-10-27T00:48:56.743Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-26T23:47:38.965Z",
+      "at": "2026-10-27T00:48:57.274Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-26T23:47:39.651Z",
+      "at": "2026-10-27T00:48:58.127Z",
       "items": 10
     },
     "toi-greece": {
@@ -2426,22 +2427,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-26T23:47:40.089Z",
+      "at": "2026-10-27T00:48:58.651Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-26T23:47:40.185Z",
-      "items": 13
+      "at": "2026-10-27T00:48:58.742Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-26T23:47:40.358Z",
-      "items": 3
+      "at": "2026-10-27T00:48:58.926Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T23:47:40.618Z",
+      "at": "2026-10-27T00:48:59.288Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2451,12 +2452,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-26T23:47:36.393Z",
+      "at": "2026-10-27T00:48:54.706Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-26T23:47:41.178Z",
+      "at": "2026-10-27T00:48:59.710Z",
       "items": 0
     },
     "hcg": {
@@ -2467,45 +2468,57 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-26T23:47:42.617Z",
+      "at": "2026-10-27T00:49:00.991Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-26T23:47:42.813Z",
+      "at": "2026-10-27T00:49:01.283Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-26T23:47:42.997Z",
+      "at": "2026-10-27T00:49:01.612Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-26T23:47:43.341Z",
+      "at": "2026-10-27T00:49:01.915Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-26T23:47:43.676Z",
+      "at": "2026-10-27T00:49:02.335Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-26T23:47:44.107Z",
-      "items": 10
+      "at": "2026-10-27T00:49:02.680Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-27",
-    "count": 1,
+    "count": 3,
     "published": [
       {
         "slug": "georgiadis-konstantopoulou-parliament-israel",
         "title": "Greek parliament debate: Health Minister and opposition leader clash over Israel ties",
         "at": "2026-10-27T01:47:32+02:00",
         "section": "israelis"
+      },
+      {
+        "slug": "earthquake-near-igoumenitsa-greece",
+        "title": "Magnitude 3.6 earthquake recorded near Igoumenitsa in Greece",
+        "at": "2026-10-27T02:49:17+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "lamda-development-appoints-evi-kostaki-ceo",
+        "title": "Lamda Development Appoints Evi Kostaki as New CEO",
+        "at": "2026-10-27T02:49:31+02:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -2678,27 +2691,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-26T23:47:45.369Z",
-    "considered": 17,
-    "picked": 3,
+    "at": "2026-10-27T00:49:03.748Z",
+    "considered": 5,
+    "picked": 2,
     "items": [
-      "✓ gct | Georgiadis and Konstantopoulou Clash in Parliament Over Israel",
-      "· gct | Greece Records €7.55 Billion Primary Surplus in First Nine Months",
-      "· gct | Tsitsipas Pulls Out of Basel Amid Shoulder Concerns",
-      "· gct | Greece Plans Facelift for Dozens of Athens Rail Stations",
-      "· gct | Greek FM Gerapetritis Faces Libya Criticism Over Haftar Policy",
-      "· gct | Mitsotakis Aide Michalis Bekiris Steps Aside, Vows Court Fight",
-      "· gct | Oikonomopoulos Holds Greek Airplay Chart No. 1 as Argiros Climbs",
-      "· gct | Choriatiko Bakery Suspects Face Criminal Organisation Charges",
-      "✓ gct | Red Warnings for 28 October as Storms Flood Attica Streets",
-      "· gct | Mazonakis Death Probe: Antidote Vials Traced to Athens Clinic, Reports Say",
-      "· gct | Work Advances on Road Cutting Ioannina–Albania Trip to 40 Minutes",
-      "· ert | Βενεζουέλα: Στήριξη Ρούμπιο στην Ματσάδο και προτροπή για διεξαγωγή αδιάβλητων εκλογών",
-      "· gct | Three Family Members Die as Car Plunges Into Piraeus Port",
-      "✓ gct | Greece Raises Childcare Vouchers 10% as Income Limits Climb",
-      "· naftemporiki | Κρίσιμες εκλογές στο Ισραήλ: Τα κύρια διακυβεύματα και οι πολιτικοί πρωταγωνιστές",
-      "· gn-iefimerida | Πιερρακάκης με Καραμανλή στη ΣΕΚΕ: Λελογισμένες οι αυξήσεις στη φορολογία των καπνικών προ",
-      "· gn-iefimerida | Πυρκαγιά σε φανοποιείο στη Νέα Πέραμο: Χωρίς τις αισθήσεις του ανασύρθηκε 59χρονος - iefim"
+      "✓ ert | Σεισμός 3,6 Ρίχτερ κοντά στην Ηγουμενίτσα",
+      "· gct | Greece and Allies Reject Turkey-Libya Maritime Deal as Illegal (VID)",
+      "· gct | Greek President Calls for Freedom and Prosperity at Liberation Anniversary",
+      "✓ gct | Ellinikon Project Developers Appoints Evi Kostaki as New CEO",
+      "· gct | Greek Robotics Firm Brings Robots Into the Workplace (VIDEO)"
     ]
   },
   "evergreenDone": [
