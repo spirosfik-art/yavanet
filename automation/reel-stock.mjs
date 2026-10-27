@@ -65,7 +65,9 @@ async function pickTtsModel() {
   const j = await r.json();
   const names = (j.models || []).map((m) => m.name.replace("models/", "")).filter((n) => /tts/i.test(n));
   // σειρά προτίμησης· όταν ένα μοντέλο εξαντλήσει το δωρεάν όριο, περνάμε στο επόμενο (το καθένα έχει δικό του όριο)
+  // το gemini-3.1-flash-tts διαβάζει μόνο το κείμενο (το 3.8 πρόσθετε λόγια στη δοκιμή) → πρώτο
   ttsList = names.sort((a, b) => (/lite/.test(a) - /lite/.test(b)) || (/flash/.test(b) - /flash/.test(a)) || b.localeCompare(a, undefined, { numeric: true }));
+  ttsList = [...ttsList.filter((n) => /3\.1-flash-tts/.test(n)), ...ttsList.filter((n) => !/3\.1-flash-tts/.test(n))];
   if (!ttsList.length) ttsList = ["gemini-2.5-flash-preview-tts"];
   ttsModel = ttsList[0];
   log("tts μοντέλα:", ttsList.join(", "));
