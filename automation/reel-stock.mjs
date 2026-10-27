@@ -176,7 +176,7 @@ af += aud.length ? `[base]${aud.map((_, k) => `[v${k}]`).join("")}amix=inputs=${
 execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...ins, "-f", "lavfi", "-t", tot.toFixed(2), "-i", "anullsrc=r=44100:cl=stereo", ...aIns,
   "-filter_complex", `${f}[${prev}]format=yuv420p[v];${af}`, "-map", "[v]", "-map", "[aout]", "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", path.join(out, "reel.mp4")], { stdio: "inherit" });
 execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", path.join(out, "reel.mp4"), "-vf", `fps=${(scenes.length / tot).toFixed(4)},scale=270:480,tile=${scenes.length}x1`, "-frames:v", "1", path.join(out, "preview.jpg")], { stdio: "inherit" });
-const caption = `טסים ליוון? ${arts.length} דברים שחשוב לדעת היום 🇬🇷\n\n${arts.map((a, i) => `${i + 1}. ${a.he.title}`).join("\n")}\n\n📍 יוון\nהכתבות המלאות באתר — הקישור בביו 👆\n📤 מכירים מישהו שטס ליוון? שלחו לו\n\n#יוון #אתונה #טיסות_ליוון #ישראלים_ביוון #יוונט`;
+const caption = `טסים ליוון? ${arts.length} דברים שחשוב לדעת היום 🇬🇷\n\n${arts.map((a, i) => `${i + 1}. ${a.he.title}`).join("\n")}\n\n📍 יוון\nהכתבות המלאות באתר — הקישור בביו 👆\n📤 מכירים מישהו שטס ליוון? שלחו לו\n👇 איזו מהחדשות הכי חשובה לכם? כתבו בתגובות\n\n#יוון #אתונה #טיסות_ליוון #ישראלים_ביוון #יוונט`;
 fs.writeFileSync(path.join(out, "caption.txt"), caption);
 fs.writeFileSync(path.join(out, "count.txt"), String(scenes.length));
 fs.writeFileSync(path.join(out, "credits.txt"), "Pexels: " + credits.filter(Boolean).join(", "));

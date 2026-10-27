@@ -117,7 +117,7 @@ export async function postReel(mp4, caption) {
   const out = [];
   if (c.igId) {
     try {
-      const m = await api(`/${c.igId}/media`, { method: "POST", token: c.userToken, params: { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true" } });
+      const m = await api(`/${c.igId}/media`, { method: "POST", token: c.userToken, params: { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true", thumb_offset: "1200" } });
       const up = await fetch(`https://rupload.facebook.com/ig-api-upload/${V}/${m.id}`, { method: "POST", headers: { Authorization: "OAuth " + c.userToken, offset: "0", file_size: String(buf.length) }, body: buf });
       if (!up.ok) throw new Error("upload " + up.status + " " + (await up.text()).slice(0, 200));
       await waitReady(m.id, c.userToken, 10);
@@ -304,7 +304,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     else if (cmd === "reel-scenes") { const r = reelScenes(arg || "reel-out"); if (!r) { log("reel: λίγα άρθρα σήμερα"); process.exit(0); } log("reel scenes:", r.files.length, r.slugs.join(", ")); }
     else if (cmd === "reel-publish") {
       const caption = fs.readFileSync(path.join(path.dirname(arg), "caption.txt"), "utf8");
-      const res = await postReel(arg, caption);
+      let cap = caption;
+      if (!/כתבו בתגובות/.test(cap)) cap = cap.replace("\n\n#", "\n👇 איזו מהחדשות הכי חשובה לכם? כתבו בתגובות\n\n#");
+      const res = await postReel(arg, cap);
+      if (res.some((x) => /IG reel ✓/.test(x))) fs.writeFileSync(path.join(ROOT, "content/ig/reel-last.json"), JSON.stringify({ date: new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Athens" }), at: new Date().toISOString() }));
       await notifyOwner(`🎬 Ημερήσιο reel ανέβηκε\n${res.join("\n")}`).catch(() => {});
     }
     else if (cmd === "comments") await replyComments();

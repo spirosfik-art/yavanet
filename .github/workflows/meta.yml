@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       task:
-        description: "reel | stock (προεπισκόπηση reel με πλάνα) | comments (+DM) | dms | check | diag | social-weekly | scenes (μόνο προεπισκόπηση, χωρίς ανάρτηση)"
+        description: "reel | publish-last (ανεβάζει το τελευταίο έτοιμο reel) | stock (προεπισκόπηση reel με πλάνα) | comments (+DM) | dms | check | diag | social-weekly | scenes (μόνο προεπισκόπηση, χωρίς ανάρτηση)"
         default: check
 permissions:
   contents: write
@@ -47,8 +47,18 @@ jobs:
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           for f in content/ig/dm-seen.json content/ig/comment-seen.json; do [ -f $f ] && git add $f; done; true
           git diff --cached --quiet || (git commit -qm "auto: DM state [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
+      - name: Reel already today?
+        if: env.TASK == 'reel'
+        run: |
+          node -e "let t={};try{t=JSON.parse(require('fs').readFileSync('content/ig/reel-last.json','utf8'))}catch{};const d=new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Athens'});if(t.date===d)console.log('SKIP=1')" >> $GITHUB_ENV
+      - name: Publish last ready reel
+        if: env.TASK == 'publish-last'
+        run: |
+          mkdir -p out && for f in reel.mp4 caption.txt; do curl -sfL -o out/$f "https://raw.githubusercontent.com/${{ github.repository }}/reels/$f"; done
+          ls -la out && node automation/meta.mjs reel-publish out/reel.mp4 2>&1 | tee pub.log
+          echo "::notice::$(tail -c 700 pub.log | tr '\n' ' ')"
       - name: Stock reel (πραγματικά πλάνα Pexels)
-        if: (env.TASK == 'reel' || env.TASK == 'stock') && env.PEXELS_API_KEY != ''
+        if: (env.TASK == 'reel' || env.TASK == 'stock') && env.PEXELS_API_KEY != '' && env.SKIP != '1'
         timeout-minutes: 15
         run: |
           set +e
@@ -64,7 +74,7 @@ jobs:
         run: |
           [ -f stock.log ] && tail -n 40 stock.log | while read -r l; do echo "::notice::$l"; done || echo "::notice::no stock.log"
       - name: Reel scenes
-        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.STOCK != '1'
+        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.STOCK != '1' && env.SKIP != '1'
         run: |
           if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "χωρίς META_TOKEN – παράλειψη"; echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
           node automation/meta.mjs reel-scenes out
@@ -92,6 +102,12 @@ jobs:
       - name: Publish reel
         if: env.TASK == 'reel' && env.SKIP != '1'
         run: node automation/meta.mjs reel-publish out/reel.mp4
+      - name: Save reel state
+        if: always() && (env.TASK == 'reel' || env.TASK == 'publish-last')
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          [ -f content/ig/reel-last.json ] && git add content/ig/reel-last.json
+          git diff --cached --quiet || (git commit -qm "auto: reel state [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
       - name: Keep copy (branch reels)
         if: (env.TASK == 'reel' || env.TASK == 'scenes' || env.TASK == 'stock') && env.SKIP != '1'
         run: |
