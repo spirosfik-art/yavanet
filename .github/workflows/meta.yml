@@ -43,7 +43,7 @@ jobs:
         if: env.TASK == 'comments' || env.TASK == 'dms'
         run: |
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
-          git add content/ig/dm-seen.json 2>/dev/null || true
+          for f in content/ig/dm-seen.json content/ig/comment-seen.json; do [ -f $f ] && git add $f; done; true
           git diff --cached --quiet || (git commit -qm "auto: DM state [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
       - name: Reel scenes
         if: env.TASK == 'reel' || env.TASK == 'scenes'

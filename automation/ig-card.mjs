@@ -34,14 +34,26 @@ export function igEvergreen(a) {
   return igEligible(a) && !a.breaking && !a.strike && ["travel", "jewish-greece", "living", "real-estate"].includes(a.section) && /guide|destinations|villages|monaster|where-to|tips|best-|islands|beaches|kosher|chabad/.test(a.slug) && !/20\d\d-\d\d|october|november|december/.test(a.slug);
 }
 
+// Τοποθεσία για λέξεις-κλειδιά (αναζήτηση Instagram): από τίτλο/slug, αλλιώς «יוון»
+const PLACES = [["אתונה", /athens|אתונה|אתונא/i], ["סלוניקי", /thessalon|סלוניקי/i], ["כרתים", /crete|כרתים|chania|heraklion|חאניה|הרקליון/i], ["רודוס", /rhodes|רודוס/i], ["פיראוס", /piraeus|פיראוס/i], ["מיקונוס", /mykonos|מיקונוס/i], ["סנטוריני", /santorini|סנטוריני/i], ["קורפו", /corfu|קורפו/i], ["חלקידיקי", /chalkidiki|חלקידיקי/i], ["פלופונס", /peloponn|nafplio|פלופונס|נאפפליו/i], ["האיים היווניים", /islands|איים|cyclades|קיקלד/i]];
+export function igPlace(a) {
+  const t = `${a.slug} ${a.he.title}`;
+  const p = PLACES.find(([, re]) => re.test(t));
+  return p ? p[0] : "יוון";
+}
+export function igAltText(a) {
+  const place = igPlace(a);
+  return `${a.he.title}. ${KICKER[a.section] || "חדשות"} ${place === "יוון" ? "ביוון" : "ב" + place + ", יוון"} – יוונט, חדשות יוון בעברית לישראלים`.slice(0, 900);
+}
 export function igCaption(a) {
-  const tags = ["#יוון #יוונט", TAGS[a.section] || ""].join(" ").trim();
+  const pl = igPlace(a);
+  const tags = ["#יוון #יוונט", pl !== "יוון" ? "#" + pl.replace(/\s+/g, "") : "", TAGS[a.section] || ""].join(" ").replace(/\s+/g, " ").trim();
   // Ερώτηση στο τέλος → σχόλια· «στείλτε σε φίλο» → shares (το πιο δυνατό σήμα για νέους ακόλουθους)
   const Q = { travel: "👇 כבר הייתם שם? ספרו לנו בתגובות", "real-estate": "👇 הייתם קונים דירה ביוון? כתבו לנו", "jewish-greece": "👇 מכירים עוד מקום כשר? כתבו בתגובות", israelis: "👇 מה דעתכם? כתבו לנו בתגובות" };
   // σε τραγικές ειδήσεις (θάνατοι, δυστυχήματα) χωρίς ερώτηση/«στείλτε σε φίλο» και χωρίς ταξιδιωτικά hashtags
-  if (/נהרג|הרוג|נספ|מת |מתו |תאונ|התרסק|אסון|פצוע/.test(a.he.title + " " + a.he.dek)) return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n\n#יוון #יוונט`;
+  if (/נהרג|הרוג|נספ|מת |מתו |תאונ|התרסק|אסון|פצוע/.test(a.he.title + " " + a.he.dek)) return `${a.he.title}\n\n${a.he.dek}\n📍 ${igPlace(a) === "יוון" ? "יוון" : igPlace(a) + ", יוון"}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n\n#יוון #יוונט`;
   const q = Q[a.section] || "👇 מה דעתכם? כתבו לנו בתגובות";
-  return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n${q}\n📤 מכירים מישהו שטס ליוון? שלחו לו\n\n${tags}`;
+  return `${a.he.title}\n\n${a.he.dek}\n📍 ${igPlace(a) === "יוון" ? "יוון" : igPlace(a) + ", יוון"}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n${q}\n📤 מכירים מישהו שטס ליוון? שלחו לו\n\n${tags}`;
 }
 
 function chromeBin() {

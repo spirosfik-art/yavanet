@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadArticles, log, notifyOwner } from "./lib.mjs";
-import { igEligible, igEvergreen, igCaption, renderIgCard, IG_DIR } from "./ig-card.mjs";
+import { igEligible, igEvergreen, igCaption, igAltText, renderIgCard, IG_DIR } from "./ig-card.mjs";
 import { ctx, postStory } from "./meta.mjs";
 import { nextCarousel, renderCarousel, carouselCaption, markCarousel, readCarState } from "./ig-carousel.mjs";
 
@@ -49,7 +49,7 @@ if (cmd === "render") {
     for (let c = 0; c < 3; c++) {
       if (car && r === 0 && c === 1) {
         const files = renderCarousel(car, out, `r0c1-${car.id}`, pattern[c]);
-        plan.push({ row: r, col: c, carousel: car.id, files, file: files[0], caption: carouselCaption(car), style: pattern[c] });
+        plan.push({ row: r, col: c, carousel: car.id, files, file: files[0], caption: carouselCaption(car), alt: car.title + " – יוונט, יוון בעברית", style: pattern[c] });
         log("carousel:", car.id, files.length, "slides");
         continue;
       }
@@ -60,7 +60,7 @@ if (cmd === "render") {
       const file = `r${r}c${c}-${a.slug}.jpg`;
       fs.copyFileSync(path.join(IG_DIR, a.slug + ".jpg"), path.join(out, file));
       fs.rmSync(path.join(IG_DIR, a.slug + ".jpg"), { force: true });
-      plan.push({ row: r, col: c, slug: a.slug, file, caption: igCaption(a), style: pattern[c] });
+      plan.push({ row: r, col: c, slug: a.slug, file, caption: igCaption(a), alt: igAltText(a), style: pattern[c] });
     }
   }
   fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
@@ -79,7 +79,9 @@ if (cmd === "render") {
   const c = await ctx();
   if (!c.igId) throw new Error("δεν βρέθηκε λογαριασμός Instagram");
   const G = `https://graph.facebook.com/${process.env.META_GRAPH_VERSION || "v23.0"}`;
-  const call = async (p, params) => { const r = await fetch(G + p, { method: "POST", body: new URLSearchParams({ ...params, access_token: c.userToken }) }); const j = await r.json(); if (j.error) throw new Error(j.error.message); return j; };
+  const call0 = async (p, params) => { const r = await fetch(G + p, { method: "POST", body: new URLSearchParams({ ...params, access_token: c.userToken }) }); const j = await r.json(); if (j.error) throw new Error(j.error.message); return j; };
+  // alt_text (κείμενο για αναζήτηση/προσβασιμότητα): αν η Meta δεν το δεχτεί, ξαναδοκιμάζουμε χωρίς
+  const call = async (p, params) => { try { return await call0(p, params); } catch (e) { if (params.alt_text) { const { alt_text, ...rest } = params; log("alt_text απορρίφθηκε:", e.message); return call0(p, rest); } throw e; } };
   const wait = async (id) => { for (let i = 0; i < 30; i++) { const r = await (await fetch(`${G}/${id}?fields=status_code&access_token=${c.userToken}`)).json(); if (r.status_code === "FINISHED") return; if (r.status_code === "ERROR") throw new Error("container error"); await new Promise((s) => setTimeout(s, 5000)); } };
   const posted = readPosted();
   const rowsDone = Math.max(...plan.map((p) => p.row)) + 1;
@@ -90,7 +92,7 @@ if (cmd === "render") {
     try {
       if (p.carousel) {
         const kids = [];
-        for (const f of p.files) { const ch = await call(`/${c.igId}/media`, { image_url: `${base}/${f}`, is_carousel_item: "true" }); await wait(ch.id); kids.push(ch.id); }
+        for (const f of p.files) { const ch = await call(`/${c.igId}/media`, { image_url: `${base}/${f}`, is_carousel_item: "true", ...(p.alt ? { alt_text: p.alt } : {}) }); await wait(ch.id); kids.push(ch.id); }
         const m = await call(`/${c.igId}/media`, { media_type: "CAROUSEL", children: kids.join(","), caption: p.caption });
         await wait(m.id);
         await call(`/${c.igId}/media_publish`, { creation_id: m.id });
@@ -99,7 +101,7 @@ if (cmd === "render") {
         await new Promise((s) => setTimeout(s, 20000));
         continue;
       }
-      const m = await call(`/${c.igId}/media`, { image_url: `${base}/${p.file}`, caption: p.caption });
+      const m = await call(`/${c.igId}/media`, { image_url: `${base}/${p.file}`, caption: p.caption, ...(p.alt ? { alt_text: p.alt } : {}) });
       await wait(m.id);
       await call(`/${c.igId}/media_publish`, { creation_id: m.id });
       posted.push({ slug: p.slug, at: new Date().toISOString(), style: p.style });

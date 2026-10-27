@@ -148,7 +148,7 @@ const isSpam = (t) => !!t && SPAM.test(t) && !ownLinks.test(t);
 export async function replyComments() {
   const c = await ctx();
   let n = 0;
-  const alerts = [], hidden = [];
+  const alerts = [], hidden = [], newc = [];
   const fresh = (t) => Date.now() - Date.parse(t) < MAX_AGE_H * 3600e3;
   if (c.igId) {
     const media = await api(`/${c.igId}/media`, { token: c.userToken, params: { fields: "id,permalink,comments_count,comments.limit(50){id,text,username,timestamp,replies{username}}", limit: "15" } });
@@ -158,6 +158,7 @@ export async function replyComments() {
           try { await api(`/${cm.id}`, { method: "POST", token: c.userToken, params: { hide: "true" } }); hidden.push(`IG @${cm.username}: «${(cm.text || "").slice(0, 120)}»`); } catch (e) { log("ig hide", e.message); }
           continue;
         }
+        if (cm.username !== c.igUser && fresh(cm.timestamp)) newc.push({ id: cm.id, txt: `📸 @${cm.username}: «${(cm.text || "").slice(0, 200)}»\n${m.permalink}` });
         if (cm.username === c.igUser || !fresh(cm.timestamp) || !KEYWORDS.test(cm.text || "")) continue;
         if (((cm.replies && cm.replies.data) || []).some((r) => r.username === c.igUser)) continue;
         try {
@@ -174,6 +175,7 @@ export async function replyComments() {
         try { await api(`/${cm.id}`, { method: "POST", token: c.pageToken, params: { is_hidden: "true" } }); hidden.push(`FB ${(cm.from && cm.from.name) || ""}: «${(cm.message || "").slice(0, 120)}»`); } catch (e) { log("fb hide", e.message); }
         continue;
       }
+      if ((cm.from && cm.from.id) !== c.pageId && fresh(cm.created_time)) newc.push({ id: cm.id, txt: `📘 ${(cm.from && cm.from.name) || ""}: «${(cm.message || "").slice(0, 200)}»\n${p.permalink_url}` });
       if ((cm.from && cm.from.id) === c.pageId || !fresh(cm.created_time) || !KEYWORDS.test(cm.message || "")) continue;
       if (((cm.comments && cm.comments.data) || []).some((r) => r.from && r.from.id === c.pageId)) continue;
       try {
@@ -183,6 +185,13 @@ export async function replyComments() {
     }
   }
   if (alerts.length) await notifyOwner(`💬 Απάντησα αυτόματα σε ${alerts.length} σχόλια (με link WhatsApp):\n\n${alerts.join("\n\n")}`.slice(0, 3900)).catch(() => {});
+  // Ειδοποίηση για ΚΑΘΕ νέο σχόλιο (για απάντηση μέσα στην πρώτη ώρα – σήμα για τον αλγόριθμο)
+  const seenFile = path.join(ROOT, "content/ig/comment-seen.json");
+  let seen = []; try { seen = JSON.parse(fs.readFileSync(seenFile, "utf8")); } catch {}
+  const firstRun = !seen.length;
+  const unseen = newc.filter((x) => !seen.includes(x.id));
+  if (unseen.length && !firstRun) await notifyOwner(`💬 Νέα σχόλια (${unseen.length}) – απάντησε μέσα σε 1 ώρα για περισσότερη προβολή:\n\n${unseen.map((x) => x.txt).join("\n\n")}`.slice(0, 3900)).catch(() => {});
+  if (unseen.length) fs.writeFileSync(seenFile, JSON.stringify([...seen, ...unseen.map((x) => x.id)].slice(-2000)));
   if (hidden.length) await notifyOwner(`🧹 Έκρυψα ${hidden.length} spam σχόλια:\n\n${hidden.join("\n")}`.slice(0, 3900)).catch(() => {});
   log("comments: απαντήσεις", n, "· spam κρυμμένα", hidden.length);
   return n;
