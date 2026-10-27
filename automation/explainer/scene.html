@@ -1,0 +1,268 @@
+<!doctype html>
+<html dir="rtl"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@700;800&family=Frank+Ruhl+Libre:wght@900&display=block" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#050d18}
+#gl,#svg{position:absolute;inset:0;width:1080px;height:1920px}
+#svg{pointer-events:none}
+.brand{position:absolute;top:120px;left:0;right:0;text-align:center;font:800 40px Assistant,sans-serif;color:rgba(255,255,255,.85);letter-spacing:1px}
+.brand b{color:#F0B650}
+#cap{position:absolute;top:1130px;left:60px;right:60px;display:flex;justify-content:center}
+#cap span{background:#fff;color:#0a0a0a;font:800 74px/1.15 Assistant,sans-serif;padding:14px 34px;border-radius:22px;box-shadow:0 8px 40px rgba(0,0,0,.45);white-space:nowrap}
+#cap em{font-style:normal;color:#E0312B}
+#fade{position:absolute;inset:0;background:#050d18;opacity:0}
+</style></head><body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<svg id="svg" viewBox="0 0 1080 1920"><defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="vig" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#0d2238"/><stop offset="1" stop-color="#050d18"/></radialGradient>
+</defs><g id="layer"></g></svg>
+<div class="brand">יוונט <b>מסביר</b></div>
+<div id="cap"></div>
+<div id="fade"></div>
+<script type="module">
+import * as THREE from "./three.module.min.js";
+const EP = window.EP;
+const W = 1080, H = 1920, GOLD = 0xF0B650, WHITE = 0xffffff;
+const ease = (x) => (x < 0 ? 0 : x > 1 ? 1 : x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const clamp = (x) => Math.max(0, Math.min(1, x));
+const rnd = (() => { let s = 7; return () => (s = (s * 16807) % 2147483647) / 2147483647; })();
+
+// ---------- 3D ----------
+const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("gl"), antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H, false); renderer.setPixelRatio(1);
+renderer.setClearColor(0x071423);
+const edgeMat = new THREE.LineBasicMaterial({ color: WHITE, transparent: true, opacity: .9 });
+const goldEdge = new THREE.LineBasicMaterial({ color: GOLD });
+function winTex(lit = .35) {
+  const c = document.createElement("canvas"); c.width = 64; c.height = 128; const g = c.getContext("2d");
+  g.fillStyle = "#0b1d30"; g.fillRect(0, 0, 64, 128);
+  for (let y = 6; y < 124; y += 14) for (let x = 6; x < 60; x += 14) { g.fillStyle = rnd() < lit ? (rnd() < .5 ? "#ffd58a" : "#cfe6ff") : "#13283f"; g.fillRect(x, y, 8, 8); }
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.magFilter = THREE.NearestFilter; return t;
+}
+function boxWithEdges(w, h, d, mat, edge = edgeMat) {
+  const geo = new THREE.BoxGeometry(w, h, d); const m = new THREE.Mesh(geo, mat);
+  m.add(new THREE.LineSegments(new THREE.EdgesGeometry(geo), edge)); return m;
+}
+function textPlane(txt, w, h, opts = {}) {
+  const c = document.createElement("canvas"); c.width = 1024; c.height = Math.round(1024 * h / w); const g = c.getContext("2d");
+  g.fillStyle = opts.bg || "#0B3A5B"; g.fillRect(0, 0, c.width, c.height);
+  g.strokeStyle = "#F0B650"; g.lineWidth = 10; g.strokeRect(5, 5, c.width - 10, c.height - 10);
+  g.fillStyle = "#fff"; g.font = `800 ${opts.size || 150}px Assistant, sans-serif`; g.textAlign = "center"; g.textBaseline = "middle"; g.direction = "rtl";
+  g.fillText(txt, c.width / 2, c.height / 2 + 8);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  return new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: t }));
+}
+
+// Μακέτα: κομμάτι πόλης που αιωρείται, διάφανο υπέδαφος με στρώματα, τούνελ, μηχάνημα διάνοιξης και αρχαία που λάμπουν
+function lights(sc) {
+  sc.add(new THREE.HemisphereLight(0xbfd8ff, 0x1a1a2e, 1.6));
+  const d = new THREE.DirectionalLight(0xffe2b0, 2.2); d.position.set(14, 30, 18); sc.add(d);
+}
+function buildCity() {
+  const sc = new THREE.Scene(); lights(sc);
+  const S = 18, root = new THREE.Group(); sc.add(root);
+  // επιφάνεια + δρόμοι
+  const top = boxWithEdges(S, .5, S, new THREE.MeshStandardMaterial({ color: 0x24384f, roughness: .9 })); top.position.y = -.25; root.add(top);
+  for (const z of [-3, 4.5]) { const r = new THREE.Mesh(new THREE.BoxGeometry(S, .02, 1.4), new THREE.MeshBasicMaterial({ color: 0x0e1a28 })); r.position.set(0, .01, z); root.add(r);
+    for (let x = -8; x < 8; x += 1.6) { const m = new THREE.Mesh(new THREE.BoxGeometry(.7, .03, .08), new THREE.MeshBasicMaterial({ color: GOLD })); m.position.set(x, .03, z); root.add(m); } }
+  const texes = [winTex(.35), winTex(.5), winTex(.25)];
+  const blocks = [[-6.5, -7], [-2.2, -7], [2.2, -7], [6.5, -7], [-6.5, .7], [-2.2, .7], [2.2, .7], [6.5, .7], [-6.5, 7.4], [-2.2, 7.4], [2.2, 7.4], [6.5, 7.4]];
+  blocks.forEach(([x, z], k) => {
+    const h = 2.2 + ((k * 37) % 7) * .9, w = 2.6, d = 2.6;
+    const t = texes[k % 3].clone(); t.wrapT = THREE.RepeatWrapping; t.repeat.set(1, h / 3); t.needsUpdate = true;
+    const mat = new THREE.MeshStandardMaterial({ color: 0x2f4a66, map: t, emissive: 0xffffff, emissiveMap: t, emissiveIntensity: .7, roughness: .7 });
+    const b = boxWithEdges(w, h, d, mat, new THREE.LineBasicMaterial({ color: 0xcfe6ff, transparent: true, opacity: .7 })); b.position.set(x, h / 2, z); root.add(b);
+    const roof = new THREE.Mesh(new THREE.BoxGeometry(w * .5, .3, d * .5), new THREE.MeshStandardMaterial({ color: 0x3d5a78 })); roof.position.set(x, h + .15, z); root.add(roof);
+  });
+  // υπέδαφος: 3 διάφανα στρώματα
+  const cols = [0x8a5a2b, 0x6b4321, 0x4a2e17];
+  cols.forEach((c, i) => {
+    const g = new THREE.BoxGeometry(S, 3.2, S);
+    const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: c, transparent: true, opacity: .42, roughness: 1, depthWrite: false }));
+    m.position.y = -.5 - 1.6 - i * 3.2; root.add(m);
+    const e = new THREE.LineSegments(new THREE.EdgesGeometry(g), new THREE.LineBasicMaterial({ color: 0xd9a868, transparent: true, opacity: .55 })); e.position.copy(m.position); root.add(e);
+  });
+  // τούνελ κατά μήκος του z
+  const tun = new THREE.Mesh(new THREE.CylinderGeometry(1.25, 1.25, S, 40, 1, true), new THREE.MeshBasicMaterial({ color: 0x9fd4ff, transparent: true, opacity: .18, side: THREE.DoubleSide, depthWrite: false }));
+  tun.rotation.x = Math.PI / 2; tun.position.set(0, -7.4, 0); root.add(tun);
+  const rings = new THREE.Group();
+  for (let z = -8.5; z <= 8.5; z += 1.5) { const r = new THREE.Mesh(new THREE.TorusGeometry(1.25, .045, 6, 40), new THREE.MeshBasicMaterial({ color: 0xcfeaff })); r.position.set(0, -7.4, z); rings.add(r); }
+  root.add(rings);
+  const tbm = new THREE.Group();
+  const body = new THREE.Mesh(new THREE.CylinderGeometry(1.05, 1.05, 4, 24), new THREE.MeshStandardMaterial({ color: 0x9fb4c8, metalness: .5, roughness: .4 })); body.rotation.x = Math.PI / 2;
+  const head = new THREE.Mesh(new THREE.CylinderGeometry(1.2, 1.2, .35, 24), new THREE.MeshBasicMaterial({ color: GOLD })); head.rotation.x = Math.PI / 2; head.position.z = 2.15;
+  const spokes = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.CylinderGeometry(1.2, 1.2, .36, 8)), new THREE.LineBasicMaterial({ color: 0x5a3a00 })); spokes.rotation.x = Math.PI / 2; spokes.position.z = 2.15;
+  tbm.add(body, head, spokes); tbm.position.set(0, -7.4, -6); root.add(tbm);
+  // αρχαία μέσα στο χώμα
+  const arts = new THREE.Group();
+  for (let k = 0; k < 34; k++) {
+    const g = new THREE.Mesh(new THREE.OctahedronGeometry(.22 + rnd() * .18, 0), new THREE.MeshBasicMaterial({ color: GOLD, transparent: true }));
+    let x, y, z; do { x = -8 + rnd() * 16; y = -1.2 - rnd() * 8.6; z = -8 + rnd() * 16; } while (Math.hypot(x, y + 7.4) < 1.8);
+    g.position.set(x, y, z); g.userData.k = k; arts.add(g);
+  }
+  root.add(arts);
+  const cam = new THREE.PerspectiveCamera(38, W / H, .1, 300);
+  return { sc, cam, update(t, p, variant) {
+    if (variant === 1) { // από ψηλά, πάνω από τις στέγες → ανοίγει και φαίνεται όλη η μακέτα
+      const a = ease(p); const R = 14 + 34 * a, ang = .9 - .35 * a;
+      cam.position.set(Math.sin(ang) * R, 22 + 4 * a - 14 * (1 - a) * 0, Math.cos(ang) * R); cam.lookAt(0, 3 - 7 * a, 0);
+      tbm.position.z = -6; arts.children.forEach((g) => { g.material.opacity = .25; g.scale.setScalar(.8); });
+    } else { // γύρος γύρω από τη μακέτα, το μηχάνημα προχωρά, τα αρχαία ανάβουν
+      const ang = .55 + .5 * p, R = 40;
+      cam.position.set(Math.sin(ang) * R, 9 - 3 * p, Math.cos(ang) * R); cam.lookAt(0, -4, 0);
+      tbm.position.z = -6 + 9 * ease(p);
+      arts.children.forEach((g) => { const on = clamp(p * 1.4 * 34 / 34 - g.userData.k / 34 + .2); g.material.opacity = .25 + .75 * on; g.scale.setScalar(.8 + .8 * on); g.rotation.y = t * 2 + g.userData.k; });
+    }
+    head.rotation.y = t * 5; spokes.rotation.y = t * 5;
+  } };
+}
+// Σταθμός μετρό σε τομή: αποβάθρα, θόλος, πινακίδα, συρμός χωρίς οδηγό που μπαίνει
+function buildStation() {
+  const sc = new THREE.Scene(); lights(sc);
+  const root = new THREE.Group(); sc.add(root);
+  const L = 30;
+  const floor = boxWithEdges(L, .6, 7, new THREE.MeshStandardMaterial({ color: 0x3a5068, roughness: .6 })); floor.position.set(0, -.3, 3.5); root.add(floor);
+  const strip = new THREE.Mesh(new THREE.BoxGeometry(L, .04, .35), new THREE.MeshBasicMaterial({ color: GOLD })); strip.position.set(0, .03, .3); root.add(strip);
+  const bed = boxWithEdges(L, .3, 4.6, new THREE.MeshStandardMaterial({ color: 0x1c2733 })); bed.position.set(0, -1.6, -2.3); root.add(bed);
+  for (const z of [-1.6, -3]) { const rail = new THREE.Mesh(new THREE.BoxGeometry(L, .12, .12), new THREE.MeshStandardMaterial({ color: 0xaab8c6, metalness: .8 })); rail.position.set(0, -1.38, z); root.add(rail); }
+  const back = boxWithEdges(L, 9, .4, new THREE.MeshStandardMaterial({ color: 0x23384e })); back.position.set(0, 3, 7.2); root.add(back);
+  // βιτρίνες με αρχαία στον τοίχο
+  for (let x = -12; x <= 12; x += 6) { const v = boxWithEdges(3.2, 2.6, .6, new THREE.MeshStandardMaterial({ color: 0x0d1b2a, emissive: 0x332200, transparent: true, opacity: .85 }), goldEdge); v.position.set(x, 2.4, 6.8); root.add(v);
+    const a = new THREE.Mesh(new THREE.LatheGeometry([0, .35, .55, .5, .3, .22, .28].map((r, i) => new THREE.Vector2(r, i * .25)), 16), new THREE.MeshBasicMaterial({ color: GOLD })); a.position.set(x, 1.6, 6.6); root.add(a); }
+  const sign = textPlane("Βενιζέλου · VENIZELOU", 10, 1.4, { size: 84 }); sign.position.set(0, 5.6, 6.95); sign.rotation.y = Math.PI; root.add(sign);
+  for (let x = -12; x <= 12; x += 4) { const l = new THREE.Mesh(new THREE.BoxGeometry(2.6, .1, .3), new THREE.MeshBasicMaterial({ color: 0xeaf4ff })); l.position.set(x, 7.4, 3); root.add(l); }
+  const train = new THREE.Group();
+  for (let k = 0; k < 3; k++) {
+    const car = boxWithEdges(9.6, 3.3, 2.8, new THREE.MeshStandardMaterial({ color: 0xe9eef3, roughness: .35, metalness: .25 }), new THREE.LineBasicMaterial({ color: 0x0b3a5b }));
+    car.position.x = k * 10;
+    const stripe = new THREE.Mesh(new THREE.BoxGeometry(9.62, .4, 2.82), new THREE.MeshBasicMaterial({ color: 0x0B3A5B })); stripe.position.y = -.85; car.add(stripe);
+    for (let w = -3.6; w <= 3.6; w += 1.8) { const win = new THREE.Mesh(new THREE.PlaneGeometry(1.25, 1.1), new THREE.MeshBasicMaterial({ color: 0xffe2a0 })); win.position.set(w, .45, 1.42); car.add(win); const w2 = win.clone(); w2.position.z = -1.42; w2.rotation.y = Math.PI; car.add(w2); }
+    train.add(car);
+  }
+  train.position.set(34, .45, -2.3); root.add(train);
+  // πάνω από τον σταθμό: χώμα και η πόλη (ο σταθμός είναι υπόγειος)
+  const soil = new THREE.Mesh(new THREE.BoxGeometry(L, 6, 11), new THREE.MeshStandardMaterial({ color: 0x9a6a38, transparent: true, opacity: .55, depthWrite: false })); soil.position.set(0, 10.8, 1.6); root.add(soil);
+  const se = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(L, 6, 11)), new THREE.LineBasicMaterial({ color: 0xd9a868, transparent: true, opacity: .6 })); se.position.copy(soil.position); root.add(se);
+  const street = boxWithEdges(L, .4, 11, new THREE.MeshStandardMaterial({ color: 0x24384f })); street.position.set(0, 14, 1.6); root.add(street);
+  const tx = winTex(.4);
+  for (let k = 0; k < 6; k++) { const h = 3 + (k * 41) % 5, t = tx.clone(); t.wrapT = THREE.RepeatWrapping; t.repeat.set(1, h / 3); t.needsUpdate = true;
+    const b = boxWithEdges(3.4, h, 3.4, new THREE.MeshStandardMaterial({ color: 0x2f4a66, map: t, emissive: 0xffffff, emissiveMap: t, emissiveIntensity: .7 }), new THREE.LineBasicMaterial({ color: 0xcfe6ff, transparent: true, opacity: .7 }));
+    b.position.set(-12.5 + k * 5, 14.2 + h / 2, 3.5); root.add(b); }
+  const cam = new THREE.PerspectiveCamera(40, W / H, .1, 200);
+  return { sc, cam, update(t, p) {
+    train.position.x = 34 - 38 * ease(clamp(p * 1.25));
+    const ang = -.45 + .3 * p, R = 52 - 5 * p;
+    cam.position.set(Math.sin(ang) * R, 9 - 2 * p, -Math.cos(ang) * R + 2); cam.lookAt(0, 5.5, 1.5);
+  } };
+}
+const THREED = { city: buildCity(), station: buildStation() };
+
+// ---------- νέον SVG ----------
+const NS = "http://www.w3.org/2000/svg";
+const layer = document.getElementById("layer");
+function el(tag, attrs, parent = layer) { const e = document.createElementNS(NS, tag); for (const k in attrs) if (attrs[k] !== null) e.setAttribute(k, attrs[k]); parent.appendChild(e); return e; }
+function draw(d, p, color = "#fff", w = 6, extra = {}) { // σταδιακό «σχέδιο» μιας γραμμής
+  const e = el("path", { d, fill: "none", stroke: color, "stroke-width": w, "stroke-linecap": "round", "stroke-linejoin": "round", filter: "url(#glow)", pathLength: 1, "stroke-dasharray": 1, "stroke-dashoffset": 1 - clamp(p), ...extra });
+  return e;
+}
+function circ(cx, cy, r, p, color = "#fff", w = 6) { return draw(`M${cx} ${cy - r}a${r} ${r} 0 1 0 .01 0`, p, color, w); }
+const AMPH = (x, y, s = 1) => `M${x - 18 * s} ${y - 60 * s}h${36 * s}M${x - 10 * s} ${y - 60 * s}v${12 * s}c${-30 * s} ${10 * s} ${-36 * s} ${40 * s} ${-22 * s} ${70 * s}l${14 * s} ${28 * s}h${36 * s}l${14 * s} ${-28 * s}c${14 * s} ${-30 * s} ${8 * s} ${-60 * s} ${-22 * s} ${-70 * s}v${-12 * s}M${x - 22 * s} ${y - 40 * s}c${-14 * s} 0 ${-16 * s} ${18 * s} ${-4 * s} ${22 * s}M${x + 22 * s} ${y - 40 * s}c${14 * s} 0 ${16 * s} ${18 * s} ${4 * s} ${22 * s}`;
+function stars(n = 70) { for (let i = 0; i < n; i++) el("circle", { cx: (i * 137) % 1080, cy: (i * 293) % 1920, r: 1.6, fill: "#5d7ea3", opacity: .5 }); }
+const NEON = {
+  counter(p) {
+    stars();
+    const n = 12;
+    for (let i = 0; i < n; i++) { const col = i % 4, row = Math.floor(i / 4); draw(AMPH(240 + col * 200, 520 + row * 190, 1), (p * 1.6 - i * .07) * 3, i % 3 === 0 ? "#F0B650" : "#fff", 5); }
+    const v = Math.round(300000 * ease(clamp(p * 1.25)));
+    el("text", { x: 540, y: 1060, "text-anchor": "middle", fill: "#fff", "font-family": "Frank Ruhl Libre, serif", "font-weight": 900, "font-size": 150, filter: "url(#glow2)" }).textContent = v.toLocaleString("en-US") + "+";
+  },
+  stop(p) {
+    stars();
+    const r = 230, cx = 540, cy = 720; let d = "";
+    for (let k = 0; k < 8; k++) { const a = Math.PI / 8 + k * Math.PI / 4; d += (k ? "L" : "M") + (cx + r * Math.cos(a)).toFixed(1) + " " + (cy + r * Math.sin(a)).toFixed(1); }
+    draw(d + "Z", p * 2.2, "#E0312B", 9);
+    draw(`M500 640v160M580 640v160`, p * 2.2 - .6, "#fff", 18);
+    // πινέλο αρχαιολόγου + αμφορέας
+    draw(AMPH(300, 1060, .9), p * 2 - .8, "#F0B650", 5);
+    draw(`M740 980l90 -90M720 1000l40 40l-40 30l-40 -40z`, p * 2 - 1, "#fff", 6);
+  },
+  road(p) {
+    stars(40);
+    const top = 620, bot = 1560, tw = 90, bw = 440; // τραπέζιο δρόμου
+    const X = (f, side) => 540 + side * (tw + (bw - tw) * f), Y = (f) => top + (bot - top) * f;
+    draw(`M${X(0, -1)} ${top}L${X(1, -1)} ${bot}M${X(0, 1)} ${top}L${X(1, 1)} ${bot}`, p * 2.5, "#fff", 7);
+    for (let k = 0; k <= 10; k++) { const f = Math.pow(k / 10, 1.6); draw(`M${X(f, -1)} ${Y(f)}H${X(f, 1)}`, p * 3 - .2 - k * .08, "#cfe0f2", 2 + 3 * f); }
+    for (let c = -2; c <= 2; c++) draw(`M${540 + c * tw / 2.5} ${top}L${540 + c * bw / 2.5} ${bot}`, p * 3 - .6, "#9fc3e6", 2.5);
+    for (let k = 0; k < 5; k++) { const f = .1 + k * .22, y = Y(f), h = 140 + 420 * f, cw = 14 + 24 * f;
+      for (const side of [-1, 1]) { const x = X(f, side) + side * (40 + 60 * f); draw(`M${x - cw} ${y}h${2 * cw}M${x - cw * .7} ${y}V${y - h}M${x + cw * .7} ${y}V${y - h}M${x - cw * 1.2} ${y - h}h${2.4 * cw}`, p * 2.5 - .5 - k * .12, "#F0B650", 3 + 3 * f); } }
+  },
+  depth(p) {
+    stars(30);
+    draw(`M60 470H1020`, p * 3, "#fff", 6);
+    for (let k = 0; k < 6; k++) { const x = 110 + k * 150, h = 120 + (k * 53) % 140; draw(`M${x} 470V${470 - h}H${x + 110}V470`, p * 3 - .2 - k * .08, "#9fc3e6", 4); }
+    const yb = 470 + 810 * ease(clamp((p - .1) * 1.5));
+    el("path", { d: `M540 480V${yb}`, stroke: "#F0B650", "stroke-width": 7, "stroke-dasharray": "22 16", fill: "none", filter: "url(#glow)" });
+    el("path", { d: `M515 ${yb - 30}L540 ${yb}L565 ${yb - 30}`, stroke: "#F0B650", "stroke-width": 7, fill: "none", filter: "url(#glow)" });
+    for (let m = 0; m <= 30; m += 10) { const y = 480 + m * 26; if (y < yb) el("text", { x: 600, y: y + 14, fill: "#cfe0f2", "font-family": "Assistant", "font-weight": 800, "font-size": 48 }).textContent = m + " מ׳"; }
+    circ(540, 1400, 95, (p - .55) * 3, "#fff", 9);
+    if (p > .6) el("text", { x: 540, y: 1640, "text-anchor": "middle", fill: "#F0B650", "font-family": "Frank Ruhl Libre", "font-weight": 900, "font-size": 150, filter: "url(#glow2)" }).textContent = "31 מ׳";
+  },
+  crisis(p) {
+    stars(40);
+    draw(`M160 380V1180H960`, p * 3, "#cfe0f2", 5);
+    draw(`M180 520L360 600L470 560L600 900L720 1010L820 1120L940 1150`, p * 1.6 - .2, "#E0312B", 9);
+    circ(760, 560, 120, p * 2 - .5, "#F0B650", 7);
+    el("text", { x: 760, y: 610, "text-anchor": "middle", fill: "#F0B650", "font-family": "Assistant", "font-weight": 800, "font-size": 150, opacity: clamp(p * 3 - 1.2), filter: "url(#glow)" }).textContent = "€";
+  },
+  museum(p) {
+    stars(30);
+    draw(`M120 1300V700Q540 380 960 700V1300H120`, p * 2, "#fff", 6);
+    for (let k = 0; k < 3; k++) { const x = 230 + k * 230; draw(`M${x} 1240V900H${x + 170}V1240Z`, p * 2.4 - .5 - k * .15, "#9fc3e6", 5); draw(AMPH(x + 85, 1110, .8), p * 2.4 - .8 - k * .15, "#F0B650", 5); }
+    draw(`M120 1300H960`, p * 2, "#F0B650", 5);
+  },
+  cta(p) {
+    stars(60);
+    const s = ease(clamp(p * 2));
+    const g = el("g", { transform: `translate(540 760) scale(${.6 + .4 * s}) translate(-256 -256)`, opacity: s });
+    g.innerHTML = `<rect width="512" height="512" rx="112" fill="#0B3A5B" stroke="#F0B650" stroke-width="8"/><path d="M150 112H232Q262 112 262 142V392H206V168H150Q134 168 134 152V128Q134 112 150 112Z" fill="#fff"/><path d="M318 112H382Q414 112 414 144V168Q414 224 360 262L334 228Q358 210 364 188H318Q302 188 302 172V128Q302 112 318 112Z" fill="#F0B650"/><path d="M120 444Q170 416 220 444T320 444T410 444" fill="none" stroke="#2A8BC4" stroke-width="24" stroke-linecap="round"/>`;
+    g.setAttribute("filter", "url(#glow2)");
+    el("text", { x: 540, y: 1150, "text-anchor": "middle", fill: "#fff", "font-family": "Assistant", "font-weight": 800, "font-size": 70, opacity: clamp(p * 3 - .6) }).textContent = "@yavanet";
+  },
+};
+
+// ---------- υπότιτλοι ----------
+const cap = document.getElementById("cap");
+function caption(t) {
+  for (const s of EP.scenes) {
+    if (t < s.start || t >= s.start + s.dur) continue;
+    const c = s.chunks.find((c) => t >= c.t0 && t < c.t1) || (t >= s.chunks.at(-1).t0 ? s.chunks.at(-1) : null);
+    cap.innerHTML = c ? `<span>${c.html}</span>` : ""; return;
+  }
+  cap.innerHTML = "";
+}
+
+window.drawFrame = (t) => {
+  const s = EP.scenes.find((x) => t >= x.start && t < x.start + x.dur) || EP.scenes.at(-1);
+  const p = clamp((t - s.start) / s.dur);
+  layer.innerHTML = "";
+  const is3d = ["city", "city2", "train"].includes(s.type);
+  document.getElementById("gl").style.opacity = is3d ? 1 : 0;
+  if (is3d) {
+    const sc = s.type === "train" ? THREED.station : THREED.city;
+    sc.update(t, p, s.type === "city" ? 1 : 2);
+    renderer.render(sc.sc, sc.cam);
+  } else {
+    el("rect", { width: 1080, height: 1920, fill: "url(#vig)" });
+    (NEON[s.type] || (() => {}))(p, t);
+  }
+  caption(t);
+  // σύντομο «flash» μετάβασης
+  const since = t - s.start, until = s.start + s.dur - t;
+  document.getElementById("fade").style.opacity = since < .18 ? (1 - since / .18) * .9 : until < .1 ? (1 - until / .1) * .5 : 0;
+  return true;
+};
+window.READY = true;
+</script></body></html>
