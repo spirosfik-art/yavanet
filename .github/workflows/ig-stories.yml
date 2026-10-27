@@ -1,0 +1,75 @@
+# Αυτόματα stories (IG + FB). Ώρες UTC (χειμώνας: Αθήνα = UTC+2):
+#   πρωινό 06:23 (08:23 Αθήνα) · θέμα ημέρας 10:47 (12:47) · βραδινό 18:41 (20:41) · έκτακτα: κάθε ώρα 05:13–20:13
+# Σάββατο: τίποτα πριν τις 19:00 ώρα Αθήνας (το ελέγχει το script). Το «θέμα ημέρας» ξεκινά 4/11 (μέχρι 3/11 τρέχουν τα stories του Business Suite).
+name: IG stories
+on:
+  schedule:
+    - cron: "23 6 * * *"
+    - cron: "47 10 * * *"
+    - cron: "41 18 * * *"
+    - cron: "13 5-20 * * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "morning | topic | evening | alerts"
+        default: "morning"
+      publish:
+        description: "yes = ανάρτηση, no = μόνο προεπισκόπηση (branch stories)"
+        default: "no"
+      date:
+        description: "προεπισκόπηση για άλλη ημερομηνία (YYYY-MM-DD, μόνο με publish=no)"
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-stories
+  cancel-in-progress: false
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      KIND: ${{ github.event.inputs.kind || (github.event.schedule == '23 6 * * *' && 'morning' || github.event.schedule == '47 10 * * *' && 'topic' || github.event.schedule == '41 18 * * *' && 'evening' || 'alerts') }}
+      PUBLISH: ${{ github.event.inputs.publish || 'yes' }}
+      STORY_DATE: ${{ github.event.inputs.publish == 'no' && github.event.inputs.date || '' }}
+      FORCE: ${{ github.event.inputs.publish == 'no' && '1' || '' }}
+    steps:
+      - name: Pause θέματος ημέρας μέχρι 3/11
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$KIND" = "topic" ] && [ "$(date -u +%Y%m%d)" -lt 20261104 ]; then echo "PAUSED=1" >> $GITHUB_ENV; fi
+      - uses: actions/checkout@v4
+        if: env.PAUSED != '1'
+      - uses: actions/setup-node@v4
+        if: env.PAUSED != '1'
+        with:
+          node-version: 20
+      - name: Render
+        if: env.PAUSED != '1'
+        run: |
+          node automation/ig-stories.mjs render "$KIND" stories-out 2>&1 | tee r.log
+          echo "N=$(node -e "console.log(JSON.parse(require('fs').readFileSync('stories-out/plan.json','utf8')).length)")" >> $GITHUB_ENV
+          echo "::notice::$(tail -c 600 r.log | tr '\n' ' ')"
+      - name: Upload (branch stories, public raw URLs)
+        if: env.PAUSED != '1' && env.N != '0'
+        run: |
+          cp -r stories-out /tmp/sto && cd /tmp/sto
+          git init -q -b stories && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "stories [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" stories
+          sleep 15
+      - name: Publish
+        if: env.PAUSED != '1' && env.N != '0' && env.PUBLISH == 'yes'
+        run: |
+          node automation/ig-stories.mjs publish stories-out "https://raw.githubusercontent.com/${{ github.repository }}/stories" 2>&1 | tee pub.log
+          echo "::notice::$(tail -c 900 pub.log | tr '\n' ' ')"
+      - name: Save state
+        if: env.PAUSED != '1' && env.N != '0' && env.PUBLISH == 'yes'
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add content/ig/stories.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "auto: stories [skip ci]" && (git push || (git pull --rebase -X theirs && git push)))
