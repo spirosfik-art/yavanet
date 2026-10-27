@@ -41,7 +41,10 @@ jobs:
           sleep 20
       - name: Publish
         if: (github.event.inputs.publish || 'yes') == 'yes'
-        run: node automation/ig-batch.mjs publish ig-batch "https://raw.githubusercontent.com/${{ github.repository }}/ig-batch"
+        run: |
+          node automation/ig-batch.mjs publish ig-batch "https://raw.githubusercontent.com/${{ github.repository }}/ig-batch" 2>&1 | tee pub.log; rc=${PIPESTATUS[0]}
+          echo "::notice::$(tail -c 1500 pub.log | tr '\n' ' ')"
+          exit $rc
       - name: Save state
         if: (github.event.inputs.publish || 'yes') == 'yes'
         run: |
