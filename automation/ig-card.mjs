@@ -35,7 +35,10 @@ export function igEvergreen(a) {
 
 export function igCaption(a) {
   const tags = ["#יוון #יוונט", TAGS[a.section] || ""].join(" ").trim();
-  return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n${tags}`;
+  // Ερώτηση στο τέλος → σχόλια· «στείλτε σε φίλο» → shares (το πιο δυνατό σήμα για νέους ακόλουθους)
+  const Q = { travel: "👇 כבר הייתם שם? ספרו לנו בתגובות", "real-estate": "👇 הייתם קונים דירה ביוון? כתבו לנו", "jewish-greece": "👇 מכירים עוד מקום כשר? כתבו בתגובות", israelis: "👇 מה דעתכם? כתבו לנו בתגובות" };
+  const q = Q[a.section] || "👇 מה דעתכם? כתבו לנו בתגובות";
+  return `${a.he.title}\n\n${a.he.dek}\n\n🔗 הכתבה המלאה באתר, הקישור בביו\n👈 yavanet.gr/ig\n💬 שאלה? שלחו לנו הודעה\n\n${q}\n📤 מכירים מישהו שטס ליוון? שלחו לו\n\n${tags}`;
 }
 
 function chromeBin() {
