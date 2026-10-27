@@ -26,6 +26,7 @@ jobs:
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
       SITE_URL: ${{ vars.SITE_URL }}
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TASK: ${{ github.event.inputs.task || (github.event.schedule == '7 17 * * *' && 'reel' || 'comments') }}
     steps:
       - uses: actions/checkout@v4

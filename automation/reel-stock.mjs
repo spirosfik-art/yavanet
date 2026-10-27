@@ -56,6 +56,40 @@ async function pexelsClip(query, i) {
   throw new Error("χωρίς βίντεο για " + query);
 }
 
+// ---------- Φωνή εκφωνητή (Gemini TTS, δωρεάν κλειδί GEMINI_API_KEY) ----------
+const GK = env.GEMINI_API_KEY;
+let ttsModel = null;
+async function pickTtsModel() {
+  if (ttsModel) return ttsModel;
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=${GK}`);
+  const j = await r.json();
+  const names = (j.models || []).map((m) => m.name.replace("models/", "")).filter((n) => /tts/i.test(n));
+  ttsModel = names.find((n) => /flash/.test(n)) || names[0] || "gemini-2.5-flash-preview-tts";
+  log("tts model:", ttsModel, "· διαθέσιμα:", names.join(", "));
+  return ttsModel;
+}
+function durOf(f) { return Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim()) || 0; }
+async function speak(text, i) {
+  const model = await pickTtsModel();
+  const prompt = `קרא בעברית, בטון של קריין חדשות מקצועי בטלוויזיה הישראלית: ברור, בטוח, בקצב ענייני ולא מהיר מדי.\n\n${text}`;
+  for (let k = 0; k < 3; k++) {
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) });
+    const j = await r.json().catch(() => ({}));
+    const part = j.candidates && j.candidates[0] && j.candidates[0].content && (j.candidates[0].content.parts || []).find((p) => p.inlineData);
+    if (part) {
+      const raw = path.join(out, `a${i}.pcm`), wav = path.join(out, `a${i}.wav`);
+      fs.writeFileSync(raw, Buffer.from(part.inlineData.data, "base64"));
+      const rate = (/rate=(\d+)/.exec(part.inlineData.mimeType || "") || [, "24000"])[1];
+      execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse", wav]);
+      return { file: wav, dur: durOf(wav) };
+    }
+    log("tts", i, r.status, JSON.stringify(j).slice(0, 300));
+    await new Promise((s) => setTimeout(s, 8000 * (k + 1)));
+  }
+  return null;
+}
+
 const HEAD = (extra = "") => `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}html,body{background:transparent}body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Assistant;color:#fff}
 .top{position:absolute;top:150px;right:70px;left:70px;display:flex;justify-content:space-between;align-items:center;font:800 42px Assistant;text-shadow:0 2px 12px rgba(0,0,0,.5)}.top svg{width:96px;height:96px}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 45%,rgba(7,42,67,.85) 75%,rgba(7,42,67,.95) 100%)}
@@ -76,21 +110,33 @@ const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
 const day = new Date().toLocaleDateString("he-IL", { timeZone: "Asia/Jerusalem", day: "numeric", month: "long" });
 const scenes = [];
 // 1. Αγκίστρι (0–2.5″): ερώτηση στον θεατή
-scenes.push({ q: "athens greece city", d: 2.6, html: `${HEAD()}<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="mid"><div class="big">טסים ליוון?</div><div class="sm">${arts.length} דברים שחשוב לדעת היום<br>📍 <span dir="rtl">${esc(day)}</span></div></div></body></html>` });
+const dayName = new Date().toLocaleDateString("he-IL", { timeZone: "Asia/Jerusalem", weekday: "long", day: "numeric", month: "long" });
+scenes.push({ q: "athens greece city", d: 2.6, say: `חדשות יוון, ${dayName}. ${arts.length} דברים שחשוב לדעת היום.`, html: `${HEAD()}<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="mid"><div class="big">טסים ליוון?</div><div class="sm">${arts.length} דברים שחשוב לדעת היום<br>📍 <span dir="rtl">${esc(day)}</span></div></div></body></html>` });
 arts.forEach((a, k) => {
   const t = a.he.title, fsz = t.length > 70 ? 72 : t.length > 45 ? 84 : 98;
-  scenes.push({ q: queryFor(a), d: 3.4, html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(a.breaking || a.strike ? "מבזק" : KICK[a.section] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
+  const dek = (a.he.dek || "").split(/(?<=[.!?])\s/)[0];
+  scenes.push({ q: queryFor(a), d: 3.4, say: `${a.he.title}. ${dek.length < 170 ? dek : ""}`.trim(), html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(a.breaking || a.strike ? "מבזק" : KICK[a.section] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
 });
-scenes.push({ q: "greek island sea", d: 2.8, html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big">מכירים מישהו שטס ליוון?</div><div class="sm">שלחו לו את הסרטון 📲</div><div class="pill">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
+scenes.push({ q: "greek island sea", d: 2.8, say: "זה היה יוונט, כל מה שקורה ביוון, בעברית. מכירים מישהו שטס ליוון? שלחו לו את הסרטון.", html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big">מכירים מישהו שטס ליוון?</div><div class="sm">שלחו לו את הסרטון 📲</div><div class="pill">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
 
 const credits = [];
 const X = 0.4;
+const voice = GK && process.env.REEL_VOICE !== "0";
+if (voice) {
+  for (let i = 0; i < scenes.length; i++) {
+    const a = await speak(scenes[i].say, i);
+    if (!a) { log("tts: αποτυχία, συνεχίζουμε χωρίς φωνή"); scenes.forEach((x) => delete x.audio); break; }
+    scenes[i].audio = a.file;
+    scenes[i].d = Math.max(scenes[i].d, a.dur + 0.5);
+    await new Promise((s) => setTimeout(s, 6500)); // όριο αιτημάτων δωρεάν επιπέδου
+  }
+}
 for (let i = 0; i < scenes.length; i++) {
   const s = scenes[i];
   const clip = await pexelsClip(s.q, i);
   credits.push(clip.credit);
   const ov = overlay(i, s.html);
-  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-ss", "0.3", "-t", String(s.d + X), "-i", clip.file, "-i", ov,
+  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", "0.3", "-t", String(s.d + X), "-i", clip.file, "-i", ov,
     "-filter_complex", "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30,eq=brightness=-0.04:saturation=1.08[b];[b][1:v]overlay=0:0,format=yuv420p[v]",
     "-map", "[v]", "-an", "-c:v", "libx264", "-preset", "medium", "-crf", "20", path.join(out, `c${i}.mp4`)], { stdio: "inherit" });
   log("σκηνή", i, s.q, "→", clip.q);
@@ -100,9 +146,15 @@ const ins = scenes.flatMap((_, i) => ["-i", path.join(out, `c${i}.mp4`)]);
 let f = "", prev = "0", off = 0;
 for (let i = 1; i < scenes.length; i++) { off += scenes[i - 1].d; f += `[${prev}][${i}]xfade=transition=fade:duration=${X}:offset=${off.toFixed(2)}[x${i}];`; prev = `x${i}`; }
 const tot = off + scenes[scenes.length - 1].d + X;
-execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...ins, "-f", "lavfi", "-t", tot.toFixed(2), "-i", "anullsrc=r=44100:cl=stereo",
-  "-filter_complex", `${f}[${prev}]format=yuv420p[v]`, "-map", "[v]", "-map", `${scenes.length}:a`, "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-c:a", "aac", "-shortest", "-movflags", "+faststart", path.join(out, "reel.mp4")], { stdio: "inherit" });
-execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", path.join(out, "reel.mp4"), "-vf", `fps=1/2.6,scale=270:480,tile=${scenes.length}x1`, "-frames:v", "1", path.join(out, "preview.jpg")], { stdio: "inherit" });
+// Ήχος: η φωνή κάθε σκηνής ξεκινά 0,25″ μετά την αρχή της σκηνής (πάνω σε σιωπηλό «χαλί» όσο όλο το βίντεο)
+const aud = scenes.map((sc, i) => ({ f: sc.audio, at: scenes.slice(0, i).reduce((t, x) => t + x.d, 0) + 0.25 })).filter((x) => x.f);
+const aIns = aud.flatMap((x) => ["-i", x.f]);
+let af = `[${scenes.length}:a]anull[base];`;
+aud.forEach((x, k) => { af += `[${scenes.length + 1 + k}:a]aresample=44100,aformat=channel_layouts=stereo,adelay=${Math.round(x.at * 1000)}|${Math.round(x.at * 1000)},volume=1.6[v${k}];`; });
+af += aud.length ? `[base]${aud.map((_, k) => `[v${k}]`).join("")}amix=inputs=${aud.length + 1}:normalize=0:duration=first[aout]` : `[base]anull[aout]`;
+execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...ins, "-f", "lavfi", "-t", tot.toFixed(2), "-i", "anullsrc=r=44100:cl=stereo", ...aIns,
+  "-filter_complex", `${f}[${prev}]format=yuv420p[v];${af}`, "-map", "[v]", "-map", "[aout]", "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", path.join(out, "reel.mp4")], { stdio: "inherit" });
+execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", path.join(out, "reel.mp4"), "-vf", `fps=${(scenes.length / tot).toFixed(4)},scale=270:480,tile=${scenes.length}x1`, "-frames:v", "1", path.join(out, "preview.jpg")], { stdio: "inherit" });
 const caption = `טסים ליוון? ${arts.length} דברים שחשוב לדעת היום 🇬🇷\n\n${arts.map((a, i) => `${i + 1}. ${a.he.title}`).join("\n")}\n\n📍 יוון\nהכתבות המלאות באתר — הקישור בביו 👆\n📤 מכירים מישהו שטס ליוון? שלחו לו\n\n#יוון #אתונה #טיסות_ליוון #ישראלים_ביוון #יוונט`;
 fs.writeFileSync(path.join(out, "caption.txt"), caption);
 fs.writeFileSync(path.join(out, "count.txt"), String(scenes.length));
