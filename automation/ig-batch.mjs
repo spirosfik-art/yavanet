@@ -7,6 +7,7 @@ import path from "node:path";
 import { loadArticles, log, notifyOwner } from "./lib.mjs";
 import { igEligible, igEvergreen, igCaption, renderIgCard, IG_DIR } from "./ig-card.mjs";
 import { ctx, postStory } from "./meta.mjs";
+import { nextCarousel, renderCarousel, carouselCaption, markCarousel } from "./ig-carousel.mjs";
 
 const ROWS = [[0, 1, 0], [2, 2, 2], [1, 0, 1], [2, 2, 2]];
 const postedFile = path.join(IG_DIR, "posted.json");
@@ -34,10 +35,21 @@ if (cmd === "render") {
   if (arts.length < rows * 3) { log("ig-batch: λίγα άρθρα", arts.length); }
   const startRow = readRows();
   const plan = [];
+  // Μία φορά την εβδομάδα (Τρίτη, ώρα Αθήνας) ή με IG_CAROUSEL=1: η μεσαία θέση της 1ης σειράς γίνεται carousel
+  const dow = new Date().toLocaleDateString("en-US", { timeZone: "Europe/Athens", weekday: "short" });
+  const car = (process.env.IG_CAROUSEL === "1" || dow === "Tue") ? nextCarousel() : null;
+  let k = 0;
   for (let r = 0; r < Math.floor(arts.length / 3); r++) {
     const pattern = ROWS[(startRow + r) % ROWS.length];
     for (let c = 0; c < 3; c++) {
-      const a = arts[r * 3 + c];
+      if (car && r === 0 && c === 1) {
+        const files = renderCarousel(car, out, `r0c1-${car.id}`, pattern[c]);
+        plan.push({ row: r, col: c, carousel: car.id, files, file: files[0], caption: carouselCaption(car), style: pattern[c] });
+        log("carousel:", car.id, files.length, "slides");
+        continue;
+      }
+      const a = arts[k++];
+      if (!a) break;
       const res = renderIgCard(a, null, pattern[c]);
       if (!res) { log("render failed", a.slug); process.exit(1); }
       const file = `r${r}c${c}-${a.slug}.jpg`;
@@ -53,7 +65,7 @@ if (cmd === "render") {
   const plan = JSON.parse(fs.readFileSync(a1, "utf8")), out = a2 || "ig-batch";
   fs.mkdirSync(out, { recursive: true });
   const arts = Object.fromEntries(loadArticles().map((x) => [x.slug, x]));
-  for (const p of plan) { const r = renderIgCard(arts[p.slug], null, p.style); if (!r) { log("fail", p.slug); process.exit(1); } fs.copyFileSync(path.join(IG_DIR, p.slug + ".jpg"), path.join(out, p.file)); fs.rmSync(path.join(IG_DIR, p.slug + ".jpg"), { force: true }); }
+  for (const p of plan) { if (p.carousel) continue; const r = renderIgCard(arts[p.slug], null, p.style); if (!r) { log("fail", p.slug); process.exit(1); } fs.copyFileSync(path.join(IG_DIR, p.slug + ".jpg"), path.join(out, p.file)); fs.rmSync(path.join(IG_DIR, p.slug + ".jpg"), { force: true }); }
   fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
   log("rerendered", plan.length);
 } else if (cmd === "publish") {
@@ -71,13 +83,24 @@ if (cmd === "render") {
   const order = [...plan].sort((x, y) => (y.row - x.row) || (y.col - x.col));
   for (const p of order) {
     try {
+      if (p.carousel) {
+        const kids = [];
+        for (const f of p.files) { const ch = await call(`/${c.igId}/media`, { image_url: `${base}/${f}`, is_carousel_item: "true" }); await wait(ch.id); kids.push(ch.id); }
+        const m = await call(`/${c.igId}/media`, { media_type: "CAROUSEL", children: kids.join(","), caption: p.caption });
+        await wait(m.id);
+        await call(`/${c.igId}/media_publish`, { creation_id: m.id });
+        markCarousel(p.carousel);
+        ok++; log("✓ IG carousel", p.carousel);
+        await new Promise((s) => setTimeout(s, 20000));
+        continue;
+      }
       const m = await call(`/${c.igId}/media`, { image_url: `${base}/${p.file}`, caption: p.caption });
       await wait(m.id);
       await call(`/${c.igId}/media_publish`, { creation_id: m.id });
       posted.push({ slug: p.slug, at: new Date().toISOString(), style: p.style });
       ok++; log("✓ IG", p.slug);
       await new Promise((s) => setTimeout(s, 20000));
-    } catch (e) { log("IG ✗", p.slug, e.message); await notifyOwner(`⚠️ Instagram σειρά: ${p.slug}: ${e.message}`).catch(() => {}); break; }
+    } catch (e) { log("IG ✗", p.slug || p.carousel, e.message); await notifyOwner(`⚠️ Instagram σειρά: ${p.slug || p.carousel}: ${e.message}`).catch(() => {}); break; }
   }
   fs.writeFileSync(postedFile, JSON.stringify(posted.slice(-200), null, 1));
   if (ok === plan.length) fs.writeFileSync(rowState, JSON.stringify({ rows: readRows() + rowsDone }));

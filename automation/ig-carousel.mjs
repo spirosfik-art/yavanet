@@ -46,13 +46,13 @@ export const CAROUSELS = [
     id: "greek-words-for-israelis",
     kicker: "שמרו לטיול 🔖", title: "7 מילים ביוונית שכל ישראלי צריך", sub: "ותקבלו חיוך מכל מלצר",
     items: [
-      ["קלימרה", "Καλημέρα = בוקר טוב"],
-      ["אפחריסטו", "Ευχαριστώ = תודה"],
-      ["פרקלו", "Παρακαλώ = בבקשה / על לא דבר"],
-      ["יאסאס", "Γεια σας = שלום (גם בפרידה)"],
-      ["נה", "Ναι = כן! (כן, ״נה״ זה כן 😅)"],
-      ["אוחי", "Όχι = לא"],
-      ["טון לוגריאזמו, פרקלו", "Τον λογαριασμό, παρακαλώ = את החשבון, בבקשה"],
+      ["קלימרה", "בוקר טוב", "Καλημέρα"],
+      ["אפחריסטו", "תודה", "Ευχαριστώ"],
+      ["פרקלו", "בבקשה / על לא דבר", "Παρακαλώ"],
+      ["יאסאס", "שלום (גם כשנפרדים)", "Γεια σας"],
+      ["נה", "כן! (כן, ״נה״ זה כן 😅)", "Ναι"],
+      ["אוחי", "לא", "Όχι"],
+      ["טון לוגריאזמו, פרקלו", "את החשבון, בבקשה", "Τον λογαριασμό, παρακαλώ"],
     ],
     cta: ["מכירים מישהו שטס ליוון?", "שלחו לו את הפוסט 📲"],
     question: "👇 איזו מילה ביוונית אתם כבר יודעים? כתבו בתגובות",
@@ -117,15 +117,16 @@ function slideHtml(c, i, style, icon) {
 <div class="logo" style="position:absolute;top:64px;right:76px">${icon}</div>
 <div style="position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 90px">
 <h2 style="font-size:96px;line-height:1.1">${esc(c.cta[0])}</h2><div style="font:700 56px/1.35 Assistant;margin-top:36px">${esc(c.cta[1])}</div>
-<div style="margin-top:70px;background:${GOLD};color:${INK};font:800 50px Assistant;padding:22px 52px;border-radius:60px">עקבו ⬅ @yavanet</div>
+<div style="margin-top:70px;background:${GOLD};color:${INK};font:800 50px Assistant;padding:22px 52px;border-radius:60px">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div>
 <div style="margin-top:34px;font:600 40px Assistant;opacity:.8">שמרו את הפוסט 🔖</div></div>
 <div class="sig" style="color:rgba(255,255,255,.72)"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div></body></html>`;
   }
-  const [t, d] = c.items[i - 1];
+  const [t, d, gr] = c.items[i - 1];
   return `${HEAD}body{background:${CREAM};color:${INK}}</style></head><body>${pager}
 <div class="logo" style="position:absolute;top:64px;right:76px">${icon}</div>
 <div style="position:absolute;top:250px;right:76px;width:190px;height:190px;border-radius:50%;background:${NAVY};color:${GOLD};display:flex;align-items:center;justify-content:center;font:900 120px 'Frank Ruhl Libre'">${i}</div>
 <div style="position:absolute;top:510px;right:76px;left:76px"><h2 style="font-size:${t.length > 18 ? 86 : 100}px;line-height:1.1">${esc(t)}</h2>
+${gr ? `<div dir="ltr" style="text-align:right;font:800 ${gr.length > 14 ? 58 : 76}px Assistant;color:${NAVY};margin-top:26px">${esc(gr)}</div>` : ""}
 <div style="width:120px;height:8px;background:${GOLD};border-radius:4px;margin:44px 0"></div>
 <div style="font:600 54px/1.42 Assistant;color:#2c4358">${esc(d)}</div></div>
 <div class="sig" style="color:#53697c"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div></body></html>`;

@@ -14,6 +14,9 @@ on:
       publish:
         description: "yes = ανάρτηση, no = μόνο προεπισκόπηση"
         default: "yes"
+      carousel:
+        description: "1 = βάλε carousel στη μεσαία θέση (αλλιώς μόνο την Τρίτη)"
+        default: "0"
 permissions:
   contents: write
 concurrency:
@@ -28,6 +31,7 @@ jobs:
       FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      IG_CAROUSEL: ${{ github.event.inputs.carousel || '0' }}
     steps:
       - name: Pause (οι σειρές 28-30/10 είναι ήδη προγραμματισμένες στο Business Suite)
         if: github.event_name == 'schedule'
@@ -62,5 +66,5 @@ jobs:
         if: env.PAUSED != '1' && (github.event.inputs.publish || 'yes') == 'yes'
         run: |
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
-          git add content/ig/posted.json content/ig/rows.json 2>/dev/null || true
+          git add content/ig/posted.json content/ig/rows.json content/ig/carousels.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -qm "auto: IG row [skip ci]" && (git push || (git pull --rebase -X theirs && git push)))
