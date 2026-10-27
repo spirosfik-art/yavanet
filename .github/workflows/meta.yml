@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       task:
-        description: "reel | comments (+DM) | dms | check | diag | social-weekly | scenes (μόνο προεπισκόπηση, χωρίς ανάρτηση)"
+        description: "reel | stock (προεπισκόπηση reel με πλάνα) | comments (+DM) | dms | check | diag | social-weekly | scenes (μόνο προεπισκόπηση, χωρίς ανάρτηση)"
         default: check
 permissions:
   contents: write
@@ -25,6 +25,7 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
       SITE_URL: ${{ vars.SITE_URL }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       TASK: ${{ github.event.inputs.task || (github.event.schedule == '7 17 * * *' && 'reel' || 'comments') }}
     steps:
       - uses: actions/checkout@v4
@@ -45,14 +46,24 @@ jobs:
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           for f in content/ig/dm-seen.json content/ig/comment-seen.json; do [ -f $f ] && git add $f; done; true
           git diff --cached --quiet || (git commit -qm "auto: DM state [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
+      - name: Stock reel (πραγματικά πλάνα Pexels)
+        if: (env.TASK == 'reel' || env.TASK == 'stock') && env.PEXELS_API_KEY != ''
+        run: |
+          set +e
+          if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          node automation/reel-stock.mjs out 2>&1 | tee stock.log
+          echo "::notice::$(tail -c 600 stock.log | tr '\n' ' ')"
+          if [ -f out/reel.mp4 ]; then echo "STOCK=1" >> $GITHUB_ENV; elif [ "$TASK" = "stock" ]; then echo "SKIP=1" >> $GITHUB_ENV; fi
+          exit 0
       - name: Reel scenes
-        if: env.TASK == 'reel' || env.TASK == 'scenes'
+        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.STOCK != '1'
         run: |
           if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "χωρίς META_TOKEN – παράλειψη"; echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
           node automation/meta.mjs reel-scenes out
           [ -f out/count.txt ] || echo "SKIP=1" >> $GITHUB_ENV
       - name: Render video
-        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.SKIP != '1'
+        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.SKIP != '1' && env.STOCK != '1'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           cd out
@@ -75,7 +86,7 @@ jobs:
         if: env.TASK == 'reel' && env.SKIP != '1'
         run: node automation/meta.mjs reel-publish out/reel.mp4
       - name: Keep copy (branch reels)
-        if: (env.TASK == 'reel' || env.TASK == 'scenes') && env.SKIP != '1'
+        if: (env.TASK == 'reel' || env.TASK == 'scenes' || env.TASK == 'stock') && env.SKIP != '1'
         run: |
           mkdir keep && cp out/reel.mp4 out/preview.jpg out/caption.txt keep/ && cd keep
           git init -q -b reels
