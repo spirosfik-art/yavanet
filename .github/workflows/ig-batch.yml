@@ -29,14 +29,22 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
     steps:
+      - name: Pause (οι σειρές 28-30/10 είναι ήδη προγραμματισμένες στο Business Suite)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%Y%m%d)" -lt 20261101 ]; then echo "PAUSED=1" >> $GITHUB_ENV; fi
       - uses: actions/checkout@v4
+        if: env.PAUSED != '1'
       - uses: actions/setup-node@v4
+        if: env.PAUSED != '1'
         with:
           node-version: 20
       - name: Render
+        if: env.PAUSED != '1'
         run: |
           if [ -n "${{ github.event.inputs.plan }}" ]; then node automation/ig-batch.mjs rerender "${{ github.event.inputs.plan }}" ig-batch; else node automation/ig-batch.mjs render "${{ github.event.inputs.rows || '1' }}" ig-batch; fi
       - name: Upload images (branch ig-batch, public raw URLs)
+        if: env.PAUSED != '1'
         run: |
           cp -r ig-batch /tmp/igb && cd /tmp/igb
           git init -q -b ig-batch && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
@@ -44,14 +52,14 @@ jobs:
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ig-batch
           sleep 20
       - name: Publish
-        if: (github.event.inputs.publish || 'yes') == 'yes'
+        if: env.PAUSED != '1' && (github.event.inputs.publish || 'yes') == 'yes'
         run: |
           set +e
           node automation/ig-batch.mjs publish ig-batch "https://raw.githubusercontent.com/${{ github.repository }}/ig-batch" 2>&1 | tee pub.log; rc=${PIPESTATUS[0]}
           echo "::notice::$(tail -c 1500 pub.log | tr '\n' ' ')"
           exit $rc
       - name: Save state
-        if: (github.event.inputs.publish || 'yes') == 'yes'
+        if: env.PAUSED != '1' && (github.event.inputs.publish || 'yes') == 'yes'
         run: |
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           git add content/ig/posted.json content/ig/rows.json 2>/dev/null || true
