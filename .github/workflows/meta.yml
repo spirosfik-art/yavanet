@@ -53,7 +53,8 @@ jobs:
           set +e
           if [ "$TASK" = "reel" ] && [ -z "$META_TOKEN" ]; then echo "SKIP=1" >> $GITHUB_ENV; exit 0; fi
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          node automation/reel-stock.mjs out 2>&1 | tee stock.log
+          REEL_DEBUG=$([ "$TASK" = stock ] && echo 1 || echo 0) node automation/reel-stock.mjs out 2>&1 | tee stock.log
+          grep -E 'tts [0-9]|ΑΠΟΜΑΓΝΗΤΟΦΩΝΗΣΗ|ύποπτα' stock.log | while read -r l; do echo "::notice::$l"; done
           echo "::notice::$(tail -c 600 stock.log | tr '\n' ' ')"
           if [ -f out/reel.mp4 ]; then echo "STOCK=1" >> $GITHUB_ENV; elif [ "$TASK" = "stock" ]; then echo "SKIP=1" >> $GITHUB_ENV; fi
           exit 0

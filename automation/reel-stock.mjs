@@ -72,14 +72,22 @@ async function pickTtsModel() {
   return ttsModel;
 }
 function durOf(f) { return Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim()) || 0; }
+async function transcribe(wav, i) {
+  try {
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(60000),
+      body: JSON.stringify({ contents: [{ parts: [{ text: "Transcribe this audio exactly, in the original language. Output only the transcript." }, { inlineData: { mimeType: "audio/wav", data: fs.readFileSync(wav).toString("base64") } }] }] }) });
+    const j = await r.json();
+    log("ΑΠΟΜΑΓΝΗΤΟΦΩΝΗΣΗ", i, (j.candidates?.[0]?.content?.parts?.[0]?.text || JSON.stringify(j).slice(0, 120)).replace(/\s+/g, " ").slice(0, 220));
+  } catch (e) { log("transcribe", e.message); }
+}
 async function speak(text, i) {
   await pickTtsModel();
-  const prompt = `Read the following Hebrew text aloud, exactly as written and nothing else, in the voice of a professional Israeli TV news anchor reading the headlines: clear, confident, energetic and brisk, like a fast news update.\n\n${text}`;
+  const styled = `Say in a confident, brisk Israeli TV news anchor voice: ${text}`;
   for (let k = 0; k < 3; k++) {
     log("tts → σκηνή", i, "προσπάθεια", k + 1);
     let r;
     try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${ttsModel}:generateContent?key=${GK}`, { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(90000),
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) }); }
+      body: JSON.stringify({ contents: [{ parts: [{ text: k === 0 ? styled : text }] }], generationConfig: { responseModalities: ["AUDIO"], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: env.TTS_VOICE || "Charon" } } } } }) }); }
     catch (e) { log("tts timeout", i, e.message); continue; }
     const j = await r.json().catch(() => ({}));
     const part = j.candidates && j.candidates[0] && j.candidates[0].content && (j.candidates[0].content.parts || []).find((p) => p.inlineData);
@@ -88,7 +96,11 @@ async function speak(text, i) {
       fs.writeFileSync(raw, Buffer.from(part.inlineData.data, "base64"));
       const rate = (/rate=(\d+)/.exec(part.inlineData.mimeType || "") || [, "24000"])[1];
       execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,atempo=1.1", wav]);
-      const dur = durOf(wav); log("tts", i, dur.toFixed(1) + "s", text.length, "chars"); return { file: wav, dur };
+      const dur = durOf(wav); log("tts", i, ttsModel, dur.toFixed(1) + "s", text.length, "chars");
+      // έλεγχος: αν η διάρκεια είναι πολύ μεγάλη για το κείμενο, μάλλον διάβασε και την οδηγία → ξανά χωρίς οδηγία
+      if (dur > text.length / 8 + 2.5 && k < 2) { log("tts: ύποπτα μεγάλη διάρκεια, ξανά χωρίς οδηγία ύφους"); continue; }
+      if (process.env.REEL_DEBUG === "1") await transcribe(wav, i);
+      return { file: wav, dur };
     }
     log("tts", i, ttsModel, r.status, JSON.stringify(j).slice(0, 160));
     if (r.status === 429 || r.status === 404) { const n = ttsList[ttsList.indexOf(ttsModel) + 1]; if (n) { ttsModel = n; log("tts → αλλαγή μοντέλου:", n); k--; continue; } }
