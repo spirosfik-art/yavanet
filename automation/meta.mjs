@@ -190,7 +190,7 @@ export async function replyComments() {
   let seen = []; try { seen = JSON.parse(fs.readFileSync(seenFile, "utf8")); } catch {}
   const firstRun = !seen.length;
   const unseen = newc.filter((x) => !seen.includes(x.id));
-  if (unseen.length && !firstRun) await notifyOwner(`💬 Νέα σχόλια (${unseen.length}) – απάντησε μέσα σε 1 ώρα για περισσότερη προβολή:\n\n${unseen.map((x) => x.txt).join("\n\n")}`.slice(0, 3900)).catch(() => {});
+  if (unseen.length && (!firstRun || unseen.length <= 5)) await notifyOwner(`💬 Νέα σχόλια (${unseen.length}) – απάντησε μέσα σε 1 ώρα για περισσότερη προβολή:\n\n${unseen.map((x) => x.txt).join("\n\n")}`.slice(0, 3900)).catch(() => {});
   if (unseen.length) fs.writeFileSync(seenFile, JSON.stringify([...seen, ...unseen.map((x) => x.id)].slice(-2000)));
   if (hidden.length) await notifyOwner(`🧹 Έκρυψα ${hidden.length} spam σχόλια:\n\n${hidden.join("\n")}`.slice(0, 3900)).catch(() => {});
   log("comments: απαντήσεις", n, "· spam κρυμμένα", hidden.length);
