@@ -1,6 +1,10 @@
 name: IG cards
 on:
   workflow_dispatch:
+    inputs:
+      script:
+        description: "script"
+        default: "ig-variants-test.mjs"
 permissions:
   contents: write
 jobs:
@@ -14,7 +18,7 @@ jobs:
       - name: Render test card (same code as the pipeline)
         run: |
           mkdir -p ig-out
-          (which google-chrome chromium convert magick ffmpeg; google-chrome --version; node automation/ig-variants-test.mjs) > ig-out/log.txt 2>&1 || true
+          (which google-chrome chromium convert magick ffmpeg; google-chrome --version; node automation/${{ github.event.inputs.script || 'ig-variants-test.mjs' }}) > ig-out/log.txt 2>&1 || true
       - name: Push to ig-cards branch
         run: |
           cd ig-out
