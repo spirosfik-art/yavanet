@@ -48,6 +48,14 @@ if (cmd === "render") {
   }
   fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
   log("ig-batch: σχέδιο", plan.length, "καρτών");
+} else if (cmd === "rerender") {
+  // ξαναφτιάχνει ακριβώς τις κάρτες ενός plan.json (ίδια άρθρα/σχέδια) με τον τρέχοντα κώδικα
+  const plan = JSON.parse(fs.readFileSync(a1, "utf8")), out = a2 || "ig-batch";
+  fs.mkdirSync(out, { recursive: true });
+  const arts = Object.fromEntries(loadArticles().map((x) => [x.slug, x]));
+  for (const p of plan) { const r = renderIgCard(arts[p.slug], null, p.style); if (!r) { log("fail", p.slug); process.exit(1); } fs.copyFileSync(path.join(IG_DIR, p.slug + ".jpg"), path.join(out, p.file)); fs.rmSync(path.join(IG_DIR, p.slug + ".jpg"), { force: true }); }
+  fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
+  log("rerendered", plan.length);
 } else if (cmd === "publish") {
   const out = a1, base = a2.replace(/\/$/, "");
   const plan = JSON.parse(fs.readFileSync(path.join(out, "plan.json"), "utf8"));

@@ -8,6 +8,9 @@ on:
       rows:
         description: "πόσες σειρές των 3"
         default: "1"
+      plan:
+        description: "αρχείο plan για ξανασχεδίαση (κενό = νέα επιλογή)"
+        default: ""
       publish:
         description: "yes = ανάρτηση, no = μόνο προεπισκόπηση"
         default: "yes"
@@ -31,7 +34,8 @@ jobs:
         with:
           node-version: 20
       - name: Render
-        run: node automation/ig-batch.mjs render "${{ github.event.inputs.rows || '1' }}" ig-batch
+        run: |
+          if [ -n "${{ github.event.inputs.plan }}" ]; then node automation/ig-batch.mjs rerender "${{ github.event.inputs.plan }}" ig-batch; else node automation/ig-batch.mjs render "${{ github.event.inputs.rows || '1' }}" ig-batch; fi
       - name: Upload images (branch ig-batch, public raw URLs)
         run: |
           cp -r ig-batch /tmp/igb && cd /tmp/igb

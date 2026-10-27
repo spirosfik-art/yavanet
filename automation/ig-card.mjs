@@ -69,8 +69,8 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
     // Α · ΦΩΤΟΓΡΑΦΙΑ: εικόνα σε όλη την κάρτα, σκούρο μπλε από κάτω, τίτλος λευκός
     return { css: `${base}
 .ph{position:absolute;inset:0;background:url("${img}") center/cover}
-.ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,42,67,.35) 0%,rgba(7,42,67,0) 20%,rgba(7,42,67,0) 38%,rgba(7,42,67,.92) 68%,${DEEP} 100%)}
-.box{position:absolute;right:76px;left:76px;bottom:150px}h1{font-size:${fsz(68, 80, 92)}px;line-height:1.08}`,
+.ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,42,67,.3) 0%,rgba(7,42,67,0) 16%,rgba(7,42,67,0) 52%,rgba(7,42,67,.88) 80%,${DEEP} 100%)}
+.box{position:absolute;right:76px;left:76px;bottom:140px}h1{font-size:${fsz(60, 70, 80)}px;line-height:1.08;text-shadow:0 2px 18px rgba(0,0,0,.35)}`,
       body: `<div class="ph"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
   }
   if (v === 2) {
@@ -83,13 +83,13 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .ft{position:absolute;bottom:52px;right:64px;left:64px;border-top:2px solid rgba(11,42,68,.15);padding-top:22px;display:flex;justify-content:space-between;font:600 30px Assistant;color:#53697c}`,
       body: `<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="ph"></div><span class="pill${breaking ? " red" : ""}">${esc(breaking ? alert : kicker)}</span><div class="box"><h1>${esc(title)}</h1></div><div class="ft"><span>yavanet.gr</span><span>יוונט</span></div>` };
   }
-  // Β · ΜΠΛΕ: καθαρό μπλε, μεγάλος τίτλος, η φωτογραφία ως λεπτή λωρίδα πάνω
+  // Β · ΜΠΛΕ: μεγάλη φωτογραφία πάνω (περίπου 60%), μπλε κάτω με τον τίτλο — χωρίς άδειο χώρο
   return { css: `${base}
-.strip{position:absolute;top:0;left:0;right:0;height:430px;background:url("${img}") center/cover}
-.strip:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,58,91,.15),${NAVY} 98%)}
-.box{position:absolute;right:76px;left:76px;top:470px}h1{font-size:${fsz(72, 86, 98)}px;line-height:1.08}
-.rule{position:absolute;right:76px;left:76px;bottom:130px;height:2px;background:rgba(255,255,255,.18)}`,
-    body: `<div class="strip"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="rule"></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
+.strip{position:absolute;top:0;left:0;right:0;height:860px;background:url("${img}") center/cover}
+.strip:after{content:"";position:absolute;inset:auto 0 0 0;height:180px;background:linear-gradient(180deg,rgba(11,58,91,0),${NAVY})}
+.box{position:absolute;right:76px;left:76px;top:850px}h1{font-size:${fsz(56, 64, 74)}px;line-height:1.1}
+.box .k{margin-bottom:20px}`,
+    body: `<div class="strip"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
 }
 
 // Επιστρέφει το δημόσιο path (/igc/<slug>.jpg) ή null αν δεν γίνεται (π.χ. τοπικά χωρίς Chrome).
