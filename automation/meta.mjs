@@ -115,17 +115,17 @@ export async function postReel(mp4, caption) {
   const c = await ctx();
   const buf = fs.readFileSync(mp4);
   const out = [];
-  if (c.igId) {
+  if (c.igId && env.REEL_ONLY !== "fb") for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const m = await api(`/${c.igId}/media`, { method: "POST", token: c.userToken, params: { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true", thumb_offset: "1200" } });
       const up = await fetch(`https://rupload.facebook.com/ig-api-upload/${V}/${m.id}`, { method: "POST", headers: { Authorization: "OAuth " + c.userToken, offset: "0", file_size: String(buf.length) }, body: buf });
       if (!up.ok) throw new Error("upload " + up.status + " " + (await up.text()).slice(0, 200));
       await waitReady(m.id, c.userToken, 10);
       const p = await api(`/${c.igId}/media_publish`, { method: "POST", token: c.userToken, params: { creation_id: m.id } });
-      out.push("IG reel ✓ " + p.id);
-    } catch (e) { out.push("IG reel ✗ " + e.message); }
+      out.push("IG reel ✓ " + p.id); break;
+    } catch (e) { log("IG reel προσπάθεια", attempt, e.message); if (attempt === 3) out.push("IG reel ✗ " + e.message); else await sleep(20000 * attempt); }
   }
-  try {
+  if (env.REEL_ONLY !== "ig") try {
     const s = await api(`/${c.pageId}/video_reels`, { method: "POST", token: c.pageToken, params: { upload_phase: "start" } });
     const up = await fetch(`https://rupload.facebook.com/video-upload/${V}/${s.video_id}`, { method: "POST", headers: { Authorization: "OAuth " + c.pageToken, offset: "0", file_size: String(buf.length) }, body: buf });
     if (!up.ok) throw new Error("upload " + up.status);
