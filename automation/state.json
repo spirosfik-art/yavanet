@@ -2115,7 +2115,26 @@
     "57f3895415cb": 1793221152763,
     "62955a913775": 1793221152763,
     "9970dfde95da": 1793221152763,
-    "57a65fbf34d2": 1793221152763
+    "57a65fbf34d2": 1793221152763,
+    "a9180bdf9395": 1793223942201,
+    "9bb1b9f13afb": 1793223942201,
+    "5819dcff4c0a": 1793223942201,
+    "eb552ceb27c6": 1793223942201,
+    "c3b23f358f38": 1793223942201,
+    "8cebca884608": 1793223942201,
+    "8f4a5b66ed3b": 1793223942201,
+    "457409712bc6": 1793223942201,
+    "a197fcbd9206": 1793223942201,
+    "eed8075dc23c": 1793223942201,
+    "fde3eebfe275": 1793223942201,
+    "b9fd5cdfebba": 1793223942201,
+    "db9cdba4b79a": 1793223942201,
+    "8229ee751111": 1793223942201,
+    "87a26d6af4c8": 1793223942201,
+    "74405006ed5d": 1793223942201,
+    "1ef606be3056": 1793223942201,
+    "28b7ccf5a70c": 1793223942201,
+    "d106dbee4394": 1793223942201
   },
   "pending": {
     "0c7f82": {
@@ -2234,12 +2253,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-28T20:59:02.835Z",
-      "items": 10
+      "at": "2026-10-28T21:45:31.343Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-28T20:59:03.424Z",
+      "at": "2026-10-28T21:45:31.981Z",
       "items": 4
     },
     "civilprotection": {
@@ -2250,27 +2269,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-28T20:59:04.968Z",
+      "at": "2026-10-28T21:45:33.710Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-28T20:59:05.140Z",
+      "at": "2026-10-28T21:45:33.849Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-28T20:59:05.941Z",
+      "at": "2026-10-28T21:45:34.479Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-28T20:59:06.488Z",
+      "at": "2026-10-28T21:45:35.027Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-28T20:59:07.206Z",
+      "at": "2026-10-28T21:45:35.849Z",
       "items": 10
     },
     "toi-greece": {
@@ -2281,22 +2300,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-28T20:59:07.663Z",
-      "items": 0
+      "at": "2026-10-28T21:45:36.308Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-28T20:59:08.008Z",
+      "at": "2026-10-28T21:45:36.603Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-28T20:59:08.396Z",
-      "items": 5
+      "at": "2026-10-28T21:45:37.102Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T20:59:08.581Z",
+      "at": "2026-10-28T21:45:37.244Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2306,12 +2325,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T20:59:03.946Z",
+      "at": "2026-10-28T21:45:32.581Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-28T20:59:09.080Z",
+      "at": "2026-10-28T21:45:37.829Z",
       "items": 0
     },
     "hcg": {
@@ -2322,33 +2341,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-28T20:59:09.857Z",
-      "items": 0
+      "at": "2026-10-28T21:45:38.976Z",
+      "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-28T20:59:10.064Z",
+      "at": "2026-10-28T21:45:39.199Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-28T20:59:10.271Z",
+      "at": "2026-10-28T21:45:39.379Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-28T20:59:10.597Z",
-      "items": 5
+      "at": "2026-10-28T21:45:39.589Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-28T20:59:10.942Z",
+      "at": "2026-10-28T21:45:39.907Z",
       "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-28T20:59:11.303Z",
-      "items": 17
+      "at": "2026-10-28T21:45:40.339Z",
+      "items": 19
     }
   },
   "tgOffset": 829774786,
@@ -2629,33 +2648,29 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-28T20:59:12.763Z",
-    "considered": 23,
-    "picked": 3,
+    "at": "2026-10-28T21:45:42.201Z",
+    "considered": 19,
+    "picked": 0,
     "items": [
-      "· gn-kathimerini | Ισραήλ: Τα 4 σενάρια για το πολιτικό αδιέξοδο – Τα «χάσματα» και οι προθέσεις των αραβικών",
-      "· gn-iefimerida | ΠΑΟΚ - ΑΕΚ 3-1: Έβγαλε αντίδραση και έβαλε... φωτιά στην League Phase του Κυπέλλου Ελλάδας",
-      "· naftemporiki | Ισραήλ: Και το δεύτερο αραβικό κόμμα κατά του Νετανιάχου – «Μπορούμε να μετάσχουμε σε κυβε",
-      "· ingr | Θυσιάζουν τα πάντα στον προεκλογικό βωμό: Διαφημίσεις στο μετρό με ανθρώπους που πήραν επί",
-      "· naftemporiki | Χεζμπολάχ: Θα συνεχίσουμε την αντίσταση ανεξαρτήτως του αποτελέσματος των ισραηλινών εκλογ",
-      "✓ ingr | Κακοκαιρία: Πότε υποχωρούν τα επικίνδυνα φαινόμενα – Πλημμύρες και καταστροφές σε Μαγνησία",
-      "· naftemporiki | Εκλογές στο Ισραήλ: Ο Τραμπ έμπλεξε…",
-      "· ert | Χεζμπολάχ: Δεν μας απασχολεί ποιος κυβερνά το Ισραήλ – Θα συνεχίζουμε την «αντίσταση» ανεξ",
-      "· gct | Spain Declares Three Days of Mourning After Train Collision Kills 68",
-      "✓ naftemporiki | Συναγερμός για διαρροή αερίου από βυτιοφόρο όχημα στον Ασπρόπυργο",
-      "· gn-kathimerini | Κακοκαιρία: Πάνω από 100 χιλιοστά βροχής σε Μαγνησία και Σποράδες - Kathimerini",
-      "· gn-kathimerini | Ισραήλ: To Λικούντ κατηγορεί τα αραβικά κόμματα για αλλοίωση του εκλογικού αποτελέσματος -",
-      "· ert | Πιερία: Υπό έλεγχο τέθηκε πυρκαγιά σε εργοστάσιο μανιταριών στον Κολινδρό",
-      "✓ ert | Ισραήλ: Τα σενάρια για τον σχηματισμό κυβέρνησης – Ο «διπλός φάκελος» και οι πληροφορίες γ",
-      "· gn-iefimerida | Πιερία: Υπό έλεγχο η φωτιά που ξέσπασε σε εργοστάσιο μανιταριών στον Κολινδρό - iefimerida",
-      "· ingr | Ανσάρ Αλλάχ: Επίθεση στο αεροδρόμιο του Άντεν – Προειδοποιήσεις για επισιτιστική κρίση στη",
-      "· ingr | Reuters: Πώς ο Νετανιάχου κατάφερε να επιβιώσει – Ανατομία της εκλογικής μάχης στο Ισραήλ",
-      "· ingr | Πυρά της ΕΛΑΣ κατά της κυβέρνησης για την εκδήλωση Κασιδιάρη και την απαγόρευση συγκεντρώσ",
-      "· gn-iefimerida | Σε κανονική λειτουργία το Μετρό Θεσσαλονίκης -Άνοιξαν οι έξι σταθμοί που ήταν κλειστοί - i",
-      "· gn-iefimerida | Ισραήλ: Οι «κρυφές» ψήφοι που μπορούν να κρίνουν το αποτέλεσμα των εκλογών -Τι είναι οι «δ",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
-      "· gn-kathimerini | Κακοκαιρία: Μεγάλες πλημμύρες σε Πήλιο, Σκιάθο και Σύμη – Εικόνες καταστροφής - Kathimerin",
-      "· gn-iefimerida | Κακοκαιρία στη Μαγνησία: Κινητοποίηση της ΕΜΑΚ για 50 εγκλωβισμένους -Δήμαρχος νότιου Πηλί"
+      "· gct | Olympiacos Beats Turkish Side Besiktas 81-73 in Istanbul",
+      "· gct | Greece To Build Seven New Coast Guard Patrol Boats",
+      "· gct | Panathinaikos Beat Belgium Team to Maintain EuroCup Record",
+      "· naftemporiki | Wall Street: Άνοδος για τρίτη διαδοχική συνεδρίαση – Στο επίκεντρο η Fed και τα τεχνολογικ",
+      "· gct | Greece Tells UN Chief It Will Not Tolerate Illegal Maritime Claims",
+      "· gct | Greece Imposes €659,647 Fines for Consumer and Market Violations",
+      "· gct | Greek PM: Greece Will Neither Threaten nor Bow to Threats (VID)",
+      "· gct | Greek Consul Rejects Turkish Aegean Claims at Istanbul OXI Day Event",
+      "· gct | British Buyers Dominate Ionian Islands Luxury Property Market",
+      "· naftemporiki | Σαρωτικό το πέρασμα της κακοκαιρίας από το Νότιο Πήλιο: Ένας τραυματίας, πλημμύρες και απο",
+      "· gct | Greek Surgeon Runs 517 Kilometres Along to Honour Fallen Soldiers",
+      "· gct | Metropolitan Nektarios: Greece Surrendered Macedonia’s Name to Foreign Nations",
+      "· gct | Stelios Shares Moving Childhood Memory for October 28 Anniversary",
+      "· gn-iefimerida | Δεμένα τα πλοία στα λιμάνια την Παρασκευή 30 Οκτωβρίου λόγω απεργίας των ναυτεργατών - ief",
+      "· gn-iefimerida | Πολιτικό αδιέξοδο στο Ισραήλ μετά τις εκλογές: Ο Νετανιάχου παραμένει υπηρεσιακός πρωθυπου",
+      "· gn-iefimerida | Αποκαταστάθηκε η κυκλοφορία των οχημάτων στο κέντρο της Αθήνας -Ανοιξε ο σταθμός μετρό Σύν",
+      "· gtp | Eurobank: Bank Loans to Greek Tourism Businesses Reach €10.9 Billion",
+      "· gtp | AirDNA: Greece Records Europe’s Largest Seasonal Gap in Short-Term Rental Prices",
+      "· gtp | Mykonos Port Targets 65% Water Savings With MSC-Backed Recycling System"
     ]
   },
   "evergreenDone": [
