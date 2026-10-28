@@ -8,17 +8,104 @@
  ],
  "caption": "שתי לחיצות ואלפי שקלים עוברים בבנק, אבל כדי להצביע עדיין נוסעים לקלפי. למה? 🗳️📱\n\nהסוד שאסור לגלות, המדינה שכבר מצביעה מהספה, ומה קורה ביוון.\n\n👇 הייתם מצביעים באפליקציה? כתבו לנו\n📤 שלחו למי שתמיד מתלונן על התור בקלפי\n\n#יוונט #יוונטמסביר #בחירות #יוון #הצבעה",
  "scenes": [
-  { "say": "אלפי שקלים עוברים אצלכם באפליקציה בשתי לחיצות. אבל כדי להצביע, עדיין נוסעים *לקלפי*. למה?", "q": ["mobile banking app", "smartphone payment", "phone banking hands"] },
-  { "say": "כי הצבעה היא לא העברה בנקאית. בבנק *חייבים* לדעת מי שלח את הכסף.", "q": ["bank card payment", "online banking laptop", "credit card phone"] },
-  { "say": "בבחירות זה הפוך. צריך לוודא שזה באמת אתם, ושהצבעתם רק *פעם* אחת.", "q": ["id card check", "passport check", "identity verification"] },
-  { "say": "אבל אסור שמישהו, אפילו המערכת, יֵדע *במה* בחרתם.", "q": ["voting booth", "ballot box", "election voting"] },
-  { "say": "ובבית אף אחד לא יודע מי עומד לידכם, ואם מישהו *לוחץ* עליכם.", "q": ["person on phone at home night", "man looking over shoulder phone", "family living room phone"] },
-  { "say": "ובכל זאת, יש מדינה שעושה את זה כבר מ-2005: *אסטוניה*.", "q": ["tallinn", "tallinn old town aerial", "estonia"] },
-  { "say": "מצביעים שם עם תעודת זהות דיגיטלית, ואפשר להצביע שוב. רק הקול *האחרון* נספר.", "q": ["laptop typing night", "smart card reader", "person using laptop"] },
-  { "say": "בבחירות 2023 יותר מ*חצי* מהקולות שם הגיעו מהאינטרנט.", "big": "50%+", "q": ["data center servers", "digital network", "computer screen data"] },
-  { "say": "בישראל, החוק מחייב להצביע *בקלפי*. ולשנות אותו? רק הכנסת.", "q": ["jerusalem", "israel flag", "parliament building"] },
-  { "say": "ופתק נייר אפשר לספור *שוב*. ב-2019 פתחו שקים מחמישים קלפיות וספרו הכול מחדש.", "big": "50", "q": ["counting paper ballots", "paper documents stack", "counting votes"] },
-  { "say": "וביוון? גם שם מצביעים בפתק, אבל ב-2024 יותר ממאה אלף יוונים הצביעו לראשונה *בדואר*.", "big": "100,000+", "q": ["athens greece", "greek flag", "mailbox letter"] },
-  { "say": "עקבו אחרי *יוונט*. אנחנו מסבירים מה שכולם רק מספרים.", "logo": true, "q": ["athens sunset", "acropolis sunset", "greece sea sunset"] }
+  {
+   "say": "אלפי שקלים עוברים אצלכם באפליקציה בשתי לחיצות. אבל כדי להצביע, עדיין נוסעים *לקלפי*. למה?",
+   "q": [
+    "mobile banking app",
+    "smartphone payment",
+    "phone banking hands"
+   ]
+  },
+  {
+   "say": "כי הצבעה היא לא העברה בנקאית. בבנק *חייבים* לדעת מי שלח את הכסף.",
+   "q": [
+    "bank card payment",
+    "online banking laptop",
+    "credit card phone"
+   ]
+  },
+  {
+   "say": "בבחירות זה הפוך. צריך לוודא שזה באמת אתם, ושהצבעתם רק *פעם* אחת.",
+   "q": [
+    "id card check",
+    "passport check",
+    "identity verification"
+   ]
+  },
+  {
+   "say": "אבל אסור שמישהו, אפילו המערכת, יֵדע *במה* בחרתם.",
+   "q": [
+    "voting booth",
+    "ballot box",
+    "election voting"
+   ]
+  },
+  {
+   "say": "ובבית אף אחד לא יודע מי עומד לידכם, ואם מישהו *לוחץ* עליכם.",
+   "q": [
+    "person on phone at home night",
+    "man looking over shoulder phone",
+    "family living room phone"
+   ]
+  },
+  {
+   "say": "ובכל זאת, יש מדינה שעושה את זה כבר מ-2005: *אסטוניה*.",
+   "q": [
+    "tallinn old town",
+    "tallinn",
+    "tallinn aerial old town"
+   ]
+  },
+  {
+   "say": "מצביעים שם עם תעודת זהות דיגיטלית, ואפשר להצביע שוב. רק הקול *האחרון* נספר.",
+   "q": [
+    "laptop typing night",
+    "smart card reader",
+    "person using laptop"
+   ]
+  },
+  {
+   "say": "בבחירות 2023 יותר מ*חצי* מהקולות שם הגיעו מהאינטרנט.",
+   "big": "50%+",
+   "q": [
+    "laptop screen night",
+    "person typing laptop dark",
+    "computer screen code"
+   ]
+  },
+  {
+   "say": "בישראל, החוק מחייב להצביע *בקלפי*. ולשנות אותו? רק הכנסת.",
+   "q": [
+    "jerusalem old city",
+    "jerusalem",
+    "israel flag"
+   ]
+  },
+  {
+   "say": "ופתק נייר אפשר לספור *שוב*. ב-2019 פתחו שקים מחמישים קלפיות וספרו הכול מחדש.",
+   "q": [
+    "ballot box",
+    "paper ballot voting",
+    "election ballot"
+   ]
+  },
+  {
+   "say": "וביוון? גם שם מצביעים בפתק, אבל ב-2024 יותר ממאה אלף יוונים הצביעו לראשונה *בדואר*.",
+   "big": "100,000+",
+   "q": [
+    "athens greece",
+    "greek flag",
+    "mailbox letter"
+   ]
+  },
+  {
+   "say": "עקבו אחרי *יוונט*. אנחנו מסבירים מה שכולם רק מספרים.",
+   "logo": true,
+   "q": [
+    "athens sunset",
+    "acropolis sunset",
+    "greece sea sunset"
+   ]
+  }
  ]
 }
