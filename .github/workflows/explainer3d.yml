@@ -1,0 +1,53 @@
+# «יוונט מסביר» 3D (Blender Cycles). mode=stills: ένα καρέ ανά σκηνή για έγκριση στυλ (branch e3d-stills).
+name: Explainer 3D
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        default: "online-voting"
+      mode:
+        description: "stills | full"
+        default: "stills"
+      scenes:
+        description: "ποιες σκηνές (π.χ. 0,3,5) — κενό = όλες"
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-e3d
+  cancel-in-progress: false
+jobs:
+  stills:
+    if: github.event.inputs.mode == 'stills'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Blender 4.2
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 libegl1 >/dev/null 2>&1 || true
+          curl -sSL -o /tmp/b.tar.xz https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz
+          mkdir -p /tmp/blender && tar -xJf /tmp/b.tar.xz -C /tmp/blender --strip-components=1 && /tmp/blender/blender --version | head -1
+      - name: Textures
+        run: |
+          npm i --no-save playwright@1.48.2 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+          node automation/explainer3d/textures.mjs tex
+      - name: Render stills
+        run: |
+          EP=automation/explainer/episodes/${{ github.event.inputs.episode }}.json
+          N=$(node -e "console.log(require('./$EP').scenes.length)")
+          LIST="${{ github.event.inputs.scenes }}"; [ -z "$LIST" ] && LIST=$(seq -s, 0 $((N-1)))
+          mkdir -p out
+          for i in ${LIST//,/ }; do
+            start=$(date +%s)
+            /tmp/blender/blender -b -noaudio -P automation/explainer3d/build.py -- --episode $EP --scene $i --dur 5 --out out --mode still --tex tex --samples 64 > log$i.txt 2>&1 || { echo "::warning::scene $i failed: $(grep -iE 'error|Traceback' -A3 log$i.txt | tail -6 | tr '\n' ' ')"; continue; }
+            echo "::notice::scene $i ok in $(( $(date +%s) - start ))s"
+          done
+          ls out
+      - name: Upload
+        run: |
+          cd out && git init -q -b e3d-stills && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "stills [skip ci]" && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" e3d-stills
