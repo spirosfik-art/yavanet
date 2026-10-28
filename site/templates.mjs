@@ -10,7 +10,10 @@ const AV = { css: _h("styles.css"), js: _h("app.js") };
 // Γραμματοσειρές Google: φορτώνουν χωρίς να μπλοκάρουν την πρώτη εμφάνιση (display=swap → το κείμενο φαίνεται αμέσως)
 // Αν υπάρχουν τοπικά (scripts/get-fonts.mjs → site/fonts.css), φορτώνουν από το yavanet.gr: χωρίς σύνδεση σε τρίτους, πιο γρήγορα στο κινητό
 let LOCAL_FONTS = ""; try { LOCAL_FONTS = _rf(new URL("./fonts.css", import.meta.url), "utf8").trim(); } catch {}
-const FONT_PRELOAD = (LOCAL_FONTS.match(/url\(\/(f-assistant-[^)]*-hebrew\.woff2)\)/) || [])[1];
+// Assistant (κείμενο): font-display:optional → καμία «αναπήδηση» της σελίδας όταν φτάνει η γραμματοσειρά (CLS 0)·
+// με το preload φτάνει σχεδόν πάντα εγκαίρως. Frank Ruhl (τίτλοι): swap, επίσης με preload.
+LOCAL_FONTS = LOCAL_FONTS.replace(/(font-family:'Assistant';[^}]*?)font-display:swap/g, "$1font-display:optional");
+const FONT_PRELOADS = [...LOCAL_FONTS.matchAll(/url\(\/(f-[a-z-]+-\d+-hebrew\.woff2)\)/g)].map((m) => m[1]).filter((x, i, a) => a.indexOf(x) === i);
 const FONTS = "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700;900&amp;family=Assistant:wght@400;600;700;800&amp;display=swap";
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
@@ -214,7 +217,7 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${NAME}" href="${P(lang, "/rss.xml")}">
 ${LOCAL_FONTS ? "" : `<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n`}<link rel="stylesheet" href="/styles.css?v=${AV.css}">
-${LOCAL_FONTS ? `${FONT_PRELOAD ? `<link rel="preload" href="/${FONT_PRELOAD}" as="font" type="font/woff2" crossorigin>\n` : ""}<style>${LOCAL_FONTS.replace(/\n/g, "")}</style>` : `<link rel="preload" as="style" href="${FONTS}">
+${LOCAL_FONTS ? `${FONT_PRELOADS.map((f) => `<link rel="preload" href="/${f}" as="font" type="font/woff2" crossorigin>\n`).join("")}<style>${LOCAL_FONTS.replace(/\n/g, "")}</style>` : `<link rel="preload" as="style" href="${FONTS}">
 <link rel="stylesheet" href="${FONTS}" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="${FONTS}"></noscript>`}
 <script>
