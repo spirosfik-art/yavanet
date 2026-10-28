@@ -81,7 +81,8 @@ Write one original article in Hebrew AND English, in your own words. Structure:
 - dek: one or two sentences.
 - tldr: exactly 3 short bullet points ("In 30 seconds").
 - means: 2–3 sentences "What it means for you" for an Israeli reader (tourist, investor or resident). Practical: what to do, whom to contact, what to check. For strikes: what travellers should do (check with the airline/ferry company, alternatives, leave extra time).
-- body: Markdown with "## " subheadings, short paragraphs, lists where useful. 200–450 words. No title inside the body. No source link inside the body.
+- body: Markdown with at least 3 "## " subheadings that answer what Israelis search (what happened, what it means / who is affected, what to do or what happens next), short paragraphs, lists where useful. 350–650 words. No title inside the body. No source link inside the body.
+- The body ENDS with a FAQ section: Hebrew "## שאלות נפוצות", English "## FAQ". 2–3 questions a real Israeli reader would type into Google about this story, each as a bold line ending with "?" (e.g. **האם הטיסות לאתונה מתקיימות?**) followed on the next line by a 1–2 sentence answer using ONLY facts from this article. If a fact is unknown, say where to check (airline, ferry company, official site) – never invent.
 Both languages carry the same facts.
 In the Hebrew text write Greek place and person names in Hebrew letters (e.g. לסבוס, סקיאתוס, מיצוטאקיס) and Greek acronyms in Latin letters (e.g. ELSTAT). Never use Greek or Arabic letters in Hebrew text.
 
@@ -118,6 +119,17 @@ Return JSON: {"ok":true|false,"issues":["short description of each fact/rule pro
 }
 
 // Διόρθωση υπαρχόντων άρθρων: τίτλοι για τη Google + ορθογραφία στα εβραϊκά
+export function enrichPrompt(a) {
+  return `Below is a published Yavanet article (Hebrew + English). Make it more useful for readers who find it on Google, WITHOUT changing what is already written.
+Return ONLY new text to append at the end of the body, in both languages:
+1. "section": one extra "## " section (80–180 words) that answers the most practical question an Israeli reader has about this story (for travellers: what to check, whom to contact, alternatives; for investors/residents: what it means, what to ask a lawyer/accountant, next steps). Use ONLY facts already in the article plus general, stable, well-known facts (e.g. how Greek ferries or the Golden Visa generally work). No new numbers, dates, prices, names or quotes. If something may have changed since the publication date, say to check the official source.
+2. "faq": 3 questions a real Israeli would type into Google about this topic, each answered in 1–2 sentences using ONLY facts from the article (or "check with ..." when unknown).
+Hebrew: natural Israeli Hebrew, Greek names in Hebrew letters, never Greek letters. English: clear British English.
+Published: ${a.publishedAt}
+HEBREW: ${JSON.stringify({ title: a.he.title, dek: a.he.dek, means: a.he.means, body: a.he.body })}
+ENGLISH: ${JSON.stringify({ title: a.en.title, dek: a.en.dek, means: a.en.means, body: a.en.body })}
+Return JSON: {"he":{"section":"## כותרת\n\nטקסט...","faq":[{"q":"...?","a":"..."}]},"en":{"section":"## Heading\n\nText...","faq":[{"q":"...?","a":"..."}]}}`;
+}
 export function seoBackfillPrompt(list) {
   return `For each published Yavanet article below, write Google search fields following the SEARCH (SEO) RULES, and correct Hebrew spelling mistakes in the Hebrew title and dek (keep the meaning and the facts exactly; change nothing else).
 ARTICLES:

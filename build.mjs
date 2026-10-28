@@ -268,11 +268,11 @@ ${newsletterBox(lang)}
     // + ενότητα «שאלות נפוצות»/FAQ με ερωτήσεις σε έντονα (**Ερώτηση?** και η απάντηση στην επόμενη παράγραφο)
     const faqBody = String(a[lang].body || "");
     const faqSec = (faqBody.match(/^## (?:שאלות נפוצות|FAQ|Frequently asked questions|Common questions)[^\n]*\n([\s\S]*?)(?=\n## |(?![\s\S]))/m) || [])[1] || "";
-    const faqItems = a.guide ? [
+    const faqItems = [
       // απάντηση = ό,τι υπάρχει ως την επόμενη επικεφαλίδα· αν φτάνει στο τέλος του κειμένου, χωρίς την τελευταία παράγραφο (disclaimer)
-      ...[...faqBody.matchAll(/^#{2,3} ([^\n]+\?)[ \t]*\n+([\s\S]*?)(?=\n#{2,3} |(?![\s\S]))/gm)].map((m) => { const ps = m[2].trim().split(/\n\s*\n/); return [m[1].trim(), (m.index + m[0].length >= faqBody.length && ps.length > 1 ? ps.slice(0, -1) : ps).join("\n\n")]; }),
+      ...(a.guide ? [...faqBody.matchAll(/^#{2,3} ([^\n]+\?)[ \t]*\n+([\s\S]*?)(?=\n#{2,3} |(?![\s\S]))/gm)].map((m) => { const ps = m[2].trim().split(/\n\s*\n/); return [m[1].trim(), (m.index + m[0].length >= faqBody.length && ps.length > 1 ? ps.slice(0, -1) : ps).join("\n\n")]; }) : []),
       ...[...faqSec.matchAll(/^\*\*([^*\n]+\?)\*\*[ \t]*\n([^\n]+(?:\n(?!\s*\n)[^\n]+)*)/gm)].map((m) => [m[1].trim(), m[2]]),
-    ].map(([q, an]) => [q, plain(an).replace(/\s+/g, " ").trim().slice(0, 600)]).filter((x, i, arr) => x[1].length > 30 && arr.findIndex((y) => y[0] === x[0]) === i) : [];
+    ].map(([q, an]) => [q, plain(an).replace(/\s+/g, " ").trim().slice(0, 600)]).filter((x, i, arr) => x[1].length > 30 && arr.findIndex((y) => y[0] === x[0]) === i);
     const faqLdA = faqItems.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems.map(([q, an]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: an } })) }] : [];
     write(url, layout({ lang, title: a[lang].title, seoTitle: a[lang].seoTitle || null, description: a[lang].seoDesc || a[lang].dek, path: url, altPath: P(lang === "he" ? "en" : "he", `/a/${a.slug}/`), body, breaking: breakingNow, activeSection: a.section, ogType: "article", jsonld: [ld, crumbs, ...faqLdA, ...(a[lang].profile && a[lang].profile.phone ? [{ "@context": "https://schema.org", "@type": "RealEstateAgent", name: a[lang].profile.name, alternateName: a.slug.startsWith("asi-doron") ? ["אסי דורון", "Asi Doron", "AS-IS by Asi Doron"] : undefined, ...(a[lang].profile.logo ? { logo: abs(a[lang].profile.logo) } : {}), image: abs(a[lang].profile.photo), telephone: a[lang].profile.phone, url: abs(url), knowsLanguage: ["he", "en"], areaServed: (a[lang].profile.areas || []).map((x) => ({ "@type": "Place", name: x })), description: a[lang].dek }] : [])],
       image: photoOf(a), head: `<meta property="article:published_time" content="${a.publishedAt}">${a.updatedAt ? `<meta property="article:modified_time" content="${a.updatedAt}">` : ""}` }));
