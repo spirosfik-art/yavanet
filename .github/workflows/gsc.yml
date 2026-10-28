@@ -1,0 +1,24 @@
+# Εβδομαδιαία αναφορά Google Search Console στο Telegram (Δευτέρα 09:37 ώρα Αθήνας)
+name: Search Console report
+on:
+  schedule:
+    - cron: "37 7 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gsc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node automation/gsc.mjs
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      - run: |
+          git config user.name "yavanet-bot"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add content/gsc 2>/dev/null && git commit -qm "Search Console: δεδομένα εβδομάδας" && git pull -q --rebase && git push -q || true
