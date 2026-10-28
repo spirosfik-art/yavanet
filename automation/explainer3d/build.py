@@ -219,7 +219,7 @@ def s_phone_bank():
     stage(); ph = phone((0, 0, 3.2), "bank.png", rot=(math.radians(8), 0, math.radians(-18)))
     pop(ph, 2, 16)
     spin(ph, 2, .06)
-    for i, (x, z) in enumerate([(-1.25, 4.6), (1.3, 4.9), (-1.2, 1.8), (1.35, 2.1), (0.1, 5.3)]):
+    for i, (x, z) in enumerate([(-.95, 4.75), (1.0, 4.45), (-1.0, 1.95), (.95, 1.7), (0.05, 5.05)]):
         c = coin((x, -.6, z)); c.rotation_euler = (math.radians(90), math.radians(20 * i), math.radians(30 * i)); pop(c, F(.4 + .15 * i), 10); spin(c, 1, .5)
     camera((1.2, -8.2, 3.9), (0.4, -7.2, 3.5), (0, 0, 3.2), lens=60, fstop=2.0, focus=ph)
 
@@ -358,11 +358,16 @@ def s_logo():
     curves = [o for o in bpy.data.objects if o not in before and o.type == "CURVE"]
     mats = [mat("lw", "#FFFFFF", rough=.3, coat=.6), mat("gold", GOLD, rough=.2, metal=1)]
     for k, c in enumerate(curves):
-        c.data.extrude = .0018; c.data.bevel_depth = .0006; c.data.bevel_resolution = 4
+        c.data.extrude = .0016; c.data.bevel_depth = .0005; c.data.bevel_resolution = 4
         c.data.materials.clear(); c.data.materials.append(mats[0] if k == 0 else mats[1])
-        # SVG: 512 μονάδες ≈ 0.144 m μετά την εισαγωγή → κλίμακα ώστε 512 → 3.2 m, κεντραρισμένο, στραμμένο προς την κάμερα
-        c.rotation_euler = (math.radians(90), 0, 0); c.scale = (22.2, 22.2, 22.2)
-        c.location = (-1.6, -.26, 3.0 + 1.6)
+        c.rotation_euler = (math.radians(90), 0, 0)
+    bpy.context.view_layer.update()
+    # κοινό πλαίσιο όλων των σχημάτων → κλίμακα και κεντράρισμα πάνω στο πλακίδιο
+    pts = [c.matrix_world @ Vector(v) for c in curves for v in c.bound_box]
+    mnx, mxx = min(p.x for p in pts), max(p.x for p in pts); mnz, mxz = min(p.z for p in pts), max(p.z for p in pts)
+    k = 1.75 / max(mxx - mnx, mxz - mnz); cx, cz = (mnx + mxx) / 2, (mnz + mxz) / 2
+    for c in curves:
+        c.scale = (k, k, k); c.location = ((c.location.x - cx) * k, -.24, 3.0 + .25 + (c.location.z - cz) * k)
         parent(c, root)
     # κύμα
     bpy.ops.curve.primitive_bezier_curve_add(location=(0, 0, 0)); wv = bpy.context.active_object
