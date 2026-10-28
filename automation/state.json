@@ -17,8 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "8bceef2609e4": 1791937312897,
-    "2fc77265209a": 1791939922549,
     "f2aabca4133f": 1791947108698,
     "f7f42e782331": 1791947108698,
     "e3f1d2060535": 1791950913907,
@@ -2120,7 +2118,14 @@
     "3f257baab1d0": 1793146171251,
     "1faad22c7b49": 1793146171251,
     "d07386668ea6": 1793146171251,
-    "3bd6d563dac7": 1793146171251
+    "3bd6d563dac7": 1793146171251,
+    "54422cb0aa6b": 1793150019306,
+    "16264f028e84": 1793150019306,
+    "a47daba5bb23": 1793150019306,
+    "68409db0272c": 1793150019306,
+    "a93754462049": 1793150019306,
+    "d5beaee62b6f": 1793150019306,
+    "e27a83cbccdd": 1793150019306
   },
   "pending": {},
   "sourceStatus": {
@@ -2132,12 +2137,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-28T00:09:18.326Z",
+      "at": "2026-10-28T01:13:25.691Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-28T00:09:19.032Z",
+      "at": "2026-10-28T01:13:26.438Z",
       "items": 4
     },
     "civilprotection": {
@@ -2148,27 +2153,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-28T00:09:20.914Z",
+      "at": "2026-10-28T01:13:28.121Z",
       "items": 20
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-28T00:09:21.321Z",
+      "at": "2026-10-28T01:13:28.278Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-28T00:09:22.104Z",
+      "at": "2026-10-28T01:13:29.036Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-28T00:09:22.849Z",
-      "items": 1
+      "at": "2026-10-28T01:13:29.731Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-28T00:09:23.882Z",
+      "at": "2026-10-28T01:13:30.623Z",
       "items": 10
     },
     "toi-greece": {
@@ -2179,22 +2184,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-28T00:09:24.441Z",
+      "at": "2026-10-28T01:13:31.237Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-28T00:09:24.556Z",
+      "at": "2026-10-28T01:13:31.457Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-28T00:09:25.121Z",
-      "items": 4
+      "at": "2026-10-28T01:13:32.090Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T00:09:25.598Z",
+      "at": "2026-10-28T01:13:32.517Z",
       "items": 12
     },
     "ynet-greece": {
@@ -2204,12 +2209,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T00:09:19.632Z",
+      "at": "2026-10-28T01:13:26.918Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-28T00:09:26.244Z",
+      "at": "2026-10-28T01:13:33.315Z",
       "items": 0
     },
     "hcg": {
@@ -2220,33 +2225,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-28T00:09:27.751Z",
+      "at": "2026-10-28T01:13:36.756Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-28T00:09:28.053Z",
+      "at": "2026-10-28T01:13:36.991Z",
       "items": 7
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-28T00:09:28.264Z",
+      "at": "2026-10-28T01:13:37.196Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-28T00:09:28.777Z",
+      "at": "2026-10-28T01:13:37.438Z",
       "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-28T00:09:29.153Z",
+      "at": "2026-10-28T01:13:37.828Z",
       "items": 13
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-28T00:09:29.622Z",
-      "items": 15
+      "at": "2026-10-28T01:13:38.194Z",
+      "items": 14
     }
   },
   "tgOffset": 829774786,
@@ -2435,38 +2440,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-28T00:09:31.251Z",
-    "considered": 28,
+    "at": "2026-10-28T01:13:39.306Z",
+    "considered": 7,
     "picked": 0,
     "items": [
-      "· gct | Pizza Fan Owner Remanded in Custody as Grigoris Chief Weighs Rescue Bid",
-      "· naftemporiki | Εκλογικό θρίλερ στο Ισραήλ: Πώς ο Νετανιάχου μπορεί να συνεχίσει να κυβερνά με απόλυτη εξο",
-      "· gct | Vassilios Tsiavaliaris was the first fallen Soldier of the 1940 Greco-Italian War",
-      "· gct | Feast Day of the Protection of the Theotokos, Agia Skepi",
-      "· gct | Greek-American Peter Sellis Takes Over Product at Musk’s X",
-      "· gct | Odysseas Athanasiou: ‘Ellinikon Is My Child’ as He Leaves LAMDA",
-      "· naftemporiki | Εκλογές στο Ισραήλ: Στο 77,7% διαμορφώθηκε η συμμετοχή – Η υψηλότερη μετά το 1999",
-      "· gct | Israel Election: Exit Polls Put Netanyahu’s Likud First but No Bloc Wins a Majority",
-      "· gn-iefimerida | Χούθι: Χτυπήσαμε το υπουργείο Άμυνας, το αεροδρόμιο Άμπχα και το μεγαλύτερο διυλιστήριο τη",
-      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr",
-      "· gct | Ryanair Closes Thessaloniki Base, Cuts Flights and Relocates Aircraft",
-      "· gct | Greece Cancels 28 October Parades in Magnesia, Sporades and Lamia",
-      "· gct | Turkish Opposition Accuses Erdogan of Losing Ground to Greece",
-      "· gct | Turkey Forms New Marine Brigade as Greece Tests New Drone Systems",
-      "· naftemporiki | Wall Street: Άνοδος και για τους τρεις βασικούς δείκτες με «οδηγό» τις μετοχές των μικροτσ",
-      "· gct | Thessaloniki Marks 100th Anniversary of Military Medical School",
-      "· naftemporiki | Ισραηλινές εκλογές: «Μουδιασμένοι» στο αρχηγείο του Νετανιάχου – Αισιοδοξία στο στρατόπεδο",
-      "· gct | Greek President Praises Metro Museum as a Masterpiece",
-      "· gct | French Research Vessel Arrives for Greece-Cyprus Power Cable",
-      "· ingr | Η ενεργειακή ακρίβεια «φουσκώνει» τον λογαριασμό για την κυβέρνηση",
-      "· gct | Greece Leads International Declaration on Women in Conflict",
-      "· naftemporiki | Άιζενκοτ για exit polls: «Πλήρης έλλειψη εμπιστοσύνης στον Νετανιάχου»",
-      "· gct | HELLENiQ ENERGY Opens Greece’s First 100 MW Battery Storage Project",
-      "· gn-iefimerida | Live οι εκλογές στο Ισραήλ: Θρίλερ ανάμεσα σε Νετανιάχου και Άιζενκοτ για την πρωτιά δείχν",
-      "· gn-kathimerini | Κακοκαιρία: Ηχησε το 112 σε Μαγνησία, Σποράδες και Εύβοια για την Τετάρτη - Kathimerini",
-      "· gtp | Virtuoso: Greece Tops World’s Honeymoon Destinations for 2027",
-      "· gn-iefimerida | Στο Μουσείο Ευρημάτων των ανασκαφών του Μετρό «Θεσσαλονικέων Μητρόπολις» ο Τασούλας -Δείτε",
-      "· gn-kathimerini | 28η Οκτωβρίου: Αλλαγές σε μετρό και τραμ – Ποιοι σταθμοί κλείνουν και από τι ώρα - Kathime"
+      "· gct | Melania Trump Brokers Russia-Ukraine Ceasefire in Oleshky",
+      "· ert | Ισραήλ: Εκλογικό θρίλερ χωρίς νικητή – Τέσσερα σενάρια για τον σχηματισμό κυβέρνησης",
+      "· gct | Jordan Strikes Southern Syria After Deadly Attack on Greek Orthodox Church",
+      "· gct | EU Commission Strengthens Border Protection With 30,000 More Personnel",
+      "· gct | Israeli Exit Polls Show No Clear Winner as Arab Parties Make Gains",
+      "· ingr | Κακοκαιρία: Ματαιώνονται οι μαθητικές παρελάσεις σε Μαγνησία και Σποράδες",
+      "· gn-kathimerini | Ισραήλ: Ιστορικό ρεκόρ συμμετοχής στις εκλογές με 66,7% έως τις 18:00 - Kathimerini"
     ]
   },
   "evergreenDone": [
