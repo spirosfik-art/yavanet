@@ -1,0 +1,22 @@
+name: Listen (ανάλυση ήχου)
+on:
+  workflow_dispatch:
+    inputs:
+      b64:
+        description: "ήχος ogg σε base64"
+        required: true
+      part:
+        description: "μέρος"
+        default: "1"
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AUDIO_B64: ${{ github.event.inputs.b64 }}
+        run: node automation/explainer/listen.mjs
