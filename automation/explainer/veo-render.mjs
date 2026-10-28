@@ -107,19 +107,23 @@ async function clips(durs) {
 // ---------- 3. Γραφικά (υπότιτλοι, αριθμοί, λογότυπο) ως διαφανή PNG από Chrome ----------
 const ICON = `<svg viewBox="0 0 512 512" width="300" height="300"><rect width="512" height="512" rx="112" fill="#0B3A5B" stroke="#F0B650" stroke-width="10"/><path d="M150 112H232Q262 112 262 142V392H206V168H150Q134 168 134 152V128Q134 112 150 112Z" fill="#fff"/><path d="M318 112H382Q414 112 414 144V168Q414 224 360 262L334 228Q358 210 364 188H318Q302 188 302 172V128Q302 112 318 112Z" fill="#F0B650"/><path d="M120 444Q170 416 220 444T320 444T410 444" fill="none" stroke="#2A8BC4" stroke-width="24" stroke-linecap="round"/></svg>`;
 const CSS = `*{margin:0}html,body{background:transparent;width:1080px;height:1920px;overflow:hidden;font-family:Assistant,sans-serif}
-.cap{position:absolute;top:1180px;left:0;right:0;display:flex;justify-content:center}.cap span{background:#fff;color:#0a0a0a;font:800 76px/1.15 Assistant;padding:16px 36px;border-radius:24px;box-shadow:0 10px 40px rgba(0,0,0,.35);white-space:nowrap}.cap em{font-style:normal;color:#E0312B}
+.cap{position:absolute;top:1220px;left:40px;right:40px;display:flex;justify-content:center;flex-wrap:wrap;gap:0 26px;text-align:center}
+.cap b{font:900 104px/1.12 Heebo,sans-serif;color:#fff;-webkit-text-stroke:14px #000;paint-order:stroke fill;text-shadow:0 8px 24px rgba(0,0,0,.55);white-space:nowrap}
+.cap b.on{color:#F0B650}.cap b.key{color:#fff}.cap b.key.on{color:#F0B650}
 .brand{position:absolute;top:118px;left:0;right:0;text-align:center;font:800 42px Assistant;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.7)}.brand b{color:#F0B650}
 .big{position:absolute;top:560px;left:0;right:0;text-align:center;font:900 210px "Frank Ruhl Libre",serif;color:#fff;text-shadow:0 0 40px rgba(240,182,80,.65),0 6px 30px rgba(0,0,0,.6)}
 .logo{position:absolute;top:520px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:34px;font:800 76px Assistant;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.6)}
 .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 52%,rgba(0,0,0,.35) 100%)}`;
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
-function chunks(say, t0, dur) {
+function chunks(say, t0, dur) { // ομάδες 2–4 λέξεων, με χρόνο για κάθε λέξη (καραόκε)
   const words = say.split(/\s+/).filter(Boolean).map((w) => ({ hi: /\*/.test(w), w: w.replace(/\*/g, "") }));
   const groups = []; let cur = [];
-  for (const w of words) { const len = cur.reduce((n, x) => n + x.w.length + 1, 0) + w.w.length; if (cur.length && (cur.length >= 3 || len > 13)) { groups.push(cur); cur = []; } cur.push(w); if (/[.,?!:]$/.test(w.w)) { groups.push(cur); cur = []; } }
+  for (const w of words) { const len = cur.reduce((n, x) => n + x.w.length + 1, 0) + w.w.length; if (cur.length && (cur.length >= 4 || len > 16)) { groups.push(cur); cur = []; } cur.push(w); if (/[.,?!:]$/.test(w.w)) { groups.push(cur); cur = []; } }
   if (cur.length) groups.push(cur);
-  const wt = (g) => g.reduce((n, x) => n + x.w.length + 1.5 + (/[.,?!:]$/.test(x.w) ? 3 : 0), 0), tot = groups.reduce((n, g) => n + wt(g), 0);
-  let t = t0; return groups.map((g) => { const d = (dur * wt(g)) / tot; const c = { t0: t, t1: t + d, html: g.map((x) => (x.hi ? `<em>${esc(x.w)}</em>` : esc(x.w))).join(" ") }; t += d; return c; });
+  const ww = (x) => x.w.length + 1.5 + (/[.,?!:]$/.test(x.w) ? 3 : 0);
+  const tot = words.reduce((n, x) => n + ww(x), 0);
+  let t = t0;
+  return groups.map((g) => { const ws = g.map((x) => { const d = (dur * ww(x)) / tot; const o = { ...x, t0: t, t1: t + d }; t += d; return o; }); return { t0: ws[0].t0, t1: ws.at(-1).t1, words: ws }; });
 }
 
 // ---------- κύριο ----------
@@ -146,7 +150,7 @@ const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 const ov = []; // [{file, t0, t1}]
 async function png(name, body, t0, t1) {
-  await page.setContent(`<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Frank+Ruhl+Libre:wght@900&display=block" rel="stylesheet"><style>${CSS}</style></head><body>${body}</body></html>`);
+  await page.setContent(`<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Heebo:wght@900&family=Frank+Ruhl+Libre:wght@900&display=block" rel="stylesheet"><style>${CSS}</style></head><body>${body}</body></html>`);
   await page.evaluate(() => document.fonts.ready);
   const f = path.join(out, name + ".png"); await page.screenshot({ path: f, omitBackground: true }); ov.push({ f, t0, t1 });
 }
@@ -154,7 +158,10 @@ await png("brand", `<div class="grad"></div><div class="brand">יוונט <b>מ�
 for (const [i, s] of scenes.entries()) {
   if (s.big) await png(`big${i}`, `<div class="big" dir="auto">${esc(s.big)}</div>`, s.start + .3, s.start + s.dur);
   if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span>@yavanet</span></div>`, s.start + .2, TOTAL);
-  for (const [k, c] of s.chunks.entries()) await png(`c${i}_${k}`, `<div class="cap"><span>${c.html}</span></div>`, c.t0, c.t1);
+  for (const [k, c] of s.chunks.entries()) for (const [w, cw] of c.words.entries()) {
+    const html = c.words.map((x, j) => `<b class="${j === w ? "on" : ""}">${esc(x.w)}</b>`).join(" ");
+    await png(`c${i}_${k}_${w}`, `<div class="cap">${html}</div>`, cw.t0, w === c.words.length - 1 ? c.t1 + .02 : c.words[w + 1].t0);
+  }
 }
 await browser.close();
 
@@ -189,5 +196,5 @@ run(["-ss", "1.2", "-i", final, "-frames:v", "1", "-q:v", "3", path.join(out, "c
 fs.writeFileSync(path.join(out, "caption.txt"), EP.caption);
 if (credits.length) fs.writeFileSync(path.join(out, "credits.txt"), "Videos: Pexels\n" + credits.join("\n"));
 fs.writeFileSync(path.join(out, "timing.json"), JSON.stringify({ total: TOTAL, tts: usedTts, scenes: scenes.map((s) => ({ start: +s.start.toFixed(2), dur: +s.dur.toFixed(2) })) }, null, 1));
-for (const f of fs.readdirSync(out)) if (/^(c\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
+for (const f of fs.readdirSync(out)) if (/^(c\d+_\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
 log("έτοιμο:", final, (fs.statSync(final).size / 1e6).toFixed(1) + "MB");
