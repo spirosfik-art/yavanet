@@ -10,7 +10,7 @@ on:
         description: "φωνή Gemini (π.χ. Charon, Puck, Orus, Fenrir, Kore)"
         default: "Charon"
       mode:
-        description: "render | veo-check (έλεγχος πρόσβασης στο Veo με ένα κλιπ 4″)"
+        description: "stock (πραγματικά πλάνα Pexels) | render (3D/νέον) | veo (Google Veo, επί πληρωμή) | veo-check"
         default: "render"
 permissions:
   contents: write
@@ -46,12 +46,18 @@ jobs:
         if: github.event.inputs.mode != 'veo-check'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           TTS_VOICE: ${{ github.event.inputs.voice }}
         run: |
-          node automation/explainer/render.mjs "automation/explainer/episodes/${{ github.event.inputs.episode }}.json" out 2>&1 | tee r.log
-          grep -E "tts|σύνολο|έτοιμο|error|Error" r.log | tail -25 | while read -r l; do echo "::notice::$l"; done
+          if [ "${{ github.event.inputs.mode }}" = "render" ]; then
+            node automation/explainer/render.mjs "automation/explainer/episodes/${{ github.event.inputs.episode }}.json" out 2>&1 | tee r.log
+          else
+            [ "${{ github.event.inputs.mode }}" = "veo" ] && export CLIP_SOURCE=veo || export CLIP_SOURCE=pexels
+            node automation/explainer/veo-render.mjs "automation/explainer/episodes/${{ github.event.inputs.episode }}.json" out 2>&1 | tee r.log
+          fi
+          grep -E "tts|pexels|veo|σκηνές|σύνολο|έτοιμο|error|Error" r.log | tail -25 | while read -r l; do echo "::notice::$l"; done
       - name: Upload (branch explainer)
         if: github.event.inputs.mode != 'veo-check'
         run: |
-          cd out && rm -f *.pcm video.mp4 && git init -q -b explainer && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          cd out && rm -f *.pcm video.mp4 seg*.mp4 base.mp4 gfx.mp4 clip*.mp4 *.png && git init -q -b explainer && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           git add -A && git commit -qm "explainer [skip ci]" && git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" explainer

@@ -60,13 +60,39 @@ function splitPoints(file, n) {
   return pts;
 }
 
-// ---------- 2. Κλιπ Veo (παράλληλα, ανά 3) ----------
+// ---------- 2α. Πραγματικά πλάνα Pexels (δωρεάν) ----------
+const SRC = process.env.CLIP_SOURCE || (EP.scenes.every((s) => s.q) ? "pexels" : "veo");
+const usedVid = new Set(), credits = [];
+async function pexels(s, i, f, need) {
+  const qs = Array.isArray(s.q) ? s.q : [s.q];
+  for (const portrait of [true, false]) for (const q of qs) {
+    const r = await fetch(`https://api.pexels.com/videos/search?per_page=30&size=large${portrait ? "&orientation=portrait" : ""}&query=${encodeURIComponent(q)}`, { headers: { Authorization: process.env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) }).catch(() => null);
+    if (!r || !r.ok) { log("pexels", r && r.status, q); continue; }
+    const j = await r.json();
+    const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5)).map((v) => {
+      const files = (v.video_files || []).filter((x) => x.file_type === "video/mp4" && x.width && x.height);
+      const fit = files.filter((x) => (x.height > x.width ? x.height >= 1600 : x.height >= 1080)).sort((a, b) => (a.height * a.width) - (b.height * b.width))[0];
+      return fit && { v, fit };
+    }).filter(Boolean);
+    const pick = cands[0];
+    if (!pick) continue;
+    usedVid.add(pick.v.id);
+    fs.writeFileSync(f, Buffer.from(await (await fetch(pick.fit.link, { signal: AbortSignal.timeout(180000) })).arrayBuffer()));
+    credits.push(`${i}: ${pick.v.user?.name || "?"} · ${pick.v.url} (${q})`);
+    log("pexels ✓", i, q, `${pick.fit.width}x${pick.fit.height}`, pick.v.duration + "s");
+    return f;
+  }
+  throw new Error("pexels: τίποτα για τη σκηνή " + i);
+}
+
+// ---------- 2β. Κλιπ Veo (παράλληλα, ανά 3) ----------
 async function clips(durs) {
   const res = [];
   const jobs = EP.scenes.map((s, i) => async () => {
     const f = path.join(out, `clip${i}.mp4`);
     if (fs.existsSync(f) && fs.statSync(f).size > 50000) return (res[i] = f);
     const sec = durs[i] <= 4 ? 4 : durs[i] <= 6 ? 6 : 8;
+    if (SRC === "pexels") return (res[i] = await pexels(s, i, f, durs[i]));
     if (process.env.VEO_FAKE) { run(["-f", "lavfi", "-i", `testsrc2=s=720x1280:r=24:d=${sec}`, "-vf", `hue=h=${i * 36}`, "-pix_fmt", "yuv420p", f]); return (res[i] = f); }
     for (let k = 0; k < 3; k++) {
       try { await veoGen(`${s.veo} ${EP.style || ""}`, f, sec); return (res[i] = f); }
@@ -126,7 +152,7 @@ async function png(name, body, t0, t1) {
 }
 await png("brand", `<div class="grad"></div><div class="brand">יוונט <b>מסביר</b></div>`, 0, TOTAL);
 for (const [i, s] of scenes.entries()) {
-  if (s.big) await png(`big${i}`, `<div class="big">${esc(s.big)}</div>`, s.start + .3, s.start + s.dur);
+  if (s.big) await png(`big${i}`, `<div class="big" dir="auto">${esc(s.big)}</div>`, s.start + .3, s.start + s.dur);
   if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span>@yavanet</span></div>`, s.start + .2, TOTAL);
   for (const [k, c] of s.chunks.entries()) await png(`c${i}_${k}`, `<div class="cap"><span>${c.html}</span></div>`, c.t0, c.t1);
 }
@@ -139,7 +165,8 @@ for (const [i, s] of scenes.entries()) {
   const src = clipFiles[i], cd = durOf(src), need = s.dur + .3;
   const slow = cd < need ? need / cd : 1;
   const seg = path.join(out, `seg${i}.mp4`);
-  run(["-i", src, "-vf", `setpts=${slow.toFixed(3)}*PTS,scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,eq=contrast=1.04:saturation=1.06`, "-t", need.toFixed(3), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-pix_fmt", "yuv420p", seg]);
+  const ss = cd > need + 2 ? Math.min(1.5, (cd - need) / 3) : 0;
+  run(["-ss", ss.toFixed(2), "-i", src, "-vf", `setpts=${slow.toFixed(3)}*PTS,scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,eq=contrast=1.04:saturation=1.06`, "-t", need.toFixed(3), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-pix_fmt", "yuv420p", seg]);
   segs.push({ seg, dur: need });
 }
 // ενώσεις με σύντομο crossfade
@@ -160,6 +187,7 @@ if (fs.existsSync(voice)) run(["-i", withGfx, "-i", voice, "-filter_complex", `$
 else run(["-i", withGfx, "-filter_complex", `${bed}[a]`, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-shortest", final]);
 run(["-ss", "1.2", "-i", final, "-frames:v", "1", "-q:v", "3", path.join(out, "cover.jpg")]);
 fs.writeFileSync(path.join(out, "caption.txt"), EP.caption);
+if (credits.length) fs.writeFileSync(path.join(out, "credits.txt"), "Videos: Pexels\n" + credits.join("\n"));
 fs.writeFileSync(path.join(out, "timing.json"), JSON.stringify({ total: TOTAL, tts: usedTts, scenes: scenes.map((s) => ({ start: +s.start.toFixed(2), dur: +s.dur.toFixed(2) })) }, null, 1));
 for (const f of fs.readdirSync(out)) if (/^(c\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
 log("έτοιμο:", final, (fs.statSync(final).size / 1e6).toFixed(1) + "MB");
