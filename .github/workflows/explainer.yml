@@ -9,6 +9,9 @@ on:
       voice:
         description: "φωνή Gemini (π.χ. Charon, Puck, Orus, Fenrir, Kore)"
         default: "Charon"
+      mode:
+        description: "render | veo-check (έλεγχος πρόσβασης στο Veo με ένα κλιπ 4″)"
+        default: "render"
 permissions:
   contents: write
 concurrency:
@@ -23,12 +26,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Veo check
+        if: github.event.inputs.mode == 'veo-check'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p out
+          node automation/explainer/veo.mjs check 2>&1 | tee v.log
+          node automation/explainer/veo.mjs gen "Cinematic aerial drone shot at golden hour over Thessaloniki waterfront, Greece, the White Tower and the sea, realistic, 35mm film look, smooth slow forward motion" out/veo-test.mp4 4 2>&1 | tee -a v.log || true
+          tail -5 v.log | while read -r l; do echo "::notice::$l"; done
+          if [ -f out/veo-test.mp4 ]; then cd out && git init -q -b veotest && git config user.name yavanet-bot && git config user.email bot@yavanet.gr && git add -A && git commit -qm t && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" veotest; fi
       - name: Playwright
+        if: github.event.inputs.mode != 'veo-check'
         run: |
           npm i --no-save playwright@1.48.2 >/dev/null 2>&1
           npx playwright install --with-deps chromium >/dev/null 2>&1
           sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji >/dev/null 2>&1 || true
       - name: Render
+        if: github.event.inputs.mode != 'veo-check'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TTS_VOICE: ${{ github.event.inputs.voice }}
@@ -36,6 +51,7 @@ jobs:
           node automation/explainer/render.mjs "automation/explainer/episodes/${{ github.event.inputs.episode }}.json" out 2>&1 | tee r.log
           grep -E "tts|σύνολο|έτοιμο|error|Error" r.log | tail -25 | while read -r l; do echo "::notice::$l"; done
       - name: Upload (branch explainer)
+        if: github.event.inputs.mode != 'veo-check'
         run: |
           cd out && rm -f *.pcm video.mp4 && git init -q -b explainer && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           git add -A && git commit -qm "explainer [skip ci]" && git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" explainer
