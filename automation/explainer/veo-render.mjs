@@ -112,7 +112,7 @@ const CSS = `*{margin:0}html,body{background:transparent;width:1080px;height:192
 .cap b{font:900 104px/1.12 Heebo,sans-serif;color:#fff;-webkit-text-stroke:14px #000;paint-order:stroke fill;text-shadow:0 8px 24px rgba(0,0,0,.55);white-space:nowrap}
 .cap b.on{color:#F0B650}.cap b.key{color:#fff}.cap b.key.on{color:#F0B650}
 .brand{position:absolute;top:118px;left:0;right:0;text-align:center;font:800 42px Assistant;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.7)}.brand b{color:#F0B650}
-.big{position:absolute;top:560px;left:0;right:0;text-align:center;font:900 210px "Frank Ruhl Libre",serif;color:#fff;text-shadow:0 0 40px rgba(240,182,80,.65),0 6px 30px rgba(0,0,0,.6)}
+.big{position:absolute;top:var(--bigtop,560px);left:0;right:0;text-align:center;font:900 210px "Frank Ruhl Libre",serif;color:#fff;text-shadow:0 0 40px rgba(240,182,80,.65),0 6px 30px rgba(0,0,0,.6)}
 .logo{position:absolute;top:520px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:34px;font:800 76px Assistant;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.6)}
 .grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 52%,rgba(0,0,0,.35) 100%)}`;
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
@@ -181,13 +181,14 @@ const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 const ov = []; // [{file, t0, t1}]
 async function png(name, body, t0, t1) {
-  await page.setContent(`<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Heebo:wght@900&family=Frank+Ruhl+Libre:wght@900&display=block" rel="stylesheet"><style>${CSS}</style></head><body>${body}</body></html>`);
+  await page.setContent(`<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Heebo:wght@900&family=Frank+Ruhl+Libre:wght@900&display=block" rel="stylesheet"><style>${CSS}${process.env.BIG_TOP ? `:root{--bigtop:${process.env.BIG_TOP}}` : ""}</style></head><body>${body}</body></html>`);
   await page.evaluate(() => document.fonts.ready);
   const f = path.join(out, name + ".png"); await page.screenshot({ path: f, omitBackground: true }); ov.push({ f, t0, t1 });
 }
 await png("brand", `<div class="grad"></div><div class="brand">יוונט <b>מסביר</b></div>`, 0, TOTAL);
 for (const [i, s] of scenes.entries()) {
   if (s.big) await png(`big${i}`, `<div class="big" dir="auto">${esc(s.big)}</div>`, s.start + .3, s.start + s.dur);
+  if (s.handle) await png(`handle${i}`, `<div class="big" style="top:1500px;font:800 80px Assistant" dir="ltr">@yavanet</div>`, s.start + .6, TOTAL);
   if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span dir="ltr">@yavanet</span></div>`, s.start + .2, TOTAL);
   for (const [k, c] of s.chunks.entries()) for (const [w, cw] of c.words.entries()) {
     const html = c.words.map((x, j) => `<b class="${j === w ? "on" : ""}">${esc(x.w)}</b>`).join(" ");
@@ -227,5 +228,5 @@ run(["-ss", "1.2", "-i", final, "-frames:v", "1", "-q:v", "3", path.join(out, "c
 fs.writeFileSync(path.join(out, "caption.txt"), EP.caption);
 if (credits.length) fs.writeFileSync(path.join(out, "credits.txt"), "Videos: Pexels\n" + credits.join("\n"));
 fs.writeFileSync(path.join(out, "timing.json"), JSON.stringify({ total: TOTAL, tts: usedTts, scenes: scenes.map((s) => ({ start: +s.start.toFixed(2), dur: +s.dur.toFixed(2) })) }, null, 1));
-for (const f of fs.readdirSync(out)) if (/^az\d+\.wav$|^gap\.wav$|^az\.txt$|^(c\d+_\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
+for (const f of fs.readdirSync(out)) if (/^az\d+\.wav$|^gap\.wav$|^az\.txt$|^(c\d+_\d+_\d+|big\d+|logo\d+|handle\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
 log("έτοιμο:", final, (fs.statSync(final).size / 1e6).toFixed(1) + "MB");

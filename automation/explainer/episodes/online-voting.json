@@ -131,13 +131,13 @@
   },
   {
    "say": "עקבו אחרי *יוונט*. אנחנו מסבירים מה שכולם רק מספרים.",
-   "logo": true,
    "q": [
     "athens sunset",
     "acropolis sunset",
     "greece sea sunset"
    ],
-   "s3d": "logo"
+   "s3d": "logo",
+   "handle": true
   }
  ],
  "azureRate": "+24%"
