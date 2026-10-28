@@ -51,9 +51,9 @@
   {
    "say": "ובכל זאת, יש מדינה שעושה את זה כבר מ-2005: *אסטוניה*.",
    "q": [
-    "tallinn old town",
-    "tallinn",
-    "tallinn aerial old town"
+    "tallinn town hall square",
+    "tallinn old town street",
+    "estonia flag"
    ]
   },
   {
@@ -76,17 +76,17 @@
   {
    "say": "בישראל, החוק מחייב להצביע *בקלפי*. ולשנות אותו? רק הכנסת.",
    "q": [
-    "tel aviv aerial",
-    "tel aviv skyline",
-    "tel aviv"
+    "israel flag",
+    "israeli flag waving",
+    "jerusalem stone street"
    ]
   },
   {
    "say": "ופתק נייר אפשר לספור *שוב*. ב-2019 פתחו שקים מחמישים קלפיות וספרו הכול מחדש.",
    "q": [
-    "ballot box election",
-    "paper ballot",
-    "voting ballot box"
+    "hands counting papers",
+    "sorting paper documents",
+    "stack of papers office"
    ],
    "avoid": [
     "vote-sign",
@@ -111,5 +111,6 @@
     "greece sea sunset"
    ]
   }
- ]
+ ],
+ "azureRate": "+24%"
 }

@@ -69,7 +69,7 @@ async function pexels(s, i, f, need) {
     const r = await fetch(`https://api.pexels.com/videos/search?per_page=30&size=large${portrait ? "&orientation=portrait" : ""}&query=${encodeURIComponent(q)}`, { headers: { Authorization: process.env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) }).catch(() => null);
     if (!r || !r.ok) { log("pexels", r && r.status, q); continue; }
     const j = await r.json();
-    const AVOID = new RegExp(["tiny-planet", "desert", "skyscraper", "istanbul", "turkey", "egypt", "dubai", "india", "china", "usa", "american", "united-states", "trump", "biden", "dome-of-the-rock", "mosque", "miniature", "time-lapse", "timelapse", ...(s.avoid || [])].join("|"), "i");
+    const AVOID = new RegExp(["tiny-planet", "desert", "skyscraper", "istanbul", "turkey", "egypt", "dubai", "india", "china", "usa", "american", "united-states", "trump", "biden", "dome-of-the-rock", "mosque", "miniature", "5925192", "roundabout", "38500066", "time-lapse", "timelapse", ...(s.avoid || [])].join("|"), "i");
     const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5) && !AVOID.test(v.url || "")).map((v) => {
       const files = (v.video_files || []).filter((x) => x.file_type === "video/mp4" && x.width && x.height);
       const fit = files.filter((x) => (x.height > x.width ? x.height >= 1600 : x.height >= 1080)).sort((a, b) => (a.height * a.width) - (b.height * b.width))[0];
@@ -186,7 +186,7 @@ for (const [i, s] of scenes.entries()) {
   if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span dir="ltr">@yavanet</span></div>`, s.start + .2, TOTAL);
   for (const [k, c] of s.chunks.entries()) for (const [w, cw] of c.words.entries()) {
     const html = c.words.map((x, j) => `<b class="${j === w ? "on" : ""}">${esc(x.w)}</b>`).join(" ");
-    await png(`c${i}_${k}_${w}`, `<div class="cap">${html}</div>`, cw.t0, w === c.words.length - 1 ? c.t1 + .02 : c.words[w + 1].t0);
+    await png(`c${i}_${k}_${w}`, `<div class="cap">${html}</div>`, cw.t0, w === c.words.length - 1 ? c.t1 - .01 : c.words[w + 1].t0 - .01);
   }
 }
 await browser.close();
