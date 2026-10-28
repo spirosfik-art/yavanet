@@ -219,7 +219,7 @@ def s_phone_bank():
     stage(); ph = phone((0, 0, 3.2), "bank.png", rot=(math.radians(8), 0, math.radians(-18)))
     pop(ph, 2, 16)
     spin(ph, 2, .06)
-    for i, (x, z) in enumerate([(-1.7, 4.8), (1.6, 5.3), (-1.3, 1.6), (1.9, 2.2), (0.2, 6.2)]):
+    for i, (x, z) in enumerate([(-1.25, 4.6), (1.3, 4.9), (-1.2, 1.8), (1.35, 2.1), (0.1, 5.3)]):
         c = coin((x, -.6, z)); c.rotation_euler = (math.radians(90), math.radians(20 * i), math.radians(30 * i)); pop(c, F(.4 + .15 * i), 10); spin(c, 1, .5)
     camera((1.2, -8.2, 3.9), (0.4, -7.2, 3.5), (0, 0, 3.2), lens=60, fstop=2.0, focus=ph)
 
@@ -344,20 +344,36 @@ def s_greek_mail():
     flag(T("flag_gr.png"), (3.0, 1.2, 0), h=4.6)
     camera((3.2, -10, 3.6), (2.0, -9, 3.2), (.6, 0, 2.6), lens=45, fstop=3.5)
 
+LOGO_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M150 112H232Q262 112 262 142V392H206V168H150Q134 168 134 152V128Q134 112 150 112Z" fill="#ffffff"/><path d="M318 112H382Q414 112 414 144V168Q414 224 360 262L334 228Q358 210 364 188H318Q302 188 302 172V128Q302 112 318 112Z" fill="#F0B650"/></svg>"""
 def s_logo():
     stage(DEEP)
+    import addon_utils
+    try: addon_utils.enable("io_curve_svg", default_set=True)
+    except Exception: pass
     root = empty((0, 0, 3.0))
-    bg = box((3.0, .35, 3.0), (0, 0, 3.0), mat("lg", NAVY, rough=.25, coat=1), bevel=.55); parent(bg, root)
-    # «Υ» λευκό + «'» χρυσό + κύμα (απλοποιημένο λογότυπο από κουτιά)
-    w = mat("lw", "#FFFFFF", rough=.3); g = mat("gold", GOLD, rough=.22, metal=1)
-    parent(box((.85, .3, .22), (-.42, -.25, 3.95), w, bevel=.08), root)
-    parent(box((.32, .3, 1.55), (-.1, -.25, 3.1), w, bevel=.08), root)
-    parent(box((.55, .3, .45), (.62, -.25, 3.86), g, bevel=.12), root)
-    for i in range(4):
-        parent(box((.5, .25, .09), (-.75 + i * .5, -.25, 2.2 + (.06 if i % 2 else -.04)), mat("wave", SKY, rough=.3), bevel=.04, rot=(0, math.radians(14 if i % 2 else -14), 0)), root)
-    key(root, "rotation_euler", 1, (0, 0, math.radians(-70)), "BACK", "EASE_OUT"); key(root, "rotation_euler", F(1.2), (0, 0, 0), "BACK", "EASE_OUT")
+    bg = box((3.2, .4, 3.2), (0, 0, 3.0), mat("lg", NAVY, rough=.22, coat=1), bevel=.6); parent(bg, root)
+    svg = os.path.join(A.out, "logo.svg"); open(svg, "w").write(LOGO_SVG)
+    before = set(bpy.data.objects)
+    bpy.ops.import_curve.svg(filepath=svg)
+    curves = [o for o in bpy.data.objects if o not in before and o.type == "CURVE"]
+    mats = [mat("lw", "#FFFFFF", rough=.3, coat=.6), mat("gold", GOLD, rough=.2, metal=1)]
+    for k, c in enumerate(curves):
+        c.data.extrude = .0018; c.data.bevel_depth = .0006; c.data.bevel_resolution = 4
+        c.data.materials.clear(); c.data.materials.append(mats[0] if k == 0 else mats[1])
+        # SVG: 512 μονάδες ≈ 0.144 m μετά την εισαγωγή → κλίμακα ώστε 512 → 3.2 m, κεντραρισμένο, στραμμένο προς την κάμερα
+        c.rotation_euler = (math.radians(90), 0, 0); c.scale = (22.2, 22.2, 22.2)
+        c.location = (-1.6, -.26, 3.0 + 1.6)
+        parent(c, root)
+    # κύμα
+    bpy.ops.curve.primitive_bezier_curve_add(location=(0, 0, 0)); wv = bpy.context.active_object
+    wv.data.bevel_depth = .07; wv.data.bevel_resolution = 6
+    sp = wv.data.splines[0]; sp.bezier_points.add(2)
+    pts = [(-1.0, -.26, 1.85), (-.2, -.26, 2.0), (.6, -.26, 1.85), (1.3, -.26, 2.0)]
+    for bp_, p_ in zip(sp.bezier_points, pts): bp_.co = p_; bp_.handle_left_type = bp_.handle_right_type = "AUTO"
+    wv.data.materials.append(mat("wave", SKY, rough=.3, coat=.5)); parent(wv, root)
+    key(root, "rotation_euler", 1, (0, 0, math.radians(-60)), "BACK", "EASE_OUT"); key(root, "rotation_euler", F(1.2), (0, 0, 0), "BACK", "EASE_OUT")
     pop(root, 1, 16)
-    camera((0, -10, 3.4), (0, -9.2, 3.2), (0, 0, 3.0), lens=55, fstop=2.0, focus=bg)
+    camera((0, -10, 3.3), (0, -9.2, 3.1), (0, 0, 3.0), lens=55, fstop=2.0, focus=bg)
 
 SCENES = {"phone_bank": s_phone_bank, "bank_card": s_bank_card, "id_card": s_id_card, "ballot": s_ballot, "home": s_home, "tallinn": s_tallinn,
           "laptop": s_laptop, "bars": s_bars, "parliament": s_parliament, "recount": s_recount, "greek_mail": s_greek_mail, "logo": s_logo}
