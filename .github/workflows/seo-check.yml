@@ -1,0 +1,17 @@
+# Έλεγχος ζωντανού site: φωτογραφίες /img, γραμματοσειρές, sitemap (αποτελέσματα ως notices)
+name: SEO check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in \
+            "https://yavanet.gr/img/34785942/800x450/22-greek-airports-concession-tender-2026.webp" \
+            "https://yavanet.gr/img/34785942/1200x630/22-greek-airports-concession-tender-2026.jpg" \
+            "https://yavanet.gr/img/34785942/240x240/22-greek-airports-concession-tender-2026.webp" \
+            "https://yavanet.gr/f-assistant-0-hebrew.woff2" \
+            "https://yavanet.gr/sitemap.xml"; do
+            r=$(curl -s -o /tmp/x -w "%{http_code} %{content_type} %{size_download}B %{time_total}s" -A "Mozilla/5.0" "$u"); echo "::notice::$r $(file -b /tmp/x | cut -c1-40) ← ${u#https://yavanet.gr}"
+          done
+          curl -s -A "Mozilla/5.0" https://yavanet.gr/a/22-greek-airports-concession-tender-2026/ | grep -o 'fonts.googleapis\|/f-assistant-0-hebrew.woff2\|/img/34785942/800x450' | sort | uniq -c | sed 's/^/::notice::page /'
