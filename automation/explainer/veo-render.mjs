@@ -69,7 +69,8 @@ async function pexels(s, i, f, need) {
     const r = await fetch(`https://api.pexels.com/videos/search?per_page=30&size=large${portrait ? "&orientation=portrait" : ""}&query=${encodeURIComponent(q)}`, { headers: { Authorization: process.env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) }).catch(() => null);
     if (!r || !r.ok) { log("pexels", r && r.status, q); continue; }
     const j = await r.json();
-    const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5)).map((v) => {
+    const AVOID = new RegExp(["tiny-planet", "desert", "skyscraper", "istanbul", "turkey", "egypt", "dubai", "india", "china", "time-lapse", "timelapse", ...(s.avoid || [])].join("|"), "i");
+    const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5) && !AVOID.test(v.url || "")).map((v) => {
       const files = (v.video_files || []).filter((x) => x.file_type === "video/mp4" && x.width && x.height);
       const fit = files.filter((x) => (x.height > x.width ? x.height >= 1600 : x.height >= 1080)).sort((a, b) => (a.height * a.width) - (b.height * b.width))[0];
       return fit && { v, fit };
@@ -157,7 +158,7 @@ async function png(name, body, t0, t1) {
 await png("brand", `<div class="grad"></div><div class="brand">יוונט <b>מסביר</b></div>`, 0, TOTAL);
 for (const [i, s] of scenes.entries()) {
   if (s.big) await png(`big${i}`, `<div class="big" dir="auto">${esc(s.big)}</div>`, s.start + .3, s.start + s.dur);
-  if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span>@yavanet</span></div>`, s.start + .2, TOTAL);
+  if (s.logo) await png(`logo${i}`, `<div class="logo">${ICON}<span dir="ltr">@yavanet</span></div>`, s.start + .2, TOTAL);
   for (const [k, c] of s.chunks.entries()) for (const [w, cw] of c.words.entries()) {
     const html = c.words.map((x, j) => `<b class="${j === w ? "on" : ""}">${esc(x.w)}</b>`).join(" ");
     await png(`c${i}_${k}_${w}`, `<div class="cap">${html}</div>`, cw.t0, w === c.words.length - 1 ? c.t1 + .02 : c.words[w + 1].t0);
