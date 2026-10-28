@@ -128,12 +128,37 @@ function chunks(say, t0, dur) { // ομάδες 2–4 λέξεων, με χρό�
 }
 
 // ---------- κύριο ----------
+// Azure (Microsoft) φυσική εβραϊκή φωνή: μία σύνθεση ανά σκηνή → ακριβή όρια σκηνών
+const AZ = process.env.AZURE_SPEECH_KEY, AZR = (process.env.AZURE_SPEECH_REGION || "westeurope").trim();
+async function azureScene(text, file) {
+  const v = process.env.AZURE_VOICE || EP.azureVoice || "he-IL-AvriNeural";
+  const x = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const ssml = `<speak version="1.0" xml:lang="he-IL"><voice name="${v}"><prosody rate="${process.env.AZURE_RATE || "+6%"}">${x(text)}</prosody></voice></speak>`;
+  for (let k = 0; k < 3; k++) {
+    const r = await fetch(`https://${AZR}.tts.speech.microsoft.com/cognitiveservices/v1`, { method: "POST", headers: { "Ocp-Apim-Subscription-Key": AZ.trim(), "Content-Type": "application/ssml+xml", "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm", "User-Agent": "yavanet" }, body: ssml }).catch((e) => ({ ok: false, status: e.message }));
+    if (r.ok) { const raw = file + ".raw.wav"; fs.writeFileSync(raw, Buffer.from(await r.arrayBuffer()));
+      run(["-i", raw, "-af", "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse", "-ar", "44100", "-ac", "1", file]); fs.rmSync(raw); return true; }
+    log("azure", r.status, await (r.text ? r.text() : "").catch?.(() => "")); await new Promise((s) => setTimeout(s, 3000));
+  }
+  return false;
+}
 const fullText = EP.scenes.map((s) => clean(s.say)).join("\n");
 const voice = path.join(out, "voice.wav");
-let usedTts = null;
+let usedTts = null, azBounds = null;
+if (AZ && !fs.existsSync(voice)) {
+  const parts = [], GAP = 0.32; azBounds = [0]; let t = 0, ok = true;
+  for (const [i, s] of EP.scenes.entries()) { const f = path.join(out, `az${i}.wav`); if (!(await azureScene(clean(s.say), f))) { ok = false; break; } parts.push(f); t += durOf(f) + GAP; azBounds.push(t); }
+  if (ok) {
+    const sil = path.join(out, "gap.wav"); run(["-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", "0.32", sil]);
+    const list = path.join(out, "az.txt"); fs.writeFileSync(list, parts.map((f) => `file '${f}'\nfile '${sil}'`).join("\n"));
+    run(["-f", "concat", "-safe", "0", "-i", list, "-c:a", "pcm_s16le", voice]); usedTts = "azure:" + (process.env.AZURE_VOICE || EP.azureVoice || "he-IL-AvriNeural");
+    log("tts ✓", usedTts, durOf(voice).toFixed(1) + "s");
+  } else { azBounds = null; log("azure απέτυχε → Gemini"); }
+}
 if (GK && !fs.existsSync(voice)) usedTts = await tts(fullText, voice);
 let bounds, TOTAL;
-if (fs.existsSync(voice)) {
+if (azBounds) { bounds = azBounds; TOTAL = azBounds.at(-1) + 1.2; }
+else if (fs.existsSync(voice)) {
   const total = durOf(voice); const pts = splitPoints(voice, EP.scenes.length);
   bounds = [0, ...pts, total]; TOTAL = total + 1.4;
 } else { // χωρίς φωνή: εκτίμηση
@@ -197,5 +222,5 @@ run(["-ss", "1.2", "-i", final, "-frames:v", "1", "-q:v", "3", path.join(out, "c
 fs.writeFileSync(path.join(out, "caption.txt"), EP.caption);
 if (credits.length) fs.writeFileSync(path.join(out, "credits.txt"), "Videos: Pexels\n" + credits.join("\n"));
 fs.writeFileSync(path.join(out, "timing.json"), JSON.stringify({ total: TOTAL, tts: usedTts, scenes: scenes.map((s) => ({ start: +s.start.toFixed(2), dur: +s.dur.toFixed(2) })) }, null, 1));
-for (const f of fs.readdirSync(out)) if (/^(c\d+_\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
+for (const f of fs.readdirSync(out)) if (/^az\d+\.wav$|^gap\.wav$|^az\.txt$|^(c\d+_\d+_\d+|big\d+|logo\d+|brand)\.png$|^seg\d+\.mp4$|^base\.mp4$|^gfx\.mp4$|\.pcm$/.test(f)) fs.rmSync(path.join(out, f));
 log("έτοιμο:", final, (fs.statSync(final).size / 1e6).toFixed(1) + "MB");

@@ -9,6 +9,9 @@ on:
       voice:
         description: "φωνή Gemini (π.χ. Charon, Puck, Orus, Fenrir, Kore)"
         default: "Charon"
+      azure_voice:
+        description: "φωνή Azure (he-IL-AvriNeural αντρική, he-IL-HilaNeural γυναικεία)· χρειάζεται secret AZURE_SPEECH_KEY"
+        default: "he-IL-AvriNeural"
       mode:
         description: "stock (πραγματικά πλάνα Pexels) | render (3D/νέον) | veo (Google Veo, επί πληρωμή) | veo-check"
         default: "render"
@@ -47,6 +50,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          AZURE_VOICE: ${{ github.event.inputs.azure_voice }}
           TTS_VOICE: ${{ github.event.inputs.voice }}
         run: |
           if [ "${{ github.event.inputs.mode }}" = "voices" ]; then
