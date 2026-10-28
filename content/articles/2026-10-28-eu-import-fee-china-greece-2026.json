@@ -1,0 +1,60 @@
+{
+  "slug": "eu-import-fee-china-greece-2026",
+  "section": "israelis",
+  "publishedAt": "2026-10-28T02:09:14+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lon": 23.7275,
+    "name": "Athens"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/28/eu-adds-e2-fee-to-online-orders-from-china-starting-november-1/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35154967/pexels-photo-35154967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque scene at Piraeus Marina, Athens showing boats and vibrant city architecture.",
+    "credit": "Photo: Valeria Drozdova / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-piraeus-marina-in-athens-35154967/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "תוספת תשלום על הזמנות מאתרים בחו״ל החל מנובמבר",
+    "dek": "האיחוד האירופי מטפל ביבוא מקוון: אגרת טיפול חדשה בסך 2 אירו תצורף לדמי המכס על הזמנות ישירות ממדינות מחוץ לאיחוד החל מה-1 בנובמבר 2026.",
+    "tldr": [
+      "אגרת טיפול בסך 2 אירו תחל מה-1 בנובמבר 2026.",
+      "החיוב מחושב לפי שורה בהצהרת המכס ולא לפי חבילה.",
+      "סחורה הנמצאת כבר במחסנים באיחוד פטורה מהתשלום."
+    ],
+    "means": "העדכון רלוונטי למי שזמין מוצרים מאתרים מחוץ לאיחוד האירופי, שכן העלויות עלולות לעלות בהתאם לסוגי המוצרים בהזמנה.",
+    "body": "האיחוד האירופי יחיל החל מה-1 בנובמבר 2026 אגרת טיפול בסך 2 אירו על רכישות מקוונות ישירות ממדינות מחוץ לאיחוד המיועדות לצרכנים באיחוד. לפי לשכת המסחר והתעשייה של פיראוס, האגרה מצטרפת למכס בגובה 3 אירו שכבר בתוקף מאז ה-1 ביולי 2026 עבור משלוחים שווי ערך של עד 150 אירו. האגרה החדשה נגבית לפי שורה בהצהרת המכס – כלומר לפי רישום מוצר נפרד – ולא אוטומטית לפי חבילה פיזית. החיוב חל על מכירות אלקטרוניות ישירות לצרכנים באיחוד, גם כאשר הערך עולה על 150 אירו, והוא אינו מוחזר אם החבילה מוחזרת או אינה נמסרת. סחורה שכבר יובאה ועברה שחרור מהמכס כמלאי במחסן בתוך האיחוד פטורה מטיפול ייבוא זה, מאחר שהמשלוח בהמשך בתוך האיחוד אינו ייבוא חדש ממדינה שלישית."
+  },
+  "en": {
+    "title": "EU adds €2 fee to online orders from third countries",
+    "dek": "From 1 November 2026, the European Union applies a €2 handling fee per customs declaration line on direct online purchases from third countries.",
+    "tldr": [
+      "A new €2 handling fee starts on 1 November 2026.",
+      "The charge applies per customs declaration line item.",
+      "Goods already stored in EU warehouses remain exempt."
+    ],
+    "means": "This matters for online shoppers and buyers who purchase goods directly from outside the EU, as small orders may become more expensive depending on product categories.",
+    "body": "Starting 1 November 2026, the European Union applies a €2 handling fee on direct online purchases from third countries destined for EU consumers. According to the Piraeus Chamber of Commerce and Industry, this fee comes on top of the €3 duty already in force since 1 July 2026 for covered consignments valued at up to €150. The new fee is charged per line of the customs declaration, meaning per distinct product entry rather than automatically per physical parcel. The combined charges can reach up to €5 per tariff category on low-value parcels. The fee applies to direct electronic sales even when the value exceeds €150, and it is not refunded if the parcel is returned. Goods already imported and cleared as stock inside a warehouse within the EU are exempt from this treatment."
+  },
+  "meta": {
+    "itemId": "5826172f102a",
+    "imageQuery": "Piraeus port container terminal Greece",
+    "sourceHash": "e7d8e57fb43c",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-28T00:09:15.459Z",
+    "official": false
+  }
+}
