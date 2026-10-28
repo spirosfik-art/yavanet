@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["automation/sf-i18n.mjs", ".github/workflows/sf-i18n.yml"]
+    paths: ["automation/sf-i18n.mjs", "automation/sf-i18n-manual.json", ".github/workflows/sf-i18n.yml"]
 concurrency:
   group: sf-data
   cancel-in-progress: false
@@ -38,8 +38,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
+          GEMINI_MODEL: gemini-flash-latest
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         shell: bash
         run: |

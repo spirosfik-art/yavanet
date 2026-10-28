@@ -12,8 +12,8 @@ const BASE = "https://sfproperties.gr";
 const DRY = process.argv.includes("--dry");
 const LANGS = ["tr", "he", "ar", "zh", "ru", "fr", "de", "it"];
 const NAMES = { tr: "Turkish", he: "Hebrew", ar: "Arabic", zh: "Simplified Chinese", ru: "Russian", fr: "French", de: "German", it: "Italian" };
-const GROUPS = [["tr", "he", "ar", "zh"], ["ru", "fr", "de", "it"]];
-const MAX_CALLS = Number(process.env.SF_MAX_CALLS || 40);
+const MANUAL = readJSON(path.join(ROOT, "automation/sf-i18n-manual.json"), {});
+const MAX_CALLS = Number(process.env.SF_MAX_CALLS || 60);
 
 const ent = (s) => String(s || "")
   .replace(/&nbsp;|&#160;/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
@@ -29,24 +29,33 @@ export function parse(html) {
   return { h1, desc, features };
 }
 
-const SYS = (langs) => `You translate English real-estate listings from an Athens agency (S.F. Properties) into: ${langs.map((l) => `${NAMES[l]} ("${l}")`).join(", ")}.
+const SYS = (lang) => `You translate a real-estate listing from an Athens agency (S.F. Properties) into ${NAMES[lang]}.
 Rules:
-- Translate FAITHFULLY and naturally, as a native professional real-estate copywriter would. Do not add, embellish or omit facts.
-- EXCEPTION: drop any paragraph or phrase that states the asking price or the rent (the page shows the official price separately).
-- Keep the SAME number of paragraphs in "desc" (except dropped price-only paragraphs) and the SAME number of items in "features", in the same order.
-- Keep numbers, m², street and neighbourhood names (write place names in Latin letters as given), and bullet characters "• ".
-- "h1" is a short title like "Apartment, 50 m²": translate the property type, keep "m²".
-Return ONLY JSON: {${langs.map((l) => `"${l}":{"h1":"...","desc":["..."],"features":["..."]}`).join(",")}}`;
-
-async function translate(src, langs) {
-  const j = parseJSON(await claude({ system: SYS(langs), prompt: JSON.stringify(src), maxTokens: 12000, temperature: 0.2, role: "select" }));
-  const out = {};
-  for (const l of langs) {
-    const o = j && j[l];
-    if (o && typeof o.h1 === "string" && Array.isArray(o.desc) && Array.isArray(o.features) && o.desc.length >= Math.min(1, src.desc.length))
-      out[l] = { h1: o.h1.trim(), desc: o.desc.map((x) => String(x).trim()).filter(Boolean), features: o.features.map(String) };
+- Translate FAITHFULLY and naturally, as a native ${NAMES[lang]} professional real-estate copywriter would. Do not add, embellish or omit facts.
+- EXCEPTION: drop any paragraph or line that states the asking price or the asking rent (the page shows the official price separately).
+- Write ONLY in ${NAMES[lang]} script; place and street names may stay in Latin letters exactly as given. Never output Greek letters.
+- Keep numbers, m², bullet characters "• ", emojis and line breaks.
+Return ONLY JSON: {"desc":["paragraph", "..."]} with one item per input paragraph (minus dropped price lines).`;
+// Γράμματα που ΔΕΝ επιτρέπονται σε κάθε γλώσσα (π.χ. ελληνικά ή κορεατικά μέσα σε εβραϊκό κείμενο = χαλασμένη μετάφραση)
+const SCRIPTS = { greek: /[\u0370-\u03FF\u1F00-\u1FFF]/, cyr: /[\u0400-\u04FF]/, heb: /[\u0590-\u05FF]/, arab: /[\u0600-\u06FF]/, cjk: /[\u3040-\u30FF\u3400-\u9FFF]/, hangul: /[\uAC00-\uD7AF\u1100-\u11FF]/ };
+const BAN = { tr: ["greek", "cyr", "heb", "arab", "cjk", "hangul"], fr: ["greek", "cyr", "heb", "arab", "cjk", "hangul"], de: ["greek", "cyr", "heb", "arab", "cjk", "hangul"], it: ["greek", "cyr", "heb", "arab", "cjk", "hangul"],
+  ru: ["greek", "heb", "arab", "cjk", "hangul"], he: ["greek", "cyr", "arab", "cjk", "hangul"], ar: ["greek", "cyr", "heb", "cjk", "hangul"], zh: ["greek", "cyr", "heb", "arab", "hangul"] };
+const NEED = { he: SCRIPTS.heb, ar: SCRIPTS.arab, zh: SCRIPTS.cjk, ru: SCRIPTS.cyr };
+export function cleanFor(lang, text) {
+  if (BAN[lang].some((k) => SCRIPTS[k].test(text))) return false;
+  if (NEED[lang] && (text.match(new RegExp(NEED[lang].source, "g")) || []).length < text.replace(/\s/g, "").length * 0.3) return false;
+  return true;
+}
+async function translate(src, lang) {
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    let j;
+    try { j = parseJSON(await claude({ system: SYS(lang), prompt: JSON.stringify({ paragraphs: src.desc }), maxTokens: 8000, temperature: 0.2, role: "select" })); }
+    catch (e) { if (aiQuotaHit()) throw e; log("  ✗", lang, e.message.slice(0, 120)); continue; }
+    const desc = j && Array.isArray(j.desc) ? j.desc.map((x) => String(x).trim()).filter(Boolean) : [];
+    if (desc.length && cleanFor(lang, desc.join("\n"))) return { desc };
+    log("  ✗", lang, "απορρίφθηκε (προσπάθεια", attempt + ")");
   }
-  return out;
+  return null;
 }
 
 async function main() {
@@ -63,17 +72,17 @@ async function main() {
     try { src = parse(await fetchText(`${BASE}/en/properties/${id}/`, { timeout: 30000 })); } catch (e) { log(id, "σελίδα:", e.message); continue; }
     if (!src.h1 || !src.desc.length) { log(id, "χωρίς περιγραφή – παράλειψη"); continue; }
     const hash = sha(JSON.stringify(src));
-    const cur = items[id] && items[id].hash === hash ? items[id] : { hash, t: {} };
+    if (MANUAL[id] && MANUAL[id].hash === hash) { if (!items[id] || !items[id].manual || items[id].hash !== hash) { items[id] = { hash, manual: true, t: MANUAL[id].t }; changed = true; } continue; }
+    const cur = items[id] && items[id].hash === hash && !items[id].manual ? items[id] : { hash, t: {} };
     const missing = LANGS.filter((l) => !cur.t[l]);
     if (!missing.length) { items[id] = cur; continue; }
     if (DRY) { log("θα μεταφραζόταν", id, missing.join(",")); continue; }
     if (!hasAI()) { log("χωρίς AI key – σταματάω"); break; }
-    for (const g of GROUPS) {
-      const langs = g.filter((l) => missing.includes(l));
-      if (!langs.length || calls >= MAX_CALLS || aiQuotaHit()) continue;
+    for (const l of missing) {
+      if (calls >= MAX_CALLS || aiQuotaHit()) break;
       calls++;
-      try { Object.assign(cur.t, await translate(src, langs)); changed = true; log("✓", id, langs.join(",")); }
-      catch (e) { log("μετάφραση", id, e.message); }
+      try { const r = await translate(src, l); if (r) { cur.t[l] = r; changed = true; log("✓", id, l); } }
+      catch (e) { log("μετάφραση", id, l, e.message); }
     }
     items[id] = cur;
   }
