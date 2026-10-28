@@ -59,7 +59,7 @@ jobs:
         run: |
           B=reels; [ "$TASK" = "publish-explainer" ] && B=explainer; [ "$TASK" = "publish-explainer3d" ] && B=explainer3d
           mkdir -p out && for f in reel.mp4 caption.txt; do curl -sfL -o out/$f "https://raw.githubusercontent.com/${{ github.repository }}/$B/$f"; done
-          ls -la out && REEL_ONLY="${{ github.event.inputs.only }}" node automation/meta.mjs reel-publish out/reel.mp4 2>&1 | tee pub.log
+          ls -la out && REEL_URL="https://raw.githubusercontent.com/${{ github.repository }}/$B/reel.mp4" REEL_ONLY="${{ github.event.inputs.only }}" node automation/meta.mjs reel-publish out/reel.mp4 2>&1 | tee pub.log
           echo "::notice::$(tail -c 700 pub.log | tr '\n' ' ')"
       - name: Stock reel (πραγματικά πλάνα Pexels)
         if: (env.TASK == 'reel' || env.TASK == 'stock') && env.PEXELS_API_KEY != '' && env.SKIP != '1'

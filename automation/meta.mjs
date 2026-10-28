@@ -117,6 +117,12 @@ export async function postReel(mp4, caption) {
   const out = [];
   if (c.igId && env.REEL_ONLY !== "fb") for (let attempt = 1; attempt <= 3; attempt++) {
     try {
+      if (env.REEL_URL && attempt > 1) { // εναλλακτικά: το Instagram κατεβάζει μόνο του το βίντεο από δημόσιο URL
+        const m2 = await api(`/${c.igId}/media`, { method: "POST", token: c.userToken, params: { media_type: "REELS", video_url: env.REEL_URL, caption, share_to_feed: "true", thumb_offset: "1200" } });
+        await waitReady(m2.id, c.userToken, 10);
+        const p2 = await api(`/${c.igId}/media_publish`, { method: "POST", token: c.userToken, params: { creation_id: m2.id } });
+        out.push("IG reel ✓ (url) " + p2.id); break;
+      }
       const m = await api(`/${c.igId}/media`, { method: "POST", token: c.userToken, params: { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true", thumb_offset: "1200" } });
       const up = await fetch(`https://rupload.facebook.com/ig-api-upload/${V}/${m.id}`, { method: "POST", headers: { Authorization: "OAuth " + c.userToken, offset: "0", file_size: String(buf.length) }, body: buf });
       if (!up.ok) throw new Error("upload " + up.status + " " + (await up.text()).slice(0, 200));
