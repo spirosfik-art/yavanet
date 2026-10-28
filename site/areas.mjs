@@ -29,7 +29,7 @@ export function areaPage(lang, a, madad, fx) {
   const buyCost = 1.08; // ~8% κόστη αγοράς (φόρος, συμβολαιογράφος, δικηγόρος, μεταγραφή)
 
   const title = he ? `כמה עולה דירה ב${n}? מחיר למ״ר, ${monthName}` : `How much is a flat in ${n}? Price per m², ${monthName}`;
-  const seoTitle = he ? `מחיר דירה ב${n} (אתונה) – מחיר למ״ר ושכירות ${yy}` : `${n} (Athens) property prices – price per m² and rent ${yy}`;
+  const seoTitle = he ? `מחיר דירה ב${n} (אתונה) – מחיר למ״ר ושכירות ${yy}` : `${n}, Athens: price per m² & rent ${yy}`;
   const description = he
     ? `מחיר ממוצע למ״ר ב${n}: ${eur(a.sale)} (כ-${ils(a.sale, fx)}). שכירות כ-€${(+a.rent).toFixed(1)} למ״ר בחודש${yld ? `, תשואה ברוטו כ-${yld.toFixed(1)}%` : ""}. נתוני ${monthName}.`
     : `Average price per m² in ${n}: ${eur(a.sale)}. Rent about €${(+a.rent).toFixed(1)}/m² a month${yld ? `, gross yield about ${yld.toFixed(1)}%` : ""}. Data for ${monthName}.`;

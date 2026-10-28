@@ -121,7 +121,7 @@ This list comes from the official event calendars of ${usedSources.map((s) => s.
       tldr: [`${events.length} אירועים באתונה מיום שישי עד ראשון.`, nFree ? `${nFree} מהם בכניסה חופשית.` : "יש קישור לכל אירוע עם שעות ומחירים.", "ביום ראשון רוב החנויות סגורות – תכננו קניות לשישי או שבת."],
       means: "", body: heBody,
       seoTitle: `מה עושים באתונה בסוף השבוע (${range("he")})`,
-      seoDesc: `אירועים באתונה בסוף השבוע: הופעות, תערוכות, שווקים ואירועים בכניסה חופשית, עם קישורים לאתרים הרשמיים.`,
+      seoDesc: `${range("he")}: ${events.length} אירועים באתונה בסוף השבוע: הופעות, תערוכות, שווקים ואירועים בכניסה חופשית, עם קישורים לאתרים הרשמיים.`,
       keywords: ["מה עושים באתונה", "אירועים באתונה", "סוף שבוע באתונה", "הופעות באתונה"],
     },
     en: {
@@ -130,7 +130,7 @@ This list comes from the official event calendars of ${usedSources.map((s) => s.
       tldr: [`${events.length} events in Athens from Friday to Sunday.`, nFree ? `${nFree} of them are free.` : "Each event links to its official page with times and prices.", "Most shops close on Sunday – plan shopping for Friday or Saturday."],
       means: "", body: enBody,
       seoTitle: `What's on in Athens this weekend (${range("en")})`,
-      seoDesc: `Things to do in Athens this weekend: concerts, exhibitions, markets and free events, with links to the official pages.`,
+      seoDesc: `${range("en")}: ${events.length} things to do in Athens this weekend: concerts, exhibitions, markets and free events, with links to the official pages.`,
       keywords: ["things to do in Athens this weekend", "Athens events", "what's on Athens"],
     },
     meta: { itemId: "weekend-" + fri, auto: "weekend", imageQuery: "Athens evening concert crowd", checkedAt: isoAthens() },

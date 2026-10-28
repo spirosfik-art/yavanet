@@ -15,3 +15,12 @@ jobs:
             r=$(curl -s -o /tmp/x -w "%{http_code} %{content_type} %{size_download}B %{time_total}s" -A "Mozilla/5.0" "$u"); echo "::notice::$r $(file -b /tmp/x | cut -c1-40) ← ${u#https://yavanet.gr}"
           done
           curl -s -A "Mozilla/5.0" https://yavanet.gr/a/22-greek-airports-concession-tender-2026/ | grep -o 'fonts.googleapis\|/f-assistant-0-hebrew.woff2\|/img/34785942/800x450' | sort | uniq -c | sed 's/^/::notice::page /'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Lighthouse (κινητό)
+        run: |
+          for u in https://yavanet.gr/ https://yavanet.gr/a/22-greek-airports-concession-tender-2026/; do
+            npx --yes lighthouse@12 "$u" --quiet --chrome-flags="--headless=new --no-sandbox" --output=json --output-path=/tmp/lh.json --only-categories=performance,seo,accessibility,best-practices >/dev/null 2>&1 || true
+            node -e 'const r=require("/tmp/lh.json");const c=r.categories,a=r.audits;console.log(`::notice::LH ${process.argv[1]} perf ${Math.round(c.performance.score*100)} seo ${Math.round(c.seo.score*100)} a11y ${Math.round(c.accessibility.score*100)} bp ${Math.round(c["best-practices"].score*100)} · LCP ${a["largest-contentful-paint"].displayValue} CLS ${a["cumulative-layout-shift"].displayValue} TBT ${a["total-blocking-time"].displayValue}`);for(const k of Object.keys(a)){const x=a[k];if(x.score!==null&&x.score<0.9&&["seo","accessibility","performance","best-practices"].some(cat=>c[cat].auditRefs.some(r=>r.id===k&&r.weight>0)))console.log(`::notice::LH fix ${k}: ${x.title} ${x.displayValue||""}`)}' "${u#https://yavanet.gr}"
+          done
