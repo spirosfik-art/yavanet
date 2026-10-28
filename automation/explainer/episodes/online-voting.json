@@ -76,17 +76,21 @@
   {
    "say": "בישראל, החוק מחייב להצביע *בקלפי*. ולשנות אותו? רק הכנסת.",
    "q": [
-    "jerusalem old city",
-    "jerusalem",
-    "israel flag"
+    "tel aviv aerial",
+    "tel aviv skyline",
+    "tel aviv"
    ]
   },
   {
    "say": "ופתק נייר אפשר לספור *שוב*. ב-2019 פתחו שקים מחמישים קלפיות וספרו הכול מחדש.",
    "q": [
-    "ballot box",
-    "paper ballot voting",
-    "election ballot"
+    "ballot box election",
+    "paper ballot",
+    "voting ballot box"
+   ],
+   "avoid": [
+    "vote-sign",
+    "usa"
    ]
   },
   {
