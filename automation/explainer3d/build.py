@@ -195,10 +195,10 @@ def flag(path, loc, h=4.0, fw=1.9, fh=1.3):
     return f
 
 def person(loc, body_col, rot_z=0.0, h=1.0):
-    root = empty(loc); root.rotation_euler = (0, 0, rot_z)
+    root = empty(loc)
     b = cyl(.32 * h, 1.0 * h, (loc[0], loc[1], loc[2] + .62 * h), mat("pb" + body_col, body_col, rough=.5), bevel=.12 * h)
     hd = sphere(.27 * h, (loc[0], loc[1], loc[2] + 1.42 * h), mat("skin", "#E8C7A8", rough=.55))
-    parent(b, root); parent(hd, root); return root
+    parent(b, root); parent(hd, root); root.rotation_euler = (0, 0, rot_z); return root
 
 def ballot_box(loc, s=1.0, col="#7DB6E0"):
     root = empty(loc)
@@ -209,10 +209,10 @@ def ballot_box(loc, s=1.0, col="#7DB6E0"):
     return root
 
 def envelope(loc, rot=(0, 0, 0), s=1.0, col="#F7F1E4"):
-    root = empty(loc); root.rotation_euler = rot
+    root = empty(loc)
     e = box((.9 * s, .02 * s, .6 * s), loc, mat("env" + col, col, rough=.55), bevel=.01)
     fl = box((.88 * s, .021 * s, .3 * s), (loc[0], loc[1] - .002, loc[2] + .12 * s), mat("envf", "#E9DFC8", rough=.6), bevel=.005, rot=(0, math.radians(0), 0))
-    parent(e, root); parent(fl, root); return root
+    parent(e, root); parent(fl, root); root.rotation_euler = rot; return root
 
 # ---------- σκηνές ----------
 def s_phone_bank():
@@ -293,10 +293,10 @@ def s_laptop():
     disp = plane_img(T("laptop.png"), 3.2, 2.0, (0, 1.06, 2.66), emit=1.2, rough=.1); parent(disp, lid)
     lid.rotation_euler = (math.radians(-12), 0, 0)
     key(lid, "rotation_euler", 1, (math.radians(85), 0, 0), "BACK", "EASE_OUT"); key(lid, "rotation_euler", F(1.0), (math.radians(-12), 0, 0), "BACK", "EASE_OUT")
-    rd = box((.9, .6, .25), (2.6, -.8, 1.15), mat("reader", "#1B2533", rough=.4), bevel=.06)
-    cd = card((2.6, -.8, 1.55), "id_ee.png", rot=(math.radians(15), 0, math.radians(-10)), w=.85, h=.54)
-    key(cd, "location", 1, (2.6, -.8, 2.6), "SINE"); key(cd, "location", F(.9), (2.6, -.8, 1.4), "SINE")
-    camera((3.5, -8.5, 4.5), (2.5, -7.8, 4.0), (.6, .3, 2.2), lens=45, fstop=3.2, focus=base)
+    rd = box((.9, .6, .25), (2.1, -1.2, 1.15), mat("reader", "#1B2533", rough=.4), bevel=.06)
+    cd = card((2.1, -1.2, 1.55), "id_ee.png", rot=(math.radians(15), 0, math.radians(-10)), w=.85, h=.54)
+    key(cd, "location", 1, (2.1, -1.2, 2.6), "SINE"); key(cd, "location", F(.9), (2.1, -1.2, 1.4), "SINE")
+    camera((2.2, -9.6, 4.6), (1.5, -8.9, 4.2), (.7, .2, 2.3), lens=42, fstop=3.2, focus=base)
 
 def s_bars():
     stage()
@@ -308,7 +308,7 @@ def s_bars():
         b.scale = (1, 1, 1); key(b, "scale", F(.2 + .25 * i), (1, 1, .001), "BACK", "EASE_OUT"); key(b, "scale", F(.2 + .25 * i) + 18, (1, 1, 1), "BACK", "EASE_OUT")
         bpy.ops.object.text_add(location=(x, -.7, .05), rotation=(math.radians(90), 0, 0)); t = bpy.context.active_object
         t.data.body = yr; t.data.align_x = "CENTER"; t.data.size = .45; t.data.extrude = .03; t.data.materials.append(mat("txt", CREAM, rough=.4))
-    camera((3, -12, 5.5), (1.5, -11, 4.5), (0, 0, 2.2), lens=42, fstop=4)
+    camera((2.2, -18.5, 6.2), (1.2, -17.2, 5.4), (0, 0, 2.3), lens=42, fstop=5)
 
 def s_parliament():
     stage("#0D3350")
@@ -318,8 +318,8 @@ def s_parliament():
     for i in range(15):
         c = box((.18, .2, 2.5), (-3.3 + i * .47, -1.65, 1.85), mat("col", "#F6F0E4", rough=.6), bevel=.03); pop(c, F(.1 + .04 * i), 8)
     box((7.4, 3.6, .25), (0, 0, 3.1), m, bevel=.04)
-    flag(T("flag_il.png"), (4.6, -2.2, .6), h=4.2)
-    camera((6, -13, 4.5), (4.5, -12, 3.8), (0, 0, 2.2), lens=40, fstop=5)
+    flag(T("flag_il.png"), (2.6, -2.6, .6), h=4.6)
+    camera((4.5, -21, 5.6), (3.2, -19.5, 5.0), (.8, 0, 2.6), lens=42, fstop=6)
 
 def s_recount():
     stage()
@@ -338,11 +338,11 @@ def s_greek_mail():
     cyl(.12, .9, (0, 0, .45), mat("pole", "#5C6670", rough=.4, metal=.8))
     for i in range(5):
         e = envelope((-2.5 + i * .3, -1.5, 5.5 + i * .5), rot=(math.radians(10 * i), 0, math.radians(20 - 10 * i)), s=.7)
-        key(e, "location", F(.3 * i + .1), (-2.5 + i * 1.2, -1.5, 6 + i * .3), "SINE")
+        key(e, "location", F(.3 * i + .1), (-1.4 + i * .7, -1.5, 6 + i * .3), "SINE")
         key(e, "location", F(.3 * i + 1.3), (0, -.6, 2.5), "SINE", "EASE_IN")
         key(e, "scale", F(.3 * i + 1.2), (1, 1, 1)); key(e, "scale", F(.3 * i + 1.35), (.01, .01, .01))
-    flag(T("flag_gr.png"), (3.0, 1.2, 0), h=4.6)
-    camera((3.2, -10, 3.6), (2.0, -9, 3.2), (.6, 0, 2.6), lens=45, fstop=3.5)
+    flag(T("flag_gr.png"), (1.5, 1.6, 0), h=4.8)
+    camera((2.6, -13.5, 4.2), (1.6, -12.4, 3.8), (.6, 0, 2.8), lens=42, fstop=3.5)
 
 LOGO_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M150 112H232Q262 112 262 142V392H206V168H150Q134 168 134 152V128Q134 112 150 112Z" fill="#ffffff"/><path d="M318 112H382Q414 112 414 144V168Q414 224 360 262L334 228Q358 210 364 188H318Q302 188 302 172V128Q302 112 318 112Z" fill="#F0B650"/></svg>"""
 def s_logo():
