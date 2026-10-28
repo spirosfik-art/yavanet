@@ -42,6 +42,13 @@ def reset():
     nt.links.new(tc.outputs["Generated"], sep.inputs[0]); nt.links.new(sep.outputs["Z"], ramp.inputs[0])
     ramp.color_ramp.elements[0].color = hexc("#04121F"); ramp.color_ramp.elements[1].color = hexc("#3B6E96")
     nt.links.new(ramp.outputs[0], bg.inputs[0]); bg.inputs[1].default_value = .55
+    hdr = os.path.join(A.tex, "studio.hdr")
+    if os.path.exists(hdr):
+        env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(hdr)
+        bg2 = nt.nodes.new("ShaderNodeBackground"); nt.links.new(env.outputs[0], bg2.inputs[0]); bg2.inputs[1].default_value = .9
+        lp = nt.nodes.new("ShaderNodeLightPath"); mix = nt.nodes.new("ShaderNodeMixShader")
+        nt.links.new(lp.outputs["Is Camera Ray"], mix.inputs[0]); nt.links.new(bg2.outputs[0], mix.inputs[1]); nt.links.new(bg.outputs[0], mix.inputs[2])
+        nt.links.new(mix.outputs[0], nt.nodes["World Output"].inputs[0])
     return s
 
 MATS = {}
@@ -214,7 +221,7 @@ def s_phone_bank():
     spin(ph, 2, .06)
     for i, (x, z) in enumerate([(-1.7, 4.8), (1.6, 5.3), (-1.3, 1.6), (1.9, 2.2), (0.2, 6.2)]):
         c = coin((x, -.6, z)); c.rotation_euler = (math.radians(90), math.radians(20 * i), math.radians(30 * i)); pop(c, F(.4 + .15 * i), 10); spin(c, 1, .5)
-    camera((1.5, -12, 4.2), (0.6, -10.5, 3.6), (0, 0, 3.2), lens=60, fstop=2.2, focus=ph)
+    camera((1.2, -8.2, 3.9), (0.4, -7.2, 3.5), (0, 0, 3.2), lens=60, fstop=2.0, focus=ph)
 
 def s_bank_card():
     stage(); cd = card((0, 0, 3.3), "card.png", rot=(math.radians(80), math.radians(-10), math.radians(-20)), w=2.4, h=1.52)
@@ -232,14 +239,18 @@ def s_id_card():
 
 def s_ballot():
     stage("#0D3350")
-    # παραβάν τριών φύλλων
-    for i, (x, r) in enumerate([(-1.45, 30), (0, 0), (1.45, -30)]):
-        p = box((1.4, .06, 2.2), (x * .95, 1.0 - abs(x) * .35, 2.5), mat("booth", "#DCE8F2", rough=.7), bevel=.02, rot=(0, 0, math.radians(r)))
+    for i, (x, r) in enumerate([(-1.45, 32), (0, 0), (1.45, -32)]):
+        p = box((1.4, .06, 2.3), (x * .95, 1.0 - abs(x) * .38, 2.45), mat("booth", "#4F8FC0", rough=.55), bevel=.025, rot=(0, 0, math.radians(r)))
         pop(p, 1 + i * 3, 12)
-    bb = ballot_box((0, -.6, 0), 1.1); pop(bb, F(.3), 14)
-    env = envelope((0, -.6, 3.6), rot=(0, 0, 0), s=.9)
-    key(env, "location", F(.6), (0, -.6, 3.6), "SINE"); key(env, "location", F(min(A.dur - .4, 2.2)), (0, -.6, 1.35), "SINE", "EASE_IN")
-    camera((2.2, -9.5, 3.4), (1.2, -8.6, 3.0), (0, -.3, 1.6), lens=50, fstop=2.8, focus=bb)
+    top = box((4.2, .9, .12), (0, .75, 3.66), mat("bt", NAVY, rough=.4), bevel=.04); pop(top, 6, 10)
+    sign = plane_img(T("kalpi.png"), 1.3, .55, (0, .95, 2.9), emit=.4); pop(sign, 8, 10)
+    tbl = box((2.6, 1.2, .1), (0, -.55, 1.2), mat("tbl", "#E9DFC8", rough=.6), bevel=.03)
+    for lx in (-1.2, 1.2):
+        for ly in (-1.05, -.05): box((.07, .07, 1.2), (lx, ly, .6), mat("pole", "#C9CED6", rough=.25, metal=1), bevel=.01)
+    bb = ballot_box((0, -.55, 1.25), .9); pop(bb, F(.3), 14)
+    env = envelope((0, -.55, 3.8), s=.8)
+    key(env, "location", F(.6), (0, -.55, 3.8), "SINE"); key(env, "location", F(min(A.dur - .4, 2.2)), (0, -.55, 2.45), "SINE", "EASE_IN")
+    camera((2.4, -8.4, 3.6), (1.3, -7.6, 3.2), (0, -.2, 2.1), lens=48, fstop=2.8, focus=bb)
 
 def s_home():
     stage("#13314A")
@@ -270,9 +281,9 @@ def s_tallinn():
     for i in range(6):
         hx = -2.6 + i * 1.05; hh = 1.0 + (i % 3) * .3
         hs = box((.9, .9, hh), (hx, -2.3, .3 + hh / 2), mat("house" + str(i % 3), ["#F2D7A0", "#E8B9A4", "#CFE0D2"][i % 3], rough=.7), bevel=.03)
-        rf = box((.95, .95, .45), (hx, -2.3, .3 + hh + .2), m_roof, bevel=.02, rot=(0, math.radians(45), 0)); rf.scale = (.7, 1, .7)
-    flag(T("flag_ee.png"), (4.5, -1.8, .3), h=3.6)
-    camera((7.5, -11, 6.5), (5.5, -10.5, 5.6), (0, 0, 2.0), lens=38, fstop=5.6)
+        rf = cone(.72, 0, .6, (hx, -2.3, .3 + hh + .3), m_roof, verts=4); rf.rotation_euler = (0, 0, math.radians(45)); pop(rf, F(.3 + .1 * i), 10)
+    flag(T("flag_ee.png"), (3.3, -1.0, .3), h=3.6)
+    camera((6.5, -12.5, 6.0), (4.8, -11.8, 5.2), (.4, 0, 2.0), lens=34, fstop=5.6)
 
 def s_laptop():
     stage()
