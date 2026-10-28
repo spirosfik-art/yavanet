@@ -1,0 +1,64 @@
+# S.F. Properties: ένα νέο άρθρο-οδηγός την εβδομάδα (ελληνικά, αγγλικά, εβραϊκά) → branch «sf-data» → sfproperties.gr.
+# Δεν αγγίζει το main ούτε το site του Yavanet.
+name: SF weekly article
+on:
+  schedule:
+    - cron: "40 7 * * 2"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["automation/sf-articles.mjs", "automation/sf-topics.json", ".github/workflows/sf-articles.yml"]
+concurrency:
+  group: sf-data
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Previous data (branch sf-data)
+        run: |
+          mkdir -p sf-data
+          if git fetch -q --depth 1 origin sf-data 2>/dev/null; then
+            git --work-tree=sf-data checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+          fi
+          rm -f sf-data/last-article.json
+          ls -la sf-data
+      - name: Write article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+        run: node automation/sf-articles.mjs
+      - name: Push to sf-data branch
+        run: |
+          cd sf-data
+          [ -f last-article.json ] || { echo "nothing new"; exit 0; }
+          cp last-article.json ../last-article.json
+          rm -f last-article.json
+          git init -q -b sf-data
+          git config user.name "sf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -qm "sf-data article $(date -u +%FT%TZ) [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" sf-data
+      - name: Tell search engines (after the site cache refreshes)
+        run: |
+          [ -f last-article.json ] || exit 0
+          sleep 2000
+          for u in $(node -e 'console.log(require("./last-article.json").urls.join(" "))'); do
+            curl -s -o /dev/null -w "%{http_code} $u\n" "https://api.indexnow.org/indexnow?url=$(node -e 'console.log(encodeURIComponent(process.argv[1]))' "$u")&key=5f3e9a1c7b2d4e8fa6c0b19d2e7f4a63" || true
+          done

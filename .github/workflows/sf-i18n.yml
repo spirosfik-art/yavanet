@@ -1,0 +1,54 @@
+# S.F. Properties: μεταφράσεις αγγελιών (8 γλώσσες) → branch «sf-data» → τις διαβάζει ο worker του sfproperties.gr.
+# Δεν αγγίζει το main ούτε το site του Yavanet.
+name: SF listings i18n
+on:
+  schedule:
+    - cron: "20 4 * * *"
+    - cron: "20 16 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["automation/sf-i18n.mjs", ".github/workflows/sf-i18n.yml"]
+concurrency:
+  group: sf-data
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  i18n:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Previous data (branch sf-data)
+        run: |
+          mkdir -p sf-data
+          if git fetch -q --depth 1 origin sf-data 2>/dev/null; then
+            git --work-tree=sf-data checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+          fi
+          ls -la sf-data
+      - name: Translate new or changed listings
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+        run: node automation/sf-i18n.mjs
+      - name: Push to sf-data branch
+        run: |
+          cd sf-data
+          [ -f listings-i18n.json ] || { echo "no data yet"; exit 0; }
+          git init -q -b sf-data
+          git config user.name "sf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -qm "sf-data $(date -u +%FT%TZ) [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" sf-data
