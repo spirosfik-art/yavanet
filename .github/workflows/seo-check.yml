@@ -14,6 +14,7 @@ jobs:
             "https://yavanet.gr/sitemap.xml"; do
             r=$(curl -s -o /tmp/x -w "%{http_code} %{content_type} %{size_download}B %{time_total}s" -A "Mozilla/5.0" "$u"); echo "::notice::$r $(file -b /tmp/x | cut -c1-40) ← ${u#https://yavanet.gr}"
           done
+          curl -s -A "Mozilla/5.0 (Linux; Android 11; Pixel 5) Chrome/126 Mobile" https://yavanet.gr/a/22-greek-airports-concession-tender-2026/ -o /tmp/a.html; echo "::notice::live html $(wc -c </tmp/a.html)B cdn-cgi:$(grep -o 'cdn-cgi/[a-z/._-]*' /tmp/a.html | sort -u | tr '\n' ' ') rocket:$(grep -c rocket /tmp/a.html) scripts:$(grep -o '<script[^>]*src="[^"]*"' /tmp/a.html | sed 's/.*src=//' | tr '\n' ' ')"
           C="https://yavanet.gr/img/34785942/$((500 + RANDOM % 400))x300/cold-test.webp"
           for k in 1 2 3; do echo "::notice::img $k $(curl -s -o /dev/null -w '%{http_code} ttfb %{time_starttransfer}s total %{time_total}s' "$C") (cf-ray $(curl -sI "$C" | grep -i cf-ray | cut -c9-30))"; done
           for k in 1 2; do echo "::notice::pexels $(curl -s -o /dev/null -w 'ttfb %{time_starttransfer}s' "https://images.pexels.com/photos/34785942/pexels-photo-34785942.jpeg?auto=compress&cs=tinysrgb&w=$((500 + RANDOM % 400))")"; done
