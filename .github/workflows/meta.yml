@@ -52,9 +52,9 @@ jobs:
         run: |
           node -e "let t={};try{t=JSON.parse(require('fs').readFileSync('content/ig/reel-last.json','utf8'))}catch{};const d=new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Athens'});if(t.date===d)console.log('SKIP=1')" >> $GITHUB_ENV
       - name: Publish last ready reel
-        if: env.TASK == 'publish-last' || env.TASK == 'publish-explainer'
+        if: env.TASK == 'publish-last' || env.TASK == 'publish-explainer' || env.TASK == 'publish-explainer3d'
         run: |
-          B=reels; [ "$TASK" = "publish-explainer" ] && B=explainer
+          B=reels; [ "$TASK" = "publish-explainer" ] && B=explainer; [ "$TASK" = "publish-explainer3d" ] && B=explainer3d
           mkdir -p out && for f in reel.mp4 caption.txt; do curl -sfL -o out/$f "https://raw.githubusercontent.com/${{ github.repository }}/$B/$f"; done
           ls -la out && node automation/meta.mjs reel-publish out/reel.mp4 2>&1 | tee pub.log
           echo "::notice::$(tail -c 700 pub.log | tr '\n' ' ')"
@@ -104,7 +104,7 @@ jobs:
         if: env.TASK == 'reel' && env.SKIP != '1'
         run: node automation/meta.mjs reel-publish out/reel.mp4
       - name: Save reel state
-        if: always() && (env.TASK == 'reel' || env.TASK == 'publish-last' || env.TASK == 'publish-explainer')
+        if: always() && (env.TASK == 'reel' || env.TASK == 'publish-last' || env.TASK == 'publish-explainer' || env.TASK == 'publish-explainer3d')
         run: |
           git config user.name yavanet-bot && git config user.email bot@yavanet.gr
           [ -f content/ig/reel-last.json ] && git add content/ig/reel-last.json
