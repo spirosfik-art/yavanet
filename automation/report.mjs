@@ -56,8 +56,17 @@ async function traffic(hours = 24) {
   const s = readJSON(STATE_FILE, {});
   if (kind === "stats") {
     // Μόνο νούμερα επισκεψιμότητας στο log (χωρίς Telegram/email), για γρήγορο έλεγχο
-    const tr = await traffic();
+    // από τα μεσάνυχτα ώρας Αθήνας (ή STATS_HOURS)
+    const ath = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Athens" }));
+    const hrs = Number(env.STATS_HOURS) || Math.max(1, ath.getHours() + ath.getMinutes() / 60);
+    const tr = await traffic(hrs);
     log(JSON.stringify(tr, null, 1));
+    if (tr) {
+      console.log(`::notice::ΣΗΜΕΡΑ (${hrs.toFixed(1)} ώρες): επισκέψεις ${tr.now.visits} · προβολές σελίδων ${tr.now.views} · ίδιες ώρες χθες: ${tr.before.visits} επισκέψεις`);
+      console.log(`::notice::Χώρες: ${tr.countries.join(" · ")}`);
+      console.log(`::notice::Από πού: ${tr.refs.join(" · ")}`);
+      console.log(`::notice::Σελίδες: ${tr.pages.join(" ")}`);
+    }
     return;
   }
   if (kind === "weekly") {
