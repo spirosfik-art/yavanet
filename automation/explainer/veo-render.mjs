@@ -157,7 +157,8 @@ if (AZ && !fs.existsSync(voice)) {
 }
 if (GK && !fs.existsSync(voice)) usedTts = await tts(fullText, voice);
 let bounds, TOTAL;
-if (azBounds) { bounds = azBounds; TOTAL = azBounds.at(-1) + 1.2; }
+if (process.env.BOUNDS_FILE && fs.existsSync(process.env.BOUNDS_FILE)) { const b = JSON.parse(fs.readFileSync(process.env.BOUNDS_FILE, "utf8")); bounds = b.bounds; TOTAL = b.total; }
+else if (azBounds) { bounds = azBounds; TOTAL = azBounds.at(-1) + 1.2; }
 else if (fs.existsSync(voice)) {
   const total = durOf(voice); const pts = splitPoints(voice, EP.scenes.length);
   bounds = [0, ...pts, total]; TOTAL = total + 1.4;
@@ -167,6 +168,10 @@ else if (fs.existsSync(voice)) {
 const LEAD = 0.25; // η φωνή ξεκινά λίγο μετά την εικόνα
 const scenes = EP.scenes.map((s, i) => { const a = bounds[i] + (i ? LEAD : 0), b = i === EP.scenes.length - 1 ? TOTAL : bounds[i + 1] + LEAD; return { ...s, start: a, dur: b - a, chunks: chunks(s.say, bounds[i] + LEAD, bounds[i + 1] - bounds[i] - .1) }; });
 log("σκηνές:", scenes.map((s) => s.dur.toFixed(1)).join(" "), "σύνολο", TOTAL.toFixed(1));
+if (process.env.PREP_ONLY) { // μόνο φωνή + χρονισμός (για το 3D: οι σκηνές αποδίδονται χωριστά)
+  fs.writeFileSync(path.join(out, "bounds.json"), JSON.stringify({ bounds, total: TOTAL, tts: usedTts, scenes: scenes.map((s) => ({ start: s.start, dur: s.dur, need: s.dur + .3 })) }, null, 1));
+  log("PREP ✓"); process.exit(0);
+}
 
 const clipFiles = await clips(scenes.map((s) => s.dur));
 

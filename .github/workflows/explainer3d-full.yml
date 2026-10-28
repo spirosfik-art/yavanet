@@ -1,0 +1,91 @@
+# «יוונט מסביר» 3D — ολόκληρο βίντεο: φωνή (Azure) → 20 μηχανές Blender παράλληλα → σύνθεση (υπότιτλοι, μουσική) → branch explainer.
+name: Explainer 3D full
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        default: "online-voting"
+      azure_voice:
+        default: "he-IL-AvriNeural"
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-e3d-full
+  cancel-in-progress: false
+env:
+  SHARDS: 20
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Φωνή + χρονισμός + υφές
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          AZURE_VOICE: ${{ github.event.inputs.azure_voice }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          npm i --no-save playwright@1.48.2 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+          sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
+          PREP_ONLY=1 node automation/explainer/veo-render.mjs automation/explainer/episodes/${{ github.event.inputs.episode }}.json prep 2>&1 | tail -5
+          node automation/explainer3d/textures.mjs prep/tex
+          curl -sSL -o prep/tex/studio.hdr https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/studio_small_09_2k.hdr
+          ls prep; cat prep/bounds.json | head -5
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep
+          path: prep
+  render:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        k: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep
+          path: prep
+      - name: Blender 4.2
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 libegl1 >/dev/null 2>&1 || true
+          curl -sSL -o /tmp/b.tar.xz https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz
+          mkdir -p /tmp/blender && tar -xJf /tmp/b.tar.xz -C /tmp/blender --strip-components=1
+      - name: Render μερίδιο ${{ matrix.k }}
+        run: node automation/explainer3d/shard.mjs automation/explainer/episodes/${{ github.event.inputs.episode }}.json prep/bounds.json ${{ matrix.k }} $SHARDS frames prep/tex
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frames-${{ matrix.k }}
+          path: frames
+          retention-days: 2
+  assemble:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/download-artifact@v4
+        with:
+          path: art
+      - name: Σύνθεση
+        run: |
+          npm i --no-save playwright@1.48.2 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+          sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
+          mkdir -p out all && cp art/frames-*/*.jpg all/ && cp art/prep/voice.wav out/
+          N=$(node -e "console.log(require('./art/prep/bounds.json').scenes.length)")
+          for i in $(seq 0 $((N-1))); do s=$(printf "%02d" $i); ffmpeg -y -loglevel error -framerate 24 -pattern_type glob -i "all/s${s}_*.jpg" -vf "scale=1080:1920:flags=lanczos" -c:v libx264 -crf 17 -pix_fmt yuv420p out/clip$i.mp4; done
+          BOUNDS_FILE=art/prep/bounds.json CLIP_SOURCE=veo node automation/explainer/veo-render.mjs automation/explainer/episodes/${{ github.event.inputs.episode }}.json out 2>&1 | tail -4 | while read -r l; do echo "::notice::$l"; done
+          cd out && rm -f clip*.mp4 *.png seg*.mp4 base.mp4 gfx.mp4 && git init -q -b explainer3d && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "3d [skip ci]" && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" explainer3d

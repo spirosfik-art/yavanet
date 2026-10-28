@@ -8,7 +8,7 @@ argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 ap = argparse.ArgumentParser()
 ap.add_argument("--episode"); ap.add_argument("--scene", type=int); ap.add_argument("--dur", type=float, default=5)
 ap.add_argument("--out"); ap.add_argument("--mode", default="still"); ap.add_argument("--tex", default="tex")
-ap.add_argument("--samples", type=int, default=0); ap.add_argument("--fps", type=int, default=30); ap.add_argument("--res", type=float, default=1.0)
+ap.add_argument("--frames", default=""); ap.add_argument("--samples", type=int, default=0); ap.add_argument("--fps", type=int, default=30); ap.add_argument("--res", type=float, default=1.0)
 A = ap.parse_args(argv)
 EP = json.load(open(A.episode))
 SC = EP["scenes"][A.scene]
@@ -368,6 +368,10 @@ os.makedirs(A.out, exist_ok=True)
 if A.mode == "still":
     s.frame_set(int(N * .6)); s.render.image_settings.file_format = "JPEG"; s.render.image_settings.quality = 90
     s.render.filepath = os.path.join(A.out, f"still{A.scene:02d}.jpg"); bpy.ops.render.render(write_still=True)
+elif A.frames:  # συγκεκριμένα καρέ (μοίρασμα σε πολλές μηχανές)
+    s.render.image_settings.file_format = "JPEG"; s.render.image_settings.quality = 93
+    for f in [int(x) for x in A.frames.split(",") if x]:
+        s.frame_set(f); s.render.filepath = os.path.join(A.out, f"s{A.scene:02d}_{f:04d}.jpg"); bpy.ops.render.render(write_still=True)
 else:
     s.render.image_settings.file_format = "PNG"; s.render.image_settings.color_mode = "RGB"
     s.render.filepath = os.path.join(A.out, f"s{A.scene:02d}_"); bpy.ops.render.render(animation=True)
