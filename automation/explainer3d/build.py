@@ -167,13 +167,13 @@ def F(t): return max(1, int(round(t * FPS)))  # δευτερόλεπτα → κ�
 
 # ---------- αντικείμενα ----------
 def phone(loc, screen, rot=(0, 0, 0), scale=1.0):
-    root = empty(loc); root.rotation_euler = rot
+    root = empty(loc)
     body = box((1.5 * scale, 0.16 * scale, 3.1 * scale), loc, mat("phone", "#151A22", rough=.2, metal=.6, coat=1), bevel=.18 * scale)
     scr = plane_img(T(screen), 1.36 * scale, 2.92 * scale, (loc[0], loc[1] - .085 * scale, loc[2]), emit=1.2, rough=.08)
-    parent(body, root); parent(scr, root); return root
+    parent(body, root); parent(scr, root); root.rotation_euler = rot; return root
 
 def card(loc, tex, rot=(math.radians(90), 0, 0), w=1.7, h=1.08, thick=.03):
-    root = empty(loc); root.rotation_euler = rot
+    root = empty(loc)
     b = box((w, h, thick), loc, mat("card", "#FFFFFF", rough=.3, coat=.6), bevel=.05)
     face = plane_img(T(tex), w * .995, h * .995, (loc[0], loc[1], loc[2] + thick / 2 + .002), rot=(0, 0, 0), emit=.25, rough=.25)
     parent(b, root); parent(face, root); root.rotation_euler = rot; return root
@@ -263,9 +263,9 @@ def s_home():
     box((3.2, .4, 1.2), (0, 2.75, .95), mat("sofa", NAVY, rough=.7), bevel=.18)
     lamp = cyl(.05, 2.2, (2.6, 2.6, 1.3), mat("pole", "#C9CED6", rough=.25, metal=1)); cone(.45, .25, .5, (2.6, 2.6, 2.5), mat("shade", "#FFE7C4", emit="#FFD08A", estr=3))
     a = person((-.3, 2.0, .8), SKY, 0, 1.0); pop(a, 2, 12)
-    ph = box((.22, .03, .4), (-.15, 1.55, 1.75), mat("scr", "#9FD4FF", emit="#9FD4FF", estr=6), bevel=.02); pop(ph, F(.3), 8)
+    ph = box((.3, .04, .5), (-.25, 1.45, 1.55), mat("scr", "#9FD4FF", emit="#9FD4FF", estr=14), bevel=.02); pop(ph, F(.3), 8)
     b = person((1.0, 1.1, .3), RED, math.radians(-20), 1.15); pop(b, F(.9), 14)
-    camera((5.5, -7.5, 5.2), (4.2, -6.8, 4.4), (0, 1.5, 1.4), lens=40, fstop=4, focus=a)
+    camera((6.5, -9.5, 6.0), (5.2, -8.6, 5.2), (0, 1.3, 1.5), lens=38, fstop=4, focus=a)
 
 def s_tallinn():
     stage("#0D3350")
