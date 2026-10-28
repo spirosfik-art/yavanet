@@ -5,7 +5,14 @@ import { notifyOwner } from "./lib.mjs";
 
 const raw = process.env.GSC_SA_JSON || "";
 if (!raw.trim()) { console.log("::warning::GSC_SA_JSON δεν έχει οριστεί – παράλειψη"); process.exit(0); }
-const sa = JSON.parse(raw);
+// Δεκτό: ολόκληρο το αρχείο JSON, ή μόνο το private key (με ή χωρίς BEGIN/END, με \n ως κείμενο)
+const shape = { len: raw.length, json: raw.trim().startsWith("{"), email: raw.includes("client_email"), begin: raw.includes("BEGIN PRIVATE KEY"), escapedNL: raw.includes("\\n") };
+console.log("::notice::secret shape " + JSON.stringify(shape));
+let sa;
+try { sa = JSON.parse(raw); } catch {
+  let k = raw.trim().replace(/^"|",?$/g, "").replace(/\\n/g, "\n").replace(/-----(BEGIN|END) PRIVATE KEY-----/g, "").replace(/-+/g, "").replace(/\s+/g, "");
+  sa = { client_email: process.env.GSC_SA_EMAIL || "yavanet-gsc@cool-agility-513018-j9.iam.gserviceaccount.com", private_key: `-----BEGIN PRIVATE KEY-----\n${k.match(/.{1,64}/g).join("\n")}\n-----END PRIVATE KEY-----\n` };
+}
 const b64 = (x) => Buffer.from(typeof x === "string" ? x : JSON.stringify(x)).toString("base64url");
 const now = Math.floor(Date.now() / 1000);
 const unsigned = b64({ alg: "RS256", typ: "JWT" }) + "." + b64({ iss: sa.client_email, scope: "https://www.googleapis.com/auth/webmasters.readonly", aud: "https://oauth2.googleapis.com/token", iat: now, exp: now + 3600 });
