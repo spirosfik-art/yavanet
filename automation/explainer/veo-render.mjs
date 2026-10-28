@@ -66,11 +66,11 @@ const usedVid = new Set(), credits = [];
 async function pexels(s, i, f, need) {
   const qs = Array.isArray(s.q) ? s.q : [s.q];
   for (const portrait of [true, false]) for (const q of qs) {
-    const r = await fetch(`https://api.pexels.com/videos/search?per_page=30&size=large${portrait ? "&orientation=portrait" : ""}&query=${encodeURIComponent(q)}`, { headers: { Authorization: process.env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) }).catch(() => null);
+    const r = await fetch(`https://api.pexels.com/videos/search?per_page=80&size=large${portrait ? "&orientation=portrait" : ""}&query=${encodeURIComponent(q)}`, { headers: { Authorization: process.env.PEXELS_API_KEY }, signal: AbortSignal.timeout(30000) }).catch(() => null);
     if (!r || !r.ok) { log("pexels", r && r.status, q); continue; }
     const j = await r.json();
     const AVOID = new RegExp(["tiny-planet", "desert", "skyscraper", "istanbul", "turkey", "egypt", "dubai", "india", "china", "usa", "american", "united-states", "trump", "biden", "dome-of-the-rock", "mosque", "miniature", "5925192", "roundabout", "38500066", "time-lapse", "timelapse", ...(s.avoid || [])].join("|"), "i");
-    const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5) && !AVOID.test(v.url || "")).map((v) => {
+    const cands = (j.videos || []).filter((v) => !usedVid.has(v.id) && v.duration >= Math.min(need, 5) && !AVOID.test(v.url || "") && (!s.must || new RegExp(s.must, "i").test(v.url || ""))).map((v) => {
       const files = (v.video_files || []).filter((x) => x.file_type === "video/mp4" && x.width && x.height);
       const fit = files.filter((x) => (x.height > x.width ? x.height >= 1600 : x.height >= 1080)).sort((a, b) => (a.height * a.width) - (b.height * b.width))[0];
       return fit && { v, fit };
