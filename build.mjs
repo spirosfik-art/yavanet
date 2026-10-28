@@ -4,7 +4,7 @@ import { ic } from "./site/icons.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, SECTIONS, T, LEGAL_PAGES, YIELD_REGIONS, OFFICIAL_LINKS } from "./site/config.mjs";
-import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, tripBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML } from "./site/templates.mjs";
+import { GLOBAL, pushBox, layout, heroCard, card, adBox, newsletterBox, formBox, calcBox, yieldBox, tripBox, widgets, articleBody, flightTeaser, DIVIDER, P, abs, sec, esc, md, plain, artHTML, selfImg } from "./site/templates.mjs";
 import { PAGES } from "./content/pages.mjs";
 import { tlvPage } from "./site/tlv.mjs";
 import { areaPage, areaUrl } from "./site/areas.mjs";
@@ -94,7 +94,9 @@ const newsOnly = articles.filter((a) => !a.guide && !a.partner && !a.sponsored &
 GLOBAL.flash = newsOnly.filter((a) => NOW - new Date(a.publishedAt).getTime() < 72 * 3600e3);
 if (GLOBAL.flash.length < 4) GLOBAL.flash = newsOnly.slice(0, 6);
 
-const photoOf = (a) => { const u = (a.image && (a.image.og || (a.image.type === "photo" && a.image.url))) || null; return u && u.startsWith("/") ? abs(u) : u; };
+const photoOf = (a, w = 1200, h = 630) => { const u = (a.image && (a.image.og || (a.image.type === "photo" && a.image.url))) || null; if (!u) return null; if (u.startsWith("/")) return abs(u); const own = selfImg(u, w, h, a.slug, h === 630 ? "jpg" : "webp"); return own ? abs(own) : u; };
+// Για τη Google (NewsArticle): φωτογραφία ≥1200px σε 16:9, 4:3 και 1:1
+const ldImages = (a) => { const p = photoOf(a, 1200, 675); if (!p) return [abs("/og.png")]; return p.includes("/img/") ? [p, photoOf(a, 1200, 900), photoOf(a, 1200, 1200)] : [p, abs("/og.png")]; };
 const bySection = (s) => articles.filter((a) => a.section === s);
 const breakingNow = articles.find((a) => a.breaking && NOW - new Date(a.updatedAt || a.publishedAt).getTime() < 12 * 3600e3) || null;
 if (breakingNow) breakingNow.fire = (breakingNow.image && breakingNow.image.key === "fire") || /fire|שריפ/i.test(breakingNow.en.title + breakingNow.he.title);
@@ -158,7 +160,7 @@ const orgLd = { "@context": "https://schema.org", "@type": "NewsMediaOrganizatio
 function feedData(lang) {
   const k = (a) => sec(a.section)[lang];
   const url = (a) => P(lang, "/a/" + a.slug + "/");
-  const ph = (a) => (a.image && a.image.type === "photo" && a.image.url) ? { img: a.image.url, credit: a.image.credit || "" } : {};
+  const ph = (a) => (a.image && a.image.type === "photo" && a.image.url) ? { img: selfImg(a.image.url, 720, 1280, a.slug) || a.image.url, credit: a.image.credit || "" } : {};
   const re = bySection("real-estate"), isr = bySection("israelis"), brk = articles.filter((a) => a.breaking);
   const stories = [
     { title: T[lang].storyToday, art: "sun", slides: articles.slice(0, 5).map((a) => ({ kicker: k(a), text: a[lang].title, url: url(a), ...ph(a) })) },
@@ -260,7 +262,7 @@ ${related.length ? `<section><div class="zone-h"><h2>${esc(t.related)}</h2></div
 ${newsletterBox(lang)}
 </div>${widgets(lang, mostRead)}</div>`;
     const url = P(lang, `/a/${a.slug}/`);
-    const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].seoDesc || a[lang].dek, ...(a[lang].keywords?.length ? { keywords: a[lang].keywords.join(", ") } : {}), inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: photoOf(a) ? [photoOf(a), abs("/og.png")] : [abs("/og.png")], author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
+    const ld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: a[lang].title, description: a[lang].seoDesc || a[lang].dek, ...(a[lang].keywords?.length ? { keywords: a[lang].keywords.join(", ") } : {}), inLanguage: lang, datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt, mainEntityOfPage: abs(url), image: ldImages(a), author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: abs("/icon-512.png") } }, isBasedOn: a.sources.map((s) => s.url), articleSection: sec(a.section)[lang] };
     const crumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.home, item: abs(P(lang, "/")) }, { "@type": "ListItem", position: 2, name: sec(a.section)[lang], item: abs(P(lang, `/s/${a.section}/`)) }, { "@type": "ListItem", position: 3, name: a[lang].title }] };
     // Οδηγοί: οι ενότητες-ερωτήσεις (τίτλος με «?») γίνονται FAQ για Google και για ChatGPT/Gemini
     // + ενότητα «שאלות נפוצות»/FAQ με ερωτήσεις σε έντονα (**Ερώτηση?** και η απάντηση στην επόμενη παράγραφο)
@@ -679,7 +681,7 @@ write("404.html", layout({ lang: "he", title: "404", description: "", path: "/40
 
 /* Sitemaps */
 const urls = [];
-const LASTMOD = {};
+const LASTMOD = {}, IMGMAP = {};
 for (const lang of LANGS) {
   urls.push(P(lang, "/"), P(lang, "/tools/"), P(lang, "/live/"), P(lang, "/strikes/"), P(lang, "/emergency/"), P(lang, "/cost-of-living/"), P(lang, "/guides/"), P(lang, "/directory/"), P(lang, "/advisor/"));
   if (GLOBAL.madad) urls.push(P(lang, "/madad/"), P(lang, "/tlv-vs-athens/"), ...madad.areas.filter((x) => x.sale).map((x) => areaUrl(lang, x)));
@@ -692,10 +694,10 @@ for (const lang of LANGS) {
   urls.push(...WX_LEVEL_PAGES.map((p) => P(lang, wxLevelUrl(p.id))), P(lang, "/weather/"), ...MONTHS.map((m) => P(lang, monthUrl(m))));
   SECTIONS.forEach((s) => urls.push(P(lang, `/s/${s.slug}/`)));
   LEGAL_PAGES.forEach((p) => urls.push(P(lang, `/p/${p}/`)));
-  articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); });
+  articles.forEach((a) => { const u = P(lang, `/a/${a.slug}/`); urls.push(u); LASTMOD[u] = (a.updatedAt || a.publishedAt).slice(0, 10); const im = photoOf(a, 1200, 675); if (im && im.includes("/img/")) IMGMAP[u] = im; });
 }
 write("strikes.ics", strikesICS(strikeArts, SITE.url.replace(/\/$/, "")));
-write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${abs(u)}</loc>${LASTMOD[u] ? `<lastmod>${LASTMOD[u]}</lastmod>` : `<lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>`}</url>`).join("\n")}\n</urlset>`);
+write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map((u) => `<url><loc>${abs(u)}</loc>${LASTMOD[u] ? `<lastmod>${LASTMOD[u]}</lastmod>` : `<lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>`}${IMGMAP[u] ? `<image:image><image:loc>${IMGMAP[u]}</image:loc></image:image>` : ""}</url>`).join("\n")}\n</urlset>`);
 const recent = articles.filter((a) => NOW - new Date(a.publishedAt).getTime() < 2 * 86400e3);
 write("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
@@ -740,7 +742,7 @@ ${latest.map((a) => `- [${a.en.title}](${U("/en/a/" + a.slug + "/")}) (${String(
     if (seen.has(x.slug)) return null; seen.add(x.slug);
     const a = articles.find((y) => y.slug === x.slug && !y.hidden); if (!a) return null;
     const card = fs.existsSync(path.join(ROOT, "content/ig", a.slug + ".jpg")) ? `/igc/${a.slug}.jpg` : (a.image && a.image.url) || "/og.png";
-    return `<a class="igl" href="/a/${a.slug}/?utm_source=instagram&utm_medium=bio&utm_campaign=ig-post"><img src="${esc(card)}" alt="" loading="lazy" width="1080" height="1350"><span>${esc(a.he.title)}</span></a>`;
+    return `<a class="igl" href="/a/${a.slug}/?utm_source=instagram&utm_medium=bio&utm_campaign=ig-post"><img src="${esc(card)}" alt="${esc(a.he.title)}" loading="lazy" width="1080" height="1350"><span>${esc(a.he.title)}</span></a>`;
   }).filter(Boolean);
   const body = `<section class="iglist"><h1>מהאינסטגרם של יוונט</h1><p class="igsub">לחצו על הפוסט שראיתם כדי לקרוא את הכתבה המלאה.</p><div class="iggrid">${items.join("")}</div><p class="igmore"><a class="btn" href="/?utm_source=instagram&utm_medium=bio">לכל החדשות באתר</a></p></section>`;
   write("/instagram/", layout({ lang: "he", title: "יוונט באינסטגרם: כל הפוסטים", description: "הפוסטים האחרונים של @yavanet באינסטגרם, עם קישור לכתבה המלאה.", path: "/instagram/", altPath: "/en/", body, noindex: true, activeNav: "home" }));

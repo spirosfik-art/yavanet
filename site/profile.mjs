@@ -61,7 +61,7 @@ ${p.areas ? `<section class="pf-areas"><h3>${icon("area")}${esc(p.areasTitle)}</
 <section class="pf-quote"><p>${esc(p.quote2)}</p><span>${esc(p.quoteBy || p.name)}</span></section>
 
 <section class="pf-meet" id="pf-meet">
-  <img src="${esc(p.avatar || p.photo)}" alt="" width="400" height="400">
+  <img src="${esc(p.avatar || p.photo)}" alt="${esc(p.name || "")}" width="400" height="400">
   <div><h2>${esc(p.meetTitle)}</h2><p>${esc(p.meetText)}</p>
   <div class="pf-ctas">${wa}<a class="pf-btn ghost" dir="ltr" href="tel:${esc(p.phone.replace(/[^+\d]/g, ""))}">${esc(p.phone)}</a></div>${p.address ? `<p class="pf-addr">📍 ${esc(p.address)}</p>` : ""}</div>
 </section>

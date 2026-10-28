@@ -8,6 +8,9 @@ import { createHash as _ch } from "node:crypto";
 const _h = (f) => { try { return _ch("sha1").update(_rf(new URL("./assets/" + f, import.meta.url))).digest("hex").slice(0, 8); } catch { return "1"; } };
 const AV = { css: _h("styles.css"), js: _h("app.js") };
 // Γραμματοσειρές Google: φορτώνουν χωρίς να μπλοκάρουν την πρώτη εμφάνιση (display=swap → το κείμενο φαίνεται αμέσως)
+// Αν υπάρχουν τοπικά (scripts/get-fonts.mjs → site/fonts.css), φορτώνουν από το yavanet.gr: χωρίς σύνδεση σε τρίτους, πιο γρήγορα στο κινητό
+let LOCAL_FONTS = ""; try { LOCAL_FONTS = _rf(new URL("./fonts.css", import.meta.url), "utf8").trim(); } catch {}
+const FONT_PRELOAD = (LOCAL_FONTS.match(/url\(\/(f-assistant-[^)]*-hebrew\.woff2)\)/) || [])[1];
 const FONTS = "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700;900&amp;family=Assistant:wght@400;600;700;800&amp;display=swap";
 
 export const P = (lang, path) => (lang === "he" ? path : "/en" + path);
@@ -22,20 +25,21 @@ export function fmtDate(iso, lang) {
   } catch { return iso; }
 }
 
-// Φωτογραφίες Pexels στο σωστό μέγεθος (αντί για 1880px παντού) + srcset για οθόνες retina
-// Οι μικρογραφίες (112×112) ζητούνται τετράγωνες με fit=crop&h= (παράμετροι του CDN της Pexels, όπως στα src του Pexels API)
-const pxl = (u, w, sq) => { try { const x = new URL(u); if (x.host !== "images.pexels.com") return null; x.search = ""; x.searchParams.set("auto", "compress"); x.searchParams.set("cs", "tinysrgb"); if (sq) { x.searchParams.set("fit", "crop"); x.searchParams.set("h", String(w)); } x.searchParams.set("w", String(w)); return x.toString(); } catch { return null; } };
-const SIZES = { card: [[-120, -240, -360, 840], "112px"], hero: [[600, 700, 800, 1300], "(max-width:900px) calc(100vw - 32px), 800px"], full: [[600, 700, 800, 1300], "(max-width:900px) calc(100vw - 32px), 800px"] };
+// Φωτογραφίες Pexels από το δικό μας domain (/img/…, βλ. functions/img) σε WebP, με αγγλικό όνομα αρχείου (SEO εικόνων)
+const PXR = /^https:\/\/images\.pexels\.com\/photos\/(\d+)\/([\w.-]+\.(?:jpe?g|png))/i;
+const imgSlug = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80) || "photo";
+export const selfImg = (u, w, h, name, ext = "webp") => { const m = PXR.exec(u || ""); if (!m) return null; return `/img/${m[1]}/${w}${h ? "x" + h : ""}/${imgSlug(name)}.${ext}${m[2] !== `pexels-photo-${m[1]}.jpeg` ? "?n=" + encodeURIComponent(m[2]) : ""}`; };
+// [πλάτη], sizes, αναλογία (ύψος/πλάτος, ίδια με το CSS του πλαισίου), μέγεθος εμφάνισης για width/height
+const SIZES = { card: [[120, 240, 360, 840], "112px", 1, [112, 112]], hero: [[600, 800, 1000, 1300], "(max-width:900px) calc(100vw - 32px), 800px", 10 / 16, [800, 500]], full: [[600, 800, 1000, 1300], "(max-width:900px) calc(100vw - 32px), 800px", 9 / 16, [800, 450]] };
 export function artHTML(a, lang, kind = "card") {
   const img = a.image;
   if (img && img.type === "photo" && img.url) {
     const alt = esc(a[lang].title || img.alt || ""), eager = kind === "hero" || kind === "full";
     const load = eager ? ' fetchpriority="high"' : ' loading="lazy"';
-    const [ws, sizes] = SIZES[kind] || SIZES.card;
-    // αρνητικό πλάτος = τετράγωνη μικρογραφία
-    const U = (w) => pxl(img.url, Math.abs(w), w < 0);
-    if (pxl(img.url, 100)) return `<img src="${esc(U(ws.find((w) => Math.abs(w) >= 240) || ws[0]))}" srcset="${ws.map((w) => esc(U(w)) + " " + Math.abs(w) + "w").join(", ")}" sizes="${sizes}" alt="${alt}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
-    return `<img src="${esc(img.url)}" alt="${alt}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
+    const [ws, sizes, r, [dw, dh]] = SIZES[kind] || SIZES.card;
+    const U = (w) => selfImg(img.url, w, Math.round(w * r), a.slug);
+    if (U(100)) return `<img src="${esc(U(ws[1]))}" srcset="${ws.map((w) => esc(U(w)) + " " + w + "w").join(", ")}" sizes="${sizes}" alt="${alt}" width="${dw}" height="${dh}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
+    return `<img src="${esc(img.url)}" alt="${alt}" width="${dw}" height="${dh}"${load} decoding="async" onerror="this.parentNode.classList.add('noimg');this.remove()">`;
   }
   return art((img && img.key) || SECTION_ART[a.section] || "sea", a[lang].title);
 }
@@ -209,13 +213,10 @@ ${heUrl ? `<link rel="alternate" hreflang="x-default" href="${abs(heUrl)}">` : "
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${NAME}" href="${P(lang, "/rss.xml")}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://images.pexels.com">
-<link rel="stylesheet" href="/styles.css?v=${AV.css}">
-<link rel="preload" as="style" href="${FONTS}">
+${LOCAL_FONTS ? "" : `<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n`}<link rel="stylesheet" href="/styles.css?v=${AV.css}">
+${LOCAL_FONTS ? `${FONT_PRELOAD ? `<link rel="preload" href="/${FONT_PRELOAD}" as="font" type="font/woff2" crossorigin>\n` : ""}<style>${LOCAL_FONTS.replace(/\n/g, "")}</style>` : `<link rel="preload" as="style" href="${FONTS}">
 <link rel="stylesheet" href="${FONTS}" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="${FONTS}"></noscript>
+<noscript><link rel="stylesheet" href="${FONTS}"></noscript>`}
 <script>
 (function(){try{var h=parseInt(new Intl.DateTimeFormat("en-GB",{hour:"2-digit",hour12:false,timeZone:"Europe/Athens"}).format(new Date()),10)%24,d=document.documentElement;d.setAttribute("data-sky",h>=5&&h<8?"dawn":h>=8&&h<18?"day":h>=18&&h<21?"dusk":"night");if(h>=21||h<6)d.classList.add("night")}catch(e){}})();
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
@@ -444,7 +445,7 @@ export function partners(lang) {
 export function sfTeaser(lang) {
   const he = lang === "he";
   return `<a class="sfteaser" href="${P(lang, "/a/sf-properties-athens-real-estate/")}" data-sf="teaser">
-  <span class="sft-img"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1746972742935527010/original/b54e021c-cfc8-4fbc-b2eb-7ab3fae2b4cd.jpeg?im_w=720" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-door" aria-hidden="true"></span><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span></span>
+  <span class="sft-img"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1746972742935527010/original/b54e021c-cfc8-4fbc-b2eb-7ab3fae2b4cd.jpeg?im_w=720" alt="${he ? "דירה באתונה של S.F. Properties" : "S.F. Properties apartment in Athens"}" width="720" height="480" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-door" aria-hidden="true"></span><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span></span>
   <span class="sft-body"><small>S.F. Properties · ${he ? "נדל״ן באתונה" : "Athens real estate"}</small><b>${he ? "מאחורי כל דלת באתונה, התחלה חדשה" : "Behind every door in Athens, a new beginning"}</b><span>${he ? "קנייה, השכרה, Airbnb וניהול נכסים. בעברית." : "Buying, renting, Airbnb and property care. In Hebrew."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
 </a>`;
 }
@@ -452,7 +453,7 @@ export function sfTeaser(lang) {
 export function medTeaser(lang) {
   const he = lang === "he";
   return `<a class="sfteaser medteaser" href="${P(lang, "/a/airbnb-near-hospitals-athens-medical-tourism/")}" data-sf="teaser-medtour">
-  <span class="sft-img"><img src="https://images.unsplash.com/photo-1751945965597-71171ec7a458?auto=format&fit=crop&w=720&q=70" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span><span class="mt-badge"><b>90%</b>${he ? "תפוסה" : "occupancy"}</span></span>
+  <span class="sft-img"><img src="https://images.unsplash.com/photo-1751945965597-71171ec7a458?auto=format&fit=crop&w=720&q=70" alt="${he ? "דירת Airbnb ליד בתי החולים באתונה" : "Airbnb apartment near Athens hospitals"}" width="720" height="480" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="sft-lbl">${he ? "בשיתוף" : "Partner"}</span><span class="mt-badge"><b>90%</b>${he ? "תפוסה" : "occupancy"}</span></span>
   <span class="sft-body"><small>${he ? "פרויקט חדש · Airbnb באתונה" : "New project · Athens Airbnb"}</small><b>${he ? "90% תפוסה כל השנה: ה-Airbnb ליד בתי החולים" : "90% occupancy all year: the Airbnb next to the hospitals"}</b><span>${he ? "אסי דורון ו-S.F. Properties, באזורים נבחרים ליד בתי החולים." : "Asi Doron and S.F. Properties, in carefully chosen areas near the hospitals."}</span><i>${he ? "לכתבה ←" : "Read more →"}</i></span>
 </a>`;
 }

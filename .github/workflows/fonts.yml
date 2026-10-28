@@ -1,0 +1,17 @@
+# Γραμματοσειρές από το δικό μας domain (μία φορά ή όταν αλλάζουν)
+name: Fonts
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/get-fonts.mjs
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add site/assets/f-*.woff2 site/fonts.css && git commit -m "Γραμματοσειρές τοπικά (woff2)" && git pull -q --rebase && git push || echo "καμία αλλαγή"
