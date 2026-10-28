@@ -42,13 +42,15 @@ jobs:
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
-        run: node automation/sf-articles.mjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node automation/sf-articles.mjs 2>&1 | tee sf-data/log-articles.txt
       - name: Push to sf-data branch
+        if: always()
         run: |
           cd sf-data
-          [ -f last-article.json ] || { echo "nothing new"; exit 0; }
-          cp last-article.json ../last-article.json
-          rm -f last-article.json
+          if [ -f last-article.json ]; then cp last-article.json ../last-article.json; rm -f last-article.json; fi
           git init -q -b sf-data
           git config user.name "sf-bot"
           git config user.email "bot@users.noreply.github.com"

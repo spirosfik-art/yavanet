@@ -41,11 +41,14 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
-        run: node automation/sf-i18n.mjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node automation/sf-i18n.mjs 2>&1 | tee sf-data/log-i18n.txt
       - name: Push to sf-data branch
+        if: always()
         run: |
           cd sf-data
-          [ -f listings-i18n.json ] || { echo "no data yet"; exit 0; }
           git init -q -b sf-data
           git config user.name "sf-bot"
           git config user.email "bot@users.noreply.github.com"
