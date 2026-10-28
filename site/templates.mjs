@@ -489,6 +489,39 @@ const GUIDES = {
   travel: ["greece-travel-guide-israelis-2026", "טסים ליוון? כל מה שצריך לדעת לפני הטיסה", "Flying to Greece? Everything to know before you go"],
 };
 const DEST_LINKS = [["athens", "אתונה", "Athens", /athens|אתונה/i], ["thessaloniki", "סלוניקי", "Thessaloniki", /thessaloniki|סלוניקי/i], ["rhodes", "רודוס", "Rhodes", /rhodes|רודוס/i], ["crete", "כרתים", "Crete", /crete|כרתים|heraklion|chania/i], ["corfu", "קורפו", "Corfu", /corfu|קורפו/i], ["santorini", "סנטוריני", "Santorini", /santorini|סנטוריני/i], ["mykonos", "מיקונוס", "Mykonos", /mykonos|מיקונוס/i], ["kos", "קוס", "Kos", /\bkos\b|קוס/i], ["paros", "פארוס", "Paros", /paros|פארוס/i], ["chalkidiki", "חלקידיקי", "Chalkidiki", /chalkidiki|halkidiki|חלקידיקי/i], ["naxos", "נקסוס", "Naxos", /\bnaxos\b|נקסוס/i], ["milos", "מילוס", "Milos", /\bmilos\b|מילוס/i], ["zakynthos", "זקינתוס", "Zakynthos", /zakynthos|zante|זקינתוס/i], ["kefalonia", "קפלוניה", "Kefalonia", /kefalonia|cephalonia|קפלוניה|כפלוניה/i], ["lefkada", "לפקדה", "Lefkada", /lefkada|לפקדה/i], ["skiathos", "סקיאתוס", "Skiathos", /skiathos|סקיאתוס/i], ["thassos", "תאסוס", "Thassos", /thassos|תאסוס/i], ["meteora", "מטאורה", "Meteora", /meteora|מטאורה/i], ["nafplio", "נפפליו", "Nafplio", /nafplio|נפפליו|נאפפליו|נאפליו/i], ["kalamata", "קלמטה ומסיניה", "Kalamata & Messinia", /kalamata|messinia|קלמטה/i], ["zagori", "זגוריה ויואנינה", "Zagori & Ioannina", /zagori|ioannina|זגוריה|יואנינה/i]];
+// Σύνδεσμοι προς τους οδηγούς της Yana (yanaathens.com) σε τουριστικά άρθρα για Αθήνα/Αττική
+const YANA_GUIDES = [
+  [/piraeus|פיראוס|cruise ship|ספינת קרוז/i, "piraeus-port-transfer", "הסעות מנמל פיראוס לאתונה", "Piraeus port transfers to Athens"],
+  [/kosher|כשר/i, "kosher-restaurants-athens", "מסעדות כשרות באתונה – איפה אוכלים כשר", "Kosher restaurants in Athens"],
+  [/shabbat|שבת/i, "shabbat-in-athens", "שבת באתונה – קבלת שבת וארוחה", "Shabbat in Athens"],
+  [/airport|שדה התעופה|נמל התעופה|eleftherios/i, "athens-airport-transfer", "הסעה משדה התעופה אתונה למלון", "Athens airport transfer to your hotel"],
+  [/aegina|agistri|אגינה|אגיסטרי|saronic/i, "aegina-day-trip", "אגינה ליום אחד מאתונה", "Aegina day trip from Athens"],
+  [/sounion|סוניון|vouliagmeni|riviera|ריביירה/i, "sounion-sunset", "שקיעה בסוניון והריביירה האתונאית", "Sunset at Sounion & the Athens Riviera"],
+  [/nafplio|נפפליו|נאפליו|corinth|קורינתוס/i, "day-trips-from-athens", "טיולי יום מאתונה – נפפליו, קורינתוס ועוד", "Day trips from Athens – Nafplio, Corinth & more"],
+  [/honeymoon|ירח דבש|romantic|רומנטי/i, "honeymoon-in-athens", "ירח דבש באתונה – רעיונות לחופשה רומנטית", "Honeymoon in Athens"],
+  [/winter|חורף|christmas|כריסמס|december|january|february/i, "athens-in-winter", "אתונה בחורף – למה זו העונה הכי שווה", "Athens in winter"],
+  [/taverna|טברנ|greek night|ערב יווני|restaurant|מסעד/i, "athens-tavernas", "טברנות באתונה עם מוזיקה חיה", "Athens tavernas with live music"],
+  [/kids|children|family|ילדים|משפחה/i, "athens-with-kids", "אתונה עם ילדים – מה עושים", "Athens with kids"],
+  [/island|איים|cruise|שייט|ferry|מעבורת/i, "island-cruise-from-athens", "שייט לאיים מאתונה", "Island cruise from Athens"],
+  [/spa|massage|ספא|מסאז/i, "spa-in-athens", "ספא ומסאז׳ באתונה", "Spa & massage in Athens"],
+  [/athens|אתונה|acropolis|אקרופוליס|plaka|פלאקה/i, "things-to-do-in-athens", "מה לעשות באתונה – המדריך בעברית", "Things to do in Athens"],
+];
+const YANA_NOT_ATHENS = /thessaloniki|סלוניקי|crete|כרתים|rhodes|רודוס|corfu|קורפו|santorini|סנטוריני|mykonos|מיקונוס|chalkidiki|חלקידיקי|\bkos\b|paros|פארוס|naxos|milos|zakynthos|kefalonia|lefkada|skiathos|thassos|meteora|kalamata|zagori/i;
+export function yanaBox(a, lang) {
+  if (a.partner || a.sponsored || a.showcase || a.sensitive || a.section === "real-estate" || a.section === "breaking" || a.wx || a.strike) return "";
+  const he = lang === "he";
+  const head = [a.slug, a.en && a.en.title, a.he && a.he.title].join(" ");
+  if (/fire|שריפ|closed|closure|odou?r|explosion|פיצוץ|strike|שבית|works|traffic|metro|bus|trolley|tunnel|defibrillat|concert|convention|cooperation|accident|arrest/i.test(head)) return "";
+  const tourism = a.guide || a.section === "jewish-greece" || /guide|tour|trip|holiday|vacation|things to do|cruise|kosher|shabbat|taverna|restaurant|winter|honeymoon|kids|family|beach|day trip|מדריך|טיול|חופשה|שייט|כשר|שבת/i.test(head);
+  if (!tourism) return "";
+  const athens = /athens|אתונה|attica|אטיקה|piraeus|פיראוס|aegina|אגינה|sounion|סוניון|riviera|nafplio|נפפליו|acropolis|אקרופוליס|plaka|פלאקה|delphi/i.test(head);
+  if (!athens && YANA_NOT_ATHENS.test(head)) return "";
+  if (!athens && !/kosher|כשר|shabbat|שבת|chabad|חב״ד|hanukkah|passover|honeymoon|ירח דבש/i.test(head)) return "";
+  const g = YANA_GUIDES.find((x) => x[0].test(head));
+  if (!g) return "";
+  const url = `https://yanaathens.com${he ? "" : "/en"}/guides/${g[1]}/?utm_source=yavanet&utm_medium=referral&utm_campaign=related-guide`;
+  return `<aside class="yanabox" style="margin:22px 0;padding:18px 20px;border-radius:14px;background:#F7F3EC;border:1px solid #DCD2C2;display:flex;gap:14px;align-items:center"><span aria-hidden="true" style="font-size:26px">🏛️</span><span style="flex:1"><small style="display:block;color:#8C877C;font-size:12px;letter-spacing:.04em">${he ? "מדריך קשור · מטיילים באתונה עם יאנה" : "Related guide · Athens with Yana"}</small><b style="display:block;font-size:17px;color:#1F2A33">${esc(he ? g[2] : g[3])}</b></span><a class="btn gold" href="${url}" target="_blank" rel="noopener" data-out="yana-guide">${he ? "לקריאה" : "Read"}</a></aside>`;
+}
 // Εσωτερικοί σύνδεσμοι από τα άρθρα που φέρνουν κίνηση (καιρός, απεργίες, ταξίδι) προς τις σελίδες ακινήτων
 function midWa(a, lang, c) {
   if (a.partner || a.sponsored || a.showcase || a.sensitive || a.section === "real-estate") return "";
@@ -579,6 +612,7 @@ export function articleBody(a, lang, prev, next) {
   ${toc}
   <div class="prose" data-speak>${withMid(prose, midWa(a, lang, c))}</div>
   ${a.guide ? "" : relatedBox(a, lang)}
+  ${yanaBox(a, lang)}
   ${homeBox(a, lang)}
   ${cta}
   ${a.section === "travel" && !(a.meta && a.meta.auto === "flights") && !a.partner ? flightTeaser(lang) : ""}
