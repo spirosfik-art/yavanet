@@ -63,6 +63,7 @@ function sfmCards(html, L, T, fromEn) {
 }
 async function sfMob(path, html, ori, hv) {
   try { html = await sfVillaYachts(path, sfRadar(path, html)); } catch (e) {}
+  try { html = sfVillaFacts(path, html); } catch (e) {}
   try { html = sfVillaSkin(html); } catch (e) {}
   return sfMobHome(path, html, ori, hv);
 }
@@ -386,4 +387,55 @@ function sfVillaSkin(html) {
 .sfv-all:hover{background:#fff!important;color:#111110!important}
 </style>`;
   return html.replace('</head>', css + '</head>');
+}
+
+// ===== Voula villa: corrected facts from the owner (29/10/2026) =====
+function sfVillaFacts(path, html) {
+  if (!/\/(villes\/voula-alyos-3|villas\/voula-alyos-3|villas\/voula)\/$/.test(path) || html.indexOf('sfvf-ok') > -1) return html;
+  const el = path.startsWith('/villes/'), en = path.startsWith('/en/');
+  let t = html;
+  const rep = (re, s) => { t = t.replace(re, s); };
+  // numbers (all languages)
+  rep(/data-count="126[.,]48" data-dec="2"/g, 'data-count="141" data-dec="0"');
+  rep(/\b126[.,]48\b/g, '141');
+  rep(/data-count="75[.,]9" data-dec="2"/g, 'data-count="78" data-dec="0"');
+  rep(/\b75[.,]90?\b/g, '78');
+  rep(/data-count="50[.,]58" data-dec="2"/g, 'data-count="63" data-dec="0"');
+  rep(/\b50[.,]58\b/g, '63');
+  rep(/data-count="32[.,]56" data-dec="2"/g, 'data-count="34" data-dec="0"');
+  rep(/\b32[.,]56\b/g, '34');
+  rep(/\b6[.,]48((?:\s|&nbsp;)*(?:m²|τ\.μ\.|מ״ר|м²))/g, '21$1');
+  rep(/data-count="152"/g, 'data-count="150"');
+  rep(/\b152(?=(?:\s|&nbsp;)*(?:m²|τ\.μ|מ״ר|м²|<\/span>|<small>))/g, '150');
+  rep(/&lt;\s?400/g, '250');
+  rep(/(λιγότερο από|κάτω από)\s400\sμ\./g, '250 μ.');
+  rep(/(under|less than)\s400\sm\b/gi, '250 m');
+  rep(/✓\s*49%\s*/g, '✓ ');
+  if (el) {
+    rep(/✓ πάνω από το όριο/g, '✓ Πάνω από το όριο');
+    rep(/Νεόδμητη μεζονέτα/g, 'Νεόδμητη ισόγεια μεζονέτα');
+    rep(/Εμβαδά από την(?:<br>|\s)*οικοδομική άδεια/g, 'Εμβαδά<br>κατοικίας');
+    rep('Το υπόγειο είναι βοηθητικός χώρος και αναφέρεται χωριστά.', 'Μαζί με το playroom των 34 τ.μ.: <b>175 τ.μ.</b> Κάθε επίπεδο έχει δική του είσοδο από τον εξωτερικό ανελκυστήρα.');
+    rep('Δύο υπνοδωμάτια, το ένα με ανοιχτή ντουλάπα και δικό του μπάνιο, με θέα στο σαλόνι.', 'Δύο master υπνοδωμάτια, το καθένα με δικό του μπάνιο, και walk-in ντουλάπα.');
+    rep('Σαλόνι διπλού ύψους που ανοίγει στην πισίνα, κουζίνα με νησίδα, κύριο υπνοδωμάτιο με μπάνιο και πόρτα στον κήπο.', 'Σαλόνι με απευθείας πρόσβαση στην πισίνα, open κουζίνα με νησίδα, τραπεζαρία, master υπνοδωμάτιο με δικό του μπάνιο και έξοδο στον κήπο, WC.');
+    rep(/<h3>Βοηθητικός χώρος<\/h3>/g, '<h3>Playroom</h3>');
+    rep('Παιδότοπος, γυμναστήριο ή επιπλέον δωμάτιο. Θέση στάθμευσης στο γκαράζ του υπογείου.', 'Ιδανικό και για γυμναστήριο, γραφείο ή χώρο ψυχαγωγίας. Θέση στάθμευσης σε κλειστό γκαράζ.');
+    rep('<li>Βοηθητικός χώρος υπογείου 34 τ.μ.</li>', '<li>Playroom 34 τ.μ.</li><li>Smart home</li><li>Ανελκυστήρας με είσοδο σε κάθε επίπεδο</li>');
+    rep('<li>Θέση στάθμευσης σε γκαράζ</li>', '<li>Θέση στάθμευσης σε κλειστό γκαράζ</li><li>Κοντά στην αγορά, στο Ασκληπιείο Βούλας</li>');
+  }
+  if (en) {
+    rep(/✓ above the threshold/gi, '✓ Above the threshold');
+    rep(/A new-build maisonette/g, 'A new-build ground-floor maisonette');
+    rep(/New-build 141 m² maisonette/g, 'New-build ground-floor maisonette, 141 m²,');
+    rep(/Areas taken from the(?:<br>|\s)*building permit/g, 'Areas<br>of the home');
+    rep('. The basement is an auxiliary room and is listed separately.', '. With the 34 m² playroom: <b>175 m²</b>. Every level has its own entrance from the external lift.');
+    rep('Two bedrooms, one with an open walk-in wardrobe and private bathroom, overlooking the living room.', 'Two master bedrooms, each with its own bathroom, and a walk-in wardrobe.');
+    rep('Double-height living room opening onto the pool, kitchen with island, master bedroom with en-suite and garden door.', 'Living room opening straight onto the pool, open kitchen with island, dining area, master bedroom with en-suite and garden door, guest WC.');
+    rep(/<h3>Auxiliary (room|space)<\/h3>/g, '<h3>Playroom</h3>');
+    rep('Playroom, gym or extra room. Parking space in the basement garage.', 'Ideal as a gym, office or entertainment room. Parking space in the closed garage.');
+    rep('<li>Basement auxiliary room 34 m²</li>', '<li>Playroom 34 m²</li><li>Smart home</li><li>Lift with its own entrance to every level</li>');
+    rep('<li>Garage parking space</li>', '<li>Parking in a closed garage</li><li>Close to the shops at Asklipieio Voulas</li>');
+  }
+  if (!el && !en) rep(/השטחים לקוחים מהיתר הבנייה\.\s*/g, '');
+  return t.replace('</head>', '<meta name="sfvf-ok" content="1"></head>');
 }
