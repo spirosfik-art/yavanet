@@ -259,7 +259,6 @@ function sfRadar(path, html) {
 .xv-loc-map:has(#sfr-root){height:100%;min-height:440px;max-height:760px}
 @media (min-width:900px){.xv-loc-map:has(#sfr-root){position:sticky;top:90px}}
 .sfr-still .sfr-map{pointer-events:none}
-.sfr-still .sfr-base{filter:none}
 .sfr-still .leaflet-control-attribution{pointer-events:auto}
 .sfr{position:relative;width:100%;height:100%;min-height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
 .sfr-map{position:absolute;inset:0;background:#0b1a2b}
