@@ -378,6 +378,9 @@ function sfVillaSkin(html) {
 .xv-plans h2{color:#F2EBDD}
 .xv-form input,.xv-form select,.xv-form textarea{background:#fff!important;color:#111110!important;border-color:rgba(17,17,16,.2)!important}
 .xv ::selection{background:#111110;color:#fff}
+.xv-pills li{color:#111110!important;border-color:rgba(17,17,16,.22)!important;background:transparent!important}
+.xv figcaption{color:#fff!important;font-family:Commissioner,sans-serif!important;letter-spacing:.22em!important}
+.xv-split .xv-split-t{--xc:#111110}
 .sfv{background:#111110!important}
 .sfv h2{font-family:'Noto Serif Display',Literata,Georgia,serif!important;font-stretch:68%;text-transform:uppercase;line-height:.98!important;font-size:clamp(40px,6vw,84px)!important}
 .sfv-k{color:#ECE7DD!important}
