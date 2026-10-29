@@ -1,0 +1,29 @@
+# Ταξινόμηση θεμάτων-κενών με Gemini (χειροκίνητα) → branch «research»
+name: Gaps classify
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: git show origin/research:research/topics-classified.json > research/topics-classified.json 2>/dev/null || true
+      - run: node scripts/gaps-classify.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: gemini
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_SELECT_MODEL: ${{ vars.GEMINI_SELECT_MODEL }}
+      - run: |
+          cp research/topics-classified.json /tmp/tc.json
+          git config user.name "yavanet-bot"; git config user.email "bot@users.noreply.github.com"
+          git fetch -q origin research && git checkout -q -B research origin/research
+          mkdir -p research && cp /tmp/tc.json research/topics-classified.json
+          git add -f research/topics-classified.json && git commit -qm "research: classified" && git push -q origin research
