@@ -1,0 +1,56 @@
+{
+  "slug": "energy-prices-europe-greece-october-2026",
+  "section": "israelis",
+  "publishedAt": "2026-10-29T16:11:20+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Greece",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/10/29/economy/diethnis-oikonomia/sto-kokkino-oi-times-reymatos-stin-eyropi-me-fonto-ta-300-eyro-mwh/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12859518/pexels-photo-12859518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Electricity poles and power lines over scenic hills with a blue sky backdrop, symbolizing energy and nature.",
+    "credit": "Photo: Berkalp Turper / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/power-lines-near-green-trees-12859518/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "מחירי החשמל באירופה: מה המצב ביוון?",
+    "dek": "שר האנרגיה היווני משתתף בדיוני האיחוד האירופי בלוקסמבורג על רקע עליית מחירי החשמל בסיטונאות ברחבי היבשת.",
+    "tldr": [
+      "מחירי החשמל בסיטונאות באירופה זינקו בימים האחרונים.",
+      "יוון מציגה מחירים נמוכים יותר בהשוואה למדינות שכנות בבלקן.",
+      "שר האנרגיה היווני דן בפתרונות להוזלת עלויות לצרכנים."
+    ],
+    "means": "חשוב לישראלים המתגוררים ביוון או למשקיעים בנדל״ן להכיר את המגמות בשוק האנרגיה המקומי, שכן הן משפיעות על עלויות המחיה והתפעול של עסקים ובתים.",
+    "body": "ב-29 באוקטובר התכנסו שרי האנרגיה של האיחוד האירופי בלוקסמבורג לדיון דחוף בנושא מחירי החשמל. בימים האחרונים נרשמו עליות חדות במחירי החשמל בסיטונאות במדינות רבות באירופה, כאשר במדינות מסוימות המחיר חצה את רף ה-300 אירו למגה-וואט שעה. ביוון, המחיר הממוצע בבורסת האנרגיה נותר נמוך יותר בהשוואה לשכנותיה בבלקן, כגון בולגריה ורומניה, ויוון אף הגדילה את היקף ייצוא החשמל צפונה. שר האנרגיה היווני, סטברוס פפסטברו, משתתף בדיונים העוסקים בדרכים להפחתת עלויות לצרכנים ולעסקים לקראת החורף הקרוב, תוך שמירה על ביטחון אנרגטי. ארגון Eurelectric קרא לממשלות לנקוט בצעדים ממוקדים להקלת נטל החשבונות מבלי לפגוע ביציבות השוק."
+  },
+  "en": {
+    "title": "Energy prices in Europe: Greece update",
+    "dek": "EU energy ministers meet in Luxembourg to discuss rising wholesale electricity costs across the continent.",
+    "tldr": [
+      "Wholesale electricity prices have spiked across Europe.",
+      "Greece maintains lower prices compared to neighboring Balkan markets.",
+      "Energy ministers are discussing measures to protect consumers."
+    ],
+    "means": "Understanding the current energy market trends is relevant for residents and property owners in Greece, as these factors impact utility costs and business operations.",
+    "body": "On October 29, EU energy ministers gathered in Luxembourg to address the recent surge in wholesale electricity prices. Over the past two days, prices in several European countries exceeded 300 euros per MWh. Greece, represented by Minister of Environment and Energy Stavros Papastavrou, has recorded lower prices compared to neighboring markets like Bulgaria and Romania, while increasing electricity exports to the north. The discussions focus on ensuring energy security for the upcoming winter and implementing targeted measures to alleviate costs for households and businesses. The industry association Eurelectric has urged policymakers to adopt temporary, focused support measures to reduce bills without disrupting the internal energy market."
+  },
+  "meta": {
+    "itemId": "db7e72fed7df",
+    "imageQuery": "Greek power grid energy infrastructure",
+    "sourceHash": "13beda79fdc9",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-29T14:11:21.171Z",
+    "official": false
+  }
+}

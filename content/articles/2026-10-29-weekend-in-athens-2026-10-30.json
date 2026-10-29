@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18031174/pexels-photo-18031174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A young couple embraces at an outdoor music festival during the evening.",
+    "credit": "Photo: funda verep / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/young-couple-at-a-music-festival-18031174/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -67,6 +72,7 @@
     "itemId": "weekend-2026-10-30",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-10-29T09:51:59+02:00"
+    "checkedAt": "2026-10-29T09:51:59+02:00",
+    "photoTried": true
   }
 }
