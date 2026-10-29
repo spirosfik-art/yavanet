@@ -332,7 +332,7 @@ async function sfVillaYachts(path, html) {
 .sfv p{margin:0;max-width:52ch;font-size:15px;line-height:1.65;color:#b9c2cf}
 .sfv-all{flex:none;height:46px;padding:0 24px;border-radius:23px;border:1px solid rgba(217,183,111,.6);color:#f3ece0!important;text-decoration:none;display:inline-flex;align-items:center;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
 .sfv-all:hover{background:#d9b76f;color:#0b1626!important}
-.sfv-rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 max(clamp(20px,4vw,40px),calc((100vw - 1240px)/2 + 40px)) 8px;scrollbar-width:thin;scrollbar-color:rgba(217,183,111,.4) transparent}
+.sfv-rail{--pad:max(clamp(20px,4vw,40px),calc((100vw - 1240px)/2 + 40px));display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--pad) 8px;scroll-padding-inline:var(--pad);scrollbar-width:thin;scrollbar-color:rgba(217,183,111,.4) transparent}
 .sfv-c{flex:none;width:min(78vw,320px);scroll-snap-align:start;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:10px}
 .sfv-i{display:block;aspect-ratio:4/5;overflow:hidden;border-radius:4px;background:#13233a}
 .sfv-i img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s ease}
