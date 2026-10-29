@@ -348,7 +348,7 @@ async function sfVillaYachts(path, html) {
 }
 
 // ===== Villa pages (.xv): editorial ivory skin, same aesthetic as the mobile home =====
-const SFV_SKIN = true;
+const SFV_SKIN = false;
 function sfVillaSkin(html) {
   if (!SFV_SKIN || html.indexOf('class="xv"') < 0 || html.indexOf('sfvs-css') > -1) return html;
   const css = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@62.5..100,200..400&display=swap"><style id="sfvs-css">
@@ -418,6 +418,11 @@ function sfVillaFacts(path, html) {
   rep(/(λιγότερο από|κάτω από)\s400\sμ\./g, '250 μ.');
   rep(/(under|less than)\s400\sm\b/gi, '250 m');
   rep(/✓\s*49%\s*/g, '✓ ');
+  rep(/<li[^>]*>[^<]*\b520\b[^<]*<\/li>/g, '');
+  rep('<h2 class="rv d1">Δύο σπίτια στο οικόπεδο.<br><em>Το ένα είναι αυτό.</em></h2>', '<h2 class="rv d1">Ισόγεια μεζονέτα<br><em>με κήπο και ιδιωτική πισίνα.</em></h2>');
+  rep('<h2 class="rv d1">Two homes on the plot.<br><em>One of them is this one.</em></h2>', '<h2 class="rv d1">A ground-floor maisonette<br><em>with garden and private pool.</em></h2>');
+  rep(/Δύο σπίτια στο οικόπεδο\.\s*(Το ένα είναι αυτό\.)?/g, 'Ισόγεια μεζονέτα με κήπο και ιδιωτική πισίνα. ');
+  rep(/Two homes on the plot\.\s*(One of them is this one\.)?/g, 'A ground-floor maisonette with garden and private pool. ');
   if (el) {
     rep(/✓ πάνω από το όριο/g, '✓ Πάνω από το όριο');
     rep(/Νεόδμητη μεζονέτα/g, 'Νεόδμητη ισόγεια μεζονέτα');
