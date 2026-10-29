@@ -1,7 +1,7 @@
 // ===== Mobile home (≤760px): editorial black — S.F. Properties =====
 const SFM_LANGS = ['el', 'en', 'tr', 'he', 'ar', 'zh', 'ru', 'fr', 'de', 'it'];
 const SFM_U = (id, w, h) => 'https://images.unsplash.com/' + id + '?auto=format&fit=crop&q=68&w=' + w + (h ? '&h=' + h : '');
-const SFM_P = { buy: 'photo-1736618626532-93b63fd6df4a', rent: 'photo-1724582586495-d050726cf354', off: 'photo-1781457589316-0f42ad81dfb1', how: 'photo-1767907573610-6f1d6c501d6f' };
+const SFM_P = { buy: 'photo-1736618626532-93b63fd6df4a', rent: 'photo-1680773525468-eda783c5bfe7', off: 'photo-1626609571962-ef414a325643', how: 'photo-1789737272550-f6c39aafa85b' };
 const SFM_MEDIA = 'https://sfproperties.gr/_bp/';
 const SFM_T = {
   el: { h1: 'Ακίνητα,<br>με προσωπική<br>φροντίδα.', sub: 'Πωλήσεις, ενοικιάσεις, βίλες και διαχείριση ακινήτων στην Αθήνα και στα νησιά. Σε 10 γλώσσες.', buy: 'Αγορά', rent: 'Ενοικίαση', villas: 'Βίλες', private: 'Off-market', q_l: 'Τι ψάχνετε;', q_h: 'Διαλέξτε<br>από πού ξεκινάτε.', buy_s: 'Κατοικίες · Μεζονέτες · Βίλες', rent_s: 'Μακροχρόνια', gv_d: 'Ακίνητα που πληρούν τα κριτήρια άδειας διαμονής.', gv_c: 'Οδηγός', own: 'Έχετε<br>ακίνητο;', own_d: 'Πώληση, ενοικίαση ή διαχείριση και Airbnb.', own_c: 'Ανάθεση', yacht_s: 'Σκάφη προς πώληση', off_h: 'Εκτός<br>αγοράς.', off_p: 'Πολλά από τα ακίνητά μας δεν δημοσιεύονται. Τα παρουσιάζουμε κατ’ ιδίαν, σε όσους ζητήσουν πρόσβαση.', off_c: 'Ζητήστε πρόσβαση', col_l: 'Διαθέσιμα τώρα', col_h: 'Η συλλογή', all: 'Όλα', sale: 'Προς πώληση', rentm: 'Ενοικίαση', ask: 'Ρωτήστε τιμή', month: '/μήνα', s1: 'Διαθέσιμα τώρα', s2: 'Έχουν νοικιαστεί', s3: 'Έχουν πουληθεί', how_l: 'Πώς δουλεύουμε', how_h: 'Ένας υπεύθυνος,<br>από την αρχή<br>ως το τέλος.', how_p: 'Σας δείχνουμε τα ακίνητα από κοντά ή με ζωντανή βιντεοκλήση και συντονίζουμε δικηγόρο, μηχανικό και συμβολαιογράφο ως την υπογραφή. Όλα γίνονται και από το εξωτερικό.', wa: 'WhatsApp', call: 'Κλήση' },
@@ -16,8 +16,8 @@ const SFM_T = {
   it: { h1: 'Immobili,<br>con cura<br>personale.', sub: 'Vendita, affitto, ville e gestione immobiliare ad Atene e nelle isole. In 10 lingue.', buy: 'Comprare', rent: 'Affittare', villas: 'Ville', private: 'Off-market', q_l: 'Cosa cercate?', q_h: 'Scegliete<br>da dove iniziare.', buy_s: 'Appartamenti · Duplex · Ville', rent_s: 'Lungo termine', gv_d: 'Immobili che soddisfano i requisiti per il permesso di soggiorno.', gv_c: 'Guida', own: 'Avete<br>un immobile?', own_d: 'Vendita, affitto o gestione e Airbnb.', own_c: 'Affidatecelo', yacht_s: 'Yacht in vendita', off_h: 'Fuori<br>mercato.', off_p: 'Molti dei nostri immobili non vengono mai pubblicati. Li presentiamo in privato a chi richiede l’accesso.', off_c: 'Richiedi accesso', col_l: 'Disponibili ora', col_h: 'La collezione', all: 'Tutti', sale: 'In vendita', rentm: 'In affitto', ask: 'Prezzo su richiesta', month: '/mese', s1: 'Disponibili ora', s2: 'Affittati', s3: 'Venduti', how_l: 'Come lavoriamo', how_h: 'Un solo referente,<br>dall’inizio<br>alla fine.', how_p: 'Vi mostriamo gli immobili di persona o in videochiamata e coordiniamo avvocato, ingegnere e notaio fino alla firma. Tutto si può fare anche dall’estero.', wa: 'WhatsApp', call: 'Chiama' }
 };
 function sfmLinks(L) {
-  if (L === 'el') return { buy: '/poliseis/', rent: '/enoikiaseis/', villas: '/villes/', gv: '/odigoi/golden-visa-agora-akinitou-ellada/', yachts: '/skafi/', private: '/aporrito/', own: '/anathesi-akinitou/', all: '/akinita/' };
-  if (L === 'en') return { buy: '/en/for-sale/', rent: '/en/rentals/', villas: '/en/villas/', gv: '/en/guides/greek-golden-visa-buying-property/', yachts: '/yachting/', private: '/aporrito/', own: '/en/list-your-property/', all: '/en/properties/' };
+  if (L === 'el') return { buy: '/poliseis/', rent: '/enoikiaseis/', villas: '/villes/', gv: '/odigoi/golden-visa-agora-akinitou-ellada/', yachts: '/skafi/', private: '/villes/#enquiry', own: '/anathesi-akinitou/', all: '/akinita/' };
+  if (L === 'en') return { buy: '/en/for-sale/', rent: '/en/rentals/', villas: '/en/villas/', gv: '/en/guides/greek-golden-visa-buying-property/', yachts: '/yachting/', private: '/en/villas/#enquiry', own: '/en/list-your-property/', all: '/en/properties/' };
   const p = '/' + L + '/';
   return { buy: p + 'properties/', rent: p + 'properties/', villas: p + 'villas/', gv: p + 'golden-visa/', yachts: '/yachting/', private: p + 'private/', own: p + 'private/#request', all: p + 'properties/' };
 }
@@ -37,8 +37,9 @@ function sfmCards(html, L, T, fromEn) {
     let title = sfmTxt(g(/<h3[^>]*>([\s\S]*?)<\/h3>/, body)), pr = ptxt;
     if (fromEn) {
       href = href.replace(/^\/en\/properties\//, '/' + L + '/properties/');
-      title = (sqm ? sqm + ' m²' : '') + (area ? (sqm ? ' · ' : '') + area : '');
-      pr = /\d/.test(ptxt) && +price ? (+price).toLocaleString('de-DE') + ' €' + (mode === 'rent' ? ' ' + T.month : '') : T.ask;
+      title = (sqm ? '<bdi>' + sqm + ' m²</bdi>' : '') + (area ? (sqm ? ' · ' : '') + '<bdi>' + sfmEsc(area.split(' - ')[0]) + '</bdi>' : '');
+      pr = /\d/.test(ptxt) && +price ? '<bdi>' + (+price).toLocaleString('de-DE') + ' €</bdi>' + (mode === 'rent' ? ' ' + T.month : '') : T.ask;
+      out.push({ href, img, area, title, pr, mode: mode === 'rent' ? T.rentm : T.sale, raw: 1 }); if (out.length >= 8) break; continue;
     } else if (!/\d/.test(ptxt)) pr = T.ask;
     out.push({ href, img, area, title, pr, mode: mode === 'rent' ? T.rentm : T.sale });
     if (out.length >= 8) break;
@@ -65,7 +66,7 @@ async function sfMob(path, html, ori) {
     const wa = ((html.match(/<a[^>]*class="fab-wa"[^>]*>/) || [''])[0].match(/href="([^"]+)"/) || [])[1] || 'https://wa.me/306906723676';
     const circ = [['buy', T.buy], ['rent', T.rent], ['villas', T.villas], ['gv', 'Golden Visa'], ['yachts', 'Yachts'], ['private', T.private]]
       .map(([k, n]) => `<a class="sfm-c" href="${K[k]}"><span><span>${n}</span></span></a>`).join('');
-    const card = cards.map((c) => `<a class="sfm-card" href="${sfmEsc(c.href)}"><span class="sfm-ci">${c.img ? `<img src="${sfmEsc(c.img)}" alt="${sfmEsc(c.title)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ''}</span><span class="sfm-lb">${sfmEsc(c.area)}${c.area ? ' · ' : ''}${sfmEsc(c.mode)}</span><span class="sfm-ct">${sfmEsc(c.title)}</span><span class="sfm-cp">${sfmEsc(c.pr)}</span></a>`).join('');
+    const card = cards.map((c) => `<a class="sfm-card" href="${sfmEsc(c.href)}"><span class="sfm-ci">${c.img ? `<img src="${sfmEsc(c.img)}" alt="${sfmEsc(sfmTxt(c.title))}" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ''}</span><span class="sfm-lb">${sfmEsc(c.area)}${c.area ? ' · ' : ''}${sfmEsc(c.mode)}</span><span class="sfm-ct">${c.raw ? c.title : sfmEsc(c.title)}</span><span class="sfm-cp">${c.raw ? c.pr : sfmEsc(c.pr)}</span></a>`).join('');
     const stats = nums.length >= 3 ? `<section class="sfm-stats"><div><b>${nums[0]}</b><span>${T.s1}</span></div><div><b>${nums[1]}</b><span>${T.s2}</span></div><div><b>${nums[2]}</b><span>${T.s3}</span></div></section>` : '';
     const img = (k, w, h) => `<img src="${SFM_U(SFM_P[k], w, h)}" srcset="${SFM_U(SFM_P[k], w, h)} 1x, ${SFM_U(SFM_P[k], w * 2, h ? h * 2 : 0)} 2x" alt="" loading="lazy" decoding="async">`;
     const block = `<div class="sfm" id="sfm-root" data-lang="${L}">
@@ -171,6 +172,7 @@ body:not(.menu-open) .top .menu-btn,body:not(.menu-open) .top .menu-btn span{col
 body:not(.menu-open) .top .btn.small{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
 body:not(.menu-open) .top summary,body:not(.menu-open) .top .lang a{color:#fff}
 .sfm[data-lang=he],.sfm[data-lang=ar]{direction:rtl}
+footer.site{background:#0B0B0C!important;border-top:1px solid rgba(255,255,255,.1);padding-bottom:96px!important}
 }
 @media (max-width:760px) and (prefers-reduced-motion:reduce){.sfm-t>img{transition:none}}
 </style>`;
