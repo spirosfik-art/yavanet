@@ -1,9 +1,23 @@
 // ===== Mobile home (≤760px): editorial black — S.F. Properties =====
 const SFM_LANGS = ['el', 'en', 'tr', 'he', 'ar', 'zh', 'ru', 'fr', 'de', 'it'];
 const SFM_U = (id, w, h) => 'https://images.unsplash.com/' + id + '?auto=format&fit=crop&q=68&w=' + w + (h ? '&h=' + h : '');
-const SFM_P = { buy: 'photo-1736618626532-93b63fd6df4a', rent: 'photo-1680773525468-eda783c5bfe7', off: 'photo-1626609571962-ef414a325643', how: 'photo-1789737272550-f6c39aafa85b' };
+const SFM_P = { buy: 'photo-1606917454663-343e58811bb1', rent: 'photo-1782113326479-b450da6c86d9', off: 'photo-1635752807994-212f7d1e678b', how: 'photo-1789737272550-f6c39aafa85b' };
 const SFM_MEDIA = 'https://sfproperties.gr/_bp/';
 const SFM_THEME = 'ivory';
+const SFM_HERO = 1;
+const SFM_HV = [{ v: 'sfm-hero', lay: 'bottom', t: 0 }, { v: 'sfm-h1', lay: 'bottom', t: 1 }, { v: 'sfm-h2', lay: 'center', t: 2 }, { v: 'sfm-h3', lay: 'top', t: 3 }];
+const SFM_HT = {
+  el: ['', 'Το σπίτι σας<br>στην Ελλάδα.', 'Πίσω από κάθε πόρτα,<br>μια νέα αρχή.', 'Ακίνητα<br>που ξεχωρίζουν.', 'Δείτε ακίνητα'],
+  en: ['', 'Your home<br>in Greece.', 'Behind every door,<br>a new beginning.', 'Properties<br>that stand apart.', 'View properties'],
+  he: ['', 'הבית שלכם<br>ביוון.', 'מאחורי כל דלת,<br>התחלה חדשה.', 'נכסים<br>יוצאי דופן.', 'לנכסים'],
+  tr: ['', 'Yunanistan’daki<br>eviniz.', 'Her kapının ardında<br>yeni bir başlangıç.', 'Ayrıcalıklı<br>mülkler.', 'Mülkleri gör'],
+  ar: ['', 'بيتكم<br>في اليونان.', 'خلف كل باب<br>بداية جديدة.', 'عقارات<br>استثنائية.', 'تصفّح العقارات'],
+  zh: ['', '您在希腊的<br>家。', '每一扇门后，<br>都是新的开始。', '与众不同的<br>房产。', '浏览房源'],
+  ru: ['', 'Ваш дом<br>в Греции.', 'За каждой дверью —<br>новое начало.', 'Недвижимость,<br>которая выделяется.', 'Смотреть объекты'],
+  fr: ['', 'Votre maison<br>en Grèce.', 'Derrière chaque porte,<br>un nouveau départ.', 'Des biens<br>d’exception.', 'Voir les biens'],
+  de: ['', 'Ihr Zuhause<br>in Griechenland.', 'Hinter jeder Tür<br>ein neuer Anfang.', 'Immobilien<br>der besonderen Art.', 'Immobilien ansehen'],
+  it: ['', 'La vostra casa<br>in Grecia.', 'Dietro ogni porta,<br>un nuovo inizio.', 'Immobili<br>d’eccezione.', 'Vedi immobili']
+};
 const SFM_T = {
   el: { h1: 'Ακίνητα,<br>με προσωπική<br>φροντίδα.', sub: 'Πωλήσεις, ενοικιάσεις, βίλες και διαχείριση ακινήτων στην Αθήνα και στα νησιά. Σε 10 γλώσσες.', buy: 'Αγορά', rent: 'Ενοικίαση', villas: 'Βίλες', private: 'Off-market', q_l: 'Τι ψάχνετε;', q_h: 'Διαλέξτε<br>από πού ξεκινάτε.', buy_s: 'Κατοικίες · Μεζονέτες · Βίλες', rent_s: 'Μακροχρόνια', gv_d: 'Ακίνητα που πληρούν τα κριτήρια άδειας διαμονής.', gv_c: 'Οδηγός', own: 'Έχετε<br>ακίνητο;', own_d: 'Πώληση, ενοικίαση ή διαχείριση και Airbnb.', own_c: 'Ανάθεση', yacht_s: 'Σκάφη προς πώληση', off_h: 'Εκτός<br>αγοράς.', off_p: 'Πολλά από τα ακίνητά μας δεν δημοσιεύονται. Τα παρουσιάζουμε κατ’ ιδίαν, σε όσους ζητήσουν πρόσβαση.', off_c: 'Ζητήστε πρόσβαση', col_l: 'Διαθέσιμα τώρα', col_h: 'Η συλλογή', all: 'Όλα', sale: 'Προς πώληση', rentm: 'Ενοικίαση', ask: 'Ρωτήστε τιμή', month: '/μήνα', s1: 'Διαθέσιμα τώρα', s2: 'Έχουν νοικιαστεί', s3: 'Έχουν πουληθεί', how_l: 'Πώς δουλεύουμε', how_h: 'Ένας υπεύθυνος,<br>από την αρχή<br>ως το τέλος.', how_p: 'Σας δείχνουμε τα ακίνητα από κοντά ή με ζωντανή βιντεοκλήση και συντονίζουμε δικηγόρο, μηχανικό και συμβολαιογράφο ως την υπογραφή. Όλα γίνονται και από το εξωτερικό.', wa: 'WhatsApp', call: 'Κλήση' },
   en: { h1: 'Greek property,<br>personally<br>handled.', sub: 'Sales, rentals, villas and property management in Athens and the islands. In 10 languages.', buy: 'Buy', rent: 'Rent', villas: 'Villas', private: 'Off-market', q_l: 'What are you looking for?', q_h: 'Choose<br>where to begin.', buy_s: 'Apartments · Maisonettes · Villas', rent_s: 'Long-term', gv_d: 'Properties that qualify for a residence permit.', gv_c: 'Guide', own: 'Own a<br>property?', own_d: 'Sale, rental, or management and Airbnb.', own_c: 'List it', yacht_s: 'Yachts for sale', off_h: 'Off<br>market.', off_p: 'Many of our properties are never published. We present them privately, to those who ask for access.', off_c: 'Request access', col_l: 'Available now', col_h: 'The collection', all: 'All', sale: 'For sale', rentm: 'For rent', ask: 'Price on request', month: '/month', s1: 'Available now', s2: 'Rented', s3: 'Sold', how_l: 'How we work', how_h: 'One person,<br>from start<br>to finish.', how_p: 'We show you properties in person or by live video call, and coordinate your lawyer, engineer and notary through to signing. Everything can be done from abroad.', wa: 'WhatsApp', call: 'Call' },
@@ -47,11 +61,11 @@ function sfmCards(html, L, T, fromEn) {
   }
   return out;
 }
-async function sfMob(path, html, ori) {
+async function sfMob(path, html, ori, hv) {
   try {
     const mm = path.match(/^\/(?:(en|tr|he|ar|zh|ru|fr|de|it)\/)?$/);
     if (!mm || html.indexOf('sfm-root') > -1) return html;
-    const L = mm[1] || 'el', T = SFM_T[L], K = sfmLinks(L), rtl = L === 'he' || L === 'ar', ar = rtl ? '←' : '→';
+    const L = mm[1] || 'el', T = SFM_T[L], HV = SFM_HV[/^[0-3]$/.test(String(hv)) ? +hv : SFM_HERO], HT = SFM_HT[L], h1 = HV.t ? HT[HV.t] : T.h1, K = sfmLinks(L), rtl = L === 'he' || L === 'ar', ar = rtl ? '←' : '→';
     let cards = [], src = html;
     if (L === 'el' || L === 'en') cards = sfmCards(html, L, T, false);
     if (!cards.length) {
@@ -71,8 +85,8 @@ async function sfMob(path, html, ori) {
     const stats = nums.length >= 3 ? `<section class="sfm-stats"><div><b>${nums[0]}</b><span>${T.s1}</span></div><div><b>${nums[1]}</b><span>${T.s2}</span></div><div><b>${nums[2]}</b><span>${T.s3}</span></div></section>` : '';
     const img = (k, w, h) => `<img src="${SFM_U(SFM_P[k], w, h)}" srcset="${SFM_U(SFM_P[k], w, h)} 1x, ${SFM_U(SFM_P[k], w * 2, h ? h * 2 : 0)} 2x" alt="" loading="lazy" decoding="async">`;
     const block = `<div class="sfm" id="sfm-root" data-lang="${L}" data-theme="${SFM_THEME}">
-<section class="sfm-hero"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}sfm-hero.jpg" data-src="${SFM_MEDIA}sfm-hero.mp4" aria-hidden="true"></video><div class="sfm-sh"></div>
-<div class="sfm-hc"><span class="sfm-k">ATHENS · RIVIERA · ISLANDS</span><h1 class="sfm-d">${T.h1}</h1><p>${T.sub}</p><span class="sfm-rule"></span><a class="sfm-k sfm-down" href="#sfm-paths">${T.q_l} ↓</a></div></section>
+<section class="sfm-hero sfm-l-${HV.lay}"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}${HV.v}.jpg" data-src="${SFM_MEDIA}${HV.v}.mp4" aria-hidden="true"></video><div class="sfm-sh"></div>
+<div class="sfm-hc"><span class="sfm-k">ATHENS · RIVIERA · ISLANDS</span><h1 class="sfm-d">${h1}</h1><p>${T.sub}</p><div class="sfm-hb"><a class="sfm-pill sfm-pw" href="${K.all}">${HT[4]}</a><a class="sfm-pill" href="${K.own}">${T.own.replace(/<br>/g, ' ')}</a></div><a class="sfm-k sfm-down" href="#sfm-paths">${T.q_l} ↓</a></div></section>
 <nav class="sfm-circ" aria-label="${sfmEsc(T.q_l)}">${circ}</nav>
 <section class="sfm-q" id="sfm-paths"><span class="sfm-k sfm-m">${T.q_l}</span><h2 class="sfm-d">${T.q_h}</h2></section>
 <section class="sfm-grid">
@@ -80,7 +94,7 @@ async function sfMob(path, html, ori) {
 <a class="sfm-t" href="${K.rent}">${img('rent', 390, 480)}<span class="sfm-tx"><span class="sfm-d">${T.rent}</span><span class="sfm-k">${T.rent_s} ${ar}</span></span></a>
 <a class="sfm-t sfm-blk" href="${K.gv}"><span class="sfm-bt"><span class="sfm-d">Golden<br>Visa</span><span class="sfm-bd">${T.gv_d}</span><span class="sfm-hl"></span></span><span class="sfm-k sfm-m">${T.gv_c} ${ar}</span></a>
 <a class="sfm-t sfm-blk" href="${K.own}"><span class="sfm-bt"><span class="sfm-d">${T.own}</span><span class="sfm-bd">${T.own_d}</span><span class="sfm-hl"></span></span><span class="sfm-k sfm-m">${T.own_c} ${ar}</span></a>
-<a class="sfm-t" href="${K.yachts}"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}sfm-yacht.jpg" data-src="${SFM_MEDIA}sfm-yacht.mp4" aria-hidden="true"></video><span class="sfm-tx"><span class="sfm-d">Yachting</span><span class="sfm-k">${T.yacht_s} ${ar}</span></span></a>
+<a class="sfm-t" href="${K.yachts}"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}sfm-yacht2.jpg" data-src="${SFM_MEDIA}sfm-yacht2.mp4" aria-hidden="true"></video><span class="sfm-tx"><span class="sfm-d">Yachting</span><span class="sfm-k">${T.yacht_s} ${ar}</span></span></a>
 </section>
 <section class="sfm-off">${img('off', 390, 560)}<div class="sfm-sh"></div><div class="sfm-oc"><span class="sfm-k">S.F. PROPERTIES</span><h2 class="sfm-d">${T.off_h}</h2><p>${T.off_p}</p><a class="sfm-btn" href="${K.private}">${T.off_c}</a></div></section>
 ${card ? `<section class="sfm-col"><div class="sfm-ch"><div><span class="sfm-k sfm-m">${T.col_l}</span><h2 class="sfm-d">${T.col_h}</h2></div><a class="sfm-k" href="${K.all}">${T.all} ${ar}</a></div><div class="sfm-rail">${card}</div></section>` : ''}
@@ -116,6 +130,20 @@ main>*:not(.sfm){display:none!important}
 .sfm-hc h1{font-size:clamp(44px,13.6vw,58px)}
 .sfm-hc p{margin:0;font-size:15px;line-height:1.55;color:#ECE7DD;max-width:34ch}
 .sfm-rule{width:44px;height:1px;background:rgba(255,255,255,.6)}
+.sfm-hb{display:flex;gap:8px;flex-wrap:wrap}
+.sfm .sfm-pill{height:44px;padding:0 20px;border-radius:22px;border:1px solid rgba(255,255,255,.7);display:inline-flex;align-items:center;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#fff;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background:rgba(255,255,255,.06)}
+.sfm .sfm-pill.sfm-pw{background:#fff;color:#111110;border-color:#fff;font-weight:500}
+.sfm-l-center .sfm-hc{top:0;bottom:0;justify-content:center;align-items:center;text-align:center}
+.sfm-l-center .sfm-hc p{max-width:30ch}
+.sfm-l-center .sfm-hb{justify-content:center}
+.sfm-l-center .sfm-down{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+.sfm-l-center .sfm-sh{background:rgba(8,8,9,.38)}
+.sfm-l-top .sfm-hc{top:calc(var(--sfm-top,64px) + 28px);bottom:calc(30px + env(safe-area-inset-bottom,0px))}
+.sfm-l-top .sfm-hc h1{font-size:clamp(50px,15.5vw,64px)}
+.sfm-l-top .sfm-hc p{margin-top:auto}
+.sfm-l-top .sfm-sh{background:rgba(8,8,9,.34)}
+.sfm-hc .sfm-rule{display:none}
+.sfm-l-center .sfm-hc .sfm-down{left:0;right:0}
 .sfm-circ{display:flex;gap:14px;overflow-x:auto;padding:26px 18px 22px;border-bottom:1px solid var(--line);scrollbar-width:none}
 .sfm-circ::-webkit-scrollbar{display:none}
 .sfm-c{flex:none;width:72px;height:72px;border-radius:50%;border:1px solid var(--ring);padding:3px}
