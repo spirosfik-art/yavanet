@@ -119,7 +119,6 @@ ${stats}
 .sfm[data-theme=white]{--bg:#FFFFFF;--ink:#0B0B0C;--sub:#4A4A4A;--mut:#6B6B6B;--line:rgba(0,0,0,.1);--tile:#0B0B0C;--ring:rgba(0,0,0,.28);--dot:#0B0B0C;--hdr:rgba(255,255,255,.92);--hdrink:#0B0B0C;--wa:#0B0B0C;--foot:#0B0B0C}
 .sfm[data-theme=navy]{--bg:#0E2238;--ink:#FFFFFF;--sub:#C8CFD9;--mut:#9FB0C4;--line:rgba(255,255,255,.14);--tile:#0A1A2C;--ring:rgba(255,255,255,.4);--dot:#0A1A2C;--hdr:rgba(14,34,56,.88);--hdrink:#FFFFFF;--wa:#C9A56A;--waink:#0E2238;--foot:#0A1A2C}
 html.sfm-pg,html.sfm-pg body{background:var(--sfm-bg,#F5F1EA)}
-main>*:not(.sfm){display:none!important}
 .fab-wa{display:none!important}
 .sfm{display:block;background:var(--bg);color:var(--ink);font-family:Commissioner,system-ui,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;padding-bottom:84px}
 .sfm a{color:var(--ink);text-decoration:none}
@@ -210,6 +209,10 @@ main>*:not(.sfm){display:none!important}
 .sfm .sfm-wa{background:var(--wa);color:var(--waink);font-weight:600}
 .sfm .sfm-call{background:color-mix(in srgb,var(--bg) 78%,transparent);color:var(--ink);border:1px solid var(--ring);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 .sfm-bar.sfm-hide{transform:translateY(90px);opacity:0}
+.sfm[data-lang=he],.sfm[data-lang=ar]{direction:rtl}
+footer.site{background:var(--sfm-foot,#111110)!important;padding-bottom:96px!important}
+}
+@media (max-width:760px){main>*:not(.sfm){display:none!important}
 body:not(.menu-open) .top{position:fixed;top:0;left:0;right:0;background:transparent;border-bottom-color:transparent;color:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;transition:background .35s,color .35s}
 body:not(.menu-open) .top .menu-btn,body:not(.menu-open) .top .menu-btn span,body:not(.menu-open) .top summary,body:not(.menu-open) .top .lang a{color:inherit}
 body:not(.menu-open) .top .btn.small{background:transparent;color:inherit;border-color:currentColor}
@@ -220,9 +223,8 @@ html.sfm-dark body:not(.menu-open) .top.scrolled .logo-img.dk{display:none}
 html.sfm-dark body:not(.menu-open) .top.scrolled .logo-img.lt{display:block}
 html:not(.sfm-dark) body:not(.menu-open) .top.scrolled .logo-img.dk{display:block}
 html:not(.sfm-dark) body:not(.menu-open) .top.scrolled .logo-img.lt{display:none}
-.sfm[data-lang=he],.sfm[data-lang=ar]{direction:rtl}
-footer.site{background:var(--sfm-foot,#111110)!important;padding-bottom:96px!important}
 }
+${DESK ? '@media (min-width:761px){main>*:not(.sfm):not(.hero){display:none!important}main{display:flex;flex-direction:column}main>.hero{order:-1}.sfm-hero{display:none!important}.sfm .sfm-bar.sfm-hide{transform:none;opacity:1}}' : ''}
 @media ${MQ} and (prefers-reduced-motion:reduce){.sfm-t>img{transition:none}}
 ${DESK ? `@media (min-width:761px){
 .sfm{--gut:max(48px,calc((100vw - 1280px)/2 + 48px))}
@@ -265,7 +267,6 @@ ${DESK ? `@media (min-width:761px){
 .sfm-how h2{font-size:clamp(52px,5vw,84px)!important}
 .sfm-how p{font-size:16px}
 .sfm-bar{left:auto;right:28px;bottom:28px;width:380px}
-body:not(.menu-open) .top .nav a{color:inherit}
 }` : ''}
 </style>`;
     const js = `<script>(function(){if(!window.matchMedia||(!matchMedia('(max-width:760px)').matches&&!document.getElementById('sfm-root').hasAttribute('data-desk')))return;var r=document.getElementById('sfm-root');if(!r)return;try{var q=(location.search.match(/[?&]t=([a-z]+)/)||[])[1];if(q&&/workers\.dev$/.test(location.hostname))r.setAttribute('data-theme',q)}catch(e){}var cs=getComputedStyle(r),de=document.documentElement;['bg','hdr','hdrink','foot'].forEach(function(k){de.style.setProperty('--sfm-'+k,cs.getPropertyValue('--'+k))});de.classList.add('sfm-pg');if(/noir|navy/.test(r.getAttribute('data-theme')))de.classList.add('sfm-dark');var t=document.querySelector('.top');if(t)document.documentElement.style.setProperty('--sfm-top',t.offsetHeight+'px');var mo=matchMedia('(prefers-reduced-motion:reduce)').matches;var vs=r.querySelectorAll('video[data-src]');function go(v){if(!v.src)v.src=v.getAttribute('data-src');var p=v.play();if(p&&p.catch)p.catch(function(){})}if(!mo){if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)go(e.target);else if(e.target.src)e.target.pause()})},{rootMargin:'150px'});vs.forEach(function(v){io.observe(v)})}else vs.forEach(go)}var b=r.querySelector('.sfm-bar'),h=r.querySelector('.sfm-hero');function sc(){if(b&&h)b.classList.toggle('sfm-hide',window.scrollY<h.offsetHeight*0.55)}window.addEventListener('scroll',sc,{passive:true});sc()})();</script>`;
