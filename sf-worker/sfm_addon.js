@@ -256,7 +256,11 @@ function sfRadar(path, html) {
   const out = html.replace(/<img[^>]*src="\/assets\/img\/voula\/map\.jpg"[^>]*>/, (m) => { done = true; return `<div class="sfr" id="sfr-root" data-cfg='${cfg.replace(/'/g, '&#39;')}'><div class="sfr-map" role="img" aria-label="${sfmEsc((m.match(/alt="([^"]*)"/) || [])[1] || 'Map')}"></div><noscript>${m}</noscript></div>`; });
   if (!done) return html;
   const css = `<style id="sfr-css">
-.xv-loc-map:has(#sfr-root){height:100%;min-height:440px;max-height:760px;position:sticky;top:90px}
+.xv-loc-map:has(#sfr-root){height:100%;min-height:440px;max-height:760px}
+@media (min-width:900px){.xv-loc-map:has(#sfr-root){position:sticky;top:90px}}
+.sfr-still .sfr-map{pointer-events:none}
+.sfr-still .sfr-base{filter:none}
+.sfr-still .leaflet-control-attribution{pointer-events:auto}
 .sfr{position:relative;width:100%;height:100%;min-height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
 .sfr-map{position:absolute;inset:0;background:#0b1a2b}
 .sfr .sfr-base{filter:sepia(.45) hue-rotate(175deg) saturate(2.2) brightness(1.18) contrast(1.05)}
@@ -265,7 +269,7 @@ function sfRadar(path, html) {
 .sfr .leaflet-control-attribution{background:rgba(11,26,43,.7);color:#8fa3b8;font-size:9px}
 .sfr .leaflet-control-attribution a{color:#b8c7d6}
 .sfr .leaflet-control-zoom a{background:rgba(11,26,43,.85);color:#e8dcc2;border-color:rgba(232,220,194,.2)}
-.sfr-lb.leaflet-tooltip{background:rgba(11,26,43,.82);border:1px solid rgba(143,214,224,.35);color:#e9f3f5;border-radius:10px;padding:5px 9px;font-size:12px;line-height:1.25;box-shadow:0 6px 20px rgba(0,0,0,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.sfr-lb.leaflet-tooltip{background:rgba(11,26,43,.82);border:1px solid rgba(143,214,224,.35);color:#e9f3f5;border-radius:10px;padding:5px 9px;font-size:12px;line-height:1.25;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .sfr-lb.leaflet-tooltip b{display:block;color:#8fd6e0;font-weight:500;font-size:11px;letter-spacing:.04em}
 .sfr-lb.leaflet-tooltip::before{display:none}
 .sfr-ring.leaflet-tooltip{background:none;border:0;box-shadow:none;color:#d9b76f;font-size:10px;letter-spacing:.18em;padding:0}
@@ -274,7 +278,7 @@ function sfRadar(path, html) {
 .sfr-h i{position:absolute;left:-9px;top:-9px;width:18px;height:18px;border-radius:50%;background:#d9b76f;box-shadow:0 0 0 5px rgba(217,183,111,.25),0 0 24px rgba(217,183,111,.9)}
 .sfr-h s{position:absolute;left:-9px;top:-9px;width:18px;height:18px;border-radius:50%;border:2px solid rgba(217,183,111,.8);animation:sfrPing 2.6s cubic-bezier(.2,.6,.3,1) infinite}
 .sfr-h s+s{animation-delay:1.3s}
-.sfr-h u{position:absolute;left:-230px;top:-230px;width:460px;height:460px;border-radius:50%;background:conic-gradient(from 0deg,rgba(217,183,111,.32),rgba(217,183,111,.08) 40deg,rgba(217,183,111,0) 70deg,rgba(217,183,111,0));animation:sfrSweep 6s linear infinite;pointer-events:none;-webkit-mask:radial-gradient(circle,#000 0 69%,transparent 70%);mask:radial-gradient(circle,#000 0 69%,transparent 70%)}
+.sfr-h u{position:absolute;left:-230px;top:-230px;width:460px;height:460px;border-radius:50%;background:conic-gradient(from 0deg,rgba(217,183,111,.32),rgba(217,183,111,.08) 40deg,rgba(217,183,111,0) 70deg,rgba(217,183,111,0));animation:sfrSweep 6s linear infinite;pointer-events:none;will-change:transform;overflow:hidden}
 .sfr-h em{position:absolute;left:16px;top:-12px;white-space:nowrap;font-style:normal;font-family:'Literata',Georgia,serif;font-size:17px;color:#f3e6c8;text-shadow:0 2px 12px rgba(0,0,0,.6)}
 [dir=rtl] .sfr-h em{left:auto;right:16px}
 @keyframes sfrPing{0%{transform:scale(1);opacity:.9}100%{transform:scale(7);opacity:0}}
@@ -286,10 +290,10 @@ function sfRadar(path, html) {
 function fail(){r.classList.add('sfr-fail');var n=r.querySelector('noscript');if(n){var d=document.createElement('div');d.innerHTML=n.textContent;r.appendChild(d.firstChild)}}
 function css(h){var l=document.createElement('link');l.rel='stylesheet';l.href=h;document.head.appendChild(l)}
 function init(){var L=window.L;if(!L)return fail();var mob=matchMedia('(max-width:760px)').matches;
-var m=L.map(r.querySelector('.sfr-map'),{zoomControl:!mob,scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:false,attributionControl:true,zoomSnap:.25});
+var still=mob||L.Browser.mobile;var m=L.map(r.querySelector('.sfr-map'),{zoomControl:!still,scrollWheelZoom:false,dragging:!still,touchZoom:!still,doubleClickZoom:!still,boxZoom:false,keyboard:false,tap:false,attributionControl:true,zoomSnap:.25,zoomAnimation:!still,fadeAnimation:!still,markerZoomAnimation:!still});if(still)r.classList.add('sfr-still');
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-base',attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(m);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-ref'}).addTo(m);
 var H=cfg.h;[1000,3000].forEach(function(rad){L.circle(H,{radius:rad,color:'#d9b76f',weight:1,opacity:.55,dashArray:'4 6',fill:rad===1000,fillColor:'#d9b76f',fillOpacity:.04,interactive:false}).addTo(m);var lat=H[0]+rad/111320;L.tooltip({permanent:true,direction:'center',className:'sfr-ring'}).setLatLng([lat,H[1]]).setContent(rad/1000+' km').addTo(m)});
-var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.dir,offset:p.dir==='top'?[0,-8]:p.dir==='left'?[-8,0]:[8,0],className:'sfr-lb'})});
+var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1,interactive:false,bubblingMouseEvents:false}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.dir,offset:p.dir==='top'?[0,-8]:p.dir==='left'?[-8,0]:[8,0],className:'sfr-lb',interactive:false})});
 L.marker(H,{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<div class="sfr-h"><u></u><s></s><s></s><i></i><em>'+cfg.n+'</em></div>'}),zIndexOffset:1000}).addTo(m);
 var fit=function(){m.invalidateSize();m.fitBounds(L.latLngBounds(pts),{padding:mob?[40,40]:[90,90]})};fit();setTimeout(fit,350);window.addEventListener('resize',function(){clearTimeout(r.__t);r.__t=setTimeout(fit,250)})}
 function load(){if(r.__l)return;r.__l=1;css('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css');var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;s.onerror=fail;document.head.appendChild(s)}
