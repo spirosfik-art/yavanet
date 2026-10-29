@@ -4,7 +4,7 @@ import { claude, parseJSON, log } from "../automation/lib.mjs";
 const topics = JSON.parse(fs.readFileSync("research/topics.json", "utf8"));
 const CATS = ["Ταξίδι – αξιοθέατα", "Ταξίδι – διαμονή", "Ταξίδι – παραλίες", "Ταξίδι – φαγητό", "Ταξίδι – πώς φτάνω/μεταφορές", "Πτήσεις", "Καιρός & εποχές", "Οικογένειες με παιδιά", "Κασέρ & εβραϊκή ζωή", "Ακίνητα & επενδύσεις", "Φόροι & γραφειοκρατία", "Ζωή & δουλειά στην Ελλάδα", "Τιμές & κόστος", "Ασφάλεια", "Γλώσσα & πολιτισμός", "Αγορές", "Νυχτερινή ζωή", "Ζευγάρια", "Άλλο"];
 const SYSTEM = `You are an SEO editor for Yavanet, a Hebrew news & guide site about Greece for Israelis. Return JSON only.`;
-const out = fs.existsSync("research/topics-classified.json") ? JSON.parse(fs.readFileSync("research/topics-classified.json", "utf8")) : {};
+let out = {}; try { out = JSON.parse(fs.readFileSync("research/topics-classified.json", "utf8")); } catch {}
 const todo = topics.filter((t) => !out[t.id]);
 log("todo", todo.length);
 for (let i = 0; i < todo.length; i += 50) {
