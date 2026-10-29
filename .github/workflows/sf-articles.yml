@@ -1,13 +1,13 @@
-# S.F. Properties: ένα νέο άρθρο-οδηγός την εβδομάδα (ελληνικά, αγγλικά, εβραϊκά) → branch «sf-data» → sfproperties.gr.
+# S.F. Properties: ένα νέο άρθρο-οδηγός την εβδομάδα (έλεγχος κάθε μέρα· γράφει όταν πέρασαν 6 μέρες από το τελευταίο) (ελληνικά, αγγλικά, εβραϊκά) → branch «sf-data» → sfproperties.gr.
 # Δεν αγγίζει το main ούτε το site του Yavanet.
 name: SF weekly article
 on:
   schedule:
-    - cron: "40 7 * * 2"
+    - cron: "40 7 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["automation/sf-articles.mjs", "automation/sf-topics.json", ".github/workflows/sf-articles.yml"]
+    paths: ["automation/sf-articles.mjs", "automation/sf-topics.json", "automation/sf-articles-manual.json", ".github/workflows/sf-articles.yml"]
 concurrency:
   group: sf-data
   cancel-in-progress: false

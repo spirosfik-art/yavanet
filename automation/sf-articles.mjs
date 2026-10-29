@@ -30,10 +30,15 @@ const NEED = { el: /[\u0370-\u03FF]/g, he: /[\u0590-\u05FF]/g };
 const cleanFor = (lang, t) => !BAD[lang].test(t) && (!NEED[lang] || (t.match(NEED[lang]) || []).length > t.replace(/\s/g, "").length * 0.4);
 const valid = (a) => a && typeof a.title === "string" && typeof a.lead === "string" && Array.isArray(a.sections) && a.sections.length >= 3 && Array.isArray(a.faq);
 
+// Σειρά μοντέλων: αν το ένα είναι υπερφορτωμένο, δοκιμάζουμε το επόμενο
+const MODELS = (process.env.SF_MODELS || "gemini-flash-latest,gemini-2.5-flash,gemini-2.5-pro").split(",").map((x) => x.trim()).filter(Boolean);
+const MANUAL = readJSON(path.join(ROOT, "automation/sf-articles-manual.json"), []);
+const GAP_DAYS = Number(process.env.SF_GAP_DAYS || 6);
 async function write(topic, lang) {
   const src = topic.facts.join("\n") + "\nYear: " + new Date().getFullYear();
   for (let attempt = 1; attempt <= 3; attempt++) {
     let a;
+    process.env.GEMINI_MODEL = MODELS[(attempt - 1) % MODELS.length];
     try { a = parseJSON(await claude({ system: SYS(lang), prompt: JSON.stringify({ topic: topic.topic, facts: topic.facts }), maxTokens: 9000, temperature: 0.4 })); }
     catch (e) { log(lang, "σφάλμα:", e.message.slice(0, 160), "(προσπάθεια", attempt + ")"); continue; }
     if (a && Array.isArray(a.faq)) a.faq = a.faq.map((f) => Array.isArray(f) ? f : [f && f.q, f && f.a]).filter((f) => f[0] && f[1]);
@@ -49,24 +54,34 @@ async function write(topic, lang) {
 
 async function main() {
   const data = readJSON(OUT, { articles: [] });
-  const done = new Set((data.articles || []).map((a) => a.slug));
+  data.articles = data.articles || [];
+  // χειρόγραφα άρθρα (ελεγμένα) μπαίνουν πρώτα, αν δεν υπάρχουν ήδη
+  let fresh = null;
+  for (const m of MANUAL) if (!data.articles.some((a) => a.slug === m.slug)) { data.articles.push(m); fresh = m; }
+  if (fresh && !FORCE) { await finish(data, fresh); return; }
+  const last = data.articles.map((a) => a.date).sort().pop();
+  if (!FORCE && last && (Date.now() - Date.parse(last + "T00:00:00Z")) / 864e5 < GAP_DAYS) { log("τελευταίο άρθρο", last, "→ το επόμενο σε", GAP_DAYS, "μέρες"); return; }
+  const done = new Set(data.articles.map((a) => a.slug));
   const topic = FORCE ? TOPICS.find((t) => t.slug === FORCE) : TOPICS.find((t) => !done.has(t.slug));
-  if (!topic) { log("δεν έμειναν θέματα – προσθέστε στο sf-topics.json"); return; }
+  if (!topic) { log("δεν έμειναν θέματα – προσθέστε στο sf-topics.json"); try { await notifyOwner("📰 sfproperties.gr: τελείωσαν τα θέματα των άρθρων – χρειάζονται νέα στο sf-topics.json"); } catch {} return; }
   if (!hasAI()) { log("χωρίς AI key"); return; }
   log("θέμα:", topic.slug);
   const art = { slug: topic.slug, date: new Date().toISOString().slice(0, 10) };
   for (const lang of Object.keys(LANGS)) {
     const a = await write(topic, lang);
-    if (!a) { log("απέτυχε η γλώσσα", lang, "→ δεν δημοσιεύεται τίποτα σήμερα"); return; }
+    if (!a) { log("απέτυχε η γλώσσα", lang, "→ ξαναδοκιμάζει αύριο"); return; }
     art[lang] = a;
   }
   if (DRY) { console.log(JSON.stringify(art, null, 2).slice(0, 4000)); return; }
-  data.articles = [...(data.articles || []).filter((a) => a.slug !== art.slug), art];
+  data.articles = [...data.articles.filter((a) => a.slug !== art.slug), art];
+  await finish(data, art);
+}
+async function finish(data, art) {
   data.updated = new Date().toISOString();
   writeJSON(OUT, data);
   log("✓ γράφτηκε", art.slug);
   const urls = [`/odigoi/${art.slug}/`, `/en/guides/${art.slug}/`, `/he/guides/${art.slug}/`].map((p) => "https://sfproperties.gr" + p);
-  // ειδοποίηση μηχανών αναζήτησης όταν το άρθρο θα είναι ήδη ορατό (ο worker κρατά cache ~30′) – το κάνει το workflow αργότερα
+  // ειδοποίηση μηχανών αναζήτησης όταν το άρθρο θα είναι ήδη ορατό (ο worker κρατά cache) – το κάνει το workflow αργότερα
   writeJSON(path.join(ROOT, "sf-data/last-article.json"), { slug: art.slug, urls, key: KEY });
   try { await notifyOwner(`📰 Νέο άρθρο στο sfproperties.gr:\n${art.el.title}\n${urls.join("\n")}`); } catch {}
 }
