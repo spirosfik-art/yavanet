@@ -1,0 +1,24 @@
+# Έρευνα ζήτησης v3 (χειροκίνητα): ξανά όσα απέτυχαν + δεύτερο επίπεδο προτάσεων → branch «research»
+name: Research v3
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          mkdir -p research
+          git show origin/research:research/suggest.json > research/suggest.json
+          git show origin/research:research/suggest2.json > research/suggest2.json
+          node scripts/suggest3.mjs
+      - run: |
+          git config user.name "yavanet-bot"; git config user.email "bot@users.noreply.github.com"
+          git checkout -B research && git add -f research/*.json && git commit -qm "research: v3" && git push -f origin research
