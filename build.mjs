@@ -66,6 +66,8 @@ const articles = fs.readdirSync(path.join(ROOT, "content/articles"))
     for (const l of LANGS) for (const k of ["title", "dek", "tldr", "body"]) if (!a[l][k]) throw new Error(`${f}: λείπει ${l}.${k}`);
     if (!a.sources.length || !a.sources.every((s) => s.name && s.url)) throw new Error(`${f}: χρειάζεται πηγή με όνομα και σύνδεσμο`);
     if (a.hidden) { GLOBAL.hidden.add(a.slug); return null; }
+    // Προγραμματισμένα άρθρα: εμφανίζονται όταν φτάσει η ώρα δημοσίευσης (το site ανεβαίνει ξανά κάθε ώρα)
+    if (new Date(a.publishedAt).getTime() > Date.now() + 5 * 60e3) return null;
     return a;
   })
   .filter(Boolean)
