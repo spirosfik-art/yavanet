@@ -407,7 +407,11 @@ function sfVillaFacts(path, html) {
   rep(/\b6[.,]48((?:\s|&nbsp;)*(?:m²|τ\.μ\.|מ״ר|м²))/g, '21$1');
   rep(/data-count="152"/g, 'data-count="150"');
   rep(/\b152(?=(?:\s|&nbsp;)*(?:m²|τ\.μ|מ״ר|м²|<\/span>|<small>))/g, '150');
+  rep(/&lt;\s?(?=<span data-count="400")/g, '');
   rep(/&lt;\s?400/g, '250');
+  rep(/<span data-count="400" data-dec="0">400<\/span>/g, '<span data-count="250" data-dec="0">250</span>');
+  rep(/(<b>|\s)<400(?=<small>|\s)/g, '$1250');
+  if (!el && !en) rep(/\b400(\s?(?:m|м|מ׳|米|م)(?![a-zA-Z]))/g, '250$1');
   rep(/(λιγότερο από|κάτω από)\s400\sμ\./g, '250 μ.');
   rep(/(under|less than)\s400\sm\b/gi, '250 m');
   rep(/✓\s*49%\s*/g, '✓ ');
