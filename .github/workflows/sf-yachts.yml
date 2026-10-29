@@ -1,0 +1,51 @@
+# S.F. Properties Yachting: συγχρονισμός σκαφών προς πώληση → branch «sf-data» (yachts.json) → sfproperties.gr/yachting/.
+# Μόνο ανάγνωση δημόσιων σελίδων· δεν αγγίζει το main ούτε το site του Yavanet.
+name: SF yachts sync
+on:
+  schedule:
+    - cron: "10 5 * * *"
+    - cron: "10 15 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["automation/sf-yachts.mjs", ".github/workflows/sf-yachts.yml"]
+concurrency:
+  group: sf-data
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  yachts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Previous data (branch sf-data)
+        run: |
+          mkdir -p sf-data
+          if git fetch -q --depth 1 origin sf-data 2>/dev/null; then
+            git --work-tree=sf-data checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+          fi
+          rm -f sf-data/last-article.json
+          ls -la sf-data
+      - name: Sync yachts
+        shell: bash
+        run: |
+          set -o pipefail
+          node automation/sf-yachts.mjs 2>&1 | tee sf-data/log-yachts.txt
+      - name: Push to sf-data branch
+        if: always()
+        run: |
+          cd sf-data
+          git init -q -b sf-data
+          git config user.name "sf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -qm "sf-data yachts $(date -u +%FT%TZ) [skip ci]"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" sf-data
