@@ -418,7 +418,8 @@ function sfVillaFacts(path, html) {
   if (el) {
     rep(/✓ πάνω από το όριο/g, '✓ Πάνω από το όριο');
     rep(/Νεόδμητη μεζονέτα/g, 'Νεόδμητη ισόγεια μεζονέτα');
-    rep(/Εμβαδά από την(?:<br>|\s)*οικοδομική άδεια/g, 'Εμβαδά<br>κατοικίας');
+    rep(/Εμβαδά από την(?:<br>|\s)*<em>οικοδομική άδεια<\/em>/g, 'Εμβαδά<br><em>της κατοικίας</em>');
+    rep(/Εμβαδά από τα σχέδια της άδειας/g, 'Εμβαδά όπως δηλώνονται από τον ιδιοκτήτη, προς επιβεβαίωση με την οικοδομική άδεια');
     rep('Το υπόγειο είναι βοηθητικός χώρος και αναφέρεται χωριστά.', 'Μαζί με το playroom των 34 τ.μ.: <b>175 τ.μ.</b> Κάθε επίπεδο έχει δική του είσοδο από τον εξωτερικό ανελκυστήρα.');
     rep('Δύο υπνοδωμάτια, το ένα με ανοιχτή ντουλάπα και δικό του μπάνιο, με θέα στο σαλόνι.', 'Δύο master υπνοδωμάτια, το καθένα με δικό του μπάνιο, και walk-in ντουλάπα.');
     rep('Σαλόνι διπλού ύψους που ανοίγει στην πισίνα, κουζίνα με νησίδα, κύριο υπνοδωμάτιο με μπάνιο και πόρτα στον κήπο.', 'Σαλόνι με απευθείας πρόσβαση στην πισίνα, open κουζίνα με νησίδα, τραπεζαρία, master υπνοδωμάτιο με δικό του μπάνιο και έξοδο στον κήπο, WC.');
@@ -431,7 +432,8 @@ function sfVillaFacts(path, html) {
     rep(/✓ above the threshold/gi, '✓ Above the threshold');
     rep(/A new-build maisonette/g, 'A new-build ground-floor maisonette');
     rep(/New-build 141 m² maisonette/g, 'New-build ground-floor maisonette, 141 m²,');
-    rep(/Areas taken from the(?:<br>|\s)*building permit/g, 'Areas<br>of the home');
+    rep(/Areas taken from the(?:<br>|\s)*<em>building permit<\/em>/g, 'Areas<br><em>of the home</em>');
+    rep(/Areas from the permit drawings/g, 'Areas as stated by the owner, to be confirmed against the building permit');
     rep('. The basement is an auxiliary room and is listed separately.', '. With the 34 m² playroom: <b>175 m²</b>. Every level has its own entrance from the external lift.');
     rep('Two bedrooms, one with an open walk-in wardrobe and private bathroom, overlooking the living room.', 'Two master bedrooms, each with its own bathroom, and a walk-in wardrobe.');
     rep('Double-height living room opening onto the pool, kitchen with island, master bedroom with en-suite and garden door.', 'Living room opening straight onto the pool, open kitchen with island, dining area, master bedroom with en-suite and garden door, guest WC.');
