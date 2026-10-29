@@ -1,0 +1,56 @@
+{
+  "slug": "shin-bet-election-interference-probe",
+  "section": "israelis",
+  "publishedAt": "2026-10-29T21:46:01+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/29/election-interference-israel/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8846624/pexels-photo-8846624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A hand displays several 'Vote' stickers on a white background, symbolizing political participation.",
+    "credit": "Photo: Mikhail Nilov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/vote-badges-on-person-s-fingers-8846624/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "בדיקת השב״כ: חקירת חשדות למעורבות זרה בבחירות בישראל",
+    "dek": "בעקבות פניית יו״ר ועדת הבחירות המרכזית, השב״כ בוחן מידע על מימון זר לכאורה. המשטרה עצרה חשודים בפרשה נפרדת.",
+    "tldr": [
+      "יו״ר ועדת הבחירות פנה לראש השב״כ לבדיקת חשדות",
+      "החקירה עוסקת במידע על מעורבות זרה לכאורה במערכת הבחירות",
+      "המשטרה עצרה שבעה חשודים בפרשת טיית קולות נפרדת"
+    ],
+    "means": "האירועים הפוליטיים בישראל מדווחים גם עבור קוראינו המתעניינים בהתפתחויות ובדיווחי הרשויות.",
+    "body": "שופט בית המשפט העליון ויו״ר וועדת הבחירות המרכזית ביקש מראש השב״כ לבחון טענות על מימון זר אפשרי בבחירות. הבדיקה החלה בעקבות מידע שהועבר לגורמי הביטחון, וללא הצגת ראיות פומביות עד כה. במקביל, המשטרה עצרה שבעה חשודים בפרשת חשד לקניית קולות הנבדקת בנפרד, כאשר המפלגה המעורבת הכחישה את החשדות. תוצאות הבדיקות צפויות להשפיע על המערכת הפוליטית ועל הדיונים להקמת ממשלה."
+  },
+  "en": {
+    "title": "Shin Bet Examines Suspected Foreign Election Interference",
+    "dek": "Following a request from the Central Elections Committee chair, the Shin Bet is reviewing intelligence regarding alleged foreign funding.",
+    "tldr": [
+      "Central Elections Committee chair asked Shin Bet to review claims",
+      "Probe focuses on unverified intelligence regarding foreign funding",
+      "Police arrested seven suspects in a separate vote-buying inquiry"
+    ],
+    "means": "This report covers official developments in Israeli political news for our readers.",
+    "body": "The Supreme Court Justice and Central Elections Committee chair asked the head of the Shin Bet to investigate suspicions of foreign funding and potential election interference. Authorities have not yet publicly presented concrete evidence supporting the claims, and the findings were requested within a week. Meanwhile, police arrested seven suspects in an unrelated vote-buying investigation involving the Ra’am party, which denied any wrongdoing."
+  },
+  "meta": {
+    "itemId": "fc37ca2a4b8e",
+    "imageQuery": "israel politics elections",
+    "sourceHash": "d7f364d5acad",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-29T19:46:02.385Z",
+    "official": false
+  }
+}
