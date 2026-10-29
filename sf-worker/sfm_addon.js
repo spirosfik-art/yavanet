@@ -4,7 +4,7 @@ const SFM_U = (id, w, h) => 'https://images.unsplash.com/' + id + '?auto=format&
 const SFM_P = { buy: 'photo-1606917454663-343e58811bb1', rent: 'photo-1782113326479-b450da6c86d9', off: 'photo-1635752807994-212f7d1e678b', how: 'photo-1789737272550-f6c39aafa85b' };
 const SFM_MEDIA = 'https://sfproperties.gr/_bp/';
 const SFM_THEME = 'ivory';
-const SFM_HERO = 1;
+const SFM_HERO = 3;
 const SFM_HV = [{ v: 'sfm-hero', lay: 'bottom', t: 0 }, { v: 'sfm-h1', lay: 'bottom', t: 1 }, { v: 'sfm-h2', lay: 'center', t: 2 }, { v: 'sfm-h3', lay: 'top', t: 3 }];
 const SFM_HT = {
   el: ['', 'Το σπίτι σας<br>στην Ελλάδα.', 'Πίσω από κάθε πόρτα,<br>μια νέα αρχή.', 'Ακίνητα<br>που ξεχωρίζουν.', 'Δείτε ακίνητα'],
@@ -141,7 +141,9 @@ main>*:not(.sfm){display:none!important}
 .sfm-l-top .sfm-hc{top:calc(var(--sfm-top,64px) + 28px);bottom:calc(30px + env(safe-area-inset-bottom,0px))}
 .sfm-l-top .sfm-hc h1{font-size:clamp(50px,15.5vw,64px)}
 .sfm-l-top .sfm-hc p{margin-top:auto}
-.sfm-l-top .sfm-sh{background:rgba(8,8,9,.34)}
+.sfm-l-top .sfm-v{filter:brightness(1.55) saturate(1.12) contrast(1.04)}
+.sfm-l-top .sfm-sh{background:linear-gradient(180deg,rgba(8,8,9,.5) 0%,rgba(8,8,9,.18) 34%,rgba(8,8,9,0) 50%,rgba(8,8,9,.12) 62%,rgba(8,8,9,.62) 100%)}
+.sfm-l-top .sfm-hc h1,.sfm-l-top .sfm-hc .sfm-k,.sfm-l-top .sfm-hc p{text-shadow:0 1px 22px rgba(0,0,0,.45),0 1px 3px rgba(0,0,0,.3)}
 .sfm-hc .sfm-rule{display:none}
 .sfm-l-center .sfm-hc .sfm-down{left:0;right:0}
 .sfm-idx{display:flex;align-items:center;gap:16px;overflow-x:auto;padding:0 22px;height:58px;border-bottom:1px solid var(--line);scrollbar-width:none;white-space:nowrap}
