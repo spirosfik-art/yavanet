@@ -63,6 +63,7 @@ function sfmCards(html, L, T, fromEn) {
 }
 async function sfMob(path, html, ori, hv) {
   try { html = await sfVillaYachts(path, sfRadar(path, html)); } catch (e) {}
+  try { html = sfVillaSkin(html); } catch (e) {}
   return sfMobHome(path, html, ori, hv);
 }
 async function sfMobHome(path, html, ori, hv) {
@@ -343,4 +344,46 @@ async function sfVillaYachts(path, html) {
 </style>`;
   const i = html.search(/<footer[\s>]/);
   return i < 0 ? html : html.slice(0, i) + sec + html.slice(i);
+}
+
+// ===== Villa pages (.xv): editorial ivory skin, same aesthetic as the mobile home =====
+const SFV_SKIN = true;
+function sfVillaSkin(html) {
+  if (!SFV_SKIN || html.indexOf('class="xv"') < 0 || html.indexOf('sfvs-css') > -1) return html;
+  const css = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@62.5..100,200..400&display=swap"><style id="sfvs-css">
+.xv{--xn:#F5F1EA;--xn2:#EDE7DC;--xc:#111110;--xc2:#4A463F;--xl:rgba(17,17,16,.13);--xg:#6F695E;--xg2:#111110;--xt:#111110;--mono:Commissioner,system-ui,sans-serif;--display:'Noto Serif Display',Literata,Georgia,serif;background:var(--xn);color:var(--xc)}
+.xv h1,.xv h2,.xv h3{font-family:'Noto Serif Display',Literata,Georgia,serif;font-stretch:68%;font-weight:300;text-transform:uppercase;letter-spacing:-.005em;line-height:.98}
+.xv h1{font-size:clamp(52px,9.6vw,136px)}
+.xv h2{font-size:clamp(40px,6.2vw,88px);line-height:.98}
+.xv h3{font-size:clamp(24px,2.6vw,34px)}
+.xv h1 em,.xv h2 em,.xv h3 em{font-style:normal;color:inherit;opacity:.62}
+.xv-k,.xv-cap,.xv-foot{font-family:Commissioner,system-ui,sans-serif!important;font-weight:400!important;letter-spacing:.3em!important}
+.xv-k{font-size:10.5px!important;color:var(--xg)!important}
+.xv-cap{color:#7A7468!important}
+.xv-p,.xv-lede{font-weight:300}
+.xv .btn{background:#111110;border-color:#111110;color:#fff;border-radius:999px;letter-spacing:.2em;text-transform:uppercase;font-size:11.5px;font-weight:500}
+.xv .btn.ghost{background:transparent;color:#111110;border-color:rgba(17,17,16,.5)}
+.xv-hero,.xv-full,.xv-end,.xv-band,.xv-split .xv-m1{--xc:#FFFFFF;--xc2:#ECE7DD;--xg:#ECE7DD;--xg2:#FFFFFF;--xl:rgba(255,255,255,.22)}
+.xv-hero h1,.xv-full h2,.xv-end h2,.xv-band h2{color:#fff}
+.xv-hero .btn,.xv-end .btn,.xv-band .btn{background:#fff;border-color:#fff;color:#111110}
+.xv-hero .btn.ghost,.xv-end .btn.ghost,.xv-band .btn.ghost{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.7)}
+.xv-excl{background:#fff!important;color:#111110!important;font-family:Commissioner,system-ui,sans-serif!important}
+.xv-excl .xv-dot{background:#111110!important}
+.xv-stats b,.xv-dist b,.xv-lv b,.xv-tax b,.xv-bars b{font-family:'Noto Serif Display',Georgia,serif!important;font-stretch:66%;font-weight:200!important;color:#111110!important;letter-spacing:0!important}
+.xv-dist small,.xv-stats small{font-family:Commissioner,sans-serif!important;color:#6F695E!important;letter-spacing:.1em}
+.xv-dist li{border-color:var(--xl)!important}
+.xv-loc{background:#EDE7DC}
+.xv-plans,.xv-plans .xv-plan{--xn:#0E1A28;--xn2:#132234;--xc:#F2EBDD;--xc2:#B9BDC2;--xl:#223040;--xg:#C9B48A;background:#0E1A28;color:#F2EBDD}
+.xv-plans h2{color:#F2EBDD}
+.xv-form input,.xv-form select,.xv-form textarea{background:#fff!important;color:#111110!important;border-color:rgba(17,17,16,.2)!important}
+.xv ::selection{background:#111110;color:#fff}
+.sfv{background:#111110!important}
+.sfv h2{font-family:'Noto Serif Display',Literata,Georgia,serif!important;font-stretch:68%;text-transform:uppercase;line-height:.98!important;font-size:clamp(40px,6vw,84px)!important}
+.sfv-k{color:#ECE7DD!important}
+.sfv-n{font-family:'Noto Serif Display',Literata,Georgia,serif!important;font-stretch:76%;font-weight:300}
+.sfv-m{color:#A9A397!important}
+.sfv-all{border-color:rgba(255,255,255,.6)!important;letter-spacing:.24em!important}
+.sfv-all:hover{background:#fff!important;color:#111110!important}
+</style>`;
+  return html.replace('</head>', css + '</head>');
 }
