@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34357798/pexels-photo-34357798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Shelf packed with diverse Asian snacks and groceries in an inviting store setting.",
+    "credit": "Photo: Paolo Sanchez / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cozy-corner-of-an-asian-grocery-store-interior-34357798/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "greek supermarket shelves"

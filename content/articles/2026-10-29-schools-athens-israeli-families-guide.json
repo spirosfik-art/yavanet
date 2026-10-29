@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8423043/pexels-photo-8423043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Child showcasing drawing in a classroom setting, focusing on education.",
+    "credit": "Photo: Pavel Danilyuk / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boy-showing-his-drawing-8423043/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "he": {
     "title": "בתי ספר באתונה לילדים ישראלים: בינלאומי, יהודי או יווני? (2026)",

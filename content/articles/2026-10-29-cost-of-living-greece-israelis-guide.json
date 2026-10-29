@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35465152/pexels-photo-35465152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Quiet street in Athens' historic Plaka district with Greek flag and quaint shops.",
+    "credit": "Photo: Shir  Danieli / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/quaint-athens-street-in-plaka-district-35465152/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "athens neighborhood street",

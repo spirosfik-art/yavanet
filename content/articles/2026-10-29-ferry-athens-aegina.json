@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13898434/pexels-photo-13898434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A large passenger ferry docked at a port with people boarding under a clear blue sky.",
+    "credit": "Photo: Pham Ngoc Anh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-ship-in-port-13898434/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה לאגינה ולאגיסטרי: טיול יום מפיראוס (2026)",

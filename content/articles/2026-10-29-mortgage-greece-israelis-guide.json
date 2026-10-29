@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12955837/pexels-photo-12955837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Miniature wooden house with keys and contract symbolizing real estate transactions.",
+    "credit": "Photo: Atlantic Ambience / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/wooden-house-moder-keys-and-contract-on-table-12955837/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "house keys contract",

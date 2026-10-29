@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39625876/pexels-photo-39625876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming historic buildings on a sunny hillside in Tinos, Greece.",
+    "credit": "Photo: Demetra Ioannidou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/historic-architecture-in-tinos-greece-39625876/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מרפינה לאנדרוס ולטינוס: זמנים ומחירים (2026)",

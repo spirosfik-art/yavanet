@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14411180/pexels-photo-14411180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful view of Thessaloniki's waterfront featuring the iconic White Tower, with distant hills under a cloudy sky.",
+    "credit": "Photo: George  Zografidis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-thessaloniki-city-in-greece-14411180/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "thessaloniki waterfront"

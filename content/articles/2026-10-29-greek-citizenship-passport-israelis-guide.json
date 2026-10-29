@@ -53,8 +53,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32081457/pexels-photo-32081457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up image of Portuguese passport and citizen card, essential for travel and identification in the EU.",
+    "credit": "Photo: Marta Branco / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/portuguese-passport-and-citizen-card-close-up-32081457/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "he": {
     "title": "דרכון יווני ואזרחות יוונית לישראלים: מי זכאי ואיך מוציאים (2026)",

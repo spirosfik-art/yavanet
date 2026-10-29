@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17901763/pexels-photo-17901763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Turquoise sea and vibrant beach scene in Corfu, Greece, capturing summer fun and water activities.",
+    "credit": "Photo: Ollie Craig / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ships-anchored-by-beach-17901763/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "family beach greece"

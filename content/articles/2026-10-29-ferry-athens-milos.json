@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32137725/pexels-photo-32137725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the serene beauty of Milos Island's bay, featuring crystal clear waters, boats, and rocky cliffs.",
+    "credit": "Photo: Daciana  Cristina  Visan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-milos-bay-with-boats-and-cliffs-32137725/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה למילוס: זמנים, מחירים ואיך מזמינים (2026)",

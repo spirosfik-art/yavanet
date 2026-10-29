@@ -33,8 +33,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10522898/pexels-photo-10522898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A rustic outdoor dining table with a coffee cup and glassware, overlooking a beach setting.",
+    "credit": "Photo: Francesco Ungaro / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/used-glass-cups-and-coffee-cup-on-the-table-10522898/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "greek taverna table"

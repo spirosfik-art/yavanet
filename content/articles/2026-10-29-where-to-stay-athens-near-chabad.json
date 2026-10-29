@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5658133/pexels-photo-5658133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic view of Athens city buildings with mountains in the background, framed by trees.",
+    "credit": "Photo: Markus Winkler / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-city-buildings-5658133/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "athens rooftop view"

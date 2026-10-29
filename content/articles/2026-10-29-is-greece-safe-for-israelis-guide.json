@@ -41,8 +41,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5699980/pexels-photo-5699980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Black and white street scene featuring a gothic-style building at night, with urban life in the background.",
+    "credit": "Photo: Markus Winkler / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/grayscale-photo-of-a-street-by-night-5699980/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "athens street evening"

@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4016695/pexels-photo-4016695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial view of Balos Beach in Crete, showcasing its turquoise waters and sandy shores.",
+    "credit": "Photo: Serinus / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/people-on-beach-4016695/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "crete beach"

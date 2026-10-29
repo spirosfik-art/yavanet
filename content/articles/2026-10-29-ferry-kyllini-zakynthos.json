@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12569990/pexels-photo-12569990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic view of Levante Ferry docked in Zakynthos Port under a clear sky.",
+    "credit": "Photo: Louis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/yellow-and-white-ship-on-sea-12569990/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת לזקינתוס מקיליני: זמנים, מחירים ואיך מגיעים מאתונה (2026)",

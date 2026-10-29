@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5961718/pexels-photo-5961718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Impressive view of the ancient Parthenon in Athens against a clear blue sky.",
+    "credit": "Photo: Kevin Lee / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-parthenon-in-greece-5961718/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "acropolis athens"

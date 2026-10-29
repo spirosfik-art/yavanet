@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10356910/pexels-photo-10356910.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Euro coins and bills on a price list, symbolizing finance and economy.",
+    "credit": "Photo: Tim Heckmann / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/money-euro-corporate-money-background-10356910/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "he": {
     "title": "כסף ביוון: אירו, מזומן או אשראי, כספומטים והחלפת כסף (2026)",

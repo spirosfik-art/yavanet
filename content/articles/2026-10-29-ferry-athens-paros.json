@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/16428293/pexels-photo-16428293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming coastal scene with boats and traditional Greek architecture in Paros harbor.",
+    "credit": "Photo: AXP Photography / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/motorboats-moored-in-town-on-mykonos-16428293/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה לפארוס: זמנים, מחירים ואיך מזמינים (2026)",

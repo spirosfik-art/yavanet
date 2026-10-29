@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17486492/pexels-photo-17486492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A cruise ship sails by the rugged cliffs of Santorini under a clear sky, capturing the island's serene beauty.",
+    "credit": "Photo: George  Zografidis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/mountain-hills-by-the-sea-17486492/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה לסנטוריני: זמנים, מחירים ומה כדאי לדעת (2026)",

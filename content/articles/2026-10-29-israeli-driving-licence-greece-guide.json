@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5429547/pexels-photo-5429547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the stunning coastline of Kythira, Greece, with rocky cliffs and blue seas.",
+    "credit": "Photo: Julia Sakelli / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/view-of-beach-on-rocky-and-desert-coastline-5429547/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "he": {
     "title": "רישיון נהיגה ישראלי ביוון: צריך רישיון בינלאומי? (2026)",

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37442049/pexels-photo-37442049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful summer day at Mandraki Harbor, Rhodes, featuring the iconic clock tower and sea.",
+    "credit": "Photo: Roma Dik / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-mandraki-harbor-in-rhodes-37442049/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה לרודוס: זמנים, תאים ומחירים (2026)",

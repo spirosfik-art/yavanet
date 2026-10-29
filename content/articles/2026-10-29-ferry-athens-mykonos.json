@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/24449063/pexels-photo-24449063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming coastal town with white buildings on a hill and ferries in the sea.",
+    "credit": "Photo: Xavier Messina / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ferries-in-town-on-sea-coast-24449063/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה למיקונוס: פיראוס או רפינה, זמנים ומחירים (2026)",

@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33497885/pexels-photo-33497885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of Polish passports and travel tickets symbolizing travel and adventure.",
+    "credit": "Photo: Jakub Zerdzicki / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/polish-passports-and-travel-documents-on-a-table-33497885/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "he": {
     "title": "כניסה ליוון לישראלים: ויזה, תוקף דרכון, EES ו-ETIAS (2026)",

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32204387/pexels-photo-32204387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tourists disembark the Samaria I ferry at a rocky coastline in Crete, Greece during daytime.",
+    "credit": "Photo: Roberto Castano / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/tourists-disembarking-ferry-at-crete-island-32204387/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה לכרתים: הרקליון או חאניה, זמנים, תאים ומחירים (2026)",

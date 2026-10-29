@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/19870536/pexels-photo-19870536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A cruise ship sails through the calm seas of Corfu, Greece, under a clear summer sky.",
+    "credit": "Photo: IOANNIS SAKKOS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cruise-ship-sailing-on-the-sea-19870536/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת לקורפו מאיגומניצה, וטיול יום מקורפו לסרנדה באלבניה (2026)",

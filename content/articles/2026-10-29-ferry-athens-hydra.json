@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/26063214/pexels-photo-26063214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming Hydra Island harbor with colorful houses and yachts on a sunny day.",
+    "credit": "Photo: Denys Gromov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-on-sea-shore-in-greece-26063214/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "he": {
     "title": "מעבורת מאתונה להידרה, פורוס וספצס: זמנים ומחירים (2026)",
