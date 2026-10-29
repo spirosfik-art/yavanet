@@ -232,12 +232,12 @@ footer.site{background:var(--sfm-foot,#111110)!important;padding-bottom:96px!imp
 // ===== Voula villa: live location radar (replaces the static map image) =====
 const SFR_HOUSE = [37.84557, 23.75701];
 const SFR_PTS = [
-  { k: 'tram', ll: [37.84965, 23.75255], d: '600 m' },
-  { k: 'beach', ll: [37.84967, 23.75036], d: '700 m' },
+  { k: 'tram', ll: [37.84965, 23.75255], d: '600 m', dir: 'top' },
+  { k: 'beach', ll: [37.84967, 23.75036], d: '700 m', dir: 'left' },
   { k: 'gly', ll: [37.8600, 23.7525], d: '1.6 km' },
   { k: 'marina', ll: [37.87084, 23.73332], d: '3.5 km' },
   { k: 'astir', ll: [37.80916, 23.77360], d: '4.4 km' },
-  { k: 'lake', ll: [37.80773, 23.78571], d: '4.9 km' }
+  { k: 'lake', ll: [37.80773, 23.78571], d: '4.9 km', dir: 'right' }
 ];
 const SFR_N = {
   el: { house: 'Το σπίτι', tram: 'Τραμ Ασκληπιείο', beach: 'Παραλία Βούλας', gly: 'Κέντρο Γλυφάδας', marina: 'Μαρίνα Γλυφάδας', astir: 'Astir Beach', lake: 'Λίμνη Βουλιαγμένης' },
@@ -249,12 +249,13 @@ function sfRadar(path, html) {
   if (html.indexOf('/assets/img/voula/map.jpg') < 0 || html.indexOf('sfr-root') > -1) return html;
   const L = (path.match(/^\/(en|tr|he|ar|zh|ru|fr|de|it)\//) || [])[1] || 'el';
   const N = Object.assign({}, SFR_N.en, SFR_N[L] || {});
-  const cfg = JSON.stringify({ h: SFR_HOUSE, n: N.house, p: SFR_PTS.map((x) => ({ ll: x.ll, n: N[x.k], d: x.d })) }).replace(/</g, '\\u003c');
+  const cfg = JSON.stringify({ h: SFR_HOUSE, n: N.house, p: SFR_PTS.map((x) => ({ ll: x.ll, n: N[x.k], d: x.d, dir: x.dir || 'left' })) }).replace(/</g, '\\u003c');
   let done = false;
   const out = html.replace(/<img[^>]*src="\/assets\/img\/voula\/map\.jpg"[^>]*>/, (m) => { done = true; return `<div class="sfr" id="sfr-root" data-cfg='${cfg.replace(/'/g, '&#39;')}'><div class="sfr-map" role="img" aria-label="${sfmEsc((m.match(/alt="([^"]*)"/) || [])[1] || 'Map')}"></div><noscript>${m}</noscript></div>`; });
   if (!done) return html;
   const css = `<style id="sfr-css">
-.sfr{position:relative;width:100%;height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
+.xv-loc-map:has(#sfr-root){height:100%;min-height:440px}
+.sfr{position:relative;width:100%;height:100%;min-height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
 .sfr-map{position:absolute;inset:0;background:#0b1a2b}
 .sfr .sfr-base{filter:sepia(.45) hue-rotate(175deg) saturate(2.2) brightness(1.18) contrast(1.05)}
 .sfr .sfr-ref{opacity:.75}
@@ -286,7 +287,7 @@ function init(){var L=window.L;if(!L)return fail();var mob=matchMedia('(max-widt
 var m=L.map(r.querySelector('.sfr-map'),{zoomControl:!mob,scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:false,attributionControl:true,zoomSnap:.25});
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-base',attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(m);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-ref'}).addTo(m);
 var H=cfg.h;[1000,3000].forEach(function(rad){L.circle(H,{radius:rad,color:'#d9b76f',weight:1,opacity:.55,dashArray:'4 6',fill:rad===1000,fillColor:'#d9b76f',fillOpacity:.04,interactive:false}).addTo(m);var lat=H[0]+rad/111320;L.tooltip({permanent:true,direction:'center',className:'sfr-ring'}).setLatLng([lat,H[1]]).setContent(rad/1000+' km').addTo(m)});
-var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.ll[1]<H[1]?'left':'right',offset:[p.ll[1]<H[1]?-8:8,0],className:'sfr-lb'})});
+var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.dir,offset:p.dir==='top'?[0,-8]:p.dir==='left'?[-8,0]:[8,0],className:'sfr-lb'})});
 L.marker(H,{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<div class="sfr-h"><u></u><s></s><s></s><i></i><em>'+cfg.n+'</em></div>'}),zIndexOffset:1000}).addTo(m);
 m.fitBounds(L.latLngBounds(pts),{padding:mob?[34,34]:[56,56]});setTimeout(function(){m.invalidateSize()},300)}
 function load(){if(r.__l)return;r.__l=1;css('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css');var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;s.onerror=fail;document.head.appendChild(s)}
