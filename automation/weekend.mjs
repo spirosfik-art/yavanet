@@ -37,7 +37,7 @@ function withLinks(html, base) {
   return htmlToText(m ? m[0] : h).slice(0, 14000);
 }
 
-const SYSTEM = `You extract cultural events in Athens from official listing pages. You NEVER invent anything: every event, date, venue and URL must appear in the provided text. Return ONLY JSON.`;
+const SYSTEM = `You extract cultural events in Athens from official listing pages. You NEVER invent anything: every event, date, venue and URL must appear in the provided text. Skip any political or politically sensitive event (Israel, Palestine, Gaza, Middle East conflicts, protests, solidarity or boycott events): the readers are Israeli families and tourists. Return ONLY JSON.`;
 
 (async () => {
   if (!hasAI()) { log("χωρίς κλειδί AI – παράλειψη"); return; }
@@ -71,7 +71,10 @@ ${pages.join("\n\n")}`;
   catch (e) { log("AI σφάλμα", e.message); await notifyOwner("🗓️ Σαββατοκύριακο στην Αθήνα: σφάλμα AI – " + e.message.slice(0, 120)); return; }
 
   // Έλεγχος: μόνο εκδηλώσεις με link που υπάρχει πραγματικά στις σελίδες
+  // Χωρίς πολιτικές/ευαίσθητες εκδηλώσεις για το κοινό μας (Παλαιστίνη, Γάζα, Ισραήλ, διαδηλώσεις κ.λπ.)
+  const POLITICAL = /palestin|παλαιστ|פלסטינ|gaza|γάζα|γαζα|עזה|israel|ισραήλ|ισραηλ|zion|σιων|intifada|ιντιφάντα|boycott|bds|μποϊκοτάζ|genocide|γενοκτον|occupation|κατοχ|protest|διαμαρτυρ|διαδήλω|πορεία|rally|solidarity|αλληλεγγ|hamas|χαμάς|hezbollah|χεζμπολάχ|iran|ιράν/i;
   const events = (out.events || []).filter((e) => e && e.url && allowed.has(String(e.url).replace(/\/$/, "")) && e.title_en && e.when_en)
+    .filter((e) => !POLITICAL.test([e.url, e.title_en, e.title_he, e.title, e.venue, e.desc_en, e.desc_he].filter(Boolean).join(" ")))
     .filter((e, i, a) => a.findIndex((x) => x.url === e.url) === i).slice(0, 12);
   log(`έγκυρες εκδηλώσεις: ${events.length} από ${(out.events || []).length}`);
   if (events.length < 3) { await notifyOwner(`🗓️ Σαββατοκύριακο στην Αθήνα: βρέθηκαν μόνο ${events.length} έγκυρες εκδηλώσεις – δεν γράφτηκε άρθρο.`); return; }
