@@ -1,4 +1,4 @@
-# Κάθε βράδυ: ~25 παλιά άρθρα παίρνουν πρακτική ενότητα + «שאלות נפוצות» (FAQ για Google), μέχρι να γίνουν όλα.
+# Κάθε βράδυ: φωτογραφίες για νέους οδηγούς + ~25 παλιά άρθρα παίρνουν πρακτική ενότητα + «שאלות נפוצות» (FAQ για Google), μέχρι να γίνουν όλα.
 name: Enrich articles
 on:
   schedule:
@@ -24,6 +24,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Photos for new guides
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node automation/fill-images.mjs
       - name: Enrich articles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
