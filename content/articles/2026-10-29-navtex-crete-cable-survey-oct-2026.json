@@ -1,0 +1,56 @@
+{
+  "slug": "navtex-crete-cable-survey-oct-2026",
+  "section": "israelis",
+  "publishedAt": "2026-10-29T08:58:23+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "crete",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/29/navtex-southeast-of-crete/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27495276/pexels-photo-27495276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial shot of a serene tropical coastline with clear blue waters and rocky shores.",
+    "credit": "Photo: Francesco Ungaro / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sea-landscape-nature-beach-27495276/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "כרתים: הודעות ימיות סותרות בין יוון לתורכיה",
+    "dek": "יוון ותורכיה פרסמו הודעות ניווט ימי (NAVTEX) מנוגדות באזור דרום-מזרח כרתים, על רקע עבודות מיפוי ימי של ספינת סקר לפרויקט כבל תקשורת.",
+    "tldr": [
+      "הודעות NAVTEX מנוגדות באזור כרתים",
+      "ספינת הסקר קובי רואג פועלת באזור",
+      "הרשויות ביוון האריכו את תוקף האזהרה עד 6 בנובמבר"
+    ],
+    "means": "למרות חילופי ההודעות הימיות, העבודות של ספינת הסקר נמשכות כמתוכנן וההפלגה באזור מתנהלת תוך שמירת מרחק ביטחון של שני מייל ימי, ללא השפעה על טיסות או חופשות באיים.",
+    "body": "יוון ותורכיה פרסמו הודעות ניווט ימי (NAVTEX) מנוגדות באזור דרום-מזרח כרתים. הודעות הניווט נוגעות לפעילותה של ספינת הסקר KOBI RUEGG, המבצעת עבודות מיפוי קרקעית הים עבור כבל תקשורת סיב אופטי המיועד לחבר בין אסיה לאירופה.\n\nהספינה פועלת תחת היתר רשמי שהנפיקו הרשויות ביוון ב-2 באוקטובר. בתחילת השבוע פרסמה תחנת הניווט בהרקליון שכרתים שתי אזהרות ימיות, בהן דחתה הודעה מקבילה של תורכיה והאריכה את תוקף אזהרת הסקר עד ל-6 בנובמבר, תוך בקשה מספינות חולפות לשמור מרחק של שני מייל ימי מהכלי.\n\nמנגד, תורכיה פרסמה אזהרה משלה באמצעות תחנת אנטליה, וטענה כי הסקר מתבצע בהסכמתה באזור הנתפס על ידיה כמדף היבשת שלה. הרשויות ביוון ממשיכות לעקוב אחר ההתפתחויות באזור, לקראת חידוש אפשרי של סקרים נוספים לפרויקטים ימיים נוספים באותם המים."
+  },
+  "en": {
+    "title": "Crete: Greece and Turkey Issue Rival NAVTEX Notices",
+    "dek": "Greece and Turkey have issued competing navigational warnings southeast of Crete regarding seabed survey work for a planned fiber-optic cable project.",
+    "tldr": [
+      "Competing NAVTEX notices issued near Crete",
+      "Survey vessel continues work under Greek permit",
+      "Greek authorities extend survey warning to November 6"
+    ],
+    "means": "The maritime warnings reflect ongoing diplomatic disagreements between Athens and Ankara over maritime zones, but current survey operations do not impact commercial travel, flights, or tourism in Crete and the Greek islands.",
+    "body": "Greece and Turkey have exchanged rival navigational warnings (NAVTEX) southeast of Crete concerning seabed surveys conducted by a cable-laying support vessel. The Bahamas-flagged ship KOBI RUEGG is mapping the seabed for a fiber-optic cable project intended to link Asia and Europe via Greece, operating under a permit issued by Greek authorities.\n\nThe Heraklion station on Crete issued navigational warnings declaring a counter-notice from Turkey unauthorized, while extending the survey warning until November 6 and instructing passing vessels to maintain a two-nautical-mile distance. Ankara responded with its own notice via Antalya, asserting that the surveys take place on its claimed continental shelf.\n\nGreek officials continue to monitor maritime communications in the area, as additional surveys related to regional energy and data infrastructure projects are anticipated in the same waters."
+  },
+  "meta": {
+    "itemId": "5673ede4da82",
+    "imageQuery": "Crete coastline sea",
+    "sourceHash": "5f003f27ce74",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-29T06:58:23.509Z",
+    "official": false
+  }
+}

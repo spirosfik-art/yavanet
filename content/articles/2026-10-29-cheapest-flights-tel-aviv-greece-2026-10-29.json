@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32138453/pexels-photo-32138453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic aerial view from airplane window showcasing coastline and sea, perfect for travel content.",
+    "credit": "Photo: Adrien Olichon / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-above-the-sea-and-coastline-from-airplane-32138453/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-10-29T08:00:22+02:00"
+    "checkedAt": "2026-10-29T08:00:22+02:00",
+    "photoTried": true
   }
 }
