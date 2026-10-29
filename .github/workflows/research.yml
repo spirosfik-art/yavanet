@@ -1,0 +1,17 @@
+# Έρευνα ζήτησης (χειροκίνητα): Google autocomplete στα εβραϊκά → branch «research»
+name: Research
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/suggest.mjs
+      - run: |
+          git config user.name "yavanet-bot"; git config user.email "bot@users.noreply.github.com"
+          git checkout -B research && git add -f research/suggest.json && git commit -qm "research: suggest" && git push -f origin research
