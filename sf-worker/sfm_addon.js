@@ -5,6 +5,7 @@ const SFM_P = { buy: 'photo-1606917454663-343e58811bb1', rent: 'photo-1782113326
 const SFM_MEDIA = 'https://sfproperties.gr/_bp/';
 const SFM_THEME = 'ivory';
 const SFM_HERO = 3;
+const SFM_DESK = false;
 const SFM_HV = [{ v: 'sfm-hero', lay: 'bottom', t: 0 }, { v: 'sfm-h1', lay: 'bottom', t: 1 }, { v: 'sfm-h2', lay: 'center', t: 2 }, { v: 'sfm-h3', lay: 'top', t: 3 }];
 const SFM_HT = {
   el: ['', 'Το σπίτι σας<br>στην Ελλάδα.', 'Πίσω από κάθε πόρτα,<br>μια νέα αρχή.', 'Ακίνητα<br>που ξεχωρίζουν.', 'Δείτε ακίνητα'],
@@ -71,7 +72,7 @@ async function sfMobHome(path, html, ori, hv) {
   try {
     const mm = path.match(/^\/(?:(en|tr|he|ar|zh|ru|fr|de|it)\/)?$/);
     if (!mm || html.indexOf('sfm-root') > -1) return html;
-    const L = mm[1] || 'el', T = SFM_T[L], HV = SFM_HV[/^[0-3]$/.test(String(hv)) ? +hv : SFM_HERO], HT = SFM_HT[L], h1 = HV.t ? HT[HV.t] : T.h1, K = sfmLinks(L), rtl = L === 'he' || L === 'ar', ar = rtl ? '←' : '→';
+    const L = mm[1] || 'el', T = SFM_T[L], DESK = SFM_DESK || /d/.test(String(hv || '')), HN = String(hv || '').replace(/\D/g, ''), HV = SFM_HV[/^[0-3]$/.test(HN) ? +HN : SFM_HERO], HT = SFM_HT[L], h1 = HV.t ? HT[HV.t] : T.h1, K = sfmLinks(L), rtl = L === 'he' || L === 'ar', ar = rtl ? '←' : '→';
     let cards = [], src = html;
     if (L === 'el' || L === 'en') cards = sfmCards(html, L, T, false);
     if (!cards.length) {
@@ -90,7 +91,7 @@ async function sfMobHome(path, html, ori, hv) {
     const card = cards.map((c) => `<a class="sfm-card" href="${sfmEsc(c.href)}"><span class="sfm-ci">${c.img ? `<img src="${sfmEsc(c.img)}" alt="${sfmEsc(sfmTxt(c.title))}" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ''}</span><span class="sfm-lb">${sfmEsc(c.area)}${c.area ? ' · ' : ''}${sfmEsc(c.mode)}</span><span class="sfm-ct">${c.raw ? c.title : sfmEsc(c.title)}</span><span class="sfm-cp">${c.raw ? c.pr : sfmEsc(c.pr)}</span></a>`).join('');
     const stats = nums.length >= 3 ? `<section class="sfm-stats"><div><b>${nums[0]}</b><span>${T.s1}</span></div><div><b>${nums[1]}</b><span>${T.s2}</span></div><div><b>${nums[2]}</b><span>${T.s3}</span></div></section>` : '';
     const img = (k, w, h) => `<img src="${SFM_U(SFM_P[k], w, h)}" srcset="${SFM_U(SFM_P[k], w, h)} 1x, ${SFM_U(SFM_P[k], w * 2, h ? h * 2 : 0)} 2x" alt="" loading="lazy" decoding="async">`;
-    const block = `<div class="sfm" id="sfm-root" data-lang="${L}" data-theme="${SFM_THEME}">
+    const block = `<div class="sfm" id="sfm-root" data-lang="${L}" data-theme="${SFM_THEME}"${DESK ? ' data-desk' : ''}>
 <section class="sfm-hero sfm-l-${HV.lay}"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}${HV.v}.jpg" data-src="${SFM_MEDIA}${HV.v}.mp4" aria-hidden="true"></video><div class="sfm-sh"></div>
 <div class="sfm-hc"><span class="sfm-k">ATHENS · RIVIERA · ISLANDS</span><h1 class="sfm-d">${h1}</h1><p>${T.sub}</p><div class="sfm-hb"><a class="sfm-pill sfm-pw" href="${K.all}">${HT[4]}</a><a class="sfm-pill" href="${K.own}">${T.own.replace(/<br>/g, ' ')}</a></div><a class="sfm-k sfm-down" href="#sfm-paths">${T.q_l} ↓</a></div></section>
 <nav class="sfm-idx" aria-label="${sfmEsc(T.q_l)}">${circ}</nav>
@@ -108,9 +109,10 @@ ${stats}
 <section class="sfm-how">${img('how', 390, 300)}<span class="sfm-k sfm-m">${T.how_l}</span><h2 class="sfm-d">${T.how_h}</h2><p>${T.how_p}</p><div class="sfm-langs"><a href="/">Ελληνικά</a><a href="/en/">English</a><a href="/he/">עברית</a><a href="/tr/">Türkçe</a><a href="/ar/">العربية</a><a href="/zh/">中文</a><a href="/ru/">Русский</a><a href="/fr/">Français</a><a href="/de/">Deutsch</a><a href="/it/">Italiano</a></div></section>
 <div class="sfm-bar"><a class="sfm-wa" href="${sfmEsc(wa)}" target="_blank" rel="noopener">${T.wa}</a><a class="sfm-call" href="tel:+306906723676">${T.call}</a></div>
 </div>`;
-    const css = `<link rel="stylesheet" media="(max-width:760px)" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@62.5..100,200..400&family=Frank+Ruhl+Libre:wght@300;400&family=Noto+Naskh+Arabic:wght@400&display=swap"><style id="sfm-css">
+    const MQ = DESK ? "all" : "(max-width:760px)";
+    const css = `<link rel="stylesheet" media="${MQ}" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@62.5..100,200..400&family=Frank+Ruhl+Libre:wght@300;400&family=Noto+Naskh+Arabic:wght@400&display=swap"><style id="sfm-css">
 .sfm{display:none}
-@media (max-width:760px){
+@media ${MQ}{
 .sfm{--bg:#F5F1EA;--ink:#111110;--sub:#4A463F;--mut:#6F695E;--line:rgba(17,17,16,.13);--tile:#111110;--tink:#FFFFFF;--tsub:#CFCAC0;--tmut:#A9A397;--ring:rgba(17,17,16,.32);--dot:#111110;--dotink:#FFFFFF;--hdr:rgba(245,241,234,.9);--hdrink:#111110;--logo:dk;--wa:#111110;--waink:#FFFFFF;--foot:#111110}
 .sfm[data-theme=noir]{--bg:#0B0B0C;--ink:#FFFFFF;--sub:#CFCAC0;--mut:#A9A397;--line:rgba(255,255,255,.14);--tile:#000000;--ring:rgba(255,255,255,.42);--dot:#000000;--hdr:rgba(11,11,12,.86);--hdrink:#FFFFFF;--wa:#FFFFFF;--waink:#0B0B0C;--foot:#0B0B0C}
 .sfm[data-theme=sand]{--bg:#E7DFD2;--ink:#1B1915;--sub:#4B453B;--mut:#6A6254;--line:rgba(27,25,21,.14);--tile:#2A2520;--ring:rgba(27,25,21,.32);--dot:#2A2520;--hdr:rgba(231,223,210,.9);--hdrink:#1B1915;--wa:#1B1915;--foot:#2A2520}
@@ -221,9 +223,52 @@ html:not(.sfm-dark) body:not(.menu-open) .top.scrolled .logo-img.lt{display:none
 .sfm[data-lang=he],.sfm[data-lang=ar]{direction:rtl}
 footer.site{background:var(--sfm-foot,#111110)!important;padding-bottom:96px!important}
 }
-@media (max-width:760px) and (prefers-reduced-motion:reduce){.sfm-t>img{transition:none}}
+@media ${MQ} and (prefers-reduced-motion:reduce){.sfm-t>img{transition:none}}
+${DESK ? `@media (min-width:761px){
+.sfm{--gut:max(48px,calc((100vw - 1280px)/2 + 48px))}
+.sfm-hero{height:100vh;max-height:980px;min-height:640px}
+.sfm-hc{left:var(--gut);right:var(--gut);max-width:none}
+.sfm-hc h1{font-size:clamp(72px,8.2vw,138px)!important}
+.sfm-l-top .sfm-hc h1{font-size:clamp(80px,9vw,150px)!important}
+.sfm-hc p{font-size:18px;max-width:46ch}
+.sfm .sfm-pill{height:50px;padding:0 28px;font-size:11.5px}
+.sfm-idx{justify-content:center;gap:30px;height:68px;padding:0 var(--gut)}
+.sfm-idx a{font-size:11.5px}
+.sfm-q{padding:96px var(--gut) 40px;flex-direction:row;align-items:flex-end;justify-content:space-between;gap:40px}
+.sfm-q h2{font-size:clamp(56px,6vw,96px)!important;text-align:end}
+.sfm-grid{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:330px;padding:0 var(--gut);gap:3px}
+.sfm-t{height:auto!important}
+.sfm-t.sfm-w{grid-column:span 2;grid-row:span 2}
+.sfm-tx{left:26px;right:26px;bottom:26px}
+.sfm-tx .sfm-tb{font-size:84px}
+.sfm-tx .sfm-d{font-size:40px}
+.sfm-blk{padding:30px 26px}
+.sfm-bt .sfm-d{font-size:44px}
+.sfm-bd{font-size:14px;max-width:30ch}
+.sfm-off{height:min(86vh,780px);margin:3px var(--gut) 0}
+.sfm-oc{inset:90px 15% 80px}
+.sfm-oc h2{font-size:clamp(72px,8vw,128px)}
+.sfm-oc p{font-size:16px;max-width:44ch}
+.sfm-col{padding-top:110px}
+.sfm-ch{padding:0 var(--gut) 30px}
+.sfm-ch h2{font-size:clamp(56px,6vw,96px)}
+.sfm-rail{padding:0 var(--gut) 6px;scroll-padding:0 var(--gut);gap:18px}
+.sfm-card{width:340px;max-width:none}
+.sfm-ct{font-size:26px}
+.sfm-stats{margin:110px var(--gut) 0}
+.sfm-stats div{padding:44px 0}
+.sfm-stats b{font-size:clamp(90px,9vw,150px)}
+.sfm-stats span{font-size:11px}
+.sfm-how{padding:120px var(--gut) 40px;display:grid;grid-template-columns:1.15fr 1fr;column-gap:72px;row-gap:18px;align-content:start}
+.sfm-how>img{grid-column:1;grid-row:1 / span 6;height:620px;margin:0}
+.sfm-how>*:not(img){grid-column:2}
+.sfm-how h2{font-size:clamp(52px,5vw,84px)!important}
+.sfm-how p{font-size:16px}
+.sfm-bar{left:auto;right:28px;bottom:28px;width:380px}
+body:not(.menu-open) .top .nav a{color:inherit}
+}` : ''}
 </style>`;
-    const js = `<script>(function(){if(!window.matchMedia||!matchMedia('(max-width:760px)').matches)return;var r=document.getElementById('sfm-root');if(!r)return;try{var q=(location.search.match(/[?&]t=([a-z]+)/)||[])[1];if(q&&/workers\.dev$/.test(location.hostname))r.setAttribute('data-theme',q)}catch(e){}var cs=getComputedStyle(r),de=document.documentElement;['bg','hdr','hdrink','foot'].forEach(function(k){de.style.setProperty('--sfm-'+k,cs.getPropertyValue('--'+k))});de.classList.add('sfm-pg');if(/noir|navy/.test(r.getAttribute('data-theme')))de.classList.add('sfm-dark');var t=document.querySelector('.top');if(t)document.documentElement.style.setProperty('--sfm-top',t.offsetHeight+'px');var mo=matchMedia('(prefers-reduced-motion:reduce)').matches;var vs=r.querySelectorAll('video[data-src]');function go(v){if(!v.src)v.src=v.getAttribute('data-src');var p=v.play();if(p&&p.catch)p.catch(function(){})}if(!mo){if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)go(e.target);else if(e.target.src)e.target.pause()})},{rootMargin:'150px'});vs.forEach(function(v){io.observe(v)})}else vs.forEach(go)}var b=r.querySelector('.sfm-bar'),h=r.querySelector('.sfm-hero');function sc(){if(b&&h)b.classList.toggle('sfm-hide',window.scrollY<h.offsetHeight*0.55)}window.addEventListener('scroll',sc,{passive:true});sc()})();</script>`;
+    const js = `<script>(function(){if(!window.matchMedia||(!matchMedia('(max-width:760px)').matches&&!document.getElementById('sfm-root').hasAttribute('data-desk')))return;var r=document.getElementById('sfm-root');if(!r)return;try{var q=(location.search.match(/[?&]t=([a-z]+)/)||[])[1];if(q&&/workers\.dev$/.test(location.hostname))r.setAttribute('data-theme',q)}catch(e){}var cs=getComputedStyle(r),de=document.documentElement;['bg','hdr','hdrink','foot'].forEach(function(k){de.style.setProperty('--sfm-'+k,cs.getPropertyValue('--'+k))});de.classList.add('sfm-pg');if(/noir|navy/.test(r.getAttribute('data-theme')))de.classList.add('sfm-dark');var t=document.querySelector('.top');if(t)document.documentElement.style.setProperty('--sfm-top',t.offsetHeight+'px');var mo=matchMedia('(prefers-reduced-motion:reduce)').matches;var vs=r.querySelectorAll('video[data-src]');function go(v){if(!v.src)v.src=v.getAttribute('data-src');var p=v.play();if(p&&p.catch)p.catch(function(){})}if(!mo){if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)go(e.target);else if(e.target.src)e.target.pause()})},{rootMargin:'150px'});vs.forEach(function(v){io.observe(v)})}else vs.forEach(go)}var b=r.querySelector('.sfm-bar'),h=r.querySelector('.sfm-hero');function sc(){if(b&&h)b.classList.toggle('sfm-hide',window.scrollY<h.offsetHeight*0.55)}window.addEventListener('scroll',sc,{passive:true});sc()})();</script>`;
     let out = html.replace(/(<main[^>]*>)/, '$1' + block);
     if (out === html) return html;
     out = out.replace('</head>', css + '</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, js + '</body>');
