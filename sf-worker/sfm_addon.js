@@ -62,6 +62,10 @@ function sfmCards(html, L, T, fromEn) {
   return out;
 }
 async function sfMob(path, html, ori, hv) {
+  try { html = sfRadar(path, html); } catch (e) {}
+  return sfMobHome(path, html, ori, hv);
+}
+async function sfMobHome(path, html, ori, hv) {
   try {
     const mm = path.match(/^\/(?:(en|tr|he|ar|zh|ru|fr|de|it)\/)?$/);
     if (!mm || html.indexOf('sfm-root') > -1) return html;
@@ -223,4 +227,68 @@ footer.site{background:var(--sfm-foot,#111110)!important;padding-bottom:96px!imp
     out = out.replace('</head>', css + '</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, js + '</body>');
     return out;
   } catch (e) { return html; }
+}
+
+// ===== Voula villa: live location radar (replaces the static map image) =====
+const SFR_HOUSE = [37.84557, 23.75701];
+const SFR_PTS = [
+  { k: 'tram', ll: [37.84965, 23.75255], d: '600 m' },
+  { k: 'beach', ll: [37.84967, 23.75036], d: '700 m' },
+  { k: 'gly', ll: [37.8600, 23.7525], d: '1.6 km' },
+  { k: 'marina', ll: [37.87084, 23.73332], d: '3.5 km' },
+  { k: 'astir', ll: [37.80916, 23.77360], d: '4.4 km' },
+  { k: 'lake', ll: [37.80773, 23.78571], d: '4.9 km' }
+];
+const SFR_N = {
+  el: { house: 'Το σπίτι', tram: 'Τραμ Ασκληπιείο', beach: 'Παραλία Βούλας', gly: 'Κέντρο Γλυφάδας', marina: 'Μαρίνα Γλυφάδας', astir: 'Astir Beach', lake: 'Λίμνη Βουλιαγμένης' },
+  en: { house: 'The house', tram: 'Asklipieio tram', beach: 'Voula Beach', gly: 'Glyfada centre', marina: 'Glyfada Marina', astir: 'Astir Beach', lake: 'Lake Vouliagmeni' },
+  he: { house: 'הבית', tram: 'רכבת קלה Asklipieio', beach: 'חוף וולה', gly: 'מרכז גליפדה', marina: 'מרינת גליפדה', astir: 'חוף אסטיר', lake: 'אגם ווליאגמני' },
+  tr: { house: 'Ev' }, ar: { house: 'المنزل' }, zh: { house: '房屋' }, ru: { house: 'Дом' }, fr: { house: 'La maison' }, de: { house: 'Das Haus' }, it: { house: 'La casa' }
+};
+function sfRadar(path, html) {
+  if (html.indexOf('/assets/img/voula/map.jpg') < 0 || html.indexOf('sfr-root') > -1) return html;
+  const L = (path.match(/^\/(en|tr|he|ar|zh|ru|fr|de|it)\//) || [])[1] || 'el';
+  const N = Object.assign({}, SFR_N.en, SFR_N[L] || {});
+  const cfg = JSON.stringify({ h: SFR_HOUSE, n: N.house, p: SFR_PTS.map((x) => ({ ll: x.ll, n: N[x.k], d: x.d })) }).replace(/</g, '\\u003c');
+  let done = false;
+  const out = html.replace(/<img[^>]*src="\/assets\/img\/voula\/map\.jpg"[^>]*>/, (m) => { done = true; return `<div class="sfr" id="sfr-root" data-cfg='${cfg.replace(/'/g, '&#39;')}'><div class="sfr-map" role="img" aria-label="${sfmEsc((m.match(/alt="([^"]*)"/) || [])[1] || 'Map')}"></div><noscript>${m}</noscript></div>`; });
+  if (!done) return html;
+  const css = `<style id="sfr-css">
+.sfr{position:relative;width:100%;height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
+.sfr-map{position:absolute;inset:0;background:#0b1a2b}
+.sfr .leaflet-tile-pane{filter:sepia(.35) hue-rotate(178deg) saturate(1.9) brightness(1.08) contrast(1.05)}
+.sfr .leaflet-container{background:#0b1a2b;font-family:Commissioner,system-ui,sans-serif}
+.sfr .leaflet-control-attribution{background:rgba(11,26,43,.7);color:#8fa3b8;font-size:9px}
+.sfr .leaflet-control-attribution a{color:#b8c7d6}
+.sfr .leaflet-control-zoom a{background:rgba(11,26,43,.85);color:#e8dcc2;border-color:rgba(232,220,194,.2)}
+.sfr-lb.leaflet-tooltip{background:rgba(11,26,43,.82);border:1px solid rgba(143,214,224,.35);color:#e9f3f5;border-radius:10px;padding:5px 9px;font-size:12px;line-height:1.25;box-shadow:0 6px 20px rgba(0,0,0,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.sfr-lb.leaflet-tooltip b{display:block;color:#8fd6e0;font-weight:500;font-size:11px;letter-spacing:.04em}
+.sfr-lb.leaflet-tooltip::before{display:none}
+.sfr-ring.leaflet-tooltip{background:none;border:0;box-shadow:none;color:#d9b76f;font-size:10px;letter-spacing:.18em;padding:0}
+.sfr-ring.leaflet-tooltip::before{display:none}
+.sfr-h{position:relative;width:0;height:0}
+.sfr-h i{position:absolute;left:-9px;top:-9px;width:18px;height:18px;border-radius:50%;background:#d9b76f;box-shadow:0 0 0 5px rgba(217,183,111,.25),0 0 24px rgba(217,183,111,.9)}
+.sfr-h s{position:absolute;left:-9px;top:-9px;width:18px;height:18px;border-radius:50%;border:2px solid rgba(217,183,111,.8);animation:sfrPing 2.6s cubic-bezier(.2,.6,.3,1) infinite}
+.sfr-h s+s{animation-delay:1.3s}
+.sfr-h u{position:absolute;left:-230px;top:-230px;width:460px;height:460px;border-radius:50%;background:conic-gradient(from 0deg,rgba(217,183,111,.32),rgba(217,183,111,.08) 40deg,rgba(217,183,111,0) 70deg,rgba(217,183,111,0));animation:sfrSweep 6s linear infinite;pointer-events:none;-webkit-mask:radial-gradient(circle,#000 0 69%,transparent 70%);mask:radial-gradient(circle,#000 0 69%,transparent 70%)}
+.sfr-h em{position:absolute;left:16px;top:-12px;white-space:nowrap;font-style:normal;font-family:'Literata',Georgia,serif;font-size:17px;color:#f3e6c8;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+[dir=rtl] .sfr-h em{left:auto;right:16px}
+@keyframes sfrPing{0%{transform:scale(1);opacity:.9}100%{transform:scale(7);opacity:0}}
+@keyframes sfrSweep{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.sfr-h s,.sfr-h u{animation:none}}
+.sfr.sfr-fail .sfr-map{display:none}
+</style>`;
+  const js = `<script>(function(){var r=document.getElementById('sfr-root');if(!r)return;var cfg;try{cfg=JSON.parse(r.getAttribute('data-cfg'))}catch(e){return}
+function fail(){r.classList.add('sfr-fail');var n=r.querySelector('noscript');if(n){var d=document.createElement('div');d.innerHTML=n.textContent;r.appendChild(d.firstChild)}}
+function css(h){var l=document.createElement('link');l.rel='stylesheet';l.href=h;document.head.appendChild(l)}
+function init(){var L=window.L;if(!L)return fail();var mob=matchMedia('(max-width:760px)').matches;
+var m=L.map(r.querySelector('.sfr-map'),{zoomControl:!mob,scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:false,attributionControl:true,zoomSnap:.25});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,attribution:'&copy; OpenStreetMap &copy; CARTO'}).addTo(m);
+var H=cfg.h;[1000,3000].forEach(function(rad){L.circle(H,{radius:rad,color:'#d9b76f',weight:1,opacity:.55,dashArray:'4 6',fill:rad===1000,fillColor:'#d9b76f',fillOpacity:.04,interactive:false}).addTo(m);var lat=H[0]+rad/111320;L.tooltip({permanent:true,direction:'center',className:'sfr-ring'}).setLatLng([lat,H[1]]).setContent(rad/1000+' km').addTo(m)});
+var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.ll[1]<H[1]?'left':'right',offset:[p.ll[1]<H[1]?-8:8,0],className:'sfr-lb'})});
+L.marker(H,{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<div class="sfr-h"><u></u><s></s><s></s><i></i><em>'+cfg.n+'</em></div>'}),zIndexOffset:1000}).addTo(m);
+m.fitBounds(L.latLngBounds(pts),{padding:mob?[34,34]:[56,56]});setTimeout(function(){m.invalidateSize()},300)}
+function load(){if(r.__l)return;r.__l=1;css('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css');var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;s.onerror=fail;document.head.appendChild(s)}
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){if(es[0].isIntersecting){io.disconnect();load()}},{rootMargin:'400px'});io.observe(r)}else load()})();</script>`;
+  return out.replace('</head>', css + '</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, js + '</body>');
 }
