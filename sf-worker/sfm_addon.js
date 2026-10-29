@@ -80,14 +80,14 @@ async function sfMob(path, html, ori, hv) {
     if (nums.length < 3) { try { nums = [...(await (await fetch(ori + '/', { cf: { cacheTtl: 300 } })).text()).matchAll(/data-count="(\d+)"/g)].map((x) => x[1]); } catch (e) {} }
     const wa = ((html.match(/<a[^>]*class="fab-wa"[^>]*>/) || [''])[0].match(/href="([^"]+)"/) || [])[1] || 'https://wa.me/306906723676';
     const circ = [['buy', T.buy], ['rent', T.rent], ['villas', T.villas], ['gv', 'Golden Visa'], ['yachts', 'Yachts'], ['private', T.private]]
-      .map(([k, n]) => `<a class="sfm-c" href="${K[k]}"><span><span>${n}</span></span></a>`).join('');
+      .map(([k, n]) => `<a href="${K[k]}">${n}</a>`).join('<span aria-hidden="true"></span>');
     const card = cards.map((c) => `<a class="sfm-card" href="${sfmEsc(c.href)}"><span class="sfm-ci">${c.img ? `<img src="${sfmEsc(c.img)}" alt="${sfmEsc(sfmTxt(c.title))}" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ''}</span><span class="sfm-lb">${sfmEsc(c.area)}${c.area ? ' · ' : ''}${sfmEsc(c.mode)}</span><span class="sfm-ct">${c.raw ? c.title : sfmEsc(c.title)}</span><span class="sfm-cp">${c.raw ? c.pr : sfmEsc(c.pr)}</span></a>`).join('');
     const stats = nums.length >= 3 ? `<section class="sfm-stats"><div><b>${nums[0]}</b><span>${T.s1}</span></div><div><b>${nums[1]}</b><span>${T.s2}</span></div><div><b>${nums[2]}</b><span>${T.s3}</span></div></section>` : '';
     const img = (k, w, h) => `<img src="${SFM_U(SFM_P[k], w, h)}" srcset="${SFM_U(SFM_P[k], w, h)} 1x, ${SFM_U(SFM_P[k], w * 2, h ? h * 2 : 0)} 2x" alt="" loading="lazy" decoding="async">`;
     const block = `<div class="sfm" id="sfm-root" data-lang="${L}" data-theme="${SFM_THEME}">
 <section class="sfm-hero sfm-l-${HV.lay}"><video class="sfm-v" muted loop playsinline preload="none" poster="${SFM_MEDIA}${HV.v}.jpg" data-src="${SFM_MEDIA}${HV.v}.mp4" aria-hidden="true"></video><div class="sfm-sh"></div>
 <div class="sfm-hc"><span class="sfm-k">ATHENS · RIVIERA · ISLANDS</span><h1 class="sfm-d">${h1}</h1><p>${T.sub}</p><div class="sfm-hb"><a class="sfm-pill sfm-pw" href="${K.all}">${HT[4]}</a><a class="sfm-pill" href="${K.own}">${T.own.replace(/<br>/g, ' ')}</a></div><a class="sfm-k sfm-down" href="#sfm-paths">${T.q_l} ↓</a></div></section>
-<nav class="sfm-circ" aria-label="${sfmEsc(T.q_l)}">${circ}</nav>
+<nav class="sfm-idx" aria-label="${sfmEsc(T.q_l)}">${circ}</nav>
 <section class="sfm-q" id="sfm-paths"><span class="sfm-k sfm-m">${T.q_l}</span><h2 class="sfm-d">${T.q_h}</h2></section>
 <section class="sfm-grid">
 <a class="sfm-t sfm-w" href="${K.buy}">${img('buy', 780, 600)}<span class="sfm-tx"><span class="sfm-d sfm-tb">${T.buy}</span><span class="sfm-k">${T.buy_s} ${ar}</span></span></a>
@@ -125,7 +125,7 @@ main>*:not(.sfm){display:none!important}
 .sfm-blk .sfm-d{color:var(--tink)}.sfm-blk .sfm-k{color:var(--tmut)}
 .sfm-v,.sfm-hero>img,.sfm-t>img,.sfm-off>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:#151517}
 .sfm-sh{position:absolute;inset:0;background:rgba(8,8,9,.42)}
-.sfm-hero{position:relative;height:100svh;min-height:560px;max-height:860px;overflow:hidden;margin-top:calc(-1 * var(--sfm-top,64px));background:#151517}
+.sfm-hero{position:relative;height:100svh;min-height:560px;max-height:860px;overflow:hidden;background:#151517}
 .sfm-hc{position:absolute;left:22px;right:22px;bottom:calc(36px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:16px}
 .sfm-hc h1{font-size:clamp(44px,13.6vw,58px)}
 .sfm-hc p{margin:0;font-size:15px;line-height:1.55;color:#ECE7DD;max-width:34ch}
@@ -144,11 +144,11 @@ main>*:not(.sfm){display:none!important}
 .sfm-l-top .sfm-sh{background:rgba(8,8,9,.34)}
 .sfm-hc .sfm-rule{display:none}
 .sfm-l-center .sfm-hc .sfm-down{left:0;right:0}
-.sfm-circ{display:flex;gap:14px;overflow-x:auto;padding:26px 18px 22px;border-bottom:1px solid var(--line);scrollbar-width:none}
-.sfm-circ::-webkit-scrollbar{display:none}
-.sfm-c{flex:none;width:72px;height:72px;border-radius:50%;border:1px solid var(--ring);padding:3px}
-.sfm-c>span{width:100%;height:100%;border-radius:50%;background:var(--dot);display:flex;align-items:center;justify-content:center;text-align:center;padding:6px}
-.sfm-c>span>span{font-family:'Noto Serif Display','Frank Ruhl Libre','Noto Naskh Arabic',Georgia,serif;font-stretch:72%;font-size:11px;line-height:1.1;letter-spacing:.04em;text-transform:uppercase;color:var(--dotink)}
+.sfm-idx{display:flex;align-items:center;gap:16px;overflow-x:auto;padding:0 22px;height:58px;border-bottom:1px solid var(--line);scrollbar-width:none;white-space:nowrap}
+.sfm-idx::-webkit-scrollbar{display:none}
+.sfm-idx a{flex:none;font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:400}
+.sfm-idx>span{flex:none;width:1px;height:14px;background:var(--line)}
+.sfm[data-lang=he] .sfm-idx a,.sfm[data-lang=ar] .sfm-idx a,.sfm[data-lang=zh] .sfm-idx a{letter-spacing:.04em;font-size:12.5px}
 .sfm-q{padding:42px 22px 22px;display:flex;flex-direction:column;gap:10px}
 .sfm-q h2{font-size:clamp(34px,10.4vw,44px)}
 .sfm-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:var(--bg)}
