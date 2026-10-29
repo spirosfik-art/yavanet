@@ -254,7 +254,7 @@ function sfRadar(path, html) {
   const out = html.replace(/<img[^>]*src="\/assets\/img\/voula\/map\.jpg"[^>]*>/, (m) => { done = true; return `<div class="sfr" id="sfr-root" data-cfg='${cfg.replace(/'/g, '&#39;')}'><div class="sfr-map" role="img" aria-label="${sfmEsc((m.match(/alt="([^"]*)"/) || [])[1] || 'Map')}"></div><noscript>${m}</noscript></div>`; });
   if (!done) return html;
   const css = `<style id="sfr-css">
-.xv-loc-map:has(#sfr-root){height:100%;min-height:440px}
+.xv-loc-map:has(#sfr-root){height:100%;min-height:440px;max-height:760px;position:sticky;top:90px}
 .sfr{position:relative;width:100%;height:100%;min-height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
 .sfr-map{position:absolute;inset:0;background:#0b1a2b}
 .sfr .sfr-base{filter:sepia(.45) hue-rotate(175deg) saturate(2.2) brightness(1.18) contrast(1.05)}
@@ -289,7 +289,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_D
 var H=cfg.h;[1000,3000].forEach(function(rad){L.circle(H,{radius:rad,color:'#d9b76f',weight:1,opacity:.55,dashArray:'4 6',fill:rad===1000,fillColor:'#d9b76f',fillOpacity:.04,interactive:false}).addTo(m);var lat=H[0]+rad/111320;L.tooltip({permanent:true,direction:'center',className:'sfr-ring'}).setLatLng([lat,H[1]]).setContent(rad/1000+' km').addTo(m)});
 var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.dir,offset:p.dir==='top'?[0,-8]:p.dir==='left'?[-8,0]:[8,0],className:'sfr-lb'})});
 L.marker(H,{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<div class="sfr-h"><u></u><s></s><s></s><i></i><em>'+cfg.n+'</em></div>'}),zIndexOffset:1000}).addTo(m);
-m.fitBounds(L.latLngBounds(pts),{padding:mob?[34,34]:[56,56]});setTimeout(function(){m.invalidateSize()},300)}
+var fit=function(){m.invalidateSize();m.fitBounds(L.latLngBounds(pts),{padding:mob?[40,40]:[90,90]})};fit();setTimeout(fit,350);window.addEventListener('resize',function(){clearTimeout(r.__t);r.__t=setTimeout(fit,250)})}
 function load(){if(r.__l)return;r.__l=1;css('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css');var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;s.onerror=fail;document.head.appendChild(s)}
 if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){if(es[0].isIntersecting){io.disconnect();load()}},{rootMargin:'400px'});io.observe(r)}else load()})();</script>`;
   return out.replace('</head>', css + '</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, js + '</body>');
