@@ -21,11 +21,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "fire"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10873517/pexels-photo-10873517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning view of a rocky coastline with clear turquoise waters in Greece.",
+    "credit": "Photo: Teodora Spasova / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bay-on-sea-shore-10873517/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
   },
   "meta": {
-    "imageQuery": "halkidiki pine forest coast"
+    "imageQuery": "halkidiki pine forest coast",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

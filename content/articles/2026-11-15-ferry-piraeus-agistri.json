@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35012760/pexels-photo-35012760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene view of a rocky island coastline with clear blue water in Agistri, Greece.",
+    "credit": "Photo: wyzigyt photos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/rocky-island-coastline-in-agistri-greece-35012760/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
-    "imageQuery": "agistri island ferry"
+    "imageQuery": "agistri island ferry",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

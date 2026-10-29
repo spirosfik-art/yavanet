@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/697671/pexels-photo-697671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful coastal view of Kos, Greece featuring a rocky island and vibrant blue waters.",
+    "credit": "Photo: Darrell Gough / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/rock-formation-on-the-island-697671/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "kos island road"
+    "imageQuery": "kos island road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

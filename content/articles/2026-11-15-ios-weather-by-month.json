@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30569030/pexels-photo-30569030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque alleyway on a Greek island with iconic white buildings and blue accents.",
+    "credit": "Photo: drB drB / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-greek-island-alleyway-with-white-buildings-30569030/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "ios island cyclades"
+    "imageQuery": "ios island cyclades",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

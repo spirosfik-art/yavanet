@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5339600/pexels-photo-5339600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a picturesque village in Karpathos, Greece, surrounded by mountains and sea.",
+    "credit": "Photo: tom analogicus / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-near-bay-5339600/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "karpathos coast sea"
+    "imageQuery": "karpathos coast sea",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

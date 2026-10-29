@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9323911/pexels-photo-9323911.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A tranquil view of clear turquoise waters and rocky coastlines in Milos, Greece with people swimming.",
+    "credit": "Photo: Edouard CHASSAIGNE / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/women-swimming-in-the-clear-water-of-the-sea-9323911/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "milos coast road"
+    "imageQuery": "milos coast road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",
