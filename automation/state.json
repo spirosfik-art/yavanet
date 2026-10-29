@@ -2107,7 +2107,9 @@
     "80d1ba836626": 1793257125445,
     "1b82a56ed930": 1793257125445,
     "bd0c043640f9": 1793257125445,
-    "1a2b7fd1d681": 1793257125445
+    "1a2b7fd1d681": 1793257125445,
+    "efa20c8bfd08": 1793258172865,
+    "2dfecc8b155d": 1793258172865
   },
   "pending": {
     "b14d99": {
@@ -2322,12 +2324,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-29T06:58:34.296Z",
+      "at": "2026-10-29T07:15:59.065Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-29T06:58:34.765Z",
+      "at": "2026-10-29T07:15:59.709Z",
       "items": 4
     },
     "civilprotection": {
@@ -2338,27 +2340,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-29T06:58:36.150Z",
+      "at": "2026-10-29T07:16:01.385Z",
       "items": 12
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-29T06:58:36.326Z",
+      "at": "2026-10-29T07:16:01.785Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-29T06:58:37.177Z",
+      "at": "2026-10-29T07:16:02.757Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-29T06:58:37.827Z",
+      "at": "2026-10-29T07:16:03.543Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-29T06:58:38.523Z",
+      "at": "2026-10-29T07:16:04.636Z",
       "items": 10
     },
     "toi-greece": {
@@ -2369,22 +2371,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-29T06:58:38.948Z",
+      "at": "2026-10-29T07:16:05.174Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-29T06:58:38.986Z",
+      "at": "2026-10-29T07:16:05.504Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-29T06:58:39.087Z",
-      "items": 4
+      "at": "2026-10-29T07:16:06.043Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-29T06:58:39.203Z",
+      "at": "2026-10-29T07:16:06.487Z",
       "items": 7
     },
     "ynet-greece": {
@@ -2394,12 +2396,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-29T06:58:35.250Z",
+      "at": "2026-10-29T07:16:00.403Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-29T06:58:39.708Z",
+      "at": "2026-10-29T07:16:07.215Z",
       "items": 0
     },
     "hcg": {
@@ -2410,32 +2412,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-29T06:58:40.905Z",
+      "at": "2026-10-29T07:16:08.760Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-29T06:58:41.600Z",
+      "at": "2026-10-29T07:16:09.029Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-29T06:58:41.783Z",
-      "items": 6
+      "at": "2026-10-29T07:16:09.211Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-29T06:58:42.054Z",
+      "at": "2026-10-29T07:16:09.614Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-29T06:58:42.348Z",
-      "items": 8
+      "at": "2026-10-29T07:16:10.509Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-29T06:58:42.770Z",
+      "at": "2026-10-29T07:16:10.863Z",
       "items": 15
     }
   },
@@ -2647,33 +2649,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-29T06:58:45.445Z",
-    "considered": 23,
-    "picked": 2,
+    "at": "2026-10-29T07:16:12.865Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· naftemporiki | Στο «τραπέζι» των ΗΠΑ η άρση των κυρώσεων στο κυριότερο ταμείο επενδύσεων της Ρωσίας",
-      "· gn-kathimerini | Θεωρείο: Πρωί πρωί στο μετρό - Kathimerini",
-      "· naftemporiki | Τα πρωτοσέλιδα των εφημερίδων σήμερα, Πέμπτη 29 Οκτωβρίου 2026",
-      "· ingr | Τα ΗΑΕ τίμησαν τον Ινδό πιλότο της FlyDubai – Σοκαριστικά τα τραύματά του από το τσεκούρι",
-      "· gct | Mayor Tom Tate Opens Gold Coast Greek Festival at HOTA",
-      "· gct | Oakleigh Grammar Celebrates Class of 2026 at Graduation Dinner",
-      "✓ naftemporiki | Τουρκική «απόβαση» στο ελληνικό real estate",
-      "· naftemporiki | 5,3 δισ. η αξία των επενδύσεων από ΑΕΕΑΠ",
-      "· naftemporiki | Ισραήλ: Νίκησε το πολιτικό αδιέξοδο",
-      "· naftemporiki | Χαμηλές πτήσεις εν όψει Fed",
-      "· naftemporiki | Χρηματιστήριο: «Μηχανή» ρευστότητας τα ομόλογα – Εκδόσεις άνω των 9,2 δισ. ευρώ από τις ει",
-      "· gn-kathimerini | Σκηνικό πολιτικής αβεβαιότητας στο Ισραήλ – Τα πέντε σενάρια για την επόμενη μέρα - Kathim",
-      "✓ ingr | Στο κόκκινο οι τιμές ρεύματος στην Ευρώπη με φόντο τα 300 ευρώ/MWh",
-      "· ingr | Μετασεισμικές δονήσεις στη ΝΔ ύστερα από την κριτική Καραμανλή",
-      "· gct | Evzones at the Australian War Memorial Honour Australian, Greek and Cypriot War Dead",
-      "· gct | FCDO Travel Advice Update for 13 Countries Including Turkey and Egypt",
-      "· gct | Olympic Airways Flight 411: The Day a Jumbo Jet Skimmed the Rooftops of Athens",
-      "· gct | Greece Unveils New Weapons Systems at Thessaloniki Military Parade",
-      "· ert | Ισραήλ: Υπηρεσιακός πρωθυπουργός ο Νετανιάχου – Ο πρόεδρος Χέρτζογκ καλεί να αποτραπούν νέ",
-      "· gct | Hellenic Navy Band Plays Mazonakis Hits as Thessaloniki Sings Along",
-      "· gct | Sakis Rouvas and Katerina Lioliou Open Enastron Season on Friday",
-      "· ingr | Βρετανία – προϋπολογισμός: Η κυβέρνηση φορολογεί τις τράπεζες για να στηρίξει καλύτερα τα ",
-      "· gn-civilprotection | Ο Γενικός Γραμματέας Πολιτικής Προστασίας Νίκος Παπαευσταθίου εκπρόσωπος της Κυβέρνησης στ"
+      "· naftemporiki | Τα συντρίμμια του Μπίμπι",
+      "· ingr | Ισραήλ: Η Αστυνομία διαψεύδει τους ισχυρισμούς Νετανιάχου ότι τα αραβικά κόμματα «έκλεψαν»"
     ]
   },
   "evergreenDone": [
