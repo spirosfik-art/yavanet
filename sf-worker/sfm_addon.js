@@ -62,7 +62,7 @@ function sfmCards(html, L, T, fromEn) {
   return out;
 }
 async function sfMob(path, html, ori, hv) {
-  try { html = sfRadar(path, html); } catch (e) {}
+  try { html = await sfVillaYachts(path, sfRadar(path, html)); } catch (e) {}
   return sfMobHome(path, html, ori, hv);
 }
 async function sfMobHome(path, html, ori, hv) {
@@ -256,7 +256,8 @@ function sfRadar(path, html) {
   const css = `<style id="sfr-css">
 .sfr{position:relative;width:100%;height:clamp(380px,62vh,620px);border-radius:inherit;overflow:hidden;background:#0b1a2b;isolation:isolate}
 .sfr-map{position:absolute;inset:0;background:#0b1a2b}
-.sfr .leaflet-tile-pane{filter:sepia(.35) hue-rotate(178deg) saturate(1.9) brightness(1.08) contrast(1.05)}
+.sfr .sfr-base{filter:sepia(.45) hue-rotate(175deg) saturate(2.2) brightness(1.18) contrast(1.05)}
+.sfr .sfr-ref{opacity:.75}
 .sfr .leaflet-container{background:#0b1a2b;font-family:Commissioner,system-ui,sans-serif}
 .sfr .leaflet-control-attribution{background:rgba(11,26,43,.7);color:#8fa3b8;font-size:9px}
 .sfr .leaflet-control-attribution a{color:#b8c7d6}
@@ -283,7 +284,7 @@ function fail(){r.classList.add('sfr-fail');var n=r.querySelector('noscript');if
 function css(h){var l=document.createElement('link');l.rel='stylesheet';l.href=h;document.head.appendChild(l)}
 function init(){var L=window.L;if(!L)return fail();var mob=matchMedia('(max-width:760px)').matches;
 var m=L.map(r.querySelector('.sfr-map'),{zoomControl:!mob,scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:false,attributionControl:true,zoomSnap:.25});
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,attribution:'&copy; OpenStreetMap &copy; CARTO'}).addTo(m);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-base',attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(m);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:18,className:'sfr-ref'}).addTo(m);
 var H=cfg.h;[1000,3000].forEach(function(rad){L.circle(H,{radius:rad,color:'#d9b76f',weight:1,opacity:.55,dashArray:'4 6',fill:rad===1000,fillColor:'#d9b76f',fillOpacity:.04,interactive:false}).addTo(m);var lat=H[0]+rad/111320;L.tooltip({permanent:true,direction:'center',className:'sfr-ring'}).setLatLng([lat,H[1]]).setContent(rad/1000+' km').addTo(m)});
 var pts=[H];cfg.p.forEach(function(p,i){pts.push(p.ll);L.polyline([H,p.ll],{color:'#8fd6e0',weight:1,opacity:.28,dashArray:'2 6',interactive:false}).addTo(m);L.circleMarker(p.ll,{radius:5,color:'#0b1a2b',weight:2,fillColor:'#8fd6e0',fillOpacity:1}).addTo(m).bindTooltip('<b>'+p.d+'</b>'+p.n,{permanent:true,direction:p.ll[1]<H[1]?'left':'right',offset:[p.ll[1]<H[1]?-8:8,0],className:'sfr-lb'})});
 L.marker(H,{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<div class="sfr-h"><u></u><s></s><s></s><i></i><em>'+cfg.n+'</em></div>'}),zIndexOffset:1000}).addTo(m);
@@ -291,4 +292,54 @@ m.fitBounds(L.latLngBounds(pts),{padding:mob?[34,34]:[56,56]});setTimeout(functi
 function load(){if(r.__l)return;r.__l=1;css('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css');var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;s.onerror=fail;document.head.appendChild(s)}
 if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){if(es[0].isIntersecting){io.disconnect();load()}},{rootMargin:'400px'});io.observe(r)}else load()})();</script>`;
   return out.replace('</head>', css + '</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, js + '</body>');
+}
+
+// ===== Voula villa: yachts strip at the end of the page =====
+const SFV_T = {
+  el: ['Το καλοκαίρι<br>συνεχίζεται στη θάλασσα.', 'Επιλεγμένα σκάφη προς πώληση, με πλήρη στοιχεία και φωτογραφίες. Επισκέψεις και δοκιμαστικός πλους κατόπιν ραντεβού.', 'Όλα τα σκάφη', 'μ.'],
+  en: ['The summer<br>continues at sea.', 'Selected yachts for sale, with full specifications and photos. Viewings and sea trials by appointment.', 'All yachts', 'm'],
+  he: ['הקיץ<br>ממשיך בים.', 'יאכטות נבחרות למכירה, עם מפרט מלא ותמונות. צפייה ושיט ניסיון בתיאום מראש.', 'כל היאכטות', 'מ׳'],
+  tr: ['Yaz<br>denizde devam ediyor.', 'Tam teknik özellikler ve fotoğraflarla seçkin satılık yatlar. Randevu ile ziyaret ve deneme seyri.', 'Tüm yatlar', 'm'],
+  ar: ['الصيف<br>يستمر في البحر.', 'يخوت مختارة للبيع مع مواصفات كاملة وصور. المعاينة والإبحار التجريبي بموعد مسبق.', 'كل اليخوت', 'م'],
+  zh: ['夏天，<br>在海上延续。', '精选出售游艇，附完整参数与照片。可预约看船及试航。', '全部游艇', '米'],
+  ru: ['Лето<br>продолжается в море.', 'Избранные яхты на продажу — с полными характеристиками и фото. Осмотр и пробный выход в море по записи.', 'Все яхты', 'м'],
+  fr: ['L’été<br>continue en mer.', 'Une sélection de yachts à vendre, avec fiches complètes et photos. Visites et essais en mer sur rendez-vous.', 'Tous les yachts', 'm'],
+  de: ['Der Sommer<br>geht auf See weiter.', 'Ausgewählte Yachten zum Verkauf, mit allen Daten und Fotos. Besichtigungen und Probefahrten nach Vereinbarung.', 'Alle Yachten', 'm'],
+  it: ['L’estate<br>continua in mare.', 'Yacht selezionati in vendita, con schede complete e foto. Visite e prove in mare su appuntamento.', 'Tutti gli yacht', 'm']
+};
+async function sfVillaYachts(path, html) {
+  if (html.indexOf('sfr-root') < 0 || html.indexOf('sfv-root') > -1 || typeof sfyData !== 'function') return html;
+  const L = (path.match(/^\/(en|tr|he|ar|zh|ru|fr|de|it)\//) || [])[1] || 'el', T = SFV_T[L];
+  const d = await sfyData();
+  const ys = (d.yachts || []).filter((y) => y.slug && y.slug !== 'ferretti-881-ansimar' && (y.img || y.images || []).length)
+    .map((y) => ({ y, len: parseFloat(String((y.stats && y.stats.Length) || '').replace(',', '.')) || 0 }))
+    .sort((a, b) => b.len - a.len).slice(0, 8);
+  if (!ys.length) return html;
+  const cards = ys.map(({ y, len }) => {
+    const im = (y.img && y.img[0] && (y.img[0].m || y.img[0].s)) || (y.images || [])[0];
+    const meta = [len ? len + ' ' + T[3] : '', y.year, y.location].filter(Boolean).map(sfmEsc).join(' · ');
+    return `<a class="sfv-c" href="/yachting/${sfmEsc(y.slug)}/"><span class="sfv-i"><img src="${sfmEsc(im)}" alt="${sfmEsc(y.title)}" loading="lazy" decoding="async"></span><span class="sfv-m">${meta}</span><span class="sfv-n">${sfmEsc(y.name || y.title)}</span><span class="sfv-md">${sfmEsc(y.model || '')}</span></a>`;
+  }).join('');
+  const all = L === 'el' ? '/skafi/' : '/yachting/';
+  const sec = `<section class="sfv" id="sfv-root"><div class="sfv-w"><div class="sfv-h"><div><span class="sfv-k">S.F. Yachting</span><h2>${T[0]}</h2><p>${T[1]}</p></div><a class="sfv-all" href="${all}">${T[2]} ${L === 'he' || L === 'ar' ? '←' : '→'}</a></div></div><div class="sfv-rail">${cards}</div></section>
+<style>
+.sfv{background:#0b1626;color:#f3ece0;padding:clamp(56px,8vw,110px) 0 clamp(56px,7vw,96px);border-top:1px solid rgba(243,236,224,.08)}
+.sfv-w{max-width:1240px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+.sfv-h{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+.sfv-k{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#d9b76f}
+.sfv h2{margin:14px 0 14px;font-family:'Literata',Georgia,serif;font-weight:400;font-size:clamp(34px,5vw,58px);line-height:1.04;color:#f3ece0}
+.sfv p{margin:0;max-width:52ch;font-size:15px;line-height:1.65;color:#b9c2cf}
+.sfv-all{flex:none;height:46px;padding:0 24px;border-radius:23px;border:1px solid rgba(217,183,111,.6);color:#f3ece0!important;text-decoration:none;display:inline-flex;align-items:center;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+.sfv-all:hover{background:#d9b76f;color:#0b1626!important}
+.sfv-rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 max(clamp(20px,4vw,40px),calc((100vw - 1240px)/2 + 40px)) 8px;scrollbar-width:thin;scrollbar-color:rgba(217,183,111,.4) transparent}
+.sfv-c{flex:none;width:min(78vw,320px);scroll-snap-align:start;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:10px}
+.sfv-i{display:block;aspect-ratio:4/5;overflow:hidden;border-radius:4px;background:#13233a}
+.sfv-i img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s ease}
+.sfv-c:hover .sfv-i img{transform:scale(1.04)}
+.sfv-m{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#d9b76f}
+.sfv-n{font-family:'Literata',Georgia,serif;font-size:22px;line-height:1.15;color:#f3ece0}
+.sfv-md{font-size:13px;color:#93a0b1}
+</style>`;
+  const i = html.search(/<footer[\s>]/);
+  return i < 0 ? html : html.slice(0, i) + sec + html.slice(i);
 }
