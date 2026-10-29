@@ -84,6 +84,11 @@ async function main() {
       if (old) yachts.push(old);
     }
   }
+  // ίδιο σκάφος καταχωρημένο δύο φορές στην πηγή (ίδιος τίτλος) → κρατάμε μία σελίδα, αυτή με τις περισσότερες φωτογραφίες
+  const seen = new Map();
+  for (const y of yachts) { const k = y.title.toLowerCase().replace(/\s+/g, " "); const o = seen.get(k); if (!o || y.images.length > o.images.length) seen.set(k, y); }
+  if (seen.size < yachts.length) log("διπλά:", yachts.length - seen.size);
+  yachts.splice(0, yachts.length, ...yachts.filter((y) => seen.get(y.title.toLowerCase().replace(/\s+/g, " ")) === y));
   const all = yachts.flatMap((y) => y.images);
   const sizes = await mediaSizes(all);
   for (const y of yachts) y.img = y.images.map((u) => sizes[u] || { s: u, m: u, l: u });
