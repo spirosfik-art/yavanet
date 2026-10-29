@@ -17,33 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "937e9f5597a3": 1792014846751,
-    "43be108f4ed8": 1792014846751,
-    "65d89ed8b0f1": 1792014846751,
-    "aacbf7775980": 1792014846751,
-    "d6b7f538febc": 1792014846751,
-    "6a4518ebdd46": 1792014846751,
-    "c70893bac879": 1792016042317,
-    "3e303eeb476c": 1792016042317,
-    "de24c72de6c2": 1792016042317,
-    "3d7db48ac63c": 1792017593172,
-    "45144ca4487c": 1792017593172,
-    "8d0de510967c": 1792017593172,
-    "ff330b4e25bf": 1792018925248,
-    "59e3613c62c5": 1792018925248,
-    "6d94fd3d8522": 1792018925248,
-    "50fec1a2bf73": 1792018925248,
-    "521e5b8f43f4": 1792020737604,
-    "3b635714714e": 1792020737604,
-    "1598bbc74f26": 1792020737604,
-    "e0148d974a9a": 1792020737604,
-    "923fbdeb3a67": 1792020737604,
-    "c20b013530f0": 1792020737604,
-    "bd7a3fd5d401": 1792020737604,
-    "b5c539bfb9cc": 1792020737604,
-    "6a2464322ff7": 1792020737604,
-    "94ee9e64ea27": 1792022279562,
-    "bc5c69a3f2d0": 1792023389586,
     "e128ea6ccc3c": 1792026175291,
     "26f31fb0e133": 1792026175291,
     "b33fe692dcc9": 1792028166285,
@@ -2134,39 +2107,51 @@
     "74405006ed5d": 1793223942201,
     "1ef606be3056": 1793223942201,
     "28b7ccf5a70c": 1793223942201,
-    "d106dbee4394": 1793223942201
+    "d106dbee4394": 1793223942201,
+    "5673ede4da82": 1793234968714,
+    "a62f840678f1": 1793234968714,
+    "de5bbe6cc82b": 1793234968714,
+    "31ceeec385c2": 1793234968714,
+    "64db2231d1cc": 1793234968714,
+    "721a65f4372c": 1793234968714,
+    "595526a1810a": 1793234968714,
+    "f16ede23edd5": 1793234968714,
+    "8c95727a0bed": 1793234968714,
+    "6d49b001537c": 1793234968714,
+    "7dd64bbe0012": 1793234968714,
+    "aba9c31bad62": 1793234968714
   },
   "pending": {
-    "0c7f82": {
-      "createdAt": 1793221180767,
+    "d5a1a7": {
+      "createdAt": 1793234987064,
       "item": {
-        "title": "Συναγερμός για διαρροή αερίου από βυτιοφόρο όχημα στον Ασπρόπυργο",
-        "url": "https://www.naftemporiki.gr/society/2181455/synagermos-gia-diarroi-aerioy-apo-vytioforo-ochima-ston-aspropyrgo/?utm_source=rss&utm_medium=rss&utm_campaign=synagermos-gia-diarroi-aerioy-apo-vytioforo-ochima-ston-aspropyrgo",
-        "summary": "Σε εξέλιξη βρίσκεται επιχείρηση κατάσβεσης της πυρκαγιάς, έπειτα από διαρροή προπανίου σε βυτιοφόρο όχημα που βρίσκεται σε υπαίθριο χώρο στάθμευσης φορτηγών στον Ασπροπυργο Αττικής,\nΣτο σημείο έχουν μεταβεί 27 πυροσβέστες…\n Συναγερμός για διαρροή αερίου από βυτιοφόρο όχημα στον Ασπρόπυργο - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-        "published": "Wed, 28 Oct 2026 18:16:58 +0000",
-        "id": "37b84bcbd3e6",
-        "sourceId": "naftemporiki",
-        "sourceName": "Ναυτεμπορική",
+        "title": "Greece and Turkey Trade NAVTEX Over Cable Survey Off Crete",
+        "url": "https://greekcitytimes.com/2026/10/29/navtex-southeast-of-crete/",
+        "summary": "Greece and Turkey have traded rival NAVTEX southeast of Crete over a ship surveying the route of a fibre-optic cable linking Asia and Europe.\n The post Greece and Turkey Trade NAVTEX Over Cable Survey Off Crete appeared first on Greek City Times .",
+        "published": "Wed, 28 Oct 2026 23:34:03 +0000",
+        "id": "5673ede4da82",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "37b84bcbd3e6",
-        "section": "travel",
-        "priority": 8,
+        "id": "5673ede4da82",
+        "section": "israelis",
+        "priority": 7,
         "sensitive": true,
-        "breaking": true,
-        "reason": "Gas leak and fire from a tanker truck in Aspropyrgos near Athens presents a public safety and transit hazard for travelers and residents in the capital area.",
+        "breaking": false,
+        "reason": "Greece and Turkey trading NAVTEX over cable surveys near Crete affects regional stability, which matters to Israelis tracking Eastern Mediterranean geopolitics.",
         "item": {
-          "title": "Συναγερμός για διαρροή αερίου από βυτιοφόρο όχημα στον Ασπρόπυργο",
-          "url": "https://www.naftemporiki.gr/society/2181455/synagermos-gia-diarroi-aerioy-apo-vytioforo-ochima-ston-aspropyrgo/?utm_source=rss&utm_medium=rss&utm_campaign=synagermos-gia-diarroi-aerioy-apo-vytioforo-ochima-ston-aspropyrgo",
-          "summary": "Σε εξέλιξη βρίσκεται επιχείρηση κατάσβεσης της πυρκαγιάς, έπειτα από διαρροή προπανίου σε βυτιοφόρο όχημα που βρίσκεται σε υπαίθριο χώρο στάθμευσης φορτηγών στον Ασπροπυργο Αττικής,\nΣτο σημείο έχουν μεταβεί 27 πυροσβέστες…\n Συναγερμός για διαρροή αερίου από βυτιοφόρο όχημα στον Ασπρόπυργο - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
-          "published": "Wed, 28 Oct 2026 18:16:58 +0000",
-          "id": "37b84bcbd3e6",
-          "sourceId": "naftemporiki",
-          "sourceName": "Ναυτεμπορική",
+          "title": "Greece and Turkey Trade NAVTEX Over Cable Survey Off Crete",
+          "url": "https://greekcitytimes.com/2026/10/29/navtex-southeast-of-crete/",
+          "summary": "Greece and Turkey have traded rival NAVTEX southeast of Crete over a ship surveying the route of a fibre-optic cable linking Asia and Europe.\n The post Greece and Turkey Trade NAVTEX Over Cable Survey Off Crete appeared first on Greek City Times .",
+          "published": "Wed, 28 Oct 2026 23:34:03 +0000",
+          "id": "5673ede4da82",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -2174,71 +2159,167 @@
         }
       },
       "draft": {
-        "slug": "gas-leak-aspropyrgos-athens-october-2026",
-        "section": "travel",
+        "slug": "navtex-dispute-southeast-of-crete",
+        "section": "israelis",
         "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 38.0645,
-          "lng": 23.5935
-        },
+        "breaking": false,
+        "geo": null,
         "strike": null,
         "alert": {
-          "he": "דליפת גז",
-          "en": "Gas Leak"
+          "he": "מתיחות בים",
+          "en": "Sea Tensions"
         },
-        "imageKey": "fire",
-        "imageQuery": "firefighter water truck response",
+        "imageKey": "sea",
+        "imageQuery": "mediterranean sea ship horizon",
         "he": {
-          "title": "דליפת גז באספרופירגוס: כוחות כיבוי אש פועלים בשטח",
-          "seoTitle": "דליפת גז ביוון: אירוע חירום באספרופירגוס סמוך לאתונה",
-          "seoDesc": "דליפת גז ממכלית ביוון: כוחות כיבוי אש פועלים באספרופירגוס. כל המידע המעודכן לישראלים הנמצאים באזור אתונה והסביבה.",
+          "title": "חילופי אזהרות ימיות בין יוון לטורקיה באזור כרתים",
+          "seoTitle": "עימות ימי ביוון: אזהרות דרומית לכרתים",
+          "seoDesc": "יוון וטורקיה החליפו הודעות NAVTEX דרומית לכרתים סביב עבודות הנחת כבל תקשורת תת-ימי. כל הפרטים המעניינים את הישראלים ביוון.",
           "keywords": [
             "יוון",
-            "אתונה",
-            "חדשות יוון",
-            "אספרופירגוס",
-            "דליפת גז יוון"
+            "כרתים",
+            "אזהרות ימיות יוון",
+            "יוון טורקיה"
           ],
-          "dek": "כוחות גדולים של שירות הכבאות הגיבו לדיווח על דליפת גז ממכלית באזור חניית המשאיות באספרופירגוס שבאטיקה.",
+          "dek": "אתונה ואנקרה פרסמו הודעות ימיות מנוגדות על רקע פעילות של ספינת מחקר הממפה את קרקעית הים דרומית לכרתים.",
           "tldr": [
-            "דליפת גז אירעה במכלית באספרופירגוס אחר הצהריים.",
-            "25 כבאים עם תשעה רכבים הוזנקו לטפל באירוע.",
-            "הכוחות מבצעים פעולות קירור מונעות במקום."
+            "יוון וטורקיה פרסמו אזהרות ימיות (NAVTEX) סותרות דרומית לכרתים.",
+            "המחלוקת קשורה לספינת מחקר הממפה את תוואי הכבל התת-ימי המחבר בין אסיה לאירופה.",
+            "אתונה עוקבת מקרוב גם אחר כוונות ספינת מחקר נוספת לפעול באזור עבור פרויקט חשמל."
           ],
-          "means": "עבור ישראלים הנמצאים באתונה ובסביבתה, האירוע מרוכז כרגע באזור חניית המשאיות באספרופירגוס ואינו פוגע נכון לעכשיו בשגרת התיירות או בטיסות. מומלץ להתעדכן באמצעי התקשורת המקומיים ולהתרחק ממוקדי חירום במידת הצורך.",
-          "body": "## פרטי האירוע באספרופירגוס\n\nבסביבות השעה 18:15 בערב, התקבל דיווח במרכז המבצעים של שירות הכבאות אודות דליפת גז ממכלית בתוך חניון משאיות הממוקם באספרופירגוס שבמחוז אטיקה. האירוע התרחש בשעות אחר הצהריים והביא להקפצה מיידית של כוחות כיבוי ההצלה אל המקום.\n\n## פעולות כוחות הכיבוי בשטח\n\nעם קבלת הקריאה, הוזנקו אל הזירה 25 לוחמי אש המצוידים בתשעה רכבי כיבוי והצלה. הצוותים פועלים במקום באופן מונע, ומבצעים המטרת מים ממוקדת כדי לקרר את האזור שממנו נפלט הגז ולמנוע סיכונים נוספים. במקביל, גורמים רשמיים נוספים התגייסו לטיפול באירוע.\n\n## הנחיות והשפעה על תיירים ומטיילים\n\nהאירוע מנוהל על ידי הרשויות המקומיות באזור התעשייה של אספרופירגוס, מחוץ למרכז התיירותי של אתונה. נכון לשלב זה, לא דווח על שיבושים בטיסות, בתחבורה הציבורית או במוקדי התיירות המרכזיים בעיר. מי שנמצא באזור מתבקש להישמע להנחיות כוחות הביטחון וההצלה המקומיים.\n\n## שאלות נפוצות\n\n**האם יש השפעה על הטיסות לאתונה?**\nלא התקבלו דיווחים על פגיעה בפעילות נמל התעופה או בטיסות בין ישראל ליוון בעקבות האירוע.\n\n**היכן בדיוק אירעה דליפת הגז?**\nהדליפה התרחשה במכלית בתוך מתחם חניית משאיות באספרופירגוס שבמחוז אטיקה.\n\n**מה עושים כוחות ההצלה בשטח?**\nלוחמי האש פועלים באמצעים מונעים הכוללים מתן מים לצורך קירור נקודת הדליפה."
+          "means": "עבור הישראלים המטיילים, המשקיעים או החיים ביוון, מדובר כרגע באירוע דיפלומטי וימי שאינו משפיע על טיסות, מעבורות או שגרת החיים במדינה. אין שום הנחיות מיוחדות לציבור, והתנועה בנמלים ובשמים מתנהלת כסדרה.",
+          "body": "## רקע על העימות הימי דרומית לכרתים\n\nיוון וטורקיה פרסמו השבוע הודעות ימיות מתחרות, המכונות NAVTEX, באזור הימי שדרומית לכרתים. המחלוקת פרצה סביב פעילותה של ספינת מחקר הנושאת את דגל בהאמה, ה-KOBI RUEGG, המבצעת מיפוי של קרקעית הים לצורך פרויקט כבל תקשורת עתידני המיועד לחבר בין אסיה לאירופה דרך סעודיה ויוון. הספינה פועלת בהתאם להיתר רשמי שהעניקו הרשויות ביוון בתחילת חודש אוקטובר.\n\nמנגד, תחנת אנטליה בטורקיה פרסמה אזהרה משלה וטענה כי העבודות מתבצעות באזור של לדעת אנקרה מצוי במדף היבשת הטורקי, תוך שהיא מסתמכת על מכתב חד-צדדי שנשלח לאו\"ם בשנת 2020. בתגובה לכך, תחנת הרקליון בכרתים דחתה את ההודעה הטורקית וקבעה כי היא הונפקה על ידי גורם לא מוסמך, וכי קואורדינטות העבודה נופלות על גבי המדף היבשת הכלכלי הבלעדי של יוון. הרשויות ביוון האריכו את תוקף פעילות הספינה עד לתאריך 6 בנובמבר.\n\n## השלכות על תשתיות אזוריות ופרויקטים עתידיים\n\nהמתיחות סביב תוואי הכבל התת-ימי משקפת מאבק רחב יותר על השליטה וההשפעה באזור האנרגיה והתקשורת במזרח הים התיכון. הכבל המדובר, הידוע כ-East to Med Data Corridor, כולל גם השקעה משמעותית של חברת החשמל היוונית PPC. מעבר לכך, באתונה מודאגים מהתפתחויות דומות הצפויות בקרוב, כאשר ספינה צרפתית צפויה לחדש את עבודות הסקר עבור פרויקט חיבור החשמל Great Sea Interconnector שנועד לחבר בין כרתים לקפריסין.\n\nמערכת ה-NAVTEX משמשת ככלי אוטומטי להעברת הודעות בטיחות ימיות, אך בשנים האחרונות שתי המדינות משתמשות בה לעיתים קרובות כדי לגבות את טענותיהן הריבוניות בים. הרשויות היווניות ממשיכות לעקוב מקרוב אחר התנועות הימיות באזור כדי להבטיח את שמירת החוק והסדר הימי באזור הכלכלי הבלעדי שלהן.\n\n## שאלות נפוצות\n\n**האם יש שינוי בלוחות הזמנים של הטיסות לכרתים או ליעדים אחרים ביוון?**\nלא, הפעילות האווירית והימית האזרחית מתנהלת כסדרה ואין שום השפעה על טיסות או מעבורות.\n\n**האם המתיחות הימית הזו דורשת היערכות מיוחדת מצד תיירים או ישראלים השוהים במקום?**\nמדובר בסכסוך דיפלומטי וימי מקצועי בלבד. אין שום הנחיות ביטחוניות או אזהרות מסע חדשות מטעם הרשויות בישראל או ביוון עבור האזרחים.\n\n**האם צפויות הפרעות לתנועת התיירים ביוון בעקבות האירוע?**\nלא. שגרת התיירות והעסקים ביוון ובאיים נמשכת ללא שום שינוי."
         },
         "en": {
-          "title": "Gas Leak from Tanker in Aspropyrgos Prompts Fire Service Response",
-          "seoTitle": "Gas Leak in Greece: Aspropyrgos Incident Near Athens",
-          "seoDesc": "Emergency response to a gas leak from a tanker in Aspropyrgos, Attica. Essential updates and safety details for travelers in the Athens area.",
+          "title": "Greece and Turkey Issue Rival Navigational Warnings Near Crete",
+          "seoTitle": "Greece Turkey NAVTEX Dispute Southeast of Crete",
+          "seoDesc": "Greece and Turkey traded rival NAVTEX notices southeast of Crete over seabed surveys for a fibre-optic cable. What Israelis need to know.",
           "keywords": [
-            "Greece news",
-            "Athens news",
-            "Aspropyrgos gas leak",
-            "Greece emergency",
-            "Athens travel update"
+            "Greece",
+            "Crete",
+            "NAVTEX",
+            "Greece Turkey"
           ],
-          "dek": "Firefighters rushed to a truck parking area in Aspropyrgos, Attica, following reports of a gas leak from a tanker vehicle.",
+          "dek": "Athens and Ankara have published opposing maritime notices regarding seabed mapping for a fibre-optic cable project linking Asia and Europe.",
           "tldr": [
-            "A gas leak occurred from a tanker in Aspropyrgos.",
-            "The Fire Service Operations Center was alerted in the evening.",
-            "Twenty-five firefighters with nine vehicles are handling the situation preventively."
+            "Greece and Turkey issued conflicting NAVTEX warnings southeast of Crete.",
+            "The dispute involves survey work for a fibre-optic cable connecting Saudi Arabia to Europe.",
+            "Greek authorities extended the survey authorization as officials monitor for potential further actions."
           ],
-          "means": "For Israeli travelers and residents in the Athens area, the incident is contained in the Aspropyrgos industrial and parking zone. Normal tourist activities and flights are unaffected, but visitors should monitor local updates and follow instructions from emergency authorities.",
-          "body": "## Incident Details in Aspropyrgos\n\nIn the late afternoon, the Operations Center of the Fire Service received an alert regarding a gas leak originating from a tanker vehicle parked at a truck parking lot in Aspropyrgos, Attica. Emergency teams were dispatched immediately to secure the perimeter and manage the situation.\n\n## Fire Service Response\n\nA total of 25 firefighters equipped with nine response vehicles rushed to the scene. The firefighting units are conducting preventive operations, applying water jets to cool down the specific area where the leak is originating. Relevant official authorities have also mobilized to address the incident safely.\n\n## Impact on Visitors and Locals\n\nThe operation is taking place in Aspropyrgos, well outside the main tourist centers of Athens. At this time, there are no reported disruptions to public transport, flights, or everyday activities in central Athens. Travelers in the wider region are advised to stay informed through official channels.\n\n## FAQ\n\n**Are flights to Athens affected by the leak?**\nNo disruptions to airport operations or flights between Israel and Greece have been reported.\n\n**Where did the gas leak take place?**\nThe incident occurred at a truck parking area in Aspropyrgos, Attica.\n\n**What are the fire crews doing at the scene?**\nFirefighters are taking preventive measures by spraying water to cool the area of the leak."
+          "means": "For Israelis visiting, investing, or living in Greece, this is a diplomatic and maritime matter that does not impact commercial flights, ferries, or daily life. No special actions or precautions are required.",
+          "body": "## Maritime Notices Traded Southeast of Crete\n\nGreece and Turkey have exchanged rival navigational warnings, known as NAVTEX, concerning maritime zones southeast of Crete. The diplomatic friction arose as the Bahamas-flagged vessel KOBI RUEGG conducts seabed mapping for a planned fibre-optic cable designed to link Asia and Europe via Saudi Arabia and Greece. The research ship operates under a valid permit issued by Greek authorities.\n\nIn response, Turkey’s Antalya station issued a notice claiming the surveys occur within the Turkish continental shelf, citing a unilateral letter sent to the United Nations in 2020. Athens countered by declaring the Turkish notice null and void, stating it originated from an unauthorized station and fell within the Greek continental shelf and exclusive economic zone. Greek authorities subsequently extended the survey authorization until November 6.\n\n## Broader Regional Infrastructure Implications\n\nThis dispute highlights ongoing maritime claims in the Eastern Mediterranean regarding major connectivity projects. The survey vessel is mapping the route for the East to Med Data Corridor, in which Greece’s PPC holds a stake. Furthermore, Greek officials remain vigilant as another survey vessel is expected to resume work nearby for the Great Sea Interconnector power link connecting Crete and Cyprus.\n\nWhile NAVTEX broadcasts serve as standard automated safety alerts for mariners, both nations frequently utilize them to assert competing sovereignty claims at sea. Greek authorities continue to oversee maritime traffic in the region closely to ensure adherence to established legal boundaries.\n\n## FAQ\n\n**Are flights and ferries to Crete and Greece operating normally?**\nYes, civilian air and maritime traffic continues as scheduled with no disruptions reported.\n\n**Do these maritime tensions require any safety precautions for travelers?**\nNo. This is an official maritime and diplomatic matter between states, and no travel warnings or safety alerts have been issued for visitors.\n\n**Will this dispute affect daily tourism or business in Greece?**\nNo. Daily life, business operations, and tourism across the country and the islands proceed without any changes."
         }
       },
-      "text": "Διαρροή αερίου από βυτιοφόρο όχημα σημειώθηκε το απόγευμα της Τετάρτης 28 Οκτωβρίου, σε χώρο στάθμευσης φορτηγών στον Ασπρόπυργο Αττικής.\n Το Κέντρο Επιχειρήσεων του Πυροσβεστικού Σώματος ενημερώθηκε για το περιστατικό περίπου στις 18:15. Στο σημείο έχουν σπεύσει 25 πυροσβέστες με εννέα οχήματα.\n Οι πυροσβεστικές δυνάμεις επιχειρούν προληπτικά, πραγματοποιώντας ρίψη νερού για την ψύξη του σημείου από όπου σημειώνεται η διαρροή.\n Για την αντιμετώπιση του περιστατικού έχουν επίσης κινητοποιηθεί οι αρμόδιοι φορείς.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 28/10/2026 - 6:07 \n Επεισόδια στο κέντρο της Θεσσαλονίκης με αφορμή ομιλία του Κασιδιάρη\n 28/10/2026 - 3:12 \n Κακοκαιρία στη Μαγνησία: Πλημμύρες, κατολισθήσεις και κλειστοί δρόμοι στη Σκιάθο – Μήνυμα από το 112 στον Πλατανιά\n 28/10/2026 - 2:32 \n Κακοκαιρία: Χάος στο νότιο Πήλιο – 112 στον Πλατανιά για πλημμύρες, «ανεβείτε στους ψηλότερους ορόφους»\n 28/10/2026 - 2:15 \n Αθήνα: Υπό έλεγχο φωτιά σε κατάστημα στη Μενάνδρου\n 28/10/2026 - 2:00 \n 28η Οκτωβρίου: «Η ελευθερία δεν χαρίζεται» – Το μήνυμα του πιλότου του F-16 «Ζευς» στη Θεσσαλονίκη\n 28/10/2026 - 12:24 \n Αθήνα: Άνοιξε το μετρό στο Σύνταγμα – Είχε κλείσει λόγω της παρέλασης\n 28/10/2026 - 11:36 \n 28η Οκτωβρίου: Ολοκληρώθηκε η μαθητική παρέλαση στην Αθήνα\n 28/10/2026 - 11:26 \n «Χωριάτικο»: Νεκροί και «πρόσωπα-φαντάσματα» στους αχυρανθρώπους – Τα «κραγιονάκια» και ο αρχηγός με το επίδομα ανεργίας\n 28/10/2026 - 10:50 \n Θεσσαλονίκη: Συγκίνηση και υπερηφάνεια στη στρατιωτική παρέλαση – Η «Ασπίδα του Αχιλλέα» και το F-16 «Ζευς» (φωτογραφίες, βίντεο)\n 28/10/2026 - 10:02 \n Έπος του ’40: Πόντιοι, Μικρασιάτες και Αρμένιοι στην πρώτη γραμμή της ελευθερίας\n 28/10/2026 - 9:56 \n Θεσσαλονίκη: Απαγορεύονται οι δημόσιες συναθροίσεις\n 28/10/2026 - 9:35 \n Πρεσβεία Ισραήλ για την 28η Οκτωβρίου: Η Ελλάδα βρέθηκε στη σωστή πλευρά της Ιστορίας – Πρωτοβουλία για ετήσια διάκριση\n Περισσότερα",
+      "text": "File photo: The coastline near Xerokampos in south-east Crete, June 2016. Photo: Oksana Gkizi / Wikimedia Commons (CC BY-SA 4.0) \n 0 \n 0 \n 0 \n Greece and Turkey have traded rival NAVTEX southeast of Crete over a survey ship mapping the seabed for a fibre-optic cable meant to link Asia and Europe. \n The Bahamas-flagged KOBI RUEGG is carrying out the work under a Greek permit issued on 2 October. That cable would run from Saudi Arabia to Europe via Greece.\n On Tuesday, 27 October, the Heraklion station on Crete issued two navigational warnings. The first declared a Turkish notice on the ship’s work “null and void”.\n According to the Greek warning, the Turkish notice came from an “unauthorised station”. In addition, most of its coordinates lie within the Greek continental shelf and exclusive economic zone (EEZ).\n Read more: Ankara Challenges Who Issues Sea Warnings Off Kastellorizo \n The second Greek NAVTEX southeast of Crete extended the survey warning until 6 November. It asked passing ships to keep two nautical miles away from the vessel.\n Ankara answers NAVTEX southeast of Crete\n Turkey responded on Wednesday morning with a new warning from its Antalya station. It said the surveys take place “with the consent of the Republic of Türkiye” on what Ankara considers its own continental shelf.\n To back its position, Ankara cited a unilateral letter that Turkey sent to the United Nations in March 2020. It also dismissed the Greek notices as “unfounded claims” and insisted that its earlier warning remains valid.\n The KOBI RUEGG continues its planned survey. It had applied to Greek authorities for permission before starting work.\n This is not the first such clash this month. Earlier in October, Athens rejected a similar Turkish survey notice in the region.\n Why Athens is watching the cable row\n Turkish media identify the cable as the East to Med Data Corridor (EMC), in which Greece’s PPC holds a 25% stake. The project also forms part of the wider India–Middle East–Europe Economic Corridor .\n However, the bigger concern for Athens lies nearby. The French-flagged Abeille Marengo is due to issue its own NAVTEX southeast of Crete within days, as it resumes surveys in almost the same waters.\n That ship has reached Greek waters to survey the route of the Great Sea Interconnector , the power link meant to connect Crete and Cyprus. As a result, Greek officials are watching closely for any Turkish reaction.\n A NAVTEX is an automated maritime safety broadcast. However, Athens and Ankara often use rival NAVTEX southeast of Crete and elsewhere to push competing claims at sea.\n Source: Proto Thema \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Rejects Turkish Permission Demand as Cyprus-Crete Power Cable Surveys Near Restart \n Turkey Offers Egypt Maritime Deal, Claims Better Terms Than Greece \n Greece-Cyprus Cable Slips Again as Nexans Eyes 2028 Restart and 2031 Completion \n Greece Challenges Turkish-Libyan Memorandum at UN \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Grid Operator Targets 75,000 Hidden Electricity Meters With Power Cuts\n No Newer Articles \n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Διαρροή αερίου από βυτιοφόρο στον Ασπρόπυργο κινητοποίησε την Πυροσβεστική",
-        "dek": "Πυροσβέστες έσπευσαν σε χώρο στάθμευσης φορτηγών στον Ασπρόπυργο Αττικής, μετά από αναφορές για διαρροή αερίου από βυτιοφόρο όχημα.",
+        "title": "Ελλάδα και Τουρκία εκδίδουν αντίπαλες ναυτικές οδηγίες κοντά στην Κρήτη",
+        "dek": "Αθήνα και Άγκυρα δημοσίευσαν αντίθετες θαλάσσιες ειδοποιήσεις σχετικά με τη χαρτογράφηση του βυθού για έργο οπτικών ινών που συνδέει την Ασία με την Ευρώπη.",
         "tldr": [
-          "Συνέβη διαρροή αερίου από βυτιοφόρο στον Ασπρόπυργο.",
-          "Το Κέντρο Επιχειρήσεων της Πυροσβεστικής ειδοποιήθηκε το βράδυ.",
-          "Είκοσι πέντε πυροσβέστες με εννέα οχήματα αντιμετωπίζουν την κατάσταση προληπτικά."
+          "Ελλάδα και Τουρκία εξέδωσαν συγκρουόμενες προειδοποιήσεις NAVTEX νοτιοανατολικά της Κρήτης.",
+          "Η διαφορά αφορά εργασίες έρευνας για καλώδιο οπτικών ινών που συνδέει τη Σαουδική Αραβία με την Ευρώπη.",
+          "Οι ελληνικές αρχές παρέτειναν την άδεια ερευνών, καθώς οι αξιωματούχοι παρακολουθούν την κατάσταση για τυχόν περαιτέρω ενέργειες."
+        ]
+      },
+      "notified": true
+    },
+    "1dbc7d": {
+      "createdAt": 1793235022126,
+      "item": {
+        "title": "Greek Tax Office Lines Up 69 Property Auctions",
+        "url": "https://greekcitytimes.com/2026/10/29/tax-debt-auctions/",
+        "summary": "Greece's grid operator plans power cuts and mandatory smart meters for about 75,000 hidden electricity meters left unread for over a year.\n The post Greek Tax Office Lines Up 69 Property Auctions appeared first on Greek City Times .",
+        "published": "Wed, 28 Oct 2026 23:01:05 +0000",
+        "id": "f16ede23edd5",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "f16ede23edd5",
+        "section": "real-estate",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greek tax office launching 69 property auctions is relevant to Israeli investors tracking Greek real estate and distressed assets.",
+        "item": {
+          "title": "Greek Tax Office Lines Up 69 Property Auctions",
+          "url": "https://greekcitytimes.com/2026/10/29/tax-debt-auctions/",
+          "summary": "Greece's grid operator plans power cuts and mandatory smart meters for about 75,000 hidden electricity meters left unread for over a year.\n The post Greek Tax Office Lines Up 69 Property Auctions appeared first on Greek City Times .",
+          "published": "Wed, 28 Oct 2026 23:01:05 +0000",
+          "id": "f16ede23edd5",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-tax-debt-property-auctions",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדל\"ן ביוון",
+          "en": "Greece Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "apartment buildings in Athens Greece",
+        "he": {
+          "title": "עשרות מכירות פומביות של נדל\"ן ביוון עקב חובות מס",
+          "seoTitle": "נדל\"ן ביוון: מכירות פומביות על נכסים וחובות",
+          "seoDesc": "רשות המס ביוון יוצאת בתוכנית מכירות פומביות לקרקעות, בתים ומחסנים החל מחודש נובמבר ועד פברואר 2027 לבעלי חוב שלא הצטרפו הסדרים.",
+          "keywords": [
+            "נדלן ביוון",
+            "דירה באתונה",
+            "השקעה בנדלן ביוון",
+            "מיסים ביוון"
+          ],
+          "dek": "רשות המס ביוון מתחילה בגל מכירות פומביות של מקרקעין, בתים ומחסנים עבור חייבים שלא שילמו או בחרו לא להצטרף לתוכניות התשלומים הממשלתיות.",
+          "tldr": [
+            "תוכנית המכירות הפומביות תכלול 69 מכירות של קרקעות, בתים ומחסנים החל מה-4 בנובמבר.",
+            "המהלך מגיע לאחר שחייבים רבים דחו את תוכנית 72 התשלומים של משרד האוצר.",
+            "מחירי התחלה נעים החל מ-1,100 אירו למחסנים ועד לכ-700,000 אירו לנכסים גדולים."
+          ],
+          "means": "לקוראים המשקיעים או פועלים בשוק הנדל\"ן ביוון, חשוב לזכור שמידע זה הוא כללי ואינו ייעוץ משפטי. מומלץ תמיד לבדוק היטב את הסטטוס המשפטי והרישומי של כל נכס המוצע ברשתות הדיגיטליות או במכירות הפומביות, ולהיעזר באנשי מקצוע מקומיים אמינים.",
+          "body": "## תוכנית המכירות הפומביות החדשה\n\nרשות המסים ביוון (AADE) עומדת לקיים 69 מכירות פומביות של קרקעות, בתים ומחסנים החל מה-4 בנובמבר. התהליך יימשך עד ה-17 בפברואר 2027, ומהווה את אחת מתוכניות המכירה הפומבית הגדולות מצד המדינה.\n\nהיוזמה מכוונת ישירות אל חייבי מס שבחרו שלא להשתלב בתוכנית 72 התשלומים של משרד האוצר, שאליה הצטרפו רק 23,000 נישומים. למרות שקיימת כיום גם תוכנית חדשה בת 120 תשלומים עבור חובות שצברו פיגורים עד סוף שנת 2024, היקף המצטרפים אליה טרם התברר.\n\n## אילו נכסים מופיעים ברשימה\n\nהמבחר ברשימות מגוון וכולל החל מחלקות קרקע בעלות ערך נמוך, מחסנים ואדמות חקלאיות, ועד לבתים רחבי ידיים באזורים שונים ברחבי המדינה.\n\nבין הבולטים שבהם ניתן למצוא מגרש עם מבנים בשטח של 158 מ\"ר באזור הרקליון שבכרתים, שעבורו נקבע מחיר התחלה של 697,750 אירו. נכס נוסף בכרתים, הכולל מגרש ומבנה באזור קנדאנוס ליד חאניה, יוצע למכירה עם מחיר התחלה של 595,200 אירו. באתונה, נכס בן שתי קומות בשכונת אכדימיה פלאטונאס מוצע החל מ-321,000 אירו, ונכס נוסף באגיה פראסקבי מתחיל מ-260,000 אירו. צפונה משם, בכרתים ובסלוניקי, מוצעים גם מגרשים חקלאיים ונכסים נוספים.\n\n## כיצד מתבצעת המכירה\n\nההשתתפות במכירות הפומביות הללו מתבצעת באופן מקוון דרך פלטפורמת המכירות הייעודית ברשת. ההצעה הגבוהה ביותר מעל מחיר הבסיס היא זו שזוכה בנכס הסופי. \n\nעל פי הכללים הנוהגים במדינה, משרד המס יכול לפרסם תוכנית מכירה פומבית 40 יום לאחר עיקול הנכס, כאשר המכירה עצמה צריכה להתבצע בתוך חמישה חודשים. יחד עם זאת, מחירי הפתיחה הם בגדר התחלה בלבד, ותאריכים עשויים להשתנות במקרה של מתן צו השהייה משפטי.\n\n## שאלות נפוצות\n\n**מתי יחלו המכירות הפומביות של רשות המס ביוון?**\nהתוכנית תחל ב-4 בנובמבר ותימשך עד ה-17 בפברואר 2027.\n\n**היכן מתבצעת ההשתתפות במכירות הפומביות?**\nההשתתפות והבדיקות מתבצעות באופן מקוון דרך פלטפורמת המכירות המקוונת של הרשויות.\n\n**מהו מחיר המינימום למכירת הנכסים?**\nמחירי ההתחלה מתחילים בכ-1,100 אירו למחסנים ויכולים להגיע לכ-700,000 אירו עבור מגרשים וקרקעות עם מבנים."
+        },
+        "en": {
+          "title": "Greece Tax Authority Announces Extensive Property Auctions",
+          "seoTitle": "Greece Tax Auctions: Properties and Land on Sale",
+          "seoDesc": "Greece tax authority launches 69 tax debt auctions from November to February 2027, targeting debtors who avoided state payment plans.",
+          "keywords": [
+            "greece real estate",
+            "athens property",
+            "greece taxes",
+            "greek property market"
+          ],
+          "dek": "Greece's tax authority is launching 69 debt auctions for plots, homes, and warehouses starting in November for debtors who avoided state payment plans.",
+          "tldr": [
+            "The state auction program will hold 69 tax debt auctions starting from 4 November until 17 February 2027.",
+            "The program targets taxpayers who did not join the Finance Ministry's previous instalment plans.",
+            "Starting bids range from €1,100 for warehouses up to around €700,000 for plots with buildings."
+          ],
+          "means": "For readers looking at the Greek property market, remember this is general information and not legal advice. Always verify property statuses through official channels and consult local professionals before making financial decisions.",
+          "body": "## The Tax Debt Auction Program\n\nGreece’s tax authority is rolling out a massive series of 69 tax debt auctions involving plots, homes, and warehouses beginning on 4 November. The program will run until 17 February 2027, making it one of the largest state-backed auction initiatives.\n\nThis administrative action follows the decision of numerous debtors who bypassed the Finance Ministry's 72-instalment plan, an option that attracted only 23,000 taxpayers. While a newer 120-instalment plan now covers debts overdue by the end of 2024, the exact participation rate remains uncertain.\n\n## Properties Included in the Program\n\nThe listings range from low-value plots, warehouses, and farmland to large residential buildings across the country. \n\nTopping the list is a 158-square-metre plot with buildings in the Heraklion area of Crete, featuring a starting bid of €697,750. Another property in Crete, a 3,931-square-metre plot with a building near Chania, has a starting bid of €595,200. In Athens, a property in Akadimia Platonos starts at €321,000, while a plot with an old house in Agia Paraskevi starts at €260,000. Additional listings cover Halkidiki and Thessaloniki.\n\n## Bidding and Legal Framework\n\nBidding for these properties is conducted online through the official e-auction platform, where the highest bid above the initial price wins the asset.\n\nUnder the Code for the Collection of Public Revenue, the tax office is permitted to issue an auction program 40 days after seizing a property, with the sale required to follow within five months. Prices listed serve as starting bids only, and schedules may shift if a legal suspension applies.\n\n## FAQ\n\n**When do the Greek tax debt auctions begin?**\nThe auctions are scheduled to start on 4 November and run until 17 February 2027.\n\n**Where do people place bids for these properties?**\nBidding takes place online through the official e-auction platform.\n\n**What are the starting prices for the auctions?**\nStarting bids range from €1,100 for warehouses up to approximately €700,000 for larger plots with buildings."
+        }
+      },
+      "text": "File photo: Apartment blocks beneath Lycabettus Hill in Athens, November 2021. Photo: Marylinalcyonova / Wikimedia Commons (CC BY-SA 4.0) \n 0 \n 0 \n 0 \n Greece’s tax authority will hold 69 tax debt auctions of plots, homes and warehouses from 4 November, targeting debtors who stayed out of state payment plans. \n The tax debt auctions run until 17 February 2027, making this one of the largest state auction programs. First bids start at €1,100 for warehouses and reach about €700,000 for a plot with buildings.\n Debtors in the firing line turned their backs on the Finance Ministry’s 72-instalment plan, which only 23,000 taxpayers joined. As a result, the Independent Authority for Public Revenue (AADE) is moving against them.\n Why tax debt auctions are going ahead\n A newer 120-instalment plan now covers debts that fell overdue by the end of 2024. However, it is unclear how many taxpayers will sign up.\n Read more: Greece Unveils New Housing Measures to Ease Rent Pressures \n Under the Code for the Collection of Public Revenue (KEDE), the tax office can issue an auction program 40 days after it seizes a property. It must do so within four months of the seizure, and then the sale must follow within five months.\n Prices listed for the tax debt auctions are starting bids only. In addition, dates can change if a legal suspension applies.\n Earlier in October, the Council of State barred first home auctions for public debts where the debtor holds other assets. In September, AADE listed 43 property auctions nationwide.\n Homes and land on the list\n The list ranges from low-value plots, warehouses and farmland to large houses. Topping it is a 158-square-metre plot with buildings in the Heraklion area of Crete, with a €697,750 starting bid on 16 December.\n Also on Crete, a 3,931-square-metre plot with a building at Kandanos , near Chania, goes under the hammer on 11 November. Its starting bid is €595,200.\n In Athens, a 160-square-metre property over the third and fourth floors in Akadimia Platonos starts at €321,000 on the same day. Similarly, a 346.85-square-metre plot with an old house in Agia Paraskevi starts at €260,000.\n Further north, a 125,115-square-metre farm plot at Nea Gonia in Halkidiki has a €365,000 starting bid. At the same time, a 71.39-square-metre second-floor flat in Panorama, Thessaloniki, goes on offer on 27 January for €290,000.\n Bidding for the tax debt auctions takes place online through the e-auction platform . The highest bid above the starting price then wins each property.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Targets Taxpayers Who Failed to Declare Back Payments \n ‘Sunglasses’ Shipment Hides Thousands of Blades at Thessaloniki Port \n Greek Investment Surges as Real Estate Leads Growth \n Storms and Floods Bring Chaos to Crete as Drivers and Tourists Are Rescued \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Greek Household Deposits Climb to Highest Level Since 2011\n Next Article \n Teos Excavation Uncovers Inscription Naming Alexander's General Parmenion\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η φορολογική αρχή της Ελλάδας ανακοινώνει εκτεταμένους πλειστηριασμούς ακινήτων",
+        "dek": "Η φορολογική αρχή της Ελλάδας ξεκινά 69 πλειστηριασμούς ακινήτων, κατοικιών και αποθηκών για χρέη από τον Νοέμβριο, που αφορούν οφειλέτες οι οποίοι απέφυγαν τις κρατικές ρυθμίσεις πληρωμών.",
+        "tldr": [
+          "Το κρατικό πρόγραμμα πλειστηριασμών θα πραγματοποιήσει 69 πλειστηριασμούς για φορολογικά χρέη από τις 4 Νοεμβρίου έως τις 17 Φεβρουαρίου 2027.",
+          "Το πρόγραμμα στοχεύει σε φορολογούμενους που δεν εντάχθηκαν στα προηγούμενα προγράμματα δόσεων του Υπουργείου Οικονομικών.",
+          "Οι τιμές πρώτης προσφοράς κυμαίνονται από 1.100 ευρώ για αποθήκες έως περίπου 700.000 ευρώ για οικόπεδα με κτίρια."
         ]
       },
       "notified": true
@@ -2253,12 +2334,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-28T21:45:31.343Z",
-      "items": 0
+      "at": "2026-10-29T00:49:17.029Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-28T21:45:31.981Z",
+      "at": "2026-10-29T00:49:17.854Z",
       "items": 4
     },
     "civilprotection": {
@@ -2269,27 +2350,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-28T21:45:33.710Z",
-      "items": 20
+      "at": "2026-10-29T00:49:19.315Z",
+      "items": 12
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-28T21:45:33.849Z",
+      "at": "2026-10-29T00:49:19.782Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-28T21:45:34.479Z",
+      "at": "2026-10-29T00:49:20.557Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-28T21:45:35.027Z",
+      "at": "2026-10-29T00:49:21.368Z",
       "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-28T21:45:35.849Z",
+      "at": "2026-10-29T00:49:22.234Z",
       "items": 10
     },
     "toi-greece": {
@@ -2300,22 +2381,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-28T21:45:36.308Z",
+      "at": "2026-10-29T00:49:22.814Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-28T21:45:36.603Z",
+      "at": "2026-10-29T00:49:23.130Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-28T21:45:37.102Z",
-      "items": 3
+      "at": "2026-10-29T00:49:23.386Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T21:45:37.244Z",
+      "at": "2026-10-29T00:49:23.831Z",
       "items": 6
     },
     "ynet-greece": {
@@ -2325,12 +2406,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-28T21:45:32.581Z",
+      "at": "2026-10-29T00:49:18.363Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-28T21:45:37.829Z",
+      "at": "2026-10-29T00:49:24.193Z",
       "items": 0
     },
     "hcg": {
@@ -2341,150 +2422,60 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-28T21:45:38.976Z",
+      "at": "2026-10-29T00:49:25.658Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-28T21:45:39.199Z",
+      "at": "2026-10-29T00:49:25.970Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-28T21:45:39.379Z",
-      "items": 4
+      "at": "2026-10-29T00:49:26.240Z",
+      "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-28T21:45:39.589Z",
-      "items": 4
+      "at": "2026-10-29T00:49:26.534Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-28T21:45:39.907Z",
-      "items": 10
+      "at": "2026-10-29T00:49:26.900Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-28T21:45:40.339Z",
-      "items": 19
+      "at": "2026-10-29T00:49:27.406Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-28",
-    "count": 3,
-    "published": [
-      {
-        "slug": "eu-import-fee-china-greece-2026",
-        "title": "EU adds €2 fee to online orders from third countries",
-        "at": "2026-10-28T02:09:14+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "milos-hotel-construction-frozen-2026",
-        "title": "Milos: Court freezes construction of new five-star hotel",
-        "at": "2026-10-28T10:20:22+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "israeli-ambassador-school-donation-xanthi-october-28",
-        "title": "Israel Embassy in Greece Establishes Annual Donation Initiative for October 28",
-        "at": "2026-10-28T17:59:44+02:00",
-        "section": "jewish-greece"
-      }
-    ],
+    "date": "2026-10-29",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Joint Greece-Israel Naval Exercise in the Cretan Sea Draws Turkish Media Attention",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew title contains a typo/invented word: 'הידראולי' (hydraulic) was incorrectly used instead of 'הישראלי' (Israeli).; The Hebrew summary/means field contains a typo: 'הפעוֹל' should be 'הפעולה'.",
-        "at": "2026-10-28T00:09:06.199Z"
+        "title": "Gas Leak from Tanker in Aspropyrgos Prompts Fire Service Response",
+        "reason": "Ουδέτερη εκδοχή: λείπει en.dek",
+        "at": "2026-10-29T00:49:14.379Z"
       },
       {
-        "title": "Καιρός: Με βροχές, καταιγίδες και κρύο η 28η Οκτωβρίου – Πού θα είναι πιο έντονα τα φαινόμενα",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings issued for storms» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T05:31:19.803Z"
-      },
-      {
-        "title": "Greece Seeks Freeze on Foreign Accounts in €120 Million Fraud",
-        "reason": "Ίδιο θέμα με «Bakery chain owner arrested in Greece over €100m tax fraud» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T05:31:24.373Z"
-      },
-      {
-        "title": "Στάση εργασίας της ΟΛΜΕ στις 30 Οκτωβρίου σε Αττική και Αχαΐα – Συμμετοχή στις αντιπολεμικές συγκεντρώσεις των λιμενεργατών",
-        "reason": "Ίδιο θέμα με «Greece port strike: ferries to stay docked on October 30» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T11:37:10.039Z"
-      },
-      {
-        "title": "Κακοκαιρία: Red Code σε 11 περιοχές την 28η Οκτωβρίου - Kathimerini",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T11:37:10.909Z"
-      },
-      {
-        "title": "Συνεχίζεται το ράλι τιμών στα ακίνητα: Οι ακριβότερες περιοχές",
-        "reason": "Ίδιο θέμα με «Greek Holiday Home Market: Three Major Trends Transforming Real Estate» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T11:37:36.319Z"
-      },
-      {
-        "title": "Athens: Fire brought under control at a shop near Omonia Square",
-        "reason": "Ουδέτερη εκδοχή: The source text does not mention the day of the week ('Tuesday'), but the article body includes it.; The source text does not mention that there were no injuries, but the article mentions it.; The source text does not contain a date, but the Hebrew body mentions 'יום שלישי' (Tuesday",
-        "at": "2026-10-28T15:57:28.233Z"
-      },
-      {
-        "title": "Κακοκαιρία: Πλημμύρες και κατολισθήσεις σε Μαγνησία και νησιά του Αιγαίου – Εικόνες καταστροφής σε Πήλιο, Σκιάθο και Σύμη",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T15:58:33.248Z"
-      },
-      {
-        "title": "Εκλογές στο Ισραήλ: Έως 480.000 ψήφοι και 12 έδρες που μπορούν να αλλάξουν τους συσχετισμούς – Τι είναι οι «διπλοί φάκελοι» που δεν έχουν με",
-        "reason": "Ίδιο θέμα με «US support and the Israeli elections» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T15:58:48.553Z"
-      },
-      {
-        "title": "Orange Rain Warning issued for Greece - Kyklades",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T17:22:06.335Z"
-      },
-      {
-        "title": "Κακοκαιρία: Πού σημειώθηκαν τα μεγαλύτερα ύψη βροχής",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T17:22:25.043Z"
-      },
-      {
-        "title": "Σε κλοιό κακοκαιρίας η Σκιάθος: Πλημμύρες και κατολισθήσεις, κλειστοί δρόμοι [βίντεο] - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T17:22:32.387Z"
-      },
-      {
-        "title": "Κακοκαιρία: Εγκλωβισμένοι 50 κάτοικοι στον Πλατανιά – «Κομμένο» στα δύο το χωριό",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T17:22:33.410Z"
-      },
-      {
-        "title": "Κακοκαιρία: Πότε υποχωρούν τα επικίνδυνα φαινόμενα – Πλημμύρες και καταστροφές σε Μαγνησία, Σκιάθο και Σύμη",
-        "reason": "Ίδιο θέμα με «Severe weather in Greece: Red warnings and flood alerts issued» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T20:59:16.628Z"
-      },
-      {
-        "title": "Ισραήλ: Τα σενάρια για τον σχηματισμό κυβέρνησης – Ο «διπλός φάκελος» και οι πληροφορίες για χτύπημα στο Ιράν που μπορούν να αλλάξουν τα δεδ",
-        "reason": "Ίδιο θέμα με «US support and the Israeli elections» – δεν γράφτηκε ξανά",
-        "at": "2026-10-28T20:59:49.791Z"
+        "title": "Greek Cinema Day Returns with €3 Tickets Across Greece",
+        "reason": "Μεγάλη ομοιότητα με την πηγή (21%)",
+        "at": "2026-10-29T00:50:47.750Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "milos-hotel-construction-frozen-2026",
-        "at": "2026-10-28T08:20:23.306Z"
-      },
-      {
-        "slug": "israeli-ambassador-school-donation-xanthi-october-28",
-        "at": "2026-10-28T15:59:44.467Z"
-      }
-    ],
-    "ig": []
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-28",
+      "count": 3,
+      "rejected": 15
+    },
     {
       "date": "2026-10-27",
       "count": 7,
@@ -2648,29 +2639,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-28T21:45:42.201Z",
-    "considered": 19,
-    "picked": 0,
+    "at": "2026-10-29T00:49:28.714Z",
+    "considered": 12,
+    "picked": 3,
     "items": [
-      "· gct | Olympiacos Beats Turkish Side Besiktas 81-73 in Istanbul",
-      "· gct | Greece To Build Seven New Coast Guard Patrol Boats",
-      "· gct | Panathinaikos Beat Belgium Team to Maintain EuroCup Record",
-      "· naftemporiki | Wall Street: Άνοδος για τρίτη διαδοχική συνεδρίαση – Στο επίκεντρο η Fed και τα τεχνολογικ",
-      "· gct | Greece Tells UN Chief It Will Not Tolerate Illegal Maritime Claims",
-      "· gct | Greece Imposes €659,647 Fines for Consumer and Market Violations",
-      "· gct | Greek PM: Greece Will Neither Threaten nor Bow to Threats (VID)",
-      "· gct | Greek Consul Rejects Turkish Aegean Claims at Istanbul OXI Day Event",
-      "· gct | British Buyers Dominate Ionian Islands Luxury Property Market",
-      "· naftemporiki | Σαρωτικό το πέρασμα της κακοκαιρίας από το Νότιο Πήλιο: Ένας τραυματίας, πλημμύρες και απο",
-      "· gct | Greek Surgeon Runs 517 Kilometres Along to Honour Fallen Soldiers",
-      "· gct | Metropolitan Nektarios: Greece Surrendered Macedonia’s Name to Foreign Nations",
-      "· gct | Stelios Shares Moving Childhood Memory for October 28 Anniversary",
-      "· gn-iefimerida | Δεμένα τα πλοία στα λιμάνια την Παρασκευή 30 Οκτωβρίου λόγω απεργίας των ναυτεργατών - ief",
-      "· gn-iefimerida | Πολιτικό αδιέξοδο στο Ισραήλ μετά τις εκλογές: Ο Νετανιάχου παραμένει υπηρεσιακός πρωθυπου",
-      "· gn-iefimerida | Αποκαταστάθηκε η κυκλοφορία των οχημάτων στο κέντρο της Αθήνας -Ανοιξε ο σταθμός μετρό Σύν",
-      "· gtp | Eurobank: Bank Loans to Greek Tourism Businesses Reach €10.9 Billion",
-      "· gtp | AirDNA: Greece Records Europe’s Largest Seasonal Gap in Short-Term Rental Prices",
-      "· gtp | Mykonos Port Targets 65% Water Savings With MSC-Backed Recycling System"
+      "✓ gct | Greece and Turkey Trade NAVTEX Over Cable Survey Off Crete",
+      "· gct | Grid Operator Targets 75,000 Hidden Electricity Meters With Power Cuts",
+      "· gct | Turkey Offers Egypt Maritime Deal, Claims Better Terms Than Greece",
+      "· gct | The Metsovo Monastery Where Monks Make Wine Beside a 1782 Barrel",
+      "· gct | Montreal Greeks Mark 120 Years With New Archbishop’s First Visit",
+      "· gct | Why Only a Scrap of a Chios Regiment Flag Survives",
+      "· gct | Teos Excavation Uncovers Inscription Naming Alexander’s General Parmenion",
+      "✓ gct | Greek Tax Office Lines Up 69 Property Auctions",
+      "· gct | Greek Household Deposits Climb to Highest Level Since 2011",
+      "· gct | Greek Artist Peter Katsichtis Opens Exhibition in Paris",
+      "✓ gct | Greek Cinema Day Returns with €3 Tickets Across Greece",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
     ]
   },
   "evergreenDone": [
