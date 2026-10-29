@@ -204,11 +204,7 @@ for (const lang of LANGS) {
   const qtools = tiles.map(([u, k, h]) => `<a class="qt t-${k}" href="${P(lang, u)}">${TI[k]}<span>${esc(h)}</span></a>`).join("");
   const newsChips = SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}">${esc(x[lang])}</a>`).join("");
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
-${holidaysStrip(lang)}
-${doorsHTML(lang)}
-<nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
 ${GLOBAL.wxRecent ? `<a class="fteaser wxteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">${ic("alert")}</span><span class="ft-t"><b>${lang === "he" ? (GLOBAL.wxRecent === 1 ? "אזהרת מזג אוויר חדשה ביוון" : `${GLOBAL.wxRecent} אזהרות מזג אוויר ביוון ב-48 השעות האחרונות`) : (GLOBAL.wxRecent === 1 ? "New weather warning in Greece" : `${GLOBAL.wxRecent} weather warnings in Greece in the last 48 hours`)}</b><small>${lang === "he" ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>` : ""}
-${flightTeaser(lang)}
 <nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
   <div class="col">
@@ -217,6 +213,12 @@ ${flightTeaser(lang)}
       ${heroA ? heroCard(heroA, lang) : `<div class="empty">${esc(t.sectionEmpty)}</div>`}
       <div class="cards" style="margin-top:14px">${govCards.map((a) => card(a, lang)).join("")}</div>
     </section>
+    <div class="home-nav">
+${doorsHTML(lang)}
+<nav class="qtools" aria-label="${lang === "he" ? "כלים מהירים" : "Quick tools"}">${qtools}</nav>
+${holidaysStrip(lang)}
+${flightTeaser(lang)}
+    </div>
     ${DIVIDER}
     <section aria-labelledby="h-isr">
       <div class="zone-h"><h2 id="h-isr">${esc(t.zoneIsr)}</h2><span class="eyebrow">${esc(t.zoneIsrEye)}</span></div>
