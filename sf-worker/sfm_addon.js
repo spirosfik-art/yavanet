@@ -63,6 +63,7 @@ function sfmCards(html, L, T, fromEn) {
   return out;
 }
 async function sfMob(path, html, ori, hv) {
+  try { html = sfYachtLang(path, html); } catch (e) {}
   try { html = await sfVillaYachts(path, sfRadar(path, html)); } catch (e) {}
   try { html = sfVillaFacts(path, html); } catch (e) {}
   try { html = sfVillaSkin(html); } catch (e) {}
@@ -501,4 +502,14 @@ function sfVillaFacts(path, html) {
   }
   if (!el && !en) rep(/השטחים לקוחים מהיתר הבנייה\.\s*/g, '');
   return t.replace('</head>', '<meta name="sfvf-ok" content="1"></head>');
+}
+
+// ===== Yachting pages: EL/EN switcher points to the right page =====
+function sfYachtLang(path, html) {
+  const isList = path === '/yachting/' || path === '/skafi/', isDet = /^\/yachting\/[a-z0-9-]+\/$/.test(path) && !isList;
+  if (!isList && !isDet) return html;
+  const elT = '/skafi/', enT = isDet ? path : '/yachting/';
+  return html
+    .replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:Ελληνικά|ΕΛ)\s*<\/a>)/g, '$1' + elT + '$2')
+    .replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:English|EN)\s*<\/a>)/g, '$1' + enT + '$2');
 }
