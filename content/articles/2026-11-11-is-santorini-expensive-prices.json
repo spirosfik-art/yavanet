@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/16973159/pexels-photo-16973159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning Santorini view capturing the iconic whitewashed buildings against a blue sea and sky.",
+    "credit": "Photo: Joan Costa / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-buildings-on-a-coast-in-greece-16973159/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "santorini oia caldera"
+    "imageQuery": "santorini oia caldera",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

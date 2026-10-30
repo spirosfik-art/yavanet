@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33787880/pexels-photo-33787880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "View of the iconic White Tower in Thessaloniki, Greece, by the waterfront with boats and city skyline.",
+    "credit": "Photo: BAB2056 / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/historic-white-tower-on-thessaloniki-waterfront-33787880/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
-    "imageQuery": "thessaloniki waterfront white tower"
+    "imageQuery": "thessaloniki waterfront white tower",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

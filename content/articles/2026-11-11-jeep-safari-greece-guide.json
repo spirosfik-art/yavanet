@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5311502/pexels-photo-5311502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vintage jeep parked in rugged terrain with a stunning sunset in the background, evoking adventure.",
+    "credit": "Photo: seyfi durmaz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/jeep-parked-in-desert-5311502/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "jeep safari greece mountains"
+    "imageQuery": "jeep safari greece mountains",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "fire"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38369204/pexels-photo-38369204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Firefighters in protective gear use a water cannon on a truck to fight a forest wildfire.",
+    "credit": "Photo: Özgür Sürmeli / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/firefighters-combat-wildfire-with-water-cannon-38369204/",
+    "license": "Pexels License",
+    "fallbackKey": "fire"
   },
   "meta": {
-    "imageQuery": "greece forest firefighting"
+    "imageQuery": "greece forest firefighting",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

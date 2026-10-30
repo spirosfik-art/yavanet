@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39810421/pexels-photo-39810421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tourists walking through cobblestone streets under historic arches in Old Town Rhodes, Greece.",
+    "credit": "Photo: Kader Azra Namuslu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/exploring-medieval-streets-in-old-town-rhodes-39810421/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "rhodes old town street"
+    "imageQuery": "rhodes old town street",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",
