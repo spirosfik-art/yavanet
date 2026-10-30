@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/26063251/pexels-photo-26063251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene harbor with yachts and a picturesque hillside town under a cloudy sky, perfect for travel inspiration.",
+    "credit": "Photo: Denys Gromov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/marina-in-town-in-summer-26063251/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "hydra harbour"
+    "imageQuery": "hydra harbour",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

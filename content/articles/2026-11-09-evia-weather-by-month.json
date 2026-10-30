@@ -18,11 +18,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9513705/pexels-photo-9513705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking aerial shot of Evia Island's clear blue waters and rugged coastline in Greece.",
+    "credit": "Photo: Nikos Katopodis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-a-peninsula-beach-9513705/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
-    "imageQuery": "evia coast greece"
+    "imageQuery": "evia coast greece",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

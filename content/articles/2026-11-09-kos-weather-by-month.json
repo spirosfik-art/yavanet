@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18187122/pexels-photo-18187122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Silhouette of a woman practicing yoga on a jetty in Kos, Greece, during a picturesque sunrise.",
+    "credit": "Photo: Wolfgang Weiser / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/woman-on-jetty-at-sunset-18187122/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "kos beach summer"
+    "imageQuery": "kos beach summer",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {
