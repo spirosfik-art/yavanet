@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32414116/pexels-photo-32414116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Capture of the iconic Portara gate in Naxos, Greece with charming Naxos Town in the background.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ancient-portara-gate-with-naxos-town-in-view-32414116/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "naxos portara sea"
+    "imageQuery": "naxos portara sea",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

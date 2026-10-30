@@ -22,11 +22,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37581691/pexels-photo-37581691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A car driving along a coastal highway with stunning ocean and mountain views under clear skies.",
+    "credit": "Photo: Сокіл Sokil / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-coastal-highway-drive-with-ocean-view-37581691/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
-    "imageQuery": "greece highway road trip"
+    "imageQuery": "greece highway road trip",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

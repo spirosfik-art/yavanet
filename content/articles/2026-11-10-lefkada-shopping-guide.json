@@ -19,11 +19,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6589265/pexels-photo-6589265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore a vibrant street in Lefkada, Greece, showcasing colorful houses and historic charm.",
+    "credit": "Photo: Stoyana Devedzhieva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/concrete-houses-along-the-brick-road-6589265/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "lefkada town street"
+    "imageQuery": "lefkada town street",
+    "photoTried": true
   },
   "he": {
     "title": "שופינג בלפקדה: מה קונים, איפה ושעות הפתיחה",

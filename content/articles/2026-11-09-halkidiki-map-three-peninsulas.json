@@ -18,11 +18,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32185350/pexels-photo-32185350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the scenic beauty of Kalamitsi Beach, a stunning coastal paradise in Sithonia, Greece.",
+    "credit": "Photo: Yassen Kounchev / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-vibrant-kalamitsi-beach-in-greece-32185350/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
-    "imageQuery": "halkidiki peninsula aerial"
+    "imageQuery": "halkidiki peninsula aerial",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

@@ -15,11 +15,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17901748/pexels-photo-17901748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic aerial view of the Old Fortress overlooking the bay with sailboats in Corfu, Greece.",
+    "credit": "Photo: Ollie Craig / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-a-harbor-17901748/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "corfu coastline aerial"
+    "imageQuery": "corfu coastline aerial",
+    "photoTried": true
   },
   "he": {
     "title": "קורפו על המפה: איפה היא נמצאת, האזורים ואיפה כדאי לישון",

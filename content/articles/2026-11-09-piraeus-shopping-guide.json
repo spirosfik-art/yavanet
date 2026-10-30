@@ -18,11 +18,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35154965/pexels-photo-35154965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant cityscape with boats and palm trees along a Mediterranean harbor on a sunny day.",
+    "credit": "Photo: Valeria Drozdova / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-mediterranean-waterfront-cityscape-35154965/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
-    "imageQuery": "piraeus street market"
+    "imageQuery": "piraeus street market",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {
