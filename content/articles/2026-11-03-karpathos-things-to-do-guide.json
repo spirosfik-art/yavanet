@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/36136857/pexels-photo-36136857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant view of traditional colorful houses on a hillside in Olympos, Greece.",
+    "credit": "Photo: Frank van Dijk / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/colorful-houses-of-olympos-greece-in-summer-36136857/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "karpathos olympos village"

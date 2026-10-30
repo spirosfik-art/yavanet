@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37516593/pexels-photo-37516593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A lone car travels on a winding road through Greece with mountains.",
+    "credit": "Photo: Сокіл Sokil / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-road-through-greek-countryside-in-summer-37516593/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "greek mountain road"

@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20350229/pexels-photo-20350229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the stunning rock formations and historic monasteries of Meteora in Trikala, Greece.",
+    "credit": "Photo: Randerisphotos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/forest-and-rock-formations-around-meteora-monastery-in-greece-20350229/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "meteora monasteries clouds"

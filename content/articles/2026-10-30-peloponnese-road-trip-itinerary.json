@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9894929/pexels-photo-9894929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful Mediterranean hillside view with rustic architecture and lush greenery beneath a blue sky.",
+    "credit": "Photo: Vasiliki Tsd / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/mountainside-under-blue-cloudy-sky-9894929/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "peloponnese road"

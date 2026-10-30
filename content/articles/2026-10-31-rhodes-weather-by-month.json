@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14449971/pexels-photo-14449971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque sunny beach with umbrellas and clear blue sea in Rodos, Greece.",
+    "credit": "Photo: Ivan Dražić / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/kokkini-beach-kallithea-greece-14449971/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "rhodes beach sunshine"

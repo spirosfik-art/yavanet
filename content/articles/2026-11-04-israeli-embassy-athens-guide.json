@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7314559/pexels-photo-7314559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Exterior view of a historic hospital building with a classic facade in Istanbul, Turkey.",
+    "credit": "Photo: Meruyert Gonullu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/facade-of-a-building-7314559/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "israel embassy athens psychiko"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35825926/pexels-photo-35825926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning aerial view of the turquoise Aegean Sea with clear skies and verdant shoreline.",
+    "credit": "Photo: Brian  Harper / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/breathtaking-view-of-aegean-sea-coastline-35825926/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "kassandra halkidiki beach summer"

@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37845004/pexels-photo-37845004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial photograph of a historic church surrounded by urban buildings in Thessaloniki, Greece.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-church-in-thessaloniki-greece-37845004/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "thessaloniki shopping street"

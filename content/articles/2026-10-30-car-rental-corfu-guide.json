@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15970723/pexels-photo-15970723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Rustic dirt road with lush greenery leading to a serene seaside view in Corfu, Greece.",
+    "credit": "Photo: Artūras Kokorevas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dirt-road-in-seaside-15970723/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu road"

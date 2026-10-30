@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9874161/pexels-photo-9874161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A surfboard with stickers on Paros beach with cloudy skies and a tranquil sea.",
+    "credit": "Photo: Haris Philip / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/surfboard-with-stickers-and-seascape-9874161/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "paros beach"

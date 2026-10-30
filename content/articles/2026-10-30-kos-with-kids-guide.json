@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4304017/pexels-photo-4304017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A tranquil beach in Kos, Greece, featuring a lifebuoy and rock cairn against a calm sea.",
+    "credit": "Photo: Thu Trang / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/red-life-buoy-on-the-shore-4304017/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "kos island beach"

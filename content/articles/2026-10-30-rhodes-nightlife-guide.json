@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38898686/pexels-photo-38898686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful sunset at Rhodes Harbor, Greece with yachts and city lights reflecting on the water.",
+    "credit": "Photo: Mario Cikarski / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-sunset-at-rhodes-harbor-with-illuminated-yachts-38898686/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "rhodes night"

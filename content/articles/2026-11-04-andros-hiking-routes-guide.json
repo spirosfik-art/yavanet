@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9634032/pexels-photo-9634032.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning aerial view of a tranquil beach cove in Andros, Greece, with clear blue waters and sandy shores.",
+    "credit": "Photo: John Aptoglou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/drone-shot-of-the-beach-under-a-blue-sky-9634032/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "andros island hiking path"

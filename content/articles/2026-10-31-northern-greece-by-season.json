@@ -18,8 +18,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37845028/pexels-photo-37845028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of the White Tower in Thessaloniki, Greece with sunlight reflecting on the water.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-tower-of-thessaloniki-at-sunset-37845028/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "thessaloniki waterfront autumn"

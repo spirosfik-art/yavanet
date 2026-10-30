@@ -15,8 +15,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8106493/pexels-photo-8106493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning landscape of Vikos Gorge, Greece, showcasing lush greenery and towering cliffs.",
+    "credit": "Photo: InformaticFreak / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-mountains-8106493/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "zagori stone village mountains"

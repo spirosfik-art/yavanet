@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39058638/pexels-photo-39058638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the historic ancient ruins of Olympia with classic Greek architecture amidst lush greenery.",
+    "credit": "Photo: Lydia Griva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ancient-ruins-of-olympia-in-greece-39058638/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "ancient olympia"

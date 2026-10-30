@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5674879/pexels-photo-5674879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A tranquil stone pathway through a lush forest in Athens, Greece, showcasing natural beauty.",
+    "credit": "Photo: Markus Winkler / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/pathway-under-trees-5674879/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "athens family park"

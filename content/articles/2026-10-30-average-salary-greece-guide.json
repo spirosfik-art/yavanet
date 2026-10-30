@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37844148/pexels-photo-37844148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial view of Athens, Greece, featuring the Acropolis amid the vast cityscape under a clear blue sky.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-athens-cityscape-with-acropolis-37844148/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "athens office"

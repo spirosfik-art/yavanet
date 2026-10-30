@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33820235/pexels-photo-33820235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A passenger airplane soaring above Corfu, Greece against a bright blue sky and fluffy white clouds.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/airplane-flying-above-corfu-with-clear-blue-sky-33820235/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "greek island plane"

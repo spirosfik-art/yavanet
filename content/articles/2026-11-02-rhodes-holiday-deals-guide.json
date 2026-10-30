@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31054102/pexels-photo-31054102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "An aerial view of a coastal city with a beautiful sunset over the sea.",
+    "credit": "Photo: George Alex / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-coastal-city-at-sunset-31054102/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "rhodes all inclusive resort beach"

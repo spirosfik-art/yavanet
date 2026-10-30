@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5792915/pexels-photo-5792915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial view of Thera, Greece with its iconic cliffs and the serene Aegean Sea.",
+    "credit": "Photo: Jeff Stapleton / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sea-bay-at-rock-waterfront-city-5792915/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "santorini"

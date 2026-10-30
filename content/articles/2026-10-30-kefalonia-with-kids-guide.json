@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33413540/pexels-photo-33413540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the beautiful azure waters and scenic coastline of Greece's stunning beaches.",
+    "credit": "Photo: Nico Hartnauer / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-turquoise-waters-of-a-greek-beach-33413540/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "kefalonia beach"

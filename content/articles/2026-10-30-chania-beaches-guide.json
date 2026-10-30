@@ -15,8 +15,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5871297/pexels-photo-5871297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Magnificent scenery of turquoise ocean with foamy waves rolling on sandy beach against cloudy sky",
+    "credit": "Photo: Claudia Schmalz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/wavy-turquoise-sea-with-sandy-coast-and-rocky-hill-5871297/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "elafonisi"

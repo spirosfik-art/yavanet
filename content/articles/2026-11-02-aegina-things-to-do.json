@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35633154/pexels-photo-35633154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque view of a lighthouse and boats in a tranquil Greek harbour, under a clear blue sky.",
+    "credit": "Photo: Wolfgang Weiser / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/idyllic-harbour-view-with-boats-in-greece-35633154/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Aegina harbour Greece"

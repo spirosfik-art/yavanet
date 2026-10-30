@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35844525/pexels-photo-35844525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking winter mountain landscape near Monodendri, Greece with a winding road.",
+    "credit": "Photo: John  Kostopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-mountain-road-in-monodendri-greece-35844525/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "zagori snow village"

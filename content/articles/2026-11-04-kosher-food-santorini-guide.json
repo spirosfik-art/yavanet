@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6555198/pexels-photo-6555198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Experience the stunning sunset in Santorini, Greece, showcasing iconic white architecture and windmills.",
+    "credit": "Photo: alberto / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-windmills-and-buildings-in-town-on-sea-coast-in-greece-at-sunset-6555198/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "santorini sunset oia"

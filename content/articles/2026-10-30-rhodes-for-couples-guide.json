@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13445624/pexels-photo-13445624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the majestic ancient fortress overlooking a stunning coastline at sunset.",
+    "credit": "Photo: Anderson / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-footage-of-ruins-on-a-rocky-coast-13445624/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "lindos sunset"

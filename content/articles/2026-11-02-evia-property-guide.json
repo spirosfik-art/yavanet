@@ -27,8 +27,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27060871/pexels-photo-27060871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming waterfront cityscape of Chalkida, Greece, featuring picturesque buildings by the tranquil sea.",
+    "credit": "Photo: Alex Ravvas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/chalkis-evvoia-27060871/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "evia island village sea"

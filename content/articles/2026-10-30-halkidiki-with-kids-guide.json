@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15688734/pexels-photo-15688734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore a beautiful beach with clear blue waters, rocky coast, and lush greenery in Greece.",
+    "credit": "Photo: Peter Adrienn / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-view-of-the-ocean-and-the-shoreline-15688734/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "halkidiki beach family"

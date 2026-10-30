@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27916684/pexels-photo-27916684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque sunset view of Chania waterfront in Greece with bustling promenade and tranquil sea.",
+    "credit": "Photo: Nafsika G. / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-city-at-dusk-with-people-walking-along-the-water-27916684/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "crete"

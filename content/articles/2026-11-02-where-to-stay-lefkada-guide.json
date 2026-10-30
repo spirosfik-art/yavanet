@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6445363/pexels-photo-6445363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the historical stone church in Lefkada, showcasing traditional Greek architecture.",
+    "credit": "Photo: Leo Pekaar / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ancient-stone-church-agios-donatos-in-lefkada-greece-6445363/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "lefkada agios nikitas"

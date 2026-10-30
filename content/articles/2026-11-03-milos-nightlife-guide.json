@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/2734920/pexels-photo-2734920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Captivating view of a white church in Milos, Greece, overlooking the serene ocean at sunset.",
+    "credit": "Photo: Luke Webb / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/concrete-building-in-coastal-area-2734920/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "milos plaka sunset"

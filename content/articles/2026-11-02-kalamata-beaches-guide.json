@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32600256/pexels-photo-32600256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of a horseshoe-shaped bay with turquoise waters and sandy beach.",
+    "credit": "Photo: Ejov Igor / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-scenic-horseshoe-bay-beach-32600256/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "voidokilia beach"

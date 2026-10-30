@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10182926/pexels-photo-10182926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a luxurious Santorini resort featuring a stunning pool and elegant terraces.",
+    "credit": "Photo: Atypeek Dgn / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/luxurious-resort-in-santorini-greece-10182926/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "greece resort pool"

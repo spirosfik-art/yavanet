@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30162467/pexels-photo-30162467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Golden hour at Mykonos windmills, capturing the essence of Greek island charm and vibrant tourism.",
+    "credit": "Photo: Nirjhar Basak / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-sunset-view-of-mykonos-windmills-30162467/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos night"

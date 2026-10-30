@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27195876/pexels-photo-27195876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Children enjoying snorkeling near a white church on a Greek island with the Greek flag waving above.",
+    "credit": "Photo: Ben Prater / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/children-playing-on-greek-beach-27195876/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "sifnos"

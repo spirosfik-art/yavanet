@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/19909995/pexels-photo-19909995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of a vintage airplane with propellers, photographed at İstanbul airport.",
+    "credit": "Photo: Ozan Tabakoğlu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aircraft-at-airport-19909995/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "mykonos airport plane"

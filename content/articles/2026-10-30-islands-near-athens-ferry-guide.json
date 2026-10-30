@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29475654/pexels-photo-29475654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming Hydra town with boats moored along the scenic waterfront, captured on a sunny day.",
+    "credit": "Photo: Darja B / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-hydra-town-waterfront-greece-29475654/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "saronic island"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11898123/pexels-photo-11898123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view showcasing Greece's coastline with crystal-clear waters and lush greenery.",
+    "credit": "Photo: Thanos Skoufitsas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-shot-of-exotic-beach-11898123/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "sithonia halkidiki beach pine"

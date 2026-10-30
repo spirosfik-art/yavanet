@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30099906/pexels-photo-30099906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Colorful balloons rising over Volos waterfront at night, creating a vibrant and festive atmosphere near the sea.",
+    "credit": "Photo: Markos Torpillas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/nighttime-balloon-release-over-volos-waterfront-30099906/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "volos waterfront argo"

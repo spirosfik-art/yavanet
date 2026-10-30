@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13900749/pexels-photo-13900749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Colorful historic buildings line the waterfront of Chania's Venetian harbor under a clear blue sky.",
+    "credit": "Photo: Pham Ngoc Anh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-old-venetian-port-of-chania-greece-13900749/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "chania"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4219401/pexels-photo-4219401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Drone capture of Chania's historic Venetian harbor, showcasing the iconic lighthouse against a scenic coastal backdrop.",
+    "credit": "Photo: James Owen / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-lighthouse-on-island-surrounded-by-body-of-water-4219401/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "chania venetian harbour lighthouse"

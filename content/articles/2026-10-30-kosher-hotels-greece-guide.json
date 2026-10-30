@@ -29,8 +29,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10923534/pexels-photo-10923534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful view of a swimming pool overlooking the Ionian Sea in Corfu, Greece, during a serene summer day.",
+    "credit": "Photo: Erik Karits / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/swimming-pools-near-palm-trees-10923534/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "greek resort pool"

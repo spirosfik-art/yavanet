@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39843703/pexels-photo-39843703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Agios Gordios Beach in Corfu, Greece, showcasing sunbeds, umbrellas, blue sea, and surrounding lush hills.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-agios-gordios-beach-in-corfu-greece-39843703/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "family holiday greece"

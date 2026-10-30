@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15532710/pexels-photo-15532710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning white architecture with pools in a luxurious Santorini resort.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/swimming-pools-in-resort-15532710/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "greek island hotel pool"

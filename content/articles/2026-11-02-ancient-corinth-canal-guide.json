@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32187302/pexels-photo-32187302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking view of the Corinth Canal with blue waters and lush greenery, ideal for travel enthusiasts.",
+    "credit": "Photo: Giannis Chatzivrettas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-aerial-view-of-the-corinth-canal-in-greece-32187302/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "corinth canal bridge"

@@ -27,8 +27,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32963025/pexels-photo-32963025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Serene view of Lindos coast with clear blue water, rocky cliffs, and boats floating under a clear sky.",
+    "credit": "Photo: Elif Kuş / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-coastal-cliffs-with-boats-in-lindos-bay-32963025/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "lindos"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39480585/pexels-photo-39480585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of a beachfront resort in Malia, Greece, showcasing its pool and sea view.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-malia-beachfront-resort-in-greece-39480585/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "Crete resort pool beach"

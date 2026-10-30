@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39480624/pexels-photo-39480624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque aerial view of a beach with umbrellas and clear water in Malia, Greece.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-sandy-beach-in-malia-greece-39480624/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "crete family beach"

@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31997280/pexels-photo-31997280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque yachts docked in the harbor of Fiskardo, Greece, under clear blue skies.",
+    "credit": "Photo: Steve / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-fiskardo-yacht-harbor-in-greece-31997280/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "lefkada town"

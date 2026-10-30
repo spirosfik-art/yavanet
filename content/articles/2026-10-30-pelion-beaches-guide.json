@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5333377/pexels-photo-5333377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Pelion's coastline in Greece with lush forests and blue sea.",
+    "credit": "Photo: Chavdar Lungov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/green-trees-beside-body-of-water-5333377/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "pelion beach"

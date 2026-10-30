@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15596455/pexels-photo-15596455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Cozy cafe lounge with a large sofa and greenery in Athens, Greece, bathed in natural sunlight.",
+    "credit": "Photo: Zsófia Fehér / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/interior-of-hotel-restaurant-15596455/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "athens hotel"

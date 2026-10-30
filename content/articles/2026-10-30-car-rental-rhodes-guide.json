@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8803872/pexels-photo-8803872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A sweeping aerial view of Rodos houses near the turquoise ocean with clear skies.",
+    "credit": "Photo: Márton Novák / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/beach-behind-line-of-houses-8803872/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "rhodes road"

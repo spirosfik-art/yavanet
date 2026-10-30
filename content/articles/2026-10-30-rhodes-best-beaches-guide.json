@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/275591/pexels-photo-275591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning aerial view of a turquoise lagoon surrounded by rocky cliffs and lush greenery, ideal for travel enthusiasts.",
+    "credit": "Photo: Pixabay / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-on-body-of-water-275591/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "rhodes anthony quinn bay"

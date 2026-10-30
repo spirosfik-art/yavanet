@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32105692/pexels-photo-32105692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming Greek village with boats by a peaceful beach. Idyllic island setting.",
+    "credit": "Photo: Michelle Chadwick / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-greek-island-village-with-boats-32105692/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "kefalonia"

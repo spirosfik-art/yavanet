@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33023678/pexels-photo-33023678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Idyllic beach scene in Thassos, Greece with blue waters and rocky shoreline under a sunny sky.",
+    "credit": "Photo: Daciana  Cristina  Visan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-crystal-clear-beach-in-thassos-33023678/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "kassandra halkidiki beach"

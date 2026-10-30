@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/19079401/pexels-photo-19079401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial night view of illuminated harbor and town in Κέρκυρα, Greece.",
+    "credit": "Photo: Ernestos Vitouladitis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-in-harbor-in-illuminated-coastal-town-at-night-19079401/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "corfu town liston night"

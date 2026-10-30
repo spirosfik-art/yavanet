@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32865049/pexels-photo-32865049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a beach in Mykonos with a Greek flag and traditional church.",
+    "credit": "Photo: Daciana  Cristina  Visan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/greek-beach-with-church-and-flag-in-mykonos-32865049/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos family beach"

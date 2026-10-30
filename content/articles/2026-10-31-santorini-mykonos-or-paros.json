@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1465821/pexels-photo-1465821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful view of Santorini's iconic coastline with colorful houses by the sea.",
+    "credit": "Photo: Elena Zhuravleva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/houses-in-mountain-near-ocean-1465821/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Santorini caldera Oia"

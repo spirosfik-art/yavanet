@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17901738/pexels-photo-17901738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Corfu Town, Greece, highlighting historical architecture along the coast.",
+    "credit": "Photo: Ollie Craig / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-on-sea-coast-17901738/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "corfu old town street"

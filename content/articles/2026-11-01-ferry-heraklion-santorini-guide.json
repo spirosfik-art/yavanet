@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1518498/pexels-photo-1518498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial shot of Santorini coast at sunset with a cruise ship in the Aegean Sea.",
+    "credit": "Photo: Nextvoyage / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-photo-of-white-buildings-near-a-bay-1518498/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "ferry santorini caldera"

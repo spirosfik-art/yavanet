@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5333369/pexels-photo-5333369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Agios Ioannis beach in Greece, showcasing clear turquoise waters, lush greenery, and mountain backdrop.",
+    "credit": "Photo: Chavdar Lungov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/green-mountain-beside-body-of-water-5333369/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "pelion guesthouse"

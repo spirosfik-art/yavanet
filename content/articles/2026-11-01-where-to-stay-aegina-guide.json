@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13898442/pexels-photo-13898442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tranquil Mediterranean harbor scene with boats, mountains, and traditional architecture under clear skies.",
+    "credit": "Photo: Pham Ngoc Anh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-in-port-in-mountains-landscape-13898442/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "aegina harbour"

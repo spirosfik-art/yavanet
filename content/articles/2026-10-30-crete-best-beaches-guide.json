@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38648760/pexels-photo-38648760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of the turquoise waters and sandy beaches of Balos Lagoon in Crete, Greece.",
+    "credit": "Photo: Pero Marlito / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-balos-lagoon-in-crete-greece-38648760/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "balos lagoon"

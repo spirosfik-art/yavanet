@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/930696/pexels-photo-930696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Black sand beach and colorful pathway in Santorini, Greece captured on a sunny day.",
+    "credit": "Photo: Brigitte Ledermann / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/red-and-white-metal-planks-on-black-sand-930696/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "santorini black sand beach"

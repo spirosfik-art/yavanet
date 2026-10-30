@@ -15,8 +15,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5653362/pexels-photo-5653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A scenic view of the Portara on Naxos Island during sunset, highlighting its ancient charm.",
+    "credit": "Photo: Nikolaos Sakellaris / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ruin-on-island-5653362/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "naxos portara"

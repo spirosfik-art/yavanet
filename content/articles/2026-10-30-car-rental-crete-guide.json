@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10486599/pexels-photo-10486599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque road along the blue sea in Iraklio, Greece, under a clear summer sky.",
+    "credit": "Photo: Codrin Rusu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/asphalt-road-in-a-tranquil-landscape-and-sapphire-blue-sea-10486599/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "crete road"

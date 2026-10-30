@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39810425/pexels-photo-39810425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Crowds bustling through a lively market street in Rhodes, Greece, with a sunny day ambiance.",
+    "credit": "Photo: Kader Azra Namuslu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/busy-market-street-in-historic-rhodes-city-39810425/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "rhodes old town sokratous street shops"

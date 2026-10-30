@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15831930/pexels-photo-15831930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking aerial view of Corfu coastline with lush greenery and sparkling blue sea in summer.",
+    "credit": "Photo: Artūras Kokorevas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/forest-on-sea-coast-15831930/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu paleokastritsa bay sunset"

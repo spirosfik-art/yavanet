@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11024692/pexels-photo-11024692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic view of Athens coastline with cruise ships in the Mediterranean Sea, highlighting urban and maritime scenery.",
+    "credit": "Photo: Silke Schümann / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-city-buildings-11024692/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "Piraeus port ships"

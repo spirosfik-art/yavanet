@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39480606/pexels-photo-39480606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the stunning coastline of Malia, Crete with its clear waters and picturesque landscape.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-malia-beachfront-in-crete-greece-39480606/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "kalamata waterfront hotel"

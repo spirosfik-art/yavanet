@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/19895683/pexels-photo-19895683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant coastal village of Ayvalık in Türkiye, overlooking serene waters and picturesque houses.",
+    "credit": "Photo: Şinasi Müldür / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/buildings-by-a-lake-19895683/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "molyvos lesvos village"

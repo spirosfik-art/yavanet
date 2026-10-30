@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13650574/pexels-photo-13650574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A young girl in a white dress enjoying a summer day outside a blue door with vibrant flowers.",
+    "credit": "Photo: Oliver LOK / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/girl-in-white-dress-with-sunglasses-standing-beside-purple-wooden-door-13650574/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini family"

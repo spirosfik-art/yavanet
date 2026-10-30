@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/3732499/pexels-photo-3732499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Rhodes, Greece with its beautiful beach and vibrant cityscape under a clear blue sky.",
+    "credit": "Photo: Erik Karits / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-city-buildings-near-sea-3732499/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "rhodes beach"

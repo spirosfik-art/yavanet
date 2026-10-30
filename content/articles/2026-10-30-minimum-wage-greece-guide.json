@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5579239/pexels-photo-5579239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Cozy indoor lounge in Greece with modern rustic design and minimalist decor, featuring a comfortable chair and cozy sofa.",
+    "credit": "Photo: H O M A D / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/modern-interior-of-lounging-area-5579239/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "greek office"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/984869/pexels-photo-984869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming street market in Chania, Greece, with vibrant textiles and local crafts on display.",
+    "credit": "Photo: Cátia Matos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/man-selling-store-item-984869/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "chania old town leather street"

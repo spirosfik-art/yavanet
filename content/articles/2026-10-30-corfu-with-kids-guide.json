@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15986524/pexels-photo-15986524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene seascape of Corfu's beach with golden sands, turquoise waters, and lush cliffs under a cloudy sky.",
+    "credit": "Photo: Artūras Kokorevas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-seashore-on-corfu-greece-15986524/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu beach"

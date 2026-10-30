@@ -15,8 +15,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/2611070/pexels-photo-2611070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of the stunning Porto Katsiki beach with turquoise waters and cliffs in Lefkada, Greece.",
+    "credit": "Photo: Antone Adi / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boat-on-ocean-2611070/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "porto katsiki"

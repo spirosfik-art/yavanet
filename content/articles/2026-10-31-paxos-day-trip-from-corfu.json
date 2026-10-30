@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13408322/pexels-photo-13408322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the vibrant harbor of Gaios, Greece, featuring docked yachts, colorful buildings, and clear blue skies.",
+    "credit": "Photo: Nikola Čedíková / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-near-buildings-along-a-body-of-water-13408322/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "paxos gaios harbour"

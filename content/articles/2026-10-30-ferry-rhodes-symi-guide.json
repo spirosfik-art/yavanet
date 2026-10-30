@@ -15,8 +15,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38161758/pexels-photo-38161758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful coastal scene featuring a sailing yacht against mountainous backdrop.",
+    "credit": "Photo: Tomasz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/serene-harbor-view-with-sailing-yacht-38161758/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "symi"

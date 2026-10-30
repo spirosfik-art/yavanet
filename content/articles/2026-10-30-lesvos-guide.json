@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/25489900/pexels-photo-25489900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque coastal scene of Bozcaada with clear blue waters and charming hillside houses.",
+    "credit": "Photo: The KRM / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/seaside-town-with-beach-25489900/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "lesvos"

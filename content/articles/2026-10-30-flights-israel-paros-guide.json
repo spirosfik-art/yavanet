@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32137737/pexels-photo-32137737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming white Greek chapel with blue accents, cross, and Greek flag under clear sky.",
+    "credit": "Photo: Daciana  Cristina  Visan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-greek-chapel-with-flag-in-scenic-landscape-32137737/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "paros airport"

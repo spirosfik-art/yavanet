@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13290947/pexels-photo-13290947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tranquil beach in Antiparos, Greece with crystal clear water under a bright summer sky.",
+    "credit": "Photo: Claudia Schmalz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-the-beach-13290947/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "paros kolymbithres beach"

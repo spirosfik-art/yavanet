@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5750986/pexels-photo-5750986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial shot of a luxurious coastal resort in Greece with mountains in the background.",
+    "credit": "Photo: Bert Christiaens / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/resort-with-private-beach-5750986/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "hersonissos harbour crete"

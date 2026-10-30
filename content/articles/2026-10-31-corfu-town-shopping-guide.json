@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/36176231/pexels-photo-36176231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant street scene in Corfu Town, Greece, showcasing local shops and cafes under sunny skies.",
+    "credit": "Photo: Peter Keeble / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bustling-street-in-historic-corfu-town-greece-36176231/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "corfu town street"

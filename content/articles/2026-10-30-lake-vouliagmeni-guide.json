@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/19131418/pexels-photo-19131418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene lake scene featuring rowers against a scenic mountain backdrop.",
+    "credit": "Photo: M.Emin  BİLİR / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-a-mountain-reflecting-on-a-lake-19131418/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "vouliagmeni lake"

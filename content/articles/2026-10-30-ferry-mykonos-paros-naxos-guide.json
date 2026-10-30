@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38748350/pexels-photo-38748350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of boats docked in a harbor with traditional Greek architecture in the background.",
+    "credit": "Photo: Jeremy  de Blok / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-docked-in-a-picturesque-greek-harbor-38748350/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos port"

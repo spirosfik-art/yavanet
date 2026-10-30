@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/26063246/pexels-photo-26063246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a Greek coastal town with colorful fishing boats docked at the marina.",
+    "credit": "Photo: Denys Gromov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boats-in-marina-of-coastal-town-26063246/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "hydra harbour winter"

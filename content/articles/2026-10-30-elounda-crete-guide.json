@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/804978/pexels-photo-804978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a luxury yacht docked at a resort with vibrant blue waters in the Mediterranean.",
+    "credit": "Photo: GEORGE DESIPRIS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sail-boat-in-body-of-water-804978/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "elounda"

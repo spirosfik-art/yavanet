@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/729169/pexels-photo-729169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Myrtos Beach's turquoise waters and sandy shore in Kefalonia, Greece.",
+    "credit": "Photo: Daniela Elena Tentis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ocean-near-sand-729169/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "kefalonia myrtos beach"

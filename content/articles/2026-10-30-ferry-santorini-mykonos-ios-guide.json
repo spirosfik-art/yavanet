@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11714804/pexels-photo-11714804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene sunset view over the Aegean Sea with boats and distant islands.",
+    "credit": "Photo: Zey / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-photography-of-ferries-on-the-ocean-during-sunrise-11714804/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini ferry"

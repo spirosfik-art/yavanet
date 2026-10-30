@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12011630/pexels-photo-12011630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "View of the historic Old Fortress in Corfu, Greece, with a sailing boat in the foreground.",
+    "credit": "Photo: Marina Gr / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/historic-architecture-on-an-island-12011630/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "corfu coast"

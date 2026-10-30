@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9629072/pexels-photo-9629072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the breathtaking cliffs and azure waters of the Ionian Sea in Greece's captivating landscape.",
+    "credit": "Photo: Chris Margaritis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bushes-on-rocks-on-tropical-sea-shore-9629072/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "lefkada coast"

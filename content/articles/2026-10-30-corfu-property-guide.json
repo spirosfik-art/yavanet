@@ -31,8 +31,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33350490/pexels-photo-33350490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking landscape view of Korfu, Greece, showcasing lush greenery and the Mediterranean Sea.",
+    "credit": "Photo: Nico Hartnauer / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-korfu-s-mediterranean-landscape-33350490/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "corfu villa"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/7962518/pexels-photo-7962518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Myrtos Beach with turquoise waters and rugged cliffs on Kefalonia Island, Greece.",
+    "credit": "Photo: Ejona Muka / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/myrtos-beach-kefalonia-island-greece-7962518/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "kefalonia beach sea"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5121780/pexels-photo-5121780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of turquoise waters and boats along Paleokastritsa coast in Greece.",
+    "credit": "Photo: Dimitrios Mavrikis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/top-view-of-blue-sea-5121780/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu paleokastritsa"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27371479/pexels-photo-27371479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the picturesque streets and architecture of a charming Greek village under a bright summer sky.",
+    "credit": "Photo: Erik Karits / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-narrow-cobblestone-street-with-stone-walls-and-a-stone-staircase-27371479/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "hersonissos crete village"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38248687/pexels-photo-38248687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking view of a castle by the seaside, surrounded by a quaint town and clear blue waters under a bright summer sky.",
+    "credit": "Photo: Zeynep Kahraman / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-aerial-view-of-seaside-castle-and-town-38248687/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "lesvos coast molyvos"

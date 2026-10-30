@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39537057/pexels-photo-39537057.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene beach with umbrellas and a pier at sunset, perfect for relaxation.",
+    "credit": "Photo: Timuçin Şen / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-coastal-beach-with-umbrellas-at-sunset-39537057/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "athens riviera beach"

@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5333372/pexels-photo-5333372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of the lush green coastline of Pelion meeting the vibrant blue Aegean Sea under a cloudy sky.",
+    "credit": "Photo: Chavdar Lungov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/trees-near-the-ocean-5333372/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "pelion"

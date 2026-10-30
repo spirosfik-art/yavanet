@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/3327997/pexels-photo-3327997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking aerial shot of a coastal city in Rhodes, Greece, featuring stunning beaches and blue seas.",
+    "credit": "Photo: Devin Koopman / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-aerial-shot-of-a-coastal-city-3327997/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "rhodes hotel sea"

@@ -31,8 +31,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37308502/pexels-photo-37308502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque Chania harbor with historic buildings lining the water under a clear sky.",
+    "credit": "Photo: Kimmo Vainio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-chania-waterfront-in-crete-37308502/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "chania old harbour"

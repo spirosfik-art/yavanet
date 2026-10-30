@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32930072/pexels-photo-32930072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful coastal landscape of Kardamili with clear blue water and stone houses.",
+    "credit": "Photo: Lydia Griva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-coastal-view-of-kardamili-greece-32930072/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "peloponnese coast"

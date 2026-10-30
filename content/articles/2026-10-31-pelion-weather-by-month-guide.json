@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37048466/pexels-photo-37048466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a mountainous village with traditional red-roofed houses nestled among green hills.",
+    "credit": "Photo: Çiğdem İŞERİ / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-mountain-village-with-red-tile-roofs-37048466/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "pelion mountain village"

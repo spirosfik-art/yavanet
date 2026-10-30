@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5750999/pexels-photo-5750999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Hersonissos coastline with resorts and Mediterranean Sea in Greece.",
+    "credit": "Photo: Bert Christiaens / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/resort-on-crete-5750999/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "hersonissos crete"

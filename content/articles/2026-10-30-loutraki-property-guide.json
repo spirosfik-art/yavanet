@@ -26,8 +26,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31096088/pexels-photo-31096088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a coastal city with beaches, green hills, and a vast blue sea under a clear sky.",
+    "credit": "Photo: George Alex / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-coastal-city-and-sea-horizon-31096088/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "loutraki"

@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38016316/pexels-photo-38016316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the tranquil beauty of a hidden beach cove along the Greek coastline, perfect for a summer escape.",
+    "credit": "Photo: Nils Rotura / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/serene-beach-cove-on-the-greek-coastline-38016316/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "sithonia beach"

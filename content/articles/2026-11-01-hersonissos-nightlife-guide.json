@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12905416/pexels-photo-12905416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic nighttime view of Hersonissos' hillside with illuminated village houses and mountainous backdrop.",
+    "credit": "Photo: Erik Karits / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/houses-near-brown-mountain-under-blue-sky-12905416/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "hersonissos night"

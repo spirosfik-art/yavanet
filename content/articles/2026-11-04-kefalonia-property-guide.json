@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33796764/pexels-photo-33796764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque coastal village of Assos in Kefalonia with colorful houses and clear sea.",
+    "credit": "Photo: Dmitry Rodionov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-assos-village-kefalonia-greece-33796764/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "kefalonia village house sea"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13059620/pexels-photo-13059620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Capture the stunning coastal cityscape of Rethymno, Crete, with mountains and sea.",
+    "credit": "Photo: Sleurink .JPEG / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/city-buildings-near-the-ocean-13059620/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "rethymno"

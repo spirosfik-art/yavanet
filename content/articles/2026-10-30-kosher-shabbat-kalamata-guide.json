@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40383940/pexels-photo-40383940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A detailed view of ripe, glossy black olives at a market in İzmir, Türkiye, showcasing quality produce.",
+    "credit": "Photo: Doğan Alpaslan  Demir / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/close-up-of-fresh-black-olives-in-izmir-market-40383940/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "kalamata"

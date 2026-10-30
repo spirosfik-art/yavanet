@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13900836/pexels-photo-13900836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A picturesque historic building in a European town square captured at dusk, with people strolling nearby.",
+    "credit": "Photo: Pham Ngoc Anh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-a-historic-building-13900836/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "Heraklion market street"

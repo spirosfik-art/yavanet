@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38053436/pexels-photo-38053436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "El Al Boeing 777 aircraft flying through a clear blue sky, capturing aviation in motion.",
+    "credit": "Photo: Go Journal / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/boeing-777-el-al-plane-in-flight-against-clear-sky-38053436/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "el al plane athens airport"

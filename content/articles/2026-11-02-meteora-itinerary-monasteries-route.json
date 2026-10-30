@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6138796/pexels-photo-6138796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Meteora's ancient monasteries atop rock formations in Greece.",
+    "credit": "Photo: Konstantinos Porikis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/building-on-rock-formation-in-mountains-6138796/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "meteora monasteries rocks"

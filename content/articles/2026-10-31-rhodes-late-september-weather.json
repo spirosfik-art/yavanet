@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10929911/pexels-photo-10929911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a stunning beach and coastal buildings in Rhodes, Greece under a clear blue sky.",
+    "credit": "Photo: Erik Karits / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/body-of-water-near-buildings-10929911/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "Rhodes beach autumn"

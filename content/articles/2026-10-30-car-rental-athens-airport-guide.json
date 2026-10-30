@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34785934/pexels-photo-34785934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Sky Express airplane parked at Athens Airport with scenic background.",
+    "credit": "Photo: Dawid Tkocz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sky-express-airplane-at-athens-international-airport-34785934/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "athens airport"

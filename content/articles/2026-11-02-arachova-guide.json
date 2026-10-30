@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40530640/pexels-photo-40530640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a picturesque Greek town with red-roof houses nestled in rolling hills during winter.",
+    "credit": "Photo: Ashwani Sharma / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-winter-town-landscape-in-greece-40530640/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "arachova village winter"

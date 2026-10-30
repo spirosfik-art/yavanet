@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/16563681/pexels-photo-16563681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning bird's-eye view of white buildings in Mykonos Town overlooking the blue Aegean Sea.",
+    "credit": "Photo: AXP Photography / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-with-white-buildings-on-sea-shore-in-greece-16563681/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "mykonos windmills sunny"

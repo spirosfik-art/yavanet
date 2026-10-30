@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13584142/pexels-photo-13584142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Myrtos Beach in Greece showcasing beautiful turquoise waters.",
+    "credit": "Photo: Vasilis Spyrou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-the-ocean-13584142/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "myrtos beach kefalonia"

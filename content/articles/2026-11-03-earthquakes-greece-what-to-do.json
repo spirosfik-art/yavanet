@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "quake"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15861615/pexels-photo-15861615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Excavator removing rubble from a collapsed building area in Antakya, Türkiye.",
+    "credit": "Photo: Doruk Aksel Anıl / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/destroyed-buildings-after-earthquake-15861615/",
+    "license": "Pexels License",
+    "fallbackKey": "quake"
   },
   "meta": {
     "imageQuery": "greece earthquake safety"

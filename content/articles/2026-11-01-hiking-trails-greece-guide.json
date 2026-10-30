@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39184957/pexels-photo-39184957.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking view of Άγραφα mountains under a clear blue sky.",
+    "credit": "Photo: Alex Ravvas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-mountain-view-in-greece-39184957/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "hiking trail greece mountains"

@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31106545/pexels-photo-31106545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of Heraklion marina with yachts and city buildings under a clear blue sky.",
+    "credit": "Photo: Gintare K. / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/heraklion-marina-with-cityscape-and-yachts-31106545/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "heraklion crete"

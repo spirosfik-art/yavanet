@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5333375/pexels-photo-5333375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of a lush Greek coastline meeting the azure sea.",
+    "credit": "Photo: Chavdar Lungov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-photo-of-an-island-5333375/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "pelion village"

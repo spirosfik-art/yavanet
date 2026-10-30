@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13900591/pexels-photo-13900591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning rooftop view in Santorini featuring a cactus and the serene blue sea. Perfect travel destination.",
+    "credit": "Photo: Pham Ngoc Anh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cactus-plant-on-the-rooftop-13900591/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini caldera hotel"

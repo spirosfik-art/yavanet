@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/25587682/pexels-photo-25587682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of Kastoria's lakeside cityscape with a serene lake and blue sky.",
+    "credit": "Photo: Sabina Kallari / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/landscape-of-a-city-by-a-river-25587682/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "kastoria lake"

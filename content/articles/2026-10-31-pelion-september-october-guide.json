@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30489649/pexels-photo-30489649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A charming stone cottage surrounded by autumn foliage, evoking nostalgia and tranquility.",
+    "credit": "Photo: Mahmut  yılmaz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/rustic-stone-cottage-in-autumn-setting-30489649/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "pelion autumn village"

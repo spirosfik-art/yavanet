@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18774925/pexels-photo-18774925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming white-washed buildings and boats along Paros Island's scenic waterfront pier.",
+    "credit": "Photo: AXP Photography / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-and-sea-18774925/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "Paros Naoussa harbour"

@@ -27,8 +27,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40583512/pexels-photo-40583512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming view of traditional buildings with a Greek flag in Old Town Corfu, Greece.",
+    "credit": "Photo: Leon Aschemann / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/historic-architecture-in-old-town-corfu-greece-40583512/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "corfu old town"

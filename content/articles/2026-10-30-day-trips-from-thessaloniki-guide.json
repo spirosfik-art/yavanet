@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37395270/pexels-photo-37395270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the breathtaking Edessa waterfall cascading through lush greenery.",
+    "credit": "Photo: George Panagiotakos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-edessa-waterfall-in-greece-37395270/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "edessa waterfalls"

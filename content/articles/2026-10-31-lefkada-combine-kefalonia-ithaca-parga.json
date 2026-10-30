@@ -18,8 +18,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/877369/pexels-photo-877369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Sailboats and windsurfers enjoy a sunny day on Vasiliki Bay, Greece with lush hills in the background.",
+    "credit": "Photo: Brett Jordan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/man-in-black-top-ridding-sailboat-877369/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "lefkada vasiliki harbour ferry"

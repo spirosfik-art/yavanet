@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37037774/pexels-photo-37037774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming Greek island village with whitewashed houses nestled into a rocky hillside, under a bright sky.",
+    "credit": "Photo: Kimmo Vainio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/picturesque-greek-island-village-on-hillside-37037774/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "karpathos olympos village"

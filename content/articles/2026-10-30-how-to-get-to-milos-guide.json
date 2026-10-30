@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9323942/pexels-photo-9323942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of yachts at the Milos harbor with clear blue waters and a sunny sky.",
+    "credit": "Photo: Edouard CHASSAIGNE / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photograph-of-boats-in-a-port-9323942/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "milos port"

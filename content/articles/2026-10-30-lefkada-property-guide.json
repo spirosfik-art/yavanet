@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5029939/pexels-photo-5029939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque scenery of terrace of coastal house against endless blue rippling sea on sunny day",
+    "credit": "Photo: Sophie Dale / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/balcony-of-lifeguard-tower-in-front-of-blue-ocean-5029939/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "lefkada house"

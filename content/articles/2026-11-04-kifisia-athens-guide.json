@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5779305/pexels-photo-5779305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Cozy outdoor view of an ice cream shop on a sunny street in Athens.",
+    "credit": "Photo: Markus Winkler / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ice-cream-shop-on-a-side-street-5779305/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "kifisia athens"

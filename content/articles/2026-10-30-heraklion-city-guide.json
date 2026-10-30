@@ -19,8 +19,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39492446/pexels-photo-39492446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A peaceful scene of a lone tree by the sea at sunset with mountains in the distance.",
+    "credit": "Photo: Victoriia Gerasymchuk / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/tranquil-coastal-scene-with-lone-tree-at-sunset-39492446/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "heraklion"

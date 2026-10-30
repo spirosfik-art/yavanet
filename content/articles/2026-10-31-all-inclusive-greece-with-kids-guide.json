@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17901759/pexels-photo-17901759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial shot of a vibrant water park in Corfu, Greece, featuring pools and slides.",
+    "credit": "Photo: Ollie Craig / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/swimming-pools-in-a-summer-resort-17901759/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "family resort pool greece"

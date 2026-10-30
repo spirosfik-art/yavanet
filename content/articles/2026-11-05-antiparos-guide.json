@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20142606/pexels-photo-20142606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Relaxing view of Antiparos, Greece from a luxurious balcony setting.",
+    "credit": "Photo: Claudia Schmalz / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/table-and-chairs-on-balcony-with-sea-coast-and-hills-behind-20142606/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "antiparos island village"

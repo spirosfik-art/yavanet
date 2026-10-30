@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/24448990/pexels-photo-24448990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A cat sits on a pier with a view of the traditional white buildings of Mykonos, Greece at sunset.",
+    "credit": "Photo: Xavier Messina / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cat-by-the-sea-short-24448990/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos winter"

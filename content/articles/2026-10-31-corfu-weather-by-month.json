@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8766279/pexels-photo-8766279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking view of a rugged, green coastline with crystal clear waters on a sunny day.",
+    "credit": "Photo: Hanna Auramenka / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cliffs-near-sea-shore-8766279/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu coast green"

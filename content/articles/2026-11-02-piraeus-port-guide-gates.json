@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40173833/pexels-photo-40173833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Ferry deck view of Piraeus port cityscape at dusk with passengers and lifeboat.",
+    "credit": "Photo: Hakan AKSUNER / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/evening-ferry-view-of-piraeus-greece-port-40173833/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "piraeus port ferry"

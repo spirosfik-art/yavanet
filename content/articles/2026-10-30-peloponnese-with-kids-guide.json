@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5576664/pexels-photo-5576664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A person enjoying a sunny day on the pebble shores of Greece, perfect summer vacation vibe.",
+    "credit": "Photo: Loïc Alejandro / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/photo-of-person-sitting-on-rocky-shore-5576664/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "peloponnese beach family"

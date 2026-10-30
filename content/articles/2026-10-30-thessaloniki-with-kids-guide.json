@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38004462/pexels-photo-38004462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant daytime view of buildings along the Thessaloniki waterfront.",
+    "credit": "Photo: Bogdan Chirea / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/waterfront-view-of-thessaloniki-greece-38004462/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "thessaloniki waterfront"

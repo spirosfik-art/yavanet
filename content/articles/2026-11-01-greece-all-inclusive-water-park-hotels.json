@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28272692/pexels-photo-28272692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant resort in Antalya, Türkiye with colorful houses and exciting water slides overlooking the sea.",
+    "credit": "Photo: Bilal Izaddin / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-view-of-the-water-park-at-night-28272692/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "hotel water slides"

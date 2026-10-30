@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37901405/pexels-photo-37901405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant waterfront in Fiskardo, Greece with boat, café, and colorful buildings on a sunny day.",
+    "credit": "Photo: Eleni 🌻 / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/colorful-waterfront-scene-in-fiskardo-greece-37901405/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "kefalonia fiskardo"

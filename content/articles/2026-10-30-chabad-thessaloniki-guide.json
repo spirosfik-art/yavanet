@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/955672/pexels-photo-955672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the iconic White Tower, a renowned landmark in Thessaloniki under a cloudy sky.",
+    "credit": "Photo: Tomas Andreopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/brown-concrete-tower-near-on-green-trees-955672/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "thessaloniki"

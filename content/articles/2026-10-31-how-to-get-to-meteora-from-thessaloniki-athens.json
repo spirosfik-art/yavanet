@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30002100/pexels-photo-30002100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial landscape of the Meteora monasteries perched atop dramatic cliffs in Kalampaka, Greece.",
+    "credit": "Photo: Maarten van den Heuvel / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-meteora-monasteries-in-greece-30002100/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "meteora monastery"

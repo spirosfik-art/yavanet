@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29962711/pexels-photo-29962711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of Spinalonga Island surrounded by deep blue sea on a sunny day in Greece.",
+    "credit": "Photo: Bruna Santos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/beautiful-day-at-spinalonga-island-in-greece-29962711/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "plaka crete spinalonga sea"

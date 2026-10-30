@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1117256/pexels-photo-1117256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A lively gathering of people enjoying a sunset party on a beach in Mykonos, Greece.",
+    "credit": "Photo: Osvaldo Coelho Jr. / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/crowd-of-people-gathering-during-golden-hour-1117256/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "mykonos night party beach club"

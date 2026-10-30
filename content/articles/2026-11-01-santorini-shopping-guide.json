@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4076491/pexels-photo-4076491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the vibrant architecture and narrow cobblestone streets of Thera, Greece, on a sunny day.",
+    "credit": "Photo: Nextvoyage / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/empty-street-between-brown-concrete-buildings-4076491/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini oia shops"

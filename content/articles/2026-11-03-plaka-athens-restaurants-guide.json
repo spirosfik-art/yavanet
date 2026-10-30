@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10367896/pexels-photo-10367896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Captivating graffiti decorates a serene Athens alley, offering a unique blend of urban art and traditional architecture.",
+    "credit": "Photo: Peter Chirkov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-alley-with-steps-between-concrete-buildings-10367896/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "plaka athens taverna street"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33684743/pexels-photo-33684743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Outdoor café with colorful chairs and lush plants in Heraklion, Greece.",
+    "credit": "Photo: Katerina Kasotaki / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-outdoor-cafe-in-heraklion-greece-33684743/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "heraklion taverna food"

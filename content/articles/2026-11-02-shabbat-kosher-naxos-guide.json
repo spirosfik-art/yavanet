@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9553494/pexels-photo-9553494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "The ancient Portara silhouetted against a stunning sunset in Naxos, Greece.",
+    "credit": "Photo: Dimis Choropanitis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/temple-of-apollo-during-sunset-9553494/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "naxos chora portara"

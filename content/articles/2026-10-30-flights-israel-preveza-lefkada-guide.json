@@ -25,8 +25,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15249717/pexels-photo-15249717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Elegant modern footbridge in Lefkáda, Greece with a clear sky backdrop showcasing its wooden design.",
+    "credit": "Photo: Jan Ulfshede / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/good-designed-footbridge-15249717/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
     "imageQuery": "lefkada bridge"

@@ -23,8 +23,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28400319/pexels-photo-28400319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial shot of Loutraki's coastline, showcasing clear blue waters and rocky shorelines.",
+    "credit": "Photo: Giwrgos Lamp / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/beach-28400319/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "loutraki"

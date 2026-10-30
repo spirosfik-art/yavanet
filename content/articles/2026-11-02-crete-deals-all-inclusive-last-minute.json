@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11898126/pexels-photo-11898126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Chania beach, Greece with umbrellas and turquoise water.",
+    "credit": "Photo: Thanos Skoufitsas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/drone-shot-of-people-on-the-beach-with-brown-sand-11898126/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "crete resort beach"

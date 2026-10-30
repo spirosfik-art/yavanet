@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32329147/pexels-photo-32329147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Captivating sunset view of the rugged Santorini landscape with dramatic clouds.",
+    "credit": "Photo: Mihaela Claudia  Puscas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/golden-hour-landscape-of-santorini-hills-32329147/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini winter"

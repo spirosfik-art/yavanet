@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20872422/pexels-photo-20872422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of an ancient amphitheater in Athens, illuminated at night showcasing historical architecture.",
+    "credit": "Photo: Filippos Zikopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/top-view-of-an-illuminated-amphitheater-20872422/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "athens herodes atticus theatre night"

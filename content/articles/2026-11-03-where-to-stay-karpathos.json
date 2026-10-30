@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15444170/pexels-photo-15444170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore a tranquil beach enclosed by rugged cliffs, perfect for nature lovers seeking peaceful scenery.",
+    "credit": "Photo: ΧΡΗΣΤΟΣ ΜΙΧΑΛΑΙΝΑΣ / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/clouds-over-bay-with-beach-15444170/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Karpathos Amoopi bay"

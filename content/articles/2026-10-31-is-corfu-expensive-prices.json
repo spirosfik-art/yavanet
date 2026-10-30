@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14809118/pexels-photo-14809118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Liston Street in Corfu, Greece, elegantly lit at night with pedestrians strolling.",
+    "credit": "Photo: Ernestos Vitouladitis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/pedestrian-strolling-at-night-on-walkway-14809118/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "corfu town liston"

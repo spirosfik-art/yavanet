@@ -35,8 +35,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34882066/pexels-photo-34882066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of Chania Old Town and harbor, Crete, Greece, under clear blue sky.",
+    "credit": "Photo: Tatianaa Co / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/chania-old-town-waterfront-in-greece-34882066/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "chania"

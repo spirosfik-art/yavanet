@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13443328/pexels-photo-13443328.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tranquil seascape in Lefkada, Greece with serene waters and hills under clear sky.",
+    "credit": "Photo: Lucy Meadows / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/lakes-and-hill-behind-13443328/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "lefkada coastal road"

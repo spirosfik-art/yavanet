@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/36195672/pexels-photo-36195672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Breathtaking aerial view of Asos village nestled on the coast of Kefalonia, Greece.",
+    "credit": "Photo: Konrad W / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-aerial-view-of-asos-village-in-greece-36195672/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "kefalonia village"
