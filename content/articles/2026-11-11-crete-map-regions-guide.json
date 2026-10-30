@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1732422/pexels-photo-1732422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A person holds a travel guidebook overlooking a scenic coastline under a bright blue sky.",
+    "credit": "Photo: Alex Staudinger / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/person-holding-blue-map-1732422/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "crete coastline map"
+    "imageQuery": "crete coastline map",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

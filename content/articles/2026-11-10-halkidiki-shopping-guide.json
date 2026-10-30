@@ -15,11 +15,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37037744/pexels-photo-37037744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Outdoor market stall showcasing colorful handmade crafts and textiles, creating a vibrant and artistic atmosphere.",
+    "credit": "Photo: Kimmo Vainio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-outdoor-market-stall-with-handmade-crafts-37037744/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "halkidiki village shops"
+    "imageQuery": "halkidiki village shops",
+    "photoTried": true
   },
   "he": {
     "title": "שופינג בחלקידיקי: איפה קונים, שווקים ומרכזי קניות",

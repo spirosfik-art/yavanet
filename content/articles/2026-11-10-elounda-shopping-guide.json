@@ -19,11 +19,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39364510/pexels-photo-39364510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming coastal view of moored boats near Spinalonga Island in Greece, with clear blue waters.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-boats-near-spinalonga-greece-39364510/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "elounda harbour crete"
+    "imageQuery": "elounda harbour crete",
+    "photoTried": true
   },
   "he": {
     "title": "קניות באלונדה, כרתים: מה קונים ומתי לנסוע לאגיוס ניקולאוס",

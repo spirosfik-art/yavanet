@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6273914/pexels-photo-6273914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene view of Chania Harbour with illuminated buildings and clear blue sky at twilight.",
+    "credit": "Photo: Chris K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/drone-shot-of-chania-6273914/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "chania harbour night"
+    "imageQuery": "chania harbour night",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

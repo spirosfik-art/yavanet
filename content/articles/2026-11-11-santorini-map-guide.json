@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14266610/pexels-photo-14266610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Capture of Thera's dramatic cliffs in Santorini, Greece, at sunset. A tranquil sea view.",
+    "credit": "Photo: Ushindi Namegabe / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-santorini-on-cliff-above-sea-14266610/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "santorini caldera aerial"
+    "imageQuery": "santorini caldera aerial",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

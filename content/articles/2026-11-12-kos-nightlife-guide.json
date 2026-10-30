@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38001992/pexels-photo-38001992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A quaint seaside bar with stunning views of the Aegean Sea on Kos Island, Greece.",
+    "credit": "Photo: Wolfgang Weiser / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-seaside-bar-in-kos-greece-38001992/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "kos town night bars"
+    "imageQuery": "kos town night bars",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

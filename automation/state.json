@@ -17,22 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "62c3e8edffb9": 1792166968632,
-    "46cee5f0bd00": 1792166968632,
-    "1d7eeb13570a": 1792166968632,
-    "8df2d5716b9c": 1792166968632,
-    "a4a850a36c2c": 1792166968632,
-    "a64247b8223e": 1792166968632,
-    "6124a9a4c719": 1792168648711,
-    "c5f888ed388c": 1792170497031,
-    "5cdde552f591": 1792171894331,
-    "992e125db1f6": 1792172070446,
-    "7af78a10bc08": 1792173909687,
-    "b0e3609082e3": 1792173909687,
-    "56597965f5e7": 1792173909687,
-    "601d1db5f45d": 1792173909687,
-    "e3b597dfdc7a": 1792177775859,
-    "4e328b63f6c7": 1792177775859,
     "bc4bd06f61c6": 1792179332339,
     "8a939d5c463e": 1792180850111,
     "2650b95c5b94": 1792181967089,
@@ -2088,218 +2072,26 @@
     "c5ce2ae51976": 1793375527666,
     "9df5791f0aa2": 1793375527666,
     "dad1e8fdc17d": 1793375527666,
-    "3629257335db": 1793375527666
+    "3629257335db": 1793375527666,
+    "7dd68b3f8d72": 1793387703119,
+    "5c3f019899b2": 1793387703119,
+    "32547ce9b59c": 1793387703119,
+    "d336da0bf2f9": 1793387703119,
+    "690570d6bfa5": 1793387703119,
+    "08b1df4d0285": 1793387703119,
+    "d91976a0d570": 1793387703119,
+    "183ef824cf10": 1793387703119,
+    "15e402f1f586": 1793387703119,
+    "9c6e5f211905": 1793387703119,
+    "81a702f04134": 1793387703119,
+    "b92df4ac7a99": 1793387703120,
+    "2afcf2edea97": 1793387703120,
+    "a06caad5ea3e": 1793387703120,
+    "55c19b011713": 1793387703120,
+    "153db2f535b8": 1793387703120,
+    "37323cd2df2c": 1793387703120
   },
-  "pending": {
-    "2d2bfc": {
-      "createdAt": 1793368995786,
-      "item": {
-        "title": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84Q0dRU1VxNTBlZWc5bUFzLUFhbFJFLUhJb0JRUW96MVNOUjl4bmg2bGFMSFdaYWxfRU1hbHhSZFVjWVdMMUNTaFNfMUhKT0lwQ2hGdHJXSm1xdWY0LWRoZzJjaExVd1l5ckZHV3RVX2RCaEh2aDZvczQ4M3E?oc=5",
-        "summary": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής &nbsp;&nbsp; iefimerida.gr",
-        "published": "Fri, 30 Oct 2026 12:51:46 GMT",
-        "id": "214c3224783a",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "214c3224783a",
-        "section": "breaking",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "M4.6 earthquake off Halkidiki felt across northern Greece, important safety information for tourists and residents in the region.",
-        "item": {
-          "title": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84Q0dRU1VxNTBlZWc5bUFzLUFhbFJFLUhJb0JRUW96MVNOUjl4bmg2bGFMSFdaYWxfRU1hbHhSZFVjWVdMMUNTaFNfMUhKT0lwQ2hGdHJXSm1xdWY0LWRoZzJjaExVd1l5ckZHV3RVX2RCaEh2aDZvczQ4M3E?oc=5",
-          "summary": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής &nbsp;&nbsp; iefimerida.gr",
-          "published": "Fri, 30 Oct 2026 12:51:46 GMT",
-          "id": "214c3224783a",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "earthquake-chalkidiki-magnitude-4-6",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 40.38,
-          "lng": 23.55
-        },
-        "strike": null,
-        "alert": {
-          "he": "רעידת אדמה ביוון",
-          "en": "Earthquake in Greece"
-        },
-        "imageKey": "quake",
-        "imageQuery": "seismograph earthquake fault line",
-        "he": {
-          "title": "רעידת אדמה בעוצמה 4.6 הורגשה סמוך לחלקידיקי",
-          "seoTitle": "רעידת אדמה בחלקידיקי: עדכונים על רעידת אדמה ביוון",
-          "seoDesc": "רעידת אדמה בעוצמה 4.6 הורגשה מול חופי חלקידיקי ביוון. כל הפרטים המעודכנים לטסים ולשוהים באזור.",
-          "keywords": [
-            "רעידת אדמה ביוון",
-            "רעידת אדמה בחלקידיקי",
-            "רעידת אדמה באזור חלקידיקי",
-            "חדשות יוון רעידת אדמה"
-          ],
-          "dek": "רעידת אדמה בעוצמה 4.6 בסולם ריכטר התרחשה מול חופי חלקידיקי. הרשויות עוקבות אחר המצב באזור.",
-          "tldr": [
-            "רעידת אדמה בעוצמה 4.6 הורגשה מול חופי חלקידיקי.",
-            "האירוע התרחש במיקום ימי פתוח סמוך לחצי האי.",
-            "אין נתונים חדשים על נפגעים או נזק משמעותי בשלב זה."
-          ],
-          "means": "אם אתם שוהים באזור חלקידיקי או מתכננים ביקור שם בקרוב, חשוב להישאר עירניים ולהתעדכן בהנחיות הרשויות המקומיות ביוון. אין שינוי בלוחות הזמנים של הטיסות, אך תמיד מומלץ לבדוק את מצב השירותים באזור מול גורמי התיירות המוסמכים.",
-          "body": "## פרטי האירוע הסיסמי\n\nרעידת אדמה בעוצמה 4.6 בסולם ריכטר נרשמה באזור פתוח בים מול חופי חצי האי חלקידיקי ביוון. האירוע משוייך לפעילות טקטונית אופיינית לאזור זה, המוכר כיעד פופולרי לתיירים ולחובבי חופשות באיומים ובים של צפון יוון.\n\nהמוקד היה במיקום ימי, מה שמרחיק בדרך כלל את עוצמת הפגיעה הישירה ביישובים ובאתרי התיירות המרכזיים.\n\n## השפעה על תיירים ומטיילים ישראלים\n\nעבור תיירים ישראלים הנמצאים בחלקידיקי או מתכננים להגיע לאזור, רעידת אדמה בעוצמה כזו לרוב אינה מובילה לשיבושים דרמטיים בשגרת החיים, אך היא דורשת ערנות. נכון לשעה זו לא דווח על פגיעות בנפש או נזק לתשתיות מרכזיות.\n\nהפעילות בנמלים, בדרכים ובמתקני התיירות נמשכת כסדרה, ואין הנחיות מיוחדות מטעם הרשויות המקומיות המונעות הגעה לאזור.\n\n## מה לעשות בזמן ואחרי רעידת אדמה ביוון\n\nבמקרה של רעידת אדמה נוספת או תחושת רעידות, ההנחיות המקובלות ביוון דורשים להתרחק ממבנים גבוהים, מעצים ומקווי מתח גבוה, ולצאת לשטחים פתוחים במידת האפשר.\n\nמומלץ לעקוב אחר הודעות חירום רשמיות ולבדוק עדכונים מול גורמי הביטחון וההצלה המקומיים ביוון בכל שאלה או חשש.\n\n## שאלות נפוצות\n\n**האם יש הנחיות מיוחדות לתיירים בחלקידיקי?**\nנכון לעכשיו אין הנחיות מיוחדות או הגבלות תנועה באזור חלקידיקי בעקבות רעידת האדמה.\n\n**האם הטיסות לצפון יוון פועלות כרגיל?**\nכן, הפעילות האווירית והתחבורה לאזור פועלות כסדרן ללא שינויים שדווחו."
-        },
-        "en": {
-          "title": "Magnitude 4.6 Earthquake Strikes Off Chalkidiki",
-          "seoTitle": "Earthquake in Chalkidiki: Magnitude 4.6 Off Greek Coast",
-          "seoDesc": "A magnitude 4.6 earthquake was recorded off the coast of Chalkidiki in Greece. Check the latest details for visitors and locals.",
-          "keywords": [
-            "earthquake in Greece",
-            "Chalkidiki earthquake",
-            "Greece seismic update",
-            "Chalkidiki tremors"
-          ],
-          "dek": "A magnitude 4.6 earthquake struck off the coast of Chalkidiki, with local authorities monitoring the situation closely.",
-          "tldr": [
-            "An earthquake measuring 4.6 was registered off Chalkidiki.",
-            "The epicentre was located offshore in open waters.",
-            "No immediate reports of casualties or major damage have emerged."
-          ],
-          "means": "If you are visiting or planning a trip to the Chalkidiki region, stay informed through official local channels and emergency guidelines. Flights and standard travel services continue to operate as usual, but always check directly with your transport providers for any updates.",
-          "body": "## Details of the Seismic Event\n\nAn earthquake with a magnitude of 4.6 on the Richter scale was recorded in open waters off the coast of the Chalkidiki peninsula in Greece. The tremor reflects the active geological nature of the region, which is a popular destination for holidaymakers visiting northern Greece.\n\nBecause the epicentre was situated at sea, the direct impact on inland settlements and major tourist infrastructure is typically minimized.\n\n## Impact on Visitors and Travellers\n\nFor international travellers and Israelis staying in or heading to Chalkidiki, a moderate tremor of this scale generally does not disrupt standard travel itineraries. At this stage, no injuries or significant structural damages have been reported by the authorities.\n\nTransportation networks, accommodation providers, and local businesses continue to operate normally without any official restrictions in place.\n\n## Recommended Precautions During Tremors\n\nShould further aftershocks occur while in Greece, visitors are advised to follow standard safety protocols: move away from tall buildings, power lines, and glass facades, and head to open spaces if safely possible.\n\nAlways rely on official updates from local civil protection authorities for accurate information regarding safety and emergency measures.\n\n## FAQ\n\n**Are there any travel restrictions in Chalkidiki right now?**\nThere are no travel restrictions or special alerts issued for visitors in the Chalkidiki region following the earthquake.\n\n**Are flights to northern Greece operating normally?**\nYes, aviation services and travel routes to the region continue to operate as scheduled."
-        }
-      },
-      "text": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής - iefimerida.gr\nΣεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής &nbsp;&nbsp; iefimerida.gr",
-      "issues": [],
-      "el": {
-        "title": "Σεισμός 4,6 Ρίχτερ ανοιχτά της Χαλκιδικής",
-        "dek": "Σεισμική δόνηση 4,6 βαθμών της κλίμακας Ρίχτερ σημειώθηκε ανοιχτά των ακτών της Χαλκιδικής, με τις τοπικές αρχές να παρακολουθούν στενά την κατάσταση.",
-        "tldr": [
-          "Σεισμός μεγέθους 4,6 Ρίχτερ καταγράφηκε ανοιχτά της Χαλκιδικής.",
-          "Το επίκεντρο εντοπίστηκε στη θάλασσα σε ανοιχτά νερά.",
-          "Δεν έχουν υπάρξει μέχρι στιγμής αναφορές για τραυματισμούς ή σοβαρές ζημιές."
-        ]
-      },
-      "notified": true
-    },
-    "08b46d": {
-      "createdAt": 1793369080119,
-      "item": {
-        "title": "Cooper-thieves triggered explosion with 6 dead in Athens; 3 arrests",
-        "url": "https://www.keeptalkinggreece.com/2026/10/30/cooper-thieves-triggered-explosion-with-6-dead-in-athens-3-arrests/",
-        "summary": "A month after the explosion in historical center of Athens, in Plaka, where 6 people were killed, the Fire Service Arson Crime Division identified three suspects: cooper-thieves who had cut off a pipe of natural gas, thus triggering the explosion on September 25.. Authorities issued arrests warrants against three men, aged 34, 37 and 55, […]\n The post Cooper-thieves triggered explosion with 6 dead in Athens; 3 arrests appeared first on Keep Talking Greece .",
-        "published": "Fri, 30 Oct 2026 11:34:09 +0000",
-        "id": "32b06cda6209",
-        "sourceId": "ktg",
-        "sourceName": "Keep Talking Greece",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "32b06cda6209",
-        "section": "breaking",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Arrest of suspects over the fatal gas explosion in Plaka, Athens, providing critical safety and investigative updates on a major recent tragedy in the capital.",
-        "item": {
-          "title": "Cooper-thieves triggered explosion with 6 dead in Athens; 3 arrests",
-          "url": "https://www.keeptalkinggreece.com/2026/10/30/cooper-thieves-triggered-explosion-with-6-dead-in-athens-3-arrests/",
-          "summary": "A month after the explosion in historical center of Athens, in Plaka, where 6 people were killed, the Fire Service Arson Crime Division identified three suspects: cooper-thieves who had cut off a pipe of natural gas, thus triggering the explosion on September 25.. Authorities issued arrests warrants against three men, aged 34, 37 and 55, […]\n The post Cooper-thieves triggered explosion with 6 dead in Athens; 3 arrests appeared first on Keep Talking Greece .",
-          "published": "Fri, 30 Oct 2026 11:34:09 +0000",
-          "id": "32b06cda6209",
-          "sourceId": "ktg",
-          "sourceName": "Keep Talking Greece",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "athens-plaka-explosion-arrests",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 37.9715,
-          "lng": 23.7266
-        },
-        "strike": null,
-        "alert": {
-          "he": "מעצר חשודים באתונה",
-          "en": "Athens Arrests"
-        },
-        "imageKey": "house",
-        "imageQuery": "damaged building street Athens",
-        "he": {
-          "title": "פיצוץ הגז באתונה: נעצרו חשודים בגניבת צנרת נחושת",
-          "seoTitle": "פיצוץ באתונה: מעצר חשודים בגניבת נחושת שגרמה לאסון",
-          "seoDesc": "שלושה חשודים נעצרו בחשד שגנבו צנרת נחושת וגרמו לפיצוץ עז ברובע פלאקה באתונה, שבו נספו שישה בני אדם בהם ארבעה אזרחי ארצות הברית.",
-          "keywords": [
-            "פיצוץ באתונה",
-            "אתונה חדשות",
-            "פלאקה אתונה",
-            "יוון עדכונים"
-          ],
-          "dek": "חודש אחרי הפיצוץ הקטלני במרכז ההיסטורי של אתונה, הרשויות ביוון עצרו שלושה גברים בחשד שניתקו צינור גז טבעי בניסיון לגנוב נחושת.",
-          "tldr": [
-            "שלושה חשודים נעצרו בעקבות חקירת הפיצוץ ברובע פלאקה באתונה.",
-            "לפי החשד, השלושה חתכו צינור גז טבעי כדי לגנוב נחושת וגרמו לדליפה ולאסון.",
-            "בפיצוץ שהתרחש בספטמבר נספו שישה בני אדם, בהם זוג יוונים וארבעה אזרחי ארצות הברית."
-          ],
-          "means": "האירוע התרחש ברובע פלאקה המתויר באתונה. תיירים וישראלים המבקרים באזור מתבקשים להישמע להנחיות כוחות הביטחון המקומיים ולהתעדכן בערוצי החדש הרשמיים בעת שהותם בעיר.",
-          "body": "## מעצר שלושה חשודים באתונה\n\nשירות הכבאות ביוון הודיע על מעצרם של שלושה גברים, בני 34, 37 ו-55, שני אזרחי יוון ואזרח אלבני אחד, בחשד מעורבות בפיצוץ הקטלני שהחריב מבנה ברובע פלאקה ההיסטורי באתונה. המעצרים בוצעו בעקבות חקירה שנמשכה 34 ימים בפיקוח הרשויות המשפטיות.\n\nהחשודים צפויים לעמוד בפני אישומים חמורים בגין המתה בכוונה תחילה ועבירות נוספות. לפי גורמי החקירה, השלושה תועדו במצלמות אבטחה כשהם נכנסים לבניין בשעות הבוקר המוקדמות, נכנסים לחדר מדרגות ללא חלונות שבו מוקם שעון הגז, וחותכים את צנרת הגז הטבעי.\n\n## השתלשלות האירועים והנזק הכבד\n\nממצאי החקירה מעלים כי השלושה ניסו לגנוב חלקי צנרת נחושת. כתוצאה מחיתוך הצינור המשיך הגז לזרום ולהצטבר בקומה השנייה של הבניין, עד שארע הפיצוץ העוצמתי חמש שעות לאחר מכן.\n\nהפיצוץ גרם לקריסתו המוחלטת של הבניין בן שלוש הקומות. באסון נספו שישה בני אדם: זוג קשישים יוונים וארבעה אזרחים אמריקאים ששהו בדירה במקום, וכן נפצעו שתי נשים נוספות. פרקליט משפחות הקורבנות ציין את הזעזוע העמוק מכך שחיי אדם אבדו בעבור חומר גלם.\n\n## רקע ומאבק בגניבות המתכת\n\nגורמי אכיפת החוק ציינו כי שלושת העצורים מוכרים למשטרה מעשרות מעצרים קודמים בגין עבירות רכוש וסמים. גניבת צנרת נחושת ידועה כתופעה נרחבת באתרי גרוטאות ביוון מאז התרחבות תשתיות הגז הטבעי במדינה בשנים האחרונות, מה שמעורר דיון ציבורי רחב על אודות האבטחה והפיקוח על המסחר במתכות.\n\n## שאלות נפוצות\n\n**האם יש נפגעים נוספים או סכנה באזור פלאקה כעת?**\nהאירוע התרחש בסוף ספטמבר, והחשודים נעצרו כעת לאחר חקירה משטרתית. אין דיווח על סכנה פעילה נוספת באזור.\n\n**מה המעמד המשפטי של העצורים כעת?**\nהשלושה נעצרו על ידי הרשויות הצפויים לעמוד לדין בגין עבירות חמורות של המתה בכוונה תחילה וגרימת חבלה."
-        },
-        "en": {
-          "title": "Athens Gas Explosion: Three Arrested Over Copper Theft",
-          "seoTitle": "Athens Explosion Arrests: Copper Thieves Tied to Blast",
-          "seoDesc": "Three suspects arrested in Athens over a natural gas explosion in Plaka that killed six people, including four US nationals.",
-          "keywords": [
-            "Athens explosion",
-            "Plaka Athens news",
-            "Greece arrests",
-            "Athens crime news"
-          ],
-          "dek": "A month after a deadly explosion in the historic center of Athens, Greek authorities arrested three men suspected of cutting a natural gas pipe to steal copper.",
-          "tldr": [
-            "Three suspects were arrested following a 34-day investigation into the Athens explosion.",
-            "Investigators state the men cut a natural gas pipe to steal copper, triggering a massive blast.",
-            "The explosion in Plaka killed six people, including an elderly Greek couple and four US nationals."
-          ],
-          "means": "The incident occurred in the popular tourist district of Plaka in Athens. Visitors and residents in the Greek capital should follow local security updates and official advisories.",
-          "body": "## Arrests Made in Athens Explosion Case\n\nThe Fire Service Arson Crime Division in Greece announced the arrest of three men, aged 34, 37, and 55—two Greek nationals and one Albanian national—following a 34-day investigation under the supervision of prosecutors. The suspects face multiple felony charges including homicide with intent.\n\nAccording to investigators, CCTV footage captured the suspects entering a three-story building in the Plaka district in the early hours of the morning. They headed to a windowless stairwell where the natural gas meter was located and cut into the supply lines to steal copper piping.\n\n## Investigation and Sequence of Events\n\nState broadcasters reported that the natural gas continued to flow after the pipe was cut, accumulating on the building's second floor. The explosion occurred roughly five hours later, resulting in the total collapse of the three-story structure.\n\nThe blast claimed the lives of six individuals: an elderly Greek couple and four US nationals staying in an apartment, alongside two injured women. Investigators utilized CCTV footage, communications data, and physical evidence to identify and apprehend the suspects, who reportedly have extensive criminal records for past thefts and drug offenses.\n\n## Broader Context of Copper Theft\n\nAuthorities and media reports highlighted that the theft of copper piping remains a persistent issue for scrap metal in Greece since natural gas installations became widespread. The incident has renewed discussions regarding security measures around gas infrastructure and scrap metal monitoring.\n\n## FAQ\n\n**Are there any ongoing travel restrictions in Plaka following the arrests?**\nThe arrests conclude a historic investigation into an incident from September, and local authorities have not announced any current travel restrictions for the area.\n\n**What charges do the suspects face?**\nThe three arrestees are charged with three felonies for homicide with intent and one misdemeanor for causing bodily harm."
-        }
-      },
-      "text": "Cooper-thieves triggered explosion with 6 dead in Athens; 3 arrests\n FEATURED Society Very Mix \n October 30, 2026 \n 2 min. read \n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n A month after the explosion in historical center of Athens, in Plaka, where 6 people were killed, the Fire Service Arson Crime Division identified three suspects: cooper-thieves who had cut off a pipe of natural gas, thus triggering the explosion on September 25..\n Authorities issued arrests warrants against three men, aged 34, 37 and 55, two Greeks and one Albanian national.\n According to the Fire Service, three arrest warrants have been issued on Thursday, for two Greek nationals and an Albanian national following a 34-day investigation conducted under the supervision of prosecutors.\n The three were arrested at noon on Thursday and are to be charged for three felonies for homicide with intent and one misdemeanor for causing bodily harm.\n According to investigators, the suspects sabotaged the natural gas pipes in an attempt to steal copper piping, allegedly triggering the explosion.\n State broadcaster ERT reported that they had indeed cut off and stole a piece of the cooper pipe. the natural gas kept flowing, accumulating on the building’s 2nd floor and the explosion occurred 5 hours later.\n According to media information, investigators have discovered video footage showing three men approaching the three-story building around 2 a.m., that is a few hours before the tragedy. Two of them entered the premises and headed toward an enclosed, windowless stairwell, a space with no openings, where the natural gas meter was located.\n There, they attempted to remove copper piping, cutting into one of the natural gas supply lines. Within minutes, they fled the building, carrying a piece of copper pipe.\n Prompt was the reaction to the news by the lawyer of the families of the four victims, who were US nationals.\n “My clients can’t believe that people were killed for a piece of cooper,” the lawyer said.\n Investigators conducted a thorough analysis of audiovisual material, examined information obtained through court-authorised access to communications data and systematically assessed physical evidence recovered from the scene.\n Video footage from CCTV cameras, showed that a mini van with 12 school children onboard had just passed the street minutes before the explosion.\n Also CCTV cameras helped the identification of the three perpetrators as they were exiting the building.\n &nbsp;\n &nbsp;\n The three-story building collapsed, killing an elderly couple of Greeks, four US nationals staying in the Airbnb apartment and injuring two women.\n The three suspects have been reportedly arrested a total of 50 times in the past for thefts, drugs and bodily harms. However, every time they were released.\n According to latest information, the three arrestees blame each other for the pipe cut off. It was two who entered the building, while the third one was assigned to look-out.\n Cooper-pipes theft is a “flourishing” trade for scrap in Greece, especially after installations with natural gas became popular some 20 years ago.\n And here ar two questions:\n 1) Why authorities do not chase those buying the scrap\n 2) Why the gas companies keep using cooper pipes when it is obvious that they would be stolen. Oh, because iron pipes and more expensive…\n PS My own gas pipe connection was stolen twice a few years ago, one time in main summer holiday time, in August, when technician were on holiday. It cost me around 1000 euros to replace the 2.5-stolen meters with iron ones. And we could not cook for good two weeks.\n “Thank God, the thieves turned of the gas flow before they cut off the pipe, otherwise there would be a very dangerous outcome,” the technician who replaced the pipes told me.\n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n Tags \n arrests \n Athens \n cooper-thieves \n explosion \n Greeks \n Plaka \n US nationals \n LEAVE A REPLY Cancel reply \n Popular News\n South Pelion: Heavy rainfall and flash floods cause extensive destruction \n FEATURED \n October 29, 2026 \n Ferries, ships docked at 7 Greek ports due to 24h strike, Oct 30 \n FEATURED \n October 29, 2026 \n Watch Live the Grand Military Parade on October 28 \n FEATURED \n October 28, 2026 \n “Cinema Day” in Greece with €3 admission to all films, Oct 29 \n Arts \n October 29, 2026 \n Horiatiko: Bank accounts in Ireland & Denmark frozen; master-plan for money laundering \n FEATURED \n October 27, 2026 \n We want your opinion\n Polls \n &nbsp;Loading ...\n Weather Greece Live\n Find us\n Facebook \n RSS \n Twitter \n Latest News\n Reduced winter tariff for electricity in effect from Nov 1 \n October 30, 2026 \n “It was worse than an earthquake,” says young Greek survivor of the trains collision in Spain \n October 29, 2026 \n PM Mitsotakis at UN: Turkish-Libyan memorandum illegal and arbitrary, geography cannot be rewritten \n October 29, 2026 \n South Pelion: Heavy rainfall and flash floods cause extensive destruction \n October 29, 2026 \n “Cinema Day” in Greece with €3 admission to all films, Oct 29 \n October 29, 2026 \n Ferries, ships docked at 7 Greek ports due to 24h strike, Oct 30 \n October 29, 2026",
-      "issues": [],
-      "el": {
-        "title": "Έκρηξη αερίου στην Αθήνα: Τρεις συλλήψεις για κλοπή χαλκού",
-        "dek": "Έναν μήνα μετά τη φονική έκρηξη στο ιστορικό κέντρο της Αθήνας, οι ελληνικές αρχές συνέλαβαν τρεις άνδρες που είναι ύποπτοι ότι έκοψαν σωλήνα φυσικού αερίου για να κλέψουν χαλκό.",
-        "tldr": [
-          "Τρεις ύποπτοι συνελήφθησαν έπειτα από έρευνα 34 ημερών για την έκρηξη στην Αθήνα.",
-          "Οι ερευνητές αναφέρουν ότι οι άνδρες έκοψαν έναν σωλήνα φυσικού αερίου για να κλέψουν χαλκό, προκαλώντας τεράστια έκρηξη.",
-          "Η έκρηξη στην Πλάκα στοίχισε τη ζωή σε έξι ανθρώπους, μεταξύ των οποίων ένα ηλικιωμένο ελληνικό ζευγάρι και τέσσερις Αμερικανοί πολίτες."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2309,12 +2101,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-30T15:51:53.520Z",
+      "at": "2026-10-30T19:14:49.499Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-30T15:51:54.477Z",
+      "at": "2026-10-30T19:14:50.263Z",
       "items": 5
     },
     "civilprotection": {
@@ -2325,27 +2117,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-30T15:51:56.247Z",
+      "at": "2026-10-30T19:14:52.169Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-30T15:51:56.641Z",
+      "at": "2026-10-30T19:14:52.249Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-30T15:51:58.149Z",
+      "at": "2026-10-30T19:14:53.401Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-30T15:51:59.188Z",
-      "items": 3
+      "at": "2026-10-30T19:14:54.324Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-30T15:52:00.270Z",
+      "at": "2026-10-30T19:14:55.263Z",
       "items": 10
     },
     "toi-greece": {
@@ -2356,23 +2148,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-30T15:52:00.937Z",
+      "at": "2026-10-30T19:14:55.879Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-30T15:52:01.275Z",
+      "at": "2026-10-30T19:14:56.164Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-30T15:52:01.492Z",
-      "items": 7
+      "at": "2026-10-30T19:14:56.842Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T15:52:02.094Z",
-      "items": 3
+      "at": "2026-10-30T19:14:57.446Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -2381,12 +2173,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T15:51:54.947Z",
+      "at": "2026-10-30T19:14:50.827Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-30T15:52:02.846Z",
+      "at": "2026-10-30T19:14:58.124Z",
       "items": 0
     },
     "hcg": {
@@ -2397,39 +2189,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-30T15:52:04.306Z",
+      "at": "2026-10-30T19:14:59.567Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-30T15:52:04.536Z",
-      "items": 7
+      "at": "2026-10-30T19:14:59.785Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-30T15:52:04.685Z",
+      "at": "2026-10-30T19:14:59.923Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-30T15:52:04.935Z",
-      "items": 4
+      "at": "2026-10-30T19:15:00.159Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-30T15:52:05.343Z",
+      "at": "2026-10-30T19:15:00.533Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-30T15:52:05.677Z",
-      "items": 12
+      "at": "2026-10-30T19:15:00.946Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-30",
-    "count": 1,
+    "count": 5,
     "published": [
       {
         "slug": "greece-booking-december-2026",
@@ -2466,6 +2258,30 @@
         "title": "↻ Train Strike in Greece: Proastiakos and Hellenic Train Services Halted",
         "at": "2026-10-30T09:02:51+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "athens-plaka-explosion-arrests",
+        "title": "Athens Plaka explosion: Three arrested over copper theft link",
+        "at": "2026-10-30T21:14:45+02:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "earthquake-chalkidiki-felt-athens",
+        "title": "Magnitude 4.6 earthquake strikes off Chalkidiki and is felt in Athens",
+        "at": "2026-10-30T21:15:17+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "didymoteicho-jewish-cemetery-exhibition",
+        "title": "Didymoteicho Jewish Cemetery: Exhibition Revives Community Memory",
+        "at": "2026-10-30T21:15:41+02:00",
+        "section": "jewish-greece"
+      },
+      {
+        "slug": "thessaloniki-metro-50-million-passengers",
+        "title": "Thessaloniki Metro Crosses 50 Million Passengers in 23 Months",
+        "at": "2026-10-30T21:15:57+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2508,10 +2324,21 @@
         "title": "Reduced winter tariff for electricity in effect from Nov 1",
         "reason": "Ίδιο θέμα με «Energy prices in Europe: Greece update» – δεν γράφτηκε ξανά",
         "at": "2026-10-30T14:06:22.909Z"
+      },
+      {
+        "title": "Magnitude 4.6 Earthquake Strikes Off Chalkidiki",
+        "reason": "Ουδέτερη εκδοχή: Added facts not present in the source: details about emergency services, transport networks, instructions for travelers, and lack of damage/injuries were not in the source text.",
+        "at": "2026-10-30T19:14:37.010Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "athens-plaka-explosion-arrests",
+        "at": "2026-10-30T19:14:46.295Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2687,31 +2514,27 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-30T15:52:07.666Z",
-    "considered": 21,
-    "picked": 0,
+    "at": "2026-10-30T19:15:03.120Z",
+    "considered": 17,
+    "picked": 3,
     "items": [
-      "· minfin | Επεκτείνεται η επιδότηση καυσίμων για την περίοδο 1 έως 15 Νοεμβρίου 2026 – ΚΟΙΝΗ ΑΝΑΚΟΙΝΩ",
-      "· ert | Έξι χρόνια από τον φονικό σεισμό της Σάμου – Στη μνήμη του Άρη και της Κλαίρης, ανοιχτές α",
-      "· gct | Greek Flag Raised Aboard Nearchos as Greece Strengthens French Defence Ties",
-      "· gtp | IATA: Global Air Travel Demand Falls Again in September Despite International Growth",
-      "· gtp | Δωρεάν ιατρικές εξετάσεις σε 5 νησιά του Αιγαίου από πλωτή μονάδα υγείας",
-      "· naftemporiki | Ισραήλ: Η Μοσάντ φέρεται να συμμετέχει στην έρευνα για την εικαζόμενη ξένη παρέμβαση στις ",
-      "· naftemporiki | Ελβετία: Η κεντρική τράπεζα καταγράφει τεράστια κέρδη 23 δισ. δολαρίων, χάρη στον χρυσό κα",
-      "· gtp | Mitsis: Over 50 Years of Greek Hospitality",
-      "· ert | Τσουκαλάς: «Η κυβέρνηση δίνει δώρο στα funds την πρώτη κατοικία χωρίς δικαστήριο»",
-      "· naftemporiki | Ο Νετανιάχου δεν συμπεριφέρεται σαν να κέρδισε τις εκλογές – Τι θα μπορούσε να σημαίνει αυ",
-      "· ingr | ΕΛΑΣ για TAG GREECE: Επτά χρόνια μετά, χωρίς προϋπολογισμό, χωρίς στόχους, χωρίς απολογισμ",
-      "· ktg | 92-year-old woman with disabilities threatened with eviction",
-      "· ingr | «Οι λιμενεργάτες δεν εργάζονται για τον πόλεμο»: Τι μπορεί να επιτύχει μια παγκόσμια απεργ",
-      "· gn-kathimerini | Οι Τούρκοι επισκέπτες, η Χίος, το αεροδρόμιο - Kathimerini",
-      "· ingr | Τσουκαλάς: Η κυβέρνηση δίνει δώρο στα funds την πρώτη κατοικία",
-      "· gn-civilprotection | Αναδημοσίευση Ανακοίνωσης Πυροσβεστικού Σώματος - Ενημέρωση για την εξιχνίαση της υπόθεσης",
-      "· gn-iefimerida | Κλέαρχος Μαρουσάκης: Έρχεται κακοκαιρία σε όλη τη χώρα με βροχές, κρύο και χιόνια στα ορει",
-      "· gtp | Πώς να προετοιμαστείτε για μια ουσιαστική διαμονή σε ένα άσραμ γιόγκα",
-      "· gtp | Ionian Sea Marine Park Moves Forward, Environmental Study Approved",
-      "· gtp | Crete: First 10 Kilometers of New BOAK Highway Open to Traffic",
-      "· gtp | BWH Hotels Becomes WorldHotels, Uniting 18 Brands Under One Identity"
+      "· naftemporiki | Halloween στον Λευκό Οίκο: Air Force One στον αέρα, «Κόκκινος Στρατός» στο έδαφος (video)",
+      "· naftemporiki | Ισραήλ: Τα κόμματα της αντιπολίτευσης φέρονται να κατέληξαν σε συμφωνία για τον πρόεδρο τη",
+      "· naftemporiki | Πώς συγκρίνονται τα προβλήματα χρέους της Γαλλίας με την κρίση της Ελλάδας",
+      "· naftemporiki | Η εκατονταετής πορεία του ΒΕΘ αναβιώνει μέσα από ένα ιστορικό ντοκιμαντέρ για τη βιοτεχνία",
+      "· naftemporiki | Αιχμές Πελόζι για Μαμντάνι και Ελ-Σαγιέντ: Κάνουν «λάθος» όσον αφορά τις θέσεις τους για τ",
+      "· ingr | Χωριάτικο: Στη φυλακή και η κόρη του λογιστή",
+      "· ingr | Πλάκα: Δεκάδες φορές είχαν συλληφθεί οι τρεις κατηγορούμενοι για τη φονική έκρηξη – «Εμείς",
+      "· ingr | Λίβανος: Κατάσχεση εκρηκτικών της Χεζμπολάχ, 13 άτομα διώκονται",
+      "· minfin | Δημήτρης Μαρκόπουλος στη Βουλή: «Θα στηρίξετε τις ευεργετικές διατάξεις για τους δανειολήπ",
+      "✓ gtp | Thessaloniki Metro Tops 50 Million Passengers in 23 Months",
+      "· ingr | Αλέξης Τσίπρας: Η ΕΛΑΣ, ανάχωμα απέναντι στην ακρίβεια, στη διαφθορά και τον φασισμό – Ως ",
+      "· gn-iefimerida | Γιατί είχαν απασχολήσει άλλες 63 φορές οι τρεις κλέφτες χαλκού που προκάλεσαν την έκρηξη σ",
+      "· gn-iefimerida | Πλάκα: Βίντεο-ντοκουμέντο με τους τρεις κατηγορουμένους να φεύγουν με το κομμάτι του χαλκο",
+      "· gn-iefimerida | Πυροσβεστική για έκρηξη στην Πλάκα: Υπό άκρα μυστικότητα η έρευνα, έτσι φτάσαμε στη σύλληψ",
+      "· gtp | Emerging Travel Group and Traveloka Expand Hotel Distribution Through Partnership",
+      "✓ gn-kathimerini | Σεισμός 4,6 Ρίχτερ στα ανοιχτά της Χαλκιδικής – Εγινε αισθητός στην Αθήνα - Kathimerini",
+      "✓ gn-kathimerini | Εβραϊκό Νεκροταφείο Διδυμοτείχου. Εκθεση αναβιώνει τη μνήμη της κοινότητας - Kathimerini"
     ]
   },
   "evergreenDone": [
@@ -2754,5 +2577,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793317265548,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-plaka-explosion-arrests",
+      "url": "https://yavanet.gr/a/athens-plaka-explosion-arrests/",
+      "at": "2026-10-30T19:14:46.295Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-plaka-explosion-arrests/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-plaka-explosion-arrests/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "פיצוץ בפלאקה: שלושה חשודים נעצרו בחשד לגניבת צנרת גז",
+        "title_en": "Athens Plaka explosion: Three arrested over copper theft link",
+        "dek_he": "חודש אחרי הפיצוץ ברובע ההיסטורי באתונה שבו נהרגו שישה בני אדם, הרשויות ביוון עצרו שלושה חשודים במעורבות במעשה שגרם לדליפת גז.",
+        "dek_en": "Greek authorities arrested three suspects a month after a deadly natural gas explosion in the historic Plaka neighborhood of Athens.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/35465174/pexels-photo-35465174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "פיצוץ בפלאקה: שלושה חשודים נעצרו בחשד לגניבת צנרת גז\n\nחודש אחרי הפיצוץ ברובע ההיסטורי באתונה שבו נהרגו שישה בני אדם, הרשויות ביוון עצרו שלושה חשודים במעורבות במעשה שגרם לדליפת גז.\n\nhttps://yavanet.gr/a/athens-plaka-explosion-arrests/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens Plaka explosion: Three arrested over copper theft link\n\nGreek authorities arrested three suspects a month after a deadly natural gas explosion in the historic Plaka neighborhood of Athens.\n\nhttps://yavanet.gr/en/a/athens-plaka-explosion-arrests/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
