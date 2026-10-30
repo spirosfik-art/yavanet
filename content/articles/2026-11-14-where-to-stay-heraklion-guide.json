@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37844576/pexels-photo-37844576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of the historic Venetian Fort and harbor cranes in Heraklion, Crete, Greece.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/venetian-fort-and-harbor-in-heraklion-greece-37844576/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "heraklion venetian port"
+    "imageQuery": "heraklion venetian port",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

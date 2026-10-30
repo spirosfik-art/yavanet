@@ -21,11 +21,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35344283/pexels-photo-35344283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A glowing Christmas tree with Greek flags waving at night, creating a festive atmosphere.",
+    "credit": "Photo: Manos Orfanos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/illuminated-christmas-tree-and-greek-flags-at-night-35344283/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
-    "imageQuery": "athens christmas lights"
+    "imageQuery": "athens christmas lights",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

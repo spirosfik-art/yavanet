@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/26063218/pexels-photo-26063218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming waterfront view of a Greek town with boats and traditional houses.",
+    "credit": "Photo: Denys Gromov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/town-on-sea-coast-in-greece-26063218/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "hydra harbour greece"
+    "imageQuery": "hydra harbour greece",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

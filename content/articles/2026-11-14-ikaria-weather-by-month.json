@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12925562/pexels-photo-12925562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Skopelos' coastal village with red-tiled roofs and clear blue waters.",
+    "credit": "Photo: Lazar Krstić / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-houses-near-body-of-water-12925562/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "ikaria coast village"
+    "imageQuery": "ikaria coast village",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",
