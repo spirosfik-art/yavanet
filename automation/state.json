@@ -17,8 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "58b7225f88fb": 1792107950798,
-    "067788779af8": 1792111587693,
     "5e952ec32fa6": 1792113669284,
     "7459721c8a7e": 1792113669284,
     "b511debd0a74": 1792116939204,
@@ -2089,7 +2087,9 @@
     "baf0d0c8b010": 1793317224839,
     "a82ddee788c8": 1793317224839,
     "90aa5ef9c607": 1793317224839,
-    "a9555599d4d5": 1793317224839
+    "a9555599d4d5": 1793317224839,
+    "049e0ea5a27e": 1793321450120,
+    "d38da8607032": 1793321450120
   },
   "pending": {},
   "sourceStatus": {
@@ -2101,12 +2101,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-29T23:40:15.850Z",
-      "items": 0
+      "at": "2026-10-30T00:50:38.376Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-29T23:40:16.366Z",
+      "at": "2026-10-30T00:50:39.169Z",
       "items": 4
     },
     "civilprotection": {
@@ -2117,27 +2117,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-29T23:40:17.650Z",
+      "at": "2026-10-30T00:50:40.634Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-29T23:40:17.982Z",
+      "at": "2026-10-30T00:50:40.998Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-29T23:40:18.765Z",
+      "at": "2026-10-30T00:50:42.047Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-29T23:40:19.269Z",
+      "at": "2026-10-30T00:50:42.890Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-29T23:40:19.688Z",
+      "at": "2026-10-30T00:50:43.647Z",
       "items": 10
     },
     "toi-greece": {
@@ -2148,22 +2148,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-29T23:40:20.075Z",
+      "at": "2026-10-30T00:50:44.184Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-29T23:40:20.151Z",
+      "at": "2026-10-30T00:50:44.549Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-29T23:40:20.349Z",
+      "at": "2026-10-30T00:50:45.305Z",
       "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-29T23:40:20.472Z",
+      "at": "2026-10-30T00:50:45.774Z",
       "items": 8
     },
     "ynet-greece": {
@@ -2173,12 +2173,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-29T23:40:16.804Z",
+      "at": "2026-10-30T00:50:39.813Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-29T23:40:20.965Z",
+      "at": "2026-10-30T00:50:46.354Z",
       "items": 0
     },
     "hcg": {
@@ -2189,32 +2189,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-29T23:40:22.314Z",
+      "at": "2026-10-30T00:50:47.731Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-29T23:40:22.569Z",
-      "items": 8
+      "at": "2026-10-30T00:50:48.011Z",
+      "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-29T23:40:22.780Z",
+      "at": "2026-10-30T00:50:48.233Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-29T23:40:23.040Z",
+      "at": "2026-10-30T00:50:48.462Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-29T23:40:23.399Z",
+      "at": "2026-10-30T00:50:48.888Z",
       "items": 13
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-29T23:40:23.784Z",
+      "at": "2026-10-30T00:50:49.265Z",
       "items": 15
     }
   },
@@ -2431,40 +2431,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-29T23:40:24.839Z",
-    "considered": 32,
-    "picked": 2,
+    "at": "2026-10-30T00:50:50.120Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· gct | Velopoulos Urges Mitsotakis to Veto EU Russia Sanctions, Citing Trump’s Russian Fuel Deal",
-      "· ert | Ουκρανία: Ένας νεκρός από ρωσική πυραυλική επίθεση στο Κίεβο",
-      "· gct | Binance Investigates Potential Crypto Security Breach as Suspected Outflows Reach $5.6 Bil",
-      "· gct | Sir Patrick Stewart, Star Trek’s Captain Picard and X-Men’s Professor X, Dies Aged 86",
-      "· ert | Σεισμός 6 Ρίχτερ στον νότιο Ειρηνικό",
-      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr",
-      "· gct | 30 October Orthodox Gospel Warns That Breaking a Bad Pattern Is Only the First Step",
-      "· gct | Cyprus Loggerhead Turtle Swims 2,700 km to Tunisia",
-      "· gct | A Text Message Turns Thousands of Greeks Into Organ Donors",
-      "· ingr | Ουκρανία: Ενας νεκρός σε πυραυλική επίθεση της Ρωσίας στο Κίεβο",
-      "✓ gct | Ferry Strike Ties Up Ships at Greece’s Biggest Ports",
-      "· gct | Greece U15s Lose 6-2 to Spain in World Cup Semi-Final",
-      "· naftemporiki | Η ακτινογραφία της παγκόσμιας φορολόγησης: Η «κόλαση» και οι «παράδεισοι»",
-      "· ingr | Στα «ΝΕΑ» της Παρασκευής: Αν θέλετε ανακαίνιση",
-      "· gct | Greek PM Rejects Turkey-Libya Maritime Deal, Urges Black Sea Truce",
-      "· gn-iefimerida | Φωτογραφίες-ντοκουμέντα: Οι τρεις κλέφτες χαλκού έξω από το κτίριο που έγινε η έκρηξη στην",
-      "✓ gn-iefimerida | Χωρίς τρένα και Προαστιακό αύριο λόγω 24ωρης απεργίας - iefimerida.gr",
-      "· gct | Greece Raises Its Flag on New Frigate Nearchos in France",
-      "· gct | Christine Lagarde Quits ECB Early, Sets February Exit Date",
-      "· naftemporiki | Ψηφίστηκε ο νόμος που θωρακίζει το επάγγελμα του ψυχολόγου – Υποχρεωτική εγγραφή σε Πανελλ",
-      "· naftemporiki | Πτωτικά έκλεισε η Wall Street",
-      "· gct | Warrants Target Three Men Over Deadly Plaka Gas Blast",
-      "· naftemporiki | Βουτιά άνω του 12% για τις μετοχές της Alphabet, μητρικής εταιρείας της Google",
-      "· gn-iefimerida | Έκρηξη στην Πλάκα: Προσήχθησαν οι τρεις άνδρες που πήγαν να κλέψουν χαλκό και προκάλεσαν τ",
-      "· naftemporiki | Πλάκα: Συνελήφθησαν οι 3 κλέφτες χαλκού για τη φονική έκρηξη – Νέο βίντεο βλέπει το φως τη",
-      "· gn-iefimerida | Βίντεο-ντοκουμέντο από τη στιγμή της έκρηξης στην Πλάκα: Βαν με 12 μαθητές γλιτώνει την τε",
-      "· ingr | «Τραβούν χειρόφρενο» τρένα και προαστιακός – 24ωρη απεργία την Παρασκευή",
-      "· ingr | Πλάκα: Συνελήφθησαν τα τρία άτομα για την φονική έκρηξη στο κτίριο με τους 6 νεκρούς – Βίν",
-      "· gn-kathimerini | Πλάκα: Κλέφτες χαλκού πίσω από τη φονική έκρηξη - Kathimerini",
-      "· ingr | Ισραήλ: Ο Άιζενκοτ κατηγορεί τον Νετανιάχου ότι προσπαθεί να υπονομεύσει τη νομιμότητα των"
+      "· gn-civilprotection | Προμήθεια Νοσοκομείου Πεδίου διττής χρήσης - Civilprotection.gov.gr",
+      "· ingr | Σεισμός 6 Ρίχτερ στα νησιά Βανουάτου – Ο τρίτος ισχυρός σε πέντε ημέρες"
     ]
   },
   "evergreenDone": [

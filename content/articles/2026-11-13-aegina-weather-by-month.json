@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28713022/pexels-photo-28713022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful marina scene with boats and historic architecture in Aegina, Greece.",
+    "credit": "Photo: Etan Rozin / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-marina-view-in-aegina-greece-28713022/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "aegina harbour greece"
+    "imageQuery": "aegina harbour greece",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6359754/pexels-photo-6359754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial view of Sarakiniko Beach in Milos, Greece, showcasing white rock formations and azure waters.",
+    "credit": "Photo: Dimitris Mourousiadis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-people-on-rocky-island-along-a-body-of-water-6359754/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "milos sarakiniko white rocks"
+    "imageQuery": "milos sarakiniko white rocks",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32105771/pexels-photo-32105771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque dining setup by the sea on a Greek island with beautiful hillside view.",
+    "credit": "Photo: Michelle Chadwick / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-greek-island-waterfront-dining-setup-32105771/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "ithaca greece harbour"
+    "imageQuery": "ithaca greece harbour",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

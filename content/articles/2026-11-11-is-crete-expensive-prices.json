@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38313075/pexels-photo-38313075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Colorful taverna with ocean views in Phalasarna, Greece. Ideal for summer relaxation.",
+    "credit": "Photo: Piotr Baranowski / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-greek-taverna-overlooking-phalasarna-beach-38313075/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "crete village taverna"
+    "imageQuery": "crete village taverna",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

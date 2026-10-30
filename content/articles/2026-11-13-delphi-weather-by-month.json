@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37843988/pexels-photo-37843988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A striking view of a mountainous landscape in Delphi, Greece under dramatic clouds.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/dramatic-mountain-range-in-delphi-greece-37843988/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "delphi mountains greece"
+    "imageQuery": "delphi mountains greece",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {
