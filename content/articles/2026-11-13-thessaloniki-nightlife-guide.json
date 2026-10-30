@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/36453680/pexels-photo-36453680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning twilight view of Alexander the Great statue by the sea with vibrant skies.",
+    "credit": "Photo: Konstantinos Sarampalos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/statue-of-alexander-the-great-at-twilight-36453680/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
-    "imageQuery": "thessaloniki waterfront night"
+    "imageQuery": "thessaloniki waterfront night",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

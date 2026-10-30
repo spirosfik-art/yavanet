@@ -18,11 +18,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33052497/pexels-photo-33052497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Turkish Airlines airplane taxiing on a sunny airport runway with clear skies.",
+    "credit": "Photo: Drinu Cutajar / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/turkish-airlines-plane-on-runway-in-airport-33052497/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "meta": {
-    "imageQuery": "ben gurion airport terminal"
+    "imageQuery": "ben gurion airport terminal",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {

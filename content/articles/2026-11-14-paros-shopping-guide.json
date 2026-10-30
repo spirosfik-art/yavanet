@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9883700/pexels-photo-9883700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming white buildings by the coast in Naoussa, Paros Island with serene blue waters and hills in the background.",
+    "credit": "Photo: Haris Philip / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-concrete-buildings-on-a-shore-9883700/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "paros naoussa shops"
+    "imageQuery": "paros naoussa shops",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

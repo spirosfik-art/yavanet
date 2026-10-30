@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20706154/pexels-photo-20706154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of rustic window framed by autumn leaves in Corfu, Greece.",
+    "credit": "Photo: Peter Taylor / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-autumnal-tree-in-front-of-a-house-20706154/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "corfu autumn old town"
+    "imageQuery": "corfu autumn old town",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

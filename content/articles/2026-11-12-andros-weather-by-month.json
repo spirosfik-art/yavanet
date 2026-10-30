@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37468605/pexels-photo-37468605.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful night view of illuminated houses on the Greek coast, reflecting on calm waters.",
+    "credit": "Photo: FRANKIE FANTOPOULOS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/night-view-of-illuminated-houses-on-greek-coast-37468605/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "andros island greece"
+    "imageQuery": "andros island greece",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

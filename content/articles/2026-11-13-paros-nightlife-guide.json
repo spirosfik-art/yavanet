@@ -14,11 +14,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9883703/pexels-photo-9883703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of traditional white architecture by the clear blue sea in Naoussa, Paros Island, Greece.",
+    "credit": "Photo: Haris Philip / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-concrete-buildings-on-a-shore-9883703/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "naoussa paros night harbour"
+    "imageQuery": "naoussa paros night harbour",
+    "photoTried": true
   },
   "guideCat": "travel",
   "he": {
