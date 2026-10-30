@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T08:00:22+02:00",
+  "updated": "2026-10-30T12:52:21+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -28,17 +28,6 @@
       "link": "https://www.aviasales.com/search/TLV1111SKG18111?t=IZ17944131001794421800000145TLVSKG17950320001795040400000140SKGTLV_ac26e69befc14e54a7d2b5fe690f7832_14149&search_date=26102026&expected_price_uuid=01a1762b-af17-8030-242c-4311a93eb761&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gOvx0xzh8iOHnEiEr-1SmQ&expected_price_source=share&expected_price_currency=eur&expected_price=158&marker=782936"
     },
     {
-      "dest": "HER",
-      "he": "הרקליון, כרתים",
-      "en": "Heraklion, Crete",
-      "price": 203,
-      "depart": "2026-11-25",
-      "ret": "2026-11-28",
-      "airline": "Sky Express",
-      "transfers": 1,
-      "link": "https://www.aviasales.com/search/TLV2511HER28111?t=GQ17956494001795680000000510TLVATHHER17958924001795898400000100HERTLV_4dea689a981803bc7918af067d2632e0_18560&search_date=22102026&expected_price_uuid=01a16249-ab74-8031-2454-b632c8e40080&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ypOXxDdvQP2arrwmY4YaSA&expected_price_source=share&expected_price_currency=eur&expected_price=203&marker=782936"
-    },
-    {
       "dest": "CFU",
       "he": "קורפו",
       "en": "Corfu",
@@ -64,12 +53,23 @@
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 224,
-      "depart": "2026-11-24",
-      "ret": "2026-12-01",
+      "price": 218,
+      "depart": "2026-11-26",
+      "ret": "2026-12-03",
+      "airline": "Sky Express",
+      "transfers": 2,
+      "link": "https://www.aviasales.com/search/TLV2611RHO03121?t=GQ17957358001795767300000525TLVATHRHO17963340001796362200000470RHOATHTLV_42333327812eef5d63180204f5fe0b95_19832&search_date=30102026&expected_price_uuid=01a18bca-a33b-8030-24bf-c16982835d01&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0A0h98SySNiPGI-8CTfxxw&expected_price_source=share&expected_price_currency=eur&expected_price=218&marker=782936"
+    },
+    {
+      "dest": "HER",
+      "he": "הרקליון, כרתים",
+      "en": "Heraklion, Crete",
+      "price": 225,
+      "depart": "2026-11-03",
+      "ret": "2026-11-18",
       "airline": "Wizz Air",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV2411RHO01121?t=W417955246001795554000000490TLVATHRHO17961612001796212500000855RHOATHTLV_a040d0b0018aef670681b90ec8a1bdcf_20140&search_date=26102026&expected_price_uuid=01a1787f-1424-8030-a96c-9011a4efc75d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FM50NawB91DC0zoTZiVELg&expected_price_source=share&expected_price_currency=eur&expected_price=224&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0311HER18111?t=W417937102001793809200001650TLVATHHER17950383001795152600001905HERATHTLV_858c6dde868df0aa96d9b4ee17ae0002_20462&search_date=29102026&expected_price_uuid=01a1898f-304f-8031-2408-6a386d0d226c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pOD9qHRkJozbgtcD2SyOWg&expected_price_source=share&expected_price_currency=eur&expected_price=225&marker=782936"
     },
     {
       "dest": "JMK",
