@@ -17,38 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "2650b95c5b94": 1792181967089,
-    "c1f2f3e1210f": 1792181967089,
-    "82d5fc7aa6f5": 1792181967089,
-    "f25f9afc1c15": 1792181967089,
-    "5eab4ffdc459": 1792184026752,
-    "440b64550cdf": 1792184026752,
-    "90af05cdb301": 1792184026752,
-    "8aba1cb8fa7c": 1792184026752,
-    "13243d9d4cd6": 1792184026752,
-    "d0548cb1e637": 1792184026752,
-    "ca36b98dfd97": 1792184026752,
-    "f8e2247c5f9c": 1792185284664,
-    "1be43eb12213": 1792185284664,
-    "f96c1b230154": 1792185284664,
-    "99bc16e5d490": 1792185284664,
-    "6e935c6a7aa9": 1792185284664,
-    "09cebb9958fa": 1792185284664,
-    "fcd61f5176a3": 1792186845384,
-    "8a246be4ef90": 1792186845384,
-    "55237fadd9a4": 1792186845384,
-    "3e4c6e08a474": 1792188310986,
-    "3f91b80a1c6c": 1792188310986,
-    "f0fceb465e65": 1792188310986,
-    "1290adc5cd51": 1792188310986,
-    "5acc84dfb4dd": 1792190110379,
-    "43555c5ca04f": 1792191704899,
-    "843f9cfea07a": 1792191704899,
-    "f7b357bed3fd": 1792191704899,
-    "8f9dc01f5467": 1792191704899,
-    "10d551e80e6b": 1792191704899,
-    "5219b586afc2": 1792193443932,
-    "da5895e32e66": 1792193443932,
     "4ddd48c10e69": 1792194991974,
     "fe7fa5f7f2a1": 1792194991974,
     "bd556ce2837b": 1792194991974,
@@ -2093,7 +2061,25 @@
     "ef26ff9de551": 1793391244081,
     "f62b5cd48552": 1793391244081,
     "5cefb3712b61": 1793391244081,
-    "52e090c5742c": 1793391244081
+    "52e090c5742c": 1793391244081,
+    "c1f6db462e72": 1793403613882,
+    "40f085952c97": 1793403613882,
+    "60ee1894580e": 1793403613882,
+    "f2a464f02a31": 1793403613882,
+    "5e9bdf97dade": 1793403613882,
+    "5f98350b649b": 1793403613882,
+    "99c07cf9c794": 1793403613882,
+    "f20d4a6df59e": 1793403613882,
+    "2df73559fa07": 1793403613882,
+    "5adfc0ce0a28": 1793403613882,
+    "3472582c9289": 1793403613882,
+    "857637de34db": 1793403613882,
+    "94756dbec345": 1793403613882,
+    "03162d9db2ac": 1793403613882,
+    "b19516de735e": 1793403613882,
+    "febcb50f5af2": 1793403613882,
+    "1c6ac1dd0e13": 1793403613882,
+    "5182a75f124c": 1793403613882
   },
   "pending": {},
   "sourceStatus": {
@@ -2105,12 +2091,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-30T20:12:46.970Z",
-      "items": 10
+      "at": "2026-10-30T23:40:01.825Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-30T20:12:47.611Z",
+      "at": "2026-10-30T23:40:02.679Z",
       "items": 5
     },
     "civilprotection": {
@@ -2121,27 +2107,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-30T20:12:49.177Z",
+      "at": "2026-10-30T23:40:05.071Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-30T20:12:49.359Z",
+      "at": "2026-10-30T23:40:05.462Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-30T20:12:50.432Z",
+      "at": "2026-10-30T23:40:06.319Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-30T20:12:51.290Z",
+      "at": "2026-10-30T23:40:07.047Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-30T20:12:52.271Z",
+      "at": "2026-10-30T23:40:07.486Z",
       "items": 10
     },
     "toi-greece": {
@@ -2152,23 +2138,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-30T20:12:52.822Z",
+      "at": "2026-10-30T23:40:08.134Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-30T20:12:53.224Z",
+      "at": "2026-10-30T23:40:08.438Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-30T20:12:54.032Z",
-      "items": 6
+      "at": "2026-10-30T23:40:08.537Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T20:12:54.465Z",
-      "items": 6
+      "at": "2026-10-30T23:40:09.075Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2177,12 +2163,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T20:12:48.212Z",
+      "at": "2026-10-30T23:40:03.867Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-30T20:12:55.163Z",
+      "at": "2026-10-30T23:40:09.767Z",
       "items": 0
     },
     "hcg": {
@@ -2193,158 +2179,63 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-30T20:12:57.019Z",
+      "at": "2026-10-30T23:40:11.269Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-30T20:12:57.284Z",
+      "at": "2026-10-30T23:40:11.512Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-30T20:12:57.457Z",
+      "at": "2026-10-30T23:40:11.691Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-30T20:12:57.765Z",
+      "at": "2026-10-30T23:40:11.915Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-30T20:12:58.151Z",
+      "at": "2026-10-30T23:40:12.318Z",
       "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-30T20:12:58.606Z",
-      "items": 9
+      "at": "2026-10-30T23:40:12.717Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-30",
-    "count": 5,
+    "date": "2026-10-31",
+    "count": 2,
     "published": [
       {
-        "slug": "greece-booking-december-2026",
-        "title": "Greece to Review Booking.com Commitments on December 28",
-        "at": "2026-10-30T01:40:07+02:00",
-        "section": "israelis"
+        "slug": "tag-greece-new-tourism-initiative",
+        "title": "Greece Launches Tag Greece Initiative to Promote Gastronomy and Agritourism",
+        "at": "2026-10-31T01:40:30+02:00",
+        "section": "travel"
       },
       {
-        "slug": "piraeus-ferry-strike-october-2026",
-        "title": "Ferry Strike in Greece: Disruption at Piraeus and Major Ports",
-        "at": "2026-10-30T01:40:40+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-trains-proastiakos-strike",
-        "title": "Athens Train and Proastiakos Strike Halts Rail Services",
-        "at": "2026-10-30T01:40:59+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "piraeus-ferry-strike-october-2026",
-        "title": "↻ Greece Port and Ferry Strike: What Travelers Need to Know",
-        "at": "2026-10-30T04:55:32+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-trains-proastiakos-strike",
-        "title": "↻ Train Strike in Greece: Wide Cancellations on Hellenic Train and Proastiakos Services",
-        "at": "2026-10-30T09:02:27+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-trains-proastiakos-strike",
-        "title": "↻ Train Strike in Greece: Proastiakos and Hellenic Train Services Halted",
-        "at": "2026-10-30T09:02:51+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-plaka-explosion-arrests",
-        "title": "Athens Plaka explosion: Three arrested over copper theft link",
-        "at": "2026-10-30T21:14:45+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "earthquake-chalkidiki-felt-athens",
-        "title": "Magnitude 4.6 earthquake strikes off Chalkidiki and is felt in Athens",
-        "at": "2026-10-30T21:15:17+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "didymoteicho-jewish-cemetery-exhibition",
-        "title": "Didymoteicho Jewish Cemetery: Exhibition Revives Community Memory",
-        "at": "2026-10-30T21:15:41+02:00",
-        "section": "jewish-greece"
-      },
-      {
-        "slug": "thessaloniki-metro-50-million-passengers",
-        "title": "Thessaloniki Metro Crosses 50 Million Passengers in 23 Months",
-        "at": "2026-10-30T21:15:57+02:00",
+        "slug": "greek-wine-production-historic-lows-climate-change",
+        "title": "Climate Extremes Push Greek Wine Production to Historic Lows",
+        "at": "2026-10-31T01:40:50+02:00",
         "section": "travel"
       }
     ],
-    "rejected": [
-      {
-        "title": "Athens News Updates: Investigations and Local Reports",
-        "reason": "Ουδέτερη εκδοχή: The source text contains news about Serres, an explosion in Plaka, an arrest related to 'Mr. Choriatiko', gas pipe safety at Grava school, milk desserts recall, etc. The article invents a completely unrelated story about a train strike and transport updates in Athens that does not e",
-        "at": "2026-10-29T23:39:58.482Z"
-      },
-      {
-        "title": "Arrests Made in Deadly Athens Plaka Explosion Caused by Copper Theft",
-        "reason": "Ουδέτερη εκδοχή: λείπει en.dek",
-        "at": "2026-10-29T23:40:14.149Z"
-      },
-      {
-        "title": "Δεμένα τα πλοία στα λιμάνια σήμερα λόγω 24ωρης απεργίας των ναυτεργατών – Τι ζητούν",
-        "reason": "Ίδιο θέμα με «Greece Port and Ferry Strike: What Travelers Need to Know»: Mixed-script (broken) Hebrew words: שsעות. Write every Hebrew word only in Hebrew letters.",
-        "at": "2026-10-30T07:02:13.925Z"
-      },
-      {
-        "title": "Ταυτόχρονη απεργία σε 113 λιμάνια και 22 χώρες – Σε εξέλιξη η κινητοποίηση στον Πειραιά",
-        "reason": "Ίδιο θέμα με «Greece Port and Ferry Strike: What Travelers Need to Know» – δεν γράφτηκε ξανά",
-        "at": "2026-10-30T09:07:08.432Z"
-      },
-      {
-        "title": "Χωρίς τρένα και προαστιακό σήμερα λόγω της 24ωρης απεργίας της Πανελλήνιας Ομοσπονδίας Σιδηροδρομικών - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Train Strike in Greece: Proastiakos and Hellenic Train Services Halted» – δεν γράφτηκε ξανά",
-        "at": "2026-10-30T09:07:09.939Z"
-      },
-      {
-        "title": "Athens Plaka Blast: Copper Theft Suspected in Fatal Gas Explosion",
-        "reason": "Ουδέτερη εκδοχή: The article mentions ages of the suspects or specific nationalities (e.g. 'שני אזרחי יוון ואזרח זר' vs ages 34, 37, 55 in the source) or the Hebrew version omits specific ages present in source/English, but wait: rule 8 says every number must come from the source. Source has ages 34",
-        "at": "2026-10-30T14:02:15.272Z"
-      },
-      {
-        "title": "Δεμένα τα πλοία στα λιμάνια σήμερα, λόγω 24ωρης απεργίας - Kathimerini",
-        "reason": "Ίδιο θέμα με «Greece Port and Ferry Strike: What Travelers Need to Know» – δεν γράφτηκε ξανά",
-        "at": "2026-10-30T14:02:41.935Z"
-      },
-      {
-        "title": "Reduced winter tariff for electricity in effect from Nov 1",
-        "reason": "Ίδιο θέμα με «Energy prices in Europe: Greece update» – δεν γράφτηκε ξανά",
-        "at": "2026-10-30T14:06:22.909Z"
-      },
-      {
-        "title": "Magnitude 4.6 Earthquake Strikes Off Chalkidiki",
-        "reason": "Ουδέτερη εκδοχή: Added facts not present in the source: details about emergency services, transport networks, instructions for travelers, and lack of damage/injuries were not in the source text.",
-        "at": "2026-10-30T19:14:37.010Z"
-      }
-    ],
+    "rejected": [],
     "errors": [],
-    "fb": [
-      {
-        "slug": "athens-plaka-explosion-arrests",
-        "at": "2026-10-30T19:14:46.295Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-10-30",
+      "count": 5,
+      "rejected": 9
+    },
     {
       "date": "2026-10-29",
       "count": 5,
@@ -2518,16 +2409,28 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-30T20:14:04.081Z",
-    "considered": 6,
-    "picked": 0,
+    "at": "2026-10-30T23:40:13.882Z",
+    "considered": 18,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Ισραήλ: Ο Γιαΐρ Γκολάν απέκλεισε απολύτως το ενδεχόμενο κυβέρνησης ενότητας- «Κίνδυνος για",
-      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον επικεφαλής του International Institute",
-      "· ert | Υπερπτήση του Air Force One πάνω από τον Λευκό Οίκο λόγω πάρτι για το Χάλογουιν – Δεκάδες ",
-      "· ingr | Υεμένη: Νέες εκρήξεις ακούστηκαν στην πόλη του Άντεν",
-      "· ingr | Ευρώπη: Τα προβλήματα χρέους «πνίγουν» την ευρωπαϊκή αγορά εμπορικών ακινήτων",
-      "· gn-iefimerida | Πλάκα: Βίντεο-ντοκουμέντο με τους τρεις κατηγορούμενους να φεύγουν με το κομμάτι του χαλκο"
+      "· gct | 20,000 Australian Students Lacked Informed COVID Vaccine Consent",
+      "· gct | Iran Says Four Tankers Hit Mines in Hormuz as US Insists Shipping Lanes Are Clear",
+      "✓ gct | Greece Launches Tag Greece to Draw Travellers With Local Food",
+      "· gct | Greeks Have Positive View of Their National Health System",
+      "· gct | Olympiacos Beat Armani Milan to Share EuroLeague Lead",
+      "✓ gct | Climate Extremes Push Greek Wine Production to Historic Lows",
+      "· gct | Priest On Trial Accused of Burning Down Estranged Wife’s House",
+      "· gct | Greek Jets Intercept Armed Turkish F-16s East of Rhodes",
+      "· gct | French Travel Magazine Showcases Patmos Culture and Gastronomy",
+      "· gct | Relics Of Saint George to Move to New Church in Nea Ionia",
+      "· gct | Pieria Seeks New Tourism Partnerships Across Central Europe",
+      "· gct | Nearchos and Kimon to Lead Greece’s New Generation of Warships",
+      "· gct | Thessaloniki Mental Health Unit Gets Medical Equipment Upgrade",
+      "· gct | Plaka Explosion: Three Suspects Linked to 80 Police Cases",
+      "· gct | Greece, Portugal and Finland Join Forces in Digital Health Education",
+      "· ingr | Ισραήλ: Η αντιπολίτευση και οι Άραβες κατέληξαν σε συμφωνία για τον πρόεδρο της Βουλής",
+      "· naftemporiki | Sell-off στον Nasdaq: Η χειρότερη συνεδρίαση από το καλοκαίρi",
+      "· gn-kathimerini | Ισραήλ: Αβεβαιότητα, πολιτικές εντάσεις και «παζάρια» μετά τις εκλογές – Τα επίσημα αποτελ"
     ]
   },
   "evergreenDone": [

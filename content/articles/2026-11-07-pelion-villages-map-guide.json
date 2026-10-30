@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30266041/pexels-photo-30266041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Discover the scenic beauty of Şirince, a tranquil village in winter, showcasing traditional Turkish architecture.",
+    "credit": "Photo: Burak Evlivan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-winter-view-of-sirince-village-turkiye-30266041/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "pelion mountain village"
+    "imageQuery": "pelion mountain village",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

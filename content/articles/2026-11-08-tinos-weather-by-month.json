@@ -1,66 +1,72 @@
 {
- "slug": "tinos-weather-by-month",
- "section": "travel",
- "publishedAt": "2026-11-08T06:10:00+02:00",
- "updatedAt": null,
- "sensitive": false,
- "sponsored": false,
- "breaking": false,
- "sources": [
-  {
-   "name": "Climates to Travel – Greece climate (Mykonos)",
-   "url": "https://www.climatestotravel.com/climate/greece"
+  "slug": "tinos-weather-by-month",
+  "section": "travel",
+  "publishedAt": "2026-11-08T06:10:00+02:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "sources": [
+    {
+      "name": "Climates to Travel – Greece climate (Mykonos)",
+      "url": "https://www.climatestotravel.com/climate/greece"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39482147/pexels-photo-39482147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful landscape with traditional dove cotes on Tinos Island, Greece, showcasing historic architecture.",
+    "credit": "Photo: Demetra Ioannidou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-landscape-of-tinos-dove-cotes-greece-39482147/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
+  },
+  "meta": {
+    "imageQuery": "tinos island village",
+    "photoTried": true
+  },
+  "guide": true,
+  "guideCat": "travel",
+  "he": {
+    "title": "מזג האוויר בטינוס לפי חודשים: טמפרטורות, ים ורוח",
+    "seoTitle": "מזג אוויר בטינוס לפי חודשים",
+    "seoDesc": "מזג האוויר בטינוס בכל חודש: טמפרטורות האוויר והים, ימי גשם, רוח המלטמי בקיץ, ומתי הכי כדאי לטוס לאי השקט והיפה הזה בקיקלדים.",
+    "keywords": [
+      "טינוס מזג האוויר",
+      "טינוס מזג אוויר",
+      "טינוס יוון מזג אוויר",
+      "טינוס רוח",
+      "טינוס באוקטובר",
+      "מתי לטוס לטינוס"
+    ],
+    "dek": "אי סוער בקיקלדים: טבלה לכל חודש, מתי הרוח חזקה ומתי הים הכי חם.",
+    "tldr": [
+      "הנתונים לפי מיקונוס השכנה: 27–28°C ביולי-אוגוסט, ים 24°C.",
+      "ביולי-אוגוסט נושבת רוח המלטמי, והחופים בדרום מוגנים יותר.",
+      "ספטמבר-אוקטובר: ים חם ופחות רוח."
+    ],
+    "means": "מי שמתכנן את טינוס בקיץ, כדאי שישאיר מרווח בין המעבורת לטיסה בגלל הרוח, ושיזמין מוקדם אם הוא מגיע סביב ה-15 באוגוסט.",
+    "body": "## מזג האוויר בטינוס לפי חודשים\n\nלטינוס עצמה אין טבלת אקלים במקורות המקובלים, אבל מיקונוס השכנה נמצאת במרחק קצר בשייט, ומזג האוויר בשני האיים דומה מאוד. לכן הטבלה מבוססת על הנתונים של מיקונוס מ-Climates to Travel. בכפרים שבהרים של טינוס, כמו פירגוס או וולקס, עשוי להיות מעט קריר יותר.\n\n| חודש | מינימום °C | מקסימום °C | גשם (מ״מ) | ימי גשם | ים °C |\n|---|---|---|---|---|---|\n| ינואר | 9 | 13 | 100 | 10 | 16 |\n| פברואר | 9 | 13 | 70 | 8 | 16 |\n| מרץ | 11 | 15 | 60 | 7 | 15 |\n| אפריל | 13 | 18 | 25 | 5 | 16 |\n| מאי | 17 | 22 | 15 | 3 | 18 |\n| יוני | 21 | 27 | 5 | 1 | 22 |\n| יולי | 23 | 28 | 0 | 0 | 24 |\n| אוגוסט | 23 | 28 | 0 | 0 | 24 |\n| ספטמבר | 21 | 26 | 10 | 2 | 23 |\n| אוקטובר | 18 | 22 | 45 | 5 | 21 |\n| נובמבר | 14 | 18 | 65 | 6 | 19 |\n| דצמבר | 11 | 14 | 100 | 10 | 17 |\n\nהמקור: Climates to Travel (מיקונוס). אלה ממוצעים, לא תחזית.\n\n## הרוח: הדבר הכי חשוב לדעת על טינוס\n\nטינוס ידועה כאחד האיים הסוערים בקיקלדים. ביולי ובאוגוסט נושבת רוח המלטמי מצפון, ולעתים היא חזקה מספיק כדי לשבש הפלגות. בימים כאלה עדיף לבחור חוף בצד הדרומי של האי, שמוגן יותר מהרוח, ולהשאיר מרווח זמן לפני הטיסה חזרה. לוחות הזמנים של המעבורות מופיעים במדריך [המעבורת מרפינה לאנדרוס ולטינוס](/a/ferry-rafina-to-andros-tinos/).\n\n## מתי הכי כדאי לבקר בטינוס\n\n- **מאי-יוני:** 22–27°C ביום, הים מתחמם (18–22°C), עדיין פחות רוח ופחות תיירים.\n- **יולי-אוגוסט:** הכי חם, אין גשם, הים בשיא (24°C), אבל הרוח חזקה והאי עמוס יותר.\n- **ספטמבר-אוקטובר:** הים עדיין חם (21–23°C), המלטמי נחלש, וזה זמן מצוין להליכה בין הכפרים.\n- **נובמבר-מרץ:** 13–18°C ביום, גשום יותר, וחלק מהמלונות והמסעדות סגורים.\n\n## חג ה-15 באוגוסט\n\nטינוס היא מרכז עלייה לרגל אורתודוקסי, ובאמצע אוגוסט מגיעים אליה אלפי מבקרים לחג של כנסיית פנאגיה אוונגליסטריה. מי שלא מגיע בשביל החג, כדאי שיידע שהמעבורות והמלונות מלאים מאוד בימים האלה, ושיזמין מוקדם או יבחר תאריכים אחרים.\n\n## עוד על טינוס\n\n- מדריכים מלאים לאי: [טינוס: מדריך לאי](/a/tinos-island-guide/) ו[מה לעשות בטינוס](/a/tinos-guide/).\n- להשוואה עם האי השכן: [מזג האוויר במיקונוס לפי חודשים](/a/mykonos-weather-by-month-guide/).\n- מזג האוויר בכל יוון לפי חודש: [העמוד שלנו](/weather/).\n- אין בטינוס מסעדה כשרה או בית חב״ד. מידע על כשרות ושבת באיים מופיע בעמוד [שבת ביוון](/shabbat/).\n\n## שאלות נפוצות\n\n**מה מזג האוויר בטינוס באוקטובר?**\nנעים: בערך 22°C ביום ו-18°C בלילה, הים כ-21°C, וכ-5 ימי גשם בחודש.\n\n**האם יש הרבה רוח בטינוס?**\nכן, במיוחד ביולי-אוגוסט, כשרוח המלטמי נושבת מצפון. החופים בדרום מוגנים יותר.\n\n**מתי הים בטינוס הכי חם?**\nביולי ובאוגוסט, כ-24°C, ובספטמבר הוא עדיין כ-23°C.\n\n**האם כדאי לטוס לטינוס בחורף?**\nרק אם מחפשים שקט: בערך 13–14°C ביום, יותר גשם, וחלק מהעסקים סגורים.\n"
+  },
+  "en": {
+    "title": "Tinos weather by month: temperatures, sea and wind",
+    "seoTitle": "Tinos weather by month: sea, wind, rain",
+    "seoDesc": "Tinos weather month by month: air and sea temperatures, rain days, the summer meltemi wind, and the best time to visit this Cycladic island.",
+    "keywords": [
+      "Tinos weather",
+      "Tinos weather by month",
+      "Tinos wind",
+      "Tinos in October",
+      "best time to visit Tinos",
+      "Cyclades weather"
+    ],
+    "dek": "A windy Cycladic island: a table for every month, when the wind is strongest and when the sea is warmest.",
+    "tldr": [
+      "Figures from neighbouring Mykonos: 27–28°C in July–August, sea at 24°C.",
+      "In July–August the meltemi blows, and southern beaches are more sheltered.",
+      "September–October: warm sea and less wind."
+    ],
+    "means": "If you plan Tinos in summer, leave a buffer between your ferry and flight because of the wind, and book early around 15 August.",
+    "body": "## Tinos weather by month\n\nTinos itself has no climate table in the standard sources, but neighbouring Mykonos is a short sail away and the weather on the two islands is very similar. The table below therefore uses Climates to Travel's Mykonos figures. The mountain villages of Tinos, such as Pyrgos or Volax, may be slightly cooler.\n\n| Month | Min °C | Max °C | Rain (mm) | Rain days | Sea °C |\n|---|---|---|---|---|---|\n| January | 9 | 13 | 100 | 10 | 16 |\n| February | 9 | 13 | 70 | 8 | 16 |\n| March | 11 | 15 | 60 | 7 | 15 |\n| April | 13 | 18 | 25 | 5 | 16 |\n| May | 17 | 22 | 15 | 3 | 18 |\n| June | 21 | 27 | 5 | 1 | 22 |\n| July | 23 | 28 | 0 | 0 | 24 |\n| August | 23 | 28 | 0 | 0 | 24 |\n| September | 21 | 26 | 10 | 2 | 23 |\n| October | 18 | 22 | 45 | 5 | 21 |\n| November | 14 | 18 | 65 | 6 | 19 |\n| December | 11 | 14 | 100 | 10 | 17 |\n\nSource: Climates to Travel (Mykonos). These are averages, not a forecast.\n\n## The wind: the key thing to know about Tinos\n\nTinos is known as one of the windiest islands in the Cyclades. In July and August the meltemi blows from the north and is sometimes strong enough to disrupt sailings. On those days pick a beach on the more sheltered south side and leave a buffer before your flight home. Ferry details are in our guide to [the ferry from Rafina to Andros and Tinos](/en/a/ferry-rafina-to-andros-tinos/).\n\n## When to visit Tinos\n\n- **May–June:** 22–27°C by day, the sea warming up (18–22°C), less wind and fewer visitors.\n- **July–August:** the hottest, no rain, the sea at its warmest (24°C), but strong wind and more crowds.\n- **September–October:** the sea is still warm (21–23°C), the meltemi eases, a great time for walking between villages.\n- **November–March:** 13–18°C by day, wetter, and some hotels and restaurants close.\n\n## The 15 August festival\n\nTinos is a major Orthodox pilgrimage centre, and in mid-August thousands come for the feast at the Church of Panagia Evangelistria. If you are not coming for the festival, expect ferries and hotels to be very full then, and book early or choose other dates.\n\n## More on Tinos\n\n- Full island guides: [Tinos island guide](/en/a/tinos-island-guide/) and [things to do in Tinos](/en/a/tinos-guide/).\n- Compare with the neighbour: [Mykonos weather by month](/en/a/mykonos-weather-by-month-guide/).\n- Weather across Greece by month: [our weather page](/en/weather/).\n- Tinos has no kosher restaurant or Chabad house. For kosher food and Shabbat on the islands see [Shabbat in Greece](/en/shabbat/).\n\n## FAQ\n\n**What is the weather like in Tinos in October?**\nPleasant: about 22°C by day and 18°C at night, the sea around 21°C, and about 5 rain days.\n\n**Is Tinos very windy?**\nYes, especially in July–August when the meltemi blows from the north. Beaches in the south are more sheltered.\n\n**When is the sea warmest in Tinos?**\nIn July and August, about 24°C, and still around 23°C in September.\n\n**Is Tinos worth visiting in winter?**\nOnly if you want quiet: about 13–14°C by day, more rain, and some businesses closed.\n"
   }
- ],
- "image": {
-  "type": "art",
-  "key": "island"
- },
- "meta": {
-  "imageQuery": "tinos island village"
- },
- "guide": true,
- "guideCat": "travel",
- "he": {
-  "title": "מזג האוויר בטינוס לפי חודשים: טמפרטורות, ים ורוח",
-  "seoTitle": "מזג אוויר בטינוס לפי חודשים",
-  "seoDesc": "מזג האוויר בטינוס בכל חודש: טמפרטורות האוויר והים, ימי גשם, רוח המלטמי בקיץ, ומתי הכי כדאי לטוס לאי השקט והיפה הזה בקיקלדים.",
-  "keywords": [
-   "טינוס מזג האוויר",
-   "טינוס מזג אוויר",
-   "טינוס יוון מזג אוויר",
-   "טינוס רוח",
-   "טינוס באוקטובר",
-   "מתי לטוס לטינוס"
-  ],
-  "dek": "אי סוער בקיקלדים: טבלה לכל חודש, מתי הרוח חזקה ומתי הים הכי חם.",
-  "tldr": [
-   "הנתונים לפי מיקונוס השכנה: 27–28°C ביולי-אוגוסט, ים 24°C.",
-   "ביולי-אוגוסט נושבת רוח המלטמי, והחופים בדרום מוגנים יותר.",
-   "ספטמבר-אוקטובר: ים חם ופחות רוח."
-  ],
-  "means": "מי שמתכנן את טינוס בקיץ, כדאי שישאיר מרווח בין המעבורת לטיסה בגלל הרוח, ושיזמין מוקדם אם הוא מגיע סביב ה-15 באוגוסט.",
-  "body": "## מזג האוויר בטינוס לפי חודשים\n\nלטינוס עצמה אין טבלת אקלים במקורות המקובלים, אבל מיקונוס השכנה נמצאת במרחק קצר בשייט, ומזג האוויר בשני האיים דומה מאוד. לכן הטבלה מבוססת על הנתונים של מיקונוס מ-Climates to Travel. בכפרים שבהרים של טינוס, כמו פירגוס או וולקס, עשוי להיות מעט קריר יותר.\n\n| חודש | מינימום °C | מקסימום °C | גשם (מ״מ) | ימי גשם | ים °C |\n|---|---|---|---|---|---|\n| ינואר | 9 | 13 | 100 | 10 | 16 |\n| פברואר | 9 | 13 | 70 | 8 | 16 |\n| מרץ | 11 | 15 | 60 | 7 | 15 |\n| אפריל | 13 | 18 | 25 | 5 | 16 |\n| מאי | 17 | 22 | 15 | 3 | 18 |\n| יוני | 21 | 27 | 5 | 1 | 22 |\n| יולי | 23 | 28 | 0 | 0 | 24 |\n| אוגוסט | 23 | 28 | 0 | 0 | 24 |\n| ספטמבר | 21 | 26 | 10 | 2 | 23 |\n| אוקטובר | 18 | 22 | 45 | 5 | 21 |\n| נובמבר | 14 | 18 | 65 | 6 | 19 |\n| דצמבר | 11 | 14 | 100 | 10 | 17 |\n\nהמקור: Climates to Travel (מיקונוס). אלה ממוצעים, לא תחזית.\n\n## הרוח: הדבר הכי חשוב לדעת על טינוס\n\nטינוס ידועה כאחד האיים הסוערים בקיקלדים. ביולי ובאוגוסט נושבת רוח המלטמי מצפון, ולעתים היא חזקה מספיק כדי לשבש הפלגות. בימים כאלה עדיף לבחור חוף בצד הדרומי של האי, שמוגן יותר מהרוח, ולהשאיר מרווח זמן לפני הטיסה חזרה. לוחות הזמנים של המעבורות מופיעים במדריך [המעבורת מרפינה לאנדרוס ולטינוס](/a/ferry-rafina-to-andros-tinos/).\n\n## מתי הכי כדאי לבקר בטינוס\n\n- **מאי-יוני:** 22–27°C ביום, הים מתחמם (18–22°C), עדיין פחות רוח ופחות תיירים.\n- **יולי-אוגוסט:** הכי חם, אין גשם, הים בשיא (24°C), אבל הרוח חזקה והאי עמוס יותר.\n- **ספטמבר-אוקטובר:** הים עדיין חם (21–23°C), המלטמי נחלש, וזה זמן מצוין להליכה בין הכפרים.\n- **נובמבר-מרץ:** 13–18°C ביום, גשום יותר, וחלק מהמלונות והמסעדות סגורים.\n\n## חג ה-15 באוגוסט\n\nטינוס היא מרכז עלייה לרגל אורתודוקסי, ובאמצע אוגוסט מגיעים אליה אלפי מבקרים לחג של כנסיית פנאגיה אוונגליסטריה. מי שלא מגיע בשביל החג, כדאי שיידע שהמעבורות והמלונות מלאים מאוד בימים האלה, ושיזמין מוקדם או יבחר תאריכים אחרים.\n\n## עוד על טינוס\n\n- מדריכים מלאים לאי: [טינוס: מדריך לאי](/a/tinos-island-guide/) ו[מה לעשות בטינוס](/a/tinos-guide/).\n- להשוואה עם האי השכן: [מזג האוויר במיקונוס לפי חודשים](/a/mykonos-weather-by-month-guide/).\n- מזג האוויר בכל יוון לפי חודש: [העמוד שלנו](/weather/).\n- אין בטינוס מסעדה כשרה או בית חב״ד. מידע על כשרות ושבת באיים מופיע בעמוד [שבת ביוון](/shabbat/).\n\n## שאלות נפוצות\n\n**מה מזג האוויר בטינוס באוקטובר?**\nנעים: בערך 22°C ביום ו-18°C בלילה, הים כ-21°C, וכ-5 ימי גשם בחודש.\n\n**האם יש הרבה רוח בטינוס?**\nכן, במיוחד ביולי-אוגוסט, כשרוח המלטמי נושבת מצפון. החופים בדרום מוגנים יותר.\n\n**מתי הים בטינוס הכי חם?**\nביולי ובאוגוסט, כ-24°C, ובספטמבר הוא עדיין כ-23°C.\n\n**האם כדאי לטוס לטינוס בחורף?**\nרק אם מחפשים שקט: בערך 13–14°C ביום, יותר גשם, וחלק מהעסקים סגורים.\n"
- },
- "en": {
-  "title": "Tinos weather by month: temperatures, sea and wind",
-  "seoTitle": "Tinos weather by month: sea, wind, rain",
-  "seoDesc": "Tinos weather month by month: air and sea temperatures, rain days, the summer meltemi wind, and the best time to visit this Cycladic island.",
-  "keywords": [
-   "Tinos weather",
-   "Tinos weather by month",
-   "Tinos wind",
-   "Tinos in October",
-   "best time to visit Tinos",
-   "Cyclades weather"
-  ],
-  "dek": "A windy Cycladic island: a table for every month, when the wind is strongest and when the sea is warmest.",
-  "tldr": [
-   "Figures from neighbouring Mykonos: 27–28°C in July–August, sea at 24°C.",
-   "In July–August the meltemi blows, and southern beaches are more sheltered.",
-   "September–October: warm sea and less wind."
-  ],
-  "means": "If you plan Tinos in summer, leave a buffer between your ferry and flight because of the wind, and book early around 15 August.",
-  "body": "## Tinos weather by month\n\nTinos itself has no climate table in the standard sources, but neighbouring Mykonos is a short sail away and the weather on the two islands is very similar. The table below therefore uses Climates to Travel's Mykonos figures. The mountain villages of Tinos, such as Pyrgos or Volax, may be slightly cooler.\n\n| Month | Min °C | Max °C | Rain (mm) | Rain days | Sea °C |\n|---|---|---|---|---|---|\n| January | 9 | 13 | 100 | 10 | 16 |\n| February | 9 | 13 | 70 | 8 | 16 |\n| March | 11 | 15 | 60 | 7 | 15 |\n| April | 13 | 18 | 25 | 5 | 16 |\n| May | 17 | 22 | 15 | 3 | 18 |\n| June | 21 | 27 | 5 | 1 | 22 |\n| July | 23 | 28 | 0 | 0 | 24 |\n| August | 23 | 28 | 0 | 0 | 24 |\n| September | 21 | 26 | 10 | 2 | 23 |\n| October | 18 | 22 | 45 | 5 | 21 |\n| November | 14 | 18 | 65 | 6 | 19 |\n| December | 11 | 14 | 100 | 10 | 17 |\n\nSource: Climates to Travel (Mykonos). These are averages, not a forecast.\n\n## The wind: the key thing to know about Tinos\n\nTinos is known as one of the windiest islands in the Cyclades. In July and August the meltemi blows from the north and is sometimes strong enough to disrupt sailings. On those days pick a beach on the more sheltered south side and leave a buffer before your flight home. Ferry details are in our guide to [the ferry from Rafina to Andros and Tinos](/en/a/ferry-rafina-to-andros-tinos/).\n\n## When to visit Tinos\n\n- **May–June:** 22–27°C by day, the sea warming up (18–22°C), less wind and fewer visitors.\n- **July–August:** the hottest, no rain, the sea at its warmest (24°C), but strong wind and more crowds.\n- **September–October:** the sea is still warm (21–23°C), the meltemi eases, a great time for walking between villages.\n- **November–March:** 13–18°C by day, wetter, and some hotels and restaurants close.\n\n## The 15 August festival\n\nTinos is a major Orthodox pilgrimage centre, and in mid-August thousands come for the feast at the Church of Panagia Evangelistria. If you are not coming for the festival, expect ferries and hotels to be very full then, and book early or choose other dates.\n\n## More on Tinos\n\n- Full island guides: [Tinos island guide](/en/a/tinos-island-guide/) and [things to do in Tinos](/en/a/tinos-guide/).\n- Compare with the neighbour: [Mykonos weather by month](/en/a/mykonos-weather-by-month-guide/).\n- Weather across Greece by month: [our weather page](/en/weather/).\n- Tinos has no kosher restaurant or Chabad house. For kosher food and Shabbat on the islands see [Shabbat in Greece](/en/shabbat/).\n\n## FAQ\n\n**What is the weather like in Tinos in October?**\nPleasant: about 22°C by day and 18°C at night, the sea around 21°C, and about 5 rain days.\n\n**Is Tinos very windy?**\nYes, especially in July–August when the meltemi blows from the north. Beaches in the south are more sheltered.\n\n**When is the sea warmest in Tinos?**\nIn July and August, about 24°C, and still around 23°C in September.\n\n**Is Tinos worth visiting in winter?**\nOnly if you want quiet: about 13–14°C by day, more rain, and some businesses closed.\n"
- }
 }

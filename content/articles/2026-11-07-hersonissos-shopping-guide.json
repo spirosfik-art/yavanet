@@ -21,11 +21,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38723354/pexels-photo-38723354.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming outdoor display of handcrafted ceramics at a shop in Margarites, Greece.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/vibrant-ceramic-shop-display-in-margarites-greece-38723354/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "crete souvenir shop"
+    "imageQuery": "crete souvenir shop",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

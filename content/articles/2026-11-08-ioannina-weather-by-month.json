@@ -1,67 +1,73 @@
 {
- "slug": "ioannina-weather-by-month",
- "section": "travel",
- "publishedAt": "2026-11-08T02:34:00+02:00",
- "updatedAt": null,
- "sensitive": false,
- "sponsored": false,
- "breaking": false,
- "sources": [
-  {
-   "name": "Climates to Travel – Greece climate (Ioannina)",
-   "url": "https://www.climatestotravel.com/climate/greece"
+  "slug": "ioannina-weather-by-month",
+  "section": "travel",
+  "publishedAt": "2026-11-08T02:34:00+02:00",
+  "updatedAt": null,
+  "sensitive": false,
+  "sponsored": false,
+  "breaking": false,
+  "sources": [
+    {
+      "name": "Climates to Travel – Greece climate (Ioannina)",
+      "url": "https://www.climatestotravel.com/climate/greece"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/23500710/pexels-photo-23500710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Peaceful park scene by Lake Pamvotis in Ioannina, Greece, featuring trees and distant mountains.",
+    "credit": "Photo: Sabina Kallari / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-park-near-a-body-of-water-with-view-of-mountains-23500710/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
+  },
+  "meta": {
+    "imageQuery": "ioannina lake pamvotis",
+    "photoTried": true
+  },
+  "guide": true,
+  "guideCat": "travel",
+  "he": {
+    "title": "מזג האוויר ביואנינה לפי חודשים: טמפרטורות, גשם ומתי לטוס",
+    "seoTitle": "מזג אוויר ביואנינה לפי חודשים",
+    "seoDesc": "מזג האוויר ביואנינה בכל חודש: טמפרטורות ביום ובלילה, כמות גשם וימי גשם, שלג בחורף, ומתי הכי כדאי לטוס ליואנינה ולזגוריה.",
+    "keywords": [
+      "יואנינה מזג אוויר",
+      "מזג אוויר יוון יואנינה",
+      "יואנינה יוון מזג אוויר",
+      "מזג אוויר יואנינה יוון 10 ימים",
+      "יואנינה בחורף",
+      "יואנינה שלג",
+      "מתי לטוס ליואנינה"
+    ],
+    "dek": "עיר הררית על אגם: קיץ חם, חורף קר וגשום, וטבלה מלאה לכל חודש.",
+    "tldr": [
+      "יואנינה גשומה פי שלושה מהקיקלדים: כ-1,090 מ״מ בשנה.",
+      "בדצמבר-ינואר כ-0°C בלילה, ושלג בהרים שמסביב.",
+      "הזמן הנוח: מאי-יוני וספטמבר."
+    ],
+    "means": "אם אתם מתכננים את יואנינה בחורף, ארזו מעיל ונעליים לגשם ובדקו את הכבישים לכפרים. בקיץ חם ביום ונעים בערב.",
+    "body": "## מזג האוויר ביואנינה לפי חודשים\n\nיואנינה שוכנת על גדת אגם פמבוטיס, בגובה של כ-485 מטר, בלב חבל אפירוס שבצפון-מערב יוון. היא רחוקה מהים ומוקפת הרים, ולכן האקלים שלה שונה מאוד מזה של אתונה או של האיים: קיץ חם, חורף קר, והרבה יותר גשם. לפי Climates to Travel יורדים בעיר כ-1,090 מ״מ גשם בשנה, בערך פי שלושה מאשר בנקסוס שבקיקלדים.\n\n| חודש | מינימום °C | מקסימום °C | גשם (מ״מ) | ימי גשם |\n|---|---|---|---|---|\n| ינואר | -1 | 9 | 125 | 13 |\n| פברואר | 2 | 12 | 115 | 12 |\n| מרץ | 4 | 15 | 95 | 13 |\n| אפריל | 6 | 19 | 75 | 13 |\n| מאי | 10 | 20 | 65 | 11 |\n| יוני | 14 | 28 | 45 | 7 |\n| יולי | 16 | 32 | 30 | 5 |\n| אוגוסט | 16 | 33 | 30 | 5 |\n| ספטמבר | 13 | 27 | 60 | 6 |\n| אוקטובר | 8 | 19 | 110 | 10 |\n| נובמבר | 5 | 16 | 170 | 14 |\n| דצמבר | 1 | 11 | 170 | 15 |\n\nהמקור: Climates to Travel. אלה ממוצעים רב-שנתיים, ולא תחזית. לתחזית ל-10 ימים קדימה כדאי לבדוק את השירות המטאורולוגי היווני (meteo.gr) סמוך לטיסה.\n\n## יואנינה בחורף: קר, גשום ולפעמים מושלג\n\nבדצמבר ובינואר הטמפרטורה בלילה יורדת לסביבות 0°C, ונובמבר ודצמבר הם החודשים הגשומים ביותר בשנה (כ-170 מ״מ כל אחד). ברכסי ההרים שמסביב, ובמיוחד בזגוריה ובמצובו, יורד שלג כמעט בכל חורף. מי שמגיע בעונה הזו צריך מעיל חם, נעליים שמתאימות לגשם, ואם נוסעים ברכב לכפרים, גם לבדוק את מצב הכבישים.\n\n## אביב וסתיו: הזמן הנוח לטיול\n\nאפריל-מאי וסוף ספטמבר-אוקטובר נוחים להליכה בעיר העתיקה, לשייט באגם ולטיולי יום לזגוריה. בימים חמים מספיק סוודר קל, אבל צריך לקחת בחשבון שבאביב עדיין יש 11–13 ימי גשם בחודש. אוקטובר מתחיל להיות גשום יותר.\n\n## יואנינה בקיץ\n\nביולי ובאוגוסט הממוצע ביום מגיע ל-32–33°C, אבל הלילות קרירים יותר מאשר באתונה, וגשם כמעט שאין (כ-5 ימים בחודש, בעיקר סופות רעמים קצרות אחר הצהריים). זו עונה טובה לשלב את העיר עם טיול בערוץ ויקוס או בנהרות של אזור זגוריה.\n\n## טיפים לישראלים\n\n- טסים בדרך כלל לאתונה או לסלוניקי וממשיכים ברכב, או טסים בטיסה פנימית לנמל התעופה של יואנינה. כדאי לבדוק בעמוד [הטיסות](/flights/).\n- מידע על העיר עצמה, האגם והכפרים נמצא בעמוד [יואנינה](/d/ioannina/).\n- בעיר העתיקה, בתוך החומות, יש בית כנסת רומניוטי היסטורי. הביקור בדרך כלל בתיאום מראש.\n- לאזור ההרים הסמוך יש מדריך נפרד: [מזג האוויר בזגוריה לפי חודשים](/a/zagori-weather-by-month-guide/) וגם [זגוריה בחורף](/a/zagori-in-winter-guide/).\n- להשוואה עם שאר יוון: [מזג האוויר ביוון לפי חודשים](/weather/).\n\n## שאלות נפוצות\n\n**מה מזג האוויר ביואנינה בדצמבר?**\nקר וגשום: בממוצע כ-11°C ביום וכ-1°C בלילה, ובערך 15 ימי גשם בחודש.\n\n**האם יורד שלג ביואנינה?**\nבעיר עצמה זה קורה לפעמים, בהרים שמסביב (זגוריה, מצובו) כמעט בכל חורף.\n\n**מתי הכי כדאי לטוס ליואנינה?**\nמאי-יוני וספטמבר: חם אבל לא לוהט, מעט גשם, ומתאים לטיולים באזור.\n\n**האם יואנינה חמה בקיץ?**\nכן, ביולי-אוגוסט הממוצע ביום הוא 32–33°C, עם לילות קרירים יותר.\n"
+  },
+  "en": {
+    "title": "Ioannina weather by month: temperatures, rain and when to go",
+    "seoTitle": "Ioannina weather by month: when to go",
+    "seoDesc": "Ioannina weather month by month: day and night temperatures, rainfall and rain days, winter snow, and the best time to visit Ioannina and Zagori.",
+    "keywords": [
+      "Ioannina weather",
+      "Ioannina weather by month",
+      "Ioannina in winter",
+      "Ioannina snow",
+      "best time to visit Ioannina",
+      "Epirus weather"
+    ],
+    "dek": "A lakeside mountain city: hot summers, cold wet winters and a full table for every month.",
+    "tldr": [
+      "Ioannina gets about three times the rain of the Cyclades: around 1,090 mm a year.",
+      "In December–January nights are near 0°C, with snow in the mountains around.",
+      "The comfortable time: May–June and September."
+    ],
+    "means": "If you go in winter, pack a coat and rain-proof shoes and check the roads to the villages. In summer it is hot by day and pleasant in the evening.",
+    "body": "## Ioannina weather by month\n\nIoannina sits on the shore of Lake Pamvotis, about 485 metres above sea level, in the heart of Epirus in north-western Greece. Far from the sea and ringed by mountains, it has a very different climate from Athens or the islands: hot summers, cold winters and a lot more rain. According to Climates to Travel the city gets about 1,090 mm of rain a year, roughly three times as much as Naxos in the Cyclades.\n\n| Month | Min °C | Max °C | Rain (mm) | Rain days |\n|---|---|---|---|---|\n| January | -1 | 9 | 125 | 13 |\n| February | 2 | 12 | 115 | 12 |\n| March | 4 | 15 | 95 | 13 |\n| April | 6 | 19 | 75 | 13 |\n| May | 10 | 20 | 65 | 11 |\n| June | 14 | 28 | 45 | 7 |\n| July | 16 | 32 | 30 | 5 |\n| August | 16 | 33 | 30 | 5 |\n| September | 13 | 27 | 60 | 6 |\n| October | 8 | 19 | 110 | 10 |\n| November | 5 | 16 | 170 | 14 |\n| December | 1 | 11 | 170 | 15 |\n\nSource: Climates to Travel. These are long-term averages, not a forecast. For a 10-day forecast check the Greek meteo service (meteo.gr) close to your trip.\n\n## Ioannina in winter: cold, wet and sometimes snowy\n\nIn December and January night-time temperatures drop to around 0°C, and November and December are the wettest months (about 170 mm each). The surrounding mountains, especially Zagori and Metsovo, see snow almost every winter. Bring a warm coat and rain-proof shoes, and if you are driving to the villages, check the road conditions.\n\n## Spring and autumn: the comfortable season\n\nApril–May and late September–October are pleasant for walking in the old town, a boat trip on the lake and day trips to Zagori. Bear in mind that spring still brings 11–13 rain days a month, and October gets wetter.\n\n## Ioannina in summer\n\nIn July and August daytime averages reach 32–33°C, but nights are cooler than in Athens and rain is rare (about 5 days a month, mostly short afternoon thunderstorms). It is a good season to combine the city with the Vikos Gorge or the rivers of Zagori.\n\n## Tips for Israeli visitors\n\n- Most people fly to Athens or Thessaloniki and drive on, or take a domestic flight to Ioannina airport. See our [flights page](/en/flights/).\n- More about the city, the lake and the villages: [Ioannina](/en/d/ioannina/).\n- Inside the castle walls of the old town there is a historic Romaniote synagogue; visits are usually by prior arrangement.\n- For the mountains nearby: [Zagori weather by month](/en/a/zagori-weather-by-month-guide/) and [Zagori in winter](/en/a/zagori-in-winter-guide/).\n- Compare with the rest of the country: [Greece weather by month](/en/weather/).\n\n## FAQ\n\n**What is the weather like in Ioannina in December?**\nCold and wet: on average about 11°C by day and 1°C at night, with around 15 rain days.\n\n**Does it snow in Ioannina?**\nOccasionally in the city itself, and almost every winter in the surrounding mountains (Zagori, Metsovo).\n\n**When is the best time to visit Ioannina?**\nMay–June and September: warm but not scorching, little rain and good for hiking nearby.\n\n**Is Ioannina hot in summer?**\nYes, in July–August the daytime average is 32–33°C, with cooler nights.\n"
   }
- ],
- "image": {
-  "type": "art",
-  "key": "sun"
- },
- "meta": {
-  "imageQuery": "ioannina lake pamvotis"
- },
- "guide": true,
- "guideCat": "travel",
- "he": {
-  "title": "מזג האוויר ביואנינה לפי חודשים: טמפרטורות, גשם ומתי לטוס",
-  "seoTitle": "מזג אוויר ביואנינה לפי חודשים",
-  "seoDesc": "מזג האוויר ביואנינה בכל חודש: טמפרטורות ביום ובלילה, כמות גשם וימי גשם, שלג בחורף, ומתי הכי כדאי לטוס ליואנינה ולזגוריה.",
-  "keywords": [
-   "יואנינה מזג אוויר",
-   "מזג אוויר יוון יואנינה",
-   "יואנינה יוון מזג אוויר",
-   "מזג אוויר יואנינה יוון 10 ימים",
-   "יואנינה בחורף",
-   "יואנינה שלג",
-   "מתי לטוס ליואנינה"
-  ],
-  "dek": "עיר הררית על אגם: קיץ חם, חורף קר וגשום, וטבלה מלאה לכל חודש.",
-  "tldr": [
-   "יואנינה גשומה פי שלושה מהקיקלדים: כ-1,090 מ״מ בשנה.",
-   "בדצמבר-ינואר כ-0°C בלילה, ושלג בהרים שמסביב.",
-   "הזמן הנוח: מאי-יוני וספטמבר."
-  ],
-  "means": "אם אתם מתכננים את יואנינה בחורף, ארזו מעיל ונעליים לגשם ובדקו את הכבישים לכפרים. בקיץ חם ביום ונעים בערב.",
-  "body": "## מזג האוויר ביואנינה לפי חודשים\n\nיואנינה שוכנת על גדת אגם פמבוטיס, בגובה של כ-485 מטר, בלב חבל אפירוס שבצפון-מערב יוון. היא רחוקה מהים ומוקפת הרים, ולכן האקלים שלה שונה מאוד מזה של אתונה או של האיים: קיץ חם, חורף קר, והרבה יותר גשם. לפי Climates to Travel יורדים בעיר כ-1,090 מ״מ גשם בשנה, בערך פי שלושה מאשר בנקסוס שבקיקלדים.\n\n| חודש | מינימום °C | מקסימום °C | גשם (מ״מ) | ימי גשם |\n|---|---|---|---|---|\n| ינואר | -1 | 9 | 125 | 13 |\n| פברואר | 2 | 12 | 115 | 12 |\n| מרץ | 4 | 15 | 95 | 13 |\n| אפריל | 6 | 19 | 75 | 13 |\n| מאי | 10 | 20 | 65 | 11 |\n| יוני | 14 | 28 | 45 | 7 |\n| יולי | 16 | 32 | 30 | 5 |\n| אוגוסט | 16 | 33 | 30 | 5 |\n| ספטמבר | 13 | 27 | 60 | 6 |\n| אוקטובר | 8 | 19 | 110 | 10 |\n| נובמבר | 5 | 16 | 170 | 14 |\n| דצמבר | 1 | 11 | 170 | 15 |\n\nהמקור: Climates to Travel. אלה ממוצעים רב-שנתיים, ולא תחזית. לתחזית ל-10 ימים קדימה כדאי לבדוק את השירות המטאורולוגי היווני (meteo.gr) סמוך לטיסה.\n\n## יואנינה בחורף: קר, גשום ולפעמים מושלג\n\nבדצמבר ובינואר הטמפרטורה בלילה יורדת לסביבות 0°C, ונובמבר ודצמבר הם החודשים הגשומים ביותר בשנה (כ-170 מ״מ כל אחד). ברכסי ההרים שמסביב, ובמיוחד בזגוריה ובמצובו, יורד שלג כמעט בכל חורף. מי שמגיע בעונה הזו צריך מעיל חם, נעליים שמתאימות לגשם, ואם נוסעים ברכב לכפרים, גם לבדוק את מצב הכבישים.\n\n## אביב וסתיו: הזמן הנוח לטיול\n\nאפריל-מאי וסוף ספטמבר-אוקטובר נוחים להליכה בעיר העתיקה, לשייט באגם ולטיולי יום לזגוריה. בימים חמים מספיק סוודר קל, אבל צריך לקחת בחשבון שבאביב עדיין יש 11–13 ימי גשם בחודש. אוקטובר מתחיל להיות גשום יותר.\n\n## יואנינה בקיץ\n\nביולי ובאוגוסט הממוצע ביום מגיע ל-32–33°C, אבל הלילות קרירים יותר מאשר באתונה, וגשם כמעט שאין (כ-5 ימים בחודש, בעיקר סופות רעמים קצרות אחר הצהריים). זו עונה טובה לשלב את העיר עם טיול בערוץ ויקוס או בנהרות של אזור זגוריה.\n\n## טיפים לישראלים\n\n- טסים בדרך כלל לאתונה או לסלוניקי וממשיכים ברכב, או טסים בטיסה פנימית לנמל התעופה של יואנינה. כדאי לבדוק בעמוד [הטיסות](/flights/).\n- מידע על העיר עצמה, האגם והכפרים נמצא בעמוד [יואנינה](/d/ioannina/).\n- בעיר העתיקה, בתוך החומות, יש בית כנסת רומניוטי היסטורי. הביקור בדרך כלל בתיאום מראש.\n- לאזור ההרים הסמוך יש מדריך נפרד: [מזג האוויר בזגוריה לפי חודשים](/a/zagori-weather-by-month-guide/) וגם [זגוריה בחורף](/a/zagori-in-winter-guide/).\n- להשוואה עם שאר יוון: [מזג האוויר ביוון לפי חודשים](/weather/).\n\n## שאלות נפוצות\n\n**מה מזג האוויר ביואנינה בדצמבר?**\nקר וגשום: בממוצע כ-11°C ביום וכ-1°C בלילה, ובערך 15 ימי גשם בחודש.\n\n**האם יורד שלג ביואנינה?**\nבעיר עצמה זה קורה לפעמים, בהרים שמסביב (זגוריה, מצובו) כמעט בכל חורף.\n\n**מתי הכי כדאי לטוס ליואנינה?**\nמאי-יוני וספטמבר: חם אבל לא לוהט, מעט גשם, ומתאים לטיולים באזור.\n\n**האם יואנינה חמה בקיץ?**\nכן, ביולי-אוגוסט הממוצע ביום הוא 32–33°C, עם לילות קרירים יותר.\n"
- },
- "en": {
-  "title": "Ioannina weather by month: temperatures, rain and when to go",
-  "seoTitle": "Ioannina weather by month: when to go",
-  "seoDesc": "Ioannina weather month by month: day and night temperatures, rainfall and rain days, winter snow, and the best time to visit Ioannina and Zagori.",
-  "keywords": [
-   "Ioannina weather",
-   "Ioannina weather by month",
-   "Ioannina in winter",
-   "Ioannina snow",
-   "best time to visit Ioannina",
-   "Epirus weather"
-  ],
-  "dek": "A lakeside mountain city: hot summers, cold wet winters and a full table for every month.",
-  "tldr": [
-   "Ioannina gets about three times the rain of the Cyclades: around 1,090 mm a year.",
-   "In December–January nights are near 0°C, with snow in the mountains around.",
-   "The comfortable time: May–June and September."
-  ],
-  "means": "If you go in winter, pack a coat and rain-proof shoes and check the roads to the villages. In summer it is hot by day and pleasant in the evening.",
-  "body": "## Ioannina weather by month\n\nIoannina sits on the shore of Lake Pamvotis, about 485 metres above sea level, in the heart of Epirus in north-western Greece. Far from the sea and ringed by mountains, it has a very different climate from Athens or the islands: hot summers, cold winters and a lot more rain. According to Climates to Travel the city gets about 1,090 mm of rain a year, roughly three times as much as Naxos in the Cyclades.\n\n| Month | Min °C | Max °C | Rain (mm) | Rain days |\n|---|---|---|---|---|\n| January | -1 | 9 | 125 | 13 |\n| February | 2 | 12 | 115 | 12 |\n| March | 4 | 15 | 95 | 13 |\n| April | 6 | 19 | 75 | 13 |\n| May | 10 | 20 | 65 | 11 |\n| June | 14 | 28 | 45 | 7 |\n| July | 16 | 32 | 30 | 5 |\n| August | 16 | 33 | 30 | 5 |\n| September | 13 | 27 | 60 | 6 |\n| October | 8 | 19 | 110 | 10 |\n| November | 5 | 16 | 170 | 14 |\n| December | 1 | 11 | 170 | 15 |\n\nSource: Climates to Travel. These are long-term averages, not a forecast. For a 10-day forecast check the Greek meteo service (meteo.gr) close to your trip.\n\n## Ioannina in winter: cold, wet and sometimes snowy\n\nIn December and January night-time temperatures drop to around 0°C, and November and December are the wettest months (about 170 mm each). The surrounding mountains, especially Zagori and Metsovo, see snow almost every winter. Bring a warm coat and rain-proof shoes, and if you are driving to the villages, check the road conditions.\n\n## Spring and autumn: the comfortable season\n\nApril–May and late September–October are pleasant for walking in the old town, a boat trip on the lake and day trips to Zagori. Bear in mind that spring still brings 11–13 rain days a month, and October gets wetter.\n\n## Ioannina in summer\n\nIn July and August daytime averages reach 32–33°C, but nights are cooler than in Athens and rain is rare (about 5 days a month, mostly short afternoon thunderstorms). It is a good season to combine the city with the Vikos Gorge or the rivers of Zagori.\n\n## Tips for Israeli visitors\n\n- Most people fly to Athens or Thessaloniki and drive on, or take a domestic flight to Ioannina airport. See our [flights page](/en/flights/).\n- More about the city, the lake and the villages: [Ioannina](/en/d/ioannina/).\n- Inside the castle walls of the old town there is a historic Romaniote synagogue; visits are usually by prior arrangement.\n- For the mountains nearby: [Zagori weather by month](/en/a/zagori-weather-by-month-guide/) and [Zagori in winter](/en/a/zagori-in-winter-guide/).\n- Compare with the rest of the country: [Greece weather by month](/en/weather/).\n\n## FAQ\n\n**What is the weather like in Ioannina in December?**\nCold and wet: on average about 11°C by day and 1°C at night, with around 15 rain days.\n\n**Does it snow in Ioannina?**\nOccasionally in the city itself, and almost every winter in the surrounding mountains (Zagori, Metsovo).\n\n**When is the best time to visit Ioannina?**\nMay–June and September: warm but not scorching, little rain and good for hiking nearby.\n\n**Is Ioannina hot in summer?**\nYes, in July–August the daytime average is 32–33°C, with cooler nights.\n"
- }
 }
