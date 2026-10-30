@@ -19,11 +19,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39810427/pexels-photo-39810427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tourists enjoying a sunny day in the historic old town square surrounded by ancient architecture.",
+    "credit": "Photo: Kader Azra Namuslu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/tourists-exploring-historic-old-town-square-39810427/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "rhodes old town street"
+    "imageQuery": "rhodes old town street",
+    "photoTried": true
   },
   "he": {
     "title": "האם רודוס בטוחה לישראלים? שריפות, ים, כבישים וטיפים",

@@ -15,11 +15,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33170472/pexels-photo-33170472.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic view of Rhodes harbor showcasing the medieval castle and calm sea under a clear sky.",
+    "credit": "Photo: YUKSEL OZDEMIR / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-medieval-rhodes-harbor-with-castle-33170472/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
-    "imageQuery": "rhodes harbour ferry"
+    "imageQuery": "rhodes harbour ferry",
+    "photoTried": true
   },
   "he": {
     "title": "מרודוס לאיים אחרים: סימי, קוס, פטמוס, כרתים וסנטוריני",

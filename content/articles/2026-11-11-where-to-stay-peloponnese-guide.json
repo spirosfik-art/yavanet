@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33557545/pexels-photo-33557545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the charming red rooftops of Nafplion, Greece, with its clustered Mediterranean architecture.",
+    "credit": "Photo: Farzona Comnas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-nafplion-s-historic-red-rooftops-33557545/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
-    "imageQuery": "nafplio old town hotel"
+    "imageQuery": "nafplio old town hotel",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

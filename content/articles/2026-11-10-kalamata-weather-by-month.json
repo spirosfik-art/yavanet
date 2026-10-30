@@ -15,11 +15,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32418724/pexels-photo-32418724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Tranquil sunset view over a rocky beach in Greece, capturing vibrant sky colors and gentle sea waves.",
+    "credit": "Photo: Zoi Gaitanarou / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/serene-sunset-over-rocky-greek-beachline-32418724/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "kalamata beach sunny"
+    "imageQuery": "kalamata beach sunny",
+    "photoTried": true
   },
   "he": {
     "title": "מזג האוויר בקלמטה לפי חודשים: טמפרטורות, גשם ומתי לטוס",

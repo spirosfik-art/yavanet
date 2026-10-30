@@ -15,11 +15,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35249502/pexels-photo-35249502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking aerial shot of Glyfada Beach in Greece with azure waters and sandy shores.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-aerial-view-of-glyfada-beach-greece-35249502/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
-    "imageQuery": "glyfada beach athens"
+    "imageQuery": "glyfada beach athens",
+    "photoTried": true
   },
   "he": {
     "title": "מזג האוויר בגליפדה: מתי אפשר להתרחץ בים וכמה חם בכל חודש",

@@ -19,11 +19,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39074854/pexels-photo-39074854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the ancient Philippeion in Olympia, surrounded by lush greenery under a bright sky.",
+    "credit": "Photo: Lydia Griva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ancient-ruins-of-the-philippeion-in-olympia-39074854/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "ancient olympia ruins"
+    "imageQuery": "ancient olympia ruins",
+    "photoTried": true
   },
   "he": {
     "title": "מזג האוויר באולימפיה, יוון: מתי הכי נוח לבקר באתר העתיק",
