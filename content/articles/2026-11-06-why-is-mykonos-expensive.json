@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37282945/pexels-photo-37282945.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Traditional windmill with vibrant sunset sky on Mykonos Island, Greece.",
+    "credit": "Photo: FRANKIE FANTOPOULOS / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sunset-at-traditional-windmill-in-mykonos-37282945/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "mykonos windmills chora"
+    "imageQuery": "mykonos windmills chora",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

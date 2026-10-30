@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32153254/pexels-photo-32153254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning view of a Greek island harbor with boats and a vibrant coastline under a clear blue sky.",
+    "credit": "Photo: Daciana  Cristina  Visan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-view-of-greek-island-harbor-and-coastline-32153254/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "paros naoussa harbour"
+    "imageQuery": "paros naoussa harbour",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

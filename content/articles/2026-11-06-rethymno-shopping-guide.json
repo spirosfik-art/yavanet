@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11401885/pexels-photo-11401885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Busy street scene in Rethymno, Greece with pedestrians, shops, and cobblestone paths.",
+    "credit": "Photo: Niall Dennehy / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/people-in-city-11401885/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "rethymno old town street"
+    "imageQuery": "rethymno old town street",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

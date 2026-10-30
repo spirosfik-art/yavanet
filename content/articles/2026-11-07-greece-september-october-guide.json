@@ -21,11 +21,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30275261/pexels-photo-30275261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning luxury yacht cruising near the rocky shores of Naxos, Greece, under clear azure skies.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/luxury-yacht-sailing-near-rocky-greek-coastline-30275261/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "greek island september sea"
+    "imageQuery": "greek island september sea",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

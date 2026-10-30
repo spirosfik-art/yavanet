@@ -21,11 +21,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37047347/pexels-photo-37047347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Crete's coastline in Greece with blue waters and rugged cliffs.",
+    "credit": "Photo: Mike Kw / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-crete-s-rugged-coastline-in-greece-37047347/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "crete coast road"
+    "imageQuery": "crete coast road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",
