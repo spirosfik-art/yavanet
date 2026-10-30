@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18664365/pexels-photo-18664365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A serene footbridge leads to a picturesque island in Zakynthos, Greece, under a clear sky.",
+    "credit": "Photo: Mantas Sinkevičius / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/wooden-footbridge-towards-island-on-sea-coast-18664365/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "zakynthos laganas night"
+    "imageQuery": "zakynthos laganas night",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

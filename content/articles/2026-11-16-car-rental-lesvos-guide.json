@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11638244/pexels-photo-11638244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque coastal road with rocky hills under a clear blue sky on Skopelos Island, Greece.",
+    "credit": "Photo: Ekaterinna Popgeorgieva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/road-in-the-mountains-in-skopelos-11638244/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "lesvos mountain road"
+    "imageQuery": "lesvos mountain road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

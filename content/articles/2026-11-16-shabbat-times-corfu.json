@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18735055/pexels-photo-18735055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic aerial view of Old Town Corfu with its distinctive fortress and Mediterranean architecture.",
+    "credit": "Photo: Karolina / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/vintage-buildings-in-town-18735055/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
-    "imageQuery": "corfu old town"
+    "imageQuery": "corfu old town",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "jewish",

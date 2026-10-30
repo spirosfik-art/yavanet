@@ -17,11 +17,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18671938/pexels-photo-18671938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the serene road cutting through Büyükada's rugged landscape under a clear sky.",
+    "credit": "Photo: Hüsna Kefelioğlu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/empty-road-on-coast-18671938/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
-    "imageQuery": "aegina island road"
+    "imageQuery": "aegina island road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",

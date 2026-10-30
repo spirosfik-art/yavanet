@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4040871/pexels-photo-4040871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A woman reflects by candlelight, symbolizing tradition and spirituality.",
+    "credit": "Photo: cottonbro studio / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/woman-in-dim-light-4040871/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
-    "imageQuery": "shabbat candles"
+    "imageQuery": "shabbat candles",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "jewish",

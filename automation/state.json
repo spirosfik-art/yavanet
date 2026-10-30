@@ -17,33 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "bcc370a6d341": 1792135263860,
-    "2323a017b3ef": 1792135263860,
-    "e4f9dd72f816": 1792135263860,
-    "487336e5cf86": 1792135263860,
-    "63b1e9727204": 1792135263860,
-    "721be6e12de0": 1792135263860,
-    "c0875364c6c4": 1792135263860,
-    "88fa601a9c53": 1792135263860,
-    "0cf3738a2a7e": 1792135263860,
-    "7e2329f99dba": 1792135263860,
-    "e59705e9f036": 1792135263860,
-    "c9cead5f7aa7": 1792135263860,
-    "88b69cdeee42": 1792137495336,
-    "ee5e507b6a4b": 1792137495336,
-    "fc4f71839822": 1792137495336,
-    "b18c8fc8cc8c": 1792137495336,
-    "2fd1914ddbbe": 1792138830883,
-    "42ccfddfc325": 1792138830883,
-    "bb5d4528f5f3": 1792138830883,
-    "7c1b35d07c50": 1792138830883,
-    "d1842c14b45a": 1792138830883,
-    "58af693487dc": 1792141108750,
-    "5914a7f3bb54": 1792141108750,
-    "3db09a732386": 1792141108750,
-    "6cb7838f0669": 1792141108750,
-    "9ac47a2b8a81": 1792141108750,
-    "3bae4b7e4bae": 1792141108750,
     "ddafd95d86a7": 1792142541839,
     "c1c3a646a3bc": 1792142541839,
     "981ad6dc9296": 1792144574870,
@@ -2079,9 +2052,141 @@
     "704209d9310f": 1793343710030,
     "149c40f9657c": 1793343710030,
     "c00073027b4b": 1793343710030,
-    "064c7ce46fec": 1793343710030
+    "064c7ce46fec": 1793343710030,
+    "333b1b3356eb": 1793351221417,
+    "acfb5a194255": 1793351221417,
+    "ca00545eb234": 1793351221417,
+    "cab3ffa14bdd": 1793351221417,
+    "c37009922c82": 1793351221417,
+    "d34c81272588": 1793351221417,
+    "729bcce9c2a2": 1793351221417,
+    "9416b8a57f73": 1793351221417,
+    "7959f424041d": 1793351221417,
+    "58fd770a0b2f": 1793351221417,
+    "302427a195fa": 1793351221417,
+    "643b044f6975": 1793351221417,
+    "314090b99f85": 1793351221417,
+    "3ad6005bbeed": 1793351221417,
+    "6b8e46eb8ba2": 1793351221417,
+    "0bcb47978341": 1793351221417,
+    "c56ce6845e1c": 1793351221417,
+    "6ab5a3792872": 1793351221417,
+    "1324c181da63": 1793351221417,
+    "976efd4c138f": 1793351221417,
+    "07bb8f72e3aa": 1793351221417,
+    "3243d1f30566": 1793351221417,
+    "3663364575cf": 1793351221417,
+    "cacc20537a39": 1793351221417,
+    "d5f581c14127": 1793351221417
   },
-  "pending": {},
+  "pending": {
+    "59face": {
+      "createdAt": 1793351247711,
+      "item": {
+        "title": "Copper Thieves Suspected of Causing Fatal Explosion in Plaka",
+        "url": "https://greekcitytimes.com/2026/10/30/copper-thieves-suspected-of-causing-fatal-explosion-in-plaka/",
+        "summary": "Greek investigators link an attempted copper theft to the fatal gas explosion in Athens’ Plaka district that killed six people. Three men have been arrested.\n The post Copper Thieves Suspected of Causing Fatal Explosion in Plaka appeared first on Greek City Times .",
+        "published": "Fri, 30 Oct 2026 08:46:05 +0000",
+        "id": "acfb5a194255",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "acfb5a194255",
+        "section": "travel",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Update on the fatal Plaka explosion investigation, important for tourist and resident safety awareness in central Athens.",
+        "item": {
+          "title": "Copper Thieves Suspected of Causing Fatal Explosion in Plaka",
+          "url": "https://greekcitytimes.com/2026/10/30/copper-thieves-suspected-of-causing-fatal-explosion-in-plaka/",
+          "summary": "Greek investigators link an attempted copper theft to the fatal gas explosion in Athens’ Plaka district that killed six people. Three men have been arrested.\n The post Copper Thieves Suspected of Causing Fatal Explosion in Plaka appeared first on Greek City Times .",
+          "published": "Fri, 30 Oct 2026 08:46:05 +0000",
+          "id": "acfb5a194255",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "plaka-gas-explosion-copper-theft-athens",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 37.9715,
+          "lng": 23.7266
+        },
+        "strike": null,
+        "alert": {
+          "he": "חקירה באתונה",
+          "en": "Athens Investigation"
+        },
+        "imageKey": "athens",
+        "imageQuery": "Athens Plaka street architecture",
+        "he": {
+          "title": "אסון הפיצוץ באתונה: גניבת נחושת גרמה לדליפת גז קטלנית",
+          "seoTitle": "פיצוץ באתונה: גניבת נחושת גרמה לאסון בפלאקה",
+          "seoDesc": "חקירת הפיצוץ הקטלני ברובע פלאקה באתונה מעלה כי גניבת צינור נחושת גרמה לדליפת הגז שהביאה למותם של שישה בני אדם. כל הפרטים לישראלים.",
+          "keywords": [
+            "פיצוץ באתונה",
+            "אתונה פלאקה",
+            "חדשות יוון",
+            "מזג אוויר באתונה",
+            "תיירות באתונה"
+          ],
+          "dek": "רשויות האכיפה ביוון עצרו שלושה חשודים במעורבות בפיצוץ הקטלני ברובע פלאקה באתונה, שהתרחש בסוף ספטמבר וגבה את חיי שישה בני אדם.",
+          "tldr": [
+            "שלושה חשודים נעצרו בחשד שגרמו לדליפת גז קטלנית ברובע פלאקה באתונה.",
+            "החקירה מעלה כי השלושה ניסו לגנוב צינור נחושת וחתכו בטעות צינור אספקת גז טבעי.",
+            "בפיצוץ נהרגו שישה בני אדם, ומיניבוס ובו 12 ילדים חלף במקום סמוך בנס ללא פגע."
+          ],
+          "means": "אם אתם מתכננים ביקור באתונה או שוהים בעיר, אין הנחיות מיוחדות או הגבלות תנועה ברובע פלאקה בעקבות האירוע החריג. עם זאת, תיירים ובישראלים המטיילים באזורים המרכזיים מתבקשים לשמור על ערנות ולדווח למשטרה המקומית על כל מפגע בטיחותי או חריג שנתקלים בו.",
+          "body": "משטרת יוון וצוותי חקירה מיוחדים פצחו בחקירה מאומצת בעקבות הפיצוץ העז שהחריד את רובע פלאקה המרכזי באתונה. על פי ממצאי החקירה, האסון הקטלני שהתרחש ב-25 בספטמבר 2026 ונשא תוצאות טרגיות של שישה הרוגים, נגרם כתוצאה מניסיון גניבת מתכת שבוצע זמן קצר קודם לכן.\n\n## ממצאי החקירה: ניסיון גניבה שהסתיים באסון\n\nמניתוח צילומי אבטחה שאספו החוקרים עולה כי שלושה חשודים – שני אזרחי יוון בני 34 ו-37 ואזרח אלבני בן 55 – נכנסו לבניין בן שלוש קומות ברחוב ליסיקראטוס שעות ספורות לפני הפיצוץ. שניים מהחשודים נכנסו לחדר מדרגות חשוך וניסו לעקור צינורות נחושת מתוך מערכות הבניין.\n\nמומחים טכניים מהאוניברסיטה הפוליטכנית הלאומית של אתונה הפוליטכנית (NTUA) ומחלקת חקירות פליליות של מכבי האש (DAEE) ניתחו את שברי צינורות הגז ומוני הגז שאספו מההריסות. הבדיקה הובילה לאיתור מדויק של מוקד דליפת הגז. החוקרים קבעו כי השלושה חתכו בטעות צינור אספקה של גז טבעי במהלך ניסיון הגניבה. הגז הדולף התפשט והצטבר בקומה השנייה, שבה התגוררה זוג קשישים, ובעקבות זאת אירע הפיצוץ הקטלני.\n\n## נס בכביש: מיניבוס עם ילדים חלף ברגע הפיצוץ\n\nבמהלך בדיקת התיעוד מהזירה התברר היקף הסכנה הגדול ששרר באזור באותן שניות. צילומים שפורסמו הראו כי מיניבוס שחור ובו 12 ילדי בית ספר עבר ברחוב ליסיקראטוס בדיוק ברגע שבו אירע הפיצוץ העוצמתי.\n\nלמרבה המזל, הרכב חלף בקרבת מקום בסמוך למוקד האירוע והילדים ניצלו ללא פגע. החשודים נמלטו מהמקום רגלית כשהם נושאים עמם חלק מצינור הנחושת שגנבו, אך המשטרה הצליחה להתחקות אחר מסלול בריחתם דרך אזור מונסטיראקי וסינטגמה ועד לניאוס קוסמוס.\n\n## מעצר חשודים והמשך הצעדים המשפטיים\n\nשלושת החשודים נעצרו על ידי הרשויות והועברו למעצר משטרתי. הפרקליטות צפויה להגיש נגדם כתבי אישום חמורים הכוללים סעיפי הריגה. בינתיים, מחלקת החקירות של מכבי האש ממשיכה בבדיקת כל ההיבטים של האירוע בשיתוף מומחים משפטיים ופורנזיים.\n\n## שאלות נפוצות\n\n**האם אזור פלאקה באתונה סגור לתיירים כעת?**\nלא, האזור פתוח למבקרים ולתיירים ואין הגבלות תנועה מיוחדות ברובע פלאקה בעקבות האירוע.\n\n**מי נעצר בעקבות הפיצוץ באתונה?**\nהמשטרה עצרה שלושה חשודים – שני אזרחים יוונים ואזרח אלבני אחד – בחשד שגרמו לדליפת הגז במהלך ניסיון גניבת צינור נחושת.\n\n**האם יש נפגעים נוספים מעבר לשישה ההרוגים?**\nמלבד ששת בני האדם שקיפחו את חייו בפיצוץ עצמו, 12 ילדים שהיו במיניבוס חולפים לא נפגעו וניצלו בנס."
+        },
+        "en": {
+          "title": "Athens Plaka Blast: Copper Theft Suspected in Fatal Gas Explosion",
+          "seoTitle": "Athens Plaka Explosion: Copper Theft Caused Fatal Blast",
+          "seoDesc": "Greek investigators reveal that a copper theft attempt caused the deadly gas explosion in Athens' Plaka district, killing six people. Three suspects arrested.",
+          "keywords": [
+            "Athens explosion",
+            "Plaka Athens news",
+            "Greece crime news",
+            "Athens travel safety",
+            "Greece gas blast"
+          ],
+          "dek": "Greek authorities have arrested three suspects over the deadly gas explosion in Athens' Plaka district that claimed six lives in late September.",
+          "tldr": [
+            "Three suspects were arrested for allegedly causing a deadly gas explosion in Athens' Plaka district.",
+            "Investigators found that a copper theft attempt led to a natural gas pipe being accidentally cut.",
+            "Six people died in the blast, while a minibus carrying 12 schoolchildren narrowly escaped unharmed."
+          ],
+          "means": "If you are planning a trip to Athens or currently staying in the city, there are no special travel restrictions or safety warnings for the Plaka district following this isolated criminal incident. Visitors are advised to remain aware of their surroundings and report any safety hazards or suspicious maintenance issues to local authorities.",
+          "body": "Greek law enforcement agencies and specialized investigative teams have concluded a thorough investigation into the massive explosion that shook the historic Plaka district in central Athens. According to findings, the deadly disaster which occurred on September 25, 2026, resulting in six fatalities, was triggered by a metal theft attempt carried out shortly before the blast.\n\n## Investigation Findings: A Theft Attempt Leading to Tragedy\n\nSurveillance footage analyzed by investigators showed that three suspects—two Greek nationals aged 34 and 37, and a 55-year-old Albanian national—entered a three-storey building on Lysikratous Street hours before the explosion. Two of the men reportedly entered an unlit stairwell to remove copper tubing from the property's infrastructure.\n\nTechnical experts from the National Technical University of Athens (NTUA) and the Fire Crimes Investigation Directorate (DAEE) reconstructed the gas meters and piping retrieved from the rubble. Their analysis pinpointed the exact location of the gas leak. Investigators concluded that the suspects accidentally severed a natural gas supply line during the attempted theft. The leaking gas accumulated on the second floor, where an elderly couple lived, eventually triggering the fatal explosion.\n\n## Close Call: Minibus with Children Passed the Scene\n\nSecurity footage also revealed the immense danger posed to passersby at the time of the blast. A black minibus carrying 12 schoolchildren was traveling along Lysikratous Street at the exact moment the powerful explosion struck.\n\nMiraculously, the vehicle and its young passengers escaped unharmed as they passed the building. The suspects fled the scene on foot carrying a piece of stolen copper pipe, traveling from Monastiraki through Stadiou Street and Syntagma before reaching Neos Kosmos, where authorities eventually tracked them.\n\n## Arrests and Legal Proceedings\n\nAll three suspects have been taken into police custody. Prosecutors are expected to bring homicide charges against the men as the Fire Crimes Investigation Directorate continues its work alongside court-appointed forensic experts and engineers.\n\n## FAQ\n\n**Is the Plaka district in Athens closed to tourists?**\nNo, the area remains open to visitors and tourists with no special travel restrictions in place following the incident.\n\n**Who was arrested in connection with the Athens explosion?**\nPolice arrested three men—two Greek nationals and one Albanian national—suspected of tampering with gas pipes during a copper theft attempt.\n\n**Were there any other casualties besides the six fatalities?**\nApart from the six people who lost their lives in the explosion, 12 children inside a passing minibus narrowly escaped unhurt."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greek investigators believe an attempted copper theft caused the deadly gas explosion in Athens’ Plaka district on 25 September 2026, which killed six people. Police have arrested three men suspected of entering the three-storey building shortly before the blast and cutting a natural gas pipe while trying to steal copper tubing.\n According to footage obtained by investigators, three men entered the building on Lysikratous Street a few hours before the explosion. Two of them reportedly went inside and entered an unlit stairwell, where they attempted to remove copper pipes. They later emerged running from the building, carrying a piece of copper pipe.\n Investigators believe the men cut one of the natural gas supply pipes during the attempted theft, causing gas to leak into the building. The gas accumulated on the second floor, where an elderly couple lived. The explosion followed, killing six people.\n The three suspects – two Greek nationals aged 34 and 37, and an Albanian national aged 55 – have been taken into police custody.\n Investigators pinpoint source of gas leak \n Read more: Warrants Target Three Men Over Deadly Plaka Gas Blast \n From the outset, experienced officers from the Fire Crimes Investigation Directorate (DAEE) led the investigation in cooperation with court-appointed forensic experts.\n Investigators reconstructed the gas meter and pipes from the rubble, examining the position of the components and their relationship to one another. This enabled them to identify the precise point where the gas leak began.\n The investigation also drew on evidence obtained after authorities lifted the confidentiality of communications, as well as audiovisual footage from the area.\n The DAEE worked with court-appointed experts, including electrical engineers and a chemist, alongside scientific staff from the National Technical University of Athens’ Laboratory of Metallography, within its Department of Metallurgy and Materials Technology.\n Specialised NTUA laboratories identified the exact location of the leak and linked the suspected tampering to the fatal explosion.\n School minibus carrying 12 children passes explosion site \n Video footage obtained by Ta Nea shows a black minibus travelling along Lysikratous Street at the moment the powerful explosion occurred.\n The vehicle was carrying 12 schoolchildren, who came dangerously close to the disaster. The children escaped unharmed as the explosion struck while the minibus was passing the scene.\n Three suspects entered building hours before blast \n Analysis of surveillance footage revealed that three men appeared outside the building a few hours before the explosion. Two entered the property, and the fatal blast followed later.\n Investigators believe the men intended to steal copper. They reportedly travelled to the building along a route from Monastiraki through Stadiou Street and Syntagma before reaching Neos Kosmos.\n Police say the three men have previously attracted the attention of authorities on several occasions.\n The Fire Crimes Investigation Directorate is continuing the investigation. Prosecutors are expected to bring homicide charges against all three suspects.\n (Source: AMNA)\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Plaka Explosion Investigation: Gas Leak Theory Emerges as Authorities Probe Second Floor \n Plaka Tragedy: Last Two Bodies Found as Death Toll Rises to Six \n Gkrava Schools Stay Closed as Doukas Demands State Gas Inspection \n Homicide Investigation Under Way After Man Shot Dead in Glyfada \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greek Eurogroup President Praises Christine Lagarde Leadership\n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Έκρηξη στην Πλάκα: Υποψίες για κλοπή χαλκού πίσω από τη φονική έκρηξη αερίου",
+        "dek": "Οι ελληνικές αρχές συνέλαβαν τρεις υπόπτους για τη φονική έκρηξη αερίου στην περιοχή της Πλάκας στην Αθήνα, η οποία στοίχισε τη ζωή σε έξι ανθρώπους στα τέλη Σεπτεμβρίου.",
+        "tldr": [
+          "Τρεις ύποπτοι συνελήφθησαν επειδή φέρονται να προκάλεσαν φονική έκρηξη αερίου στην περιοχή της Πλάκας στην Αθήνα.",
+          "Οι ερευνητές διαπίστωσαν ότι μια απόπειρα κλοπής χαλκού οδήγησε στην τυχαία κοπή ενός αγωγού φυσικού αερίου.",
+          "Έξι άνθρωποι έχασαν τη ζωή τους στην έκρηξη, ενώ ένα μίνι βαν με 12 μαθητές γλίτωσε παρά τρίχα."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2091,12 +2196,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-30T07:01:36.369Z",
+      "at": "2026-10-30T09:06:48.709Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-30T07:01:37.548Z",
+      "at": "2026-10-30T09:06:49.714Z",
       "items": 4
     },
     "civilprotection": {
@@ -2107,27 +2212,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-30T07:01:38.832Z",
+      "at": "2026-10-30T09:06:51.727Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-30T07:01:39.294Z",
+      "at": "2026-10-30T09:06:51.979Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-30T07:01:40.300Z",
+      "at": "2026-10-30T09:06:52.760Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-30T07:01:41.305Z",
-      "items": 8
+      "at": "2026-10-30T09:06:53.668Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-30T07:01:42.033Z",
+      "at": "2026-10-30T09:06:54.528Z",
       "items": 10
     },
     "toi-greece": {
@@ -2138,22 +2243,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-30T07:01:42.679Z",
+      "at": "2026-10-30T09:06:55.080Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-30T07:01:42.965Z",
+      "at": "2026-10-30T09:06:55.248Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-30T07:01:43.090Z",
-      "items": 10
+      "at": "2026-10-30T09:06:55.520Z",
+      "items": 9
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T07:01:43.320Z",
+      "at": "2026-10-30T09:06:55.745Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2163,12 +2268,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T07:01:37.792Z",
+      "at": "2026-10-30T09:06:50.528Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-30T07:01:44.160Z",
+      "at": "2026-10-30T09:06:56.349Z",
       "items": 0
     },
     "hcg": {
@@ -2179,33 +2284,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-30T07:01:46.567Z",
+      "at": "2026-10-30T09:06:57.890Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-30T07:01:46.891Z",
+      "at": "2026-10-30T09:06:58.177Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-30T07:01:47.057Z",
+      "at": "2026-10-30T09:06:58.353Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-30T07:01:47.348Z",
+      "at": "2026-10-30T09:06:58.590Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-30T07:01:47.776Z",
-      "items": 11
+      "at": "2026-10-30T09:06:59.448Z",
+      "items": 10
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-30T07:01:48.180Z",
-      "items": 12
+      "at": "2026-10-30T09:06:59.830Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
@@ -2265,6 +2370,16 @@
         "title": "Δεμένα τα πλοία στα λιμάνια σήμερα λόγω 24ωρης απεργίας των ναυτεργατών – Τι ζητούν",
         "reason": "Ίδιο θέμα με «Greece Port and Ferry Strike: What Travelers Need to Know»: Mixed-script (broken) Hebrew words: שsעות. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-10-30T07:02:13.925Z"
+      },
+      {
+        "title": "Ταυτόχρονη απεργία σε 113 λιμάνια και 22 χώρες – Σε εξέλιξη η κινητοποίηση στον Πειραιά",
+        "reason": "Ίδιο θέμα με «Greece Port and Ferry Strike: What Travelers Need to Know» – δεν γράφτηκε ξανά",
+        "at": "2026-10-30T09:07:08.432Z"
+      },
+      {
+        "title": "Χωρίς τρένα και προαστιακό σήμερα λόγω της 24ωρης απεργίας της Πανελλήνιας Ομοσπονδίας Σιδηροδρομικών - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Train Strike in Greece: Proastiakos and Hellenic Train Services Halted» – δεν γράφτηκε ξανά",
+        "at": "2026-10-30T09:07:09.939Z"
       }
     ],
     "errors": [],
@@ -2444,28 +2559,35 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-30T07:01:50.031Z",
-    "considered": 18,
-    "picked": 4,
+    "at": "2026-10-30T09:07:01.417Z",
+    "considered": 25,
+    "picked": 3,
     "items": [
-      "· naftemporiki | Φονική έκρηξη στην Πλάκα: Ενώπιον του εισαγγελέα οι τρεις κλέφτες του χαλκού – Πώς έφτασαν",
-      "· ert | Ινδονησία: 3.560 νεκροί τον Σεπτέμβριο από τον καπνό των πυρκαγιών – Η κυβέρνηση υπερασπίζ",
-      "✓ ingr | Παγκόσμιο απεργιακό «όχι» στον πόλεμο: Δεμένα λιμάνια και συγκεντρώσεις σε όλη τη χώρα",
-      "✓ ert | Hellenic Train: Απεργία στα τρένα και τον Προαστιακό – Ποια δρομολόγια δεν θα πραγματοποιη",
-      "✓ ert | Δεμένα τα πλοία στα λιμάνια σήμερα λόγω 24ωρης απεργίας των ναυτεργατών – Τι ζητούν",
-      "· ingr | Η μόλυνση από πυρκαγιές σκότωσε πάνω από 3.500 ανθρώπους σε έναν μήνα στην Ινδονησία",
-      "· ingr | Δεμένα τα πλοία σε επτά λιμάνια λόγω της 24ωρης απεργίας των ναυτεργατών",
-      "· ert | Το ΕΡΤnews στο Ισραήλ: Το Λικούντ έχασε την αυτοδυναμία, ο Νετανιάχου επιτίθεται στα αραβι",
-      "· gn-kathimerini | Εκρηξη στην Πλάκα: Εξι νεκροί για έναν χάλκινο σωλήνα - Kathimerini",
-      "· gct | Portarlington Greek Festival Returns Bigger for Its Second Year",
-      "· ingr | Ισραήλ: Πολιτική κρίση εν μέσω πολέμου – Παζάρια και συναντήσεις στο παρασκήνιο – Τα τελικ",
-      "✓ ingr | «Χειρόφρενο» σε τρένα και Προαστιακό – 24ωρη απεργία σήμερα",
-      "· naftemporiki | Έγκριση για… επέκταση περιμένει η ΕΥΑΘ",
-      "· ingr | Κυβέρνηση: Τρέχει κατόπιν εορτής να «μαζέψει» τη ζημιά από το τουρκολιβυκό και να σβήσει τ",
-      "· gct | The Greek Salad Is Now a Luxury Scented Candle",
-      "· gct | Skordalia: The Easy Greek Garlic Dip That Goes With Everything",
-      "· ingr | Χάσμα γενεών στην Ευρώπη: Οκτώ φορές φτωχότεροι οι νέοι – Ασφυκτική πίεση από ακρίβεια και",
-      "· gn-iefimerida | Ο Νετανιάχου καταγγέλλει παρέμβαση του Κατάρ και της Τουρκίας στις εκλογές του Ισραήλ -Εκτ"
+      "· ert | Έξι χρόνια από τον φονικό σεισμό της Σάμου: Σε εξέλιξη η αποκατάσταση των ναών – Το στοίχη",
+      "✓ gct | Copper Thieves Suspected of Causing Fatal Explosion in Plaka",
+      "· gct | Greek Eurogroup President Praises Christine Lagarde Leadership",
+      "· gct | Hackers Steal $6.3 Billion in World’s Biggest Cryptocurrency Heist",
+      "· gct | Greece Raises Flag on Second Belharra Frigate in France",
+      "· gct | Greece and Turkey Clash at UN Security Council",
+      "· gct | Thessaloniki Film Festival Opens with 258 Films and €200,000 in Awards",
+      "· gct | Greece Hosts National Dialogue On Island Agriculture Policy",
+      "· ert | Γλυφάδα: Συνελήφθη 46χρονος αξιωματικός του Π. Ν. για εμπρηστικές επιθέσεις σε δύο πρώην σ",
+      "· gn-kathimerini | Εκρηξη στην Πλάκα: Βαριές διώξεις για τους τρεις κλέφτες χαλκού - Kathimerini",
+      "· naftemporiki | Ποινική δίωξη στους τρεις συλληφθέντες για τη φονική έκρηξη στη Πλάκα – Ποιες κατηγορίες α",
+      "· gn-iefimerida | Έκρηξη στην Πλάκα: Βαρύ το κατηγορητήριο για τους τρεις δράστες -Το μεσημέρι οδηγούνται στ",
+      "✓ ingr | Ταυτόχρονη απεργία σε 113 λιμάνια και 22 χώρες – Σε εξέλιξη η κινητοποίηση στον Πειραιά",
+      "· ert | Χααρέτζ: Ισραηλινές ανησυχίες ότι ένα σύντομο αμερικανικό πλήγμα κατά του Ιράν δεν θα επιτ",
+      "· ingr | Αναζητείται 46χρονος αξιωματικός του Π.Ν. για τρεις εμπρηστικές επιθέσεις εις βάρος πρώην ",
+      "· naftemporiki | Βίαιο ξεπούλημα των τεχνολογικών μετοχών στα χρηματιστήρια: Σκάει το στοίχημα της τεχνητής",
+      "· ingr | Ισραηλινή ηθοποιός στηλιτεύει την κατοχή, αλλά δεν ξέρει ότι είναι on air – Όταν το διαπισ",
+      "· ert | Ισραήλ: Στήριξη εκτός συνασπισμού προσφέρει το κόμμα των υπερορθoδόξων σε κυβέρνηση υπό το",
+      "· gct | Archbishop Makarios Leads Oxi Day Doxology With Evzones in Sydney",
+      "· ingr | Πλάκα: Διώξεις για τρία κακουργήματα στους κατηγορουμένους για την έκρηξη με τους έξι νεκρ",
+      "· gn-iefimerida | Στάση εργασίας από ΟΛΜΕ και ΑΔΕΔΥ για στήριξη εκπαιδευτικών στους ναυτεργάτες - iefimerida",
+      "· ingr | Παγκόσμιο απεργιακό «όχι» στον πόλεμο: Δεμένα λιμάνια και συγκεντρώσεις σε όλη τη χώρα",
+      "· ingr | Πλάκα: Πώς έφτασαν στα ίχνη των τριών δραστών οι Αρχές",
+      "✓ gn-iefimerida | Χωρίς τρένα και προαστιακό σήμερα λόγω της 24ωρης απεργίας της Πανελλήνιας Ομοσπονδίας Σιδ",
+      "· gtp | TAG GREECE: New Campaign to Promote Agrotourism and Gastronomy"
     ]
   },
   "evergreenDone": [

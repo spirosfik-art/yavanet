@@ -13,11 +13,17 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33000978/pexels-photo-33000978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a coastal stone shrine with Mediterranean backdrop under a bright blue sky in Mani Peninsula, Greece.",
+    "credit": "Photo: Lydia Griva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/idyllic-coastal-shrine-in-mani-peninsula-greece-33000978/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
-    "imageQuery": "mani peninsula road"
+    "imageQuery": "mani peninsula road",
+    "photoTried": true
   },
   "guide": true,
   "guideCat": "travel",
