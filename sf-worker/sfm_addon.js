@@ -64,6 +64,7 @@ function sfmCards(html, L, T, fromEn) {
 }
 async function sfMob(path, html, ori, hv) {
   try { html = sfYachtLang(path, html); } catch (e) {}
+  try { html = sfLangFix(path, html); } catch (e) {}
   try { html = await sfVillaYachts(path, sfRadar(path, html)); } catch (e) {}
   try { html = sfVillaFacts(path, html); } catch (e) {}
   try { html = sfVillaSkin(html); } catch (e) {}
@@ -512,4 +513,17 @@ function sfYachtLang(path, html) {
   return html
     .replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:Ελληνικά|ΕΛ)\s*<\/a>)/g, '$1' + elT + '$2')
     .replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:English|EN)\s*<\/a>)/g, '$1' + enT + '$2');
+}
+
+// ===== Language-switch fixups for pages whose EL/EN pair is not detected =====
+function sfLangFix(path, html) {
+  let el = null, en = null;
+  if (path === '/projects/' || path === '/ependytika/') { el = '/ependytika/'; en = '/projects/'; }
+  const m = path.match(/^\/(?:tr|he|ar|zh|ru|fr|de|it)\/properties\/((?:\d+\/)?)$/);
+  if (m) { en = '/en/properties/' + m[1]; }
+  if (!el && !en) return html;
+  let t = html;
+  if (el) t = t.replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:Ελληνικά|ΕΛ)\s*<\/a>)/g, '$1' + el + '$2');
+  if (en) t = t.replace(/(<a\b[^>]*\bhref=")[^"]*("[^>]*>\s*(?:English|EN)\s*<\/a>)/g, '$1' + en + '$2');
+  return t;
 }
