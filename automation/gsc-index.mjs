@@ -21,9 +21,11 @@ const tok = await (await fetch("https://oauth2.googleapis.com/token", { method: 
 if (!tok.access_token) { console.log("::error::token: " + JSON.stringify(tok).slice(0, 300)); process.exit(1); }
 const H = { authorization: "Bearer " + tok.access_token, "content-type": "application/json" };
 
+process.on("uncaughtException", (e) => { console.log("::error::" + (e.stack || e.message).slice(0, 500)); process.exit(1); });
+process.on("unhandledRejection", (e) => { console.log("::error::" + ((e && e.stack) || e).toString().slice(0, 500)); process.exit(1); });
 // Πόσες σελίδες έχει δώσει το site στη Google (sitemap) και πόσες έχει ήδη στο ευρετήριο
 const SITE = "sc-domain:yavanet.gr";
-const g = async (u, opt = {}) => { const r = await fetch(u, { headers: H, ...opt }); return r.json(); };
+const g = async (u, opt = {}) => { const r = await fetch(u, { headers: H, ...opt }); const t = await r.text(); try { return JSON.parse(t); } catch { return { error: { message: r.status + " " + t.slice(0, 120) } }; } };
 const sm = await g(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(SITE)}/sitemaps`);
 for (const s of sm.sitemap || []) {
   const c = (s.contents || []).map((x) => `${x.type}: υποβλήθηκαν ${x.submitted}`).join(" · ");
