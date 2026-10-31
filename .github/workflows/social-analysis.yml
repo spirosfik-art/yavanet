@@ -1,0 +1,37 @@
+# Εβδομαδιαία ανάλυση Instagram + Facebook → Telegram (κάθε Δευτέρα ~07:43 Αθήνα).
+name: Social analysis
+on:
+  schedule:
+    - cron: "43 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "1 = χωρίς Telegram (μόνο αποτελέσματα στο run)"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-social-analysis
+  cancel-in-progress: false
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      DRY_RUN: ${{ github.event.inputs.dry || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node automation/social-analysis.mjs
+      - name: Save analysis
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add content/ig/analysis 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "auto: social analysis [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true

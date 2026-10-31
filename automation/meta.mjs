@@ -16,7 +16,7 @@ const WA = "https://wa.me/306906723676";
 const SITE = (env.SITE_URL || "https://yavanet.gr").replace(/\/$/, "");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function api(p, { method = "GET", token, params = {} } = {}) {
+export async function api(p, { method = "GET", token, params = {} } = {}) {
   const u = new URL(p.startsWith("http") ? p : G + p);
   const body = new URLSearchParams({ ...params, access_token: token });
   const r = method === "GET" ? await fetch(u + (u.search ? "&" : "?") + body) : await fetch(u, { method, body });
