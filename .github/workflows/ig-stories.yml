@@ -23,6 +23,9 @@ on:
       sched:
         description: "1 = προγραμματισμένη εκτέλεση (yavanet-cron)"
         default: "0"
+      force:
+        description: "1 = ξανά ανάρτηση ακόμα κι αν έχει ήδη ανέβει σήμερα"
+        default: "0"
 permissions:
   contents: write
 concurrency:
@@ -40,7 +43,7 @@ jobs:
       KIND: ${{ github.event.inputs.kind || (github.event.schedule == '23 6 * * *' && 'morning' || github.event.schedule == '47 10 * * *' && 'topic' || github.event.schedule == '41 18 * * *' && 'evening' || 'alerts') }}
       PUBLISH: ${{ github.event.inputs.publish || 'yes' }}
       STORY_DATE: ${{ github.event.inputs.publish == 'no' && github.event.inputs.date || '' }}
-      FORCE: ${{ github.event.inputs.publish == 'no' && '1' || '' }}
+      FORCE: ${{ (github.event.inputs.publish == 'no' || github.event.inputs.force == '1') && '1' || '' }}
     steps:
       - name: Pause θέματος ημέρας μέχρι 3/11
         if: (github.event_name == 'schedule' || github.event.inputs.sched == '1')
