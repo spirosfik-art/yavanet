@@ -17,7 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "d1ac2a9afe05": 1792272730876,
     "b82df86c80d2": 1792275246588,
     "2fd0b5f72d72": 1792275246588,
     "da875492406a": 1792276537788,
@@ -2082,7 +2081,15 @@
     "44fd57e1f36b": 1793481981854,
     "f7fb31b5595d": 1793481981854,
     "704d6d8808a6": 1793481981854,
-    "88063c5614e9": 1793481981854
+    "88063c5614e9": 1793481981854,
+    "5a79463bc4db": 1793483883369,
+    "6e9356efccf5": 1793483883369,
+    "ac74bca67eef": 1793483883369,
+    "306a7ae379a9": 1793483883369,
+    "ffe1fc4f71c6": 1793483883369,
+    "41c8966a6318": 1793483883369,
+    "1cc42048c9d3": 1793483883369,
+    "5758d516618d": 1793483883369
   },
   "pending": {},
   "sourceStatus": {
@@ -2094,12 +2101,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-31T21:26:11.512Z",
+      "at": "2026-10-31T21:57:50.435Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-31T21:26:12.135Z",
+      "at": "2026-10-31T21:57:51.329Z",
       "items": 5
     },
     "civilprotection": {
@@ -2110,27 +2117,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-31T21:26:13.782Z",
+      "at": "2026-10-31T21:57:53.284Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-31T21:26:14.100Z",
+      "at": "2026-10-31T21:57:53.637Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-31T21:26:14.862Z",
+      "at": "2026-10-31T21:57:54.591Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-31T21:26:15.517Z",
+      "at": "2026-10-31T21:57:55.525Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-31T21:26:16.177Z",
+      "at": "2026-10-31T21:57:56.148Z",
       "items": 10
     },
     "toi-greece": {
@@ -2141,22 +2148,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-31T21:26:16.578Z",
+      "at": "2026-10-31T21:57:56.774Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-31T21:26:16.887Z",
+      "at": "2026-10-31T21:57:57.025Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-31T21:26:17.157Z",
-      "items": 3
+      "at": "2026-10-31T21:57:58.239Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T21:26:17.281Z",
+      "at": "2026-10-31T21:57:58.446Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2166,12 +2173,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T21:26:12.741Z",
+      "at": "2026-10-31T21:57:51.989Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-31T21:26:17.810Z",
+      "at": "2026-10-31T21:57:59.262Z",
       "items": 0
     },
     "hcg": {
@@ -2182,33 +2189,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-31T21:26:19.292Z",
+      "at": "2026-10-31T21:58:00.895Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-31T21:26:19.574Z",
+      "at": "2026-10-31T21:58:01.093Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-31T21:26:19.738Z",
-      "items": 3
+      "at": "2026-10-31T21:58:01.242Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-31T21:26:20.020Z",
+      "at": "2026-10-31T21:58:01.475Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-31T21:26:20.321Z",
+      "at": "2026-10-31T21:58:01.805Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-31T21:26:20.697Z",
-      "items": 11
+      "at": "2026-10-31T21:58:02.218Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
@@ -2503,23 +2510,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-31T21:26:21.854Z",
-    "considered": 13,
-    "picked": 2,
+    "at": "2026-10-31T21:58:03.369Z",
+    "considered": 8,
+    "picked": 0,
     "items": [
-      "· gct | Dendias Sets 34-Month Timeline for Achilles Shield Air Defence",
-      "✓ ingr | Έκρηξη στην Πλάκα: Καρέ-καρέ οι κινήσεις των τριών κατηγορουμένων πριν τη δολιοφθορά",
-      "· ingr | Πορτογαλία: Ξανά στους δρόμους χιλιάδες διαδηλωτές στη Λισαβόνα για τη στεγαστική κρίση",
-      "· naftemporiki | Τουρκία: Χειροπέδες στον ceo του Χρηματιστηρίου της Κωνσταντινούπολης για το σκάνδαλο με τ",
-      "✓ ingr | Κακοκαιρία από την Κυριακή με ισχυρές καταιγίδες και χαλάζι – Σε επιφυλακή η Αττική για έω",
-      "· gn-kathimerini | Πλάκα: Bίντεο με τους κλέφτες χαλκού να αναζητούν κτίρια-στόχους - Kathimerini",
-      "· gn-iefimerida | Κατατέθηκε στη Βουλή το νομοσχέδιο για την αγορά ηλεκτρικής ενέργειας -Τι προβλέπει - iefi",
-      "· gn-kathimerini | Πλάκα: Τα ευρήματα της Πυροσβεστικής ρίχνουν φως στα αίτια της φονικής έκρηξης - Kathimeri",
-      "· gn-kathimerini | Αμπελόκηποι: Στην οδό Αρκαδίας δύο χρόνια μετά την έκρηξη - Kathimerini",
-      "· gn-iefimerida | Πώς περιγράφουν τη στιγμή της έκρηξης στην Πλάκα οι οδηγοί του βαν και του ΙΧ: «Ήταν τρομα",
-      "· gtp | Over 18,000 European Hotels Join Compensation Claim Against Booking.com",
-      "· gtp | Goldair Handling Appoints Eirini Georgantopoulou Head of Lounges & Premium Services",
-      "· gtp | The Modernist to Open Third Hotel in Piraeus in 2027"
+      "· gct | Banks Prepare for AI-Driven Shopping and Payments",
+      "· gn-iefimerida | Γαλλία: Στους δρόμους χιλιάδες διαδηλωτές ενάντια στην ακρίβεια -Σε 422 συλλήψεις προχώρησ",
+      "· gct | Kosmas and Damianos Name Day 2026: Feast of the Holy Unmercenaries",
+      "· gct | Three Greek Survivors of Spain Train Disaster Return Home",
+      "· gct | Greek Egg Producers Still Unable to Meet Domestic Demand",
+      "· gct | Greece Opens Dakar 2026 Youth Olympic Games",
+      "· gn-iefimerida | Γιάννης Καλλιάνος: Στο επίκεντρο της κακοκαιρίας η Αττική και άλλες 10 περιοχές -«Προσοχή ",
+      "· ingr | Μίλαν – Ίντερ 3-1: Πάρτι για τους Ροσονέρι στο Derby della Madonnina!"
     ]
   },
   "evergreenDone": [
