@@ -9,6 +9,7 @@ const DAILY = [
   ["19:05", null, "meta.yml", { task: "reel" }],
   ["07:35", null, "meta.yml", { task: "reel", mode: "guide" }],
   ["12:05", null, "meta.yml", { task: "reel", mode: "guide" }],
+  ["16:05", null, "guide-carousel.yml", { publish: "yes" }],
   ["18:15", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],
   ["19:45", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],
   ["21:15", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],

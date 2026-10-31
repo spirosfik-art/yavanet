@@ -1,0 +1,49 @@
+# Καθημερινό carousel από οδηγό (Instagram + Facebook). Το ξεκινά το ρολόι yavanet-cron (16:05 Αθήνα).
+name: Guide carousel
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "yes = ανάρτηση, no = μόνο προεπισκόπηση (branch carousels)"
+        default: "yes"
+      force:
+        description: "1 = και αν έχει ήδη ανέβει carousel σήμερα"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-guide-carousel
+  cancel-in-progress: false
+jobs:
+  carousel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      FORCE: ${{ github.event.inputs.force == '1' && '1' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Render
+        run: node automation/guide-carousel.mjs render car-out
+      - name: Upload images (branch carousels)
+        run: |
+          [ "$(cat car-out/plan.json)" = "null" ] && exit 0
+          cd car-out && git init -q -b carousels && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "carousel [skip ci]" && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" carousels
+          echo "CAR_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+      - name: Publish
+        if: env.CAR_SHA != '' && github.event.inputs.publish != 'no'
+        run: sleep 5 && node automation/guide-carousel.mjs publish car-out "https://raw.githubusercontent.com/${{ github.repository }}/$CAR_SHA"
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add content/ig/guide-carousels.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "auto: guide carousel [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
