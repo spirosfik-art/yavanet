@@ -74,7 +74,9 @@ function nextVariant() {
   try { n = JSON.parse(fs.readFileSync(f, "utf8")).length; } catch {}
   return n;
 }
-function cardLayout(v, { img, kicker, title, icon, breaking, alert }) {
+function cardLayout(v, { img, kicker, title, icon, breaking, alert, date, source }) {
+  // Αξιοπιστία: ημερομηνία + πηγή κάτω από τον τίτλο (όπως στα σοβαρά ειδησεογραφικά)
+  const meta = [date, source ? "מקור: " + source : ""].filter(Boolean).join("  ·  ");
   const fsz = (a, b, c) => (title.length > 60 ? a : title.length > 42 ? b : c);
   const tag = breaking ? `<span class="k red">● ${esc(alert)}</span>` : `<span class="k">${esc(kicker)}</span>`;
   const base = `*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1350px;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff;background:${NAVY}}
@@ -82,14 +84,15 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .k{display:inline-block;color:${GOLD};font:800 34px Assistant;letter-spacing:1px;padding-bottom:10px;border-bottom:4px solid ${GOLD};margin-bottom:30px}
 .k.red{color:#fff;background:${RED};border:0;padding:8px 24px;border-radius:8px}
 .logo{position:absolute;top:64px;right:76px;width:84px;height:84px}.logo svg{width:84px;height:84px}
-.sig{position:absolute;bottom:58px;right:76px;left:76px;display:flex;justify-content:space-between;font:600 30px Assistant;color:rgba(255,255,255,.72);letter-spacing:.5px}`;
+.sig{position:absolute;bottom:58px;right:76px;left:76px;display:flex;justify-content:space-between;font:600 30px Assistant;color:rgba(255,255,255,.72);letter-spacing:.5px}
+.meta{font:600 30px Assistant;margin-top:22px;opacity:.78;letter-spacing:.3px}`;
   if (v !== 2 && v % 2 === 0) {
     // Α · ΦΩΤΟΓΡΑΦΙΑ: εικόνα σε όλη την κάρτα, σκούρο μπλε από κάτω, τίτλος λευκός
     return { css: `${base}
 .ph{position:absolute;inset:0;background:url("${img}") center/cover}
 .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,42,67,.3) 0%,rgba(7,42,67,0) 16%,rgba(7,42,67,0) 52%,rgba(7,42,67,.88) 80%,${DEEP} 100%)}
 .box{position:absolute;right:76px;left:76px;bottom:140px}h1{font-size:${fsz(60, 70, 80)}px;line-height:1.08;text-shadow:0 2px 18px rgba(0,0,0,.35)}`,
-      body: `<div class="ph"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
+      body: `<div class="ph"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1>${meta ? `<div class="meta">${esc(meta)}</div>` : ""}</div><div class="sig"><span>yavanet.gr</span><span>יוונט · חדשות יוון בעברית</span></div>` };
   }
   if (v === 2) {
     // Γ · ΠΕΡΙΟΔΙΚΟ (κρεμ): ανεβαίνει πάντα ως ολόκληρη σειρά των 3
@@ -99,7 +102,7 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .pill{position:absolute;top:140px;right:96px;z-index:2;background:${GOLD};color:#0B2A44;font:800 34px Assistant;padding:10px 28px;border-radius:34px}.pill.red{background:${RED};color:#fff}
 .box{position:absolute;top:860px;right:64px;left:64px}h1{color:#0B2A44;font-size:${fsz(62, 72, 82)}px;line-height:1.1}
 .ft{position:absolute;bottom:52px;right:64px;left:64px;border-top:2px solid rgba(11,42,68,.15);padding-top:22px;display:flex;justify-content:space-between;font:600 30px Assistant;color:#53697c}`,
-      body: `<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="ph"></div><span class="pill${breaking ? " red" : ""}">${esc(breaking ? alert : kicker)}</span><div class="box"><h1>${esc(title)}</h1></div><div class="ft"><span>yavanet.gr</span><span>יוונט</span></div>` };
+      body: `<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="ph"></div><span class="pill${breaking ? " red" : ""}">${esc(breaking ? alert : kicker)}</span><div class="box"><h1>${esc(title)}</h1>${meta ? `<div class="meta" style="color:#53697c;opacity:1">${esc(meta)}</div>` : ""}</div><div class="ft"><span>yavanet.gr</span><span>יוונט · חדשות יוון בעברית</span></div>` };
   }
   // Β · ΜΠΛΕ: μεγάλη φωτογραφία πάνω (περίπου 60%), μπλε κάτω με τον τίτλο — χωρίς άδειο χώρο
   return { css: `${base}
@@ -107,9 +110,16 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .strip:after{content:"";position:absolute;inset:auto 0 0 0;height:180px;background:linear-gradient(180deg,rgba(11,58,91,0),${NAVY})}
 .box{position:absolute;right:76px;left:76px;top:850px}h1{font-size:${fsz(56, 64, 74)}px;line-height:1.1}
 .box .k{margin-bottom:20px}`,
-    body: `<div class="strip"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1></div><div class="sig"><span>yavanet.gr</span><span>יוונט · יוון בעברית</span></div>` };
+    body: `<div class="strip"></div><div class="logo">${icon}</div><div class="box">${tag}<h1>${esc(title)}</h1>${meta ? `<div class="meta">${esc(meta)}</div>` : ""}</div><div class="sig"><span>yavanet.gr</span><span>יוונט · חדשות יוון בעברית</span></div>` };
 }
 
+// Ημερομηνία (ώρα Ισραήλ) και πηγή μόνο για ειδήσεις· οι οδηγοί δεν «λήγουν», άρα χωρίς ημερομηνία
+function cardMeta(a) {
+  if (a.guide) return {};
+  const d = a.publishedAt ? new Date(a.publishedAt).toLocaleDateString("he-IL", { timeZone: "Asia/Jerusalem", day: "numeric", month: "numeric", year: "numeric" }) : "";
+  const src = Array.isArray(a.sources) && a.sources[0] && a.sources[0].name ? String(a.sources[0].name).replace(/\s*\(.*?\)\s*/g, "").slice(0, 28) : "";
+  return { date: d, source: /[\u0370-\u03FF]/.test(src) ? "" : src };
+}
 // Επιστρέφει το δημόσιο path (/igc/<slug>.jpg) ή null αν δεν γίνεται (π.χ. τοπικά χωρίς Chrome).
 export function renderIgCard(a, kicker, variant) {
   const chrome = chromeBin();
@@ -119,7 +129,7 @@ export function renderIgCard(a, kicker, variant) {
   img = img.replace(/h=650&w=940/, "w=1400");
   const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
   const v = Number.isInteger(variant) ? variant : nextVariant();
-  const L = cardLayout(v, { img, kicker: kicker || KICKER[a.section] || "יוון", title: a.he.title, icon, breaking: !!(a.breaking || a.strike), alert: a.strike || /strike|שביתה/i.test(a.slug + a.he.title) ? "שביתה" : "חדשות" });
+  const L = cardLayout(v, { img, kicker: kicker || KICKER[a.section] || "יוון", title: a.he.title, icon, ...cardMeta(a), breaking: !!(a.breaking || a.strike), alert: a.strike || /strike|שביתה/i.test(a.slug + a.he.title) ? "שביתה" : "חדשות" });
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
 <style>${L.css}</style></head><body>${L.body}</body></html>`;
@@ -151,6 +161,7 @@ export function renderStoryCard(a, kicker) {
   img = img.replace(/h=650&w=940/, "w=1400");
   const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
   const title = a.he.title;
+  const cm = cardMeta(a), smeta = [cm.date, cm.source ? "מקור: " + cm.source : ""].filter(Boolean).join("  ·  ");
   const fs1 = title.length > 60 ? 76 : title.length > 42 ? 88 : 100;
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
@@ -165,9 +176,9 @@ h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;font-size:${fs1}px;line-
 .cta{position:absolute;bottom:200px;left:72px;right:72px;display:flex;justify-content:center}
 .cta span{background:#fff;color:#0B3A5B;font-weight:800;font-size:46px;padding:22px 44px;border-radius:60px}
 </style></head><body><div class="ph"></div>
-<div class="top"><span class="brand">יוונט · yavanet.gr</span>${icon}</div>
-<div class="box"><span class="k">${esc(kicker || KICKER[a.section] || "יוון")}</span><h1>${esc(title)}</h1></div>
-<div class="cta"><span>👆 הכתבה המלאה · הקישור בביו</span></div></body></html>`;
+<div class="top"><span class="brand">יוונט · חדשות יוון בעברית</span>${icon}</div>
+<div class="box"><span class="k">${esc(kicker || KICKER[a.section] || "יוון")}</span><h1>${esc(title)}</h1>${smeta ? `<div style="font:600 38px Assistant;margin-top:26px;opacity:.8">${esc(smeta)}</div>` : ""}</div>
+<div class="cta"><span>לכתבה המלאה ← הקישור בביו</span></div></body></html>`;
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "igs-"));
   const hf = path.join(tmp, "story.html");
   fs.writeFileSync(hf, html);

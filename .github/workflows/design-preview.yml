@@ -1,0 +1,18 @@
+# Προεπισκόπηση σχεδίων Instagram (posts/stories) στο branch designs — χωρίς ανάρτηση.
+name: Design preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/design-preview.mjs design-out
+      - run: |
+          cd design-out && git init -q -b designs && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "designs [skip ci]" && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" designs
