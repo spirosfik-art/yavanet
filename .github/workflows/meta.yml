@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: "7 17 * * *"          # reel
     - cron: "7 10 * * *"          # reel οδηγού (12:07 Αθήνα / Ισραήλ)
+    - cron: "37 5 * * *"          # 2ο reel οδηγού (07:37 Αθήνα / Ισραήλ)
     - cron: "*/30 5-21 * * *"     # σχόλια
   workflow_dispatch:
     inputs:
@@ -34,8 +35,8 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL }}
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      TASK: ${{ github.event.inputs.task || ((github.event.schedule == '7 17 * * *' || github.event.schedule == '7 10 * * *') && 'reel' || 'comments') }}
-      REEL_MODE: ${{ github.event.inputs.mode || (github.event.schedule == '7 10 * * *' && 'guide' || 'news') }}
+      TASK: ${{ github.event.inputs.task || ((github.event.schedule == '7 17 * * *' || github.event.schedule == '7 10 * * *' || github.event.schedule == '37 5 * * *') && 'reel' || 'comments') }}
+      REEL_MODE: ${{ github.event.inputs.mode || ((github.event.schedule == '7 10 * * *' || github.event.schedule == '37 5 * * *') && 'guide' || 'news') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -58,7 +59,7 @@ jobs:
       - name: Reel already today?
         if: env.TASK == 'reel'
         run: |
-          node -e "let t={};try{t=JSON.parse(require('fs').readFileSync(process.env.REEL_MODE==='guide'?'content/ig/guide-reel-last.json':'content/ig/reel-last.json','utf8'))}catch{};const d=new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Athens'});if(t.date===d)console.log('SKIP=1')" >> $GITHUB_ENV
+          node -e "let t={};try{t=JSON.parse(require('fs').readFileSync(process.env.REEL_MODE==='guide'?'content/ig/guide-reel-last.json':'content/ig/reel-last.json','utf8'))}catch{};const d=new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Athens'});const g=process.env.REEL_MODE==='guide';if(g?(t.at&&Date.now()-Date.parse(t.at)<3*3600e3):t.date===d)console.log('SKIP=1')" >> $GITHUB_ENV
       - name: Publish last ready reel
         if: env.TASK == 'publish-last' || env.TASK == 'publish-explainer' || env.TASK == 'publish-explainer3d'
         run: |
