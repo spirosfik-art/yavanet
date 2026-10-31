@@ -17,22 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "4ddd48c10e69": 1792194991974,
-    "fe7fa5f7f2a1": 1792194991974,
-    "bd556ce2837b": 1792194991974,
-    "6554ebbfae06": 1792194991974,
-    "12ff0e06efd2": 1792194991974,
-    "b2e9afd85c29": 1792194991974,
-    "ef602d417860": 1792195836545,
-    "b09343001e12": 1792195836545,
-    "c5902f843dfc": 1792198049121,
-    "58493b213baf": 1792198049121,
-    "6c86345fb48d": 1792198049121,
-    "66d067966787": 1792198049121,
-    "78b200cb81a5": 1792200166906,
-    "e45b8cc47e11": 1792201886006,
-    "5620efea6db2": 1792201886006,
-    "2c87fe1ea515": 1792203274641,
     "63a90d8dc127": 1792209943256,
     "02ad9345a3bb": 1792209943256,
     "f73ee9aef83c": 1792209943256,
@@ -2079,9 +2063,226 @@
     "b19516de735e": 1793403613882,
     "febcb50f5af2": 1793403613882,
     "1c6ac1dd0e13": 1793403613882,
-    "5182a75f124c": 1793403613882
+    "5182a75f124c": 1793403613882,
+    "f8046eeaa172": 1793414617312,
+    "e5578d036efd": 1793414617312,
+    "553819aba598": 1793414617312,
+    "df4820845a97": 1793414617312,
+    "c452f9d8e59d": 1793414617312,
+    "18bef9510e6b": 1793414617312,
+    "17978164a84c": 1793414617312,
+    "16b03b6ffb37": 1793414617312,
+    "174813d7d9b7": 1793414617312,
+    "7bd889aad7a1": 1793414617312,
+    "06511e43c5ba": 1793414617312,
+    "15e4becc8067": 1793414617312
   },
-  "pending": {},
+  "pending": {
+    "ca05fe": {
+      "createdAt": 1793414686646,
+      "item": {
+        "title": "What Israel Elections Means for Greece as Aegean Tensions Rise",
+        "url": "https://greekcitytimes.com/2026/10/31/what-israel-elections-means-for-greece-as-aegean-tensions-rise/",
+        "summary": "Greece is monitoring Israel’s post-election political developments as Athens seeks continuity in defence, energy and Eastern Mediterranean cooperation.\n The post What Israel Elections Means for Greece as Aegean Tensions Rise appeared first on Greek City Times .",
+        "published": "Sat, 31 Oct 2026 01:20:25 +0000",
+        "id": "16b03b6ffb37",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "16b03b6ffb37",
+        "section": "israelis",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Covers how Greek-Israeli political and security relations and regional cooperation are viewed following political developments.",
+        "item": {
+          "title": "What Israel Elections Means for Greece as Aegean Tensions Rise",
+          "url": "https://greekcitytimes.com/2026/10/31/what-israel-elections-means-for-greece-as-aegean-tensions-rise/",
+          "summary": "Greece is monitoring Israel’s post-election political developments as Athens seeks continuity in defence, energy and Eastern Mediterranean cooperation.\n The post What Israel Elections Means for Greece as Aegean Tensions Rise appeared first on Greek City Times .",
+          "published": "Sat, 31 Oct 2026 01:20:25 +0000",
+          "id": "16b03b6ffb37",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-monitors-israeli-elections",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון מדיני",
+          "en": "Political Update"
+        },
+        "imageKey": "politics",
+        "imageQuery": "greek flag and parliament",
+        "he": {
+          "title": "יוון עוקבת אחר התוצאות בישראל: המשמעות עבור אתונה",
+          "seoTitle": "יוון ועקרונות הקשר עם ישראל אחרי הבחירות | יוונט",
+          "seoDesc": "איך מערכת היחסים בין יוון וישראל מושפעת מהמצב הפוליטי? כל הפרטים על העמדה הרשמית של אתונה בנוגע ליציבות האזורית וההסכמים המשותפים.",
+          "keywords": [
+            "יוון",
+            "יחסי ישראל יוון",
+            "מיצוטאקיס",
+            "חדשות יוון",
+            "המזרח התיכון"
+          ],
+          "dek": "מנתחים ביוון בוחנים את ההשפעות האפשריות של תוצאות הבחירות בישראל על היחסים האסטרטגיים בין המדינות והביטחון באזור.",
+          "tldr": [
+            "אתונה עוקבת מקרוב אחר ההתפתחויות הפוליטיות בישראל אחרי הבחירות.",
+            "ראש ממשלת יוון קיראקוס מיצוטאקיס הבהיר שהקשר האסטרטגי הוא עם מדינת ישראל ולא עם ממשלה מסוימת.",
+            "יוון רואה חשיבות רבה בשיתוף הפעולה האזורי ובפרויקטים המשותפים בתחומי האנרגיה והביטחון."
+          ],
+          "means": "מה זה אומר עליכם? עבור ישראלים החיים ביוון או מתעניינים ביחסים הדיפלומטיים, מדובר בהמשכיות מדינית שאינה משנה כרגע את שגרת החיים, הטיסות או העסקים בין שתי המדינות.",
+          "body": "## מעקב דיפלומטי באתונה\n\nממשלת יוון ממשיכה לנטר בקפידה את התהליכים הפוליטיים בישראל בעקבות מערכת הבחירות האחרונות. הניתוחים המקצועיים בתקשורת היוונית, כמו זה שפורסם בעיתון \"טא נאה\" על ידי הפרשנית מריה מורלאטו, מצביעים על כך שהקשר האסטרטגי בין המדינות בתחומי ההגנה, האנרגיה והביטחון האזורי נותר מרכזי עבור שתי הבירות.\n\nבעוד שתהליך הרכבת הממשלה בישראל נמשך, באתונה מדגישים את החשיבות של יציבות שלטונית שיכולה להתמודד עם האתגרים במזרח התיכון ובמרחב הימי. שיתוף הפעולה בין ישראל ויוון, לצד קפריסין וארצות הברית במסגרת פלטפורמות שונות, ממשיך לשמש עוגן מרכזי ליציבות ולאנרגיה באזור.\n\n## עמדת הממשלה ביוון\n\nראש ממשלת יוון, קיראקוס מיצוטאקיס, התייחס לאחרונה לסוגיית הברית האסטרטגית והדגיש כי הקשר מתקיים מול מדינת ישראל עצמה ולא תלוי בהנהגה כזו או אחרת. לדבריו, שיתוף הפעולה ההדוק עם ישראל לא פגע בקשריה ההיסטוריים של יוון עם העולם הערבי ועם הרשות הפלסטינית, ואינו מונע מאתונה להביע ביקורת כאשר היא סבורה שנעשה קו אדום.\n\nעם זאת, באתונה ממשיכים לעקוב אחרי הכיוון המדיני שתבחר ישראל, במיוחד על רקע המתיחות הגוברת באזור הים האגאי והמזרח הים התיכון, וכן הדיונים סביב הסכמי אנרגיה ופרויקטים תשתיתיים משותפים.\n\n## חשיבות השותפות האזורית\n\nהמערך האזורי שכולל את יוון, קפריסין וישראל, יחד עם השותפות האמריקאית, ממשיך להוות גורם מכריע בשמירה על האיזונים האזוריים. עבור יוון, שמירת השותפות האסטרטגית עם ישראל היא אינטרס עליון בלי קשר לזהות המנהיגים שיעמדו בראש המערכת הפוליטית בשנים הבעל לטובה.\n\n## שאלות נפוצות\n\n**האם חלו שינויים בטיסות או ביחסים בין ישראל ליוון בעקבות המצב הפוליטי?**\nלא, הקשרים הדיפלומטיים, הכלכליים ותנועת הטיסות בין שתי המדינות נמשכים כרגיל ללא שינוי.\n\n**מהי עמדת יוון לגבי הקשר עם ממשלות ישראל השונות?**\nלפי הצהרות ראש ממשלת יוון קיראקוס מיצוטאקיס, הקשר האסטרטגי של יוון הוא עם מדינת ישראל כולה ולא עם ממשלה או מנהיג ספציפיים."
+        },
+        "en": {
+          "title": "Greece Monitors Political Developments in Israel and Regional Ties",
+          "seoTitle": "Greece Monitors Political Developments in Israel | Yavanet",
+          "seoDesc": "How do political developments in Israel affect strategic ties with Greece? Read about Athens' official position on regional stability and energy.",
+          "keywords": [
+            "Greece",
+            "Greece Israel relations",
+            "Mitsotakis",
+            "Greek news",
+            "Eastern Mediterranean"
+          ],
+          "dek": "Greek analysts evaluate the strategic and regional implications of Israel's recent political developments and ongoing cooperation.",
+          "tldr": [
+            "Athens is closely following political developments in Israel following the recent election.",
+            "Prime Minister Kyriakos Mitsotakis emphasized that Greece's strategic relationship is with the State of Israel.",
+            "Cooperation in energy, security, and regional stability remains a primary focus for both countries."
+          ],
+          "means": "What it means for you: For Israelis living in Greece or following bilateral relations, current political shifts do not alter daily life, travel routines, or business operations between the two nations.",
+          "body": "## Diplomatic Monitoring in Athens\n\nGreece continues to closely monitor political developments in Israel following the recent election. Analyses in Greek media, including commentary by Maria Mourelatou published in Ta Nea, indicate that the strategic relationship between the two countries across defense, energy, and regional security remains a key priority for Athens.\n\nWhile the government formation process in Israel unfolds, Athens highlights the importance of stable leadership capable of addressing wider regional challenges in the Eastern Mediterranean. Cooperation between Israel and Greece, alongside Cyprus and the United States through various frameworks, continues to serve as a central pillar for regional stability and energy security.\n\n## The Official Position of Athens\n\nGreek Prime Minister Kyriakos Mitsotakis recently addressed questions regarding the strategic alliance, stressing that Greece's relationship is built with the State of Israel rather than depending on any specific administration or political leader. He noted that strong ties with Israel have not weakened Greece's relations with the Arab world or the Palestinian Authority.\n\nAt the same time, Athens maintains that the future political direction in Israel remains significant for managing bilateral relations, particularly amid rising tensions in the Aegean and ongoing developments in regional energy agreements.\n\n## Regional Partnerships and Stability\n\nThe trilateral framework involving Greece, Cyprus, and Israel, as well as the broader 3+1 arrangement with the United States, plays a vital role in balancing regional dynamics and supporting infrastructure projects. Independent of who leads the next Israeli government, Athens maintains a strong interest in preserving this stable partnership.\n\n## FAQ\n\n**Have flights or bilateral ties between Israel and Greece changed due to political events?**\nNo, diplomatic ties, economic cooperation, and flight schedules between the two countries continue as usual.\n\n**What is Greece's official stance on leadership changes in Israel?**\nAccording to Prime Minister Kyriakos Mitsotakis, Greece's strategic partnership is with the State of Israel itself and transcends any specific government or leader."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece is closely monitoring Israel’s political developments following the October 27 election, given the strategic relationship between the two countries in defence, energy and regional security, according to an analysis by Maria Mourelatou published in Ta Nea .\n Although Benjamin Netanyahu’s Likud party secured the largest number of parliamentary seats, it failed to obtain the majority required to form a government. Netanyahu therefore remains caretaker prime minister while the process of forming a new administration continues.\n According to Mourelatou’s analysis, Netanyahu’s continued presence in office offers Athens short-term reassurance, providing continuity at a time of uncertainty surrounding Greek-Turkish relations and developments in the Eastern Mediterranean.\n Greece is awaiting developments over Turkey’s proposed legislation concerning the so-called Blue Homeland doctrine, as well as the possible resumption of work on the Greece-Cyprus-Israel electricity interconnection project. Against this background, the absence of an immediate change in Israel’s leadership represents a development that Athens does not view negatively, given Israel’s importance to Greece’s security interests.\n Read more: Cyprus’ First Gas Field Moves to Construction After $1.8bn Deals \n However, Greece has repeatedly made clear that its strategic relationship with Israel rests on the state itself rather than on any particular government or political leader.\n Prime Minister Kyriakos Mitsotakis recently reiterated this position when responding to criticism of Greece’s strategic alignment with Israel amid international condemnation of the Israeli government’s actions in Gaza.\n “Greece’s strategic relationship is with the State of Israel, not necessarily with the current government,” Mitsotakis said.\n He also stressed that cooperation with Israel had not weakened Greece’s traditionally strong ties with the Arab world and the Palestinian Authority. Nor, he added, had it prevented Athens from openly criticising the Israeli government when it considered that the government had crossed the line.\n Nevertheless, the political direction Israel takes after completing its government-formation process remains important for Athens.\n According to Mourelatou, Greece considers it important that Israel has a strong leadership capable of managing bilateral relations and wider regional challenges, particularly those involving Turkey.\n This consideration comes as tensions in the Aegean and Eastern Mediterranean increase, regional energy arrangements undergo changes and countries negotiate new maritime agreements.\n Beyond bilateral relations, Israel is also an important partner for Greece within the trilateral cooperation framework involving Cyprus. The partnership serves regional security interests and contributes to balancing Turkey’s influence in the Eastern Mediterranean.\n Israel also forms part of the strategic 3+1 cooperation framework, which brings together Greece, Cyprus, Israel and the United States. The arrangement supports energy and other infrastructure projects while strengthening Greece’s role as a regional pillar of stability and an energy security hub.\n Mourelatou’s analysis concludes that, regardless of who leads the next Israeli government, Athens will have a strong interest in maintaining a stable strategic partnership capable of helping preserve regional balances amid wider geopolitical uncertainty.\n (Source: Ta Nea)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Consults Cyprus and Egypt Over Illegal Turkish-Libyan Deal \n Greece Advances Aegean Marine Park Plan Amid Turkish Disputes \n Josh Huck Takes Charge of US Embassy in Athens \n Cyprus Challenges Turkey’s Gas Pipeline Deal Over Occupied Territories \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Daughter of Chief Accountant Jailed in Bakery Tax Evasion Case\n Next Article \n Seven Reasons Orthodox Christians Should Never Celebrate Halloween\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα παρακολουθεί τις πολιτικές εξελίξεις στο Ισραήλ και τις περιφερειακές σχέσεις",
+        "dek": "Έλληνες αναλυτές αξιολογούν τις στρατηγικές και περιφερειακές επιπτώσεις των πρόσφατων πολιτικών εξελίξεων και της συνεχιζόμενης συνεργασίας του Ισραήλ.",
+        "tldr": [
+          "Η Αθήνα παρακολουθεί στενά τις πολιτικές εξελίξεις στο Ισραήλ μετά τις πρόσφατες εκλογές.",
+          "Ο Πρωθυπουργός Κυριάκος Μητσοτάκης τόνισε ότι η στρατηγική σχέση της Ελλάδας είναι με το Κράτος του Ισραήλ.",
+          "Η συνεργασία στην ενέργεια, την ασφάλεια και την περιφερειακή σταθερότητα παραμένει βασική προτεραιότητα και για τις δύο χώρες."
+        ]
+      },
+      "notified": true
+    },
+    "d70616": {
+      "createdAt": 1793414737819,
+      "item": {
+        "title": "Greece Opens Applications for €36,000 Home Renovation Grants",
+        "url": "https://greekcitytimes.com/2026/10/31/home-renovation-applications/",
+        "summary": "Owners of vacant homes can apply until 11 January 2027 for grants covering 70 to 95 per cent of renovation costs.\n The post Greece Opens Applications for €36,000 Home Renovation Grants appeared first on Greek City Times .",
+        "published": "Sat, 31 Oct 2026 02:21:10 +0000",
+        "id": "df4820845a97",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "df4820845a97",
+        "section": "real-estate",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "New state home renovation grants covering up to 95 percent of costs for vacant properties directly impact foreign property owners and investors.",
+        "item": {
+          "title": "Greece Opens Applications for €36,000 Home Renovation Grants",
+          "url": "https://greekcitytimes.com/2026/10/31/home-renovation-applications/",
+          "summary": "Owners of vacant homes can apply until 11 January 2027 for grants covering 70 to 95 per cent of renovation costs.\n The post Greece Opens Applications for €36,000 Home Renovation Grants appeared first on Greek City Times .",
+          "published": "Sat, 31 Oct 2026 02:21:10 +0000",
+          "id": "df4820845a97",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-home-renovation-grants-2026",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדל\"ן ביוון",
+          "en": "Greece Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "apartment renovation building greece",
+        "he": {
+          "title": "מענקי שיפוץ עד 36 אלף אירו: יוון פתחה את ההרשמה לבתים פנויים",
+          "seoTitle": "מענקי שיפוץ ביוון: החלה ההרשמה לתוכנית הדירות",
+          "seoDesc": "יוון פתחה את ההרשמה לתוכנית שיפוץ בתים עם מענקים של עד 36 אלף אירו. מה חשוב למשקיעים ולבעלי נכסים להכיר בהליך?",
+          "keywords": [
+            "נדל\"ן ביוון",
+            "דירה באתונה",
+            "השקעה בנדל\"ן ביוון",
+            "מיסים ביוון"
+          ],
+          "dek": "תוכנית חדשה ביוון מעניקה סבסוד של עד 95 אחוזים לשיפוץ נכסים פנויים. ההרשמה נפתחה דרך פלטפורמה מקוונת.",
+          "tldr": [
+            "יוון פתחה את ההרשמה לתוכנית מענקי שיפוץ בהיקף של 500 מיליון אירו.",
+            "השלב הראשון מיועד לבתים פנויים ומציע כיסוי של עד 36 אלף אירו.",
+            "הבקשות מוגשות באינטרנט באמצעות קודי TAXISnet והלשכה הטכנית."
+          ],
+          "means": "למשקיעים וישראלים המחזיקים נכסים באתונה או ביוון, מדובר בהזדמנות לשדרוג אנרגטי של נכסים פנויים בסיוע ממשק המדינה. יש לוודאי זכאות מוקדמת, להכין תוכנית התערבות הנדסית ולהגיש את המסמכים דרך הפלטפורמה המקוונת בעזרת נציגים מקצועיים במידת הצורך.",
+          "body": "## תחילת ההרשמה לתוכנית השיפוצים הלאומית\n\nממשלת יוון פתחה את האפשרות להגיש בקשות מקוונות עבור תוכנית שיפוץ הבתים, המהווה חלק מתוכנית המימון הרחבה לשנים 2021 עד 2027 בשווי של 500 מיליון אירו. שלב זה ממוקד בבתים פנויים במטרה להחזירם למעגל המגורים.\n\nהבקשות החלו להיקלט דרך פלטפורמה מקוונת ייעודית המנוהלת על ידי הלשכה הטכנית של יוון, והן יישארו פתוחות עד אמצע חודש ינואר 2027. נתונים רשמיים ממשרד הכלכלה הלאומית והאוצר מראים כי תקציב של כ-200 מיליון אירו מוקצה אך ורק לנכסים פנויים, מתוכו כ-37.3 מיליון אירו מוערכים עבור אזור אטיקה.\n\n## תנאי הזכאות ושיעורי המענקים\n\nהתוכנית מעניקה מענקים למשקי בית בעלי הכנסה נמוכה ובינונית לצורך שיפוץ נכסים וביצוע שדרוגים אנרגטיים מתונים. המענקים מכסים בין 70 ל-95 אחוזים מהעלויות הזכאיות, עד לתקרה של 36,000 אירו עבור עבודות השיפוץ והאנרגיה, לצד סכום נוסף של 2,500 אירו עבור שירותי תמיכה נלווים.\n\nכדי להגיש בקשה, על המבקשים להחזיק באישור זכאות מקדים לנכס ולהתחבר למערכת המקוונת באמצעות קודי ה-TAXISnet האישיים שלהם. כל תיק נדרש לכלול תוכנית התערבות המפרטת את העבודות המוצעות והעלויות שלהן, לצד הצהרות ומסמכים נדרשים. הרשויות מציינות כי יועץ טכני אינו בגדר חובה, אך מומלץ להיעזר באיש מקצוע לצורך הכנה נכונה של התוכנית.\n\n## נתונים מהשטח והשלבים הבאים\n\nלפי נתונים שהציגה שרת הלכידות חברתית ומשפחתית, הרשויות הנפיקו עד כה כ-94,000 אישורי זכאות בסך הכל, אך רק כ-14,000 מתוכם קשורים לבתים פנויים. בשלב הנוכחי התוכנית מטפלת בנכסים שאינם מאוכלסים, בעוד שדירות מאוכלסות צפויות להיכלל בשלבים מאוחרים יותר של הפרויקט.\n\nמדובר במידע כללי בלבד ואין לראות בו ייעוץ משפטי או פיננסי מחייב. מומלץ לבדוק את ההנחיות המעודכנות באתרים הרשמיים של משרדי הממשלה ביוון.\n\n## שאלות נפוצות\n\n**מי זכאי להגיש בקשה לתוכנית השיפוצים ביוון?**\nבעלי נכסים פנויים המשתייכים למשלמי מיסים בעלי קודי TAXISnet ומחזיקים באישור זכאות מקדים עבור הנכס שלהם.\n\n**מה גובה המענק המקסימלי שניתן לקבל עבור שיפוץ הנכס?**\nהמענקים מכסים בין 70 ל-95 אחוזים מהעלויות הזכאיות, עד לסכום מרבי של 36,000 אירו לעבודות שיפוץ ואנרגיה, ועוד 2,500 אירו לשירותי תמיכה.\n\n**האם חובה לשכור שירותי של יועץ טכני להגשת הבקשה?**\nלא, שירותי ייעץ טכני אינם חובה על פי הנחיות המשרדים, אך הממשלה ממליצה להיעזר באיש מקצוע כדי להכין את תוכנית ההתערבות כראוי."
+        },
+        "en": {
+          "title": "Greece Opens Home Renovation Program Applications with Grants Up to €36,000",
+          "seoTitle": "Greece Home Renovation Grants: Applications Open for Vacant Homes",
+          "seoDesc": "Greece has opened online applications for its Home Renovation program, offering up to 95 percent grants for vacant homes. What investors need to know.",
+          "keywords": [
+            "greece real estate",
+            "athens apartments",
+            "property in greece",
+            "greece renovation grants"
+          ],
+          "dek": "The Greek government launched a €500 million renovation scheme starting with vacant properties, offering substantial grants for energy upgrades.",
+          "tldr": [
+            "Greece opened online applications for the €500 million Home Renovation program.",
+            "The initial phase focuses on vacant homes with grants covering up to €36,000.",
+            "Applications are submitted online via the Technical Chamber platform using TAXISnet credentials."
+          ],
+          "means": "For foreign investors and property owners in Greece, this scheme provides financial backing for energy upgrades on vacant units. Ensure you hold an eligibility certificate, prepare an intervention plan, and submit through the official portal with professional guidance if needed.",
+          "body": "## Launch of the National Renovation Scheme\n\nThe Greek government has officially opened online applications for its Home Renovation program, part of the broader 2021-2027 NSRF funding plan worth €500 million. This initial phase targets vacant homes to bring them back into residential use.\n\nApplications are processed through a dedicated online platform operated by the Technical Chamber of Greece. Official figures from the Ministry of National Economy and Finance indicate that about €200 million is allocated exclusively to vacant properties, with roughly €37.3 million estimated for the Attica region.\n\n## Eligibility and Grant Coverage\n\nThe scheme provides financial support to low- and middle-income households to renovate properties and perform moderate energy upgrades. Grants cover between 70 and 95 percent of eligible costs, up to €36,000 for renovation and energy works, plus an additional €2,500 for support services.\n\nApplicants must hold a pre-existing Eligibility Certificate for the property and log in using personal TAXISnet credentials. Each submission requires an Intervention Plan detailing proposed works, costs, and mandatory documents. While a technical adviser is not strictly compulsory, ministries recommend employing one to ensure proper preparation.\n\n## Current Status and Future Phases\n\nAccording to figures from the Ministry of Social Cohesion and Family, authorities have issued roughly 94,000 eligibility certificates so far, though only about 14,000 pertain to vacant homes. Occupied homes will become eligible in a subsequent phase of the rollout.\n\nThis is general information only and does not constitute legal or financial advice. Property owners should consult official ministerial guidelines for precise rules.\n\n## FAQ\n\n**Who is eligible to apply for the Home Renovation program in Greece?**\nOwners of vacant residential properties who hold an Eligibility Certificate and possess personal TAXISnet credentials.\n\n**What is the maximum grant amount available for renovations?**\nGrants cover 70 to 95 percent of eligible costs, up to €36,000 for renovation and energy works, plus €2,500 for support services.\n\n**Is a technical adviser mandatory for submitting an application?**\nNo, a technical adviser is not compulsory, but authorities recommend using one to properly prepare the intervention plan."
+        }
+      },
+      "text": "Apartment blocks in central Athens, where owners can apply to the Home Renovation program. Photo: Shutterstock \n 0 \n 0 \n 0 \n Greece has opened online applications for its Home Renovation program, starting with vacant homes. The €500 million scheme forms part of the NSRF 2021-2027 funding plan. \n Applications opened on Thursday 29 October and close on 11 January 2027, the Ministry of National Economy and Finance said. Owners apply through a dedicated online platform run by the Technical Chamber of Greece.\n How the Home Renovation program works\n The scheme gives grants to low- and middle-income households. Owners must renovate a property and carry out moderate energy upgrades. The aim is to bring the home back into use as a main residence.\n Afterwards, the owner may live in the renovated home or rent it out. Applications for occupied homes will open in a later phase.\n Read more: Greece Offers Housing Renovation Grants of Up to €36,000 \n Grants cover 70 to 95 per cent of eligible costs, up to €36,000 for renovation and energy works. A further €2,500 is available for support services.\n Who can apply\n Applicants must already hold an Eligibility Certificate for the home. Owners log in with their personal TAXISnet codes and submit everything online.\n Each application must include an Intervention Plan. This sets out the proposed works and their cost, along with the required declarations and documents.\n A technical adviser is not compulsory, the ministries said. Still, they recommend one to help prepare the plan properly.\n Full rules appear in the official implementation guide, published on 20 October on the PEKA program website . GCT covered that guide when the government unveiled its wider housing measures.\n Competition for funds\n Authorities have issued about 94,000 eligibility certificates so far, according to figures from Social Cohesion and Family Minister Domna Michailidou. However, only about 14,000 relate to vacant homes.\n Reports say about €200 million of the Home Renovation program goes only to vacant properties. Funds are split by region, with roughly €37.3 million estimated for Attica.\n Source: Ministry of National Economy and Finance \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Athens Rental Shortage Deepens as Listings Fall up to 26.9% in a Year \n Greece to Allow Online Correction of Property Boundary Errors From September 18 \n Greek House Prices Rise 5.4% in Second Quarter of 2026 \n Greece Opens the Rulebook on Its 95% Home Renovation Grants \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Pauline Karpidas' Jewels, Including Pieces Once Owned by Warhol, Head to Sotheby's New York\n Next Article \n Aristotle University Turns Spotlight on Greek Australian Writers\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα άνοιξε τις αιτήσεις για το πρόγραμμα ανακαίνισης κατοικιών με επιδοτήσεις έως 36.000 ευρώ",
+        "dek": "Η ελληνική κυβέρνηση ξεκίνησε ένα πρόγραμμα ανακαίνισης ύψους 500 εκατομμυρίων ευρώ, δίνοντας προτεραιότητα σε κενά ακίνητα και προσφέροντας σημαντικές επιδοτήσεις για ενεργειακές αναβαθμίσεις.",
+        "tldr": [
+          "Η Ελλάδα άνοιξε τις ηλεκτρονικές αιτήσεις για το πρόγραμμα ανακαίνισης κατοικιών ύψους 500 εκατομμυρίων ευρώ.",
+          "Η αρχική φάση επικεντρώνεται σε κενά σπίτια, με επιδοτήσεις που καλύπτουν έως και 36.000 ευρώ.",
+          "Οι αιτήσεις υποβάλλονται ηλεκτρονικά μέσω της πλατφόρμας του Τεχνικού Επιμελητηρίου χρησιμοποιώντας τους κωδικούς TAXISnet."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2091,12 +2292,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-30T23:43:23.346Z",
+      "at": "2026-10-31T02:43:25.337Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-30T23:43:24.117Z",
+      "at": "2026-10-31T02:43:26.079Z",
       "items": 5
     },
     "civilprotection": {
@@ -2107,27 +2308,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-30T23:43:25.697Z",
+      "at": "2026-10-31T02:43:27.650Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-30T23:43:25.866Z",
+      "at": "2026-10-31T02:43:28.073Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-30T23:43:26.592Z",
+      "at": "2026-10-31T02:43:28.943Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-30T23:43:27.455Z",
-      "items": 1
+      "at": "2026-10-31T02:43:29.797Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-30T23:43:28.026Z",
+      "at": "2026-10-31T02:43:30.734Z",
       "items": 10
     },
     "toi-greece": {
@@ -2138,22 +2339,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-30T23:43:28.548Z",
+      "at": "2026-10-31T02:43:31.294Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-30T23:43:29.765Z",
+      "at": "2026-10-31T02:43:31.722Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-30T23:43:29.898Z",
+      "at": "2026-10-31T02:43:32.002Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T23:43:30.323Z",
+      "at": "2026-10-31T02:43:32.179Z",
       "items": 7
     },
     "ynet-greece": {
@@ -2163,12 +2364,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-30T23:43:24.768Z",
+      "at": "2026-10-31T02:43:26.717Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-30T23:43:31.041Z",
+      "at": "2026-10-31T02:43:32.872Z",
       "items": 0
     },
     "hcg": {
@@ -2179,32 +2380,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-30T23:43:32.630Z",
+      "at": "2026-10-31T02:43:34.477Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-30T23:43:32.886Z",
-      "items": 5
+      "at": "2026-10-31T02:43:34.764Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-30T23:43:33.089Z",
-      "items": 4
+      "at": "2026-10-31T02:43:34.938Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-30T23:43:33.302Z",
+      "at": "2026-10-31T02:43:35.179Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-30T23:43:33.674Z",
-      "items": 8
+      "at": "2026-10-31T02:43:35.541Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-30T23:43:34.109Z",
+      "at": "2026-10-31T02:43:35.895Z",
       "items": 6
     }
   },
@@ -2224,6 +2425,12 @@
         "title": "Climate Extremes Push Greek Wine Production to Historic Lows",
         "at": "2026-10-31T01:40:50+02:00",
         "section": "travel"
+      },
+      {
+        "slug": "earthquake-chalkidiki-felt-athens",
+        "title": "↻ Update: Magnitude 4.2 earthquake strikes off Chalkidiki",
+        "at": "2026-10-31T04:45:15+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [],
@@ -2409,28 +2616,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-30T23:40:13.882Z",
-    "considered": 18,
-    "picked": 2,
+    "at": "2026-10-31T02:43:37.312Z",
+    "considered": 12,
+    "picked": 3,
     "items": [
-      "· gct | 20,000 Australian Students Lacked Informed COVID Vaccine Consent",
-      "· gct | Iran Says Four Tankers Hit Mines in Hormuz as US Insists Shipping Lanes Are Clear",
-      "✓ gct | Greece Launches Tag Greece to Draw Travellers With Local Food",
-      "· gct | Greeks Have Positive View of Their National Health System",
-      "· gct | Olympiacos Beat Armani Milan to Share EuroLeague Lead",
-      "✓ gct | Climate Extremes Push Greek Wine Production to Historic Lows",
-      "· gct | Priest On Trial Accused of Burning Down Estranged Wife’s House",
-      "· gct | Greek Jets Intercept Armed Turkish F-16s East of Rhodes",
-      "· gct | French Travel Magazine Showcases Patmos Culture and Gastronomy",
-      "· gct | Relics Of Saint George to Move to New Church in Nea Ionia",
-      "· gct | Pieria Seeks New Tourism Partnerships Across Central Europe",
-      "· gct | Nearchos and Kimon to Lead Greece’s New Generation of Warships",
-      "· gct | Thessaloniki Mental Health Unit Gets Medical Equipment Upgrade",
-      "· gct | Plaka Explosion: Three Suspects Linked to 80 Police Cases",
-      "· gct | Greece, Portugal and Finland Join Forces in Digital Health Education",
-      "· ingr | Ισραήλ: Η αντιπολίτευση και οι Άραβες κατέληξαν σε συμφωνία για τον πρόεδρο της Βουλής",
-      "· naftemporiki | Sell-off στον Nasdaq: Η χειρότερη συνεδρίαση από το καλοκαίρi",
-      "· gn-kathimerini | Ισραήλ: Αβεβαιότητα, πολιτικές εντάσεις και «παζάρια» μετά τις εκλογές – Τα επίσημα αποτελ"
+      "· gct | Parliament Draws Judges for Tempi Crash Site Tampering Trial",
+      "· gct | Greek American Group Tells Peloton to Pull Varosha Ride",
+      "· gct | Aristotle University Turns Spotlight on Greek Australian Writers",
+      "✓ gct | Greece Opens Applications for €36,000 Home Renovation Grants",
+      "· gct | Pauline Karpidas’ Jewels, Including Pieces Once Owned by Warhol, Head to Sotheby’s New Yor",
+      "· gct | Study Asks What Josephus Really Wrote About Jesus’ Resurrection",
+      "· gct | Seven Reasons Orthodox Christians Should Never Celebrate Halloween",
+      "✓ gct | What Israel Elections Means for Greece as Aegean Tensions Rise",
+      "· gct | Daughter of Chief Accountant Jailed in Bakery Tax Evasion Case",
+      "✓ ert | Σεισμός 4,2 Ρίχτερ στη Χαλκιδική",
+      "· gct | Greece Promotes Regional Tourism to US Travel Agents",
+      "· ingr | Σεισμός 4,2 ρίχτερ στον υποθαλάσσιο χώρο νότια της Χαλκιδικής"
     ]
   },
   "evergreenDone": [
