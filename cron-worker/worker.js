@@ -29,6 +29,7 @@ function due(d) {
   const m5 = t.m - (t.m % 5);
   if (m5 === 15 && t.h >= 7 && t.h <= 22) out.push(["ig-stories.yml", { kind: "alerts", publish: "yes", sched: "1" }]);
   if ((m5 === 5 || m5 === 35) && t.h >= 7 && t.h <= 23) out.push(["meta.yml", { task: "comments" }]);
+  if (m5 % 10 === 0 && t.h >= 7) out.push(["instant-social.yml", {}]);
   return out;
 }
 async function dispatch(env, wf, inputs) {

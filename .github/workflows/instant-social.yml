@@ -1,0 +1,49 @@
+# Άμεσο story (κάθε άρθρο) + post Instagram (κάθε είδηση) μόλις το άρθρο είναι live.
+# Το ξεκινά το ρολόι yavanet-cron κάθε 10 λεπτά (και το cron του GitHub ως εφεδρεία).
+name: Instant social
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: yavanet-instant-social
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Render cards
+        run: |
+          [ -z "$META_TOKEN" ] && { echo "::warning::NO_META_TOKEN"; exit 0; }
+          node automation/instant-social.mjs render
+      - name: Upload cards (branch igcards)
+        run: |
+          N=$(node -e "try{console.log(JSON.parse(require('fs').readFileSync('instant-plan.json','utf8')).length)}catch{console.log(0)}")
+          [ "$N" = "0" ] && exit 0
+          mkdir keep && node -e "for(const j of JSON.parse(require('fs').readFileSync('instant-plan.json','utf8')))for(const p of [j.story,j.post])if(p)console.log('content/ig/'+p.split('/').pop())" | xargs -I{} cp {} keep/
+          cd keep && git init -q -b igcards && git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add -A && git commit -qm "cards [skip ci]" && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" igcards
+          echo "CARDS_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+      - name: Publish
+        if: env.CARDS_SHA != ''
+        run: sleep 5 && node automation/instant-social.mjs publish "$CARDS_SHA"
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name yavanet-bot && git config user.email bot@yavanet.gr
+          git add content/ig/instant.json content/ig/posted.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "auto: instant social [skip ci]" && (git push || (git pull --rebase -X theirs && git push))) || true
