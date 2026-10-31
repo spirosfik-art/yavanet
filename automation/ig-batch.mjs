@@ -4,7 +4,7 @@
 //        node automation/ig-batch.mjs publish <outdir> <baseUrl> (ανεβάζει μέσω Graph API, ενημερώνει posted.json)
 import fs from "node:fs";
 import path from "node:path";
-import { loadArticles, log, notifyOwner } from "./lib.mjs";
+import { loadPublished, log, notifyOwner } from "./lib.mjs";
 import { igEligible, igEvergreen, igCaption, igAltText, renderIgCard, IG_DIR } from "./ig-card.mjs";
 import { ctx, postStory } from "./meta.mjs";
 import { nextCarousel, renderCarousel, carouselCaption, markCarousel, readCarState } from "./ig-carousel.mjs";
@@ -20,7 +20,7 @@ const readRows = () => { try { return JSON.parse(fs.readFileSync(rowState, "utf8
 
 function pick(n) {
   const posted = new Set(readPosted().map((x) => x.slug));
-  const all = loadArticles().filter((a) => !posted.has(a.slug)).sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
+  const all = loadPublished().filter((a) => !posted.has(a.slug)).sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || ""));
   const recent = all.filter((a) => igEligible(a) && Date.now() - Date.parse(a.publishedAt || 0) < 72 * 3600e3);
   const score = (a) => (a.breaking || a.strike ? 3 : 0) + (["israelis", "travel", "real-estate", "jewish-greece", "living"].includes(a.section) ? 2 : 0);
   recent.sort((a, b) => score(b) - score(a));
@@ -74,7 +74,7 @@ if (cmd === "render") {
   // ξαναφτιάχνει ακριβώς τις κάρτες ενός plan.json (ίδια άρθρα/σχέδια) με τον τρέχοντα κώδικα
   const plan = JSON.parse(fs.readFileSync(a1, "utf8")), out = a2 || "ig-batch";
   fs.mkdirSync(out, { recursive: true });
-  const arts = Object.fromEntries(loadArticles().map((x) => [x.slug, x]));
+  const arts = Object.fromEntries(loadPublished().map((x) => [x.slug, x]));
   for (const p of plan) { if (p.carousel) continue; const r = renderIgCard(arts[p.slug], null, p.style); if (!r) { log("fail", p.slug); process.exit(1); } fs.copyFileSync(path.join(IG_DIR, p.slug + ".jpg"), path.join(out, p.file)); fs.rmSync(path.join(IG_DIR, p.slug + ".jpg"), { force: true }); }
   fs.writeFileSync(path.join(out, "plan.json"), JSON.stringify(plan, null, 1));
   log("rerendered", plan.length);

@@ -19,7 +19,7 @@ fs.mkdirSync(out, { recursive: true });
 for (const [slug, label, sub, svg] of HL) {
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
-<style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 50%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
+<style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 50%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
 .top{position:absolute;top:150px;left:0;right:0;text-align:center;font:800 40px Assistant;color:rgba(255,255,255,.8);letter-spacing:1px}
 .c{position:absolute;left:250px;top:670px;width:580px;height:580px;border-radius:50%;border:12px solid ${GOLD};display:flex;align-items:center;justify-content:center;background:rgba(7,42,67,.55)}
 .c svg{width:290px;height:290px;fill:none;stroke:${GOLD};stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}

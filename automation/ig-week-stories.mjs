@@ -17,7 +17,7 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 for (const [slug, kick, title, lines, cta] of S) {
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
-<style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 40%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
+<style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 40%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
 .top{position:absolute;top:150px;left:0;right:0;text-align:center;font:800 40px Assistant;color:rgba(255,255,255,.8);letter-spacing:1px}
 .k{position:absolute;top:420px;left:0;right:0;text-align:center}.k span{display:inline-block;background:${GOLD};color:${DEEP};font:800 50px Assistant;padding:14px 44px;border-radius:50px}
 h1{position:absolute;top:560px;left:70px;right:70px;text-align:center;font:900 104px/1.12 "Frank Ruhl Libre",serif}

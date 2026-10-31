@@ -7,7 +7,7 @@
 //  - Αν ένα άρθρο που στάλθηκε ως κίτρινο/πορτοκαλί αναβαθμιστεί σε κόκκινο, στέλνεται ξανά (μία φορά).
 // Χρήση για δοκιμή: DRY_RUN=1 (δεν στέλνει, δεν γράφει) · WX_TEST_EMAIL=x@y (στέλνει μόνο σε αυτή την επαφή).
 import path from "node:path";
-import { env, log, loadArticles, brevo, notifyOwner, DRY, ROOT, readJSON, writeJSON } from "./lib.mjs";
+import { env, log, loadPublished, brevo, notifyOwner, DRY, ROOT, readJSON, writeJSON } from "./lib.mjs";
 import { SITE } from "../site/config.mjs";
 import { isWeather, wxInfo } from "../site/weather.mjs";
 import { wxLevelFor, wxLevelUrl } from "../site/wxlevels.mjs";
@@ -80,7 +80,7 @@ async function main() {
   const SENDER = env.SENDER_EMAIL || "info@yavanet.gr";
   const BASE = SITE.url.replace(/\/$/, "");
   const sentLog = readJSON(LOG_FILE, {});
-  const fresh = pickNew(loadArticles(), sentLog);
+  const fresh = pickNew(loadPublished(), sentLog);
   if (!fresh.length) { log("weather-alerts: κανένα νέο άρθρο καιρού"); return; }
 
   // Επαφές με WX_ALERT=1 (σελίδες των 1000)

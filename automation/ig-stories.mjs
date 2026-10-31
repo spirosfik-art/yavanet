@@ -7,7 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { ROOT, log, loadArticles, notifyOwner } from "./lib.mjs";
+import { ROOT, log, loadPublished, notifyOwner } from "./lib.mjs";
 import { HOLIDAYS } from "../site/holidays.mjs";
 import { PHRASES } from "../site/phrasebook.mjs";
 import { SHAB_CITIES } from "../site/shabbat.mjs";
@@ -30,7 +30,7 @@ async function getJSON(u, ms = 20000) {
 }
 
 // ---------- κοινό σχέδιο (ίδιο με τα εξώφυλλα των highlights) ----------
-const CSS = `*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 40%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
+const CSS = `*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fff;font-family:Assistant,sans-serif;background:radial-gradient(circle at 50% 40%,#13507b 0%,${NAVY} 45%,${DEEP} 100%)}
 .bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:blur(5px) brightness(.38);transform:scale(1.06)}
 .top{position:absolute;top:150px;left:0;right:0;text-align:center;font:800 40px Assistant;color:rgba(255,255,255,.8);letter-spacing:1px}
 .k{position:absolute;top:330px;left:0;right:0;text-align:center}.k span{display:inline-block;background:${GOLD};color:${DEEP};font:800 50px Assistant;padding:14px 44px;border-radius:50px}
@@ -60,7 +60,7 @@ const fit = (t) => (t.length > 34 ? 84 : t.length > 22 ? 96 : 110);
 // ---------- δεδομένα ----------
 const TRAVEL = ["flights", "ferries", "metro", "buses", "trains", "taxis"];
 const SECT = { flights: "✈️ טיסות", ferries: "⛴️ מעבורות", metro: "🚇 מטרו", buses: "🚌 אוטובוסים", trains: "🚆 רכבות", taxis: "🚕 מוניות" };
-const arts = () => loadArticles().filter((a) => !a.hidden && !a.sponsored && a.he && a.he.title);
+const arts = () => loadPublished().filter((a) => !a.hidden && !a.sponsored && a.he && a.he.title);
 const strikesOn = (d) => arts().filter((a) => a.strike && (a.strike.dates || []).includes(d) && (a.strike.sectors || []).some((x) => TRAVEL.includes(x)));
 const WX = [["athens", "אתונה", 37.98, 23.73], ["thessaloniki", "סלוניקי", 40.64, 22.93], ["heraklion", "כרתים", 35.34, 25.13], ["rhodes", "רודוס", 36.43, 28.22]];
 const WCODE = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 67 ? "🌧️" : c <= 77 ? "❄️" : c <= 82 ? "🌦️" : "⛈️");

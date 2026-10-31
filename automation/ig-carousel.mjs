@@ -93,7 +93,7 @@ function chrome() {
   for (const c of [process.env.CHROME, "google-chrome", "chromium"]) { if (!c) continue; try { execFileSync("which", [c], { stdio: "ignore" }); return c; } catch {} }
   return null;
 }
-const HEAD = `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1350px;overflow:hidden;position:relative;font-family:Assistant}
+const HEAD = `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1350px;overflow:hidden;position:relative;font-family:Assistant}
 h1,h2{font-family:"Frank Ruhl Libre",serif;font-weight:900}.logo svg{width:84px;height:84px}
 .sig{position:absolute;bottom:56px;right:76px;left:76px;display:flex;justify-content:space-between;font:600 30px Assistant}`;
 

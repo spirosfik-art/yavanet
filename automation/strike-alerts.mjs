@@ -4,7 +4,7 @@
 // τα slug που στάλθηκαν κρατιούνται στο χαρακτηριστικό STRIKE_SENT της επαφής (idempotent). Μετά το τέλος του ταξιδιού: STRIKE_ALERT=0.
 // STRIKE_MODE=all (από τη συνδυαστική φόρμα καιρού+απεργιών, μετά από double opt-in στο /api/alerts): χωρίς ημερομηνίες ταξιδιού,
 // ένα email για κάθε ΝΕΑ απεργία σε πλοία ή πτήσεις (άρθρο μετά την επιβεβαίωση, μείον 24 ώρες), με σύνδεσμο διαγραφής.
-import { env, log, loadArticles, brevo, notifyOwner, DRY } from "./lib.mjs";
+import { env, log, loadPublished, brevo, notifyOwner, DRY } from "./lib.mjs";
 import { unsubUrl } from "../lib/alerts.js";
 import { SITE } from "../site/config.mjs";
 
@@ -17,7 +17,7 @@ const SECTOR = { flights: ["✈️ טיסות", "✈️ Flights"], ferries: ["�
 
 // Μόνο απεργίες που επηρεάζουν μετακινήσεις (όπως η μπάρα απεργίας του site)
 const TRAVEL = ["flights", "ferries", "metro", "buses", "trains", "taxis"];
-const strikes = loadArticles().filter((a) => !a.hidden && a.strike && Array.isArray(a.strike.dates) && a.strike.dates.some((d) => d >= today) && (a.strike.sectors || []).some((x) => TRAVEL.includes(x)));
+const strikes = loadPublished().filter((a) => !a.hidden && a.strike && Array.isArray(a.strike.dates) && a.strike.dates.some((d) => d >= today) && (a.strike.sectors || []).some((x) => TRAVEL.includes(x)));
 if (!strikes.length) { log("strike-alerts: δεν υπάρχουν επερχόμενες απεργίες"); process.exit(0); }
 
 // Όλες οι επαφές (σελίδες των 1000) → όσες έχουν STRIKE_ALERT=1

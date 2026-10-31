@@ -27,7 +27,7 @@ PICKS.forEach(([slug, kicker], i) => {
   const title = a.he.title;
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
-<style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1350px;background:#0B3A5B;font-family:Assistant,sans-serif;overflow:hidden;position:relative}
+<style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1350px;background:#0B3A5B;font-family:Assistant,sans-serif;overflow:hidden;position:relative}
 .ph{position:absolute;inset:0 0 520px 0;background:url("${img}") center/cover}
 .ph:after{content:"";position:absolute;inset:auto 0 0 0;height:260px;background:linear-gradient(transparent,#0B3A5B)}
 .box{position:absolute;inset:auto 0 0 0;height:600px;padding:40px 72px 0;color:#fff}

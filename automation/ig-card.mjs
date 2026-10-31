@@ -77,7 +77,7 @@ function nextVariant() {
 function cardLayout(v, { img, kicker, title, icon, breaking, alert }) {
   const fsz = (a, b, c) => (title.length > 60 ? a : title.length > 42 ? b : c);
   const tag = breaking ? `<span class="k red">● ${esc(alert)}</span>` : `<span class="k">${esc(kicker)}</span>`;
-  const base = `*{margin:0;box-sizing:border-box}body{width:1080px;height:1350px;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff;background:${NAVY}}
+  const base = `*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1350px;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff;background:${NAVY}}
 h1{font-family:"Frank Ruhl Libre",serif;font-weight:900;letter-spacing:-.5px}
 .k{display:inline-block;color:${GOLD};font:800 34px Assistant;letter-spacing:1px;padding-bottom:10px;border-bottom:4px solid ${GOLD};margin-bottom:30px}
 .k.red{color:#fff;background:${RED};border:0;padding:8px 24px;border-radius:8px}
@@ -154,7 +154,7 @@ export function renderStoryCard(a, kicker) {
   const fs1 = title.length > 60 ? 76 : title.length > 42 ? 88 : 100;
   const html = `<!doctype html><html dir="rtl"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet">
-<style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;background:#0B3A5B;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff}
+<style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1920px;background:#0B3A5B;font-family:Assistant,sans-serif;overflow:hidden;position:relative;color:#fff}
 .ph{position:absolute;inset:0 0 760px 0;background:url("${img}") center/cover}
 .ph:after{content:"";position:absolute;inset:auto 0 0 0;height:420px;background:linear-gradient(transparent,#0B3A5B)}
 .top{position:absolute;top:150px;right:72px;left:72px;display:flex;justify-content:space-between;align-items:center}

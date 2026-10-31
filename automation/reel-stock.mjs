@@ -111,7 +111,7 @@ async function speak(text, i) {
   return null;
 }
 
-const HEAD = (extra = "") => `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}html,body{background:transparent}body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Assistant;color:#fff}
+const HEAD = (extra = "") => `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}html{overflow:hidden}html,body{background:transparent}body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Assistant;color:#fff}
 .top{position:absolute;top:150px;right:70px;left:70px;display:flex;justify-content:space-between;align-items:center;font:800 42px Assistant;text-shadow:0 2px 12px rgba(0,0,0,.5)}.top svg{width:96px;height:96px}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 45%,rgba(7,42,67,.85) 75%,rgba(7,42,67,.95) 100%)}
 .box{position:absolute;right:70px;left:70px;bottom:330px}h1{font:900 FSpx/1.1 "Frank Ruhl Libre",serif;text-shadow:0 3px 18px rgba(0,0,0,.45)}

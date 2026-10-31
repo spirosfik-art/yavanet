@@ -8,7 +8,7 @@
 // Μυστικό: META_TOKEN (system-user token με τα δικαιώματα της σελίδας/IG). Προαιρετικά FB_PAGE_ID.
 import fs from "node:fs";
 import path from "node:path";
-import { ROOT, env, log, loadArticles, notifyOwner } from "./lib.mjs";
+import { ROOT, env, log, loadPublished, notifyOwner } from "./lib.mjs";
 
 const V = env.META_GRAPH_VERSION || "v23.0";
 const G = `https://graph.facebook.com/${V}`;
@@ -74,7 +74,7 @@ export async function postStory(imageUrl) {
 const ICON = () => fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const KICK = { travel: "טיולים", "real-estate": "נדל״ן", israelis: "ישראלים ביוון", living: "חיים ביוון", "jewish-greece": "יהדות", breaking: "מבזק", news: "חדשות", greece: "חדשות", economy: "כלכלה", politics: "חדשות" };
-const HEAD = `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Assistant;color:#fff;background:#0B3A5B}
+const HEAD = `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Assistant:wght@600;800&display=block" rel="stylesheet"><style>*{margin:0;box-sizing:border-box}html{overflow:hidden;background:#0B3A5B}body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Assistant;color:#fff;background:#0B3A5B}
 .ph{position:absolute;inset:0;background-size:cover;background-position:center}.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.05) 28%,rgba(0,0,0,.2) 48%,rgba(0,0,0,.93) 78%)}
 .top{position:absolute;top:150px;right:70px;left:70px;display:flex;justify-content:space-between;align-items:center;font:800 40px Assistant}.top svg{width:90px;height:90px}
 .box{position:absolute;right:70px;left:70px;bottom:330px}h1{font:900 FSpx/1.1 "Frank Ruhl Libre",serif}.dek{font:600 46px/1.35 Assistant;margin-top:26px;opacity:.92}
@@ -84,7 +84,7 @@ const HEAD = `<!doctype html><html dir="rtl"><head><meta charset="utf-8"><link h
 
 export function pickReelArticles(n = 4) {
   const since = Date.now() - 30 * 3600e3;
-  const all = loadArticles().filter((a) => a.he && a.he.title && Date.parse(a.publishedAt) > since && !a.sensitive && !a.sponsored);
+  const all = loadPublished().filter((a) => a.he && a.he.title && Date.parse(a.publishedAt) > since && !a.sensitive && !a.sponsored);
   const score = (a) => (a.image && a.image.type === "photo" ? 3 : 0) + (a.breaking || a.strike ? 4 : 0) + (["israelis", "travel", "real-estate", "jewish-greece"].includes(a.section) ? 2 : 0) + (/flight|טיס|strike|שביתה|weekend/i.test(a.slug) ? 1 : 0);
   return all.sort((a, b) => score(b) - score(a) || Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, n);
 }

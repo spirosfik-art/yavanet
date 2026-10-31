@@ -1,7 +1,7 @@
 // Newsletter: node automation/newsletter.mjs daily|weekly
 // Daily «Kalimera από το Yavanet»: 8:00 ώρα Ισραήλ, 5 σημαντικότερα νέα.
 // Weekly «Ακίνητα την εβδομάδα»: Κυριακή, νόμοι & ακίνητα.
-import { env, log, loadArticles, brevo, israelHour, claude, hasAI, parseJSON, athensNow, notifyOwner, DRY } from "./lib.mjs";
+import { env, log, loadPublished, brevo, israelHour, claude, hasAI, parseJSON, athensNow, notifyOwner, DRY } from "./lib.mjs";
 import { NEWSLETTER_SYSTEM } from "./prompts.mjs";
 import { SITE, SECTIONS } from "../site/config.mjs";
 
@@ -13,7 +13,7 @@ const url = (a, lang) => SITE.url.replace(/\/$/, "") + (lang === "he" ? "" : "/e
 // Το GitHub τρέχει σε ώρα UTC· ελέγχουμε ότι είναι 8:00 στο Ισραήλ (θερινή/χειμερινή ώρα)
 if (kind === "daily" && env.FORCE !== "1" && israelHour() !== 8) { log("όχι 8:00 Ισραήλ – παράλειψη"); process.exit(0); }
 
-const all = loadArticles().filter((a) => !a.hidden && !a.sponsored).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+const all = loadPublished().filter((a) => !a.hidden && !a.sponsored).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 const since = Date.now() - (kind === "daily" ? 26 : 7 * 24) * 3600e3;
 let pool = all.filter((a) => Date.parse(a.publishedAt) > since);
 if (kind === "weekly") pool = pool.filter((a) => a.section === "real-estate").concat(pool.filter((a) => a.section !== "real-estate"));

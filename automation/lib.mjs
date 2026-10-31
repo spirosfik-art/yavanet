@@ -261,6 +261,11 @@ export function loadArticles() {
   if (!fs.existsSync(ARTICLES_DIR)) return [];
   return fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".json")).map((f) => ({ file: f, ...readJSON(path.join(ARTICLES_DIR, f), {}) }));
 }
+// Μόνο όσα έχουν ήδη δημοσιευτεί (τα προγραμματισμένα άρθρα με μελλοντική ώρα δεν μπαίνουν σε social/newsletter)
+export function loadPublished() {
+  const lim = Date.now() + 5 * 60e3;
+  return loadArticles().filter((a) => !a.publishedAt || Date.parse(a.publishedAt) <= lim);
+}
 // Το μοντέλο καμιά φορά «γλιστράει» σε γεωργιανά γράμματα που μοιάζουν με εβραϊκά (π.χ. «טრო‌ליי»)
 const GEO = { "ტ": "ט", "რ": "ר", "ო": "ו", "ფ": "פ", "დ": "ד", "ლ": "ל", "ნ": "נ", "ს": "ס", "მ": "מ", "ი": "י", "ა": "א", "ბ": "ב", "გ": "ג", "ვ": "ו", "ზ": "ז", "ქ": "ק", "კ": "כ", "ხ": "ח", "შ": "ש", "ც": "צ", "ჰ": "ה" };
 function deGeo(v) {
