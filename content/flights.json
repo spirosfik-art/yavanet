@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T12:52:21+02:00",
+  "updated": "2026-10-31T12:24:06+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,12 +9,12 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 100,
-      "depart": "2026-11-02",
-      "ret": "2026-12-25",
+      "price": 95,
+      "depart": "2026-11-26",
+      "ret": "2026-12-01",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV0211ATH25121?t=GQ17936622001793670300000135TLVATH17981694001798176600000120ATHTLV_9277463235bd1a07c2eb1e4565f54249_8936&search_date=28102026&expected_price_uuid=01a1810f-307b-8030-eb55-30c11bffa374&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rpRYhvEnAJCBM6M4ZtoDng&expected_price_source=share&expected_price_currency=eur&expected_price=100&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2611ATH01121?t=GQ17957358001795743900000135TLVATH17960958001796103000000120ATHTLV_9aad7f68b0bc2c525e4280de16ba45d3_8530&search_date=31102026&expected_price_uuid=01a190c2-cc69-8040-a0b4-47382b87b18d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EpnFboeBZirVFTmAN8c0oA&expected_price_source=share&expected_price_currency=eur&expected_price=95&marker=782936"
     },
     {
       "dest": "SKG",
@@ -39,26 +39,15 @@
       "link": "https://www.aviasales.com/search/TLV2811CFU05121?t=GQ17959086001795938600000500TLVATHCFU17965077001796535000000455CFUATHTLV_6ccd38e05be1da88a0300fd028339517_19090&search_date=27102026&expected_price_uuid=01a17ea2-68b1-8030-ae0f-6d1eb6170b1e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=p7Vm7uAitK_IE52EUQ_8RQ&expected_price_source=share&expected_price_currency=eur&expected_price=213&marker=782936"
     },
     {
-      "dest": "JTR",
-      "he": "סנטוריני",
-      "en": "Santorini",
-      "price": 217,
-      "depart": "2026-11-11",
-      "ret": "2026-11-14",
-      "airline": "Wizz Air",
-      "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1111JTR14111?t=W417944014001794435300000565TLVATHJTR17946921001794720600000475JTRATHTLV_8de386c07d0f53838722fa66d4cdd4e6_19518&search_date=23102026&expected_price_uuid=01a168f7-eed4-8030-e303-1d0c8de41ca2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=a-6YWiTVF6cisv30JZDCzw&expected_price_source=share&expected_price_currency=eur&expected_price=217&marker=782936"
-    },
-    {
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 218,
+      "price": 219,
       "depart": "2026-11-26",
       "ret": "2026-12-03",
       "airline": "Sky Express",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV2611RHO03121?t=GQ17957358001795767300000525TLVATHRHO17963340001796362200000470RHOATHTLV_42333327812eef5d63180204f5fe0b95_19832&search_date=30102026&expected_price_uuid=01a18bca-a33b-8030-24bf-c16982835d01&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0A0h98SySNiPGI-8CTfxxw&expected_price_source=share&expected_price_currency=eur&expected_price=218&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2611RHO03121?t=GQ17957358001795767300000525TLVATHRHO17963340001796362200000470RHOATHTLV_42333327812eef5d63180204f5fe0b95_19832&search_date=30102026&expected_price_uuid=01a18bca-a33b-8030-24bf-c16982835d01&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0A0h98SySNiPGI-8CTfxxw&expected_price_source=share&expected_price_currency=eur&expected_price=219&marker=782936"
     },
     {
       "dest": "HER",
@@ -72,6 +61,17 @@
       "link": "https://www.aviasales.com/search/TLV0311HER18111?t=W417937102001793809200001650TLVATHHER17950383001795152600001905HERATHTLV_858c6dde868df0aa96d9b4ee17ae0002_20462&search_date=29102026&expected_price_uuid=01a1898f-304f-8031-2408-6a386d0d226c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pOD9qHRkJozbgtcD2SyOWg&expected_price_source=share&expected_price_currency=eur&expected_price=225&marker=782936"
     },
     {
+      "dest": "CHQ",
+      "he": "חאניה, כרתים",
+      "en": "Chania, Crete",
+      "price": 243,
+      "depart": "2026-11-02",
+      "ret": "2026-11-04",
+      "airline": "Sky Express",
+      "transfers": 2,
+      "link": "https://www.aviasales.com/search/TLV0211CHQ04111?t=GQ17936622001793693400000520TLVATHCHQ17938290001793879700000845CHQATHTLV_e1bdb5016fcdd8129b0a37324388c246_21848&search_date=31102026&expected_price_uuid=01a19086-834d-8030-ac9d-c77c7a87cc03&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=s5gyQ7KhHNSzEpEJQmL47A&expected_price_source=share&expected_price_currency=eur&expected_price=243&marker=782936"
+    },
+    {
       "dest": "JMK",
       "he": "מיקונוס",
       "en": "Mykonos",
@@ -83,15 +83,15 @@
       "link": "https://www.aviasales.com/search/TLV2811JMK05121?t=W417958702001795897800000460TLVATHJMK17964630001796540700001295JMKATHLCATLV_aa13b3960f15514e1bc66a81d46da0e5_22073&search_date=27102026&expected_price_uuid=01a17ea1-ee0c-8031-61de-4261ea928a17&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=l988_UkdbWQdA6HTXT1h4Q&expected_price_source=share&expected_price_currency=eur&expected_price=246&marker=782936"
     },
     {
-      "dest": "CHQ",
-      "he": "חאניה, כרתים",
-      "en": "Chania, Crete",
-      "price": 293,
-      "depart": "2026-11-05",
-      "ret": "2026-11-08",
-      "airline": "Sky Express",
+      "dest": "JTR",
+      "he": "סנטוריני",
+      "en": "Santorini",
+      "price": 251,
+      "depart": "2026-11-14",
+      "ret": "2026-11-15",
+      "airline": "Wizz Air",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV0511CHQ08111?t=GQ17939214001793952600000520TLVATHCHQ17941689001794192900000400CHQATHTLV_84765eb19eebe8baccdd82ea8659df8b_26346&search_date=24102026&expected_price_uuid=01a16f66-6046-8030-21b0-8831734bbb08&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eugXDLrmjtLUKItnSFU6Rw&expected_price_source=share&expected_price_currency=eur&expected_price=293&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1411JTR15111?t=W417946606001794694500000565TLVATHJTR17947224001794743700000355JTRATHTLV_dbbf11151b86f7503f0832f6b4c9b46f_22531&search_date=27102026&expected_price_uuid=01a17f46-6193-8031-256d-24fee7227361&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=O03rTtBu96lhFNlkZMJJOw&expected_price_source=share&expected_price_currency=eur&expected_price=251&marker=782936"
     }
   ]
 }
