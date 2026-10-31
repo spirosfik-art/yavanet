@@ -313,8 +313,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       let cap = caption;
       if (!/כתבו בתגובות/.test(cap)) cap = cap.replace("\n\n#", "\n👇 איזו מהחדשות הכי חשובה לכם? כתבו בתגובות\n\n#");
       const res = await postReel(arg, cap);
-      if (res.some((x) => /IG reel ✓/.test(x))) fs.writeFileSync(path.join(ROOT, "content/ig/reel-last.json"), JSON.stringify({ date: new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Athens" }), at: new Date().toISOString() }));
-      await notifyOwner(`🎬 Ημερήσιο reel ανέβηκε\n${res.join("\n")}`).catch(() => {});
+      const guide = env.REEL_MODE === "guide";
+      const today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Athens" });
+      if (res.some((x) => /IG reel ✓/.test(x))) {
+        fs.writeFileSync(path.join(ROOT, guide ? "content/ig/guide-reel-last.json" : "content/ig/reel-last.json"), JSON.stringify({ date: today, at: new Date().toISOString() }));
+        if (guide) {
+          const f = path.join(ROOT, "content/ig/guide-reels.json");
+          let list = []; try { list = JSON.parse(fs.readFileSync(f, "utf8")); } catch {}
+          let slug = ""; try { slug = fs.readFileSync(path.join(path.dirname(arg), "slug.txt"), "utf8").trim(); } catch {}
+          if (slug) { list.push({ slug, date: today }); fs.writeFileSync(f, JSON.stringify(list, null, 1)); }
+        }
+      }
+      await notifyOwner(`🎬 ${guide ? "Reel οδηγού" : "Ημερήσιο reel"} ανέβηκε\n${res.join("\n")}`).catch(() => {});
     }
     else if (cmd === "comments") await replyComments();
     else if (cmd === "dms") await replyDMs();

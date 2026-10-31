@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { ROOT, env, log } from "./lib.mjs";
+import { ROOT, env, log, loadArticles, readJSON, claude, parseJSON } from "./lib.mjs";
 import { pickReelArticles } from "./meta.mjs";
 
 const out = path.resolve(process.argv[2] || "out");
@@ -125,11 +125,50 @@ function overlay(i, html) {
   return path.join(out, `o${i}.png`);
 }
 
-const arts = pickReelArticles(3);
-if (arts.length < 2) { log("reel-stock: λίγα άρθρα"); process.exit(0); }
+// REEL_MODE=guide → ένα reel από οδηγό του site: «αγκίστρι» + 3 πρακτικά σημεία + «σώσε / στείλε»
+const MODE = env.REEL_MODE === "guide" ? "guide" : "news";
+const CAT = { travel: "טיולים", jewish: "כשרות ויהדות", invest: "נדל״ן והשקעות", live: "חיים ביוון" };
+const TAGS = { travel: "#טיול_ליוון #חופשה_ביוון", jewish: "#כשר_ביוון #שבת_ביוון #חבד", invest: "#נדלן_ביוון #השקעות_נדלן #גולדן_ויזה", live: "#לגור_ביוון #רילוקיישן" };
+function pickGuide() {
+  const used = new Set(readJSON(path.join(ROOT, "content/ig/guide-reels.json"), []).map((x) => x.slug));
+  const now = Date.now();
+  const all = loadArticles().filter((a) => a.guide && a.slug && a.he && a.he.title && Array.isArray(a.he.tldr) && a.he.tldr.length >= 3 && Date.parse(a.publishedAt) <= now && !used.has(a.slug) && !a.sensitive && !a.sponsored);
+  // Πρώτα οι πιο «σωσίμοι» οδηγοί (ταξίδι/κοσέρ), και οι πρόσφατοι πριν από τους παλιούς
+  const sc = (a) => ({ travel: 3, jewish: 3, invest: 2, live: 2 }[a.guideCat] || 1) + (now - Date.parse(a.publishedAt) < 21 * 86400e3 ? 2 : 0) + (/weather|kosher|shabbat|ferry|flight|cost|prices|things-to-do|beaches|where-to-stay/.test(a.slug) ? 1 : 0);
+  return all.sort((a, b) => sc(b) - sc(a) || Date.parse(b.publishedAt) - Date.parse(a.publishedAt))[0];
+}
+let arts, g, hook, points;
+if (MODE === "guide") {
+  g = pickGuide();
+  if (!g) { log("reel-stock: δεν υπάρχει νέος οδηγός"); process.exit(0); }
+  arts = [g];
+  points = g.he.tldr.slice(0, 3).map((t) => t.replace(/\s+/g, " ").trim());
+  hook = `3 דברים שחשוב לדעת: ${g.he.title.split(/[:–-]/)[0].trim()}`;
+  try {
+    const j = parseJSON(await claude({ role: "select", temperature: 0.6, maxTokens: 800,
+      system: "You write Hebrew Instagram Reel text for Yavanet (Greece for Israelis). Natural Israeli Hebrew, no Greek letters, no emojis inside points, nothing political. Use ONLY facts given. JSON only.",
+      prompt: `Guide title: ${g.he.title}\nSummary points: ${JSON.stringify(g.he.tldr)}\nIntro: ${g.he.dek || ""}\n\nReturn {"hook": "opening line, max 7 words, specific and curiosity-driven, understandable in 2 seconds (e.g. 'טסים לכרתים? אל תעשו את הטעות הזאת')", "points": ["3 short on-screen points, max 9 words each, practical, from the summary only"]}` }));
+    if (j && typeof j.hook === "string" && j.hook.length > 5 && j.hook.length < 70) hook = j.hook.trim();
+    if (j && Array.isArray(j.points) && j.points.length >= 3 && j.points.every((x) => typeof x === "string" && x.length > 3 && x.length < 90 && !/[\u0370-\u03FF]/.test(x))) points = j.points.slice(0, 3);
+  } catch (e) { log("hook AI:", e.message); }
+  fs.writeFileSync(path.join(out, "slug.txt"), g.slug);
+} else {
+  arts = pickReelArticles(3);
+  if (arts.length < 2) { log("reel-stock: λίγα άρθρα"); process.exit(0); }
+}
 const icon = fs.readFileSync(path.join(ROOT, "site/assets/icon.svg"), "utf8");
 const day = new Date().toLocaleDateString("he-IL", { timeZone: "Asia/Jerusalem", day: "numeric", month: "long" });
 const scenes = [];
+if (MODE === "guide") {
+  const q = (g.meta && g.meta.imageQuery) || queryFor(g);
+  const hsz = hook.length > 34 ? 96 : 118;
+  scenes.push({ q, d: 2.6, say: hook, html: `${HEAD()}<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="mid"><div class="big" style="font-size:${hsz}px">${esc(hook)}</div><div class="sm">🔖 שמרו את הסרטון לטיול</div></div></body></html>` });
+  points.forEach((t, k) => {
+    const fsz = t.length > 55 ? 76 : t.length > 35 ? 88 : 100;
+    scenes.push({ q, d: 3.4, say: t, html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(CAT[g.guideCat] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
+  });
+  scenes.push({ q: "greek island sea", d: 3, say: "המדריך המלא ביוונט. שמרו את הסרטון, ושלחו למי שנוסע ליוון.", html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big" style="font-size:104px">המדריך המלא באתר</div><div class="sm">🔖 שמרו לטיול הבא<br>📲 שלחו למי שנוסע ליוון</div><div class="pill">הקישור בביו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
+} else {
 // 1. Αγκίστρι (0–2.5″): ερώτηση στον θεατή
 const dayName = new Date().toLocaleDateString("he-IL", { timeZone: "Asia/Jerusalem", weekday: "long", day: "numeric", month: "long" });
 scenes.push({ q: "athens greece city", d: 2.6, say: `חדשות יוון, ${dayName}. ${arts.length} דברים שחשוב לדעת היום.`, html: `${HEAD()}<div class="top"><span>יוונט · יוון בעברית</span>${icon}</div><div class="mid"><div class="big">טסים ליוון?</div><div class="sm">${arts.length} דברים שחשוב לדעת היום<br>📍 <span dir="rtl">${esc(day)}</span></div></div></body></html>` });
@@ -139,6 +178,7 @@ arts.forEach((a, k) => {
   scenes.push({ q: queryFor(a), d: 3.4, say: a.he.title, html: `${HEAD().replace("FS", String(fsz))}<div class="shade"></div><div class="top"><span>יוונט</span>${icon}</div><div class="box"><div><span class="n">${k + 1}</span><span class="tag">${esc(a.breaking || a.strike ? "מבזק" : KICK[a.section] || "יוון")}</span></div><h1>${esc(t)}</h1></div></body></html>` });
 });
 scenes.push({ q: "greek island sea", d: 2.8, say: "יוונט. כל מה שקורה ביוון, בעברית. שלחו למי שטס ליוון.", html: `${HEAD()}<div class="top"><span>יוונט</span>${icon}</div><div class="mid"><div class="big">מכירים מישהו שטס ליוון?</div><div class="sm">שלחו לו את הסרטון 📲</div><div class="pill">עקבו ⬅ <bdi dir="ltr">@yavanet</bdi></div></div></body></html>` });
+}
 
 const credits = [];
 const X = 0.4;
@@ -176,7 +216,9 @@ af += aud.length ? `[base]${aud.map((_, k) => `[v${k}]`).join("")}amix=inputs=${
 execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...ins, "-f", "lavfi", "-t", tot.toFixed(2), "-i", "anullsrc=r=44100:cl=stereo", ...aIns,
   "-filter_complex", `${f}[${prev}]format=yuv420p[v];${af}`, "-map", "[v]", "-map", "[aout]", "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", path.join(out, "reel.mp4")], { stdio: "inherit" });
 execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", path.join(out, "reel.mp4"), "-vf", `fps=${(scenes.length / tot).toFixed(4)},scale=270:480,tile=${scenes.length}x1`, "-frames:v", "1", path.join(out, "preview.jpg")], { stdio: "inherit" });
-const caption = `טסים ליוון? ${arts.length} דברים שחשוב לדעת היום 🇬🇷\n\n${arts.map((a, i) => `${i + 1}. ${a.he.title}`).join("\n")}\n\n📍 יוון\nהכתבות המלאות באתר — הקישור בביו 👆\n📤 מכירים מישהו שטס ליוון? שלחו לו\n👇 איזו מהחדשות הכי חשובה לכם? כתבו בתגובות\n\n#יוון #אתונה #טיסות_ליוון #ישראלים_ביוון #יוונט`;
+const caption = MODE === "guide"
+  ? `${hook} 🇬🇷\n\n${points.map((t, i) => `${i + 1}. ${t}`).join("\n")}\n\n🔖 שמרו את הסרטון לטיול הבא\n📤 שלחו למי שנוסע ליוון\n📖 המדריך המלא: yavanet.gr/a/${g.slug}/ (הקישור בביו)\n👇 שאלות? כתבו בתגובות ונענה\n\n#יוון ${TAGS[g.guideCat] || ""} #ישראלים_ביוון #יוונט`
+  : `טסים ליוון? ${arts.length} דברים שחשוב לדעת היום 🇬🇷\n\n${arts.map((a, i) => `${i + 1}. ${a.he.title}`).join("\n")}\n\n📍 יוון\nהכתבות המלאות באתר — הקישור בביו 👆\n📤 מכירים מישהו שטס ליוון? שלחו לו\n👇 איזו מהחדשות הכי חשובה לכם? כתבו בתגובות\n\n#יוון #אתונה #טיסות_ליוון #ישראלים_ביוון #יוונט`;
 fs.writeFileSync(path.join(out, "caption.txt"), caption);
 fs.writeFileSync(path.join(out, "count.txt"), String(scenes.length));
 fs.writeFileSync(path.join(out, "credits.txt"), "Pexels: " + credits.filter(Boolean).join(", "));
