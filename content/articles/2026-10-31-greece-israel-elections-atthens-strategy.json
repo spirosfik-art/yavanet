@@ -1,0 +1,60 @@
+{
+  "slug": "greece-israel-elections-atthens-strategy",
+  "section": "israelis",
+  "publishedAt": "2026-10-31T07:26:03+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/10/31/what-israel-elections-means-for-greece-as-aegean-tensions-rise/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32625778/pexels-photo-32625778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Front view of the historic Greek Parliament building in Athens with the national flag flying above.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/greek-parliament-building-in-athens-greece-32625778/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון עוקבת אחר ההתפתחויות הפוליטיות בישראל",
+    "dek": "באתונה בוחנים את תוצאות הבחירות בישראל על רקע שיתוף הפעולה האסטרטגי בין המדינות בביטחון ובאנרגיה.",
+    "tldr": [
+      "יוון עוקבת מקרוב אחר הרכבת הממשלה בישראל.",
+      "ראש הממשלה מיצוטקיס הדגיש כי הקשר האסטרטגי הוא בין המדינות.",
+      "באתונה מדגישים את חשיבות היציבות האזורית והפרויקטים המשותפים."
+    ],
+    "means": "הקשרים המדיניים והביטחוניים בין ירושלים ואתונה ממשיכים להוות נדבך מרכזי ביציבות האזורית במזרח הים התיכון.",
+    "body": "ממשלת יוון עוקבת אחר ההתפתחויות הפוליטיות בעקבות הבחירות בישראל, כך עולה מניתוח שפורסם בעיתון \"TA NEA\". באתונה מציינים כי היחסים האסטרטגיים בין המדינות בתחומי הביטחון, האנרגיה והביטחון האזורי נשענים על הקשר בין המדינות עצמן ולא על ממשלה מסוימת. ראש ממשלת יוון, קיריאקוס מיצוטקיס, הבהיר לאחרונה כי שיתוף הפעולה נמשך לצד שמירת הקשרים המסורתיים עם העולם הערבי והרשות הפלסטינית. באתונה מדגישים את החשיבות בהמשך שיתוף הפעולה האזורי, הכולל את פרויקטי האנרגיה ותבניות העבודה המשותפות עם קפריסין וארצות הברית, במיוחד לאור האתגרים במזרח הים התיכון."
+  },
+  "en": {
+    "title": "Greece monitors political developments in Israel",
+    "dek": "Athens is following Israel's government-formation process, emphasizing the strong strategic partnership between the two nations.",
+    "tldr": [
+      "Greece is closely monitoring political developments in Israel.",
+      "Prime Minister Mitsotakis stressed that ties are with the state itself.",
+      "Athens highlights regional cooperation in energy and security."
+    ],
+    "means": "The ongoing strategic and security partnership between Greece and Israel remains a cornerstone of regional stability in the Eastern Mediterranean.",
+    "body": "The Greek government is monitoring political developments following Israel's recent elections, according to an analysis in Ta Nea. Athens emphasizes that the strategic relationship in defense, energy, and regional security rests on the state of Israel rather than any specific administration. Greek Prime Minister Kyriakos Mitsotakis recently reiterated that cooperation with Israel coexists with traditional ties to the Arab world and the Palestinian Authority. Athens continues to value stable bilateral relations and trilateral frameworks involving Cyprus and the United States to support regional stability and infrastructure projects."
+  },
+  "meta": {
+    "itemId": "16b03b6ffb37",
+    "imageQuery": "Athens Greece parliament",
+    "sourceHash": "bf716eb0d4b2",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-31T05:26:04.265Z",
+    "official": false
+  }
+}
