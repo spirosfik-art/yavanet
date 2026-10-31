@@ -1,0 +1,20 @@
+# Έλεγχος ευρετηρίου Google: sitemap, σελίδες με εμφανίσεις, δείγμα URL Inspection.
+name: GSC index check
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "πόσες σελίδες να ελεγχθούν (URL Inspection)"
+        default: "120"
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node automation/gsc-index.mjs
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+          INSPECT_N: ${{ github.event.inputs.n }}
