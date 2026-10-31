@@ -27,9 +27,9 @@ jobs:
           [ -z "$CLOUDFLARE_ACCOUNT_ID" ] && export CLOUDFLARE_ACCOUNT_ID="$(curl -s https://api.cloudflare.com/client/v4/accounts -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -oE '"id":"[0-9a-f]{32}"' | head -1 | cut -d'"' -f4)"
           GH_TOKEN_V="$(printf '%s' "$GH_TOKEN_V" | tr -d '[:space:]')"
           npx -y wrangler@4 deploy > dep.log 2>&1 || echo "::warning::deploy failed"; tail -25 dep.log | sed 's/\x1b\[[0-9;]*m//g' | while read -r l; do echo "::notice::$l"; done
-          printf '%s' "$GH_TOKEN_V" | npx -y wrangler@4 secret put GH_TOKEN 2>&1 | tail -2 | while read -r l; do echo "::notice::PUT $l"; done
+          printf '%s' "$GH_TOKEN_V" | npx -y wrangler@4 secret put GH_TOKEN > sp.log 2>&1 || true; tr '\n' ' ' < sp.log | sed 's/\x1b\[[0-9;]*m//g' | cut -c1-400 | sed 's/^/::notice::PUT /' 
           printf '%s' "$TG_BOT" | npx -y wrangler@4 secret put TELEGRAM_BOT_TOKEN 2>&1 | tail -2
           printf '%s' "$TG_CHAT" | npx -y wrangler@4 secret put TELEGRAM_OWNER_CHAT_ID 2>&1 | tail -2
-          npx -y wrangler@4 secret list 2>&1 | grep -o '"name": *"[A-Z_]*"' | while read -r l; do echo "::notice::SECRET $l"; done
+          npx -y wrangler@4 secret list > sl.log 2>&1 || true; tr '\n' ' ' < sl.log | sed 's/\x1b\[[0-9;]*m//g' | cut -c1-600 | sed 's/^/::notice::SECRETS /' 
           npx -y wrangler@4 deployments list 2>&1 | tail -6 | while read -r l; do echo "::notice::DL $l"; done
           curl -s "https://yavanet-cron.$(npx -y wrangler@4 whoami 2>/dev/null | grep -o '[a-z0-9-]*\.workers\.dev' | head -1)" | head -c 200; true
