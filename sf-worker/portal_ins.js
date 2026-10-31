@@ -3,7 +3,8 @@
   if (window.__sfIns) return; window.__sfIns = 1;
   var VIEW = 'insurances', RATE = 0.30;
   var cache = { pol: null, docs: null, loading: false, filter: 'insured', q: '' };
-  function ready() { try { return typeof NAV !== 'undefined' && typeof state !== 'undefined' && typeof renderView === 'function' && typeof sbClient !== 'undefined' && typeof visibleNavItems === 'function'; } catch (e) { return false; } }
+  var state = null, sbClient = null;
+  function ready() { var a = window.__sfApp; if (!a) return false; state = a.state; sbClient = a.sb(); return !!(state && sbClient); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function eur(n) { return (Math.round((+n || 0) * 100) / 100).toLocaleString('el-GR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €'; }
   function fmtD(s) { if (!s) return '—'; var p = String(s).slice(0, 10).split('-'); return p[2] + '/' + p[1] + '/' + p[0]; }
@@ -102,7 +103,7 @@
         var up = await sbClient.storage.from('property-docs').upload(path, file, { contentType: file.type || undefined }); if (up.error) throw up.error;
         var ins = await sbClient.from('property_documents').insert({ property_id: pid, category: 'insurance', file_path: path, file_name: file.name || safe, uploaded_by: uid || null, uploaded_by_handler: state.myHandler || null }).select().single(); if (ins.error) throw ins.error;
         (cache.docs[pid] = cache.docs[pid] || []).unshift(ins.data);
-        try { if (typeof docsCache !== 'undefined') delete docsCache[pid]; } catch (e) {}
+        try { var dc = window.__sfApp.docs(); if (dc) delete dc[pid]; } catch (e) {}
         render();
       } catch (e) { alert('Το ανέβασμα απέτυχε: ' + (e.message || e)); if (b) b.textContent = ''; }
     };
@@ -133,26 +134,9 @@
   }
   function boot() {
     if (!ready()) return setTimeout(boot, 250);
-    try { if (typeof ICONS !== 'undefined' && !ICONS.shield) ICONS.shield = '<path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/>'; } catch (e) {}
-    if (!NAV.some(function (n) { return n.id === VIEW; })) {
-      var i = NAV.findIndex(function (n) { return n.id === 'renewals'; });
-      NAV.splice(i < 0 ? NAV.length : i + 1, 0, { id: VIEW, label: 'Ασφάλειες', group: 'Οικονομικά', icon: 'shield' });
-    }
-    var vis = window.visibleNavItems;
-    window.visibleNavItems = function () { return vis.apply(this, arguments).filter(function (it) { return it.id !== VIEW || state.role === 'admin'; }); };
-    try { if (typeof viewTitleFor === 'function') { var vt = window.viewTitleFor; window.viewTitleFor = function (v) { return v === VIEW ? 'Ασφάλειες' : vt.apply(this, arguments); }; } } catch (e) {}
-    var rv = window.renderView;
-    window.renderView = function () {
-      if (state.view === VIEW) {
-        if (state.role !== 'admin') { state.view = 'properties'; return rv.apply(this, arguments); }
-        var t = document.getElementById('pageTitle'); if (t) t.textContent = 'Ασφάλειες';
-        if (!state.dbLoaded) { var r = document.getElementById('viewRoot'); if (r) r.innerHTML = '<div class="empty" style="padding-top:80px">Φόρτωση δεδομένων…</div>'; return; }
-        return render();
-      }
-      return rv.apply(this, arguments);
-    };
+    window.__sfInsRender = render;
     bind();
-    try { if (state.role && typeof renderSidebar === 'function') renderSidebar(); } catch (e) {}
+    if (state.view === VIEW && state.role === 'admin' && state.dbLoaded) render();
   }
   boot();
 })();
