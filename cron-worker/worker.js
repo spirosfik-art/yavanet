@@ -7,6 +7,8 @@ const DAILY = [
   ["12:50", null, "ig-stories.yml", { kind: "topic", publish: "yes", sched: "1" }],
   ["20:40", null, "ig-stories.yml", { kind: "evening", publish: "yes", sched: "1" }],
   ["19:05", null, "meta.yml", { task: "reel" }],
+  ["07:35", null, "meta.yml", { task: "reel", mode: "guide" }],
+  ["12:05", null, "meta.yml", { task: "reel", mode: "guide" }],
   ["18:15", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],
   ["19:45", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],
   ["21:15", [0, 1, 2, 3, 4], "ig-batch.yml", { sched: "1" }],
