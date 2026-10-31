@@ -17,17 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "b158f4ceed5d": 1792240712793,
-    "57d43ff3435c": 1792242612654,
-    "d5b19f9cc982": 1792245669638,
-    "48248e5f0f79": 1792245669638,
-    "e403bd2ba747": 1792245669638,
-    "46770a2bc57a": 1792245669638,
-    "4a698f998149": 1792245669638,
-    "e7b85464911b": 1792245669638,
-    "488640cf70ed": 1792245669638,
-    "75ea63fa287a": 1792245669638,
-    "c9f8ab8350a9": 1792245669638,
     "d2756e76da81": 1792249164488,
     "14b1ae4b343f": 1792249164488,
     "81a4f235ddc6": 1792249164488,
@@ -2070,7 +2059,30 @@
     "d87cee1cd869": 1793448886114,
     "6737bb8546d0": 1793448886114,
     "af7692c2bb14": 1793448886114,
-    "11bf18cfd6f6": 1793448886114
+    "11bf18cfd6f6": 1793448886114,
+    "2ecde770c60a": 1793458300136,
+    "30c7793ec1e9": 1793458300136,
+    "297527b402cf": 1793458300136,
+    "6904c8885659": 1793458300136,
+    "f93b449a071e": 1793458300136,
+    "7f4be8490965": 1793458300136,
+    "b2416a098ff9": 1793458300136,
+    "54c5ae54f16c": 1793458300136,
+    "74def23c43a8": 1793458300136,
+    "63d0414c276b": 1793458300136,
+    "52c661542d4c": 1793458300136,
+    "4cef313811ac": 1793458300136,
+    "1b9dccd38303": 1793458300136,
+    "6ce3555e30d6": 1793458300136,
+    "aeb5d93a4805": 1793458300136,
+    "35ebc00eaa90": 1793458300136,
+    "edfe4feac11a": 1793458300136,
+    "3f85222cb19e": 1793458300136,
+    "328c8a1d102f": 1793458300136,
+    "e0e06690fdf6": 1793458300136,
+    "039b590c2f09": 1793458300136,
+    "c2c0e5fe540c": 1793458300136,
+    "88f36ddc0aed": 1793458300136
   },
   "pending": {},
   "sourceStatus": {
@@ -2082,12 +2094,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-31T12:14:34.826Z",
+      "at": "2026-10-31T14:51:27.719Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-31T12:14:35.600Z",
+      "at": "2026-10-31T14:51:28.302Z",
       "items": 5
     },
     "civilprotection": {
@@ -2098,27 +2110,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-31T12:14:37.235Z",
-      "items": 0
+      "at": "2026-10-31T14:51:29.622Z",
+      "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-31T12:14:37.461Z",
+      "at": "2026-10-31T14:51:29.939Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-31T12:14:38.537Z",
+      "at": "2026-10-31T14:51:30.691Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-31T12:14:39.395Z",
-      "items": 2
+      "at": "2026-10-31T14:51:31.414Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-31T12:14:39.959Z",
+      "at": "2026-10-31T14:51:31.856Z",
       "items": 10
     },
     "toi-greece": {
@@ -2129,23 +2141,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-31T12:14:40.493Z",
+      "at": "2026-10-31T14:51:32.234Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-31T12:14:40.845Z",
+      "at": "2026-10-31T14:51:32.359Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-31T12:14:41.460Z",
-      "items": 7
+      "at": "2026-10-31T14:51:33.298Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T12:14:41.629Z",
-      "items": 3
+      "at": "2026-10-31T14:51:33.420Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -2154,12 +2166,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T12:14:36.213Z",
+      "at": "2026-10-31T14:51:28.574Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-31T12:14:42.198Z",
+      "at": "2026-10-31T14:51:33.854Z",
       "items": 0
     },
     "hcg": {
@@ -2170,32 +2182,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-31T12:14:43.543Z",
+      "at": "2026-10-31T14:51:35.335Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-31T12:14:43.809Z",
-      "items": 4
+      "at": "2026-10-31T14:51:35.553Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-31T12:14:43.987Z",
+      "at": "2026-10-31T14:51:35.724Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-31T12:14:44.221Z",
-      "items": 3
+      "at": "2026-10-31T14:51:35.985Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-31T12:14:44.563Z",
-      "items": 2
+      "at": "2026-10-31T14:51:36.332Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-31T12:14:44.914Z",
+      "at": "2026-10-31T14:51:36.742Z",
       "items": 5
     }
   },
@@ -2271,7 +2283,23 @@
         "section": "israelis"
       }
     ],
-    "rejected": [],
+    "rejected": [
+      {
+        "title": "Επιδείνωση του καιρού αύριο Κυριακή (01-11-2026) και τη Δευτέρα (02-11-2026) με ισχυρές βροχές, καταιγίδες και τοπικές χαλαζοπτώσεις - Civil",
+        "reason": "Ίδιο θέμα με «Severe weather warning in Greece: Heavy rain and thunderstorms expected»: The article invents many details, mentions of flights, ferries, specific advice, and extrapolates extensively beyond the very short source text (Rule 8 violation: adding facts and details not in the source).",
+        "at": "2026-10-31T14:52:09.232Z"
+      },
+      {
+        "title": "Συμμετέχει στην πανελλαδική απεργία της 25ης Νοεμβρίου η Ομοσπονδία των Μεταλλωρύχων",
+        "reason": "Ίδιο θέμα με «Train Strike in Greece: Proastiakos and Hellenic Train Services Halted» – δεν γράφτηκε ξανά",
+        "at": "2026-10-31T14:52:13.971Z"
+      },
+      {
+        "title": "Κλειστός από τις 12:00 ο σταθμός του Μετρό στο Σύνταγμα με εντολή της ΕΛ.ΑΣ - Kathimerini",
+        "reason": "Ίδιο θέμα με «Athens: Syntagma metro station to close by police order» – δεν γράφτηκε ξανά",
+        "at": "2026-10-31T14:52:18.206Z"
+      }
+    ],
     "errors": [],
     "fb": [
       {
@@ -2464,21 +2492,38 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-31T12:14:46.114Z",
-    "considered": 11,
-    "picked": 2,
+    "at": "2026-10-31T14:51:40.136Z",
+    "considered": 28,
+    "picked": 3,
     "items": [
-      "· ert | Κεφαλογιάννη στο ΕΡΤnews: Στόχος η ποιοτική και βιώσιμη ανάπτυξη του ελληνικού τουρισμού –",
-      "✓ ingr | Άρχισαν τα σενάρια για τον αντι-Μοντέρο: «Ο Ολυμπιακός ενδιαφέρεται για τον Χέιζ»",
-      "· ert | Στον Έβρο το Ε΄ Συνέδριο θρησκευτικού τουρισμού",
-      "· ingr | Δούκας για έκρηξη στην Πλάκα: Να σπάσει το απόστημα των συμμοριών κλοπής χαλκού",
-      "✓ naftemporiki | Έκτακτο δελτίο ΕΜΥ: Έρχονται ισχυρές βροχές και καταιγίδες – Πού θα «χτυπήσει» η κακοκαιρί",
-      "· ingr | Χαμενεΐ: Εάν δεχθούμε επίθεση από τις ΗΠΑ θα απαντήσουμε χωρίς γεωγραφικούς περιορισμούς",
-      "· ingr | Έκτακτο δελτίο επιδείνωσης του καιρού: Έρχονται καταιγίδες την Κυριακή – Οι επικίνδυνες πε",
-      "· ingr | «Άτακτη οπισθοχώρηση της κυβέρνησης»: Αντιπολιτευτικά πυρά για το ιδιωτικό χρέος και τουρκ",
-      "· gn-kathimerini | Στη μάχη αντιμετώπισης της στεγαστικής κρίσης οι εκκλησίες στις ΗΠΑ - Kathimerini",
-      "· gn-kathimerini | Μεγάλη φωτιά τη νύχτα σε αντιπροσωπεία αυτοκινήτων στη Γλυφάδα - Kathimerini",
-      "· gn-iefimerida | Πυροσβεστική για έκρηξη στην Πλάκα: Υπό άκρα μυστικότητα η έρευνα, έτσι φτάσαμε στη σύλληψ"
+      "· naftemporiki | Ο NBAer που εξετάζει ο Ολυμπιακός μετά τον τραυματισμό του Μοντέρο",
+      "· naftemporiki | Τι είναι η κακοκαιρία τύπου Π που φέρνει ο Νοέμβριος – Πόσο θα διαρκέσει, πού θα χτυπήσει",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Central Makedonia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - East Peloponnisos",
+      "· ingr | Τέσσερις προσαγωγές και μία σύλληψη σε πορεία αντιεξουσιαστών στο κέντρο της Αθήνας",
+      "· meteoalarm | Orange Rain Warning issued for Greece - Thraki",
+      "✓ ert | Συμμετέχει στην πανελλαδική απεργία της 25ης Νοεμβρίου η Ομοσπονδία των Μεταλλωρύχων",
+      "· naftemporiki | Χρυσός: Το μεγάλο ξεπούλημα του «καταφυγίου» – Τι σήμα στέλνει η πιο επώδυνη βουτιά από το",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Central Makedonia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - East Makedonia",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - West Peloponnisos",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Epirus",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - West Sterea",
+      "· gn-iefimerida | Μετρό: Άνοιξε ξανά ο σταθμός «Σύνταγμα» - iefimerida.gr",
+      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Ionion Islands",
+      "· ingr | Καμπανάκι Καλλιάνου για την κακοκαιρία: Πότε θα «χτυπήσουν» καταιγίδες την Αττική – Πού αλ",
+      "· meteoalarm | Red Rain Warning issued for Greece - East Makedonia",
+      "· meteoalarm | Orange Rain Warning issued for Greece - East Makedonia",
+      "· meteoalarm | Red Rain Warning issued for Greece - Central Makedonia",
+      "· naftemporiki | Θ. Κουφονικολάκου: Ποιος σας υπαγόρευσε το άρθρο 23, κ. Μητσοτάκη;",
+      "· ert | Η Λειψία λέει «Καλησπέρα Θεσσαλονίκη» – Οι ιστορικοί δεσμοί στο επίκεντρο της καμπάνιας De",
+      "· meteoalarm | Orange Rain Warning issued for Greece - East Peloponnisos",
+      "· naftemporiki | Κ. Τσουκαλάς: Δεν αρκεί η απόσυρση του άρθρου 23 από το ν/σ για το ιδιωτικό χρέος – Η κυβέ",
+      "· gn-iefimerida | Ιράν: Πλήγμα σε πλοίο νότια του νησιού Λαβάν -Ξέσπασε φωτιά - iefimerida.gr",
+      "✓ gn-civilprotection | Επιδείνωση του καιρού αύριο Κυριακή (01-11-2026) και τη Δευτέρα (02-11-2026) με ισχυρές βρ",
+      "· gn-civilprotection | Επιδείνωση του καιρού αύριο Κυριακή (01-11-2026) και τη Δευτέρα (02-11-2026) με ισχυρές βρ",
+      "· gn-kathimerini | Εκτακτο Δελτίο ΕΜΥ: Επιδείνωση με βροχές, καταιγίδες και χαλάζι – Πού θα χτυπήσει η κακοκα",
+      "✓ gn-kathimerini | Κλειστός από τις 12:00 ο σταθμός του Μετρό στο Σύνταγμα με εντολή της ΕΛ.ΑΣ - Kathimerini"
     ]
   },
   "evergreenDone": [
