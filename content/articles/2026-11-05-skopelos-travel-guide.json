@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11624570/pexels-photo-11624570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Idyllic view of Skopelos town with colorful buildings and yachts under a clear blue sky.",
+    "credit": "Photo: Ekaterinna Popgeorgieva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/yachts-moored-in-town-11624570/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "skopelos town harbour"

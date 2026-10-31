@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12925559/pexels-photo-12925559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial view of Skopelos, Greece with vibrant sunset hues over the harbor and buildings.",
+    "credit": "Photo: Lazar Krstić / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-aerial-photography-of-city-of-skopelos-island-in-greece-12925559/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "skopelos harbour town"

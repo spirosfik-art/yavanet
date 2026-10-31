@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32175644/pexels-photo-32175644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the ancient ruins and historical architecture on the island of Delos in Greece.",
+    "credit": "Photo: Жанна  Алимкулова / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/ancient-ruins-of-delos-island-greece-32175644/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "delos ruins mykonos"

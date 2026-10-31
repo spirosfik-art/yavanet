@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28300850/pexels-photo-28300850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore a charming traditional building in Athens with vibrant blue shutters and balcony.",
+    "credit": "Photo: Uiliam Nörnberg / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-building-with-blue-and-white-tiles-and-an-umbrella-28300850/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "kifisia athens neoclassical street"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37844155/pexels-photo-37844155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic aerial view of Athens, Greece, showcasing the Acropolis and surrounding architecture.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-athens-featuring-the-acropolis-37844155/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "koukaki athens street"

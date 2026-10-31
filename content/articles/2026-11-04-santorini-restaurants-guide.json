@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32302617/pexels-photo-32302617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning whitewashed architecture and sea view from Imerovigli, Santorini during sunset.",
+    "credit": "Photo: Bob Jenkin / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/breathtaking-view-of-imerovigli-santorini-cliffside-32302617/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini caldera restaurant terrace sunset"

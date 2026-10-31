@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17498851/pexels-photo-17498851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial shot of a beautiful coastal resort in Loutraki, Greece, featuring a pool, beach, and lush surroundings.",
+    "credit": "Photo: Giwrgos Lamp / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/top-view-of-a-resort-on-the-coast-17498851/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "loutraki beach family"

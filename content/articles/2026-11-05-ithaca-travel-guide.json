@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13135419/pexels-photo-13135419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of a quaint chapel nestled on the rocky coastline of Ithaca, Greece.",
+    "credit": "Photo: TonyNojmanSK / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/church-building-on-rocky-seaside-13135419/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "ithaca kioni harbour"

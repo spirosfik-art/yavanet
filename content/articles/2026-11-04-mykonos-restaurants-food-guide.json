@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28440694/pexels-photo-28440694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming coastal houses of Little Venice in Mykonos, Greece with vibrant colors and ocean waves.",
+    "credit": "Photo: Jan Tang / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/little-venice-in-mykonos-greece-seaside-view-28440694/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos little venice restaurant"

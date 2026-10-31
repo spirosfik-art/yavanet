@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33909968/pexels-photo-33909968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial shot of crystal clear azure waters and rocky formations off the coast of Greece.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-azure-waters-and-rocks-in-greece-33909968/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "glyfada shopping street"

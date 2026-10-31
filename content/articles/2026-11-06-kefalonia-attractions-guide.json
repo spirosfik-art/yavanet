@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13459773/pexels-photo-13459773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Explore the breathtaking Blue Caves formations on Zakynthos Island, Greece.",
+    "credit": "Photo: 12photography / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/zakynthos-landscape-coast-greek-island-13459773/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "kefalonia melissani cave"

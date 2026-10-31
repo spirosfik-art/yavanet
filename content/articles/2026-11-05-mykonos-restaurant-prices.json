@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37844828/pexels-photo-37844828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Charming Mykonos waterfront during sunset, showcasing vibrant architecture and lively atmosphere.",
+    "credit": "Photo: K / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sunset-view-of-mykonos-waterfront-in-greece-37844828/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos little venice restaurant"

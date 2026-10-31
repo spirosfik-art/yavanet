@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30734677/pexels-photo-30734677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Captivating sunset view over Fira, Greece with a serene ocean and silhouetted boat.",
+    "credit": "Photo: Yaroslav Y / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-sunset-over-fira-s-caldera-greece-30734677/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "santorini caldera sunset"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/34228335/pexels-photo-34228335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A breathtaking view of a monastery perched on a cliff in Meteora, Greece, under a dramatic sky.",
+    "credit": "Photo: Vish Pix / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/stunning-view-of-meteora-monastery-in-greece-34228335/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "kastraki meteora taverna"

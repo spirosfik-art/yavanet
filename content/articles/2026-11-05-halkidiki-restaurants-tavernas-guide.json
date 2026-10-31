@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5139757/pexels-photo-5139757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant seaside resort featuring a sandy beach with umbrellas and lush greenery.",
+    "credit": "Photo: Γεώργιος Μπούζμπας / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sandy-beach-in-summer-5139757/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "halkidiki seaside taverna"

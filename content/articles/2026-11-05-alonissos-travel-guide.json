@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20105368/pexels-photo-20105368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Clear turquoise ocean with subtle ripples and visible sea bed, exuding a tropical vibe.",
+    "credit": "Photo: Jan van der Wolf / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/close-up-of-turquoise-water-20105368/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "alonissos sea turquoise"

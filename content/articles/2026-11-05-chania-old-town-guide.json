@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4681318/pexels-photo-4681318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Chania's iconic lighthouse standing in a serene Mediterranean sea, perfect for travel enthusiasts.",
+    "credit": "Photo: Ilias Nikolarakis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/lighthouse-near-body-of-water-4681318/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "chania old harbour"

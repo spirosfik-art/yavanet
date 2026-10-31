@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37719699/pexels-photo-37719699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Picturesque alleyway in Corfu, Greece, featuring cafes and vibrant architecture.",
+    "credit": "Photo: Jocelyn Erskine-Kellie / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/charming-colorful-street-in-corfu-greece-37719699/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "corfu old town street"

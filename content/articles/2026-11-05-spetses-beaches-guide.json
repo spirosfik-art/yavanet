@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18797694/pexels-photo-18797694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Serene beach scene with dramatic trees in black and white, perfect for atmosphere and nature themes.",
+    "credit": "Photo: christine roy / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/broken-coniferous-tree-on-a-field-18797694/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "spetses beach pine"

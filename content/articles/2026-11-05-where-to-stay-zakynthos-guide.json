@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6478300/pexels-photo-6478300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Sunny Zakinthos beach with rows of umbrellas and clear blue waters perfect for a summer vacation.",
+    "credit": "Photo: Dimitris Mourousiadis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/brown-wooden-pathway-near-body-of-water-6478300/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "zakynthos tsilivi beach"

@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32138603/pexels-photo-32138603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning aerial photo of the Corinth Canal's blue waters cutting through rock cliffs in Greece.",
+    "credit": "Photo: Adrien Olichon / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-the-corinth-canal-in-greece-32138603/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "corinth canal"

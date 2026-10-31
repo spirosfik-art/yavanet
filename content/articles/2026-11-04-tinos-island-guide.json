@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12704521/pexels-photo-12704521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stork resting on a rooftop nest in Faro, Portugal, framed by an archway.",
+    "credit": "Photo: Micheile Henderson / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bird-on-a-tenement-in-portugal-12704521/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "tinos dovecote"

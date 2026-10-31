@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29214486/pexels-photo-29214486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Variety of olives in containers with price tags at a market in İzmir, Türkiye.",
+    "credit": "Photo: Doğan Alpaslan  Demir / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/colorful-olive-display-at-izmir-market-29214486/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "kalamata olives market"

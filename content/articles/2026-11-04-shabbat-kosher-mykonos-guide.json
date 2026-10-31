@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "synagogue"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/24449038/pexels-photo-24449038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Scenic view of the famous Mykonos windmills and whitewashed buildings during a serene twilight.",
+    "credit": "Photo: Xavier Messina / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-buildings-in-front-of-windmills-in-mykonos-greece-24449038/",
+    "license": "Pexels License",
+    "fallbackKey": "synagogue"
   },
   "meta": {
     "imageQuery": "mykonos windmills chora"

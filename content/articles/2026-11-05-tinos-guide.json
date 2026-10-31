@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/16738963/pexels-photo-16738963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Capture of Agios Nikolaos Church in Tinos, Greece, highlighting its architectural beauty.",
+    "credit": "Photo: Stéphane Tendon / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/agios-nikolaos-church-pyrgos-tinos-greece-16738963/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "tinos dovecote cyclades"

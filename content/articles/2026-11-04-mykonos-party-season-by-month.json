@@ -14,8 +14,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6040558/pexels-photo-6040558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Lively beach resort scene with palm trees, umbrellas, and tourists enjoying a sunny day by the sea.",
+    "credit": "Photo: Stelios Katakalos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/people-sitting-under-beach-huts-6040558/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "mykonos beach club"

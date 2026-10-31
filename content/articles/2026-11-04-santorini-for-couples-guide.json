@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/1010655/pexels-photo-1010655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stunning sunset view of Santorini's iconic white architecture by the sea.",
+    "credit": "Photo: jimmy teoh / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-photography-of-concrete-buildings-near-sea-under-grey-clouds-and-blue-sky-1010655/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "santorini couple sunset oia"

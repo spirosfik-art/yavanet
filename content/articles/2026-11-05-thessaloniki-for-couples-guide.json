@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sun"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14337483/pexels-photo-14337483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful sunset over Thessaloniki beach with empty loungers and calm sea, perfect for travel and nature enthusiasts.",
+    "credit": "Photo: Zdravko Petkovski / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-sunset-at-a-beach-in-thessaloniki-greece-14337483/",
+    "license": "Pexels License",
+    "fallbackKey": "sun"
   },
   "meta": {
     "imageQuery": "thessaloniki umbrellas sunset waterfront"

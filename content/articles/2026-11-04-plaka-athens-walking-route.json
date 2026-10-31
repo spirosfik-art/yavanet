@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38331156/pexels-photo-38331156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Bustling market in Athens near the Acropolis, featuring vibrant street life and historic architecture.",
+    "credit": "Photo: Mark Thomas / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/vibrant-market-scene-with-acropolis-view-athens-38331156/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "plaka athens street"

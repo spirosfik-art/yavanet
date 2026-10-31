@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38434494/pexels-photo-38434494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A peaceful harbor in Ersa, Corse, featuring boats, clear water, and rustic buildings.",
+    "credit": "Photo: SlimMars 13 / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/serene-harbor-in-ersa-corse-france-38434494/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "alonissos patitiri harbour"

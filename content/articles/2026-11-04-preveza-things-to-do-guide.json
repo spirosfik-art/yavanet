@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "athens"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/9953865/pexels-photo-9953865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A woman street vendor selling fruits in the charming streets of Beypazarı, Ankara.",
+    "credit": "Photo: Meliha / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/a-woman-selling-vegetables-on-a-street-9953865/",
+    "license": "Pexels License",
+    "fallbackKey": "athens"
   },
   "meta": {
     "imageQuery": "preveza old town"

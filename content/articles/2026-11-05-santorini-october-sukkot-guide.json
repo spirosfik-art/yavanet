@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/17919740/pexels-photo-17919740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful view of Oia in Santorini, Greece, with white buildings and traditional windmills at dusk.",
+    "credit": "Photo: Federico Abis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/oia-village-on-santorini-17919740/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "santorini oia autumn"

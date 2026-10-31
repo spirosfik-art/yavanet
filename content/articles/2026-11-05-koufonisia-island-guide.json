@@ -21,8 +21,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39175963/pexels-photo-39175963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of a couple in the crystal clear water at Koufonisia Beach, Greece.",
+    "credit": "Photo: Rene Strgar / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/romantic-couple-enjoying-koufonisia-beach-39175963/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Koufonisia turquoise beach"

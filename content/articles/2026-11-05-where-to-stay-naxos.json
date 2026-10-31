@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28355597/pexels-photo-28355597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A beautiful sunset at Naxos Island with silhouetted ruins and vibrant skies.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sunset-28355597/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Naxos Portara sunset"

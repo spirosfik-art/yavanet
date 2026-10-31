@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "house"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32564789/pexels-photo-32564789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Rustic stone buildings by the sea in a serene Greek coastal village with a small fishing boat.",
+    "credit": "Photo: Lydia Griva / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-coastal-view-of-stone-houses-in-greece-32564789/",
+    "license": "Pexels License",
+    "fallbackKey": "house"
   },
   "meta": {
     "imageQuery": "peloponnese stone house sea"

@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/8815856/pexels-photo-8815856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Capture of colorful hillside houses in Ano Symi, Greece by the sea.",
+    "credit": "Photo: Márton Novák / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-houses-at-the-bay-of-symi-in-greece-8815856/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "symi harbour colorful houses"

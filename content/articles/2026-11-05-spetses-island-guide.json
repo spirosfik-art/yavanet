@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35633151/pexels-photo-35633151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Idyllic view of fishing boats in Kos harbour, Greece, capturing the essence of Mediterranean charm.",
+    "credit": "Photo: Wolfgang Weiser / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/scenic-fishing-boats-in-kos-harbour-greece-35633151/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "spetses island harbour"

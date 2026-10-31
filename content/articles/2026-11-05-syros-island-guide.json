@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14500258/pexels-photo-14500258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning aerial view of Syros Island's cityscape and the Aegean Sea under a clear blue sky.",
+    "credit": "Photo: clmsoothingmusic / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/white-concrete-building-near-body-of-water-14500258/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "syros ermoupoli"

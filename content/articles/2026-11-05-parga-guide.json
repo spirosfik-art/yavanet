@@ -13,8 +13,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "sea"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15175711/pexels-photo-15175711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant aerial view of Parga, Greece, showcasing colorful rooftops and bustling seaside cafes.",
+    "credit": "Photo: TonyNojmanSK / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/houses-in-seaside-town-15175711/",
+    "license": "Pexels License",
+    "fallbackKey": "sea"
   },
   "meta": {
     "imageQuery": "parga greece harbour"

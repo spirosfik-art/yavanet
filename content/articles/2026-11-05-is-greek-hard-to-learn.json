@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37303981/pexels-photo-37303981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vintage supermarket sign featuring Greek text and vibrant illustrations captured in natural light.",
+    "credit": "Photo: Ben Prater / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/rustic-supermarket-sign-with-greek-text-37303981/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "meta": {
     "imageQuery": "greek alphabet sign"

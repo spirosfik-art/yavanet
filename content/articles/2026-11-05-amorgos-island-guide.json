@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30167761/pexels-photo-30167761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Panagia Hozoviotissa Monastery on Amorgos Island at sunset, featuring stunning coastal cliffs.",
+    "credit": "Photo: drB drB / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/sunset-view-of-panagia-hozoviotissa-on-amorgos-island-30167761/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "Amorgos Hozoviotissa monastery"

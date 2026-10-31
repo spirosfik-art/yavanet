@@ -17,8 +17,13 @@
     }
   ],
   "image": {
-    "type": "art",
-    "key": "island"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/27111216/pexels-photo-27111216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A cluttered shop in İzmir's bazaar, showcasing various wooden utensils and goods.",
+    "credit": "Photo: Doğan Alpaslan  Demir / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/utensils-in-a-hut-27111216/",
+    "license": "Pexels License",
+    "fallbackKey": "island"
   },
   "meta": {
     "imageQuery": "kos town market"
