@@ -1,0 +1,60 @@
+{
+  "slug": "syntagma-metro-closure-october-2026",
+  "section": "breaking",
+  "publishedAt": "2026-10-31T14:14:22+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "city": "אתונה",
+    "lat": 37.9753,
+    "lng": 23.7361
+  },
+  "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0Flc2VScVREYlNpb0R0ZTQtU29DeGFkUEJ5dWk3OTVRUFZLaTNDUEp0R2w3OTh0UTVaaVRVWHg4aGdzekpBSFVsX3dfQ1Z1SWdyMUh3OHRjcEQwbngxZkNwU0ZpNXlEa3R2dEZ6YkM4X0hhb2VkSHBtTFdOd1R1UlVNMUttQzA?oc=5"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38973828/pexels-photo-38973828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Moody underground passage with vibrant graffiti and illuminated by fluorescent lights.",
+    "credit": "Photo: stelios ΒΚ / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/graffiti-covered-underground-passage-at-night-38973828/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אתונה: תחנת הרכבת התחתית בסִינְטַגְמָה תיסגר בהוראת המשטרה",
+    "dek": "תחנת המרכז באתונה תיסגר החל מהשעה 12:00 בהנחיית משטרת יוון | מה זה אומר עבור המטיילים בעיר?",
+    "tldr": [
+      "משטרת יוון הורה על סגירת תחנת סִינְטַגְמָה באתונה.",
+      "הסגירה תיכנס לתוקפה בשעה 12:00 בהתאם להנחיות הרשויות.",
+      "הנוסעים מתבקשים להתעדכן בשינויים בתחבורה הציבורית בעיר."
+    ],
+    "means": "השינוי בפעילות הרכבת התחתית עשוי להשפיע על התנועה במרכז העיר, ולכן מומלץ לבדוק את מסלולי הנסיעה החלופיים.",
+    "body": "משטרת יוון הודיעה על סגירת תחנת הרכבת התחתית בכיכר סִינְטַגְמָה שבאתונה. ההנחיה תיכנס לתוקף החל מהשעה 12:00 בצהריים, לפי הוראה רשמית של כוחות הביטחון. תיירים וישראלים הנמצאים באתונה מתבקשים להיערך בהתאם ולבחור בדרכי הגעה חלופיות דרך תחנות אחרות ברשת התחבורה הציבורית, שכן הרכבות צפויות לדלג על התחנה בזמן ההשבתה."
+  },
+  "en": {
+    "title": "Athens: Syntagma metro station to close by police order",
+    "dek": "The central metro station in Athens will close starting at 12:00 according to instructions from the Hellenic Police.",
+    "tldr": [
+      "Hellenic Police ordered the closure of Syntagma metro station.",
+      "The closure will take effect at 12:00 today.",
+      "Commuters and visitors are advised to check alternative transport options."
+    ],
+    "means": "Travelers in central Athens should plan alternative routes as trains will not stop at Syntagma during the closure.",
+    "body": "The Hellenic Police have issued an order to close the metro station at Syntagma Square in Athens. The closure is scheduled to begin at 12:00. Passengers and tourists are advised to check public transport updates and use nearby alternative stations while the restriction remains in effect."
+  },
+  "meta": {
+    "itemId": "d10e5f1e2233",
+    "imageQuery": "Athens metro station Syntagma",
+    "sourceHash": "e1f81c03c989",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-31T12:14:23.471Z",
+    "official": false
+  }
+}

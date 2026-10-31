@@ -1,0 +1,61 @@
+{
+  "slug": "glyfada-car-dealership-fire",
+  "section": "israelis",
+  "publishedAt": "2026-10-31T14:14:31+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.8631,
+    "lng": 23.7505,
+    "zoom": 13,
+    "place": "גליפדה, אתונה"
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/eidiseis/glyfada-ereynes-gia-ti-fotia-se-antiprosopeia-aytokiniton-eksetazetai-to-endexomeno-emprismou/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38485140/pexels-photo-38485140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Firefighters take a break during emergency operation in Wrocław, Poland.",
+    "credit": "Photo: fotoinformator pl / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/firefighters-in-action-at-wroclaw-poland-38485140/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "גליפדה: חקירה בחשד להצתה אחרי שריפה באולם תצוגה",
+    "dek": "כוחות כיבוי רבים הוזעקו לפנות בוקר לשדרות ווליאגמני שבאתונה בעקבות אש שפרצה באולם תצוגה של מכוניות. המשטרה חוקרת את נסיבות האירוע.",
+    "tldr": [
+      "שריפה פרצה באולם תצוגה לרכב בשדרות ווליאגמני בגליפדה סביב השעה 03:00 לפנות בוקר.",
+      "28 כבאים ו-9 רכבי כיבוי השתלטו על הלהבות לאחר פעילות ממושכת במקום.",
+      "המשטרה פתחה בחקירה ובודקת חשד להצתה לאחר שנתגלו שני מיכלי גז זעירים בזירה."
+    ],
+    "means": "האירוע התרחש באזור המוכר לרבים מהישראלים המבקרים בריביירה של אתונה, אך אין חשש או השפעה ישירה על תיירים או תושבים באזור.",
+    "body": "שריפה פרצה לפנות בוקר באולם תצוגה של מכוניות הממוקם בשדרות ווליאגמני בפרבר גליפדה שבאתונה. לפי רשויות הכיבוי, האש החלה בסביבות השעה 03:00 בתנאים שטרם התבררו במלואם.\n\nלמקום הוזעקו 28 אנשי צוות עם תשעה רכבי כיבוי ורכב מנוף ייעודי, אשר פעלו שעות ארוכות עד שהצליחו לכבות את הלהבות ולמנוע את התפשטותן. מהרשויות נמסר כי נגרם נזק כבד למבנה ולמספר כלי רכב יוקרתיים שהוצגו במקום.\n\nמחלקת הביטחון הממלכתי פתחה בחקירה לבדיקת נסיבות האירוע, ובמסגרתה נבדק בין היתר חשד להצתה לאחר שבזירה נמצאו שני מיכלי גז זעירים. הרשויות ממשיכות בבדיקת הממצאים."
+  },
+  "en": {
+    "title": "Glyfada: Arson suspected after fire at car dealership",
+    "dek": "Firefighters battled a blaze overnight at a car showroom on Vouliagmenis Avenue in Glyfada. Authorities have launched an investigation.",
+    "tldr": [
+      "A fire broke out at a car dealership on Vouliagmenis Avenue in Glyfada around 03:00.",
+      "Twenty-eight firefighters with nine vehicles managed to bring the flames under control after a lengthy operation.",
+      "State security is investigating the cause of the fire after two small gas canisters were found at the scene."
+    ],
+    "means": "The incident occurred in a southern suburb of Athens and poses no safety risks or disruptions for travelers in the area.",
+    "body": "A major fire broke out overnight at a car dealership located on Vouliagmenis Avenue in the Athens suburb of Glyfada, causing extensive material damage.\n\nAccording to the Fire Service, the blaze started at approximately 03:00 under as-yet-unclear circumstances. Twenty-eight firefighters equipped with nine vehicles and a specialized ladder truck rushed to the scene and managed to bring the fire under control following a prolonged operation.\n\nThe showroom building and several high-value vehicles parked inside suffered severe damage, causing distress to the business owners and staff. The State Security department has taken over the investigation into the cause of the incident, examining the possibility of arson after two small gas canisters were discovered at the site."
+  },
+  "meta": {
+    "itemId": "abe8836de4c2",
+    "imageQuery": "Glyfada Athens car dealership fire firefighting",
+    "sourceHash": "23e26b9dc5d2",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-10-31T12:14:31.957Z",
+    "official": false
+  }
+}

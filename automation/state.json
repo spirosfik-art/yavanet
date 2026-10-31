@@ -17,16 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "d733846b6bd5": 1792227738199,
-    "49871af9d50e": 1792227738199,
-    "d54bd17e0f94": 1792229618731,
-    "d5680130771f": 1792229618731,
-    "5e4b5ab5748e": 1792231313791,
-    "a6672b7c5afb": 1792233171475,
-    "49fa18f0175a": 1792233171475,
-    "407673811601": 1792234824109,
-    "55f6a64aab10": 1792235885031,
-    "42bec829f250": 1792238951227,
     "b158f4ceed5d": 1792240712793,
     "57d43ff3435c": 1792242612654,
     "d5b19f9cc982": 1792245669638,
@@ -2069,229 +2059,20 @@
     "abe8836de4c2": 1793436778797,
     "9898b995a1e7": 1793436778797,
     "02780e4ddea6": 1793436778797,
-    "afd03c8afe6d": 1793436778797
+    "afd03c8afe6d": 1793436778797,
+    "6c8154ccbb44": 1793448886114,
+    "01cebf34c75a": 1793448886114,
+    "1d41258787eb": 1793448886114,
+    "8aa66ff105e5": 1793448886114,
+    "b0edf8bf4850": 1793448886114,
+    "1d68a91a6506": 1793448886114,
+    "7678757a30be": 1793448886114,
+    "d87cee1cd869": 1793448886114,
+    "6737bb8546d0": 1793448886114,
+    "af7692c2bb14": 1793448886114,
+    "11bf18cfd6f6": 1793448886114
   },
-  "pending": {
-    "3c33c7": {
-      "createdAt": 1793436793194,
-      "item": {
-        "title": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0Flc2VScVREYlNpb0R0ZTQtU29DeGFkUEJ5dWk3OTVRUFZLaTNDUEp0R2w3OTh0UTVaaVRVWHg4aGdzekpBSFVsX3dfQ1Z1SWdyMUh3OHRjcEQwbngxZkNwU0ZpNXlEa3R2dEZ6YkM4X0hhb2VkSHBtTFdOd1R1UlVNMUttQzA?oc=5",
-        "summary": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. &nbsp;&nbsp; iefimerida.gr",
-        "published": "Sat, 31 Oct 2026 08:25:42 GMT",
-        "id": "d10e5f1e2233",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "d10e5f1e2233",
-        "section": "breaking",
-        "priority": 10,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Syntagma metro station closure ordered by police affects tourists and residents moving around central Athens.",
-        "item": {
-          "title": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0Flc2VScVREYlNpb0R0ZTQtU29DeGFkUEJ5dWk3OTVRUFZLaTNDUEp0R2w3OTh0UTVaaVRVWHg4aGdzekpBSFVsX3dfQ1Z1SWdyMUh3OHRjcEQwbngxZkNwU0ZpNXlEa3R2dEZ6YkM4X0hhb2VkSHBtTFdOd1R1UlVNMUttQzA?oc=5",
-          "summary": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. &nbsp;&nbsp; iefimerida.gr",
-          "published": "Sat, 31 Oct 2026 08:25:42 GMT",
-          "id": "d10e5f1e2233",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "athens-syntagma-metro-closure",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9755,
-          "lng": 23.7348
-        },
-        "strike": {
-          "dates": [
-            "2026-10-31"
-          ],
-          "sectors": [
-            "metro"
-          ],
-          "hours": "from 12:00",
-          "he": "סגירת תחנת המטרו סינטגמה באתונה בהנחיית המשטרה החל מהשעה 12:00",
-          "en": "Syntagma metro station in Athens closes at 12:00 by police order"
-        },
-        "alert": {
-          "he": "עדכון מבזק",
-          "en": "Breaking Update"
-        },
-        "imageKey": "strike",
-        "imageQuery": "Athens metro station entrance street",
-        "he": {
-          "title": "אתונה: תחנת המטרו סינטגמה נסגרת בהנחיית המשטרה",
-          "seoTitle": "מטרו באתונה: סגירת תחנת סינטגמה היום",
-          "seoDesc": "תחנת המטרו סינטגמה באתונה נסגרת בהנחיית משטרת יוון החל מהשעה 12:00. כל הפרטים המעודכנים לנוסעים ולתיירים הישראלים בעיר.",
-          "keywords": [
-            "מטרו באתונה",
-            "סינטגמה",
-            "תחבורה ציבורית באתונה",
-            "חדשות אתונה"
-          ],
-          "dek": "משטרת יוון הורתה על סגירת תחנת המטרו בכיכר סינטגמה שבאתונה החל מהשעה 12:00. הנוסעים מתבקשים להיערך לשינויים במסלולים.",
-          "tldr": [
-            "התחנה בכיכר סינטגמה נסגרת בשעה 12:00",
-            "ההחלטה התקבלה בהנחיית משטרת יוון (EL.AS.)",
-            "מומלץ להתעדכן בשינויים בתחבורה הציבורית"
-          ],
-          "means": "אם אתם נמצאים כרגע באתונה או מתכננים נסיעה לעיר, שימו לב שקווי המטרו עשויים שלא לעצור בתחנת סינטגמה החל מהשעה 12:00. מומלץ לבדוק את מסלולי הנסיעה המעודכנים של התחבורה הציבורית, להשתמש באמצעי תחבורה חלופיים כמו אוטובוסים או מוניות, ולהשאיר זמן נוסף להגעה ליעדים בעיר.",
-          "body": "## סגירת תחנת סינטגמה באתונה\nמשטרת יוון (EL.AS.) הודיעה על סגירת תחנת המטרו המרכזית בכיכר סינטגמה שבאתונה. ההנחיה נכנסת לתוקף החל מהשעה 12:00 בצהריים. מדובר בצעד ביטחוני או מבצעי של הרשויות המקומיות, המשפיע על תנועת הנוסעים העוברים בלב הבירה היוונית.\n\n## המשמעות לנוסעים ולתיירים הישראלים\nעבור ישראלים הנמצאים בחופשה או בעסקים באתונה, תחנת סינטגמה היא נקודת מעבר מרכזית המרכזת קווי מטרו חשובים. בזמן הסגירת התחנה, הרכבת עשויה לחלוף על פני התחנה ללא עצירה, או שיינתנו הנחיות נקודתיות לגבי כניסות ויציאות. מומלץ להיערך לעומסים אפשריים בתחנות הסמוכות ולהתעדכן בזמן אמת.\n\n## כיצד להתנהל בתחבורה הציבורית\nבשל השינויים הזמניים, כדאי להיעזר ביישומוני ניווט מעודכנים, לבדוק את מצב הקווים מול חברות ההפעלה המקומיות, ולהעדיף הליכה רגלית קצרה או שימוש במוניות במקרה הצורך. מעקב אחר הודעות משטרת יוון יעזור לכם להימנע מעיכובים מיותרים בלוחות הזמנים שלכם.\n\n## שאלות נפוצות\n**האם כל קווי המטרו באתונה מושבתים?**\nההנחיה מתייחסת כרגע לתחנת סינטגמה בלבד, ולא נמסר על השבתה מלאה של מערך המטרו בעיר.\n\n**מתי צפויה התחנה להיפתח מחדש?**\nשעת סיום ההגבלה לא צוינה בהודעה הרשמית, ויש לעקוב אחר עדכוני הרשויות.\n\n**האם מומלץ להשתמש במוניות באתונה בזמן הסגירה?**\nמוניות ואוטובוסים מהווים אלטרנטיבה טובה להתניידות במרכז העיר כאשר תחנה מרכזית אחת נסגרת."
-        },
-        "en": {
-          "title": "Athens: Syntagma Metro Station Closes by Police Order",
-          "seoTitle": "Athens Metro: Syntagma Station Closure Today",
-          "seoDesc": "Syntagma metro station in Athens closes at 12:00 following an order by the Hellenic Police. Check the latest updates for travellers.",
-          "keywords": [
-            "Athens metro",
-            "Syntagma station",
-            "Athens transport",
-            "Greece news"
-          ],
-          "dek": "The Hellenic Police have ordered the closure of Syntagma metro station in central Athens starting at 12:00. Passengers should expect changes.",
-          "tldr": [
-            "Syntagma metro station closes at 12:00",
-            "The decision was issued by the Hellenic Police (ELAS)",
-            "Travellers are advised to check alternative routes"
-          ],
-          "means": "If you are currently in Athens or planning trips around the city center, note that metro services at Syntagma station are restricted from 12:00. Check real-time public transport updates, consider alternative transport options such as buses or taxis, and allow extra travel time for your journeys.",
-          "body": "## Syntagma Metro Station Closure in Athens\nThe Hellenic Police (ELAS) have issued an order to close the central metro station at Syntagma Square in Athens. The restriction takes effect at 12:00. This operational measure affects passenger traffic through one of the busiest transit hubs in the Greek capital.\n\n## Impact on Visitors and Commuters\nFor Israelis visiting or staying in Athens, Syntagma is a major interchange point connecting key metro lines. While the station is closed, trains may pass through without stopping, or access points may be restricted. Passengers should anticipate changes and check local updates before setting out.\n\n## How to Navigate the City\nDuring the closure, travellers should rely on updated navigation apps, check official transport announcements, and consider walking short distances or taking taxis or buses. Staying informed helps prevent unexpected delays when moving through central Athens.\n\n## FAQ\n**Are all metro lines in Athens suspended?**\nThe restriction applies specifically to Syntagma station, and no general shutdown of the entire metro network was announced.\n\n**When will Syntagma station reopen?**\nThe exact reopening time was not specified in the official notice, so passengers should monitor updates from authorities.\n\n**Should I use taxis while the station is closed?**\nTaxis and buses offer a practical alternative for getting around the city center when a key transit station is temporarily shut down."
-        }
-      },
-      "text": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr\nΚλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. &nbsp;&nbsp; iefimerida.gr",
-      "issues": [],
-      "el": {
-        "title": "Αθήνα: Κλείνει ο σταθμός του μετρό στο Σύνταγμα με εντολή της Αστυνομίας",
-        "dek": "Η Ελληνική Αστυνομία έδωσε εντολή να κλείσει ο σταθμός του μετρό στο Σύνταγμα, στο κέντρο της Αθήνας, από τις 12:00. Οι επιβάτες θα πρέπει να αναμένουν αλλαγές.",
-        "tldr": [
-          "Ο σταθμός του μετρό στο Σύνταγμα κλείνει στις 12:00",
-          "Η απόφαση εκδόθηκε από την Ελληνική Αστυνομία (ΕΛ.ΑΣ.)",
-          "Συνιστάται στους ταξιδιώτες να ελέγξουν εναλλακτικές διαδρομές"
-        ]
-      },
-      "notified": true
-    },
-    "9147f0": {
-      "createdAt": 1793436829530,
-      "item": {
-        "title": "Γλυφάδα: Έρευνες για τη φωτιά σε αντιπροσωπεία αυτοκινήτων – Εξετάζεται το ενδεχόμενο εμπρησμού",
-        "url": "https://www.ertnews.gr/eidiseis/glyfada-ereynes-gia-ti-fotia-se-antiprosopeia-aytokiniton-eksetazetai-to-endexomeno-emprismou/",
-        "summary": "Συναγερμός σήμανε τα ξημερώματα στη Γλυφάδα, όταν μεγάλη πυρκαγιά ξέσπασε σε αντιπροσωπεία αυτοκινήτων επί της λεωφόρου Βουλιαγμένης, προκαλώντας εκτεταμένες υλικές ζημιές. Η φωτιά εκδηλώθηκε περίπου στις 03:00, κάτω από αδιευκρίνιστες μέχρι στιγμής συνθήκες, με αποτέλεσμα να κινητοποιηθεί άμεσα η Πυροσβεστική Υπηρεσία. Στο σημείο έσπευσαν 28 πυροσβέστες με εννέα οχήματα, καθώς και ειδικό βραχιονοφόρο όχημα, προκειμένου ... Περισσότερα \n www.ertnews.gr",
-        "published": "Sat, 31 Oct 2026 05:48:00 +0000",
-        "id": "abe8836de4c2",
-        "sourceId": "ert",
-        "sourceName": "ΕΡΤ (ertnews.gr)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "abe8836de4c2",
-        "section": "breaking",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Major fire at a car dealership on Vouliagmenis Avenue in Glyfada, a key area for foreign residents and investors.",
-        "item": {
-          "title": "Γλυφάδα: Έρευνες για τη φωτιά σε αντιπροσωπεία αυτοκινήτων – Εξετάζεται το ενδεχόμενο εμπρησμού",
-          "url": "https://www.ertnews.gr/eidiseis/glyfada-ereynes-gia-ti-fotia-se-antiprosopeia-aytokiniton-eksetazetai-to-endexomeno-emprismou/",
-          "summary": "Συναγερμός σήμανε τα ξημερώματα στη Γλυφάδα, όταν μεγάλη πυρκαγιά ξέσπασε σε αντιπροσωπεία αυτοκινήτων επί της λεωφόρου Βουλιαγμένης, προκαλώντας εκτεταμένες υλικές ζημιές. Η φωτιά εκδηλώθηκε περίπου στις 03:00, κάτω από αδιευκρίνιστες μέχρι στιγμής συνθήκες, με αποτέλεσμα να κινητοποιηθεί άμεσα η Πυροσβεστική Υπηρεσία. Στο σημείο έσπευσαν 28 πυροσβέστες με εννέα οχήματα, καθώς και ειδικό βραχιονοφόρο όχημα, προκειμένου ... Περισσότερα \n www.ertnews.gr",
-          "published": "Sat, 31 Oct 2026 05:48:00 +0000",
-          "id": "abe8836de4c2",
-          "sourceId": "ert",
-          "sourceName": "ΕΡΤ (ertnews.gr)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "glyfada-car-dealership-fire",
-        "section": "breaking",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.8651,
-          "lng": 23.7533
-        },
-        "strike": null,
-        "alert": {
-          "he": "שריפה ביוון",
-          "en": "Fire in Greece"
-        },
-        "imageKey": "fire",
-        "imageQuery": "car dealership building fire",
-        "he": {
-          "title": "שריפה גדולה פרצה בסוכנות רכב בגליפאדה שבאתונה",
-          "seoTitle": "שריפה באתונה: אש פרצה בסוכנות רכב בגליפאדה",
-          "seoDesc": "שריפה ענקית פרצה לפנות בוקר בסוכנות רכב על שדרות ווליאגמני בגליפאדה שבאתונה וגרמה לנזקים כבדים. המשטרה חוקרת את נסיבות האירוע.",
-          "keywords": [
-            "שריפה באתונה",
-            "אתונה",
-            "יוון",
-            "גליפאדה",
-            "חדשות יוון"
-          ],
-          "dek": "כוחות כיבוי רבים הוזעקו לפנות בוקר לשדרות ווליאגמני שבאתונה בעקבות שריפה עזה שהחריבה חלקים מסוכנות רכב יוקרתית. המשטרה פתחה בחקירה.",
-          "tldr": [
-            "השריפה פרצה סביב השעה 03:00 לפנות בוקר בסוכנות רכב בגליפאדה.",
-            "28 כבאים ותשעה צוותים פעלו שעות להשתלטות על הלהבות.",
-            "נזקים כבדים נגרמו למבנה ולמספר כלי רכב יוקרתיים שהיו במקום."
-          ],
-          "means": "האירוע התרחש באזור מבוקש באתונה, אך אינו משבש את תנועת הנוסעים או הטיסות מישראל. עם זאת, מי שנמצא באזור גליפאדה או מתכנן להגיע לשדרות ווליאגמני מתבקש להתעדכן בהנחיות הבטיחות של הרשויות המקומיות.",
-          "body": "## מה קרה בשדרות ווליאגמני\n\nשריפה ענקית פרצה לפנות בוקר בסוכנות רכב הממוקמת על שדרות ווליאגמני המרכזיות ברובע גליפאדה שבאתונה. הלהבות שאחזו במבנה בשעות הקטנות של הלילה גרמו לבהלה רבה בקרב בעלי העסק והעובדים במקום, לצד נזקים מסיביים לתשתיות ולרכבים.\n\nהדיווח הראשוני על האש התקבל סביב השעה 03:00, ומייד לאחריו הוזעקו למקום כוחות גדולים של שירות הכיבוי המקומי כדי למנוע את התפשטות האש למבנים סמוכים.\n\n## פעולות הכיבוי והיקף הנזקים\n\nאל זירת האירוע הגיעו 28 כבאים שהפעילו תשעה רכבי כיבוי, בתוכם גם רכב בראכיון מיוחד שסייע בפעולות החילוץ והשליטה באש. לאחר שעות של מאמצים אינטנסיביים, הצליחו צוותי החירום לבלום את ההתפשטות ולהשתלט על הלהבות.\n\nמראה הסוכנות לאחר כיבוי השריפה מעיד על עוצמת ההרס. חלק מהקירות של המתחם ספגו פגיעות קשות, ומספר מכוניות יוקרה שהוחנו בחלל התצוגה ניזוקו באופן קשה או הושמדו לחלוטין.\n\n## חקירת נסיבות השריפה\n\nנכון לשעות אלו, סיבת פרוץ האש טרם התבררה סופית, אך גורמי הביטחון בוחנים לעומק גם את האפשרות שמדובר בהצתה מכוונת. הסיבה המרכזית לבדיקה זו היא ממצא של שני מיכל גז קטנים שאותרו בסביבת המקום.\n\nתיק החקירה הועבר לידי מחלקת האבטחה הממלכתית (הקראטי אשפליה), הפועלת לאיסוף ממצאים נוספים וגביית עדי ראייה במטרה להבין את רצף האירועים שהוביל לפגיעה הקשה בעסק.\n\n## שאלות נפוצות\n\n**האם יש נפגעים באירוע בגליפאדה?**\nהדיווחים הרשמיים מצביעים על נזקים חומריים כבדים למבנה ולרכבים ועל בהלה בקרב בעלי העסק והעובדים, אך לא דווח על נפגעים בנפש.\n\n**מי חוקר את נסיבות השריפה בסוכנות הרכב?**\nהחקירה הרשמית הועברה לידי יחידת האבטחה הממלכתית של משטרת יוון.\n\n**האם התנועה באזור שדרות ווליאגמני חסומה?**\nיש להתעדכן מול הרשויות המקומיות באתונה לגבי מצב הצירים וההגבלות בסביבת הזירה."
-        },
-        "en": {
-          "title": "Major fire breaks out at a car dealership in Glyfada, Athens",
-          "seoTitle": "Glyfada Fire: Car Dealership Damaged in Athens",
-          "seoDesc": "A major fire broke out early Friday at a car dealership on Vouliagmenis Avenue in Glyfada, Athens, causing extensive damage. Police are investigating.",
-          "keywords": [
-            "Glyfada fire",
-            "Athens car dealership fire",
-            "Greece news",
-            "Athens news"
-          ],
-          "dek": "Emergency crews battled a large overnight fire at a car dealership on Vouliagmenis Avenue in Glyfada, Athens, resulting in extensive material damage.",
-          "tldr": [
-            "The fire broke out around 03:00 at a car dealership in Glyfada.",
-            "28 firefighters and nine vehicles were deployed to battle the blaze.",
-            "The building and high-value vehicles inside suffered extensive damage."
-          ],
-          "means": "The incident occurred in a commercial area of Glyfada and does not affect international flights or travel plans to Greece. Visitors in the southern suburbs of Athens should follow local authority updates regarding traffic or area access.",
-          "body": "## Overnight Fire on Vouliagmenis Avenue\n\nA major fire broke out in the early hours of the morning at a prominent car dealership located on Vouliagmenis Avenue in the southern Athens suburb of Glyfada. The incident caused significant distress to the business owners and employees as the flames rapidly spread through the commercial space.\n\nEmergency services were alerted around 03:00 following reports of heavy smoke and intense flames visible from the main boulevard, prompting an immediate dispatch of firefighting units to the scene.\n\n## Firefighting Operation and Extent of Damage\n\nA total of 28 firefighters equipped with nine fire trucks, including a specialized ladder vehicle, rushed to the location to contain the blaze and prevent it from spreading to nearby properties. After a prolonged operation, crews managed to bring the fire under control.\n\nThe aftermath revealed severe structural damage to the building's walls, alongside extensive destruction or heavy damage to several high-value vehicles that were housed inside the showroom at the time.\n\n## Arson Investigation Underway\n\nAuthorities have not yet officially determined the exact cause of the fire. Investigators are closely examining the possibility of arson after two small gas canisters were discovered at the scene.\n\nThe State Security division has taken over the official investigation to examine all available evidence and clarify the circumstances surrounding the incident.\n\n## FAQ\n\n**Were there any injuries reported in the Glyfada fire?**\nThe official reports indicate heavy material damage and distress among staff, but no injuries were mentioned.\n\n**Who is investigating the cause of the fire?**\nThe State Security department has taken charge of the investigation into the dealership fire.\n\n**Is Vouliagmenis Avenue closed to traffic?**\nDrivers should check local traffic updates from Athens authorities for any ongoing restrictions near the scene."
-        }
-      },
-      "text": "Συναγερμός σήμανε τα ξημερώματα στη Γλυφάδα , όταν μεγάλη πυρκαγιά ξέσπασε σε αντιπροσωπεία αυτοκινήτων επί της λεωφόρου Βουλιαγμένης, προκαλώντας εκτεταμένες υλικές ζημιές.\n Η φωτιά εκδηλώθηκε περίπου στις 03:00 , κάτω από αδιευκρίνιστες μέχρι στιγμής συνθήκες, με αποτέλεσμα να κινητοποιηθεί άμεσα η Πυροσβεστική Υπηρεσία.\n Στο σημείο έσπευσαν 28 πυροσβέστες με εννέα οχήματα , καθώς και ειδικό βραχιονοφόρο όχημα, προκειμένου να περιορίσουν τις φλόγες και να αποτρέψουν την επέκταση της πυρκαγιάς. Έπειτα από πολύωρη επιχείρηση, οι πυροσβέστες κατάφεραν να θέσουν τη φωτιά υπό έλεγχο .\n Εκτεταμένες ζημιές στο κτίριο και στα οχήματα\n Η εικόνα που παρουσιάζει η αντιπροσωπεία μετά την πυρκαγιά αποτυπώνει το μέγεθος της καταστροφής. Τμήματα των τοιχωμάτων έχουν υποστεί σοβαρές ζημιές, ενώ αρκετά από τα αυτοκίνητα που βρίσκονταν στον χώρο έχουν καταστραφεί ή έχουν υποστεί σημαντικές φθορές .\n Πρόκειται για επαγγελματικό χώρο στον οποίο φιλοξενούνται οχήματα μεγάλης αξίας, με τις ζημιές να εκτιμάται ότι είναι ιδιαίτερα σημαντικές. Από το περιστατικό προκλήθηκε μεγάλη αναστάτωση στους ιδιοκτήτες και στους εργαζομένους της επιχείρησης .\n Έρευνα για τα αίτια της πυρκαγιάς\n Μέχρι στιγμής δεν έχουν διευκρινιστεί οι συνθήκες κάτω από τις οποίες εκδηλώθηκε η φωτιά, ενώ εξετάζεται το ενδεχόμενο εμπρησμού καθώς στο σημείο εντοπίστηκαν δύο γκαζάκια . Την έρευνα για την υπόθεση ανέλαβε η Κρατική Ασφάλεια.\n Ρεπορτάζ: Στέλλα Χριστοδουλίδου\n Όλες οι&nbsp; Ειδήσεις &nbsp; από την&nbsp; Ελλάδα και τον&nbsp; Κόσμο ,&nbsp; στο&nbsp; ertnews.gr \n Διάβασε όλες τις ειδήσεις μας στο Google \n Κάνε like στη σελίδα μας στο Facebook \n Ακολούθησε μας στο Twitter \nΚάνε εγγραφή στο κανάλι μας στο Youtube \nΓίνε μέλος στο κανάλι μας στο Viber \n Προσοχή! Επιτρέπεται η αναδημοσίευση των πληροφοριών του παραπάνω άρθρου&nbsp;( όχι αυτολεξεί )&nbsp;ή μέρους αυτών μόνο αν:\n – Αναφέρεται ως πηγή το&nbsp; ertnews.gr &nbsp; στο σημείο όπου γίνεται η αναφορά.\n – Στο τέλος του άρθρου ως Πηγή\n – Σε ένα από τα δύο σημεία να υπάρχει ενεργός σύνδεσμος \n TAGS \r\n αντιπροσωπεία αυτοκινήτων Γλυφάδα φωτιά \n Share \r\n Facebook \r\n Twitter \r\n Linkedin \r\n Viber \r\n WhatsApp \r\n Email",
-      "issues": [],
-      "el": {
-        "title": "Μεγάλη πυρκαγιά ξέσπασε σε αντιπροσωπεία αυτοκινήτων στη Γλυφάδα",
-        "dek": "Συνεργεία έκτακτης ανάγκης έδωσαν μάχη κατά τη διάρκεια της νύχτας με μια μεγάλη πυρκαγιά σε αντιπροσωπεία αυτοκινήτων στη λεωφόρο Βουλιαγμένης στη Γλυφάδα, η οποία προκάλεσε εκτεταμένες υλικές ζημιές.",
-        "tldr": [
-          "Η πυρκαγιά ξέσπασε γύρω στις 03:00 σε αντιπροσωπεία αυτοκινήτων στη Γλυφάδα.",
-          "Για την κατάσβεση της πυρκαγιάς κινητοποιήθηκαν 28 πυροσβέστες με εννέα οχήματα.",
-          "Το κτίριο και τα οχήματα υψηλής αξίας που βρίσκονταν στο εσωτερικό υπέστησαν εκτεταμένες ζημιές."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2301,12 +2082,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-31T08:52:49.112Z",
+      "at": "2026-10-31T12:14:34.826Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-31T08:52:49.606Z",
+      "at": "2026-10-31T12:14:35.600Z",
       "items": 5
     },
     "civilprotection": {
@@ -2317,27 +2098,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-31T08:52:50.609Z",
+      "at": "2026-10-31T12:14:37.235Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-31T08:52:50.762Z",
+      "at": "2026-10-31T12:14:37.461Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-31T08:52:51.558Z",
+      "at": "2026-10-31T12:14:38.537Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-31T08:52:52.757Z",
-      "items": 4
+      "at": "2026-10-31T12:14:39.395Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-31T08:52:53.577Z",
+      "at": "2026-10-31T12:14:39.959Z",
       "items": 10
     },
     "toi-greece": {
@@ -2348,23 +2129,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-31T08:52:53.970Z",
+      "at": "2026-10-31T12:14:40.493Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-31T08:52:54.054Z",
+      "at": "2026-10-31T12:14:40.845Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-31T08:52:54.218Z",
-      "items": 8
+      "at": "2026-10-31T12:14:41.460Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T08:52:54.339Z",
-      "items": 5
+      "at": "2026-10-31T12:14:41.629Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2373,12 +2154,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T08:52:49.769Z",
+      "at": "2026-10-31T12:14:36.213Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-31T08:52:54.880Z",
+      "at": "2026-10-31T12:14:42.198Z",
       "items": 0
     },
     "hcg": {
@@ -2389,39 +2170,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-31T08:52:55.928Z",
+      "at": "2026-10-31T12:14:43.543Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-31T08:52:56.113Z",
-      "items": 5
+      "at": "2026-10-31T12:14:43.809Z",
+      "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-31T08:52:56.319Z",
+      "at": "2026-10-31T12:14:43.987Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-31T08:52:56.592Z",
+      "at": "2026-10-31T12:14:44.221Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-31T08:52:56.907Z",
-      "items": 6
+      "at": "2026-10-31T12:14:44.563Z",
+      "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-31T08:52:57.316Z",
-      "items": 6
+      "at": "2026-10-31T12:14:44.914Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-10-31",
-    "count": 4,
+    "count": 8,
     "published": [
       {
         "slug": "tag-greece-new-tourism-initiative",
@@ -2464,6 +2245,30 @@
         "title": "↻ Earthquake in Greece: Another aftershock recorded off Chalkidiki",
         "at": "2026-10-31T10:53:34+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "syntagma-metro-closure-october-2026",
+        "title": "Athens: Syntagma metro station to close by police order",
+        "at": "2026-10-31T14:14:22+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "glyfada-car-dealership-fire",
+        "title": "Glyfada: Arson suspected after fire at car dealership",
+        "at": "2026-10-31T14:14:31+02:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "greece-weather-warning-november-2026",
+        "title": "Severe weather warning in Greece: Heavy rain and thunderstorms expected",
+        "at": "2026-10-31T14:15:01+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "olympiacos-considers-kilian-hayes",
+        "title": "Olympiacos considers adding guard Killian Hayes",
+        "at": "2026-10-31T14:15:16+02:00",
+        "section": "israelis"
       }
     ],
     "rejected": [],
@@ -2472,6 +2277,10 @@
       {
         "slug": "greece-israel-elections-atthens-strategy",
         "at": "2026-10-31T05:26:04.267Z"
+      },
+      {
+        "slug": "syntagma-metro-closure-october-2026",
+        "at": "2026-10-31T12:14:23.472Z"
       }
     ],
     "ig": []
@@ -2655,28 +2464,21 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-31T08:52:58.797Z",
-    "considered": 18,
-    "picked": 3,
+    "at": "2026-10-31T12:14:46.114Z",
+    "considered": 11,
+    "picked": 2,
     "items": [
-      "· ert | Πολεμική Αεροπορία: Εντυπωσιακά εκθέματα και προσομοιωτές πτήσης στο Μετρό «Σύνταγμα» – Μέ",
-      "✓ gn-iefimerida | Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
-      "✓ ert | Παπαζάχος για σεισμό στη Χαλκιδική: «Οι συνοδοί σεισμοί είναι απολύτως φυσιολογικοί»",
-      "· naftemporiki | Από την Αττική στην υπόλοιπη Ελλάδα: Γιατί η επιστημονική γνώση, η τεχνολογία και η συνεργ",
-      "· naftemporiki | Έκρηξη στην Πλάκα: 6 ζωές για έναν σωλήνα λίγων ευρώ – Πώς δρούσαν επί χρόνια οι συλληφθέν",
-      "· ingr | «Αδιανόητο να έχουν συλληφθεί τόσες φορές και να είναι έξω» – Οργή των κατοίκων στην Πλάκα",
-      "· ingr | Κλείνει ο σταθμός «Σύνταγμα» του μετρό στις 12:00",
-      "· naftemporiki | Ηράκλειο: Αναστάτωση τη νύχτα λόγω φωτιάς σε οικία στον Πανασό",
-      "· naftemporiki | Η κλιματική αλλαγή επιβάλλει μια νέα επενδυτική νοοτροπία",
-      "· gct | Evzones Canberra: A historic first official visit on Oxi Day 2026",
-      "· gct | Gold Coast and Ancient Olympia Sign Sister City Reaffirmation Ahead of 2032 Games",
-      "· gct | Greek Athlete Giorgos Charalampopoulos Returns Home with Two Medals from World Armwrestlin",
-      "· gct | Pastitsio: The Dish With an Italian Name and a Greek Soul",
-      "· ingr | Γερμανία: Διαδηλώσεις της νεολαίας ενάντια στην υποχρεωτική στράτευση και την ακρίβεια",
-      "✓ ert | Γλυφάδα: Έρευνες για τη φωτιά σε αντιπροσωπεία αυτοκινήτων – Εξετάζεται το ενδεχόμενο εμπρ",
-      "· gn-iefimerida | Μεγάλη φωτιά τη νύχτα σε αντιπροσωπεία αυτοκινήτων στη Λεωφόρο Βουλιαγμένης, δείτε βίντεο ",
-      "· ingr | Γλυφάδα: Παρανάλωμα τριώροφη αντιπροσωπεία αυτοκινήτων επί της Λεωφόρου Βουλιαγμένης",
-      "· gn-kathimerini | Το «τζετ λαγκ» των πουλιών: Πώς οι μεγάλες πτήσεις αποσυντονίζουν το βιολογικό τους ρολόι "
+      "· ert | Κεφαλογιάννη στο ΕΡΤnews: Στόχος η ποιοτική και βιώσιμη ανάπτυξη του ελληνικού τουρισμού –",
+      "✓ ingr | Άρχισαν τα σενάρια για τον αντι-Μοντέρο: «Ο Ολυμπιακός ενδιαφέρεται για τον Χέιζ»",
+      "· ert | Στον Έβρο το Ε΄ Συνέδριο θρησκευτικού τουρισμού",
+      "· ingr | Δούκας για έκρηξη στην Πλάκα: Να σπάσει το απόστημα των συμμοριών κλοπής χαλκού",
+      "✓ naftemporiki | Έκτακτο δελτίο ΕΜΥ: Έρχονται ισχυρές βροχές και καταιγίδες – Πού θα «χτυπήσει» η κακοκαιρί",
+      "· ingr | Χαμενεΐ: Εάν δεχθούμε επίθεση από τις ΗΠΑ θα απαντήσουμε χωρίς γεωγραφικούς περιορισμούς",
+      "· ingr | Έκτακτο δελτίο επιδείνωσης του καιρού: Έρχονται καταιγίδες την Κυριακή – Οι επικίνδυνες πε",
+      "· ingr | «Άτακτη οπισθοχώρηση της κυβέρνησης»: Αντιπολιτευτικά πυρά για το ιδιωτικό χρέος και τουρκ",
+      "· gn-kathimerini | Στη μάχη αντιμετώπισης της στεγαστικής κρίσης οι εκκλησίες στις ΗΠΑ - Kathimerini",
+      "· gn-kathimerini | Μεγάλη φωτιά τη νύχτα σε αντιπροσωπεία αυτοκινήτων στη Γλυφάδα - Kathimerini",
+      "· gn-iefimerida | Πυροσβεστική για έκρηξη στην Πλάκα: Υπό άκρα μυστικότητα η έρευνα, έτσι φτάσαμε στη σύλληψ"
     ]
   },
   "evergreenDone": [
@@ -2719,5 +2521,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793317265548,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "syntagma-metro-closure-october-2026",
+      "url": "https://yavanet.gr/a/syntagma-metro-closure-october-2026/",
+      "at": "2026-10-31T12:14:23.472Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/syntagma-metro-closure-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/syntagma-metro-closure-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אתונה: תחנת הרכבת התחתית בסִינְטַגְמָה תיסגר בהוראת המשטרה",
+        "title_en": "Athens: Syntagma metro station to close by police order",
+        "dek_he": "תחנת המרכז באתונה תיסגר החל מהשעה 12:00 בהנחיית משטרת יוון | מה זה אומר עבור המטיילים בעיר?",
+        "dek_en": "The central metro station in Athens will close starting at 12:00 according to instructions from the Hellenic Police.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/38973828/pexels-photo-38973828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אתונה: תחנת הרכבת התחתית בסִינְטַגְמָה תיסגר בהוראת המשטרה\n\nתחנת המרכז באתונה תיסגר החל מהשעה 12:00 בהנחיית משטרת יוון | מה זה אומר עבור המטיילים בעיר?\n\nhttps://yavanet.gr/a/syntagma-metro-closure-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens: Syntagma metro station to close by police order\n\nThe central metro station in Athens will close starting at 12:00 according to instructions from the Hellenic Police.\n\nhttps://yavanet.gr/en/a/syntagma-metro-closure-october-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
