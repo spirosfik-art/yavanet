@@ -24,7 +24,7 @@ jobs:
         run: |
           export CLOUDFLARE_API_TOKEN="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')" CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')"
           GH_TOKEN_V="$(printf '%s' "$GH_TOKEN_V" | tr -d '[:space:]')"
-          npx -y wrangler@4 deploy > dep.log 2>&1; tail -25 dep.log | sed 's/\x1b\[[0-9;]*m//g' | while read -r l; do echo "::notice::$l"; done
+          npx -y wrangler@4 deploy > dep.log 2>&1 || echo "::warning::deploy failed"; tail -25 dep.log | sed 's/\x1b\[[0-9;]*m//g' | while read -r l; do echo "::notice::$l"; done
           printf '%s' "$GH_TOKEN_V" | npx -y wrangler@4 secret put GH_TOKEN 2>&1 | tail -2
           printf '%s' "$TG_BOT" | npx -y wrangler@4 secret put TELEGRAM_BOT_TOKEN 2>&1 | tail -2
           printf '%s' "$TG_CHAT" | npx -y wrangler@4 secret put TELEGRAM_OWNER_CHAT_ID 2>&1 | tail -2
