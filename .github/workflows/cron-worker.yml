@@ -22,6 +22,8 @@ jobs:
       - name: Deploy
         working-directory: cron-worker
         run: |
+          export CLOUDFLARE_API_TOKEN="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')" CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')"
+          GH_TOKEN_V="$(printf '%s' "$GH_TOKEN_V" | tr -d '[:space:]')"
           npx -y wrangler@4 deploy 2>&1 | tail -15
           printf '%s' "$GH_TOKEN_V" | npx -y wrangler@4 secret put GH_TOKEN 2>&1 | tail -2
           printf '%s' "$TG_BOT" | npx -y wrangler@4 secret put TELEGRAM_BOT_TOKEN 2>&1 | tail -2
