@@ -1,5 +1,6 @@
 // Δημιουργία του site: node build.mjs  →  φάκελος dist/
 import { makeCritical } from "./site/critical.mjs";
+import { mobileHome } from "./site/mhome.mjs";
 import { ic } from "./site/icons.mjs";
 import fs from "node:fs";
 import path from "node:path";
@@ -205,7 +206,10 @@ for (const lang of LANGS) {
   if (GLOBAL.flights) tiles.splice(1, 0, ["/flights/", "flights", lang === "he" ? "טיסות זולות" : "Cheap flights", ""]);
   const qtools = tiles.map(([u, k, h]) => `<a class="qt t-${k}" href="${P(lang, u)}">${TI[k]}<span>${esc(h)}</span></a>`).join("");
   const newsChips = SECTIONS.map((x) => `<a href="${P(lang, "/s/" + x.slug + "/")}">${esc(x[lang])}</a>`).join("");
+  const mh = mobileHome({ lang, articles, photoOf, P, esc, SECTIONS, fmtDate: (iso, l) => new Intl.DateTimeFormat(T[l].locale, { day: "2-digit", month: "2-digit", timeZone: "Europe/Athens" }).format(new Date(iso)), waLink: `https://wa.me/306906723676?text=${encodeURIComponent(lang === "he" ? "שלום, הגעתי מיוונט ואני מתעניין בקניית דירה ביוון" : "Hi, I came from Yavanet and I'm interested in buying property in Greece")}` });
   const home = `<h1 class="sr-only">${esc((lang === "he" ? SITE.nameHe : SITE.name) + " · " + t.tagline)}</h1>
+${mh}
+<div class="hdesk">
 ${GLOBAL.wxRecent ? `<a class="fteaser wxteaser" href="${P(lang, "/weather-warnings/")}"><span class="ft-ic" aria-hidden="true">${ic("alert")}</span><span class="ft-t"><b>${lang === "he" ? (GLOBAL.wxRecent === 1 ? "אזהרת מזג אוויר חדשה ביוון" : `${GLOBAL.wxRecent} אזהרות מזג אוויר ביוון ב-48 השעות האחרונות`) : (GLOBAL.wxRecent === 1 ? "New weather warning in Greece" : `${GLOBAL.wxRecent} weather warnings in Greece in the last 48 hours`)}</b><small>${lang === "he" ? "גשם, סערות ורוחות: איפה, מתי ומה עושים" : "Rain, storms and wind: where, when and what to do"}</small></span><span class="ft-go">${lang === "he" ? "לכל האזהרות ←" : "All warnings →"}</span></a>` : ""}
 <nav class="chips homechips" aria-label="${esc(t.allSections)}"><span class="hc-l">${lang === "he" ? "חדשות:" : "News:"}</span>${newsChips}</nav>
 <div class="grid">
@@ -234,6 +238,7 @@ ${flightTeaser(lang)}
     ${newsletterBox(lang)}
   </div>
   ${widgets(lang, mostRead)}
+</div>
 </div>
 <script type="application/json" id="yv-data">${JSON.stringify(fd).replace(/</g, "\\u003c")}</script>`;
   write(P(lang, "/"), layout({ lang, title: "", description: t.tagline, path: P(lang, "/"), altPath: P(lang === "he" ? "en" : "he", "/"), body: home, breaking: breakingNow, activeNav: "home",
