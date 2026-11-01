@@ -17,23 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "b36161ce4b9b": 1792284656518,
-    "965c030db36a": 1792288285809,
-    "08fff6c387fa": 1792294475952,
-    "72e89546a6e5": 1792296394036,
-    "604d7d494600": 1792296394036,
-    "dca400a12930": 1792298116347,
-    "007ec74a11a2": 1792298116347,
-    "09a9fd29860c": 1792298116347,
-    "0cef3eadcb88": 1792298116347,
-    "504f43480559": 1792299856287,
-    "741328f7170c": 1792299856287,
-    "87d9c020b002": 1792301621864,
-    "989c011579f0": 1792303296785,
-    "f0f890614c84": 1792303296785,
-    "5f1e5f313e28": 1792305387750,
-    "e7f06e456e1e": 1792305387750,
-    "0828153d04de": 1792305568578,
     "1a2c3162bb1b": 1792307661518,
     "815367719bc5": 1792307661518,
     "2cdafe1fe592": 1792309109196,
@@ -2102,17 +2085,33 @@
     "06895d79450f": 1793493414281,
     "1c6cffef8036": 1793493414281,
     "779b8efcfde8": 1793493414281,
-    "5c0f5597e17c": 1793493414281
+    "5c0f5597e17c": 1793493414281,
+    "a7b115343e6b": 1793515731114,
+    "075203936253": 1793515731114,
+    "2b17f64ab787": 1793515731114,
+    "48fc8e8442cf": 1793515731114,
+    "ae819c817b46": 1793515731114,
+    "5aa71af59bd5": 1793515731114,
+    "5823f4c5809b": 1793515731114,
+    "6de848f0c04c": 1793515731114,
+    "f2dc96efeb5d": 1793515731114,
+    "af2b2c266c65": 1793515731114,
+    "a5ac9334304f": 1793515731114,
+    "0e2216af81e7": 1793515731114,
+    "cd89f8cae6d2": 1793515731114,
+    "cadba591fc56": 1793515731114,
+    "4f15eb8d2e48": 1793515731114,
+    "c78cb2e6b11f": 1793515731114
   },
   "pending": {
-    "418059": {
-      "createdAt": 1793493428736,
+    "07d4ff": {
+      "createdAt": 1793515767582,
       "item": {
-        "title": "Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
-        "url": "https://greekcitytimes.com/2026/11/01/israeli-ambassador-rejects-turkey-libya-maritime-deal-backs-greece/",
-        "summary": "Israel’s Ambassador to Greece, Pnina Yanai, condemns the Turkey-Libya maritime memorandum and reaffirms Israel’s respect for Greek sovereignty and international law.\n The post Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece appeared first on Greek City Times .",
-        "published": "Sat, 31 Oct 2026 23:28:16 +0000",
-        "id": "9943a44acf70",
+        "title": "Greece Tops Europe as Housing Swallows Over 40% of Income",
+        "url": "https://greekcitytimes.com/2026/11/01/greece-housing-cost-overburden/",
+        "summary": "Greece has Europe's highest housing cost overburden rate: 26.4% of people spend over 40% of their income on housing, three times the EU average.\n The post Greece Tops Europe as Housing Swallows Over 40% of Income appeared first on Greek City Times .",
+        "published": "Sun, 01 Nov 2026 06:08:57 +0000",
+        "id": "075203936253",
         "sourceId": "gct",
         "sourceName": "Greek City Times",
         "official": false,
@@ -2121,18 +2120,18 @@
         "strike": false
       },
       "pick": {
-        "id": "9943a44acf70",
-        "section": "israelis",
-        "priority": 9,
+        "id": "075203936253",
+        "section": "real-estate",
+        "priority": 7,
         "sensitive": true,
         "breaking": false,
-        "reason": "The Israeli Ambassador to Greece publicly condemns the Turkey-Libya maritime deal and reiterates backing for Greek sovereignty, which directly affects geopolitical ties relevant to our audience.",
+        "reason": "New data shows housing costs in Greece are the highest in Europe, crucial for investors, buyers, and Israelis looking at the Greek property market.",
         "item": {
-          "title": "Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
-          "url": "https://greekcitytimes.com/2026/11/01/israeli-ambassador-rejects-turkey-libya-maritime-deal-backs-greece/",
-          "summary": "Israel’s Ambassador to Greece, Pnina Yanai, condemns the Turkey-Libya maritime memorandum and reaffirms Israel’s respect for Greek sovereignty and international law.\n The post Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece appeared first on Greek City Times .",
-          "published": "Sat, 31 Oct 2026 23:28:16 +0000",
-          "id": "9943a44acf70",
+          "title": "Greece Tops Europe as Housing Swallows Over 40% of Income",
+          "url": "https://greekcitytimes.com/2026/11/01/greece-housing-cost-overburden/",
+          "summary": "Greece has Europe's highest housing cost overburden rate: 26.4% of people spend over 40% of their income on housing, three times the EU average.\n The post Greece Tops Europe as Housing Swallows Over 40% of Income appeared first on Greek City Times .",
+          "published": "Sun, 01 Nov 2026 06:08:57 +0000",
+          "id": "075203936253",
           "sourceId": "gct",
           "sourceName": "Greek City Times",
           "official": false,
@@ -2142,68 +2141,68 @@
         }
       },
       "draft": {
-        "slug": "israeli-ambassador-rejects-turkey-libya-deal",
-        "section": "israelis",
+        "slug": "greece-highest-housing-cost-overburden-rate-europe",
+        "section": "real-estate",
         "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "יחסים ביוון",
-          "en": "Greece Relations"
+          "he": "שיא בנדל\"ן",
+          "en": "Housing Record"
         },
-        "imageKey": "politics",
-        "imageQuery": "diplomacy flags meeting",
+        "imageKey": "house",
+        "imageQuery": "athens apartment buildings street",
         "he": {
-          "title": "שגרירות ישראל באתונה: הסכם טורקיה-לוב חסר תוקף",
-          "seoTitle": "שגרירות ישראל ביוון: הסכם טורקיה-לוב חסר תוקף משפטי",
-          "seoDesc": "שגרירת ישראל ביוון פנינת ינאי גינתה את ההסכם הימי בין טורקיה ללוב, והדגישה את המחויבות לריבונות יוון ולזכויות האיים כרתים ורודוס.",
+          "title": "הוצאות הדיור ביוון: המדינה שוב בראש הטבלה באירופה",
+          "seoTitle": "נדל\"ן ביוון: שיא בהוצאות הדיור באירופה ב-2026",
+          "seoDesc": "נתוני יורוסטאט מראים כי 26.4% מהתושבים ביוון מוציאים מעל 40% מהכנסתם על דיור. כל הפרטים על שוק הנדל\"ן ביוון ומה זה אומר למשקיעים.",
           "keywords": [
-            "שגרירות ישראל ביוון",
-            "יוון",
-            "אתונה",
-            "כרתים",
-            "רודוס"
+            "נדל\"ן ביוון",
+            "דירה באתונה",
+            "השקעה בנדל\"ן ביוון",
+            "יוון יוקר מחיה",
+            "שוק הדיור ביוון"
           ],
-          "dek": "שגרירת ישראל באתונה הבהירה כי ההסכם הימי בין טורקיה ללוב נטול תוקף משפטי, והדגישה את התמיכה בריבונות יוון ובזכויות האיים הפופולריים.",
+          "dek": "נתוני יורוסטאט חדשים לשנת 2026 מציבים את יוון במקום הראשון באירופה בשיעור העומס הכלכלי על משקי הבית עקב עלויות הדיור.",
           "tldr": [
-            "ישראל גינתה בחריפות את ההסכם הימי בין טורקיה ללוב.",
-            "השגרירות באתונה הבהירה שההסכם מתעלם מזכויות האיים כרתים ורודוס.",
-            "ישראל מאשרת את כבוד מלא לריבונות יוון ולחוק הבינלאומי."
+            "26.4% מהאוכלוסייה ביוון מוציאים מעל 40% מההכנסה על דיור.",
+            "הנתון גבוה פי שלושה מהממוצע באיחוד האירופי העומד על 7.7%.",
+            "למרות ירידה קלה מ-28.9% ב-2024, יוון עדיין מובילה את הפער באירופה."
           ],
-          "means": "האירוע שומר על קו מדיני ברור בין ישראל ליוון ומדגיש את החשיבות של האיים כרתים ורודוס, היעדים המועדפים על תיירים ישראלים רבים. אין השפעה ישירה על תוכניות נסיעה או על עסקים באזור, אך מומלץ להתעדכן תמיד בהנחיות הרשמיות של משרד החוץ לפני כל נסיעה.",
-          "body": "שגרירות ישראל ביוון והשגרירת פנינת ינאי פרסמו הודעה רשמית שבה גינו בחריפות את ההסכם הימי שנחתם בין טורקיה ללוב. בהודעה שהתפרסמה ברשתות החברתיות, הודגש כי מזכר הבנות זה נעדר בסיס חוקי, תוקף או לגיטימציה מצד המשפט הבינלאומי.\n\n## עמדת ישראל כלפי הריבונות ביוון\n\nבמסגרת ההודעה הרשמית, שילבו השגרירות ופנינת ינאי קטע וידאו מתוך נאומו של ראש ממשלת יוון, קיריאקוס מיצוטאקיס, בדיון פתוח ברמה גבוהה של מועצת הביטחון של האו\"ם שעסק בביטחון ימי ובטכנולוגיות מתפתחות. בנאומו ציין מיצוטאקיס כי אין אפשרות לשכתב את הגאוגרפיה או למחוק זכויות ריבוניות באמצעות שרטוט קווים שרירותיים על גבי מפה.\n\nהנציגות הישראלית באתונה הסבירה כי ההסכם בין טורקיה ללוב ניסה לקבוע גבולות ימיים תוך התעלמות מוחלטת מהזכויות הימיות של האיים היווניים, ובראשם כרתים ורודוס. האיים הללו מוכרים היטב כיעדי חופשה אהובים במיוחד על ידי מטיילים ישראלים רבים בכל עונת חופש.\n\n## חשיבות ההקשר הימי והבינלאומי\n\nההצהרה הישראלית הדגישה את המחויבות המלאה לריבונותה של יוון ולזכויותיה הריבוניות, לצד שמירה על עקרונות המשפט הבינלאומי המקובלים. המסר המרכזי שהועבר הוא שאף הסכם בין שתי מדינות אינו יכול לפגוע בזכויות הלגיטימיות של מדינה שלישית.\n\nמהלך דיפלומטי זה מצטרף לשורת התבטאויות בינלאומיות הנוגעות ליציבות באזור האגן המזרחי של הים התיכון, שטח בעל חשיבות אסטרטגית ותיירותית עבור ישראלים רבים המבקרים במדינה מדי שנה.\n\n## שאלות נפוצות\n\n**האם ההסכם משפיע על טיסות או חופשות של ישראלים ביוון?**\nלא, מדובר בהצהרה דיפלומטית בלבד שאינה משפיעה על טיסות, מלונות או פעילות תיירותית שוטפת באתונה ובאיים.\n\n**באילו איים מדובר בהודעה של השגרירות?**\nההודעה התייחסה במיוחד לאיים כרתים ורודוס, המוכרים כיעדי נופש פופולריים בקרב תיירים מישראל."
+          "means": "עבור משקיעים ישראלים המסתכלים על שוק הדיור באתונה ובערים נוספות, הנתונים הללו ממחישים את הלחץ בשוק השכירות המקומי לצד עליית מחירי הנדל\"ן. מומלץ לבדוק היטב תשואות, עלויות אחזקה נלוות כמו אנרגיה ותחזוקה, ולהתייעץ עם אנשי מקצוע לפני כל רכישה.",
+          "body": "## המצב בשוק הדיור ביוון לפי נתוני יורוסטאט\n\nיוון שוב רושמת את שיעור עומס הוצאות הדיור הגבוה ביותר באירופה, כך עולה מנתוני יורוסטאט שפורסמו לאחרונה. על פי הנתונים, 26.4% מהתושבים במדינה מוציאים יותר מ-40% מההכנסה הפנויה שלהם על הוצאות הקשורות לדיור. מדובר בנתון הגבוה פי שלושה ויותר מהממוצע במדינות האיחוד האירופי, שעמד על 7.7% בשנת 2025.\n\nלצד זאת, ניכרת מגמת התמתנות קלה לעומת התקופה הקודמת. שיעור העומס הכלכלי ירד מ-28.9% בשנת 2024 ל-26.4%, אך למרות הירידה הזו, יוון ממשיכה לעמוד בפער ניכר מעל יתר המדינות שנבדקו בסקר, הכולל את 27 חברות האיחוד האירופי, שתי מדינות EFTA וחמש מדינות מועמדות.\n\n## השוואה אירופית וגורמים מרכזיים לעלויות\n\nבהשוואה לשאר אירופה, דנמרק נמצאת במקום השני אחרי יוון עם 14.7%, אחריה גרמניה עם 11.2% ושוודיה עם 10.8%. מנגד, מדינות כמו קפריסין רושמות את השיעור הנמוך ביותר באירופה, העומד על 2.4% בלבד. בסך הכל, יותר מ-34 מיליון בני אדם באיחוד האירופי חיים במשקי בית המתמודדים עם עומס כלכלי חריג בשל הוצאות הדיור.\n\nמומחים כלכליים ומחוקקים מציינים כי העלויות כוללות שכירות או תשלומי משכנתא, כגון חשבונות שירותים, ביטוח, תחזוקה ומיסים בניכוי סובסידיות דיור. לדברי חוקרים בתחום, הגורם המרכזי לתופעה הוא עליית עלויות הדיור בקצב מהיר יותר מהגידול המצומצם בהכנסות, במיוחד בקרב בעלי השתכרות נמוכה.\n\n## השפעות על השוק המקומי והמשקיעים\n\nבשטח, נתונים אלו נוחתים במקביל לעלייה מתמשכת במחירי הבתים ביוון, בזמן שהשכר הממוצע במדינה נותר נמוך משמעותית מהממוצע באיחוד האירופי. נתונים סטטיסטיים רחבים יותר מראים שמחירי הבתים באיחוד האירופי עלו בממוצע ב-69% בין שנת 2015 לרבעון השני של 2026.\n\nעבור משקיעים ופעילים בשוק הנדל\"ן המקומי, המורכבות הזו דורשת הבנה מעמיקה של היחס שבין עלויות הרכישה, מחירי השכירות האפשריים לטווח ארוך או קצר, וההוצאות השוטפות כמו אנרגיה ותחזוקה. מומחים מזהירים כי עלויות האנרגיה צפויים להמשיך להוות גורם מכריע בהוצאות הדיור הכלליות בתקופה הקרובה.\n\n## שאלות נפוצות\n\n**מהיכן לקוחים הנתונים על הוצאות הדיור ביוון?**\nהנתונים מבוססים על סטטיסטיקות של יורוסטאט שנתחו על ידי גורמי תקשורת כלכליים באירופה.\n\n**האם מחירי הנדל\"ן ביוון ממשיכים לעלות?**\nכן, מחירי הבתים באיחוד האירופי ובון המשיכו במגמת עלייה מתמשכת בשנים האחרונות בהשוואה לשנת 2015.\n\n**למי מומלץ לפנות לפני השקעה בנדל\"ן ביוון?**\nמומלץ להתייעץ עם אנשי מקצוע בתחום המשפטי, הפיסקאלי והנדל\"ני המקומי כדי לקבל תמונה מלאה ומדויקת על עלויות והזדמנויות."
         },
         "en": {
-          "title": "Israeli Embassy in Athens Rejects Turkey-Libya Maritime Deal",
-          "seoTitle": "Israel Rejects Turkey-Libya Maritime Deal in Support of Greece",
-          "seoDesc": "Israel's Ambassador to Greece Pninat Yanai condemned the Turkey-Libya maritime deal, affirming respect for Greek sovereignty and island rights.",
+          "title": "Greece Leads Europe Again in Housing Cost Overburden",
+          "seoTitle": "Greece Housing Costs: Highest Burden in Europe 2026",
+          "seoDesc": "Eurostat data shows 26.4% of people in Greece spend over 40% of income on housing. Read about the housing market and what it means.",
           "keywords": [
-            "Israel ambassador Greece",
-            "Turkey Libya deal",
-            "Greece sovereignty",
-            "Athens",
-            "Crete"
+            "greece housing cost",
+            "housing overburden greece",
+            "greece real estate market",
+            "athens housing prices",
+            "eurostat greece housing"
           ],
-          "dek": "Israel's Ambassador to Greece has unequivocally condemned the Turkey-Libya maritime memorandum, stressing full respect for Greek sovereignty and island rights.",
+          "dek": "New Eurostat data for 2026 places Greece at the top of the European list for the highest proportion of household income spent on housing.",
           "tldr": [
-            "Israel strongly condemned the maritime agreement between Turkey and Libya.",
-            "The Israeli Embassy in Athens stated the deal lacks legal validity and legitimacy.",
-            "The statement reaffirmed full respect for Greece's sovereignty and maritime rights."
+            "26.4% of people in Greece spend more than 40% of disposable income on housing.",
+            "The rate is more than three times the EU average of 7.7%.",
+            "Despite dropping from 28.9% in 2024, Greece remains far ahead of other nations."
           ],
-          "means": "This diplomatic development underscores the strong bilateral relations between Israel and Greece, focusing on stability in the Eastern Mediterranean. It has no practical impact on travel plans or investments in Athens or the Greek islands, but travellers should always monitor official advisories.",
-          "body": "Israel’s Ambassador to Greece, Pninat Yanai, has issued a strong condemnation of the maritime memorandum signed between Turkey and Libya. In a joint message with the Israeli Embassy in Athens, Yanai declared that the agreement possesses no legal basis, validity, or legitimacy under international law.\n\n## Upholding Greek Sovereignty and International Law\n\nThe announcement featured a video excerpt from Greek Prime Minister Kyriakos Mitsotakis’s address at a high-level open debate of the United Nations Security Council, focusing on maritime security. In the video, Mitsotakis emphasized that geography cannot be rewritten and sovereign rights cannot be erased by arbitrary lines drawn on maps.\n\nThe Israeli ambassador and embassy pointed out that the agreement between Turkey and Libya attempted to establish maritime boundaries while ignoring the established maritime rights of Greek islands, including Crete and Rhodes. Both islands remain extremely popular holiday destinations for Israeli tourists.\n\n## Reaffirming Bilateral Ties\n\nThe official statement concluded by reiterating that Israel fully respects Greece’s sovereignty and sovereign rights, alongside the foundational principles of international law. The diplomatic message underlined the principle that no agreement between two nations can undermine the legitimate rights of a third party.\n\nThis stance reflects Israel’s ongoing diplomatic alignment with Athens regarding regional maritime stability and international legal norms in the Eastern Mediterranean.\n\n## FAQ\n\n**Does this diplomatic statement affect travel to Greece?**\nNo, this is a diplomatic statement and has no practical impact on flights, hotels, or tourism for visitors in Greece.\n\n**Which Greek islands were specifically mentioned in the statement?**\nThe statement highlighted Crete and Rhodes as popular holiday destinations whose maritime rights must be respected."
+          "means": "For Israeli investors and buyers looking at the Greek property market, these figures highlight the heavy financial strain on local renters alongside rising housing prices. It is essential to thoroughly calculate yields, ongoing maintenance and utility costs, and consult local professionals before purchasing.",
+          "body": "## Housing Cost Overburden Rates Across Europe\n\nGreece once again records the highest housing cost overburden rate in Europe, according to Eurostat data analysed for late 2026. The figures indicate that 26.4% of the population in Greece spends more than 40% of their disposable income on housing. This rate is more than three times the European Union average, which stood at 7.7% in 2025.\n\nDespite holding the top position, the Greek housing cost overburden rate did experience a slight decrease, falling from 28.9% in 2024. Nevertheless, Greece maintains a wide gap ahead of every other country included in the dataset, which covers 27 EU member states, two EFTA states, and five candidate countries.\n\n## International Comparisons and Key Cost Drivers\n\nWhen comparing rates across Europe, Denmark follows in second place at 14.7%, with Germany at 11.2% and Sweden at 10.8% well above the EU average. Conversely, Cyprus records the lowest rate in the region at just 2.4%. Overall, more than 34 million people across the EU live in households facing severe housing cost pressures.\n\nExperts explain that housing costs calculated by Eurostat include rent or mortgage interest, alongside utilities, insurance, maintenance, and taxes, minus housing allowances. Researchers point out that the primary driver of this overburden is that housing costs continue to rise at a faster pace than modest income growth, particularly affecting lower-income earners.\n\n## Impact on the Local Market and Investors\n\nFor Greek households, these economic pressures arrive as house prices continue their upward trajectory, while average wages remain well below the EU average. Wider Eurostat figures show that EU house prices rose by an average of 69% between 2015 and the second quarter of 2026.\n\nFor real estate investors and market participants, understanding these dynamics requires careful evaluation of purchasing expenses, potential long-term or short-term rental yields, and recurring utility and maintenance costs. Analysts warn that rising energy costs are also likely to remain a central factor driving up housing expenditures moving forward.\n\n## FAQ\n\n**Where do the housing cost statistics come from?**\nThe data is based on official Eurostat figures covering EU member states and partner countries.\n\n**Are house prices continuing to rise in Greece?**\nYes, house prices across the European Union and Greece have seen substantial overall increases since 2015.\n\n**Who should investors consult before buying property in Greece?**\nIt is recommended to speak with qualified local legal, tax, and real estate professionals to review all costs and regulations."
         }
       },
-      "text": "0 \n 0 \n 0 \n Israel’s Ambassador to Greece, Pninat Yanai, has unequivocally condemned the Turkey-Libya maritime memorandum, declaring that it has no legal validity and affirming Israel’s respect for Greece’s sovereignty, sovereign rights and international law.\n In a post on X late on Saturday, Yanai and the Israeli Embassy in Athens stressed that the agreement between Turkey and Libya lacks legal basis, validity and legitimacy.\n Their statements included a video excerpt from Greek Prime Minister Kyriakos Mitsotakis’s address at a high-level open debate organised under Greece’s presidency of the United Nations Security Council.\n The debate focused on Maintaining International Peace and Security: Emerging Technologies and Maritime Security.\n Read more: Greek Consul Rejects Turkish Aegean Claims at Istanbul OXI Day Event \n In the video, Mitsotakis said: “Geography cannot be rewritten. And sovereign rights cannot be erased by drawing arbitrary lines on a map.”\n In their joint message, the Israeli ambassador and embassy explained that Turkey and Libya had attempted to establish maritime boundaries through their agreement while disregarding the maritime rights of Greek islands, including Crete and Rhodes.\n They described the two islands as particularly popular holiday destinations among Israelis.\n “Israel strongly condemns this agreement and considers it to lack legal basis, validity and legitimacy,” the statement said.\n It added that Israel fully respects Greece’s sovereignty and sovereign rights, as well as the principles of international law.\n “No agreement between two countries can undermine the legitimate rights of a third country,” the statement concluded.\n (Source: AMNA)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Raises Turkey-Libya Maritime Deal at UN Security Council \n Greek PM: Turkey-Libya Maritime Agreement Illegal and Invalid \n Greece and Turkey Clash at UN Security Council \n Turkey Offers Egypt Maritime Deal, Claims Better Terms Than Greece \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greece Promotes Thrace as a Destination for Religious Tourism\n Next Article \n Apollon Smyrnis Kits Revive a Forgotten 1904 Monogram\n 0 \n 0 \n 0",
+      "text": "Dense apartment blocks beneath Lycabettus Hill in Athens. Photo: Marylinalcyonova / Wikimedia Commons (CC BY-SA 4.0) 0 0 0 ATHENS, November 2026 — Greece again has the highest housing cost overburden rate in Europe, with 26.4% of people spending more than 40% of their disposable income on housing. \n That is more than three times the EU average of 7.7% in 2025, according to Eurostat data analysed by Euronews Business. The comparison covers the 27 EU members, two EFTA states and five candidate countries.\n The Greek housing cost overburden rate did ease, however. It fell from 28.9% in 2024, but Greece still sits far ahead of every other country with data.\n How Greece compares on housing cost overburden\n Denmark comes second in the EU at 14.7%. Germany (11.2%) and Sweden (10.8%) are also well above the EU average.\n Read more: Athens Rental Shortage Deepens as Listings Fall up to 26.9% in a Year \n Outside the EU, the rate is high in Switzerland (15.3%) and Norway (13.5%). Turkey records 10%, while Montenegro (8.7%) and Serbia (7.9%) are also above average.\n In contrast, Cyprus has the lowest rate in Europe, at just 2.4%. Croatia (3.2%), Slovenia (3.5%) and Slovakia (3.5%) are also low.\n Overall, more than 34 million people in the EU live in households facing housing cost overburden. EU house prices rose by 69% on average between 2015 and the second quarter of 2026, Eurostat says.\n Why housing costs bite harder in Greece\n Eurostat counts rent or mortgage interest as housing costs. It also counts utilities, insurance, maintenance and taxes , net of housing allowances.\n Dr Hannah Widmer of ETH Zürich told Euronews that the main driver of housing cost overburden is housing costs rising faster than modest income growth, especially for lower earners.\n She said the rate depends on how many people rent privately, on welfare systems and on the wider economy. Still, she warned that overburden means something very different in Greece than in Switzerland.\n Rikke Skovgaard Nielsen of Aalborg University agreed that the reasons in Greece, Switzerland and Denmark are not the same. The money left after rent, she said, varies widely between them.\n Dr Marietta Haffner of TU Delft said rising energy costs are likely to be a main driver of housing costs next year.\n For Greek households, the figures land as house prices keep rising , while wages remain well below the EU average.\n Source: Euronews \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greek Youth Struggle to Leave Home Amid Rising Housing Costs \n Greece’s Inflation Falls Below Eurozone and EU Averages \n Greece Opens Applications for €36,000 Home Renovation Grants \n Greece Unveils New Housing Measures to Ease Rent Pressures \n Advertising\n GCT staff \n GCT staff is a Greek City Times news byline for collaborative desk reporting on Greek, diaspora, and international news.\n Previous Article Natalia Margioli Breaks a 115-Year Barrier at Shipbrokers’ Institute\n No Newer Articles \n 0 0 0",
       "issues": [],
       "el": {
-        "title": "Η Πρεσβεία του Israel στην Αθήνα απορρίπτει τη συμφωνία Τουρκίας-Λιβύης",
-        "dek": "Ο Πρέσβεας του Ισραήλ στην Ελλάδα καταδίκασε κατηγορηματικά το θαλάσσιο μνημόνιο Τουρκίας-Λιβύης, τονίζοντας τον πλήρη σεβασμό στην ελληνική κυριαρχία και τα δικαιώματα των νησιών.",
+        "title": "Η Ελλάδα ξανά πρώτη στην Ευρώπη στην επιβάρυνση από το κόστος στέγασης",
+        "dek": "Τα νέα δεδομένα της Eurostat για το 2026 φέρνουν την Ελλάδα στην κορυφή της ευρωπαϊκής λίστας όσον αφορά το υψηλότερο ποσοστό του εισοδήματος των νοικοκυριών που ξοδεύεται για στέγαση.",
         "tldr": [
-          "Το Ισραήλ καταδίκασε έντονα τη ναυτιλιακή συμφωνία μεταξύ Τουρκίας και Λιβύης.",
-          "Η Πρεσβεία του Ισραήλ στην Αθήνα δήλωσε ότι η συμφωνία στερείται νομικής ισχύος και νομιμότητας.",
-          "Η δήλωση επανεπιβεβαίωσε τον πλήρη σεβασμό στην κυριαρχία και τα θαλάσσια δικαιώματα της Ελλάδας."
+          "Το 26,4% των ανθρώπων στην Ελλάδα ξοδεύει πάνω από το 40% του διαθέσιμου εισοδήματός του για στέγαση.",
+          "Το ποσοστό αυτό είναι υπερτριπλάσιο από τον ευρωπαϊκό μέσο όρο του 7,7%.",
+          "Παρά τη μείωση από 28,9% το 2024, η Ελλάδα παραμένει πολύ μπροστά από άλλες χώρες."
         ]
       },
       "notified": true
@@ -2218,12 +2217,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-01T00:36:43.348Z",
+      "at": "2026-11-01T06:48:38.161Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-01T00:36:44.012Z",
+      "at": "2026-11-01T06:48:39.093Z",
       "items": 5
     },
     "civilprotection": {
@@ -2234,27 +2233,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-01T00:36:45.711Z",
+      "at": "2026-11-01T06:48:41.522Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-01T00:36:46.113Z",
+      "at": "2026-11-01T06:48:41.927Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-01T00:36:47.095Z",
+      "at": "2026-11-01T06:48:43.126Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-01T00:36:48.016Z",
+      "at": "2026-11-01T06:48:44.064Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-01T00:36:48.785Z",
+      "at": "2026-11-01T06:48:44.987Z",
       "items": 10
     },
     "toi-greece": {
@@ -2265,23 +2264,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-01T00:36:49.188Z",
-      "items": 5
+      "at": "2026-11-01T06:48:45.734Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-01T00:36:49.285Z",
+      "at": "2026-11-01T06:48:45.779Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-01T00:36:49.480Z",
-      "items": 4
+      "at": "2026-11-01T06:48:46.347Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T00:36:49.627Z",
-      "items": 3
+      "at": "2026-11-01T06:48:46.906Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2290,12 +2289,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T00:36:44.639Z",
+      "at": "2026-11-01T06:48:39.764Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-01T00:36:50.156Z",
+      "at": "2026-11-01T06:48:47.565Z",
       "items": 0
     },
     "hcg": {
@@ -2306,40 +2305,53 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-01T00:36:51.541Z",
+      "at": "2026-11-01T06:48:48.481Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-01T00:36:51.754Z",
-      "items": 3
+      "at": "2026-11-01T06:48:48.717Z",
+      "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-01T00:36:51.936Z",
+      "at": "2026-11-01T06:48:48.923Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-01T00:36:52.201Z",
-      "items": 2
+      "at": "2026-11-01T06:48:49.191Z",
+      "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-01T00:36:52.523Z",
-      "items": 8
+      "at": "2026-11-01T06:48:49.528Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-01T00:36:52.907Z",
-      "items": 12
+      "at": "2026-11-01T06:48:49.844Z",
+      "items": 15
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-01",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "israel-ambassador-greece-turkey-libya-deal",
+        "title": "Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal",
+        "at": "2026-11-01T08:48:34+02:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "greece-weather-warning-november-2026",
+        "title": "↻ Severe Weather in Greece: Heavy Rains and Storms Until Monday",
+        "at": "2026-11-01T08:49:06+02:00",
+        "section": "breaking"
+      }
+    ],
     "rejected": [
       {
         "title": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
@@ -2350,9 +2362,21 @@
         "title": "Arson Suspected in Overnight Fire at Glyfada Mercedes Dealership",
         "reason": "Ίδιο θέμα με «Glyfada: Arson suspected after fire at car dealership» – δεν γράφτηκε ξανά",
         "at": "2026-11-01T00:37:22.102Z"
+      },
+      {
+        "title": "Η πρέσβης του Ισραήλ, Πνινάτ Γιανάι, καταδικάζει το τουρκολιβυκό μνημόνιο ποστάροντας βίντεο με τον Κυριάκο Μητσοτάκη - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal» – δεν γράφτηκε ξανά",
+        "at": "2026-11-01T06:49:10.856Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "israel-ambassador-greece-turkey-libya-deal",
+        "at": "2026-11-01T06:48:34.777Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2538,32 +2562,26 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-01T00:36:54.281Z",
-    "considered": 22,
+    "at": "2026-11-01T06:48:51.115Z",
+    "considered": 16,
     "picked": 3,
     "items": [
-      "· gct | What Europe’s Rights Court Found About Karpasia’s Enclaved Greek Cypriots",
-      "· gct | Peloton Apologises and Pulls Its Varosha Halloween Ride",
-      "· gct | Turkey Nominates Ex-Foreign Minister Sinirlioglu for UN Chief",
-      "· gct | Police Dismantle NGO Ring Accused of Exploiting Sick Children",
-      "· gct | Turkish Roadworks Unearth a Mysterious Ancient Greek Inscription in Pamukova",
-      "· gct | Chris Lucas Says Red Tape Is Killing the Fair Go",
-      "· gct | Postecoglou Praises Ronaldo Hat-Trick Despite His ‘Advanced Age’",
-      "· gct | Apollon Smyrnis Kits Revive a Forgotten 1904 Monogram",
-      "✓ gct | Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
-      "· gct | Greece Promotes Thrace as a Destination for Religious Tourism",
-      "· ert | Πρέσβης Ισραήλ: Καταδικάζουμε το τουρκολιβυκό μνημόνιο, δεν έχει ισχύ – Σεβόμαστε τα κυρια",
-      "✓ gct | Arson Suspected in Overnight Fire at Glyfada Mercedes Dealership",
-      "· naftemporiki | «Στερείται νομικής βάσης»: Η πρέσβης του Ισραήλ καταδικάζει το τουρκολιβυκό μνημόνιο",
-      "· gct | Bartholomew Raises Ukraine’s Abducted Children in Zelensky Phanar Meeting",
-      "· gct | Court Finds Five Police Officers Guilty in Vasilis Maggos Case",
-      "· gct | Archbishop Elpidophoros Casts First Vote as American Citizen",
-      "· gn-iefimerida | Μίλαν - Ίντερ 3-1: Οι «ροσονέρι» καθάρισαν από το πρώτο ημίχρονο το ντέρμπι και έβαλαν... ",
-      "· gn-kathimerini | Το Ισραήλ καταδικάζει το τουρκολιβυκό μνημόνιο - Kathimerini",
-      "· gn-kathimerini | Γαλλία – Γερμανία: Μαζικές διαδηλώσεις της Gen Z κατά της ακρίβειας - Kathimerini",
-      "· gn-iefimerida | Κατατέθηκε στη Βουλή το νομοσχέδιο για την αγορά ηλεκτρικής ενέργειας -Τι προβλέπει - iefi",
-      "· gn-iefimerida | Πλάκα: Νέα βίντεο-ντοκουμέντα με τους τρεις συλληφθέντες να ψάχνουν «στόχους» το βράδυ της",
-      "✓ gn-iefimerida | Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr"
+      "✓ naftemporiki | Διήμερη κακοκαιρία με ισχυρές βροχές και καταιγίδες – Πού αναμένονται έντονα φαινόμενα",
+      "✓ gct | Greece Tops Europe as Housing Swallows Over 40% of Income",
+      "· gct | Natalia Margioli Breaks a 115-Year Barrier at Shipbrokers’ Institute",
+      "· naftemporiki | Οι 3 χώρες που θησαυρίζουν από την κόντρα ΗΠΑ – Κίνας",
+      "· gct | The Lion of Kea Still Guards Its 2,600-Year-Old Secret",
+      "· gct | Pi-Shaped Storm Hits Greece as EMY Issues Emergency Warning",
+      "· ingr | ΗΠΑ: Σε τροχιά ανατροπής οι Δημοκρατικοί – Το «γαλάζιο κύμα», το πολιτικό βαρίδι του Τραμπ",
+      "· gn-iefimerida | Θεσσαλονίκη: Φωτιά σε αστικό λεωφορείο στη Θέρμη - iefimerida.gr",
+      "· ingr | Κακοκαιρία: Νέο έκτακτο δελτίο για ισχυρές βροχές και καταιγίδες – Ποιες περιοχές θα βρεθο",
+      "· gct | Greek Potato Stew: An Easy One-Pan Dinner With Olives and Tomato",
+      "· gct | Renaissance Medal Preserves the Face of Byzantine Emperor",
+      "· ert | Γαλλία: Άγριες συγκρούσεις στο Παρίσι – Μολότοφ, τραυματισμοί και 290 συλλήψεις",
+      "· ingr | Δυτική Όχθη: Εκτοπισμός 450 οικογενειών – Ο ισραηλινός στρατός κατοχής συνέλαβε Παλαιστίνι",
+      "✓ gn-iefimerida | Η πρέσβης του Ισραήλ, Πνινάτ Γιανάι, καταδικάζει το τουρκολιβυκό μνημόνιο ποστάροντας βίντ",
+      "· gn-iefimerida | Πομπηία: Οι 7 μύθοι για την έκρηξη του Βεζούβιου που ακόμη πιστεύουμε - Πού είναι οι υπόλο",
+      "· gn-iefimerida | Ιράν: Πλήγμα σε πλοίο νότια του νησιού Λαβάν -Ξέσπασε φωτιά - iefimerida.gr"
     ]
   },
   "evergreenDone": [
@@ -2606,5 +2624,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793317265548,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "israel-ambassador-greece-turkey-libya-deal",
+      "url": "https://yavanet.gr/a/israel-ambassador-greece-turkey-libya-deal/",
+      "at": "2026-11-01T06:48:34.777Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/israel-ambassador-greece-turkey-libya-deal/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/israel-ambassador-greece-turkey-libya-deal/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שגרירות ישראל ביוון: ההסכם הימי בין טורקיה ללוב חסר תוקף",
+        "title_en": "Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal",
+        "dek_he": "שגרירת ישראל באתונה פנינת ינאי הבהירה כי הסכם הגבולות הימיים מתעלם מזכויותיו של איים כמו כרתים ורודוס, והדגישה את המחויבות לריבונות יוון ולחוק הבינלאומי.",
+        "dek_en": "Ambassador Pninat Yanai and the Israeli Embassy in Athens stated that the maritime agreement ignores the rights of Greek islands like Crete and Rhodes, backing Greece's sovereignty.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/3224356/pexels-photo-3224356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שגרירות ישראל ביוון: ההסכם הימי בין טורקיה ללוב חסר תוקף\n\nשגרירת ישראל באתונה פנינת ינאי הבהירה כי הסכם הגבולות הימיים מתעלם מזכויותיו של איים כמו כרתים ורודוס, והדגישה את המחויבות לריבונות יוון ולחוק הבינלאומי.\n\nhttps://yavanet.gr/a/israel-ambassador-greece-turkey-libya-deal/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal\n\nAmbassador Pninat Yanai and the Israeli Embassy in Athens stated that the maritime agreement ignores the rights of Greek islands like Crete and Rhodes, backing Greece's sovereignty.\n\nhttps://yavanet.gr/en/a/israel-ambassador-greece-turkey-libya-deal/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
