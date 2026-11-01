@@ -17,15 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "b82df86c80d2": 1792275246588,
-    "2fd0b5f72d72": 1792275246588,
-    "da875492406a": 1792276537788,
-    "647e46555c62": 1792276537788,
-    "e745c805e101": 1792277826183,
-    "b37bd7b21d95": 1792277826183,
-    "c40885b641f4": 1792277826183,
-    "fd04f3d410e5": 1792278502803,
-    "94696bb48172": 1792279734102,
     "b36161ce4b9b": 1792284656518,
     "965c030db36a": 1792288285809,
     "08fff6c387fa": 1792294475952,
@@ -2089,9 +2080,135 @@
     "ffe1fc4f71c6": 1793483883369,
     "41c8966a6318": 1793483883369,
     "1cc42048c9d3": 1793483883369,
-    "5758d516618d": 1793483883369
+    "5758d516618d": 1793483883369,
+    "a1a0f1478365": 1793493414281,
+    "be78551dd10b": 1793493414281,
+    "4cfe985ab927": 1793493414281,
+    "21ab63af2947": 1793493414281,
+    "2311f67aa86d": 1793493414281,
+    "4b3f389eb8c1": 1793493414281,
+    "9dd8811de6d0": 1793493414281,
+    "8e8f3f7e45f9": 1793493414281,
+    "9943a44acf70": 1793493414281,
+    "0bdf8d6d0854": 1793493414281,
+    "24602e0486f5": 1793493414281,
+    "82826d4bfca4": 1793493414281,
+    "4e1caf5e4479": 1793493414281,
+    "f22b9df0fed7": 1793493414281,
+    "02e94bae6e95": 1793493414281,
+    "2bac38ebca4a": 1793493414281,
+    "78cb3bb08686": 1793493414281,
+    "b8ab2e82790a": 1793493414281,
+    "06895d79450f": 1793493414281,
+    "1c6cffef8036": 1793493414281,
+    "779b8efcfde8": 1793493414281,
+    "5c0f5597e17c": 1793493414281
   },
-  "pending": {},
+  "pending": {
+    "418059": {
+      "createdAt": 1793493428736,
+      "item": {
+        "title": "Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
+        "url": "https://greekcitytimes.com/2026/11/01/israeli-ambassador-rejects-turkey-libya-maritime-deal-backs-greece/",
+        "summary": "Israel’s Ambassador to Greece, Pnina Yanai, condemns the Turkey-Libya maritime memorandum and reaffirms Israel’s respect for Greek sovereignty and international law.\n The post Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece appeared first on Greek City Times .",
+        "published": "Sat, 31 Oct 2026 23:28:16 +0000",
+        "id": "9943a44acf70",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "9943a44acf70",
+        "section": "israelis",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "The Israeli Ambassador to Greece publicly condemns the Turkey-Libya maritime deal and reiterates backing for Greek sovereignty, which directly affects geopolitical ties relevant to our audience.",
+        "item": {
+          "title": "Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
+          "url": "https://greekcitytimes.com/2026/11/01/israeli-ambassador-rejects-turkey-libya-maritime-deal-backs-greece/",
+          "summary": "Israel’s Ambassador to Greece, Pnina Yanai, condemns the Turkey-Libya maritime memorandum and reaffirms Israel’s respect for Greek sovereignty and international law.\n The post Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece appeared first on Greek City Times .",
+          "published": "Sat, 31 Oct 2026 23:28:16 +0000",
+          "id": "9943a44acf70",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "israeli-ambassador-rejects-turkey-libya-deal",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "יחסים ביוון",
+          "en": "Greece Relations"
+        },
+        "imageKey": "politics",
+        "imageQuery": "diplomacy flags meeting",
+        "he": {
+          "title": "שגרירות ישראל באתונה: הסכם טורקיה-לוב חסר תוקף",
+          "seoTitle": "שגרירות ישראל ביוון: הסכם טורקיה-לוב חסר תוקף משפטי",
+          "seoDesc": "שגרירת ישראל ביוון פנינת ינאי גינתה את ההסכם הימי בין טורקיה ללוב, והדגישה את המחויבות לריבונות יוון ולזכויות האיים כרתים ורודוס.",
+          "keywords": [
+            "שגרירות ישראל ביוון",
+            "יוון",
+            "אתונה",
+            "כרתים",
+            "רודוס"
+          ],
+          "dek": "שגרירת ישראל באתונה הבהירה כי ההסכם הימי בין טורקיה ללוב נטול תוקף משפטי, והדגישה את התמיכה בריבונות יוון ובזכויות האיים הפופולריים.",
+          "tldr": [
+            "ישראל גינתה בחריפות את ההסכם הימי בין טורקיה ללוב.",
+            "השגרירות באתונה הבהירה שההסכם מתעלם מזכויות האיים כרתים ורודוס.",
+            "ישראל מאשרת את כבוד מלא לריבונות יוון ולחוק הבינלאומי."
+          ],
+          "means": "האירוע שומר על קו מדיני ברור בין ישראל ליוון ומדגיש את החשיבות של האיים כרתים ורודוס, היעדים המועדפים על תיירים ישראלים רבים. אין השפעה ישירה על תוכניות נסיעה או על עסקים באזור, אך מומלץ להתעדכן תמיד בהנחיות הרשמיות של משרד החוץ לפני כל נסיעה.",
+          "body": "שגרירות ישראל ביוון והשגרירת פנינת ינאי פרסמו הודעה רשמית שבה גינו בחריפות את ההסכם הימי שנחתם בין טורקיה ללוב. בהודעה שהתפרסמה ברשתות החברתיות, הודגש כי מזכר הבנות זה נעדר בסיס חוקי, תוקף או לגיטימציה מצד המשפט הבינלאומי.\n\n## עמדת ישראל כלפי הריבונות ביוון\n\nבמסגרת ההודעה הרשמית, שילבו השגרירות ופנינת ינאי קטע וידאו מתוך נאומו של ראש ממשלת יוון, קיריאקוס מיצוטאקיס, בדיון פתוח ברמה גבוהה של מועצת הביטחון של האו\"ם שעסק בביטחון ימי ובטכנולוגיות מתפתחות. בנאומו ציין מיצוטאקיס כי אין אפשרות לשכתב את הגאוגרפיה או למחוק זכויות ריבוניות באמצעות שרטוט קווים שרירותיים על גבי מפה.\n\nהנציגות הישראלית באתונה הסבירה כי ההסכם בין טורקיה ללוב ניסה לקבוע גבולות ימיים תוך התעלמות מוחלטת מהזכויות הימיות של האיים היווניים, ובראשם כרתים ורודוס. האיים הללו מוכרים היטב כיעדי חופשה אהובים במיוחד על ידי מטיילים ישראלים רבים בכל עונת חופש.\n\n## חשיבות ההקשר הימי והבינלאומי\n\nההצהרה הישראלית הדגישה את המחויבות המלאה לריבונותה של יוון ולזכויותיה הריבוניות, לצד שמירה על עקרונות המשפט הבינלאומי המקובלים. המסר המרכזי שהועבר הוא שאף הסכם בין שתי מדינות אינו יכול לפגוע בזכויות הלגיטימיות של מדינה שלישית.\n\nמהלך דיפלומטי זה מצטרף לשורת התבטאויות בינלאומיות הנוגעות ליציבות באזור האגן המזרחי של הים התיכון, שטח בעל חשיבות אסטרטגית ותיירותית עבור ישראלים רבים המבקרים במדינה מדי שנה.\n\n## שאלות נפוצות\n\n**האם ההסכם משפיע על טיסות או חופשות של ישראלים ביוון?**\nלא, מדובר בהצהרה דיפלומטית בלבד שאינה משפיעה על טיסות, מלונות או פעילות תיירותית שוטפת באתונה ובאיים.\n\n**באילו איים מדובר בהודעה של השגרירות?**\nההודעה התייחסה במיוחד לאיים כרתים ורודוס, המוכרים כיעדי נופש פופולריים בקרב תיירים מישראל."
+        },
+        "en": {
+          "title": "Israeli Embassy in Athens Rejects Turkey-Libya Maritime Deal",
+          "seoTitle": "Israel Rejects Turkey-Libya Maritime Deal in Support of Greece",
+          "seoDesc": "Israel's Ambassador to Greece Pninat Yanai condemned the Turkey-Libya maritime deal, affirming respect for Greek sovereignty and island rights.",
+          "keywords": [
+            "Israel ambassador Greece",
+            "Turkey Libya deal",
+            "Greece sovereignty",
+            "Athens",
+            "Crete"
+          ],
+          "dek": "Israel's Ambassador to Greece has unequivocally condemned the Turkey-Libya maritime memorandum, stressing full respect for Greek sovereignty and island rights.",
+          "tldr": [
+            "Israel strongly condemned the maritime agreement between Turkey and Libya.",
+            "The Israeli Embassy in Athens stated the deal lacks legal validity and legitimacy.",
+            "The statement reaffirmed full respect for Greece's sovereignty and maritime rights."
+          ],
+          "means": "This diplomatic development underscores the strong bilateral relations between Israel and Greece, focusing on stability in the Eastern Mediterranean. It has no practical impact on travel plans or investments in Athens or the Greek islands, but travellers should always monitor official advisories.",
+          "body": "Israel’s Ambassador to Greece, Pninat Yanai, has issued a strong condemnation of the maritime memorandum signed between Turkey and Libya. In a joint message with the Israeli Embassy in Athens, Yanai declared that the agreement possesses no legal basis, validity, or legitimacy under international law.\n\n## Upholding Greek Sovereignty and International Law\n\nThe announcement featured a video excerpt from Greek Prime Minister Kyriakos Mitsotakis’s address at a high-level open debate of the United Nations Security Council, focusing on maritime security. In the video, Mitsotakis emphasized that geography cannot be rewritten and sovereign rights cannot be erased by arbitrary lines drawn on maps.\n\nThe Israeli ambassador and embassy pointed out that the agreement between Turkey and Libya attempted to establish maritime boundaries while ignoring the established maritime rights of Greek islands, including Crete and Rhodes. Both islands remain extremely popular holiday destinations for Israeli tourists.\n\n## Reaffirming Bilateral Ties\n\nThe official statement concluded by reiterating that Israel fully respects Greece’s sovereignty and sovereign rights, alongside the foundational principles of international law. The diplomatic message underlined the principle that no agreement between two nations can undermine the legitimate rights of a third party.\n\nThis stance reflects Israel’s ongoing diplomatic alignment with Athens regarding regional maritime stability and international legal norms in the Eastern Mediterranean.\n\n## FAQ\n\n**Does this diplomatic statement affect travel to Greece?**\nNo, this is a diplomatic statement and has no practical impact on flights, hotels, or tourism for visitors in Greece.\n\n**Which Greek islands were specifically mentioned in the statement?**\nThe statement highlighted Crete and Rhodes as popular holiday destinations whose maritime rights must be respected."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Israel’s Ambassador to Greece, Pninat Yanai, has unequivocally condemned the Turkey-Libya maritime memorandum, declaring that it has no legal validity and affirming Israel’s respect for Greece’s sovereignty, sovereign rights and international law.\n In a post on X late on Saturday, Yanai and the Israeli Embassy in Athens stressed that the agreement between Turkey and Libya lacks legal basis, validity and legitimacy.\n Their statements included a video excerpt from Greek Prime Minister Kyriakos Mitsotakis’s address at a high-level open debate organised under Greece’s presidency of the United Nations Security Council.\n The debate focused on Maintaining International Peace and Security: Emerging Technologies and Maritime Security.\n Read more: Greek Consul Rejects Turkish Aegean Claims at Istanbul OXI Day Event \n In the video, Mitsotakis said: “Geography cannot be rewritten. And sovereign rights cannot be erased by drawing arbitrary lines on a map.”\n In their joint message, the Israeli ambassador and embassy explained that Turkey and Libya had attempted to establish maritime boundaries through their agreement while disregarding the maritime rights of Greek islands, including Crete and Rhodes.\n They described the two islands as particularly popular holiday destinations among Israelis.\n “Israel strongly condemns this agreement and considers it to lack legal basis, validity and legitimacy,” the statement said.\n It added that Israel fully respects Greece’s sovereignty and sovereign rights, as well as the principles of international law.\n “No agreement between two countries can undermine the legitimate rights of a third country,” the statement concluded.\n (Source: AMNA)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Raises Turkey-Libya Maritime Deal at UN Security Council \n Greek PM: Turkey-Libya Maritime Agreement Illegal and Invalid \n Greece and Turkey Clash at UN Security Council \n Turkey Offers Egypt Maritime Deal, Claims Better Terms Than Greece \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greece Promotes Thrace as a Destination for Religious Tourism\n Next Article \n Apollon Smyrnis Kits Revive a Forgotten 1904 Monogram\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Πρεσβεία του Israel στην Αθήνα απορρίπτει τη συμφωνία Τουρκίας-Λιβύης",
+        "dek": "Ο Πρέσβεας του Ισραήλ στην Ελλάδα καταδίκασε κατηγορηματικά το θαλάσσιο μνημόνιο Τουρκίας-Λιβύης, τονίζοντας τον πλήρη σεβασμό στην ελληνική κυριαρχία και τα δικαιώματα των νησιών.",
+        "tldr": [
+          "Το Ισραήλ καταδίκασε έντονα τη ναυτιλιακή συμφωνία μεταξύ Τουρκίας και Λιβύης.",
+          "Η Πρεσβεία του Ισραήλ στην Αθήνα δήλωσε ότι η συμφωνία στερείται νομικής ισχύος και νομιμότητας.",
+          "Η δήλωση επανεπιβεβαίωσε τον πλήρη σεβασμό στην κυριαρχία και τα θαλάσσια δικαιώματα της Ελλάδας."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2101,12 +2218,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-10-31T21:57:50.435Z",
+      "at": "2026-11-01T00:36:43.348Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-10-31T21:57:51.329Z",
+      "at": "2026-11-01T00:36:44.012Z",
       "items": 5
     },
     "civilprotection": {
@@ -2117,27 +2234,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-10-31T21:57:53.284Z",
+      "at": "2026-11-01T00:36:45.711Z",
       "items": 16
     },
     "usgs": {
       "ok": true,
-      "at": "2026-10-31T21:57:53.637Z",
+      "at": "2026-11-01T00:36:46.113Z",
       "items": 5
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-10-31T21:57:54.591Z",
+      "at": "2026-11-01T00:36:47.095Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-10-31T21:57:55.525Z",
-      "items": 1
+      "at": "2026-11-01T00:36:48.016Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-10-31T21:57:56.148Z",
+      "at": "2026-11-01T00:36:48.785Z",
       "items": 10
     },
     "toi-greece": {
@@ -2148,23 +2265,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-10-31T21:57:56.774Z",
+      "at": "2026-11-01T00:36:49.188Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-10-31T21:57:57.025Z",
+      "at": "2026-11-01T00:36:49.285Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-10-31T21:57:58.239Z",
+      "at": "2026-11-01T00:36:49.480Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T21:57:58.446Z",
-      "items": 2
+      "at": "2026-11-01T00:36:49.627Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2173,12 +2290,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-10-31T21:57:51.989Z",
+      "at": "2026-11-01T00:36:44.639Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-10-31T21:57:59.262Z",
+      "at": "2026-11-01T00:36:50.156Z",
       "items": 0
     },
     "hcg": {
@@ -2189,149 +2306,60 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-10-31T21:58:00.895Z",
+      "at": "2026-11-01T00:36:51.541Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-10-31T21:58:01.093Z",
-      "items": 5
+      "at": "2026-11-01T00:36:51.754Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-10-31T21:58:01.242Z",
-      "items": 2
+      "at": "2026-11-01T00:36:51.936Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-10-31T21:58:01.475Z",
+      "at": "2026-11-01T00:36:52.201Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-10-31T21:58:01.805Z",
+      "at": "2026-11-01T00:36:52.523Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-10-31T21:58:02.218Z",
+      "at": "2026-11-01T00:36:52.907Z",
       "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-10-31",
-    "count": 8,
-    "published": [
-      {
-        "slug": "tag-greece-new-tourism-initiative",
-        "title": "Greece Launches Tag Greece Initiative to Promote Gastronomy and Agritourism",
-        "at": "2026-10-31T01:40:30+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greek-wine-production-historic-lows-climate-change",
-        "title": "Climate Extremes Push Greek Wine Production to Historic Lows",
-        "at": "2026-10-31T01:40:50+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "earthquake-chalkidiki-felt-athens",
-        "title": "↻ Update: Magnitude 4.2 earthquake strikes off Chalkidiki",
-        "at": "2026-10-31T04:45:15+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-israel-elections-atthens-strategy",
-        "title": "Greece monitors political developments in Israel",
-        "at": "2026-10-31T07:26:03+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-home-renovation-program-2026",
-        "title": "Greece Opens Online Applications for Home Renovation Grants",
-        "at": "2026-10-31T07:26:19+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "earthquake-chalkidiki-felt-athens",
-        "title": "↻ Earthquake in Greece: Magnitude 4.2 quake off Chalkidiki",
-        "at": "2026-10-31T07:27:16+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "earthquake-chalkidiki-felt-athens",
-        "title": "↻ Earthquake in Greece: Another aftershock recorded off Chalkidiki",
-        "at": "2026-10-31T10:53:34+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "syntagma-metro-closure-october-2026",
-        "title": "Athens: Syntagma metro station to close by police order",
-        "at": "2026-10-31T14:14:22+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "glyfada-car-dealership-fire",
-        "title": "Glyfada: Arson suspected after fire at car dealership",
-        "at": "2026-10-31T14:14:31+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-weather-warning-november-2026",
-        "title": "Severe weather warning in Greece: Heavy rain and thunderstorms expected",
-        "at": "2026-10-31T14:15:01+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "olympiacos-considers-kilian-hayes",
-        "title": "Olympiacos considers adding guard Killian Hayes",
-        "at": "2026-10-31T14:15:16+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-weather-warning-november-2026",
-        "title": "↻ Severe Weather in Greece: Heavy Rains and Storms Until Tuesday",
-        "at": "2026-10-31T23:26:38+02:00",
-        "section": "breaking"
-      }
-    ],
+    "date": "2026-11-01",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Επιδείνωση του καιρού αύριο Κυριακή (01-11-2026) και τη Δευτέρα (02-11-2026) με ισχυρές βροχές, καταιγίδες και τοπικές χαλαζοπτώσεις - Civil",
-        "reason": "Ίδιο θέμα με «Severe weather warning in Greece: Heavy rain and thunderstorms expected»: The article invents many details, mentions of flights, ferries, specific advice, and extrapolates extensively beyond the very short source text (Rule 8 violation: adding facts and details not in the source).",
-        "at": "2026-10-31T14:52:09.232Z"
-      },
-      {
-        "title": "Συμμετέχει στην πανελλαδική απεργία της 25ης Νοεμβρίου η Ομοσπονδία των Μεταλλωρύχων",
-        "reason": "Ίδιο θέμα με «Train Strike in Greece: Proastiakos and Hellenic Train Services Halted» – δεν γράφτηκε ξανά",
-        "at": "2026-10-31T14:52:13.971Z"
-      },
-      {
-        "title": "Κλειστός από τις 12:00 ο σταθμός του Μετρό στο Σύνταγμα με εντολή της ΕΛ.ΑΣ - Kathimerini",
+        "title": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
         "reason": "Ίδιο θέμα με «Athens: Syntagma metro station to close by police order» – δεν γράφτηκε ξανά",
-        "at": "2026-10-31T14:52:18.206Z"
+        "at": "2026-11-01T00:37:17.571Z"
       },
       {
-        "title": "Έκρηξη στην Πλάκα: Καρέ-καρέ οι κινήσεις των τριών κατηγορουμένων πριν τη δολιοφθορά",
-        "reason": "Ίδιο θέμα με «Athens Plaka explosion: Three arrested over copper theft link» – δεν γράφτηκε ξανά",
-        "at": "2026-10-31T21:26:43.163Z"
+        "title": "Arson Suspected in Overnight Fire at Glyfada Mercedes Dealership",
+        "reason": "Ίδιο θέμα με «Glyfada: Arson suspected after fire at car dealership» – δεν γράφτηκε ξανά",
+        "at": "2026-11-01T00:37:22.102Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greece-israel-elections-atthens-strategy",
-        "at": "2026-10-31T05:26:04.267Z"
-      },
-      {
-        "slug": "syntagma-metro-closure-october-2026",
-        "at": "2026-10-31T12:14:23.472Z"
-      }
-    ],
-    "ig": []
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-10-31",
+      "count": 8,
+      "rejected": 4
+    },
     {
       "date": "2026-10-30",
       "count": 5,
@@ -2510,18 +2538,32 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-10-31T21:58:03.369Z",
-    "considered": 8,
-    "picked": 0,
+    "at": "2026-11-01T00:36:54.281Z",
+    "considered": 22,
+    "picked": 3,
     "items": [
-      "· gct | Banks Prepare for AI-Driven Shopping and Payments",
-      "· gn-iefimerida | Γαλλία: Στους δρόμους χιλιάδες διαδηλωτές ενάντια στην ακρίβεια -Σε 422 συλλήψεις προχώρησ",
-      "· gct | Kosmas and Damianos Name Day 2026: Feast of the Holy Unmercenaries",
-      "· gct | Three Greek Survivors of Spain Train Disaster Return Home",
-      "· gct | Greek Egg Producers Still Unable to Meet Domestic Demand",
-      "· gct | Greece Opens Dakar 2026 Youth Olympic Games",
-      "· gn-iefimerida | Γιάννης Καλλιάνος: Στο επίκεντρο της κακοκαιρίας η Αττική και άλλες 10 περιοχές -«Προσοχή ",
-      "· ingr | Μίλαν – Ίντερ 3-1: Πάρτι για τους Ροσονέρι στο Derby della Madonnina!"
+      "· gct | What Europe’s Rights Court Found About Karpasia’s Enclaved Greek Cypriots",
+      "· gct | Peloton Apologises and Pulls Its Varosha Halloween Ride",
+      "· gct | Turkey Nominates Ex-Foreign Minister Sinirlioglu for UN Chief",
+      "· gct | Police Dismantle NGO Ring Accused of Exploiting Sick Children",
+      "· gct | Turkish Roadworks Unearth a Mysterious Ancient Greek Inscription in Pamukova",
+      "· gct | Chris Lucas Says Red Tape Is Killing the Fair Go",
+      "· gct | Postecoglou Praises Ronaldo Hat-Trick Despite His ‘Advanced Age’",
+      "· gct | Apollon Smyrnis Kits Revive a Forgotten 1904 Monogram",
+      "✓ gct | Israeli Ambassador Rejects Turkey-Libya Maritime Deal, Backs Greece",
+      "· gct | Greece Promotes Thrace as a Destination for Religious Tourism",
+      "· ert | Πρέσβης Ισραήλ: Καταδικάζουμε το τουρκολιβυκό μνημόνιο, δεν έχει ισχύ – Σεβόμαστε τα κυρια",
+      "✓ gct | Arson Suspected in Overnight Fire at Glyfada Mercedes Dealership",
+      "· naftemporiki | «Στερείται νομικής βάσης»: Η πρέσβης του Ισραήλ καταδικάζει το τουρκολιβυκό μνημόνιο",
+      "· gct | Bartholomew Raises Ukraine’s Abducted Children in Zelensky Phanar Meeting",
+      "· gct | Court Finds Five Police Officers Guilty in Vasilis Maggos Case",
+      "· gct | Archbishop Elpidophoros Casts First Vote as American Citizen",
+      "· gn-iefimerida | Μίλαν - Ίντερ 3-1: Οι «ροσονέρι» καθάρισαν από το πρώτο ημίχρονο το ντέρμπι και έβαλαν... ",
+      "· gn-kathimerini | Το Ισραήλ καταδικάζει το τουρκολιβυκό μνημόνιο - Kathimerini",
+      "· gn-kathimerini | Γαλλία – Γερμανία: Μαζικές διαδηλώσεις της Gen Z κατά της ακρίβειας - Kathimerini",
+      "· gn-iefimerida | Κατατέθηκε στη Βουλή το νομοσχέδιο για την αγορά ηλεκτρικής ενέργειας -Τι προβλέπει - iefi",
+      "· gn-iefimerida | Πλάκα: Νέα βίντεο-ντοκουμέντα με τους τρεις συλληφθέντες να ψάχνουν «στόχους» το βράδυ της",
+      "✓ gn-iefimerida | Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr"
     ]
   },
   "evergreenDone": [
