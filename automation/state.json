@@ -17,25 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "efdf8e368165": 1792353963656,
-    "85ed81adf280": 1792353963656,
-    "217cd22992d4": 1792353963656,
-    "d463aee889da": 1792353963656,
-    "a21bf0b1fec5": 1792355538381,
-    "e5ae728be7b2": 1792355538381,
-    "e4c9681dddd6": 1792355538381,
-    "c05dd6687769": 1792357218304,
-    "c46afbf1713d": 1792357218304,
-    "f57c2aec290f": 1792357218304,
-    "e35997311707": 1792358236739,
-    "63ec670a5a7d": 1792358236739,
-    "cfc1c9cbf97f": 1792360112910,
-    "c9c69d0177f4": 1792360112910,
-    "773c9c90599c": 1792360112910,
-    "b7a339d1553e": 1792361311905,
-    "1acf5394d5b3": 1792361311905,
-    "366cd982c0c9": 1792361311905,
-    "b2174dbc4c85": 1792361311905,
     "adca633b515e": 1792362734112,
     "ed05c3a583f2": 1792362734112,
     "01516de7e23e": 1792362734112,
@@ -2079,9 +2060,130 @@
     "8aff734039f2": 1793558321161,
     "553fb9fa2722": 1793558321161,
     "605e9e93c65b": 1793558321161,
-    "5377cd20299e": 1793558321161
+    "5377cd20299e": 1793558321161,
+    "59f7fc340155": 1793571822499,
+    "c2fa11138957": 1793571822499,
+    "11178ade7f7b": 1793571822499,
+    "e1bb91b8ab7d": 1793571822499,
+    "15cc3e6b0942": 1793571822499,
+    "62439348a8af": 1793571822499,
+    "f6a7ae32bbbe": 1793571822499,
+    "91274161e453": 1793571822499,
+    "ccc01b7bc4a2": 1793571822499,
+    "bc31e5943d91": 1793571822499,
+    "ff64f5cfd957": 1793571822499,
+    "33aa3c753f20": 1793571822499,
+    "55e6397af0b4": 1793571822499,
+    "489817086814": 1793571822499,
+    "4ba057298f5f": 1793571822499,
+    "66d57f71ae66": 1793571822499,
+    "b0ee9b46367a": 1793571822499
   },
-  "pending": {},
+  "pending": {
+    "7a1fc1": {
+      "createdAt": 1793571837491,
+      "item": {
+        "title": "Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey",
+        "url": "https://greekcitytimes.com/2026/11/02/former-israeli-intelligence-commander-warns-greece-prepare-for-war-with-turkey/",
+        "summary": "A former Israeli military intelligence commander has warned Greece to prepare for a potential conflict with Turkey, pointing to Ankara’s growing military capabilities and regional influence.\n The post Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey appeared first on Greek City Times .",
+        "published": "Sun, 01 Nov 2026 18:38:41 +0000",
+        "id": "55e6397af0b4",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "55e6397af0b4",
+        "section": "israelis",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Former Israeli intelligence commander warns Greece to prepare for a potential conflict with Turkey, highly relevant for Israeli security-conscious readers and geopolitical followers.",
+        "item": {
+          "title": "Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey",
+          "url": "https://greekcitytimes.com/2026/11/02/former-israeli-intelligence-commander-warns-greece-prepare-for-war-with-turkey/",
+          "summary": "A former Israeli military intelligence commander has warned Greece to prepare for a potential conflict with Turkey, pointing to Ankara’s growing military capabilities and regional influence.\n The post Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey appeared first on Greek City Times .",
+          "published": "Sun, 01 Nov 2026 18:38:41 +0000",
+          "id": "55e6397af0b4",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "former-israeli-intelligence-officer-warns-greece-turkey",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "אזהרה ביטחונית",
+          "en": "Security Warning"
+        },
+        "imageKey": "politics",
+        "imageQuery": "geopolitics eastern mediterranean sea",
+        "he": {
+          "title": "בכיר לשעבר באמ״ן מזהיר את יוון: תתכוננו לעימות צבאי מול טורקיה",
+          "seoTitle": "בכיר לשעבר באמ״ן מזהיר את יוון: להיערך לעימות מול טורקיה",
+          "seoDesc": "מרקו מורנו, בכיר לשעבר באמ\"ן, קורא ליוון להיערך לאפשרות של עימות צבאי מול טורקיה על רקע התעצמותה באזור המזרח התיכון והים התיכון.",
+          "keywords": [
+            "יוון",
+            "ישראלים ביוון",
+            "טורקיה",
+            "אמ״ן",
+            "חדשות יוון"
+          ],
+          "dek": "מרקו מורנו, שכיהן קרוב ל-25 שנה בתפקידי מפתח באגף המודיעין הישראלי, קורא בראיון לתקשורת היוונית להקדים הכנות צבאיות מול אנקרה.",
+          "tldr": [
+            "בכיר לשעבר באמ\"ן, מרקו מורנו, קורא ליוון להיערך לעימות צבאי אפשרי מול טורקיה.",
+            "האזהרה ניתנה בראיון לעיתון היווני פרוטו תמה והתפרסמה גם בכלי תקשורת נוספים.",
+            "ההערכה מתבססת על התעצמות תעשיית הביטחון הטורקית והשפעתה במזרח התיכון ובמזרח הים התיכון."
+          ],
+          "means": "עבור ישראלים השוהים ביוון או מתכננים נסיעה, מדובר בהערכת מצב גיאופוליטית ואין שינוי מיידי בהנחיות הבטיחות לנוסעים או לפעילות התחבורה. מומלץ לעקוב אחר עדכונים רשמיים של הרשויות ביוון ובישראל לגבי המצב הביטחוני והמדיני באזור.",
+          "body": "## אזהרת הבכיר לשעבר וההקשר הביטחוני\n\nמרקו מורנו, מי שכיהן כקרוב ל-25 שנים בתפקידים שונים באגף המודיעין של צה\"ל (אמ\"ן), הציג הערכת מצב חריגה בראיון לעיתון היווני \"פרוטו תמה\". לדבריו, על אתונה לקחת בחשבון את האפשרות של עימות צבאי מול טורקיה ולהתחיל בהכנות מוקדמות. מורנו, ששירת בין היתר ביחידה 504 וניהל רשתות מודיעין מעבר לגבולות ישראל, הדגיש כי אין מדובר באינדיקציה לעימות קרב אלא בהערכה מקצועית על רקע המציאות המשתנה באזור.\n\n## התעצמותה של טורקיה במזרח הים התיכון\n\nבבסיס האזהרה עומדת ההבנה כי טורקיה הפכה לאחד השחקנים המרכזיים במאזן הביטחוני של המזרח התיכון ומזרח הים התיכון. המומחה ציין את התפתחות תעשיית הביטחון הטורקית, הרחבת היכולות הצבאיות והשפעתה הגוברת של אנקרה על הנעשה באזור, בין היתר בסוריה ובסוגיות ימיות שונות. במקביל, יוון וטורקיה ממשיכות להתמודד עם מחלוקות ארוכות שנים סביב גבולות ימיים, פעילות צבאית וביטחון אזורי.\n\n## מה זה אומר עבור הישראלים ביוון?\n\nעבור ישראלים הנמצאים ביוון או מתעניינים בנעשה בה, הדיווח משקף את המתיחות הגיאופוליטית המתמשכת במרחב. ההערכות של מורנו הן בגדר ניתוח מקצועי פרטי ואינן מעידות על שינוי במצב הביטחוני היומיומי ברחובות אתונה או האיים. עם זאת, עבור מי שמתגורר במדינה או מנהל בה עסקים ונכסים, חשוב להכיר את הרקע הביטחוני והיחסים המדיניים המורכבים בין שתי השכנות.\n\n## שאלות נפוצות\n\n**האם יש שינוי בהנחיות המסע ליוון בעקבות האזהרה?**\nלא, הדברים נאמרו כהערכה מקצועית של בכיר לשעבר ואינם מהווים אזהרת מסע רשמית מטעם הרשויות.\n\n**מי מסר את האזהרה ליוון?**\nהאזהרה ניתנה על ידי מרקו מורנו, ששירות כ-25 שנה בתפקידי מפתח באגף המודיעין של צה\"ל (אמ\"ן) ופיקד על מבצעים ביחידה 504.\n\n**היכן פורסמו הדברים לראשונה?**\nהדברים נאמרו בראיון לעיתון היווני \"פרוטו תמה\" ודווחו בהמשך גם בכלי תקשורת נוספים באזור."
+        },
+        "en": {
+          "title": "Former Israeli intelligence officer warns Greece to prepare for potential conflict with Turkey",
+          "seoTitle": "Former Israeli Intelligence Officer Warns Greece on Turkey",
+          "seoDesc": "Marco Moreno, a former senior Israeli military intelligence officer, urges Greece to prepare for a potential military confrontation with Turkey.",
+          "keywords": [
+            "Greece",
+            "Turkey",
+            "Israel intelligence",
+            "Eastern Mediterranean",
+            "Greece security"
+          ],
+          "dek": "Marco Moreno, who served for nearly 25 years in AMAN, urges Athens in a Greek newspaper interview not to underestimate Ankara's growing military power.",
+          "tldr": [
+            "A former senior Israeli intelligence officer urges Greece to prepare for potential military conflict with Turkey.",
+            "The warning was delivered in an interview with the Greek newspaper Proto Thema.",
+            "The assessment highlights Turkey's expanding defense industry and growing influence in the Eastern Mediterranean."
+          ],
+          "means": "For Israelis living in, visiting, or investing in Greece, this is a geopolitical analysis rather than an immediate security threat. Daily life, tourism, and travel between Israel and Greece continue as usual, with no official travel warnings issued based on these remarks.",
+          "body": "## Former Intelligence Officer's Warning to Athens\n\nMarco Moreno, who reportedly served for nearly 25 years in key positions within Israel's Military Intelligence Directorate (AMAN), has urged Greece to prepare for a potential military confrontation with Turkey. In an interview with the Greek newspaper Proto Thema, Moreno called on Athens not to underestimate Ankara’s growing military capabilities and regional influence, advising Greek authorities to make military preparations ahead of time.\n\n## Turkey's Growing Regional Power\n\nDuring his career, Moreno commanded operations within Unit 504, a specialized division handling human intelligence and field operations beyond Israel’s borders. Based on his security background, he pointed to Turkey’s expanding defense industry, advancements in military capabilities, and increasing presence across the Eastern Mediterranean and the Middle East, including operations in Syria. He noted that these developments are reshaping the regional balance of power amidst ongoing disagreements between Greece and Turkey over maritime boundaries and regional security.\n\n## Context for Israeli Readers\n\nWhile Moreno’s remarks represent his own professional assessment rather than an imminent military confrontation, they highlight the complex geopolitical landscape of the Eastern Mediterranean. For Israelis connected to Greece, this analysis underscores the strategic realities of the region without indicating any immediate disruption to travel, business, or daily life in Athens and the Greek islands.\n\n## FAQ\n\n**Does this warning affect travel or flights to Greece?**\nNo, the remarks are a personal professional assessment by a former intelligence officer and do not affect current flights, tourism, or safety conditions in Greece.\n\n**Who issued the warning to Greece?**\nMarco Moreno, a former senior officer who served for nearly 25 years in Israel's Military Intelligence Directorate (AMAN) and Unit 504.\n\n**Where were the original remarks published?**\nThe statements were delivered in an interview with the Greek newspaper Proto Thema and subsequently reported by other regional media outlets."
+        }
+      },
+      "text": "0 0 0 A former senior Israeli military intelligence officer has urged Greece to prepare for a potential military confrontation with Turkey, warning Athens not to underestimate Ankara’s growing military capabilities and regional influence.\n Marco Moreno, who reportedly served for nearly 25 years in key positions within Israel’s Military Intelligence Directorate (AMAN), delivered the warning in an interview with Greek newspaper Proto Thema .\n “Prepare for war with Turkey. Make your military preparations in time. Winter is coming,” Moreno reportedly told the Greek public.\n Former intelligence officer points to Turkey’s growing military power\n Moreno argued that Greece must keep the possibility of military conflict with Turkey firmly within its defence planning.\n Read more: Libya Ratifies Türkiye Maritime Deal; EU Calls It Null and Void \n He pointed to Turkey’s expanding defence industry, growing military capabilities and increasing influence across the Eastern Mediterranean and the Middle East, arguing that these developments are reshaping the regional balance of power.\n He also highlighted Turkey’s military presence in Syria, acknowledging Ankara’s significant influence on developments on the ground.\n “With its military capabilities, advancements in the defence industry, and influence on regional developments, Türkiye is one of the most critical actors in the security balance of the Eastern Mediterranean and the Middle East,” Moreno reportedly said.\n His background in Israel’s intelligence services\n Moreno previously commanded operations within Unit 504, a highly specialised division of Israel’s Military Intelligence Directorate, AMAN.\n The unit is responsible for human intelligence (HUMINT), including the recruitment and management of intelligence sources, as well as field operations beyond Israel’s borders.\n During his career, Moreno reportedly oversaw intelligence networks in foreign countries and played a role in operations involving Syria and Lebanon.\n His remarks come amid heightened geopolitical competition across the Eastern Mediterranean, where Greece and Turkey continue to face longstanding disagreements over maritime boundaries, military activity and regional security.\n Moreno’s comments amount to a stark warning to Athens about Turkey’s growing strategic position, although his call for Greece to prepare for war represents his own assessment rather than an indication of an imminent military confrontation.\n Source: Sözcü , reporting on an interview with Proto Thema .\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Mitsotakis Welcomes Rubio at Maximos Mansion as Greece-US Strategic Ties Take Centre Stage \n Greece Offers Naval Support to US in Strait of Hormuz, Gerapetritis Says \n Turkish media float proposal for artificial islands in Aegean \n Marco Rubio heads to Athens with defence, energy and Eastern Mediterranean agenda \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article Turkish Primary School Republic Day Play: Children in Demon Masks Wrapped in Greek, British Flags Spark Online Backlash\n Next Article New Democracy Begins Intensive Election Preparations\n 0 0 0",
+      "issues": [],
+      "el": {
+        "title": "Πρώην αξιωματικός των ισραηλινών μυστικών υπηρεσιών προειδοποιεί την Ελλάδα να προετοιμαστεί για πιθανή σύγκρουση με την Τουρκία",
+        "dek": "Ο Μάρκο Μορένο, ο οποίος υπηρέτησε για σχεδόν 25 χρόνια στην AMAN, παροτρύνει την Αθήνα σε συνέντευξή του σε ελληνική εφημερίδα να μην υποτιμά την αυξανόμενη στρατιωτική ισχύ της Άγκυρας.",
+        "tldr": [
+          "Ένας πρώην ανώτερος αξιωματικός των ισραηλινών μυστικών υπηρεσιών προτρέπει την Ελλάδα να προετοιμαστεί για μια πιθανή στρατιωτική σύγκρουση με την Τουρκία.",
+          "Η προειδοποίηση δόθηκε σε συνέντευξη στην ελληνική εφημερίδα Πρώτο Θέμα.",
+          "Η εκτίμηση υπογραμμίζει την επεκτεινόμενη αμυντική βιομηχανία της Τουρκίας και την αυξανόμενη επιρροή της στην Ανατολική Mεσόγειο."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2091,12 +2193,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-01T18:38:27.936Z",
+      "at": "2026-11-01T22:23:29.602Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-01T18:38:28.878Z",
+      "at": "2026-11-01T22:23:30.476Z",
       "items": 5
     },
     "civilprotection": {
@@ -2107,27 +2209,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-01T18:38:31.420Z",
+      "at": "2026-11-01T22:23:33.247Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-01T18:38:31.792Z",
+      "at": "2026-11-01T22:23:33.378Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-01T18:38:32.721Z",
+      "at": "2026-11-01T22:23:34.245Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-01T18:38:33.650Z",
-      "items": 2
+      "at": "2026-11-01T22:23:35.107Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-01T18:38:34.512Z",
+      "at": "2026-11-01T22:23:35.986Z",
       "items": 10
     },
     "toi-greece": {
@@ -2138,23 +2240,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-01T18:38:35.132Z",
+      "at": "2026-11-01T22:23:36.595Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-01T18:38:35.397Z",
+      "at": "2026-11-01T22:23:36.750Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-01T18:38:35.593Z",
-      "items": 3
+      "at": "2026-11-01T22:23:36.998Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T18:38:36.156Z",
-      "items": 2
+      "at": "2026-11-01T22:23:37.512Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2163,12 +2265,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T18:38:29.620Z",
+      "at": "2026-11-01T22:23:31.214Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-01T18:38:36.955Z",
+      "at": "2026-11-01T22:23:38.328Z",
       "items": 0
     },
     "hcg": {
@@ -2179,107 +2281,60 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-01T18:38:38.574Z",
+      "at": "2026-11-01T22:23:39.692Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-01T18:38:38.776Z",
+      "at": "2026-11-01T22:23:39.899Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-01T18:38:38.944Z",
-      "items": 4
+      "at": "2026-11-01T22:23:40.078Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-01T18:38:39.327Z",
+      "at": "2026-11-01T22:23:40.293Z",
       "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-01T18:38:39.656Z",
-      "items": 5
+      "at": "2026-11-01T22:23:40.669Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-01T18:38:40.107Z",
-      "items": 12
+      "at": "2026-11-01T22:23:41.078Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-01",
-    "count": 2,
-    "published": [
-      {
-        "slug": "israel-ambassador-greece-turkey-libya-deal",
-        "title": "Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal",
-        "at": "2026-11-01T08:48:34+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-weather-warning-november-2026",
-        "title": "↻ Severe Weather in Greece: Heavy Rains and Storms Until Monday",
-        "at": "2026-11-01T08:49:06+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-highest-housing-cost-overburden-rate-europe",
-        "title": "Greece Leads Europe Again in Housing Cost Overburden",
-        "at": "2026-11-01T09:51:38+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "didymoteicho-jewish-cemetery-exhibition",
-        "title": "↻ Righteous Among the Nations honor in Greece for couple who saved Jewish family",
-        "at": "2026-11-01T16:59:56+02:00",
-        "section": "jewish-greece"
-      }
-    ],
+    "date": "2026-11-02",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Κλείνει το Μετρό στο Σύνταγμα στις 12:00 με εντολή της ΕΛ.ΑΣ. - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Athens: Syntagma metro station to close by police order» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T00:37:17.571Z"
-      },
-      {
-        "title": "Arson Suspected in Overnight Fire at Glyfada Mercedes Dealership",
-        "reason": "Ίδιο θέμα με «Glyfada: Arson suspected after fire at car dealership» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T00:37:22.102Z"
-      },
-      {
-        "title": "Η πρέσβης του Ισραήλ, Πνινάτ Γιανάι, καταδικάζει το τουρκολιβυκό μνημόνιο ποστάροντας βίντεο με τον Κυριάκο Μητσοτάκη - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Israel Ambassador to Greece Rejects Turkey-Libya Maritime Deal» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T06:49:10.856Z"
-      },
-      {
-        "title": "Καμπανάκι Κολυδά για την κακοκαιρία: Προσοχή στην Αττική το απόγευμα – Δυσκολότερη η κατάσταση από Δευτέρα",
+        "title": "Σοβαρά πλημμυρικά φαινόμενα σε Σάμο και Κάλυμνο – Αποκολλήθηκε βράχος από πλαγιά στον Άγιο Βασίλειο",
         "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T13:52:33.482Z"
+        "at": "2026-11-01T22:24:06.672Z"
       },
       {
-        "title": "Μετρό: Κλειστοί από τις 21:40 πέντε σταθμοί της Γραμμής 3 - Kathimerini",
-        "reason": "Ίδιο θέμα με «Athens: Syntagma metro station to close by police order» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T13:52:38.690Z"
-      },
-      {
-        "title": "Κακοκαιρία: Το νέο κύμα έρχεται εξ Ιταλίας και το λένε Agneta – Πού και πότε θα ενταθούν επικίνδυνα βροχές και καταιγίδες",
+        "title": "Κακοκαιρία «Agneta»: Δρόμοι-ποτάμια στον Βόλο μετά την έντονη βροχόπτωση [βίντεο] - iefimerida.gr",
         "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T18:38:45.412Z"
+        "at": "2026-11-01T22:24:11.050Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "israel-ambassador-greece-turkey-libya-deal",
-        "at": "2026-11-01T06:48:34.777Z"
-      }
-    ],
-    "ig": []
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-01",
+      "count": 2,
+      "rejected": 6
+    },
     {
       "date": "2026-10-31",
       "count": 8,
@@ -2463,20 +2518,27 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-01T18:38:41.161Z",
-    "considered": 10,
-    "picked": 1,
+    "at": "2026-11-01T22:23:42.499Z",
+    "considered": 17,
+    "picked": 3,
     "items": [
-      "· gn-iefimerida | Παναθηναϊκός - ΑΕΚ: Στα 35 δευτερόλεπτα ο Τεττέη σκόραρε και έβαλε... φωτιά στο ντέρμπι [β",
-      "· ingr | Ο Τραμπ ετοιμάζεται για νέα επίθεση στο Ιράν – Σε τι θα διαφέρει από τις προηγούμενες",
-      "· ert | Διαπραγματεύσεις στην Ντόχα: Ιρανική αντιπροσωπεία συζητά με μεσολαβητές από το Κατάρ",
-      "✓ naftemporiki | Κακοκαιρία: Το νέο κύμα έρχεται εξ Ιταλίας και το λένε Agneta – Πού και πότε θα ενταθούν ε",
-      "· gn-iefimerida | Κακοκαιρία «Agneta»: Δρόμοι-ποτάμια στον Βόλο μετά την έντονη βροχόπτωση [βίντεο] - iefime",
-      "· gn-kathimerini | Κακοκαιρία «Agneta»: Προ των πυλών βροχές και καταιγίδες - Kathimerini",
-      "· ingr | Έρχεται η κακοκαιρία Agneta – Ισχυρά φαινόμενα μέχρι την Τρίτη",
-      "· ingr | Ισραήλ: Ο Αμερικανός πρέσβης χαρακτηρίζει «προβληματική» τη συμμετοχή αραβικών κομμάτων στ",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
-      "· gn-iefimerida | Το νέο τουριστικό μενού της Ελλάδας λέγεται TAG, με άρωμα παράδοσης και γεύση δώδεκα μηνών"
+      "· gct | Greece’s 5th National Religious Tourism Conference Concludes",
+      "· gct | Greek Chef Represents South Aegean at European Young Chef Awards",
+      "· gct | Greek Honey Exports Grow as e-Honey Targets Market Fraud",
+      "· gct | Thessaloniki Hospital Ranks First in for Organ Donation",
+      "· gct | Greece Accelerates Smart City Projects with €325 Million",
+      "· gct | Global Architecture and Design Take Centre Stage in Athens",
+      "· gct | Police Dismantle Cannabis Distribution Operation in Athens",
+      "· gct | Teenager Stabs Father in Neck and Back in Athens Suburb",
+      "· gct | New Democracy Begins Intensive Election Preparations",
+      "· ingr | Συντριβή αεροσκάφους στη Φλόριντα – Συγκλονιστικές εικόνες – Τουλάχιστον 9 νεκροί [βίντεο]",
+      "· ingr | Βολές Κουφονικολάκου κατά κυβέρνησης για ακρίβεια, εξωτερική πολιτική και «διαδοχικά σκάνδ",
+      "· naftemporiki | Μήπως η φούσκα της τεχνολογίας έσκασε ήδη; Τι θυμίζει ανατριχιαστικά πολύ το 2000",
+      "✓ gct | Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey",
+      "· ingr | Ισραήλ: Την Τετάρτη 4 Νοεμβρίου ξεκινούν οι διαβουλεύσεις για τη συγκρότηση κυβέρνησης συν",
+      "✓ ingr | Σοβαρά πλημμυρικά φαινόμενα σε Σάμο και Κάλυμνο – Αποκολλήθηκε βράχος από πλαγιά στον Άγιο",
+      "✓ gn-iefimerida | Κακοκαιρία «Agneta»: Δρόμοι-ποτάμια στον Βόλο μετά την έντονη βροχόπτωση [βίντεο] - iefime",
+      "· gn-iefimerida | Πορτογαλία: Χιλιάδες στους δρόμους της Λισαβόνας για τη στεγαστική κρίση -Ένταση με την Aσ"
     ]
   },
   "evergreenDone": [
