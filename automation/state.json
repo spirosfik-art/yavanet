@@ -17,18 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "adca633b515e": 1792362734112,
-    "ed05c3a583f2": 1792362734112,
-    "01516de7e23e": 1792362734112,
-    "5a8cfe800348": 1792362734112,
-    "bea00daf50b5": 1792362734112,
-    "ae34fe0802d6": 1792362734112,
-    "b3693b1f0186": 1792362734112,
-    "faab120aca39": 1792364397849,
-    "9ec95695c1ad": 1792364397849,
-    "7f0824c545fa": 1792364397849,
-    "dac08a3b4a2c": 1792365150959,
-    "cddc2a349e0f": 1792365150959,
     "bba6be8235ef": 1792366309277,
     "93ddbf1c6675": 1792366309277,
     "ba19dbad5322": 1792367781058,
@@ -2077,7 +2065,13 @@
     "489817086814": 1793571822499,
     "4ba057298f5f": 1793571822499,
     "66d57f71ae66": 1793571822499,
-    "b0ee9b46367a": 1793571822499
+    "b0ee9b46367a": 1793571822499,
+    "442fd6b5d469": 1793575884113,
+    "5e4305204b32": 1793575884113,
+    "0d6935c35780": 1793575884113,
+    "aca129a933c2": 1793575884113,
+    "9b1b56821477": 1793575884113,
+    "2682659b609e": 1793575884113
   },
   "pending": {},
   "sourceStatus": {
@@ -2089,12 +2083,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-01T22:23:29.602Z",
-      "items": 0
+      "at": "2026-11-01T23:31:09.756Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-01T22:23:30.476Z",
+      "at": "2026-11-01T23:31:10.580Z",
       "items": 5
     },
     "civilprotection": {
@@ -2105,27 +2099,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-01T22:23:33.247Z",
+      "at": "2026-11-01T23:31:12.548Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-01T22:23:33.378Z",
+      "at": "2026-11-01T23:31:12.978Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-01T22:23:34.245Z",
+      "at": "2026-11-01T23:31:13.927Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-01T22:23:35.107Z",
-      "items": 1
+      "at": "2026-11-01T23:31:14.736Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-01T22:23:35.986Z",
+      "at": "2026-11-01T23:31:15.718Z",
       "items": 10
     },
     "toi-greece": {
@@ -2136,22 +2130,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-01T22:23:36.595Z",
+      "at": "2026-11-01T23:31:16.264Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-01T22:23:36.750Z",
+      "at": "2026-11-01T23:31:16.554Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-01T22:23:36.998Z",
-      "items": 4
+      "at": "2026-11-01T23:31:16.815Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T22:23:37.512Z",
+      "at": "2026-11-01T23:31:17.269Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2161,12 +2155,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T22:23:31.214Z",
+      "at": "2026-11-01T23:31:11.234Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-01T22:23:38.328Z",
+      "at": "2026-11-01T23:31:17.852Z",
       "items": 0
     },
     "hcg": {
@@ -2177,33 +2171,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-01T22:23:39.692Z",
+      "at": "2026-11-01T23:31:19.444Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-01T22:23:39.899Z",
+      "at": "2026-11-01T23:31:19.635Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-01T22:23:40.078Z",
+      "at": "2026-11-01T23:31:19.769Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-01T22:23:40.293Z",
+      "at": "2026-11-01T23:31:20.065Z",
       "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-01T22:23:40.669Z",
-      "items": 4
+      "at": "2026-11-01T23:31:20.337Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-01T22:23:41.078Z",
-      "items": 11
+      "at": "2026-11-01T23:31:20.664Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2422,27 +2416,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-01T22:23:42.499Z",
-    "considered": 17,
-    "picked": 3,
+    "at": "2026-11-01T23:31:24.113Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "· gct | Greece’s 5th National Religious Tourism Conference Concludes",
-      "· gct | Greek Chef Represents South Aegean at European Young Chef Awards",
-      "· gct | Greek Honey Exports Grow as e-Honey Targets Market Fraud",
-      "· gct | Thessaloniki Hospital Ranks First in for Organ Donation",
-      "· gct | Greece Accelerates Smart City Projects with €325 Million",
-      "· gct | Global Architecture and Design Take Centre Stage in Athens",
-      "· gct | Police Dismantle Cannabis Distribution Operation in Athens",
-      "· gct | Teenager Stabs Father in Neck and Back in Athens Suburb",
-      "· gct | New Democracy Begins Intensive Election Preparations",
-      "· ingr | Συντριβή αεροσκάφους στη Φλόριντα – Συγκλονιστικές εικόνες – Τουλάχιστον 9 νεκροί [βίντεο]",
-      "· ingr | Βολές Κουφονικολάκου κατά κυβέρνησης για ακρίβεια, εξωτερική πολιτική και «διαδοχικά σκάνδ",
-      "· naftemporiki | Μήπως η φούσκα της τεχνολογίας έσκασε ήδη; Τι θυμίζει ανατριχιαστικά πολύ το 2000",
-      "✓ gct | Former Israeli Intelligence Commander Warns Greece: Prepare for War with Turkey",
-      "· ingr | Ισραήλ: Την Τετάρτη 4 Νοεμβρίου ξεκινούν οι διαβουλεύσεις για τη συγκρότηση κυβέρνησης συν",
-      "✓ ingr | Σοβαρά πλημμυρικά φαινόμενα σε Σάμο και Κάλυμνο – Αποκολλήθηκε βράχος από πλαγιά στον Άγιο",
-      "✓ gn-iefimerida | Κακοκαιρία «Agneta»: Δρόμοι-ποτάμια στον Βόλο μετά την έντονη βροχόπτωση [βίντεο] - iefime",
-      "· gn-iefimerida | Πορτογαλία: Χιλιάδες στους δρόμους της Λισαβόνας για τη στεγαστική κρίση -Ένταση με την Aσ"
+      "· gct | Greece Introduces Tax-Free Diesel Purchases for Farmers",
+      "· gct | Kimi Antonelli Becomes Youngest Formula One World Champion",
+      "· gct | Archbishop Makarios Meets Greek Singer Nikos Oikonomopoulos in Sydney",
+      "· gct | ChatGPT Leads in Greece, but Copilot Wins at Work",
+      "· gct | 2.2 Million Pensioners to Receive Two Income Boosts",
+      "· ingr | Στα «ΝΕΑ» της Δευτέρας: Φοροελαφρύνσεις για τους ιδιοκτήτες…"
     ]
   },
   "evergreenDone": [
