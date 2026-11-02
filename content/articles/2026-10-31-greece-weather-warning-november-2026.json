@@ -2,7 +2,7 @@
   "slug": "greece-weather-warning-november-2026",
   "section": "breaking",
   "publishedAt": "2026-10-31T14:15:01+02:00",
-  "updatedAt": "2026-11-01T08:49:06+02:00",
+  "updatedAt": "2026-11-03T01:27:21+02:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,14 @@
     "lng": 21.8243
   },
   "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZFg1NnhoUkNpRW1CWEhldUw1bVIzZ0MxcjYtRktTTUdHRHpoMXI1eFkxRWZHdVo2N0wxVDk1anpZM2pSRTZNRjNXNTBpNFJlZFBTU2N5cFBuUmxOWlZjQzlBVGl2YUlzNTEwT0hoRDlBM3FrSkpuZ0lzb3JvYVQ2WWZZSkVKS1ZpT2xXTmpOUU5PX3dqT3FkUmlFeWw5S2doWGt5VkRSSHd6TVRtWXVIcllIS0JONkdUZk9lN0tPVjNCdTd0aDNtYnBMSThYOUhyOXFPcWJkVnlPQXAxZU1Z?oc=5"
+    },
+    {
+      "name": "Ναυτεμπορική",
+      "url": "https://www.naftemporiki.gr/society/2183529/i-kakokairia-chtypa-ti-dytiki-ellada-ichise-to-112-se-preveza-thesprotia-kai-ionia-nisia/?utm_source=rss&utm_medium=rss&utm_campaign=i-kakokairia-chtypa-ti-dytiki-ellada-ichise-to-112-se-preveza-thesprotia-kai-ionia-nisia"
+    },
     {
       "name": "Ναυτεμπορική",
       "url": "https://www.naftemporiki.gr/society/2182777/diimeri-kakokairia-me-ischyres-vroches-kai-kataigides-poy-anamenontai-entona-fainomena/?utm_source=rss&utm_medium=rss&utm_campaign=diimeri-kakokairia-me-ischyres-vroches-kai-kataigides-poy-anamenontai-entona-fainomena"
@@ -38,26 +46,26 @@
     "en": "Severe Weather"
   },
   "he": {
-    "title": "סערה ביוון: גשמים חזקים וסופות רעם עד יום שני",
-    "dek": "שירות המטאורולוגיה הלאומי של יוון מעדכן על החמרה במזג האוויר וגשמים חזקים שיורדים במספר אזורים במדינה עד יום שני.",
+    "title": "סערה ברודוס: הצפות קשות, חילוצים ועשרות רכבים שנסחפו",
+    "dek": "מזג אוויר קיצוני פוקד את האי רודוס ומחולל שיטפונות והצפות נרחבות ברחבי האזור.",
     "tldr": [
-      "מערכת חורפית מביאה גשמים חזקים וסופות רעמים למוקדים שונים ביוון.",
-      "ההחמרה במזג האוויר נמשכת מהיום ועד יום שני לפחות.",
-      "מומלץ להתעדכן בתחזיות המקומיות ובמצב התחבורה באזורים המושפעים."
+      "למעלה מ-60 כלי רכב נסחפו בזרמי המים החזקים.",
+      "כוחות ההצלה פועלים בשטח ומבצעים פעולות חילוץ ואפילו התנקויות.",
+      "הכבישים המרכזיים באזור חסומים לתנועה עקב ההצפות."
     ],
-    "means": "אם אתם מטיילים כעת ביוון או מתכננים טיסה בימים הקרובים, חשוב לעקוב אחר עדכוני מזג האוויר המקומיים. הימנעו מנסיעות מיותרות באזורים המוצפים, והתעדכנו מול חברות התעופה או מפעילי התחבורה הציבורית על שינויים אפשריים בלוחות הזמנים.",
-    "body": "## מזג אוויר סוער ביוון\n\nהרשויות ביוון מעדכנות על מערכת מזג אוויר סוערת המביאה עמה גשמים חזקים וסופות רעמים לכמה אזורים ברחבי המדינה. ההחמרה צפויה להמשיך להשפיע על חלקים שונים עד יום שני לפחות, עם אפשרות לברקים וברד במקומות מסוימים.\n\nעל פי העדכון הרשמי של השירות המטאורולוגי הלאומי (EMY), התופעות הבולטות מורגשות היום במוקדים שונים, בהם איי היוני, אפירוס, מערב סטריאה אלאדה, מערב ודרום פלופונסוס, וכן במרכז ומזרח מקדוניה, איי הצפון והמזרח של הים האגאי ובדודקאנס.\n\n## אילו אזורים צפויים להמשיך לסבול מהגשמים?\n\nביום שני התנאים הלא יציבים צפויים להמשיך לסירוגין באזורים שונים. בין המוקדים שצפויים לחוות גשמים וסופות נכללים איי היוני, אפירוס, מערב סטריאה אלאדה, מערב פלופונסוס והדודקאנס במהלך שעות היום והערב.\n\nהתושבים והמבקרים באזורים אלו מתבקשים לנקוט משנה זהירות, לעקוב אחר הודעות חירום המפורסמות על ידי הרשויות המקומיות ולהישמע להנחיות כוחות ההצלה במידת הצורך.\n\n## הנחיות למטיילים ולשוהים במדינה\n\nעבור ישראלים הנמצאים בחופשה או בעסקים ביוון, מומלץ לתכנן את הנסיעות בזהירות ולהביא בחשבון עיכובים אפשריים בדרכים. כדאי להתעדכן באופן שוטף בתחזית מזג האוויר באתרים הרשמיים של השירות המטאורולוגי היווני ולוודא את מצב הפעילות של התחבורה הציבורית והמעבורות באזורכם.\n\n## שאלות נפוצות\n\n**האם מזג האוויר הסוער צפוי להמשיך מחר?**\nכן, תחזית מזג האוויר המעודכנת צופה גשמים וסופות לסירוגין גם ביום שני באזורים מסוימים ביוון.\n\n**באילו אזורים ביוון צפויות הסופות?**\nההשפעה מורגשת בין היתר באיי היוני, אפירוס, מערב סטריאה אלאדה, פלופונסוס, מקדוניה, איי האגאי והדודקאנס.\n\n**היכן ניתן לבדוק את התחזית המדויקת?**\nמומלץ להתעדכן בתחזיות הרשמיות של השירות המטאורולוגי הלאומי (EMY) ובאמצעי התקשורת המקומיים."
+    "means": "אם אתם מתכננים חופשה או נמצאים כעת ברודוס, הישארו במקומות סגורים והימנעו מנסיעות לא חיוניות באזורים המוצפים. מומלץ לעקוב אחר הודעות הרשויות המקומיות, להתעדכן מול חברות התעופה ומפעילי התיירות שלכם, ולא להתקרב לנחלים או לאזורים המועדים להצפות.",
+    "body": "## מזג אוויר קיצוני ברודוס\n\nמערכת מזג אוויר סוערת במיוחד פוקדת בימים אלו את האי רודוס ומחוללת נזקים כבדים בתשתיות ובאזורים עירוניים וכפריים כאחד. הגשמים העזים והבלתי פוסקים גרמו להציף רחובות שלמים ולהפוך עורקי תחבורה מרכזיים לנחלים סוערים המסכנים את הציבור.\n\nלפי הדיווחים הרשמיים המגיעים מהשטח, עוצמת המים הייתה חסרת תקדים ביחס לשגרת החורף באזור, והיא הביאה להצפות מהירות שהפתיעו את התושבים והמבקרים כאחד.\n\n## נזקים כבדים ותשתיות חסומות\n\nההצפות הקשות הותירו אחריהן שובל של הרס, כאשר הנתון הבולט ביותר הוא למעלה מ-60 מכוניות שנסחפו לחלוטין ממקומות חנייתן בעוצמת המים והוטחו זו בזו או לצדי הדרכים. \n\nכתוצאה מהסערה, מספר רב של כבישים נחסמו לחלוטין לתנועה, מה שמעשה מנתק חלקים מסוימים ויוצר קשיים תפעוליים משמעותיים עבור כוחות החירום וההצלה המנסים להגיע למוקדים המרכזיים.\n\n## פעולות חילוץ והצלה\n\nכוחות כיבוי האש וההצלה המקומיים נמצאים בכוננות שיא ומבצעים סדרה של מבצעי חילוץ מורכבים. צוותים מיוחדים מפנים אזרחים שנקלעו למצוקה בבתיהם או בכלי רכבם המוצפים.\n\nהרשויות ביוון קוראות לציבור לנקוט משנה זהירות, להישמע להנחיות גורמי הביטחון והחירום, ולהימנע משהייה באזורים נמוכים או סמוך למקורות מים העשויים לעלות על גדותיהם.\n\n## שאלות נפוצות\n\n**האם מומלץ להגיע כעת לרודוס?**\nבשל ההצפות והכבישים החסומים, מומלץ לדחות הגעה לא נחוצה ולעקוב אחר עדכוני הרשויות המקומיות.\n\n**איפה אפשר לבדוק אם הכבישים פתוחים?**\nיש להתעדכן מול הרשויות המקומיות ברודוס או דרך מרכזי השירות של בתי המלון וחברות התיירות שלכם.\n\n**האם יש הנחיות מיוחדות למי שנמצא באי?**\nהישארו במקומות מוגנים, הימנעו מנסיעה ברכבים באזורים מוצפים והישמעו להוראות כוחות החירום."
   },
   "en": {
-    "title": "Severe Weather in Greece: Heavy Rains and Storms Until Monday",
-    "dek": "Greece's national meteorological service reports a worsening of weather conditions with heavy rain and storms affecting several regions until Monday.",
+    "title": "Severe Storm in Rhodes: Floods, Rescues, and Swept Cars",
+    "dek": "Extreme weather hits the island of Rhodes, causing widespread flooding, road closures, and extensive emergency operations.",
     "tldr": [
-      "A storm system brings heavy rain and thunderstorms to various parts of Greece.",
-      "The severe weather is forecast to continue through Monday.",
-      "Visitors and residents in affected areas are advised to check local forecasts."
+      "Over 60 vehicles were swept away by powerful floodwaters.",
+      "Emergency and rescue crews are actively operating across the affected areas.",
+      "Major roads are blocked due to high water levels."
     ],
-    "means": "If you are currently traveling in Greece or planning a trip in the coming days, monitor local weather updates closely. Avoid unnecessary travel in stormy areas and check with transport providers for any updates.",
-    "body": "## Severe Weather Conditions Across Greece\n\nAuthorities in Greece have issued an updated weather warning regarding a worsening of conditions that brings heavy rains and thunderstorms to several regions. The unstable weather pattern is expected to continue impacting parts of the country through at least Monday, with the potential for localized hail.\n\nAccording to the updated bulletin from the Hellenic National Meteorological Service (EMY), the notable phenomena affect various locations, including the Ionian Islands, Epirus, western Sterea Ellada, western and southern Peloponnese, as well as central and eastern Macedonia, the islands of the northern and eastern Aegean, and the Dodecanese.\n\n## Regions Expected to Remain Affected\n\nOn Monday, the unsettled weather is expected to persist intermittently in several areas. Locations such as the Ionian Islands, Epirus, western Sterea Ellada, western Peloponnese, and the Dodecanese will experience rain and storms during various periods through the afternoon and evening hours.\n\nResidents and visitors in these regions are advised to exercise caution, stay informed through official local announcements, and follow any safety guidelines issued by local authorities.\n\n## Recommendations for Travelers\n\nFor Israeli tourists and residents currently in Greece, it is advisable to plan travel carefully and allow extra time for potential delays. Always check official weather forecasts from the Hellenic National Meteorological Service and verify transportation schedules with local operators or airlines.\n\n## FAQ\n\n**Will the stormy weather continue tomorrow?**\nYes, the updated forecast indicates that heavy rain and storms will continue intermittently on Monday in specific regions of Greece.\n\n**Which areas in Greece are affected by the storms?**\nImpacted areas include the Ionian Islands, Epirus, western Sterea Ellada, the Peloponnese, Macedonia, the Aegean islands, and the Dodecanese.\n\n**Where can I check the official weather updates?**\nTravelers should check the official bulletins of the Hellenic National Meteorological Service (EMY) for real-time updates."
+    "means": "If you are currently in Rhodes or planning a trip there, stay indoors and avoid non-essential travel in flooded areas. Follow local authority instructions, check with your airline or tour operator for any disruptions, and steer clear of water streams or flood-prone zones.",
+    "body": "## Severe Weather Hits Rhodes\n\nAn intense storm system has struck the island of Rhodes, bringing heavy rainfall and causing severe damage to local infrastructure, neighborhoods, and main roads. The relentless downpour has turned streets into raging torrents, creating hazardous conditions for both residents and visitors.\n\nOfficial reports indicate that the sheer volume of water caused rapid flooding, catching many by surprise and severely disrupting daily routines across the affected regions.\n\n## Widespread Damage and Road Closures\n\nThe heavy flooding left a trail of destruction, most notably resulting in over 60 cars being swept away from where they were parked, colliding with each other or being pushed to the sides of the roads by the rushing water.\n\nAs a direct result of the storm, numerous roads have been completely cut off and closed to traffic, making transit difficult and challenging emergency responders trying to reach key locations.\n\n## Rescue Operations Underway\n\nLocal fire and rescue services have stepped up operations, carrying out complex missions to evacuate citizens trapped in flooded homes or stranded vehicles.\n\nGreek authorities urge the public to exercise extreme caution, follow the guidance of emergency personnel, and strictly avoid low-lying areas or water bodies at risk of overflowing.\n\n## FAQ\n\n**Is it safe to travel to Rhodes right now?**\nDue to severe flooding and blocked roads, it is advised to postpone non-essential travel and monitor local authority updates.\n\n**Where can I check road closure updates?**\nCheck with local authorities in Rhodes or through your hotel and travel provider assistance desks.\n\n**Are there specific instructions for visitors currently on the island?**\nStay indoors, avoid driving through flooded areas, and follow all instructions issued by emergency services."
   },
   "meta": {
     "itemId": "b0edf8bf4850",
@@ -66,6 +74,6 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-11-02T18:22:29.016Z",
     "official": false,
-    "updatedFrom": "a7b115343e6b"
+    "updatedFrom": "959afbbba259"
   }
 }

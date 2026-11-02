@@ -17,28 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "05eee384d1bd": 1792435460469,
-    "832889d37338": 1792435460469,
-    "f68c12557d6b": 1792439748245,
-    "3e965015454d": 1792439748245,
-    "8c030bffd5cd": 1792441103836,
-    "613a94af8fff": 1792441103836,
-    "8d88a7c6742b": 1792444527302,
-    "ca872ad83ffa": 1792444527302,
-    "c5efcdaf0cf9": 1792444527302,
-    "efca30d512aa": 1792446157193,
-    "ba2269a3166b": 1792446157193,
-    "e372b8c03b32": 1792446157193,
-    "fd894f4c2331": 1792446157193,
-    "bcc22edbc7ac": 1792446157193,
-    "9453fe2dbc47": 1792446157193,
-    "48c497a73df4": 1792446157193,
-    "585b58c6a9f6": 1792447708500,
-    "9304f5cd7772": 1792447708500,
-    "c07a5876239b": 1792449371395,
-    "5c1e8d95f879": 1792449371395,
-    "81500aa7272e": 1792449371395,
-    "99a34862beb2": 1792451070084,
     "e709f526cf6b": 1792453002280,
     "8cc48a12526c": 1792453002280,
     "e0e96e350040": 1792457319188,
@@ -2045,7 +2023,45 @@
     "33539bf27437": 1793643748815,
     "14b21ac6ca00": 1793643748815,
     "e2f8b4ee8b64": 1793643748815,
-    "9c1564d4a318": 1793643748815
+    "9c1564d4a318": 1793643748815,
+    "cecf273e8d44": 1793662010502,
+    "1500c1e72cc2": 1793662010502,
+    "d6f3c6257fe5": 1793662010502,
+    "a7fdc00e2f5d": 1793662010502,
+    "3708a6fbee42": 1793662010502,
+    "35cf73112671": 1793662010502,
+    "8dd52c48eb5b": 1793662010502,
+    "5dabe469be13": 1793662010502,
+    "78e5e2a1de97": 1793662010502,
+    "7ead4444a301": 1793662010502,
+    "9cb7becbc442": 1793662010502,
+    "6d557852508d": 1793662010502,
+    "3fe449a92efc": 1793662010502,
+    "0c5a777f2358": 1793662010502,
+    "38991089b26b": 1793662010502,
+    "cf4e38373adc": 1793662010502,
+    "49a67727b565": 1793662010502,
+    "8beba48ea19c": 1793662010502,
+    "6a6573cb3068": 1793662010502,
+    "e02d37bef426": 1793662010502,
+    "4c4caaf0acfb": 1793662010502,
+    "246f4d0078ab": 1793662010502,
+    "815571647662": 1793662010502,
+    "8833362bb59a": 1793662010502,
+    "0ec1513d4c56": 1793662010502,
+    "0707648b1c87": 1793662010502,
+    "11e3fc3294be": 1793662010502,
+    "e3c4b9fb51be": 1793662010502,
+    "c6aac2086229": 1793662010502,
+    "6e3d9fdcf3ce": 1793662010502,
+    "8086029d75b2": 1793662010502,
+    "62ec65ee3d7c": 1793662010502,
+    "4bd8cc49cafe": 1793662010502,
+    "84428941bad6": 1793662010502,
+    "68ee8dc9488f": 1793662010502,
+    "959afbbba259": 1793662010502,
+    "07a3901ea5c2": 1793662010502,
+    "d708b6961e16": 1793662010502
   },
   "pending": {},
   "sourceStatus": {
@@ -2057,12 +2073,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-02T18:22:18.514Z",
+      "at": "2026-11-02T23:26:36.850Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-02T18:22:19.179Z",
+      "at": "2026-11-02T23:26:37.825Z",
       "items": 4
     },
     "civilprotection": {
@@ -2073,27 +2089,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-02T18:22:20.565Z",
-      "items": 48
+      "at": "2026-11-02T23:26:40.279Z",
+      "items": 40
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-02T18:22:20.724Z",
+      "at": "2026-11-02T23:26:40.660Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-02T18:22:21.397Z",
+      "at": "2026-11-02T23:26:41.764Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-02T18:22:22.071Z",
-      "items": 2
+      "at": "2026-11-02T23:26:42.556Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-02T18:22:22.930Z",
+      "at": "2026-11-02T23:26:43.545Z",
       "items": 10
     },
     "toi-greece": {
@@ -2104,23 +2120,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-02T18:22:23.376Z",
+      "at": "2026-11-02T23:26:44.140Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-02T18:22:23.492Z",
-      "items": 15
+      "at": "2026-11-02T23:26:44.406Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-02T18:22:23.710Z",
-      "items": 7
+      "at": "2026-11-02T23:26:44.775Z",
+      "items": 8
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-02T18:22:23.852Z",
-      "items": 4
+      "at": "2026-11-02T23:26:45.035Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2129,12 +2145,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-02T18:22:19.330Z",
+      "at": "2026-11-02T23:26:38.517Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-02T18:22:24.427Z",
+      "at": "2026-11-02T23:26:45.709Z",
       "items": 0
     },
     "hcg": {
@@ -2145,127 +2161,69 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-02T18:22:25.729Z",
+      "at": "2026-11-02T23:26:47.541Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-02T18:22:26.015Z",
+      "at": "2026-11-02T23:26:47.823Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-02T18:22:26.377Z",
+      "at": "2026-11-02T23:26:48.045Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-02T18:22:26.666Z",
-      "items": 2
+      "at": "2026-11-02T23:26:48.307Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-02T18:22:26.992Z",
-      "items": 10
+      "at": "2026-11-02T23:26:48.710Z",
+      "items": 12
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-02T18:22:27.388Z",
-      "items": 8
+      "at": "2026-11-02T23:26:49.076Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-02",
-    "count": 6,
+    "date": "2026-11-03",
+    "count": 1,
     "published": [
       {
-        "slug": "former-israeli-intelligence-officer-warns-greece-turkey",
-        "title": "Former Israeli intelligence officer warns Greece to prepare for potential conflict with Turkey",
-        "at": "2026-11-02T00:25:02+02:00",
-        "section": "israelis"
+        "slug": "greece-weather-warning-november-2026",
+        "title": "↻ Severe Weather in Greece: Emergency Alerts Issued for Western Regions",
+        "at": "2026-11-03T01:27:05+02:00",
+        "section": "breaking"
       },
       {
-        "slug": "data-centres-greece-grid-capacity-rules-2026",
-        "title": "Greece Proposes New Grid Rules for Data Centres Amid Surge",
-        "at": "2026-11-02T10:14:59+02:00",
-        "section": "real-estate"
+        "slug": "greece-weather-warning-november-2026",
+        "title": "↻ Severe Storm in Rhodes: Floods, Rescues, and Swept Cars",
+        "at": "2026-11-03T01:27:21+02:00",
+        "section": "breaking"
       },
       {
-        "slug": "greece-electricity-prices-november-2026",
-        "title": "Greece electricity prices rise in November",
-        "at": "2026-11-02T10:15:08+02:00",
-        "section": "living"
-      },
-      {
-        "slug": "greece-holiday-home-market-trends",
-        "title": "Greece Holiday Home Market: Three Key Trends Shaping the Sector",
-        "at": "2026-11-02T17:53:58+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "ktel-strike-november-3-2026",
-        "title": "24-hour bus strike announced across Greece",
-        "at": "2026-11-02T20:22:06+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-investment-road-map-20-billion-2026",
-        "title": "Greece presents a new ten-year investment road map of up to 20 billion euros",
-        "at": "2026-11-02T20:22:15+02:00",
-        "section": "real-estate"
+        "slug": "earthquake-near-lassithi-crete",
+        "title": "Magnitude 4.7 earthquake recorded off the coast of Lassithi in Crete",
+        "at": "2026-11-03T01:27:45+02:00",
+        "section": "breaking"
       }
     ],
-    "rejected": [
-      {
-        "title": "Σοβαρά πλημμυρικά φαινόμενα σε Σάμο και Κάλυμνο – Αποκολλήθηκε βράχος από πλαγιά στον Άγιο Βασίλειο",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T22:24:06.672Z"
-      },
-      {
-        "title": "Κακοκαιρία «Agneta»: Δρόμοι-ποτάμια στον Βόλο μετά την έντονη βροχόπτωση [βίντεο] - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-01T22:24:11.050Z"
-      },
-      {
-        "title": "Κακοκαιρία: Εικόνες καταστροφής στη Ρόδο, κλειστά σχολεία και νέο112 – Πλημμύρες και προβλήματα σε πολλές περιοχές",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-02T05:52:17.984Z"
-      },
-      {
-        "title": "Η Πνινάτ Γιανάι απένειμε την τιμητική διάκριση «Δίκαιοι των Εθνών» σε ηλικιωμένο ζευγάρι -Είχαν βοηθήσει να σωθεί εβραϊκή οικογένεια το 1943",
-        "reason": "Ίδιο θέμα με «Righteous Among the Nations honor in Greece for couple who saved Jewish family» – δεν γράφτηκε ξανά",
-        "at": "2026-11-02T05:52:22.264Z"
-      },
-      {
-        "title": "Torrential rain & flash floods strike Rhodes again",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-02T15:38:27.892Z"
-      },
-      {
-        "title": "Κακοκαιρία Agneta: Red Code σε 7 περιοχές έως και την Τρίτη",
-        "reason": "Ίδιο θέμα με «Severe Weather in Greece: Heavy Rains and Storms Until Monday» – δεν γράφτηκε ξανά",
-        "at": "2026-11-02T15:38:52.191Z"
-      }
-    ],
+    "rejected": [],
     "errors": [],
-    "fb": [
-      {
-        "slug": "data-centres-greece-grid-capacity-rules-2026",
-        "at": "2026-11-02T08:15:00.418Z"
-      },
-      {
-        "slug": "greece-holiday-home-market-trends",
-        "at": "2026-11-02T15:53:59.461Z"
-      },
-      {
-        "slug": "ktel-strike-november-3-2026",
-        "at": "2026-11-02T18:22:07.066Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-02",
+      "count": 6,
+      "rejected": 6
+    },
     {
       "date": "2026-11-01",
       "count": 2,
@@ -2454,40 +2412,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-02T18:22:28.815Z",
-    "considered": 37,
-    "picked": 0,
+    "at": "2026-11-02T23:26:50.502Z",
+    "considered": 38,
+    "picked": 3,
     "items": [
-      "· gct | Tsitsipas and Sakkari Lead Greece’s United Cup Team for 2027",
-      "· naftemporiki | Ισραήλ: O ηγέτης της αραβικής «Κοινής Λίστας» καλεί την αντιπολίτευση «να αποδεχθεί την πρ",
-      "· ktg | Fraudsters’ NGO solicited “donations for sick children” to spend on luxury lifestyle",
-      "· naftemporiki | Έκρηξη στην Πλάκα: Προφυλακίστηκαν οι κατηγορούμενοι – Αρνούνται τις κατηγορίες",
-      "· gn-kathimerini | Πλάκα: Επέκταση των ερευνών ζητούν οι οικογένειες των θυμάτων - Kathimerini",
-      "· naftemporiki | Νέες ρυθμίσεις για εργαζόμενους γονείς – Δεν θα χρειάζεται πλέον να περιμένουν έναν χρόνο ",
-      "· ert | Άννα Καραμανλή για Θράκη: Θρησκευτική κληρονομιά, φύση, φιλοξενία οι προϋποθέσεις για τουρ",
-      "· ingr | Αλέξης Τσίπρας: Η κυβέρνηση παίζει «παιχνίδι» με τον καταδικασμένο εγκληματία Κασιδιάρη",
-      "· usgs | M 5.3 - 81 km SSE of Palekastro, Greece",
-      "· gn-kathimerini | Ισραήλ: Πρώτη μετεκλογική συνάντηση των κομμάτων της αντιπολίτευσης - Kathimerini",
-      "· ingr | Πλάκα: Στη φυλακή οι τρεις συλληφθέντες για τη φονική έκρηξη – Τι ισχυρίστηκαν",
-      "· ingr | Κακοκαιρία: Πάνω από 20.000 κεραυνοί σε όλη τη χώρα – Πολύ μεγάλα ύψη βροχής σε Ροδόπη και",
-      "· ert | Αλόννησος: Συναντήσεις στην τουριστική έκθεση του Λονδίνου και προβολή στις αγορές της Αμε",
-      "· naftemporiki | Ισραήλ: Την Τρίτη ξεκινούν οι συνομιλίες των κομμάτων της αντιπολίτευσης με στόχο τον σχημ",
-      "· ingr | Αντιδήμαρχος Πολιτικής Προστασίας Ρόδου στο in: «Απειλήθηκαν ζωές, απεγκλωβίσαμε ανθρώπους",
-      "· ingr | Σεισμός 4,7 Ρίχτερ στη θαλάσσια περιοχή ανοιχτά του Λασιθίου",
-      "· ktg | Workers at Greece’s KTEL urban & intercity bus service on 24h strike, Nov 3",
-      "· gn-kathimerini | Κακοκαιρία «Agneta»: Σε κατάσταση Red Code επτά περιοχές λόγω έντονων φαινομένων - Kathime",
-      "· gn-iefimerida | ΟΣΜΕ: 24ωρη πανελλαδική απεργία στα αστικά και υπεραστικά ΚΤΕΛ την Τρίτη - iefimerida.gr",
-      "· gn-kathimerini | Πανελλαδική απεργία στα αστικά και υπεραστικά ΚΤΕΛ την Τρίτη - Kathimerini",
-      "· gn-civilprotection | Συνεδρίαση του Συντονιστικού Οργάνου Πολιτικής Προστασίας και της Επιτροπής Εκτίμησης Κινδ",
-      "· gn-kathimerini | Κακοκαιρία «Agneta»: Κλειστά σχολεία και αθλητικές εγκαταστάσεις στη Ρόδο - Kathimerini",
-      "· gn-iefimerida | Θρίλερ σε πτήση από Λονδίνο -Άλλαξε πορεία λόγω απειλής για βόμβα, προσγειώθηκε στη Βουδαπ",
-      "· gn-kathimerini | Κακοκαιρία «Agneta»: Πού σταματούν υποχρεωτικά οι εργασίες – Εκτακτα μέτρα για τους εργαζο",
-      "· gn-iefimerida | Σεισμός 3,6 Ρίχτερ στο Ξυλόκαστρο - iefimerida.gr",
-      "· gct | Storm Agneta Floods Rhodes, Sweeps Away 60 Cars and Damages Homes Across Greece",
-      "· gct | Europe’s Coffin Makers Face “Death Knell” as Cheap Chinese Imports Surge",
-      "· gn-iefimerida | Σεισμός 3,8 Ρίχτερ ανοιχτά του Λασιθίου - iefimerida.gr",
-      "· gtp | Genoa to Host Blue Economy Summit on Shipping, Ports and Tourism",
-      "· gn-kathimerini | Κακοκαιρία Agneta: Πλημμύρες και απεγκλωβισμοί σε Ρόδο και Σάμο – Προβλήματα και στον Βόλο"
+      "· gct | Charalampopoulos Beats Petrov, Then Falls in New Delhi Final",
+      "· gct | Virgin Australia Seeks More Qatar Flights to Challenge Emirates",
+      "· gct | US Candidate Proposes Trade Ban on Turkey Over Hagia Sophia",
+      "· gct | British Admiral of Greek Descent Says Europe Not Ready For War",
+      "· gct | Pineda and Konstantelias Win Top Prizes at PSAPP Awards",
+      "· gct | Firefighters Rescue Students Trapped in School Bus by Landslides",
+      "· gct | Greece Announces New Space Command with Satellites Linked to Soldiers",
+      "· gct | Hackers Hit Supermarket Freezers Across Europe as Greece Warns of Exposed Systems",
+      "· gct | Athens Airport Eyes Australia Flights as US Services More Than Double",
+      "· gct | Three Arrested in Athens Drug Bust, Including Two Minors",
+      "· gct | Greece and Cyprus Warns Against Turkish UN Secretary-General",
+      "· gct | Mitsotakis Sets Out 90 Projects Ahead of 2027 Elections",
+      "· gct | Greece Restores the Wall Spartans Defended at Thermopylae",
+      "· gct | Relics of Saint George of Neapolis Transferred to New Church",
+      "✓ gn-iefimerida | Σεισμός 4,7 Ρίχτερ ανοιχτά του Λασιθίου - iefimerida.gr",
+      "✓ naftemporiki | Η κακοκαιρία «χτυπά» τη δυτική Ελλάδα – Ήχησε το 112 σε Πρέβεζα, Θεσπρωτία και Ιόνια Νησιά",
+      "· ingr | Κακοκαιρία: Κλειστά την Τρίτη τα σχολεία στην Κεντρική και Νότια Κέρκυρα",
+      "· naftemporiki | Νετανιάχου: Οι πολίτες του Ισραήλ δεν επιθυμούν μια κυβέρνηση που θα εξαρτάται από το Ραάμ",
+      "· naftemporiki | Γαλλία: «Καμπανάκι» Μουλάν για τις συνέπειες από τις μαζικές επενδύσεις στην AI και τον αυ",
+      "· ingr | Το σενάριο «έκλεψαν τις εκλογές» δεν έπιασε για τον Νετανιάχου – Θέλει να ηγηθεί κυβέρνηση",
+      "· naftemporiki | Κακοκαιρία στην Κέρκυρα: Κλειστά όλα τα σχολεία σε Κεντρική και Νότια Κέρκυρα την Τρίτη",
+      "· naftemporiki | Channel 12: «Κοντά» στην ολοκλήρωση της έρευνας, Σιν Μπετ και Μοσάντ, για τη φερόμενη εμπλ",
+      "· ingr | Κακοκαιρία: Μήνυμα από το 112 σε Θεσπρωτία, Πρέβεζα, Κέρκυρα και Παξούς – «Περιορίστε τις ",
+      "· ert | Ισραήλ: Ο Νετανιάχου ζητά τη συγκρότηση «ευρείας εθνικής κυβέρνησης» υπό την ηγεσία του – ",
+      "· ingr | Δημοσκόπηση: «Όχι» σε τρίτη θητεία Μητσοτάκη λένε 7 στους 10 – Στην κυβέρνηση ο «λογαριασμ",
+      "· naftemporiki | Γάζα: Πέντε νεκροί από νέες ισραηλινές επιθέσεις – Αλληλοκατηγορίες για παραβίαση της εκεχ",
+      "· ert | O Μπόι Τζορτζ έγινε δεκτός από τον Ισραηλινό πρόεδρο Ισαάκ Χέρτζογκ",
+      "· ingr | Γαλλία: Οι φοιτητές ετοιμάζονται για τη «Μαύρη Τρίτη» – Καταλήψεις στα λύκεια και γενική α",
+      "· ktg | Storm “Agneta” : Civil Protection places several regions in RED CODE",
+      "· ert | Σεισμική δόνηση 4,7 Ρίχτερ νοτιοανατολικά της Κρήτης"
     ]
   },
   "evergreenDone": [
