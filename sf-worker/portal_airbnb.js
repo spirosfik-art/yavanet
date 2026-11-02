@@ -48,9 +48,9 @@
     he: ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"]
   };
   var TX = {
-    el: { comm: "Προμήθεια", paid: "Πληρώθηκε", pending: "Εκκρεμεί", partial: "Μερικώς", reading: "Ανάγνωση PDF…", unread: "Δεν διαβάστηκε το ποσό", edit: "Διόρθωση", save: "Αποθήκευση", cancel: "Άκυρο", month: "Μήνας", net: "Net Payout", clean: "Cleaning Fee", sums: "Προμήθειες συνεργατών ανά μήνα", none: "Δεν υπάρχουν ακόμη μηνιαία αρχεία.", markAll: "Όλα πληρώθηκαν", files: "αρχεία", manual: "χειροκίνητα", saved: "Αποθηκεύτηκε.", fail: "Η αποθήκευση απέτυχε.", formula: "Υπολογισμός" },
-    en: { comm: "Commission", paid: "Paid", pending: "Pending", partial: "Partly paid", reading: "Reading PDF…", unread: "Amount could not be read", edit: "Edit", save: "Save", cancel: "Cancel", month: "Month", net: "Net Payout", clean: "Cleaning Fee", sums: "Partner commissions by month", none: "No monthly files yet.", markAll: "Mark all paid", files: "files", manual: "manual", saved: "Saved.", fail: "Saving failed.", formula: "Calculation" },
-    he: { comm: "עמלה", paid: "שולם", pending: "ממתין", partial: "שולם חלקית", reading: "קורא PDF…", unread: "לא ניתן לקרוא את הסכום", edit: "תיקון", save: "שמירה", cancel: "ביטול", month: "חודש", net: "Net Payout", clean: "Cleaning Fee", sums: "עמלות שותפים לפי חודש", none: "אין עדיין קבצים חודשיים.", markAll: "סמן הכל כשולם", files: "קבצים", manual: "ידני", saved: "נשמר.", fail: "השמירה נכשלה.", formula: "חישוב" }
+    el: { comm: "Προμήθεια", paid: "Πληρώθηκε", pending: "Εκκρεμεί", partial: "Μερικώς", reading: "Ανάγνωση PDF…", unread: "Δεν διαβάστηκε το ποσό", edit: "Διόρθωση", save: "Αποθήκευση", cancel: "Άκυρο", month: "Μήνας", net: "Net Payout", clean: "Cleaning Fee", sums: "Προμήθειες συνεργατών ανά μήνα", none: "Δεν υπάρχουν ακόμη μηνιαία αρχεία.", markAll: "Όλα πληρώθηκαν", files: "αρχεία", file1: "αρχείο", manual: "χειροκίνητα", saved: "Αποθηκεύτηκε.", fail: "Η αποθήκευση απέτυχε.", formula: "Υπολογισμός" },
+    en: { comm: "Commission", paid: "Paid", pending: "Pending", partial: "Partly paid", reading: "Reading PDF…", unread: "Amount could not be read", edit: "Edit", save: "Save", cancel: "Cancel", month: "Month", net: "Net Payout", clean: "Cleaning Fee", sums: "Partner commissions by month", none: "No monthly files yet.", markAll: "Mark all paid", files: "files", file1: "file", manual: "manual", saved: "Saved.", fail: "Saving failed.", formula: "Calculation" },
+    he: { comm: "עמלה", paid: "שולם", pending: "ממתין", partial: "שולם חלקית", reading: "קורא PDF…", unread: "לא ניתן לקרוא את הסכום", edit: "תיקון", save: "שמירה", cancel: "ביטול", month: "חודש", net: "Net Payout", clean: "Cleaning Fee", sums: "עמלות שותפים לפי חודש", none: "אין עדיין קבצים חודשיים.", markAll: "סמן הכל כשולם", files: "קבצים", file1: "קובץ", manual: "ידני", saved: "נשמר.", fail: "השמירה נכשלה.", formula: "חישוב" }
   };
 
   /* ----------------------------------------------------------- helpers */
@@ -436,7 +436,7 @@
         '<span class="sfab-sum-v">' + eur(g.sum) + "</span>" +
         '<span class="sfab-badge sfab-' + stt + '">' + (stt === "paid" ? "✓ " : "") + t(stt) + "</span>" +
         (isAdmin() && stt !== "paid" ? '<button type="button" class="sfab-allpaid" data-sfab-all="' + esc(g.ids.join(",")) + '">' + t("markAll") + "</button>" : "") +
-        '<span class="sfab-sum-n">' + g.n + " " + t("files") + "</span>" +
+        '<span class="sfab-sum-n">' + g.n + " " + t(g.n === 1 ? "file1" : "files") + "</span>" +
         "</div>";
     });
     if (box.__h !== h) { box.innerHTML = h; box.__h = h; }
