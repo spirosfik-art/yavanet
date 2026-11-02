@@ -1,0 +1,78 @@
+{
+  "slug": "ktel-strike-november-3-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-02T20:22:06+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "Ναυτεμπορική – Απεργίες",
+      "url": "https://www.naftemporiki.gr/society/2183350/ktel-24ori-apergia-ayrio-triti-3-noemvrioy/?utm_source=rss&utm_medium=rss&utm_campaign=ktel-24ori-apergia-ayrio-triti-3-noemvrioy"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/38623700/pexels-photo-38623700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Public buses lined up on a city street in Montevideo, Uruguay on a cloudy day.",
+    "credit": "Photo: Nikolai Kolosov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/public-buses-parked-in-montevideo-uruguay-38623700/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "שביתה בת 24 שעות בחברות האוטובוסים ביוון",
+    "seoTitle": "שביתה ביוון: שיבושים בתחבורה הציבורית ב-3 בנובמבר",
+    "seoDesc": "שביתה בת 24 שעות של עובדי חברות האוטובוסים ביוון צפויה לגרום לשיבושים ולעיכובים בתנועת הנוסעים ברחבי המדינה ב-3 בנובמבר 2026.",
+    "keywords": [
+      "שביתה ביוון",
+      "תחבורה ציבורית ביוון",
+      "אוטובוסים ביוון",
+      "חדשות יוון",
+      "חופשה ביוון"
+    ],
+    "dek": "עובדי מערך האוטובוסים הבינעירוניים והעירוניים ביוון פוצחים בשביתה מחר, 3 בנובמבר 2026, על רקע מבוי סתום במשא ומתן על הסכם קיבוצי חדש.",
+    "tldr": [
+      "שביתה כללית של עובדי חברות האוטובוסים מתוכננת ל-3 בנובמבר 2026.",
+      "צפויים שיבושים משמעותיים ועיכובים בתנועת הנוסעים בתחבורה הציבורית.",
+      "השביתה באה בעקבות מבוי סתום במשא ומתן על תנאי העסקה."
+    ],
+    "means": "השביתה צפויה להשפיע על התנועה באמצעות אוטובוסים ציבוריים ברחבי המדינה, ולכן מומלץ לנוסעים ולתיירים להתעדכן בשינויים בלוחות הזמנים.",
+    "body": "עובדי חברות האוטובוסים העירוניים והבינעירוניים ביוון הודיעו על קיום שביתה בת 24 שעות מחר, יום שלישי, 3 בנובמבר 2026. המהלך צפוי לגרום לבעיות משמעותיות ולעיכובים ניכרים לנוסעים המסתמכים על תחבורה ציבורית זו.\n\nלפי נציגי העובדים, ההחלטה התקבלה בעקבות מבוי סתום במשא ומתן מול ההנהלה על חתימת הסכם קיבוצי חדש. האיגודים מציינים כי המתנה ממושכת של שנים רבות הביאה למיצוי כל אפשרויות ההידברות, כאשר הדרישות המרכזיות כוללות הבטחת מקומות העבודה ושיפור תנאי ההעסקה היומיומיים."
+  },
+  "en": {
+    "title": "24-hour bus strike announced across Greece",
+    "seoTitle": "Greece bus strike: transport disruptions on November 3",
+    "seoDesc": "A 24-hour strike by KTEL bus workers in Greece is set to cause major passenger transport disruptions and delays on November 3, 2026.",
+    "keywords": [
+      "greece strike",
+      "ktel bus strike greece",
+      "greece public transport",
+      "travel to greece",
+      "greece news"
+    ],
+    "dek": "Intercity and urban bus services across Greece will remain stationary due to a 24-hour strike called by transport workers on November 3, 2026.",
+    "tldr": [
+      "A 24-hour KTEL bus strike is scheduled for November 3, 2026.",
+      "Significant delays and disruptions are expected for public transport passengers.",
+      "The action follows a deadlock in negotiations over a new collective labor agreement."
+    ],
+    "means": "Travelers planning to use public bus networks in Greece should anticipate schedule changes and check local transport updates.",
+    "body": "Public bus workers across Greece have scheduled a 24-hour strike, which is expected to cause major problems and delays for passengers using urban and intercity bus services.\n\nAccording to employee representatives, the strike comes as a result of a complete deadlock in negotiations regarding a new collective labor agreement. Workers state that prolonged waiting periods have exhausted all margins of tolerance, with primary demands focusing on job security and the improvement of daily working conditions."
+  },
+  "meta": {
+    "itemId": "723d088b697c",
+    "imageQuery": "buses greece strike transportation",
+    "sourceHash": "2a90ea4eb928",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-02T18:22:07.064Z",
+    "official": false
+  }
+}
