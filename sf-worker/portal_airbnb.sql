@@ -1,11 +1,6 @@
 -- Airbnb monthly partner commission (portal.sfproperties.gr)
 -- airbnb_commissions: what partners may see (amount + paid), own rows only.
 -- airbnb_commission_calc: figures read from the PDF, admin only.
--- uuid / case
-    when v_prop.manager ilike 'άσι%' or v_prop.manager ilike 'άση%' or v_prop.manager ilike 'asi%' then 'asi'
-    when v_prop.manager ilike '%yaron%' or v_prop.manager ilike 'γιάρον%' or v_prop.manager ilike 'γιαρον%' then 'yaron'
-    when v_prop.manager ilike 'ziv%' or v_prop.manager ilike 'ζιβ%' then 'commission'
-    else null end are filled in after inspecting airbnb_properties.
 
 alter table public.airbnb_properties
   add column if not exists comm_base text not null default 'net'
