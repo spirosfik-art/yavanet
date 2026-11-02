@@ -1,15 +1,19 @@
 -- Airbnb monthly partner commission (portal.sfproperties.gr)
 -- airbnb_commissions: what partners may see (amount + paid), own rows only.
 -- airbnb_commission_calc: figures read from the PDF, admin only.
--- __ID_TYPE__ / __HANDLER_EXPR__ are filled in after inspecting airbnb_properties.
+-- uuid / case
+    when v_prop.manager ilike 'άσι%' or v_prop.manager ilike 'άση%' or v_prop.manager ilike 'asi%' then 'asi'
+    when v_prop.manager ilike '%yaron%' or v_prop.manager ilike 'γιάρον%' or v_prop.manager ilike 'γιαρον%' then 'yaron'
+    when v_prop.manager ilike 'ziv%' or v_prop.manager ilike 'ζιβ%' then 'commission'
+    else null end are filled in after inspecting airbnb_properties.
 
 alter table public.airbnb_properties
   add column if not exists comm_base text not null default 'net'
   check (comm_base in ('net','net_minus_cleaning'));
 
 create table if not exists public.airbnb_commissions (
-  doc_id      __DOC_ID_TYPE__ primary key references public.airbnb_docs(id) on delete cascade,
-  airbnb_id   __ID_TYPE__ not null references public.airbnb_properties(id) on delete cascade,
+  doc_id      uuid primary key references public.airbnb_docs(id) on delete cascade,
+  airbnb_id   uuid not null references public.airbnb_properties(id) on delete cascade,
   handler     text,
   period      date,
   pct         numeric,
@@ -19,7 +23,7 @@ create table if not exists public.airbnb_commissions (
   updated_at  timestamptz not null default now()
 );
 create table if not exists public.airbnb_commission_calc (
-  doc_id       __DOC_ID_TYPE__ primary key references public.airbnb_docs(id) on delete cascade,
+  doc_id       uuid primary key references public.airbnb_docs(id) on delete cascade,
   net_payout   numeric(12,2),
   cleaning_fee numeric(12,2),
   base         numeric(12,2),
@@ -52,7 +56,7 @@ grant select, insert, update, delete on public.airbnb_commission_calc to authent
 -- Admin: may always (re)set. Partner: only a first reading of a file of their
 -- own property, never overwrites, never touches "paid".
 create or replace function public.sf_airbnb_comm_set(
-  p_doc __DOC_ID_TYPE__, p_period date, p_net numeric, p_clean numeric, p_source text, p_raw jsonb
+  p_doc uuid, p_period date, p_net numeric, p_clean numeric, p_source text, p_raw jsonb
 ) returns public.airbnb_commissions
 language plpgsql security definer set search_path = public as $$
 declare
@@ -69,7 +73,11 @@ begin
   select * into v_doc from public.airbnb_docs where id = p_doc;
   if not found then raise exception 'doc not found'; end if;
   select * into v_prop from public.airbnb_properties where id = v_doc.airbnb_id;
-  v_hand := __HANDLER_EXPR__;
+  v_hand := case
+    when v_prop.manager ilike 'άσι%' or v_prop.manager ilike 'άση%' or v_prop.manager ilike 'asi%' then 'asi'
+    when v_prop.manager ilike '%yaron%' or v_prop.manager ilike 'γιάρον%' or v_prop.manager ilike 'γιαρον%' then 'yaron'
+    when v_prop.manager ilike 'ziv%' or v_prop.manager ilike 'ζιβ%' then 'commission'
+    else null end;
   if not v_admin then
     if v_me is null or v_hand is distinct from v_me then raise exception 'not allowed'; end if;
     if p_source = 'manual' then raise exception 'not allowed'; end if;
@@ -94,7 +102,7 @@ begin
     returning * into v_row;
   return v_row;
 end $$;
-revoke all on function public.sf_airbnb_comm_set(__DOC_ID_TYPE__, date, numeric, numeric, text, jsonb) from public, anon;
-grant execute on function public.sf_airbnb_comm_set(__DOC_ID_TYPE__, date, numeric, numeric, text, jsonb) to authenticated;
+revoke all on function public.sf_airbnb_comm_set(uuid, date, numeric, numeric, text, jsonb) from public, anon;
+grant execute on function public.sf_airbnb_comm_set(uuid, date, numeric, numeric, text, jsonb) to authenticated;
 
 update public.airbnb_properties set comm_base = 'net_minus_cleaning' where name ilike '%Βλαχογιάννη%' or name ilike '%Vlachogianni%';
