@@ -13,6 +13,30 @@
   window.__sfAbnb = true;
 
   var PDFJS = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/";
+  /* window.__sfAbnbPreview = true -> nothing is written to the database;
+     the commission is computed in the browser (used to show the design). */
+  var PREVIEW = !!window.__sfAbnbPreview;
+  var HANDLER_OF = function (manager) {
+    var m = String(manager || "").toLowerCase();
+    if (/^(άσι|άση|ασι|asi)/.test(m)) return "asi";
+    if (/yaron|γιάρον|γιαρον/.test(m)) return "yaron";
+    if (/^(ziv|ζιβ)/.test(m)) return "commission";
+    return null;
+  };
+  function localSet(a) {
+    var doc = (docsAll || []).find(function (d) { return String(d.id) === String(a.p_doc); }) || {};
+    var p = propById(doc.airbnb_id) || {};
+    var pct = +p.manager_fee_pct || 0, amt = null;
+    var cb = p.comm_base || (/βλαχογιάννη|vlachogianni/i.test(p.name || "") ? "net_minus_cleaning" : "net");
+    p.comm_base = cb;
+    if (a.p_net != null) amt = Math.round((cb === "net_minus_cleaning" ? a.p_net - (a.p_clean || 0) : a.p_net) * pct) / 100;
+    var prev = comm[a.p_doc] || {};
+    return { doc_id: a.p_doc, airbnb_id: doc.airbnb_id, handler: HANDLER_OF(p.manager), period: a.p_period, pct: pct, amount: amt, paid: !!prev.paid };
+  }
+  function rpcSet(args) {
+    if (PREVIEW) return Promise.resolve({ data: localSet(args), error: null });
+    return sb().rpc("sf_airbnb_comm_set", args);
+  }
   var NAMES = {
     el: { asi: "Άσι", yaron: "Yaron", commission: "Ζιβ" },
     en: { asi: "Asi", yaron: "Yaron", commission: "Ziv" },
@@ -35,7 +59,7 @@
   function sb() { return app() && app().sb(); }
   function lang() { var s = st(); return (s && TX[s.lang]) ? s.lang : "el"; }
   function t(k) { return TX[lang()][k]; }
-  function isAdmin() { var s = st(); return !!(s && s.role === "admin"); }
+  function isAdmin() { if (PREVIEW && window.__sfAbnbAs) return false; var s = st(); return !!(s && s.role === "admin"); }
   function pname(h) { return (NAMES[lang()][h]) || h || "—"; }
   function esc(v) { return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function eur(n) {
@@ -72,12 +96,12 @@
     loadedFor = key;
     var jobs = [
       c.from("airbnb_properties").select("*").then(function (r) { props = r.data || []; }),
-      c.from("airbnb_commissions").select("*").then(function (r) {
+      PREVIEW ? Promise.resolve() : c.from("airbnb_commissions").select("*").then(function (r) {
         comm = {}; (r.data || []).forEach(function (x) { comm[x.doc_id] = x; });
       })
     ];
     if (isAdmin()) {
-      jobs.push(c.from("airbnb_commission_calc").select("*").then(function (r) {
+      if (!PREVIEW) jobs.push(c.from("airbnb_commission_calc").select("*").then(function (r) {
         calc = {}; (r.data || []).forEach(function (x) { calc[x.doc_id] = x; });
       }));
       jobs.push(c.from("airbnb_docs").select("*").then(function (r) { docsAll = r.data || []; }));
@@ -258,7 +282,7 @@
       }
     } catch (e) { console.warn("[sfab] read failed", doc.file_name, e); }
     try {
-      var r = await sb().rpc("sf_airbnb_comm_set", {
+      var r = await rpcSet({
         p_doc: doc.id, p_period: res.period || fallbackPeriod(doc),
         p_net: res.net, p_clean: res.clean, p_source: res.net == null ? "unread" : "pdf", p_raw: res.raw
       });
@@ -287,6 +311,7 @@
   /* ------------------------------------------------------------ actions */
   async function setPaid(ids, paid) {
     if (!isAdmin()) return;
+    if (PREVIEW) { ids.forEach(function (id) { if (comm[id]) comm[id].paid = paid; }); paint(); return; }
     var r = await sb().from("airbnb_commissions")
       .update({ paid: paid, paid_at: paid ? new Date().toISOString() : null, updated_at: new Date().toISOString() })
       .in("doc_id", ids).select();
@@ -295,7 +320,7 @@
     paint();
   }
   async function saveManual(docId, period, net, clean) {
-    var r = await sb().rpc("sf_airbnb_comm_set", {
+    var r = await rpcSet({
       p_doc: docId, p_period: period, p_net: net, p_clean: clean, p_source: "manual", p_raw: null
     });
     if (r.error) { toast(t("fail")); return false; }
@@ -380,6 +405,7 @@
     var g = {};
     Object.keys(comm).forEach(function (id) {
       var c = comm[id];
+      if (PREVIEW && window.__sfAbnbAs && c.handler !== window.__sfAbnbAs) return;
       if (!c.period || c.amount == null) return;
       var key = c.period + "|" + (c.handler || "");
       if (!g[key]) g[key] = { period: c.period, handler: c.handler, sum: 0, n: 0, paid: 0, ids: [] };
