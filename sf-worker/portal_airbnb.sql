@@ -58,7 +58,7 @@ grant select, insert, update, delete on public.airbnb_commission_calc to authent
 create or replace function public.sf_airbnb_comm_set(
   p_doc uuid, p_period date, p_net numeric, p_clean numeric, p_source text, p_raw jsonb
 ) returns public.airbnb_commissions
-language plpgsql security definer set search_path = public as $$
+language plpgsql security definer set search_path = public as $fn$
 declare
   v_admin boolean := ((auth.jwt()->'app_metadata')->>'role') = 'admin';
   v_me    text    := (auth.jwt()->'app_metadata')->>'handler';
@@ -73,11 +73,15 @@ begin
   select * into v_doc from public.airbnb_docs where id = p_doc;
   if not found then raise exception 'doc not found'; end if;
   select * into v_prop from public.airbnb_properties where id = v_doc.airbnb_id;
-  v_hand := case
-    when v_prop.manager ilike 'άσι%' or v_prop.manager ilike 'άση%' or v_prop.manager ilike 'asi%' then 'asi'
-    when v_prop.manager ilike '%yaron%' or v_prop.manager ilike 'γιάρον%' or v_prop.manager ilike 'γιαρον%' then 'yaron'
-    when v_prop.manager ilike 'ziv%' or v_prop.manager ilike 'ζιβ%' then 'commission'
-    else null end;
+  v_hand := null;
+  if left(lower(coalesce(v_prop.manager, '')), 2) in ('άσ', 'ασ', 'as') then
+    v_hand := 'asi';
+  elsif position('yaron' in lower(coalesce(v_prop.manager, ''))) > 0
+     or left(lower(coalesce(v_prop.manager, '')), 4) in ('γιάρ', 'γιαρ') then
+    v_hand := 'yaron';
+  elsif left(lower(coalesce(v_prop.manager, '')), 2) in ('zi', 'ζι') then
+    v_hand := 'commission';
+  end if;
   if not v_admin then
     if v_me is null or v_hand is distinct from v_me then raise exception 'not allowed'; end if;
     if p_source = 'manual' then raise exception 'not allowed'; end if;
@@ -101,8 +105,8 @@ begin
       pct = excluded.pct, amount = excluded.amount, updated_at = now()
     returning * into v_row;
   return v_row;
-end $$;
+end $fn$;
 revoke all on function public.sf_airbnb_comm_set(uuid, date, numeric, numeric, text, jsonb) from public, anon;
 grant execute on function public.sf_airbnb_comm_set(uuid, date, numeric, numeric, text, jsonb) to authenticated;
 
-update public.airbnb_properties set comm_base = 'net_minus_cleaning' where name ilike '%Βλαχογιάννη%' or name ilike '%Vlachogianni%';
+update public.airbnb_properties set comm_base = 'net_minus_cleaning' where position('βλαχογιάννη' in lower(name)) > 0 or position('vlachogianni' in lower(name)) > 0;
