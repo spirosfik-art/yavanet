@@ -17,15 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "bba6be8235ef": 1792366309277,
-    "93ddbf1c6675": 1792366309277,
-    "ba19dbad5322": 1792367781058,
-    "6f3bec7a9609": 1792367781058,
-    "9fdb82f6ba76": 1792368572494,
-    "cc008ff97859": 1792368572494,
-    "02ee2e56a31b": 1792370887588,
-    "f84e164bb091": 1792370887588,
-    "2194c0dd262c": 1792373106263,
     "7f24bda3f68f": 1792374845373,
     "5281dffd38c5": 1792376177032,
     "74552179b899": 1792378484426,
@@ -2071,7 +2062,16 @@
     "0d6935c35780": 1793575884113,
     "aca129a933c2": 1793575884113,
     "9b1b56821477": 1793575884113,
-    "2682659b609e": 1793575884113
+    "2682659b609e": 1793575884113,
+    "e1e32e2cd7fb": 1793583397703,
+    "afc3ff72eeef": 1793583397703,
+    "89ac618e749e": 1793583397703,
+    "04f18e2193d5": 1793583397703,
+    "a20608b3f14e": 1793583397703,
+    "1bdf4f9b6006": 1793583397703,
+    "ea0475eefc85": 1793583397703,
+    "286e806a2cf2": 1793583397703,
+    "4cb7ed955e2e": 1793583397703
   },
   "pending": {},
   "sourceStatus": {
@@ -2083,12 +2083,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-01T23:31:09.756Z",
+      "at": "2026-11-02T01:36:24.084Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-01T23:31:10.580Z",
+      "at": "2026-11-02T01:36:24.955Z",
       "items": 5
     },
     "civilprotection": {
@@ -2099,27 +2099,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-01T23:31:12.548Z",
+      "at": "2026-11-02T01:36:27.224Z",
       "items": 30
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-01T23:31:12.978Z",
+      "at": "2026-11-02T01:36:27.598Z",
       "items": 4
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-01T23:31:13.927Z",
+      "at": "2026-11-02T01:36:29.158Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-01T23:31:14.736Z",
+      "at": "2026-11-02T01:36:30.028Z",
       "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-01T23:31:15.718Z",
+      "at": "2026-11-02T01:36:31.048Z",
       "items": 10
     },
     "toi-greece": {
@@ -2130,22 +2130,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-01T23:31:16.264Z",
+      "at": "2026-11-02T01:36:31.692Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-01T23:31:16.554Z",
+      "at": "2026-11-02T01:36:31.836Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-01T23:31:16.815Z",
+      "at": "2026-11-02T01:36:32.577Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T23:31:17.269Z",
+      "at": "2026-11-02T01:36:33.097Z",
       "items": 1
     },
     "ynet-greece": {
@@ -2155,12 +2155,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-01T23:31:11.234Z",
+      "at": "2026-11-02T01:36:25.681Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-01T23:31:17.852Z",
+      "at": "2026-11-02T01:36:33.769Z",
       "items": 0
     },
     "hcg": {
@@ -2171,32 +2171,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-01T23:31:19.444Z",
+      "at": "2026-11-02T01:36:35.215Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-01T23:31:19.635Z",
+      "at": "2026-11-02T01:36:35.420Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-01T23:31:19.769Z",
+      "at": "2026-11-02T01:36:35.629Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-01T23:31:20.065Z",
+      "at": "2026-11-02T01:36:35.902Z",
       "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-01T23:31:20.337Z",
-      "items": 3
+      "at": "2026-11-02T01:36:36.255Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-01T23:31:20.664Z",
+      "at": "2026-11-02T01:36:36.615Z",
       "items": 9
     }
   },
@@ -2416,16 +2416,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-01T23:31:24.113Z",
-    "considered": 6,
+    "at": "2026-11-02T01:36:37.703Z",
+    "considered": 9,
     "picked": 0,
     "items": [
-      "· gct | Greece Introduces Tax-Free Diesel Purchases for Farmers",
-      "· gct | Kimi Antonelli Becomes Youngest Formula One World Champion",
-      "· gct | Archbishop Makarios Meets Greek Singer Nikos Oikonomopoulos in Sydney",
-      "· gct | ChatGPT Leads in Greece, but Copilot Wins at Work",
-      "· gct | 2.2 Million Pensioners to Receive Two Income Boosts",
-      "· ingr | Στα «ΝΕΑ» της Δευτέρας: Φοροελαφρύνσεις για τους ιδιοκτήτες…"
+      "· gct | Seven Greek Sites From Homer’s Iliad You Can Still Visit",
+      "· gct | Panathinaikos Beat Champions AEK 2-0 to Stay Super League Leaders",
+      "· gct | Israel Honours Greek Couple as Righteous Among the Nations",
+      "· gct | Prince Constantine-Alexios Turns 28 With Kings Among His Godparents",
+      "· gct | Australian Hellenes Honoured at 16th St George Community Awards",
+      "· gct | Thousands Attend 11th Oakleigh Glendi as Kelly Kelekidou Headlines Warrawee Park",
+      "· gct | Wealthy Londoners Reshape the Athens Riviera as Greece Courts Non-Doms",
+      "· gct | Greek Medical Association Awards €70,000 in University Scholarships",
+      "· gn-kathimerini | «Σκοτεινός τουρισμός»: Κινέζοι συρρέουν για να ζήσουν την εμπειρία ενός εικονικού τυφώνα -"
     ]
   },
   "evergreenDone": [
