@@ -1,0 +1,56 @@
+{
+  "slug": "greece-electricity-prices-november-2026",
+  "section": "living",
+  "publishedAt": "2026-11-02T10:15:08+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "יוון",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/11/02/economy/ayksiseis-fotia-sta-timologia-reymatos-gia-ton-noemvrio/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32810371/pexels-photo-32810371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Silhouette of wind turbines on a hill during a yellow sunset in Istanbul, Turkey.",
+    "credit": "Photo: Yeşim Çolak / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/wind-turbines-at-sunset-in-istanbul-skyline-32810371/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "חשבונות החשמל ביוון: עליות מחירים בנובמבר",
+    "dek": "מחירי החשמל לבתים ולעסקים ביוון רושמים עליות בנובמבר בעקבות זינוק במחירי האנרגיה בבורסה.",
+    "tldr": [
+      "מחירי החשמל ביוון עולים בנובמבר עבור משקי בית ועסקים.",
+      "התעריפים הירוקים מציגים עליות משמעותיות בהשוואה לחודש הקודם.",
+      "הממשלה והספקים בוחנים צעדים לבלימת ההתייקרות."
+    ],
+    "means": "למה זה חשוב לישראלים? לתושבים ולבעלי נכסים ביוון יש השפעה ישירה על הוצאות המחיה וההחזקה השוטפות של נדל\"ן.",
+    "body": "שוק האנרגיה ביוון רושם גל עליות חדות בנובמבר, המזכיר את רמות המחירים שנרשמו בשנת 2022. המחיר הסיטונאי הממוצע בבורסת האנרגיה היוונית הגיע ל-312.72 אירו למגה-וואט-שעה, בעוד שמחירי הגז הטבעי TTF באירופה נעים סביב 102 ו-104 אירו למגה-וואט-שעה. התעריפים הירוקים המיוחדים למשקי בית נעים בין 0.26 ל-0.36 אירו לקילוואט-שעה, עם עליות של עד 43% לעומת חודש אוקטובר. מנגד, חברת DEI (חברת החשמל הציבורית) הובילה התערבות כפולה ומציעה תעריף קבוע של 0.13 אירו לקילוואט-שעה, בעוד שהתעריף הירוק שלה עומד על 0.169 אירו לקילוואט-שעה. ממשלת יוון ממשיכה לעקוב אחר נתוני הבורסה ושוקלת צעדים נוספים לחודש דצמבר, בהתאם למרווחים הפיסקליים והחלטות האיחוד האירופי."
+  },
+  "en": {
+    "title": "Greece electricity prices rise in November",
+    "dek": "Electricity bills for households and businesses in Greece increase in November following a surge in energy market prices.",
+    "tldr": [
+      "Electricity prices in Greece rise for households and businesses in November.",
+      "Green tariffs show significant increases compared to the previous month.",
+      "The government and energy providers are reviewing measures to curb price hikes."
+    ],
+    "means": "Why this matters to Israelis: Residents and property owners in Greece face a direct impact on living expenses and property maintenance costs.",
+    "body": "The energy market in Greece is experiencing a sharp rise in November, reaching price levels last seen in 2022. The average wholesale price on the Greek energy exchange reached 312.72 euros per megawatt-hour, while European TTF natural gas prices hover around 102 and 104 euros per megawatt-hour. Special green tariffs for households range between 0.26 and 0.36 euros per kilowatt-hour, marking increases of up to 43% compared to October. Meanwhile, PPC (DEI) implemented a dual intervention, offering a fixed tariff of 0.13 euros per kilowatt-hour, while its green tariff is set at 0.169 euros per kilowatt-hour. The Greek government continues to monitor exchange prices and considers potential state support for December, depending on fiscal space and European Commission policies."
+  },
+  "meta": {
+    "itemId": "9d3cfb05d088",
+    "imageQuery": "electricity bills greece energy",
+    "sourceHash": "c89a1956b00d",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-02T08:15:09.438Z",
+    "official": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "data-centres-greece-grid-capacity-rules-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-11-02T10:14:59+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה",
+    "country": "יוון"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/02/data-centres-greece/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of server racks in a data center highlighting modern technology infrastructure.",
+    "credit": "Photo: panumas nikhomkhai / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/data-center-server-racks-with-active-equipment-37730212/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "נדל\"ן טכנולוגי ביוון: כללים חדשים לחוות שרתי בינה מלאכותית",
+    "dek": "משרד הסביבה והאנרגיה ביוון מקדם רגולציה חדשה כדי לסנן בקשות לחיבור חוות שרתים לרשת החשמל.",
+    "tldr": [
+      "הבקשות לחיבור חוות שרתים לרשת החשמל ביוון עברו את רף 12 הגגה-וואט.",
+      "פרויקטים עם הסכמי חיבור מאושרים עומדים כיום על 517 מגה-וואט בלבד.",
+      "הממשלה מציעה כללים חדשים הכוללים התחייבות לקרקע ואנרגיה מתחדשת."
+    ],
+    "means": "למה זה מעניין משקיעים? הרגולציה החדשה נועדה למנוע ספקולציות ברשת החשמל, להבטיח שימוש באנרגיה ירוקה ולהגן על הצרכנים מפני עליית מחירים.",
+    "body": "בקשות לחיבור חוות שרתים ומרכזי נתונים לרשת החשמל ביוון טיפסו מעל 12 גגה-וואט, אולם פרויקטים שכבר מחזיקים בהסכמי חיבור חתומים או בהצעות מחייבות מטעם מפעילת רשת ההולכה עומדים על 517 מגה-וואט בלבד. כדי לצמצם את הפער ולמנוע תפיסת קיבולת ספקולטיבית ברשת, פרסם משרד הסביבה והאנרגיה טיוטת כללים חדשה להערכת הציבור.\n\nעל פי ההצעות המסתמנות, פרויקטים בהיקף העולה על 200 מגה-וואט יזכו לעדיפות ראשונה. משקיעים יידרשו להבטיח שליטה בקרקע למשך עשר שנים לפחות, וכן להבטיח לפחות 60 אחוזים של צריכת אנרגיה ממקורות מתחדשים מדי שנה. כמו כן, ייבחנו מבחנים פיננסיים קפדניים יותר כדי להבטיח שעלויות הקמת תשתיות רשת חדשות לא ייפלו על כתפי הצרכנים הקיימים במשק.\n\nבמקביל, חברות בינלאומיות ומקומיות מרחיבות את פעילותן בתחום ביוון, ובהן מיקרוסופט, Digital Realty, Data4 ומיזמים משותפים עם גופים מאיחוד האמירויות. מפעילת רשת ההולכה ובכירים במשק האנרגיה מזהירים מפני אתגרי אמינות האספקה והשפעת הביקושים הגבוהים על מחירי החשמל לצרכנים ולתעשייה הכבדה."
+  },
+  "en": {
+    "title": "Greece Proposes New Grid Rules for Data Centres Amid Surge",
+    "dek": "The Greek Ministry of Environment and Energy has introduced a draft framework to regulate rising connection requests for data centres.",
+    "tldr": [
+      "Connection applications for data centres in Greece exceed 12 GW while signed deals total 517 MW.",
+      "The proposed rules aim to curb speculative bids and protect existing grid capacity.",
+      "Investors would face requirements including land security and renewable energy quotas."
+    ],
+    "means": "Why this matters to investors: New rules introduce stricter financial and energy requirements for large digital infrastructure projects in Greece.",
+    "body": "Applications to connect data centres to the Greek power grid have surpassed 12 GW, while projects with signed connection contracts or final offers from the Independent Power Transmission Operator (IPTO) stand at only 517 MW. To address the discrepancy and prevent speculative bidding from tying up scarce grid capacity, the Ministry of Environment and Energy has released a new framework for public consultation.\n\nUnder the draft rules, bids exceeding 200 MW will be prioritized. Investors must secure land for a minimum of 10 years and ensure that at least 60 percent of their yearly power consumption is covered by renewables. Stricter financial tests are also proposed to prevent costs of new grid infrastructure from transferring to existing consumers.\n\nMajor global and domestic technology and energy players are active in the Greek market, while grid operators and industry representatives have highlighted ongoing challenges regarding energy adequacy, network capacity, and potential impacts on electricity prices."
+  },
+  "meta": {
+    "itemId": "77790a6cc540",
+    "imageQuery": "data center servers technology",
+    "sourceHash": "6dbdec175886",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-02T08:15:00.416Z",
+    "official": false
+  }
+}
