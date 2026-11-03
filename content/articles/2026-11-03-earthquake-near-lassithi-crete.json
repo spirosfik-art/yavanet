@@ -2,7 +2,7 @@
   "slug": "earthquake-near-lassithi-crete",
   "section": "breaking",
   "publishedAt": "2026-11-03T01:27:45+02:00",
-  "updatedAt": null,
+  "updatedAt": "2026-11-03T17:03:21+02:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
@@ -11,6 +11,10 @@
     "lng": 25.7
   },
   "sources": [
+    {
+      "name": "USGS – σεισμοί στην Ελλάδα (M4.5+)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv51"
+    },
     {
       "name": "iefimerida (μέσω Google News)",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OMk40dnU1ckFBSlhIUXV6QWNnTG4tLVZjQVpMNGJzeVlEZ2t2NVZyaDE3ai1nM2x5ME9vQkh6OHhNb2U0NUtJSkl0TzJEdG5adktvWXpNdklCNnlwYnk1SElnNVMydDVBQXFwdEdDQQ?oc=5"
@@ -25,44 +29,26 @@
     "en": "Earthquake in Crete"
   },
   "he": {
-    "title": "רעידת אדמה בעוצמה 4.7 הורגשה מול חופי לסיתי בכרתים",
-    "seoTitle": "רעידת אדמה ביוון: רעידה בעוצמה 4.7 בכרתים היום",
-    "seoDesc": "רעידת אדמה בעוצמה 4.7 התרחשה מול חופי לסיתי בכרתים. כל הפרטים המעודכנים על הרעידה כפי שדווחו ממקורות ביוון.",
-    "keywords": [
-      "רעידת אדמה ביוון",
-      "רעידת אדמה בכרתים",
-      "לסיתי יוון",
-      "חדשות יוון",
-      "רעידה ביוון"
-    ],
-    "dek": "רעידת אדמה בעוצמה 4.7 בסולם ריכתר הורגשה מול חופי לסיתי שבים כרתים, כך לפי דיווחים רשמיים מיוון.",
+    "title": "רעידת אדמה עוצמתית ביוון: רעש בעוצמה 4.9 מול חופי כרתים",
+    "dek": "רעידת אדמה בעוצמה 4.9 התרחשה מול חופי כרתים ביוון לעבר פלקהסטרו, כך לפי נתוני המכון הגיאולוגי האמריקאי.",
     "tldr": [
-      "רעידת אדמה בעוצמה 4.7 ריכטר נרשמה ביוון",
-      "המוקד המדויק מוקם מול חופי לסיתי בכרתים",
-      "הדיווח התקבל מכלי תקשורת ביוון וגורמי רשמיים"
+      "רעידת אדמה בעוצמה 4.9 נמדדה מול חופי כרתים",
+      "מוקד הרעש היה 101 קילומטרים דרומית-מזרחית לפלקהסטרו",
+      "עומק הרעש עמד על כ-45.6 קילומטרים מתחת לפני הקרקע"
     ],
-    "means": "אם אתם נמצאים כעת בחופשה בכרתים או מתכננים טיסה לאי, חשוב להתעדכן בהנחיות הרשמיות ביוון ובדיווחים המקומיים לגבי האירוע.",
-    "body": "## פרטי האירוע בכרתים\n\nרעידת אדמה בעוצמה 4.7 בסולם ריכטר התרחשה באזור שבין חופי לסיתי בכרתים. הדיווח על האירוע פורסם רשמית על ידי כלי תקשורת וגורמים ביוון. מדובר ברעידת אדמה באזור האי כרתים, היעד המרכזי לתיירות ישראלית ביוון.\n\n## דיווחים ראשוניים מהשטח\n\nהמדידה הראשונית של רעידת האדמה עמדה על 4.7 בסולם ריכטר, ומוקדה זוהה בים מול חופי לסיתי. הרשויות ביוון ממשיכות לעקוב אחר הנתונים והדיווחים המגיעים מהאזור.\n\n## משמעות הדיווח למטיילים ולשוהים באזור\n\nעבור ישראלים הנמצאים בכרתים או מתכננים להגיע לאי, חשוב לעקוב אחר העדכונים של הרשויות המקומיות ביוון. אין להסתמך על שמועות ברשתות החברתיות, ויש לפעול אך ורק לפי הנחיות הגורמים המוסמכים במקום.\n\n## שאלות נפוצות\n\n**האם היתה רעידת אדמה בכרתים?**\nכן, דווחה רעידת אדמה בעוצמה 4.7 מול חופי לסיתי.\n\n**מהי עוצמת הרעידה שדווחה?**\nהעוצמה שנמדדה היא 4.7 בסולם ריכטר.\n\n**איפה בדיוק היה מוקד הרעידה?**\nמוקד הרעידה היה מול חופי לסיתי בכרתים."
+    "means": "במקרה של רעידת אדמה ביוון, יש להישמע להנחיות הרשויות המקומיות, לרבות המכון הגיאודינמי באתונה ושירות ההגנה האזרחית במספר החירום 112. מומלץ להתעדכן בערוצים הרשמיים.",
+    "body": "## פרטי האירוע הסיסמי\n\nהמכון הגיאולוגי האמריקאי דיווח על רעידת אדמה בעוצמה של 4.9 שהתרחשה ביוון. האירוע התבסס על נתונים שנאספו בזמן אוניברסלי מתואם (UTC), כאשר הרעש זווה במיקום מדויק של קו רוחב 34.3254 וקו אורך 26.5713. מוקד הרעש המדויק מוקם במרחק של 101 קילומטרים דרומית-מזרחית ליישוב פלקהסטרו ביוון.\n\n## מאפייני העומק והמיקום\n\nנתוני המדידה הרשמיים מעידים על כך שעומק הרעש היה 45.662 קילומטרים מתחת לפני השטח. נתונים אלו נאספו ונבדקו על ידי הרשויות המוסמכות, הכוללות את המכון הגיאולוגי האמריקאי, לצד גורמי הפיקוח והמעקב ביוון הכוללים את המכון הגיאודינמי ושירות ההגנה האזרחית באמצעות מוקד 112.\n\n## מעקב רשמי והנחיות חירום\n\nהרשויות המקומיות ביוון, ובראשן המכון הגיאודינמי ושירות ההגנה האזרחית המפעיל את מספר החירום 112, עוקבות אחר ההתפתחויות הסיסמיות באזור. הציבור מתבקש לעקוב אחר הודעות רשמיות של הגורמים המוסמכים במדינה ולהישמע להנחיות הבטיחות בעת הצורך.\n\n## שאלות נפוצות\n\n**מה הייתה עוצמת רעידת האדמה ביוון?**\nעוצמת רעידת האדמה נמדדה בדרגה 4.9 לפי נתוני המכון הגיאולוגי האמריקאי.\n\n**היכן היה מוקד רעידת האדמה בכרתים?**\nמוקד הרעש היה במרחק של 101 קילומטרים דרומית-מזרחית לפלקהסטרו שביוון, בעומק של 45.662 קילומטרים.\n\n**אילו גורמים רשמיים מטפלים באירוע?**\nהאירוע נמצא במעקב של המכון הגיאולוגי האמריקאי, לצד הרשויות ביוון הכוללות את המכון הגיאודינמי ושירות ההגנה האזרחי 112."
   },
   "en": {
-    "title": "Magnitude 4.7 earthquake recorded off the coast of Lassithi in Crete",
-    "seoTitle": "Earthquake in Greece: Magnitude 4.7 quake off Crete",
-    "seoDesc": "A magnitude 4.7 earthquake was recorded off the coast of Lassithi in Crete. Read the latest updates from official sources in Greece.",
-    "keywords": [
-      "earthquake in greece",
-      "crete earthquake",
-      "lassithi greece",
-      "greece news",
-      "earthquake today"
-    ],
-    "dek": "A magnitude 4.7 earthquake struck off the coast of Lassithi in Crete, according to official reports from Greece.",
+    "title": "Strong earthquake strikes Greece: Magnitude 4.9 recorded off Crete",
+    "dek": "A magnitude 4.9 earthquake was registered off the coast of Crete, Greece, near Palekastro, according to the United States Geological Survey.",
     "tldr": [
-      "A magnitude 4.7 earthquake was recorded in Greece",
-      "The epicenter was located off the coast of Lassithi in Crete",
-      "The report was published by media sources in Greece"
+      "A magnitude 4.9 earthquake was measured off the coast of Crete",
+      "The epicentre was located 101 km SSE of Palekastro",
+      "The focal depth was measured at approximately 45.66 km"
     ],
-    "means": "If you are currently in Crete or planning a trip to the island, stay updated with official local reports and follow instructions from the authorities in Greece.",
-    "body": "## Details of the Earthquake in Crete\n\nA magnitude 4.7 earthquake occurred off the coast of Lassithi in Crete. The event was officially reported by news sources and authorities in Greece, marking seismic activity in the region.\n\n## Initial Reports from the Area\n\nThe initial measurement of the earthquake was 4.7 on the Richter scale, with its epicenter located in the sea off the coast of Lassithi. Authorities in Greece continue to monitor data coming from the area.\n\n## Impact on Travelers and Residents\n\nFor Israelis currently in Crete or planning to visit, it is important to follow updates from local authorities in Greece. Rely only on official information and instructions from authorized bodies in the area.\n\n## FAQ\n\n**Was there an earthquake in Crete?**\nYes, a magnitude 4.7 earthquake was reported off the coast of Lassithi.\n\n**What was the magnitude of the earthquake?**\nIt was measured at 4.7 on the Richter scale.\n\n**Where was the epicenter of the earthquake?**\nThe epicenter was located off the coast of Lassithi in Crete."
+    "means": "In the event of an earthquake in Greece, follow instructions from local authorities, including the Geodynamic Institute and Civil Protection via emergency number 112. Check official channels for updates.",
+    "body": "## Seismic Event Details\n\nAccording to the United States Geological Survey, an earthquake with a magnitude of 4.9 occurred in Greece. The event took place at coordinates latitude 34.3254 and longitude 26.5713 in UTC time. The epicentre was determined to be 101 kilometres south-southeast of Palekastro, Greece.\n\n## Depth and Location Characteristics\n\nOfficial measurement data indicate that the earthquake originated at a depth of 45.662 kilometres below the surface. These figures were compiled and reported by the USGS, alongside monitoring data from Greek authorities including the Geodynamic Institute and Civil Protection 112.\n\n## Official Monitoring and Emergency Guidance\n\nGreek authorities, led by the Geodynamic Institute and Civil Protection 112, continue to monitor seismic activity in the region. The public is advised to follow official announcements from competent authorities and adhere to safety instructions as required.\n\n## FAQ\n\n**What was the magnitude of the earthquake in Greece?**\nThe earthquake measured a magnitude of 4.9 according to USGS data.\n\n**Where was the epicentre of the Crete earthquake?**\nThe epicentre was located 101 kilometres south-southeast of Palekastro, Greece, at a depth of 45.662 kilometres.\n\n**Which official bodies are monitoring the event?**\nThe event is monitored by the USGS, alongside Greek authorities including the Geodynamic Institute and Civil Protection 112."
   },
   "meta": {
     "itemId": "38991089b26b",
@@ -71,6 +57,7 @@
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-11-02T23:27:45.070Z",
     "official": false,
-    "photoTried": true
+    "photoTried": true,
+    "updatedFrom": "51c98032f066"
   }
 }
