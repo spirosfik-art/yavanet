@@ -1,0 +1,60 @@
+{
+  "slug": "crown-iris-syros-bomb-threat",
+  "section": "israelis",
+  "publishedAt": "2026-11-03T22:56:13+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.4415,
+    "lng": 24.9413,
+    "name": "Σύρος"
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/11/03/uncategorized/elegxos-gia-topothetisi-vomvas-sto-krouazieroploio-crown-iris-sto-limani-tis-syrou/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39226157/pexels-photo-39226157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A stunning aerial view of a cruise ship docked at Katakolo, Greece, against a vivid blue sea.",
+    "credit": "Photo: John  Kostopoulos / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aerial-view-of-cruise-ship-docked-at-katakolo-greece-39226157/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "סירוס: בדיקת אבטחה על האוניה קראון איריס בעקבות התראה",
+    "dek": "כוחות הביטחון בנמל סירוס ביצעו סריקות על סיפון אוניית הקרוז קראון איריס לאחר ש התקבלה פנייה אנונימית על מטען חבלה.",
+    "tldr": [
+      "התקבלה התראה אנונימית על פצצה באוניה קראון איריס שעגנה בסירוס.",
+      "940 הנוסעים ו-597 אנשי הצוות פונו מהכלי לפי הוראות הרשויות.",
+      "צוותים מקצועיים ערכו בדיקות במקום לפני קבלת אישור הפלגה לחיפה."
+    ],
+    "means": "האירוע משפיע ישירות על נוסעים הישראלים ועל לוח הזמנים של הקו הימי לישראל.",
+    "body": "אזעקה הופעלה ביום שלישי בנמל סירוס שביוון בעקבות פנייה אנונימית שהגיעה אל רב החובל של אוניית הקרוז קראון איריס, הנושאת דגל פנמה ועגנה בנמל. על פי הדיווחים הרשמיים, המידע התייחס לחשד להמצאות התקן נפץ בחלקה התת-מימי של האוניה. בעקבות זאת, החל מיד תהליך פיצול והורדה של 940 הנוסעים ו-597 אנשי הצוות שהיו על הסיפון. כוחות מיוחדים הכוללים כלבן שסייע במקום וצוללן פרטי הגיעו לזירה כדי להתחיל בסריקות ראשונות שלא העלו דבר חשוד עד כה. בהמשך צפויה להגיע למקום גם יחידה תת-ימיות של משמר החופים לבדיקה מקיפה נוספת, בטרם יינתן אישור לרב החובל להמשיך במסעו המתוכנן לעבר חיפה שבישראל."
+  },
+  "en": {
+    "title": "Syros: Security Check on Crown Iris Cruise Ship Following Threat",
+    "dek": "Security forces at the port of Syros inspected the cruise ship Crown Iris after an anonymous bomb threat was received.",
+    "tldr": [
+      "An anonymous threat was reported regarding the cruise ship Crown Iris in Syros.",
+      "All 940 passengers and 597 crew members disembarked safely per port authority procedures.",
+      "Specialized dive teams and K-9 units conducted inspections before the planned voyage to Haifa."
+    ],
+    "means": "This incident directly affects Israeli passengers and the schedule of the maritime route to Israel.",
+    "body": "Security authorities launched an inspection on Tuesday at the port of Syros following an anonymous report regarding the cruise ship Crown Iris, which sails under the Panama flag and was docked at the port. The report warned of a possible explosive device located in the vessel's underwater sections. In accordance with safety protocols, the captain informed the local port authority, and the disembarkation process began for all 940 passengers and 597 crew members. A specialized team with a trained dog and a private diver immediately initiated checks, finding nothing suspicious initially. An underwater special operations unit was scheduled to conduct a more thorough examination before the vessel could receive clearance from the captain to proceed with its scheduled voyage to Haifa, Israel."
+  },
+  "meta": {
+    "itemId": "783a41540d8f",
+    "imageQuery": "port in Greece cruise ship",
+    "sourceHash": "f7d818e5be33",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-03T20:56:13.894Z",
+    "official": false
+  }
+}
