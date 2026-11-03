@@ -18,10 +18,6 @@
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
-    "3901ed97634e": 1792530449543,
-    "cc4a7d738b8e": 1792530449543,
-    "397fb5ab9055": 1792530449543,
-    "7e99809b6df0": 1792530449543,
     "d76a4a71da78": 1792532226535,
     "2f2bfdd8110f": 1792532226535,
     "14bf9f461994": 1792532226535,
@@ -2009,7 +2005,18 @@
     "d5137dcb6fe2": 1793739399668,
     "332596e01caa": 1793739399668,
     "69f1f192cc99": 1793739399668,
-    "60a34b9a1da8": 1793739399668
+    "60a34b9a1da8": 1793739399668,
+    "d460ca72d570": 1793740472533,
+    "b58cfc23124c": 1793740472533,
+    "649df8bd3e26": 1793740472533,
+    "e7d3a6bcb10f": 1793740472533,
+    "15d28891da3c": 1793740472533,
+    "ebe51e5965ec": 1793740472533,
+    "e0b56d4a1cc4": 1793740472533,
+    "9dee4963a42a": 1793740472533,
+    "44f4883e0e4d": 1793740472533,
+    "9ec3d1731d73": 1793740472533,
+    "5ab37bba5d78": 1793740472533
   },
   "pending": {
     "44bc84": {
@@ -2127,12 +2134,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-03T20:56:26.570Z",
+      "at": "2026-11-03T21:14:20.531Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-03T20:56:27.871Z",
+      "at": "2026-11-03T21:14:21.407Z",
       "items": 4
     },
     "civilprotection": {
@@ -2143,27 +2150,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-03T20:56:30.169Z",
+      "at": "2026-11-03T21:14:23.928Z",
       "items": 40
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-03T20:56:30.256Z",
+      "at": "2026-11-03T21:14:24.053Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-03T20:56:31.315Z",
+      "at": "2026-11-03T21:14:24.921Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-03T20:56:32.195Z",
+      "at": "2026-11-03T21:14:25.839Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-03T20:56:33.095Z",
+      "at": "2026-11-03T21:14:26.437Z",
       "items": 10
     },
     "toi-greece": {
@@ -2174,24 +2181,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-03T20:56:33.688Z",
-      "items": 5
+      "at": "2026-11-03T21:14:27.260Z",
+      "items": 0
     },
     "gct": {
-      "ok": false,
-      "at": "2026-11-03T20:56:33.756Z",
-      "error": "HTTP 403",
-      "fails": 1
+      "ok": true,
+      "at": "2026-11-03T21:14:27.589Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-03T20:56:33.798Z",
+      "at": "2026-11-03T21:14:27.713Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T20:56:34.027Z",
-      "items": 2
+      "at": "2026-11-03T21:14:28.252Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -2200,12 +2206,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T20:56:28.436Z",
+      "at": "2026-11-03T21:14:22.009Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-03T20:56:34.997Z",
+      "at": "2026-11-03T21:14:29.068Z",
       "items": 0
     },
     "hcg": {
@@ -2216,33 +2222,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-03T20:56:36.637Z",
+      "at": "2026-11-03T21:14:29.834Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-03T20:56:36.815Z",
+      "at": "2026-11-03T21:14:30.082Z",
       "items": 12
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-03T20:56:36.960Z",
+      "at": "2026-11-03T21:14:30.276Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-03T20:56:37.216Z",
+      "at": "2026-11-03T21:14:30.542Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-03T20:56:37.624Z",
-      "items": 9
+      "at": "2026-11-03T21:14:30.933Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-03T20:56:38.042Z",
-      "items": 4
+      "at": "2026-11-03T21:14:31.367Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2315,6 +2321,12 @@
         "title": "US to end military aid to Israel by end of year, Trump says",
         "at": "2026-11-03T22:56:22+02:00",
         "section": "israelis"
+      },
+      {
+        "slug": "agnetta-storm-thesprotia-112-alert",
+        "title": "↻ Severe Weather in Northern Greece: Dozens of Fire Service Operations",
+        "at": "2026-11-03T23:14:59+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2337,6 +2349,11 @@
         "title": "Σύρος: Εκκενώθηκε το κρουαζιερόπλοιο «Crown Iris» ύστερα από απειλή για εκρηκτικό μηχανισμό",
         "reason": "Ίδιο θέμα με «Crown Iris cruise ship inspected for explosive device at Syros port» – δεν γράφτηκε ξανά",
         "at": "2026-11-03T20:56:43.099Z"
+      },
+      {
+        "title": "Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat",
+        "reason": "Ίδιο θέμα με «Crown Iris cruise ship inspected for explosive device at Syros port» – δεν γράφτηκε ξανά",
+        "at": "2026-11-03T21:14:36.583Z"
       }
     ],
     "errors": [],
@@ -2550,37 +2567,21 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-03T20:56:39.668Z",
-    "considered": 27,
-    "picked": 3,
+    "at": "2026-11-03T21:14:32.533Z",
+    "considered": 11,
+    "picked": 2,
     "items": [
-      "· naftemporiki | Φωτιά τώρα σε πτηνοτροφική μονάδα στο Ωραιόκαστρο Θεσσαλονίκης",
-      "✓ ktg | “Rethymno must be prepared for a tsunami,” warns Lekkas, chief of EPPO",
-      "· gn-pm | Ομιλία του Πρωθυπουργού Κυριάκου Μητσοτάκη στην εκδήλωση για τη συμπλήρωση δύο χρόνων λειτ",
-      "✓ naftemporiki | Σύρος: Εκκενώθηκε το κρουαζιερόπλοιο «Crown Iris» ύστερα από απειλή για εκρηκτικό μηχανισμ",
-      "· gtp | Greece Wins UK Travel Bulletin Award for Family Holidays in 2026",
-      "· ktg | “Hackers” attack refrigerators in butcher shops in Greece",
-      "· ingr | Πολιτική Προστασία: Ολοκληρώθηκαν οι αυτοψίες στις πληγείσες από την πρόσφατη κακοκαιρία π",
-      "· gn-kathimerini | ΗΠΑ: Η ακρίβεια δοκιμάζει τον Τραμπ στην κάλπη – Καύσιμα, τρόφιμα και στέγαση στο επίκεντρ",
-      "· ingr | ΕΛΑΣ σε Πιερρακάκη: Εκεί που μας χρωστάγανε, μας πήραν και το βόδι! – Τι αποσιωπά ο υπουργ",
-      "· ert | Άιζενκοτ: Η ανακοίνωση διακοπής της αμερικανικής βοήθειας δείχνει ότι ο Νετανιάχου πρέπει ",
-      "· ingr | Ισραήλ: Τα κόμματα της αντιπολίτευσης συμφώνησαν να ξεκινήσουν συνομιλίες για σχηματισμό κ",
-      "· minfin | Κυριάκος Πιερρακάκης: «Πιστεύω στον κοινοβουλευτικό διάλογο. Ακούμε τον κόσμο να ζητάει μέ",
-      "· gtp | Greek Hotel Revenue Growth Driven by Higher Room Rates in Jan-Sept 2026",
-      "· ktg | Bomb threat delays departure of “Crown Iris” from Syros to Israel",
-      "· ingr | Τραμπ: Πρώτα έκοψε τη βοήθεια στο Ισραήλ και μετά λέει ότι θα πάει να το κυβερνήσει",
-      "· ert | Συναγερμός σε ευρωπαϊκά αεροδρόμια έπειτα από απειλές για βόμβα σε επτά αεροπλάνα",
-      "· ingr | «Ως εδώ» λέει ο Τσίπρας στον Μητσοτάκη και τελειώνει το «καλαμπούρι» με τον ποινικό κώδικα",
-      "· gn-civilprotection | Τηλεδιάσκεψη του Υφυπουργού Κώστα Κατσαφάδου με τον Δήμαρχο Νοτίου Πηλίου για την επιτάχυν",
-      "· gn-civilprotection | Συνεδρίαση της Επιτροπής Εκτίμησης Κινδύνου παρουσία του Υπουργού Κλιματικής Κρίσης και Πο",
-      "· gn-kathimerini | Σύρος: Καταγγελία για εκρηκτικό μηχανισμό σε κρουαζιερόπλοιο – Αρνητικός ο πρώτος έλεγχος ",
-      "· gtp | WTM London: Tourism Leaders Call for Stronger Public-Private Partnerships",
-      "· gn-iefimerida | Συναγερμός για βόμβα στα ύφαλα του ισραηλινού κρουαζιερόπλοιου Crown Iris -Στη Σύρο, με 1.",
-      "· gn-civilprotection | Ενδεικτικός οδηγός εξέτασης των φακέλων Κοινοποίησης και των Εκθέσεων Πολιτικής Πρόληψης Μ",
-      "· gn-iefimerida | Τραμπ: Διακόπτουμε την ετήσια στρατιωτική βοήθεια ύψους 4 δισ. δολαρίων στο Ισραήλ, συμφών",
-      "✓ gn-kathimerini | Τέσσερις απειλές για βόμβα σε πτήσεις από Λονδίνο, Κοπεγχάγη, Μάντσεστερ και Ισραήλ - Kath",
-      "· gn-kathimerini | Απειλή για βόμβα σε αεροσκάφος από το Ισραήλ – Προσγειώθηκε στη Σόφια - Kathimerini",
-      "· gn-civilprotection | «ΑΙΟΛΟΣ 2026»: Άσκηση επί χάρτου για την αντιμετώπιση ατυχήματος κατά τη μεταφορά φυσικού "
+      "· gct | Greece Begins Restoration Project for Daphni Monastery Frescoes",
+      "✓ gct | Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat",
+      "✓ naftemporiki | Κακοκαιρία σε Μακεδονία και Θράκη: 54 επιχειρήσεις της Πυροσβεστικής λόγω ισχυρών βροχοπτώ",
+      "· gct | Greek Swimmer Nikolas Papatheodorou Wins Silver at Youth Olympics",
+      "· gct | Greek Village to Light 15-Metre Christmas Tree This Saturday",
+      "· gct | Greece Promotes Samos to German-Speaking Tourism Markets",
+      "· gct | Greek Team Athinaikos Claim First EuroLeague Women Victory",
+      "· gct | Greece Dismantles 262 Criminal Organisations in Two Years",
+      "· gct | Tsitsipas and Davidovich Fokina Withdraw from Paris Masters",
+      "· gct | Libya’s Grand Mufti Bans Nike Clothing Over Greek Goddess Connection",
+      "· gn-iefimerida | Χάος με απειλές για βόμβες σε πτήσεις στην Ευρώπη -Προσγειώσεις με μαχητικά, έλεγχοι, νεύρ"
     ]
   },
   "evergreenDone": [
