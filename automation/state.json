@@ -18,9 +18,6 @@
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
-    "315e3667083a": 1792509864969,
-    "8688a3595070": 1792509864969,
-    "699a6ba5f0bb": 1792509864969,
     "6e4cf8d0799d": 1792511882624,
     "5ea381087818": 1792511882624,
     "0330027a88ba": 1792511882624,
@@ -1995,7 +1992,18 @@
     "b10ca2bb5aed": 1793718068608,
     "34544c97bc50": 1793718068608,
     "653a414c4e0e": 1793718068608,
-    "ac3ff02152e4": 1793718068608
+    "ac3ff02152e4": 1793718068608,
+    "175dabfc7f7e": 1793719846472,
+    "4fc768cb4a5f": 1793719846472,
+    "fba57782adee": 1793719846472,
+    "26af9c7912f8": 1793719846472,
+    "b9cbf6f25027": 1793719846472,
+    "5a7c43a1846a": 1793719846472,
+    "d629f8a9c762": 1793719846472,
+    "8e7e48748755": 1793719846472,
+    "07b4df2bc6ce": 1793719846472,
+    "690e31c753f7": 1793719846472,
+    "83a733d8316b": 1793719846472
   },
   "pending": {
     "e84f71": {
@@ -2205,6 +2213,110 @@
         ]
       },
       "notified": true
+    },
+    "c2c826": {
+      "createdAt": 1793720006107,
+      "item": {
+        "title": "Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου",
+        "url": "https://www.in.gr/2026/11/03/greece/elegxos-gia-topothetisi-vomvas-sto-krouazieroploio-crown-iris-sto-limani-tis-syrou/",
+        "summary": "Ειδικά συνεργεία με εκπαιδευμένο σκύλο και ιδιώτης δύτης πραγματοποιούν έρευνες στο κρουαζιερόπλοιο, που έχει 940 επιβάτες και 597 άτομα πλήρωμα. \n The post Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου appeared first on in.gr .",
+        "published": "Tue, 03 Nov 2026 17:00:03 +0300",
+        "id": "26af9c7912f8",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "26af9c7912f8",
+        "section": "breaking",
+        "priority": 10,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "Bomb threat inspection on the cruise ship Crown Iris in Syros, a very popular cruise ship carrying many Israeli passengers.",
+        "item": {
+          "title": "Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου",
+          "url": "https://www.in.gr/2026/11/03/greece/elegxos-gia-topothetisi-vomvas-sto-krouazieroploio-crown-iris-sto-limani-tis-syrou/",
+          "summary": "Ειδικά συνεργεία με εκπαιδευμένο σκύλο και ιδιώτης δύτης πραγματοποιούν έρευνες στο κρουαζιερόπλοιο, που έχει 940 επιβάτες και 597 άτομα πλήρωμα. \n The post Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου appeared first on in.gr .",
+          "published": "Tue, 03 Nov 2026 17:00:03 +0300",
+          "id": "26af9c7912f8",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "crown-iris-bomb-threat-syros",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.4415,
+          "lng": 24.9416
+        },
+        "strike": null,
+        "alert": {
+          "he": "דרמה ביוון",
+          "en": "Greece alert"
+        },
+        "imageKey": "sea",
+        "imageQuery": "cruise ship port greece",
+        "he": {
+          "title": "חשד למטען חבלה על ספינת קראון איריס בנמל סִירוֹס",
+          "seoTitle": "קראון איריס ביוון: חשד למטען חבלה בנמל סירוס",
+          "seoDesc": "דרמה ביוון: 940 נוסעים ו-597 אנשי צוות פונו מהקראון איריס בסירוס בעקבות איום פח״ע. הכוחות בודקים את האוניה לקראת הפלגה לחייפָה.",
+          "keywords": [
+            "קראון איריס יוון",
+            "קראון איריס סירוס",
+            "חדשות יוון",
+            "הפלגות לישראל"
+          ],
+          "dek": "כוחות הביטחון ביוון ערכו סריקות על סיפון הקראון איריס בעקבות התרעה אנונימית. הנוסעים והצוות פונו לחוף ללא פגע.",
+          "tldr": [
+            "התקבלה התרעה אנונימית על מטען חבלה על הקראון איריס בסירוס.",
+            "940 נוסעים ו-597 אנשי צוות פונו מיד מהאוניה.",
+            "כוחות מיוחדים בודקים את האוניה לקראת אישור הפלגה לחָייפָה."
+          ],
+          "means": "אם אתם מתוכננים להפליג בקראון איריס או ממתינים לנוסעים שבים, יש להתעדכן ישירות דרך חברת הספנות לגבי זמני ההפלגה המעודכנים. הכוחות המיוחדים של נמל סִירוֹס פועלים במקום וטרם התקבל אישור סופי ליציאה.",
+          "body": "## שַׁלְשֶׁלֶת הָאֵרוֹעִים בְּנָמַל סִירוֹס\n\nבְּאֶמְצַע הַיּוֹם שֶׁל יוֹם שְׁלִישִׁי, הֻכְרַז כְּבָר גַּל שֶׁל חֲשָׁשׁ בְּנָמַל סִירוֹס שֶׁבְּיָוָן, לְאַחַר שֶׁהִתְקַבְּלָה תְּלוּנָה אוֹ אַזְהָרָה אֲנוֹנִימִית אֵצֶל קַפְּטָן הָאֳנִיָּה. הַהַתְרָעָה הִתְיַחֲסָה לְאֶפְשָׁרוּת שֶׁל הַצָּבַת מַטְעֵַן חַבְלָה בְּחֶלְקָהּ הַתַּחְתּוֹן שֶׁל אֳנִיַּת הַקְּרוּז הַפָּנָמִית קְרָאוֹן אִירִיס שֶׁעָגְנָה בַּמָּקוֹם.\n\nהַקַּפְטָן שֶׁל הָאֳנִיָּה עִדְכֵּן מִיָּד אֶת רָשׁוּת הַנָּמַל הָאַחְרָאִית, וּמִיָּד הֵחֵל מִבְצַע פִּנּוּי מֻסְדָּר שֶׁל כָּל נוֹסְעֵי הָאֳנִיָּה וְאַנְשֵׁי הַצֶּוֶת. בְּסַה\"כ פוּנוּ מִן הָאֳנִיָּה 940 נוֹסְעִים וְ-597 אַנְשֵׁי צֶוֶת, וְהֵם הוֹרְדוּ לַחֹוף לְמַעַן בְּטִיחוּתָם עַד לְסִיּוּם הַבְּדִיקוֹת.\n\n## בְּדִיקוֹת מַעֲמִיקוֹת שֶׁל כּוֹחוֹת הַבִּטָּחוֹן\n\nמִיָּד עִם קַבַּלַּת הַדִּוּוּחַ, הִגִּיעַ לַמָּקוֹם כְּלִיל מְיֻחָד עִם כֶּלֶב מְאוּמָּן וְגַם צַלָּל פְּרָטִי שֶׁהֵחֵלּוּ לִבְדֹּק אֶת תַּחְתִּית הָאֳנִיָּה. לְמַרְבֵּה הַהֲקָלָה, בַּשְּׁבַלִּים הָרִאשׁוֹנִים לֹא נִמְצָא דָּבָר חָשׁוּד בַּמֶּרְחָב.\n\nעִם זֹאת, עַל מְנָת לְוַדֵּא אֶת בְּטִיחוּת הַמָּקוֹם לְלוֹא דְּשָׁאִים, צְוַת מִיּוּד מִן הַיְּחִידָה לְמִבְצָעִים תַּת-יַמִּיִּים צָפוּי לְהַגִּיעַ לַמָּקוֹם כְּדֵי לַעֲרֹךְ סְרִיקָה מְדֻקֶּדֶת יוֹתֵר. מַטָּרַת הַבְּדִיקָה הִיא לְאַפְשֵׁר לְקַפְטָן הָאֳנִיָּה לְקַבֵּל אִשּׁוּר רִשְׁמִי לְהַמְשִׁיךְ בַּדַּרְכָּה הַמְתֻכְנֶנֶת אֶל חַיְפָה שֶׁבְּיִשְׂרָאֵל.\n\n## שְׁאֵלוֹת נְפוֹצוֹת\n\n**הַאִם נוֹסְעֵי הַקְּרוּז אִירִיס פוּנוּ מִן הָאֳנִיָּה?**\nכֵּן, 940 נוֹסְעִים וְ-597 אַנְשֵׁי צֶוֶת פּוּנוּ מִן הָאֳנִיָּה בְּנָמַל סִירוֹס לְאַחַר תְּלוּנָה אֲנוֹנִימִית עַל מַטַּעַן חַבְלָה.\n\n**הַאִם נִמְצָא מַטְעֵַן חַבְלָה עַל הָאֳנִיָּה?**\nבַּבְּדִיקוֹת הָרִאשׁוֹנוֹת שֶׁנַּעֲשׂוּ עַל יְדֵי כֶּלֶב מְאוּמָּן וְצַלָּל לֹא נִמְצָא דָּבָר חָשׁוּד, וְכֹחוֹת נוֹסְפִים מַמְשִׁיכים בַּחֲקִירָה מְדֻקֶּדֶת.\n\n**מָה יַעַד הַהַפְּלָגָה שֶׁל הָאֳנִיָּה?**\nהָאֳנִיָּה הָיְתָה אֲמוּרָה לְהַמְשִׁיךְ אֶת מַסְלוּלָהּ הַמְתֻכְנֶנֶת אֶל חַיְפָה שֶׁבְּיִשְׂרָאֵל, לְאַחַר שֶׁתְּקַבֵּל אִשּׁוּר מֵרָשׁוּת הַנָּמַל."
+        },
+        "en": {
+          "title": "Crown Iris cruise ship inspected for explosive device at Syros port",
+          "seoTitle": "Crown Iris cruise ship checked for bomb at Syros port",
+          "seoDesc": "Security alert in Greece: Crown Iris passengers and crew evacuated at Syros port following an anonymous bomb threat ahead of sailing to Haifa.",
+          "keywords": [
+            "Crown Iris Greece",
+            "Syros port bomb threat",
+            "Greece cruise news",
+            "Crown Iris Haifa"
+          ],
+          "dek": "Greek port authorities evacuated 940 passengers and 597 crew members from the Crown Iris at Syros port following an anonymous threat.",
+          "tldr": [
+            "An anonymous complaint warned of a possible explosive device on the Crown Iris.",
+            "940 passengers and 597 crew members were safely evacuated to the port.",
+            "Special underwater units are conducting detailed searches before departure to Haifa."
+          ],
+          "means": "If you have relatives on board or travel plans connected to this cruise, check directly with the shipping company for the latest updates. Specialized Greek port units are handling the situation on site.",
+          "body": "## Security Alert at Syros Port\n\nA security alert was triggered at the port of Syros following an anonymous complaint regarding a potential explosive device on board the cruise ship Crown Iris. The ship, which flies the Panama flag, was docked at the port when the report was received by the vessel's captain.\n\nThe captain immediately notified the competent port authority, initiating standard safety protocols. This included the orderly disembarkation of all 940 passengers and 597 crew members, who were safely moved off the ship while checks began.\n\n## Inspections by Special Units\n\nFollowing the alert, a specialized team accompanied by a trained dog, as well as a private diver, arrived at the scene to inspect the vessel's hull. Initial checks did not reveal any suspicious items.\n\nTo ensure complete safety before authorizing the ship to resume its scheduled itinerary toward Haifa, Israel, an elite team from the Underwater Operations Unit was scheduled to conduct a more thorough and detailed search of the vessel.\n\n## FAQ\n\n**Were passengers evacuated from the Crown Iris?**\nYes, all 940 passengers and 597 crew members were safely disembarked at the port of Syros following the anonymous threat.\n\n**Was an explosive device found on board?**\nInitial checks by a trained dog and a diver did not find anything suspicious, and further detailed underwater searches are underway.\n\n**Where was the cruise ship heading?**\nThe Crown Iris was scheduled to proceed with its planned itinerary to Haifa, Israel, pending final approval from port authorities."
+        }
+      },
+      "text": "Vita.gr \n Τι είναι πράσινο και μειώνει τον κίνδυνο εγκεφαλικού – Hint: Πίνεται!\n Spotlight Βίντεο-ντοκουμέντο από την επίθεση στον Κορυδαλλό: Η στιγμή που ο κουκουλοφόρος πυροβολεί πέντε φορές \n Αχιλλέας και Πάτροκλος – Ο ασυνήθιστος έρωτας ανάμεσα σε έναν ταύρο και έναν αρσενικό γάιδαρο \n Αντρέ Μαλρώ: Ανήσυχο, τρικυμισμένο πνεύμα \n Ακίνητα εγκλωβισμένα σε νόμους και δικαστήρια – Στο τραπέζι νέος Οικοδομικός Κανονισμός \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Συναγερμός σήμανε το μεσημέρι της Τρίτης στο λιμάνι της Σύρου, έπειτα από καταγγελία για πιθανή τοποθέτηση εκρηκτικού μηχανισμού στο κρουαζιερόπλοιο Crown Iris, το οποίο βρισκόταν στο λιμάνι.\n Σύμφωνα με πληροφορίες του in, έγινε ανώνυμη καταγγελία στον πλοίαρχο, ο οποίος με τη σειρά του ενημέρωσε την αρμόδια Λιμενική Αρχή, και στη συνέχεια ξεκίνησε εκκίνησε η διαδικασία αποβίβασης των 940 επιβατών και των 597 μελών του πληρώματος.\n Ειδικότερα, η καταγγελία αφορούσε στην τοποθέτηση εκρηκτικού μηχανισμού στα ύφαλα του κρουαζιερόπλοιου, σημαίας Παναμά.\n Έλεγχος από σκύλο και δύτη\n Στο σημείο βρέθηκε άμεσα ειδικό κλιμάκιο με εκπαιδευμένο σκύλο, καθώς και ιδιώτης δύτης που ξεκίνησαν άμεσα έλεγχο, χωρίς μέχρι στιγμής να εντοπιστεί κάτι ύποπτο.\n Ωστόσο, στο σημείο θα βρεθεί και ομάδα της Μονάδας Υποβρυχίων Αποστολών, για πιο λεπτομερή έρευνα, προκειμένου να λάβει ο πλοίαρχος του κρουαζιερόπλοιου έγκριση για να εκτελέσει το προγραμματισμένο δρομολόγιο για τη Χάιφα του Ισραήλ.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ουκρανία: Τουλάχιστον 33 νεκροί από ρωσικό βομβαρδισμό σε σχολικό κτίριο – Δεκάδες αγνοούμενοι \n Ο Τζόνι Ντεπ θα γινόταν και πάλι πειρατής της Καραϊβικής μόνο για έναν λόγο \n Τι παράγει η Ελλάδα; Το παραγωγικό μοντέλο σε 4 + 1 infographics \n Παναθηναϊκός: Χωρίς Ρογκαβόπουλο και Μαντζούκα στη Μαδρίτη οι «πράσινοι» \n Μιλένα Αποστολάκη: Το ΠΑΣΟΚ δεν δέχεται από τον κ. Πιερρακάκη μαθήματα υπεύθυνης αντιπολίτευσης \n Τραμπ: Οι ΗΠΑ θα διακόψουν τη βοήθεια 4 δισ. προς το Ισραήλ έως το τέλος του 2026 \n Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου \n Αντρέ Μαλρώ: Από τη λογοτεχνία στην πολιτική, από την περιπέτεια στην αισθητική \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Έλεγχος για εκρηκτικό μηχανισμό στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου",
+        "dek": "Οι ελληνικές λιμενικές αρχές αποβίβασαν 940 επιβάτες και 597 μέλη πληρώματος από το Crown Iris στο λιμάνι της Σύρου, μετά από ανώνυμη απειλή.",
+        "tldr": [
+          "Ανώνυμη καταγγελία προειδοποίησε για πιθανό εκρηκτικό μηχανισμό στο Crown Iris.",
+          "940 επιβάτες και 597 μέλη πληρώματος αποβιβάστηκαν με ασφάλεια στο λιμάνι.",
+          "Ειδικές υποβρύχιες μονάδες πραγματοποιούν λεπτομερείς ελέγχους πριν από την αναχώρηση για τη Χάιφα."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -2216,12 +2328,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-03T15:00:31.058Z",
+      "at": "2026-11-03T15:30:23.314Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-03T15:00:31.745Z",
+      "at": "2026-11-03T15:30:24.232Z",
       "items": 4
     },
     "civilprotection": {
@@ -2232,27 +2344,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-03T15:00:34.001Z",
+      "at": "2026-11-03T15:30:26.766Z",
       "items": 40
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-03T15:00:34.215Z",
+      "at": "2026-11-03T15:30:26.851Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-03T15:00:35.972Z",
+      "at": "2026-11-03T15:30:27.743Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-03T15:00:36.678Z",
-      "items": 2
+      "at": "2026-11-03T15:30:29.057Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-03T15:00:37.787Z",
+      "at": "2026-11-03T15:30:29.850Z",
       "items": 10
     },
     "toi-greece": {
@@ -2263,22 +2375,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-03T15:00:38.282Z",
+      "at": "2026-11-03T15:30:30.536Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-03T15:00:38.900Z",
+      "at": "2026-11-03T15:30:30.706Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-03T15:00:39.541Z",
-      "items": 4
+      "at": "2026-11-03T15:30:30.794Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T15:00:39.985Z",
+      "at": "2026-11-03T15:30:31.068Z",
       "items": 4
     },
     "ynet-greece": {
@@ -2288,12 +2400,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T15:00:32.689Z",
+      "at": "2026-11-03T15:30:24.909Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-03T15:00:40.679Z",
+      "at": "2026-11-03T15:30:31.935Z",
       "items": 0
     },
     "hcg": {
@@ -2304,33 +2416,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-03T15:00:42.564Z",
+      "at": "2026-11-03T15:30:33.636Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-03T15:00:42.832Z",
+      "at": "2026-11-03T15:30:33.972Z",
       "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-03T15:00:43.033Z",
+      "at": "2026-11-03T15:30:34.174Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-03T15:00:43.298Z",
+      "at": "2026-11-03T15:30:34.525Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-03T15:00:43.624Z",
-      "items": 11
+      "at": "2026-11-03T15:30:34.932Z",
+      "items": 12
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-03T15:00:44.038Z",
-      "items": 7
+      "at": "2026-11-03T15:30:35.450Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2379,6 +2491,12 @@
         "title": "Greece Introduces New Debt Protection and Higher Fines for Servicers",
         "at": "2026-11-03T17:11:58+02:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "agnetta-storm-thesprotia-112-alert",
+        "title": "↻ Severe Weather in Greece: Emergency Warnings Issued for Rain and Storms",
+        "at": "2026-11-03T17:31:22+02:00",
+        "section": "breaking"
       }
     ],
     "rejected": [
@@ -2605,40 +2723,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-03T15:01:08.608Z",
-    "considered": 40,
-    "picked": 6,
+    "at": "2026-11-03T15:30:46.472Z",
+    "considered": 12,
+    "picked": 3,
     "items": [
-      "· gtp | WTM Report: 54% of Young Travelers Trust AI to Complete Bookings",
-      "· naftemporiki | Αναστάτωση στις πτήσεις: Άλλες δύο ψευδείς απειλές για βόμβα σε πτήσεις της Ryanair",
-      "· naftemporiki | ΕΚΠΟΙΖΩ: Παραμένει αντίστοιχη του άρθρου 23 διάταξη, στις συμβάσεις αναδιάρθρωσης των κόκκ",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Τετάρτη 4 Νοεμβρίου 2026 - πρωθυπ",
-      "· naftemporiki | Πάτρα: Κατασβέστηκε η πυρκαγιά σε αποθήκη εμπορίας",
-      "· ert | ΗΠΑ: Ο Τραμπ τερματίζει την ετήσια στρατιωτική βοήθεια των 3,8 δισ. δολαρίων προς το Ισραή",
-      "· gn-kathimerini | Τραμπ: Οι ΗΠΑ θα διακόψουν τη στρατιωτική βοήθεια 4 δισ. δολαρίων στο Ισραήλ - Kathimerini",
-      "· ert | Ην. Βασίλειο: Συναγερμός για βόμβες σε πτήσεις από τρία βρετανικά αεροδρόμια – Αρνητικοί ο",
+      "· naftemporiki | «Αιφνιδιασμένο» το Ισραήλ μετά τη δήλωση Τραμπ περί διακοπής της στρατιωτικής βοήθειας στο",
+      "· minfin | Κυριάκος Πιερρακάκης: «Καθιερώνουμε σταθερό επιτόκιο 3% για ευάλωτους και επιλέξιμους οφει",
+      "· ingr | Τραμπ: Οι ΗΠΑ θα διακόψουν τη βοήθεια 4 δισ. προς το Ισραήλ έως το τέλος του 2026",
       "✓ ingr | Έλεγχος για τοποθέτηση βόμβας στο κρουαζιερόπλοιο Crown Iris στο λιμάνι της Σύρου",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση του Αστυνομι",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση του Αστ",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση του Αστυνομι",
-      "✓ naftemporiki | Τραμπ: Οι ΗΠΑ θα σταματήσουν τη στρατιωτική βοήθεια ύψους 4 δισ. δολαρίων προς το Ισραήλ σ",
-      "· gn-iefimerida | Συναγερμός στην Ευρώπη: Απειλές για βόμβες σε 6 πτήσεις, με συνοδεία πολεμικής αεροπορίας ",
-      "· ingr | ΕΛΑΣ: Ακρίβεια, εργασιακές συνθήκες και ΕΣΥ στο επίκεντρο των επαφών του γραμματέα της ΕΛΑ",
-      "✓ minfin | Δύο νέες σημαντικές παρεμβάσεις για την προστασία των δανειοληπτών",
-      "· gtp | Global Tourism Arrivals to Hit Record 1.57 Billion in 2026, WTM Reports",
-      "· ingr | Απειλές για βόμβα σε 4 αεροσκάφη σε Βαρσοβία, Μούρθια και Σόφια",
-      "· gn-pm | Συνέντευξη του Πρωθυπουργού Κυριάκου Μητσοτάκη στον ραδιοφωνικό σταθμό Alpha Radio 98.9 κα",
-      "· gn-civilprotection | Συνεδρίαση της Επιτροπής Εκτίμησης Κινδύνου παρουσία του Υπουργού Κλιματικής Κρίσης και Πο",
-      "· ingr | Ιράν: Το Ισραήλ λέει ότι δεν ενεπλάκη στην επίθεση των ΗΠΑ στο νησί Κεσμ παραμονή των ενδι",
-      "· minfin | ΕΙΔΟΠΟΙΗΣΗ – ΚΛΗΣΗ σχετικά με την κατάθεση και συζήτηση της με Γ.Α.Κ. 10770/2026 και Α.Κ.Δ",
-      "· minfin | Ειδοποίηση για τη συζήτηση της με γενικό αριθμό κατάθεσης 589/2026 αίτησης του Ν.Π.Δ.Δ. Ο.",
-      "✓ usgs | M 4.9 - 101 km SSE of Palekastro, Greece",
-      "✓ gct | Greece Seeks to Build Year-Round Tourism Bridge with India",
-      "· gct | Greece Plans New Professional Cycling Team for 2027 With Potential Pinarello-Q36.5 Partner",
-      "· gn-kathimerini | Δίκη για τα Τέμπη: «Είδα τη φωτιά με τα μάτια μου. Ενιωθα να καίγομαι ζωντανή» – Τι κατέθε",
-      "· gct | Gkrava Pupils Back in Class but Gas Heating Not Due Until Late November",
-      "· gct | Greece Reports Supermarket Refrigeration Hack as 300 Systems Face Cybersecurity Risk",
-      "· gct | Syros Bans Protest Against Israeli Cruise Ship Crown Iris"
+      "· ert | ΙΝΣΕΤΕ: «Στα τυφλά» πορεύεται ο ελληνικός τουρισμός",
+      "✓ gn-kathimerini | Τέσσερις απειλές για βόμβα σε πτήσεις από Λονδίνο, Κοπεγχάγη, Μάντσεστερ και Ισραήλ - Kath",
+      "· gct | Greece Seeks to Build Year-Round Tourism Bridge with India",
+      "· gtp | Greece Sees Internationally Branded Hotels Rise 14% to 402",
+      "· gtp | Naoussa Ranks Among Europe’s Best Wine Regions for 2027",
+      "· gn-civilprotection | Συνεδρίαση του Συντονιστικού Οργάνου Πολιτικής Προστασίας και της Επιτροπής Εκτίμησης Κινδ",
+      "· gtp | LAMWAY Hotels Take Three Golds, Two Silvers at Greek Hospitality Awards 2026",
+      "✓ gn-civilprotection | Βροχές και καταιγίδες προβλέπονται σήμερα Δευτέρα (02-11-2026) και αύριο Τρίτη (03-11-2026"
     ]
   },
   "evergreenDone": [
