@@ -17,14 +17,6 @@
     "5607e1b0c358": 1798268738798,
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
-    "e709f526cf6b": 1792453002280,
-    "8cc48a12526c": 1792453002280,
-    "e0e96e350040": 1792457319188,
-    "4f6957ed31fc": 1792457319188,
-    "756b289b3f38": 1792457319188,
-    "a3223d6f829d": 1792457319188,
-    "1d6d86b811a1": 1792457319188,
-    "685bf737763d": 1792457319188,
     "05bf73d05c46": 1792459481565,
     "f106c5f809ae": 1792459481565,
     "8c52e95909e8": 1792459481565,
@@ -2061,7 +2053,10 @@
     "68ee8dc9488f": 1793662010502,
     "959afbbba259": 1793662010502,
     "07a3901ea5c2": 1793662010502,
-    "d708b6961e16": 1793662010502
+    "d708b6961e16": 1793662010502,
+    "50fb1b3f8d2f": 1793667908656,
+    "f09f36d8ab10": 1793667908656,
+    "be59f4c7ae37": 1793667908656
   },
   "pending": {},
   "sourceStatus": {
@@ -2073,12 +2068,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-02T23:26:36.850Z",
+      "at": "2026-11-03T01:04:57.247Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-02T23:26:37.825Z",
+      "at": "2026-11-03T01:04:57.918Z",
       "items": 4
     },
     "civilprotection": {
@@ -2089,27 +2084,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-02T23:26:40.279Z",
+      "at": "2026-11-03T01:04:59.433Z",
       "items": 40
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-02T23:26:40.660Z",
+      "at": "2026-11-03T01:04:59.551Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-02T23:26:41.764Z",
+      "at": "2026-11-03T01:05:00.218Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-02T23:26:42.556Z",
-      "items": 3
+      "at": "2026-11-03T01:05:00.692Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-02T23:26:43.545Z",
+      "at": "2026-11-03T01:05:01.492Z",
       "items": 10
     },
     "toi-greece": {
@@ -2120,22 +2115,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-02T23:26:44.140Z",
+      "at": "2026-11-03T01:05:01.917Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-11-02T23:26:44.406Z",
-      "items": 14
+      "ok": false,
+      "at": "2026-11-03T01:05:01.970Z",
+      "error": "HTTP 403",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-02T23:26:44.775Z",
-      "items": 8
+      "at": "2026-11-03T01:05:03.373Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-02T23:26:45.035Z",
+      "at": "2026-11-03T01:05:03.515Z",
       "items": 7
     },
     "ynet-greece": {
@@ -2145,12 +2141,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-02T23:26:38.517Z",
+      "at": "2026-11-03T01:04:58.296Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-02T23:26:45.709Z",
+      "at": "2026-11-03T01:05:05.013Z",
       "items": 0
     },
     "hcg": {
@@ -2161,33 +2157,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-02T23:26:47.541Z",
+      "at": "2026-11-03T01:05:06.277Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-02T23:26:47.823Z",
+      "at": "2026-11-03T01:05:06.510Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-02T23:26:48.045Z",
+      "at": "2026-11-03T01:05:06.734Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-02T23:26:48.307Z",
+      "at": "2026-11-03T01:05:06.996Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-02T23:26:48.710Z",
-      "items": 12
+      "at": "2026-11-03T01:05:07.337Z",
+      "items": 14
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-02T23:26:49.076Z",
-      "items": 10
+      "at": "2026-11-03T01:05:07.775Z",
+      "items": 11
     }
   },
   "tgOffset": 829774786,
@@ -2412,40 +2408,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-02T23:26:50.502Z",
-    "considered": 38,
-    "picked": 3,
+    "at": "2026-11-03T01:05:08.656Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· gct | Charalampopoulos Beats Petrov, Then Falls in New Delhi Final",
-      "· gct | Virgin Australia Seeks More Qatar Flights to Challenge Emirates",
-      "· gct | US Candidate Proposes Trade Ban on Turkey Over Hagia Sophia",
-      "· gct | British Admiral of Greek Descent Says Europe Not Ready For War",
-      "· gct | Pineda and Konstantelias Win Top Prizes at PSAPP Awards",
-      "· gct | Firefighters Rescue Students Trapped in School Bus by Landslides",
-      "· gct | Greece Announces New Space Command with Satellites Linked to Soldiers",
-      "· gct | Hackers Hit Supermarket Freezers Across Europe as Greece Warns of Exposed Systems",
-      "· gct | Athens Airport Eyes Australia Flights as US Services More Than Double",
-      "· gct | Three Arrested in Athens Drug Bust, Including Two Minors",
-      "· gct | Greece and Cyprus Warns Against Turkish UN Secretary-General",
-      "· gct | Mitsotakis Sets Out 90 Projects Ahead of 2027 Elections",
-      "· gct | Greece Restores the Wall Spartans Defended at Thermopylae",
-      "· gct | Relics of Saint George of Neapolis Transferred to New Church",
-      "✓ gn-iefimerida | Σεισμός 4,7 Ρίχτερ ανοιχτά του Λασιθίου - iefimerida.gr",
-      "✓ naftemporiki | Η κακοκαιρία «χτυπά» τη δυτική Ελλάδα – Ήχησε το 112 σε Πρέβεζα, Θεσπρωτία και Ιόνια Νησιά",
-      "· ingr | Κακοκαιρία: Κλειστά την Τρίτη τα σχολεία στην Κεντρική και Νότια Κέρκυρα",
-      "· naftemporiki | Νετανιάχου: Οι πολίτες του Ισραήλ δεν επιθυμούν μια κυβέρνηση που θα εξαρτάται από το Ραάμ",
-      "· naftemporiki | Γαλλία: «Καμπανάκι» Μουλάν για τις συνέπειες από τις μαζικές επενδύσεις στην AI και τον αυ",
-      "· ingr | Το σενάριο «έκλεψαν τις εκλογές» δεν έπιασε για τον Νετανιάχου – Θέλει να ηγηθεί κυβέρνηση",
-      "· naftemporiki | Κακοκαιρία στην Κέρκυρα: Κλειστά όλα τα σχολεία σε Κεντρική και Νότια Κέρκυρα την Τρίτη",
-      "· naftemporiki | Channel 12: «Κοντά» στην ολοκλήρωση της έρευνας, Σιν Μπετ και Μοσάντ, για τη φερόμενη εμπλ",
-      "· ingr | Κακοκαιρία: Μήνυμα από το 112 σε Θεσπρωτία, Πρέβεζα, Κέρκυρα και Παξούς – «Περιορίστε τις ",
-      "· ert | Ισραήλ: Ο Νετανιάχου ζητά τη συγκρότηση «ευρείας εθνικής κυβέρνησης» υπό την ηγεσία του – ",
-      "· ingr | Δημοσκόπηση: «Όχι» σε τρίτη θητεία Μητσοτάκη λένε 7 στους 10 – Στην κυβέρνηση ο «λογαριασμ",
-      "· naftemporiki | Γάζα: Πέντε νεκροί από νέες ισραηλινές επιθέσεις – Αλληλοκατηγορίες για παραβίαση της εκεχ",
-      "· ert | O Μπόι Τζορτζ έγινε δεκτός από τον Ισραηλινό πρόεδρο Ισαάκ Χέρτζογκ",
-      "· ingr | Γαλλία: Οι φοιτητές ετοιμάζονται για τη «Μαύρη Τρίτη» – Καταλήψεις στα λύκεια και γενική α",
-      "· ktg | Storm “Agneta” : Civil Protection places several regions in RED CODE",
-      "· ert | Σεισμική δόνηση 4,7 Ρίχτερ νοτιοανατολικά της Κρήτης"
+      "· gn-iefimerida | Πλάκα: Νέα βίντεο από τη στιγμή της έκρηξης και τη «μοιρασιά» των κλοπιμαίων -Οι δράστες π",
+      "· gn-iefimerida | Προφυλακιστέοι οι τρεις συλληφθέντες για την έκρηξη στην Πλάκα -Οικογένειες θυμάτων: Θέλου",
+      "· gn-kathimerini | Κακοκαιρία «Agneta» – Σάμος: Απεγκλωβίστηκαν 6 μαθητές γυμνασίου από σχολικό όχημα - Kathi"
     ]
   },
   "evergreenDone": [
