@@ -19,46 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "e0a9cf372319": 1792546867150,
-    "5fa47261521e": 1792550191855,
-    "fc5831582f03": 1792552173788,
-    "0cde735bb976": 1792552173788,
-    "83717d9ee95f": 1792553826492,
-    "0a8a37231000": 1792555923965,
-    "a34fbb6ec95e": 1792555923965,
-    "7052a32141eb": 1792555923965,
-    "220efa147e92": 1792555923965,
-    "ac653e4f2719": 1792557523828,
-    "873b65727cf4": 1792557523828,
-    "0eeea2de622d": 1792557523828,
-    "73d13b3bf3f7": 1792559432832,
-    "d07df82be6bc": 1792559432832,
-    "92238017d1c6": 1792559432832,
-    "9a7b5c114653": 1792559432832,
-    "04696d7a38fb": 1792559432832,
-    "e5193079e30f": 1792561032069,
-    "e55c202ac743": 1792561032069,
-    "1a20f61881e6": 1792561032069,
-    "283d30329ca0": 1792561032069,
-    "51aa8944e3a0": 1792562949160,
-    "aeb4449e3b07": 1792562949160,
-    "d78631c03829": 1792565133212,
-    "7ce4fa623d1d": 1792565133212,
-    "c936a4163e50": 1792565133212,
-    "be2cde3cc106": 1792565133212,
-    "a663b08bce6f": 1792565133212,
-    "2d6b5a4dba49": 1792565133212,
-    "e90524af1611": 1792565133212,
-    "d94cc74d571f": 1792565133212,
-    "dbbe0035bd5c": 1792565133212,
-    "5e1e076ff9fe": 1792565133212,
-    "33018f720104": 1792565133212,
-    "762c01b95942": 1792565133212,
-    "7f87082ebb82": 1792567647389,
-    "ec6e7fd5ce4c": 1792567647389,
-    "c6f3b563a76f": 1792567647389,
-    "e753e73dd3e8": 1792567647389,
-    "2d8e0536880c": 1792567647389,
     "ecf744373cf2": 1792572102909,
     "ab7ea9d85b4e": 1792572102909,
     "76ef75f214f7": 1792572102909,
@@ -2017,7 +1977,26 @@
     "e5b277f828de": 1793754977912,
     "c916755ced0c": 1793754977912,
     "8eb2418b6ff7": 1793754977912,
-    "572b4323cff0": 1793754977912
+    "572b4323cff0": 1793754977912,
+    "496cd02a409f": 1793777815897,
+    "050bd7792f03": 1793777815897,
+    "6719182f2d8b": 1793777815897,
+    "e96848d6fb54": 1793777815897,
+    "83cfb923e1b5": 1793777815897,
+    "d2251e5e916c": 1793777815897,
+    "67faedb36be9": 1793777815897,
+    "2e9b705cb0b9": 1793777815897,
+    "d4ad4bcdcf1d": 1793777815897,
+    "b9236e0517da": 1793777815897,
+    "c0ebccfd0ddb": 1793777815897,
+    "97c0eefc88b0": 1793777815897,
+    "b93d1b427dc7": 1793777815897,
+    "7025c446ed2b": 1793777815897,
+    "ffb67096bafa": 1793777815897,
+    "fa9a28c782ca": 1793777815897,
+    "fe98ef16acee": 1793777815897,
+    "ba5a96ba7b87": 1793777815897,
+    "3460c5aa02ef": 1793777815897
   },
   "pending": {},
   "sourceStatus": {
@@ -2029,12 +2008,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-04T01:20:02.432Z",
+      "at": "2026-11-04T07:36:43.251Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-04T01:20:03.267Z",
+      "at": "2026-11-04T07:36:43.922Z",
       "items": 4
     },
     "civilprotection": {
@@ -2045,27 +2024,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-04T01:20:04.900Z",
+      "at": "2026-11-04T07:36:45.875Z",
       "items": 18
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-04T01:20:05.397Z",
+      "at": "2026-11-04T07:36:46.268Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-04T01:20:06.446Z",
+      "at": "2026-11-04T07:36:47.089Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-04T01:20:07.309Z",
-      "items": 2
+      "at": "2026-11-04T07:36:47.850Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-04T01:20:08.009Z",
+      "at": "2026-11-04T07:36:48.739Z",
       "items": 10
     },
     "toi-greece": {
@@ -2076,23 +2055,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-04T01:20:08.719Z",
+      "at": "2026-11-04T07:36:49.196Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-04T01:20:08.877Z",
+      "at": "2026-11-04T07:36:49.469Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-04T01:20:09.486Z",
-      "items": 3
+      "at": "2026-11-04T07:36:49.984Z",
+      "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-04T01:20:09.751Z",
-      "items": 4
+      "at": "2026-11-04T07:36:50.122Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2101,12 +2080,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-04T01:20:03.625Z",
+      "at": "2026-11-04T07:36:44.765Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-04T01:20:10.607Z",
+      "at": "2026-11-04T07:36:50.708Z",
       "items": 0
     },
     "hcg": {
@@ -2117,33 +2096,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-04T01:20:11.989Z",
+      "at": "2026-11-04T07:36:52.433Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-04T01:20:12.249Z",
+      "at": "2026-11-04T07:36:52.642Z",
       "items": 12
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-04T01:20:12.455Z",
-      "items": 6
+      "at": "2026-11-04T07:36:52.821Z",
+      "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-04T01:20:12.775Z",
-      "items": 4
+      "at": "2026-11-04T07:36:53.078Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-04T01:20:13.178Z",
+      "at": "2026-11-04T07:36:53.405Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-04T01:20:13.716Z",
-      "items": 7
+      "at": "2026-11-04T07:36:53.833Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
@@ -2161,6 +2140,11 @@
         "title": "Ισχυρές βροχές στη βόρεια Ελλάδα – Απεγκλωβισμός ενός ατόμου στη Θεσσαλονίκη – Υποχωρεί η κακοκαιρία",
         "reason": "Ίδιο θέμα με «Severe Weather in Northern Greece: Dozens of Fire Service Operations»: Mixed-script (broken) Hebrew words: בדre. Write every Hebrew word only in Hebrew letters.",
         "at": "2026-11-04T01:17:58.470Z"
+      },
+      {
+        "title": "Turkish intelligence chief Kalın warned Mitsotakis over Israel ties, Greek paper alleges",
+        "reason": "Ίδιο θέμα με «Former Israeli intelligence officer warns Greece to prepare for potential conflict with Turkey» – δεν γράφτηκε ξανά",
+        "at": "2026-11-04T07:36:59.861Z"
       }
     ],
     "errors": []
@@ -2364,35 +2348,29 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-04T01:16:17.912Z",
-    "considered": 25,
-    "picked": 2,
+    "at": "2026-11-04T07:36:55.897Z",
+    "considered": 19,
+    "picked": 1,
     "items": [
-      "· gct | Infantino Challenged Over Fourth Term Bid as FIFA President",
-      "· gct | NASA Astronauts Vote in US Midterm Elections From Space",
-      "· gct | Spanish Transport Minister Resigns After Deadly Train Disaster",
-      "· gct | Israel Attorney General Demands Evidence in Election Fraud Probe",
-      "· ert | Ισραήλ: Αποδείξεις για τις καταγγελίες περί εκλογικής νοθείας ζητά η γενική εισαγγελέας",
-      "· gct | Greek Tomato Rice: An Easy Domatorizo Side Ready in 35 Minutes",
-      "· gct | Four Quiet Christmas Villages in the Mountains of Greece",
-      "· gct | Greece’s 2026 Fire Season Claims 11 Lives, WWF Review Finds",
-      "· gct | Greek Olympic Committee to Sue Newspaper for Defamation",
-      "· gct | Nikolaos Papatheodorou Wins Second Medal With Dakar Backstroke Silver",
-      "· gct | Greece Launches myEOPYY App and Lets Patients Rate Doctors",
-      "· gct | Greek Beach Volleyball Duo Reach Finals at Youth Olympics",
-      "· gct | Cervical Cancer Cases Fall in Greece, But Global Numbers To Rise",
-      "· gct | Greece Signs Historic Pact to Improve Safety of War Reporters",
-      "· gct | Olympiacos Claim Third EuroCup Women Victor",
-      "· gct | Indecent AI Images of Schoolgirls Spark Student Protest",
-      "· ert | Ισραήλ: Κατηγορίες Άιζενκοτ κατά Νετανιάχου για «πογκρόμ κατά της δημοκρατίας»",
-      "· ingr | Στα «ΝΕΑ» της Τετάρτης: Χωρίς έξτρα φόρο",
-      "· naftemporiki | Ισραήλ: Πολιτική σύγκρουση για τις καταγγελίες περί εκλογικής νοθείας – Παρέμβαση της γενι",
-      "· naftemporiki | Wall Street: Μεικτά πρόσημα με άνοδο για Nasdaq και S&P 500 εν αναμονή των ενδιάμεσων εκλο",
-      "✓ ingr | Αρνητικός ο έλεγχος στο Crown Iris – Θα αποπλεύσει προς Χάιφα",
-      "✓ ingr | Ισχυρές βροχές στη βόρεια Ελλάδα – Απεγκλωβισμός ενός ατόμου στη Θεσσαλονίκη – Υποχωρεί η ",
-      "· gn-iefimerida | Σύρος: Εκκενώθηκε για λόγους ασφαλείας το κρουαζιερόπλοιο «Crown Iris» μετά από απειλή για",
-      "· ktg | “Rethymno must be prepared for a tsunami,” warns Lekkas, chief of EPPO",
-      "· gn-iefimerida | Το ΠΑΣΟΚ καταθέτει τροπολογία στο νομοσχέδιο Πιερρακάκη για τις 120 δόσεις - iefimerida.gr"
+      "· ert | Ισραηλινά ΜΜΕ: Σοκ στο στρατιωτικό κατεστημένο από τις δηλώσεις Τραμπ για τερματισμό της β",
+      "· gct | Nicosia’s Two Mayors Draw Up Joint Plan to Save Buffer Zone Buildings",
+      "· gct | Paidiki Hara Probe: €300,000 Traced to Luxembourg as Assets Are Frozen",
+      "· gct | Nearly 600 Migrants Reach Crete and Aegean Islets in a Single Day",
+      "· gct | Christodoulides Tells UN Envoy Holguín of “Strong Dissatisfaction” Over Meeting With Turki",
+      "✓ gct | Turkish intelligence chief Kalın warned Mitsotakis over Israel ties, Greek paper alleges",
+      "· gct | White Fox Founders Daniel & Georgia Contos Pocket $58 Million Dividend Despite Revenue Dro",
+      "· naftemporiki | Ιδιωτικό χρέος: Στη Βουλή σήμερα η τροπολογία Πιερρακάκη για σταθερό επιτόκιο 3% στον εξωδ",
+      "· gct | 42% of Greek Workers Say Overtime Goes Unpaid",
+      "· gct | Democrats Seize US House as Senate Control Hangs in Balance",
+      "· gct | UK rules out law change for permanent return of Parthenon Sculptures",
+      "· gct | Gold Coast Greek Festival Draws 8,500, Confirms 2027 Return",
+      "· gct | Balkans Beyond Borders Festival Shifts Its Gaze to the Unseen",
+      "· gct | Britain’s EU Return Could Power Europe’s Defence Industry",
+      "· gct | The Jacinda Royale Raises Funds for Rare Ovarian Cancer Research",
+      "· gct | Greek Architect Eleni Kalapoda Helps Judge Britain’s Best New Buildings",
+      "· gct | Kostas Apostolakis praises Nikos Oikonomopoulos for publicly declaring his faith",
+      "· gn-iefimerida | Κατατέθηκε στη Βουλή η τροπολογία Πιερρακάκη για τους δανειολήπτες -Την Τετάρτη ψηφίζεται ",
+      "· gn-iefimerida | Πυρκαγιά σε πτηνοτροφική μονάδα στο Ωραιόκαστρο - iefimerida.gr"
     ]
   },
   "evergreenDone": [
