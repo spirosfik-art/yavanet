@@ -19,20 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "ecf744373cf2": 1792572102909,
-    "ab7ea9d85b4e": 1792572102909,
-    "76ef75f214f7": 1792572102909,
-    "6a2336b03d86": 1792572102909,
-    "addc71247911": 1792572102909,
-    "110dad15c022": 1792572102909,
-    "50472017c7e5": 1792572102909,
-    "d3af8a23486d": 1792572102909,
-    "b93b05af05ad": 1792572102909,
-    "4ccd3c6cc415": 1792572102909,
-    "ed6e66164180": 1792572102909,
-    "594428901995": 1792572102909,
-    "45b78b2de69f": 1792572102909,
-    "85ae7fe34977": 1792572102909,
     "47f5313afc15": 1792574096243,
     "ff577fd2f26f": 1792574096243,
     "1dcf94d337e6": 1792574096243,
@@ -1996,7 +1982,19 @@
     "fa9a28c782ca": 1793777815897,
     "fe98ef16acee": 1793777815897,
     "ba5a96ba7b87": 1793777815897,
-    "3460c5aa02ef": 1793777815897
+    "3460c5aa02ef": 1793777815897,
+    "bd4126e44d34": 1793782860255,
+    "768db0f24b93": 1793782860255,
+    "79c0340d5ef9": 1793782860255,
+    "5015a9d5ea50": 1793782860255,
+    "18d874e6505f": 1793782860255,
+    "e62932aec262": 1793782860255,
+    "8bfb56093cdc": 1793782860255,
+    "cc985d07abe0": 1793782860255,
+    "4c286226fc85": 1793782860255,
+    "02d8665f6a95": 1793782860255,
+    "281cf3de6e60": 1793782860255,
+    "3dd096eda82e": 1793782860255
   },
   "pending": {},
   "sourceStatus": {
@@ -2008,13 +2006,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-04T07:36:43.251Z",
-      "items": 10
+      "at": "2026-11-04T09:00:47.986Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-04T07:36:43.922Z",
-      "items": 4
+      "at": "2026-11-04T09:00:48.711Z",
+      "items": 3
     },
     "civilprotection": {
       "ok": false,
@@ -2024,27 +2022,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-04T07:36:45.875Z",
+      "at": "2026-11-04T09:00:50.550Z",
       "items": 18
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-04T07:36:46.268Z",
+      "at": "2026-11-04T09:00:50.804Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-04T07:36:47.089Z",
+      "at": "2026-11-04T09:00:52.062Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-04T07:36:47.850Z",
-      "items": 1
+      "at": "2026-11-04T09:00:52.865Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-04T07:36:48.739Z",
+      "at": "2026-11-04T09:00:53.737Z",
       "items": 10
     },
     "toi-greece": {
@@ -2055,23 +2053,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-04T07:36:49.196Z",
+      "at": "2026-11-04T09:00:54.274Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-04T07:36:49.469Z",
+      "at": "2026-11-04T09:00:54.418Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-04T07:36:49.984Z",
+      "at": "2026-11-04T09:00:55.080Z",
       "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-04T07:36:50.122Z",
-      "items": 1
+      "at": "2026-11-04T09:00:55.570Z",
+      "items": 7
     },
     "ynet-greece": {
       "ok": true,
@@ -2080,12 +2078,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-04T07:36:44.765Z",
+      "at": "2026-11-04T09:00:49.251Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-04T07:36:50.708Z",
+      "at": "2026-11-04T09:00:56.313Z",
       "items": 0
     },
     "hcg": {
@@ -2096,32 +2094,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-04T07:36:52.433Z",
+      "at": "2026-11-04T09:00:57.851Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-04T07:36:52.642Z",
+      "at": "2026-11-04T09:00:58.077Z",
       "items": 12
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-04T07:36:52.821Z",
+      "at": "2026-11-04T09:00:58.249Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-04T07:36:53.078Z",
+      "at": "2026-11-04T09:00:58.494Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-04T07:36:53.405Z",
+      "at": "2026-11-04T09:00:58.862Z",
       "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-04T07:36:53.833Z",
+      "at": "2026-11-04T09:00:59.279Z",
       "items": 6
     }
   },
@@ -2348,29 +2346,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-04T07:36:55.897Z",
-    "considered": 19,
-    "picked": 1,
+    "at": "2026-11-04T09:01:00.255Z",
+    "considered": 12,
+    "picked": 0,
     "items": [
-      "· ert | Ισραηλινά ΜΜΕ: Σοκ στο στρατιωτικό κατεστημένο από τις δηλώσεις Τραμπ για τερματισμό της β",
-      "· gct | Nicosia’s Two Mayors Draw Up Joint Plan to Save Buffer Zone Buildings",
-      "· gct | Paidiki Hara Probe: €300,000 Traced to Luxembourg as Assets Are Frozen",
-      "· gct | Nearly 600 Migrants Reach Crete and Aegean Islets in a Single Day",
-      "· gct | Christodoulides Tells UN Envoy Holguín of “Strong Dissatisfaction” Over Meeting With Turki",
-      "✓ gct | Turkish intelligence chief Kalın warned Mitsotakis over Israel ties, Greek paper alleges",
-      "· gct | White Fox Founders Daniel & Georgia Contos Pocket $58 Million Dividend Despite Revenue Dro",
-      "· naftemporiki | Ιδιωτικό χρέος: Στη Βουλή σήμερα η τροπολογία Πιερρακάκη για σταθερό επιτόκιο 3% στον εξωδ",
-      "· gct | 42% of Greek Workers Say Overtime Goes Unpaid",
-      "· gct | Democrats Seize US House as Senate Control Hangs in Balance",
-      "· gct | UK rules out law change for permanent return of Parthenon Sculptures",
-      "· gct | Gold Coast Greek Festival Draws 8,500, Confirms 2027 Return",
-      "· gct | Balkans Beyond Borders Festival Shifts Its Gaze to the Unseen",
-      "· gct | Britain’s EU Return Could Power Europe’s Defence Industry",
-      "· gct | The Jacinda Royale Raises Funds for Rare Ovarian Cancer Research",
-      "· gct | Greek Architect Eleni Kalapoda Helps Judge Britain’s Best New Buildings",
-      "· gct | Kostas Apostolakis praises Nikos Oikonomopoulos for publicly declaring his faith",
-      "· gn-iefimerida | Κατατέθηκε στη Βουλή η τροπολογία Πιερρακάκη για τους δανειολήπτες -Την Τετάρτη ψηφίζεται ",
-      "· gn-iefimerida | Πυρκαγιά σε πτηνοτροφική μονάδα στο Ωραιόκαστρο - iefimerida.gr"
+      "· naftemporiki | Elikonos Capital: Εγκαινιάστηκαν τα γραφεία της στη Θεσσαλονίκη – Στα σκαριά δυο νέες επεν",
+      "· gn-iefimerida | Ονομαστική ψηφοφορία ζήτησε ο Πιερρακάκης στο νομοσχέδιο για τους δανειολήπτες - iefimerid",
+      "· ert | Πτολεμαΐδα: Ο Υπ. Κλιματικής Κρίσης και Πολιτικής Προστασίας στην παρουσίαση του Εξομοιωτή",
+      "· naftemporiki | Στη Βουλή το ν/σ για την «Ενίσχυση του διαθέσιμου εισοδήματος»: Οικονομικές ενισχύσεις και",
+      "· naftemporiki | Πρώτη ομιλία του Ελ-Σαγιέντ με αιχμές κατά Ισραήλ: Δεν θέλουμε τα χρήματά μας να στέλνοντα",
+      "· naftemporiki | Εμπρησμός στις φυλακές Διαβατών: Ταυτοποιήθηκαν 4 Τούρκοι κρατούμενοι – Πώς έδρασαν",
+      "· naftemporiki | Bitcoin: Βουτιά σε χαμηλά 7 εβδομάδων πριν τελικά…ανακάμψει – Ζυγίζουν τη νίκη των Δημοκρα",
+      "· naftemporiki | Η ELPEN αλλάζει κλίμακα: Επενδύσεις στην Ελλάδα, πωλήσεις στις διεθνείς αγορές",
+      "· ert | Θεσσαλονίκη: Ταυτοποιήθηκαν τέσσερις Τούρκοι κρατούμενοι για τον εμπρησμό στις φυλακές Δια",
+      "· naftemporiki | Εκλογική επιτροπή Ισραήλ: Καμία ένδειξη νοθείας",
+      "· ingr | Αμπντούλ Ελ Σαγέντ: Νίκη σταθμός – Ο προοδευτικός Δημοκρατικός έγινε ο πρώτος μουσουλμάνος",
+      "· gtp | WTM London 2026 Opens with Focus on Travel Experiences, Luxury and AI"
     ]
   },
   "evergreenDone": [
