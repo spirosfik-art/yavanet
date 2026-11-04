@@ -18,31 +18,7 @@
     "1a4cf48b2870": 1798268738798,
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
-    "d76a4a71da78": 1792532226535,
-    "2f2bfdd8110f": 1792532226535,
-    "14bf9f461994": 1792532226535,
-    "74749e7f06d1": 1792532226535,
-    "fb50e2d1e962": 1792532226535,
-    "b4f9628ec227": 1792532226535,
-    "b79c93b55ec4": 1792532226535,
-    "388d72e1de66": 1792532226535,
-    "b47d3b4d0318": 1792534015872,
-    "3482f963eb3d": 1792534015872,
-    "dea07227f406": 1792534015872,
-    "483f5661107b": 1792534015872,
     "d18f8b989441": 1799100415872,
-    "2ff62db62726": 1792535708588,
-    "3f4d7d88cadd": 1792535708588,
-    "a253d115c786": 1792535708588,
-    "13d0a15c9f33": 1792535708588,
-    "758a389561c4": 1792535708588,
-    "2dc4d00ad8fc": 1792535708588,
-    "87d1499b4963": 1792535708588,
-    "aed65cc7507f": 1792537467890,
-    "781feceb9544": 1792537467890,
-    "b54446bc8beb": 1792540830898,
-    "5e2ebd638111": 1792540830898,
-    "f8fbc3eddc2a": 1792544892679,
     "e0a9cf372319": 1792546867150,
     "5fa47261521e": 1792550191855,
     "fc5831582f03": 1792552173788,
@@ -2016,7 +1992,32 @@
     "9dee4963a42a": 1793740472533,
     "44f4883e0e4d": 1793740472533,
     "9ec3d1731d73": 1793740472533,
-    "5ab37bba5d78": 1793740472533
+    "5ab37bba5d78": 1793740472533,
+    "75c544e92a07": 1793754977912,
+    "a7d2df485347": 1793754977912,
+    "edc777feaea6": 1793754977912,
+    "85bcc5092915": 1793754977912,
+    "fe09a5df85e6": 1793754977912,
+    "c0b35cba8f83": 1793754977912,
+    "e6ff988c376b": 1793754977912,
+    "bf084282907e": 1793754977912,
+    "eefb09520bff": 1793754977912,
+    "882d1b5e4351": 1793754977912,
+    "1da7935244fc": 1793754977912,
+    "3ac963148113": 1793754977912,
+    "1c68edd7e2ac": 1793754977912,
+    "f4eb18ba3af8": 1793754977912,
+    "5157d57b272c": 1793754977912,
+    "98c0509f4480": 1793754977912,
+    "2f483b2acc80": 1793754977912,
+    "a64e922e10ae": 1793754977912,
+    "5d80f352497b": 1793754977912,
+    "d4dafa6a7ccc": 1793754977912,
+    "2def89aff68b": 1793754977912,
+    "e5b277f828de": 1793754977912,
+    "c916755ced0c": 1793754977912,
+    "8eb2418b6ff7": 1793754977912,
+    "572b4323cff0": 1793754977912
   },
   "pending": {},
   "sourceStatus": {
@@ -2028,12 +2029,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-03T21:14:20.531Z",
+      "at": "2026-11-04T01:15:54.732Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-03T21:14:21.407Z",
+      "at": "2026-11-04T01:15:55.386Z",
       "items": 4
     },
     "civilprotection": {
@@ -2044,27 +2045,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-03T21:14:23.928Z",
-      "items": 40
+      "at": "2026-11-04T01:15:57.430Z",
+      "items": 18
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-03T21:14:24.053Z",
+      "at": "2026-11-04T01:15:57.808Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-03T21:14:24.921Z",
+      "at": "2026-11-04T01:15:58.691Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-03T21:14:25.839Z",
+      "at": "2026-11-04T01:15:59.402Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-03T21:14:26.437Z",
+      "at": "2026-11-04T01:16:00.339Z",
       "items": 10
     },
     "toi-greece": {
@@ -2075,23 +2076,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-03T21:14:27.260Z",
-      "items": 0
+      "at": "2026-11-04T01:16:00.816Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-03T21:14:27.589Z",
-      "items": 14
+      "at": "2026-11-04T01:16:01.023Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-03T21:14:27.713Z",
-      "items": 5
+      "at": "2026-11-04T01:16:01.729Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T21:14:28.252Z",
-      "items": 3
+      "at": "2026-11-04T01:16:01.951Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -2100,12 +2101,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-03T21:14:22.009Z",
+      "at": "2026-11-04T01:15:56.267Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-03T21:14:29.068Z",
+      "at": "2026-11-04T01:16:02.542Z",
       "items": 0
     },
     "hcg": {
@@ -2116,164 +2117,60 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-03T21:14:29.834Z",
+      "at": "2026-11-04T01:16:04.330Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-03T21:14:30.082Z",
+      "at": "2026-11-04T01:16:04.564Z",
       "items": 12
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-03T21:14:30.276Z",
+      "at": "2026-11-04T01:16:04.743Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-03T21:14:30.542Z",
+      "at": "2026-11-04T01:16:05.003Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-03T21:14:30.933Z",
-      "items": 8
+      "at": "2026-11-04T01:16:05.352Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-03T21:14:31.367Z",
-      "items": 5
+      "at": "2026-11-04T01:16:05.710Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-03",
-    "count": 8,
-    "published": [
-      {
-        "slug": "greece-weather-warning-november-2026",
-        "title": "↻ Severe Weather in Greece: Emergency Alerts Issued for Western Regions",
-        "at": "2026-11-03T01:27:05+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-weather-warning-november-2026",
-        "title": "↻ Severe Storm in Rhodes: Floods, Rescues, and Swept Cars",
-        "at": "2026-11-03T01:27:21+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "earthquake-near-lassithi-crete",
-        "title": "Magnitude 4.7 earthquake recorded off the coast of Lassithi in Crete",
-        "at": "2026-11-03T01:27:45+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "athens-copper-thefts-danger",
-        "title": "Copper Thefts in Athens Leave Major Streets in Darkness",
-        "at": "2026-11-03T14:47:12+02:00",
-        "section": "living"
-      },
-      {
-        "slug": "earthquake-near-lassithi-crete",
-        "title": "↻ Strong earthquake strikes Greece: Magnitude 4.9 recorded off Crete",
-        "at": "2026-11-03T17:03:21+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "agnetta-storm-thesprotia-112-alert",
-        "title": "Storm in Greece: 112 Emergency Alert Issued in Thesprotia",
-        "at": "2026-11-03T17:06:38+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-debt-protection-measures-2026",
-        "title": "Greece Introduces New Debt Protection and Higher Fines for Servicers",
-        "at": "2026-11-03T17:11:58+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "agnetta-storm-thesprotia-112-alert",
-        "title": "↻ Severe Weather in Greece: Emergency Warnings Issued for Rain and Storms",
-        "at": "2026-11-03T17:31:22+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "crown-iris-bomb-threat-syros",
-        "title": "Crown Iris cruise ship inspected for explosive device at Syros port",
-        "at": "2026-11-03T17:35:20+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "crown-iris-syros-bomb-threat",
-        "title": "Syros: Security Check on Crown Iris Cruise Ship Following Threat",
-        "at": "2026-11-03T22:56:13+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "trump-us-military-aid-israel",
-        "title": "US to end military aid to Israel by end of year, Trump says",
-        "at": "2026-11-03T22:56:22+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "agnetta-storm-thesprotia-112-alert",
-        "title": "↻ Severe Weather in Northern Greece: Dozens of Fire Service Operations",
-        "at": "2026-11-03T23:14:59+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "four-bomb-threats-flights-israel-london-greece",
-        "title": "Four bomb threats target flights from London, Copenhagen, Manchester and Israel",
-        "at": "2026-11-03T23:27:56+02:00",
-        "section": "israelis"
-      }
-    ],
+    "date": "2026-11-04",
+    "count": 0,
+    "published": [],
     "rejected": [
       {
-        "title": "Βροχές και καταιγίδες σχεδόν παντού σήμερα – Πού θα είναι έντονα τα φαινόμενα",
-        "reason": "Ίδιο θέμα με «Severe Storm in Rhodes: Floods, Rescues, and Swept Cars» – δεν γράφτηκε ξανά",
-        "at": "2026-11-03T06:36:42.319Z"
-      },
-      {
-        "title": "Σεισμός 4,7 Ρίχτερ ανοιχτά του Λασιθίου - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Magnitude 4.7 earthquake recorded off the coast of Lassithi in Crete» – δεν γράφτηκε ξανά",
-        "at": "2026-11-03T06:36:46.679Z"
-      },
-      {
-        "title": "Ακίνητα εγκλωβισμένα σε νόμους και δικαστήρια – Στο τραπέζι νέος Οικοδομικός Κανονισμός",
-        "reason": "Ίδιο θέμα με «Greece Leads Europe Again in Housing Cost Overburden» – δεν γράφτηκε ξανά",
-        "at": "2026-11-03T06:37:24.749Z"
-      },
-      {
-        "title": "Σύρος: Εκκενώθηκε το κρουαζιερόπλοιο «Crown Iris» ύστερα από απειλή για εκρηκτικό μηχανισμό",
+        "title": "Αρνητικός ο έλεγχος στο Crown Iris – Θα αποπλεύσει προς Χάιφα",
         "reason": "Ίδιο θέμα με «Crown Iris cruise ship inspected for explosive device at Syros port» – δεν γράφτηκε ξανά",
-        "at": "2026-11-03T20:56:43.099Z"
+        "at": "2026-11-04T01:16:35.793Z"
       },
       {
-        "title": "Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat",
-        "reason": "Ίδιο θέμα με «Crown Iris cruise ship inspected for explosive device at Syros port» – δεν γράφτηκε ξανά",
-        "at": "2026-11-03T21:14:36.583Z"
+        "title": "Ισχυρές βροχές στη βόρεια Ελλάδα – Απεγκλωβισμός ενός ατόμου στη Θεσσαλονίκη – Υποχωρεί η κακοκαιρία",
+        "reason": "Ίδιο θέμα με «Severe Weather in Northern Greece: Dozens of Fire Service Operations»: Mixed-script (broken) Hebrew words: בדre. Write every Hebrew word only in Hebrew letters.",
+        "at": "2026-11-04T01:17:58.470Z"
       }
     ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "athens-copper-thefts-danger",
-        "at": "2026-11-03T12:47:13.754Z"
-      },
-      {
-        "slug": "agnetta-storm-thesprotia-112-alert",
-        "at": "2026-11-03T15:06:39.400Z"
-      },
-      {
-        "slug": "crown-iris-syros-bomb-threat",
-        "at": "2026-11-03T20:56:13.895Z"
-      }
-    ],
-    "ig": []
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-03",
+      "count": 8,
+      "rejected": 5
+    },
     {
       "date": "2026-11-02",
       "count": 6,
@@ -2467,21 +2364,35 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-03T21:14:32.533Z",
-    "considered": 11,
+    "at": "2026-11-04T01:16:17.912Z",
+    "considered": 25,
     "picked": 2,
     "items": [
-      "· gct | Greece Begins Restoration Project for Daphni Monastery Frescoes",
-      "✓ gct | Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat",
-      "✓ naftemporiki | Κακοκαιρία σε Μακεδονία και Θράκη: 54 επιχειρήσεις της Πυροσβεστικής λόγω ισχυρών βροχοπτώ",
-      "· gct | Greek Swimmer Nikolas Papatheodorou Wins Silver at Youth Olympics",
-      "· gct | Greek Village to Light 15-Metre Christmas Tree This Saturday",
-      "· gct | Greece Promotes Samos to German-Speaking Tourism Markets",
-      "· gct | Greek Team Athinaikos Claim First EuroLeague Women Victory",
-      "· gct | Greece Dismantles 262 Criminal Organisations in Two Years",
-      "· gct | Tsitsipas and Davidovich Fokina Withdraw from Paris Masters",
-      "· gct | Libya’s Grand Mufti Bans Nike Clothing Over Greek Goddess Connection",
-      "· gn-iefimerida | Χάος με απειλές για βόμβες σε πτήσεις στην Ευρώπη -Προσγειώσεις με μαχητικά, έλεγχοι, νεύρ"
+      "· gct | Infantino Challenged Over Fourth Term Bid as FIFA President",
+      "· gct | NASA Astronauts Vote in US Midterm Elections From Space",
+      "· gct | Spanish Transport Minister Resigns After Deadly Train Disaster",
+      "· gct | Israel Attorney General Demands Evidence in Election Fraud Probe",
+      "· ert | Ισραήλ: Αποδείξεις για τις καταγγελίες περί εκλογικής νοθείας ζητά η γενική εισαγγελέας",
+      "· gct | Greek Tomato Rice: An Easy Domatorizo Side Ready in 35 Minutes",
+      "· gct | Four Quiet Christmas Villages in the Mountains of Greece",
+      "· gct | Greece’s 2026 Fire Season Claims 11 Lives, WWF Review Finds",
+      "· gct | Greek Olympic Committee to Sue Newspaper for Defamation",
+      "· gct | Nikolaos Papatheodorou Wins Second Medal With Dakar Backstroke Silver",
+      "· gct | Greece Launches myEOPYY App and Lets Patients Rate Doctors",
+      "· gct | Greek Beach Volleyball Duo Reach Finals at Youth Olympics",
+      "· gct | Cervical Cancer Cases Fall in Greece, But Global Numbers To Rise",
+      "· gct | Greece Signs Historic Pact to Improve Safety of War Reporters",
+      "· gct | Olympiacos Claim Third EuroCup Women Victor",
+      "· gct | Indecent AI Images of Schoolgirls Spark Student Protest",
+      "· ert | Ισραήλ: Κατηγορίες Άιζενκοτ κατά Νετανιάχου για «πογκρόμ κατά της δημοκρατίας»",
+      "· ingr | Στα «ΝΕΑ» της Τετάρτης: Χωρίς έξτρα φόρο",
+      "· naftemporiki | Ισραήλ: Πολιτική σύγκρουση για τις καταγγελίες περί εκλογικής νοθείας – Παρέμβαση της γενι",
+      "· naftemporiki | Wall Street: Μεικτά πρόσημα με άνοδο για Nasdaq και S&P 500 εν αναμονή των ενδιάμεσων εκλο",
+      "✓ ingr | Αρνητικός ο έλεγχος στο Crown Iris – Θα αποπλεύσει προς Χάιφα",
+      "✓ ingr | Ισχυρές βροχές στη βόρεια Ελλάδα – Απεγκλωβισμός ενός ατόμου στη Θεσσαλονίκη – Υποχωρεί η ",
+      "· gn-iefimerida | Σύρος: Εκκενώθηκε για λόγους ασφαλείας το κρουαζιερόπλοιο «Crown Iris» μετά από απειλή για",
+      "· ktg | “Rethymno must be prepared for a tsunami,” warns Lekkas, chief of EPPO",
+      "· gn-iefimerida | Το ΠΑΣΟΚ καταθέτει τροπολογία στο νομοσχέδιο Πιερρακάκη για τις 120 δόσεις - iefimerida.gr"
     ]
   },
   "evergreenDone": [
