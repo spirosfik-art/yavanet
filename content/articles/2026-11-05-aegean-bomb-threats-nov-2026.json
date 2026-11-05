@@ -1,0 +1,56 @@
+{
+  "slug": "aegean-bomb-threats-nov-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-05T23:56:33+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Greece",
+  "sources": [
+    {
+      "name": "Keep Talking Greece",
+      "url": "https://www.keeptalkinggreece.com/2026/11/05/bomb-threats-in-two-flights-of-aegean-airlines/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/29542208/pexels-photo-29542208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aegean Airlines Airbus A320 taking off from Hamburg airport with lush greenery in the background.",
+    "credit": "Photo: Wolfgang Weiser / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/aegean-airlines-airbus-a320-takeoff-in-hamburg-29542208/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "איומי פצצה בשתי טיסות של חברת אייג'אן",
+    "dek": "הרשויות אישרו כי מדובר באיומי שווא. הטיסות נחתו בשלום ולא נמצאו חפצים חשודים.",
+    "tldr": [
+      "שתי טיסות של חברת אייג'אן קיבלו איומי פצצה ב-5 בנובמבר.",
+      "הטיסות מאתונה לווינה ומסלוניקי למילאנו עברו בדיקות ביטחוניות.",
+      "לא נמצאו חומרי נפץ והטיסות המשיכו בלוח הזמנים המתוכנן."
+    ],
+    "means": "חשוב לישראלים הטסים ביוון לדעת כי חברות התעופה פועלות לפי פרוטוקולי ביטחון מחמירים במקרים של התרעות.",
+    "body": "ביום חמישי, 5 בנובמבר 2026, התקבלו איומי פצצה בשתי טיסות של חברת התעופה היוונית אייג'אן (Aegean). מדובר בטיסה מאתונה לווינה ובטיסה מסלוניקי למילאנו. על פי הודעת חברת התעופה, הופעלו כל פרוטוקולי הביטחון הנדרשים בתיאום עם הרשויות הרלוונטיות. לאחר בדיקות מקיפות שנערכו על ידי גורמי הביטחון בשדות התעופה, התברר כי מדובר באיומי שווא ולא נמצאו חפצים חשודים או חומרי נפץ על המטוסים. הנוסעים ואנשי הצוות בטוחים, והטיסות המשיכו בדרכן לאחר השלמת הבדיקות. אירועים דומים דווחו ביום זה בטיסות נוספות ברחבי אירופה. מדובר בעדכון רשמי בלבד, ואין מדובר בייעוץ ביטחוני."
+  },
+  "en": {
+    "title": "Bomb threats reported on two Aegean Airlines flights",
+    "dek": "Authorities confirmed the threats were unfounded. All passengers and crew are safe.",
+    "tldr": [
+      "Two Aegean Airlines flights received bomb threats on November 5.",
+      "Security protocols were activated upon landing in Vienna and Milan.",
+      "No explosive devices were found and flights resumed as scheduled."
+    ],
+    "means": "Travelers in Greece should be aware that airlines follow strict security protocols when receiving such alerts.",
+    "body": "On Thursday, November 5, 2026, two Aegean Airlines flights were subject to bomb threats. The incidents involved a flight from Athens to Vienna and a flight from Thessaloniki to Milan. According to the airline, all standard security protocols were immediately activated in coordination with the relevant authorities. Following thorough security inspections at the destination airports, it was confirmed that the threats were baseless and no explosive devices were found. All passengers and crew remained safe, and the aircraft departed as scheduled once the inspections were completed. Similar threats were reported on over 15 flights across Europe on the same day. This is a factual report and does not constitute travel advice."
+  },
+  "meta": {
+    "itemId": "240de59596cc",
+    "imageQuery": "Aegean Airlines aircraft",
+    "sourceHash": "91065b3c9a3e",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-05T21:56:34.336Z",
+    "official": false
+  }
+}
