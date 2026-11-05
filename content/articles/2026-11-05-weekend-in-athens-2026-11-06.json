@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39304867/pexels-photo-39304867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant scene in Athens with people moving at sunset in front of historic architecture.",
+    "credit": "Photo: stelios ΒΚ / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/busy-athens-square-at-sunset-with-acropolis-39304867/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -63,6 +68,7 @@
     "itemId": "weekend-2026-11-06",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-11-05T17:09:44+02:00"
+    "checkedAt": "2026-11-05T17:09:44+02:00",
+    "photoTried": true
   }
 }
