@@ -19,13 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "dd6241338877": 1792793241288,
-    "b850b1cd2d02": 1792794942101,
-    "4199a671f2ea": 1792794942101,
-    "46564f0c5f61": 1792794942101,
-    "2f42780e0a75": 1792794942101,
-    "9fc3281e9c32": 1792794942101,
-    "88ad2ed66fcc": 1792794942101,
     "723a2334e298": 1792796682816,
     "3a8c64bdea8b": 1792796682816,
     "4fb6c9db63fa": 1792796682816,
@@ -1896,7 +1889,9 @@
     "0307b24f8dac": 1794002118174,
     "35ec381a1b1c": 1794002118174,
     "a67e2d213879": 1794002118174,
-    "ac98a3727b84": 1794002118174
+    "ac98a3727b84": 1794002118174,
+    "b3fe3b290265": 1794006106426,
+    "996a27c3f48b": 1794006106426
   },
   "pending": {},
   "sourceStatus": {
@@ -1908,12 +1903,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-06T21:55:06.806Z",
+      "at": "2026-11-06T23:01:35.719Z",
       "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-06T21:55:07.495Z",
+      "at": "2026-11-06T23:01:36.500Z",
       "items": 5
     },
     "civilprotection": {
@@ -1924,27 +1919,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-06T21:55:08.719Z",
+      "at": "2026-11-06T23:01:37.836Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-06T21:55:08.913Z",
+      "at": "2026-11-06T23:01:38.228Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-06T21:55:09.767Z",
+      "at": "2026-11-06T23:01:39.746Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-06T21:55:10.673Z",
+      "at": "2026-11-06T23:01:40.518Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-06T21:55:11.492Z",
+      "at": "2026-11-06T23:01:41.419Z",
       "items": 10
     },
     "toi-greece": {
@@ -1955,22 +1950,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-06T21:55:11.985Z",
+      "at": "2026-11-06T23:01:41.846Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-06T21:55:12.325Z",
+      "at": "2026-11-06T23:01:42.166Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-06T21:55:12.920Z",
+      "at": "2026-11-06T23:01:42.249Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-06T21:55:13.349Z",
+      "at": "2026-11-06T23:01:42.394Z",
       "items": 5
     },
     "ynet-greece": {
@@ -1980,12 +1975,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-06T21:55:07.934Z",
+      "at": "2026-11-06T23:01:37.111Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-06T21:55:13.912Z",
+      "at": "2026-11-06T23:01:43.015Z",
       "items": 0
     },
     "hcg": {
@@ -1996,88 +1991,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-06T21:55:15.696Z",
+      "at": "2026-11-06T23:01:44.173Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-06T21:55:15.954Z",
+      "at": "2026-11-06T23:01:44.391Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-06T21:55:16.117Z",
+      "at": "2026-11-06T23:01:44.612Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-06T21:55:16.366Z",
+      "at": "2026-11-06T23:01:44.848Z",
       "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-06T21:55:16.902Z",
+      "at": "2026-11-06T23:01:45.195Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-06T21:55:17.278Z",
+      "at": "2026-11-06T23:01:45.558Z",
       "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-06",
-    "count": 5,
-    "published": [
-      {
-        "slug": "greece-crypto-tax-10-percent-2026",
-        "title": "Greece Approves 10% Tax on Cryptocurrency Profits",
-        "at": "2026-11-06T04:17:39+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-cyprus-israel-electricity-interconnector-surveys",
-        "title": "Greece Resumes Seabed Surveys for Electricity Link with Cyprus and Israel",
-        "at": "2026-11-06T18:59:33+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "hilton-opens-era-hotel-heraklion-crete",
-        "title": "Hilton Opens New ÉRA Hotel in Central Heraklion, Crete",
-        "at": "2026-11-06T19:00:15+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "velos-sapphire-seafarer-killed-gulf",
-        "title": "Athens-based Velos Tankers confirms seafarer killed in Gulf",
-        "at": "2026-11-06T23:54:55+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "sete-tax-increase-opposition-2026",
-        "title": "Greek Tourism Association Opposes Proposed Local Tax Increase",
-        "at": "2026-11-06T23:55:05+02:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Greece: New proposals to cap rents and end Golden Visa",
-        "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The Hebrew text includes 'פלאפונ' and 'פלאפון' which are transliterated errors/typos for the ceiling/cap concept ('פלאפון' means mobile phone in Hebrew, whereas the source refers to a rent cap/plafond 'פלאφόν' -> תקרה).",
-        "at": "2026-11-06T02:17:31.174Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greece-cyprus-israel-electricity-interconnector-surveys",
-        "at": "2026-11-06T16:59:34.330Z"
-      }
-    ],
-    "ig": []
+    "date": "2026-11-07",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-06",
+      "count": 5,
+      "rejected": 1
+    },
     {
       "date": "2026-11-05",
       "count": 8,
@@ -2286,40 +2242,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-06T21:55:18.174Z",
-    "considered": 35,
+    "at": "2026-11-06T23:01:46.426Z",
+    "considered": 2,
     "picked": 0,
     "items": [
-      "· ingr | Βενέτσια-Ουντινέζε 2-1: Νίκη-ανάσα οι γηπεδούχοι στο ντέρμπι των ουραγών",
-      "· gct | Thessaloniki Wins Top City Break Honour in London",
-      "· naftemporiki | Με μεικτά πρόσημα έκλεισε η συνεδρίαση στη Wall Street",
-      "· gct | Greece Announces Further Investigations into NGOs",
-      "· gct | Dutch Supreme Court Sentences Greek Shipowner to Prison",
-      "· gct | Greece Moves to Boost Competition in Petroleum Market",
-      "· gct | Naval Group Signs Major Contracts with Greek Defence Companies",
-      "· gct | Greek Exports Hit Record €41.86 Billion in First Nine Months",
-      "· gct | Christodoulides Vows to End Turkish Occupation and Reunify Cyprus",
-      "· gct | Greece Clears Way for Undersea Electricity Cable Work to Cyprus",
-      "· ingr | Αναστάτωση προκάλεσε η ξαφνική πτήση του «Αεροσκάφους της Ημέρας της Κρίσεως» του Ντόναλντ",
-      "· naftemporiki | Channel 12: Οι ΗΠΑ ματαίωσαν επιχείρηση στο Ιράν που σχεδίαζαν Νετανιάχου και αρχηγός της ",
-      "· ert | Ισραήλ: Βήματα συνεργασίας για σχηματισμό κυβέρνησης από την αντιπολίτευση",
-      "· gct | Turkish Drones Record 15 Airspace Violations Over Aegean",
-      "· naftemporiki | Επιμένει ο Τραμπ: Ολόκληρη η Μέση Ανατολή δεν θα υπήρχε σήμερα αν «δεν εμπόδιζα το Ιράν να",
-      "· ingr | ΠΑΣΟΚ: Προτελευταία η Ελλάδα στους μισθούς – Η ακρίβεια αποδομεί το κυβερνητικό «success s",
-      "· naftemporiki | DIMAND: Πούλησε το παραθαλάσσιο ακίνητο στις Γούρνες στη Sani/Ikos, έναντι €72,5 εκατ.",
-      "· ingr | Κουφονικολάκου (ΕΛΑΣ): Ο Μητσοτάκης απέτυχε – Εξανεμίζονται οι μισθοί, σε επίπεδα Βουλγαρί",
-      "· naftemporiki | Ισραήλ: 1.000 Εβραίοι της Διασποράς ζητούν από την αντιπολίτευση έναν κοινό εβραϊκο-αραβικ",
-      "· ingr | «Το ρολόι χτυπά αντίστροφα» – Μπαράζ ψευδών απειλών για βόμβες και σε τηλεοπτικούς σταθμού",
-      "· ktg | GSI cable sparks new crisis and tension between Greece and Turkey",
-      "· gn-iefimerida | Ισραήλ: Ο Άιζενκοτ βλέπει «σημαντική πρόοδο» για κυβέρνηση έκτακτης ανάγκης χωρίς τον Νετα",
-      "· usgs | M 4.5 - 101 km SSE of Palekastro, Greece",
-      "· gn-kathimerini | Ισραήλ – Αϊζενκοτ: «Σημαντική πρόοδος» στις διαπραγματεύσεις για τον σχηματισμό κυβέρνησης",
-      "· gtp | Greek Hotel Investments: Acquisitions in Milos, Athens and Crete",
-      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στη Θεσσαλονίκη – Ευ. Τουρνάς: Έμφαση στην πρόληψη και την επι",
-      "· gn-kathimerini | Υβριδικός πόλεμος νεύρων στην Ευρώπη: Μπαράζ απειλών σε πτήσεις λίγο πριν από το Δουβλίνο ",
-      "· gn-kathimerini | Nέες απειλές για βόμβες σε πτήσεις και αεροδρόμια - Kathimerini",
-      "· gn-kathimerini | Περού: Εντοπίστηκαν 3.000 ταραντούλες κρυμμένες μέσα σε βρώμικες κάλτσες σε αεροδρόμιο - K",
-      "· gn-iefimerida | Πώς θα λειτουργήσουν το μετρό και το τραμ το Σαββατοκύριακο για τον Μαραθώνιο -Αυξημένα τα"
+      "· gct | Former Inmate Who Claimed to Be Chuck Norris’ Stunt Double Found Dead in Greek Prison",
+      "· ingr | Καρπουχτσής: Να μας εξηγήσει η κυβέρνηση πώς μπήκε στο νομοσχέδιο το Άρθρο 23"
     ]
   },
   "evergreenDone": [
