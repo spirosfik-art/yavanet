@@ -12,6 +12,9 @@ import crypto from "node:crypto";
 import { ROOT, log, readJSON, writeJSON, isoAthens, fetchText, hasAI, claude, parseJSON, notifyOwner } from "./lib.mjs";
 
 const FILE = path.join(ROOT, "content/listings.json");
+// Αγγελίες που υπάρχουν στο sfproperties.gr (/akinita/<id>/) αλλά όχι (ακόμα) στις λίστες /poliseis/ – /enoikiaseis/.
+// Προαιρετικά με έτοιμη μετάφραση (tr.he / tr.en) ώστε να μη χρειάζεται AI.
+const EXTRA = readJSON(path.join(ROOT, "content/listings-extra.json"), { listings: [] }).listings || [];
 const BASE = "https://sfproperties.gr";
 const ECB = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
 const DRY = process.argv.includes("--dry");
@@ -145,6 +148,7 @@ export async function update() {
   let ids = [];
   try { ids = [...(await listIds("poliseis", "sale")), ...(await listIds("enoikiaseis", "rent"))]; }
   catch (e) { log("sfproperties.gr λίστες:", e.message, "→ κρατάμε τις προηγούμενες αγγελίες"); }
+  for (const e of EXTRA) if (e && e.id && !ids.some((x) => x.id === String(e.id))) ids.push({ id: String(e.id), deal: e.deal || "rent", sold: false, extra: true });
   const avail = ids.filter((x) => !x.sold);
   const prevAvail = (prev.listings || []).filter((x) => x.status === "available");
   // Ασφάλεια: αν η σελίδα άλλαξε μορφή και δεν βρίσκουμε σχεδόν τίποτα, δεν σβήνουμε τις αγγελίες
@@ -167,7 +171,9 @@ export async function update() {
     if (EXCLUDED_AREAS.test(`${x.areaEl} ${x.titleEl} ${x.descriptionEl}`)) { skipped.push({ id: c.id, reason: "excluded-area", areaEl: x.areaEl }); continue; }
     x.deal = c.deal === "rent" || x.deal === "rent" ? "rent" : "sale";
     x.status = "available"; x.firstSeen = (old && old.firstSeen) || today; x.lastSeen = today;
-    x.tr = old && old.tr && old.tr.hash === trHash(x) ? old.tr : (await translate(x)) || (old && old.tr && old.tr.hash === trHash(x) ? old.tr : null);
+    const ex = EXTRA.find((e) => String(e.id) === c.id);
+    if (ex && ex.tr && ex.tr.he && ex.tr.en) x.tr = { hash: trHash(x), manual: true, he: ex.tr.he, en: ex.tr.en };
+    else x.tr = old && old.tr && old.tr.hash === trHash(x) ? old.tr : (await translate(x)) || (old && old.tr && old.tr.hash === trHash(x) ? old.tr : null);
     next.push(x);
   }
   // Όσες ήταν διαθέσιμες και τώρα φαίνονται «Πωλήθηκε/Νοικιάστηκε»: μένουν 30 μέρες με την ένδειξη. Όσες χάθηκαν εντελώς: φεύγουν.
