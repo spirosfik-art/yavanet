@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:08:02+02:00",
+  "updated": "2026-11-07T13:05:13+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,12 +9,12 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 96,
+      "price": 95,
       "depart": "2026-11-16",
       "ret": "2026-11-22",
       "airline": "Sky Express",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1611ATH22111?t=GQ17948718001794879900000135TLVATH17953182001795325400000120ATHTLV_d4cf6751941494853df9851236f60c37_8729&search_date=06112026&expected_price_uuid=01a1afb7-7d18-8030-ae2b-808f26fdcc33&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Qwia6OAwkvF25eVUhdRpzw&expected_price_source=share&expected_price_currency=eur&expected_price=96&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1611ATH22111?t=GQ17948718001794879900000135TLVATH17953182001795325400000120ATHTLV_d4cf6751941494853df9851236f60c37_8691&search_date=07112026&expected_price_uuid=01a1b579-01a2-8031-6199-35a8612cb72b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Qwia6OAwkvF25eVUhdRpzw&expected_price_source=share&expected_price_currency=eur&expected_price=95&marker=782936"
     },
     {
       "dest": "HER",
@@ -81,17 +81,6 @@
       "airline": "Sky Express",
       "transfers": 2,
       "link": "https://www.aviasales.com/search/TLV1411JMK17111?t=GQ17946990001794765000001100TLVATHJMK17949378001794970500000545JMKATHTLV_2935f3eb269b5fa677739916751ccf7a_22085&search_date=04112026&expected_price_uuid=01a1a5b6-0965-8030-e824-690dcd30bc96&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=poV59X_ePjRFIiV57VyW3w&expected_price_source=share&expected_price_currency=eur&expected_price=240&marker=782936"
-    },
-    {
-      "dest": "CHQ",
-      "he": "חאניה, כרתים",
-      "en": "Chania, Crete",
-      "price": 292,
-      "depart": "2026-12-31",
-      "ret": "2027-01-04",
-      "airline": "Wizz Air",
-      "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV3112CHQ04011?t=W417987214001798751400000500TLVATHCHQ17990994001799150100000845CHQATHTLV_b90b2d55b5a9f9ab81f36378e3a05165_26234&search_date=31102026&expected_price_uuid=01a190af-4da5-8030-6cec-7d9e6cb39d0b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7MxRNW4NAPejMlxOREfjww&expected_price_source=share&expected_price_currency=eur&expected_price=292&marker=782936"
     }
   ]
 }
