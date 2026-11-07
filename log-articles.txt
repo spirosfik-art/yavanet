@@ -1,0 +1,21 @@
+14:20:52 θέμα: greek-tax-number-bank-account-property
+14:21:12 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 1)
+14:23:20 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:23:20 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 2)
+14:25:36 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:25:36 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 3)
+14:28:30 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:28:30 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 1)
+14:30:38 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:30:38 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 2)
+14:32:54 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:32:54 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 3)
+14:35:18 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:35:18 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 4)
+14:35:57 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 5)
+14:38:37 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+14:38:37 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 6)
+14:39:25 en σφάλμα: Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση (προσπάθεια 1)
+14:39:26 en σφάλμα: Gemini API: {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini (προσπάθεια 2)
+14:39:30 en σφάλμα: Gemini API: {"error":{"code":404,"message":"This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3 (προσπάθεια 3)
+14:39:30 απέτυχε η γλώσσα en → ξαναδοκιμάζει αύριο
