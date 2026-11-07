@@ -19,37 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "d4784aaceeb1": 1792810511980,
-    "25e35a5a9ab1": 1792811751558,
-    "dcf7286e48c0": 1792814195243,
-    "9d52ac96600d": 1792814195243,
-    "bf0887d14a36": 1792814195243,
-    "4df187268823": 1792815422386,
-    "7ee995e87598": 1792815422386,
-    "537c9ba52852": 1792815422386,
-    "fce36640633e": 1792817611274,
-    "d1c442f79e72": 1792818872101,
-    "dfe8fb8422f1": 1792818872101,
-    "38bec3dfea89": 1792818872101,
-    "5b45471799d1": 1792818872101,
-    "9f2d552942e9": 1792820484606,
-    "faa899bea63e": 1792821943642,
-    "a799a2ad8c9d": 1792821943642,
-    "1ad0438dc2d5": 1792821943642,
-    "bf24b8d4ca29": 1792821943642,
-    "fdd983b661e0": 1792821943642,
-    "d0d7d5fb8bae": 1792821943642,
-    "4cd9f24c6e2b": 1792823841655,
-    "060759f18b76": 1792823841655,
-    "9058c709c5c8": 1792823841655,
-    "8b667ed1fd29": 1792823841655,
-    "37861bb7c887": 1792823841655,
-    "13873c95ad32": 1792823841655,
-    "16f6dcd35858": 1792824071894,
-    "be616835dde7": 1792826297485,
-    "f8c693c4ea93": 1792826297485,
-    "e330254724fd": 1792826297485,
-    "3c316964a660": 1792826297485,
     "7672efd67e21": 1792828429457,
     "89aebfde9653": 1792828429457,
     "598dcba55bda": 1792828429457,
@@ -1890,7 +1859,27 @@
     "fa262d16c180": 1794019413115,
     "afae580b08b2": 1794019413115,
     "e5da0366ade8": 1794019413115,
-    "b7198999a09b": 1794019413115
+    "b7198999a09b": 1794019413115,
+    "09965d1a6f7e": 1794036108731,
+    "2367c2a7950a": 1794036108731,
+    "24e857dd0371": 1794036108731,
+    "0160da2ee708": 1794036108731,
+    "69e4df246d7f": 1794036108731,
+    "842b06e950f6": 1794036108731,
+    "5581ac170a9b": 1794036108731,
+    "9bd242a725ec": 1794036108731,
+    "89ba9d54e076": 1794036108731,
+    "b30d993d7f7e": 1794036108731,
+    "46779e4be5d7": 1794036108731,
+    "8a28856cd1e2": 1794036108731,
+    "47275a9ee4c8": 1794036108731,
+    "f45494f40d82": 1794036108731,
+    "f44e9d6970bd": 1794036108731,
+    "06b93279c735": 1794036108731,
+    "72e71623496f": 1794036108731,
+    "06ec6e15a196": 1794036108731,
+    "2ab7e6d55f0f": 1794036108731,
+    "dcec9d42d3ab": 1794036108731
   },
   "pending": {},
   "sourceStatus": {
@@ -1902,12 +1891,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-07T02:43:23.911Z",
+      "at": "2026-11-07T07:21:34.540Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-07T02:43:24.447Z",
+      "at": "2026-11-07T07:21:35.449Z",
       "items": 5
     },
     "civilprotection": {
@@ -1918,27 +1907,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-07T02:43:25.475Z",
+      "at": "2026-11-07T07:21:37.548Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-07T02:43:25.707Z",
+      "at": "2026-11-07T07:21:37.670Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-07T02:43:26.379Z",
+      "at": "2026-11-07T07:21:39.747Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-07T02:43:27.128Z",
-      "items": 0
+      "at": "2026-11-07T07:21:40.611Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-07T02:43:27.887Z",
+      "at": "2026-11-07T07:21:41.409Z",
       "items": 10
     },
     "toi-greece": {
@@ -1949,23 +1938,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-07T02:43:28.332Z",
+      "at": "2026-11-07T07:21:42.037Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-07T02:43:28.606Z",
-      "items": 14
+      "at": "2026-11-07T07:21:42.150Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-07T02:43:28.655Z",
-      "items": 3
+      "at": "2026-11-07T07:21:42.869Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T02:43:28.779Z",
-      "items": 5
+      "at": "2026-11-07T07:21:43.380Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1974,12 +1963,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T02:43:24.785Z",
+      "at": "2026-11-07T07:21:36.796Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-07T02:43:29.236Z",
+      "at": "2026-11-07T07:21:44.165Z",
       "items": 0
     },
     "hcg": {
@@ -1990,42 +1979,62 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-07T02:43:30.647Z",
+      "at": "2026-11-07T07:21:46.166Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-07T02:43:30.890Z",
+      "at": "2026-11-07T07:21:46.443Z",
       "items": 9
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-07T02:43:31.094Z",
+      "at": "2026-11-07T07:21:46.629Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-07T02:43:31.358Z",
-      "items": 1
+      "at": "2026-11-07T07:21:46.932Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-07T02:43:31.667Z",
-      "items": 7
+      "at": "2026-11-07T07:21:47.306Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-07T02:43:32.131Z",
-      "items": 6
+      "at": "2026-11-07T07:21:47.754Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-07",
-    "count": 0,
-    "published": [],
-    "rejected": [],
-    "errors": []
+    "count": 1,
+    "published": [
+      {
+        "slug": "fitch-affirms-greece-credit-rating-bbb",
+        "title": "Fitch Affirms BBB Rating for Greece with Stable Outlook",
+        "at": "2026-11-07T09:22:17+02:00",
+        "section": "real-estate"
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Αθήνα: Όλοι οι δρόμοι που κλείνουν λόγω 43ου Μαραθωνίου – Πώς θα διεξάγεται η κυκλοφορία, τι ισχύει με το Μετρό",
+        "reason": "Ίδιο θέμα με «Athens Marathon: Traffic restrictions and road closures until Nov 9» – δεν γράφτηκε ξανά",
+        "at": "2026-11-07T07:21:55.353Z"
+      }
+    ],
+    "errors": [],
+    "fb": [
+      {
+        "slug": "fitch-affirms-greece-credit-rating-bbb",
+        "at": "2026-11-07T07:22:18.023Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2241,18 +2250,30 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-07T02:43:33.115Z",
-    "considered": 8,
-    "picked": 0,
+    "at": "2026-11-07T07:21:48.731Z",
+    "considered": 20,
+    "picked": 2,
     "items": [
-      "· gct | Name Day 7 November: Who Celebrates and the Saints Honoured Today",
-      "· gct | Four Years Since the Death of Archbishop Chrysostomos II of Cyprus",
-      "· gct | Alekos Sakellarios: The Athens Wit Behind Greek Cinema’s Golden-Age Comedies",
-      "· gct | 83 Years Since the Germans First Burned Karpenisi, Capital of the Resistance",
-      "· gct | Greece Rises to 19th Place Globally in Logistics Rankings",
-      "· gct | Mark Philippoussis Turns 50: The Scud’s Greek-Australian Tennis Legacy",
-      "· gct | European Commission Unveils First-Ever Common Tourism Policy",
-      "· gn-iefimerida | Σε διαβούλευση το νομοσχέδιο του Υπουργείου Εργασίας για την τεχνητή νοημοσύνη -Τι αλλάζει"
+      "✓ ingr | Αθήνα: Όλοι οι δρόμοι που κλείνουν λόγω 43ου Μαραθωνίου – Πώς θα διεξάγεται η κυκλοφορία, ",
+      "· ert | Φωτιά σε μονοκατοικία στην ανατολική Θεσσαλονίκη – Βγήκε σώος ο ιδιοκτήτης",
+      "· ingr | Γαλλία: Νέες διαδηλώσεις σήμερα – Σε διάλογο με τους κοινωνικούς εταίρους καλεί η κυβέρνησ",
+      "· naftemporiki | Εξωδικαστικός Μηχανισμός με σταθερό επιτόκιο 3%, τα πλεονεκτήματα – Ποιοι ωφελούνται από τ",
+      "· gct | Mimi Denisi Doco Takes Parthenon Sculptures Campaign to Europe",
+      "· ingr | Τεχνητή έκρηξη στις διώξεις για «παράνομη παραμονή» σε πρόσφυγες: ο Μίνως Μουζουράκης (Ref",
+      "· gct | Metlen Posts Record €6.21 Billion Nine-Month Revenue, Up 21%",
+      "· ingr | Ο κίνδυνος ενός ευρωπαϊκού «Ντέλαγουερ» με πλήγμα σε μισθούς και εργασιακά δικαιώματα",
+      "· gct | Bettany Hughes Links Greek Epics to a Storm Off Ikaria",
+      "· gct | Kosta Barbarouses Chooses South Melbourne After World Cup",
+      "· gct | Greek Companies Showcase Technologies at European Defence Week",
+      "· gct | US Weighs Renewed Iran Strikes, Fox News Reports; No New Order Reported",
+      "· gct | Turkey Approves Defence Pact With Saudi Arabia and Pakistan",
+      "· gct | More Than 500 Experts Gather in Athens for Fraud Games",
+      "· gct | Miniature Therapy Horses Bring Joy to People with Disabilities",
+      "· gct | Greece Covers All Cancer Treatment Costs for Children",
+      "· naftemporiki | Πόσοι μέτοχοι επανεπένδυσαν το μέρισμα της Allwyn",
+      "· gct | Lemon Chicken Orzo Soup: A Bright Bowl Ready in 50 Minutes",
+      "· gct | EU Accuses TikTok Over Harmful Rabbit Hole Feeds",
+      "✓ gct | Fitch Affirms Greece at BBB With Stable Outlook"
     ]
   },
   "evergreenDone": [
@@ -2295,5 +2316,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "fitch-affirms-greece-credit-rating-bbb",
+      "url": "https://yavanet.gr/a/fitch-affirms-greece-credit-rating-bbb/",
+      "at": "2026-11-07T07:22:18.023Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/fitch-affirms-greece-credit-rating-bbb/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/fitch-affirms-greece-credit-rating-bbb/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "פיץ' אישרה את דירוג האשראי של יוון ברמה של BBB עם תחזית יציבה",
+        "title_en": "Fitch Affirms BBB Rating for Greece with Stable Outlook",
+        "dek_he": "סוכנות הדירוג פיץ' חתמה את סבב הסקירות הצפוי לשנת 2026 והותירה על כנו את דירוג האשראי של יוון, תוך ציון תוצאות פיסקליות חזקות וירידה בחוב הציבורי.",
+        "dek_en": "Fitch Ratings has concluded its scheduled 2026 review by affirming Greece's long-term foreign-currency issuer default rating at BBB with a stable outlook.",
+        "section": "real-estate",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/7708657/pexels-photo-7708657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "פיץ' אישרה את דירוג האשראי של יוון ברמה של BBB עם תחזית יציבה\n\nסוכנות הדירוג פיץ' חתמה את סבב הסקירות הצפוי לשנת 2026 והותירה על כנו את דירוג האשראי של יוון, תוך ציון תוצאות פיסקליות חזקות וירידה בחוב הציבורי.\n\nhttps://yavanet.gr/a/fitch-affirms-greece-credit-rating-bbb/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Fitch Affirms BBB Rating for Greece with Stable Outlook\n\nFitch Ratings has concluded its scheduled 2026 review by affirming Greece's long-term foreign-currency issuer default rating at BBB with a stable outlook.\n\nhttps://yavanet.gr/en/a/fitch-affirms-greece-credit-rating-bbb/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
