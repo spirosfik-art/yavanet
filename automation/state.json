@@ -19,9 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "ed7af0d43c8c": 1792855844814,
-    "42a5e819fcfa": 1792855844814,
-    "d5262a6d1dde": 1792855844814,
     "42e0ab7d4f3d": 1792861480361,
     "5877981627a1": 1792863183099,
     "f01a13994aac": 1792863183099,
@@ -1886,116 +1883,14 @@
     "23a9e3b9d577": 1794060774062,
     "f786803c762b": 1794060774062,
     "1d930dbd3bbb": 1794060774062,
-    "966d604a8c5e": 1794060774062
+    "966d604a8c5e": 1794060774062,
+    "8509d16b7556": 1794068481575,
+    "f03e314c0d3c": 1794068481575,
+    "75b91b4fafea": 1794068481575,
+    "7eaffbd8ec11": 1794068481575,
+    "1e618bae0125": 1794068481575
   },
-  "pending": {
-    "61c097": {
-      "createdAt": 1794060787685,
-      "item": {
-        "title": "Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQczBaeVBuV21FWXFOU29VekVnREZSMWJuZGZPSjhibDNJcll2aWsxSXFZbEdYTnRHOFNscENfeVg5a1JTcEZScVZzRnRkVDRhbXVLbUo5VzdnTnVnQTNTREVqVjVtNnpUUlB1VzB0ZDJQakl5cTFCUjE5YUk5Sm1MeVVSYUzSAYoBQVVfeXFMTlNTVktqSDZVRXRzN3hnWnpERFVVQmRUNTVnUWJibDh2LXZIUTFGeHZZSEd3RHdXdFdacU9KbzE1M252XzJVOXBiWEFmVWlJNUhMWVpfNGUtNm9Wdll5ZGhDQklWUFViVnV1dW92VlMzX0trRjNwaUxkb1lGQlFQX29fbHVMcTRMSWNn?oc=5",
-        "summary": "Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση &nbsp;&nbsp; iefimerida.gr",
-        "published": "Sat, 07 Nov 2026 08:54:11 GMT",
-        "id": "966d604a8c5e",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "966d604a8c5e",
-        "section": "israelis",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "An Israeli citizen was arrested on a flight to Thessaloniki for smoking and disrupting the landing, directly relevant to Israeli tourists traveling to Greece.",
-        "item": {
-          "title": "Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQczBaeVBuV21FWXFOU29VekVnREZSMWJuZGZPSjhibDNJcll2aWsxSXFZbEdYTnRHOFNscENfeVg5a1JTcEZScVZzRnRkVDRhbXVLbUo5VzdnTnVnQTNTREVqVjVtNnpUUlB1VzB0ZDJQakl5cTFCUjE5YUk5Sm1MeVVSYUzSAYoBQVVfeXFMTlNTVktqSDZVRXRzN3hnWnpERFVVQmRUNTVnUWJibDh2LXZIUTFGeHZZSEd3RHdXdFdacU9KbzE1M252XzJVOXBiWEFmVWlJNUhMWVpfNGUtNm9Wdll5ZGhDQklWUFViVnV1dW92VlMzX0trRjNwaUxkb1lGQlFQX29fbHVMcTRMSWNn?oc=5",
-          "summary": "Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση &nbsp;&nbsp; iefimerida.gr",
-          "published": "Sat, 07 Nov 2026 08:54:11 GMT",
-          "id": "966d604a8c5e",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "israeli-passenger-arrested-thessaloniki-flight",
-        "section": "israelis",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 40.5197,
-          "lng": 22.9709
-        },
-        "strike": null,
-        "alert": {
-          "he": "מעצר נוסע",
-          "en": "Passenger Arrest"
-        },
-        "imageKey": "plane",
-        "imageQuery": "airplane interior flight cabin",
-        "he": {
-          "title": "מעצר ישראלי בטיסה לסלוניקי לאחר שהפר את הוראות הצוות בזמן הנחיתה",
-          "seoTitle": "טיסות ליוון: ישראלי נעצר בטיסה לסלוניקי",
-          "seoDesc": "נוסע ישראלי נעצר עם נחיתתו בשדה התעופה בסלוניקי לאחר שעישן וקם ממקומו במהלך נחיתת המטוס. כל הפרטים על האירוע החריג.",
-          "keywords": [
-            "טיסות ליוון",
-            "סלוניקי",
-            "טיסות לסלוניקי",
-            "ישראלים ביוון",
-            "חדשות יוון"
-          ],
-          "dek": "נוסע ישראלי נעצר עם הגעתו לשדה התעופה בסלוניקי בעקבות התנהגות חריגה במהלך נחיתת המטוס.",
-          "tldr": [
-            "נוסע ישראלי נעצר בשדה התעופה בסלוניקי לאחר טיסה שהגיעה ליעד.",
-            "האיש עורר מהומה במטוס כשעישן וקם ממקומו בזמן נחיתה.",
-            "הרשויות המקומיות עצרו את הנוסע מיד עם נחיתת המטוס."
-          ],
-          "means": "בשבילכם הישראלים שטסים ליוון, המקרה מזכיר עד כמה חשוב להקפיד על הוראות צוות האוויר ובטיחות הטיסה. יש להישאר חגורים במקומותיכם ולהימנע מעישון אסור לאורך כל הטיסה והנחיתה כדי להימנע מאי נעימויות וממעצר משטרתי עם הנחיתה.",
-          "body": "## מה קרה בטיסה לסלוניקי\n\nטיסה שהייתה בדרכה ליעד ביוון עוררה תשומת לב ציבורית לאחר שנוסע ישראלי שהה על סיפוקה התנהג בניגוד להנחיות הבטיחות. על פי הדיווחים המאומתים, האיש עישן וקם ממקומו בזמן שהמטוס היה בעיצומו של הליך הנחיתה לשדה התעופה.\n\n## מעצר עם הנחיתה והתערבות כוחות הביטחון\n\nמיד עם נחיתת המטוס בסלוניקי, המתינו כוחות המשטרה המקומיים במקום. הנוסע הישראלי נעצר על ידי הרשויות בעקבות הפרת כללי הבטיחות והסדר במהלך הטיסה. האירוע הסתיים בהתערבות ישירה של גורמי הביטחון בשדה התעופה.\n\n## חשיבות הציות להנחיות צוות האוויר\n\nמקרים מעין אלו מדגישים את האכיפה הנוקשה וההתייחסות הרצינית של רשויות התעופה ביוון להפרות סדר במהלך טיסות. נוסעים היוצאים ליעדים שונים ביוון נדרשים לשמור על כללי הבטיחות כדי להבטיח את שלומם ושלום שאר הנוסעים.\n\n## שאלות נפוצות\n\n**האם ישראלי נעצר בשדה התעופה בסלוניקי?**\nכן, נוסע ישראלי נעצר על ידי המשטרה המקומית מיד לאחר נחיתת המטוס.\n\n**מה בדיוק עשה הנוסע במהלך הטיסה?**\nהוא עישן וקם ממקומו בזמן שהמטוס ביצע את תהליך הנחיתה.\n\n**לאיזה יעד ביוון הייתה מיועדת הטיסה המדוברת?**\nהטיסה הייתה בדרכה לסלוניקי."
-        },
-        "en": {
-          "title": "Israeli Passenger Arrested on Flight to Thessaloniki for Smoking and Standing During Landing",
-          "seoTitle": "Israel Arrested on Thessaloniki Flight",
-          "seoDesc": "An Israeli passenger was arrested at Thessaloniki airport after smoking and leaving his seat during the aircraft landing. Read the details.",
-          "keywords": [
-            "flights to Greece",
-            "Thessaloniki",
-            "Israelis in Greece",
-            "Greece news",
-            "Thessaloniki airport"
-          ],
-          "dek": "An Israeli passenger was taken into custody upon arrival at Thessaloniki airport following disruptive behavior during the aircraft's landing.",
-          "tldr": [
-            "An Israeli passenger was arrested at Thessaloniki airport following an incoming flight.",
-            "The individual caused a disturbance by smoking and standing up during landing.",
-            "Local authorities detained the passenger immediately after the plane touched down."
-          ],
-          "means": "For Israeli travellers heading to Greece, this incident highlights the strict enforcement of airline safety regulations. Always follow crew instructions, remain seated with your seatbelt fastened during landing, and strictly avoid smoking to prevent legal trouble upon arrival.",
-          "body": "## What Happened on the Flight to Thessaloniki\n\nA flight heading to its destination in Greece drew attention after an Israeli passenger on board acted contrary to safety regulations. According to confirmed reports, the individual smoked and got up from his seat while the aircraft was in the middle of landing at the airport.\n\n## Arrest Upon Landing and Security Intervention\n\nAs soon as the plane touched down in Thessaloniki, local police forces were waiting at the scene. The Israeli passenger was arrested by authorities due to the violation of safety and order rules during the flight, concluding with the direct intervention of airport security personnel.\n\n## The Importance of Following Crew Instructions\n\nIncidents of this nature emphasize the strict enforcement and serious approach taken by aviation authorities in Greece regarding disturbances during flights. Passengers travelling to various destinations in Greece are required to maintain safety protocols to ensure the well-being of everyone on board.\n\n## FAQ\n\n**Was an Israeli arrested at Thessaloniki airport?**\nYes, an Israeli passenger was detained by local police immediately after the aircraft landed.\n\n**What did the passenger do during the flight?**\nHe smoked and stood up from his seat while the plane was landing.\n\n**Which Greek destination was the flight heading to?**\nThe flight was on its way to Thessaloniki."
-        }
-      },
-      "text": "Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση - iefimerida.gr\nΑναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τη θέση του κατά την προσγείωση &nbsp;&nbsp; iefimerida.gr",
-      "issues": [],
-      "el": {
-        "title": "Ισραηλινός επιβάτης συνελήφθη σε πτήση προς Θεσσαλονίκη επειδή κάπνιζε και στεκόταν όρθιος κατά την προσγείωση",
-        "dek": "Ένας Ισραηλινός επιβάτης τέθηκε υπό κράτηση κατά την άφιξισή του στο αεροδρόμιο της Θεσσαλονίκης, έπειτα από παραver συμπεριφορά κατά την προσγείωση του αεροσκάφους.",
-        "tldr": [
-          "Ένας Ισραηλινός επιβάτης συνελήφθη στο αεροδρόμιο της Θεσσαλονίκης μετά από πτήση εσωτερικού.",
-          "Το άτομο προκάλεσε αναστάτωση καπνίζοντας και σηκώνοντας όρθιο κατά την προσγείωση.",
-          "Οι τοπικές αρχές συνέλαβαν τον επιβάτη αμέσως μόλις το αεροπλάνο προσγειώθηκε."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -2005,12 +1900,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-07T14:12:41.282Z",
+      "at": "2026-11-07T16:20:58.871Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-07T14:12:42.025Z",
+      "at": "2026-11-07T16:20:59.813Z",
       "items": 5
     },
     "civilprotection": {
@@ -2021,27 +1916,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-07T14:12:43.577Z",
+      "at": "2026-11-07T16:21:01.061Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-07T14:12:43.935Z",
+      "at": "2026-11-07T16:21:01.166Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-07T14:12:44.942Z",
+      "at": "2026-11-07T16:21:02.248Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-07T14:12:45.754Z",
-      "items": 4
+      "at": "2026-11-07T16:21:03.084Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-07T14:12:46.231Z",
+      "at": "2026-11-07T16:21:04.183Z",
       "items": 10
     },
     "toi-greece": {
@@ -2052,23 +1947,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-07T14:12:46.864Z",
+      "at": "2026-11-07T16:21:04.813Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-07T14:12:47.105Z",
+      "at": "2026-11-07T16:21:05.099Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-07T14:12:47.796Z",
-      "items": 4
+      "at": "2026-11-07T16:21:05.176Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T14:12:48.315Z",
-      "items": 1
+      "at": "2026-11-07T16:21:05.684Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -2077,12 +1972,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T14:12:42.768Z",
+      "at": "2026-11-07T16:21:00.098Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-07T14:12:48.945Z",
+      "at": "2026-11-07T16:21:06.372Z",
       "items": 0
     },
     "hcg": {
@@ -2093,39 +1988,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-07T14:12:51.479Z",
+      "at": "2026-11-07T16:21:07.863Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-07T14:12:51.735Z",
-      "items": 10
+      "at": "2026-11-07T16:21:08.056Z",
+      "items": 8
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-07T14:12:51.891Z",
+      "at": "2026-11-07T16:21:08.219Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-07T14:12:52.153Z",
+      "at": "2026-11-07T16:21:08.457Z",
       "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-07T14:12:52.480Z",
-      "items": 2
+      "at": "2026-11-07T16:21:08.789Z",
+      "items": 1
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-07T14:12:52.890Z",
+      "at": "2026-11-07T16:21:09.127Z",
       "items": 3
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-07",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "fitch-affirms-greece-credit-rating-bbb",
@@ -2138,6 +2033,12 @@
         "title": "Rising Rents Push Buyers to Western Thessaloniki Real Estate",
         "at": "2026-11-07T16:13:27+02:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "israeli-passenger-arrested-thessaloniki-flight",
+        "title": "Thessaloniki: Israeli passenger arrested for safety violations on flight",
+        "at": "2026-11-07T18:20:54+02:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -2156,6 +2057,10 @@
       {
         "slug": "thessaloniki-western-suburbs-real-estate",
         "at": "2026-11-07T14:13:28.168Z"
+      },
+      {
+        "slug": "israeli-passenger-arrested-thessaloniki-flight",
+        "at": "2026-11-07T16:20:55.238Z"
       }
     ],
     "ig": []
@@ -2374,26 +2279,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-07T14:12:54.062Z",
-    "considered": 16,
-    "picked": 2,
+    "at": "2026-11-07T16:21:21.575Z",
+    "considered": 5,
+    "picked": 0,
     "items": [
-      "✓ ert | Στροφή στη δυτική Θεσσαλονίκη για πιο προσιτή στέγη – Σίνδος, Εύοσμος και Κορδελιό στο ραν",
-      "· ert | Πειραιάς: Πυρκαγιά σε εγκαταλελειμμένη διπλοκατοικία – Υποχώρησε μέρος της στέγης",
-      "· naftemporiki | Πειραιάς: Φωτιά σε εγκαταλελειμμένη διπλοκατοικία – Υποχώρησε μέρος της στέγης",
-      "· gct | Fidan Says Turkey-Greece NAVTEX Dispute Is Resolved",
-      "· minfin | Δημήτρης Μαρκόπουλος: «Η αντιμετώπιση του οργανωμένου εγκλήματοςπερνά και μέσα από την οικ",
-      "· ingr | Φωτιά σε μονοκατοικία στην Καστέλλα – Πυροσβέστες επιχειρούν πάνω στις κεραμοσκεπές",
-      "· ingr | Γάζα: Η βροχή παρασύρει καταυλισμούς – Απροστάτευτοι στις καιρικές συνθήκες – Τέταρτος χει",
-      "· gct | Panathinaikos Owner Giannakopoulos Handed 10-Month Ban",
-      "· ert | Ιράν: Τάνκερ έπεσε σε νάρκη και φλέγεται στα Στενά του Ορμούζ",
-      "· gct | Cyprus Protests Turkish Gas Pipeline Surveys in UN Letter",
-      "· ert | «Μέτωπο» ξενοδόχων και ΣΕΤΕ κατά της νέας αύξησης στο Τέλος Παρεπιδημούντων",
-      "· ingr | Κουφονικολάκου: Αντί να ελέγξει τις τιμές, η κυβέρνηση καλεί τους επιχειρηματίες για τσάι",
-      "· ingr | Χανιά: Ανατροπή νταλίκας κοντά στο αεροδρόμιο – Ο οδηγός εγκλωβίστηκε στην καμπίνα",
-      "· gct | Athens Marathon 2026: Major Road Closures Across Attica",
-      "· gct | Athens Bouzoukia Winter 2026–27: Who’s Singing Where",
-      "✓ gn-iefimerida | Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τ"
+      "· naftemporiki | Γαλλία: Εισαγγελική έρευνα για τις απειλές για βόμβες – Εξετάζεται η ξένη παρέμβαση",
+      "· minfin | Οι αριθμοί διαψεύδουν την αντιπολίτευση: Η Ελλάδα ανεβαίνει στην ευρωπαϊκή κατάταξη των κα",
+      "· ingr | Τσίπρας: Το μεγάλο σορτάρισμα, η ταινία της εβδομάδας – Πιερρακάκης, υπουργός… «Ακρίβειας ",
+      "· ert | Ο τουρισμός του φαλαινοκαρχαρία: Πώς η χρυσή ευκαιρία για ένα ψαροχώρι ανοίγει την πόρτα σ",
+      "· gn-iefimerida | Φωτιά στον Πειραιά: Κατέρρευσε η οροφή του κτιρίου -Η μάχη των πυροσβεστών πάνω στις στέγε"
     ]
   },
   "evergreenDone": [
@@ -2453,6 +2347,24 @@
         "image": "https://images.pexels.com/photos/5674684/pexels-photo-5674684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "post_he": "מחירי הדירות עולים: המשקיעים נוהרים למערב סלוניקי\n\nעליית מחירי השכירות במרכז סלוניקי משנה את שוק הנדל\"ן המקומי, ומפנה את תשומת לב הקונים והמשקיעים לאזורים המערביים.\n\nhttps://yavanet.gr/a/thessaloniki-western-suburbs-real-estate/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
         "post_en": "Rising Rents Push Buyers to Western Thessaloniki Real Estate\n\nHigh rental prices in central Thessaloniki are reshaping the local property market, driving buyers and investors toward the western side of the city.\n\nhttps://yavanet.gr/en/a/thessaloniki-western-suburbs-real-estate/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    },
+    {
+      "slug": "israeli-passenger-arrested-thessaloniki-flight",
+      "url": "https://yavanet.gr/a/israeli-passenger-arrested-thessaloniki-flight/",
+      "at": "2026-11-07T16:20:55.238Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/israeli-passenger-arrested-thessaloniki-flight/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/israeli-passenger-arrested-thessaloniki-flight/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "סלוניקי: מעצר נוסע ישראלי שהפר את הוראות הבטיחות בטיסה",
+        "title_en": "Thessaloniki: Israeli passenger arrested for safety violations on flight",
+        "dek_he": "משטרת המקום עיכבה לחקירה אזרח ישראלי לאחר שבחר לעשן וקם ממקומו במהלך נחיתת המטוס בשדה התעופה בסלוניקי.",
+        "dek_en": "Greek police detained an Israeli citizen after he smoked and stood up from his seat during the aircraft's landing in Thessaloniki.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/18231669/pexels-photo-18231669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "סלוניקי: מעצר נוסע ישראלי שהפר את הוראות הבטיחות בטיסה\n\nמשטרת המקום עיכבה לחקירה אזרח ישראלי לאחר שבחר לעשן וקם ממקומו במהלך נחיתת המטוס בשדה התעופה בסלוניקי.\n\nhttps://yavanet.gr/a/israeli-passenger-arrested-thessaloniki-flight/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Thessaloniki: Israeli passenger arrested for safety violations on flight\n\nGreek police detained an Israeli citizen after he smoked and stood up from his seat during the aircraft's landing in Thessaloniki.\n\nhttps://yavanet.gr/en/a/israeli-passenger-arrested-thessaloniki-flight/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
       }
     }
   ]
