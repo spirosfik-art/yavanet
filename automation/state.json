@@ -19,14 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "7672efd67e21": 1792828429457,
-    "89aebfde9653": 1792828429457,
-    "598dcba55bda": 1792828429457,
-    "898ed52951fb": 1792829587994,
-    "ead412f573ae": 1792829587994,
-    "4f48088503c7": 1792829587994,
-    "f759d2e9116e": 1792831183776,
-    "002d03eb0761": 1792831183776,
     "008d935cdb68": 1792838075239,
     "a911a5e65ce6": 1792838075239,
     "5d204e94e749": 1792838075239,
@@ -1879,7 +1871,26 @@
     "72e71623496f": 1794036108731,
     "06ec6e15a196": 1794036108731,
     "2ab7e6d55f0f": 1794036108731,
-    "dcec9d42d3ab": 1794036108731
+    "dcec9d42d3ab": 1794036108731,
+    "51f4c9978e95": 1794045401712,
+    "cceb26f036fb": 1794045401712,
+    "32ad0188c2d7": 1794045401712,
+    "22c1133014e6": 1794045401712,
+    "44072c9b1eb9": 1794045401712,
+    "2832963424a5": 1794045401712,
+    "7acbddfa7608": 1794045401712,
+    "5bb0b5e8d621": 1794045401712,
+    "30ae634c624e": 1794045401712,
+    "db185861e909": 1794045401712,
+    "b0b8b7befdf0": 1794045401712,
+    "8469c296105f": 1794045401712,
+    "dc1fe9c347f7": 1794045401712,
+    "7e3c019930b6": 1794045401712,
+    "35b827b99667": 1794045401712,
+    "767c31c9aa04": 1794045401712,
+    "8fd5b17716aa": 1794045401712,
+    "6698eeadd137": 1794045401712,
+    "979535c732b8": 1794045401712
   },
   "pending": {},
   "sourceStatus": {
@@ -1891,12 +1902,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-07T07:21:34.540Z",
+      "at": "2026-11-07T09:56:29.083Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-07T07:21:35.449Z",
+      "at": "2026-11-07T09:56:29.884Z",
       "items": 5
     },
     "civilprotection": {
@@ -1907,27 +1918,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-07T07:21:37.548Z",
+      "at": "2026-11-07T09:56:31.179Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-07T07:21:37.670Z",
+      "at": "2026-11-07T09:56:31.340Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-07T07:21:39.747Z",
+      "at": "2026-11-07T09:56:32.081Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-07T07:21:40.611Z",
-      "items": 1
+      "at": "2026-11-07T09:56:33.127Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-07T07:21:41.409Z",
+      "at": "2026-11-07T09:56:34.149Z",
       "items": 10
     },
     "toi-greece": {
@@ -1938,22 +1949,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-07T07:21:42.037Z",
+      "at": "2026-11-07T09:56:34.604Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-07T07:21:42.150Z",
+      "at": "2026-11-07T09:56:34.896Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-07T07:21:42.869Z",
-      "items": 4
+      "at": "2026-11-07T09:56:35.476Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T07:21:43.380Z",
+      "at": "2026-11-07T09:56:35.653Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1963,12 +1974,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T07:21:36.796Z",
+      "at": "2026-11-07T09:56:30.387Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-07T07:21:44.165Z",
+      "at": "2026-11-07T09:56:36.316Z",
       "items": 0
     },
     "hcg": {
@@ -1979,33 +1990,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-07T07:21:46.166Z",
+      "at": "2026-11-07T09:56:37.962Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-07T07:21:46.443Z",
-      "items": 9
+      "at": "2026-11-07T09:56:38.216Z",
+      "items": 10
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-07T07:21:46.629Z",
+      "at": "2026-11-07T09:56:38.370Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-07T07:21:46.932Z",
+      "at": "2026-11-07T09:56:38.607Z",
       "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-07T07:21:47.306Z",
-      "items": 5
+      "at": "2026-11-07T09:56:38.913Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-07T07:21:47.754Z",
-      "items": 5
+      "at": "2026-11-07T09:56:39.286Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2250,30 +2261,29 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-07T07:21:48.731Z",
-    "considered": 20,
-    "picked": 2,
+    "at": "2026-11-07T09:56:41.712Z",
+    "considered": 19,
+    "picked": 0,
     "items": [
-      "✓ ingr | Αθήνα: Όλοι οι δρόμοι που κλείνουν λόγω 43ου Μαραθωνίου – Πώς θα διεξάγεται η κυκλοφορία, ",
-      "· ert | Φωτιά σε μονοκατοικία στην ανατολική Θεσσαλονίκη – Βγήκε σώος ο ιδιοκτήτης",
-      "· ingr | Γαλλία: Νέες διαδηλώσεις σήμερα – Σε διάλογο με τους κοινωνικούς εταίρους καλεί η κυβέρνησ",
-      "· naftemporiki | Εξωδικαστικός Μηχανισμός με σταθερό επιτόκιο 3%, τα πλεονεκτήματα – Ποιοι ωφελούνται από τ",
-      "· gct | Mimi Denisi Doco Takes Parthenon Sculptures Campaign to Europe",
-      "· ingr | Τεχνητή έκρηξη στις διώξεις για «παράνομη παραμονή» σε πρόσφυγες: ο Μίνως Μουζουράκης (Ref",
-      "· gct | Metlen Posts Record €6.21 Billion Nine-Month Revenue, Up 21%",
-      "· ingr | Ο κίνδυνος ενός ευρωπαϊκού «Ντέλαγουερ» με πλήγμα σε μισθούς και εργασιακά δικαιώματα",
-      "· gct | Bettany Hughes Links Greek Epics to a Storm Off Ikaria",
-      "· gct | Kosta Barbarouses Chooses South Melbourne After World Cup",
-      "· gct | Greek Companies Showcase Technologies at European Defence Week",
-      "· gct | US Weighs Renewed Iran Strikes, Fox News Reports; No New Order Reported",
-      "· gct | Turkey Approves Defence Pact With Saudi Arabia and Pakistan",
-      "· gct | More Than 500 Experts Gather in Athens for Fraud Games",
-      "· gct | Miniature Therapy Horses Bring Joy to People with Disabilities",
-      "· gct | Greece Covers All Cancer Treatment Costs for Children",
-      "· naftemporiki | Πόσοι μέτοχοι επανεπένδυσαν το μέρισμα της Allwyn",
-      "· gct | Lemon Chicken Orzo Soup: A Bright Bowl Ready in 50 Minutes",
-      "· gct | EU Accuses TikTok Over Harmful Rabbit Hole Feeds",
-      "✓ gct | Fitch Affirms Greece at BBB With Stable Outlook"
+      "· ert | Συγκέντρωση και πορεία συνταξιούχων της Δυτικής Ελλάδας στον Πύργο (vid)",
+      "· gct | Ancient Greek Pontus Used Medusa Coins Against Rome",
+      "· ingr | O Ναδάλ επενδύει στον τουρισμό πολυτελείας",
+      "· ert | Απειλές για βόμβες σε πτήσεις: Εντείνεται το φαινόμενο σε όλη την Ευρώπη, σε επιφυλακή οι ",
+      "· gct | Alexandra Efraimoglou Wins Women’s Tumbling World Title in Nanjing",
+      "· gct | Greece Defies Turkey as Cable Survey Ship Prepares to Depart",
+      "· ert | Θεσσαλονίκη: 39χρονος προκάλεσε μεγάλη αναστάτωση σε πτήση και συνελήφθη",
+      "· naftemporiki | Αναστάτωση σε πτήση από Βουδαπέστη για Θεσσαλονίκη – 39χρονος δεν έβαζε ζώνη, άνοιγε τα κυ",
+      "· ingr | Αναστάτωση σε πτήση προς Θεσσαλονίκη: Επιβάτης δεν φορούσε ζώνη, άνοιγε τα ντουλάπια και κ",
+      "· gn-iefimerida | Αναστάτωση σε πτήση προς Θεσσαλονίκη: Συνελήφθη Ισραηλινός που κάπνιζε και σηκωνόταν από τ",
+      "· gn-kathimerini | Σχέδιο Νετανιάχου και Μοσάντ για επίθεση στο Ιράν την παραμονή των ισραηλινών εκλογών - Ka",
+      "· gct | EU Keeps Greece Under Migratory Pressure for 2027",
+      "· gct | Inside the Drama Train Museum and Its Orient Express Carriages",
+      "· gct | Greece Digital Nomad Rules: What Changed in 2026",
+      "· naftemporiki | CNN: Το μεγαλύτερο πυρηνικό μυστικό του Ισραήλ και τα 60 χρόνια σιωπής – Γιατί απειλείται ",
+      "· gn-hcg | Έρευνες προς εντοπισμό αγνοούμενου δύτη στην Κόρινθο – Αναστολή απόπλου Ε/Γ-Ο/Γ-Τ/Χ-Κ/Μ στ",
+      "· ingr | Το χάσμα στα ακίνητα: Μια απόσταση 20 χιλιομέτρων με διαφορά 200.000 ευρώ [πίνακες]",
+      "· gn-iefimerida | Υδρογονάνθρακες: Τον Απρίλιο η γεώτρηση στο Ιόνιο, διεθνές ενδιαφέρον για νέες σεισμικές έ",
+      "· gn-iefimerida | Ανδρουλάκης από Μεγαλόπολη: «Απαιτούνται φορολογικά κίνητρα για μόνιμες παραγωγικές επενδύ"
     ]
   },
   "evergreenDone": [
