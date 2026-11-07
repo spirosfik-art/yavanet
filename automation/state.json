@@ -1884,7 +1884,17 @@
     "79d0d70db3fd": 1794084588947,
     "c685ef484304": 1794084588947,
     "21de7bac8bff": 1794084588947,
-    "6943c41a03de": 1794084588947
+    "6943c41a03de": 1794084588947,
+    "11424b41b2fc": 1794089868818,
+    "c82f53f0cb19": 1794089868818,
+    "431e845217fd": 1794089868818,
+    "a8922496e1d6": 1794089868818,
+    "670f4b724d77": 1794089868818,
+    "6955747b91c8": 1794089868818,
+    "967e4ca98fc9": 1794089868818,
+    "20e000434e99": 1794089868818,
+    "8ebc94e948d8": 1794089868818,
+    "26f6f1c3eaa1": 1794089868818
   },
   "pending": {
     "9e722c": {
@@ -2000,12 +2010,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-07T20:49:39.555Z",
+      "at": "2026-11-07T22:17:38.898Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-07T20:49:40.192Z",
+      "at": "2026-11-07T22:17:39.590Z",
       "items": 5
     },
     "civilprotection": {
@@ -2016,27 +2026,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-07T20:49:41.656Z",
+      "at": "2026-11-07T22:17:41.130Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-07T20:49:41.968Z",
+      "at": "2026-11-07T22:17:41.497Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-07T20:49:42.587Z",
+      "at": "2026-11-07T22:17:42.195Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-07T20:49:43.285Z",
+      "at": "2026-11-07T22:17:42.957Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-07T20:49:43.990Z",
+      "at": "2026-11-07T22:17:43.729Z",
       "items": 10
     },
     "toi-greece": {
@@ -2047,22 +2057,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-07T20:49:44.357Z",
+      "at": "2026-11-07T22:17:44.169Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-07T20:49:44.442Z",
+      "at": "2026-11-07T22:17:44.499Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-07T20:49:44.507Z",
+      "at": "2026-11-07T22:17:44.702Z",
       "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T20:49:44.622Z",
+      "at": "2026-11-07T22:17:44.854Z",
       "items": 3
     },
     "ynet-greece": {
@@ -2072,12 +2082,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-07T20:49:40.783Z",
+      "at": "2026-11-07T22:17:40.426Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-07T20:49:45.155Z",
+      "at": "2026-11-07T22:17:45.276Z",
       "items": 0
     },
     "hcg": {
@@ -2088,84 +2098,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-07T20:49:46.508Z",
+      "at": "2026-11-07T22:17:46.696Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-07T20:49:46.680Z",
+      "at": "2026-11-07T22:17:47.009Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-07T20:49:46.895Z",
+      "at": "2026-11-07T22:17:47.192Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-07T20:49:47.193Z",
+      "at": "2026-11-07T22:17:47.425Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-07T20:49:47.576Z",
-      "items": 1
+      "at": "2026-11-07T22:17:47.740Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-07T20:49:47.912Z",
-      "items": 4
+      "at": "2026-11-07T22:17:48.067Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-07",
-    "count": 3,
-    "published": [
-      {
-        "slug": "fitch-affirms-greece-credit-rating-bbb",
-        "title": "Fitch Affirms BBB Rating for Greece with Stable Outlook",
-        "at": "2026-11-07T09:22:17+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "thessaloniki-western-suburbs-real-estate",
-        "title": "Rising Rents Push Buyers to Western Thessaloniki Real Estate",
-        "at": "2026-11-07T16:13:27+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "israeli-passenger-arrested-thessaloniki-flight",
-        "title": "Thessaloniki: Israeli passenger arrested for safety violations on flight",
-        "at": "2026-11-07T18:20:54+02:00",
-        "section": "israelis"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Αθήνα: Όλοι οι δρόμοι που κλείνουν λόγω 43ου Μαραθωνίου – Πώς θα διεξάγεται η κυκλοφορία, τι ισχύει με το Μετρό",
-        "reason": "Ίδιο θέμα με «Athens Marathon: Traffic restrictions and road closures until Nov 9» – δεν γράφτηκε ξανά",
-        "at": "2026-11-07T07:21:55.353Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "fitch-affirms-greece-credit-rating-bbb",
-        "at": "2026-11-07T07:22:18.023Z"
-      },
-      {
-        "slug": "thessaloniki-western-suburbs-real-estate",
-        "at": "2026-11-07T14:13:28.168Z"
-      },
-      {
-        "slug": "israeli-passenger-arrested-thessaloniki-flight",
-        "at": "2026-11-07T16:20:55.238Z"
-      }
-    ],
-    "ig": []
+    "date": "2026-11-08",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-07",
+      "count": 3,
+      "rejected": 1
+    },
     {
       "date": "2026-11-06",
       "count": 5,
@@ -2379,18 +2354,20 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-07T20:49:48.947Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-11-07T22:17:48.818Z",
+    "considered": 10,
+    "picked": 0,
     "items": [
-      "· ingr | Σφαγή στη Γάζα: Τα απόρρητα έγγραφα που εκθέτουν έναν τεχνολογικό γίγαντα",
-      "· gn-hcg | Συνέχεια ενημέρωσης αναφορικά με τον εντοπισμό και τη διάσωση 43 αλλοδαπών νότια της Αγίας",
-      "· ert | Ισραήλ: Εντολοδόχος πρωθυπουργός ο αντιπολιτευόμενος Γκάντι Άιζενκοτ",
-      "· gn-iefimerida | Ο πρόεδρος του Ισραήλ επιλέγει τον Γκάντι Άιζενκοτ για τον σχηματισμό κυβέρνησης - Τον πολ",
-      "✓ ingr | Ισραήλ: Είναι επίσημο – Ο Χέρτζογκ θα δώσει στον Άιζενκοτ την εντολή σχηματισμού κυβέρνηση",
-      "· naftemporiki | Ισραήλ: Ο πρόεδρος θα αναθέσει στον Άιζενκοτ τον σχηματισμό κυβέρνησης",
-      "· gct | Greece Plans €40 Million Prison in Former Lignite Mining Hub of Megalopolis",
-      "· gct | Krakow Shooting Leaves Six Dead and 15 Injured in Poland"
+      "· gct | Notis Sfakianakis: Nephew Reveals Health and Career Plans",
+      "· gct | Loutraki Double Murder: Fugitive Arrested After Six Years",
+      "· ingr | Ισραήλ: Ο Άιζενκοτ υπόσχεται να «κάνει τα πάντα» για να σχηματίσει κυβέρνηση",
+      "· gct | Mazonákis Death Investigation Focuses on Alleged Anaesthetic Supplier",
+      "· gct | Thessaloniki Makes First Arrest for Illegal Dumping",
+      "· gct | US Aircraft Strike Merchant Ship in Gulf of Oman",
+      "· ert | Ισραήλ: Εντολοδόχος πρωθυπουργός ο αντιπολιτευόμενος Γκάντι Άιζενκοτ – «Θα κάνω τα πάντα» ",
+      "· gn-kathimerini | Ισραήλ: Στον Aϊζενκοτ η εντολή σχηματισμού κυβέρνησης - Kathimerini",
+      "· gn-kathimerini | Πειραιάς: Πυρκαγιά σε εγκαταλελειμμένο κτίριο – Υποχώρησε μέρος της στέγης - Kathimerini",
+      "· gn-iefimerida | Οδηγός προειδοποιεί -Γιατί δεν πρέπει να καθόμαστε στα καθίσματα του Μετρό και των λεωφορε"
     ]
   },
   "evergreenDone": [
