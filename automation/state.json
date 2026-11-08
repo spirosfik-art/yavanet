@@ -19,10 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "f0829e078f25": 1792888265201,
-    "42e4734ca2ef": 1792888265201,
-    "ebb10f198c1e": 1792888265201,
-    "b9fab4ce5c33": 1792888265201,
     "28ab8349127d": 1792905370003,
     "c30402326f65": 1792905370003,
     "17a8199ceeae": 1792905370003,
@@ -1904,7 +1900,11 @@
     "2ec53544008f": 1794097660015,
     "ae94e3b41a6e": 1794097660015,
     "4d47865b951e": 1794097660015,
-    "242988613ae4": 1794097660015
+    "242988613ae4": 1794097660015,
+    "2fd2a6bbf91a": 1794101654924,
+    "7a3866ab2122": 1794101654924,
+    "2508e34379a4": 1794101654924,
+    "23ae3677a83a": 1794101654924
   },
   "pending": {},
   "sourceStatus": {
@@ -1916,12 +1916,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-08T00:27:29.200Z",
+      "at": "2026-11-08T01:34:01.751Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-08T00:27:29.899Z",
+      "at": "2026-11-08T01:34:02.553Z",
       "items": 5
     },
     "civilprotection": {
@@ -1932,27 +1932,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-08T00:27:31.327Z",
+      "at": "2026-11-08T01:34:04.357Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-08T00:27:31.450Z",
+      "at": "2026-11-08T01:34:04.725Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-08T00:27:32.313Z",
+      "at": "2026-11-08T01:34:05.842Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-08T00:27:33.075Z",
-      "items": 2
+      "at": "2026-11-08T01:34:06.681Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-08T00:27:33.930Z",
+      "at": "2026-11-08T01:34:07.629Z",
       "items": 10
     },
     "toi-greece": {
@@ -1963,22 +1963,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-08T00:27:34.559Z",
+      "at": "2026-11-08T01:34:08.302Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-08T00:27:34.678Z",
+      "at": "2026-11-08T01:34:09.589Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-08T00:27:34.740Z",
+      "at": "2026-11-08T01:34:10.190Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-08T00:27:35.302Z",
+      "at": "2026-11-08T01:34:10.779Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1988,12 +1988,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-08T00:27:30.443Z",
+      "at": "2026-11-08T01:34:03.167Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-08T00:27:36.153Z",
+      "at": "2026-11-08T01:34:11.678Z",
       "items": 0
     },
     "hcg": {
@@ -2004,32 +2004,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-08T00:27:37.788Z",
+      "at": "2026-11-08T01:34:12.947Z",
       "items": 1
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-08T00:27:38.056Z",
+      "at": "2026-11-08T01:34:13.166Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-08T00:27:38.347Z",
+      "at": "2026-11-08T01:34:13.309Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-08T00:27:38.620Z",
-      "items": 5
+      "at": "2026-11-08T01:34:13.563Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-08T00:27:38.958Z",
+      "at": "2026-11-08T01:34:13.869Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-08T00:27:39.335Z",
+      "at": "2026-11-08T01:34:14.184Z",
       "items": 8
     }
   },
@@ -2266,22 +2266,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-08T00:27:40.015Z",
-    "considered": 12,
+    "at": "2026-11-08T01:34:14.924Z",
+    "considered": 4,
     "picked": 0,
     "items": [
-      "· gct | Synaxis of the Taxiarchs and Archangels Michael and Gabriel",
-      "· gct | AthensCon Brings Tricia Helfer and Manu Bennett to Athens",
-      "· gct | Netflix Sets 18 December Premiere for Maestro in Blue Finale",
-      "· ert | Ισχυρός σεισμός 5,7 Ρίχτερ στην κεντρική Ιαπωνία – Αναφορές για δεκάδες τραυματίες",
-      "· gct | Greece Creates Child Investment Accounts With State Match",
-      "· gct | Greek-American Elected Officials Rise to 46 After Kominakis Win",
-      "· gct | US Charges Three Over $129m Deepfake Fraud Routed via Greece",
-      "· gct | Greek Tax Inspectors Arrest 18 Over €203m Straw Men Ring",
-      "· gct | THI Australia in 2026: Healthcare, Food Relief and New Leaders",
-      "· gn-iefimerida | Ισραήλ: Ο Άιζενκοτ υπόσχεται να «κάνει τα πάντα» για να σχηματίσει κυβέρνηση - iefimerida.",
-      "· gn-iefimerida | Προειδοποιεί ο Νετανιάχου: Μια κυβέρνηση με αραβικά κόμματα θα «διέλυε» το κράτος του Ισρα",
-      "· gn-kathimerini | Τα χρυσά συμβόλαια της Cisco με τον ισραηλινό στρατό στη σκιά του πολέμου στη Γάζα - Kathi"
+      "· gct | The Battle of Marathon and the Run That Gave the World a Race",
+      "· gct | Iran Lifts 2,000km Missile Range Limit, Raises European Concerns",
+      "· ert | Ιαπωνία: Τουλάχιστον 22 τραυματίες από τον σεισμό των 5,7 Ρίχτερ – Ζημιές σε καταστήματα κ",
+      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
     ]
   },
   "evergreenDone": [
