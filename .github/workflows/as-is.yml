@@ -1,0 +1,31 @@
+# Ανέβασμα του site του Άσι (as-is.gr) στο Cloudflare Pages project "as-is",
+# όταν αλλάζει κάτι στον φάκελο partner-sites/as-is. Συνδέει και το domain as-is.gr / www.
+name: AS-IS site
+on:
+  push:
+    branches: [main]
+    paths: ["partner-sites/as-is/**", ".github/workflows/as-is.yml"]
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          export CLOUDFLARE_API_TOKEN="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | grep -oE '[A-Za-z0-9_-]{40,}' | head -1)"
+          export CLOUDFLARE_ACCOUNT_ID="$(printf '%s' "${CLOUDFLARE_ACCOUNT_ID:-}" | tr -d '[:space:]')"
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then export CLOUDFLARE_ACCOUNT_ID="$(curl -s https://api.cloudflare.com/client/v4/accounts -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -oE '"id":"[0-9a-f]{32}"' | head -1 | cut -d'"' -f4)"; fi
+          npx --yes wrangler@3 pages deploy partner-sites/as-is --project-name=as-is --branch=main --commit-dirty=true 2>&1 | tail -15
+          for d in as-is.gr www.as-is.gr; do
+            r=$(curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/as-is/domains" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "content-type: application/json" --data "{\"name\":\"$d\"}")
+            echo "::notice::domain $d -> $(printf '%s' "$r" | grep -oE '"(success|status|message)":[^,}]*' | tr '\n' ' ' | cut -c1-300)"
+          done
+          r=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=as-is.gr" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          echo "::notice::zone $(printf '%s' "$r" | grep -oE '"(status|name_servers)":[^]}]*' | head -3 | tr '\n' ' ' | cut -c1-300)"
