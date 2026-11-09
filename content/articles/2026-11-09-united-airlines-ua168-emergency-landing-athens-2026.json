@@ -1,0 +1,56 @@
+{
+  "slug": "united-airlines-ua168-emergency-landing-athens-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-09T11:41:02+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "אתונה",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/09/united-airlines-flight-ua168-emergency-athens/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/30352776/pexels-photo-30352776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "View of an airport tarmac featuring Ryanair planes preparing for departure under a cloudy sky.",
+    "credit": "Photo: Noland Live / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/busy-airport-tarmac-with-ryanair-aircrafts-30352776/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "טיסת יונייטד איירליינס מתל אביב לניו יורק נחתה באתונה עקב חירום",
+    "dek": "מטוס בואינג 787 שידר אות חירום ונחת בלילה באתונה בעקבות ריח של עשן בקבינה; צוותי חירום הוזנקו למסלול.",
+    "tldr": [
+      "טיסת יונייטד איירליינס UA168 מתל אביב לניוארק נחתה חירום באתונה.",
+      "הצוות דיווח על ריח חשוד בקבינה ושידר את קוד החירום הבינלאומי 7700.",
+      "צוותי כיבוי אש והצלה נפרסו בשדה התעופה באתונה לקראת נחיתת המטוס."
+    ],
+    "means": "לנוסעים הישראלים ולטסים בקו תל אביב-ניו יורק דרך יוון: מדובר באירוע נחיתת חירום נקודתי ללא נפגעים, והנוסעים ממתינים להסדרת טיסת המשך ליעדם.",
+    "body": "טיסת יונייטד איירליינס UA168 שהמריאה מתל אביב לניוארק שבניו יורק ביצעה אתמול (ראשון) נחיתת חירום בנמל התעופה הבינלאומי באתונה. המטוס, מסוג בואינג 787-9 דרימליינר, שידר את קוד החירום הבינלאומי 7700 לאחר שצוות הנוסעים הבחין בריח של עשן או בעירה בתוך קבינת הנוסעים, מה שהעלה חשש לתקלה חשמלית.\n\nבעקבות הדיווח, רשויות התעופה ונמל התעופה באתונה נערכו מראש, וצוותי כיבוי אש הוצבו בסמוך למסלול הנחיתה כאמצעי זהירות. מנתונים ראשוניים עולה כי לא פרצה אש בפועל במטוס, אך מקור הריח טרם התברר סופית. טרם הנחיתה, המטוס ביצע תהליך ריקון דלק להפחתת משקל. לא דווח על נפגעים באירוע, והנוסעים ממתינים לעדכונים לגבי סידורי הטיסה להמשך דרכם ליעד בניו יורק."
+  },
+  "en": {
+    "title": "United Airlines Flight From Tel Aviv to New York Diverts to Athens",
+    "dek": "A Boeing 787 landed safely in Athens after declaring an in-flight emergency due to a burning smell inside the cabin.",
+    "tldr": [
+      "United Airlines flight UA168 from Tel Aviv to Newark diverted to Athens.",
+      "The crew squawked the 7700 emergency code following reports of a smoke-like odor.",
+      "Emergency crews were positioned at Athens International Airport before landing."
+    ],
+    "means": "For travelers and Israelis following flights connecting through the region, this was a precautionary diversion with no injuries reported, and passengers await onward travel arrangements.",
+    "body": "United Airlines flight UA168, traveling from Tel Aviv to Newark, New York, diverted to Athens International Airport on Sunday after declaring an in-flight emergency. The Boeing 787-9 Dreamliner transmitted the international 7700 emergency code after passengers and crew detected an odor resembling smoke inside the cabin, raising concerns about a possible electrical issue.\n\nEmergency services at Athens airport were placed on high alert, with fire crews positioned near the runway prior to the aircraft's arrival. Initial reports indicated there was no actual fire on board, though the precise source of the smell remains under investigation. The aircraft dumped fuel before landing to reduce weight. No injuries were immediately reported, and further details regarding arrangements for passengers traveling onward to Newark are awaited."
+  },
+  "meta": {
+    "itemId": "88571be370e7",
+    "imageQuery": "Athens International Airport runway",
+    "sourceHash": "698fe45dd88a",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-09T09:41:03.251Z",
+    "official": false
+  }
+}

@@ -1877,39 +1877,55 @@
     "b55d0b89b377": 1794204483928,
     "eb6ff2a483cb": 1794204483928,
     "423a7b69c90c": 1794204483928,
-    "a19ed7f8e51d": 1794204483928
+    "a19ed7f8e51d": 1794204483928,
+    "ea00a9b335ed": 1794217278942,
+    "881700b62768": 1794217278942,
+    "9128efbc0ea9": 1794217278942,
+    "59a3af4c9fad": 1794217278942,
+    "a63c03bf8885": 1794217278942,
+    "cd501043efaf": 1794217278942,
+    "472a974f9808": 1794217278942,
+    "79ef1e8764a1": 1794217278942,
+    "7ca6510833ed": 1794217278942,
+    "a1671d976993": 1794217278942,
+    "64e12fb693ab": 1794217278942,
+    "f318ccf7e454": 1794217278942,
+    "12230bd96a1d": 1794217278942,
+    "a63df93a3349": 1794217278942,
+    "f610933ec691": 1794217278942,
+    "8a2c3b279134": 1794217278942
   },
   "pending": {
-    "3ef659": {
-      "createdAt": 1794204499372,
+    "369a5b": {
+      "createdAt": 1794217319112,
       "item": {
-        "title": "United Airlines Flight Diverts to Athens After Emergency",
-        "url": "https://greekcitytimes.com/2026/11/09/united-airlines-flight-ua168-emergency-athens/",
-        "summary": "United Airlines flight UA168 from Tel Aviv to Newark diverts to Athens after declaring a 7700 emergency following reports of a burning smell in the cabin.\n The post United Airlines Flight Diverts to Athens After Emergency appeared first on Greek City Times .",
-        "published": "Mon, 09 Nov 2026 02:33:58 +0000",
-        "id": "88571be370e7",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Ακίνητα: Φόβοι για νέες ανατιμήσεις εν μέσω στεγαστικής κρίσης",
+        "url": "https://www.in.gr/2026/11/09/economy/akinita-fovoi-gia-nees-anatimiseis-en-meso-stegastikis-krisis/",
+        "summary": "Οι τιμές στα ακίνητα φαίνεται ότι δεν έχουν πιάσει ακόμα ταβάνι\n The post Ακίνητα: Φόβοι για νέες ανατιμήσεις εν μέσω στεγαστικής κρίσης appeared first on in.gr .",
+        "published": "Mon, 09 Nov 2026 09:23:28 +0200",
+        "id": "64e12fb693ab",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "88571be370e7",
-        "section": "travel",
-        "priority": 10,
+        "id": "64e12fb693ab",
+        "section": "real-estate",
+        "priority": 7,
         "sensitive": true,
-        "breaking": true,
-        "reason": "A United Airlines flight from Tel Aviv to Newark made an emergency diversion to Athens after reporting a burning smell in the cabin, directly concerning Israeli travelers and flight safety on the Israel-Greece route.",
+        "breaking": false,
+        "reason": "Important insights into Greek real estate price increases and the housing crisis, directly relevant to foreign investors and buyers.",
         "item": {
-          "title": "United Airlines Flight Diverts to Athens After Emergency",
-          "url": "https://greekcitytimes.com/2026/11/09/united-airlines-flight-ua168-emergency-athens/",
-          "summary": "United Airlines flight UA168 from Tel Aviv to Newark diverts to Athens after declaring a 7700 emergency following reports of a burning smell in the cabin.\n The post United Airlines Flight Diverts to Athens After Emergency appeared first on Greek City Times .",
-          "published": "Mon, 09 Nov 2026 02:33:58 +0000",
-          "id": "88571be370e7",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
+          "title": "Ακίνητα: Φόβοι για νέες ανατιμήσεις εν μέσω στεγαστικής κρίσης",
+          "url": "https://www.in.gr/2026/11/09/economy/akinita-fovoi-gia-nees-anatimiseis-en-meso-stegastikis-krisis/",
+          "summary": "Οι τιμές στα ακίνητα φαίνεται ότι δεν έχουν πιάσει ακόμα ταβάνι\n The post Ακίνητα: Φόβοι για νέες ανατιμήσεις εν μέσω στεγαστικής κρίσης appeared first on in.gr .",
+          "published": "Mon, 09 Nov 2026 09:23:28 +0200",
+          "id": "64e12fb693ab",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1917,71 +1933,66 @@
         }
       },
       "draft": {
-        "slug": "united-airlines-flight-ua168-emergency-athens",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9364,
-          "lng": 23.9445
-        },
+        "slug": "housing-prices-rise-greece-2026",
+        "section": "real-estate",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
         "strike": null,
         "alert": {
-          "he": "חירום באתונה",
-          "en": "Athens Emergency"
+          "he": "נדל\"ן ביוון",
+          "en": "Greece real estate"
         },
-        "imageKey": "plane",
-        "imageQuery": "airplane landing airport runway",
+        "imageKey": "house",
+        "imageQuery": "greek apartment building facade athens",
         "he": {
-          "title": "טיסת יונייטד איירליינס מתל אביב לניו יורק נחתה חירום באתונה",
-          "seoTitle": "טיסה מתל אביב לניו יורק ביצעה נחיתת חירום באתונה | יוון",
-          "seoDesc": "טיסת יונייטד איירליינס מתל אביב לניוארק נחתה באתונה בעקבות ריח שריפה בקבינה וקוד חירום. אין נפגעים.",
+          "title": "זינוק במחירי הדירות באתונה: שוק מוכר ומחסור חמור בדירות",
+          "seoTitle": "נדל\"ן ביוון: מחירי הדירות באתונה עולים ומחסור בדירות",
+          "seoDesc": "מחירי הדירות באתונה ממשיכים לטיפוס ונתונים חדשים מראים על אתגרים משמעותיים בשוק הדיור ועל פערים חדים בין ביקוש להיצע",
           "keywords": [
-            "טיסות ליוון",
-            "נחיתת חירום באתונה",
-            "יונייטד איירליינס",
-            "טיסה מתל אביב",
-            "נמל תעופה אתונה"
+            "נדל\"ן ביוון",
+            "דירה באתונה",
+            "השקעה בנדל\"ן ביוון",
+            "מחירי דירות ביוון"
           ],
-          "dek": "מטוס בואינג 787-9 של חברת יונייטד איירליינס שהמריא מתל אביב לניוארק שינה את מסלולו ונחת בשלום בנמל התעופה באתונה לאחר שצוות המטוס דיווח על ריח חשוד בקבינה.",
+          "dek": "נתונים חדשים משוק הדיור היווני מציגים עלייה נוספת במחירי הדירות באתונה לצד קשיים גדלים והולכים בהשגת דיור בר-השגה.",
           "tldr": [
-            "טיסת UA168 מתל אביב לניוארק הופנתה לנחיתה באתונה עקב קוד חירום.",
-            "הצוות והנוסעים דיווחו על ריח של עשן שחשד לתקלה חשמלית.",
-            "המטוס נחת בשלום ללא דיווחים על נפגעים או שריפה פעילה."
+            "מחירי הדירות באתונה רושמים עליות משמעותיות לפי נתוני חברות הערכת שווי.",
+            "הביקוש לנכסים להשכרה ולרכישה עולה בהרבה על ההיצע הקיים בשוק.",
+            "משקי הבית מתמודדים עם ציפיות להמשך התייקרות וירידה בתחזית ההכנסות."
           ],
-          "means": "אם אתם טסים בקווי ההמשך מארצות הברית או מתכננים טיסות דרך נמלי תעופה בינלאומיים, חשוב לעקוב אחר עדכוני חברות התעופה לגבי המשך המסע. במקרה של שינויי מסלול או נחיתות לא צפויות, מומלץ ליצור קשר ישירות עם נציגי חברת התעופה בנמל התעופה או להתעדכן מול מוקדי השירות שלהם.",
-          "body": "## מה קרה בטיסת יונייטד איירליינס?\n\nטיסת חברת יונייטד איירליינס המסומנת כ-UA168, אשר עשתה את דרכה מתל אביב לניוארק שבניו יורק, נאלצה לשנות את מסלולה ולנחות בנמל התעופה הבינלאומי באתונה. המטוס, מדגם בואינג 787-9 דרימליינר, שידר את קוד החירום הבינלאומי 7700 לאחר שצוות המטוס והנוסעים הבחינו בריח של עשן או שריפה בתוך קבינת הנוסעים, מה שהעלה חשש לתקלה חשמלית אפשרית.\n\nלקראת נחיתת החירום, כוחות ההצלה והחירום בנמל התעופה באתונה הועמדו בכוננות גבוהה. צוותי כיבוי אש הוצבו בסמוך למסלול הנחיתה כאמצעי זהירות מקדים. לפי הדיווחים הראשוניים מהשטח, לא נמצאה שריפה פעילה על סיפון המטוס, אך מקור הריח טרם התברר סופית. כמו כן, טרם הנחיתה ביצע המטוס פעולה של ריקון דלק כדי להפחית ממשקלו.\n\n## מצב הנוסעים והמשך הטיסות\n\nבשל אירוע החירום, לא דווח על נפגעים כלשהם בקרב הנוסעים או אנשי הצוות. הרשויות וצוותי הקרקע באתונה נערכו לקלוט את המטוס בצורה בטוחה. נכון לעכשיו, ממתינים לפרטים נוספים בנוגע לסידורי ההמשך עבור הנוסעים שהיו על המטוס והיו אמורים להמשיך את נסיעתם ליעד הסופי בניוארק.\n\nאירועים מסוג זה מחייבים בדיקה יסודית של מערכות המטוס לפני שהוא מורשה לשוב לפעילות מלאה. חברת התעופה והגורמים המוסמכים בנמל התעופה באתונה פועלים להסדרת חלופות והמשך הטיפול בנוסעים המושפעים מהעיכוב.\n\n## ## שאלות נפוצות\n\n**האם היו נפגעים בנחיתת החירום באתונה?**\nלא, לא היו דיווחים מיידיים על נפגעים כלשהם באירוע.\n\n**מדוע המטוס נחת באתונה?**\nהמטוס הוסט לנחיתה באתונה לאחר שזוהה ריח החשוד כשריפה בקבינה, מה שהוביל לשידור קוד חירום בינלאומי ולנקיטת אמצעי זהירות.\n\n**לאן ממשיכים מכאן?**\nטרם פורסמו פרטים סופיים לגבי סידורי הנוסעים הממשיכים ליעד, ומומלץ להתעדכן מול חברת התעופה."
+          "means": "מי שמתעניין בנכסים ביוון צריך לקחת בחשבון את הפערים החדים בין ההיצע המצומצם לביקוש הגבוה באזורים המרכזיים והטבעתיים של אתונה. מומלץ לבחון היטב את נתוני השוק המקומיים ולהתייעץ עם גורמים מקצועיים מוסמכים טרם קבלת החלטות פיננסיות.",
+          "body": "## המגמות בשוק הדיור באתונה ובאזורים המרכזיים\n\nשוק הדיור המקומי ממשיך להציג תמונה שבה המוכרים נמצאים ביתרון ברור, כך לפי נתונים מבנקים ומחברות מעקב נדל\"ן. אזורים שונים בבירה כמו אמופילוקיפי, מארוסי, פלאיו פאלירו, פריסטרי ו-חולארגוס מציגים עליות מחירים בולטות הן בדירות חדשות והן בדירות ישנות יותר בנות שנים רבות. הנתונים מצביעים על כך שמדדי הציפיות לעליית מחירים ממשיכים לשמור על רמות גבוהות מאוד בקרב הציבור.\n\n## הפער בין היצע לביקוש והשפעתו על רוכשים ושוכרים\n\nהמחקרים האחרונים בתחום הדיור מצביעים על פערים עצומים בין מספר הנכסים המוצעים לשוק לבין כמות המתעניינים. בשוק השכירות והרכישה ניכר כי הביקוש גבוה פי כמה מההיצע הקיים, בעיקר בדירות בעלות מחירים נגישים יחסית. מצב זה יוצר תחרות רבה על כל נכס פנוי, במיוחד בנכסים שמחירם או דמי השכירות שלהם נמצאים ברפים הנמוכים והבינוניים.\n\n## מדדי אמון וציפיות משקי הבית לעתיד\n\nלצד עליית המחירים, מדדי האמון של משקי הבית בנוגע ליכולת לרכוש נכס ירדו לרמות נמוכות. חלק ניכר מהציבור מדווח כי התקופה הנוכחית אינה נוחה לרכישת קאטויקיא, בין היתר בשל חוסר יכולת כלכלית להתאים את התקציב למחירי השוק הקיימים. במקביל, התחזיות לגבי ההכנסות האישיות לשנה הקרובה מציגות חששות גוברים בקרב התושבים.\n\n## שאלות נפוצות\n\n**האם מחירי הדירות באתונה ממשיכים לעלות לפי הנתונים האחרונים?**\nכן, נתונים ממדדי ערכים שונים מראים עלייה מתמשכת במחירי הדירות החדשות והישנות באזורים שונים של הבירה בהשוואה לשנים קודמות.\n\n**מה מצב הביקוש מול ההיצע בשוק הדיור היווני?**\nהמחקרים מצביעים על חוסר איזון חמור שבו הביקוש לדירות להשכרה ולרכישה עולה פי כמה וכמה על מספר הנכסים הפנויים הזמינים בשוק.\n\n**כיצד מעריכים משקי הבית ביוון את מצב השוק הנוכחי?**\nרוב הציבור רואה בתקופה הנוכחי מצב מאתגר מאוד לרכישת נכס, כאשר חלק ניכר מהמשפחות מדווחות על קושי למצוא פתרונות דיור המתאימים ליכולתם הכלכלית."
         },
         "en": {
-          "title": "United Airlines Flight From Tel Aviv to New York Diverts to Athens",
-          "seoTitle": "Tel Aviv to New York Flight Emergency Landing in Athens",
-          "seoDesc": "United Airlines flight from Tel Aviv to Newark diverted to Athens after an in-flight emergency and burning smell. No injuries reported.",
+          "title": "Athens Housing Prices Rise Amid Persisting Market Imbalance and Demand",
+          "seoTitle": "Athens Housing Prices Rise: Market Trends and Real Estate",
+          "seoDesc": "Recent data shows continued price increases for apartments in Athens alongside a wide gap between housing supply and high demand.",
           "keywords": [
-            "United Airlines Athens",
-            "Tel Aviv to Newark flight",
-            "Athens airport emergency",
-            "flight UA168 diversion",
-            "Greece travel news"
+            "greece real estate",
+            "athens apartments",
+            "housing market greece",
+            "property prices greece"
           ],
-          "dek": "A United Airlines Boeing 787-9 Dreamliner flying from Tel Aviv to Newark declared an emergency and landed safely in Athens following reports of a burning smell in the cabin.",
+          "dek": "New reports on the Greek housing market highlight further price increases in Athens and growing challenges for buyers and renters alike.",
           "tldr": [
-            "United Airlines flight UA168 from Tel Aviv to Newark diverted to Athens due to an emergency code.",
-            "Passengers and crew detected a smoke-like odour, prompting precautionary emergency measures.",
-            "The aircraft landed safely with no immediate reports of injuries or an active fire."
+            "Apartment prices in Athens continue to rise across both new and older properties.",
+            "Demand for housing significantly outpaces the available supply in many areas.",
+            "Consumer sentiment reflects growing caution and lower expectations regarding future income."
           ],
-          "means": "For international travellers and those connecting through various hubs, it is advisable to check directly with airline representatives regarding schedule updates. In case of unexpected diversions or flight disruptions, contact your airline's customer service or airport desk for alternative travel arrangements.",
-          "body": "## What Happened on United Airlines Flight UA168?\n\nUnited Airlines flight UA168, travelling from Tel Aviv to Newark, New York, was forced to divert its route and land at Athens International Airport. The Boeing 787-9 Dreamliner transmitted the international 7700 emergency code after the flight crew and passengers detected a burning odour inside the cabin. This raised immediate concerns regarding a potential electrical issue onboard the aircraft.\n\nIn response to the emergency signal, emergency services at Athens International Airport were placed on high alert. Fire crews were positioned near the runway ahead of the aircraft's arrival as a standard precautionary measure. Initial reports confirmed that there was no actual fire detected on board, although the exact source of the strange smell has not yet been established. The aircraft also performed a fuel-dumping procedure before landing to reduce its overall weight.\n\n## Passenger Safety and Next Steps\n\nAuthorities confirmed there were no immediate reports of injuries among passengers or crew members following the safe landing. Ground teams and airport personnel in Athens managed the situation according to standard safety protocols. Further information regarding the technical checks of the aircraft and onward travel arrangements for passengers heading to Newark is currently awaited.\n\nIncidents involving flight diversions require comprehensive inspections by aviation experts before the aircraft can resume regular service. Passengers affected by the delay are advised to coordinate directly with the airline for updated itineraries and support services.\n\n## FAQ\n\n**Were there any injuries during the emergency landing in Athens?**\nThere were no immediate reports of injuries following the incident.\n\n**Why did the flight divert to Athens?**\nThe aircraft diverted after a burning smell was detected inside the cabin, prompting the crew to transmit an international emergency code as a precaution.\n\n**What should passengers do regarding onward travel?**\nFurther information regarding arrangements for passengers travelling onwards to Newark is awaited from the airline."
+          "means": "Those tracking the Greek property market should note the significant gap between limited supply and high demand in key areas of Athens. It is recommended to thoroughly analyze local market data and consult qualified professionals before making any financial commitments.",
+          "body": "## Trends in Athens Residential Property Prices\n\nLocal real estate tracking data indicates that the housing market remains firmly in sellers' territory. Neighborhoods across the capital—such as Ambelokipi, Marousi, Palaio Faliro, Peristeri, and Cholargos—show notable price increases for both newly built and older apartments compared to previous years. Market expectation indices regarding future price trends continue to remain at elevated levels.\n\n## Supply and Demand Imbalance Across the Market\n\nRecent housing studies highlight extreme imbalances between available properties and active demand. In both the rental and sales sectors, demand frequently multiples the available supply, particularly for lower and mid-tier properties. This dynamic creates intense competition for every available unit, especially in metropolitan areas where affordable housing options are scarce.\n\n## Household Sentiment and Financial Expectations\n\nAlongside rising property values, household sentiment indices concerning homeownership conditions have reached notable lows. A significant portion of the surveyed population views current market conditions as unfavorable for purchasing a home, largely citing affordability challenges. Concurrently, projections regarding personal incomes for the upcoming period show a tilt toward negative economic outlooks.\n\n## FAQ\n\n**Are apartment prices in Athens continuing to rise according to recent data?**\nYes, property tracking data indicates ongoing increases in values for both new and older apartments across various areas of the capital.\n\n**What is the current state of supply versus demand in the Greek housing market?**\nStudies point to a severe imbalance where demand for rentals and purchases significantly exceeds the number of available properties on the market.\n\n**How do Greek households view the current real estate market conditions?**\nMost participants view the current period as challenging for buying a home, with many households reporting difficulties in finding housing that matches their financial capabilities."
         }
       },
-      "text": "0 \n 0 \n 0 \n United Airlines flight UA168 from Tel Aviv to Newark, New York, has diverted to Athens after declaring an in-flight emergency on Sunday.\n The Boeing 787-9 Dreamliner transmitted the international 7700 emergency code after a burning smell was reportedly detected inside the cabin, prompting the crew to divert as a precaution.\n According to initial reports, passengers and crew detected an odour resembling smoke, raising concerns about a possible electrical issue.\n Emergency services were placed on alert at Athens International Airport, with fire crews positioned near the runway ahead of the aircraft’s arrival.\n Read more: Athens Airport Eyes Australia Flights as US Services More Than Double \n Reports indicate there was no actual fire on board, although the source of the smell has not yet been established.\n The aircraft reportedly dumped fuel before landing to reduce its weight.\n There were no immediate reports of injuries. Further information about the incident and arrangements for passengers travelling onwards to Newark is awaited.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n IndiGo Carries Over 60,000 Round-Trip Passengers Between Greece and India \n Flydubai Flight 1073: A security warning may have been missed before the plane even took off \n Flydubai flight diverted to Saudi Arabia after cockpit altercation and hijack alert \n Flydubai Flight Diverted to Saudi Arabia After Hijacking Alert as Israeli Jets Scrambled \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Police Arrest Six Over Fake DEDDIE Worker Scam\n Next Article \n Rome Conquers Greece, Then Greek Culture Conquers Rome\n 0 \n 0 \n 0",
+      "text": "Vita.gr \n Τα προλαβαίνετε όλα… Τα χαίρεστε όμως;\n Spotlight Τραμπ: Αστειευόμουν για τον διορισμό του Ντέινα Γουάιτ στον Λευκό Οίκο \n Μα υπάρχουν ιδιωτικά δάση στην Ελλάδα; \n Τουρκία: Γιατί συρρέουν αξιωματούχοι του Ισραήλ στα ελληνικά ΜΜΕ \n ΗΠΑ: Η πολιτική αρχίζει στο ταμείο του σουπερμάρκετ \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Παρά την ήδη έντονη άνοδο των τιμώ ν στα ακίνητα, οι Έλληνες δεν θεωρούν ότι η αγορά έχει κορυφωθεί.\n Πρόσφατη έρευνα της Τράπεζας Πειραιώς αναφέρει ότι η αγορά κατοικίας παραμένει ξεκάθαρα αγορά πωλητή , με τους αγοραστές σε άμυνα και τις προσδοκίες για νέες ανατιμήσεις να φθάνουν σε νέο υψηλό.\n Οι συμμετέχοντες στην έρευνα συνεχίζουν να αναμένουν αυξήσεις στις τιμές των κατοικιών, ενώ η προοπτική νέων ανατιμήσεων ενισχύει την ανησυχία όσων θέλουν να αγοράσουν.\n Ο Δείκτης Στεγαστικού Κλίματος υποχώρησε στις 43,6 μονάδες, από 45,1 το προηγούμενο τρίμηνο, στο χαμηλότερο επίπεδο από την έναρξη της έρευνας, στα τέλη του 2023. Πρόκειται για μια μέτρηση που συγκεντρώνει τις απαντήσεις των νοικοκυριών για την αγορά και την πώληση κατοικίας, τις τιμές, τα επιτόκια και τα εισοδήματά τους.\n Την ίδια στιγμή, η μεγαλύτερη δυσκολία εντοπίζεται στην απόκτηση σπιτιού. Σε όλη την περίοδο που καλύπτει η έρευνα, περίπου το 60%-70% χαρακτηρίζει τη συγκυρία «καθόλου ευνοϊκή» για αγορά κατοικίας.\n Σύμφωνα με την Πειραιώς, αυτό δείχνει ότι τα νοικοκυριά αισθάνονται είτε πως δεν έχουν την οικονομική δυνατότητα να αγοράσουν είτε πως δεν μπορούν να αποκτήσουν το σπίτι που καλύπτει τις ανάγκες τους.\n Αντίθετα, περίπου το 40%-45% θεωρεί διαχρονικά την περίοδο πολύ ή αρκετά ευνοϊκή για πώληση. Οι υψηλές τιμές δυσκολεύουν εκείνον που αναζητά σπίτι, αλλά ευνοούν εκείνον που διαθέτει ακίνητο προς πώληση.\n Μάλιστα, οι συμμετέχοντες περιμένουν νέες ανατιμήσεις. Ο δείκτης προσδοκιών τιμών κατοικίας αυξήθηκε στις 74,1 μονάδες από 68,1, στο υψηλότερο επίπεδο της έρευνας. Αυτό σημαίνει ότι ενισχύθηκε η προσδοκία για άνοδο των τιμών το επόμενο δωδεκάμηνο· δεν αποτελεί μέτρηση της πραγματικής αύξησής τους.\n Την ίδια ώρα, οι προβλέψεις για τα εισοδήματα χειροτερεύουν. Ο σχετικός δείκτης για το επόμενο δωδεκάμηνο μειώθηκε στις 46,9 μονάδες από 51,5, περνώντας κάτω από το ουδέτερο όριο.\n Δηλαδή, οι αρνητικές εκτιμήσεις για το μελλοντικό εισόδημα υπερισχύουν πλέον των θετικών. Αντίστοιχη εικόνα εμφανίζεται και στις απαντήσεις για το σημερινό εισόδημα.\n Οι τιμές στα ακίνητα\n Την ίδια στιγμή, νέα σημαντική αύξηση των πιθανών τιμών πώλησης των διαμερισμάτων καταγράφεται στις πέντε περιοχές της πρωτεύουσας που παρακολουθεί σταθερά η Geoaxis, δηλαδή τους Αμπελόκηπους, το Μαρούσι, το Παλαιό Φάληρο, το Περιστέρι και τον Χολαργό.\n Σύμφωνα με το Παρατηρητήριων Αξιών της Geoaxis, το επίπεδο της αύξησης των αξιών για τα νεόδμητα διαμερίσματα προσδιορίζεται στο 5,79% σε σχέση με ένα χρόνο πριν (από 6,07%) και στο καθόλου ευκαταφρόνητο 12,23% σε σχέση με δύο χρόνια πριν (από 15,11%).\n Για τα διαμερίσματα παλαιότητας, η αύξηση είναι ακόμη μεγαλύτερη, στο 7,37% σε σχέση με ένα χρόνο πριν (από 6,65%) και 14,51% σε σχέση με δύο χρόνια πριν (από 14,97%). Σε βάθος δεκαετίας, η μέση αύξηση της αξίας κάθε τύπου διαμερίσματος μετρήθηκε πάνω από 100% επιβεβαιώνοντας τον διπλασιασμό της τιμής τους.\n Η στεγαστική κρίση\n Μεγάλες διαστάσεις λαμβάνει η στεγαστική κρίση στην Ελλάδα, με τη ζήτηση για οικονομικά προσιτά σπίτια να είναι έως και οκταπλάσια από τη διαθέσιμη προσφορά.\n Η ανισορροπία μεταξύ προσφοράς και ζήτησης λαμβάνει εκρηκτικές διαστάσεις στα χαμηλότερα εισοδηματικά κλιμάκια, όπως προκύπτει από πρόσφατη έρευνα του Spitogatos η οποία παρουσιάστηκε στο πλαίσιο της Prodexpo 2026. Σε πανελλαδικό επίπεδο, η ζήτηση για ενοικίαση αποδεικνύεται τριπλάσια από εκείνη για αγορά, με κάθε διαθέσιμο ακίνητο να συγκεντρώνει 23 αναζητήσεις και 2,4 μοναδικά αιτήματα ενδιαφέροντος.\n Στην Αττική, το μεγαλύτερο πρόβλημα εντοπίζεται στα μισθώματα κάτω των 600 ευρώ, όπου τα διαθέσιμα διαμερίσματα όχι μόνο σπανίζουν, αλλά συχνά είναι παλαιά και ενεργειακά αναποτελεσματικά. Στις αγοραπωλησίες, το κενό εστιάζεται σε ακίνητα έως 300.000 ευρώ, ενώ στις κατηγορίες άνω των 550.000 ευρώ η αγορά ισορροπεί.\n Ενδεικτική της έντασης του προβλήματος είναι η εικόνα στο Κεφαλάρι, όπου καταγράφονται σχεδόν οκτώ αιτήματα ενδιαφέροντος ανά διαθέσιμο ακίνητο και 262 αναζητήσεις ανά κατοικία αξίας έως 300.000 ευρώ. Στο Νέο Ψυχικό, αντίστοιχα, ιδιαίτερα υψηλή είναι η πίεση για κατοικίες με ενοίκιο έως 600 ευρώ.\n Πηγή: ΟΤ \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Κάμπινγκ: Εξαφανίσεις και χρήματα \n Πάτρα: Άνδρας απειλεί να αυτοπυρποληθεί και να βάλει φωτιά στο σπίτι του \n Άγιος Παντελεήμονας: Σοκ από το μακάβριο εύρημα – Με δεμένα τα πόδια η σορός της νεαρής γυναίκας \n Το τέρας τρομοκράτησε το Χόλιγουντ: Το Godzilla Minus Zero έκανε πρεμιέρα με ρεκόρ – Τώρα κοιτάει τα Όσκαρ \n «Βραχυκύκλωσαν» διαιτητής και VAR στη Νέα Φιλαδέλφεια – Πόση ώρα έκαναν για να δώσουν το πέναλτι της ΑΕΚ (vid) \n Χάος στην Κηφισίας μετά από τροχαίο με ανατροπή αυτοκινήτου – Μεγάλες καθυστερήσεις στο ρεύμα προς Κηφισιά \n Αποστολάκη: Αδικαιολόγητος αποκλεισμός χιλιάδων δανειοληπτών του πρώην ΟΕΚ από τον εξωδικαστικό μηχανισμό \n Καλώδιο διασύνδεσης: Ερωτήματα της αντιπολίτευσης για τη γαλλική ρηματική διακοίνωση προς την Τουρκία \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
       "issues": [],
       "el": {
-        "title": "Πτήση της United Airlines από Τελ Αβίβ προς Νέα Υόρκη εκτρέπεται στην Αθήνα",
-        "dek": "Ένα Boeing 787-9 Dreamliner της United Airlines, το οποίο εκτελούσε πτήση từ το Τελ Αβίβ προς το Νιούαρκ, εξέπεμπε σήμα κινδύνου και προσγειώθηκε με ασφάλεια στην Αθήνα, κατόπιν αναφορών για μυρωδιά καμένου στην καμπίνα.",
+        "title": "Αυξάνονται οι τιμές κατοικιών στην Αθήνα εν μέσω συνεχιζόμενης ανισορροπίας και ζήτησης στην αγορά",
+        "dek": "Νέες εκθέσεις για την ελληνική αγορά κατοικίας υπογραμμίζουν περαιτέρω αυξήσεις τιμών στην Αθήνα και αυξανόμενες προκλήσεις τόσο για αγοραστές όσο και για ενοικιαστές.",
         "tldr": [
-          "Η πτήση UA168 της United Airlines από το Τελ Αβίβ προς το Νιούαρκ εξετράπη στην Αθήνα λόγω κωδικού έκτακτης ανάγκης.",
-          "Επιβάτες και πλήρωμα εντόπισαν οσμή που θύμιζε καπνό, προκαλώντας την λήψη προληπτικών μέτρων έκτακτης ανάγκης.",
-          "Το αεροσκάφος προσγειώθηκε με ασφάλεια, χωρίς να υπάρχουν άμεσες αναφορές για τραυματισμούς ή ενεργή πυρκαγιά."
+          "Οι τιμές των διαμερισμάτων στην Αθήνα συνεχίζουν να αυξάνονται τόσο στα νέα όσο και στα παλαιότερα ακίνητα.",
+          "Η ζήτηση για στέγαση υπερτερεί σημαντικά της διαθέσιμης προσφοράς σε πολλές περιοχές.",
+          "Το καταναλωτικό κλίμα αντανακλά αυξανόμενη επιφύλαξη και χαμηλότερες προσδοκίες σχετικά με το μελλοντικό εισόδημα."
         ]
       },
       "notified": true
@@ -1996,12 +2007,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-09T06:07:42.202Z",
+      "at": "2026-11-09T09:41:07.175Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-09T06:07:43.044Z",
+      "at": "2026-11-09T09:41:07.982Z",
       "items": 5
     },
     "civilprotection": {
@@ -2012,27 +2023,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-09T06:07:45.013Z",
+      "at": "2026-11-09T09:41:09.961Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-09T06:07:45.422Z",
+      "at": "2026-11-09T09:41:10.371Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-09T06:07:46.561Z",
+      "at": "2026-11-09T09:41:11.407Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-09T06:07:47.618Z",
-      "items": 3
+      "at": "2026-11-09T09:41:12.337Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-09T06:07:48.430Z",
+      "at": "2026-11-09T09:41:12.896Z",
       "items": 10
     },
     "toi-greece": {
@@ -2043,23 +2054,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-09T06:07:48.731Z",
+      "at": "2026-11-09T09:41:13.587Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-09T06:07:49.012Z",
+      "at": "2026-11-09T09:41:13.771Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-09T06:07:49.772Z",
-      "items": 6
+      "at": "2026-11-09T09:41:14.120Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-09T06:07:50.305Z",
-      "items": 2
+      "at": "2026-11-09T09:41:14.646Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2068,12 +2079,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-09T06:07:44.023Z",
+      "at": "2026-11-09T09:41:08.782Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-09T06:07:51.068Z",
+      "at": "2026-11-09T09:41:15.535Z",
       "items": 0
     },
     "hcg": {
@@ -2084,39 +2095,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-09T06:07:52.704Z",
+      "at": "2026-11-09T09:41:16.728Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-09T06:07:52.889Z",
+      "at": "2026-11-09T09:41:16.917Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-09T06:07:53.070Z",
+      "at": "2026-11-09T09:41:17.073Z",
       "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-09T06:07:53.324Z",
-      "items": 6
+      "at": "2026-11-09T09:41:17.282Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-09T06:07:53.613Z",
-      "items": 3
+      "at": "2026-11-09T09:41:17.582Z",
+      "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-09T06:07:53.940Z",
-      "items": 9
+      "at": "2026-11-09T09:41:17.903Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-09",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "eisenkot-government-mandate-2026",
@@ -2129,6 +2140,12 @@
         "title": "Santorini: Scientists Lay Fiber-Optic Cable in Kolumbo Volcano",
         "at": "2026-11-09T00:50:17+02:00",
         "section": "travel"
+      },
+      {
+        "slug": "united-airlines-ua168-emergency-landing-athens-2026",
+        "title": "United Airlines Flight From Tel Aviv to New York Diverts to Athens",
+        "at": "2026-11-09T11:41:02+02:00",
+        "section": "israelis"
       }
     ],
     "rejected": [
@@ -2136,10 +2153,21 @@
         "title": "Athens Rental Crisis: Only 1.2% of Family Homes Under 600 Euros",
         "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (31%)",
         "at": "2026-11-09T02:07:45.660Z"
+      },
+      {
+        "title": "Καλώδιο διασύνδεσης: Ερωτήματα της αντιπολίτευσης για τη γαλλική ρηματική διακοίνωση προς την Τουρκία",
+        "reason": "Ίδιο θέμα με «Greece Resumes Seabed Surveys for Electricity Link with Cyprus and Israel» – δεν γράφτηκε ξανά",
+        "at": "2026-11-09T09:41:23.005Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "united-airlines-ua168-emergency-landing-athens-2026",
+        "at": "2026-11-09T09:41:03.253Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2365,29 +2393,26 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-09T06:08:03.928Z",
-    "considered": 19,
-    "picked": 1,
+    "at": "2026-11-09T09:41:18.942Z",
+    "considered": 16,
+    "picked": 2,
     "items": [
-      "· gct | The Miracle of Saint Nektarios at His Tomb",
-      "· naftemporiki | Κίνα: Φωτιά σε πολυκατοικία – 14 νεκροί, δεκάδες τραυματίες",
-      "· gn-kathimerini | ΥΠΑΜ Ισραήλ: Η «αποστολή μας» στο Ιράν «δεν έχει τελειώσει» - Kathimerini",
-      "· ingr | Τραγωδία στην Κίνα: Τουλάχιστον 14 νεκροί από πυρκαγιά σε πολυκατοικία στην Ταϊγιουάν",
-      "· ert | Τραγωδία στην Κίνα: Τουλάχιστον 14 νεκροί από πυρκαγιά σε πολυκατοικία στην Ταϊγιουάν",
-      "· gct | Greece Ranks Ahead of 10 EU Countries in Net Earnings",
-      "· gct | White Truffle Sells for €100,000 at International Auction in Italy",
-      "· ingr | Τουρκία: Γιατί αυξάνεται η παρουσία αξιωματούχων του Ισραήλ στα ελληνικά ΜΜΕ",
-      "· gct | Newlyweds Go Viral After Sweeping Up Rice Outside Church",
-      "· gct | Team Greece Beat England 4-3 to Reach All Nations Cup Semi-Finals",
-      "· gct | BYD Offices Raided in Jaguar Land Rover Design Dispute",
-      "· gct | Archbishop Makarios Unveils Eleftherios Venizelos Statue in Melbourne",
-      "· ert | Κατς: Η αποστολή του Ισραήλ στο Ιράν δεν έχει τελειώσει",
-      "· gct | Rome Conquers Greece, Then Greek Culture Conquers Rome",
-      "✓ gct | United Airlines Flight Diverts to Athens After Emergency",
-      "· ingr | Ινδονησία: Ενας νεκρός σε συντριβή ελικοπτέρου που συμμετείχε στις επιχειρήσεις κατάσβεσης",
-      "· ert | Ινδονησία: Ένας νεκρός μετά τη συντριβή ελικοπτέρου που συμμετείχε στην κατάσβεση πυρκαγιώ",
-      "· ingr | Ισραήλ: Η «αποστολή» στο Ιράν «δεν έχει τελειώσει» δηλώνει ο ισραηλινός υπουργός Αμυνας",
-      "· gn-iefimerida | Γρίφος η επόμενη ημέρα στο Ισραήλ: Άνοιγμα Άιζενκοτ σε Νετανιάχου μετά την εντολή σχηματισ"
+      "· gn-hcg | Αίτηση εξαίρεσης για τη χρήση του πλοίου “ABEILLE MARENGO” (ΙΜΟ: 9388613) σημαίας Γαλλίας ",
+      "· gtp | Two Hilton Hotels in Chania Support Year-Round Tourism Push",
+      "· gct | Kokoretsi Ranked No. 2 in TasteAtlas Best Offal Dishes",
+      "· ingr | Πάτρα: Άνδρας απειλεί να αυτοπυρποληθεί και να βάλει φωτιά στο σπίτι του",
+      "· gct | Kastellorizo Doctor Provides 24-Hour Care to Remote Greek Island",
+      "✓ ingr | Καλώδιο διασύνδεσης: Ερωτήματα της αντιπολίτευσης για τη γαλλική ρηματική διακοίνωση προς ",
+      "· ert | Reuters: Ρωσικό μυστικό δίκτυο, MAGA και Ισραήλ συνδέουν τα επεισόδια στη Γαλλία με το μετ",
+      "· gn-iefimerida | Μυστήριο με πιανίστα κρουαζιερόπλοιου που βρέθηκε στον Ειρηνικό -Πέρασε ώρες στη θάλασσα, ",
+      "· gn-iefimerida | «Καρφί» Θεοδωρικάκου για Τσίπρα: Η ακρίβεια δεν λύνεται με πορείες και διαδηλώσεις στο Παρ",
+      "· naftemporiki | Με 120 εκατ. συμμετέχει η Ελλάδα στην πρωτοβουλία της ΕΤΕπ για τη δημιουργία τεχνολογικών ",
+      "✓ ingr | Ακίνητα: Φόβοι για νέες ανατιμήσεις εν μέσω στεγαστικής κρίσης",
+      "· minfin | Με 120 εκατ. ευρώ συμμετέχει η Ελλάδα στην πρωτοβουλία της Ευρωπαϊκής Τράπεζας Επενδύσεων ",
+      "· ingr | Από τη Γαλλία ως τα Βαλκάνια: Οι οικονομικές αιτίες πίσω από τις κινητοποιήσεις των νέων σ",
+      "· ingr | Εκδικάζεται στο ΣτΕ η υπόθεση του Γιάννη Καυκά – Ο ξυλοδαρμός από τα ΜΑΤ το 2011",
+      "· gct | 12 Dead as 105 Migrants Rescued in Operations South of Crete",
+      "· gn-kathimerini | Κίνα: Πυρκαγιά σε πολυώροφο κτίριο με τουλάχιστον 14 νεκρούς - Kathimerini"
     ]
   },
   "evergreenDone": [
@@ -2430,5 +2455,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "united-airlines-ua168-emergency-landing-athens-2026",
+      "url": "https://yavanet.gr/a/united-airlines-ua168-emergency-landing-athens-2026/",
+      "at": "2026-11-09T09:41:03.253Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/united-airlines-ua168-emergency-landing-athens-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/united-airlines-ua168-emergency-landing-athens-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "טיסת יונייטד איירליינס מתל אביב לניו יורק נחתה באתונה עקב חירום",
+        "title_en": "United Airlines Flight From Tel Aviv to New York Diverts to Athens",
+        "dek_he": "מטוס בואינג 787 שידר אות חירום ונחת בלילה באתונה בעקבות ריח של עשן בקבינה; צוותי חירום הוזנקו למסלול.",
+        "dek_en": "A Boeing 787 landed safely in Athens after declaring an in-flight emergency due to a burning smell inside the cabin.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/30352776/pexels-photo-30352776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "טיסת יונייטד איירליינס מתל אביב לניו יורק נחתה באתונה עקב חירום\n\nמטוס בואינג 787 שידר אות חירום ונחת בלילה באתונה בעקבות ריח של עשן בקבינה; צוותי חירום הוזנקו למסלול.\n\nhttps://yavanet.gr/a/united-airlines-ua168-emergency-landing-athens-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "United Airlines Flight From Tel Aviv to New York Diverts to Athens\n\nA Boeing 787 landed safely in Athens after declaring an in-flight emergency due to a burning smell inside the cabin.\n\nhttps://yavanet.gr/en/a/united-airlines-ua168-emergency-landing-athens-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
