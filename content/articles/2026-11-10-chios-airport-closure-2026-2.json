@@ -1,0 +1,56 @@
+{
+  "slug": "chios-airport-closure-2026-2",
+  "section": "travel",
+  "publishedAt": "2026-11-10T04:41:14+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Chios",
+  "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/11/09/chios-airport-to-close-for-four-months-for-runway-works/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/40067314/pexels-photo-40067314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A commercial airplane prepares for takeoff on a runway in Greece under a clear blue sky.",
+    "credit": "Photo: Cam Harrison / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/airplane-on-greek-runway-ready-for-takeoff-40067314/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "נמל התעופה בכיוס ייסגר לארבעה חודשים עקב עבודות שדרוג",
+    "dek": "שדה התעופה המקומי באי כיוס יסגור את שעריו ב-16 בנובמבר ועד 15 במרץ 2027 לטובת עבודות תשתית במסלול ההמראה.",
+    "tldr": [
+      "נמל התעופה בכיוס ייסגר בין 16 בנובמבר ל-15 במרץ 2027.",
+      "העבודות כוללות שדרוג, חידוש ותאורה במסלול ההמראה.",
+      "הרשויות התחייבו לתגבר את קווי המעבורות ושירותי החירום באי."
+    ],
+    "means": "לנוסעים ולמבקרים המבקשים להגיע לכיוס בתקופה זו מוצע לבדוק חלופות הגעה דרך הים.",
+    "body": "נמל התעופה הממלכתי \"אומירוס\" בכיוס צפוי להיסגר לפעילות החל מ-16 בנובמבר 2026 ועד 15 במרץ 2027, לצורך ביצוע עבודות נרחבות לשדרוג מסלול ההמראה. כך הודיע משרד התשתיות והתחבורה ביוון. במסגרת הפרויקט יבוצעו עבודות חידוש פני המסלול, הרחבה, תשתית ניקוז והתקנת מערכות תאורה חדשות. במקביל לסגירת השדה, התחייבו הרשויות הממשלתיות והמקומיות לתגבר את קווי המעבורות אל האי וכן לחזק את שירותי הבריאות ומרכז החירום הלאומי (EKAB) לרווחת התושבים והמבקרים."
+  },
+  "en": {
+    "title": "Chios Airport to Close for Four Months for Runway Works",
+    "dek": "The Chios Omiros State Airport will suspend operations from November 16 until March 15, 2027, for infrastructure upgrades.",
+    "tldr": [
+      "Chios Airport will close from November 16, 2026, to March 15, 2027.",
+      "Works include runway resurfacing, drainage improvements, and new lighting.",
+      "Authorities committed to boosting ferry connections and local emergency healthcare."
+    ],
+    "means": "Travelers planning trips to Chios during this period should rely on maritime transport alternatives.",
+    "body": "The Chios 'Omiros' State Airport is scheduled to close for four months starting November 16, 2026, and reopen on March 15, 2027, according to an announcement by the Ministry of Infrastructure and Transport. The temporary closure allows for comprehensive runway upgrade works, which involve resurfacing, excavation, drainage construction, and new lighting systems. To mitigate the disruption, government officials confirmed plans to facilitate additional ferry connections to the island and reinforce local healthcare services and emergency care structures."
+  },
+  "meta": {
+    "itemId": "ecaded734e27",
+    "imageQuery": "Chios airport runway Greece",
+    "sourceHash": "42d9d943121b",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-10T02:41:14.973Z",
+    "official": false
+  }
+}
