@@ -19,38 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "e507150c2e17": 1793050966530,
-    "fad43d011b4f": 1793050966530,
-    "85eec1486834": 1793050966530,
-    "b6746cbafb19": 1793050966530,
-    "5a67e2187f9d": 1793050966530,
-    "1fb522f5708d": 1793050966530,
-    "557c0e1b96f0": 1793050966530,
-    "d58beba99a0b": 1793050966530,
-    "0946770b53f1": 1793050966530,
-    "e0ce9b40333b": 1793050966530,
-    "09a1e5204a02": 1793050966530,
-    "c5171dc7340e": 1793050966530,
-    "43c1b79cae0e": 1793050966530,
-    "cfcadc2818c1": 1793050966530,
-    "9ed5cc76f746": 1793050966530,
-    "652756522da4": 1793058465369,
-    "b7618e19d4e3": 1793058465369,
-    "8cbe9677e33d": 1793058465369,
-    "bdd9238a5d91": 1793058465369,
-    "d7c74bbac557": 1793058465369,
-    "f89b4c53cd30": 1793058465369,
-    "c9dfb0b25b10": 1793058465369,
-    "59a9208ff7e8": 1793058465369,
-    "5b9572f76e19": 1793058465369,
-    "c581fd909b11": 1793058465369,
-    "3183c7e86910": 1793058465369,
-    "7ff4704517c1": 1793058465369,
-    "c09bfe850b6c": 1793058465369,
-    "886ca0d2b2ae": 1793058465369,
-    "c4f0441815b4": 1793058465369,
-    "9ad494fb4fdb": 1793058465369,
-    "afa8e4c27761": 1793058465369,
     "302487339e48": 1793062143748,
     "6cec2dcde1c6": 1793062143748,
     "5704f57a8c5d": 1793062143748,
@@ -1839,145 +1807,167 @@
     "c9a3b94acee2": 1794254628752,
     "7046076c7bd3": 1794254628752,
     "248470937794": 1794254628752,
-    "1f9f56590904": 1794254628752
+    "1f9f56590904": 1794254628752,
+    "d319ce2c594c": 1794271189408,
+    "560d4a352295": 1794271189408,
+    "566b5f1fc628": 1794271189408,
+    "f53c3a9f9014": 1794271189408,
+    "6d68fae769b7": 1794271189408,
+    "3f2154d2d412": 1794271189408,
+    "ce4cf0ae6512": 1794271189408,
+    "8b978e0fdecf": 1794271189408,
+    "de7dae4acc49": 1794271189408,
+    "76c04fb3584e": 1794271189408,
+    "2df424c45d66": 1794271189408,
+    "c16bd556bc10": 1794271189408,
+    "9670d6973c0d": 1794271189408,
+    "7afe52a28505": 1794271189408,
+    "a14e4f2dd39e": 1794271189408,
+    "3dc2fbdfff4e": 1794271189408,
+    "9f9a8b3da14b": 1794271189408,
+    "efbaecee5137": 1794271189408,
+    "df2cd07ecc83": 1794271189408,
+    "b064388c5882": 1794271189408,
+    "04a6bf725f57": 1794271189408,
+    "ecaded734e27": 1794271189408,
+    "fc957e1de810": 1794271189408,
+    "83f9bde52707": 1794271189408,
+    "b83bf9292497": 1794271189408
   },
   "pending": {
-    "29bd8d": {
-      "createdAt": 1794254642793,
+    "f8efb0": {
+      "createdAt": 1794271204136,
       "item": {
-        "title": "Bomb Threat Evacuates 875 Passengers From Blue Star 1 in Piraeus",
-        "url": "https://greekcitytimes.com/2026/11/10/blue-star-1-bomb-threat-piraeus/",
-        "summary": "Bomb Threat Forces Evacuation of 875 Passengers From Piraeus Ferry\n A bomb threat targeting the passenger ferry Blue Star 1 triggered an emergency response at the port of Piraeus, forcing the evacuation of 875 passengers.\n According to initial reports, all passengers disembarked while Coast Guard officers began inspecting the vessel for a possible explosive device.\n A specially trained explosives detection dog was assisting authorities in searching the ship.\n The ferry was scheduled to depart on a route serving several Greek islands, including Syros, Patmos, Leros, Kos and Rhodes.\n There were ",
-        "published": "Mon, 09 Nov 2026 18:05:46 +0000",
-        "id": "8ff2257b0755",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Chios Airport to Close for Four Months for Runway Works",
+        "url": "https://news.gtp.gr/2026/11/09/chios-airport-to-close-for-four-months-for-runway-works/",
+        "summary": "Chios Airport will close from November 16 to March 15, 2027, for runway upgrades, with ferry and healthcare support measures planned during the closure....\n Source",
+        "published": "Mon, 09 Nov 2026 16:28:47 +0000",
+        "id": "ecaded734e27",
+        "sourceId": "gtp",
+        "sourceName": "GTP Headlines",
         "official": false,
         "emergency": false,
-        "sectionHint": "politics",
+        "sectionHint": "travel",
         "strike": false
       },
       "pick": {
-        "id": "8ff2257b0755",
-        "section": "travel",
-        "priority": 9,
-        "sensitive": true,
-        "breaking": true,
-        "reason": "Bomb threat on Blue Star 1 ferry leaving Piraeus with 875 passengers onboard directly affects tourist safety and transport reliability for Israeli travellers.",
-        "item": {
-          "title": "Bomb Threat Evacuates 875 Passengers From Blue Star 1 in Piraeus",
-          "url": "https://greekcitytimes.com/2026/11/10/blue-star-1-bomb-threat-piraeus/",
-          "summary": "Bomb Threat Forces Evacuation of 875 Passengers From Piraeus Ferry\n A bomb threat targeting the passenger ferry Blue Star 1 triggered an emergency response at the port of Piraeus, forcing the evacuation of 875 passengers.\n According to initial reports, all passengers disembarked while Coast Guard officers began inspecting the vessel for a possible explosive device.\n A specially trained explosives detection dog was assisting authorities in searching the ship.\n The ferry was scheduled to depart on a route serving several Greek islands, including Syros, Patmos, Leros, Kos and Rhodes.\n There were ",
-          "published": "Mon, 09 Nov 2026 18:05:46 +0000",
-          "id": "8ff2257b0755",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "bomb-threat-blue-star-1-piraeus",
-        "section": "travel",
-        "sensitive": true,
-        "breaking": true,
-        "geo": {
-          "lat": 37.9475,
-          "lng": 23.6372
-        },
-        "strike": null,
-        "alert": {
-          "he": "אזהרה לתיירים",
-          "en": "Travel Alert"
-        },
-        "imageKey": "sea",
-        "imageQuery": "port of piraeus ferry greece",
-        "he": {
-          "title": "איום פצצה בנמל פיראוס: מעבורת פונתה מנוסעים",
-          "seoTitle": "איום פצצה בנמל פיראוס: פינוי מעבורת ביוון",
-          "seoDesc": "מעבורת בלו סטאר 1 פונתה מנוסציה בנמל פיראוס בעקבות איום פצצה. כל הפרטים על האירוע ועל המשמעות לנוסעים ביוון.",
-          "keywords": [
-            "נמל פיראוס",
-            "יוון",
-            "מעבורת ביוון",
-            "אזהרת מסע יוון",
-            "פיראוס"
-          ],
-          "dek": "כוחות הביטחון בנמל פיראוס פינו מאות נוסעים ואנשי צוות בעקבות איום פצצה על מעבורת שעשתה דרכה לאיים.",
-          "tldr": [
-            "איום פצצה כוון לעבר המעבורת בלו סטאר 1 בנמל פיראוס.",
-            "875 נוסעים ו-83 אנשי צוות פונו מהספינה.",
-            "כוחות משמר החופשים וכלבי גישוש עורכים סריקות על הסיפון."
-          ],
-          "means": "אם אתם מתכננים הפלגה מאיי יוון או מנמל פיראוס בימים אלו, כדאי להתעדכן מול חברות הספנות ולבדוק האם יש עיכובים בלוחות הזמנים. מומלץ להגיע מוקדם לנמל ולהישמע להנחיות משמר החופשים והרשויות המקומיות.",
-          "body": "## פינוי דרמטי בנמל פיראוס\n\nאיום פצצה שהתקבל לגבי המעבורת בלו סטאר 1 הוביל להפעלה מיידית של נהלי חירום בנמל פיראוס. המעבורת, שהייתה ערוכה לצאת להפלגה לעבר מספר איים בים ה Aegean, פונתה מכל הנוסעים ששהו על סיפונה כצעד מונע.\n\nלפי הדיווחים הראשוניים מהמקום, ההחלטה התקבלה כדי לאפשר לכוחות הביטחון לבצע בדיקות מקיפות על גבי כלי השיט ולאתר כל חפץ חשוד.\n\n## מידע על הנוסעים והמטען\n\nעל פי הנתונים הרשמיים, בעת קבלת האיום היו על המעבורת 875 נוסעים לצד 83 אנשי צוות. בנוסף לכך, כלי השיט נשא מטען משמעותי שכלל 89 מכוניות נוסעים, 12 אופנועים, 110 משאיות ומיניבוס אחד.\n\nכלל הנוסעים יורדו מהספינה בבטחה והועברו לאזור מוגן בנמל, בזמן שצוותים מקצועיים החלו בסריקות קפדניות.\n\n## בדיקות ביטחוניות וכלבי גישוש\n\nמשמר החופשים פתח בחקירה נרחבת לבדיקת מקור האיום. אל כוחות הביטחון הצטרף כלב גישוש מיוחד המאומן באיתור חומרי נפץ, על מנת לסרוק את כל תאי האחסון והאזורים השונים במעבורת.\n\nהרשויות צפויות לקבל החלטה לגבי מועד יציאתה המחודש של המעבורת רק לאחר השלמת כל הבדיקות הביטחוניות הנדרשות ווידוא מוחלט של בטיחות כלי השיט.\n\n## שאלות נפוצות\n\n**האם המעבורת בלו סטאר 1 פונתה מנוסעים?**\nכן, 875 הנוסעים שהיו על סיפון המעבורת בנמל פיראוס פונו ממנה בעקבות איום פצצה.\n\n**אילו איים היו במסלול של המעבורת?**\nהמעבורת תוכננה לשרת מספר איים, בהם סירוס, פטמוס, לרוס, קוס ורודוס.\n\n**מה הצעד הבא של הרשויות בנמל?**\nמשמר החופשים עורך סריקות באמצעות כלבי גישוש ובודק את כלי השיט טרם קבלת החלטה על הפלגתו."
-        },
-        "en": {
-          "title": "Bomb Threat at Piraeus Port Triggers Ferry Evacuation",
-          "seoTitle": "Piraeus Port Ferry Evacuated Following Bomb Threat",
-          "seoDesc": "Passengers evacuated from the Blue Star 1 ferry at Piraeus port after a bomb threat. Coast Guard inspecting the vessel.",
-          "keywords": [
-            "Piraeus port",
-            "Blue Star 1",
-            "Greece ferry",
-            "Greece travel",
-            "Piraeus"
-          ],
-          "dek": "An emergency response was launched at the port of Piraeus after a bomb threat targeted the Blue Star 1 passenger ferry, leading to a full evacuation.",
-          "tldr": [
-            "A bomb threat was reported on the passenger ferry Blue Star 1 at Piraeus.",
-            "875 passengers and 83 crew members were safely disembarked.",
-            "Coast Guard officers and an explosives detection dog are inspecting the ship."
-          ],
-          "means": "If you are planning to travel by ferry from Piraeus or the Greek islands, check with your ferry operator for potential schedule changes. Arrive early at the port and follow all instructions given by local authorities and the Coast Guard.",
-          "body": "## Emergency Response at Piraeus Port\n\nA bomb threat targeting the passenger ferry Blue Star 1 sparked an emergency response at the port of Piraeus. The security alert forced the immediate evacuation of all passengers to ensure safety while authorities assessed the situation.\n\nAccording to initial reports, the vessel was scheduled to depart on a route serving several prominent Greek islands, requiring a swift containment and clearance operation by the port authorities.\n\n## Passengers and Cargo on Board\n\nThe ferry was carrying a significant number of people and vehicles at the time of the threat. On board were 875 passengers and 83 crew members.\n\nIn addition to the travelers, the vessel was transporting 89 passenger cars, 12 motorcycles, 110 trucks, and a minibus. All individuals disembarked safely while security protocols were put into action.\n\n## Security Checks and Investigations\n\nCoast Guard officers immediately began inspecting the vessel for any possible explosive devices. A specially trained explosives detection dog was brought in to assist authorities in thoroughly searching the ship.\n\nAuthorities are actively investigating the origin of the threat and conducting comprehensive security checks. A final decision regarding the vessel's departure will only be made once the inspections are fully completed.\n\n## FAQ\n\n**Was the Blue Star 1 ferry evacuated?**\nYes, all 875 passengers disembarked from the vessel at the port of Piraeus following the bomb threat.\n\n**Which islands was the ferry scheduled to visit?**\nThe ferry was set to serve several Greek islands, including Syros, Patmos, Leros, Kos, and Rhodes.\n\n**What are the authorities currently doing?**\nCoast Guard officers and an explosives detection dog are inspecting the ship before any decision is made on its departure."
-        }
-      },
-      "text": "Please select a featured image for your post \n 0 \n 0 \n 0 \n A bomb threat targeting the passenger ferry Blue Star 1 triggered an emergency response at the port of Piraeus, forcing the evacuation of 875 passengers.\n According to initial reports, all passengers disembarked while Coast Guard officers began inspecting the vessel for a possible explosive device.\n A specially trained explosives detection dog was assisting authorities in searching the ship.\n Read more: August 15 in the Dodecanese: Faith, Festivals and Traditions That Bring the Islands Together \n The ferry was scheduled to depart on a route serving several Greek islands, including Syros, Patmos, Leros, Kos and Rhodes.\n There were also 83 crew members on board, while the vessel was carrying 89 passenger cars, 12 motorcycles, 110 trucks and one minibus.\n Authorities were investigating the threat and conducting security checks before any decision could be made about the vessel’s departure.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Cocaine Bust Leads to Arrests And Nearly €1 Million in Cash \n Israeli Cruise Passengers Accused of Indecent Behaviour at Syros Monastery \n Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat \n Tiny Aegean Island With Three Beaches Seeks a Buyer \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Greece Establishes Space Operations Command Under Air Force\n No Newer Articles \n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Απειλή για βόμβα στο λιμάνι του Πειραιά προκαλεί εκκένωση πλοίου",
-        "dek": "Σήμανε συναγερμός στο λιμάνι του Πειραιά μετά από απειλή για βόμβα στο επιβατηγό πλοίο Blue Star 1, γεγονός που οδήγησε σε πλήρη εκκένωση.",
-        "tldr": [
-          "Απειλή για βόμβα αναφέρθηκε στο επιβατηγό πλοίο Blue Star 1 στον Πειραιά.",
-          "875 επιβάτες και 83 μέλη πληρώματος αποβιβάστηκαν με ασφάλεια.",
-          "Αξιωματικοί του Λιμενικού Σώματος και ειδικά εκπαιδευμένος σκύλος ανίχνευσης εκρηκτικών ελέγχουν το πλοίο."
-        ]
-      },
-      "notified": true
-    },
-    "3faafe": {
-      "createdAt": 1794254673976,
-      "item": {
-        "title": "Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυσίδα",
-        "url": "https://www.in.gr/2026/11/09/greece/monastiraki-kare-kare-i-epithesi-liston-se-epivati-tou-metro-ton-ksylokopisan-gia-mia-alysida/",
-        "summary": "Τρεις άνδρες και μία γυναίκα επιτέθηκαν στον 21χρονο στο Μοναστηράκι για να του αποσπάσουν την αλυσίδα που φορούσε - Το θύμα αντιστάθηκε και οι δράστες τον χτύπησαν με γροθιές και κλωτσιές\n The post Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυσίδα appeared first on in.gr .",
-        "published": "Mon, 09 Nov 2026 21:07:51 +0200",
-        "id": "33800ce65413",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "33800ce65413",
+        "id": "ecaded734e27",
         "section": "travel",
         "priority": 8,
         "sensitive": true,
         "breaking": false,
-        "reason": "Violent mugging of a tourist at Monastiraki metro station highlights immediate safety risks in central Athens areas frequented by Israeli tourists.",
+        "reason": "Chios Airport is closing for four months for runway works, which is crucial for tourists and travelers planning trips to the island.",
         "item": {
-          "title": "Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυσίδα",
-          "url": "https://www.in.gr/2026/11/09/greece/monastiraki-kare-kare-i-epithesi-liston-se-epivati-tou-metro-ton-ksylokopisan-gia-mia-alysida/",
-          "summary": "Τρεις άνδρες και μία γυναίκα επιτέθηκαν στον 21χρονο στο Μοναστηράκι για να του αποσπάσουν την αλυσίδα που φορούσε - Το θύμα αντιστάθηκε και οι δράστες τον χτύπησαν με γροθιές και κλωτσιές\n The post Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυσίδα appeared first on in.gr .",
-          "published": "Mon, 09 Nov 2026 21:07:51 +0200",
-          "id": "33800ce65413",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
+          "title": "Chios Airport to Close for Four Months for Runway Works",
+          "url": "https://news.gtp.gr/2026/11/09/chios-airport-to-close-for-four-months-for-runway-works/",
+          "summary": "Chios Airport will close from November 16 to March 15, 2027, for runway upgrades, with ferry and healthcare support measures planned during the closure....\n Source",
+          "published": "Mon, 09 Nov 2026 16:28:47 +0000",
+          "id": "ecaded734e27",
+          "sourceId": "gtp",
+          "sourceName": "GTP Headlines",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "travel",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "chios-airport-closes-for-four-months-runway-works",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "סגירת שדה תעופה",
+          "en": "Airport Closure"
+        },
+        "imageKey": "plane",
+        "imageQuery": "airplane runway airport greece",
+        "he": {
+          "title": "נמל התעופה בחיוס ייסאר לארבעה חודשים עבודות שדרוג במסלול",
+          "seoTitle": "שדה התעופה בחיוס סגור: עדכון טיסות ביוון",
+          "seoDesc": "שדה התעופה באי חיוס נסגר לארבעה חודשים החל מאמצע נובמבר לעבודות שדרוג המסלול. כל הפרטים על הפעילות וההיערכות.",
+          "keywords": [
+            "חיוס יוון",
+            "טיסות לחיוס",
+            "שדה תעופה ביוון",
+            "טיסות ליוון",
+            "חופשה ביוון"
+          ],
+          "dek": "שדה התעופה הלאומי של חיוס צפוי להיסגרארבעה חודשים לצורך עבודות תשתית ושדרוג מקיפות במסלול הנחיתה.",
+          "tldr": [
+            "נמל התעופה בחיוס נסגר מ-16 בנובמבר 2026 ועד 15 במרץ 2027.",
+            "העבודות כוללות חידוש מקיף של המסלול, מערכות ניקוז ותאורה.",
+            "הממשלה מתחייבת לתגבר את קווי המעבורות ושירותי החירום הרפואיים באי."
+          ],
+          "means": "אם אתם מתכננים להגיע לאי חיוס בתקופה הקרובה, שימו לב שאי אפשר להגיע בטיסה ישירה. יש להתעדכן מול חברות התעופה ולבדוק אפשרויות הגעה דרך הים באמצעות מעבורות.",
+          "body": "## סגירת נמל התעופה בחיוס\n\nמשרד התשתיות והתחבורה ביוון הודיע כי נמל התעופה הלאומי של חיוס (״אומירוס״) ייסאר לתקופה של ארבעה חודשים. המהלך נועד לאפשר עבודות שדרוג נרחבות במסלול הטיסה ובתשתיות הנלוות. הפעילות בשדה תופסק החל מ-16 בנובמבר 2026 ותימשך עד 15 במרץ 2027.\n\nההחלטה התקבלה לאחר סדרה של פגישות בין גורמי ממשל, נציגים מקומיים ורשות התעופה האזרחית בהלניק (HCAA), בראשות בכירים כמו סגן ראש הממשלה קוסטה חצ'דאקיס. המטרה המרכזית של הפגישות הייתה לתאם את המהלכים ולצמצם ככל האפשר את ההשפעה על התושבים והמבקרים באי.\n\n## מה כוללות עבודות השדרוג?\n\nהעבודות בשדה התעופה יבוצעו בשלבים או במקביל ויכסו את רוב שטח המתחם. בין היתר, הפרויקט כולל חידוש פני המסלול, עבודות חפירה ויציקת משטח חדש בקצהו הדרומי, הקמת קו ניקוז חדש למים ולגשמים לאורך המסלול, וכן שדרוג מערכות התאורה באזורי הבטיחות. רשות התעופה מסרה כי כל המערכות יעברו סדרה קפדנית של בדיקות טכניות טרם חידוש הפעילות הסדירה של הנמל.\n\nלפי הודעת המשרד, הפרויקט צפוי לחזק באופן משמעותי את תשתיות התעופה במקום ולתרום למודרניזציה כוללת שתשרת את האזור לשנים הבאות.\n\n## היערכות תחבורתית ושירותי חירום\n\nבמסגרת ההיערכות לסגירת השדה, התחייבה ממשלת יוון לסייע בחיזוק קווי המעבורות המובילים לחיוס כדי לשמור על רציפות תחבורתית. בנוסף, נבחנו דרכים לחיזוק שירותי הבריאות המקומיים ופעילות המרכז הלאומי לשירותי חירום (EKAB), במטרה לתת מענה רפואי הולם לאורך כל תקופת העבודות.\n\n## שאלות נפוצות\n\n**האם אפשר לטוס לחיוס בתקופה הקרובה?**\nלא, שדה התעופה הלאומי של חיוס סגור לטיסות החל מאמצע נובמבר ועד 15 במרץ 2027 עקב עבודות במסלול.\n\n**כיצד אפשר להגיע לחיוס בזמן סגירת השדה?**\nהממשלה מתחייבת להקל על קווי המעבורות לאי כדי לשמור על חיבור תקין, ויש להתעדכן מול חברות הספנות על לוחות הזמנים.\n\n**לאן אפשר לפנות לבירור פרטים נוספים על טיסות ומעבורות?**\nמומלץ לבדוק את הפרטים המעודכנים מול חברות התעופה, סוכני הנסיעות או אתרי סкנות המעבורות הרשמיים ביוון."
+        },
+        "en": {
+          "title": "Chios Airport to Close for Four Months for Runway Works",
+          "seoTitle": "Chios Airport Closes for Four Months for Runway Works",
+          "seoDesc": "Chios Omiros State Airport is closing from mid-November until March 15, 2027, for major runway upgrade works. Ferry links to be reinforced.",
+          "keywords": [
+            "Chios airport",
+            "Chios Greece",
+            "Greek airports",
+            "Chios ferry connections",
+            "travel to Chios"
+          ],
+          "dek": "Chios Omiros State Airport will shut down for four months starting mid-November to undergo extensive runway and infrastructure upgrades.",
+          "tldr": [
+            "Chios Airport will be closed from November 16, 2026, to March 15, 2027.",
+            "Works include runway resurfacing, new drainage systems, and upgraded lighting.",
+            "The government has promised to facilitate ferry connections and healthcare support during the closure."
+          ],
+          "means": "If you are planning a trip to Chios during this period, note that direct flights will not be available. Check with ferry operators and travel providers for alternative sea routes.",
+          "body": "## Chios Airport Runway Upgrade\n\nChios \"Omiros\" State Airport is scheduled to close for a four-month period to allow for essential runway upgrade works, according to an announcement by the Ministry of Infrastructure and Transport. The closure will begin on November 16, 2026, and continue through March 15, 2027.\n\nThe timetable, technical specifications, and project scope were reviewed during meetings between government officials, local authorities, and representatives from Chios, chaired by Deputy Prime Minister Kostis Hatzidakis. Discussions centered on minimizing disruption for travelers and residents alike during the temporary airport shutdown.\n\n## Scope of the Infrastructure Works\n\nThe construction project will cover most of the airport grounds, executed either in stages or simultaneously. Key upgrades include resurfacing the runway, excavation and new pavement at the southern end, constructing a new stormwater drainage pipe across the runway, improving safety zone drainage, and installing modern runway lighting systems. Comprehensive testing of all systems will take place before the airport resumes operations.\n\nAccording to ministry statements, the initiative aims to substantially strengthen local aviation infrastructure and modernize the airport facilities for the long term.\n\n## Ferry Connections and Healthcare Support\n\nTo mitigate the impact of the four-month closure, authorities have committed to facilitating robust ferry connections to Chios. Officials also addressed the necessity of reinforcing local healthcare services and the National Center for Emergency Care (EKAB) throughout the duration of the works.\n\nA ministry delegation including Infrastructure Secretary General Dimitrios Anagnopoulos and Hellenic Civil Aviation Authority Deputy Governor Giorgos Vagenas is scheduled to visit Chios for further local coordination.\n\n## FAQ\n\n**Is Chios Airport currently open for flights?**\nNo, Chios Omiros State Airport is closed for runway upgrades from mid-November until March 15, 2027.\n\n**How can travelers reach Chios during the airport closure?**\nAuthorities have committed to facilitating ferry connections to the island, and travelers should check with maritime operators for updated schedules.\n\n**Where should I check for updates regarding travel alternatives?**\nIt is recommended to verify travel options and ferry schedules directly with transportation providers and official Greek tourism portals."
+        }
+      },
+      "text": "Chios Airport to Close for Four Months for Runway Works | GTP Headlines \n connect with us\r\nGreece's latest tourism industry news by Greek Travel Pages \n-->\r\n-->\n — Main Menu — Home \n Industry Sectors » - Hospitality \n - Aviation \n - Sea Tourism - - Ferries \n - Land Transportation \n - Travel Operators \n - Marketplace \n - Technology \n - MICE \n - Culture - - Top Archaeological Sites \n - Gastronomy \n - More… - - Brief News \n - - Tourism Education \n - - Niche Markets \n - - Laws, Regulations & Policy - - - Greek Laws \n - - Trade Associations – Gov – Org \n Covid-19 » - Timeline \n - Restart \n - Greek Hotels Reopening \n - Impact \n - Measures \n - Support \n - Guidance \n - Solidarity \n - The Day After \n - Local Actions \n - Τουρισμος \n Investments » - Investment News \n - Tenders \n People » - Interviews \n - Opinions - - Thought Leaders 2026 \n - - Thought Leaders 2024 \n - - Thought Leaders 2023 \n - - Thought Leaders 2022 \n - Business Talk \n - New faces \n - Recruitments \n - Women in Tourism - - 2024 – International Women’s Day \n - - 2021 – International Women’s Day \n - - 2018 – International Women’s Day \n Destinations » - Athens \n - Northern Greece \n Event News » - Events - - Sports \n - Calendar of events \n - Awards - - Greek Hospitality Awards \n - - Tourism Awards 2019 \n - Travel Exhibitions Specials - - WTM London 2026 Special \n - - WTM London 2025 Special \n - - WTM London 2024 Special \n - - WTM London 2023 Special \n - - WTM London 2022 Special \n - - WTM London 2018 Special \n - - WTM London 2019 Special \n - - WTM London 2017 Special \n - - ITB Berlin 2024 Special \n - - ITB Berlin 2023 Special \n - - ITB Berlin 2019 Special \n - - ITB Berlin 2018 Special \n - - ITB Berlin 2017 Special \n - - Philoxenia 2014 Special \n - - 100% Hotel Show \n Ενημερωση \n gtp Network » - gtp.gr \n - GTP Careers in Tourism \n - GTP Travel Offers - - in English \n - - in Greek \n - About GTP \n - GTP eBook \n - GTP Ferry Connections \n Home \n Industry Sectors » \n Hospitality \n Aviation \n Sea Tourism \n Ferries \n Land Transportation \n Travel Operators \n Marketplace \n Technology \n MICE \n Culture \n Top Archaeological Sites \n Gastronomy \n More… \n Brief News \n Tourism Education \n Niche Markets \n Laws, Regulations & Policy \n Greek Laws \n Trade Associations – Gov – Org \n Covid-19 » \n Timeline \n Restart \n Greek Hotels Reopening \n Impact \n Measures \n Support \n Guidance \n Solidarity \n The Day After \n Local Actions \n Τουρισμος \n Investments » \n Investment News \n Tenders \n People » \n Interviews \n Opinions \n Thought Leaders 2026 \n Thought Leaders 2024 \n Thought Leaders 2023 \n Thought Leaders 2022 \n Business Talk \n New faces \n Recruitments \n Women in Tourism \n 2024 – International Women’s Day \n 2021 – International Women’s Day \n 2018 – International Women’s Day \n Destinations » \n Athens \n Northern Greece \n Event News » \n Events \n Sports \n Calendar of events \n Awards \n Greek Hospitality Awards \n Tourism Awards 2019 \n Travel Exhibitions Specials \n WTM London 2026 Special \n WTM London 2025 Special \n WTM London 2024 Special \n WTM London 2023 Special \n WTM London 2022 Special \n WTM London 2018 Special \n WTM London 2019 Special \n WTM London 2017 Special \n ITB Berlin 2024 Special \n ITB Berlin 2023 Special \n ITB Berlin 2019 Special \n ITB Berlin 2018 Special \n ITB Berlin 2017 Special \n Philoxenia 2014 Special \n 100% Hotel Show \n Ενημερωση \n gtp Network » \n gtp.gr \n GTP Careers in Tourism \n GTP Travel Offers \n in English \n in Greek \n About GTP \n GTP eBook \n GTP Ferry Connections \n Chios Airport to Close for Four Months for Runway Works \n Posted On 09 Nov 2026 \n By : Elias Palialexis \n Comment: 0 \n Tag: Air connections , Air travel , airport closure , Airport Upgrade , aviation , c37697c , Chios , Chios airport , EKAB , ferry connections , flights , Greece , Greek airports , Greek infrastructure , Greek Islands , Greek tourism , Greek travel , Hellenic Civil Aviation Authority , Homer airport , Island Connectivity , Kostis Hatzidakis , Ministry of Infrastructure and Transport , North Aegean , runway works , Tourism , travel \n 0 shares \n The airport of Chios will close from mid November until March 15, 2027, while runway upgrade works are completed.\n Chios “Omiros” State Airport is scheduled to close for four months for runway upgrades, the Ministry of Infrastructure and Transport has announced.\n The works are scheduled to begin on November 16, 2026 , and be completed by March 15, 2027 .\n The timetable, technical details and purpose of the works were presented at a meeting earlier in the week between government officials, local authorities and representatives of Chios . Discussions focusing on ways to minimize disruption during the four-month airport closure.\n The works will cover most of the airport area and will be carried out in stages or simultaneously. They include resurfacing the runway , excavation and new pavement at its southern end, construction of a new stormwater drainage pipe across the runway, drainage works in the safety zones and new runway lighting systems . All systems will be tested before the airport returns to operation.\n According to the ministry, the project will substantially strengthen the runway infrastructure and contribute to the wider upgrade and modernization of the airport .\n Ferry links and health support \n To help manage the impact of the four-month closure, the government has committed to facilitating ferry connections to Chios and addressing the need to strengthen local healthcare services and the National Center for Emergency Care (EKAB).\n The measures were discussed at a November 5 meeting chaired by Deputy Prime Minister Kostis Hatzidakis , where officials also agreed to maintain regular communication with the contractor and local representatives to monitor the works.\n A ministry delegation led by Secretary General for Infrastructure Dimitrios Anagnopoulos and Giorgos Vagenas , Deputy Governor of the Hellenic Civil Aviation Authority (HCAA) , is expected to visit Chios for further coordination.\n Follow GTP Headlines on Google News to keep up to date with all the latest on tourism and travel in Greece. \n About the Author\n Previous Story\n Greece Expects €50 Billion in EU Funding for 2028-2034, Says PM Mitsotakis \n Next Story\n Greece Records Nearly 4 Million International Air Arrivals in September \n Add your comment Cancel reply \n Join our Newsletter\n Join our GTP Headlines free daily newsletter\n 44.8k Followers \n Facebook \n 29.6k Followers \n X (formerly Twitter) \n 25.3k Followers \n LinkedIn \n 7.7k Followers \n Instagram \n 2.2k Followers \n Pinterest \n 110k Total \n Newsletter\n Signup to receive our daily travel-tourism industry newsletter.\n CLICK HERE TO SIGN UP \n SUBSCRIBE TO RSS\n https://news.gtp.gr/feed/ \n CONTRIBUTE\n Guest posts are welcome. Read the editorial guidelines here.\n Advertise\n GTP Headlines Media Kit \n Contact Details\n Greek Travel Pages,\n6, Psylla str. Athens GR 10557\nCall center: +30 210 324 7511\n CONTACT FORM \n Copyright Notice\n Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited . Excerpts of texts published in this page and links may be used, provided that full and clear credit is given to Greek Travel Pages – gtp.gr and / or GTP Headlines - news.gtp.gr with appropriate and specific direction (hyperlink) to the original content. All photographs appearing on this site are not to be downloaded or reproduced in any way, without the prior written permission of the copyright owner.\n About Us\n The team | About GTP Headlines \n ΤΑΥΤΟΤΗΤΑ \n Ιδιοκτήτρια Εταιρεία &\nΔικαιούχος Ονόματος:\nΔιεθνείς Εκδόσεις ΕΠΕ\nΑΦΜ: 095083253,\nΔΟΥ ΚΕΦΟΔΕ Αττικής\nΕταίρος (≥25%), Νόμιμος Εκπρόσωπος, Διευθύντρια & Διαχειρ. Ιστοσελίδας: Μαρία Θεοφανοπούλου\nΔιευθυντής Σύνταξης: Νίκος Κρινής\nΔικαιούχος Ονόματος: Διεθνείς Εκδόσεις ΕΠΕΑριθμός Πιστοποίησης Μ.Η.Τ.: 252115 \n Search\n Archives\n Archives \n Select Month \n November 2026 &nbsp;(69) \n October 2026 &nbsp;(215) \n September 2026 &nbsp;(222) \n August 2026 &nbsp;(155) \n July 2026 &nbsp;(228) \n June 2026 &nbsp;(219) \n May 2026 &nbsp;(197) \n April 2026 &nbsp;(191) \n March 2026 &nbsp;(229) \n February 2026 &nbsp;(187) \n January 2026 &nbsp;(174) \n December 2025 &nbsp;(184) \n November 2025 &nbsp;(220) \n October 2025 &nbsp;(215) \n September 2025 &nbsp;(206) \n August 2025 &nbsp;(129) \n July 2025 &nbsp;(212) \n June 2025 &nbsp;(203) \n May 2025 &nbsp;(205) \n April 2025 &nbsp;(208) \n March 2025 &nbsp;(195) \n February 2025 &nbsp;(209) \n January 2025 &nbsp;(180) \n December 2024 &nbsp;(186) \n November 2024 &nbsp;(241) \n October 2024 &nbsp;(221) \n September 2024 &nbsp;(211) \n August 2024 &nbsp;(154) \n July 2024 &nbsp;(227) \n June 2024 &nbsp;(201) \n May 2024 &nbsp;(200) \n April 2024 &nbsp;(226) \n March 2024 &nbsp;(204) \n February 2024 &nbsp;(204) \n January 2024 &nbsp;(195) \n December 2023 &nbsp;(167) \n November 2023 &nbsp;(221) \n October 2023 &nbsp;(256) \n September 2023 &nbsp;(214) \n August 2023 &nbsp;(158) \n July 2023 &nbsp;(197) \n June 2023 &nbsp;(204) \n May 2023 &nbsp;(220) \n April 2023 &nbsp;(169) \n March 2023 &nbsp;(243) \n February 2023 &nbsp;(199) \n January 2023 &nbsp;(201) \n December 2022 &nbsp;(179) \n November 2022 &nbsp;(231) \n October 2022 &nbsp;(202) \n September 2022 &nbsp;(191) \n August 2022 &nbsp;(172) \n July 2022 &nbsp;(199) \n June 2022 &nbsp;(250) \n May 2022 &nbsp;(225) \n April 2022 &nbsp;(211) \n March 2022 &nbsp;(249) \n February 2022 &nbsp;(215) \n January 2022 &nbsp;(199) \n December 2021 &nbsp;(229) \n November 2021 &nbsp;(267) \n October 2021 &nbsp;(244) \n September 2021 &nbsp;(255) \n August 2021 &nbsp;(214) \n July 2021 &nbsp;(251) \n June 2021 &nbsp;(249) \n May 2021 &nbsp;(257) \n April 2021 &nbsp;(257) \n March 2021 &nbsp;(304) \n February 2021 &nbsp;(246) \n January 2021 &nbsp;(218) \n December 2020 &nbsp;(245) \n November 2020 &nbsp;(264) \n October 2020 &nbsp;(291) \n September 2020 &nbsp;(274) \n August 2020 &nbsp;(215) \n July 2020 &nbsp;(279) \n June 2020 &nbsp;(305) \n May 2020 &nbsp;(299) \n April 2020 &nbsp;(280) \n March 2020 &nbsp;(305) \n February 2020 &nbsp;(243) \n January 2020 &nbsp;(215) \n December 2019 &nbsp;(195) \n November 2019 &nbsp;(289) \n October 2019 &nbsp;(241) \n September 2019 &nbsp;(222) \n August 2019 &nbsp;(183) \n July 2019 &nbsp;(224) \n June 2019 &nbsp;(209) \n May 2019 &nbsp;(236) \n April 2019 &nbsp;(226) \n March 2019 &nbsp;(233) \n February 2019 &nbsp;(242) \n January 2019 &nbsp;(214) \n December 2018 &nbsp;(186) \n November 2018 &nbsp;(297) \n October 2018 &nbsp;(276) \n September 2018 &nbsp;(216) \n August 2018 &nbsp;(214) \n July 2018 &nbsp;(240) \n June 2018 &nbsp;(251) \n May 2018 &nbsp;(262) \n April 2018 &nbsp;(234) \n March 2018 &nbsp;(277) \n February 2018 &nbsp;(245) \n January 2018 &nbsp;(220) \n December 2017 &nbsp;(197) \n November 2017 &nbsp;(300) \n October 2017 &nbsp;(264) \n September 2017 &nbsp;(271) \n August 2017 &nbsp;(216) \n July 2017 &nbsp;(224) \n June 2017 &nbsp;(268) \n May 2017 &nbsp;(263) \n April 2017 &nbsp;(200) \n March 2017 &nbsp;(232) \n February 2017 &nbsp;(194) \n January 2017 &nbsp;(191) \n December 2016 &nbsp;(194) \n November 2016 &nbsp;(285) \n October 2016 &nbsp;(203) \n September 2016 &nbsp;(226) \n August 2016 &nbsp;(175) \n July 2016 &nbsp;(191) \n June 2016 &nbsp;(211) \n May 2016 &nbsp;(202) \n April 2016 &nbsp;(204) \n March 2016 &nbsp;(224) \n February 2016 &nbsp;(195) \n January 2016 &nbsp;(164) \n December 2015 &nbsp;(190) \n November 2015 &nbsp;(203) \n October 2015 &nbsp;(224) \n September 2015 &nbsp;(186) \n August 2015 &nbsp;(137) \n July 2015 &nbsp;(234) \n June 2015 &nbsp;(213) \n May 2015 &nbsp;(212) \n April 2015 &nbsp;(183) \n March 2015 &nbsp;(199) \n February 2015 &nbsp;(162) \n January 2015 &nbsp;(177) \n December 2014 &nbsp;(183) \n November 2014 &nbsp;(206) \n October 2014 &nbsp;(160) \n September 2014 &nbsp;(155) \n August 2014 &nbsp;(137) \n July 2014 &nbsp;(197) \n June 2014 &nbsp;(174) \n May 2014 &nbsp;(205) \n April 2014 &nbsp;(151) \n March 2014 &nbsp;(154) \n February 2014 &nbsp;(161) \n January 2014 &nbsp;(173) \n December 2013 &nbsp;(134) \n November 2013 &nbsp;(174) \n October 2013 &nbsp;(178) \n September 2013 &nbsp;(182) \n August 2013 &nbsp;(113) \n July 2013 &nbsp;(192) \n June 2013 &nbsp;(158) \n May 2013 &nbsp;(162) \n April 2013 &nbsp;(188) \n March 2013 &nbsp;(151) \n February 2013 &nbsp;(107) \n January 2013 &nbsp;(110) \n December 2012 &nbsp;(95) \n November 2012 &nbsp;(119) \n October 2012 &nbsp;(105) \n September 2012 &nbsp;(70) \n August 2012 &nbsp;(31) \n July 2012 &nbsp;(22) \n June 2012 &nbsp;(28) \n May 2012 &nbsp;(31) \n April 2012 &nbsp;(26) \n March 2012 &nbsp;(26) \n February 2012 &nbsp;(27) \n January 2012 &nbsp;(22) \n December 2011 &nbsp;(16) \n November 2011 &nbsp;(32) \n October 2011 &nbsp;(28) \n September 2011 &nbsp;(32) \n August 2011 &nbsp;(25) \n July 2011 &nbsp;(29) \n June 2011 &nbsp;(22) \n May 2011 &nbsp;(25) \n April 2011 &nbsp;(25) \n March 2011 &nbsp;(21) \n February 2011 &nbsp;(26) \n January 2011 &nbsp;(25) \n December 2010 &nbsp;(22) \n November 2010 &nbsp;(22) \n October 2010 &nbsp;(25) \n September 2010 &nbsp;(27) \n August 2010 &nbsp;(19) \n July 2010 &nbsp;(20) \n June 2010 &nbsp;(26) \n May 2010 &nbsp;(11) \n April 2010 &nbsp;(22) \n March 2010 &nbsp;(23) \n February 2010 &nbsp;(25) \n January 2010 &nbsp;(10) \n December 2009 &nbsp;(13) \n November 2009 &nbsp;(20) \n October 2009 &nbsp;(26) \n September 2009 &nbsp;(27) \n August 2009 &nbsp;(29) \n July 2009 &nbsp;(50) \n June 2009 &nbsp;(18) \n May 2009 &nbsp;(25) \n April 2009 &nbsp;(16) \n March 2009 &nbsp;(22) \n February 2009 &nbsp;(23) \n January 2009 &nbsp;(25) \n December 2008 &nbsp;(14) \n November 2008 &nbsp;(19) \n October 2008 &nbsp;(29) \n September 2008 &nbsp;(34) \n August 2008 &nbsp;(26) \n July 2008 &nbsp;(26) \n June 2008 &nbsp;(21) \n May 2008 &nbsp;(27) \n April 2008 &nbsp;(25) \n March 2008 &nbsp;(25) \n February 2008 &nbsp;(29) \n January 2008 &nbsp;(20) \n December 2007 &nbsp;(16) \n November 2007 &nbsp;(23) \n October 2007 &nbsp;(26) \n September 2007 &nbsp;(28) \n August 2007 &nbsp;(23) \n July 2007 &nbsp;(16) \n June 2007 &nbsp;(21) \n May 2007 &nbsp;(16) \n April 2007 &nbsp;(22) \n March 2007 &nbsp;(20) \n February 2007 &nbsp;(28) \n January 2007 &nbsp;(21) \n December 2006 &nbsp;(15) \n November 2006 &nbsp;(25) \n October 2006 &nbsp;(22) \n September 2006 &nbsp;(26) \n August 2006 &nbsp;(26) \n July 2006 &nbsp;(22) \n June 2006 &nbsp;(12) \n May 2006 &nbsp;(26) \n April 2006 &nbsp;(20) \n March 2006 &nbsp;(21) \n February 2006 &nbsp;(23) \n January 2006 &nbsp;(20) \n December 2005 &nbsp;(18) \n November 2005 &nbsp;(22) \n October 2005 &nbsp;(19) \n September 2005 &nbsp;(25) \n August 2005 &nbsp;(27) \n July 2005 &nbsp;(24) \n June 2005 &nbsp;(26) \n May 2005 &nbsp;(24) \n April 2005 &nbsp;(20) \n March 2005 &nbsp;(21) \n February 2005 &nbsp;(22) \n January 2005 &nbsp;(12) \n December 2004 &nbsp;(8) \n November 2004 &nbsp;(19) \n October 2004 &nbsp;(12) \n September 2004 &nbsp;(16) \n August 2004 &nbsp;(15) \n July 2004 &nbsp;(13) \n June 2004 &nbsp;(10) \n May 2004 &nbsp;(15) \n April 2004 &nbsp;(11) \n March 2004 &nbsp;(13) \n February 2004 &nbsp;(15) \n January 2004 &nbsp;(14) \n December 2003 &nbsp;(",
+      "issues": [],
+      "el": {
+        "title": "Κλειστό για τέσσερις μήνες το αεροδρόμιο Χίου για έργα στον διάδρομο προσγείωσης",
+        "dek": "Ο κρατικός αερολιμένας Χίου «Όμηρος» θα βάλει «λουκέτο» για τέσσερις μήνες από τα μέσα Νοεμβρίου, προκειμένου να πραγματοποιηθούν εκτεταμένες εργασίες αναβάθμισης στον διάδρομο προσγείωσης και στις υποδομές.",
+        "tldr": [
+          "Το αεροδρόμιο της Χίου θα παραμείνει κλειστό από τις 16 Νοεμβρίου 2026 έως τις 15 Μαρτίου 2027.",
+          "Οι εργασίες περιλαμβάνουν επαναασφαλτόστρωση του διαδρόμου, νέα συστήματα αποστράγγισης και αναβαθμισμένο φωτισμό.",
+          "Η κυβέρνηση έχει υποσχεθεί τη διευκόλυνση των ακτοπλοϊκών συνδέσεων και την υποστήριξη της υγειονομικής περίθαλψης κατά τη διάρκεια της διακοπής λειτουργίας."
+        ]
+      },
+      "notified": true
+    },
+    "e9839f": {
+      "createdAt": 1794271224573,
+      "item": {
+        "title": "Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaZ2Z2WnRfRnUyX01JVC02NGlXeEFoaVU5WVdCMmRIRUQwTmIwU3R6ZTBIOFIwM0dHdmVuUUVNdU5GY0JTQXRBcVZvMS16dXRMTTEzZjF0U0J4d1RDaG10b1pCUjdPSTVSbmF4TVo1alM5SjNvNF9tczUxQnnSAYIBQVVfeXFMUHVieXVYTF9adXdsUzNoRjBaMXBhT2pxanlVUFVUTHVzN2pjSVJYSHRlR0FxTUd0a3B5ODlDTmRzMVlqeFVsandvYU1VZEt5U1pCdThvb2hnbC1WQ1NvUkhKc3ZIVHBQRUZjVXJzQmhGbDVua1Y1YkxZX2xzVVpPQmF0Zw?oc=5",
+        "summary": "Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] &nbsp;&nbsp; iefimerida.gr",
+        "published": "Mon, 09 Nov 2026 19:49:07 GMT",
+        "id": "df2cd07ecc83",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "df2cd07ecc83",
+        "section": "breaking",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "A violent robbery targeting a metro passenger at Monastiraki is important safety information for tourists and residents in Athens.",
+        "item": {
+          "title": "Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaZ2Z2WnRfRnUyX01JVC02NGlXeEFoaVU5WVdCMmRIRUQwTmIwU3R6ZTBIOFIwM0dHdmVuUUVNdU5GY0JTQXRBcVZvMS16dXRMTTEzZjF0U0J4d1RDaG10b1pCUjdPSTVSbmF4TVo1alM5SjNvNF9tczUxQnnSAYIBQVVfeXFMUHVieXVYTF9adXdsUzNoRjBaMXBhT2pxanlVUFVUTHVzN2pjSVJYSHRlR0FxTUd0a3B5ODlDTmRzMVlqeFVsandvYU1VZEt5U1pCdThvb2hnbC1WQ1NvUkhKc3ZIVHBQRUZjVXJzQmhGbDVua1Y1YkxZX2xzVVpPQmF0Zw?oc=5",
+          "summary": "Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] &nbsp;&nbsp; iefimerida.gr",
+          "published": "Mon, 09 Nov 2026 19:49:07 GMT",
+          "id": "df2cd07ecc83",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1986,11 +1976,11 @@
       },
       "draft": {
         "slug": "monastiraki-metro-robbery-athens",
-        "section": "travel",
+        "section": "breaking",
         "sensitive": true,
-        "breaking": false,
+        "breaking": true,
         "geo": {
-          "lat": 37.9764,
+          "lat": 37.9755,
           "lng": 23.7256
         },
         "strike": null,
@@ -2001,66 +1991,67 @@
         "imageKey": "athens",
         "imageQuery": "Athens metro station Monastiraki",
         "he": {
-          "title": "שוד אלים בתחנת המטרו מונסטיראקי באתונה: צעיר הותקף",
-          "seoTitle": "שוד באתונה: תקיפה ואלימות במטרו מונסטיראקי\",\n    seoDesc: \"צעיר בן 21 הותקף ונשדד בתחנת המטרו מונסטיראקי באתונה. שלושה חשודים נעצרו על ידי המשטרה וחשוד נוסף זוהה.",
+          "title": "תקיפה אלימה בתחנת המטרו מונאסטיראקי באתונה",
+          "seoTitle": "תקיפה ושוד במטרו באתונה: מה שחשוב לדעת",
+          "seoDesc": "נוסע הותקף ונשדד באלימות בתחנת המטרו מונאסטיראקי באתונה. כל הפרטים על האירוע, ההשלכות לתיירים ישראלים והנחיות זהירות.",
           "keywords": [
-            "אתונה",
-            "מונסטיראקי",
             "מטרו באתונה",
+            "מונאסטיראקי אתונה",
             "שוד באתונה",
-            "בטיחות באתונה"
+            "בטיחות באתונה",
+            "תיירים ביון"
           ],
-          "dek": "בן 21 הותקף בידי ארבעה צעירים בתחנת המטרו המרכזית באתונה ונשדד באלימות. המשטרה עצרה שלושה מהמעורבים.",
+          "dek": "נוסע הותקף באלימות בתחנת המטרו מונאסטיראקי במרכז אתונה בידי שודדים שחטפו את שרשרת הזהב מצווארו.",
           "tldr": [
-            "התקרית אירעה ביום שישי בשעות הערב המוקדמות בתחנת המטרו מונסטיראקי.",
-            "ארבעה צעירים היכו את הקורבן באגרופים ובבעיטות ושדדו ממנו תכשיטים וחפצים אישיים.",
-            "כוחות משטרה שהיו במקום במסגרת תוכנית אבטחה עצרו שלושה חשודים וזהו חשוד נוסף."
+            "תקיפה אלימה התרחשה בתחנת המטרו מונאסטיראקי.",
+            "התוקפים הכו את הנוסע כדי לגנוב שרשרת צמודה.",
+            "האירוע מתועד במצלמות אבטחה וכלי תקשורת."
           ],
-          "means": "עבור ישראלים המטיילים באתונה, ובמיוחד באזורים המרכזיים וההומים כמו מונסטיראקי, מומלץ לשמור על ערנות גבוהה ולהימנע מענידת תכשיטים יקרי ערך בבולטות. אם נקלעתם לאירוע חריג, יש לפנות מיידית לשוטרים באזור או ליצור קשר עם כוחות הביטחון המקומיים.",
-          "body": "## מה קרה בתחנת המטרו מונסטיראקי\n\nאירוע אלים התרחש ביום שישי, זמן קצר לאחר השעה 17:30, בתחנת המטרו מונסטיראקי שבלב אתונה. צעיר בן 21 הותקף בידי שלושה גברים צעירים ואישה אחת, אשר ניסו לחטוף את שרשרת הזהב שענד על צווארו ואת התיק שנשא עמו.\n\nהקורבן ניסה להתנגד לשוד, אך התוקפים הגיבו באלימות קשה והכו אותו שוב ושוב באגרופים ובבעיטות. למרות ההתנגדות, הצליחו התוקפים ליטול ממנו את השרשרת, התיק, זאקטים וכובע שהיו ברשותו, ונמלטו מהמקום.\n\n## תגובת המשטרה ומעצר החשודים\n\nבזמן התרחשות האירוע, נוכחו בתחנה שוטרים ממערך האבטחה המיוחד הידוע בשם \"אריאדני\". לאחר שהקורבן פנה אליהם ודיווח על השוד, החלו השוטרים בסריקות מיידיות לאיתור החשודים ברחבי התחנה.\n\nתיעוד וידאו שהוצג בתקשורת המקומית תיעד את רגעיהאיתור והמעצר. השוטרים איתרו תחילה חשוד אחד על רציף הרכבת התחתית, ובהמשך ניהלו מרדף קצר במסדרונות התחנה שהסתיים בלכידתו של חשוד נוסף. זמן קצר לאחר מכן נעצרה גם הצעירה שהשתתפה על פי החשד בשוד.\n\n## מצב החקירה והחשודים\n\nשלושת העצורים, בגילאי 18 עד 21, הועברו לחטיבת המשטרה של שכונת אקרופוליס לשם פתיחת הליך משפטי מהיר. במקביל, רשויות האบนות זיהו חשוד רביעי בן 17 המעורב לכאורה באירוע, והחיפושים אחריו נמשכים.\n\n## שאלות נפוצות\n\n**האם התקיפה התרחשה בשעות הלילה המאוחרות באתונה?**\nהאירוע אירע ביום שישי, קצת לאחר השעה 17:30 אחר הצהריים, בתחנת המטרו מונסטיראקי ההומה אדם.\n\n**כמה חשודים נעצרו בעקבות השוד במטרו?**\nהמשטרה עצרה שלושה מעורבים בגילאי 18 עד 21, וזהה חשוד נוסף בן 17 שטרם נתפס."
+          "means": "אם אתם מטיילים באתונה ובמיוחד באזורים המרכזיים והתיירותיים כמו מונאסטיראקי, שימו לב לחפצים היקרים שלכם ואל תענדו תכשיטים בולטים. במקרה חירום יש לפנות מיד למשטרה המקומית.",
+          "body": "## מה קרה בתחנת המטרו מונאסטיראקי\n\nאירוע אלימות חמור התרחש בתחנת המטרו מונאסטיראקי שבלב אתונה. על פי דיווחים בתקשורת המקומית, נוסע שנסע במערכת ההסעה המרכזית נפל קורבן למתקפה פתאומית מצד שודדים בתוך מתחם התחנה.\n\nהתוקפים הפתיעו את הנוסע באלימות והכו אותו במטרה ברורה אחת: לחטוף את שרשרת הזהב שהייתה על צווארו. האירוע כולו זכה לתיעוד וידאו שהופץ בכלי התקשורת ביוון, והעלה מחדש את השאלות סביב נושא האבטחה במרחב הציבורי.\n\n## השפעה על תיירים וישראלים באתונה\n\nאזור מונאסטיראקי נחשב לאחד המוקדים המתוירים ביותר בעיר, והוא פופולרי מאוד בקרב תיירים מכל העולם ובכללם מבקרים מישראל. האירוע ממחיש את הצורך לשמור על ערנות גבוהה בעת שימוש בתחבורה ציבורית, המוניות והרכבת התחתית, בעיקר בשעות העומס או באזורים הומי אדם.\n\nלמרות שרשות המטרו והרשויות באתונה פועלות לשמור על סדר ובטחון, פשיעה קטנה ועבירות רכוש הן תופעות שכיחות במוקדי תיירות מרכזיים. השארת חפצים יקרים במלון והימנעות מענידת תכשיטים בולטים הם אמצעי זהירות פשוטים שמקטינים את הסיכון להיקלע למצב דומה.\n\n## צעדי זהירות מומלצים למבקרים\n\nהמטיילים הישראלים הפוקדים את יוון מתבקשים להקפיד על כללי בטיחות בסיסיים. מומלץ לא לשאת סכומי כסף גדולים במקום גלוי, להשגיח היטב על תיקים וארנקים, ולהימנע מהליכה לבד בשעות הלילה המאוחרות באזורים שאינם מוארים או מרכזיים מספיק.\n\nבכל מקרה של היתקלות באלימות או גניבה, יש לדווח מיד למשטרת יוון ולעדכן את נציגות ישראל במקום במידת הצורך.\n\n## שאלות נפוצות\n\n**האם מומלץ להתרחץ או לבקר באזור מונאסטיראקי?**\nכן, אזור מונאסטיראקי הוא מרכז תיירותי שוקק חיים, אך יש לנקוט משנה זהירות ולהיות ערניים לחפצים אישיים.\n\n**מה יש לעשות במקרה של שוד או תקיפה באתונה?**\nיש לפנות באופן מיידי לתחנת המשטרה הקרובה באתונה או לדווח לרשויות החוק המקומיות.\n\n**האם שירותי המטרו באתונה פועלים כרגיל?**\nכן, תנועת הרכבות התחתית נמשכת כסדרה, אך נדרשת ערנות מוגברת מצד הנוסעים ברציפים ובתחנות."
         },
         "en": {
-          "title": "Violent Robbery at Monastiraki Metro Station in Athens: Passenger Attacked",
-          "seoTitle": "Athens Metro Robbery: Monastiraki Attack and Arrests",
-          "seoDesc": "A 21-year-old was attacked and robbed at Monastiraki metro station in Athens. Police arrested three suspects and identified a fourth.",
+          "title": "Violent Robbery Attack on Metro Passenger in Monastiraki, Athens",
+          "seoTitle": "Athens Metro Robbery: Monastiraki Attack Details",
+          "seoDesc": "A passenger was violently attacked and robbed of a necklace at Monastiraki metro station in Athens. Read the latest safety details for visitors.",
           "keywords": [
-            "Athens metro",
-            "Monastiraki",
+            "Athens metro robbery",
+            "Monastiraki Athens",
             "Athens safety",
-            "Greece crime",
-            "Athens robbery"
+            "Greece tourism",
+            "Athens crime"
           ],
-          "dek": "A 21-year-old passenger was assaulted and robbed by four individuals at Monastiraki metro station in central Athens. Police officers present at the station arrested three suspects.",
+          "dek": "A passenger faced a violent robbery inside the Monastiraki metro station in central Athens as attackers snatched a necklace from his neck.",
           "tldr": [
-            "The incident took place on Friday evening at the busy Monastiraki metro station in Athens.",
-            "Four young suspects punched and kicked the victim to steal his chain, bag, and personal items.",
-            "Police officers operating under special security plans intercepted and arrested three suspects at the scene."
+            "A violent robbery occurred at the Monastiraki metro station.",
+            "Attackers struck the passenger to steal a necklace.",
+            "Security footage of the incident was published by media."
           ],
-          "means": "For travellers visiting Athens, especially in crowded central transit hubs like Monastiraki, it is advisable to remain alert and avoid displaying expensive jewelry or valuables. In case of an emergency, immediately seek assistance from nearby police officers or local security personnel.",
-          "body": "## What Happened at Monastiraki Metro Station\n\nA violent incident occurred on Friday, shortly after 17:30, at the Monastiraki metro station in central Athens. A 21-year-old man was targeted by three young men and a woman who attempted to snatch a necklace from his neck and take his bag.\n\nThe victim resisted the robbery, prompting the attackers to beat him repeatedly with punches and kicks. Despite his resistance, the perpetrators managed to strip him of his chain, bag, jacket, and hat before attempting to flee the scene.\n\n## Police Response and Arrests\n\nPolice officers participating in the special security initiative known as the \"Ariadne\" plan were stationed at the metro terminal. Following an immediate report from the victim, the officers launched a search operation to locate the suspects.\n\nFootage broadcasted by local media captured the police operation inside the station. Officers first spotted one of the suspects on the train platform, while another officer pursued a second individual through the station corridors, successfully apprehending him. Shortly afterwards, the young woman allegedly involved in the robbery was also located and arrested.\n\n## Current Status of the Investigation\n\nThe three detained suspects are between 18 and 21 years old and were transferred to the Acropolis Police Station for expedited legal procedures. Authorities have also identified a fourth suspect, a 17-year-old, and ongoing searches are underway to locate him.\n\n## FAQ\n\n**Did the attack happen during the night in Athens?**\nThe incident took place on Friday shortly after 17:30 in the afternoon at the Monastiraki metro station.\n\n**How many suspects have been caught by the police?**\nAuthorities arrested three suspects aged 18 to 21, and identified a fourth 17-year-old suspect who is currently being sought."
+          "means": "If you are visiting Athens and using public transport like the Monastiraki metro, stay alert, keep valuables out of sight, and avoid wearing noticeable jewelry. In an emergency, contact local police immediately.",
+          "body": "## What Happened at Monastiraki Metro Station\n\nA serious violent incident took place at the busy Monastiraki metro station in the heart of Athens. According to local reports, a passenger riding the transit system became the target of a sudden assault by robbers inside the station premises.\n\nThe perpetrators confronted the victim violently and struck him with the clear intention of snatching a gold chain from his neck. Video footage documenting the attack was circulated across Greek media outlets, highlighting ongoing security concerns in central transport hubs.\n\n## Impact on Tourists and Visitors in Athens\n\nMonastiraki is widely recognized as one of the most popular sightseeing and shopping destinations in the Greek capital, drawing countless international travelers and visitors from Israel. This event underlines the importance of maintaining high situational awareness when navigating public transportation, metro lines, and crowded urban areas.\n\nWhile transport authorities in Athens continually work to maintain public order, petty crime and opportunistic thefts remain a reality in high-traffic tourist zones. Leaving valuable items secured at your accommodation and refraining from wearing prominent jewelry are basic precautionary measures that reduce risk.\n\n## Recommended Safety Precautions for Travelers\n\nVisitors in Greece are advised to follow fundamental safety guidelines. It is recommended to carry minimal cash openly, keep close track of bags and belongings, and avoid isolated or dimly lit areas during late hours.\n\nIn any case of physical confrontation, theft, or emergency, individuals should report the incident to the Hellenic Police straight away.\n\n## FAQ\n\n**Is it still safe to visit the Monastiraki area in Athens?**\nYes, Monastiraki remains a vibrant tourist hub, but visitors should exercise heightened awareness regarding personal belongings.\n\n**What should I do if I experience a robbery in Athens?**\nContact the nearest police station in Athens immediately or seek assistance from local authorities.\n\n**Are the Athens metro services operating normally?**\nYes, metro operations continue according to schedule, though increased vigilance is recommended on platforms and trains."
         }
       },
-      "text": "Vita.gr \n Γιατί οι γυναίκες δεν μιλούν όσο θα ήθελαν για το σεξ;\n Spotlight Άλλαζαν φωτογραφίες και ονόματα άρρωστων παιδιών για να συγκεντρώνουν δωρεές – Τέσσερις χαρακτηριστικές περιπτώσεις \n Μεταχειρισμένες γεννήτριες και κινητήρες αεροπλάνων – Οι εταιρείες data center ψάχνουν απεγνωσμένα για ενέργεια \n Αλβανία: Συνελήφθη ο ληστής τραπεζών με το πατίνι στα Τίρανα – Ήταν μέλος συμμορίας με 28 ληστείες και στην Ελλάδα \n Στη φυλακή 49χρονος για τη θανατηφόρα «κόντρα» με μοτοσικλέτες στην Πιερία με δύο νεκρούς και δύο τραυματίες \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Επίθεση από τέσσερα νεαρά άτομα δέχθηκε ένας 21χρονος στον σταθμό του μετρό στο Μοναστηράκι, τα οποία τον ξυλοκόπησαν με γροθιές και κλωτσιές για να του αρπάξουν την αλυσίδα και τα προσωπικά του αντικείμενα.\n Βίντεο-ντοκουμέντο που παρουσίασε το ΕΡΤnews καταγράφει τόσο την επίθεση όσο και την επιχείρηση των αστυνομικών για τον εντοπισμό των εμπλεκομένων. Τρία άτομα συνελήφθησαν, ενώ ένας 17χρονος, ο οποίος φέρεται να συμμετείχε στη ληστεία, έχει ταυτοποιηθεί και αναζητείται από τις Αρχές.\n Το περιστατικό σημειώθηκε την Παρασκευή (6/11), λίγο μετά τις 17:30, όταν τρεις νεαροί άνδρες και μία γυναίκα επιτέθηκαν στον 21χρονο, με σκοπό να του αποσπάσουν την αλυσίδα που φορούσε στον λαιμό και την τσάντα που είχε μαζί του. Το θύμα αντιστάθηκε, με αποτέλεσμα οι δράστες να τον χτυπήσουν επανειλημμένα με γροθιές και κλωτσιές.\n Παρά την αντίστασή του, οι δράστες κατάφεραν να του αφαιρέσουν την αλυσίδα, την τσάντα, τη ζακέτα και το καπέλο του, προτού τραπούν σε φυγή.\n Στον σταθμό βρίσκονταν αστυνομικοί που συμμετέχουν στο σχέδιο «Αριάδνη». Αφού ενημερώθηκαν από το θύμα για την επίθεση, ξεκίνησαν αμέσως αναζητήσεις για τον εντοπισμό των δραστών.\n Όπως καταγράφεται στο βίντεο-ντοκουμέντο, οι αστυνομικοί εντόπισαν αρχικά έναν από τους εμπλεκομένους στην αποβάθρα. Την ίδια ώρα, άλλος αστυνομικός καταδίωξε δεύτερο άτομο στους διαδρόμους του σταθμού, καταφέρνοντας τελικά να το συλλάβει.\n Λίγο αργότερα εντοπίστηκε και συνελήφθη η νεαρή γυναίκα που φέρεται να συμμετείχε στη ληστεία.\n Η επίθεση των ληστών στο μετρό στο Μοναστηράκι\n Οι τρεις συλληφθέντες είναι ηλικίας από 18 έως 21 ετών και οδηγήθηκαν στο Αστυνομικό Τμήμα Ακροπόλεως για την αυτόφωρη διαδικασία. Ο τέταρτος εμπλεκόμενος, ηλικίας 17 ετών, έχει ταυτοποιηθεί από τις Αρχές, οι οποίες συνεχίζουν τις έρευνες για τον εντοπισμό και τη σύλληψή του.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Nvidia: Μπορεί ο Τζένσεν Χουάνγκ να παραμείνει επικεφαλής μετά το σκάνδαλο; \n Εθνική Ελλάδας: Πρώτη προπόνηση ενόψει Ολλανδίας και Σερβίας, χωρίς τον τραυματία Κουρμπέλη (pics) \n Τζο Μπάιντεν: Περιορίζει την προώθηση των απομνημονευμάτων του λόγω καρκίνου \n Πόσα εκατομμύρια βαρέλια πετρελαίου εξοικονομούν κάθε μέρα τα ηλεκτρικά οχήματα; \n Στο γυμναστήριο ακόμη και με τη μπότα ο Γιαν Μοντέρο (pic) \n Ιστορίες από τα παρασκήνια – Όταν ένας ηθοποιός πήρε ένα «σκουπίδι» της Ντόλι Πάρτον για αναμνηστικό \n Πόλεμος στην Ουκρανία: Πάνω από 400.000 νεκροί Ρώσοι στρατιώτες, σύμφωνα με διαρροή στοιχείων \n Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυσίδα \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "text": "Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] - iefimerida.gr\nΆγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξουν αλυσίδα από το λαιμό [βίντεο] &nbsp;&nbsp; iefimerida.gr",
       "issues": [],
       "el": {
-        "title": "Βίαιη ληστεία στον σταθμό του μετρό στο Μοναστηράκι: Επίθεση σε επιβάτη",
-        "dek": "Ένας 21χρονος επιβάτης δέχθηκε επίθεση και ληστεύτηκε από τέσσερα άτομα στον σταθμό του μετρό στο Μοναστηράκι, στο κέντρο της Αθήνας. Αστυνομικοί που βρίσκονταν στον σταθμό συνέλαβαν τρεις ύποπτους.",
+        "title": "Βίαιη ληστεία σε βάρος επιβάτη του μετρό στο Μοναστηράκι",
+        "dek": "Επιβάτης έπεσε θύμα βίαιης ληστείας εντός του σταθμού του μετρό στο Μοναστηράκι, στο κέντρο της Αθήνας, όταν δράστες του άρπαξαν μια αλυσίδα από τον λαιμό.",
         "tldr": [
-          "Το περιστατικό συνέβη το βράδυ της Παρασκευής στον πολυσύχναστο σταθμό του μετρό στο Μοναστηράκι στην Αθήνα.",
-          "Τέσσεריς νεαροι ύποπτοι χτύπησαν με γροθιές και κλωτσιές το θύμα για να του κλέψουν την αλυσίδα, την τσάντα και τα προσωπικά του αντικείμενα.",
-          "Αστυνομικοί που επιχειρούσαν στο πλαίσιο ειδικών σχεδίων ασφαλείας εντόπισαν και συνέλαβαν τρεις υπόπτους στο σημείο."
+          "Βίαιη ληστεία σημειώθηκε στον σταθμό του μετρό στο Μοναστηράκι.",
+          "Οι δράστες χτύπησαν τον επιβάτη για να του κλέψουν μια αλυσίδα.",
+          "Υλικό από κάμερες ασφαλείας για το περιστατικό δόθηκε στη δημοσιότητα από τα ΜΜΕ."
         ]
       },
       "notified": true
     },
-    "017614": {
-      "createdAt": 1794254713334,
+    "e59e48": {
+      "createdAt": 1794271251078,
       "item": {
-        "title": "Greece Rejects Turkish Approval for Cyprus Power Cable",
-        "url": "https://greekcitytimes.com/2026/11/10/greece-rejects-turkish-approval-cyprus-electricity-cable/",
-        "summary": "Athens says all licensing procedures for the Greece-Cyprus electricity interconnector are complete, dismissing Turkey's counter-Navtex and insisting no Turkish approval is required.\n The post Greece Rejects Turkish Approval for Cyprus Power Cable appeared first on Greek City Times .",
-        "published": "Mon, 09 Nov 2026 16:32:30 +0000",
-        "id": "c9a3b94acee2",
+        "title": "Greek Authorities Clear Ferry for Travel Following Bomb Threat",
+        "url": "https://greekcitytimes.com/2026/11/10/greek-authorities-clear-ferry-for-travel-following-bomb-threat/",
+        "summary": "Authorities clear Blue Star 1 to sail after a bomb threat prompted the evacuation of 875 passengers and a security search at Piraeus.\n The post Greek Authorities Clear Ferry for Travel Following Bomb Threat appeared first on Greek City Times .",
+        "published": "Mon, 09 Nov 2026 21:37:24 +0000",
+        "id": "9f9a8b3da14b",
         "sourceId": "gct",
         "sourceName": "Greek City Times",
         "official": false,
@@ -2069,18 +2060,18 @@
         "strike": false
       },
       "pick": {
-        "id": "c9a3b94acee2",
-        "section": "politics",
+        "id": "9f9a8b3da14b",
+        "section": "travel",
         "priority": 6,
         "sensitive": true,
         "breaking": false,
-        "reason": "Greece rejects Turkish opposition to the Greece-Cyprus electricity interconnector, an important geopolitical energy development in the Eastern Mediterranean relevant to regional security.",
+        "reason": "A bomb threat and evacuation at Piraeus port affecting the Blue Star 1 ferry is relevant to travelers and tourists using Greek ports.",
         "item": {
-          "title": "Greece Rejects Turkish Approval for Cyprus Power Cable",
-          "url": "https://greekcitytimes.com/2026/11/10/greece-rejects-turkish-approval-cyprus-electricity-cable/",
-          "summary": "Athens says all licensing procedures for the Greece-Cyprus electricity interconnector are complete, dismissing Turkey's counter-Navtex and insisting no Turkish approval is required.\n The post Greece Rejects Turkish Approval for Cyprus Power Cable appeared first on Greek City Times .",
-          "published": "Mon, 09 Nov 2026 16:32:30 +0000",
-          "id": "c9a3b94acee2",
+          "title": "Greek Authorities Clear Ferry for Travel Following Bomb Threat",
+          "url": "https://greekcitytimes.com/2026/11/10/greek-authorities-clear-ferry-for-travel-following-bomb-threat/",
+          "summary": "Authorities clear Blue Star 1 to sail after a bomb threat prompted the evacuation of 875 passengers and a security search at Piraeus.\n The post Greek Authorities Clear Ferry for Travel Following Bomb Threat appeared first on Greek City Times .",
+          "published": "Mon, 09 Nov 2026 21:37:24 +0000",
+          "id": "9f9a8b3da14b",
           "sourceId": "gct",
           "sourceName": "Greek City Times",
           "official": false,
@@ -2090,65 +2081,66 @@
         }
       },
       "draft": {
-        "slug": "greece-rejects-turkish-approval-electricity-cable",
-        "section": "politics",
+        "slug": "blue-star-1-ferry-piraeus-bomb-threat-cleared",
+        "section": "travel",
         "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
-        "alert": null,
-        "imageKey": "politics",
-        "imageQuery": "undersea electricity cable energy mediterranean",
+        "alert": {
+          "he": "אזהרה לתיירים",
+          "en": "Tourist warning"
+        },
+        "imageKey": "sea",
+        "imageQuery": "greek ferry port piraeus sea",
         "he": {
-          "title": "יוון דוחה את דרישות טורקיה בנוגע לפרויקט כבל החשמל התת-ימי עם קפריסין",
-          "seoTitle": "יוון: דחיית דרישות טורקיה לכבל החשמל עם קפריסין",
-          "seoDesc": "ממשלת יוון מבהירה כי כל הרישיונות לכבל החשמל התת-ימי עם קפריסין הושלמו וכי אישור טורקי אינו נדרש לפרויקט האנרגיה.",
+          "title": "מעבורת בלו סטאר 1 פונתה בנמל פיראוס בעקבות איום פצצה ואושרה להפלגה",
+          "seoTitle": "נמל פיראוס ביוון: מעבורת פונתה עקב איום פצצה ונפתחה",
+          "seoDesc": "מעבורת הנוסעים בלו סטאר 1 פונתה בנמל פיראוס ביוון לאחר איום פצצה. חבלנים סרקו את הספינה, לא נמצא דבר והיא קיבלה אישור להפליג.",
           "keywords": [
-            "יוון",
-            "כבל חשמל יוון קפריסין",
-            "פוליטיקה ביוון",
-            "טורקי",
-            "אנרגיה יוון"
+            "נמל פיראוס יוון",
+            "מעבורת ביוון",
+            "איום פצצה פיראוס",
+            "טיסות וחופשה ביוון"
           ],
-          "dek": "אתונה מבהירה שכל האישורים וההתרים לכבל החשמל המחבר אותה עם קפריסין כבר קיימים, ודוחה את הטענות לפיהן נדרש אישור מאנקרה.",
+          "dek": "כ-875 נוסעים פונו ממעבורת בלו סטאר 1 בנמל פיראוס לאחר איום טלפוני על מטען פצצה. הספינה נסרקה ביסודיות וקיבלה אישור להמשיך ביעדיה.",
           "tldr": [
-            "ממשלת יוון הודיעה ביום שני כי כל ההליכים והאישורים לכבל החשמל התת-ימי הושלמו.",
-            "שירות ההידרוגרפיה של הצי היווני הפיק הודעת Navtex ב-6 בנובמבר עבור פעולות הנחת הכבלים.",
-            "אתונה הדגישה שאינה זקוקה לאישור טורקי לפרויקט ושעמדת טורקיה אינה נושאת השפעה משפטית."
+            "איום פצצה טלפוני התקבל על מעבורת בלו סטאר 1 בנמל פיראוס.",
+            "כל 875 הנוסעים ו-83 אנשי הצוות פונו מן הספינה כאמצעי זהירות.",
+            "חבלנים ומשמר החופשים סרקו את כלי השיט ולא מצאו דבר, וההפלגה חודשה."
           ],
-          "means": "הכתבה עוסקת במחלוקות מדיניות ואנרגיה במזרח הים התיכון ואינה משפיעה ישירות על תיירים, משקיעים או תושבים ישראלים ביוון. אין שינוי בדרכי הגעה, בטיסות או בהתנהלות היום-יומית במדינה.",
-          "body": "## רקע על פרויקט כבל החשמל התת-ימי\n\nממשלת יוון הבהירה כי כל ההתרים הנדרשים עבור פרויקט כבל החשמל התת-ימי, הידוע בשם Great Sea Interconnector, כבר נמצאים במקומם. הפרויקט נועד לחבר בין רשתות החשמל של יוון וקפריסין, במטרה לחזק את ביטחון האנרגיה ולהפחית את בידודו החשמלי של האי. \n\nדובר הממשלה, פבלוס מרינאקיס, ציין בתדרוך הממשלתי שנערך ביום שני כי אתונה הבטיחה את כל ההרשאות הנדרשות עבור סקרי קרקעית הים ופעולות הנחת הכבלים. לדבריו, יוון מעולם לא ביקשה רשות מאנקרה בשום שלב של התהליך.\n\n## תגובת יוון להודעות ה-Navtex\n\nב-6 בנובמבר, שירות ההידרוגרפיה של הצי היווני הנפיק הודעת Navtex, בעקבות המלצה חיובית מטעם הרשויות היווניות הרלוונטיות. בתגובה לכך, טורקיה הנפיקה הודעת Navtex נגדית שחזרה על תביעותיה באזורים ימיים המעורבים בפרויקט.\n\nעם זאת, ממשלת יוון דחתה את המהלך וקבעה כי הוא חסר כל תוקף משפטי. אתונה מדגישה כי הפרויקט ימשיך להתקדם תחת סמכותם של המסגרות המשפטיות היווניות והבינלאומיות הרלוונטיות, ללא צורך בחיפוש אישורים מצד טורקיה.\n\n## עמדת צרפת וארצות הברית בנושא\n\nבמהלך התדרוך התייחס הדובר גם לדיווחים אודות פתק דיפלומטי צרפתי שנשלח לטורקיה בקשר לפרויקט. הוא הבהיר כי מדובר בהודעה בלבד ולא בבקשה לקבלת אישור או הסכמה טורקית, והדגיש כי המסמך אינו מכיר בזכויות טורקיות כלשהן באזור ואינו כולל קואורדינטות גיאוגרפיות.\n\nבנוסף, צוין כי אתונה לא קיבלה שום התערבות מצד וושינגטון בנוגע לפרויקט. לשאלה אודות דיונים דיפלומטיים אפשריים בין שר החוץ היווני, יורגוס גראפטריטיס, לבין מקבילו הטורקי, האקאן פידאן, השיב דובר הממשלה כי אינו מודע לתקשורת כזו.\n\n## שאלות נפוצות\n\n**האם נדרש אישור טורקי להנחת כבל החשמל בין יוון לקפריסין?**\nממשלת יוון הבהירה כי כל ההתרים הושלמו וכי אישור טורקי אינו נדרש לפרויקט בשום שלב.\n\n**מה המשמעות של הודעת ה-Navtex שהוציא הצי היווני ב-6 בנובמבר?**\nשירות ההידרוגרפיה של הצי היווני הוציא את ההודעה לצורך פעולות סקר קרקעית הים והנחת הכבלים, לאחר שקיבל המלצה חיובית מהרשויות ביוון."
+          "means": "אם אתם מתכננים הפלגות מאיי יוון או מנמל פיראוס, כדאי להתעדכן מול חברות הספנות על זמני היציאה. במקרה של שינויים או אירועים דומים, יש להישמע להנחיות משמר החופשים והרשויות המקומיות בנמלים.",
+          "body": "## מה קרה בנמל פיראוס?\n\nרשויות האבטחה ביוון פינו את מעבורת הנוסעים והרכבים בלו סטאר 1 (Blue Star 1) בנמל פיראוס, לאחר שהתקבל איום טלפוני על הימצאות מטען חבלה על סיפון האונייה. האדם שהרים את הטלפון הזהיר נוסע כי פצצה עומדת להתפוצץ בכלי השיט, כך לפי דיווח של משמר החופשים ההלני (Hellenic Coast Guard).\n\nהנוסע שעלה על ההודעה מיהר לעדכן את אנשי הצוות, שבתורם דיווחו מיד לרשויות הנמל. האונייה אמורה הייתה לשרת את הקו לאיים סירוס, פאטמוס, לרוס, קוס ורודוס, והייתה ערוכה לצאת לדרכה המתוכננת.\n\n## פינוי הנוסעים וסריקות חבלנים\n\nכצעד מונע ומיידי, רשויות הנמל הורו על פינוי של כל 875 הנוסעים שהיו על סיפון האונייה. בנוסף לנוסעים, פונו גם 83 אנשי הצוות ששהו על כלי השיט בזמן האירוע.\n\nצוות מומחים לסילוק פצצות, בגיבוי אנשי משמר החופשים, עלה על המעבורת וערך חיפוש מקיף ויסודי בכל האזורים. בסיום הסריקות, הרשויות הודיעו כי לא נמצא שום התקן נפץ או חפץ חשוד אחר על גבי הספינה.\n\n## חידוש ההפלגות ואישור הרשויות\n\nלאחר השלמת הבדיקות ואישור רשמי כי אין כל סכנה ביטחונית, הרשויות התירו למעבורת בלו סטאר 1 להמשיך במסע המתוכנן שלה כמתוכנן. ההפלגה ליעדים השונים באיים צפויה לצאת לדרך לאחר השלמת הליך העלייה המחודש של הנוסעים.\n\nאירועים מעין אלו מדגישים את הערנות הגבוהה של צוותי האוניות ורשויות הביטחון בנמלי יוון, הפועלים במהירות לשמירת ביטחונם של הנוסעים.\n\n## שאלות נפוצות\n\n**האם המעבורת בלו סטאר 1 חזרה לפעילות?**\nכן, לאחר שסריקות החבלנים לא העלו דבר, הרשויות התירו לספינה להמשיך במסע המתוכנן.\n\n**אילו איים משרתת המעבורת הזו?**\nהמעבורת משרתת את איי סירוס, פאטמוס, לרוס, קוס ורודוס.\n\n**כמה אנשים פונו מן האונייה בעקבות האיום?**\nבסך הכל פונו 875 נוסעים ו-83 אנשי צוות כאמצעי זהירות עד לסיום הבדיקות."
         },
         "en": {
-          "title": "Greece Rejects Turkish Approval Demands for Cyprus Electricity Cable",
-          "seoTitle": "Greece Rejects Turkish Approval for Cyprus Cable",
-          "seoDesc": "Greece insists all permits for the Great Sea Interconnector are secured and rejects any requirement for Turkish approval.",
+          "title": "Blue Star 1 Ferry Cleared in Piraeus After Bomb Threat",
+          "seoTitle": "Piraeus Ferry Blue Star 1 Cleared After Bomb Threat",
+          "seoDesc": "The passenger ferry Blue Star 1 was cleared to resume its voyage after a bomb threat at the port of Piraeus. All passengers were safely evacuated.",
           "keywords": [
-            "Greece",
-            "Great Sea Interconnector",
-            "Greece Cyprus cable",
-            "Greek politics",
-            "Turkey Greece"
+            "Piraeus port Greece",
+            "Blue Star 1 ferry",
+            "Greece ferry bomb threat",
+            "travel safety Greece"
           ],
-          "dek": "Athens maintains that all licensing procedures for the subsea electricity cable linking Greece and Cyprus are complete, dismissing Ankara's claims.",
+          "dek": "Greek authorities cleared the passenger ferry Blue Star 1 to depart from the port of Piraeus following a bomb threat. Bomb disposal experts searched the vessel and found no explosive devices.",
           "tldr": [
-            "The Greek government stated that all required authorizations for the Great Sea Interconnector are fully in place.",
-            "The Hellenic Navy Hydrographic Service issued a Navtex on November 6 following recommendations from relevant Greek authorities.",
-            "Athens emphasized that the project will proceed under legal frameworks without seeking permission from Turkey."
+            "A bomb threat was telephoned regarding the Blue Star 1 ferry at Piraeus.",
+            "All 875 passengers and 83 crew members were safely evacuated as a precaution.",
+            "Coast guard and bomb disposal teams found no suspicious objects, and the voyage resumed."
           ],
-          "means": "This report covers diplomatic and energy developments in the eastern Mediterranean and does not affect tourists, investors, or residents. Travel plans, flights, and daily activities in Greece remain unaffected.",
-          "body": "## Status of the Great Sea Interconnector\n\nAthens has stated that all necessary permits for the Great Sea Interconnector are fully secured, insisting that Turkey holds no authority over the project. The infrastructure initiative is designed to link the electricity networks of Greece and Cyprus through a subsea cable, enhancing energy security and reducing Cyprus' electricity isolation.\n\nGovernment spokesman Pavlos Marinakis stated during a briefing that Greece has secured all required authorizations for seabed surveys and cable-laying operations. He added that Athens had not requested permission from Ankara at any stage of the development.\n\n## Navtex Issuance and Legal Position\n\nOn November 6, the Hellenic Navy’s Hydrographic Service issued a Navtex following a positive recommendation from relevant Greek authorities. In response, Turkey issued a counter-Navtex repeating its claims over parts of the maritime area involved in the project.\n\nHowever, Marinakis dismissed the counter-measure, stating that it carried no legal effect. Athens reinforces its position that the project will proceed under the authority of relevant Greek and international legal frameworks without seeking approval from Turkey.\n\n## International Communications\n\nAddressing reports regarding a French diplomatic note sent to Turkey, the spokesman clarified that the communication was a notification rather than a request for Turkish permission or consent. He stressed that the note did not recognize any Turkish rights over the area and contained no geographical coordinates.\n\nAthens has received no intervention from Washington regarding the project. Regarding potential diplomatic talks between Greek Foreign Minister George Gerapetritis and his Turkish counterpart Hakan Fidan, the spokesman stated he was unaware of any such communication.\n\n## FAQ\n\n**Is Turkish approval required for the Greece-Cyprus electricity cable?**\nGreece insists that all necessary licensing procedures are complete and that Turkish approval is not required at any stage.\n\n**What was the purpose of the Navtex issued on November 6?**\nThe Hellenic Navy's Hydrographic Service issued the Navtex for seabed surveys and cable-laying operations following positive recommendations from Greek authorities."
+          "means": "If you are traveling by ferry through Piraeus or the Greek islands, check departure schedules directly with the ferry companies. In any emergency or security alert, follow instructions from port authorities and the Hellenic Coast Guard.",
+          "body": "## What Happened at the Port of Piraeus?\n\nGreek security authorities cleared the passenger and vehicle ferry Blue Star 1 to resume its scheduled voyage following a bomb threat that triggered an emergency search at the port of Piraeus. According to the Hellenic Coast Guard, an unidentified caller contacted a passenger on board and warned that an explosive device would detonate on the vessel.\n\nThe passenger immediately notified the crew, who then alerted port authorities. The ferry was scheduled to serve several popular Greek islands, including Syros, Patmos, Leros, Kos, and Rhodes.\n\n## Evacuation and Bomb Disposal Search\n\nAs a strict precautionary measure, authorities ordered the immediate evacuation of all 875 passengers on board. In addition to the passengers, 83 crew members also left the vessel while safety protocols were implemented.\n\nA specialized team of bomb disposal experts, assisted by personnel from the Hellenic Coast Guard, conducted a thorough search of the entire ferry. After completing the inspection, authorities confirmed that no explosive devices or suspicious objects were located.\n\n## Resumption of the Voyage\n\nFollowing the successful completion of the security search and confirmation that no threat existed, authorities cleared the Blue Star 1 to continue its scheduled journey. The vessel was expected to depart and carry passengers and vehicles to its island destinations as planned.\n\nThis incident highlights the prompt response of Greek port authorities and vessel crews in handling security alerts to ensure the safety of all travelers.\n\n## FAQ\n\n**Is the Blue Star 1 ferry operating normally now?**\nYes, after bomb disposal experts completed their search and found nothing, authorities cleared the vessel to resume its voyage.\n\n**Which islands does this ferry serve?**\nThe ferry serves the islands of Syros, Patmos, Leros, Kos, and Rhodes.\n\n**How many people were evacuated from the ship?**\nA total of 875 passengers and 83 crew members were safely evacuated during the security check."
         }
       },
-      "text": "0 \n 0 \n 0 \n Athens says all permits for the Great Sea Interconnector are in place and insists Turkey has no authority over the project. \n Greece has rejected any suggestion that Turkish approval is required for the construction of an undersea electricity cable linking Greece and Cyprus, insisting that all necessary licensing procedures have already been completed.\n Government spokesman Pavlos Marinakis said on Monday that Athens had secured the required authorisations for seabed surveys and cable-laying operations, adding that Greece had not requested permission from Ankara at any stage.\n Speaking during a regular government briefing, Marinakis said the Greek Navy’s Hydrographic Service issued a Navtex on November 6 following a positive recommendation from the relevant Greek authorities.\n Read more: France Notifies Turkey of GSI Works as Greece and Cyprus Issue Permits \n Turkey subsequently issued a counter-Navtex, repeating its claims over parts of the maritime area involved in the project. However, Marinakis dismissed the move, saying it carried no legal effect.\n The dispute centres on the Great Sea Interconnector (GSI) , a major infrastructure project designed to connect the electricity networks of Greece and Cyprus through a subsea cable, potentially strengthening energy security and reducing Cyprus’ electricity isolation.\n The project has faced repeated delays amid disagreements between Greece and Turkey over maritime jurisdiction in the eastern Mediterranean.\n Marinakis also addressed reports concerning a French diplomatic note sent to Turkey in connection with the project.\n He clarified that the communication was a notification rather than a request for Turkish permission or consent, stressing that it did not recognise any Turkish rights over the area. He added that the French note contained no geographical coordinates.\n Athens has also received no intervention from Washington regarding the project, Marinakis said.\n Asked about possible diplomatic discussions between Greek Foreign Minister George Gerapetritis and his Turkish counterpart Hakan Fidan, the government spokesman said he was unaware of any such communication.\n The latest statements reinforce Greece’s position that the Great Sea Interconnector will proceed under the authority of the relevant Greek and international legal frameworks, without seeking approval from Turkey.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Turkey Says Greece-Cyprus Cable Crosses Its Continental Shelf \n Turkey Issues Navtex for Live-Fire Exercise South of Kastellorizo \n Greece denies GSI cable route redesign amid Turkish marine park dispute \n Greece Challenges Turkish Survey Claims in Maritime Showdown \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Kokoretsi Ranked No. 2 in TasteAtlas Best Offal Dishes\n Next Article \n Giorgos Mazonakis Death: Propofol Suspected in Toxicology Findings\n 0 \n 0 \n 0",
+      "text": "0 \n 0 \n 0 \n Greek authorities have cleared the passenger and vehicle ferry Blue Star 1 to resume its scheduled voyage after a bomb threat prompted an emergency search at the port of Piraeus.\n The ferry is expected to depart as scheduled, serving the islands of Syros, Patmos, Leros, Kos and Rhodes.\n The alarm was raised after an unidentified person telephoned a passenger and warned that a bomb would explode aboard the vessel, according to the Hellenic Coast Guard.\n The passenger immediately alerted the crew, who notified port authorities.\n Read more: 875 Passengers Evacuated From Piraeus Ferry After Bomb Threat \n As a precaution, authorities evacuated all 875 passengers. The vessel also had 83 crew members on board.\n A team of bomb disposal experts, assisted by Hellenic Coast Guard personnel, searched the ferry but found no explosive device or other suspicious objects.\n Following the completion of the search and confirmation that no threat existed, authorities cleared the Blue Star 1 to continue its scheduled voyage.\n (Source: AMNA)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Crown Iris Cruise Ship Evacuated in Syros After Bomb Threat \n August 15 in the Dodecanese: Faith, Festivals and Traditions That Bring the Islands Together \n Israeli Cruise Passengers Accused of Indecent Behaviour at Syros Monastery \n Syros Bans Protest Against Israeli Cruise Ship Crown Iris \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Niarchos Foundation Launches Hub to Improve Quality of Life For Elderly\n Next Article \n Vandals Deface Memorial For Tempi Train Disaster Victims\n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Η Ελλάδα απορρίπτει τις αξιώσεις της Τουρκίας για άδειες σχετικά με το καλώδιο ηλεκτρικής διασύνδεσης Κύπρου",
-        "dek": "Η Αθήνα διατηρεί τη θέση ότι όλες οι αδειοδοτικές διαδικασίες για το υποθαλάσσιο καλώδιο ηλεκτρικής ενέργειας που συνδέει την Ελλάδα και την Κύπρο έχουν ολοκληρωθεί, απορρίπτοντας τους ισχυρισμούς της Άγκυρας.",
+        "title": "Ελεύθερο για απόπλου το πλοίο Blue Star 1 στον Pειραιά μετά από απειλή για βόμβα",
+        "dek": "Οι ελληνικές αρχές έδωσαν το «πράσινο φως» στο επιβατηγό οχηματαγωγό πλοίο Blue Star 1 να αναχωρήσει από το λιμάνι του Πειραιά μετά από απειλή για τοποθέτηση βόμβας. Ειδικοί πυροτεχνουργοί ερεύνησαν το σκάφος και δεν εντόπισαν εκρηκτικούς μηχανισμούς.",
         "tldr": [
-          "Η ελληνική κυβέρνηση δήλωσε ότι όλες οι απαραίτητες εγκρίσεις για τον Great Sea Interconnector βρίσκονται πλήρως σε ισχύ.",
-          "Η Υδρογραφική Υπηρεσία του Πολεμικού Ναυτικού εξέδωσε Navtex στις 6 Νοεμβρίου, κατόπιν συστάσεων από τις αρμόδιες ελληνικές αρχές.",
-          "Η Αθήνα τόνισε ότι το έργο θα προχωρήσει στο πλαίσιο του νομικού πλαισίου, χωρίς να ζητήσει άδεια από την Τουρκία."
+          "Τηλεφωνική απειλή για βόμβα υπήρξε σχετικά με το πλοίο Blue Star 1 στον Πειραιά.",
+          "Και οι 875 επιβάτες και τα 83 μέλη του πληρώματος απομακρύνθηκαν με ασφάλεια προληπτικά.",
+          "Το λιμενικό και οι ομάδες εξουδετέρωσης εκρηκτικών μηχανισμών δεν βρήκαν ύποπτα αντικείμενα και το ταξίδι συνεχίστηκε."
         ]
       },
       "notified": true
@@ -2163,12 +2155,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-09T20:03:34.671Z",
-      "items": 0
+      "at": "2026-11-10T00:39:37.865Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-09T20:03:35.584Z",
+      "at": "2026-11-10T00:39:38.439Z",
       "items": 5
     },
     "civilprotection": {
@@ -2179,27 +2171,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-09T20:03:37.378Z",
+      "at": "2026-11-10T00:39:40.240Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-09T20:03:37.872Z",
+      "at": "2026-11-10T00:39:40.607Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-09T20:03:38.891Z",
+      "at": "2026-11-10T00:39:42.076Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-09T20:03:39.795Z",
-      "items": 4
+      "at": "2026-11-10T00:39:42.652Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-09T20:03:40.403Z",
+      "at": "2026-11-10T00:39:43.445Z",
       "items": 10
     },
     "toi-greece": {
@@ -2210,23 +2202,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-09T20:03:40.720Z",
+      "at": "2026-11-10T00:39:43.889Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-09T20:03:41.029Z",
+      "at": "2026-11-10T00:39:44.148Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-09T20:03:41.769Z",
-      "items": 4
+      "at": "2026-11-10T00:39:44.617Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-09T20:03:42.197Z",
-      "items": 2
+      "at": "2026-11-10T00:39:44.745Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -2235,12 +2227,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-09T20:03:36.010Z",
+      "at": "2026-11-10T00:39:38.986Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-09T20:03:43.727Z",
+      "at": "2026-11-10T00:39:45.198Z",
       "items": 0
     },
     "hcg": {
@@ -2251,119 +2243,68 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-09T20:03:45.518Z",
+      "at": "2026-11-10T00:39:46.627Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-09T20:03:45.744Z",
-      "items": 1
+      "at": "2026-11-10T00:39:46.827Z",
+      "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-09T20:03:45.937Z",
+      "at": "2026-11-10T00:39:46.994Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-09T20:03:46.242Z",
-      "items": 6
+      "at": "2026-11-10T00:39:47.231Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-09T20:03:46.629Z",
-      "items": 6
+      "at": "2026-11-10T00:39:47.558Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-09T20:03:47.102Z",
+      "at": "2026-11-10T00:39:47.971Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-09",
-    "count": 8,
+    "date": "2026-11-10",
+    "count": 1,
     "published": [
       {
-        "slug": "eisenkot-government-mandate-2026",
-        "title": "Gadi Eisenkot receives mandate to form Israeli government",
-        "at": "2026-11-09T00:49:47+02:00",
+        "slug": "greece-rejects-turkish-approval-cyprus-electricity-cable",
+        "title": "Greece Rejects Turkish Approval for Cyprus Cable",
+        "at": "2026-11-10T02:39:34+02:00",
         "section": "israelis"
-      },
-      {
-        "slug": "santorini-kolumbo-volcano-fiber-optic-cable",
-        "title": "Santorini: Scientists Lay Fiber-Optic Cable in Kolumbo Volcano",
-        "at": "2026-11-09T00:50:17+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "united-airlines-ua168-emergency-landing-athens-2026",
-        "title": "United Airlines Flight From Tel Aviv to New York Diverts to Athens",
-        "at": "2026-11-09T11:41:02+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-housing-prices-crisis-2026",
-        "title": "Greece: Property prices continue to rise amid housing shortage",
-        "at": "2026-11-09T18:08:02+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "crete-kastelli-airport-four-agreements-tourism",
-        "title": "Crete's New Kastelli Airport Signs Four Agreements on Tourism, Transport and Innovation",
-        "at": "2026-11-09T18:08:39+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-energy-upgrade-public-buildings",
-        "title": "Greece Approves Major Energy Upgrade Investments for Public Buildings",
-        "at": "2026-11-09T18:09:03+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-expects-50-billion-euros-eu-funding-mitsotakis",
-        "title": "Greece Expects 50 Billion Euros in EU Funding for 2028–2034, Says PM Mitsotakis",
-        "at": "2026-11-09T18:09:20+02:00",
-        "section": "politics"
-      },
-      {
-        "slug": "greece-space-operations-command-satellites",
-        "title": "Greece inaugurates Space Operations Command and plans 12 satellites",
-        "at": "2026-11-09T22:05:42+02:00",
-        "section": "politics"
       }
     ],
     "rejected": [
       {
-        "title": "Athens Rental Crisis: Only 1.2% of Family Homes Under 600 Euros",
-        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (31%)",
-        "at": "2026-11-09T02:07:45.660Z"
+        "title": "Bomb Threat at Piraeus Port Triggers Ferry Evacuation",
+        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (32%)",
+        "at": "2026-11-10T00:39:18.712Z"
       },
       {
-        "title": "Καλώδιο διασύνδεσης: Ερωτήματα της αντιπολίτευσης για τη γαλλική ρηματική διακοίνωση προς την Τουρκία",
-        "reason": "Ίδιο θέμα με «Greece Resumes Seabed Surveys for Electricity Link with Cyprus and Israel» – δεν γράφτηκε ξανά",
-        "at": "2026-11-09T09:41:23.005Z"
+        "title": "Violent Robbery at Monastiraki Metro Station in Athens: Passenger Attacked",
+        "reason": "Ουδέτερη εκδοχή: The Hebrew dek contains a typo: 'הותאם' instead of 'הותקף'.",
+        "at": "2026-11-10T00:39:25.426Z"
       }
     ],
     "errors": [],
-    "fb": [
-      {
-        "slug": "united-airlines-ua168-emergency-landing-athens-2026",
-        "at": "2026-11-09T09:41:03.253Z"
-      },
-      {
-        "slug": "greece-housing-prices-crisis-2026",
-        "at": "2026-11-09T16:08:03.175Z"
-      },
-      {
-        "slug": "greece-space-operations-command-satellites",
-        "at": "2026-11-09T20:05:43.044Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-09",
+      "count": 8,
+      "rejected": 2
+    },
     {
       "date": "2026-11-08",
       "count": 2,
@@ -2587,31 +2528,35 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-09T20:03:48.752Z",
-    "considered": 21,
-    "picked": 5,
+    "at": "2026-11-10T00:39:49.408Z",
+    "considered": 25,
+    "picked": 3,
     "items": [
-      "· naftemporiki | H Hotels Collection: Σημαντικές διακρίσεις του Ομίλου στα Greek Hospitality Awards 2026",
-      "✓ ingr | Μοναστηράκι: Καρέ καρέ η επίθεση ληστών σε επιβάτη του μετρό – Τον ξυλοκόπησαν για μια αλυ",
-      "· ert | Ισραήλ: Νέα έκκληση Νετανιάχου για σχηματισμό κυβέρνησης εθνικής ενότητας με επικεφαλής το",
-      "· ert | Γαλλία: Ο πόλεμος της παραπληροφόρησης",
-      "· ert | Σέρβια: Φωτιά σε πινακίδα του Κέντρου Κοινότητας στο Πολιτιστικό Κέντρο – Νομικές ενέργειε",
-      "· ingr | Τουρκία: Σοκάρουν οι μαρτυρίες από τη φονική έκρηξη στο εργοστάσιο στη Σμύρνη – 16 οι νεκρ",
-      "✓ gct | Bomb Threat Evacuates 875 Passengers From Blue Star 1 in Piraeus",
-      "· naftemporiki | Ισραηλινά ΜΜΕ: Άιζενκοτ και Λίμπερμαν συμφώνησαν ότι ο επόμενος πρόεδρος της Κνεσέτ πρέπει",
-      "✓ gct | Greece Establishes Space Operations Command Under Air Force",
-      "· ingr | Τραγωδία στο Μανχάταν: Ένας νεκρός και τέσσερις τραυματίες από πυρκαγιά σε πολυκατοικία",
-      "· gtp | Athens Marathon Sets Records, Builds Case for 2030 World Championships",
-      "· ert | Ισραήλ: Διαβουλεύσεις για κυβέρνηση με φόντο το αδιέξοδο",
-      "· gct | Miss Universe 2026: Greece’s Olivia Vasilopoulos Arrives in Puerto Rico",
-      "· gct | Giorgos Mazonakis Death: Propofol Suspected in Toxicology Findings",
-      "· gn-kathimerini | Τουρκία: Στους 16 οι νεκροί από την έκρηξη σε χαλυβουργείο στη Σμύρνη - Kathimerini",
-      "· ingr | Ο Κουμπαρσί αναδείχθηκε Golden Boy για το 2026 – Τέταρτος της Μπαρτσελόνα στην εξαετία (pi",
-      "✓ gct | Greece Rejects Turkish Approval for Cyprus Power Cable",
-      "· gn-kathimerini | Ισραήλ: Σε αναζήτηση κυβερνητικών συμμάχων ο Αϊζενκοτ - Kathimerini",
-      "· gn-civilprotection | Ευ.Τουρνάς: Ενισχύουμε την επιχειρησιακή ετοιμότητα με 742 οχήματα, μέσα από το Εθνικό Πρό",
-      "✓ gn-iefimerida | Το Μετρό της Θεσσαλονίκης επεκτείνεται -Πού θα κατασκευαστούν οι νέοι σταθμοί - iefimerida",
-      "· gtp | Greek SMEs to Gain Access to €5 Billion in Financing Through InvestEU"
+      "· gct | 3,300-Year-Old Sword Found in Italian Lake Still Sharp",
+      "· gct | Cyprus Agrees to Two New Crossings Amid Political Disputes",
+      "· gct | Greece Delivers 742 Fire Service Vehicles Worth €79 Million",
+      "· gct | Athens Suitcase Body Identified as 24-Year-Old Woman",
+      "· gct | Greece Lanches Military Space Command to Strengthen Defence",
+      "· gct | Crete Migration Arrivals Put Growing Pressure on Greece",
+      "· gct | Greek Study Warns 5G Equipment Replacement Could Cost €12.9bn",
+      "· gct | Greek Food and Wine Take Centre Stage in Stockholm",
+      "· gct | PAOK Among Six Clubs Set for Permanent EuroLeague Places",
+      "· gct | Greece to Spend €25 Million on University Security Systems",
+      "· gct | Epstein Whistleblower Simon Andriesz Found Dead in Thailand",
+      "· gct | Greece Approves €135.4 Million for Energy Upgrades to Public Buildings",
+      "· gct | Spanish Olive Oil Strategy Could Keep Greek Prices Higher",
+      "· gct | Vandals Deface Memorial For Tempi Train Disaster Victims",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
+      "· ert | Στο δρόμο για το «Χρυσό Παπούτσι»: Αλλαγή ξανά στην κορυφή, άλμα στην 28η θέση για τον Παυ",
+      "✓ gct | Greek Authorities Clear Ferry for Travel Following Bomb Threat",
+      "· gn-iefimerida | Ισραήλ: Νέα έκκληση Νετανιάχου για σχηματισμό κυβέρνησης εθνικής ενότητας με επικεφαλής το",
+      "✓ gn-iefimerida | Άγρια επίθεση ληστών σε επιβάτη του Μετρό στο Μοναστηράκι -Τον χτύπησαν για να του αρπάξου",
+      "· gtp | Greece Among Europe’s Top 10 Travel Choices for Autumn and Winter, ETC Reports",
+      "· gtp | Greece Records Nearly 4 Million International Air Arrivals in September",
+      "✓ gtp | Chios Airport to Close for Four Months for Runway Works",
+      "· gn-civilprotection | ΤΕΛΕΤΗ ΠΑΡΑΛΑΒΗΣ πυροσβεστικων οχημάτων από το Πυροσβεστικό Σώμα - Civilprotection.gov.gr",
+      "· gtp | Konstantinos Tornivoukas Takes Over as Thessaloniki Hotels Association President",
+      "· minfin | Κυριάκος Πιερρακάκης από Βρυξέλλες: «Στην Άμυνα να μεγιστοποιήσουμε την αποτελεσματικότητα"
     ]
   },
   "evergreenDone": [
