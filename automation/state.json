@@ -1799,7 +1799,8 @@
     "7b89ad38c6dd": 1794349174369,
     "b5ec46ec0514": 1794349174369,
     "0e7a80b9863a": 1794349174369,
-    "2eb2be71a9e9": 1794349174369
+    "2eb2be71a9e9": 1794349174369,
+    "8f30d0e1950f": 1794350981576
   },
   "pending": {
     "03fbfc": {
@@ -2021,12 +2022,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-10T22:19:21.070Z",
-      "items": 0
+      "at": "2026-11-10T22:49:28.921Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-10T22:19:21.669Z",
+      "at": "2026-11-10T22:49:29.867Z",
       "items": 1
     },
     "civilprotection": {
@@ -2037,27 +2038,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-10T22:19:22.964Z",
+      "at": "2026-11-10T22:49:32.051Z",
       "items": 3
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-10T22:19:23.099Z",
+      "at": "2026-11-10T22:49:32.513Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-10T22:19:24.008Z",
+      "at": "2026-11-10T22:49:33.546Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-10T22:19:24.677Z",
+      "at": "2026-11-10T22:49:34.399Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-10T22:19:25.550Z",
+      "at": "2026-11-10T22:49:35.435Z",
       "items": 10
     },
     "toi-greece": {
@@ -2068,22 +2069,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-10T22:19:25.916Z",
+      "at": "2026-11-10T22:49:35.746Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-10T22:19:26.013Z",
+      "at": "2026-11-10T22:49:35.879Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-10T22:19:26.264Z",
+      "at": "2026-11-10T22:49:36.802Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-10T22:19:26.405Z",
+      "at": "2026-11-10T22:49:37.319Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2093,12 +2094,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-10T22:19:22.237Z",
+      "at": "2026-11-10T22:49:30.946Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-10T22:19:26.932Z",
+      "at": "2026-11-10T22:49:37.777Z",
       "items": 0
     },
     "hcg": {
@@ -2109,32 +2110,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-10T22:19:28.263Z",
+      "at": "2026-11-10T22:49:39.138Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-10T22:19:28.456Z",
+      "at": "2026-11-10T22:49:39.408Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-10T22:19:28.651Z",
+      "at": "2026-11-10T22:49:39.642Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-10T22:19:28.976Z",
+      "at": "2026-11-10T22:49:39.922Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-10T22:19:29.345Z",
+      "at": "2026-11-10T22:49:40.257Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-10T22:19:29.893Z",
+      "at": "2026-11-10T22:49:40.642Z",
       "items": 6
     }
   },
@@ -2394,39 +2395,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-10T22:19:34.369Z",
-    "considered": 29,
-    "picked": 3,
+    "at": "2026-11-10T22:49:41.576Z",
+    "considered": 1,
+    "picked": 0,
     "items": [
-      "· gct | Greece to Bring First Greek Pavilion to Melbourne’s Antipodes Festival",
-      "· gct | Liangis Family Secures Hilton Canberra Manuka Hotel",
-      "· naftemporiki | Βενεζουέλα: «Πράσινο φως» στις ιδιωτικές επενδύσεις στον τομέα ηλεκτρικής ενέργειας",
-      "✓ gct | Greek Inflation Jumps to 5.7% as One Bill Rises 80%",
-      "✓ gct | Northern Athens Mayors Oppose Building Rights Transfer",
-      "· gct | Turkey Challenges Greece Over Crete-Cyprus Power Cable Surveys",
-      "· gct | Papakaliatis Offers Maestro Finale Preview in Thessaloniki",
-      "· gct | Greece Fertility Clinic Trial Postponed Again: Court Delays Chania IVF Scandal Resumption ",
-      "· ert | Ιράν: Πυρκαγιά σε πλατφόρμα στο μεγαλύτερο κοίτασμα φυσικού αερίου στον κόσμο",
-      "· gct | Greece Says Turkish Cable NAVTEX Has No Significance",
-      "· ert | Ισπανία: Γενική απεργία στις 11 Νοεμβρίου, λίγο πριν τις πρόωρες εκλογές",
-      "· ingr | ΗΠΑ: Η φορολογία των υπερπλούσιων, ο συνασπισμός του χρήματος και η «μάχη» που μόλις άρχισ",
-      "· ingr | Τουλάχιστον επτά νεκροί στη Γάζα εξαιτίας ισραηλινών πληγμάτων",
-      "· ert | Τουλάχιστον επτά νεκροί από ισραηλινά πλήγματα στη Γάζα – Σχεδόν 1.600 Παλαιστίνιοι έχουν ",
-      "· ingr | Κουτσούμπας: «Κανένας συμβιβασμός με τη βαρβαρότητα της ακρίβειας, της φτώχειας, του πολέμ",
-      "· naftemporiki | Ισραήλ: Η «Κοινή Λίστα» δηλώνει ότι θα εργαστεί για την απομάκρυνση του «αιμοδιψούς» Νεταν",
-      "· ktg | GSI research ship “Abeille Marengo” leaves port of Heraklion",
-      "· gct | Pelion With Kids: Six Villages for a Winter Family Escape",
-      "· gct | Criminals Behind Three-Quarters of Apple Spyware Alerts, Report Finds",
-      "✓ gct | French Warships Deploy to Escort Greece-Cyprus Cable Survey Vessel",
-      "· gct | Qantas Weighs Seasonal Perth Athens Flights",
-      "· gct | Greek Travel Awards Name Mykonos Best Luxury Destination",
-      "· gn-pm | Ομιλία του Πρωθυπουργού Κυριάκου Μητσοτάκη στην εκδήλωση για την παρουσίαση της πλατφόρμας",
-      "· ert | Ο Κωστούλας στο…δρόμο του Μουζακίτη, πρώτος στη μάχη για το «Golden Boy Web 2026»",
-      "· gn-kathimerini | Ο Μερτς βάζει «φωτιά» στον ευρωπαϊκό προϋπολογισμό για την Ουκρανία - Kathimerini",
-      "· gn-iefimerida | Ημαθία: Φωτιά σε αγροτικά μηχανήματα στο Πλατύ, δύο τραυματίες με εγκαύματα στα χέρια - ie",
-      "· gn-iefimerida | Υδρογονάνθρακες: Ισχυρό διεθνές ενδιαφέρον για σεισμικές έρευνες σε Δυτική και Νότια Ελλάδ",
-      "· gn-iefimerida | Η στιγμή που Cessna αναποδογυρίζει σε αεροδρόμιο της Καλιφόρνιας -Από την ώθηση των καυσαε",
-      "· gn-kathimerini | Τουρισμός: Ισχυρή ζήτηση για Ελλάδα και τον χειμώνα - Kathimerini"
+      "· gct | Greece Has the Second-Lowest Average Salary in the EU, Eurostat Says"
     ]
   },
   "evergreenDone": [
