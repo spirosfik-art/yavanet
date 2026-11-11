@@ -1,0 +1,56 @@
+{
+  "slug": "greece-electricity-market-reforms-2026",
+  "section": "living",
+  "publishedAt": "2026-11-11T11:38:01+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "יוון",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/11/greece-introduces-sweeping-changes-to-its-electricity-market/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11924298/pexels-photo-11924298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up view of a row of industrial electricity meters for power monitoring and technology.",
+    "credit": "Photo: Connor Scott McManus / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/row-of-electricity-meters-11924298/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "רפורמה בשוק החשמל ביוון: הגנה על צרכנים והוזלת תעריפים",
+    "dek": "משרד האנרגיה ביוון הציג שורת שינויים הכוללים חוזי מחיר קבוע, הפחתת חיובים למשקי בית וחיבור האיים לרשת הארצית.",
+    "tldr": [
+      "הפסקת ניתוקי חשמל בזמן ערעור על חשבון",
+      "הוזלה של 50% ברכיב השירותים הציבוריים",
+      "קידום חיבור האיים הדודקאנסיים לרשת החשמל"
+    ],
+    "means": "לתושבים ולבעלי נכסים ביוון יש הגנות חדשות מול ספקי החשמל וכללים למניעת ניתוקים בעת מחלוקת על חיובים.",
+    "body": "ממשלת יוון מקדמת רפורמה רחבה בשוק החשמל במטרה לחזק את הגנת הצרכן, לצמצם את עלויות האנרגיה למשקי הבית ולהאיץ את חיבור האיים לרשת החשמל המרכזית. שר האיכות הסביבתית והאנרגיה, סטברוס פפאסטברו, הציג את עיקרי הצעדים בפני הפרלמנט. במסגרת השינויים, ספקי החשמל יחויבו להציע חוזים עם מחיר קבוע למשך שנה אחת לפחות, וייאסר עליהם לנתק את אספקת החשמל לבתים כל עוד רשויות המדינה דנות בהשגה שהגיש הצרכן על חשבונו. כמו כן, דמי השירותים הציבוריים (YKO) יופחתו ב-50% עבור מדרגת הצריכה הראשונה לכלל משקי הבית, צעד שמגיע בעקבות השלמת החיבור של כרתים. בתחום תשתיות האיים, נחתם חוזה לפרויקט החיבור של קורינתוס-קוס במטרה לשים סוף לבידוד האנרגטי של האיים הדודקאנסיים עד שנת 2030."
+  },
+  "en": {
+    "title": "Greece Introduces Sweeping Changes to Its Electricity Market",
+    "dek": "New legislation in Greece brings mandatory fixed-price tariffs, consumer billing protections, and island grid interconnections.",
+    "tldr": [
+      "Strict rules prevent electricity disconnection during billing disputes",
+      "Household utility charges reduced by 50% in the first consumption band",
+      "New contracts signed for Dodecanese islands electricity interconnection"
+    ],
+    "means": "Residents and property owners in Greece benefit from enhanced consumer protections, clearer billing dispute rules, and lower energy costs.",
+    "body": "Greece is implementing comprehensive reforms in its electricity sector to enhance consumer protection, lower household energy expenses, and accelerate mainland grid connections for the islands. Environment and Energy Minister Stavros Papastavrou presented the legislation to Parliament. Key measures include mandatory one-year fixed-price contracts from suppliers and a prohibition on household electricity disconnections while consumer billing objections are under administrative review. Additionally, public utility charges will decrease by 50% in the first consumption band for all households following the Crete interconnection. Infrastructure efforts also advance with the signing of the Corinth-Kos interconnection contract, aiming to end the energy isolation of the Dodecanese islands by 2030."
+  },
+  "meta": {
+    "itemId": "d0fc3ee9f4d6",
+    "imageQuery": "electricity smart meter greece power grid",
+    "sourceHash": "0ce407747bd6",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-11T09:38:02.051Z",
+    "official": false
+  }
+}
