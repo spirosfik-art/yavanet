@@ -1776,7 +1776,16 @@
     "acc9846629ea": 1794389894699,
     "21dfd6094393": 1794389894699,
     "b88e18c8f18a": 1794389894699,
-    "3204ce3c2912": 1794389894699
+    "3204ce3c2912": 1794389894699,
+    "baf2262ea797": 1794393945791,
+    "f4ffa6b8e0b6": 1794393945791,
+    "751f4ccb42ca": 1794393945791,
+    "48f0b4563f64": 1794393945791,
+    "cb0985c23c96": 1794393945791,
+    "2025759e6e56": 1794393945791,
+    "622fbc6b47bb": 1794393945791,
+    "dfaa2e3df4b7": 1794393945791,
+    "45a70271a89c": 1794393945791
   },
   "pending": {},
   "sourceStatus": {
@@ -1788,13 +1797,13 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-11T09:38:04.697Z",
-      "items": 10
+      "at": "2026-11-11T10:45:27.213Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-11T09:38:05.282Z",
-      "items": 1
+      "at": "2026-11-11T10:45:27.797Z",
+      "items": 0
     },
     "civilprotection": {
       "ok": false,
@@ -1804,27 +1813,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-11T09:38:06.447Z",
+      "at": "2026-11-11T10:45:28.992Z",
       "items": 2
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-11T09:38:06.776Z",
+      "at": "2026-11-11T10:45:29.328Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-11T09:38:08.088Z",
+      "at": "2026-11-11T10:45:30.113Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-11T09:38:08.745Z",
-      "items": 3
+      "at": "2026-11-11T10:45:30.825Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-11T09:38:09.331Z",
+      "at": "2026-11-11T10:45:31.541Z",
       "items": 10
     },
     "toi-greece": {
@@ -1835,23 +1844,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-11T09:38:09.732Z",
+      "at": "2026-11-11T10:45:31.969Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-11T09:38:09.774Z",
+      "at": "2026-11-11T10:45:32.041Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-11T09:38:10.028Z",
-      "items": 3
+      "at": "2026-11-11T10:45:32.336Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-11T09:38:10.150Z",
-      "items": 4
+      "at": "2026-11-11T10:45:32.467Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1860,12 +1869,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-11T09:38:05.828Z",
+      "at": "2026-11-11T10:45:28.365Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-11T09:38:10.698Z",
+      "at": "2026-11-11T10:45:33.045Z",
       "items": 0
     },
     "hcg": {
@@ -1876,33 +1885,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-11T09:38:11.751Z",
+      "at": "2026-11-11T10:45:34.180Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-11T09:38:11.971Z",
+      "at": "2026-11-11T10:45:34.388Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-11T09:38:12.125Z",
-      "items": 5
+      "at": "2026-11-11T10:45:34.577Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-11T09:38:12.411Z",
+      "at": "2026-11-11T10:45:34.771Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-11T09:38:12.763Z",
-      "items": 9
+      "at": "2026-11-11T10:45:35.102Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-11T09:38:13.182Z",
-      "items": 7
+      "at": "2026-11-11T10:45:35.436Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
@@ -1938,6 +1947,12 @@
         "slug": "athens-metro-and-tram-services-grow-2026",
         "title": "Athens Metro Boosts Services Amid Rising Passenger Numbers",
         "at": "2026-11-11T11:38:45+02:00",
+        "section": "travel"
+      },
+      {
+        "slug": "greece-winter-storms-climate-change-meteo",
+        "title": "↻ Severe Storms Bring Floods and Landslides to Aetolia-Acarnania and Nafpaktia",
+        "at": "2026-11-11T12:46:02+02:00",
         "section": "travel"
       }
     ],
@@ -2211,40 +2226,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-11T09:38:14.699Z",
-    "considered": 40,
-    "picked": 4,
+    "at": "2026-11-11T10:45:45.791Z",
+    "considered": 9,
+    "picked": 1,
     "items": [
-      "· ingr | Επιβατικό Airbus έσπασε ρεκόρ απόστασης με 24ωρη πτήση 23.000 χιλιομέτρων",
-      "· naftemporiki | 2η Προσύνοδος Πρυτάνεων: Στο επίκεντρο το νέο νομοσχέδιο του υπουργείου Παιδείας",
-      "· gct | Erdogan Appears to Snub Cyprus President at COP31 in Turkey",
-      "✓ gn-kathimerini | Κακοκαιρία: Προβλήματα σε Αχαΐα και Αιτωλοακαρνανία (φωτογραφίες – βίντεο) - Kathimerini",
-      "· gct | Statue Honouring Greek Dictator Papadopoulos Sparks Controversy",
-      "· strikes-naftemporiki | Ισπανία: Γενική απεργία για το στεγαστικό – Η πρώτη εδώ και 14 χρόνια",
-      "· naftemporiki | Ισπανία: Γενική απεργία για το στεγαστικό – Η πρώτη εδώ και 14 χρόνια",
-      "· ert | Η Πιερία στη 41η Philoxenia–Hotelia με γεύσεις, εικόνες και θεματικές δράσεις",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για σήμερα, Τετάρτη 11 Νοεμβρίου 2026 - πρωθ",
-      "· naftemporiki | Sunlight Group: Στρατηγική επένδυση ύψους 75,6 εκατ. στο Κιλκίς",
-      "· ert | Ισπανία: Με πρωτοφανή υποστήριξη των συνδικάτων η πανεθνική απεργία για το στεγαστικό – Επ",
-      "· ert | Κινητοποίηση φορέων για το στεγαστικό πρόβλημα στις 6μμ στην Πλατεία Κλαυθμώνος",
-      "· gct | Greece Deports Bangladeshi Behind Social Media Call for Undocumented Migrants to Nafplio",
-      "· gct | NATO Orders More V-BAT Drones for Hellenic Army and Navy",
-      "· gct | Piraeus Detainee Escape: Handcuffed 18-Year-Old Flees",
-      "· gct | Two Rays Released in Halkidiki After Aquarium Hatching",
-      "· gct | Christmas on Mount Parnon: Stone Villages Far From the Crowds",
-      "· naftemporiki | Στενό Ορμούζ: Πετρελαιοφόρο προσέκρουσε σε νάρκη και τυλίχθηκε στις φλόγες",
-      "· gct | Oxford Study Finds 112 Foreign Deaths in Greek Custody",
-      "· gct | Australia Leads Talks as Turkey Pushes COP31 Climate Deal",
-      "· gn-hcg | Συνέχεια ενημέρωσης αναφορικά με τον εντοπισμό και διάσωση 35 αλλοδαπών νότια της Γαύδου –",
-      "✓ ingr | Ελλάδα: στην πρώτη γραμμή της ακρίβειας στην Ευρώπη",
-      "· ingr | Τουρκία – Αζερμπαϊτζάν: Από το «ένα έθνος, δύο κράτη» στις στρατηγικές διαφωνίες με «σφήνα",
-      "· gct | Pontiako Xefantoma Brings Pontian Music to Adelaide’s Elion Society",
-      "· gct | Beyond the Absurd: Natasha Markou’s Emotional Absurdia and the Pursuit of Happiness",
-      "· gct | Josephine Hits the Gym in High Heels, a See-Through Bodysuit and Fur",
-      "· gct | Oakleigh Grammar Remembrance Service Brings Students to Saints Anargiri",
-      "· gct | Little voices, big changes: What children can teach us about eating more vegetables",
-      "· gct | Vandergraph Calls Winter Ferry Timetable a Promise to Islanders",
-      "· gn-kathimerini | Ισραήλ: Βαρίδι πλέον ο Νετανιάχου για τις ΗΠΑ - Kathimerini"
+      "· ert | Μάτι: Αναβλήθηκε για τον Φεβρουάριο η δίκη για τους εγκαυματίες της πυρκαγιάς",
+      "· gct | Egypt Lists Athens Arab-Greek Centre as Terrorist Entity",
+      "· naftemporiki | Πυρκαγιά στο Μάτι: Αναβολή για τον Φεβρουάριο στη δίκη για 12 εγκαυματίες",
+      "· naftemporiki | Alpha Bank: «Σταθερά υπέρ σου» – Στεγαστικό με σταθερή δόση για πάντα, για νέους έως 35 ετ",
+      "· ingr | Ισπανία: Γενική απεργία στη χώρα, η πρώτη εδώ και 14 χρόνια",
+      "· gtp | Mitsis: Over 50 Years of Greek Hospitality",
+      "· gct | Souvlaki Named Among the World’s Great Skewers by TasteAtlas",
+      "✓ gn-iefimerida | Σοβαρά προβλήματα από την κακοκαιρία σε Αιτωλοακαρνανία-Ναυπακτία: Κατολισθήσεις και πλημμ",
+      "· gn-kathimerini | Κακοκαιρία: Προβλήματα σε Αχαΐα και Αιτωλοακαρνανία (φωτογραφίες – βίντεο) - Kathimerini"
     ]
   },
   "evergreenDone": [
