@@ -1,0 +1,60 @@
+{
+  "slug": "greek-inflation-october-2026",
+  "section": "living",
+  "publishedAt": "2026-11-11T04:19:15+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/11/greek-inflation/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/20398056/pexels-photo-20398056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A BMW sports car parked at a Shell gas station at night, featuring bright lights and an urban setting.",
+    "credit": "Photo: Kujtim Shabani / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/bmw-3-series-at-gas-station-at-night-20398056/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אינפלציה ביוון: זינוק ל-5.7 אחוזים באוקטובר",
+    "dek": "רשות הסטטיסטיקה של יוון מדווחת על עלייה במדד המחירים לצרכן, בהובלת מחירי הדיור, האנרגיה והתחבורה.",
+    "tldr": [
+      "אינפלציה של 5.7% באוקטובר לעומת 5% בספטמבר",
+      "עלייה של 15.1% בהוצאות הדיור ו-13.8% בתחבורה",
+      "מחירי הגז הטבעי עלו ב-80% בחישוב שנתי"
+    ],
+    "means": "למשקיעים ולתושבים ביוון: העלייה בעלויות הדיור, האנרגיה והמחיה משפיעה על השוק המקומי ועל מחירי השכירות והנכסים.",
+    "body": "האינפלציה ביוון עלתה ל-5.7 אחוזים בחודש אוקטובר, לעומת 5 אחוזים בספטמבר, כך נמסר מרשות הסטטיסטיקה של יוון (ELSTAT). העלייה הונעה בעיקר מעלויות הדיור והתחבורה. סעיף הדיור, הכולל שכירות, מים, חשמל וגאז, רשם את העלייה השנתית הגבוהה ביותר של 15.1 אחוזים, ואחריו תחבורה עם 13.8 אחוזים. מחירי הגז הטבעי זינקו ב-80 אחוזים בהשוואה לתקופה המקבילה אשתקד, הסולר עלה ב-39.4 אחוזים, ומחירי הדלק עלו ב-25 אחוזים. מחירי השכירות למגורים עלו ב-6.8 אחוזים במהלך השנה. מנגד, מחירי שמן הזית ירדו ב-8.4 אחוזים והפסטה ירדה ב-4.2 אחוזים. ממוצע האינפלציה ב-12 החודשים שעד אוקטובר הגיע ל-3.9 אחוזים."
+  },
+  "en": {
+    "title": "Greek inflation rises to 5.7 percent in October",
+    "dek": "Hellenic Statistical Authority reports higher consumer prices driven by increased housing and transport costs.",
+    "tldr": [
+      "Inflation reached 5.7 percent in October up from 5 percent in September",
+      "Housing costs recorded the highest annual rise at 15.1 percent",
+      "Natural gas prices increased by 80 percent year on year"
+    ],
+    "means": "For investors and residents in Greece: rising energy, housing, and transport costs impact the broader economy and property market.",
+    "body": "Greek inflation rose to 5.7 percent in October, up from 5 percent in September, according to data released by the Hellenic Statistical Authority (ELSTAT). The increase was driven primarily by climbing housing and transport costs. Housing, covering rent, water, electricity, and gas, recorded the largest annual rise at 15.1 percent, followed by transport at 13.8 percent. Natural gas prices rose 80 percent year on year, diesel climbed 39.4 percent, and petrol rose 25 percent. Home rents increased by 6.8 percent over the year. Conversely, olive oil prices fell by 8.4 percent and pasta dropped 4.2 percent. Average Greek inflation over the 12 months to October reached 3.9 percent."
+  },
+  "meta": {
+    "itemId": "3f6e417c8c08",
+    "imageQuery": "Athens petrol station",
+    "sourceHash": "7c909f530e8e",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-11T02:19:15.620Z",
+    "official": false
+  }
+}

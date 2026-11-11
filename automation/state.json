@@ -19,41 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "02e35a110db5": 1793146171251,
-    "f13a33bab3ee": 1793146171251,
-    "a285740d148d": 1793146171251,
-    "67735f72733c": 1793146171251,
-    "2d53f23bf3d8": 1793146171251,
-    "4fbaf19d04ad": 1793146171251,
-    "9c5d994c3940": 1793146171251,
-    "6f03cbcf51ea": 1793146171251,
-    "e640c7b826f7": 1793146171251,
-    "03e881a257a3": 1793146171251,
-    "fd8fd8f5f3cc": 1793146171251,
-    "fc3b4f61fb10": 1793146171251,
-    "7c52e1dc46ab": 1793146171251,
-    "6ad78e55c2f0": 1793146171251,
-    "c5d5adad63e6": 1793146171251,
-    "c916e875a38f": 1793146171251,
-    "356638af9c69": 1793146171251,
-    "fc39d8200901": 1793146171251,
-    "321e390f644c": 1793146171251,
-    "756af2e636f1": 1793146171251,
-    "48c2b53a6597": 1793146171251,
-    "1c602ff9d73d": 1793146171251,
-    "6ab0a48d551a": 1793146171251,
-    "f8150d9bdced": 1793146171251,
-    "3f257baab1d0": 1793146171251,
-    "1faad22c7b49": 1793146171251,
-    "d07386668ea6": 1793146171251,
-    "3bd6d563dac7": 1793146171251,
-    "54422cb0aa6b": 1793150019306,
-    "16264f028e84": 1793150019306,
-    "a47daba5bb23": 1793150019306,
-    "68409db0272c": 1793150019306,
-    "a93754462049": 1793150019306,
-    "d5beaee62b6f": 1793150019306,
-    "e27a83cbccdd": 1793150019306,
     "b579b9247878": 1793165476305,
     "d51b28ee5163": 1793165476305,
     "74f409f50c9d": 1793165476305,
@@ -1800,17 +1765,33 @@
     "b5ec46ec0514": 1794349174369,
     "0e7a80b9863a": 1794349174369,
     "2eb2be71a9e9": 1794349174369,
-    "8f30d0e1950f": 1794350981576
+    "8f30d0e1950f": 1794350981576,
+    "dc0f128f69a4": 1794363681305,
+    "82a0443e3bb2": 1794363681305,
+    "2e7d1fdb1653": 1794363681305,
+    "a91bbaf1e067": 1794363681305,
+    "85aa6495d311": 1794363681305,
+    "d0fc3ee9f4d6": 1794363681305,
+    "b920220dfe11": 1794363681305,
+    "af93e5a171d7": 1794363681305,
+    "fa796f1d225a": 1794363681305,
+    "9578ec623964": 1794363681305,
+    "ddd0fc836c5e": 1794363681305,
+    "b36d0d34a911": 1794363681305,
+    "c7f2fa7e1b78": 1794363681305,
+    "1734656322b4": 1794363681305,
+    "83cd78e90236": 1794363681305,
+    "095b06a369f0": 1794363681305
   },
   "pending": {
-    "03fbfc": {
-      "createdAt": 1794349186835,
+    "64b307": {
+      "createdAt": 1794363714147,
       "item": {
-        "title": "Greek Inflation Jumps to 5.7% as One Bill Rises 80%",
-        "url": "https://greekcitytimes.com/2026/11/11/greek-inflation/",
-        "summary": "Greek inflation rose to 5.7 per cent in October as natural gas prices jumped 80 per cent and housing and transport costs climbed.\n The post Greek Inflation Jumps to 5.7% as One Bill Rises 80% appeared first on Greek City Times .",
-        "published": "Tue, 10 Nov 2026 21:54:10 +0000",
-        "id": "3f6e417c8c08",
+        "title": "Greece Introduces Sweeping Changes to its Electricity Market",
+        "url": "https://greekcitytimes.com/2026/11/11/greece-introduces-sweeping-changes-to-its-electricity-market/",
+        "summary": "Greece introduces new electricity market rules, a 50% reduction in household charges, stronger consumer protections and island grid connections by 2030.\n The post Greece Introduces Sweeping Changes to its Electricity Market appeared first on Greek City Times .",
+        "published": "Wed, 11 Nov 2026 01:59:24 +0000",
+        "id": "d0fc3ee9f4d6",
         "sourceId": "gct",
         "sourceName": "Greek City Times",
         "official": false,
@@ -1819,18 +1800,18 @@
         "strike": false
       },
       "pick": {
-        "id": "3f6e417c8c08",
+        "id": "d0fc3ee9f4d6",
         "section": "living",
-        "priority": 8,
+        "priority": 6,
         "sensitive": true,
         "breaking": false,
-        "reason": "Greek inflation jumping to 5.7% with a sharp rise in natural gas and housing costs directly impacts the cost of living for Israeli residents and property owners in Greece.",
+        "reason": "Changes to electricity market rules and potential cost reductions are essential for Israeli residents in Greece managing household expenses.",
         "item": {
-          "title": "Greek Inflation Jumps to 5.7% as One Bill Rises 80%",
-          "url": "https://greekcitytimes.com/2026/11/11/greek-inflation/",
-          "summary": "Greek inflation rose to 5.7 per cent in October as natural gas prices jumped 80 per cent and housing and transport costs climbed.\n The post Greek Inflation Jumps to 5.7% as One Bill Rises 80% appeared first on Greek City Times .",
-          "published": "Tue, 10 Nov 2026 21:54:10 +0000",
-          "id": "3f6e417c8c08",
+          "title": "Greece Introduces Sweeping Changes to its Electricity Market",
+          "url": "https://greekcitytimes.com/2026/11/11/greece-introduces-sweeping-changes-to-its-electricity-market/",
+          "summary": "Greece introduces new electricity market rules, a 50% reduction in household charges, stronger consumer protections and island grid connections by 2030.\n The post Greece Introduces Sweeping Changes to its Electricity Market appeared first on Greek City Times .",
+          "published": "Wed, 11 Nov 2026 01:59:24 +0000",
+          "id": "d0fc3ee9f4d6",
           "sourceId": "gct",
           "sourceName": "Greek City Times",
           "official": false,
@@ -1840,174 +1821,65 @@
         }
       },
       "draft": {
-        "slug": "greek-inflation-rises-october-2026",
+        "slug": "greece-electricity-market-reforms",
         "section": "living",
         "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
-        "alert": {
-          "he": "יוקר המחיה ביוון",
-          "en": "Greek Inflation"
-        },
+        "alert": null,
         "imageKey": "house",
-        "imageQuery": "petrol station athens greece",
+        "imageQuery": "modern greek house electricity",
         "he": {
-          "title": "האינפלציה ביוון זינקה ל-5.7 אחוזים באוקטובר בשל מחירי האנרגיה והדיור",
-          "seoTitle": "אינפלציה ביוון באוקטובר 2026: עליית מחירי דיור ואנרגיה",
-          "seoDesc": "האינפלציה ביוון עלתה באוקטובר ל-5.7% בהובלת זינוק במחירי האנרגיה, הגז הטבעי, הדלק והדיור. כל הפרטים על יוקר המחיה באתונה.",
+          "title": "שינויים בשוק החשמל ביוון: הגנה על צרכנים וחיבור איים",
+          "seoTitle": "שינויים בשוק החשמל ביוון: מה זה אומר לתושבים?",
+          "seoDesc": "יוון מעדכנת את חוקי החשמל: הגנה על צרכנים במחלוקות על חשבונות, הוזלות לתושבי איים וחיבור תשתיות חדש. כל הפרטים לתושבים ומשקיעים.",
           "keywords": [
-            "אינפלציה ביוון",
+            "חשמל ביוון",
             "יוקר המחיה ביוון",
-            "דירה באתונה",
-            "מחירים ביוון",
-            "כלכלה ביוון"
+            "דירה ביוון",
+            "נדלן ביוון",
+            "חיים ביוון"
           ],
-          "dek": "רשות הסטטיסטיקה ההלנית מדווחת על עלייה חדה בקצב אינפלציית המחירים לצרכן, כאשר מחירי האנרגיה והדיור ממשיכים להכביד על משקי הבית באתונה וברחבי המדינה.",
+          "dek": "ממשלת יוון מקדמת רפורמה מקיפה בשוק האנרגיה הכוללת הגנה על צרכנים מפני ניתוקים, הוזלת תעריפים וחיבור האיים לרשת החשמל הארצית.",
           "tldr": [
-            "קצב האינפלציה השנתי ביוון עלה באוקטובר ל-5.7 אחוזים, לעומת 5 אחוזים בספטמבר.",
-            "מחירי הגז הטבעי זינקו ב-80 אחוזים ומחירי הדיור רשמו עלייה שנתית של 15.1 אחוזים.",
-            "מחירי הדלק והטיסות רשמו גם הם עליות חדות על רקע המשבר באזור המזרח התיכון."
+            "ספקיות חשמל לא יוכלו לנתק בית בזמן בירור מחלוקת על חשבון.",
+            "תעריפי החשמל לתושבי האיים צפויים לרדת עם חיבורם לרשת היבשתית.",
+            "חובה על ספקיות להציע חוזים עם מחיר קבוע לשנה."
           ],
-          "means": "עבור ישראלים החיים ביוון או משקיעים בנדל\"ן, העלייה במדד המחירים ובמחירי השכירות והדיור באתונה מחייבת מעקב צמוד אחר הוצאות המחיה והתשואות. מומלץ לבדוק היטב את חוזי השכירות וההוצאות הנלוות לנכסים, ולהתייעץ עם אנשי מקצוע מקומיים לגבי ניהול תקציב נכון.",
-          "body": "## זינוק חד במחירי האנרגיה והדיור\n\nקצב אינפלציית המחירים לצרכן ביוון רשם עלייה בחודש אוקטובר והגיע ל-5.7 אחוזים, זאת לעומת 5 אחוזים שנרשמו בחודש ספטמבר. על פי נתונים שפרסמה רשות הסטטיסטיקה ההלנית (ELSTAT), העלייה הושפעה בעיקר מהתייקרות ניכרת בעלויות הדיור והתחבורה ברחבי המדינה.\n\nמחירי האנרגיה המשיכו להוות את הגורם המרכזי לעליית המדד, כאשר מחירי הגז הטבעי זינקו ב-80 אחוזים בחישוב שנת, מחירי הסולר עלו ב-39.4 אחוזים, ומחירי סולר החימום טיפסו ב-37.5 אחוזים. בנוסף, מחירי כרטיסי הטיסה רשמו עלייה של 32.9 אחוזים בהשוואה לתקופה מקבילה אשתקד.\n\n## השפעה ישירה על שוק השכירות והמחיה\n\nענף הדיור, הכולל שכירות, מים, חשמל, גז ודלקים נוספים, רשם את העלייה השנתית הגבוהה ביותר בשיעור של 15.1 אחוזים. תחום התחבורה דורג מיד לאחר מכן עם עלייה של 13.8 אחוזים. ברשויות המקומיות מציינים כי מחירי הבנזין לבדם תרמו כמעט 1.18 נקודות אחוז לשיעור האינפלציה הכללי.\n\nבמקביל, מחירי השכירות למגורים רשמו עלייה שנתית של 6.8 אחוזים. מצב זה יוצר לחץ גובר על השוכרים, כאשר באתונה כמעט בלתי אפשרי למצוא דירות למגורים במחיר הנמוך מ-600 אירו בחודש. בתחומים נוספים, מחירי המזון והמשקאות הלא אלכוהוליים עלו ב-2.1 אחוזים, כאשר מוצרים מסוימים כמו דגים מעושנים ומלוחים, בבשר כבש ועזים וירקות רשמו עליות בולטות יותר.\n\n## רקע כלכלי ותחזיות להמשך\n\nהעלייה המחודשת באינפלציה מגיעה על רקע מחירי הדלק הגבוהים שמושפעים מהמשבר המתמשך במזרח התיכון. בנק יוון כבר הזהיר בעבר כי חזרה של לחצים אינפלציוניים מהווה סיכון משמעותי ליציבות הכלכלה המקומית. מומחים וכלכלנים עוקבים אחר ההתפתחויות כדי לבחון האם הממשלה תנקוט צעדים נוספים להקלה על משקי הבית.\n\n## שאלות נפוצות\n\n**מה היה שיעור האינפלציה ביוון בחודש אוקטובר?**\nקצב האינפלציה השנתי ביוון הגיע באוקטובר ל-5.7 אחוזים, לעומת 5 אחוזים בספטמבר.\n\n**אילו תחומים רשמו את עליות המחירים הגבוהות ביותר?**\nהדיור והאנרגיה הובילו את העליות, כאשר מחירי הגז הטבעי זינקו ב-80 אחוזים ומחירי הדיור הכלליים עלו ב-15.1 אחוזים.\n\n**כיצד מושפע שוק השכירות באתונה?**\nשכר הדירה למגורים עלה ב-6.8 אחוזים בשנה האחרונה, וכתוצאה מכך הפך קשה מאוד למצוא דירות באתונה במחיר הנמוך מ-600 אירו בחודש."
+          "means": "אם אתם תושבים ביוון או בעלי נכס, הרפורמה מעניקה לכם הגנה משפטית טובה יותר במקרה של ויכוח על חשבונות חשמל. מומלץ לעקוב אחר עדכוני הספק שלכם בנוגע לחוזים במחיר קבוע, שכן אלו עשויים לסייע לכם בתכנון הוצאות הבית.",
+          "body": "## רפורמה בשוק החשמל היווני\nממשלת יוון הציגה סדרת צעדים חדשים שמטרתם לחזק את ההגנה על הצרכן היווני ולייעל את משק האנרגיה הלאומי. שר הסביבה והאנרגיה, סטברוס פפסטברו, הדגיש כי המטרה היא להפחית את עלויות האנרגיה למשקי בית ולהאיץ את חיבור האיים לרשת החשמל המרכזית.\n\n## מה משתנה עבור הצרכנים?\nאחד השינויים המשמעותיים ביותר נוגע להגנה על צרכנים במחלוקות מול ספקיות החשמל. על פי החוק החדש, ספקית לא תוכל לנתק את זרם החשמל לבית כל עוד מתקיים הליך בירור רשמי לגבי חשבון שנוי במחלוקת. הגנה זו תישאר בתוקף עד לקבלת החלטה סופית של הרשות המוסמכת, מה שמונע את הצורך בפנייה לבתי משפט כדי למנוע ניתוקים.\n\nבנוסף, הממשלה מחייבת את ספקיות החשמל להציע חוזים עם מחיר קבוע למשך שנה אחת. צעד זה נועד להגן על הצרכנים מפני תנודות חדות במחירי האנרגיה בשוק הסיטונאי.\n\n## חיבור האיים ופיתוח תשתיות\nפרויקט הדגל של הממשלה הוא חיבור האיים לרשת החשמל של היבשת. פפסטברו הודיע על חתימת חוזה לחיבור קורינתוס-קוס, צעד שיסיים את הבידוד האנרגטי של האיים הדודקאנסיים. המטרה היא להשלים את תוכנית החיבור הלאומית עד שנת 2030, מה שיאפשר לאיים כמו רודוס, קוס וקרפאתוס להפסיק להסתמך על גנרטורים מזהמים המופעלים בנפט.\n\nבמקביל, הממשלה מקצה קרן של 2.3 מיליארד אירו לדה-קרבוניזציה של האיים, במטרה להפחית את התלות במקורות אנרגיה קונבנציונליים ולעבור לאנרגיה ירוקה.\n\n## שאלות נפוצות\n**האם מותר לספקית החשמל לנתק לי את החשמל אם אני חולק על החשבון?**\nלא, החוק החדש אוסר על ניתוק חשמל בבית כל עוד מתקיים הליך בירור רשמי על החשבון מול הרשות המוסמכת.\n\n**מתי יחוברו האיים לרשת החשמל הארצית?**\nהממשלה שואפת להשלים את תוכנית החיבור הלאומית עד שנת 2030, כאשר פרויקטים כמו חיבור קורינתוס-קוס כבר נמצאים בשלבי ביצוע."
         },
         "en": {
-          "title": "Greek Inflation Rises to 5.7 Percent in October Driven by Housing and Energy Costs",
-          "seoTitle": "Greek Inflation Rises to 5.7% in October 2026",
-          "seoDesc": "Greece annual inflation climbed to 5.7% in October as housing, natural gas and transport costs surged. Read the latest economic updates from Athens.",
+          "title": "Greece Overhauls Electricity Market: Consumer Protection and Island Grid Links",
+          "seoTitle": "Greece Electricity Market Reforms: What You Need to Know",
+          "seoDesc": "Greece introduces new electricity market rules: consumer protection against disconnections, lower island tariffs, and grid upgrades.",
           "keywords": [
-            "greek inflation",
-            "cost of living greece",
-            "athens rent prices",
-            "elstat inflation data",
-            "greece economy"
+            "Greece electricity",
+            "Greek energy market",
+            "living in Greece",
+            "Greece property",
+            "Greek islands energy"
           ],
-          "dek": "The Hellenic Statistical Authority reports that consumer price inflation accelerated in October, fueled by sharp increases in energy bills and residential rents.",
+          "dek": "The Greek government is implementing major energy reforms to protect consumers from bill disputes, lower costs, and connect islands to the mainland grid.",
           "tldr": [
-            "Annual Greek inflation reached 5.7 percent in October, up from 5 percent in September.",
-            "Natural gas prices surged 80 percent year-on-year, while housing costs climbed 15.1 percent.",
-            "Renters face ongoing pressure as finding apartments under 600 euros in Athens becomes increasingly difficult."
+            "Electricity providers cannot disconnect households during a formal bill dispute.",
+            "Islands will be connected to the mainland grid to reduce energy costs and reliance on oil.",
+            "Suppliers are now required to offer one-year fixed-price electricity contracts."
           ],
-          "means": "For Israelis living in Greece or investing in local real estate, the rising consumer price index and surging rental costs in Athens require careful budget management. It is recommended to review property expenses and consult local professionals regarding market trends.",
-          "body": "## Acceleration in Energy and Housing Costs\n\nGreek annual inflation rose to 5.7 percent in October, increasing from 5 percent in September, according to data released by the Hellenic Statistical Authority (ELSTAT). The upward trend was primarily driven by climbing costs across housing and transport sectors.\n\nEnergy prices remained a major factor behind the index increase. Natural gas prices jumped 80 percent year-on-year, diesel climbed 39.4 percent, and heating oil rose 37.5 percent. Additionally, air fares recorded a 32.9 percent increase compared to the previous period.\n\n## Impact on Renters and Everyday Expenses\n\nThe housing sector, which encompasses rent, water, electricity, gas, and other fuels, registered the largest annual increase at 15.1 percent. Transport followed with a 13.8 percent rise, driven heavily by petrol and diesel costs. Petrol alone added 1.18 percentage points to the overall inflation rate.\n\nResidential rents rose 6.8 percent over the year, adding pressure to households. Reports indicate that homes priced under 600 euros a month have become nearly impossible to locate in Athens. Meanwhile, food and non-alcoholic beverage prices increased by 2.1 percent, with staples such as smoked fish, lamb, and vegetables seeing faster climbs.\n\n## Economic Context and Pressures\n\nThe rise in inflation coincides with sustained high fuel prices amid the ongoing crisis in the Middle East. The Bank of Greece previously warned that renewed inflationary pressures pose a key risk to the broader national economy as authorities monitor consumer markets.\n\n## FAQ\n\n**What was the inflation rate in Greece in October?**\nGreek annual inflation reached 5.7 percent in October, up from 5 percent in September according to ELSTAT.\n\n**Which sectors recorded the highest price increases?**\nHousing and energy costs recorded the sharpest rises, with natural gas surging 80 percent and overall housing expenses climbing 15.1 percent.\n\n**How are rental prices affected in Athens?**\nResidential rents rose 6.8 percent over the year, making homes priced under 600 euros a month very difficult to find in Athens."
+          "means": "If you are a resident or property owner in Greece, these changes offer stronger legal safeguards regarding utility bills. Check with your electricity provider about the new mandatory fixed-price contract options to help stabilize your household energy costs.",
+          "body": "## Major Reforms in the Greek Energy Sector\nThe Greek government has introduced sweeping changes to the national electricity market, aimed at strengthening consumer protection and accelerating the transition to a more sustainable energy grid. Environment and Energy Minister Stavros Papastavrou announced that the new legislation focuses on reducing household energy costs and integrating the islands into the mainland electricity system.\n\n## Enhanced Consumer Protections\nA key highlight of the new legislation is the protection of consumers during billing disputes. Under the new rules, electricity suppliers are prohibited from disconnecting a household's power while a formal objection to a bill is being reviewed by the competent authority. This protection remains in place until a final decision is reached, sparing consumers from having to seek court intervention to maintain their power supply.\n\nFurthermore, the government is mandating that electricity suppliers offer one-year fixed-price tariffs. This measure is designed to shield households from market volatility and provide more predictable energy costs.\n\n## Connecting the Islands\nEnergy security for the islands remains a national priority. Minister Papastavrou confirmed the signing of the Corinth-Kos electricity interconnection project, which will integrate the Dodecanese islands into the mainland grid. The government aims to complete the national interconnection program by 2030, allowing islands like Rhodes, Kos, and Karpathos to transition away from expensive and polluting oil-fired power generation.\n\nAdditionally, a €2.3 billion Islands Decarbonisation Fund has been established to finance major projects that reduce the islands' dependence on conventional energy sources.\n\n## FAQ\n**Can my electricity be disconnected if I am disputing a bill?**\nNo, the new legislation prevents electricity suppliers from disconnecting a household while a formal objection to a bill is under review by the authorities.\n\n**When will the islands be connected to the mainland grid?**\nThe government expects to complete the national electricity interconnection program by 2030, with projects like the Corinth-Kos link already moving forward."
         }
       },
-      "text": "File photo: A petrol station in Athens in April 2023. Photo: philip.mallis, via Wikimedia Commons (CC BY-SA 2.0) \n 0 \n 0 \n 0 \n Greek inflation rose to 5.7 per cent in October, up from 5 per cent in September, as housing and transport costs climbed, the Hellenic Statistical Authority (ELSTAT) said on Tuesday. \n Natural gas prices rose 80 per cent year on year, according to the statistics authority’s October data . Diesel climbed 39.4 per cent, heating oil 37.5 per cent and air fares 32.9 per cent.\n As a result, households now pay more for energy, rent and travel than a year ago. The consumer price index rose 0.7 per cent between September and October, ELSTAT said.\n Energy costs behind Greek inflation\n Housing, which covers rent, water, electricity, gas and other fuels, recorded the largest annual rise, at 15.1 per cent. Transport followed with 13.8 per cent, driven by diesel, petrol and other fuels.\n Read more: Greek Import Prices Jump as One Cost Soars \n Petrol rose 25 per cent and electricity 17.9 per cent, according to the authority’s tables . Specifically, petrol alone added 1.18 percentage points to Greek inflation, the largest impact of any single item.\n Rents for homes rose 6.8 per cent over the year. At the same time, home repair and maintenance costs climbed 4.4 per cent.\n Elsewhere, restaurants and accommodation rose 5.8 per cent, clothing and footwear 3.8 per cent and insurance and financial services 3.5 per cent. Education fees rose 2.9 per cent.\n Food and household costs\n Food and non-alcoholic drinks rose 2.1 per cent. However, some staples climbed faster, with salted and smoked fish up 10.4 per cent, lamb and goat 9.1 per cent and vegetables 8.4 per cent.\n Beef rose 6.5 per cent and eggs 4.9 per cent. In contrast, olive oil fell 8.4 per cent, pasta 4.2 per cent and fresh whole milk 2.6 per cent.\n Information and communication costs dropped 2.2 per cent, mainly because of cheaper mobile phone services and sound and vision equipment. Alcohol and tobacco eased 0.2 per cent.\n Over the 12 months to October, average Greek inflation reached 3.9 per cent, up from 2.5 per cent in the previous 12-month period, ELSTAT said. By comparison, the annual rate in October 2025 stood at 2 per cent.\n The jump in Greek inflation comes as fuel prices stay high amid the continuing crisis in the Middle East. Earlier, the Bank of Greece warned that renewed inflation poses a key risk to the economy.\n Pressure on renters has grown, with homes under €600 a month almost impossible to find in Athens , as Greek City Times reported.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Moves to Boost Competition in Petroleum Market \n Mitsotakis: Greece Could Temporarily Cut Fuel Taxes if EU Allows Emergency Measures \n Greek Households Save Up to €39 a Month Under Price-Cut Initiative \n Greece Cuts Prices on More Than 1,660 Everyday Products \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Northern Athens Mayors Oppose Building Rights Transfer\n Next Article \n Liangis Family Secures Hilton Canberra Manuka Hotel\n 0 \n 0 \n 0",
+      "text": "0 \n 0 \n 0 \n Greece is introducing sweeping changes to its electricity market to strengthen consumer protection, reduce household energy costs and accelerate the connection of its islands to the mainland electricity grid, Environment and Energy Minister Stavros Papastavrou told Parliament.\n Closing the first plenary debate on the legislation, Papastavrou said the bill would introduce stricter rules for energy suppliers, establish safeguards before major investments, and address longstanding problems affecting local communities.\n The minister also announced several amendments to the legislation, including stronger protection for consumers disputing electricity bills.\n Under an amendment to Article 6, electricity suppliers will not be able to disconnect a household while the competent authority examines a consumer’s objection to an electricity bill if the 90-day assessment period expires without a decision. Protection against disconnection will continue until the authority rules on the objection.\n Read more: August 15 in the Dodecanese: Faith, Festivals and Traditions That Bring the Islands Together \n “Administrative delays will not punish citizens,” Papastavrou said.\n He stressed that the provision adds another layer of protection, as consumers previously had to seek court intervention to prevent electricity disconnection while disputing a bill.\n The government will also increase the compensatory fee charged to data centres.\n New obligations for electricity suppliers \n The legislation incorporates the European Union directive on electricity market rules and consumer protection, introducing several changes to the sector.\n Papastavrou highlighted the following measures:\n Mandatory fixed-price contracts: Electricity suppliers must offer one-year fixed-price tariffs. Papastavrou said fixed tariffs had provided consumers with protection against market volatility and would now become a legal obligation for suppliers.\n Risk hedging: Suppliers must implement risk-hedging measures to prevent losses arising from poor commercial management from passing on to consumers.\n 50% reduction in household charges: The Public Utility Services (YKO) charge will fall by 50% in the first consumption band for all households. The measure fulfils a commitment made by Prime Minister Kyriakos Mitsotakis at the Thessaloniki International Fair and follows the electricity interconnection of Crete.\n Residential solar protection: Electricity generated by household photovoltaic systems with a capacity of up to 10.8 kilowatts will receive a zero wholesale-market price whenever wholesale electricity prices turn negative.\n Greater grid transparency: The Independent Power Transmission Operator (IPTO/ADMIE) and the Hellenic Electricity Distribution Network Operator (HEDNO/DEDDIE) must publish quarterly information identifying available electricity grid capacity.\n Digital applications: Applicants will submit electricity connection requests electronically, while the legislation introduces flexible grid connections.\n Renewable energy exemptions: Municipalities will receive exemptions from fees associated with renewable energy projects.\n Farmers’ deadlines: Professional farmers will have until the end of the year to submit their 2025 declaration.\n Renewable energy compliance: Renewable energy producers will receive four months to comply after the suspension of operating support by DAPEEP before authorities impose penalties. Existing suspended installations will have until April 2027 to comply.\n The bill also tightens requirements for privately operated electricity networks through technical assessments, random inspections, approved evaluation methods and penalties. It will permit overhead cable routes only when underground installation proves technically impossible.\n €2.3 billion fund to support island decarbonisation \n Papastavrou highlighted the €2.3 billion Islands Decarbonisation Fund, which will finance major projects aimed at reducing the islands’ dependence on conventional energy sources.\n He also outlined stricter requirements for new data centres, including:\n A substantial financial guarantee of €200,000 per megawatt.\n At least 60% of annual electricity consumption must come from a new renewable energy installation.\n Technical assessments covering energy efficiency and cooling systems.\n A publicly available list identifying congested points in the electricity grid.\n The government aims to ensure that new data centres meet clear energy and infrastructure requirements before proceeding with investments.\n Greece seeks European support amid energy crisis \n The minister also addressed the continuing energy crisis, saying Greece had been the first EU member state to request European support measures when the crisis began.\n He noted that Greece remained the only country to have received approval for an energy-related escape clause, allowing greater flexibility in its fiscal rules.\n Athens now wants permission to allocate part of the resources available under the clause to temporary and targeted support measures for households and businesses.\n Papastavrou also referred to the October 16 European Council meeting, where Mitsotakis secured recognition that the situation required an urgent and coordinated European response.\n At national level, government measures addressing energy costs have exceeded €1.4 billion since March, he said.\n Responding to parliamentary criticism over electricity prices, Papastavrou cited Eurostat figures for the first half of 2026, which showed that Greek electricity prices stood 15% below the EU average. When adjusted for purchasing power, prices were approximately in line with the European average.\n “Are all these measures enough? Obviously not,” he said.\n However, he argued that Greece’s energy mix had helped cushion the impact of rising prices.\n He acknowledged that government measures could not eliminate the financial burden on households but said they provided significant temporary relief while the crisis continued.\n Greece advances electricity interconnection of the Dodecanese \n Papastavrou described the electricity interconnection of the country’s islands as a national priority and announced that authorities had signed the contract for the Corinth-Kos electricity interconnection project.\n The project will connect the Dodecanese islands to Greece’s mainland electricity system.\n “The energy isolation of the Dodecanese will come to an end,” he said.\n The minister said Greece expected to complete its national electricity interconnection programme by 2030, allowing Rhodes, Kos and Karpathos to receive electricity without relying on oil-fired power generation.\n “Our island residents are not second-class citizens. They deserve the same as everyone else,” he said.\n The government expects the interconnections to improve energy security, reduce dependence on imported fuels and support lower electricity costs over time.\n Three international companies bid for Greek seismic surveys \n Papastavrou also announced that three internationally recognised companies had submitted bids for seismic surveys in offshore areas of western and southern Greece.\n He described the interest as a vote of confidence in Greece’s credibility and prospects.\n The minister also referred to developments concerning the Great Sea Interconnector (GSI) submarine electricity cable, highlighting the joint procedures associated with the project.\n “Three major companies submitted applications for seismic surveys in Greece. And the joint process for the GSI cable. This is our energy policy in action,” he said.\n Papastavrou will miss Wednesday’s parliamentary session to represent Greece at the United Nations global climate conference, which is taking place in Turkey.\n He also recalled that Turkey had unsuccessfully attempted to exclude Cypriot President Nikos Christodoulides from the conference.\n Greece, together with the European Commissioner and other EU member states, opposed the move, insisting that all parties should receive equal representation or none should participate, he said.\n Parliament will continue debating the electricity market legislation on Wednesday.\n (Source: AMNA)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Erdoğan tells Greece to stop arming ‘demilitarized’ islands \n EU Approves €2.3 Billion Green Investment for Greek Islands \n Turkey Challenges Greece Over Crete-Cyprus Power Cable Surveys \n Greece Says Turkish Cable NAVTEX Has No Significance \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greek University Students Win Global Technology Opportunity\n Next Article \n Lost Sanctuary of Asclepius Unearthed in Major Discovery\n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Στο 5,7% ανέβηκε ο πληθωρισμός στην Ελλάδα τον Οκτώβριο λόγω κόστους στέγασης και ενέργειας",
-        "dek": "Η Ελληνική Στατιστική Αρχή αναφέρει ότι ο πληθωρισμός των τιμών καταναλωτή αυξήθηκε τον Οκτώβριο, τροφοδοτούμενος από τις απότομες αυξήσεις στους λογαριασμούς ενέργειας και τα ενοίκια κατοικιών.",
+        "title": "Ριζικές αλλαγές στην αγορά ηλεκτρικής ενέργειας στην Ελλάδα: Προστασία καταναλωτών και διασύνδεση νησιών",
+        "dek": "Η ελληνική κυβέρνηση προωθεί σημαντικές ενεργειακές μεταρρυθμίσεις για την προστασία των καταναλωτών από αμφισβητούμενους λογαριασμούς, τη μείωση του κόστους και τη διασύνδεση των νησιών με το ηπειρωτικό δίκτυο.",
         "tldr": [
-          "Ο ετήσιος ελληνικός πληθωρισμός έφτασε το 5,7% τον Οκτώβριο, από 5% τον Σεπτέμβριο.",
-          "Οι τιμές του φυσικού αερίου αυξήθηκαν κατά 80% σε ετήσια βάση, ενώ το κόστος στέγασης ανέβηκε κατά 15,1%.",
-          "Οι ενοικιαστές αντιμετωπίζουν συνεχή πίεση, καθώς η εύρεση διαμερισμάτων κάτω των 600 ευρώ στην Αθήνα γίνεται όλο και πιο δύσκολη."
-        ]
-      },
-      "notified": true
-    },
-    "91ea55": {
-      "createdAt": 1794349217390,
-      "item": {
-        "title": "Northern Athens Mayors Oppose Building Rights Transfer",
-        "url": "https://greekcitytimes.com/2026/11/11/building-rights-transfer/",
-        "summary": "Mayors across northern Athens are opposing a building rights transfer that could add 584,400 square metres of construction.\n The post Northern Athens Mayors Oppose Building Rights Transfer appeared first on Greek City Times .",
-        "published": "Tue, 10 Nov 2026 21:51:43 +0000",
-        "id": "aa888c7a5747",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "aa888c7a5747",
-        "section": "real-estate",
-        "priority": 6,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Northern Athens mayors opposing building rights transfers directly affects local real estate development and zoning laws relevant to property investors.",
-        "item": {
-          "title": "Northern Athens Mayors Oppose Building Rights Transfer",
-          "url": "https://greekcitytimes.com/2026/11/11/building-rights-transfer/",
-          "summary": "Mayors across northern Athens are opposing a building rights transfer that could add 584,400 square metres of construction.\n The post Northern Athens Mayors Oppose Building Rights Transfer appeared first on Greek City Times .",
-          "published": "Tue, 10 Nov 2026 21:51:43 +0000",
-          "id": "aa888c7a5747",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "athens-mayors-oppose-building-rights-transfer",
-        "section": "real-estate",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 38.0382,
-          "lng": 23.8047
-        },
-        "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greek Real Estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "Athens apartment buildings suburbs",
-        "he": {
-          "title": "ראשי ערים בצפון אתונה מתנגדים לתוכנית בנייה חדשה",
-          "seoTitle": "נדל\"ן באתונה: ראשי ערים מתנגדים לתוכנית בנייה",
-          "seoDesc": "ראשי ערים בצפון אתונה יוצאים נגד תוכנית להוספת שטחי בנייה, ומזהים פגיעה בתשתיות ובאיכות החיים. כל הפרטים למשקיעים ביוון.",
-          "keywords": [
-            "נדל\"ן ביוון",
-            "דירה באתונה",
-            "השקעה בנדל\"ן ביוון",
-            "אתונה",
-            "עיריות באתונה"
-          ],
-          "dek": "תוכנית ממשלתית להעברת זכויות בנייה בצפון אטיקה מעוררת סערה מקומית. ראשי הערים מזהירים מעומס על התשתיות ומבטיחים מאבק משפטי.",
-          "tldr": [
-            "ראשי ערים בצפון אתונה מתנגדים לתוכנית בנייה",
-            "התוכנית צפויה להוסיף מאות אלפי מטרים רבועים",
-            "הרשויות המקומיות מאיימות בפנייה לערכאות משפטיות"
-          ],
-          "means": "שוק הנדל\"ן בא토נה ממשיך לרכז עניין רב, אך חשוב לעקוב אחר שינויי מדיניות ותכנון עירוני. משקיעים הרוכשים נכסים באזור צפון אתונה צריכים להתעדכן בעמדות הרשויות המקומיות ובתהליכי התכנון הממשלתיים. מומלץ להתייעץ עם אנשי מקצוע מקומיים לפני כל רכישה.",
-          "body": "תוכנית ממשלתית חדשה להעברת זכויות בנייה בצפון אטיקה נתקלת בהתנגדות עיקשת מצד ראשי הערים באזור, המזהירים מפני פגיעה אקוטית בתשתיות העירוניות ובאיכות חייהם של התושבים. מדובר ביוזמה המשתלבת בתוכנית הרפורמה לתכנון עירוני של קונסטנטינוס דוקסיאדיס, המטפלת באזורי קליטה לבנייה נוספת.\n\n## התנגדות גורפת של ראשי הערים\nראשי רשויות רבים בצפון אתונה הודיעו כי לא יקבלו את התוכנית המאפשרת תוספת של שטחי בנייה באזורים שכבר בנויים בצפיפות גבוהה. לדבריהם, הוספת מטרים רבועים של בנייה תייצר לחץ כבד נוסף על מערכות התחבורה, מקומות החנייה, ניקוז מי הגשמים ורשתות השירות הציבורי, לצד צמצום השטחים הירוקים.\n\nהעיר חלנדרי צפויה לקבל את התוספת הגדולה ביותר במסגרת ההצעה. ראשי ערים נוספים, בהם פילოთאי-פסכיכו, כיפיסיה, ניאה יוניה, פפאגו-חולרגוס וליקובריסי-פפקי, הביעו התנגדות נחרצת ודרשו למשוך את התוכנית או להסדיר תחילה את התשתיות הקיימות טרם הרחבת הבנייה.\n\n## צעדים משפטיים ולוחות זמנים להתנגדויות\nבמסגרת ההליך הממשלתי, פורסמה מחקר השפעה סביבתית אסטרטגית המזמין את הציבור והרשויות להגיש הערות בכתב. עיריות שונות החלו לפרסם את ההודעות לציבור, כאשר עיריית חלנדרי פרסמה מחדש את ההודעה. תקופת ההתייעצות הציבורית מוגבלת בזמן ונקבעה ל-60 יום ממועד הפרסום באתר המשרד לאיכות הסביבה והאנרגיה ברחוב אמאליאדוס באתונה.\n\nראשי הרשויות המקומיות הבהירו כי יגישו את התנגדויותיהם הרשמיות במהלך תקופת ההתייעצות. במקרה שהממשלה תאשר את התוכנית חרף ההסתייגויות, הם נערכים לנקוט הצעדים משפטיים, לרבות פנייה למועצת המדינה של יוון.\n\n## שאלות נפוצות\n**האם התוכנית כבר אושרה רשמית?**\nנכון לעתה, שום אזור קליטה עדיין לא קיבל אישור סופי והתוכנית נמצאת בשלב ההתייעצות הציבורית.\n\n**עד מתי ניתן להגיש התנגדויות לתוכנית הבנייה?**\nהציבור והרשויות המקומיות יכולים להגיש הערות והתנגדויות בכתב בתוך 60 יום מפרסום המסמכים באתר משרד איכות הסביבה והאנרגיה."
-        },
-        "en": {
-          "title": "Northern Athens Mayors Oppose New Building Rights Transfer",
-          "seoTitle": "Athens Real Estate: Mayors Oppose Building Rights Plan",
-          "seoDesc": "Mayors across northern Athens oppose a proposed building rights transfer, warning of strain on infrastructure. What it means for property in Greece.",
-          "keywords": [
-            "real estate in Greece",
-            "Athens property",
-            "Greek property market",
-            "Athens",
-            "Greece development"
-          ],
-          "dek": "A proposed government plan allowing extra construction in northern Athens suburbs faces strong opposition from local mayors, threatening legal action.",
-          "tldr": [
-            "Northern Athens mayors oppose building rights transfer",
-            "Plan could add hundreds of thousands of square metres",
-            "Local leaders threaten legal appeals if approved"
-          ],
-          "means": "Property investors looking at Athens and its northern suburbs should monitor local planning regulations and administrative updates carefully. Urban development policies and municipal opposition can influence the timeline and character of real estate projects. Always consult local professionals for guidance.",
-          "body": "A proposed building rights transfer in the northern sector of Attica has drawn sharp opposition from local mayors, who warn that additional construction will overwhelm existing infrastructure and diminish residents' quality of life. The initiative forms part of the Konstantinos Doxiadis urban planning reform program managed by the Environment and Energy Ministry.\n\n## Opposition from Northern Suburbs\nMayors across northern Athens argue that their municipalities are already densely built and under pressure regarding housing and daily services. They contend that adding hundreds of thousands of square metres of construction would severely strain local roads, parking spaces, public transport, stormwater drainage, and schools.\n\nHalaniari is slated to take the largest proposed increase under the study. Mayors from other municipalities, including Filothei-Psychiko, Kifissia, Nea Ionia, Papagou-Holargos, and Lykovrysi-Pefki, have similarly rejected changes to residential neighborhoods, demanding that the government prioritize infrastructure before adding density.\n\n## Public Consultation and Legal Steps\nThe Environment and Energy Ministry has published a strategic environmental impact study detailing the receiving zones. A public notice invites written comments to the ministry's environmental licensing directorate within 60 days of publication. The complete consultation file is accessible online and at the ministry offices on Amaliados Street in Athens.\n\nLocal leaders stated they intend to submit formal objections during the consultation window. Several mayors announced plans to pursue legal action or appeal directly to Greece's Council of State if the government proceeds to approve the plan without modifications.\n\n## FAQ\n**Has the building rights transfer been officially approved?**\nNo receiving zone has received final approval yet, as the proposal is currently undergoing public consultation.\n\n**How can objections be submitted against the plan?**\nWritten comments can be lodged with the ministry's environmental licensing directorate within 60 days of the publication on the official ministry website."
-        }
-      },
-      "text": "Nikos Kokkalias \n 0 \n 0 \n 0 \n Mayors across northern Athens are opposing a proposed building rights transfer that could allow 584,400 extra square metres of construction in already densely built suburbs. \n They warned that further building would strain roads, parking, transport networks and public infrastructure. It would also cut green space and residents’ quality of life.\n In particular, Halandri would take the largest proposed increase, at 217,300 square metres. The dispute matters for suburbs already under pressure on housing and daily services. Greek City Times has reported on Athens rents .\n “We want infrastructure, not additional construction,” Nea Ionia Mayor Panagiotis Manouris said. He argued, however, that the Athens basin needs to expand horizontally, rather than take taller apartment buildings.\n Read more: What €1 Million Buys You In Attica Luxury Property Market \n Filothei-Psychiko Mayor Haralambos Bonatsos said his municipality would not accept a building rights transfer as a receiving zone. Similarly, Kifissia Mayor Vassilis Xypolytas rejected changes to the character of residential neighbourhoods.\n Halandri Mayor Simos Roussos said stormwater drainage and transport networks were already overstretched.\n Following those comments, mayors of Papagou-Holargos and Lykovrysi-Pefki called for the proposal to be withdrawn. They cited inadequate schools, green spaces and infrastructure.\n Local leaders said they would submit objections during the consultation. They would pursue legal action if the government proceeds.\n Lykovrysi-Pefki Mayor Marios Psychalis said his municipality would appeal to Greece’s Council of State if the government approves the plan.\n The Environment and Energy Ministry has set out the building rights transfer in a study. It covers receiving zones for the northern sector of Attica. That work forms part of the Konstantinos Doxiadis urban planning reform program.\n At the same time, officials have put a strategic environmental impact study out for public comment. The Municipality of Halandri republished that notice on 6 November .\n It invited written comments to the ministry’s environmental licensing directorate within 60 days of publication on the ministry site. The full consultation file is on the ministry’s website , and at its offices on Amaliados Street in Athens.\n However, no receiving zone has approval yet. A building rights transfer would let extra floor area move onto plots in designated zones. That would add height and density where the study allows it.\n In the meantime, the government has been trying to ease housing pressures through separate measures even so, northern mayors say their municipalities need infrastructure first.\n Until the consultation closes, residents and local authorities can still lodge objections to the building rights transfer.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Police Bust AI Voice Cloning Gang in €1 Million Scam Operation \n Advertising\n Athens Bureau \n Athens Bureau is Greek City Times’ news desk in Athens, reporting on Greek politics, society, economy, culture, and breaking national news for readers in Greece and the diaspora.\n Previous Article \n Turkey Challenges Greece Over Crete-Cyprus Power Cable Surveys\n Next Article \n Greek Inflation Jumps to 5.7% as One Bill Rises 80%\n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Οι δήμαρχοι των βορείων προαστίων αντιδρούν στη μεταφορά συντελεστή δόμησης",
-        "dek": "Ένα προτεινόμενο κυβερνητικό σχέδιο που επιτρέπει επιπλέον δόμηση στα βόρεια προάστια της Αθήνας συναντά την έντονη αντίθεση των τοπικών δημάρχων, οι οποίοι απειλούν με προσφυγή στη δικαιοσύνη.",
-        "tldr": [
-          "Οι δήμαρχοι των βορείων προαστίων αντιτίθενται στη μεταφορά συντελεστή δόμησης",
-          "Το σχέδιο θα μπορούσε να προσθέσει εκατοντάδες χιλιάδες τετραγωνικά μέτρα",
-          "Οι τοπικοί ηγέτες απειλούν με νομικές προσφυγές εάν εγκριθεί"
+          "Οι πάροχοι ηλεκτρικής ενέργειας δεν θα μπορούν να διακόπτουν το ρεύμα σε νοικοκυριά όσο εκκρεμεί επίσημη αμφισβήτηση λογαριασμού.",
+          "Τα νησιά θα συνδεθούν με το ηπειρωτικό δίκτυο για να μειωθεί το ενεργειακό κόστος και η εξάρτηση από το πετρέλαιο.",
+          "Οι προμηθευτές υποχρεούνται πλέον να προσφέρουν συμβόλαια ηλεκτρικής ενέργειας σταθερής τιμής διάρκειας ενός έτους."
         ]
       },
       "notified": true
@@ -2022,12 +1894,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-10T22:49:28.921Z",
+      "at": "2026-11-11T02:20:18.572Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-10T22:49:29.867Z",
+      "at": "2026-11-11T02:20:19.366Z",
       "items": 1
     },
     "civilprotection": {
@@ -2038,27 +1910,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-10T22:49:32.051Z",
-      "items": 3
+      "at": "2026-11-11T02:20:20.887Z",
+      "items": 2
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-10T22:49:32.513Z",
+      "at": "2026-11-11T02:20:21.168Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-10T22:49:33.546Z",
+      "at": "2026-11-11T02:20:21.917Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-10T22:49:34.399Z",
-      "items": 4
+      "at": "2026-11-11T02:20:22.957Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-10T22:49:35.435Z",
+      "at": "2026-11-11T02:20:23.404Z",
       "items": 10
     },
     "toi-greece": {
@@ -2069,22 +1941,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-10T22:49:35.746Z",
+      "at": "2026-11-11T02:20:23.969Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-10T22:49:35.879Z",
+      "at": "2026-11-11T02:20:24.036Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-10T22:49:36.802Z",
-      "items": 3
+      "at": "2026-11-11T02:20:24.301Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-10T22:49:37.319Z",
+      "at": "2026-11-11T02:20:24.706Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2094,12 +1966,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-10T22:49:30.946Z",
+      "at": "2026-11-11T02:20:19.863Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-10T22:49:37.777Z",
+      "at": "2026-11-11T02:20:25.380Z",
       "items": 0
     },
     "hcg": {
@@ -2110,45 +1982,57 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-10T22:49:39.138Z",
+      "at": "2026-11-11T02:20:26.492Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-10T22:49:39.408Z",
+      "at": "2026-11-11T02:20:26.744Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-10T22:49:39.642Z",
+      "at": "2026-11-11T02:20:26.926Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-10T22:49:39.922Z",
+      "at": "2026-11-11T02:20:27.165Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-10T22:49:40.257Z",
-      "items": 8
+      "at": "2026-11-11T02:20:27.548Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-10T22:49:40.642Z",
+      "at": "2026-11-11T02:20:27.919Z",
       "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-11",
-    "count": 1,
+    "count": 3,
     "published": [
       {
         "slug": "greece-heating-allowance-2026",
         "title": "Greece heating allowance: MyThermansi platform opens for 2026-2027",
         "at": "2026-11-11T00:19:19+02:00",
         "section": "living"
+      },
+      {
+        "slug": "greek-inflation-october-2026",
+        "title": "Greek inflation rises to 5.7 percent in October",
+        "at": "2026-11-11T04:19:15+02:00",
+        "section": "living"
+      },
+      {
+        "slug": "greece-railway-safety-digital-tracking",
+        "title": "Greece Upgrades Railway Safety with New Digital Tracking System",
+        "at": "2026-11-11T04:21:37+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2156,6 +2040,16 @@
         "title": "French Warships Deploy to Escort Greece-Cyprus Cable Survey Vessel",
         "reason": "Ίδιο θέμα με «Greece Rejects Turkish Approval for Cyprus Cable» – δεν γράφτηκε ξανά",
         "at": "2026-11-10T22:20:00.549Z"
+      },
+      {
+        "title": "Northern Athens Mayors Oppose New Building Rights Transfer",
+        "reason": "Ουδέτερη εκδοχή: Αριθμοί που δεν υπάρχουν στην πηγή: 584000",
+        "at": "2026-11-11T02:20:16.177Z"
+      },
+      {
+        "title": "Αλμα του Airbnb στα νότια προάστια - Kathimerini",
+        "reason": "Ίδιο θέμα με «Greece: Property prices continue to rise amid housing shortage» – δεν γράφτηκε ξανά",
+        "at": "2026-11-11T02:21:22.180Z"
       }
     ],
     "errors": [],
@@ -2395,11 +2289,28 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-10T22:49:41.576Z",
-    "considered": 1,
-    "picked": 0,
+    "at": "2026-11-11T02:21:21.305Z",
+    "considered": 18,
+    "picked": 5,
     "items": [
-      "· gct | Greece Has the Second-Lowest Average Salary in the EU, Eurostat Says"
+      "✓ gct | Greek Counter-NAVTEX Invalidates Turkish Maritime Notice",
+      "· gct | Qatar Airways Launches Global Flight Sale With Discounts Until June 2027",
+      "· gct | Iran Peace Deal Hopes See Global Oil Prices Drop",
+      "✓ gct | New Trains and Digital Monitoring to Transform Greek Railways",
+      "· gct | Lost Sanctuary of Asclepius Unearthed in Major Discovery",
+      "· ingr | Ιράν: Θα χτυπήσουμε χωρίς γεωγραφικούς περιορισμούς στόχους και ηγέτες ΗΠΑ και Ισραήλ",
+      "✓ gct | Greece Introduces Sweeping Changes to its Electricity Market",
+      "· gct | Greek University Students Win Global Technology Opportunity",
+      "· gct | Meghan Markle Father Jailed After Removal of Ankle Monitor",
+      "· gct | Michalis Hatzigiannis Teams Up With Anelia for New Song",
+      "· gct | Greek NGO Faces Serious Allegations Over Sick Children Fundraising",
+      "· gct | Agios Menas Feast Day 2026: The Patron Saint of Heraklion",
+      "· gct | Peter Diamandis Just Called Out the Robots That Dance—And Pointed at Yiayia’s Bathroom Ins",
+      "· gct | Burwood Greek Street Fair Returns With Food, Music and Dancing",
+      "✓ gct | Societies Warn Diabetes Centres Face Specialist Shortages",
+      "· gct | Italian Chef Defends Decision That Cost Him His Brisbane Job",
+      "✓ gn-kathimerini | Αλμα του Airbnb στα νότια προάστια - Kathimerini",
+      "· gn-iefimerida | Αποφυλακίζεται ο δήμαρχος Στυλίδας, Γιάννης Αποστόλου, για τη φωτιά στη Βοιωτία -Τι δήλωσε"
     ]
   },
   "evergreenDone": [
