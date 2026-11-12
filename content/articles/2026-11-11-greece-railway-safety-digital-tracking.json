@@ -2,12 +2,16 @@
   "slug": "greece-railway-safety-digital-tracking",
   "section": "travel",
   "publishedAt": "2026-11-11T04:21:37+02:00",
-  "updatedAt": null,
+  "updatedAt": "2026-11-12T11:43:33+02:00",
   "sensitive": false,
   "sponsored": false,
   "breaking": false,
   "geo": null,
   "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/11/11/greece-launches-real-time-train-tracking-to-boost-rail-safety/"
+    },
     {
       "name": "Greek City Times",
       "url": "https://greekcitytimes.com/2026/11/11/new-trains-and-digital-monitoring-to-transform-greek-railways/"
@@ -24,42 +28,26 @@
   },
   "alert": null,
   "he": {
-    "title": "מהפכה בבטיחות הרכבות ביוון: מערכת מעקב דיגיטלית חדשה",
-    "seoTitle": "רכבות ביוון: מערכת מעקב דיגיטלית חדשה לבטיחות הנוסעים",
-    "seoDesc": "יוון משיקה את פלטפורמת Railway.gov.gr למעקב אחר רכבות בזמן אמת ושימוש בבינה מלאכותית לשיפור הבטיחות בנסיעות ברחבי המדינה.",
-    "keywords": [
-      "רכבות ביוון",
-      "טיול ביוון",
-      "תחבורה ביוון",
-      "אתונה סלוניקי רכבת"
-    ],
-    "dek": "ראש ממשלת יוון הציג מערכת דיגיטלית חדשה למעקב אחר מיקום רכבות ושיפור התקשורת בין הנהגים לתחנות, כחלק מתוכנית מקיפה להגברת הבטיחות ברשת הרכבות הלאומית.",
+    "title": "יוון משיקה מערכת דיגיטלית למעקב בזמן אמת אחרי רכבות לשיפור בטיחות הנסיעה",
+    "dek": "ממשלת יוון מציגה פלטפורמה דיגיטלית חדשה המעניקה לציבור ולמרכז הבקרה תמונת מצב חיה של הרכבות ברשת הארצית סביב השעון.",
     "tldr": [
-      "הושקה פלטפורמה דיגיטלית המאפשרת מעקב אחר מיקום רכבות בזמן אמת.",
-      "מערכות בינה מלאכותית ינטרו את התקשורת בין נהגי הרכבות למנהלי התחנות.",
-      "רכבות חדשות יצטרפו לשירות החל מתחילת שנת 2027."
+      "הושקה פלטפורמת railway.gov.gr למעקב חי אחר תנועת הרכבות.",
+      "המערכת מנטרת תנועה, מזהה סטיות מנהלי הפעלה ושולחת התרעות אוטומטיות.",
+      "היוזמה נתמכת בתרומה של איגוד בעלי האניות היווניות כחלק מהמאמץ לשקם את אמון הציבור."
     ],
-    "means": "עבור ישראלים המתכננים נסיעות ברכבת בין אתונה לסלוניקי, המערכת החדשה תאפשר בעתיד הקרוב לצפות בזמני הגעה מדויקים ובמיקום הרכבת בזמן אמת. מדובר בצעד משמעותי לשיפור השקיפות והבטיחות בנסיעות בין הערים המרכזיות ביוון.",
-    "body": "## טכנולוגיה חדשה ברשת הרכבות\nראש ממשלת יוון, קיריאקוס מיצוטאקיס, הכריז על שורה של צעדים טכנולוגיים שמטרתם לשדרג את בטיחות הרכבות במדינה. גולת הכותרת היא השקת הפלטפורמה הדיגיטלית Railway.gov.gr, שנועדה לספק מידע מדויק על מיקום הרכבות בזמן אמת. המערכת פותחה לאחר שהתברר כי טכנולוגיות מיקום קונבנציונליות אינן מסוגלות לזהות במדויק את המסילה הספציפית שעליה נעה הרכבת, מה שחייב מיפוי מחדש של כל רשת המסילות ביוון.\n\n## בינה מלאכותית לשיפור התקשורת\nבנוסף למעקב הגיאוגרפי, המערכת כוללת כלי בינה מלאכותית מתקדמים. כלים אלו נועדו לעבד ולנטר את התקשורת הקולית בין נהגי הרכבות לבין מנהלי התחנות. לפי דברי ראש הממשלה, השילוב בין הטכנולוגיה למקצועיות של צוותי הרכבת הניב תוצאות מרשימות בשלבי הפיתוח, והוא צפוי לחזק את המשמעת התפעולית לאורך כל הרשת.\n\n## מה זה אומר עבור הנוסעים?\nהפלטפורמה החדשה לא תשמש רק את מפעילי הרכבות, אלא תהיה נגישה גם לציבור הרחב. נוסעים, בני משפחה וחברים יוכלו להתעדכן במיקום הרכבת ובזמני ההגעה הצפויים ליעדם. במקביל, חברת Hellenic Train כבר קיבלה את שתי הרכבות הראשונות מדגם חדש, שצפויות להיכנס לשירות פעיל בתחילת שנת 2027. צעדים אלו מגיעים כחלק מהמאמץ הלאומי להחזיר את אמון הציבור ברכבות לאחר אסון טמפי, תוך השקעה בתשתיות ובמערכות בקרה אירופאיות (ETCS).\n\n## שאלות נפוצות\n**האם ניתן כבר לעקוב אחר הרכבות ביוון בזמן אמת?**\nהממשלה השיקה את פלטפורמת Railway.gov.gr כחלק ממהלך לשיפור השקיפות, וניתן לבדוק את זמינות המידע באתר הרשמי.\n**מתי יתחילו לפעול הרכבות החדשות ביוון?**\nהרכבות החדשות שהגיעו לידי חברת Hellenic Train צפויות להיכנס לשירות פעיל ברשת הרכבות הלאומית החל מתחילת שנת 2027."
+    "means": "ישראלים המטיילים ביוון ומתכננים להשתמש ברכבות בין יתרונות התחבורה – כמו בקו בין אתונה לסלוניקי – יוכלו מעתה לעקוב אחר מיקום הרכבת בזמן אמת ישירות מהטלפון הנייד. מומלץ להתעדכן בלוחות הזמנים הרשמיים באתרים הייעודיים טרם הנסיעה.",
+    "body": "## מעקב חי אחר רכבות ביוון\n\nממשלת יוון השיקה פלטפורמה דיגיטלית חדשה בשם railway.gov.gr, שנועדה להוסיף שכבת הגנה ובטיחות נוספת לרשת הרכבות הארצית. המערכת הוצגה במעמד ראש הממשלה קיריאקוס מיצוטאקיס בדפו הישן של קו פירֵאוס–פלופונסוס, והיא מעניקה לציבור הרחב ולמרכז הבקרה באכארנס תצפית חיה ורציפה על מיקום הרכבות מסביב לשעון.\n\nמעבר למיקום גיאוגרפי חי, המערכת מפקחת ברציפות על תנועת הקווים, מזהה חריגות מנהלי ההפעלה ומייצרת התרעות אוטומטיות במצבים של סיכון להתנגשות. בנוסף, נעשה שימוש בבינה מלאכותית לניתוח התקשורת המוקלטת בין נהגי הקטרים למנהלי התחנות, במטרה לוודא כי כל פרוטוקולי הבטיחות נשמרים כהלכה.\n\n## הרקע לפיתוח המערכת והטכנולוגיה\n\nהרעיון למערכת החל משאלה פשוטה שהציג ראש הממשלה לגבי היכולת לדעת בכל רגע נתון היכן נמצאת רכבת, בדומה למעקב אחר שליח משלוחים. מאחר שמערכות מיקום סלולריות רגילות לא סיפקו דיוק מספיק לגבי המסילה המדויקת שבה נוסעת הרכבת, נדרש מיפוי מחודש של כל רשת המסילות מתחילת הדרך.\n\nהפרויקט התאפשר הודות לתרומה מטעם איגוד בעלי האניות היווניות וחברת האחריות החברתית SYN-ENOSIS, בתמיכתם של 26 בעלי אניות. הפלטפורמה אינה באה במקום מערכות הבטיחות הקיימות אלא פועלת עליהן במקביל, מתוך תפיסה שהטכנולוגיה נועדה לצמצם ככל הניתן את טעויות האנוש.\n\n## צעדים לשיקום אמון הנוסעים\n\nעבור הממשלה, ההשקה היא חלק ממאמץ רחב להחזיר את האמון הציבורי בתחבורה המסילתית מאז אסון טמפי שהתרחש בפברואר 2023. לדברי ראש הממשלה, מערכות האיתות והשלטון מרחוק מכסות כיום את מלוא אורכו של הקו הראשי במדינה.\n\nהורים הממתינים לילדיהם הנוסעים ברכבת מאתונה לסלוניקי יוכלו מעתה לבדוק בטלפון הנייד את מיקומו המדויק של הקרון. צעד זה מתווסף לשורת שדרוגים ברשת התחבורה הארצית לקראת הפעלת קרונות חדשים בשירות החברות המפעילות.\n\n## שאלות נפוצות\n\n**האם ניתן לעקוב אחרי הרכבות ביוון בזמן אמת?**\nכן, דרך פלטפורמת railway.gov.gr החדשה יכולים הנוסעים והציבור לצפות במיקום הרכבות ברשת הארצית סביב השעון.\n\n**אילו עוד יכולות יש למערכת הבטיחות החדשה?**\nהיא מזהה סטיות מנהלי הפעלה, שולחת התרעות אוטומטיות במצבי סיכון ומנתחת באמצעות בינה מלאכותית את התקשורת בין הנהגים למנהלי התחנות.\n\n**כיצד נומנה המערכת המקוונת?**\nהפרויקט מומן באמצעות תרומה של איגוד בעלי האניות היווניות וחברת SYN-ENOSIS, יחד עם תמיכתם של 26 בעלי אניות."
   },
   "en": {
-    "title": "Greece Upgrades Railway Safety with New Digital Tracking System",
-    "seoTitle": "Greece Railway Safety: New Digital Tracking System Launched",
-    "seoDesc": "Greece has launched the Railway.gov.gr platform for real-time train tracking and AI-powered safety monitoring across the network.",
-    "keywords": [
-      "Greece trains",
-      "Greek railway safety",
-      "Athens to Thessaloniki train",
-      "Hellenic Train"
-    ],
-    "dek": "Prime Minister Kyriakos Mitsotakis unveiled a new digital platform for real-time train tracking and AI monitoring, aiming to enhance safety and transparency across the Greek rail network.",
+    "title": "Greece Launches Real-Time Train Tracking Platform to Boost Rail Safety",
+    "dek": "Greece introduces a live digital platform allowing the public and control centers to monitor train locations and network traffic around the clock.",
     "tldr": [
-      "A new digital platform, Railway.gov.gr, provides real-time train location tracking.",
-      "AI tools are now monitoring communications between train drivers and stationmasters.",
-      "New trains are scheduled to enter service on the Greek network starting in early 2027."
+      "The railway.gov.gr platform was launched to provide live train geolocation.",
+      "The system monitors line traffic, detects rule deviations, and sends automated alerts.",
+      "The initiative is supported by a donation from Greek shipowners to restore public trust in rail travel."
     ],
-    "means": "For travelers using the Greek rail network, such as the popular Athens–Thessaloniki line, these updates mean improved access to real-time arrival information and enhanced safety protocols. Passengers can look forward to more transparent travel updates as the new digital systems become fully integrated.",
-    "body": "## A Technological Leap for Greek Railways\nGreek Prime Minister Kyriakos Mitsotakis has announced significant safety upgrades for the national railway network. The core of this initiative is the new digital platform, Railway.gov.gr, designed to provide precise, real-time location tracking for every train in operation. Developing this system was a complex technical challenge, as it required a complete remapping of the railway network to accurately identify which specific track a train is occupying at any given time.\n\n## AI-Enhanced Safety Protocols\nBeyond location tracking, the government has integrated artificial intelligence tools to monitor communications between train drivers and stationmasters. According to the Prime Minister, these AI tools have already shown impressive results during the development phase. The goal is to use technology to support professional operations, strengthen network discipline, and reduce the potential for human error.\n\n## Future Improvements for Passengers\nThis initiative is part of a broader commitment to restore public trust in the national railway system. The platform will eventually allow the public to access information regarding train locations and expected arrival times, making travel planning easier for passengers and their families. Furthermore, Hellenic Train has already received its first two new trains, which are expected to begin service at the start of 2027. These efforts are complemented by the ongoing installation of the European Train Control System (ETCS) across the main railway lines.\n\n## FAQ\n**Can I track trains in Greece in real-time now?**\nThe government has launched the Railway.gov.gr platform to provide better transparency, and passengers should check the official site for current tracking capabilities.\n**When will the new trains begin operating?**\nHellenic Train has received its first two new units, which are scheduled to enter service on the Greek network starting in early 2027."
+    "means": "Travelers visiting Greece and planning to use intercity trains, such as the line between Athens and Thessaloniki, can now track train locations live via their mobile devices. It is recommended to check official schedules and updates before traveling.",
+    "body": "## Live Train Tracking Across Greece\n\nGreece has launched a new digital platform named railway.gov.gr, designed to add an extra layer of safety and transparency to the national railway network. Presented by Prime Minister Kyriakos Mitsotakis at the former depot of the Piraeus-Peloponnese railway line, the platform gives both the public and the Acharnes Railway Center a live, around-the-clock view of trains operating nationwide.\n\nBeyond live geolocation, the system continuously monitors line traffic, detects deviations from operational rules, and issues automated alerts when collision risks arise. It also integrates artificial intelligence to analyze recorded communications between train drivers and station masters, ensuring safety protocols are strictly followed.\n\n## Developing the Network Tracking Technology\n\nThe initiative originated from an inquiry regarding why package deliveries can be tracked easily while train locations were harder to pinpoint. Because standard mobile geolocation could not determine exact track alignment, the entire rail network had to be mapped from scratch.\n\nThe project was made possible through a donation by SYN-ENOSIS, the social responsibility vehicle of Greek shipowners, alongside support from 26 shipping leaders. Officials emphasized that the tool operates on top of existing safety mechanisms to minimize human error.\n\n## Restoring Confidence in Greek Railways\n\nThe launch forms part of a broader governmental effort to rebuild public trust following the February 2023 Tempi rail tragedy. Signaling and remote-control systems now cover the main national line, while new rolling stock is scheduled to enter service.\n\nFor passengers and families—such as parents tracking a child traveling between Athens and Thessaloniki—the ability to view exact train locations on a phone represents a modern step toward a more reliable transport service.\n\n## FAQ\n\n**Can passengers track Greek trains in real time?**\nYes, the new railway.gov.gr platform allows the public and passengers to view train locations across the national network live.\n\n**What safety features does the platform include?**\nIt tracks live geolocation, detects operational rule deviations, sends automated risk alerts, and uses AI to analyze staff communications.\n\n**How was the tracking platform funded?**\nIt was funded through a donation by SYN-ENOSIS and the Union of Greek Shipowners, backed by 26 shipping contributors."
   },
   "meta": {
     "itemId": "2e7d1fdb1653",
@@ -67,6 +55,7 @@
     "sourceHash": "593a018e1f62",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-11-12T04:10:57.885Z",
-    "official": false
+    "official": false,
+    "updatedFrom": "7c6aad144dfd"
   }
 }
