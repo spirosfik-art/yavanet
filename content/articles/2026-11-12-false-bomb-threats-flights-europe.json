@@ -1,0 +1,56 @@
+{
+  "slug": "false-bomb-threats-flights-europe",
+  "section": "israelis",
+  "publishedAt": "2026-11-12T20:12:12+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Europe",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/12/eu-makes-arrests-over-false-bomb-threats-on-flights/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/12932352/pexels-photo-12932352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A commercial airplane parked at an illuminated airport terminal during dusk, showcasing modern aviation travel.",
+    "credit": "Photo: Atlantic Ambience / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/closeup-of-an-airplane-on-an-airport-at-dusk-12932352/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "איומי שווא על טיסות באירופה: בוצעו מעצרים",
+    "dek": "נציב התחבורה האירופי אישר כי בוצעו מעצרים בעקבות גל איומי פצצה כוזבים על טיסות, בהן שתי טיסות של חברת אייג'אן.",
+    "tldr": [
+      "בוצעו מעצרים ראשונים בפרשת איומי השווא על טיסות באירופה.",
+      "כ-45 איומים התקבלו בשבוע שעבר, רובם התבררו ככוזבים.",
+      "נכון לעכשיו, האיחוד האירופי לא מתכנן להחמיר את נהלי הביטחון."
+    ],
+    "means": "המידע חשוב לישראלים הטסים ליוון וממנה, שכן טיסות של חברת התעופה היוונית אייג'אן היו בין היעדים לאיומי השווא הללו.",
+    "body": "רשויות האיחוד האירופי אישרו כי בוצעו מעצרים במסגרת חקירה של גל איומי פצצה כוזבים שכוונו נגד טיסות ברחבי אירופה בשבוע שעבר. נציב התחבורה והתיירות האירופי, אפוסטולוס ציציקוסטאס, עדכן כי כ-40 עד 45 איומים התקבלו באמצעות שיחות טלפון ודואר אלקטרוני, אך כולם התבררו כהודעות שווא. מתוך כלל האירועים, ארבע טיסות בלבד הוסטו ממסלולן המקורי. בין הטיסות שהושפעו היו שתי טיסות של חברת אייג'אן ב-5 בנובמבר, שבעקבותיהן הופעלו נהלי ביטחון סטנדרטיים. נכון לעכשיו, האיחוד האירופי הודיע כי אין צורך בנקיטת צעדי ביטחון נוספים בנמלי התעופה, והפעילות נמשכת כסדרה. החקירה בנושא נמשכת כדי לאתר את האחראים למעשים."
+  },
+  "en": {
+    "title": "Arrests made following false bomb threats on flights",
+    "dek": "European authorities have confirmed arrests regarding a wave of hoax bomb threats targeting flights, including two Aegean services.",
+    "tldr": [
+      "Arrests have been made in connection with recent flight bomb hoaxes.",
+      "Around 45 false threats were reported across Europe last week.",
+      "No additional security measures are currently required by the EU."
+    ],
+    "means": "This update is relevant for travelers in Greece, as Aegean Airlines flights were among those targeted by the false threats.",
+    "body": "European authorities have confirmed that arrests have been made following a series of false bomb threats targeting flights across Europe. European Commissioner for Sustainable Transport and Tourism, Apostolos Tzitzikostas, stated that approximately 40 to 45 threats were reported last week, all of which were determined to be hoaxes. While most flights continued as scheduled, four aircraft were diverted as a precaution. Among the affected services were two Aegean Airlines flights on November 5, which triggered standard aviation security protocols. The European Commission has stated that no additional security measures are necessary at this time, and airport operations remain normal. Investigations into the sources of these threats are ongoing."
+  },
+  "meta": {
+    "itemId": "e49670eda0f3",
+    "imageQuery": "Athens International Airport terminal",
+    "sourceHash": "bf123a1fe729",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-12T18:12:13.276Z",
+    "official": false
+  }
+}

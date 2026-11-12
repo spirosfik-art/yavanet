@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/39199105/pexels-photo-39199105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant crowd enjoying a night concert, captured in black and white emphasizing the lively atmosphere.",
+    "credit": "Photo: Berkalp Turper / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/energetic-night-concert-crowd-captured-in-black-and-white-39199105/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -63,6 +68,7 @@
     "itemId": "weekend-2026-11-13",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-11-12T17:46:33+02:00"
+    "checkedAt": "2026-11-12T17:46:33+02:00",
+    "photoTried": true
   }
 }
