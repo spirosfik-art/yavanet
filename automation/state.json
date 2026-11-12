@@ -19,18 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "5673ede4da82": 1793234968714,
-    "a62f840678f1": 1793234968714,
-    "de5bbe6cc82b": 1793234968714,
-    "31ceeec385c2": 1793234968714,
-    "64db2231d1cc": 1793234968714,
-    "721a65f4372c": 1793234968714,
-    "595526a1810a": 1793234968714,
-    "f16ede23edd5": 1793234968714,
-    "8c95727a0bed": 1793234968714,
-    "6d49b001537c": 1793234968714,
-    "7dd64bbe0012": 1793234968714,
-    "aba9c31bad62": 1793234968714,
     "a22e1fb6ef08": 1793257125445,
     "a9acfea1420b": 1793257125445,
     "6301cb920cc3": 1793257125445,
@@ -1753,7 +1741,11 @@
     "38f9e152dffe": 1794440013681,
     "d00c502c704d": 1794440013681,
     "a0dbaeb0bc02": 1794440013681,
-    "919fa026d7f6": 1794440013681
+    "919fa026d7f6": 1794440013681,
+    "f17e47eb1d64": 1794446938067,
+    "d2a95befc41a": 1794446938067,
+    "4b3d8018ae3b": 1794446938067,
+    "991b2fef8cab": 1794446938067
   },
   "pending": {
     "36bfe5": {
@@ -1869,12 +1861,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-11T23:33:23.418Z",
+      "at": "2026-11-12T01:28:48.027Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-11T23:33:24.023Z",
+      "at": "2026-11-12T01:28:48.748Z",
       "items": 0
     },
     "civilprotection": {
@@ -1885,27 +1877,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-11T23:33:25.043Z",
+      "at": "2026-11-12T01:28:50.628Z",
       "items": 2
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-11T23:33:25.189Z",
+      "at": "2026-11-12T01:28:50.854Z",
       "items": 6
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-11T23:33:25.978Z",
+      "at": "2026-11-12T01:28:51.588Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-11T23:33:26.637Z",
-      "items": 6
+      "at": "2026-11-12T01:28:52.385Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-11T23:33:27.312Z",
+      "at": "2026-11-12T01:28:52.946Z",
       "items": 10
     },
     "toi-greece": {
@@ -1916,22 +1908,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-11T23:33:27.682Z",
+      "at": "2026-11-12T01:28:53.460Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-11T23:33:27.778Z",
+      "at": "2026-11-12T01:28:53.596Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-11T23:33:28.151Z",
+      "at": "2026-11-12T01:28:53.727Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-11T23:33:28.300Z",
+      "at": "2026-11-12T01:28:54.141Z",
       "items": 9
     },
     "ynet-greece": {
@@ -1941,12 +1933,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-11T23:33:24.310Z",
+      "at": "2026-11-12T01:28:49.529Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-11T23:33:28.828Z",
+      "at": "2026-11-12T01:28:54.803Z",
       "items": 0
     },
     "hcg": {
@@ -1957,32 +1949,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-11T23:33:30.172Z",
+      "at": "2026-11-12T01:28:55.847Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-11T23:33:30.392Z",
+      "at": "2026-11-12T01:28:56.059Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-11T23:33:30.575Z",
+      "at": "2026-11-12T01:28:56.255Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-11T23:33:30.825Z",
-      "items": 4
+      "at": "2026-11-12T01:28:56.512Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-11T23:33:31.382Z",
-      "items": 5
+      "at": "2026-11-12T01:28:56.826Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-11T23:33:31.892Z",
+      "at": "2026-11-12T01:28:57.231Z",
       "items": 6
     }
   },
@@ -2249,40 +2241,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-11T23:33:33.682Z",
-    "considered": 39,
-    "picked": 4,
+    "at": "2026-11-12T01:28:58.067Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· naftemporiki | COP31: Πεζεσκιάν κατά ΗΠΑ και Ισραήλ για περιβαλλοντική καταστροφή από τις επιθέσεις στο Ι",
-      "· gct | European Court Rules Albania Unjustifiably Detained Greek MEP Fredi Beleri",
-      "· gct | Greek Police Name Scammers That Targeted Elderly People",
-      "✓ gct | Greece Approves Deposit Return System for Plastic Bottles and Cans",
-      "· gct | Greece Expands Housing, Family and Food Assistance",
-      "· gct | Rock Hall Inductee Billy Idol Books Athens Festival Show",
-      "· gct | Greek Police Dismantle Major Drug Trafficking Operation (VIDEO)",
-      "· gct | Greece Makes €35 Million ICEYE Investment for Satellite Factory",
-      "· gct | British Travellers Select Ten Greek Destinations For London Awards",
-      "· ert | Λίβανος: «Η εκλογική ήττα του Τραμπ αντιπροσωπεύει μια ευκαιρία» εκτιμά ο ηγέτης της Χεζμπ",
-      "· gct | Kastoria Honours Greek President During Liberation Anniversary",
-      "· gct | Over 6,000 Bomb Threat Emails Sent to Italian Schools",
-      "· naftemporiki | Βουλή – Τροπολογία ΠΑΣΟΚ: Κατάργηση ηλικιακών περιορισμών για το επίδομα των 400 ευρώ σε σ",
-      "· gct | Panathinaikos Scores Historic European Water Polo Triumph",
-      "· ert | Κ. Χατζηδάκης: Ως εδώ με τη μυθολογία για την ακίνητη περιουσία μου, θα απαντήσω με μηνύσε",
-      "· ingr | Βαρκελώνη: «Να ζούμε, όχι να επιβιώνουμε!» – Περίπου 400.000 διαδηλωτές κατέκλυσαν την πόλ",
-      "· ert | Ισπανία: Εκατομμύρια πολίτες συμμετείχαν στην πρώτη γενική απεργία μετά από 14 χρόνια – Πε",
-      "· gct | Greece Target Group Top Spot in Crucial Netherlands Showdown",
-      "· ert | Ισραήλ: Επιστολή Άιζενκοτ στον Νετανιάχου – Τον καλεί να αποφύγει επικίνδυνες πρωτοβουλίες",
-      "· naftemporiki | Χατζηδάκης κατά Ακρίτα: Ως εδώ με τη μυθολογία, θα απαντήσω με μηνύσεις",
-      "· gct | 2027 Greek Name Days: Full Calendar of Orthodox Name Days",
-      "· gct | Koropi School Pool Fumes Send 13 Pupils to Hospital",
+      "· gct | Nuclear Power Plant Could Generate €4.5 Billion for Greece",
+      "· ert | Γάζα: Τουλάχιστον έξι νεκροί και δεκάδες τραυματίες σε ισραηλινή επίθεση στο νοσοκομείο Νά",
       "· gn-iefimerida | Ισπανία: Εκατοντάδες χιλιάδες διαδηλωτές στην πρώτη γενική απεργία μετά από 14 χρόνια -«Βο",
-      "✓ ingr | Στεγαστική κρίση και ενεργειακή φτώχεια: Η κρυφή σύνδεση που πνίγει την Ευρώπη – Πρωτιά στ",
-      "· naftemporiki | Πεζεσκιάν στην COP31: Οι επιθέσεις των ΗΠΑ-Ισραήλ απελευθέρωσαν τεράστιες ποσότητες ρύπων ",
-      "· naftemporiki | Ο Άιζενκοτ καλεί τον Νετανιάχου να επιδείξει εθνική υπευθυνότητα",
-      "· gn-iefimerida | Περιστέρι-Βαρέζε 101-96: Ασταμάτητη... πτήση και 4/4 στο BCL [βίντεο] - iefimerida.gr",
-      "· naftemporiki | Politico: «Χαμηλές πτήσεις» για την Λαγκάρντ αν θέσει υποψηφιότητα για πρόεδρος της Γαλλία",
-      "· naftemporiki | Ισραήλ: Διεθνής ομάδα ερευνητών ανέπτυξε πειραματική εξέταση αίματος που εντοπίζει τον καρ",
-      "· gn-iefimerida | Χατζηδάκης κατά Ακρίτα: «Ώς εδώ με την \"μυθολογία\" για την ακίνητη περιουσία μου, θα προχω"
+      "· gn-kathimerini | Ιράν: Ζητά αποζημιώσεις για τις περιβαλλοντικές ζημιές από ΗΠΑ και Ισραήλ - Kathimerini"
     ]
   },
   "evergreenDone": [
