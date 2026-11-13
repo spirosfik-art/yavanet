@@ -19,8 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "049e0ea5a27e": 1793321450120,
-    "d38da8607032": 1793321450120,
     "067bade667fa": 1793328911048,
     "4eb7a67a60e6": 1793328911048,
     "7ff7597af0c7": 1793328911048,
@@ -1743,7 +1741,17 @@
     "e1f83d1f58b4": 1794528678088,
     "ccbf825677fa": 1794528678088,
     "89e14d526f0a": 1794528678088,
-    "330477635eb0": 1794528678088
+    "330477635eb0": 1794528678088,
+    "8bb221166859": 1794532432906,
+    "2ff95a1b04ce": 1794532432906,
+    "99975ea27804": 1794532432906,
+    "1eb027ac5a25": 1794532432906,
+    "1899ccca7944": 1794532432906,
+    "f82f958dadd0": 1794532432906,
+    "8cf094847ea0": 1794532432906,
+    "950a385a26a0": 1794532432906,
+    "2e9215ce5202": 1794532432906,
+    "05c889a973cc": 1794532432906
   },
   "pending": {
     "75d3fa": {
@@ -1859,12 +1867,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-13T00:11:05.295Z",
+      "at": "2026-11-13T01:13:43.624Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-13T00:11:06.190Z",
+      "at": "2026-11-13T01:13:44.262Z",
       "items": 0
     },
     "civilprotection": {
@@ -1875,27 +1883,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-13T00:11:07.423Z",
+      "at": "2026-11-13T01:13:45.482Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-13T00:11:07.547Z",
-      "items": 7
+      "at": "2026-11-13T01:13:45.706Z",
+      "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-13T00:11:09.092Z",
+      "at": "2026-11-13T01:13:46.507Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-13T00:11:09.877Z",
+      "at": "2026-11-13T01:13:47.182Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-13T00:11:11.001Z",
+      "at": "2026-11-13T01:13:47.618Z",
       "items": 10
     },
     "toi-greece": {
@@ -1906,22 +1914,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-13T00:11:11.631Z",
+      "at": "2026-11-13T01:13:48.082Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-13T00:11:11.901Z",
+      "at": "2026-11-13T01:13:48.170Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-13T00:11:11.961Z",
-      "items": 5
+      "at": "2026-11-13T01:13:48.409Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T00:11:12.170Z",
+      "at": "2026-11-13T01:13:48.577Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1931,12 +1939,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T00:11:06.620Z",
+      "at": "2026-11-13T01:13:44.819Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-13T00:11:12.984Z",
+      "at": "2026-11-13T01:13:49.177Z",
       "items": 0
     },
     "hcg": {
@@ -1947,32 +1955,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-13T00:11:14.764Z",
+      "at": "2026-11-13T01:13:50.462Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-13T00:11:14.985Z",
+      "at": "2026-11-13T01:13:50.660Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-13T00:11:15.153Z",
+      "at": "2026-11-13T01:13:50.881Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-13T00:11:15.410Z",
+      "at": "2026-11-13T01:13:51.090Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-13T00:11:15.752Z",
-      "items": 8
+      "at": "2026-11-13T01:13:51.437Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-13T00:11:16.122Z",
+      "at": "2026-11-13T01:13:51.895Z",
       "items": 8
     }
   },
@@ -1985,6 +1993,12 @@
         "slug": "greece-severe-weather-heavy-rain-temperature-drop",
         "title": "↻ Weather Reversal in Greece: Heavy Storms, Strong Winds and Sharp Temperature Drop",
         "at": "2026-11-13T02:12:03+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "earthquake-crete-november-2026",
+        "title": "Magnitude 5.1 Earthquake Strikes Southern Greece",
+        "at": "2026-11-13T03:14:09+02:00",
         "section": "breaking"
       }
     ],
@@ -2000,7 +2014,14 @@
         "at": "2026-11-13T00:12:12.685Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "earthquake-crete-november-2026",
+        "at": "2026-11-13T01:14:09.255Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2246,40 +2267,20 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-13T00:11:18.088Z",
-    "considered": 31,
-    "picked": 6,
+    "at": "2026-11-13T01:13:52.906Z",
+    "considered": 10,
+    "picked": 1,
     "items": [
-      "· gct | Carney and Mitsotakis Discuss Stronger Canada-Greece Ties",
-      "· gct | Turkish Aerobatic Team Flies Over Occupied Kyrenia Ahead of November 15",
-      "· ert | Ρωσία: Πυρκαγιές σε βιομηχανική εγκατάσταση στο Βόλγκογκραντ από συντρίμμια drone",
-      "· gct | Peritas: The Dog Alexander the Great Named a City After",
-      "· ert | Nations League: Θρίλερ για την πρόκριση στην οκτάδα – Η Ιταλία έβαλε… φωτιά με το 3-1 επί ",
-      "✓ gct | Housing Drives Almost 40% of Greek Inflation as 1% Stay Levy Is Proposed",
-      "· ingr | Μακάμπι – Χάποελ 80-73: Tο ντέρμπι του Τελ Αβίβ… βάφτηκε κίτρινο",
-      "· naftemporiki | Κλείσιμο με πτώση στη Wall Street η οποία ξεπερνά το σοκ της Nvidia",
-      "· gct | Emily in Paris Final Season Takes Lily Collins to Greece",
-      "✓ gct | Santorini Hotels Struggle to Fill Rooms Despite the Crowds",
-      "✓ gct | Sudanese Migrants Turn to Crete as Arrivals in Greece Surge",
-      "✓ gct | “The Bond Is Strengthening”: Israeli TV Frames Greek Training as Message to Turkey",
-      "· gct | “He Missed the Handshake”: Turkish Press Spins Erdoğan’s Exit During Christodoulides’ Arri",
-      "· ingr | Σε θέση μάχης η Ουάσιγκτον με προειδοποιήσεις προς Ισραήλ και Κόλπο για πόλεμο κατά του Ιρ",
-      "· ert | Γαλλία: Το Παρίσι καταγγέλλει τη «δημαγωγική απόφαση» του Ισραήλ να απαγορεύσει την είσοδο",
-      "· naftemporiki | Η Γαλλία καταγγέλλει τη «δημαγωγική απόφαση» του Ισραήλ να απαγορεύσει την είσοδο στον Μελ",
-      "✓ ingr | Καιρός: Έρχεται ραγδαία αλλαγή με ισχυρές βροχές, καταιγίδες και θυελλώδεις ανέμους – Οι «",
-      "· gct | Kariki, the Tinos Cheese That Ripens Inside a Gourd",
-      "· gct | Microsoft 365 Outage Hits Exchange Online and Other Services Worldwide",
-      "· gct | European Parliament Lifts Immunity of Greek MEP Afroditi Latinopoulou",
-      "· gct | Antiquities Donation Brings Cycladic Figurines to National Archaeological Museum",
-      "· gct | Athens Christmas Tree Lights Up Syntagma Square on 24 November",
-      "· gct | Turkish Frigate Challenges Greek Research Vessel During GSI Cable Survey",
-      "· ingr | Απαγορεύτηκε η είσοδος στο Ισραήλ για τον ηγέτη της ριζοσπαστικής αριστεράς της Γαλλίας, Ζ",
-      "· ingr | Η ΕΕ θα εξετάσει αναστολή της συμφωνίας σύνδεσης με το Ισραήλ – Το πέτυχαν οι υπογραφές 1,",
-      "· ert | Το Ισραήλ απαγορεύει την είσοδο στον ηγέτη της ριζοσπαστικής αριστεράς της Γαλλίας Ζαν-Λικ",
-      "· ert | Pizza Fan: Παραμένουν σε «επιφυλακή» τα συνδικάτα της εστίασης μετά την επαναλειτουργία τη",
-      "· gn-iefimerida | Κεραμέως: Έρχεται νομοσχέδιο που ρυθμίζει τους όρους λειτουργίας για την τεχνητή νοημοσύνη",
-      "✓ gn-iefimerida | Χωρίς τις αισθήσεις της ανασύρθηκε η 35χρονη που έπεσε στις γραμμές του μετρό στον σταθμό ",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
+      "· gct | Greek Australian Chef Anna Polyviou Finds Love After Friendship With TV Star",
+      "· ingr | Σεισμός 4,8 ρίχτερ στον υποθαλάσσιο χώρο νότια της Κρήτης",
+      "· gct | Mehreen Faruqi and GetUp Cite Mass Migration in Push to Drop Lord’s Prayer and Limit China",
+      "· gct | 4.9 Magnitude Earthquake Strikes Off Southern Crete",
+      "· ert | Κρήτη: Σεισμός 4,8 Ρίχτερ στους Καλούς Λιμένες Ηρακλείου",
+      "· gct | Greek Sailor Evangelos Kyriazakos Wins Youth Olympic Gold",
+      "· ingr | Χίθροου: Βίντεο με την τρομακτική απόπειρα προσγείωσης Airbus A321neo, κάνει τον γύρο του ",
+      "✓ usgs | M 5.1 - 39 km S of Moíres, Greece",
+      "· gct | Santorini Hotels Struggle to Fill Rooms Despite the Crowds",
+      "· gct | Sudanese Migrants Turn to Crete as Arrivals in Greece Surge"
     ]
   },
   "evergreenDone": [
@@ -2322,5 +2323,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "earthquake-crete-november-2026",
+      "url": "https://yavanet.gr/a/earthquake-crete-november-2026/",
+      "at": "2026-11-13T01:14:09.255Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה 5.1 מורגשת בדרום יוון",
+        "title_en": "Magnitude 5.1 Earthquake Strikes Southern Greece",
+        "dek_he": "רעידת אדמה בעוצמה 5.1 התרחשה בדרום יוון, במרחק של 39 קילומטרים מדרום למוירס. הרשויות ביוון עוקבות אחר המצב.",
+        "dek_en": "A magnitude 5.1 earthquake has been recorded in southern Greece, located 39 km south of Moíres. Authorities are monitoring the situation.",
+        "section": "breaking",
+        "breaking": true,
+        "image": "https://yavanet.gr/og.png",
+        "post_he": "🔴 רעידת אדמה בעוצמה 5.1 מורגשת בדרום יוון\n\nרעידת אדמה בעוצמה 5.1 התרחשה בדרום יוון, במרחק של 39 קילומטרים מדרום למוירס. הרשויות ביוון עוקבות אחר המצב.\n\nhttps://yavanet.gr/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Magnitude 5.1 Earthquake Strikes Southern Greece\n\nA magnitude 5.1 earthquake has been recorded in southern Greece, located 39 km south of Moíres. Authorities are monitoring the situation.\n\nhttps://yavanet.gr/en/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
