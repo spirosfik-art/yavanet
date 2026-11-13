@@ -1749,7 +1749,9 @@
     "f25efc5b3e7a": 1794556221895,
     "0345fccad2af": 1794556221895,
     "5c7a0bcbc130": 1794556221895,
-    "f4142284bcc4": 1794556221895
+    "f4142284bcc4": 1794556221895,
+    "441a66ffc813": 1794556511956,
+    "7651debad387": 1794556511956
   },
   "pending": {
     "5e8aba": {
@@ -1868,12 +1870,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-13T07:50:10.507Z",
+      "at": "2026-11-13T07:55:00.321Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-13T07:50:11.198Z",
+      "at": "2026-11-13T07:55:01.062Z",
       "items": 0
     },
     "civilprotection": {
@@ -1884,27 +1886,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-13T07:50:12.847Z",
+      "at": "2026-11-13T07:55:02.351Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-13T07:50:13.101Z",
+      "at": "2026-11-13T07:55:02.813Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-13T07:50:14.095Z",
+      "at": "2026-11-13T07:55:03.746Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-13T07:50:14.851Z",
+      "at": "2026-11-13T07:55:04.546Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-13T07:50:15.318Z",
+      "at": "2026-11-13T07:55:05.502Z",
       "items": 10
     },
     "toi-greece": {
@@ -1915,22 +1917,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-13T07:50:15.866Z",
+      "at": "2026-11-13T07:55:06.046Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-13T07:50:15.954Z",
+      "at": "2026-11-13T07:55:06.404Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-13T07:50:16.487Z",
+      "at": "2026-11-13T07:55:07.009Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T07:50:16.965Z",
+      "at": "2026-11-13T07:55:07.407Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1940,12 +1942,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T07:50:12.125Z",
+      "at": "2026-11-13T07:55:01.547Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-13T07:50:17.560Z",
+      "at": "2026-11-13T07:55:07.947Z",
       "items": 0
     },
     "hcg": {
@@ -1956,32 +1958,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-13T07:50:18.729Z",
+      "at": "2026-11-13T07:55:09.460Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-13T07:50:19.079Z",
+      "at": "2026-11-13T07:55:09.720Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-13T07:50:19.254Z",
+      "at": "2026-11-13T07:55:09.899Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-13T07:50:19.497Z",
-      "items": 4
+      "at": "2026-11-13T07:55:10.085Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-13T07:50:19.826Z",
+      "at": "2026-11-13T07:55:10.410Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-13T07:50:20.155Z",
+      "at": "2026-11-13T07:55:10.758Z",
       "items": 7
     }
   },
@@ -2290,34 +2292,12 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-13T07:50:21.895Z",
-    "considered": 24,
-    "picked": 5,
+    "at": "2026-11-13T07:55:11.956Z",
+    "considered": 2,
+    "picked": 0,
     "items": [
-      "· ert | Πρόεδρος Πανελλήνιας Ομοσπονδίας Ξενοδόχων: Αύξηση αφίξεων και εσόδων στον τουρισμό φέτος ",
-      "· ingr | ΑΑΔΕ: Το «έσχες» των Ελλήνων για το 2025 – Τι δήλωσαν για σπίτια, εισοδήματα, ακίνητα και ",
-      "· naftemporiki | Αυτοί επωφελούνται από την κρίση στην Nvidia",
-      "· naftemporiki | Αμύνταιο: Υπό έλεγχο φωτιά που ξέσπασε σε κτηνοτροφική μονάδα",
-      "✓ gct | Kolokotroni Street Closed Over Fears Athens Building Could Collapse",
-      "✓ naftemporiki | Σεισμός 4,8 Ρίχτερ νότια της Κρήτης τα ξημερώματα",
-      "· gct | Court Orders Mediation in Polites Family Estate Dispute",
-      "✓ gct | Greece Weather: Rain, African Dust and Strong Winds on Friday",
-      "· ert | Γάζα: Σφοδρή αντίδραση των Γιατρών Χωρίς Σύνορα για την ισραηλινή επίθεση στο νοσοκομείο Ν",
-      "✓ ert | Ε9: Κανονικά και με το …νόμο η πληρωμή φόρων και αναδρομικών για τα αδήλωτα ακίνητα – Ποιο",
-      "✓ ingr | Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό",
-      "· gct | More Φιλings Brings Bakery and Restaurant Together on One Koukaki Corner",
-      "· gct | Kalomira on Marriage: ‘I Become As Sexy As I Can for Giorgos’",
-      "· gct | Reuters: PAOK Among Six Clubs Set to Join Expanded EuroLeague",
-      "· ert | ΑΑΔΕ: Τι δήλωσαν οι Έλληνες το 2025 για σπίτια, ενοίκια, εισοδήματα και δαπάνες για ακίνητ",
-      "· gct | Operation TorNado: 354 Arrested in Global Dark Web Drug Crackdown",
-      "· gct | Houthi Attacks Paralyse Saudi Air Travel as Airlines Extend Suspensions",
-      "· gct | Nick the Greek: The Cretan Who Became America’s Greatest Gambler",
-      "· gct | Silent Reading Trend Reaches Agrafa at an 1894 Stone Mansion",
-      "· gct | Fraport Greece Passenger Traffic Rises 1.9% in October",
-      "· gct | Interpol Arrests 262 in Mediterranean Migrant Smuggling Crackdown",
-      "· gct | Greek Passport Among World’s Strongest but Ranks 36th for Happiness",
-      "· gct | Princess Olympia of Greece Stars on Vogue Scandinavia Cover",
-      "· gn-iefimerida | Χάος σε πτήση της Frontier Airlines: Πιλότος έκανε αναγκαστική προσγείωση λόγω... διαρροής"
+      "· gct | Kolokotroni Street Closed Over Fears Athens Building Could Collapse",
+      "· ert | Ε9: Κανονικά και με το …νόμο η πληρωμή φόρων και αναδρομικών για τα αδήλωτα ακίνητα – Ποιο"
     ]
   },
   "evergreenDone": [
