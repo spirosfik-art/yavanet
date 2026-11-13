@@ -1,0 +1,56 @@
+{
+  "slug": "greece-israel-military-training-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-13T09:50:06+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Israel",
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/13/bond-is-strengthening-israeli/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11452420/pexels-photo-11452420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A group of soldiers march through a rugged landscape under a threatening sky in Israel.",
+    "credit": "Photo: Tomer Dahari / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/soldiers-walking-on-a-brown-field-11452420/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "שיתוף פעולה צבאי: חיילים יוונים התאמנו עם חטיבת כפיר",
+    "dek": "דיווחים בכלי התקשורת בישראל על אימון משותף של כוחות צבא יוון עם לוחמי יחידת הסיור חרוב השבוע.",
+    "tldr": [
+      "עשרות חיילים יוונים השתתפו באימון צבאי בישראל.",
+      "התרגיל נערך לצד לוחמי סיירת חרוב מחטיבת כפיר.",
+      "שיתוף הפעולה הביטחוני בין המדינות כולל אימונים ביבשה, בים ובאוויר."
+    ],
+    "means": "הדיווח משקף את הקשרים הביטחוניים המתרחבים בין יוון וישראל, הנוגעים ישירות לישראלים העוקבים אחר היחסים האזוריים.",
+    "body": "עשרות חיילים מצבא יוון השתתפו השבוע באימון משותף יחד עם לוחמי יחידת הסיור חרוב מחטיבת כפיר של צה\"ל. כך דווח לראשונה בחדשות כאן 11 בערב יום חמישי, 12 בנובמבר 2026. לפי הדיווח, האימון כלל תרגול בשטח פתוח לצד שימוש ברכב משוריין. מטעם גורמי הביטחון הרשמיים בישראל ובאתונה לא פורסמה הודעה רשמית בנושא, ולא נמסרו פרטים על אודות משך האימון או היחידה היוונית הספציפית שהשתתפה בו. אימון זה מצטרף לשורת שיתופי פעולה ביטחוניים קודמים בין שתי המדינות בתחומי היבשה, הים והאוויר, הכוללים בין היתר תרגילי חיפוש והצלה וניסויי מערכות נשק ימיות."
+  },
+  "en": {
+    "title": "Greek soldiers train alongside Israeli infantry units",
+    "dek": "Reports in Israel detail a joint military training exercise involving Greek troops and the IDF's Haruv reconnaissance unit.",
+    "tldr": [
+      "Dozens of Greek soldiers participated in joint training in Israel.",
+      "The drills were conducted alongside fighters from the Kfir Brigade's Haruv unit.",
+      "Defense cooperation between Greece and Israel spans land, sea, and air exercises."
+    ],
+    "means": "This report highlights ongoing defense ties between Greece and Israel, relevant for readers following regional relations.",
+    "body": "Dozens of soldiers from the Greek army participated in joint training this week alongside fighters from the Haruv reconnaissance unit of the IDF's Kfir Brigade. The training was first reported on Thursday evening, November 12, 2026, by Israel's public broadcaster Kan 11. Footage from the broadcast showed troops operating in open terrain with an armored vehicle. Neither the Hellenic National Defence General Staff nor the IDF issued an official statement regarding the drills, and specific details concerning the duration of the exercise or the exact Greek units involved were not disclosed. The training follows a series of recent joint defense activities between the two nations across land, maritime, and air domains."
+  },
+  "meta": {
+    "itemId": "231756ca5c24",
+    "imageQuery": "military exercise Israel Greece",
+    "sourceHash": "ff0f40ca9d68",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-13T07:50:07.358Z",
+    "official": false
+  }
+}

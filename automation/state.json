@@ -19,30 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "067bade667fa": 1793328911048,
-    "4eb7a67a60e6": 1793328911048,
-    "7ff7597af0c7": 1793328911048,
-    "142c936f5c04": 1793328911048,
-    "3bc4e1aed4fa": 1793328911048,
-    "789594585af4": 1793328911048,
-    "a702618141fc": 1793328911048,
-    "88479bb5bd13": 1793343710030,
-    "97060a59f656": 1793343710030,
-    "f1c1b999625c": 1793343710030,
-    "c74c87daa6c8": 1793343710030,
-    "95a6695f63c0": 1793343710030,
-    "0d4ceeedba22": 1793343710030,
-    "37e0fb0687f5": 1793343710030,
-    "3bd5842bb3db": 1793343710030,
-    "ed7fb45bf281": 1793343710030,
-    "f3c94c71bd13": 1793343710030,
-    "0b15d9ddfee0": 1793343710030,
-    "da38c378c850": 1793343710030,
-    "948301cc9592": 1793343710030,
-    "704209d9310f": 1793343710030,
-    "149c40f9657c": 1793343710030,
-    "c00073027b4b": 1793343710030,
-    "064c7ce46fec": 1793343710030,
     "333b1b3356eb": 1793351221417,
     "acfb5a194255": 1793351221417,
     "ca00545eb234": 1793351221417,
@@ -1751,39 +1727,61 @@
     "8cf094847ea0": 1794532432906,
     "950a385a26a0": 1794532432906,
     "2e9215ce5202": 1794532432906,
-    "05c889a973cc": 1794532432906
+    "05c889a973cc": 1794532432906,
+    "f8d97242b4fe": 1794556221895,
+    "47b65a46b486": 1794556221895,
+    "0837500fa5e9": 1794556221895,
+    "a4bd28cb65e5": 1794556221895,
+    "c566af3d7cc1": 1794556221895,
+    "7bc58e5fd794": 1794556221895,
+    "bce9d6120b7b": 1794556221895,
+    "61ea6d7d22f6": 1794556221895,
+    "e4527044a99c": 1794556221895,
+    "6b8f5faa0b32": 1794556221895,
+    "84c97cecd2ea": 1794556221895,
+    "79940d150cef": 1794556221895,
+    "161b6a5cf290": 1794556221895,
+    "d001040983b4": 1794556221895,
+    "6d6e41965242": 1794556221895,
+    "830889805f84": 1794556221895,
+    "27c167e11ac4": 1794556221895,
+    "895e70785027": 1794556221895,
+    "f25efc5b3e7a": 1794556221895,
+    "0345fccad2af": 1794556221895,
+    "5c7a0bcbc130": 1794556221895,
+    "f4142284bcc4": 1794556221895
   },
   "pending": {
-    "75d3fa": {
-      "createdAt": 1794528692333,
+    "5e8aba": {
+      "createdAt": 1794556237814,
       "item": {
-        "title": "“The Bond Is Strengthening”: Israeli TV Frames Greek Training as Message to Turkey",
-        "url": "https://greekcitytimes.com/2026/11/13/bond-is-strengthening-israeli/",
-        "summary": "Dozens of Greek soldiers trained in Israel this week alongside fighters from the Haruv reconnaissance unit (Sayeret Haruv) of the Kfir Infantry Brigade, the largest infantry brigade in the Israel Defense Forces (IDF). The story was first reported on the evening of Thursday, 12 November 2026, by Israel’s public broadcaster Kan 11, in a segment…\n The post “The Bond Is Strengthening”: Israeli TV Frames Greek Training as Message to Turkey appeared first on Greek City Times .",
-        "published": "Thu, 12 Nov 2026 21:49:42 +0000",
-        "id": "231756ca5c24",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό",
+        "url": "https://www.in.gr/2026/11/13/greece/kypseli-fovoi-gia-tin-asfaleia-20-ktirion-apo-tis-ergasies-sto-metro/",
+        "summary": "Καταγγελίες για αποκολλήσεις πολυκατοικιών από τα έργα του Μετρό στην Κυψέλη - Εμπειρογνώμονας προειδοποιεί για μειωμένη αντισεισμική αντοχή\n The post Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό appeared first on in.gr .",
+        "published": "Fri, 13 Nov 2026 06:00:53 +0200",
+        "id": "e4527044a99c",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "231756ca5c24",
-        "section": "israelis",
+        "id": "e4527044a99c",
+        "section": "breaking",
         "priority": 9,
         "sensitive": true,
-        "breaking": false,
-        "reason": "Covers joint military training between Greek soldiers and the IDF's Sayeret Haruv, highlighting strong bilateral defense ties relevant to Israeli readers.",
+        "breaking": true,
+        "reason": "Reports indicate structural safety fears for 20 buildings in Kypseli due to Athens Metro works, which directly concerns residents and property owners in the area.",
         "item": {
-          "title": "“The Bond Is Strengthening”: Israeli TV Frames Greek Training as Message to Turkey",
-          "url": "https://greekcitytimes.com/2026/11/13/bond-is-strengthening-israeli/",
-          "summary": "Dozens of Greek soldiers trained in Israel this week alongside fighters from the Haruv reconnaissance unit (Sayeret Haruv) of the Kfir Infantry Brigade, the largest infantry brigade in the Israel Defense Forces (IDF). The story was first reported on the evening of Thursday, 12 November 2026, by Israel’s public broadcaster Kan 11, in a segment…\n The post “The Bond Is Strengthening”: Israeli TV Frames Greek Training as Message to Turkey appeared first on Greek City Times .",
-          "published": "Thu, 12 Nov 2026 21:49:42 +0000",
-          "id": "231756ca5c24",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
+          "title": "Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό",
+          "url": "https://www.in.gr/2026/11/13/greece/kypseli-fovoi-gia-tin-asfaleia-20-ktirion-apo-tis-ergasies-sto-metro/",
+          "summary": "Καταγγελίες για αποκολλήσεις πολυκατοικιών από τα έργα του Μετρό στην Κυψέλη - Εμπειρογνώμονας προειδοποιεί για μειωμένη αντισεισμική αντοχή\n The post Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό appeared first on in.gr .",
+          "published": "Fri, 13 Nov 2026 06:00:53 +0200",
+          "id": "e4527044a99c",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1791,68 +1789,71 @@
         }
       },
       "draft": {
-        "slug": "greek-soldiers-train-in-israel-haruv",
-        "section": "israelis",
+        "slug": "kypseli-athens-metro-line-4-building-safety",
+        "section": "breaking",
         "sensitive": true,
-        "breaking": false,
-        "geo": null,
+        "breaking": true,
+        "geo": {
+          "lat": 37.995,
+          "lng": 23.737
+        },
         "strike": null,
         "alert": {
-          "he": "שיתוף פעולה בטחוני",
-          "en": "Defense cooperation"
+          "he": "עדכון באתונה",
+          "en": "Athens Update"
         },
-        "imageKey": "people",
-        "imageQuery": "military soldiers training desert",
+        "imageKey": "house",
+        "imageQuery": "old apartment building street in Athens",
         "he": {
-          "title": "חיילים יוונים התאמנו בישראל יחד עם סיירת חרוב",
-          "seoTitle": "שיתוף פעולה בטחוני בין ישראל ליוון: חיילים יוונים התאמנו",
-          "seoDesc": "עשרות חיילים מצבא יוון הגיעו השבוע לאימון משותף בישראל לצד לוחמי חטיבת כפיר. כל הפרטים על הקשרים ההדוקים והתרגילים המשותפים.",
+          "title": "חשש ביטחוני ב-20 מבנים באתונה עקב עבודות המטרו",
+          "seoTitle": "חשש לבטיחות מבנים באתונה: עבודות הקו החדש",
+          "seoDesc": "דאגה באתונה: מומחים מזהירים מפני ירידה ביציבות של כ-20 מבנים בשל חפירות המטרו בקו 4 בשכונת קיפסלי. כל הפרטים.",
           "keywords": [
-            "יוון ישראל",
-            "צבא יוון",
-            "סיירת חרוב",
-            "חטיבת כפיר",
-            "חדשות יוון"
+            "מטרו באתונה",
+            "קו 4 באתונה",
+            "קיפסלי אתונה",
+            "דירה באתונה",
+            "נדלן באתונה"
           ],
-          "dek": "עשרות חיילים מצבא יוון השתתפו השבוע באימון משותף בישראל לצד לוחמי סיירת חרוב מחטיבת כפיר.",
+          "dek": "עבודות החפירה של הקו החדש במטרו של אתונה מעוררות דאגה עמוקה בקרב התושבים, לאחר שמומחים הצביעו על סיכון לפגיעה ביציבותם של כ-20 מבנים בשכונת קיפסלי.",
           "tldr": [
-            "עשרות חיילים יוונים התאמנו בישראל עם לוחמי סיירת חרוב.",
-            "הדיווח שודר לראשונה בחדשות כאן 11 על ידי הכתב איתי בלומנטל.",
-            "התרגיל מצטרף לשורת שיתופי פעולה בטחוניים רחבים בין שתי המדינות בים, באוויר ביבשה."
+            "עבודות החפירה בקו 4 של המטרו מעוררות חשש כבד לבטיחות כ-20 מבנים.",
+            "תושבים בשכונת קיפסלי מדווחים על תזוזות וסדקים בקירות הבניינים.",
+            "מומחים דורשים בדיקות סטטיות דחופות ולוח זמנים שקוף מהחברה המבצעת."
           ],
-          "means": "עבור ישראלים השוהים ביוון או מתכננים נסיעה, מדובר בעוד ביטוי לקשרים ההדוקים בין המדינות. אין השפעה ישירה על חיי היומיום או על התחבורה, אך כדאי להמשיך ולעקוב אחר עדכונים רשמיים של גורמי הביטחון.",
-          "body": "## רקע על האימון המשותף בישראל\n\nעשרות חיילים מהצבא היווני השתתפו השבוע באימון משותף יחד עם לוחמי סיירת חרוב של חטיבת כפיר, חטיבת החי בצה\"ל. הדיווח על קיום האימון פורסם לראשונה בערוץ כאן 11 על ידי כתב לענייני צבא איתי בלומנטל, שציין כי הלוחמים היוונים הגיעו לארץ על רקע הידוק הקשרים הביטחוניים בין שתי המדינות.\n\nבתיעוד שהוצג בשידור נראו חיילים מצוידים היטב פועלים בשטח פתוח יחד עם כלי רכב משוריין. מטעם דובר צה\"ל והמטה הכללי של הצבא היווני (GEETHA) לא פורסמה הודעה רשמית בנושא ערב פרסום הדיווח, ולכן פרטים מדויקים על היחידה היוונית הספציפית או משך האימון טרם נמסרו במלואם.\n\n## מי הם הכוחות המשתתפים בתרגיל?\n\nסיירת חרוב היא פלוגת הסיור הייעודית של חטיבת כפיר, המרכזת פעילות בתחום הסיור המתקדם, ניווט ולוחמת חי״ר. צה\"ל וחטיבת כפיר פועלים במגוון מתארים ביטחוניים, והאימון המשותף עם הכוח היווני אפשר למידה הדדית ותרגול בשטח פתוח.\n\nמדובר בחלק מגל רחב של שיתופי פעולה בטחוניים בין ישראל ליוון. רק לאחרונה התקיים תרגיל החיפוש וההצלה הימי \"נמסיס 2026\" בהשתתפות יוון, קפריסין וישראל, ותרגילים נוספים שכללו הפעלת מערכות מתקדמות מתוצרת ישראלית כמו טילי SPIKE NLOS ו-SPIKE ER בשיתוף חיל הים היווני.\n\n## המשמעות עבור ישראל ויוון\n\nהתרגיל המשותף בארץ מדגיש את העמקת הברית האסטרטגית בין ירושלים לאתונה. שיתופי הפעולה בין המדינות מתפרסים כיום על פני הים, האוויר והיבשה, כולל תוכניות רכש ציוד נרחבות של כוחות הביטחון היווניים מישראל.\n\nהקשרים ההדוקים הללו ממשיכים להתפתח בתקופה שבה מתנהלים דיונים אזוריים נרחבים סביב פרויקטים של תשתיות אנרגיה במזרח הים התיכון, ומהווים נדבך מרכזי ביחסים הדיפלומטיים והביטחוניים בין שתי המדינות.\n\n## שאלות נפוצות\n\n**האם האימון המשותף עדיין נמשך בישראל?**\nהאימון התקיים במהלך השבוע בהשתתפות עשרות חיילים יוונים, אך פרטים מדויקים על משכו לא נמסרו על ידי הרשויות.\n\n**אילו יחידות השתתפו בתרגיל מצד צה\"ל?**\nבאימון השתתפו לוחמי סיירת חרוב, שהיא פלוגת הסיור של חטיבת כפיר בצה\"ל."
+          "means": "אם אתם מחזיקים בנכס להשקעה באתונה או מתכננים רכישת דירה באזור השכונות הוותיקות שבהן עובר קו המטרו החדש, חשוב לבדוק היטב את מצב הבניין והאם בוצעו בדיקות הנדסיות. מומלץ להתעדכן מול גורמי מקצוע מקומיים לגבי כל השפעה אפשרית של העבודות על תשתיות ונכסים בסביבה.",
+          "body": "## המצב בשכונת קיפסלי באתונה\n\nהחשש סביב היציבות המבנית של בתי מגורים באזור קיפסלי הולך וגובר, בעוד עבודות החפירה והבדיקות ההנדסיות נמשכות לאורך תוואי המטרועוני (מכונת החפירה) של קו 4 במטרו של אתונה. התושבים המקומיים דורשים כבר זמן רב לוח זמנים ברור ועסקיות בדבר בטיחות בתיהם.\n\nלפי עדויות מהשטח, ובמיוחד מרחוב ספצון, דווח על תופעות של התנתקות חלקית בין מבנים סמוכים ותנועה חריגה של מבנים. הנתונים הללו מתחזק את האזהרות המגיעות מצד מומחים טכניים המלווים את התושבים.\n\n## ממצאי המומחים והביקורת הציבורית\n\nהמהנדס האזרחי והמומחה הטכני מטעם התושבים, ניקוס קראסאקיס, הצביע על הצורך הקריטי בפיקוח שיטתי על הנזקים ובהכנת תחשיבי יציבות מפורטים. לדבריו, קיים חוסר משמעותי בשקיפות ובמידע מצד חברת הבנייה, מה שמגביר את תחושת חוסר הביטחון בקרב הדיירים.\n\nבפגישה שהתקיימה בעבר במשרד ממשלתי בהשתתפות נציגי חברת מטרו היוונית, הקבלן, השר והתושבים, הוסכם על עדכון רישום הליקויים בהתאם לממצאים החדשים. הדבר כלל חשיפה של אלמנטים מבניים, כמו הסרת טיח מעמודים, לצורך השלמת הבדיקות ההנדסיות. עם זאת, נטען כי עד כה לא ניתנו פרטים ברורים על לוח הזמנים והתקדמות הפעולות.\n\n## מצב המבנים וההשפעות האפשריות\n\nהבדיקות ההנדסיות שהוצגו מטעם התושבים מעלות כי כ-20 מבנים, החל מאזור כיכר קיפסלי ועד לנקודת העצירה הנוכחית של מכונת החפירה, ספגו פגיעות משמעותיות במהלך מעברה. הנזקים הללו מעוררים שאלות קשות לגבי יכולת הנשיאה של המבנים בעומסים שונים, ובמיוחד עולה הדאגה סביב עמידותם בזמן אירוע של רעידת אדמה חזקה.\n\n## שאלות נפוצות\n\n**האם יש סכנה למבנים בכל אתונה עקב עבודות המטרו?**\nהחשש המרכזי ממוקד כרגע בכ-20 מבנים לאורך תוואי העבודות של קו 4 בשכונת קיפסלי באתונה, שם דווח על סדקים ונזקים מבניים.\n\n**מה דורשים התושבים מהרשויות ומחברת הבנייה?**\nהתושבים דורשים מידע ברור, לוח זמנים מדויק לעבודות, והבטחות חד-משמעיות לבטיחות בתיהם מפני נזקי שקיעה או תזוזה.\n\n**האם הוצגו תוכניות לתיקון הנזקים?**\nלפי גורמי מקצוע, הוסכם בעבר על בדיקות הנדסיות פרטניות וחשיפת אלמנטים מבניים, אך נטען כי עדיין קיים מחסור בעדכונים שוטפים מצד החברה המבצעת."
         },
         "en": {
-          "title": "Greek Soldiers Train in Israel Alongside Sayeret Haruv",
-          "seoTitle": "Greek Soldiers Train in Israel with Kfir Brigade",
-          "seoDesc": "Dozens of Greek soldiers trained in Israel alongside fighters from the Kfir Brigade's Haruv reconnaissance unit. Read the details on defense ties.",
+          "title": "Building Safety Concerns in Kypseli Due to Athens Metro Works",
+          "seoTitle": "Athens Metro Works: Safety Concerns in Kypseli Buildings",
+          "seoDesc": "Athens residents voice safety concerns as engineering experts warn that about 20 buildings in Kypseli suffered damage from Metro Line 4 tunneling.",
           "keywords": [
-            "Greece Israel defense",
-            "Greek soldiers Israel",
-            "Haruv reconnaissance",
-            "Kfir brigade",
-            "Greek military"
+            "Athens metro",
+            "Line 4 Athens",
+            "Kypseli Athens",
+            "Athens real estate",
+            "Greece news"
           ],
-          "dek": "Dozens of Greek soldiers trained this week in Israel alongside fighters from the Haruv reconnaissance unit of the Kfir Brigade.",
+          "dek": "Anxiety is growing in the Athens neighborhood of Kypseli as ongoing tunneling work for Metro Line 4 prompts expert warnings over the structural integrity of around 20 buildings.",
           "tldr": [
-            "Dozens of Greek soldiers trained in Israel with Haruv fighters.",
-            "The story was first reported by Israel's public broadcaster Kan 11.",
-            "The drill highlights growing defense cooperation between Israel and Greece across land, sea, and air."
+            "Excavation work for Metro Line 4 in Athens has raised structural safety concerns.",
+            "Residents in Kypseli report wall separations and building movements.",
+            "Experts call for transparent schedules and urgent structural assessments."
           ],
-          "means": "For Israelis in Greece or planning travel, this reflects the strong and ongoing bilateral ties between the two nations. There is no direct impact on daily travel or tourism, but visitors should stay informed through official channels.",
-          "body": "## Greek Soldiers Train in Israel\n\nDozens of Greek soldiers trained this week in Israel alongside fighters from the Haruv reconnaissance unit of the Kfir Brigade, the largest infantry brigade in the Israel Defense Forces. The story was first reported by Israel's public broadcaster Kan 11, highlighting the deepening defense ties between the two nations.\n\nBroadcast footage showed fully equipped soldiers operating in open, arid terrain alongside an armored vehicle. Neither the Hellenic National Defence General Staff nor the IDF issued an official announcement regarding the exercise, leaving the broadcast as the primary public confirmation of Greek participation.\n\n## Background on Defense Cooperation\n\nThe Haruv unit specializes in advanced scouting, navigation, and combat reconnaissance. This joint training follows closely after the large-scale Nemesis 2026 search-and-rescue exercise involving Greece, Cyprus, and Israel, which focused on maritime disaster scenarios.\n\nDefense cooperation between Israel and Greece currently spans joint exercises on land, at sea, and in the air, alongside major Israeli equipment programs for the Greek armed forces, including missile acceptance firings conducted jointly with the Hellenic Navy.\n\n## Broader Regional Context\n\nThe drills underscore the strengthening strategic bond between Jerusalem and Athens. Both nations continue to expand their military and technological cooperation, reflecting shared security interests in the Eastern Mediterranean region.\n\n## FAQ\n\n**Did the Greek and Israeli authorities issue official statements?**\nNeither the Hellenic National Defence General Staff nor the IDF issued an official announcement by Thursday evening regarding the exercise.\n\n**Which Israeli unit participated in the training?**\nFighters from the Haruv reconnaissance unit of the Kfir Brigade trained alongside the visiting Greek soldiers."
+          "means": "If you own property in Athens or are considering real estate investments near the developing Metro Line 4 routes, it is important to verify the structural condition of buildings. Consult local engineering professionals for any updates regarding infrastructure impacts in the area.",
+          "body": "## Situation in Kypseli, Athens\n\nConcerns regarding the structural stability of residential buildings in the Kypseli neighborhood are intensifying as exploratory tunneling work continues along the path of the Metro Line 4 tunnel boring machine in Athens. Local residents have repeatedly demanded a clear work schedule and guarantees for the safety of their homes.\n\nTestimonies from residents on Spetson Street described instances of buildings separating from neighboring properties, alongside reports of noticeable building movements. These accounts align with warnings issued by technical experts representing the neighborhood.\n\n## Expert Findings and Public Concerns\n\nCivil engineer and technical expert Nikos Krasakis highlighted the urgent need for systematic damage inspections and detailed structural studies. He stated that a serious lack of information from the construction company has heightened suspicion and insecurity among local residents.\n\nDuring a previous ministry meeting involving Elliniko Metro, the contractor, the minister, and residents, it was agreed to update the damage registry based on newer findings. This involved exposing structural elements, such as removing plaster from columns, to complete repair studies. However, experts noted that updates regarding the schedule and progress of these works have been lacking.\n\n## Building Conditions and Potential Impacts\n\nAccording to the residents' expert report, approximately 20 buildings from Kypseli Square to the current stopping point of the tunneling machine have sustained significant damage during its passage. These issues raise serious concerns about the load-bearing capacity of the structures, particularly regarding their behavior in the event of a strong earthquake.\n\n## FAQ\n\n**Are all buildings in Athens at risk from metro construction?**\nConcerns are currently focused specifically on about 20 buildings located along the Line 4 excavation route in the Kypseli neighborhood.\n\n**What are the residents demanding from authorities?**\nResidents are requesting clear updates, a specific project schedule, and formal safety guarantees for their homes.\n\n**Have structural assessments been scheduled for the damaged buildings?**\nEngineers previously agreed to conduct thorough damage evaluations and expose structural elements, but residents report a continued lack of communication regarding progress."
         }
       },
-      "text": "0 \n 0 \n 0 \n Dozens of Greek soldiers trained in Israel this week alongside fighters from the Haruv reconnaissance unit (Sayeret Haruv) of the Kfir Infantry Brigade, the largest infantry brigade in the Israel Defense Forces (IDF). The story was first reported on the evening of Thursday, 12 November 2026, by Israel’s public broadcaster Kan 11, in a segment by military correspondent Itai Blumenthal. \n The original Kan report was titled “The Greek exercise in Israel and the message to Erdogan.” Blumenthal noted that Greek soldiers arrived for joint training with Haruv fighters against the backdrop of shared signals to Turkey about tightening defense ties between Israel and Greece. \n Kan’s own summary put it more bluntly: “The message to the Turks: the bond between Israel and Greece is strengthening.” Captions in the broadcast stated that “dozens of soldiers of the Greek army trained this week alongside fighters of the Kfir Brigade.” \n Footage showed fully equipped soldiers operating in open, arid terrain together with an armored vehicle. Neither the Hellenic National Defence General Staff (GEETHA) nor the IDF had issued an official announcement by Thursday evening, making the Kan report the sole public source confirming Greek participation. Details such as the exact Greek unit involved or the duration of the exercise were not disclosed. \n What is the Haruv unit? \n Haruv is the dedicated reconnaissance company (sayeret) of the Kfir Brigade. Kfir is a large infantry formation historically focused on operations in the West Bank and other security missions; its reconnaissance element specializes in advanced scouting, navigation, and combat reconnaissance. \n Broader context of Greece–Israel defense cooperation \n The training comes one day after publicity around the large-scale Nemesis 2026 search-and-rescue exercise involving Greece, Cyprus, and Israel (scenario: maritime disaster) and a few weeks after acceptance firings of SPIKE NLOS and SPIKE ER missiles conducted jointly with the Israeli Navy. Defense cooperation between the two countries now spans land, sea, and air exercises plus major Israeli equipment programs for the Greek armed forces. \n Kan’s framing presents the drill as a deliberate signal to Ankara at a time when Turkey is challenging research activities related to the Greece–Cyprus electricity interconnector and Israel–Turkey relations remain strained. \n READ MORE: “He Missed the Handshake”: Turkish Press Spins Erdoğan’s Exit During Christodoulides’ Arrival .\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Advertising\n Paul Antonopoulos \n Paul Antonopoulos writes on Greek and international current affairs for Greek City Times, with a focus on Turkey, Cyprus, and the wider region.\n Previous Article \n “He Missed the Handshake”: Turkish Press Spins Erdoğan’s Exit During Christodoulides’ Arrival\n Next Article \n Sudanese Migrants Turn to Crete as Arrivals in Greece Surge\n 0 \n 0 \n 0",
+      "text": "Vita.gr \n Πνευμονία χωρίς πυρετό και βήχα: Οι ειδικοί του Χάρβαρντ προειδοποιούν\n Spotlight Πάτρα: Στον εισαγγελέα οι γονείς του 4μηνών βρέφους που νοσηλεύεται υποσιτισμένο και με τραύματα στα πόδια \n Το «έσχες» των Ελλήνων για το 2025 - Τι δήλωσαν για σπίτια, εισοδήματα, ακίνητα και οχήματα \n Πολυτεχνείο: Νεότερα μνημεία η ιστορική πύλη που γκρέμισε το τανκ και το γλυπτό του Μέμου Μακρή \n Διεθνής αστυνομική επιχείρηση κατά του «Dark web» με 354 συλλήψεις \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Η ανησυχία για τη στατική επάρκεια των κατοικιών στην Κυψέλη εντείνεται, καθώς συνεχίζονται οι διερευνητικές εργασίες για την αποκάλυψη των δομικών στοιχείων κτιρίων που βρίσκονται κατά μήκος της διαδρομής του μετροπόντικα της Γραμμής 4 του Μετρό.\n Οι κάτοικοι ζητούν συγκεκριμένο χρονοδιάγραμμα εργασιών και εγγυήσεις για την ασφάλεια των σπιτιών\n Νέες μαρτυρίες κατοίκων για μετακινήσεις και αποκολλήσεις κτιρίων, σε συνδυασμό με τις προειδοποιήσεις των τεχνικών εμπειρογνωμόνων τους για μειωμένη αντοχή περίπου 20 κτισμάτων, επαναφέρουν με ένταση το ζήτημα της ασφάλειας και της αναγκαίας αποκατάστασης των ζημιών.\n Οι κάτοικοι, για μία ακόμη φορά, ζητούν σαφή ενημέρωση, συγκεκριμένο χρονοδιάγραμμα εργασιών και εγγυήσεις για την ασφάλεια των σπιτιών τους, την ώρα που, όπως καταγγέλλουν, παραμένουν αναπάντητα κρίσιμα ερωτήματα για την κατάσταση των κτιρίων και τις παρεμβάσεις που απαιτούνται.\n Την ανησυχία που επικρατεί στη γειτονιά αποτυπώνει ακόμη πιο έντονα μαρτυρία ενοίκου πολυκατοικίας στην οδό Σπετσών, η οποία περιγράφει εικόνα αποκόλλησης του κτιρίου από το γειτονικό ακίνητο, αλλά και περιστατικό που, σύμφωνα με όσα της μεταφέρθηκαν, συνοδεύτηκε από έντονη κίνηση του κτιρίου.\n Μελέτη\n Την ίδια στιγμή, ο πολιτικός μηχανικός και τεχνικός εμπειρογνώμονας των κατοίκων, Νίκος Κρασάκης, έθεσε στο επίκεντρο την ανάγκη συστηματικού ελέγχου των ζημιών και εκπόνησης των απαιτούμενων στατικών μελετών. Παράλληλα, έκανε λόγο για σοβαρό έλλειμμα ενημέρωσης από την πλευρά της κατασκευάστριας εταιρείας, το οποίο, όπως υποστήριξε, επιτείνει την καχυποψία και την ανασφάλεια των κατοίκων.\n Οπως εξήγησε, σε σύσκεψη στο υπουργείο είχε συμφωνηθεί μεταξύ της Ελληνικό Μετρό, του αναδόχου, του υπουργού και των κατοίκων να επικαιροποιηθεί η καταγραφή των βλαβών με βάση τα νεότερα δεδομένα. Στο πλαίσιο αυτό, προβλέφθηκε η αποκάλυψη των δομικών στοιχείων, με την αφαίρεση σοβάδων από κολώνες και άλλα σημεία, ώστε να καταστεί δυνατή η ολοκλήρωση των μελετών για την αποκατάσταση των ζημιών. Ωστόσο, σύμφωνα με τον ίδιο, δεν υπήρξε ενημέρωση για το χρονοδιάγραμμα και την εξέλιξη των εργασιών.\n Ιδιαίτερη έμφαση έδωσε ο κ. Κρασάκης στις επιπτώσεις που μπορεί να έχουν οι καταγεγραμμένες βλάβες στη φέρουσα ικανότητα των κτιρίων, επισημαίνοντας ότι οι ρηγματώσεις και οι ζημιές σε δομικά στοιχεία καθιστούν αναγκαία την αξιολόγηση της στατικής τους επάρκειας.\n Αναφερόμενος, δε, στο πόρισμα των εμπειρογνωμόνων των κατοίκων, υποστήριξε ότι περίπου 20 κτίρια, από την πλατεία Κυψέλης έως το σημείο όπου έχει σταματήσει ο μετροπόντικας, έχουν υποστεί σημαντικές ζημιές κατά τη διέλευσή του, βλάβες που ενδέχεται να έχουν επηρεάσει την αντοχή των κτιρίων στα φορτία, με ιδιαίτερη ανησυχία να προκαλεί η συμπεριφορά τους σε περίπτωση ισχυρού σεισμού.\n Premium έκδοση «Τα ΝΕΑ» \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ελεγκτικό Συνέδριο: «Βλέπει» αδιαφανείς συμβάσεις 1,24 δισ. με το Δημόσιο \n Έρχεται αναδρομική ενίσχυση 1.000 ευρώ για 190.000 δικαιούχους του Κοινωνικού Εισοδήματος Αλληλεγγύης \n Ο Τζόσεφ, ο Βεζένκοφ και το «Tim Duncan Effect» \n Επιστημονική έρευνα: Τρία χρόνια στον «πάγο» οι προκηρύξεις έργων από το ΕΛΙΔΕΚ – SOS από 5 συλλόγους ΔΕΠ \n Έπεσαν σοβάδες σε τάξη της Α’ Δημοτικού – «Οι προειδοποιήσεις μας επιβεβαιώθηκαν», λένε οι γονείς \n BHMAGAZINO: Έρχεται την Κυριακή παρέα με την Κατερίνα Λιόλιου \n Σαουδική Αραβία: Πάνω από 500 Αιθίοπες μετανάστες εν αναμονή εκτέλεσης για διακίνηση ναρκωτικών \n Τέμπη: Επανεκκινεί η δίκη για τα «χαμένα» βίντεο – Οι κατηγορούμενοι και οι βασικοί μάρτυρες \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
       "issues": [],
       "el": {
-        "title": "Έλληνες στρατιώτες εκπαιδεύονται στο Ισραήλ μαζί με τη Sayeret Haruv",
-        "dek": "Δκάδες Έλληνες στρατιώτες εκπαιδεύτηκαν αυτή την εβδομάδα στο Ισραήλ μαζί με μαχητές της μονάδας αναγνώρισης Haruv της Ταξιαρχίας Kfir.",
+        "title": "Ανησυχία για την ασφάλεια κτιρίων στην Κυψέλη λόγω των έργων του Μετρό Αθήνας",
+        "dek": "Αυξάνεται η ανησυχία στη γειτονιά της Κυψέλης στην Αθήνα, καθώς οι συνεχιζόμενες εργασίες διάνοιξης σηράγγων για τη Γραμμή 4 του Μετρό προκαλούν προειδοποιήσεις ειδικών για τη στατική επάρκεια περίπου 20 κτιρίων.",
         "tldr": [
-          "Δκάδες Έλληνες στρατιώτες εκπαιδεύτηκαν στο Ισραήλ με μαχητές της Haruv.",
-          "Το θέμα μετέδωσε πρώτος ο δημόσιος ραδιοτηλεοπτικός φορέας του Ισραήλ, Kan 11.",
-          "Η άσκηση αναδεικνύει την αυξανόμενη αμυντική συνεργασία μεταξύ Ισραήλ και Ελλάδας σε ξηρά, θάλασσα και αέρα."
+          "Οι εργασίες εκσκαφής για τη Γραμμή 4 του Μετρό στην Αθήνα έχουν εγείρει ανησυχίες για τη δομική ασφάλεια.",
+          "Κάτοικοι στην Κυψέλη αναφέρουν ρωγμές σε τοίχους και μετακινήσεις κτιρίων.",
+          "Ειδικοί ζητούν διαφανή χρονοδιαγράμματα και επείγουσες αξιολογήσεις της στατικότητας."
         ]
       },
       "notified": true
@@ -1867,12 +1868,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-13T01:13:43.624Z",
+      "at": "2026-11-13T07:50:10.507Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-13T01:13:44.262Z",
+      "at": "2026-11-13T07:50:11.198Z",
       "items": 0
     },
     "civilprotection": {
@@ -1883,27 +1884,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-13T01:13:45.482Z",
+      "at": "2026-11-13T07:50:12.847Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-13T01:13:45.706Z",
+      "at": "2026-11-13T07:50:13.101Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-13T01:13:46.507Z",
+      "at": "2026-11-13T07:50:14.095Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-13T01:13:47.182Z",
-      "items": 5
+      "at": "2026-11-13T07:50:14.851Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-13T01:13:47.618Z",
+      "at": "2026-11-13T07:50:15.318Z",
       "items": 10
     },
     "toi-greece": {
@@ -1914,22 +1915,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-13T01:13:48.082Z",
+      "at": "2026-11-13T07:50:15.866Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-13T01:13:48.170Z",
-      "items": 15
+      "at": "2026-11-13T07:50:15.954Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-13T01:13:48.409Z",
-      "items": 7
+      "at": "2026-11-13T07:50:16.487Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T01:13:48.577Z",
+      "at": "2026-11-13T07:50:16.965Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1939,12 +1940,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T01:13:44.819Z",
+      "at": "2026-11-13T07:50:12.125Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-13T01:13:49.177Z",
+      "at": "2026-11-13T07:50:17.560Z",
       "items": 0
     },
     "hcg": {
@@ -1955,39 +1956,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-13T01:13:50.462Z",
+      "at": "2026-11-13T07:50:18.729Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-13T01:13:50.660Z",
+      "at": "2026-11-13T07:50:19.079Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-13T01:13:50.881Z",
+      "at": "2026-11-13T07:50:19.254Z",
       "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-13T01:13:51.090Z",
-      "items": 5
+      "at": "2026-11-13T07:50:19.497Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-13T01:13:51.437Z",
-      "items": 7
+      "at": "2026-11-13T07:50:19.826Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-13T01:13:51.895Z",
-      "items": 8
+      "at": "2026-11-13T07:50:20.155Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-13",
-    "count": 0,
+    "count": 1,
     "published": [
       {
         "slug": "greece-severe-weather-heavy-rain-temperature-drop",
@@ -1999,6 +2000,24 @@
         "slug": "earthquake-crete-november-2026",
         "title": "Magnitude 5.1 Earthquake Strikes Southern Greece",
         "at": "2026-11-13T03:14:09+02:00",
+        "section": "breaking"
+      },
+      {
+        "slug": "greece-israel-military-training-2026",
+        "title": "Greek soldiers train alongside Israeli infantry units",
+        "at": "2026-11-13T09:50:06+02:00",
+        "section": "israelis"
+      },
+      {
+        "slug": "sahara-dust-and-gale-winds-in-greece",
+        "title": "↻ Rain, African Dust and Strong Winds Forecast Across Greece",
+        "at": "2026-11-13T09:51:14+02:00",
+        "section": "travel"
+      },
+      {
+        "slug": "earthquake-crete-november-2026",
+        "title": "↻ Magnitude 4.8 Earthquake Strikes South of Crete",
+        "at": "2026-11-13T09:51:28+02:00",
         "section": "breaking"
       }
     ],
@@ -2019,6 +2038,10 @@
       {
         "slug": "earthquake-crete-november-2026",
         "at": "2026-11-13T01:14:09.255Z"
+      },
+      {
+        "slug": "greece-israel-military-training-2026",
+        "at": "2026-11-13T07:50:07.359Z"
       }
     ],
     "ig": []
@@ -2267,20 +2290,34 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-13T01:13:52.906Z",
-    "considered": 10,
-    "picked": 1,
+    "at": "2026-11-13T07:50:21.895Z",
+    "considered": 24,
+    "picked": 5,
     "items": [
-      "· gct | Greek Australian Chef Anna Polyviou Finds Love After Friendship With TV Star",
-      "· ingr | Σεισμός 4,8 ρίχτερ στον υποθαλάσσιο χώρο νότια της Κρήτης",
-      "· gct | Mehreen Faruqi and GetUp Cite Mass Migration in Push to Drop Lord’s Prayer and Limit China",
-      "· gct | 4.9 Magnitude Earthquake Strikes Off Southern Crete",
-      "· ert | Κρήτη: Σεισμός 4,8 Ρίχτερ στους Καλούς Λιμένες Ηρακλείου",
-      "· gct | Greek Sailor Evangelos Kyriazakos Wins Youth Olympic Gold",
-      "· ingr | Χίθροου: Βίντεο με την τρομακτική απόπειρα προσγείωσης Airbus A321neo, κάνει τον γύρο του ",
-      "✓ usgs | M 5.1 - 39 km S of Moíres, Greece",
-      "· gct | Santorini Hotels Struggle to Fill Rooms Despite the Crowds",
-      "· gct | Sudanese Migrants Turn to Crete as Arrivals in Greece Surge"
+      "· ert | Πρόεδρος Πανελλήνιας Ομοσπονδίας Ξενοδόχων: Αύξηση αφίξεων και εσόδων στον τουρισμό φέτος ",
+      "· ingr | ΑΑΔΕ: Το «έσχες» των Ελλήνων για το 2025 – Τι δήλωσαν για σπίτια, εισοδήματα, ακίνητα και ",
+      "· naftemporiki | Αυτοί επωφελούνται από την κρίση στην Nvidia",
+      "· naftemporiki | Αμύνταιο: Υπό έλεγχο φωτιά που ξέσπασε σε κτηνοτροφική μονάδα",
+      "✓ gct | Kolokotroni Street Closed Over Fears Athens Building Could Collapse",
+      "✓ naftemporiki | Σεισμός 4,8 Ρίχτερ νότια της Κρήτης τα ξημερώματα",
+      "· gct | Court Orders Mediation in Polites Family Estate Dispute",
+      "✓ gct | Greece Weather: Rain, African Dust and Strong Winds on Friday",
+      "· ert | Γάζα: Σφοδρή αντίδραση των Γιατρών Χωρίς Σύνορα για την ισραηλινή επίθεση στο νοσοκομείο Ν",
+      "✓ ert | Ε9: Κανονικά και με το …νόμο η πληρωμή φόρων και αναδρομικών για τα αδήλωτα ακίνητα – Ποιο",
+      "✓ ingr | Κυψέλη: Φόβοι για την ασφάλεια 20 κτιρίων από τις εργασίες στο Μετρό",
+      "· gct | More Φιλings Brings Bakery and Restaurant Together on One Koukaki Corner",
+      "· gct | Kalomira on Marriage: ‘I Become As Sexy As I Can for Giorgos’",
+      "· gct | Reuters: PAOK Among Six Clubs Set to Join Expanded EuroLeague",
+      "· ert | ΑΑΔΕ: Τι δήλωσαν οι Έλληνες το 2025 για σπίτια, ενοίκια, εισοδήματα και δαπάνες για ακίνητ",
+      "· gct | Operation TorNado: 354 Arrested in Global Dark Web Drug Crackdown",
+      "· gct | Houthi Attacks Paralyse Saudi Air Travel as Airlines Extend Suspensions",
+      "· gct | Nick the Greek: The Cretan Who Became America’s Greatest Gambler",
+      "· gct | Silent Reading Trend Reaches Agrafa at an 1894 Stone Mansion",
+      "· gct | Fraport Greece Passenger Traffic Rises 1.9% in October",
+      "· gct | Interpol Arrests 262 in Mediterranean Migrant Smuggling Crackdown",
+      "· gct | Greek Passport Among World’s Strongest but Ranks 36th for Happiness",
+      "· gct | Princess Olympia of Greece Stars on Vogue Scandinavia Cover",
+      "· gn-iefimerida | Χάος σε πτήση της Frontier Airlines: Πιλότος έκανε αναγκαστική προσγείωση λόγω... διαρροής"
     ]
   },
   "evergreenDone": [
@@ -2340,6 +2377,24 @@
         "image": "https://yavanet.gr/og.png",
         "post_he": "🔴 רעידת אדמה בעוצמה 5.1 מורגשת בדרום יוון\n\nרעידת אדמה בעוצמה 5.1 התרחשה בדרום יוון, במרחק של 39 קילומטרים מדרום למוירס. הרשויות ביוון עוקבות אחר המצב.\n\nhttps://yavanet.gr/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
         "post_en": "Magnitude 5.1 Earthquake Strikes Southern Greece\n\nA magnitude 5.1 earthquake has been recorded in southern Greece, located 39 km south of Moíres. Authorities are monitoring the situation.\n\nhttps://yavanet.gr/en/a/earthquake-crete-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    },
+    {
+      "slug": "greece-israel-military-training-2026",
+      "url": "https://yavanet.gr/a/greece-israel-military-training-2026/",
+      "at": "2026-11-13T07:50:07.359Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-israel-military-training-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-israel-military-training-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "שיתוף פעולה צבאי: חיילים יוונים התאמנו עם חטיבת כפיר",
+        "title_en": "Greek soldiers train alongside Israeli infantry units",
+        "dek_he": "דיווחים בכלי התקשורת בישראל על אימון משותף של כוחות צבא יוון עם לוחמי יחידת הסיור חרוב השבוע.",
+        "dek_en": "Reports in Israel detail a joint military training exercise involving Greek troops and the IDF's Haruv reconnaissance unit.",
+        "section": "israelis",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/11452420/pexels-photo-11452420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "שיתוף פעולה צבאי: חיילים יוונים התאמנו עם חטיבת כפיר\n\nדיווחים בכלי התקשורת בישראל על אימון משותף של כוחות צבא יוון עם לוחמי יחידת הסיור חרוב השבוע.\n\nhttps://yavanet.gr/a/greece-israel-military-training-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greek soldiers train alongside Israeli infantry units\n\nReports in Israel detail a joint military training exercise involving Greek troops and the IDF's Haruv reconnaissance unit.\n\nhttps://yavanet.gr/en/a/greece-israel-military-training-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
       }
     }
   ]
