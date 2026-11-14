@@ -19,15 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "c129f5b0a065": 1793424406104,
-    "57cfa5d374d2": 1793424406104,
-    "6f5d650e307b": 1793424406104,
-    "a053e064568d": 1793424406104,
-    "1828d72dcff8": 1793424406104,
-    "3e7a5bcc18cf": 1793424406104,
-    "7be65f5ca4ef": 1793424406104,
-    "66993591f540": 1793424406104,
-    "bdf91a80475d": 1793424406104,
     "e543692a79a8": 1793436778797,
     "d10e5f1e2233": 1793436778797,
     "347e57afb1e3": 1793436778797,
@@ -1703,39 +1694,51 @@
     "425df8627358": 1794625555175,
     "5005255531c2": 1794625555175,
     "1861353822a5": 1794625555175,
-    "e859d03f671b": 1794625555175
+    "e859d03f671b": 1794625555175,
+    "ed86d6cca419": 1794643305791,
+    "d87bbc5b8ff2": 1794643305791,
+    "c7606a096621": 1794643305791,
+    "4f503b1896ac": 1794643305791,
+    "63ff6d298f4c": 1794643305791,
+    "e860120651ae": 1794643305791,
+    "97be2b26f466": 1794643305791,
+    "21ec295422ed": 1794643305791,
+    "a1fbbe39ecdd": 1794643305791,
+    "48b5b671b3f9": 1794643305791,
+    "9e1d2cbb144d": 1794643305791,
+    "2638bb1ea165": 1794643305791
   },
   "pending": {
-    "3a8f86": {
-      "createdAt": 1794620704060,
+    "840f8d": {
+      "createdAt": 1794643329172,
       "item": {
-        "title": "Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
-        "url": "https://greekcitytimes.com/2026/11/14/athens-sites-pass/",
-        "summary": "Greece approved a €100 seven-day Athens Sites Pass and set ticket prices for new museums at Tatoi, in Piraeus and at the Acropolis.\n The post Greece Approves €100 Athens Sites Pass for Seven-Day Visits appeared first on Greek City Times .",
-        "published": "Fri, 13 Nov 2026 22:57:32 +0000",
-        "id": "367db8e06ce2",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία",
+        "url": "https://www.in.gr/2026/11/14/economy/oikonomikes-eidiseis/i-thea-sti-thalassa-ektinassei-ta-enoikia-ti-deixnoun-nea-stoixeia/",
+        "summary": "Η επιφάνεια αποτελεί ένα από τα χαρακτηριστικά με τις μεγαλύτερες διαφοροποιήσεις στα ζητούμενα ενοίκια\n The post Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία appeared first on in.gr .",
+        "published": "Sat, 14 Nov 2026 09:59:48 +0200",
+        "id": "ed86d6cca419",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "367db8e06ce2",
-        "section": "travel",
+        "id": "ed86d6cca419",
+        "section": "real-estate",
         "priority": 7,
         "sensitive": true,
         "breaking": false,
-        "reason": "New €100 seven-day Athens Sites Pass and ticket prices for major museums and the Acropolis directly impact tourists visiting Athens.",
+        "reason": "Data on how sea views drive up rents and property values, highly relevant for Israeli investors looking at Greek real estate and short-term rentals.",
         "item": {
-          "title": "Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
-          "url": "https://greekcitytimes.com/2026/11/14/athens-sites-pass/",
-          "summary": "Greece approved a €100 seven-day Athens Sites Pass and set ticket prices for new museums at Tatoi, in Piraeus and at the Acropolis.\n The post Greece Approves €100 Athens Sites Pass for Seven-Day Visits appeared first on Greek City Times .",
-          "published": "Fri, 13 Nov 2026 22:57:32 +0000",
-          "id": "367db8e06ce2",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
+          "title": "Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία",
+          "url": "https://www.in.gr/2026/11/14/economy/oikonomikes-eidiseis/i-thea-sti-thalassa-ektinassei-ta-enoikia-ti-deixnoun-nea-stoixeia/",
+          "summary": "Η επιφάνεια αποτελεί ένα από τα χαρακτηριστικά με τις μεγαλύτερες διαφοροποιήσεις στα ζητούμενα ενοίκια\n The post Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία appeared first on in.gr .",
+          "published": "Sat, 14 Nov 2026 09:59:48 +0200",
+          "id": "ed86d6cca419",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1743,171 +1746,166 @@
         }
       },
       "draft": {
-        "slug": "athens-sites-pass-100-euros",
-        "section": "travel",
+        "slug": " Piraeus-real-estate-rental-prices",
+        "section": "real-estate",
         "sensitive": false,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "כרטיסים חדשים",
-          "en": "New Tickets"
+          "he": "נדלן ביוון",
+          "en": "Greece Real Estate"
         },
-        "imageKey": "athens",
-        "imageQuery": "Athens archaeological site Acropolis ancient ruins",
+        "imageKey": "house",
+        "imageQuery": "Piraeus apartment buildings Greece",
         "he": {
-          "title": "כרטיס משולב חדש לאתרי העתיקות באתונה יעלה 100 אירו",
-          "seoTitle": "כרטיס משולב חדש לאתרי העתיקות באתונה ב-100 אירו | יוונט",
-          "seoDesc": "מתכננים חופשה באתונה? מועצת העתיקות אישרה כרטיס משולב חדש ב-100 אירו המעניק גישה לאתרים המרכזיים למשך שבוע, לצד מחירי כניסה למוזיאונים חדשים.",
+          "title": "שוק הנדלן בפיראוס: מה משפיע על מחירי השכירות",
+          "seoTitle": "דירה בפיראוס: מחירי השכירות ונתוני נדלן ביוון",
+          "seoDesc": "נתונים חדשים על שוק השכירות בפיראוס: כמה עולה דירה ליד הנמל, השפעת הגודל, שנת הבנייה והאנרגיה על מחירי הדירות ביוון.",
           "keywords": [
-            "כרטיס משולב אתונה",
-            "אקרופוליס אתונה",
-            "אתרי עתיקות באתונה",
-            "מוזיאונים באתונה",
-            "חופשה באתונה"
+            "דירה באתונה",
+            "נדלן ביוון",
+            "השקעה בנדלן ביוון",
+            "פיראוס",
+            "שכירות ביוון"
           ],
-          "dek": "מועצת העתיקות המרכזית ביוון אישרה מחירי כרטיסים חדשים, הכוללים מעבר משולב בשווי 100 אירו לאתרים המרכזיים באתונה ודמי כניסה למוזיאונים חדשים לקראת פתיחתם.",
+          "dek": "מחקר חדש על שוק הדיור בפיראוס מציג את הגורמים המרכזיים שקובעים את מחירי השכירות, החל מהקרבה לנמל ועד גודל הנכס ודירוגו האנרגאטי.",
           "tldr": [
-            "כרטיס הכניסה המשולב (Athens Sites Pass) יעלה 100 אירו ויאפשר סיור באתרי העתיקות במשך שבוע.",
-            "הכרטיס כולל את האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.",
-            "מוזיאונים חדשים, בהם האחוזות המלכותיות בטאטוי והמוזיאון לעתיקות ימיות בפיראוס, קיבלו מחירי כניסה רשמיים."
+            "קרבה לנמל פיראוס מעלה את מחירי השכירות בכ-8%.",
+            "דירות קטנות וחדשות נהנות ממחירי שכירות גבוהים משמעותית למטר רבוע.",
+            "דירוג אנרגאטי גבוה ויעיל משפיע באופן ישיר על גובה השכירות המבוקש."
           ],
-          "means": "אם אתם טסים לטיול באתונה בתקופה הקרובה, כדאי להכיר את מחירי הכרטיסים החדשים ולבדוק אילו אתרים תרצו לכלול בביקור שלכם. תוכלו לרכוש את הכרטיס המלא או לבחור באופציות המצומצמות יותר, כמו כרטיס האקרופוליס בנפרד. מומלץ להתעדכן בערוצים הרשמיים לפני ההגעה לאתרים.",
-          "body": "מועצת העתיקות המרכזית ביוון אישרה שורה של שינויים במחירי הכרטיסים לאתרים הארכיאולוגיים והמוזיאונים, ובראשם השקת כרטיס משולב חדש לאתרי הבירה.\n\n## כרטיס משולב חדש לאתרי אתונה\n\nהכרטיס החדש, ששמו הרשמי הוא Hellenic Heritage Athens Sites Pass, יעלה 100 אירו בסך הכל ויאפשר למבקרים לסייר באתרי העתיקות המרכזיים במשך שבעה ימים רצופים. מבקרים הזכאים לכניסה מוזלת ישלמו 50 אירו. הכרטיס מרכז מספר מוקדים בולטים ובהם האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.\n\nלצד כרטיס זה, אושר כרטיס נפרד המוקדש לאזור האקרופוליס בלבד, הנקרא Hellenic Heritage Acropolis Pass. כרטיס זה יחבר בין האקרופוליס, מדרונותיו ומוזיאון האקרופוליס הישן, ויעלה 45 אירו (או 23 אירו לכניסה מוזלת). לצורך השוואה, כרטיס סטנדרטי לאקרופוליס לבדו עומד כיום על 30 אירו בפלטפורמת הכרטיסים הרשמית, לאחר שרשם ביקוש גבוה במיוחד עם 4.6 מיליון מבקרים ב-2025.\n\n## מחירי כניסה למוזיאונים חדשים\n\nבמסגרת המהלך, נקבעו מחירי כניסה לשלושה מוזיאונים של משרד התרבות שטרם נפתחו לקהל הרחב. הכניסה לאחוזת טאטוי המלכותית לשעבר, הצפונית לאתונה, תעלה 30 אירו. כרטיס זה יכסה שלושה מבנים מרכזיים: הארמון, מוזיאון הכרכרות ומוזיאון הרכבים ההיסטוריים, בעוד שההליכה בשאר שטחי האחוזה תמשיך להתקיים ללא תשלום.\n\nבנוסף, המוזיאון הלאומי לעתיקות ימיות בפיראוס, הנמצא בשלבי הקמה אחרונים, יגבה 20 אירו לכניסה כללית. במתחם פיראוס 260, מרכז היציקות והרפליקות החדש Montelothiki יתמחר את הכניסה ב-15 אירו, ומרכז אמנות הדפסת הטקסטיל ומלאכות הטקסטיל יעלה 10 אירו. הזכאים להנחות ייהנו מהתעריפים המופחתים בהתאם לכללים הנהוגים באתרים הממשלתיים.\n\n## הנחות עונתיות והמשך הדרך\n\nברקע העדכונים במחירים, משרד התרבות מזכיר כי אתרים ומוזיאונים המופעלים על ידי המדינה מציעים כניסה חופשית לכלל הציבור ביום ראשון הראשון והשלישי של כל חודש, וזאת עד חודש מרץ. הרשויות טרם פרסמו מועד רשמי לפתיחתם המלאה של חלק מהמוזיאונים החדשים, אך העדכונים במבנה הכרטיסים נועדו להיערך לעומסי הקהל הגדלים באתרים ההיסטוריים.\n\n## שאלות נפוצות\n\n**כמה עולה הכרטיס המשולב החדש לאתונה?**\nהכרטיס המשולב הרשמי, Hellenic Heritage Athens Sites Pass, עולה 100 אירו למבוגר ו-50 אירו לזכאים לכניסה מוזלת, והוא תקף לשבעה ימים.\n\n**אילו אתרים כלולים בכרטיס המשולב?**\nהכרטיס כולל בין היתר את האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.\n\n**האם יש כניסה חינם לאתרים בתקופה זו?**\nאתרים ומוזיאונים ממשלתיים מציעים כניסה חופשית ביום ראשון הראשון והשלישי של כל חודש עד חודש מרץ."
+          "means": "אם אתם שוקלים השקעה בנדלן באזור פיראוס או רכישת דירה להשכרה, חשוב לבדוק את המאפיינים הספציפיים של הנכס, כמו המרחק מהנמל, שנת הבנייה והדירוג האנרגאטי שלו. מומלץ להתייעץ עם אנשי מקצוע מקומיים לפני קבלת החלטות רכישה.",
+          "body": "## הנתונים החדשים בשוק השכירות בפיראוס\nהאזור סביב פיראוס מושך אליו עניין רב מצד משקיעים ושוכרים כאחד בשנים האחרונות. פיתוח האזור והרחבת הרכבת התחתית תרמו לעליית ערך הנכסים ברובע, כאשר המרחק מהנמל משחק תפקיד מרכזי בתמונת המחירים.\n\n## השפעת המרחק מהנמל והגודל על המחירים\nמחקר שוק שנערך לאחרונה מעלה כי דירות הנמצאות במרחק של עד קילומטר אחד מהנמל מציגות מחירי שכירות מבוקשים הגבוהים בכ-8% בהשוואה לאזורים רחוקים יותר. יחד עם זאת, נתון בולט נוסף נוגע לשטח הדירה: דירות קטנות בגודל של עד חמישים מטרים רבועים מציגות מחיר ממוצע למטר רבוע הגבוה משמעותית מהממוצע הכללי במדגם, בעוד נכסים גדולים יותר מוצעים במחיר נמוך יותר למטר.\n\n## שנת בנייה ודירוג אנרגאטי\nמעבר למיקום ולגודל, גם מאפייני הבניין עצמו קובעים את העלות. דירות שנבנו בשנים האחרונות, ובמיוחד בין השנים 2020 ל-2026, מציגות רמות מחירים גבוהות בולטות מעל הממוצע. כמו כן, קיים פער משמעותי בין נכסים בעלי דירוג אנרגאטי גבוה לבין נכסים ישנים יותר, מה שמלמד על חשיבות היעילות האנרגאטית בשוק השכירות הנוכחי.\n\n## שאלות נפוצות\n**האם דירות קרובות לנמל פיראוס יקרות יותר?**\nכן, נכסים הנמצאים במרחק של עד קילומטר אחד מהנמל מציגים מחירי שכירות גבוהים בכ-8% לעומת אזורים רחוקים יותר.\n\n**איך משפיע גודל הדירה על מחיר השכירות למטר?**\nדירות קטנות בגודל 20 עד 50 מטרים רבועים מציגות מחירי שכירות גבוהים משמעותית למטר רבוע בהשוואה לדירות גדולות.\n\n**האם דירוג אנרגאטי משפיע על מחירי השכירות בפיראוס?**\nכן, דירות בדירוג אנרגאטי גבוה נהנות ממחירים גבוהים יותר מאשר נכסים בדירוג נמוך."
         },
         "en": {
-          "title": "Athens Approves New €100 Pass for Main Archaeological Sites",
-          "seoTitle": "New €100 Athens Sites Pass Approved for Archaeological Sites",
-          "seoDesc": "Greece approves a new €100 Athens Sites Pass covering major archaeological sites for seven days, along with ticket prices for upcoming museums.",
+          "title": "Piraeus Rental Market: What Drives Property Prices",
+          "seoTitle": "Piraeus Real Estate: Rental Prices and Property Data",
+          "seoDesc": "New data on the Piraeus rental market shows how distance from the port, property size, construction year, and energy class affect rent prices.",
           "keywords": [
-            "Athens Sites Pass",
-            "Acropolis tickets",
-            "Athens archaeological sites",
-            "Greece culture ministry",
-            "Athens museums"
+            "Piraeus apartments",
+            "Greece real estate",
+            "Greece property market",
+            "rent in Greece",
+            "Athens investment"
           ],
-          "dek": "Greece’s Central Archaeological Council has approved new ticket prices, including a €100 pass for the capital's main archaeological sites and entry fees for upcoming museums.",
+          "dek": "A recent study on the housing market in Piraeus highlights the key factors determining rental prices, from port proximity to property size and energy rating.",
           "tldr": [
-            "The new Athens Sites Pass costs €100 and grants access to key archaeological sites for seven days.",
-            "Covered locations include the Acropolis, Ancient Agora, Kerameikos, Olympieion, Roman Agora, and the Temple of Hephaestus.",
-            "New museums, such as the Tatoi estate and the Piraeus maritime antiquities museum, have also received official entry fees."
+            "Properties within one kilometer of the port show an eight percent increase in rent prices.",
+            "Smaller and newer apartments command significantly higher rent per square meter.",
+            "High energy efficiency classes directly correlate with higher asking rent prices."
           ],
-          "means": "If you are planning a trip to Athens, review the new ticketing options to decide whether the comprehensive pass suits your itinerary or if individual tickets are better. Check official ticketing platforms for updates before visiting.",
-          "body": "Greece’s Central Archaeological Council has backed a proposal for revised ticket structures across Athens, introducing a comprehensive multi-site pass and setting entry fees for several long-awaited cultural institutions.\n\n## The New Athens Sites Pass\n\nOfficially named the Hellenic Heritage Athens Sites Pass, the single ticket is priced at €100, while visitors who qualify for reduced entry will pay €50. The pass allows holders to tour the main archaeological sites of the Greek capital over a period of seven days. Among the prominent locations covered by the pass are the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora, and the Temple of Hephaestus.\n\nIn addition to the comprehensive pass, authorities introduced a separate Hellenic Heritage Acropolis Pass. This option combines the Acropolis, its slopes, and the Old Acropolis Museum for €45, with reduced entry set at €23. By comparison, a standard ticket for the Acropolis alone currently costs €30 on the official platform, following strong demand that drew a record 4.6 million visitors in 2025.\n\n## New Pricing for Upcoming Museums\n\nTicket fees were also established for three Culture Ministry museums ahead of their respective openings. Entry to the former royal estate at Tatoi, located north of Athens, will cost €30. The ticket covers three specific buildings: the palace, a carriage museum, and a historic vehicle museum, though visitors can still walk through the rest of the estate grounds free of charge.\n\nSimilarly, the National Museum of Underwater Antiquities in Piraeus will charge €20 for general entry. Within the Piraeus 260 complex, the new Montelothiki cast and replica center will set entry at €15, while the Museum of Textile Printing Art and Textile Crafts Centre will charge €10. Reduced entry rules will apply across all these museums.\n\n## Seasonal Free Entry and Access\n\nAlongside the new pricing structure, state-run sites and museums continue to offer free entry on the first and third Sunday of each month until March. The Culture Ministry has yet to confirm precise opening dates for all the newly priced cultural venues, but the decisions mark a step toward organizing visitor access as interest in Athens' historical sites remains high.\n\n## FAQ\n\n**How much does the new Athens Sites Pass cost?**\nThe Hellenic Heritage Athens Sites Pass costs €100 for general admission and €50 for visitors qualifying for reduced entry, remaining valid for seven days.\n\n**Which locations are included in the Athens Sites Pass?**\nThe pass covers the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora, and the Temple of Hephaestus.\n\n**Are there any free admission days at state sites?**\nState-run archaeological sites and museums offer free entry on the first and third Sunday of each month until March."
+          "means": "If you are considering real estate investment in the Piraeus area or buying an apartment to rent out, it is important to check the specific characteristics of the property, such as its distance from the port, construction year, and energy rating. Consult local professionals before making purchase decisions.",
+          "body": "## New Data on the Piraeus Rental Market\nThe area around Piraeus has been attracting significant interest from both investors and tenants in recent years. Area development and subway expansion have boosted property values in the district, with proximity to the port playing a central role in pricing.\n\n## Impact of Port Distance and Size on Prices\nA recent market study shows that apartments located within one kilometer of the port feature asking rents that are about eight percent higher compared to zones further away. At the same time, another prominent factor is apartment size: smaller homes ranging between twenty and fifty square meters show a median asking price per square meter that is noticeably higher than the sample median, while larger properties have lower per-square-meter rates.\n\n## Construction Year and Energy Class\nBeyond location and size, property characteristics also dictate costs. Homes built in recent years, particularly between 2020 and 2026, show price levels well above the overall median. Additionally, a clear price gap exists between properties with high energy efficiency ratings and older ones, highlighting the importance of energy performance in the current rental market.\n\n## FAQ\n**Are apartments closer to the Piraeus port more expensive?**\nYes, properties located within one kilometer of the port show median rent prices that are eight percent higher than properties further away.\n\n**How does apartment size affect the rent price per square meter?**\nSmaller apartments measuring 20 to 50 square meters display significantly higher median asking prices per square meter compared to larger properties.\n\n**Does energy rating affect rental prices in Piraeus?**\nYes, apartments with high energy efficiency ratings command noticeably higher rents than those with lower energy classes."
         }
       },
-      "text": "File photo: The Temple of Hephaestus from the Ancient Agora, Athens, in October 2015. Photo: Jebulon, via Wikimedia Commons (CC0) \n 0 \n 0 \n 0 \n Visitors to Athens will be able to tour its main archaeological sites for seven days with a €100 Athens Sites Pass, after Greece’s Central Archaeological Council approved new ticket prices. \n The council backed a proposal by the Hellenic Organization of Cultural Resources Development (ODAP). Under the plan, the Athens Sites Pass covers the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora and the Temple of Hephaestus, among other sites.\n Three long-awaited Culture Ministry museums also get entry fees before they open. They include the former royal estate at Tatoi and a national museum of underwater antiquities in Piraeus.\n Officially named the Hellenic Heritage Athens Sites Pass, the single ticket costs €100 in total. Visitors who qualify for reduced entry will pay €50.\n Read more: Free Museum Entry Returns Across Greece on Sunday \n Athens Sites Pass and Acropolis tickets\n By comparison, a standard ticket for the Acropolis alone currently costs €30 on the official ticketing platform . Demand is strong, after the site drew a record 4.6 million visitors in 2025 .\n In addition to the Athens Sites Pass, a separate Hellenic Heritage Acropolis Pass will combine the Acropolis, its slopes and the Old Acropolis Museum. It will cost €45, or €23 for reduced entry.\n The Old Acropolis Museum, on the Acropolis rock, is due to open in the coming period.\n Separately, state-run sites and museums offer free entry on the first and third Sunday of each month until March.\n Prices at the new museums\n Entry to the museums at Tatoi, north of Athens, will cost €30. The ministry has yet to confirm an opening date.\n Its ticket covers three buildings: the palace, a carriage museum and a museum of historic vehicles. Still, visitors can walk through the rest of the estate free of charge, as they do now.\n Earlier, Greek City Times reported that Tatoi was set to open in December as a new cultural park.\n Similarly, the National Museum of Underwater Antiquities, which is nearing completion in Piraeus, will charge €20 for general entry.\n At the Piraeus 260 complex, ODAP’s new Montelothiki, a centre for casts and replicas of ancient works, will charge €15. Also, the Museum of Textile Printing Art and Textile Crafts Centre will cost €10.\n Reduced tickets will apply at all of these museums under the existing rules, the council decided.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Mitsotakis Inaugurates Upgraded Kerameikos Archaeological Site in Athens \n Greece Marks European Heritage Days With Free Museum Entry \n Ancient Greek Heritage Comes to Life at Thessaloniki Fair \n Greece Highlights Its Underwater Cultural Heritage on International Day \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Greece Makes Polytechnic Gate a Protected Monument\n Next Article \n FAA Grounds All US Departures After Air Traffic Communications Fault\n 0 \n 0 \n 0",
+      "text": "Vita.gr \n Manifesting 2.0: Δεν αρκεί να το θέλουμε\n Spotlight Υπόθεση Μπεκίρη: Οι αποκαλύψεις του in φέρνουν πειθαρχική έρευνα στην Πάτρα \n «Δύο τάνκερ φλέγονται στα Στενά του Ορμούζ» \n «Εσένα, γιε μου, ποιος σε προστάτεψε;» - Ραγίζει καρδιές η μητέρα του εθελοντή πυροσβέστη Παναγιώτη Πλεξίδα \n Φοιτητές: «Κανένας πρύτανης, καμία κυβέρνηση δεν θα κάνει κουμάντο στον εορτασμό» του Πολυτεχνείου \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Ο Πειραιάς αναδεικνύεται ο νέος μαγνήτης για ακίνητα. Η επέκταση του Μετρό και η ανάπτυξη της ευρύτερης περιοχής έχουν ενισχύσει την αξία των ακινήτων τα τελευταία χρόνια στον Πειραιά .\n Οι τιμές στο Πειραιά\n Σύμφωνα με έρευνα της ReDataset οι κατοικίες που βρίσκονται σε απόσταση έως 1 χλμ. από το λιμάνι εμφανίζουν 8% υψηλότερο διάμεσο ζητούμενο ενοίκιο ανά τ.μ., στα 10,45 €/τ.μ., έναντι 9,72 €/τ.μ. στη ζώνη 1–2 χλμ. Η συνολική διάμεση τιμή του δείγματος διαμορφώνεται στα 10,0 €/τ.μ.\n Εξετάζοντας την απόσταση σε μικρότερα διαστήματα των 250 μέτρων, παρατηρείται μια γενικά πτωτική τάση. Στα πρώτα 500 μέτρα, η διάμεση ζητούμενη τιμή βρίσκεται περίπου στα 10,8 €/τ.μ., ενώ στη ζώνη 1.750–2.000 μέτρων υποχωρεί στα 9,1 €/τ.μ.\n Η επιφάνεια αποτελεί ένα από τα χαρακτηριστικά με τις μεγαλύτερες διαφοροποιήσεις στα ζητούμενα ενοίκια.\n Οι κατοικίες 20–50 τ.μ. εμφανίζουν διάμεσο ζητούμενο ενοίκιο 13,3 €/τ.μ., δηλαδή 33% υψηλότερο από τη συνολική διάμεσο του δείγματος. Στον αντίποδα, οι κατοικίες 120–300 τ.μ. βρίσκονται στα 7,7 €/τ.μ.\n Η διαφορά αυτή αναδεικνύει ότι το μικρότερο μέγεθος συνδέεται με υψηλότερη ζητούμενη τιμή ανά τετραγωνικό, παρότι το συνολικό μηνιαίο ενοίκιο μπορεί να είναι χαμηλότερο.\n Το έτος κατασκευής συνδέεται επίσης με διαφοροποιήσεις στα ζητούμενα ενοίκια.\n Στις κατοικίες που κατασκευάστηκαν πριν από το 2000, οι διάμεσες τιμές παραμένουν σχετικά σταθερές, κυμαινόμενες μεταξύ 9,4 και 10,0 €/τ.μ.\n Από το 2000 και μετά, καταγράφονται υψηλότερες τιμές στις νεότερες κατηγορίες κατασκευής.\n Η μεγαλύτερη διαφοροποίηση εμφανίζεται στις κατοικίες της περιόδου 2020–2026, με διάμεσο ζητούμενο ενοίκιο 12,9 €/τ.μ., δηλαδή 29% υψηλότερο από τη συνολική διάμεσο.\n Οι διαφορές αυτές αποτυπώνουν την υψηλότερη ζητούμενη τιμή των νεότερων κατοικιών στο συγκεκριμένο δείγμα, χωρίς να απομονώνουν την επίδραση της ηλικίας από άλλα χαρακτηριστικά, όπως η ενεργειακή απόδοση ή η τοποθεσία.\n Αντίστοιχη διαφοροποίηση παρουσιάζεται και με βάση την ενεργειακή κλάση.\n Οι κατοικίες υψηλότερων ενεργειακών κατηγοριών εμφανίζουν υψηλότερα ζητούμενα ενοίκια ανά τ.μ., με την κλάση Α+ να καταγράφει την υψηλότερη διάμεση τιμή.\n Η διαφορά μεταξύ των κλάσεων Α+ και Η φτάνει τα 3,6 €/τ.μ., με διάμεσες ζητούμενες τιμές 12,6 και 9,0 €/τ.μ. αντίστοιχα. Παράλληλα, οι κατοικίες κλάσης Α+ βρίσκονται 26% πάνω από τη συνολική διάμεσο του δείγματος.\n Η ενεργειακή απόδοση αποτελεί επομένως ένα σημαντικό χαρακτηριστικό διαφοροποίησης των ζητούμενων τιμών. Ωστόσο, οι ενεργειακές κατηγορίες συνδέονται συχνά και με άλλες διαφορές μεταξύ των κατοικιών, όπως το έτος κατασκευής και οι συνολικές προδιαγραφές τους.\n Η αρχική σύγκριση δείχνει υψηλότερα ζητούμενα ενοίκια κοντά στο λιμάνι. Ωστόσο, οι κατοικίες των δύο ζωνών δεν έχουν απαραίτητα τα ίδια χαρακτηριστικά.\n Στη ζώνη 0–1 χλμ., οι κατοικίες είναι συχνότερα μικρότερες και παλαιότερες, ενώ μεγαλύτερο ποσοστό διαθέτει ασανσέρ και βρίσκεται σε υψηλότερο όροφο.\n Αυτές οι διαφοροποιήσεις έχουν σημασία, καθώς το μέγεθος, η ηλικία, ο όροφος και ο εξοπλισμός μιας κατοικίας συνδέονται με το ύψος του ζητούμενου ενοικίου.\n Η αγορά ενοικίασης γύρω από το λιμάνι του Πειραιά παρουσιάζει σημαντικές διαφοροποιήσεις τόσο ως προς την απόσταση όσο και ως προς τα χαρακτηριστικά των κατοικιών του δείγματος.\n Τρία βασικά συμπεράσματα προκύπτουν από τα δεδομένα:\n Η εγγύτητα στο λιμάνι συνδέεται με υψηλότερα ζητούμενα ενοίκια. Η ζώνη 0–1 χλμ. εμφανίζει διάμεση τιμή 8% υψηλότερη από τη ζώνη 1–2 χλμ.\n Το μέγεθος της κατοικίας διαφοροποιεί έντονα την τιμή ανά τ.μ. Οι μικρότερες κατοικίες εμφανίζουν σημαντικά υψηλότερες διάμεσες ζητούμενες τιμές.\n Η ηλικία και η ενεργειακή κλάση συνδέονται με διαφορετικά επίπεδα τιμών. Οι κατοικίες κατασκευής 2020–2026 και ενεργειακής κλάσης Α+ βρίσκονται αισθητά πάνω από τη συνολική διάμεσο.\n Το σημαντικότερο, όμως, είναι ότι η γεωγραφική σύγκριση δεν μπορεί να απομονωθεί από τα χαρακτηριστικά των κατοικιών. Η απόσταση από το λιμάνι αποτελεί μέρος της εικόνας, αλλά δεν αρκεί από μόνη της για να εξηγήσει τις παρατηρούμενες διαφορές στα ενοίκια.\n Πηγή: ot.gr \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Star Wars: Ρεκόρ για το ιερό δισκοπότηρο των Σιθ – 5 εκατομμύρια δολάρια για το φωτόσπαθο του Νταρθ Βέιντερ \n Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία \n Οι αθλητικές μεταδόσεις (14/11): Πού θα δούμε το Παναθηναϊκός – Ολυμπιακός στη Volley League και τα ματς του Nations League \n Βόλος: Τραγικό τροχαίο στον Αλμυρό – Νεκρός 27χρονος οδηγός αγροτικού \n Φέρες Έβρου: «Κάν’ τον να μην ξαναγυρίσει» – Η εντολή και οι μαρτυρίες για τον θανάσιμο ξυλοδαρμό 43χρονου \n Ολυμπιακός: Κόντρα στην Οριζόντε για τη δεύτερη νίκη στο Champions League \n ΗΠΑ: Αποκαταστάθηκαν οι πτήσεις, αλλά το χάος στα αεροδρόμια συνεχίζεται – Ο λόγος της αναστάτωσης \n Κουρτ Γκέντελ: Η AI αποκάλυψε μαθηματικές ανακαλύψεις που έμειναν κρυμμένες για 80 χρόνια \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
       "issues": [],
       "el": {
-        "title": "Η Αθήνα εγκρίνει νέο πάσο 100 ευρώ για τους βασικούς αρχαιολογικούς χώρους",
-        "dek": "Το Κεντρικό Αρχαιολογικό Συμβούλιο της Ελλάδας ενέκρινε νέες τιμές εισιτηρίων, συμπεριλαμβανομένου ενός πάσου 100 ευρώ για τους κύριους αρχαιολογικούς χώρους της πρωτεύουσας και τελών εισόδου για τα επερχόμενα μουσεία.",
+        "title": "Αγορά ενοικίων στον Πειραιά: Τι καθορίζει τις τιμές των ακινήτων",
+        "dek": "Πρόσφατη μελέτη για την αγορά κατοικίας στον Πειραιά υπογραμμίζει τους βασικούς παράγοντες που καθορίζουν τις τιμές ενοικίασης, από την εγγύτητα στο λιμάνι έως το μέγεθος του ακινήτου και την ενεργειακή κλάση.",
         "tldr": [
-          "Το νέο Athens Sites Pass κοστίζει 100 ευρώ και παρέχει πρόσβαση σε βασικούς αρχαιολογικούς χώρους για επτά ημέρες.",
-          "Οι καλυπτόμενες τοποθεσίες περιλαμβάνουν την Ακρόπολη, την Αρχαία Αγορά, τον Κεραμεικό, το Ολυμπιείο, τη Ρωμαϊκή Αγορά και τον Νόμο του Ηφαίστου.",
-          "Νέα μουσεία, όπως το κτήμα Τατοΐου και το μουσείο εναλίων αρχαιοτήτων στον Πειραιά, έλαβαν επίσης επίσημα τέλη εισόδου."
+          "Τα ακίνητα σε απόσταση ενός χιλιομέτρου από το λιμάνι παρουσιάζουν αύξηση 8% στις τιμές ενοικίασης.",
+          "Τα μικρότερα και νεότερα διαμερίσματα διαθέτουν σημαντικά υψηλότερο ενοίκιο ανά τετραγωνικό μέτρο.",
+          "Οι υψηλές ενεργειακές κλάσεις συνδέονται άμεσα με υψηλότερες ζητούμενες τιμές ενοικίασης."
         ]
       },
       "notified": true
     },
-    "56693b": {
-      "createdAt": 1794620731672,
+    "3fb722": {
+      "createdAt": 1794643356246,
       "item": {
-        "title": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki",
-        "url": "https://news.gtp.gr/2026/11/13/wyndham-signs-deal-for-174-branded-villas-in-halkidiki/",
-        "summary": "Wyndham expands its Greek branded residences portfolio through a franchise deal with Ege Yapı for 174 villas in Halkidiki....\n Source",
-        "published": "Fri, 13 Nov 2026 13:45:55 +0000",
-        "id": "e9637501f627",
-        "sourceId": "gtp",
-        "sourceName": "GTP Headlines",
+        "title": "Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTDBWVDd6OC1xWGNVRl84NDl0Mk91Mm8xMW1yQV9XR0hnbnpJRVo0MVozYWVXN1lTaUJnM2piaU8wTi1Ga3NWalFfeU51cG9VNEVpT1ZsUHlYQ3FFelpKV3JKTm5nMjBaYm1rM2RiWURhbmxNSENnbjBpWXVFUHhsNGJOUkFHbHM?oc=5",
+        "summary": "Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση &nbsp;&nbsp; iefimerida.gr",
+        "published": "Fri, 13 Nov 2026 16:43:01 GMT",
+        "id": "48b5b671b3f9",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
         "official": false,
         "emergency": false,
-        "sectionHint": "travel",
+        "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "e9637501f627",
-        "section": "real-estate",
+        "id": "48b5b671b3f9",
+        "section": "jewish-greece",
         "priority": 6,
         "sensitive": true,
         "breaking": false,
-        "reason": "Wyndham's major branded villas project in Halkidiki is key market news for real estate investors looking at northern Greece.",
+        "reason": "Commemorative event at Faliro Allied War Cemetery highlighting Jewish heritage and voice in Greece, relevant for the Jewish-Greece and Israeli audience.",
         "item": {
-          "title": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki",
-          "url": "https://news.gtp.gr/2026/11/13/wyndham-signs-deal-for-174-branded-villas-in-halkidiki/",
-          "summary": "Wyndham expands its Greek branded residences portfolio through a franchise deal with Ege Yapı for 174 villas in Halkidiki....\n Source",
-          "published": "Fri, 13 Nov 2026 13:45:55 +0000",
-          "id": "e9637501f627",
-          "sourceId": "gtp",
-          "sourceName": "GTP Headlines",
+          "title": "Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTDBWVDd6OC1xWGNVRl84NDl0Mk91Mm8xMW1yQV9XR0hnbnpJRVo0MVozYWVXN1lTaUJnM2piaU8wTi1Ga3NWalFfeU51cG9VNEVpT1ZsUHlYQ3FFelpKV3JKTm5nMjBaYm1rM2RiWURhbmxNSENnbjBpWXVFUHhsNGJOUkFHbHM?oc=5",
+          "summary": "Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση &nbsp;&nbsp; iefimerida.gr",
+          "published": "Fri, 13 Nov 2026 16:43:01 GMT",
+          "id": "48b5b671b3f9",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
           "official": false,
           "emergency": false,
-          "sectionHint": "travel",
+          "sectionHint": "politics",
           "strike": false
         }
       },
       "draft": {
-        "slug": "wyndham-villas-halkidiki-real-estate",
-        "section": "real-estate",
-        "sensitive": false,
+        "slug": "jewish-ceremony-phaleron-war-cemetery",
+        "section": "jewish-greece",
+        "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greek Real Estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "luxury villas greece architecture",
+        "alert": null,
+        "imageKey": "people",
+        "imageQuery": "memorial ceremony cemetery greece",
         "he": {
-          "title": "רשת וינדהם מרחיבה את פעילותה ביוון עם פרויקט ענק בחלקידיקי",
-          "seoTitle": "נדל\"ן ביוון: 174 וילות חדשות של וינדהם בחלקידיקי",
-          "seoDesc": "רשת המלונות וינדהם חותמת על הסכם להקמת מתחם וילות יוקרתי בחלקידיקי שיכלול 174 יחידות דיור בניהול מלונאי ושירותי אירוח מתקדמים.",
+          "title": "טקס זיכרון בבית העלמין הצבאי בפאלירון באתונה",
+          "seoTitle": "טקס זיכרון בבית העלמין בפאלירון באתונה",
+          "seoDesc": "טקס זיכרון במרכז בית העלמין הצבאי בפאלירון באתונה. כל הפרטים על האירוע המרגש והנוכחים בו.",
           "keywords": [
-            "נדל\"ן ביוון",
-            "חלקידיקי",
-            "השקעה בנדל\"ן ביוון",
-            "וינדהם יוון",
-            "וילות ביוון"
+            "בית העלמין בפאלירון",
+            "אתונה",
+            "טקס זיכרון ביוון",
+            "הקהילה היהודית ביוון"
           ],
-          "dek": "חברת הנדל\"ן הטורקית אגה יאפי תקים מתחם וילות יוקרתי בחלקידיקי בניהול רשת המלונות וינדהם, הכולל 174 יחידות מגורים עם שירותים מלונאיים.",
+          "dek": "טקס מרגש התקיים בבית העלמין הצבאי בפאלירון שבאתונה, בהשתתפות אישי ציבור ודגש על הקול היהודי.",
           "tldr": [
-            "חברת וינדהם חתמה על הסכם להקמת 174 וילות בחלקידיקי.",
-            "הפרויקט מבוצע בשיתוף חברת הנדל\"ן הטורקית אגה יאפי.",
-            "היחידות משלבות מגורים פרטיים עם שירותי ניהול מלונאי מלאים."
+            "הטקס התקיים בבית העלמין הצבאי בפאלירון שבסביבת אתונה.",
+            "פנינת ינאי השתתפה באירוע ונשאה דברים משמעותיים.",
+            "האירוע הדגיש את חשיבות הקול והנוכחות היהודית."
           ],
-          "means": "מתעניינים בהשקעות נדל\"ן ביוון? פרויקטים של מותגים בינלאומיים המשלבים מגורים ושירותי ניהול מציעים מודל של השכרת הנכס תחת תוכנית מנוהלת. מומלץ לבדוק את התנאים והתשואות הצפויות מול היזמים, ומכיוון שמדובר במידע כללי, כדאי להתייעץ עם אנשי מקצוע לפני כל החלטה פיננסית.",
-          "body": "## הרחבת פורטפוליו המלונות והמגורים ביוון\n\nרשת המלונות העולמית וינדהם (Wyndham Hotels & Resorts) ממשיכה להרחיב את פעילותה בתחום המגורים הממותגים ביוון. ההסכם נחתם מול חברת הנדל\"ן והבנייה הטורקית אגה יאפי (Ege Yapı), והוא נוגע להקמת מתחם חדש שיכלול 174 וילות בחלקידיקי.\n\nהפרויקט החדש נקרא וינדהם רזידנסס גראקיני חלקידיקי (Wyndham Residences Gerakini Halkidiki). ההסכם נחתם בחודש נובמבר, והוא משלב בין בעלות פרטית על וילות לבין שירותי אירוח וניהול מלונאי מקצועיים לרווחת הדיירים והאורחים.\n\n## מיקום והשירותים במתחם החדש\n\nהווילות החדשות יוקמו במרחק של כ-400 מטרים מחוף גראקיני הזוכה בדגל כחול, ובמרחק נסיעה של כשעה בלבד משדה התעופה הבינלאומי של סלוניקי. המתחם יכלול 174 וילות מרוהטות במלואן שיימכרו במודל מפתח (turnkey).\n\nהרוכשים יהיו מחויבים להשכיר את הווילות בחזרה למפעיל כחלק מתוכנית השכרה מנוהלת, המאפשרת להפיק הכנסה משכירות בהתאם לתנאי התוכנית. תשתית האירוח המשותפת תכלול שירותי ניקיון, קונסיירז' ותחזוקה, לצד גישה למערכות השיווק והנאמנות הגלובליות של רשת וינדהם.\n\n## האסטרטגיה של וינדהם בצפון יוון וביתר המדינה\n\nמהלך זה מצטרף לשאיפה של וינדהם לשלוש את היקף הפעילות שלה ביוון, לאחר שבשנים האחרונות זיהתה פוטנציאל משמעותי בדירות שירות ובמגורים ממותגים. בחודש ספטמבר האחרון פתחה הרשת את מתחם וינדהם רזידנסס פיראוס מרינה זיאס, שהביא את סך הנכסים של הקבוצה ביוון ל-15 נכסים שונים.\n\nהפרויקט החדש בחלקידיקי מיועד לקהל יעד של קונים יוונים ובינלאומיים כאחד, המחפשים איכות חיים גבוהה לצד ניהול מקצועי של הנכס. נכון לעכשיו, שווי ההשקעה הכולל ומועד פתיחת המתחם טרם פורסמו על ידי החברות.\n\n## שאלות נפוצות\n\n**איפה מוקם פרויקט הוילות החדש של וינדהם?**\nהמתחם מוקם בחלקידיקי, במרחק של כ-400 מטרים מחוף גראקיני וכשעה נסיעה משדה התעופה של סלוניקי.\n\n**האם רוכשי הוילות מחויבים להשתתף בתוכנית השכרה?**\nכן, במסגרת מודל הבעלות, הרוכשים נדרשים להשכיר את הווילות בחזרה למפעיל כחלק מתוכנית שכירות מנוהלת.\n\n**כמה נכסים יש לרשת וינדהם ביוון נכון להיום?**\nהרשת מפעילה כ-15 נכסים ברחבי יוון, כולל מתחמי מגורים ממותגים."
+          "means": "עבור ישראלים המתעניינים בהיסטוריה ובתרבות היהודית ביוון, אירועים מסוג זה ממחישים את הקשר העמוק שבין הקהילות. מומלץ להתעדכן בלוחות זמנים של טקסים דומים כאשר מבקרים באתונה.",
+          "body": "## אירוע זיכרון בפאלירון\n\nבבית העלמין הצבאי הפתוח והמרכזי בפאלירון הסמוך לאתונה, התקיימה השבוע טקס ממלכתי ומרגש במיוחד. האירוע הפגיש בין גורמים שונים ואישים בולטים שבאו לכבד את זכר הנופלים ולשמור על הזיכרון ההיסטורי החשוב.\n\n## נוכחות מרכזית בטקס\n\nבמהלך הטקס בלטה השתתפותה של פנינת ינאי, אשר לקחה חלק פעיל באירוע. בדבריה, שצוטטו בהרחבה בכלי התקשורת המקומיים, ציינה כי הקול היהודי הושמע בגאווה, בכבוד ובסגנון לב עמוקה במהלך האירוע ההיסטורי.\n\n## משמעות היסטורית ותרבותית\n\nבית העלמין הצבאי בפאלירון מהווה אתר זיכרון מרכזי באזור אתונה. אירועים הנערכים במקום מחזקים את הקשרים התרבותיים והקהילתיים, ומזכירים לכל מבקר את ההיסטוריה המשותפת והעמוקה במדינה.\n\n## שאלות נפוצות\n\n**היכן התקיים הטקס המדובר?**\nהטקס התקיים בבית העלמין הצבאי הסמוך לפאלירון.\n\n**מי נשאה דברים מרכזיים באירוע?**\nפנינת ינאי השתתפה בטקס וציינה את חשיבות הקול היהודי במעמד זה."
         },
         "en": {
-          "title": "Wyndham Signs Agreement for 174 Branded Villas in Halkidiki",
-          "seoTitle": "Halkidiki Real Estate: Wyndham Signs 174 Branded Villas Deal",
-          "seoDesc": "Wyndham Hotels & Resorts expands in Greece with a new 174-villa branded residences development in Halkidiki through a partnership with Ege Yapı.",
+          "title": "Memorial Ceremony at Phaleron War Cemetery in Athens",
+          "seoTitle": "Memorial Ceremony at Phaleron War Cemetery Athens",
+          "seoDesc": "A special memorial ceremony took place at the Phaleron War Cemetery in Athens, featuring prominent speakers and community representatives.",
           "keywords": [
-            "Greece real estate",
-            "Halkidiki villas",
-            "Wyndham Greece",
-            "property investment Greece",
-            "Ege Yapı"
+            "Phaleron War Cemetery",
+            "Athens memorial",
+            "Jewish Greece",
+            "Athens events"
           ],
-          "dek": "Turkish developer Ege Yapı partners with Wyndham Hotels & Resorts to develop 174 branded villas featuring resort-style management in Halkidiki.",
+          "dek": "A moving memorial ceremony was held at the Phaleron Allied War Cemetery in Athens, highlighting Jewish heritage and remembrance.",
           "tldr": [
-            "Wyndham signed a deal for 174 branded villas in Halkidiki.",
-            "The project is developed in partnership with Turkish firm Ege Yapı.",
-            "Units combine private ownership with managed hospitality services."
+            "The ceremony took place at the Phaleron Allied War Cemetery.",
+            "Pinat Yanai participated in the official event.",
+            "Speakers emphasized the importance of the Jewish voice with pride and dignity."
           ],
-          "means": "Looking at Greek real estate investments? Branded residences combining private ownership with professional rental programs require reviewing management terms and expected returns. Consult with professional advisors before making any financial decisions.",
-          "body": "## Wyndham Expands Branded Residences Portfolio in Greece\n\nWyndham Hotels & Resorts is further expanding its footprint in Greece through a new agreement with Turkish real estate developer Ege Yapı. The deal focuses on the development of 174 branded villas in the region of Halkidiki.\n\nAnnounced recently, the project is named Wyndham Residences Gerakini Halkidiki. It combines private property ownership with professional hospitality and management services, marking another milestone for Ege Yapı in its international expansion.\n\n## Project Location and Services in Halkidiki\n\nThe development will be situated approximately 400 meters away from the Blue Flag-certified Gerakini Beach. Additionally, the location is about a one-hour drive from Thessaloniki International Airport.\n\nThe project will consist of 174 fully furnished villas delivered on a turnkey basis. According to the ownership structure, buyers will be required to lease their villas back to the operator to be included in a professionally managed rental program, offering a chance to generate rental income.\n\nResidents and guests will benefit from shared hospitality infrastructure, including concierge services, housekeeping, and maintenance. The properties will also leverage Wyndham's global distribution and loyalty programs.\n\n## Growth Strategy in the Greek Market\n\nThis partnership follows Wyndham's ongoing strategy to expand its portfolio across Greece, targeting leisure destinations where travellers and owners seek managed residential offerings. Earlier openings, such as Wyndham Residences Piraeus Marina Zeas, brought the group's Greek portfolio to 15 properties.\n\nThe Halkidiki development aims to attract both domestic and international buyers. Financial details regarding the total investment value and the official opening date have not yet been disclosed by the companies.\n\n## FAQ\n\n**Where is the new Wyndham residences project located?**\nThe development is situated in Halkidiki, about 400 meters from Gerakini Beach and around an hour from Thessaloniki International Airport.\n\n**Are villa owners required to join a rental program?**\nYes, buyers must lease their villas back to the operator for inclusion in a professionally managed rental program.\n\n**How many properties does Wyndham currently operate in Greece?**\nThe hotel group operates a portfolio of 15 properties across Greece, including branded residences."
+          "means": "For Israelis interested in the historical ties and Jewish heritage of Greece, visiting such sites offers a deep connection to the local history. Check local schedules when planning a trip to Athens.",
+          "body": "## Remembrance at Phaleron\n\nA solemn and moving ceremony was held at the Allied War Cemetery in Phaleron, near Athens. The gathering brought together participants to honor memory and reflect on historical ties in a respectful environment.\n\n## Key Remarks at the Ceremony\n\nDuring the event, Pinat Yanai took part in the proceedings and shared her reflections. According to reports, she noted that the Jewish voice was heard with pride, dignity, and deep emotion during the commemorative gathering.\n\n## Significance of the Site\n\nThe Phaleron War Cemetery serves as a prominent historical landmark in the Athens area. Events held at the location continue to foster remembrance and community connection.\n\n## FAQ\n\n**Where did the memorial ceremony take place?**\nThe ceremony was held at the Allied War Cemetery in Phaleron.\n\n**Who participated in the event?**\nPinat Yanai participated and spoke about the significance of the Jewish presence and voice."
         }
       },
-      "text": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki | GTP Headlines \n connect with us\r\nGreece's latest tourism industry news by Greek Travel Pages \n-->\r\n-->\n — Main Menu — Home \n Industry Sectors » - Hospitality \n - Aviation \n - Sea Tourism - - Ferries \n - Land Transportation \n - Travel Operators \n - Marketplace \n - Technology \n - MICE \n - Culture - - Top Archaeological Sites \n - Gastronomy \n - More… - - Brief News \n - - Tourism Education \n - - Niche Markets \n - - Laws, Regulations & Policy - - - Greek Laws \n - - Trade Associations – Gov – Org \n Covid-19 » - Timeline \n - Restart \n - Greek Hotels Reopening \n - Impact \n - Measures \n - Support \n - Guidance \n - Solidarity \n - The Day After \n - Local Actions \n - Τουρισμος \n Investments » - Investment News \n - Tenders \n People » - Interviews \n - Opinions - - Thought Leaders 2026 \n - - Thought Leaders 2024 \n - - Thought Leaders 2023 \n - - Thought Leaders 2022 \n - Business Talk \n - New faces \n - Recruitments \n - Women in Tourism - - 2024 – International Women’s Day \n - - 2021 – International Women’s Day \n - - 2018 – International Women’s Day \n Destinations » - Athens \n - Northern Greece \n Event News » - Events - - Sports \n - Calendar of events \n - Awards - - Greek Hospitality Awards \n - - Tourism Awards 2019 \n - Travel Exhibitions Specials - - WTM London 2026 Special \n - - WTM London 2025 Special \n - - WTM London 2024 Special \n - - WTM London 2023 Special \n - - WTM London 2022 Special \n - - WTM London 2018 Special \n - - WTM London 2019 Special \n - - WTM London 2017 Special \n - - ITB Berlin 2024 Special \n - - ITB Berlin 2023 Special \n - - ITB Berlin 2019 Special \n - - ITB Berlin 2018 Special \n - - ITB Berlin 2017 Special \n - - Philoxenia 2014 Special \n - - 100% Hotel Show \n Ενημερωση \n gtp Network » - gtp.gr \n - GTP Careers in Tourism \n - GTP Travel Offers - - in English \n - - in Greek \n - About GTP \n - GTP eBook \n - GTP Ferry Connections \n Home \n Industry Sectors » \n Hospitality \n Aviation \n Sea Tourism \n Ferries \n Land Transportation \n Travel Operators \n Marketplace \n Technology \n MICE \n Culture \n Top Archaeological Sites \n Gastronomy \n More… \n Brief News \n Tourism Education \n Niche Markets \n Laws, Regulations & Policy \n Greek Laws \n Trade Associations – Gov – Org \n Covid-19 » \n Timeline \n Restart \n Greek Hotels Reopening \n Impact \n Measures \n Support \n Guidance \n Solidarity \n The Day After \n Local Actions \n Τουρισμος \n Investments » \n Investment News \n Tenders \n People » \n Interviews \n Opinions \n Thought Leaders 2026 \n Thought Leaders 2024 \n Thought Leaders 2023 \n Thought Leaders 2022 \n Business Talk \n New faces \n Recruitments \n Women in Tourism \n 2024 – International Women’s Day \n 2021 – International Women’s Day \n 2018 – International Women’s Day \n Destinations » \n Athens \n Northern Greece \n Event News » \n Events \n Sports \n Calendar of events \n Awards \n Greek Hospitality Awards \n Tourism Awards 2019 \n Travel Exhibitions Specials \n WTM London 2026 Special \n WTM London 2025 Special \n WTM London 2024 Special \n WTM London 2023 Special \n WTM London 2022 Special \n WTM London 2018 Special \n WTM London 2019 Special \n WTM London 2017 Special \n ITB Berlin 2024 Special \n ITB Berlin 2023 Special \n ITB Berlin 2019 Special \n ITB Berlin 2018 Special \n ITB Berlin 2017 Special \n Philoxenia 2014 Special \n 100% Hotel Show \n Ενημερωση \n gtp Network » \n gtp.gr \n GTP Careers in Tourism \n GTP Travel Offers \n in English \n in Greek \n About GTP \n GTP eBook \n GTP Ferry Connections \n Wyndham Signs Deal for 174 Branded Villas in Halkidiki \n Posted On 13 Nov 2026 \n By : Nikos Krinis \n Comment: 0 \n Tag: Branded Residences , c83417c , Ege Yapı , Gerakini , Greek tourism , Halkidiki , hospitality investment , hotel franchising , İnanç Kabadayı , real estate development , Vassilis Themelidis , Wyndham Hotels & Resorts , Wyndham Residences Gerakini Halkidiki \n 0 shares \n An impression of Wyndham Residences Gerakini Halkidiki, a 174-villa development combining private property ownership with resort-style facilities and professionally managed hospitality services.\n Wyndham Hotels & Resorts is expanding its branded residences portfolio in Greece through a franchise agreement with Turkish real estate developer Ege Yapı for a 174-villa development in Halkidiki .\n Announced on November 12, the agreement concerns Wyndham Residences Gerakini Halkidiki , a project combining private villa ownership with professional hospitality services.\n The development marks a step in the international expansion of Ege Yapı, a real estate development and construction company founded in 2006. Its projects span more than 2 million square meters of construction area across the residential, hospitality, commercial and education sectors.\n “Wyndham Residences Gerakini Halkidiki represents our ambition to develop distinctive projects in international markets that combine strong destinations with professionally managed hospitality offerings,” said İnanç Kabadayı , chairman of the board of directors of Ege Yapı.\n A 174-villa development in Halkidiki \n Located approximately 400 meters from Blue Flag-certified Gerakini Beach and around one hour from Thessaloniki International Airport , the development will comprise 174 fully furnished villas offered on a turnkey basis.\n Under the ownership model, buyers will be required to lease their villas back to the operator for inclusion in a professionally managed rental program, providing an opportunity to earn rental income under the program’s terms.\n The development will feature shared hospitality infrastructure and services including housekeeping, concierge and maintenance, while benefiting from Wyndham’s global distribution, marketing and loyalty platforms.\n The project targets both Greek and international buyers.\n An impression of the residential units at Wyndham Residences Gerakini Halkidiki, featuring contemporary Mediterranean architecture with private terraces, balconies and landscaped outdoor areas.\n Branded residences drive Wyndham’s Greek expansion \n The agreement comes a year after Wyndham announced plans to triple its Greek portfolio , identifying branded residences and serviced apartments as key drivers of growth.\n The hotel group had already outlined its interest in expanding into secondary Greek destinations in 2024, with a focus on developments combining residential ownership and hospitality services.\n More recently, the opening of Wyndham Residences Piraeus Marina Zeas in September 2026 brought the group’s Greek portfolio to 15 properties , including branded residences.\n “We see significant potential for branded residences in Greece, particularly in established leisure destinations where owners and travellers are looking for professionally managed residential hospitality offerings without compromising on quality or service,” said Vassilis Themelidis , senior regional director for South and East Europe at Wyndham Hotels & Resorts.\n One of the world’s largest hotel franchising companies, Wyndham operates a portfolio of 25 brands , with approximately 8,500 hotels across 100 countries. Its Wyndham Rewards loyalty program has approximately 129 million enrolled members worldwide.\n The investment value and expected opening date of the Halkidiki development have not been disclosed.\n Follow GTP Headlines on Google News to keep up to date with all the latest on tourism and travel in Greece. \n About the Author\nNikos is Greek-American born in New York, USA, and has lived in Greece for over 30 years. He is the managing editor of Greece's leading monthly travel and tourism guide, the Greek Travel Pages (GTP) since June 2008 and of news site GTP Headlines since its launch in September 2012. Nikos has also served as international press officer for the City of Athens and for the mayor. He has a degree in Mass Media and Communications, specializing in Journalism. Nikos is a native English speaker and speaks Greek fluently.\n Previous Story\n Greece Boosts Year-Round Skiing with €10 Million Lailias Upgrade \n Add your comment Cancel reply \n Join our Newsletter\n Join our GTP Headlines free daily newsletter\n 44.8k Followers \n Facebook \n 29.6k Followers \n X (formerly Twitter) \n 25.3k Followers \n LinkedIn \n 7.7k Followers \n Instagram \n 2.2k Followers \n Pinterest \n 110k Total \n Newsletter\n Signup to receive our daily travel-tourism industry newsletter.\n CLICK HERE TO SIGN UP \n SUBSCRIBE TO RSS\n https://news.gtp.gr/feed/ \n CONTRIBUTE\n Guest posts are welcome. Read the editorial guidelines here.\n Advertise\n GTP Headlines Media Kit \n Contact Details\n Greek Travel Pages,\n6, Psylla str. Athens GR 10557\nCall center: +30 210 324 7511\n CONTACT FORM \n Copyright Notice\n Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited . Excerpts of texts published in this page and links may be used, provided that full and clear credit is given to Greek Travel Pages – gtp.gr and / or GTP Headlines - news.gtp.gr with appropriate and specific direction (hyperlink) to the original content. All photographs appearing on this site are not to be downloaded or reproduced in any way, without the prior written permission of the copyright owner.\n About Us\n The team | About GTP Headlines \n ΤΑΥΤΟΤΗΤΑ \n Ιδιοκτήτρια Εταιρεία &\nΔικαιούχος Ονόματος:\nΔιεθνείς Εκδόσεις ΕΠΕ\nΑΦΜ: 095083253,\nΔΟΥ ΚΕΦΟΔΕ Αττικής\nΕταίρος (≥25%), Νόμιμος Εκπρόσωπος, Διευθύντρια & Διαχειρ. Ιστοσελίδας: Μαρία Θεοφανοπούλου\nΔιευθυντής Σύνταξης: Νίκος Κρινής\nΔικαιούχος Ονόματος: Διεθνείς Εκδόσεις ΕΠΕΑριθμός Πιστοποίησης Μ.Η.Τ.: 252115 \n Search\n Archives\n Archives \n Select Month \n November 2026 &nbsp;(105) \n October 2026 &nbsp;(214) \n September 2026 &nbsp;(222) \n August 2026 &nbsp;(155) \n July 2026 &nbsp;(228) \n June 2026 &nbsp;(219) \n May 2026 &nbsp;(197) \n April 2026 &nbsp;(191) \n March 2026 &nbsp;(229) \n February 2026 &nbsp;(187) \n January 2026 &nbsp;(174) \n December 2025 &nbsp;(184) \n November 2025 &nbsp;(220) \n October 2025 &nbsp;(215) \n September 2025 &nbsp;(206) \n August 2025 &nbsp;(129) \n July 2025 &nbsp;(212) \n June 2025 &nbsp;(203) \n May 2025 &nbsp;(205) \n April 2025 &nbsp;(208) \n March 2025 &nbsp;(195) \n February 2025 &nbsp;(209) \n January 2025 &nbsp;(180) \n December 2024 &nbsp;(186) \n November 2024 &nbsp;(241) \n October 2024 &nbsp;(221) \n September 2024 &nbsp;(211) \n August 2024 &nbsp;(154) \n July 2024 &nbsp;(227) \n June 2024 &nbsp;(201) \n May 2024 &nbsp;(200) \n April 2024 &nbsp;(226) \n March 2024 &nbsp;(204) \n February 2024 &nbsp;(204) \n January 2024 &nbsp;(195) \n December 2023 &nbsp;(167) \n November 2023 &nbsp;(221) \n October 2023 &nbsp;(256) \n September 2023 &nbsp;(214) \n August 2023 &nbsp;(158) \n July 2023 &nbsp;(197) \n June 2023 &nbsp;(204) \n May 2023 &nbsp;(220) \n April 2023 &nbsp;(169) \n March 2023 &nbsp;(243) \n February 2023 &nbsp;(199) \n January 2023 &nbsp;(201) \n December 2022 &nbsp;(179) \n November 2022 &nbsp;(231) \n October 2022 &nbsp;(202) \n September 2022 &nbsp;(191) \n August 2022 &nbsp;(172) \n July 2022 &nbsp;(199) \n June 2022 &nbsp;(250) \n May 2022 &nbsp;(225) \n April 2022 &nbsp;(211) \n March 2022 &nbsp;(249) \n February 2022 &nbsp;(215) \n January 2022 &nbsp;(199) \n December 2021 &nbsp;(229) \n November 2021 &nbsp;(267) \n October 2021 &nbsp;(244) \n September 2021 &nbsp;(255) \n August 2021 &nbsp;(214) \n July 2021 &nbsp;(251) \n June 2021 &nbsp;(249) \n May 2021 &nbsp;(257) \n April 2021 &nbsp;(257) \n March 2021 &nbsp;(304) \n February 2021 &nbsp;(246) \n January 2021 &nbsp;(218) \n December 2020 &nbsp;(245) \n November 2020 &nbsp;(264) \n October 2020 &nbsp;(291) \n September 2020 &nbsp;(274) \n August 2020 &nbsp;(215) \n July 2020 &nbsp;(279) \n June 2020 &nbsp;(305) \n May 2020 &nbsp;(299) \n April 2020 &nbsp;(280) \n March 2020 &nbsp;(305) \n February 2020 &nbsp;(243) \n January 2020 &nbsp;(215) \n December 2019 &nbsp;(195) \n November 2019 &nbsp;(289) \n October 2019 &nbsp;(241) \n September 2019 &nbsp;(222) \n August 2019 &nbsp;(183) \n July 2019 &nbsp;(224) \n June 2019 &nbsp;(209) \n May 2019 &nbsp;(236) \n April 2019 &nbsp;(226) \n March 2019 &nbsp;(233) \n February 2019 &nbsp;(242) \n January 2019 &nbsp;(214) \n December 2018 &nbsp;(186) \n November 2018 &nbsp;(297) \n October 2018 &nbsp;(276) \n September 2018 &nbsp;(216) \n August 2018 &nbsp;(214) \n July 2018 &nbsp;(240) \n June 2018 &nbsp;(251) \n May 2018 &nbsp;(262) \n April 2018 &nbsp;(234) \n March 2018 &nbsp;(277) \n February 2018 &nbsp;(245) \n January 2018 &nbsp;(220) \n December 2017 &nbsp;(197) \n November 2017 &nbsp;(300) \n October 2017 &nbsp;(264) \n September 2017 &nbsp;(271) \n August 2017 &nbsp;(216) \n July 2017 &nbsp;(224) \n June 2017 &nbsp;(268) \n May 2017 &nbsp;(263) \n April 2017 &nbsp;(200) \n March 2017 &nbsp;(232) \n February 2017 &nbsp;(194) \n January 2017 &nbsp;(191) \n December 2016 &nbsp;(194) \n November 2016 &nbsp;(285) \n October 2016 &nbsp;(203) \n September 2016 &nbsp;(226) \n August 2016 &nbsp;(175) \n July 2016 &nbsp;(191) \n June 2016 &nbsp;(211) \n May 2016 &nbsp;(202) \n April 2016 &nbsp;(204) \n March 2016 &nbsp;(224) \n February 2016 &nbsp;(195) \n January 2016 &nbsp;(164) \n December 2015 &nbsp;(190) \n November 2015 &nbsp;(203) \n October 2015 &nbsp;(224) \n September 2015 &nbsp;(186) \n August 2015 &nbsp;(137) \n July 2015 &nbsp;(234) \n June 2015 &nbsp;(213) \n May 2015 &nbsp;(212) \n April 2015 &nbsp;(183) \n March 2015 &nbsp;(199) \n February 2015 &nbsp;(162) \n January 2015 &nbsp;(177) \n December 2014 &nbsp;(183) \n November 2014 &nbsp;(206) \n October 2014 &nbsp;(160) \n September 2014 &nbsp;(155) \n August 2014 &nbsp;(137) \n July 2014 &nbsp;(197) \n June 2014 &nbsp;(174) \n May 2014 &nbsp;(205) \n April 2014 &nbsp;(151) \n March 2014 &nbsp;(154) \n February 2014 &nbsp;(161) \n January 2014 &nbsp;(173) \n December 2013 &nbsp;(134) \n November 2013 &nbsp;(174) \n October 2013 &nbsp;(178) \n September 2013 &nbsp;(182) \n August 2013 &nbsp;(113) \n July 2013 &nbsp;(192) \n June 2013 &nbsp;(158) \n May 2013 &nbsp;(162) \n April 2013 &nbsp;(188) \n March 2013 &nbsp;(151) \n February 2013 &nbsp;(107) \n January 2013 &nbsp;(110) \n December 2012 &nbsp;(95) \n November 2012 &nbsp;(119) \n October 2012 &nbsp;(105) \n September 2012 &nbsp;(70) \n August 2012 &nbsp;(31) \n July 2012 &nbsp;(22) \n June 2012 &nbsp;(28) \n May 2012 &nbsp;(31) \n April 2012 &nbsp;(26) \n March 2012 &nbsp;(26) \n February 2012 &nbsp;(27) \n January 2012 &nbsp;(22) \n December 2011 &nbsp;(16) \n November 2011 &nbsp;(32) \n October 2011 &nbsp;(28) \n September 2011 &nbsp;(32) \n August 2011 &nbsp;(25) \n July 2011 &nbsp;(29) \n June 2011 &nbsp;(22) \n May 2011 &nbsp;(25) \n April 2011 &nbsp;(25) \n March 2011 &nbsp;(21) \n February 2011 &nbsp;(26) \n January 2011 &nbsp;(25) \n December 2010 &nbsp;(22) \n November 2010 &nbsp;(22) \n October 2010 &nbsp;(25) \n September 2010 &nbsp;(27) \n August 2010 &nbsp;(19) \n July 2010 &nbsp;(20) \n June 2010 &nbsp;(26) \n May 2010 &nbsp;(11) \n April 2010 &nbsp;(22) \n March 2010 &nbsp;(23) \n February 2010 &nbsp;(25) \n January 2010 &nbsp;(10) \n December 2009 &nbsp;(13) \n November 2009 &nbsp;(20) \n October 2009 &nbsp;(26) \n September 2009 &nbsp;(27) \n August 2009 &nbsp;(29",
+      "text": "Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση - iefimerida.gr\nΗ Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακούστηκε με υπερηφάνεια, αξιοπρέπεια και συγκίνηση &nbsp;&nbsp; iefimerida.gr",
       "issues": [],
       "el": {
-        "title": "Η Wyndham υπογράφει συμφωνία για 174 επώνυμες βίλες στη Χαλκιδική",
-        "dek": "Ο τουρκικός κατασκευαστικός όμιλος Ege Yapı συνεργάζεται με την Wyndham Hotels & Resorts για την ανάπτυξη 174 επώνυμων βιλών με υπηρεσίες διαχείρισης τύπου θέρετρου στη Χαλκιδική.",
+        "title": "Επιμνημόσυνη δέηση στο Συμμαχικό Νεκροταφείο Φαλήρου στην Αθήνα",
+        "dek": "Μια συγκινητική επιμνημόσυνη δέηση πραγματοποιήθηκε στο Συμμαχικό Νεκροταφείο Φαλήρου στην Αθήνα, αναδεικνύοντας την εβραϊκή κληρονομιά και μνήμη.",
         "tldr": [
-          "Η Wyndham υπέγραψε συμφωνία για 174 επώνυμες βίλες στη Χαλκιδική.",
-          "Το έργο αναπτύσσεται σε συνεργασία με την τουρκική εταιρεία Ege Yapı.",
-          "Οι μονάδες συνδυάζουν την ιδιωτική ιδιοκτησία με υπηρεσίες διαχειριζόμενης φιλοξενίας."
+          "Η τελετή έλαβε χώρα στο Συμμαχικό Νεκροταφείο Φαλήρου.",
+          "Η Pinat Yanai συμμετείχε στην επίσημη εκδήλωση.",
+          "Οι ομιλητές τόνισαν τη σημασία της εβραϊκής φωνής με περηφάνια και αξιοπρέπεια."
         ]
       },
       "notified": true
@@ -1922,12 +1920,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-14T03:05:43.540Z",
+      "at": "2026-11-14T08:01:36.342Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-14T03:05:44.260Z",
+      "at": "2026-11-14T08:01:36.944Z",
       "items": 5
     },
     "civilprotection": {
@@ -1938,27 +1936,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-14T03:05:47.175Z",
+      "at": "2026-11-14T08:01:37.825Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-14T03:05:47.298Z",
+      "at": "2026-11-14T08:01:38.100Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-14T03:05:48.197Z",
+      "at": "2026-11-14T08:01:39.041Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-14T03:05:48.918Z",
-      "items": 5
+      "at": "2026-11-14T08:01:39.710Z",
+      "items": 7
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-14T03:05:49.788Z",
+      "at": "2026-11-14T08:01:40.226Z",
       "items": 10
     },
     "toi-greece": {
@@ -1969,23 +1967,24 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-14T03:05:50.467Z",
+      "at": "2026-11-14T08:01:40.591Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-11-14T03:05:50.607Z",
-      "items": 15
+      "ok": false,
+      "at": "2026-11-14T08:01:40.614Z",
+      "error": "HTTP 403",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-14T03:05:50.837Z",
+      "at": "2026-11-14T08:01:40.905Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T03:05:51.075Z",
-      "items": 2
+      "at": "2026-11-14T08:01:41.018Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -1994,12 +1993,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T03:05:45.141Z",
+      "at": "2026-11-14T08:01:37.281Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-14T03:05:51.772Z",
+      "at": "2026-11-14T08:01:41.599Z",
       "items": 0
     },
     "hcg": {
@@ -2010,45 +2009,51 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-14T03:05:53.094Z",
+      "at": "2026-11-14T08:01:43.390Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-14T03:05:53.336Z",
-      "items": 2
+      "at": "2026-11-14T08:01:43.593Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-14T03:05:53.536Z",
+      "at": "2026-11-14T08:01:43.752Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-14T03:05:53.830Z",
-      "items": 5
+      "at": "2026-11-14T08:01:43.981Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-14T03:05:54.144Z",
-      "items": 2
+      "at": "2026-11-14T08:01:44.278Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-14T03:05:54.519Z",
+      "at": "2026-11-14T08:01:44.660Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-14",
-    "count": 1,
+    "count": 2,
     "published": [
       {
         "slug": "greece-fake-sms-fine-scam-2026",
         "title": "Fake traffic fine SMS scam targets drivers in Greece",
         "at": "2026-11-14T03:44:25+02:00",
         "section": "israelis"
+      },
+      {
+        "slug": "athens-sites-pass-100-euros",
+        "title": "Athens: New €100 Seven-Day Sites Pass Approved",
+        "at": "2026-11-14T10:01:26+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2056,10 +2061,21 @@
         "title": "Traffic restrictions in central Athens for Polytechnic Uprising anniversary",
         "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (27%)",
         "at": "2026-11-14T01:44:33.491Z"
+      },
+      {
+        "title": "Wyndham Signs Agreement for 174 Branded Villas in Halkidiki",
+        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (21%)",
+        "at": "2026-11-14T08:01:33.894Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "athens-sites-pass-100-euros",
+        "at": "2026-11-14T08:01:26.506Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2310,14 +2326,22 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-14T03:05:55.175Z",
-    "considered": 4,
-    "picked": 0,
+    "at": "2026-11-14T08:01:45.791Z",
+    "considered": 12,
+    "picked": 2,
     "items": [
-      "· ingr | ΗΠΑ: Ηρθη η απαγόρευση απογείωσης αεροσκαφών – Τι προκάλεσε το εθνικό «ground stop»",
-      "· ert | ΗΠΑ: Ο Μάλιν υπερασπίζεται τον Τραμπ για τη σιωπή του σχετικά με την καθήλωση των πτήσεων",
-      "· ert | SpaceX: Το Starship μπήκε σε τροχιά γύρω από τη Γη, αλλά ματαιώθηκε η ανάκτηση του ενισχυτ",
-      "· ert | Ήρθη η απαγόρευση πτήσεων στις ΗΠΑ – Δεν υπάρχουν ενδείξεις κυβερνοεπίθεσης ή άλλης κακόβο"
+      "✓ ingr | Η θέα στη θάλασσα εκτινάσσει τα ενοίκια – Τι δείχνουν νέα στοιχεία",
+      "· ingr | ΗΠΑ: Αποκαταστάθηκαν οι πτήσεις, αλλά το χάος στα αεροδρόμια συνεχίζεται – Ο λόγος της ανα",
+      "· naftemporiki | Νέα κρίσιμη εκτόξευση του διαστημοπλοίου με το οποίο ο Ελον Μασκ θέλει να στείλει ανθρώπου",
+      "· ert | Φωτιά σε εγκαταλελειμμένη μονοκατοικία στην Καλαμαριά – Συναγερμός στην Πυροσβεστική",
+      "· ingr | Νέα Ορλεάνη: Στο νοσοκομείο 32 επιβάτες του κρουαζιερόπλοιου που συγκρούστηκε με τάνκερ στ",
+      "· ert | ΗΠΑ: H FAA διαβεβαιώνει ότι τα συστήματα εναέριας κυκλοφορίας λειτουργούν κανονικά",
+      "· ert | Τραμπ: Ζητά χρηματοδότηση 50 δισ. δολαρίων για τον έλεγχο της εναέριας κυκλοφορίας μετά το",
+      "· ert | Delta Air Lines: Επανεκκινούν οι πτήσεις μετά την άρση της απαγόρευσης αναχωρήσεων στις ΗΠ",
+      "· ert | Ήρθη η απαγόρευση πτήσεων στις ΗΠΑ – Δεν υπήρξε κυβερνοεπίθεση αλλά υπερφόρτωση του συστήμ",
+      "✓ gn-iefimerida | Η Πνινάτ Γιανάι σε τελετή στο Συμμαχικό Πολεμικό Νεκροταφείο Φαλήρου: «Η εβραϊκή φωνή ακού",
+      "· gn-kathimerini | Ισραήλ: Ο Αϊζενκοτ κατηγορεί τον Νετανιάχου για «ρατσιστική εκστρατεία» κατά των Αράβων - ",
+      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στη Στερεά Ελλάδα – Ευ. Τουρνάς: «Η πρόληψη είναι το σημαντικό"
     ]
   },
   "evergreenDone": [
@@ -2360,5 +2384,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "athens-sites-pass-100-euros",
+      "url": "https://yavanet.gr/a/athens-sites-pass-100-euros/",
+      "at": "2026-11-14T08:01:26.506Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-sites-pass-100-euros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-sites-pass-100-euros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אתונה: אישור כרטיס שבועי לאתרים ב-100 אירו",
+        "title_en": "Athens: New €100 Seven-Day Sites Pass Approved",
+        "dek_he": "משרד התרבות ביוון אישר את הפעלתו של כרטיס מעבר חדש לאתרי העיר לשבוע שלם, וקבע את מחירי הכרטיסים למוזיאונים חדשים באזור הבירה.",
+        "dek_en": "The Greek authorities have approved a new weekly pass for Athens sites priced at 100 euros, alongside new museum ticket structures.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/38642782/pexels-photo-38642782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אתונה: אישור כרטיס שבועי לאתרים ב-100 אירו\n\nמשרד התרבות ביוון אישר את הפעלתו של כרטיס מעבר חדש לאתרי העיר לשבוע שלם, וקבע את מחירי הכרטיסים למוזיאונים חדשים באזור הבירה.\n\nhttps://yavanet.gr/a/athens-sites-pass-100-euros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens: New €100 Seven-Day Sites Pass Approved\n\nThe Greek authorities have approved a new weekly pass for Athens sites priced at 100 euros, alongside new museum ticket structures.\n\nhttps://yavanet.gr/en/a/athens-sites-pass-100-euros/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
