@@ -19,18 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "f8046eeaa172": 1793414617312,
-    "e5578d036efd": 1793414617312,
-    "553819aba598": 1793414617312,
-    "df4820845a97": 1793414617312,
-    "c452f9d8e59d": 1793414617312,
-    "18bef9510e6b": 1793414617312,
-    "17978164a84c": 1793414617312,
-    "16b03b6ffb37": 1793414617312,
-    "174813d7d9b7": 1793414617312,
-    "7bd889aad7a1": 1793414617312,
-    "06511e43c5ba": 1793414617312,
-    "15e4becc8067": 1793414617312,
     "c129f5b0a065": 1793424406104,
     "57cfa5d374d2": 1793424406104,
     "6f5d650e307b": 1793424406104,
@@ -1711,7 +1699,11 @@
     "7b5b6fa52542": 1794620688183,
     "63c976bfc585": 1794620688183,
     "25ffd29c7acf": 1794620688183,
-    "e9637501f627": 1794620688183
+    "e9637501f627": 1794620688183,
+    "425df8627358": 1794625555175,
+    "5005255531c2": 1794625555175,
+    "1861353822a5": 1794625555175,
+    "e859d03f671b": 1794625555175
   },
   "pending": {
     "3a8f86": {
@@ -1930,12 +1922,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-14T01:44:36.377Z",
+      "at": "2026-11-14T03:05:43.540Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-14T01:44:37.451Z",
+      "at": "2026-11-14T03:05:44.260Z",
       "items": 5
     },
     "civilprotection": {
@@ -1946,27 +1938,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-14T01:44:38.647Z",
+      "at": "2026-11-14T03:05:47.175Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-14T01:44:38.731Z",
+      "at": "2026-11-14T03:05:47.298Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-14T01:44:39.812Z",
+      "at": "2026-11-14T03:05:48.197Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-14T01:44:40.769Z",
-      "items": 3
+      "at": "2026-11-14T03:05:48.918Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-14T01:44:41.626Z",
+      "at": "2026-11-14T03:05:49.788Z",
       "items": 10
     },
     "toi-greece": {
@@ -1977,22 +1969,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-14T01:44:42.176Z",
+      "at": "2026-11-14T03:05:50.467Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-14T01:44:42.214Z",
+      "at": "2026-11-14T03:05:50.607Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-14T01:44:42.471Z",
-      "items": 5
+      "at": "2026-11-14T03:05:50.837Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T01:44:42.679Z",
+      "at": "2026-11-14T03:05:51.075Z",
       "items": 2
     },
     "ynet-greece": {
@@ -2002,12 +1994,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T01:44:37.677Z",
+      "at": "2026-11-14T03:05:45.141Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-14T01:44:43.318Z",
+      "at": "2026-11-14T03:05:51.772Z",
       "items": 0
     },
     "hcg": {
@@ -2018,32 +2010,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-14T01:44:45.021Z",
+      "at": "2026-11-14T03:05:53.094Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-14T01:44:45.206Z",
+      "at": "2026-11-14T03:05:53.336Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-14T01:44:45.385Z",
+      "at": "2026-11-14T03:05:53.536Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-14T01:44:45.638Z",
+      "at": "2026-11-14T03:05:53.830Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-14T01:44:46.011Z",
+      "at": "2026-11-14T03:05:54.144Z",
       "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-14T01:44:46.376Z",
+      "at": "2026-11-14T03:05:54.519Z",
       "items": 5
     }
   },
@@ -2318,34 +2310,14 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-14T01:44:48.183Z",
-    "considered": 24,
-    "picked": 2,
+    "at": "2026-11-14T03:05:55.175Z",
+    "considered": 4,
+    "picked": 0,
     "items": [
-      "· ingr | Η πρώτη αντίδραση του Ντόναλντ Τραμπ μετά το το χάος στον τομέα των αερομεταφορών",
-      "· gct | Terrifying Sight As Passenger Cruise Ship Sinks After Collision",
-      "· ert | Eurocontrol: Αναστέλλονται μέχρι νεωτέρας όλες οι πτήσεις από την Ευρώπη προς τις ΗΠΑ",
-      "· gct | Parliament Discusses Historic Recognition of Greek Minority in Poland",
-      "· gct | One in Two Greek Small Businesses Uses Artificial Intelligence",
-      "· gct | Greece Plans Changes to Parental Leave and Children’s Insurance",
-      "· gct | Microsoft Outage Disrupts Ticketing Services in Greece",
-      "· gct | Netherlands Humiliate Greece with 7-0 Nations League Defeat",
-      "· gct | Greece to Showcase Its Economic Success at International Forum",
-      "· ingr | ΗΠΑ: Τι σημαίνει το εθνικό «ground stop» – «Δεν πρόκειται για νέα 11η Σεπτεμβρίου»",
-      "· gct | Greece to Restore Roman Baths at Ancient Eretria",
-      "· gct | Greek PM: Greece Is at Forefront of Artificial Intelligence Strategy",
-      "· gct | Frigate Nearchos Sets Sail Under Greek Flag for Weapons Fit in Brest",
-      "· gct | Greece Officially Installs Three New Muftis in Thrace",
-      "· gct | Greece Makes Data Centres Pay Host Communities €20,000 per MW",
-      "· gct | FAA Grounds All US Departures After Air Traffic Communications Fault",
-      "✓ gct | Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
-      "· gct | Greece Makes Polytechnic Gate a Protected Monument",
-      "· gn-iefimerida | Εγκρίθηκαν 29,065 εκατ. ευρώ για την αποκατάσταση των ζημιών από την κακοκαιρία του Οκτωβρ",
-      "· naftemporiki | Συναγερμός στις ΗΠΑ: Η FAA καθήλωσε όλα τα αεροσκάφη σε εθνικό επίπεδο – Βλάβη στο σύστημα",
-      "· gtp | Philoxenia-Hotelia 2026: Προς τέταρτη διαδοχική χρονιά ρεκόρ ο ελληνικός τουρισμός",
-      "· gn-kathimerini | Σύγκρουση δεξαμενόπλοιου με τουριστικό πλοίο στη Νέα Ορλεάνη (βίντεο) - Kathimerini",
-      "· gn-iefimerida | Δημοσκόπηση Marc β' μέρος: Πώς εκτιμούν οι πολίτες τα μέτρα για την ακρίβεια -«Μέτρια» η κ",
-      "✓ gtp | Wyndham Signs Deal for 174 Branded Villas in Halkidiki"
+      "· ingr | ΗΠΑ: Ηρθη η απαγόρευση απογείωσης αεροσκαφών – Τι προκάλεσε το εθνικό «ground stop»",
+      "· ert | ΗΠΑ: Ο Μάλιν υπερασπίζεται τον Τραμπ για τη σιωπή του σχετικά με την καθήλωση των πτήσεων",
+      "· ert | SpaceX: Το Starship μπήκε σε τροχιά γύρω από τη Γη, αλλά ματαιώθηκε η ανάκτηση του ενισχυτ",
+      "· ert | Ήρθη η απαγόρευση πτήσεων στις ΗΠΑ – Δεν υπάρχουν ενδείξεις κυβερνοεπίθεσης ή άλλης κακόβο"
     ]
   },
   "evergreenDone": [
