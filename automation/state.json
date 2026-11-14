@@ -19,27 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "919864a569cf": 1793481981854,
-    "d1a6289ba418": 1793481981854,
-    "8df93181b684": 1793481981854,
-    "d1169e50c7d2": 1793481981854,
-    "a0774e4ed63c": 1793481981854,
-    "036d915cfe3e": 1793481981854,
-    "41e92cfe33ea": 1793481981854,
-    "bf6d81fc4a4c": 1793481981854,
-    "382137502c0f": 1793481981854,
-    "44fd57e1f36b": 1793481981854,
-    "f7fb31b5595d": 1793481981854,
-    "704d6d8808a6": 1793481981854,
-    "88063c5614e9": 1793481981854,
-    "5a79463bc4db": 1793483883369,
-    "6e9356efccf5": 1793483883369,
-    "ac74bca67eef": 1793483883369,
-    "306a7ae379a9": 1793483883369,
-    "ffe1fc4f71c6": 1793483883369,
-    "41c8966a6318": 1793483883369,
-    "1cc42048c9d3": 1793483883369,
-    "5758d516618d": 1793483883369,
     "a1a0f1478365": 1793493414281,
     "be78551dd10b": 1793493414281,
     "4cfe985ab927": 1793493414281,
@@ -1726,7 +1705,15 @@
     "0284f814e773": 1794691401976,
     "3805e02681d9": 1794691401976,
     "5463b891a604": 1794691401976,
-    "e6a1d7f2071c": 1794691401976
+    "e6a1d7f2071c": 1794691401976,
+    "378696ffc8a9": 1794698600532,
+    "1fb0acb15eaa": 1794698600532,
+    "f2b50c95ead6": 1794698600532,
+    "acffd0d7b3c7": 1794698600532,
+    "9e6e1e11a290": 1794698600532,
+    "fba5b957d2a0": 1794698600532,
+    "649adab51377": 1794698600532,
+    "84743c2af6a6": 1794698600532
   },
   "pending": {
     "438884": {
@@ -1946,12 +1933,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-14T21:23:10.363Z",
+      "at": "2026-11-14T23:23:03.148Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-14T21:23:11.142Z",
+      "at": "2026-11-14T23:23:03.789Z",
       "items": 5
     },
     "civilprotection": {
@@ -1962,27 +1949,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-14T21:23:12.913Z",
-      "items": 1
+      "at": "2026-11-14T23:23:05.103Z",
+      "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-14T21:23:12.993Z",
+      "at": "2026-11-14T23:23:05.435Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-14T21:23:14.074Z",
+      "at": "2026-11-14T23:23:06.187Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-14T21:23:14.903Z",
+      "at": "2026-11-14T23:23:06.827Z",
       "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-14T21:23:15.684Z",
+      "at": "2026-11-14T23:23:07.891Z",
       "items": 10
     },
     "toi-greece": {
@@ -1993,22 +1980,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-14T21:23:16.308Z",
+      "at": "2026-11-14T23:23:08.302Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-14T21:23:16.375Z",
+      "at": "2026-11-14T23:23:08.390Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-14T21:23:16.637Z",
-      "items": 7
+      "at": "2026-11-14T23:23:08.614Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T21:23:16.853Z",
+      "at": "2026-11-14T23:23:08.747Z",
       "items": 11
     },
     "ynet-greece": {
@@ -2018,12 +2005,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T21:23:11.743Z",
+      "at": "2026-11-14T23:23:04.078Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-14T21:23:17.500Z",
+      "at": "2026-11-14T23:23:09.288Z",
       "items": 0
     },
     "hcg": {
@@ -2034,139 +2021,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-14T21:23:18.647Z",
+      "at": "2026-11-14T23:23:10.703Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-14T21:23:18.840Z",
+      "at": "2026-11-14T23:23:10.888Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-14T21:23:19.013Z",
+      "at": "2026-11-14T23:23:11.088Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-14T21:23:19.285Z",
+      "at": "2026-11-14T23:23:11.364Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-14T21:23:19.612Z",
-      "items": 6
+      "at": "2026-11-14T23:23:11.723Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-14T21:23:19.965Z",
-      "items": 6
+      "at": "2026-11-14T23:23:12.074Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-14",
-    "count": 8,
-    "published": [
-      {
-        "slug": "greece-fake-sms-fine-scam-2026",
-        "title": "Fake traffic fine SMS scam targets drivers in Greece",
-        "at": "2026-11-14T03:44:25+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "athens-sites-pass-100-euros",
-        "title": "Athens: New €100 Seven-Day Sites Pass Approved",
-        "at": "2026-11-14T10:01:26+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "piraeus-rent-prices-redataset-2026",
-        "title": "Piraeus: New data shows rent prices by port proximity and property features",
-        "at": "2026-11-14T12:14:28+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-metro-line-2-disruption",
-        "title": "↻ Athens: Four Metro Line 2 Stations Closing Earlier for Works",
-        "at": "2026-11-14T12:15:06+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fuel-subsidy-extension-nov-2026",
-        "title": "Greece extends fuel subsidies until November 30, 2026",
-        "at": "2026-11-14T16:59:42+02:00",
-        "section": "living"
-      },
-      {
-        "slug": "microsoft-outage-greece-transport-tickets",
-        "title": "Global Microsoft Outage Affects Transport E-Tickets in Greece",
-        "at": "2026-11-14T17:05:31+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "athens-airport-us-flights-delays",
-        "title": "Athens: Flight delays recorded on routes to and from the US",
-        "at": "2026-11-14T21:42:49+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "greece-economic-recovery-lessons",
-        "title": "Greece as an Economic Model: What Changed Since the Crisis?",
-        "at": "2026-11-14T23:24:58+02:00",
-        "section": "politics"
-      },
-      {
-        "slug": "greece-to-protect-35-percent-of-seas-by-2027",
-        "title": "Greece to Protect 35% of its Seas by 2027",
-        "at": "2026-11-14T23:25:16+02:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Traffic restrictions in central Athens for Polytechnic Uprising anniversary",
-        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (27%)",
-        "at": "2026-11-14T01:44:33.491Z"
-      },
-      {
-        "title": "Wyndham Signs Agreement for 174 Branded Villas in Halkidiki",
-        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (21%)",
-        "at": "2026-11-14T08:01:33.894Z"
-      },
-      {
-        "title": "Memorial Ceremony at Phaleron War Cemetery in Athens",
-        "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The source mentions the name 'Πνινάτ Γιανάι' (Pninat Yanai), but the article completely omitted this name, and instead added unverified background generalizations ('משמש לאורך השנים אתר מרכזי לטקסים בינלאומיים') that are not present in the source.",
-        "at": "2026-11-14T10:14:37.543Z"
-      },
-      {
-        "title": "Ελευθέριος Βενιζέλος: Ντόμινο καθυστερήσεων μετά το χάος στα αεροδρόμια των ΗΠΑ",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 15",
-        "at": "2026-11-14T15:03:43.491Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "athens-sites-pass-100-euros",
-        "at": "2026-11-14T08:01:26.506Z"
-      },
-      {
-        "slug": "piraeus-rent-prices-redataset-2026",
-        "at": "2026-11-14T10:14:28.836Z"
-      },
-      {
-        "slug": "fuel-subsidy-extension-nov-2026",
-        "at": "2026-11-14T14:59:43.119Z"
-      },
-      {
-        "slug": "athens-airport-us-flights-delays",
-        "at": "2026-11-14T19:42:50.510Z"
-      }
-    ],
-    "ig": []
+    "date": "2026-11-15",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-14",
+      "count": 8,
+      "rejected": 4
+    },
     {
       "date": "2026-11-13",
       "count": 4,
@@ -2415,22 +2312,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-14T21:23:21.976Z",
-    "considered": 12,
-    "picked": 4,
+    "at": "2026-11-14T23:23:20.532Z",
+    "considered": 8,
+    "picked": 0,
     "items": [
-      "✓ gct | Wall Street Journal: What Greece Learned From Going Broke That the Rest of Europe Still Ha",
-      "· naftemporiki | Πορτογαλία: Χιλιάδες Πορτογάλοι στους δρόμους σε διαδήλωση κατά της στεγαστικής κρίσης",
-      "· ert | Ισραήλ: Ο Άιζενκοτ καταδικάζει τα πολιτικά «κόλπα» του Νετανιάχου",
-      "✓ gct | Police Arrest Three Over Zefyri Fire That Killed Two Firefighters",
-      "✓ gct | Kastoria Woman Locks Scammer in Room After AI Voice Call",
-      "· ert | Πορτογαλία: Χιλιάδες διαδηλωτές στους δρόμους για τη στεγαστική κρίση",
-      "· ingr | Θρήνος για τον χαμό δύο πυροσβεστών στο Ζεφύρι και κραυγή αγωνίας: «Δεν έχουμε προσωπικό, ",
-      "· ingr | Νετανιάχου: Επαναλαμβάνει ότι μόνο μια κυβέρνηση εθνικής ενότητας μπορεί να «εγγυηθεί την ",
-      "· gn-kathimerini | Ζεφύρι: Τρεις συλλήψεις για τη φωτιά με τους δύο νεκρούς πυροσβέστες - Kathimerini",
-      "· gn-iefimerida | Τρεις συλλήψεις για τη φωτιά σε κτίριο στο Ζεφύρι με τους δύο νεκρούς πυροσβέστες -Αναζητε",
-      "✓ gtp | Greece to Protect 35% of its Seas in 2027, Minister Tells COP31",
-      "· gtp | UK Appoints First Special Representative for Climate Security"
+      "· ert | Νεκρός ανώτερος διοικητής της Χαμάς, σύμφωνα με ανακοίνωση του ισραηλινού στρατού",
+      "· ingr | Χιλιάδες Πορτογάλοι στους δρόμους σε διαδήλωση κατά της στεγαστικής κρίσης",
+      "· gct | Klopp Says Nmecha Will Drop ‘Crown’ Celebration Honouring Jesus After Backlash",
+      "· gct | Year 12 Greek in Victoria at Risk: Urgent Community Meeting Today at the Greek Centre",
+      "· ingr | Ισραήλ: Ο Άιζενκοτ καταδικάζει τα πολιτικά «κόλπα» του Νετανιάχου",
+      "· gct | Turkey Attacks Cyprus Defence Build-Up in New UN Letter",
+      "· gct | Most Britons Now Want Parthenon Sculptures Returned to Athens",
+      "· gn-kathimerini | Τραγωδία στο Ζεφύρι: Βίντεο από το σημείο όπου ξεκίνησε η φωτιά - Kathimerini"
     ]
   },
   "evergreenDone": [
