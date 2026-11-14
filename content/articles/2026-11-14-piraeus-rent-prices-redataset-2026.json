@@ -1,0 +1,56 @@
+{
+  "slug": "piraeus-rent-prices-redataset-2026",
+  "section": "real-estate",
+  "publishedAt": "2026-11-14T12:14:28+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "פיראוס",
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/11/14/economy/oikonomikes-eidiseis/i-thea-sti-thalassa-ektinassei-ta-enoikia-ti-deixnoun-nea-stoixeia/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/13233763/pexels-photo-13233763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A vibrant view of the bustling Marina Zeas with boats under a clear blue sky in Piraeus, Greece.",
+    "credit": "Photo: Maria  Vlg / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/docked-watercrafts-at-a-marina-13233763/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "פיראוס: אלו מחירי השכירות לפי קרבה לנמל והמאפיינים בשוק",
+    "dek": "נתונים חדשים של ReDataset מציגים את מחירי השכירות סביב נמל פיראוס, לפי מרחק, גיל הנכס, שטח ודירוג אנרגטי.",
+    "tldr": [
+      "מחירי השכירות בקרבה לנמל פיראוס גבוהים ב-8% באזור שעד קילומטר אחד לעומת האזור שבין קילומטר לשניים.",
+      "דירות קטנות בשטח של 20 עד 50 מ\"ר מציגות מחיר ממוצע גבוה למטר רבוע לעומת דירות גדולות.",
+      "נכסים חדשים שנבנו בין 2020 ל-2026 ודירות בדירוג אנרגטי A+ רושמים את המחירים הגבוהים ביותר."
+    ],
+    "means": "מדובר במידע כללי בלבד על מחירי השכירות בפיראוס לפי נתוני מחקר שוק ואינו מהווה ייעוץ השקעות.",
+    "body": "נתונים חדשים שמפרסמת חברת המחקר ReDataset מצביעים על קשר בין מחירי השכירות לבין המאפיינים והמיקום של נכסי מגורים באזור נמל פיראוס. על פי הנתונים, דירות הממוקמות במרחק של עד קילומטר אחד מהנמל מציגות דיאגרמת מחיר ממוצעת של 10.45 אירו למטר רבוע, לעומת 9.72 אירו למטר רבוע באזור שבין קילומטר אחד לשניים. המחיר הממוצע הכולל במדגם עומד על 10 אירו למטר רבוע. המחקר מראה כי גורמים נוספים כמו שטח הדירה, שנת הבנייה והדירוג האנרגטי משפיעים באופן משמעותי על דרישות השכירות. דירות קטנות בשטח של 20 עד 50 מ\"ר מציגות מחירי שכירות גבוהים משמעותית למטר רבוע בהשוואה לדירות גדולות יותר. כמו כן, נכסים שנבנו בין השנים 2020 ל-2026 ונכסים בדירוג אנרגטי גבוה רשמו מחירים הבולטים מעל הממוצע הכללי במדגם."
+  },
+  "en": {
+    "title": "Piraeus: New data shows rent prices by port proximity and property features",
+    "dek": "A new study by ReDataset details rental prices around the Port of Piraeus based on distance, property size, age, and energy class.",
+    "tldr": [
+      "Rental prices within one kilometer of the Piraeus port are 8 percent higher than in the one to two kilometer zone.",
+      "Smaller apartments measuring 20 to 50 square meters show significantly higher asking prices per square meter.",
+      "Properties built between 2020 and 2026 and those with an A+ energy rating record the highest median prices."
+    ],
+    "means": "This is general market information based on real estate data and does not constitute financial or legal advice.",
+    "body": "New data published by ReDataset highlights rental price trends around the port of Piraeus, showing that residential properties located within one kilometer of the port have a median asking rent of 10.45 euros per square meter, compared to 9.72 euros per square meter in the one to two kilometer zone. The overall median price across the sample stands at 10 euros per square meter. The research indicates that property size is a key factor, with smaller apartments of 20 to 50 square meters reaching higher prices per square meter than larger properties. Additionally, properties constructed between 2020 and 2026 and those belonging to higher energy efficiency classes show median asking rents significantly above the sample average."
+  },
+  "meta": {
+    "itemId": "ed86d6cca419",
+    "imageQuery": "Piraeus port Athens Greece",
+    "sourceHash": "4e465543ba36",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-14T10:14:28.835Z",
+    "official": false
+  }
+}
