@@ -19,24 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "c1f6db462e72": 1793403613882,
-    "40f085952c97": 1793403613882,
-    "60ee1894580e": 1793403613882,
-    "f2a464f02a31": 1793403613882,
-    "5e9bdf97dade": 1793403613882,
-    "5f98350b649b": 1793403613882,
-    "99c07cf9c794": 1793403613882,
-    "f20d4a6df59e": 1793403613882,
-    "2df73559fa07": 1793403613882,
-    "5adfc0ce0a28": 1793403613882,
-    "3472582c9289": 1793403613882,
-    "857637de34db": 1793403613882,
-    "94756dbec345": 1793403613882,
-    "03162d9db2ac": 1793403613882,
-    "b19516de735e": 1793403613882,
-    "febcb50f5af2": 1793403613882,
-    "1c6ac1dd0e13": 1793403613882,
-    "5182a75f124c": 1793403613882,
     "f8046eeaa172": 1793414617312,
     "e5578d036efd": 1793414617312,
     "553819aba598": 1793414617312,
@@ -1705,17 +1687,41 @@
     "c9a31e47a576": 1794605914616,
     "383c4ff2ecdf": 1794605914616,
     "02d1c2acb23e": 1794605914616,
-    "9ed078031df5": 1794605914616
+    "9ed078031df5": 1794605914616,
+    "06d6be8401ec": 1794620688183,
+    "518f95a18776": 1794620688183,
+    "f6ff5b1cf445": 1794620688183,
+    "22d917702733": 1794620688183,
+    "39fcf096a40f": 1794620688183,
+    "7189317ba778": 1794620688183,
+    "1c53ef38a85f": 1794620688183,
+    "e5f72191e54e": 1794620688183,
+    "ec19b565fd7e": 1794620688183,
+    "50bea79a9ac5": 1794620688183,
+    "ebec0ecab176": 1794620688183,
+    "27c261d4b24f": 1794620688183,
+    "5f42f9c995d4": 1794620688183,
+    "145aaa904a1b": 1794620688183,
+    "c3ff668e3916": 1794620688183,
+    "f41206dcf098": 1794620688183,
+    "367db8e06ce2": 1794620688183,
+    "b6b62ca93010": 1794620688183,
+    "bef818b195a7": 1794620688183,
+    "ecb3b94d15af": 1794620688183,
+    "7b5b6fa52542": 1794620688183,
+    "63c976bfc585": 1794620688183,
+    "25ffd29c7acf": 1794620688183,
+    "e9637501f627": 1794620688183
   },
   "pending": {
-    "535961": {
-      "createdAt": 1794605951168,
+    "3a8f86": {
+      "createdAt": 1794620704060,
       "item": {
-        "title": "Fake Traffic Fine Texts Offer 50% Off to Lure Greek Drivers",
-        "url": "https://greekcitytimes.com/2026/11/14/fake-traffic-fine-sms-scam-greece-50-discount/",
-        "summary": "Scammers posing as GOV and the Hellenic Police are texting Greek drivers about unpaid speeding fines, offering 50% off to pay today through a fake site.\n The post Fake Traffic Fine Texts Offer 50% Off to Lure Greek Drivers appeared first on Greek City Times .",
-        "published": "Fri, 13 Nov 2026 19:06:07 +0000",
-        "id": "dad14f350418",
+        "title": "Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
+        "url": "https://greekcitytimes.com/2026/11/14/athens-sites-pass/",
+        "summary": "Greece approved a €100 seven-day Athens Sites Pass and set ticket prices for new museums at Tatoi, in Piraeus and at the Acropolis.\n The post Greece Approves €100 Athens Sites Pass for Seven-Day Visits appeared first on Greek City Times .",
+        "published": "Fri, 13 Nov 2026 22:57:32 +0000",
+        "id": "367db8e06ce2",
         "sourceId": "gct",
         "sourceName": "Greek City Times",
         "official": false,
@@ -1724,18 +1730,18 @@
         "strike": false
       },
       "pick": {
-        "id": "dad14f350418",
-        "section": "living",
-        "priority": 8,
+        "id": "367db8e06ce2",
+        "section": "travel",
+        "priority": 7,
         "sensitive": true,
         "breaking": false,
-        "reason": "Phishing scam targeting Greek drivers with fake traffic fine text messages pretending to be from GOV and Hellenic Police; important for residents and long-term visitors.",
+        "reason": "New €100 seven-day Athens Sites Pass and ticket prices for major museums and the Acropolis directly impact tourists visiting Athens.",
         "item": {
-          "title": "Fake Traffic Fine Texts Offer 50% Off to Lure Greek Drivers",
-          "url": "https://greekcitytimes.com/2026/11/14/fake-traffic-fine-sms-scam-greece-50-discount/",
-          "summary": "Scammers posing as GOV and the Hellenic Police are texting Greek drivers about unpaid speeding fines, offering 50% off to pay today through a fake site.\n The post Fake Traffic Fine Texts Offer 50% Off to Lure Greek Drivers appeared first on Greek City Times .",
-          "published": "Fri, 13 Nov 2026 19:06:07 +0000",
-          "id": "dad14f350418",
+          "title": "Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
+          "url": "https://greekcitytimes.com/2026/11/14/athens-sites-pass/",
+          "summary": "Greece approved a €100 seven-day Athens Sites Pass and set ticket prices for new museums at Tatoi, in Piraeus and at the Acropolis.\n The post Greece Approves €100 Athens Sites Pass for Seven-Day Visits appeared first on Greek City Times .",
+          "published": "Fri, 13 Nov 2026 22:57:32 +0000",
+          "id": "367db8e06ce2",
           "sourceId": "gct",
           "sourceName": "Greek City Times",
           "official": false,
@@ -1745,174 +1751,171 @@
         }
       },
       "draft": {
-        "slug": "fake-traffic-fine-sms-scam-greece",
-        "section": "living",
-        "sensitive": true,
+        "slug": "athens-sites-pass-100-euros",
+        "section": "travel",
+        "sensitive": false,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "אזהרת הונאה",
-          "en": "Scam Warning"
+          "he": "כרטיסים חדשים",
+          "en": "New Tickets"
         },
-        "imageKey": "key",
-        "imageQuery": "smartphone security phishing scam",
+        "imageKey": "athens",
+        "imageQuery": "Athens archaeological site Acropolis ancient ruins",
         "he": {
-          "title": "הונאת ה-SMS ביוון: הודעות פיקטיביות על דוחות מהירות עם 50% הנחה",
-          "seoTitle": "הונאת דוחות תנועה ביוון: הודעת SMS פיקטיבית",
-          "seoDesc": "זהירות מהונאת SMS ביוון: הודעות מזויפות על דוחות מהירות עם הבטחה ל-50% הנחה נועדו לגנוב פרטי בנק וסיסמאות TAXISnet. כך תבדקו ותימנעו מעקיצה.",
+          "title": "כרטיס משולב חדש לאתרי העתיקות באתונה יעלה 100 אירו",
+          "seoTitle": "כרטיס משולב חדש לאתרי העתיקות באתונה ב-100 אירו | יוונט",
+          "seoDesc": "מתכננים חופשה באתונה? מועצת העתיקות אישרה כרטיס משולב חדש ב-100 אירו המעניק גישה לאתרים המרכזיים למשך שבוע, לצד מחירי כניסה למוזיאונים חדשים.",
           "keywords": [
-            "הונאה ביוון",
-            "דוחות תנועה יוון",
-            "הודעת SMS פיקטיבית יוון",
-            "TAXISnet",
-            "משטרת יוון"
+            "כרטיס משולב אתונה",
+            "אקרופוליס אתונה",
+            "אתרי עתיקות באתונה",
+            "מוזיאונים באתונה",
+            "חופשה באתונה"
           ],
-          "dek": "רשויות האכיפה ביוון מזהירות מפני גל חדש של הודעות טקסט מזויפות על דוחות מהירות, המציעות הנחה של חמישה אחוזים בתשלום מיידי במטרה לגנוב פרטי גישה ונתונים בנקאיים.",
+          "dek": "מועצת העתיקות המרכזית ביוון אישרה מחירי כרטיסים חדשים, הכוללים מעבר משולב בשווי 100 אירו לאתרים המרכזיים באתונה ודמי כניסה למוזיאונים חדשים לקראת פתיחתם.",
           "tldr": [
-            "נוכלים שולחים הודעות SMS שמתחזות לממשלת יוון או למשטרת יוון (EL.AS.) על דוחות מהירות.",
-            "ההודעה מציעה הנחה של 50 אחוזים בתשלום מהיר באותו היום וכוללת קישור זדוני המוביל לעמוד פיקטיבי.",
-            "המטרה היא לגנוב את פרטי ההתחברות ל-TAXISnet ופרטי כרטיס אשראי."
+            "כרטיס הכניסה המשולב (Athens Sites Pass) יעלה 100 אירו ויאפשר סיור באתרי העתיקות במשך שבוע.",
+            "הכרטיס כולל את האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.",
+            "מוזיאונים חדשים, בהם האחוזות המלכותיות בטאטוי והמוזיאון לעתיקות ימיות בפיראוס, קיבלו מחירי כניסה רשמיים."
           ],
-          "means": "לתושבים ולבעלי נכסים ישראלים ביוון: אם קיבלתם הודעה חשודה על דוח תנועה הכוללת קישור ישיר לתשלום, אל תלחצו עליה ואל תזינו פרטים. דוחות אמת מגיעים אך ורק לתיבה הדיגיטלית האישית ב-תירידה פוליטי או דרך אפליקציית Gov.gr Wallet, ללא קישורי תשלום ישירים בהודעות.",
-          "body": "## כך פועלת הונאת דוחות התנועה ביוון\n\nנהגים ביוון שוב מקבלים הודעות טקסט מטעות המודיעות להם כביכול על דוחות מהירות שלא שולמו. הפעם, הנוכלים מנסים לייצר לחץ באמצעות הבטחה לפיה תשלום מיידי באותו היום יזכה את הנהג ב-\"50% הנחה\" על סכום הדוח. השולח מופיע בהודעה כגורם ממשלתי רשמי כמו GOV או משטרת יוון (EL.AS.), וההודעה מזהירה מפני הגדלת הקנס או הטלת עיצומים נוספים במקרה של עיכוב.\n\nהלחיצה על הקישור שמופיע בהודעה מובילה את המשתמש לעמוד מתחזה שנראה לחלוטין כמו שירות ממשלתי אמיתי. שם, מתבקשים הקורבנות להזין תחילה את פרטי ההתחברות למערכת ה-TAXISnet ולאחר מכן את פרטי כרטיס האשראי או חשבון הבנק שלהם, מה שמעניק לנוכלים גישה מלאה גם למידע האישי וגם לכספים.\n\n## הנחיות רשמיות: כך תזהו דוח אמיתי ותגנו על עצמכם\n\nשר הדיגיטל דימיטריס פאפאסטרגיו הבהיר כי דוחות אלקטרוניים אמיתיים נמסרים אך ורק לתיבה הדיגיטלית האישית של כל אזרח ותושב, הידועה בשם תירידה פוליטי. אמנם ייתכן שתקבלו הודעת עדכון מקדימה ב-SMS, דוא\"ל או דרך אפליקציית Gov.gr Wallet, אך הודעות אלו לעולם לא יכללו קישור ישיר לתשלום הקנס.\n\nהמשטרה היוונית מדגישה כי שירותים ציבוריים ביוון אינם שולחים קישורים לתשלום דוחות בהודעות טקסט. הכלל הבטוח ביותר הוא פשוט: אין לשלם דבר עד שבודקים את הנושא באופן עצמאי דרך אתר gov.gr הרשמי או דרך אפליקציית הארנק הרשמית. מומלץ להיכנס באופן ידני אל המערכות ולא להשתמש בשום קישור המצורף להודעת טקסט חשודה.\n\n## מה לעשות אם כבר מסרתם את הפרטים שלכם?\n\nאם הזנתם את פרטי כרטיס האשראי או פרטי הבנק שלכם בעקבות ההודעה, עליכם לפנות מיד לבנק שלכם במספר הטלפון הרשמי, לבקש לחסום את הכרטיס או את הגישה לחשבון, ולבדוק את הפעולות האחרונות שבוצעו.\n\nבמידה והזנתם את סיסמת ה-TAXISnet שלכם בעמוד פיקטיבי, חובה לשנות אותה מיד דרך אתר AADE הרשמי ולא דרך קישור כלשהו שהופיע בהודעה. בנוסף, ניתן וצריך לדווח על ניסיון ההונאה לאגף ללוחמה בפשיעה מקוונת של משטרת יוון במספר החירום והחינם הפעיל 24 שעות בימים: 11188.\n\n## שאלות נפוצות\n\n**האם משרדי הממשלה ביוון שולחים הודעות SMS עם קישור לתשלום דוחות?**\nלא. שירותים ציבוריים ביוון אינם שולחים קישורים ישירים לתשלום דוחות בהודעות טקסט.\n\n**היכן ניתן לבדוק האם קיים דוח תנועה אמיתי על שמי ביוון?**\nניתן לבדוק זאת אך ורק באופן עצמאי דרך אתר gov.gr הרשמי או באפליקציית Gov.gr Wallet בתיבה הדיגיטלית האישית (תירידה פוליטי).\n\n**למי יש לדווח אם הזנתי את פרטי כרטיס האשראי בהודעה חשודה?**\nיש ליצור קשר מיידי עם הבנק שלכם כדי לחסום את הכרטיס, ולדווח לאגף ללוחמה בפשיעה מקוונת של משטרת יוון במספר 11188."
+          "means": "אם אתם טסים לטיול באתונה בתקופה הקרובה, כדאי להכיר את מחירי הכרטיסים החדשים ולבדוק אילו אתרים תרצו לכלול בביקור שלכם. תוכלו לרכוש את הכרטיס המלא או לבחור באופציות המצומצמות יותר, כמו כרטיס האקרופוליס בנפרד. מומלץ להתעדכן בערוצים הרשמיים לפני ההגעה לאתרים.",
+          "body": "מועצת העתיקות המרכזית ביוון אישרה שורה של שינויים במחירי הכרטיסים לאתרים הארכיאולוגיים והמוזיאונים, ובראשם השקת כרטיס משולב חדש לאתרי הבירה.\n\n## כרטיס משולב חדש לאתרי אתונה\n\nהכרטיס החדש, ששמו הרשמי הוא Hellenic Heritage Athens Sites Pass, יעלה 100 אירו בסך הכל ויאפשר למבקרים לסייר באתרי העתיקות המרכזיים במשך שבעה ימים רצופים. מבקרים הזכאים לכניסה מוזלת ישלמו 50 אירו. הכרטיס מרכז מספר מוקדים בולטים ובהם האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.\n\nלצד כרטיס זה, אושר כרטיס נפרד המוקדש לאזור האקרופוליס בלבד, הנקרא Hellenic Heritage Acropolis Pass. כרטיס זה יחבר בין האקרופוליס, מדרונותיו ומוזיאון האקרופוליס הישן, ויעלה 45 אירו (או 23 אירו לכניסה מוזלת). לצורך השוואה, כרטיס סטנדרטי לאקרופוליס לבדו עומד כיום על 30 אירו בפלטפורמת הכרטיסים הרשמית, לאחר שרשם ביקוש גבוה במיוחד עם 4.6 מיליון מבקרים ב-2025.\n\n## מחירי כניסה למוזיאונים חדשים\n\nבמסגרת המהלך, נקבעו מחירי כניסה לשלושה מוזיאונים של משרד התרבות שטרם נפתחו לקהל הרחב. הכניסה לאחוזת טאטוי המלכותית לשעבר, הצפונית לאתונה, תעלה 30 אירו. כרטיס זה יכסה שלושה מבנים מרכזיים: הארמון, מוזיאון הכרכרות ומוזיאון הרכבים ההיסטוריים, בעוד שההליכה בשאר שטחי האחוזה תמשיך להתקיים ללא תשלום.\n\nבנוסף, המוזיאון הלאומי לעתיקות ימיות בפיראוס, הנמצא בשלבי הקמה אחרונים, יגבה 20 אירו לכניסה כללית. במתחם פיראוס 260, מרכז היציקות והרפליקות החדש Montelothiki יתמחר את הכניסה ב-15 אירו, ומרכז אמנות הדפסת הטקסטיל ומלאכות הטקסטיל יעלה 10 אירו. הזכאים להנחות ייהנו מהתעריפים המופחתים בהתאם לכללים הנהוגים באתרים הממשלתיים.\n\n## הנחות עונתיות והמשך הדרך\n\nברקע העדכונים במחירים, משרד התרבות מזכיר כי אתרים ומוזיאונים המופעלים על ידי המדינה מציעים כניסה חופשית לכלל הציבור ביום ראשון הראשון והשלישי של כל חודש, וזאת עד חודש מרץ. הרשויות טרם פרסמו מועד רשמי לפתיחתם המלאה של חלק מהמוזיאונים החדשים, אך העדכונים במבנה הכרטיסים נועדו להיערך לעומסי הקהל הגדלים באתרים ההיסטוריים.\n\n## שאלות נפוצות\n\n**כמה עולה הכרטיס המשולב החדש לאתונה?**\nהכרטיס המשולב הרשמי, Hellenic Heritage Athens Sites Pass, עולה 100 אירו למבוגר ו-50 אירו לזכאים לכניסה מוזלת, והוא תקף לשבעה ימים.\n\n**אילו אתרים כלולים בכרטיס המשולב?**\nהכרטיס כולל בין היתר את האקרופוליס, האגורה העתיקה, קרמיקוס, האולימפיאון, האגורה הרומית ומקדש הפאיסטוס.\n\n**האם יש כניסה חינם לאתרים בתקופה זו?**\nאתרים ומוזיאונים ממשלתיים מציעים כניסה חופשית ביום ראשון הראשון והשלישי של כל חודש עד חודש מרץ."
         },
         "en": {
-          "title": "Fake Fine SMS Scam in Greece: Bogus Speeding Penalty Texts Offer 50% Discount",
-          "seoTitle": "Fake Traffic Fine SMS Scam in Greece: What to Know",
-          "seoDesc": "Watch out for a fake traffic fine SMS scam in Greece offering a 50% discount. Learn how to check genuine fines safely and protect your TAXISnet and bank details.",
+          "title": "Athens Approves New €100 Pass for Main Archaeological Sites",
+          "seoTitle": "New €100 Athens Sites Pass Approved for Archaeological Sites",
+          "seoDesc": "Greece approves a new €100 Athens Sites Pass covering major archaeological sites for seven days, along with ticket prices for upcoming museums.",
           "keywords": [
-            "Greece fine scam",
-            "Greek traffic fine SMS",
-            "TAXISnet phishing Greece",
-            "Hellenic Police scam warning",
-            "Gov.gr Wallet"
+            "Athens Sites Pass",
+            "Acropolis tickets",
+            "Athens archaeological sites",
+            "Greece culture ministry",
+            "Athens museums"
           ],
-          "dek": "Greek drivers are receiving fraudulent text messages about unpaid speeding fines promising a 50 percent discount for immediate payment, designed to steal personal data and banking information.",
+          "dek": "Greece’s Central Archaeological Council has approved new ticket prices, including a €100 pass for the capital's main archaeological sites and entry fees for upcoming museums.",
           "tldr": [
-            "Scammers are sending fake SMS messages pretending to be government agencies or the Hellenic Police (EL.ΑΣ.).",
-            "The texts claim the recipient has a speeding fine and offer a 50% same-day discount via a malicious payment link.",
-            "The fraudulent page aims to harvest TAXISnet login credentials and bank card details."
+            "The new Athens Sites Pass costs €100 and grants access to key archaeological sites for seven days.",
+            "Covered locations include the Acropolis, Ancient Agora, Kerameikos, Olympieion, Roman Agora, and the Temple of Hephaestus.",
+            "New museums, such as the Tatoi estate and the Piraeus maritime antiquities museum, have also received official entry fees."
           ],
-          "means": "For residents and property owners in Greece: If you receive a text message about a traffic fine containing a direct payment link, do not click it. Genuine electronic fines are delivered exclusively to your personal digital mailbox (Θυρίדה Πολίτη) or the Gov.gr Wallet app without direct payment links in texts.",
-          "body": "## How the Traffic Fine SMS Scam Works in Greece\n\nDrivers in Greece are once again being targeted by fraudulent text messages concerning unpaid speeding fines. In this latest iteration, scammers attempt to create urgency by offering a \"50% discount\" if the penalty is settled on the very same day. The sender ID appears as a government entity such as GOV or the Hellenic Police (EL.ΑΣ.), warning recipients of escalating penalties if payment is delayed.\n\nTapping the link provided in the message directs users to a convincing fake website designed to mimic official government services. The fraudulent page first prompts victims to enter their TAXISnet login credentials followed by their bank card or online banking details, granting scammers access to both personal data and funds.\n\n## Official Guidance: How to Check Fines Safely\n\nDigital Governance Minister Dimitris Papastergiou has clarified that genuine electronic fines are delivered exclusively to each citizen’s personal digital mailbox, known as Θυρίדה Πολίτη. While you may receive a notification via SMS, email, or the Gov.gr Wallet app, these notifications will never include a direct link to pay the fine.\n\nThe Hellenic Police stress that public services do not send payment links via text message. The safest rule is never to pay anything until you have independently verified the fine through official government services. Always navigate to gov.gr yourself or open the official Gov.gr Wallet app to check your notifications rather than using links found in suspicious messages.\n\n## What to Do If You Have Already Entered Your Details\n\nIf you have shared your bank card or online banking credentials, contact your bank immediately through its official phone number to block your card or account access and review recent transactions.\n\nIf you entered your TAXISnet password on a suspicious page, change it immediately through the official AADE website rather than through any link provided in a message. You should also report the attempt to the Hellenic Police Cyber Crime Division using the 24-hour free hotline at 11188.\n\n## FAQ\n\n**Do Greek government agencies send SMS messages with links to pay fines?**\nNo. Public services in Greece do not send direct payment links for fines via text message.\n\n**Where can I check if I actually have a traffic fine in Greece?**\nYou can check safely by visiting gov.gr directly or by opening the official Gov.gr Wallet app and checking your personal digital mailbox (Θυρίדה Πολίτη).\n\n**Who should I contact if I entered my bank details in a scam link?**\nContact your bank immediately to block your card and report the incident to the Hellenic Police Cyber Crime Division at 11188."
+          "means": "If you are planning a trip to Athens, review the new ticketing options to decide whether the comprehensive pass suits your itinerary or if individual tickets are better. Check official ticketing platforms for updates before visiting.",
+          "body": "Greece’s Central Archaeological Council has backed a proposal for revised ticket structures across Athens, introducing a comprehensive multi-site pass and setting entry fees for several long-awaited cultural institutions.\n\n## The New Athens Sites Pass\n\nOfficially named the Hellenic Heritage Athens Sites Pass, the single ticket is priced at €100, while visitors who qualify for reduced entry will pay €50. The pass allows holders to tour the main archaeological sites of the Greek capital over a period of seven days. Among the prominent locations covered by the pass are the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora, and the Temple of Hephaestus.\n\nIn addition to the comprehensive pass, authorities introduced a separate Hellenic Heritage Acropolis Pass. This option combines the Acropolis, its slopes, and the Old Acropolis Museum for €45, with reduced entry set at €23. By comparison, a standard ticket for the Acropolis alone currently costs €30 on the official platform, following strong demand that drew a record 4.6 million visitors in 2025.\n\n## New Pricing for Upcoming Museums\n\nTicket fees were also established for three Culture Ministry museums ahead of their respective openings. Entry to the former royal estate at Tatoi, located north of Athens, will cost €30. The ticket covers three specific buildings: the palace, a carriage museum, and a historic vehicle museum, though visitors can still walk through the rest of the estate grounds free of charge.\n\nSimilarly, the National Museum of Underwater Antiquities in Piraeus will charge €20 for general entry. Within the Piraeus 260 complex, the new Montelothiki cast and replica center will set entry at €15, while the Museum of Textile Printing Art and Textile Crafts Centre will charge €10. Reduced entry rules will apply across all these museums.\n\n## Seasonal Free Entry and Access\n\nAlongside the new pricing structure, state-run sites and museums continue to offer free entry on the first and third Sunday of each month until March. The Culture Ministry has yet to confirm precise opening dates for all the newly priced cultural venues, but the decisions mark a step toward organizing visitor access as interest in Athens' historical sites remains high.\n\n## FAQ\n\n**How much does the new Athens Sites Pass cost?**\nThe Hellenic Heritage Athens Sites Pass costs €100 for general admission and €50 for visitors qualifying for reduced entry, remaining valid for seven days.\n\n**Which locations are included in the Athens Sites Pass?**\nThe pass covers the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora, and the Temple of Hephaestus.\n\n**Are there any free admission days at state sites?**\nState-run archaeological sites and museums offer free entry on the first and third Sunday of each month until March."
         }
       },
-      "text": "0 \n 0 \n 0 \n Greek drivers are again receiving fake text messages about unpaid speeding fines, this time with a “50% discount” for paying immediately, as scammers pose as government agencies to steal passwords and bank details.\n How the scam works\n The SMS, reported by in.gr on 13 November, tells the recipient they have been caught speeding. The sender appears as GOV or ΕΛ.ΑΣ. (the Hellenic Police), and the message warns that the fine will increase or further penalties will follow if it is not paid straight away.\n To push drivers into acting fast, the message offers to cut the fine in half if it is paid the same day.\n The link leads to a fake page made to look like a government service. It first asks for TAXISnet login details and then for bank card information, giving the scammers access to both personal data and money.\n The discount is the giveaway\n A same-day “half-price” offer, delivered by text with a payment link, is a clear sign of fraud.\n The Hellenic Police have warned about fake fine messages several times this year, including in February and March, stressing that public services do not send links to pay fines by SMS.\n How to check if a fine is real\n Digital Governance Minister Dimitris Papastergiou has said that genuine electronic fines are delivered to each citizen’s personal digital mailbox, the Θυρίδα Πολίτη. You may be notified by SMS, email or the Gov.gr Wallet app, but the notice will not include a link to pay the fine directly.\n To check safely, go to gov.gr yourself or open the official Gov.gr Wallet app and look at your notifications. Never use the link in a suspicious text.\n If you have already entered your details\n If you gave your card number or online banking details, call your bank immediately on its official number, ask for the card or access to be blocked, and check recent transactions.\n If you entered your TAXISnet password, change it through the official AADE website, not through any link in a message.\n Report the attempt to the Hellenic Police Cyber Crime Division on the 24-hour free number 11188.\n The safest rule is simple: do not pay anything until you have confirmed the fine through an official government service.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Dutch Discount Chain Action Registers Greek Company in Possible Challenge to Jumbo\n Next Article \n Art Athina 2026 Moves to Onassis Ready With 65 Galleries\n 0 \n 0 \n 0",
+      "text": "File photo: The Temple of Hephaestus from the Ancient Agora, Athens, in October 2015. Photo: Jebulon, via Wikimedia Commons (CC0) \n 0 \n 0 \n 0 \n Visitors to Athens will be able to tour its main archaeological sites for seven days with a €100 Athens Sites Pass, after Greece’s Central Archaeological Council approved new ticket prices. \n The council backed a proposal by the Hellenic Organization of Cultural Resources Development (ODAP). Under the plan, the Athens Sites Pass covers the Acropolis, the Ancient Agora, Kerameikos, the Olympieion, the Roman Agora and the Temple of Hephaestus, among other sites.\n Three long-awaited Culture Ministry museums also get entry fees before they open. They include the former royal estate at Tatoi and a national museum of underwater antiquities in Piraeus.\n Officially named the Hellenic Heritage Athens Sites Pass, the single ticket costs €100 in total. Visitors who qualify for reduced entry will pay €50.\n Read more: Free Museum Entry Returns Across Greece on Sunday \n Athens Sites Pass and Acropolis tickets\n By comparison, a standard ticket for the Acropolis alone currently costs €30 on the official ticketing platform . Demand is strong, after the site drew a record 4.6 million visitors in 2025 .\n In addition to the Athens Sites Pass, a separate Hellenic Heritage Acropolis Pass will combine the Acropolis, its slopes and the Old Acropolis Museum. It will cost €45, or €23 for reduced entry.\n The Old Acropolis Museum, on the Acropolis rock, is due to open in the coming period.\n Separately, state-run sites and museums offer free entry on the first and third Sunday of each month until March.\n Prices at the new museums\n Entry to the museums at Tatoi, north of Athens, will cost €30. The ministry has yet to confirm an opening date.\n Its ticket covers three buildings: the palace, a carriage museum and a museum of historic vehicles. Still, visitors can walk through the rest of the estate free of charge, as they do now.\n Earlier, Greek City Times reported that Tatoi was set to open in December as a new cultural park.\n Similarly, the National Museum of Underwater Antiquities, which is nearing completion in Piraeus, will charge €20 for general entry.\n At the Piraeus 260 complex, ODAP’s new Montelothiki, a centre for casts and replicas of ancient works, will charge €15. Also, the Museum of Textile Printing Art and Textile Crafts Centre will cost €10.\n Reduced tickets will apply at all of these museums under the existing rules, the council decided.\n Source: Kathimerini \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Mitsotakis Inaugurates Upgraded Kerameikos Archaeological Site in Athens \n Greece Marks European Heritage Days With Free Museum Entry \n Ancient Greek Heritage Comes to Life at Thessaloniki Fair \n Greece Highlights Its Underwater Cultural Heritage on International Day \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Greece Makes Polytechnic Gate a Protected Monument\n Next Article \n FAA Grounds All US Departures After Air Traffic Communications Fault\n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Απάτη με ψεύτικα SMS για πρόστιχα στην Ελλάδα: Παπλανώμενα μηνύματα για υπερβολική ταχύτητα υπόσχονται έκπτωση 50%",
-        "dek": "Έλληνες οδηγοί λαμβάνουν απατηλά γραπτά μηνύματα σχετικά με απλήρωτες κλήσεις για υπερβολική ταχύτητα, τα οποία υπόσχονται έκπτωση 50% για άμεση πληρωμή, με στόχο την υποκλοπή προσωπικών δεδομένων και τραπεζικών στοιχείων.",
+        "title": "Η Αθήνα εγκρίνει νέο πάσο 100 ευρώ για τους βασικούς αρχαιολογικούς χώρους",
+        "dek": "Το Κεντρικό Αρχαιολογικό Συμβούλιο της Ελλάδας ενέκρινε νέες τιμές εισιτηρίων, συμπεριλαμβανομένου ενός πάσου 100 ευρώ για τους κύριους αρχαιολογικούς χώρους της πρωτεύουσας και τελών εισόδου για τα επερχόμενα μουσεία.",
         "tldr": [
-          "Απατεώνες στέλνουν ψεύτικα μηνύματα SMS προσποιούμενοι κρατικές υπηρεσίες ή την Ελληνική Αστυνομία (ΕΛ.ΑΣ.).",
-          "Τα μηνύματα ισχυρίζονται ότι ο παραλήπτης έχει κάποιο πρόστιμο για υπερβολική ταχύτητα και προσφέρουν έκπτωση 50% για πληρωμή την ίδια ημέρα μέσω ενός κακόβουλου συνδέσμου πληρωμής.",
-          "Η απατηλή σελίδα στοχεύει στη συλλογή διαπιστευτηρίων σύνδεσης στο TAXISnet και στοιχείων τραπεζικών καρτών."
+          "Το νέο Athens Sites Pass κοστίζει 100 ευρώ και παρέχει πρόσβαση σε βασικούς αρχαιολογικούς χώρους για επτά ημέρες.",
+          "Οι καλυπτόμενες τοποθεσίες περιλαμβάνουν την Ακρόπολη, την Αρχαία Αγορά, τον Κεραμεικό, το Ολυμπιείο, τη Ρωμαϊκή Αγορά και τον Νόμο του Ηφαίστου.",
+          "Νέα μουσεία, όπως το κτήμα Τατοΐου και το μουσείο εναλίων αρχαιοτήτων στον Πειραιά, έλαβαν επίσης επίσημα τέλη εισόδου."
         ]
       },
       "notified": true
     },
-    "a1c498": {
-      "createdAt": 1794605930595,
+    "56693b": {
+      "createdAt": 1794620731672,
       "item": {
-        "title": "Traffic restrictions in central Athens due to Students’ Uprising anniversary",
-        "url": "https://www.keeptalkinggreece.com/2026/11/13/students-uprising-anniversary-traffic-restrictions-athens/",
-        "summary": "Temporary traffic restrictions will be implemented in central Athens from Sunday, November 15, to Wednesday, November 18, for events marking the 53rd anniversary of the 1973 Athens Polytechnic School Uprising against Greece’s military dictatorship. According to Greek Police, stopping and parking will be prohibited and roads will be closed gradually, depending on traffic conditions, from […]\n The post Traffic restrictions in central Athens due to Students’ Uprising anniversary appeared first on Keep Talking Greece .",
-        "published": "Fri, 13 Nov 2026 14:18:05 +0000",
-        "id": "a667358d2946",
-        "sourceId": "ktg",
-        "sourceName": "Keep Talking Greece",
+        "title": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki",
+        "url": "https://news.gtp.gr/2026/11/13/wyndham-signs-deal-for-174-branded-villas-in-halkidiki/",
+        "summary": "Wyndham expands its Greek branded residences portfolio through a franchise deal with Ege Yapı for 174 villas in Halkidiki....\n Source",
+        "published": "Fri, 13 Nov 2026 13:45:55 +0000",
+        "id": "e9637501f627",
+        "sourceId": "gtp",
+        "sourceName": "GTP Headlines",
         "official": false,
         "emergency": false,
-        "sectionHint": "politics",
+        "sectionHint": "travel",
         "strike": false
       },
       "pick": {
-        "id": "a667358d2946",
-        "section": "travel",
-        "priority": 9,
+        "id": "e9637501f627",
+        "section": "real-estate",
+        "priority": 6,
         "sensitive": true,
         "breaking": false,
-        "reason": "Traffic restrictions and road closures in central Athens due to the upcoming Polytechnic Uprising anniversary; important for tourists and residents planning movement.",
+        "reason": "Wyndham's major branded villas project in Halkidiki is key market news for real estate investors looking at northern Greece.",
         "item": {
-          "title": "Traffic restrictions in central Athens due to Students’ Uprising anniversary",
-          "url": "https://www.keeptalkinggreece.com/2026/11/13/students-uprising-anniversary-traffic-restrictions-athens/",
-          "summary": "Temporary traffic restrictions will be implemented in central Athens from Sunday, November 15, to Wednesday, November 18, for events marking the 53rd anniversary of the 1973 Athens Polytechnic School Uprising against Greece’s military dictatorship. According to Greek Police, stopping and parking will be prohibited and roads will be closed gradually, depending on traffic conditions, from […]\n The post Traffic restrictions in central Athens due to Students’ Uprising anniversary appeared first on Keep Talking Greece .",
-          "published": "Fri, 13 Nov 2026 14:18:05 +0000",
-          "id": "a667358d2946",
-          "sourceId": "ktg",
-          "sourceName": "Keep Talking Greece",
+          "title": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki",
+          "url": "https://news.gtp.gr/2026/11/13/wyndham-signs-deal-for-174-branded-villas-in-halkidiki/",
+          "summary": "Wyndham expands its Greek branded residences portfolio through a franchise deal with Ege Yapı for 174 villas in Halkidiki....\n Source",
+          "published": "Fri, 13 Nov 2026 13:45:55 +0000",
+          "id": "e9637501f627",
+          "sourceId": "gtp",
+          "sourceName": "GTP Headlines",
           "official": false,
           "emergency": false,
-          "sectionHint": "politics",
+          "sectionHint": "travel",
           "strike": false
         }
       },
       "draft": {
-        "slug": "athens-traffic-restrictions-polytechnic-anniversary-november-2026",
-        "section": "travel",
-        "sensitive": true,
+        "slug": "wyndham-villas-halkidiki-real-estate",
+        "section": "real-estate",
+        "sensitive": false,
         "breaking": false,
-        "geo": {
-          "lat": 37.9838,
-          "lng": 23.7275
-        },
+        "geo": null,
         "strike": null,
         "alert": {
-          "he": "עדכון תחבורה",
-          "en": "Traffic Update"
+          "he": "נדל\"ן ביוון",
+          "en": "Greek Real Estate"
         },
-        "imageKey": "athens",
-        "imageQuery": "Athens central street traffic city",
+        "imageKey": "house",
+        "imageQuery": "luxury villas greece architecture",
         "he": {
-          "title": "חסימות תחבורה באתונה לרגל ציון יום השנה למרד הפוליטכניון",
-          "seoTitle": "תחבורה באתונה: חסימות כבישים לרגל יום השנה",
-          "seoDesc": "שיבושים בתחבורה הציבורית ובמרכז אתונה מיום ראשון ועד רביעי עקב אירועי ציון 53 שנים למרד הפוליטכניון. בדקו את דרכי ההגעה.",
+          "title": "רשת וינדהם מרחיבה את פעילותה ביוון עם פרויקט ענק בחלקידיקי",
+          "seoTitle": "נדל\"ן ביוון: 174 וילות חדשות של וינדהם בחלקידיקי",
+          "seoDesc": "רשת המלונות וינדהם חותמת על הסכם להקמת מתחם וילות יוקרתי בחלקידיקי שיכלול 174 יחידות דיור בניהול מלונאי ושירותי אירוח מתקדמים.",
           "keywords": [
-            "אתונה",
-            "תחבורה באתונה",
-            "מרכז אתונה",
-            "פקקים באתונה",
-            "חופשה באתונה"
+            "נדל\"ן ביוון",
+            "חלקידיקי",
+            "השקעה בנדל\"ן ביוון",
+            "וינדהם יוון",
+            "וילות ביוון"
           ],
-          "dek": "רשויות המשטרה באתונה נערכות לשיבושי תנועה נרחבים ולסגירת צירים מרכזיים במרכז העיר לקראת ציון יום השנה ה-53 למרד הפוליטכניון.",
+          "dek": "חברת הנדל\"ן הטורקית אגה יאפי תקים מתחם וילות יוקרתי בחלקידיקי בניהול רשת המלונות וינדהם, הכולל 174 יחידות מגורים עם שירותים מלונאיים.",
           "tldr": [
-            "הגבלות התנועה יחולו מיום ראשון ה-15 בנובמבר ועד יום רביעי ה-18 בנובמבר 2026.",
-            "אזורים נרחבים במרכז אתונה ובסביבת האוניברסיטה ייסגרו לסירוגין לתנועת כלי רכב וחניה.",
-            "קווים של אוטובוסים וטרוליבוסים יעברו במסלולים חלופיים בהתאם להנחיות המפעיל."
+            "חברת וינדהם חתמה על הסכם להקמת 174 וילות בחלקידיקי.",
+            "הפרויקט מבוצע בשיתוף חברת הנדל\"ן הטורקית אגה יאפי.",
+            "היחידות משלבות מגורים פרטיים עם שירותי ניהול מלונאי מלאים."
           ],
-          "means": "אם אתם מתכננים ביקור באתונה בימים אלו, קחו בחשבון שחסימות הכבישים ושינויי המסלולים בתחבורה הציבורית עלולים להאריך את זמן ההגעה שלכם ברחבי העיר. מומלץ להימנע מנסיעה ברכב פרטי באזורים המרכזיים ולהסתמך על הליכה רגלית או עדכונים שוטפים מהרשויות. בנוסף, שימו לב כי תחנות רכבת תחתית במרכז עשויות להיסגר מעת לעת לפי הוראות המשטרה.",
-          "body": "## הגבלות תנועה לקראת ציון יום השנה ה-53\n\nרשויות האכיפה ביוון נערכות ליישום הסדרי תנועה זמניים במרכז העיר אתונה, לקראת אירועי הזיכרון לציון 53 שנים למרד הפוליטכניון של שנת 1973 נגד השלטון הדיקטטורי. ההגבלות צפויות להיכנס לתוקף החל מיום ראשון, ה-15 בנובמבר, ולהימשך עד לבוקר יום רביעי, ה-18 בנובמבר 2026.\n\nעל פי הודעת משטרת יוון, עצירה וחניה של כלי רכב יאסרו באופן הדרגתי באזורים שונים ברחבי כבישי המרכז החל מהשעה 06:00 בבוקר יום ראשון ועד לשעה 06:00 ביום רביעי. הציבור מתבקש שלא להחנות רכבים בסביבת מוקדי האירועים כדי למנוע החמרה של העומסים הצפויים.\n\n## אילו אזורים במרכז אתונה צפויים להיות מושפעים?\n\nההגבלות יורגשו תחילה סביב מבנה האוניברסיטה הפוליטכנית של אתונה בשדרות פאטיסיון, הסמוכות למוזיאון הארכיאולוגי, וכן ברחובות סטורנארי, טוסיצה ובכיכר אקסארכיה. עם התקדמות האירועים ולקראת יום שלישי ה-17 בנובמבר, מעגל החסימות והפסקות התנועה יתרחב משמעותית.\n\nביום שלישי צפויות להיסגר לסירוגין שדרות מרכזיות נוספות ובהן פאניפיסטימיאו, סטדיאו, אקדימיאס, ואסיליסיס סופיאס ואלכסנדראס. כמו כן, יחולו שיבושים בכיכר סינטגמה ובכיכר אומוניה, וכן בחלקים משדרות קיפיסיאס, מסוגיאן וסינגרו. המשטרה תחל לחסום את צירים אלו באופן הדרגתי סביב שעות הצהריים של אותו יום.\n\n## שינויים בתחבורה הציבורית והנחיות לנהגים\n\nמלבד סגירת כבישים, חברת ההפעלה של התחבורה הציבורית באתונה (OSY) הודיעה כי קווי האוטובוסים והטרוליבוסים הפועלים באזור יעברו שינויים במסלוליהם ובמיקום התחנות בהתאם למצב בשטח.\n\nאגף משטרת התנועה של אטיקה ממליץ לכלל הנהגים להימנע לחלוטין מנהיגה או מחניה בקרבת מוקדי האירועים, לאורך מסלול התהלוכות המתוכנן ובסביבת שגרירות ארצות הברית במרכז העיר. כמו כן, יש לקחת בחשבון שקיים סיכוי לסגירת תחנות רכבת תחתית במרכז העיר על פי הנחיית המשטרה בזמן אמת, כאשר הרכבות יעברו דרכן מבלי לעצור.\n\n## שאלות נפוצות\n\n**האם התחבורה הציבורית באתונה תפעל סדיר בימים אלו?**\nקווים של אוטובוסים וטרוליבוסים יעברו שינויים במסלוליהם ובתחנות שלהם בהתאם להחלטת חברת ההפעלה העירונית.\n\n**היכן צפויות להתחיל חסימות הכבישים הראשונות?**\nהחסימות יחלו סביב האוניברסיטה הפוליטכנית של אתונה בשדרות פאטיסיון ובאזורים הסמוכים כבר ביום ראשון ה-15 בנובמבר.\n\n**מה ההנחיות לנהגים השוהים באזור מרכז העיר?**\nמשטרת התנועה ממליצה להימנע לחלוטין מנהיגה ומחניה בסביבת מוקדי האירועים, לאורך צירי התהלוכות ובקרבת שגרירות ארצות הברית."
+          "means": "מתעניינים בהשקעות נדל\"ן ביוון? פרויקטים של מותגים בינלאומיים המשלבים מגורים ושירותי ניהול מציעים מודל של השכרת הנכס תחת תוכנית מנוהלת. מומלץ לבדוק את התנאים והתשואות הצפויות מול היזמים, ומכיוון שמדובר במידע כללי, כדאי להתייעץ עם אנשי מקצוע לפני כל החלטה פיננסית.",
+          "body": "## הרחבת פורטפוליו המלונות והמגורים ביוון\n\nרשת המלונות העולמית וינדהם (Wyndham Hotels & Resorts) ממשיכה להרחיב את פעילותה בתחום המגורים הממותגים ביוון. ההסכם נחתם מול חברת הנדל\"ן והבנייה הטורקית אגה יאפי (Ege Yapı), והוא נוגע להקמת מתחם חדש שיכלול 174 וילות בחלקידיקי.\n\nהפרויקט החדש נקרא וינדהם רזידנסס גראקיני חלקידיקי (Wyndham Residences Gerakini Halkidiki). ההסכם נחתם בחודש נובמבר, והוא משלב בין בעלות פרטית על וילות לבין שירותי אירוח וניהול מלונאי מקצועיים לרווחת הדיירים והאורחים.\n\n## מיקום והשירותים במתחם החדש\n\nהווילות החדשות יוקמו במרחק של כ-400 מטרים מחוף גראקיני הזוכה בדגל כחול, ובמרחק נסיעה של כשעה בלבד משדה התעופה הבינלאומי של סלוניקי. המתחם יכלול 174 וילות מרוהטות במלואן שיימכרו במודל מפתח (turnkey).\n\nהרוכשים יהיו מחויבים להשכיר את הווילות בחזרה למפעיל כחלק מתוכנית השכרה מנוהלת, המאפשרת להפיק הכנסה משכירות בהתאם לתנאי התוכנית. תשתית האירוח המשותפת תכלול שירותי ניקיון, קונסיירז' ותחזוקה, לצד גישה למערכות השיווק והנאמנות הגלובליות של רשת וינדהם.\n\n## האסטרטגיה של וינדהם בצפון יוון וביתר המדינה\n\nמהלך זה מצטרף לשאיפה של וינדהם לשלוש את היקף הפעילות שלה ביוון, לאחר שבשנים האחרונות זיהתה פוטנציאל משמעותי בדירות שירות ובמגורים ממותגים. בחודש ספטמבר האחרון פתחה הרשת את מתחם וינדהם רזידנסס פיראוס מרינה זיאס, שהביא את סך הנכסים של הקבוצה ביוון ל-15 נכסים שונים.\n\nהפרויקט החדש בחלקידיקי מיועד לקהל יעד של קונים יוונים ובינלאומיים כאחד, המחפשים איכות חיים גבוהה לצד ניהול מקצועי של הנכס. נכון לעכשיו, שווי ההשקעה הכולל ומועד פתיחת המתחם טרם פורסמו על ידי החברות.\n\n## שאלות נפוצות\n\n**איפה מוקם פרויקט הוילות החדש של וינדהם?**\nהמתחם מוקם בחלקידיקי, במרחק של כ-400 מטרים מחוף גראקיני וכשעה נסיעה משדה התעופה של סלוניקי.\n\n**האם רוכשי הוילות מחויבים להשתתף בתוכנית השכרה?**\nכן, במסגרת מודל הבעלות, הרוכשים נדרשים להשכיר את הווילות בחזרה למפעיל כחלק מתוכנית שכירות מנוהלת.\n\n**כמה נכסים יש לרשת וינדהם ביוון נכון להיום?**\nהרשת מפעילה כ-15 נכסים ברחבי יוון, כולל מתחמי מגורים ממותגים."
         },
         "en": {
-          "title": "Traffic restrictions in central Athens for Polytechnic Uprising anniversary",
-          "seoTitle": "Athens Traffic Restrictions: Polytechnic Anniversary",
-          "seoDesc": "Temporary traffic restrictions and road closures in central Athens from Sunday to Wednesday due to the 53rd Polytechnic Uprising anniversary events.",
+          "title": "Wyndham Signs Agreement for 174 Branded Villas in Halkidiki",
+          "seoTitle": "Halkidiki Real Estate: Wyndham Signs 174 Branded Villas Deal",
+          "seoDesc": "Wyndham Hotels & Resorts expands in Greece with a new 174-villa branded residences development in Halkidiki through a partnership with Ege Yapı.",
           "keywords": [
-            "Athens traffic",
-            "Athens road closures",
-            "Polytechnic anniversary",
-            "Athens transport",
-            "Greece news"
+            "Greece real estate",
+            "Halkidiki villas",
+            "Wyndham Greece",
+            "property investment Greece",
+            "Ege Yapı"
           ],
-          "dek": "Central Athens will implement temporary traffic restrictions and street closures from Sunday through Wednesday to mark the 53rd anniversary of the Polytechnic Uprising.",
+          "dek": "Turkish developer Ege Yapı partners with Wyndham Hotels & Resorts to develop 174 branded villas featuring resort-style management in Halkidiki.",
           "tldr": [
-            "Traffic restrictions will run from Sunday, November 15, until Wednesday, November 18, 2026.",
-            "Road closures and parking bans will affect central Athens streets and major avenues gradually.",
-            "Bus and trolleybus routes will be modified according to the Athens road transport operator."
+            "Wyndham signed a deal for 174 branded villas in Halkidiki.",
+            "The project is developed in partnership with Turkish firm Ege Yapı.",
+            "Units combine private ownership with managed hospitality services."
           ],
-          "means": "Visitors and residents in Athens should anticipate traffic delays and altered public transport routes during these dates. It is advisable to avoid driving in the city center, rely on walking or official updates, and check local announcements regarding potential short-term metro station closures.",
-          "body": "## Traffic restrictions for the 53rd anniversary\n\nTemporary traffic restrictions will be implemented across central Athens starting Sunday, November 15, through Wednesday, November 18, 2026. The measures are part of the events marking the 53rd anniversary of the 1973 Athens Polytechnic School Uprising against the military dictatorship.\n\nAccording to Greek Police, stopping and parking will be prohibited, and roads will close gradually depending on traffic conditions, starting at 06:00 on Sunday until 06:00 on Wednesday. Motorists are urged to avoid parking near the designated event locations to prevent further disruption.\n\n## Affected streets and major avenues\n\nInitial restrictions will affect streets surrounding the Athens Polytechnic School on Patision Avenue next to the Archaeological Museum, including Patission, Stournari, Tositsa, and Exarchia Square. On Tuesday, November 17, closures will extend to Panepistimiou, Stadiou, Akadimias, Vasilissis Sofias, and Alexandras avenues, as well as Syntagma and Omonia squares, and sections of Kifisias, Mesogeion, and Syngrou avenues.\n\nOn Tuesday, November 17, parking restrictions on these additional roads will begin at 06:00, while road closures will start gradually around midday and remain in place until the events conclude.\n\n## Changes to public transport and police recommendations\n\nBus and trolleybus routes and stops will be modified following a decision by OSY, the Athens road transport operator. The Attica Traffic Police Directorate has planned additional measures to assist traffic flow in the wider city center.\n\nPolice strongly urge motorists to avoid driving or parking near event venues, along the planned march route, and around the US Embassy from November 15 to 17. Additionally, police may close central metro stations to the public during the events, with trains passing through without halting.\n\n## FAQ\n\n**Will public transport operate normally in central Athens?**\nBus and trolleybus routes and stops will be modified according to decisions by the Athens road transport operator.\n\n**Where will the initial road closures take place?**\nRestrictions will begin around the Athens Polytechnic School on Patision Avenue and nearby streets starting Sunday, November 15.\n\n**What should drivers do during these days?**\nPolice advise motorists to avoid driving or parking near event venues, march routes, and the US Embassy in central Athens."
+          "means": "Looking at Greek real estate investments? Branded residences combining private ownership with professional rental programs require reviewing management terms and expected returns. Consult with professional advisors before making any financial decisions.",
+          "body": "## Wyndham Expands Branded Residences Portfolio in Greece\n\nWyndham Hotels & Resorts is further expanding its footprint in Greece through a new agreement with Turkish real estate developer Ege Yapı. The deal focuses on the development of 174 branded villas in the region of Halkidiki.\n\nAnnounced recently, the project is named Wyndham Residences Gerakini Halkidiki. It combines private property ownership with professional hospitality and management services, marking another milestone for Ege Yapı in its international expansion.\n\n## Project Location and Services in Halkidiki\n\nThe development will be situated approximately 400 meters away from the Blue Flag-certified Gerakini Beach. Additionally, the location is about a one-hour drive from Thessaloniki International Airport.\n\nThe project will consist of 174 fully furnished villas delivered on a turnkey basis. According to the ownership structure, buyers will be required to lease their villas back to the operator to be included in a professionally managed rental program, offering a chance to generate rental income.\n\nResidents and guests will benefit from shared hospitality infrastructure, including concierge services, housekeeping, and maintenance. The properties will also leverage Wyndham's global distribution and loyalty programs.\n\n## Growth Strategy in the Greek Market\n\nThis partnership follows Wyndham's ongoing strategy to expand its portfolio across Greece, targeting leisure destinations where travellers and owners seek managed residential offerings. Earlier openings, such as Wyndham Residences Piraeus Marina Zeas, brought the group's Greek portfolio to 15 properties.\n\nThe Halkidiki development aims to attract both domestic and international buyers. Financial details regarding the total investment value and the official opening date have not yet been disclosed by the companies.\n\n## FAQ\n\n**Where is the new Wyndham residences project located?**\nThe development is situated in Halkidiki, about 400 meters from Gerakini Beach and around an hour from Thessaloniki International Airport.\n\n**Are villa owners required to join a rental program?**\nYes, buyers must lease their villas back to the operator for inclusion in a professionally managed rental program.\n\n**How many properties does Wyndham currently operate in Greece?**\nThe hotel group operates a portfolio of 15 properties across Greece, including branded residences."
         }
       },
-      "text": "Traffic restrictions in central Athens due to Students’ Uprising anniversary\n FEATURED Society Very Mix \n November 13, 2026 \n 1 min. read \n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n Temporary traffic restrictions will be implemented in central Athens from Sunday, November 15, to Wednesday, November 18, for events marking the 53rd anniversary of the 1973 Athens Polytechnic School Uprising against Greece’s military dictatorship.\n According to Greek Police, stopping and parking will be prohibited and roads will be closed gradually, depending on traffic conditions, from 06:00 on Sunday, November 15, until 06:00 on Wednesday, November 18, 2026.\n Restrictions will affect streets around the Athens Polytechnic School on Patision Avenue next to the Archaeological Museum, including Patission, Stournari, Tositsa and Exarchia Square. On November 17, traffic will be halted and extend to Panepistimiou, Stadiou, Akadimias, Vasilissis Sofias and Alexandras avenues, Syntagma and Omonia squares, as well as sections of Kifisias, Mesogeion and Syngrou avenues in central Athens.\n On Tuesday, November 17, stopping and parking restrictions on the additional roads will take effect at 06:00, while road closures will begin gradually around midday and remain in place until the events conclude.\nBus and trolleybus routes and stops will also be modified, according to a decision by OSY, the Athens road transport operator.\n The Attica Traffic Police Directorate has planned additional measures to facilitate traffic in the wider city center.\n Police are urging motorists to avoid driving or parking near the event venues, along the planned march route, around the US Embassy and in the wider city center from November 15 to 17 to prevent further traffic disruption.\n KTG note : Keep in mind that during such events also Metro stations in central Athens are being closed to public and trains go through without halting. Closure hours are normally announced by Police a day earlier.\n Share\n Facebook\n Twitter\n Pinterest\n WhatsApp\n Linkedin\n Email\n Tags \n Anniversary \n Athens \n demonstrations \n Nov 2026 \n restrictions \n traffic \n LEAVE A REPLY Cancel reply \n Popular News\n Sahara dust and southerly winds up to 8 Beaufort to affect Greece \n FEATURED \n November 12, 2026 \n Minister resigns over his daughter’s controversial university entry \n FEATURED \n November 12, 2026 \n Dozens of foreigners’ deaths go undetected in Greece, Oxford University researchers say \n FEATURED \n November 12, 2026 \n Fraudster ring with over 200 shell companies, dozens of straw men busted in N. Greece \n FEATURED \n November 11, 2026 \n Athens to switch on its Christmas lights on Nov. 24 \n FEATURED \n November 12, 2026 \n We want your opinion\n Polls \n &nbsp;Loading ...\n Weather Greece Live\n Find us\n Facebook \n RSS \n Twitter \n Latest News\n Restoration of the Roman Baths in Eretria, Evia \n November 13, 2026 \n Weightlifting coach arrested for supplying athletes with banned substances \n November 13, 2026 \n Microsoft outage: No serious problems in Greek public sector \n November 13, 2026 \n War of “continental shelf” between Greece & Turkey accompany GSI mission vessel \n November 12, 2026 \n Sahara dust and southerly winds up to 8 Beaufort to affect Greece \n November 12, 2026 \n Athens to switch on its Christmas lights on Nov. 24 \n November 12, 2026",
+      "text": "Wyndham Signs Deal for 174 Branded Villas in Halkidiki | GTP Headlines \n connect with us\r\nGreece's latest tourism industry news by Greek Travel Pages \n-->\r\n-->\n — Main Menu — Home \n Industry Sectors » - Hospitality \n - Aviation \n - Sea Tourism - - Ferries \n - Land Transportation \n - Travel Operators \n - Marketplace \n - Technology \n - MICE \n - Culture - - Top Archaeological Sites \n - Gastronomy \n - More… - - Brief News \n - - Tourism Education \n - - Niche Markets \n - - Laws, Regulations & Policy - - - Greek Laws \n - - Trade Associations – Gov – Org \n Covid-19 » - Timeline \n - Restart \n - Greek Hotels Reopening \n - Impact \n - Measures \n - Support \n - Guidance \n - Solidarity \n - The Day After \n - Local Actions \n - Τουρισμος \n Investments » - Investment News \n - Tenders \n People » - Interviews \n - Opinions - - Thought Leaders 2026 \n - - Thought Leaders 2024 \n - - Thought Leaders 2023 \n - - Thought Leaders 2022 \n - Business Talk \n - New faces \n - Recruitments \n - Women in Tourism - - 2024 – International Women’s Day \n - - 2021 – International Women’s Day \n - - 2018 – International Women’s Day \n Destinations » - Athens \n - Northern Greece \n Event News » - Events - - Sports \n - Calendar of events \n - Awards - - Greek Hospitality Awards \n - - Tourism Awards 2019 \n - Travel Exhibitions Specials - - WTM London 2026 Special \n - - WTM London 2025 Special \n - - WTM London 2024 Special \n - - WTM London 2023 Special \n - - WTM London 2022 Special \n - - WTM London 2018 Special \n - - WTM London 2019 Special \n - - WTM London 2017 Special \n - - ITB Berlin 2024 Special \n - - ITB Berlin 2023 Special \n - - ITB Berlin 2019 Special \n - - ITB Berlin 2018 Special \n - - ITB Berlin 2017 Special \n - - Philoxenia 2014 Special \n - - 100% Hotel Show \n Ενημερωση \n gtp Network » - gtp.gr \n - GTP Careers in Tourism \n - GTP Travel Offers - - in English \n - - in Greek \n - About GTP \n - GTP eBook \n - GTP Ferry Connections \n Home \n Industry Sectors » \n Hospitality \n Aviation \n Sea Tourism \n Ferries \n Land Transportation \n Travel Operators \n Marketplace \n Technology \n MICE \n Culture \n Top Archaeological Sites \n Gastronomy \n More… \n Brief News \n Tourism Education \n Niche Markets \n Laws, Regulations & Policy \n Greek Laws \n Trade Associations – Gov – Org \n Covid-19 » \n Timeline \n Restart \n Greek Hotels Reopening \n Impact \n Measures \n Support \n Guidance \n Solidarity \n The Day After \n Local Actions \n Τουρισμος \n Investments » \n Investment News \n Tenders \n People » \n Interviews \n Opinions \n Thought Leaders 2026 \n Thought Leaders 2024 \n Thought Leaders 2023 \n Thought Leaders 2022 \n Business Talk \n New faces \n Recruitments \n Women in Tourism \n 2024 – International Women’s Day \n 2021 – International Women’s Day \n 2018 – International Women’s Day \n Destinations » \n Athens \n Northern Greece \n Event News » \n Events \n Sports \n Calendar of events \n Awards \n Greek Hospitality Awards \n Tourism Awards 2019 \n Travel Exhibitions Specials \n WTM London 2026 Special \n WTM London 2025 Special \n WTM London 2024 Special \n WTM London 2023 Special \n WTM London 2022 Special \n WTM London 2018 Special \n WTM London 2019 Special \n WTM London 2017 Special \n ITB Berlin 2024 Special \n ITB Berlin 2023 Special \n ITB Berlin 2019 Special \n ITB Berlin 2018 Special \n ITB Berlin 2017 Special \n Philoxenia 2014 Special \n 100% Hotel Show \n Ενημερωση \n gtp Network » \n gtp.gr \n GTP Careers in Tourism \n GTP Travel Offers \n in English \n in Greek \n About GTP \n GTP eBook \n GTP Ferry Connections \n Wyndham Signs Deal for 174 Branded Villas in Halkidiki \n Posted On 13 Nov 2026 \n By : Nikos Krinis \n Comment: 0 \n Tag: Branded Residences , c83417c , Ege Yapı , Gerakini , Greek tourism , Halkidiki , hospitality investment , hotel franchising , İnanç Kabadayı , real estate development , Vassilis Themelidis , Wyndham Hotels & Resorts , Wyndham Residences Gerakini Halkidiki \n 0 shares \n An impression of Wyndham Residences Gerakini Halkidiki, a 174-villa development combining private property ownership with resort-style facilities and professionally managed hospitality services.\n Wyndham Hotels & Resorts is expanding its branded residences portfolio in Greece through a franchise agreement with Turkish real estate developer Ege Yapı for a 174-villa development in Halkidiki .\n Announced on November 12, the agreement concerns Wyndham Residences Gerakini Halkidiki , a project combining private villa ownership with professional hospitality services.\n The development marks a step in the international expansion of Ege Yapı, a real estate development and construction company founded in 2006. Its projects span more than 2 million square meters of construction area across the residential, hospitality, commercial and education sectors.\n “Wyndham Residences Gerakini Halkidiki represents our ambition to develop distinctive projects in international markets that combine strong destinations with professionally managed hospitality offerings,” said İnanç Kabadayı , chairman of the board of directors of Ege Yapı.\n A 174-villa development in Halkidiki \n Located approximately 400 meters from Blue Flag-certified Gerakini Beach and around one hour from Thessaloniki International Airport , the development will comprise 174 fully furnished villas offered on a turnkey basis.\n Under the ownership model, buyers will be required to lease their villas back to the operator for inclusion in a professionally managed rental program, providing an opportunity to earn rental income under the program’s terms.\n The development will feature shared hospitality infrastructure and services including housekeeping, concierge and maintenance, while benefiting from Wyndham’s global distribution, marketing and loyalty platforms.\n The project targets both Greek and international buyers.\n An impression of the residential units at Wyndham Residences Gerakini Halkidiki, featuring contemporary Mediterranean architecture with private terraces, balconies and landscaped outdoor areas.\n Branded residences drive Wyndham’s Greek expansion \n The agreement comes a year after Wyndham announced plans to triple its Greek portfolio , identifying branded residences and serviced apartments as key drivers of growth.\n The hotel group had already outlined its interest in expanding into secondary Greek destinations in 2024, with a focus on developments combining residential ownership and hospitality services.\n More recently, the opening of Wyndham Residences Piraeus Marina Zeas in September 2026 brought the group’s Greek portfolio to 15 properties , including branded residences.\n “We see significant potential for branded residences in Greece, particularly in established leisure destinations where owners and travellers are looking for professionally managed residential hospitality offerings without compromising on quality or service,” said Vassilis Themelidis , senior regional director for South and East Europe at Wyndham Hotels & Resorts.\n One of the world’s largest hotel franchising companies, Wyndham operates a portfolio of 25 brands , with approximately 8,500 hotels across 100 countries. Its Wyndham Rewards loyalty program has approximately 129 million enrolled members worldwide.\n The investment value and expected opening date of the Halkidiki development have not been disclosed.\n Follow GTP Headlines on Google News to keep up to date with all the latest on tourism and travel in Greece. \n About the Author\nNikos is Greek-American born in New York, USA, and has lived in Greece for over 30 years. He is the managing editor of Greece's leading monthly travel and tourism guide, the Greek Travel Pages (GTP) since June 2008 and of news site GTP Headlines since its launch in September 2012. Nikos has also served as international press officer for the City of Athens and for the mayor. He has a degree in Mass Media and Communications, specializing in Journalism. Nikos is a native English speaker and speaks Greek fluently.\n Previous Story\n Greece Boosts Year-Round Skiing with €10 Million Lailias Upgrade \n Add your comment Cancel reply \n Join our Newsletter\n Join our GTP Headlines free daily newsletter\n 44.8k Followers \n Facebook \n 29.6k Followers \n X (formerly Twitter) \n 25.3k Followers \n LinkedIn \n 7.7k Followers \n Instagram \n 2.2k Followers \n Pinterest \n 110k Total \n Newsletter\n Signup to receive our daily travel-tourism industry newsletter.\n CLICK HERE TO SIGN UP \n SUBSCRIBE TO RSS\n https://news.gtp.gr/feed/ \n CONTRIBUTE\n Guest posts are welcome. Read the editorial guidelines here.\n Advertise\n GTP Headlines Media Kit \n Contact Details\n Greek Travel Pages,\n6, Psylla str. Athens GR 10557\nCall center: +30 210 324 7511\n CONTACT FORM \n Copyright Notice\n Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited . Excerpts of texts published in this page and links may be used, provided that full and clear credit is given to Greek Travel Pages – gtp.gr and / or GTP Headlines - news.gtp.gr with appropriate and specific direction (hyperlink) to the original content. All photographs appearing on this site are not to be downloaded or reproduced in any way, without the prior written permission of the copyright owner.\n About Us\n The team | About GTP Headlines \n ΤΑΥΤΟΤΗΤΑ \n Ιδιοκτήτρια Εταιρεία &\nΔικαιούχος Ονόματος:\nΔιεθνείς Εκδόσεις ΕΠΕ\nΑΦΜ: 095083253,\nΔΟΥ ΚΕΦΟΔΕ Αττικής\nΕταίρος (≥25%), Νόμιμος Εκπρόσωπος, Διευθύντρια & Διαχειρ. Ιστοσελίδας: Μαρία Θεοφανοπούλου\nΔιευθυντής Σύνταξης: Νίκος Κρινής\nΔικαιούχος Ονόματος: Διεθνείς Εκδόσεις ΕΠΕΑριθμός Πιστοποίησης Μ.Η.Τ.: 252115 \n Search\n Archives\n Archives \n Select Month \n November 2026 &nbsp;(105) \n October 2026 &nbsp;(214) \n September 2026 &nbsp;(222) \n August 2026 &nbsp;(155) \n July 2026 &nbsp;(228) \n June 2026 &nbsp;(219) \n May 2026 &nbsp;(197) \n April 2026 &nbsp;(191) \n March 2026 &nbsp;(229) \n February 2026 &nbsp;(187) \n January 2026 &nbsp;(174) \n December 2025 &nbsp;(184) \n November 2025 &nbsp;(220) \n October 2025 &nbsp;(215) \n September 2025 &nbsp;(206) \n August 2025 &nbsp;(129) \n July 2025 &nbsp;(212) \n June 2025 &nbsp;(203) \n May 2025 &nbsp;(205) \n April 2025 &nbsp;(208) \n March 2025 &nbsp;(195) \n February 2025 &nbsp;(209) \n January 2025 &nbsp;(180) \n December 2024 &nbsp;(186) \n November 2024 &nbsp;(241) \n October 2024 &nbsp;(221) \n September 2024 &nbsp;(211) \n August 2024 &nbsp;(154) \n July 2024 &nbsp;(227) \n June 2024 &nbsp;(201) \n May 2024 &nbsp;(200) \n April 2024 &nbsp;(226) \n March 2024 &nbsp;(204) \n February 2024 &nbsp;(204) \n January 2024 &nbsp;(195) \n December 2023 &nbsp;(167) \n November 2023 &nbsp;(221) \n October 2023 &nbsp;(256) \n September 2023 &nbsp;(214) \n August 2023 &nbsp;(158) \n July 2023 &nbsp;(197) \n June 2023 &nbsp;(204) \n May 2023 &nbsp;(220) \n April 2023 &nbsp;(169) \n March 2023 &nbsp;(243) \n February 2023 &nbsp;(199) \n January 2023 &nbsp;(201) \n December 2022 &nbsp;(179) \n November 2022 &nbsp;(231) \n October 2022 &nbsp;(202) \n September 2022 &nbsp;(191) \n August 2022 &nbsp;(172) \n July 2022 &nbsp;(199) \n June 2022 &nbsp;(250) \n May 2022 &nbsp;(225) \n April 2022 &nbsp;(211) \n March 2022 &nbsp;(249) \n February 2022 &nbsp;(215) \n January 2022 &nbsp;(199) \n December 2021 &nbsp;(229) \n November 2021 &nbsp;(267) \n October 2021 &nbsp;(244) \n September 2021 &nbsp;(255) \n August 2021 &nbsp;(214) \n July 2021 &nbsp;(251) \n June 2021 &nbsp;(249) \n May 2021 &nbsp;(257) \n April 2021 &nbsp;(257) \n March 2021 &nbsp;(304) \n February 2021 &nbsp;(246) \n January 2021 &nbsp;(218) \n December 2020 &nbsp;(245) \n November 2020 &nbsp;(264) \n October 2020 &nbsp;(291) \n September 2020 &nbsp;(274) \n August 2020 &nbsp;(215) \n July 2020 &nbsp;(279) \n June 2020 &nbsp;(305) \n May 2020 &nbsp;(299) \n April 2020 &nbsp;(280) \n March 2020 &nbsp;(305) \n February 2020 &nbsp;(243) \n January 2020 &nbsp;(215) \n December 2019 &nbsp;(195) \n November 2019 &nbsp;(289) \n October 2019 &nbsp;(241) \n September 2019 &nbsp;(222) \n August 2019 &nbsp;(183) \n July 2019 &nbsp;(224) \n June 2019 &nbsp;(209) \n May 2019 &nbsp;(236) \n April 2019 &nbsp;(226) \n March 2019 &nbsp;(233) \n February 2019 &nbsp;(242) \n January 2019 &nbsp;(214) \n December 2018 &nbsp;(186) \n November 2018 &nbsp;(297) \n October 2018 &nbsp;(276) \n September 2018 &nbsp;(216) \n August 2018 &nbsp;(214) \n July 2018 &nbsp;(240) \n June 2018 &nbsp;(251) \n May 2018 &nbsp;(262) \n April 2018 &nbsp;(234) \n March 2018 &nbsp;(277) \n February 2018 &nbsp;(245) \n January 2018 &nbsp;(220) \n December 2017 &nbsp;(197) \n November 2017 &nbsp;(300) \n October 2017 &nbsp;(264) \n September 2017 &nbsp;(271) \n August 2017 &nbsp;(216) \n July 2017 &nbsp;(224) \n June 2017 &nbsp;(268) \n May 2017 &nbsp;(263) \n April 2017 &nbsp;(200) \n March 2017 &nbsp;(232) \n February 2017 &nbsp;(194) \n January 2017 &nbsp;(191) \n December 2016 &nbsp;(194) \n November 2016 &nbsp;(285) \n October 2016 &nbsp;(203) \n September 2016 &nbsp;(226) \n August 2016 &nbsp;(175) \n July 2016 &nbsp;(191) \n June 2016 &nbsp;(211) \n May 2016 &nbsp;(202) \n April 2016 &nbsp;(204) \n March 2016 &nbsp;(224) \n February 2016 &nbsp;(195) \n January 2016 &nbsp;(164) \n December 2015 &nbsp;(190) \n November 2015 &nbsp;(203) \n October 2015 &nbsp;(224) \n September 2015 &nbsp;(186) \n August 2015 &nbsp;(137) \n July 2015 &nbsp;(234) \n June 2015 &nbsp;(213) \n May 2015 &nbsp;(212) \n April 2015 &nbsp;(183) \n March 2015 &nbsp;(199) \n February 2015 &nbsp;(162) \n January 2015 &nbsp;(177) \n December 2014 &nbsp;(183) \n November 2014 &nbsp;(206) \n October 2014 &nbsp;(160) \n September 2014 &nbsp;(155) \n August 2014 &nbsp;(137) \n July 2014 &nbsp;(197) \n June 2014 &nbsp;(174) \n May 2014 &nbsp;(205) \n April 2014 &nbsp;(151) \n March 2014 &nbsp;(154) \n February 2014 &nbsp;(161) \n January 2014 &nbsp;(173) \n December 2013 &nbsp;(134) \n November 2013 &nbsp;(174) \n October 2013 &nbsp;(178) \n September 2013 &nbsp;(182) \n August 2013 &nbsp;(113) \n July 2013 &nbsp;(192) \n June 2013 &nbsp;(158) \n May 2013 &nbsp;(162) \n April 2013 &nbsp;(188) \n March 2013 &nbsp;(151) \n February 2013 &nbsp;(107) \n January 2013 &nbsp;(110) \n December 2012 &nbsp;(95) \n November 2012 &nbsp;(119) \n October 2012 &nbsp;(105) \n September 2012 &nbsp;(70) \n August 2012 &nbsp;(31) \n July 2012 &nbsp;(22) \n June 2012 &nbsp;(28) \n May 2012 &nbsp;(31) \n April 2012 &nbsp;(26) \n March 2012 &nbsp;(26) \n February 2012 &nbsp;(27) \n January 2012 &nbsp;(22) \n December 2011 &nbsp;(16) \n November 2011 &nbsp;(32) \n October 2011 &nbsp;(28) \n September 2011 &nbsp;(32) \n August 2011 &nbsp;(25) \n July 2011 &nbsp;(29) \n June 2011 &nbsp;(22) \n May 2011 &nbsp;(25) \n April 2011 &nbsp;(25) \n March 2011 &nbsp;(21) \n February 2011 &nbsp;(26) \n January 2011 &nbsp;(25) \n December 2010 &nbsp;(22) \n November 2010 &nbsp;(22) \n October 2010 &nbsp;(25) \n September 2010 &nbsp;(27) \n August 2010 &nbsp;(19) \n July 2010 &nbsp;(20) \n June 2010 &nbsp;(26) \n May 2010 &nbsp;(11) \n April 2010 &nbsp;(22) \n March 2010 &nbsp;(23) \n February 2010 &nbsp;(25) \n January 2010 &nbsp;(10) \n December 2009 &nbsp;(13) \n November 2009 &nbsp;(20) \n October 2009 &nbsp;(26) \n September 2009 &nbsp;(27) \n August 2009 &nbsp;(29",
       "issues": [],
       "el": {
-        "title": "Κυκλοφοριακές ρυθμίσεις στο κέντρο της Αθήνας για την επέτειο του Πολυτεχνείου",
-        "dek": "Προσωρινές κυκλοφοριακές ρυθμίσεις και κλείσιμο δρόμων θα εφαρμοστούν στο κέντρο της Αθήνας από την Κυριακή έως την Τετάρτη, στο πλαίσιο των εκδηλώσεων για την 53η επέτειο από την εξέγερση του Πολυτεχνείου.",
+        "title": "Η Wyndham υπογράφει συμφωνία για 174 επώνυμες βίλες στη Χαλκιδική",
+        "dek": "Ο τουρκικός κατασκευαστικός όμιλος Ege Yapı συνεργάζεται με την Wyndham Hotels & Resorts για την ανάπτυξη 174 επώνυμων βιλών με υπηρεσίες διαχείρισης τύπου θέρετρου στη Χαλκιδική.",
         "tldr": [
-          "Οι κυκλοφοριακές ρυθμίσεις θα ισχύσουν από την Κυριακή 15 Νοεμβρίου έως την Τετάρτη 18 Νοεμβρίου 2026.",
-          "Οι απαγορεύσεις στάσης και στάθμευσης και το κλείσιμο δρόμων θα επηρεάσουν σταδιακά δρόμους και κεντρικές λεωφόρους στο κέντρο της Αθήνας.",
-          "Τα δρομολόγια των λεωφορείων και των τρόλεϊ θα τροποποιηθούν σύμφωνα με τον Οργανισμό Αστικών Συγκοινωνιών Αθηνών."
+          "Η Wyndham υπέγραψε συμφωνία για 174 επώνυμες βίλες στη Χαλκιδική.",
+          "Το έργο αναπτύσσεται σε συνεργασία με την τουρκική εταιρεία Ege Yapı.",
+          "Οι μονάδες συνδυάζουν την ιδιωτική ιδιοκτησία με υπηρεσίες διαχειριζόμενης φιλοξενίας."
         ]
       },
       "notified": true
@@ -1927,12 +1930,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-13T21:38:22.722Z",
+      "at": "2026-11-14T01:44:36.377Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-13T21:38:23.639Z",
+      "at": "2026-11-14T01:44:37.451Z",
       "items": 5
     },
     "civilprotection": {
@@ -1943,27 +1946,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-13T21:38:25.157Z",
+      "at": "2026-11-14T01:44:38.647Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-13T21:38:25.560Z",
+      "at": "2026-11-14T01:44:38.731Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-13T21:38:26.596Z",
+      "at": "2026-11-14T01:44:39.812Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-13T21:38:27.484Z",
-      "items": 4
+      "at": "2026-11-14T01:44:40.769Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-13T21:38:28.318Z",
+      "at": "2026-11-14T01:44:41.626Z",
       "items": 10
     },
     "toi-greece": {
@@ -1974,22 +1977,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-13T21:38:28.954Z",
+      "at": "2026-11-14T01:44:42.176Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-13T21:38:29.260Z",
-      "items": 13
+      "at": "2026-11-14T01:44:42.214Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-13T21:38:29.335Z",
-      "items": 6
+      "at": "2026-11-14T01:44:42.471Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T21:38:29.562Z",
+      "at": "2026-11-14T01:44:42.679Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1999,12 +2002,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-13T21:38:24.161Z",
+      "at": "2026-11-14T01:44:37.677Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-13T21:38:30.413Z",
+      "at": "2026-11-14T01:44:43.318Z",
       "items": 0
     },
     "hcg": {
@@ -2015,129 +2018,63 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-13T21:38:31.677Z",
+      "at": "2026-11-14T01:44:45.021Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-13T21:38:31.896Z",
+      "at": "2026-11-14T01:44:45.206Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-13T21:38:32.053Z",
+      "at": "2026-11-14T01:44:45.385Z",
       "items": 5
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-13T21:38:32.350Z",
+      "at": "2026-11-14T01:44:45.638Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-13T21:38:32.704Z",
-      "items": 1
+      "at": "2026-11-14T01:44:46.011Z",
+      "items": 2
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-13T21:38:33.074Z",
-      "items": 4
+      "at": "2026-11-14T01:44:46.376Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-13",
-    "count": 4,
+    "date": "2026-11-14",
+    "count": 1,
     "published": [
       {
-        "slug": "greece-severe-weather-heavy-rain-temperature-drop",
-        "title": "↻ Weather Reversal in Greece: Heavy Storms, Strong Winds and Sharp Temperature Drop",
-        "at": "2026-11-13T02:12:03+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "earthquake-crete-november-2026",
-        "title": "Magnitude 5.1 Earthquake Strikes Southern Greece",
-        "at": "2026-11-13T03:14:09+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-israel-military-training-2026",
-        "title": "Greek soldiers train alongside Israeli infantry units",
-        "at": "2026-11-13T09:50:06+02:00",
+        "slug": "greece-fake-sms-fine-scam-2026",
+        "title": "Fake traffic fine SMS scam targets drivers in Greece",
+        "at": "2026-11-14T03:44:25+02:00",
         "section": "israelis"
-      },
-      {
-        "slug": "sahara-dust-and-gale-winds-in-greece",
-        "title": "↻ Rain, African Dust and Strong Winds Forecast Across Greece",
-        "at": "2026-11-13T09:51:14+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "earthquake-crete-november-2026",
-        "title": "↻ Magnitude 4.8 Earthquake Strikes South of Crete",
-        "at": "2026-11-13T09:51:28+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "kypseli-metro-line-4-safety-concerns",
-        "title": "Athens: Safety concerns for 20 buildings in Kypseli over metro works",
-        "at": "2026-11-13T17:44:18+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "mossad-chief-washington-talks-iran",
-        "title": "Mossad Chief in Washington for Talks on Iran Policy",
-        "at": "2026-11-13T23:38:18+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greek-shops-open-sundays-december-2026",
-        "title": "Greek Shops to Open on Four Sundays Before the New Year 2026",
-        "at": "2026-11-13T23:39:31+02:00",
-        "section": "living"
       }
     ],
     "rejected": [
       {
-        "title": "Housing Drives Almost 40% of Greek Inflation as 1% Stay Levy Is Proposed",
-        "reason": "Ίδιο θέμα με «Greek inflation rises to 5.7 percent in October» – δεν γράφτηκε ξανά",
-        "at": "2026-11-13T00:12:08.088Z"
-      },
-      {
-        "title": "Χωρίς τις αισθήσεις της ανασύρθηκε η 35χρονη που έπεσε στις γραμμές του μετρό στον σταθμό «Ηλιούπολη - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Athens: Metro Line 2 service disruption» – δεν γράφτηκε ξανά",
-        "at": "2026-11-13T00:12:12.685Z"
-      },
-      {
-        "title": "Έσοδα 9,2 δισ. ευρώ από «χρυσά» ενοίκια -Σε διαρκή άνοδο τα εισοδήματα από ακίνητα - iefimerida.gr",
-        "reason": "Ίδιο θέμα με «Greece short-term rental revenue rises in report» – δεν γράφτηκε ξανά",
-        "at": "2026-11-13T15:45:29.290Z"
-      },
-      {
-        "title": "Greek Luxury Homes Draw Strong Interest from Wealthy Foreign Buyers",
-        "reason": "Ίδιο θέμα με «Greece short-term rental revenue rises in report» – δεν γράφτηκε ξανά",
-        "at": "2026-11-13T15:45:32.882Z"
+        "title": "Traffic restrictions in central Athens for Polytechnic Uprising anniversary",
+        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (27%)",
+        "at": "2026-11-14T01:44:33.491Z"
       }
     ],
     "errors": [],
-    "fb": [
-      {
-        "slug": "earthquake-crete-november-2026",
-        "at": "2026-11-13T01:14:09.255Z"
-      },
-      {
-        "slug": "greece-israel-military-training-2026",
-        "at": "2026-11-13T07:50:07.359Z"
-      },
-      {
-        "slug": "kypseli-metro-line-4-safety-concerns",
-        "at": "2026-11-13T15:44:19.557Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-13",
+      "count": 4,
+      "rejected": 4
+    },
     {
       "date": "2026-11-12",
       "count": 6,
@@ -2381,38 +2318,34 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-13T21:38:34.616Z",
-    "considered": 28,
-    "picked": 5,
+    "at": "2026-11-14T01:44:48.183Z",
+    "considered": 24,
+    "picked": 2,
     "items": [
-      "· ingr | Οι ΗΠΑ καθήλωσαν όλα τα αεροσκάφη σε όλα τα αεροδρόμιά τους λόγω «εκτάκτων αναγκών»",
-      "· ert | Καθηλώνονται όλες οι πτήσεις στις ΗΠΑ «εξαιτίας έκτακτων περιστάσεων και για λόγους ασφαλε",
-      "· ingr | Εικόνες χάους στη Νέα Ορλεάνη από ανατροπή κρουαζιερόπλοιου μετά από πρόσκρουση με δεξαμεν",
-      "· ert | ΗΠΑ: Τα συνδικάτα βάζουν όρους στην Τεχνητή Νοημοσύνη",
-      "· ingr | Βρετανία: Σε λοκντάουν αεροπορικές βάσεις που χρησιμοποιούν οι ΗΠΑ λόγω πτήσεων drones",
-      "· gct | Olympus Brings Greek Taverna Dining to Manly Wharf",
-      "· gct | Art Athina 2026 Moves to Onassis Ready With 65 Galleries",
-      "· ingr | Αγρίνιο: Ραγίζει καρδιές η μητέρα του εθελοντή πυροσβέστη Παναγιώτη Πλεξίδα – «Εσένα, γιε ",
-      "✓ gct | Fake Traffic Fine Texts Offer 50% Off to Lure Greek Drivers",
-      "· gct | Dutch Discount Chain Action Registers Greek Company in Possible Challenge to Jumbo",
-      "✓ gct | Greek Shops to Open on Four Sundays Before New Year: Full Calendar",
-      "✓ gct | Greeks Declared €9.9 Billion More Income, With €1.6 Billion More Tax Assessed",
-      "· gct | King George I Rides in Triumph Into Liberated Thessaloniki, 1912",
-      "· gct | Novak Djokovic Visits Hilandar Monastery on Mount Athos",
-      "· ingr | Έκρηξη σε διαμέρισμα πολυκατοικίας στον Πειραιά – Πυροσβεστικές δυνάμεις στο σημείο",
-      "· gn-iefimerida | Έκρηξη σε διαμέρισμα στον Πειραιά - iefimerida.gr",
-      "· ert | 41η PHILOXENIA EXPO: Νέοι ορίζοντες στη μαγειρική από την κουζίνα του… μέλλοντος",
-      "· naftemporiki | Πνινάτ Γιανάι: «Προσευχηθείτε και εσείς για τον εβραϊκό λαό, που αντιμετωπίζει ξανά αντιση",
-      "· ingr | Ισραήλ: Ο Άιζενκοτ καταγγέλλει «ρατσιστική εκστρατεία» του Νετανιάχου κατά της αραβικής με",
-      "· ert | Ανοίγει τις πύλες της η 41η Διεθνής Έκθεση Τουρισμού “PHILOXENIA EXPO”",
-      "· naftemporiki | Σεισμός τώρα 5,8 Ρίχτερ κοντά στις ακτές του Περού",
-      "· minfin | Η Ελλάδα για το μέλλον του Interreg 2028–2034 – Η συμμετοχή ως ομιλήτρια της Γενικής Γραμμ",
-      "✓ ktg | Traffic restrictions in central Athens due to Students’ Uprising anniversary",
-      "✓ gtp | Wyndham Signs Deal for 174 Branded Villas in Halkidiki",
-      "· gn-kathimerini | Εκτινάχθηκαν τα εισοδήματα από ενοίκια - Kathimerini",
-      "· gct | Greek EU Commissioner Tzitzikostas Wins World Tourism Leader Award",
-      "· gtp | Greece Boosts Year-Round Skiing with €10 Million Lailias Upgrade",
-      "· gtp | COP31: Climate Finance and Energy Transition Top the Agenda"
+      "· ingr | Η πρώτη αντίδραση του Ντόναλντ Τραμπ μετά το το χάος στον τομέα των αερομεταφορών",
+      "· gct | Terrifying Sight As Passenger Cruise Ship Sinks After Collision",
+      "· ert | Eurocontrol: Αναστέλλονται μέχρι νεωτέρας όλες οι πτήσεις από την Ευρώπη προς τις ΗΠΑ",
+      "· gct | Parliament Discusses Historic Recognition of Greek Minority in Poland",
+      "· gct | One in Two Greek Small Businesses Uses Artificial Intelligence",
+      "· gct | Greece Plans Changes to Parental Leave and Children’s Insurance",
+      "· gct | Microsoft Outage Disrupts Ticketing Services in Greece",
+      "· gct | Netherlands Humiliate Greece with 7-0 Nations League Defeat",
+      "· gct | Greece to Showcase Its Economic Success at International Forum",
+      "· ingr | ΗΠΑ: Τι σημαίνει το εθνικό «ground stop» – «Δεν πρόκειται για νέα 11η Σεπτεμβρίου»",
+      "· gct | Greece to Restore Roman Baths at Ancient Eretria",
+      "· gct | Greek PM: Greece Is at Forefront of Artificial Intelligence Strategy",
+      "· gct | Frigate Nearchos Sets Sail Under Greek Flag for Weapons Fit in Brest",
+      "· gct | Greece Officially Installs Three New Muftis in Thrace",
+      "· gct | Greece Makes Data Centres Pay Host Communities €20,000 per MW",
+      "· gct | FAA Grounds All US Departures After Air Traffic Communications Fault",
+      "✓ gct | Greece Approves €100 Athens Sites Pass for Seven-Day Visits",
+      "· gct | Greece Makes Polytechnic Gate a Protected Monument",
+      "· gn-iefimerida | Εγκρίθηκαν 29,065 εκατ. ευρώ για την αποκατάσταση των ζημιών από την κακοκαιρία του Οκτωβρ",
+      "· naftemporiki | Συναγερμός στις ΗΠΑ: Η FAA καθήλωσε όλα τα αεροσκάφη σε εθνικό επίπεδο – Βλάβη στο σύστημα",
+      "· gtp | Philoxenia-Hotelia 2026: Προς τέταρτη διαδοχική χρονιά ρεκόρ ο ελληνικός τουρισμός",
+      "· gn-kathimerini | Σύγκρουση δεξαμενόπλοιου με τουριστικό πλοίο στη Νέα Ορλεάνη (βίντεο) - Kathimerini",
+      "· gn-iefimerida | Δημοσκόπηση Marc β' μέρος: Πώς εκτιμούν οι πολίτες τα μέτρα για την ακρίβεια -«Μέτρια» η κ",
+      "✓ gtp | Wyndham Signs Deal for 174 Branded Villas in Halkidiki"
     ]
   },
   "evergreenDone": [

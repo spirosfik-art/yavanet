@@ -1,0 +1,56 @@
+{
+  "slug": "greece-fake-sms-fine-scam-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-14T03:44:25+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": null,
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/14/fake-traffic-fine-sms-scam-greece-50-discount/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/6964369/pexels-photo-6964369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A man in a black hoodie contemplating while using a smartphone, surrounded by digital screens.",
+    "credit": "Photo: Mikhail Nilov / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/man-in-black-hoodie-holding-a-smartphone-6964369/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "הודעות פיקציה ביוון: מתחזים לשוטרים ומציעים הנחה",
+    "dek": "רשויות האכיפה ביוון מזהירות מפני הודעות סמס מזויפות המודיעות על קנס מהירות שלא שולם ומציעות הנחה של 50 אחוזים בתשלום מיידי.",
+    "tldr": [
+      "הודעות סמס מתחזות למשטרה ומציעות הנחה של 50% על קנס מהירות לפי דיווחים ביוון.",
+      "הקישור בהודעות מוביל לדף פיקציה המבקש פרטי התחברות ל-TAXISnet ופרטי כרטיס אשראי.",
+      "הרשויות מבהירות ששירותים ממשלתיים אינם שולחים קישורי תשלום ישירים בהודעות טקסט."
+    ],
+    "means": "למה זה חשוב לישראלים ביוון או למי שמחזיק בתיק רשמי? תיירים ובעלי נכסים שקיבלו הודעת סמס חשודה המדווחת על קנס מתבקשים שלא ללחוץ על קישורים ולא למסור פרטים אישיים או בנקאיים, אלא לבדוק ישירות בערוצים הרשמיים.",
+    "body": "משטרת יוון וגורמי ממשל מזהירים בימים אלה מפני גל חדש של הודעות טקסט הונאה המופצות לנהגים. ההודעות טוענות כי הנמען נקנס בגין עבירת מהירות, ומציעות הנחה של 50 אחוזים אם הקנס ישולם באותו היום דרך קישור המצורף להודעה. מהרשויות נמסר כי השולח מוצג כגוף ממשלתי או כמשטרת יוון, והקישור מוביל לדף מזויף הנועד לאסוף את נתוני הכניסה למערכת TAXISnet ופרטי כרטיסי אשראי. שר הממשל הדיגיטלי, דימיטריס פאפאסטרגיו, הדגיש כי קנסות אלקטרוניים רשמיים נמסרים אך ורק לתיבה הדיגיטלית האישית של האזרח, הידועה כהתיבידה פוליטי (Thyrida Politi), או דרך יישומון Gov.gr Wallet, ואינם כוללים קישור ישיר לתשלום בגוף ההודעה. מי שמסר את פרטיו מתבקש ליצור קשר מיידי עם הבנק לחסימת כרטיסים, לעדכן את סיסמת ה-TAXISnet דרך אתר AADE הרשמי, ולדווח על המקרה ליחידת סייבר של משטרת יוון בקו החם 11188."
+  },
+  "en": {
+    "title": "Fake traffic fine SMS scam targets drivers in Greece",
+    "dek": "Greek authorities issue warnings over fraudulent text messages offering a 50 percent discount on fake speeding fines.",
+    "tldr": [
+      "Scammers are sending fake SMS messages claiming to be Greek police or government agencies.",
+      "The messages offer a 50 percent discount for paying a speeding fine the same day.",
+      "Authorities state that official fines never include direct payment links in text messages."
+    ],
+    "means": "Why this matters: Visitors and property owners in Greece should be aware of fraudulent messages impersonating official services to steal personal data and banking credentials.",
+    "body": "Greek authorities have issued a renewed warning regarding fraudulent text messages targeting drivers with fake speeding fines. According to reports, the messages claim to originate from government agencies or the Hellenic Police and offer a 50 percent discount for immediate payment. The links provided in the SMS direct recipients to counterfeit pages designed to capture TAXISnet login credentials and credit card details. Digital Governance Minister Dimitris Papastergiou clarified that genuine electronic fines are delivered exclusively to citizens' personal digital mailboxes, known as Thyrida Politi, or via the official Gov.gr Wallet application, and do not contain direct payment links. Individuals who have entered sensitive data are advised to contact their banks immediately, update their TAXISnet credentials through the official AADE portal, and report the attempt to the Hellenic Police Cyber Crime Division at 11188."
+  },
+  "meta": {
+    "itemId": "dad14f350418",
+    "imageQuery": "smartphone warning scam greece",
+    "sourceHash": "583b16234863",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-14T01:44:26.254Z",
+    "official": false
+  }
+}
