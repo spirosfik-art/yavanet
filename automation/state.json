@@ -19,19 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "230e8cab224f": 1793468417481,
-    "5acf00c8746a": 1793468417481,
-    "292fc54bc0c5": 1793468417481,
-    "19a0bd8ced68": 1793468417481,
-    "6d6a3669a26c": 1793468417481,
-    "4a85efd52eeb": 1793468417481,
-    "5d2a68b37653": 1793468417481,
-    "d1801c0631c4": 1793468417481,
-    "d3f5164b8633": 1793468417481,
-    "bb98bab170fc": 1793468417481,
-    "6dffcd0ca62a": 1793472807760,
-    "8aa27405639d": 1793472807760,
-    "1cc8e7abafaf": 1793472807760,
     "919864a569cf": 1793481981854,
     "d1a6289ba418": 1793481981854,
     "8df93181b684": 1793481981854,
@@ -1707,7 +1694,27 @@
     "5c8d2400445c": 1794675595572,
     "4725121308cf": 1794675595572,
     "97bac3550590": 1794675595572,
-    "f1a7a49af977": 1794675595572
+    "f1a7a49af977": 1794675595572,
+    "ecc80bf25f08": 1794685348600,
+    "080066225218": 1794685348600,
+    "e77889ff4c00": 1794685348600,
+    "cdd6cdcfacbb": 1794685348600,
+    "2509b3b34bd7": 1794685348600,
+    "d0ca3a45bb0a": 1794685348600,
+    "b8533265b46c": 1794685348600,
+    "60805a4df4aa": 1794685348600,
+    "a2650dfb71ea": 1794685348600,
+    "82011f0f2bb3": 1794685348600,
+    "a3a14cf0f890": 1794685348600,
+    "e008d8c5ad2f": 1794685348600,
+    "6941aa2f7f1a": 1794685348600,
+    "5a8dd761efbe": 1794685348600,
+    "09ad32ae6c5a": 1794685348600,
+    "40c0381d9cfb": 1794685348600,
+    "c9a800d3af9e": 1794685348600,
+    "cd464011e4b8": 1794685348600,
+    "8a7e77926e86": 1794685348600,
+    "0d753751de93": 1794685348600
   },
   "pending": {},
   "sourceStatus": {
@@ -1719,12 +1726,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-14T16:59:41.366Z",
+      "at": "2026-11-14T19:42:08.094Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-14T16:59:42.486Z",
+      "at": "2026-11-14T19:42:09.195Z",
       "items": 5
     },
     "civilprotection": {
@@ -1735,27 +1742,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-14T16:59:44.215Z",
+      "at": "2026-11-14T19:42:13.893Z",
       "items": 1
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-14T16:59:44.304Z",
+      "at": "2026-11-14T19:42:14.756Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-14T16:59:46.108Z",
+      "at": "2026-11-14T19:42:15.905Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-14T16:59:47.097Z",
-      "items": 2
+      "at": "2026-11-14T19:42:17.209Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-14T16:59:48.886Z",
+      "at": "2026-11-14T19:42:18.696Z",
       "items": 10
     },
     "toi-greece": {
@@ -1766,23 +1773,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-14T16:59:49.532Z",
+      "at": "2026-11-14T19:42:19.493Z",
       "items": 5
     },
     "gct": {
-      "ok": false,
-      "at": "2026-11-14T16:59:49.582Z",
-      "error": "HTTP 403",
-      "fails": 1
+      "ok": true,
+      "at": "2026-11-14T19:42:20.101Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-14T16:59:50.616Z",
+      "at": "2026-11-14T19:42:21.223Z",
       "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T16:59:50.824Z",
+      "at": "2026-11-14T19:42:21.590Z",
       "items": 10
     },
     "ynet-greece": {
@@ -1792,12 +1798,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-14T16:59:42.965Z",
+      "at": "2026-11-14T19:42:10.174Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-14T16:59:52.092Z",
+      "at": "2026-11-14T19:42:22.761Z",
       "items": 0
     },
     "hcg": {
@@ -1808,39 +1814,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-14T16:59:53.493Z",
+      "at": "2026-11-14T19:42:24.396Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-14T16:59:53.688Z",
-      "items": 1
+      "at": "2026-11-14T19:42:24.558Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-14T16:59:53.821Z",
-      "items": 5
+      "at": "2026-11-14T19:42:24.736Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-14T16:59:54.014Z",
+      "at": "2026-11-14T19:42:25.274Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-14T16:59:54.334Z",
-      "items": 5
+      "at": "2026-11-14T19:42:25.573Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-14T16:59:54.690Z",
-      "items": 6
+      "at": "2026-11-14T19:42:25.874Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-14",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "greece-fake-sms-fine-scam-2026",
@@ -1876,6 +1882,12 @@
         "slug": "microsoft-outage-greece-transport-tickets",
         "title": "Global Microsoft Outage Affects Transport E-Tickets in Greece",
         "at": "2026-11-14T17:05:31+02:00",
+        "section": "travel"
+      },
+      {
+        "slug": "athens-airport-us-flights-delays",
+        "title": "Athens: Flight delays recorded on routes to and from the US",
+        "at": "2026-11-14T21:42:49+02:00",
         "section": "travel"
       }
     ],
@@ -1914,6 +1926,10 @@
       {
         "slug": "fuel-subsidy-extension-nov-2026",
         "at": "2026-11-14T14:59:43.119Z"
+      },
+      {
+        "slug": "athens-airport-us-flights-delays",
+        "at": "2026-11-14T19:42:50.510Z"
       }
     ],
     "ig": []
@@ -2167,17 +2183,30 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-14T16:59:55.572Z",
-    "considered": 7,
-    "picked": 0,
+    "at": "2026-11-14T19:42:28.600Z",
+    "considered": 20,
+    "picked": 1,
     "items": [
-      "· ingr | «Έχουμε πει 13 φορές στον Μητσοτάκη ότι το Πυροσβεστικό Σώμα διαλύεται» – Οργή πυροσβεστών",
-      "· ingr | Τραγωδία στο Ζεφύρι: Από ασφυξία έχασαν τη ζωή τους οι δύο πυροσβέστες – Δεν σημειώθηκε κα",
-      "· ingr | Φωκίδα: Ιερόσυλοι έκαψαν εικόνες και τον εσταυρωμένο σε εξωκλήσι στα Καστέλλια – Σοκαρισμέ",
-      "· naftemporiki | Ζεφύρι: Λύγισαν οι πυροσβέστες για τον θάνατο των συναδέλφων τους – Συγκλονίζουν οι εικόνε",
-      "· naftemporiki | Γ. Κεφαλογιάννης: Βαθιά θλίψη για την απώλεια των δύο πυροσβεστών που έχασαν τη ζωή τους ε",
-      "· naftemporiki | Ζεφύρι: Πώς εκτυλίχθηκε η τραγωδία με τους 2 νεκρούς πυροσβέστες – Τι γνωρίζουμε έως τώρα",
-      "· gn-kathimerini | Μετρό: Νωρίτερα θα κλείνουν τέσσερις σταθμοί της Γραμμής 2 - Kathimerini"
+      "· naftemporiki | Το Starship της SpaceX πλησιάζει στο τέλος της 15ης δοκιμαστικής πτήσης και της προσπάθεια",
+      "· ert | Ζεφύρι: Συνελήφθησαν 34χρονη και οι δύο ανήλικες κόρες της για τη φωτιά με τους δύο νεκρού",
+      "· ingr | Τρεις συλλήψεις για τη φωτιά στο Ζεφύρι που έχασαν τη ζωή τους δύο πυροσβέστες – Είχαν αδε",
+      "· ert | Νετανιάχου: Μόνο μια κυβέρνηση εθνικής ενότητας μπορεί να εγγυηθεί την ασφάλεια του Ισραήλ",
+      "· naftemporiki | Ισραήλ: Ο Άιζενκοτ χαρακτήρισε την πρόταση Νετανιάχου για συνασπισμό ενότητας «άλλη μια επ",
+      "· naftemporiki | Τι προκάλεσε το χαοτικό μπλακάουτ στις αερομεταφορές των ΗΠΑ; Η αντικατάσταση ενός καλωδίο",
+      "· naftemporiki | Ζεφύρι: Συνελήφθησαν μητέρα και οι δύο ανήλικες κόρες της για τη φωτιά με τους νεκρούς πυρ",
+      "· naftemporiki | Δ. Κουτσούμπας: «72 να είναι οι ώρες σας» – Η ατάκα – φωτιά για το κιτ επιβίωσης",
+      "· naftemporiki | Ισραήλ: Άνοιγμα Νετανιάχου σε Άιζενκοτ για συνομιλίες «χωρίς προϋποθέσεις» και συνασπισμό ",
+      "· naftemporiki | ΗΠΑ: Ο υπουργός Μεταφορών υποδεικνύει εργολάβο της FAA ως υπεύθυνο για το χάος στις αερομε",
+      "· naftemporiki | ΚΚΕ: Να ληφθούν τώρα όλα τα απαραίτητα μέτρα για να μην θρηνήσουμε ξανά θύματα πυροσβέστες",
+      "· ingr | ΗΠΑ: Περισσότερες από 16.000 πτήσεις ακυρώθηκαν χθες Παρασκευή και σήμερα Σάββατο",
+      "· naftemporiki | ΗΠΑ: Η FAA βλέπει αποκατάσταση των πτήσεων σε εθνικό επίπεδο μέχρι το τέλος της Κυριακής",
+      "· naftemporiki | Μπορεί η τράπεζά σας να καταλάβει ότι κινδυνεύετε από άνοια πριν από τον γιατρό;",
+      "· ingr | Τραγωδία στο Ζεφύρι: Το υπόγειο «παγίδα θανάτου» για τους δύο πυροσβέστες – Εγκλωβίστηκαν ",
+      "✓ ert | Ελ. Βενιζέλος: Εξομαλύνεται η κατάσταση με τις πτήσεις από και προς ΗΠΑ – Καταγράφηκαν σημ",
+      "· gn-civilprotection | Συλλυπητήρια δήλωση Υπουργού Κλιματικής Κρίσης και Πολιτικής Προστασίας, Ευάγγελου Τουρνά ",
+      "· gn-kathimerini | ΕΔΕ για τον θάνατο των δύο πυροσβεστών στην πυρκαγιά στο Ζεφύρι - Kathimerini",
+      "· gn-iefimerida | Παρεμβάσεις για τις οικογένειες στο νέο νομοσχέδιο του ΥΠΕΚΑ: Ασφαλιστική κάλυψη των παιδι",
+      "· gtp | Philoxenia 2026: Greek Tourism on Track for Fourth Consecutive Record Year"
     ]
   },
   "evergreenDone": [
@@ -2237,6 +2266,24 @@
         "image": "https://images.pexels.com/photos/34636185/pexels-photo-34636185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "post_he": "יוון: הארכת סובסידיות הדלק עד סוף חודש נובמבר 2026\n\nמשרד הכלכלה והאוצר ומשרד הסביבה והאנרגיה ביוון הודיעו על הארכת סובסידיות הדלק.\n\nhttps://yavanet.gr/a/fuel-subsidy-extension-nov-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
         "post_en": "Greece extends fuel subsidies until November 30, 2026\n\nThe Ministry of National Economy and Finance and the Ministry of Environment and Energy announced the extension.\n\nhttps://yavanet.gr/en/a/fuel-subsidy-extension-nov-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    },
+    {
+      "slug": "athens-airport-us-flights-delays",
+      "url": "https://yavanet.gr/a/athens-airport-us-flights-delays/",
+      "at": "2026-11-14T19:42:50.510Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/athens-airport-us-flights-delays/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/athens-airport-us-flights-delays/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "אתונה: עיכובים בטיסות לארצות הברית וממנה",
+        "title_en": "Athens: Flight delays recorded on routes to and from the US",
+        "dek_he": "שיבושים נקודתיים בלוח הטיסות בנמל התעופה באתונה אלת'ריוס וניזלוס בקו הטיסות לארצות הברית. המצב בנמל התעופה החל לחזור לשגרה.",
+        "dek_en": "Schedule disruptions affected flights between Athens International Airport and New York, causing concern for connecting passengers. Operations are now returning to normal.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/5738654/pexels-photo-5738654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "אתונה: עיכובים בטיסות לארצות הברית וממנה\n\nשיבושים נקודתיים בלוח הטיסות בנמל התעופה באתונה אלת'ריוס וניזלוס בקו הטיסות לארצות הברית. המצב בנמל התעופה החל לחזור לשגרה.\n\nhttps://yavanet.gr/a/athens-airport-us-flights-delays/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Athens: Flight delays recorded on routes to and from the US\n\nSchedule disruptions affected flights between Athens International Airport and New York, causing concern for connecting passengers. Operations are now returning to normal.\n\nhttps://yavanet.gr/en/a/athens-airport-us-flights-delays/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
       }
     }
   ]
