@@ -1700,7 +1700,8 @@
     "ae015cacb3ef": 1794707297064,
     "0e3ec5675bc3": 1794707297064,
     "021094b3740e": 1794707297064,
-    "d8dfa7906da1": 1794707297064
+    "d8dfa7906da1": 1794707297064,
+    "af10d5443858": 1794711153756
   },
   "pending": {},
   "sourceStatus": {
@@ -1712,12 +1713,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-15T01:48:06.884Z",
+      "at": "2026-11-15T02:52:23.268Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-15T01:48:07.647Z",
+      "at": "2026-11-15T02:52:23.916Z",
       "items": 5
     },
     "civilprotection": {
@@ -1728,27 +1729,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-15T01:48:09.572Z",
+      "at": "2026-11-15T02:52:25.402Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-15T01:48:09.992Z",
+      "at": "2026-11-15T02:52:25.598Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-15T01:48:10.694Z",
+      "at": "2026-11-15T02:52:26.689Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-15T01:48:11.509Z",
+      "at": "2026-11-15T02:52:27.478Z",
       "items": 8
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-15T01:48:12.370Z",
+      "at": "2026-11-15T02:52:28.211Z",
       "items": 10
     },
     "toi-greece": {
@@ -1759,22 +1760,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-15T01:48:12.815Z",
+      "at": "2026-11-15T02:52:28.726Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-15T01:48:12.842Z",
+      "at": "2026-11-15T02:52:29.091Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-15T01:48:12.892Z",
-      "items": 6
+      "at": "2026-11-15T02:52:29.690Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-15T01:48:13.032Z",
+      "at": "2026-11-15T02:52:30.129Z",
       "items": 11
     },
     "ynet-greece": {
@@ -1784,12 +1785,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-15T01:48:08.453Z",
+      "at": "2026-11-15T02:52:24.580Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-15T01:48:13.669Z",
+      "at": "2026-11-15T02:52:30.687Z",
       "items": 0
     },
     "hcg": {
@@ -1800,32 +1801,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-15T01:48:14.873Z",
+      "at": "2026-11-15T02:52:31.701Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-15T01:48:15.070Z",
+      "at": "2026-11-15T02:52:31.934Z",
       "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-15T01:48:15.238Z",
+      "at": "2026-11-15T02:52:32.122Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-15T01:48:15.435Z",
-      "items": 4
+      "at": "2026-11-15T02:52:32.382Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-15T01:48:15.734Z",
-      "items": 8
+      "at": "2026-11-15T02:52:32.709Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-15T01:48:16.057Z",
+      "at": "2026-11-15T02:52:33.020Z",
       "items": 5
     }
   },
@@ -2105,19 +2106,11 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-15T01:48:17.064Z",
-    "considered": 9,
+    "at": "2026-11-15T02:52:33.756Z",
+    "considered": 1,
     "picked": 0,
     "items": [
-      "· ert | Γάζα: Η Χαμάς επιβεβαιώνει τον θάνατο διοικητή της σε ισραηλινή αεροπορική επιδρομή",
-      "· ingr | To Ισραήλ ανακοίνωσε ότι σκότωσε διοικητή της Χαμάς",
-      "· gct | British Airways Dreamliner to Dubai Declares Emergency, Diverts to Athens",
-      "· gct | Gerapetritis: French Research Ship Operating Only Under Greek Licence and NAVTEX",
-      "· ert | SpaceX: Ιστορικό ορόσημο για το Starship – Επέστρεψε και προσδέθηκε με επιτυχία στους μετα",
-      "· gct | Vandals Burn Holy Icons Inside Church in Fokida, Greece",
-      "· gct | gov.gr’s AI Assistant Will Soon Collect Your Documents for You, Says EKT Chief",
-      "· ert | Καναδάς: Πέμπτος στρατιώτης νεκρός από τη φονική πυρκαγιά στη στρατιωτική βάση της Αλμπέρτ",
-      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στα Ιωάννινα υπό τον Γενικό Γραμματέα Πολιτικής Προστασίας Νίκ"
+      "· ingr | «Bαθιά ανησυχία» ΕΕ για την ανθρωπιστική κρίση στη Γάζα ενώ έρχεται χειμώνας"
     ]
   },
   "evergreenDone": [
