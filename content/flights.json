@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T13:29:03+02:00",
+  "updated": "2026-11-15T13:57:42+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,12 +9,12 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 114,
-      "depart": "2026-11-22",
-      "ret": "2026-11-25",
-      "airline": "Blue Bird",
+      "price": 108,
+      "depart": "2026-12-19",
+      "ret": "2026-12-25",
+      "airline": "Wizz Air",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2211ATH25111?t=BZ17953698001795377600000130TLVATH17956386001795645800000120ATHTLV_5f9f781946f4ae356b09c0123f86383a_10416&search_date=08112026&expected_price_uuid=01a1bce9-c70d-8031-2c4c-fb491fda9c88&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Cm6t8TEoJxgWgH6N8-xucA&expected_price_source=share&expected_price_currency=eur&expected_price=114&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1912ATH25121?t=W417976846001797693000000140TLVATH17981922001798199700000125ATHTLV_8f021f0146fed271d11ec341f7cd7b14_9857&search_date=15112026&expected_price_uuid=01a1dee3-0f1e-8040-6d39-664ef73f62c5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=teVlJJKSmlpYw2EeN7-wmA&expected_price_source=share&expected_price_currency=eur&expected_price=108&marker=782936"
     },
     {
       "dest": "HER",
@@ -31,12 +31,12 @@
       "dest": "SKG",
       "he": "סלוניקי",
       "en": "Thessaloniki",
-      "price": 198,
-      "depart": "2026-12-16",
-      "ret": "2026-12-23",
+      "price": 207,
+      "depart": "2026-12-02",
+      "ret": "2026-12-07",
       "airline": "Arkia",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1612SKG23121?t=IZ17974371001797445800000145TLVSKG17980560001798064400000140SKGTLV_73215d12788fdded736860dcbe3a4955_18106&search_date=08112026&expected_price_uuid=01a1bad5-b270-8040-23ed-664f60a137dd&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gOvx0xzh8iOHnEiEr-1SmQ&expected_price_source=share&expected_price_currency=eur&expected_price=198&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV0212SKG07121?t=IZ17962221001796230800000145TLVSKG17966436001796652000000140SKGTLV_d09e0436b19a58ea0ae97d3432f0b748_18896&search_date=15112026&expected_price_uuid=01a1dee3-0b9f-8040-2a33-3cd3d183e470&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LdAMPQ7RfcKH09mlisyuVg&expected_price_source=share&expected_price_currency=eur&expected_price=207&marker=782936"
     },
     {
       "dest": "RHO",
@@ -48,17 +48,6 @@
       "airline": "Sky Express",
       "transfers": 2,
       "link": "https://www.aviasales.com/search/TLV2611RHO03121?t=GQ17957358001795767300000525TLVATHRHO17962881001796337000000815RHOATHTLV_bd060e45700d9ebe30da89cd1401ce7c_22853&search_date=09112026&expected_price_uuid=01a1c1b1-9266-8040-a6f7-69b4c5d26581&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=drexdWuSjeRCzn8Vl2YW5Q&expected_price_source=share&expected_price_currency=eur&expected_price=247&marker=782936"
-    },
-    {
-      "dest": "JMK",
-      "he": "מיקונוס",
-      "en": "Mykonos",
-      "price": 258,
-      "depart": "2026-11-28",
-      "ret": "2026-12-05",
-      "airline": "Wizz Air",
-      "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV2811JMK05121?t=W417958702001795942800001210TLVATHJMK17964711001796558100001450JMKATHTLV_b5283e66de1b9ac51bca74251e4949c7_23926&search_date=09112026&expected_price_uuid=01a1c1b1-7c5b-8040-2882-b17d03f69d7f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CKCSj-qfAPMCdktOSU1oOQ&expected_price_source=share&expected_price_currency=eur&expected_price=258&marker=782936"
     },
     {
       "dest": "CFU",
@@ -75,12 +64,23 @@
       "dest": "ZTH",
       "he": "זקינתוס",
       "en": "Zakynthos",
-      "price": 269,
+      "price": 267,
       "depart": "2026-11-19",
       "ret": "2026-11-22",
       "airline": "Sky Express",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV1911ZTH22111?t=GQ17951310001795196400001090TLVATHZTH17953710001795434900001065ZTHATHTLV_a5a18cb3cc4e1bb084e872ef7cac0f47_24435&search_date=13112026&expected_price_uuid=01a1d519-56a1-8030-ac64-43515fd20ecd&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=IAklApKlVpRw5ZE77jDZ5Q&expected_price_source=share&expected_price_currency=eur&expected_price=269&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1911ZTH22111?t=GQ17951310001795196400001090TLVATHZTH17953710001795434900001065ZTHATHTLV_a5a18cb3cc4e1bb084e872ef7cac0f47_24424&search_date=14112026&expected_price_uuid=01a1da61-c44d-8040-6a66-5b6e9cd1b99d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=IAklApKlVpRw5ZE77jDZ5Q&expected_price_source=share&expected_price_currency=eur&expected_price=267&marker=782936"
+    },
+    {
+      "dest": "JMK",
+      "he": "מיקונוס",
+      "en": "Mykonos",
+      "price": 283,
+      "depart": "2026-11-28",
+      "ret": "2026-12-05",
+      "airline": "Wizz Air",
+      "transfers": 3,
+      "link": "https://www.aviasales.com/search/TLV2811JMK05121?t=W417958702001795897800000460TLVATHJMK17964630001796540700001295JMKATHLCATLV_82726e809328d185f345c7a8aff373ee_25807&search_date=14112026&expected_price_uuid=01a1da64-b358-8040-2fec-481d26fae306&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=-yLb958M4UzCy6NmZi5Cmw&expected_price_source=share&expected_price_currency=eur&expected_price=283&marker=782936"
     }
   ]
 }
