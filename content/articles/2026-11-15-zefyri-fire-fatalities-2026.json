@@ -1,0 +1,60 @@
+{
+  "slug": "zefyri-fire-fatalities-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-15T03:48:01+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 38.0772,
+    "lng": 23.7022,
+    "name": "Zefyri"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/15/zefyri-fire/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/31803291/pexels-photo-31803291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Presidential Guard at the Tomb of the Unknown Soldier in Athens, Greece.",
+    "credit": "Photo: Murat Emre Gündoğdu / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/greek-presidential-guard-at-tomb-of-the-unknown-soldier-31803291/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אסון באתונה: שני כבאים נספו בשריפה באטיקה",
+    "dek": "שני אנשי כבאות נהרגו במהלך כיבוי אש במבנה נטוש באזור זפירי. המשטרה עצרה שלוש חשודות ומחפשת אחר חשוד נוסף.",
+    "tldr": [
+      "שני כבאים מתו בשבת לאחר שנלכדו במרתף של מבנה נטוש באזור זפירי שבאטיקה.",
+      "כוחות ההצלה פינו לבית החולים כבאי נוסף שנפצע באורח קל.",
+      "משטרת יוון עצרה אישה ושתי נערות לחקירה בחשד למעורבות באירוע."
+    ],
+    "means": "למרות שהאירוע טרורה או פלילי אינו קשור לתיירים ישראלים, הוא מציף את נושא בטיחות האש והפעילות של כוחות החירום באזור אתונה שרבים מבקרים בו.",
+    "body": "שני כבאים, בן 44 ובן 23, איבדו את חייהם ביום שבת במהלך פעילות כיבוי אש במבנה נטוש ברחוב קצנטוני שבאזור זפירי, סמוך לאתונה. צוותי ההצלה חילצו את השניים כשהם ללא הכרה והם פונו לבית החולים אטיקון, שם נקבע מותם. כבאי נוסף נפצע ופונה לקבלת טיפול רפואי בבית החולים של חיל האוויר.\n\nשירות הכבאות יווני הורה על פתיחת חקירה רשמית לבדיקת נסיבות האירוע, והנחה להוריד את הדגלים לחצי התורן בכל תחנות הכבאות במדינה. משטרת יוון עצרה אישה בת 34 ושתי בנותיה הקטינות במסגרת הליך מעצר מהיר, וממשיכה בחיפושים אחר חשוד נוסף המעורב בפרשה. גורמי החקירה בודקים בין היתר את האפשרות שהשריפה פרצה כתוצאה מהשלכת אפר מתנור חימום בחדר המדרגות של המבנה."
+  },
+  "en": {
+    "title": "Athens: Two Firefighters Die in Attica Building Fire",
+    "dek": "Two firefighters lost their lives responding to a blaze in an abandoned building in Zefyri. Police have arrested three individuals in connection with the incident.",
+    "tldr": [
+      "Two firefighters died on Saturday after becoming trapped in the basement of an abandoned building in Zefyri, Attica.",
+      "A third firefighter was injured and taken to hospital for medical treatment.",
+      "Greek police arrested three individuals and are searching for another suspect."
+    ],
+    "means": "An update on local emergency incidents in the Athens metropolitan area for residents and visitors.",
+    "body": "Two firefighters, aged 44 and 23, died on Saturday during a firefighting operation at an abandoned building on Katsantoni Street in Zefyri, near Athens. Emergency crews pulled both men out unconscious and transported them to Attikon hospital, where they were pronounced dead. A third firefighter sustained injuries and was taken to the 251 Air Force General Hospital.\n\nThe Hellenic Fire Service has ordered a sworn administrative inquiry into the deaths, and flags at all fire stations are flying at half-mast. Greek police arrested a 34-year-old woman and her two teenage daughters under the in-flagrante procedure, while efforts continue to locate a fourth suspect. Investigators are examining the circumstances surrounding the outbreak of the fire in the building."
+  },
+  "meta": {
+    "itemId": "1f129f2f23c9",
+    "imageQuery": "Greek Fire Service Athens",
+    "sourceHash": "dfc63e0add24",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-15T01:48:04.221Z",
+    "official": false
+  }
+}
