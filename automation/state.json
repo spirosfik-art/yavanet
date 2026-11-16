@@ -19,23 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "c31fe111389c": 1793607324636,
-    "abd4c70da5c8": 1793607324636,
-    "f468861aa5ab": 1793607324636,
-    "278f4f6f199e": 1793607324636,
-    "be3dec98de41": 1793607324636,
-    "37c6b751d8f8": 1793607324636,
-    "58eed50f8eda": 1793607324636,
-    "3d7394d65a53": 1793607324636,
-    "6d406128ec51": 1793607324636,
-    "3d50a230f833": 1793607324636,
-    "148f1525a6dc": 1793607324636,
-    "a355ad96aab3": 1793607324636,
-    "36e7a691a530": 1793607324636,
-    "690711cd5394": 1793607324636,
-    "acb8749a47d1": 1793607324636,
-    "86897c262888": 1793607324636,
-    "6727ef5a3357": 1793607324636,
     "a6b37f50eb03": 1793633904465,
     "7710b0c292d1": 1793633904465,
     "bea91f0af7e1": 1793633904465,
@@ -1713,7 +1696,32 @@
     "8c523abb0d25": 1794815785768,
     "e55c57748e48": 1794815785768,
     "a146a90ee0c2": 1794815785768,
-    "584cf91511ab": 1794815785768
+    "584cf91511ab": 1794815785768,
+    "302d3af4183b": 1794821407821,
+    "189c7a7b8ae7": 1794821407821,
+    "9fc6e6c19eb9": 1794821407821,
+    "aa94e95c477e": 1794821407821,
+    "06b2da5f883b": 1794821407821,
+    "3164f696ba5c": 1794821407821,
+    "146dae889ea6": 1794821407821,
+    "857dd1196fee": 1794821407821,
+    "83282b1c676d": 1794821407821,
+    "f7514909d3a6": 1794821407821,
+    "82ca7b2eb5df": 1794821407821,
+    "aa4a74e30550": 1794821407821,
+    "c68828b8e7a0": 1794821407821,
+    "4351f0f1e9ee": 1794821407821,
+    "32adae0b81e5": 1794821407821,
+    "deb0cf416e17": 1794821407821,
+    "b9cd897f13de": 1794821407821,
+    "49ca1e986ea6": 1794821407821,
+    "f803fc08d677": 1794821407821,
+    "8278ec334530": 1794821407821,
+    "fe68f8b3bbf8": 1794821407821,
+    "9b763ad9b251": 1794821407821,
+    "776b09072de5": 1794821407821,
+    "0cfad6cd5176": 1794821407821,
+    "4d23b5604399": 1794821407821
   },
   "pending": {},
   "sourceStatus": {
@@ -1725,12 +1733,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-16T07:56:12.210Z",
+      "at": "2026-11-16T09:29:55.518Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-16T07:56:13.297Z",
+      "at": "2026-11-16T09:29:56.400Z",
       "items": 5
     },
     "civilprotection": {
@@ -1741,27 +1749,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-16T07:56:14.771Z",
+      "at": "2026-11-16T09:29:58.212Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-16T07:56:15.193Z",
+      "at": "2026-11-16T09:29:58.616Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-16T07:56:17.617Z",
+      "at": "2026-11-16T09:29:59.446Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-16T07:56:18.613Z",
-      "items": 3
+      "at": "2026-11-16T09:30:00.330Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-16T07:56:20.182Z",
+      "at": "2026-11-16T09:30:01.295Z",
       "items": 10
     },
     "toi-greece": {
@@ -1772,24 +1780,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-16T07:56:20.824Z",
+      "at": "2026-11-16T09:30:01.900Z",
       "items": 5
     },
     "gct": {
-      "ok": false,
-      "at": "2026-11-16T07:56:20.854Z",
-      "error": "HTTP 403",
-      "fails": 1
+      "ok": true,
+      "at": "2026-11-16T09:30:02.016Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-16T07:56:20.918Z",
+      "at": "2026-11-16T09:30:02.269Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-16T07:56:21.140Z",
-      "items": 1
+      "at": "2026-11-16T09:30:02.474Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1798,12 +1805,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-16T07:56:13.803Z",
+      "at": "2026-11-16T09:29:57.302Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-16T07:56:22.132Z",
+      "at": "2026-11-16T09:30:03.304Z",
       "items": 0
     },
     "hcg": {
@@ -1814,32 +1821,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-16T07:56:23.705Z",
+      "at": "2026-11-16T09:30:05.040Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-16T07:56:23.888Z",
+      "at": "2026-11-16T09:30:05.245Z",
       "items": 2
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-16T07:56:24.112Z",
-      "items": 4
+      "at": "2026-11-16T09:30:05.503Z",
+      "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-16T07:56:24.376Z",
+      "at": "2026-11-16T09:30:05.785Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-16T07:56:24.701Z",
-      "items": 7
+      "at": "2026-11-16T09:30:06.098Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-16T07:56:24.984Z",
+      "at": "2026-11-16T09:30:06.467Z",
       "items": 6
     }
   },
@@ -1877,6 +1884,16 @@
         "title": "Common Property Scams in Greece: A Guide for Israeli Investors",
         "reason": "Ουδέτερη εκδοχή: Rule 8 violation: The article adds claims that are not in the source text, specifically that 'רשויות האכיפה ביוון מפרסמות הנחיות חדשות' (Greek law enforcement authorities publish new guidelines) and 'Greek authorities issue new guidance', whereas the source text only mentions a gene",
         "at": "2026-11-16T07:55:58.635Z"
+      },
+      {
+        "title": "Chios Airport Now Closed Until March for Runway Works",
+        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 2026",
+        "at": "2026-11-16T09:30:42.113Z"
+      },
+      {
+        "title": "Greek Digital Labour Card to Cover 2.5 Million Workers",
+        "reason": "Ίδιο θέμα με «Greece Records 35% Jump in Overtime with Digital Work Card Expansion» – δεν γράφτηκε ξανά",
+        "at": "2026-11-16T09:30:43.200Z"
       }
     ],
     "errors": [],
@@ -2147,20 +2164,35 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-16T07:56:25.768Z",
-    "considered": 10,
-    "picked": 0,
+    "at": "2026-11-16T09:30:07.821Z",
+    "considered": 25,
+    "picked": 2,
     "items": [
-      "· ert | Ζεφύρι: ΕΔΕ για τις συνθήκες θανάτου των δύο πυροσβεστών – Αύριο στον ανακριτή μητέρα και ",
-      "· ingr | Ακρίβεια: Πανεθνική εκστρατεία για το κόστος ζωής στην Ελλάδα – Τρία μεγάλα ζητήματα, πολλ",
-      "· ingr | Τραγωδία στην Ταϊλάνδη: Τουλάχιστον 11 νεκροί και 16 τραυματίες εξαιτίας πυρκαγιάς σε κτίρ",
-      "· ingr | Η Ινδονησία ζήτησε συγγνώμη για ενδεχόμενα «δεινά» που προκάλεσε λόγω τοξικών καπνών",
-      "· naftemporiki | Ταϊλάνδη: Τουλάχιστον 11 νεκροί λόγω πυρκαγιάς σε κτίριο στο Πουκέτ",
-      "· ert | Η Ινδονησία ζήτησε συγγνώμη από τους γείτονές της για τους τοξικούς καπνούς των πυρκαγιών",
-      "· gn-kathimerini | Ταϊλάνδη: Εντεκα νεκροί από μεγάλη πυρκαγιά σε κτίριο στο Πουκέτ – Δεκάδες τραυματίες - Ka",
-      "· gn-kathimerini | Η Ινδονησία ζήτησε συγγνώμη από τους γείτονές της για τους τοξικούς καπνούς των πυρκαγιών ",
-      "· ingr | Ζεφύρι: Ποιοι ήταν οι δύο πυροσβέστες που έχασαν της ζωή τους – «Δεν έχει ανανεωθεί ο εξοπ",
-      "· ert | Ρωσία: Πυρκαγιά σε βιομηχανική εγκατάσταση στο Κρασνοντάρ από συντρίμμια drone – Τρεις τρα"
+      "· ert | Δημαρέσης στο ΕΡΤnews Radio 105,8: Δυο τα σενάρια που οδήγησαν στο θάνατο τους 2 πυροσβέστ",
+      "· naftemporiki | Ζεφύρι: «Πάντα εκεί πετούσαμε τις στάχτες» – Η κατάθεση της 13χρονης για τη φωτιά και η ΕΔ",
+      "· ingr | Ισραήλ: Πρόεδρος της Βουλής ο Λίμπερμαν – Αντιπρόεδρος ο Αχμέντ Τίμπι από το αραβικό κόμμα",
+      "· ert | Τσίγκας στο ΕΡΤnews για την πυρκαγιά στο Ζεφύρι: «Kαμία κατάσβεση πυρκαγιάς δεν αποτελεί υ",
+      "· ert | New York Times: Το Ισραήλ απήγαγε Ιρανούς στρατηγούς στο πλαίσιο μιας εσφαλμένης έρευνας γ",
+      "· ert | Με ενιαία παρουσία η Ηλεία στη διεθνή τουριστική έκθεση Philoxenia 2026",
+      "· naftemporiki | Η Gen Z ανατρέπει την πολιτική ορθοδοξία των ΗΠΑ",
+      "· minfin | Εκτέλεση Κρατικού Προϋπολογισμού περιόδου Ιανουαρίου-Οκτωβρίου 2026 (προσωρινά στοιχεία)",
+      "· naftemporiki | «Χάθηκαν» 231.885 παιδιά: Δημογραφική αιμορραγία αποτυπώνουν οι φορο-δηλώσεις",
+      "· gn-kathimerini | Στενά του Ορμούζ: Βλήμα προξένησε πυρκαγιά σε τάνκερ - Kathimerini",
+      "· gct | Pyrros Dimas’ Brother Odysseas Faces Magistrate Over 871 Seized Preparations",
+      "· gct | Christodoulides Says Cyprus Schengen Talks “Proceeding Normally”",
+      "· gct | Armenian Australians Press Albanese Over Erdogan Meeting at COP31",
+      "· gct | Greece Lock In Top Seeding for Euro 2028 Qualifying Draw",
+      "· gct | Greek PM Meets Mayors Over Building Rights Transfer Plan",
+      "· gct | Greek Striker Stefanos Tzimas Set for Brighton Comeback",
+      "✓ gct | Greek Digital Labour Card to Cover 2.5 Million Workers",
+      "· gct | Digital Reforms Transform Municipal Services Across Greece",
+      "· gct | Greek Orthodox Archdiocese’s $180M Northcote CHORA Precinct Approved",
+      "✓ gct | Chios Airport Now Closed Until March for Runway Works",
+      "· gct | Northern Tzoumerka in November: A Four-Day Mountain Road Trip",
+      "· gct | Convicted Killer of Eleni Topaloudi Seeks Supreme Court Review",
+      "· gct | Athens Deploys 5,000 Police for Polytechnic Anniversary March",
+      "· gct | Melburnian of the Year Chris Lucas Proposes Flinders Street Station Overhaul",
+      "· gct | Investors and Musk Push Nvidia Board to Keep Door Open for Jensen Huang’s Return"
     ]
   },
   "evergreenDone": [
