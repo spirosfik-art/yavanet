@@ -19,44 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "a6b37f50eb03": 1793633904465,
-    "7710b0c292d1": 1793633904465,
-    "bea91f0af7e1": 1793633904465,
-    "f14420bf02e0": 1793633904465,
-    "35824da63f45": 1793633904465,
-    "4e2378b5bd05": 1793633904465,
-    "7210145e1449": 1793633904465,
-    "dfb7b78ab8e7": 1793633904465,
-    "ac921b2a86a1": 1793633904465,
-    "4e04339fe7d1": 1793633904465,
-    "e498faa586c6": 1793633904465,
-    "f73e18e0eb0d": 1793633904465,
-    "420ecbd7a543": 1793633904465,
-    "723d088b697c": 1793633904465,
-    "5a05c3b113c4": 1793633904465,
-    "8c155c885dc3": 1793633904465,
-    "2a32ae7fdb62": 1793633904465,
-    "2a0e9695ae36": 1793633904465,
-    "31a70dd23cc7": 1793633904465,
-    "977cdd441b51": 1793633904465,
-    "ca02734913f0": 1793633904465,
-    "cc86ad4173ad": 1793633904465,
-    "092427ca220d": 1793633904465,
-    "ba7df3b115a7": 1793633904465,
-    "7143c1144c5f": 1793633904465,
-    "bf3495a3f4ac": 1793633904465,
-    "864d469c9c2f": 1793633904465,
-    "43d208da6935": 1793633904465,
-    "bafbe3f25cd6": 1793633904465,
-    "cd1feb18ef46": 1793633904465,
-    "b9c8c0e5a6fa": 1793633904465,
-    "59c714d3ff0d": 1793633904465,
-    "577cd4157a26": 1793633904465,
-    "1ad9396ad897": 1793633904465,
-    "871b2fd779dc": 1793633904465,
-    "fcf297b28128": 1793633904465,
-    "9f88899e436e": 1793633904465,
-    "cdc14c91110e": 1793633904465,
     "591b2206882d": 1793643748815,
     "d8b02d60bf64": 1793643748815,
     "2d03d669f6e0": 1793643748815,
@@ -1721,7 +1683,41 @@
     "9b763ad9b251": 1794821407821,
     "776b09072de5": 1794821407821,
     "0cfad6cd5176": 1794821407821,
-    "4d23b5604399": 1794821407821
+    "4d23b5604399": 1794821407821,
+    "590ea2a1938e": 1794850627170,
+    "31d86f0c654e": 1794850627170,
+    "ec3aedbf48b2": 1794850627170,
+    "8e0fd5b6110f": 1794850627170,
+    "1b9e1731182a": 1794850627170,
+    "9071b6fb6001": 1794850627170,
+    "c9c6d69ca2c8": 1794850627170,
+    "ff9e3ad217bc": 1794850627170,
+    "9172b44e3b31": 1794850627170,
+    "003ca38f2ec1": 1794850627170,
+    "3c1e3c822a1d": 1794850627170,
+    "fbac3f522410": 1794850627170,
+    "786d1e851a75": 1794850627170,
+    "d087fed91327": 1794850627170,
+    "d97614e01688": 1794850627170,
+    "730bff344b10": 1794850627170,
+    "c2f5fff6463c": 1794850627170,
+    "542ae3e49eae": 1794850627170,
+    "e8633c203e11": 1794850627170,
+    "05fa9a0b4781": 1794850627170,
+    "5e2f8c97e844": 1794850627170,
+    "d906f4dfac40": 1794850627170,
+    "d780a3588141": 1794850627170,
+    "4fa155ecd0dd": 1794850627170,
+    "861be5ecef7b": 1794850627170,
+    "97b357fbd030": 1794850627170,
+    "b1ae1d715ad4": 1794850627170,
+    "68a095b12ce3": 1794850627170,
+    "df9d7d3691da": 1794850627170,
+    "783182c91de4": 1794850627170,
+    "c93a0f398313": 1794850627170,
+    "2c3850b8850d": 1794850627170,
+    "7da4eb34ae7f": 1794850627170,
+    "6515a010893d": 1794850627170
   },
   "pending": {},
   "sourceStatus": {
@@ -1733,12 +1729,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-16T09:29:55.518Z",
+      "at": "2026-11-16T17:36:35.145Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-16T09:29:56.400Z",
+      "at": "2026-11-16T17:36:36.037Z",
       "items": 5
     },
     "civilprotection": {
@@ -1749,27 +1745,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-16T09:29:58.212Z",
+      "at": "2026-11-16T17:36:38.132Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-16T09:29:58.616Z",
+      "at": "2026-11-16T17:36:38.243Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-16T09:29:59.446Z",
+      "at": "2026-11-16T17:36:39.841Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-16T09:30:00.330Z",
+      "at": "2026-11-16T17:36:40.565Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-16T09:30:01.295Z",
+      "at": "2026-11-16T17:36:41.299Z",
       "items": 10
     },
     "toi-greece": {
@@ -1780,23 +1776,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-16T09:30:01.900Z",
+      "at": "2026-11-16T17:36:41.917Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-16T09:30:02.016Z",
+      "at": "2026-11-16T17:36:42.068Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-16T09:30:02.269Z",
-      "items": 4
+      "at": "2026-11-16T17:36:42.471Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-16T09:30:02.474Z",
-      "items": 3
+      "at": "2026-11-16T17:36:42.986Z",
+      "items": 1
     },
     "ynet-greece": {
       "ok": true,
@@ -1805,12 +1801,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-16T09:29:57.302Z",
+      "at": "2026-11-16T17:36:36.859Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-16T09:30:03.304Z",
+      "at": "2026-11-16T17:36:43.551Z",
       "items": 0
     },
     "hcg": {
@@ -1821,33 +1817,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-16T09:30:05.040Z",
+      "at": "2026-11-16T17:36:44.883Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-16T09:30:05.245Z",
-      "items": 2
+      "at": "2026-11-16T17:36:45.064Z",
+      "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-16T09:30:05.503Z",
+      "at": "2026-11-16T17:36:45.281Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-16T09:30:05.785Z",
-      "items": 4
+      "at": "2026-11-16T17:36:45.463Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-16T09:30:06.098Z",
-      "items": 6
+      "at": "2026-11-16T17:36:45.814Z",
+      "items": 9
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-16T09:30:06.467Z",
-      "items": 6
+      "at": "2026-11-16T17:36:46.225Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2164,35 +2160,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-16T09:30:07.821Z",
-    "considered": 25,
-    "picked": 2,
+    "at": "2026-11-16T17:37:07.170Z",
+    "considered": 34,
+    "picked": 0,
     "items": [
-      "· ert | Δημαρέσης στο ΕΡΤnews Radio 105,8: Δυο τα σενάρια που οδήγησαν στο θάνατο τους 2 πυροσβέστ",
-      "· naftemporiki | Ζεφύρι: «Πάντα εκεί πετούσαμε τις στάχτες» – Η κατάθεση της 13χρονης για τη φωτιά και η ΕΔ",
-      "· ingr | Ισραήλ: Πρόεδρος της Βουλής ο Λίμπερμαν – Αντιπρόεδρος ο Αχμέντ Τίμπι από το αραβικό κόμμα",
-      "· ert | Τσίγκας στο ΕΡΤnews για την πυρκαγιά στο Ζεφύρι: «Kαμία κατάσβεση πυρκαγιάς δεν αποτελεί υ",
-      "· ert | New York Times: Το Ισραήλ απήγαγε Ιρανούς στρατηγούς στο πλαίσιο μιας εσφαλμένης έρευνας γ",
-      "· ert | Με ενιαία παρουσία η Ηλεία στη διεθνή τουριστική έκθεση Philoxenia 2026",
-      "· naftemporiki | Η Gen Z ανατρέπει την πολιτική ορθοδοξία των ΗΠΑ",
-      "· minfin | Εκτέλεση Κρατικού Προϋπολογισμού περιόδου Ιανουαρίου-Οκτωβρίου 2026 (προσωρινά στοιχεία)",
-      "· naftemporiki | «Χάθηκαν» 231.885 παιδιά: Δημογραφική αιμορραγία αποτυπώνουν οι φορο-δηλώσεις",
-      "· gn-kathimerini | Στενά του Ορμούζ: Βλήμα προξένησε πυρκαγιά σε τάνκερ - Kathimerini",
-      "· gct | Pyrros Dimas’ Brother Odysseas Faces Magistrate Over 871 Seized Preparations",
-      "· gct | Christodoulides Says Cyprus Schengen Talks “Proceeding Normally”",
-      "· gct | Armenian Australians Press Albanese Over Erdogan Meeting at COP31",
-      "· gct | Greece Lock In Top Seeding for Euro 2028 Qualifying Draw",
-      "· gct | Greek PM Meets Mayors Over Building Rights Transfer Plan",
-      "· gct | Greek Striker Stefanos Tzimas Set for Brighton Comeback",
-      "✓ gct | Greek Digital Labour Card to Cover 2.5 Million Workers",
-      "· gct | Digital Reforms Transform Municipal Services Across Greece",
-      "· gct | Greek Orthodox Archdiocese’s $180M Northcote CHORA Precinct Approved",
-      "✓ gct | Chios Airport Now Closed Until March for Runway Works",
-      "· gct | Northern Tzoumerka in November: A Four-Day Mountain Road Trip",
-      "· gct | Convicted Killer of Eleni Topaloudi Seeks Supreme Court Review",
-      "· gct | Athens Deploys 5,000 Police for Polytechnic Anniversary March",
-      "· gct | Melburnian of the Year Chris Lucas Proposes Flinders Street Station Overhaul",
-      "· gct | Investors and Musk Push Nvidia Board to Keep Door Open for Jensen Huang’s Return"
+      "· ert | Πυρκαγιά στο Ζεφύρι: Φόρος τιμής στον 23χρονο πυροσβέστη από τους συναδέλφους του – Στο μι",
+      "· ingr | Η διέξοδος των Λανουά, Βαλέρι: Έβγαλαν στη σέντρα διαιτητές που στήριζαν",
+      "· ert | Σάμος: Στα όρια τους οι μεταφορείς μετά την καταστροφή του Blue Carrier 2",
+      "· gtp | Xenia 2026: Η Nespresso For Business παρουσιάζει τις Full Venue Coffee Solutions",
+      "· gtp | Hilton Expands Greek Portfolio to Over 80 Hotels, Plans Four Openings in 2027",
+      "· gn-kathimerini | Τι δείχνουν οι φορολογικές δηλώσεις - Kathimerini",
+      "· naftemporiki | Συνάντηση του Ν. Κακλαμάνη με τη νέα Πρέσβειρα του Ισραήλ: Η Ελλάδα παραμένει σταθερός και",
+      "· ert | EINAΠ: Συμμετοχή των νοσοκομειακών γιατρών στην πανελλαδική απεργία της 25ης Νοεμβρίου",
+      "· gn-pm | Σύσκεψη του Πρωθυπουργού Κυριάκου Μητσοτάκη με Δημάρχους του Βόρειου Τομέα Αθηνών για τις ",
+      "· ert | Φωτιά στο Ζεφύρι: Από εισπνοή καπνού ο θάνατος των δύο πυροσβεστών σύμφωνα με τον ιατροδικ",
+      "· gn-kathimerini | Επέτειος Πολυτεχνείου: Κλειστοί αύριο τρεις σταθμοί του μετρό στην Αθήνα - Kathimerini",
+      "· ingr | Τραγωδία στο Ζεφύρι: Από εισπνοή καπνού ο θάνατος των δύο πυροσβεστών – Τι έδειξε η νεκροψ",
+      "· ktg | Metro stations close, strong police forces in central Athens, Nov 17",
+      "· gn-kathimerini | Βουλή: Συνάντηση Κακλαμάνη με τη νέα πρέσβη του Ισραήλ, Πινάτ Γιανάι - Kathimerini",
+      "· gtp | R&R Forum 2026 Brings Global Hospitality Investors to Athens",
+      "· gn-kathimerini | Τα ξεχασμένα φορολογικά κίνητρα - Kathimerini",
+      "· ktg | Two firefighters killed during fire in abandoned building in Athens",
+      "· minfin | Κυριάκος Πιερρακάκης: «Η επένδυση του HIIF στη Data4 Greece ενισχύει τη θέση της Ελλάδας σ",
+      "· gct | Greece Marks 53 Years Since the Athens Polytechnic Uprising",
+      "· gn-kathimerini | Επιστολή Δούκα στην «Ελληνικό Μετρό»: Αμεση μετεγκατάσταση των κατοίκων των «κόκκινων» πολ",
+      "· gn-iefimerida | Συνάντηση Κακλαμάνη με την πρέσβη του Ισραήλ, Πνινάτ Γιανάι -«Η Ελλάδα παραμένει σταθερός ",
+      "· gtp | Costa Navarino Named World’s Best Golf Venue for Third Consecutive Year",
+      "· gn-iefimerida | Φωτιά σε ισόγειο πολυκατοικίας στη Λάρισα -Στο νοσοκομείο μεταφέρθηκε ζευγάρι ηλικιωμένων ",
+      "· gct | Cappadocia’s Greek Underground Cities Offer Climate Lessons",
+      "· gn-iefimerida | Φονική φωτιά στο Ζεφύρι: Αύριο στην Καστοριά η κηδεία του 23χρονου πυροσβέστη - iefimerida",
+      "· minfin | Ανάρτηση της με αριθμό κατάθεσης 14/08.10.2001 και αριθμό δικογραφίας Αρείου Πάγου 2080/20",
+      "· gct | Gerapetritis Says Work on Greece-Cyprus Power Cable Must Not Be Obstructed",
+      "· gtp | TOTIMO Showroom Brings Leading Design Brands to Greece and Cyprus",
+      "· gn-kathimerini | Βερολίνο: Οίκος ευγηρίας κρατά δραστήριους τους ενοίκους του με… αλπακά - Kathimerini",
+      "· gtp | Athens Hotels Top European Peers as September Occupancy Exceeds 92%"
     ]
   },
   "evergreenDone": [
