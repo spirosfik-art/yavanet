@@ -1,0 +1,60 @@
+{
+  "slug": "greece-digital-work-card-overtime-2026",
+  "section": "living",
+  "publishedAt": "2026-11-16T09:56:06+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/16/recorded-overtime/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/10330114/pexels-photo-10330114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Close-up of contactless payment using laptop and card reader, showcasing modern office technology.",
+    "credit": "Photo: REINER  SCT / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/card-in-a-terminal-in-an-office-10330114/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון: זינוק של 35% בשעות הנוספות המדווחות בעקבות הרחבת כרטיס העבודה הדיגיטלי",
+    "dek": "נתונים רשמיים מציגים עלייה בדיווחים ב-13 הענפים המשתמשים במערכת, לאחר שזו צורפה לחמישה מגזרים נוספים.",
+    "tldr": [
+      "עלייה של 35% בשעות הנוספות המדווחות ביוון",
+      "השינוי נרשם ב-13 הענפים המיישמים את כרטיס העבודה הדיגיטלי",
+      "המערכת הורחבה לאחרונה לחמישה מגזרים נוספים במשק"
+    ],
+    "means": "לתושבים ולעובדים ביוון המעורבים בדיווח שעות עבודה מול הרשויות המקומיות.",
+    "body": "נתונים חדשים שפורסמו מצביעים על עלייה של 35% בשעות הנוספות המדווחות ביוון. הנתונים מתייחסים ל-13 הענפים במשק המשתמשים בכרטיס העבודה הדיגיטלי, לאחר שהמערכת הורחבה לאחרונה וכללה חמישה מגזרים נוספים. המהלך נועד להבטיח מעקב מדויק יותר אחר שעות העבודה והדיווחים הרשמיים המועברים לרשויות המוסמכות במדינה."
+  },
+  "en": {
+    "title": "Greece Records 35% Jump in Overtime with Digital Work Card Expansion",
+    "dek": "Official figures show an increase in reported hours across 13 sectors utilizing the digital system, following its expansion to five additional fields.",
+    "tldr": [
+      "Recorded overtime rises by 35 percent in Greece",
+      "Growth observed across 13 sectors using the Digital Work Card",
+      "The system recently expanded to cover five new sectors"
+    ],
+    "means": "For residents and employees in Greece navigating local labor regulations and digital reporting systems.",
+    "body": "Recent data indicates a 35 per cent rise in recorded overtime across Greece. The increase was measured within the 13 sectors currently implementing the Digital Work Card system, following its recent expansion to encompass five additional areas. The digital card initiative is designed to monitor working hours and ensure accurate reporting to the relevant authorities."
+  },
+  "meta": {
+    "itemId": "77e8e1914d07",
+    "imageQuery": "Greece digital work card Athens office",
+    "sourceHash": "2a749726fdd7",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-16T07:56:07.255Z",
+    "official": false
+  }
+}

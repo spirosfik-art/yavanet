@@ -51,7 +51,9 @@
     "sourceHash": "7b4c0419c8cb",
     "model": "gemini-2.5-flash",
     "checkedAt": "2026-11-16T01:10:41.514Z",
-    "official": false
+    "official": false,
+    "photoTried": true,
+    "photoDedup": true
   },
   "enrichedAt": "2026-11-16T02:43:37.897Z"
 }
