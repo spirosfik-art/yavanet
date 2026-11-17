@@ -1,0 +1,61 @@
+{
+  "slug": "greece-cost-of-living-inflation-2026",
+  "section": "living",
+  "publishedAt": "2026-11-17T20:29:46+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "zoom": 11,
+    "name": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/11/17/politics/koufonikolakou-i-ellada-einai-proti-stin-ee-sti-stegastiki-epivarynsi-kai-tin-energeiaki-ftoxeia/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/32742321/pexels-photo-32742321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A construction worker stands on a street in Athens, Greece, with a traffic light and building nearby.",
+    "credit": "Photo: Ali Durmuş Cevlan / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/greek-construction-worker-on-street-in-athens-32742321/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון ראשונה באיחוד האירופי ביוקר המחיה ובעומס הדיור",
+    "dek": "נתונים רשמיים שהוצגו באתונה מעלים כי האינפלציה במדינה עומדת על 5.6%, לעומת ממוצע של 4% בגוש היורו.",
+    "tldr": [
+      "האינפלציה ביוון עומדת על 5.6% לעומת 4% באירופה",
+      "87.1% מהאזרחים מדווחים על קושי כלכלי",
+      "יוון מובילה את האיחוד האירופי בנטל הוצאות הדיור"
+    ],
+    "means": "למה זה משפיע עליכם? משקיעים בנדל״ן וזרים שקונים נכסים ביוון צריכים להכיר את מדדי יוקר המחיה והשפעות האינפלציה על שוק השכירות וההוצאות הנלוות.",
+    "body": "נתונים רשמיים שהוצגו באתונה מצביעים על כך ששיעור האינפלציה ביוון טיפס ל-5.6%, לעומת ממוצע של 4% בכלל מדינות האיחוד האירופי. על פי הנתונים, 87.1% מהאזרחים ביוון מדווחים על קושי בהתמודדות עם ההוצאות השוטפות, נתון המציב את המדינה במקום הראשון באיחוד האירופי בתחום זה. עוד עולה מהנתונים כי 26.4% מהאוכלוסייה מוציאים מעל 40% מהכנסתם על הוצאות דיור, מה שמדרג את יוון במקום הראשון באירופה גם בעומס הנתון על שוק הדיור ובמדדי אנרגיה נלווים."
+  },
+  "en": {
+    "title": "Greece ranks first in EU for living costs and housing burden",
+    "dek": "Official data presented in Athens shows inflation in Greece stands at 5.6%, compared to the 4% eurozone average.",
+    "tldr": [
+      "Greek inflation reaches 5.6% versus 4% in the eurozone",
+      "87.1% of citizens report financial difficulties",
+      "Greece ranks first in the EU for housing cost burden"
+    ],
+    "means": "Why this matters to you: Real estate investors and property buyers in Greece need to monitor local inflation rates, housing costs, and market economic indicators.",
+    "body": "Official data released in Athens indicates that inflation in Greece has reached 5.6%, outpacing the European Union average of 4%. According to the figures, 87.1% of citizens report difficulties making ends meet, placing Greece first in the EU in this category. Furthermore, 26.4% of the population spends over 40% of their income on housing, marking another leading position in housing cost burdens alongside high energy poverty indicators."
+  },
+  "meta": {
+    "itemId": "505c1f37cc3d",
+    "imageQuery": "Athens Greece street life economy",
+    "sourceHash": "83147cba8054",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-17T18:29:46.797Z",
+    "official": false
+  }
+}
