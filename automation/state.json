@@ -1677,9 +1677,233 @@
     "1f5c09c1f177": 1795022795668,
     "fb8ecdd14e2b": 1795022795668,
     "d0a5e45c1966": 1795022795668,
-    "159a32a1f7d9": 1795022795668
+    "159a32a1f7d9": 1795022795668,
+    "0ae362206205": 1795038678768,
+    "417e4619b0b3": 1795038678768,
+    "fe22ff8597c4": 1795038678768,
+    "325a479bf463": 1795038678768,
+    "e919b3b63a6d": 1795038678768,
+    "63f1d6f8607e": 1795038678768,
+    "da07da2dc1c4": 1795038678768,
+    "3e1112c513f6": 1795038678768,
+    "c20c8225d486": 1795038678768,
+    "31b19bae8819": 1795038678768,
+    "3a9d41124087": 1795038678768,
+    "58af3746dcae": 1795038678768,
+    "c0b8efba72c7": 1795038678768,
+    "b38c1588d906": 1795038678768,
+    "5c73ef7b3fee": 1795038678768,
+    "ca048d843da9": 1795038678768,
+    "8476e1b23b1e": 1795038678768,
+    "34784ccb12e7": 1795038678768,
+    "19b975d0aed8": 1795038678768,
+    "fae100e6bf57": 1795038678768
   },
-  "pending": {},
+  "pending": {
+    "66d228": {
+      "createdAt": 1795038714001,
+      "item": {
+        "title": "Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκούς» (Βίντεο)",
+        "url": "https://www.naftemporiki.gr/politics/2191106/oloklirothike-i-askisi-elladas-israil-enaerioy-anefodiasmoy-gia-apostoles-megaloy-velinekoys-vinteo/?utm_source=rss&utm_medium=rss&utm_campaign=oloklirothike-i-askisi-elladas-israil-enaerioy-anefodiasmoy-gia-apostoles-megaloy-velinekoys-vinteo",
+        "summary": "Η Ισραηλινή Πολεμική Αεροπορία και η Ελληνική Πολεμική Αεροπορία ολοκλήρωσαν νωρίτερα αυτή την εβδομάδα μια κοινή άσκηση εναέριου ανεφοδιασμού πάνω από την Ελλάδα, όπως ανακοίνωσαν οι Ισραηλινές Αμυντικές Δυνάμεις (IDF).…\n Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκούς» (Βίντεο) - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Wed, 18 Nov 2026 18:12:14 +0000",
+        "id": "34784ccb12e7",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "34784ccb12e7",
+        "section": "israelis",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Covers the successful completion of a joint air force exercise between Israel and Greece focusing on long-range missions and midair refueling.",
+        "item": {
+          "title": "Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκούς» (Βίντεο)",
+          "url": "https://www.naftemporiki.gr/politics/2191106/oloklirothike-i-askisi-elladas-israil-enaerioy-anefodiasmoy-gia-apostoles-megaloy-velinekoys-vinteo/?utm_source=rss&utm_medium=rss&utm_campaign=oloklirothike-i-askisi-elladas-israil-enaerioy-anefodiasmoy-gia-apostoles-megaloy-velinekoys-vinteo",
+          "summary": "Η Ισραηλινή Πολεμική Αεροπορία και η Ελληνική Πολεμική Αεροπορία ολοκλήρωσαν νωρίτερα αυτή την εβδομάδα μια κοινή άσκηση εναέριου ανεφοδιασμού πάνω από την Ελλάδα, όπως ανακοίνωσαν οι Ισραηλινές Αμυντικές Δυνάμεις (IDF).…\n Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκούς» (Βίντεο) - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Wed, 18 Nov 2026 18:12:14 +0000",
+          "id": "34784ccb12e7",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "israel-greece-air-force-joint-exercise-2026",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "שיתוף פעולה ביטחוני",
+          "en": "Defense cooperation"
+        },
+        "imageKey": "plane",
+        "imageQuery": "military aircraft in flight",
+        "he": {
+          "title": "חיל האוויר הישראלי והיווני השלימו תרגיל משותף מעל יוון",
+          "seoTitle": "חיל האוויר הישראלי והיווני בתרגיל משותף ביוון",
+          "seoDesc": "חיל האוויר של ישראל ויוון השלימו תרגיל נאריוי אנפודיאסמוי מעל יוון, במסגרת שיתוף פעולה ביטחוני מתמשך בין המדינות.",
+          "keywords": [
+            "יוון",
+            "חיל האוויר ביוון",
+            "צבא יוון",
+            "ישראל יוון",
+            "תרגיל משותף"
+          ],
+          "dek": "שתי המדינות קיימו תרגיל עזר אווירי ומילוי דלק מתקדם למטוסי קרב, כחלק מתוכנית האימונים השנתית.",
+          "tldr": [
+            "חיל האוויר הישראלי והיווני ערכו תרגיל משותף מעל יוון.",
+            "האימון כלל תדלוק אווירי למטוסי קרב למשימות ארוכות טווח.",
+            "התרגיל נועד לחזק את המוכנות המבצעית ואת שיתוף הפעולה."
+          ],
+          "means": "שיתוף הפעולה הצבאי ההדוק בין ישראל ליוון נמשך במסגרת תוכניות האימונים הרשמיות של צה\"ל. עבור ישראלים השוהים במדינה או עוקבים אחר היחסים המדיניים, מדובר בעוד ביטוי לקשרים הביטחוניים ההדוקים בין שתי המדינות.",
+          "body": "## פרטי האימון האווירי המשותף\n\nחיל האוויר הישראלי וחיל האוויר היווני השלימו השבוע תרגיל אימונים משותף שנערך בשמי יוון. לפי הודעת צה\"ל, התרגיל התקיים ביום שני וכלל תפעול של מטוסי תדלוק מהטייסת ה-120 של חיל האוויר.\n\nבמהלך האימון, שנמשך מספר שעות, תורגל תדלוק אווירי של מטוסי קרב במטרה לאפשר להם לבצע טיסות למרחקים ארוכים. הפעילות התקיימה כחלק מלוח הזמנים השנתי של האימונים המשותפים שמנהלים שני הצבאות באופן סדיר.\n\n## הידוק הקשרים והמוכנות המבצעית\n\nמערכות הביטחון בישראל וביוון מציינות כי אימונים מסוג זה תורמים באופן ישיר להעמקת שיתוף הפעולה המקצועי בין חילות האוויר. התרגול נועד לשפר את המוכנות המבצעית של הכוחות ולאפשר למידה הדדית בין הצדדים בתרחישים מורכבים.\n\nהפעילות המשותפת משתלבת במערכת יחסים ביטחונית ענפה שמתקיימת בין ישראל ליוון מזה שנים רבות, הכוללת מפגשים מקצועיים ותרגולים מגוונים בשטח יוון ובאזור הים התיכון.\n\n## שאלות נפוצות\n\n**האם מדובר בתרגיל שגרתי בין ישראל ליוון?**\nכן, חיל האוויר הישראלי וחיל האוויר היווני מקיימים תרגילים משותפים באופן סדיר כחלק מתוכנית ההדרכה השנתית.\n\n**מה היה המוקד המרכזי של התרגיל הנוכחי?**\nהתרגיל התמקד בתדלוק אווירי של מטוסי קרב כדי לאפשר להם להמשיך במשימות ארוכות טווח."
+        },
+        "en": {
+          "title": "Israeli and Hellenic Air Forces complete joint exercise in Greece",
+          "seoTitle": "Israeli and Hellenic Air Forces joint exercise in Greece",
+          "seoDesc": "The Israeli Air Force and Hellenic Air Force completed a joint aerial refueling exercise over Greece as part of ongoing defense cooperation.",
+          "keywords": [
+            "Israel Greece air force",
+            "Hellenic Air Force",
+            "IDF exercise Greece",
+            "joint military drill"
+          ],
+          "dek": "The two air forces practiced midair refueling for long-range fighter jet missions during a joint training program in Greece.",
+          "tldr": [
+            "The Israeli and Hellenic Air Forces conducted a joint aerial drill over Greece.",
+            "The exercise featured midair refueling operations for fighter jets on long-range missions.",
+            "The training is part of regular annual cooperation between the two militaries."
+          ],
+          "means": "The ongoing defense cooperation between Israel and Greece remains active through regular joint military drills. For Israelis following bilateral relations, the exercise highlights the close operational ties between the two nations.",
+          "body": "## Joint Aerial Training Overview\n\nThe Israeli Air Force and the Hellenic Air Force completed a joint training exercise over Greece earlier this week. According to the Israel Defense Forces, the drill took place on Monday and involved the 120th Squadron performing aerial refueling for fighter aircraft.\n\nDuring the exercise, which lasted several hours, fighter jets rendezvoused with tanker aircraft to refuel in midair, ensuring their capability to continue long-range missions. The military noted that both air forces conduct such joint exercises on a regular basis.\n\n## Strengthening Operational Readiness\n\nDefense officials stated that the joint training serves to enhance operational readiness, encourage mutual learning, and deepen cooperation between the two air forces. The exercise was carried out as part of the Israeli Air Force's annual training schedule.\n\nSuch bilateral drills reflect the close military coordination maintained by Israel and Greece in the region, focusing on technical collaboration and operational skills.\n\n## FAQ\n\n**Is this a regular exercise between Israel and Greece?**\nYes, the Israeli Air Force and the Hellenic Air Force regularly conduct joint exercises as part of their annual training programs.\n\n**What was the main focus of the exercise?**\nThe drill focused on midair refueling for fighter jets to support long-range missions."
+        }
+      },
+      "text": "Η Ισραηλινή Πολεμική Αεροπορία και η Ελληνική Πολεμική Αεροπορία ολοκλήρωσαν νωρίτερα αυτή την εβδομάδα μια κοινή άσκηση εναέριου ανεφοδιασμού πάνω από την Ελλάδα, όπως ανακοίνωσαν οι Ισραηλινές Αμυντικές Δυνάμεις (IDF).\n Στο πλαίσιο της άσκησης που πραγματοποιήθηκε τη Δευτέρα, σύμφωνα με τον στρατό, η 120ή Μοίρα της Ισραηλινής Πολεμικής Αεροπορίας εκτέλεσε εναέριο ανεφοδιασμό μαχητικών αεροσκαφών «για αποστολές μεγάλου βεληνεκούς».\n «Η άσκηση διήρκεσε αρκετές ώρες, κατά τη διάρκεια των οποίων μαχητικά αεροσκάφη συναντήθηκαν με αεροσκάφη ανεφοδιασμού και ανεφοδιάστηκαν εν πτήσει, ώστε να μπορέσουν να συνεχίσουν τις αποστολές τους», αναφέρουν οι IDF.\n &#x1f1ee;&#x1f1f1;&#x1f91d;&#x1f1ec;&#x1f1f7; JOINT AERIAL REFUELING EXERCISE: The Israeli and Hellenic Air Forces completed a joint training exercise earlier this week, practicing operational flights and midair refueling of Hellenic fighter jets for long-range missions.\n The exercise strengthens operational readiness, enables mutual learning & deepens cooperation between the two air forces.\n The Israeli Air Force continues strengthening its readiness to operate at any time and at any range.\n — Israel Defense Forces (@IDF) November 18, 2026 \n Η Ισραηλινή Πολεμική Αεροπορία και η Ελληνική Πολεμική Αεροπορία διεξάγουν τακτικά κοινές ασκήσεις.\n ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ \n Προκλητικός Γκιουλέρ: Λαμβάνουμε διπλωματικά και στρατιωτικά μέτρα κατά των μονομερών πρωτοβουλιών της Ελλάδας στο Αιγαίο \n «Η άσκηση πραγματοποιήθηκε στο πλαίσιο του ετήσιου προγράμματος εκπαίδευσης της Ισραηλινής Πολεμικής Αεροπορίας, επιτρέπει την αμοιβαία μάθηση, ενισχύει την επιχειρησιακή ετοιμότητα και εμβαθύνει τη συνεργασία μεταξύ των πολεμικών αεροποριών», πρόσθεσε στην ανακοίνωσή του ο ισραηλινός στρατός.\n Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 18/11/2026 - 8:07 \n ΕΛΑΣ – Τομέας Νέας Γενιάς: Η αστυνομική βία δεν έχει θέση στη Δημοκρατία\n 18/11/2026 - 7:41 \n Δούρου-Παππάς μετά την ψήφιση της Εξεταστικής Επιτροπής για τα κόκκινα δάνεια: Είναι μια νίκη της δημοκρατίας\n 18/11/2026 - 7:04 \n Βουλή: Πράσινο φως με 137 υπέρ και 157 «παρών» στην πρόταση ΣΥΡΙΖΑ για Εξεταστική για «κόκκινα δάνεια»\n 18/11/2026 - 3:46 \n Αλ. Τσίπρας στο Οικονομικό Συνέδριο της «Ν»: Πολιτική αλλαγή για άλλο παραγωγικό μοντέλο – «Θα υποσχεθώ όσα μπορούμε και θα κάνουμε όσα υποσχεθώ»\n 18/11/2026 - 3:41 \n Θ. Πλεύρης -ΥΠΕΞ Ρουάντας: Λεπτομέρειες για την μεταφορά μεταναστών σστο επίκεντρο της συνάντησης\n 18/11/2026 - 3:33 \n Προκλητικός Γκιουλέρ: Λαμβάνουμε διπλωματικά και στρατιωτικά μέτρα κατά των μονομερών πρωτοβουλιών της Ελλάδας στο Αιγαίο\n 18/11/2026 - 3:22 \n Κ. Τσουκαλάς: Πέτυχαν στην αλαζονεία, σκόραραν στη διαφθορά και τα σκάνδαλα και έκαναν hat-trick στις ανισότητες».\n 18/11/2026 - 3:03 \n ΣΥΡΙΖΑ-ΠΣ: Στη ΝΔ το 13ωρο βαφτίζεται μείωση του χρόνου εργασίας\n 18/11/2026 - 2:13 \n Πνινάτ Γιανάι στο 5ο Οικονομικό Συνέδριο της «Ν»: Οι ελληνικές επιχειρήσεις να αξιοποιήσουν τις ευκαιρίες του Horizon Europe\n 18/11/2026 - 1:51 \n Μητσοτάκης σε Χριστοδουλίδη για καλώδιο: Το έργο προχωρεί ομαλά, απρόσκοπτα και βάση του αρχικού σχεδιασμού\n 18/11/2026 - 12:00 \n Περιοδεία και σειρά επαφών Ανδρουλάκη στη Θεσσαλία\n 18/11/2026 - 10:53 \n Κ. Μητσοτάκης στο Οικονομικό Συνέδριο της Ναυτεμπορικής: Η Ελλάδα χρειάζεται ρεαλιστική ελπίδα\n Περισσότερα",
+      "issues": [],
+      "el": {
+        "title": "Η ισραηλινή και η ελληνική Πολεμική Αεροπορία ολοκλήρωσαν κοινή άσκηση στην Ελλάδα",
+        "dek": "Οι δύο αεροπορίες εξασκήθηκαν στον ανεφοδιασμό καυσίμων εν πτήσει για αποστολές μαχητικών αεροσκαφών μεγάλου βεληνεκούς, στο πλαίσιο κοινού προγράμματος εκπαίδευσης στην Ελλάδα.",
+        "tldr": [
+          "Η ισραηλινή και η ελληνική Πολεμική Αεροπορία πραγματοποίησαν κοινή αεροπορική άσκηση πάνω από την Ελλάδα.",
+          "Η άσκηση περιλάμβανε επιχειρήσεις ανεφοδιασμού μαχητικών αεροσκαφών εν πτήσει για αποστολές μεγάλου βεληνεκούς.",
+          "Η εκπαίδευση αποτελεί μέρος της τακτικής ετήσιας συνεργασίας μεταξύ των δύο στρατών."
+        ]
+      },
+      "notified": true
+    },
+    "27535e": {
+      "createdAt": 1795038785979,
+      "item": {
+        "title": "Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράση κατά του Ιράν",
+        "url": "https://www.in.gr/2026/11/18/world/sto-israil-o-epikefalis-tis-centcom-eno-o-netaniaxou-feretai-na-eksetazei-stratiotiki-drasi-kata-tou-iran/",
+        "summary": "ΜΜΕ αναφέρουν ότι το Ισραήλ εξετάζει το ενδεχόμενο στρατιωτικής δράσης κατά του Ιράν «στο άμεσο μέλλον», ενώ ο επικεφαλής της CENTCOM συναντάνται με τους επικεφαλής των IDF και της Μοσάντ. «Συζητούν διάφορα σενάρια», αναφέρθηκε.\n The post Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράση κατά του Ιράν appeared first on in.gr .",
+        "published": "Wed, 18 Nov 2026 21:00:29 +0200",
+        "id": "ca048d843da9",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "ca048d843da9",
+        "section": "israelis",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Reports on CENTCOM chief meetings in Israel amid regional tensions and discussions involving military options, important for our security-focused audience.",
+        "item": {
+          "title": "Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράση κατά του Ιράν",
+          "url": "https://www.in.gr/2026/11/18/world/sto-israil-o-epikefalis-tis-centcom-eno-o-netaniaxou-feretai-na-eksetazei-stratiotiki-drasi-kata-tou-iran/",
+          "summary": "ΜΜΕ αναφέρουν ότι το Ισραήλ εξετάζει το ενδεχόμενο στρατιωτικής δράσης κατά του Ιράν «στο άμεσο μέλλον», ενώ ο επικεφαλής της CENTCOM συναντάνται με τους επικεφαλής των IDF και της Μοσάντ. «Συζητούν διάφορα σενάρια», αναφέρθηκε.\n The post Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράση κατά του Ιράν appeared first on in.gr .",
+          "published": "Wed, 18 Nov 2026 21:00:29 +0200",
+          "id": "ca048d843da9",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "israel-centcom-chief-visit-iran-tensions",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "ביטחון ביוון",
+          "en": "Israel Security"
+        },
+        "imageKey": "politics",
+        "imageQuery": "middle east security defense meeting",
+        "he": {
+          "title": "ראש פיקוד המרכז של ארה\"ב ביקר ביראל על רקע המתיחות מול איראן",
+          "seoTitle": "המתיחות באיראן וביקור ראש פיקוד המרכז בישראל",
+          "seoDesc": "ראש פיקוד המרכז של ארה\"ב הגיע לביקור בישראל ונפגש עם בכירים ביטחוניים, בזמן שנתניהו שוקל צעדים צבאיים נגד איראן. כל הפרטים באתר יוונט.",
+          "keywords": [
+            "ביטחון ישראל איראן",
+            "פיקוד המרכז ארה\"ב",
+            "חדשות ביטחון יוון",
+            "המתיחות במזרח התיכון"
+          ],
+          "dek": "ראש פיקוד המרכז של ארה\"ב, נאוטרך ברנד קופר, ערך פגישות עבודה עם ראשי מערכת הביטחון הישראלית על רקע ההסלמה מול איראן והדיונים על פעולה צבאית אפשרית.",
+          "tldr": [
+            "ראש פיקוד המרכז של ארה\"ב, נאוטרך ברנד קופר, ביקר בישראל ונועד עם בכירים צבאיים.",
+            "הצדדים ערכו הערכת מצב משותפת ושוחחו על שיתוף פעולה אסטרטגי.",
+            "במקביל, נמשכים הדיווחים על דיונים אפשריים סביב תגובה צבאית נגד איראן."
+          ],
+          "means": "למרות שהאירועים מתרחשים בזירה המדינית-ביטחונית הרחבה, חשוב לעקוב אחר ההנחיות הרשמיות של הרשויות בישראל אם אתם נמצאים בחו\"ל או מתכננים נסיעות לאזור. מומלץ להתעדכן בערוצי החדשות המוסמכים ולהישמע להנחיות גורמי הביטחון.",
+          "body": "## ביקור ראש פיקוד המרכז בישראל\n\nראש פיקוד המרכז של ארה\"ב (CENTCOM), נאוטרך ברנד קופר, הגיע לישראל לפגישות עבודה בעקבות הזמנה של אֵיָל זָמִיר, רמטכ\"ל צבא ההגנה לישראל. הביטחון האזורי נמצא במוקד הדיונים.\n\nבמסגרת הביקור, השניים קיימו הערכת מצב משותפת יחד עם בכירים נוספים ממערכת הביטחון, בהם ראש אגף המבצעים, ראש אגף התכנון, ראש אגף התכנון, ראש אגף הדיור והמודיעין ומפקד חיל האוויר. כמו כן, נערכה פגישה משולשת נוספת בלשכת הרמטכ\"ל בתל אביב בהשתתפות ראש המוסד, רומן גופמן.\n\n## דיונים על שיתוף פעולה ביטחוני\n\nהצדדים דנו בהתפתחות האזוריים ובאתגרים הביטחוניים המשותפים לשתי המדינות. לפי הודעת צבא ההגנה לישראל, המטרה היא להעמיק את שיתוף הפעולה האסטרטגי והאופרטיבי, לחזק את התיאום ההדדי ולהעלות את רמת המוכנות מול מגוון תרחישים אפשריים.\n\nבמקביל להתפתחויות אלו, דווח כי גורמים שונים פועלים בזירה הדיפלומטית מול ארצות הברית כדי למנוע החמרה נוספת והיקלעויות לעימות כולל, תוך כדי שמיעת עמדות ממדינות האזור.\n\n## הערכות מצב ופעילות מדינית\n\nבזירה המדינית והתקשורתית נמשכים הדיווחים על שקילת צעדים צבאיים במציאות מורכבת זו. ארה\"ב ואיראן ממשיכות להחליף מהלומות באזור, וגורמים ביטחוניים ממשיכים לבחון את הצעדים הבאים בזהירות רבה.\n\nהתושבים והמבקרים באזור מתבקשים לעקוב אחר ההודעות הרשמיות של גורמי הביטחון ולפעול על פיהן בכל עת.\n\n## שאלות נפוצות\n\n**האם יש שינוי בהנחיות הביטחון בישראל?**\nיש לעקוב אחר הודעות דובר צה\"ל והגורמים המוסמכים המעודכנים בזמן אמת לגבי כל הנחיה חדשה.\n\n**מי השתתף בפגישות המרכזיות בישראל?**\nבראש הפגישות עמדו ראש פיקוד המרכז של ארה\"ב, רמטכ\"ל צבא ההגנה לישראל וראש המוסד, יחד עם שורת קצינים בכירים משני הצדדים."
+        },
+        "en": {
+          "title": "US CENTCOM Chief Visits Israel Amid Iran Tensions",
+          "seoTitle": "US CENTCOM Chief Israel Visit and Iran Tensions",
+          "seoDesc": "US CENTCOM chief Admiral Brad Cooper visited Israel for security talks as officials evaluate regional challenges. Read the latest updates on Yavanet.",
+          "keywords": [
+            "US CENTCOM chief Israel",
+            "Iran tensions news",
+            "Israel military updates",
+            "Middle East security news"
+          ],
+          "dek": "US Central Command chief Admiral Brad Cooper met with top Israeli military and intelligence officials to review regional security challenges and cooperation.",
+          "tldr": [
+            "US CENTCOM chief Admiral Brad Cooper visited Israel following an invitation from the IDF Chief of Staff.",
+            "The sides conducted a joint threat assessment and discussed strengthening strategic cooperation.",
+            "Discussions also touched upon regional developments and preparedness for various scenarios."
+          ],
+          "means": "While these developments unfold at a high diplomatic and security level, travelers and residents should remain informed via official channels. Always check updates from authorized security bodies when planning activities.",
+          "body": "## CENTCOM Chief Visit to Israel\n\nAdmiral Brad Cooper, head of the US Central Command (CENTCOM), arrived in Israel for a series of high-level meetings following an invitation from IDF Chief of Staff Lieutenant General Eyal Zamir.\n\nThe discussions focused on regional developments and shared security challenges. A joint assessment of the situation was conducted by senior officials from both nations, including key commanders from operations, planning, intelligence, and the air force. A separate trilateral meeting was also held at the IDF headquarters in Tel Aviv, involving Zamir, Mossad director Roman Gofman, and Cooper.\n\n## Enhancing Strategic Cooperation\n\nAccording to the official announcements, the meetings emphasized the importance of deepening strategic and operational cooperation between the two militaries. Both sides reviewed ways to enhance coordination and maintain readiness to address potential scenarios in the region.\n\nMeanwhile, diplomatic and intelligence efforts continue internationally, with various parties engaging to navigate the complex security environment and monitor developments closely.\n\n## Regional Situation and Next Steps\n\nAmid ongoing regional friction and mutual actions between the US and regional actors, analysts note that the situation remains sensitive. Authorities continue to evaluate risks carefully while maintaining close contact.\n\nResidents and travelers are advised to stay updated through official advisories and follow guidance issued by relevant security authorities.\n\n## FAQ\n\n**What was the main purpose of the CENTCOM chief's visit to Israel?**\nAdmiral Brad Cooper arrived to conduct a joint situation assessment and discuss regional security challenges and strategic cooperation with senior Israeli officials.\n\n**Who participated in the meetings alongside Admiral Cooper?**\nParticipants included the IDF Chief of Staff, the Director of the Mossad, and top commanders from Israeli military directorates and the air force."
+        }
+      },
+      "text": "Vita.gr \n Γιατί δεν πρέπει να παίρνετε τίποτα προσωπικά – 8 αλήθειες που θα σας απελευθερώσουν\n Spotlight Ισόβια στη μητέρα που είχε αφήσει την τρίχρονη κόρη της να πνιγεί στην παραλία Έδεμ \n Διαφωνία ανακρίτριας και εισαγγελέα για την 34χρονη στο Ζεφύρι – Σε κατ’ οίκον περιορισμό \n Ουκρανία – Πρώην σύμβουλος Μπους: Τα εδάφη θα κριθούν στη μάχη, η ασφάλεια στο τραπέζι των διαπραγματεύσεων \n Δίκη για τα Τέμπη: «Είχα ένα συναίσθημα ότι δεν θα ζήσω, πως θα δω τον θάνατό μου» \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Τύμπανα πολέμου ακούγονται ξανά στη Μέση Ανατολή, ενώ ΗΠΑ και Ιράν ανταλλάσσουν πλήγματα και στην περιοχή βρίσκεται και τρίτο αεροπλανοφόρο των ΗΠΑ. Σύμφωνα με ισραηλινά ΜΜΕ, η κυβέρνηση Νετανιάχου στο Ισραήλ εξετάζει το ενδεχόμενο στρατιωτικής δράσης κατά του Ιράν στο άμεσο μέλλον, ενώ ο επικεφαλής της Μοσάντ φέρεται ότι ζήτησε από την Ουάσιγκτον, κατά την επίσκεψή του στις ΗΠΑ , επανεκκίνηση των στρατιωτικών επιχειρήσεων.\n Στο Ισραήλ ο επικεφαλής της CENTCOM\n Ο επικεφαλής της Κεντρικής Διοίκησης των ΗΠΑ (CENTCOM), Ναύαρχος Μπραντ Κούπερ, πραγματοποίησε τριμερή συνάντηση με τον Αρχηγό του Γενικού Επιτελείου των IDF (Ισραηλινές Ένοπλες Δυνάμεις), αντιστράτηγο Εγιάλ Ζαμίρ, και τον διευθυντή της Μοσάντ, Ρόμαν Γκόφμαν, λίγες ημέρες μετά την επίσκεψη του δεύτερου στην Ουάσιγκτον .\n Σύμφωνα με την ανακοίνωση του ισραηλινού στρατού, ο Κούπερ έφτασε στο Ισραήλ κατόπιν πρόσκλησης του Ζαμίρ, στο πλαίσιο της επίσκεψης του επικεφαλής της CENTCOM στη Μέση Ανατολή.\n Και επισημαίνει ότι οι Ζαμίρ και Κούπερ προέβησαν σε κοινή αξιολόγηση της κατάστασης. Στη συνάντηση συμμετείχαν επίσης ο επικεφαλής της Διεύθυνσης Επιχειρήσεων του Ισραήλ, υποστράτηγος Ιτζίκ Κοέν, ο επικεφαλής της Διεύθυνσης Σχεδιασμού, υποστράτηγος Χιντάι Ζίλμπερμαν, ο επικεφαλής της Διεύθυνσης Πληροφοριών, υποστράτηγος Σλόμι Μπίντερ, ο επικεφαλής της Πολεμικής Αεροπορίας, υποστράτηγος Ομέρ Τίσλερ, καθώς και άλλοι ανώτατοι αξιωματικοί και από τις δύο πλευρές.\n Αυτό που συζήτησαν, σύμφωνα με την ανακοίνωση των IDF, ήταν «οι περιφερειακές εξελίξεις και οι κοινές προκλήσεις ασφαλείας». Επίσης, η «σημασία της εμβάθυνσης της στρατηγικής και επιχειρησιακής συνεργασίας μεταξύ των δύο στρατών, της ενίσχυσης του συντονισμού και της θωράκισης της κοινής ετοιμότητας για την αντιμετώπιση διαφόρων σεναρίων».\n Παράλληλα, πραγματοποιήθηκε ξεχωριστή τριμερής συνάντηση μεταξύ των Ζαμίρ, Γκόφμαν και Κούπερ στο αρχηγείο των IDF στο Τελ Αβίβ.\n Επιχείρηση στο «άμεσο μέλλον»\n Την ίδια ώρα, το τηλεοπτικό δίκτυο Channel 12 μετέδωσε –χωρίς να επικαλείται συγκεκριμένη πηγή- ότι το Ισραήλ εξετάζει το ενδεχόμενο στρατιωτικής δράσης κατά του Ιράν τις επόμενες ημέρες. Και πως ο Μπενιαμίν Νετανιάχου συναντάται απόψε με στενούς συνεργάτες του, για να συζητήσουν τις προκλήσεις ασφαλείας.\n Επίσης, η ομάδα υπό τον Γκάντι Άιζενκοτ, που έχει λάβει εντολή σχηματισμού κυβέρνηση, αναφέρθηκε ακροθιγώς στο ενδεχόμενο στρατιωτικής δράσης. Σε δήλωσή της αναφέρει ότι αναγνωρίζει «την πραγματική κατάσταση έκτακτης ανάγκης που αντιμετωπίζει το Ισραήλ —σε θέματα ασφάλειας, κοινωνικά και διεθνή ζητήματα— καθώς και η κρισιμότητα των ημερών που έρχονται».\n Ο Γκόφμαν ζήτησε επιστροφή στον πόλεμο\n Το πολεμικό κλίμα ενισχύουν και οι πληροφορίες ότι ο επικεφαλής της Μοσάντ, Ρόμαν Γκόφμαν, κατά την επίσκεψή του στην Ουάσιγκτον, ζήτησε νέα πλήγματα κατά του Ιράν.\n Πρόσωπα που είναι ενήμερα για την επίσκεψη στις ΗΠΑ αναφέρουν ότι ο επικεφαλής της ισραηλινής υπηρεσίας πληροφοριών τάχθηκε υπέρ κοινών αμερικανοϊσραηλινών πληγμάτων κατά του Ιράν, στο πλαίσιο συναντήσεων που είχε με Αμερικανούς αξιωματούχους.\n Ο Ρόμαν Γκόφμαν συναντήθηκε στην Ουάσιγκτον με αξιωματούχους της κυβέρνησης Τραμπ, μεταξύ των οποίων και ο διευθυντής της CIA, Τζον Ράτκλιφ. Σύμφωνα με τις πηγές, που μίλησαν στους Times of Israel, ο επικεφαλής της Μοσάντ ενημέρωσε τους Αμερικανούς αξιωματούχους για τις πληροφορίες που διαθέτουν οι ισραηλινές υπηρεσίες σχετικά με το Ιράν.\n Συνάντηση με Γουίτκοφ\n Όπως μετέδωσαν ισραηλινά μέσα ενημέρωσης, ο Γκόφμαν ταξίδεψε επίσης στο Μαϊάμι. Εκεί συνάντησε τον ειδικό απεσταλμένο του Αμερικανού προέδρου Ντόναλντ Τραμπ, Στιβ Γουίτκοφ, ο οποίος συμμετέχει στον χειρισμό της αμερικανικής διπλωματίας όσον αφορά το Ιράν και την Ουκρανία.\n Η επίσκεψη Γκόφμαν στις ΗΠΑ πραγματοποιήθηκε αφότου ο Τραμπ δήλωσε, στις 9 Νοεμβρίου, ότι θα ανέβαλλε τυχόν πλήγματα κατά του Ιράν. Είχε προηγηθεί η συνάντηση του Αμερικανού προέδρου με τον πρωθυπουργό του Κατάρ, χώρας που λειτουργεί ως διαμεσολαβητής στις έμμεσες συνομιλίες μεταξύ ΗΠΑ και Ιράν, με στόχο την αποφυγή μιας επιστροφής σε πόλεμο πλήρους κλίμακας.\n Επίσης, σύμφωνα με τους Times of Israel, τρίτο πρόσωπο, που εμπλέκεται στις διπλωματικές προσπάθειες μεταξύ ΗΠΑ και Ιράν, αναφέρει ότι ηγέτες κρατών του Κόλπου επικοινώνησαν με τον Τραμπ ζητώντας του να μην επιτεθεί στο Ιράν. Του επισήμαναν πως φοβούνται ότι η Τεχεράνη θα υλοποιήσει τις απειλές της για αντίποινα εναντίον των αραβικών κρατών του Κόλπου.\n Επίσης, το ταξίδι του επικεφαλής της Μοσάντ, Ρόμαν Γκόφμαν, στις ΗΠΑ πραγματοποιήθηκε σε μια συγκυρία κατά την οποία ο υπηρεσιακός πρωθυπουργός του Ισραήλ, Μπενιαμίν Νετανιάχου, καταβάλλει προσπάθειες να πείσει τον Τραμπ να εξαπολύσει μια νέα στρατιωτική επίθεση κατά του Ιράν.\n Ασταθής κατάσταση\n Ταυτόχρονα ΗΠΑ και Ιράν ανταλλάσσουν πλήγματα. Ιρανικές δυνάμεις έβαλαν στο στόχαστρο στρατιωτικές βάσεις στο Μπαχρέιν και το Κουβέιτ. Οι ΗΠΑ έπληξαν στρατιωτικές εγκαταστάσεις και εγκαταστάσεις ραντάρ στο νότιο Ιράν, μετά από μια σειρά επιθέσεων κατά πλοίων στα Στενά του Ορμούζ.\n Προς το παρόν, ΗΠΑ και Ιράν δείχνουν να διστάζουν να προχωρήσουν σε ευρύ και ανοιχτό πόλεμο. Ωστόσο, σύμφωνα με αναλυτές, η τρέχουσα κατάσταση είναι ιδιαίτερα ασταθής. Αν κλιμακωθεί εκ νέου σε ολοκληρωτικό πόλεμο, σε αυτόν θα μπορούσε να εμπλακεί ξανά και το Ισραήλ, πράγμα που επιδιώκει, συμμετέχοντας στα πλήγματα κατά του Ιράν.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: «Frisco King» – O Σάμιουελ Λ. Τζάκσον είναι ο Νο1 παράνομος των προαστίων του Τέξας \n Καταγγελίες του Πίνκνεϊ: «Ήμουν στην ΑΕΚ για δύο μήνες και δεν με πλήρωσαν ποτέ» (pic) \n ΕΛΑΣ: Πέντε αλήθειες για τα funds και τα «κόκκινα δάνεια» που δεν χρειάζονται Εξεταστική, αλλά μνήμη \n Έπσταϊν: Φρικιαστικές φωτογραφίες από τη νεκροψία – Στη δημοσιότητα από τον αδερφό του, ζητά να γίνει έρευνα για ανθρωποκτονία \n Ορμούζ: Το αεροπλανοφόρο USS George Washington αποχωρεί από τον Κόλπο του Ομάν για την Ιαπωνία \n Μουντιάλ 2030: Τα διαλείμματα που φέρνουν εκατομμύρια \n Μέση Ανατολή: Προειδοποιήσεις σε Αμερικανούς πολίτες σε Σαουδική Αραβία και Μπαχρέιν για επιθέσεις \n Ομπράντοβιτς για Παναθηναϊκό: «Έχω έξυπνους ανθρώπους στην ομάδα μου και τους εμπιστεύομαι» \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "issues": [],
+      "el": {
+        "title": "Ο επικεφαλής της CENTCOM των ΗΠΑ επισκέπτεται το Ισραήλ εν μέσω εντάσεων με το Ιράν",
+        "dek": "Ο επικεφαλής της Κεντρικής Διοίκησης των ΗΠΑ, ναύαρχος Μπραντ Κούπερ, συναντήθηκε με ανώτατους Ιρασλινούς στρατιωτικούς και αξιωματούχους πληροφοριών για να εξετάσουν τις περιφερειακές προκλήσεις ασφαλείας και τη συνεργασία.",
+        "tldr": [
+          "Ο επικεφαλής της CENTCOM των ΗΠΑ, ναύαρχος Μπραντ Κούπερ, επισκέφθηκε το Ισραήλ κατόπιν πρόσκλησης του Αρχηγού του Επιτελείου των IDF.",
+          "Οι δύο πλευρές πραγματοποίησαν μια κοινή εκτίμηση απειλών και συζήτησαν την ενίσχυση της στρατηγικής συνεργασίας.",
+          "Οι συζητήσεις άγγιξαν επίσης τις περιφερειακές εξελίξεις και την ετοιμότητα για διάφορα σενάρια."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1689,12 +1913,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-18T17:26:17.602Z",
+      "at": "2026-11-18T21:51:05.247Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-18T17:26:18.596Z",
+      "at": "2026-11-18T21:51:06.002Z",
       "items": 5
     },
     "civilprotection": {
@@ -1705,27 +1929,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-18T17:26:20.503Z",
+      "at": "2026-11-18T21:51:07.919Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-18T17:26:20.648Z",
+      "at": "2026-11-18T21:51:08.366Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-18T17:26:22.041Z",
+      "at": "2026-11-18T21:51:09.198Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-18T17:26:23.067Z",
+      "at": "2026-11-18T21:51:10.090Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-18T17:26:24.613Z",
+      "at": "2026-11-18T21:51:11.075Z",
       "items": 10
     },
     "toi-greece": {
@@ -1736,23 +1960,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-18T17:26:25.256Z",
+      "at": "2026-11-18T21:51:11.682Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-18T17:26:25.594Z",
+      "at": "2026-11-18T21:51:11.978Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-18T17:26:26.167Z",
+      "at": "2026-11-18T21:51:12.572Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T17:26:26.394Z",
-      "items": 11
+      "at": "2026-11-18T21:51:12.792Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1761,12 +1985,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T17:26:19.665Z",
+      "at": "2026-11-18T21:51:06.736Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-18T17:26:27.302Z",
+      "at": "2026-11-18T21:51:13.490Z",
       "items": 0
     },
     "hcg": {
@@ -1777,39 +2001,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-18T17:26:28.708Z",
+      "at": "2026-11-18T21:51:14.803Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-18T17:26:28.911Z",
+      "at": "2026-11-18T21:51:15.049Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-18T17:26:29.049Z",
-      "items": 7
+      "at": "2026-11-18T21:51:15.196Z",
+      "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-18T17:26:29.289Z",
+      "at": "2026-11-18T21:51:15.395Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-18T17:26:29.614Z",
-      "items": 6
+      "at": "2026-11-18T21:51:15.731Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-18T17:26:30.046Z",
-      "items": 8
+      "at": "2026-11-18T21:51:16.124Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-18",
-    "count": 7,
+    "count": 8,
     "published": [
       {
         "slug": "adedy-strike-november-25",
@@ -1852,6 +2076,12 @@
         "title": "Domes Resorts Announces Three New Lifestyle Hotels in Greece for 2027",
         "at": "2026-11-18T19:30:19+02:00",
         "section": "real-estate"
+      },
+      {
+        "slug": "athens-tests-innovative-electric-bus-system",
+        "title": "Athens tests innovative electric bus system",
+        "at": "2026-11-18T23:53:50+02:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -1894,6 +2124,11 @@
         "title": "Police officer under investigation for hitting protester on the head (VIDEO)",
         "reason": "Ίδιο θέμα με «Athens: Key metro stations to close for Polytechnic uprising anniversary» – δεν γράφτηκε ξανά",
         "at": "2026-11-18T17:30:28.023Z"
+      },
+      {
+        "title": "Greece Foils Alleged Iranian Plot Targeting Jewish Businessman",
+        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
+        "at": "2026-11-18T21:52:06.814Z"
       }
     ],
     "errors": [],
@@ -2182,40 +2417,31 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-18T17:26:35.668Z",
-    "considered": 31,
-    "picked": 4,
+    "at": "2026-11-18T21:51:18.768Z",
+    "considered": 21,
+    "picked": 5,
     "items": [
-      "· naftemporiki | Φονική πυρκαγιά στο Ζεφύρι: Κατ οίκον περιορισμός για την 34χρονη κατηγορούμενη – «Καθημερ",
-      "· ktg | Egypt rejects Turkish-Libyan Memorandum as Invalid in UN note",
-      "· ert | Φονική πυρκαγιά στο Ζεφύρι: Διαφωνία ανακρίτριας και εισαγγελέα για την προφυλάκιση της 34",
-      "· naftemporiki | WP: Ο επικεφαλής της Μοσάντ ζήτησε νέα αμερικανο-ισραηλινά πλήγματα κατά του Ιράν κατά την",
-      "· naftemporiki | Ηρώ Χατζηγεωργίου (ΕTAΔ) στο Συνέδριο της «Ν»: Ζητούμενο η δημιουργία πραγματικής αξίας απ",
-      "✓ ktg | Police officer under investigation for hitting protester on the head (VIDEO)",
-      "· naftemporiki | 5ο Οικονομικό Συνέδριο της «Ν»: Παραγωγικότητα, ανθετικότητα, υποδομές και ρυθμιστικό πλαί",
-      "· gn-iefimerida | Φονική πυρκαγιά στο Ζεφύρι: Σε κατ' οίκον περιορισμό η 34χρονη Ρομά -Διαφώνησαν ανακρίτρια",
-      "· ert | Από τις βίλες της Μυκόνου στα ακίνητα – φιλέτα της Αττικής: Ο χάρτης της δεσμευμένης περιο",
-      "· gct | Stefanos Tsitsipas Opens Up About Rebuilding His Relationship With His Father",
-      "✓ gtp | Radisson Expands Greek Portfolio with New Hotels in Athens and Thessaloniki",
-      "· naftemporiki | Ν. Χαρδαλιάς: Από την έρευνα στην παραγωγή – Το σχέδιο της Περιφέρειας Αττικής",
-      "· naftemporiki | Ισραηλινά άρματα μάχης εισέβαλαν στην κεντρική Γάζα – Νεκροί από νέες επιθέσεις",
-      "· naftemporiki | Ali Fouladi (iLand) στο 5ο Οικονομικό Συνέδριο της «Ν»: Η Ελλάδα προσελκύει πλέον επενδυτέ",
-      "· naftemporiki | Η τριπλή έλικα της τουριστικής ανάπτυξης και το στοίχημα του 12μηνου τουρισμού στο 5ο συνέ",
-      "· ingr | Έπιασε δουλειά στο Κάρινγκτον ο Ποτσετίνο – Η πτήση με ιδιωτικό τζετ 70 εκατ. λιρών και η…",
-      "· naftemporiki | Β. Κουτσούκου (Υπ. Τουρισμού) στο 5ο Οικονομικό Συνέδριο της «Ν»: Στοίχημα ο τουρισμός όλο",
-      "· ert | Το Ισραήλ άρχισε νέα επιχείρηση στη Λωρίδα της Γάζας",
-      "· naftemporiki | Χανιά: Πυρκαγιά στον Σέμπρωνα",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Πέμπτη 19 Νοεμβρίου 2026 - πρωθυπ",
-      "· naftemporiki | Βόμβα τρισεκατομμυρίων εκτός ισολογισμού σωρεύουν οι κολοσσοί της τεχνολογίας",
-      "✓ ingr | ΑΔΕΔΥ: Μαθητές και εκπαιδευτικοί στην πανελλαδική απεργία της 25ης Νοεμβρίου",
-      "· minfin | Απολογισμός Εσόδων-Εξόδων Κρατικού Προϋπολογισμού 2025",
-      "· minfin | Ισολογισμός και Λοιπές Χρηματοοικονομικές Καταστάσεις 2025",
-      "· gn-pm | Κοινό Ανακοινωθέν 4ης Διακυβερνητικής Συνόδου Ελλάδας-Κύπρου - πρωθυπουργος",
-      "· gn-kathimerini | Ισραήλ: Η Κνεσέτ ξεκινά την αποξήλωση της νομοθετικής παρακαταθήκης Νετανιάχου - Kathimeri",
-      "· gn-kathimerini | Ρουμανία: Σεισμός μεγέθους 5,3 βαθμών έγινε αισθητός σε τέσσερις χώρες - Kathimerini",
-      "· gn-kathimerini | Ενοίκιο έναντι δόσης για τη διάσωση της πρώτης κατοικίας - Kathimerini",
-      "· gn-kathimerini | Ισραήλ: Η συμμαχία του Αϊζενκοτ κέρδισε την προεδρία της Κνεσέτ - Kathimerini",
-      "· gn-iefimerida | Νέο πρόεδρο εξέλεξε η Βουλή του Ισραήλ: Βαρύ πλήγμα για τον Νετανιάχου, ποιος είναι ο Καχά"
+      "· gct | Greenvolt Expands Renewable Energy Investments in Northern Greece",
+      "· gct | Giannis Calls Out Spoiled NBA Players Who Complain About Privileges",
+      "✓ gct | Athens Tests Electric Buses That Recharge Using Existing Trolleybus Network",
+      "· ert | Ιράν: Τρία πετρελαιοφόρα έπιασαν φωτιά αφού χτύπησαν σε νάρκες έξω από τα Στενά του Ορμούζ",
+      "· ert | Ισραήλ: Ο επικεφαλής της Centcom συναντήθηκε με υψηλόβαθμα στελέχη του στρατού",
+      "· naftemporiki | Βραζιλία: Ισχυρή έκρηξη σε εργοστάσιο της Klabin – Τουλάχιστον 10 εργαζόμενοι τραυματίες",
+      "· gct | Israeli and Greek Air Forces Complete Joint Military Exercise",
+      "· gct | Cyprus Targets July 2027 Schengen Entry, Mitsotakis Says",
+      "· ingr | Άρης – Λε Μαν 96-86: Με «κουαρτέτο-φωτιά» συνέχισε τη νικηφόρα πορεία της η ομάδα του Σπαν",
+      "✓ gct | Greece Foils Alleged Iranian Plot Targeting Jewish Businessman",
+      "· gct | Turkey Sentences Istanbul Mayor Ekrem Imamoglu Again",
+      "· naftemporiki | Αποκαλύψεις από τον Ισραηλινό επιχειρηματία που ήθελε να «τελειώσει» το Ιράν στην Αθήνα: Π",
+      "· gct | Cyprus and Greece Vote Against UN-OIC Cooperation Resolution",
+      "· gct | US Democrats Vow to Continue Investigation Into Kimberly Guilfoyle",
+      "· gn-kathimerini | Ισραήλ: Συνάντηση του επικεφαλής της CENTCOM με υψηλόβαθμα στελέχη του στρατού - Kathimeri",
+      "✓ ingr | Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράσ",
+      "· ert | Μπαρτζώκας στους παίκτες του: «Είστε η καλύτερη ομάδα στη Euroleague»",
+      "✓ naftemporiki | Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκο",
+      "· naftemporiki | Χρηματιστήριο: Οκτώ «χαρτιά» με… γεμάτη αποτίμηση",
+      "· ert | Αναστολή λειτουργίας του τουριστικού πρακτορείου «Ζορπίδης»: Στην Επιθεώρηση Εργασίας πρώη",
+      "✓ gtp | Radisson Expands Greek Portfolio with New Hotels in Athens and Thessaloniki"
     ]
   },
   "evergreenDone": [
