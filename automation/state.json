@@ -1697,7 +1697,19 @@
     "8476e1b23b1e": 1795038678768,
     "34784ccb12e7": 1795038678768,
     "19b975d0aed8": 1795038678768,
-    "fae100e6bf57": 1795038678768
+    "fae100e6bf57": 1795038678768,
+    "5f15262f2cf6": 1795044456473,
+    "6dba19480a94": 1795044456473,
+    "e87b6db79529": 1795044456473,
+    "a41104ba8cd9": 1795044456473,
+    "c33ccec956c5": 1795044456473,
+    "6ea59d65b503": 1795044456473,
+    "ffc4041535b3": 1795044456473,
+    "5871d1080d47": 1795044456473,
+    "769acb6c3cf5": 1795044456473,
+    "a4d6ce9d0223": 1795044456473,
+    "29f4dd4d8797": 1795044456473,
+    "34dfbcf00833": 1795044456473
   },
   "pending": {
     "66d228": {
@@ -1902,6 +1914,109 @@
         ]
       },
       "notified": true
+    },
+    "b84902": {
+      "createdAt": 1795044471704,
+      "item": {
+        "title": "Greece Plans €960 Minimum Wage and 10% Seniority Increases",
+        "url": "https://greekcitytimes.com/2026/11/19/greece-plans-e960-minimum-wage-and-10-seniority-increases/",
+        "summary": "Greek workers completing three years of recognised service will receive a 10% pay increase from January 2027, with a minimum wage rise expected in April.\n The post Greece Plans €960 Minimum Wage and 10% Seniority Increases appeared first on Greek City Times .",
+        "published": "Wed, 18 Nov 2026 22:33:28 +0000",
+        "id": "e87b6db79529",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "e87b6db79529",
+        "section": "living",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greece plans a €960 minimum wage and 10% seniority increases by 2027, mattering directly to Israeli residents working or employing people in Greece.",
+        "item": {
+          "title": "Greece Plans €960 Minimum Wage and 10% Seniority Increases",
+          "url": "https://greekcitytimes.com/2026/11/19/greece-plans-e960-minimum-wage-and-10-seniority-increases/",
+          "summary": "Greek workers completing three years of recognised service will receive a 10% pay increase from January 2027, with a minimum wage rise expected in April.\n The post Greece Plans €960 Minimum Wage and 10% Seniority Increases appeared first on Greek City Times .",
+          "published": "Wed, 18 Nov 2026 22:33:28 +0000",
+          "id": "e87b6db79529",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-minimum-wage-seniority-2027",
+        "section": "living",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון שכר",
+          "en": "Wage Update"
+        },
+        "imageKey": "people",
+        "imageQuery": "office workers modern business",
+        "he": {
+          "title": "יוון מתכננת לעדכן את שכר המינימום ואת תוספות הוותק ב-2027",
+          "seoTitle": "שכר המינימום ביוון: עדכונים והעלאות שכר הצפויות ב-2027",
+          "seoDesc": "ממשלת יוון מתכננת להעלות את שכר המינימום ל-960 אירו ולהוסיף תוספות וותק והפחתת הפרשות החל מ-2027. כל הפרטים לישראלים החיים ומתנהלים ביוון.",
+          "keywords": [
+            "שכר המינימום ביוון",
+            "יוון 2027",
+            "מחיה ביוון",
+            "משכורות ביוון",
+            "עבודה ביוון"
+          ],
+          "dek": "תוכנית חדשה ביוון צפויה לעדכן את שכר המינימום בחודשים הקרובים, לצד מתן תוספות וותק והפחתה בדמי הביטוח הלאומי לעובדים החל מראשית שנת 2027.",
+          "tldr": [
+            "שכר המינימום ביוון צפוי לעלות ל-960 אירו בחודש החל מאפריל 2027.",
+            "עובדים שישלימו תקופת שירות של שלוש שנים יהיו זכאים לתוספת וותק של 10%.",
+            "הפרשות עובדים לביטוח הלאומי צפויות לרדת ב-0.5 אחוזים באפריל 2027."
+          ],
+          "means": "עבור ישראלים החיים ביוון, עובדים מקומיים או שוקלים מעבר, מדובר בעדכונים משמעותיים בשוק העבודה המקומי. מומלץ לעקוב אחר הודעות רשמיות של הרשויות ביוון ולהתעדכן מול רואי חשבון או גורמי מקצוע מוסמכים בכל הנוגע לחוזי עבודה והפרשות סוציאליות.",
+          "body": "## שינויים מתוכננים בשכר המינימום ביוון\n\nשוק העבודה ביוון צפוי לעבור שורה של עדכונים משמעותיים בשנת 2027. על פי דיווחים שמבוססים על נתוני סוכנות הידיעות AMNA, הממשלה מתכננת צעדים שונים שישפיעו על גובה השכר וההפרשות הסוציאליות של השכירים במדינה החל מהחודשים הראשונים של השנה הבאה.\n\nהתוכנית כוללת שילוב של עדכונים בשכר המינימום, הפעלת מנגנוני וותק והפחתה מתונה בנטל ההפרשות הסוציאליות. המטרה היא להקל על העובדים ולהתאים את שכר הבסיס לעלויות המחיה המשתנות, אם כי חלק מההחלטות המרכזיות טרם קיבלו אישור רשמי סופי מהממשלה.\n\n## תוספות וותק ושכר חדש לשכירים\n\nהחל מ-1 בינואר 2027, עובדים שישלימו שלוש שנים של שירות מוכר יהיו זכאים לתוספת שכר של 10 אחוזים. מנגנון זה, הידוע כתקופת וותק של שלוש שנים, צפוי להיטיב בעיקר עם עובדים המרוויחים את שכר המינימום ומשלימים את תקופת הוותק הראשונה שלהם מאז חידוש דמי הוותק בתחילת שנת 2024.\n\nבהתבסס על שכר המינימום החודשי הנוכחי שעומד על 920 אירו ברוטו, תוספת זו תוסיף 92 אירו לחודש ותביא את הסך הכל ל-1,012 אירו. בנוסף, באפריל 2027 צפוי שכר המינימום עצמו לעלות לרמה של 960 אירו ברוטו בחודש במסגרת התרחיש המרכזי של הרשויות.\n\n## הפחתת הפרשות לביטוח הלאומי\n\nלצד העדכונים בשכר, הממשלה מתכננת להפחית את דמי הביטוח הלאומי של העובדים ב-0.5 אחוזים החל מאפריל 2027. הפחתה זו צפויה להקטין את הניכויים החודשיים בסכום קטן יחסית עבור עובדים שונים בהתאם לרמת השכר שלהם.\n\nהצעדים המתוכננים נועדו להגדיל את ההכנסה הפנויה של עובדים המשתכרים שכר מינימום זכאי, ובמקביל להקטין במעט את ניכויי הביטוח הלאומי בכלל כוח האדם המועסק במשק היווני.\n\n## שאלות נפוצות\n\n**מתי צפוי שכר המינימום לעלות ביוון?**\nשכר המינימום צפוי לעלות לרמה של 960 אירו ברוטו בחודש החל מ-1 באפריל 2027, במסגרת התרחיש המרכזי של הממשלה.\n\n**למי מגיעה תוספת הוותק של 10 אחוזים?**\nהתוספת מיועדת לעובדים המשלמים שכר מינימום ומשלימים שלוש שנים של שירות מוכר, החל מ-1 בינואר 2027.\n\n**האם דמי הביטוח הלאומי צפויים לרדת?**\nכן, הממשלה מתכננת להפחית את הפרשות העובדים לביטוח הלאומי ב-0.5 אחוזים החל מאפריל 2027."
+        },
+        "en": {
+          "title": "Greece Plans Minimum Wage Increase and Seniority Rises for 2027",
+          "seoTitle": "Greece Minimum Wage 2027: Planned Increases and Social Security",
+          "seoDesc": "Greece plans to raise the minimum wage to €960, introduce seniority increments, and lower social security contributions in 2027. Details for residents.",
+          "keywords": [
+            "Greece minimum wage",
+            "Greece wages 2027",
+            "living in Greece",
+            "Greek labor market",
+            "social security Greece"
+          ],
+          "dek": "Workers in Greece are set to see salary adjustments, seniority increments, and lower social security deductions starting from early 2027 under new government plans.",
+          "tldr": [
+            "The gross monthly minimum wage is expected to rise to €960 from April 2027.",
+            "Workers completing three years of service qualify for a 10% seniority salary increase from January 2027.",
+            "Employees' social security contributions are planned to fall by 0.5 percentage points in April 2027."
+          ],
+          "means": "For Israelis living in Greece or navigating local employment, these upcoming adjustments affect payroll calculations and tax deductions. It is recommended to check official announcements and consult with qualified professionals regarding employment contracts and social contributions.",
+          "body": "## Planned Adjustments to the Greek Minimum Wage\n\nThe Greek labor market is preparing for significant wage updates heading into 2027. According to reports based on data from the AMNA news agency, the government is planning a series of measures that will impact employee earnings and social security contributions starting in the early months of next year.\n\nThe proposed framework combines increases in the baseline minimum wage, the application of seniority increments, and a moderate reduction in employee social security burdens. These steps aim to support workers as living costs evolve, though final official announcements are still pending from the authorities.\n\n## Seniority Increments and Salary Brackets\n\nStarting on 1 January 2027, workers who complete three years of recognized service will qualify for a 10 percent salary increase. This seniority increment will primarily benefit employees earning the minimum wage who reach their first three-year milestone following the reinstatement of seniority allowances.\n\nBased on the current gross monthly minimum wage of €920, this increase adds €92 to monthly earnings, bringing the total to €1,012. Furthermore, the main scenario points to an adjustment of the general minimum wage to €960 gross per month starting from 1 April 2027.\n\n## Reduction in Social Security Contributions\n\nAlongside wage adjustments, the government plans to reduce employees' social security contributions by 0.5 percentage points starting in April 2027. This targeted reduction will lower monthly deductions for workers across different income brackets.\n\nThe planned measures are designed to increase net earnings for eligible minimum-wage earners while slightly lowering social security deductions across the wider workforce in Greece.\n\n## FAQ\n\n**When is the minimum wage expected to rise in Greece?**\nThe main scenario points to an adjustment of the gross monthly minimum wage to €960 starting from 1 April 2027.\n\n**Who qualifies for the 10 percent seniority increase?**\nWorkers completing three years of recognized service qualify for the increment, which primarily benefits minimum-wage earners from 1 January 2027.\n\n**Will social security contributions decrease for employees?**\nYes, the government plans to reduce employees' social security contributions by 0.5 percentage points starting in April 2027."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Workers in Greece who complete three years of recognised service will qualify for a 10% salary increase from 1 January 2027, while a further increase in the minimum wage and a reduction in social security contributions are expected from April.\n The three-year seniority increment, known as triennia , will primarily benefit employees earning the minimum wage who complete their first three-year period following the reinstatement of seniority allowances on 1 January 2024.\n Based on the current gross monthly minimum wage of €920, the 10% increase will add €92 to monthly earnings, bringing the total to €1,012.\n Minimum Wage Expected to Rise to €960 \n A further increase in Greece’s minimum wage is expected from 1 April 2027, with the main scenario pointing to an adjustment from €920 to €960 gross per month.\n Read more: Greek Wages Climb by 30% Since 2019 as Unemployment Falls \n The government has not officially announced the decision. If the proposed increase goes ahead, monthly gross earnings would reach the following levels:\n Without a three-year increment: €960 \n With one three-year increment: €1,056\n With two three-year increments: €1,152 \n With three three-year increments: €1,248\n Each completed three-year period qualifies workers for an additional 10% on the minimum wage, up to a maximum of three increments, or 30%.\n Social Security Contributions to Fall from April 2027 \n The government also plans to reduce employees’ social security contributions by 0.5 percentage points from April 2027.\n The reduction will lower monthly deductions by approximately €7.50 for employees earning €1,500 gross and €10 for those earning €2,000 gross.\n The planned measures would increase earnings for eligible minimum-wage workers while slightly reducing social security deductions across the workforce.\n (Source: AMNA)\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greek Digital Labour Card to Cover 2.5 Million Workers \n Greece Has the Second-Lowest Average Salary in the EU, Eurostat Says \n Greece Ranks Ahead of 10 EU Countries in Net Earnings \n Greece Subsidises 27,494 Jobs for Unemployed People Over 30 \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greek Consumer Ombudsman Issues Black Friday Warning \n No Newer Articles \n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα σχεδιάζει αύξηση του κατώτατου μισθού και των τριετιών για το 2027",
+        "dek": "Οι εργαζόμενοι στην Ελλάδα αναμένεται να δουν αυξήσεις στους μισθούς, προσαυξήσεις λόγω προϋπηρεσίας και μειωμένες ασφαλιστικές εισφορές από τις αρχές του 2027, σύμφωνα με τα νέα κυβερνητικά σχέδια.",
+        "tldr": [
+          "Ο ακαθάριστος μηνιαίος κατώτατος μισθός αναμένεται να αυξηθεί στα 960 ευρώ από τον Απρίλιο του 2027.",
+          "Οι εργαζόμενοι που συμπληρώνουν τρία χρόνια υπηρεσίας δικαιούνται αύξηση μισθού λόγω προϋπηρεσίας κατά 10% από τον Ιανουάριο του 2027.",
+          "Οι ασφαλιστικές εισφορές των εργαζομένων σχεδιάζεται να μειωθούν κατά 0,5 ποσοστιαίες μονάδες τον Απρίλιο του 2027."
+        ]
+      },
+      "notified": true
     }
   },
   "sourceStatus": {
@@ -1913,12 +2028,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-18T21:51:05.247Z",
+      "at": "2026-11-18T23:27:26.501Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-18T21:51:06.002Z",
+      "at": "2026-11-18T23:27:27.128Z",
       "items": 5
     },
     "civilprotection": {
@@ -1929,27 +2044,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-18T21:51:07.919Z",
+      "at": "2026-11-18T23:27:28.230Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-18T21:51:08.366Z",
+      "at": "2026-11-18T23:27:28.601Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-18T21:51:09.198Z",
+      "at": "2026-11-18T23:27:29.239Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-18T21:51:10.090Z",
+      "at": "2026-11-18T23:27:29.856Z",
       "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-18T21:51:11.075Z",
+      "at": "2026-11-18T23:27:30.701Z",
       "items": 10
     },
     "toi-greece": {
@@ -1960,22 +2075,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-18T21:51:11.682Z",
+      "at": "2026-11-18T23:27:31.091Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-18T21:51:11.978Z",
+      "at": "2026-11-18T23:27:31.191Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-18T21:51:12.572Z",
+      "at": "2026-11-18T23:27:31.394Z",
       "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T21:51:12.792Z",
+      "at": "2026-11-18T23:27:31.527Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1985,12 +2100,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T21:51:06.736Z",
+      "at": "2026-11-18T23:27:27.718Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-18T21:51:13.490Z",
+      "at": "2026-11-18T23:27:32.111Z",
       "items": 0
     },
     "hcg": {
@@ -2001,154 +2116,63 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-18T21:51:14.803Z",
+      "at": "2026-11-18T23:27:33.380Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-18T21:51:15.049Z",
+      "at": "2026-11-18T23:27:33.591Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-18T21:51:15.196Z",
-      "items": 8
+      "at": "2026-11-18T23:27:33.810Z",
+      "items": 7
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-18T21:51:15.395Z",
-      "items": 4
+      "at": "2026-11-18T23:27:34.058Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-18T21:51:15.731Z",
-      "items": 7
+      "at": "2026-11-18T23:27:34.555Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-18T21:51:16.124Z",
+      "at": "2026-11-18T23:27:34.945Z",
       "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-18",
-    "count": 8,
+    "date": "2026-11-19",
+    "count": 1,
     "published": [
       {
-        "slug": "adedy-strike-november-25",
-        "title": "Greece: 24-hour national strike on November 25",
-        "at": "2026-11-18T00:13:26+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "iranian-plot-foiled-greece",
-        "title": "Plot against Israeli citizen in Greece foiled",
-        "at": "2026-11-18T00:13:35+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "zorpidis-thessaloniki-suspension",
-        "title": "Thessaloniki: Zorpidis travel agency suspends operations",
-        "at": "2026-11-18T03:08:00+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "average-hotel-prices-greece-2026",
-        "title": "Average Hotel Room Prices in Greece Reach Near 300 Euros",
-        "at": "2026-11-18T10:30:12+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "enfia-tax-exemptions-2027",
-        "title": "Greece property tax 2027: New exemptions and discounts",
-        "at": "2026-11-18T15:50:57+02:00",
+        "slug": "radisson-expands-hotels-athens-thessaloniki",
+        "title": "Radisson Expands Greek Portfolio with New Hotels in Athens and Thessaloniki",
+        "at": "2026-11-19T01:28:16+02:00",
         "section": "real-estate"
-      },
-      {
-        "slug": "greece-tourism-resort-planning-court-appeals-2026",
-        "title": "Greece property and tourism: Local municipalities file court appeals",
-        "at": "2026-11-18T15:51:17+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "domes-resorts-three-new-hotels-greece-2027",
-        "title": "Domes Resorts Announces Three New Lifestyle Hotels in Greece for 2027",
-        "at": "2026-11-18T19:30:19+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-tests-innovative-electric-bus-system",
-        "title": "Athens tests innovative electric bus system",
-        "at": "2026-11-18T23:53:50+02:00",
-        "section": "living"
       }
     ],
     "rejected": [
       {
-        "title": "ΑΔΕΔΥ: Πανελλαδική 24ωρη απεργία στις 25 Νοεμβρίου - Kathimerini",
-        "reason": "Ίδιο θέμα με «Greece: 24-hour national strike on November 25» – δεν γράφτηκε ξανά",
-        "at": "2026-11-17T22:13:55.849Z"
-      },
-      {
-        "title": "Ποιο πρόσωπο ήταν στο στόχαστρο του ιρανικού δικτύου – Πώς οι Αρχές εντόπισαν τους «εκτελεστές»",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-17T22:14:00.357Z"
-      },
-      {
-        "title": "Arrested Albanian Exposed Suspected Iranian Terror Cell in Greece",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T01:08:17.982Z"
-      },
-      {
-        "title": "Επεισόδια στη Λεωφόρο Αλεξάνδρας μετά την πορεία του Πολυτεχνείου -Δύο τραυματίες, προσαγωγές μέσα σε σταθμό του μετρό [βίντεο] - iefimerida",
-        "reason": "Rule 8 & Source mismatch: Added facts and details not present in the source text, such as 'Tuesday evening', 'objects being thrown and physical confrontations', 'traffic disruptions', and specific advice about metro stations operating conditionally. The source only briefly mentions incidents on Alex",
-        "at": "2026-11-18T01:08:37.424Z"
-      },
-      {
-        "title": "Πώς οργανώθηκε το σχέδιο δολοφονίας Ισραηλινού στην Ελλάδα από το ιρανικό δίκτυο -Οι έρευνες της ΕΥΠ και η συνεργασία με την NSA για την απο",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T08:29:34.958Z"
-      },
-      {
-        "title": "Ιρανική πρεσβεία: «Αβάσιμες» οι αναφορές σε δίκτυο τρομοκρατών",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T13:51:47.408Z"
-      },
-      {
-        "title": "ΑΔΕΔΥ: Μαθητές και εκπαιδευτικοί στην πανελλαδική απεργία της 25ης Νοεμβρίου",
-        "reason": "Ίδιο θέμα με «Greece: 24-hour national strike on November 25» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T17:26:40.507Z"
-      },
-      {
-        "title": "Police officer under investigation for hitting protester on the head (VIDEO)",
-        "reason": "Ίδιο θέμα με «Athens: Key metro stations to close for Polytechnic uprising anniversary» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T17:30:28.023Z"
-      },
-      {
-        "title": "Greece Foils Alleged Iranian Plot Targeting Jewish Businessman",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T21:52:06.814Z"
+        "title": "Greece Has Fourth-Highest EU Inflation at 5.7%, Eurostat Confirms",
+        "reason": "Ίδιο θέμα με «Greece ranks first in EU for living costs and housing burden» – δεν γράφτηκε ξανά",
+        "at": "2026-11-18T23:28:00.674Z"
       }
     ],
     "errors": [],
-    "fb": [
-      {
-        "slug": "average-hotel-prices-greece-2026",
-        "at": "2026-11-18T08:30:12.933Z"
-      },
-      {
-        "slug": "enfia-tax-exemptions-2027",
-        "at": "2026-11-18T13:50:58.574Z"
-      },
-      {
-        "slug": "domes-resorts-three-new-hotels-greece-2027",
-        "at": "2026-11-18T17:30:20.396Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-18",
+      "count": 8,
+      "rejected": 9
+    },
     {
       "date": "2026-11-17",
       "count": 8,
@@ -2417,30 +2441,21 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-18T21:51:18.768Z",
-    "considered": 21,
-    "picked": 5,
+    "at": "2026-11-18T23:27:36.473Z",
+    "considered": 12,
+    "picked": 3,
     "items": [
-      "· gct | Greenvolt Expands Renewable Energy Investments in Northern Greece",
-      "· gct | Giannis Calls Out Spoiled NBA Players Who Complain About Privileges",
-      "✓ gct | Athens Tests Electric Buses That Recharge Using Existing Trolleybus Network",
-      "· ert | Ιράν: Τρία πετρελαιοφόρα έπιασαν φωτιά αφού χτύπησαν σε νάρκες έξω από τα Στενά του Ορμούζ",
-      "· ert | Ισραήλ: Ο επικεφαλής της Centcom συναντήθηκε με υψηλόβαθμα στελέχη του στρατού",
-      "· naftemporiki | Βραζιλία: Ισχυρή έκρηξη σε εργοστάσιο της Klabin – Τουλάχιστον 10 εργαζόμενοι τραυματίες",
-      "· gct | Israeli and Greek Air Forces Complete Joint Military Exercise",
-      "· gct | Cyprus Targets July 2027 Schengen Entry, Mitsotakis Says",
-      "· ingr | Άρης – Λε Μαν 96-86: Με «κουαρτέτο-φωτιά» συνέχισε τη νικηφόρα πορεία της η ομάδα του Σπαν",
-      "✓ gct | Greece Foils Alleged Iranian Plot Targeting Jewish Businessman",
-      "· gct | Turkey Sentences Istanbul Mayor Ekrem Imamoglu Again",
-      "· naftemporiki | Αποκαλύψεις από τον Ισραηλινό επιχειρηματία που ήθελε να «τελειώσει» το Ιράν στην Αθήνα: Π",
-      "· gct | Cyprus and Greece Vote Against UN-OIC Cooperation Resolution",
-      "· gct | US Democrats Vow to Continue Investigation Into Kimberly Guilfoyle",
-      "· gn-kathimerini | Ισραήλ: Συνάντηση του επικεφαλής της CENTCOM με υψηλόβαθμα στελέχη του στρατού - Kathimeri",
-      "✓ ingr | Στο Ισραήλ ο επικεφαλής της CENTCOM, ενώ ο Νετανιάχου φέρεται να εξετάζει στρατιωτική δράσ",
-      "· ert | Μπαρτζώκας στους παίκτες του: «Είστε η καλύτερη ομάδα στη Euroleague»",
-      "✓ naftemporiki | Ολοκληρώθηκε η άσκηση Ελλάδας-Ισραήλ εναέριου ανεφοδιασμού «για αποστολές μεγάλου βεληνεκο",
-      "· naftemporiki | Χρηματιστήριο: Οκτώ «χαρτιά» με… γεμάτη αποτίμηση",
-      "· ert | Αναστολή λειτουργίας του τουριστικού πρακτορείου «Ζορπίδης»: Στην Επιθεώρηση Εργασίας πρώη",
+      "· gct | $20,000 Souvlaki Invoice at Centre of Australian Corruption Inquiry",
+      "· gct | Turkey Imprisons Istanbul Mayor and Strips Him of Political Rights",
+      "✓ gct | Greece Plans €960 Minimum Wage and 10% Seniority Increases",
+      "· gct | Greek Consumer Ombudsman Issues Black Friday Warning",
+      "· gct | Greece and Finland Explore New Areas of Economic Cooperation",
+      "· gct | Volos Brickworks Museum Reopens with World War II Exhibition",
+      "· gct | €400 Pensioner Payment Must Be Paid by 30 November",
+      "· gct | Manchester United Consider Greece Captain Vangelis Pavlidis",
+      "✓ gct | Greece Has Fourth-Highest EU Inflation at 5.7%, Eurostat Confirms",
+      "· gct | Olympiacos Secure Fourth Consecutive Champions League Win",
+      "· gct | Promitheas Patras Suffer Heavy Defeat in FIBA Europe Game",
       "✓ gtp | Radisson Expands Greek Portfolio with New Hotels in Athens and Thessaloniki"
     ]
   },
