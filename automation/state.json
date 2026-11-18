@@ -19,31 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "75c544e92a07": 1793754977912,
-    "a7d2df485347": 1793754977912,
-    "edc777feaea6": 1793754977912,
-    "85bcc5092915": 1793754977912,
-    "fe09a5df85e6": 1793754977912,
-    "c0b35cba8f83": 1793754977912,
-    "e6ff988c376b": 1793754977912,
-    "bf084282907e": 1793754977912,
-    "eefb09520bff": 1793754977912,
-    "882d1b5e4351": 1793754977912,
-    "1da7935244fc": 1793754977912,
-    "3ac963148113": 1793754977912,
-    "1c68edd7e2ac": 1793754977912,
-    "f4eb18ba3af8": 1793754977912,
-    "5157d57b272c": 1793754977912,
-    "98c0509f4480": 1793754977912,
-    "2f483b2acc80": 1793754977912,
-    "a64e922e10ae": 1793754977912,
-    "5d80f352497b": 1793754977912,
-    "d4dafa6a7ccc": 1793754977912,
-    "2def89aff68b": 1793754977912,
-    "e5b277f828de": 1793754977912,
-    "c916755ced0c": 1793754977912,
-    "8eb2418b6ff7": 1793754977912,
-    "572b4323cff0": 1793754977912,
     "496cd02a409f": 1793777815897,
     "050bd7792f03": 1793777815897,
     "6719182f2d8b": 1793777815897,
@@ -1666,7 +1641,18 @@
     "516b78266158": 1794964093929,
     "1c1571f91d41": 1794964093929,
     "4aefbb402855": 1794964093929,
-    "b4e1fee7e1b6": 1794964093929
+    "b4e1fee7e1b6": 1794964093929,
+    "1c537ecaef2f": 1794975045451,
+    "2648a9f48647": 1794975045451,
+    "9f594ef681f2": 1794975045451,
+    "a630fae3f28a": 1794975045451,
+    "4d12d1d67d0c": 1794975045451,
+    "c82c9da79712": 1794975045451,
+    "0f8af35b8eeb": 1794975045451,
+    "3c816ab497fc": 1794975045451,
+    "b3af85ad19db": 1794975045451,
+    "0953f8035cc3": 1794975045451,
+    "e1a128363fc6": 1794975045451
   },
   "pending": {},
   "sourceStatus": {
@@ -1678,12 +1664,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-18T01:08:03.617Z",
+      "at": "2026-11-18T04:10:35.144Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-18T01:08:04.300Z",
+      "at": "2026-11-18T04:10:35.754Z",
       "items": 5
     },
     "civilprotection": {
@@ -1694,27 +1680,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-18T01:08:05.647Z",
+      "at": "2026-11-18T04:10:37.016Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-18T01:08:05.998Z",
+      "at": "2026-11-18T04:10:37.290Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-18T01:08:06.680Z",
+      "at": "2026-11-18T04:10:38.771Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-18T01:08:07.351Z",
-      "items": 3
+      "at": "2026-11-18T04:10:39.620Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-18T01:08:07.954Z",
+      "at": "2026-11-18T04:10:40.044Z",
       "items": 10
     },
     "toi-greece": {
@@ -1725,22 +1711,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-18T01:08:08.368Z",
+      "at": "2026-11-18T04:10:40.527Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-18T01:08:08.404Z",
-      "items": 14
+      "at": "2026-11-18T04:10:40.860Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-18T01:08:08.739Z",
-      "items": 5
+      "at": "2026-11-18T04:10:41.013Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T01:08:08.882Z",
+      "at": "2026-11-18T04:10:41.229Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1750,12 +1736,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-18T01:08:05.032Z",
+      "at": "2026-11-18T04:10:36.099Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-18T01:08:09.450Z",
+      "at": "2026-11-18T04:10:41.767Z",
       "items": 0
     },
     "hcg": {
@@ -1766,32 +1752,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-18T01:08:11.024Z",
+      "at": "2026-11-18T04:10:42.879Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-18T01:08:11.273Z",
+      "at": "2026-11-18T04:10:43.132Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-18T01:08:11.487Z",
-      "items": 3
+      "at": "2026-11-18T04:10:43.317Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-18T01:08:11.788Z",
+      "at": "2026-11-18T04:10:43.595Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-18T01:08:12.314Z",
+      "at": "2026-11-18T04:10:43.969Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-18T01:08:12.738Z",
+      "at": "2026-11-18T04:10:44.377Z",
       "items": 8
     }
   },
@@ -2113,28 +2099,21 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-18T01:08:13.929Z",
-    "considered": 18,
-    "picked": 2,
+    "at": "2026-11-18T04:10:45.451Z",
+    "considered": 11,
+    "picked": 0,
     "items": [
-      "· gct | Former Wall Street Executive Pledges to Build on Less Than 1% of Ios",
-      "· ingr | Ισραήλ: Σκληρό πλήγμα για τον Νετανιάχου η απώλεια της προεδρίας στη Βουλή από τον Αϊζενκο",
-      "· gct | Temu Faces Potential EU Fine of Up to 6% of Global Revenue",
-      "· gct | Greece and Cyprus Put AI and Electricity Link at Centre of Summit",
-      "· gct | Greek Migrant Family Honoured at Sydney Welcome Wall Ceremony",
-      "· ert | Κρήτη: Σεισμός 3,5 Ρίχτερ στη Ζάκρο της Σητείας",
-      "· ingr | Ισραήλ: Πρόεδρος της Βουλής εξελέγη ένας συνεργάτης του Αϊζενκοτ – Σημαντική νίκη έναντι τ",
-      "· gct | Alexander the Great: the Debate Over his Greek Origins Settled",
-      "· ingr | Το Ισραήλ απειλεί τη Βρετανία με αντίμετρα, μετά τις κυρώσεις για την ανέγερση οικισμών στ",
-      "· gct | Turkey Accuses Cyprus and Greece of Airspace Violations",
-      "✓ gct | Arrested Albanian Exposed Suspected Iranian Terror Cell in Greece",
-      "· gct | US Seeks $502,000 From Bank Account of Kosta Diamantis",
-      "· gct | Egypt Submits Formal UN Challenge to Turkey-Libya Maritime Deal",
-      "· gct | Mitsotakis Says Polytechnic Uprising Ideals Shape Greece’s Future",
-      "· gct | Greece No Longer Has European Union’s Highest Public Debt",
-      "· ingr | Ιρλανδός κατηγορείται για ζημιές αξίας 60 εκατ. δολαρίων σε αμερικανικό C-130 – Το πούλησα",
-      "· gct | Turkish Documentary Honours Greek Doctor From Imbros",
-      "✓ gn-iefimerida | Επεισόδια στη Λεωφόρο Αλεξάνδρας μετά την πορεία του Πολυτεχνείου -Δύο τραυματίες, προσαγω"
+      "· ert | ΕΝΦΙΑ 2027: Ποιες είναι οι έξι κατηγορίες ιδιοκτητών που δικαιούνται απαλλαγές και εκπτώσε",
+      "· gct | Georgiadis Cites Polytechnic Report Recording 18 Deaths",
+      "· ert | Πώς απετράπη το δολοφονικό σχέδιο του ιρανικού δικτύου – Στόχος Ισραηλινός επιχειρηματίας ",
+      "· gct | Sudan Uncovers Monumental Medieval Christian Cathedral Compared to Hagia Sophia",
+      "· gct | Panagia Soumela Sydney Celebrates Pontian Heritage at 2026 Dance",
+      "· gct | Galaktoboureko or Galatopita – What do Greeks prefer?",
+      "· gct | Pastitsio vs Moussaka: What’s the Difference?",
+      "· ert | Ισραήλ: Βαριά πολιτική ήττα για τον Νετανιάχου – Στενός συνεργάτης του Άιζενκοτ νέος πρόεδ",
+      "· gct | More Than 20 Greek Australians Contest Seats in Victoria’s State Election",
+      "· gct | Bondi Beach Anniversary Events Set to Honour Attack Victims",
+      "· gtp | «Boutique Hotel»: Το ΞΕΕ ενισχύει την προστασία του συλλογικού σήματος πιστοποίησης"
     ]
   },
   "evergreenDone": [
