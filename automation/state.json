@@ -19,48 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "b075bfbfa00d": 1793860357174,
-    "b74084074837": 1793860357174,
-    "76ba0add3fb7": 1793860357174,
-    "45f8f0fbedce": 1793860357174,
-    "b92e4c5acd7e": 1793860357174,
-    "84ff2e5ca5c1": 1793860357174,
-    "83aefa5211cf": 1793860357174,
-    "359953456307": 1793860357174,
-    "63d282586a62": 1793860357174,
-    "04979d5446d9": 1793860357174,
-    "70675e35a7af": 1793860357174,
-    "6306a64c7212": 1793860357174,
-    "e670e34d54c2": 1793860357174,
-    "8149aafd466f": 1793860357174,
-    "161e928da527": 1793860357174,
-    "0d89c946bd85": 1793860357174,
-    "aa983952555a": 1793860357174,
-    "47c952880f17": 1793860357174,
-    "175d352e4144": 1793860357174,
-    "5c1a37eeeb86": 1793860357174,
-    "414cd7e7ca41": 1793860357174,
-    "abbe96d5b5de": 1793867346438,
-    "cde6eab7edb9": 1793867346438,
-    "960df4258534": 1793867346438,
-    "dd7e3126fc65": 1793867346438,
-    "131c5283c8ef": 1793867346438,
-    "e50d1673b2db": 1793867346438,
-    "d5546c132bd1": 1793867346438,
-    "fcc9f1e7c875": 1793867346438,
-    "cc7067caa4b9": 1793867346438,
-    "8d6cd00ec9fe": 1793867346438,
-    "60b402162bc4": 1793867346438,
-    "3fd7c0fd9ed5": 1793867346438,
-    "8fa4a402894d": 1793867346438,
-    "97276685e6d4": 1793867346438,
-    "f7c5c626d76b": 1793867346438,
-    "dae16545fd3f": 1793867346438,
-    "c988a87e497c": 1793867346438,
-    "837a94e44a3a": 1793867346438,
-    "ecac5594cc24": 1793867346438,
-    "e902d5ef2395": 1793867346438,
-    "ecc325600bb5": 1793867346438,
     "19f1eaec2e3d": 1793892288630,
     "e3e68eb15910": 1793892288630,
     "7a6c6a992c78": 1793892288630,
@@ -1695,7 +1653,46 @@
     "c78e7203644a": 1795058117961,
     "6de09f8943cd": 1795061986112,
     "0914c650bf84": 1795061986112,
-    "1ef38dfdd98d": 1795061986112
+    "1ef38dfdd98d": 1795061986112,
+    "566986a3a92a": 1795092777696,
+    "37a686657eb3": 1795092777696,
+    "5166e58edb58": 1795092777696,
+    "01d4bc12fcdd": 1795092777696,
+    "4450d8022fe0": 1795092777696,
+    "dcd7d74c318d": 1795092777696,
+    "db98960fdd5a": 1795092777696,
+    "b8b4761794eb": 1795092777696,
+    "89efa0b8bc2c": 1795092777696,
+    "2514c16913e2": 1795092777696,
+    "6c49aae51544": 1795092777696,
+    "d82b31b75d2a": 1795092777696,
+    "e0094cb7ed6c": 1795092777696,
+    "9b1ecdd83d51": 1795092777696,
+    "6be072085f02": 1795092777696,
+    "f6b33122a6f3": 1795092777696,
+    "9320fb209d47": 1795092777696,
+    "2879567ac01d": 1795092777696,
+    "a2f7569e129a": 1795092777696,
+    "bcbb518044e8": 1795092777696,
+    "c5a730a8b489": 1795092777696,
+    "1ae0d4cadefa": 1795092777696,
+    "0149b7fa9c93": 1795092777696,
+    "2a30c289635c": 1795092777696,
+    "9e28dda491db": 1795092777696,
+    "c6fc209a2cdd": 1795092777696,
+    "b498f75e3e99": 1795092777696,
+    "d9f18e92b70e": 1795092777696,
+    "3c31ebdb3c41": 1795092777696,
+    "41c2450bf2c9": 1795092777696,
+    "31819ac5d291": 1795092777696,
+    "4b470bf8ad1f": 1795092777696,
+    "3a2b458757fc": 1795092777696,
+    "32b37a46aab4": 1795092777696,
+    "648957a6c1e3": 1795092777696,
+    "7397ec2da4be": 1795092777696,
+    "f56f6d75ebb0": 1795092777696,
+    "7e5e2ea55b47": 1795092777696,
+    "9c839e1f884c": 1795092777696
   },
   "pending": {},
   "sourceStatus": {
@@ -1707,12 +1704,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-19T04:19:36.921Z",
+      "at": "2026-11-19T12:52:42.196Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-19T04:19:37.554Z",
+      "at": "2026-11-19T12:52:42.873Z",
       "items": 5
     },
     "civilprotection": {
@@ -1723,27 +1720,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-19T04:19:38.698Z",
+      "at": "2026-11-19T12:52:44.059Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-19T04:19:38.955Z",
+      "at": "2026-11-19T12:52:44.307Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-19T04:19:39.955Z",
+      "at": "2026-11-19T12:52:45.498Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-19T04:19:40.457Z",
-      "items": 3
+      "at": "2026-11-19T12:52:46.312Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-19T04:19:41.328Z",
+      "at": "2026-11-19T12:52:47.235Z",
       "items": 10
     },
     "toi-greece": {
@@ -1754,23 +1751,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-19T04:19:41.740Z",
+      "at": "2026-11-19T12:52:47.705Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-19T04:19:41.814Z",
+      "at": "2026-11-19T12:52:48.036Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-19T04:19:41.994Z",
-      "items": 7
+      "at": "2026-11-19T12:52:48.183Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T04:19:42.127Z",
-      "items": 4
+      "at": "2026-11-19T12:52:48.639Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1779,12 +1776,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T04:19:37.986Z",
+      "at": "2026-11-19T12:52:43.244Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-19T04:19:42.715Z",
+      "at": "2026-11-19T12:52:49.283Z",
       "items": 0
     },
     "hcg": {
@@ -1795,39 +1792,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-19T04:19:43.868Z",
+      "at": "2026-11-19T12:52:50.598Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-19T04:19:44.101Z",
-      "items": 0
+      "at": "2026-11-19T12:52:50.873Z",
+      "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-19T04:19:44.316Z",
-      "items": 7
+      "at": "2026-11-19T12:52:51.073Z",
+      "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-19T04:19:44.545Z",
-      "items": 4
+      "at": "2026-11-19T12:52:51.308Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-19T04:19:44.984Z",
-      "items": 5
+      "at": "2026-11-19T12:52:51.719Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-19T04:19:45.409Z",
-      "items": 5
+      "at": "2026-11-19T12:52:52.089Z",
+      "items": 6
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-19",
-    "count": 3,
+    "count": 6,
     "published": [
       {
         "slug": "radisson-expands-hotels-athens-thessaloniki",
@@ -1846,6 +1843,24 @@
         "title": "Greece Plans 960 Euro Minimum Wage and Seniority Increases for 2027",
         "at": "2026-11-19T05:15:04+02:00",
         "section": "living"
+      },
+      {
+        "slug": "greek-airport-traffic-september-2026",
+        "title": "Greek Airport Traffic Outpaces European Average in September",
+        "at": "2026-11-19T14:54:12+02:00",
+        "section": "travel"
+      },
+      {
+        "slug": "thessaloniki-rising-demand-short-term-rentals-expedia",
+        "title": "Thessaloniki Sees Rising Demand for Short-Term Rentals",
+        "at": "2026-11-19T14:54:38+02:00",
+        "section": "real-estate"
+      },
+      {
+        "slug": "athens-metro-line-2-early-closure",
+        "title": "Athens: Four Line 2 Metro Stations Closing Early Tonight",
+        "at": "2026-11-19T14:55:11+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -1858,10 +1873,21 @@
         "title": "Israeli and Hellenic Air Forces complete joint exercise in Greece",
         "reason": "Ουδέτερη εκδοχή: The Hebrew title contains a typographic error and mixed script in the word 'ע나ערי' which should be 'אווירי'.",
         "at": "2026-11-19T03:14:46.291Z"
+      },
+      {
+        "title": "«Ασπίδα» από τη Μοσάντ μετά το ιρανικό σχέδιο δολοφονίας στην Ελλάδα -Γιατί έγινε στόχος ο Ελληνοεβραίος επιχειρηματίας και η διάψευση του Ι",
+        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
+        "at": "2026-11-19T12:52:58.281Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "greek-airport-traffic-september-2026",
+        "at": "2026-11-19T12:54:12.727Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2137,13 +2163,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-19T04:19:46.112Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-11-19T12:52:57.696Z",
+    "considered": 40,
+    "picked": 5,
     "items": [
-      "· ingr | Ρεσιτάλ «ατυχίας» – ΗΠΑ: Σε 24 ώρες «κράσαραν» τράπεζες, εταιρείες, σύστημα της NSA και έπ",
-      "· ingr | Η παγίδα του «πόθεν έσχες» – Πώς οι χρυσές λίρες γίνονται φορολογικός Γολγοθάς",
-      "· ingr | Βοιωτία: 23χρονος ανασύρθηκε χωρίς τις αισθήσεις του κατά την κατάσβεση πυρκαγιάς σε αγροι"
+      "· naftemporiki | Φόβοι των επενδυτών ότι μια κυβέρνηση κατά των μεταναστών θα μπορούσε να στραγγαλίσει την ",
+      "· ktg | Femicide: Man in fury beats his wife, strangles her with bare hands",
+      "· gct | Cyberattack Hits European Commission, Potentially Exposing Staff Data",
+      "· ingr | Μεγάλη Εικόνα: Ακρίβεια, διαφθορά και ελληνοτουρκικές σχέσεις σε πρώτο πλάνο",
+      "· naftemporiki | Ισραήλ: Ο Νετανιάχου φέρεται να δήλωσε σε συνεργάτες του ότι μια επιχείρηση κατά του Ιράν ",
+      "· ert | Με αγροτικά οχήματα και τρακτέρ στην απεργία της 25ης Νοεμβρίου οι αγρότες της Λέσβου",
+      "· gn-hcg | Χορήγηση εξαίρεσης για τη χρήση των πλοίων “SWIFT TIDE” (IMO 9656694) σημαίας Isle of Man ",
+      "· gct | Archbishop Makarios: ‘My Story Has Become Australia’s Story’",
+      "· ingr | Γυναικοκτονία στην Ακρόπολη: Ο 63χρονος στραγγάλισε την 61χρονη σύζυγό του – Τι έδειξε η ι",
+      "· gtp | Travel Idea Joins Lufthansa City Center’s Global Travel Agency Network",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας μίσθωσης ακινήτου κατάλληλου για τη στέ",
+      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση αποθηκευτικο",
+      "· gct | Greece U17s Open FIFA U17 World Cup Campaign Against Egypt",
+      "· gtp | Πλαίσιο: Φέρνει ολοκληρωμένες λύσεις τεχνολογίας και εξοπλισμού στην XENIA 2026",
+      "· gtp | Η Κωτσόβολος για 9η φορά στη XENIA με το K2B: Έξυπνες και σύγχρονες λύσεις για καλύτερη εμ",
+      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Τελωνειακής Περιφέρ",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Κτηματικής Υπη",
+      "· gct | Korean Tech Professional Going Viral For His Greek Song Covers",
+      "✓ ingr | Σαμαράς: Άνοιγμα κλειστών σπιτιών, φθηνά δάνεια και «κούρεμα» χρεών – Προτάσεις πριν την π",
+      "· gct | Antetokounmpo Leads Miami Heat to Sixth Straight NBA Victory",
+      "· gct | 63-Year-Old Man Arrested After Beating Wife to Death",
+      "· gct | Greece Climbs to 40th in FIFA World Rankings",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Ασ",
+      "· gct | Trump Says US-China-Russia Summit Is Making History",
+      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Ασ",
+      "· gn-iefimerida | Προτάσεις Σαμαρά για τη στεγαστική πολιτική: «Κρίνεται η δημογραφική και η αναπτυξιακή δυν",
+      "· gn-iefimerida | Χωρίς τις αισθήσεις του εντοπίστηκε 23χρονος μετά από φωτιά σε σπίτι στην Οινόη - iefimeri",
+      "✓ gn-kathimerini | Μετρό Αθήνας: Κλείνουν νωρίτερα απόψε 4 σταθμοί της Γραμμής 2 λόγω εργασιών - Kathimerini",
+      "· gn-civilprotection | 1η τροποποίησης της καταληκτικής ημερομηνίας υποβολής προσφορών και της ημερομηνίας ηλεκτρ",
+      "· gct | Attempt to Drone a Pistol Into Chania Prison for Killer of Greek-Australian John Macris"
     ]
   },
   "evergreenDone": [
@@ -2186,5 +2239,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "greek-airport-traffic-september-2026",
+      "url": "https://yavanet.gr/a/greek-airport-traffic-september-2026/",
+      "at": "2026-11-19T12:54:12.727Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greek-airport-traffic-september-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greek-airport-traffic-september-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "נתוני תעופה ביוון: נמל התעופה באתונה בולט בצמיחת הנוסעים",
+        "title_en": "Greek Airport Traffic Outpaces European Average in September",
+        "dek_he": "נתוני ארגון הנמלים האוויריים באירופה מראים עלייה במספר הנוסעים ביוון בחודש ספטמבר, כאשר נמל התעופה הבינלאומי באתונה רושם זינוק בולט לעומת ממוצע היבשת.",
+        "dek_en": "Data from ACI Europe shows that Greek airport passenger traffic grew faster than the European average in September, with Athens International Airport among the leaders in its category.",
+        "section": "travel",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/37542989/pexels-photo-37542989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "נתוני תעופה ביוון: נמל התעופה באתונה בולט בצמיחת הנוסעים\n\nנתוני ארגון הנמלים האוויריים באירופה מראים עלייה במספר הנוסעים ביוון בחודש ספטמבר, כאשר נמל התעופה הבינלאומי באתונה רושם זינוק בולט לעומת ממוצע היבשת.\n\nhttps://yavanet.gr/a/greek-airport-traffic-september-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greek Airport Traffic Outpaces European Average in September\n\nData from ACI Europe shows that Greek airport passenger traffic grew faster than the European average in September, with Athens International Airport among the leaders in its category.\n\nhttps://yavanet.gr/en/a/greek-airport-traffic-september-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
