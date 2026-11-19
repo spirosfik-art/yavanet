@@ -1672,7 +1672,10 @@
     "f068bb971035": 1795123502042,
     "b51670e6eeb3": 1795123502042,
     "19d489ae23da": 1795123502042,
-    "f1896321a160": 1795123502042
+    "f1896321a160": 1795123502042,
+    "8103338f9d86": 1795124851971,
+    "7db5869fbec1": 1795124851971,
+    "7925f6f2b68d": 1795124851971
   },
   "pending": {},
   "sourceStatus": {
@@ -1684,12 +1687,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-19T21:24:50.828Z",
+      "at": "2026-11-19T21:47:19.772Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-19T21:24:51.513Z",
+      "at": "2026-11-19T21:47:20.554Z",
       "items": 5
     },
     "civilprotection": {
@@ -1700,27 +1703,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-19T21:24:52.695Z",
+      "at": "2026-11-19T21:47:23.310Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-19T21:24:52.975Z",
+      "at": "2026-11-19T21:47:23.512Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-19T21:24:53.732Z",
+      "at": "2026-11-19T21:47:24.408Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-19T21:24:54.435Z",
+      "at": "2026-11-19T21:47:25.226Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-19T21:24:55.225Z",
+      "at": "2026-11-19T21:47:26.200Z",
       "items": 10
     },
     "toi-greece": {
@@ -1731,23 +1734,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-19T21:24:55.834Z",
+      "at": "2026-11-19T21:47:26.780Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-19T21:24:56.100Z",
+      "at": "2026-11-19T21:47:27.177Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-19T21:24:56.181Z",
-      "items": 4
+      "at": "2026-11-19T21:47:27.841Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T21:24:56.534Z",
-      "items": 6
+      "at": "2026-11-19T21:47:28.090Z",
+      "items": 5
     },
     "ynet-greece": {
       "ok": true,
@@ -1756,12 +1759,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T21:24:51.998Z",
+      "at": "2026-11-19T21:47:21.219Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-19T21:24:57.157Z",
+      "at": "2026-11-19T21:47:28.710Z",
       "items": 0
     },
     "hcg": {
@@ -1772,32 +1775,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-19T21:24:58.530Z",
+      "at": "2026-11-19T21:47:29.852Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-19T21:24:58.741Z",
-      "items": 4
+      "at": "2026-11-19T21:47:30.069Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-19T21:24:58.984Z",
+      "at": "2026-11-19T21:47:30.259Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-19T21:24:59.285Z",
+      "at": "2026-11-19T21:47:30.505Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-19T21:24:59.688Z",
-      "items": 7
+      "at": "2026-11-19T21:47:30.843Z",
+      "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-19T21:25:00.097Z",
+      "at": "2026-11-19T21:47:31.196Z",
       "items": 4
     }
   },
@@ -2143,40 +2146,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-19T21:25:02.042Z",
-    "considered": 36,
+    "at": "2026-11-19T21:47:31.971Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Έξι νεκροί από έκρηξη αερίου σε πολυκατοικία στην Τιφλίδα της Γεωργίας",
-      "· naftemporiki | Meta: Επανεξετάζει τον στόχο για μηδενικές καθαρές εκπομπές έως το 2030 λόγω της έκρηξης τ",
-      "· ingr | Ισραήλ, αμβλώσεις, σιωνισμός: Ίσως η Σαρλότ Γκενσμπούργκ να μην κάνει για Ζιζέλ Αλιμί",
-      "· ingr | Η Chevron ξεκινά τις «σεισμικές» στην Ελλάδα",
-      "· ingr | ΑΑΔΕ: Εξάρθρωση κυκλώματος για παράνομες επιστροφές φόρων – 15 συλλήψεις",
-      "· gn-kathimerini | Στην πρέσα της ακρίβειας από το 2019 τα φτωχά νοικοκυριά - Kathimerini",
-      "· ert | Κορώνη: Nεοκλασικό κτήριο καταστράφηκε από μεγάλη πυρκαγιά – Μάχη για να σωθούν τα γειτονι",
-      "· ert | Κιτ επιβίωσης 72 ωρών: Τι χρειάζεται να έχουμε στο σπίτι και ποιες αγορές είναι περιττές",
-      "· naftemporiki | Ισραηλινά ΜΜΕ: Ο Άιζενκοτ σχεδιάζει να ζητήσει ψήφο εμπιστοσύνης για τον σχηματισμό κυβέρν",
-      "· ktg | Newborn allegedly “sold”, so biological parents buy a used car",
-      "· naftemporiki | Γιατί ορισμένοι νεαροί επενδυτές διστάζουν να αγοράσουν μετοχές της Anthropic",
-      "· naftemporiki | Η προετοιμασία για την Ημέρα της Κρίσης γίνεται mainstream – Το σχέδιο 90 ημερών του Πεντα",
-      "· naftemporiki | Τι αποδόσεις προσφέρουν οι «νεοσύλλεκτοι» του Euronext Athens",
-      "· ingr | Στον εισαγγελέα ο 63χρονος για τη δολοφονία της συζύγου του στην Ακρόπολη",
-      "· gn-kathimerini | Μαρί Δασκαλαντωνάκη: «Η ελληνικότητα είναι το βασικό χαρακτηριστικό του ελληνικού τουρισμο",
-      "· ktg | Animals display in Christmas Nativity scenes is “passive abuse”",
-      "· gct | Alkistis Protopsalti Song Appears on GTA VI Radio, Singer Calls It a “Tremendous Surprise”",
-      "· gct | Greece Opens Defence Ministry to Public for First-Ever Weapons and Drone Exhibition",
-      "· ktg | Over 3,000 violations by users of e-scooters in Athens",
-      "· gct | Trump, Xi and Putin Hold 80-Minute Summit",
-      "· gct | 1,600-Year-Old Tomb Reveals Constantinople’s Greek Heritage",
-      "· gct | Dolce & Gabbana and Athens’ Benaki Museum Join Forces to Celebrate Greek and Italian Herit",
-      "· gtp | RateHawk Launches Black Friday Campaign for Travel Agents",
-      "· gtp | ONOMA Hotel Brings Tourism Professionals Together with ’80s-Themed Party",
-      "· minfin | Στην τελική ευθεία η κατασκευή μέσω ΣΔΙΤ, 12 νέων σχολικών υποδομών στα Χανιά , ύψους 50,6",
-      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη για την Περιφέρεια Βορείου Αιγαίου – Ευ. Τουρνάς: «Η αποτελεσμ",
-      "· gtp | Accor’s MGallery Collection Aims to Triple Greek Hotel Portfolio by 2029",
-      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με την Divia Thani, Global Editorial Director",
-      "· gn-kathimerini | Οι εργαζόμενοι στον τουρισμό είναι το μεγαλύτερο κεφάλαιο: Τι ζητά η νέα γενιά για να επιλ",
-      "· gtp | WTM London 2026 Sees 56% Surge in Buyers, Record Business Meetings"
+      "· gct | 20 November Orthodox Gospel Warns That Looking Good Is Not the Same as Being Good",
+      "· ingr | Καλιφόρνια: Πλημμύρισαν Λος Άντζελες και Σαν Φρανσίσκο – Οι κάτοικοι σε επιφυλακή για εκκε",
+      "· gn-kathimerini | Η εκπαίδευση αλλάζει τον τουρισμό: Σύνδεση θεωρίας και πράξης, και νέες δεξιότητες για του"
     ]
   },
   "evergreenDone": [
