@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33959045/pexels-photo-33959045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "An airplane approaching a runway in Corfu, Greece, set against a mountainous backdrop.",
+    "credit": "Photo: Efrem  Efre / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/airplane-landing-in-corfu-greece-with-mountains-33959045/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-11-19T16:30:32+02:00"
+    "checkedAt": "2026-11-19T16:30:32+02:00",
+    "photoTried": true
   }
 }

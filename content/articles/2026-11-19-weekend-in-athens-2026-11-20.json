@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/3563172/pexels-photo-3563172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant live performance with crowd at an outdoor concert stage.",
+    "credit": "Photo: Jonathan Borba / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/band-performing-on-stage-3563172/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -67,6 +72,7 @@
     "itemId": "weekend-2026-11-20",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-11-19T18:20:22+02:00"
+    "checkedAt": "2026-11-19T18:20:22+02:00",
+    "photoTried": true
   }
 }
