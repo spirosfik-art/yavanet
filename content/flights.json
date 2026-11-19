@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T15:03:45+02:00",
+  "updated": "2026-11-19T16:30:32+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,23 +9,23 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 116,
+      "price": 110,
       "depart": "2026-12-19",
-      "ret": "2026-12-24",
+      "ret": "2026-12-25",
       "airline": "Wizz Air",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV1912ATH24121?t=W417976846001797693000000140TLVATH17981058001798113300000125ATHTLV_6de2a4fd89637f06bdae04f939955013_10491&search_date=18112026&expected_price_uuid=01a1ee4f-a4e8-8031-2507-63303f3d04ec&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=KrZ_9lRuchMiatt0zuxn7g&expected_price_source=share&expected_price_currency=eur&expected_price=116&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1912ATH25121?t=W417976846001797693000000140TLVATH17981922001798199700000125ATHTLV_8f021f0146fed271d11ec341f7cd7b14_9942&search_date=19112026&expected_price_uuid=01a1f377-dbb5-8030-6935-d95fc965d816&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=teVlJJKSmlpYw2EeN7-wmA&expected_price_source=share&expected_price_currency=eur&expected_price=110&marker=782936"
     },
     {
       "dest": "HER",
       "he": "הרקליון, כרתים",
       "en": "Heraklion, Crete",
-      "price": 152,
+      "price": 151,
       "depart": "2026-12-24",
       "ret": "2026-12-26",
       "airline": "Blue Bird",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2412HER26121?t=BZ17981082001798114800000110TLVHER17983116001798317600000100HERTLV_f3c6765c617357fe0c81e01e1b8cf8ba_13856&search_date=15112026&expected_price_uuid=01a1ddb6-7b44-8040-ab36-c72e6e57e102&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=HqagpZdy8Hwh6gbxcXxY8g&expected_price_source=share&expected_price_currency=eur&expected_price=152&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2412HER26121?t=BZ17981082001798114800000110TLVHER17983116001798317600000100HERTLV_f3c6765c617357fe0c81e01e1b8cf8ba_13679&search_date=19112026&expected_price_uuid=01a1f2bc-b6be-8040-a87e-a6952a31778e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=HqagpZdy8Hwh6gbxcXxY8g&expected_price_source=share&expected_price_currency=eur&expected_price=151&marker=782936"
     },
     {
       "dest": "SKG",
