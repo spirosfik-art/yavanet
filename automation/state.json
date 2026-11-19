@@ -1692,7 +1692,11 @@
     "7397ec2da4be": 1795092777696,
     "f56f6d75ebb0": 1795092777696,
     "7e5e2ea55b47": 1795092777696,
-    "9c839e1f884c": 1795092777696
+    "9c839e1f884c": 1795092777696,
+    "3980aeb319f0": 1795095401546,
+    "3fb77db56f0c": 1795095401546,
+    "0bd04324eda6": 1795095401546,
+    "5a335bb246ab": 1795095401546
   },
   "pending": {},
   "sourceStatus": {
@@ -1704,12 +1708,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-19T12:52:42.196Z",
-      "items": 10
+      "at": "2026-11-19T13:36:00.794Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-19T12:52:42.873Z",
+      "at": "2026-11-19T13:36:01.834Z",
       "items": 5
     },
     "civilprotection": {
@@ -1720,27 +1724,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-19T12:52:44.059Z",
+      "at": "2026-11-19T13:36:03.731Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-19T12:52:44.307Z",
+      "at": "2026-11-19T13:36:04.092Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-19T12:52:45.498Z",
+      "at": "2026-11-19T13:36:05.361Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-19T12:52:46.312Z",
-      "items": 1
+      "at": "2026-11-19T13:36:06.231Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-19T12:52:47.235Z",
+      "at": "2026-11-19T13:36:07.139Z",
       "items": 10
     },
     "toi-greece": {
@@ -1751,23 +1755,24 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-19T12:52:47.705Z",
+      "at": "2026-11-19T13:36:07.748Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-11-19T12:52:48.036Z",
-      "items": 15
+      "ok": false,
+      "at": "2026-11-19T13:36:07.792Z",
+      "error": "HTTP 403",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-19T12:52:48.183Z",
-      "items": 3
+      "at": "2026-11-19T13:36:08.415Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T12:52:48.639Z",
-      "items": 2
+      "at": "2026-11-19T13:36:08.622Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1776,12 +1781,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T12:52:43.244Z",
+      "at": "2026-11-19T13:36:02.331Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-19T12:52:49.283Z",
+      "at": "2026-11-19T13:36:09.507Z",
       "items": 0
     },
     "hcg": {
@@ -1792,33 +1797,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-19T12:52:50.598Z",
+      "at": "2026-11-19T13:36:11.063Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-19T12:52:50.873Z",
+      "at": "2026-11-19T13:36:11.250Z",
       "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-19T12:52:51.073Z",
+      "at": "2026-11-19T13:36:11.425Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-19T12:52:51.308Z",
-      "items": 6
+      "at": "2026-11-19T13:36:11.700Z",
+      "items": 7
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-19T12:52:51.719Z",
-      "items": 6
+      "at": "2026-11-19T13:36:12.046Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-19T12:52:52.089Z",
-      "items": 6
+      "at": "2026-11-19T13:36:12.387Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
@@ -2163,40 +2168,17 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-19T12:52:57.696Z",
-    "considered": 40,
-    "picked": 5,
+    "at": "2026-11-19T13:36:41.546Z",
+    "considered": 7,
+    "picked": 3,
     "items": [
-      "· naftemporiki | Φόβοι των επενδυτών ότι μια κυβέρνηση κατά των μεταναστών θα μπορούσε να στραγγαλίσει την ",
-      "· ktg | Femicide: Man in fury beats his wife, strangles her with bare hands",
-      "· gct | Cyberattack Hits European Commission, Potentially Exposing Staff Data",
-      "· ingr | Μεγάλη Εικόνα: Ακρίβεια, διαφθορά και ελληνοτουρκικές σχέσεις σε πρώτο πλάνο",
-      "· naftemporiki | Ισραήλ: Ο Νετανιάχου φέρεται να δήλωσε σε συνεργάτες του ότι μια επιχείρηση κατά του Ιράν ",
-      "· ert | Με αγροτικά οχήματα και τρακτέρ στην απεργία της 25ης Νοεμβρίου οι αγρότες της Λέσβου",
-      "· gn-hcg | Χορήγηση εξαίρεσης για τη χρήση των πλοίων “SWIFT TIDE” (IMO 9656694) σημαίας Isle of Man ",
-      "· gct | Archbishop Makarios: ‘My Story Has Become Australia’s Story’",
-      "· ingr | Γυναικοκτονία στην Ακρόπολη: Ο 63χρονος στραγγάλισε την 61χρονη σύζυγό του – Τι έδειξε η ι",
-      "· gtp | Travel Idea Joins Lufthansa City Center’s Global Travel Agency Network",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας μίσθωσης ακινήτου κατάλληλου για τη στέ",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου κατάλληλου για τη στέγαση αποθηκευτικο",
-      "· gct | Greece U17s Open FIFA U17 World Cup Campaign Against Egypt",
-      "· gtp | Πλαίσιο: Φέρνει ολοκληρωμένες λύσεις τεχνολογίας και εξοπλισμού στην XENIA 2026",
-      "· gtp | Η Κωτσόβολος για 9η φορά στη XENIA με το K2B: Έξυπνες και σύγχρονες λύσεις για καλύτερη εμ",
-      "· minfin | Διακήρυξη Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Τελωνειακής Περιφέρ",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση της Κτηματικής Υπη",
-      "· gct | Korean Tech Professional Going Viral For His Greek Song Covers",
-      "✓ ingr | Σαμαράς: Άνοιγμα κλειστών σπιτιών, φθηνά δάνεια και «κούρεμα» χρεών – Προτάσεις πριν την π",
-      "· gct | Antetokounmpo Leads Miami Heat to Sixth Straight NBA Victory",
-      "· gct | 63-Year-Old Man Arrested After Beating Wife to Death",
-      "· gct | Greece Climbs to 40th in FIFA World Rankings",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Ασ",
-      "· gct | Trump Says US-China-Russia Summit Is Making History",
-      "· minfin | Διακήρυξη Β’ Επαναληπτικής Μειοδοτικής Δημοπρασίας Μίσθωσης Ακινήτου για τη στέγαση του Ασ",
-      "· gn-iefimerida | Προτάσεις Σαμαρά για τη στεγαστική πολιτική: «Κρίνεται η δημογραφική και η αναπτυξιακή δυν",
-      "· gn-iefimerida | Χωρίς τις αισθήσεις του εντοπίστηκε 23χρονος μετά από φωτιά σε σπίτι στην Οινόη - iefimeri",
-      "✓ gn-kathimerini | Μετρό Αθήνας: Κλείνουν νωρίτερα απόψε 4 σταθμοί της Γραμμής 2 λόγω εργασιών - Kathimerini",
-      "· gn-civilprotection | 1η τροποποίησης της καταληκτικής ημερομηνίας υποβολής προσφορών και της ημερομηνίας ηλεκτρ",
-      "· gct | Attempt to Drone a Pistol Into Chania Prison for Killer of Greek-Australian John Macris"
+      "· ert | Φωτιά σε σταθμευμένο αυτοκίνητο στο κέντρο της Ηγουμενίτσας",
+      "· naftemporiki | U-Talent: ΔΥΠΑ και Unicef επενδύουν στις δεξιότητες του μέλλοντος για νέους",
+      "✓ gn-iefimerida | Μενδώνη: Ιανουάριο ολοκληρώνονται οι εργασίες στο Τατόι -Τη Δευτέρα ανοίγει το παλιό μουσε",
+      "✓ gn-iefimerida | Κοινή άσκηση Ελλάδας-Ισραήλ στον ελληνικό εναέριο χώρο για τον ανεφοδιασμό μαχητικών αεορσ",
+      "· gtp | Greece Sees Fewer Road Fatalities, Expands Public Transport Services",
+      "✓ gtp | Jet2: Bookings Rise for Greek Resorts Ahead of Summer 2027",
+      "· gtp | President Hotel Athens Completes Seven-Year Renovation Program"
     ]
   },
   "evergreenDone": [
