@@ -1,0 +1,60 @@
+{
+  "slug": "mykonos-santorini-building-rules-mitsotakis",
+  "section": "real-estate",
+  "publishedAt": "2026-11-20T20:42:11+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 36.3932,
+    "lng": 25.4615,
+    "name": "סנטוריני ומיקונוס"
+  },
+  "sources": [
+    {
+      "name": "GTP Headlines",
+      "url": "https://news.gtp.gr/2026/11/19/greek-pm-tighter-building-rules-ahead-for-mykonos-santorini/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/28000949/pexels-photo-28000949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Beautiful view of iconic white buildings in a Santorini village overlooking the sea.",
+    "credit": "Photo: Wolf  Art / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/the-white-buildings-of-oia-santorini-greece-28000949/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "החמרה בבנייה במיקונוס ובסנטוריני: ממשלת יוון מקדמת הגבלות חדשות",
+    "dek": "ראש ממשלת יוון קיריאקוס מיצוטקיס הודיע על תוכניות תכנון חדשות שיצמצמו בניית מלונות נוספת וישימו דגש על הגנת הסביבה והכרמים.",
+    "tldr": [
+      "הגבלות בנייה צפויות במיקונוס ובסנטוריני במסגרת תוכנית תכנון מרחבי חדשה.",
+      "הממשלה שמה דגש על הגנת כרמים וזהות קיימת במקום פיתוח מלונאי נוסף.",
+      "התייחסות לפוטנציאל השקעות באזורים אחרים ביוון כמו כיוס ולסבוס."
+    ],
+    "means": "למשקיעים ולמתעניינים בנדל״ן ביוון, הכללים החדשים מצביעים על מעבר להגבלות מחמירות ביעדים המרכזיים ועידוד השקעות באזורים פחות מפותחים.",
+    "body": "בכנס שהתקיים באתונה, ראש ממשלת יוון קיריאקוס מיצוטקיס הצהיר כי תוכניות התכנון המרחבי החדשות עבור מיקונוס וסנטוריני יהיו מצומצמות ומחמירות יותר בנוגע לבניית מלונות חדשים. לדבריו, העדיפות כיום היא להגן על הנכסים הקיימים ועל החקלאות המקומית, כולל כרמי סנטוריני, ולא לעודד פיתוח תיירותי נוסף באי עמוס.\n\nלצד זאת, הממשלה מצביעה על פוטנציאל השקעה ביעדים צפוניים ובאזורים פחות מפותחים, דוגמת כיוס, לסבוס ולימנוס. כמו כן, הוצגו תוכניות להקמת פארק ימי בדרום הקיקלאדים שיכלול אגרות כניסה לסירות ולכלי שיט פרטיים לטובת שימור סביבתי."
+  },
+  "en": {
+    "title": "Tighter Building Rules Ahead for Mykonos and Santorini",
+    "dek": "Greek Prime Minister Kyriakos Mitsotakis announced new spatial planning proposals restricting hotel development and prioritizing local preservation.",
+    "tldr": [
+      "New spatial planning proposals will introduce stricter building prerequisites for Mykonos and Santorini.",
+      "The prime minister emphasized protecting existing assets and vineyards over new hotel construction.",
+      "Investment opportunities are encouraged in less-developed areas such as Chios, Lesvos, and Limnos."
+    ],
+    "means": "For investors, the proposed rules signal a clear shift towards tighter restrictions in established islands while directing new development potential to alternative Greek regions.",
+    "body": "Speaking at a conference in Athens, Greek Prime Minister Kyriakos Mitsotakis stated that forthcoming spatial planning proposals for islands like Mykonos and Santorini will impose stricter conditions on new developments. He emphasized that the current priority is protecting existing assets, such as Santorini's vineyards and local character, rather than prioritizing further hotel construction.\n\nAt the same time, Mitsotakis pointed to investment potential in areas with less-developed infrastructure, highlighting northern Aegean islands including Chios, Lesvos, and Limnos. Additionally, plans for the South Aegean National Marine Park include proposed entry fees for visiting vessels to support environmental conservation."
+  },
+  "meta": {
+    "itemId": "b9c47ab8896c",
+    "imageQuery": "Santorini architecture and vineyards",
+    "sourceHash": "3f1bcb79c427",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-20T18:42:11.860Z",
+    "official": false
+  }
+}
