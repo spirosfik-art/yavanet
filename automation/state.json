@@ -19,24 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "57d05a016245": 1793958620943,
-    "2b2644a4b78f": 1793958620943,
-    "20d5a74dec12": 1793958620943,
-    "8aaaa6f47923": 1793958620943,
-    "82a062002449": 1793958620943,
-    "01332229abac": 1793958620943,
-    "016488d1d6cd": 1793958620943,
-    "1a74f9f43e9f": 1793958620943,
-    "ccb913c27d22": 1793958620943,
-    "1d5e16faab94": 1793958620943,
-    "aea3dd71d608": 1793958620943,
-    "5df94096c7ad": 1793958620943,
-    "03d8d5cba0c7": 1793958620943,
-    "e1254c325d8f": 1793958620943,
-    "44325ae2c714": 1793958620943,
-    "ef3c85630981": 1793958620943,
-    "3802b41810c1": 1793958620943,
-    "bbbf073612bc": 1793958620943,
     "75abfc0a6639": 1793984317670,
     "374aca6a8586": 1793984317670,
     "403a2bdc724f": 1793984317670,
@@ -1640,39 +1622,174 @@
     "7bc883c722e8": 1795142513605,
     "9b9ccfdd567a": 1795142513605,
     "add797968c0d": 1795142513605,
-    "1dfe0cc4895f": 1795142513605
+    "1dfe0cc4895f": 1795142513605,
+    "bb12eb99a2dc": 1795170543261,
+    "06b2428011d0": 1795170543261,
+    "65511e9624d2": 1795170543261,
+    "2c356c3aa37c": 1795170543261,
+    "b52d408fc03e": 1795170543261,
+    "3df35132697f": 1795170543261,
+    "24342cbafecb": 1795170543261,
+    "90ae16bedc11": 1795170543261,
+    "3c2f0903654f": 1795170543261,
+    "a39458867572": 1795170543261,
+    "8a357399f3ea": 1795170543261,
+    "003919b429aa": 1795170543261,
+    "7f539e7056dd": 1795170543261,
+    "9ce45e89e953": 1795170543261,
+    "143442072cc8": 1795170543261,
+    "57bc5673b10d": 1795170543261,
+    "85adcfb40e74": 1795170543261,
+    "44a0b5973caf": 1795170543261,
+    "73511ce7e658": 1795170543261,
+    "f143cdc5bdeb": 1795170543261,
+    "a783d2db14e5": 1795170543261,
+    "07f09b2334a1": 1795170543261,
+    "9363767361c3": 1795170543261,
+    "6b441f19a76d": 1795170543261,
+    "a68162c5c268": 1795170543261,
+    "0ba0d5b155ac": 1795170543261,
+    "5e427d1205d6": 1795170543261,
+    "b9c47ab8896c": 1795170543261,
+    "fd1ff6c8c453": 1795170543261,
+    "445ed3b17f1f": 1795170543261,
+    "8b7d6e67525b": 1795170543261,
+    "c50a64de1ea7": 1795170543261
   },
   "pending": {
-    "2885f2": {
-      "createdAt": 1795142528194,
+    "59aa2f": {
+      "createdAt": 1795170595234,
       "item": {
-        "title": "Greece Faces Court Over Aircraft Recognition Radar Technology",
-        "url": "https://greekcitytimes.com/2026/11/20/greece-faces-court-over-aircraft-recognition-radar-technology/",
-        "summary": "The European Commission has referred Greece to the EU Court over delays in implementing Mode S aircraft identification technology and upgrading air traffic control radar systems.\n The post Greece Faces Court Over Aircraft Recognition Radar Technology appeared first on Greek City Times .",
-        "published": "Thu, 19 Nov 2026 22:42:02 +0000",
-        "id": "28308bb99b59",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Greek PM: Tighter Building Rules Ahead for Mykonos, Santorini",
+        "url": "https://news.gtp.gr/2026/11/19/greek-pm-tighter-building-rules-ahead-for-mykonos-santorini/",
+        "summary": "Greek PM Kyriakos Mitsotakis signals tighter building rules for Mykonos and Santorini and plans entry fees for yachts visiting a new marine park....\n Source",
+        "published": "Thu, 19 Nov 2026 18:51:54 +0000",
+        "id": "b9c47ab8896c",
+        "sourceId": "gtp",
+        "sourceName": "GTP Headlines",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "travel",
+        "strike": false
+      },
+      "pick": {
+        "id": "b9c47ab8896c",
+        "section": "real-estate",
+        "priority": 8,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Prime Minister Mitsotakis announces tighter building restrictions and new regulations for Mykonos and Santorini, essential for property investors and tourists.",
+        "item": {
+          "title": "Greek PM: Tighter Building Rules Ahead for Mykonos, Santorini",
+          "url": "https://news.gtp.gr/2026/11/19/greek-pm-tighter-building-rules-ahead-for-mykonos-santorini/",
+          "summary": "Greek PM Kyriakos Mitsotakis signals tighter building rules for Mykonos and Santorini and plans entry fees for yachts visiting a new marine park....\n Source",
+          "published": "Thu, 19 Nov 2026 18:51:54 +0000",
+          "id": "b9c47ab8896c",
+          "sourceId": "gtp",
+          "sourceName": "GTP Headlines",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "travel",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "stricter-building-rules-mykonos-santorini",
+        "section": "real-estate",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדל\"ן ביוון",
+          "en": "Greek Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "santorini traditional houses architecture",
+        "he": {
+          "title": "החמרה בתקני הבנייה במיקונוס ובסנטוריני: צעדים חדשים להגבלת הבנייה באיים",
+          "seoTitle": "נדל\"ן ביוון: החמרה בתקני הבנייה במיקונוס ובסנטוריני",
+          "seoDesc": "ראש ממשלת יוון הודיע על תוכניות תכנון חדשות שיגבילו בניית מלונות חדשים במיקונוס ובסנטוריני כדי להגן על האיים מעומס תיירותי.",
+          "keywords": [
+            "נדל\"ן ביוון",
+            "סנטוריני",
+            "מיקונוס",
+            "השקעות ביוון",
+            "חוקי בנייה יוון"
+          ],
+          "dek": "ראש ממשלת יוון, קיריאקוס מיצוטאקיס, הכריז על תוכניות תכנון מרחביות חדשות שיטילו מגבלות קפדניות על פרויקטים מלונאיים באיים המבוקשים.",
+          "tldr": [
+            "ממשלת יוון מתכננת תקני בנייה מחמירים יותר במיקונוס ובסנטוריני.",
+            "הדגש עובר מהקמת בתי מלון חדשים להגנה על המשאבים הקיימים באיים.",
+            "הממשלה מעודדת השקעות תיירותיות באזורים פחות מפותחים וביבשה."
+          ],
+          "means": "למשקיעים הישראלים המחפשים נכסים באיים המרכזיים, חשוב לעקוב אחר תוכניות התכנון החדשות שמגבילות בנייה חדשה. מומלץ לבדוק הזדמנויות השקעה באזורים חלופיים ובאיים פחות ממוסחרים.",
+          "body": "## הרקע לתוכניות התכנון החדשות\n\nראש ממשלת יוון, קיריאקוס מיצוטאקיס, התייחס לעתיד הפיתוח התיירותי והנדל״ני באיים המבוקשים במסגרת כנס שנערך באתונה. לדבריו, הממשלה צפויה לפרסם בקרוב תוכניות תכנון מרחביות חדשות שיציבו תנאים נוקשים ומצמצמים יותר לגבי פרויקטים חדשים של בתי מלון באיים כמו מיקונוס וסנטוריני.\n\nהמהלך מגיע בהמשך למסגרת התכנון המרחבי הלאומית לתיירות שנכנסה לתוקף בחודש אוגוסט. מסגרת זו כבר הגדירה את מיקונוס ואזורים מסוימים בסנטוריני כ\"אזורים בפיתוח מבוקר\", וכעת מתכננת הממשלה להוסיף הגבלות נקודתיות שישמרו על האופי הייחודי של האיים.\n\n## הגנה על אופיים של האיים והימנעות מעומס יתר\n\nבדיון שנערך באירוע ציין ראש הממשלה כי האתגר המרכזי הוא מניעת צפיפות יתר באיים הסובלים מעומס תשתיתי כבד בעונת השיא. לדבריו, במיקונוס ובסנטוריני התיעדוף הממשלתי הוא הגנה על הנכסים והתשתיות הקיימים ולא אישור בנייה רחבת היקף של מיזמים חדשים נוספים.\n\nכך לדוגמה, בסנטוריני הושם דגש מיוחד על שימור הכרמים ומסורת ייצור היין המקומית, תוך הגבלה של בניית מלונות נוספים על חשבון שטחים אלו. המטרה היא לשמור על הייחודיות של האי המהווה מוקד משיכה מרכזי לתיירות איכותית.\n\n## אפיקי השקעה חדשים ביעדים אלטרנטיביים\n\nלצד ההגבלות המסתמנות באיים המרכזיים, הממשלה היוונית ממשיכה לעודד השקעות תיירותיות ונדל״ניות באזורים שבהם התשתיות פחות מפותחות. ראש הממשלה ציין במיוחד את האיים כיוס, לסבוס ולימנוס בצפון הים הָאֵגֵאִי כיעדים בעלי פוטנציאל לפיתוח מבוקר.\n\nכמו כן, קיימת עידוד להקמת מיזמים רחבי היקף ביבשה ובאזורי הרים, בהתאם להעדפות המשתנות של מטיילים ולצורך בגיוון ההיצע התיירותי לאורך כל עונות השנה.\n\n## שאלות נפוצות\n\n**האם מותר כיום לבנות בתי מלון חדשים במיקונוס ובסנטוריני?**\nהאיים מוגדרים כאזורי פיתוח מבוקר, ותוכניות התכנון החדשות הצפויות להתפרסם יהיו מצמצמות ומגבילות יותר לגבי הקמת מיזמים מלונאיים חדשים.\n\n**אילו אזורים ביוון מעודדת הממשלה כיום להשקעה תיירותית?**\nהממשלה מכוונת את המשקיעים לאזורים בעלי תשתיות פחות מפותחות, כגון האיים כיוס, לסבוס ולימנוס בצפון הים האגאי, וכן לפרויקטים ביבשה ובאזורי הרים."
+        },
+        "en": {
+          "title": "Tighter Building Rules Ahead for Mykonos and Santorini",
+          "seoTitle": "Greece Real Estate: Tighter Building Rules for Mykonos & Santorini",
+          "seoDesc": "Greek Prime Minister announces upcoming spatial planning proposals to restrict new hotel construction and protect Mykonos and Santorini.",
+          "keywords": [
+            "greece real estate",
+            "mykonos building rules",
+            "santorini development",
+            "greek tourism investment",
+            "mitsotakis"
+          ],
+          "dek": "Greek Prime Minister Kyriakos Mitsotakis stated that forthcoming spatial planning proposals will impose stricter prerequisites on new developments.",
+          "tldr": [
+            "New spatial planning rules will restrict hotel construction in Mykonos and Santorini.",
+            "The government prioritizes protecting existing assets and vineyards over new tourism expansion.",
+            "Investment is being encouraged in less-developed islands and mainland regions."
+          ],
+          "means": "Israeli investors looking at prime Greek island real estate should note the upcoming restrictions on new developments. It is recommended to explore alternative regions and less-commercialized islands.",
+          "body": "## Upcoming Restrictions in Key Destinations\n\nGreek Prime Minister Kyriakos Mitsotakis addressed the future of tourism development and real estate during a conference in Athens. He indicated that upcoming spatial planning proposals for islands such as Mykonos and Santorini will naturally introduce stricter conditions and prerequisites for new developments.\n\nThis follows the national Special Spatial Framework for Tourism introduced in August, which classified Mykonos and parts of Santorini as controlled development areas. The government aims to balance growth with the protection of destinations under significant pressure during the peak summer months.\n\n## Protecting Existing Assets and Character\n\nDiscussing the 20-year outlook for Mykonos and Santorini, Mitsotakis noted that significant new construction will likely be limited in favor of safeguarding what already exists. On Santorini, specific focus is being directed toward preserving local vineyards and wine production rather than prioritizing additional hotel complexes.\n\nAuthorities emphasize that the distinctive cultural and agricultural character of these established islands is a primary draw for visitors, necessitating controls to prevent overdevelopment and infrastructure strain.\n\n## Investment Opportunities in Alternative Regions\n\nWhile implementing stricter controls in heavily visited spots, the government continues to promote tourism and infrastructure investment in less-developed parts of the country. Mitsotakis highlighted northern Aegean islands such as Chios, Lesvos, and Limnos as areas with notable potential for balanced growth.\n\nAdditional opportunities are being encouraged for larger-scale projects on the Greek mainland and across mountainous regions, supporting a diversified tourism offering beyond the traditional summer season.\n\n## FAQ\n\n**Will new hotel construction be allowed in Mykonos and Santorini?**\nNew projects will face tighter restrictions under forthcoming spatial planning proposals designed to limit further development on these islands.\n\n**Which regions does the Greek government encourage for new tourism investments?**\nThe government points to less-developed areas such as Chios, Lesvos, and Limnos in the northern Aegean, alongside mainland and mountain destinations."
+        }
+      },
+      "text": "Greek PM: Tighter Building Rules Ahead for Mykonos, Santorini | GTP Headlines \n connect with us\r\nGreece's latest tourism industry news by Greek Travel Pages \n-->\r\n-->\n — Main Menu — Home \n Industry Sectors » - Hospitality \n - Aviation \n - Sea Tourism - - Ferries \n - Land Transportation \n - Travel Operators \n - Marketplace \n - Technology \n - MICE \n - Culture - - Top Archaeological Sites \n - Gastronomy \n - More… - - Brief News \n - - Tourism Education \n - - Niche Markets \n - - Laws, Regulations & Policy - - - Greek Laws \n - - Trade Associations – Gov – Org \n Covid-19 » - Timeline \n - Restart \n - Greek Hotels Reopening \n - Impact \n - Measures \n - Support \n - Guidance \n - Solidarity \n - The Day After \n - Local Actions \n - Τουρισμος \n Investments » - Investment News \n - Tenders \n People » - Interviews \n - Opinions - - Thought Leaders 2026 \n - - Thought Leaders 2024 \n - - Thought Leaders 2023 \n - - Thought Leaders 2022 \n - Business Talk \n - New faces \n - Recruitments \n - Women in Tourism - - 2024 – International Women’s Day \n - - 2021 – International Women’s Day \n - - 2018 – International Women’s Day \n Destinations » - Athens \n - Northern Greece \n Event News » - Events - - Sports \n - Calendar of events \n - Awards - - Greek Hospitality Awards \n - - Tourism Awards 2019 \n - Travel Exhibitions Specials - - WTM London 2026 Special \n - - WTM London 2025 Special \n - - WTM London 2024 Special \n - - WTM London 2023 Special \n - - WTM London 2022 Special \n - - WTM London 2018 Special \n - - WTM London 2019 Special \n - - WTM London 2017 Special \n - - ITB Berlin 2024 Special \n - - ITB Berlin 2023 Special \n - - ITB Berlin 2019 Special \n - - ITB Berlin 2018 Special \n - - ITB Berlin 2017 Special \n - - Philoxenia 2014 Special \n - - 100% Hotel Show \n Ενημερωση \n gtp Network » - gtp.gr \n - GTP Careers in Tourism \n - GTP Travel Offers - - in English \n - - in Greek \n - About GTP \n - GTP eBook \n - GTP Ferry Connections \n Home \n Industry Sectors » \n Hospitality \n Aviation \n Sea Tourism \n Ferries \n Land Transportation \n Travel Operators \n Marketplace \n Technology \n MICE \n Culture \n Top Archaeological Sites \n Gastronomy \n More… \n Brief News \n Tourism Education \n Niche Markets \n Laws, Regulations & Policy \n Greek Laws \n Trade Associations – Gov – Org \n Covid-19 » \n Timeline \n Restart \n Greek Hotels Reopening \n Impact \n Measures \n Support \n Guidance \n Solidarity \n The Day After \n Local Actions \n Τουρισμος \n Investments » \n Investment News \n Tenders \n People » \n Interviews \n Opinions \n Thought Leaders 2026 \n Thought Leaders 2024 \n Thought Leaders 2023 \n Thought Leaders 2022 \n Business Talk \n New faces \n Recruitments \n Women in Tourism \n 2024 – International Women’s Day \n 2021 – International Women’s Day \n 2018 – International Women’s Day \n Destinations » \n Athens \n Northern Greece \n Event News » \n Events \n Sports \n Calendar of events \n Awards \n Greek Hospitality Awards \n Tourism Awards 2019 \n Travel Exhibitions Specials \n WTM London 2026 Special \n WTM London 2025 Special \n WTM London 2024 Special \n WTM London 2023 Special \n WTM London 2022 Special \n WTM London 2018 Special \n WTM London 2019 Special \n WTM London 2017 Special \n ITB Berlin 2024 Special \n ITB Berlin 2023 Special \n ITB Berlin 2019 Special \n ITB Berlin 2018 Special \n ITB Berlin 2017 Special \n Philoxenia 2014 Special \n 100% Hotel Show \n Ενημερωση \n gtp Network » \n gtp.gr \n GTP Careers in Tourism \n GTP Travel Offers \n in English \n in Greek \n About GTP \n GTP eBook \n GTP Ferry Connections \n Greek PM: Tighter Building Rules Ahead for Mykonos, Santorini \n Posted On 19 Nov 2026 \n By : Nikos Krinis \n Comment: 0 \n Tag: Greek tourism , Kyriakos Mitsotakis , Mykonos , Reimagine Tourism 2026 , Santorini , South Aegean Marine Park , sustainable tourism , Tourism development , tourism investment , tourism spatial planning \n 0 shares \n Greek Prime Minister Kyriakos Mitsotakis has stressed the importance of preserving Santorini’s vineyards and wine production rather than prioritizing further hotel development on the island.\n New hotel construction and other tourism projects on Mykonos and Santorini will face tighter restrictions under forthcoming spatial planning proposals, according to Greek Prime Minister Kyriakos Mitsotakis .\n Speaking on Thursday at the Reimagine Tourism 2026 conference in Athens , Mitsotakis said the government must balance further tourism growth with the protection of destinations already experiencing significant pressure.\n During a discussion with Divia Thani , Global Editorial Director of Condé Nast Traveller, the prime minister identified overdevelopment as a “major challenge”, particularly on islands where infrastructure is under strain during the peak summer months.\n “When we will publish the new spatial planning proposal for islands such as Mykonos or Santorini, they will by nature be more restrictive in terms of the prerequisites we set for new developments on these islands,” he said.\n His comments build on Greece’s Special Spatial Framework for Tourism , which took effect in August and introduced nationwide rules for tourism development .\n The framework already classifies Mykonos and parts of Santorini as “areas of controlled development” , while allowing additional restrictions through more detailed local planning.\n Greek Prime Minister Kyriakos Mitsotakis, pictured with Condé Nast Traveller’s Divia Thani, discussed the need to balance tourism investment with the protection of Greece’s established island destinations during Reimagine Tourism 2026.\n Mykonos and Santorini: Protecting existing assets \n Asked how Mykonos and Santorini might develop over the next 20 years, Mitsotakis suggested that significant new construction would be limited , with greater focus placed on protecting their existing character.\n “I doubt you will see significant sort of new development on these islands. I think at this point the priority is to protect what we already have,” he said.\n On Santorini, he pointed to measures introduced to manage cruise ship arrivals and reduce pressure on the island.\n The Greek PM also stressed the importance of preserving Santorini’s vineyards and wine production rather than prioritizing additional hotel construction, arguing that the island’s distinctive character is itself a major attraction for high-spending visitors.\n Mykonos is among the established Greek island destinations where the government plans to impose tighter conditions on new tourism development, while encouraging investment in less-developed areas of the country.\n Investment opportunities beyond established destinations \n While calling for tighter controls in heavily visited destinations, Mitsotakis said Greece still has considerable potential for tourism investment in areas with less-developed infrastructure .\n He specifically identified Chios , Lesvos and Limnos in the northern Aegean as islands where further tourism development could be encouraged , citing their natural attractions and existing airport connections.\n The PM also highlighted opportunities for larger-scale projects on the mainland and the development of mountain destinations , particularly as climate change influences travel preferences.\n He said Greece should diversify its tourism offering by promoting lesser-known destinations, cultural heritage, local gastronomy and experiences beyond the traditional summer holiday.\n The approach is consistent with the national tourism spatial framework, which differentiates development conditions according to local tourism pressures and environmental characteristics. The framework’s detailed provisions also distinguish between islands and mainland destinations.\n Entry fees planned for Southern Cyclades marine park \n Mitsotakis also indicated that yachts and smaller boats entering the planned South Aegean National Marine Park in the Southern Cyclades would be required to pay an entry fee , with proceeds directed toward environmental conservation.\n The proposed marine park, covering more than 9,000 square kilometers of sea, is intended to strengthen protection of marine ecosystems and biodiversity. Its draft Presidential Decree was submitted to the Council of State for review in October .\n Speaking about the role of tourism in conservation, Mitsotakis said the park would introduce restrictions on certain activities , alongside charges for visiting vessels.\n “But I think they would gladly do so, because the money needs to be reinvested in conservation,” he said.\n The prime minister did not specify the amount of the proposed fee or when it would be introduced.\n Organized by Kathimerini, the annual “Reimagine Tourism” conference aims to promote sustainable tourism by gathering leading thinkers, political and business leaders, and key figures from the hospitality industry.\n Follow GTP Headlines on Google News to keep up to date with all the latest on tourism and travel in Greece. \n About the Author\nNikos is Greek-American born in New York, USA, and has lived in Greece for over 30 years. He is the managing editor of Greece's leading monthly travel and tourism guide, the Greek Travel Pages (GTP) since June 2008 and of news site GTP Headlines since its launch in September 2012. Nikos has also served as international press officer for the City of Athens and for the mayor. He has a degree in Mass Media and Communications, specializing in Journalism. Nikos is a native English speaker and speaks Greek fluently.\n Previous Story\n Greek Tourism Must Avoid Overcharging, Says PM Mitsotakis \n Add your comment Cancel reply \n Join our Newsletter\n Join our GTP Headlines free daily newsletter\n 44.8k Followers \n Facebook \n 29.6k Followers \n X (formerly Twitter) \n 25.3k Followers \n LinkedIn \n 7.7k Followers \n Instagram \n 2.2k Followers \n Pinterest \n 110k Total \n Newsletter\n Signup to receive our daily travel-tourism industry newsletter.\n CLICK HERE TO SIGN UP \n SUBSCRIBE TO RSS\n https://news.gtp.gr/feed/ \n CONTRIBUTE\n Guest posts are welcome. Read the editorial guidelines here.\n Advertise\n GTP Headlines Media Kit \n Contact Details\n Greek Travel Pages,\n6, Psylla str. Athens GR 10557\nCall center: +30 210 324 7511\n CONTACT FORM \n Copyright Notice\n Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited . Excerpts of texts published in this page and links may be used, provided that full and clear credit is given to Greek Travel Pages – gtp.gr and / or GTP Headlines - news.gtp.gr with appropriate and specific direction (hyperlink) to the original content. All photographs appearing on this site are not to be downloaded or reproduced in any way, without the prior written permission of the copyright owner.\n About Us\n The team | About GTP Headlines \n ΤΑΥΤΟΤΗΤΑ \n Ιδιοκτήτρια Εταιρεία &\nΔικαιούχος Ονόματος:\nΔιεθνείς Εκδόσεις ΕΠΕ\nΑΦΜ: 095083253,\nΔΟΥ ΚΕΦΟΔΕ Αττικής\nΕταίρος (≥25%), Νόμιμος Εκπρόσωπος, Διευθύντρια & Διαχειρ. Ιστοσελίδας: Μαρία Θεοφανοπούλου\nΔιευθυντής Σύνταξης: Νίκος Κρινής\nΔικαιούχος Ονόματος: Διεθνείς Εκδόσεις ΕΠΕΑριθμός Πιστοποίησης Μ.Η.Τ.: 252115 \n Search\n Archives\n Archives \n Select Month \n November 2026 &nbsp;(155) \n October 2026 &nbsp;(214) \n September 2026 &nbsp;(222) \n August 2026 &nbsp;(155) \n July 2026 &nbsp;(228) \n June 2026 &nbsp;(219) \n May 2026 &nbsp;(197) \n April 2026 &nbsp;(191) \n March 2026 &nbsp;(229) \n February 2026 &nbsp;(187) \n January 2026 &nbsp;(174) \n December 2025 &nbsp;(184) \n November 2025 &nbsp;(220) \n October 2025 &nbsp;(215) \n September 2025 &nbsp;(206) \n August 2025 &nbsp;(129) \n July 2025 &nbsp;(212) \n June 2025 &nbsp;(203) \n May 2025 &nbsp;(205) \n April 2025 &nbsp;(208) \n March 2025 &nbsp;(195) \n February 2025 &nbsp;(209) \n January 2025 &nbsp;(180) \n December 2024 &nbsp;(186) \n November 2024 &nbsp;(241) \n October 2024 &nbsp;(221) \n September 2024 &nbsp;(211) \n August 2024 &nbsp;(154) \n July 2024 &nbsp;(227) \n June 2024 &nbsp;(201) \n May 2024 &nbsp;(200) \n April 2024 &nbsp;(226) \n March 2024 &nbsp;(204) \n February 2024 &nbsp;(204) \n January 2024 &nbsp;(195) \n December 2023 &nbsp;(167) \n November 2023 &nbsp;(221) \n October 2023 &nbsp;(256) \n September 2023 &nbsp;(214) \n August 2023 &nbsp;(158) \n July 2023 &nbsp;(197) \n June 2023 &nbsp;(204) \n May 2023 &nbsp;(220) \n April 2023 &nbsp;(169) \n March 2023 &nbsp;(243) \n February 2023 &nbsp;(199) \n January 2023 &nbsp;(201) \n December 2022 &nbsp;(179) \n November 2022 &nbsp;(231) \n October 2022 &nbsp;(202) \n September 2022 &nbsp;(191) \n August 2022 &nbsp;(172) \n July 2022 &nbsp;(199) \n June 2022 &nbsp;(250) \n May 2022 &nbsp;(225) \n April 2022 &nbsp;(211) \n March 2022 &nbsp;(249) \n February 2022 &nbsp;(215) \n January 2022 &nbsp;(199) \n December 2021 &nbsp;(229) \n November 2021 &nbsp;(267) \n October 2021 &nbsp;(244) \n September 2021 &nbsp;(255) \n August 2021 &nbsp;(214) \n July 2021 &nbsp;(251) \n June 2021 &nbsp;(249) \n May 2021 &nbsp;(257) \n April 2021 &nbsp;(257) \n March 2021 &nbsp;(304) \n February 2021 &nbsp;(246) \n January 2021 &nbsp;(218) \n December 2020 &nbsp;(245) \n November 2020 &nbsp;(264) \n October 2020 &nbsp;(291) \n September 2020 &nbsp;(274) \n August 2020 &nbsp;(215) \n July 2020 &nbsp;(279) \n June 2020 &nbsp;(305) \n May 2020 &nbsp;(299) \n April 2020 &nbsp;(280) \n March 2020 &nbsp;(305) \n February 2020 &nbsp;(243) \n January 2020 &nbsp;(215) \n December 2019 &nbsp;(195) \n November 2019 &nbsp;(289) \n October 2019 &nbsp;(241) \n September 2019 &nbsp;(222) \n August 2019 &nbsp;(183) \n July 2019 &nbsp;(224) \n June 2019 &nbsp;(209) \n May 2019 &nbsp;(236) \n April 2019 &nbsp;(226) \n March 2019 &nbsp;(233) \n February 2019 &nbsp;(242) \n January 2019 &nbsp;(214) \n December 2018 &nbsp;(186) \n November 2018 &nbsp;(297) \n October 2018 &nbsp;(276) \n September 2018 &nbsp;(216) \n August 2018 &nbsp;(214) \n July 2018 &nbsp;(240) \n June 2018 &nbsp;(251) \n May 2018 &nbsp;(262) \n April 2018 &nbsp;(234) \n March 2018 &nbsp;(277) \n February 2018 &nbsp;(245) \n January 2018 &nbsp;(220) \n December 2017 &nbsp;(197) \n November 2017 &nbsp;(300) \n October 2017 &nbsp;(264) \n September 2017 &nbsp;(271) \n August 2017 &nbsp;(216) \n July 2017 &nbsp;(224) \n June 2017 &nbsp;(268) \n May 2017 &nbsp;(263) \n April 2017 &nbsp;(200) \n March 2017 &nbsp;(232) \n February 2017 &nbsp;(194) \n January 2017 &nbsp;(191) \n December 2016 &nbsp;(194) \n November 2016 &nbsp;(285) \n October 2016 &nbsp;(203) \n September 2016 &nbsp;(226) \n August 2016 &nbsp;(175) \n July 2016 &nbsp;(191) \n June 2016 &nbsp;(211) \n May 2016 &nbsp;(202) \n April 2016 &nbsp;(204) \n March 2016 &nbsp;(224) \n February 2016 &nbsp;(195) \n January 2016 &nbsp;(164) \n December 2015 &nbsp;(190) \n November 2015 &nbsp;(203) \n October 2015 &nbsp;(224) \n September 2015 &nbsp;(186) \n August 2015 &nbsp;(137) \n July 2015 &nbsp;(234) \n June 2015 &nbsp;(213) \n May 2015 &nbsp;(212) \n April 2015 &nbsp;(183) \n March 2015 &nbsp;(199) \n February 2015 &nbsp;(162) \n January 2015 &nbsp;(177) \n December 2014 &nbsp;(183) \n November 2014 &nbsp;(206) \n October 2014 &nbsp;(160) \n September 2014 &nbsp;(155) \n August 2014 &nbsp;(137) \n July 2014 &nbsp;(197) \n June 20",
+      "issues": [],
+      "el": {
+        "title": "Νέοι, αυστηρότεροι κανόνες δόμησης σε Μύκονο και Σαντορίνη",
+        "dek": "Ο Έλληνας Πρωθυπουργός Κυριάκος Μητσοτάκης δήλωσε ότι οι επικείμενες προτάσεις χωροταξικού σχεδιασμού θα επιβάλλουν αυστηρότερες προϋποθέσεις για τις νέες αναπτύξεις.",
+        "tldr": [
+          "Οι νέοι κανόνες χωροταξικού σχεδιασμού θα περιορίσουν την ανέγερση ξενοδοχείων σε Μύκονο και Σαντορίνη.",
+          "Η κυβέρνηση δίνει προτεραιότητα στην προστασία των υφιστάμενων περιουσιακών στοιχείων και των αμπελώνων έναντι της νέας τουριστικής επέκτασης.",
+          "Ενθαρρύνονται οι επενδύσεις σε λιγότερο αναπτυγμένα νησιά και ηπειρωτικές περιοχές."
+        ]
+      },
+      "notified": true
+    },
+    "430e05": {
+      "createdAt": 1795170653236,
+      "item": {
+        "title": "Σεισμός τώρα 4,1 Ρίχτερ ανοικτά της Αρεόπολης Λακωνίας",
+        "url": "https://www.naftemporiki.gr/society/2191953/seismos-tora-41-richter-anoikta-tis-areopolis-lakonias/?utm_source=rss&utm_medium=rss&utm_campaign=seismos-tora-41-richter-anoikta-tis-areopolis-lakonias",
+        "summary": "Σεισμός μεγέθους 4,1 βαθμών της κλίμακας Ρίχτερ σημειώθηκε στον Μεσσηνιακό Κόλπο, ανοικτά της Αρεόπολης Λακωνίας, σύμφωνα με προκαταρκτική εκτίμηση του Γεωδυναμικού Ινστιτούτου του Εθνικού Αστεροσκοπείου Αθηνών.\nΠού εντοπίζεται το επίκεντρο…\n Σεισμός τώρα 4,1 Ρίχτερ ανοικτά της Αρεόπολης Λακωνίας - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+        "published": "Fri, 20 Nov 2026 10:21:33 +0000",
+        "id": "06b2428011d0",
+        "sourceId": "naftemporiki",
+        "sourceName": "Ναυτεμπορική",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "28308bb99b59",
-        "section": "travel",
+        "id": "06b2428011d0",
+        "section": "breaking",
         "priority": 7,
         "sensitive": true,
-        "breaking": false,
-        "reason": "Refers Greece to EU Court over air traffic control and radar technology delays, which matters for aviation safety and tourists flying to Greece.",
+        "breaking": true,
+        "reason": "A 4.1 magnitude earthquake occurred off the coast of Areopoli, Laconia in the Peloponnese, requiring safety monitoring for tourists and residents in the region.",
         "item": {
-          "title": "Greece Faces Court Over Aircraft Recognition Radar Technology",
-          "url": "https://greekcitytimes.com/2026/11/20/greece-faces-court-over-aircraft-recognition-radar-technology/",
-          "summary": "The European Commission has referred Greece to the EU Court over delays in implementing Mode S aircraft identification technology and upgrading air traffic control radar systems.\n The post Greece Faces Court Over Aircraft Recognition Radar Technology appeared first on Greek City Times .",
-          "published": "Thu, 19 Nov 2026 22:42:02 +0000",
-          "id": "28308bb99b59",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
+          "title": "Σεισμός τώρα 4,1 Ρίχτερ ανοικτά της Αρεόπολης Λακωνίας",
+          "url": "https://www.naftemporiki.gr/society/2191953/seismos-tora-41-richter-anoikta-tis-areopolis-lakonias/?utm_source=rss&utm_medium=rss&utm_campaign=seismos-tora-41-richter-anoikta-tis-areopolis-lakonias",
+          "summary": "Σεισμός μεγέθους 4,1 βαθμών της κλίμακας Ρίχτερ σημειώθηκε στον Μεσσηνιακό Κόλπο, ανοικτά της Αρεόπολης Λακωνίας, σύμφωνα με προκαταρκτική εκτίμηση του Γεωδυναμικού Ινστιτούτου του Εθνικού Αστεροσκοπείου Αθηνών.\nΠού εντοπίζεται το επίκεντρο…\n Σεισμός τώρα 4,1 Ρίχτερ ανοικτά της Αρεόπολης Λακωνίας - Η ΝΑΥΤΕΜΠΟΡΙΚΗ",
+          "published": "Fri, 20 Nov 2026 10:21:33 +0000",
+          "id": "06b2428011d0",
+          "sourceId": "naftemporiki",
+          "sourceName": "Ναυτεμπορική",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1680,71 +1797,71 @@
         }
       },
       "draft": {
-        "slug": "greece-faces-eu-court-radar-technology",
-        "section": "travel",
-        "sensitive": false,
-        "breaking": false,
+        "slug": "news-update-athens-greece-november-2026",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
         "geo": {
           "lat": 37.9838,
           "lng": 23.7275
         },
         "strike": null,
         "alert": {
-          "he": "טיסות ליוון",
-          "en": "Flights to Greece"
+          "he": "עדכון מבזקים",
+          "en": "News Update"
         },
-        "imageKey": "plane",
-        "imageQuery": "airplane cockpit radar air traffic control",
+        "imageKey": "key",
+        "imageQuery": "Athens street news update",
         "he": {
-          "title": "יוון תעמוד לדין אירופי בשל עיכוב בהטמעת מערכות זיהוי מטוסים",
-          "seoTitle": "טיסות ליוון: בית הדין האירופי יבון את מערכות הפיקוח",
-          "seoDesc": "הנציבות האירופית תפנה את יוון לבית הדין בשל עיכוב בהתקנת טכנולוגיית Mode S בבקרה האווירית. כל הפרטים על הטיסות והבטיחות.",
+          "title": "עדכוני חדשות מיוון: מעצרים, אירועים ומזג אוויר נוח",
+          "seoTitle": "חדשות יוון היום: עדכונים חמים מאתונה וסלוניקי",
+          "seoDesc": "עדכוני חדשות שוטפים מיוון: מעצרים באזור אתונה והאיים, שינויים בתחבורה הציבורית בסלוניקי ותחזית מזג האוויר המעודכנת.",
           "keywords": [
-            "טיסות ליוון",
-            "טיסות לאתונה",
-            "חופשה ביוון",
-            "בקרת טיסה יוון",
-            "רשות התעופה האזרחית יוון"
+            "חדשות יוון",
+            "אתונה",
+            "סלוניקי",
+            "עדכונים מיוון",
+            "מזג אוויר ביוון"
           ],
-          "dek": "הנציבות האירופית החליטה להעביר את יוון לבית הדין לצדק של האיחוד האירופי עקב אי-יישום טכנולוגיית זיהוי מטוסים מתקדמת, אך רשויות התעופה מבהירות כי אין שיבושים בפעילות הקיימת.",
+          "dek": "סקירת חדשות מרכזית מיוון הכוללת דיווחים על מעצרים פליליים, היערכות תחבורתית בסלוניקי ותחזית מזג אוויר נעימה ברחבי המדינה.",
           "tldr": [
-            "הנציבות האירופית פונה לבית הדין נגד יוון בשל עיכוב בטכנולוגיית Mode S.",
-            "לפי משרד התשתיות והתחבורה, המהלך אינו פוגע במערכות בקרת הטיסה הקיימות.",
-            "חוזה לרכש מערכות מכדורים חדשות ממתין לחתימה מאז הגעתו לשלב זה."
+            "שורה של אירועים פליליים ומעצרים דווחו במספר מוקדים ברחבי יוון, בהם אתונה והאיים.",
+            "עבודות ותחרויות ספורט צפויות להשפיע על תנועת כלי הרכב בסלוניקי.",
+            "מזג האוויר ביוון צפוי להיות נוח ונעים יחסית לעונה, עם טמפרטורות המגיעות עד 25 מעלות."
           ],
-          "means": "טסים לחופשה באתונה או ביעדים אחרים ביוון? אין שום שינוי בלוח הטיסות שלכם והמערכות הקיימות פועלות כרגיל. אם אתם מתכננים טיסות בקרוב, מומלץ תמיד להתעדכן מול חברות התעופה על כל שינוי נקודתי.",
-          "body": "## פנייה לבית הדין האירופי בעניין טכנולוגיית הפיקוח\n\nהנציבות האירופית קיבלה החלטה להעביר את יוון לבית הדין לצדק של האיחוד האירופי (CJEU) עקב אי-הטמעה מלאה של טכנולוגיית זיהוי המטוסים המכונה Mode S. מדובר במערכת המאפשרת לפקחי הטיסה לזהות כלי טיס בודדים באמצעות נתוני הזיהוי שהם משדרים בזמן אמת, במטרה לחזק את הפיקוח, לשפר את היעילות המבצעית ולהגדיל את קיבולת המרחב האווירי.\n\nהליך ההפרה החל עוד בדצמבר 2024 עם מתן הודעה רשמית, אליה התווספה חוות דעת מנומקת בדצמבר 2025, וכעת הגיע לשלב ההפניה לערכאות משפטיות.\n\n## עמדת משרד התחבורה והתעופה האזרחית\n\nמקורות במשרד התשתיות והתחבורה הדגישו כי הפנייה לבית הדין אינה מהווה הרשעה משפטית אוטומטית ואינה גוררת קנסות אוטומטיים. כמו כן, נמסר מרשות התעופה האזרחית (HCAA) כי החוזה לאספקה והתקנה של מערכות המכ״ם החדשות ממתין כעת לחתימה, שלב המהווה צעד ביניים לקראת עמידה מלאה בדרישות.\n\nלצד זאת, הרשויות ביוון מקדמות פרויקטים נוספים במסגרת תוכנית המודרניזציה של הניווט האווירי. בין היתר, נחתם במרץ 2026 הסכם תרומה בשווי 3.8 מיליון אירו (ללא מע\"מ) למערכת תקשורת והקלטת קול במרכזי הבקרה של אתונה ומקדוניה, ובחודש יולי נחתם חוזה נוסף לנוהלי ניווט מבוססי ביצועים (PBN) ב-31 שדות תעופה.\n\n## מה זה אומר עבור הנוסעים לישראל וממנה?\n\nלפי גורמי המקצוע במשרד התחבורה היווני, ההודעה של הנציבות האירופית אינה מצביעה על שום הפסקה או תקלה במערכות בקרת הטיסה הפעילות כיום ביוון. הפנייה נוגעת אך ורק להוספת יכולות טכנולוגיות מתקדמות שנדרשות על פי תקנות האיחוד האירופי, ולכן פעילות הטיסות הרגילה נמשכת ללא שינוי.\n\n## שאלות נפוצות\n\n**האם הטיסות ליוון ולשדות התעופה במדינה פועלות כסדרה?**\nכן, מערכות בקרת הטיסה הקיימות פועלות כרגיל ולא דווח על שום הפרעה לפעילות השוטפת או ללוח הטיסות.\n\n**האם הפנייה לבית הדין האירופי תגרור קנס מיידי?**\nלא, מקורות במשרד התחבורה הבהירו כי ההפניה אינה מהווה פסיקת בית משפט ואינה מטילה קנס אוטומטי על המדינה."
+          "means": "לקראת הגעה ליוון או שהות בה, חשוב להתעדכן בשינויים התחבורתיים המקומיים ולוודא את מסלולי הנסיעה באזורים העירוניים המרכזיים.",
+          "body": "## עדכוני חדשות שוטפים מיוון\n\nמערכת האתר מביאה אליכם את דיווחי החדשות המרכזיים המתפרסמים ברחבי יוון. הדיווחים מקיפים שורה של אירועים מבצעיים, פליליים ותחבורתיים המשפיעים על אזורים שונים במדינה.\n\n## אירועי ביטחון ואכיפת חוק\n\nבמהלך היממה האחרונה דווחו מספר פעילויות משטרתיות באזורים שונים ביוון. גורמי אכיפת החוק דיווחו על מעצרים שונים שבוצעו במוקדים שונים, בהם אזור אטיקה, האי קוס ויישובים נוספים, במסגרת פעילות שוטפת נגד עבירות פליליות שונות.\n\n## תחבורה ושינויים בהסדרי התנועה\n\nתושבים ומבקרים השוהים בסלוניקי מתבקשים להיערך לשינויים בהסדרי התנועה ובסגירת כצירי תנועה מרכזיים עקב קיומם של אירועי ספורט וריצה המתוכננים לסוף השבוע הקרוב. רשויות המקומיות פרסמו הנחיות מפורטות לציבור הנהגים.\n\n## מזג האוויר הנוכחי\n\nמזג האוויר ברחבי יוון נותר נוח ויציב באופן יחסי לתקופה זו של השנה. התחזית המטאורולוגית מצביעה על תנאי מזג אוויר בהירים ברובם, כאשר הטמפרטורות המרביות צפויות להגיע עד לכ-25 מעלות צלזיוס באזורים השונים.\n\n## שאלות נפוצות\n\n**האם ישנן הגבלות תחבורה מיוחדות ביוון בימים אלו?**\nקיימות חסימות ותיקוני תנועה נקודתיים בסלוניקי עקב אירועי ספורט, מומלץ לעקוב אחר הודעות העירייה המקומית.\n\n**מהי תחזית מזג האוויר הצפויה ביוון?**\nמזג האוויר צפוי להיות נוח למדי וברוב הזמן, עם טמפרטורות שיגיעו עד ל-25 מעלות."
         },
         "en": {
-          "title": "Greece Faces European Court Over Aircraft Identification Technology",
-          "seoTitle": "Greece Faces EU Court Over Air Traffic Radar Delay",
-          "seoDesc": "The European Commission refers Greece to the CJEU over delayed implementation of Mode S aircraft identification technology. Flights continue normally.",
+          "title": "Greece News Update: Recent Developments and Weather",
+          "seoTitle": "Greece News Today: Athens Updates and Current Reports",
+          "seoDesc": "Latest news updates from Greece including police operations in Athens and the islands, traffic changes in Thessaloniki, and weather forecasts.",
           "keywords": [
-            "Greece flights",
-            "Athens airport",
-            "Greece air traffic",
-            "European Commission Greece",
-            "Greece travel news"
+            "greece news",
+            "athens updates",
+            "thessaloniki traffic",
+            "greece weather",
+            "local reports"
           ],
-          "dek": "The European Commission has decided to refer Greece to the Court of Justice of the EU over delayed implementation of Mode S technology, while authorities emphasize that existing air traffic systems remain unaffected.",
+          "dek": "A comprehensive review of recent news reports from Greece, covering law enforcement updates, traffic arrangements in Thessaloniki, and current weather conditions.",
           "tldr": [
-            "The European Commission refers Greece to the EU court over Mode S radar implementation.",
-            "The Ministry of Infrastructure and Transport stresses that current air traffic systems are uninterrupted.",
-            "Contracts for new radar systems and communications upgrades are currently advancing."
+            "Law enforcement authorities reported several arrests in Athens, Kos, and other regions across Greece.",
+            "Thessaloniki prepares for traffic adjustments and road closures due to upcoming weekend running events.",
+            "Weather conditions across the country remain mostly clear and mild, with temperatures reaching up to 25 degrees Celsius."
           ],
-          "means": "Planning a trip to Athens or other Greek destinations? Your flights and schedules remain completely unaffected by this legal step. Existing air traffic control systems continue to operate normally, but always check directly with your airline for regular updates.",
-          "body": "## European Court Action Over Radar Technology\n\nThe European Commission has decided to refer Greece to the Court of Justice of the European Union (CJEU) due to its failure to implement the required Mode S aircraft identification technology. This technology allows air traffic controllers to identify individual aircraft through unique identification data transmitted in flight, strengthening surveillance, safety, and airspace capacity.\n\nThe infringement procedure commenced with a formal notice in December 2024, followed by a reasoned opinion in December 2025, before escalating to the referral stage.\n\n## Ministry and Civil Aviation Response\n\nSources at the Ministry of Infrastructure and Transport emphasized that the referral does not constitute a court conviction or automatically impose financial penalties. Information from the Hellenic Civil Aviation Authority (HCAA) confirmed that the contract for supplying and installing the new radar systems currently awaits signature.\n\nAuthorities are also advancing other components of Greece's wider air navigation modernisation programme. In March 2026, a 3.8 million euro donation agreement (excluding VAT) was signed for a communications and voice recording system at the Athens and Macedonia Area Control Centres. Furthermore, a July contract covered Performance-Based Navigation (PBN) procedures across 31 airports.\n\n## Impact on Air Travel\n\nMinistry sources stressed that the European Commission's announcement did not identify any interruption to Greece's existing air traffic control systems. The referral strictly concerns the integration of additional technological capabilities required under EU regulations rather than any operational safety failure in current services.\n\n## FAQ\n\n**Are flights to and from Greece operating normally?**\nYes, existing air traffic control systems are fully operational with no reported interruptions to daily flight schedules.\n\n**Does the referral to the EU court mean immediate fines for Greece?**\nNo, ministry sources clarified that the referral does not constitute a conviction or automatically impose any fines."
+          "means": "For travelers and residents in Greece, it is recommended to stay informed about local traffic updates in major urban centers and check designated routes in advance.",
+          "body": "## Current News Updates Across Greece\n\nRecent news reports from across Greece highlight a range of operational, security, and municipal developments affecting various regions of the country.\n\n## Law Enforcement and Security Reports\n\nDuring recent police operations, authorities detained several individuals in connection with various offenses across multiple locations, including Attica and the island of Kos, as part of routine enforcement measures.\n\n## Traffic and Transportation Changes\n\nVisitors and residents in Thessaloniki should note that several streets will experience temporary closures and traffic restrictions over the weekend due to scheduled running races and sporting events. Local authorities have advised drivers to seek alternative routes.\n\n## Weather Conditions\n\nWeather conditions across Greece continue to be mild and stable for this time of year. Forecasts indicate generally clear skies with daytime high temperatures reaching approximately 25 degrees Celsius.\n\n## FAQ\n\n**Are there any major travel disruptions in Greece right now?**\nTraffic restrictions are limited to specific road closures in Thessaloniki due to weekend sporting events.\n\n**What is the current weather forecast in Greece?**\nThe weather is mostly clear and mild, with maximum temperatures reaching up to 25 degrees Celsius."
         }
       },
-      "text": "0 \n 0 \n 0 \n Greece faces European Court action over its failure to implement Mode S aircraft identification technology, as a contract for new air navigation radars remains awaiting signature two years after reaching that stage.\n The European Commission decided on Thursday to refer Greece to the Court of Justice of the European Union (CJEU) over its failure to implement the required Mode S technology, which allows air traffic controllers to identify individual aircraft through the identity information each aircraft transmits.\n The Commission acknowledged that Greek authorities had made some progress but concluded that their actions remained insufficient to meet the country’s EU obligations.\n The infringement procedure began with a formal notice in December 2024, followed by a reasoned opinion in December 2025, before reaching the referral stage.\n Read more: Ryanair Slams Greece Again Over Air Traffic Chaos as Summer Delays Mount \n Sources at the Ministry of Infrastructure and Transport stressed on Wednesday evening that the referral does not constitute a court conviction or automatically impose a fine.\n They also cited information from the Hellenic Civil Aviation Authority (HCAA), which confirmed that the contract for the supply and installation of the new radar systems currently awaits signature.\n However, signing the contract represents only an intermediate step towards compliance. Authorities must subsequently install the equipment, connect it to existing air traffic control infrastructure and complete the necessary operational tests.\n The key question remains when the new systems will become fully operational. The ministry’s sources did not provide a specific completion date for these stages.\n The case concerns Mode S technology, which enables air traffic controllers to identify individual aircraft using their unique identification data. According to the European Commission, the technology strengthens surveillance, improves air traffic control efficiency and flight safety, enhances interoperability between EU member states and increases airspace capacity.\n Ministry sources also stressed that the Commission’s announcement did not identify any interruption to Greece’s existing air traffic control systems. They said the referral concerns the implementation of additional technological capabilities required under EU rules.\n The ministry also highlighted other projects within Greece’s wider air navigation modernisation programme, noting that Infrastructure and Transport Minister Christos Dimas oversaw the signing of contracts for two further major projects during 2026.\n On 16 March, authorities signed a €3.8 million donation agreement, excluding VAT, for a new communications and voice recording system at the Athens and Macedonia Area Control Centres.\n The project covers equipment that allows air traffic controllers to communicate with aircraft crews and records their conversations.\n On 17 July, authorities signed another contract covering Performance-Based Navigation (PBN) procedures at 31 airports. The project will redesign flight procedures using satellite navigation, with the aim of making better use of Greek airspace and airport capacity.\n The wider modernisation programme also includes Data Link digital communications services, which ministry sources say have now received final acceptance.\n Meanwhile, the new TopSky ATC One air traffic management system remains under negotiation with its manufacturer, according to the same sources.\n These projects cover communications, navigation, surveillance and flight management, but each remains at a different stage of implementation.\n For Greece to resolve the specific EU infringement case, the authorities must complete the technical work and demonstrate that the required Mode S capabilities have entered operational service.\n (Source: AMNA)\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Thieves Steal Telecom Cables From Greek Civil Aviation Facility \n Near-miss over Cyprus: Turkish military transport and passenger jet come close to colliding \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greece Begins 2027 Tennis Season at United Cup in Sydney\n Next Article \n Greek Trap Rapper Ivan Greko Acquitted in Jeweler's Son Kidnapping Case\n 0 \n 0 \n 0",
+      "text": "Προτιμώμενη πηγή στην Google \nΓια να εμφανίζονται περισσότερα άρθρα της Ναυτεμπορικής στις αναζητήσεις σας εύκολα και γρήγορα, πρέπει να προσθέσετε το site στις προτιμώμενες πηγές σας. Μπορείτε να το κάνετε πηγαίνοντας εδώ .\n Share: \n Share via Facebook \n Share via Twitter \n Share via LinkedIn \n Share via Email \n Share via WhatsApp \n Copy Link \nΠαρακολουθήστε ζωντανά εδώ το Naftemporiki TV\nΑκολουθήστε μας στο Messenger και μάθετε πρώτοι όλες τις ειδήσεις!\nΑκολουθήστε μας στο Google News και μάθετε πρώτοι όλες τις ειδήσεις!\nΚάντε λήψη της εφαρμογής της «Ν» στο App Store!\nΚάντε λήψη της εφαρμογής της «Ν» στο Google Play!\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Viber\nΑκολουθήστε μας στο επίσημο κανάλι της «Ν» στο Youtube\n Δημοφιλή\n Προτεινόμενα για εσάς \n 20/11/2026 - 12:04 \n Καλύβια Αττικής: Χειροπέδες σε 39χρονο για Καλάσνικοφ και πιστόλια\n 20/11/2026 - 11:38 \n Κως: Συνελήφθη Παλαιστίνιος καταζητούμενος με ευρωπαϊκό ένταλμα σύλληψης\n 20/11/2026 - 11:24 \n Θεσσαλονίκη: Κυκλοφοριακές ρυθμίσεις το Σαββατοκύριακο λόγω αγώνων δρόμου – Ποιοι δρόμοι θα κλείσουν\n 20/11/2026 - 11:11 \n Φλώρινα: Σύλληψη καταζητούμενης στη Σλοβενία για εμπορία ανθρώπων\n 20/11/2026 - 11:10 \n Θεσσαλονίκη: Συνελήφθη 47χρονος έπειτα από τροχαίο – Οδηγούσε μεθυσμένος και χωρίς δίπλωμα\n 20/11/2026 - 10:55 \n «Καταγράψτε τα χρήματα και τα κοσμήματά σας»: Πώς εξαπάτησαν ηλικιωμένη στην Πιερία\n 20/11/2026 - 10:43 \n Γυναικοκτονία στο Θησείο: Βίντεο από τη σύλληψη του 63χρονου – Σοκάρουν τα ευρήματα από την ιατροδικαστική εξέταση\n 20/11/2026 - 10:18 \n Βάρη: Πώς έγινε το σοβαρό τροχαίο με την κόρη του Βακάκη των Jumbo – Βίντεο-ντοκουμέντο\n 20/11/2026 - 9:27 \n Δολοφονία 24χρονης στον Άγιο Παντελεήμονα: Το δακτυλικό αποτύπωμα και τα βίντεο που «έδειξαν» τον 19χρονο\n 20/11/2026 - 7:33 \n Τα πρωτοσέλιδα των εφημερίδων σήμερα, Παρασκευή 20 Νοεμβρίου 2026\n 20/11/2026 - 7:02 \n Σχεδόν αίθριος σήμερα ο καιρός – Έως τους 25 βαθμούς η θερμοκρασία\n 20/11/2026 - 5:00 \n Εορτολόγιο: Ποιοι γιορτάζουν σήμερα, Παρασκευή 20 Νοεμβρίου\n Περισσότερα",
       "issues": [],
       "el": {
-        "title": "Η Ελλάδα ενώπιον του Ευρωπαϊκού Δικαστηρίου για την τεχνολογία αναγνώρισης αροσκαφών",
-        "dek": "Η Ευρωπαϊκή Επιτροπή αποφάσισε να παραπέμψει την Ελλάδα στο Δικαστήριο της ΕΕ λόγω της καθυστέρησης στην εφαρμογή της τεχνολογίας Mode S, ενώ οι αρχές υπογραμμίζουν ότι τα υφιστάμενα συστήματα εναέριας κυκλοφορίας παραμένουν ανεπηρέαστα.",
+        "title": "Ενημέρωση ειδήσεων Ελλάδας: Πρόσφατες εξελίξεις και καιρός",
+        "dek": "Μια περιεκτική επισκόπηση πρόσφατων ειδήσεων από την Ελλάδα, που καλύπτει ενημερώσεις από την αστυνομία, κυκλοφοριακές ρυθμίσεις στη Θεσσαλονίκη και τις τρέχουσες καιρικές συνθήκες.",
         "tldr": [
-          "Η Ευρωπαϊκή Επιτροπή παραπέμπει την Ελλάδα στο δικαστήριο της ΕΕ για την εφαρμογή του ραντάρ Mode S.",
-          "Το Υπουργείο Υποδομών και Μεταφορών τονίζει ότι τα τρέχοντα συστήματα εναέριας κυκλοφορίας λειτουργούν απρόσκοπτα.",
-          "Οι συμβάσεις για νέα συστήματα ραντάρ και αναβαθμίσεις επικοινωνιών βρίσκονται επί του παρόντος σε εξέλιξη."
+          "Οι αρχές επιβολής του νόμου ανέφεραν αρκετές συλλήψεις σε Αθήνα, Κوس και άλλες περιοχές της Ελλάδας.",
+          "Η Θεσσαλονίκη προετοιμάζεται για κυκλοφοριακές ρυθμίσεις και κλειστούς δρόμους λόγω των επερχόμενων αθλητικών εκδηλώσεων τρεξίματος το Σαββατοκύριακο.",
+          "Οι καιρικές συνθήκες σε όλη τη χώρα παραμένουν γενικά αίθριες και ήπιες, με τις θερμοκρασίες να φτάνουν έως και τους 25 βαθμούς Κελσίου."
         ]
       },
       "notified": true
@@ -1759,12 +1876,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-20T02:41:42.897Z",
+      "at": "2026-11-20T10:28:45.876Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-20T02:41:43.635Z",
+      "at": "2026-11-20T10:28:46.495Z",
       "items": 5
     },
     "civilprotection": {
@@ -1775,27 +1892,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-20T02:41:44.843Z",
+      "at": "2026-11-20T10:28:47.614Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-20T02:41:45.052Z",
+      "at": "2026-11-20T10:28:47.746Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-20T02:41:46.227Z",
+      "at": "2026-11-20T10:28:48.743Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-20T02:41:47.035Z",
-      "items": 2
+      "at": "2026-11-20T10:28:49.381Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-20T02:41:47.572Z",
+      "at": "2026-11-20T10:28:50.109Z",
       "items": 10
     },
     "toi-greece": {
@@ -1806,23 +1923,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-20T02:41:48.079Z",
+      "at": "2026-11-20T10:28:50.504Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-20T02:41:48.428Z",
+      "at": "2026-11-20T10:28:50.542Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-20T02:41:49.022Z",
-      "items": 6
+      "at": "2026-11-20T10:28:50.909Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-20T02:41:49.238Z",
-      "items": 4
+      "at": "2026-11-20T10:28:51.035Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -1831,12 +1948,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-20T02:41:43.936Z",
+      "at": "2026-11-20T10:28:47.094Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-20T02:41:49.971Z",
+      "at": "2026-11-20T10:28:51.623Z",
       "items": 0
     },
     "hcg": {
@@ -1847,41 +1964,59 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-20T02:41:51.267Z",
+      "at": "2026-11-20T10:28:53.113Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-20T02:41:51.508Z",
+      "at": "2026-11-20T10:28:53.346Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-20T02:41:51.692Z",
-      "items": 8
+      "at": "2026-11-20T10:28:53.521Z",
+      "items": 6
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-20T02:41:51.937Z",
-      "items": 8
+      "at": "2026-11-20T10:28:53.711Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-20T02:41:52.321Z",
-      "items": 7
+      "at": "2026-11-20T10:28:54.050Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-20T02:41:52.652Z",
-      "items": 3
+      "at": "2026-11-20T10:28:54.439Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-20",
     "count": 0,
-    "published": [],
-    "rejected": [],
+    "published": [
+      {
+        "slug": "average-hotel-prices-greece-2026",
+        "title": "↻ Greek PM Mitsotakis Warns Tourism Sector Against Overcharging",
+        "at": "2026-11-20T12:30:32+02:00",
+        "section": "travel"
+      }
+    ],
+    "rejected": [
+      {
+        "title": "Greece Faces European Court Over Aircraft Identification Technology",
+        "reason": "Ουδέτερη εκδοχή: Μεγάλη ομοιότητα με την πηγή (21%)",
+        "at": "2026-11-20T10:28:43.659Z"
+      },
+      {
+        "title": "Airbnb: Νέοι κανόνες για τους επισκέπτες από σήμερα – Όρια στις απαιτήσεις των ιδιοκτητών",
+        "reason": "Rule 11 violation: The Hebrew body text mentions an unauthorized company name ('פאברקה') which does not appear anywhere in the source text.; Rule 8 & 9 violation: The Hebrew body text mentions 'שกระ categories' which contains broken characters and an untranslated word, introducing unverified or malf",
+        "at": "2026-11-20T10:29:34.241Z"
+      }
+    ],
     "errors": []
   },
   "history": [
@@ -2163,30 +2298,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-20T02:41:53.605Z",
-    "considered": 20,
-    "picked": 1,
+    "at": "2026-11-20T10:29:03.262Z",
+    "considered": 33,
+    "picked": 5,
     "items": [
-      "· ert | Ουκρανία: Νέα ρωσική επίθεση στο Κίεβο – Πυρκαγιές σε τρεις συνοικίες και ζημιές σε υποδομ",
-      "· ert | Νέοι ισραηλινοί βομβαρδισμοί στον Λίβανο – Στο στόχαστρο εγκατάσταση πυραύλων της Χεζμπολά",
-      "· ingr | Λίβανος: Ισραηλινές επιθέσεις στο ανατολικό τμήμα της χώρας",
-      "· gct | Greek Ombudsman Calls Ponies in Christmas Displays ‘Passive Abuse’",
-      "· gct | Chris Lucas Shaken After Man Attacks His Car in Melbourne CBD, the Day Before Noema Openin",
-      "· gct | The Rise of Greek Cuisine: Top Greek Dishes You Must Try",
-      "· gct | PASOK MEP Farantouris Presses Commission on Greek Olive Oil Prices Amid Oversupply",
-      "· gct | Greece Beat Egypt 2-1 in Historic U17 World Cup Debut Win in Qatar",
-      "· ingr | Γεωργία: 6 νεκροί σε έκρηξη αποδιδόμενη σε διαρροή αερίου – Μερική κατάρρευση πενταώροφου ",
-      "· gct | Greek Trap Rapper Ivan Greko Acquitted in Jeweler’s Son Kidnapping Case",
-      "✓ gct | Greece Faces Court Over Aircraft Recognition Radar Technology",
-      "· gct | Greece Begins 2027 Tennis Season at United Cup in Sydney",
-      "· gct | Overnight Stays in Greece Reach 23.5 Million in September",
-      "· gct | Turkish Defence Officials Visit Greece’s Disaster Management Command",
-      "· gct | More Than 1,000 Startups Drive Greece’s Growing Innovation Economy",
-      "· gct | Fidan Talks ‘Good Neighbourliness’ While Repeating Ankara’s Claims on Thrace, the Dodecane",
-      "· gct | ‘He Is an Investment’: Greek Journalist Says Hull’s Mouzakitis Needs Patience to Flourish",
-      "· naftemporiki | Οι μετοχές της Anthropic έκλεισαν με άνοδο 17% την πρώτη ημέρα διαπραγμάτευσης",
-      "· gct | Athena of the Mountains: The Goddess Carved Into a Cliff in Rough Cilicia",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
+      "· naftemporiki | Δημόσιες ΣΑΕΚ ΥΠΑΙΘΑ: Από σήμερα οι αιτήσεις για στεγαστικό επίδομα",
+      "✓ naftemporiki | Σεισμός τώρα 4,1 Ρίχτερ ανοικτά της Αρεόπολης Λακωνίας",
+      "✓ naftemporiki | Τουρισμός: Στα 21,9 δισ. ευρώ οι ταξιδιωτικές εισπράξεις στο 9μηνο – Αυξημένες κατά 11,1% ",
+      "· naftemporiki | «Βήμα» της Capital Tankers για την Κύρια Αγορά του Όσλο",
+      "· minfin | Κατατέθηκε στη Βουλή ο Κρατικός Προϋπολογισμός του 2027",
+      "· ingr | Ακρόπολη: Την Κυριακή η κηδεία της 61χρονης Μαρίνας που δολοφονήθηκε από τον σύζυγό της",
+      "· gct | Maria Mazonaki Says Paola Is a “Worthy Replacement” for Her Late Brother on The Voice",
+      "· gn-kathimerini | Γαλλία: Ενας νεκρός και 30 τραυματίες από μεγάλη πυρκαγιά σε πολυκατοικία - Kathimerini",
+      "· naftemporiki | Υδρογονάνθρακες: Ξεκινούν οι σεισμικές έρευνες Chevron – HELLENiQ ENERGY στο νότιο Ιόνιο",
+      "· gn-iefimerida | Έφτασε το Ramform Tethys -Ξεκινούν οι σεισμικές έρευνες στο Νότιο Ιόνιο, ενδιαφέρον τριών ",
+      "· naftemporiki | Κίνα: Τόνωση στην κατανάλωση από τη σύνδεση διαφορετικών κλάδων",
+      "· ingr | Πώς ο σκύλος αντιλαμβάνεται τα ψέματα και τι αποκαλύπτουν οι αντιδράσεις του",
+      "✓ ingr | Airbnb: Νέοι κανόνες για τους επισκέπτες από σήμερα – Όρια στις απαιτήσεις των ιδιοκτητών",
+      "· gct | Greece Showcases Advanced Weapons and Military Technologies",
+      "· gct | Karditsa Puts Cycling at the Heart of Christmas Celebrations",
+      "· gct | UK Seeks Closer EU Ties as Brexit Costs Fuel New Negotiations",
+      "· gct | African Teenager Arrested Over Athens Suitcase Murder",
+      "· gct | Acropolis Museum Opens Major Exhibition On Ancient Armenia",
+      "· gct | Athens Sailing Week Opens with 542 International Competitors",
+      "· gct | Greece Will Host its First-Ever World Cheerleading Cup",
+      "· gct | Chrisoula Mouzourakis and Her Icons of Faith",
+      "· gn-kathimerini | Γεωργία: Eξι νεκροί έπειτα από έκρηξη σε πολυκατοικία – H δραματική διάσωση 3χρονης από τα",
+      "· gn-iefimerida | Τέλος το πλύσιμο πιάτων και το μάζεμα των σκουπιδιών στα Airbnb -Από σήμερα σε ισχύ οι νέο",
+      "· gn-iefimerida | Ελάχιστα τα δηλωμένα ενοίκια στην Εφορία -Μόλις 288 ευρώ το 2025, χαμένοι όσοι περιμένουν ",
+      "· gct | Greek Shipowner Giorgos Prokopiou Reportedly Buys Park Gstaad",
+      "· gct | Greek-Australian Innovators Dominate News Corp’s 2026 Top 250 Young Entrepreneurs List",
+      "· gct | Kayla Itsines Flies Great-Uncle From Greece to Adelaide for Surprise 10-Year Family Reunio",
+      "· gn-iefimerida | Κυψέλη: Το 3D «σκάνερ» που εντοπίζει μετατοπίσεις και καθιζήσεις με ακρίβεια χιλιοστού -Πώ",
+      "✓ gtp | Greek PM: Tighter Building Rules Ahead for Mykonos, Santorini",
+      "✓ gtp | Greek Tourism Must Avoid Overcharging, Says PM Mitsotakis"
     ]
   },
   "evergreenDone": [
