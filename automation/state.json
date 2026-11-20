@@ -19,61 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "21e1f6fe3041": 1793915845949,
-    "97f16d8c5561": 1793915845949,
-    "0e2d30eb4690": 1793915845949,
-    "9f2d55bd034d": 1793915845949,
-    "927f65d419b3": 1793915845949,
-    "b7ddc2e3d152": 1793915845949,
-    "ee7f999836db": 1793915845949,
-    "e0378ff7e5d6": 1793915845949,
-    "90b0e0f32b39": 1793915845949,
-    "7cff164bca38": 1793915845949,
-    "aeccdd77b2bd": 1793915845949,
-    "12d468d3b215": 1793915845949,
-    "511adaab073d": 1793915845949,
-    "9c76b8ace6af": 1793915845949,
-    "762e23f1314d": 1793915845949,
-    "1670f1a33b6a": 1793915845949,
-    "32d23fc7320b": 1793915845949,
-    "31f05642376e": 1793915845949,
-    "3230a1de8049": 1793915845949,
-    "95de453e5364": 1793915845949,
-    "7d6a86441eea": 1793915845949,
-    "e606d75f346d": 1793915845949,
-    "d97b17940469": 1793915845949,
-    "5a09de6ac3be": 1793915845949,
-    "58e4526c1f47": 1793915845949,
-    "7d03f50d1eec": 1793915845949,
-    "6ee25a56300d": 1793915845949,
-    "fe95927aa81d": 1793915845949,
-    "d7b9342b1421": 1793915845949,
-    "4a27710025d5": 1793915845949,
-    "8baa8ae18f2d": 1793915845949,
-    "8de375ede874": 1793915845949,
-    "ca41583efc3b": 1793915845949,
-    "5bd9aee35090": 1793915845949,
-    "cbf03be865b5": 1793915845949,
-    "20233b1e7c90": 1793915845949,
-    "32c1e3d053ff": 1793915845949,
-    "36c418327e9e": 1793916942313,
-    "16273fb68c9f": 1793916942313,
-    "37ed4813590e": 1793916942313,
-    "4b087bdac9f1": 1793916942313,
-    "7371909b20c8": 1793916942313,
-    "3bcd3e3093c9": 1793931476017,
-    "67dc7f9ebb1e": 1793931476017,
-    "6141c70cdcac": 1793931476017,
-    "41392798b428": 1793931476017,
-    "c077263da154": 1793931476017,
-    "8daee3db6de7": 1793931476017,
-    "31ad552e6c6b": 1793931476017,
-    "d425e6f42b9c": 1793931476017,
-    "f4e005c7fbbb": 1793931476017,
-    "ab957e2b6a45": 1793931476017,
-    "7c9e43a5b499": 1793931476017,
-    "89f5a838412b": 1793931476017,
-    "1f2461af0bbb": 1793931476017,
     "57d05a016245": 1793958620943,
     "2b2644a4b78f": 1793958620943,
     "20d5a74dec12": 1793958620943,
@@ -1675,9 +1620,136 @@
     "f1896321a160": 1795123502042,
     "8103338f9d86": 1795124851971,
     "7db5869fbec1": 1795124851971,
-    "7925f6f2b68d": 1795124851971
+    "7925f6f2b68d": 1795124851971,
+    "ebe1534441e0": 1795142513605,
+    "63f9447417fb": 1795142513605,
+    "bce7596bd479": 1795142513605,
+    "2f6ddf5976ff": 1795142513605,
+    "6ae474c9b69e": 1795142513605,
+    "9e12126fa666": 1795142513605,
+    "ef326a643a2a": 1795142513605,
+    "aa7d9cd12a0f": 1795142513605,
+    "01a0ae6a9b9d": 1795142513605,
+    "7dd82e1fc8c8": 1795142513605,
+    "28308bb99b59": 1795142513605,
+    "ecd37ff20bcf": 1795142513605,
+    "a682bba1bff6": 1795142513605,
+    "5d41c0363df4": 1795142513605,
+    "0c641617ec55": 1795142513605,
+    "1bfc1a0c1044": 1795142513605,
+    "7bc883c722e8": 1795142513605,
+    "9b9ccfdd567a": 1795142513605,
+    "add797968c0d": 1795142513605,
+    "1dfe0cc4895f": 1795142513605
   },
-  "pending": {},
+  "pending": {
+    "2885f2": {
+      "createdAt": 1795142528194,
+      "item": {
+        "title": "Greece Faces Court Over Aircraft Recognition Radar Technology",
+        "url": "https://greekcitytimes.com/2026/11/20/greece-faces-court-over-aircraft-recognition-radar-technology/",
+        "summary": "The European Commission has referred Greece to the EU Court over delays in implementing Mode S aircraft identification technology and upgrading air traffic control radar systems.\n The post Greece Faces Court Over Aircraft Recognition Radar Technology appeared first on Greek City Times .",
+        "published": "Thu, 19 Nov 2026 22:42:02 +0000",
+        "id": "28308bb99b59",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "28308bb99b59",
+        "section": "travel",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Refers Greece to EU Court over air traffic control and radar technology delays, which matters for aviation safety and tourists flying to Greece.",
+        "item": {
+          "title": "Greece Faces Court Over Aircraft Recognition Radar Technology",
+          "url": "https://greekcitytimes.com/2026/11/20/greece-faces-court-over-aircraft-recognition-radar-technology/",
+          "summary": "The European Commission has referred Greece to the EU Court over delays in implementing Mode S aircraft identification technology and upgrading air traffic control radar systems.\n The post Greece Faces Court Over Aircraft Recognition Radar Technology appeared first on Greek City Times .",
+          "published": "Thu, 19 Nov 2026 22:42:02 +0000",
+          "id": "28308bb99b59",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-faces-eu-court-radar-technology",
+        "section": "travel",
+        "sensitive": false,
+        "breaking": false,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": null,
+        "alert": {
+          "he": "טיסות ליוון",
+          "en": "Flights to Greece"
+        },
+        "imageKey": "plane",
+        "imageQuery": "airplane cockpit radar air traffic control",
+        "he": {
+          "title": "יוון תעמוד לדין אירופי בשל עיכוב בהטמעת מערכות זיהוי מטוסים",
+          "seoTitle": "טיסות ליוון: בית הדין האירופי יבון את מערכות הפיקוח",
+          "seoDesc": "הנציבות האירופית תפנה את יוון לבית הדין בשל עיכוב בהתקנת טכנולוגיית Mode S בבקרה האווירית. כל הפרטים על הטיסות והבטיחות.",
+          "keywords": [
+            "טיסות ליוון",
+            "טיסות לאתונה",
+            "חופשה ביוון",
+            "בקרת טיסה יוון",
+            "רשות התעופה האזרחית יוון"
+          ],
+          "dek": "הנציבות האירופית החליטה להעביר את יוון לבית הדין לצדק של האיחוד האירופי עקב אי-יישום טכנולוגיית זיהוי מטוסים מתקדמת, אך רשויות התעופה מבהירות כי אין שיבושים בפעילות הקיימת.",
+          "tldr": [
+            "הנציבות האירופית פונה לבית הדין נגד יוון בשל עיכוב בטכנולוגיית Mode S.",
+            "לפי משרד התשתיות והתחבורה, המהלך אינו פוגע במערכות בקרת הטיסה הקיימות.",
+            "חוזה לרכש מערכות מכדורים חדשות ממתין לחתימה מאז הגעתו לשלב זה."
+          ],
+          "means": "טסים לחופשה באתונה או ביעדים אחרים ביוון? אין שום שינוי בלוח הטיסות שלכם והמערכות הקיימות פועלות כרגיל. אם אתם מתכננים טיסות בקרוב, מומלץ תמיד להתעדכן מול חברות התעופה על כל שינוי נקודתי.",
+          "body": "## פנייה לבית הדין האירופי בעניין טכנולוגיית הפיקוח\n\nהנציבות האירופית קיבלה החלטה להעביר את יוון לבית הדין לצדק של האיחוד האירופי (CJEU) עקב אי-הטמעה מלאה של טכנולוגיית זיהוי המטוסים המכונה Mode S. מדובר במערכת המאפשרת לפקחי הטיסה לזהות כלי טיס בודדים באמצעות נתוני הזיהוי שהם משדרים בזמן אמת, במטרה לחזק את הפיקוח, לשפר את היעילות המבצעית ולהגדיל את קיבולת המרחב האווירי.\n\nהליך ההפרה החל עוד בדצמבר 2024 עם מתן הודעה רשמית, אליה התווספה חוות דעת מנומקת בדצמבר 2025, וכעת הגיע לשלב ההפניה לערכאות משפטיות.\n\n## עמדת משרד התחבורה והתעופה האזרחית\n\nמקורות במשרד התשתיות והתחבורה הדגישו כי הפנייה לבית הדין אינה מהווה הרשעה משפטית אוטומטית ואינה גוררת קנסות אוטומטיים. כמו כן, נמסר מרשות התעופה האזרחית (HCAA) כי החוזה לאספקה והתקנה של מערכות המכ״ם החדשות ממתין כעת לחתימה, שלב המהווה צעד ביניים לקראת עמידה מלאה בדרישות.\n\nלצד זאת, הרשויות ביוון מקדמות פרויקטים נוספים במסגרת תוכנית המודרניזציה של הניווט האווירי. בין היתר, נחתם במרץ 2026 הסכם תרומה בשווי 3.8 מיליון אירו (ללא מע\"מ) למערכת תקשורת והקלטת קול במרכזי הבקרה של אתונה ומקדוניה, ובחודש יולי נחתם חוזה נוסף לנוהלי ניווט מבוססי ביצועים (PBN) ב-31 שדות תעופה.\n\n## מה זה אומר עבור הנוסעים לישראל וממנה?\n\nלפי גורמי המקצוע במשרד התחבורה היווני, ההודעה של הנציבות האירופית אינה מצביעה על שום הפסקה או תקלה במערכות בקרת הטיסה הפעילות כיום ביוון. הפנייה נוגעת אך ורק להוספת יכולות טכנולוגיות מתקדמות שנדרשות על פי תקנות האיחוד האירופי, ולכן פעילות הטיסות הרגילה נמשכת ללא שינוי.\n\n## שאלות נפוצות\n\n**האם הטיסות ליוון ולשדות התעופה במדינה פועלות כסדרה?**\nכן, מערכות בקרת הטיסה הקיימות פועלות כרגיל ולא דווח על שום הפרעה לפעילות השוטפת או ללוח הטיסות.\n\n**האם הפנייה לבית הדין האירופי תגרור קנס מיידי?**\nלא, מקורות במשרד התחבורה הבהירו כי ההפניה אינה מהווה פסיקת בית משפט ואינה מטילה קנס אוטומטי על המדינה."
+        },
+        "en": {
+          "title": "Greece Faces European Court Over Aircraft Identification Technology",
+          "seoTitle": "Greece Faces EU Court Over Air Traffic Radar Delay",
+          "seoDesc": "The European Commission refers Greece to the CJEU over delayed implementation of Mode S aircraft identification technology. Flights continue normally.",
+          "keywords": [
+            "Greece flights",
+            "Athens airport",
+            "Greece air traffic",
+            "European Commission Greece",
+            "Greece travel news"
+          ],
+          "dek": "The European Commission has decided to refer Greece to the Court of Justice of the EU over delayed implementation of Mode S technology, while authorities emphasize that existing air traffic systems remain unaffected.",
+          "tldr": [
+            "The European Commission refers Greece to the EU court over Mode S radar implementation.",
+            "The Ministry of Infrastructure and Transport stresses that current air traffic systems are uninterrupted.",
+            "Contracts for new radar systems and communications upgrades are currently advancing."
+          ],
+          "means": "Planning a trip to Athens or other Greek destinations? Your flights and schedules remain completely unaffected by this legal step. Existing air traffic control systems continue to operate normally, but always check directly with your airline for regular updates.",
+          "body": "## European Court Action Over Radar Technology\n\nThe European Commission has decided to refer Greece to the Court of Justice of the European Union (CJEU) due to its failure to implement the required Mode S aircraft identification technology. This technology allows air traffic controllers to identify individual aircraft through unique identification data transmitted in flight, strengthening surveillance, safety, and airspace capacity.\n\nThe infringement procedure commenced with a formal notice in December 2024, followed by a reasoned opinion in December 2025, before escalating to the referral stage.\n\n## Ministry and Civil Aviation Response\n\nSources at the Ministry of Infrastructure and Transport emphasized that the referral does not constitute a court conviction or automatically impose financial penalties. Information from the Hellenic Civil Aviation Authority (HCAA) confirmed that the contract for supplying and installing the new radar systems currently awaits signature.\n\nAuthorities are also advancing other components of Greece's wider air navigation modernisation programme. In March 2026, a 3.8 million euro donation agreement (excluding VAT) was signed for a communications and voice recording system at the Athens and Macedonia Area Control Centres. Furthermore, a July contract covered Performance-Based Navigation (PBN) procedures across 31 airports.\n\n## Impact on Air Travel\n\nMinistry sources stressed that the European Commission's announcement did not identify any interruption to Greece's existing air traffic control systems. The referral strictly concerns the integration of additional technological capabilities required under EU regulations rather than any operational safety failure in current services.\n\n## FAQ\n\n**Are flights to and from Greece operating normally?**\nYes, existing air traffic control systems are fully operational with no reported interruptions to daily flight schedules.\n\n**Does the referral to the EU court mean immediate fines for Greece?**\nNo, ministry sources clarified that the referral does not constitute a conviction or automatically impose any fines."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece faces European Court action over its failure to implement Mode S aircraft identification technology, as a contract for new air navigation radars remains awaiting signature two years after reaching that stage.\n The European Commission decided on Thursday to refer Greece to the Court of Justice of the European Union (CJEU) over its failure to implement the required Mode S technology, which allows air traffic controllers to identify individual aircraft through the identity information each aircraft transmits.\n The Commission acknowledged that Greek authorities had made some progress but concluded that their actions remained insufficient to meet the country’s EU obligations.\n The infringement procedure began with a formal notice in December 2024, followed by a reasoned opinion in December 2025, before reaching the referral stage.\n Read more: Ryanair Slams Greece Again Over Air Traffic Chaos as Summer Delays Mount \n Sources at the Ministry of Infrastructure and Transport stressed on Wednesday evening that the referral does not constitute a court conviction or automatically impose a fine.\n They also cited information from the Hellenic Civil Aviation Authority (HCAA), which confirmed that the contract for the supply and installation of the new radar systems currently awaits signature.\n However, signing the contract represents only an intermediate step towards compliance. Authorities must subsequently install the equipment, connect it to existing air traffic control infrastructure and complete the necessary operational tests.\n The key question remains when the new systems will become fully operational. The ministry’s sources did not provide a specific completion date for these stages.\n The case concerns Mode S technology, which enables air traffic controllers to identify individual aircraft using their unique identification data. According to the European Commission, the technology strengthens surveillance, improves air traffic control efficiency and flight safety, enhances interoperability between EU member states and increases airspace capacity.\n Ministry sources also stressed that the Commission’s announcement did not identify any interruption to Greece’s existing air traffic control systems. They said the referral concerns the implementation of additional technological capabilities required under EU rules.\n The ministry also highlighted other projects within Greece’s wider air navigation modernisation programme, noting that Infrastructure and Transport Minister Christos Dimas oversaw the signing of contracts for two further major projects during 2026.\n On 16 March, authorities signed a €3.8 million donation agreement, excluding VAT, for a new communications and voice recording system at the Athens and Macedonia Area Control Centres.\n The project covers equipment that allows air traffic controllers to communicate with aircraft crews and records their conversations.\n On 17 July, authorities signed another contract covering Performance-Based Navigation (PBN) procedures at 31 airports. The project will redesign flight procedures using satellite navigation, with the aim of making better use of Greek airspace and airport capacity.\n The wider modernisation programme also includes Data Link digital communications services, which ministry sources say have now received final acceptance.\n Meanwhile, the new TopSky ATC One air traffic management system remains under negotiation with its manufacturer, according to the same sources.\n These projects cover communications, navigation, surveillance and flight management, but each remains at a different stage of implementation.\n For Greece to resolve the specific EU infringement case, the authorities must complete the technical work and demonstrate that the required Mode S capabilities have entered operational service.\n (Source: AMNA)\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Thieves Steal Telecom Cables From Greek Civil Aviation Facility \n Near-miss over Cyprus: Turkish military transport and passenger jet come close to colliding \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Greece Begins 2027 Tennis Season at United Cup in Sydney\n Next Article \n Greek Trap Rapper Ivan Greko Acquitted in Jeweler's Son Kidnapping Case\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα ενώπιον του Ευρωπαϊκού Δικαστηρίου για την τεχνολογία αναγνώρισης αροσκαφών",
+        "dek": "Η Ευρωπαϊκή Επιτροπή αποφάσισε να παραπέμψει την Ελλάδα στο Δικαστήριο της ΕΕ λόγω της καθυστέρησης στην εφαρμογή της τεχνολογίας Mode S, ενώ οι αρχές υπογραμμίζουν ότι τα υφιστάμενα συστήματα εναέριας κυκλοφορίας παραμένουν ανεπηρέαστα.",
+        "tldr": [
+          "Η Ευρωπαϊκή Επιτροπή παραπέμπει την Ελλάδα στο δικαστήριο της ΕΕ για την εφαρμογή του ραντάρ Mode S.",
+          "Το Υπουργείο Υποδομών και Μεταφορών τονίζει ότι τα τρέχοντα συστήματα εναέριας κυκλοφορίας λειτουργούν απρόσκοπτα.",
+          "Οι συμβάσεις για νέα συστήματα ραντάρ και αναβαθμίσεις επικοινωνιών βρίσκονται επί του παρόντος σε εξέλιξη."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1687,12 +1759,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-19T21:47:19.772Z",
+      "at": "2026-11-20T02:41:42.897Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-19T21:47:20.554Z",
+      "at": "2026-11-20T02:41:43.635Z",
       "items": 5
     },
     "civilprotection": {
@@ -1703,27 +1775,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-19T21:47:23.310Z",
+      "at": "2026-11-20T02:41:44.843Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-19T21:47:23.512Z",
+      "at": "2026-11-20T02:41:45.052Z",
       "items": 7
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-19T21:47:24.408Z",
+      "at": "2026-11-20T02:41:46.227Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-19T21:47:25.226Z",
+      "at": "2026-11-20T02:41:47.035Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-19T21:47:26.200Z",
+      "at": "2026-11-20T02:41:47.572Z",
       "items": 10
     },
     "toi-greece": {
@@ -1734,23 +1806,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-19T21:47:26.780Z",
+      "at": "2026-11-20T02:41:48.079Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-19T21:47:27.177Z",
-      "items": 15
+      "at": "2026-11-20T02:41:48.428Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-19T21:47:27.841Z",
-      "items": 5
+      "at": "2026-11-20T02:41:49.022Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T21:47:28.090Z",
-      "items": 5
+      "at": "2026-11-20T02:41:49.238Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1759,12 +1831,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-19T21:47:21.219Z",
+      "at": "2026-11-20T02:41:43.936Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-19T21:47:28.710Z",
+      "at": "2026-11-20T02:41:49.971Z",
       "items": 0
     },
     "hcg": {
@@ -1775,104 +1847,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-19T21:47:29.852Z",
+      "at": "2026-11-20T02:41:51.267Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-19T21:47:30.069Z",
+      "at": "2026-11-20T02:41:51.508Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-19T21:47:30.259Z",
+      "at": "2026-11-20T02:41:51.692Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-19T21:47:30.505Z",
-      "items": 5
+      "at": "2026-11-20T02:41:51.937Z",
+      "items": 8
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-19T21:47:30.843Z",
-      "items": 8
+      "at": "2026-11-20T02:41:52.321Z",
+      "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-19T21:47:31.196Z",
-      "items": 4
+      "at": "2026-11-20T02:41:52.652Z",
+      "items": 3
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-19",
-    "count": 6,
-    "published": [
-      {
-        "slug": "radisson-expands-hotels-athens-thessaloniki",
-        "title": "Radisson Expands Greek Portfolio with New Hotels in Athens and Thessaloniki",
-        "at": "2026-11-19T01:28:16+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "centcom-head-israel-iran-tensions",
-        "title": "CENTCOM Chief Visits Israel Amid Regional Tensions With Iran",
-        "at": "2026-11-19T05:14:55+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-minimum-wage-2027",
-        "title": "Greece Plans 960 Euro Minimum Wage and Seniority Increases for 2027",
-        "at": "2026-11-19T05:15:04+02:00",
-        "section": "living"
-      },
-      {
-        "slug": "greek-airport-traffic-september-2026",
-        "title": "Greek Airport Traffic Outpaces European Average in September",
-        "at": "2026-11-19T14:54:12+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "thessaloniki-rising-demand-short-term-rentals-expedia",
-        "title": "Thessaloniki Sees Rising Demand for Short-Term Rentals",
-        "at": "2026-11-19T14:54:38+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-metro-line-2-early-closure",
-        "title": "Athens: Four Line 2 Metro Stations Closing Early Tonight",
-        "at": "2026-11-19T14:55:11+02:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Greece Has Fourth-Highest EU Inflation at 5.7%, Eurostat Confirms",
-        "reason": "Ίδιο θέμα με «Greece ranks first in EU for living costs and housing burden» – δεν γράφτηκε ξανά",
-        "at": "2026-11-18T23:28:00.674Z"
-      },
-      {
-        "title": "Israeli and Hellenic Air Forces complete joint exercise in Greece",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew title contains a typographic error and mixed script in the word 'ע나ערי' which should be 'אווירי'.",
-        "at": "2026-11-19T03:14:46.291Z"
-      },
-      {
-        "title": "«Ασπίδα» από τη Μοσάντ μετά το ιρανικό σχέδιο δολοφονίας στην Ελλάδα -Γιατί έγινε στόχος ο Ελληνοεβραίος επιχειρηματίας και η διάψευση του Ι",
-        "reason": "Ίδιο θέμα με «Plot against Israeli citizen in Greece foiled» – δεν γράφτηκε ξανά",
-        "at": "2026-11-19T12:52:58.281Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "greek-airport-traffic-september-2026",
-        "at": "2026-11-19T12:54:12.727Z"
-      }
-    ],
-    "ig": []
+    "date": "2026-11-20",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-19",
+      "count": 6,
+      "rejected": 3
+    },
     {
       "date": "2026-11-18",
       "count": 8,
@@ -2146,13 +2163,30 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-19T21:47:31.971Z",
-    "considered": 3,
-    "picked": 0,
+    "at": "2026-11-20T02:41:53.605Z",
+    "considered": 20,
+    "picked": 1,
     "items": [
-      "· gct | 20 November Orthodox Gospel Warns That Looking Good Is Not the Same as Being Good",
-      "· ingr | Καλιφόρνια: Πλημμύρισαν Λος Άντζελες και Σαν Φρανσίσκο – Οι κάτοικοι σε επιφυλακή για εκκε",
-      "· gn-kathimerini | Η εκπαίδευση αλλάζει τον τουρισμό: Σύνδεση θεωρίας και πράξης, και νέες δεξιότητες για του"
+      "· ert | Ουκρανία: Νέα ρωσική επίθεση στο Κίεβο – Πυρκαγιές σε τρεις συνοικίες και ζημιές σε υποδομ",
+      "· ert | Νέοι ισραηλινοί βομβαρδισμοί στον Λίβανο – Στο στόχαστρο εγκατάσταση πυραύλων της Χεζμπολά",
+      "· ingr | Λίβανος: Ισραηλινές επιθέσεις στο ανατολικό τμήμα της χώρας",
+      "· gct | Greek Ombudsman Calls Ponies in Christmas Displays ‘Passive Abuse’",
+      "· gct | Chris Lucas Shaken After Man Attacks His Car in Melbourne CBD, the Day Before Noema Openin",
+      "· gct | The Rise of Greek Cuisine: Top Greek Dishes You Must Try",
+      "· gct | PASOK MEP Farantouris Presses Commission on Greek Olive Oil Prices Amid Oversupply",
+      "· gct | Greece Beat Egypt 2-1 in Historic U17 World Cup Debut Win in Qatar",
+      "· ingr | Γεωργία: 6 νεκροί σε έκρηξη αποδιδόμενη σε διαρροή αερίου – Μερική κατάρρευση πενταώροφου ",
+      "· gct | Greek Trap Rapper Ivan Greko Acquitted in Jeweler’s Son Kidnapping Case",
+      "✓ gct | Greece Faces Court Over Aircraft Recognition Radar Technology",
+      "· gct | Greece Begins 2027 Tennis Season at United Cup in Sydney",
+      "· gct | Overnight Stays in Greece Reach 23.5 Million in September",
+      "· gct | Turkish Defence Officials Visit Greece’s Disaster Management Command",
+      "· gct | More Than 1,000 Startups Drive Greece’s Growing Innovation Economy",
+      "· gct | Fidan Talks ‘Good Neighbourliness’ While Repeating Ankara’s Claims on Thrace, the Dodecane",
+      "· gct | ‘He Is an Investment’: Greek Journalist Says Hull’s Mouzakitis Needs Patience to Flourish",
+      "· naftemporiki | Οι μετοχές της Anthropic έκλεισαν με άνοδο 17% την πρώτη ημέρα διαπραγμάτευσης",
+      "· gct | Athena of the Mountains: The Goddess Carved Into a Cliff in Rough Cilicia",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
     ]
   },
   "evergreenDone": [
