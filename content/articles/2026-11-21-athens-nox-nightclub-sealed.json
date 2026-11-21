@@ -1,0 +1,60 @@
+{
+  "slug": "athens-nox-nightclub-sealed",
+  "section": "israelis",
+  "publishedAt": "2026-11-21T19:22:59+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "Athens"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/21/athens-nightclub-nox-home-to-despina-vandi-and-natasha-theodoridous-show-sealed-by-authorities/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/14349135/pexels-photo-14349135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Vibrant graffiti art decorates an alley in Athens, Greece, showcasing urban creativity.",
+    "credit": "Photo: Peter Holmboe / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/colorful-graffiti-on-walls-14349135/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אתונה: עיריית אתונה סגרה את מועדון נוקס",
+    "dek": "רשויות האכיפה באתונה סגרו את מועדון הלילה נוקס ברחוב אירא אודוס עקב ליקויי בטיחות אש והידרדרות תנאי הרישיון, לאחר שבדיקות קודמות העלו כי החותם שהושם על המקום הוסר בניגוד לחוק.",
+    "tldr": [
+      "עיריית אתונה סגרה את מועדון נוקס בשל בעיות רישוי ובטיחות אש.",
+      "פקחי העירייה והמשטרה גילו כי החותם הקודם שהושם על הכניסה הוסר.",
+      "המועדון נסגר שוב ומועדי ההופעות הקרובות במקום נמצאים כעת בסימן שאלה."
+    ],
+    "means": "למה זה מעניין אתכם? אם תכננתם לבלות בהופעות מוזיקה באתונה בתקופה הקרובה, חשוב לדעת שפעילות המועדון הושעתה עד להודעה חדשה ומומלץ לבדוק את לוח ההופעות המעודכן.",
+    "body": "עיריית אתונה הודיעה על סגירתו המחודשת של מועדון הלילה נוקס (NOX), הממוקם ברחוב אירא אודוס בעיר. ההחלטה התקבלה בעקבות ביקורות של רשויות הבריאות, המשטרה המקומית וכיבוי האש, שהעלו כי למקום אין את רישיון ההפעלה הנדרש וכי הוא אינו עומד בכל תנאי בטיחות האש המחויבים בחוק.\n\nהמקום כבר נסגר בעבר, אולם בבדיקה שנערכה ביום שישי התגלה כי החותם שהושם על הכניסה הוסר. בעקבות זאת, צוות משותף של נציגי העירייה, שירותי הבריאות, המשטרה היוונית ולוחמי האש הגיעו למקום מחדש ויישמו את צו הסגירה.\n\nנכון לעכשיו, לא ידוע מתי המועדון צפוי להיפתח מחדש, וההופעות המתוכננות בו נמצאות כעת באי ודאות."
+  },
+  "en": {
+    "title": "Athens: Municipality seals NOX nightclub",
+    "dek": "The Municipality of Athens has sealed the NOX nightclub on Iera Odos due to missing operating licences and fire safety violations, after officials discovered a previous seal had been removed.",
+    "tldr": [
+      "Athens municipality sealed the NOX nightclub following safety and licensing inspections.",
+      "Authorities found that a previous official seal placed on the venue's entrance had been removed.",
+      "The venue remains closed until further notice, putting scheduled performances in doubt."
+    ],
+    "means": "Why this matters to you: If you are planning a trip to Athens and looking to attend local music venues, note that this specific location is currently closed by authorities.",
+    "body": "The Municipality of Athens has sealed NOX, a nightclub located on Iera Odos, following recent inspections by municipal authorities, the health service, the municipal police, the Hellenic Police, and the Fire Department.\n\nAccording to official reports, the venue lacked the required operating licence and failed to meet necessary fire safety conditions. The club had previously been sealed by authorities, but a recent check on Friday revealed that the seal on the entrance had been removed. Consequently, a joint inspection team returned to the premises and sealed the venue once again.\n\nIt remains unconfirmed when the establishment will reopen, and all upcoming performances scheduled at the venue are currently in doubt."
+  },
+  "meta": {
+    "itemId": "a4a0add6fa8d",
+    "imageQuery": "Athens nightclub street",
+    "sourceHash": "e54910a41715",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-21T17:23:00.307Z",
+    "official": false
+  }
+}
