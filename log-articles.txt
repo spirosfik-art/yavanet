@@ -1,0 +1,12 @@
+15:36:36 θέμα: greek-tax-number-bank-account-property
+15:38:36 Gemini gemini-flash-latest: δεν απάντησε σε 2 λεπτά
+15:38:36 Gemini gemini-flash-latest: HTTP 599 (προσπάθεια 1)
+15:38:56 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 2)
+15:39:13 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 3)
+15:40:00 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 4)
+15:41:49 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 5)
+15:42:44 Gemini gemini-flash-latest: HTTP 503 (προσπάθεια 6)
+15:43:32 el σφάλμα: Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση (προσπάθεια 1)
+15:43:32 el σφάλμα: Gemini API: {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini (προσπάθεια 2)
+15:43:37 el σφάλμα: Gemini API: {"error":{"code":404,"message":"This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3 (προσπάθεια 3)
+15:43:37 απέτυχε η γλώσσα el → ξαναδοκιμάζει αύριο
