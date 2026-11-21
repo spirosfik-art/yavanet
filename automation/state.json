@@ -19,10 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "ed6fc26dc02f": 1794014410471,
-    "eca03264c9a2": 1794014410471,
-    "234883985372": 1794014410471,
-    "589e2f9cf09f": 1794014410471,
     "8cf8a2f93034": 1794019413115,
     "58f757a52841": 1794019413115,
     "d1dba5c83536": 1794019413115,
@@ -1648,7 +1644,13 @@
     "0709c432bded": 1795220019655,
     "a58934b4e43b": 1795220019655,
     "b6818e978213": 1795220019655,
-    "7c8835040a64": 1795220019655
+    "7c8835040a64": 1795220019655,
+    "377fd4a58c67": 1795224283906,
+    "c67e93455fc7": 1795224283906,
+    "1e9e93886777": 1795224283906,
+    "068a1632209d": 1795224283906,
+    "d63462a0f5cb": 1795224283906,
+    "3ae871f8c7f3": 1795224283906
   },
   "pending": {},
   "sourceStatus": {
@@ -1660,12 +1662,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-21T00:13:28.072Z",
+      "at": "2026-11-21T01:24:31.211Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-21T00:13:28.822Z",
+      "at": "2026-11-21T01:24:31.969Z",
       "items": 4
     },
     "civilprotection": {
@@ -1676,27 +1678,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-21T00:13:30.841Z",
+      "at": "2026-11-21T01:24:34.568Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-21T00:13:31.064Z",
+      "at": "2026-11-21T01:24:34.760Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-21T00:13:32.669Z",
+      "at": "2026-11-21T01:24:36.482Z",
       "items": 0
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-21T00:13:33.421Z",
-      "items": 1
+      "at": "2026-11-21T01:24:37.291Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-21T00:13:34.209Z",
+      "at": "2026-11-21T01:24:37.838Z",
       "items": 10
     },
     "toi-greece": {
@@ -1707,22 +1709,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-21T00:13:34.731Z",
+      "at": "2026-11-21T01:24:38.344Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-21T00:13:34.863Z",
+      "at": "2026-11-21T01:24:38.717Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-21T00:13:35.257Z",
-      "items": 1
+      "at": "2026-11-21T01:24:39.324Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T00:13:35.666Z",
+      "at": "2026-11-21T01:24:39.519Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1732,12 +1734,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T00:13:29.926Z",
+      "at": "2026-11-21T01:24:32.779Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-21T00:13:36.313Z",
+      "at": "2026-11-21T01:24:40.190Z",
       "items": 0
     },
     "hcg": {
@@ -1748,33 +1750,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-21T00:13:37.628Z",
+      "at": "2026-11-21T01:24:41.541Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-21T00:13:37.858Z",
+      "at": "2026-11-21T01:24:41.762Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-21T00:13:38.051Z",
+      "at": "2026-11-21T01:24:41.919Z",
       "items": 3
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-21T00:13:38.310Z",
+      "at": "2026-11-21T01:24:42.152Z",
       "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-21T00:13:38.665Z",
+      "at": "2026-11-21T01:24:42.489Z",
       "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-21T00:13:39.027Z",
-      "items": 6
+      "at": "2026-11-21T01:24:42.835Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
@@ -2080,33 +2082,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-21T00:13:39.655Z",
-    "considered": 23,
+    "at": "2026-11-21T01:24:43.906Z",
+    "considered": 6,
     "picked": 0,
     "items": [
-      "· gct | Defence Minister Links Pontian Genocide to Stronger Armed Forces",
-      "· gct | Greece Warned Over Antibiotic Resistance and Rising Infections",
-      "· gct | NASA Study Raises Hopes for Potato Farming on the Moon",
-      "· gct | Greek Economy Set for 2.3% Growth in 2027 as Debt Falls",
-      "· gct | Nikos Karvelas Reportedly Prepares Songs for Aphrodite Hatzimina",
-      "· gct | Greece Nears Completion of €15 Million Mosque Restoration",
-      "· gct | Mimi Denissi Parthenon Sculptures Doco Premieres in Brussels",
-      "· gct | Anti-Money Laundering Authority Alerts Public to Scam",
-      "· gct | Greek Police Investigate Criminal Links After Arrest of Armed Man",
-      "· gct | Nearly 500,000 Farmers Finalise Applications For Agricultural Subsidy",
-      "· gct | Defence Chief Awards Personnel on Armed Forces Day",
-      "· gct | Melbourne-Born Artist Stevie Bankster Joins Team Helena Paparizou on The Voice of Greece",
-      "· gct | Greek Lakes in Winter: Misty Shores From Evros to Prespa",
-      "· gct | PASOK Criticizes Mitsotakis Over GTA VI Pension Bonus Video",
-      "· ert | Ισραηλινά αεροπορικά πλήγματα στη Γάζα – Έξι νεκροί",
-      "· gct | Mitsotakis Doubts Significant New Building on Santorini and Mykonos",
-      "· naftemporiki | Δεν θα…κουραστεί να ασκεί βέτο στα νομοσχέδια των Δημοκρατικών ο Τραμπ – «Μπορούμε να το σ",
-      "· naftemporiki | Γάζα: Έξι νεκροί από ισραηλινά πλήγματα σε Μπουρέιτζ, Ντέιρ αλ Μπάλα και Νουσεϊράτ",
-      "· gn-iefimerida | Έκρηξη σε θαλαμηγό στη Χαλκιδική -Ένας τραυματίας - iefimerida.gr",
-      "· gn-iefimerida | Μπέσεντ: Εξακολουθώ να μένω σε στρατιωτική βάση μετά τις απειλές από το Ιράν -Αμετακίνητες",
-      "· gn-kathimerini | Ενα λαβωμένο αρχοντικό στην Πλάκα - Kathimerini",
-      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στην Πάτρα υπό τον Γενικό Γραμματέα Πολιτικής Προστασίας Νίκο ",
-      "· gtp | Αυθεντικός Μαραθώνιος Αθήνας: Πάνω από 18,6 εκατ. προβολές στα social media"
+      "· ingr | Τουρκία: Πτήσεις κατασκοπείας για το καλώδιο και σενάρια για κέντρο Μοσάντ στην Κύπρο",
+      "· ert | Δυτική Όχθη: Νεκρός 42χρονος Παλαιστίνιος από πυρά φύλακα ισραηλινού οικισμού",
+      "· ingr | Δυτική Οχθη: Παλαιστίνιος σκοτώθηκε από «πυρά της ισραηλινής κατοχής»",
+      "· ert | Περού: Ισχυρός σεισμός 6,7 Ρίχτερ στις Άνδεις",
+      "· gct | Putin Calls Moscow the “Third Rome” in Kusturica Interview",
+      "· gn-iefimerida | Παρέμβαση Μανιάτη στην Κομισιόν για το τετράμηνο «λουκέτο» στο αεροδρόμιο Χίου - iefimerid"
     ]
   },
   "evergreenDone": [
