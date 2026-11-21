@@ -19,16 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "11424b41b2fc": 1794089868818,
-    "c82f53f0cb19": 1794089868818,
-    "431e845217fd": 1794089868818,
-    "a8922496e1d6": 1794089868818,
-    "670f4b724d77": 1794089868818,
-    "6955747b91c8": 1794089868818,
-    "967e4ca98fc9": 1794089868818,
-    "20e000434e99": 1794089868818,
-    "8ebc94e948d8": 1794089868818,
-    "26f6f1c3eaa1": 1794089868818,
     "2eecbfba7e75": 1794097660015,
     "5d9bd6ac55a0": 1794097660015,
     "50659e0d4b77": 1794097660015,
@@ -1656,39 +1646,48 @@
     "19dfc662b842": 1795294615831,
     "c7901240af46": 1795294615831,
     "bf5e340c317c": 1795294615831,
-    "e97d78488193": 1795294615831
+    "e97d78488193": 1795294615831,
+    "c7492045147f": 1795302377001,
+    "59424a5e51fb": 1795302377001,
+    "9769403cb5a5": 1795302377001,
+    "3c3c99e28501": 1795302377001,
+    "96dd377017ff": 1795302377001,
+    "b3e22720dbf3": 1795302377001,
+    "edace104f640": 1795302377001,
+    "c23004e9c0c1": 1795302377001,
+    "bbfa37ab95d1": 1795302377001
   },
   "pending": {
-    "2479cf": {
-      "createdAt": 1795294631640,
+    "8ea8a4": {
+      "createdAt": 1795302394272,
       "item": {
-        "title": "Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
-        "url": "https://greekcitytimes.com/2026/11/22/greece-israel-defence-deals-kalamata-lora-electronic-warfare/",
-        "summary": "Athens and Israel are negotiating defence agreements that could reach €1 billion, covering electronic warfare, LORA missiles and a bigger Kalamata flight school.\n The post Greece and Israel Discuss Up to €1 Billion in New Defence Deals appeared first on Greek City Times .",
-        "published": "Sat, 21 Nov 2026 18:52:23 +0000",
-        "id": "fca43e76ed0b",
-        "sourceId": "gct",
-        "sourceName": "Greek City Times",
+        "title": "Για παρεμβάσεις ελληνικού και ισραηλινού λόμπι στις ΗΠΑ μιλά ο Φιντάν αναφορικά με τις κυρώσεις για τους S-400",
+        "url": "https://www.in.gr/2026/11/21/world/gia-paremvaseis-ellinikou-kai-israilinou-lompi-stis-ipa-mila-o-fintan-anaforika-me-tis-kyroseis-gia-tous-s-400/",
+        "summary": "Σε συνέντευξή του, ο Τούρκος υπουργός Εξωτερικών αναφέρθηκε στις συνομιλίες του με τον Μάρκο Ρούμπιο, τις πιέσεις στην Ουάσινγκτον και την εκκρεμότητα των μαχητικών F-35.\n The post Για παρεμβάσεις ελληνικού και ισραηλινού λόμπι στις ΗΠΑ μιλά ο Φιντάν αναφορικά με τις κυρώσεις για τους S-400 appeared first on in.gr .",
+        "published": "Sat, 21 Nov 2026 23:21:11 +0200",
+        "id": "b3e22720dbf3",
+        "sourceId": "ingr",
+        "sourceName": "in.gr",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "fca43e76ed0b",
-        "section": "israelis",
-        "priority": 9,
+        "id": "b3e22720dbf3",
+        "section": "politics",
+        "priority": 8,
         "sensitive": true,
         "breaking": false,
-        "reason": "Greece and Israel are negotiating major new defense deals worth up to 1 billion euros, mattering to Israeli-Greek relations and defense investors.",
+        "reason": "Turkish Foreign Minister Fidan claims Greek and Israeli lobbies in the US are blocking the lifting of S-400 sanctions, directly connecting Israeli-Greek geopolitical cooperation.",
         "item": {
-          "title": "Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
-          "url": "https://greekcitytimes.com/2026/11/22/greece-israel-defence-deals-kalamata-lora-electronic-warfare/",
-          "summary": "Athens and Israel are negotiating defence agreements that could reach €1 billion, covering electronic warfare, LORA missiles and a bigger Kalamata flight school.\n The post Greece and Israel Discuss Up to €1 Billion in New Defence Deals appeared first on Greek City Times .",
-          "published": "Sat, 21 Nov 2026 18:52:23 +0000",
-          "id": "fca43e76ed0b",
-          "sourceId": "gct",
-          "sourceName": "Greek City Times",
+          "title": "Για παρεμβάσεις ελληνικού και ισραηλινού λόμπι στις ΗΠΑ μιλά ο Φιντάν αναφορικά με τις κυρώσεις για τους S-400",
+          "url": "https://www.in.gr/2026/11/21/world/gia-paremvaseis-ellinikou-kai-israilinou-lompi-stis-ipa-mila-o-fintan-anaforika-me-tis-kyroseis-gia-tous-s-400/",
+          "summary": "Σε συνέντευξή του, ο Τούρκος υπουργός Εξωτερικών αναφέρθηκε στις συνομιλίες του με τον Μάρκο Ρούμπιο, τις πιέσεις στην Ουάσινγκτον και την εκκρεμότητα των μαχητικών F-35.\n The post Για παρεμβάσεις ελληνικού και ισραηλινού λόμπι στις ΗΠΑ μιλά ο Φιντάν αναφορικά με τις κυρώσεις για τους S-400 appeared first on in.gr .",
+          "published": "Sat, 21 Nov 2026 23:21:11 +0200",
+          "id": "b3e22720dbf3",
+          "sourceId": "ingr",
+          "sourceName": "in.gr",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1696,172 +1695,68 @@
         }
       },
       "draft": {
-        "slug": "greece-israel-defence-deals-kalamata",
-        "section": "israelis",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 37.0423,
-          "lng": 22.1105
-        },
-        "strike": null,
-        "alert": {
-          "he": "ביטחון ביוון",
-          "en": "Greece Defence"
-        },
-        "imageKey": "plane",
-        "imageQuery": "military flight training aircraft cockpit",
-        "he": {
-          "title": "עסקאות ביטחוניות חדשות בין ישראל ליוון בהיקף של עד מיליארד אירו",
-          "seoTitle": "עסקאות ביטחון בין ישראל ליוון: מיליארד אירו על הטיול",
-          "seoDesc": "ישראל ויוון מנהלות משא ומתן על עסקאות ביטחון חדשות בהיקף של עד מיליארד אירו, הכוללות מערכות לוחמה אלקטרונית וטיסות אימון בקלמטה.",
-          "keywords": [
-            "ישראל יוון ביטחון",
-            "עסקאות ביטחוניות יוון",
-            "מרכז האימון קלמטה",
-            "טילים לוחמה אלקטרונית",
-            "יחסי ישראל יוון"
-          ],
-          "dek": "שיחות מתקדמות בין אתונה לירושלים על חבילת ביטחון רחבה, הכוללת את הרחבת בית הספר הטיס בקלמטה, טילים ארוכי טווח ומערכות הגנה.",
-          "tldr": [
-            "ישראל ויוון דנות בעסקאות ביטחוניות חדשות המגיעות לסכום של עד מיליארד אירו.",
-            "המואומת כוללת את הרחבת מרכז אימון הטיסה הבינלאומי בקלמטה המופעל על ידי אלביט.",
-            "הצדדים דנים גם במערכות לוחמה אלקטרונית ובטילי לורה ארוכי טווח של התעשייה האווירית."
-          ],
-          "means": "עבור ישראלים המתעניינים בקשרים המדיניים והביטחוניים בין שתי המדינות, ההסכמים הללו משקפים את העמקת השיתוף הפעולה האסטרטגי. אין השפעה ישירה על תיירים או משקיעים בטווח המיידי, אך כדאי להמשיך לעקוב אחר ההתפתחויות בערוצים הרשמיים.",
-          "body": "ישראל ויוון מקדמות בימים אלו סבב חדש של שיחות על עסקאות ביטחוניות רחבות היקף, שעלותן עשויה להגיע לעד מיליארד אירו. הדיווחים מגיעים על רקע שיתוף פעולה אסטרטגי הולך ומהדק בין שתי המדינות בשנים האחרונות, ומכסים תחומים מתקדמים כמו לוחמה אלקטרונית, טילים מתקדמים והכשרת צוותי אוויר.\n\n## מרכז האימון בקלמטה והוויכוח על התקציב\n\nבמרכז השיחות עומד מרכז האימון הבינלאומי לטיסה בקלמטה, המופעל על ידי חברת אלביט הישראלית תחת הסכם שנחתם בשנת 2021 לתקופה של עשרים שנה. המרכז מספק כ-7,000 שעות אימון בשנה על מטוסי טורבופרופ מסוג T-6 וכ-3,500 שעות על מטוסי סילון מסוג M-346, וכיום הוא פועל קרוב לקצה יכולת הקיבולת שלו.\n\nהביקוש למרכז נמצא בעלייה מתמדת, כאשר מדינות ערביות שונות, ביניהן איחוד האמירויות, הביעו עניין לשלב את הטייסים שלהן במסגרת התוכנית והציעו מחויבות רב-שנתית. עם זאת, הרחבת הפעילות דורשת רכש של מטוסים נוספים, סימולטורים ומדריכים, דבר שמוביל למחלוקת תקציבית בין הצדדים. בעוד שההצעה הראשונית של ישראל להרחבה עמדה על 280 מיליון אירו, באתונה מעדיפים שלא לעבור תקציב של 50 עד 70 מיליון אירו, והדיונים נמשכים.\n\n## לוחמה אלקטרונית וטילי לורה\n\nבנוסף לפעילות בקלמטה, השיחות בין המדינות נוגעות גם למערכות לוחמה אלקטרונית ולטילים ארוכי טווח. המשא ומתן בנושא לוחמה אלקטרונית נמצא בשלבים מתקדמים למדי, ומתמקד באמצעי נגד אלקטרוניים ובמערכות שנועדו להתמודד איתם, במטרה לאפשר ליוון לפתח יכולות מותאמות לסביבת הביטחון שלה.\n\nבמקביל, נציגים רשמיים מיוון ממשיכים בדיונים מול התעשייה האווירית לישראל סביב טילי לורה ארוכי הטווח, שטווח ההפעלה שלהם מוערך בכ-400 קילומטרים. מגעים אלו מצטרפים לבחינה של אפשרויות לפיתוח ויצור משותף של אמצעי הלחימה הללו.\n\n## שותפות אסטרטגית מתרחבת\n\nהדיונים הנוכחיים מהווים שלב נוסף בחיזוק השיתוף הפעולה הביטחוני בין אתונה לירושלים, ציר שהתפתח משמעותית מאז חתימת עסקת ענק סביב בית הספר לטיסה בשנת 2021. שיתוף פעולה זה ממשיך להוות נדבך מרכזי ביחסי החוץ והביטחון של שתי המדינות באזור הים התיכון.\n\n## שאלות נפוצות\n\n**האם יש השפעה על טיסות אזרחיות או תיירות ליוון?**\nלא, מדובר במשא ומתן ביטחוני-מדיני בלבד שאינו משפיע על טיסות אזרחיות, לוחות זמנים או תיירים הישראלים המבקרים במדינה.\n\n**מי מפעיל את מרכז אימון הטיסה בקלמטה?**\nהמרכז מופעל על ידי חברת אלביט הישראלית במסגרת הסכם ארוך טווח שנחתם בשנת 2021 בין המדינות.\n\n**מהו טווח הפעולה של טילי לורה שעליהם מתנהלים דיונים?**\nעל פי דיווחים רשמיים, הטווח של טילי לורה של התעשייה האווירית מוערך בכ-400 קילומטרים."
-        },
-        "en": {
-          "title": "Greece and Israel Discuss New Defence Deals Worth Up to €1 Billion",
-          "seoTitle": "Greece and Israel Discuss €1 Billion Defence Agreements",
-          "seoDesc": "Greece and Israel are negotiating defence deals worth up to €1 billion, covering electronic warfare, long-range missiles and the Kalamata flight school.",
-          "keywords": [
-            "Greece Israel defence",
-            "Kalamata flight training centre",
-            "LORA missiles Greece",
-            "electronic warfare Greece",
-            "Greek Israeli defence partnership"
-          ],
-          "dek": "Athens and Jerusalem are holding advanced talks on a major defence package, including the expansion of the Kalamata training center and missile systems.",
-          "tldr": [
-            "Greece and Israel are negotiating defence agreements that could reach up to €1 billion.",
-            "Talks include expanding the Elbit-run flight training centre in Kalamata.",
-            "Discussions also cover electronic warfare systems and IAI LORA long-range missiles."
-          ],
-          "means": "For readers following bilateral relations, these negotiations highlight the deepening strategic partnership between Greece and Israel. There is no immediate impact on tourists or investors, but updates should be monitored via official announcements.",
-          "body": "Greece and Israel are currently negotiating a new round of defence agreements that could reach a value of up to €1 billion. The talks underline the rapidly growing strategic and military partnership between Athens and Jerusalem, covering advanced sectors such as electronic warfare, long-range missile systems, and pilot training.\n\n## Kalamata Flight School Nears Capacity\n\nA primary focus of the discussions is the International Flight Training Centre in Kalamata. The facility is operated by Israel’s Elbit Systems under a 20-year agreement signed in 2021. The centre currently delivers approximately 7,000 training hours annually on T-6 turboprops and about 3,500 hours on M-346 jet trainers, bringing it close to its operational limits.\n\nDemand for training slots is growing, with several Arab countries, including the United Arab Emirates, requesting places for their pilots and proposing multi-year commitments. Expanding operations to accommodate more trainees would require additional aircraft, simulators, instructors, and funding. However, the two sides currently differ on the budget: Israel’s initial proposal for the expansion was reported at €280 million, whereas Athens is not prepared to exceed €50 million to €70 million. Talks remain ongoing.\n\n## Electronic Warfare and LORA Missiles\n\nIn addition to the flight school, negotiations regarding electronic warfare are said to be well advanced. These discussions focus on electronic countermeasures and systems designed to counter them, allowing Greece to build capabilities tailored to its specific security requirements.\n\nSimultaneously, Greek officials are continuing talks with Israel Aerospace Industries concerning LORA long-range missiles, which have an estimated range of 400 kilometres. Previous reports from Athens have also indicated exploration into the co-production of these missile systems.\n\n## Growing Defence Partnership\n\nThese ongoing negotiations represent the latest milestone in the defence relationship between Athens and Jerusalem, which has expanded swiftly since the 2021 flight school agreement—previously the largest defence deal ever concluded between the two nations.\n\n## FAQ\n\n**Do these defence talks affect civilian flights to Greece?**\nNo, these are high-level military and diplomatic negotiations that have no impact on commercial flights, schedules, or civilian travel.\n\n**Who operates the flight training centre in Kalamata?**\nThe facility is operated by Israel's Elbit Systems under a 20-year agreement signed in 2021.\n\n**What is the range of the LORA missiles discussed by officials?**\nAccording to reports, the LORA long-range missiles developed by Israel Aerospace Industries have a range of 400 kilometres."
-        }
-      },
-      "text": "0 \n 0 \n 0 \n Greece and Israel are negotiating a new round of defence agreements that could be worth up to €1 billion, Kathimerini reports. The talks cover electronic warfare systems, long-range missiles and an expansion of the Hellenic Air Force’s flight training centre in Kalamata.\n Kalamata flight school near full capacity\n The International Flight Training Centre in Kalamata is run by Israel’s Elbit Systems under a 20-year agreement signed in 2021. According to the report, it delivers about 7,000 training hours a year on T-6 turboprops and about 3,500 hours on M-346 jet trainers, and is now close to its limit.\n Demand is growing. Several Arab countries want places for their pilots, and the United Arab Emirates has proposed a commitment lasting several years. Taking on more trainees would mean more aircraft, simulators and instructors, and more money.\n Read more: Greece Agrees to $4 Billion US Defence Package Including Missiles, F-16 Upgrades and Helicopter Support \n That is where the two sides differ. Israel’s opening proposal for the expansion was reportedly €280 million, while Athens is not prepared to pay more than €50 million to €70 million. Talks are continuing. Kathimerini says Greece has already spent more than €1.5 billion on the centre under the 2021 deal.\n Electronic warfare talks at an advanced stage\n Separately, negotiations on electronic warfare are said to be well advanced. They focus on electronic countermeasures and on systems built to defeat them. Greece wants access to Israeli technology so it can develop capabilities suited to its own security environment.\n LORA missile talks continue\n Greek officials are also still in talks with Israel Aerospace Industries about LORA long-range missiles, which Kathimerini puts at a range of 400 kilometres. Greek City Times reported in October that Athens was exploring co-production of the missile.\n The talks are the latest step in a defence partnership between Athens and Jerusalem that has grown quickly since the 2021 flight school agreement, which was then the largest defence deal ever signed between the two countries.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Cyprus Independence Day parade showcases Greek F-16s, Barak MX and foreign troops \n US Approves Potential $101 Million Support Package for Greek Air Force \n Turkish F-16s trigger two engagements over Aegean as Greece records 10 airspace violations \n The Greek Air Force pilots who stayed with the aircraft \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Hagia Sophia: Restoration Uncovers 420 Metres of Underground Tunnels Beneath the Great Church\n Next Article \n EU Carried Out Fewer Than One in Three Deportation Orders, Commission Report Shows\n 0 \n 0 \n 0",
-      "issues": [],
-      "el": {
-        "title": "Ελλάδα και Ισραήλ συζητούν νέες αμυντικές συμφωνίες αξίας έως 1 δισ. ευρώ",
-        "dek": "Αθήνα και Ιερουσαλήμ διεξάγουν προχωρημένες συνομιλίες για ένα σημαντικό αμυντικό πακέτο, το οποίο περιλαμβάνει την επέκταση του κέντρου εκπαίδευσης στην Καλαμάτα και πυραυλικά συστήματα.",
-        "tldr": [
-          "Η Ελλάδα και το Ισραήλ διαπραγματεύονται αμυντικές συμφωνίες που θα μπορού φτάσουν έως και το 1 δισ. ευρώ.",
-          "Οι συνομιλίες περιλαμβάνουν την επέκταση του κέντρου πτητικής εκπαίδευσης στην Καλαμάτα, το οποίο διαχειρίζεται η Elbit.",
-          "Οι συζητήσεις καλύπτουν επίσης συστήματα ηλεκτρονικού πολέμου και πυραύλους μεγάλου βεληνεκούς IAI LORA."
-        ]
-      },
-      "notified": true
-    },
-    "bfabb2": {
-      "createdAt": 1795294675772,
-      "item": {
-        "title": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS29TOXEwSDR6cTYzNmZHNGFXU3dZNklBc3JvdWVRY2RyZ0NEUWhCYkRrQTNDb0NmUFM4emQxQVVFbFREWFdSdW1CbjBzQ1psR25JcXlKRUNjOFM5SjgyRElYV0VIaEN3aENIQVJRZWN2WklCd3g0RklocHQ5TVlMNmZDeWRVTkE?oc=5",
-        "summary": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
-        "published": "Sat, 21 Nov 2026 05:50:07 GMT",
-        "id": "e97d78488193",
-        "sourceId": "gn-iefimerida",
-        "sourceName": "iefimerida (μέσω Google News)",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "e97d78488193",
-        "section": "real-estate",
-        "priority": 7,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "Attica rental and heating costs see significant increases (8.6% higher for autonomous heating homes), important for property investors and resident Israelis.",
-        "item": {
-          "title": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS29TOXEwSDR6cTYzNmZHNGFXU3dZNklBc3JvdWVRY2RyZ0NEUWhCYkRrQTNDb0NmUFM4emQxQVVFbFREWFdSdW1CbjBzQ1psR25JcXlKRUNjOFM5SjgyRElYV0VIaEN3aENIQVJRZWN2WklCd3g0RklocHQ5TVlMNmZDeWRVTkE?oc=5",
-          "summary": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
-          "published": "Sat, 21 Nov 2026 05:50:07 GMT",
-          "id": "e97d78488193",
-          "sourceId": "gn-iefimerida",
-          "sourceName": "iefimerida (μέσω Google News)",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "athens-heating-rent-prices-increase",
-        "section": "real-estate",
+        "slug": "fidan-mentions-israeli-lobby-us-sanctions-turkey",
+        "section": "politics",
         "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greece Real Estate"
+          "he": "מדיניות ביוון",
+          "en": "Greece Politics"
         },
-        "imageKey": "house",
-        "imageQuery": "apartment building in athens greece",
+        "imageKey": "politics",
+        "imageQuery": "diplomacy flags meeting washington",
         "he": {
-          "title": "עליית מחירים בשכירות באתונה: כמה עולים דירות עם חימום עצמאי",
-          "seoTitle": "נדל\"ן באתונה: זינוק במחירי השכירות בדירות עם חימום עצמאי",
-          "seoDesc": "שוק הנדל\"ן באתונה מראה פערים במחירים: דירות עם חימום עצמאי באזור אטיקה יקרות ב-8.6%. כל הפרטים למשקיעים ומתעניינים.",
+          "title": "השר האנקרתי: הלובי הישראלי והיווני בארצות הברית מעכבים את הסרת הסנקציות",
+          "seoTitle": "הלומפי הישראלי והיווני בארה\"ב מעכב סנקציות, טוען שר חוץ טורקי",
+          "seoDesc": "שר החוץ של טורקיה, חאקאנ פידאן, טוען כי הלומפי הישראלי והיווני בארה\"ב פועלים נגד הסרת הסנקציות על אנקרה בגלל מערכות S-400.",
           "keywords": [
-            "נדל\"ן ביוון",
-            "דירה באתונה",
-            "השקעה בנדל\"ן ביוון",
-            "מיסים ביוון"
+            "יוון",
+            "ארהב",
+            "טורקיה",
+            "סנקציות",
+            "חדשות יוון"
           ],
-          "dek": "נתונים חדשים משוק הנדל\"ן באתונה מציגים פערים בולטים במחירי השכירות, כאשר דירות המצוידות בחימום עצמאי מתייקרות משמעותית.",
+          "dek": "שר החוץ של טורקיה, חאקאנ פידאן, הצביע על פעילות הלומפי הישראלי והיווני בוושינגטון כגורם מעכב לביטול סנקציות ה-CAATSA והחזרת אנקרה לתכנית ה-F-35.",
           "tldr": [
-            "מחירי השכירות בדירות עם חימום עצמאי באזור אטיקה עלו ב-8.6%.",
-            "הנתונים מתייחסים להבדלים בין סוגי מערכות החימום בנכסים השונים.",
-            "תחום החימום ממשיך לשחק תפקיד מרכזי בבחירת נכסים למגורים ולהשקעה."
+            "שר החוץ הטורקי האשים את הלומפי הישראלי והיווני בעיכוב הסרת הסנקציות.",
+            "אנקרה מתמודדת עם מגבלות חקיקה אמריקאיות סביב רכישת מערכות S-400 הרוסיות.",
+            "לדבריו, ממשל טראמפ מביע רצון לפתור את הסוגיה מול רג'יפ טאיפ ארדואן."
           ],
-          "means": "עבור משקיעים וישראלים המחפשים דירה באתונה, חשוב לבדוק את סוג מערכת החימום בנכס טרם הרכישה או השכירות. מומלץ להתייעץ עם אנשי מקצוע מקומיים כדי להבין את העלויות הנלוות ואת השפעתן על תשואת השכירות.",
-          "body": "## עליית מחירים בנכסים באזור אטיקה\n\nשוק הדיור באזור אטיקה ממשיך להציג שינויים, כאשר על פי הנתונים האחרונים, דירות המציעות חימום עצמאי רשמו עלייה של 8.6% בגובה השכירות בהשוואה לנכסים אחרים. הפערים הללו משקפים את הביקוש מצד שוכרים לנכסים חסכוניים ונוחים יותר מבחינת תפעול מערכות החימום בימי החורף.\n\n## השפעה על שוק ההשקעות והשכירות\n\nמערכות החימום בבתים הפכו לשיקול מרכזי עבור דיירים המחפשים דירות באתונה ובסביבתה. נכסים שבהם קיימת מערכת עצמאית מושכים תשומת לב רבה יותר בשוק, דבר המאפשר לבעלי הנכסים לדרוש דמי שכירות גבוהים יותר. מדובר בנתון שכדאי לקחת בחשבון בעת ניתוח כדאיות של רכישת נכס להשכרה באזור.\n\n## מה חשוב לבדוק לפני רכישת דירה\n\nבבואכם לבחון השקעות נדל\"ן ביוון, כדאי לשים לב למצבו הפיזי של הנכס ולתשתיות הקיימות בו, כולל מערכות החימום והאנרגיה. מידע מדויק על סוג החימום וההוצאות השוטפות יעזור לכם להעריך נכונה את הפוטנציאל של הנכס ואת העלויות למשתקפים הפוטנציאליים.\n\n## שאלות נפוצות\n\n**האם מחירי השכירות עלו בכל אזור אטיקה?**\nהעלייה של 8.6% מתייחסת ספציפיות לדירות המצוידות במערכת חימום עצמאי באזור אטיקה.\n\n**איזה סוג חימום בולט בשוק הנדל\"ן המקומי?**\nהנתונים מצביעים על כך שדירות עם חימום עצמאי מובילות בפערי המחירים, לצד אזורים שבהם עדיין שולט שימוש בנפט.\n\n**האם מידע זה מהווה ייעוץ משפטי או פיננסי?**\nהנתונים המוצגים הם לידיעה כללית בלבד ואינם מהווים תחליף לייעוץ מקצועי בתחום הנדל\"ן."
+          "means": "למרות שמדובר בדיפלומטיה בינלאומית, הסיפור מציף את שיתופי הפעולה האזוריים והדינמיקה סביב ביטחון ואסטרטגיה במזרח הים התיכון שמעסיקים את ישראל ויוון כאחד. אין צורך בשינוי תוכניות לנסיעה או להשקעה, אך מומלץ להתעדכן בעדכונים המדיניים.",
+          "body": "## דבריו של שר החוץ הטורקי על הלחצים בוושינגטון\n\nשר החוץ של טורקיה, חאקאנ פידאן, התייחס בראיון לכלי תקשורת מקומי לקשיים שמפגינה ארצות הברית בהסרת הסנקציות מעל אנקרה. לדבריו, ממשל דונלד טראמפ מראה נכונות פוליטית לפתור את המחלוקת, אך נתקל בחסמים חקיקת ובפעילות אינטנסיבית של קבוצות לחץ וגורמי אינטרס שונים בזירה הפוליטית האמריקאית.\n\nפידאן ציין במפורש את מעורבותם של הלומפי הישראלי והלומפי היווני בארצות הברית, שלטענתו משפיעים על מקבלי ההחלטות בוושינגטון ובולמים את ההתקרבות הביטחונית בין שתי המדינות, כמו גם את השאיפות הטורקיות לשוב לתכנית מטוסי הקרב מתקדמים.\n\n## רקע הסנקציות ומערכות ה-S-400\n\nהמתיחות סביב סוגיית החימוש החלה כאשר טורקיה רכשה והפעילה את מערכות ההגנה האווירית הרוסיות S-400, צעד שעורר דאגה בקרב בעלות הברית בברית המנהלת וגרם להוצאת אנקרה מתכנית מטוסי ה-F-35 בשנת 2019. בחודש דצמבר 2020 הוטלו על טורקיה סנקציות רשמיות מכוח חוק CAATSA, המכוון נגד גופים המבצעים עסקאות משמעותיות עם המגזר הביטחוני הרוסי.\n\nהשר הטורקי טען כי מדינות רבות רכשו מערכות דומות מבלי לספוג צעדים דומים, וכי המגבלות הנוכחיות אינן משרתות את האינטרס האמריקאי הרחב. הוא הוסיף כי העניין צריך להיפתר באופן סופי בפגישות ישירות בין נשיא טורקיה רג'יפ טאיפ ארדואן לנשיא ארצות הברית דונלד טראמפ.\n\n## השלכות על המרחב האזורי\n\nההתבטאויות הללו ממחישות את המורכבות הדיפלומטית במזרח הים התיכון ובקשרים המשולשים בין וושינגטון, אנקרה וירושלים, תוך הדגשת השפעתן של קבוצות הלחץ על קבלת ההחלטות בארצות הברית. הסוגיה ממשיכה להוות מרכיב מרכזי במדיניות החוץ של טורקיה מול ארצות הברית.\n\n## שאלות נפוצות\n\n**האם הסנקציות האמריקאיות על טורקיה בוטלו?**\nלא, הסנקציות שהוטלו מכוח חוק CAATSA נותרו בתוקף, הגם שממשל טראמפ בוחן דרכים להקל במגבלות מסוימות על שיתוף הפעולה הביטחוני.\n\n**מדוע הוטלו הסנקציות על אנקרה לכתחילה?**\nהסנקציות הוטלו בעקבות רכישת מערכות ההגנה האווירית הרוסיות S-400, אשר לפי וושינגטון מהוות סיכון ביטחוני לטכנולוגיות צבאיות רגישות במדינות הברית.\n\n**האם טורקיה צפויה לחזור לתכנית מטוסי ה-F-35?**\nאנקרה פועלת באופן דיפלומטי לחזרה לתכנית, אך לפי בכירי הממשל האמריקאי, שינויים במצב החקיקתי מחייבים הסכמות גבוהות ברמת ראשי המדינות."
         },
         "en": {
-          "title": "Athens Rent Prices: 8.6% Increase for Apartments with Autonomous Heating",
-          "seoTitle": "Athens Real Estate: Rent Rises for Autonomous Heating Homes",
-          "seoDesc": "Recent data from Athens shows an 8.6% increase in rental prices for apartments with autonomous heating systems in Attica. Learn more.",
+          "title": "Turkish Foreign Minister Blames Israeli and Greek Lobbies in U.S. for S-400 Sanctions",
+          "seoTitle": "Turkish FM Blames Israeli and Greek Lobbies in U.S. for Sanctions",
+          "seoDesc": "Turkish Foreign Minister Hakan Fidan claims Israeli and Greek lobbies in Washington are blocking the lifting of U.S. sanctions over S-400.",
           "keywords": [
-            "greece real estate",
-            "athens apartments",
-            "invest in greece property",
-            "rent in athens"
+            "Turkey",
+            "United States",
+            "sanctions",
+            "Israel",
+            "Greece"
           ],
-          "dek": "New figures from the Athens housing market reveal a notable price gap, with apartments featuring autonomous heating seeing higher rents.",
+          "dek": "Turkish Foreign Minister Hakan Fidan pointed to the influence of Israeli and Greek lobbying groups in Washington as the main obstacle preventing the lifting of U.S. sanctions.",
           "tldr": [
-            "Rental prices for homes with autonomous heating in Attica increased by 8.6%.",
-            "The figures highlight differences based on property heating systems.",
-            "Heating infrastructure remains a key factor for renters in the region."
+            "Hakan Fidan accused Israeli and Greek lobbies of influencing U.S. policy against Turkey.",
+            "Ankara seeks to lift CAATSA sanctions and rejoin the F-35 fighter jet program.",
+            "Fidan expressed hope that Donald Trump and Recep Tayyip Erdogan will resolve the issue."
           ],
-          "means": "For investors and Israelis looking at Athens real estate, it is important to check the heating system type before purchasing or renting a property. Consulting with local professionals helps in understanding potential utility costs and rental yield impacts.",
-          "body": "## Price Increases in Attica Properties\n\nThe housing market in the Attica region continues to experience shifts, with recent data indicating that apartments offering autonomous heating have recorded an 8.6% increase in rental prices compared to other properties. These differences reflect tenant demand for more efficient and convenient heating solutions during the winter months.\n\n## Impact on the Rental and Investment Market\n\nHeating systems in homes have become a primary consideration for tenants searching for apartments in and around Athens. Properties equipped with independent systems attract more attention in the market, allowing owners to command higher rents. This is an important detail to consider when analyzing the viability of purchasing a rental property in the area.\n\n## What to Check Before Buying a Property\n\nWhen evaluating real estate investments in Greece, it is wise to pay attention to the physical condition of the property and its existing infrastructure, including heating and energy systems. Accurate information regarding heating types and ongoing expenses will help properly assess the property's potential.\n\n## FAQ\n\n**Did rental prices increase across all of Attica?**\nThe 8.6% increase specifically applies to apartments equipped with autonomous heating systems in the Attica region.\n\n**Which heating type dominates the local real estate market?**\nData points out that apartments with autonomous heating lead in price gaps, alongside areas where oil heating still prevails.\n\n**Is this information considered legal or financial advice?**\nThe presented data is for general information purposes only and does not constitute professional real estate advice."
+          "means": "While this is a matter of international diplomacy, it highlights the complex strategic dynamics in the Eastern Mediterranean that involve regional stakeholders. No immediate travel or investment impact is reported.",
+          "body": "## Turkish Foreign Minister Comments on Washington Lobbying\n\nTurkish Foreign Minister Hakan Fidan stated in a media interview that the administration of Donald Trump holds the political will to resolve ongoing disputes regarding U.S. sanctions, but faces hurdles due to American legislation and intense intervention by interest groups.\n\nFidan explicitly pointed to the influence of the Greek and Israeli lobbies in the United States, claiming they intervene in domestic American politics and work to prevent closer defense cooperation between Washington and Ankara.\n\n## Background on CAATSA Sanctions and S-400 Systems\n\nThe tension stems from Turkey's purchase and operation of Russian S-400 air defense systems, which led to its removal from the F-35 fighter jet program in 2019 and the imposition of CAATSA sanctions in December 2020. Fidan argued that other nations acquired Russian military hardware without facing similar measures and contended that maintaining these restrictions does not serve U.S. interests.\n\nHe emphasized that the pending matters must ultimately be settled through direct discussions between Turkish President Recep Tayyip Erdogan and U.S. President Donald Trump.\n\n## Broader Regional Implications\n\nThe remarks underscore the ongoing diplomatic complexities shaping defense relations and policy directions concerning the Eastern Mediterranean and Washington's foreign alignments.\n\n## FAQ\n\n**Have the U.S. sanctions against Turkey been lifted?**\nNo, the sanctions imposed under the CAATSA legislation remain in effect, though executive channels continue to explore options within legislative limits.\n\n**Why were sanctions originally imposed on Turkey?**\nSanctions were enacted after Ankara purchased Russian S-400 defense systems, which Washington deemed a security risk to sensitive military technology.\n\n**Is Turkey expected to rejoin the F-35 program?**\nAnkara is actively seeking reinstatement through high-ระดับ diplomatic contacts, though legislative constraints leave limited flexibility for the U.S. executive branch."
         }
       },
-      "text": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr\nΘέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
+      "text": "Vita.gr \n Μακροζωία: Το μυστικό κρύβεται σε ένα μικρό χωριό στη Σαρδηνία\n Spotlight Ζαΐρ Μπολσονάρο: Στην Ενταντική ο πρώην πρόεδρος της Βραζιλίας – Η ανακοίνωση του νοσοκομείου \n Μαργαρίτης για τη σημαία του Πολυτεχνείου: Πρέπει να δοθεί στον ΣΦΕΑ – Κακώς το ΠΑΣΟΚ οχυρώνεται πίσω από την ΠΑΣΠ ΑΣΟΕΕ \n H Gen Z μεγάλωσε και ίσως σύντομα γίνει το αφεντικό σου \n Γιορτή σήμερα 22 Νοεμβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Ελληνικό και ισραηλινό λόμπι στις Ηνωμένες Πολιτείες υπέδειξε ο υπουργός Εξωτερικών της Τουρκίας, Χακάν Φιντάν , ως υπεύθυνα για τα εμπόδια που συναντά η Άγκυρα στην προσπάθειά της να επιτύχει την άρση των αμερικανικών κυρώσεων, οι οποίες επιβλήθηκαν εξαιτίας της αγοράς των ρωσικών αντιαεροπορικών συστημάτων S-400.\n Μιλώντας στο τουρκικό τηλεοπτικό δίκτυο TGRT Haber, ο επικεφαλής της τουρκικής διπλωματίας ανέφερε ότι η κυβέρνηση του Ντόναλντ Τραμπ διαθέτει την πολιτική βούληση να διευθετήσει το ζήτημα. Ωστόσο, όπως σημείωσε, η αμερικανική πλευρά έρχεται αντιμέτωπη τόσο με τους περιορισμούς της νομοθεσίας των ΗΠΑ όσο και με παρεμβάσεις ομάδων συμφερόντων που επιδιώκουν να αποτρέψουν την προσέγγιση Άγκυρας και Ουάσινγκτον στον τομέα της αμυντικής συνεργασίας.\n Κατά τον Φιντάν, η διατήρηση των κυρώσεων δεν εξηγείται αποκλειστικά από την προμήθεια των S-400, καθώς, όπως είπε, και άλλες χώρες απέκτησαν ρωσικά αμυντικά συστήματα χωρίς να τους επιβληθούν ανάλογα μέτρα από την Ουάσινγκτον. «Υπάρχουν τόσες χώρες που έχουν αγοράσει ρωσικά αμυντικά συστήματα. Σε πόσες από αυτές επέβαλαν οι ΗΠΑ κυρώσεις CAATSA;», διερωτήθηκε.\n Ο Τούρκος υπουργός Εξωτερικών υποστήριξε ότι η στάση της Άγκυρας στις περιφερειακές εξελίξεις δεν γίνεται αποδεκτή από ορισμένες δυνάμεις, και κυρίως από το Ισραήλ, προσθέτοντας πως η ισραηλινή πλευρά και άλλοι παράγοντες επιδιώκουν να περιορίσουν την αμυντική συνεργασία Τουρκίας και Ηνωμένων Πολιτειών. Στο πλαίσιο αυτό, έκανε ρητή αναφορά σε ελληνικό και ισραηλινό λόμπι, λέγοντας ότι παρεμβαίνουν στην αμερικανική πολιτική σκηνή και επηρεάζουν τις αποφάσεις που λαμβάνονται στην Ουάσινγκτον.\n Turkish Foreign Minister Hakan Fidan:\n There are a ton of countries that have purchased Russian defense systems. Which of them has the U.S. sanctioned under CAATSA?\n But Türkiye’s natural stance, determination, principles, and values it defends in the region are, of course, not something that the major powers in the region, particularly Israel at this point, are happy about.\n Israel is lobbying heavily in Washington. This has turned into something of a lobbying war.\n Here, too, we will see a struggle between those who say America First and those who say Israel First.\n The Israeli lobby and the Greek lobby come into play, carry out various activities, and influence domestic politics.\n — Clash Report (@clashreport) November 21, 2026 \n Εκτίμησε, παράλληλα, ότι το ζήτημα εξελίσσεται σε αντιπαράθεση διαφορετικών ομάδων πίεσης σχετικά με τον προσανατολισμό της αμερικανικής εξωτερικής πολιτικής. «Εδώ θα δούμε μια σύγκρουση ανάμεσα σε εκείνους που λένε «πρώτα η Αμερική» και εκείνους που λένε «πρώτα το Ισραήλ»», δήλωσε, εκφράζοντας την άποψη ότι η σημερινή αμερικανική κυβέρνηση επιθυμεί να ξεπεραστεί το εμπόδιο και ότι η Τουρκία θα συνεχίσει να εργάζεται συστηματικά προς αυτή την κατεύθυνση.\n Αναφερόμενος στις συνομιλίες του με τον Αμερικανό ομόλογό του, Μάρκο Ρούμπιο, ο Φιντάν είπε ότι ο Ντόναλντ Τραμπ τού έχει αναθέσει να αναζητήσει λύση για τις κυρώσεις που εξακολουθούν να ισχύουν σε βάρος της Τουρκίας. Σύμφωνα με όσα μετέφερε ο Τούρκος ΥΠΕΞ, ο Ρούμπιο —ο οποίος στο παρελθόν διετέλεσε γερουσιαστής— τού εξήγησε ότι ορισμένες νομοθετικές διατάξεις έχουν συνταχθεί με τρόπο που αφήνει ελάχιστα περιθώρια ελιγμών στην εκτελεστική εξουσία, σχολιάζοντας μάλιστα πως, εάν γνώριζε ότι θα αναλάμβανε κυβερνητικό αξίωμα, θα είχε χρησιμοποιήσει διαφορετική διατύπωση.\n Ο Φιντάν σημείωσε ότι η κυβέρνηση Τραμπ έχει ήδη διευθετήσει ορισμένες εκκρεμότητες στην αμυντική συνεργασία, ιδίως ως προς τις αδειοδοτήσεις για την προμήθεια πυρομαχικών, διευκρίνισε όμως ότι σε υποθέσεις που ρυθμίζονται με νόμο, όπως οι κυρώσεις CAATSA, οι δυνατότητες παρέμβασης της αμερικανικής κυβέρνησης είναι περιορισμένες.\n Συνδέοντας τις κυρώσεις CAATSA με το ζήτημα της συμμετοχής της Τουρκίας στο πρόγραμμα των μαχητικών F-35, υποστήριξε ότι οι εκκρεμότητες αυτές πρέπει να διευθετηθούν οριστικά μέσω των επαφών μεταξύ του Ρετζέπ Ταγίπ Ερντογάν και του Ντόναλντ Τραμπ. «Όταν ο κ. Τραμπ και ο κ. Ερντογάν συναντώνται, αυτό το ζήτημα πρέπει να τελειώσει, να κλείσει και να φύγει από την ατζέντα μας», ανέφερε, προσθέτοντας ότι η συνέχιση των περιορισμών δεν εξυπηρετεί τα συμφέροντα των Ηνωμένων Πολιτειών. «Κανείς δεν μπορεί να βγάλει νόημα από αυτή την κατάσταση. Στην πραγματικότητα, δεν πρόκειται για μια πολιτική που εξυπηρετεί ούτε την Αμερική», δήλωσε, υπογραμμίζοντας παράλληλα τον ρόλο της προσωπικής σχέσης Ερντογάν και Τραμπ στην επίλυση διμερών προβλημάτων.\n Η αγορά των ρωσικών αντιαεροπορικών συστημάτων S-400 από την Τουρκία, παρά τις αντιρρήσεις των Ηνωμένων Πολιτειών και συμμάχων στο ΝΑΤΟ, παραμένει μία από τις βασικότερες εκκρεμότητες στις σχέσεις Άγκυρας και Ουάσινγκτον. Η αμερικανική πλευρά είχε επισημάνει ότι η λειτουργία των S-400 από κράτος-μέλος της Συμμαχίας εγκυμονεί κινδύνους ασφαλείας για ευαίσθητες στρατιωτικές τεχνολογίες, ιδίως εκείνες που αφορούν τα μαχητικά πέμπτης γενιάς F-35.\n Το 2019 η Τουρκία απομακρύνθηκε από το πρόγραμμα των F-35, ενώ τον Δεκέμβριο του 2020 οι ΗΠΑ επέβαλαν κυρώσεις βάσει της νομοθεσίας CAATSA, η οποία προβλέπει μέτρα κατά χωρών και φορέων που πραγματοποιούν σημαντικές συναλλαγές με τον ρωσικό αμυντικό τομέα. Έκτοτε, η τουρκική κυβέρνηση επιδιώκει την άρση των περιορισμών και την επανεξέταση της συμμετοχής της στο πρόγραμμα των F-35.\n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: ΠΑΟΚ: Νοκ άουτ ο Σορετίρε από το ματς με την Κηφισιά \n Τουρκία: Πως ένα ρόφημα έβαψε κόκκινο ένα ποτάμι στη Ριζούντα του Εύξεινου Πόντου \n Ο Πενιαρόγια ανανέωσε το συμβόλαιό του με την Παρτίζαν μέχρι το 2029 \n Έκτο συνεχόμενο Σάββατο διαδηλώσεων στη Γαλλία κατά του υψηλού κόστους διαβίωσης \n Ρεάλ Μαδρίτης – Θέλτα 2-1: Ανατροπή με… υπογραφή Εσπί \n Παρί Σεν Ζερμέν: Σοκ με Ντουέ που έφυγε από το γήπεδο με δάκρυα (vid) \n «Κινηματογραφική» καταδίωξη στη Συγγρού \n Γιορτή σήμερα 22 Νοεμβρίου – Ποιοι γιορτάζουν | Εορτολόγιο \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
       "issues": [],
       "el": {
-        "title": "Τιμές ενοικίων στην Αθήνα: Αύξηση 8,6% για διαμερίσματα με αυτόνομη θέρμανση",
-        "dek": "Νέα στοιχεία από την αγορά κατοικίας της Αθήνας αποκαλύπτουν μια αξιοσημείωτη διαφορά τιμών, με τα διαμερίσματα που διαθέτουν αυτόνομη θέρμανση να καταγράφουν υψηλότερα ενοίκια.",
+        "title": "Ο Τούρκος Υπουργός Εξωτερικών κατηγορεί τα ισραηλινά και ελληνικά λόμπι στις ΗΠΑ για τις κυρώσεις σχετικά με τους S-400",
+        "dek": "Ο Τούρκος Υπουργός Εξωτερικών Χακάν Φιντάν επεσήμανε την επιρροή των ισραηλινών και ελληνικών ομάδων λόμπι στην Ουάσιγκτον ως το κύριο εμπόδιο που αποτρέπει την άρση των αμερικανικών κυρώσεων.",
         "tldr": [
-          "Οι τιμές ενοικίασης για κατοικίες με αυτόνομη θέρμανση στην Αττική αυξήθηκαν κατά 8,6%.",
-          "Τα στοιχεία αναδεικνύουν διαφορές με βάση τα συστήματα θέρμανσης των ακινήτων.",
-          "Η υποδομή θέρμανσης παραμένει βασικός παράγοντας για τους ενοικιαστές στην περιοχή."
+          "Ο Χακάν Φιντάν κατηγόρησε το ισραηλινό και το ελληνικό λόμπι ότι επηρεάζουν την αμερικανική πολιτική κατά της Τουρκίας.",
+          "Η Άγκυρα επιδιώκει την άρση των κυρώσεων CAATSA και την επανένταξή της στο πρόγραμμα των μαχητικών F-35.",
+          "Ο Φιντάν εξέφρασε την ελπίδα ότι ο Ντόναλντ Τραμπ και ο Ρετζέπ Ταγίπ Ερντογάν θα λύσουν το ζήτημα."
         ]
       },
       "notified": true
@@ -1876,12 +1771,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-21T20:56:45.018Z",
+      "at": "2026-11-21T23:06:05.305Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-21T20:56:45.630Z",
+      "at": "2026-11-21T23:06:06.032Z",
       "items": 4
     },
     "civilprotection": {
@@ -1892,27 +1787,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-21T20:56:47.128Z",
+      "at": "2026-11-21T23:06:07.313Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-21T20:56:47.557Z",
+      "at": "2026-11-21T23:06:07.453Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-21T20:56:49.034Z",
+      "at": "2026-11-21T23:06:09.298Z",
       "items": 0
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-21T20:56:49.676Z",
-      "items": 3
+      "at": "2026-11-21T23:06:10.140Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-21T20:56:50.405Z",
+      "at": "2026-11-21T23:06:11.106Z",
       "items": 10
     },
     "toi-greece": {
@@ -1923,23 +1818,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-21T20:56:50.839Z",
+      "at": "2026-11-21T23:06:11.737Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-21T20:56:50.916Z",
+      "at": "2026-11-21T23:06:11.810Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-21T20:56:50.994Z",
+      "at": "2026-11-21T23:06:12.047Z",
       "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T20:56:51.132Z",
-      "items": 3
+      "at": "2026-11-21T23:06:12.582Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1948,12 +1843,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T20:56:46.299Z",
+      "at": "2026-11-21T23:06:06.559Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-21T20:56:51.693Z",
+      "at": "2026-11-21T23:06:13.252Z",
       "items": 0
     },
     "hcg": {
@@ -1964,127 +1859,69 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-21T20:56:52.853Z",
+      "at": "2026-11-21T23:06:14.434Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-21T20:56:53.040Z",
+      "at": "2026-11-21T23:06:14.640Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-21T20:56:53.246Z",
+      "at": "2026-11-21T23:06:14.845Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-21T20:56:53.468Z",
-      "items": 2
+      "at": "2026-11-21T23:06:15.091Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-21T20:56:53.795Z",
-      "items": 5
+      "at": "2026-11-21T23:06:15.436Z",
+      "items": 6
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-21T20:56:54.076Z",
-      "items": 5
+      "at": "2026-11-21T23:06:15.773Z",
+      "items": 7
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-21",
-    "count": 7,
+    "date": "2026-11-22",
+    "count": 2,
     "published": [
       {
-        "slug": "greece-weather-change-rain-temperature-drop",
-        "title": "Weather Shift in Greece: Temperature Drop and Rain on the Way",
-        "at": "2026-11-21T09:01:57+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greek-wine-wine-spectator-top-100",
-        "title": "Greek White Wine Cracks Wine Spectator's Top 100 for 2026",
-        "at": "2026-11-21T09:03:26+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "attica-luxury-real-estate-no-golden-visa",
-        "title": "Attica luxury real estate transactions over 800k euros without Golden Visa",
-        "at": "2026-11-21T11:38:45+02:00",
+        "slug": "athens-heating-rent-prices-november-2026",
+        "title": "Athens rent: 8.6% increase for apartments with independent heating",
+        "at": "2026-11-22T01:06:01+02:00",
         "section": "real-estate"
       },
       {
-        "slug": "olympic-equestrian-centre-markopoulo-tender",
-        "title": "Greece selects preferred investor for Markopoulo Olympic Equestrian Centre",
-        "at": "2026-11-21T11:38:54+02:00",
+        "slug": "greece-absorbs-full-recovery-fund-resources",
+        "title": "Greece fully utilizes 35.95 billion euros from the European Recovery and Resilience Facility",
+        "at": "2026-11-22T01:06:54+02:00",
         "section": "real-estate"
-      },
-      {
-        "slug": "athens-nox-nightclub-sealed",
-        "title": "Athens: Municipality seals NOX nightclub",
-        "at": "2026-11-21T19:22:59+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "mitsotakis-tourism-2026-xenia",
-        "title": "Greece tourism: Prime Minister expects another record year in 2026",
-        "at": "2026-11-21T19:23:08+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-migratory-pressure-eu-report-2026",
-        "title": "Greece Under Migratory Pressure in Latest European Commission Report",
-        "at": "2026-11-21T22:58:15+02:00",
-        "section": "living"
       }
     ],
     "rejected": [
       {
-        "title": "Greece, Israel and Cyprus hold trilateral military exercise in East Med",
-        "reason": "Ουδέτερη εκδοχή: The source mentions Google News, but the Hebrew body text claims the report was based on information provided by Google News, which misrepresents the source text provided (the source text is a headline from Kathimerini, not an article stating it came from Google News).; Rule 8 viola",
-        "at": "2026-11-21T00:13:16.021Z"
-      },
-      {
-        "title": "New Energy Exploration Initiated in the Ionian Sea",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew version states that the ministry announced the start of surveys, but the source states the surveys begin 'inside November' and that the NAVTEX is approved and works are expected to complete in January 2027, creating a slight tense/timing mismatch regarding whether they ha",
-        "at": "2026-11-21T00:13:25.536Z"
-      },
-      {
-        "title": "Διχάζουν οι νέοι κανόνες της Airbnb για τα καταλύματα - Kathimerini",
-        "reason": "Ίδιο θέμα με «Thessaloniki Sees Rising Demand for Short-Term Rentals» – δεν γράφτηκε ξανά",
-        "at": "2026-11-21T15:18:21.747Z"
-      },
-      {
-        "title": "Φιντάν: Ελληνικό και ισραηλινό λόμπι μπλοκάρουν την άρση των αμερικανικών κυρώσεων για τους S-400",
-        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 35",
-        "at": "2026-11-21T20:57:45.481Z"
+        "title": "Greece and Israel Discuss New Defence Deals Worth Up to €1 Billion",
+        "reason": "Ουδέτερη εκδοχή: The Hebrew TLDR contains a typo 'המוחיות' instead of 'השיחות' or 'הנושאים', which is a Hebrew spelling issue.",
+        "at": "2026-11-21T23:05:52.787Z"
       }
     ],
     "errors": [],
-    "fb": [
-      {
-        "slug": "greece-weather-change-rain-temperature-drop",
-        "at": "2026-11-21T07:01:57.660Z"
-      },
-      {
-        "slug": "attica-luxury-real-estate-no-golden-visa",
-        "at": "2026-11-21T09:38:46.029Z"
-      },
-      {
-        "slug": "athens-nox-nightclub-sealed",
-        "at": "2026-11-21T17:23:00.309Z"
-      },
-      {
-        "slug": "greece-migratory-pressure-eu-report-2026",
-        "at": "2026-11-21T20:58:16.225Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-21",
+      "count": 7,
+      "rejected": 4
+    },
     {
       "date": "2026-11-20",
       "count": 4,
@@ -2368,28 +2205,20 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-21T20:56:55.831Z",
-    "considered": 18,
-    "picked": 5,
+    "at": "2026-11-21T23:06:17.001Z",
+    "considered": 10,
+    "picked": 2,
     "items": [
-      "· ingr | Ιράν: Χτυπήσαμε τις αμερικανικές βάσεις ως αντίποινα για τις υπερπτήσεις",
-      "· ert | Μπαχρέιν: Πυρκαγιά σε βιομηχανική εγκατάσταση από ιρανικό πλήγμα",
-      "· gn-kathimerini | Νέες συμφωνίες με το Ισραήλ - Kathimerini",
-      "· ingr | Γιόζεφ Μένγκελε: Αδιέξοδα, ψέματα και ένας Ισραηλινός κατάσκοπος στο φάκελο της Ελβετίας γ",
+      "· ert | Ισραήλ: Πρόσκληση Άιζενκοτ στο Λικούντ για κυβέρνηση συνεργασίας – Οι όροι του Νετανιάχου",
+      "· strikes-naftemporiki | Βέλγιο: Μαζικές ακυρώσεις πτήσεων στο αεροδρόμιο των Βρυξελλών τη Δευτέρα λόγω απεργίας",
+      "· naftemporiki | Βέλγιο: Μαζικές ακυρώσεις πτήσεων στο αεροδρόμιο των Βρυξελλών τη Δευτέρα λόγω απεργίας",
+      "· gct | Man Arrested After Melbourne CBD Stabbing",
+      "· gct | A 1,500-Year-Old Underfloor Heating System Found in Istanbul Shows Byzantine Engineering a",
+      "· gn-iefimerida | Φιντάν: Τα ελληνικά και ισραηλινά λόμπι στις ΗΠΑ μπλοκάρουν την άρση των κυρώσεων για τους",
+      "✓ ingr | Για παρεμβάσεις ελληνικού και ισραηλινού λόμπι στις ΗΠΑ μιλά ο Φιντάν αναφορικά με τις κυρ",
+      "· naftemporiki | Νέα ιρανική επίθεση στο Μπαχρέιν – Πυρκαγιά σε βιομηχανική εγκατάσταση",
       "✓ naftemporiki | Κοστέλο: Η Ελλάδα αξιοποίησε και τα 35,95 δισ. ευρώ του Ταμείου Ανάκαμψης – Οι επενδύσεις ",
-      "· gn-iefimerida | Νιούκαστλ - Άρσεναλ 2-2: Έπαιξαν με τη φωτιά, αλλά, τουλάχιστον δεν... κάηκαν οι πρωταθλητ",
-      "✓ naftemporiki | Φιντάν: Ελληνικό και ισραηλινό λόμπι μπλοκάρουν την άρση των αμερικανικών κυρώσεων για του",
-      "· ingr | Τρεις νεκροί από ισραηλινό πλήγμα σε φορτηγό με τρόφιμα στη Γάζα",
-      "· gct | Schäuble Told Turkish Envoy Turkey Would Never Join the EU, Ex-Diplomat Says",
-      "✓ gct | EU Carried Out Fewer Than One in Three Deportation Orders, Commission Report Shows",
-      "✓ gct | Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
-      "· gn-kathimerini | Φιντάν: Eλληνικό και ισραηλινό λόμπι εμποδίζουν την άρση των αμερικανικών κυρώσεων για του",
-      "· gn-iefimerida | Έκρηξη σε θαλαμηγό στη Χαλκιδική: Τραυματίστηκε ο καπετάνιος, δείτε φωτογραφίες από το σκά",
-      "· ert | Βέλγιο: Το αεροδρόμιο των Βρυξελλών αναμένει την ακύρωση της πλειονότητας των πτήσεων τη Δ",
-      "· ert | Περού: 15 τραυματίες από τον σεισμό των 6,7 βαθμών",
-      "· gn-iefimerida | Η 4ωρη καθυστέρηση της πτήσης έκανε την Βάνα Μπάρμπα να βγάλει τα… χάπια από την τσάντα τη",
-      "· gn-iefimerida | Φορολογική απάτη 28 εκατομμυρίων ευρώ: Τον σύντροφό της «καίει» η λογίστρια – «Μου είπε ότ",
-      "✓ gn-iefimerida | Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού "
+      "· gn-iefimerida | Νέες συγκρούσεις στη Γαλλία κατά τη διάρκεια των διαδηλώσεων για την ακρίβεια -Επεισόδια, "
     ]
   },
   "evergreenDone": [
