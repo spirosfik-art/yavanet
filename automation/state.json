@@ -19,20 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "1a8f2c51d295": 1794077067763,
-    "79d71ef6a32e": 1794077067763,
-    "4d6c7e2d1ef7": 1794077067763,
-    "6c08fd926310": 1794077067763,
-    "c3d740104416": 1794077067763,
-    "2a3767646084": 1794077067763,
-    "d48f3fb665cc": 1794084588947,
-    "528f597ad779": 1794084588947,
-    "d24950bf89a2": 1794084588947,
-    "b6ba5dda3f3e": 1794084588947,
-    "79d0d70db3fd": 1794084588947,
-    "c685ef484304": 1794084588947,
-    "21de7bac8bff": 1794084588947,
-    "6943c41a03de": 1794084588947,
     "11424b41b2fc": 1794089868818,
     "c82f53f0cb19": 1794089868818,
     "431e845217fd": 1794089868818,
@@ -1653,9 +1639,234 @@
     "7ee35d232e65": 1795281800865,
     "9c241999fad0": 1795281800865,
     "5fac3793d089": 1795281800865,
-    "cc3c6618c772": 1795281800865
+    "cc3c6618c772": 1795281800865,
+    "f0edfeb5ce85": 1795294615831,
+    "8a6bca0e095c": 1795294615831,
+    "cdf39cf150c4": 1795294615831,
+    "26c94409a1b7": 1795294615831,
+    "1efa48b8afa1": 1795294615831,
+    "fe1c759a2dbd": 1795294615831,
+    "648b178eaf78": 1795294615831,
+    "b097a81f87b3": 1795294615831,
+    "e98d1c56e33a": 1795294615831,
+    "fca43e76ed0b": 1795294615831,
+    "38c086c404ee": 1795294615831,
+    "87d4bdf9422c": 1795294615831,
+    "ba1fefc6686a": 1795294615831,
+    "19dfc662b842": 1795294615831,
+    "c7901240af46": 1795294615831,
+    "bf5e340c317c": 1795294615831,
+    "e97d78488193": 1795294615831
   },
-  "pending": {},
+  "pending": {
+    "2479cf": {
+      "createdAt": 1795294631640,
+      "item": {
+        "title": "Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
+        "url": "https://greekcitytimes.com/2026/11/22/greece-israel-defence-deals-kalamata-lora-electronic-warfare/",
+        "summary": "Athens and Israel are negotiating defence agreements that could reach €1 billion, covering electronic warfare, LORA missiles and a bigger Kalamata flight school.\n The post Greece and Israel Discuss Up to €1 Billion in New Defence Deals appeared first on Greek City Times .",
+        "published": "Sat, 21 Nov 2026 18:52:23 +0000",
+        "id": "fca43e76ed0b",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "fca43e76ed0b",
+        "section": "israelis",
+        "priority": 9,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Greece and Israel are negotiating major new defense deals worth up to 1 billion euros, mattering to Israeli-Greek relations and defense investors.",
+        "item": {
+          "title": "Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
+          "url": "https://greekcitytimes.com/2026/11/22/greece-israel-defence-deals-kalamata-lora-electronic-warfare/",
+          "summary": "Athens and Israel are negotiating defence agreements that could reach €1 billion, covering electronic warfare, LORA missiles and a bigger Kalamata flight school.\n The post Greece and Israel Discuss Up to €1 Billion in New Defence Deals appeared first on Greek City Times .",
+          "published": "Sat, 21 Nov 2026 18:52:23 +0000",
+          "id": "fca43e76ed0b",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-israel-defence-deals-kalamata",
+        "section": "israelis",
+        "sensitive": true,
+        "breaking": false,
+        "geo": {
+          "lat": 37.0423,
+          "lng": 22.1105
+        },
+        "strike": null,
+        "alert": {
+          "he": "ביטחון ביוון",
+          "en": "Greece Defence"
+        },
+        "imageKey": "plane",
+        "imageQuery": "military flight training aircraft cockpit",
+        "he": {
+          "title": "עסקאות ביטחוניות חדשות בין ישראל ליוון בהיקף של עד מיליארד אירו",
+          "seoTitle": "עסקאות ביטחון בין ישראל ליוון: מיליארד אירו על הטיול",
+          "seoDesc": "ישראל ויוון מנהלות משא ומתן על עסקאות ביטחון חדשות בהיקף של עד מיליארד אירו, הכוללות מערכות לוחמה אלקטרונית וטיסות אימון בקלמטה.",
+          "keywords": [
+            "ישראל יוון ביטחון",
+            "עסקאות ביטחוניות יוון",
+            "מרכז האימון קלמטה",
+            "טילים לוחמה אלקטרונית",
+            "יחסי ישראל יוון"
+          ],
+          "dek": "שיחות מתקדמות בין אתונה לירושלים על חבילת ביטחון רחבה, הכוללת את הרחבת בית הספר הטיס בקלמטה, טילים ארוכי טווח ומערכות הגנה.",
+          "tldr": [
+            "ישראל ויוון דנות בעסקאות ביטחוניות חדשות המגיעות לסכום של עד מיליארד אירו.",
+            "המואומת כוללת את הרחבת מרכז אימון הטיסה הבינלאומי בקלמטה המופעל על ידי אלביט.",
+            "הצדדים דנים גם במערכות לוחמה אלקטרונית ובטילי לורה ארוכי טווח של התעשייה האווירית."
+          ],
+          "means": "עבור ישראלים המתעניינים בקשרים המדיניים והביטחוניים בין שתי המדינות, ההסכמים הללו משקפים את העמקת השיתוף הפעולה האסטרטגי. אין השפעה ישירה על תיירים או משקיעים בטווח המיידי, אך כדאי להמשיך לעקוב אחר ההתפתחויות בערוצים הרשמיים.",
+          "body": "ישראל ויוון מקדמות בימים אלו סבב חדש של שיחות על עסקאות ביטחוניות רחבות היקף, שעלותן עשויה להגיע לעד מיליארד אירו. הדיווחים מגיעים על רקע שיתוף פעולה אסטרטגי הולך ומהדק בין שתי המדינות בשנים האחרונות, ומכסים תחומים מתקדמים כמו לוחמה אלקטרונית, טילים מתקדמים והכשרת צוותי אוויר.\n\n## מרכז האימון בקלמטה והוויכוח על התקציב\n\nבמרכז השיחות עומד מרכז האימון הבינלאומי לטיסה בקלמטה, המופעל על ידי חברת אלביט הישראלית תחת הסכם שנחתם בשנת 2021 לתקופה של עשרים שנה. המרכז מספק כ-7,000 שעות אימון בשנה על מטוסי טורבופרופ מסוג T-6 וכ-3,500 שעות על מטוסי סילון מסוג M-346, וכיום הוא פועל קרוב לקצה יכולת הקיבולת שלו.\n\nהביקוש למרכז נמצא בעלייה מתמדת, כאשר מדינות ערביות שונות, ביניהן איחוד האמירויות, הביעו עניין לשלב את הטייסים שלהן במסגרת התוכנית והציעו מחויבות רב-שנתית. עם זאת, הרחבת הפעילות דורשת רכש של מטוסים נוספים, סימולטורים ומדריכים, דבר שמוביל למחלוקת תקציבית בין הצדדים. בעוד שההצעה הראשונית של ישראל להרחבה עמדה על 280 מיליון אירו, באתונה מעדיפים שלא לעבור תקציב של 50 עד 70 מיליון אירו, והדיונים נמשכים.\n\n## לוחמה אלקטרונית וטילי לורה\n\nבנוסף לפעילות בקלמטה, השיחות בין המדינות נוגעות גם למערכות לוחמה אלקטרונית ולטילים ארוכי טווח. המשא ומתן בנושא לוחמה אלקטרונית נמצא בשלבים מתקדמים למדי, ומתמקד באמצעי נגד אלקטרוניים ובמערכות שנועדו להתמודד איתם, במטרה לאפשר ליוון לפתח יכולות מותאמות לסביבת הביטחון שלה.\n\nבמקביל, נציגים רשמיים מיוון ממשיכים בדיונים מול התעשייה האווירית לישראל סביב טילי לורה ארוכי הטווח, שטווח ההפעלה שלהם מוערך בכ-400 קילומטרים. מגעים אלו מצטרפים לבחינה של אפשרויות לפיתוח ויצור משותף של אמצעי הלחימה הללו.\n\n## שותפות אסטרטגית מתרחבת\n\nהדיונים הנוכחיים מהווים שלב נוסף בחיזוק השיתוף הפעולה הביטחוני בין אתונה לירושלים, ציר שהתפתח משמעותית מאז חתימת עסקת ענק סביב בית הספר לטיסה בשנת 2021. שיתוף פעולה זה ממשיך להוות נדבך מרכזי ביחסי החוץ והביטחון של שתי המדינות באזור הים התיכון.\n\n## שאלות נפוצות\n\n**האם יש השפעה על טיסות אזרחיות או תיירות ליוון?**\nלא, מדובר במשא ומתן ביטחוני-מדיני בלבד שאינו משפיע על טיסות אזרחיות, לוחות זמנים או תיירים הישראלים המבקרים במדינה.\n\n**מי מפעיל את מרכז אימון הטיסה בקלמטה?**\nהמרכז מופעל על ידי חברת אלביט הישראלית במסגרת הסכם ארוך טווח שנחתם בשנת 2021 בין המדינות.\n\n**מהו טווח הפעולה של טילי לורה שעליהם מתנהלים דיונים?**\nעל פי דיווחים רשמיים, הטווח של טילי לורה של התעשייה האווירית מוערך בכ-400 קילומטרים."
+        },
+        "en": {
+          "title": "Greece and Israel Discuss New Defence Deals Worth Up to €1 Billion",
+          "seoTitle": "Greece and Israel Discuss €1 Billion Defence Agreements",
+          "seoDesc": "Greece and Israel are negotiating defence deals worth up to €1 billion, covering electronic warfare, long-range missiles and the Kalamata flight school.",
+          "keywords": [
+            "Greece Israel defence",
+            "Kalamata flight training centre",
+            "LORA missiles Greece",
+            "electronic warfare Greece",
+            "Greek Israeli defence partnership"
+          ],
+          "dek": "Athens and Jerusalem are holding advanced talks on a major defence package, including the expansion of the Kalamata training center and missile systems.",
+          "tldr": [
+            "Greece and Israel are negotiating defence agreements that could reach up to €1 billion.",
+            "Talks include expanding the Elbit-run flight training centre in Kalamata.",
+            "Discussions also cover electronic warfare systems and IAI LORA long-range missiles."
+          ],
+          "means": "For readers following bilateral relations, these negotiations highlight the deepening strategic partnership between Greece and Israel. There is no immediate impact on tourists or investors, but updates should be monitored via official announcements.",
+          "body": "Greece and Israel are currently negotiating a new round of defence agreements that could reach a value of up to €1 billion. The talks underline the rapidly growing strategic and military partnership between Athens and Jerusalem, covering advanced sectors such as electronic warfare, long-range missile systems, and pilot training.\n\n## Kalamata Flight School Nears Capacity\n\nA primary focus of the discussions is the International Flight Training Centre in Kalamata. The facility is operated by Israel’s Elbit Systems under a 20-year agreement signed in 2021. The centre currently delivers approximately 7,000 training hours annually on T-6 turboprops and about 3,500 hours on M-346 jet trainers, bringing it close to its operational limits.\n\nDemand for training slots is growing, with several Arab countries, including the United Arab Emirates, requesting places for their pilots and proposing multi-year commitments. Expanding operations to accommodate more trainees would require additional aircraft, simulators, instructors, and funding. However, the two sides currently differ on the budget: Israel’s initial proposal for the expansion was reported at €280 million, whereas Athens is not prepared to exceed €50 million to €70 million. Talks remain ongoing.\n\n## Electronic Warfare and LORA Missiles\n\nIn addition to the flight school, negotiations regarding electronic warfare are said to be well advanced. These discussions focus on electronic countermeasures and systems designed to counter them, allowing Greece to build capabilities tailored to its specific security requirements.\n\nSimultaneously, Greek officials are continuing talks with Israel Aerospace Industries concerning LORA long-range missiles, which have an estimated range of 400 kilometres. Previous reports from Athens have also indicated exploration into the co-production of these missile systems.\n\n## Growing Defence Partnership\n\nThese ongoing negotiations represent the latest milestone in the defence relationship between Athens and Jerusalem, which has expanded swiftly since the 2021 flight school agreement—previously the largest defence deal ever concluded between the two nations.\n\n## FAQ\n\n**Do these defence talks affect civilian flights to Greece?**\nNo, these are high-level military and diplomatic negotiations that have no impact on commercial flights, schedules, or civilian travel.\n\n**Who operates the flight training centre in Kalamata?**\nThe facility is operated by Israel's Elbit Systems under a 20-year agreement signed in 2021.\n\n**What is the range of the LORA missiles discussed by officials?**\nAccording to reports, the LORA long-range missiles developed by Israel Aerospace Industries have a range of 400 kilometres."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece and Israel are negotiating a new round of defence agreements that could be worth up to €1 billion, Kathimerini reports. The talks cover electronic warfare systems, long-range missiles and an expansion of the Hellenic Air Force’s flight training centre in Kalamata.\n Kalamata flight school near full capacity\n The International Flight Training Centre in Kalamata is run by Israel’s Elbit Systems under a 20-year agreement signed in 2021. According to the report, it delivers about 7,000 training hours a year on T-6 turboprops and about 3,500 hours on M-346 jet trainers, and is now close to its limit.\n Demand is growing. Several Arab countries want places for their pilots, and the United Arab Emirates has proposed a commitment lasting several years. Taking on more trainees would mean more aircraft, simulators and instructors, and more money.\n Read more: Greece Agrees to $4 Billion US Defence Package Including Missiles, F-16 Upgrades and Helicopter Support \n That is where the two sides differ. Israel’s opening proposal for the expansion was reportedly €280 million, while Athens is not prepared to pay more than €50 million to €70 million. Talks are continuing. Kathimerini says Greece has already spent more than €1.5 billion on the centre under the 2021 deal.\n Electronic warfare talks at an advanced stage\n Separately, negotiations on electronic warfare are said to be well advanced. They focus on electronic countermeasures and on systems built to defeat them. Greece wants access to Israeli technology so it can develop capabilities suited to its own security environment.\n LORA missile talks continue\n Greek officials are also still in talks with Israel Aerospace Industries about LORA long-range missiles, which Kathimerini puts at a range of 400 kilometres. Greek City Times reported in October that Athens was exploring co-production of the missile.\n The talks are the latest step in a defence partnership between Athens and Jerusalem that has grown quickly since the 2021 flight school agreement, which was then the largest defence deal ever signed between the two countries.\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Cyprus Independence Day parade showcases Greek F-16s, Barak MX and foreign troops \n US Approves Potential $101 Million Support Package for Greek Air Force \n Turkish F-16s trigger two engagements over Aegean as Greece records 10 airspace violations \n The Greek Air Force pilots who stayed with the aircraft \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Hagia Sophia: Restoration Uncovers 420 Metres of Underground Tunnels Beneath the Great Church\n Next Article \n EU Carried Out Fewer Than One in Three Deportation Orders, Commission Report Shows\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Ελλάδα και Ισραήλ συζητούν νέες αμυντικές συμφωνίες αξίας έως 1 δισ. ευρώ",
+        "dek": "Αθήνα και Ιερουσαλήμ διεξάγουν προχωρημένες συνομιλίες για ένα σημαντικό αμυντικό πακέτο, το οποίο περιλαμβάνει την επέκταση του κέντρου εκπαίδευσης στην Καλαμάτα και πυραυλικά συστήματα.",
+        "tldr": [
+          "Η Ελλάδα και το Ισραήλ διαπραγματεύονται αμυντικές συμφωνίες που θα μπορού φτάσουν έως και το 1 δισ. ευρώ.",
+          "Οι συνομιλίες περιλαμβάνουν την επέκταση του κέντρου πτητικής εκπαίδευσης στην Καλαμάτα, το οποίο διαχειρίζεται η Elbit.",
+          "Οι συζητήσεις καλύπτουν επίσης συστήματα ηλεκτρονικού πολέμου και πυραύλους μεγάλου βεληνεκούς IAI LORA."
+        ]
+      },
+      "notified": true
+    },
+    "bfabb2": {
+      "createdAt": 1795294675772,
+      "item": {
+        "title": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS29TOXEwSDR6cTYzNmZHNGFXU3dZNklBc3JvdWVRY2RyZ0NEUWhCYkRrQTNDb0NmUFM4emQxQVVFbFREWFdSdW1CbjBzQ1psR25JcXlKRUNjOFM5SjgyRElYV0VIaEN3aENIQVJRZWN2WklCd3g0RklocHQ5TVlMNmZDeWRVTkE?oc=5",
+        "summary": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
+        "published": "Sat, 21 Nov 2026 05:50:07 GMT",
+        "id": "e97d78488193",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "e97d78488193",
+        "section": "real-estate",
+        "priority": 7,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Attica rental and heating costs see significant increases (8.6% higher for autonomous heating homes), important for property investors and resident Israelis.",
+        "item": {
+          "title": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS29TOXEwSDR6cTYzNmZHNGFXU3dZNklBc3JvdWVRY2RyZ0NEUWhCYkRrQTNDb0NmUFM4emQxQVVFbFREWFdSdW1CbjBzQ1psR25JcXlKRUNjOFM5SjgyRElYV0VIaEN3aENIQVJRZWN2WklCd3g0RklocHQ5TVlMNmZDeWRVTkE?oc=5",
+          "summary": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
+          "published": "Sat, 21 Nov 2026 05:50:07 GMT",
+          "id": "e97d78488193",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "athens-heating-rent-prices-increase",
+        "section": "real-estate",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "נדל\"ן ביוון",
+          "en": "Greece Real Estate"
+        },
+        "imageKey": "house",
+        "imageQuery": "apartment building in athens greece",
+        "he": {
+          "title": "עליית מחירים בשכירות באתונה: כמה עולים דירות עם חימום עצמאי",
+          "seoTitle": "נדל\"ן באתונה: זינוק במחירי השכירות בדירות עם חימום עצמאי",
+          "seoDesc": "שוק הנדל\"ן באתונה מראה פערים במחירים: דירות עם חימום עצמאי באזור אטיקה יקרות ב-8.6%. כל הפרטים למשקיעים ומתעניינים.",
+          "keywords": [
+            "נדל\"ן ביוון",
+            "דירה באתונה",
+            "השקעה בנדל\"ן ביוון",
+            "מיסים ביוון"
+          ],
+          "dek": "נתונים חדשים משוק הנדל\"ן באתונה מציגים פערים בולטים במחירי השכירות, כאשר דירות המצוידות בחימום עצמאי מתייקרות משמעותית.",
+          "tldr": [
+            "מחירי השכירות בדירות עם חימום עצמאי באזור אטיקה עלו ב-8.6%.",
+            "הנתונים מתייחסים להבדלים בין סוגי מערכות החימום בנכסים השונים.",
+            "תחום החימום ממשיך לשחק תפקיד מרכזי בבחירת נכסים למגורים ולהשקעה."
+          ],
+          "means": "עבור משקיעים וישראלים המחפשים דירה באתונה, חשוב לבדוק את סוג מערכת החימום בנכס טרם הרכישה או השכירות. מומלץ להתייעץ עם אנשי מקצוע מקומיים כדי להבין את העלויות הנלוות ואת השפעתן על תשואת השכירות.",
+          "body": "## עליית מחירים בנכסים באזור אטיקה\n\nשוק הדיור באזור אטיקה ממשיך להציג שינויים, כאשר על פי הנתונים האחרונים, דירות המציעות חימום עצמאי רשמו עלייה של 8.6% בגובה השכירות בהשוואה לנכסים אחרים. הפערים הללו משקפים את הביקוש מצד שוכרים לנכסים חסכוניים ונוחים יותר מבחינת תפעול מערכות החימום בימי החורף.\n\n## השפעה על שוק ההשקעות והשכירות\n\nמערכות החימום בבתים הפכו לשיקול מרכזי עבור דיירים המחפשים דירות באתונה ובסביבתה. נכסים שבהם קיימת מערכת עצמאית מושכים תשומת לב רבה יותר בשוק, דבר המאפשר לבעלי הנכסים לדרוש דמי שכירות גבוהים יותר. מדובר בנתון שכדאי לקחת בחשבון בעת ניתוח כדאיות של רכישת נכס להשכרה באזור.\n\n## מה חשוב לבדוק לפני רכישת דירה\n\nבבואכם לבחון השקעות נדל\"ן ביוון, כדאי לשים לב למצבו הפיזי של הנכס ולתשתיות הקיימות בו, כולל מערכות החימום והאנרגיה. מידע מדויק על סוג החימום וההוצאות השוטפות יעזור לכם להעריך נכונה את הפוטנציאל של הנכס ואת העלויות למשתקפים הפוטנציאליים.\n\n## שאלות נפוצות\n\n**האם מחירי השכירות עלו בכל אזור אטיקה?**\nהעלייה של 8.6% מתייחסת ספציפיות לדירות המצוידות במערכת חימום עצמאי באזור אטיקה.\n\n**איזה סוג חימום בולט בשוק הנדל\"ן המקומי?**\nהנתונים מצביעים על כך שדירות עם חימום עצמאי מובילות בפערי המחירים, לצד אזורים שבהם עדיין שולט שימוש בנפט.\n\n**האם מידע זה מהווה ייעוץ משפטי או פיננסי?**\nהנתונים המוצגים הם לידיעה כללית בלבד ואינם מהווים תחליף לייעוץ מקצועי בתחום הנדל\"ן."
+        },
+        "en": {
+          "title": "Athens Rent Prices: 8.6% Increase for Apartments with Autonomous Heating",
+          "seoTitle": "Athens Real Estate: Rent Rises for Autonomous Heating Homes",
+          "seoDesc": "Recent data from Athens shows an 8.6% increase in rental prices for apartments with autonomous heating systems in Attica. Learn more.",
+          "keywords": [
+            "greece real estate",
+            "athens apartments",
+            "invest in greece property",
+            "rent in athens"
+          ],
+          "dek": "New figures from the Athens housing market reveal a notable price gap, with apartments featuring autonomous heating seeing higher rents.",
+          "tldr": [
+            "Rental prices for homes with autonomous heating in Attica increased by 8.6%.",
+            "The figures highlight differences based on property heating systems.",
+            "Heating infrastructure remains a key factor for renters in the region."
+          ],
+          "means": "For investors and Israelis looking at Athens real estate, it is important to check the heating system type before purchasing or renting a property. Consulting with local professionals helps in understanding potential utility costs and rental yield impacts.",
+          "body": "## Price Increases in Attica Properties\n\nThe housing market in the Attica region continues to experience shifts, with recent data indicating that apartments offering autonomous heating have recorded an 8.6% increase in rental prices compared to other properties. These differences reflect tenant demand for more efficient and convenient heating solutions during the winter months.\n\n## Impact on the Rental and Investment Market\n\nHeating systems in homes have become a primary consideration for tenants searching for apartments in and around Athens. Properties equipped with independent systems attract more attention in the market, allowing owners to command higher rents. This is an important detail to consider when analyzing the viability of purchasing a rental property in the area.\n\n## What to Check Before Buying a Property\n\nWhen evaluating real estate investments in Greece, it is wise to pay attention to the physical condition of the property and its existing infrastructure, including heating and energy systems. Accurate information regarding heating types and ongoing expenses will help properly assess the property's potential.\n\n## FAQ\n\n**Did rental prices increase across all of Attica?**\nThe 8.6% increase specifically applies to apartments equipped with autonomous heating systems in the Attica region.\n\n**Which heating type dominates the local real estate market?**\nData points out that apartments with autonomous heating lead in price gaps, alongside areas where oil heating still prevails.\n\n**Is this information considered legal or financial advice?**\nThe presented data is for general information purposes only and does not constitute professional real estate advice."
+        }
+      },
+      "text": "Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο - iefimerida.gr\nΘέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού κυριαρχεί το πετρέλαιο &nbsp;&nbsp; iefimerida.gr",
+      "issues": [],
+      "el": {
+        "title": "Τιμές ενοικίων στην Αθήνα: Αύξηση 8,6% για διαμερίσματα με αυτόνομη θέρμανση",
+        "dek": "Νέα στοιχεία από την αγορά κατοικίας της Αθήνας αποκαλύπτουν μια αξιοσημείωτη διαφορά τιμών, με τα διαμερίσματα που διαθέτουν αυτόνομη θέρμανση να καταγράφουν υψηλότερα ενοίκια.",
+        "tldr": [
+          "Οι τιμές ενοικίασης για κατοικίες με αυτόνομη θέρμανση στην Αττική αυξήθηκαν κατά 8,6%.",
+          "Τα στοιχεία αναδεικνύουν διαφορές με βάση τα συστήματα θέρμανσης των ακινήτων.",
+          "Η υποδομή θέρμανσης παραμένει βασικός παράγοντας για τους ενοικιαστές στην περιοχή."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1665,12 +1876,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-21T17:23:12.044Z",
+      "at": "2026-11-21T20:56:45.018Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-21T17:23:12.625Z",
+      "at": "2026-11-21T20:56:45.630Z",
       "items": 4
     },
     "civilprotection": {
@@ -1681,27 +1892,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-21T17:23:13.653Z",
+      "at": "2026-11-21T20:56:47.128Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-21T17:23:13.973Z",
+      "at": "2026-11-21T20:56:47.557Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-21T17:23:15.583Z",
+      "at": "2026-11-21T20:56:49.034Z",
       "items": 0
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-21T17:23:16.178Z",
-      "items": 5
+      "at": "2026-11-21T20:56:49.676Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-21T17:23:16.617Z",
+      "at": "2026-11-21T20:56:50.405Z",
       "items": 10
     },
     "toi-greece": {
@@ -1712,22 +1923,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-21T17:23:16.992Z",
+      "at": "2026-11-21T20:56:50.839Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-21T17:23:17.040Z",
-      "items": 14
+      "at": "2026-11-21T20:56:50.916Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-21T17:23:17.212Z",
-      "items": 5
+      "at": "2026-11-21T20:56:50.994Z",
+      "items": 4
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T17:23:17.355Z",
+      "at": "2026-11-21T20:56:51.132Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1737,12 +1948,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-21T17:23:12.756Z",
+      "at": "2026-11-21T20:56:46.299Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-21T17:23:17.851Z",
+      "at": "2026-11-21T20:56:51.693Z",
       "items": 0
     },
     "hcg": {
@@ -1753,39 +1964,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-21T17:23:18.999Z",
+      "at": "2026-11-21T20:56:52.853Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-21T17:23:19.203Z",
+      "at": "2026-11-21T20:56:53.040Z",
       "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-21T17:23:19.402Z",
-      "items": 3
+      "at": "2026-11-21T20:56:53.246Z",
+      "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-21T17:23:19.642Z",
-      "items": 3
+      "at": "2026-11-21T20:56:53.468Z",
+      "items": 2
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-21T17:23:19.931Z",
+      "at": "2026-11-21T20:56:53.795Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-21T17:23:20.251Z",
-      "items": 6
+      "at": "2026-11-21T20:56:54.076Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-21",
-    "count": 6,
+    "count": 7,
     "published": [
       {
         "slug": "greece-weather-change-rain-temperature-drop",
@@ -1822,6 +2033,12 @@
         "title": "Greece tourism: Prime Minister expects another record year in 2026",
         "at": "2026-11-21T19:23:08+02:00",
         "section": "israelis"
+      },
+      {
+        "slug": "greece-migratory-pressure-eu-report-2026",
+        "title": "Greece Under Migratory Pressure in Latest European Commission Report",
+        "at": "2026-11-21T22:58:15+02:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -1839,6 +2056,11 @@
         "title": "Διχάζουν οι νέοι κανόνες της Airbnb για τα καταλύματα - Kathimerini",
         "reason": "Ίδιο θέμα με «Thessaloniki Sees Rising Demand for Short-Term Rentals» – δεν γράφτηκε ξανά",
         "at": "2026-11-21T15:18:21.747Z"
+      },
+      {
+        "title": "Φιντάν: Ελληνικό και ισραηλινό λόμπι μπλοκάρουν την άρση των αμερικανικών κυρώσεων για τους S-400",
+        "reason": "Αριθμοί που δεν υπάρχουν στην πηγή: 35",
+        "at": "2026-11-21T20:57:45.481Z"
       }
     ],
     "errors": [],
@@ -1854,6 +2076,10 @@
       {
         "slug": "athens-nox-nightclub-sealed",
         "at": "2026-11-21T17:23:00.309Z"
+      },
+      {
+        "slug": "greece-migratory-pressure-eu-report-2026",
+        "at": "2026-11-21T20:58:16.225Z"
       }
     ],
     "ig": []
@@ -2142,15 +2368,28 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-21T17:23:20.865Z",
-    "considered": 5,
-    "picked": 0,
+    "at": "2026-11-21T20:56:55.831Z",
+    "considered": 18,
+    "picked": 5,
     "items": [
-      "· ingr | Στασιμότητα στις προκρατήσεις του 2027 καταγράφει ο ελληνικός τουρισμός",
-      "· ingr | Συνελήφθη 65χρονος με 15 κιλά κάνναβη στο αεροδρόμιο «Ελ. Βενιζέλος»",
-      "· ingr | Φωτιά σε καστανόδασος στον Κοσμά Κυνουρίας στην Αρκαδία",
-      "· naftemporiki | Κ. Μητσοτάκης: «Εμβληματική χρονιά» για τον τουρισμό και το 2026 – Έμφαση στην ελληνική με",
-      "· gn-kathimerini | Συνεχίζεται η ανοδική πορεία των φορολογικών εσόδων - Kathimerini"
+      "· ingr | Ιράν: Χτυπήσαμε τις αμερικανικές βάσεις ως αντίποινα για τις υπερπτήσεις",
+      "· ert | Μπαχρέιν: Πυρκαγιά σε βιομηχανική εγκατάσταση από ιρανικό πλήγμα",
+      "· gn-kathimerini | Νέες συμφωνίες με το Ισραήλ - Kathimerini",
+      "· ingr | Γιόζεφ Μένγκελε: Αδιέξοδα, ψέματα και ένας Ισραηλινός κατάσκοπος στο φάκελο της Ελβετίας γ",
+      "✓ naftemporiki | Κοστέλο: Η Ελλάδα αξιοποίησε και τα 35,95 δισ. ευρώ του Ταμείου Ανάκαμψης – Οι επενδύσεις ",
+      "· gn-iefimerida | Νιούκαστλ - Άρσεναλ 2-2: Έπαιξαν με τη φωτιά, αλλά, τουλάχιστον δεν... κάηκαν οι πρωταθλητ",
+      "✓ naftemporiki | Φιντάν: Ελληνικό και ισραηλινό λόμπι μπλοκάρουν την άρση των αμερικανικών κυρώσεων για του",
+      "· ingr | Τρεις νεκροί από ισραηλινό πλήγμα σε φορτηγό με τρόφιμα στη Γάζα",
+      "· gct | Schäuble Told Turkish Envoy Turkey Would Never Join the EU, Ex-Diplomat Says",
+      "✓ gct | EU Carried Out Fewer Than One in Three Deportation Orders, Commission Report Shows",
+      "✓ gct | Greece and Israel Discuss Up to €1 Billion in New Defence Deals",
+      "· gn-kathimerini | Φιντάν: Eλληνικό και ισραηλινό λόμπι εμποδίζουν την άρση των αμερικανικών κυρώσεων για του",
+      "· gn-iefimerida | Έκρηξη σε θαλαμηγό στη Χαλκιδική: Τραυματίστηκε ο καπετάνιος, δείτε φωτογραφίες από το σκά",
+      "· ert | Βέλγιο: Το αεροδρόμιο των Βρυξελλών αναμένει την ακύρωση της πλειονότητας των πτήσεων τη Δ",
+      "· ert | Περού: 15 τραυματίες από τον σεισμό των 6,7 βαθμών",
+      "· gn-iefimerida | Η 4ωρη καθυστέρηση της πτήσης έκανε την Βάνα Μπάρμπα να βγάλει τα… χάπια από την τσάντα τη",
+      "· gn-iefimerida | Φορολογική απάτη 28 εκατομμυρίων ευρώ: Τον σύντροφό της «καίει» η λογίστρια – «Μου είπε ότ",
+      "✓ gn-iefimerida | Θέρμανση με… καπέλο στο ενοίκιο: 8,6% ακριβότερα τα σπίτια με αυτονομία στην Αττική – Πού "
     ]
   },
   "evergreenDone": [
@@ -2210,6 +2449,24 @@
         "image": "https://images.pexels.com/photos/14349135/pexels-photo-14349135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "post_he": "אתונה: עיריית אתונה סגרה את מועדון נוקס\n\nרשויות האכיפה באתונה סגרו את מועדון הלילה נוקס ברחוב אירא אודוס עקב ליקויי בטיחות אש והידרדרות תנאי הרישיון, לאחר שבדיקות קודמות העלו כי החותם שהושם על המקום הוסר בניגוד לחוק.\n\nhttps://yavanet.gr/a/athens-nox-nightclub-sealed/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
         "post_en": "Athens: Municipality seals NOX nightclub\n\nThe Municipality of Athens has sealed the NOX nightclub on Iera Odos due to missing operating licences and fire safety violations, after officials discovered a previous seal had been removed.\n\nhttps://yavanet.gr/en/a/athens-nox-nightclub-sealed/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    },
+    {
+      "slug": "greece-migratory-pressure-eu-report-2026",
+      "url": "https://yavanet.gr/a/greece-migratory-pressure-eu-report-2026/",
+      "at": "2026-11-21T20:58:16.225Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-migratory-pressure-eu-report-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-migratory-pressure-eu-report-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "יוון תחת לחץ הגירה: נתוני האיחוד האירופי על גירושים ובקשות מקלט",
+        "title_en": "Greece Under Migratory Pressure in Latest European Commission Report",
+        "dek_he": "דו\"ח חדש של הנציבות האירופית מציג את נתוני ההחזרות והגירושים באיחוד, וממקם את יוון בין המדינות הנמצאות תחת לחץ הגירה משמעותי.",
+        "dek_en": "A new European Commission report on asylum and migration highlights return rates across the bloc and positions Greece among member states facing heavy migratory pressure.",
+        "section": "living",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/37415531/pexels-photo-37415531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "יוון תחת לחץ הגירה: נתוני האיחוד האירופי על גירושים ובקשות מקלט\n\nדו\"ח חדש של הנציבות האירופית מציג את נתוני ההחזרות והגירושים באיחוד, וממקם את יוון בין המדינות הנמצאות תחת לחץ הגירה משמעותי.\n\nhttps://yavanet.gr/a/greece-migratory-pressure-eu-report-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece Under Migratory Pressure in Latest European Commission Report\n\nA new European Commission report on asylum and migration highlights return rates across the bloc and positions Greece among member states facing heavy migratory pressure.\n\nhttps://yavanet.gr/en/a/greece-migratory-pressure-eu-report-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
       }
     }
   ]
