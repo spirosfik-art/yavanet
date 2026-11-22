@@ -1,0 +1,60 @@
+{
+  "slug": "athens-strike-november-25",
+  "section": "travel",
+  "publishedAt": "2026-11-22T17:39:21+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "place": "אתונה"
+  },
+  "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU05XaDh3QkQ1LU9EQ1dGNzZ1aU8zQVdzZ19uaHVJeVJtSWZKcVBhZjBpZF9CZm8zT1M5c1ZXTUNDUlAwQU9VYkszSERQR1JnUUxMM01IVHJaUmo1c0FZb0h1eWI2Um5QMi1UNGt5N0drTXozOWR3US1vZVpMMHQ4X3AyV2FuSzd1YlBLMkdqcngwNS1Ld3M5a09ablRlV29nQ2MzU0QzN2c?oc=5"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/11681127/pexels-photo-11681127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of Athens city with snow-covered roads and buildings in winter.",
+    "credit": "Photo: Manousos Kampanellis / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/city-in-snow-11681127/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "שביתה ביוון ב-25 בנובמבר: שינויים בתחבורה הציבורית",
+    "dek": "לקראת השביתה הכללית ביוון ב-25 בנובמבר, הרשויות מפרסמות פרטים על ההשפעה הצפויה על אמצעי התחבורה הציבורית באתונה וברחבי המדינה.",
+    "tldr": [
+      "השביתה הכללית תתקיים ב-25 בנובמבר.",
+      "צפויים שינויים ושיבושים בתחבורה הציבורית.",
+      "מומלץ להתעדכן בלוחות הזמנים לפני הנסיעה."
+    ],
+    "means": "השביתה צפויה להשפיע על התנועה באתונה ועל השירותים הציבוריים, ולכן נוסעים ותיירים מתבקשים לעקוב אחר הודעות עדכניות של חברות התחבורה.",
+    "body": "לקראת השביתה הכללית המתוכננת ליום 25 בנובמבר, איגודים מקצועיים ביוון הודיעו על השתתפותם בפעולות המחאה. הרשויות במדינה צפויות לפרסם בהדרגה את הפרטים המלאים על מתכונת הפעילות של התחבורה הציבורית, כולל רכבות, אוטובוסים ומעבורות, כדי לאפשר לתושבים ולתיירים להיערך בהתאם. עבור ישראלים השוהים באתונה או המתוכננים להגיע בימים אלו, מומלץ לבדוק את מצב הפעילות של אמצעי התחבורה והטיסות מראש, ולהתעדכן בהנחיות הרשמיות המתפרסמות בסמוך למועד השביתה."
+  },
+  "en": {
+    "title": "Greece strike November 25: transport updates and details",
+    "dek": "Ahead of the general strike in Greece on November 25, authorities are releasing information on expected disruptions to public transport.",
+    "tldr": [
+      "The general strike is set for November 25.",
+      "Public transport services will experience changes.",
+      "Travellers are advised to check schedules in advance."
+    ],
+    "means": "The strike will affect transport networks in Athens and across the country, requiring passengers to monitor official updates.",
+    "body": "In preparation for the general strike announced for November 25, labor unions in Greece have confirmed their participation. Official bodies are expected to provide further details regarding the exact operation of public transport, including urban networks and services, to help commuters and visitors plan their journeys. Israelis currently in Greece or planning travel around this date should check transport schedules and official announcements ahead of time to avoid disruptions."
+  },
+  "meta": {
+    "itemId": "91a158a67b19",
+    "imageQuery": "Athens transport strike protest",
+    "sourceHash": "643b4e431a5b",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-22T15:39:22.170Z",
+    "official": false
+  }
+}

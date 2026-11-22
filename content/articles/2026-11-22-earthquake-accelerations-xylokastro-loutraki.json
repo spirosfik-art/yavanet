@@ -1,0 +1,55 @@
+{
+  "slug": "earthquake-accelerations-xylokastro-loutraki",
+  "section": "israelis",
+  "publishedAt": "2026-11-22T17:39:58+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 38.0375,
+    "lng": 22.6242,
+    "name": "Ξυλόκαστρο"
+  },
+  "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzRGNG1OeVh0UFJ4UDVFVE1HYWxrdm5qZUMwRUtyZzItd2dRTi1ObS1Wel8xdTh5NXlfX01FS2dvMDYzQWNWMV9fTVFtQ2Vtb0hQaG56RUQ0NXljQUZSVVRPbzNlRy1uWU95UUxlR3VWVVZ3NWI4VlBrTGotdTBkUzZR?oc=5"
+    }
+  ],
+  "image": {
+    "type": "illustration",
+    "key": "quake"
+  },
+  "alert": null,
+  "he": {
+    "title": "רעידת אדמה ביוון: אזהרה מפני תאוצות סייסמיות גבוהות",
+    "dek": "פרופסור עיבתימיוס לקאס מזהיר מפני תאוצות קרקע חזקות באזור קורינתיה, הכולל את היישובים קסילוקאסטרו ולוטראקי.",
+    "tldr": [
+      "המומחה היווני לענייני רעידות אדמה התריע על תאוצות סייסמיות גבוהות.",
+      "האזורים המרכזיים שצוינו בדיווח הם קסילוקאסטרו ולוטראקי.",
+      "הרשויות בודקות את הנתונים לאחר האירוע הסייסמי."
+    ],
+    "means": "הדיווח הרשמי נועד לעדכן את הציבור והרשויות המקומיות על מאפייני הרעידה באזורים המדוברים.",
+    "body": "רשויות המדע ביוון פרסמו אזהרות והתייחסויות בעקבות פעילות סייסמית באזורים שונים במדינה. פרופסור עיבתימיוס לקאס, ראש ארגון תכנון והגנה מפני רעידות אדמה, התריע כי באזורים קסילוקאסטרו ולוטראקי נרשמו תאוצות קרקע גבוהות במיוחד במהלך האירוע. המומחים עוקבים אחר ההתפתחויות ומנתחים את נתוני המדידות בשטח כדי להעריך את ההשפעות האפשריות על תשתיות ומבנים. נכון לעכשיו, המידע מבוסס על ההודעות הרשמיות של הגורמים המקצועיים ביוון, והציבור מתבקש להתעדכן בהנחיות הבטיחות המעודכנות של הרשויות המקומיות."
+  },
+  "en": {
+    "title": "Greece earthquake: high seismic accelerations reported",
+    "dek": "Professor Efthymios Lekkas warns of particularly high seismic accelerations in the areas of Xylokastro and Loutraki.",
+    "tldr": [
+      "Seismic experts warned of strong ground accelerations in Greece.",
+      "The areas specifically mentioned are Xylokastro and Loutraki.",
+      "Authorities are monitoring the data following the seismic activity."
+    ],
+    "means": "Official warnings aim to keep the public and local authorities informed of seismic measurement updates.",
+    "body": "Greek scientific authorities have issued warnings following recent seismic activity in the region. Professor Efthymios Lekkas, head of the Earthquake Planning and Protection Organization, reported that particularly high seismic accelerations were recorded in Xylokastro and Loutraki. Experts are continuing to analyze measurement data from the affected zones to assess potential impacts on local infrastructure. The public is advised to follow updates and safety instructions issued by the relevant Greek authorities."
+  },
+  "meta": {
+    "itemId": "49ebf04d8f17",
+    "imageQuery": "earthquake seismograph greece",
+    "sourceHash": "3fa4825c64ea",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-22T15:39:58.040Z",
+    "official": false
+  }
+}
