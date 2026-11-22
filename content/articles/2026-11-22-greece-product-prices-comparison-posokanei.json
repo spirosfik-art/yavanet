@@ -1,0 +1,60 @@
+{
+  "slug": "greece-product-prices-comparison-posokanei",
+  "section": "living",
+  "publishedAt": "2026-11-22T13:09:43+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה, יוון"
+  },
+  "sources": [
+    {
+      "name": "Greek City Times",
+      "url": "https://greekcitytimes.com/2026/11/22/many-branded-products-cost-less-in-greece-than-europe/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/36600220/pexels-photo-36600220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Stack of fresh oranges wrapped in plastic at a grocery store, priced with tags.",
+    "credit": "Photo: Anie Mariano / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/fresh-oranges-packed-in-plastic-at-grocery-store-36600220/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון: השוואת מחירי מוצרים מול שאר אירופה",
+    "dek": "פלטפורמת PosoKanei פרסמה השוואת מחירים של 20 מוצרים נפוצים ביוון לעומת שווקים אירופיים, המציגה פערים לכאן ולכאן.",
+    "tldr": [
+      "השוואת מחירים חדשה בודקת מוצרים נפוצים ביוון מול שאר אירופה",
+      "חלק מהמוצרים כמו מוצרי היגיינה זולים יותר ביוון",
+      "מוצרים אחרים כמו גלידה וקפה יקרים יותר מהממוצע האירופי"
+    ],
+    "means": "למה זה מעניין אתכם? אם אתם מבקרים ביוון או שוהים בה, השוואת המחירים הרשמית מספקת תמונת מצב על עלות מוצרים נפוצים כמו מזון ומוצרי היגיינה.",
+    "body": "נתונים חדשים שפורסמו על ידי פלטפורמת מעקב המחירים PosoKanei ביוון מציגים השוואה של 20 מוצרים נפוצים למשך תקופה של 30 יום, ללא מע\"מ, מול ממוצע של שווקים שונים באירופה. הבדיקה מעלה כי מחירם של עשרה מוצרים ביוון נמוך מהממוצע האירופי, בעוד שעשרה מוצרים אחרים רשמו מחירים גבוהים יותר.\n\nלפי הנתונים, מוצרים כמו ג'ל רחצה, משחת שיניים ופסטה נמכרים ביוון במחירים נמוכים משמעותית מהממוצע, כאשר ג'ל רחצה זול בכ-47.5% ומשחת שיניים בכ-39.7%. מנגד, מוצרים אחרים כמו גלידה, קפה אספרו טחון ודגני בוקר שוקולד יקרים יותר ביוון מאשר הממוצע באירופה, כאשר גלידה רושמת פער חיובי של כ-43.1%.\n\nברשות העצמאית לבקרת שוק והגנת הצרכן ציינו כי הבדיקה נועדה לספק שקיפות לצרכנים, וכי מעקב המחירים צפוי להמשיך בשבוע הבא ולכסות מגוון רחב יותר של מוצרים."
+  },
+  "en": {
+    "title": "Greece: Price Comparison of Everyday Products in Europe",
+    "dek": "The PosoKanei monitoring platform published a price comparison of 20 everyday products in Greece versus European markets.",
+    "tldr": [
+      "New price comparison examines everyday products in Greece",
+      "Certain items like personal hygiene products cost less in Greece",
+      "Other products such as ice cream and coffee exceed the European average"
+    ],
+    "means": "Why this matters to you: If you are visiting or living in Greece, this official price comparison provides data on common grocery and household items.",
+    "body": "Data published by the PosoKanei price-monitoring platform in Greece compares the average prices of 20 everyday products over a 30-day period, excluding VAT, against selected European markets. The findings indicate that Greek prices fall below the European average for ten products and exceed it for the remaining ten.\n\nAccording to the analysis, personal hygiene items and food products such as shower gel, toothpaste, and spaghetti cost less in Greece, with shower gel recording a price 47.5% lower than the European average. Conversely, items including ice cream, ground espresso coffee, and chocolate cereals are more expensive in the Greek market, with ice cream priced 43.1% higher.\n\nOfficials from the Independent Authority for Market Control and Consumer Protection stated that the comparison aims to provide consumer transparency and will continue next week with a broader range of products."
+  },
+  "meta": {
+    "itemId": "bf1427efcdb8",
+    "imageQuery": "supermarket prices greece",
+    "sourceHash": "b141a909085d",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-22T11:09:43.999Z",
+    "official": false
+  }
+}

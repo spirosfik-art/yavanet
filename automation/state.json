@@ -19,8 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "2c62011ef9c6": 1794124602622,
-    "3c6d8c6615d0": 1794124602622,
     "b84255cd4a85": 1794148704020,
     "c5d486f27025": 1794148704020,
     "0d3ef38089f2": 1794148704020,
@@ -1663,17 +1661,151 @@
     "3d8d69fe6f99": 1795332828402,
     "98059fb0b19c": 1795332828402,
     "5e3acb16389d": 1795332828402,
-    "c0a026904201": 1795332828402
+    "c0a026904201": 1795332828402,
+    "4a1d49fb18ef": 1795345802973,
+    "411724767333": 1795345802973,
+    "49ebf04d8f17": 1795345802973,
+    "9a715f2eb0ea": 1795345802973,
+    "7c170d7754cf": 1795345802973,
+    "5046ff9360b8": 1795345802973,
+    "08a5835b7fe8": 1795345802973,
+    "354e523c44e8": 1795345802973,
+    "37483ed525de": 1795345802973,
+    "d623c6467d5f": 1795345802973,
+    "055be62c13ca": 1795345802973,
+    "e621765c6148": 1795345802973,
+    "0d37d4e04010": 1795345802973,
+    "f58778204d53": 1795345802973,
+    "f5c6c5bf77e1": 1795345802973,
+    "9f1ff6f15370": 1795345802973,
+    "91a158a67b19": 1795345802973
   },
   "pending": {
-    "16bc8e": {
-      "createdAt": 1795332880560,
+    "499f1e": {
+      "createdAt": 1795345832132,
       "item": {
-        "title": "Many Branded Products Cost Less in Greece Than Europe",
-        "url": "https://greekcitytimes.com/2026/11/22/many-branded-products-cost-less-in-greece-than-europe/",
-        "summary": "A comparison of 20 everyday products finds Greek prices lower than the European average for ten items, but higher for ice cream, coffee and other goods.\n The post Many Branded Products Cost Less in Greece Than Europe appeared first on Greek City Times .",
-        "published": "Sun, 22 Nov 2026 06:20:15 +0000",
-        "id": "bf1427efcdb8",
+        "title": "Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU05XaDh3QkQ1LU9EQ1dGNzZ1aU8zQVdzZ19uaHVJeVJtSWZKcVBhZjBpZF9CZm8zT1M5c1ZXTUNDUlAwQU9VYkszSERQR1JnUUxMM01IVHJaUmo1c0FZb0h1eWI2Um5QMi1UNGt5N0drTXozOWR3US1vZVpMMHQ4X3AyV2FuSzd1YlBLMkdqcngwNS1Ld3M5a09ablRlV29nQ2MzU0QzN2c?oc=5",
+        "summary": "Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς &nbsp;&nbsp; iefimerida.gr",
+        "published": "Sun, 22 Nov 2026 06:42:25 GMT",
+        "id": "91a158a67b19",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": true
+      },
+      "pick": {
+        "id": "91a158a67b19",
+        "section": "travel",
+        "priority": 10,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "National strike on November 25 affects transport and services; crucial information for tourists and residents in Greece.",
+        "item": {
+          "title": "Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU05XaDh3QkQ1LU9EQ1dGNzZ1aU8zQVdzZ19uaHVJeVJtSWZKcVBhZjBpZF9CZm8zT1M5c1ZXTUNDUlAwQU9VYkszSERQR1JnUUxMM01IVHJaUmo1c0FZb0h1eWI2Um5QMi1UNGt5N0drTXozOWR3US1vZVpMMHQ4X3AyV2FuSzd1YlBLMkdqcngwNS1Ld3M5a09ablRlV29nQ2MzU0QzN2c?oc=5",
+          "summary": "Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς &nbsp;&nbsp; iefimerida.gr",
+          "published": "Sun, 22 Nov 2026 06:42:25 GMT",
+          "id": "91a158a67b19",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": true
+        }
+      },
+      "draft": {
+        "slug": "general-strike-transport-november-25",
+        "section": "travel",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": {
+          "dates": [
+            "2025-11-25"
+          ],
+          "sectors": [
+            "public-sector",
+            "other"
+          ],
+          "hours": "all day",
+          "he": "שביתה כללית ביוון ב-25 בנובמבר עם השפעה על התחבורה",
+          "en": "General strike in Greece on November 25 affecting transport"
+        },
+        "alert": {
+          "he": "שביתה ביוון",
+          "en": "Greece Strike"
+        },
+        "imageKey": "strike",
+        "imageQuery": "protest sign street crowd greece",
+        "he": {
+          "title": "שביתה ביוון ב-25 בנובמבר: מה יפעלו ואיך זה ישפיע עליכם",
+          "seoTitle": "שביתה ביוון ב-25 בנובמבר: מה יפעל ומה צפוי",
+          "seoDesc": "שביתה כללית ביוון ב-25 בנובמבר 2026. בדקו את לוח הזמנים, התחבורה הציבורית וההשפעה על טיסות ותיירים ישראלים ביוון.",
+          "keywords": [
+            "שביתה ביוון",
+            "שביתה באתונה",
+            "תחבורה ביוון",
+            "טיסות ליוון",
+            "חדשות יוון"
+          ],
+          "dek": "ההסתדרות הכללית ביוון הכריזה על שביתה כללית ב-25 בנובמבר שתשפיע על המגזר הציבורי והתחבורה. אם אתם טסים השבוע, הנה כל מה שחשוב לדעת.",
+          "tldr": [
+            "השביתה תתקיים ב-25 בנובמבר ותכלול שיבושים במוסדות ובשירותים הציבוריים.",
+            "עדיין אין פירוט מלא על פעילות התחבורה הציבורית והטיסות ביום השביתה.",
+            "נוסעים ומשקיעים מתבקשים לעקוב אחר עדכונים רשמיים מול חברות התעופה והרשויות."
+          ],
+          "means": "אם אתם מתכננים טיסה או חופשה ביוון בימים הקרובים ובפרט ב-25 בנובמבר, אתם חייבים לבדוק מראש את סטטוס הטיסות מול חברות התעופה, להתעדכן בשינויים בתחבורה הציבורית ולהשאיר זמן רב מהרגיל להגעה לשדות התעופה ולנמלים.",
+          "body": "## פרטי השביתה הכללית ביוון\n\nב-25 בנובמבר צפויה שביתה כללית ברחבי יוון, שתשפיע על מגוון תחומים במדינה. מדובר באירוע רוחב המאורגן על ידי גופי עובדים, והוא צפוי לכלול הפסקות עבודה, שיבושים במשרדי ממשלה ומוסדות שונים, והשפעה אפשרית על רשתות התחבורה ברחבי הערים המרכזיות כמו אתונה.\n\n## מי צפוי להשתתף בשביתה\n\nעל פי הדיווחים המוקדמים של אתר iefimerida, השביתה מרכזת גופים מהמגזר הציבורי ועובדים מענפים שונים. עדיין נבחנת רמת ההשתתפות המדויקת של עובדי התחבורה הציבורית, רכבות, מעבורות ורשויות התעופה, ולכן יש לעקוב אחר הודעות עדכניות סמוך למועד השביתה כדי לדעת אילו קווים יפעלו במתכונת חירום.\n\n## ההשלכות על תיירים וישראלים ביוון\n\nעבור ישראלים הנמצאים כעת ביוון או מתכננים להגיע אליה בימים הקרובים, השביתה עלולה ליצור קשיים בהתניידות עירונית, הגעה לנמלי התעופה או שימוש במטרו ובאוטובוסים. מומלץ להיערך מראש, להתעדכן דרך כלי התקשורת המקומיים ולוודא מול חברות התעופה וסוכני הנסיעות האם חלו שינויים בלוח הטיסות.\n\n## שאלות נפוצות\n\n**האם השביתה ב-25 בנובמבר תבטל את כל הטיסות ליוון?**\nנכון לעכשיו לא פורסם כי כל הטיסות יבוטלו, אך ייתכנו שיבושים ועיכובים. מומלץ לבדוק ישירות מול חברת התעופה שלכם.\n\n**איך כדאי להתנייד באתונה בזמן השביתה?**\nמומלץ להתעדכן בזמן אמת לגבי פעילות המטרו והאוטובוסים, ולהיעזר בשירותי מוניות או הליכה רגלית במידת האפשר בהתאם להנחיות המקומיות.\n\n**איפה אפשר למצוא מידע רשמי מעודכן?**\nניתן לעקוב אחר אתרי החדשות המקומיים ביוון כמו iefimerida והודעות רשמיות של רשויות התחבורה והתעופה במדינה."
+        },
+        "en": {
+          "title": "General strike in Greece on November 25: What you need to know",
+          "seoTitle": "Greece strike November 25: transport and travel impact",
+          "seoDesc": "A general strike is announced in Greece for November 25. Check transport updates, flight status, and advice for travellers and visitors.",
+          "keywords": [
+            "greece strike",
+            "athens strike",
+            "greece transport",
+            "flights to greece",
+            "iefimerida news"
+          ],
+          "dek": "A general strike is scheduled across Greece on November 25, affecting public services and transport. Here is what travellers and residents should check.",
+          "tldr": [
+            "The general strike will take place on November 25, disrupting public sector services and daily operations.",
+            "Specific impacts on flights, ferries, and urban public transport are yet to be fully detailed by authorities.",
+            "Travellers and visitors should monitor official updates and check with airlines and transport operators directly."
+          ],
+          "means": "If you are travelling to Greece or currently staying there around November 25, verify your flight status with your airline, check local public transport schedules, and allow extra time for all transit arrangements and airport transfers.",
+          "body": "## Overview of the November 25 Strike\n\nA nationwide general strike has been called in Greece for November 25, drawing participation from various public sector unions and workers' organisations. The action is expected to affect governmental offices, public services, and standard operational routines across major Greek cities.\n\n## Sectors and Transport Participation\n\nAccording to reports from iefimerida, the strike involves multiple working groups. While the exact operational status of urban transport networks, railways, ferries, and aviation authorities is still being determined by unions and operators, travellers should prepare for potential disruptions and altered schedules.\n\n## Impact on Travellers and International Visitors\n\nVisitors currently in Greece or planning trips for late November should anticipate logistical challenges when moving around cities or heading to airports and ports. Staying informed through official local announcements and travel providers is essential to avoid unexpected delays.\n\n## FAQ\n\n**Will all flights to Greece be cancelled on November 25?**\nNo blanket cancellations have been announced yet, but schedule adjustments and delays are possible. Check directly with your airline for the latest flight status.\n\n**How should I get around Athens during the strike?**\nMonitor real-time updates regarding metro, bus, and taxi availability, and consider alternative transport methods if public transit services are restricted.\n\n**Where can I check for reliable updates?**\nFollow Greek news outlets like iefimerida and official announcements issued by transport authorities and airlines."
+        }
+      },
+      "text": "Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς - iefimerida.gr\nΑπεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς &nbsp;&nbsp; iefimerida.gr",
+      "issues": [],
+      "el": {
+        "title": "Γενική απεργία στην Ελλάδα στις 25 Νοεμβρίου: Τι πρέπει να γνωρίζετε",
+        "dek": "Μια γενική απεργία είναι προγραμματισμένη σε ολόκληρη την Ελλάδα στις 25 Νοεμβρίου, επηρεάζοντας τις δημόσιες υπηρεσίες και τις μεταφορές. Ακολουθούν τα σημεία που πρέπει να ελέγξουν οι ταξιδιώτες και οι κάτοικοι.",
+        "tldr": [
+          "Η γενική απεργία θα πραγματοποιηθεί στις 25 Νοεμβρίου, προκαλώντας διαταραχές στις υπηρεσίες του δημόσιου τομέα και στην καθημερινή λειτουργία.",
+          "Οι ειδικές επιπτώσεις στις πτήσεις, τα πλοία και τα αστικά μέσα μαζικής μεταφοράς δεν έχουν ακόμη διευκρινιστεί πλήρως από τις αρχές.",
+          "Οι ταξιδιώτες και οι επισκέπτες θα πρέπει να παρακολουθούν τις επίσημες ανακοινώσεις και να επικοινωνούν απευθείας με τις αεροπορικές εταιρείες και τους παρόχους μεταφορών."
+        ]
+      },
+      "notified": true
+    },
+    "da93e7": {
+      "createdAt": 1795345875973,
+      "item": {
+        "title": "Fidan Blames Greek and Israeli Lobbies for Stalled US Sanctions Relief on Turkey",
+        "url": "https://greekcitytimes.com/2026/11/22/fidan-greek-israeli-lobbies-us-sanctions-turkey/",
+        "summary": "Turkish Foreign Minister Hakan Fidan says Greek and Israeli lobbying is blocking the lifting of US sanctions, but Washington's official rationale is Turkey's purchase of Russia's S-400 system.\n The post Fidan Blames Greek and Israeli Lobbies for Stalled US Sanctions Relief on Turkey appeared first on Greek City Times .",
+        "published": "Sun, 22 Nov 2026 10:59:59 +0000",
+        "id": "411724767333",
         "sourceId": "gct",
         "sourceName": "Greek City Times",
         "official": false,
@@ -1682,18 +1814,18 @@
         "strike": false
       },
       "pick": {
-        "id": "bf1427efcdb8",
-        "section": "living",
+        "id": "411724767333",
+        "section": "israelis",
         "priority": 7,
         "sensitive": true,
         "breaking": false,
-        "reason": "Comparative data on product prices in Greece versus Europe helps tourists and residents understand cost-of-living and inflation trends.",
+        "reason": "Turkish Foreign Minister Hakan Fidan blames the Israeli and Greek lobbies in the US for blocking F-35 sanctions relief, highly relevant to Israel-Greece geopolitical ties.",
         "item": {
-          "title": "Many Branded Products Cost Less in Greece Than Europe",
-          "url": "https://greekcitytimes.com/2026/11/22/many-branded-products-cost-less-in-greece-than-europe/",
-          "summary": "A comparison of 20 everyday products finds Greek prices lower than the European average for ten items, but higher for ice cream, coffee and other goods.\n The post Many Branded Products Cost Less in Greece Than Europe appeared first on Greek City Times .",
-          "published": "Sun, 22 Nov 2026 06:20:15 +0000",
-          "id": "bf1427efcdb8",
+          "title": "Fidan Blames Greek and Israeli Lobbies for Stalled US Sanctions Relief on Turkey",
+          "url": "https://greekcitytimes.com/2026/11/22/fidan-greek-israeli-lobbies-us-sanctions-turkey/",
+          "summary": "Turkish Foreign Minister Hakan Fidan says Greek and Israeli lobbying is blocking the lifting of US sanctions, but Washington's official rationale is Turkey's purchase of Russia's S-400 system.\n The post Fidan Blames Greek and Israeli Lobbies for Stalled US Sanctions Relief on Turkey appeared first on Greek City Times .",
+          "published": "Sun, 22 Nov 2026 10:59:59 +0000",
+          "id": "411724767333",
           "sourceId": "gct",
           "sourceName": "Greek City Times",
           "official": false,
@@ -1703,102 +1835,102 @@
         }
       },
       "draft": {
-        "slug": "greece-product-prices-comparison-europe",
-        "section": "living",
-        "sensitive": false,
+        "slug": "fidan-claims-israeli-lobby-affects-us-sanctions",
+        "section": "israelis",
+        "sensitive": true,
         "breaking": false,
         "geo": null,
         "strike": null,
         "alert": {
-          "he": "השוואת מחירים",
-          "en": "Price Comparison"
+          "he": "עדכון מדיני",
+          "en": "Political Update"
         },
-        "imageKey": "house",
-        "imageQuery": "supermarket shelves products shopping",
+        "imageKey": "politics",
+        "imageQuery": "diplomacy meeting office",
         "he": {
-          "title": "השוואת מחירים ביוון: איזה מוצרים זולים ומה יקר יותר באירופה",
-          "seoTitle": "יוון: מחירי מוצרים בהשוואה לשאר אירופה",
-          "seoDesc": "בדיקה חדשה ביוון משווה את מחירי המוצרים לצרכן מול אירופה. גלה איזה מוצרים עולים פחות ומה יקר יותר בחנויות.",
+          "title": "שר החוץ הטורקי: לובי ישראלי ויווני מעכב את הסרת הסנקציות האמריקאיות",
+          "seoTitle": "שר החוץ הטורקי: לובי ישראלי ויווני מעכב הסרת סנקציות",
+          "seoDesc": "האקאן פידאן טוען כי קבוצות לחץ מישראל ומיוון פועלות בוושינגטון נגד הסרת הסנקציות על טורקיה. כל הפרטים על המתיחות המדינית.",
           "keywords": [
+            "טורקיה",
+            "סנקציות ארה\"ב",
             "יוון",
-            "מחירים ביוון",
-            "יוקר המחיה ביוון",
-            "סופרמרקט ביוון",
-            "קניות ביוון"
+            "ישראל",
+            "מדיניות חוץ"
           ],
-          "dek": "פלטפורמת מעקב המחירים פוזוקאני פרסמה השוואה המציגה אילו מוצרים נמכרים ביוון במחירים נמוכים מהממוצע האירופי ואילו יקרים יותר.",
+          "dek": "שר החוץ הטורקי האקאן פידאן טוען כי פעילות של קבוצות לחץ ישראליות ויווניות בוושינגטון מונעת את הסרת הסנקציות האמריקאיות על תעשיית הביטחון הטורקית.",
           "tldr": [
-            "השוואה בין מחירים של 20 מוצרים נפוצים ביוון מול אירופה.",
-            "מוצרי היגיינה אישית ופסטה רשמו מחירים נמוכים משמעותית.",
-            "גלידה, קפה טחון ודברי מאפה מסוימים נמצאו כיקרים יותר."
+            "שר החוץ הטורקי האקאן פידאן טוען כי לובי ישראלי ויווני פועל נגד טורקיה בוושינגטון.",
+            "הסנקציות האמריקאיות הוטלו ב-2020 בעקבות רכישת מערכת ההגנה הרוסית S-400.",
+            "פידאן טוען כי הממשל האמריקאי מעוניין להסיר את הסנקציות, אך מדובר בתהליך מורכב."
           ],
-          "means": "לתושבים ולשוהים ביוון כדאי להכיר את פערי המחירים בין מוצרי היגיינה זולים יחסית לבין מוצרי מזון מסוימים שיקרים יותר. מומלץ לבדוק את עלויות המוצרים השונות בסופרמרקטים המקומיים כדי לתכנן את סל הקניות בצורה חכמה.",
-          "body": "## ממצאי ההשוואה בשוק המקומי\n\nבדיקה חדשה שפורסמה על ידי פלטפורמת מעקב המחירים פוזוקאני בחנה את העלויות הממוצעות של 20 מוצרים נפוצים לאורך תקופה של 30 יום. הנתונים מתבססים על מחירים ללא מע\"מ כדי לאפשר השוואה אחידה מול שווקים אירופיים אחרים. מתוך עשרים המוצרים שנבחנו, עשרה נמצאו זולים יותר ביוון לעומת הממוצע באירופה, בעוד שעשרה מוצרים אחרים רשמו מחירים גבוהים יותר.\n\nהבדיקה נועדה לספק שקיפות לצרכנים ולשקף את ההבדלים בפועל ברשתות השיווק, תוך התחשבות במבצעים והנחות שהתקיימו לאורך תקופת המדידה.\n\n## איזה מוצרים זולים יותר ביוון\n\nעל פי הנתונים, מוצרי היגיינה אישית וחלק ממוצרי המזון נמכרים ביוון במחירים נמוכים משמעותית מהממוצע האירופי. הפער הגדול ביותר לטובת השוק המקומי נרשם בבקבוקי ג'ל רחצה קרמי, שנמכרים בכמעט 47.5% פחות מהממוצע באירופה. משחות שיניים ופסטה רשמו גם הן הפחתה ניכרת של מעל 30% בהשוואה למדינות אחרות באירופה.\n\nמוצרים נוספים שזולים יותר כוללים נוזל כביסה ידיים, משקה קולה, קטשופ ומיונז, המספקים חיסכון מסוים לרוכשים אותם בסל הקניות היומי.\n\n## מוצרים יקרים יותר והמשך המעקב\n\nמנגד, ההשוואה הצביעה על מוצרים שבהם המחיר ביוון גבוה מהממוצע האירופי. מוצרי גלידה רשמו את הפער הגבוה ביותר ועלו בכ-43.1% יותר, וגם קפה אספרסו טחון, מזון רטוב לכלבים ודגני בוקר שוקולד נמצאו כיקרים יותר.\n\nרשויות אכיפת השוק והגנת הצרכן ביוון ציינו כי הבדיקות יימשכו ויורחבו למוצרים נוספים כדי להמשיך ולספק מידע שקוף ונגיש לציבור הרחב.\n\n## שאלות נפוצות\n\n**האם ההשוואה כוללת מע\"מ?**\nהמחירים בבדיקה זו הוצגו ללא מע\"מ כדי לנטרל הבדלי מיסוי בין המדינות.\n\n**אילו מדינות נכללו בהשוואה?**\nהבדיקה השוותה את נתוני יוון מול שמונה מדינות אירופאיות נוספות, בהן גרמניה, צרפת, ספרד ואיטליה."
+          "means": "עבור ישראלים ביוון או כאלו העוקבים אחר היחסים האזוריים, מדובר בהערכת מצב מדינית בלבד. אין לדיווח זה השפעה מיידית על תיירות, השקעות או מגורים ביוון. מומלץ להמשיך לעקוב אחר פרסומים רשמיים של משרד החוץ הישראלי בנוגע להנחיות נסיעה.",
+          "body": "## מה טוען שר החוץ הטורקי?\nבמסגרת התבטאויותיו האחרונות, שר החוץ הטורקי האקאן פידאן תיאר את המאמצים הדיפלומטיים של ארצו בוושינגטון כ\"מלחמת לובי\". לדבריו, קבוצות לחץ ישראליות ויווניות פועלות באופן פעיל בבירת ארה\"ב כדי למנוע את הסרת הסנקציות שהוטלו על טורקיה. פידאן טען כי הנושא חורג מעבר לרכישת מערכת ההגנה הרוסית S-400, וכי מדובר במאבק על סדרי עדיפויות במדיניות החוץ האמריקאית.\n\n## הרקע לסנקציות האמריקאיות\nהסנקציות האמריקאיות הוטלו ב-14 בדצמבר 2020 על נשיאות תעשיות הביטחון הטורקית (SSB). הצעד ננקט בהתאם לחוק האמריקאי CAATSA, בעקבות עסקת רכש משמעותית של טורקיה מול יצואנית הנשק הרוסית המרכזית, Rosoboronexport. וושינגטון נימקה את החלטתה בכך שהרכישה מסכנת טכנולוגיה צבאית אמריקאית ואת אנשי הצבא המשתמשים בה. כתוצאה מכך, הוסרה טורקיה מתוכנית מטוסי ה-F-35.\n\n## האם צפוי שינוי במדיניות?\nפידאן ציין כי קיים שיח עם מזכיר המדינה האמריקאי מרקו רוביו בנושא. לדברי השר הטורקי, רוביו הביע הסתייגות בדיעבד מהחקיקה שהובילה לסנקציות. עם זאת, פידאן הודה כי אין כרגע החלטה רשמית על הסרת המגבלות ואין לוח זמנים מוגדר לכך. הוא הדגיש כי מדובר בהערכה אישית שלו לגבי השפעה פוליטית בוושינגטון, וכי שיחות בין שרים אינן משנות את המציאות המשפטית של הסנקציות כשלעצמן.\n\n## שאלות נפוצות\n**האם יש השפעה של הסנקציות על טיסות או תיירות ביוון?**\nלא. מדובר בסוגיה מדינית-ביטחונית בין ארה\"ב לטורקיה ואין לה השפעה על התנועה האווירית או על ביטחון התיירים ביוון.\n\n**האם מדובר בשינוי רשמי במדיניות ארה\"ב כלפי טורקיה?**\nלא. שר החוץ הטורקי הבהיר כי אין החלטה רשמית על הסרת הסנקציות וכי מדובר בתהליך מורכב שדורש עבודה מתמשכת."
         },
         "en": {
-          "title": "Price Comparison in Greece: Which Products Cost Less Than in Europe",
-          "seoTitle": "Greece Product Prices Compared to Europe Market",
-          "seoDesc": "A new price comparison in Greece reveals which everyday products cost less than the European average and which are more expensive.",
+          "title": "Turkish FM: Greek and Israeli lobbies hinder lifting of US sanctions",
+          "seoTitle": "Turkish FM: Greek and Israeli lobbies hinder US sanctions",
+          "seoDesc": "Turkish FM Hakan Fidan claims Greek and Israeli lobbying groups in Washington are blocking the lifting of US sanctions on Turkey.",
           "keywords": [
-            "Greece prices",
-            "cost of living Greece",
-            "supermarket Greece",
-            "PosoKanei Greece",
-            "shopping in Greece"
+            "Turkey",
+            "US sanctions",
+            "Greece",
+            "Israel",
+            "foreign policy"
           ],
-          "dek": "The PosoKanei price-monitoring platform published a comparison showing which everyday products sell for less in Greece compared to the European average.",
+          "dek": "Turkish Foreign Minister Hakan Fidan claims that Greek and Israeli lobbying groups in Washington are obstructing efforts to lift US sanctions on Turkey's defense industry.",
           "tldr": [
-            "Comparison examines average prices of 20 everyday products in Greece versus Europe.",
-            "Personal hygiene items and pasta recorded significantly lower prices.",
-            "Ice cream, ground espresso, and specific snacks were found to be more expensive."
+            "Turkish FM Hakan Fidan alleges that Israeli and Greek lobbies are working against Turkey in Washington.",
+            "US sanctions were imposed in 2020 due to Turkey's purchase of the Russian S-400 defense system.",
+            "Fidan stated that while the US administration may want to lift sanctions, no formal decision has been made."
           ],
-          "means": "Residents and visitors in Greece should note the price variations between affordable personal care items and certain higher-priced food products. Checking local supermarket prices helps plan grocery shopping efficiently.",
-          "body": "## Findings from the Local Market Comparison\n\nA new analysis published by the PosoKanei price-monitoring platform examined the average prices of 20 everyday products over a 30-day period. The figures exclude VAT to allow a uniform comparison against other European markets. Out of the twenty items tested, ten were found to be cheaper in Greece than the European average, while ten others recorded higher prices.\n\nThe analysis aims to provide transparency for consumers and reflect actual retail differences, incorporating promotions and discounts recorded throughout the measurement period.\n\n## Which Products Cost Less in Greece\n\nAccording to the data, personal hygiene products and selected food items sell in Greece at prices considerably lower than the European average. The largest gap in favour of the local market was recorded for creamy shower gel bottles, which cost nearly 47.5% less than the European average. Toothpaste and spaghetti also recorded reductions exceeding 30% compared to other European countries.\n\nAdditional products that cost less include liquid hand soap, cola soft drinks, ketchup, and mayonnaise, offering savings for shoppers purchasing these daily items.\n\n## More Expensive Items and Future Monitoring\n\nConversely, the comparison identified products where Greek prices exceed the European average. Ice cream recorded the highest difference, costing around 43.1% more, while ground espresso coffee, wet dog food, and chocolate breakfast cereals were also found to be more expensive.\n\nMarket control and consumer protection authorities in Greece noted that monitoring will continue and expand to a larger number of products to ensure ongoing transparent information for the public.\n\n## FAQ\n\n**Does the comparison include VAT?**\nPrices in this analysis were calculated excluding VAT to account for tax differences between countries.\n\n**Which countries were included in the comparison?**\nData from Greece was compared against several European markets, including Germany, France, Spain, and Italy."
+          "means": "For Israelis in Greece or those following regional relations, this is a political assessment and does not affect tourism, property investment, or daily life. Travelers should continue to monitor official travel advisories from their respective governments.",
+          "body": "## What did the Turkish Foreign Minister claim?\nIn recent remarks, Turkish Foreign Minister Hakan Fidan described the diplomatic efforts in Washington as a \"lobbying war.\" He alleged that Greek and Israeli lobbying groups are actively working in the US capital to prevent the lifting of sanctions imposed on Turkey. Fidan argued that the dispute extends beyond the purchase of the Russian S-400 air defense system and is part of a broader debate over American foreign policy priorities.\n\n## Background on US Sanctions\nThe US imposed sanctions on Turkey's Presidency of Defense Industries (SSB) on December 14, 2020. The decision was made under the Countering America’s Adversaries Through Sanctions Act (CAATSA) following a significant transaction with Russia’s main arms exporter, Rosoboronexport. Washington stated that the purchase endangered American military technology and personnel, leading to Turkey's removal from the F-35 program.\n\n## Is a policy change expected?\nFidan mentioned discussions with US Secretary of State Marco Rubio, claiming that Rubio expressed regret over the binding nature of the legislation. However, Fidan acknowledged that there is no formal decision to remove the restrictions and no established timetable. He emphasized that his comments represent his own assessment of political influence in Washington and that ministerial conversations do not automatically alter the existing sanctions regime.\n\n## FAQ\n**Do these sanctions affect travel or flights in Greece?**\nNo. This is a diplomatic and defense-related issue between the US and Turkey and has no impact on air travel or tourist safety in Greece.\n\n**Has there been an official change in US policy toward Turkey?**\nNo. The Turkish Foreign Minister clarified that there is no formal decision to lift the sanctions and that the process remains unresolved."
         }
       },
-      "text": "0 \n 0 \n 0 \n Greece records lower prices than the average across selected European markets for half of 20 branded everyday products, including pasta, toothpaste and shower gel, while ice cream, ground espresso coffee and chocolate cereals cost more, according to a comparison published by the PosoKanei price-monitoring platform.\n The comparison examines the average prices of 20 everyday products over a 30-day period, excluding VAT, and identifies significant differences between Greece and other European markets. The findings show that Greek consumers pay less than the European average for ten products and more for the remaining ten.\n Among everyday household purchases, several personal hygiene products and food items cost less in Greece. These include spaghetti, toothpaste, shower gel, liquid hand soap and moisturising shampoo. However, other products, particularly certain food and beverage items, record higher prices in the Greek market.\n The largest price difference in favour of Greece concerns a 650 ml bottle of creamy shower gel, which costs 47.5% less than the average across the European markets included in the comparison. Toothpaste (75 ml) is 39.7% cheaper, while spaghetti (500 g) costs 34.1% less.\n Read more: Greek Households Save Up to €39 a Month Under Price-Cut Initiative \n At the other end of the scale, a 406 g ice cream product costs 43.1% more in Greece than the European average. Ground espresso coffee (250 g) is 31.6% more expensive.\n How the comparison was conducted \n The comparison excludes VAT to account for differences in tax rates between countries and product categories, allowing prices to be assessed on a common basis.\n The analysis uses average prices over 30 days, calculated as the arithmetic mean of daily prices. This method also incorporates promotional discounts during the period, avoiding reliance on prices recorded on a single day.\n For each product, the researchers compared its 30-day average price in Greece with the corresponding average across the available European markets. The comparison covers between six and eight countries, excluding Greece, depending on the product.\n The countries included are Germany, France, Belgium, Italy, Spain, Portugal, Cyprus, Poland, Bulgaria and Romania.\n The percentages indicate how much the Greek price differs from the average across the available European markets. They do not establish whether a product costs more or less than in every individual country. The analysis also stresses that prices excluding VAT do not represent the final amount consumers pay at the checkout.\n Ten products that cost less in Greece \n Greek prices fall below the European average for ten products across several categories, including personal care, food, beverages and baby care.\n Personal hygiene products include shower gel, liquid hand soap, toothpaste and moisturising shampoo. Food and beverage products include spaghetti, cola, ketchup and mayonnaise.\n The following figures show the percentage difference between Greek prices and the European average, excluding VAT.\n Product and package \n Price difference \n European markets \n Creamy shower gel, 650 ml \n -47.5% \n 7 \n Liquid hand soap with pump, 250 ml \n -40.9% \n 8 \n Toothpaste, 75 ml \n -39.7% \n 6 \n Spaghetti, 500 g \n -34.1% \n 7 \n Cola soft drink, 1 litre \n -29.2% \n 6 \n Incontinence pads, 20 pieces \n -27.5% \n 6 \n Ketchup, 580 g \n -25.2% \n 6 \n Mayonnaise, 450 ml \n -20.9% \n 6 \n Moisturising shampoo, 400 ml \n -18.5% \n 6 \n Baby nappies, 50 pieces \n -12.7% \n 6 \n Ten products that cost more in Greece \n The comparison also identifies ten products whose Greek prices exceed the European average. These include food, personal care, household cleaning and pet products.\n Ice cream records the largest difference, followed by wet dog food, ground espresso coffee and chocolate breakfast cereals.\n Product and package \n Price difference \n European markets \n Ice cream, 406 g \n +43.1% \n 8 \n Wet dog food, 150 g \n +38.3% \n 6 \n Ground espresso coffee, 250 g \n +31.6% \n 6 \n Chocolate cereals, 330 g \n +31.1% \n 8 \n Shampoo, 200 ml \n +28.3% \n 6 \n Follow-on powdered milk for children from the second year, 800 g \n +26.9% \n 6 \n Paprika-flavoured savoury snack, 165 g \n +24.9% \n 6 \n Dishwasher cleaning liquid, 250 ml \n +22.8% \n 6 \n Cream cheese, 200 g \n +20.9% \n 7 \n Chocolate hazelnut spread biscuits, 304 g \n +13.6% \n 6 \n What the 20 comparisons reveal \n The findings concern specific products and package sizes. The analysis deliberately selects ten products with higher Greek prices and ten with lower prices to highlight differences in both directions.\n The selection does not represent a typical household shopping basket and cannot support general conclusions about entire product categories, overall price levels or the cost of living in each country. Nor do the price differences, on their own, explain the factors behind the variations.\n For consumers, however, the practical question remains straightforward: which products do they buy, in what quantities and at what cost? Transparent price comparisons can help shoppers identify differences and make more informed purchasing decisions.\n According to officials from the Independent Authority for Market Control and Consumer Protection, the comparison will continue next week. PosoKanei will publish further findings covering a larger number of products, providing a broader picture of prices in Greece and selected European markets.\n PosoKanei – Check Before You Buy \n Despoina Tsangari, Governor of the Independent Authority for Market Control and Consumer Protection, told the Athens-Macedonian News Agency (AMNA) that consumers have the right to know what they pay and access information they can understand and use.\n She said pressure on household budgets required the Authority to provide accurate information and maintain consistent market oversight.\n “With PosoKanei, we highlight price differences that deserve attention and give citizens more tools to make their choices,” Tsangari said.\n She added that the next stage would examine the overall picture across a larger number of products by comparing their average prices.\n “Transparency is a daily responsibility towards consumers,” she said.\n (Source: AMNA)\n &nbsp;\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Cuts Prices on More Than 1,660 Everyday Products \n Consumers Prioritise Low Prices as Digital Shopping Transforms Retail \n Greek Food Spending Reaches €25.7 Billion as Habits Shift \n Greek Supermarket Prices Fall in August \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Istanbul Pesticide Deaths: Canadian Investigation Links Tourist Fatalities to Illegal Bedbug Fumigation\n Next Article \n Strategic Cruise Tourism Plan to Unlock Greece’s Hidden Destinations\n 0 \n 0 \n 0",
+      "text": "0 \n 0 \n 0 \n Turkish Foreign Minister Hakan Fidan has accused Greek and Israeli lobbying groups of standing in the way of efforts to lift US sanctions on Turkey, arguing that the dispute goes beyond Ankara’s purchase of Russia’s S-400 air defence system.\n Fidan describes a “lobbying war”\n In a clip circulated by the account Clash Report, Fidan said Israel was lobbying heavily against Turkey in Washington and described the situation as something of a “lobbying war”. He also named Greek lobbying groups and invoked the rival slogans “America First” and “Israel First”, placing Turkey’s request inside the debate over American foreign policy priorities.\n These remarks are Fidan’s own assessment of political influence in Washington. They are not an established explanation of how US decisions are made. Greek City Times has previously reported on Netanyahu’s attempt to block an F-35 sale to Turkey .\n Read more: Ankara seeks new route for S-400s after reported Israeli block on UAE deal \n What Fidan says Rubio told him\n Fidan also spoke about his talks with US Secretary of State Marco Rubio. According to the Turkish minister, Rubio said that had he known how binding the relevant legislative provision would become, he would not have backed its approval.\n Fidan said he was confident the US administration wants to lift the sanctions, while acknowledging that it would take sustained work. He announced no decision to remove the restrictions and no timetable. His account of a private conversation should be kept separate from anything Rubio has confirmed publicly.\n Why Washington imposed the sanctions\n The US decision of December 14, 2020, named the S-400 purchase as its basis. Washington sanctioned Turkey’s Presidency of Defense Industries (SSB) under Section 231 of the Countering America’s Adversaries Through Sanctions Act (CAATSA), over a significant transaction with Rosoboronexport, Russia’s main arms exporter.\n The State Department said Turkey went ahead despite repeated warnings that the purchase could endanger American military technology and personnel. The package restricted US export licences and financing for SSB, along with certain forms of export support, and targeted named Turkish defence procurement officials. The same announcement tied the S-400 deal to Turkey’s removal from the F-35 programme.\n Other buyers of Russian weapons\n Fidan questioned why other countries buying Russian defence equipment have not faced comparable sanctions. There is a precedent: in September 2018, Washington sanctioned China’s Equipment Development Department and its then director, Li Shangfu, under the same CAATSA provision, over deals involving Su-35 fighter jets and S-400-related equipment.\n A formal decision is still awaited\n Ankara wants better relations with Washington to bring concrete relief for its defence industry, and Fidan says Turkey’s opponents are preventing it. What Washington will decide, and on what conditions, remains unresolved. Ministerial conversations and accusations about lobbying do not change the sanctions regime on their own.\n For more background, see our coverage of the Trump administration’s shifting Middle East strategy and Turkey and US plans to facilitate Greece-Turkey dialogue .\n Source: Pagenews.gr \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Turkish Opposition Accuses Erdogan of Losing Ground to Greece \n Turkish Media Focus on Greece, Libya Deal and Washington \n MBDA Pitches SPEAR Missiles for Greece’s Future F-35s \n Greek Prime Minister Rules Out Early Elections \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Ange Postecoglou Defends Sadio Mane for Missing Al-Nassr Match to Attend Birth of His Child\n No Newer Articles \n 0 \n 0 \n 0",
       "issues": [],
       "el": {
-        "title": "Σύγκριση τιμών στην Ελλάδα: Ποια προϊόντα κοστίζουν λιγότερο από ό,τι στην Ευρώπη",
-        "dek": "Η πλατφόρμα παρακολούθησης τιμών PosoKanei δημοσίευσε μια σύγκριση που δείχνει ποια καθημερινά προϊόντα πωλούνται φθηνότερα στην Ελλάδα σε σύγκριση με τον ευρωπαϊκό μέσο όρο.",
+        "title": "Τούρκος ΥΠΕΞ: Τα ελληνικά και ισραηλινά λόμπι εμποδίζουν την άρση των αμερικανικών κυρώσεων",
+        "dek": "Ο Τούρκος υπουργός Εξωτερικών, Χακάν Φιντάν, υποστηρίζει ότι οι ελληνικές και ισραηλινές ομάδες πίεσης στην Ουάσιγκτον εμποδίζουν τις προσπάθειες για την άρση των αμερικανικών κυρώσεων στην τουρκική αμυντική βιομηχανία.",
         "tldr": [
-          "Η σύγκριση εξετάζει τις μέσες τιμές 20 καθημερινών προϊόντων στην Ελλάδα σε σχέση με την Ευρώπη.",
-          "Τα είδη προσωπικής υγιεινής και τα ζυμαρικά κατέγραψαν σημαντικά χαμηλότερες τιμές.",
-          "Το παγωτό, ο αλεσμένος καφές εσπρέσο και συγκεκριμένα σνακ βρέθηκαν να είναι ακριβότερα."
+          "Ο Τούρκος ΥΠΕΞ Χακάν Φιντάν ισχυρίζεται ότι τα ισραηλινά και ελληνικά λόμπι εργάζονται εναντίον της Τουρκίας στην Ουάσιγκτον.",
+          "Οι αμερικανικές κυρώσεις επιβλήθηκαν το 2020 λόγω της αγοράς του ρωσικού συστήματος αεράμυνας S-400 από την Τουρκία.",
+          "Ο Φιντάν δήλωσε ότι, παρόλο που η αμερικανική κυβέρνηση ίσως επιθυμεί την άρση των κυρώσεων, δεν έχει ληφθεί καμία επίσημη απόφαση."
         ]
       },
       "notified": true
     },
-    "48e393": {
-      "createdAt": 1795332918946,
+    "d2c67d": {
+      "createdAt": 1795345944085,
       "item": {
-        "title": "Κατοικία: Από την ιδιοκατοίκηση στο ενοίκιο",
-        "url": "https://www.in.gr/2026/11/22/economy/oikonomikes-eidiseis/katoikia-apo-tin-idiokatoikisi-sto-enoikio/",
-        "summary": "Μέσα σε έξι χρόνια στην Ελλάδα υποχώρησε από το 75,4% στο 69,4% - Πώς άλλαξε ο στεγαστικός χάρτης της χώρας\n The post Κατοικία: Από την ιδιοκατοίκηση στο ενοίκιο appeared first on in.gr .",
-        "published": "Sun, 22 Nov 2026 08:00:45 +0200",
-        "id": "5737d2d23f7d",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
+        "title": "Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι - iefimerida.gr",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzRGNG1OeVh0UFJ4UDVFVE1HYWxrdm5qZUMwRUtyZzItd2dRTi1ObS1Wel8xdTh5NXlfX01FS2dvMDYzQWNWMV9fTVFtQ2Vtb0hQaG56RUQ0NXljQUZSVVRPbzNlRy1uWU95UUxlR3VWVVZ3NWI4VlBrTGotdTBkUzZR?oc=5",
+        "summary": "Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι &nbsp;&nbsp; iefimerida.gr",
+        "published": "Sun, 22 Nov 2026 10:50:10 GMT",
+        "id": "49ebf04d8f17",
+        "sourceId": "gn-iefimerida",
+        "sourceName": "iefimerida (μέσω Google News)",
         "official": false,
         "emergency": false,
         "sectionHint": "politics",
         "strike": false
       },
       "pick": {
-        "id": "5737d2d23f7d",
-        "section": "real-estate",
+        "id": "49ebf04d8f17",
+        "section": "breaking",
         "priority": 7,
         "sensitive": true,
-        "breaking": false,
-        "reason": "Shifting housing market trends in Greece (drop in homeownership, rise in renting) are vital insights for property investors and residents.",
+        "breaking": true,
+        "reason": "Seismologist warnings regarding high seismic accelerations in Xylokastro and Loutraki, matter of safety for residents and tourists.",
         "item": {
-          "title": "Κατοικία: Από την ιδιοκατοίκηση στο ενοίκιο",
-          "url": "https://www.in.gr/2026/11/22/economy/oikonomikes-eidiseis/katoikia-apo-tin-idiokatoikisi-sto-enoikio/",
-          "summary": "Μέσα σε έξι χρόνια στην Ελλάδα υποχώρησε από το 75,4% στο 69,4% - Πώς άλλαξε ο στεγαστικός χάρτης της χώρας\n The post Κατοικία: Από την ιδιοκατοίκηση στο ενοίκιο appeared first on in.gr .",
-          "published": "Sun, 22 Nov 2026 08:00:45 +0200",
-          "id": "5737d2d23f7d",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
+          "title": "Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι - iefimerida.gr",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzRGNG1OeVh0UFJ4UDVFVE1HYWxrdm5qZUMwRUtyZzItd2dRTi1ObS1Wel8xdTh5NXlfX01FS2dvMDYzQWNWMV9fTVFtQ2Vtb0hQaG56RUQ0NXljQUZSVVRPbzNlRy1uWU95UUxlR3VWVVZ3NWI4VlBrTGotdTBkUzZR?oc=5",
+          "summary": "Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι &nbsp;&nbsp; iefimerida.gr",
+          "published": "Sun, 22 Nov 2026 10:50:10 GMT",
+          "id": "49ebf04d8f17",
+          "sourceId": "gn-iefimerida",
+          "sourceName": "iefimerida (μέσω Google News)",
           "official": false,
           "emergency": false,
           "sectionHint": "politics",
@@ -1806,66 +1938,69 @@
         }
       },
       "draft": {
-        "slug": "greece-housing-prices-and-rent-costs-2026",
-        "section": "real-estate",
-        "sensitive": false,
-        "breaking": false,
-        "geo": null,
+        "slug": "seismic-activity-warning-xylokastro-loutraki",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9333,
+          "lng": 22.6333
+        },
         "strike": null,
         "alert": {
-          "he": "נדלן ביוון",
-          "en": "Greece Real Estate"
+          "he": "אזהרת רעידת אדמה",
+          "en": "Earthquake warning"
         },
-        "imageKey": "house",
-        "imageQuery": "modern apartment building Athens real estate",
+        "imageKey": "quake",
+        "imageQuery": "seismic activity Greece",
         "he": {
-          "title": "ירידה בשיעור הבעלות על דירות ביוון לצד זינוק בעלויות הדיור",
-          "seoTitle": "נדל\"ן ביוון: ירידה בבעלות על דירות ועלייה במחירים",
-          "seoDesc": "על פי נתוני אירוסטאט, שיעור הבעלות על דירות ביוון ירד משמעותית בשנים האחרונות, בעוד שעלויות הדיור והשכירות זינקו והגיעו לשיאים חדשים באיחוד האירופי.",
+          "title": "אזהרה ממומחה: פעילות סיסמית גבוהה באזור קורינתוס",
+          "seoTitle": "רעידת אדמה ביוון: אזהרה באזור קורינתוס וקסילוקסטרו",
+          "seoDesc": "המומחה אפת'ימיוס לקאס מזהיר מפני תאוצות סיסמיות גבוהות באזורי קסילוקסטרו ולוטראקי. מה חשוב לדעת?",
           "keywords": [
-            "נדל\"ן ביוון",
-            "דירה באתונה",
-            "השקעה בנדל\"ן ביוון",
-            "מיסים ביוון"
+            "רעידת אדמה ביוון",
+            "קסילוקסטרו",
+            "לוטראקי",
+            "אזהרת רעידת אדמה"
           ],
-          "dek": "נתונים חדשים מציגים את השינויים בשוק הדיור ביוון, עם ירידה ברכישת דירות על ידי משקי בית לצד עלייה חדה במחירי הנדל\"ן ובעלויות השכירות.",
+          "dek": "הסיסמולוג אפת'ימיוס לקאס מזהיר מפני תאוצות סיסמיות משמעותיות באזורי קסילוקסטרו ולוטראקי. הרשויות עוקבות אחר המצב.",
           "tldr": [
-            "שיעור הבעלות על דירות ביוון ירד ל-69,4% בשנת 2025.",
-            "מחירי הדירות באתונה ובשאר המדינה המשיכו לטפס ברציפות.",
-            "הוצאות הדיור למשקי הבית מהוות נטל כבד בהשוואה לאירופה."
+            "הסיסמולוג אפת'ימיוס לקאס פרסם אזהרה על פעילות סיסמית באזור.",
+            "הדגש הוא על תאוצות גבוהות באזורי קסילוקסטרו ולוטראקי.",
+            "הציבור מתבקש להישמע להנחיות הרשויות המקומיות."
           ],
-          "means": "למשקיעים הישראלים המסתכלים על שוק הדיור המקומי חשוב להכיר את המגמות בשטח. כדאי לעקוב אחר נתוני הבנק של יוון ולבחון היטב את העלויות הנלוות לרכישת נכס ואת הביקוש הגובר לשכירות באזורים המרכזיים.",
-          "body": "## השינויים בשוק הדיור והירידה באידיאל הבעלות\n\nשוק הדיור ביוון עובר שינויים משמעותיים בשנים האחרונות, כאשר החלום על רכישת דירה נעשה מרוחק יותר עבור אלפי משקי בית. בעוד שבעבר האידיאל של בעלות על נכס היה מאפיין מרכזי בחברה היוונית, הנתונים העדכניים מצביעים על מגמה הפוכה. מחירי הדירות רשמו זינוק ניכר, בעוד שנטילת משכנתא מהבנקים כרוכה באתגרים רבים, בין היתר בשל דרישות להון עצמי גבוה שקשה לגייס ללא חיסכון מוקדם או עזרה משפחתית.\n\nעל פי נתוני אירוסטאט, בשנת 2025 עמד שיעור האנשים שגרו בנכס בבעלותם על 69,4%, לעומת 75,4% בשנת 2019. מדובר בירידה משמעותית בתוך שנים ספורות בלבד, במקביל לעלייה בשיעור המתגוררים בשטרות שכירות או בפתרונות דיור אחרים. נתונים אלו מראים שהירידה באידיאולוגיית הבעלות לא נפסקה עם סיום המשבר הכלכלי, אלא נמשכה גם על רקע ההתאוששות והתנועה ערה בשוק הנדל\"ן.\n\n## זינוק במחירים ועלויות השכירות הגבוהות\n\nהעלייה המתמשכת במחירי הדירות מקשה באופן ניכר על רוכשי הדירות בפעם הראשונה. לפי נתוני בנק יוון, מחירי הדירות רשמו עלייה של 8,3% בשנת 2025, והמשיכו לטפס גם ברבעון השני של 2026. במקביל, ההכנסות של משקי הבית אינן מדביקות את קצב התייקרות הנכסים, וההיצע של דירות במחירים סבירים נותר מוגבל במיוחד במוקדים המרכזיים כמו אתונה וסלוניקי.\n\nהמצב בשטח מתבטא גם בנטל הכלכלי על השוכרים. נתוני הרשות הישראלית לסטטיסטיקה (ELSTAT) מעידים כי משקי בית המתגוררים בשכירות מקצים חלק ניכר מסך התקציב החודשי שלהם לטובת כיסוי הוצאות המגורים. השוואה אירופית מראה כי למרות שיוון התקרבה לממוצע האירופי בשיעורי הבעלות הכלליים, היא נמצאת במקום גבוה במיוחד מבחינת היחס בין הוצאות הדיור להכנסה הפנויה של התושבים.\n\n## תוכניות ממשלתיות והפתרונות בשטח\n\nבניסיון לספק מענה למצוקת הדיור, הממשלה מקדמת תוכניות שונות לרכישת דירה ראשונה. עד כה אושרו אלפי הלוואות במסגרת היוזמות הממשלתיות, ולקראת סוף חודש דצמבר צפוי להיפתח סבב חדש עם קריטריונים מורחבים שיאפשרו לקהל רחב יותר של זכאים להגיש בקשות לרכישת נכס בתנאים נוחים יותר.\n\nהתוכניות החדשות כוללות העלאה של רף הגיל המרבי ושל תקרת שווי הנכס המאושר, במטרה לאפשר לכמה שיותר משקי בית להתגבר על מכשול המימון ולהיכנס לשוק הדיור. עם זאת, האתגרים במימון הבנקאי ויוקר המגורים ממשיכים להעסיק את השוק המקומי.\n\n## שאלות נפוצות\n\n**מה היה שיעור הבעלות על דירות ביוון בשנת 2025?**\nעל פי הנתונים, שיעור האוכלוסייה שגרה בדירה בבעלותה עמד על 69,4%.\n\n**האם מחירי הדירות ביוון ממשיכים לעלות?**\nכן, נתוני בנק יוון מראים עלייה מתמשכת במחירי הדירות בשנים האחרונות ובשנת 2026.\n\n**אילו פתרונות קיימים עבור רוכשי דירה ראשונה?**\nהמדינה מפעילה תוכניות סיוע והלוואות כמו 'ספיתי מו' שצפויות להתרחב לקראת סוף דצמבר עם קריטריונים מורחבים."
+          "means": "אם אתם מטיילים או שוהים באזור קורינתוס, קסילוקסטרו או לוטראקי, עקבו אחר עדכוני הרשויות המקומיות והתקשורת היוונית. במקרה של רעידת אדמה, הקפידו על הנחיות פיקוד העורף המקומי (התרחקו ממבנים, עמודי חשמל ועצמים שעלולים ליפול).",
+          "body": "## מה קרה באזור קורינתוס?\nהסיסמולוג היווני המוכר אפת'ימיוס לקאס פרסם אזהרה רשמית בנוגע לפעילות סיסמית באזורי קסילוקסטרו (Xylokastro) ולוטראקי (Loutraki). על פי הדיווחים, נמדדו תאוצות סיסמיות גבוהות במיוחד באזורים אלו, דבר המעורר דריכות בקרב גורמי המקצוע.\n\n## מי מושפע מהאזהרה?\nהאזהרה נוגעת בעיקר לתושבים ולמבקרים באזורי קסילוקסטרו ולוטראקי, הנמצאים בקרבת מפרץ קורינתוס. מדובר באזורים פופולריים לטיולים ולנופש, ולכן המידע רלוונטי לכל מי שנמצא כרגע באזור או מתכנן להגיע אליו בימים הקרובים.\n\n## מה עליכם לעשות?\nחשוב לשמור על קור רוח ולהתעדכן בערוצי החדשות המקומיים ביוון. מומלץ להימנע משהייה במבנים ישנים או באזורים שעלולים להיות מסוכנים במקרה של רעידה. אם אתם שוהים בבתי מלון או בדירות נופש, ודאו שאתם מכירים את נתיבי המילוט ואת נקודות הכינוס המוגדרות על ידי המקום.\n\n## שאלות נפוצות\n**האם יש סכנה מיידית לטיולים באזור?**\nהמומחים מצביעים על תאוצות סיסמיות גבוהות, אך אין הוראה רשמית על פינוי או ביטול טיולים. יש לעקוב אחר הנחיות הרשויות המקומיות.\n\n**איפה ניתן לקבל עדכונים בזמן אמת?**\nמומלץ לעקוב אחר אתרי החדשות היווניים הרשמיים ואחר הודעות של המכון הגיאודנמי של אתונה."
         },
         "en": {
-          "title": "Decline in Homeownership and Rising Housing Costs in Greece",
-          "seoTitle": "Greece Housing: Homeownership Decline and Rising Prices",
-          "seoDesc": "Eurostat data shows a decline in homeownership rates in Greece alongside a sharp increase in housing and rental costs across the country.",
+          "title": "Expert warning: High seismic activity in Corinth area",
+          "seoTitle": "Earthquake warning: Xylokastro and Loutraki, Greece",
+          "seoDesc": "Seismologist Efthimios Lekkas warns of high seismic accelerations in Xylokastro and Loutraki. Stay informed.",
           "keywords": [
-            "Greece real estate",
-            "Athens apartments",
-            "property prices Greece",
-            "housing market Greece"
+            "earthquake Greece",
+            "Xylokastro",
+            "Loutraki",
+            "seismic warning"
           ],
-          "dek": "New data highlights shifts in the Greek housing market, showing a decrease in property ownership alongside rising real estate and rental expenses.",
+          "dek": "Seismologist Efthimios Lekkas has issued a warning regarding significant seismic accelerations in the Xylokastro and Loutraki regions.",
           "tldr": [
-            "The homeownership rate in Greece dropped to 69.4% in 2025.",
-            "Property prices in Athens and across the country continued to rise.",
-            "Housing costs place a heavy burden on households compared to the EU average."
+            "Expert Efthimios Lekkas warns of seismic activity in the area.",
+            "High seismic accelerations reported in Xylokastro and Loutraki.",
+            "Authorities are monitoring the situation closely."
           ],
-          "means": "For international investors looking at the local housing market, understanding these trends is essential. Review official bank data and evaluate potential rental demand and additional purchase costs carefully before proceeding.",
-          "body": "## Shifts in the Housing Market and Ownership Trends\n\nThe Greek housing market is undergoing significant transformations, making homeownership increasingly challenging for thousands of households. While owning property has traditionally been a cornerstone of Greek society, recent figures point in a different direction. Property prices have risen sharply, and obtaining a mortgage remains difficult due to high equity requirements demanded by banks without family support or prior savings.\n\nAccording to Eurostat, 69.4% of the population in Greece lived in owner-occupied housing in 2025, down from 75.4% in 2019. This decline of six percentage points over six years coincides with an increase in non-owner-occupied residences. These statistics indicate that the contraction of homeownership continued well past the economic crisis despite subsequent economic recovery.\n\n## Price Rallies and High Rental Burdens\n\nThe continuous rally in property prices complicates acquisition for first-time buyers. According to the Bank of Greece, apartment prices increased by 8.3% in 2025, followed by further annual growth in 2026. Meanwhile, incomes have not kept pace, and the supply of affordable housing remains limited, particularly in Athens and Thessaloniki.\n\nThis reality creates severe financial pressure on tenants. ELSTAT data reveals that households living in rented properties allocate a substantial share of their monthly budget to housing expenses. European comparisons show that while Greece has neared the EU average in homeownership rates, it faces exceptionally high housing cost burdens relative to disposable incomes.\n\n## Government Initiatives and Future Support\n\nTo address housing pressures, state-backed loan programs have provided avenues for first-time buyers. Thousands of loan applications have been approved under previous phases, and a new cycle with expanded age and income criteria is scheduled to launch by the end of December.\n\nThe upcoming phase raises age limits and property value ceilings to give more households access to affordable financing. Nevertheless, funding hurdles and elevated living costs remain central topics within the domestic real estate sector.\n\n## FAQ\n\n**What was the homeownership rate in Greece in 2025?**\nAccording to Eurostat, 69.4% of the population lived in owner-occupied housing.\n\n**Are property prices in Greece still rising?**\nYes, Bank of Greece figures indicate continued upward trends in apartment prices.\n\n**What programs are available for first-time home buyers?**\nThe state operates mortgage support programs like 'Spiti Mou', with an expanded cycle launching by late December."
+          "means": "If you are traveling or staying in the Corinth, Xylokastro, or Loutraki areas, stay updated via local media and official Greek authorities. In the event of an earthquake, follow standard safety protocols: move away from buildings, power lines, and objects that could fall.",
+          "body": "## What happened in the Corinth area?\nRenowned Greek seismologist Efthimios Lekkas has issued an official warning regarding seismic activity in the regions of Xylokastro and Loutraki. According to reports, particularly high seismic accelerations have been measured in these areas, prompting heightened vigilance among experts.\n\n## Who is affected?\nThe warning primarily concerns residents and visitors in the Xylokastro and Loutraki areas, located near the Gulf of Corinth. These are popular destinations for tourism and leisure, making this information relevant to anyone currently in the area or planning to visit in the coming days.\n\n## What should you do?\nIt is important to remain calm and stay updated through local Greek news channels. It is recommended to avoid staying in old buildings or areas that could be hazardous in the event of a tremor. If you are staying in hotels or vacation rentals, ensure you are familiar with the designated evacuation routes and assembly points.\n\n## FAQ\n**Is there an immediate danger to travel in the area?**\nExperts have noted high seismic accelerations, but there is no official order for evacuation or travel cancellation. Follow the instructions of local authorities.\n\n**Where can I get real-time updates?**\nIt is recommended to follow official Greek news websites and announcements from the Geodynamic Institute of Athens."
         }
       },
-      "text": "Vita.gr \n Μακροζωία: Το μυστικό κρύβεται σε ένα μικρό χωριό στη Σαρδηνία\n Spotlight Ζαΐρ Μπολσονάρο: Στην Ενταντική ο πρώην πρόεδρος της Βραζιλίας – Η ανακοίνωση του νοσοκομείου \n Μαργαρίτης για τη σημαία του Πολυτεχνείου: Πρέπει να δοθεί στον ΣΦΕΑ – Κακώς το ΠΑΣΟΚ οχυρώνεται πίσω από την ΠΑΣΠ ΑΣΟΕΕ \n H Gen Z μεγάλωσε και ίσως σύντομα γίνει το αφεντικό σου \n Γιορτή σήμερα 22 Νοεμβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Ολοένα και πιο μακρινό γίνεται για χιλιάδες νοικοκυριά το όνειρο να αποκτήσουν το δικό τους σπίτι. Η ιδιοκατοίκηση, που για δεκαετίες αποτελούσε βασικό χαρακτηριστικό της ελληνικής κοινωνίας, χάνει συνεχώς έδαφος. Οι τιμές των ακινήτων έχουν κάνει άλμα, η αγορά σπιτιού με στεγαστικό δάνειο παραμένει δύσκολη, ενώ τα υψηλά ενοίκια απορροφούν σημαντικό μέρος του εισοδήματος, αφήνοντας ελάχιστα περιθώρια για αποταμίευση. Το πρόβλημα αγγίζει κυρίως τους νέους και τα ζευγάρια που δυσκολεύονται να αποκτήσουν την πρώτη τους κατοικία.\n Διέξοδο στην προσπάθεια απόκτησης πρώτης κατοικίας έχουν προσφέρει προγράμματα «Σπίτι μου»\n Τα στοιχεία της Eurostat δείχνουν πόσο έχει αλλάξει ο στεγαστικός χάρτης της χώρας. Το 2025, το 69,4% του πληθυσμού στην Ελλάδα ζούσε σε ιδιόκτητη κατοικία όταν το 2019 το ποσοστό έφθανε στο 75,4%. Μέσα σε έξι χρόνια η ιδιοκατοίκηση έχασε έξι ποσοστιαίες μονάδες, ενώ το ποσοστό όσων διαμένουν σε μη ιδιόκτητο σπίτι αυξήθηκε από το 24,6% στο 30,6%.\n Στη συγκεκριμένη κατηγορία περιλαμβάνονται τόσο όσοι πληρώνουν ενοίκιο όσο και εκείνοι που μένουν σε κατοικίες με μειωμένο μίσθωμα ή δωρεάν παραχώρηση. Τα στοιχεία δείχνουν ότι η υποχώρηση της ιδιοκατοίκησης δεν σταμάτησε με το τέλος της οικονομικής κρίσης αλλά συνεχίστηκε και τα επόμενα χρόνια, παρά την ανάκαμψη της οικονομίας και την έντονη κινητικότητα που καταγράφεται στην κτηματαγορά.\n Το ράλι στις τιμές των ακινήτων δυσκολεύει την απόκτηση κατοικίας. Σύμφωνα με την Τράπεζα της Ελλάδος, οι τιμές των διαμερισμάτων αυξήθηκαν κατά 8,3% το 2025, ενώ το δεύτερο τρίμηνο του 2026 σημείωσαν νέα ετήσια άνοδο 5,5%. Οι συνεχείς ανατιμήσεις ανεβάζουν τον πήχη για την αγορά κατοικίας, την ώρα που τα εισοδήματα δεν ακολουθούν με την ίδια ταχύτητα.\n Για πολλά νοικοκυριά η λύση του στεγαστικού δανείου δεν είναι εύκολη υπόθεση, ειδικά όταν δεν υπάρχουν αποταμιεύσεις ή οικονομική βοήθεια από την οικογένεια για να καλυφθεί η ίδια συμμετοχή που ζητούν οι τράπεζες. Στο πρόβλημα έρχεται να προστεθεί η περιορισμένη προσφορά διαθέσιμων κατοικιών σε προσιτές τιμές, ιδιαίτερα σε Αθήνα και Θεσσαλονίκη.\n Τα προγράμματα «Σπίτι μου»\n Διέξοδο στην προσπάθεια απόκτησης πρώτης κατοικίας έχουν προσφέρει τα προγράμματα «Σπίτι μου Ι» και «Σπίτι μου ΙΙ». Στα δύο προγράμματα έχουν καταγραφεί συνολικά περισσότερες από 24.000 εγκρίσεις αιτήσεων και δανείων.\n Τη σκυτάλη αναμένεται να πάρει μέχρι το τέλος Δεκεμβρίου το «Σπίτι μου 3», με διευρυμένα ηλικιακά και εισοδηματικά κριτήρια, ώστε να αποκτήσουν πρόσβαση περισσότερα νοικοκυριά. Στον νέο κύκλο το ηλικιακό όριο των δικαιούχων αυξάνεται στα 55 έτη, η μέγιστη αξία της κατοικίας ανεβαίνει στα 300.000 ευρώ και το ύψος του στεγαστικού δανείου μπορεί να φθάσει τα 230.000 ευρώ.\n Η εικόνα στην Ευρώπη\n Σε κάθε περίπτωση το στεγαστικό πρόβλημα παραμένει οξύ και πιέζει τα νοικοκυριά. Η Ελλάδα, που παραδοσιακά συγκαταλεγόταν στις χώρες με τα υψηλότερα ποσοστά ιδιοκατοίκησης έχει πλέον πλησιάσει τον ευρωπαϊκό μέσο όρο. Το 2025 το 68,5% του πληθυσμού στην Ευρωπαϊκή Ενωση ζούσε σε ιδιόκτητη κατοικία έναντι 69,4% στην Ελλάδα.\n Οι διαφορές μεταξύ των ευρωπαϊκών χωρών παραμένουν μεγάλες. Στη Σλοβακία η ιδιοκατοίκηση φθάνει το 93,8%, στη Ρουμανία το 93,2% και στην Κροατία το 91,4%. Στον αντίποδα βρίσκεται η Γερμανία, όπου μόλις το 47,2% του πληθυσμού ζει σε ιδιόκτητη κατοικία και οι ενοικιαστές αποτελούν την πλειονότητα.\n Στην Αυστρία το ποσοστό ιδιοκατοίκησης περιορίζεται στο 54,2%, στη Δανία στο 58,4% και στη Γαλλία στο 61,4%. Σημειώνεται ότι σε αρκετά ευρωπαϊκά κράτη η ενοικίαση αποτελεί μια καθιερωμένη επιλογή κατοικίας, ενώ στην Ελλάδα για πολλά νοικοκυριά είναι λύση ανάγκης, καθώς η αγορά σπιτιού βρίσκεται εκτός των οικονομικών τους δυνατοτήτων.\n Πρωταθλήτρια στο κόστος στέγασης\n Μπορεί η Ελλάδα να έχει πλησιάσει τον ευρωπαϊκό μέσο όρο στην ιδιοκατοίκηση, ωστόσο στο κόστος στέγασης η απόσταση από την υπόλοιπη Ευρώπη παραμένει τεράστια. Σύμφωνα με τη Eurostat, το 2025, το 26,4% του πληθυσμού ζούσε σε νοικοκυριά που διέθεταν τουλάχιστον το 40% του διαθέσιμου εισοδήματός τους για στεγαστικές δαπάνες, όταν ο αντίστοιχος μέσος όρος στην Ευρωπαϊκή Ενωση ήταν μόλις 7,7%. Πρόκειται για το υψηλότερο ποσοστό μεταξύ των 27 κρατών – μελών και δείχνει το βάρος που σηκώνουν τα ελληνικά νοικοκυριά για να καλύψουν τις στεγαστικές τους ανάγκες.\n Το στεγαστικό κόστος ιδιαίτερα για όσους ζουν στο ενοίκιο αποκαλύπτουν και τα στοιχεία της ΕΛΣΤΑΤ.\n Σύμφωνα με την Ερευνα Οικογενειακών Προϋπολογισμών για το 2025, τα νοικοκυριά που διαμένουν σε ενοικιαζόμενη κατοικία διαθέτουν κατά μέσο όρο το 23,4% του συνολικού μηνιαίου προϋπολογισμού τους για τη στέγαση, με το 17,3% να αφορά αποκλειστικά την καταβολή του ενοικίου, ενώ ακόμη μεγαλύτερη είναι η πίεση στα οικονομικά ασθενέστερα νοικοκυριά.\n Premium έκδοση «Τα ΝΕΑ» \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: Ελ Νίνιο: Καταρρακτώδεις βροχές έπληξαν τα νησιά Γκαλαπάγκος – Με βάρκες απομακρύνονται οι κάτοικοι \n Ποια επώνυμα προϊόντα είναι φθηνότερα στην Ελλάδα και ποια ακριβότερα από τον ευρωπαϊκό μέσο όρο \n Σοκ: Ο Παρέδες κατέρρευσε στο flash interview μετά την κατάκτηση του Copa Sudamericana (vid) \n Super League: Δύσκολη δοκιμασία για τον Παναθηναϊκό με τον ΟΦΗ, με την Κηφισιά κοντράρεται ο ΠΑΟΚ \n Meredith Whittaker: «Τα λογισμικά υποκλοπών αποτελούν τεράστιο κίνδυνο» \n Τι είναι το «Gladiator deadlift» και τι πρέπει να προσέχουμε \n Με απουσίες και μοναδικό στόχο τη νίκη ο Ολυμπιακός κόντρα στον Ηρακλή \n Αρκάς: Η καλημέρα της Κυριακής \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
+      "text": "Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι - iefimerida.gr\nΠροειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκαστρο και Λουτράκι &nbsp;&nbsp; iefimerida.gr",
       "issues": [],
       "el": {
-        "title": "Μείωση της ιδιοκατοίκησης και αυξανόμενο κόστος στέγασης στην Ελλάδα",
-        "dek": "Νέα δεδομένα αναδεικνύουν τις αλλαγές στην ελληνική αγορά κατοικίας, δείχνοντας μείωση στην ιδιοκτησία ακινήτων παράλληλα με την άνοδο των τιμών και των ενοικίων.",
+        "title": "Προειδοποίηση ειδικού: Έντονη σεισμική δραστηριότητα στην περιοχή της Κορινθίας",
+        "dek": "Ο σεισμολόγος Ευθύμιος Λέκκας εξέδωσε προειδοποίηση σχετικά με σημαντικές σεισμικές επιταχύνσεις στις περιοχές του Ξυλοκάστρου και του Λουτρακίου.",
         "tldr": [
-          "Το ποσοστό ιδιοκατοίκησης στην Ελλάδα μειώθηκε στο 69,4% το 2025.",
-          "Οι τιμές των ακινήτων στην Αθήνα και σε ολόκληρη τη χώρα συνέχισαν να αυξάνονται.",
-          "Το κόστος στέγασης αποτελεί βαριά επιβάρυνση για τα νοικοκυριά σε σύγκριση με τον μέσο όρο της ΕΕ."
+          "Ο ειδικός Ευθύμιος Λέκκας προειδοποιεί για σεισμική δραστηριότητα στην περιοχή.",
+          "Καταγράφηκαν υψηλές σεισμικές επιταχύνσεις στο Ξυλόκαστρο και το Λουτράκι.",
+          "Οι αρχές παρακολουθούν στενά την κατάσταση."
         ]
       },
       "notified": true
@@ -1880,12 +2015,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-22T07:33:32.562Z",
-      "items": 10
+      "at": "2026-11-22T11:09:52.847Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-22T07:33:33.307Z",
+      "at": "2026-11-22T11:09:53.384Z",
       "items": 4
     },
     "civilprotection": {
@@ -1896,27 +2031,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-22T07:33:34.443Z",
+      "at": "2026-11-22T11:09:54.616Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-22T07:33:34.842Z",
+      "at": "2026-11-22T11:09:54.919Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-22T07:33:37.056Z",
-      "items": 0
+      "at": "2026-11-22T11:09:56.621Z",
+      "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-22T07:33:37.856Z",
-      "items": 6
+      "at": "2026-11-22T11:09:57.259Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-22T07:33:38.716Z",
+      "at": "2026-11-22T11:09:57.959Z",
       "items": 10
     },
     "toi-greece": {
@@ -1927,23 +2062,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-22T07:33:39.206Z",
+      "at": "2026-11-22T11:09:58.356Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-22T07:33:39.553Z",
+      "at": "2026-11-22T11:09:58.400Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-22T07:33:40.299Z",
-      "items": 7
+      "at": "2026-11-22T11:09:58.437Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T07:33:40.458Z",
-      "items": 5
+      "at": "2026-11-22T11:09:58.576Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1952,12 +2087,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T07:33:33.644Z",
+      "at": "2026-11-22T11:09:53.922Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-22T07:33:41.095Z",
+      "at": "2026-11-22T11:09:59.153Z",
       "items": 0
     },
     "hcg": {
@@ -1968,39 +2103,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-22T07:33:42.451Z",
+      "at": "2026-11-22T11:10:00.285Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-22T07:33:42.671Z",
-      "items": 2
+      "at": "2026-11-22T11:10:00.452Z",
+      "items": 1
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-22T07:33:42.816Z",
+      "at": "2026-11-22T11:10:00.641Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-22T07:33:43.008Z",
+      "at": "2026-11-22T11:10:00.912Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-22T07:33:43.267Z",
+      "at": "2026-11-22T11:10:01.185Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-22T07:33:43.595Z",
-      "items": 10
+      "at": "2026-11-22T11:10:01.489Z",
+      "items": 12
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-22",
-    "count": 3,
+    "count": 5,
     "published": [
       {
         "slug": "athens-heating-rent-prices-november-2026",
@@ -2019,6 +2154,18 @@
         "title": "Earthquake of 3.4 magnitude recorded in Patras",
         "at": "2026-11-22T09:35:55+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "greece-product-prices-comparison-posokanei",
+        "title": "Greece: Price Comparison of Everyday Products in Europe",
+        "at": "2026-11-22T13:09:43+02:00",
+        "section": "living"
+      },
+      {
+        "slug": "greece-housing-costs-2025-2026",
+        "title": "Greek Housing Market: Homeownership Rate Declines Amid Rising Costs",
+        "at": "2026-11-22T13:09:51+02:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [
@@ -2043,6 +2190,10 @@
       {
         "slug": "patras-earthquake-3-4-richter",
         "at": "2026-11-22T07:35:55.794Z"
+      },
+      {
+        "slug": "greece-product-prices-comparison-posokanei",
+        "at": "2026-11-22T11:09:44.000Z"
       }
     ],
     "ig": []
@@ -2336,33 +2487,28 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-22T07:33:48.402Z",
-    "considered": 23,
-    "picked": 5,
+    "at": "2026-11-22T11:10:02.973Z",
+    "considered": 18,
+    "picked": 4,
     "items": [
-      "✓ naftemporiki | Οδικές Μεταφορές: Σε διαβούλευση το νομοσχέδιο – Οι βασικές αλλαγές σε ΚΟΚ & εξετάσεις υπο",
-      "· gct | Greek Gas Reserves Could Deliver Greater Prosperity for Citizens",
-      "· gct | Reversing The Brain Drain: 500 Job Offers to Greek Abroad",
-      "· gct | Historians Study Sexual Violence During the Greek War of Independence",
-      "· gn-iefimerida | Ισραήλ: Ο Αϊζενκότ ανοίγει δίαυλο με τον Νετανιάχου -Στο τραπέζι η συμμετοχή του Λικούντ σ",
-      "· gn-iefimerida | Τραγωδία στην Ινδονήσια - Τουλάχιστον 3 νεκροί και 36 αγνοούμενοι σε μεγάλη πυρκαγιά σε ερ",
-      "· ingr | Θεσσαλονίκη: Φωτιά σε εγκαταλελειμμένο κτήριο στο πρώην στρατόπεδο Κόδρα στην Καλαμαριά",
-      "· gct | Greece Showcases Record Space Industry Presence at Expo",
-      "· gct | Strategic Cruise Tourism Plan to Unlock Greece’s Hidden Destinations",
-      "✓ gct | Many Branded Products Cost Less in Greece Than Europe",
-      "✓ ingr | Κατοικία: Από την ιδιοκατοίκηση στο ενοίκιο",
-      "· gn-kathimerini | Ινδονησία: Τουλάχιστον 3 νεκροί, 36 αγνοούμενοι από πυρκαγιά σε εργοστάσιο - Kathimerini",
-      "· gct | Istanbul Pesticide Deaths: Canadian Investigation Links Tourist Fatalities to Illegal Bedb",
-      "✓ gn-kathimerini | Πάτρα: Σεισμική δόνηση μεγέθους 3,4 βαθμών της κλίμακας Ρίχτερ - Kathimerini",
-      "· ert | Γιώργος Νιέρρης: Οι αναμνήσεις μου από την μεγάλη απεργία στα ορυχεία Μαντουδίου το 1976",
-      "✓ ert | Θεσσαλονίκη: Φωτιά σε εγκαταλελειμμένο κτήριο στο πρώην στρατόπεδο Κόδρα στην Καλαμαριά",
-      "· ingr | Πλούσιες επιχειρήσεις, άδεια κρατικά ταμεία – Η αθέατη απειλή της τεχνητής νοημοσύνης",
-      "· ingr | Φονική έκρηξη φυσικού αερίου στη Νιγηρία – Τουλάχιστον ένας νεκρός και άγνωστος αριθμός τρ",
-      "· gct | Greek 6G Proposal Could Generate €15 Billion for Europe",
-      "· ert | Ινδονησία: Τουλάχιστον τρεις νεκροί και 36 αγνοούμενοι μετά από πυρκαγιά σε εργοστάσιο",
-      "· gct | EU Praises Greece Over €35.95 Billion Recovery Fund Plan",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
-      "· gn-iefimerida | Μητσοτάκης: Ο ελληνικός τουρισμός πηγαίνει από ρεκόρ σε ρεκόρ -Έχει κερδίσει το στοίχημα τ"
+      "· ert | Φιντάν: Ελληνικό και ισραηλινό λόμπι στις ΗΠΑ μπλοκάρουν την άρση των κυρώσεων",
+      "✓ gct | Fidan Blames Greek and Israeli Lobbies for Stalled US Sanctions Relief on Turkey",
+      "✓ gn-iefimerida | Προειδοποιήσεις από τον Ευθύμιο Λέκκα: «Ιδιαίτερα υψηλές σεισμικές επιταχύνσεις σε Ξυλόκασ",
+      "· gct | Ange Postecoglou Defends Sadio Mane for Missing Al-Nassr Match to Attend Birth of His Chil",
+      "· ert | Ουκρανία: 14 αγνοούμενοι μετά από ρωσικό πλήγμα με drone σε πολυκατοικία στην περιφέρεια τ",
+      "· ert | Θεσσαλονίκη-Δήμος Καλαμαριάς: «Το Κόδρα εκπέμπει SOS»",
+      "· gct | Greek Police Foil 14-Year-Old’s Alleged School Shooting Plan",
+      "· ert | Μπαχρέιν: Πυρκαγιά σε βιομηχανική εγκατάσταση μετά από ιρανικό πλήγμα – Αναφορές για επιθέ",
+      "· ert | «Ο πόλεμος στην Ουκρανία επεκτείνεται»: Προειδοποιήσεις της Φινλανδίας μετά την επίθεση με",
+      "· naftemporiki | Θεσσαλονίκη: Απόπειρα εξαπάτησης ανήλικης με πρόσχημα ηλεκτρολογική βλάβη – Σύλληψη 16χρον",
+      "✓ gct | 3.4-Magnitude Earthquake Felt in Patras and Surrounding Areas Before Dawn",
+      "· gct | Mitsotakis GTA VI Video Goes International as Efsyn and Dimokratia Pile On",
+      "· gct | Mitsotakis Weekly Review: “We Collect More Without Raising Taxes” as 2027 Election Frame S",
+      "· ingr | Ινδονησία: Τουλάχιστον τρεις νεκροί και 36 αγνοούμενοι έπειτα από φωτιά σε εργοστάσιο",
+      "· gn-kathimerini | Τι αλλάζει με το νέο νομοσχέδιο του Υπουργείου Μεταφορών - Kathimerini",
+      "· naftemporiki | Πώς η έκρηξη της φούσκας της ΑΙ εκτροχιάζει την παγκόσμια οικονομία",
+      "· naftemporiki | Ξεκινούν οι συνομιλίες των κομμάτων Νετανιάχου και Άιζενκοτ: Οι όροι, τα αγκάθια και τα πε",
+      "✓ gn-iefimerida | Απεργία 25 Νοεμβρίου: Ποιοι συμμετέχουν, τι θα γίνει με τα μέσα μεταφοράς - iefimerida.gr"
     ]
   },
   "evergreenDone": [
@@ -2422,6 +2568,24 @@
         "image": "https://yavanet.gr/og.png",
         "post_he": "רעידת אדמה בעוצמה של 3.4 ריכטר הורגשה בפטרא\n\nרעידת אדמה קלה בעוצמה של 3.4 בסולם ריכטר נרשמה באזור פטרא שביוון. אין דיווחים על נזק או נפגעים.\n\nhttps://yavanet.gr/a/patras-earthquake-3-4-richter/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
         "post_en": "Earthquake of 3.4 magnitude recorded in Patras\n\nA mild earthquake measuring 3.4 on the Richter scale was recorded in the Patras region of Greece. No damages or injuries were reported.\n\nhttps://yavanet.gr/en/a/patras-earthquake-3-4-richter/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    },
+    {
+      "slug": "greece-product-prices-comparison-posokanei",
+      "url": "https://yavanet.gr/a/greece-product-prices-comparison-posokanei/",
+      "at": "2026-11-22T11:09:44.000Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/greece-product-prices-comparison-posokanei/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/greece-product-prices-comparison-posokanei/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "יוון: השוואת מחירי מוצרים מול שאר אירופה",
+        "title_en": "Greece: Price Comparison of Everyday Products in Europe",
+        "dek_he": "פלטפורמת PosoKanei פרסמה השוואת מחירים של 20 מוצרים נפוצים ביוון לעומת שווקים אירופיים, המציגה פערים לכאן ולכאן.",
+        "dek_en": "The PosoKanei monitoring platform published a price comparison of 20 everyday products in Greece versus European markets.",
+        "section": "living",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/36600220/pexels-photo-36600220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "יוון: השוואת מחירי מוצרים מול שאר אירופה\n\nפלטפורמת PosoKanei פרסמה השוואת מחירים של 20 מוצרים נפוצים ביוון לעומת שווקים אירופיים, המציגה פערים לכאן ולכאן.\n\nhttps://yavanet.gr/a/greece-product-prices-comparison-posokanei/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Greece: Price Comparison of Everyday Products in Europe\n\nThe PosoKanei monitoring platform published a price comparison of 20 everyday products in Greece versus European markets.\n\nhttps://yavanet.gr/en/a/greece-product-prices-comparison-posokanei/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
       }
     }
   ]
