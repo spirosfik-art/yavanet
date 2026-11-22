@@ -1666,7 +1666,15 @@
     "f2e88a13be2b": 1795375731774,
     "dff7f91505ed": 1795375731774,
     "76e50881b6b3": 1795375731774,
-    "7f78ef2b4b33": 1795375731774
+    "7f78ef2b4b33": 1795375731774,
+    "955023899dec": 1795382069484,
+    "38e3dc045179": 1795382069484,
+    "8d6a0f2da5a2": 1795382069484,
+    "ec3698c4115e": 1795382069484,
+    "7ea62cc71c92": 1795382069484,
+    "971baa268d26": 1795382069484,
+    "05e24d06ac49": 1795382069484,
+    "6159eedfef14": 1795382069484
   },
   "pending": {},
   "sourceStatus": {
@@ -1678,12 +1686,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-22T19:28:39.212Z",
+      "at": "2026-11-22T21:14:18.693Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-22T19:28:40.170Z",
+      "at": "2026-11-22T21:14:19.373Z",
       "items": 4
     },
     "civilprotection": {
@@ -1694,27 +1702,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-22T19:28:42.782Z",
+      "at": "2026-11-22T21:14:20.780Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-22T19:28:42.883Z",
+      "at": "2026-11-22T21:14:21.280Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-22T19:28:43.808Z",
+      "at": "2026-11-22T21:14:22.224Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-22T19:28:44.784Z",
-      "items": 3
+      "at": "2026-11-22T21:14:23.076Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-22T19:28:45.519Z",
+      "at": "2026-11-22T21:14:23.671Z",
       "items": 10
     },
     "toi-greece": {
@@ -1725,23 +1733,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-22T19:28:46.151Z",
+      "at": "2026-11-22T21:14:24.206Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-22T19:28:46.229Z",
+      "at": "2026-11-22T21:14:24.363Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-22T19:28:47.142Z",
-      "items": 3
+      "at": "2026-11-22T21:14:24.512Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T19:28:47.646Z",
-      "items": 3
+      "at": "2026-11-22T21:14:24.972Z",
+      "items": 4
     },
     "ynet-greece": {
       "ok": true,
@@ -1750,12 +1758,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T19:28:41.844Z",
+      "at": "2026-11-22T21:14:19.889Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-22T19:28:48.499Z",
+      "at": "2026-11-22T21:14:25.573Z",
       "items": 0
     },
     "hcg": {
@@ -1766,39 +1774,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-22T19:28:49.874Z",
+      "at": "2026-11-22T21:14:26.947Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-22T19:28:50.013Z",
+      "at": "2026-11-22T21:14:27.162Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-22T19:28:50.166Z",
+      "at": "2026-11-22T21:14:27.322Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-22T19:28:50.373Z",
+      "at": "2026-11-22T21:14:27.562Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-22T19:28:50.677Z",
-      "items": 6
+      "at": "2026-11-22T21:14:27.919Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-22T19:28:50.979Z",
+      "at": "2026-11-22T21:14:28.282Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-22",
-    "count": 8,
+    "count": 9,
     "published": [
       {
         "slug": "athens-heating-rent-prices-november-2026",
@@ -1847,6 +1855,12 @@
         "title": "Greece earthquake: high seismic accelerations reported",
         "at": "2026-11-22T17:39:58+02:00",
         "section": "israelis"
+      },
+      {
+        "slug": "kefalonia-cultural-heritage-investment-greece",
+        "title": "Greece Invests €20 Million to Restore Cultural Heritage in Kefalonia",
+        "at": "2026-11-22T23:14:49+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
@@ -2172,22 +2186,18 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-22T19:28:51.774Z",
-    "considered": 12,
-    "picked": 0,
+    "at": "2026-11-22T21:14:29.484Z",
+    "considered": 8,
+    "picked": 1,
     "items": [
-      "· ingr | Πυρά Κουφονικολάκου σε Μητσοτάκη: «Διαφημιστής τραπεζών και ιδιωτικών συμφερόντων»",
-      "· ingr | Αποφυλακίζεται ο καπετάνιος του Costa Concordia – Υπό επιτήρηση για 7 χρόνια",
-      "· gct | Sarah Michelle Gellar and Daughter Have Greece in Sight for Mother-Daughter Dream Getaway",
-      "· gct | Russian Corvette Merkury Reportedly Destroyed in Explosion at Libya’s Benghazi Port",
-      "· gn-iefimerida | Σουηδικό Gripen πήρε «πράσινο φως» από το ΝΑΤΟ να καταρρίψει ρωσικό πύραυλο -Ο πιλότος δεν",
-      "· gct | MGallery Signs New 65-Room Seaside Resort in Porto Heli for 2027 Opening",
-      "· gct | Greece U17s Beat Panama 2-1 to Reach World Cup Round of 32",
-      "· ert | Λιβύη: Drones χτύπησαν ρωσικό πολεμικό πλοίο στη ναυτική βάση της Βεγγάζης – H Ουκρανία φέ",
-      "· naftemporiki | Ανάφλεξη της ρωσουκρανικής σύρραξης με περιφερειακά πλήγματα: Drones χτύπησαν πλοία στη Λι",
-      "· gn-iefimerida | Παναθηναϊκός - ΟΦΗ 2-0: «Απογειώθηκαν» Πένια, Λιβάι, συνέχισε τις υψηλές πτήσεις το «τριφύ",
-      "· ingr | Λιβύη: Ρωσικό πολεμικό πλοίο καταστράφηκε από έκρηξη σε ναυτική βάση στη Βεγγάζη – Πιθανότ",
-      "· gn-iefimerida | Ρόμπερτ Πάτινσον: Η άγνωστη σχέση του νέου Τζέιμς Μποντ με την Ελλάδα – Ο Έλληνας που υποδ"
+      "· ingr | Χριστούγεννα με περσινά στολίδια – Πόσο κοστίζουν φέτος και ποια μέρα θα πρέπει να στολίσε",
+      "✓ gct | Greece Invests €20 Million in Kefalonia’s Cultural Heritage",
+      "· gct | Anzac Trails Through Macedonia Honours Service at Sydney Memorial",
+      "· naftemporiki | Συρία: Νάρκη από την εποχή Άσαντ σκότωσε πέντε παιδιά",
+      "· ingr | Φωτιά σε σπίτι στο Λιτόχωρο που κάηκε ολοσχερώς – Ζημιές και σε διπλανή οικία",
+      "· gct | OzHarvest CEO Visits Saint Sophia’s Feed the People Food Pantry in Sydney, Australia",
+      "· ingr | Η Ισπανία παρατείνει τον έκτακτο φόρο στις τράπεζες – Τα έσοδα στη στήριξη της στέγασης",
+      "· ingr | Ισραήλ: Συνάντηση των κομμάτων Άιζενκοτ-Νετανιάχου για σχηματισμό κυβέρνησης εθνικής ενότη"
     ]
   },
   "evergreenDone": [
