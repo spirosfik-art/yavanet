@@ -19,28 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "08c4c5ad0ea5": 1794178201905,
-    "d600532ea9ad": 1794178201905,
-    "9c8720d5a21b": 1794178201905,
-    "996f573cd719": 1794178201905,
-    "03fff63c8e7f": 1794178201905,
-    "11736f860152": 1794178201905,
-    "347602d57781": 1794178201905,
-    "e8de0db9c45b": 1794178201905,
-    "423edc42dc62": 1794178201905,
-    "10941ef9b505": 1794178201905,
-    "d6784d5fe1da": 1794178201905,
-    "b3777c2dcefc": 1794178201905,
-    "dd117e7484d6": 1794178201905,
-    "46a566d32050": 1794178201905,
-    "0a1652eb9962": 1794178201905,
-    "1a151896b9ca": 1794178201905,
-    "3d69f2292f3b": 1794178201905,
-    "6bc49e4d2230": 1794178201905,
-    "87329a374cb5": 1794178201905,
-    "ae2ce7ab87ca": 1794178201905,
-    "e044b7863417": 1794178201905,
-    "143dd3733599": 1794178201905,
     "209b9de9a089": 1794190077912,
     "8f4c24f57710": 1794190077912,
     "229592051639": 1794190077912,
@@ -1674,7 +1652,12 @@
     "7ea62cc71c92": 1795382069484,
     "971baa268d26": 1795382069484,
     "05e24d06ac49": 1795382069484,
-    "6159eedfef14": 1795382069484
+    "6159eedfef14": 1795382069484,
+    "8ffff86da295": 1795394795949,
+    "ac529d97c527": 1795394795949,
+    "d4ac27b81d6f": 1795394795949,
+    "e52f33781876": 1795394795949,
+    "9813daf536bd": 1795394795949
   },
   "pending": {},
   "sourceStatus": {
@@ -1686,12 +1669,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-22T21:14:18.693Z",
+      "at": "2026-11-23T00:46:25.170Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-22T21:14:19.373Z",
+      "at": "2026-11-23T00:46:26.259Z",
       "items": 4
     },
     "civilprotection": {
@@ -1702,27 +1685,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-22T21:14:20.780Z",
+      "at": "2026-11-23T00:46:27.601Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-22T21:14:21.280Z",
+      "at": "2026-11-23T00:46:27.978Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-22T21:14:22.224Z",
+      "at": "2026-11-23T00:46:29.065Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-22T21:14:23.076Z",
+      "at": "2026-11-23T00:46:29.964Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-22T21:14:23.671Z",
+      "at": "2026-11-23T00:46:30.937Z",
       "items": 10
     },
     "toi-greece": {
@@ -1733,22 +1716,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-22T21:14:24.206Z",
+      "at": "2026-11-23T00:46:31.511Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-11-22T21:14:24.363Z",
-      "items": 15
+      "ok": false,
+      "at": "2026-11-23T00:46:31.566Z",
+      "error": "HTTP 403",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-22T21:14:24.512Z",
-      "items": 6
+      "at": "2026-11-23T00:46:31.673Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T21:14:24.972Z",
+      "at": "2026-11-23T00:46:31.886Z",
       "items": 4
     },
     "ynet-greece": {
@@ -1758,12 +1742,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-22T21:14:19.889Z",
+      "at": "2026-11-23T00:46:26.799Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-22T21:14:25.573Z",
+      "at": "2026-11-23T00:46:32.734Z",
       "items": 0
     },
     "hcg": {
@@ -1774,130 +1758,49 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-22T21:14:26.947Z",
+      "at": "2026-11-23T00:46:33.877Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-22T21:14:27.162Z",
+      "at": "2026-11-23T00:46:34.019Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-22T21:14:27.322Z",
+      "at": "2026-11-23T00:46:34.204Z",
       "items": 4
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-22T21:14:27.562Z",
+      "at": "2026-11-23T00:46:34.481Z",
       "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-22T21:14:27.919Z",
-      "items": 5
+      "at": "2026-11-23T00:46:34.797Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-22T21:14:28.282Z",
-      "items": 9
+      "at": "2026-11-23T00:46:35.217Z",
+      "items": 8
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-22",
-    "count": 9,
-    "published": [
-      {
-        "slug": "athens-heating-rent-prices-november-2026",
-        "title": "Athens rent: 8.6% increase for apartments with independent heating",
-        "at": "2026-11-22T01:06:01+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "greece-absorbs-full-recovery-fund-resources",
-        "title": "Greece fully utilizes 35.95 billion euros from the European Recovery and Resilience Facility",
-        "at": "2026-11-22T01:06:54+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "patras-earthquake-3-4-richter",
-        "title": "Earthquake of 3.4 magnitude recorded in Patras",
-        "at": "2026-11-22T09:35:55+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "greece-product-prices-comparison-posokanei",
-        "title": "Greece: Price Comparison of Everyday Products in Europe",
-        "at": "2026-11-22T13:09:43+02:00",
-        "section": "living"
-      },
-      {
-        "slug": "greece-housing-costs-2025-2026",
-        "title": "Greek Housing Market: Homeownership Rate Declines Amid Rising Costs",
-        "at": "2026-11-22T13:09:51+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "athens-strike-november-25",
-        "title": "Greece strike November 25: transport updates and details",
-        "at": "2026-11-22T17:39:21+02:00",
-        "section": "travel"
-      },
-      {
-        "slug": "fidan-us-sanctions-turkey-lobbying",
-        "title": "Turkey’s Fidan Claims Greek and Israeli Lobbies Block US Sanctions Relief",
-        "at": "2026-11-22T17:39:36+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "earthquake-accelerations-xylokastro-loutraki",
-        "title": "Greece earthquake: high seismic accelerations reported",
-        "at": "2026-11-22T17:39:58+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "kefalonia-cultural-heritage-investment-greece",
-        "title": "Greece Invests €20 Million to Restore Cultural Heritage in Kefalonia",
-        "at": "2026-11-22T23:14:49+02:00",
-        "section": "travel"
-      }
-    ],
-    "rejected": [
-      {
-        "title": "Greece and Israel Discuss New Defence Deals Worth Up to €1 Billion",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew TLDR contains a typo 'המוחיות' instead of 'השיחות' or 'הנושאים', which is a Hebrew spelling issue.",
-        "at": "2026-11-21T23:05:52.787Z"
-      },
-      {
-        "title": "Turkish Foreign Minister Blames Israeli and Greek Lobbies in U.S. for S-400 Sanctions",
-        "reason": "Ουδέτερη εκδοχή: The Hebrew title contains a misspelled word ('הלומפי' instead of 'הלובי') and a typo in the body ('מעאל' instead of 'על'). Rule 12 is respected since this is regional geopolitics involving Turkey, the US, Israel and Greece, not a local story about Israelis in Greece.",
-        "at": "2026-11-22T03:03:56.211Z"
-      },
-      {
-        "title": "Οδικές Μεταφορές: Σε διαβούλευση το νομοσχέδιο – Οι βασικές αλλαγές σε ΚΟΚ & εξετάσεις υποψηφίων οδηγών",
-        "reason": "λείπει en.tldr",
-        "at": "2026-11-22T07:34:19.839Z"
-      }
-    ],
-    "errors": [],
-    "fb": [
-      {
-        "slug": "patras-earthquake-3-4-richter",
-        "at": "2026-11-22T07:35:55.794Z"
-      },
-      {
-        "slug": "greece-product-prices-comparison-posokanei",
-        "at": "2026-11-22T11:09:44.000Z"
-      },
-      {
-        "slug": "athens-strike-november-25",
-        "at": "2026-11-22T15:39:22.172Z"
-      }
-    ],
-    "ig": []
+    "date": "2026-11-23",
+    "count": 0,
+    "published": [],
+    "rejected": [],
+    "errors": []
   },
   "history": [
+    {
+      "date": "2026-11-22",
+      "count": 9,
+      "rejected": 3
+    },
     {
       "date": "2026-11-21",
       "count": 7,
@@ -2186,18 +2089,15 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-22T21:14:29.484Z",
-    "considered": 8,
-    "picked": 1,
+    "at": "2026-11-23T00:46:35.949Z",
+    "considered": 5,
+    "picked": 0,
     "items": [
-      "· ingr | Χριστούγεννα με περσινά στολίδια – Πόσο κοστίζουν φέτος και ποια μέρα θα πρέπει να στολίσε",
-      "✓ gct | Greece Invests €20 Million in Kefalonia’s Cultural Heritage",
-      "· gct | Anzac Trails Through Macedonia Honours Service at Sydney Memorial",
-      "· naftemporiki | Συρία: Νάρκη από την εποχή Άσαντ σκότωσε πέντε παιδιά",
-      "· ingr | Φωτιά σε σπίτι στο Λιτόχωρο που κάηκε ολοσχερώς – Ζημιές και σε διπλανή οικία",
-      "· gct | OzHarvest CEO Visits Saint Sophia’s Feed the People Food Pantry in Sydney, Australia",
-      "· ingr | Η Ισπανία παρατείνει τον έκτακτο φόρο στις τράπεζες – Τα έσοδα στη στήριξη της στέγασης",
-      "· ingr | Ισραήλ: Συνάντηση των κομμάτων Άιζενκοτ-Νετανιάχου για σχηματισμό κυβέρνησης εθνικής ενότη"
+      "· ingr | Συρία: 5 παιδιά σκοτώθηκαν σε έκρηξη νάρκης που είχε τοποθετηθεί την εποχή του Ασαντ",
+      "· ingr | Η καταδίκη της Μιανμάρ για γενοκτονία, απειλή για αμερικανικές κυρώσεις κατά τις βραβευμέν",
+      "· naftemporiki | Φωτιά σε διπλοκατοικία στο Λιτόχωρο Πιερίας: Απεγκλωβίστηκαν τέσσερα άτομα – Παρελήφθησαν ",
+      "· ingr | Επίδειξη δύναμης από το Ιράν με «πόλη πυραύλων» και νέο εκτοξευτή – Οι IDF ενάντια σε μονο",
+      "· gn-iefimerida | «Έκρηξη» Ματσάρι: «Απ' όταν έχω έρθει στην Ελλάδα αισθάνομαι ότι με κοροϊδεύουν -Όλες οι α"
     ]
   },
   "evergreenDone": [
