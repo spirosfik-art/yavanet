@@ -1,0 +1,2410 @@
+{
+ "site": "sc-domain:yavanet.gr",
+ "range": {
+  "startDate": "2026-11-15",
+  "endDate": "2026-11-21"
+ },
+ "totals": {
+  "clicks": 152,
+  "impressions": 9149,
+  "ctr": 0.016613837577877363,
+  "position": 25.539512515028964
+ },
+ "prev": {
+  "clicks": 68,
+  "impressions": 6159,
+  "ctr": 0.011040753369053418,
+  "position": 36.947069329436594
+ },
+ "queries": [
+  {
+   "keys": [
+    "דיל לרודוס"
+   ],
+   "clicks": 2,
+   "impressions": 2,
+   "ctr": 1,
+   "position": 61.5
+  },
+  {
+   "keys": [
+    "טיסות ללפקדה"
+   ],
+   "clicks": 2,
+   "impressions": 10,
+   "ctr": 0.2,
+   "position": 33.9
+  },
+  {
+   "keys": [
+    "לפקדה טיסות"
+   ],
+   "clicks": 2,
+   "impressions": 3,
+   "ctr": 0.6666666666666666,
+   "position": 60.666666666666664
+  },
+  {
+   "keys": [
+    "שביתה ביוון"
+   ],
+   "clicks": 2,
+   "impressions": 10,
+   "ctr": 0.2,
+   "position": 3.7
+  },
+  {
+   "keys": [
+    "22/11"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 5
+  },
+  {
+   "keys": [
+    "lora missile ελλαδα"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 1
+  },
+  {
+   "keys": [
+    "metro closed today"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "keys": [
+    "michelin thessaloniki"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 27
+  },
+  {
+   "keys": [
+    "which sundays are shops open in athens 2026"
+   ],
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 5.75
+  },
+  {
+   "keys": [
+    "yavanet"
+   ],
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 1.6
+  },
+  {
+   "keys": [
+    "אזהרה על רוחות ברמה בינונית"
+   ],
+   "clicks": 1,
+   "impressions": 134,
+   "ctr": 0.007462686567164179,
+   "position": 8.343283582089551
+  },
+  {
+   "keys": [
+    "דיל לכרתים"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 54
+  },
+  {
+   "keys": [
+    "דילים לכרתים"
+   ],
+   "clicks": 1,
+   "impressions": 14,
+   "ctr": 0.07142857142857142,
+   "position": 65.71428571428571
+  },
+  {
+   "keys": [
+    "דילים לכרתים כולל מלון וטיסות"
+   ],
+   "clicks": 1,
+   "impressions": 10,
+   "ctr": 0.1,
+   "position": 75.8
+  },
+  {
+   "keys": [
+    "דילים לרודוס"
+   ],
+   "clicks": 1,
+   "impressions": 10,
+   "ctr": 0.1,
+   "position": 44.1
+  },
+  {
+   "keys": [
+    "חבילות לכרתים"
+   ],
+   "clicks": 1,
+   "impressions": 14,
+   "ctr": 0.07142857142857142,
+   "position": 75.57142857142857
+  },
+  {
+   "keys": [
+    "טיסה אתונה"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 75
+  },
+  {
+   "keys": [
+    "טיסה זולה לאתונה"
+   ],
+   "clicks": 1,
+   "impressions": 13,
+   "ctr": 0.07692307692307693,
+   "position": 67
+  },
+  {
+   "keys": [
+    "טיסה ליוון מחיר"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 71.5
+  },
+  {
+   "keys": [
+    "טיסה ללפקדה"
+   ],
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333333333333333,
+   "position": 36.333333333333336
+  },
+  {
+   "keys": [
+    "טיסה לקרפטוס"
+   ],
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333333333333333,
+   "position": 26.666666666666668
+  },
+  {
+   "keys": [
+    "טיסה לרודוס"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 64
+  },
+  {
+   "keys": [
+    "טיסות זולות לאתונה"
+   ],
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333333333333333,
+   "position": 67
+  },
+  {
+   "keys": [
+    "טיסות לאתונה זולות"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 67
+  },
+  {
+   "keys": [
+    "טיסות לחאניה"
+   ],
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 53.9375
+  },
+  {
+   "keys": [
+    "טיסות ליוון"
+   ],
+   "clicks": 1,
+   "impressions": 22,
+   "ctr": 0.045454545454545456,
+   "position": 82.22727272727273
+  },
+  {
+   "keys": [
+    "טיסות לקוס"
+   ],
+   "clicks": 1,
+   "impressions": 15,
+   "ctr": 0.06666666666666667,
+   "position": 22.533333333333335
+  },
+  {
+   "keys": [
+    "טיסות רודוס"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 71
+  },
+  {
+   "keys": [
+    "יוון טיסות"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 81
+  },
+  {
+   "keys": [
+    "כמה זמן טיסה לרודוס"
+   ],
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333333333333333,
+   "position": 35.333333333333336
+  },
+  {
+   "keys": [
+    "כרטיס טיסה לאתונה"
+   ],
+   "clicks": 1,
+   "impressions": 13,
+   "ctr": 0.07692307692307693,
+   "position": 71.15384615384616
+  },
+  {
+   "keys": [
+    "סנטוריני דילים"
+   ],
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 89
+  },
+  {
+   "keys": [
+    "קפלוניה טיסות"
+   ],
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 15
+  },
+  {
+   "keys": [
+    "-site:facebook.com -site:fb.me -site:youtube.com -site:youtu.be -site:youtube.be -site:twitter.com -site:instagram.com -site:tiktok.com -site:vm.tiktok.com -site:t.co -site:x.com -site:reddit.com \"santorini\" and (\"earthquake\" or \"earthquakes\")"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 17.5
+  },
+  {
+   "keys": [
+    "10 πραγματα να κανεισ στην αιγινα"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "13-15 november"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "1932"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "22-26"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "22.11.26"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "about greece country"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "aegina"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 51.4
+  },
+  {
+   "keys": [
+    "aegina athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "aegina attractions"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "keys": [
+    "aegina by"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 21
+  },
+  {
+   "keys": [
+    "aegina car hire"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 40
+  },
+  {
+   "keys": [
+    "aegina greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "aegina hellas"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 58.75
+  },
+  {
+   "keys": [
+    "aegina island"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 74.0909090909091
+  },
+  {
+   "keys": [
+    "aegina town"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "airfare to greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "airline and hotel packages"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "aktuell"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "all inclusive corfu"
+   ],
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 37.06666666666667
+  },
+  {
+   "keys": [
+    "all inclusive corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "all inclusive corfu holidays"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "all inclusive corfu hotels"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 58.5
+  },
+  {
+   "keys": [
+    "all inclusive holidays corfu"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 43.4
+  },
+  {
+   "keys": [
+    "all inclusive holidays corfu town"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "keys": [
+    "all inclusive holidays in corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40
+  },
+  {
+   "keys": [
+    "all inclusive hotel corfu"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 43.5
+  },
+  {
+   "keys": [
+    "all inclusive hotels corfu"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 59.714285714285715
+  },
+  {
+   "keys": [
+    "all inclusive hotels in corfu"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 57.333333333333336
+  },
+  {
+   "keys": [
+    "all inclusive hotels in corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "all inclusive in corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "all inclusive in corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "all inclusive resorts corfu"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 13.666666666666666
+  },
+  {
+   "keys": [
+    "all inclusive resorts corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "all inclusive to corfu"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "all-inclusive hotels in corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "ancient olympia"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 47.25
+  },
+  {
+   "keys": [
+    "ancient olympia tickets"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "andros greece weather"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "any malls"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "apergia 25/11/2026"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "are shops closed tomorrow"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "are shops in greece open on sundays"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "are shops open in greece on sunday"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "keys": [
+    "are shops open in greece today"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "are shops open today"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "are shops open tomorrow"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "are shops open tomorrow?"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "keys": [
+    "are stores open today"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "are the shops open tomorrow?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "keys": [
+    "area of crete"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "keys": [
+    "ask maps google"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 44.75
+  },
+  {
+   "keys": [
+    "atene mykonos traghetto durata"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 87.5
+  },
+  {
+   "keys": [
+    "atene pireo mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 16
+  },
+  {
+   "keys": [
+    "athen mykonos fähre"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "keys": [
+    "athen piräus mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "keys": [
+    "athen piräus mykonos fähre"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "athen rafina mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 23
+  },
+  {
+   "keys": [
+    "athen rafina mykonos fähre"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "keys": [
+    "athenian festivals"
+   ],
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 1.4285714285714286
+  },
+  {
+   "keys": [
+    "athens airport hotels"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "athens average salary"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "athens december weather"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "athens ferry to mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 63.5
+  },
+  {
+   "keys": [
+    "athens greece climate"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "athens greece festivals"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "athens greece monthly weather"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "athens greece temperatures by month"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "athens greece weather february"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "athens greek restaurant"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 37.666666666666664
+  },
+  {
+   "keys": [
+    "athens in february weather"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 34.5
+  },
+  {
+   "keys": [
+    "athens march weather"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 53.5
+  },
+  {
+   "keys": [
+    "athens monthly weather"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "athens mykonos ferry"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "athens mykonos ferry time"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 63.8
+  },
+  {
+   "keys": [
+    "athens property prices"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "athens strike"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "keys": [
+    "athens strike today"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 18.5
+  },
+  {
+   "keys": [
+    "athens strike tomorrow"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 13.666666666666666
+  },
+  {
+   "keys": [
+    "athens temperature january"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "athens to mykonos ferry"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 73.75
+  },
+  {
+   "keys": [
+    "athens to mykonos ferry cost"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "athens to mykonos ferry price"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 65.75
+  },
+  {
+   "keys": [
+    "athens to mykonos ferry time"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 56.25
+  },
+  {
+   "keys": [
+    "athens vacant homes percentage"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 62.72727272727273
+  },
+  {
+   "keys": [
+    "athens weather august"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "athens weather by month"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 45.6
+  },
+  {
+   "keys": [
+    "athens weather in jan"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "athens weather in june"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "keys": [
+    "athens weather january"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 52.25
+  },
+  {
+   "keys": [
+    "athens weather month"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "average crete temperatures"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 48.5
+  },
+  {
+   "keys": [
+    "average greek salary"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "average room rate"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "average salary 2026"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "average salary athens"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 14.6
+  },
+  {
+   "keys": [
+    "average salary athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "average salary in athens"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5.428571428571429
+  },
+  {
+   "keys": [
+    "average salary in athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "average salary in greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "keys": [
+    "average temp greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "average temp in greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "average temperature greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "average temperature in athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "average temperature in corfu in may"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
+    "average temperature in crete by month"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "average temperature in greece"
+   ],
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 11.6
+  },
+  {
+   "keys": [
+    "average temperatures greece september"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 80.66666666666667
+  },
+  {
+   "keys": [
+    "average temperatures in greece by month"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 78.5
+  },
+  {
+   "keys": [
+    "average wage in athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "average wages in greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "bad weather in greece today"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 21.5
+  },
+  {
+   "keys": [
+    "beaches corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 99
+  },
+  {
+   "keys": [
+    "beaches in mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "beaches korfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "benefits of buying from rhodes"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "best beach in peloponnese"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 44.888888888888886
+  },
+  {
+   "keys": [
+    "best beaches in corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 97
+  },
+  {
+   "keys": [
+    "best beaches in corfu island"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "best beaches in mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 87
+  },
+  {
+   "keys": [
+    "best beaches in pelion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "keys": [
+    "best beaches in peloponnese"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "keys": [
+    "best beaches kalamata"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 41.5
+  },
+  {
+   "keys": [
+    "best beaches kefalonia"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "best beaches messinia"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 32.25
+  },
+  {
+   "keys": [
+    "best beaches mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 41.5
+  },
+  {
+   "keys": [
+    "best beaches near kalamata"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 37.81818181818182
+  },
+  {
+   "keys": [
+    "best beaches peloponnese"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 38.111111111111114
+  },
+  {
+   "keys": [
+    "best greek food in athens"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72.5
+  },
+  {
+   "keys": [
+    "best greek restaurant athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "best israeli restaurant with pita near me"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "keys": [
+    "best kefalonia beaches"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "best kosher bread options at major grocery stores?"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "best month to visit corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "best months to visit crete"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "best place to stay in santorini"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "best things to do in kassandra halkidiki"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "keys": [
+    "best time of the year to travel to greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "best time to go to greece"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 78.66666666666667
+  },
+  {
+   "keys": [
+    "best time to sail in greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "best time to travel to greece"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 65
+  },
+  {
+   "keys": [
+    "best time to visit corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "best time to visit greece"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.75
+  },
+  {
+   "keys": [
+    "black out thessaloniki"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "blackout thessaloniki"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "boat from athens to mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "boat from rhodes to symi"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "boat to symi from rhodes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "boat trip to symi from rhodes"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "book holiday packages with flights and hotels"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "bright swot"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "buying property in greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "buying property in kefalonia"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "can you fly to symi"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "keys": [
+    "car hire lefkada"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "car rental aegina greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "keys": [
+    "cefalonia spiagge"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "chabad athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "chabad heraklion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "chabad of athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "chabad rhodes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "chabad santorini"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "chabad thessaloniki address"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 23.5
+  },
+  {
+   "keys": [
+    "chania greece nightlife"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "chania nightlife"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "chania town nightlife"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "keys": [
+    "christmas bonus 2026 payment date"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "christmas in thessaloniki"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 12.333333333333334
+  },
+  {
+   "keys": [
+    "climate athens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "climate athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "keys": [
+    "climate for athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "keys": [
+    "climate in athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "keys": [
+    "climate of athens greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "keys": [
+    "clubbing in mykonos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "clubbing in zante"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "clubs in malia"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "clubs in thessaloniki"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "keys": [
+    "corfu"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "corfu all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 41.8
+  },
+  {
+   "keys": [
+    "corfu all inclusive family resorts"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "corfu all inclusive hotels"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 51.333333333333336
+  },
+  {
+   "keys": [
+    "corfu all inclusive resorts"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 48.6
+  },
+  {
+   "keys": [
+    "corfu average temperature by month"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "corfu beaches"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "keys": [
+    "corfu family holidays all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 45.666666666666664
+  },
+  {
+   "keys": [
+    "corfu february weather"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "corfu greece"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "corfu greece all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "corfu greece beaches"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "corfu greece hotels all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "corfu greece on map"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "corfu hotel all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 39.666666666666664
+  },
+  {
+   "keys": [
+    "corfu hotels all inclusive"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 29.8
+  },
+  {
+   "keys": [
+    "corfu in october"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 21.5
+  },
+  {
+   "keys": [
+    "corfu in september"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 37.333333333333336
+  },
+  {
+   "keys": [
+    "corfu july weather"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 43.333333333333336
+  },
+  {
+   "keys": [
+    "corfu map"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51.5
+  },
+  {
+   "keys": [
+    "corfu news"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "corfu october temperature"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "corfu october weather"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "corfu prices"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 61.666666666666664
+  },
+  {
+   "keys": [
+    "corfu september"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
+  },
+  {
+   "keys": [
+    "corfu solo vacations 2027"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "corfu temperature october"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "corfu weather august"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "corfu weather december"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "corfu weather late september"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "corfu weather monthly"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "corfu weather october"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 33
+  },
+  {
+   "keys": [
+    "corfu weather september"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 52.5
+  },
+  {
+   "keys": [
+    "crete"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "keys": [
+    "crete greece on map"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "crete greece weather by month"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "crete map"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "crete map mediterranean"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
+    "crete nightlife chania"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  }
+ ],
+ "pages": [
+  {
+   "keys": [
+    "https://yavanet.gr/en/a/adedy-strike-november-25/"
+   ],
+   "clicks": 14,
+   "impressions": 169,
+   "ctr": 0.08284023668639054,
+   "position": 6.763313609467455
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/en/a/greece-israel-military-training-2026/"
+   ],
+   "clicks": 12,
+   "impressions": 54,
+   "ctr": 0.2222222222222222,
+   "position": 4.222222222222222
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/holidays/"
+   ],
+   "clicks": 9,
+   "impressions": 341,
+   "ctr": 0.026392961876832845,
+   "position": 5.2404692082111435
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/flights/"
+   ],
+   "clicks": 8,
+   "impressions": 251,
+   "ctr": 0.03187250996015936,
+   "position": 72.72509960159363
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/en/a/weekend-in-athens-2026-11-20/"
+   ],
+   "clicks": 5,
+   "impressions": 64,
+   "ctr": 0.078125,
+   "position": 4.296875
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/a/crete-deals-all-inclusive-last-minute/"
+   ],
+   "clicks": 4,
+   "impressions": 87,
+   "ctr": 0.04597701149425287,
+   "position": 64.47126436781609
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/a/flights-israel-preveza-lefkada-guide/"
+   ],
+   "clicks": 4,
+   "impressions": 22,
+   "ctr": 0.18181818181818182,
+   "position": 36.04545454545455
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/en/a/adedy-24-hour-general-strike-november-25/"
+   ],
+   "clicks": 4,
+   "impressions": 136,
+   "ctr": 0.029411764705882353,
+   "position": 7.713235294117647
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/a/flights-israel-rhodes-guide/"
+   ],
+   "clicks": 3,
+   "impressions": 88,
+   "ctr": 0.03409090909090909,
+   "position": 71.77272727272727
+  },
+  {
+   "keys": [
+    "https://yavanet.gr/a/greek-shops-open-sundays-december-2026/"
+   ],
+   "clicks": 3,
+   "impressions": 78,
+   "ctr": 0.038461538461538464,
+   "position": 5.756410256410256
+  }
+ ],
+ "countries": [
+  {
+   "keys": [
+    "isr"
+   ],
+   "clicks": 69,
+   "impressions": 3217,
+   "ctr": 0.021448554553932235,
+   "position": 32.23842088902704
+  },
+  {
+   "keys": [
+    "grc"
+   ],
+   "clicks": 43,
+   "impressions": 2132,
+   "ctr": 0.020168855534709193,
+   "position": 16.389774859287055
+  },
+  {
+   "keys": [
+    "usa"
+   ],
+   "clicks": 7,
+   "impressions": 667,
+   "ctr": 0.010494752623688156,
+   "position": 31.13943028485757
+  },
+  {
+   "keys": [
+    "can"
+   ],
+   "clicks": 5,
+   "impressions": 102,
+   "ctr": 0.049019607843137254,
+   "position": 32.67647058823529
+  },
+  {
+   "keys": [
+    "gbr"
+   ],
+   "clicks": 3,
+   "impressions": 661,
+   "ctr": 0.0045385779122541605,
+   "position": 37.446293494704996
+  }
+ ]
+}
