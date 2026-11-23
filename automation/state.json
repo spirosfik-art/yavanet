@@ -19,22 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "ea00a9b335ed": 1794217278942,
-    "881700b62768": 1794217278942,
-    "9128efbc0ea9": 1794217278942,
-    "59a3af4c9fad": 1794217278942,
-    "a63c03bf8885": 1794217278942,
-    "cd501043efaf": 1794217278942,
-    "472a974f9808": 1794217278942,
-    "79ef1e8764a1": 1794217278942,
-    "7ca6510833ed": 1794217278942,
-    "a1671d976993": 1794217278942,
-    "64e12fb693ab": 1794217278942,
-    "f318ccf7e454": 1794217278942,
-    "12230bd96a1d": 1794217278942,
-    "a63df93a3349": 1794217278942,
-    "f610933ec691": 1794217278942,
-    "8a2c3b279134": 1794217278942,
     "604956e3a2f4": 1794240498229,
     "16e09a7a231b": 1794240498229,
     "09daf9e6d3b9": 1794240498229,
@@ -1675,7 +1659,10 @@
     "f6cf96265438": 1795424167354,
     "b276573d1a27": 1795424167354,
     "5399615290c3": 1795424167354,
-    "26fdf3d0a2b6": 1795424167354
+    "26fdf3d0a2b6": 1795424167354,
+    "e9de842a3289": 1795427134714,
+    "e98baf7b61a1": 1795427134714,
+    "673f955a2da1": 1795427134714
   },
   "pending": {},
   "sourceStatus": {
@@ -1687,12 +1674,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-23T08:55:54.150Z",
+      "at": "2026-11-23T09:45:21.656Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-23T08:55:55.134Z",
+      "at": "2026-11-23T09:45:22.516Z",
       "items": 4
     },
     "civilprotection": {
@@ -1703,27 +1690,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-23T08:55:56.656Z",
+      "at": "2026-11-23T09:45:26.575Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-23T08:55:56.862Z",
+      "at": "2026-11-23T09:45:26.657Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-23T08:55:58.417Z",
+      "at": "2026-11-23T09:45:28.014Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-23T08:55:59.321Z",
-      "items": 0
+      "at": "2026-11-23T09:45:28.916Z",
+      "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-23T08:56:00.302Z",
+      "at": "2026-11-23T09:45:29.486Z",
       "items": 10
     },
     "toi-greece": {
@@ -1734,22 +1721,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-23T08:56:00.819Z",
+      "at": "2026-11-23T09:45:30.061Z",
       "items": 5
     },
     "gct": {
-      "ok": true,
-      "at": "2026-11-23T08:56:00.954Z",
-      "items": 14
+      "ok": false,
+      "at": "2026-11-23T09:45:30.108Z",
+      "error": "HTTP 403",
+      "fails": 1
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-23T08:56:01.584Z",
-      "items": 3
+      "at": "2026-11-23T09:45:30.181Z",
+      "items": 1
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-23T08:56:01.812Z",
+      "at": "2026-11-23T09:45:30.406Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1759,12 +1747,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-23T08:55:55.794Z",
+      "at": "2026-11-23T09:45:22.751Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-23T08:56:02.571Z",
+      "at": "2026-11-23T09:45:31.250Z",
       "items": 0
     },
     "hcg": {
@@ -1775,32 +1763,32 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-23T08:56:04.096Z",
+      "at": "2026-11-23T09:45:32.756Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-23T08:56:04.410Z",
+      "at": "2026-11-23T09:45:32.907Z",
       "items": 0
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-23T08:56:04.576Z",
-      "items": 3
+      "at": "2026-11-23T09:45:33.039Z",
+      "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-23T08:56:04.803Z",
-      "items": 5
+      "at": "2026-11-23T09:45:33.250Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-23T08:56:05.107Z",
+      "at": "2026-11-23T09:45:33.550Z",
       "items": 7
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-23T08:56:05.418Z",
+      "at": "2026-11-23T09:45:33.861Z",
       "items": 7
     }
   },
@@ -2106,38 +2094,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-23T08:56:07.354Z",
-    "considered": 28,
+    "at": "2026-11-23T09:45:34.714Z",
+    "considered": 3,
     "picked": 0,
     "items": [
-      "· naftemporiki | Χρηματιστήριο: Αντίδραση με… φειδώ στην Αθήνα",
-      "· gn-iefimerida | Στήριξη των εισοδημάτων έναντι της ακρίβειας και διαφάνεια, το διπλό στοίχημα της κυβέρνησ",
-      "· gct | Greek Destinations in Winter: From Samos and Chios to Rhodes",
-      "· ingr | Γυναικοκτονία στην Ακρόπολη: Απολογείται σήμερα ο 63χρονος",
-      "· naftemporiki | Έπρεπε να είχε αλλάξει χθες",
-      "· gct | Turkey Freezes Billions in Assets In Investment Fund Scandal",
-      "· gct | Greece Records 22% Increase in Real Incomes Over Six Years",
-      "· gct | Greece Conducts More Than 71,000 Food Inspections",
-      "· naftemporiki | Γλυφάδα: Φωτιά το βράδυ της Κυριακής σε τετραώροφη πολυκατοικία – Κατασβέσθη άμεσα",
-      "· strikes-naftemporiki | Βέλγιο: «Παραλύουν» σήμερα οι αερομεταφορές λόγω απεργίας",
-      "· gct | Nationwide 24-Hour Maritime Strike to Disrupt Greek Shipping",
-      "· gn-kathimerini | Βέλγιο: Παράλυση των αερομεταφορών λόγω απεργίας – Προβλήματα σε συγκοινωνίες και δημόσιες",
-      "· gn-kathimerini | Ινδονησία: Στους 24 οι νεκροί από τη φωτιά σε εργοστάσιο – Πάνω από 30 αγνοούμενοι - Kathi",
-      "· ingr | Τραγωδία στην Ινδονησία: Τουλάχιστον 24 νεκροί από πυρκαγιά σε εργοστάσιο – Δεκάδες αγνοού",
-      "· gct | Greece Plans Stricter Driving Tests and Tougher Penalties",
-      "· gn-kathimerini | Νομοσχέδιο υπουργείου Μεταφορών: Εξορθολογίζονται τα πρόστιμα – Οι αλλαγές στον ΚΟΚ - Kath",
-      "· gct | Greece Goes From Europe’s Black Sheep to a Success Story",
-      "· gn-kathimerini | Γερμανία: 15 τραυματίες από πυρκαγιά σε νοσοκομείο του Βερολίνου - Kathimerini",
-      "· gct | Syrian and Palestinian Couple Arrested After Two Children Rescued",
-      "· ingr | Πανελλαδική πανεργατική απεργία την Τετάρτη – Δεμένα τα πλοία, τι ισχύει για τα σχολεία, π",
-      "· gct | Greece Announces Xmas Discounts on More Than 300 Product Lines",
-      "· gct | Ria Ellinidou: Anna Vissi’s longtime guitarist Carlos Perez joins the singer on stage",
-      "· gct | Cyprus dermatologists warn of cheap Botox and unlicensed laser treatments after 399 vials ",
-      "· gct | EU proposes one hour a day and parental approval for social media at 13 and 14, with indep",
-      "· strikes-naftemporiki | Απεργία Τετάρτη 25 Νοεμβρίου: Πώς θα κινηθούν Μετρό, λεωφορεία, ΗΣΑΠ και τραμ – Τι ισχύει ",
-      "· gct | Makybe Diva’s Three Melbourne Cups Stolen in Linked Racecourse Heists",
-      "· gct | Macedonian Greek Groups Challenge Melbourne’s Moomba Flag Decision",
-      "· gn-iefimerida | Αναστάτωση στις ΗΠΑ από τεχνική βλάβη στο σύστημα ζύγισης της Delta Air Lines -Πάνω από 86"
+      "· ert | Ισραήλ: Το αθέατο πρόβλημα του ισραηλινού στρατού εν μέσω πολεμικού κλίματος με το Ιράν",
+      "· naftemporiki | Στ. Παπασταύρου: Ξεκινούν μέχρι το τέλος της εβδομάδας οι σεισμικές έρευνες στο Νότιο Ιόνι",
+      "· naftemporiki | Γιάννης Παναγόπουλος: Αρκετά! Έχουμε φωνή"
     ]
   },
   "evergreenDone": [
