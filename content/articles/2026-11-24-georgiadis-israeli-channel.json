@@ -1,0 +1,56 @@
+{
+  "slug": "georgiadis-israeli-channel",
+  "section": "israelis",
+  "publishedAt": "2026-11-24T07:32:25+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Athens",
+  "sources": [
+    {
+      "name": "iefimerida (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JaFoyZ0RVR0U1MFk1WTBGaUZsQW40Q0ktTi13X29UbF81NER2X1d5dWUwS0tsZDVUMlNDa2ttalVNSnFHNGNCYzBMS0dfNVhoM0k2T2lYRWM1cWJvZkdqUTFyTkJ1UHZOZE5OZmtPdllzYlp4Zmp1T09B?oc=5"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/4386403/pexels-photo-4386403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Closeup of crop unrecognizable person holding small flag of Israel before huge flag of United States of America on background",
+    "credit": "Photo: kaboompics / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/crop-person-showing-handmade-flag-of-israel-4386403/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון: שר הבריאות היווני התראיין לכלי תקשורת בישראל",
+    "dek": "במדינה בוחנים את הידוק הקשרים המדיניים והכלכליים בין יוון לישראל, תוך שימת דגש על שיתופי פעולה עתידיים.",
+    "tldr": [
+      "שר הבריאות היווני התראיין לערוץ טלוויזיה ישראלי.",
+      "בריאיון עלה נושא חיזוק הקשרים המדיניים בין שתי המדינות.",
+      "יוון ממשיכה לקדם שיתופי פעולה אזרחיים וכלכליים עם ישראל."
+    ],
+    "means": "הדיווח משקף את הקשרים הדיפלומטיים והכלכליים השוטפים בין המדינות, עניין שמעניין את הקהל הישראלי שעוקב אחר היחסים הבילטרליים.",
+    "body": "שר הבריאות של יוון, אדוניס גאורגיאדיס, התראיין לערוץ תקשורת ישראלי והתייחס ליחסים המדיניים בין יוון לישראל. במסגרת הריאיון, שהתפרסם בכלי התקשורת ביוון, הודגשה החשיבות של הידוק הקשרים בין שתי המדינות במגוון תחומים אזרחיים. עבור ישראלים המבקרים ביוון או מקיימים קשרים עסקיים במדינה, שיתוף הפעולה הבילטרלי מתבטא באופן שוטף במיישורים הכלכליים, התיירותיים והטכנולוגיים, ללא שינוי בהנחיות הרשמיות."
+  },
+  "en": {
+    "title": "Greece: Greek Health Minister interviewed on Israeli channel",
+    "dek": "Bilateral relations and cooperation between Greece and Israel were discussed in a recent media appearance.",
+    "tldr": [
+      "The Greek Health Minister spoke with an Israeli television channel.",
+      "The interview focused on strengthening diplomatic ties between the nations.",
+      "Greece continues to foster civil and economic cooperation with Israel."
+    ],
+    "means": "This coverage highlights the ongoing diplomatic and economic ties between Greece and Israel, relevant to Israelis following bilateral relations.",
+    "body": "Greek Health Minister Adonis Georgiadis gave an interview to an Israeli media outlet, discussing the official relations between Greece and Israel. The interview, reported in Greek media, highlighted the importance of maintaining strong bilateral ties across various civil sectors. For Israelis visiting Greece or engaging in local business, the cooperative framework between the two countries remains steady across tourism, commerce, and technology."
+  },
+  "meta": {
+    "itemId": "42f147b0e38b",
+    "imageQuery": "Greece Israel flag diplomacy",
+    "sourceHash": "312fccb75ebf",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-24T05:32:26.097Z",
+    "official": false
+  }
+}
