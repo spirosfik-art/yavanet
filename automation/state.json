@@ -19,47 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "2cfc7a8d78dc": 1794333566246,
-    "7a78a4dba0f0": 1794333566246,
-    "184f8f9e24c5": 1794333566246,
-    "b55685d71e5e": 1794333566246,
-    "ddbe18399db3": 1794333566246,
-    "f9d25f339142": 1794333566246,
-    "427a199a1aa8": 1794333566246,
-    "9defa4ae777c": 1794333566246,
-    "e59df2860308": 1794333566246,
-    "2e7708137aea": 1794333566246,
-    "9af71767a828": 1794333566246,
-    "7875d2f97384": 1794349174369,
-    "98c0464390b1": 1794349174369,
-    "80e27452ec7e": 1794349174369,
-    "3f6e417c8c08": 1794349174369,
-    "aa888c7a5747": 1794349174369,
-    "27bf184217a9": 1794349174369,
-    "1bc752ff17c3": 1794349174369,
-    "078464bc7572": 1794349174369,
-    "812365ebcb95": 1794349174369,
-    "afc9c90d575c": 1794349174369,
-    "e8debe4459d9": 1794349174369,
-    "fd1cecc29683": 1794349174369,
-    "b4a66e8132e6": 1794349174369,
-    "520faeb02119": 1794349174369,
-    "f911dc9b3061": 1794349174369,
-    "a979f2d70c95": 1794349174369,
-    "def82e6184c5": 1794349174369,
-    "dfda76a6833c": 1794349174369,
-    "e922414b2be8": 1794349174369,
-    "acf7e73d5f96": 1794349174369,
-    "5ec369650f7f": 1794349174369,
-    "ee726972bba8": 1794349174369,
-    "e284f82f3bfc": 1794349174369,
-    "d8378badcb31": 1794349174369,
-    "04db15b2d286": 1794349174369,
-    "7b89ad38c6dd": 1794349174369,
-    "b5ec46ec0514": 1794349174369,
-    "0e7a80b9863a": 1794349174369,
-    "2eb2be71a9e9": 1794349174369,
-    "8f30d0e1950f": 1794350981576,
     "dc0f128f69a4": 1794363681305,
     "82a0443e3bb2": 1794363681305,
     "2e7d1fdb1653": 1794363681305,
@@ -1626,7 +1585,47 @@
     "8f32e6413ab6": 1795498367773,
     "ec34796e1fba": 1795498367773,
     "408dd4e76f9f": 1795498367773,
-    "62aaf2913e14": 1795498367773
+    "62aaf2913e14": 1795498367773,
+    "f120aee3b864": 1795568083490,
+    "16189453cc9f": 1795568083490,
+    "c282d53a3322": 1795568083490,
+    "f6ceb6f15d77": 1795568083490,
+    "2953769c097d": 1795568083490,
+    "fb20e03e4410": 1795568083490,
+    "7b886bc812b6": 1795568083490,
+    "b6a9024aca98": 1795568083490,
+    "b1ae3c02b3f1": 1795568083490,
+    "fdd276706db4": 1795568083490,
+    "dcd33bc1ae87": 1795568083490,
+    "76b038ec3e25": 1795568083490,
+    "989653129118": 1795568083490,
+    "bea64e07b66c": 1795568083490,
+    "abf54a9a3d1d": 1795568083490,
+    "c7a55e767816": 1795568083490,
+    "49c6c1ff8037": 1795568083490,
+    "22a82c2d8144": 1795568083490,
+    "76151ed3ed8d": 1795568083490,
+    "970cbc26c9da": 1795568083490,
+    "e28b175d10f5": 1795568083490,
+    "dc7d77d96390": 1795568083490,
+    "6cb64163962c": 1795568083490,
+    "ecdd600bd7f7": 1795568083490,
+    "0a41ba6e3c6e": 1795568083490,
+    "2437b25df626": 1795568083490,
+    "1c7b793f1090": 1795568083490,
+    "98fc1a57b8fb": 1795568083490,
+    "7f4856c42413": 1795568083490,
+    "1d85fbec6206": 1795568083490,
+    "dc34cc197e0d": 1795568083490,
+    "c82b288e6a07": 1795568083490,
+    "b7eb9a570238": 1795568083490,
+    "e89c266b9024": 1795568083490,
+    "94652868dcc3": 1795568083490,
+    "f3d67d7b1a4a": 1795568083490,
+    "876f9c315e50": 1795568083490,
+    "5fb130c68f7b": 1795568083490,
+    "68c4061559ad": 1795568083490,
+    "91e0f2ed9b40": 1795568083490
   },
   "pending": {},
   "sourceStatus": {
@@ -1638,12 +1637,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-24T17:33:27.349Z",
+      "at": "2026-11-25T00:54:30.360Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-24T17:33:28.054Z",
+      "at": "2026-11-25T00:54:31.313Z",
       "items": 5
     },
     "civilprotection": {
@@ -1654,27 +1653,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-24T17:33:29.227Z",
+      "at": "2026-11-25T00:54:32.600Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-24T17:33:29.441Z",
+      "at": "2026-11-25T00:54:32.668Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-24T17:33:32.047Z",
+      "at": "2026-11-25T00:54:34.102Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-24T17:33:32.659Z",
+      "at": "2026-11-25T00:54:34.889Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-24T17:33:33.377Z",
+      "at": "2026-11-25T00:54:36.044Z",
       "items": 10
     },
     "toi-greece": {
@@ -1685,23 +1684,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-24T17:33:33.855Z",
+      "at": "2026-11-25T00:54:36.691Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-24T17:33:34.184Z",
+      "at": "2026-11-25T00:54:36.799Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-24T17:33:34.281Z",
-      "items": 7
+      "at": "2026-11-25T00:54:37.394Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-24T17:33:34.409Z",
-      "items": 5
+      "at": "2026-11-25T00:54:37.963Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1710,12 +1709,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-24T17:33:28.496Z",
+      "at": "2026-11-25T00:54:31.771Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-24T17:33:35.022Z",
+      "at": "2026-11-25T00:54:38.780Z",
       "items": 0
     },
     "hcg": {
@@ -1726,81 +1725,74 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-24T17:33:36.458Z",
+      "at": "2026-11-25T00:54:40.282Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-24T17:33:36.643Z",
-      "items": 4
+      "at": "2026-11-25T00:54:40.471Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-24T17:33:36.851Z",
+      "at": "2026-11-25T00:54:40.632Z",
       "items": 8
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-24T17:33:37.139Z",
-      "items": 2
+      "at": "2026-11-25T00:54:40.867Z",
+      "items": 3
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-24T17:33:37.484Z",
-      "items": 5
+      "at": "2026-11-25T00:54:41.311Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-24T17:33:37.902Z",
+      "at": "2026-11-25T00:54:41.655Z",
       "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "count": 2,
     "published": [
       {
-        "slug": "georgiadis-israeli-channel",
-        "title": "Greece: Greek Health Minister interviewed on Israeli channel",
-        "at": "2026-11-24T07:32:25+02:00",
-        "section": "israelis"
+        "slug": "athens-data-center-investment",
+        "title": "New Tech Investment in Athens Data Centre",
+        "at": "2026-11-25T02:55:18+02:00",
+        "section": "real-estate"
       },
       {
-        "slug": "greece-christmas-dinner-costs-2026",
-        "title": "Christmas dinner in Greece to cost around 220 euros",
-        "at": "2026-11-24T07:32:34+02:00",
-        "section": "israelis"
-      },
-      {
-        "slug": "greece-weather-change-rain-temperature-drop",
-        "title": "↻ Cold Snap Hits Greece with Temperature Drop, Rain and Mountain Snow",
-        "at": "2026-11-24T07:33:35+02:00",
-        "section": "breaking"
+        "slug": "record-passenger-traffic-at-greek-regional-airports",
+        "title": "Record Passenger Traffic at Greek Regional Airports in 2026",
+        "at": "2026-11-25T02:55:39+02:00",
+        "section": "travel"
       }
     ],
     "rejected": [
       {
-        "title": "Seamen’s Union Calls 24-Hour Attica Ferry Strike for Wednesday",
+        "title": "Nationwide Strike in Greece to Disrupt Transport on Wednesday",
         "reason": "Ίδιο θέμα με «Greece strike November 25: transport updates and details» – δεν γράφτηκε ξανά",
-        "at": "2026-11-24T05:32:51.527Z"
+        "at": "2026-11-25T00:54:47.207Z"
       },
       {
-        "title": "Greece Receives First Israeli SPICE and Rampage Missiles for F-16s",
-        "reason": "Gemini API: προσωρινή υπερφόρτωση – θα ξαναδοκιμάσει στην επόμενη εκτέλεση",
-        "at": "2026-11-24T17:33:25.328Z"
+        "title": "Σεισμός 4,6 Ρίχτερ στα παράλια της Τουρκίας -Έγινε αισθητός και στα νησιά του Αιγαίου - iefimerida.gr",
+        "reason": "The article includes information not present in the source text: 'No reports of structural damage or injuries', 'no disruptions to ferry services or flights', and 'no need to change your travel plans'. Rule 8 states: Do not add numbers, conversions or facts that are not in the source.; The article i",
+        "at": "2026-11-25T00:56:03.830Z"
       }
     ],
     "errors": [],
-    "fb": [
-      {
-        "slug": "georgiadis-israeli-channel",
-        "at": "2026-11-24T05:32:26.099Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-24",
+      "count": 2,
+      "rejected": 2
+    },
     {
       "date": "2026-11-23",
       "count": 1,
@@ -2099,40 +2091,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-24T05:32:47.773Z",
-    "considered": 31,
-    "picked": 3,
+    "at": "2026-11-25T00:54:43.490Z",
+    "considered": 40,
+    "picked": 4,
     "items": [
-      "· naftemporiki | Η Αθήνα κόμβος για το ευρωπαϊκό ψηφιακό Δημόσιο – Τι αλλάζει και στην εξυπηρέτηση από τα Κ",
-      "· naftemporiki | Ξένες επενδύσεις 1,35 δισ. φέρνει η ανάπτυξη ψηφιακών κόμβων",
-      "· gct | Wendy’s Takes First Step Toward Greece Return After 24 Years",
-      "· naftemporiki | Νέα Ιωνία: Ισχυρή έκρηξη σε καφετέρια – Εκτεταμένες ζημιές",
-      "· gct | Marks and Spencer Wants Someone Else Running Its Greek Stores",
-      "· gct | Syros Weaving Lives On in Ermoupoli’s Only Intact Textile Mill",
-      "✓ gct | Seamen’s Union Calls 24-Hour Attica Ferry Strike for Wednesday",
-      "· gct | Greek President Marks Arachova Bicentenary, Hails Karaiskakis",
-      "· gct | Marathokampos: How Artists Are Bringing a Samos Village Back to Life",
-      "✓ gct | Cold Snap Grips Greece as Forecasters Eye Weekend Snow",
-      "· gct | Watch To Kokkino Potami Online: Manousos Manousakis’s Epic Pontian Drama",
-      "· ingr | Νέα Ιωνία: Εκρηξη σε καφέ έπειτα από επίθεση αγνώστων – Ζημιές στο κατάστημα και σε παρακε",
-      "· gct | Eight Gunshots Kill Young Taygetos Wolf as Species Returns",
-      "· gct | Greece’s Home-Grown Arpyia Missile Completes First Test Flights",
-      "✓ gct | Greek F-16s Receive First Israeli SPICE and Rampage Weapons",
-      "· gct | Giannis Antetokounmpo Heads to Greek Supermarket Shelves with Chewing Gum and Candy Line",
-      "· gct | Melbourne Stabbing Accused Refuses to Leave Cell for Court Appearance",
-      "· gct | HEDNO to Pay €42.5 Million Interim Dividend to PPC and Macquarie as Nine-Month Profit Fall",
-      "· ert | Ισχυρός σεισμός 5,3 Ρίχτερ στο Νεπάλ",
-      "· ert | Γάζα: Τουλάχιστον τρεις Παλαιστίνιοι νεκροί από ισραηλινή αεροπορική επιδρομή στη Χαν Γιου",
-      "· gn-iefimerida | Βρετανία: Την Πέμπτη κατατίθεται στο Κοινοβούλιο το νομοσχέδιο για τις συμφωνίες με την ΕΕ",
-      "· gn-kathimerini | Η AI δημιουργεί νέους εκατομμυριούχους και οι ΗΠΑ θέλουν να τους φορολογήσουν - Kathimerin",
-      "· gn-iefimerida | Flydubai: Πράσινο φως για πτήσεις προς το Τελ Αβίβ σχεδόν δύο μήνες μετά την αιματηρή επίθ",
-      "· gtp | Mabrian: Greece Scores High on Tourism Sustainability, but Challenges Remain",
-      "· gn-iefimerida | Super League 2: «Στοπ» στον Πύργο για τη Μαρκό -Συνεχίζει τις υψηλές... πτήσεις η Νίκη Βόλ",
-      "· gtp | Climate Change Could Increase Migration Pressures in Mediterranean, Report Finds",
-      "· gtp | Peloponnese Region Backs Environmental Study for Kalamata Airport Upgrade",
-      "· gtp | Greece Plans €3.4 Billion in Infrastructure and Transport Investment Through 2030",
-      "· gtp | Neptune Luxury Resort Plans €4.5M Upgrade Following Strong 2026 Season",
-      "· gn-kathimerini | Ισραήλ: Ετοιμος ο Αϊζενκοτ να ανακοινώσει πώς θα σχηματίσει την κυβέρνησή του - Kathimerin"
+      "· ert | Ισραήλ: Στον «πάγο» οι συνομιλίες για τον σχηματισμό κυβέρνησης – Νέο ρήγμα στο στρατόπεδο",
+      "· gct | Maria Mazonaki Asks Sites to Stop Altering Giorgos Mazonakis’s Face With AI",
+      "· gct | Greece’s Research and Development Spend Hits €4.06 Billion",
+      "· gct | Greek Embassy London Marks Women’s Entrepreneurship Day",
+      "· ingr | Οι ΗΠΑ εκδίδουν προειδοποίηση ασφαλείας για τους πολίτες στη Μέση Ανατολή",
+      "· gct | Greek Orthodox Archdiocese of Australia Clarifies Actions in Case of Fr. Christodoulos Vas",
+      "· gct | Greek Mission Unearths Possible Ptolemaic Royal Tomb in Alexandria",
+      "· ingr | Ουκρανία: Στο στόχαστρο ρωσικών drones το Κίεβο",
+      "· gct | Over 1,200 Police, Military and Emergency Personnel Linked to Major Fraud",
+      "· gct | Mitsotakis Sets Out Greece 2030 Vision Ahead of Elections (VID)",
+      "✓ gct | Greek Fund Takes 23% Stake in Data4 Greece to Build Athens Data Centre",
+      "· gct | Panathinaikos Triumph in Spain After Beating Valencia 86-83",
+      "✓ gct | Nationwide Strike in Greece to Disrupt Transport on Wednesday",
+      "· gn-hcg | Εντοπισμός 29 αλλοδαπών στους Καλούς Λιμένες– Εντοπισμός 42 αλλοδαπών στους Καλούς Λιμένες",
+      "· naftemporiki | Απεργία ΑΔΕΔΥ: Ακυρώσεις σε πτήσεις εσωτερικού από AEGEAN και SKY express",
+      "· ingr | Ισραήλ: Ο υπουργός Άμυνας λέει πως το Ιράν αναπτύσσει χημικά όπλα και προσπαθεί να ενεργοπ",
+      "· gct | Beaver Moon Lights Up Greek Skies in Spectacular Display",
+      "· gct | Greek Discovery Raises Hopes for Alexander the Great’s Tomb",
+      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη στο πλαίσιο του συνεδρίου «Future Unfold: Con",
+      "✓ gct | 38.6 Million Passengers Expected at Greek Regional Airports",
+      "· gct | Five Turkish Air Force Personnel Killed in Helicopter Crash",
+      "· gct | Greece’s First Astronaut to Conduct 16 Experiments in Space",
+      "· gn-iefimerida | Απεργία 25ης Νοεμβρίου: Πώς θα κινηθούν Μετρό, Ηλεκτρικός, Τραμ και Προαστιακός -Δεμένα τα",
+      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
+      "· ert | Τουρκία: Στρατιωτικό ελικόπτερο συνετρίβη σε εκπαιδευτική πτήση – Πέντε νεκροί",
+      "· naftemporiki | Channel 12: Απέτυχαν οι συνομιλίες Νετανιάχου με το υπερορθόδοξο UTJ που είναι «πιο κοντά»",
+      "· strikes-naftemporiki | Hellenic Train: Τροποποιήσεις δρομολογίων στον Προαστιακό Αθηνών λόγω των στάσεων εργασίας",
+      "· gn-iefimerida | Κώτσηρας: Επίσκεψη στα Κέντρα Ελέγχου και Ασφάλειας του Μετρό στο Σύνταγμα - iefimerida.gr",
+      "· ktg | Which are the coldest cities and villages in Greece?",
+      "· gn-iefimerida | Κολομβία: Ληστές κρατούν ομήρους μέσα σε σούπερ μάρκετ στην Καρταχένα -Ανεστάλησαν οι αφίξ"
     ]
   },
   "evergreenDone": [
