@@ -1662,9 +1662,362 @@
     "7028b90ca01e": 1795634889543,
     "ccff2b2c4a96": 1795634889543,
     "f66ce5828928": 1795634889543,
-    "df9bc2ebab38": 1795634889543
+    "df9bc2ebab38": 1795634889543,
+    "d4328d4ae6a6": 1795645602415,
+    "7aad25e15b5d": 1795645602415,
+    "5af597d2dc12": 1795645602415,
+    "ff40608529f3": 1795645602415,
+    "3af48a1bb9fc": 1795645602415,
+    "15cb790973e4": 1795645602415,
+    "dff417cbc6a3": 1795645602415,
+    "b41d710799b1": 1795645602415,
+    "369c9c62178a": 1795645602415,
+    "34e9a07e0348": 1795645602415,
+    "e77003dd98f4": 1795645602415,
+    "fe47a8bf408a": 1795645602415,
+    "11080e353bb0": 1795645602415,
+    "70d24133cb02": 1795645602415,
+    "46086b1b51d6": 1795645602415,
+    "c8977c2ebd64": 1795645602415,
+    "9907f4db30ac": 1795645602415,
+    "b33adc50da79": 1795645602415,
+    "f305116f668a": 1795645602415,
+    "10d9e88f9894": 1795645602415,
+    "4f7c37838767": 1795645602415,
+    "affa3a141b66": 1795645602415,
+    "8779edf3b2a4": 1795645602415,
+    "70dce49c19b4": 1795645602415,
+    "c7784d8342cc": 1795645602415,
+    "65661590ad4c": 1795645602415
   },
-  "pending": {},
+  "pending": {
+    "02a730": {
+      "createdAt": 1795645620692,
+      "item": {
+        "title": "Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων - Kathimerini",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOE9GcmtFQUVnYWdEcVBnbXNsSDRZZkU1aTg5NjVaVTlkS0g4cmgwQlo3VU0yV25pUUwtUTU1UGJ4QVBKRXV2QzZ3WnZ6Tnpyanlwem5rajdZTG03dEJYTU50aFhqSW8zQXBJRGJQckF1MzVIRGRRNVlrV1JLa3NXWmdwZEhJcHphVExfb0p0Sllrd2VqNkpnS1VYUTVvS3pOYl9hNGlNQU1MZkpaU0FaN2JHaHNSYVlmT3U4Um5HNGwwVkxmTWdOSTROX3o4eEotNnV2b1Y3UWZXXzg?oc=5",
+        "summary": "Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων &nbsp;&nbsp; Kathimerini",
+        "published": "Wed, 25 Nov 2026 05:04:49 GMT",
+        "id": "70dce49c19b4",
+        "sourceId": "gn-kathimerini",
+        "sourceName": "Καθημερινή (μέσω Google News)",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": true
+      },
+      "pick": {
+        "id": "70dce49c19b4",
+        "section": "breaking",
+        "priority": 10,
+        "sensitive": true,
+        "breaking": true,
+        "reason": "General strike causing grounded flights, trapped ferries, and transport disruptions across Greece. Essential safety and travel info for tourists and travelers.",
+        "item": {
+          "title": "Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων - Kathimerini",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOE9GcmtFQUVnYWdEcVBnbXNsSDRZZkU1aTg5NjVaVTlkS0g4cmgwQlo3VU0yV25pUUwtUTU1UGJ4QVBKRXV2QzZ3WnZ6Tnpyanlwem5rajdZTG03dEJYTU50aFhqSW8zQXBJRGJQckF1MzVIRGRRNVlrV1JLa3NXWmdwZEhJcHphVExfb0p0Sllrd2VqNkpnS1VYUTVvS3pOYl9hNGlNQU1MZkpaU0FaN2JHaHNSYVlmT3U4Um5HNGwwVkxmTWdOSTROX3o4eEotNnV2b1Y3UWZXXzg?oc=5",
+          "summary": "Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων &nbsp;&nbsp; Kathimerini",
+          "published": "Wed, 25 Nov 2026 05:04:49 GMT",
+          "id": "70dce49c19b4",
+          "sourceId": "gn-kathimerini",
+          "sourceName": "Καθημερινή (μέσω Google News)",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": true
+        }
+      },
+      "draft": {
+        "slug": "general-strike-athens-nov-2026",
+        "section": "breaking",
+        "sensitive": true,
+        "breaking": true,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "strike": {
+          "dates": [
+            "2026-11-26"
+          ],
+          "sectors": [
+            "flights",
+            "ferries",
+            "metro",
+            "buses",
+            "trains",
+            "taxis",
+            "public-sector"
+          ],
+          "hours": "all day",
+          "he": "שביתה כללית ביוון: שיבושים בתחבורה הציבורית, מעבורות עוגנות בנמלים וטיסות מבוטלות.",
+          "en": "General strike in Greece: public transport disruptions, anchored ferries and flight cancellations."
+        },
+        "alert": {
+          "he": "שביתה ביוון",
+          "en": "Strike in Greece"
+        },
+        "imageKey": "strike",
+        "imageQuery": "protest strike athens greece",
+        "he": {
+          "title": "שביתה כללית ביוון: שיבושים בתחבורה, מעבורות עוגנות וטיסות מבוטלות",
+          "seoTitle": "שביתה ביוון היום: שיבושים בתחבורה הציבורית והטיסות",
+          "seoDesc": "שביתה כללית ביוון גורמת לשיבושים בתחבורה, מעבורות עוגנות בנמלים וביטולי טיסות. כל הפרטים המעודכנים לתיירים ונוסעים.",
+          "keywords": [
+            "שביתה ביוון",
+            "תחבורה ציבורית ביוון",
+            "טיסות ליוון",
+            "שביתה באתונה",
+            "מעבורות ביוון"
+          ],
+          "dek": "שביתה כללית משביתה את התחבורה הציבורית ביוון, מעבורות עוגנות בנמלים וטיסות מבוטלות. כל מה שצריך לדעת אם אתם נמצאים כעת ביוון או מתכננים טיסה.",
+          "tldr": [
+            "שביתה כללית מתקיימת היום ביוון ומשפיעה על כל ענפי המשק.",
+            "התחבורה הציבורית פועלת במתכונת מצומצמת, מעבורות עוגנות והטיסות משובשות.",
+            "מומלץ לבדוק את סטטוס הטיסות והמעבורות ישירות מול החברות."
+          ],
+          "means": "אם אתם נמצאים כעת ביוון או טסים בימים הקרובים, צפו לשיבושים קשים בהתנהלות השוטפת ובמעבר בין יעדים. תבדקו מראש את לוח הטיסות מול חברת התעופה שלכם, ואת פעילות המעבורות מול הסוכנים או חברות הספנות. כדאי להגיע מוקדם לנמלים ולשדות התעופה ולהיערך לשינויים של הרגע האחרון.",
+          "body": "## מה קורה בשטח עקב השביתה\n\nשביתה כללית יוצאת לדרך ומשפיעה באופן דרמטי על שגרת החיים ביוון ובמוקדי התיירות המרכזיים. הדיווחים הראשונים מעידים על עצירה או האטה משמעותית בשירותים הציבוריים, כאשר השפעות השביתה מורגשות היטב ברחובות אתונה ובשאר חלקי המדינה.\n\nהשביתה פוגעת בכלל המגזרים המרכזיים, לרבות שירותי ממשל, מוסדות ציבור וגופים נוספים המעניקים שירותים לתושבים ולתיירים כאחד.\n\n## השפעה על התחבורה הציבורית, טיסות ומעבורות\n\nהתחבורה הציבורית ביוון מתמודדת עם שיבושים קשים. מערך המטרו, האוטובוסים והרכבות פועל חלקית או משבת את פעילותו בשעות מסוימות במהלך היום, מה שמקשה על ההתנהלות בתוך הערים הגדולות ובדרך לשדות התעופה.\n\nבמקביל, ענף התעופה והימים מרגיש את ההשפעה המלאה:\n- **טיסות:** נרשמות ביטולים ושינויים בלוח הזמנים של חברות התעופה.\n- **מעבורות:** כלי השיט נותרים מעוגנים בנמלים השונים בשל השביתה של עובדי הים והנמלים.\n\n## הנחיות והמלצות לנוסעים ולתיירים\n\nישראלים הנמצאים בחופשה ביוון או מתכננים להגיע בימים הקרובים נדרשים לנקוט משנה זהירות ולהתעדכן באופן שוטף. מומלץ לא לסמוך על לוחות הזמנים הרגילים של האוטובוסים והרכבות התחתיות.\n\nמומלץ ליצור קשר ישירות עם חברות התעופה כדי לוודא שמועד הטיסה שלכם לא השתנה. נוסעים שמתכננים להפליג לאיים חייבים לוודא מול חברות המעבורות האם התבצעו שינויים בהפלגות המתוכננות.\n\n## שאלות נפוצות\n\n**האם התחבורה הציבורית באתונה פועלת היום?**\nהתחבורה הציבורית פועלת במתכונת מצומצמת וצפויים שיבושים משמעותיים בכל קווי האוטובוסים והרכבת התחתית.\n\n**האם הטיסות ליוון וממנה מבוטלות?**\nהשביתה גורמת לביטולים ולשינויים בלוח הטיסות, ולכן חובה לבדוק את סטטוס הטיסה מול חברת התעופה לפני ההגעה לשדה התעופה.\n\n**מה מצב המעבורות בנמלים?**\nהמעבורות עוגנות בנמלים ואינן יוצאות להפלגות סדירות בזמן השביתה, ויש להתעדכן מול חברות הספנות על חידוש הפעילות."
+        },
+        "en": {
+          "title": "General strike in Greece: Transport disruptions, anchored ferries and cancelled flights",
+          "seoTitle": "Greece General Strike Today: Transport & Flight Disruptions",
+          "seoDesc": "A general strike in Greece brings transport disruptions, anchored ferries, and flight cancellations. Essential travel info and updates.",
+          "keywords": [
+            "strike in Greece",
+            "Greece public transport",
+            "flights to Greece",
+            "Athens strike",
+            "Greek ferries"
+          ],
+          "dek": "A general strike halts public transport in Greece, leaves ferries anchored in ports, and leads to flight cancellations. Here is what travellers need to know.",
+          "tldr": [
+            "A nationwide general strike is taking place today across Greece.",
+            "Public transport operates on limited schedules, ferries are anchored, and flights face disruptions.",
+            "Travellers are advised to verify flight and ferry statuses directly with operators."
+          ],
+          "means": "If you are currently in Greece or flying in the coming days, expect severe disruptions to your travel plans and daily transit. Check your flight status directly with your airline, and verify ferry schedules with shipping companies or agents. Allow extra time to reach airports and ports.",
+          "body": "## What is happening during the strike\n\nA nationwide general strike is underway, significantly impacting daily routines across Greece and major tourist hubs. Initial reports indicate a complete halt or major slowdown in public services, with the effects felt strongly in the streets of Athens and throughout the country.\n\nThe strike affects multiple key sectors, including government services, public institutions, and various bodies providing essential services to both residents and visitors alike.\n\n## Impact on public transport, flights and ferries\n\nPublic transport in Greece is facing severe disruptions. The metro, bus, and train networks are either operating on restricted schedules or halting operations during parts of the day, complicating movement within major cities and routes to airports.\n\nAt the same time, the aviation and maritime sectors are feeling the full impact:\n- **Flights:** Cancellations and schedule changes are reported by airlines.\n- **Ferries:** Vessels remain anchored at various ports due to the strike by maritime and port workers.\n\n## Guidelines and recommendations for travellers\n\nIsraelis currently vacationing in Greece or planning to arrive in the coming days must exercise caution and stay updated continuously. It is strongly advised not to rely on standard timetables for buses and underground trains.\n\nMake sure to contact your airline directly to confirm your flight details haven't changed. Passengers planning to take ferries to the islands must check with ferry operators regarding any schedule modifications.\n\n## FAQ\n\n**Is public transport in Athens operating today?**\nPublic transport is running on restricted schedules with significant disruptions expected across all bus and metro lines.\n\n**Are flights to and from Greece cancelled?**\nThe strike is causing cancellations and schedule changes, so checking your flight status with the airline before heading to the airport is mandatory.\n\n**What is the status of ferries at the ports?**\nFerries are anchored in ports and are not operating regular sailings during the strike; check with shipping companies for resumption updates."
+        }
+      },
+      "text": "Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων - Kathimerini\nΑπεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσεων &nbsp;&nbsp; Kathimerini",
+      "issues": [],
+      "el": {
+        "title": "Γενική απεργία στην Ελλάδα: Προβλήματα στις μεταφορές, δεμένα πλοία και ακυρώσεις πτήσεων",
+        "dek": "Μια γενική απεργία παραλύει τα Μέσα Μαζικής Μεταφοράς στην Ελλάδα, κρατά τα πλοία δεμένα στα λιμάνια και οδηγεί σε ακυρώσεις πτήσεων. Εδώ είναι όσα πρέπει να γνωρίζουν οι ταξιδιώτες.",
+        "tldr": [
+          "Μια πανελλαδική γενική απεργία πραγματοποιείται σήμερα σε ολόκληρη την Ελλάδα.",
+          "Τα Μέσα Μαζικής Μεταφοράς λειτουργούν με μειωμένα δρομολόγια, τα πλοία είναι δεμένα και οι πτήσεις αντιμετωπίζουν προβλήματα.",
+          "Συνιστάται στους ταξιδιώτες να επιβεβαιώνουν την κατάσταση των πτήσεων και των πλοίων απευθείας με τις εταιρείες."
+        ]
+      },
+      "notified": true
+    },
+    "4d171d": {
+      "createdAt": 1795645706449,
+      "item": {
+        "title": "Mitsotakis Government Unveils €11.45bn Fiscal Roadmap to 2030",
+        "url": "https://greekcitytimes.com/2026/11/26/mitsotakis-government-unveils-e11-45bn-fiscal-roadmap-to-2030/",
+        "summary": "Greece's 2027 budget targets a €1,000 minimum wage by 2028, tax cuts, higher pensions and €11.45 billion in permanent measures by 2030.\n The post Mitsotakis Government Unveils €11.45bn Fiscal Roadmap to 2030 appeared first on Greek City Times .",
+        "published": "Wed, 25 Nov 2026 21:11:38 +0000",
+        "id": "70d24133cb02",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "70d24133cb02",
+        "section": "politics",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Mitsotakis government unveils a €11.45bn fiscal roadmap targeting wage increases and tax cuts to 2030, relevant for investors and residents tracking the Greek economy.",
+        "item": {
+          "title": "Mitsotakis Government Unveils €11.45bn Fiscal Roadmap to 2030",
+          "url": "https://greekcitytimes.com/2026/11/26/mitsotakis-government-unveils-e11-45bn-fiscal-roadmap-to-2030/",
+          "summary": "Greece's 2027 budget targets a €1,000 minimum wage by 2028, tax cuts, higher pensions and €11.45 billion in permanent measures by 2030.\n The post Mitsotakis Government Unveils €11.45bn Fiscal Roadmap to 2030 appeared first on Greek City Times .",
+          "published": "Wed, 25 Nov 2026 21:11:38 +0000",
+          "id": "70d24133cb02",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-unveils-fiscal-roadmap-2030",
+        "section": "politics",
+        "sensitive": true,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "כלכלת יוון",
+          "en": "Greek Economy"
+        },
+        "imageKey": "politics",
+        "imageQuery": "greek parliament athens finance",
+        "he": {
+          "title": "יוון מציגה תוכנית כלכלית עד 2030: שכר המינימום יעלה והמיסים יופחתו",
+          "seoTitle": "כלכלת יוון 2030: עליית שכר המינימום והפחתת מיסים ביוון",
+          "seoDesc": "ממשלת יוון חשפה תוכנית פיסקלית חדשה עד 2030 הכוללת העלאת שכר המינימום, הפחתת מס לעסקים, שדרוג תחבורה ציבורית ותחזית צמיחה משופרת.",
+          "keywords": [
+            "כלכלת יוון",
+            "יוון 2030",
+            "שכר מינימום ביוון",
+            "מיסים ביוון",
+            "אתונה תחבורה ציבורית"
+          ],
+          "dek": "ממשלת יוון אישרה את תקציב 2030 והתוכנית הפיסקלית הכוללת העלאת שכר ל-1,000 אירו, הקלות במס ותוספת תחבורה ציבורית באתונה ובסלוניקי.",
+          "tldr": [
+            "שכר המינימום ביוון צפוי לעלות ל-1,000 אירו בינואר 2028.",
+            "תחזית הצמיחה של יוון לענת 2027 עודכנה ל-2.3% והחוב הציבורי צפוי לרדת.",
+            "באתונה יתווספו אוטובוסים חדשים והרחבת שירות סופי השבוע."
+          ],
+          "means": "ישראלים בעלי עסקים, נכסים או השקעות ביוון צפויים ליהנות מהקלות במס, כמו הפחתת מקדמות מס והורדת מס לחברות ועצמאים. מומלץ להתעדכן מול רואי חשבון ויועצי מס מקומיים לגבי יישום התקנות בפועל.",
+          "body": "## תוכנית כלכלית חדשה ביוון עד שנת 2030\n\nממשלת יוון קיימה ישיבת ממשלה בה הציגו שר הכלכלה הלאומית והאוצר קיריאקוס פייראקאקיס וסגן השר אתנסיוס פטרליאס את תקציב המדינה לשנת 2027 ואת התוכנית הפיסקלית לטווח ביניים לשנים 2027–2030. התוכנית כוללת שורה של צעדים קבועים בעלות כוללת של 11.45 מיליארד אירו עד סוף העשור.\n\nבראש ההתחייבויות עומדת העלאת שכר המינימום ל-1,000 אירו החל מינואר 2028, מהלך שיגרור אחריו גם עלייה מקבילה בשכר המגזר הציבורי. במקביל, הממשלה מתכננת לבטל את מס העסקים לגופים משפטיים, להפחית את מקדמת מס ההכנסה לעצמאים מ-55% ל-50% החל משנת המס 2027, ולהוריד את המקדמה לעסקים ל-50% באופן הדרגתי.\n\n## תחזיות צמיחה משופרות וירידה בחוב הציבורי\n\nבזכות הצעדים הללו וההשקעות הציבוריות, משרד הכלכלה והאוצר ביוון עדכן כלפי מעלה את תחזיות הצמיחה של המשק. כעת צומחת יוון בקצב חזוי של 2.3% בשנת 2027 ו-2.1% בשנים 2028 ו-2029. במקביל, היחס בין החוב הציבורי לתוצר צפוי לרדת מ-135.8% בשנת 2026 ל-128.5% ב-2027, ולהתקרב ל-110% עד שנת 2030.\n\nתחום האנרגיה צפוי לראות הוזלה של עד 30% בעלויות החשמל בין השנים 2027 ל-2029, לצד הגדלת תוכנית ההשקעות הציבוריות והרחבת תקרת ההוצאות על תרופות במערכת הבריאות.\n\n## שדרוג התחבורה הציבורית באתונה ובסלוניקי\n\nסגן שר התשתיות והתחבורה גאורגיוס קוציራስ הציג את נתוני השיפור בתחבורה הציבורית באתונה, הכוללים גידול במספר נסיעות האוטובוס, עלייה באימות כרטיסים ותוספת שירותים בקווים השונים. השלב הבא בתוכנית כולל רכישת 501 אוטובוסים חדשים לאטיקה, חידוש רכבות במטרו והרחבת שירות סופי השבוע הפועל 24 שעות ביממה החל מתחילת דצמבר.\n\nבסלוניקי נמשכת התקדמות פרויקט הרכבת התחתית לכיוון קלמריה, לצד שיפור בתדירות האוטובוסים והיערכות לכרטיס נסיעה אחוד המשלב בין האוטובוסים למטרו.\n\n## שאלות נפוצות\n\n**מתי צפוי שכר המינימום ביוון לעלות ל-1,000 אירו?**\nשכר המינימום ביוון צפוי להגיע ל-1,000 אירו החל מחודש ינואר 2028, במסגרת התוכנית הפיסקלית הממשלתית.\n\n**האם צפויות הקלות במס לעסקים ולעצמאים ביוון?**\nכן, התוכנית כוללת הפחתה הדרגתית של מקדמת מס ההכנסה לעצמאים ולעסקים, וכן ביטול הדרגתי של מס העסקים לגופים משפטיים.\n\n**מה מצב תחזית הצמיחה של הכלכלה היוונית?**\nמשרד הכלכלה והאוצר ביוון צופה צמיחה של 2.3% בתוצר בשנת 2027, לצד ירידה עקבית ביחס החוב הציבורי."
+        },
+        "en": {
+          "title": "Greece Unveils €11.45 Billion Fiscal Roadmap to 2030 with Wage Hikes and Tax Cuts",
+          "seoTitle": "Greece Fiscal Roadmap 2030: Minimum Wage Hikes and Tax Cuts",
+          "seoDesc": "Greece has unveiled its 2030 fiscal roadmap featuring minimum wage increases to €1,000, business tax reductions, and public transport upgrades.",
+          "keywords": [
+            "Greece economy",
+            "Greece fiscal roadmap 2030",
+            "Greek minimum wage",
+            "Greece tax cuts",
+            "Athens public transport"
+          ],
+          "dek": "The Greek government presented its economic priorities and fiscal plan to 2030, highlighting wage increases, tax relief, and infrastructure investments.",
+          "tldr": [
+            "Greece's minimum wage is set to reach €1,000 in January 2028.",
+            "GDP growth for 2027 is forecast at 2.3% as public debt declines steadily.",
+            "Athens public transport will add 501 new buses and expand weekend 24-hour services."
+          ],
+          "means": "Investors and residents in Greece should consult local accountants regarding upcoming tax reductions for businesses and professionals, as well as property-related tax exemptions included in the fiscal plan.",
+          "body": "## Greece Outlines Fiscal Roadmap to 2030\n\nPrime Minister Kyriakos Mitsotakis chaired a Cabinet meeting where National Economy and Finance Minister Kyriakos Pierrakakis and Deputy Minister Athanasios Petralias presented the 2027 state budget and the second Medium-Term Fiscal Plan for 2027–2030. The strategy incorporates permanent fiscal interventions totalling €11.45 billion by 2030.\n\nA central commitment of the programme is raising the minimum wage to €1,000 starting in January 2028, which will trigger corresponding public sector salary increases. Tax measures include the gradual abolition of the business levy, reducing the advance income tax payment for self-employed professionals from 55% to 50% starting in 2027, and lowering advance tax payments for businesses down to 50% through annual reductions.\n\n## Growth Forecasts Revised Upwards and Debt Declining\n\nThe Ministry of National Economy and Finance has revised its economic projections, expecting GDP growth of 2.3% in 2027 and 2.1% in both 2028 and 2029. Public debt is projected to fall from 135.8% of GDP in 2026 to 128.5% in 2027, heading toward approximately 110% by 2030. Furthermore, the plan includes targeted investments to gradually reduce electricity costs by 30% between 2027 and 2029.\n\n## Public Transport Upgrades in Athens and Thessaloniki\n\nDeputy Infrastructure and Transport Minister George Kotsiras detailed urban transport improvements, pointing to a 4.6% increase in bus services and a 12.8% rise in ticket validations in Athens. The next phase involves procuring 501 additional buses for Attica, upgrading Metro lines, and expanding 24-hour weekend services. In Thessaloniki, progress continues on the Metro extension toward Kalamaria alongside bus frequency enhancements and a unified ticketing system.\n\n## FAQ\n\n**When will the minimum wage in Greece reach €1,000?**\nThe Greek government's fiscal programme schedules the minimum wage to reach €1,000 starting in January 2028.\n\n**Are there tax reductions for businesses and self-employed professionals?**\nYes, the plan includes lowering advance income tax payments for professionals to 50% from 2027 and gradually reducing business advance tax payments to 50%.\n\n**What are the economic growth forecasts for Greece?**\nGreece expects GDP growth of 2.3% in 2027, with public debt continuing to decline towards 110% of GDP by 2030."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n Greece’s government has outlined plans to increase the minimum wage to €1,000 from January 2028, introduce further tax reductions for professionals and businesses, and continue income-support measures under its 2027 state budget and four-year fiscal programme extending to 2030.\n Prime Minister Kyriakos Mitsotakis chaired Wednesday’s Cabinet meeting, which examined the government’s economic priorities alongside interventions in public transport, agricultural subsidy payments and legislative initiatives covering the Armed Forces, the justice system and employment opportunities for workers from non-EU countries.\n National Economy and Finance Minister Kyriakos Pierrakakis, who also serves as president of the Eurogroup, and Deputy Minister Athanasios Petralias presented the 2027 state budget and Greece’s second Medium-Term Fiscal Plan for 2027-2030.\n The plan incorporates fiscal measures already legislated or announced by the government and forecasts a total cost of €11.45 billion for permanent interventions by 2030.\n Read more: Greek Economy Set for 2.3% Growth in 2027 as Debt Falls \n Government spokesperson Pavlos Marinakis said the cost of new permanent measures would reach €605 million in 2026 and €2.28 billion in 2027, rising to €3.6 billion by 2030.\n Previously legislated permanent measures account for €3.66 billion in 2026, €5.52 billion in 2027 and €8.3 billion in 2030.\n The combined fiscal cost of the main permanent interventions is projected to increase progressively:\n 2026: €4.08 billion\n 2027: €7.3 billion\n 2028: €8.86 billion\n 2029: €10.56 billion\n 2030: €11.45 billion\n Minimum wage to reach €1,000 in 2028 \n One of the central commitments in the government’s fiscal programme is to raise the minimum wage to €1,000 from January 2028.\n The increase will also trigger a corresponding across-the-board rise in public sector salaries. The government also plans to continue annual salary increases in accordance with existing legislation.\n On taxation, the programme предусматриes the gradual abolition of the business levy for legal entities, including those operating in the Attica Region.\n The government also plans to reduce the advance income tax payment for self-employed professionals from 55% to 50%, beginning with the 2027 tax year.\n For businesses, the advance tax payment will gradually fall from 80% to 50%, through annual reductions of five percentage points starting with the 2028 tax year.\n The programme also предусматриes accelerated depreciation for investments in machinery and equipment, reducing the depreciation period from 10 years to six.\n Higher pensions, benefits and housing support \n The fiscal plan includes a range of measures affecting pensioners, vulnerable households and public sector employees.\n The government will continue annual pension increases without offsetting the personal difference, while disability benefits will be adjusted in line with economic growth and inflation.\n Other measures include:\n An annual €400 payment for eligible pensioners, people with disabilities and uninsured elderly citizens.\n Continued rent rebates.\n An annual Christmas payment of €500 for public sector employees.\n Extension of the three-year tax exemption for owners who rent out previously vacant properties.\n Continued income tax reductions for expenditure on building upgrades.\n Extension of the VAT exemption for new buildings.\n The government also plans to continue the Piggy Bank for the New Generation programme, enrolling new babies each year.\n Electricity costs to fall by 30% as public investment increases \n The Medium-Term Fiscal Plan includes investments and interventions aimed at gradually reducing electricity costs by 30% between 2027 and 2029.\n The government also plans to increase the Public Investment Programme by €1.2 billion in 2028, followed by an additional €1 billion every subsequent year.\n In healthcare, the government plans to increase the pharmaceutical expenditure ceiling by €100 million annually, on top of increases linked to GDP growth.\n The programme also provides for the return of €200 million in investment-related research and development clawback funds every two years.\n Greece upgrades economic growth forecasts \n The Ministry of National Economy and Finance has revised its economic growth projections upwards compared with the previous Medium-Term Fiscal Plan.\n Greece now expects GDP growth of 2.3% in 2027, up from the previous forecast of 1.7%.\n The government has also revised its 2028 growth forecast to 2.1%, from 1.6%, and its 2029 forecast to 2.1%, from 1.3%.\n According to the government, the improved projections largely reflect the measures announced at the 2026 Thessaloniki International Fair and increased funding through the Developmental Public Investment Programme.\n Despite the cost of the permanent support measures, the fiscal plan forecasts budget surpluses throughout 2027-2030.\n The primary surplus is expected to reach 3.2% of GDP in 2027 and average 3% between 2028 and 2030.\n Greece also expects its public debt to continue declining, from 135.8% of GDP in 2026 to 128.5% in 2027 and 121.3% in 2028. The government expects the ratio to approach 110% by 2030.\n Public transport: 501 additional buses and expanded 24-hour services \n Deputy Infrastructure and Transport Minister George Kotsiras presented the government’s plans to improve urban public transport, focusing on more frequent services, fleet renewal and shorter passenger waiting times.\n In Athens, public transport operators carried out five million bus services during the reporting period, compared with 4.78 million during the corresponding period in 2025, representing a 4.6% increase.\n Ticket validations rose by 12.8%, while the three Athens Metro lines recorded 6,500 additional services.\n Line 1 also recorded its highest passenger activity in three years during October, following the introduction of the first refurbished train.\n Authorities carried out more than six million fare inspections, while the number of model bus routes increased from 15 to 20, reducing waiting intervals by up to 24%.\n The network also expanded to Rafina, Lavrio and other suburban areas.\n The government’s next phase includes procuring another 501 buses for Attica, renewing trains on Metro Lines 2 and 3, and renovating 21 suburban railway stations.\n Three additional public transport routes will join Athens’ 24-hour weekend service from the first Saturday in December.\n The government also expects to reduce waiting times further on the Metro and tram networks during 2027.\n In Thessaloniki, Kotsiras presented progress on the Metro extension towards Kalamaria, improvements to bus service frequencies and plans for a unified ticket covering both buses and the Metro.\n Over the next six months, the government also plans to strengthen staffing, launch tenders for new buses and rolling stock, expand cameras monitoring bus lanes and upgrade digital passenger services.\n Agricultural subsidies: Basic payment advance scheduled for November 30 \n Agriculture and Food Minister Margaritis Schoinas presented the timetable for agricultural subsidy payments.\n The government has scheduled the advance payment of the basic agricultural support for November 30, with the remaining balance due in December alongside redistributive and compensatory payments.\n Schoinas told the Cabinet that the state now controls the payments platform for the first time, adding that every eligible beneficiary would receive the amount they are entitled to.\n He also outlined a payment programme extending through the end of 2027, covering support for young farmers, agri-environmental measures, public works, private investments and LEADER programmes.\n The government also plans emergency financial assistance from national funds, with a significant share directed towards livestock farmers forced to keep their animals indoors because of sheep and goat pox and foot-and-mouth disease.\n Additional support includes ELGA compensation for frost damage suffered before flowering in 2025, payments for milk destroyed in Lesvos, fuel assistance for fishermen and financial support for producers affected in the Philippi marshlands.\n Dendias presents defence industry and Armed Forces reforms \n National Defence Minister Nikos Dendias presented a new bill aimed at strengthening Greece’s defence industry, promoting innovation and updating the institutional framework governing the Armed Forces.\n The proposed legislation seeks to reinforce domestic defence production and establish stronger links between military requirements, research, technology and business activity.\n It also предусматриes cooperation mechanisms with other countries, greater preparedness against unmanned aerial vehicle threats and improved use of military reservists to strengthen operational capabilities.\n A substantial part of the bill concerns military careers, including changes to seniority, performance assessments, promotions, command assignments and specialised service requirements.\n The legislation also seeks to establish a clearer and more objective career progression system that responds to the operational needs of the Armed Forces.\n Other provisions aim to improve incentives and working conditions for military and civilian personnel.\n In education, the bill предусматриes upgrades to military academic training, better organisation of military educational institutions and transparent procedures for appointing teaching staff.\n Further measures cover military recruitment legislation, the management and utilisation of Armed Forces property, healthcare, compensation and personnel benefits.\n Justice reforms target electronic evidence in criminal investigations \n Justice Minister George Floridis presented legislation to incorporate European Directive 2023/1544 into Greek law.\n The directive concerns the collection of electronic evidence for criminal proceedings and establishes harmonised rules for designating establishments and legal representatives responsible for facilitating access to relevant information.\n The proposed legislation aims to remove procedural obstacles, accelerate evidence-gathering processes and strengthen cooperation between European Union member states in criminal investigations.\n Kerameos proposes more jobs for non-EU workers \n Labour and Social Security Minister Niki Kerameos presented a proposal to determine the maximum number of work positions available to citizens from non-EU countries in 2027.\n She said Greece’s continuing decline in unemployment had reduced the availability of domestic workers, while several economic sectors faced growing labour shortages.\n Agriculture and construction have recorded particularly strong demand for additional workers, creating a need to fill vacant positions.\n For the first time, the government has determined the proposed number of positions through a broader consultation process involving the relevant ministries, social partners and representatives of the business community.\n The proposal предусматриes targeted increases in available positions in sectors experiencing the greatest labour shortages, based on assessments of the Greek economy’s workforce requirements.\n (Source: AMNA)\n &nbsp;\n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Greece Unveils 17 Measures to Cut Taxes and Boost Incomes \n French Media Praise Greece Over Tax Collection Success \n S&P Keeps Greece at BBB as Debt Falls and Growth Holds \n How Greece’s Income Landscape Changes in 2027: What Workers, Pensioners and Debtors Need to Know \n Advertising\n Kosta Papadopoulos \n Kosta Papadopoulos is an editor at Greek City Times, covering Greek and international news, travel, sport, and entertainment.\n Previous Article \n Panathlitikos Fall 76-60 to Unbeaten Jairis in Women’s EuroCup\n Next Article \n STATE BUDGET: Greece Plans €1,000 Minimum Wage and Tax Cuts\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα παρουσιάζει δημοσιονομικό χάρτη πορείας 11,45 δισεκατομμυρίων ευρώ έως το 2030 με αυξήσεις μισθών και φοροελαφρύνσεις",
+        "dek": "Η ελληνική κυβέρνηση παρουσίασε τις οικονομικές της προτεραιότητες και το δημοσιονομικό της σχέδιο έως το 2030, δίνοντας έμφαση σε αυξήσεις μισθών, φορολογικές ελαφρύνσεις και επενδύσεις σε υποδομές.",
+        "tldr": [
+          "Ο κατώτατος μισθός στην Ελλάδα προβλέπεται να φτάσει τα 1.000 ευρώ τον Ιανουάριο του 2028.",
+          "Η ανάπτυξη του ΑΕΠ για το 2027 προβλέπεται στο 2,3%, καθώς το δημόσιο χρέος μειώνεται σταθερά.",
+          "Τα μέσα μαζικής μεταφοράς της Αθήνας θα ενισχυθούν με 501 νέα λεωφορεία και θα επងκτείνουν τα 24ωρα δρομολόγια τα Σαββατοκύριακα."
+        ]
+      },
+      "notified": true
+    },
+    "459e89": {
+      "createdAt": 1795645729797,
+      "item": {
+        "title": "US Proposes New Tariffs on EU Goods, Raising Stakes for Greek Exporters",
+        "url": "https://greekcitytimes.com/2026/11/26/us-proposes-tariffs-eu-greece-exporters/",
+        "summary": "The Trump administration has proposed 15 per cent tariffs on EU goods after a Section 301 inquiry into excess industrial capacity. The duties are not yet in force, but Greek exporters of olive oil, table olives and feta would be among those affected.\n The post US Proposes New Tariffs on EU Goods, Raising Stakes for Greek Exporters appeared first on Greek City Times .",
+        "published": "Wed, 25 Nov 2026 22:21:26 +0000",
+        "id": "7aad25e15b5d",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "7aad25e15b5d",
+        "section": "politics",
+        "priority": 5,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "US proposes tariffs on EU goods affecting Greek agricultural exporters, important macroeconomic context for business investors.",
+        "item": {
+          "title": "US Proposes New Tariffs on EU Goods, Raising Stakes for Greek Exporters",
+          "url": "https://greekcitytimes.com/2026/11/26/us-proposes-tariffs-eu-greece-exporters/",
+          "summary": "The Trump administration has proposed 15 per cent tariffs on EU goods after a Section 301 inquiry into excess industrial capacity. The duties are not yet in force, but Greek exporters of olive oil, table olives and feta would be among those affected.\n The post US Proposes New Tariffs on EU Goods, Raising Stakes for Greek Exporters appeared first on Greek City Times .",
+          "published": "Wed, 25 Nov 2026 22:21:26 +0000",
+          "id": "7aad25e15b5d",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "us-proposes-tariffs-on-greek-exports",
+        "section": "politics",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": {
+          "he": "עדכון כלכלי ביוון",
+          "en": "Greece Economy Update"
+        },
+        "imageKey": "politics",
+        "imageQuery": "export cargo port greece",
+        "he": {
+          "title": "ארצות הברית מציעה מכסים חדשים: מה המשמעות ליצוא ביוון?",
+          "seoTitle": "מכסים בארצות הברית: השפעה על יצוא מוצרים מיוון",
+          "seoDesc": "ארצות הברית הציעה מכס של 15 אחוז על סחורות מהאיחוד האירופי, כולל יצוא מיוון. כל הפרטים על הענפים המרכזיים שיושפעו.",
+          "keywords": [
+            "יצוא מיוון",
+            "כלכלה ביוון",
+            "ארהב יוון מכסים",
+            "מוצרים מיוון"
+          ],
+          "dek": "ממשל ארה\"ב הציע מכס של 15% על מוצרים מהאיחוד האירופי, מה שעלול להשפיע על שוק היצוא היווני ומוצרים כמו שמן זית וגבינת פטה.",
+          "tldr": [
+            "ארה\"ב הציעה מכס של 15 אחוז על כלל הסחורות מהאיחוד האירופי.",
+            "היצוא היווני לארה\"ב עמד על 2.405 מיליארד אירו בשנת 2025.",
+            "ענפי החקלאות, שמן זית וזיתי מאכל נמצאים בין הענפים המרכזיים המושפעים."
+          ],
+          "means": "לקוראים הישראלים ולמשקיעים העוקבים אחר השווקים, חשוב להכיר את ההתפתחויות המסחריות הללו שכן הן משפיעות על ענפי הייצור המרכזיים ביוון. אין פעולות מיידיות לנקוט, אך מומלץ לעקוב אחר החלטות סופיות שיתקבלו לאחר תקופת השימוע הציבורי בארצות הברית.",
+          "body": "## הצעת המכסים החדשה של ארצות הברית\n\nממשל בארצות הברית הציע השבוע מכסים חדשים על סחורות מ-14 שותפות סחר, ובהן האיחוד האירופי. הצעדים טרם נכנסו לתוקף והם צפויים לעבור תהליך של שימוע ציבורי עד לחודש ינואר 2027. נציג הסחר האמריקאי קבע כי מדיניות התעשייה של הכלכלות הללו יוצרת עודף כושר ייצור מבני המקשה על המסחר בארצות הברית.\n\nבמסגרת ההצעה, עבור האיחוד האירופי הוצע שיעור מכס של 15 אחוזים על כלל הסחורות, בכפוף לחריגים מסוימים. הנציבות האירופית דחתה את הטענות בדבר עודף כושר ייצור באירופה, והדגישה כי היא מצפה שכל צעד יעמוד בתקרת ה-15 אחוזים המוסכמת.\n\n## השפעה על היצוא ומוצרים מובילים מיוון\n\nמאחר שיוון חברה באיחוד האירופי, סחורות המיוצאות ממנה לארצות הברית כפופות להצעה הנוכחית. נתונים זמניים של הרשות הסטטיסטית ההלנית (ELSTAT) מראים כי היצוא היווני לארצות הברית הסתכם ב-2.405 מיליארד אירו בשנת 2025, נתון שהופך את ארצות הברית לשוק היצוא החמישי בגודלו של יוון.\n\nענפי המזון והחקלאות ביוון הם בין הבולטים בנפח היצוא מעבר לים. נתונים ממשרד התקציב של הפרלמנט היווני ומארגונים מקצועיים מעידים על היקפים ניכרים של יצוא שמן זית, זיתי מאכל וגבינת פטה מסוג PDO לארצות הברית בשנים האחרונות.\n\n## הליך קבלת ההחלטות והמשך הדרך\n\nהמכסים המוצעים אינם נגבים כעת בגבולות והמספרים מהווים הצעה ותקרה אפשרית ולא תוספת אוטומטית מיידית. הערות בכתב ובקשות להשתתף בדיונים הציבוריים יוגשו עד תחילת ינואר 2027, ורשימות המוצרים הסופיות ייקבעו בהמשך בפרסומים רשמיים.\n\n## שאלות נפוצות\n\n**האם המכסים החדשים כבר בתוקף על מוצרים מיוון?**\nלא, המכסים טרם הוטלו והם עוברים כעת הליך של שימוע ציבורי בארצות הברית עד תחילת שנת 2027.\n\n**מהו היקף היצוא של יוון לארצות הברית?**\nלפי נתוני הרשות הסטטיסטית ההלנית (ELSTAT), היצוא היווני לארה\"ב עמד על 2.405 מיליארד אירו בשנת 2025.\n\n**איזה ענפים יווניים עשויים להיות מושפעים במיוחד?**\nענפי החקלאות והמזון, ובכלל זה יצוא שמן זית, זיתי מאכל וגבינת פטה, נמנים עם הענפים המרכזיים הבולטים בסחר זה."
+        },
+        "en": {
+          "title": "US Proposes New Tariffs: What It Means for Greek Exports",
+          "seoTitle": "US Proposes Tariffs: Impact on Greek Exports to America",
+          "seoDesc": "The US has proposed a 15 percent tariff on EU goods, affecting Greek exports including olive oil and feta. Read the details.",
+          "keywords": [
+            "greek exports",
+            "us tariffs greece",
+            "greece economy",
+            "greek olive oil us"
+          ],
+          "dek": "The US administration proposed a 15% tariff on goods from the European Union, potentially impacting Greek export markets for olive oil, table olives, and feta cheese.",
+          "tldr": [
+            "The US proposed a 15 percent tariff rate on all goods from the European Union.",
+            "Greek goods exports to the US reached 2.405 billion euros in 2025.",
+            "Agricultural products, table olives, and olive oil are among the exposed shipments."
+          ],
+          "means": "For readers and investors monitoring market trends, it is important to note these trade policy developments affecting key manufacturing sectors in Greece. No immediate action is required, and final product lists will be set after the US public comment period.",
+          "body": "## US Trade Policy and Proposed Tariffs\n\nThe United States administration has proposed new tariffs on goods from 14 trading partners, including the European Union. The proposed duties have not been imposed yet and will undergo a public comment process with hearings scheduled for January 25, 2027. The Office of the United States Trade Representative determined that the practices of these economies burdened US commerce.\n\nFor the European Union, the proposal sets a tariff rate of 15 percent on all goods, subject to certain exemptions. The European Commission rejected the overcapacity findings and stated it expects any measures to respect the 15 percent ceiling fully.\n\n## Impact on Greek Exporters\n\nBecause Greece is an EU member, its goods exports to the United States fall under the proposed 15 percent rate unless exempted. Provisional figures from the Hellenic Statistical Authority (ELSTAT) show Greek exports to the US reached 2.405 billion euros in 2025, making America Greece's fifth-largest goods market.\n\nFood and agricultural products are among the most exposed shipments. Studies and international councils report substantial exports of Greek table olives, olive oil, and PDO feta to the United States market.\n\n## Next Steps and Timelines\n\nThe 15 percent figure is currently a proposed cap and is not being collected at the border. Written comments are due by January 5, 2027, and final product lists along with exemptions will be published in Federal Register notices after the comment period.\n\n## FAQ\n\n**Are the proposed US tariffs currently being collected on Greek goods?**\nNo, the duties have not been imposed yet and are subject to a public comment process and hearings in early 2027.\n\n**What was the value of Greek exports to the US?**\nAccording to provisional data from the Hellenic Statistical Authority (ELSTAT), Greek exports to the US were worth 2.405 billion euros in 2025.\n\n**Which Greek products are most exposed to the proposed changes?**\nAgricultural and food products, including table olives, olive oil, and PDO feta cheese, are among the key shipments highlighted in trade reports."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n The Trump administration has proposed new tariffs on goods from 14 trading partners, including the European Union and China, after finding that their industrial policies have created structural excess manufacturing capacity. The duties have not been imposed. They will first go through a public comment process, with hearings scheduled for 25 January 2027.\n On Wednesday, 25 November, US Trade Representative Jamieson Greer determined under Section 301 of the Trade Act of 1974 that the acts, policies and practices of 14 economies were unreasonable and burdened US commerce. The list covers China, the European Union, Japan, South Korea, India, Taiwan, Vietnam, Switzerland, Singapore, Indonesia, Malaysia, Thailand, Cambodia and Bangladesh. Investigations into Mexico and Norway remain open.\n Reuters reported that Washington is using the long-standing trade statute to put its tariff policy on firmer legal ground after the US Supreme Court in February struck down broader duties imposed under a national emergencies law. Greer said many trading partners had adopted “industrial strategies built on targeting manufacturing, wage and labour suppression, financial and other support, non-market economy inputs, and other market distorting practices.”\n Read more: Trump, Xi and Putin Hold 80-Minute Summit \n Proposed rates, not immediate duties\n For the European Union, USTR has proposed a tariff rate of 15 per cent on all goods, net of most-favoured-nation duties and existing Section 301 tariffs, with exemptions for certain products. That figure matches the ceiling in last year’s United States-European Union Framework Agreement.\n China would face tariffs of up to 20 per cent, with a lower rate of up to 10 per cent on some goods and exemptions for products on a bilateral “30-for-30” list. Reuters said that cap is tied to a US-China trade truce expiring on 10 January, and that the rate could rise to 40 per cent if the truce unravels. Vietnam could face up to 35 per cent if a trade deal is not reached, and India up to 25 per cent, so China would not uniquely face the highest levy. Cambodia, Indonesia, Malaysia, Thailand and Bangladesh would face up to 18 per cent, Japan, South Korea, Taiwan and Switzerland up to 15 per cent, and Singapore up to 20 per cent, or 10 per cent if an agreement is concluded.\n Written comments and requests to appear at the hearings are due by 5 January 2027. Reuters said the new duties would not be stacked on earlier tariffs from a separate forced-labour investigation, or on sectoral national security duties on steel, aluminium, cars and other goods.\n Brussels rejects the overcapacity finding\n The European Commission rejected the claim that Europe is a source of structural overcapacity. Deputy chief spokesperson Olof Gill said Europe was “among those most exposed to overcapacity” and that Brussels expected any measure from the investigation to respect the 15 per cent all-inclusive ceiling “in full, including when combined with existing duties.” Bernd Lange, chair of the European Parliament’s trade committee, called the USTR conclusions “absurd.” A spokesperson for China’s embassy in Washington said the “so-called issue of ‘industrial overcapacity’ does not really exist.”\n What it means for Greek exporters\n Because Greece is an EU member, its goods exports to the United States would fall under the proposed 15 per cent rate unless they are later exempted. Provisional figures from the Hellenic Statistical Authority, compiled by Enterprise Greece, show Greek exports to the US were worth €2.405 billion in 2025, making America Greece’s fifth-largest goods market, with a 4.9 per cent share.\n Food and agricultural products are among the shipments most exposed. A Greek Parliament Budget Office study, cited by FoodNavigator, put 2024 Greek table olive exports to the US at €212.2 million and olive oil at €76.3 million. The International Olive Council said Greece shipped 13,591 tonnes of olive oil to the US in the 2024/25 season, up 40 per cent. Greek City Times has already reported that table olive shipments to the United States fell 6 per cent in the first half of 2026 as tariffs and policy changes disrupted orders. Greek PDO feta exports to the US amount to about 6,500 tonnes a year, The National Herald reported in November, citing Dodoni’s international commercial director.\n The final product lists, and any exemptions, will be set out in Federal Register notices after the comment period. Until then, the 15 per cent figure is a proposed cap, not an automatic extra 15 percentage points on every Greek shipment, and it is not yet being collected at the border.\n Sources: Office of the United States Trade ; Enterprise Greece (Hellenic Statistical Authority provisional data); \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n Trump Says US-China-Russia Summit Is Making History \n Xi, Trump and Putin Meet in Unprecedented Summit \n US Democrats Vow to Continue Investigation Into Kimberly Guilfoyle \n Greece Ranks Second Worldwide in Table Olive Exports \n Advertising\n Stella Mazonakis \n Stella Mazonakis is a contributor at Greek City Times, covering Greek news, community stories, sport, culture, and current affairs for readers in Greece and the diaspora.\n Previous Article \n Greece Sees Largest-Ever Voluntary Migrant Return Flight \n Next Article \n Greece Offers Up to €300 a Month After Kalypsi Housing Programme Ends\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Οι ΗΠΑ προτείνουν νέους δασμούς: Τι σημαίνει αυτό για τις ελληνικές εξαγωγές",
+        "dek": "Η αμερικανική κυβέρνηση πρότεινε δασμό 15% στα προϊόντα από την Ευρωπαϊκή Ένωση, γεγονός που ενδέχεται να επηρεάσει τις ελληνικές εξαγωγικές αγορές ελαιολάδου, επιτραπέζιων ελιών και φέτας.",
+        "tldr": [
+          "Οι ΗΠΑ πρότειναν συντελεστή δασμού 15% σε όλα τα προϊόντα από την Ευρωπαϊκή Ένωση.",
+          "Οι εξαγωγές ελληνικών προϊόντων στις ΗΠΑ έφτασαν τα 2,405 δισεκατομμύρια ευρώ το 2025.",
+          "Τα αγροτικά προϊόντα, οι επιτραπέζιες ελιές και το ελαιόλαδο συγκαταλέγονται στις ευάλωτες αποστολές."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1674,12 +2027,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-25T19:27:57.671Z",
+      "at": "2026-11-25T22:26:27.380Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-25T19:27:58.649Z",
+      "at": "2026-11-25T22:26:28.271Z",
       "items": 5
     },
     "civilprotection": {
@@ -1690,27 +2043,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-25T19:28:00.116Z",
+      "at": "2026-11-25T22:26:30.753Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-25T19:28:00.630Z",
+      "at": "2026-11-25T22:26:31.152Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-25T19:28:02.079Z",
+      "at": "2026-11-25T22:26:32.364Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-25T19:28:02.977Z",
-      "items": 8
+      "at": "2026-11-25T22:26:33.190Z",
+      "items": 4
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-25T19:28:03.862Z",
+      "at": "2026-11-25T22:26:34.066Z",
       "items": 10
     },
     "toi-greece": {
@@ -1721,23 +2074,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-25T19:28:04.147Z",
+      "at": "2026-11-25T22:26:34.681Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-25T19:28:04.256Z",
-      "items": 14
+      "at": "2026-11-25T22:26:34.937Z",
+      "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-25T19:28:04.360Z",
-      "items": 4
+      "at": "2026-11-25T22:26:36.442Z",
+      "items": 0
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T19:28:04.917Z",
-      "items": 7
+      "at": "2026-11-25T22:26:36.971Z",
+      "items": 6
     },
     "ynet-greece": {
       "ok": true,
@@ -1746,12 +2099,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T19:27:59.261Z",
+      "at": "2026-11-25T22:26:29.957Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-25T19:28:05.807Z",
+      "at": "2026-11-25T22:26:37.796Z",
       "items": 0
     },
     "hcg": {
@@ -1762,121 +2115,63 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-25T19:28:07.325Z",
+      "at": "2026-11-25T22:26:38.968Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-25T19:28:07.548Z",
-      "items": 3
+      "at": "2026-11-25T22:26:39.192Z",
+      "items": 4
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-25T19:28:07.697Z",
+      "at": "2026-11-25T22:26:39.360Z",
       "items": 10
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-25T19:28:08.050Z",
+      "at": "2026-11-25T22:26:39.674Z",
       "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-25T19:28:08.400Z",
-      "items": 8
+      "at": "2026-11-25T22:26:40.123Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-25T19:28:08.802Z",
-      "items": 8
+      "at": "2026-11-25T22:26:40.470Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
-    "date": "2026-11-25",
-    "count": 5,
+    "date": "2026-11-26",
+    "count": 2,
     "published": [
       {
-        "slug": "athens-data-center-investment",
-        "title": "New Tech Investment in Athens Data Centre",
-        "at": "2026-11-25T02:55:18+02:00",
-        "section": "real-estate"
-      },
-      {
-        "slug": "record-passenger-traffic-at-greek-regional-airports",
-        "title": "Record Passenger Traffic at Greek Regional Airports in 2026",
-        "at": "2026-11-25T02:55:39+02:00",
+        "slug": "direct-flights-thessaloniki-us-discussion",
+        "title": "Direct Flights Between Thessaloniki and the US Under Discussion",
+        "at": "2026-11-26T00:27:24+02:00",
         "section": "travel"
       },
       {
-        "slug": "flu-vaccine-shortage-greece-november-2026",
-        "title": "Flu Vaccine Shortage in Greece: New Shipments on the Way",
-        "at": "2026-11-25T11:19:13+02:00",
+        "slug": "athens-thessaloniki-public-transport-upgrade",
+        "title": "Public Transport Upgrade in Athens and Thessaloniki with New Buses and Metro Expansion",
+        "at": "2026-11-26T00:27:57+02:00",
         "section": "living"
-      },
-      {
-        "slug": "greece-cyprus-power-link-energy-projects",
-        "title": "Greece Energy: Cyprus Link and Island Power Grids Advance",
-        "at": "2026-11-25T14:40:57+02:00",
-        "section": "politics"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-ionian-islands",
-        "title": "Storm Warning Issued for Greece: Orange Alert for Ionian Islands",
-        "at": "2026-11-25T14:42:00+02:00",
-        "section": "breaking"
-      },
-      {
-        "slug": "peloponnese-property-demand-2026",
-        "title": "Peloponnese Attracts Strong Demand from Foreign Homebuyers",
-        "at": "2026-11-25T21:27:53+02:00",
-        "section": "real-estate"
       }
     ],
-    "rejected": [
-      {
-        "title": "Nationwide Strike in Greece to Disrupt Transport on Wednesday",
-        "reason": "Ίδιο θέμα με «Greece strike November 25: transport updates and details» – δεν γράφτηκε ξανά",
-        "at": "2026-11-25T00:54:47.207Z"
-      },
-      {
-        "title": "Σεισμός 4,6 Ρίχτερ στα παράλια της Τουρκίας -Έγινε αισθητός και στα νησιά του Αιγαίου - iefimerida.gr",
-        "reason": "The article includes information not present in the source text: 'No reports of structural damage or injuries', 'no disruptions to ferry services or flights', and 'no need to change your travel plans'. Rule 8 states: Do not add numbers, conversions or facts that are not in the source.; The article i",
-        "at": "2026-11-25T00:56:03.830Z"
-      },
-      {
-        "title": "Σε απεργιακό κλοιό σήμερα η χώρα: Πώς θα κινηθούν Μετρό, λεωφορεία, Τραμ -Τι ισχύει για νοσοκομεία, σχολεία, ακυρώνονται πτήσεις - iefimerid",
-        "reason": "Ίδιο θέμα με «Greece strike November 25: transport updates and details» – δεν γράφτηκε ξανά",
-        "at": "2026-11-25T09:18:34.380Z"
-      },
-      {
-        "title": "Βόλος: Οι εκκρεμότητες στους φακέλους ακινήτων καθυστερούν για μήνες τις πωλήσεις",
-        "reason": "Ίδιο θέμα με «Greek Housing Market: Homeownership Rate Declines Amid Rising Costs» – δεν γράφτηκε ξανά",
-        "at": "2026-11-25T09:19:18.213Z"
-      }
-    ],
+    "rejected": [],
     "errors": [],
-    "fb": [
-      {
-        "slug": "flu-vaccine-shortage-greece-november-2026",
-        "at": "2026-11-25T09:19:14.240Z"
-      },
-      {
-        "slug": "greece-cyprus-power-link-energy-projects",
-        "at": "2026-11-25T12:40:58.257Z"
-      },
-      {
-        "slug": "orange-thunderstorm-warning-ionian-islands",
-        "at": "2026-11-25T12:42:01.855Z"
-      },
-      {
-        "slug": "peloponnese-property-demand-2026",
-        "at": "2026-11-25T19:27:54.131Z"
-      }
-    ],
-    "ig": []
+    "fb": []
   },
   "history": [
+    {
+      "date": "2026-11-25",
+      "count": 5,
+      "rejected": 4
+    },
     {
       "date": "2026-11-24",
       "count": 2,
@@ -2171,49 +2466,41 @@
       "date": "2026-09-27",
       "count": 18,
       "rejected": 3
-    },
-    {
-      "date": "2026-09-26",
-      "count": 1,
-      "rejected": 1
     }
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-25T19:28:09.543Z",
-    "considered": 40,
-    "picked": 0,
+    "at": "2026-11-25T22:26:42.415Z",
+    "considered": 27,
+    "picked": 5,
     "items": [
-      "· ert | Αίγυπτος: Τουλάχιστον 30 νεκροί από ανατροπή βυτιοφόρου σε αυτοκινητόδρομο",
-      "· naftemporiki | Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
-      "· naftemporiki | Τραγωδία στην Αίγυπτο: Τουλάχιστον 30 νεκροί σε πυρκαγιά μετά την ανατροπή βυτιοφόρου (Βίν",
-      "· ingr | Ισραήλ: Η αντιπολίτευση προωθεί την έρευνα για την επίθεση της 7ης Οκτωβρίου – Αντιτίθεται",
-      "· naftemporiki | Ισραήλ: Ο Άιζενκοτ φέρεται να υποσχέθηκε στο κόμμα του Λίμπερμαν τα υπουργεία Δικαιοσύνης ",
-      "· naftemporiki | Γερμανία: Ανακαινίζεται «η Φωλιά του Αετού», ο πρώην ναζιστικός ξενώνας που είχε καταστραφ",
-      "· gn-iefimerida | Σεισμός 4,1 ρίχτερ στην Κεφαλονιά - iefimerida.gr",
-      "· ert | Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
-      "· ingr | Σεισμός 4,2 Ρίχτερ στην Κεφαλονιά",
-      "· ingr | Κύμα κακοκαιρίας 72 ωρών με βροχές και καταιγίδες – Ποιες περιοχές βρίσκονται στο επίκεντρ",
-      "· ingr | ΕΛΑΣ: Όχι στην εισβολή ιδιωτών στην Ειδική Αγωγή – Οι ρυθμίσεις που ζητά να αποσύρει η κυβ",
-      "· gct | Costume Designer Wins British Fashion Council’s Costume Designer of the Year for ‘The Odys",
-      "· naftemporiki | Νετανιάχου: Το Ισραήλ αντιμετωπίζει «τεράστιους, άμεσους κινδύνους», μόνη λύση «η ενότητα»",
-      "· ert | Χαμηλές πτήσεις για την ηλεκτροκίνηση στην Ελλάδα: Αύξηση 30% στις πωλήσεις στην ΕΕ-Μόλις ",
-      "· naftemporiki | Νετανιάχου: Ζητά άμεσο τερματισμό της δίκης του για διαφθορά",
-      "· ert | Απάτη με εικονικές διανυκτερεύσεις ενστόλων: Τα τρία «πρόσωπα κλειδιά», οι 173 κατοικίες κ",
-      "· ktg | Christmas table up by 18% as Greeks plan their festive shopping",
-      "· ert | Τεχεράνη: «Το Ισραήλ θέλει να σύρει τις ΗΠΑ σε έναν νέο πόλεμο με ισχυρισμούς για ιρανικά ",
-      "· naftemporiki | Αραγτσί: Το Ισραήλ θέλει να παρασύρει τις ΗΠΑ σε χημικό πόλεμο με το Ιράν",
-      "· ert | Δυναμικό απεργιακό «παρών» σε όλη τη χώρα: Στους δρόμους για αυξήσεις, επαναφορά 13ου και ",
-      "· gn-kathimerini | Η Πολωνία θα δημιουργήσει ζώνη απαγόρευσης πτήσεων στα ουκρανικά σύνορα - Kathimerini",
-      "· ert | Απεργιακές συγκεντρώσεις και πορείες στη Ζάκυνθο και την Κεφαλονιά",
-      "· ert | Ιράν: Δεξαμενόπλοιο μεταφοράς LNG προσέκρουσε σε νάρκη στα Στενά του Ορμούζ και έπιασε φωτ",
-      "· gtp | Fraport Greece Plans Over €90 Million Investment in Corfu Airport Expansion",
-      "· gtp | Greece Plans €32 Million in Ferry Subsidies to Contain Ticket Prices",
-      "· ktg | Greece offers free testing for HIV, Hepatitis & other STIs",
-      "· gn-kathimerini | Κύκλωμα εικονικών αποδείξεων: Σε ακίνητο 44 τ.μ. εμφανιζόταν να διαμένουν ταυτόχρονα 23 άτ",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο και μεθαύριο, Πέμπτη 26 και Παρασκ",
-      "· minfin | Υπογράφηκε η σύμβαση για το Μιναγιώτικο φράγμα – Έργο 147 εκατ. ευρώ για την άρδευση 35.00",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ"
+      "· gct | Greece Offers Up to €300 a Month After Kalypsi Housing Programme Ends",
+      "✓ gct | US Proposes New Tariffs on EU Goods, Raising Stakes for Greek Exporters",
+      "· gct | Greece Sees Largest-Ever Voluntary Migrant Return Flight",
+      "· gct | EU Pushes to Cut Russian Schengen Visas as Greece Remains a Major Issuer",
+      "· gct | Religious Teacher Removed Over Alleged Sexually Explicit Pics",
+      "· gct | Phaleron Prisoners: 79 Shackled Men’s Mass Grave Opens in Athens",
+      "· gct | Greek Rafale Fighters Begin First Deployment on Skyros Island",
+      "· gct | STATE BUDGET: Greek Farmers to Receive Agricultural Subsidy Advance",
+      "· gct | Greece and Yemen Deepen Maritime Security Cooperation",
+      "✓ gct | STATE BUDGET: Major Transport Upgrade in Athens and Thessaloniki",
+      "· gct | STATE BUDGET: Greece Targets 30% Electricity Cost Reduction",
+      "· gct | STATE BUDGET: Greece Plans Pension Rises and Xmas Payment",
+      "· gct | STATE BUDGET: Greece Plans €1,000 Minimum Wage and Tax Cuts",
+      "✓ gct | Mitsotakis Government Unveils €11.45bn Fiscal Roadmap to 2030",
+      "· gct | Panathlitikos Fall 76-60 to Unbeaten Jairis in Women’s EuroCup",
+      "· strikes-naftemporiki | Μαζικές απεργιακές κινητοποιήσεις σε όλη τη χώρα – Στο επίκεντρο μισθοί, 13ος και 14ος μισ",
+      "· naftemporiki | Μαζικές απεργιακές κινητοποιήσεις σε όλη τη χώρα – Στο επίκεντρο μισθοί, 13ος και 14ος μισ",
+      "· naftemporiki | Alter Ego Media: Αύξηση μετοχικού κεφαλαίου 40 εκατ. ευρώ για τη χρηματοδότηση επενδύσεων",
+      "· gn-iefimerida | Ασύλληπτη τραγωδία στην Αίγυπτο: Τουλάχιστον 30 νεκροί και 15 τραυματίες από έκρηξη βυτιοφ",
+      "· gn-iefimerida | Ένοπλες Δυνάμεις: Όλες οι αλλαγές που φέρνει το νομοσχέδιο του υπουργείου Άμυνας -Τι προβλ",
+      "· gn-iefimerida | Εικονικά καταλύματα, διαμονές στο... μιλητό σε 173 μισθωμένα ακίνητα -Πώς εξαπατούσαν το δ",
+      "· gn-iefimerida | Μετρό Θεσσαλονίκης: Πάνω από 5,5 δισ. ευρώ για την πλήρη ανάπτυξη του δικτύου -Πρώτη προτε",
+      "· gn-iefimerida | Σταθακόπουλος: Όταν δούμε το τουρκικό νομοσχέδιο για τη «Γαλάζια Πατρίδα», θα είναι αργά -",
+      "· gn-iefimerida | Κλειστός σήμερα ο Εθνικός Κήπος λόγω των απεργιακών κινητοποιήσεων - iefimerida.gr",
+      "✓ gn-kathimerini | Απεργία σήμερα: Ποιοι συμμετέχουν, πώς κινούνται τα ΜΜΜ – Δεμένα πλοία και ακυρώσεις πτήσε",
+      "· gtp | ACG-ĒNSOFI: Global Hospitality and Tourism School to Open in Greece in 2027",
+      "✓ gtp | Direct Flights Between Thessaloniki and the US Under Discussion"
     ]
   },
   "evergreenDone": [
