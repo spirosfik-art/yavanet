@@ -1625,7 +1625,33 @@
     "876f9c315e50": 1795568083490,
     "5fb130c68f7b": 1795568083490,
     "68c4061559ad": 1795568083490,
-    "91e0f2ed9b40": 1795568083490
+    "91e0f2ed9b40": 1795568083490,
+    "08db8df58613": 1795573148837,
+    "fa35fe814226": 1795573148837,
+    "71af30f2fc4a": 1795573148837,
+    "05bb72975734": 1795573148837,
+    "b9450066fdec": 1795573148837,
+    "b2af00d7ec04": 1795573148837,
+    "6702552c5b48": 1795573148837,
+    "b71b92251c51": 1795573148837,
+    "682b2ad0d861": 1795573148837,
+    "73670972a87c": 1795573148837,
+    "77fc5f628ebb": 1795573148837,
+    "80a65aa1b5eb": 1795573148837,
+    "6896f6b3df76": 1795573148837,
+    "e1213dda8d12": 1795573148837,
+    "1569376355c9": 1795573148837,
+    "27c9a05e0b3b": 1795573148837,
+    "e80fddca97e0": 1795573148837,
+    "c67016912807": 1795573148837,
+    "fc47be79ab7d": 1795573148837,
+    "e13ed779d66f": 1795573148837,
+    "8ba4ff4fc8a7": 1795573148837,
+    "74e457f1c7cb": 1795573148837,
+    "34a02ab79112": 1795573148837,
+    "d8bd4be7f507": 1795573148837,
+    "354d05d2bce2": 1795573148837,
+    "7b25645c9bb0": 1795573148837
   },
   "pending": {},
   "sourceStatus": {
@@ -1637,12 +1663,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-25T00:54:30.360Z",
-      "items": 10
+      "at": "2026-11-25T02:18:57.413Z",
+      "items": 0
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-25T00:54:31.313Z",
+      "at": "2026-11-25T02:18:58.212Z",
       "items": 5
     },
     "civilprotection": {
@@ -1653,27 +1679,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-25T00:54:32.600Z",
+      "at": "2026-11-25T02:18:59.851Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-25T00:54:32.668Z",
+      "at": "2026-11-25T02:19:00.092Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-25T00:54:34.102Z",
+      "at": "2026-11-25T02:19:01.368Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-25T00:54:34.889Z",
+      "at": "2026-11-25T02:19:02.148Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-25T00:54:36.044Z",
+      "at": "2026-11-25T02:19:03.059Z",
       "items": 10
     },
     "toi-greece": {
@@ -1684,22 +1710,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-25T00:54:36.691Z",
+      "at": "2026-11-25T02:19:03.599Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-25T00:54:36.799Z",
+      "at": "2026-11-25T02:19:03.721Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-25T00:54:37.394Z",
-      "items": 3
+      "at": "2026-11-25T02:19:04.359Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T00:54:37.963Z",
+      "at": "2026-11-25T02:19:04.552Z",
       "items": 2
     },
     "ynet-greece": {
@@ -1709,12 +1735,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T00:54:31.771Z",
+      "at": "2026-11-25T02:18:59.153Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-25T00:54:38.780Z",
+      "at": "2026-11-25T02:19:05.222Z",
       "items": 0
     },
     "hcg": {
@@ -1725,33 +1751,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-25T00:54:40.282Z",
+      "at": "2026-11-25T02:19:06.722Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-25T00:54:40.471Z",
-      "items": 5
+      "at": "2026-11-25T02:19:06.910Z",
+      "items": 6
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-25T00:54:40.632Z",
-      "items": 8
+      "at": "2026-11-25T02:19:07.061Z",
+      "items": 9
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-25T00:54:40.867Z",
-      "items": 3
+      "at": "2026-11-25T02:19:07.301Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-25T00:54:41.311Z",
-      "items": 3
+      "at": "2026-11-25T02:19:07.602Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-25T00:54:41.655Z",
-      "items": 10
+      "at": "2026-11-25T02:19:07.972Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -2091,40 +2117,36 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-25T00:54:43.490Z",
-    "considered": 40,
-    "picked": 4,
+    "at": "2026-11-25T02:19:08.837Z",
+    "considered": 26,
+    "picked": 0,
     "items": [
-      "· ert | Ισραήλ: Στον «πάγο» οι συνομιλίες για τον σχηματισμό κυβέρνησης – Νέο ρήγμα στο στρατόπεδο",
-      "· gct | Maria Mazonaki Asks Sites to Stop Altering Giorgos Mazonakis’s Face With AI",
-      "· gct | Greece’s Research and Development Spend Hits €4.06 Billion",
-      "· gct | Greek Embassy London Marks Women’s Entrepreneurship Day",
-      "· ingr | Οι ΗΠΑ εκδίδουν προειδοποίηση ασφαλείας για τους πολίτες στη Μέση Ανατολή",
-      "· gct | Greek Orthodox Archdiocese of Australia Clarifies Actions in Case of Fr. Christodoulos Vas",
-      "· gct | Greek Mission Unearths Possible Ptolemaic Royal Tomb in Alexandria",
-      "· ingr | Ουκρανία: Στο στόχαστρο ρωσικών drones το Κίεβο",
-      "· gct | Over 1,200 Police, Military and Emergency Personnel Linked to Major Fraud",
-      "· gct | Mitsotakis Sets Out Greece 2030 Vision Ahead of Elections (VID)",
-      "✓ gct | Greek Fund Takes 23% Stake in Data4 Greece to Build Athens Data Centre",
-      "· gct | Panathinaikos Triumph in Spain After Beating Valencia 86-83",
-      "✓ gct | Nationwide Strike in Greece to Disrupt Transport on Wednesday",
-      "· gn-hcg | Εντοπισμός 29 αλλοδαπών στους Καλούς Λιμένες– Εντοπισμός 42 αλλοδαπών στους Καλούς Λιμένες",
-      "· naftemporiki | Απεργία ΑΔΕΔΥ: Ακυρώσεις σε πτήσεις εσωτερικού από AEGEAN και SKY express",
-      "· ingr | Ισραήλ: Ο υπουργός Άμυνας λέει πως το Ιράν αναπτύσσει χημικά όπλα και προσπαθεί να ενεργοπ",
-      "· gct | Beaver Moon Lights Up Greek Skies in Spectacular Display",
-      "· gct | Greek Discovery Raises Hopes for Alexander the Great’s Tomb",
-      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη στο πλαίσιο του συνεδρίου «Future Unfold: Con",
-      "✓ gct | 38.6 Million Passengers Expected at Greek Regional Airports",
-      "· gct | Five Turkish Air Force Personnel Killed in Helicopter Crash",
-      "· gct | Greece’s First Astronaut to Conduct 16 Experiments in Space",
-      "· gn-iefimerida | Απεργία 25ης Νοεμβρίου: Πώς θα κινηθούν Μετρό, Ηλεκτρικός, Τραμ και Προαστιακός -Δεμένα τα",
-      "· gn-hcg | Αφίξεις & Αναχωρήσεις Πλοίων - ΛΣ-ΕΛΑΚΤ",
-      "· ert | Τουρκία: Στρατιωτικό ελικόπτερο συνετρίβη σε εκπαιδευτική πτήση – Πέντε νεκροί",
-      "· naftemporiki | Channel 12: Απέτυχαν οι συνομιλίες Νετανιάχου με το υπερορθόδοξο UTJ που είναι «πιο κοντά»",
-      "· strikes-naftemporiki | Hellenic Train: Τροποποιήσεις δρομολογίων στον Προαστιακό Αθηνών λόγω των στάσεων εργασίας",
-      "· gn-iefimerida | Κώτσηρας: Επίσκεψη στα Κέντρα Ελέγχου και Ασφάλειας του Μετρό στο Σύνταγμα - iefimerida.gr",
-      "· ktg | Which are the coldest cities and villages in Greece?",
-      "· gn-iefimerida | Κολομβία: Ληστές κρατούν ομήρους μέσα σε σούπερ μάρκετ στην Καρταχένα -Ανεστάλησαν οι αφίξ"
+      "· gct | Thanos Petrelis Leaves Sanremo Live After Just Three Shows",
+      "· ingr | Ισραήλ: Οι Δημοκράτες αναστέλλουν τις συνομιλίες με το κόμμα Γιασάρ του Αϊζενκοτ",
+      "· ingr | Τουρκία: Επίθεση στη Λεπέν που «υιοθέτησε τις θέσεις Ελλάδας και Ισραήλ»",
+      "· gn-kathimerini | Κύμα απεργιών στη γερμανική αυτοκινητοβιομηχανία - Kathimerini",
+      "· gn-civilprotection | Ημερίδα Κρατικής Αρωγής με θέμα: «Αποκατάσταση μετά από Φυσικές Καταστροφές – Κράτος και Ι",
+      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Τετάρτη 25 Νοεμβρίου 2026 - πρωθυ",
+      "· gtp | Strike to Disrupt Transport Services in Greece on November 25",
+      "· gtp | COP31 Ends Without Overall Agreement Over Fossil Fuel Dispute",
+      "· gn-kathimerini | Εξοδος στην Αθήνα την Τρίτη 24/11: Ακρόπολη και Ορσον Γουέλς - Kathimerini",
+      "· gn-civilprotection | Ευάγγελος Τουρνάς στην ημερίδα για την Κρατική Αρωγή: Ταχύτερη κρατική αρωγή, μεγαλύτερη δ",
+      "· gn-kathimerini | Διχογνωμία στο Ισραήλ για το «πότε» μιας νέας επίθεσης - Kathimerini",
+      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον Γιάννη Τσαπρούνη, Διευθυντή της εφημερ",
+      "· gn-iefimerida | Μετρό Θεσσαλονίκης: Κλείνουν προσωρινά τρεις σταθμοί αύριο 25/11 λόγω απεργίας - iefimerid",
+      "· gn-iefimerida | 11 + 1 απαντήσεις για το νέο εργασιακό νομοσχέδιο: Τι αλλάζει για γονικές άδειες, ασφαλιστ",
+      "· gn-iefimerida | Καλπάζει ο τουρισμός: Ρεκόρ επιβατών στο «Νίκος Καζαντζάκης» -Στα 79,8 εκατ. οι ταξιδιώτες",
+      "· strikes-naftemporiki | Ο ΣΥΡΙΖΑ στηρίζει την απεργία της 25ης Νοεμβρίου",
+      "· strikes-naftemporiki | Απεργία 25 Νοεμβρίου: Ποιοι απεργούν την Τετάρτη – Τι ισχύει για μετρό, λεωφορεία, πλοία, ",
+      "· migration | 04.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 03.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 02.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 01.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· migration | 30.11.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
+      "· gn-iefimerida | «Παραλύει» η χώρα από την απεργία την Τετάρτη -Στάσεις εργασίας στο Μετρό, δεμένα τα πλοία",
+      "· gn-iefimerida | Ισχυρή έκρηξη τα ξημερώματα σε καφέ στη Νέα Ιωνία: Εκτεταμένες ζημιές, αναζητούνται οι δρά",
+      "· gn-kathimerini | Ισχυρή έκρηξη σε καφετέρια στη Νέα Ιωνία – Ζημιές και σε παρακείμενα καταστήματα - Kathime",
+      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη για την Περιφέρεια Νοτίου Αιγαίου - Ευ. Τουρνάς: «Προτεραιότητ"
     ]
   },
   "evergreenDone": [
