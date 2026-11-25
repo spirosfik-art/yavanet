@@ -19,22 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "dc0f128f69a4": 1794363681305,
-    "82a0443e3bb2": 1794363681305,
-    "2e7d1fdb1653": 1794363681305,
-    "a91bbaf1e067": 1794363681305,
-    "85aa6495d311": 1794363681305,
-    "d0fc3ee9f4d6": 1794363681305,
-    "b920220dfe11": 1794363681305,
-    "af93e5a171d7": 1794363681305,
-    "fa796f1d225a": 1794363681305,
-    "9578ec623964": 1794363681305,
-    "ddd0fc836c5e": 1794363681305,
-    "b36d0d34a911": 1794363681305,
-    "c7f2fa7e1b78": 1794363681305,
-    "1734656322b4": 1794363681305,
-    "83cd78e90236": 1794363681305,
-    "095b06a369f0": 1794363681305,
     "7459173116c9": 1794389894699,
     "a2a9869bb45a": 1794389894699,
     "8539666c1f30": 1794389894699,
@@ -1651,9 +1635,147 @@
     "34a02ab79112": 1795573148837,
     "d8bd4be7f507": 1795573148837,
     "354d05d2bce2": 1795573148837,
-    "7b25645c9bb0": 1795573148837
+    "7b25645c9bb0": 1795573148837,
+    "25ac29ea70cd": 1795598313480,
+    "5c110cdb3c16": 1795598313480,
+    "0377a18b1ea5": 1795598313480,
+    "7327a69861d1": 1795598313480,
+    "1d66ce409697": 1795598313480,
+    "bcd15398b15f": 1795598313480,
+    "46114fe9a378": 1795598313480,
+    "5f06c7fea5c7": 1795598313480,
+    "06ba3af71198": 1795598313480,
+    "1ef90dc63ced": 1795598313480,
+    "f8c11859ed64": 1795598313480,
+    "2ff891c6604f": 1795598313480,
+    "3424f5685788": 1795598313480,
+    "567c54b63fd2": 1795598313480,
+    "aa1f254057d7": 1795598313480,
+    "9a35c16c44d4": 1795598313480,
+    "721bbd30206f": 1795598313480,
+    "85f416da16e1": 1795598313480,
+    "b95f03451131": 1795598313480,
+    "b4825a2fb18c": 1795598313480,
+    "e6bd383cca2d": 1795598313480,
+    "15b61ffa01c9": 1795598313480,
+    "1687728ba383": 1795598313480,
+    "827c255d247f": 1795598313480,
+    "7f5aac526d63": 1795598313480,
+    "4154390a5f6d": 1795598313480,
+    "19363a01be12": 1795598313480,
+    "8c442f4cea97": 1795598313480,
+    "a8ae7fd6b17a": 1795598313480,
+    "d0307b0143d1": 1795598313480,
+    "57a956af7b6b": 1795598313480,
+    "4ede18cb54a7": 1795598313480,
+    "05d02a889d63": 1795598313480,
+    "d8e786c444c7": 1795598313480,
+    "f47eb0a3f6fc": 1795598313480,
+    "9dcf943b3520": 1795598313480,
+    "a4cd7b668b49": 1795598313480,
+    "a7df115b723e": 1795598313480,
+    "c703f3fb71df": 1795598313480
   },
-  "pending": {},
+  "pending": {
+    "7b6532": {
+      "createdAt": 1795598431523,
+      "item": {
+        "title": "Greece-Cyprus Power Link Moving Ahead, Energy Minister Says",
+        "url": "https://greekcitytimes.com/2026/11/25/greece-cyprus-power-link-moving-ahead-energy-minister-says/",
+        "summary": "Energy Minister Stavros Papastavrou says the Great Sea Interconnector linking Greece and Cyprus is proceeding quietly, with Ionian Sea seismic surveys under way and exploratory drilling planned for April.\n The post Greece-Cyprus Power Link Moving Ahead, Energy Minister Says appeared first on Greek City Times .",
+        "published": "Wed, 25 Nov 2026 03:05:32 +0000",
+        "id": "a8ae7fd6b17a",
+        "sourceId": "gct",
+        "sourceName": "Greek City Times",
+        "official": false,
+        "emergency": false,
+        "sectionHint": "politics",
+        "strike": false
+      },
+      "pick": {
+        "id": "a8ae7fd6b17a",
+        "section": "politics",
+        "priority": 6,
+        "sensitive": true,
+        "breaking": false,
+        "reason": "Updates on the Greece-Cyprus Great Sea Interconnector energy link, relevant for regional economic infrastructure and investors.",
+        "item": {
+          "title": "Greece-Cyprus Power Link Moving Ahead, Energy Minister Says",
+          "url": "https://greekcitytimes.com/2026/11/25/greece-cyprus-power-link-moving-ahead-energy-minister-says/",
+          "summary": "Energy Minister Stavros Papastavrou says the Great Sea Interconnector linking Greece and Cyprus is proceeding quietly, with Ionian Sea seismic surveys under way and exploratory drilling planned for April.\n The post Greece-Cyprus Power Link Moving Ahead, Energy Minister Says appeared first on Greek City Times .",
+          "published": "Wed, 25 Nov 2026 03:05:32 +0000",
+          "id": "a8ae7fd6b17a",
+          "sourceId": "gct",
+          "sourceName": "Greek City Times",
+          "official": false,
+          "emergency": false,
+          "sectionHint": "politics",
+          "strike": false
+        }
+      },
+      "draft": {
+        "slug": "greece-energy-projects-update",
+        "section": "politics",
+        "sensitive": false,
+        "breaking": false,
+        "geo": null,
+        "strike": null,
+        "alert": null,
+        "imageKey": "sea",
+        "imageQuery": "energy infrastructure Greece",
+        "he": {
+          "title": "יוון מקדמת פרויקטים אנרגטיים: חיבור חשמל לקפריסין וקידוחי גז",
+          "seoTitle": "יוון מקדמת פרויקטים אנרגטיים: חיבור חשמל וקידוחי גז",
+          "seoDesc": "שר האנרגיה היווני מעדכן על התקדמות בחיבור החשמל לקפריסין, קידוחי גז בים היוני וחיבור איים לרשת החשמל הארצית. כל הפרטים.",
+          "keywords": [
+            "יוון",
+            "אנרגיה ביוון",
+            "קידוחי גז ביוון",
+            "חיבור חשמל קפריסין יוון"
+          ],
+          "dek": "שר האנרגיה והסביבה היווני הציג את סדרי העדיפויות החדשים של המשרד, הכוללים את חיבור החשמל התת-ימי לקפריסין וחיבור איים מרוחקים לרשת החשמל הלאומית.",
+          "tldr": [
+            "פרויקט חיבור החשמל בין יוון לקפריסין מתקדם כמתוכנן.",
+            "קידוחי גז ניסיוניים בים היוני צפויים להתחיל באפריל הקרוב.",
+            "משרד האנרגיה מתכנן לחבר איים נוספים לרשת החשמל המרכזית בשנים הקרובות."
+          ],
+          "means": "עבור ישראלים בעלי נכסים ביוון או משקיעים בתחום האנרגיה, מדובר בשיפור צפוי ביציבות רשת החשמל באיים. אם אתם מתכננים רכישת נדל\"ן באיים, כדאי לעקוב אחר תוכניות הפיתוח של ADMIE, שכן חיבור לרשת הארצית עשוי להשפיע על תשתיות האזור.",
+          "body": "## התקדמות בחיבור החשמל לים התיכון\nשר האנרגיה והסביבה של יוון, סטברוס פפסטברו, עדכן ביום שלישי כי פרויקט ה-Great Sea Interconnector (GSI) ממשיך להתקדם לקראת השלמתו. מדובר בחיבור חשמל אסטרטגי בין יוון לקפריסין, שנועד לחזק את ביטחון האנרגיה באזור. השר ציין כי עמדת אירופה בנוגע לפרויקט ברורה וכי העבודה נמשכת ללא עיכובים מיותרים.\n\n## חיפושי גז בים היוני\nבנוסף לתשתיות החשמל, המשרד מתמקד בחיפושי פחמימנים בים היוני. סקרים סייסמיים באמצעות כלי השיט Ramform Tethys צפויים להימשך בחודשים הקרובים. השר הוסיף כי באפריל הקרוב מתוכננת תחילתם של קידוחי ניסיון, המבוצעים על ידי קונסורציום הכולל את החברות אקסון מוביל, אנרג'יאן והלניק אנרג'י.\n\n## חיבור איים לרשת החשמל הלאומית\nאחד היעדים המרכזיים של משרד האנרגיה הוא הגדלת יכולת אגירת האנרגיה ל-5 עד 7 ג'יגה-וואט עד שנת 2030. במסגרת זו, יפורסמו בקרוב מכרזים לחיבור איים נוספים לרשת החשמל המרכזית של יוון. השלב הראשון יתמקד באיים באזור הדודקאנס ובצפון הים האגאי, במטרה לשפר את איכות אספקת החשמל לתושבים ולתיירים באיים אלו.\n\n## שאלות נפוצות\n**האם הפרויקטים ישפיעו על אספקת החשמל לתיירים באיים?**\nהמטרה של חיבור האיים לרשת החשמל המרכזית היא לשפר את יציבות האספקה, מה שעשוי להפחית תקלות חשמל באיים המחוברים בעתיד.\n\n**מתי צפויים להתחיל קידוחי הגז בים היוני?**\nקידוחי הניסיון מתוכננים להתחיל באפריל 2027 על ידי קונסורציום של חברות אנרגיה בינלאומיות ומקומיות."
+        },
+        "en": {
+          "title": "Greece Advances Energy Projects: Cyprus Link and Gas Drilling",
+          "seoTitle": "Greece Advances Energy Projects: Cyprus Link and Gas Drilling",
+          "seoDesc": "Greece's Energy Minister updates on the Cyprus power link, Ionian Sea gas exploration, and plans to connect islands to the main grid.",
+          "keywords": [
+            "Greece energy",
+            "Great Sea Interconnector",
+            "Ionian Sea gas",
+            "Greece power grid"
+          ],
+          "dek": "The Greek Environment and Energy Minister outlined key infrastructure priorities, including the subsea power link to Cyprus and grid integration for islands.",
+          "tldr": [
+            "The Greece-Cyprus electricity link project is moving forward as planned.",
+            "Exploratory gas drilling in the Ionian Sea is scheduled for April.",
+            "New tenders will soon connect more islands to the national power grid."
+          ],
+          "means": "For Israeli investors and residents in Greece, these infrastructure upgrades signify long-term improvements to energy stability. If you own property in the Dodecanese or North Aegean, monitor local grid updates from ADMIE, as these projects may impact regional utility infrastructure.",
+          "body": "## Progress on the Mediterranean Power Link\nGreek Environment and Energy Minister Stavros Papastavrou confirmed on Tuesday that the Great Sea Interconnector (GSI) is steadily advancing. This project, which aims to link the electricity grids of Greece and Cyprus, is moving forward without fanfare toward completion. The Minister emphasized that Europe's support for the project remains clear.\n\n## Ionian Sea Exploration\nBeyond electricity, the ministry is prioritizing hydrocarbon exploration. Seismic surveys currently being conducted by the research vessel Ramform Tethys in the southern Ionian Sea are expected to continue for several months. Exploratory drilling is slated to begin in April, led by a consortium of ExxonMobil, Energean, and Helleniq Energy.\n\n## Connecting Islands to the Mainland Grid\nEnergy storage is another top priority, with a target of reaching 5 to 7 gigawatts of capacity by 2030. The ministry is preparing to launch tenders for connecting additional islands to the mainland power grid. The initial phase will focus on the Dodecanese and North Aegean islands, aiming to modernize energy infrastructure for both residents and visitors.\n\n## FAQ\n**Will these projects affect electricity supply for tourists?**\nThe goal of connecting islands to the national grid is to improve supply stability, which is expected to reduce power disruptions in the affected regions.\n**When will the Ionian gas drilling begin?**\nExploratory drilling is planned for April 2027, carried out by a consortium of international and local energy companies."
+        }
+      },
+      "text": "0 \n 0 \n 0 \n The electricity link between Greece and Cyprus is moving forward, Environment and Energy Minister Stavros Papastavrou said on Tuesday, describing a project that is advancing without fanfare towards completion.\n Speaking at a forum in Athens, Papastavrou covered the Great Sea Interconnector (GSI), hydrocarbon exploration in the Ionian Sea and the ministry’s wider energy priorities. He said Europe’s stance on the GSI is clear.\n Ionian Sea exploration\n The minister said seismic surveys by the research vessel Ramform Tethys in the southern Ionian Sea are expected to continue for several months. Exploratory drilling is planned for April by a consortium of ExxonMobil, Energean and Helleniq Energy.\n Storage and island connections\n Papastavrou called energy storage a ministry priority, with a goal of lifting capacity to between 5 and 7 gigawatts by 2030. He added that tenders for connecting the islands to the mainland power grid will begin soon, starting with the Dodecanese and the North Aegean islands.\n The ministry’s main priorities, he said, are developing renewable energy sources, energy storage, interconnectivity and completing the programme of the Independent Power Transmission Operator (IPTO, known in Greece as ADMIE).\n Source: Greek media reports, 25 November 2026. \n Stay connected to Greek City Times for Free on Google News\n Click NOW\n Stay updated with the latest news from Greece and around the world on greekcitytimes.com .\nContact our newsroom to share your updates, stories, photos, or videos. Follow GCT on WhatsApp , Google News and Apple News .\n Related coverage\n ExxonMobil on track to begin first Greek exploratory drilling in decades in early 2027 \n Greek Gas Reserves Could Deliver Greater Prosperity for Citizens \n Greece Could Become Gas-Sufficient After Ionian Drilling \n Greece Advances Ionian Gas Drilling and Major Energy Projects \n Advertising\n Bill Giannopoulos \n Junior Editor\n Bill Giannopoulos is a Junior Editor at Greek City Times, covering Greek and international news, sport, and history.\n Previous Article \n Athens Lights Up 21-Metre Christmas Tree in Syntagma Square\n Next Article \n New HIV Diagnoses Fall in Greece, Nearly Half Found Late\n 0 \n 0 \n 0",
+      "issues": [],
+      "el": {
+        "title": "Η Ελλάδα προωθεί ενεργειακά έργα: Η ηλεκτρική διασύνδεση με την Κύπρο και οι εξορύξεις φυσικού αερίου",
+        "dek": "Ο υπουργός Περιβάλλοντος και Ενέργειας παρουσίασε τις βασικές προτεραιότητες στις υποδομές, συμπεριλαμβανομένης της υποθαλάσσιας ηλεκτρικής διασύνδεσης με την Κύπρο και της σύνδεσης των νησιών με το εθνικό δίκτυο.",
+        "tldr": [
+          "Το έργο της ηλεκτρικής διασύνδεσης Ελλάδας-Κύπρου προχωρά σύμφωνα με το χρονοδιάγραμμα.",
+          "Οι ερευνητικές γεωτρήσεις για φυσικό αέριο στο Ιόνιο Πέλαγος έχουν προγραμματιστεί για τον Απρίλιο.",
+          "Σύντομα θα προκηρυχθούν νέοι διαγωνισμοί για τη σύνδεση περισσότερων νησιών με το εθνικό δίκτυο ηλεκτροδότησης."
+        ]
+      },
+      "notified": true
+    }
+  },
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1663,12 +1785,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-25T02:18:57.413Z",
-      "items": 0
+      "at": "2026-11-25T09:18:14.154Z",
+      "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-25T02:18:58.212Z",
+      "at": "2026-11-25T09:18:14.915Z",
       "items": 5
     },
     "civilprotection": {
@@ -1679,27 +1801,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-25T02:18:59.851Z",
+      "at": "2026-11-25T09:18:17.406Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-25T02:19:00.092Z",
+      "at": "2026-11-25T09:18:17.533Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-25T02:19:01.368Z",
+      "at": "2026-11-25T09:18:19.375Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-25T02:19:02.148Z",
-      "items": 2
+      "at": "2026-11-25T09:18:20.396Z",
+      "items": 5
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-25T02:19:03.059Z",
+      "at": "2026-11-25T09:18:21.453Z",
       "items": 10
     },
     "toi-greece": {
@@ -1710,23 +1832,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-25T02:19:03.599Z",
+      "at": "2026-11-25T09:18:22.089Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-25T02:19:03.721Z",
-      "items": 15
+      "at": "2026-11-25T09:18:22.212Z",
+      "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-25T02:19:04.359Z",
-      "items": 5
+      "at": "2026-11-25T09:18:22.962Z",
+      "items": 7
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T02:19:04.552Z",
-      "items": 2
+      "at": "2026-11-25T09:18:23.156Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1735,12 +1857,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-25T02:18:59.153Z",
+      "at": "2026-11-25T09:18:15.622Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-25T02:19:05.222Z",
+      "at": "2026-11-25T09:18:23.814Z",
       "items": 0
     },
     "hcg": {
@@ -1751,39 +1873,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-25T02:19:06.722Z",
+      "at": "2026-11-25T09:18:25.631Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-25T02:19:06.910Z",
-      "items": 6
+      "at": "2026-11-25T09:18:25.844Z",
+      "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-25T02:19:07.061Z",
-      "items": 9
+      "at": "2026-11-25T09:18:26.020Z",
+      "items": 11
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-25T02:19:07.301Z",
-      "items": 4
+      "at": "2026-11-25T09:18:26.236Z",
+      "items": 5
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-25T02:19:07.602Z",
+      "at": "2026-11-25T09:18:26.539Z",
       "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-25T02:19:07.972Z",
+      "at": "2026-11-25T09:18:26.938Z",
       "items": 9
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-25",
-    "count": 2,
+    "count": 3,
     "published": [
       {
         "slug": "athens-data-center-investment",
@@ -1796,6 +1918,12 @@
         "title": "Record Passenger Traffic at Greek Regional Airports in 2026",
         "at": "2026-11-25T02:55:39+02:00",
         "section": "travel"
+      },
+      {
+        "slug": "flu-vaccine-shortage-greece-november-2026",
+        "title": "Flu Vaccine Shortage in Greece: New Shipments on the Way",
+        "at": "2026-11-25T11:19:13+02:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -1808,10 +1936,26 @@
         "title": "Σεισμός 4,6 Ρίχτερ στα παράλια της Τουρκίας -Έγινε αισθητός και στα νησιά του Αιγαίου - iefimerida.gr",
         "reason": "The article includes information not present in the source text: 'No reports of structural damage or injuries', 'no disruptions to ferry services or flights', and 'no need to change your travel plans'. Rule 8 states: Do not add numbers, conversions or facts that are not in the source.; The article i",
         "at": "2026-11-25T00:56:03.830Z"
+      },
+      {
+        "title": "Σε απεργιακό κλοιό σήμερα η χώρα: Πώς θα κινηθούν Μετρό, λεωφορεία, Τραμ -Τι ισχύει για νοσοκομεία, σχολεία, ακυρώνονται πτήσεις - iefimerid",
+        "reason": "Ίδιο θέμα με «Greece strike November 25: transport updates and details» – δεν γράφτηκε ξανά",
+        "at": "2026-11-25T09:18:34.380Z"
+      },
+      {
+        "title": "Βόλος: Οι εκκρεμότητες στους φακέλους ακινήτων καθυστερούν για μήνες τις πωλήσεις",
+        "reason": "Ίδιο θέμα με «Greek Housing Market: Homeownership Rate Declines Amid Rising Costs» – δεν γράφτηκε ξανά",
+        "at": "2026-11-25T09:19:18.213Z"
       }
     ],
     "errors": [],
-    "fb": []
+    "fb": [
+      {
+        "slug": "flu-vaccine-shortage-greece-november-2026",
+        "at": "2026-11-25T09:19:14.240Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2117,36 +2261,40 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-25T02:19:08.837Z",
-    "considered": 26,
-    "picked": 0,
+    "at": "2026-11-25T09:18:33.480Z",
+    "considered": 39,
+    "picked": 4,
     "items": [
-      "· gct | Thanos Petrelis Leaves Sanremo Live After Just Three Shows",
-      "· ingr | Ισραήλ: Οι Δημοκράτες αναστέλλουν τις συνομιλίες με το κόμμα Γιασάρ του Αϊζενκοτ",
-      "· ingr | Τουρκία: Επίθεση στη Λεπέν που «υιοθέτησε τις θέσεις Ελλάδας και Ισραήλ»",
-      "· gn-kathimerini | Κύμα απεργιών στη γερμανική αυτοκινητοβιομηχανία - Kathimerini",
-      "· gn-civilprotection | Ημερίδα Κρατικής Αρωγής με θέμα: «Αποκατάσταση μετά από Φυσικές Καταστροφές – Κράτος και Ι",
-      "· gn-pm | Πρόγραμμα του Πρωθυπουργού Κυριάκου Μητσοτάκη για αύριο, Τετάρτη 25 Νοεμβρίου 2026 - πρωθυ",
-      "· gtp | Strike to Disrupt Transport Services in Greece on November 25",
-      "· gtp | COP31 Ends Without Overall Agreement Over Fossil Fuel Dispute",
-      "· gn-kathimerini | Εξοδος στην Αθήνα την Τρίτη 24/11: Ακρόπολη και Ορσον Γουέλς - Kathimerini",
-      "· gn-civilprotection | Ευάγγελος Τουρνάς στην ημερίδα για την Κρατική Αρωγή: Ταχύτερη κρατική αρωγή, μεγαλύτερη δ",
-      "· gn-kathimerini | Διχογνωμία στο Ισραήλ για το «πότε» μιας νέας επίθεσης - Kathimerini",
-      "· gn-pm | Συζήτηση του Πρωθυπουργού Κυριάκου Μητσοτάκη με τον Γιάννη Τσαπρούνη, Διευθυντή της εφημερ",
-      "· gn-iefimerida | Μετρό Θεσσαλονίκης: Κλείνουν προσωρινά τρεις σταθμοί αύριο 25/11 λόγω απεργίας - iefimerid",
-      "· gn-iefimerida | 11 + 1 απαντήσεις για το νέο εργασιακό νομοσχέδιο: Τι αλλάζει για γονικές άδειες, ασφαλιστ",
-      "· gn-iefimerida | Καλπάζει ο τουρισμός: Ρεκόρ επιβατών στο «Νίκος Καζαντζάκης» -Στα 79,8 εκατ. οι ταξιδιώτες",
-      "· strikes-naftemporiki | Ο ΣΥΡΙΖΑ στηρίζει την απεργία της 25ης Νοεμβρίου",
-      "· strikes-naftemporiki | Απεργία 25 Νοεμβρίου: Ποιοι απεργούν την Τετάρτη – Τι ισχύει για μετρό, λεωφορεία, πλοία, ",
-      "· migration | 04.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 03.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 02.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 01.12.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· migration | 30.11.2026. Λίστα υποθέσεων ασύλου των οποίων οι άδειες διαμονής είναι έτοιμες προς παράδο",
-      "· gn-iefimerida | «Παραλύει» η χώρα από την απεργία την Τετάρτη -Στάσεις εργασίας στο Μετρό, δεμένα τα πλοία",
-      "· gn-iefimerida | Ισχυρή έκρηξη τα ξημερώματα σε καφέ στη Νέα Ιωνία: Εκτεταμένες ζημιές, αναζητούνται οι δρά",
-      "· gn-kathimerini | Ισχυρή έκρηξη σε καφετέρια στη Νέα Ιωνία – Ζημιές και σε παρακείμενα καταστήματα - Kathime",
-      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη για την Περιφέρεια Νοτίου Αιγαίου - Ευ. Τουρνάς: «Προτεραιότητ"
+      "· ert | Η Περιφέρεια Κεντρικής Μακεδονίας στη διεθνή έκθεση συνεδριακού τουρισμού IBTM World 2026 ",
+      "· ert | Τέσσερις Παλαιστίνιοι από την ίδια οικογένεια σκοτώθηκαν σε ισραηλινό βομβαρδισμό δυτικά τ",
+      "✓ gct | Flu Vaccines Run Short in Greece as Infections Surge",
+      "✓ ert | Βόλος: Οι εκκρεμότητες στους φακέλους ακινήτων καθυστερούν για μήνες τις πωλήσεις",
+      "· ingr | Δυναμικά συλλαλητήρια και συγκεντρώσεις για την απεργία ΑΔΕΔΥ και Εργατικών Κέντρων",
+      "· minfin | Εκτέλεση Κρατικού Προϋπολογισμού περιόδου Ιανουαρίου-Οκτωβρίου 2026 (οριστικά στοιχεία)",
+      "· naftemporiki | Χρηματιστήριο: Σε καθοδική τροχιά παραμένει η Αθήνα – Κίνδυνος για τις στηρίξεις",
+      "· naftemporiki | Κ. Μητσοτάκης για προϋπολογισμό: Σε νέα δυναμική φάση η οικονομία – Ανάπτυξη 2,3%, άλμα 7,",
+      "· naftemporiki | Κι αν σκάσει η φούσκα της AI; Γιατί το οικονομικό σοκ θα είναι χειρότερο από το 2000",
+      "· gct | Greek Kafeneio Culture: Five Coffee Houses Where Time Stands Still",
+      "· ingr | Μετρό: Συνωστισμός έξω από σταθμούς – Δείτε εικόνες",
+      "· ert | Σάλος στο Ισραήλ για βιβλίο υπουργού σχετικά με το Ιράν – Η Μοσάντ το έμαθε μετά την έκδοσ",
+      "· ert | «Απεργοσπαστικός μηχανισμός η δημοτική Αρχή Μπέου» καταγγέλλει η Λαϊκή Συσπείρωση Βόλου",
+      "· ingr | Πώς στήθηκε η απάτη με τις αποδείξεις για ανύπαρκτα «εκτός έδρας» που ζημίωσε το Δημόσιο μ",
+      "· ingr | Φωτιά σε αποθήκη στη Μάνδρα",
+      "· ingr | Η δίκαιη οργή των εργαζομένων",
+      "· gct | Salvini Demands Ukraine Shut Myrotvorets and Remove All Italians",
+      "· ingr | ΠΑΣΟΚ: Το «μπλόκο» Παναγόπουλου στην απεργία και οι διαφοροποιήσεις των πράσινων συνδικαλι",
+      "· ingr | Μια καλή μέρα για απεργία παρά της ΓΣΕΕ την αφωνία, κυβερνητική αγωνία με υποσχέσεις για α",
+      "· gn-kathimerini | Πυρκαγιά σε υπαίθριο χώρο αποθήκης στη Μάνδρα Αττικής - Kathimerini",
+      "✓ gn-iefimerida | Σε απεργιακό κλοιό σήμερα η χώρα: Πώς θα κινηθούν Μετρό, λεωφορεία, Τραμ -Τι ισχύει για νο",
+      "· gct | Jennifer Barreto of Puerto Rico Crowned Miss Universe 2026 in San Juan",
+      "· gct | Americans Are Looking Beyond Santorini for Greece in 2027, Tour Operator Research Finds",
+      "· gct | Generative AI Adoption Triples in Greek Firms, but Results Lag",
+      "· gct | Clay Chalices From Vatopedi’s Well of the Virgin Mary May Be Centuries Older Than Thought",
+      "· strikes-naftemporiki | Απεργία σήμερα 25 Νοεμβρίου: Πώς θα κινηθούν Μετρό, λεωφορεία και άλλα μέσα μεταφοράς – Τι",
+      "· gct | Feast Day of Agia Aikaterini the Great Martyr of Alexandria",
+      "· gct | New HIV Diagnoses Fall in Greece, Nearly Half Found Late",
+      "✓ gct | Greece-Cyprus Power Link Moving Ahead, Energy Minister Says",
+      "· gct | Athens Lights Up 21-Metre Christmas Tree in Syntagma Square"
     ]
   },
   "evergreenDone": [
@@ -2189,5 +2337,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "flu-vaccine-shortage-greece-november-2026",
+      "url": "https://yavanet.gr/a/flu-vaccine-shortage-greece-november-2026/",
+      "at": "2026-11-25T09:19:14.240Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/flu-vaccine-shortage-greece-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/flu-vaccine-shortage-greece-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "מחסור בחיסוני שפעת ביוון: משלוחים חדשים בדרך",
+        "title_en": "Flu Vaccine Shortage in Greece: New Shipments on the Way",
+        "dek_he": "בתי מרקחת ברחבי יוון מדווחים על מחסור זמני בחיסוני שפעת על רקע עלייה בשיעורי התחלואה. משלוח גדול של מנות חדשות בדרך למדפים.",
+        "dek_en": "Pharmacies across Greece report temporary shortages of influenza vaccines as testing positivity rises. A large shipment of new doses is on its way to shelves.",
+        "section": "living",
+        "breaking": false,
+        "image": "https://images.pexels.com/photos/6075033/pexels-photo-6075033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "post_he": "מחסור בחיסוני שפעת ביוון: משלוחים חדשים בדרך\n\nבתי מרקחת ברחבי יוון מדווחים על מחסור זמני בחיסוני שפעת על רקע עלייה בשיעורי התחלואה. משלוח גדול של מנות חדשות בדרך למדפים.\n\nhttps://yavanet.gr/a/flu-vaccine-shortage-greece-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Flu Vaccine Shortage in Greece: New Shipments on the Way\n\nPharmacies across Greece report temporary shortages of influenza vaccines as testing positivity rises. A large shipment of new doses is on its way to shelves.\n\nhttps://yavanet.gr/en/a/flu-vaccine-shortage-greece-november-2026/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
