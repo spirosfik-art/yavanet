@@ -1,0 +1,60 @@
+{
+  "slug": "bundestag-incident-mossad-berlin",
+  "section": "israelis",
+  "publishedAt": "2026-11-26T22:07:28+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 52.5186,
+    "lng": 13.3761,
+    "name": "Bundestag, Berlin"
+  },
+  "sources": [
+    {
+      "name": "ΕΡΤ (ertnews.gr)",
+      "url": "https://www.ertnews.gr/eidiseis/entasi-sti-germaniki-vouli-vouleytes-tis-aristeras-mplokaran-ekdilosi-me-proin-arxigo-tis-mosant/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/35098053/pexels-photo-35098053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "View of the iconic Reichstag building in Berlin under a cloudy sky, featuring its distinctive glass dome.",
+    "credit": "Photo: Osviel Rodriguez Valdés / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/historic-reichstag-building-in-berlin-germany-35098053/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "ברלין: מהומה בפרלמנט הגרמני סביב אירוע בהשתתפות ראש המוסד לשעבר",
+    "dek": "משטרת הפרלמנט בגרמניה פינתה פעילים שחסמו אולם שבו אמור היה להתקיים אירוע בהשתתפות דוד ברנע, ויושבת ראש הבונדסטאג הודיעה כי נבחנת הטלת סנקציות.",
+    "tldr": [
+      "שתי חברות פרלמנט בגרמניה חסמו את הכניסה לאולם דיונים בבונדסטאג שבו אמור היה לשאת דברים ראש המוסד לשעבר דוד ברנע.",
+      "משטרת הפרלמנט התערבה ופינתה את המקום לאחר שנרשמה במקום הפרת סדר.",
+      "יושבת ראש הפרלמנט הודיעה כי האירוע חסר תקדים וכי נבחנת האפשרות להטיל צעדי ענישה."
+    ],
+    "means": "למה זה מעניין אתכם? הדיווח מציג את העדכונים הרשמיים על אירוע רגיש סביב נציג ישראלי במוסדות השלטון בגרמניה וההיערכות הביטחונית סביבו.",
+    "body": "במהלך אירוע שנערך בבונדסטאג בברלין ביום רביעי (25 בנובמבר) בהשתתפות ראש המוסד לשעבר, דוד ברנע, התרחשה הפרת סדר כאשר שתי חברות פרלמנט חסמו את הכניסה לאולם הדיונים. למקום הוזעקה משטרת הפרלמנט, אשר פינתה את המפגינים והשיבה את הסדר על כנו באולם.\n\nיושבת ראש הבונדסטאג התייחסה לאירוע בחומרה ומסרה כי מדובר במקרה חריג שלא נראה כדוגמתו בפרלמנט. לדבריה, ניתנה הנחיה לבחון צעדים משמעתיים וסנקציות בעקבות ההתנהלות במהלך האירוע. האירוע עצמו התקיים לבסוף במלואו, על אף קריאות ביניים שנשמעו מהקהל וטופלו במקום על ידי כוחות האבטחה והנוכחים."
+  },
+  "en": {
+    "title": "Berlin: Incident at German Parliament During Event with Former Mossad Chief",
+    "dek": "German parliamentary police cleared activists who blocked a hall where former Mossad chief David Barnea was scheduled to speak, and the Bundestag president announced sanctions are being reviewed.",
+    "tldr": [
+      "Two members of the German parliament blocked access to a Bundestag hall where former Mossad chief David Barnea was set to speak.",
+      "Parliamentary police intervened to remove activists and secure the area following disruptions.",
+      "The Bundestag president stated the incident was unprecedented and announced that disciplinary measures are under review."
+    ],
+    "means": "Why this matters to you: Official reports detail security measures and official responses surrounding high-profile Israeli figures attending public events abroad.",
+    "body": "An event held at the Bundestag in Berlin on Wednesday (November 25) featuring former Mossad chief David Barnea faced disruptions when two members of parliament blocked the entrance to the conference room. Parliamentary police intervened to remove the individuals and secure the venue.\n\nThe President of the Bundestag strongly condemned the incident, calling it an unprecedented occurrence in the history of the parliament. She added that administrative teams have been instructed to review potential sanctions. Despite the initial disturbance and isolated verbal outbursts from attendees that were promptly handled by security, the event proceeded to completion."
+  },
+  "meta": {
+    "itemId": "437629c3270b",
+    "imageQuery": "German Bundestag Berlin building",
+    "sourceHash": "1c8aa728750b",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-26T20:07:29.430Z",
+    "official": false
+  }
+}

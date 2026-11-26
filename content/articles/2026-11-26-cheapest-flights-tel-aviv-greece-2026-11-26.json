@@ -8,8 +8,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "illustration",
-    "key": "plane"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5096813/pexels-photo-5096813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Aerial view of an airplane wing flying over a Mediterranean island with clear blue sky.",
+    "credit": "Photo: Domenico Bandiera / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/an-airplane-wing-5096813/",
+    "license": "Pexels License",
+    "fallbackKey": "plane"
   },
   "sources": [
     {
@@ -42,6 +47,7 @@
   "meta": {
     "manual": false,
     "auto": "flights",
-    "checkedAt": "2026-11-26T17:26:56+02:00"
+    "checkedAt": "2026-11-26T17:26:56+02:00",
+    "photoTried": true
   }
 }

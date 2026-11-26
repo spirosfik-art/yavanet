@@ -1,0 +1,60 @@
+{
+  "slug": "omonia-metro-explosion-2026-11-26",
+  "section": "breaking",
+  "publishedAt": "2026-11-26T22:07:38+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9841,
+    "lng": 23.7281,
+    "name": "Omonia Station, Athens"
+  },
+  "sources": [
+    {
+      "name": "in.gr",
+      "url": "https://www.in.gr/2026/11/26/greece/sakidio-me-pyrotexnimata-ekserragi-ston-stathmo-tou-metro-stin-omonoia/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/33882779/pexels-photo-33882779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A woman in fashionable attire walks through a modern underground station.",
+    "credit": "Photo: elif s. / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/woman-in-modern-underground-tunnel-station-33882779/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "אתונה: פיצוץ תיק עם זיקוקים בתחנת המטרו אומוניה",
+    "dek": "תחנת המטרו באומוניה נסגרה זמנית בעקבות עשן שהתפזר במקום, לאחר שתיק ובו זיקוקים התפוצץ באזור הכרטסייה.",
+    "tldr": [
+      "תחנת המטרו אומוניה באתונה נסגרה זמנית בשל עשן מעשן באזור הכרטסייה.",
+      "צוותי כיבוי אש ומשטרה הוזעקו למקום וכיבו שריפה קטנה שפרצה מתיק עם זיקוקים.",
+      "התחנות נפתחו מחדש לאחר בדיקה והרכבים שבים לעצור ולשרת את הנוסעים כרגיל."
+    ],
+    "means": "לנוסעים ולתיירים הנמצאים באתונה: תחנת אומוניה חזרה לפעילות מלאה לאחר אירוע נקודתי שבו התפוצצו זיקוקים בתיק של נוסע. אין נפגעים, והתנועה במטרו פועלת כסדרה.",
+    "body": "תחנת המטרו אומוניה באתונה נסגרה זמנית בשעות לאחר הצהריים ביום חמישי, 26 בנובמבר 2026, בעקבות אירוע שבו התפוצץ תיק ובו זיקוקים ברמת הכרטסייה. צוותי התחנה הפעילו מטפי כיבוי, וכוחות ההצלה שהגיעו למקום טיפלו באירוע במהירות.\n\nהעשן שהתפזר במקום גרם לעומס זמני, והרכבים חלפו דרך התחנה מבלי לעצור במטרה לשמור על בטיחות הציבור. משטרת יוון ושירותי הכיבוי השלימו את הטיפול באירוע, והתחנה נפתחה מחדש לתנועת הנוסעים."
+  },
+  "en": {
+    "title": "Athens: Fireworks backpack explodes at Omonia metro station",
+    "dek": "Omonia metro station in Athens was temporarily closed after a backpack containing fireworks caused smoke at the ticket validation level.",
+    "tldr": [
+      "Omonia metro station closed temporarily following smoke from a passenger's bag.",
+      "Fire services and station staff responded quickly to extinguish a small fire.",
+      "The station has since reopened and normal train services have resumed."
+    ],
+    "means": "For travelers in Athens: Omonia metro station is fully operational following a brief disruption caused by fireworks inside a passenger's bag.",
+    "body": "The Omonia metro station in Athens was temporarily closed on the afternoon of November 26, 2026, due to smoke rising from a passenger's bag containing fireworks at the ticketing level. Station staff used fire extinguishers, and emergency responders quickly addressed the incident.\n\nAs a safety precaution, trains passed through the station without stopping while authorities managed the situation. Greek police and fire services concluded their operations at the scene, and the station has since reopened to the public."
+  },
+  "meta": {
+    "itemId": "fec563c5124f",
+    "imageQuery": "Athens metro station Omonia",
+    "sourceHash": "813fd3deb37e",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-26T20:07:38.455Z",
+    "official": false
+  }
+}

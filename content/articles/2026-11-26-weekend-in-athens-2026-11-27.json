@@ -9,8 +9,13 @@
   "breaking": false,
   "geo": null,
   "image": {
-    "type": "art",
-    "key": "people"
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/18482977/pexels-photo-18482977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A packed crowd enjoys a live concert, bathed in dynamic blue lighting, capturing excitement.",
+    "credit": "Photo: Luis Quintero / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/blue-light-over-crowd-on-audience-18482977/",
+    "license": "Pexels License",
+    "fallbackKey": "people"
   },
   "sources": [
     {
@@ -63,6 +68,7 @@
     "itemId": "weekend-2026-11-27",
     "auto": "weekend",
     "imageQuery": "Athens evening concert crowd",
-    "checkedAt": "2026-11-26T19:30:48+02:00"
+    "checkedAt": "2026-11-26T19:30:48+02:00",
+    "photoTried": true
   }
 }
