@@ -19,17 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "0928b32ae34f": 1794456657508,
-    "23265365df8f": 1794456657508,
-    "10bea4113878": 1794456657508,
-    "f343782a9fe1": 1794456657508,
-    "f688b0e58c67": 1794456657508,
-    "063d4d20c614": 1794456657508,
-    "318f6abb8aef": 1794456657508,
-    "e2aa268dcee8": 1794456657508,
-    "e9cf14c8ea34": 1794456657508,
-    "cae9eca47ce6": 1794456657508,
-    "76b897ff9af8": 1794456657508,
     "acd030fcd728": 1794476596280,
     "fc8e083f2d30": 1794476596280,
     "82a2b3daab81": 1794476596280,
@@ -1650,116 +1639,15 @@
     "c43590aeda91": 1795659621988,
     "4ba66e7257b9": 1795659621988,
     "98b6982c9479": 1795659621988,
-    "b048556308a6": 1795659621988
+    "b048556308a6": 1795659621988,
+    "d3df648c9a85": 1795669034905,
+    "bc1cf864e239": 1795669034905,
+    "8f7221ae0723": 1795669034905,
+    "a7a446c91222": 1795669034905,
+    "f18d9c6025e4": 1795669034905,
+    "9f5ed1cea885": 1795669034905
   },
-  "pending": {
-    "04dc9e": {
-      "createdAt": 1795659645212,
-      "item": {
-        "title": "Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις",
-        "url": "https://www.in.gr/2026/11/26/plus/medianews/sta-nea-tis-pemptis-apla-kai-grigora-oles-oi-metavivaseis/",
-        "summary": "Από τον Δεκέμβριο • Ερχεται επανάσταση στα ακίνητα με το σύστημα ΜΙΔΑ\n The post Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις appeared first on in.gr .",
-        "published": "Thu, 26 Nov 2026 00:45:22 +0200",
-        "id": "b048556308a6",
-        "sourceId": "ingr",
-        "sourceName": "in.gr",
-        "official": false,
-        "emergency": false,
-        "sectionHint": "politics",
-        "strike": false
-      },
-      "pick": {
-        "id": "b048556308a6",
-        "section": "real-estate",
-        "priority": 8,
-        "sensitive": true,
-        "breaking": false,
-        "reason": "New MIDA system for property transfers in Greece starting in December, which directly impacts Israeli investors and property owners navigating the Greek real estate market.",
-        "item": {
-          "title": "Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις",
-          "url": "https://www.in.gr/2026/11/26/plus/medianews/sta-nea-tis-pemptis-apla-kai-grigora-oles-oi-metavivaseis/",
-          "summary": "Από τον Δεκέμβριο • Ερχεται επανάσταση στα ακίνητα με το σύστημα ΜΙΔΑ\n The post Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις appeared first on in.gr .",
-          "published": "Thu, 26 Nov 2026 00:45:22 +0200",
-          "id": "b048556308a6",
-          "sourceId": "ingr",
-          "sourceName": "in.gr",
-          "official": false,
-          "emergency": false,
-          "sectionHint": "politics",
-          "strike": false
-        }
-      },
-      "draft": {
-        "slug": "greece-property-transfers-system-mida",
-        "section": "real-estate",
-        "sensitive": true,
-        "breaking": false,
-        "geo": {
-          "lat": 37.9838,
-          "lng": 23.7275
-        },
-        "strike": null,
-        "alert": {
-          "he": "נדל\"ן ביוון",
-          "en": "Greece real estate"
-        },
-        "imageKey": "house",
-        "imageQuery": "greek real estate building modern",
-        "he": {
-          "title": "מהפכה בנדל\"ן ביוון: מערכת חדשה לרישום נכסים תפעל בדצמבר",
-          "seoTitle": "נדל\"ן ביוון: מערכת מידא חדשה לרישום נכסים מאמצע סוף השנה",
-          "seoDesc": "מערכת מידא החדשה ביוון יוצאת לדרך בדצמבר ומבטיחה לעדכן את השוק. כל הפרטים על העברות נכסים, מיסים ומשמעויות למשקיעים ישראלים.",
-          "keywords": [
-            "נדל\"ן ביוון",
-            "קניית דירה ביוון",
-            "מיסים ביוון",
-            "השקעה בנדל\"ן ביוון",
-            "מערכת מידא יוון"
-          ],
-          "dek": "רפורמה חדשה בשוק הנדל\"ן ביוון צפויה להשפיע על קניות, השכרות ומיסוי נכסים החל מחודש דצמבר.",
-          "tldr": [
-            "מערכת מידא החדשה תושק בחודש דצמבר.",
-            "הרפורמה נועדה להאיץ עסקאות נכסים ולהסדיר מיסוי.",
-            "השינוי משפיע על קונים, שוכרים ובעלי נכסים קיימים."
-          ],
-          "means": "עבור משקיעים ישראלים ביוון, הרפורמה החדשה עשויה לייעל תהליכים בירוкраטיים הקשורים לרכישת נכסים באתונה וביתר אזורי המדינה. מומלץ להתעדכן מול אנשי מקצוע מקומיים לגבי השפעות הרישום המעודכן על הנכסים שלכם.",
-          "body": "## רפורמה מקיפה בשוק הנדל\"ן המקומי\n\nשוק הנדל\"ן ביוון מתכונן לשורת שינויים משמעותיים עם כניסתה לתוקף של מערכת טכנולוגית חדשה המכונה מידא (MIDA). המהלך, המתוכנן לחודש דצמבר, נועד לפשט ולזרז את התהליכים הבירוקרטיים הקשורים בנכסי דלא ניידי ברחבי המדינה.\n\nהמערכת החדשה צפויה לגעת במספר תחומים מרכזיים, ובראשם הליך הרכישה והמכירה של בתים ונכסים מסחריים, לצד ניהול חוזי השכירות והקצאות הנכסים. המטרה המוצהרת של הרשויות היא לייצר שקיפות גבוהה יותר ולוודא כי רישום הבעלות משקף את המציאות בשטח.\n\n## השפעות על מיסוי ורישום נכסים\n\nלצד ההאצה בפעולות המסחריות, הרפורמה צפויה לשפר את איסוף הנתונים סביב חוזי שכירות למגורים ולמסחר. הדבר יאפשר למדינה לדייק את חישוב מיסי הרכוש בהתאם לנתוני הבעלות האמיתיים ולייעוד השימוש בפועל בנכס.\n\nתוכניות עתידיות המקושרות למערכת צפויות גם להשפיע על דיווח ההכנסות בדוחות השנתיים, דבר שידרוש מבעלי הנכסים מעקב צמוד אחר הרישומים הממוחשבים ברשויות המס.\n\n## סוגיות תכנון ובנייה\n\nבמקביל לשינויי הרישום, הרשויות ביוון ממשיכות להקפיד על הכללים הנוגעים לבנייה מחוץ לתכניות מתאר מאושרות. שירותי התכנון והבנייה המקומיים דורשים עמידה בתנאים נוקשים, מה שאומר שבעלי קרקעות ואנשי מקצוע חייבים לוודא את הסטטוס המשפטי והתכנוני המדויק טרם כל יוזמה פיתוחית.\n\n## שאלות נפוצות\n\n**מתי צפויה להיכנס לתוקף מערכת מידא החדשה ביוון?**\nהמערכת צפויה להתחיל לפעול החל מחודש דצמבר.\n\n**באילו תחומים בשוק הנדל\"ן המערכת צפויה לשлити?**\nהמערכת תסייע בהאצת עסקאות קנייה, השכרה, מעקב אחר חוזי שכירות ודיוק מיסוי נכסים בהתאם לשימוש בפועל."
-        },
-        "en": {
-          "title": "Greece Real Estate: New Property Transfer System Starts in December",
-          "seoTitle": "Greece Real Estate: New Property Transfer System in December",
-          "seoDesc": "A new property system called MIDA launches in Greece in December to streamline transactions, rentals, and taxation. What it means for investors.",
-          "keywords": [
-            "greece real estate",
-            "buy property in greece",
-            "greece property taxes",
-            "mida system greece",
-            "greek property market"
-          ],
-          "dek": "A major reform in Greece's real estate sector aims to accelerate property transactions, rentals, and taxation starting this December.",
-          "tldr": [
-            "The new MIDA system launches in December.",
-            "The reform is designed to speed up property sales and leases.",
-            "It aims for more accurate property taxation based on actual use."
-          ],
-          "means": "For foreign and Israeli investors in Greece, the new system aims to simplify bureaucratic procedures related to property acquisition. It is advisable to consult with local professionals regarding how updated registration affects your assets.",
-          "body": "## Comprehensive Reform in the Local Real Estate Market\n\nGreece's property market is preparing for significant changes with the introduction of a new technological system known as MIDA. Scheduled for December, the initiative is designed to simplify and accelerate bureaucratic processes regarding real estate across the country.\n\nThe new system is expected to impact several key areas, primarily the purchase and sale of homes and commercial properties, alongside the management of lease agreements. The stated goal of the authorities is to create greater transparency and ensure that ownership records reflect the actual situation on the ground.\n\n## Impacts on Taxation and Property Registration\n\nAlongside faster commercial transactions, the reform is expected to improve data collection around residential and commercial leases. This will allow the state to calculate property taxes more accurately based on true ownership data and actual property use.\n\nFuture plans tied to the system are also expected to influence income reporting on tax returns, requiring property owners to closely monitor computerized records with tax authorities.\n\n## Planning and Construction Matters\n\nSimultaneously with registration changes, authorities in Greece continue to enforce strict rules regarding construction outside approved zoning plans. Local planning departments require strict adherence to conditions, meaning landowners and professionals must verify precise legal and planning status before any development initiative.\n\n## FAQ\n\n**When is the new MIDA system expected to take effect in Greece?**\nThe system is scheduled to begin operating starting in December.\n\n**Which areas of the real estate market will the system affect?**\nThe system will help accelerate purchase transactions, leases, track rental agreements, and ensure accurate property taxation based on actual use."
-        }
-      },
-      "text": "Vita.gr \n Το κόστος του να κάνουμε «δικά μας» τα προβλήματα των άλλων\n Spotlight Έξι ημέρες πάνω από το κρίσιμο όριο των 2°C – Πρωτοφανές ρεκόρ ζέστης στον πλανήτη με ώθηση από το El Niño \n Τραγωδία στην Αίγυπτο: Πάνω από 30 νεκροί μετά την έκρηξη από ανατροπή βυτιοφόρου που μετέφερε καύσιμα \n Η αντίφαση της Ουάσιγκτον: Ο Τραμπ αναζητά συμφωνία με Πούτιν – Η CIA έχει άλλη ατζέντα; \n Γιορτή σήμερα 26 Νοεμβρίου - Ποιοι γιορτάζουν | Εορτολόγιο \n Ανακαλύψτε περισσότερα άρθρα στα αποτελέσματα αναζήτησης\n Προσθήκη του in.gr στην Google \n Διαβάστε στα «ΝΕΑ» της Πέμπτης:\n Από τον Δεκέμβριο\n Απλά και γρήγορα όλες οι μεταβιβάσεις \n • Ερχεται επανάσταση στα ακίνητα με το σύστημα ΜΙΔΑ\n 1. Ταχύτερες α. οι αγοραπωλησίες β. οι μισθώσεις γ. οι παραχωρήσεις\n 2. Πληρέστερη καταγραφή των μισθώσεων για σπίτια και καταστήματα\n 3. Ακριβέστερη φορολόγηση όλης της ακίνητης περιουσίας με βάση α. τα πραγματικά στοιχεία ιδιοκτησίας και β. τη χρήση\n 4. Προσυμπληρωμένα τα εισοδήματα στις φορολογικές δηλώσεις από το 2028\n Εκτός σχεδίου\n Δεν χτίζουν ακόμα και όσοι έχουν άδεια \n • Ποιος είναι ο απαρέγκλιτος όρος που θέτουν οι Πολεοδομίες\n ============\n Ενθετο Υγεία\n Ο καρκίνος του παχέος εντέρου και ο μύθος της ασπιρίνης \n ============\n Εκθεση ΟΟΣΑ 2025\n Το 20% έψαξε και δεν βρήκε ιατρική φροντίδα στην Ελλάδα \n ============\n Γυναικοκτονίες\n Τι γίνονται τα παιδιά που μένουν πίσω \n • Κακοποιημένα και εγκαταλελειμμένα «στοιβάζονται» σε νοσοκομεία ελλείψει δομών\n ============\n Πολιτικό παρασκήνιο\n Ο Χατζηγιαννάκης, ο Λιάκος και άλλες «αμαρτίες»\n Σε ποιους έβαλε γκάζια ο Μητσοτάκης\n ============\n Νέο Μουσείο\n Οταν οι «Δεσμώτες» επιστρέφουν στον τάφο τους \n ============\n ΚΑΙ ΣΤΗΝ ΕΝΘΕΤΗ ΠΟΛΥΣΕΛΙΔΗ «ΟΜΑΔΑ»\n Ολυμπιακός – Χάποελ Τ.Α. 104-79\n Μαγικός με οδηγούς Τζόζεφ και Φουρνιέ \n 4-1 το Κατάρ\n Με θρίαμβο η εθνική Παίδων στις «32» \n Σχόλια\n Περισσότερα σχόλια ( ) \n Headlines: ΗΠΑ: Τα κρούσματα ιλαράς και οι θάνατοι συνεχίζουν να αυξάνονται \n Βολιβία: Αποκλεισμοί δρόμων και κινητοποιήσεις ενάντια στη νέα αύξηση της τιμής του ντίζελ \n Συρία: Σκοτώθηκαν 2 μέλη των δυνάμεων ασφαλείας σε βομβιστική επίθεση που αποδίδεται στο Ισλαμικό Κράτος \n Τουρκία: Πορείες κατά της βίας σε βάρος των γυναικών – Διαδήλωση στο Ταξίμ παρά την απαγόρευση \n Βρετανία: Πέθανε στα 65 του ο Αντι Τέιλορ, ο άλλοτε κιθαρίστας του συγκροτήματος Duran Duran \n Ουκρανία: Νέα μαζική επίθεση της Ρωσίας με βαλλιστικούς πυραύλους – Αιματηρή επιδρομή στο Κίεβο \n Μπαρτζώκας: «Είμαι ευτυχισμένος που είμαι στον Ολυμπιακό και απολαμβάνω κάθε μέρα» \n Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις \n Δείτε όλες τις Τελευταίες Ειδήσεις από την Ελλάδα και τον Κόσμο, στο in.gr \n Ακολουθήστε το in.gr στο Google News και μάθετε πρώτοι όλες τις ειδήσεις\n Προσθήκη του in.gr στην Google",
-      "issues": [],
-      "el": {
-        "title": "Ακίνητα στην Ελλάδα: Νέο σύστημα μεταβίβασης ακινήτων ξεκινά τον Δεκέμβριο",
-        "dek": "Μια σημαντική μεταρρύθμιση στον τομέα των ακινήτων στην Ελλάδα αποσκοπεί στην επιτάχυνση των συναλλαγών, των μισθώσεων και της φορολογίας ακινήτων από τον ερχόμενο Δεκέμβριο.",
-        "tldr": [
-          "Το νέο σύστημα MIDA ξεκινά τον Δεκέμβριο.",
-          "Η μεταρρύθμιση έχει σχεδιαστεί για να επιταχύνει τις πωλήσεις και τις μισθώσεις ακινήτων.",
-          "Στοχεύει σε δικαιότερη φορολογία ακινήτων βάσει της πραγματικής χρήσης."
-        ]
-      },
-      "notified": true
-    }
-  },
+  "pending": {},
   "sourceStatus": {
     "pm": {
       "ok": false,
@@ -1769,12 +1657,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-26T02:20:11.197Z",
+      "at": "2026-11-26T04:57:03.053Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-26T02:20:11.770Z",
+      "at": "2026-11-26T04:57:04.047Z",
       "items": 5
     },
     "civilprotection": {
@@ -1785,27 +1673,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-26T02:20:12.868Z",
+      "at": "2026-11-26T04:57:05.739Z",
       "items": 0
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-26T02:20:13.049Z",
+      "at": "2026-11-26T04:57:05.816Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-26T02:20:13.903Z",
+      "at": "2026-11-26T04:57:07.117Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-26T02:20:14.517Z",
-      "items": 2
+      "at": "2026-11-26T04:57:07.973Z",
+      "items": 3
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-26T02:20:15.350Z",
+      "at": "2026-11-26T04:57:08.778Z",
       "items": 10
     },
     "toi-greece": {
@@ -1816,23 +1704,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-26T02:20:15.612Z",
+      "at": "2026-11-26T04:57:09.372Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-26T02:20:15.657Z",
-      "items": 14
+      "at": "2026-11-26T04:57:09.631Z",
+      "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-26T02:20:15.853Z",
-      "items": 1
+      "at": "2026-11-26T04:57:09.706Z",
+      "items": 2
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-26T02:20:15.983Z",
-      "items": 6
+      "at": "2026-11-26T04:57:09.941Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1841,12 +1729,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-26T02:20:12.241Z",
+      "at": "2026-11-26T04:57:04.759Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-26T02:20:16.477Z",
+      "at": "2026-11-26T04:57:10.819Z",
       "items": 0
     },
     "hcg": {
@@ -1857,39 +1745,39 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-26T02:20:17.685Z",
+      "at": "2026-11-26T04:57:12.030Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-26T02:20:17.884Z",
-      "items": 4
+      "at": "2026-11-26T04:57:12.340Z",
+      "items": 3
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-26T02:20:18.087Z",
+      "at": "2026-11-26T04:57:12.528Z",
       "items": 10
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-26T02:20:18.323Z",
-      "items": 4
+      "at": "2026-11-26T04:57:13.216Z",
+      "items": 6
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-26T02:20:18.690Z",
+      "at": "2026-11-26T04:57:13.564Z",
       "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-26T02:20:19.034Z",
-      "items": 8
+      "at": "2026-11-26T04:57:13.980Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-26",
-    "count": 5,
+    "count": 6,
     "published": [
       {
         "slug": "direct-flights-thessaloniki-us-discussion",
@@ -1920,6 +1808,12 @@
         "title": "US Proposes 15% Tariff on Greek and EU Exports",
         "at": "2026-11-26T04:20:08+02:00",
         "section": "politics"
+      },
+      {
+        "slug": "greece-property-tax-system-mida-december",
+        "title": "Greece Property Market: New MIDA System Launches in December",
+        "at": "2026-11-26T06:56:58+02:00",
+        "section": "real-estate"
       }
     ],
     "rejected": [],
@@ -2230,15 +2124,16 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-26T02:20:21.988Z",
-    "considered": 5,
-    "picked": 1,
+    "at": "2026-11-26T04:57:14.905Z",
+    "considered": 6,
+    "picked": 0,
     "items": [
-      "· gct | Olympus Brings Greek Taverna Dining to Manly Wharf",
-      "· ert | Γάζα: Τρεις Παλαιστίνιοι νεκροί σε ισραηλινή επίθεση με drone στον προσφυγικό καταυλισμό Σ",
-      "· gct | Archaeologists Uncover 2,900-Year-Old Sanctuary on Euboea’s Other Olympus",
-      "· gct | Police Hold Public Awareness Campaign On Domestic Violence",
-      "✓ ingr | Στα «ΝΕΑ» της Πέμπτης: Απλά και γρήγορα όλες οι μεταβιβάσεις"
+      "· naftemporiki | Fitch: Η Ελλάδα δεν θα πέσει στον «γκρεμό» μετά το Ταμείο Ανάκαμψης – Έχει όμως 2 ανοιχτές",
+      "· gct | Katerina Philippou-Curtis Film SWALLOW Takes Flight With Global Message",
+      "· gct | The Thesmophoria: Ancient Greece’s Original Thanksgiving – A Women-Only Harvest Festival",
+      "· ingr | Επίθεση στη Λιβύη: Γιατί η Τουρκία κάρφωσε την Αλβανία και πώς εμπλέκεται το Ισραήλ στο επ",
+      "· ert | Αυστραλία: Ανεξέλεγκτη πυρκαγιά κατακαίει εκτάσεις και κατοικίες στο νησί Φλίντερς",
+      "· ert | Τουλάχιστον δύο νεκροί και αρκετοί τραυματίες από ισραηλινό αεροπορικό πλήγμα σε πολυκατοι"
     ]
   },
   "evergreenDone": [
