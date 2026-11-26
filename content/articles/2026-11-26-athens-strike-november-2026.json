@@ -1,0 +1,56 @@
+{
+  "slug": "athens-strike-november-2026",
+  "section": "israelis",
+  "publishedAt": "2026-11-26T04:19:40+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": "Athens",
+  "sources": [
+    {
+      "name": "Καθημερινή (μέσω Google News)",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOE9GcmtFQUVnYWdEcVBnbXNsSDRZZkU1aTg5NjVaVTlkS0g4cmgwQlo3VU0yV25pUUwtUTU1UGJ4QVBKRXV2QzZ3WnZ6Tnpyanlwem5rajdZTG03dEJYTU50aFhqSW8zQXBJRGJQckF1MzVIRGRRNVlrV1JLa3NXWmdwZEhJcHphVExfb0p0Sllrd2VqNkpnS1VYUTVvS3pOYl9hNGlNQU1MZkpaU0FaN2JHaHNSYVlmT3U4Um5HNGwwVkxmTWdOSTROX3o4eEotNnV2b1Y3UWZXXzg?oc=5"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/5721492/pexels-photo-5721492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Yellow taxis lining the street in Athens, Greece, showcasing city's bustling transportation.",
+    "credit": "Photo: Markus Winkler / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/yellow-taxi-cabs-on-the-road-5721492/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "שביתה כללית באתונה: שיבושים בתחבורה הציבורית, טיסות ומעבורות",
+    "dek": "שביתה כללית מתקיימת היום ביוון ומשפיעה על התחבורה הציבורית באתונה, טיסות ומעבורות בנמלים.",
+    "tldr": [
+      "שביתה כללית משפיעה על התחבורה הציבורית והטיסות ביוון",
+      "מעבורות נותרו מעוגנות בנמלים בשל השבתת יורדי הים",
+      "נוסעים מתבקשים לעדכן את עצמם מול חברות התעופה והתחבורה"
+    ],
+    "means": "אם אתם נמצאים כרגע באתונה או מתכננים טיסה ליוון, תצפו לשיבושים בפעילות הרכבת התחתית, האוטובוסים והמעבורות, ותבדקו מראש את סטטוס הטיסות שלכם.",
+    "body": "שביתה כללית יוצאת לדרך היום ביוון וגורמת לשינויים משמעותיים בפעילות התחבורה הציבורית ברחבי המדינה. על פי דיווחים בעיתונות היוונית, השביתה משפיעה על מערך התחבורה הציבורית באתונה, כולל הרכבת התחתית והאוטובוסים, ומובילה לביטולים ושינויים בלוח הטיסות. בנוסף, המעבורות בנמלים נותרו מעוגנות ברציפים עקב השתתפות איגודי הימאים בשביתה. הרשויות ביוון ממליצות לכל מי שמתכנן נסיעה או טיסה לבדוק היטב את העדכונים האחרונים ישירות מול חברות התעופה, סוכנויות הנסיעות וחברות ההפעלה של התחבורה הציבורית טרם הגעה לנמלים או לשדות התעופה."
+  },
+  "en": {
+    "title": "General strike in Athens: transport disruptions, flights and ferries",
+    "dek": "A general strike is underway in Greece, affecting public transport in Athens, flights, and ferry services.",
+    "tldr": [
+      "General strike impacts public transport and flights across Greece",
+      "Ferries remain docked in ports due to seafarers' participation",
+      "Passengers are advised to check updates with airlines and operators"
+    ],
+    "means": "If you are currently in Athens or traveling to Greece, expect disruptions to metro, buses, and ferry services, and verify your flight status in advance.",
+    "body": "A general strike is taking place today in Greece, causing significant disruptions to public transportation across the country. According to reports in the Greek press, the strike affects public transport services in Athens, including the metro and buses, and leads to cancellations and modifications in flight schedules. In addition, ferries in the ports remain docked due to the participation of seafarers' unions in the strike. Authorities in Greece recommend that anyone planning travel or flights carefully check the latest updates directly with airlines, travel agencies, and public transport operators before arriving at ports or airports."
+  },
+  "meta": {
+    "itemId": "70dce49c19b4",
+    "imageQuery": "Athens public transport strike",
+    "sourceHash": "3f7d92b80e61",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-26T02:19:40.833Z",
+    "official": false
+  }
+}
