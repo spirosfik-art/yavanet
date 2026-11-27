@@ -1599,7 +1599,28 @@
     "e19836b000ed": 1795767143980,
     "5044aa8caa64": 1795767143980,
     "f52464f11893": 1795767143980,
-    "5359f748b39f": 1795767143980
+    "5359f748b39f": 1795767143980,
+    "21d3e369c96d": 1795778956703,
+    "aee3addaf32a": 1795778956703,
+    "d1a2858b333d": 1795778956703,
+    "b96e8670880a": 1795778956703,
+    "4cef313811ac": 1795778956703,
+    "f8cdf1315e21": 1795778956703,
+    "1edc2825983a": 1795778956703,
+    "e2e57339a4be": 1795778956703,
+    "bb4e0323aaa1": 1795778956703,
+    "b28983b4f3e2": 1795778956703,
+    "a6611ae9a3b9": 1795778956703,
+    "8af19d6c25ad": 1795778956703,
+    "e08d6059f1b7": 1795778956703,
+    "1fdd385f8650": 1795778956703,
+    "daf656880ae3": 1795778956703,
+    "3b2b540dfbb7": 1795778956703,
+    "365a5bd1a4cd": 1795778956703,
+    "8b32f94c9486": 1795778956703,
+    "1223b496c708": 1795778956703,
+    "05c7d2256759": 1795778956703,
+    "56fb640683cf": 1795778956703
   },
   "pending": {},
   "sourceStatus": {
@@ -1611,12 +1632,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-27T08:12:10.753Z",
+      "at": "2026-11-27T11:29:04.330Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-27T08:12:11.630Z",
+      "at": "2026-11-27T11:29:05.086Z",
       "items": 4
     },
     "civilprotection": {
@@ -1627,27 +1648,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-27T08:12:13.056Z",
-      "items": 4
+      "at": "2026-11-27T11:29:06.738Z",
+      "items": 10
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-27T08:12:13.458Z",
+      "at": "2026-11-27T11:29:06.949Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-27T08:12:14.943Z",
+      "at": "2026-11-27T11:29:08.398Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-27T08:12:15.849Z",
-      "items": 1
+      "at": "2026-11-27T11:29:09.473Z",
+      "items": 0
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-27T08:12:16.851Z",
+      "at": "2026-11-27T11:29:10.399Z",
       "items": 10
     },
     "toi-greece": {
@@ -1658,23 +1679,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-27T08:12:17.610Z",
-      "items": 0
+      "at": "2026-11-27T11:29:10.870Z",
+      "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-27T08:12:17.730Z",
-      "items": 14
+      "at": "2026-11-27T11:29:10.935Z",
+      "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-27T08:12:18.638Z",
-      "items": 5
+      "at": "2026-11-27T11:29:11.551Z",
+      "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T08:12:19.166Z",
-      "items": 2
+      "at": "2026-11-27T11:29:11.743Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1683,12 +1704,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T08:12:12.002Z",
+      "at": "2026-11-27T11:29:05.675Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-27T08:12:19.941Z",
+      "at": "2026-11-27T11:29:12.452Z",
       "items": 0
     },
     "hcg": {
@@ -1699,34 +1720,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-27T08:12:20.951Z",
+      "at": "2026-11-27T11:29:14.079Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-27T08:12:21.162Z",
+      "at": "2026-11-27T11:29:14.343Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-27T08:12:21.367Z",
-      "items": 4
+      "at": "2026-11-27T11:29:14.486Z",
+      "items": 3
     },
     "gn-hcg": {
-      "ok": false,
-      "at": "2026-11-27T08:12:21.782Z",
-      "error": "HTTP 429",
-      "fails": 1
+      "ok": true,
+      "at": "2026-11-27T11:29:14.806Z",
+      "items": 4
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-27T08:12:22.176Z",
-      "items": 4
+      "at": "2026-11-27T11:29:15.147Z",
+      "items": 5
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-27T08:12:22.582Z",
-      "items": 10
+      "at": "2026-11-27T11:29:15.504Z",
+      "items": 9
     }
   },
   "tgOffset": 829774786,
@@ -1739,6 +1759,12 @@
         "title": "Earthquake measuring magnitude 4 strikes near Samos in Greece",
         "at": "2026-11-27T10:12:50+02:00",
         "section": "breaking"
+      },
+      {
+        "slug": "weekend-in-athens-2026-11-27",
+        "title": "↻ Athens Christmas Village Returns with Ferris Wheel and Free Events",
+        "at": "2026-11-27T13:29:39+02:00",
+        "section": "living"
       }
     ],
     "rejected": [
@@ -1766,6 +1792,16 @@
         "title": "ΜΙΔΑ: Ανατροπές για ιδιοκτήτες και ενοικιαστές ακινήτων από τον Δεκέμβριο",
         "reason": "Ίδιο θέμα με «Greece Property Market: New MIDA System Launches in December» – δεν γράφτηκε ξανά",
         "at": "2026-11-27T08:12:32.325Z"
+      },
+      {
+        "title": "Έκτακτο δελτίο επικίνδυνων καιρικών φαινόμενων: Πού και πότε θα «χτυπήσουν» ισχυρές καταιγίδες",
+        "reason": "Ίδιο θέμα με «Storm Warning Issued for Greece: Orange Alert for Ionian Islands» – δεν γράφτηκε ξανά",
+        "at": "2026-11-27T11:29:20.649Z"
+      },
+      {
+        "title": "Καιρός: Κακοκαιρία σε δύο φάσεις το Σαββατοκύριακο με βροχές, ανέμους και βουτιά θερμοκρασίας",
+        "reason": "Ίδιο θέμα με «Storm Warning Issued for Greece: Orange Alert for Ionian Islands» – δεν γράφτηκε ξανά",
+        "at": "2026-11-27T11:29:25.339Z"
       }
     ],
     "errors": [],
@@ -2081,26 +2117,32 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-27T08:12:23.980Z",
-    "considered": 16,
+    "at": "2026-11-27T11:29:16.703Z",
+    "considered": 22,
     "picked": 3,
     "items": [
-      "· naftemporiki | McDonald’s: Επενδύσεις 50 εκατ. και δημιουργία 19 νέων καταστημάτων",
-      "· gct | South Melbourne Reach Championship Semi-Finals After Oakleigh Penalty Thriller",
-      "· gtp | Ella Resorts Plans €680 Million Expansion in Greece, Spain and Italy",
-      "· naftemporiki | Efood: Νέος επενδυτής, νέες δραστηριότητες και επενδύσεις – Αύξηση 15% στον τζίρο στο 11μη",
-      "· gn-iefimerida | Επιστροφή ενοικίου 250 ευρώ, κατά μέσο όρο, για το φορολογικό έτος 2025 σε 932.652 δικαιού",
-      "· ingr | Καλλιτεχνικό Σχολείο Αθηνών: Άστεγο επί 8 χρόνια – «φιλοξενούμενο» σε άθλιες συνθήκες – κω",
-      "✓ gn-iefimerida | Κακοκαιρία στη Θεσπρωτία: Χείμαρροι οι δρόμοι σε Σύβοτα και Ηγουμενίτσα -150 κλήσεις στην ",
-      "· gn-kathimerini | Θεσπρωτία: Σοβαρά προβλήματα από την κακοκαιρία – 150 κλήσεις στην Πυροσβεστική - Kathimer",
-      "· ingr | Κόστα Ρίκα: Απέλασε την εισηγήτρια του ΟΗΕ για την Παλαιστίνη, Φραντσέσκα Αλμπανέζε",
-      "· ingr | Έμφυλη βία στο Ισραήλ: Πάνω από 128.000 γυναίκες υπέστησαν σεξουαλική παρενόχληση το 2025",
-      "✓ ingr | Σεισμός 4 Ρίχτερ στη Σάμο",
-      "· ert | ΗΠΑ: Η κακοκαιρία «χάλασε» τη γιορτή των Ευχαριστιών για σχεδόν 1 εκατ. νοικοκυριά – Διακο",
-      "✓ ingr | ΜΙΔΑ: Ανατροπές για ιδιοκτήτες και ενοικιαστές ακινήτων από τον Δεκέμβριο",
-      "· gct | UK Strategic Reservists Contacted Amid Rising Threats",
-      "· gn-iefimerida | Ινδία: «Καταφύγιο» για αγέλες πιθήκων το Ταζ Μαχάλ -Ανησυχία για την ασφάλεια των τουριστώ",
-      "· gn-iefimerida | Γ. Πιτσιλής: Αντιπρόεδρος του Φόρουμ Φορολογικών Διοικήσεων του ΟΟΣΑ - Η ελληνική εμπειρία"
+      "· naftemporiki | Φορολοταρία ΑΑΔΕ: Τα αποτελέσματα της κλήρωσης Οκτωβρίου – Πώς θα δείτε αν κερδίσατε",
+      "· minfin | Τοποθέτηση του Υφυπουργού Εθνικής Οικονομίας και Οικονομικών κ. Θάνου Πετραλιά στη Διαρκή ",
+      "· ingr | Η ιστορία της Πυλαίας στα χέρια των παιδιών του Κέντρου Εκπαίδευσης και Αποκατάστασης Τυφλ",
+      "✓ ingr | Έκτακτο δελτίο επικίνδυνων καιρικών φαινόμενων: Πού και πότε θα «χτυπήσουν» ισχυρές καταιγ",
+      "· meteoalarm | Red Rain Warning issued for Greece - West Sterea",
+      "· ingr | Ακρίβεια: Πόσο επηρεάζει και τον εορταστικό προϋπολογισμό",
+      "· meteoalarm | Red Thunderstorm Warning issued for Greece - West Sterea",
+      "· gct | Police Probe 1,291 Uniformed Officers Over Fake Accommodation Receipts",
+      "· gct | Heraklion Airport Sets Record as Greece Nears 80 Million Flyers",
+      "· gct | Five Otherworldly Landscapes You Won’t Believe Are in Greece",
+      "· gct | Omonia Metro Station in Athens Reopens After Passenger Bag Fire",
+      "· naftemporiki | KIKO MILANO: Eίσοδος στην αγορά της Σλοβακίας και νέο κατάστημα στον Πειραιά",
+      "✓ naftemporiki | Καιρός: Κακοκαιρία σε δύο φάσεις το Σαββατοκύριακο με βροχές, ανέμους και βουτιά θερμοκρασ",
+      "· gn-kathimerini | Ισραήλ: Το αραβικό κόμμα αναμένεται να χαρακτηρίσει τη Χαμάς «τρομοκρατική οργάνωση» - Kat",
+      "· minfin | Ειδικό Πρόγραμμα Αντιμετώπισης και Αποκατάστασης Φυσικών Καταστροφών 2026-2030: 78,1 εκατ.",
+      "· gn-kathimerini | Δραματικό τροχαίο εν μέσω κακοκαιρίας στις ΗΠΑ: Φορτηγό προσέκρουσε και «κρεμάστηκε» από γ",
+      "· gtp | Alpha Bank: Emerging Source Markets Support Greek Tourism Growth",
+      "· gtp | Eastern Macedonia and Thrace Invites Travelers to Discover ‘More Greece’",
+      "· gtp | Thessaly: Greek Government Reviews Flood Protection and Water Management Plans",
+      "· gtp | Greek Environment Ministry Plans €200 Million in Subsidies for Energy Storage",
+      "· gtp | Sea Science Forum: Greece Needs More Data to Protect its Seas",
+      "✓ gtp | Attica’s Christmas Village Returns with Panoramic Ferris Wheel and Free Events"
     ]
   },
   "evergreenDone": [
