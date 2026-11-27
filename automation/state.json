@@ -1613,7 +1613,16 @@
     "cddb38caa240": 1795805538146,
     "0be2f8875cd1": 1795805538146,
     "5fa36f321553": 1795805538146,
-    "b916ee989dea": 1795805538146
+    "b916ee989dea": 1795805538146,
+    "7e5d329bb0d4": 1795810110885,
+    "e523ea025634": 1795810110885,
+    "b195e0d32f90": 1795810110885,
+    "44a52731ab95": 1795810110885,
+    "41f1ad724647": 1795810110885,
+    "57d2df2a6b82": 1795810110885,
+    "9f0924619179": 1795810110885,
+    "270226b05eac": 1795810110885,
+    "9568652f9456": 1795810110885
   },
   "pending": {
     "6c1f0d": {
@@ -1727,12 +1736,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-27T18:52:06.537Z",
+      "at": "2026-11-27T20:08:19.280Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-27T18:52:08.134Z",
+      "at": "2026-11-27T20:08:20.059Z",
       "items": 3
     },
     "civilprotection": {
@@ -1743,27 +1752,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-27T18:52:09.537Z",
+      "at": "2026-11-27T20:08:22.003Z",
       "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-27T18:52:09.748Z",
+      "at": "2026-11-27T20:08:22.470Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-27T18:52:10.703Z",
+      "at": "2026-11-27T20:08:23.547Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-27T18:52:11.370Z",
-      "items": 1
+      "at": "2026-11-27T20:08:24.262Z",
+      "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-27T18:52:12.195Z",
+      "at": "2026-11-27T20:08:24.917Z",
       "items": 10
     },
     "toi-greece": {
@@ -1774,23 +1783,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-27T18:52:12.607Z",
+      "at": "2026-11-27T20:08:25.446Z",
       "items": 5
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-27T18:52:12.703Z",
+      "at": "2026-11-27T20:08:25.584Z",
       "items": 13
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-27T18:52:12.870Z",
+      "at": "2026-11-27T20:08:26.248Z",
       "items": 3
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T18:52:13.210Z",
-      "items": 2
+      "at": "2026-11-27T20:08:26.758Z",
+      "items": 3
     },
     "ynet-greece": {
       "ok": true,
@@ -1799,12 +1808,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T18:52:08.430Z",
+      "at": "2026-11-27T20:08:20.889Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-27T18:52:13.716Z",
+      "at": "2026-11-27T20:08:27.351Z",
       "items": 0
     },
     "hcg": {
@@ -1815,33 +1824,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-27T18:52:14.994Z",
+      "at": "2026-11-27T20:08:28.623Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-27T18:52:15.236Z",
-      "items": 7
+      "at": "2026-11-27T20:08:28.824Z",
+      "items": 10
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-27T18:52:15.451Z",
+      "at": "2026-11-27T20:08:28.956Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-27T18:52:15.830Z",
-      "items": 2
+      "at": "2026-11-27T20:08:29.220Z",
+      "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-27T18:52:16.179Z",
-      "items": 4
+      "at": "2026-11-27T20:08:29.547Z",
+      "items": 3
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-27T18:52:16.596Z",
-      "items": 6
+      "at": "2026-11-27T20:08:29.916Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2232,40 +2241,19 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-27T18:52:18.146Z",
-    "considered": 34,
-    "picked": 6,
+    "at": "2026-11-27T20:08:30.885Z",
+    "considered": 9,
+    "picked": 0,
     "items": [
-      "· ert | Ισραήλ: Ο Άιζενκοτ κατηγορεί το κόμμα του Νετανιάχου ότι καθυστερεί τις διαπραγματεύσεις γ",
-      "✓ ingr | Ζάκυνθος: Σε κατάσταση Red Code λόγω της κακοκαιρίας",
-      "· naftemporiki | Άσκηση ετοιμότητας με τη συμμετοχή των τοπικών φορέων στα ναυπηγεία του Ομίλου ONEX στη Σύ",
-      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Thessalia",
-      "· meteoalarm | Orange Thunderstorm Warning issued for Greece - Central Makedonia",
-      "· gct | Turkey Raises UN Concerns Over Cyprus Interest in BrahMos Missiles",
-      "· meteoalarm | Orange Rain Warning issued for Greece - Thessalia",
-      "· meteoalarm | Orange Rain Warning issued for Greece - Central Makedonia",
-      "· meteoalarm | Orange Rain Warning issued for Greece - West Peloponnisos",
-      "· gtp | Norse Atlantic Airways Files for Bankruptcy, Cancels All Flights",
-      "· ingr | Άιζενκοτ: Κατηγορεί το κόμμα του Νετανιάχου ότι καθυστερεί τις διαπραγματεύσεις για να προ",
-      "· ktg | Seven arrests for sexual abuse of 15-year-old girl in W. Greece",
-      "· gct | DG Shipping Hosts Greek Delegation to Advance India-Greece Ties on GIFT City and Shipbuild",
-      "· naftemporiki | Γερμανία: Η κάτω βουλή της Μπούντεσταγκ ενέκρινε τον προϋπολογισμό ύψους 556 δισ. ευρώ για",
-      "· gn-iefimerida | Εικόνες καταστροφής στο Μεσολόγγι από την κακοκαιρία: Πλημμύρισαν σπίτια, μεγάλες ζημιές σ",
-      "· gn-iefimerida | Τσουκαλάς για στεγαστικό: Ο πρωθυπουργός πανηγυρίζει για την «ασπιρίνη» σε μια κρίση που ο",
-      "· gn-civilprotection | Συνεδρίαση του Συντονιστικού Οργάνου Πολιτικής Προστασίας και της Επιτροπής Εκτίμησης Κινδ",
-      "✓ ingr | Σε δύο φάσεις η κακοκαιρία – Ήχησε το 112 στο Μεσολόγγι, πλημμύρες στη Θεσπρωτία – Η πρόβλ",
-      "· minfin | Ειδικό Πρόγραμμα Αντιμετώπισης και Αποκατάστασης Φυσικών Καταστροφών 2026-2030: 20 εκατ. ε",
-      "✓ gtp | Greece Eyes Spanish Investment in Hotels, Resorts and Marinas",
-      "· minfin | Κατανομή πιστώσεων κρατικού προϋπολογισμού 2027 σε αναλυτικό επίπεδο και έγκριση αναλυτικώ",
-      "· gn-iefimerida | Σε εξέλιξη το κύμα κακοκαιρίας -Ισχυρή καταιγίδα στο Μεσολόγγι, ήχησε το 112, δύο άνδρες α",
-      "· ktg | Floods and landslides in Corfu; dramatic evacuation of Animal Shelter (videos)",
-      "✓ gtp | Nikki Beach Porto Heli to Reopen as Aliis Resort – MGallery Collection in 2027",
-      "· minfin | ΔΗΜΟΠΡΑΣΙΑ ΕΝΤΟΚΩΝ ΓΡΑΜΜΑΤΙΩΝ 52 ΕΒΔΟΜΑΔΩΝ",
-      "✓ minfin | Υπεγράφη η σύμβαση για την κατασκευή 12 νέων σχολικών υποδομών στα Χανιά- 50,6 εκατ. ευρώ ",
-      "· gn-kathimerini | Κακοκαιρία: Μήνυμα του 112 στο Μεσολόγγι – «Περιορίστε μετακινήσεις» - Kathimerini",
-      "✓ minfin | Οριστικός Ανάδοχος για τον Φορέα Απόκτησης και Επαναμίσθωσης Ακινήτων Ενεργοποιείται το δί",
-      "· gtp | Xenia 2026: Πάνω από 31.000 επαγγελματίες της φιλοξενίας και 500 εκθέτες",
-      "· gn-civilprotection | Βροχές και καταιγίδες προβλέπονται από σήμερα Παρασκευή (27/11/2026) ως και την Κυριακή (2"
+      "· naftemporiki | Γάζα: Η Χαμάς καταγγέλλει απόπειρα δολοφονίας του γιου του Χαλίλ αλ Χάγια",
+      "· ingr | Καιρός: Κόκκινος συναγερμός σε έξι περιφέρειες για το κύμα κακοκαιρίας – Πού αναμένονται τ",
+      "· naftemporiki | Wall Street: Ράλι ανόδου για Dow, η καλύτερη εβδομάδα από το 2022 με οδηγό την ανάκαμψη τω",
+      "· ert | Γάζα: Ο τελευταίος εν ζωή γιος του ηγέτη της Χαμάς, Χαλίλ αλ-Χάγια επιβίωσε από ισραηλινή ",
+      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στην Κέρκυρα υπό τον Γενικό Γραμματέα Πολιτικής Προστασίας Νίκ",
+      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στην Ανατολική Μακεδονία και Θράκη – Ευ. Τουρνάς: Ολοκλήρωση τ",
+      "· gtp | Nikki Beach Porto Heli to Reopen as Aliis Resort – MGallery Collection in 2027",
+      "· minfin | Υπεγράφη η σύμβαση για την κατασκευή 12 νέων σχολικών υποδομών στα Χανιά- 50,6 εκατ. ευρώ ",
+      "· gn-civilprotection | ΔΕΛΤΙΟ ΤΥΠΟΥ - Civilprotection.gov.gr"
     ]
   },
   "evergreenDone": [
