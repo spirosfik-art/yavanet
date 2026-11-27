@@ -19,30 +19,6 @@
     "e4aa31c00218": 1798268738798,
     "c6b22e818571": 1799025881565,
     "d18f8b989441": 1799100415872,
-    "f8d97242b4fe": 1794556221895,
-    "47b65a46b486": 1794556221895,
-    "0837500fa5e9": 1794556221895,
-    "a4bd28cb65e5": 1794556221895,
-    "c566af3d7cc1": 1794556221895,
-    "7bc58e5fd794": 1794556221895,
-    "bce9d6120b7b": 1794556221895,
-    "61ea6d7d22f6": 1794556221895,
-    "e4527044a99c": 1794556221895,
-    "6b8f5faa0b32": 1794556221895,
-    "84c97cecd2ea": 1794556221895,
-    "79940d150cef": 1794556221895,
-    "161b6a5cf290": 1794556221895,
-    "d001040983b4": 1794556221895,
-    "6d6e41965242": 1794556221895,
-    "830889805f84": 1794556221895,
-    "27c167e11ac4": 1794556221895,
-    "895e70785027": 1794556221895,
-    "f25efc5b3e7a": 1794556221895,
-    "0345fccad2af": 1794556221895,
-    "5c7a0bcbc130": 1794556221895,
-    "f4142284bcc4": 1794556221895,
-    "441a66ffc813": 1794556511956,
-    "7651debad387": 1794556511956,
     "8931d4445c22": 1794584675242,
     "5d76b45aacc1": 1794584675242,
     "5d532c15e942": 1794584675242,
@@ -1607,7 +1583,23 @@
     "9d633f0a18cf": 1795747689782,
     "b56602aed1c5": 1795747689782,
     "56a9ae343079": 1795747689782,
-    "79daf7df6508": 1795747689782
+    "79daf7df6508": 1795747689782,
+    "0f49a19ad385": 1795767143980,
+    "d2597fc076e6": 1795767143980,
+    "526fdbb473ef": 1795767143980,
+    "7e0e99d154e9": 1795767143980,
+    "071090acc842": 1795767143980,
+    "145c079000d1": 1795767143980,
+    "c5d9b11eb419": 1795767143980,
+    "477551377cf9": 1795767143980,
+    "0e24c53f7011": 1795767143980,
+    "0f9ce1a07ea2": 1795767143980,
+    "515adcf2b8d2": 1795767143980,
+    "7002e284840b": 1795767143980,
+    "e19836b000ed": 1795767143980,
+    "5044aa8caa64": 1795767143980,
+    "f52464f11893": 1795767143980,
+    "5359f748b39f": 1795767143980
   },
   "pending": {},
   "sourceStatus": {
@@ -1619,12 +1611,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-27T02:47:57.578Z",
+      "at": "2026-11-27T08:12:10.753Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-27T02:47:58.363Z",
+      "at": "2026-11-27T08:12:11.630Z",
       "items": 4
     },
     "civilprotection": {
@@ -1635,27 +1627,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-27T02:48:00.011Z",
+      "at": "2026-11-27T08:12:13.056Z",
       "items": 4
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-27T02:48:00.274Z",
+      "at": "2026-11-27T08:12:13.458Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-27T02:48:01.931Z",
+      "at": "2026-11-27T08:12:14.943Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-27T02:48:02.671Z",
+      "at": "2026-11-27T08:12:15.849Z",
       "items": 1
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-27T02:48:03.468Z",
+      "at": "2026-11-27T08:12:16.851Z",
       "items": 10
     },
     "toi-greece": {
@@ -1666,23 +1658,23 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-27T02:48:03.951Z",
-      "items": 5
+      "at": "2026-11-27T08:12:17.610Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-27T02:48:04.284Z",
+      "at": "2026-11-27T08:12:17.730Z",
       "items": 14
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-27T02:48:04.817Z",
-      "items": 3
+      "at": "2026-11-27T08:12:18.638Z",
+      "items": 5
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T02:48:04.983Z",
-      "items": 3
+      "at": "2026-11-27T08:12:19.166Z",
+      "items": 2
     },
     "ynet-greece": {
       "ok": true,
@@ -1691,12 +1683,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-27T02:47:59.108Z",
+      "at": "2026-11-27T08:12:12.002Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-27T02:48:05.540Z",
+      "at": "2026-11-27T08:12:19.941Z",
       "items": 0
     },
     "hcg": {
@@ -1707,40 +1699,48 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-27T02:48:06.657Z",
+      "at": "2026-11-27T08:12:20.951Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-27T02:48:06.922Z",
+      "at": "2026-11-27T08:12:21.162Z",
       "items": 5
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-27T02:48:07.106Z",
+      "at": "2026-11-27T08:12:21.367Z",
       "items": 4
     },
     "gn-hcg": {
-      "ok": true,
-      "at": "2026-11-27T02:48:07.272Z",
-      "items": 4
+      "ok": false,
+      "at": "2026-11-27T08:12:21.782Z",
+      "error": "HTTP 429",
+      "fails": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-27T02:48:07.641Z",
-      "items": 5
+      "at": "2026-11-27T08:12:22.176Z",
+      "items": 4
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-27T02:48:09.015Z",
-      "items": 8
+      "at": "2026-11-27T08:12:22.582Z",
+      "items": 10
     }
   },
   "tgOffset": 829774786,
   "today": {
     "date": "2026-11-27",
-    "count": 0,
-    "published": [],
+    "count": 1,
+    "published": [
+      {
+        "slug": "earthquake-magnitude-4-samos",
+        "title": "Earthquake measuring magnitude 4 strikes near Samos in Greece",
+        "at": "2026-11-27T10:12:50+02:00",
+        "section": "breaking"
+      }
+    ],
     "rejected": [
       {
         "title": "Rent or Buy Property in Greece: What Makes More Sense?",
@@ -1756,9 +1756,26 @@
         "title": "Israeli Ambassador Meets with Archbishop Ieronymos in Athens",
         "reason": "Ουδέτερη εκδοχή: Rule 11 / Name translation error: In the Hebrew tldr, 'א테נה' contains a typo/wrong character instead of 'אתונה', and in the Hebrew body 'אדמה' is used instead of 'אתונה' for Athens.",
         "at": "2026-11-27T02:47:55.201Z"
+      },
+      {
+        "title": "Κακοκαιρία στη Θεσπρωτία: Χείμαρροι οι δρόμοι σε Σύβοτα και Ηγουμενίτσα -150 κλήσεις στην Πυροσβεστική, δείτε βίντεο - iefimerida.gr",
+        "reason": "Ίδιο θέμα με «Storm Warning Issued for Greece: Orange Alert for Ionian Islands» – δεν γράφτηκε ξανά",
+        "at": "2026-11-27T08:12:27.772Z"
+      },
+      {
+        "title": "ΜΙΔΑ: Ανατροπές για ιδιοκτήτες και ενοικιαστές ακινήτων από τον Δεκέμβριο",
+        "reason": "Ίδιο θέμα με «Greece Property Market: New MIDA System Launches in December» – δεν γράφτηκε ξανά",
+        "at": "2026-11-27T08:12:32.325Z"
       }
     ],
-    "errors": []
+    "errors": [],
+    "fb": [
+      {
+        "slug": "earthquake-magnitude-4-samos",
+        "at": "2026-11-27T08:12:50.570Z"
+      }
+    ],
+    "ig": []
   },
   "history": [
     {
@@ -2064,16 +2081,26 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-27T02:48:09.782Z",
-    "considered": 6,
-    "picked": 0,
+    "at": "2026-11-27T08:12:23.980Z",
+    "considered": 16,
+    "picked": 3,
     "items": [
-      "· gct | Greek Olive Oil Soap: What It Is, How It’s Made and Why Greeks Love It",
-      "· gct | Sacred Sites of Greece and Israel Unite Memory, Identity and Faith",
-      "· gct | Herodion Theatre to Close for Major €19.7 Million Restoration",
-      "· gct | Mykonos Honours Its Women on St Catherine’s Feast",
-      "· gct | Parliament Honours Gorgopotamos Bridge Sabotage That United Rival Fighters",
-      "· gct | Publisher Yiannis Kourtakis Denies Wrongdoing After Arrest in Recycling Funds Case"
+      "· naftemporiki | McDonald’s: Επενδύσεις 50 εκατ. και δημιουργία 19 νέων καταστημάτων",
+      "· gct | South Melbourne Reach Championship Semi-Finals After Oakleigh Penalty Thriller",
+      "· gtp | Ella Resorts Plans €680 Million Expansion in Greece, Spain and Italy",
+      "· naftemporiki | Efood: Νέος επενδυτής, νέες δραστηριότητες και επενδύσεις – Αύξηση 15% στον τζίρο στο 11μη",
+      "· gn-iefimerida | Επιστροφή ενοικίου 250 ευρώ, κατά μέσο όρο, για το φορολογικό έτος 2025 σε 932.652 δικαιού",
+      "· ingr | Καλλιτεχνικό Σχολείο Αθηνών: Άστεγο επί 8 χρόνια – «φιλοξενούμενο» σε άθλιες συνθήκες – κω",
+      "✓ gn-iefimerida | Κακοκαιρία στη Θεσπρωτία: Χείμαρροι οι δρόμοι σε Σύβοτα και Ηγουμενίτσα -150 κλήσεις στην ",
+      "· gn-kathimerini | Θεσπρωτία: Σοβαρά προβλήματα από την κακοκαιρία – 150 κλήσεις στην Πυροσβεστική - Kathimer",
+      "· ingr | Κόστα Ρίκα: Απέλασε την εισηγήτρια του ΟΗΕ για την Παλαιστίνη, Φραντσέσκα Αλμπανέζε",
+      "· ingr | Έμφυλη βία στο Ισραήλ: Πάνω από 128.000 γυναίκες υπέστησαν σεξουαλική παρενόχληση το 2025",
+      "✓ ingr | Σεισμός 4 Ρίχτερ στη Σάμο",
+      "· ert | ΗΠΑ: Η κακοκαιρία «χάλασε» τη γιορτή των Ευχαριστιών για σχεδόν 1 εκατ. νοικοκυριά – Διακο",
+      "✓ ingr | ΜΙΔΑ: Ανατροπές για ιδιοκτήτες και ενοικιαστές ακινήτων από τον Δεκέμβριο",
+      "· gct | UK Strategic Reservists Contacted Amid Rising Threats",
+      "· gn-iefimerida | Ινδία: «Καταφύγιο» για αγέλες πιθήκων το Ταζ Μαχάλ -Ανησυχία για την ασφάλεια των τουριστώ",
+      "· gn-iefimerida | Γ. Πιτσιλής: Αντιπρόεδρος του Φόρουμ Φορολογικών Διοικήσεων του ΟΟΣΑ - Η ελληνική εμπειρία"
     ]
   },
   "evergreenDone": [
@@ -2116,5 +2143,24 @@
   "lastEvergreen": 1790930400026,
   "pushKey": "ok",
   "lastPush": 1793812137938,
-  "socialQueue": []
+  "socialQueue": [
+    {
+      "slug": "earthquake-magnitude-4-samos",
+      "url": "https://yavanet.gr/a/earthquake-magnitude-4-samos/",
+      "at": "2026-11-27T08:12:50.570Z",
+      "make": {
+        "url_he": "https://yavanet.gr/a/earthquake-magnitude-4-samos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "url_en": "https://yavanet.gr/en/a/earthquake-magnitude-4-samos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "title_he": "רעידת אדמה בעוצמה 4 ביוון: רעש הורגש באזור סאמוס",
+        "title_en": "Earthquake measuring magnitude 4 strikes near Samos in Greece",
+        "dek_he": "רעידת אדמה בעוצמה 4 הכתה בשעות הבוקר המוקדמות באזור האי סאמוס, לפי דיווח של המכון הגאודינמי באתונה.",
+        "dek_en": "An earthquake with a magnitude of 4 occurred early in the morning off the coast of Samos, according to official reports from Athens.",
+        "section": "breaking",
+        "breaking": false,
+        "image": "https://yavanet.gr/og.png",
+        "post_he": "רעידת אדמה בעוצמה 4 ביוון: רעש הורגש באזור סאמוס\n\nרעידת אדמה בעוצמה 4 הכתה בשעות הבוקר המוקדמות באזור האי סאמוס, לפי דיווח של המכון הגאודינמי באתונה.\n\nhttps://yavanet.gr/a/earthquake-magnitude-4-samos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post",
+        "post_en": "Earthquake measuring magnitude 4 strikes near Samos in Greece\n\nAn earthquake with a magnitude of 4 occurred early in the morning off the coast of Samos, according to official reports from Athens.\n\nhttps://yavanet.gr/en/a/earthquake-magnitude-4-samos/?utm_source=facebook&utm_medium=social&utm_campaign=auto-post"
+      }
+    }
+  ]
 }
