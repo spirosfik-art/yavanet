@@ -1603,7 +1603,10 @@
     "ade1154ec93a": 1795830852016,
     "4334f3670186": 1795830852016,
     "cd8b50388fa2": 1795830852016,
-    "03debd82eb79": 1795830852016
+    "03debd82eb79": 1795830852016,
+    "b5c5bffc1fd5": 1795833505099,
+    "0f02d9861d8f": 1795833505099,
+    "63854dc1f86b": 1795833505099
   },
   "pending": {},
   "sourceStatus": {
@@ -1615,12 +1618,12 @@
     },
     "minfin": {
       "ok": true,
-      "at": "2026-11-28T01:54:00.731Z",
+      "at": "2026-11-28T02:38:13.358Z",
       "items": 10
     },
     "migration": {
       "ok": true,
-      "at": "2026-11-28T01:54:01.426Z",
+      "at": "2026-11-28T02:38:14.228Z",
       "items": 3
     },
     "civilprotection": {
@@ -1631,27 +1634,27 @@
     },
     "meteoalarm": {
       "ok": true,
-      "at": "2026-11-28T01:54:03.054Z",
+      "at": "2026-11-28T02:38:16.426Z",
       "items": 22
     },
     "usgs": {
       "ok": true,
-      "at": "2026-11-28T01:54:03.210Z",
+      "at": "2026-11-28T02:38:16.836Z",
       "items": 8
     },
     "il-embassy": {
       "ok": true,
-      "at": "2026-11-28T01:54:04.677Z",
+      "at": "2026-11-28T02:38:18.175Z",
       "items": 4
     },
     "ert": {
       "ok": true,
-      "at": "2026-11-28T01:54:05.275Z",
+      "at": "2026-11-28T02:38:19.015Z",
       "items": 2
     },
     "gtp": {
       "ok": true,
-      "at": "2026-11-28T01:54:06.072Z",
+      "at": "2026-11-28T02:38:19.586Z",
       "items": 10
     },
     "toi-greece": {
@@ -1662,22 +1665,22 @@
     },
     "ktg": {
       "ok": true,
-      "at": "2026-11-28T01:54:06.495Z",
-      "items": 5
+      "at": "2026-11-28T02:38:20.368Z",
+      "items": 0
     },
     "gct": {
       "ok": true,
-      "at": "2026-11-28T01:54:06.565Z",
+      "at": "2026-11-28T02:38:20.484Z",
       "items": 15
     },
     "ingr": {
       "ok": true,
-      "at": "2026-11-28T01:54:06.709Z",
-      "items": 5
+      "at": "2026-11-28T02:38:20.597Z",
+      "items": 6
     },
     "naftemporiki": {
       "ok": true,
-      "at": "2026-11-28T01:54:06.839Z",
+      "at": "2026-11-28T02:38:20.802Z",
       "items": 3
     },
     "ynet-greece": {
@@ -1687,12 +1690,12 @@
     },
     "strikes-naftemporiki": {
       "ok": true,
-      "at": "2026-11-28T01:54:01.681Z",
+      "at": "2026-11-28T02:38:15.230Z",
       "items": 30
     },
     "hcaa": {
       "ok": true,
-      "at": "2026-11-28T01:54:07.267Z",
+      "at": "2026-11-28T02:38:21.598Z",
       "items": 0
     },
     "hcg": {
@@ -1703,33 +1706,33 @@
     },
     "oasa": {
       "ok": true,
-      "at": "2026-11-28T01:54:09.502Z",
+      "at": "2026-11-28T02:38:22.650Z",
       "items": 0
     },
     "gn-civilprotection": {
       "ok": true,
-      "at": "2026-11-28T01:54:09.718Z",
-      "items": 12
+      "at": "2026-11-28T02:38:22.857Z",
+      "items": 13
     },
     "gn-pm": {
       "ok": true,
-      "at": "2026-11-28T01:54:09.894Z",
+      "at": "2026-11-28T02:38:23.026Z",
       "items": 2
     },
     "gn-hcg": {
       "ok": true,
-      "at": "2026-11-28T01:54:10.170Z",
+      "at": "2026-11-28T02:38:23.316Z",
       "items": 1
     },
     "gn-kathimerini": {
       "ok": true,
-      "at": "2026-11-28T01:54:10.482Z",
+      "at": "2026-11-28T02:38:23.712Z",
       "items": 8
     },
     "gn-iefimerida": {
       "ok": true,
-      "at": "2026-11-28T01:54:10.944Z",
-      "items": 6
+      "at": "2026-11-28T02:38:24.116Z",
+      "items": 5
     }
   },
   "tgOffset": 829774786,
@@ -2064,40 +2067,13 @@
   ],
   "tgWelcomed": true,
   "lastSelection": {
-    "at": "2026-11-28T01:54:12.017Z",
-    "considered": 31,
-    "picked": 2,
+    "at": "2026-11-28T02:38:25.099Z",
+    "considered": 3,
+    "picked": 0,
     "items": [
-      "· ingr | Γάζα: Ο ισραηλινός στρατός δολοφόνησε και εργαζόμενους των Γιατρών Χωρίς Σύνορα, που δηλών",
-      "· ert | Γάζα: Νεκροί δύο εργαζόμενοι των «Γιατρών Χωρίς Σύνορα» από ισραηλινό πλήγμα",
-      "· gct | Greece Offers €10,000 to Relocate to Northern Regions",
-      "· gct | Greece Targets Early 2027 Launch for EU-Wide Digital ID",
-      "· gct | Stamatis Gonidis: I Would Have Chosen to Be a Monk",
-      "✓ gct | EMY Issues Red Weather Warning as Greece Faces Weekend Storms and 10-Beaufort Winds",
-      "· ingr | Σατιρική εκπομπή του Ισραήλ φτιάχνει το «GTA του Μπεν Γκβιρ» το οποίο είναι τρομακτικά ρεα",
-      "· gct | SpaceX Satellite Plan Raises Alarm Over Future of Night Sky",
-      "· gct | Thessaloniki Hospitals Win Ten Awards at Healthcare Awards",
-      "· gct | Greek Police Take Suspect Known as “Chinese” into Custody",
-      "· gct | Rethymno Mourns Former Evzone Who Dies of Cancer at 29",
-      "✓ gct | Doco Revives Lost 2,000-Year History of Kavala’s Jewish Community",
-      "· gct | Greek President to Meet Erdogan in Istanbul at Turkish Leader’s Request",
-      "· gct | Greece Calls for Institutional Reforms at UN Tourism Council",
-      "· gct | Greece Allocates €20 Million to Restore Flood Damage in Evia",
-      "· gct | Heraklion Airport Ranks Among World’s Best Airports",
-      "· gct | Greek Navy Welcomes Belharra Frigate Nearchos to Greek Waters",
-      "· gct | Greece Offers Tourism Investors Four Funding Options",
-      "· ingr | ΗΠΑ: Εκατοντάδες χιλιάδες νοικοκυριά παραμένουν χωρίς ηλεκτρικό ρεύμα λόγω της κακοκαιρίας",
-      "· ingr | Κακοκαιρία: Τι προβλέπεται για εξωτερικές εργασίες και delivery στις περιοχές με έντονα φα",
-      "· naftemporiki | Εκατοντάδες χιλιάδες νοικοκυριά παραμένουν χωρίς ηλεκτρικό ρεύμα στις ΗΠΑ",
-      "· gn-iefimerida | Υπουργείο Εργασίας: Παύση υπαίθριων εργασιών λόγω της κακοκαιρίας -Πρόστιμα 2.000 ευρώ στο",
-      "· gn-kathimerini | Αϊζενκοτ: Ο Νετανιάχου καθυστερεί τις διαπραγματεύσεις για να οδηγήσει το Ισραήλ σε νέες ε",
-      "· gn-kathimerini | Κακοκαιρία: Σε Red Code έξι περιφέρειες εν αναμονή έντονων φαινομένων - Kathimerini",
-      "· gn-kathimerini | Κίνημα «Φορολογήστε μας» από «Πατριώτες Εκατομμυριούχους» - Kathimerini",
-      "· gn-iefimerida | Εικόνες καταστροφής στο Μεσολόγγι από την κακοκαιρία: Πλημμύρισαν σπίτια, μεγάλες ζημιές σ",
-      "· gn-kathimerini | Μεσολόγγι: Επιχείρηση απεγκλωβισμού δύο ανδρών από όχημα λόγω κακοκαιρίας - Kathimerini",
-      "· gn-iefimerida | Ήχησε το 112 στο Μεσολόγγι λόγω της κακοκαιρίας -«Περιορίστε τις μετακινήσεις σας» - iefim",
-      "· gtp | GNTO Targets High-End French Travelers with Voyage Privé Campaign",
-      "· gn-civilprotection | Βροχές και καταιγίδες προβλέπονται από σήμερα Παρασκευή (27/11/2026) ως και την Κυριακή (2"
+      "· ert | Γερμανία: Συναγερμός στο αεροδρόμιο Κολωνίας-Βόννης λόγω ύποπτου drone – Αναστολή λειτουργ",
+      "· ingr | Γερμανία: Το αεροδρόμιο Κολωνίας-Βόννης ανέστειλε τη λειτουργία του εξαιτίας ύποπτου drone",
+      "· gn-civilprotection | Ευρεία συντονιστική σύσκεψη στην Κέρκυρα υπό τον Γενικό Γραμματέα Πολιτικής Προστασίας Νίκ"
     ]
   },
   "evergreenDone": [
