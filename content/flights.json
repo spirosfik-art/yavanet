@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T15:52:54+02:00",
+  "updated": "2026-11-28T15:00:25+02:00",
   "source": {
     "name": "Aviasales",
     "url": "https://www.aviasales.com"
@@ -9,12 +9,12 @@
       "dest": "ATH",
       "he": "אתונה",
       "en": "Athens",
-      "price": 119,
-      "depart": "2026-12-22",
-      "ret": "2026-12-29",
+      "price": 114,
+      "depart": "2026-12-20",
+      "ret": "2026-12-24",
       "airline": "Wizz Air",
       "transfers": 0,
-      "link": "https://www.aviasales.com/search/TLV2212ATH29121?t=W417979438001797952200000140TLVATH17985378001798545300000125ATHTLV_77c43a56476ed4c9adfdb1d0c988493e_10671&search_date=27112026&expected_price_uuid=01a21a4f-46fd-8031-2c33-e665d03e43f8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BSSAnsvJc_nnEV2ey15bCA&expected_price_source=share&expected_price_currency=eur&expected_price=119&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2012ATH24121?t=W417977710001797779400000140TLVATH17981058001798113300000125ATHTLV_d9312794d6258796e891e8c937adc5fd_10221&search_date=28112026&expected_price_uuid=01a221de-3e7e-8030-280e-830e91c4ebe2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eaOSZtoDW6EXAM78P9-Xtg&expected_price_source=share&expected_price_currency=eur&expected_price=114&marker=782936"
     },
     {
       "dest": "SKG",
@@ -31,23 +31,23 @@
       "dest": "HER",
       "he": "הרקליון, כרתים",
       "en": "Heraklion, Crete",
-      "price": 203,
-      "depart": "2026-11-30",
-      "ret": "2026-12-05",
-      "airline": "Wizz Air",
+      "price": 236,
+      "depart": "2026-12-17",
+      "ret": "2026-12-19",
+      "airline": "Aegean",
       "transfers": 1,
-      "link": "https://www.aviasales.com/search/TLV3011HER05121?t=W417960430001796062500000325TLVATHHER17964972001796503200000100HERTLV_c49b5fde6677ae1a80c27862889ecf28_18239&search_date=21112026&expected_price_uuid=01a1fdc3-59ca-8030-66f0-fb368c63b483&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7zjTl7GMzpq9c7BOgxbw6g&expected_price_source=share&expected_price_currency=eur&expected_price=203&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV1712HER19121?t=A317975346001797554100000325TLVATHHER17977068001797712800000100HERTLV_c91a45b4be2856937f1397cf9c1fe96a_21240&search_date=27112026&expected_price_uuid=01a21c9f-fb6d-8031-602e-4e0444f2a6ea&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=cjvAWl9u0u1uBg1XPmYQCg&expected_price_source=share&expected_price_currency=eur&expected_price=236&marker=782936"
     },
     {
       "dest": "RHO",
       "he": "רודוס",
       "en": "Rhodes",
-      "price": 267,
-      "depart": "2026-12-30",
-      "ret": "2027-01-05",
-      "airline": "Sky Express",
+      "price": 285,
+      "depart": "2026-11-29",
+      "ret": "2026-12-01",
+      "airline": "Wizz Air",
       "transfers": 2,
-      "link": "https://www.aviasales.com/search/TLV3012RHO05011?t=GQ17986734001798711500000635TLVATHRHO17991792001799236500000955RHOATHTLV_f38cc06f03d7fd19fb4d55c7fc82f334_24028&search_date=21112026&expected_price_uuid=01a1fdfb-9774-8030-24c2-1ab46d1a5d31&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3psLMGwP9tSdz3IzKcEp4w&expected_price_source=share&expected_price_currency=eur&expected_price=267&marker=782936"
+      "link": "https://www.aviasales.com/search/TLV2911RHO01121?t=W417959566001795992600000600TLVATHRHO17961612001796212500000855RHOATHTLV_7aea619276e1746edd71b6404fb865ee_25681&search_date=24112026&expected_price_uuid=01a20f15-eede-8030-a7ac-15d46d935321&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EgBnfxgJ7qFrUX45kldG4A&expected_price_source=share&expected_price_currency=eur&expected_price=285&marker=782936"
     },
     {
       "dest": "CFU",
