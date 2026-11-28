@@ -1,0 +1,61 @@
+{
+  "slug": "greece-vulnerable-households-housing-protection-crc",
+  "section": "real-estate",
+  "publishedAt": "2026-11-28T03:53:58+02:00",
+  "updatedAt": null,
+  "sensitive": true,
+  "sponsored": false,
+  "breaking": false,
+  "geo": {
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "name": "אתונה",
+    "country": "יוון"
+  },
+  "sources": [
+    {
+      "name": "Υπουργείο Εθνικής Οικονομίας & Οικονομικών",
+      "url": "https://minfin.gov.gr/oristikos-anadochos-gia-ton-forea-apoktisis-kai-epanamisthosis-akiniton-energopoieitai-to-dichty-stirixis-gia-ti-stegi-ton-evaloton-noikokyrion/"
+    }
+  ],
+  "image": {
+    "type": "photo",
+    "url": "https://images.pexels.com/photos/15238802/pexels-photo-15238802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "Panoramic aerial view of Athens featuring dense residential buildings under a clear sky.",
+    "credit": "Photo: Diego F. Parra / Pexels",
+    "creditUrl": "https://www.pexels.com/photo/cityscape-with-residential-district-15238802/",
+    "license": "Pexels License",
+    "fallbackKey": null
+  },
+  "alert": null,
+  "he": {
+    "title": "יוון: נבחר הגוף שינהל את תוכנית ההגנה על דיור משקי בית פגיעים",
+    "dek": "משרד הכלכלה והאוצר הלאומי באתונה הודיע על השלמת המכרז והכרזת הזוכה להפעלת מנגנון רכישה והשכרה מחדש של נכסים.",
+    "tldr": [
+      "משרד הכלכלה והאוצר ביוון הודיע על השלמת תהליך המכרז.",
+      "הגוף הנבחר CRC CF (Lux) ישמש כזכין הרשמי להפעלת פרויקט הדיור.",
+      "התוכנית נועדה לספק רשת ביטחון למשקי בית פגיעים הזקוקים לסיוע בדיור."
+    ],
+    "means": "המהלך נוגע למשקיעים ולפעילים בשוק הנדל\"ן המקומי, ומציג את המסגרת הרגולטורית החדשה לניהול נכסים והגנה על אוכלוסיות זכאיות לפי נתוני הממשלה באתונה.",
+    "body": "משרד הכלכלה והאוצר הלאומי ביוון פרסם הודעה רשמית על סיום מוצלח של הליך מכרזי מורכב, במסגרתו נבחר הגוף הכלכלי Christofferson, Robb & Company CF – Lux, הידוע כ-\"CRC CF (Lux)\" , כזכין הסופי להקמה ותפעול של גוף רכישת והשכרת הנכסים מחדש. על פי הודעת הרשויות באתונה, מדובר בצעד משמעותי שמטרתו להפעיל בפועל רשת ביטחון תומכת עבור משקי בית הנחשבים פגיעים הזקוקים לסיוע בשמירה על מקום מגוריהם. התהליך כלל בדיקה מקיפה של כלל המסמכים והאישורים הנדרשים עד להכרזה הרשמית על הזוכה במכרז הממשלתי."
+  },
+  "en": {
+    "title": "Greece: Final contractor selected for vulnerable households housing protection",
+    "dek": "The Ministry of National Economy and Finance announced the completion of the tender for the property acquisition and leaseback agency.",
+    "tldr": [
+      "Greece's Ministry of Economy completed a complex competitive tender process.",
+      "The entity CRC CF (Lux) was selected as the final contractor for the housing project.",
+      "The initiative establishes a support safety net for vulnerable households in need of housing."
+    ],
+    "means": "This official update outlines the institutional framework for housing support and property management in Greece according to government announcements.",
+    "body": "The Greek Ministry of National Economy and Finance announced the successful completion of a demanding tender process, culminating in the selection of the economic entity Christofferson, Robb & Company CF – Lux, operating as \"CRC CF (Lux)\", as the final contractor to manage and operate the Property Acquisition and Leaseback Agency. According to the official statement from Athens, this marks a decisive step toward activating the support safety net designed to protect the housing of vulnerable households. The announcement follows the thorough review and verification of all required qualification documents by the competent authorities."
+  },
+  "meta": {
+    "itemId": "3840dd74d494",
+    "imageQuery": "Athens real estate ministry building Greece",
+    "sourceHash": "512893004ef5",
+    "model": "gemini-2.5-flash",
+    "checkedAt": "2026-11-28T01:53:58.447Z",
+    "official": true
+  }
+}
